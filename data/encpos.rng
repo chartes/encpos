@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" 
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" 
+    xmlns:h="http://www.w3.org/1999/xhtml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" 
+    ns="http://www.tei-c.org/ns/1.0" 
+    xml:lang="fr">
+  
+  <a:documentation>Positions de thèses de l'École des chartes</a:documentation>
+
+  <start>
+    <element name="TEI">
+      <ref name="teiHeader"/>
+      <ref name="text"/>
+    </element>
+  </start>
+  
+  <!-- Métadonnées – à discuter (pas obligatoire) -->
+  
+  <define name="teiHeader">
+    <element name="teiHeader">
+      <element name="fileDesc">
+        <element name="titleStmt">
+          <optional>
+            <element name="title">
+              <attribute name="type">
+                <value>sup</value>
+              </attribute>
+              <ref name="rich-content"/>
+            </element>
+          </optional>          
+          <element name="title">
+            <ref name="rich-content"/>
+          </element>
+          <optional>
+            <element name="title">
+              <attribute name="type">
+                <value>sub</value>
+              </attribute>
+              <ref name="rich-content"/>
+            </element>              
+          </optional>
+          <element name="author">
+            <text/>
+          </element>
+        </element>
+        <element name="publicationStmt">
+          <element name="publisher">
+            <value>École des chartes</value>
+          </element>
+          <element name="date">
+            <attribute name="when"/>
+          </element>
+          <element name="availability">
+            <attribute name="status">
+              <value>restricted</value>
+            </attribute>
+            <element name="licence">
+              <attribute name="target">
+                <value>http://creativecommons.org/licenses/by-nc-nd/3.0/fr/</value>
+              </attribute>
+            </element>
+          </element>
+        </element>
+        <element name="sourceDesc">
+          <a:documentation>Lien au PDF</a:documentation>
+          <attribute name="corresp"/>
+          <empty/>
+        </element>
+      </element>
+    </element>
+  </define>
+  
+  <!-- Texte (OCR) -->
+  
+  <define name="text">
+    <element name="text">
+      <ref name="body"/>
+    </element>
+  </define>
+  
+  <define name="body">
+    <element name="body">
+      <a:documentation>Lien à la première page de l’édition – obligatoire</a:documentation>
+      <ref name="pb"/>
+      <a:documentation>Titre complet de la position, tel qu’imprimé – obligatoire</a:documentation>
+      <ref name="head"/>
+      <a:documentation>Mention de responsabilité, telle qu’imprimée – obligatoire</a:documentation>
+      <ref name="byline"/>
+      <oneOrMore>
+        <ref name="div"/>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="head">
+    <element name="head">
+      <a:documentation>Titres de la position, des parties et des chapitres</a:documentation>
+      <optional>
+        <a:documentation>Question : bascule de la casse pour les titres ?</a:documentation>
+        <attribute name="rend">
+          <value>uc</value>
+        </attribute>
+      </optional>
+      <ref name="rich-content"/>
+    </element>
+  </define>
+  
+  <define name="byline">
+    <a:documentation>Mention de responsabilité : l’auteur de la position, tel qu’imprimé en page 1.</a:documentation>
+    <element name="byline">
+      <ref name="rich-content"/>
+    </element>
+  </define>
+  
+  <define name="div">
+    <a:documentation>Parties et chapitres. Récursif : un chapitre est contenu dans une partie, etc.</a:documentation>
+    <element name="div">
+      <a:documentation>OBLIGATOIRE: une section (titre, chapitre ou sous-chapitre) s’ouvre nécessairement par un titre</a:documentation>
+      <optional>
+        <ref name="pb"/>
+      </optional>
+      <ref name="head"/>
+      <choice>
+        <group>
+          <oneOrMore>
+            <choice>
+              <ref name="p"/>
+              <ref name="pb"/>
+              <ref name="div"/>
+            </choice>
+          </oneOrMore>
+        </group>
+        <oneOrMore>
+          <choice>
+            <ref name="div"/>
+            <ref name="pb"/>
+          </choice>
+        </oneOrMore>
+      </choice>
+    </element>
+  </define>
+  
+  <define name="p">
+    <element name="p">
+      <a:documentation>Paragraphe (contient du texte avec des enrichissements typographiques et des sauts de page)</a:documentation>
+      <ref name="rich-content"/>    
+    </element>
+  </define>
+  
+  <define name="rich-content">
+    <a:documentation>Texte avec des enrichissements typographiques et des sauts de ligne (pour les titres) ou de page</a:documentation>
+    <oneOrMore>
+      <choice>
+        <text/>
+        <ref name="typo"/>
+        <ref name="lb"/>
+        <ref name="pb"/>
+      </choice>
+    </oneOrMore>
+  </define>
+  
+  <define name="typo">
+    <a:documentation>Enrichissement typographique (italique, exposant, MAJ) – faut-il prévoir d’autres enrichissements ?</a:documentation>
+    <element name="hi">
+      <attribute name="rend">
+        <choice>
+          <value>i</value>
+          <value>sup</value>
+          <value>uc</value>
+        </choice>
+      </attribute>
+      <oneOrMore>
+        <a:documentation>On peut trouver par ex. de l’exposant dans une chaîne en italique.</a:documentation>
+        <choice>
+          <text/>
+          <ref name="typo"/>
+          <ref name="lb"/>
+          <ref name="pb"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="lb">
+    <a:documentation>Saut de ligne, uniquement dans les titres</a:documentation>
+    <element name="lb">
+      <empty/>
+    </element>
+  </define>
+  
+  <define name="pb">
+    <a:documentation>Saut de page, avec numérotation (@n) et lien ou référence (à discuter) de l’image (@facs)</a:documentation>
+    <element name="pb">
+      <attribute name="n"/>
+      <attribute name="facs"/>
+    </element>
+  </define>
+  
+</grammar>
