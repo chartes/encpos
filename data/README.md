@@ -209,7 +209,28 @@ Exporter les données de ThENC@.
 
 Notamment les liens HAL lorsque le thèse à été déposée.
 
+## Réconciliation des données 
+Requête SPARQL pour récupérer l'ark data.bnf et le catalogue général à partir du ppn idref:
 
+~~~ sparql
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?person
+WHERE {
+	?person skos:exactMatch <http://www.idref.fr/027059952>.
+} LIMIT 100
+~~~
+Si on souhaite récupérer en même temps l'id wikidata et le lien wikipedia, il faut rajouter des demandes pour la requête :
+~~~ sparql
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?person ?wikidata ?wikipedia
+WHERE {
+	?person skos:exactMatch <http://www.idref.fr/027059952>.
+  ?person skos:exactMatch ?wikidata;
+          skos:exactMatch ?wikipedia.
+  FILTER ( contains(str(?wikidata), "wikidata"))
+  FILTER ( contains(str(?wikipedia), "wikipedia"))}
+} LIMIT 100
+~~~
 
 ## Exports
 
@@ -290,6 +311,100 @@ Exemple
     </profileDesc>
   </teiHeader>
 ```
+2ème possibilité avec intégration des liens externes en changeant la forme de la balise author
+
+```xml
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>{html2tei(rich_title)}</title>
+        <author>
+          <persName>{author_firstname} {author_name}</persName>
+          <idno type="Idref">{author_idref-id}</idno>
+          <idno type="dbpedia">{id_dbpedia}</idno>
+          <idno type="Wikidata">{id_wikidata}</idno>
+          <idno type="Wikipedia">{link_wikipedia}</idno>
+          <idno type="DataBnF">{ark_databnf}</idno>
+          <idno type="CatalogueBnF">{ark_cataloguebnf}</idno>   
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <funder>École nationale des chartes</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>École nationale des chartes</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Positions des thèses</title>
+        <idno type="ISSN">0755-2976</idno>
+        <idno type="URI">http://www.sudoc.fr/013565311</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de {promotion_year} pour obtenir le diplôme d’archiviste paléographe</title>, <pubPlace>Paris</pubPlace>, <publisher>École des chartes</publisher>, <date>{promotion_year}</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="{promotion_year}"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+```
+
+Exemple avec l'intégration des liens extérieurs en changenant la forme autour de author 
+
+```xml
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le bestiaire héraldique au Moyen_Âge</title>
+        <author sameAs="https://www.idref.fr/027059952">Michel Pastoureau</author>
+        <author>
+          <persName>Michel Pastoureau</persName>
+          <idno type="Idref">027059952</idno>
+          <idno type="dbpedia">http://dbpedia.org/resource/Michel_Pastoureau</idno>
+          <idno type="Wikidata">http://wikidata.org/entity/Q2497623</idno>
+          <idno type="Wikipedia">http://fr.wikipedia.org/wiki/Michel_Pastoureau</idno>
+          <idno type="DataBnF">http://data.bnf.fr/ark:/12148/cb119187467</idno>
+          <idno type="CatalogueBnF">https://catalogue.bnf.fr/ark:/12148/cb119187467</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>École nationale des chartes</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>École des chartes</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Positions des thèses</title>
+        <idno type="ISSN">0755-2976</idno>
+        <idno type="URI">http://www.sudoc.fr/013565311</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 2016 pour obtenir le diplôme d’archiviste paléographe</title>, <pubPlace>Paris</pubPlace>, <publisher>École des chartes</publisher>, <date>2016</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="2016"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+```
 
 
 ### CapiTains
@@ -300,8 +415,13 @@ TODO :
 
 - valider
 - ajouter des champs, notamment :
-	- `title_rich`
+	- `title_rich
 	- liages Wikidata, data.bnf, etc.
+  
+Tous les liens sont liées à l'auteur donc à une personne exemple de Michel Pastoureau pour son livre [*Le loup, une histoire culturelle*](https://data.bnf.fr/fr/temp-work/3c57f282f8a639ec0998784e8da7d8d5/rdf.jsonld)
+
+Donc une solution peut être de faire le liste des liens qui concerne l'auteur dans `dct:creator`
+
 
 ```xml
 <?xml-model href="../../../capitains.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
@@ -323,8 +443,14 @@ TODO :
       <dc:coverage>{topic_notBefore}-{topic_notAfter}</dc:coverage>
       <dc:format>application/tei+xml</dc:format>
       <cpt:structured-metadata>
+        <dct:title>{title_rich}</dct:title>
         <dct:extend>{pagination}</dct:extend>
         <dct:creator>https://www.idref.fr/{author_idref-id}</dct:creator>
+        <dct:creator>{ark_databnf}</dct:creator>
+        <dct:creator>{ark_cataloguebnf}</dct:creator>
+        <dct:creator>{id_wikidata}</dct:creator>
+        <dct:creator>{link_wikipedia}</dct:creator>
+        <dct:creator>{id_dbpedia}</dct:creator>
         <dct:isPartOf>https://www.sudoc.fr/{these_ppn-sudoc}</dct:isPartOf>
         <dct:isPartOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber={125235}</dct:isPartOf>
       </cpt:structured-metadata>
@@ -357,14 +483,18 @@ Exemple
       <cpt:structured-metadata>
         <dct:extend>143-154</dct:extend>
         <dct:creator>https://www.idref.fr/027059952</dct:creator>
+        <dct:creator>http://data.bnf.fr/ark:/12148/cb119187467</dct:creator>
+        <dct:creator>https://catalogue.bnf.fr/ark:/12148/cb119187467</dct:creator>
+        <dct:creator>http://wikidata.org/entity/Q2497623</dct:creator>
+        <dct:creator>http://fr.wikipedia.org/wiki/Michel_Pastoureau</dct:creator>
+        <dct:creator>http://dbpedia.org/resource/Michel_Pastoureau</dct:creator>
         <dct:isPartOf>https://www.sudoc.fr/234764724</dct:isPartOf>
         <dct:isPartOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=125235</dct:isPartOf>
       </cpt:structured-metadata>
     </cpt:collection>
   </cpt:members>
 </cpt:collection>
-```
-
+ ```
 
 ### DTS
 
@@ -377,49 +507,128 @@ Exemple
   "dts:passage": "/dts/document?id=ENCPOS_1972_18",
   "dts:references": "/dts/navigation?id=ENCPOS_1972_18",
   "dts:extensions": {
-    "ns1:publisher": [
-      {
-        "@value": "École nationale des chartes",
-        "@language": "mul"
-      }
-    ],
-    "ns1:language": "fr",
+    "ns1:format": "application/tei+xml",
     "ns1:type": [
       "dts:work",
       "dts:edition"
     ],
-    "ns1:creator": "Pastoureau, Michel",
-    "ns1:coverage": "1000-1499",
     "ns1:date": "1972",
+    "ns1:creator": [
+      "Pastoureau, Michel",
+      "https://www.idref.fr/027059952"
+    ],
+    "ns1:coverage": "1000-1499",
+    "ns1:publisher": [
+      {
+        "@value": "École des chartes, Paris",
+        "@language": "mul"
+      }
+    ],
     "ns1:title": [
       {
         "@value": "Le bestiaire héraldique au Moyen Âge",
         "@language": "fre"
       }
     ],
-    "ns1:format": "application/tei+xml"
+    "ns1:language": "fr"
   },
   "dts:dublincore": {
-    "dct:isPartOf": [
-      {
-        "@id": "https://www.sudoc.fr/234764724"
-      },
-      "benc_number: 125235"
-    ],
     "dct:creator": [
       {
+        "@id": "http://wikidata.org/entity/Q2497623"
+      },
+      {
         "@id": "https://www.idref.fr/027059952"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Michel_Pastoureau"
+      },
+      {
+        "@id": "http://data.bnf.fr/ark:/12148/cb119187467"
+      },
+      {
+        "@id": "https://catalogue.bnf.fr/ark:/12148/cb119187467"
+      },
+      {
+        "@id": "http://fr.wikipedia.org/wiki/Michel_Pastoureau"
+      }
+    ],
+    "dct:isPartOf": [
+      "benc_number: 125235",
+      {
+        "@id": "https://www.sudoc.fr/234764724"
       }
     ],
     "dct:extend": "143-154"
   },
   "@context": {
-    "ns1": "http://purl.org/dc/elements/1.1/",
-    "dts": "https://w3id.org/dts/api#",
     "dct": "http://purl.org/dc/terms/",
+    "dts": "https://w3id.org/dts/api#",
+    "ns1": "http://purl.org/dc/elements/1.1/",
     "@vocab": "https://www.w3.org/ns/hydra/core#"
   }
 }
 ```
 
+Après lecture de l'issue 42 projet DTS sur github dans dct:creator, on ne devrait avoir qu'une liste d'URIRef et ne pas avoir des dictionnaires. Voir l'issue [https://github.com/distributed-text-services/specifications/issues/42](https://github.com/distributed-text-services/specifications/issues/42). Le problème semble être dans le fichier _json_ld.py de MyCapitain qui considère qu'un URIRef doit être dans un dictionnaire avec une id [https://github.com/Capitains/MyCapytain/blob/dev/MyCapytain/common/utils/_json_ld.py](https://github.com/Capitains/MyCapytain/blob/dev/MyCapytain/common/utils/_json_ld.py)
 
+
+```json
+{
+  "@id": "ENCPOS_1972_18",
+  "@type": "Resource",
+  "title": "Le bestiaire héraldique au Moyen Âge",
+  "totalItems": 0,
+  "dts:passage": "/dts/document?id=ENCPOS_1972_18",
+  "dts:references": "/dts/navigation?id=ENCPOS_1972_18",
+  "dts:extensions": {
+    "ns1:format": "application/tei+xml",
+    "ns1:type": [
+      "dts:work",
+      "dts:edition"
+    ],
+    "ns1:date": "1972",
+    "ns1:creator": [
+      "Pastoureau, Michel",
+      "https://www.idref.fr/027059952"
+    ],
+    "ns1:coverage": "1000-1499",
+    "ns1:publisher": [
+      {
+        "@value": "École des chartes, Paris",
+        "@language": "mul"
+      }
+    ],
+    "ns1:title": [
+      {
+        "@value": "Le bestiaire héraldique au Moyen Âge",
+        "@language": "fre"
+      }
+    ],
+    "ns1:language": "fr"
+  },
+  "dts:dublincore": {
+    "dct:creator": [
+      "http://wikidata.org/entity/Q2497623",
+      "https://www.idref.fr/027059952",
+      "http://dbpedia.org/resource/Michel_Pastoureau",
+      "http://data.bnf.fr/ark:/12148/cb119187467",
+      "https://catalogue.bnf.fr/ark:/12148/cb119187467",
+      "http://fr.wikipedia.org/wiki/Michel_Pastoureau"
+    ],
+    "dct:isPartOf": [
+      "benc_number: 125235",
+      {
+        "@id": "https://www.sudoc.fr/234764724"
+      }
+    ],
+    "dct:extend": "143-154"
+  },
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dts": "https://w3id.org/dts/api#",
+    "ns1": "http://purl.org/dc/elements/1.1/",
+    "@vocab": "https://www.w3.org/ns/hydra/core#"
+  }
+}
+```
