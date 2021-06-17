@@ -24,7 +24,7 @@ Cet identifiant permet de désigner :
 
 - la source XML/TEI : `ENCPOS_1972_18.xml`
 - le fichier PDF : `ENCPOS_1972_18.pdf`
-- le manifeste IIIF
+- le manifeste IIIF : [https://iiif.chartes.psl.eu/encpos/encpos_1972_12/manifest](https://iiif.chartes.psl.eu/encpos/encpos_1972_12/manifest)
 
 
 ### `title_rich`
@@ -40,10 +40,6 @@ Recours à 3 balises HTML5 :
 - `sup`
 - `i` : pour les titres, expressions en langue étrangère
 
-Ce titre devrait être le titre de référence. Mais les collègues de la bibliothèque ont crée et corrigé prioritairement le champ `title_text` plus en cohérence avec les usages SIGB. Il faudrait reporter les corrections dans `title_rich` de manière à en faire le titre de référence et pouvoir supprimer `title_text` qui doit être généré par suppression des balises.
-
-NB. Déterminer dans quelle mesure ce champ n’est pas corrigé à nouveau à l’import Omeka, pour définir la meilleure stratégie de reprise.
-
 NB. A partir de 2016, nous avons des titres **et des sous-titres** inscrits dans les `teiHeader` -> récupérer l’information.
 
 NB. Des thèses ont presque le même titre. Donnée à explorer et proposer du rebond (thèse similaire).
@@ -51,9 +47,9 @@ NB. Des thèses ont presque le même titre. Donnée à explorer et proposer du r
 
 ### `title_text`
 
-Titre de la position, sans enrichissement typographique, pour export SIGB : `title_rich`, sans les balises. C’est le champ qui a été corrigé.
+Titre de la position, sans enrichissement typographique, pour export SIGB et DTS (`title`) : export de `title_rich`, sans les balises.
 
-NB. `title_text` doit disparaître, pour être dérivé de `title_rich`.
+**NB TODO. `title_text` doit disparaître, pour être dérivé de `title_rich`.**
 
 
 ### `author_name`
