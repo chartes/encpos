@@ -29,7 +29,9 @@ Cet identifiant permet de désigner :
 
 ### `title_rich`
 
-Titre de la position, avec des enrichissements typographiques
+Titre de la position, avec des enrichissements typographiques.
+
+Pour les exports SIGB et DTS (`dc:title`), le titre de la position sans enrichissement typographique, est généré par la simple suppression de ces balises.
 
 - format : HTML5
 - par exemple : `<i>Ciperis de Vignevaux</i>, chanson de geste du début du <small>XV</small><sup>e</sup> siècle. Étude et édition`
@@ -45,60 +47,64 @@ NB. A partir de 2016, nous avons des titres **et des sous-titres** inscrits dans
 NB. Des thèses ont presque le même titre. Donnée à explorer et proposer du rebond (thèse similaire).
 
 
-### `title_text`
-
-Titre de la position, sans enrichissement typographique, pour export SIGB et DTS (`title`) : export de `title_rich`, sans les balises.
-
-**NB TODO. `title_text` doit disparaître, pour être dérivé de `title_rich`.**
-
-
-### `author_name`
-
-Nom de l’auteur de la position, en minuscules avec majuscules initiales :
-
-- `Bastard, De`
-- `Delisle`
-- `La Borderie, De`
-
-Pour les tris, par exemple sur la recherche.
-
-NB : problème du formatage du `dc:creator` dans la réponse DTS, par ex `La Borderie, De, Louis-Arthur`: [`https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1852_01`](https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1852_01)
-
-
-### `author_firstname`
-
-Prénom de l’auteur, en minuscules avec majuscules initiales.
-
-Pour affichage trié par nom.
-
-
-### `author_idref-key`
-
-[`Champ 900 code $a`](https://www.loc.gov/marc/bibliographic/bd9xx.html) pour la description de l’auteur.
-
-- `Bastard d'Estang, Léon de (1822-1860 ; Cte)`
-- `Delisle, Léopold (1826-1910)`
-- `La Borderie, Arthur Le Moyne de (1827-1901)`
-
-Moins utile à présent, d’autant que la donnée est récupérable via API. Évaluer l’opportunité de conserver ce champ, au profit du seul `PPN`.
-
-
-### `author_idref-id`
-
-Le [`PPN`](https://data.idref.fr/) IdRef de l’auteur : identifiant à 9 caractères (NB. peut commencer par un `0`).
-
-- Il faut couvrir autant que possible notre corpus – Cf action en cours avec l’ABES.
-- Renommer l’attribut `author_idref-ppn`, plus explicite.
-
-
 ### `promotion_year`
 
 Année du volume de la position. Revoir avec VS la valeur sémantique précise : promotion ? soutenance ? publication ?
 
 
-### `pagination`
+### `author_name`
 
-Pagination de la position dans le volume annuel : `startPage-endPage`.
+Nom standardisé de l’auteur (minuscules et majuscules initiales), pour les tris.
+
+- `Bastard, De`
+- `Delisle`
+- `La Borderie, De`
+
+
+### `author_firstname`
+
+Prénom de l’auteur, en minuscules avec majuscules initiales, pour les tris (utile notamment pour rechercher une autrice).
+
+
+### `author_fullname_label`
+
+Nom complet de l’auteur (Prenom Nom) pour affichage.
+
+
+### `author_idref_ppn`
+
+Le [`PPN`](https://data.idref.fr/) IdRef de l’auteur : identifiant à 9 caractères (NB. peut commencer par un `0`).
+
+- Pour l’identification des auteurs et le liage Sudoc.
+- Donnée de référence utile à différents liages (data.bnf, Wikidata, etc.).
+- L’ABES s’engage à fournir un PPN pour **tous** les auteurs du corpus. Dialogue avec la bibliothèque en cours : 187 PPN manquant (le 18/06/2021).
+
+
+### `author_bnf_ark`
+
+Liage : identifiant ark BnF de l’auteur. Utile pour le liage data.bnf.fr et le lien à la notice auteur du catalogue général de la BnF.
+
+par ex., pour `ark:/12148/cb119187467` :
+
+- lien data.bnf.fr : [https://data.bnf.fr/ark:/12148/cb119187467](https://data.bnf.fr/ark:/12148/cb119187467)
+- lien catalogue général : [https://catalogue.bnf.fr/ark:/12148/cb119187467](https://catalogue.bnf.fr/ark:/12148/cb119187467)
+
+
+### `author_wikidata_id`
+
+Liage : identifiant (`Q`) Wikidata de l’auteur. Donnée pivot essentielle (liage Wikipedia) et l’appel à différentes ressources (portrait de l’auteur, etc.)
+
+
+### `author_wikipedia_url`
+
+URL de la page Wikipedia (fr) de l’auteur.
+
+TODO. Revoir l’encodage des URL?
+
+
+### `author_dbpedia_id`
+
+Liage : identifiant (`string`) DBpedia de l’auteur.
 
 
 ### `author_gender`
@@ -111,40 +117,59 @@ Genre de l’auteur :
 Permet d’observer le bouleversement de l’équilibre des genres sur 150 ans.
 
 
+### `author_is_enc_teacher`
+
+Booléen pour déterminer si l’auteur de la position a par la suite été professeur à l’École des chartes.
+
+- `1` : futur professeur de l’École des chartes
+- `O` : sinon
+
+
+### `pagination`
+
+Pagination de la position dans le volume annuel : `startPage-endPage`.
+
+
 ### `topic_notBefore` et `topic_notAfter`
 
 Indexation sujet, bornes chronologiques du sujet traité par la thèse.
 
-- TODO : standardiser les dates, [EDTF](https://www.loc.gov/standards/datetime/).
-- Voir avec VS si ces données sont enrichies.
+- TODO : analyse des dates inscrites : évaluer si ISO 8601 est suffisamment expressif
+- TODO : standardiser les dates en ISO 8601, sinon en [EDTF](https://www.loc.gov/standards/datetime/).
+- TODO : validation de la fonction d’export de ces 2 bornes sous forme d’intervalle dans `dc:coverage`
+- TODO : voir avec VS si ces données sont enrichies.
 
 
-### `enc_teacher`
+### `thenca_these-record_id`
 
-Booléen pour déterminer si l’auteur de la position a par la suite été professeur à l’École des chartes.
-
-
-### `these_ppn-sudoc`
-
-Identifiant pérenne de la notice de la position de thèse dans le Sudoc. Par ex. `234764724` pour [https://www.sudoc.fr/234764724](https://www.sudoc.fr/234764724)
-
-À conserver absolument.
+L’identifiant numérique ThENC@ de la notice de la thèse correspondante. Par ex., pour `47536`, la notice est accessible : [http://bibnum.chartes.psl.eu/s/thenca/item/47536](http://bibnum.chartes.psl.eu/s/thenca/item/47536)
 
 
-### `site:id`, `these_id`, `these_biblionumber-benc`
+### `benc_these-record_id`
 
-Différents liages au gré des différentes tentatives d’identification.
+L’identifiant de la notice de la thèse correspondante dans le SIGB de la bibliothèque de l’ENC. Par ex., pour `125235`, la notice est accessible : [https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=125235](https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=125235)
+
+
+### `sudoc_these-record_ppn`
+
+Identifiant de la notice de la thèse correspondante dans le Sudoc. Par ex., pour `234764724`, la notice est accessible : [https://www.sudoc.fr/234764724](https://www.sudoc.fr/234764724)
+
+NB. Donnée essentielle pour reconstruire de nombreux liages.
+
+
+### `hal_these-record_id`
+
+Identifiant de la notice de la thèse correspondante dans [HAL-SHS](https://halshs.archives-ouvertes.fr/). Par ex., pour `tel-01116805v1`, la notice est accessible : [https://halshs.archives-ouvertes.fr/tel-01116805v1](https://halshs.archives-ouvertes.fr/tel-01116805v1)
+
+NB. La thèse numérisée peut-être accessible sur le portail HAL-SHS.
+
+
+### Identifiants abandonnés de la bibliothèque
+
+Ces identifiants ont pu être utilisés au cours du projet, à la bibliothèque. Abandonnés, ils ne sont pas inscrits dans le tableau des métadonnées. Nous les documentons pour mémoire :
 
 - `site:id` : concaténation `{AAAA}{numéro-ordre}`, par ex. `197218` pour `ENCPOS_1972_18`. Ajout des M2TNAH ? Quelle utilité ? Supprimer ?
 - `these_id` : `{AAAA}THESE{numéro-ordre}`, par ex. `1972THESE18`. Cote BENC : toujours utilisé ? on garde ?
-- `these_biblionumber-benc` : identifiant BENC, par ex. [`125235`](https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=125235). Cote BENC : toujours utilisé ? on garde ?
-
-### Ce qui nous manque :
-
-- Lien vers ThENC@
-- Lien HAL vers la thèse
-- Construire les liages (auteurs), cf plus bas
-
 
 
 ## Liages
