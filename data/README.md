@@ -5,26 +5,26 @@ Métadonnées des positions de thèses
 
 L’application est pilotée par le tableau `encpos.tsv` :
 
-- les attributs sont injectés dans les fichiers `__capitains__.xml` grâce à un [Capitainizer](https://github.com/chartes/capitainizer).
-- les métadonnées sont ainsi accessibles grâce à un *endpoint* DTS.
+- les métadonnées sont injectées dans les fichiers `__capitains__.xml` grâce à un [Capitainizer](https://github.com/chartes/capitainizer).
+- les métadonnées sont ensuite exposées via le *endpoint* DTS `Collections`, par ex. : [https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18](https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18)
 
 Une position de thèse et un résumé d’une thèse d’École des chartes publié dans le volume annuel des positions des thèses.
 
 
-## Métadonnées
+## Métadonnées de référence : `encpos.tsv`
 
 ### `id`
 
 Identifiant de la position
 
-- format : `ENCPOS_{AAAA}_{NN}`. `AAAA` : année ;  `NN` : numéro d’ordre dans le volume.
+- format : `ENCPOS_{AAAA}_{NN}` (`AAAA` : année de publication ;  `NN` : numéro d’ordre dans le volume).
 - par exemple : `ENCPOS_1972_18`
 
 Cet identifiant permet de désigner :
 
 - la source XML/TEI : `ENCPOS_1972_18.xml`
 - le fichier PDF : `ENCPOS_1972_18.pdf`
-- le manifeste IIIF : [https://iiif.chartes.psl.eu/encpos/encpos_1972_12/manifest](https://iiif.chartes.psl.eu/encpos/encpos_1972_12/manifest)
+- le manifeste IIIF : [`https://iiif.chartes.psl.eu/encpos/encpos_1972_12/manifest`](https://iiif.chartes.psl.eu/encpos/encpos_1972_12/manifest)
 
 
 ### `title_rich`
@@ -36,20 +36,16 @@ Pour les exports SIGB et DTS (`dc:title`), le titre de la position sans enrichis
 - format : HTML5
 - par exemple : `<i>Ciperis de Vignevaux</i>, chanson de geste du début du <small>XV</small><sup>e</sup> siècle. Étude et édition`
 
-Recours à 3 balises HTML5 :
+3 balises HTML5 autorisées :
 
-- `small` : pour les petites caps, par ex. `<small>XV</small><sup>e</sup> siècle`. Permet de conserver la chaîne de caractères en MAJ, pour l’export texte brut.
-- `sup`
-- `i` : pour les titres, expressions en langue étrangère
-
-NB. A partir de 2016, nous avons des titres **et des sous-titres** inscrits dans les `teiHeader` -> récupérer l’information.
-
-NB. Des thèses ont presque le même titre. Donnée à explorer et proposer du rebond (thèse similaire).
+- `small` : chaîne **en capitales**, rendue en petites capitales. On conserve ainsi les capitales, pour l’export texte brut. Par ex. `<small>XV</small><sup>e</sup> siècle` → `XVe siècle` (et non `xve siècle`).
+- `sup` : exposant.
+- `i` : titre cité ou expression en langue étrangère.
 
 
 ### `promotion_year`
 
-Année du volume de la position. Revoir avec VS la valeur sémantique précise : promotion ? soutenance ? publication ?
+Année de publication du volume de la position (et donc de la promotion qui soutient sa thèse).
 
 
 ### `author_name`
@@ -92,7 +88,7 @@ par ex., pour `ark:/12148/cb119187467` :
 
 ### `author_wikidata_id`
 
-Liage : identifiant (`Q`) Wikidata de l’auteur. Donnée pivot essentielle (liage Wikipedia) et l’appel à différentes ressources (portrait de l’auteur, etc.)
+Liage : identifiant (`Q`) Wikidata de l’auteur. Donnée pivot essentielle (liage Wikipedia) et l’appel à différentes ressources (portrait de l’auteur, etc.).
 
 
 ### `author_wikipedia_url`
@@ -114,7 +110,7 @@ Genre de l’auteur :
 - `1` : masculin
 - `2` : féminin
 
-Permet d’observer le bouleversement de l’équilibre des genres sur 150 ans.
+Permet d’observer l’équilibre des genres sur 150 ans.
 
 
 ### `author_is_enc_teacher`
@@ -132,12 +128,8 @@ Pagination de la position dans le volume annuel : `startPage-endPage`.
 
 ### `topic_notBefore` et `topic_notAfter`
 
-Indexation sujet, bornes chronologiques du sujet traité par la thèse.
-
-- TODO : analyse des dates inscrites : évaluer si ISO 8601 est suffisamment expressif
-- TODO : standardiser les dates en ISO 8601, sinon en [EDTF](https://www.loc.gov/standards/datetime/).
-- TODO : validation de la fonction d’export de ces 2 bornes sous forme d’intervalle dans `dc:coverage`
-- TODO : voir avec VS si ces données sont enrichies.
+Indexation sujet : bornes chronologiques du sujet traité, inscrites en [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).  
+Pour les millésimes avant notre ère : `-AAAA`.
 
 
 ### `thenca_these-record_id`
@@ -170,6 +162,343 @@ Ces identifiants ont pu être utilisés au cours du projet, à la bibliothèque.
 
 - `site:id` : concaténation `{AAAA}{numéro-ordre}`, par ex. `197218` pour `ENCPOS_1972_18`. Ajout des M2TNAH ? Quelle utilité ? Supprimer ?
 - `these_id` : `{AAAA}THESE{numéro-ordre}`, par ex. `1972THESE18`. Cote BENC : toujours utilisé ? on garde ?
+
+
+## CapiTains
+
+Les métadonnées inscrites dans `encpos.tsv` sont injectées dans les fichiers `__capitains__.xml` grâce à un [Capitainizer](https://github.com/chartes/capitainizer).
+
+Cette sérialisation XML des métadonnées doit se conformer aux [recommandations CapiTains](http://capitains.org/pages/guidelines). Un [schéma Relax-NG](https://raw.githubusercontent.com/Capitains/guidelines/master/capitains.rng) est disponible pour la validation.
+
+
+### Template
+
+```xml
+<?xml-model
+  href="https://raw.githubusercontent.com/Capitains/guidelines/master/capitains.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<cpt:collection
+  xmlns:dts="https://w3id.org/dts/api#"
+  xmlns:html="http://www.w3.org/1999/xhtml/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+  >
+  <cpt:identifier>{id}</cpt:identifier>
+  <dc:type>dts:work ???</dc:type><!-- Requis, mal documenté : on attend quoi ici ? -->
+  <dc:title xml:lang="fre">{html2string(title_rich)}</dc:title>
+  <cpt:parent>ENCPOS_{promotion_year}</cpt:parent>
+  <cpt:members>
+    <cpt:collection readable="true" path="./{id}.xml">
+      <cpt:identifier>{id}</cpt:identifier>
+      <dc:type>dts:edition ???</dc:type><!-- Requis, mal documenté : on attend quoi ici ? -->
+      <dc:title xml:lang="fre">{html2string(title_rich)}</dc:title><!-- Requis, mais redondant. cf //cpt:structured-metadata/dct:title -->
+      <dc:language>fre</dc:language><!-- Requis, mais redondant. cf //cpt:structured-metadata/dct:language -->
+      <cpt:parent>ENCPOS_{promotion_year}</cpt:parent>
+      <cpt:structured-metadata>
+        <dct:title xml:lang="fre">{html2string(title_rich)}</dct:title>
+        <html:h1>{title_rich}</html:h1>
+        <dct:creator>{author_fullname_label}</dct:creator>
+        <dct:creator>https://www.idref.fr/{author_idref_ppn}</dct:creator>
+        <dct:creator>https://catalogue.bnf.fr/{author_bnf_ark}</dct:creator>
+        <dct:creator>https://data.bnf.fr/{author_bnf_ark}</dct:creator>
+        <dct:creator>https://wikidata.org/entity/{author_wikidata_id}</dct:creator>
+        <dct:creator>{author_wikipedia_url}</dct:creator>
+        <dct:creator>https://dbpedia.org/resource/{author_dbpedia_id}</dct:creator>
+        <dct:date>{promotion_year}</dct:date>
+        <dct:extend>{pagination}</dct:extend>
+        <dct:publisher xml:lang="mul">École des chartes, Paris</dct:publisher>
+        <dct:language>fre</dct:language>
+        <dct:coverage>{iso8601(topic_notBefore, topic_notBefore)}</dct:coverage>
+        <dct:format>application/tei+xml</dct:format>
+        <dct:rights>https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:rights>
+        <dct:isVersionOf>https://www.sudoc.fr/{sudoc_these-record_ppn}</dct:isVersionOf>
+        <dct:isVersionOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber={benc_these-record_id}</dct:isVersionOf>
+        <dct:source>https://iiif.chartes.psl.eu/encpos/{id.lower()}/manifest</dct:source>
+        <dts:download>https://github.com/chartes/encpos/raw/metadata/data/ENCPOS_{promotion_year}/{id}.xml</dts:download>
+        <dts:download>https://github.com/chartes/encpos/raw/metadata/data/ENCPOS_{promotion_year}/{id}.PDF</dts:download>
+      </cpt:structured-metadata>
+    </cpt:collection>
+  </cpt:members>
+</cpt:collection>
+```
+
+### Exemple
+
+```xml
+<?xml-model
+  href="https://raw.githubusercontent.com/Capitains/guidelines/master/capitains.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<cpt:collection
+  xmlns:dts="https://w3id.org/dts/api#"
+  xmlns:html="http://www.w3.org/1999/xhtml/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cpt="http://purl.org/capitains/ns/1.0#">
+  <cpt:identifier>ENCPOS_1972_18</cpt:identifier>
+  <dc:type>dts:work ???</dc:type><!-- Requis, mal documenté : on attend quoi ici ? -->
+  <dc:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dc:title>
+  <cpt:parent>ENCPOS_1972</cpt:parent>
+  <cpt:members>
+    <cpt:collection readable="true" path="./ENCPOS_1972_18.xml">
+      <cpt:identifier>ENCPOS_1972_18</cpt:identifier>
+      <dc:type>dts:edition ???</dc:type><!-- Requis, mal documenté : on attend quoi ici ? -->
+      <dc:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dc:title><!-- Requis, mais redondant. cf //cpt:structured-metadata/dct:title -->
+      <dc:language>fre</dc:language><!-- Requis, mais redondant. cf //cpt:structured-metadata/dct:language -->
+      <cpt:parent>ENCPOS_1972</cpt:parent>
+      <cpt:structured-metadata>
+        <dct:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dct:title>
+        <html:h1>Le bestiaire héraldique au Moyen Âge</html:h1>
+        <dct:creator>Michel Pastoureau</dct:creator>
+        <dct:creator>https://www.idref.fr/027059952</dct:creator>
+        <dct:creator>https://catalogue.bnf.fr/ark:/12148/cb119187467</dct:creator>
+        <dct:creator>https://data.bnf.fr/ark:/12148/cb119187467</dct:creator>
+        <dct:creator>https://wikidata.org/entity/Q2497623</dct:creator>
+        <dct:creator>https://fr.wikipedia.org/wiki/Michel_Pastoureau</dct:creator>
+        <dct:creator>https://dbpedia.org/resource/Michel_Pastoureau</dct:creator>
+        <dct:date>1972</dct:date>
+        <dct:extend>143-154</dct:extend>
+        <dct:publisher xml:lang="mul">École des chartes, Paris</dct:publisher>
+        <dct:language>fr</dct:language>
+        <dct:coverage>1000/1499</dct:coverage>
+        <dct:format>application/tei+xml</dct:format>
+        <dct:rights>https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:rights>
+        <dct:isVersionOf>https://www.sudoc.fr/234764724</dct:isVersionOf>
+        <dct:isVersionOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=125235</dct:isVersionOf>
+        <dct:source>https://iiif.chartes.psl.eu/encpos/encpos_1972_18/manifest</dct:source>
+        <dts:download>https://github.com/chartes/encpos/raw/metadata/data/ENCPOS_1972/ENCPOS_1972_18.xml</dts:download>
+        <dts:download>https://github.com/chartes/encpos/raw/metadata/data/ENCPOS_1972/ENCPOS_1972_18.PDF</dts:download>
+      </cpt:structured-metadata>
+    </cpt:collection>
+  </cpt:members>
+</cpt:collection>
+```
+
+
+## DTS
+
+### Template
+
+```json
+  "@id": "{id}",
+  "@type": "Resource",
+  "title": "{html2string(title_rich)}",
+  "totalItems": 0,
+  "dts:totalParents": 1,
+  "dts:totalChildren": 0,
+  "dts:passage": "/dts/document?id={id}",
+  "dts:references": "/dts/navigation?id={id}",
+  "dts:download": [
+    "https://github.com/chartes/encpos/raw/master/data/{path-to-xml-file.xml}",
+    "https://github.com/chartes/encpos/raw/master/data/{path-to-pdf-file.pdf}"
+  ],
+  "dts:citeDepth": "1",
+  "dts:citeStructure": [
+    {
+      "dts:citeType": "position"
+    }
+  ],
+  "dts:extensions": {
+    "html:h1": "{title_rich}"
+  },
+  "dts:dublincore": {
+    "dc:date": "{promotion_year}",
+    "dc:creator": [
+      "{author_fullname_label}",
+      "https://www.idref.fr/{author_idref-ppn}",
+      "http://data.bnf.fr/{author_bnf_ark}",
+      "https://catalogue.bnf.fr/{author_bnf_ark}",
+      "http://wikidata.org/entity/{author_wikidata_id}",
+      "{author_wikipedia_url}",
+      "http://dbpedia.org/resource/{author_dbpedia_id}"
+    ],
+    "dc:title": [
+      {
+        "@value": "{html2string(title_rich)}",
+        "@language": "fre"
+      }
+    ],
+    "dc:language": [
+      "fre"
+    ],
+    "dc:format": "application/tei+xml",
+    "dc:coverage": "{iso8601(topic_notBefore, topic_notBefore)}",
+    "dc:publisher": [
+      "École nationale des chartes",
+      "https://www.wikidata.org/wiki/Q273570"
+    ],
+    "dc:source": [
+      {
+        "@id": "https://catalogue.bnf.fr/ark:/12148/cb344683389",
+        "@type": "text",
+        "dc:title": "Positions des thèses soutenues par les élèves de la promotion de ... pour obtenir le diplôme d'archiviste paléographe",
+        "dc:date": "{promotion_year}",
+        "dc:extent": "p. {pagination}"
+      },
+      {
+        "@id": "https://iiif.chartes.psl.eu/encpos/{id.lower()}/manifest",
+        "@type": "sc:Manifest",
+        "dc:title": "{author_fullname_label}, {html2string(title_rich)}"
+      }
+    ],
+    "dc:isVersionOf": [
+      "http://bibnum.chartes.psl.eu/s/thenca/item/{thenca_these-record_id}",
+      "https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber={benc_these-record_id}",
+      "https://www.sudoc.fr/{sudoc_these-record_ppn}",
+      "https://halshs.archives-ouvertes.fr/{hal_these-record_id}"
+    ]
+  },
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "dts": "https://w3id.org/dts/api#",
+    "html": "http://www.w3.org/1999/xhtml",
+    "@vocab": "https://www.w3.org/ns/hydra/core#"
+  }
+}
+```
+
+### Exemple
+
+[`https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18`](https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18)
+
+
+
+```json
+{
+  "@id": "ENCPOS_1972_18",
+  "@type": "Resource",
+  "title": "Le bestiaire héraldique au Moyen Âge",
+  "totalItems": 0,
+  "dts:passage": "/dts/document?id=ENCPOS_1972_18",
+  "dts:references": "/dts/navigation?id=ENCPOS_1972_18",
+  "dts:extensions": {
+    "ns1:format": "application/tei+xml",
+    "ns1:type": [
+      "dts:work",
+      "dts:edition"
+    ],
+    "ns1:date": "1972",
+    "ns1:creator": [
+      "Pastoureau, Michel",
+      "https://www.idref.fr/027059952"
+    ],
+    "ns1:coverage": "1000-1499",
+    "ns1:publisher": [
+      {
+        "@value": "École des chartes, Paris",
+        "@language": "mul"
+      }
+    ],
+    "ns1:title": [
+      {
+        "@value": "Le bestiaire héraldique au Moyen Âge",
+        "@language": "fre"
+      }
+    ],
+    "ns1:language": "fr"
+  },
+  "dts:dublincore": {
+    "dct:creator": [
+      {
+        "@id": "http://wikidata.org/entity/Q2497623"
+      },
+      {
+        "@id": "https://www.idref.fr/027059952"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Michel_Pastoureau"
+      },
+      {
+        "@id": "http://data.bnf.fr/ark:/12148/cb119187467"
+      },
+      {
+        "@id": "https://catalogue.bnf.fr/ark:/12148/cb119187467"
+      },
+      {
+        "@id": "http://fr.wikipedia.org/wiki/Michel_Pastoureau"
+      }
+    ],
+    "dct:isPartOf": [
+      "benc_number: 125235",
+      {
+        "@id": "https://www.sudoc.fr/234764724"
+      }
+    ],
+    "dct:extend": "143-154"
+  },
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dts": "https://w3id.org/dts/api#",
+    "ns1": "http://purl.org/dc/elements/1.1/",
+    "@vocab": "https://www.w3.org/ns/hydra/core#"
+  }
+}
+```
+
+Après lecture de l'issue 42 projet DTS sur github dans dct:creator, on ne devrait avoir qu'une liste d'URIRef et ne pas avoir des dictionnaires. Voir l'issue [https://github.com/distributed-text-services/specifications/issues/42](https://github.com/distributed-text-services/specifications/issues/42). Le problème semble être dans le fichier _json_ld.py de MyCapitain qui considère qu'un URIRef doit être dans un dictionnaire avec une id [https://github.com/Capitains/MyCapytain/blob/dev/MyCapytain/common/utils/_json_ld.py](https://github.com/Capitains/MyCapytain/blob/dev/MyCapytain/common/utils/_json_ld.py)
+
+
+```json
+{
+  "@id": "ENCPOS_1972_18",
+  "@type": "Resource",
+  "title": "Le bestiaire héraldique au Moyen Âge",
+  "totalItems": 0,
+  "dts:passage": "/dts/document?id=ENCPOS_1972_18",
+  "dts:references": "/dts/navigation?id=ENCPOS_1972_18",
+  "dts:extensions": {
+    "ns1:format": "application/tei+xml",
+    "ns1:type": [
+      "dts:work",
+      "dts:edition"
+    ],
+    "ns1:date": "1972",
+    "ns1:creator": [
+      "Pastoureau, Michel",
+      "https://www.idref.fr/027059952"
+    ],
+    "ns1:coverage": "1000-1499",
+    "ns1:publisher": [
+      {
+        "@value": "École des chartes, Paris",
+        "@language": "mul"
+      }
+    ],
+    "ns1:title": [
+      {
+        "@value": "Le bestiaire héraldique au Moyen Âge",
+        "@language": "fre"
+      }
+    ],
+    "ns1:language": "fr"
+  },
+  "dts:dublincore": {
+    "dct:creator": [
+      "http://wikidata.org/entity/Q2497623",
+      "https://www.idref.fr/027059952",
+      "http://dbpedia.org/resource/Michel_Pastoureau",
+      "http://data.bnf.fr/ark:/12148/cb119187467",
+      "https://catalogue.bnf.fr/ark:/12148/cb119187467",
+      "http://fr.wikipedia.org/wiki/Michel_Pastoureau"
+    ],
+    "dct:isPartOf": [
+      "benc_number: 125235",
+      {
+        "@id": "https://www.sudoc.fr/234764724"
+      }
+    ],
+    "dct:extend": "143-154"
+  },
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dts": "https://w3id.org/dts/api#",
+    "ns1": "http://purl.org/dc/elements/1.1/",
+    "@vocab": "https://www.w3.org/ns/hydra/core#"
+  }
+}
+```
 
 
 ## Liages
@@ -428,228 +757,3 @@ Exemple avec l'intégration des liens extérieurs en changenant la forme autour 
 ```
 
 
-### CapiTains
-
-Voir [http://capitains.org/pages/guidelines](http://capitains.org/pages/guidelines)
-
-TODO :
-
-- valider
-- ajouter des champs, notamment :
-	- `title_rich
-	- liages Wikidata, data.bnf, etc.
-  
-Tous les liens sont liées à l'auteur donc à une personne exemple de Michel Pastoureau pour son livre [*Le loup, une histoire culturelle*](https://data.bnf.fr/fr/temp-work/3c57f282f8a639ec0998784e8da7d8d5/rdf.jsonld)
-
-Donc une solution peut être de faire le liste des liens qui concerne l'auteur dans `dct:creator`
-
-
-```xml
-<?xml-model href="../../../capitains.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<cpt:collection xmlns:ti="http://chs.harvard.edu/xmlns/cts" xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bib="http://bibliotek-o.org/1.0/ontology/" xmlns:cts="http://chs.harvard.edu/xmlns/cts" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <cpt:identifier>{id}</cpt:identifier>
-  <cpt:parent>{id[:-3]}</cpt:parent>
-  <dc:title xml:lang="fre">{html2txt(title_rich)}</dc:title>
-  <dc:type>dts:work</dc:type>
-  <cpt:members>
-    <cpt:collection readable="true" path="./{id}.xml">
-      <cpt:identifier>{id}</cpt:identifier>
-      <cpt:parent>{id[:-3]}</cpt:parent>
-      <dc:title xml:lang="fre">{html2txt(title_rich)}</dc:title>
-      <dc:type>dts:edition</dc:type>
-      <dc:creator>{author_name}, {author_firstname}</dc:creator>
-      <dc:date>{promotion_year}</dc:date>
-      <dc:publisher xml:lang="mul">École nationale des chartes</dc:publisher>
-      <dc:language>fre</dc:language>
-      <dc:coverage>{topic_notBefore}-{topic_notAfter}</dc:coverage>
-      <dc:format>application/tei+xml</dc:format>
-      <cpt:structured-metadata>
-        <dct:title>{title_rich}</dct:title>
-        <dct:extend>{pagination}</dct:extend>
-        <dct:creator>https://www.idref.fr/{author_idref-id}</dct:creator>
-        <dct:creator>{ark_databnf}</dct:creator>
-        <dct:creator>{ark_cataloguebnf}</dct:creator>
-        <dct:creator>{id_wikidata}</dct:creator>
-        <dct:creator>{link_wikipedia}</dct:creator>
-        <dct:creator>{id_dbpedia}</dct:creator>
-        <dct:isPartOf>https://www.sudoc.fr/{these_ppn-sudoc}</dct:isPartOf>
-        <dct:isPartOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber={125235}</dct:isPartOf>
-      </cpt:structured-metadata>
-    </cpt:collection>
-  </cpt:members>
-</cpt:collection>
-```
-
-Exemple
-
-```xml
-<?xml-model href="../../../capitains.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<cpt:collection xmlns:ti="http://chs.harvard.edu/xmlns/cts" xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bib="http://bibliotek-o.org/1.0/ontology/" xmlns:cts="http://chs.harvard.edu/xmlns/cts" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <cpt:identifier>ENCPOS_1972_18</cpt:identifier>
-  <cpt:parent>ENCPOS_1972</cpt:parent>
-  <dc:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dc:title>
-  <dc:type>dts:work</dc:type>
-  <cpt:members>
-    <cpt:collection readable="true" path="./ENCPOS_1972_18.xml">
-      <cpt:identifier>ENCPOS_1972_18</cpt:identifier>
-      <cpt:parent>ENCPOS_1972</cpt:parent>
-      <dc:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dc:title>
-      <dc:type>dts:edition</dc:type>
-      <dc:creator>Pastoureau, Michel</dc:creator>
-      <dc:date>1972</dc:date>
-      <dc:publisher xml:lang="mul">École des chartes, Paris</dc:publisher>
-      <dc:language>fr</dc:language>
-      <dc:coverage>1000-1499</dc:coverage>
-      <dc:format>application/tei+xml</dc:format>
-      <cpt:structured-metadata>
-        <dct:extend>143-154</dct:extend>
-        <dct:creator>https://www.idref.fr/027059952</dct:creator>
-        <dct:creator>http://data.bnf.fr/ark:/12148/cb119187467</dct:creator>
-        <dct:creator>https://catalogue.bnf.fr/ark:/12148/cb119187467</dct:creator>
-        <dct:creator>http://wikidata.org/entity/Q2497623</dct:creator>
-        <dct:creator>http://fr.wikipedia.org/wiki/Michel_Pastoureau</dct:creator>
-        <dct:creator>http://dbpedia.org/resource/Michel_Pastoureau</dct:creator>
-        <dct:isPartOf>https://www.sudoc.fr/234764724</dct:isPartOf>
-        <dct:isPartOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=125235</dct:isPartOf>
-      </cpt:structured-metadata>
-    </cpt:collection>
-  </cpt:members>
-</cpt:collection>
- ```
-
-### DTS
-
-```json
-{
-  "@id": "ENCPOS_1972_18",
-  "@type": "Resource",
-  "title": "Le bestiaire héraldique au Moyen Âge",
-  "totalItems": 0,
-  "dts:passage": "/dts/document?id=ENCPOS_1972_18",
-  "dts:references": "/dts/navigation?id=ENCPOS_1972_18",
-  "dts:extensions": {
-    "ns1:format": "application/tei+xml",
-    "ns1:type": [
-      "dts:work",
-      "dts:edition"
-    ],
-    "ns1:date": "1972",
-    "ns1:creator": [
-      "Pastoureau, Michel",
-      "https://www.idref.fr/027059952"
-    ],
-    "ns1:coverage": "1000-1499",
-    "ns1:publisher": [
-      {
-        "@value": "École des chartes, Paris",
-        "@language": "mul"
-      }
-    ],
-    "ns1:title": [
-      {
-        "@value": "Le bestiaire héraldique au Moyen Âge",
-        "@language": "fre"
-      }
-    ],
-    "ns1:language": "fr"
-  },
-  "dts:dublincore": {
-    "dct:creator": [
-      {
-        "@id": "http://wikidata.org/entity/Q2497623"
-      },
-      {
-        "@id": "https://www.idref.fr/027059952"
-      },
-      {
-        "@id": "http://dbpedia.org/resource/Michel_Pastoureau"
-      },
-      {
-        "@id": "http://data.bnf.fr/ark:/12148/cb119187467"
-      },
-      {
-        "@id": "https://catalogue.bnf.fr/ark:/12148/cb119187467"
-      },
-      {
-        "@id": "http://fr.wikipedia.org/wiki/Michel_Pastoureau"
-      }
-    ],
-    "dct:isPartOf": [
-      "benc_number: 125235",
-      {
-        "@id": "https://www.sudoc.fr/234764724"
-      }
-    ],
-    "dct:extend": "143-154"
-  },
-  "@context": {
-    "dct": "http://purl.org/dc/terms/",
-    "dts": "https://w3id.org/dts/api#",
-    "ns1": "http://purl.org/dc/elements/1.1/",
-    "@vocab": "https://www.w3.org/ns/hydra/core#"
-  }
-}
-```
-
-Après lecture de l'issue 42 projet DTS sur github dans dct:creator, on ne devrait avoir qu'une liste d'URIRef et ne pas avoir des dictionnaires. Voir l'issue [https://github.com/distributed-text-services/specifications/issues/42](https://github.com/distributed-text-services/specifications/issues/42). Le problème semble être dans le fichier _json_ld.py de MyCapitain qui considère qu'un URIRef doit être dans un dictionnaire avec une id [https://github.com/Capitains/MyCapytain/blob/dev/MyCapytain/common/utils/_json_ld.py](https://github.com/Capitains/MyCapytain/blob/dev/MyCapytain/common/utils/_json_ld.py)
-
-
-```json
-{
-  "@id": "ENCPOS_1972_18",
-  "@type": "Resource",
-  "title": "Le bestiaire héraldique au Moyen Âge",
-  "totalItems": 0,
-  "dts:passage": "/dts/document?id=ENCPOS_1972_18",
-  "dts:references": "/dts/navigation?id=ENCPOS_1972_18",
-  "dts:extensions": {
-    "ns1:format": "application/tei+xml",
-    "ns1:type": [
-      "dts:work",
-      "dts:edition"
-    ],
-    "ns1:date": "1972",
-    "ns1:creator": [
-      "Pastoureau, Michel",
-      "https://www.idref.fr/027059952"
-    ],
-    "ns1:coverage": "1000-1499",
-    "ns1:publisher": [
-      {
-        "@value": "École des chartes, Paris",
-        "@language": "mul"
-      }
-    ],
-    "ns1:title": [
-      {
-        "@value": "Le bestiaire héraldique au Moyen Âge",
-        "@language": "fre"
-      }
-    ],
-    "ns1:language": "fr"
-  },
-  "dts:dublincore": {
-    "dct:creator": [
-      "http://wikidata.org/entity/Q2497623",
-      "https://www.idref.fr/027059952",
-      "http://dbpedia.org/resource/Michel_Pastoureau",
-      "http://data.bnf.fr/ark:/12148/cb119187467",
-      "https://catalogue.bnf.fr/ark:/12148/cb119187467",
-      "http://fr.wikipedia.org/wiki/Michel_Pastoureau"
-    ],
-    "dct:isPartOf": [
-      "benc_number: 125235",
-      {
-        "@id": "https://www.sudoc.fr/234764724"
-      }
-    ],
-    "dct:extend": "143-154"
-  },
-  "@context": {
-    "dct": "http://purl.org/dc/terms/",
-    "dts": "https://w3id.org/dts/api#",
-    "ns1": "http://purl.org/dc/elements/1.1/",
-    "@vocab": "https://www.w3.org/ns/hydra/core#"
-  }
-}
-```
