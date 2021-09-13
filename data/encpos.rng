@@ -11,64 +11,144 @@
 
   <start>
     <element name="TEI">
+      <ref name="id-att"/>
+      <ref name="lang-att"/>
       <ref name="teiHeader"/>
       <ref name="text"/>
     </element>
   </start>
   
-  <!-- Métadonnées – à discuter (pas obligatoire) -->
+  <!-- Métadonnées -->
   
   <define name="teiHeader">
     <element name="teiHeader">
-      <element name="fileDesc">
-        <element name="titleStmt">
-          <optional>
-            <element name="title">
-              <attribute name="type">
-                <value>sup</value>
-              </attribute>
-              <ref name="rich-content"/>
-            </element>
-          </optional>          
-          <element name="title">
-            <ref name="rich-content"/>
-          </element>
-          <optional>
-            <element name="title">
-              <attribute name="type">
-                <value>sub</value>
-              </attribute>
-              <ref name="rich-content"/>
-            </element>              
-          </optional>
-          <element name="author">
-            <text/>
-          </element>
+      <a:documentation>Généré depuis encpos.tsv, grâce à l’utilitaire teiHeader_writer.py</a:documentation>
+      <ref name="fileDesc"/>
+      <ref name="profileDesc"/>
+    </element>
+  </define>
+  
+  <define name="fileDesc">
+    <element name="fileDesc">
+      <element name="titleStmt">
+        <element name="title">
+          <a:documentation>Titre avec les enrichissements typographiques</a:documentation>
+          <ref name="rich-content"/>
         </element>
-        <element name="publicationStmt">
-          <element name="publisher">
-            <value>École des chartes</value>
-          </element>
-          <element name="date">
-            <attribute name="when"/>
-          </element>
-          <element name="availability">
-            <attribute name="status">
-              <value>restricted</value>
-            </attribute>
-            <element name="licence">
-              <attribute name="target">
-                <value>http://creativecommons.org/licenses/by-nc-nd/3.0/fr/</value>
-              </attribute>
-            </element>
-          </element>
-        </element>
-        <element name="sourceDesc">
-          <a:documentation>Lien au PDF</a:documentation>
-          <attribute name="corresp"/>
-          <empty/>
+        <element name="author">
+          <attribute name="ref">
+            <a:documentation>URI idRef pour identification et liage de l’auteur</a:documentation>
+            <data type="anyURI"/>
+          </attribute>
+          <text/>
         </element>
       </element>
+      <element name="editionStmt">
+        <element name="edition">
+          <value>Rétroconversion de la publication imprimée</value>
+        </element>
+        <element name="funder">
+          <attribute name="ref">
+            <value>https://www.wikidata.org/wiki/Q273570</value>
+          </attribute>
+          <value>École des chartes</value>
+        </element>
+      </element>
+      <element name="publicationStmt">
+        <element name="publisher">
+          <attribute name="ref">
+            <value>https://www.wikidata.org/wiki/Q273570</value>
+          </attribute>
+          <value>École des chartes</value>
+        </element>
+        <element name="date">
+          <a:documentation>Date de la publication de la version TEI</a:documentation>
+          <attribute name="when">
+            <data type="gYear"/>
+          </attribute>
+        </element>
+        <element name="availability">
+          <attribute name="status">
+            <value>restricted</value>
+          </attribute>
+          <element name="licence">
+            <attribute name="target">
+              <value>http://creativecommons.org/licenses/by-nc-nd/3.0/fr/</value>
+            </attribute>
+          </element>
+        </element>
+      </element>
+      <element name="seriesStmt">
+        <element name="title">
+          <value>Positions des thèses</value>
+        </element>
+        <element name="idno">
+          <attribute name="type">
+            <value>ISSN</value>
+          </attribute>
+          <value>0755-2076</value>
+        </element>
+        <element name="idno">
+          <attribute name="type">
+            <value>URI</value>
+          </attribute>
+          <value>http://www.sudoc.fr/013565311</value>
+        </element>
+      </element>
+      <element name="sourceDesc">
+        <optional>
+          <attribute name="facs">
+            <a:documentation>Lien au PDF</a:documentation>
+            <data type="anyURI"/>
+          </attribute>
+        </optional>
+        <ref name="bibl"/>
+      </element>
+    </element>
+  </define>
+  
+  <define name="profileDesc">
+    <element name="profileDesc">
+      <element name="creation">
+        <a:documentation>Date de la publication imprimée de la position (de sa rédaction)</a:documentation>
+        <element name="date">
+          <attribute name="when">
+            <data type="gYear"/>              
+          </attribute>
+        </element>
+      </element>
+      <element name="langUsage">
+        <element name="language">
+          <attribute name="ident">
+            <value>fre</value>
+          </attribute>
+        </element>
+      </element>
+    </element>
+  </define>
+  
+  <define name="bibl">
+    <element name="bibl">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <element name="title">
+            <text/>
+          </element>
+          <element name="publisher">
+            <text/>
+          </element>
+          <element name="pubPlace">
+            <text/>
+          </element>
+          <element name="date">
+            <text/>
+          </element>
+          <element name="biblScope">
+            <text/>
+          </element>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   
@@ -169,6 +249,7 @@
           <value>i</value>
           <value>sup</value>
           <value>uc</value>
+          <value>sc</value>
         </choice>
       </attribute>
       <oneOrMore>
@@ -196,6 +277,18 @@
       <attribute name="n"/>
       <attribute name="facs"/>
     </element>
+  </define>
+  
+  <define name="id-att">
+    <attribute name="xml:id">
+      <a:documentation>Identifiant, au moins unique pour le document.</a:documentation>
+      <data type="ID"/>
+    </attribute>
+  </define>
+  <define name="lang-att">
+    <attribute name="xml:lang">
+      <a:documentation>Code normalisé de langue.</a:documentation>
+    </attribute>
   </define>
   
 </grammar>
