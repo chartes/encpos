@@ -20,6 +20,7 @@ def injectTEIHeader(xml):
     header.getparent().remove(header)
     TEI = xml.xpath("//ti:TEI", namespaces={"ti": 'http://www.tei-c.org/ns/1.0'})
     TEI[0].insert(0, template.getroot())
+    etree.strip_tags(TEI[0], 'temp')
     return xml
 
 def updateTeiHeader(xml, dir ,file, dict):
@@ -35,11 +36,15 @@ def updateTeiHeader(xml, dir ,file, dict):
     metadata = dict[id]
     
     #Delete all the attrib
-    for table in xml.xpath('//ti:TEI[@*]', namespaces={"ti": 'htt://www.tei-c.org/ns/1.0'}):
-        table.attrib.clear()
+    root = xml.getroot()
+    etree.strip_attributes(root)
+    try:
+        root.attrib.pop('{http://www.w3.org/XML/1998/namespace}lang')
+    except:
+        pass
     TEI = xml.xpath("//ti:TEI", namespaces={"ti": 'http://www.tei-c.org/ns/1.0'})
-    TEI[0].attrib["{http://www.w3.org/XML/1998/namespace}lang"] = "fre"
     TEI[0].attrib["{http://www.w3.org/XML/1998/namespace}id"] = id
+    TEI[0].attrib["{http://www.w3.org/XML/1998/namespace}lang"] = "fre"
 
     if "<" in metadata["title_rich"]:
         titleetree = "<temp>"+metadata['title_rich']+"</temp>"
