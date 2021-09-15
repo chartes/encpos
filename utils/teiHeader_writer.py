@@ -42,11 +42,6 @@ def updateTeiHeader(xml, dir ,file, dict):
     except:
         pass
     TEI = xml.xpath("//ti:TEI", namespaces={"ti": 'http://www.tei-c.org/ns/1.0'})
-    if metadata["promotion_year"] == "":
-        pass
-    elif int(metadata["promotion_year"]) > 2000 and int(metadata["promotion_year"]) < 2018:
-        pi = etree.ProcessingInstruction("xml-stylesheet", text='type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"')
-        TEI[0].addprevious(pi)
     TEI[0].attrib["{http://www.w3.org/XML/1998/namespace}id"] = id
     TEI[0].attrib["{http://www.w3.org/XML/1998/namespace}lang"] = "fre"
 
@@ -108,7 +103,7 @@ def write_to_file(file, dir, ouputtree):
     if not os.path.exists(os.path.join(output_path, dir)):
         os.makedirs(os.path.join(output_path, dir))
     with open(filepath, 'wb') as f:
-        tree_str = etree.tostring(ouputtree, pretty_print=True, xml_declaration=True, encoding="utf-8")
+        tree_str = etree.tostring(ouputtree, pretty_print=True, doctype='<?xml version="1.0" encoding="utf-8"?>', encoding="utf-8")
         f.write(tree_str)
 
 @click.command()
