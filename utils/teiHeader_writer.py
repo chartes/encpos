@@ -6,7 +6,7 @@ import csv
 
 path_to_encposdict = "../data/encpos.tsv"
 input_path = "../data"
-output_path = "./Test"
+output_path = "../data"
 citation_bibl =  "<temp><title>Positions des thèses soutenues par les élèves de la promotion de {promotion_year} pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>{promotion_year}</date>, <biblScope>p. {pagination}</biblScope>.</temp>"
 
 def injectTEIHeader(xml):
@@ -15,7 +15,7 @@ def injectTEIHeader(xml):
     :param xml: Tree of the xml files in input
     :return: Tree with the new TEIHeader
     """
-    template = etree.parse("./templateTEIHeader.xml")
+    template = etree.parse("./teiHeader_template.xml")
     header = xml.find("//ti:teiHeader", namespaces={"ti": 'http://www.tei-c.org/ns/1.0'})
     header.getparent().remove(header)
     TEI = xml.xpath("//ti:TEI", namespaces={"ti": 'http://www.tei-c.org/ns/1.0'})
@@ -34,7 +34,6 @@ def updateTeiHeader(xml, dir ,file, dict):
     """
     id = file.replace(".xml","")
     metadata = dict[id]
-    
     #Delete all the attrib
     root = xml.getroot()
     etree.strip_attributes(root)
@@ -43,6 +42,11 @@ def updateTeiHeader(xml, dir ,file, dict):
     except:
         pass
     TEI = xml.xpath("//ti:TEI", namespaces={"ti": 'http://www.tei-c.org/ns/1.0'})
+    if metadata["promotion_year"] == "":
+        pass
+    elif int(metadata["promotion_year"]) > 2000 and int(metadata["promotion_year"]) < 2018:
+        pi = etree.ProcessingInstruction("xml-stylesheet", text='type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"')
+        TEI[0].addprevious(pi)
     TEI[0].attrib["{http://www.w3.org/XML/1998/namespace}id"] = id
     TEI[0].attrib["{http://www.w3.org/XML/1998/namespace}lang"] = "fre"
 
@@ -103,8 +107,8 @@ def write_to_file(file, dir, ouputtree):
     filepath = os.path.join(output_path, dir,file)
     if not os.path.exists(os.path.join(output_path, dir)):
         os.makedirs(os.path.join(output_path, dir))
-    with open(filepath, 'w') as f:
-        tree_str = etree.tostring(ouputtree, pretty_print=True, encoding="unicode")
+    with open(filepath, 'wb') as f:
+        tree_str = etree.tostring(ouputtree, pretty_print=True, xml_declaration=True, encoding="utf-8")
         f.write(tree_str)
 
 @click.command()
