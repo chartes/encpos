@@ -209,6 +209,7 @@
           <oneOrMore>
             <choice>
               <ref name="p"/>
+              <ref name="table"/>
               <ref name="pb"/>
               <ref name="div"/>
             </choice>
@@ -228,6 +229,31 @@
     <element name="p">
       <a:documentation>Paragraphe (contient du texte avec des enrichissements typographiques et des sauts de page)</a:documentation>
       <ref name="rich-content"/>    
+    </element>
+  </define>
+  
+  <define name="table">
+    <element name="table">
+      <oneOrMore>
+        <choice>
+          <element name="row">
+            <oneOrMore>
+              <element name="cell">
+                <optional>
+                  <attribute name="rows"/>
+                </optional>
+                <optional>
+                  <attribute name="cols"/>
+                </optional>
+                <optional>
+                  <ref name="rich-content"/>
+                </optional>
+              </element>
+            </oneOrMore>
+          </element>
+          <ref name="pb"/>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   
