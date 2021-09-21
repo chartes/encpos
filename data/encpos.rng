@@ -232,6 +232,18 @@
     </element>
   </define>
   
+  <define name="note">
+    <element name="note">
+      <a:documentation>Les (très rares) notes de bas de page, encodée dans le flux du texte, au point de l’appel.</a:documentation>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="p"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  
   <define name="table">
     <element name="table">
       <oneOrMore>
@@ -265,6 +277,7 @@
         <ref name="typo"/>
         <ref name="lb"/>
         <ref name="pb"/>
+        <ref name="note"/>
       </choice>
     </oneOrMore>
   </define>
