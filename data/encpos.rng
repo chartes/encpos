@@ -164,10 +164,22 @@
   
   <define name="body">
     <element name="body">
-      <a:documentation>Lien à la première page de l’édition – obligatoire</a:documentation>
-      <ref name="pb"/>
+      <a:documentation>Lien à la première page de l’édition</a:documentation>
+      <!-- obligatoire quand on disposera de toutes les images -->
+      <optional>
+        <ref name="pb"/>
+      </optional>
       <a:documentation>Titre complet de la position, tel qu’imprimé – obligatoire</a:documentation>
       <ref name="head"/>
+      <!-- des sous-titres imprimés parfois en première pqge -->
+      <optional>
+        <element name="head">
+          <attribute name="type">
+            <value>sub</value>
+          </attribute>
+          <ref name="rich-content"/>
+        </element>
+      </optional>
       <a:documentation>Mention de responsabilité, telle qu’imprimée – obligatoire</a:documentation>
       <ref name="byline"/>
       <oneOrMore>
@@ -192,7 +204,21 @@
   <define name="byline">
     <a:documentation>Mention de responsabilité : l’auteur de la position, tel qu’imprimé en page 1.</a:documentation>
     <element name="byline">
-      <ref name="rich-content"/>
+      <choice>
+        <ref name="rich-content"/>
+        <!-- Pour 2000-2015, byline structurés – déterminer si cette annotation est généralisable à l’ensemble du corpus. -->
+        <group>
+          <element name="forename">
+            <text/>
+          </element>
+          <element name="surname">
+            <text/>
+          </element>
+          <element name="roleName">
+            <text/>
+          </element>
+        </group>
+      </choice>
     </element>
   </define>
   
