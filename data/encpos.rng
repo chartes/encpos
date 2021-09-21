@@ -214,9 +214,11 @@
           <element name="surname">
             <text/>
           </element>
-          <element name="roleName">
-            <text/>
-          </element>
+          <optional>
+            <element name="roleName">
+              <text/>
+            </element>
+          </optional>
         </group>
       </choice>
     </element>
@@ -301,6 +303,7 @@
       <choice>
         <text/>
         <ref name="typo"/>
+        <ref name="num"/>
         <ref name="lb"/>
         <ref name="pb"/>
         <ref name="note"/>
@@ -324,8 +327,26 @@
         <choice>
           <text/>
           <ref name="typo"/>
+          <ref name="num"/>
           <ref name="lb"/>
           <ref name="pb"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="num">
+    <element name="num">
+      <a:documentation>Siècle en petites caps et exposant</a:documentation>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <element name="hi">
+            <attribute name="rend">
+              <value>sup</value>
+            </attribute>
+            <text/>
+          </element>
         </choice>
       </oneOrMore>
     </element>
