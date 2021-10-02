@@ -207,19 +207,26 @@
       <choice>
         <ref name="rich-content"/>
         <!-- Pour 2000-2015, byline structurés – déterminer si cette annotation est généralisable à l’ensemble du corpus. -->
-        <group>
-          <element name="forename">
+        <oneOrMore>
+          <choice>
             <text/>
-          </element>
-          <element name="surname">
-            <text/>
-          </element>
-          <optional>
-            <element name="roleName">
-              <text/>
-            </element>
-          </optional>
-        </group>
+            <group>
+              <!-- prénom -->
+              <element name="forename">
+                <text/>
+              </element>
+              <!-- nom -->
+              <element name="surname">
+                <text/>
+              </element>
+              <optional>
+                <element name="roleName">
+                  <text/>
+                </element>
+              </optional>
+            </group>
+          </choice>
+        </oneOrMore>
       </choice>
     </element>
   </define>
