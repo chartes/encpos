@@ -3,12 +3,14 @@ Métadonnées des positions de thèses
 
 **Documentation en cours de rédaction**
 
-L’application est pilotée par le tableau `encpos.tsv` :
+Une *position* de thèse présente les conclusions scientifiques d’une thèse d’École des chartes.
+
+L’application de consultation des positions ([https://theses.chartes.psl.eu/](https://theses.chartes.psl.eu/)) est pilotée par le tableau `encpos.tsv` :
 
 - les métadonnées sont injectées dans les fichiers `__capitains__.xml` grâce à un [Capitainizer](https://github.com/chartes/capitainizer).
-- les métadonnées sont ensuite exposées via le *endpoint* DTS `Collections`, par ex. : [https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18](https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18)
+- les métadonnées sont ensuite exposées via le *endpoint* DTS `Collections`, par ex. : [https://theses.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18](https://theses.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18)
 
-Une position de thèse et un résumé d’une thèse d’École des chartes publié dans le volume annuel des positions des thèses.
+
 
 
 ## Métadonnées de référence : `encpos.tsv`
@@ -59,7 +61,7 @@ Nom standardisé de l’auteur (minuscules et majuscules initiales), pour les tr
 
 ### `author_firstname`
 
-Prénom de l’auteur, en minuscules avec majuscules initiales, pour les tris (utile notamment pour rechercher une autrice).
+Prénom de l’auteur, en minuscules avec majuscules initiales, pour les tris.
 
 
 ### `author_fullname_label`
@@ -186,15 +188,15 @@ Cette sérialisation XML des métadonnées doit se conformer aux [recommandation
   xmlns:cpt="http://purl.org/capitains/ns/1.0#"
   >
   <cpt:identifier>{id}</cpt:identifier>
-  <dc:type>dts:work ???</dc:type><!-- Requis, mal documenté : on attend quoi ici ? -->
+  <dc:type>dts:resource</dc:type>
   <dc:title xml:lang="fre">{html2string(title_rich)}</dc:title>
   <cpt:parent>ENCPOS_{promotion_year}</cpt:parent>
   <cpt:members>
     <cpt:collection readable="true" path="./{id}.xml">
       <cpt:identifier>{id}</cpt:identifier>
-      <dc:type>dts:edition ???</dc:type><!-- Requis, mal documenté : on attend quoi ici ? -->
-      <dc:title xml:lang="fre">{html2string(title_rich)}</dc:title><!-- Requis, mais redondant. cf //cpt:structured-metadata/dct:title -->
-      <dc:language>fre</dc:language><!-- Requis, mais redondant. cf //cpt:structured-metadata/dct:language -->
+      <dc:type>dts:resource</dc:type>
+      <dc:title xml:lang="fre">{html2string(title_rich)}</dc:title>
+      <dc:language>fre</dc:language>
       <cpt:parent>ENCPOS_{promotion_year}</cpt:parent>
       <cpt:structured-metadata>
         <dct:title xml:lang="fre">{html2string(title_rich)}</dct:title>
@@ -216,8 +218,8 @@ Cette sérialisation XML des métadonnées doit se conformer aux [recommandation
         <dct:isVersionOf>https://www.sudoc.fr/{sudoc_these-record_ppn}</dct:isVersionOf>
         <dct:isVersionOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber={benc_these-record_id}</dct:isVersionOf>
         <dct:source>https://iiif.chartes.psl.eu/encpos/{id.lower()}/manifest</dct:source>
-        <dts:download>https://github.com/chartes/encpos/raw/metadata/data/ENCPOS_{promotion_year}/{id}.xml</dts:download>
-        <dts:download>https://github.com/chartes/encpos/raw/metadata/data/ENCPOS_{promotion_year}/{id}.PDF</dts:download>
+        <dts:download>https://theses.chartes.psl.eu/dts/document?id={id}</dts:download>
+        <dts:download>https://github.com/chartes/encpos/raw/master/data/ENCPOS_{promotion_year}/{id}.PDF</dts:download>
       </cpt:structured-metadata>
     </cpt:collection>
   </cpt:members>
