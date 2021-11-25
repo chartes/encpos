@@ -1,26 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
 <?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_NEXT" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title/>
-        <author/>
-      </titleStmt>
+        <title>Pages postliminaires</title>
+        </titleStmt>
+      <editionStmt>
+        <edition>Rétroconversion de la publication imprimée</edition>
+        <funder ref="https://www.wikidata.org/wiki/Q273570">École des chartes</funder>
+      </editionStmt>
       <publicationStmt>
-        <publisher>École des chartes</publisher>
-        <date when="2020"/>
+        <publisher ref="https://www.wikidata.org/wiki/Q273570">École des chartes</publisher>
+        <date when="2021"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
       </publicationStmt>
-      <sourceDesc corresp="../SRC/1967/ENCPOS_1967_NEXT/PDF/ENCPOS_1967_NEXT.PDF"/>
+      <seriesStmt>
+        <title>Positions des thèses</title>
+        <idno type="ISSN">0755-2076</idno>
+        <idno type="URI">http://www.sudoc.fr/013565311</idno>
+      </seriesStmt>
+      <sourceDesc facs="https://raw.githubusercontent.com/chartes/encpos/metadata/data/ENCPOS_1967/ENCPOS_1967_NEXT.PDF">
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 1967 pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>1967</date>, <biblScope>p. -167</biblScope>.</bibl>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1967"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="167" facs="../SRC/1967/ENCPOS_1967_NEXT/TIFF/ENCPOS_1967_NEXT_01.TIF"/>
+      <pb n="167" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1967_NEXT/ENCPOS_1967_NEXT_01.TIF/full/full/0/default.jpg"/>
       <p>TABLE DES MATIÈRES</p>
       <p>Pages</p>
       <p>Jury des examens de l’École...................................... 7</p>
@@ -33,14 +52,14 @@
       <p><hi rend="i">Honorius Augustodunensis</hi> et la <hi rend="i">Summa gloria,</hi> par Marie-Odile GARRIGUES...................................................... 39</p>
       <p>Les mélanges poétiques d’Hildebert de Lavardin ; édition et commentaire, par Geneviève GRAND-CARLET-SOULAGES......................... 47</p>
       <p>Édition critique de la version française du livre de Marco Polo (les deux premières parties), par HOANG-THI Kim Loan..................... 51</p>
-      <p>Les comptes du bailli d’Arras au XIV<hi rend="sup">e</hi> siècle, source du droit criminel et pénal, par Annie LAURENCE.................................... 57</p>
+      <p>Les comptes du bailli d’Arras au <num>xiv<hi rend="sup">e</hi></num> siècle, source du droit criminel et pénal, par Annie LAURENCE.................................... 57</p>
       <p>Le clergé séculier du diocèse de Sées de 1478 à 1539, par Maurice LE BÈGUE DE GERMINY................................................. 65</p>
       <p>L’ordre de Saint-Ruf en France (1039-1774), par Yvette LEBRIGAND.....	71</p>
       <p>L’abbaye de Fontevrault de la réforme de 1458 à nos jours : étude archéologique, par Michel MELOT.................................... 79</p>
       <p>Le péage de la Cloison d’Angers (xv<hi rend="sup">e</hi>-xvm<hi rend="sup">e</hi> siècle) ; contribution à l’étude du trafic de Loire à la fin de l’ancien régime, par Monique MERLET.................................................... 85</p>
-      <pb n="168" facs="../SRC/1967/ENCPOS_1967_NEXT/TIFF/ENCPOS_1967_NEXT_02.TIF"/>
+      <pb n="168" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1967_NEXT/ENCPOS_1967_NEXT_02.TIF/full/full/0/default.jpg"/>
       <p>Pages</p>
-      <p>Les intendants des finances au XVIII<hi rend="sup">e</hi> siècle d’après l’activité des Lefèvre d’Ormesson (1715-1777), par Françoise MOSSER.................. 93</p>
+      <p>Les intendants des finances au <num>xviii<hi rend="sup">e</hi></num> siècle d’après l’activité des Lefèvre d’Ormesson (1715-1777), par Françoise MOSSER.................. 93</p>
       <p>Histoire économique et sociale de Salon-de-Provence, de 1470 à 1550, par Philippe PAILLARD........................................... 103</p>
       <p>L’hôpital général de la Charité de Tours de 1656 à 1802, par Nicole PATU~ REAU....................................................... 111</p>
       <p>Étude sur les noms de lieu des cantons nord et sud d’Évreux, par Élisabeth PIETRI-DELOBEL............................................. 119</p>
@@ -50,10 +69,10 @@
       <p>Le traité <hi rend="i">De sacramentis numerorum a ternario usque ad duodenarium </hi>de Guillaume d’Auberive : édition critique et commentaire, par Jean TACCETTI................................................... 151</p>
       <p>Conflans en Savoie et son mandement du xn<hi rend="sup">e</hi> au xv<hi rend="sup">e</hi> siècle, par François-Charles UGINET.............................................. 155</p>
       <p>IMPRIMERIE NATIONALE – 7 560001 6</p>
-      <pb n="169" facs="../SRC/1967/ENCPOS_1967_NEXT/TIFF/ENCPOS_1967_NEXT_03.TIF"/>
-      <pb n="170" facs="../SRC/1967/ENCPOS_1967_NEXT/TIFF/ENCPOS_1967_NEXT_04.TIF"/>
-      <pb n="171" facs="../SRC/1967/ENCPOS_1967_NEXT/TIFF/ENCPOS_1967_NEXT_05.TIF"/>
-      <pb n="172" facs="../SRC/1967/ENCPOS_1967_NEXT/TIFF/ENCPOS_1967_NEXT_06.TIF"/>
+      <pb n="169" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1967_NEXT/ENCPOS_1967_NEXT_03.TIF/full/full/0/default.jpg"/>
+      <pb n="170" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1967_NEXT/ENCPOS_1967_NEXT_04.TIF/full/full/0/default.jpg"/>
+      <pb n="171" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1967_NEXT/ENCPOS_1967_NEXT_05.TIF/full/full/0/default.jpg"/>
+      <pb n="172" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1967_NEXT/ENCPOS_1967_NEXT_06.TIF/full/full/0/default.jpg"/>
     </body>
   </text>
 </TEI>

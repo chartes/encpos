@@ -1,34 +1,56 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1881_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>De l’affranchissement et de la condition des affranchis dans la Gaule franque</title>
-        <author>Pierre-joseph-Marcel Fournier</author>
+        <author ref="https://www.idref.fr/204589134">Pierre-Joseph-Marcel Fournier</author>
       </titleStmt>
+      <editionStmt>
+        <edition>Rétroconversion de la publication imprimée</edition>
+        <funder ref="https://www.wikidata.org/wiki/Q273570">École des chartes</funder>
+      </editionStmt>
       <publicationStmt>
-        <publisher>École des chartes</publisher>
-        <date when="2020"/>
+        <publisher ref="https://www.wikidata.org/wiki/Q273570">École des chartes</publisher>
+        <date when="2021"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
       </publicationStmt>
-      <sourceDesc corresp="../SRC/1881/ENCPOS_1881_05/PDF/ENCPOS_1881_05.PDF"/>
+      <seriesStmt>
+        <title>Positions des thèses</title>
+        <idno type="ISSN">0755-2076</idno>
+        <idno type="URI">http://www.sudoc.fr/013565311</idno>
+      </seriesStmt>
+      <sourceDesc facs="https://raw.githubusercontent.com/chartes/encpos/metadata/data/ENCPOS_1881/ENCPOS_1881_05.PDF">
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 1881 pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>1881</date>, <biblScope>p. 19-22</biblScope>.</bibl>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1881"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="19" facs="../SRC/1881/ENCPOS_1881_05/TIFF/ENCPOS_1881_05_01.TIF"/>
+      <pb n="19" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1881_05/ENCPOS_1881_05_01.TIF/full/full/0/default.jpg"/>
       <head rend="uc">De l’affranchissement
        <lb/>et
        <lb/>de la condition des affranchis
        <lb/>dans
        <lb/>la Gaule franque</head>
-      <byline>par
-       <lb/>Pierre-joseph-Marcel Fournier
-       <lb/>Avocat à la Cour d’Appel de Paris.</byline>
+      <byline>
+        par
+        <forename>Pierre-joseph-Marcel</forename>
+        <surname>Fournier</surname>
+        <roleName>Avocat à la Cour d’Appel de Paris</roleName>
+      </byline>
       <div>
         <head rend="uc">Chapitre premier.</head>
         <p>Etat des sources.</p>
@@ -40,9 +62,9 @@
         <head rend="uc">Chapitre II.</head>
         <p>Des origines de l’affranchissement.</p>
         <p>§ 1. Droit gaulois.</p>
-        <p>§ 2. Droit romain. I De l’affranchissement romain aux IV<hi rend="sup">e</hi> et v<hi rend="sup">e</hi> siecles.</p>
+        <p>§ 2. Droit romain. I De l’affranchissement romain aux <num>iv<hi rend="sup">e</hi></num> et v<hi rend="sup">e</hi> siecles.</p>
         <p>II Du colonat et de son influence sur la théorie des affranchissements.</p>
-        <pb n="20" facs="../SRC/1881/ENCPOS_1881_05/TIFF/ENCPOS_1881_05_02.TIF"/>
+        <pb n="20" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1881_05/ENCPOS_1881_05_02.TIF/full/full/0/default.jpg"/>
         <p>§ 3. Droit germain. I De la <hi rend="i">Germania</hi> de Tacite.</p>
         <p>II Caractère de l’affranchissement germanique.</p>
       </div>
@@ -74,7 +96,7 @@
         <p>5 Donner son consentement.</p>
         <p>II Conditions pour le <hi rend="i">manumissus :</hi></p>
         <p>1 Des conditions.</p>
-        <pb n="21" facs="../SRC/1881/ENCPOS_1881_05/TIFF/ENCPOS_1881_05_03.TIF"/>
+        <pb n="21" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1881_05/ENCPOS_1881_05_03.TIF/full/full/0/default.jpg"/>
         <p>2 Des restrictions à la faculté d’affranchir.</p>
         <p>III Conditions pour l’acte juridique même.</p>
         <p>1 Formes.</p>
@@ -102,30 +124,20 @@
         <p>3 condition au point de vue des impôts.</p>
         <p>4 condition sociale.</p>
         <table>
-          <tbody>
-            <tr>
-              <td rowspan="3">
-                <p>II Condition civile : 1 Droit de famille</p>
-              </td>
-              <td rowspan="3"> </td>
-              <td>
-                <p>1 mariage</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>2 filiation</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>3 succession.</p>
-              </td>
-            </tr>
-          </tbody>
+            <row>
+              <cell>II Condition civile : 1 Droit de famille</cell>
+              <cell> </cell>
+              <cell>1 mariage</cell>
+            </row>
+            <row>
+              <cell>2 filiation</cell>
+            </row>
+            <row>
+              <cell>3 succession.</cell>
+            </row>
         </table>
         <p>2 Droits sur le patrimoine.</p>
-        <pb n="22" facs="../SRC/1881/ENCPOS_1881_05/TIFF/ENCPOS_1881_05_04.TIF"/>
+        <pb n="22" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1881_05/ENCPOS_1881_05_04.TIF/full/full/0/default.jpg"/>
         <p>3 Rapports avec l’ancien maître.</p>
         <p>Du <hi rend="i">mundium.</hi></p>
         <p>III Condition pénale.</p>

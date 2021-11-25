@@ -1,33 +1,55 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1864_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Étude historique sur les écoles épiscopales et monastiques, depuis Charlemagne jusqu’à la création des universités,</title>
-        <author>Léon Maitre</author>
+        <title>Étude historique sur les écoles épiscopales et monastiques depuis Charlemagne jusqu’à la création des universités</title>
+        <author ref="https://www.idref.fr/027003043">Léon Maître</author>
       </titleStmt>
+      <editionStmt>
+        <edition>Rétroconversion de la publication imprimée</edition>
+        <funder ref="https://www.wikidata.org/wiki/Q273570">École des chartes</funder>
+      </editionStmt>
       <publicationStmt>
-        <publisher>École des chartes</publisher>
-        <date when="2020"/>
+        <publisher ref="https://www.wikidata.org/wiki/Q273570">École des chartes</publisher>
+        <date when="2021"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
       </publicationStmt>
-      <sourceDesc corresp="../SRC/1864/ENCPOS_1864_10/PDF/ENCPOS_1864_10.PDF"/>
+      <seriesStmt>
+        <title>Positions des thèses</title>
+        <idno type="ISSN">0755-2076</idno>
+        <idno type="URI">http://www.sudoc.fr/013565311</idno>
+      </seriesStmt>
+      <sourceDesc facs="https://raw.githubusercontent.com/chartes/encpos/metadata/data/ENCPOS_1864/ENCPOS_1864_10.PDF">
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 1864 pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>1864</date>, <biblScope>p. 47-49</biblScope>.</bibl>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1864"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="47" facs="../SRC/1864/ENCPOS_1864_10/TIFF/ENCPOS_1864_10_01.TIF"/>
+      <pb n="47" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1864_10/ENCPOS_1864_10_01.TIF/full/full/0/default.jpg"/>
       <head rend="uc">Étude historique
        <lb/>sur les
        <lb/>écoles épiscopales
        <lb/>et monastiques,
        <lb/>depuis Charlemagne jusqu’à la création des universités,</head>
-      <byline>par
-       <lb/>Léon Maitre.</byline>
+      <byline>
+        par
+        <forename>Léon</forename>
+        <surname>Maitre</surname>
+      </byline>
       <div>
         <head rend="uc">Première partie.
          <lb/>Revue des écoles.</head>
@@ -36,7 +58,7 @@
         <p>3° En parcourant les différentes provinces ecclésiastiques, on remarque que les principaux centres d’instruction se sont toujours trouvés au nord de la Loire, et que les lettres, même au dixième siècle, n’ont pas cessé d’être enseignées dans la plupart des monastères et des cathédrales.</p>
       </div>
       <div>
-        <pb n="48" facs="../SRC/1864/ENCPOS_1864_10/TIFF/ENCPOS_1864_10_02.TIF"/>
+        <pb n="48" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1864_10/ENCPOS_1864_10_02.TIF/full/full/0/default.jpg"/>
         <head rend="uc">Deuxieme partie.
          <lb/>Régime intérieur.</head>
         <p>1° L’Église a été seule en possession de l’enseignement, non par intolérance, mais parce que l’état social, au moins avant le douzième siècle, ne comportait pas d’autres professeurs que les clercs et les moines, ni d’autres élèves que les jeunes gens voués à la vie religieuse. C’est tomber dans un non-sens que de parler de liberté d’enseignement à cette époque où les esprits étaient incapables de la concevoir et d’en user.</p>
@@ -47,68 +69,46 @@
       </div>
       <div>
         <head rend="uc">Troisième partie.
-         <lb/>Études.</head>
+          <lb/>Études.</head>
         <p>1° Le programme des études comprenait le Ces différentes sciences étaient considérées comme autant de degrés qui conduisaient au sanctuaire de la théologie. On ajouta, dans quelques villes, le droit canon, le droit romain, la médecine et même les beaux-arts.</p>
         <table>
-          <tbody>
-            <tr>
-              <td rowspan="3">
-                <p>TRIVIUM.</p>
-              </td>
-              <td rowspan="3"> </td>
-              <td>
-                <p>Grammaire,</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Rhétorique,</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Dialectique.</p>
-              </td>
-            </tr>
-          </tbody>
+          <row>
+            <cell>TRIVIUM.</cell>
+            <cell> </cell>
+            <cell>Grammaire,</cell>
+          </row>
+          <row>
+            <cell>Rhétorique,</cell>
+          </row>
+          <row>
+            <cell>Dialectique.</cell>
+          </row>
         </table>
         <table>
-          <tbody>
-            <tr>
-              <td rowspan="4">
-                <p>QUADRIVIUM.</p>
-              </td>
-              <td rowspan="4"> </td>
-              <td>
-                <p>Musique,</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Arithmétique,</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Géométrie,</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Astronomie.</p>
-              </td>
-            </tr>
-          </tbody>
+          <row>
+            <cell>QUADRIVIUM.</cell>
+            <cell> </cell>
+            <cell>Musique,</cell>
+          </row>
+          <row>
+            <cell>Arithmétique,</cell>
+          </row>
+          <row>
+            <cell>Géométrie,</cell>
+          </row>
+          <row>
+            <cell>Astronomie.</cell>
+          </row>
         </table>
         <p>2° Catalogue des classiques en usage.</p>
         <p>3° Quelques mots sur l’instruction des femmes.</p>
-        <pb n="49" facs="../SRC/1864/ENCPOS_1864_10/TIFF/ENCPOS_1864_10_03.TIF"/>
+        <pb n="49" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1864_10/ENCPOS_1864_10_03.TIF/full/full/0/default.jpg"/>
         <p>4° Les laïques qui ont cultivé les lettres étaient pour la plupart membres de la classe supérieure.</p>
       </div>
       <div>
         <head rend="uc">Conclusion.</head>
         <p>Cette période pourrait être appelée Bénédictine en raison du nombre infini d’écolàtres sortis de l’ordre de Saint-Benoît. Elle n’a rien innové, mais seulement conservé la méthode suivie par Boëce, Martianus Capella, Cassiodore et Isidore de Séville.</p>
-        <pb n="50" facs="../SRC/1864/ENCPOS_1864_10/TIFF/ENCPOS_1864_10_04.TIF"/>
+        <pb n="50" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1864_10/ENCPOS_1864_10_04.TIF/full/full/0/default.jpg"/>
       </div>
     </body>
   </text>

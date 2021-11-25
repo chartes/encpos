@@ -1,26 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
 <?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_NEXT" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title/>
-        <author/>
-      </titleStmt>
+        <title>Pages postliminaires</title>
+        </titleStmt>
+      <editionStmt>
+        <edition>Rétroconversion de la publication imprimée</edition>
+        <funder ref="https://www.wikidata.org/wiki/Q273570">École des chartes</funder>
+      </editionStmt>
       <publicationStmt>
-        <publisher>École des chartes</publisher>
-        <date when="2020"/>
+        <publisher ref="https://www.wikidata.org/wiki/Q273570">École des chartes</publisher>
+        <date when="2021"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
       </publicationStmt>
-      <sourceDesc corresp="../SRC/1994/ENCPOS_1994_NEXT/PDF/ENCPOS_1994_NEXT.PDF"/>
+      <seriesStmt>
+        <title>Positions des thèses</title>
+        <idno type="ISSN">0755-2076</idno>
+        <idno type="URI">http://www.sudoc.fr/013565311</idno>
+      </seriesStmt>
+      <sourceDesc facs="https://raw.githubusercontent.com/chartes/encpos/metadata/data/ENCPOS_1994/ENCPOS_1994_NEXT.PDF">
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 1994 pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>1994</date>, <biblScope>p. -227</biblScope>.</bibl>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1994"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="227" facs="../SRC/1994/ENCPOS_1994_NEXT/TIFF/ENCPOS_1994_NEXT_01.TIF"/>
+      <pb n="227" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1994_NEXT/ENCPOS_1994_NEXT_01.TIF/full/full/0/default.jpg"/>
       <p>TABLE DES MATIÈRES</p>
       <p>Pages</p>
       <p>Jury des thèses de l’École.......................................... 4</p>
@@ -37,7 +56,7 @@
       <p>Les plus anciennes chartes en langue française conservées aux Archives départementales du Doubs (1260-1271), par Judith DUCOURTIEUX..... 65</p>
       <p>Les chapellenies à Notre-Dame de Paris (XII’-XVI’ siècle). Recherches historiques et archéologiques, par Grégoire ÉLDIN..................... 69</p>
       <p>La liquidation de la Liste civile de Napoélon III (1870-1924), par Catherine GRANGER...................................................... 77</p>
-      <pb n="228" facs="../SRC/1994/ENCPOS_1994_NEXT/TIFF/ENCPOS_1994_NEXT_02.TIF"/>
+      <pb n="228" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1994_NEXT/ENCPOS_1994_NEXT_02.TIF/full/full/0/default.jpg"/>
       <p>Édition du cartulaire dit de Robert Mignon (XIV’-XV’ siècles), par Patricia GÜYARD........................................................ 85</p>
       <p>Édition du cartulaire et du chartrier de l’archevêché de Besançon (1095-1268), par Anne-Claire HÂGI 	....	93</p>
       <p>L’abbaye de Saint-Antoine et ses préceptories dans les diocèses de Vienne et de Grenoble (XLV’-XV’ siècles), par Yves KlNOSSIAN............... 103</p>
@@ -45,7 +64,7 @@
       <p>Jules-Raymond de Solier, « premier écrivain général de la Provence ». Édition des <hi rend="i">Rerum antiquarum et nobiliorum Provinciae commentarii, </hi>par Agnès LE MENN............................................. 119</p>
       <p>La chapelle royale de Versailles : le cadre archéologique et institutionnel et les cérémonies religieuses sous Louis XIV, par Alexandre MARAL..... 129</p>
       <p>Le chapitre cathédral de Noyon (Xl’-XIlT siècle) : organisation, pouvoir et temporel, par Pierre MARCHAND.................................. 135</p>
-      <p>Une édition de texte classique au XVI<hi rend="sup">e</hi> siècle : Piero Vettori, Henri Estienne et Eschyle (1557), par Raphaële MOUREN........................... 145</p>
+      <p>Une édition de texte classique au <num>xvi<hi rend="sup">e</hi></num> siècle : Piero Vettori, Henri Estienne et Eschyle (1557), par Raphaële MOUREN........................... 145</p>
       <p>Les sceaux gascons du Moyen Âge, par Fabien PLAZANNET............. 153</p>
       <p>Les Tabard, fabricants de tapisserie à Aubusson de 1869 à 1983, par Delphine QUÉREUX.............................................. 159</p>
       <p>Philippe de Béthune (1565-1649), comte de Selles et de Charost : une longue vie au service du roi, par Pierre QUERNEZ......................... 171</p>
@@ -55,12 +74,12 @@
       <p>Joutes, tournois et pas d’armes dans les villes des Pays-Bas méridionaux à la fin du Moyen Âge (1300-1486), par Évelyne VAN DEN NESTE...... 205</p>
       <p>Les conversions au catholicisme de protestants étrangers devant l’inquisition espagnole (fin XVI’-XVII’ siècle), par Agnès VATICAN................. 215</p>
       <p><hi rend="i">Vie de saint Éloi.</hi> Étude critique et édition, par Isabelle WESTEEL-HOUSTE 221</p>
-      <pb n="229" facs="../SRC/1994/ENCPOS_1994_NEXT/TIFF/ENCPOS_1994_NEXT_03.TIF"/>
+      <pb n="229" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1994_NEXT/ENCPOS_1994_NEXT_03.TIF/full/full/0/default.jpg"/>
       <p>ACHEVÉ D’IMPRIMER SUR LES PRESSES DE L’IMPRIMERIE CHIRAT 42540 ST-JUST-LA-PENDUE EN MARS 1994 DÉPÔT LÉGAL 1994 N° 8519</p>
-      <pb n="230" facs="../SRC/1994/ENCPOS_1994_NEXT/TIFF/ENCPOS_1994_NEXT_04.TIF"/>
-      <pb n="231" facs="../SRC/1994/ENCPOS_1994_NEXT/TIFF/ENCPOS_1994_NEXT_05.TIF"/>
+      <pb n="230" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1994_NEXT/ENCPOS_1994_NEXT_04.TIF/full/full/0/default.jpg"/>
+      <pb n="231" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1994_NEXT/ENCPOS_1994_NEXT_05.TIF/full/full/0/default.jpg"/>
       <p>IMPRIMÉ EN FRANCE</p>
-      <pb n="232" facs="../SRC/1994/ENCPOS_1994_NEXT/TIFF/ENCPOS_1994_NEXT_06.TIF"/>
+      <pb n="232" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1994_NEXT/ENCPOS_1994_NEXT_06.TIF/full/full/0/default.jpg"/>
     </body>
   </text>
 </TEI>

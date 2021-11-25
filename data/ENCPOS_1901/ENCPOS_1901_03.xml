@@ -1,35 +1,57 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1901_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Histoire des institutions communales de la ville de Laon jusqu’aux débuts du XIV<hi rend="sup">e</hi>siècle</title>
-        <author>Lucien Broche</author>
+        <title>Histoire des institutions communales de la ville de Laon jusqu’aux débuts du <hi rend="sc">xvi</hi><hi rend="sup">e</hi> siècle</title>
+        <author ref="https://www.idref.fr/110868951">Lucien Broche</author>
       </titleStmt>
+      <editionStmt>
+        <edition>Rétroconversion de la publication imprimée</edition>
+        <funder ref="https://www.wikidata.org/wiki/Q273570">École des chartes</funder>
+      </editionStmt>
       <publicationStmt>
-        <publisher>École des chartes</publisher>
-        <date when="2020"/>
+        <publisher ref="https://www.wikidata.org/wiki/Q273570">École des chartes</publisher>
+        <date when="2021"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
       </publicationStmt>
-      <sourceDesc corresp="../SRC/1901/ENCPOS_1901_03/PDF/ENCPOS_1901_03.PDF"/>
+      <seriesStmt>
+        <title>Positions des thèses</title>
+        <idno type="ISSN">0755-2076</idno>
+        <idno type="URI">http://www.sudoc.fr/013565311</idno>
+      </seriesStmt>
+      <sourceDesc facs="https://raw.githubusercontent.com/chartes/encpos/metadata/data/ENCPOS_1901/ENCPOS_1901_03.PDF">
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 1901 pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>1901</date>, <biblScope>p. 25-32</biblScope>.</bibl>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1901"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="25" facs="../SRC/1901/ENCPOS_1901_03/TIFF/ENCPOS_1901_03_01.TIF"/>
+      <pb n="25" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1901_03/ENCPOS_1901_03_01.TIF/full/full/0/default.jpg"/>
       <head rend="uc">Histoire
        <lb/>des
        <lb/>institutions communales
        <lb/>de la
        <lb/>ville de Laon
-       <lb/>jusqu’aux débuts du XIV<hi rend="sup">e</hi>siècle</head>
-      <byline>par
-       <lb/>Lucien Broche
-       <lb/>Élève de l’École des Hautes-Études</byline>
+       <lb/>jusqu’aux débuts du <num>xiv<hi rend="sup">e</hi></num>siècle</head>
+      <byline>
+        par
+        <forename>Lucien</forename>
+        <surname>Broche</surname>
+        <roleName>Élève de l’École des Hautes-Études</roleName>
+      </byline>
       <div>
         <head rend="uc">Introduction</head>
         <p>Le sujet. Ses limites. Ses sources. Travaux manuscrits ou imprimés antérieurs. L’œuvre de Dom Grenier et de ses collaborateurs. Archives communales, archives de l’évêché, du chapitre, des abbayes, et archives diverses.</p>
@@ -38,7 +60,7 @@
         <head rend="uc">Chapitre premier
          <lb/>la ville de Laon avant la commune</head>
         <p>Absence de documents relatifs au régime administratif de la ville avant son érection en commune. La <hi rend="i">communauté</hi> des habitants de Laon avant l’octroi de la charte.</p>
-        <p>Les diverses autorités de la ville à l’époque de l’établissement du régime municipal. L’évêque, son pouvoir temporel dans la cité. Origine de ce pouvoir ; le démembrement du <hi rend="i">comitatus.</hi> L’inféodation de la ville <pb n="26" facs="../SRC/1901/ENCPOS_1901_03/TIFF/ENCPOS_1901_03_02.TIF"/>à l’évêque aux premiers temps de la dynastie capétienne. L’autorité du roi dans la ville. – Le Chapitre ; les abbayes ; les paroisses.</p>
+        <p>Les diverses autorités de la ville à l’époque de l’établissement du régime municipal. L’évêque, son pouvoir temporel dans la cité. Origine de ce pouvoir ; le démembrement du <hi rend="i">comitatus.</hi> L’inféodation de la ville <pb n="26" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1901_03/ENCPOS_1901_03_02.TIF/full/full/0/default.jpg"/>à l’évêque aux premiers temps de la dynastie capétienne. L’autorité du roi dans la ville. – Le Chapitre ; les abbayes ; les paroisses.</p>
       </div>
       <div>
         <head rend="uc">Chapitre II
@@ -49,8 +71,8 @@
         <head rend="uc">Chapitre III
          <lb/>Constitution et organisation de la commune</head>
         <p>La charte de Laon ; ses états successifs ; son caractère ; sa filiation.</p>
-        <p>Les bourgeois. Condition d’entrée en bourgeoisie. Les clercs et les nobles ne font pas partie de la commune. Le cas d’Enguerrand de Couci, bourgeois de Laon, au début du XIII<hi rend="sup">e</hi> siècle. Les clercs marchands et les clercs mariés astreints à la taille. Les francs hommes et les vassaux de l’évêque : leur condition dans la commune. Les sergents du Chapitre : les sergents bourgeois et les sergents non-bourgeois. Les contres laïques du Chapitre peuvent être bourgeois. – Les officiers du roi : leur situation vis-à-vis de la commune. – Les serfs et l’association communale. – Personnes exclues du corps municipal par incapacité. Leur dépendance à l’égard des magistrats municipaux. – La population flottante dans la commune.</p>
-        <p>Le serment de bourgeoisie. – Obligations des bourgeois : paiement de la taille ; le service d’ost et de chevauchée ; le guet ; le ban. – Prérogatives des bourgeois : <pb n="27" facs="../SRC/1901/ENCPOS_1901_03/TIFF/ENCPOS_1901_03_03.TIF"/>privilèges administratifs et judiciaires. Des expressions qui désignent dans les textes les membres de l’association communale. Bourgeois forains. – Perte de la bourgeoisie. Le crime de lèse-commune.</p>
+        <p>Les bourgeois. Condition d’entrée en bourgeoisie. Les clercs et les nobles ne font pas partie de la commune. Le cas d’Enguerrand de Couci, bourgeois de Laon, au début du <num>xiii<hi rend="sup">e</hi></num> siècle. Les clercs marchands et les clercs mariés astreints à la taille. Les francs hommes et les vassaux de l’évêque : leur condition dans la commune. Les sergents du Chapitre : les sergents bourgeois et les sergents non-bourgeois. Les contres laïques du Chapitre peuvent être bourgeois. – Les officiers du roi : leur situation vis-à-vis de la commune. – Les serfs et l’association communale. – Personnes exclues du corps municipal par incapacité. Leur dépendance à l’égard des magistrats municipaux. – La population flottante dans la commune.</p>
+        <p>Le serment de bourgeoisie. – Obligations des bourgeois : paiement de la taille ; le service d’ost et de chevauchée ; le guet ; le ban. – Prérogatives des bourgeois : <pb n="27" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1901_03/ENCPOS_1901_03_03.TIF/full/full/0/default.jpg"/>privilèges administratifs et judiciaires. Des expressions qui désignent dans les textes les membres de l’association communale. Bourgeois forains. – Perte de la bourgeoisie. Le crime de lèse-commune.</p>
       </div>
       <div>
         <head rend="uc">Chapitre IV
@@ -61,8 +83,8 @@
         <head rend="uc">Chapitre V
          <lb/>La juridiction municipale</head>
         <p>Caractère de cette juridiction : elle est avant tout une juridiction de police. Le tribunal de la commune est compétent en matière d’injures, de rapts, de blessures, de rixes, d’occision et de meurtre. Police de la voirie. Police des mœurs. Hygiène publique. En dehors de ces circonstances, les magistrats n’interviennent que pour cause de déni de justice de la part des autres juridictions de la ville et de la juridiction épiscopale en particulier. Leur compétence en matière civile est presque nulle.</p>
-        <pb n="28" facs="../SRC/1901/ENCPOS_1901_03/TIFF/ENCPOS_1901_03_04.TIF"/>
-        <p>La juridiction communale est limitée : 1° au point de vue territorial, par de nombreuses enclaves qui échappent à son action. Exemple de ce morcellement judiciaire : le faubourg de Vaux au XIII<hi rend="sup">e</hi> siècle ; 2° au point de vue personnel, par plusieurs conditions privilégiées qui soustraient certaines catégories de personnes du nombre des justiciables de la commune : les nobles, les clercs, les sergents de l’évêché et du chapitre, les hommes de corps de l’évêché et du chapitre, les étrangers de passage dans la ville, etc.</p>
+        <pb n="28" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1901_03/ENCPOS_1901_03_04.TIF/full/full/0/default.jpg"/>
+        <p>La juridiction communale est limitée : 1° au point de vue territorial, par de nombreuses enclaves qui échappent à son action. Exemple de ce morcellement judiciaire : le faubourg de Vaux au <num>xiii<hi rend="sup">e</hi></num> siècle ; 2° au point de vue personnel, par plusieurs conditions privilégiées qui soustraient certaines catégories de personnes du nombre des justiciables de la commune : les nobles, les clercs, les sergents de l’évêché et du chapitre, les hommes de corps de l’évêché et du chapitre, les étrangers de passage dans la ville, etc.</p>
         <p>Procédure à suivre par les magistrats municipaux pour l’arrestation des clercs dans le cas de flagrant délit sur le territoire de la commune.</p>
         <p>Tendance des magistrats municipaux vers l’unité en matière de juridiction. Luttes engagées pour la réalisation de cet idéal. Empiétements continuels dont les diverses juridictions de la ville sont l’objet de la part de la commune. Atteintes portées aux prérogatives de la commune ; les usurpations du bailli de Vermandois.</p>
         <p>Peines prononcées par le tribunal de la commune : amende, détention, saisie et destruction de biens, mutilation, bannissement, peine de mort (pendaison ou enfouissement).</p>
@@ -72,14 +94,14 @@
         <head rend="uc">Chapitre VI
          <lb/>Rapports de l’évêque avec la commune</head>
         <p>Caractère de ces rapports. La commune vassale de l’évêque. Prestation de la foi et de l’hommage. Le service d’ost. De bonne heure, la commune passe sous la suzeraineté immédiate du roi et cherche à s’affranchir de ses obligations de vassalité vis-à-vis de l’évêque.</p>
-        <p>La cour épiscopale : sa composition. Les vassaux de <pb n="29" facs="../SRC/1901/ENCPOS_1901_03/TIFF/ENCPOS_1901_03_05.TIF"/>l’évêque : le vidame, le vicomte, le prévôt, le bouteiller, le chambellan, le chambrier, le maréchal, le chancelier.</p>
+        <p>La cour épiscopale : sa composition. Les vassaux de <pb n="29" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1901_03/ENCPOS_1901_03_05.TIF/full/full/0/default.jpg"/>l’évêque : le vidame, le vicomte, le prévôt, le bouteiller, le chambellan, le chambrier, le maréchal, le chancelier.</p>
         <p>La juridiction de l’évêque dans la commune. Les francs hommes. Compétence du tribunal de l’évêque. Causes qui ressortissent à la justice épiscopale aussi bien qu’à la justice de la commune. L’évêque et les magistrats communaux établissent par compromis la procédure à suivre dans les causes de ce genre (juin 1266). Le tribunal de l’évêque, tribunal d’appel. Nombreux conflits entre la juridiction épiscopale et la justice de la commune.</p>
         <p>Droits de l’évêque dans la commune : le tonlieu, le rouage, le lardage, le jaugeage et le change. Rachat de ces droits par la commune. La taxe des viandes et du pain. Droits de prise sur les marchés. Les poids et les mesures. Droits de gîte, etc.</p>
       </div>
       <div>
         <head rend="uc">Chapitre VII
          <lb/>L’échevinage</head>
-        <p>Origine de cette institution. Les échevins de Laon et les <hi rend="i">scabini</hi> carolingiens. Caractère complexe de l’échevinage de Laon au moyen âge. Ce tribunal siège à la fois comme justice de l’évêque et comme justice du roi. Les échevins ; leur nombre. Ils sont élus par cooptation parmi les personnes natives de Laon. La durée de leurs fonctions n’est pas connue. Les nouveaux élus prêtent serment à l’évêque. Caractère aristocratique de ce tribunal. – La juridiction de l’échevinage s’étend sur toute la circonscription de l’ancien <hi rend="i">pagus Laudunensis.</hi> Les échevins connaissent des procès entre nobles, entre communautés urbaines et rurales. Toutes les causes touchant au fonds et à la propriété ressortissent à leur tribunal. Comme juges royaux, les échevins peuvent recevoir les appels portés au roi. – Leur justice n’est pas gratuite. <pb n="30" facs="../SRC/1901/ENCPOS_1901_03/TIFF/ENCPOS_1901_03_06.TIF"/>Emoluments des échevins. – La juridiction gracieuse de l’échevinage.</p>
+        <p>Origine de cette institution. Les échevins de Laon et les <hi rend="i">scabini</hi> carolingiens. Caractère complexe de l’échevinage de Laon au moyen âge. Ce tribunal siège à la fois comme justice de l’évêque et comme justice du roi. Les échevins ; leur nombre. Ils sont élus par cooptation parmi les personnes natives de Laon. La durée de leurs fonctions n’est pas connue. Les nouveaux élus prêtent serment à l’évêque. Caractère aristocratique de ce tribunal. – La juridiction de l’échevinage s’étend sur toute la circonscription de l’ancien <hi rend="i">pagus Laudunensis.</hi> Les échevins connaissent des procès entre nobles, entre communautés urbaines et rurales. Toutes les causes touchant au fonds et à la propriété ressortissent à leur tribunal. Comme juges royaux, les échevins peuvent recevoir les appels portés au roi. – Leur justice n’est pas gratuite. <pb n="30" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1901_03/ENCPOS_1901_03_06.TIF/full/full/0/default.jpg"/>Emoluments des échevins. – La juridiction gracieuse de l’échevinage.</p>
         <p>L’échevinage vis-à-vis de la commune. Les échevins considérés parfois comme magistrats municipaux. L’échevinage a partagé toutes les vicissitudes de la commune. Le même arrêt du Parlement a supprimé définitivement, en mars 1332, la commune et l’échevinage.</p>
       </div>
       <div>
@@ -93,22 +115,22 @@
         <head rend="uc">Chapitre IX
          <lb/>Le chapitre dans ses rapports avec la commune</head>
         <p>La juridiction du chapitre trouve son origine dans un diplôme d’immunité du roi Eudes (vers 888). La séparation de la mense capitulaire et de la mense épiscopale est antérieure à cette date.</p>
-        <p>Extension de la juridiction du chapitre dans la commune au XIII<hi rend="sup">e</hi> siècle ; le cloître, le parvis, l’hôpital Notre-Dame, les grandes écoles, etc., sont sous sa dépendance. – La censive capitulaire. La juridiction du chapitre dans <pb n="31" facs="../SRC/1901/ENCPOS_1901_03/TIFF/ENCPOS_1901_03_07.TIF"/>le faubourg de Vaux. Les justiciables du chapitre : les clercs-chanoines, les coutres laïques, les serviteurs non bourgeois, etc. Les droits du chapitre dans la commune. Le marché du parvis.</p>
+        <p>Extension de la juridiction du chapitre dans la commune au <num>xiii<hi rend="sup">e</hi></num> siècle ; le cloître, le parvis, l’hôpital Notre-Dame, les grandes écoles, etc., sont sous sa dépendance. – La censive capitulaire. La juridiction du chapitre dans <pb n="31" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1901_03/ENCPOS_1901_03_07.TIF/full/full/0/default.jpg"/>le faubourg de Vaux. Les justiciables du chapitre : les clercs-chanoines, les coutres laïques, les serviteurs non bourgeois, etc. Les droits du chapitre dans la commune. Le marché du parvis.</p>
         <p>Les rapports du chapitre et de la commune sont marqués par des différends sans nombre. Exemples de ces différends. Le procès de 1237 : le clergé inférieur prend parti pour la commune contre le chapitre. Le chapitre s’est toujours montré l’adversaire le plus acharné des bourgeois de Laon.</p>
       </div>
       <div>
         <head rend="uc">Chapitre X
          <lb/>Affaires militaires de la commune</head>
         <p>La milice communale. Sa composition. Sa direction. Les convocations à l’ost. Le service du guet et du contreguet.</p>
-        <p>Les fortifications. Entretien des murailles. Travaux effectués dans le cours du XIII<hi rend="sup">e</hi> siècle. Le roi a la haute main sur tout ce qui concerne les fortifications de la ville.</p>
+        <p>Les fortifications. Entretien des murailles. Travaux effectués dans le cours du <num>xiii<hi rend="sup">e</hi></num> siècle. Le roi a la haute main sur tout ce qui concerne les fortifications de la ville.</p>
       </div>
       <div>
         <head rend="uc">Chapitre XI
          <lb/>Finances communales</head>
         <p>Les revenus de la commune. Location des immeubles communaux ; la censive municipale. Amendes. Redevances perçues en raison du tonlieu, du rouage, des étaux, etc. ; personnes exemptées de ces redevances. La taille ; sa perception ; sa répartition ; personnes soumises au paiement de la taille.</p>
         <p>Les dépenses de la commune : rachat de diverses impositions seigneuriales. Entretien des chaussées et des murailles. Traitements des fonctionnaires subalternes, etc.</p>
-        <pb n="32" facs="../SRC/1901/ENCPOS_1901_03/TIFF/ENCPOS_1901_03_08.TIF"/>
-        <p>État financier de la ville vers le milieu du XIII<hi rend="sup">e</hi> siècle. Les dettes de la commune. Les emprunts, Rentes viagères et rentes perpétuelles dues par la commune.</p>
+        <pb n="32" facs="https://iiif.chartes.psl.eu/images/encpos/ENCPOS_1901_03/ENCPOS_1901_03_08.TIF/full/full/0/default.jpg"/>
+        <p>État financier de la ville vers le milieu du <num>xiii<hi rend="sup">e</hi></num> siècle. Les dettes de la commune. Les emprunts, Rentes viagères et rentes perpétuelles dues par la commune.</p>
       </div>
       <div>
         <head rend="uc">Chapitre XII
@@ -124,7 +146,7 @@
       </div>
       <div>
         <head rend="uc">Pièces justificatives</head>
-        <p></p>
+        <p/>
       </div>
     </body>
   </text>
