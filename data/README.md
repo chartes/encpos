@@ -217,6 +217,7 @@ Cette sérialisation XML des métadonnées doit se conformer aux [recommandation
         <dct:rights>https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:rights>
         <dct:isVersionOf>https://www.sudoc.fr/{sudoc_these-record_ppn}</dct:isVersionOf>
         <dct:isVersionOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber={benc_these-record_id}</dct:isVersionOf>
+        <dct:isVersionOf>http://bibnum.chartes.psl.eu/s/thenca/item/{thenca_these-record_id}</dct:isVersionOf>
         <dct:source>https://iiif.chartes.psl.eu/encpos/{id.lower()}/manifest</dct:source>
         <dts:download>https://theses.chartes.psl.eu/dts/document?id={id}</dts:download>
         <dts:download>https://github.com/chartes/encpos/raw/master/data/ENCPOS_{promotion_year}/{id}.PDF</dts:download>
@@ -229,31 +230,24 @@ Cette sérialisation XML des métadonnées doit se conformer aux [recommandation
 ### Exemple
 
 ```xml
-<?xml-model
-  href="https://raw.githubusercontent.com/Capitains/guidelines/master/capitains.rng"
-  schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<cpt:collection
-  xmlns:dts="https://w3id.org/dts/api#"
-  xmlns:html="http://www.w3.org/1999/xhtml/"
-  xmlns:dct="http://purl.org/dc/terms/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:cpt="http://purl.org/capitains/ns/1.0#">
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Capitains/guidelines/master/capitains.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<cpt:collection xmlns:dts="https://w3id.org/dts/api#" xmlns:html="http://www.w3.org/1999/xhtml/" xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cpt="http://purl.org/capitains/ns/1.0#">
   <cpt:identifier>ENCPOS_1972_18</cpt:identifier>
-  <dc:type>dts:work ???</dc:type><!-- Requis, mal documenté : on attend quoi ici ? -->
-  <dc:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dc:title>
   <cpt:parent>ENCPOS_1972</cpt:parent>
+  <dc:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dc:title>
+  <dc:type>dts:Resource</dc:type>
   <cpt:members>
     <cpt:collection readable="true" path="./ENCPOS_1972_18.xml">
       <cpt:identifier>ENCPOS_1972_18</cpt:identifier>
-      <dc:type>dts:edition ???</dc:type><!-- Requis, mal documenté : on attend quoi ici ? -->
-      <dc:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dc:title><!-- Requis, mais redondant. cf //cpt:structured-metadata/dct:title -->
-      <dc:language>fre</dc:language><!-- Requis, mais redondant. cf //cpt:structured-metadata/dct:language -->
       <cpt:parent>ENCPOS_1972</cpt:parent>
+      <dc:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dc:title>
+      <dc:type>dts:Resource</dc:type>
+      <dc:language>fre</dc:language>
       <cpt:structured-metadata>
         <dct:title xml:lang="fre">Le bestiaire héraldique au Moyen Âge</dct:title>
         <html:h1>Le bestiaire héraldique au Moyen Âge</html:h1>
-        <dct:creator>Michel Pastoureau</dct:creator>
+        <dc:creator>Michel Pastoureau</dc:creator>
         <dct:creator>https://www.idref.fr/027059952</dct:creator>
         <dct:creator>https://catalogue.bnf.fr/ark:/12148/cb119187467</dct:creator>
         <dct:creator>https://data.bnf.fr/ark:/12148/cb119187467</dct:creator>
@@ -263,15 +257,16 @@ Cette sérialisation XML des métadonnées doit se conformer aux [recommandation
         <dct:date>1972</dct:date>
         <dct:extend>143-154</dct:extend>
         <dct:publisher xml:lang="mul">École des chartes, Paris</dct:publisher>
-        <dct:language>fr</dct:language>
+        <dct:language>fre</dct:language>
         <dct:coverage>1000/1499</dct:coverage>
         <dct:format>application/tei+xml</dct:format>
         <dct:rights>https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:rights>
         <dct:isVersionOf>https://www.sudoc.fr/234764724</dct:isVersionOf>
+        <dct:isVersionOf>https://bibnum.chartes.psl.eu/s/thenca/item/58334</dct:isVersionOf>
         <dct:isVersionOf>https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=125235</dct:isVersionOf>
         <dct:source>https://iiif.chartes.psl.eu/encpos/encpos_1972_18/manifest</dct:source>
-        <dts:download>https://github.com/chartes/encpos/raw/metadata/data/ENCPOS_1972/ENCPOS_1972_18.xml</dts:download>
-        <dts:download>https://github.com/chartes/encpos/raw/metadata/data/ENCPOS_1972/ENCPOS_1972_18.PDF</dts:download>
+        <dts:download>https://theses.chartes.psl.eu/dts/document?id=ENCPOS_1972_18</dts:download>
+        <dts:download>https://github.com/chartes/encpos/raw/master/data/ENCPOS_1972/ENCPOS_1972_18.PDF</dts:download>
       </cpt:structured-metadata>
     </cpt:collection>
   </cpt:members>
@@ -294,7 +289,7 @@ Cette sérialisation XML des métadonnées doit se conformer aux [recommandation
   "dts:references": "/dts/navigation?id={id}",
   "dts:download": [
     "https://github.com/chartes/encpos/raw/master/data/{path-to-xml-file.xml}",
-    "https://github.com/chartes/encpos/raw/master/data/{path-to-pdf-file.pdf}"
+    "https://theses.chartes.psl.eu/dts/document?id={id}"
   ],
   "dts:citeDepth": "1",
   "dts:citeStructure": [
@@ -363,7 +358,7 @@ Cette sérialisation XML des métadonnées doit se conformer aux [recommandation
 
 ### Exemple
 
-[`https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18`](https://dev.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18)
+[`https://theses.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18`](https://theses.chartes.psl.eu/dts/collections?id=ENCPOS_1972_18)
 
 
 
@@ -377,10 +372,7 @@ Cette sérialisation XML des métadonnées doit se conformer aux [recommandation
   "dts:references": "/dts/navigation?id=ENCPOS_1972_18",
   "dts:extensions": {
     "ns1:format": "application/tei+xml",
-    "ns1:type": [
-      "dts:work",
-      "dts:edition"
-    ],
+    "ns1:type": "dts:Resource",
     "ns1:date": "1972",
     "ns1:creator": [
       "Pastoureau, Michel",
@@ -586,6 +578,8 @@ WHERE {
 
 ## Exports
 
+L'ajout des teiHeaders se fait dans les fichiers XML est pilotée par le tableau `encpos.tsv` et grâçe aux scripts [teiHeader_writer.py](https://github.com/chartes/encpos/blob/master/utils/teiHeader_writer.py). On peut y générer l'intégral des teiHeader ou uniquement la promotion d'une année.
+
 ### XML/TEI
 
 ```xml
@@ -593,13 +587,14 @@ WHERE {
     <fileDesc>
       <titleStmt>
         <title>{html2tei(rich_title)}</title>
-        <author sameAs="{author_idref-id}">{author_firstname} {author_name}</author>
+        <author ref="{author_idref-id}">{author_fullname_label}</author>
       </titleStmt>
       <editionStmt>
-        <funder>École nationale des chartes</edition>
+        <edition>Rétroconversion de la publication imprimée</edition>
+        <funder ref="https://www.wikidata.org/wiki/Q273570">École des chartes</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>École nationale des chartes</publisher>
+        <publisher ref="https://www.wikidata.org/wiki/Q273570">École des chartes</publisher>
         <date when="2021"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
@@ -610,8 +605,8 @@ WHERE {
         <idno type="ISSN">0755-2976</idno>
         <idno type="URI">http://www.sudoc.fr/013565311</idno>
       </seriesStmt>
-      <sourceDesc>
-        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de {promotion_year} pour obtenir le diplôme d’archiviste paléographe</title>, <pubPlace>Paris</pubPlace>, <publisher>École des chartes</publisher>, <date>{promotion_year}</date>.</bibl>
+      <sourceDesc facs="https://raw.githubusercontent.com/chartes/encpos/metadata/data/ENCPOS_{promotion_year}/{id}.PDF">
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de {promotion_year} pour obtenir le diplôme d’archiviste paléographe</title>, <pubPlace>Paris</pubPlace>, <publisher>École des chartes</publisher>, <date>{promotion_year}</date>,<biblScope>{pagination}</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -628,17 +623,18 @@ WHERE {
 Exemple
 
 ```xml
-<teiHeader>
+  <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Le bestiaire héraldique au Moyen_Âge</title>
-        <author sameAs="https://www.idref.fr/027059952">Michel Pastoureau</author>
+        <title>Mutations et permanences sociales à Avignon (1390-1430)</title>
+        <author ref="https://www.idref.fr/149832230">Catherine Gros-Hayet</author>
       </titleStmt>
       <editionStmt>
-        <edition>École nationale des chartes</edition>
+        <edition>Rétroconversion de la publication imprimée</edition>
+        <funder ref="https://www.wikidata.org/wiki/Q273570">École des chartes</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>École des chartes</publisher>
+        <publisher ref="https://www.wikidata.org/wiki/Q273570">École des chartes</publisher>
         <date when="2021"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
@@ -646,62 +642,16 @@ Exemple
       </publicationStmt>
       <seriesStmt>
         <title>Positions des thèses</title>
-        <idno type="ISSN">0755-2976</idno>
+        <idno type="ISSN">0755-2076</idno>
         <idno type="URI">http://www.sudoc.fr/013565311</idno>
       </seriesStmt>
-      <sourceDesc>
-        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 2016 pour obtenir le diplôme d’archiviste paléographe</title>, <pubPlace>Paris</pubPlace>, <publisher>École des chartes</publisher>, <date>2016</date>.</bibl>
+      <sourceDesc facs="https://raw.githubusercontent.com/chartes/encpos/metadata/data/ENCPOS_1989/ENCPOS_1989_11.PDF">
+        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 1989 pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>1989</date>, <biblScope>p. 95-103</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="2016"/>
-      </creation>
-      <langUsage>
-        <language ident="fre"/>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-```
-2ème possibilité avec intégration des liens externes en changeant la forme de la balise author
-
-```xml
-<teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>{html2tei(rich_title)}</title>
-        <author>
-          <persName>{author_firstname} {author_name}</persName>
-          <idno type="Idref">{author_idref-id}</idno>
-          <idno type="dbpedia">{id_dbpedia}</idno>
-          <idno type="Wikidata">{id_wikidata}</idno>
-          <idno type="Wikipedia">{link_wikipedia}</idno>
-          <idno type="DataBnF">{ark_databnf}</idno>
-          <idno type="CatalogueBnF">{ark_cataloguebnf}</idno>   
-        </author>
-      </titleStmt>
-      <editionStmt>
-        <funder>École nationale des chartes</edition>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>École nationale des chartes</publisher>
-        <date when="2021"/>
-        <availability status="restricted">
-          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
-        </availability>
-      </publicationStmt>
-      <seriesStmt>
-        <title>Positions des thèses</title>
-        <idno type="ISSN">0755-2976</idno>
-        <idno type="URI">http://www.sudoc.fr/013565311</idno>
-      </seriesStmt>
-      <sourceDesc>
-        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de {promotion_year} pour obtenir le diplôme d’archiviste paléographe</title>, <pubPlace>Paris</pubPlace>, <publisher>École des chartes</publisher>, <date>{promotion_year}</date>.</bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <creation>
-        <date when="{promotion_year}"/>
+        <date when="1989"/>
       </creation>
       <langUsage>
         <language ident="fre"/>
@@ -710,52 +660,5 @@ Exemple
   </teiHeader>
 ```
 
-Exemple avec l'intégration des liens extérieurs en changenant la forme autour de author 
-
-```xml
-<teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Le bestiaire héraldique au Moyen_Âge</title>
-        <author sameAs="https://www.idref.fr/027059952">Michel Pastoureau</author>
-        <author>
-          <persName>Michel Pastoureau</persName>
-          <idno type="Idref">027059952</idno>
-          <idno type="dbpedia">http://dbpedia.org/resource/Michel_Pastoureau</idno>
-          <idno type="Wikidata">http://wikidata.org/entity/Q2497623</idno>
-          <idno type="Wikipedia">http://fr.wikipedia.org/wiki/Michel_Pastoureau</idno>
-          <idno type="DataBnF">http://data.bnf.fr/ark:/12148/cb119187467</idno>
-          <idno type="CatalogueBnF">https://catalogue.bnf.fr/ark:/12148/cb119187467</idno>
-        </author>
-      </titleStmt>
-      <editionStmt>
-        <edition>École nationale des chartes</edition>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>École des chartes</publisher>
-        <date when="2021"/>
-        <availability status="restricted">
-          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
-        </availability>
-      </publicationStmt>
-      <seriesStmt>
-        <title>Positions des thèses</title>
-        <idno type="ISSN">0755-2976</idno>
-        <idno type="URI">http://www.sudoc.fr/013565311</idno>
-      </seriesStmt>
-      <sourceDesc>
-        <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 2016 pour obtenir le diplôme d’archiviste paléographe</title>, <pubPlace>Paris</pubPlace>, <publisher>École des chartes</publisher>, <date>2016</date>.</bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <creation>
-        <date when="2016"/>
-      </creation>
-      <langUsage>
-        <language ident="fre"/>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-```
 
 

@@ -6,7 +6,6 @@ import csv
 
 path_to_encposdict = "../data/encpos.tsv"
 input_path = "../data"
-output_path = "../data"
 citation_bibl =  "<temp><title>Positions des thèses soutenues par les élèves de la promotion de {promotion_year} pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>{promotion_year}</date>, <biblScope>p. {pagination}</biblScope>.</temp>"
 
 def injectTEIHeader(xml):
@@ -33,6 +32,7 @@ def updateTeiHeader(xml, dir ,file, dict):
     :return: the XML with the TEIHeader with the metadata update
     """
     id = file.replace(".xml","")
+    print(dict)
     metadata = dict[id]
     #Delete all the attrib
     root = xml.getroot()
@@ -98,7 +98,7 @@ def updateTeiHeader(xml, dir ,file, dict):
         etree.strip_tags(SourceDesc, 'temp')
     return xml
 
-def write_to_file(file, dir, ouputtree):
+def write_to_file(file, dir, ouputtree, output_path):
     filepath = os.path.join(output_path, dir,file)
     if not os.path.exists(os.path.join(output_path, dir)):
         os.makedirs(os.path.join(output_path, dir))
@@ -107,38 +107,38 @@ def write_to_file(file, dir, ouputtree):
         f.write(tree_str)
 
 @click.command()
-@click.option('--a', type=str, help='Enter the name of the only folder ')
-def main(a):
+@click.option('--inputfolder', type=str, help='Enter the name of the xml promotion folder ')
+@click.option('--output_path', type=str, help='Enter the destination path')
+def main(inputfolder, output_path):
     """
         Update the TEIHeader of all the XML files in the different folder of the input path
     """
     dirspos = [f for f in os.listdir(input_path) if os.path.isdir(os.path.join(input_path, f))]
     dpos = {}
+    print(inputfolder)
     with open(path_to_encposdict, 'r', newline='') as meta:
         reader = csv.DictReader(meta, delimiter='\t', dialect="unix")
         for line in reader:
-            if a == None :
+            if inputfolder == None :
                 dpos[line["id"]] = line
-            elif line["promotion_year"] == a:
+            elif line["promotion_year"] == inputfolder.replace("ENCPOS_",""):
                 dpos[line["id"]] = line
-    if a == None :
+    print(dpos)
+    if inputfolder == None :
         for dir in dirspos:
             files = [f for f in os.listdir(os.path.join(input_path, dir)) if "xml" in f]
             for i, file in enumerate(files):
                 xml = etree.parse(os.path.join(input_path, dir,file))
                 correctxml = injectTEIHeader(xml)
                 correctxml = updateTeiHeader(correctxml, dir, file, dpos)
-                write_to_file(file, dir, correctxml)
+                write_to_file(file, dir, correctxml, output_path)
     else:
-        files = [f for f in os.listdir(os.path.join(input_path, a)) if "xml" in f]
+        files = [f for f in os.listdir(os.path.join(input_path, inputfolder)) if "xml" in f]
         for i, file in enumerate(files):
-            xml = etree.parse(os.path.join(input_path, a, file))
+            xml = etree.parse(os.path.join(input_path, inputfolder, file))
             correctxml = injectTEIHeader(xml)
-            correctxml = updateTeiHeader(correctxml, a, file, dpos)
-            write_to_file(file, a, correctxml)
-
-
-
+            correctxml = updateTeiHeader(correctxml, inputfolder, file, dpos)
+            write_to_file(file, inputfolder, correctxml, output_path)
 
 if __name__ == "__main__":
     main()
