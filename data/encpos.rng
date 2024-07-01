@@ -24,6 +24,7 @@
     <element name="teiHeader">
       <a:documentation>Généré depuis encpos.tsv, grâce à l’utilitaire teiHeader_writer.py</a:documentation>
       <ref name="fileDesc"/>
+      <ref name="encodingDesc"/>
       <ref name="profileDesc"/>
     </element>
   </define>
@@ -106,6 +107,46 @@
         </optional>
         <ref name="bibl"/>
       </element>
+    </element>
+  </define>
+  
+  <define name="encodingDesc">
+    <element name="encodingDesc">
+      <element name="refsDecl">
+        <ref name="citeStructure"/>
+      </element>
+    </element>
+  </define>
+  
+  <!-- pattern très spécifique pour les positions -->
+  <define name="citeStructure">
+    <element name="citeStructure">
+      <attribute name="match">
+        <data type="string"/>
+      </attribute>
+      <attribute name="use">
+        <choice>
+          <value type="string">@xml:id</value>
+          <value type="string">position()</value>
+        </choice>
+      </attribute>
+      <attribute name="unit">
+        <choice>
+          <value type="string">part</value>
+          <value type="string">chapter</value>
+        </choice>
+      </attribute>
+      <element name="citeData">
+        <attribute name="use">
+          <value type="string">head</value>
+        </attribute>
+        <attribute name="property">
+          <value type="string">dc:title</value>
+        </attribute>
+      </element>
+      <optional>
+        <ref name="citeStructure"/>
+      </optional>
     </element>
   </define>
   
