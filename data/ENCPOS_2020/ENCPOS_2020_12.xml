@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2020_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2020_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +24,7 @@
       <sourceDesc>
         <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 2020 pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>2020</date>, <biblScope>p. 125-136</biblScope>.</bibl>
       </sourceDesc>
-    </fileDesc>
+    </fileDesc><encodingDesc><refsDecl><citeStructure match="/TEI/text/body/div[p[text()]]" use="position()"><citeData use="head" property="dc:title"/><citeStructure match="div[p[text()]]" use="position()" unit="chapter"><citeData use="head" property="dc:title"/></citeStructure></citeStructure></refsDecl></encodingDesc>
     <profileDesc>
       <creation>
         <date when="2020"/>
