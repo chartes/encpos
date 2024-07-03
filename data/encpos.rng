@@ -24,8 +24,10 @@
     <element name="teiHeader">
       <a:documentation>Généré depuis encpos.tsv, grâce à l’utilitaire teiHeader_writer.py</a:documentation>
       <ref name="fileDesc"/>
-      <ref name="encodingDesc"/>
-      <ref name="profileDesc"/>
+      <optional>
+        <ref name="encodingDesc"/>
+        <ref name="profileDesc"/>
+      </optional>
     </element>
   </define>
   

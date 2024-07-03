@@ -1,4 +1,6 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2023_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2023_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,11 +30,8 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div" use="position()" unit="part">
+        <citeStructure match="/TEI/text/body/div" use="position()" unit="chapter">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div" use="position()" unit="chapter">
-            <citeData use="head" property="dc:title"/>
-          </citeStructure>
         </citeStructure>
       </refsDecl>
     </encodingDesc>
