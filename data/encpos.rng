@@ -128,12 +128,20 @@
       <attribute name="match">
         <data type="string"/>
       </attribute>
-      <attribute name="unit">
+      <attribute name="use">
         <choice>
-          <value type="string">part</value>
-          <value type="string">chapter</value>
+          <value>position()</value>
+          <value>@xml:id</value>
         </choice>
       </attribute>
+      <optional>
+        <attribute name="unit">
+          <choice>
+            <value type="string">part</value>
+            <value type="string">chapter</value>
+          </choice>
+        </attribute>
+      </optional>
       <element name="citeData">
         <attribute name="use">
           <value type="string">head</value>

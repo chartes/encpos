@@ -1,4 +1,6 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2015_25" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2015_25" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,7 +26,17 @@
       <sourceDesc>
         <bibl><title>Positions des thèses soutenues par les élèves de la promotion de 2015 pour obtenir le diplôme d’archiviste paléographe</title>, <publisher>École des chartes</publisher>, <pubPlace>Paris</pubPlace>, <date>2015</date>.</bibl>
       </sourceDesc>
-    </fileDesc><encodingDesc><refsDecl><citeStructure match="TEI/text/body/div[p/text() or div]" use="position()"><citeData use="head" property="dc:title"/><citeStructure match="div[p/text() or div]" use="position()"><citeData use="head" property="dc:title"/></citeStructure></citeStructure></refsDecl></encodingDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl>
+        <citeStructure match="TEI/text/body/div[p/text() or div]" use="position()">
+          <citeData use="head" property="dc:title"/>
+          <citeStructure match="div[p/text() or div]" use="position()">
+            <citeData use="head" property="dc:title"/>
+          </citeStructure>
+        </citeStructure>
+      </refsDecl>
+    </encodingDesc>
     <profileDesc>
       <creation>
         <date when="2015"/>
