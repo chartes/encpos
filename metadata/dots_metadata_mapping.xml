@@ -1,0 +1,30 @@
+<metadataMap xmlns="https://github.com/chartes/dots/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml">
+  <mapping>
+    <dc:title scope="collection" format="tsv" source="./default_collections_titles.tsv" resourceId="collectionId" value="title"/>
+    <dct:publisher scope="collection" resourceId="all">Ecole nationale des chartes</dct:publisher>
+    <dct:rights scope="collection" resourceId="all">https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:rights>
+    
+    <dc:title scope="document" key="@value" xpath="/TEI/teiHeader/fileDesc/titleStmt/title"/>
+    <dc:title scope="document" key="@language" resourceId="all">fre</dc:title>
+    <dc:creator scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="author_fullname_label"/>
+    <dct:publisher scope="document" resourceId="all">Ecole nationale des chartes</dct:publisher>
+    <dc:date scope="document" xpath="/TEI/teiHeader/profileDesc/creation/date/@when" type="number"/>
+    <dct:rights scope="document" resourceId="all">https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:rights>
+    <html:h1 scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="title_rich"/>
+    <dct:creator key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="author_idref_ppn" prefix="https://www.idref.fr/"/>
+    <dct:creator key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="author_bnf_ark" prefix="https://data.bnf.fr/"/>
+    <dct:creator key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="author_bnf_ark" prefix="https://catalogue.bnf.fr/"/>
+    <dct:creator key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="author_wikidata_id" prefix="https://wikidata.org/entity/"/>
+    <dct:creator key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="author_wikipedia_url"/>
+    <dct:creator key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="author_dbpedia_id" prefix="https://dbpedia.org/resource/"/>
+    <dct:extend scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="pagination"/>
+    <dct:coverage scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="coverage"/>
+    <dct:isVersionOf key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="thenca_these-record_id" prefix="https://bibnum.chartes.psl.eu/s/thenca/item/"/>
+    <dct:isVersionOf key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="benc_these-record_id" prefix="https://catalogue.chartes.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber="/>
+    <dct:isVersionOf key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="sudoc_these-record_ppn" prefix="https://www.sudoc.fr/"/>
+    <dct:isVersionOf key="@id" scope="document" format="tsv" source="./encpos.tsv" resourceId="id" value="hal-these-record_id" prefix="https://halshs.archives-ouvertes.fr/"/>
+    <dct:source scope="document" key="@id" xpath="if (//sourceDesc/@facs) then let $id := lower-case(/TEI/@xml:id) return concat('https://iiif.chartes.psl.eu/encpos/', $id, '/manifest') else ()"/>
+    <download scope="document" xpath="let $id := /TEI/@xml:id return concat('https://dots.chartes.psl.eu/api/dts/document?resource=', $id)"/>
+    <download scope="document" xpath="/TEI/teiHeader/fileDesc/sourceDesc/@facs"/>
+  </mapping>
+</metadataMap>
