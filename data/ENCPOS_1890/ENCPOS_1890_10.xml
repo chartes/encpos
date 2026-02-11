@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1890_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1890_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <surname>Petit</surname>
         <roleName rend="uc">Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r179187">
         <head rend="uc">Introduction</head>
         <p>Valeur des travaux antérieurs. Les sources du règne de Louis VIII : le poème de Nicolas de Braie ; les <hi rend="i">Gesta Ludovici octavi,</hi> discussion sur leur authenticité ; la chronique de Tours ; la chronique rimée dé Philippe Mousket ; autres chroniques ; – les sources diplomatiques.</p>
       </div>
-      <div>
+      <div xml:id="r179201">
         <head rend="uc">Première partie
          <lb/>L’avènement ; les antécédents</head>
         <p>§ 1. – L’avènement. Le couronnement. Voyage dans le domaine royal. Louis VIII trouve partout la paix et la prospérité.</p>
         <p>§ 2. – Coup d’œil sur les résultats du règne de Philippe Auguste. La royauté en 1180 ; la théorie et la réalité. La royauté en 1223 ; sa force matérielle et son prestige moral.</p>
         <p>§ 3. – Quel était le successeur de Philippe Auguste. Enfance de Louis VIII. Philippe Auguste ne lui laisse presque aucune part dans le gouvernement général. <pb source="https://nakala.fr/10.34847/nkl.4ef3w87w#4433106d7a1f21e369192195b66e3d97ecae7016" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.4ef3w87w/4433106d7a1f21e369192195b66e3d97ecae7016/full/full/0/default.jpg"/>Mais Louis est seigneur d’Artois et fait ainsi son éducation administrative. De plus il dirige en son nom personnel une expédition en Angleterre. L’appel des barons anglais. Louis expose ses droits sur la couronne d’Angleterre dans une lettre aux moines de Cantorbéry. Critique des arguments qu’il invoque. Echec final de l’expédition. Qu’il était nécessaire de la raconter ici. – Intervention de Louis dans la croisade en Albigeois. – Louis VIII au moment de son avènement ; contraste physique et moral entre Philippe Auguste et Louis VIII. Cependant Louis aura la même politique que son père ; raison principale de cette similitude.</p>
       </div>
-      <div>
+      <div xml:id="r179224">
         <head rend="uc">Deuxième partie
          <lb/>Les conquêtes</head>
-        <div>
+        <div xml:id="r179232">
           <head rend="uc">Livre I<hi rend="sup">er</hi>. – La conquête du Poitou</head>
           <div>
             <head rend="uc">Chapitre I
@@ -95,7 +93,7 @@
             <p>Guerre économique. Prétentions des deux rois. Richard de Cornouaille reconquiert la rive droite de la Garonne. Attitude du seigneur de Bergerac. Le seul succès français en 1225 fut la soumission du vicomte de <pb source="https://nakala.fr/10.34847/nkl.4ef3w87w#d1c035f2e1288f12c34356e6913d28315675d39a" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.4ef3w87w/d1c035f2e1288f12c34356e6913d28315675d39a/full/full/0/default.jpg"/>Thouars ; vaine tentative sur Bordeaux. Histoire diplomatique de l’année ; les deux rois cherchent des alliés : Négociations de Louis VIII et d’Henri III avec Frédéric II ; l’archevêque de Cologne et le légat font échouer les conférences de Rigny-la-Salle, mais Louis obtient de Frédéric un traité secret d’alliance ; relations d’Henri III avec le faux Baudouin, les comtes de Toulouse et de Bretagne ; le centre de toutes ces intrigues est Rome ; intervention personnelle du pape ; les négociations continuent sans résultat jusqu’à l’époque de la croisade. Malgré la défense du pape, Henri III veut profiter du siège d’Avignon pour reprendre la Rochelle ; il échoue, A la mort de Louis VIII, la fidélité des barons poitevins est chancelante. La conquête définitive ne se fera que sous saint Louis.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r179301">
           <head rend="uc">Livre II. – La croisade</head>
           <div>
             <head rend="uc">Chapitre I
@@ -109,37 +107,37 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r179338">
         <head rend="uc">Troisième partie
          <lb/>La cour et l’administration</head>
-        <div>
+        <div xml:id="r179346">
           <head rend="uc">Chapitre I
            <lb/>La cour. Les assemblées politiques et judiciaires</head>
           <p>§ 1. <hi rend="i">Les résidences de Louis VIII.</hi> Paris est sa rési<pb source="https://nakala.fr/10.34847/nkl.4ef3w87w#85d861972a063d378b9f9bf108f67de4b96bd320" n="118" facs="https://api.nakala.fr/iiif/10.34847/nkl.4ef3w87w/85d861972a063d378b9f9bf108f67de4b96bd320/full/full/0/default.jpg"/>dence habituelle. Mais il voyage beaucoup. Le droit dé gîte.</p>
           <p>§ 2. <hi rend="i">L’entourage de Louis VIII.</hi> La famille : Ingeburge vit dans la retraite ; Blanche de Castille ne semble avoir joué aucun rôle politique du vivant de son mari ; Philippe Hurepel, frère du roi. – Les principaux collaborateurs de Louis VIII sont les anciens conseillers de Philippe Auguste. – Les grands offices. Louis VIII les relève du discrédit où Philippe Auguste les avait laissés tomber. Le chancelier Guérin. Rôle des grands officiers. – Autres officiers de Louis VIII ; leur rôle. – Parmi les autres personnages cités dans les actes, il faut distinguer, à côté de ceux qui sont de passage à la cour et figurent par hasard dans les assemblées, les seigneurs et les prélats amis du roi, et enfin les palatins (chevaliers, clercs, bourgeois) ; rôle des palatins.</p>
           <p>§ 3. <hi rend="i">Les assemblées politiques et judiciaires.</hi> Les trois sens du mot <hi rend="i">curia regis</hi> au siècle précédent. On ne peut plus, sous Louis VIII, distinguer les assemblées de barons et les assemblées de palatins. Le « parlamentum » au <num>xiii<hi rend="sup">e</hi></num> siècle. On peut distinguer : 1° Les assemblées politiques et administratives ; nous en connaissons sous Louis VIII dix-neuf, plus ou moins solennelles, de composition très variable, et de compétence universelle. L’institution des <hi rend="i">curiæ generales</hi> est donc encore en vigueur ; cependant elles n’ont plus autant d’importance qu’autrefois, le conseil intime du roi prenant plus d’influence politique ; les assemblées judiciaires deviennent au contraire plus importantes, parce que les procès affluent. – 2° Les assemblées judiciaires. Même personnel que pour les assemblées politiques. – L’arrêt de 1224 prouve qu’il n’y avait pas de véritable cour des pairs. – Procès jugés par la cour de <pb source="https://nakala.fr/10.34847/nkl.4ef3w87w#2d98f49e8471ef4e778017eb238ca0590f252470" n="119" facs="https://api.nakala.fr/iiif/10.34847/nkl.4ef3w87w/2d98f49e8471ef4e778017eb238ca0590f252470/full/full/0/default.jpg"/>Louis VIII ; le procédé de l’arbitrage lui enlève beaucoup de causes. – Juridiction gracieuse du roi. – Conflits de juridiction avec la noblesse et l’Eglise.</p>
         </div>
-        <div>
+        <div xml:id="r179400">
           <head rend="uc">Chapitre II
            <lb/>Les revenus et les domaines</head>
           <p>§ 1. <hi rend="i">Les revenus.</hi> Richesse de Louis VIII. Administration des revenus. Le trésor est au Louvre.</p>
           <p>§ 2. <hi rend="i">Le domaine</hi> Acquisitions nouvelles. – Création d’apanages. – Politique suivie dans les domaines récemment annexés.</p>
         </div>
-        <div>
+        <div xml:id="r179423">
           <head rend="uc">Chapitre III
            <lb/>Relations du roi avec les diverses classes de la société</head>
           <p>§ 1. <hi rend="i">Le roi et la féodalité.</hi> La France féodale en 1223-1226. L’action de la royauté se manifeste partout, au Midi, au Centre, au Nord (le faux Baudouin en Flandre et la délivrance de Ferrand), à l’ouest. Mais la féodalité est menaçante au moment de la mort de Louis VIII.</p>
           <p>§ 2. <hi rend="i">Le roi et l’Eglise.</hi> Relations amicales avec le clergé régulier et l’épiscopat dans le domaine et hors du domaine. Le conflit avec l’archevêque de Rouen est une exception. – Intervention du roi entre l’Eglise et les classes populaires.</p>
           <p>§ 3. <hi rend="i">Le roi et les classes populaires.</hi> Les Juifs et l’ordonnance de 1223 ; application de cette ordonnance. – Les aubains ; privilèges accordés aux banquiers astésans. – Les serfs ; affranchissements individuels. – Les villes ; chartes de Beaumont et d’Asnières sur Oise ; confirmations d’anciennes chartes. Démêlés avec la commune de Sens. En général, relations pacifiques. <pb source="https://nakala.fr/10.34847/nkl.4ef3w87w#8a54f2c0fbbd567558bc22cb47c08217e118fbe1" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.4ef3w87w/8a54f2c0fbbd567558bc22cb47c08217e118fbe1/full/full/0/default.jpg"/>Privilèges juridiques et commerciaux. L’octroi de la protection royale crée, hors du domaine, des centres de propagande monarchique. – Mais les classes populaires ne jouent encore qu’un rôle effacé dans l’histoire de la royauté.</p>
         </div>
-        <div>
+        <div xml:id="r179458">
           <head rend="uc">Chapitre IV
            <lb/>Le pouvoir législatif général du roi</head>
           <p>Importance de cette question. La théorie royaliste. Comparaison des actes de Thibaud de Champagne et de Louis VIII. Dans quelle mesure le roi fait des ordonnances de portée générale. Comparaison des royautés anglaise et française. Les germes d’avenir.</p>
           <p>La royauté à la mort de Louis VIII. La question de la régence. Conclusion générale. Le règne de Louis VIII n’est qu’un prolongement du règne de Philippe Auguste.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r179474">
         <head rend="uc">Appendices</head>
         <p>I Catalogue des actes de Louis VIII. – II Catalogue des Enquêtes. – III Itinéraire de Louis VIII. – IV Liste des seigneurs et des prélats que nous savons avoir pris part à la croisade. – V Officiers et palatins de Louis VIII. – VI Eglises et abbayes en rapport avec Louis VIII. – VII Pièces justificatives.</p>
       </div>

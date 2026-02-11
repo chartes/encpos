@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,28 +54,28 @@
         <forename>Anne-Claire</forename>
         <surname>Hägi</surname>
       </byline>
-      <div>
+      <div xml:id="r1243415">
         <head rend="uc">Introduction</head>
         <p>Le fonds des archives de l’archevêché de Besançon a été détruit à la Révolution. Le cartulaire de l’archevêché conservé à la Bibliothèque municipale de Besançon, sous la cote 716, constitue la source principale pour connaître l’évolution de la puissance archiépiscopale et la gestion du temporel de l’archevêché pour la période 1105-1266. Cependant, les différents inventaires des archives de l’archevêché, réalisés avant la Révolution, montrent que tous les actes n’ont pas été copiés dans le cartulaire. Aussi, plutôt qu’éditer le seul cartulaire, semble-t-il plus intéressant d’essayer, à partir des inventaires, du cartulaire et des différentes copies réalisées à la fin du XVIII’ siècle, de reconstituer le chartrier de l’archevêché pour la période qui va de 1095, date de l’acte le plus ancien retrouvé, jusqu’à la En de l’épiscopat de Guillaume de la Tour en 1268.</p>
       </div>
-      <div>
+      <div xml:id="r1243425">
         <pb source="https://nakala.fr/10.34847/nkl.9f3bfq70#211d8efd58f46003ac1689a9f3941f6d4ff252c8" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.9f3bfq70/211d8efd58f46003ac1689a9f3941f6d4ff252c8/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>L’évolution de l’archevêché de Besançon
          <lb/>et des structures diocésaines de 1095 a 1268</head>
-        <div>
+        <div xml:id="r1243440">
           <head rend="uc">Chapitre premier
            <lb/>l’archevêché de Besançon au <num>xi<hi rend="sup">e</hi></num> siècle</head>
           <p>Limité à l’est par le massif jurassien et le Doubs, à l’ouest par la Saône, le diocèse de Besançon s’étend au nord jusqu’aux marches des Vosges, englobant Remiremont, au sud jusqu’aux plateaux jurassiens. Nous ne possédons pas de documents anciens permettant de connaître les limites exactes du diocèse pour les XII’ et XIII’ siècles ; le premier pouillé date de 1275, mais il semble qu’elles évoluent peu entre le XI’ siècle et la fin du XIII’ siècle.</p>
           <p>Depuis l’épiscopat d’Hugues 1" (1031-1066), l’élection de l’archevêque relève en théorie du clergé et du peuple, en fait des chanoines des deux chapitres cathédraux Saint-Jean et Saint-Étienne et des représentants des principaux établissements religieux de Besançon. L’élection est ratifiée par le pape qui accorde au nouvel élu certains privilèges comme le droit de porter le <hi rend="i">pallium.</hi> L’empereur confirme l’élection de l’archevêque, son vassal, et l’investit des <hi rend="i">regalia</hi> ; l’archevêque de Besançon possède la seigneurie immédiate de Besançon. Il exerce les droits régaliens qui lui assurent l’autorité sur les hommes (en particulier, droit de justice) et des moyens matériels importants (droits banaux, taxes diverses). Il a le monopole de la monnaie et l’exclusivité du change.</p>
         </div>
-        <div>
+        <div xml:id="r1243469">
           <head rend="uc">Chapitre II
            <lb/>Les premiers conflits (1095-1164)</head>
           <p>Jusqu’à la fin du <num>xi<hi rend="sup">e</hi></num> siècle, l’archevêché est administré suivant les principes mis en place par Hugues I<hi rend="sup">er</hi>, mais sous le ministère d’Hugues III (1085-1101) éclate la querelle des chapitres qui va affecter la puissance archiépiscopale pendant un quart de siècle. Le chapitre Saint-Étienne, créé par Hugues I", conteste au chapitre Saint-Jean le siège épiscopal. Ni Hugues III, ni son successeur Ponce ne réussissent à trancher entre les deux chapitres. Les chanoines de Saint-Étienne en appellent au pape qui confirme la primauté de Saint-Jean, puis à l’empereur Henri V qui prend le chapitre Saint-Étienne sous sa protection et affirme sa supériorité sur Saint-Jean. Sollicité à nouveau, le pape demande la réunion d’un concile à Tournus qui, en 1115, réaffirme la primauté de Saint-Jean. Mais, en 1116, après de nouvelles réclamations auprès du pape Pascal H, le chapitre Saint-Étienne obtient satisfaction ; déconcerté, l’archevêque Guillaume d’Arguel démissionne. Les chapitres <pb source="https://nakala.fr/10.34847/nkl.9f3bfq70#8b5270a3165d84ff166351c342b91d153cb4002e" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.9f3bfq70/8b5270a3165d84ff166351c342b91d153cb4002e/full/full/0/default.jpg"/>étant incapables d’élire un nouvel archevêque, le légat pontifical désigne Anseri, prévôt d’Autun. Le conflit est résolu par le pape Calixte II, favorable au chapitre Saint-Jean. La primauté de Saint-Jean est confirmée par une bulle pontificale en 1120.</p>
           <p>Sous les épiscopats d’Anseri et de son successeur Humbert de Scey, la <hi rend="i">curia episcopalis</hi> s’organise, l’office de chancelier se développe, un office de chambrier apparaît et devient très vite une charge importante, le chambrier administre le temporel de l’archevêché. Des officiers laïcs, sénéchal, panetier, bouteiller, interviennent dans l’administration de la ville ou l’administration du temporel. La justice est confiée à deux officiers : le vicomte et le maire.</p>
         </div>
-        <div>
+        <div xml:id="r1243503">
           <head rend="uc">Chapitre III
            <lb/>De la dépendance impériale a la dépendance pontificale (1164-1220)</head>
           <p>L’empereur Frédéric Barberousse, comte de Bourgogne par son mariage, s’oppose au pape Adrien IV et l’archevêque de Besançon se retrouve au cœur du conflit. A la mort d’Adrien IV, deux papes sont élus, Alexandre III et Victor IV, ce dernier soutenu par l’empereur. L’archevêque Humbert se range au côté de l’empereur ; à la mort du prélat, Frédéric Barberousse impose Herbert, prévôt d’Aix-la-Chapelle. Son successeur, Evrard de la Tour, se rapproche d’Alexandre III, mais reste dévoué à l’empereur, alors que l’on s’achemine progressivement vers la fin du schisme.</p>
@@ -85,7 +83,7 @@
           <p>Après la mort de Frédéric Barberousse, les liens entre l’empereur et Besançon se relâchent et, dans la dernière décennie du XII’ siècle, l’influence pontificale se renforce. Au bref épiscopat de Thierry de Montfaucon, succède le difficile ministère d’Amédée de Dramelay (1193-1220). Il est impliqué dans les conflits de succession de l’empereur Henri VI, alors que, dans le même temps, la querelle des chapitres reprend. Contesté par le clergé, il est contraint de démissionner.</p>
           <p>Malgré ces difficultés, l’archevêque parvient à maintenir son autorité sur la cité de Besançon. Les chapitres collaborent toujours au gouvernement du diocèse, le rôle des archidiacres s’accroît. A l’exception du chambrier dont le rôle est toujours important, les officiers ont un rôle plus limité.</p>
         </div>
-        <div>
+        <div xml:id="r1243524">
           <pb source="https://nakala.fr/10.34847/nkl.9f3bfq70#08f19c177790d8dbc8cef330b63dd6e80d8e1a6b" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.9f3bfq70/08f19c177790d8dbc8cef330b63dd6e80d8e1a6b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Des débuts de la commune a l’agitation des grands féodaux :
@@ -94,17 +92,17 @@
           <p>La situation politique est troublée ; les seigneurs comtois, en particulier Jean de Chalon, cherchent à étendre leur pouvoir, la querelle des chapitres n’est pas éteinte et les citoyens de Besançon cherchent à acquérir le droit d’administrer eux-mêmes la cité. Ils s’érigent en commune en 1224 et chassent de Besançon l’archevêque Gérard de Rougemont. Soutenus par l’empereur et le pape, les archevêques, Jean Halgrin puis Nicolas de Flavigny, réussissent à calmer l’agitation, mais, à partir de 1240, la situation se dégrade à nouveau. L’archevêque Guillaume de la Tour doit faire face aux revendications des citoyens ainsi qu’aux agitations des seigneurs comtois, notamment Jean de Chalon dont les positions se renforcent après l’acquisition de la seigneurie de Salins en 1237. La lutte ouverte s’engage en 1258. La seconde tentative de commune est condamnée par le pape Alexandre IV. Les nobles comtois, excommuniés pour avoir attaqué le château de l’archevêque à Gy, se soumettent en 1260 et sont contraints de payer de lourdes amendes, mais par la suite tout se passe comme si la commune survivait ouvertement.</p>
           <p>Les structures diocésaines évoluent. Les anciens offices de la <hi rend="i">curia episcopalis </hi>connaissent un net recul, ils deviennent des charges purement honorifiques. L’administration centrale se renforce. L’officialité diocésaine apparaît vers 1220. Le chancelier est dépossédé d’une partie de ses pouvoirs par l’official. Le chambrier conserve toutes ses attributions ainsi que le vicomte et le maire.</p>
         </div>
-        <div>
+        <div xml:id="r1243553">
           <head rend="uc">Chapitre V
            <lb/>Le temporel de l’archevêché au <num>xiii<hi rend="sup">e</hi></num> siècle</head>
           <p>A Besançon, les possessions de l’archevêque, biens, terres, édifices à fonction économique, s’étendent près de la cathédrale, à Chamars et dans le quartier du Maisel, en banlieue, à Bregille et à Velotte. Il possède une partie de la forêt de Chailluz et le bois dit de l’archevêque. Hors les murs, ses biens se répartissent dans la région d’Étalans, le long de la vallée de l’Ognon à Gy, autour de Cenans et dans le secteur de Noroy. Enfin de nombreux fiefs relèvent du temporel de l’archevêché. Au cours du <num>xiii<hi rend="sup">e</hi></num> siècle, les archevêques acquièrent de nombreux biens, droits et revenus. Les revenus liés à ces possessions ne sont pas connus. Les comptes des dépenses montrent que 60 % sont destinées à l’amélioration des biens : réparations et constructions sont nombreuses, surtout sous le ministère de Guillaume de la Tour. Les conflits à propos du temporel sont fréquents entre l’archevêque et ses vassaux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1243578">
         <pb source="https://nakala.fr/10.34847/nkl.9f3bfq70#59d604947fb368126bf2b34f1aafd380bf1b1c71" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.9f3bfq70/59d604947fb368126bf2b34f1aafd380bf1b1c71/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Le chartrier de l’archevêché</head>
-        <div>
+        <div xml:id="r1243591">
           <head rend="uc">Première section
            <lb/>état actuel du chartrier</head>
           <p>Peu de documents permettent aujourd’hui de reconstituer le contenu du chartrier de l’archevêché de Besançon au XIII’’ siècle.</p>
@@ -126,7 +124,7 @@
             <p>Les principaux recueils de copies des actes du chartrier de l’archevêché sont, pour le <num>xvii<hi rend="sup">e</hi></num> siècle, les <hi rend="i">Annales ecclesie Bisuntinae collectae a Francisco Dorival canonico</hi> (manuscrit 710 de la bibliothèque municipale de Besançon) et quelques copies dans la collection Chifflet à la bibliothèque municipale de Besançon. Pour le <num>xviii<hi rend="sup">e</hi></num> siècle, on peut distinguer quatre groupes de copies : les copies réalisées par Dunod de Charnage pour son ouvrage <hi rend="i">Histoire de l’église, de la ville et du diocèse de Besançon,</hi> le recueil réalisé par dom Berthod (manuscrit 707 de la bibliothèque municipale de Besançon), les trois collections de copies réalisées sous la direction de François-Nicolas-Eugène Droz entre 1768 et 1790, et les copies faites pour servir de preuves aux dissertations de l’Académie des sciences, belles lettres et arts de Besançon.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1243712">
           <head rend="uc">Deuxième section
            <lb/>le chartrier en 1268</head>
           <div>
@@ -145,7 +143,7 @@
             <p>La plupart des actes concernant soit les relations entre les archevêques de Besançon et les citoyens, soit la gestion du temporel de l’archevêché, le cartulaire serait à la fois un recueil d’actes importants et un instrument de gestion. Cette double utilité est remise en cause dès lors que le cartulaire est rédigé plus de trente ans après les faits relatés. Il est difficile d’avancer d’autres hypothèses dans la mesure où l’on ne connaît ni le commanditaire, ni les raisons de la réalisation du cartulaire, ni la date précise de sa rédaction, ni le copiste. De plus, le cartulaire n’a, semble-t-il, jamais fait partie des archives de l’archevêché ; on ne retrouve sa trace qu’au XVIII’ siècle, dans la bibliothèque du père Bullet, professeur de théologie à l’Université de Besançon, qui le lègue ensuite à Chifflet, premier président du parlement de Metz. C’est sans doute parce qu’il était conservé dans les archives d’un particulier qu’il a échappé aux flammes à l’époque de la Révolution.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1243809">
           <head rend="uc">Troisième section
            <lb/>la vie du chartrier de 1268 a nos jours</head>
           <div>
@@ -173,12 +171,12 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1243900">
         <head rend="uc">Troisième partie
          <lb/>Édition</head>
         <p>Le chartrier, cartulaire et actes retrouvés dans les copies du <num>xviii<hi rend="sup">e</hi></num> siècle, est édité dans son intégralité. Il est suivi des tables chronologiques des actes du chartrier et du cartulaire, d’un index des noms de personne et de lieu.</p>
       </div>
-      <div>
+      <div xml:id="r1243918">
         <head rend="uc">Annexes</head>
         <p>Cartes du diocèse de Besançon et de l’organisation administrative. – Carte du temporel et carte des fiefs de l’archevêché. – Reproductions de feuillets du cartulaire. – Liste des dignitaires ecclésiastiques et des principaux officiers de l’archevêché.</p>
       </div>

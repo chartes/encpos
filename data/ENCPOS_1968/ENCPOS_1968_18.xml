@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,24 +55,24 @@
         <forename>Marion</forename>
         <surname>Mouchot</surname>
       </byline>
-      <div>
+      <div xml:id="r897349">
         <head rend="uc">Sources</head>
         <p>Les sources concernant <hi rend="i">Le Constitutionnel</hi> sont assez dispersées. On a utilisé, comme point de départ, le dossier de ce journal qui se trouve aux Archives nationales sous la cote F<hi rend="sup">18</hi> 329 A, en le complétant par des recherches dans les séries F et BB des Archives nationales même, au Minutier central et aux Archives de la Seine (série D U<hi rend="sup">3</hi>).</p>
       </div>
-      <div>
+      <div xml:id="r897371">
         <head rend="uc">Introduction</head>
         <p>La presse en tant que phénomène politique est récente : elle date de la Révolution. Son importance, malgré toutes les pressions du pouvoir, n’a cessé de croître jusqu’à la Restauration. Les caractéristiques de la presse sont alors la crainte qu’elle inspire au gouvernement, son individualité politique et le fait qu’elle représente davantage une liaison entre les lecteurs et les journalistes qu’une entreprise financière ; elle est très personnalisée : le journaliste est en général homme de lettres et administrateur, et tout le monde fait du journalisme ; enfin la presse n’est pas « populaire » : son prix élevé en fait une marchandise de luxe.</p>
       </div>
-      <div>
+      <div xml:id="r897381">
         <pb source="https://nakala.fr/10.34847/nkl.2a11co6y#dd3743c4f4c5bb0a42f0ebe88b74359ad40c8ae5" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a11co6y/dd3743c4f4c5bb0a42f0ebe88b74359ad40c8ae5/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les origines du <hi rend="i">constitutionnel</hi></head>
-        <div>
+        <div xml:id="r897397">
           <head rend="uc">Chapitre premier
            <lb/>la censure sous l’Empire et les cent jours</head>
           <p>Depuis les dernières années de la Révolution, le pouvoir n’a cessé d’opposer à la liberté de la presse des mesures de plus en plus contraignantes. A la fin de l’Empire, la presse est dans un état de subordination quasi-totale. Mais la restauration de Louis XVIII et l’attitude sévère qu’il prend à l’égard de la presse inspirent au gouvernement des Cent jours le contre-pied de cette politique : Napoléon se fait le champion de la liberté de la presse qui est alors presque illimitée. C’est alors qu’apparaît <hi rend="i">Le Constitutionnel</hi> sous son premier titre : <hi rend="i">L’Indépendant.</hi></p>
         </div>
-        <div>
+        <div xml:id="r897416">
           <head rend="uc">Chapitre II
            <lb/>La naissance du journal <hi rend="i">l</hi><hi rend="i">’indépendant</hi></head>
           <p>La place de ce journal dans la presse des Cent jours est assez particulière ; en effet la libéralisation de la presse se fait en opposition aux deux régimes précédents : l’Empire et la première Restauration. Deux catégories de presse apparaissent donc : la presse antibonapartiste qui profite de la liberté pour renaître, et la presse bonapartiste qui réagit contre la politique de Louis XVIII. C’est à cette dernière catégorie qu’appartient <hi rend="i">L’Indépendant.</hi></p>
@@ -84,17 +82,17 @@
           <pb source="https://nakala.fr/10.34847/nkl.2a11co6y#c302aeba4e0339fa49a4d9e0a30d6624364da459" n="145" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a11co6y/c302aeba4e0339fa49a4d9e0a30d6624364da459/full/full/0/default.jpg"/>
           <p>On sait peu de choses du côté matériel de l’entreprise, les bureaux du journal sont situés dans un espace délimité entre les rues Voltaire, Racine et Monsieur le Prince, chez Fain. Il est composé par huit ouvriers environ. Il se présente sous la forme d’un journal de petit format, imprimé sur deux feuilles recto-verso, sur deux colonnes. Ses articles sont divisés en deux rubriques : « Empire français » et « étranger ».</p>
         </div>
-        <div>
+        <div xml:id="r897469">
           <head rend="uc">Chapitre III
            <lb/>De <hi rend="i">l</hi><hi rend="i">’indépendant</hi> au <hi rend="i">constitutionnel</hi></head>
           <p>Peu avant la seconde restauration, tant que l’issue des événements n’est pas connue, <hi rend="i">L’Indépendant</hi> soutient la dynastie napoléonienne. Mais, dès la fin juin, son attitude devient flottante et il accepte sans difficultés apparentes le retour de Louis XVIII sur le trône. Cependant il ne perd pas tout attachement à l’Empire : il gardera très longtemps un souvenir nostalgique de Napoléon et surtout de son panache militaire. Le nationalisme est, en effet, un trait caractéristique du journal et entrera toujours pour beaucoup dans les sympathies napoléoniennes qui seront longtemps les siennes.</p>
           <p>De 1815 à 1817, le journal connaît une période difficile : la censure, rétablie par Louis XVIII, y voit un organe de l’opposition bonapartiste et l’oblige à reparaître sous des titres variés qui sont en général ceux de journaux mal en point : à <hi rend="i">L’Indépendant</hi> (1<hi rend="sup">er</hi> mai – 7 août 1815) succèdent <hi rend="i">L’Écho du soir</hi> (11-25 août 1815), <hi rend="i">Le Courrier</hi> (26 août – 23 octobre 1815), <hi rend="i">Le Constitutionnel </hi>(29 octobre 1815 – 16 juillet 1817). Pendant cette dernière période, il change d’imprimeur et s’installe rue de Vaugirard. Il est de nouveau supprimé le 16 juillet 1817. Il opère alors une fusion avec le <hi rend="i">Journal du commerce,</hi> et ne reprendra son titre de <hi rend="i">Constitutionnel</hi> que deux ans après. Mais, dès 1817, il acquiert sa forme définitive, du moins jusqu’en 1844.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r897527">
         <head rend="uc">Deuxième partie
          <lb/><hi rend="i">Le constitutionnel</hi> et le pouvoir</head>
-        <div>
+        <div xml:id="r897538">
           <head rend="uc">Chapitre premier
            <lb/>les régimes de la presse de 1815 à 1835</head>
           <p>Malgré la disposition de la Charte instituant la liberté d’expression, Louis XVIII, en remontant une seconde fois sur le trône, remet en vigueur la loi de 1814 qui avait institué la censure et l’autorisation préalable pour tous les pério<pb source="https://nakala.fr/10.34847/nkl.2a11co6y#b60de82cb0913a4c9e12ee804a504ae6ecab16b3" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a11co6y/b60de82cb0913a4c9e12ee804a504ae6ecab16b3/full/full/0/default.jpg"/>diques : la censure est rétablie par une loi d’août 1815, tandis qu’une autre loi instaure un régime d’exception. La situation de la presse s’améliore cependant avec la loi de 1817, et plusieurs périodiques apparaissent. L’arrivée de Decazes au pouvoir amène le vote de trois lois franchement libérales (1819) qui remplacent l’autorisation préalable par une simple déclaration et attribuent le jugement des délits de presse aux cours d’assises. Mais le gouvernement garde un droit de regard sur les périodiques et une nouvelle contrainte est créée : le cautionnement.</p>
@@ -103,7 +101,7 @@
           <p>Après la révolution qui suit la promulgation des fameuses ordonnances, dont l’une concerne la presse, l’accession de Louis-Philippe au trône amène une législation libérale ; la période 1830-1835 est une période heureuse pour la presse.</p>
           <p>Mais une dernière loi de 1835 vient restreindre la liberté de la presse par toute une série de mesures : multiplication des délits, poursuites judiciaires accélérées, augmentation considérable du taux de cautionnement : la Monarchie de juillet finit donc par confirmer l’œuvre de la Restauration.</p>
         </div>
-        <div>
+        <div xml:id="r897567">
           <head rend="uc">Chapitre II
            <lb/>La ligne politique du journal : son attitude dans les affaires de l’époque.
            <lb/>Quelques caractéristiques du <hi rend="i">constitutionnel</hi></head>
@@ -113,30 +111,30 @@
           <p>Du point de vue artistique, il est tenant de la vieille école et se déclare violemment hostile au mouvement romantique. Cette position est étroitement liée à ses convictions politiques.</p>
           <p>Il est un journal de polémique, mais il aime aussi les développements spéculatifs. C’est un journal sérieux d’où l’humour paraît absent.</p>
         </div>
-        <div>
+        <div xml:id="r897623">
           <head rend="uc">Chapitre III
            <lb/>Le <hi rend="i">constitutionnel</hi> journal de l’opposition : saisies et procès</head>
           <p>La prospérité du journal est une des causes de la crainte qu’il inspire au pouvoir, donc de toutes les attaques que celui-ci lance contre lui. Il est d’abord attaqué sous l’accusation d’offense à la religion de l’État (1819) en raison d’articles tendant à déconsidérer les missions. En 1820, année qui a vu s’instaurer une censure sévère, il fait presque tous les jours l’objet de suppressions. Il est poursuivi la même année, avec d’autres journaux, pour avoir protesté contre l’arbitraire des lois d’exception ; tous les journaux incriminés sont condamnés. Les lois de 1822 ayant aggravé la situation de la presse par la création de délits nouveaux laissant le champ libre à l’arbitraire gouvernemental, notamment « mauvaise foi dans le compte rendu des séances législatives ou judiciaires » et « délit de tendance », le journal est accusé d’abord du premier (1822), puis du second délit (1825). Bien que l’imputation de « délit de tendance » soit on ne peut plus arbitraire, elle n’est pas tout à fait injustifiée : <hi rend="i">Le Constitutionnel</hi> est prévenu « de tendance à porter atteinte à la religion de l’État », et il est en effet notoirement anticlérical. Pourtant il attaque bien plus les ordres à but prosélytique que la religion en général ou ses représentants ordinaires. Son anticléricalisme a un aspect essentiellement gallican : il fustige surtout les représentants de l’ultramontanisme, dont il dénonce la collusion avec le parti ultra.</p>
           <p>Après 1830, l’ère des grands procès est passé et avec elle, paradoxalement, se termine la période de la grande prospérité du <hi rend="i">Constitutionnel.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r897650">
         <pb source="https://nakala.fr/10.34847/nkl.2a11co6y#83bdf6c7ca321cf3db7e0dce2960290c4c3460b4" n="148" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a11co6y/83bdf6c7ca321cf3db7e0dce2960290c4c3460b4/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Les structures du <hi rend="i">constitutionnel</hi></head>
-        <div>
+        <div xml:id="r897666">
           <head rend="uc">Chapitre premier
            <lb/>société d’exploitation et sociétaires</head>
           <p>Il n’y a pas de lien avéré entre le contrat de 1815 et celui de 1817.</p>
           <p>Certains des hommes de 1815 ont disparu en 1817. Il y a des hommes nouveaux : Chevassut, Jacques Charles et Antoine Bailleul, les propriétaires du journal dont l’entreprise a fusionné avec celle du <hi rend="i">Constitutionnel,</hi> E. Dumoulin, P.F. Tissot, et plus tard Ch. G. Étienne. Les fondateurs de la nouvelle société sont : Alexandre Chevassut, personnage mal vu de la police ; Antoine Bailleul, imprimeur ; son frère Jacques-Charles, conventionnel girondin ; Evariste Dumoulin, journaliste de longue date, Pierre-François Tissot, révolutionnaire modéré, censeur sous l’Empire et libéral sans excès sous la Restauration ; et Charles-Guillaume Étienne, homme de lettres et dramaturge, plus nettement que les autres opposé au nouveau régime. La personnalité de chacun est un apport positif pour le journal.</p>
           <p>La société créée en 1817, contrairement à celle de 1815, est fondée <hi rend="i">intuitu personae :</hi> la personnalité des sociétaires en est l’élément essentiel. Elle est dirigée par un conseil d’administration et représentée vis-à-vis du gouvernement par un éditeur responsable, puis par trois gérants. Elle est devenue tout de suite une assemblée divisée, minée par les dissensions internes, son caractère de société personnalisée et cohérente est une illusion plus qu’une réalité.</p>
         </div>
-        <div>
+        <div xml:id="r897692">
           <head rend="uc">Chapitre II
            <lb/>Installation matérielle. Administration</head>
           <p>De 1817 à 1844, les bureaux du journal changent plusieurs fois de siège : ils sont successivement installés rue de Vaugirard, puis rue Thibeautodé, puis rue de Montmartre où ils demeurent jusqu’à la fin. L’importance de l’installation à cette dernière adresse ainsi que la distribution des pièces sont connues par le cahier d’enchères de la mise en vente du journal en 1844. Mais la vie administrative du journal est pratiquement inconnue : on a trace de quelques livres de comptes et de l’existence de quelques membres du personnel administratif : secrétaire général de direction, contrôleur général, caissier.</p>
         </div>
-        <div>
+        <div xml:id="r897704">
           <pb source="https://nakala.fr/10.34847/nkl.2a11co6y#0e1a5a253dc4ba0e7bc1ee1cc25a139b03ec14ec" n="149" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a11co6y/0e1a5a253dc4ba0e7bc1ee1cc25a139b03ec14ec/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La rédaction et les moyens d’information</head>
@@ -146,7 +144,7 @@
           <p>Ces rédacteurs sont rémunérés soit par un traitement fixe, soit par l’offre gracieuse d’une action dans la société.</p>
           <p>Quant aux informations publiées par le journal, pour l’étranger comme pour la province, elles proviennent soit de journaux étrangers ou locaux, soit de correspondants qui paraissent fort bien renseignés sur les affaires les plus confidentielles et qui font souvent l’objet d’une surveillance policière.</p>
         </div>
-        <div>
+        <div xml:id="r897733">
           <head rend="uc">Chapitre IV
            <lb/>L’imprimerie. Les formes du journal</head>
           <p>De 1817 à 1823 plusieurs imprimeurs se sont succédé : Plassan, A. Bailleul, Fain. Il n’y a pas de politique fixe en ce qui concerne les imprimeurs : les prix et les conditions d’impression sont vraisemblablement des cas d’espèce.</p>
@@ -155,7 +153,7 @@
           <p>En relation avec l’impression du journal, se pose le problème de la double édition : il semble bien que, très tôt, le journal ait été édité sous deux formes, l’une pour Paris, l’autre pour la province, afin de déjouer le contrôle de la police.</p>
           <p>Le journal qui sort de l’imprimerie présente à peu de choses près la même apparence en 1844 qu’en 1817, tout au moins en ce qui concerne l’ordonnance intérieure : présentation des articles de politique intérieure, nouvelles de l’étranger, etc. Seul l’aspect proprement matériel a un peu changé au cours du temps.</p>
         </div>
-        <div>
+        <div xml:id="r897763">
           <head rend="uc">Chapitre V
            <lb/>Les lecteurs du <hi rend="i">constitutionnel</hi></head>
           <p>Les journaux ne se vendant encore que par abonnements, les chiffres de tirages représentent en réalité des nombres d’abonnés, et non de lecteurs réels : car les abonnés sont souvent des propriétaires de cafés ou de salons de lecture, et chacun représente plusieurs lecteurs.</p>
@@ -164,14 +162,14 @@
           <p>En ce qui concerne la diffusion du <hi rend="i">Constitutionnel</hi> en France, il est évident que la carte de cette diffusion dans les divers départements, différente de celles des autres journaux, coïncide à peu près avec une carte des activités commerciale et industrielle de la France. A l’intérieur des départements, on constate que le nombre d’abonnés de chaque ville n’est pas toujours en rapport avec l’importance relative de cette ville : les bourgades à faible population où les abonnés sont nombreux sont des centres de trafic importants, où la faiblesse de la population justifie plus la présence de cafés que celle de salons de lecture.</p>
           <p>Enfin, pour la monarchie de juillet, on peut faire sur plusieurs années le rapport du nombre d’abonnements provinciaux au tirage total. Mais ce rapport n’est pas très révélateur, car on ne sait pas bien ce que recouvre exactement chacun de ses termes.</p>
         </div>
-        <div>
+        <div xml:id="r897810">
           <pb source="https://nakala.fr/10.34847/nkl.2a11co6y#7915c54e919e1783206294927eda32e153eda0b1" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a11co6y/7915c54e919e1783206294927eda32e153eda0b1/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Les finances du journal</head>
           <p>Des deux versions du bilan de l’entreprise financière en 1827, on peut établir une estimation plus ou moins approchée du chiffre d’affaires, calculé d’après le revenu des abonnements ; on peut de la même façon calculer <hi rend="i">grosso modo </hi>le chiffre d’affaires pour toutes les années pour lesquelles on possède un chiffre de tirage : il serait passé de 300.000 francs en 1817 à 1.800.000 francs en 1830, ce qui montre la prospérité grandissante du journal. Cette prospérité est également attestée par l’accroissement du revenu d’une action : de 6.000 francs vers 1818, il aurait atteint 32.000 francs vers 1828.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r897832">
         <head rend="uc">Quatrième partie
          <lb/>La décadence et le rachat du journal par Véron</head>
         <p>A partir de 1830, le revenu des actions de l’entreprise ne cesse de diminuer. La cause première est une cause politique : le journal devait, en effet, une grande part de sa popularité à son agressivité politique ; or, après 1830, il se range aux côtés de Louis-Philippe et devient un journal gouvernemental. Avec la diminution du nombre d’abonnés, la situation financière du journal devient de plus en plus mauvaise et menace de devenir déficitaire, puisqu’il est démontré qu’une entreprise dont le bénéfice n’est constitué que par le revenu des abonnements ne peut être vraiment rentable qu’à partir de 10.000 abonnés. <hi rend="i">Le Constitutionnel, </hi>qui fait à peine ses frais, ne peut pas baisser son prix comme les nouveaux journaux, car il faudrait, pour compenser le manque à gagner, instituer le système des annonces publicitaires sur une large échelle comme l’a fait Girardin. Or le revenu des annonces, déjà peu important dans <hi rend="i">Le Constitutionnel,</hi> ne cesse de décroître en proportion de la diminution de ses abonnés. Le journal est donc dans une situation sans issue.</p>

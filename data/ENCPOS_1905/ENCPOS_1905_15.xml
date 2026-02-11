@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1905_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1905_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,14 +58,14 @@
         <surname>Pressag</surname>
         <roleName>Licencié en droit et ès lettres, Ancien élève de l’École des Hautes-Études, Attaché au Service législatif de la Chambre des Députés</roleName>
       </byline>
-      <div>
+      <div xml:id="r294851">
         <head rend="uc">Introduction</head>
         <p>Multiples intérêts que présente l’histoire de Montmartre.</p>
         <p>Le nom de Montmartre a pris une extension très grande : le présent travail a pour objet spécial l’étude de la Butte Montmartre et de ses environs immédiats.</p>
         <p>Montmartre et Clignancourt : difficulté d’établir une ligne de démarcation précise entre les terroirs déterminés par ces deux noms de lieu.</p>
         <p>Limites du présent travail.</p>
       </div>
-      <div>
+      <div xml:id="r294870">
         <head rend="uc">Bibliographie et histoire des sources</head>
         <p>Différentes circonstances ont rendu rares les diverses sources auxquelles on peut recourir : néanmoins les documents qui restent forment un ensemble imposant.</p>
         <pb source="https://nakala.fr/10.34847/nkl.7d26540x#200ad312f62f4030d5ea56f9066adffda4bfa4c0" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.7d26540x/200ad312f62f4030d5ea56f9066adffda4bfa4c0/full/full/0/default.jpg"/>
@@ -76,12 +74,12 @@
         <p>Cartulaire. Fondations. Donations. – Titres de propriété. Cens et rentes. – Censiers et terriers. Ensaisinements. – Archives financières et judiciaires. – Archives diverses. – – Autres documents : Hôtel de Ville. Manuscrits. – Inventaires ; minutes de notaires.</p>
         <p>III. <hi rend="i">Ouvrages de seconde main.</hi> – Livres généraux et monographies spéciales. Brochures ; articles ; recueils de documents. Bulletin de la Société du Vieux-Montmartre.</p>
       </div>
-      <div>
+      <div xml:id="r294926">
         <pb source="https://nakala.fr/10.34847/nkl.7d26540x#b4c71b8b7e3ca8955c051bd7acd4cc04ca258ce8" n="109" facs="https://api.nakala.fr/iiif/10.34847/nkl.7d26540x/b4c71b8b7e3ca8955c051bd7acd4cc04ca258ce8/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Histoire générale et topographique
          <lb/>des origines au commencement du <num>xvii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r294947">
           <head rend="uc">Chapitre premier
            <lb/>Introduction générale sur les origines de Montmartre</head>
           <p>I. – Controverses sur l’étymologie du nom de Montmartre (<hi rend="i">mons Mercuris</hi> ou <hi rend="i">mons Martyrum.</hi> M.J. Havet et M. Longnon). Les fontaines. Anciens temples de Mars et de Mercure. Antiquités romaines de Montmartre.</p>
@@ -89,7 +87,7 @@
           <p>III. – Origines capétiennes et fondation de l’abbaye. Les plus anciens sanctuaires chrétiens. Les Montmorency. Vautier Payen et les moines de Cluny. Transaction de ceux-ci avec Louis le Gros, qui, ayant acquis Montmartre, établit sur la colline l’abbaye royale (1131).</p>
           <p>IV. – Seigneurie de Montmartre : formation territoriale, fondations, donations, administration. – L’abbaye de Saint-Denis et sa seigneurie de Clignancourt : sa pénétration sur les terroirs de Montmartre.</p>
         </div>
-        <div>
+        <div xml:id="r294976">
           <head rend="uc">Chapitre II
            <lb/>Histoire et Topographie jusqu’à la fin du <num>xv<hi rend="sup">e</hi></num> siècle</head>
           <p>I. – Histoire générale. Invasions. Dévastations. Difficultés financières. Hermer fonde la chapellenie des Martyrs.</p>
@@ -99,7 +97,7 @@
           <p>V. – Les terroirs et les cultures. Etude de l’origine des noms de lieux-dits : <hi rend="i">Le Tertre, le Palais, Sac à Lye, la Couture,</hi> au Sud et à l’Ouest : <hi rend="i">les Martyrs, les Ballettes, Grattepaille, le Friche de la Fosse, les Déserts, la Voye aux Nonnains et la Fontaine Saint-Denis ;</hi> – au Nord : <hi rend="i">la Fontaine du But, Guyon</hi> et <hi rend="i">Chantaloue, les Carrières, le Jardin du Couvent</hi> et <hi rend="i">Conchie-pannier.</hi> – Au N.-É. et à l’E. : <hi rend="i">la Bonne Fontaine</hi> ou <hi rend="i">Ramecreu</hi> et <hi rend="i">la Fontenelle.</hi> – Aux environs, Clignancourt, le Vallarronneux, le Pressoir Bénédicité et les Marais.</p>
           <p>VI. – Histoire des cultures et des terres du <num>xv<hi rend="sup">e</hi></num> siècle, d’après cette classification. Cens et rentes. Résumé topographique, et plan de Montmartre au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r295076">
           <head rend="uc">Chapitre III
            <lb/>Histoire et Topographie de Montmartre au <num>xvi<hi rend="sup">e</hi></num> siècle
            <lb/>et jusqu’à la fondation du prieuré des Martyrs
@@ -111,11 +109,11 @@
           <p>IV. – Résumé topographique et plan de Montmartre au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r295134">
         <head rend="uc">Deuxième partie
          <lb/>La butte Montmartre aux <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles
          <lb/>et sous la Révolution</head>
-        <div>
+        <div xml:id="r295156">
           <head rend="uc">Chapitre premier
            <lb/>histoire générale de Montmartre de 1622
            <lb/>à la Révolution</head>
@@ -123,7 +121,7 @@
           <p>II. – Acquisition, par l’abbaye royale de Montmartre, de la seigneurie de Clignancourt (1669) reprise par Saint-Denis en 1666.</p>
           <p>III. – Autres communautés de la Butte : Sainte-Agnès. Vignes de Sainte-Catherine, de Saint-Jacques-la-Boucherie, etc...</p>
         </div>
-        <div>
+        <div xml:id="r295194">
           <head rend="uc">Chapitre II
            <lb/>Les maisons et les moulins, les terroirs et les cens</head>
           <p>I. – Maisons très nombreuses. Agglomération. Enclos et anciens bâtiments conventuels. Différents quartiers de Montmartre, d’après les cartons, les cahiers des terriers <pb source="https://nakala.fr/10.34847/nkl.7d26540x#89900621e08dd8914332535b3002eb9f09b566c8" n="112" facs="https://api.nakala.fr/iiif/10.34847/nkl.7d26540x/89900621e08dd8914332535b3002eb9f09b566c8/full/full/0/default.jpg"/>et les terriers, les censiers ou cueilloirs et les déclarations de la fabrique de Montmartre.</p>
@@ -131,18 +129,18 @@
           <p>III. – Les terrains, vignes, terres, carrières, par lieux-dits régionaux et d’après les mêmes sources. Cens et rentes.</p>
           <p>IV. – Questions relatives au régime des eaux, à la voirie générale et aux carrières, d’après les textes. Résumé topographique. Plan de Montmartre au <num>xviii<hi rend="sup">e</hi></num> s.</p>
         </div>
-        <div>
+        <div xml:id="r295230">
           <head rend="uc">Chapitre III
            <lb/>La Révolution</head>
           <p>Le 14 juillet à Montmartre et le siège de Montmartre.</p>
           <p>Commission des biens ecclésiastiques. Requêtes des religieuses. Sursis : la vente de leurs biens, puis expulsion (1791). Vente de l’abbaye et de ses dépendances comme biens nationaux. Lotissement, adjudication, destruction. – Montmartre conventionnel : Section du Mont-Marat. Mort, sur l’échafaud, de la dernière abbesse de Montmartre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r295246">
         <head rend="uc">Troisième partie
          <lb/>Montmartre administratif et social
          <lb/>économique et littéraire</head>
-        <div>
+        <div xml:id="r295256">
           <head rend="uc">Chapitre premier
            <lb/>état administratif et politique</head>
           <p>I. – Administration féodale et financière. Receveurs, collecteurs. Dîmes, lods et ventes, cens et rentes.</p>
@@ -150,7 +148,7 @@
           <p>II. – Justice féodale : haute et basse. For aux Daines. Bailliage et prévôté de Montmartre et Clignancourt. Archives. Bailliage ; prison ; gibet.</p>
           <p>III. – Les assemblées provinciales et l’œuvre de la Révolution à Montmartre au point de vue administratif. Les deux Montmartre, <hi rend="i">extra et intra muros.</hi> La municipalité de Montmartre.</p>
         </div>
-        <div>
+        <div xml:id="r295283">
           <head rend="uc">Chapitre II
            <lb/>État économique</head>
           <p>I. – Les maisons : distribution, noms, enseignes, appellations, destination. Valeur locative comparée.</p>
@@ -158,7 +156,7 @@
           <p>III. – Les terres : état comparatif des cens et des rentes dans les différents terroirs, du <num>xv<hi rend="sup">e</hi></num> au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
           <p>IV. – Les vignes et le vin. Les carrières et le plâtre. La spéculation. Les laboureurs. Les meuniers. Le blé. Conclusion.</p>
         </div>
-        <div>
+        <div xml:id="r295316">
           <head rend="uc">Chapitre III
            <lb/>Histoire sociale</head>
           <p>I. – Essai sur le mouvement de la population montmartroise. Les noms de famille : les vieilles familles du terroir montmartrois. Paysans de Montmartre et bourgeois de Paris. Artisans et marchands de vins.</p>
@@ -167,14 +165,14 @@
           <pb source="https://nakala.fr/10.34847/nkl.7d26540x#7bb67130e2cd11ad3240b7fd12062af4048de7ff" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.7d26540x/7bb67130e2cd11ad3240b7fd12062af4048de7ff/full/full/0/default.jpg"/>
           <p>IV. – Réjouissances. Compagnie d’archers. Proverbes montmartrois rapportés par Sauvai. Mœurs ; rixes et crimes. Assassinat de l’ouvrier porcelainier, et détails sur la manufacture de la rue Saint-Denis.</p>
         </div>
-        <div>
+        <div xml:id="r295342">
           <head rend="uc">Chapitre IV
            <lb/>Lettres et arts</head>
           <p>Ecoles, hommes célèbres. Artistes y résidant. Projet artistique de Fontaine. Livres : Rubrique de Montmartre ; les lettres de Jeannot Georgin. Passages relatifs à Montmartre, dans Villon, Le Tasse, Regnard, etc...</p>
           <p>Conclusion.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r295358">
         <head rend="uc">Annexes</head>
         <p>Notes. Cartes. Plans. Estampes.</p>
       </div>

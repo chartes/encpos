@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1997_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1997_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,34 +55,34 @@
         <surname>Bos</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1298270">
         <head rend="uc">Introduction</head>
         <p>L’architecture flamboyante française reste relativement mal connue. Pourtant son apogée correspond à une période historique capitale, la reconstruction après la guerre de Cent Ans. Paris n’échappe pas à ce phénomène : on sait que l’activité de construction reprend après le départ des Anglais en 1436, sans en connaître, pour ce qui est des églises, la chronologie et l’ampleur exactes. La ville connaît en outre un développement démographique et économique à partir des années 1450 dont il faut mesurer les conséquences dans le domaine de la construction religieuse. L’étude porte donc sur les églises parisiennes, dans les limites actuelles de la capitale, construites après 1436 et jusqu’au début du XVI’ siècle, d’un point de vue archéologique mais aussi historique, afin de déterminer quels en sont les architectes, les maîtres d’ouvrage et le style. Trente et un édifices sont concernés, dont seule une dizaine subsiste aujourd’hui.</p>
       </div>
-      <div>
+      <div xml:id="r1298280">
         <head rend="uc">Sources</head>
         <p>Trois types de sources ont été utilisés pour cette étude. Les archives provenant des congrégations religieuses et des fabriques paroissiales ont été dépouillées. Elles sont conservées, pour ce qu’il en reste, aux Archives nationales (essentiellement dans les séries L, LL et S). Elles ont été complétées par quelques documents du département des manuscrits de la Bibliothèque nationale de France et de la Bibliothèque historique de la Ville de Paris. Les églises subsistantes ont constitué un deuxième matériau, de type archéologique. Enfin, pour celles qui ont disparu mais aussi pour les autres, les documents du département des estampes et de la <pb source="https://nakala.fr/10.34847/nkl.41777h55#1491801c58f31fca5935cb3be93e5ae4c2fd3773" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.41777h55/1491801c58f31fca5935cb3be93e5ae4c2fd3773/full/full/0/default.jpg"/>photographie de la Bibliothèque nationale de France, en particulier ceux de la Topographie de la France et de la collection Destailleur, ont été consultés, ainsi que le fonds du cabinet des arts graphiques du musée Carnavalet.</p>
       </div>
-      <div>
+      <div xml:id="r1298295">
         <head rend="uc">Première partie
          <lb/>Le flamboyant parisien : les hommes et le style</head>
-        <div>
+        <div xml:id="r1298303">
           <head rend="uc">Chapitre premier
            <lb/>bilan des constructions religieuses a Paris au <num>xv<hi rend="sup">e</hi></num> siècle</head>
           <p>Au cours du premier tiers du XV’ siècle, seules cinq églises environ sont reconstruites, le plus souvent partiellement. Cette faible activité s’explique par la crise politique et économique de l’époque qui entraîne, en outre, de nombreuses églises dans une ruine dont l’ampleur est difficile à estimer. Il ne semble pas que les Anglais aient eu, en contrepartie, une politique de construction religieuse très développée entre 1420 et 14.36. En revanche, après 1436 et surtout après 1450, les chantiers se multiplient pour atteindre leur apogée au cours du dernier quart du siècle. Trente et un édifices, sur la centaine que compte Paris, auraient ainsi fait l’objet d’une reconstruction. Cependant, pas une seule église n’est entièrement rebâtie, beaucoup ne recevant à cette époque qu’un nouveau chœur, une nouvelle nef, des chapelles ou des collatéraux supplémentaires.</p>
         </div>
-        <div>
+        <div xml:id="r1298321">
           <head rend="uc">Chapitre II
            <lb/>Les maîtres d’ouvrage du Paris flamboyant</head>
           <p>Outre les maîtres d’ouvrage traditionnels, en particulier les supérieurs d’ordres religieux, on constate au XV’ siècle l’émergence d’un nouveau type de maîtres d’ouvrage. Les marguilliers des fabriques paroissiales jouent en effet ce rôle dans près de deux tiers des édifices reconstruits à Paris entre 1436 et 1500. Il est probable que ce développement est le résultat de la situation des décennies antérieures mais aussi de la laïcisation de la société à la fin du Moyen Age. Les marguilliers, dont le nombre varie entre deux et quatre par fabrique, sont élus par les paroissiens, ou du moins par une fraction d’entre eux dans les grandes paroisses. Issus le plus souvent des grandes institutions de la monarchie, ils sont chargés de la gestion de l’ensemble des affaires de la paroisse. En ce qui concerne le bâtiment de l’église, ils doivent s’occuper de son entretien et, le cas échéant, de sa reconstruction. Ils choisissent alors l’architecte auquel ils font appel et dirigent matériellement le chantier. Dresser les comptes des revenus et dépenses de la fabrique représente une autre fonction essentielle des marguilliers. Les comptes sont rendus devant les paroissiens, ou une partie d’entre eux, qui sont également chargés de conseiller et d’assister les marguilliers. En cela, l’organisation des fabriques paroissiales parisiennes correspond aux idéaux de la fin du Moyen Age <pb source="https://nakala.fr/10.34847/nkl.41777h55#ff29a2f3f933a0c36a953cc4f06fc01f7915c370" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.41777h55/ff29a2f3f933a0c36a953cc4f06fc01f7915c370/full/full/0/default.jpg"/>en matière de gouvernement : les représentants des paroissiens sont élus et conseillés par la partie « la plus saine » d’entre eux. Le système semble avoir bien fonctionné et se prolonge d’ailleurs au-delà du Moyen Age.</p>
           <p>Les marguilliers, à la différence des princes, ne paient pas les dépenses, importantes en période de construction, sur leurs propres deniers mais sur les revenus de la fabrique, dont les principales ressources sont celles des paroissiens eux-mêmes. L’argent provient des troncs placés dans l’église mais aussi des quêtes, dont les marguilliers augmentent la fréquence, le cas échéant. Les fondations de services représentent également un apport financier essentiel. Enfin, les marguilliers n’hésitent pas à recourir à d’autres méthodes pour se procurer de l’argent : obtention de lettres d’indulgences, impôt obligatoire sur les paroissiens, constitution de rentes. Certains paroissiens financent parfois eux-mêmes des travaux ; c’est souvent le cas des chapelles, qui présentent l’avantage de founir un lieu de dévotion privée et de sépulture familiale.</p>
         </div>
-        <div>
+        <div xml:id="r1298341">
           <head rend="uc">Chapitre III
            <lb/>Les maitres des œuvres et les architectes parisiens du <num>xv<hi rend="sup">e</hi></num> siècle</head>
           <p>Les archives permettent de connaître le nom de quelques architectes. Beaucoup occupent une fonction officielle, comme maçon juré ou, au sommet de la hiérarchie, maître des œuvres de la Ville de Paris, du roi ou de la cathédrale de Paris. Nicolas Le Goux, maître des œuvres de charpenterie de la Ville de Paris et de la cathédrale de 1473 au début des années 1480, refait le beffroi du clocher de l’église Sainte-Geneviève dont son successeur, Gautier Hubert, construit la flèche vers 1486. Jean James, maître des œuvres de maçonnerie et de charpenterie de la Ville de Paris, du roi et de la cathédrale depuis 1431 jusqu’en 1456, intervient sur le chantier de reconstruction de la façade de Saint-Martin-des-Champs, assisté d’ailleurs par son successeur Jean Duchemin ainsi que par Jean Poireau. Ce dernier est par la suite maître des œuvres de maçonnerie de la cathédrale et construit vers 1468 une travée de la nef de Saint-Jacques-de-la-Boucherie, dont le clocher, plus tardif, est dû à Jean de Félin, maître des œuvres de maçonnerie de la Ville de Paris. C’est un maçon juré du roi, Nicolas Brout, qui est l’architecte probable d’une partie de Saint-Germain-le-Vieux. Jean Moreau, peut-être maître des œuvres de la cathédrale au début du XVI’ siècle, a construit la chapelle Notre-Dame de l’église Sainte-Marie-Madeleine-en-la-Cité. D’autres églises ont néanmoins été construites par des maçons qui ne semblent pas appartenir à ces hiérarchies : ainsi Jean Vanthellot, qui a édifié une partie de Saint-Jacques-de-la-Boucherie, Antoine Appellemen à Saint-Germain-le-Vieux. Micheaul Le Gros à Saint-Séverin, leur sont-ils étrangers. En tout cas, les architectes qui exercent à Paris sont le plus souvent eux-mêmes parisiens et leur champ d’exercice semble géographiquement faible. Tout au plus certaines églises, comme Saint-Maclou de Pontoise, Saint-Aspais de Melun et Notre-Dame de Cléry, sont-elles l’œuvre d’un architecte parisien ou d’influence parisienne.</p>
         </div>
-        <div>
+        <div xml:id="r1298359">
           <pb source="https://nakala.fr/10.34847/nkl.41777h55#61b52e3c998b3d267854ed2d8984b60dc1d71dc7" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.41777h55/61b52e3c998b3d267854ed2d8984b60dc1d71dc7/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le flamboyant parisien</head>
@@ -93,12 +91,12 @@
           <p>Le flamboyant parisien se caractérise par la volonté de donner, à partir du modèle gothique, une nouvelle conception architectonique aux édifices, où la verticalité est essentielle, soulignée par la continuité depuis les supports jusqu’aux clefs de voûte, et une décoration flamboyante présente mais discrète.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1298383">
         <pb source="https://nakala.fr/10.34847/nkl.41777h55#c5eeefdb444be4ad0129343e85b784d6544e244e" n="67" facs="https://api.nakala.fr/iiif/10.34847/nkl.41777h55/c5eeefdb444be4ad0129343e85b784d6544e244e/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les quatre grands monuments parisiens
          <lb/>de la seconde moitié du XV siècle</head>
-        <div>
+        <div xml:id="r1298398">
           <head rend="uc">Chapitre premier
            <lb/>Saint-Germain-l’Auxerrois</head>
           <p>C’est en 1476, et non dans le premier quart du siècle, que les marguilliers de la fabrique décident de reconstruire la nef de Saint-Germain-l’Auxerrois, dont les travaux sont financés par les paroissiens. Terminée vers 1488, elle est caractérisée par des formes simples et très amples.</p>
@@ -106,7 +104,7 @@
           <p>Les chapelles de la nef ont été édifiées en même temps que celle-ci. Dans le chœur, la chapelle d’axe et celles du sud sont construites au cours des deux premières décennies du XVI" siècle, tandis que les chapelles septentrionales datent du dernier quart de ce siècle.</p>
           <p>Saint-Germain-l’Auxerrois, longtemps considéré pour ses parties flamboyantes comme un édifice du premier quart du XV" siècle, est en réalité du dernier quart de ce siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1298419">
           <head rend="uc">Chapitre II
            <lb/>Saint-Jacques-de-la-Boucherie</head>
           <p>Entre 1468 et 1470 ou 1471, Jean Poireau reconstruit la première travée orientale de la nef de Saint-Jacques-de-la-Boucherie ; l’élévation adoptée est à deux niveaux (grandes arcades et fenêtres hautes), tout en conservant des éléments de l’édifice antérieur. Après une interruption, les travaux reprennent : entre 1476 et 1481. le reste de la nef est reconstruit sous la direction de Jean Vanthellot.</p>
@@ -114,7 +112,7 @@
           <p>Dans le même temps, la façade occidentale est érigée et achevée vers 1490. Composée d’un portail à voussure et piédroits, surmonté d’une rose et d’un pignon, elle est très proche de la façade de l’église Saint-Maclou de Pontoise dans le Vexin.</p>
           <p>L’ancien clocher menaçant de s’effondrer, les marguilliers décident d’en reconstruire un nouveau. Commencé entre 1506 et 1509, achevé vers 1523. il est l’œuvre de Jean de Félin qui montre un goût prononcé pour l’ornementation flamboyante, rompant ainsi avec la sobriété parisienne du XV’ siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1298440">
           <pb source="https://nakala.fr/10.34847/nkl.41777h55#342796af49ecdd9434374fa0454a03483ab48e7d" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.41777h55/342796af49ecdd9434374fa0454a03483ab48e7d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Saint-séverin</head>
@@ -122,16 +120,16 @@
           <p>Entre 1489 et 1496. le chœur et la plupart de ses chapelles sont construits. Sur un plan inspiré par celui de Notre-Dame de Paris, l’architecte a tissé des voûtes à liernes et tiercerons au profil très tendu. La célèbre colonne torsadée, dans l’axe du chœur, s’intègre à un ensemble de colonnes élaboré. Il semble que la nef et le chœur ne soient pas l’œuvre du même architecte, tant leur conception diffère.</p>
           <p>La façade occidentale n’est que partiellement reconstruite au <num>xv<hi rend="sup">e</hi></num> siècle : la rose, la claire-voie ainsi (que les parties supérieures du clocher datent de la fin du siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1298475">
           <head rend="uc">Chapitre IV
            <lb/>Saint-Gervais</head>
           <p>On considère traditionnellement que l’on a commencé à construire le chœur de Saint-Gervais à partir de 1494. Or il semble qu’à cette date il soit en réalité au moins en partie terminé. Il pourrait avoir été entrepris dès le début des années 1480. A partir de 1492 ou 1494, ce sont les chapelles du chœur qui sont construites, mais elles ne sont achevées qu’au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle. Le chœur de Saint-Gervais se caractérise par son élancement très élégant. Pour autant, il n’est absolument pas certain que Martin Chambiges en soit l’architecte : les rapprochements stylistiques ne permettent en aucun cas de conclure.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1298494">
         <head rend="uc">Troisième partie
          <lb/>Autres édifices parisiens du XV siècle</head>
-        <div>
+        <div xml:id="r1298502">
           <head rend="uc">Chapitre premier
            <lb/>les autres édifices importants</head>
           <p>La datation de la nef flamboyante de Saint-Médard ne peut se faire précisément, faute de texte. Il semblerait cependant, d’après son style, qu elle date du dernier quart du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
@@ -139,7 +137,7 @@
           <p>La nef de Saint-Nicolas-des-Champs a été reconstruite en plusieurs étapes au <num>xv<hi rend="sup">e</hi></num> siècle. Après 1421, sept travées du vaisseau central et du premier collatéral nord sont bâties. Malgré son caractère archaïque, le premier collatéral sud pourrait également dater de cette campagne ainsi que la façade occidentale. A partir de 1490. un deuxième collatéral et une rangée de chapelles sont aménagés de part et d’autre.</p>
           <p>Commencé avant 1492, le clocher de Saint-Étienne-du-Mont est achevé dans les années qui suivent. La reconstruction du chœur est entreprise vers cette date et se poursuit au-delà du siècle, avec des modifications du projet initial. Ce dernier marque, dans son élévation, une rupture par rapport à la tradition flamboyante parisienne par l’introduction de deux niveaux de baies aux murs gouttereaux. Malgré tout, la recherche de lumière qui a présidé à ce choix reste caractéristique du flamboyant parisien.</p>
         </div>
-        <div>
+        <div xml:id="r1298546">
           <head rend="uc">Chapitre II
            <lb/>Les édifices reconstruits en partie</head>
           <p>Parmi les édifices reconstruits en partie au <num>xv<hi rend="sup">e</hi></num> siècle, trois le sont de façon importante. Saint-Germain-le-Vieux, dans l’île de la Cité, connaît des travaux de reconstruction dès 1455 et au moins jusqu’en 1487. L’église ayant disparu, ou ignore quelles parties de l’édifice sont concernées. Quant à l’église du couvent des Minimes de Passy, son chœur ainsi qu’une partie de sa nef sont bâtis entre 1493 et 1507, date de leur consécration. Les dates de reconstruction de Saint-Germain de Charonne ne sont pas précisément connues : elles se situent entre 1429 et 1460. L’édifice présente la particularité d’être une église-halle, la seule subsistante.</p>
@@ -149,25 +147,25 @@
           <p>Des comptes permettent en revanche d’être certain que la façade de Saint-Martin-des-Champs, écroulée à la suite d’un orage, est rebâtie par Jean James entre juillet 1455 et le début de l’année 1457. La reconstruction partielle de la façade de la Sainte-Chapelle est plus difficile à connaître : tout au plus sait-on qu’en 1485, Charles VIII envoie ses maîtres des œuvres pour des réparations urgentes. La rose est probablement à dater de cette campagne et il est possible (que Martin Chambiges en soit l’auteur.</p>
           <p>Les clochers de deux abbayes ont subi des travaux dans la deuxième moitié du <num>xv<hi rend="sup">e</hi></num> siècle. Les religieux de Sainte-Geneviève ont ainsi fait reconstruire un beffroi vers 1449 puis, après un orage en 1483. le sommet du clocher brûlé. Les religieuses de Saint-Pierre de Montmartre ont dû réparer leur clocher au début des années 1460 avant de faire revoûter l’essentiel de leur église, probablement après 1470.</p>
         </div>
-        <div>
+        <div xml:id="r1298620">
           <head rend="uc">Chapitre III
            <lb/>Les édifices incertains</head>
           <p>Quelques historiens de Paris mettent en avant d’autres constructions à Paris au <num>xv<hi rend="sup">e</hi></num> siècle sans qu’il ait été possible de vérifier leurs dires. C’est le cas de l’église Saint-Hilaire dont le collatéral sud aurait été reconstruit au cours des années 1470. de la petite église Saint-Martin-au-Cloître-Saint-Marcel, consacrée en 1480. mais aussi de la nef de l’église du couvent des Grands-Augustins dont la dédicace a lieu en 1453. Quant au clocher de Saint-André-des-Arts, il pourrait avoir été érigé au cours de la dernière décennie du <num>xv<hi rend="sup">e</hi></num> siècle. Enfin, une inscription datant de 1485 sur un vitrail de l’église du couvent des Mathurins tendrait à montrer que Robert Gaguin, alors supérieur de l’ordre, y aurait fait des agrandissements.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1298645">
         <head rend="uc">Conclusion</head>
         <p>Le flamboyant parisien présente une réelle homogénéité stylistique dont la sobriété est une des principales caractéristiques. Il se forme dans la première moitié du <num>xv<hi rend="sup">e</hi></num> siècle pour s’épanouir après 1450 et surtout dans le dernier quart du siècle. Il ne disparaît pas brusquement après 1500 mais se maintient dans un certain nombre d’églises construites au cours de la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle, tout en évoluant vers un développement décoratif du vocabulaire flamboyant, comme en <pb source="https://nakala.fr/10.34847/nkl.41777h55#1d67ebde51ee5606cff64a241410cec8d96be240" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.41777h55/1d67ebde51ee5606cff64a241410cec8d96be240/full/full/0/default.jpg"/>témoignent les églises Saint-Benoît et Saint-Merry. Même Saint-Eustache, qui marque pourtant une rupture importante, reprend partiellement l’héritage du style flamboyant parisien.</p>
       </div>
-      <div>
+      <div xml:id="r1298672">
         <head rend="uc">Pièces justificatives</head>
         <p>Actes divers concernant la construction des églises étudiées. – Quittances de construction du clocher de Saint-Jacques-de-la-Boucherie. – Comptes de construction de la façade de Saint-Martin-des-Chainps et de la reconstruction de Saint-Germain-le-Vieux.</p>
       </div>
-      <div>
+      <div xml:id="r1298682">
         <head rend="uc">Annexes</head>
         <p>Recettes et dépenses de la fabrique de Saint-Jacques-de-la-Boucherie de 1445 à 1527. – Recettes et dépenses de la fabrique de Saint-Germain-le-Vieux de 1455 à 1487. – Tableaux chronologiques des églises. – Tableaux présentant, pour chacun des édifices, les parties bâties, leur localisation, leur maître d’ouvrage, leurs dimensions et les sources manuscrites conservées.</p>
       </div>
-      <div>
+      <div xml:id="r1298692">
         <head rend="uc">Planches</head>
         <p>Plans, photographies et gravures.</p>
         <pb source="https://nakala.fr/10.34847/nkl.41777h55#337d2eede40463472285b88f6a19ed321d804458" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.41777h55/337d2eede40463472285b88f6a19ed321d804458/full/full/0/default.jpg"/>

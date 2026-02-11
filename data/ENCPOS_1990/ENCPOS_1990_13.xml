@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,22 +56,22 @@
         <surname>Louisfert</surname>
         <roleName>licenciée es lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1190503">
         <head rend="uc">Introduction</head>
         <p>Alençon, ville moyenne de province, peuplée de 16 000 habitants en 1789, paraît constituer, justement dans ce qu’elle a de « moyen » et d’ordinaire, un terrain d’étude propice pour chercher à connaître les comportements culturels et intellectuels des provinciaux, loin de l’effervescence des grands centres de création littéraire et artistique.</p>
         <p>Sa petite taille même présente un double avantage ; elle permet de bien cerner le sujet et de le faire vivre, tant par l’évocation de l’exemple des familles et des personnages les plus marquants que par la reconstitution des divers réseaux de sociabilité qui pouvaient les unir. Elle offre en outre la possibilité d’étendre les recherches sur une période assez longue, de part et d’autre de la césure que constitue l’événement majeur de l’époque étudiée, la Révolution.</p>
         <p>Compte tenu du contexte urbain et social, il s’agit de saisir quelle a pu être la portée réelle des Lumières dans une ville telle qu’Alençon et leurs différents degrés de diffusion auprès des Alençonnais, puis d’évaluer dans quelle mesure les bouleversements politiques et sociaux apportés par la Révolution ont pu avoir une incidence sur la vie culturelle de la cité.</p>
       </div>
-      <div>
+      <div xml:id="r1190519">
         <pb source="https://nakala.fr/10.34847/nkl.059e6ti5#6c8cf3a818ffd478b38b2fb01e5b40c7b578d40c" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.059e6ti5/6c8cf3a818ffd478b38b2fb01e5b40c7b578d40c/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>L’extrême variété des sources et leur dispersion interdisent l’exhaustivité. L’essentiel des dépouillements a été effectué aux Archives départementales de l’Orne, où ont pu être mis à profit plusieurs fonds ; les archives notariales (4E 71-72) ont fourni, par l’étude de 1 357 inventaires après décès, matière à une analyse statistique portant sur la possession individuelle de livres, bibliothèques, instruments de musique, tableaux ou estampes ; les séries C, L et T (archives des administrations alençonnaises) contiennent de nombreuses informations sur les différentes sociétés savantes ou littéraires, l’imprimerie et la librairie, le théâtre et la bibliothèque municipale ; plusieurs fonds de la série J (archives d’origine privée) se sont, par ailleurs, révélés extrêmement riches. Quelques manuscrits et journaux intimes du <num>xviii<hi rend="sup">e</hi></num> siècle ont de plus été consultés à la Bibliothèque municipale d’Alençon, ainsi que la presse locale du premier quart du <num>xix<hi rend="sup">e</hi></num> siècle. Enfin, la collection Anisson (imprimerie et librairie au <num>xviii<hi rend="sup">e</hi></num> siècle) et le fonds maçonnique (FM<hi rend="sup">2</hi> 136 bis et FM<hi rend="sup">2</hi> 137) de la Bibliothèque nationale sont venus compléter cet ensemble.</p>
       </div>
-      <div>
+      <div xml:id="r1190560">
         <head rend="uc">Première partie
          <lb/>Les cadres de la vie sociale et culturelle :
          <lb/>ruptures et continuités</head>
-        <div>
+        <div xml:id="r1190570">
           <head rend="uc">Chapitre premier
            <lb/>le cadre urbain et l’image de la ville</head>
           <p><hi rend="i">Les fonctions urbaines.</hi> – L’une des spécificités de la ville, par contraste avec le plat-pays qui l’entoure, est d’exercer un certain nombre de fonctions, administratives, économiques ou religieuses, qui impliquent l’existence de structures et d’institutions dont l’influence sur l’organisation sociale et la vie même de la cité est primordiale.</p>
@@ -92,7 +90,7 @@
           <p>Le témoignage de trois historiens locaux peut être retenu : les <hi rend="i">Remarques historiques sur la ville d’Alençon,</hi> manuscrit daté de 1779, du dessinateur Jean Le Queu ; les <hi rend="i">Mémoires historiques sur la ville d’Alençon,</hi> publiés en 1787 chez <pb source="https://nakala.fr/10.34847/nkl.059e6ti5#4ad5f0dcf50f767f2dd2278a733966315d1535f2" n="113" facs="https://api.nakala.fr/iiif/10.34847/nkl.059e6ti5/4ad5f0dcf50f767f2dd2278a733966315d1535f2/full/full/0/default.jpg"/>Malassis le Jeune, par Pierre-Joseph Odolant-Desnos (1722-1802) ; et enfin l’<hi rend="i">Histoire d’Alençon</hi> de l’abbé Jean-Jacques Gautier, parue en 1805 également chez Malassis le Jeune. Ils ont chacun un style différent, Le Queu un peu naïf, Odolant-Desnos très scientifique et soucieux de l’exactitude de ses affirmations et l’abbé Gautier très enlevé et vivant. Ils sont tous trois sans aucune complaisance pour leur ville natale et leurs compatriotes dont ils stigmatisent tous les défauts.</p>
           <p>Etrangers à la région et n’y ayant passé chacun que quelques jours, Arthur Young et Honoré de Balzac ont décrit Alençon avec beaucoup plus de recul. Le premier, dans ses <hi rend="i">Voyages en France,</hi> n’a laissé que quelques notes sur les paysages alentour et sur l’industrie de la toile alençonnaise. Le second, en revanche, s’est largement inspiré du décor et de la société de la ville d’Alençon, qu’il considérait comme un microcosme typique de la province française sous la Restauration, principalement dans deux de ses romans de la <hi rend="i">Comédie Humaine : La Vieille fille</hi> (1836) et <hi rend="i">Le Cabinet des Antiques</hi> (1839) édités conjointement dans l’édition Furne de 1844. On y reconnaît la ville et ses édifices, ainsi que, de temps à autre, quelques noms ou quelques figures connues de la population alençonnaise. Mais le romancier, avec toute la liberté que lui laissait son art, a constamment transposé la réalité, ne conservant en quelque sorte que la quintessence de ses observations ; ce qui l’intéressait était de faire une analyse morale, sociale et politique de la société provinciale française au début de la Restauration. Ce qu’il a retenu de ses séjours n’en constitue pas moins un grand intérêt pour l’histoire de la vie culturelle à Alençon.</p>
         </div>
-        <div>
+        <div xml:id="r1190684">
           <head rend="uc">Chapitre II
            <lb/>Les principes de la solidarité et de la sociabilité</head>
           <p><hi rend="i">Les réseaux familiaux.</hi> – Il est une solidarité obligée, parce que non choisie par l’individu au gré de ses inclinations ; c’est celle de la famille, et des alliances et parentèles qu’elle implique. Malgré la rareté des sources, les familles réellement « importantes » peuvent être définies comme celles dont plusieurs membres, de branches parfois différentes, se trouvent au sommet de la hiérarchie sociale, et/ou occupent soit le même espace social, soit la même fonction importante de père en fils. Le mariage représente un moyen de se hisser plus haut dans la hiérarchie sociale ou d’y conforter une position déjà enviable.</p>
@@ -103,10 +101,10 @@
           <p>Il existe des « lieux de sociabilité » beaucoup plus structurés, où se rencontrent régulièrement des Alençonnais, réunis autour d’une même cause ou d’un intérêt commun ; sous l’Ancien Régime, ce sont les corporations et communautés de métiers d’une part, et d’autre part, en net déclin à l’époque étudiée, les confréries religieuses (la Visitation à Notre-Dame ; Saint-Nicolas à l’église Saint-Léonard) qui disparaissent en 1789. La Révolution provoque la naissance d’un nouveau type d’associations, à caractère politique, la Société des amis réunis, et les sociétés populaires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1190723">
         <head rend="uc">Deuxième partie
          <lb/>Institutions et espaces de culture</head>
-        <div>
+        <div xml:id="r1190731">
           <head rend="uc">Chapitre premier
            <lb/>les « sociétés &gt;</head>
           <p><hi rend="i">Les t sociétés t des Lumières.</hi> – La spécificité intellectuelle et culturelle des sociétés savantes ou littéraires et des loges maçonniques qui se sont multipliées au XVIII’ siècle en ont fait à la fois l’un des signes et l’un des facteurs de la diffusion des Lumières. Alençon, ville au caractère somme toute <pb source="https://nakala.fr/10.34847/nkl.059e6ti5#24b338441bbe560584f57bcb508b16fe49b4bdb4" n="115" facs="https://api.nakala.fr/iiif/10.34847/nkl.059e6ti5/24b338441bbe560584f57bcb508b16fe49b4bdb4/full/full/0/default.jpg"/>assez modeste, ne possède pas d’académie, mais on y dénombre une Société d’agriculture, trois loges maçonniques et une Société littéraire.</p>
@@ -118,7 +116,7 @@
           <p><hi rend="i">Réapparition de « sociétés » après la tourmente révolutionnaire.</hi> – Après la Révolution réapparaît à Alençon une loge maçonnique, la Fidélité, en 1802. Malgré cette nouvelle appellation, la solution de continuité n’est pas totale avec les loges déjà existantes sous l’Ancien Régime ; la Fidélité fait remonter ses travaux au 2 juillet 1764, date de la constitution régulière de Saint-Christophe-de-la-Forte-Union ; elle s’est, de plus, reconstituée à partir d’un noyau de maçons provenant des trois anciennes loges de l’Orient d’Alençon. Comme beaucoup de loges maçonniques à cette époque, la Fidélité est toute entière dévouée au régime napoléonien. Son recrutement en est une preuve : le vénérable-maître est le préfet Lamagdelaine lui-même, et l’on trouve sur la liste des membres tout le personnel militaire, administratif et judiciaire de la ville. Ils clament d’ailleurs ouvertement leur attachement à l’Empereur, dans les discours et chants maçonniques lus et chantés lors des tenues. Ce caractère politique marqué provoque la mise en sommeil de la loge lors de la chute de l’Empire. En 1818, dix frères seulement prennent part au réveil de la Fidélité, qui ne reprend sa véritable ampleur qu’en 1819.</p>
           <p>Dès l’an VII se constitue à Alençon un Lycée des sciences et des arts, société littéraire dont la volonté scientifique et rationnelle est toutefois beaucoup plus marquée que celle de la Société littéraire d’avant 1789. Il regroupe un nombre, semble-t-il, assez restreint de sociétaires-résidents, la plupart occupant de hautes fonctions dans l’administration locale, mais s’est associé de nombreuses personnalités du monde scientifique et littéraire français (Daubenton, Didot, Lacépède, par exemple) avec lesquelles il entretient une correspondance, tout comme avec d’autres sociétés du même type. Les <hi rend="i">Mémoires</hi> produits par ses membres revêtent le plus souvent un caractère très technique (<hi rend="i">Le Commerce des toiles de la fabrique d’Alençon, Les inondations...</hi>). Les options politiques du Lycée apparaissent clairement dans les hymnes et chansons retrouvées dans leurs archives : <hi rend="i">Hymne à la patrie, Imprécations contre les parjures, Invocation à l’Être Suprême.</hi> Si bien que la fin du régime napoléonien semble avoir mis un terme à ses activités.</p>
         </div>
-        <div>
+        <div xml:id="r1190819">
           <pb source="https://nakala.fr/10.34847/nkl.059e6ti5#00d4b7aa5f6148b77442cf94df7417a704f5fa17" n="117" facs="https://api.nakala.fr/iiif/10.34847/nkl.059e6ti5/00d4b7aa5f6148b77442cf94df7417a704f5fa17/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>D’autres espaces culturels</head>
@@ -131,7 +129,7 @@
           <p><hi rend="i">Le théâtre.</hi> – Avant 1773, Alençon ne possède pas de salle uniquement consacrée au théâtre. Les représentations n’y sont qu’épisodiques, au gré des passages de comédiens ambulants. Une place à part doit être réservée aux pièces jouées par les élèves du collège des jésuites, qui faisaient du théâtre, limité au répertoire classique, un élément de leur pédagogie. Les pièces et vaudevilles de Castaing représentés au sein de la loge de Saint-Louis-des-Cœurs-Zélés sont réservés à un groupe choisi de personnes. C’est précisément à l’instigation de Castaing qu’est construite en 1773 dans l’ancien Palais de justice une salle de comédie. Le répertoire qui y est joué nous est mal connu, mis à part diverses pièces de Castaing, donc essentiellement des vaudevilles et comédies et, en 1783, un opéra de Grétry.</p>
           <p>Pendant la Révolution, et longtemps encore après, les représentations théâtrales sont prétexte à des opérations de charité ; une partie du prix des entrées est reversée aux pauvres. En 1811, on donne même une version en espagnol du <hi rend="i">Mahomet</hi> de Voltaire, au profit de prisonniers espagnols.</p>
         </div>
-        <div>
+        <div xml:id="r1190875">
           <head rend="uc">Chapitre III
            <lb/>Le monde de l’imprimé</head>
           <p><hi rend="i">L’imprimerie.</hi> – Comme tous leurs confrères provinciaux au <num>xviii<hi rend="sup">e</hi></num> siècle, les imprimeurs alençonnais se heurtent à un obstacle incontournable, la censure, imposée par un pouvoir royal soucieux de contrôler strictement la vie intellectuelle. Depuis 1704, le nombre des ateliers autorisés à Alençon est de deux, tenus en main par une véritable dynastie d’« imprimeurs du roi », les Malassis. Jusque dans les années 1770, les divers membres de la famille Malassis, qui compte parmi les plus en vue de la cité, se conforment aux strictes réglementations du métier et limitent leur production aux publications officielles commandées par les diverses administrations et institutions locales.</p>
@@ -143,7 +141,7 @@
           <p>Sous la Révolution se multiplient les boutiques de libraires : outre J.– Z. Malassis et F. Barat, Nicolas Lepernay vend des livres de « librairie ancienne et moderne » et Louise Langlois-Lafontaine, libraire-relieur, des livres de piété. Il existe, de plus, deux cabinets de lecture tenus par F.-B. Bonvoust et le graveur Godard.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1190940">
         <head rend="uc">Troisième partie
          <lb/>La vie privée : pratiques et coutumes culturelles</head>
         <p><hi rend="i">Recevoir et visiter.</hi> – Dîners et soirées privées sont l’occasion, très régulièrement, de jeux de cartes, charades, devinettes et autres, et, peut-être plus exceptionnellement, de concerts, lectures collectives, saynètes et autres activités à caractère culturel.</p>
@@ -151,12 +149,12 @@
         <p><hi rend="i">Lecture et écriture.</hi> – L’analyse statistique des mêmes inventaires fournit la matière à une étude générale des pratiques de lecture, que complètent de nombreux exemples de cas individuels et portraits de possesseurs de bibliothèques, ainsi que l’analyse de notes et impressions de lectures laissées par quelques lecteurs alençonnais.</p>
         <p>Enfin, un certain nombre d’ouvrages sont dus à la plume d’Alençonnais à l’époque étudiée.</p>
       </div>
-      <div>
+      <div xml:id="r1190970">
         <pb source="https://nakala.fr/10.34847/nkl.059e6ti5#9129149a01f354ad06c8e4c27e654dd6dac157fb" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.059e6ti5/9129149a01f354ad06c8e4c27e654dd6dac157fb/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Éléments de la correspondance Bellanger. – Planches à tracer des loges maçonniques. – Interrogatoire de Jean-Zacharie Malassis (8 mai 1771). – Exemples d’inventaires après décès.</p>
       </div>
-      <div>
+      <div xml:id="r1190985">
         <head rend="uc">Annexes</head>
         <p>Arbres généalogiques. – Listes de membres des diverses sociétés. Tableaux statistiques concernant le recrutement de ces sociétés.</p>
       </div>

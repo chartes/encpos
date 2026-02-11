@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,10 +60,10 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r239067">
         <head rend="uc">Première partie
          <lb/>Les chorévêques en Orient</head>
-        <div>
+        <div xml:id="r239075">
           <head rend="uc">Chapitre premier
            <lb/>des origines aux schismes du <num>vi<hi rend="sup">e</hi></num> siècle</head>
           <p>Les chorévêques sont des <hi rend="i">vicaires épiscopaux.</hi> Au <num>iv<hi rend="sup">e</hi></num> siècle, on s’est appliqué à confondre avec eux les évêques des sièges ruraux dont on voulait la suppression.</p>
@@ -73,7 +71,7 @@
           <p>Les uns étaient revêtus du caractère épiscopal, les autres étaient de simples prêtres.</p>
           <p>Le plus grand nombre d’entre eux étaient à la tête d’un groupe de paroisses rurales ; quelques-uns avaient dans la ville épiscopale des fonctions que nous connaissons mal, mais qui devaient avoir rapport à l’instruction du clergé.</p>
         </div>
-        <div>
+        <div xml:id="r239112">
           <pb source="https://nakala.fr/10.34847/nkl.ae0azx3u#73492decd5d006bfb504cf125b00e8ed8dad7664" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae0azx3u/73492decd5d006bfb504cf125b00e8ed8dad7664/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Du <num>vi<hi rend="sup">e</hi></num> siècle jusqu’à nos jours</head>
@@ -82,16 +80,16 @@
           <p>Chez les Nestoriens et les Jacobites, ce nom est principalement réservé à des sortes de doyens ruraux, mais, de bonne heure, leurs fonctions se sont confondues avec celles des « périodeutes » ou visiteurs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r239154">
         <head rend="uc">Deuxième partie
          <lb/>Les chorévêques en Occident</head>
-        <div>
+        <div xml:id="r239162">
           <head rend="uc">Chapitre premier
            <lb/>le cas d’Armentarius</head>
           <p>Le concile de Riez (439) applique le titre de chorévêque à Armentarius, qui avait été sacré évêque d’Embrun dans des conditions irrégulières.</p>
           <p>Aucun autre exemple à l’époque gallo-romaine ni à l’époque mérovingienne.</p>
         </div>
-        <div>
+        <div xml:id="r239177">
           <pb source="https://nakala.fr/10.34847/nkl.ae0azx3u#7301cd307e70ce670275ef52935de586819889b6" n="67" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae0azx3u/7301cd307e70ce670275ef52935de586819889b6/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Époque carolingienne</head>
@@ -102,7 +100,7 @@
           <p>Le Saint-Siège, consulté, déclare qu’ils doivent être complètement soumis aux évêques (lettres de Nicolas I<hi rend="sup">er </hi>à Arduic de Besançon et à Rodolfe de Bourges ; lettre d’Étienne V à Liutpert de Mayence).</p>
           <p>Les faux capitulaires de Benoît Diacre et les fausses décrétales d’Isidore vinrent porter les derniers coups au chorépiscopat.</p>
         </div>
-        <div>
+        <div xml:id="r239243">
           <pb source="https://nakala.fr/10.34847/nkl.ae0azx3u#eb48b3afc63d812abe52e0f2f529c2bf95b3ec51" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae0azx3u/eb48b3afc63d812abe52e0f2f529c2bf95b3ec51/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les chorévêques en Allemagne depuis le <num>x<hi rend="sup">e</hi></num> siècle</head>
@@ -113,7 +111,7 @@
         <head rend="uc">Conclusion</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r239276">
         <head rend="uc">Appendices</head>
         <p>I. – Liturgie de l’ordination des chorévêques dans les rites orientaux.</p>
         <p>II. – Sur un passage de la Chronique d’Adon de Vienne.</p>

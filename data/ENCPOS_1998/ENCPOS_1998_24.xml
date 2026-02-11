@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1998_24" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1998_24" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,19 +57,19 @@
         <surname>Montalescot-Dufour</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1328081">
         <head rend="uc">Introduction</head>
         <p>La maîtrise d’ouvrage de 1 architecture publique est très mal connue, aussi bien au XVIII’ qu’au <num>xix<hi rend="sup">e</hi></num> siècle. L’Ancien Régime n’avait pas su, il est vrai, centraliser l’administration et la gestion des travaux publics. Il faut attendre l’organisation administrative de grande ampleur qui eut lieu sous le Premier Empire pour voir naître une véritable réflexion sur la maîtrise d’ouvrage publique. Napoléon I<hi rend="sup">er</hi>, en 1811, créa une direction spéciale chargée de la totalité des travaux parisiens. Confiée à un ingénieur des ponts et chaussées, Louis Bruyère, elle accomplit une œuvre d’organisation et de réglementation très importante et fonda la commande d’Etat telle qu’elle existe encore aujourd’hui.</p>
       </div>
-      <div>
+      <div xml:id="r1328101">
         <head rend="uc">Sources</head>
         <p>Les principales sources qui ont été utilisées sont les dossiers des travaux et ceux de la direction des travaux de Paris, pour la période 1811-1830, dans les sous-séries F”, F<hi rend="sup">H</hi> et F<hi rend="sup">21</hi> aux Archives nationales. L’École des ponts et chaussées conserve aussi les nombreux rapports rédigés par Bruyère. Enfin, quelques documents d’archives intéressants ont été trouvés à la médiathèque du Patrimoine et à la Bibliothèque administrative de la Ville de Paris.</p>
       </div>
-      <div>
+      <div xml:id="r1328119">
         <pb source="https://nakala.fr/10.34847/nkl.f8715d8f#5ecb68077fca53420dafe0f42da2db72a306b72f" n="198" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/5ecb68077fca53420dafe0f42da2db72a306b72f/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Louis Bruyère et la réforme de 1811</head>
-        <div>
+        <div xml:id="r1328132">
           <head rend="uc">Chapitre premier
            <lb/>la création de la direction des travaux de Paris</head>
           <p><hi rend="i">L’administration des travaux publics parisiens avant 1808.</hi> – Sous l’Ancien Régime, l’administration des travaux publics était répartie entre les services royaux, c’est-à-dire la direction des bâtiments du roi et le Contrôle général des finances, et les services municipaux. Le comte d’Angiviller, directeur des bâtiments de 1774 à 1791, engagea une réforme qui allait dans le sens de la centralisation et de l’ordre. Hélas, ce ne fut pas suffisant et, sous la Révolution, tout fut supprimé. La Convention créa le conseil des bâtiments civils qui, au sein du ministère de l’intérieur, dut entre autres examiner les projets et les devis de toutes les constructions publiques. Mais le conseil ne pouvait suffire à la tâche et ne parvenait pas à contrôler efficacement les architectes. Ces derniers jouissaient donc d’une grande liberté et rendaient à l’administration des comptes difficiles à vérifier.</p>
@@ -82,7 +80,7 @@
           <p><hi rend="i">Les facteurs déclenchants.</hi> – La réforme fut précipitée par les difficultés techniques et financières que posaient trois chantiers : la machine de Marly, la restauration de l’église abbatiale de Saint-Denis et le « simulacre » de l’Arc de Triomphe, c’est-à-dire la maquette élevée sur ce chantier pour les fêtes du mariage de Napoléon.</p>
           <p><hi rend="i">Conclusion : la création de la direction.</hi> – Dès le mois de septembre 1810, l’empereur et son ministre étudièrent la question de la création d’une nouvelle admi<pb source="https://nakala.fr/10.34847/nkl.f8715d8f#f995b335bbdb7031ae1c79596907c5fb3ec9ebb8" n="199" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/f995b335bbdb7031ae1c79596907c5fb3ec9ebb8/full/full/0/default.jpg"/>nistration. Montalivet rendit en décembre un rapport de présentation très intéressant, qui laissait transparaître son opinion sur les architectes et sur la situation des travaux publics. Après les discussions au Conseil d’État, le décret du 11 janvier 1811 institua la direction des travaux de Paris et, deux jours plus tard, Louis Bruyère fut nommé à sa tête.</p>
         </div>
-        <div>
+        <div xml:id="r1328194">
           <head rend="uc">Chapitre II
            <lb/>Louis Bruyère (1758-1831)</head>
           <p><hi rend="i">L’homme.</hi> – L’enfance de Bruyère se déroula à Lyon dans une famille de la petite bourgeoisie marchande. Très tôt, il se tourna vers les métiers du bâtiment et entra chez l’architecte Maigre. A vingt-cinq ans il fut reçu à l’École des ponts et chaussées, et ce fut le début d’une ascension sociale exemplaire. Il enseigna la stéréotomie à l’École, exerça ses fonctions d’ingénieur, gravit les échelons de ce corps. Il eut aussi une expérience d’architecte privé.</p>
@@ -92,7 +90,7 @@
           <p><hi rend="i">L’architecte.</hi> – Il exerce à une époque où les professions d’ingénieur et d’architecte sont encore confondues. Son grand ouvrage <hi rend="i">Études relatives à l’art des constructions</hi> accorde une plus large place aux projets d’architectes qu’à ceux des ingénieurs, bien qu’il affirme que l’architecture n’est qu’une partie infime de l’art des constructions. Il professe en la matière l’économie, la fonctionnalité et la simplicité.</p>
           <p><hi rend="i">Conclusion : l’homme de la situation.</hi> – Par ses nombreuses expériences dans la construction, l’enseignement et la recherche, comme par son appartenance à un corps fortement structuré et administratif. Bruyère était le candidat idéal pour remplir les fonctions difficiles de directeur des travaux de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r1328243">
           <pb source="https://nakala.fr/10.34847/nkl.f8715d8f#8b54ff7e7e8649b8e9d3f66bd1ad5cfb979ae1a4" n="200" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/8b54ff7e7e8649b8e9d3f66bd1ad5cfb979ae1a4/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Un nouvel organigramme administratif</head>
@@ -102,18 +100,18 @@
           <p><hi rend="i">Conclusion.</hi> – Une fois encore, Paris a donné naissance à une administration originale. La direction des travaux était un service d’exécution placé directement auprès de l’administration centrale, au-dessus de la préfecture de la Seine et du conseil des bâtiments civils.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1328282">
         <head rend="uc">Deuxième partie
          <lb/>L’œuvre de la direction des travaux de Paris
          <lb/>(1811-1820)</head>
-        <div>
+        <div xml:id="r1328292">
           <head rend="uc">Chapitre premier
            <lb/>Bruyère et son administration</head>
           <p><hi rend="i">Le personnel de la direction.</hi> – Bruyère sut s’entourer d’une équipe fidèle et dévouée de jeunes architectes comme Charles Gourlier ou d’administrateurs comme Périgord. Il plaça ses hommes non seulement dans ses bureaux mais aussi dans les agences des travaux, sur le terrain. Ils furent chargés de surveiller les agissements des architectes (comme à Saint-Denis, où le directeur nomma un sous-inspecteur à sa dévotion, Durand) et de mettre au clair la comptabilité.</p>
           <p><hi rend="i">La gestion du personnel des travaux.</hi> – Dès 1811, Bruyère réorganisa totalement le personnel des agences des travaux parisiens. Il plaça les jeunes Prix de Rome aux postes de sous-inspecteurs et d’inspecteurs, il réduisit les postes d’architectes ordinaires, c’est-à-dire des travaux d’entretien, et nomma ses hommes aux postes de surveillance. Il choisissait personnellement les maîtres d’œuvre, pouvait les suspendre en cas de mauvaise conduite et renvoyer les agents secondaires. <pb source="https://nakala.fr/10.34847/nkl.f8715d8f#912b2434e81ed2090c43935531b0e2934b206b91" n="201" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/912b2434e81ed2090c43935531b0e2934b206b91/full/full/0/default.jpg"/>L’exemple du chantier de Saint-Denis illustre parfaitement la réorganisation à laquelle le directeur procéda, parfois non sans arbitraire, voire machiavélisme.</p>
           <p><hi rend="i">Maître d’ouvrage ou maître d’œuvre ?</hi> – Bruyère n’exerça pas uniquement des compétences administratives. Il joua un rôle important dans le choix des projets architecturaux et dans leur réalisation. Il proposait le crédit des travaux, corrigeait les programmes et les devis. Il réglait les indemnités et les salaires des architectes. Il jouissait donc de moyens de pression importants, dont il usa. Il tenta même parfois de faire refuser des projets d’architecte, comme à la Madeleine où il entra officieusement en concurrence avec le maître d’œuvre Vignon. De nombreux artistes ne lui pardonnèrent pas ses ambitions.</p>
         </div>
-        <div>
+        <div xml:id="r1328324">
           <head rend="uc">Chapitre II
            <lb/>Les agences des travaux</head>
           <p><hi rend="i">Les travaux de Paris.</hi> – Les travaux de la capitale étaient distingués depuis 1808 en ordinaires et en extraordinaires. Les premiers concernaient les bâtiments dont l’entretien était confié à des architectes conservateurs fixes ; Bruyère s’efforça de diminuer 1 effectif de ceux-ci et de leur verser une moindre rétribution. Les seconds concernaient toutes les grandes constructions parisiennes, de quelque administration qu’elles dépendissent. Les pouvoirs du directeur étaient immenses, et débordaient les structures administratives. Il pouvait même diriger les travaux d’un autre ministère que celui de l’Intérieur.</p>
@@ -123,7 +121,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.f8715d8f#b7604929286111f101b4e937c25c84bc3bc56edc" n="202" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/b7604929286111f101b4e937c25c84bc3bc56edc/full/full/0/default.jpg"/>
           <p><hi rend="i">Conclusion : de nombreux imprimés.</hi> – La création de la direction s’accompagna d’une très nette inflation des archives manuscrites et imprimées concernant les travaux de la capitale. Le directeur mit en place des modèles d’imprimés destinés à faciliter la rédaction des attachements et des états de situation, et à les uniformiser.</p>
         </div>
-        <div>
+        <div xml:id="r1328368">
           <head rend="uc">Chapitre III
            <lb/>Les conflits</head>
           <p><hi rend="i">La campagne de libelles contre le directeur des travaux.</hi> – Trois architectes lancèrent une campagne de dénigrement de la politique menée par Bruyère : Viel, Picolet et Antoine-Marie Peyre. Ils écrivirent notamment dans une revue particulièrement polémique, les <hi rend="i">Annales des bâtiments et de l’industrie française.</hi> Plusieurs raisons sous-tendaient leur argumentation. Tout d’abord, ils supportaient mal d’être administrés par un ingénieur. D’autre part, ils craignaient cette administration tentaculaire qui leur ravissait leur liberté et ne respectait plus leur talent. Bruyère symbolisait ce « pouvoir unique » qui niait l’individualité et le génie de l’architecte. Cette campagne reflétait l’opinion de nombreux maîtres d’œuvre qui supportaient mal les ingérences de Bruyère. La chute de l’Empire aggrava encore la situation.</p>
@@ -131,37 +129,37 @@
           <p><hi rend="i">Les conséquences : l’affaiblissement du pouvoir de Bruyère et son départ.</hi> – Deux textes vinrent en février 1817 consacrer la perte de crédit de Bruyère auprès des ministres de l’Intérieur de la Restauration. Les conflits aigus avec les architectes avaient gêné l’administration centrale, ainsi que l’attitude du directeur qui refusait de quitter la position dominante qu’il avait acquise sous l’Empire. Ces textes rendirent un certain pouvoir au préfet de la Seine, qui retrouva son indépendance, ainsi qu’au conseil des bâtiments civils qui redevint l’organe consultatif du seul ministre de l’intérieur. En outre, on confia certaines des attributions du directeur à un nouveau fonctionnaire, le conservateur des monuments publics. Refusant d’accepter cet affaiblissement et persuadé qu’il ne pourrait mener à bien sa mission dans de telles conditions. Bruyère donna sa démission à la fin de l’année 1819.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1328400">
         <pb source="https://nakala.fr/10.34847/nkl.f8715d8f#c951fb6ef276496a24466ffe3d2811f203611410" n="203" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/c951fb6ef276496a24466ffe3d2811f203611410/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>L’après-bruyère (1820-1853)</head>
-        <div>
+        <div xml:id="r1328413">
           <head rend="uc">Chapitre premier
            <lb/>1820-1830</head>
           <p><hi rend="i">Une administration qui fonctionne.</hi> – Après le départ de Bruyère, deux hommes se succédèrent à la tête de la direction : le baron Hély d’Oissel et le comte Héricart de Thury. Le premier, qui était un bureaucrate, ne resta que deux ans. En revanche, le second, ingénieur des mines, dirigea les bureaux pendant huit ans. La décennie qui s’ouvrit en 1820 fut une période de calme et d’équilibre. Les relations avec le ministre de l’intérieur, le conseil des bâtiments civils et le préfet de la Seine se stabilisèrent et le directeur retrouva la plupart de ses prérogatives. Il ne se mêla plus à la maîtrise d’œuvre et les conflits avec les architectes cessèrent. Héricart de Thury s’efforça d’améliorer l’œuvre fondatrice de Bruyère. Il institua une commission de révision chargée notamment d’établir des séries de prix. 11 créa, de son propre chef, un poste de médecin du travail et noua des relations de plus en plus étroites avec l’administration de l’Ecole des beaux-arts, afin de mieux connaître les futurs maîtres d’œuvre des travaux publics.</p>
           <p><hi rend="i">Les nouvelles tendances.</hi> – Après 1820, on constate un net retour à la centralisation administrative. La conservation des monuments fut supprimée et le directeur des travaux eut en charge les sculptures monumentales de la capitale. Les interventions d’Héricart de Thury dans les départements furent de plus en plus nombreuses. Les préfets lui demandaient conseil pour le choix d’architectes départementaux. Parallèlement naquit une réflexion, au sein des administrateurs et des architectes, visant à réformer l’organisation des travaux publics et l’enseignement des beaux-arts. On s’interrogea alors sur la place que devait tenir le directeur des travaux de Paris. A partir de 1827, le régime se trouva dans une situation financière catastrophique. Les députés remirent alors en cause l’utilité de la direction et soulignèrent son coût. Malgré ses plaidoyers en faveur de son service, Héricart de Thury ne parvint pas à le sauver. En définitive, la direction avait rempli sa mission et instauré un certain nombre de règles dans l’administration des travaux publics.</p>
         </div>
-        <div>
+        <div xml:id="r1328434">
           <head rend="uc">Chapitre II
            <lb/>De Thury a Haussmann (1830-1853)</head>
           <p><hi rend="i">Les avatars de la direction des travaux de Paris.</hi> – Dès le début de la monarchie de Juillet, il apparut qu’il fallait remplacer la direction des travaux de Paris. Les constructions financées par la Ville de Paris ne furent plus administrées avec celles du ministère de l’Intérieur et revinrent dans le giron de la préfecture de la Seine. Au département de l’Intérieur puis au département du Commerce et des Travaux publics, une nouvelle direction prit la place de l’ancienne. Elle changea à <pb source="https://nakala.fr/10.34847/nkl.f8715d8f#5317a15575815ff54efed184f8bab46e180a7527" n="204" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/5317a15575815ff54efed184f8bab46e180a7527/full/full/0/default.jpg"/>plusieurs reprises d’appellation mais continua de gérer les grandes constructions publiques selon les règles définies par Bruyère. A la préfecture de la Seine également, on apprit à suivre ces mêmes règlements. Quant au conseil des bâtiments civils, il s’efforça de les imposer dans les départements. Finalement, en 1840-1841, la direction disparut et devint une section administrative du ministère des Travaux publics. Parallèlement naissait et s’affirmait le jeune service des Monuments historiques qui, lié dans un premier temps étroitement à la direction, s’en dégagea progressivement.</p>
           <p><hi rend="i">Haussmann et Alphand : des continuateurs de Bruyère ?</hi> – Le préfet de la Seine Haussmann et son bras droit Alphand, qui devint directeur des travaux de Paris après 1870, se fondèrent sur les règlements mis en place un demi-siècle auparavant pour lancer leur grande campagne d’urbanisme. Ils professaient les mêmes idées que Louis Bruyère et tentèrent d’encadrer le plus étroitement possible les architectes. Ils s’efforcèrent de rationaliser, comme l’avait fait le premier directeur des travaux de Paris, la gestion des constructions parisiennes. Ainsi Bruyère, Haussmann et Alphand sont-ils très proches par leurs conceptions de la maîtrise d’ouvrage et par leur volonté de réforme. Le premier a permis aux deux autres de mener à bien une politique de construction d’une ampleur sans précédent.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1328461">
         <head rend="uc">Conclusion</head>
         <p>L’œuvre de Bruyère a été fondatrice. Elle a créé une maîtrise d’ouvrage rationnelle, capable de surveiller efficacement les travaux dont elle avait la charge et de défendre ses intérêts financiers et esthétiques. La chute de l’Empire ne l’a pas remise en cause, bien que le directeur ait alors perdu certaines de ses prérogatives. Mais plus d’une question reste en suspens : Bruyère chercha-t-il à imposer un « style officiel », comme le prétendirent ses détracteurs ? Son action fut-elle connue dans les autres pays d’Europe ? Une étude plus vaste de l’histoire de la maîtrise d’ouvrage au <num>xix<hi rend="sup">e</hi></num> siècle en France et en Europe pourrait apporter un éclairage intéressant sur ces questions.</p>
       </div>
-      <div>
+      <div xml:id="r1328477">
         <head rend="uc">Pièces justificatives</head>
         <p>Trente et un documents, tirés pour la plupart des sous-séries F” et F<hi rend="sup">21</hi> des Archives nationales : rapports administratifs utiles pour comprendre l’esprit dans lequel travaillait la direction, décrets, correspondance avec les architectes.</p>
       </div>
-      <div>
+      <div xml:id="r1328491">
         <pb source="https://nakala.fr/10.34847/nkl.f8715d8f#723c866203a01a758004883acc4f2b20894674ad" n="205" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/723c866203a01a758004883acc4f2b20894674ad/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>Index des architectes. – Index des ingénieurs.</p>
       </div>
-      <div>
+      <div xml:id="r1328506">
         <head rend="uc">Illustrations</head>
         <p>Illustrations tirées de l’ouvrage de Bruyère, <hi rend="i">Études relatives à l’art des constructions.</hi> – Projets soumis par Bruyère au conseil des ponts et chaussées. – Projets d’élèves architectes et ingénieurs, destinés à mettre en valeur son influence.</p>
         <pb source="https://nakala.fr/10.34847/nkl.f8715d8f#4d3c634548d2ff3aafd775fdc800169c29a6aaf5" n="206" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8715d8f/4d3c634548d2ff3aafd775fdc800169c29a6aaf5/full/full/0/default.jpg"/>

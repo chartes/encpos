@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,7 +59,7 @@
         <head rend="uc">Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r625074">
         <head rend="uc">Première partie
          <lb/>Les registres du garde du trésor royal
          <lb/>conservés dans les Mélanges Colbert
@@ -72,10 +70,10 @@
         <p>Dans cette année 1669, nous avons choisi un rôle de dépenses, un état de comptant des six premiers mois et l’état au vrai de l’année. Nous en avons donné le texte intégral partiellement annoté.</p>
         <p>Ce travail nous a amenée en ce qui concerne la comptabilité et la marine à une étude plus approfondie qui pourrait être faite aussi pour d’autres institutions.</p>
       </div>
-      <div>
+      <div xml:id="r625113">
         <head rend="uc">Deuxième partie
          <lb/>Étude des registres de l’année 1669</head>
-        <div>
+        <div xml:id="r625121">
           <head rend="uc">Chapitre premier
            <lb/>la comptabilité centrale.</head>
           <p>L’exercice financier, confondu sous l’Ancien Régime avec l’année, s’ouvre par un état de prévision : projet de recettes et de dépenses dont l’unique but est d’éclairer le roi.</p>
@@ -91,7 +89,7 @@
           <p>L’exercice financier se clôt par un état au vrai qui donne tous les revenus centralisés au Trésor, soit pour l’année 1669 : 74,729,913 1. 8 s. 11 d. ; toutes les dépenses inscrites dans les trois rôles et les trois comptants de l’année ou payées par acquits patents, soit pour 1669 : 74,477,795 1. 15 s. 1 d.</p>
           <p>Le contrôle financier s’exerce de la part du Roi et de son Conseil, préventivement d’abord par l’examen de l’état de prévision pour l’année et par la vérification mensuelle des registres des finances, par l’arrêté biannuel des registres du Garde du Trésor royal, puis définitivement par un règlement général de toutes les recettes et de toutes les dépenses de l’année ; enfin, par l’arrêté de l’état au vrai. Cette dernière vérification intervient assez rapidement ; une seule fois, en 1679, elle n’intervient que trois ans après la fin de l’exercice.</p>
         </div>
-        <div>
+        <div xml:id="r625182">
           <head rend="uc">Chapitre II
            <lb/>La marine.</head>
           <p>La restauration de la marine entreprise en 1661, à l’arrivée <pb source="https://nakala.fr/10.34847/nkl.ca8775mc#47b25c7ef31edbbaac33706e0cbd070d4f661e2e" n="73" facs="https://api.nakala.fr/iiif/10.34847/nkl.ca8775mc/47b25c7ef31edbbaac33706e0cbd070d4f661e2e/full/full/0/default.jpg"/>de Colbert au pouvoir, est poussée de la façon la plus énergique en 1669 et notre registre nous en apporte les preuves. Colbert, intendant des Finances, chargé des affaires de la marine depuis 166’1, en prend la direction officielle sans avoir la charge de secrétaire d’Etat qu’il achète enfin en 1669.</p>
@@ -101,7 +99,7 @@
           <p>Les institutions financières et maritimes ne sont pas les seules pour lesquelles les registres du Garde du Trésor royal (Mélanges Colbert, 264 à 310) apparaissent comme susceptibles de fournir des renseignements abondants. Pour la Maison du Roi, pour la Guerre et pour les Travaux publics, les historiens y trouveront une source d’information des plus importantes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r625245">
         <head rend="uc">Édition</head>
         <p>Texte des registres : Bibl. nationale, Mélanges Colbert 281 et 283.</p>
       </div>

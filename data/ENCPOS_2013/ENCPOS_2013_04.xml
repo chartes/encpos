@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2013_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2013_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,49 +53,49 @@
         <surname>Boissière</surname>
         <roleName>diplômée de master</roleName>
       </byline>
-      <div>
+      <div xml:id="r1538472">
         <head>Introduction</head>
         <p>Pierre-Fidèle Bretonneau (1778-1862) fut l’un des acteurs du tournant médical que constitue le <num>xix<hi rend="sup">e</hi></num> siècle, par les découvertes qu’on lui reconnaît, mais aussi par la méthode scientifique qu’il a contribué à diffuser par l’intermédiaire de son école. S’il est surtout célèbre pour avoir identifié la diphtérie et la fièvre typhoïde, il n’est presque jamais oublié lorsque sont évoquées les questions de contagion et surtout de spécificité, doctrines dont il a été un très grand et fervent promoteur. Proche de l’école anatomo-clinique, il a défendu toute sa vie l’idée que la médecine doit découler de l’observation, des faits, et non des écoles de pensée et des opinions établies.</p>
         <p>Objet historique à multiples facettes, la correspondance de Bretonneau entre dans le champ varié des correspondances de savants qui, au-delà des perspectives biographiques évidentes, touchent à l’histoire dans tous ses aspects. Témoignage de son époque, elle permet en effet de saisir un arrière-plan politique, social, culturel, et, par la personnalité originale de Bretonneau, elle laisse une large place à des sujets techniques ou encore botaniques.</p>
         <p>De nombreux travaux – éditions ou biographies – ont déjà valorisé cette abondante correspondance et l’ont rendue publique très tôt (P. Triaire, 1892 ; J. Lorenzi 1960-1966 ; É. Aron, 1979). Il était toutefois nécessaire de reprendre ces travaux, en tentant de pallier leurs défauts, en portant un nouveau regard sur cette correspondance, et en y ajoutant davantage de matériaux. Améliorer l’étude historique du personnage de Pierre-Fidèle Bretonneau passait nécessairement par la réalisation d’une nouvelle édition, la plus complète et la plus scientifique possible, de la correspondance du médecin de Tours. Celle-ci, parfois éclairée par des sources complémentaires, ouvre un champ de perspectives des plus vastes.</p>
         <p>À travers les anecdotes et les récits qu’elle réunit, la correspondance livre un témoignage du monde médical de l’époque, qu’il soit parisien ou tourangeau, de son évolution, ses recherches et ses débats, de l’organisation de l’enseignement et des hôpitaux au <num>xix<hi rend="sup">e</hi></num> siècle. Elle est aussi un moyen de comprendre le fonctionnement des réseaux et des écoles de pensée au cœur de la capitale, notamment par le biais du réseau tourangeau formé autour de ses deux illustres représentants, Velpeau et Trousseau, et dont certains membres sont encore mal identifiés. Les lettres de Bretonneau sont enfin un point d’accès pour étudier ses influences médicales, les auteurs dont il a pu lire voire posséder les œuvres, ceux auxquels il s’est référé pour revenir aux sources des affections qu’il étudiait. Elles permettent de saisir par là même le cheminement de la pensée d’un médecin-chercheur au début du <num>xix<hi rend="sup">e</hi></num> siècle. La correspondance est enfin une clé majeure pour comprendre comment un médecin de province, qui a peu écrit et très peu publié, a pu se construire une telle renommée.</p>
       </div>
-      <div>
+      <div xml:id="r1538508">
         <head>Sources </head>
         <p>L’essentiel des originaux de la correspondance de Bretonneau se trouve conservé à la bibliothèque universitaire de médecine de Tours (fonds Bretonneau). Un autre fonds important se trouve à la bibliothèque municipale de Tours (manuscrit 1444). Le reste des originaux est dispersé dans divers lieux de conservation (bibliothèque inter-universitaire de santé de Paris, bibliothèque de l’Académie de médecine, bibliothèque universitaire d’Uppsala, archives départementales d’Indre-et-Loire, collections en mains privées).</p>
         <p>La particularité de la correspondance de Bretonneau est qu’une partie des originaux n’est aujourd’hui plus consultable. Les lettres concernées ne subsistent que sous la forme d’éditions publiées, principalement dans l’ouvrage de Paul Triaire, ou de copies manuscrites.</p>
         <p>D’autres sources ne concernant pas la correspondance ont permis d’éclairer certains points peu traités dans celle-ci ou d’en préciser d’autres. Les gisements les plus importants se trouvent aux Archives nationales, aux archives départementales d’Indre-et-Loire (fonds Lorenzi, 10 F), ainsi qu’à la bibliothèque universitaire de médecine de Tours (fonds Boutineau, fonds émile Aron).</p>
       </div>
-      <div>
+      <div xml:id="r1538523">
         <head>Première partie <lb/>La correspondance de Bretonneau : de la reconstruction aux éditions</head>
-        <div>
+        <div xml:id="r1538530">
           <head>Chapitre premier <lb/>La reconstruction de l’ensemble du corpus : lettres conservées, lettres dispersées</head>
           <p>L’histoire de la correspondance est compliquée par la dispersion des lettres dans différents fonds. Sa recomposition reste donc difficile en raison de la variété des lieux de conservation et du manque d’information concernant la filiation des fonds concernés. à l’exception du manuscrit 1444 de la bibliothèque municipale de Tours, la transmission de la plupart des fonds ne peut être basée que sur des hypothèses.</p>
           <p>Le corpus contient également des copies de lettres, qu’elles aient été éditées (P. Triaire, 1892 ; P. Boiteau, 1860) ou qu’elles soient demeurées des copies manuscrites. Outre l’impossibilité de les rattacher à des fonds qui existent ou ont existé, ces copies posent également la question de leur fidélité vis-à-vis des originaux qui ont aujourd’hui disparu.</p>
         </div>
-        <div>
+        <div xml:id="r1538544">
           <head>Chapitre II <lb/>Analyse du corpus : diversité des scripteurs, des sujets et des enjeux</head>
           <p>Outre Bretonneau et ses secrétaires, plus de quarante correspondants ponctuent ce corpus, à des fréquences variées. Différents cercles se retrouvent : amis, confrères, patients, et élèves de l’école de Tours – principalement Alfred Velpeau et Armand Trousseau.</p>
           <p>Selon les époques, les correspondants changent ainsi que les intérêts et les sujets de conversation. Ainsi la première époque (1801-1809) est celle des discussions passionnées avec l’ancien maître à dessin, Jean-Baptiste Cloquet, qui touchent à un grand nombre de sujets techniques et artistiques. Vient ensuite l’époque du doctorat (1813-1815), caractérisée par des échanges entre Bretonneau et sa femme, mais également avec ses amis parisiens (André Marie Constant Duméril, Louis-Benoît Guersant) dont certains se poursuivent avec les années. La période de 1820 à 1850 est celle d’une correspondance médicale assidue entre le maître et ses élèves, dans laquelle les carrières des élèves, les travaux de Bretonneau, la diffusion de ses idées, et la création de l’école secondaire de médecine de Tours tiennent une grande place. La fin de la correspondance (1850-1859) est assez variée, mais elle se concentre pour une bonne part sur des considérations horticoles.</p>
           <p>D’importants enjeux transversaux se lisent à travers ces grandes phases de la correspondance. Le premier est bien sûr biographique. La personnalité de Bretonneau tout d’abord est dépeinte dans ses propres lettres mais aussi dans les récits de consultations faits par ses proches. Elle se lit également dans ce qui donne à la figure de Bretonneau sa particularité : son éloignement géographique de Paris, qui est l’une des raisons de la richesse de sa correspondance. Sur le plan médical, les lettres de Bretonneau sont une source précieuse pour constater l’évolution de ses réflexions.</p>
           <p>Grâce au large éventail chronologique qu’elle propose et à sa densité, la correspondance permet de saisir tout un arrière-plan d’histoire médicale mais aussi politique et parfois culturelle. On y lit l’évolution de la médecine au <num>xix<hi rend="sup">e</hi></num> siècle, les questions brûlantes de l’époque, les conceptions des différentes écoles parisiennes et leur évolution. Au-delà de son aspect médical, la correspondance est aussi le témoin d’une histoire scientifique en marche par les travaux et les découvertes qui y sont mentionnés. L’aspect artistique et littéraire, bien que secondaire, est néanmoins bien présent et témoigne d’une culture partagée à l’époque dans le milieu dans lequel évolue Bretonneau. Quant aux aspects politiques, on constate qu’ils ne sont pas aussi rares que l’ont dit les historiens.</p>
         </div>
-        <div>
+        <div xml:id="r1538570">
           <head>Chapitre III <lb/>Les éditions au cours des siècles</head>
           <p>L’édition de P. Triaire (<hi rend="i">Bretonneau et ses correspondants</hi>, 1892) a été le déclencheur de l’intérêt porté très tôt à la correspondance et à la figure de Bretonneau. Néanmoins, dans les choix d’édition de Triaire se lit un intérêt relativement limité au monde médical parisien du <num>xix<hi rend="sup">e</hi></num> siècle. Le tri effectué dans l’ensemble des lettres qu’il avait à sa disposition à l’époque nous empêche aujourd’hui de connaître l’étendue de ce corpus originel. Triaire a également réalisé une censure sur la vie privée de Bretonneau, et a commis de nombreuses omissions, des erreurs de lecture, de transcription, et, plus graves, des erreurs de datation, alors qu’il est impossible de distinguer, dans son édition, les datations sûres ou supposées.</p>
           <p>L’intérêt pour la correspondance de Bretonneau ne s’est pas affaibli au <num>xx<hi rend="sup">e</hi></num> siècle, et l’on constate quelques améliorations dans la lecture et la transcription. L’attention s’est souvent portée plus spécialement sur la vie privée de Bretonneau, et sur la période de jeunesse (1801-1815) peu illustrée dans l’édition de Triaire. J. Lorenzi (<hi rend="i">Revue médicale de Tours</hi>,<hi rend="i"> </hi>1960-1966<hi rend="i">)</hi> a surtout transcrit des passages en les accompagnant de notes explicatives, mais a eu le grand intérêt de proposer des lettres inédites à l’époque et des identifications historiques très détaillées. J. Luthier (1962, 1967) a réalisé des éditions partielles de commémoration, en présentant parfois des lettres inédites ou corrigées vis-à-vis de l’édition de Triaire, mais avec de très rares notes. La dernière édition en date (F.-G. Theuriau, 2005) ne s’intéresse qu’à la période 1801-1809. Aucun de ces travaux n’avait donc pour but de donner une édition exhaustive de la correspondance.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1538613">
         <head>Deuxième partie <lb/>Un travail biographique entre mythes et réalités</head>
-        <div>
+        <div xml:id="r1538620">
           <head>Chapitre premier <lb/>Historiographie : un mythe persistant</head>
           <p>De façon générale, par leur situation de médecins, la plupart des auteurs qui se sont penchés sur la vie et l’œuvre de Bretonneau ont donné des réflexions objectives et précises sur ses travaux et ses apports à la médecine. Le constat est différent lorsque l’intérêt des biographes s’est porté sur la personnalité et la vie privée du médecin de Tours. Un « mythe » de Bretonneau s’est en effet construit très tôt grâce à des anecdotes plus ou moins véridiques qui ont nourri de nombreuses légendes sur sa personnalité et qui ont été reprises régulièrement par les auteurs. Dès sa mort, une certaine image de Bretonneau s’est concrétisée à travers les nombreux éloges parus ou prononcés par ses élèves et amis, qui manquent tous de précisions. Cette image, construite entre faits erronés propagés et anecdotes véridiques oubliées, a formé dès 1862 un terreau d’idées qui ont été abondamment reprises par la suite. Ces écrits ne constituaient cependant pas de véritables biographies de Bretonneau, et la construction du mythe du médecin de Tours a donc surtout été due à Triaire.</p>
           <p>À l’époque de la parution de l’ouvrage, à la fin du siècle, le nom de Bretonneau devenait de plus en plus obscur et celui-ci ne bénéficiait pas de la même renommée que ses élèves Velpeau et Trousseau. Triaire eut le mérite de le remettre au premier plan, au moment où les travaux sur la diphtérie connaissaient un renouveau. Il a également apporté des corrections vis-à-vis des précédents travaux. Néanmoins, son œuvre est loin d’être parfaite, puisque l’on constate un certain manque d’objectivité et des erreurs biographiques.</p>
           <p>Les travaux du début du <num>xx<hi rend="sup">e</hi></num> siècle ont certes continué de mettre en valeur la figure de Bretonneau, mais, en reprenant les conceptions nées au <num>xix<hi rend="sup">e</hi></num> siècle, ils n’ont pas apporté de nouveaux éléments historiques ou de nouvelles réflexions, à l’exception des recherches de L. Dubreuil-Chambardel sur l’ascendance de Bretonneau.</p>
           <p>Ce n’est qu’à partir des années soixante qu’un retour aux sources historiques – principalement la correspondance mais également des documents d’archives – marque un véritable tournant des études sur Bretonneau, celui de l’exactitude des faits par rapport à la légende. Le travail d’érudition de J. Lorenzi a ainsi permis d’éclaircir un grand nombre de points obscurs ou erronés concernant la vie et l’œuvre de Bretonneau. Transformé en biographie par É. Aron en 1979, il a permis la réalisation d’une œuvre « constructive et durable » selon leurs vœux, dont le défaut majeur, cependant, est l’absence de mention des sources et de références aux lettres citées. Cette recherche renouvelée sur Bretonneau n’a toutefois pas empêché des travaux postérieurs de puiser dans l’imaginaire du <num>xix<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1538658">
           <head>Chapitre II <lb/>Retour aux sources : étude biographique d’après la correspondance</head>
           <p>Il convenait de prendre appui sur la correspondance et les sources complémentaires pour tenter une nouvelle étude biographique et rectifier les erreurs propagées depuis le <num>xix<hi rend="sup">e</hi></num> siècle, sans pour autant prétendre à réaliser une biographie exhaustive.<hi rend="i"> </hi></p>
           <p>Période peu présente dans la correspondance, qui ne commence qu’en 1795, la jeunesse de Bretonneau n’est que rarement évoquée, ce qui a encouragé nombre de légendes sur son éducation. Né le 3 avril 1778 à Saint-Georges-sur-Cher, issu d’une longue lignée de médecins ou chirurgiens, Bretonneau semble avoir bénéficié d’une éducation familiale normale qui, quoique peu rigoureuse, ne fut pas aussi négligée qu’on a pu le dire.</p>
@@ -112,15 +110,15 @@
           <p>Sous plusieurs aspects, Bretonneau prouva la modernité de ses idées. Prenant place parmi les précurseurs de la bactériologie et les pionniers de l’asepsie, il ne fut cependant que peu reconnu pour cela. Son large héritage était néanmoins conséquent et la diffusion de ses idées se poursuivit après sa mort, grâce à la fidélité de ses élèves. Son nom resta ainsi longtemps associé à la diphtérie, à la fièvre typhoïde, ainsi qu’à la vaccine grâce à ses tubes capillaires qui prirent le nom de « tubes Bretonneau ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1538723">
         <head>Troisième partie <lb/>Édition </head>
         <p>Cette partie est consacrée à l’édition de la correspondance, comprenant quatre cent soixante-douze lettres. Elle a été réalisée selon un ordre chronologique, et s’étend de 1795 à 1859. Les règles d’édition utilisées suivent, de manière générale, les principes de l’édition des textes contemporains. Chaque lettre est précédée d’un numéro d’ordre, de la mention des émetteurs et destinataires, de la date de temps et de lieu, d’un tableau de la tradition et d’une analyse.</p>
       </div>
-      <div>
+      <div xml:id="r1538734">
         <head>Conclusion</head>
         <p>Par la découverte de nouveaux originaux et de nouvelles copies, cette thèse rassemble la correspondance connue de Bretonneau en une édition harmonisée, plus complète et plus scientifique que les travaux antérieurs. Beaucoup de questions demeurent cependant non résolues, notamment en ce qui concerne la transmission de la correspondance depuis le <num>xix<hi rend="sup">e</hi></num> siècle. Néanmoins en l’état actuel, la correspondance dévoile une diversité intéressante et constitue une base presque complète pour se pencher sur la vie, les influences et les travaux de Bretonneau. Par l’édition de lettres jusqu’ici inédites, elle permet d’éclairer les aspects les moins connus de la vie du médecin de Tours et de présenter une figure aux multiples facettes.</p>
       </div>
-      <div>
+      <div xml:id="r1538749">
         <head>Annexes</head>
         <p>Édition d’une correspondance complémentaire. — Tables de la correspondance (table générale de l’édition, tables des correspondants et des envois). — Glossaire médical. — Illustrations de la correspondance, exemples d’écriture, aspects matériels. — Notices biographiques des principales personnes citées. — Index des noms de personnes, d’institutions et de lieux.</p>
       </div>

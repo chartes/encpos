@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,26 +56,26 @@
         <surname>Magnien</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1191150">
         <head rend="uc">Introduction</head>
         <p>Le « Bronze Keller » est un bronze d’art dont l’origine est attribuée aux frères Keller mais qui n’est ni « des » frères Keller ni conforme à la définition qu’on a voulu en donner. Jean-Jacques (1635-1700) et Balthasar Keller (1638-1702) commencèrent par fondre des canons et furent les principaux agents d’une renaissance encore hésitante dans le domaine de l’artillerie. Balthasar Keller fut aussi fondeur de statues et se vit confronté à un autre milieu, celui des fondeurs parisiens. Il garda ses distances : la protection d’un « grand » était la seule garantie dont pouvait se prévaloir un artisan au service du roi.</p>
       </div>
-      <div>
+      <div xml:id="r1191160">
         <head rend="uc">Sources</head>
         <p>Les registres des minutes du secrétariat d’Etat à la guerre conservés dans la sous-série A<hi rend="sup">1</hi> du Service historique de l’armée de terre ont été consultés pour tout ce qui concerne les fonderies de canons dans les provinces de Flandre, <pb source="https://nakala.fr/10.34847/nkl.ff58n26s#88855cdb8449ea5e166a4af9b66e86e862d1e605" n="122" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff58n26s/88855cdb8449ea5e166a4af9b66e86e862d1e605/full/full/0/default.jpg"/>d’Alsace, de Franche-Comté et de Piémont. Ont été aussi dépouillés le fonds Artillerie du même Service et les archives du Génie.</p>
         <p>La sous-série O’ des Archives nationales fut l’autre source principale, notamment les comptes des Bâtiments du roi et les inventaires de Versailles, Marly, Meudon et Saint-Cloud. Le fonds du Minutier central des notaires parisiens a fourni des documents sur le milieu des fondeurs parisiens, et la sous-série Z<hi rend="sup">1M</hi> (bailliage de F Arsenal) a conservé l’inventaire après décès de B. Keller.</p>
         <p>L’étude de la vie privée des frères Keller a nécessité une recherche dans les fonds d’archives départementaux du Haut-Rhin et du Nord, et communaux, à Douai.</p>
         <p>La Bibliothèque nationale a conservé quelques documents manuscrits relatifs à la succession de B. Keller, ainsi que deux exemplaires du <hi rend="i">Mémoire</hi> de J.– J. Keller.</p>
       </div>
-      <div>
+      <div xml:id="r1191196">
         <head rend="uc">Chapitre préliminaire
          <lb/>les origines des frères Keller</head>
         <p>On peut émettre l’hypothèse que les frères Keller, originaires de Zurich, reçurent leur formation dans leur ville natale, réputée depuis le début du XVI<hi rend="sup">e </hi>siècle pour ses fondeurs de canons (les Fussli), et qu’ils n’arrivèrent en France qu’à la fin des années 1650. Ils étaient issus d’une famille investie depuis le <num>xiv<hi rend="sup">e</hi></num> siècle de responsabilités militaires et municipales.</p>
       </div>
-      <div>
+      <div xml:id="r1191218">
         <head rend="uc">Première partie
          <lb/>Les frères Keller fondeurs de canons</head>
-        <div>
+        <div xml:id="r1191226">
           <head rend="uc">Chapitre premier
            <lb/>les fonderies de canons dans le royaume
            <lb/>avant l’arrivée des frères Keller</head>
@@ -86,7 +84,7 @@
           <p>Le fondeur de canons était un entrepreneur civil qui avait passé marché avec le grand maître. Il pouvait recevoir le titre de « commissaire des fontes » et bénéficiait alors, en plus de son salaire à la pièce, de gages annuels. La fonte était rigoureusement surveillée par les officiers d’artillerie et peu de liberté était laissée au fondeur, notamment dans la confection des alliages.</p>
           <p>Ce métier restait enveloppé de mystères et dépendait des incertitudes de la fonte.</p>
         </div>
-        <div>
+        <div xml:id="r1191254">
           <head rend="uc">Chapitre II
            <lb/>L’installation des Keller à Paris puis à Douai</head>
           <p>La présence de J.-J. Keller à Paris est attestée en 1661 : il travaillait à l’Arsenal, principale fonderie du royaume. En 1666, après qu’il eût fait venir son frère cadet en France, il réalisa avec lui une fonte prestigieuse de neuf pièces, qui consacra le début de leur carrière et l’amorce d’une transformation dans le profil des pièces de canons de l’Artillerie royale.</p>
@@ -96,7 +94,7 @@
           <p>La situation s’envenima quand J.-J. Keller remplaça son frère, dans les années 1690, à la tête de la fonderie : Louvois était mort, du Metz aussi, et Vigny l’avait remplacé. C’est lui qui, après avoir refusé plusieurs pièces fondues par J.-J. Keller, accusa ce dernier de malversations et le fit emprisonner (1695-1696). Il est probable que J.-J. Keller avait fait un trafic de métaux en remployant ceux qu’il devait rendre à l’officier.</p>
           <p>Aux Keller succédèrent les Bérenger.</p>
         </div>
-        <div>
+        <div xml:id="r1191281">
           <pb source="https://nakala.fr/10.34847/nkl.ff58n26s#efed20b881c2a9524b2c24654faa765f4848b560" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff58n26s/efed20b881c2a9524b2c24654faa765f4848b560/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les fonderies de Pignerol, Besançon et Brisach :
@@ -108,18 +106,18 @@
           <p>J.-J. Keller offre une vision pessimiste du milieu de l’artillerie. En fait, c’est la collaboration entre ces hommes, fondeurs et officiers, qui permit l’élaboration des nouvelles pièces dites « de la nouvelle invention », ainsi que l’approvisionnement régulier des armées du roi en pièces de canons.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1191316">
         <pb source="https://nakala.fr/10.34847/nkl.ff58n26s#a4147efb43b46dd336de725577ca98295f511245" n="125" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff58n26s/a4147efb43b46dd336de725577ca98295f511245/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>B. Keller fondeur de statues</head>
-        <div>
+        <div xml:id="r1191329">
           <head rend="uc">Chapitre premier
            <lb/>la « naissance » des bronzes de Versailles</head>
           <p>B. Keller avait réalisé, au cours de son séjour à Douai, divers ouvrages pour les grands maîtres ou le ministre Louvois, notamment des poêles à chauffer. C’est Louvois qui sut le mieux mettre à profit les capacités de B. Keller : en 1683, le 22 décembre, il passait marché avec le fondeur en vue de la fonte des statues pour le roi. Le fondeur ne cessa dès lors ses allées et venues entre Paris et Douai. Au fil des années cependant, ses séjours à Paris s’allongèrent aux dépens de sa présence à Douai.</p>
           <p>Techniquement, la fonte des canons et celle des statues ne sont pas très différentes : la seconde supposait l’existence préalable d’un modèle puis d’un moule. La première comportait davantage de manipulations avant le recuit. Mais le fondeur d’art ne créait pas seul sa pièce : il travaillait avec les sculpteurs et les mouleurs, ses initiatives étaient réduites.</p>
           <p>L’emploi du bronze dans le décor des jardins peut être rapproché du goût croissant manifesté depuis la Renaissance pour les bronzes. Les collections de petits bronzes s’étaient developpées depuis ce temps et c’est en Italie qu’on vit se répandre l’emploi de grandes statues de bronze pour décorer les fontaines ou les places (statues équestres). En France, ce goût pour les fontes en bronze s’était jusqu’alors manifesté essentiellement dans l’art funéraire ou au travers des commandes royales à des artistes étrangers, Primatice ou Cellini. Le Sueur est probablement le seul artiste de la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle dont les fontes pour la cour d’Angleterre s’apparentèrent aux fontes de B. Keller pour Louis XIV.</p>
         </div>
-        <div>
+        <div xml:id="r1191353">
           <head rend="uc">Chapitre II
            <lb/>La fonte des statues</head>
           <p>C’est à l’Arsenal de Paris que B. Keller entreprit la fonte des statues pour le roi. Il y disposait de trois fourneaux et d’un nombre important d’ateliers et de remises.</p>
@@ -131,7 +129,7 @@
           <p>Les sommes versées à B. Keller pour ces fontes, supérieures aux prévisions du marché, atteignirent le montant de 95 700 livres.</p>
           <p>On peut déterminer la chronologie de la livraison des bronzes pour les châteaux de Versailles (notamment les bronzes du Parterre d’Eau), Marly et Meudon (1685-1694).</p>
         </div>
-        <div>
+        <div xml:id="r1191394">
           <head rend="uc">Chapitre III
            <lb/>Les fondeurs du roi</head>
           <p>B. Keller ne fut pas l’unique fondeur à livrer des bronzes aux châteaux royaux entre 1685 et 1694. Louis XIV fit appel à d’autres fondeurs et conclut des marchés avec eux.</p>
@@ -143,7 +141,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.ff58n26s#87e9764881c87398034ab22a2018820d114b5cd8" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff58n26s/87e9764881c87398034ab22a2018820d114b5cd8/full/full/0/default.jpg"/>
           <p>B. Keller ne fut jamais maître fondeur et n’appartint jamais non plus à cette corporation : il avait, comme son frère, compté sur la protection offerte par Louvois. Son statut hors-norme, l’emplacement privilégié de son atelier lui évitaient les tracasseries dont étaient victimes les membres de la corporation.</p>
         </div>
-        <div>
+        <div xml:id="r1191429">
           <head rend="uc">Chapitre IV
            <lb/>Les statues équestres</head>
           <p>Les statues équestres érigées en l’honneur de Louis XIV dans les grandes villes de France furent l’expression d’une volonté politique et l’illustration d’une nouvelle conception de l’urbanisme. L’analyse des procédés de commande et de fonte conclut aussi à la même constatation d’une vaste propagande dont la mise en œuvre avait été uniformisée et standardisée.</p>
@@ -154,25 +152,25 @@
           <p>L’âge, les événements politiques, la disgrâce de son frère empêchèrent B. Keller d’achever toutes ses fontes. Il avait brillé par sa polyvalence technique et avait fait du bronze un auxiliaire de la puissance du monarque.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1191457">
         <pb source="https://nakala.fr/10.34847/nkl.ff58n26s#9903846c08fef1ab5252d80f02a7003628b1b654" n="128" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff58n26s/9903846c08fef1ab5252d80f02a7003628b1b654/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>La fortune des frères Keller</head>
-        <div>
+        <div xml:id="r1191470">
           <head rend="uc">Chapitre premier
            <lb/>les familles respectives de j.-j. Et b. Keller</head>
           <p>Les frères Keller reçurent des lettres de naturalité le 4 septembre 1675. C’était, pour Louis XIV, un moyen de s’attacher définitivement les deux fondeurs de canons dont il avait alors besoin.</p>
           <p>J.-J. Keller épousa dans les années 1660 Jeanne-Françoise Ternault dont il eut sept enfants. Quatre survécurent et s’installèrent en Alsace.</p>
           <p>B. Keller épousa en 1682 Suzanne de Boubers, issue d’une famille de nobles protestants picards. Quatre enfants naquirent de ce mariage : un seul vivait encore en 1718 quand il fut question du remboursement des dettes des Bâtiments du roi envers feu B. Keller. B. Keller eut aussi un enfant avant son mariage, qui fut élevé, conformément à la loi, dans la religion catholique.</p>
         </div>
-        <div>
+        <div xml:id="r1191488">
           <head rend="uc">Chapitre II
            <lb/>J.-j. Keller en Alsace</head>
           <p>J.-J. Keller vécut la plus grande partie de sa vie à Brisach, où se trouvait la fonderie, et à la Villeneuve de Brisach où il avait acheté des immeubles. Il consacra une partie de sa fortune à l’achat de terres dans les environs. En 1697, il était devenu un des plus gros propriétaires de la Villeneuve.</p>
           <p>C’est à l’occasion de l’évacuation de cette ville, conformément au traité de Ryswick, que l’on inventoria les biens de J.-J. Keller avant la démolition de sa maison principale. Il était malade ; c’est son frère qui dirigea, depuis Paris, la procédure, de même qu’il régla la succession de J.-J. Keller en 1700.</p>
           <p>J.-J. Keller possédait une maison à trois niveaux dont le mobilier était abondant, mais plus utilitaire que décoratif. Des objets divers (armes), des œuvres d’art (quelques tableaux, estampes ou bustes), un service d’argenterie encore important et une forte somme d’argent comptant laissent penser que J.– J. Keller avait été en possession de belles richesses, quelques années encore avant sa mort. Reste à savoir si sa fortune avait été le fruit d’un travail honnête, exempt de toute fraude.</p>
         </div>
-        <div>
+        <div xml:id="r1191506">
           <pb source="https://nakala.fr/10.34847/nkl.ff58n26s#5d211b4ab75bc367204f0c7a7c84bcf52829d5f3" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff58n26s/5d211b4ab75bc367204f0c7a7c84bcf52829d5f3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La fortune de b. Keller</head>
@@ -182,7 +180,7 @@
           <p>Les constitutions de rentes et nombreuses créances que gardait B. Keller donnent une idée de ses moyens financiers. Son appartement confirme cette impression de richesse : mobilier, vêtements, tapisseries, décoration concouraient à créer une atmosphère raffinée. B. Keller possédait aussi un service d’argenterie dont la valeur fut estimée à plus de cinq mille livres, des objets précieux (bijoux, figures en bronze et en terre, clavecins, armes), etc. Sa fortune mobilière s’élevait à plus de quarante mille livres. Il jouissait avec sa famille d’une situation matérielle propre aux catégories aisées de la société parisienne. Outre sa collection de tableaux (cinquante-deux tableaux, notamment de l’Ecole flamande), il avait aussi une quantité d’estampes et une bibliothèque comprenant quatre cent soixante-treize volumes (la majorité traitant d’art militaire et d’histoire ancienne). B. Keller était un homme soucieux de suivre les progrès de son temps, quoiqu’une atmosphère quelque peu passéiste se dégage de l’étude de cette bibliothèque.</p>
           <p>La comparaison de cette fortune avec celle de fondeurs parisiens non privilégiés ou celle de son successeur à l’Arsenal laisse entrevoir le caractère exceptionnel de son ascension.</p>
         </div>
-        <div>
+        <div xml:id="r1191535">
           <head rend="uc">Chapitre IV
            <lb/>De Zurich à Versailles</head>
           <p>Les frères Keller étaient protestants : ils purent le rester durant leurs années de service en France. Sans doute avaient-ils obtenu quelques garanties de Louvois ou du roi au moment de leur naturalisation.</p>
@@ -191,19 +189,19 @@
           <p>B. Keller, plus ordonné et plus posé, avait pris plus de distance avec le milieu des fondeurs et avait ainsi échappé au risque de se laisser entraîner dans les conflits de personnes. Sa réussite sauva le souvenir de son frère car pour la postérité ils restaient inséparables.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1191562">
         <head rend="uc">Conclusion</head>
         <p>Le mode de consommation du bronze s’était transformé. En 1700, la France produisait elle-même ses canons, mais cette fabrication était victime des pesanteurs du système qui régissait l’artillerie. Dans le domaine des fontes d’art, c’est la demande qui avait finalement cessé, sans que le processus de fabrication fût en cause. Cette utilisation de la matière, grâce aux Keller, par Louis XIV, assurait à la monarchie une image de puissance et de pérennité.</p>
       </div>
-      <div>
+      <div xml:id="r1191572">
         <head rend="uc">Pièces justificatives</head>
         <p>Marchés d’artillerie (J.-J. Keller, Balard). – Marchés pour la fonte de statues (B. Keller, Vinache, etc.). – Inventaire de la bibliothèque de B. Keller.</p>
       </div>
-      <div>
+      <div xml:id="r1191582">
         <head rend="uc">Pièces annexes</head>
         <p>Notices biographiques : officiers d’artillerie (du Metz, La Frézelière, Vigny) ; fondeurs (Aubry. Bonvalet, J. Desjardins, H. et N. Meusnier, P. Langlois, Schabol et Vinache). – Comparaison entre la fonte des statues et celle des canons. – Notices sur les bronzes de Versailles, Marly et Meudon fondus par B. Keller, Vinache, Aubry, etc. : trente-deux notices.</p>
       </div>
-      <div>
+      <div xml:id="r1191592">
         <pb source="https://nakala.fr/10.34847/nkl.ff58n26s#42b6e61b47616462936027ac314cc9793d9dace0" n="131" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff58n26s/42b6e61b47616462936027ac314cc9793d9dace0/full/full/0/default.jpg"/>
         <head rend="uc">Album de planches</head>
         <p>Les soixante-quinze planches de l’album s’ordonnent principalement autour des thèmes suivants : iconographie des frères Keller ; leurs fonderies ; les canons ; la statue équestre de Louis XIV ; les bronzes Keller...</p>

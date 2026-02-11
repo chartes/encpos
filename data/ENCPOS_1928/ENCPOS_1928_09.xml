@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -74,9 +72,9 @@
         <head rend="uc">Bibliographie locale</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r470642">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r470648">
           <head rend="uc">Chapitre premier
            <lb/>les origines de la ville</head>
           <p>1. <hi rend="i">Position géographique.</hi> – Excellente, à mi-chemin de Rouen et de Paris, sur les rives de la Seine ; mais rien ne prouve que plusieurs voies romaines s’y soient rencontrées.</p>
@@ -89,7 +87,7 @@
           <p>B. – <hi rend="i">La population.</hi> – Dispersés aux environs par les Invasions, tes habitants de Mantes-la-Ville et Rosny, premiers centres de la région, vinrent s’établir sous la protection du nouveau châtelain.</p>
           <p>C. –  Des divers <hi rend="i">quartiers</hi> qui, les premiers, naquirent, celui qui entoura l’église Saint-Maclou devint bientôt le centre de la vie municipale.</p>
         </div>
-        <div>
+        <div xml:id="r470740">
           <head rend="uc">Chapitre II
            <lb/>L’administration avant la période communale</head>
           <p>1. – <hi rend="i">Les comtes de Vexin.</hi> – Mantes n’avait jamais cessé de faire partie de leur comté, bien que nous n’en ayons de preuves qu’en 1006 : le château, construit à Mantes par Gautier I<hi rend="sup">er</hi> ou par Gautier II, étant alors édifié.</p>
@@ -98,7 +96,7 @@
           <p>2. – Créés par les comtes de Vexin, puis divisés entre les héritiers de Simon de Crépy, les péages perçus à Mantes sur le commerce de la Seine, accaparés par les comtes de Meulan et leurs alliés, passèrent à la fin du <num>xii<hi rend="sup">e</hi></num> siècle dans les mains du roi qui en partagea les profits avec les vicomtes de Mantes.</p>
           <p>3. – <hi rend="i">Les vicomtes de Mantes.</hi> – Vicomtes héréditaires, ils appartenaient aux familles de Guiry et de Mauvoisin, mais, après la destruction de la ville par Guillaume le Conquérant en 1087, ils furent évincés par le roi et ne conservèrent plus qu’un titre honorifique et certains droits utiles, parfois partagés entre plusieurs parents.</p>
         </div>
-        <div>
+        <div xml:id="r470788">
           <head rend="uc">Chapitre III
            <lb/>La commune</head>
           <p>1. – <hi rend="i">Evénements politiques</hi> qui l’ont amenée. – Ce sont les services rendus par les habitants au roi, spécialement lors du siège de Mantes par Louis le Gros contre Philippe le Bâtard qui avait reçu la ville en comté ; services rendus également pour l’entretien des fortifications et contre les Anglais.</p>
@@ -108,7 +106,7 @@
           <p>B. – <hi rend="i">Privilèges.</hi> – Divers privilèges étaient accordés aux communiers : liberté des personnes, exemption des tailles, sauvegardes pour le commerce, droit d’intervention, dans certains cas, sur l’exercice de la justice, par le prévôt royal, en échange de divers services militaires dont, ’en premier lieu, l’entretien des fortifications.</p>
           <p>C. – <hi rend="i">Filiales.</hi> – Les chartes filiales de celle de Mantes sont celles accordées à Chaumont (1182), à Pontoise (1188), à Meulan (1199), aux Andelys (1204) et à Poissy (1221-1222). Deux articles sur la prescription et la saisine, ajoutés à la charte de Mantes en 1162, s’y trouvent également reproduits. Les divergences tiennent uniquement à des conditions locales particulières.</p>
         </div>
-        <div>
+        <div xml:id="r470843">
           <head rend="uc">Chapitre IV
            <lb/>Développement des privilèges de la ville au <num>xiii<hi rend="sup">e</hi></num> siècle</head>
           <p>1. Ce développement fut en partie provoqué par les services rendus au roi par la commune contre les Anglais <pb source="https://nakala.fr/10.34847/nkl.a9f9o254#ef94f9f3723f2919df8bf0c5abdfe5343eda4440" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.a9f9o254/ef94f9f3723f2919df8bf0c5abdfe5343eda4440/full/full/0/default.jpg"/> et par les pertes que faisait subir aux habitants la présence fréquente des troupes dans la région.</p>
@@ -116,10 +114,10 @@
           <p>3. – <hi rend="i">Privilèges d’ordre juridique.</hi> – Philippe-Auguste en 1202, céda à la commune la prévôté de Mantes, à ferme perpétuelle. Elle la posséda jusqu’en 1541.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r470881">
         <head rend="uc">Deuxième partie
          <lb/>De la fin du <num>xiii<hi rend="sup">e</hi></num> siecle à 1551</head>
-        <div>
+        <div xml:id="r470895">
           <head rend="uc">Chapitre premier
            <lb/>l’administration communale</head>
           <p>1. – <hi rend="i">L’entrée en commune.</hi> – Il n’existe pas de conditions préalables concernant la naissance ; les privilégiés eux-mêmes peuvent y être admis ; il appartient au conseil des pairs d’en décider. Les seules conditions requises sont la résidence, le serment et le paiement d’un droit variable suivant les moyens des personnes.</p>
@@ -131,7 +129,7 @@
           <p>6. – <hi rend="i">Les commissions de pairs.</hi> – Il en existe quatre : pour l’église Notre-Dame, pour la juridiction, pour l’examen des comptes et pour la conservation des chartes.</p>
           <p>7. – <hi rend="i">Les officiers de la ville.</hi> – Les principaux sont : le clerc, le receveur, le procureur et les sergents ; mais il existe une foule d’autres emplois dont on dut restreindre de moitié les gages en 1452, tant ils coûtaient cher à la ville.</p>
         </div>
-        <div>
+        <div xml:id="r470967">
           <head rend="uc">Chapitre II
            <lb/>Juridiction du maire-prévôt
            <lb/>affaires militaires</head>
@@ -146,7 +144,7 @@
           <p>Tous les communiers doivent le service du guet, mais pas toujours en personne ; des quarteniers et des dizainiers, en nombre variable, les commandent ; arrière-guet et tiers guet effectuent des rondes, contrôlant ainsi le service du plein guet. Des guettes sont établies à la porte au Saint et dans une tour de Notre-<pb source="https://nakala.fr/10.34847/nkl.a9f9o254#619056609492e24b7d21d05c2db15f0325a57a0f" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.a9f9o254/619056609492e24b7d21d05c2db15f0325a57a0f/full/full/0/default.jpg"/>Dame ; la garde des portes est assurée par la ville, celle du pont au contraire, comme celle du fort, est assurée en cas de danger, par la garnison.</p>
           <p>L’entretien des fortifications est pour la ville une charge accablante, à laquelle elle subvient par des aides, spécialement par l’aide du « chouquet ».</p>
         </div>
-        <div>
+        <div xml:id="r471036">
           <head rend="uc">Chapitre III
            <lb/>Les finances municipales</head>
           <p>Dans les comptes des receveurs, <hi rend="i">ordinaire</hi> et <hi rend="i">extraordinaire</hi> sont soigneusement séparés.</p>
@@ -171,7 +169,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r471135">
         <head rend="uc">Conclusion
          <lb/>décadence de la commune</head>
         <p>A la fin de l’occupation anglaise, en 1449, se produisirent entre les habitants, les premières divisions intestines, suscitées par la reddition des comptes des receveurs du temps des Anglais.</p>

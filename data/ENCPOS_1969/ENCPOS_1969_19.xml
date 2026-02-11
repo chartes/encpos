@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,13 +57,13 @@
         <forename>Jacques</forename>
         <surname>Staes</surname>
       </byline>
-      <div>
+      <div xml:id="r912758">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r912764">
           <head rend="uc">Les cadres de la vie religieuse</head>
           <p>L’archidiaconé de Josas, qui constituait la partie méridionale du diocèse de Paris et dont les limites étaient fixées depuis fort longtemps, s’étendait sur une superficie de 1 135 km<hi rend="sup">2</hi> ; il comptait, en 1789, cent soixante-dix paroisses, six annexes en titre et deux chapelles tenant lieu de desserte.</p>
         </div>
-        <div>
+        <div xml:id="r912778">
           <head rend="uc">Chapitre premier
            <lb/>la terre et les hommes</head>
           <p>L’archidiaconé de Josas avait du point de vue physique une unité certaine, malgré son étendue. L’activité économique y était en grande partie tournée vers l’agriculture, particulièrement pour l’approvisionnement de Paris et de Versailles (céréales sur les plateaux, vignes en abondance sur le rebord des vallées, prairies et cultures maraîchères dans les vallées) ; les manufactures, peu nombreuses, ne concernaient guère que les industries de luxe.</p>
@@ -74,7 +72,7 @@
           <p>Cette région était fort peuplée pour l’époque ; d’après le pouillé édité par Denis en 1767, elle comprenait, exclusion faite de Versailles et de Saint-Germain-en-Laye, près de 80 000 habitants (soit une densité d’environ 70 hts/km<hi rend="sup">2</hi>) ; en 1789 on peut estimer sa population à plus de 100 000 habitants (soit environ 95 hts/km<hi rend="sup">2</hi>).</p>
           <p>Malgré cette unité, on pouvait distinguer quelques particularités locales dans certaines zones autour des bourgs les plus importants, animés par le commerce, où se trouvait une abondante petite bourgeoisie d’artisans et de commerçants ; la région proche de Paris et de Versailles était caractérisée par une population particulièrement dense. De nombreux nobles ou bourgeois de Paris possédaient des maisons de campagne dans la région et formaient avec les seigneurs une sorte d’aristocratie locale.</p>
         </div>
-        <div>
+        <div xml:id="r912812">
           <head rend="uc">Chapitre II
            <lb/>La paroisse</head>
           <p>Cellules et unités de base aussi bien religieuses que civiles, les paroisses de l’archidiaconé de Josas étaient fort différentes par leur importance. Elles se confondaient le plus souvent avec le bourg ou agglomération d’habitants, certains bourgs étant cependant le siège de deux, voire trois paroisses, certains autres n’étant qu’annexes ou dessertes d’une autre paroisse. La tendance était d’ailleurs à l’unification.</p>
@@ -82,7 +80,7 @@
           <p>Pour répondre à la croissance démographique, ainsi qu’aux désirs des habitants, et aussi pour assurer aux fidèles un service plus régulier, deux paroisses furent érigées pendant cette période (Courbevoie et Port-Marly) et une autre (Ablon) était sur le point de l’être en 1789. Ces érections nécessitaient de nombreuses formalités et la dotation des cures nouvelles suscitait des difficultés ; elles étaient en général mal vues par les « paroisses mères », ce qui causait souvent des difficultés assez graves et même des procès, et témoignait ainsi de la trop grande importance attribuée aux problèmes matériels.</p>
           <p>Ces paroisses avaient quelquefois des limites assez imprécises, ce qui pouvait également provoquer des contestations.</p>
         </div>
-        <div>
+        <div xml:id="r912833">
           <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#59cd3a00b90b1fca38d423051e569438fcd7b397" n="161" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/59cd3a00b90b1fca38d423051e569438fcd7b397/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les lieux de culte dépendant de la paroisse</head>
@@ -97,7 +95,7 @@
           <p>Chaque paroisse possédait son cimetière, situé près de l’église et qui, sous peine d’interdit, devait être maintenu en bon état par les soins de la fabrique. L’exiguïté ou le mauvais emplacement du cimetière pouvait nécessiter l’éta<pb source="https://nakala.fr/10.34847/nkl.9b2687ta#4545c7b4e5be35ea7d033a38a8c7516bceacb365" n="162" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/4545c7b4e5be35ea7d033a38a8c7516bceacb365/full/full/0/default.jpg"/>blissement d’un nouveau lieu de sépulture, ce qui exigeait des formalités ainsi que certaines cérémonies religieuses (bénédiction du nouveau cimetière, désaffectation de l’ancien).</p>
           <p>D’assez nombreuses chapelles existaient sur le territoire de l’archidiaconé de Josas, ainsi que de nombreuses croix et calvaires, érigés en général sur l’initiative des curés, dont la bénédiction et la mise en place s’accompagnaient de cérémonies solennelles.</p>
         </div>
-        <div>
+        <div xml:id="r912888">
           <head rend="uc">Chapitre IV
            <lb/>La fabrique</head>
           <p>Les fabriques étaient gérées par des marguilliers élus qui devaient rendre compte de leur gestion à leur sortie de charge, formalité qui était accomplie souvent avec retard, ce qui obligeait les autorités ecclésiastiques, l’archidiacre en particulier, à intervenir.</p>
@@ -105,10 +103,10 @@
           <p>Le rôle joué par le curé dans les assemblées de fabrique était important, mais variait selon les cas.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r912907">
         <head rend="uc">Deuxième partie
          <lb/>L’organisation ecclésiastique et le clergé paroissial</head>
-        <div>
+        <div xml:id="r912915">
           <head rend="uc">Chapitre premier
            <lb/>l’administration du diocèse et de l’archidiaconé</head>
           <p>Deux moyens d’action privilégiés sur le clergé de son diocèse, qu’il ne nommait qu’en partie, s’offraient à l’archevêque : les synodes et les visites pastorales. Or, aucun synode ne fut tenu pendant la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle ; quant aux visites pastorales, Mgr de Beaumont (1746-1781), <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#cb36c279cc56a3ea436eb1d899050e1d2cdbc656" n="163" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/cb36c279cc56a3ea436eb1d899050e1d2cdbc656/full/full/0/default.jpg"/>trop absorbé en particulier par ses luttes contre le jansénisme, et qui eut un rôle dogmatique, polémique et même politique trop important pour avoir un rôle pastoral suffisant, n’en effectua aucune. Mgr de Juigné (1781-1790), qui put consacrer plus de temps à son diocèse, visita presque la moitié des paroisses de l’archidiaconé.</p>
@@ -116,7 +114,7 @@
           <p>Si les doyens et promoteurs ruraux semblaient avoir gardé et même renforcé leur rôle et leur action dans leurs cantons respectifs, il en était autrement des assemblées prévues sur le plan local : les calendes paraissent avoir été inexistantes et les conférences de cantons ne plus avoir été qu’un nom.</p>
           <p>L’officialité diocésaine, quant à elle, gardait son rôle de surveillance et de juridiction. On constate donc un certain affaiblissement et un rôle insuffisant des organes administratifs du diocèse.</p>
         </div>
-        <div>
+        <div xml:id="r912947">
           <head rend="uc">Chapitre II
            <lb/>Le recrutement du clergé</head>
           <p>En 1789, 298 ecclésiastiques exerçaient une fonction paroissiale dans l’archidiaconé de Josas : 170 curés, 117 vicaires et chapelains, 8 vicaires desservants, 1 prêtre habitué, 2 chapelains d’hôpitaux, soit environ 1 prêtre pour 335 habitants.</p>
@@ -125,13 +123,13 @@
           <p>Parmi les diocèses d’origine du clergé étranger, les diocèses normands, en particulier ceux de Coutances et de Bayeux, occupaient la première place pour le nombre des prêtres fournis (plus d’un tiers) ; venaient ensuite les diocèses de l’est, du centre et du sud-est.</p>
           <p>Plus de 40 % des membres de ce clergé en fonction en 1789 était recruté <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#e0246199570f9b206bd39b5228caff9c08ea98e4" n="164" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/e0246199570f9b206bd39b5228caff9c08ea98e4/full/full/0/default.jpg"/>dans des milieux de petite bourgeoisie (commerçants ou artisans) et, à un degré moindre, dans des familles de gens de robe ou de laboureurs. Le caractère familial du recrutement de ce clergé était également très marqué.</p>
         </div>
-        <div>
+        <div xml:id="r912976">
           <head rend="uc">Chapitre III
            <lb/>La formation du clergé</head>
           <p>Obligation était faite au clergé de séjourner au moins un certain temps dans un séminaire pour se préparer à la réception des ordres (9 mois avant le sous-diaconat, 3 mois avant le diaconat, 3 mois avant la prêtrise). Douze séminaires existaient à Paris, dont l’accès était facilité pour les jeunes gens de famille modeste par l’attribution de bourses ou demi-bourses ; la discipline de ces établissements semble avoir connu un certain relâchement. L’âge d’entrée, le niveau des études, ainsi que le moment de la sortie, étaient fort variables ; la durée du séjour se limitait parfois à celle prescrite par les règlements.</p>
           <p>La promotion aux ordres se faisait selon les règles ; la tonsure, qui ne devait pas être conférée avant l’âge de quatorze ans, l’était en général entre dix-sept et vingt ans ; l’accession aux ordres suivants était régulière et annuelle. L’on était en général ordonné prêtre entre vingt-quatre et vingt-six ans.</p>
         </div>
-        <div>
+        <div xml:id="r912991">
           <head rend="uc">Chapitre IV
            <lb/>La valeur intellectuelle du clergé</head>
           <p>Malgré le petit nombre d’écrivains qu’on peut relever parmi ses membres, la valeur intellectuelle du clergé de l’archidiaconé de Josas était assez bonne. Sur les 298 prêtres en fonction en 1789, 65 (soit plus d’un cinquième) possédaient un titre universitaire (sur ce nombre on comptait 10 docteurs), dont 58 curés sur 170 (soit plus d’un tiers). Les cures les plus importantes, et surtout les mieux dotées, étaient l’apanage des prêtres pourvus de titres élevés (licenciés ou docteurs).</p>
@@ -140,7 +138,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#6b971736f6a2ed5e77ed724fc64e0ffe38fef6d4" n="165" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/6b971736f6a2ed5e77ed724fc64e0ffe38fef6d4/full/full/0/default.jpg"/>
           <p>A part Dolivier, curé de Mauchamps en 1789, qui avait des idées assez avancées et les publia dans différents ouvrages, ce clergé ne semble pas avoir été beaucoup touché par des idées nouvelles.</p>
         </div>
-        <div>
+        <div xml:id="r913023">
           <head rend="uc">Chapitre V
            <lb/>La valeur morale et la piété du clergé</head>
           <p>On relève un nombre assez faible de fautes graves commises par des ecclésiastiques (quinze cas). Le plus souvent elles portaient sur la correction des mœurs, s’accompagnaient souvent de manquements relatifs à l’accomplissement du ministère paroissial.</p>
@@ -148,7 +146,7 @@
           <p>Les autorités ecclésiastiques faisaient souvent preuve d’une trop grande mansuétude à l’égard des prêtres suspects quant à leur valeur morale ou même reconnus coupables ; si quelques curés étaient durement sanctionnés et devaient se démettre de leur cure, d’autres n’étaient pas inquiétés, ou étaient seulement déplacés. Cette mansuétude contraste vivement avec la rigueur dont faisait preuve Mgr de Beaumont envers les fautes concernant le dogme, l’interdit étant facilement prononcé dans ce cas.</p>
           <p>Malgré le noir tableau dressé par les <hi rend="i">Nouvelles ecclésiastiques</hi> de l’état du clergé du diocèse de Paris à la fin de l’Ancien Régime, le peu de fautes relevées, ainsi que les appréciations portées pendant le séjour dans les séminaires, semblent prouver que la valeur morale et la piété du clergé de l’archidiaconé de Josas étaient bonnes, certains prêtres se distinguant même par leur vie et leur piété remarquables.</p>
         </div>
-        <div>
+        <div xml:id="r913048">
           <head rend="uc">Chapitre VI
            <lb/>L’accession aux cures</head>
           <p>Divers moyens permettaient l’accession à une cure : la collation <hi rend="i">proprio motu</hi> par l’archevêque, la présentation par un collateur étranger, le privilège des gradués, les résignations et les permutations.</p>
@@ -160,14 +158,14 @@
           <p>Les résignations contribuaient mal à la valeur du clergé : l’archevêque en particulier se voyait imposer des candidats qu’il devait agréer, malgré le droit de contrôle que lui réservait en théorie le <hi rend="i">visa.</hi></p>
           <p>Les permutations étaient beaucoup moins fréquentes ; en 1789, 8 curés seulement sur 170 (moins d’un vingtième) avaient obtenu leur cure par ce moyen. Cette pratique était moins contraire à la valeur des curés que celle de la résignation.</p>
         </div>
-        <div>
+        <div xml:id="r913097">
           <head rend="uc">Chapitre VII
            <lb/>Les conditions de vie des curés</head>
           <p>Les revenus des cures étaient fort variables et, à côté de certaines très bien dotées, d’autres avaient un revenu insuffisant, en particulier les cures à portion congrue, quoique celles-ci eussent été portées à 500 livres en 1768 et à 700 livres en 1786. Ces revenus se composaient soit de la portion congrue, soit, lorsque le curé était décimateur, de la dîme, dont la perception suscitait des difficultés avec les paroissiens et dont de nombreux cahiers de doléances demandèrent la suppression ; s’y ajoutaient le cas échéant des revenus des terres de la cure et <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#5f3440b4d055c96213c5a9bd909dfbf10b8263f6" n="167" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/5f3440b4d055c96213c5a9bd909dfbf10b8263f6/full/full/0/default.jpg"/>des rentes, et le casuel mal vu des fidèles. En plus des revenus de leur cure, certains curés jouissaient des revenus d’un ou plusieurs autres bénéfices ou de pensions.</p>
           <p>Dans l’ensemble, les curés étaient mécontents de leur sort et se plaignaient souvent, témoignant à ce sujet de leur opposition à la division en haut et bas clergé. Cependant l’aisance relative de beaucoup d’entre eux se manifeste dans leur mode de vie souvent bourgeois ; les presbytères où ils résidaient, et qu’ils devaient en principe entretenir à leurs frais, étaient des bâtiments assez importants, et leur mobilier était parfois confortable.</p>
           <p>Dans des cas relativement fréquents, les curés vivaient avec un membre de leur famille ; ils avaient aussi souvent à leur service un domestique ou une servante.</p>
         </div>
-        <div>
+        <div xml:id="r913120">
           <head rend="uc">Chapitre VIII
            <lb/>Permanence et changements des curés</head>
           <p>Le principe de l’inamovibilité le leur permettant, les curés restaient en général assez longtemps dans une paroisse et n’occupaient qu’une seule cure pendant leur carrière.</p>
@@ -175,20 +173,20 @@
           <p>L’inamovibilité pouvait dans certains cas se révéler néfaste, car elle constituait un obstacle au pouvoir de l’archevêque, qui ne pouvait, sauf pour des raisons graves, faire partir un curé ou le déplacer. Quant au long séjour d’un curé dans une paroisse, s’il comportait des avantages, il était générateur de routine et risquait d’augmenter les rancunes qui nuisaient au ministère.</p>
           <p>L’âge moyen des curés était élevé ; selon une statistique établie sur 154 des 170 curés en fonction en 1789, il était de 53 ans, 15 curés (soit un dixième) ayant 70 ans et plus et 40 (soit plus du quart) 60 ans et plus. Certains curés, dans l’impossibilité où ils se seraient trouvés de vivre s’ils avaient quitté leur cure, et vu aussi la grande insuffisance de maisons pour prêtres âgés, demeuraient en poste jusqu’à un âge très avancé.</p>
         </div>
-        <div>
+        <div xml:id="r913141">
           <head rend="uc">Chapitre IX
            <lb/>Le curé et la paroisse</head>
           <p>Les curés résidaient toujours dans leur paroisse. Les rapports entre le curé et ses paroissiens étaient en général bons ; mais, notamment pour des raisons d’ordre matériel, des difficultés pouvaient surgir.</p>
           <p>Il en était de même des rapports entre le curé et le seigneur de sa paroisse.</p>
         </div>
-        <div>
+        <div xml:id="r913156">
           <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#e64317af857a63ba281b127b829c92d30b597cf5" n="168" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/e64317af857a63ba281b127b829c92d30b597cf5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre X
            <lb/>Les rapports des curés entre eux</head>
           <p>Les curés avaient entre eux des relations fort cordiales et se rendaient fréquemment visite ; parfois la défense d’intérêts communs pouvait les conduire à s’entendre d’une manière plus précise.</p>
           <p>Des raisons d’ordre matériel (problèmes de limites de paroisses, de dîmes, etc.) pouvaient être à l’origine de difficultés entre des curés voisins, jusqu’à les conduire en justice.</p>
         </div>
-        <div>
+        <div xml:id="r913176">
           <head rend="uc">Chapitre XI
            <lb/>Les vicaires</head>
           <p>De nombreuses paroisses disposaient d’un ou de plusieurs vicaires ; en 1789, sur 170 paroisses, 80 avaient un vicaire, 17 en avaient deux et une en avait trois. La présence d’un vicaire dépendait de l’importance de la paroisse, mais aussi de la possibilité d’en assurer le traitement.</p>
@@ -197,7 +195,7 @@
           <p>Ils restaient peu de temps dans un même poste ; la faiblesse des revenus des vicariats constituait la raison essentielle de ces changements fréquents.</p>
           <p>Auxiliaire du curé dans la paroisse, le vicaire lui prêtait assistance pour la célébration du culte et l’administration des sacrements. Les postes de vicaires <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#1268df3e5da0d6bb7629ffad2f9c766c79b61411" n="169" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/1268df3e5da0d6bb7629ffad2f9c766c79b61411/full/full/0/default.jpg"/>chapelains dans les paroisses différaient peu des postes de vicaires ordinaires. Quant aux chapelains seigneuriaux, leur rôle dans les paroisses n’était qu’exceptionnel.</p>
         </div>
-        <div>
+        <div xml:id="r913205">
           <head rend="uc">Chapitre XII
            <lb/>Le rôle des réguliers dans la vie paroissiale</head>
           <p>Les établissements réguliers de l’archidiaconé de Josas n’échappaient pas à la décadence générale.</p>
@@ -205,7 +203,7 @@
           <p>L’action des religieux eux-mêmes dans la vie paroissiale, qui n’était plus ce qu’elle avait pu être, conservait une certaine importance : ils assuraient la desserte dans les paroisses voisines de leurs établissements en cas d’absence du curé ou de vacance de la cure, y célébraient des messes et assuraient les fonctions de prédicateurs d’Avent ou de Carême. Un certain nombre d’anciens jésuites occupait des postes de confesseurs dans des maisons religieuses.</p>
           <p>L’opinion des fidèles était très défavorable aux établissements réguliers, dont un certain nombre de cahiers de doléances demandait la suppression, et aux religieux eux-mêmes.</p>
         </div>
-        <div>
+        <div xml:id="r913226">
           <head rend="uc">Chapitre XIII
            <lb/>Le rôle des chapitres dans la vie paroissiale</head>
           <p>L’archidiaconé de Josas comptait trois chapitres collégiaux, à Corbeil, Linas et Saint-Cloud, qui nommaient le curé de leur paroisse, le prenant toujours, du moins en ce qui concerne les deux premiers, parmi les chanoines. La suppression du chapitre de Saint-Cloud, qui nommait à deux cures en plus de celle de Saint-Cloud, fut décidée par l’archevêque en 1788.</p>
@@ -213,12 +211,12 @@
           <p>Les fidèles avaient une fort mauvaise opinion des chapitres collégiaux et, les trouvant inutiles, souhaitaient leur suppression.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r913245">
         <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#d9d9a75b06732353ee9e9049d46cc9dc92565357" n="170" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/d9d9a75b06732353ee9e9049d46cc9dc92565357/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>La pratique et la piété dans le cadre paroissial,
          <lb/>observance et ferveur</head>
-        <div>
+        <div xml:id="r913260">
           <head rend="uc">Chapitre premier
            <lb/>la sanctification des dimanches et fêtes</head>
           <p>Après la réduction du nombre des fêtes, opérée en 1778 par Mgr de Beaumont, contre son gré d’ailleurs, il restait dans le diocèse de Paris vingt-cinq fêtes d’obligation, soit, avec les cinquante-deux dimanches, soixante-dix-sept jours à sanctifier.</p>
@@ -230,14 +228,14 @@
           <p>En ce qui concerne les loisirs, malgré les efforts répétés de la plupart des curés, les fidèles, surtout les jeunes, se livraient souvent à des distractions prohibées, à la danse en particulier.</p>
           <p>Bien que disposant d’assez peu de renseignements à ce sujet, nous pensons que cette observance assez générale par les fidèles de la sanctification des dimanches et fêtes, et, en particulier, l’assistance aux offices, relevait chez bon nombre d’entre eux plus de l’habitude et des conventions sociales que d’un désir déterminé d’enrichir leur foi et d’accomplir les règles de la vie chrétienne.</p>
         </div>
-        <div>
+        <div xml:id="r913293">
           <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#8cbf2d16e271a6d4db106e1fbda2f17d6f451360" n="171" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/8cbf2d16e271a6d4db106e1fbda2f17d6f451360/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Missions et prédications</head>
           <p>Quelques missions furent tenues dans l’archidiaconé de Josas, le plus souvent par des jésuites ou des ex-jésuites de la communauté du Mont-Valérien, ce qui causait parfois quelques difficultés. Leur nombre fut cependant nettement insuffisant, comme Mgr de Juigné le reconnaissait lui-même en 1788.</p>
           <p>Dans la plupart des paroisses, les prédications de l’Avent et du Carême étaient assurées par un prêtre, le plus souvent un religieux qui venait à cet effet et qui recevait pour ses fonctions une rémunération de la fabrique.</p>
         </div>
-        <div>
+        <div xml:id="r913313">
           <head rend="uc">Chapitre III
            <lb/>Le baptême</head>
           <p>A cause de l’importante mortalité infantile, de nombreux enfants étaient ondoyés à la maison dès leur naissance, le plus souvent par la sage-femme, ce qui explique la surveillance assez stricte exercée par l’Église sur les personnes exerçant cette profession.</p>
@@ -245,28 +243,28 @@
           <p>Au sujet des parrains et marraines qui souvent choisissaient les prénoms de l’enfant, les règles du diocèse étaient également respectées.</p>
           <p>La cérémonie du baptême se faisait selon les normes prévues par le rituel du diocèse et était accompagnée de coutumes, telle que la sonnerie des cloches, qui pouvaient causer quelques abus.</p>
         </div>
-        <div>
+        <div xml:id="r913334">
           <head rend="uc">Chapitre IV
            <lb/>La confirmation</head>
           <p>Le sacrement de confirmation fut le plus souvent administré aux fidèles par des évêques étrangers au diocèse, dans une paroisse donnée, où les curés d’alentour amenaient les fidèles. Au cours de ses visites pastorales, Mgr de Juigné administra la confirmation dans les paroisses qu’il visita.</p>
           <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#e8ce057cbc6b4e706891697c48e8f6238261c5f8" n="172" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/e8ce057cbc6b4e706891697c48e8f6238261c5f8/full/full/0/default.jpg"/>
           <p>Ces cérémonies de confirmations, du moins dans les paroisses de campagne, étaient assez rares ; on y confirmait donc aussi des adultes. Certains curés de paroisses importantes ou situées près de la capitale conduisaient assez régulièrement les enfants à Paris, parfois presque chaque année, pour recevoir ce sacrement.</p>
         </div>
-        <div>
+        <div xml:id="r913354">
           <head rend="uc">Chapitre V
            <lb/>La Pénitence et l’Eucharistie</head>
           <p>Les opinions sur l’âge auquel un enfant devait faire sa première communion étaient très diverses. Le rituel du diocèse prescrivait de la faire faire entre douze et quatorze ans, en tenant compte cependant de l’aptitude du sujet. Certains curés suivaient les prescriptions du rituel, tout en retardant cependant quelque peu l’âge limite supérieur ; d’autres admettaient à la première communion, à côté d’ailleurs d’enfants de douze à quatorze ans, des adolescents de seize à dix-sept ans, parfois même de dix-huit ans, et, dans quelques cas, de vingt ans. Cette attitude s’explique par une influence des doctrines jansénistes, mais aussi par le désir de n’admettre à la première communion que des enfants suffisamment instruits, capables et dignes de recevoir ce sacrement.</p>
           <p>Les enfants étaient donc bien préparés, en particulier par la fréquentation des catéchismes, à la réception de la première communion, dont la cérémonie, sauf dans les paroisses importantes, n’avait pas lieu tous les ans, mais tous les deux ou trois ans, à une date qui variait selon les paroisses, mais également dans une même paroisse selon les années.</p>
           <p>Les fidèles ne paraissent pas avoir toujours respecté la prescription de l’accomplissement du devoir pascal ; ainsi, d’après les listes établies par le curé de Mennecy pour les années 1763, 1764, 1766, environ un tiers des habitants de la paroisse, surtout des hommes, n’avaient pas communié pour Pâques. Cette inobservance s’explique en partie par l’obligation faite aux fidèles de se confesser au curé de leur paroisse ; elle témoigne aussi d’une certaine décadence de la piété et de la foi. La fréquentation des sacrements pendant le reste de l’année semble avoir été assez faible.</p>
         </div>
-        <div>
+        <div xml:id="r913372">
           <head rend="uc">Chapitre VI
            <lb/>Le mariage</head>
           <p>Les règles concernant les préliminaires du mariage, en particulier la publication des bans, dont une dispense pouvait être obtenue de l’archevêque, étaient bien respectées. Assez souvent, surtout dans les campagnes où beaucoup de familles étaient apparentées, les futurs époux ayant entre eux des liens trop rapprochés devaient demander une dispense à l’archevêque.</p>
           <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#d0b200b9ddc3fc9f66c681cbcd34ed97cf80257c" n="173" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/d0b200b9ddc3fc9f66c681cbcd34ed97cf80257c/full/full/0/default.jpg"/>
           <p>Après les fiançailles célébrées en général la veille, la cérémonie du mariage, qui comprenait toujours une messe, était célébrée dans la paroisse où résidaient les jeunes gens, spécialement dans celle de la jeune fille. L’interdiction de célébrer un mariage pendant certaines périodes (Avent et Carême), sauf permission de l’archevêque, était généralement respectée.</p>
         </div>
-        <div>
+        <div xml:id="r913392">
           <head rend="uc">Chapitre VII
            <lb/>Les derniers sacrements, les funérailles,
            <lb/>les prières pour les défunts</head>
@@ -274,7 +272,7 @@
           <p>La cérémonie des funérailles, qui coûtait assez cher aux familles, se faisait selon les rites prévus par le rituel du diocèse. L’inhumation avait en principe lieu dans le cimetière de la paroisse ; cependant d’assez nombreuses personnes se faisaient inhumer dans l’église.</p>
           <p>Certains fidèles s’assuraient des prières après leur mort par la fondation d’obits, que les curés étaient tenus de respecter scrupuleusement. Par ailleurs de nombreuses paroisses faisaient célébrer des messes pour l’ensemble des défunts.</p>
         </div>
-        <div>
+        <div xml:id="r913412">
           <head rend="uc">Chapitre VIII
            <lb/>Les confréries</head>
           <p>Les confréries étaient assez nombreuses surtout celles de la Vierge et du Saint-Sacrement, érigées au <num>xvii<hi rend="sup">e</hi></num> siècle ; dans certaines paroisses, il en existait même plusieurs dont beaucoup, il est vrai, étaient en décadence.</p>
@@ -282,13 +280,13 @@
           <p>Les confréries avaient à leur tête un marguillier élu qui encaissait les revenus (rentes, droits de confrérie, produits des quêtes) et assurait les dépenses, notamment le paiement de messes ou de services pour les confrères défunts.</p>
           <p>Si le nombre des nouveaux confrères entrant chaque année permet de conclure à une certaine vitalité, les confréries connaissaient cependant une décadence <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#79576eff8b6f59dd6a8bc19a7759336e9b74af77" n="174" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/79576eff8b6f59dd6a8bc19a7759336e9b74af77/full/full/0/default.jpg"/>assez importante : leur rôle n’était plus guère que matériel ou ne s’exerçait qu’à l’égard des confrères défunts, l’action spirituelle étant pratiquement inexistante.</p>
         </div>
-        <div>
+        <div xml:id="r913444">
           <head rend="uc">Chapitre IX
            <lb/>Les pratiques de dévotion</head>
           <p>Toutes les paroisses, en général, organisaient chaque année des processions, en particulier celles de Saint-Marc et des Rogations. Les pèlerinages étaient fort appréciés des fidèles, mais le clergé les voyait en général d’un assez mauvais œil, les considérant, souvent à juste titre d’ailleurs, comme une source de dissipation, d’abus, voire de débauche, et tentait parfois de les supprimer. La célébration des jubilés se faisait généralement avec plus de ferveur.</p>
           <p>Mgr de Beaumont institua dans son diocèse la dévotion au Sacré-Cœur, que critiquèrent d’ailleurs les <hi rend="i">Nouvelles ecclésiastiques.</hi></p>
         </div>
-        <div>
+        <div xml:id="r913462">
           <head rend="uc">Chapitre X
            <lb/>Fautes graves et scandales ;
            <lb/>moralité et piété d’ensemble des fidèles</head>
@@ -296,17 +294,17 @@
           <p>Malgré les affirmations des <hi rend="i">Nouvelles ecclésiastiques,</hi> et parfois aussi les plaintes de l’archevêque, déplorant l’impiété et l’immoralité qui se développaient dans son diocèse, la moralité des fidèles de l’archidiaconé de Josas paraît avoir été satisfaisante ; par ailleurs, si la dévotion de beaucoup était certainement assez superficielle, les marques d’impiété étaient assez rares.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r913484">
         <pb source="https://nakala.fr/10.34847/nkl.9b2687ta#9d1d1c0de6c62deefb203b43e366e0aac1c50e54" n="175" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b2687ta/9d1d1c0de6c62deefb203b43e366e0aac1c50e54/full/full/0/default.jpg"/>
         <head rend="uc">Quatrième partie
          <lb/>Les hétérodoxies</head>
-        <div>
+        <div xml:id="r913497">
           <head rend="uc">Chapitre premier
            <lb/>le problème des protestants</head>
           <p>Le nombre des protestants, qui résidaient essentiellement dans la région de Versailles et à l’ouest de Paris, était très limité, et encore ne s’agissait-il que de protestants immigrés : soldats suisses à Rueil et Courbevoie, ouvriers étrangers ou venant d’autres régions de la France.</p>
           <p>Aucun problème grave ne se posait donc à leur sujet et un certain nombre d’abjurations peut d’ailleurs être relevé.</p>
         </div>
-        <div>
+        <div xml:id="r913512">
           <head rend="uc">Chapitre II
            <lb/>Le jansénisme</head>
           <p>Le jansénisme, qui avait été assez vivace dans la région, y conservait encore certains foyers. Quelques curés jansénistes, nommés par Mgr de Noailles, restaient encore en fonction : ils étaient dans l’ensemble des prêtres d’une grande valeur, qui formaient un groupe bien uni.</p>
@@ -315,12 +313,12 @@
           <p>Cette guerre contre le jansénisme eut des conséquences très néfastes pour la religion ; elle employa une grande part de l’activité de Mgr de Beaumont qui la considérait comme une œuvre essentielle et la réalisa aux dépens d’autres objets ; elle motiva bon nombre de ses attitudes ou prises de position.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r913536">
         <head rend="uc">Conclusion</head>
         <p>On constate à la fin de l’ancien régime une certaine diminution de la religion, en particulier en ce qui concerne l’inobservance dans l’accomplissement du devoir pascal et la faiblesse de fréquentation des sacrements en général, mais on ne peut cependant pas parler dans l’ensemble de déchristianisation, surtout d’une déchristianisation externe qu’auraient pu causer les attaques portées contre l’Église.</p>
         <p>Cependant le caractère assez superficiel de la foi et de la piété de nombreux fidèles, le formalisme de la pratique religieuse, les procès entre curé et paroissiens dus à la trop grande importance accordée aux problèmes matériels peuvent être considérés comme des facteurs de décadence qui, à la faveur du bouleversement qu’amènera la Révolution, pourront conduire à une déchristianisation. D’autre part, la Révolution, en dépouillant l’Église de ses biens, lui ôtera par là-même ses soucis et préoccupations matériels et, dans cette mesure, la régénérera.</p>
       </div>
-      <div>
+      <div xml:id="r913549">
         <head rend="uc">Appendices</head>
         <p>État des paroisses de l’archidiaconé de Josas. – État du clergé de l’archidiaconé de Josas au 1<hi rend="sup">er</hi> mai 1789 par ordre alphabétique de paroisses. – Pyramide d’âge des curés en 1789.</p>
       </div>

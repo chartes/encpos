@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1886_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1886_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,11 +58,11 @@
         <surname>Cadier</surname>
         <roleName rend="uc">Licencié ès lettres, Élève e l’École pratique des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r145186">
         <head rend="uc">Bibliographie – Sources</head>
         <p>Observations sur la critique des Fors de Béarn. Essai de classification des documents relatifs aux États.</p>
       </div>
-      <div>
+      <div xml:id="r145196">
         <head rend="uc">Introduction
          <lb/>origine des états de Béarn.</head>
         <p>Des États provinciaux en général.</p>
@@ -73,16 +71,16 @@
         <pb source="https://nakala.fr/10.34847/nkl.c94a4s38#75e2034344611d17e364156e08e8fec7da758f49" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.c94a4s38/75e2034344611d17e364156e08e8fec7da758f49/full/full/0/default.jpg"/>
         <p>Les États de Béarn n’ont pas été constitués avant le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle. – Comparaison avec les États des provinces du midi de la France et des royaumes pyrénéens d’Espagne.</p>
       </div>
-      <div>
+      <div xml:id="r145228">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r145234">
           <head rend="uc">I. La cour de Béarn.</head>
           <p>I. <hi rend="i">La cour du vicomte de Béarn au</hi> <num>xii<hi rend="sup">e</hi></num><hi rend="i">siècle.</hi> – Son caractère féodal et judiciaire : causes réservées à la cour du seigneur. Droits de la cour en face de l’autorité seigneuriale.</p>
           <p>II. <hi rend="i">Situation politique du Béarn dans la seconde moitié du </hi><num>xiii<hi rend="sup">e</hi></num><hi rend="i">siècle.</hi> – Assemblée de Canfranc (1154). Hommage rendu au roi d’Aragon par la vicomtesse Marie (1170). Avènement de la maison de Moncade. Premières cours plénières.</p>
           <p>III. <hi rend="i">La Cour majour.</hi> – Son institution (1220). Souveraineté de ses décisions. Pouvoir législatif de la cour ; influence des <hi rend="i">Etablissements</hi> ou de sa jurisprudence sur les institutions du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>IV. <hi rend="i">La Cour plénière.</hi> – Elle est consultée pour les actes importants qui touchent à la seigneurie de Béarn. La Cour majour lui enlève ce qu’il y avait de plus précis et de mieux défini dans ses attributions. Pas de progrès au <num>xiii<hi rend="sup">e</hi></num> siècle. Cours plénières pour le mariage de Constance, fille de Gaston VIII (1270) et pour la succession du Béarn (1286).</p>
         </div>
-        <div>
+        <div xml:id="r145302">
           <head rend="uc">II. Les fors de Béarn et les communes.</head>
           <p>I. <hi rend="i">Etat du Béarn à la fin du</hi> <num>xiii<hi rend="sup">e</hi></num><hi rend="i">siècle.</hi> – Condition des terres ; droits féodaux réglés par les Fors. – Etat des personnes. – 1° Nobles : <hi rend="i">a.</hi> barons ; <hi rend="i">b.</hi> cavers ; <hi rend="i">c.</hi> domengers. – 2° Non nobles : <hi rend="i">a.</hi> serfs ; <hi rend="i">b.</hi> censitaires ; <hi rend="i">c.</hi> hommes francs.</p>
           <pb source="https://nakala.fr/10.34847/nkl.c94a4s38#6f9b6f8bd229ad9cb842b1a2333f6ca670c1730f" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.c94a4s38/6f9b6f8bd229ad9cb842b1a2333f6ca670c1730f/full/full/0/default.jpg"/>
@@ -91,7 +89,7 @@
           <p>IV. <hi rend="i">Juridiction et administration municipales.</hi> – Les Jurats : leur droit de juridiction, leurs attributions ; autres officiers municipaux, gardes, etc.</p>
           <p>Progrès des libertés communales ; consultation des communautés. Le Tiers Etat au <num>xiv<hi rend="sup">e</hi></num> siècle. Assemblée des députés des communes à Lescar, en 1.319.</p>
         </div>
-        <div>
+        <div xml:id="r145400">
           <head rend="uc">III. Les comtes de Foix et l’administration
            <lb/>vicomtale. – Les premiers états.</head>
           <p>I. Le Béarn passe dans la maison de Foix ; caractère du gouvernement des comtes. Roger-Bernard III (1290-1302) ; rivalités des maisons de Foix et d’Armagnac. Gaston IX (1302-131S). Administration du Béarn sous Marguerite de Moncade, comtesse de Foix (1302-1319). Gaston X, ses guerres au service du roi de France, lutte contre le comte d’Armagnac. Gaston Phœbus (1343-1391).</p>
@@ -101,7 +99,7 @@
           <p>III. <hi rend="i">Les premiers Etats sous Gaston Phœbus.</hi> – Ce qui les distingue de la cour plénière.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r145451">
         <head rend="uc">Deuxième partie
          <lb/>Histoire des états au <num>xv<hi rend="sup">e</hi></num> siècle.</head>
         <p>Causes qui ont amené la constitution des Etats ; leur peu d’influence sous Gaston Phœbus.</p>
@@ -114,7 +112,7 @@
         <p>1° La succession de Gaston XII. Tutelle des enfants de Gaston, prince de Viane. Intervention de Louis XI ; ré<pb source="https://nakala.fr/10.34847/nkl.c94a4s38#a1e7f5b20b5c678a6138ee812c735d27ca8d9f42" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.c94a4s38/a1e7f5b20b5c678a6138ee812c735d27ca8d9f42/full/full/0/default.jpg"/>gence de Madeleine de France, princesse de Viane (1472-1491), son caractère et son administration en Béarn. – Affaires de Navarre. Mort de la reine Eléonore. Avènement et serment de François-Phœbus ; sa mort (1483).</p>
         <p>2° Serment de Catherine, reine de Navarre, aux Etats. Projets de mariage de la jeune reine. Intervention du roi Charles VIII. – Les États choisissent Jean d’Albret (1484). – Lutte contre les prétentions de Jean de Foix, vicomte de Narbonne (1483-1812) ; rôle de Charles VIII. Les États de Béarn soutiennent les droits de Catherine, reine de Navarre ; serment de Jean d’Albret (1491). – Accords conclus avec le vicomte de Narbonne (1497) ; avis des États. Procès avec Gaston de Foix, duc de Nemours. – Guerre de Navarre ; intrigues de Ferdinand le Catholique. Jean d’Albret perd la Navarre (1512) ; rôle des États de Béarn. Campagne de 1516 ; mort du roi de Navarre. Négociations entreprises par la reine Catherine ; sa mort (1517). – Procès pour l’indépendance du Béarn ; intervention des États ; sentence arbitrale (1512). – Affaires de la succession de Navarre ; négociations à la cour de France. Alain d’Albret nommé tuteur d’Henri II de Navarre et régent du Béarn par les Etats.</p>
         <p>Caractère nouveau de l’histoire des Etats de Béarn au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
-        <div>
+        <div xml:id="r145536">
           <head rend="uc">Troisième partie</head>
           <div>
             <head rend="uc">I. Organisation des états.</head>
@@ -146,12 +144,12 @@
         <head rend="uc">Conclusion.</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r145712">
         <head rend="uc">Appendices.</head>
         <p>I. Catalogue des sessions des États de Béarn, de 1391 à 1517.</p>
         <p>II. Analyse de cahiers de doléances présentés par les Etats de Béarn au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r145731">
         <head rend="uc">Pièces justificatives.</head>
         <p>Extraits du « <hi rend="i">Livre des syndics</hi> » des États de Béarn.</p>
         <p>Chaque élève publiera les positions de sa thèse sous sa responsabilité personnelle.</p>

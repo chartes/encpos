@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1903_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1903_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,20 +58,20 @@
         <surname>Bourgin</surname>
         <roleName>Licencié ès-lettres, Élève de l’École des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r271677">
         <head rend="uc">Introduction</head>
         <p>1. L’étude des origines urbaines.</p>
         <p>Méthode employée. – Exposé des théories émises sur les origines urbaines. Le <num>xviii<hi rend="sup">e</hi></num> siècle. Rôle de la Révolution française. Les thèses royaliste, romaniste, ecclésiastique, révolutionnaire ; les théories allemandes : gilde, scabinat carolingien, <hi rend="i">mark.</hi> Le mouvement scientifique et international : les synthèses provisoires. – La méthode sociologique et économique : facteurs politiques, moraux, économiques.</p>
         <p>2. Les sources de l’histoire de Soissons : historiographie et archives soissonnaises.</p>
         <p>Les hagiographes. – Les annales : <hi rend="i">Chronicon Sancti Medardi</hi> ; Guibert de Nogent. – Œuvres diverses. – – Les archives : dispersion depuis le <num>xv<hi rend="sup">e</hi></num> siècle ; état des documents conservés aux archives de l’Aisne, aux Archives et à la Bibliothèque nationales. – Histoires imprimées et manuscrites de Soissons. – Histoires régionales.</p>
       </div>
-      <div>
+      <div xml:id="r271716">
         <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#90d4966d4babfea8ef5355067fe176cbd2f58298" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/90d4966d4babfea8ef5355067fe176cbd2f58298/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Histoire politique de Soissons
          <lb/>sous les carolingiens et les capétiens
          <lb/>le roi, les évêques, les comtes</head>
-        <div>
+        <div xml:id="r271733">
           <head rend="uc">Chapitre premier
            <lb/>situation et description de Soissons au moyen age</head>
           <p>La vallée de l’Aisne. – Le Soissonnais. – Soissons est à l’époque romaine un centre important. – Limite de la « cité ». – Fortifications du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
@@ -81,14 +79,14 @@
           <p>Le pont et le port.</p>
           <p>Les maisons et les rues.</p>
         </div>
-        <div>
+        <div xml:id="r271760">
           <head rend="uc">Chapitre II
            <lb/>Soissons sous les empereurs carolingiens</head>
           <p>Importance de la région de l’Aisne sous les Carolingiens. – Séjour de Louis le Pieux et de Charles le Chauve.</p>
           <p>Sous Charles le Chauve, l’affaire de Rothade est un essai intéressant d’indépendance par l’évêque à l’égard du roi et du métropolitain.</p>
           <p>L’atelier royal des monnaies.</p>
         </div>
-        <div>
+        <div xml:id="r271778">
           <head rend="uc">Chapitre III
            <lb/>Soissons et la décadence carolingienne</head>
           <p>Les invasions normandes atteignent Soissons peut-être dès 856, sûrement depuis 882 : attaque de Siegfried en 886. – Influence des invasions normandes au point de vue des origines urbaines.</p>
@@ -96,33 +94,33 @@
           <p>Invasions hongroises (? 917, 937, 954). – Les légendes.</p>
           <p>Soissons sous Charles le Simple. – Bataille de Soissons (923) ; élection de Raoul.</p>
         </div>
-        <div>
+        <div xml:id="r271801">
           <head rend="uc">Chapitre IV
            <lb/>Soissons et la maison de Vermandois</head>
           <p>Etendue des domaines d’Héribert H, maître de Saint-Crépin et de Saint-Médard. – Il veut les unifier en un état puissant : sa conduite vis-à-vis de Charles le Simple et de Louis d’Outremer. Il meurt en 943 avant d’avoir pu réaliser son dessein.</p>
           <p>Les guerres dans le Soissonnais après sa mort : pillage de Soissons en 945 ; siège par Hugues le Grand en 948. – Soissons devient une sorte de ville neutre entre les compétiteurs ; en 953 la paix y est conclue.</p>
         </div>
-        <div>
+        <div xml:id="r271816">
           <head rend="uc">Chapitre V
            <lb/>Formation du pouvoir des évêques à Soissons</head>
           <p>Incertitude des textes. La situation des évêques est avant tout une situation de fait : rôle de Gui I<hi rend="sup">er</hi> sous Louis d’Outremer ; politique de Gui H ; rapports d’Heddon et de Henri I<hi rend="sup">er</hi>.</p>
           <p>Politique violente de Philippe I<hi rend="sup">er</hi> à l’égard de l’évêché : Ursion et Saint-Arnoul.</p>
           <p>Les grands évêques du <num>xii<hi rend="sup">e</hi></num> siècle, Lisiard de Crépy (1108-1126) et Joslein de Vergy (1126-1151), fortifient moralement et politiquement l’évêché.</p>
         </div>
-        <div>
+        <div xml:id="r271852">
           <head rend="uc">Chapitre VI
            <lb/>Les origines des comtes de Soissons</head>
           <p>Le comte Eiric ou Héric des actes de la fin du <num>ix<hi rend="sup">e</hi></num> siècle est peut-être comte de Soissons. – En 966 apparaît un Gaudri, comte de Soissons,</p>
           <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#56309ba59dc186d96793c317544d29f35a8e0cb2" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/56309ba59dc186d96793c317544d29f35a8e0cb2/full/full/0/default.jpg"/>
           <p>En 984, il existe un Gui, comte de Soissons, fils d’Albert de Vermandois ; il fonde la première maison comtale, qui disparaît en 1057. La fille du dernier comte de cette maison épouse vers 1065 Guillaume Busac, fils du comte d’Eu, fondateur de la deuxième maison comtale. Celte maison est représentée par un épileptique, Jean I<hi rend="sup">er </hi>(♰ 1116 ?), et un lépreux, Renard III (♰ 1146 ?).</p>
         </div>
-        <div>
+        <div xml:id="r271882">
           <head rend="uc">Chapitre VII
            <lb/>Rapports des évêques et des comtes de Soissons</head>
           <p>Puissance féodale de l’évêque de Soissons. – Il doit le gîte et le service militaire au roi de France.</p>
           <p>En 1141, Renaud III transmet son comté à Yves de Nesles par l’intermédiaire de l’évêque Joslein : valeur des textes critiqués au <num>xviii<hi rend="sup">e</hi></num> siècle par Daguesseau.</p>
         </div>
-        <div>
+        <div xml:id="r271903">
           <head rend="uc">Chapitre VIII
            <lb/>Droits des évêques, des comtes et du roi à Soissons</head>
           <p>Limites du franc-quartier de l’évêque. – Droits de justice qu’il y exerce.</p>
@@ -131,49 +129,49 @@
           <p>Rapports des rois avec les évêques et les comtes. – Leurs séjours à Soissons.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r271925">
         <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#6438c8a4e6595c9364b9a23572d95785b04feb6a" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/6438c8a4e6595c9364b9a23572d95785b04feb6a/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les juridictions ecclésiastiques de Soissons</head>
-        <div>
+        <div xml:id="r271938">
           <head rend="uc">Chapitre premier
            <lb/>les paroisses</head>
           <p>Au <num>x<hi rend="sup">e</hi></num> siècle, il y a dix-sept églises, et quatre chapelles.</p>
           <p>Communauté des curés-cardinaux. – A la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, ils sont réduits à onze.</p>
         </div>
-        <div>
+        <div xml:id="r271965">
           <head rend="uc">Chapitre II
            <lb/>Le chapitre cathédral</head>
           <p>Obscurité de l’histoire de la cathédrale jusqu’à la fin du <num>xii<hi rend="sup">e</hi></num> siècle ; le culte y est définitivement installé en 1212.</p>
           <p>Organisation du chapitre. – Les rapports avec l’évêque : difficultés à propos du droit d’interdit, finalement concédé au chapitre.</p>
           <p>Justice du chapitre : étendue de la juridiction, et agents d’exécution.</p>
         </div>
-        <div>
+        <div xml:id="r271989">
           <head rend="uc">Chapitre III
            <lb/>Saint-Crépin-le-Grand</head>
           <p>Origines mérovingiennes du monastère, qui n’a jamais porté le titre de cathédrale. – Incendies et reconstructions. – Retour à la vie canoniale, puis restitution du statut monastique à la fin du <num>ix<hi rend="sup">e</hi></num> siècle. – L’abbaye aux mains de la maison de Vermandois au <num>x<hi rend="sup">e</hi></num> siècle.</p>
           <p>Justice de l’abbaye dans le faubourg. – Etendue de la justice foraine ; contestations avec les vicomtes de Busancy.</p>
         </div>
-        <div>
+        <div xml:id="r272016">
           <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#8eb88dc13f594e0ef6feeb0e20f51b2fb5aa8729" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/8eb88dc13f594e0ef6feeb0e20f51b2fb5aa8729/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Saint-Médard</head>
           <p>Origines très obscures. – Importance considérable sous les Carolingiens. – Malheurs au <num>x<hi rend="sup">e</hi></num> siècle : elle est aux mains de la maison de Vermandois. – A partir de 1048, elle est dans la maimbournie du roi.</p>
           <p>Importance économique de l’abbaye. – Développement du faubourg. – La milice abbatiale.</p>
         </div>
-        <div>
+        <div xml:id="r272042">
           <head rend="uc">Chapitre V
            <lb/>Notre-Dame</head>
           <p>Cette abbaye paraît remonter au maire du palais Ebroïn. L’époque de son plus grand développement est l’époque carolingienne.</p>
           <p>Etendue de sa juridiction dans la « cité ». Sa place dans la vie économique de Soissons.</p>
         </div>
-        <div>
+        <div xml:id="r272057">
           <head rend="uc">Chapitre VI
            <lb/>Saint-Jean-des Vignes</head>
           <p>Fondée en 1076, l’abbaye de Saint-Jean-du-Mont prend, en 1089 environ, le nom de Saint-Jean-des-Vignes.</p>
           <p>Délimitation exacte de l’étendue de sa justice. – Contestations avec la commune, les comtes de Soissons, les vicomtes de Busancy.</p>
         </div>
-        <div>
+        <div xml:id="r272072">
           <head rend="uc">Chapitre VII
            <lb/>Les établissements secondaires</head>
           <p>Saint-Pierre-au-Parvis, collégiale annexée à Notre-Dame. – Conflits administratifs avec Notre-Dame, juridictionnels avec les comtes et la commune.</p>
@@ -184,10 +182,10 @@
           <p>Les Franciscains et les Templiers à Soissons.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r272102">
         <head rend="uc">Troisième partie
          <lb/>Origines de la commune de Soissons</head>
-        <div>
+        <div xml:id="r272110">
           <head rend="uc">Chapitre premier
            <lb/>causes générales. – État économique</head>
           <p>On n’aperçoit pas pour Soissons la persistance des institutions municipales romaines. – Le peuple n’a plus aucun rôle dans les élections épiscopales au moment de la révolution communale : exemple de l’élection de saint Arnoul (1081). – Les échevins carolingiens ne semblent pas avoir persisté à Soissons ; l’institution des échevins ruraux dans le Soissonnais au <num>xiii<hi rend="sup">e</hi></num> siècle est toute différente.</p>
@@ -196,21 +194,21 @@
           <p>L’émancipation se fait par divers procédés qui n’aboutissent pas à l’abolition complète du servage : il subsiste en partie au <num>xiv<hi rend="sup">e</hi></num> siècle. – Parmi ces procédés, l’affranchissement communal reste exceptionnel.</p>
           <p>Ses conditions sont en rapport avec l’organisation d’un marché. – Renaissance économique du <num>xii<hi rend="sup">e</hi></num> siècle : les défrichements ; les échanges ; un exemple de capitalisation. – Accroissement de la population urbaine.</p>
         </div>
-        <div>
+        <div xml:id="r272169">
           <head rend="uc">Chapitre II
            <lb/>Causes générales. – État moral</head>
           <p>Croyance aux miracles, rites magiques. Brutalité.</p>
           <p>Orthodoxie : rôle de la foule dans le procès des « Manichéens » de Bucy, sous Lisiard de Crépy. – Influence des conciles tenus à Soissons en 1079 (trêve de Dieu), 1092 (contre Roscelin), 1121 (contre Abailard).</p>
           <p>Ignorance.</p>
         </div>
-        <div>
+        <div xml:id="r272187">
           <head rend="uc">Chapitre III
            <lb/>Érection et date de la commune</head>
           <p>On doit chercher la date de la fondation de la commune entre 1115 et 1126. Elle est postérieure au comte Jean (♰ 1116 ?). Elle est l’œuvre de Lisiard de Crépy (♰ 1126).</p>
           <p>Causes déterminantes : état politique de Soissons au début du <num>xii<hi rend="sup">e</hi></num> siècle, affaiblissement du pouvoir comtal, scandales ecclésiastiques, influence des communes voisines, rôle personnel de Lisiard de Crépy.</p>
           <p>Le texte primitif nous manque, de même que la confirmation de Louis VI, qui peut dater de 1133.</p>
         </div>
-        <div>
+        <div xml:id="r272211">
           <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#10edf7eaca57652e47f7f9209f833e42f3542a00" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/10edf7eaca57652e47f7f9209f833e42f3542a00/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Évolution de la constitution de la commune</head>
@@ -221,10 +219,10 @@
           <p>Les « usages soissonnais « envoyés à la commune de Dijon, entre 1183 et 1187, ne diffèrent point essentiellement du texte précédent : ils précisent seulement quelques points restés obscurs (serment, prérogatives et fonctions des magistrats, justice communale, service militaire). – 11 est très possible, de plus, qu’entre 1181 et le moment de la rédaction des « usages », aient disparu les derniers vestiges du servage à Soissons. En tout cas, ce texte ne représente pas la coutume primitive de Soissons : il est influencé par la charte beauvaisine en 1182, tandis que la charte beauvaisine de 1144 a influencé la charte de Louis VII.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r272249">
         <head rend="uc">Quatrième partie
          <lb/>La vie communale à Soissons</head>
-        <div>
+        <div xml:id="r272257">
           <head rend="uc">Chapitre premier
            <lb/>personnel communal et administratif</head>
           <p>Etendue de la commune : indétermination de la banlieue. – Autonomie administrative et judiciaire du bourg d’Aisne. – La question de la part prise par les femmes à l’administration communale reste insoluble.</p>
@@ -233,7 +231,7 @@
           <p>Serment de sûreté.</p>
           <p>L’Hôtel de Ville, d’abord <hi rend="i">Curia Episcopi,</hi> puis <hi rend="i">Maison du Change.</hi> – Cloche communale, prisons, sceau.</p>
         </div>
-        <div>
+        <div xml:id="r272289">
           <head rend="uc">Chapitre II
            <lb/>Action juridictionnelle de la commune</head>
           <p>L’existence intérieure de la commune n’est qu’un long effort pour sortir de l’étreinte de juridictions ecclésiastiques.</p>
@@ -242,27 +240,27 @@
           <p>Traité de 1290 avec Saint-Médard, de 1295 avec Saint-Jean-des-Vignes, de 1299 avec Notre-Dame, de 1301 avec Saint-Crépin-le-Grand, de 1305 avec le comte.</p>
           <p>Guerre avec le chapitre en 1312. – Le Parlement contre la commune : procès et amendes du début du <num>xiv<hi rend="sup">e</hi></num> siècle. – Saisie de la mairie en 1320. – Cette action juridictionnelle de la commune prépare sa ruine.</p>
         </div>
-        <div>
+        <div xml:id="r272321">
           <head rend="uc">Chapitre III
            <lb/>Organisation financière</head>
           <p>Nous n’en savons presque rien. – Recettes : amendes, tailles, propriétés communales (rues, fortifications) ; règlementation de la vente du pain et du vin par la mairie. – Dépenses : pas de cense payée au roi ou à l’évêque ; cens divers ; travaux publics ; frais de représentation ; amendes.</p>
           <p>Développement de la fiscalité royale. – Compte de 1262 : passif de 98 livres. – Constitution d’une dette flottante et d’une dette consolidée. – Liquidation de la dette après la chute de la commune.</p>
           <p>Malversations au début du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r272345">
           <head rend="uc">Chapitre IV
            <lb/>Organisation militaire</head>
           <p>Prisée de 1194 : Soissons doit fournir au roi 160 sergents et 4 charrettes. – Principe de la substitution <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#d4093a85c4eaa242e6456d93b0d4f57a78b5b9bd" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/d4093a85c4eaa242e6456d93b0d4f57a78b5b9bd/full/full/0/default.jpg"/>pécuniaire appliqué en 1212, 1226, 1234, 1237, 1238, 1272, 1276, 1277, 1283, 1293, 1296.</p>
           <p>Prisée de 1202 : l’équivalence pécuniaire est déterminée. – Difficultés de la prisée de 1276.</p>
           <p>Maintien du principe ancien du service personnel : exemple de l’action des Soissonnais à Bouvines (1214) et dans la convocation de 1303.</p>
         </div>
-        <div>
+        <div xml:id="r272368">
           <head rend="uc">Chapitre V
            <lb/>Action régionale et nationale de la commune</head>
           <p>Rôle de la commune dans la guerre entre l’évêque de Laon et les membres de la commune de Laonnais.</p>
           <p>Œuvre législative des rois de France dans le domaine des institutions communales. – Bourgeois consultés pour la rédaction des ordonnances administratives et financières. – Part prise par la commune aux États-Généraux sous Philippe-le-Bel, au mouvement de la réaction sous Louis X, aux États-Généraux sous Philippe V.</p>
         </div>
-        <div>
+        <div xml:id="r272383">
           <head rend="uc">Chapitre VI
            <lb/>Cassation de la commune et avènement du régime
            <lb/>municipal</head>
@@ -271,18 +269,18 @@
           <p>Dès 1325, la communauté est représentée par sept personnages. – En août 1335, elle obtient le droit de désigner des procureurs. – L’administration municipale est organisée en 1341, 1342, 1362, 1411. – Crise de 1414. – Réorganisation par Louis XI en 1461.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r272410">
         <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#7726d9272745bb0cbb8b535c5c38c95002bae9a7" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/7726d9272745bb0cbb8b535c5c38c95002bae9a7/full/full/0/default.jpg"/>
         <head rend="uc">Cinquième partie
          <lb/>La vie sociale à Soissons</head>
-        <div>
+        <div xml:id="r272423">
           <head rend="uc">Chapitre premier
            <lb/>moeurs et coutumes</head>
           <p>Brutalité et crédulité. – Culte des reliques (soulier et lait de la Vierge ; le pas de saint Médard ; le puits de saint Gaudin ; le tombeau de saint Drausin).</p>
           <p>Tournois.</p>
           <p>Pompes religieuses : le <hi rend="i">Rituale</hi> et le <hi rend="i">Dagard.</hi> Pardon Saint-Mard ; procession de Saint-Crépin ; procession de Saint-Médard. – Usages curieux de la liturgie soissonnaise.</p>
         </div>
-        <div>
+        <div xml:id="r272449">
           <head rend="uc">Chapitre II
            <lb/>Activité économique</head>
           <p>Les Juifs à Soissons. – Leur inféodation au comte.</p>
@@ -291,7 +289,7 @@
           <p>Les métiers. – Prépondérance du comte. – Métiers (<hi rend="i">officia</hi>) des parementiers, cordonniers, barbiers, boulangers, bouchers, etc.</p>
           <p>Les places de marché. – Prix. – Mesures. – Commerce de l’argent.</p>
         </div>
-        <div>
+        <div xml:id="r272477">
           <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#9e875d26835e3bec94780c1c8e6a91f357c47bae" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/9e875d26835e3bec94780c1c8e6a91f357c47bae/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le droit soissonnais</head>
@@ -301,7 +299,7 @@
           <p>Bâtards justiciables de la juridiction sur le territoire de laquelle ils se sont établis. – Aubains justiciables du comte.</p>
           <p>Persistance au <num>xiii<hi rend="sup">e</hi></num> siècle de l’emprisonnement privé des débiteurs. – Persistance du duel judiciaire.</p>
         </div>
-        <div>
+        <div xml:id="r272524">
           <head rend="uc">Chapitre IV
            <lb/>Assistance et instruction publique</head>
           <p>Ce sont des services dont les communes se sont rarement chargées.</p>
@@ -311,18 +309,18 @@
           <p>C’est après 1325 que le nombre des établisssements d’instruction publique et leur importance s’accroissent.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r272549">
         <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#33c389164940691c7ece2a6503bf8940782f62c4" n="37" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/33c389164940691c7ece2a6503bf8940782f62c4/full/full/0/default.jpg"/>
         <head rend="uc">Sixième partie
          <lb/>Le groupe communal soissonnais</head>
-        <div>
+        <div xml:id="r272562">
           <head rend="uc">Chapitre premier
            <lb/>observations sur la transmission des chartes
            <lb/>communales</head>
           <p>Possibilité de synthèses partielles dans l’histoire communale de la France : exemples de transmission. – Le système des chefs de sens en Flandre et dans le nord de la France. – Action précise de Soissons en Bourgogne (Dijon et Reaune).</p>
           <p>Incertitude du mode de transmission. – Influence considérable de l’épiscopat. – Circonstances politiques. – Propagation de certaines coutumes par des communiers voyageurs.</p>
         </div>
-        <div>
+        <div xml:id="r272579">
           <head rend="uc">Chapitre II
            <lb/>Les fédérations rurales du soissonnais</head>
           <p>Mouvement des fédérations rurales dans le nord de la France.</p>
@@ -333,7 +331,7 @@
           <p>Luttes de Coudé avec Saint-Crépin au <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Le mouvement d’affranchissement rural dans le Soissonnais. Communauté d’Épagny, dès 1141, de Cuffies, dès 1139 (?) ; charte de coutume accordée à Cuffies, Bucy, Treny, Margival, Crouy, Pommiers, Villeneuve et Aile en 1272.</p>
         </div>
-        <div>
+        <div xml:id="r272635">
           <head rend="uc">Chapitre III
            <lb/>Compiègne</head>
           <p>Origines romaines. – Fondation de la collégiale de Saint-Corneille par Charles-le-Chauve en 877. – Place occupée par les rois dans l’histoire de Compiègne.</p>
@@ -343,7 +341,7 @@
           <p>Importance économique de Compiègne. Foire réorganisée en 1185 et 1186 : importance du transit. – La lutte entre la commune et Saint-Corneille provient avant tout de conflits d’ordre économique. – Bonne situation financière de la commune au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Conflits juridictionnels, depuis 1270. – Amendes (1291, 1292, 1294, 1300, 1307, 1312). – Le 2 septembre 1319, s’opère la résiliation.</p>
         </div>
-        <div>
+        <div xml:id="r272673">
           <head rend="uc">Chapitre IV
            <lb/>Senlis, Tournai, la Neuville</head>
           <p>Origines de Senlis. – Senlis est essentiellement un domaine royal. – Juridictions ecclésiastiques peu importantes : évêque, chapitre, Saint-Rieul, Saint-Frambourg, Saint-Vincent. – Economie agricole : marché peu important ; progrès au <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
@@ -354,7 +352,7 @@
           <p>La Neuville-Roy, fortifiée en 1190, reçoit en 1200 une commune sur le modèle de Senlis. – Mauvaises finances. – Mais la résiliation de la commune n’est nécessaire qu’après la guerre de Cent Ans (1370).</p>
           <p>Tournai, où une commune est installée dès 1173, emprunte à la commune de Senlis les règles des rapports intracommunaux entre laïques et ecclésiastiques, à la suite d’un long différend entre l’évêque Etienne de Tournai et l’administration communale (1193-1200).</p>
         </div>
-        <div>
+        <div xml:id="r272717">
           <head rend="uc">Chapitre V
            <lb/>Crépy-en-Valois</head>
           <p>Origines mal connues : fondation du château en 998, de Saint-Arnoul en 1008, de Saint-Thomas en 1182. – Petit centre d’échanges : règlementation du marché par Louis VI (1133). – Transit important (arrêts de 1261 et 1292).</p>
@@ -362,7 +360,7 @@
           <p>Décadence de la commune explicable par la diminution du transit, et l’acte de 1311. – – Résiliation de la commune le 18 mai 1329.</p>
           <p>Il est possible que La Ferté-Milon ait eu une charte à l’imitation de celle de Crépy.</p>
         </div>
-        <div>
+        <div xml:id="r272738">
           <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#ac51a3910b7bfccaa51d629c13b6259d519f7cd5" n="41" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/ac51a3910b7bfccaa51d629c13b6259d519f7cd5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Meaux et les communes de Champagne</head>
@@ -373,7 +371,7 @@
           <p>Extension du même texte à Ecueil, en 1229.</p>
           <p>Extension du même texte à un troisième groupe de villages soissonnais : Cys, Presles, Saint-Mard, Ru, les Boves, en 1225 (?). – Absence du tarif d’amende. – Le chef-lieu est Cys. – Confirmation en 1661. – En 1743, limitation du droit électoral. En 1776 et 1778, Louis XVI enlève à la commune le droit de pêche et de chasse.</p>
         </div>
-        <div>
+        <div xml:id="r272782">
           <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#63b0939ed94e9520c0c2b04b50511e309ca74915" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/63b0939ed94e9520c0c2b04b50511e309ca74915/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Sens</head>
@@ -383,7 +381,7 @@
           <p>Différences de ce texte avec la charte soissonnaise. – Prépondérance du roi, qui garde les cas de meurtre, homicide, rapt, trahison. – Cense royale.</p>
           <p>Comptes communaux de 1259, 1260, 1262. – Mauvaises finances. – Opposition des classes urbaines au début du <num>xiv<hi rend="sup">e</hi></num> siècle. – La commune est supprimée en 1317.</p>
         </div>
-        <div>
+        <div xml:id="r272845">
           <head rend="uc">Chapitre VIII
            <lb/>Les communes de Bourgogne</head>
           <p>Origines du <hi rend="i">Castrum Divionense.</hi> – Constitution du bourg Saint-Bénigne. – Les évêques de Langres sont <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#20ea34f676ae996885ac0951773a87e7329bea12" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/20ea34f676ae996885ac0951773a87e7329bea12/full/full/0/default.jpg"/>maîtres de Dijon jusqu’en 1015. – Conquête de la Bourgogne par Robert le Pieux ; fondation de la deuxième maison ducale. – Subsistance de la vicomté. – Juridictions ecclésiastiques : Saint-Bénigne, Saint-Étienne.</p>
@@ -396,7 +394,7 @@
           <p>Extension à Beaune. – Origines de Beaune. – Élimination de l’évêque de Langres en 1004 ; dès lors la ville suit la fortune de la Bourgogne. – Prépondérance du duc. – Economie agricole ; à la fin du <num>xii<hi rend="sup">e</hi></num> siècle, création non-spontanée du Bourg-Neuf (1174). – Suppression ancienne des <pb source="https://nakala.fr/10.34847/nkl.a8f2956l#5fbdc5e8bdce3ec104e4f17cd88a076f7c6ad2f4" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8f2956l/5fbdc5e8bdce3ec104e4f17cd88a076f7c6ad2f4/full/full/0/default.jpg"/>charges serviles. – L’existence communale est antérieure au texte que nous avons et qui date de 1203 ; peu de différences avec le texte dijonnais : les droits du duc sont davantage respectés. – Vers 1370, sont rédigées des coutumes municipales. – Difficultés financières dès la fin du <num>xiii<hi rend="sup">e</hi></num> siècle ; crise à la fin du <num>xiv<hi rend="sup">e</hi></num>. – La ville entre, malgré soi, dans le royaume de France ; dès lors la vie communale se transforme.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r272931">
         <head rend="uc">Conclusion</head>
         <p>Les communes soissonnaises ne sont « révolutionnaires », ni par les conditions de leur érection, ni par le contenu de leurs constitutions.</p>
         <p>La charte soissonnaise répond à une économie agricole en voie de transformation. Le servage n’a ordinairement pas été aboli par les chartes de commune.</p>

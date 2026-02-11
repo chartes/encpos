@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_23" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_23" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -75,7 +73,7 @@
       <p>Le frère prêcheur qui a composé cette compilation a fait ses études de théologie à Paris ; il a séjourné au couvent de Chartres, et il est allé en Terre Sainte. Il nous transmet de précieuses anecdotes sur les grands personnages, princes, évêques, seigneurs, qu’il a connus ou dans l’entourage desquels il a vécu.</p>
       <p>Un tableau a été établi pour montrer quels <hi rend="i">exempla</hi> ont été empruntés par le compilateur au <hi rend="i">Tractatus de diversis materiis predicabilibus</hi> d’Étienne de Bourbon, aux <hi rend="i">Sermones vulgares</hi> et aux <hi rend="i">Sermones feriales et communes</hi> de Jacques de Vitry. Les éditions de A. Lecoy de La Marche, Th. Fr. Crane et J. Greven ont été utilisées. Un tableau analogue a été fait pour indiquer les <hi rend="i">exempla</hi> communs à la compilation et à la <hi rend="i">Tabula exemplorum,</hi> éditée par J.-Th. Welter.</p>
       <p>La <hi rend="i">Compilacio singularis exemplorum</hi> reflète par sa composition l’image du monde que les hommes du <num>xiii<hi rend="sup">e</hi></num> siècle étaient habitués à avoir sous leurs yeux, et la hiérarchie immuable des « états » du monde, des conditions sociales, indépendante de toute contingence historique et considérée comme un absolu.</p>
-      <div>
+      <div xml:id="r900350">
         <head rend="uc">Édition critique</head>
         <p>Édition de la deuxième partie (n<hi rend="sup">os</hi> 224 à 1049) sur la base du manuscrit d’Upsal. Un apparat critique a été donné pour les numéros 224 à 527. Un index des toponymes, des personnages historiques, des conditions sociales et des thèmes narratifs a été établi, ainsi qu’une table indiquant la place des articles dans chaque manuscrit.</p>
       </div>

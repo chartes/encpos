@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1939_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1939_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -66,16 +64,16 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r593915">
         <head rend="uc">Chapitre préliminaire</head>
         <p>A Paris et aux environs, depuis le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle, on joue fréquemment des mystères. Toutes ces représentations sont-elles dues aux bourgeois parisiens qu’on appellera plus tard Confrères de la Passion ? A Paris, c’est possible ; aux environs, il n’y a aucune raison de le supposer. En tout cas, la confrérie de la Passion fut créée officiellement en 1402.</p>
       </div>
-      <div>
+      <div xml:id="r593931">
         <pb source="https://nakala.fr/10.34847/nkl.2a9eg49j#9851cc69ebad3f2adf0b4d63d3dbe9dbd6e927b6" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a9eg49j/9851cc69ebad3f2adf0b4d63d3dbe9dbd6e927b6/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Histoire de la confrérie
          <lb/>de 1402 a 1548</head>
-        <div>
+        <div xml:id="r593946">
           <head rend="uc">Chapitre premier
            <lb/>la confrérie à l’hôpital de la Trinité.</head>
           <p>Les confrères avaient, dès avant 1402, pris à loyer la grande salle de l’Hôpital aux Prémontrés, qui le dirigeaient moyennant un loyer fixe et l’entretien du service de la chapelle.</p>
@@ -84,7 +82,7 @@
           <p>Pour donner plus de variété à leurs spectacles, les confrères s’associèrent avec une troupe déjà connue en 1450, les Enfants-sans-Souci, dirigés par le Prince des Sots, qui intercalèrent des farces dans les représentations de mystères.</p>
           <p>Les confrères n’avaient pas la faveur du Parlement. <pb source="https://nakala.fr/10.34847/nkl.2a9eg49j#9cc23fbcfb3457c237faa594303a8355f22d79f0" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a9eg49j/9cc23fbcfb3457c237faa594303a8355f22d79f0/full/full/0/default.jpg"/>Celui-ci leur interdit à plusieurs reprises de jouer. En 1535, il leur retira leur salle pour en faire un hospice et la confrérie cessa ses représentations à la Trinité. Elle garda néanmoins ses droits sur la chapelle.</p>
         </div>
-        <div>
+        <div xml:id="r593975">
           <head rend="uc">Chapitre II
            <lb/>La confrérie à l’hôtel de Flandre.</head>
           <p>L’ancien hôtel des comtes de Flandre avait fait retour au domaine royal lorsque les confrères louèrent la salle pour y donner leurs représentations. Ils y donnèrent, souvent en la présence du roi, leurs plus célèbres spectacles.</p>
@@ -92,11 +90,11 @@
           <p>Ils donnèrent une grande solennité à tous ces spectacles. La salle était richement décorée, les costumes somptueux, et ils les faisaient admirer dans des cortèges qui circulaient dans Paris pour attirer le public. Ils essayaient, en effet, de s’attirer la faveur populaire pour pouvoir résister au Parlement, qui les attaquait violemment. Celui-ci faisait prélever une part de leurs recettes et visait à faire interdire les spectacles, <pb source="https://nakala.fr/10.34847/nkl.2a9eg49j#91067362205632e70d35ae785f1a75850362c20d" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a9eg49j/91067362205632e70d35ae785f1a75850362c20d/full/full/0/default.jpg"/> mais les confrères avaient l’appui du roi. Cependant, en 1543, François I<hi rend="sup">er</hi> fit mettre en vente les terrains de l’hôtel de Flandre, réduisant les confrères à chercher un nouveau domicile.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r594003">
         <head rend="uc">Deuxième partie
          <lb/>Histoire de la confrérie
          <lb/>de 1548 à 1677</head>
-        <div>
+        <div xml:id="r594013">
           <head rend="uc">Chapitre premier
            <lb/>les confrères à l’hôtel de Bourgogne.</head>
           <p>Le 30 août 1548, les confrères acquirent une partie du terrain de l’ancien hôtel d’Artois ou de Bourgogne et y firent construire un théâtre et d’autres bâtiments qu’ils firent modifier dans la suite, en 1616 et 1647, mais à peine y étaient-ils installés que le Parlement leur interdit, le 15 novembre 1548, de jouer des mystères religieux. Les confrères, pour obéir, essayèrent d’abord de jouer des moralités, légendes, histoires, puis ils déguisèrent sous ces noms des pièces de l’ancien répertoire qu’ils reprirent parfois ouvertement.</p>
@@ -104,7 +102,7 @@
           <p>Le Parlement leur avait accordé le monopole théâtral à Paris : aucun comédien ne devait jouer hors de l’hôtel de Bourgogne. Chaque roi leur avait successivement confirmé ce privilège, mais ils avaient beaucoup de mal à le faire respecter. Le Parlement les y aidait. Il interdit les représentations de divers <pb source="https://nakala.fr/10.34847/nkl.2a9eg49j#55daeba4fac7f085436c14b78b2e6beafca74fe7" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a9eg49j/55daeba4fac7f085436c14b78b2e6beafca74fe7/full/full/0/default.jpg"/>comédiens français et italiens, mais Henri III appela lui-même à l’hôtel de Bourbon la troupe des « Gelosi ».</p>
           <p>La confrérie est encore attaquée par le clergé, qui dresse contre elle de violents réquisitoires. Au moment de la Ligue, le théâtre fut fermé. Il rouvrit sous Henri IV. Le Parlement ayant de nouveau, en 1598, interdit de représenter les mystères, les confrères cessèrent de jouer.</p>
         </div>
-        <div>
+        <div xml:id="r594039">
           <head rend="uc">Chapitre II
            <lb/>Les comédiens à l’hôtel de Bourgogne.</head>
           <p>La scène de l’hôtel de Bourgogne est uniquement occupée par des comédiens étrangers à la confrérie.</p>
@@ -113,7 +111,7 @@
           <p>Diverses troupes françaises, des Italiens, des Anglais, des Espagnols jouèrent successivement et parfois simultanément à l’hôtel de Bourgogne. Ces <pb source="https://nakala.fr/10.34847/nkl.2a9eg49j#61be22ff606b2de8ee6e782c67f76c22d567ced3" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a9eg49j/61be22ff606b2de8ee6e782c67f76c22d567ced3/full/full/0/default.jpg"/>troupes ne sont pas constituées de façon très définie et les acteurs passent facilement de l’une à l’autre. La troupe habituelle de l’hôtel est celle des « comédiens ordinaires du Roy », qui jouent à la fois des tragédies modernes et des farces et qui finiront par s’y installer à peu près à demeure.</p>
           <p>La confrérie essayait toujours de faire respecter son monopole, mais elle ne pouvait plus guère empêcher qu’on jouât ailleurs que chez elle. Son privilège se réduisit à la perception d’une taxe.</p>
         </div>
-        <div>
+        <div xml:id="r594068">
           <head rend="uc">Chapitre III
            <lb/>Abolition de la confrérie.</head>
           <p>L’abolition fut réclamée très tôt par les « comédiens ordinaires du Roy », qui désiraient se rendre propriétaires du théâtre. Dès 1615, ils adressèrent dans ce sens une requête au roi. Ils n’obtinrent pas satisfaction et continuèrent néanmoins à jouer à l’hôtel, mais, lorsque d’autres troupes y jouaient, ils se jugeaient lésés et tentaient de troubler les représentations. Quand ils y étaient eux-mêmes, ils refusaient d’acquitter leurs loyers et agissaient en vrais propriétaires, prenant la liberté de sous-louer l’hôtel et d’y faire faire des travaux.</p>
@@ -121,10 +119,10 @@
           <p>Dans cette lutte, les confrères n’étaient pas soutenus par l’opinion publique. Le peuple prenait sa part des violences exercées contre le théâtre. Un libelle diffamatoire parut en 1631 contre eux. Ils pouvaient d’autant moins résister que des rivalités les désunis<pb source="https://nakala.fr/10.34847/nkl.2a9eg49j#3aa314095944a779a691dc7e92e7b27d613bf9f2" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a9eg49j/3aa314095944a779a691dc7e92e7b27d613bf9f2/full/full/0/default.jpg"/>saient. En 1673, une émeute eut lieu à l’hôtel de Bourgogne. Finalement, en 1677, le roi prononça l’abolition de la confrérie et la réunion de ses biens à ceux de l’Hôpital général.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r594092">
         <head rend="uc">Troisième partie
          <lb/>Organisation de la confrérie</head>
-        <div>
+        <div xml:id="r594100">
           <head rend="uc">Chapitre premier
            <lb/>administration.</head>
           <p>La confrérie se compose d’environ 150 bourgeois parisiens, habitants du quartier Saint-Denis, d’instruction différente et de conditions très diverses. Beaucoup appartiennent à la confrérie de père en fils.</p>
@@ -137,7 +135,7 @@
           <p>La confrérie cherche à se concilier les officiers de justice par de menus cadeaux.</p>
           <p>La confrérie n’abandonna jamais les services religieux qu’elle devait à la Trinité. Elle y faisait célébrer de nombreux offices. Elle organisait des processions religieuses et un défilé annuel. A ses obligations religieuses, elle adjoignait des obligations charitables envers les confrères âgés et envers les prisonniers de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r594141">
           <head rend="uc">Chapitre II
            <lb/>Les finances.</head>
           <p>C’est en grande partie de la question financière que dépend l’histoire de la confrérie.</p>

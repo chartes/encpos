@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,13 +56,13 @@
         <forename>Denis</forename>
         <surname>Muzerelle</surname>
       </byline>
-      <div>
+      <div xml:id="r909019">
         <head rend="uc">Chapitre premier
          <lb/>l’auteur et son poème</head>
         <p>Flodoard (893/4-966), chanoine de Reims, n’est connu qu’à travers son œuvre, et particulièrement ses <hi rend="i">Annales</hi> et son <hi rend="i">Historia Remensis ecclesiae</hi> ; ses poèmes, encore peu étudiés, avaient néanmoins permis de connaître son voyage à Rome sous Léon VII (936-939). Sa biographie a été établie par Ph. Lauer dans son édition des <hi rend="i">Annales.</hi></p>
         <p>Rien ne permet d’établir avec certitude la date ni l’occasion auxquelles l’auteur entreprit de composer ses trois longs poèmes : <hi rend="i">De triumphis Christi et sanctorum Palestinae,</hi> en trois livres, <hi rend="i">De triumphis Christi Antiochiae gestis, </hi>en deux livres, et <hi rend="i">De triumphis Christi apud Italiam,</hi> auquel est limitée la présente étude. Ce dernier poème comprend quatorze livres, soit 14 762 vers, dont 2 103 sénaires, 38 hendécasyllabes (prologue) et 18 distiques iambiques (IX, 12). Le tout est réparti en deux cent vingt-trois chapitres dont l’intitulé et la délimitation souvent fantaisistes montrent bien que ce découpage n’est pas original.</p>
         <p>Une allusion de l’auteur à ses malheurs (VIII, 21) laisse entendre que l’œuvre était déjà bien avancée en 925 ou peu après. La fin du poème (XII, deux et ss.) a de toute évidence été composée après le voyage en Italie, peu après que l’auteur ait commencé ses recherches dans les archives de l’église de Reims, dans le dessein de composer son <hi rend="i">Historia.</hi></p>
-        <div>
+        <div xml:id="r909062">
           <pb source="https://nakala.fr/10.34847/nkl.f60edg31#00bf7160b1ad779ba196856db1ca7c4f3a48b450" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.f60edg31/00bf7160b1ad779ba196856db1ca7c4f3a48b450/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La conception de l’œuvre</head>
@@ -74,7 +72,7 @@
           <p>L’auteur avait également une conception géographique de son œuvre, particulièrement sensible dans les livres XIII et XIV ; en outre, tout au long de l’ouvrage, à dates égales, les martyrs romains précèdent les autres. On note enfin certains regroupements analogiques (par exemple les martyrs militaires, VIII, 8-10). Ces quelques critères de classement, cependant, semblent être les seuls à négliger la date d’inscription au martyrologe. A l’intérieur de ce schéma les martyrs se succèdent de façon capricieuse (cf. VII, 2-10).</p>
           <p>Ces caractères font l’originalité de la compilation, en même temps qu’ils expliquent le peu de succès qu’elle paraît avoir emporté. C’est également ce qui fait l’intérêt d’une étude soigneuse des sources et de la composition.</p>
         </div>
-        <div>
+        <div xml:id="r909099">
           <head rend="uc">Chapitre III
            <lb/>Les sources et leur utilisation</head>
           <p><hi rend="i">La partie hagiographique.</hi> – Le cadre historique général, dix persécutions suivies chacune d’un fléau vengeur, et les faits d’histoire antique sont empruntés au livre VII de l’<hi rend="i">Historia adversus paganos</hi> de Paul Orose, que l’auteur utilise à vingt-deux reprises.</p>
@@ -97,7 +95,7 @@
           <p>Mais ce qui fait l’intérêt essentiel de cette partie, c’est l’utilisation de la correspondance de la papauté avec l’archevêque Foulques (883-900), qui permet à Flodoard d’étoffer les pontificats de Marin, d’Hadrien III, et surtout d’Étienne V et de Formose. La plupart de ces lettres ont par la suite été analysées dans l’<hi rend="i">Historia Remensis ecclesiae</hi> (livre IV), et n’apportent par conséquent que peu de nouveauté. Mais certaines font ici l’objet d’une analyse assez sensiblement différente, qui permet d’en mieux connaître le contenu. C’est en raison de son intérêt qu’il a semblé bon d’éditer le livre XII à la suite des livres I à IV.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r909247">
         <head rend="uc">Édition des livres I-IV et XII</head>
         <p>On connaît deux manuscrits de l’extrême fin du <num>x<hi rend="sup">e</hi></num> siècle : le n° 2409 de la Bibliothèque Sainte-Geneviève, et le n° 933 de la Bibliothèque de l’Arsenal. Ce ne sont en réalité que les deux morceaux d’un même manuscrit. Le texte s’enchaine sans solution de continuité, comme l’attestent la signature des cahiers, et la copie qui en a été faite au début du <num>xvii<hi rend="sup">e</hi></num> siècle, alors que le manuscrit était encore intact (Bibliothèque Mazarine, 3866).</p>
         <p>Il existe encore une copie du <num>xvii<hi rend="sup">e</hi></num> siècle du seul premier poème de Flodoard (Bibliothèque nationale, nouv. acq. lat. 1101), qui reproduit la copie précédente.</p>

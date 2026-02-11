@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,47 +55,47 @@
         <forename>Florence</forename>
         <surname>Clavaud</surname>
       </byline>
-      <div>
+      <div xml:id="r1185816">
         <head rend="uc">Introduction</head>
         <p>L’utilisation d’un riche fonds ancien permet de décrire et d’analyser avec précision, pour Cajarc, ville du haut Quercy, aujourd’hui chef-lieu de canton du Lot, certains aspects d’ordinaire mal connus de l’histoire économique et sociale au XIV’ siècle : l’élevage d’une part, l’évolution démographique surtout, d’autre part.</p>
       </div>
-      <div>
+      <div xml:id="r1185826">
         <head rend="uc">Sources</head>
         <p>L’essentiel de la documentation provient du fonds municipal de Cajarc, conservé aux Archives départementales du Lot ; il comporte environ quatre cents actes et vingt rouleaux de procédure judiciaire, auxquels s’ajoutent dix-sept registres de comptes s’échelonnant entre 1316 et 1382 et dont a été dressé l’inventaire analytique détaillé. Un cadastre de 1606 a été consulté avec profit, de même que quelques actes dispersés dans les séries départementales, un registre de brèves de 1391-1392 rédigé par B. del Sol, conservé aux Archives départementales de l’Aveyron, plusieurs manuscrits de la Bibliothèque nationale et le fonds municipal de Montpellier.</p>
       </div>
-      <div>
+      <div xml:id="r1185836">
         <pb source="https://nakala.fr/10.34847/nkl.7c53y2vf#60289cde75bcc175fde8d92f27057976d29e0f65" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c53y2vf/60289cde75bcc175fde8d92f27057976d29e0f65/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La communauté, évolution et structures</head>
-        <div>
+        <div xml:id="r1185849">
           <head rend="uc">Chapitre premier
            <lb/>les origines</head>
           <p>Faute de sources, il faut attendre le <num>xiii<hi rend="sup">e</hi></num> siècle pour bien connaître la ville, alors qu’elle est déjà en plein essor.</p>
           <p>L’existence, vers 1250, d’un groupe serré de maisons nobles au centre de la ville, autour de l’<hi rend="i">aula</hi> des Hébrard, semble témoigner d’une origine castrale. La position de Cajarc, dans un cirque de falaises, sur la voie de Limogne à Figeac et près du Lot, a dû favoriser son expansion, de même que le pèlerinage qu’on y effectuait pour vénérer une hostie miraculeuse.</p>
           <p>Sans doute la ville doit-elle à ses marchands, lancés dans le commerce international, jusqu’à Gênes et Antioche, d’avoir pu tirer parti des besoins d’argent de ses coseigneurs. Elle traite en particulier avec l’évêque de Cahors, qui, intervenu en 1248 pour apaiser les luttes sociales internes entre <hi rend="i">menut poble</hi> et notables, ne cesse plus de s’intéresser à ce <hi rend="i">castrum,</hi> et rachète peu à peu leurs parts de seigneurie aux autres <hi rend="i">parcerarii.</hi> C’est dans ces circonstances que Cajarc acquiert des coutumes en septembre 1256.</p>
         </div>
-        <div>
+        <div xml:id="r1185889">
           <head rend="uc">Chapitre II
            <lb/>Développement et apogée</head>
           <p>A la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, les consuls mènent une politique suivie d’acquisitions de terres et de droits d’usage. Ils créent ainsi une vaste zone de pâturages sur le causse au nord de la ville, ménageant au bétail l’accès au Célé comme au Lot. Au-delà des remparts, deux <hi rend="i">barris</hi> se construisent, après la vente par l’évêque de cent quarante-quatre <hi rend="i">airals</hi> en 1243.</p>
           <p>Après la mort d’Aymeric d’Hébrard, évêque de Coïmbre, en qui il faut sans doute reconnaître le constructeur de l’église du <num>xiii<hi rend="sup">e</hi></num> siècle, le gouvernement consulaire prend totalement en charge la gestion des bâtiments et ornements ecclésiastiques, de l’hôpital et de la léproserie ; il organise la Charité annuelle de la Pentecôte et les processions de l’Annonciation et de la Fête-Dieu.</p>
           <p>De cette période d’apogée sont issus la plupart des actes conservés. Les procès révèlent, au fil des témoignages, la marginalité de quelques condamnés, la rancœur des nobles et clercs obligés de payer l’impôt, les inimitiés entre notables.</p>
         </div>
-        <div>
+        <div xml:id="r1185927">
           <pb source="https://nakala.fr/10.34847/nkl.7c53y2vf#cf7dc98f73eb80f53eae29e33994560cfb80f42f" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c53y2vf/cf7dc98f73eb80f53eae29e33994560cfb80f42f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les effets de la guerre</head>
           <p>La guerre s’installe en Quercy à partir de 1347 ; un de ses enjeux est le contrôle des places fortes commandant la vallée du Lot. Dès 1348, Cajarc s’efforce de se mettre à l’abri d’un pillage en reconstruisant entièrement les vieux remparts. Une palissade entourant le fossé périodiquement empli d’eau, des <hi rend="i">gachiels</hi> (grosses échauguettes de bois), de fortes barbacanes, des machines de jet et canons, et surtout un système de guet par <hi rend="i">diseniers</hi> la préservent du pire. Mais la nécessité de renouveler sans cesse les conventions (<hi rend="i">suffertas</hi>) avec les compagnies, les impôts royaux et l’entretien des murs obligent le consulat à gérer la ville au jour le jour. Seuls les courriers nocturnes et espions peuvent apporter des éléments sûrs pour la prévision des événements.</p>
           <p>La physionomie urbaine change profondément. Les <hi rend="i">barris</hi> sont abandonnés. Dans le quartier appelé <hi rend="i">Dins los murs,</hi> les îlots de maisons prennent les noms des grandes familles de notables qui y vivent, pour les garder jusqu’au XVIII<hi rend="sup">e </hi>siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1185971">
           <head rend="uc">Chapitre IV
            <lb/>Élevage et relations interrégionales</head>
           <p>Les registres contiennent des renseignements exceptionnels, puisqu’ils offrent les rôles nominatifs, par propriétaires de bétail, de la taxe frappant (par tête) leurs animaux qui paissent dans les herbages, pour dix-huit années réparties entre 1336 et 1395.</p>
           <p>Les chiffres obtenus pour le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle (4 575 ovins et chèvres pour l’hiver 1343) et les fluctuations saisonnières (872 dans l’été de la même année) témoignent de l’importance des courants de transhumance reliant les causses du Quercy, visités en hiver, et les monts du Massif Central, dès le XIV<hi rend="sup">e </hi>siècle. Les chiffres diminuent brutalement dès 1344 et ne retrouvent jamais, en dépit de fortes variations, leur niveau antérieur. Par ailleurs, on constate une forte concentration des troupeaux entre les mains de professionnels, <hi rend="i">pastres</hi> ou <hi rend="i">mazeliers.</hi> En 1343, des quarante-neuf propriétaires, vingt et un possèdent chacun moins de dix bêtes, mais douze en détiennent en tout 3 521. Ces gros troupeaux disparaissent pendant la guerre.</p>
           <p>Le gros bétail (bovins, chevaux) est beaucoup plus modeste, sauf entre 1342 et 1344 (388 têtes en 1344), et en 1351-1352 (120 bêtes). En moyenne, le nombre annuel de propriétaires s’établit à vingt et un.</p>
         </div>
-        <div>
+        <div xml:id="r1186007">
           <pb source="https://nakala.fr/10.34847/nkl.7c53y2vf#0bf82b79e70241258cb86fdb7f48b2091a9d1501" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c53y2vf/0bf82b79e70241258cb86fdb7f48b2091a9d1501/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>La gestion consulaire</head>
@@ -110,16 +108,16 @@
           <p>Aucune ordonnance ne précise les critères d’imposition de la taille. Mais c’est à l’évidence un impôt réel, qui frappe les biens, par exemple les chapellenies, mais non les personnes. Les nobles et ecclésiastiques le paient, depuis leur échec dans les procès qu’ils avaient intentés contre les consuls au début du <num>xiv<hi rend="sup">e</hi></num> siècle. Pour établir la liste des contribuables, l’agent consulaire suit un ordre topographique immuable, distinguant ainsi, à partir de 1348, Barri Neuf, Barri de la Peyre, quartier <hi rend="i">Dins los murs,</hi> et causse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1186069">
         <pb source="https://nakala.fr/10.34847/nkl.7c53y2vf#089bc394a3a1f6c8c674bb4c425c28da963ffada" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c53y2vf/089bc394a3a1f6c8c674bb4c425c28da963ffada/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les hommes</head>
-        <div>
+        <div xml:id="r1186082">
           <head rend="uc">Chapitre premier
            <lb/>valeur et limites des données démographiques</head>
           <p>Si l’étude démographique est possible grâce aux sources, elle s’avère délicate. Le premier travail consiste à définir une méthode d’interprétation. Il faut corriger les chiffres globaux, en ajoutant les contribuables occasionnels et en retranchant les « forains », puis intégrer au corpus de données tous les renseignements utilisables.</p>
         </div>
-        <div>
+        <div xml:id="r1186094">
           <head rend="uc">Chapitre II
            <lb/>Familles et longévités</head>
           <p>Le nombre de feux passe de 882 en 1344 à 399 en 1352, pour remonter légèrement en 1356 (421 feux). En 1382, le <hi rend="i">pati</hi> ne recense plus que 273 foyers.</p>
@@ -129,24 +127,24 @@
           <p>La liste des noms permet de mieux saisir l’éventail des « longévités familiales ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1186129">
         <pb source="https://nakala.fr/10.34847/nkl.7c53y2vf#f60b0e86fbfdcd1b591039149cb321eb08e48663" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c53y2vf/f60b0e86fbfdcd1b591039149cb321eb08e48663/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Documents et statistiques</head>
-        <div>
+        <div xml:id="r1186142">
           <head rend="uc">Dossier démographique</head>
           <p>Le dossier démographique réunit des tableaux et graphiques réalisés d’après les rôles nominatifs d’impôts des années 1344-1382. Us présentent : l’évolution globale du nombre de feux de la juridiction, son évolution par divisions topographiques (quartiers urbains, hameaux du causse) ; les effets des épidémies de 1348 et 1373-1375 : changements de responsables à la tête des feux, disparition des feux ; le renouvellement des familles ; l’éventail des fortunes d’après les cotes de tailles « a sol e lhiora » pour 1348, 1356, 1367 ; la répartition socio-professionnelle des habitants au début et à la fin de la période ; une liste des noms de famille accompagnée d’une estimation de leur « longévité » ; un tableau de données tirées du pati de 1382 (composition des foyers).</p>
         </div>
-        <div>
+        <div xml:id="r1186152">
           <head rend="uc">Pièces justificatives</head>
           <p>Choix de documents provenant du fonds municipal de Cajarc : délibération du conseil (fin du <num>xiii<hi rend="sup">e</hi></num> siècle) ; serment des meuniers (1300-1301).</p>
         </div>
-        <div>
+        <div xml:id="r1186168">
           <head rend="uc">Tableaux et graphiques</head>
           <p>Parmi divers tableaux et graphiques figurent notamment un relevé des prescriptions des coutumes de Cajarc, une liste des consuls de 1291 à 1391 et une présentation de l’évolution du cheptel entre 1336 et 1395.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1186179">
         <head rend="uc">Annexes</head>
         <p>Cartes : Cajarc et sa situation en Quercy ; le terroir au XIV’ siècle ; le noyau urbain vers 1380 (plan) ; l’origine géographique de soixante-dix familles d’après leurs noms. – Photographies.</p>
       </div>

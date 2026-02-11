@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1876_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1876_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,9 +56,9 @@
         <forename>Henry</forename>
         <surname>Martin</surname>
       </byline>
-      <div>
+      <div xml:id="r88778">
         <head rend="uc">Vénerie.</head>
-        <div>
+        <div xml:id="r88784">
           <head rend="uc">Première partie.</head>
           <p>CHAPITRE PREMIER. – Introduction. – Rois qui ont favorisé la chasse. – Bibliographie. CHAPITRE II. – Organisation de la vénerie à la Cour des rois de</p>
           <p>France :</p>
@@ -75,7 +73,7 @@
           <p>II. – A la fin du <num>xv<hi rend="sup">e</hi></num> siècle ;</p>
           <p>III. – A la fin du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r88845">
           <head rend="uc">Seconde partie.</head>
           <p>I. – Chiens employés à la chasse au moyen âge.</p>
           <p>II. – Animaux que l’on chassait.</p>
@@ -89,9 +87,9 @@
           <p>VI. – La curée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r88885">
         <head rend="uc">Fauconnerie.</head>
-        <div>
+        <div xml:id="r88891">
           <head rend="uc">Première partie.</head>
           <p>CHAPITRE PREMIER. – Bibliographie.</p>
           <p>CHAPITRE II. – Organisation de la fauconnerie à la Cour des rois de France :</p>
@@ -106,7 +104,7 @@
           <p>II. – A la fin du <num>xv<hi rend="sup">e</hi></num> siècle ;</p>
           <p>III. – A la fin du <num>xiv<hi rend="sup">e</hi></num> siècle ;</p>
         </div>
-        <div>
+        <div xml:id="r88952">
           <head rend="uc">Seconde partie.</head>
           <p>I. – Des espèces d’oiseaux employés au vol :</p>
           <p>1° Aigles.</p>

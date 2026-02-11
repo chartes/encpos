@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_25" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_25" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <surname>Reynaud</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r930323">
         <head rend="uc">Sources</head>
         <p>Les principales sources manuscrites utilisées sont, d’une part, la série 10 G des Archives départementales du Rhône (actes capitulaires de Saint-Jean), la série BB des Archives municipales de Lyon (registres des Consuls de 1450 à 1490) ; d’autre part, ont été utilisés plusieurs manuscrits français et latins du département des manuscrits de la Bibliothèque nationale, ainsi que des documents des séries P et PP des Archives nationales (titres de la maison de Bourbon) ; quelques sondages ont été effectués aux Archives du Vatican.</p>
       </div>
@@ -65,60 +63,60 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r930342">
         <head rend="uc">Première partie
          <lb/>Sous Charles VII (1434-1461)</head>
-        <div>
+        <div xml:id="r930350">
           <head rend="uc">Chapitre premier
            <lb/>jeunesse et éducation</head>
           <p>En 1434, le troisième fils du duc Charles I<hi rend="sup">er</hi> de Bourbon et de la duchesse Agnès de Bourgogne naissait à Moulins. Il reçut une éducation soignée et, bien que destiné dès sa dixième année à une carrière ecclésiastique, il se familiarisa avec le luxe et les richesses de la cour de Bourgogne où son oncle maternel, Phi<pb source="https://nakala.fr/10.34847/nkl.465exin3#6146392dd0471aaa5580431a3190a333b6d7bead" n="194" facs="https://api.nakala.fr/iiif/10.34847/nkl.465exin3/6146392dd0471aaa5580431a3190a333b6d7bead/full/full/0/default.jpg"/>lippe le Bon, accueillait avec générosité tous les enfants de la famille de Bourbon. Le jeune Charles se lia d’amitié avec son frère aîné Jean, comte de Clermont, le futur duc Jean II de Bourbon. Dès son adolescence également, Charles noua des rapports amicaux avec le dauphin Louis, réfugié en Bourgogne en 1456.</p>
         </div>
-        <div>
+        <div xml:id="r930371">
           <head rend="uc">Chapitre II
            <lb/>Élection archiépiscopale de Jean de Bourbon
            <lb/>et canonicat donné à Charles (13 mars 1444)</head>
           <p>A la mort de l’archevêque de Lyon, Amédée de Talaru, les chanoines comtes de Saint-Jean élirent l’évêque du Puy, Jean de Bourbon, frère bâtard du duc Charles I<hi rend="sup">er</hi>. A la demande de son père, ils avaient reçu chanoine le jeune Charles âgé de dix ans. Le 13 mars 1444, les témoins apportaient les preuves de noblesse du jeune prince, condition <hi rend="i">sine qua non</hi> de l’entrée au chapitre noble de Saint-Jean de Lyon.</p>
           <p>Charles VII ne voulait pas d’un prince de la maison de Bourbon sur le trône archiépiscopal de Lyon et ordonna aux chanoines de suspendre l’élection de Jean de Bourbon, qui se démit en faveur de son neveu Charles.</p>
         </div>
-        <div>
+        <div xml:id="r930396">
           <head rend="uc">Chapitre III
            <lb/>Élection de Charles de Bourbon à l’archevêché de Lyon
            <lb/>et procès avec Geoffroi de Vassali (1444-1447)</head>
           <p>Le 7 avril 1444, les chanoines de Saint-Jean élirent à l’unanimité Charles de Bourbon, l’un d’entre eux, archevêque de Lyon, conformément aux canons du concile de Latran et de la Pragmatique Sanction de 1438. Mais le pape Eugène IV avait nommé entre temps Geoffroi de Vassali pour succéder à Amédée de Talaru, en vertu du droit de nomination qu’il prétendait avoir cette fois-là. Charles VII accepta la nomination de Geoffroi de Vassali pour complaire au pape ; jusqu’en 1446, un procès se traîna en longueur devant le Parlement de Paris ; finalement, le roi céda au chapitre et reconnut l’élection de Charles de Bourbon. Eugène IV, en 1447, envoya le <hi rend="i">pallium</hi> au nouvel archevêque ; il nommait Jean du Gué administrateur général du diocèse jusqu’à ce que Charles eût atteint sa vingt-cinquième année.</p>
         </div>
-        <div>
+        <div xml:id="r930414">
           <pb source="https://nakala.fr/10.34847/nkl.465exin3#93233116510e25fc8b792727c9edb54f2a4cdb29" n="195" facs="https://api.nakala.fr/iiif/10.34847/nkl.465exin3/93233116510e25fc8b792727c9edb54f2a4cdb29/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Administration de Souvigny. Demeures et mobilier</head>
           <p>En 1454, Charles de Bourbon inaugurait sa carrière ecclésiastique en pénétrant avec une troupe de soldats dans son prieuré de Souvigny en Bourbonnais ; il s’y familiarisa avec ses futures fonctions d’administrateur et de chef d’une communauté. A Lyon, il fit construire dans l’enceinte du cloître Saint-Jean un palais à la florentine où il établit sa résidence ; des inventaires dressés par ses maîtres d’hôtel permettent de se rendre compte du mobilier entreposé dans les différentes demeures du prélat, à Lyon, à Paris et à Souvigny. Charles de Bourbon avait une particulière prédilection pour les tapisseries et les tissus.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r930432">
         <head rend="uc">Deuxième partie
          <lb/>Sous Louis XI (1461-1483)</head>
-        <div>
+        <div xml:id="r930440">
           <head rend="uc">Chapitre premier
            <lb/>la guerre du bien public</head>
           <p>A l’occasion du sacre de Louis XI à Paris en 1461, le duc Jean II de Bourbon renoua avec le duc de Bourgogne des relations très amicales et prépara avec lui la révolte qui devait éclater en 1465. Charles de Bourbon passa toutes ces années à la cour de Bourgogne. Aidé et soutenu par son chapitre cathédral, Charles resta aux côtés de son frère pendant la guerre et reçut avec tous ses gens sa part du pardon royal en 1466.</p>
         </div>
-        <div>
+        <div xml:id="r930452">
           <head rend="uc">Chapitre II
            <lb/>Consécration épiscopale et ambassade à Rome (1466)</head>
           <p>Les difficultés rencontrées par le roi Louis XI dans sa politique avec le Saint-Siège et les problèmes soulevés par l’application de la Pragmatique Sanction en France poussèrent le souverain à envoyer une solennelle ambassade à Rome, afin de prêter obédience à Paul II. Charles de Bourbon fut choisi par le roi ; avant de partir, il fut consacré archevêque dans la cathédrale lyonnaise <pb source="https://nakala.fr/10.34847/nkl.465exin3#8ef6a021c4a5c914a23b4ae2104b10a365a7588c" n="196" facs="https://api.nakala.fr/iiif/10.34847/nkl.465exin3/8ef6a021c4a5c914a23b4ae2104b10a365a7588c/full/full/0/default.jpg"/>au cours d’une grandiose cérémonie. Après avoir pris possession du temporel de son église, il présida un synode diocésain et partit, en compagnie de Thibaut de Luxembourg, pour Rome, où il demeura plusieurs mois. Chargé de résoudre un certain nombre de questions de politique étrangère avec le pape et les souverains alliés du Saint-Père, comme le roi Ferrand de Naples, en guerre avec le prince de Florence, protégé de Louis XI, l’archevêque de Lyon subit à Rome un demi-échec, mais y obtint de nombreuses compensations personnelles.</p>
         </div>
-        <div>
+        <div xml:id="r930469">
           <head rend="uc">Chapitre III
            <lb/>La guerre avec la Bourgogne (1468-1470)</head>
           <p>L’attitude sécessioniste de Liège et la révolte contre le prince-évêque Louis de Bourbon entretenaient un climat de violence dans les États bourguignons de Charles le Téméraire. Les princes de Bourbon furent compromis avec leur mère, la duchesse douairière Agnès, mais le roi se les attacha très étroitement ; en juillet 1468, Charles de Bourbon réussit à obtenir une prolongation de la trêve avec son beau-frère de Bourgogne. Il était présent aux côtés du roi à Péronne et participa à l’assaut donné à la ville révoltée de Liège ; accompagnant encore le roi, il revint à Paris et assista à la remise du chapeau de cardinal à Jean Balue, évêque d’Angers, en novembre de la même année.</p>
         </div>
-        <div>
+        <div xml:id="r930481">
           <head rend="uc">Chapitre IV
            <lb/>Le service du roi (1472-1474) : la légation d’Avignon</head>
           <p>Depuis quelques années, le roi désirait que le pape accordât à Charles de Bourbon la légation et le gouvernement d’Avignon, afin d’avoir une créature à lui dans ces régions encore peu soumises à l’influence royale. Charles de Bourbon, en 1470, était devenu le parrain du dauphin Charles, le roi s’ingéniant à resserrer les liens avec ses fidèles serviteurs.</p>
           <p>Le pape Paul II paraissait vouloir céder aux demandes pressantes de Louis XI pour son protégé, lorsqu’il mourut en 1471. Son successeur, Sixte IV, accorda tout de suite la légation à Charles, à qui la bulle de nomination fut apportée par le cardinal Bessarion en juillet 1472.</p>
           <p>Avant d’aller prendre en personne possession de son gouvernement, Charles de Bourbon célébra le mariage de son frère, Pierre de Beaujeu, avec la fille de Louis XI, Anne de France. A Avignon où il séjourna jusqu’en juillet 1474, le légat s’occupa à régler divers conflits contentieux entre les consuls et les officiers royaux ou les sujets du roi René.</p>
         </div>
-        <div>
+        <div xml:id="r930499">
           <pb source="https://nakala.fr/10.34847/nkl.465exin3#8796959116224411eeead239020c31afdf19b70a" n="197" facs="https://api.nakala.fr/iiif/10.34847/nkl.465exin3/8796959116224411eeead239020c31afdf19b70a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Guerre avec Julien de la Rovère (1476)
@@ -128,21 +126,21 @@
           <p>Après la mort de Charles le Téméraire, Charles de Bourbon fut envoyé par le roi pour recevoir les serments des habitants d’Arras. En 1482, il ratifia le traité d’Arras avec le futur empereur Maximilien.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r930525">
         <head rend="uc">Troisième partie
          <lb/>Épiscopat et mécénat à Lyon</head>
-        <div>
+        <div xml:id="r930533">
           <head rend="uc">Chapitre premier
            <lb/>mécénat</head>
           <p>Il existe un portrait de Charles de Bourbon par le Maître de Moulins ; un autre portrait orne le vitrail dit « des ducs » à Moulins, dans la cathédrale que la piété du cardinal le poussa à doter d’un vitrail du Crucifiement et d’un Calvaire. La clientèle d’artistes, musiciens, peintres, historiens qui entourait le prélat recevait de nombreuses marques de sa générosité. Charles de Bourbon s’intéressa particulièrement au développement de l’imprimerie à Lyon et acquit, par son amour des lettres, une place privilégiée dans le cénacle pré-humaniste de son époque.</p>
         </div>
-        <div>
+        <div xml:id="r930545">
           <head rend="uc">Chapitre II
            <lb/>Administration diocésaine</head>
           <p>Retenu auprès du roi par son activité diplomatique, l’archevêque de Lyon était remplacé par des vicaires généraux qui furent des hommes de grande valeur. Choisis parmi les membres du chapitre avec lequel l’archevêque partageait la juridiction sur la ville de Lyon, les vicaires disposaient d’un conseil <pb source="https://nakala.fr/10.34847/nkl.465exin3#8626e6e0fc1db2e302b7a61a3fd5a80a9fd59cce" n="198" facs="https://api.nakala.fr/iiif/10.34847/nkl.465exin3/8626e6e0fc1db2e302b7a61a3fd5a80a9fd59cce/full/full/0/default.jpg"/>diocésain qui réglait les différents avec le consulat. L’archevêque avait à Lyon un droit de banvin, de copponage et d’autres droits seigneuriaux qui lui étaient fréquemment contestés par les citoyens lyonnais. Cependant, Charles de Bourbon vivait en bon voisinage avec la ville, qui s’évertuait à le fêter par des réceptions ou des cadeaux de tous genres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r930563">
         <head rend="uc">Quatrième partie
          <lb/>Le rôle du cardinal
          <lb/>pendant le règne de Charles VIII (1483-1488)</head>
@@ -153,7 +151,7 @@
         <head rend="uc">Pièces justificatives</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r930589">
         <head rend="uc">Appendices</head>
         <p>I. La chapelle des Bourbons à la cathédrale de Saint-Jean de Lyon. – II. Liste nominative des officiers du diocèse en 1485.</p>
       </div>

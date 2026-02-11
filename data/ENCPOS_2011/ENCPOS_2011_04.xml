@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2011_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2011_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,21 +53,21 @@
         <surname>Boreau de Roincé</surname>
         <roleName>diplômée de master</roleName>
       </byline>
-      <div>
+      <div xml:id="r1514386">
         <head>Introduction</head>
         <p>Héritage de l’œuvre de Louis XIV, les jardins de Versailles sont les témoins de la création artistique et des usages du Grand Siècle. Au <num>xviii<hi rend="sup">e</hi></num> siècle, ils sont au centre d’un débat entre partisans et détracteurs. Les critiques vont dans deux directions : on déplore leur abandon et leur vieillissement, et on se plaint de l’ennui qui y règne. Ce manque d’intérêt dénoncé dans les jardins est contredit par les guides officiels qui présentent une vision grandiose du parc de Versailles. Entre célébration et dénigrement, se pose alors la question de l’avenir du jardin à la française, question d’autant plus légitime que l’art des jardins, reposant sur des éléments vivants, subit des transformations excessivement rapides. Création du <num>xvii<hi rend="sup">e</hi></num> siècle, cette mode du jardin symétrique se heurte aux différentes évolutions du siècle suivant, qui viennent remettre en cause le jardin à la française : évolution des préféfrences en matière de jardin, avec l’apparition du jardin à l’anglaise, évolution des goûts de la cour en matière de promenade et de divertissement, évolution de la fréquentation par le roi et par le peuple.</p>
         <p>Grâce à l’homogénéité des sources, l’étude des jardins porte sur l’ensemble des deux règnes de Louis XV et Louis XVI, à partir du retour de la cour à Versailles en 1722. D’un point de vue spatial, elle se limite aux jardins proprement dits, comprenant les terrasses, les bosquets, le Grand Canal et la Pièce d’eau des Suisses. Elle exclut donc le Petit Trianon. Consacrée à la transformation des jardins sur un siècle, cette recherche ne se limite pas à une étude spatiale, mais se penche aussi sur les usages pratiqués dans les jardins, étudiés sous l’angle de l’histoire de l’art, pour comprendre leur impact sur l’évolution de l’espace.</p>
         <p>La question se pose donc du devenir du jardin à la française : comment Versailles s’inscrit-il dans la continuité de l’œuvre de Louis XIV ? Comment l’espace des jardins se transforme-t-il au <num>xviii<hi rend="sup">e</hi></num> siècle, et quels sont les liens entre cette nouvelle spatialité et les usages des jardins ?</p>
       </div>
-      <div>
+      <div xml:id="r1514419">
         <head>Sources</head>
         <p>L’étude de l’évolution de l’espace des jardins et des usages qui y prennent place mobilise des sources que l’on peut classer en trois grandes catégories : les sources manuscrites, les sources figurées et les sources imprimées. Les sources manuscrites principales sont conservées aux Archives nationales, avec les archives de la Maison du roi, parmi lesquelles on compte celles de la direction des Bâtiments du roi (avec l’administration générale et les comptes, le château, les pépinières), et celles des Menus Plaisirs. Les archives départementales des Yvelines contiennent aussi des sources concernant le domaine de Versailles, ainsi que les registres de la prévôté de l’Hôtel. Enfin, la bibliothèque municipale de Versailles renferme des sources importantes, notamment sur la garde.</p>
         <p>Les sources figurées, plans et cartes, sont conservées pour la plupart aux Archives nationales, au service des Cartes et Plans, mais aussi à la bibliothèque municipale de Versailles, tandis que le musée de Versailles donne de nombreuses représentations des jardins au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         <p>Enfin les récits des mémorialistes, parmi lesquels surtout le duc de Croÿ et le duc de Luynes, livrent la vision que les contemporains pouvaient avoir des jardins, alors que la réflexion théorique s’accompagne de la rédaction de traités sur le jardinage, la botanique ou les spectacles d’extérieur comme les feux d’artifice.</p>
       </div>
-      <div>
+      <div xml:id="r1514440">
         <head>Première partie <lb/>L’espace des jardins de Versailles au <num>xviii<hi rend="sup">e</hi></num> siècle : entretien et grands travaux</head>
-        <div>
+        <div xml:id="r1514453">
           <head>Première section <lb/>Le règne de Louis XV</head>
           <div>
             <head>Chapitre premier <lb/>L’entretien quotidien des jardins pendant le <num>xviii<hi rend="sup">e</hi></num> siècle : évolution de l’espace et art du jardinage</head>
@@ -86,7 +84,7 @@
             <p>Aucune autre entreprise d’une telle envergure ne vient marquer le <num>xviii<hi rend="sup">e</hi></num> siècle avant le règne de Louis XVI.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1514541">
           <head>Deuxième section <lb/>Le règne de Louis XVI : l’épisode de la replantation</head>
           <div>
             <head>Chapitre premier <lb/>Les origines de la replantation</head>
@@ -111,9 +109,9 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1514626">
         <head>Deuxième partie <lb/>Dans l’espace renouvelé du <num>xviii<hi rend="sup">e</hi></num> siècle, l’évolution des usages dans les jardins</head>
-        <div>
+        <div xml:id="r1514639">
           <head>Première section <lb/>Les usages du roi et de la cour</head>
           <div>
             <head>Chapitre premier <lb/>De l’acte politique de mise en scène au délassement : promenade royale et divertissement de la cour</head>
@@ -131,7 +129,7 @@
             <p>Cependant, malgré l’ampleur des dépenses consacrées à ces événements, le roi ne descend quasiment jamais dans les jardins pendant ces festivités. Les fêtes de 1770 ont une importance particulière dans l’histoire de ces réjouissances dans les jardins, car elles introduisirent une dimension populaire très forte, dans une logique de spectacle de foire.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1514696">
           <head>Deuxième section <lb/>Les usages du peuple</head>
           <div>
             <head>Chapitre premier <lb/>La place du peuple dans les jardins, l’évolution de la fréquentation et des usages</head>
@@ -150,7 +148,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1514772">
         <head>Conclusion</head>
         <p>À la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, l’espace des jardins de Versailles est resté pratiquement le même : les travaux ont été exécutés dans le prolongement du siècle de Louis XIV et les grandes entreprises du règne de Louis XVI ont respecté l’architecture générale prévue par Le Nôtre. La transformation des usages s’inscrit dans la même logique que l’évolution de l’entretien, où les décennies 1750-1770, victimes d’un manque de soins, voient les jardins moins fréquentés. À côté de cette influence réciproque entre entretien et usages, de nouvelles pratiques viennent concrétiser la transformation du jardin à la française, et montrer une forme d’échec dans l’adaptation des jardins de Versailles aux goûts du jour. Les usages de fête dévoilent une diminution du rôle des jardins dans l’élaboration des festivités, où ils ne servent plus que de décors insuffisants à la célébration d’un événement. Les usages de promenade montrent une tension entre jardin officiel et jardin privé, le parc pouvant difficilement assumer le rôle de reflet de l’étiquette et du lustre de la monarchie et servir de décor et de réceptacle à la vie intime du roi. L’étude des usages dans les jardins montre donc les tensions qui traversent tout le siècle : tension entre l’immensité du jardin et les goûts plus intimes de la cour, tension entre l’image donnée dans les guides officiels et l’état négligé de la deuxième partie du siècle, tension entre l’indifférence de Louis XV et les efforts de l’administration pour conserver la décence d’un espace royal, tension enfin entre le besoin de renouveler un jardin vieillissant et l’absence de fonds pour y subvenir. Finalement, dans cette volonté de préservation des jardins qui limite les usages du peuple, et dans l’échec de l’adaptation des jardins aux goûts plus intimes de la cour, le jardin devient étranger autant à la cour qu’au peuple. Il prend alors une place nouvelle dans la littérature et dans l’art, avant de devenir le musée de plein air qu’il est aujourd’hui.</p>
       </div>

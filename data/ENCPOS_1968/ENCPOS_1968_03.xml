@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,28 +53,28 @@
         <forename>Geneviève</forename>
         <surname>Ceccaldi</surname>
       </byline>
-      <div>
+      <div xml:id="r888776">
         <head rend="uc">Introduction</head>
         <p>Valognes n’est pas une ville de province ordinaire. On disait de cette ville, au <num>xviii<hi rend="sup">e</hi></num> siècle, qu’elle était le « Petit Versailles normand », la « Cour du Cotentin », et qu’il fallait « trois mois de Valognes pour achever un homme de cour » (<hi rend="i">Turcaret,</hi> acte V, scène 6).</p>
         <p>Valognes, nœud routier, centre administratif et commercial, très bien située au cœur du Cotentin, attirait la population des environs, particulièrement les nobles, qui préféraient la ville à leurs sombres châteaux des campagnes. Elle était déjà importante et riche au <num>xvii<hi rend="sup">e</hi></num> siècle, mais, au <num>xviii<hi rend="sup">e</hi></num> siècle, elle brilla d’un éclat particulier : la haute société valognaise de nobles et d’anoblis lui donna un caractère aristocratique qui fit de cette ville « la plus polie et la plus spirituelle de Basse-Normandie ».</p>
       </div>
-      <div>
+      <div xml:id="r888811">
         <head rend="uc">Sources</head>
         <p>Les Archives de la Manche ayant été en grande partie détruites en 1944, les principales sources consultées ont été les fonds notariaux (ventes, donations, contrats de mariages, inventaires après décès...) et l’importante série C (Intendance) des Archives du Calvados.</p>
         <p>Les registres de délibérations municipales conservés à la Bibliothèque de Valognes ont permis d’étudier la vie publique des nobles. Les registres de catholicité de la paroisse Saint-Malo ont complété ces informations.</p>
       </div>
-      <div>
+      <div xml:id="r888824">
         <pb source="https://nakala.fr/10.34847/nkl.fd21y6e5#af377cede0e3279a70eecb7f421ff60c85da17d5" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd21y6e5/af377cede0e3279a70eecb7f421ff60c85da17d5/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La ville au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r888843">
           <head rend="uc">Chapitre premier
            <lb/>topographie de la ville</head>
           <p>Un plan de 1767 de l’ingénieur Le Rouge restitue la topographie de la ville au <num>xviii<hi rend="sup">e</hi></num> siècle. Bâtie sur un terrain calcaire aux pieds de l’ancienne <hi rend="i">Alauna </hi>romaine détruite par un incendie au <num>iii<hi rend="sup">e</hi></num> siècle, Valognes n’a aucun plan fixe, aucune ligne de construction directrice.</p>
           <p>Six croix marquent sur le terrain les limites de la franche-bourgeoisie et séparent la ville elle-même des hameaux et écarts. De nombreux cours d’eau l’arrosent (le Merderet, l’Écoute-s’il-pleut ou Ruisseau Saint-Jean, le Gravier, le Tremblet). Au <num>xviii<hi rend="sup">e</hi></num> siècle, la ville perd son aspect médiéval, son château est rasé (1689) et remplacé par une place plantée d’ormes, ses voies sont élargies, de nouvelles routes percées, notamment celle de Valognes à Cherbourg, un quartier neuf (le Bourg-neuf) surgit, à l’instigation d’une famille noble valognaise, les Poerier, qui voulut favoriser un mouvement de population dans ces parages.</p>
           <p>Dans les rues de Valognes, on compte maintes propriétés très vastes, et les hôtels particuliers, au nombre d’une soixantaine, possèdent de grands jardins. Des rues et passages appelés « chasses » longent les hauts murs de ces hôtels et mènent directement dans la campagne.</p>
         </div>
-        <div>
+        <div xml:id="r888883">
           <head rend="uc">Chapitre II
            <lb/>Importance de Valognes au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>Important carrefour de routes, Valognes était à la fois centre commercial, siège principal de l’administration et de la justice et ville de garnison. Elle était en outre un centre religieux très considéré.</p>
@@ -87,7 +85,7 @@
           <p>Important centre religieux enfin, Valognes comprenait deux paroisses (Saint-Malo et Alleaume) et une officialité. Un séminaire fut établi en 1654, et trois couvents témoignaient de l’intensité de la vie spirituelle : les Cordeliers (<num>xv<hi rend="sup">e</hi></num> siècle), les bénédictines (<num>xvii<hi rend="sup">e</hi></num> siècle) et les capucins (<num>xvii<hi rend="sup">e</hi></num> siècle).</p>
           <p>Cette ville si prospère au début du siècle vit peu à peu ses revenus diminuer, son commerce s’affaiblir et sa population l’abandonner. Le roi en multipliant les créations d’offices accrut le nombre des privilégiés et accabla les communautés. La guerre de Sept-Ans consacra le début de cette décadence, la désaffection pour la chose publique se fit sentir et, à la fin du siècle, Valognes était devenue bien pauvre, alors que Cherbourg, sa rivale, prenait plus d’importance.</p>
         </div>
-        <div>
+        <div xml:id="r888945">
           <head rend="uc">Chapitre III
            <lb/>Les monuments</head>
           <p>Au <num>xviii<hi rend="sup">e</hi></num> siècle, les édifices particuliers ou religieux furent transformés au goût du jour, de nouvelles demeures furent élevées.</p>
@@ -95,7 +93,7 @@
           <p>On se souciait davantage des demeures particulières, maisons importantes donnant sur la rue ou hôtels entre cour et jardin. La dernière guerre mondiale a beaucoup modifié le visage de Valognes ; une vingtaine de ces vieilles demeures subsistent néanmoins toujours. L’hôtel le plus somptueux est l’hôtel de Beaumont mais, malgré son faste, il ne reflète pas la parfaite image du Valognes du <num>xviii<hi rend="sup">e</hi></num> siècle. Les autres, solennels mais sans prétention, lui donnent une figure plus vraie. Pour évoquer Valognes, il faut aussi mentionner les maisons des simples artisans et des marchands, ainsi que celles des riches tanneurs.</p>
           <p>Les édifices religieux étaient nombreux et importants. Transformés, agrandis, embellis, ils donnaient fière allure à la ville. Celle-ci fit alors la « Grande Dame » et attira les plus nobles familles de la région. Elle devint au <num>xviii<hi rend="sup">e</hi></num> siècle une ville aristocratique.</p>
         </div>
-        <div>
+        <div xml:id="r888984">
           <pb source="https://nakala.fr/10.34847/nkl.fd21y6e5#2c27998484627232b47f6e1601dfe27826477a43" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd21y6e5/2c27998484627232b47f6e1601dfe27826477a43/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Valognes, séjour de la noblesse</head>
@@ -104,16 +102,16 @@
           <p>Valognes, ville plutôt administrative et judiciaire, aurait dû attirer plus de bourgeois que de nobles ; on y comptait cependant déjà, à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, maints gentilshommes qui s’y étaient installés par pur intérêt, la ville n’étant point soumise au tarif : ils étaient donc exempts de tous droits. Les enrichis du barreau et de la finance achetèrent les lettres de noblesse que le roi distribuait volontiers et imitèrent les nobles qui avaient déjà établi leur demeure à Valognes. Une nouvelle société se forma peu à peu. Des coutumes et des traditions y établirent un certain climat, les hôtels connurent une existence brillante, et ce fut l’heure du grand ton valognais dont parle Madame Turcaret. Mais cette société de gentilshommes et de privilégiés, trop nombreux à la fin du siècle, amena la ruine de la ville.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r889014">
         <head rend="uc">Deuxième partie
          <lb/>Les nobles dans la vie publique</head>
-        <div>
+        <div xml:id="r889022">
           <head rend="uc">Chapitre premier
            <lb/>les nobles et la vie militaire</head>
           <p>La noblesse, de tout temps, se dut au service du roi. La noblesse de Valognes ne faillit pas à cet appel et l’on compte dans ses familles maints fils aînés morts ou blessés pour la cause royale. Officiers d’infanterie, de cavalerie, d’artillerie ou de marine, ingénieurs militaires, gouverneurs ou officiers de la milice <pb source="https://nakala.fr/10.34847/nkl.fd21y6e5#45348ec6035207affd1010712e8f4337d3c43f88" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd21y6e5/45348ec6035207affd1010712e8f4337d3c43f88/full/full/0/default.jpg"/>bourgeoise, ils se distinguèrent particulièrement lors des guerres franco-anglaises. La bataille de la Hougue, notamment, marqua l’histoire du Cotentin. Plusieurs récits de témoins oculaires nous sont parvenus, plus ou moins partiaux et souvent confus. Les certificats de service de la noblesse sont élogieux ; l’un des nobles, le gouverneur Morel de Courcy, leva en 1708 une armée de volontaires, en partie équipée à ses frais, pour renforcer les troupes régulières campées sur la côte. Bien que le goût des armes ait connu un certain recul au cours du <num>xviii<hi rend="sup">e</hi></num> siècle, la guerre de Sept-Ans et les défaites eurent raison de cet assoupissement et on constate à la fin du siècle une réaction militaire bientôt doublée d’une réaction nobiliaire.</p>
           <p>Si la noblesse excellait aux armées, elle mettait bien peu d’ardeur à loger les officiers de passage dans la ville. Trop attachée à ses privilèges, elle entra en conflit avec le tiers-état à propos du casernement des troupes, à la fin du siècle (1778-1780) lorsqu’un « cas de foule » fut prononcé. Une minorité se plia d’abord aux exigences du roi, puis la noblesse entière dut capituler.</p>
         </div>
-        <div>
+        <div xml:id="r889048">
           <head rend="uc">Chapitre II
            <lb/>Les nobles et la vie administrative</head>
           <p>La noblesse dont le seul honneur était jadis de courir aux armes s’immisça peu à peu dans les affaires administratives primitivement réservées à la bourgeoisie. C’est, d’autre part, par ce biais qu’un bon nombre de bourgeois parvinrent à la noblesse.</p>
@@ -122,7 +120,7 @@
           <p>C’est dans les affaires municipales que les nobles jouèrent le plus grand rôle, acquérant des offices municipaux, assistant aux assemblées des trois états et participant à la vie de la ville. Leurs principales fonctions furent celles de maire et de notable, mais les tâches municipales étaient ingrates et, à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, les nobles se désintéressèrent de la chose publique et se démirent de leurs charges sous des prétextes plus ou moins sincères.</p>
           <p>Les conflits de corps entre nobles et bourgeois et les conflits de personnes <pb source="https://nakala.fr/10.34847/nkl.fd21y6e5#7d214748f4f45d86e1961c9c51f448ba2e74cc8e" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd21y6e5/7d214748f4f45d86e1961c9c51f448ba2e74cc8e/full/full/0/default.jpg"/>étaient fréquents : le malheureux maire Colleville s’aliéna la noblesse de Valognes pour avoir trop souhaité le bien du peuple.</p>
         </div>
-        <div>
+        <div xml:id="r889083">
           <head rend="uc">Chapitre III
            <lb/>Autres activités des nobles</head>
           <p>Les nobles s’orientaient plutôt vers la carrière militaire ou la vie administrative. On note cependant quelques activités secondaires.</p>
@@ -132,11 +130,11 @@
           <p>Le commerce en gros ne faisait plus déroger depuis 1701 ; on interdisait seulement aux nobles d’avoir boutique sur la rue. Les seules mentions de vrai négoce dont on ait la trace chez les nobles valognais sont produites à propos de fraude. C’est ainsi qu’une affaire de contrebande, avec les îles anglaises, de bas, étoffes de velours et de soie, épices (canelle, girofle) et tabac remua la Normandie à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle ; le chevalier de Rantot en fut l’instigateur et principal chef. Les entrepôts étaient soigneusement organisés et les liaisons avec des marchands de Paris bien assurées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r889120">
         <pb source="https://nakala.fr/10.34847/nkl.fd21y6e5#9431b11684cb9dea75ab56440a4925d9fa5bf815" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd21y6e5/9431b11684cb9dea75ab56440a4925d9fa5bf815/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>La fortune des nobles</head>
-        <div>
+        <div xml:id="r889133">
           <head rend="uc">Chapitre premier
            <lb/>les revenus</head>
           <p><hi rend="i">Propriété foncière.</hi> – C’est sur les biens fonciers que reposait l’essentiel de la richesse nobiliaire. Le nombre des terres et seigneuries variait en fonction de l’ancienneté de la noblesse et du patrimoine et en fonction de la fortune. Les terres étaient acquises sur des terrains nouvellement défrichés ou asséchés, ou achetées, ou remises en dot ou bien encore transmises par succession. La Normandie possédait un régime dotal qui lui était propre et des dispositions coutumières qui évitaient l’émiettement du patrimoine.</p>
@@ -152,7 +150,7 @@
           <p>L’importance et le prix des propriétés étaient très variables. Un même hôtel pouvait être la propriété de plusieurs personnes. Certains louaient des appartements.</p>
           <p>En somme, les revenus étaient modestes, mais honorables et sûrs. Ils permettaient à cette haute société de soutenir son rang avec plus ou moins de luxe.</p>
         </div>
-        <div>
+        <div xml:id="r889192">
           <head rend="uc">Chapitre II
            <lb/>Les impositions</head>
           <p><hi rend="i">La taille.</hi> – L’impôt du sang tenait lieu de taille aux nobles. Toutefois, les gentilshommes qui faisaient valoir par leurs mains une étendue de terre de la valeur de plus de trois charrues étaient imposés.</p>
@@ -163,7 +161,7 @@
           <p><hi rend="i">Les autres impositions.</hi> – Les nobles étaient soumis notamment aux droits d’usages qu’ils payaient par moitié avec les autres taillables et dont, seuls, les seigneurs tréfonciers étaient déchargés. Il fallait définir quelle était la part commune des gentilshommes à certains biens fonds et quels étaient ceux qui pouvaient être qualifiés de seigneurs tréfonciers. Il s’ensuivait de nombreux conflits et contestations.</p>
           <p>La noblesse participait également aux impositions extraordinaires ; elle s’y soumettait avec plus ou moins de bonne grâce. A la fin du siècle, furent créés deux impôts sur tous les propriétaires possédant fonds (impôt territorial et impôt pour l’entretien des bâtiments de justice, 1779) ; les sommes à répartir étaient minimes mais la noblesse dut se soumettre, et ceci consacra un pas vers l’égalité de l’impôt.</p>
         </div>
-        <div>
+        <div xml:id="r889236">
           <head rend="uc">Chapitre III
            <lb/>Les grands actes de la vie quotidienne</head>
           <p>Les mariages et les successions étaient très importants dans l’établissement de cette fortune.</p>
@@ -172,11 +170,11 @@
           <p>Le régime coutumier normand assurait la conservation du patrimoine par la constitution du tiers coutumier (un tiers du bien des époux était réservé au profit des enfants) et du préciput (l’aîné prenait par préciput la meilleure partie du patrimoine paternel). Les partages de successions donnaient lieu à maints procès : d’importants intérêts étaient en effet en jeu, les successions accroissant – parfois considérablement – une fortune déjà acquise. Dans la mesure du possible, on réglait les affaires à l’amiable.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r889258">
         <pb source="https://nakala.fr/10.34847/nkl.fd21y6e5#793a69eb5802f446939310eee6005c9744fabd94" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd21y6e5/793a69eb5802f446939310eee6005c9744fabd94/full/full/0/default.jpg"/>
         <head rend="uc">Quatrième partie
          <lb/>Les nobles dans la vie quotidienne</head>
-        <div>
+        <div xml:id="r889271">
           <head rend="uc">Chapitre premier
            <lb/>le train de vie</head>
           <p>Les quartiers résidentiels sont ceux du Gisors, de la place du Calvaire, de la rue de Poterie et de la rue des Religieuses. La demeure la plus caractéristique est l’hôtel, habité par une famille et sa domesticité ; il comporte tout au plus deux étages, se compose d’un ou deux corps de logis agrémentés d’une cour devant et d’un jardin à l’arrière ; on y accède généralement par une importante porte-cochère. Les dimensions étaient variables ; un grand hôtel avait une surface de trente ares. Grand ou petit, plus ou moins confortable, loué ou tenu en propriété, les nobles le préférait toujours, l’hiver, à leurs austères châteaux.</p>
@@ -186,7 +184,7 @@
           <p>Les équipages témoignaient aussi du train de vie. Les meilleurs possédaient un ou deux carrosses. Les moins riches n’avaient qu’une berline, et bon nombre ne se déplaçaient qu’en chaise à porteurs.</p>
           <p>Un nombre important de domestiques était un signe de richesse. Or un tiers des nobles valognais n’avait qu’un seul domestique, six seulement en avaient plus de dix : la haute société n’était donc pas très aisée.</p>
         </div>
-        <div>
+        <div xml:id="r889298">
           <pb source="https://nakala.fr/10.34847/nkl.fd21y6e5#583100b5943bed7a7de5f803359b4f3d062969d2" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd21y6e5/583100b5943bed7a7de5f803359b4f3d062969d2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Vie de société et vie intellectuelle</head>
@@ -197,7 +195,7 @@
           <p>Les échanges de livres entre particuliers étaient fréquents, ils témoignent de l’intensité de la vie intellectuelle. Depuis 1719, les Valognais pouvaient en outre profiter d’une bibliothèque publique fondée par Julien de Laillier, curé de la paroisse Saint-Malo. Les jeunes Valognais étaient formés au collège dirigé par les eudistes ; on leur enseignait la philosophie, le latin, la rhétorique, les mathématiques. Les élèves soutenaient des thèses en public et jouaient des pièces de théâtre. En 1774, l’ampleur prise par le collège fut une des causes de la chute de l’école de latin de Cherbourg.</p>
           <p>Les jeunes filles recevaient la bonne éducation des religieuses bénédictines.</p>
         </div>
-        <div>
+        <div xml:id="r889348">
           <head rend="uc">Chapitre III
            <lb/>Foi et charité</head>
           <p>La pratique de la religion était surtout fondée sur la tradition et, pour les nobles, elle était la condition d’un certain nombre de privilèges auxquels ils étaient très attachés (droits de banc, de sépulture dans leur paroisse ou dans les <pb source="https://nakala.fr/10.34847/nkl.fd21y6e5#1f3eef1398dd1a916d9ad6aa401f52223cb1d69a" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd21y6e5/1f3eef1398dd1a916d9ad6aa401f52223cb1d69a/full/full/0/default.jpg"/>couvents dont ils étaient les bienfaiteurs, droit de patronage). Cette piété se manifestait également par des donations au clergé et par de nombreuses fondations. Les nobles faisaient en outre partie de confréries dont la plus importante était la confrérie du Saint-Sacrement.</p>
@@ -205,12 +203,12 @@
           <p>Les sentiments profonds nous ont semblé être sincères pour beaucoup, mais on ne peut affirmer que certains n’étaient pas mus seulement par la tradition ou le souci de la popularité. Au <num>xviii<hi rend="sup">e</hi></num> siècle, on ne trouve pas trace de protestantisme à Valognes chez les nobles, et le jansénisme a laissé peu de marques, semble-t-il. La franc-maçonnerie fit son apparition à la fin du siècle : en 1787, fut fondée l’<hi rend="i">Union militaire,</hi> groupant des hommes servant dans les armées royales et possédant un hôtel à la ville ou une maison à la campagne dans la région. Ses membres étaient farouchement aristocratiques. Mais une loge militaire ne pouvait subsister longtemps ; la moindre guerre amenait sa dissolution. Une loge féminine est attestée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r889382">
         <head rend="uc">Conclusion</head>
         <p>Les nobles, à la fin du siècle, semblent allier un certain esprit nouveau à leur amour des traditions. Toutefois, ce sont leurs privilèges traditionnels qui leur tiennent le plus à cœur, comme on peut le constater dans les cahiers des États du Cotentin de 1789.</p>
         <p>La distinction aristocratique n’était pas du goût des révolutionnaires ; de nombreux nobles furent arrêtés, virent leurs biens séquestrés, beaucoup émigrèrent. Mais cette société réactionnaire comprit une minorité de libéraux qui assurèrent, au-delà de la Révolution, une certaine continuité : ils firent partie des « notables » du <num>xix<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r889401">
         <head rend="uc">Pièce annexe</head>
         <p>Notices sur les principales familles de Valognes au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
       </div>

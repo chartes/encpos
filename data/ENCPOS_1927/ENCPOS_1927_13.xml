@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,7 +63,7 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r463565">
         <head rend="uc">Introduction
          <lb/>le pays de Velay au début du <num>xiv<hi rend="sup">e</hi></num> siecle</head>
         <p>Les limites du Velay se confondent avec celles du diocèse du Puy.</p>
@@ -82,10 +80,10 @@
         <pb source="https://nakala.fr/10.34847/nkl.2af957jn#dffb3fbb8467b6a07b026c3ed81cb0f159f601b5" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.2af957jn/dffb3fbb8467b6a07b026c3ed81cb0f159f601b5/full/full/0/default.jpg"/>
         <p>La guerre anglaise est tout d’abord sans écho en Velay. Jusqu’en 1358, le pays n’est pas atteint par l’invasion. Les forces que peut opposer le Velay à l’ennemi sont faibles. Elles se réduisent aux contingents fournis aux seigneurs par leurs vassaux et à la milice communale du Puy. Ces troupes sont mal équipées et les fortifications des villes et des châteaux en mauvais état.</p>
       </div>
-      <div>
+      <div xml:id="r463626">
         <head rend="uc">Première partie
          <lb/>L’invasion</head>
-        <div>
+        <div xml:id="r463634">
           <head rend="uc">Chapitre premier
            <lb/>la guerre anglo-navarraise et les tard-venus –
            <lb/>En Velay</head>
@@ -106,7 +104,7 @@
           <p>Le récit de Froissart doit être rectifié à l’aide de l’<hi rend="i">Histoire manuscrite de la maison de Polignac,</hi> composée au XV11<hi rend="sup">6</hi> siècle par Chabron qui avait consulté des sources aujourd’hui perdues, les <hi rend="i">Chroniques de Médicis</hi> et le <hi rend="i">Petit Thalamus de Montpellier.</hi></p>
           <p>Après des victoires remportées la même année par Le vicomte de Polignac à Saint-Germain-La-Prade cl à Paulhaguet, le Velay jusqu’en 1372 est délivré des Compagnies, qui en août 1365 passent avec Du Guesclin en Espagne.</p>
         </div>
-        <div>
+        <div xml:id="r463727">
           <head rend="uc">Chapitre second
            <lb/>le Velay encerclé par les compagnies</head>
           <p>Si l’on excepte une expédition qu’organise en Velay au cours des années 1372-1373 Bernard de la Salle, capitaine au service du roi d’Angleterre, toutes les opérations militaires dont le Velay est le théâtre de 1373 à 1392 s’expliquent de la façon suivante.</p>
@@ -127,7 +125,7 @@
           <p>En 1387, les Compagnies de Carlat et d’Alleuze. pendant que la noblesse Forézienne et Bourbonnaise était en Espagne avec le duc Louis de Bourbon qui était allé secourir le roi de Castille contre Don Pèdre, se disposent à envahir le Bourbonnais et le Forez et traversent <pb source="https://nakala.fr/10.34847/nkl.2af957jn#34b1371f1f4d41839b73c246aea07e4cbdd00ee0" n="103" facs="https://api.nakala.fr/iiif/10.34847/nkl.2af957jn/34b1371f1f4d41839b73c246aea07e4cbdd00ee0/full/full/0/default.jpg"/> le Velay. Ces tentatives n’ont pas de suite.</p>
           <p>Néanmoins les Compagnies jusqu’en 1392 font de continuelles chevauchées en Velay. A cette date, les négociations qui étaient engagées depuis 1376 pour le rachat des forteresses occupées par les routiers aboutissent et l’occupation étrangère dès lors prend fin en Velay.</p>
         </div>
-        <div>
+        <div xml:id="r463802">
           <head rend="uc">Chapitre troisieme
            <lb/>évacuation des forteresses occupées
            <lb/>par les compagnies</head>
@@ -147,10 +145,10 @@
           <p>Il reste à étudier dans quelle mesure ces événements, si fragmentaires soient-ils, ont modifié la situation politique, sociale et économique de ce pays.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r463866">
         <head rend="uc">Deuxieme partie
          <lb/>Les conséquences de l’invasion</head>
-        <div>
+        <div xml:id="r463874">
           <head rend="uc">Chapitre premier
            <lb/>répercussions politiques
            <lb/>de l’invasion anglaise en Velay</head>
@@ -173,7 +171,7 @@
           <p>Leurs attributions sont très étendues. Ils répartissent et lèvent les subsides, entretiennent un certain nombre d’hommes d’armes pour la défense du pays, dirigent les opérations militaires, sont en rapports constants avec les Etats des provinces limitrophes.</p>
           <p>Malgré la création des Etats provinciaux, la royauté par l’ascendant qu’elle a su prendre sur la commune du Puy et la noblesse, à la faveur de la guerre fait un grand progrès en Velay.</p>
         </div>
-        <div>
+        <div xml:id="r463955">
           <head rend="uc">Chapitre second
            <lb/>répercussions sociales de l’invasion anglaise
            <lb/>en Velay</head>
@@ -193,7 +191,7 @@
           <p>Les habitants du Velay ne consentent que difficilement à s’acquitter des subsides. La pauvreté contraint certains à devenir voleurs de grands chemins. On constate également dans la classe rurale une certaine hostilité contre la noblesse. Cette hostilité ne va pas jusqu’à la révolte et les paysans du Velay ne prennent qu’une part insignifiante aux séditions des Tuchins, qui pendant la seconde moitié du quatorzième siècle se succèdent en Auvergne, en Vivarais, en Gévaudan et dans tout le Languedoc.</p>
           <p>Dans leur ensemble les différentes classes de la société pendant l’invasion anglaise font tout leur devoir contre l’ennemi.</p>
         </div>
-        <div>
+        <div xml:id="r464021">
           <pb source="https://nakala.fr/10.34847/nkl.2af957jn#2b4ad2850125e6ffc7395fdc6880b74655009b37" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.2af957jn/2b4ad2850125e6ffc7395fdc6880b74655009b37/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Répercussions économiques de l’invasion anglaise
@@ -216,7 +214,7 @@
           <p>Malgré les souffrances dont les habitants du Velay sont victimes, jamais la vie du pays n’est complètement arrêtée et l’on sent partout, à la fin du quatorzième siècle un intense besoin de vivre qui fait prévoir que les ruines accumulées par la guerre seront bientôt relevées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r464096">
         <head rend="uc">Conclusion</head>
         <p>Le Velay pendant la première partie, de la guerre de Cent-Ans ne subit qu’accidentellement l’invasion étrangère et fait un grand pas vers l’unité nationale.</p>
       </div>

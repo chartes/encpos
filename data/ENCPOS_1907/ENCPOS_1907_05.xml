@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,20 +57,20 @@
         <surname>Colmant</surname>
         <roleName>Licencié ès lettres, Élève de l’École des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r308849">
         <head rend="uc">Préface</head>
         <p>Principaux travaux antérieurs sur la diplomatique des actes privés. – Méthode. – Difficulté du sujet : petit nombre d’actes anciens. – Dispersion des fonds des prieurés de Marmoutier.</p>
       </div>
-      <div>
+      <div xml:id="r308859">
         <head rend="uc">Première partie
          <lb/>Les sources</head>
         <p>Actes originaux : rares avant le premier tiers du <num>xi<hi rend="sup">e</hi></num> siècle, nombreux pour le reste de ce siècle et pour le <num>xii<hi rend="sup">e</hi></num>. Esquisse de l’histoire des archives de l’abbaye : premier classement des actes vers 1035 ; cotes analytiques et topographiques. – Classement du <num>xiii<hi rend="sup">e</hi></num> siècle. Révision complète au <num>xv<hi rend="sup">e</hi></num>. Les inventaires depuis 1579. Concentration des archives à l’abbaye. – Les garde-chartes. – Les archives de Marmoutier pendant la Révolution. Pillages <pb source="https://nakala.fr/10.34847/nkl.be14w804#e36b49619199657ed24011e2cd0c15cb101844d3" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.be14w804/e36b49619199657ed24011e2cd0c15cb101844d3/full/full/0/default.jpg"/> dans la première moitié du <num>xix<hi rend="sup">e</hi></num> siècle. Situation actuelle.</p>
         <p>Les copies anciennes. – Les cartulaires : la série des cartulaires régionaux, commencée avant 1064. Le cartulaire tourangeau, commencé avant 1064, achevé au début du <num>xii<hi rend="sup">e</hi></num> siècle. Le cartulaire vendômois (de 1075 à la fin du siècle). Le cartulaire dunois (1080 environ à 1116 environ). Le livre des serfs : 1<hi rend="sup">ere</hi> partie vers 1075, 2<hi rend="sup">e</hi> partie vers 1096, 3<hi rend="sup">e</hi> partie avant 1100. Les cartulaires régionaux perdus : le cartulaire manceau, le cartulaire normand (achevé après 1087), le cartulaire breton (achevé seulement après 1120). Il a existé, en outre, un cartulaire chartrain et un cartulaire blésois perdus anciennement, peut-être un cartulaire angevin. Les cartulaires de prieurés et d’offices claustraux.</p>
         <p>Les copies des érudits du <num>xvii<hi rend="sup">e</hi></num> et du <num>xviii<hi rend="sup">e</hi></num> siècles. – Bibliographie des principales publications d’actes de Marmoutier.</p>
       </div>
-      <div>
+      <div xml:id="r308942">
         <head rend="uc">Deuxième partie</head>
-        <div>
+        <div xml:id="r308948">
           <head rend="uc">Chapitre premier
            <lb/>valeur juridique de l’acte écrit</head>
           <p>En quoi cette question concerne la diplomatique. – L’acte privé français est sorti de l’acte privé romain par une décadence progressive jusqu’à l’adoption du sceau, mais les principes romains résistèrent mieux qu’en Allemagne aux influences germaniques hostiles à la preuve écrite. On en vient à considérer la remise de l’acte écrit comme une simple confirmation. L’acte dispositif persiste dans le Midi, et pour les contrats où la tradition réelle n’avait pas à intervenir d’ordinaire (affranchissements, cessions en précaire, actes d’échange).</p>
@@ -83,14 +81,14 @@
           <p>Le chirographe : sécurité qu’il confère ; ses inconvénients.</p>
           <p>Le scellement, employé à Marmoutier concurremment avec le chirographe. Il remplace la croix autographe.</p>
         </div>
-        <div>
+        <div xml:id="r308998">
           <head rend="uc">Chapitre II
            <lb/>La notice informe</head>
           <p>La <hi rend="i">notitia,</hi> procès-verbal probatoire pourvu de souscriptions qui cessent de bonne heure d’être autographes. – Causes de sa transformation en notice informe. La notice informe apparaît à Marmoutier vers 1032. Les prétendues notices informes du <num>x<hi rend="sup">e</hi></num> siècle, que l’on trouve dans les cartulaires du Sud-Ouest, sont des résumés de chartes.</p>
           <p>La notice ordinaire est rédigée quelquefois sur la base d’une notice primitive, plus souvent sur une simple liste de témoins et sur des renseignements verbaux. Les notices, où les noms des témoins sont ajoutés postérieurement, sont des notices confirmées par l’auteur ou rédi<pb source="https://nakala.fr/10.34847/nkl.be14w804#c967fd9d1a9482f02b454c24eadf617ef1d798ef" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.be14w804/c967fd9d1a9482f02b454c24eadf617ef1d798ef/full/full/0/default.jpg"/>gées antérieurement à la tradition réelle. Ainsi s’explique l’omission des noms de témoins dans certains cas. L’existence d’une notice primitive, rédigée sur les lieux mêmes de la transaction, et servant de base à la notice rédigée à l’abbaye, explique les cas où cette dernière est visiblement postérieure aux faits qu’elle rapporte.</p>
           <p>Outre cette réfection régulière de la notice primitive, les notices sont l’objet de fréquentes transcriptions. Pancartes. Ces transcriptions entraînent des remaniements : additions de circonstances nouvelles, élimination de clauses caduques, retouches portant sur la date. Additions aux notices isolées, de mentions de faits postérieurs (tradition renouvelée sur l’autel de Saint Martin, confirmation par la famille du donateur, etc.)</p>
         </div>
-        <div>
+        <div xml:id="r309031">
           <head rend="uc">Chapitre III
            <lb/>L’acte en forme. – La <hi rend="i">firmatio</hi>. – La croix
            <lb/>autographe.</head>
@@ -103,7 +101,7 @@
           <p>Phases normales de la documentation : conclusion verbale du contrat, rédaction de l’acte écrit, sa corroboration, son achèvement (<hi rend="i">completio</hi>), par l’adjonction des noms de témoins et de la date.</p>
           <p>Cas où l’on devait obtenir pour un même acte la confirmation de deux personnages : ou bien un exemplaire de l’acte muni de la première confirmation était transcrit sur une autre pièce, que l’on soumettait à la seconde confirmation ; ou bien un même exemplaire était présenté successivement à diverses confirmations, parfois à des époques très éloignées les unes des autres.</p>
         </div>
-        <div>
+        <div xml:id="r309111">
           <head rend="uc">Chapitre IV
            <lb/>La chancellerie</head>
           <p>Sous l’empire de la législation des premiers Carolingiens (capitulaire de Thionville (805), l’abbaye de Marmoutier dut avoir son chancelier. Mais la décadence générale du notariat fut encore favorisée dans ce monastère, soumis à des comtes-abbés, par la confusion du notaire abbatial avec le notaire comtal. Les scribes, généralement les écolâtres, souscrivent <hi rend="i">ad vicem cancellarii.</hi></p>
@@ -114,7 +112,7 @@
           <p>Par qui les actes sont-ils rédigés et écrits ? Probablement sous la direction de l’<hi rend="i">armarius,</hi> mais par des scribes distincts de ceux qui copiaient les manuscrits.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r309161">
         <head rend="uc">Appendice
          <lb/>sur l’origine des fausses décrétales</head>
         <p>Les Fausses décrétales, citées quelquefois par nous au cours de notre étude, sont un document tourangeau du milieu du <num>ix<hi rend="sup">e</hi></num> siècle.</p>

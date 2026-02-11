@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1849_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1849_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -53,24 +51,24 @@
         <surname>de Bastard</surname>
         <roleName rend="uc">Licencié en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r4926">
         <head rend="uc">I.</head>
         <p>L’<hi rend="i">insurrection</hi> de 1106 contre l’abbé Artaud a pour motif une réduction de charges en faveur des habitants de Vézelay.</p>
       </div>
-      <div>
+      <div xml:id="r4940">
         <head rend="uc">II.</head>
         <p>La <hi rend="i">conspiration des bourgeois</hi> sous l’abbé Albéric, vers 1136, a pour but de leur faire acquérir des droits civils.</p>
       </div>
-      <div>
+      <div xml:id="r4954">
         <head rend="uc">III.</head>
         <p>L’<hi rend="i">insurrection communale</hi> proprement dite, vers 1155, n’est pas une insurrection politique.</p>
       </div>
-      <div>
+      <div xml:id="r4968">
         <pb source="https://nakala.fr/10.34847/nkl.c6f1p2z6#84ce32c28aa7ca8ad6751d2ae532ad17987a8347" n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6f1p2z6/84ce32c28aa7ca8ad6751d2ae532ad17987a8347/full/full/0/default.jpg"/>
         <head rend="uc">IV.</head>
         <p>L’origine de cette insurrection remonte à la rivalité des abbés de Vézelay et des comtes de Nevers.</p>
       </div>
-      <div>
+      <div xml:id="r4983">
         <head rend="uc">V.</head>
         <p>La <hi rend="i">commune,</hi> qui en est la suite, n’a qu’une existence précaire, sans magistrature municipale, élective ou non ; elle n’a aucun résultat immédiat.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,16 +63,16 @@
         <head rend="uc">Bibliogbaphie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r444927">
         <head rend="uc">Première partie
          <lb/>Fondation</head>
         <p>Fondation du chapitre de Saint-Nicolas entre 1230 et 1260, par les prêtres de la chapelle du château de Montluçon, dédiée à saint Bonnet. Un chanoine de Nevers, Barthélemy Baye, leur fournit un emplacement dans les limites de la paroisse de Notre-Dame. Arguments peu probants des historiens ayant conclu à l’existence avant 1260, d’un collège de chanoines à la chapelle Saint-Bonnet. Emplacement précis de la nouvelle chapelle. Statuts de fondation : ils autorisent un nombre de soixante chanoines ayant le droit de désigner leurs successeurs ; après la mort de ces successeurs, les prébendes doivent être réduites à vingt-quatre. Approbation de ces statuts par le sire de Bourbon et par le prieur de Notre-Dame. Constitution lente des prébendes.</p>
       </div>
-      <div>
+      <div xml:id="r444939">
         <pb source="https://nakala.fr/10.34847/nkl.0a9b51uo#03bb557bcbf3506d95a356d6f91d147594d9d24f" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a9b51uo/03bb557bcbf3506d95a356d6f91d147594d9d24f/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Organisation</head>
-        <div>
+        <div xml:id="r444952">
           <head rend="uc">Chapitre premier
            <lb/>le chapitre</head>
           <p>I. <hi rend="i">Les chanoines.</hi> – Vingt chanoines jusqu’en 1492 ; dix-sept jusqu’en 1687 ; onze ensuite. Le droit de collation appartient aux sires, puis aux ducs de Bourbon jusqu’en 1523, au roi ou aux possesseurs successifs de Montluçon, ensuite. Les chanoines sont installés par le doyen.</p>
@@ -86,7 +84,7 @@
           <p>VII. <hi rend="i">Les officiers inférieurs.</hi> – Les enfants de chœur, institués au nombre de six par Jean II, duc de Bourbon, 1484. A leur tête est un maître.</p>
           <p>Le sacristain, chargé de l’entretien de l’église, moyennant gages.</p>
         </div>
-        <div>
+        <div xml:id="r445040">
           <head rend="uc">Chapitre II
            <lb/>Obligations des bénéficiers</head>
           <p>La résidence et l’assistance à l’office sont exigées des bénéficiers.</p>
@@ -95,7 +93,7 @@
           <p>Les vicaires montrent peu d’assiduité. Résultats peu durables d’une réforme faite à cet égard en 1540. Sanctions prises par le chapitre : amendes, saisies.</p>
           <p>Autres obligations des bénéficiers : tenue du bénéfice en bon état ; discipline.</p>
         </div>
-        <div>
+        <div xml:id="r445074">
           <head rend="uc">Chapitre III
            <lb/>Rétributions des bénéficiers</head>
           <p>Deux sortes de rétributions : les gros fruits ; les distributions.</p>
@@ -103,7 +101,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.0a9b51uo#7b5d22ca17fbba0d19ccad21949ea269ea84ddc1" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a9b51uo/7b5d22ca17fbba0d19ccad21949ea269ea84ddc1/full/full/0/default.jpg"/>
           <p>Rétributions des vicaires : moindres que celles des chanoines.</p>
         </div>
-        <div>
+        <div xml:id="r445097">
           <head rend="uc">Chapitre IV
            <lb/>Officiers chargés de l’administration
            <lb/>des affaires temporelles</head>
@@ -113,10 +111,10 @@
           <p>Autres officiers secondaires ou temporaires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r445145">
         <head rend="uc">Troisième partie
          <lb/>Finances du chapitre</head>
-        <div>
+        <div xml:id="r445153">
           <head rend="uc">Chapitre premier
            <lb/>revenus</head>
           <p>I. <hi rend="i">Les fondations.</hi> – Les fondations faites dans l’église Saint-Nicolas sont nombreuses dès le <num>xiv<hi rend="sup">e</hi></num> siècle. Messes quotidiennes ou hebdomadaires. Obits. Saluts. Processions. La diminution des revenus affectés à ces fondations oblige le chapitre à les réduire au <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
@@ -126,14 +124,14 @@
           <p>III. <hi rend="i">La censive du chapitre. Rentes.</hi> – Les terrains de la censive du chapitre sont nombreux surtout dans la région au sud de Néris. Origine de ces possessions. Rentes perçues par le chapitre.</p>
           <p>IV. <hi rend="i">Dîmes et autres revenus.</hi> – Dîmes possédées par le chapitre dans les paroisses aux environs de Montluçon. Droits sur le blé et le sel vendus à Montluçon. Part de la recette de la châtellenie de Montluçon. Droits de lods et ventes.</p>
         </div>
-        <div>
+        <div xml:id="r445210">
           <head rend="uc">Chapitre II
            <lb/>Dépenses – Budget du chapitre</head>
           <p>Dépenses habituelles et extraordinaires supportées par le chapitre.</p>
           <p>Etat florissant des finances jusqu’au <num>xvi<hi rend="sup">e</hi></num> siècle, puis déclin progressif jusqu’en 1790.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r445232">
         <head rend="uc">Quatrième partie
          <lb/>Étude archéologique</head>
         <p>Examen des vestiges de l’église Saint-Nicolas, située sur le côté sud-est de la place Notre-Dame, démolie presque entièrement au début du <num>xix<hi rend="sup">e</hi></num> siècle et datant du <num>xiv<hi rend="sup">e</hi></num> siècle. Documents rares sur cette église.</p>

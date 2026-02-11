@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,10 +60,10 @@
         <head rend="uc">Introduction. – Sources et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r339874">
         <head rend="uc">Première partie
          <lb/>La formation territoriale</head>
-        <div>
+        <div xml:id="r339882">
           <head rend="uc">I
            <lb/>les diverses circonscriptions du « haut pays d’Auvergne »
            <lb/>en 1789</head>
@@ -76,37 +74,37 @@
           <p>2° Arrondissement des ressorts judiciaires, création de justices de paix.</p>
           <p>3° Centralisation des divers établissements administratifs et judiciaires dans la même ville.</p>
         </div>
-        <div>
+        <div xml:id="r339913">
           <head rend="uc">II
            <lb/>les tendances particularistes du haut pays avant 1789</head>
           <p>La convocation par bailliages aux États généraux favorisait Riom au détriment du Haut pays, car le bailliage de Salers, notamment, ressortissait en appel à la sénéchaussée d’Auvergne. Aussi prit-on prétexte de l’arrêt du Conseil, en date du 8 août 1788, pour demander le rétablissement des États provinciaux particuliers et la convocation par Haut et Bas pays. Le résultat de ces démarches fut le règlement particulier du 15 février 1789, qui convoquait à Saint-Flour toutes les paroisses de la Haute Auvergne. – Élection de 12 députés.</p>
         </div>
-        <div>
+        <div xml:id="r339925">
           <head rend="uc">III
            <lb/>division de la « province d’Auvergne »
            <lb/>en deux départements
            <lb/>délimitation du « département du haut pays »</head>
           <p>L’adoption, le 11 novembre 1789, du principe de la division de la France en départements comble les vœux du Haut pays, heureux de se séparer du Bas pays, opposé au contraire à la scission. – Difficultés dans la démarcation intérieure des trois départements que devaient for<pb source="https://nakala.fr/10.34847/nkl.4a69u1pk#3d55ff12d79dd31e5bdcd40b2bfb7e1f82f92a2e" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.4a69u1pk/3d55ff12d79dd31e5bdcd40b2bfb7e1f82f92a2e/full/full/0/default.jpg"/>mer l’Auvergne et le Velay : elles sont tranchées par le Comité de Constitution, puis par la Constituante (séance du 21 janvier 1790). Par contre, la délimitation extérieure, si l’on peut dire, ne donne lieu à aucune contestation sérieuse : on respecte scrupuleusement les bornes de l’ancienne généralité de Riom.</p>
         </div>
-        <div>
+        <div xml:id="r339946">
           <head rend="uc">IV
            <lb/>formation des districts</head>
           <p>Le projet de décret, sur les divisions intérieures du futur département du Cantal, comportait seulement trois districts : Saint-Flour, Aurillac et Mauriac. – Les villes secondaires et les campagnes protestent contre ce petit nombre de centres administratifs et demandent jusqu’à neuf districts. – Résistance des députés du Haut pays, citadins pour la plupart ; le Comité de Constitution parvient à faire ajouter un quatrième district provisoire à Murat.</p>
         </div>
-        <div>
+        <div xml:id="r339958">
           <head rend="uc">V
            <lb/>formation des cantons
            <lb/>le nom du nouveau département</head>
           <p>Malgré les avis de la Constituante, les députés du Haut pays créèrent peu de cantons, chose bizarre dans un pays montagneux, où les communications sont difficiles. Le règlement général du 22 février 1790 porte formation de 20 cantons englobant 273 municipalités.</p>
           <p>Ce fut le Comité de Constitution qui dénomma le nouveau département. Celui-ci prit le nom du sommet le plus élevé de ses montagnes, le Plomb du <hi rend="i">Cantal.</hi></p>
         </div>
-        <div>
+        <div xml:id="r339978">
           <pb source="https://nakala.fr/10.34847/nkl.4a69u1pk#3975f9a440e1011d09bfce7772865cc86a9fbd58" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.4a69u1pk/3975f9a440e1011d09bfce7772865cc86a9fbd58/full/full/0/default.jpg"/>
           <head rend="uc">VI
            <lb/>circonscription définitive du département</head>
           <p>Sauf du côté du Lot, les limites du département du Cantal furent l’objet de contestations, parfois très vives. Le Haut pays était, paraît-il, accablé d’une surcharge d’impositions que beaucoup de paroisses limitrophes ne se souciaient pas de partager. Mais il y eut en somme peu de rectifications. En l’an II, le Cantal comprenait 21 cantons englobant 266 municipalités.</p>
         </div>
-        <div>
+        <div xml:id="r339995">
           <head rend="uc">VII
            <lb/>luttes pour l’attribution des établissements de justice
            <lb/>et d’administration</head>
@@ -118,7 +116,7 @@
           <p><hi rend="i">Murat et Allanche</hi>. – Ces deux villes se disputèrent le district, d’abord provisoire. Pour les concilier, le Conseil du département proposa à la Constituante la division des établissements. Cette mesure ne fut pas ratifiée, et Murat garda la justice et l’administration.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r340036">
         <head rend="uc">Deuxième partie
          <lb/>Organisation du département</head>
         <p>La première session de l’assemblée du département se tint à Saint-Flour (1790) et les sessions suivantes à Aurillac. – Les administrateurs du Cantal étaient des hommes conciliants, ennemis des mesures de rigueur, et peu soucieux de la chose publique. Leurs opinions modérées et leur incurie furent cause que l’assemblée électorale, de septembre <pb source="https://nakala.fr/10.34847/nkl.4a69u1pk#36cf298d17f72c3c98278ae6eef343d5fb87cc79" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.4a69u1pk/36cf298d17f72c3c98278ae6eef343d5fb87cc79/full/full/0/default.jpg"/> 1792, chargée d’élire les députés à la Convention, nomma illégalement de nouveaux administrateurs.</p>

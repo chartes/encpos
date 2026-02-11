@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -56,17 +54,17 @@
         <surname>Bouvet</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1117333">
         <head rend="uc">Introduction</head>
         <p>De l’avènement de Léon le Grand, en 440, jusqu’à la mort de Grégoire le Grand, en 604, les Églises des Gaules occupèrent une place importante dans l’activité du Siège apostolique qui dut répondre aux nombreuses sollicitations des évêques, auxquelles s’ajoutèrent, à partir du milieu du VI<hi rend="sup">e </hi>siècle, celles des souverains. Une législation, mais aussi une déontologie destinée à chaque type de correspondants, furent élaborées au cours de ce siècle et demi ; elles connurent une réception abondante qui se prolonge au delà du <hi rend="i">Décret</hi> de Gratien.</p>
       </div>
-      <div>
+      <div xml:id="r1117351">
         <head rend="uc">Sources</head>
         <p>La correspondance expédiée et reçue par le pape constitue la source principale. Elle comporte cent soixante lettres conservées, auxquelles s’ajoute près d’une centaine d’autres dont la teneur peut être partiellement restituée. Les sources hagiographiques et les chroniques se sont révélées beaucoup moins riches. Si l’épigraphie n’apporte aucun renseignement utilisable, en revanche les conciles permettent de saisir l’originalité du contenu des lettres. Les sources archéologiques n’ont pu être exploitées. Une étude du vocabulaire a été menée à partir des instruments classiques, corroborés par l’utilisation des listings établis par l’Université de Louvain-la-Neuve.</p>
         <pb source="https://nakala.fr/10.34847/nkl.ad69nftd#d33846689e0e027c0194ead53197b948df868d94" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad69nftd/d33846689e0e027c0194ead53197b948df868d94/full/full/0/default.jpg"/>
         <p>L’étude de la réception s’appuie sur les textes canoniques édités et sur les manuscrits des collections antérieures à Gratien conservés dans les bibliothèques parisiennes. J’ai choisi l’exemple de la Champagne, région où se développa, à la fin du <num>xi<hi rend="sup">e</hi></num> siècle, une intense activité canonique et pour laquelle j’ai exploité systématiquement les fonds des bibliothèques municipales de Troyes, Châlons-sur-Marne et Reims. L’examen de la bibliothèque de Clairvaux, conservée en grande partie à la Bibliothèque municipale de Troyes, a permis de constater l’importance de la réception des textes étudiés dans les florilèges cisterciens. La recherche a été complétée par quelques sondages effectués sur des œuvres postérieures à Gratien.</p>
       </div>
-      <div>
+      <div xml:id="r1117375">
         <head rend="uc">Chapitre premier
          <lb/>l’évolution des relations entre les églises des Gaules et le
          <lb/>siège apostolique (440-604)</head>
@@ -77,7 +75,7 @@
         <p><hi rend="i">L’ouverture de nouveaux horizons.</hi> – Alors que la querelle des Trois Chapitres prenait fin, des habitudes nouvelles s’établirent et modifièrent durablement les fondements des relations entre Rome et les Églises des Gaules, qui devenaient peu à peu une Église franque, sans qu’on puisse déjà parler d’une Église nationale. Le Siège apostolique diversifia ses correspondants, répondant non plus aux seuls évêques, mais aussi aux rois qui le sollicitaient depuis le début du <num>vi<hi rend="sup">e</hi></num> siècle. L’aire géographique touchée par l’influence romaine s’agrandit, en suivant les axes des anciennes voies romaines. Quatre villes importantes réclamèrent la concession de privilèges honorifiques : Arles obtint le vicariat et le <hi rend="i">pallium,</hi> Autun le <hi rend="i">pallium</hi> seulement ; Vienne et Lyon, engagées dans un conflit local et qui ne bénéficiaient pas de l’appui royal, virent leur revendication échouer. Mais, dans la plupart des cas, l’initiative passa à la papauté.</p>
         <p><hi rend="i">La période grégorienne (590-604</hi>). – Premier moine à monter sur le trône de saint Pierre, Grégoire le Grand, après un passage à la préfecture de la Ville et un séjour à Constantinople, accorda une place importante à la Gaule, en particulier à l’Austrasie. L’abondante correspondance qu’il lui adressa (soixante-deux lettres) après la déception orientale porte la marque profonde de deux idées : la dualité intériorité-extériorité et la perspective eschatologique. Cette dernière amena le pape à organiser une structure caritative fondée sur une meilleure organisation du patrimoine de l’Église, défini comme le patrimoine des pauvres. Grégoire promut un effort de conversion intérieure qui s’appliquait aussi bien à chaque individu qu’à l’ensemble de l’Église franque à qui il confia le soin de mener sa propre réforme. Le programme de conversion à l’extérieur concernait les juifs, les païens, dont Grégoire fut le premier à se préoccuper, et les Angles. Malgré les difficultés, l’œuvre de Grégoire fut couronnée de succès, dans la mesure où le concile de Paris (614) et la constitution de la première collection canonique systématique, la <hi rend="i">Vêtus Gallica,</hi> ne firent que témoigner de l’obéissance des évêques et des rois. Les régions transalpines devenaient le point d’appui des projets pontificaux.</p>
       </div>
-      <div>
+      <div xml:id="r1117449">
         <head rend="uc">Chapitre II
          <lb/>Étude des lettres</head>
         <p><hi rend="i">Construction et genèse des lettres.</hi> – Résultat d’un travail conjoint des bureaux de la chancellerie et du pape, les lettres présentent à la fois les caractéristiques d’une littérature juridique, dont l’argumentation s’exprime par un vocabulaire technique hérité de la chancellerie impériale, et de simples épîtres fraternelles, imitées des écrits de saint Paul. L’œuvre de la chancellerie consiste dans l’élaboration d’une typologie où apparaissent le privilège et la lettre de recommandation, et d’un formulaire dont les principaux éléments se retrouvent dans le <hi rend="i">Liber diurnus.</hi> Mais l’absence de cadre rigoureux, alliée à la volonté manifeste de donner un tour amical et personnel, écarte toute sécheresse et toute systématisation, et confère à ces lettres un aspect profondément humain. La chancellerie ne se contenta pas seulement d’enregistrer les écrits, mais constitua une <pb source="https://nakala.fr/10.34847/nkl.ad69nftd#557d7e72976f9b8850eb332d0d96ef0081ccecee" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad69nftd/557d7e72976f9b8850eb332d0d96ef0081ccecee/full/full/0/default.jpg"/>documentation de plus en plus riche afin de répondre aux sollicitations. L’Écriture, utilisée en particulier selon les <hi rend="i">Veteres latinae,</hi> les conciles et les lettres antérieures sont les principales sources auxquelles elle recourt. Une analyse détaillée fait apparaître, en outre, l’influence exercée par les Pères grecs et latins, notamment Jean Chrysostome connu dans sa traduction latine, et saint Augustin. On peut également déceler des traces de la philosophie païenne christianisée ainsi que du vocabulaire liturgique et monastique. La majeure partie des lettres furent dictées personnellement par chacun des papes qui y laissèrent transparaître leur personnalité. La recherche d’un style musical et imagé témoigne du travail littéraire dont elles furent l’objet.</p>
@@ -86,7 +84,7 @@
         <pb source="https://nakala.fr/10.34847/nkl.ad69nftd#f6e699325898f8dc1f4493cdfa45fdb7af7a841e" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad69nftd/f6e699325898f8dc1f4493cdfa45fdb7af7a841e/full/full/0/default.jpg"/>
         <p>Le contenu des lettres marque une évolution sensible : au fur et à mesure que les conciles gaulois établissaient une législation plus précise, les évêques eurent de moins en moins l’occasion de poser des questions sur des points de discipline ecclésiastique (baptême, pénitence, mariage, réglementation des élections épiscopales) ; le Siège apostolique put ainsi davantage insister sur des aspects déontologiques et spirituels.</p>
       </div>
-      <div>
+      <div xml:id="r1117517">
         <head rend="uc">Chapitre III
          <lb/>La réception des lettres dans la littérature latine médiévale</head>
         <p>Des extraits des lettres échangées entre Rome et les Églises des Gaules ont été utilisées dans la littérature latine médiévale non seulement en raison de leur valeur canonique, mais aussi, plus rarement, il est vrai, pour leur intérêt spirituel.</p>
@@ -97,16 +95,16 @@
         <p><hi rend="i">Les aspects techniques et chronologiques de la réception.</hi> – A l’époque carolingienne, l’utilisation des lettres fut rare ; elles apparaissent parfois dans les capitulaires épiscopaux et les œuvres d’Agobard de Lyon et d’Hincmar de Reims. Il s’agit alors presque toujours de courts fragments, souvent extraits de la collection <hi rend="i">Dionysio-Hadriana</hi> ou des collections d’œuvres complètes.</p>
         <p>Après une période de silence au <num>x<hi rend="sup">e</hi></num> siècle, les lettres connurent un net regain d’intérêt à l’époque de la réforme grégorienne, autant dans les collections canoniques que dans les œuvres polémiques. Les arguments étaient extraits directement des collections d’œuvres complètes, preuve d’un travail original de découpage des citations dont certaines ne sont nulle part ailleurs attestées, semble-t-il. Le mouvement qui suscita l’apparition des <hi rend="i">summae</hi> théologiques et canoniques mit en valeur un petit nombre d’extraits, soigneusement découpés, au nombre d’une quinzaine environ, dont il assura le succès pour plusieurs siècles. Le <hi rend="i">Décret</hi> de Gratien, cependant, ne représente pas l’étape définitive de la tradition. Les florilèges cisterciens de Clairvaux n’y ont pas toujours puisé leurs extraits. Dans la suite, les citations deviennent plus allusives, leur origine diplomatique est souvent gommée, sauf peut-être pour celles qui sont extraites du <hi rend="i">Registre</hi> de Grégoire. Le sens fondamental est parfois modifié par l’ajout ou le retrait de quelques termes essentiels. Au <num>xv<hi rend="sup">e</hi></num> siècle, il semblerait que l’œuvre de Léon le Grand ait connu une certaine faveur auprès des érudits attirés par la musicalité de sa langue, tandis que la déontologie royale, jusqu’alors restée à l’écart, inspirait Bernard du Rozier. L’utilisation des lettres et de la législation qui en était issue est encore attestée à l’époque moderne.</p>
       </div>
-      <div>
+      <div xml:id="r1117605">
         <head rend="uc">Conclusion</head>
         <p>Deux traits caractérisent les relations entre le Siège apostolique et les Églises des Gaules : d’une part, le respect, depuis le pontificat de Damase, d’une tradition instaurée pour répondre aux sollicitations de l’épiscopat gaulois ; d’autre part, une lente évolution, au cours de laquelle l’initiative passa des Églises des Gaules à l’évêque de Rome qui diversifia ses correspondants et préféra l’appui des rois d’Austrasie à la continuation d’amicales relations avec les Églises de la vallée rhodanienne, engourdies par une longue habitude. Durant les siècles ultérieurs, une certaine sélection s’opéra dans la tradition de la correspondance issue de ces relations : les lettres qui traitaient de la pénitence, en insistant sur la miséricorde divine, de la simonie, du rôle de la charité et de la valeur exemplaire des actes connurent un succès mesuré mais certain jusqu’à la fin du Moyen Age.</p>
       </div>
-      <div>
+      <div xml:id="r1117615">
         <pb source="https://nakala.fr/10.34847/nkl.ad69nftd#57a823c5a2231bd243a028bd74754bf2a7a4e8a1" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad69nftd/57a823c5a2231bd243a028bd74754bf2a7a4e8a1/full/full/0/default.jpg"/>
         <head rend="uc">Pièce justificative</head>
         <p>Index des extraits des lettres utilisés dans la littérature latine médiévale.</p>
       </div>
-      <div>
+      <div xml:id="r1117630">
         <head rend="uc">Annexes</head>
         <p>Tableau de présentation des lettres conservées. – Liste des témoins des lettres perdues et teneur restituable de celles-ci. – Index divers des lettres étudiées : noms de personne et noms de lieu ; sources ; matières traitées ; prosopographie des correspondants et des messagers ; vocabulaire juridique. – Chronologie.</p>
         <p>Le texte comporte des cartes et tableaux à l’appui (activité de la chancellerie pontificale, diffusion de la correspondance, vocabulaire...), ainsi que deux illustrations.</p>

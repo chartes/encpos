@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,26 +56,26 @@
         <surname>Lorang</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1005369">
         <head rend="uc">Introduction</head>
         <p>Le plus grand hôpital de Paris était déjà dans les milieux éclairés l’objet de critiques quand il fut partiellement détruit par un incendie en 1772. Ce fut l’occasion d’un large mouvement d’opinion en faveur d’une réforme de l’Hôtel-Dieu : libelles, mémoires et projets aboutissent parfois à la remise en question de l’institution hospitalière. L’étude de ce foisonnement d’idées plus ou moins originales et, pour certaines, à la limite de l’utopie, implique la connaissance approfondie des multiples aspects d’un hôpital façonné par les siècles : gestion, fonctionnement, bâtiments, personnel et malades.</p>
       </div>
-      <div>
+      <div xml:id="r1005379">
         <head rend="uc">Sources</head>
         <p>Le fonds de l’Hôtel-Dieu, aux Archives de l’Assistance publique, constitue l’essentiel des sources étudiées, malgré les lacunes importantes dues à l’incendie de 1871 ; les registres de délibérations (liasse 1438) ont été dépouillés entièrement pour la période étudiée, ainsi que certaines liasses éparses. A la Bibliothèque nationale ont été consultés les mss. 1210 à 1217 de la collection Joly de Fleury et les projets de réforme conservés au département des imprimés. Quelques recherches aux Archives nationales ont complété la documentation : principalement les sous-séries F<hi rend="sup">15</hi>, H<hi rend="sup">1</hi>, H<hi rend="sup">2</hi> et 0<hi rend="sup">1</hi>.</p>
       </div>
-      <div>
+      <div xml:id="r1005405">
         <pb source="https://nakala.fr/10.34847/nkl.3a7b7h21#ca110b8fbf897c9785632cde3db51e142168b359" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a7b7h21/ca110b8fbf897c9785632cde3db51e142168b359/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>L’Hôtel-Dieu au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r1005424">
           <head rend="uc">Chapitre premier
            <lb/>l’Hôtel-Dieu de ses origines à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle</head>
           <p>Les origines de l’Hôtel-Dieu sont incertaines. L’hôpital primitif de Saint-Christophe, mentionné pour la première fois en 829, était vraisemblablement situé à l’est de l’actuelle place du Parvis dans l’enceinte de la Cité. La reconstruction de l’église cathédrale par Maurice de Sully entraîna son transfert sur la rive nord du petit bras de Seine au début du <num>xiii<hi rend="sup">e</hi></num> siècle ; il prit alors le nom de maison-Dieu. Vers 1250, les bâtiments étaient terminés et s’étendaient jusqu’au Petit Pont. De 1532 à 1535, grâce au légat du Pape, le cardinal Duprat, on édifia pour les contagieux la salle Sainte-Marthe, dite « du Légat », qui donnait sur la rue du Marché Pain.</p>
           <p>Au début du <num>xvii<hi rend="sup">e</hi></num> siècle, Claude Vellefaux fut chargé de reconstruire les salles médiévales. Puis Gamard édifia, le long de la rivière, une salle, appelée plus tard Saint-Côme, et, sur le petit bras de Seine, un pont qui reçut le nom de pont au Double en 1634, lorsque l’Hôtel-Dieu fut autorisé à y percevoir un droit de passage. La salle du Rosaire, bâtie sur le pont, fut mise en service en 1635. L’année suivante, Gamard élevait un portail monumental sur la rue de la Bûcherie. L’Hôtel-Dieu s’agrandit encore sur la rive gauche, par la construction du bâtiment Saint-Charles (1651-1661), relié à la partie septentrionale de l’hôpital par un pont.</p>
           <p>A la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, l’Hôtel-Dieu avait débordé le cadre de la Cité et occupait les deux côtés du petit bras de Seine. Il accueillait tous ceux qui se présentaient, mais l’entassement des contagieux avec les autres malades avait remis en cause plusieurs fois son universalité. A la fin du <num>xv<hi rend="sup">e</hi></num> siècle, on avait affecté aux syphilitiques une maison hors Paris. Au siècle suivant, plusieurs projets restèrent sans suite : bâtiment pour les contagieux sur le petit bras de Seine, maison pour les pestiférés au faubourg Saint-Germain, agrandissement sur le Petit Pont et vers les jardins de l’Archevêché. Au <num>xvii<hi rend="sup">e</hi></num> siècle, l’Hôtel-Dieu s’adjoignit deux annexes en banlieue, Saint-Louis et Sainte-Anne, pour recevoir les contagieux en temps d’épidémie, et fit construire un hôpital réservé aux incurables, rue de Sèvres. Enfin, malgré le projet d’un hôpital pour les convalescents sur l’emplacement du prieuré Saint-Julien-le-Pauvre, ceux-ci restaient mêlés aux malades.</p>
         </div>
-        <div>
+        <div xml:id="r1005478">
           <pb source="https://nakala.fr/10.34847/nkl.3a7b7h21#8289a97fae8d62ae0a8d7aba07831e9f7c92d10a" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a7b7h21/8289a97fae8d62ae0a8d7aba07831e9f7c92d10a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’organisation de la charité à Paris au début du <num>xviii<hi rend="sup">e</hi></num> siècle</head>
@@ -87,7 +85,7 @@
           <p>Enfin, dans les paroisses, des compagnies de charité fonctionnent sous la direction du curé depuis le <num>xvii<hi rend="sup">e</hi></num> siècle : les secours en nature sont préférés aux dons d’argent, et l’on s’efforce de donner du travail à ceux qui sont réduits à la misère.</p>
           <p>Il faut souligner le manque d’unité de cette organisation charitable, dont l’action, diversifiée, ne relevait pas d’une véritable politique d’assistance, et la place de choix de l’Hôtel-Dieu, ouvert à tous sans restriction de nombre.</p>
         </div>
-        <div>
+        <div xml:id="r1005531">
           <head rend="uc">Chapitre III
            <lb/>Administration et personnel</head>
           <p><hi rend="i">Les administrateurs.</hi> – Le chapitre de Notre-Dame avait géré l’Hôtel-Dieu pendant tout le Moyen Âge, mais en 1505, un arrêt du Parlement confia l’administration de l’hôpital à des laïcs nommés par la municipalité.</p>
@@ -97,7 +95,7 @@
           <p><hi rend="i">Le personnel.</hi> – Le personnel religieux est placé sous la double juridiction du bureau et du chapitre. Les ecclésiastiques (chapelains du chœur et confesseurs des malades) sont sous l’autorité d’un « maître au spirituel ». Le rôle des religieuses comporte avant tout les soins aux malades, mais certaines s’occupent des « offices » : lavanderie, apothicairerie, cuisine... Elles élisent tous les trois ans une prieure. Leur recrutement est en baisse au cours du siècle.</p>
           <p>Le personnel laïc est très divers et hiérarchisé. Parmi les officiers de gestion, certains travaillent en liaison étroite avec le bureau : le greffier, l’agent d’affaires, l’huissier. On peut leur adjoindre le receveur charitable qui établit les comptes généraux de recettes et dépenses, le dépensier, le panetier et le sommelier qui s’occupent de tout l’approvisionnement, l’inspecteur des salles qui veille à la discipline intérieure, et l’inspecteur des bâtiments. Une dizaine de médecins visitent quotidiennement les malades ; ils conservent une clientèle extérieure à l’Hôtel-Dieu. Les chirurgiens, plus nombreux, forment un corps très hiérarchisé et réputé. A l’office des accouchées, une maîtresse sage-femme est assistée de quatre « apprentisses » ; la renommée de ce service s’étend dans toute l’Europe. Le personnel de service représente à la fin du siècle environ 500 personnes : ce sont en majorité des provinciaux qui entrent jeunes et restent peu de temps. Un clivage s’établit entre le personnel subalterne, instable, et les officiers et les religieuses qui, ayant des intérêts à défendre, prendront part aux remises en question de la fin du siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1005566">
           <head rend="uc">Chapitre IV
            <lb/>Les finances</head>
           <p>Une vue d’ensemble de l’état financier de l’Hôtel-Dieu au <num>xviii<hi rend="sup">e</hi></num> siècle ressort de la confrontation des budgets conservés pour 1700, 1701 et les dix dernières années d’Ancien Régime, et de quelques autres documents fragmentaires.</p>
@@ -108,7 +106,7 @@
           <p>Le secteur de l’alimentation accapare la moitié du budget à la fin de l’Ancien Régime. En effet, la diminution très nette des charges, et notamment du service des rentes, accorde une marge d’aisance aux administrateurs. Les secteurs également susceptibles, dans une moindre part, de profiter d’une amélioration sont ceux du linge, de l’apothicairerie et des bâtiments.</p>
           <p>En définitive, la fragilité des finances de l’Hôtel-Dieu paraît évidente. Elles sont à la merci d’une dépréciation des rentes et des difficultés financières du gouvernement, et, pour les achats, des brusques variations de la conjoncture économique.</p>
         </div>
-        <div>
+        <div xml:id="r1005616">
           <head rend="uc">Chapitre V
            <lb/>Les bâtiments de l’Hôtel-Dieu</head>
           <p>Au début du <num>xviii<hi rend="sup">e</hi></num> siècle, le bâtiment Saint-Charles fut continué le long de la rue de la Bûcherie jusqu’au Petit Châtelet. Il n’y eut pas d’autres travaux jusqu’aux reconstructions dues à l’incendie de 1772. L’Hôtel-Dieu occupe alors les deux rives du petit bras de Seine : dans l’île de la Cité, il s’étend de la rue du Marché Palu à la ruelle de l’Archevêché ; au sud, le pont au Double et le pont Saint-Charles communiquent avec l’autre partie de l’hôpital.</p>
@@ -118,7 +116,7 @@
           <p>La pompe du pont Notre-Dame fournit à l’Hôtel-Dieu la plus grande partie de son eau ; l’approvisionnement pose des problèmes, malgré la situation privilégiée de l’hôpital sur le petit bras de Seine.</p>
           <p>L’entassement des bâtiments sur un espace resserré, la présence de matières combustibles dans les caves, font de l’Hôtel-Dieu une proie facile pour les flammes.</p>
         </div>
-        <div>
+        <div xml:id="r1005649">
           <pb source="https://nakala.fr/10.34847/nkl.3a7b7h21#c1e1542c5489513e8a4126abc907cc8fd754042e" n="154" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a7b7h21/c1e1542c5489513e8a4126abc907cc8fd754042e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Les malades</head>
@@ -129,10 +127,10 @@
           <p>Cette situation déplorable fut en partie à l’origine des critiques émises contre l’Hôtel-Dieu à la fin de l’Ancien Régime.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1005683">
         <head rend="uc">Deuxième partie
          <lb/>Les tentatives de réforme de l’Hôtel-Dieu (1773-1789)</head>
-        <div>
+        <div xml:id="r1005691">
           <head rend="uc">Chapitre premier
            <lb/>l’hôpital et l’assistance dans la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>L’assistance aux pauvres est totalement modifiée au cours du <num>xviii<hi rend="sup">e</hi></num> siècle : la charité chrétienne cède la place à la bienfaisance altruiste, soucieuse de secourir le pauvre, mais aussi de prévenir la misère. Des textes littéraires, des <pb source="https://nakala.fr/10.34847/nkl.3a7b7h21#3578936b006464e08b9b6fd13830eb80516eb6f0" n="155" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a7b7h21/3578936b006464e08b9b6fd13830eb80516eb6f0/full/full/0/default.jpg"/>délibérations de commissions ou assemblées, quelques décisions gouvernementales en rendent compte. Au mieux, la pauvreté ne doit être qu’un état passager, et le pauvre valide doit retrouver du travail, de gré ou de force. Le pauvre malade apitoie le plus souvent ; on cherche à le guérir et à l’aider de telle sorte que la maladie ne soit plus une catastrophe pour lui comme pour ses proches.</p>
@@ -142,7 +140,7 @@
           <p>La place de l’hôpital dans la cité est souvent contestée : comme le cimetière, on voudrait le mettre en marge de la ville. Si l’expulsion des tombes était chose acquise vers 1780, celle des hôpitaux resta un vœu.</p>
           <p>Ainsi, de 1740 à 1790, se fixent les grands traits d’une réforme hospitalière qui aboutit, il est vrai, à très peu de réalisations définitives. Un élément essentiel de cette polémique fut le débat sur l’Hôtel-Dieu après 1772. Dans la perspective d’une remise en question de cet établissement, l’urbanisme parisien, avec notamment les tentatives d’embellissement et d’assainissement de l’île de la Cité, s’ajoute à l’évolution de l’« assistance fermée ».</p>
         </div>
-        <div>
+        <div xml:id="r1005735">
           <head rend="uc">Chapitre II
            <lb/>Les projets de réforme : présentation et critiques</head>
           <p><hi rend="i">L’incendie.</hi> – L’incendie survenu dans la nuit du 30 au 31 décembre 1772 détruisit dans l’île de la Cité la salle du Légat, la salle Jaune, l’infirmerie et <pb source="https://nakala.fr/10.34847/nkl.3a7b7h21#bead6d5fd0c7b6bdae54982f09ddb1d2f93ad569" n="156" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a7b7h21/bead6d5fd0c7b6bdae54982f09ddb1d2f93ad569/full/full/0/default.jpg"/>le couvent. La désorganisation de l’Hôtel-Dieu fut telle que l’on dut ouvrir l’hôpital Saint-Louis en permanence. Cette catastrophe tragique et spectaculaire frappa l’esprit des contemporains.</p>
@@ -150,7 +148,7 @@
           <p><hi rend="i">Les critiques.</hi> – Tous les auteurs s’accordent à dénoncer l’emplacement dans l’île de la Cité comme la cause principale des vices de l’hôpital. Il est un foyer permanent de contagion et de pollution, et gêne les « projets d’embellissement », en particulier du parvis Notre-Dame. La forte densité du tissu urbain dans ce quartier interdit tout agrandissement, entrave les communications, impose à l’hôpital un environnement malsain (« mauvais air », « tumulte »).</p>
           <p>La vétusté des bâtiments rend plus criantes leur mauvaise distribution, leur exiguïté et leur insalubrité. Aussi les auteurs se plaisent-ils à souligner les conditions de vie déplorables auxquelles sont soumis les malades. La confusion générale scandalise : les contagieux se trouvent mêlés aux autres, on met jusqu’à six malades dans le même lit, ce qui contribue à la désorganisation du service. Les salles sont mal aérées, mal éclairées. Cette absence d’hygiène compromet l’action médicale et chirurgicale. La mortalité est dénoncée comme une des plus élevées d’Europe. Tout ceci justifie la prétendue crainte des pauvres devant l’Hôtel-Dieu. On reproche à l’administration le secret dont elle s’entoure, et la gestion peu rationnelle de ses finances.</p>
         </div>
-        <div>
+        <div xml:id="r1005770">
           <head rend="uc">Chapitre III
            <lb/>Les projets de réforme : les propositions</head>
           <p>Les auteurs, dans leur grande majorité, sont favorables à un transfert de l’Hôtel-Dieu aux abords immédiats de la ville. Les rares partisans d’un agrandissement sur place préconisent l’extension vers le Petit Châtelet, la place Maubert et Saint-Julien-le-Pauvre.</p>
@@ -161,7 +159,7 @@
           <p>La recherche d’un progrès médical n’est pas absente de ces projets (individualisation des salles d’opérations et créations de chaires de chirurgie).</p>
           <p>En dernier lieu, certains auteurs abordent les problèmes généraux de l’hôpital. Ils optent plus ou moins pour un établissement public à financement d’État. Une institution de caractère privé et éventuellement payante est prônée par Chamousset.</p>
         </div>
-        <div>
+        <div xml:id="r1005802">
           <head rend="uc">Chapitre IV
            <lb/>Les tentatives de réforme</head>
           <p>Ce vaste mouvement d’opinion a contraint les parties concernées à adopter une position nette. Les administrateurs de l’Hôtel-Dieu qui avaient consenti, au lendemain de l’incendie, à la translation de l’hôpital, évoluèrent rapidement en faveur du maintien sur place, pratiquant par la reconstruction des bâtiments détruits la politique du fait accompli.</p>
@@ -169,7 +167,7 @@
           <p>Dix-sept ans après l’incendie, l’Hôtel-Dieu n’avait pas été déplacé. Seules quelques petites réformes internes, entravées par l’opposition des religieuses, avaient eu lieu. Les administrateurs cédaient sur le détail pour ne pas remettre en cause l’essentiel.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1005821">
         <pb source="https://nakala.fr/10.34847/nkl.3a7b7h21#bc5597b679cf0f8f6091fc9774a7006b75ae03ac" n="158" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a7b7h21/bc5597b679cf0f8f6091fc9774a7006b75ae03ac/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>A la suite de la Révolution, quelques réformes simples eurent lieu, telles que la cessation de l’entassement de plusieurs malades dans un même lit, le chauffage des salles, ou l’envoi de certaines catégories de malades dans des hospices spécialisés. Mais l’Hôtel-Dieu, pourtant toujours critiqué sous la Révolution, resta sur place. Au milieu des démolitions et des reconstructions, le débat sur sa translation continuera aux <num>xix<hi rend="sup">e</hi></num> et <num>xx<hi rend="sup">e</hi></num> siècles. Les questions qui s’étaient alors posées à son sujet permettent de préciser la notion d’hôpital et d’évaluer la place du pauvre et du malade dans les mentalités à la fin de l’Ancien Régime.</p>

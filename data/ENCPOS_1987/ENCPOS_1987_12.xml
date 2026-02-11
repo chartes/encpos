@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <forename>Bruno</forename>
         <surname>Galland</surname>
       </byline>
-      <div>
+      <div xml:id="r1147592">
         <head rend="uc">Introduction</head>
         <p>En 1157, le siège de Lyon revêt déjà une importance particulière. C’est le premier évêché apparu en Gaule, et son titulaire porte, depuis 1079, le titre de primat. Au plan politique, Lyon relève de l’Empire, dont la tutelle est très lâche ; mais, localement, l’archevêque se heurte à la concurrence du « comte de Lyon et Forez ».</p>
       </div>
-      <div>
+      <div xml:id="r1147602">
         <head rend="uc">Sources</head>
         <p>Il n’existe, pour le Moyen Age, aucun fonds homogène sur les archevêques de Lyon. Les sources utilisées sont donc caractérisées par leur dispersion. Le très riche fonds du chapitre cathédral (Archives départementales du Rhône, sous-série 10 G) et ceux des chapitres et abbayes du diocèse de Lyon offrent l’essentiel de la documentation. La plupart des documents ont été édités dans les grands recueils de M.C. et G. Guigue. Mais on trouve encore des pièces inédites de grand intérêt (dossier de la cour commune, 10 G 660-662).</p>
         <p>Divers documents des Archives nationales (J 262-267, 346-347 ; série P) et des Archives départementales de la Côte-d’Or, de la Saône-et-Loire, de l’Ain et de la Haute-Marne viennent enrichir cette documentation. Ont été également dépouillés les principaux cartulaires d’abbayes du diocèse et de la province de Lyon, conservés dans les dépôts précités ou à la Bibliothèque nationale.</p>
       </div>
-      <div>
+      <div xml:id="r1147615">
         <pb source="https://nakala.fr/10.34847/nkl.c6aa0849#4d0a262977a8431be33fa6e9c14ffbd08f32cc2f" n="106" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6aa0849/4d0a262977a8431be33fa6e9c14ffbd08f32cc2f/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Affermissement de la puissance du siège<lb/>de Lyon<lb/>(1157-1226)</head>
-        <div>
+        <div xml:id="r1147636">
           <head rend="uc">Chapitre premier
            <lb/>les étapes (1157-1193)</head>
           <p><hi rend="i">L’attachement à l’Empire (1157-1165</hi>). – L’archevêque Héracle de Montboissier obtient de Frédéric Barberousse, en 1157, par un diplôme bullé d’or, la confirmation de ses <hi rend="i">regalia</hi> sur l’est du diocèse de Lyon, ainsi que sur l’ensemble de la ville. En fait, l’empereur n’abandonne rien : il n’exerçait plus aucune prérogative dans cette région. Mais ce que l’archevêque reçoit est important : jusqu’ici, en effet, il devait partager son autorité sur la ville avec le comte de Forez. La Bulle d’or affirme l’exclusivité du pouvoir épiscopal sur Lyon.</p>
@@ -82,7 +80,7 @@
           <p><hi rend="i">L’activité religieuse de 1153 à 1193.</hi> – L’activité pastorale des archevêques est alors dominée par la lutte contre l’hérésie vaudoise, et les missions que <pb source="https://nakala.fr/10.34847/nkl.c6aa0849#a85236341dd8e5105304a40c890b290a2cf228fc" n="107" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6aa0849/a85236341dd8e5105304a40c890b290a2cf228fc/full/full/0/default.jpg"/>leur confie la papauté. Héracle, Guichard et Jean sont en effet tous trois légats pontificaux.</p>
           <p>Leur activité extra-diocésaine ne doit donc rien à la primatie d’honneur de leur siège. Le souvenir de celle-ci n’a pourtant pas disparu. Jean Bellesmains mentionne la primatie dans sa titulature : il est le premier archevêque de Lyon à agir ainsi. Plusieurs raisons expliquent cette initiative : l’importance attachée par Jean à ses prérogatives, mais aussi les conditions de son élection. Jean avait été élu simultanément par les chapitres de Narbonne et de Lyon : cette dernière ville l’a emporté en raison de sa primatie.</p>
         </div>
-        <div>
+        <div xml:id="r1147688">
           <head rend="uc">Chapitre II
            <lb/>L’apogée : Renaud de Forez (1193-1226)</head>
           <p><hi rend="i">L’archevêque et son entourage.</hi> – Pour choisir un successeur à Jean Bellesmains, le chapitre adopte le procédé du compromis. Les compromissaires choisissent Renaud de Forez, fils du comte Guy II, mais l’un d’eux émet des réserves sur ses qualités spirituelles. On a l’impression d’une élection jouée d’avance – le chapitre souhaitait sceller la réconciliation entre l’Église et le Forez – mais qui n’était guère agréable aux chanoines, inquiets sans doute pour leur indépendance.</p>
@@ -96,11 +94,11 @@
           <p><hi rend="i">L’homme d’Église.</hi> – Mais Renaud n’est pas seulement le « prélat féodal » trop souvent dépeint. Il s’occupe de son diocèse, encourage les établissements de charité et d’assistance (il s’agit aussi de répondre à l’hérésie vaudoise), accorde une protection spéciale aux établissements foréziens, aux hospitaliers et aux chartreux. Toutefois, sa sympathie pour Philippe de Souabe, et ses démêlés avec l’abbaye de Savigny ou les bourgeois lyonnais, lui aliènent la bienveillance d’Innocent III.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1147745">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>L’effacement des archevêques (1227-1268)</head>
-        <div>
+        <div xml:id="r1147757">
           <head rend="uc">Chapitre premier
            <lb/>déclin et essai de redressement (1227-1245)</head>
           <p>Les <hi rend="i">successeurs de Renaud de Forez.</hi> – L’évêque de Clermont Robert de La Tour, bon administrateur foncier, dont le neveu est archidiacre de Lyon, est élu pour succéder à Renaud. Mais il ne s’intéresse guère à son nouveau diocèse : dans son testament, les établissements d’Auvergne sont mieux dotés que ceux de Lyon. Après sa mort (1234), le chapitre divise ses suffrages, justifiant l’intervention de la papauté. Grégoire IX nomme Raoul de la Roche Aymon, parent éloigné de Robert, ancien abbé de Clairvaux, ancien évêque d’Agen, dont les qualités et l’expérience représentent une chance pour le diocèse ; mais Raoul meurt dès son arrivée. Désireux d’éviter une nouvelle intervention pontificale, le chapitre élit alors Aymeric Guerry, archidiacre de Paris, issu d’une famille du Mans. Ce choix ne peut que satisfaire Grégoire IX, qui a confié de nombreuses missions à Aymeric.</p>
@@ -110,7 +108,7 @@
           <p>L’administration de Lyon connaît deux changements importants sous les épiscopats de Robert et d’Aymeric. Le rôle de l’official se développe. Il n’est plus seulement le dataire des actes : ceux-ci sont parfois rédigés en son nom. L’official se détache progressivement de l’archevêque, en dépit d’une réaction esquissée par Aymeric.</p>
           <p>Surtout, le chapitre cathédral prend une importance croissante. La politique absorbe Robert, Aymeric se consacre à la réforme du diocèse : la position de l’archevêque s’affaiblit au profit des chanoines, qui exercent leur propre juridiction, malgré l’opposition d’Aymeric.</p>
         </div>
-        <div>
+        <div xml:id="r1147799">
           <head rend="uc">Chapitre II
            <lb/>L’activité temporelle de Philippe de Savoie (1245-1267)</head>
           <p><hi rend="i">Philippe de Savoie, l’homme du pape.</hi> – Innocent IV réunit un concile à Lyon. Il y reçoit la résignation d’Aymeric : ce dernier refuse de cautionner la politique pontificale et s’inquiète devant ce séjour onéreux qui ruine ses tentatives de réforme. Le pape le remplace par un cadet de Savoie, Philippe, qui l’a accompagné depuis l’Italie et qui était déjà le gardien du concile.</p>
@@ -121,7 +119,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.c6aa0849#fde15288824a7371e683384dc2363786041fa39e" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6aa0849/fde15288824a7371e683384dc2363786041fa39e/full/full/0/default.jpg"/>
           <p><hi rend="i">L’abandon du siège de Lyon.</hi> – A partir de 1260, Philippe se heurte à des oppositions qui l’obligent à abandonner certains de ses nombreux bénéfices. Enfin, en 1267, Clément IV exige qu’il se fasse ordonner. Philippe préfère résigner l’archevêché de Lyon, ce qui lui permet, l’année suivante, de recueillir la succession de son frère Pierre de Savoie.</p>
         </div>
-        <div>
+        <div xml:id="r1147840">
           <head rend="uc">Chapitre III
            <lb/>Philippe de Savoie à Lyon : la ville et le diocèse</head>
           <p><hi rend="i">Les devoirs de l’archevêque.</hi> – On a souvent accusé Philippe de Savoie d’avoir négligé le siège de Lyon, qu’il n’aurait administré que de loin, par l’intermédiaire d’un évêque auxiliaire. En fait, il n’eut jamais d’auxiliaire. Il recourt très rarement aux services d’autres prélats, et choisit toujours des hommes qu’il connaît bien (le cardinal Hugues de Saint-Cher). En revanche, il se décharge sur l’official, qui prend sous son épiscopat une importance croissante, et sur ses autres officiers lyonnais.</p>
@@ -132,12 +130,12 @@
           <p><hi rend="i">L’administration de Lyon.</hi> – L’administration civile de Lyon, en revanche, occupe peu Philippe. Il entretient de bonnes relations, aussi bien avec son chapitre (en s’appuyant notamment sur les chanoines liés au Dauphiné) qu’avec les citoyens. Mais, en tolérant l’exercice d’une juridiction par le chapitre, il laisse se développer les germes de la crise future.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1147905">
         <pb source="https://nakala.fr/10.34847/nkl.c6aa0849#5f1c04465fad3a4a5ec5dd992bfa4b5ca382ad3f" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6aa0849/5f1c04465fad3a4a5ec5dd992bfa4b5ca382ad3f/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>Les crises à Lyon (1268-1308)</head>
-        <div>
+        <div xml:id="r1147922">
           <head rend="uc">Chapitre premier
            <lb/>l’archevêque face au chapitre (1268-1283)</head>
           <p><hi rend="i">La longue vacance du siège de Lyon.</hi> – Le chapitre ne parvient pas à réunir ses suffrages pour désigner un successeur à Philippe de Savoie. Ce n’est qu’en 1272 que Grégoire X nomme Pierre de Tarentaise, remplacé dès 1274 par Aymar de Roussillon : ce cadet d’une famille noble du Dauphiné n’a guère de qualités religieuses, mais il peut assurer la garde du concile. La situation est la même qu’en 1245. Au plan spirituel, la réunion des conciles n’a pas profité à Lyon, le pape s’étant surtout préoccupé de nommer à l’archevêché un gardien efficace.</p>
@@ -146,7 +144,7 @@
           <p>La position d’Aymar est encore affaiblie par sa politique extérieure. Pour défendre son frère, Amédée, évêque de Valence, Aymar se heurte en effet aux seigneurs de la Tour du Pin, de Beaujeu, de Poitiers, et, par là, aux sires de Villars : certaines de ces familles sont bien représentées au chapitre cathédral.</p>
           <p>Cet épiscopat troublé ne permet pas à Aymar de s’occuper de son diocèse. Mais, six mois avant sa mort, il rappelle qu’en cas de vacance, l’archevêché de Lyon doit être administré par l’évêque d’Autun. Il s’agit là, comme ailleurs, de réduire les prétentions du chapitre.</p>
         </div>
-        <div>
+        <div xml:id="r1147955">
           <head rend="uc">Chapitre II
            <lb/>Les archevêques étrangers (1283-1294)</head>
           <p><hi rend="i">Les difficultés de succession.</hi> – Un scénario identique se reproduit à deux reprises. Le chapitre cathédral divise ses suffrages. Le pape intervient et nomme un prélat tout à fait étranger à Lyon, mais qui vient d’être évincé d’un autre <pb source="https://nakala.fr/10.34847/nkl.c6aa0849#14667dc75bcd77abc25de89c2d0a3654b853932c" n="112" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6aa0849/14667dc75bcd77abc25de89c2d0a3654b853932c/full/full/0/default.jpg"/>siège. C’est d’abord Raoul de Thourotte, d’une grande famille picarde, trésorier de Meaux, puis chanoine de Verdun, candidat malheureux à cet évêché ; puis le gascon Bérard de Got, qui a dû renoncer au siège de Bordeaux. La position de ces archevêques étrangers n’est pas facile ; aussi Nicolas IV accompagne-t-il la nomination de Bérard d’une série de privilèges en sa faveur.</p>
@@ -155,7 +153,7 @@
           <p>Ils ne peuvent plus, en effet, se tourner vers le comte de Savoie, car celui-ci entretient des relations privilégiées avec Bérard. L’archevêque intervient dans plusieurs conflits auxquels se trouve mêlé Amédée V. Il jouit également de la confiance du roi d’Angleterre.</p>
           <p><hi rend="i">Les archevêques dans leur province.</hi> – Ni Raoul, ni Bérard ne semblent s’être occupé de leur diocèse. On les voit davantage dans leur province. Raoul réunit un concile provincial à Mâcon en 1286 ; les statuts de ce concile traitent essentiellement de la juridiction – l’arrière-plan politique est évident –, et reprennent des articles du synodal de Philippe de Savoie. Bérard essaye d’améliorer sa très mauvaise situation financière en levant des procurations dans le diocèse de Langres, mais il se heurte à l’opposition du clergé concerné.</p>
         </div>
-        <div>
+        <div xml:id="r1147993">
           <head rend="uc">Chapitre III
            <lb/>Les archevêques de la maison de Villars (1294-1308)</head>
           <p><hi rend="i">Les archevêques et leur entourage.</hi> – Pour remplacer Bérard de Got, promu cardinal par Célestin V, Boniface VIII nomme un de ses familiers, Henri de Villars, qui joue depuis vingt-cinq ans un rôle très important au sein du chapitre cathédral. Henri meurt en cour de Rome en 1301 : aussitôt, son petit-neveu Louis de Villars, déjà archidiacre de Lyon, est nommé par Boniface VIII pour lui succéder.</p>
@@ -169,16 +167,16 @@
           <p>Tel n’est pas le cas des actes du concile provincial réuni à Anse en 1300, qui reproduisent presque exclusivement les décisions du concile provincial de Vienne de 1289. D’ailleurs, les archevêques ne s’occupent guère de leur province, l’autorité métropolitaine est annulée par la centralisation pontificale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1148048">
         <head rend="uc">Conclusion</head>
         <p>Les « Philippines » sont bientôt suivies de la réunion de Lyon à la France. Elles marquent donc bien la fin d’une époque où l’archevêque exerçait toute l’autorité.</p>
         <p>L’unité de cette période permet d’esquisser une « sociologie » de l’épiscopat lyonnais, qui confirme le plus souvent les observations faites sur l’épiscopat français.</p>
       </div>
-      <div>
+      <div xml:id="r1148061">
         <head rend="uc">Pièces justificatives</head>
         <p>Six actes de Renaud de Forez (1216-1227), Grégoire IX (1237), Aymeric (1240), Philippe de Savoie (1250), Raoul de Thourotte (1286), Henri de Villars (1298).</p>
       </div>
-      <div>
+      <div xml:id="r1148071">
         <head rend="uc">Appendices</head>
         <p>Liste des archevêques de Lyon de 1153 à 1332. – Liste des officiaux de Lyon jusqu’en 1308. – Arbres généalogiques. – Répertoire des sceaux des archevêques.</p>
         <pb source="https://nakala.fr/10.34847/nkl.c6aa0849#77f0c3677e806edf28748539c814c52a0bc0004a" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6aa0849/77f0c3677e806edf28748539c814c52a0bc0004a/full/full/0/default.jpg"/>

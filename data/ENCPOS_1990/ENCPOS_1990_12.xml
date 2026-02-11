@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,29 +57,29 @@
         <surname>de La Selle</surname>
         <roleName>licencié es lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1189650">
         <head rend="uc">Introduction</head>
         <p>Les offices de confesseur et d’aumônier du roi de France ont été étudiés d’une manière générale dès les <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles dans des histoires ecclésiastiques de la cour, composées par des membres de la chapelle royale (du Peyrat, aumônier de Louis XIII, Archon, chapelain de Louis XV, Oroux, chapelain de Louis XVI). Par ailleurs, les fondements juridiques de la vie religieuse dans l’entourage royal ont fait l’objet d’une thèse d’histoire du droit canonique, inédite, soutenue par Louis Moreau en 1973.</p>
         <p>Il convient cependant de s’intéresser au rôle spécifique du confesseur du roi et à l’activité de l’aumônerie royale du <num>xiii<hi rend="sup">e</hi></num> au xv’ siècle, notamment à travers l’étude prosopographique des titulaires de ces deux offices.</p>
       </div>
-      <div>
+      <div xml:id="r1189681">
         <pb source="https://nakala.fr/10.34847/nkl.c11df957#9c0586e01eaed477fd39f09f5a665add4c4a0ab1" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/9c0586e01eaed477fd39f09f5a665add4c4a0ab1/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Il n’existe pas de fonds d’archives homogène concernant le confesseur ou l’aumônier au Moyen Age. Les sources utilisées se caractérisent donc par leur grande dispersion. Les bulles pontificales publiées par Adolphe Tardif et par Bernard Barbiche ont fourni la matière principale de la première partie, consacrée aux fondements institutionnels. Ont été également utilisées les ordonnances de l’Hôtel des XIII’ et <num>xiv<hi rend="sup">e</hi></num> siècles (Archives nationales, JJ 57 ; Bibliothèque nationale, collection Clairambault 832-834 et ms fr. 7855).</p>
         <p>Pour l’élaboration des notices biographiques, on a eu recours aux grandes séries de sources éditées : documents comptables de la monarchie (comptes de l’Hôtel et journaux du Trésor), obituaires, registres pontificaux des <num>xiii<hi rend="sup">e</hi></num> et XIV’ siècles, et documents sur l’Université de Paris publiés par Denifle et Châtelain. Les registres du Trésor des chartes et du parlement de Paris (série JJ et X<hi rend="sup">, A </hi>des Archives nationales), ainsi que les testaments royaux (J 403 et J 404) ont apporté de précieux renseignements, complétés à la Bibliothèque nationale par la collection des Pièces Originales du Cabinet des Titres, et le ms fr. 20593, qui contient quelques documents originaux concernant le confesseur royal. Quelques recherches dans la série des suppliques des Archives du Vatican et dans les archives de l’Ordre dominicain à Rome ont donné également d’utiles indications biographiques.</p>
         <p>D’autre part les activités du confesseur et de l’aumônier ont laissé des traces dans les archives du collège de Navarre et de Maître-Gervais (Archives nationales, M 163 et M 180) et surtout dans les archives de l’Hôpital des Quinze-Vingts. 11 faut enfin signaler les quelques comptes d’aumônerie encore conservés aux Archives nationales (KK 9, 66, 77, et 111) et une copie d’un registre des établissements hospitaliers à la nomination de l’aumônier (Bibl. nat., nouv. acq. fr. 1440).</p>
       </div>
-      <div>
+      <div xml:id="r1189718">
         <head rend="uc">Première partie
           <lb/>Les fondements institutionnels</head>
-        <div>
+        <div xml:id="r1189726">
           <head rend="uc">Chapitre premier
             <lb/>les origines de l’aumônier et du confesseur du roi</head>
           <p><hi rend="i">La chapelle royale, des carolingiens aux capétiens.</hi> – Des auteurs de l’Ancien Régime ont cru que les offices de confesseur et d’aumônier du roi étaient des démembrements de la chapelle royale, et ont vu dans l’archichapelain <pb source="https://nakala.fr/10.34847/nkl.c11df957#412e7a34121993ca5e6f8f71a77b07cada833442" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/412e7a34121993ca5e6f8f71a77b07cada833442/full/full/0/default.jpg"/>carolingien et dans l’aumônier des capétiens l’ancêtre du grand aumônier de France de l’époque moderne. Or la chapelle est étroitement liée à la chancellerie royale de l’époque carolingienne jusqu’au début du <num>xii<hi rend="sup">e</hi></num> siècle, mais, à partir des règnes de Louis VI et de Louis VII, elle prend son autonomie, et c’est une institution en pleine mutation que l’on trouve à la fin du <num>xii<hi rend="sup">e</hi></num> siècle, au moment où est créée l’aumônerie royale.</p>
           <p><hi rend="i">La création de l’aumônerie royale.</hi> – Malgré le peu de renseignements que nous avons sur les premiers aumôniers, tout porte à croire que le service de l’Aumônerie a été créé par Philippe Auguste, dans les années 1190, sans doute à l’imitation du roi d’Angleterre, à qui le capétien a emprunté d’autres institutions administratives et financières. Mais l’organisation de l’aumônerie royale sous le règne de Philippe Auguste correspond aussi à une période où les manifestations extérieures de la piété royale prennent une importance nouvelle. Cependant, il n’existe à l’origine aucun lien entre l’Aumônerie et la Chapelle.</p>
           <p><hi rend="i">Le droit de choisir son confesseur.</hi> – Jusqu’au <num>xiii<hi rend="sup">e</hi></num> siècle, le droit canonique oblige les rois capétiens et leur entourage à recevoir les sacrements des mains de l’ordinaire du lieu où ils se trouvent. A partir de 1218, les souverains commencent à recevoir des papes des privilèges exemptifs qui facilitent la vie spirituelle de la cour itinérante. Le 5 décembre 1243, Louix IX obtient d’Innocent IV la faculté de se confesser à l’un de ses chapelains, mais c’est la bulle du 20 mars 1256, permettant au roi de choisir pour confesseur tout prêtre régulier ou séculier, qui consacre véritablement la naissance d’un confesseur attitré. Saint Louis est peut-être le premier laïque à avoir obtenu le droit de choisir son confesseur, mais il n’est pas le seul : à la même époque, bien d’autres personnes obtiennent du Saint-Siège des privilèges similaires. A la différence de l’aumônier, qui a été institué par le roi, le confesseur n’existe que par les privilèges accordés par les papes : sa charge est d’une certaine manière une création pontificale.</p>
         </div>
-        <div>
+        <div xml:id="r1189776">
           <head rend="uc">Chapitre II
             <lb/>Le développement des prérogatives institutionnelles</head>
           <p><hi rend="i">Le bullaire royal.</hi> – Les bulles de 1243 et 1256 appartiennent à tout un ensemble de bulles pontificales accordant des exemptions aux rois de France. Ces privilèges, dont le premier remonte à 1224, sont d’abord adressés au roi et à la reine personnellement, puis renouvelés à chaque début de règne et de pontificat. A partir de la seconde moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, ils font de plus en plus souvent l’objet d’expéditions groupées. Une importante proportion de ces actes concerne les attributions du confesseur : il peut absoudre le roi, les gens de l’Hôtel et de l’armée (à partir de 1343), les relever des excommunications, commuer leurs vœux en œuvres pieuses et leur administrer les sacrements. A partir de 1343, ces pouvoirs ne sont plus seulement conférés au confesseur, mais aussi à son compagnon (le <hi rend="i">socius</hi>) et au premier chapelain, ainsi qu’à tout prêtre délégué par eux. Le 20 avril 1351, le pape Clément VI renouvelle <pb source="https://nakala.fr/10.34847/nkl.c11df957#2410a3949209cf126dfbdc16c6b457b1b77f2192" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/2410a3949209cf126dfbdc16c6b457b1b77f2192/full/full/0/default.jpg"/>à perpétuité les privilèges précédemment accordés en adressant au roi Jean le Bon et à la reine trente et une bulles, dont le tiers concerne le confesseur. Tous les pouvoirs juridiques du confesseur et les institutions qui vont fonder la vie religieuse de la cour jusqu’à la fin du Moyen Age sont établis à cette date.</p>
@@ -91,7 +89,7 @@
           <p>Une ordonnance de Philippe V datée de 1318 détermine l’emploi du temps des deux officiers et fixe les attributions du confesseur en matière de collation de bénéfices. L’ordonnance de 1360 sur les officiers du roi témoigne de l’importance politique acquise par le confesseur et l’aumônier en les autorisant à présenter leurs requêtes au roi, au même titre que le chancelier, les conseillers du Grand Conseil ou les maîtres des requêtes de l’Hôtel.</p>
           <p>Des incertitudes subsistent sur l’évolution institutionnelle des deux officiers à la fin du XV’ siècle. Le règne de Louis XI, qui voit coexister plusieurs aumôniers, est une période de transition avant le développement de la grande aumônerie de France de l’époque moderne.</p>
         </div>
-        <div>
+        <div xml:id="r1189830">
           <head rend="uc">Chapitre III
             <lb/>Confesseurs et aumôniers des chapelles princières</head>
           <p>Dans le but de mieux comprendre la nature institutionnelle du confesseur et de l’aumônier du roi de France, il est intéressant de mener une étude comparative en examinant l’organisation d’autres chapelles princières, celles de la famille royale, du pape et du roi d’Aragon.</p>
@@ -102,16 +100,16 @@
           <p><hi rend="i">Confesseurs et aumôniers du roi d’Aragon.</hi> – Le roi d’Aragon Pierre IV le Cérémonieux promulgue en 1344 les « Lois palatines » qui codifient les institutions de la cour royale. Les attributions du confesseur et des aumôniers y sont minutieusement définies, alors qu’à la même époque les institutions françaises correspondantes commencent à peine à se préciser. A la différence de ce qui se passe dans l’hôtel du roi de France, le confesseur et l’aumônier aragonais sont tout à fait liés à la chapelle royale, et remplissent avec les chapelains un certain nombre de fonctions liturgiques. Alors qu’en France le confesseur a pu avoir une action politique et un rôle de directeur de conscience sans qu’un texte réglementaire l’en charge explicitement, le confesseur du roi d’Aragon a une mission exclusivement spirituelle, car la direction de conscience est confiée dans les « Lois palatines » à des « directeurs de conscience » spécialisés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1189876">
         <pb source="https://nakala.fr/10.34847/nkl.c11df957#1b248bb4ab82b5543f5c30b9be8abe24468e235b" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/1b248bb4ab82b5543f5c30b9be8abe24468e235b/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
           <lb/>Confesseurs et aumôniers : personnalités et carrières</head>
-        <div>
+        <div xml:id="r1189889">
           <head rend="uc">Chapitre premier
             <lb/>listes et notices biographiques</head>
           <p>Du règne de saint Louis à la fin du règne de Charles VIII, vingt-deux confesseurs et trente-trois aumôniers royaux ont été recensés. A leurs notices biographiques s’ajoutent celles de dix sous-aumôniers, et celles de dix-sept confesseurs et de dix aumôniers de la reine. Sept confesseurs de dauphins et sept confesseurs du commun ont été également répertoriés.</p>
         </div>
-        <div>
+        <div xml:id="r1189901">
           <head rend="uc">Chapitre II
             <lb/>Comment devient-on confesseur ou aumônier du roi ?</head>
           <p>Les critères qui interviennent dans le choix ne sont pas toujours les mêmes pour le confesseur ou pour l’aumônier, et ont naturellement varié selon les époques.</p>
@@ -124,7 +122,7 @@
           <p>De la mort de Charles VI à la reconquête du royaume par Charles VII, le choix des deux officiers reste déterminé par les clivages politiques. Dans la France anglo-bourguignonne, la reine Isabeau de Bavière a des confesseurs acquis au parti du duc de Bourgogne, et l’aumônier d’Henri VI roi de France et d’Angleterre n’est autre que Pierre Cauchon, l’évêque de Beauvais, juge de Jeanne d’Arc. Les confesseurs et les aumôniers du « roi de Bourges » sont de fidèles serviteurs qui ont suivi le dauphin dans sa fuite de Paris en 1418.</p>
           <p><hi rend="i">Les choix de Louis XI.</hi> – A partir de 1461, il est impossible de déceler des constantes dans les conditions du choix des confesseurs et des aumôniers royaux. Leur nomination correspond chaque fois à une situation particulière et à la volonté changeante du roi. C’est sous Louis XI que l’on commence à voir plusieurs personnages porter en même temps le titre d’aumônier, sans que l’on sache exactement la place qu’ils ont occupée à la cour.</p>
         </div>
-        <div>
+        <div xml:id="r1189973">
           <pb source="https://nakala.fr/10.34847/nkl.c11df957#81a64c6f0cfaed6a8b03ad23bb5f0271cac6733a" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/81a64c6f0cfaed6a8b03ad23bb5f0271cac6733a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
             <lb/>Origines, formations et carrières</head>
@@ -142,11 +140,11 @@
           <p>Ils accèdent à l’épiscopat à partir des années 1350 et quittent leurs fonctions auprès du roi pour aller résider dans leur diocèse. A partir de la fin du règne de Charles V, la non-résidence des confesseurs et des aumôniers devenus évêques est chose courante. Un siège épiscopal se distingue, celui de Senlis : deux confesseurs et un aumônier s’y succèdent entre 1352 et 1379. Les évêchés bourguignons occupent une place importante sous Charles VI, et plusieurs confesseurs ont été évêques de Nevers, d’Auxerre ou de Bethléem (évêché <hi rend="i">in partibus</hi>). A la fin du <num>xv<hi rend="sup">e</hi></num> siècle et notamment sous Louis XI, confesseurs et aumôniers sont considérés moins en raison de leur office spirituel auprès du roi que de leur carrière ecclésiastique : ce sont avant tout des prélats, dont la position éminente préfigure le rang prestigieux du grand aumônier de France de l’époque moderne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1190066">
         <pb source="https://nakala.fr/10.34847/nkl.c11df957#44203eee1f4bae1962332387f7b659872e251f27" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/44203eee1f4bae1962332387f7b659872e251f27/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
           <lb/>Services des âmes, administration et politique</head>
-        <div>
+        <div xml:id="r1190079">
           <head rend="uc">Chapitre premier
             <lb/>le confesseur, serviteur des âmes</head>
           <p><hi rend="i">La confession et l’administration des sacrements.</hi> – La seule représentation iconographique du roi en train de se confesser est une des miniatures illustrant la biographie de saint Louis écrite par le confesseur de la reine Guillaume de Saint-Pathus ; elle montre le souverain dans un oratoire, agenouillé aux pieds de son confesseur dominicain. Mis à part le témoignage exceptionnel de Geoffroy de Beaulieu sur les pratiques de dévotion de saint Louis, les témoignages sur les sacrements reçus par les rois sont peu nombreux : il s’agit essentiellement des récits décrivant la mort des souverains (Christine de Pisan pour Charles V, Philippe de Commynes pour Charles VIII). En effet, en conférant au roi l’extrême-onction, le confesseur joue un rôle capital, permettant le salut de l’âme royale et la digne transmission de la couronne. Le confesseur intervient en outre dans l’accomplissement des dévotions royales intimes, en faisant des aumônes pénitentielles pour le compte du souverain, quand celui-ci communie ou ne respecte pas le jeûne.</p>
@@ -155,7 +153,7 @@
           <p>Par ailleurs, à partir du début du règne de Charles VI, la fonction de précepteur du dauphin apparaît nettement liée à l’office de confesseur royal et Jean Gerson adresse un traité sur l’éducation du jeune prince au confesseur du dauphin Louis de Guyenne, puis à celui du dauphin Charles, dans les années 1410-1417.</p>
           <p><hi rend="i">Les confesseurs, spécialistes de l’exécution testamentaire.</hi> – En relation intime avec le roi jusqu’au moment même de la mort, le confesseur figure toujours parmi les exécuteurs des testaments royaux depuis le règne de Philippe le Bel, <hi rend="i">et</hi> il intervient souvent dans l’inventaire des biens dressé après la mort du souverain.</p>
         </div>
-        <div>
+        <div xml:id="r1190123">
           <pb source="https://nakala.fr/10.34847/nkl.c11df957#959d0185a797e06e7e1159dfc5f6687f3b9e8d46" n="103" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/959d0185a797e06e7e1159dfc5f6687f3b9e8d46/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
             <lb/>L’aumônier, comptable des libéralités royales</head>
@@ -163,14 +161,14 @@
           <p><hi rend="i">Les aumônes casuelles.</hi> – Les aumônes distribuées occasionnellement ne font pas l’objet d’un compte particulier, mais sont intégrées dans la comptabilité de la Chambre aux deniers, dans la rubrique « aumônes » des comptes de l’Hôtel des <num>xiii<hi rend="sup">e</hi></num> et XIV’ siècles. Elles sont distribuées par l’aumônier, ou sur son ordre, à diverses catégories de pauvres (infirmes, femmes enceintes, filles à marier, aveugles, lépreux, couvents d’ordres mendiants, etc.), lors des déplacements de la cour et des célébrations religieuses. Les aumônes casuelles qui figurent dans les comptes de l’hôtel de Charles VI sont peu importantes au regard des offrandes payées par des gens de la chapelle royale à l’occasion des messes entendues par le roi.</p>
           <p>Dans la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle on entreprend une réorganisation de la comptabilité des aumônes casuelles, qui font désormais l’objet de comptes particuliers, séparés de ceux de la Chambre aux deniers. On conserve des spécimens de ces « comptes des offrandes et des aumônes » pour les années 1478-1479 (Arch. nat., KK 66) et 1497-1498 (KK 77), auxquels s’ajoutent deux fragments de 1485 et 1487 (KK 111). La bonne tenue de ces comptes témoigne d’une reprise en main de l’aumônerie royale qui a commencé sous le règne de Charles VII.</p>
         </div>
-        <div>
+        <div xml:id="r1190164">
           <head rend="uc">Chapitre III
             <lb/>La collation des bénéfices et des bourses de collège</head>
           <p>Le confesseur et l’aumônier interviennent dans l’attribution des bénéfices ecclésiastiques et hospitaliers dont le roi a la collation, en examinant les candidatures et en commandant en chancellerie les lettres de collation. Il existe au XV’ siècle un rôle des nominations sur lequel le confesseur inscrit les candidats et les bénéfices qu’ils veulent détenir.</p>
           <pb source="https://nakala.fr/10.34847/nkl.c11df957#20595f5d126028785c7447d630e5974ed4cfff45" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/20595f5d126028785c7447d630e5974ed4cfff45/full/full/0/default.jpg"/>
           <p>Le confesseur s’est vu confier la haute administration du collège de Navarre, probablement sous le règne de Charles V. Il nomme les administrateurs et les boursiers. L’aumônier exerce les mêmes fonctions sur deux collèges parisiens de moindre importance, les collèges Mignon et de Maître-Gervais.</p>
         </div>
-        <div>
+        <div xml:id="r1190184">
           <head rend="uc">Chapitre IV
             <lb/>L’aumônier et les maisons hospitalières : surveillance ou juridiction ?</head>
           <p><hi rend="i">Les établissements hospitaliers sous l’influence de l’aumônier.</hi> – De saint Louis à Philippe le Bel, l’aumônier a commencé par assurer son droit de surveillance sur quelques établissements notoirement fondés par le roi, comme la congrégation des Quinze-Vingts ou l’hôpital de Rouen. Puis, au cours du <num>xiv<hi rend="sup">e</hi></num> siècle, il essaie d’étendre son influence à l’ensemble des maisons de fondation royale, en utilisant le droit de patronage royal ou le droit de régale spirituelle, mais il se heurte souvent au pouvoir épiscopal ou aux autorités municipales.</p>
@@ -178,7 +176,7 @@
           <p><hi rend="i">Les Quinze-Vingts, quartier général de l’aumônier.</hi> – L’hôpital des Quinze-Vingts est le seul établissement entièrement soumis à l’aumônier. Une bulle de Clément VII datée de 1387 exempte la congrégation de la juridiction de l’évêque de Paris et la place sous celle de l’aumônier du roi. Celui-ci a un logement dans les bâtiments de l’hôpital et se sert de ses greniers pour y entreposer les denrées destinées aux aumônes de Carême. Les statuts des Quinze-Vingts sont réformés par l’aumônier de Jean le Bon, Michel de Brèche, et ses comptes sont particulièrement bien contrôlés par les agents de l’Aumônerie jusqu’à la fin du XV’ siècle.</p>
           <p>Sous le règne de François I<hi rend="sup">er</hi>, le grand aumônier est associé à la réforme des maisons hospitalières, et il revendique alors son droit de surveillance sur l’ensemble des hôpitaux du royaume.</p>
         </div>
-        <div>
+        <div xml:id="r1190224">
           <pb source="https://nakala.fr/10.34847/nkl.c11df957#b1ecd91ed9d3bddb5083180eac33ce0871903c6f" n="105" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/b1ecd91ed9d3bddb5083180eac33ce0871903c6f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
             <lb/>L’activité du confesseur et de l’aumônier à la chancellerie royale</head>
@@ -188,7 +186,7 @@
           <p>On observe une prépondérance de l’aumônier qui intervient dans plus de la moitié des actes, alors que le confesseur n’en a commandé que 30 % environ et le sous-aumônier 7 %. Le confesseur et l’aumônier ont agi conjointement dans 7 % des cas.</p>
           <p><hi rend="i">La spécialisation du confesseur et de l’aumônier.</hi> – En ce qui concerne la nature juridique des actes, il semble que le confesseur se soit plutôt occupé des lettres de légitimation et d’anoblissement, et l’aumônier des actes concernant les dons de terres et les droits d’usage dans les forêts. La répartition par bénéficiaire montre que l’aumônier s’est spécialisé dans les lettres intéressant les religieux augustins et carmes, ainsi que les établissements hospitaliers, tandis que les actes concernant les couvents dominicains et les confréries sont du ressort du confesseur.</p>
         </div>
-        <div>
+        <div xml:id="r1190259">
           <head rend="uc">Chapitre VI
             <lb/>Le confesseur et l’aumônier ont-ils eu un rôle politique ?</head>
           <p><hi rend="i">Des missions occasionnelles (jusque sous Charles VI</hi>). – Le confesseur et l’aumônier commencent à remplir des missions politiques et diplomatiques ponctuelles surtout à partir du règne de Jean le Bon. L’aumônier Sylvestre de la Servelle se voit confier par Charles V d’importantes missions militaires en Normandie dans les années 1369-1370.</p>
@@ -198,18 +196,18 @@
           <p>La crise du Grand Schisme et le développement des théories gallicanes ont fait que les papes ont peu à peu renoncé, à partir du XV’ siècle, à faire appel aux confesseurs royaux pour intervenir dans la politique ecclésiastique royale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1190299">
         <head rend="uc">Conclusion</head>
         <p>Du XIII’ au XV’ siècle, on peut distinguer quatre grandes périodes caractérisant l’évolution des offices de confesseur et d’aumônier du roi. De la fin du XII’ siècle au milieu du XIV’ siècle, l’aumônier et le confesseur étendent progressivement leurs prérogatives administratives et spirituelles, et s’intègrent dans les services de l’hôtel du roi.</p>
         <p>Dans les années 1350-1380, ils acquièrent une position éminente dans l’entourage royal : tous les pouvoirs spirituels du confesseur sont confirmés définitivement par Clément VI en 1351 ; l’activité à la chancellerie des confesseurs et des aumôniers atteint son point culminant dans les années 1350-1355 ; les deux officiers accèdent presque tous à l’épiscopat à partir de 1352.</p>
         <p>Sous Charles VI et Charles VII, confesseurs et aumôniers se rapprochent par une même formation universitaire, et jouent tous deux un rôle politique essentiel dans la guerre civile et les conflits religieux.</p>
         <p>A l’époque de Louis XI et de Charles VIII enfin, ces institutions sont en pleine mutation. L’Aumônerie se réorganise : des comptes d’aumônes casuelles sont régulièrement tenus et le grand aumônier apparaît.</p>
       </div>
-      <div>
+      <div xml:id="r1190318">
         <head rend="uc">Pièces justificatives</head>
         <p>Édition de six quittances d’aumôniers pour des sommes à convertir en aumônes, d’une lettre de commission de Louis XI à Jean Balue (Bibl. nat., Collection Clairambault, Pièces Originales et collection Dupuy), et d’une lettre de collation de bénéfice provenant des archives de l’hôpital des Quinze-Vingts.</p>
       </div>
-      <div>
+      <div xml:id="r1190328">
         <pb source="https://nakala.fr/10.34847/nkl.c11df957#b97c4da9491f77e3aec4be5b1102f2a69e76d8a4" n="107" facs="https://api.nakala.fr/iiif/10.34847/nkl.c11df957/b97c4da9491f77e3aec4be5b1102f2a69e76d8a4/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>Edition de deux fragments de comptes d’aumônerie de 1485 et 1487 (Arch. nat., KK 111). – Catalogue des 777 actes du Trésor des chartes commandés par le confesseur ou l’aumônier de 1308 à 1380.</p>

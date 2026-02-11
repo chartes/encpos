@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1958_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1958_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,39 +62,39 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r793476">
         <head rend="uc">Première partie
          <lb/>La vie de Jean Germain</head>
-        <div>
+        <div xml:id="r793484">
           <head rend="uc">Chapitre premier
            <lb/>les débuts de Jean Germain.</head>
           <p>Jean Germain est né dans les premières années du <num>xv<hi rend="sup">e</hi></num> siècle. Selon les historiens bourguignons, son père était un bourgeois clunisien de modeste origine, ou, selon les auteurs nivernais, de Coquille à Poussereau, un serf au village de Velay, dans la seigneurie de la Perrière, mouvant en fief du comté de Nevers. Un fait reste certain : Jean Germain appartenait à une famille serve et ne bénéficia pas de l’affranchissement paternel. Étude de sa situation juridique grâce aux détails de sa succession ; les seigneurs féodaux dont il relevait ; les noms de quelques-uns de ses proches. Docteur en théologie en 1429, il devient conseiller ducal, doyen de la Sainte-Chapelle de Dijon, évêque de Nevers (décembre 1430), et premier chancelier de l’Ordre de la Toison d’Or.</p>
         </div>
-        <div>
+        <div xml:id="r793502">
           <pb source="https://nakala.fr/10.34847/nkl.fca1en80#8c38c756b8e5879cdfe6ad084983801fc4268ad1" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.fca1en80/8c38c756b8e5879cdfe6ad084983801fc4268ad1/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Jean Germain et le concile. Les querelles de préséance.</head>
           <p>Jean Germain fait partie de l’ambassade bourguignonne auprès du concile de Bâle en 1433 ; il y conteste aux grands électeurs la préséance sur Philippe le Bon (discours du 26 mai), formulant à plusieurs reprises ses griefs (16 juin, 24 juillet). Après une querelle du même ordre avec les Savoyards (7 août), le débat rebondit le 17 de ce mois. En septembre, l’évêque de Nevers baptise, à Dijon, le futur comte de Charolais et, de retour à Bâle, refuse la préséance aux Bretons (mars 1434). Le conflit avec les grands électeurs, toujours vivace, prend cependant fin. La combativité de Jean Germain se manifeste aussi dans le discours du 17 août 1433, au cours duquel il conteste la suzeraineté de Charles VII.</p>
         </div>
-        <div>
+        <div xml:id="r793519">
           <head rend="uc">Chapitre III
            <lb/>Jean Germain défenseur de la papauté
            <lb/>et de l’orthodoxie catholique.</head>
           <p>L’évêque de Nevers prend position, dès le 16 mars 1433, en faveur du pape et propose, le 14 juin, la médiation des princes. A la suite des décrets de la douzième session (13 juillet), les rapports entre Philippe le Bon et le concile se tendent (discours de Jean Germain du 11 octobre). L’évêque est dépêché en décembre auprès d’Eugène IV, puis de l’empereur. De retour à Bâle, il offre une dernière fois la médiation bourguignonne (janvier 1436). Au concile de Ferrare-Florence, où les ambassadeurs bourguignons provoquent, par leur attitude, l’irritation de l’empereur Paléologue, il intervient en faveur de l’union. En 1442, avec Jean de Capistran, il repousse la politique d’expectative de Frédéric III entre les deux conciles.</p>
           <p>L’orthodoxie de Jean Germain se reflète dans la lutte menée à Bâle contre les doctrines christologiques d’Augustin de Rome (1435), ainsi que dans la réfutation de certaines erreurs de clercs bourguignons sur le sacrement de pénitence (1448).</p>
         </div>
-        <div>
+        <div xml:id="r793536">
           <head rend="uc">Chapitre IV
            <lb/>Jean Germain dans son diocèse.</head>
           <p>Jean Germain accède en 1436 au siège épiscopal de Chalon, dépendant étroitement du duc de Bourgogne. Soutenu par le chapitre de Saint-Vincent, il mène des luttes acharnées afin de conserver intactes ses prérogatives, tout en participant à l’action menée contre les Écorcheurs. Il se trouve fréquemment en conflit avec l’abbaye de Saint-Philibert de Tournus, les habitants de la commune de Chalon, les officiers ducaux du bailliage, les abbayes de Maizières et de Saint-Pierre de Chalon. Son zèle religieux se manifeste dans diverses fondations, dont le couvent des Cordeliers, dans sa cité épiscopale, et la chapelle Notre-Dame-de-Pitié, où il <pb source="https://nakala.fr/10.34847/nkl.fca1en80#b3f628c0e7544e5bb9e10b45b418f4547be7d3ac" n="69" facs="https://api.nakala.fr/iiif/10.34847/nkl.fca1en80/b3f628c0e7544e5bb9e10b45b418f4547be7d3ac/full/full/0/default.jpg"/>sera inhumé à sa mort, survenue le 2 février 1461. Le tombeau de l’évêque et ses vicissitudes au cours des siècles.</p>
         </div>
-        <div>
+        <div xml:id="r793553">
           <head rend="uc">Chapitre V
            <lb/>Le rôle politique de Jean Germain.</head>
           <p>Dans l’histoire des relations franco-bourguignonnes, Jean Germain joue un rôle primordial : il participe à la conférence d’Auxerre (8 juillet 1432), aux négociations de septembre 1433, à la réconciliation, en 1435, de Philippe le Bon et du duc de Bourbon, à l’Assemblée de Bourges (1439). Il est envoyé en ambassade auprès du roi à deux reprises (1447, 1451) et assiste à la conférence de la Charité (février 1455). Son rôle prééminent au sein des institutions bourguignonnes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r793566">
         <head rend="uc">Deuxième partie
          <lb/>Les œuvres de Jean Germain
          <lb/>(le « débat » mis a part)</head>
@@ -106,26 +104,26 @@
         <p><hi rend="i">Œuvres secondaires.</hi> – La <hi rend="i">Remonstrance</hi> faite à Hesdin (1437) ; le discours du 26 mai 1433.</p>
         <p><hi rend="i">Attributions douteuses ou inexactes.</hi> – Les <hi rend="i">Psaumes Allégorisés</hi> du Brit. Mus., Add. Ms. 31838 ; une attribution suspecte de Chifflet.</p>
       </div>
-      <div>
+      <div xml:id="r793655">
         <head rend="uc">Troisième partie
          <lb/>Les manuscrits du « débat »</head>
-        <div>
+        <div xml:id="r793663">
           <pb source="https://nakala.fr/10.34847/nkl.fca1en80#184c72144fd10e9e7082e7f887e7e6ec633e1c06" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.fca1en80/184c72144fd10e9e7082e7f887e7e6ec633e1c06/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits conservés du « débat ».</head>
           <p>Les manuscrits parvenus jusqu’à nous sont les suivants : <hi rend="i">A</hi> (Bibl. nat., ms. franç. 947), <hi rend="i">B</hi> (Bourg-en-Bresse, Bibl. mun., ms. 7), <hi rend="i">C</hi> (Bibl. nat., ms. franç. 948), <hi rend="i">D</hi> (Bibl. nat., ms. franç. 69), <hi rend="i">E</hi> (Bibl. nat., ms. franç. 70), <hi rend="i">F</hi> (Moulins, Bibl. mun., ms. 7) et <hi rend="i">L</hi> (Léningrad, Bibl. Publ., ms. franç. F v. I, 8). Un exemplaire du <hi rend="i">Débat</hi> – dont nous ne savons ce qu’il est devenu – a fait partie de la bibliothèque ducale : Doutrepont l’a confondu avec la traduction française du <hi rend="i">Castellum Fidei</hi> d’Alphonse da Spina.</p>
         </div>
-        <div>
+        <div xml:id="r793716">
           <head rend="uc">Chapitre II
            <lb/>Le texte du « débat »
            <lb/>dans les manuscrits actuellement conservés.</head>
           <p>Les manuscrits du <hi rend="i">Débat</hi> se répartissent en deux groupes : <hi rend="i">LAB,</hi> d’une part ; <hi rend="i">CDEF,</hi> d’autre part (à ce dernier appartient <hi rend="i">C,</hi> manuscrit de base dans notre édition). Les leçons propres au groupe <hi rend="i">LAB,</hi> puis à chaque manuscrit pris individuellement. Étude de la graphie de <hi rend="i">C.</hi> Le problème de l’antériorité de tel ou tel groupe : le seul fait certain est l’antériorité de l’archétype du groupe <hi rend="i">LAB</hi> par rapport à celui du groupe <hi rend="i">CDEF.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r793762">
         <head rend="uc">Quatrième partie
          <lb/>Le contexte historique du « débat »</head>
-        <div>
+        <div xml:id="r793770">
           <head rend="uc">Chapitre premier
            <lb/>la place du « débat » dans la polémique antimusulmane
            <lb/>du <num>xv<hi rend="sup">e</hi></num> siècle.</head>
@@ -133,17 +131,17 @@
           <p>La polémique antimusulmane tombe peu à peu en décadence, ainsi que la polémique antichrétienne en terre d’Islam, comme en témoigne un « Ouvrage de choix sur la théologie spéculative » rédigé par un courtisan anonyme de Mahomet II.</p>
           <p><hi rend="i">Le « Débat » de Jean Germain.</hi> – Le <hi rend="i">Débat</hi> (de son vrai nom « le Trésor des Simples ») est à rapprocher de toute une pieuse littérature constituée de « Trésors », d’« Horloges de Sapience », d’« Abbayes de l’Ame dévote ». Mais il reste essentiellement destiné à la classe des clercs lettrés. Analyse sommaire des cinq livres de l’ouvrage.</p>
         </div>
-        <div>
+        <div xml:id="r793829">
           <head rend="uc">Chapitre II
            <lb/>Les circonstances historiques de la rédaction du « débat ».</head>
           <p>Le <hi rend="i">Débat,</hi> rédigé en 1451, est contemporain d’événements très importants. Il s’agit d’abord du jubilé de 1450, vaste concours de peuple auquel Jean Germain fait allusion à plusieurs reprises, tandis qu’à Chalon même, lieu de passage très fréquenté par les pèlerins, se déroulent les festivités du Pas de la Fontaine des Pleurs. En 1451, à partir du 8 juin, Jean Germain est envoyé à Taillebourg auprès de Charles VII, qui reconquiert la Guyenne. Enfin, au chapitre de la Toison d’Or, tenu à Mons en mai 1451, l’évêque de Chalon fait cadeau d’un exemplaire du <hi rend="i">Débat</hi> à Philippe le Bon et prononce une harangue en faveur de la croisade.</p>
           <p>Dans les années qui suivirent, le <hi rend="i">Débat</hi> aurait été, si l’on en croit Jean de Ségovie, traduit en latin. Hypothèses diverses de Doutrepont et du P. Cabanelas Rodriguez sur les circonstances de sa rédaction.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r793857">
         <head rend="uc">Cinquième partie
          <lb/>Les sources du « débat »</head>
-        <div>
+        <div xml:id="r793865">
           <head rend="uc">Chapitre premier
            <lb/>une des sources principales du « débat » :
            <lb/>l’« Apologie » d’Al-Kindi.</head>
@@ -160,7 +158,7 @@
            <lb/>Étude comparative des textes latin et français de l’« Apologie ».</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r793975">
           <head rend="uc">Chapitre III
            <lb/>Les sources du « débat » autres que l’« Apologie ».</head>
           <p>Les lectures de Jean Germain lors de ses études à Paris (d’après le <hi rend="i">Diarium bibliothecae Sorbonae,</hi> Bibl. Mazarine, ms. 3323, fol. 75 r°).</p>
@@ -173,7 +171,7 @@
           <p><hi rend="i">Autres sources diverses.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r794078">
         <head rend="uc">Sixième partie
          <lb/>L’intérêt historique du « débat »
          <lb/>les dernières tentatives de croisade au <num>xv<hi rend="sup">e</hi></num> siècle</head>
@@ -202,7 +200,7 @@
          <lb/>Analyse des passages non édités</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r794222">
         <head rend="uc">Appendices</head>
         <p>I. Pièces justificatives concernant la vie politique de Jean Germain.</p>
         <p>II. Extraits des <hi rend="i">Deux Pans de la Tapisserie Chrestienne</hi> (d’après le ms. franç. 432 de la Bibliothèque nationale).</p>

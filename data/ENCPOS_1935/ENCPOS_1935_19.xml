@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,11 +54,11 @@
         <forename>Robert</forename>
         <surname>Marquant</surname>
       </byline>
-      <div>
+      <div xml:id="r558428">
         <head rend="uc">Avant-propos</head>
         <p>Intérêt de l’étude de la vie économique d’une ville au <num>xv<hi rend="sup">e</hi></num> siècle. Déclin de l’économie urbaine, début de l’économie nationale. Les ducs de Bourgogne fondateurs d’un nouvel état.</p>
       </div>
-      <div>
+      <div xml:id="r558444">
         <head rend="uc">Sources</head>
         <p>Les documents pratiques sont rares ; les documents théoriques (bans) nombreux.</p>
       </div>
@@ -68,14 +66,14 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r558463">
         <head rend="uc">Introduction</head>
         <p>Après son retour à la Flandre, Lille garde dans le comté une situation un peu particulière mais réussit à développer ses relations économiques avec les grands centres flamands. A l’inverse de ceux-ci, elle n’est pas hostile au duc. Elle reste calme pendant tout le <num>xv<hi rend="sup">e</hi></num> siècle. Philippe-le-Bon en fait sa résidence favorite. La Chambre des Comptes y siège également. Intérêt de ces faits pour le développement <pb source="https://nakala.fr/10.34847/nkl.0fadojb7#3bd7c83fc6aae8df49b4911b55a789e8f5917e81" n="160" facs="https://api.nakala.fr/iiif/10.34847/nkl.0fadojb7/3bd7c83fc6aae8df49b4911b55a789e8f5917e81/full/full/0/default.jpg"/>économique de la ville. Mais, pour avancer de l’argent au duc, les échevins endettent la ville. Situation paradoxale d’une ville dont le déficit financier et la prospérité économique vont en augmentant.</p>
       </div>
-      <div>
+      <div xml:id="r558484">
         <head rend="uc">Premiere partie
          <lb/>Organisation et direction de l’économie</head>
-        <div>
+        <div xml:id="r558492">
           <head rend="uc">Chapitre premier
            <lb/>les pouvoirs publics.</head>
           <p>L’activité économique est étroitement contrôlée par les pouvoirs publics.</p>
@@ -83,7 +81,7 @@
           <p><hi rend="i">Duc et Chambre des Comptes.</hi> – Intervention plus pressante. Le duc édicte des mesures applicables à tous ses états (interdiction de l’entrée et de la vente de draps anglais, réglementation de la monnaie, etc.). La Chambre des Comptes chargée parfois de rédiger des règlements de métier.</p>
           <p><hi rend="i">Echevins.</hi> – Ce sont eux surtout qui dirigent l’économie. Nommés par des commissaires du duc sur une liste dressée par les curés des paroisses de Lille. Recrutement aristocratique. Beaucoup sont des changeurs. Les échevins édictent des bans. Difficultés par suite de l’existence de territoires où ces bans ne sont pas appliqués (territoires de Saint-Pierre, environs de la ville au delà de la « pourchainte »).</p>
         </div>
-        <div>
+        <div xml:id="r558522">
           <pb source="https://nakala.fr/10.34847/nkl.0fadojb7#58f11ea70d8339edd3384c2a40850de5b846a565" n="161" facs="https://api.nakala.fr/iiif/10.34847/nkl.0fadojb7/58f11ea70d8339edd3384c2a40850de5b846a565/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Réglementation.</head>
@@ -91,7 +89,7 @@
           <p><hi rend="i">Eswardeurs.</hi> – Nommés en général chaque année par les échevins, ils surveillent l’application des bans. Ils ont une certaine initiative et peuvent permettre quelques dérogations aux bans. Témoignages défavorables sur leur activité.</p>
           <p><hi rend="i">Sanction de l’esward. Justice.</hi> – Si la marchandise est bonne, elle est « enseignée » sinon refusée ou le plus souvent détruite. Aucun pouvoir juridictionnel des eswardeurs, sauf chez ceux de la draperie. Ce sont les échevins qui jugent. Peines les plus fréquentes : amendes et pèlerinages, accomplis ou transformés en amendes.</p>
         </div>
-        <div>
+        <div xml:id="r558551">
           <head rend="uc">Chapitre III
            <lb/>Les impôts.</head>
           <p>Ils sont affermés. Les fermiers d’un impôt appartiennent souvent au métier qui est soumis à cet impôt.</p>
@@ -99,10 +97,10 @@
           <p><hi rend="i">Impôts d’échange.</hi> – Les « assis » sont perçus par la ville sur diverses denrées ; taux faible, sauf sur les boissons. Les « tonlieux », malgré leur nom, sont des impôts d’échange perçus par le duc sur diverses denrées vendues en ville. Difficultés de la ville avec les privilégiés de l’impôt sur les boissons, et notamment les habitants de Saint-Pierre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r558587">
         <head rend="uc">Deuxième partie
          <lb/>Généralités commerciales</head>
-        <div>
+        <div xml:id="r558595">
           <head rend="uc">Chapitre premier
            <lb/>les intermédiaires.</head>
           <p>Les échevins leur sont hostiles.</p>
@@ -113,29 +111,29 @@
           <p><hi rend="i">Porteurs au sac.</hi> – Monopole de l’enlèvement du blé vendu au marché.</p>
           <p><hi rend="i">Mesureurs.</hi> – Leur emploi n’est obligatoire que pour le « wedde », le bois, le charbon et le foin.</p>
         </div>
-        <div>
+        <div xml:id="r558648">
           <head rend="uc">Chapitre II
            <lb/>Poids et mesures.</head>
           <p>Au-dessus de 45 li vres, les marchandises sont pesées obligatoirement au poids public dont les revenus appartiennent au duc. Au-dessous, pesée libre chez les particuliers. Les échevins contrôlent les poids, les mesures, les balances.</p>
         </div>
-        <div>
+        <div xml:id="r558660">
           <head rend="uc">Chapitre III
            <lb/>La monnaie.</head>
           <p>Les échevins n’ont aucun pouvoir sur la monnaie, qui est « un principe de droit public ». Le système employé est celui de la livre parisis. Mesures particulières prises à Lille pour empêcher les sorties de billon d’or et d’argent.</p>
         </div>
-        <div>
+        <div xml:id="r558672">
           <head rend="uc">Chapitre IV
            <lb/>Changeurs et Lombards.</head>
           <p>Leur charge est concédée par le duc, mais ils fournissent caution et prêtent serment aux échevins. Ils changent les monnaies, prêtent sur gage, effectuent <pb source="https://nakala.fr/10.34847/nkl.0fadojb7#d19cd5c7e9f31b982fee7cd660f5d28f9bf6d574" n="164" facs="https://api.nakala.fr/iiif/10.34847/nkl.0fadojb7/d19cd5c7e9f31b982fee7cd660f5d28f9bf6d574/full/full/0/default.jpg"/>des opérations financières pour le duc et la ville. Le prêt à intérêt est courant et officiel. Richesse et puissance de ces changeurs. Liens familiaux qui les unissent. Scandales divers. Les Lombards ont la même fonction que les changeurs mais moins d’envergure. Les habitants les détestent mais les jugent nécessaires au commerce.</p>
         </div>
-        <div>
+        <div xml:id="r558689">
           <head rend="uc">Chapitre V
            <lb/>Moyens de communications.</head>
           <p><hi rend="i">Routes.</hi> – Le trafic se développe sur les routes vers la Flandre. Vers la France, il reste important mais stationnaire. Mauvais état des routes, dû surtout au climat pluvieux et à la diversité des personnes chargées de leurs réparations. Réglementation de la circulation à l’intérieur de la ville. Marchandises transportées : laine d’Espagne, poisson de mer.</p>
           <p><hi rend="i">Commerce des chevaux.</hi> – Le louage des chevaux est surtout très développé.</p>
           <p><hi rend="i">Canaux.</hi> – Lille est en relations avec la Flandre par la Basse-Deule et la Lys, avec l’Artois par la Haute-Deule. Malheureusement, la Basse-Deule et la Haute-Deule ne sont pas reliées par un canal navigable. La Basse-Deule, beaucoup plus importante, aboutit au « Rivage ». Nombreux canaux non navigables en ville. La ville est propriétaire de la Deule. Procès à ce sujet, notamment avec l’abbaye de Loos. Marchandises transportées : blé, « wedde », matériaux de constructions, bois, briques, grès, etc...</p>
         </div>
-        <div>
+        <div xml:id="r558716">
           <pb source="https://nakala.fr/10.34847/nkl.0fadojb7#dd55610b6173cfd7449e44a21a412be9368cf9ef" n="165" facs="https://api.nakala.fr/iiif/10.34847/nkl.0fadojb7/dd55610b6173cfd7449e44a21a412be9368cf9ef/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>La vente.</head>
@@ -145,11 +143,11 @@
           <p><hi rend="i">Foire.</hi> – Si elle n’est plus aussi prospère qu’autrefois, la foire lilloise connaît une légère renaissance. Sa durée est d’un mois (août-septembre) : douze jours d’entrée où l’on s’installe ; trois jours puis cinq de « monstres » où l’on vend ; huit jours d’issue pour remballer les marchandises ; quatre jours pour les paiements.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r558752">
         <pb source="https://nakala.fr/10.34847/nkl.0fadojb7#509ae906235bce5ca97893f24d138fd98084731a" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.0fadojb7/509ae906235bce5ca97893f24d138fd98084731a/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Activité économique</head>
-        <div>
+        <div xml:id="r558765">
           <head rend="uc">Chapitre premier
            <lb/>l’alimentation.</head>
           <p><hi rend="i">Le vin.</hi> – Le raisin du pays donne le « verjus ». Le vin vient d’Espagne, du Rhin, du Poitou, de Bourgogne, de l’Ile de France, du Laonnois. Vente en gros à l’étape, au détail chez les taverniers. Le prix de détail est fixé par les échevins. Marchands de vin, personnages importants. Tendance à l’association.</p>
@@ -164,7 +162,7 @@
           <p><hi rend="i">Sel.</hi> – Vient de Hollande.</p>
           <p><hi rend="i">Hôteliers et cabaretiers.</hi> – Les échevins fixent les prix et font surveiller la préparation des repas.</p>
         </div>
-        <div>
+        <div xml:id="r558860">
           <head rend="uc">Chapitre II
            <lb/>L’habillement.</head>
           <p>A. <hi rend="i">La draperie.</hi> – Si la draperie flamande, au <num>xv<hi rend="sup">e</hi></num> siècle, est complètement en décadence, la draperie lilloise est dans une situation moyennement prospère.</p>
@@ -178,14 +176,14 @@
           <p>C. <hi rend="i">Le lin.</hi> – Cette industrie se développe. Libre jusqu’à 1462, elle reçoit alors ses règlements.</p>
           <p>D. <hi rend="i">Le cuir.</hi> – Industrie florissante. Pour lui conserver son bon renom, réglementation rigoureuse. A la fin du siècle, déclin par suite de la concurrence de tanneurs installés dans les territoires de Saint-Pierre. Les grands marchands de cuir sont les tanneurs.</p>
         </div>
-        <div>
+        <div xml:id="r558944">
           <head rend="uc">Chapitre III
            <lb/>Construction et ameublement.</head>
           <p><hi rend="i">Maçons, charpentiers et « fèvres ».</hi> – Pierre de Lézennes, du Hainaut et du Brabant. Brique très utilisée. Toitures de chaume, de tuiles, d’ardoises. Les « fèvres » utilisent le fer d’Espagne. L’artisan ne s’occupe en général que de son travail et non de la fourniture de marchandise. Pas d’entreprise. Travaux attribués à la journée ou par adjudication <pb source="https://nakala.fr/10.34847/nkl.0fadojb7#552bc6ac8def8239def99024e9c39c4cee22bcc1" n="170" facs="https://api.nakala.fr/iiif/10.34847/nkl.0fadojb7/552bc6ac8def8239def99024e9c39c4cee22bcc1/full/full/0/default.jpg"/>« en tasque ». Dans ce dernier cas, la ville s’efforce d’empêcher que l’adjudicataire à son tour ne redonne l’ouvrage à d’autres « en tasque ».</p>
           <p><hi rend="i">Tapisserie.</hi> – Célébrité des tapissiers lillois, qui envoient leurs productions en Angleterre et en Italie, à la cour des Médicis.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r558971">
         <head rend="uc">Quatrième partie
          <lb/>Histoire corporative</head>
         <p>Faiblesse du mouvement corporatif. Nombreux métiers libres.</p>
@@ -198,11 +196,11 @@
         <p><hi rend="i">Assemblées.</hi> – Hostilité des échevins aux assemblées de gens de métier.</p>
         <p><hi rend="i">Etrangers.</hi> – Les frictions ont surtout eu lieu dans la draperie où les drapiers emploient chez eux des valets flamands. En général, les échevins s’efforcent de concilier les intérêts des travailleurs indigènes et les besoins du travail urbain.</p>
       </div>
-      <div>
+      <div xml:id="r559024">
         <head rend="uc">Conclusion</head>
         <p>D’une façon générale, si le <num>xv<hi rend="sup">e</hi></num> siècle est une époque de transition, il se rattache beaucoup plus au Moyen-Age qu’aux temps modernes. La ville de Lille est, au <num>xv<hi rend="sup">e</hi></num> siècle, dans une situation prospère, qui lui permettra de jouer, au <num>xvi<hi rend="sup">e</hi></num> siècle, un rôle de premier plan.</p>
       </div>
-      <div>
+      <div xml:id="r559052">
         <pb source="https://nakala.fr/10.34847/nkl.0fadojb7#85ba2a9963ab4f30aab07ec56ccb370a773fdb58" n="172" facs="https://api.nakala.fr/iiif/10.34847/nkl.0fadojb7/85ba2a9963ab4f30aab07ec56ccb370a773fdb58/full/full/0/default.jpg"/>
         <head rend="uc">Appendices</head>
         <div>

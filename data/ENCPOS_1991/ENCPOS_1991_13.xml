@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1991_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1991_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,23 +56,23 @@
         <surname>Guillaume</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1201885">
         <head rend="uc">Introduction</head>
         <p>Le <hi rend="i">Spéculum exemplare</hi> a été signalé par Jean-Thiébaud Welter qui lui a donné le titre de <hi rend="i">Liber ad status,</hi> nom particulier que seul lui donne le manuscrit italien conservé à la Bibliothèque nationale, lat. 6368 (<hi rend="i">P</hi>). Il n’en recensait que quatre copies : le manuscrit de Paris, le manuscrit Semur, Bibliothèque municipale 18 (S), Charleville, Bibliothèque municipale 85e (<hi rend="i">C</hi>), et Florence, Bibliothèque Laurentienne, Santa Croce, pluteus XXXI sin. cod. VIII (F Santa Croce). Il semblait n’avoir vu que le manuscrit italien de Paris et pensait que l’auteur de cet ouvrage était un religieux cistercien italien.</p>
         <p>Or, dès le début du XVIII’ siècle, Bernard de Montfaucon cite, dans sa <hi rend="i">Bibliotheca bibliothecarum,</hi> un manuscrit italien de la Bibliothèque Laurentienne, le Pluteus XXVI, codex XVII (<hi rend="i">F</hi> Laur.), d’après la rubrique duquel le compilateur serait le dominicain maître en théologie, Rambert de Bologne, mort en 1308. Après lui, tous les articles sur Rambert de Bologne citent parmi ses œuvres ce recueil et ce seul manuscrit, que n’a pas connu Welter.</p>
       </div>
-      <div>
+      <div xml:id="r1201922">
         <pb source="https://nakala.fr/10.34847/nkl.7dc3n6bz#e65200a60241df40bb9ef2f7d603d5a0507fe503" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dc3n6bz/e65200a60241df40bb9ef2f7d603d5a0507fe503/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Étude du <hi rend="i">speculum exemplare</hi></head>
-        <div>
+        <div xml:id="r1201938">
           <head rend="uc">Chapitre premier
            <lb/>la composition du <hi rend="i">Spéculum exemplare</hi></head>
           <p>Le recueil est divisé en cinq parties contenant cent quatre-vingt-sept <hi rend="i">exempta </hi>et qui se rapportent, chacune, à une catégorie différente. La première partie concerne les hommes d’État, leurs vertus à imiter et leurs travers à éviter ; elle comporte trente-deux chapitres. La seconde traite des clercs, des hommes voués à l’étude et des avocats ; elle se compose également de trente-deux chapitres. La troisième, la plus longue, traite des moines, de leurs tentations et de leurs vertus en quarante-cinq chapitres. La quatrième, la plus courte (vingt-trois chapitres), s’étend avec complaisance sur les défauts des femmes, en reconnaissant cependant sur la fin que certaines possèdent des qualités d’humilité et de patience. La cinquième partie rassemble des <hi rend="i">exempla</hi> divers : contre l’attachement à ce monde, la vaine gloire, la mort, l’avarice et l’amour du gain, la calomnie, les spectacles et les rires, l’adultère, l’aumône, le blasphème, la pénitence...</p>
           <p>Chaque chapitre est introduit par une ou plusieurs phrases résumant le chapitre précédent et annonçant la suite, énonçant des vérités générales sur telle vertu ou tel vice ; puis le compilateur développe <hi rend="i">V exemplum</hi> en prenant soin de citer sa source, un auteur de l’Antiquité classique ou du Moyen Age.</p>
           <p>Les thèmes abordés sont communs aux manuels d’éducation des princes et aux recueils <hi rend="i">d’exempla :</hi> on trouve d’assez nombreux <hi rend="i">exempta</hi> sur le diable ; quelques-uns sur la confession, qui s’adressent au confesseur qui a le devoir de recevoir les pécheurs plutôt qu’il n’exhorte le laïc à se faire confesser ; d’autres sur les peines du Purgatoire, mais aucun ne met en scène la Vierge Marie.</p>
         </div>
-        <div>
+        <div xml:id="r1201979">
           <head rend="uc">Chapitre II
            <lb/>La source du <hi rend="i">Spéculum exemplare :</hi>
            <lb/>Vincent de Beauvais</head>
@@ -83,13 +81,13 @@
           <p>Le compilateur a dû noter, probablement dans la marge, les précisions que donne Vincent de Beauvais quand il cite sa source : le nom de l’œuvre, le livre et le chapitre, car deux manuscrits, <hi rend="i">D</hi> et <hi rend="i">F</hi> (Laur.) conservent partiellement ces références, l’un en marge, l’autre intégrées dans le texte.</p>
           <p>Pour élaborer le <hi rend="i">Spéculum exemplare,</hi> on a pu utiliser le répertoire alphabétique dont Vincent de Beauvais était l’auteur.</p>
         </div>
-        <div>
+        <div xml:id="r1202066">
           <head rend="uc">Chapitre III
            <lb/>Les sources de Vincent de Beauvais</head>
           <p>Les auteurs des <hi rend="i">exempla</hi> du <hi rend="i">Spéculum, exemplare</hi> sont les suivants : saint Augustin, <hi rend="i">De civitate Dei</hi> ; Aulu-Gelle, <hi rend="i">Nuits Attiques</hi> ; Jean Cassien, <hi rend="i">Institutiones coenobiorum</hi> et <hi rend="i">Collationes</hi> ; Cassiodore Epiphane traduit par Socrates Sozomenos, <hi rend="i">Historia ecclesiastica</hi> ; Pierre Damien, <hi rend="i">Opuscula</hi> et <hi rend="i">Epistulae</hi> ; Cicéron, <hi rend="i">De Offidis</hi> ; Eadmer, <hi rend="i">Vita s. Anselmi Cantuariensis</hi> ; Ésope ; Eutrope ; Fulgence, <hi rend="i">Mythologiae</hi> ; Flavius Josèphe, <hi rend="i">Antiquitates</hi> ; les <hi rend="i">Gesta Francorum</hi> ; saint Grégoire le Grand, <hi rend="i">Dialogues</hi> et <hi rend="i">Homélies ;</hi> Guillaume de Malmesbury, <hi rend="i">Gesta regum Anglorum</hi> ; Geoffroi d’Auxerre, <hi rend="i">De contemptu mundi ad clericos</hi> ; Hélinand de Froidmont, <hi rend="i">Chronique, De Cognitione sui</hi> et <hi rend="i">De Bono regimine principum</hi> ; Hugues de Fleury, <hi rend="i">Historia ecclesiastica</hi> ; Isidore de Séville, <hi rend="i">Etymologiae</hi> ; saint Jerôme, <hi rend="i">Adversus Jovinianum</hi> ; Justin, <hi rend="i">Epitoma</hi> ; Macrobe, <hi rend="i">Saturnalia</hi> ; ps. Mercure Trismegiste ; Orose, <hi rend="i">Adversum Paganos</hi> ; Rufin, <hi rend="i">Historia ecclesiastica</hi> et <hi rend="i">Historia monachorum</hi> : Sénèque, <hi rend="i">De Beneficiis</hi> ; Suétone, <hi rend="i">Vies des douze Césars</hi> ; Sulpice Sévère, <hi rend="i">Dialogues</hi> ; Tertullien, <hi rend="i">Apologétique ;</hi> ps. Turpin, <hi rend="i">Chronique ;</hi> Valère Maxime, <hi rend="i">Facta et dicta memorabilia ; Vite patrum (Vita Barlaam et Josaphat, Heraclidis Paradisus, Verba seniorum</hi>).</p>
           <p>On constate que ce sont les <hi rend="i">Vite patrum</hi> et Valère Maxime qui sont les plus largement utilisés dans ce recueil. Dans la première partie, les hommes d’État se voient proposer les modèles de l’Antiquité ; aussi Suétone et Valère Maxime sont-ils les plus fréquemment cités. Dans la deuxième (les clercs) et la cinquième partie (<hi rend="i">exempla</hi> communs), la variété des thèmes a autorisé un choix d’auteurs divers. Les <hi rend="i">Vite patrum</hi> et Jean Cassien sont à l’honneur dans la troisième partie réservée aux moines. Grégoire le Grand et saint Jérôme (<hi rend="i">Adversum Jovinianum</hi>) offrent des <hi rend="i">exempla</hi> appropriés à l’édification des femmes.</p>
         </div>
-        <div>
+        <div xml:id="r1202237">
           <pb source="https://nakala.fr/10.34847/nkl.7dc3n6bz#79513fe7a78cdaade9c1854909d9dc93120ffc29" n="118" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dc3n6bz/79513fe7a78cdaade9c1854909d9dc93120ffc29/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>L’auteur</head>
@@ -98,7 +96,7 @@
           <p>Rien dans la date, l’origine, et même dans le contenu ne s’oppose à cette attribution ; le <hi rend="i">Spéculum</hi> aurait alors été rédigé entre 1290/1295 et 1303.</p>
           <p>Cependant cette compilation ne montre pas une grande originalité ; la facture, à cause des coupures faites dans le texte de Vincent de Beauvais, en est parfois maladroite.</p>
         </div>
-        <div>
+        <div xml:id="r1202267">
           <head rend="uc">Chapitre V
            <lb/>Les manuscrits du <hi rend="i">Spéculum exemplare</hi></head>
           <p>Dix manuscrits du <hi rend="i">Spéculum exemplare,</hi> dont six du XIV’ siècle, ont été répertoriés.</p>
@@ -108,7 +106,7 @@
           <p>En conclusion, le <hi rend="i">Spéculum exemplare</hi> s’est diffusé au XIV’ siècle de l’Italie du Nord vers la France ; il se trouve en Angleterre à la fin du siècle ; au siècle suivant, il connaît un succès important dans le territoire actuel de la Belgique et des Pays-Bas, en particulier chez les Chartreux, succès qui laisse penser que plutôt qu’un instrument à l’usage du prédicateur, il était devenu alors un manuel de réflexion personnelle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1202339">
         <pb source="https://nakala.fr/10.34847/nkl.7dc3n6bz#c618b39cef353b16360f168e9e36438e4c3082d6" n="119" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dc3n6bz/c618b39cef353b16360f168e9e36438e4c3082d6/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Édition du <hi rend="i">speculum exemplare</hi></head>

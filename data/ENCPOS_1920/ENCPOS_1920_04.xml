@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,11 +60,11 @@
         <head rend="uc">Avant-propos</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r392967">
         <head rend="uc">Introduction</head>
         <p>Sources diplomatiques : le fonds de Saint-Pierre de Caen aux Archives départementales du Calvados est divisé en deux parties principales : les archives de la Communauté des chapelains et les archives du Trésor. Cartulaire des chapelains (1515-1518) ; Cartulaire des trésoriers (1496) ; Comptes des chapelains (1520-1563). – Sources diverses (Tabellionage, de Caen, 1381-1560, etc...). – Sources narratives. – Travaux imprimés.</p>
       </div>
-      <div>
+      <div xml:id="r392977">
         <head rend="uc">Première partie
          <lb/>La paroisse</head>
         <p>ORIGINES. – La ville de Caen paraît avoir été constituée par les premiers ducs de Normandie en réunissant un certain nombre de <hi rend="i">villæ</hi> groupées aux environs du confluent de l’Orne et de l’Odon. L’une de ces <hi rend="i">villæ, </hi>portant le nom de Darnetal, forma, au moins en partie, la paroisse Saint-Pierre.</p>
@@ -81,17 +79,17 @@
         <p>2° <hi rend="i">La Communauté des paroissiens.</hi> La paroisse Saint-Pierre était non seulement la plus étendue mais encore la plus peuplée et la plus riche de la ville (indications <pb source="https://nakala.fr/10.34847/nkl.1888v00x#c0f098d99121d56c676bf2ba194101821964308b" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.1888v00x/c0f098d99121d56c676bf2ba194101821964308b/full/full/0/default.jpg"/>fournies par les comptes de la débile, les aides et les fouages). Les principaux négociants y étaient établis de même que les changeurs (confrérie en 1338) et les gens de justice (confrérie de Saint-Yves en 1524) ; confréries de Saint-Nicolas et de Notre-Dame dès 1250, 1251, etc... Redevance due au curé par les Carmes pour leur établissement sur la paroisse (1278).</p>
         <p>TEMPORELS DE LA COMMUNAUTÉ DES CHAPELAINS ET DU TRÉSOR. – Constitués l’un et l’autre par les donations des paroissiens, ils consistaient essentiellement en rentes perpétuelles, en deniers et en nature, assises dans les limites de la Vicomté de Caen. Les possessions importantes étaient affermées et non fieffées. Dans la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle les revenus en deniers des chapelains s’élevaient à environ 1000 livres, dont 300 livres seulement provenaient des fermages. – Evolution du temporel : diminution des rentes par le fait des guerres anglaises, des ordonnances de François I<hi rend="sup">er</hi> et d’Henri II autorisant le rachat des rentes constituées sur les immeubles des villes (1539, 1554) ; non-paiement des renies pendant les troubles de 1562-1563, alors que les fermages furent intégralement payés.</p>
       </div>
-      <div>
+      <div xml:id="r393117">
         <head rend="uc">Deuxième partie
          <lb/>L’église</head>
-        <div>
+        <div xml:id="r393125">
           <head rend="uc">I. – Histoire de la construction</head>
           <p>Du <num>xi<hi rend="sup">e</hi></num> AU <num>xv<hi rend="sup">e</hi></num> SIÈCLE. – Mentions de l’église au <num>xi<hi rend="sup">e</hi></num> siècle. Sa reconstruction vers le milieu du <num>xii<hi rend="sup">e</hi></num> siècle. – L’édifice actuel fut commencé au <num>xiii<hi rend="sup">e</hi></num> siècle. Jean Le Henapier, trésorier, fit construire une chapelle entre 1297 et 1305. Michel La Vale « maître de l’église » (♰ avant le 20 août 1316). – Construction du clocher : la prétendue date de 1308 ; le trésorier Nicole Langlois (♰ 15 juillet <pb source="https://nakala.fr/10.34847/nkl.1888v00x#6920be8276384f7c2fd1112321a032df30ef50fb" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.1888v00x/6920be8276384f7c2fd1112321a032df30ef50fb/full/full/0/default.jpg"/>1317) fit commencer l’étage des cloches. – La façade occidentale fut exécutée avant 1385 ; mention en 1372 de Girard du Temple, garde du scel des obligations de la vicomté de Caen, comme trésorier de la paroisse ; sa parenté avec Raymond du Temple, maître des œuvres de Charles V. Le trésorier Guillaume Le Landois (♰ 1398) paya la vitrerie de la rose et la couverture en plomb de la nef, qui fut voûtée entre 1417 et 1434.</p>
           <p><num>xv<hi rend="sup">e</hi></num> SIÈCLE. – Reconstruction des bas-côtés et des chapelles ; vocables des chapelles. Le bas-côté méridional fut commencé vers 1410. Marché passé en 1436 par Nicole Blondel avec Jean Lorimier, maître-maçon, pour la reconstruction de la chapelle Saint-Thomas ; ce travail entraîna la destruction du tombeau de Nicole Langlois ; mentions en 1458 de la chapelle Notre-Dame et en 1474 d’une autre chapelle récemment construites, en 1476 de la chapelle Saint-Jean en cours de construction ; ces quatre chapelles s’ouvrent sur le bas-côté septentrional. Donations de vitraux par Louis XI, Pierre Bourdon, Pierre et Enguerran Le Chevalier.</p>
           <p>PREMIÈRE MOITIÉ DU <num>xvi<hi rend="sup">e</hi></num> SIÈCLE. – Reconstruction du chevet. La prétendue concession du terrain par Louis XI (1473-1474). L’ouragan du 16 mars 1520. Début de la construction des cinq chapelles s’ouvrant sur le déambulatoire entre 1518-1521. Trois chapelles étaient élevées en 1530. Don de vitraux pour l’une de ces chapelles en 1537. Mais, en 1538, les travaux étaient loin d’être terminés, et un personnage nommé Hugue Le Fournier, qualifié « magister » et « expertus », avec lequel les Trésoriers avaient traité pour la construction du « rompoinct », menaçait, si on ne lui donnait de l’argent, de laisser l’œuvre inachevée ; constitution d’une rente nouvelle par les Trésoriers pour effectuer un paiement. Construction des voûtes du déambulatoire et des chapelles par Hector Sohier (♰ entre 1558 et 1560). En 1538, mention de Jean Masselin « machon, besongnant <pb source="https://nakala.fr/10.34847/nkl.1888v00x#54527c12f686b5e336f2e6d5f91fb205eece474b" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.1888v00x/54527c12f686b5e336f2e6d5f91fb205eece474b/full/full/0/default.jpg"/>et œuvrant de sond. mestier en l’église » (accord entre Sohier et Masselin en 1558). Pierre Du Val (♰ 1539) avait fait constuire à ses frais l’une des chapelles ; la chapelle de Nicolas Le Vallois (?). – Effondrement de la voûte du chœur à une date indéterminée, postérieure à 1525 ; sa reconstruction partielle par Sohier avant 1555. – Vers le milieu du <num>xvi<hi rend="sup">e</hi></num> siècle l’église fut achevée.</p>
           <p>MODIFICATIONS APPORTÉES A L’ÉDIFICE DU MILIEU DU XVI<hi rend="sup">e </hi>AU <num>xx<hi rend="sup">e</hi></num> SIÈCLE. – Pillages des protestants : la base de la flèche du clocher, fortement endommagée par le canon en février 1563, fut réparée en 1603-1606, sous la direction de Jacques I<hi rend="sup">er</hi> Gabriel. En 1684 on constata que le pilier nord-ouest du clocher s’écrasait : il fut réparé en 1762. – Enlèvement de la couverture en plomb (1794-1795). Mutilation du portail septentrional (1797) par des particuliers, qui furent poursuivis. Réfection des piliers du chœur (1806-1810. 1835-1836), du portail de la façade occidentale et du portail s’ouvrant sous le clocher (1814) de la chapelle de la Vierge (1819-1822). – En 1859-1860 reprise en sous-œuvre du pilier nord-ouest du clocher. – Dégagement de l’église.</p>
         </div>
-        <div>
+        <div xml:id="r393215">
           <head rend="uc">II. – Description archéologique</head>
           <p>L’ÉGLISE ROMANE. – Etude des vestiges découverts en 1859-1860, lors de la reprise en sous-œuvre du pilier nord-ouest du clocher : 1° pilier du <num>x<hi rend="sup">e</hi></num> ou début du XI<hi rend="sup">e </hi>siècle ; 2° grandes arcades et triforium du milieu du <num>xii<hi rend="sup">e</hi></num> siècle. – Essai de restitution d’une travée de la nef romane.</p>
           <p>Plan de l’édifice actuel caractérisé par l’absence de transept et par une déviation d’axe très marquée vers le nord.</p>
@@ -111,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r393397">
         <head rend="uc">C. Sculpture, mobilier, tombeaux</head>
         <p>Chapiteau historié (première moitié du <num>xiv<hi rend="sup">e</hi></num> siècle) du troisième pilier des grandes arcades septentrionales de la nef : animaux symboliques et personnages des romans. – Vantaux de portes (troisième quart du <num>xiv<hi rend="sup">e</hi></num> siècle). – Caveau découvert dans le chœur en 1836.</p>
       </div>
@@ -119,7 +117,7 @@
         <head rend="uc">Conclusion</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r393428">
         <head rend="uc">Appendices</head>
         <p>I. Liste des curés et des vicaires.</p>
         <p>II. Liste des trésoriers.</p>
@@ -129,7 +127,7 @@
         <head rend="uc">Pièces justificatives</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r393455">
         <head rend="uc">Planches</head>
         <p>Plan de la paroisse, <num>xiv<hi rend="sup">e</hi></num>-<num>xvi<hi rend="sup">e</hi></num> siècles.</p>
         <p>Plan de l’église à 0 <hi rend="sup">m</hi> 02 pour mètre.</p>

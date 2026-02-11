@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,23 +56,23 @@
         <surname>Mancardi</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1042063">
         <head rend="uc">Introduction</head>
         <p>L’intensité de la vie musicale parisienne au <num>xviii<hi rend="sup">e</hi></num> siècle, et l’importance du rôle des maîtres de musique dans la société, invitent à étudier leurs attitudes professionnelles, culturelles et sociales.</p>
         <p>Paris concentre alors toute la vie culturelle et artistique du pays. C’est en outre la capitale musicale de toute l’Europe. Artistes de province et de l’étranger s’y rendent régulièrement pour s’y faire entendre, et dans bien des cas ils s’y installent définitivement. Les musiciens trouvent à Paris de nombreuses possibilités d’exercer leur art, et peuvent espérer faire fortune et acquérir la gloire.</p>
         <p>La variété et la quantité des spectacles répondent à l’engouement de la population. Le nombre de concerts publics et privés ne cesse de croître au cours du siècle. La musique cesse d’être un bien réservé à des cercles restreints d’auditeurs ; elle intéresse un public de plus en plus large et pénètre dans des milieux très divers.</p>
         <p>Dans ces conditions, les maîtres de musique occupent une place de premier ordre dans la vie parisienne. Les documents les concernant reflètent leur mentalité et leur situation au milieu d’une société avec laquelle leur métier les met en contact direct, et permettent de cerner l’organisation et l’orientation de leur vie professionnelle.</p>
       </div>
-      <div>
+      <div xml:id="r1042088">
         <pb source="https://nakala.fr/10.34847/nkl.bfb2w16o#9708554f7d3e3e4932b54187f85fc95d6b92b8d1" n="112" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfb2w16o/9708554f7d3e3e4932b54187f85fc95d6b92b8d1/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Les mémoires, ouvrages et périodiques contemporains nous ont permis de recenser un certain nombre de maîtres de musique et de découvrir de précieux renseignements sur l’organisation et la valeur de leur enseignement d’une part, sur la diversité de leurs occupations musicales d’autre part.</p>
         <p>Nous avons d’autre part effectué des sondages dans les inventaires après décès du Minutier central des notaires aux Archives nationales, documents qui nous ont permis de retrouver d’autres actes notariés, en particulier les contrats de mariage.</p>
       </div>
-      <div>
+      <div xml:id="r1042106">
         <head rend="uc">Première partie
          <lb/>Mentalité et société</head>
-        <div>
+        <div xml:id="r1042114">
           <head rend="uc">Chapitre premier
            <lb/>la vie familiale</head>
           <p><hi rend="i">Le mariage.</hi> – Les maîtres de musique se recrutent dans la moyenne et petite bourgeoisie. Près de la moitié ont un père qui exerce un métier musical ou lié à la musique ; un bon quart sont issus de familles de marchands et maîtres de métiers ; quelques-uns enfin sont fils d’officiers civils et d’employés du roi ou d’un prince.</p>
@@ -84,7 +82,7 @@
           <p>Les garçons sont généralement mis en pension puis en apprentissage chez un maître de métier. Un bon nombre suivent la voie tracée par leur père et exercent une profession musicale où ils pourront prendre éventuellement sa succession. Après la musique, ce sont les carrières de type administratif et les métiers du commerce qui attirent les fils des maîtres.</p>
           <p>Plus de la moitié des maîtres ne peuvent se permettre d’être servis.</p>
         </div>
-        <div>
+        <div xml:id="r1042147">
           <pb source="https://nakala.fr/10.34847/nkl.bfb2w16o#f98a6f8f773382b72ae17d6af282324f2e78d75d" n="113" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfb2w16o/f98a6f8f773382b72ae17d6af282324f2e78d75d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Niveau de vie</head>
@@ -94,7 +92,7 @@
           <p>La moitié seulement des maîtres possèdent une bibliothèque, généralement d’importance moyenne. S’ils ont un minimum d’instruction, peu montrent un esprit cultivé et s’intéressent au patrimoine français et étranger. La plupart des ouvrages que l’on trouve chez eux sont des livres de piété et de dévotion, quelques livres d’histoire de France et de littérature des <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles.</p>
           <p>On est frappé par la quantité de linge et de vêtements possédés par les maîtres de musique et par leurs épouses. Ils sont habillés selon la mode du temps, mais sans raffinement.</p>
         </div>
-        <div>
+        <div xml:id="r1042194">
           <head rend="uc">Chapitre III
            <lb/>Fortune et succession</head>
           <p><hi rend="i">La fortune.</hi> – Rien de plus malaisé et de plus artificiel que de classer les maîtres d’après leur fortune. Il en est qui, sans être pauvres, possèdent un assez modeste patrimoine, mais que leur train de vie apparente aux plus riches. D’autres en revanche disposent d’une certaine fortune, mais mènent une vie modeste. Sans pouvoir fixer dans l’absolu la fortune des maîtres, la comparaison de leur richesse respective permet de constater des inégalités de fortune de l’un à l’autre.</p>
@@ -106,18 +104,18 @@
           <p><hi rend="i">La succession.</hi> – Assez peu de maîtres semblent avoir rédigé ou dicté leur testament, estimant inutile de se préoccuper du sort de leurs biens. Ils font dons et legs à des établissements religieux, à leurs amis proches ou à des parents privilégiés, rarement à des élèves.</p>
           <p>Après la levée éventuelle des scellés, les biens de la succession du maître sont distribués aux légataires suivant les volontés du défunt, et partagés entre les héritiers légitimes. Mais bien des maîtres laissent une maigre fortune et une succession trop lourde à assumer. La veuve préfère renoncer à la communauté de biens ou les héritiers à la succession, qui leur est plus onéreuse que profitable.</p>
         </div>
-        <div>
+        <div xml:id="r1042235">
           <head rend="uc">Chapitre IV
            <lb/>Les relations sociales</head>
           <p>Le maître de musique trouve ses amis dans le cadre de ses activités professionnelles aussi bien que dans ses relations familiales et quotidiennes. Les maîtres fréquentent en premier lieu le milieu socio-professionnel dominant à Paris, les négociants, marchands et maîtres de métiers. Ils se lient également avec les employés et officiers civils du roi et des princes, ainsi qu’avec les « bourgeois ». Les musiciens ne représentent que 16 % de leurs relations. Nous ne rencontrons pas dans leur entourage de personnes de niveau social inférieur au leur ; en revanche, nous relevons quelques nobles.</p>
           <p>Leurs relations professionnelles tout comme leur cadre de vie rapprochent les maîtres de musique de la bourgeoisie de l’époque. Certains se qualifient eux-mêmes de « bourgeois » à côté de leur qualité professionnelle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1042251">
         <pb source="https://nakala.fr/10.34847/nkl.bfb2w16o#264a7cef2261e9ae5dc61113e71641fb5a866cb9" n="115" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfb2w16o/264a7cef2261e9ae5dc61113e71641fb5a866cb9/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>La vie professionnelle</head>
-        <div>
+        <div xml:id="r1042264">
           <head rend="uc">Chapitre premier
            <lb/>une profession libre</head>
           <p><hi rend="i">La formation musicale.</hi> – Les maîtres de musique n’étant pas constitués en communauté ou corporation ayant des exigences strictes, la profession qu’ils exercent est un métier libre. Il n’y a donc pas de règles précises pour devenir maître de musique, d’autant plus que, mises à part quelques tentatives dispersées au cours du siècle, l’enseignement musical n’est l’objet d’aucune organisation officielle, jusqu’à la création de l’Ecole royale de chant (1784), premier pas avant la création du Conservatoire (1795).</p>
@@ -129,7 +127,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.bfb2w16o#c233535f8e295e70bf5b6bf73907be7067c73b78" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfb2w16o/c233535f8e295e70bf5b6bf73907be7067c73b78/full/full/0/default.jpg"/>
           <p><hi rend="i">La clientèle.</hi> – Les maîtres dispensent leur enseignement à deux catégories d’élèves : les amateurs qui considèrent que la musique est le complément indispensable à une bonne éducation, et les professionnels qui se destinent à une carrière musicale. Certains ont eu la grande faveur d’instruire les membres de la famille royale ; d’autres ont dispensé leur enseignement aux amateurs du grand monde. D’autres enfin ont assuré la formation de futurs grands musiciens, qui ont pu aussi à leur tour être maîtres de musique. Notons à ce sujet l’existence de dynasties de musiciens. Sans avoir accès aux milieux de la cour et des salons, nombre de maîtres ont leur rôle à jouer auprès des amateurs et des futurs professionnels de la bourgeoisie parisienne.</p>
         </div>
-        <div>
+        <div xml:id="r1042308">
           <head rend="uc">Chapitre II
            <lb/>Pratiques pédagogiques</head>
           <p><hi rend="i">De la leçon particulière au cours collectif.</hi> – Au début du siècle, se maintient encore la pratique de passer contrat devant notaire moyennant une somme forfaitaire.</p>
@@ -146,7 +144,7 @@
           <p>La musique est considérée comme un élément important de l’éducation des enfants ; c’est pourquoi le choix du maître revêt une grande importance. Les bons maîtres sont souvent ceux qui se font le moins remarquer. Les autres cherchent à éblouir l’élève, sans s’adapter à ses goûts ni à ses capacités, au risque de le dérouter par des pratiques rebutantes.</p>
           <p>Certains théoriciens proposent des remèdes aux défauts qu’ils critiquent – Bemetzrieder, en particulier, suggère la création d’académies de musique, écoles de spécialistes, qui non seulement assureraient des cours, mais aussi orienteraient le public dans le choix des maîtres. A côté de l’incompétence de certains maîtres, il faut noter aussi l’ignorance du public qui se flatte pourtant de pouvoir juger les musiciens, sans savoir discerner leurs qualités ou leurs défauts, ni même parfois connaître la musique.</p>
         </div>
-        <div>
+        <div xml:id="r1042370">
           <head rend="uc">Chapitre III
            <lb/>Activités complémentaires</head>
           <p><hi rend="i">Activités musicales.</hi> – Il est rare que le professorat soit l’activité unique du maître de musique. La plupart exercent parallèlement une ou plusieurs activités musicales, étroitement liées à leurs fonctions de professeur.</p>
@@ -159,11 +157,11 @@
           <p>En nombre beaucoup moins important, d’autres maîtres sont graveurs, copistes de musique ou facteurs d’instruments.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1042412">
         <head rend="uc">Conclusion</head>
         <p>Être maître de musique ne représente pas un métier, mais correspond à une activité que l’on exerce parallèlement à d’autres fonctions, quelquefois plus importantes. C’est pourquoi fortune, conditions d’existence, réussite diffèrent d’un maître à l’autre. Mais tous ont leur rôle à jouer dans une société <pb source="https://nakala.fr/10.34847/nkl.bfb2w16o#e488fe3cdc2a54e2ae34ebfab3238e1dca911745" n="119" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfb2w16o/e488fe3cdc2a54e2ae34ebfab3238e1dca911745/full/full/0/default.jpg"/>passionnée de musique. Le nombre de professeurs cités par les périodiques ne cesse d’augmenter au cours du siècle, l’engouement pour la musique ayant suscité des vocations de musiciens et accru le nombre d’amateurs (le <hi rend="i">Calendrier musical universel</hi> recense deux cent quatre-vingt-deux maîtres en 1789). La Révolution freine cet élan général, mais organise l’enseignement musical en créant le Conservatoire.</p>
       </div>
-      <div>
+      <div xml:id="r1042431">
         <head rend="uc">Annexes</head>
         <p>Liste alphabétique des maîtres de musique parisiens au <num>xviii<hi rend="sup">e</hi></num> siècle. Cette liste, qui constitue une base sans laquelle notre étude n’aurait pu être qu’imprécise et incomplète, n’est toutefois pas exhaustive (certains maîtres n’ont laissé aucune trace, mais, à mesure que nous avançons dans le siècle, nous disposons de plus de documents et les maîtres les plus connus en leur temps sont recensés). – Tableaux relatifs aux relations sociales des maîtres de musique et à l’étude des spécialités musicales. – Liste de leurs élèves connus.</p>
         <pb source="https://nakala.fr/10.34847/nkl.bfb2w16o#446603330418170d3bb8b32f0b0ca4f8dc5221fc" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfb2w16o/446603330418170d3bb8b32f0b0ca4f8dc5221fc/full/full/0/default.jpg"/>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,13 +55,13 @@
         <forename>René</forename>
         <surname>Prigent</surname>
       </byline>
-      <div>
+      <div xml:id="r406138">
         <head rend="uc">Introduction</head>
         <p>Intérêt du manuscrit nouvelle acquisition latine 426, de la Bibliothèque Nationale ou Formulaire de Tréguier. – Divisions et sources du travail. – Bibliographie.</p>
       </div>
-      <div>
+      <div xml:id="r406148">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r406154">
           <head rend="uc">
             <hi rend="i">Section première.</hi> – <hi rend="i">Le manuscrit du</hi> Dictamen.</head>
           <p>1. Histoire du manuscrit. Provenant de l’abbaye de Marmoutiers et perdu, au commencement du <num>xix<hi rend="sup">e</hi></num> siècle, par la bibliothèque de Tours, J. Desnoyers l’a recouvré et donné à la Bibliothèque Nationale. – C’est un formulaire de lettres missives.</p>
@@ -73,7 +71,7 @@
           <p>4. Le compilateur du Formulaire n’est pas l’auteur des formules ; son rôle s’est borné à les transcrire.</p>
           <p>5. Le scribe, resté anonyme, est originaire du pays de Tréguier ; c’est un écolier, et, sans doute, un clerc.</p>
         </div>
-        <div>
+        <div xml:id="r406199">
           <head rend="uc">
             <hi rend="i">Section deuxième.</hi> – <hi rend="i">Le formulaire.</hi></head>
           <p>1. A l’exception de quelques préceptes rimés, qui ne sont point de la main de l’anonyme, la partie didactique fait entièrement défaut, et le Formulaire ne contient que des modèles de lettres.</p>
@@ -87,14 +85,14 @@
           <p>4. Ces <hi rend="i">dictamina</hi> n’ont pu être composés que par un clerc, qui était peut-être le maître de l’anonyme. Le Formulaire, en effet, est moins un traité véritable qu’une œuvre d’écolier.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r406271">
         <head rend="uc">Deuxième partie
          <lb/>Le <hi rend="i">Dictamen Trecorense</hi></head>
         <p>1. Aucun ordre dans le manuscrit du <hi rend="i">Dictamen.</hi> Dans la transcription, les 157 formules ont été réparties en six sections. Groupement proposé par A. de la Borderie. C’est le cadre qui est adopté avec quelques modifications.</p>
         <pb source="https://nakala.fr/10.34847/nkl.d10b725s#42057f2a8849772ead6641afd396929435e1c621" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.d10b725s/42057f2a8849772ead6641afd396929435e1c621/full/full/0/default.jpg"/>
         <p>2. Dans la publication que Léopold Delisle a faite de certaines pièces (<hi rend="i">Histoire littéraire de la France,</hi> t. XXXI, et <hi rend="i">Mémoires de la Société archéologique de l’Orléanais,</hi> t. XXIII) l’éditeur n’a pas cru devoir respecter l’orthographe du manuscrit ; il a corrigé des fautes qui sont caractéristiques.</p>
         <p>3. Table de concordance des formules dans la transcription et dans l’original.</p>
-        <div>
+        <div xml:id="r406308">
           <head rend="uc">II. – <hi rend="i">Le texte.</hi></head>
           <p>Section I. Affaires ecclésiastiques (35 n<hi rend="sup">os</hi>).</p>
           <p>II. Féodalité (18 n<hi rend="sup">os</hi>).</p>

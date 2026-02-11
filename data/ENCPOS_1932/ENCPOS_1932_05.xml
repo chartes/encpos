@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -66,15 +64,15 @@
         <head rend="uc">Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r514008">
         <head rend="uc">Chapitre premier
          <lb/>description du temporel.</head>
         <p>Outre son droit de juridiction épiscopale sur les paroisses qui font partie de l’exemption, l’abbaye possède un droit de seigneur haut-justicier sur dix baronnies. Les trois plus importantes de ces baronnies situées dans le pays de Caux, région de culture, sont celles de Fécamp, Vittefleur, et Jardin-sur-Dieppe. Elles groupent à elles seules près de 100 paroisses. Dans la vallée de la Seine, et sur les coteaux qui la bordent, régions de grandes forêts, sont situées les baronnies de Fontaine-le-Bourg, Saint-Gervais, Sainte-Croix-sur-Aizier, et Heudebouville. Dans le Calvados et la Manche, les baronnies d’Hennequeville et <pb source="https://nakala.fr/10.34847/nkl.f6e8c64f#8387d537390934e1b69bd45df6a4fcfe902a1879" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.f6e8c64f/8387d537390934e1b69bd45df6a4fcfe902a1879/full/full/0/default.jpg"/>d’Argences comprennent des terres très dispersées. Enfin, dans l’Oise, la baronnie de Villers Saint-Paul se trouve isolée du reste des possessions abbatiales.</p>
       </div>
-      <div>
+      <div xml:id="r514025">
         <head rend="uc">Chapitre II
          <lb/>Administration du temporel.</head>
-        <div>
+        <div xml:id="r514033">
           <head rend="uc">A. Le domaine.</head>
           <div>
             <head rend="uc">1°) exploitation du domaine fieffé.</head>
@@ -107,7 +105,7 @@
             <p>Presque toutes les dîmes perçues par l’abbaye sont des dîmes inféodées. A partir du <num>xv<hi rend="sup">e</hi></num> siècle, elles sont affermées. Très souvent, les dîmes et les champarts sont l’objet d’une seule ferme.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r514232">
           <head rend="uc">B. – Les cadres et le personnel de l’administration.</head>
           <div>
             <head rend="uc">Administration locale.</head>
@@ -125,15 +123,15 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r514306">
         <pb source="https://nakala.fr/10.34847/nkl.f6e8c64f#e2967a248fac280c4cf5b795415f541787d204ea" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.f6e8c64f/e2967a248fac280c4cf5b795415f541787d204ea/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre III
          <lb/>Le domaine anglais.</head>
-        <div>
+        <div xml:id="r514319">
           <head rend="uc">I. – Description du temporel.</head>
           <p>Les possessions de l’abbaye de Fécamp en Angleterre sont concentrées pour la plupart dans le Sussex : manoirs, <hi rend="i">hundreds,</hi> églises. Quelques manoirs dans les comtés de Gloucester et de Lincoln.</p>
         </div>
-        <div>
+        <div xml:id="r514333">
           <head rend="uc">II. – La vie féodale et économique du temporel
            <lb/>anglais.</head>
           <p>a) <hi rend="i">Les tenures et les tenanciers.</hi> Très rares mentions de vassaux nobles ; les tenures sont très vastes, les cens très faibles.</p>
@@ -145,7 +143,7 @@
           <p>Le bailli du manoir a l’administration générale de celui-ci ; il a un rôle à la fois administratif, financier et judiciaire. Il est aidé par le sénéchal, qui exécute ses décisions. Très souvent les charges de bailli et de sénéchal sont fieffées.</p>
           <p>Le personnel des manoirs est placé sous le contrôle <pb source="https://nakala.fr/10.34847/nkl.f6e8c64f#e8732ea5e0591f2a55a9e86858b62328721d34ee" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.f6e8c64f/e8732ea5e0591f2a55a9e86858b62328721d34ee/full/full/0/default.jpg"/>d’un procureur général ou bailli. Ce dernier est toujours un religieux de l’abbaye ; il a un pouvoir d’administration générale du temporel anglais, qui lui est délégué par l’abbé.</p>
         </div>
-        <div>
+        <div xml:id="r514390">
           <head rend="uc">III. Histoire du temporel anglais pendant la
            <lb/>guerre de cent ans.</head>
           <p>Dès 1340, les possessions anglaises de Fécamp sont saisies par le roi d’Angleterre. La garde en est confiée au procureur de l’abbaye, à charge de payer une ferme annuelle de 500 marcs à la Couronne. Le roi d’Angleterre se réserve un pouvoir de contrôle sur la gestion du procureur.</p>
@@ -155,10 +153,10 @@
           <p>Le grand acte du Parlement du 20 octobre 1423, excluant de l’Angleterre les abbayes étrangères, ne fait que confirmer un état de fait.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r514415">
         <head rend="uc">Chapitre IV
          <lb/>Les finances abbatiales.</head>
-        <div>
+        <div xml:id="r514423">
           <head rend="uc">I. Les recettes.</head>
           <p>Il n’y a pas d’état général des revenus de l’abbaye. <pb source="https://nakala.fr/10.34847/nkl.f6e8c64f#cc6d3b61660ca598ea6873210b2893c1ec0051f9" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.f6e8c64f/cc6d3b61660ca598ea6873210b2893c1ec0051f9/full/full/0/default.jpg"/>Quelques comptes nous renseignent sur le budget de certaines baronnies..</p>
           <p><hi rend="i">Le domaine fieffé.</hi> Entre 1415 et 1430, on constate un fléchissement des revenus de ce domaine.</p>
@@ -166,31 +164,31 @@
           <p><hi rend="i">Les faveurs royales.</hi> Le roi de France accorde à l’abbaye le droit de percevoir partie des aides royales.</p>
           <p>Le roi accorde à l’abbaye le droit de prélever des aides à son propre compte. Les rois anglais sont moins généreux.</p>
         </div>
-        <div>
+        <div xml:id="r514459">
           <head rend="uc">II. – Répartition des revenus.</head>
           <p><hi rend="i">Vie intérieure du monastère. Les offices claustraux. </hi>Des différents offices, dépendent certaines terres. Elles sont administrées par l’officier en charge. Il doit utiliser les revenus qui en proviennent en vue de l’exercice de cette charge.</p>
           <p>L’abbé, administrateur des menses abbatiale et conventuelle, doit assurer la vie du couvent. – L’aumônier nourrit et héberge les pauvres et les malades, s’occupe des lépreux. – Le pitancier. – L’hôtelier. – L’infirmier. Infirmerie réservée aux moines. – Les officiers subalternes (cuisiniers, apothicaires, barbiers, etc.). – Les enfants de chœur. C’est Estode d’Estouteville qui les a institués. Ils sont nourris par le couvent.</p>
           <p><hi rend="i">Les moines.</hi> Le futur moine, à son entrée au couvent, apporte son mobilier, son trousseau. Il verse trois cents livres.</p>
         </div>
-        <div>
+        <div xml:id="r514481">
           <pb source="https://nakala.fr/10.34847/nkl.f6e8c64f#aae4b7a68c82005b24d9f92b940789a07c366223" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.f6e8c64f/aae4b7a68c82005b24d9f92b940789a07c366223/full/full/0/default.jpg"/>
           <head rend="uc">III. – Dépenses concernant le temporel.</head>
           <p>Paiement des agents d’administration. Les nombreux procès entraînent des frais.</p>
           <p>Entretien de la forteresse ; des églises ; du domaine exploité directement.</p>
         </div>
-        <div>
+        <div xml:id="r514499">
           <head rend="uc">IV. – Dépenses extérieures.</head>
           <p><hi rend="i">Gabelle.</hi> Le roi d’Angleterre établit un grenier à sel à Fécamp.</p>
           <p><hi rend="i">Aides diverses.</hi></p>
           <p><hi rend="i">Droits dûs au Saint-Siège.</hi> L’abbaye ne paie au Saint-Siège que la taxe exigée des abbés et évêques à l’occasion de leur nomination.</p>
           <p>Pendant la guerre de Cent Ans, les difficultés financières de l’abbaye sont plutôt une conséquence de la diminution des revenus que de l’accroissement des dépenses.</p>
         </div>
-        <div>
+        <div xml:id="r514526">
           <head rend="uc">V. – Rôle financier de l’abbaye.</head>
           <p>Achats de rentes. Le vendeur oblige ses biens meubles et immeubles. L’opération est usuraire. Elle n’est pratiquée qu’à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, et jusqu’en 1415. Les achats de rentes reprennent de 1433 à 1436. Imprévoyance de l’abbaye.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r514543">
         <head rend="uc">Conclusion</head>
         <p>Répercussions des troubles de la guerre de Cent Ans sur l’administration du temporel abbatial.</p>
       </div>

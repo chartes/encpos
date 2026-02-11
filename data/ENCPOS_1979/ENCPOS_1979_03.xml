@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1979_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1979_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <surname>Delpeuch</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1046905">
         <head rend="uc">Sources</head>
         <p>Toutes les églises étudiées appartenaient à l’ancien diocèse de Rouen ; aussi la recherche a-t-elle été menée principalement aux Archives départementales de la Seine-Maritime. Les sources les plus intéressantes sont les archives paroissiales, mais elles sont malheureusement très lacunaires pour le <num>xv<hi rend="sup">e</hi></num> siècle, et même pour le <num>xvi<hi rend="sup">e</hi></num> siècle, et les fonds versés aux Archives départementales dans la série G sont d’un intérêt très inégal.</p>
         <p>Les visites archiépiscopales des <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles, les mentions de réconciliations d’églises dans le fond de l’archevêché de la série G ont pu fournir d’intéressants renseignements.</p>
@@ -72,41 +70,41 @@
         <p>Les archives des Monuments historiques (rue de Valois) ont aussi été utilisées.</p>
         <p>Les sources imprimées ou manuscrites conservées à la Bibliothèque municipale de Rouen, à la Bibliothèque nationale et dans les bibliothèques parisiennes se sont révélées décevantes, ainsi que les estampes des Archives départementales et de la Bibliothèque nationale, qui ne concernent que les grands édifices.</p>
       </div>
-      <div>
+      <div xml:id="r1046984">
         <head rend="uc">Première partie
          <lb/>Le pays de Caux</head>
-        <div>
+        <div xml:id="r1046992">
           <head rend="uc">Chapitre premier
            <lb/>géographie : une région naturelle ?</head>
           <p>La Seine sépare le Pays de Caux de l’Eure, mais le relie à Rouen. Sa situation côtière en fait une région originale, mais on ne peut l’isoler du Bassin parisien, dont il est solidaire. L’absence de métropole comme la rareté des villes relativement importantes, la conformation géologique du sous-sol et la violence du climat ont profondément influencé la construction.</p>
         </div>
-        <div>
+        <div xml:id="r1047004">
           <head rend="uc">Chapitre II
            <lb/>Géographie historique</head>
           <p>Le destin historique du Pays de Caux ne se sépare pas de celui de la haute Normandie. L’étude des divisions et des circonscriptions administratives et religieuses permet de dégager un pays cauchois, aux limites orientales assez floues. Il faut signaler que le Pays de Caux ne peut se confondre avec l’ancien bailliage de Caux, plus étendu. Ce sont les divisions religieuses de l’Ancien Régime qui traduisent le plus fidèlement la réalité cauchoise.</p>
         </div>
-        <div>
+        <div xml:id="r1047016">
           <pb source="https://nakala.fr/10.34847/nkl.fafd015x#adfe93d6a47b81637af772367771f070621fe75b" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.fafd015x/adfe93d6a47b81637af772367771f070621fe75b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Histoire du pays de Caux aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles</head>
           <p>Un aperçu historique permet de mettre en lumière les circonstances qui ont déterminé le mouvement de reconstruction, et en particulier le désordre profond d’une région très éprouvée par les guerres et l’occupation anglaise. La reprise économique, puis la prospérité, jointes à la croissance démographique, ont permis de relever les ruines dues à un défaut d’entretien plus qu’à des destructions et des faits de guerre. Après 1550, les troubles civils et religieux entraînent un certain ralentissement des chantiers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1047046">
         <head rend="uc">Deuxième partie
          <lb/>Caractères généraux</head>
-        <div>
+        <div xml:id="r1047054">
           <head rend="uc">Chapitre premier
            <lb/>conditions générales</head>
           <p>Une présentation générale des édifices étudiés permet de mettre en lumière la variété de la construction aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles (grands édifices urbains, modestes églises rurales, reconstructions totales ou partielles, églises de grès et de calcaire). L’analyse du tableau des édifices datés permet de déterminer que la période de reconstruction la plus intense se situe au <num>xvi<hi rend="sup">e</hi></num> siècle, à partir de 1520 environ. Les formes gothiques se maintiennent très tard, conjuguées avec les formes de la Renaissance au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
           <p>L’étude des donateurs permet de comprendre qu’il n’y eut pas de mécénat important dans la région, même pour les grands édifices. L’édification de l’église paroissiale est le fait de la communauté, qui a parfois reçu l’aide financière d’un seigneur local ou du gros décimateur du lieu.</p>
         </div>
-        <div>
+        <div xml:id="r1047093">
           <head rend="uc">Chapitre II
            <lb/>Matériau et appareil</head>
           <p>La bonne pierre à bâtir est rare, sauf dans la vallée de la Seine. Les édifices du Grand-Caux sont tous construits en calcaire, et ceux du Petit-Caux en grès. L’exploitation du grès du Petit-Caux est un caractère original du <num>xvi<hi rend="sup">e</hi></num> siècle. <pb source="https://nakala.fr/10.34847/nkl.fafd015x#033b1ae0027a4463760c83191fd946092b729e50" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.fafd015x/033b1ae0027a4463760c83191fd946092b729e50/full/full/0/default.jpg"/>Une ligne qui va de Fécamp à Totes effectue la séparation entre les deux groupes d’édifices. Le silex, facile à exploiter, est parfois utilisé, mais les appareils décoratifs mixtes sont extrêmement rares, alors qu’ils sont fréquents dans l’architecture civile.</p>
         </div>
-        <div>
+        <div xml:id="r1047116">
           <head rend="uc">Chapitre III
            <lb/>Plan</head>
           <p>La diversité des édifices étudiés et la prédominance des reconstructions partielles ne permettent pas de dégager un plan-type.</p>
@@ -114,13 +112,13 @@
           <p>Le clocher est le plus souvent à l’Ouest, ce qui constitue un trait original par rapport aux siècles antérieurs.</p>
           <p>Les grands édifices constituent une suite de cas d’espèce, mais on peut remarquer que leur plan est plus élaboré.</p>
         </div>
-        <div>
+        <div xml:id="r1047137">
           <head rend="uc">Chapitre IV
            <lb/>Élévation intérieure</head>
           <p>L’élévation intérieure est toujours d’une extrême simplicité, voire pauvre. Le chœur de Valmont et l’église de Caudebec sont les seuls exemples d’élévations à trois niveaux. Les exemples d’élévations à deux niveaux sont très rares, et ce sont les élévations à un seul niveau, avec éclairage indirect, qui dominent.</p>
           <p>Les églises à nef unique sont toujours extrêmement simples.</p>
         </div>
-        <div>
+        <div xml:id="r1047152">
           <head rend="uc">Chapitre V
            <lb/>Couvrement et contrebutement</head>
           <p>Seuls les grands édifices sont entièrement voûtés ; les édifices plus modestes sont tous couverts de charpente lambrissée, mais le chœur est généralement voûté, ainsi que la travée-sous-clocher et la croisée quand elle existe. Les églises entièrement lambrissées ne sont pas nombreuses.</p>
@@ -129,14 +127,14 @@
           <p>Les voûtes sont également d’une grande simplicité : ce sont le plus souvent de simples croisées d’ogives sur culots. Cependant tous les exemples de voûtes complexes sont étudiés dans ce chapitre, car ils témoignent de l’expansion du style flamboyant.</p>
           <p>On ne trouve presque pas d’exemple de contrebutement, ce qui s’explique par la petite taille des édifices et l’absence de voûtes sur la nef.</p>
         </div>
-        <div>
+        <div xml:id="r1047190">
           <head rend="uc">Chapitre VI
            <lb/>Supports</head>
           <p>Dans le support également, la simplicité est de règle, et la colonne cylindrique domine. Toutefois, les piliers en mouluration prismatique ininterrompue sont relativement nombreux même dans les édifices modestes.</p>
           <p>On trouve dans les églises de grès des colonnes octogonales à facettes concaves et décorées, relativement complexes.</p>
           <p>Il faut remarquer que les colonnes sont généralement surmontées d’un chapiteau, pour diverses raisons (courants stylistiques, emploi du grès...).</p>
         </div>
-        <div>
+        <div xml:id="r1047208">
           <head rend="uc">Chapitre VII
            <lb/>Percements</head>
           <p>Sauf dans les grands édifices, les percements sont peu importants. Les fenêtres sont étroites et souvent dépourvues de remplage dans le grès.</p>
@@ -144,27 +142,27 @@
           <p>La violence des vents dans la région, l’emploi du grès où il est difficile de ménager des percements importants, sont autant d’explications à cette pauvreté.</p>
           <p>Les remplages ont souvent été refaits ; cependant, dans les grands édifices comme dans les églises plus modestes, ils sont de style flamboyant en majorité. On rencontre quelques exemples de remplage de style Renaissance, plus simples.</p>
         </div>
-        <div>
+        <div xml:id="r1047229">
           <head rend="uc">Chapitre VIII
            <lb/>Élévation extérieure</head>
           <p>Dans l’élévation extérieure, la simplicité est de règle, même dans les grands édifices. Caudebec est le seul édifice où l’élévation extérieure soit complexe.</p>
           <p>Seuls les contreforts et les larmiers animent les élévations latérales et les <pb source="https://nakala.fr/10.34847/nkl.fafd015x#234af40ee3dbb746b46163806a5c065d01d4bab3" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.fafd015x/234af40ee3dbb746b46163806a5c065d01d4bab3/full/full/0/default.jpg"/>chevets. Dans le grès, ces élévations ont un aspect particulièrement rude et massif.</p>
           <p>Les façades sont également simples, sauf dans la vallée de la Seine, où de beaux portails décorés, des roses ou de grandes fenêtres font de cette partie de l’église une élévation privilégiée.</p>
         </div>
-        <div>
+        <div xml:id="r1047252">
           <head rend="uc">Chapitre IX
            <lb/>Clochers</head>
           <p>On peut classer les clochers en groupes homogènes. Les clochers en grès sont toujours à l’Ouest ; ils se distinguent par leur hauteur, leur massivité, l’absence générale de percements et leur simplicité. Ils sont couverts de flèches en ardoise, généralement octogonales.</p>
           <p>Les clochers de la vallée de la Seine se reconnaissent à leur légèreté et leur décor. Ils sont surmontés de flèches en pierre octogonales très décorées, voire ajourées. Il s’agit d’une école homogène où les grands édifices ont influencé les églises rurales.</p>
           <p>Enfin on rencontre des clochers en pierre où l’on sent l’influence de la Renaissance. La plupart sont lourds et massifs, mais certains sont élégants. Les flèches en pierre nue ne sont pas rares, mais les flèches d’ardoise dominent.</p>
         </div>
-        <div>
+        <div xml:id="r1047270">
           <head rend="uc">Chapitre X
            <lb/>Mouluration</head>
           <p>Tous les types de moulurations sont analysés (bases, arcades, nervures...). La typologie peut être compliquée à l’extrême si l’on admet toutes les variations ponctuelles. Toutefois, la modénature d’un même édifice est toujours homogène, s’il est le fruit d’une seule campagne de construction.</p>
           <p>On peut distinguer : la mouluration flamboyante, prismatique extrêmement soignée et très complexe, qui subsiste assez tard dans le <num>xvi<hi rend="sup">e</hi></num> siècle, et un type de mouluration influencée par la Renaissance, très peu accentuée, qui apparaît assez tôt dans le <num>xvi<hi rend="sup">e</hi></num> siècle. Dans les églises de grès, la mouluration est très simplifiée, en raison de la dureté du matériau.</p>
         </div>
-        <div>
+        <div xml:id="r1047297">
           <pb source="https://nakala.fr/10.34847/nkl.fafd015x#7a6f10ce189b16b071a99453a299f58d0c388484" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.fafd015x/7a6f10ce189b16b071a99453a299f58d0c388484/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre XI
            <lb/>Décoration</head>
@@ -173,39 +171,39 @@
           <p>Les églises de grès ne sont pas toutes décorées, mais leur décor est très original et très homogène. Il est constitué de motifs très divers, grossièrement sculptés en bas-relief. Certains de ces motifs sont inspirés de la Renaissance (profils dans des médaillons, losanges), d’autres de la religion chrétienne (instruments de la passion), mais la plupart témoignent de la plus grande fantaisie (sirènes, têtes barbues, cordes...). Le style est naïf, mais d’une très grande liberté dans l’imagination. L’unité de style et d’inspiration permet de penser qu’il existait un atelier de tailleurs de grès dans la région de Varengeville. Il semble que la Contre-Réforme ait fait disparaître ces motifs plus païens que chrétiens.</p>
           <p>Le décor des charpentes est géométrique et s’inspire plus de la Renaissance que de l’art flamboyant. Les blochets sont sculptés d’anges tenant des phylactères, ou de figures grossières.</p>
         </div>
-        <div>
+        <div xml:id="r1047323">
           <head rend="uc">Chapitre XII
            <lb/>Persistance de l’art gothique
            <lb/>et pénétration de la renaissance</head>
           <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle, on peut observer à la fois, selon les édifices, une persistance de l’art flamboyant et une transformation progressive de ce dernier vers un art dans lequel les arcs s’arrondissent, les profils s’adoucissent, et qui s’éloigne peu à peu de l’art gothique. On trouve aussi, à la même époque, des détails Renaissance (portes principalement) exécutés dans des édifices encore gothiques.</p>
         </div>
-        <div>
+        <div xml:id="r1047343">
           <head rend="uc">Chapitre XIII
            <lb/>L’église de Caudebec-en-Caux</head>
           <p>La monographie de l’église de Caudebec-en-Caux a été isolée des caractères généraux comme des monographies en raison de son intérêt particulier, C’est en effet le seul grand édifice homogène de la région, ainsi que le plus riche.</p>
         </div>
-        <div>
+        <div xml:id="r1047355">
           <pb source="https://nakala.fr/10.34847/nkl.fafd015x#5b21185924a83cb81559023d1c468019bed55bec" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.fafd015x/5b21185924a83cb81559023d1c468019bed55bec/full/full/0/default.jpg"/>
           <head rend="uc">Conclusions</head>
           <p>Le mouvement de la reconstruction est particulièrement important dans la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle, et il faut noter que les reconstructions partielles sont beaucoup plus nombreuses que les reconstructions totales. La simplicité est de règle, même dans les grands édifices.</p>
           <p>Les grands édifices n’ont pas du tout influencé les églises rurales, sinon dans le détail de la mouluration et de la décoration. Il n’est pas possible de dégager des écoles, et les édifices ne peuvent être rassemblés qu’en tout petits groupes très localisés. Cependant, on constate que le style flamboyant a connu une plus grande expansion dans la vallée de la Seine, à cause de la présence de la pierre, et de la diffusion des formes flamboyantes à partir de Rouen par la Seine ; d’autre part l’emploi du grès détermine un groupe d’églises homogène et original, qu’il serait intéressant de comparer aux églises en granit de Bretagne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1047380">
         <head rend="uc">Troisième partie
          <lb/>Monographies</head>
         <p>Les édifices cités font l’objet d’une monographie complète ou d’une notice. Cette partie de l’étude se présente comme un catalogue détaillé d’environ soixante églises, dont la plupart n’ont jamais été étudiées.</p>
       </div>
-      <div>
+      <div xml:id="r1047392">
         <head rend="uc">Pièces justificatives</head>
         <p>Marchés, demandes d’autorisation de construire et extraits concernant les églises de Caudebec, Fécamp, Harfleur et Montivilliers.</p>
       </div>
-      <div>
+      <div xml:id="r1047402">
         <pb source="https://nakala.fr/10.34847/nkl.fafd015x#e0bc0476d2daa92e07fee38d0674d2d1709adb1f" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.fafd015x/e0bc0476d2daa92e07fee38d0674d2d1709adb1f/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>Tableau des édifices datés. – Églises détruites depuis 1840. – Tableau des églises en pierre et des églises en grès.</p>
       </div>
-      <div>
+      <div xml:id="r1047417">
         <head rend="uc">Album de planches</head>
         <p>L’album de planches se compose de trois tomes regroupant environ mille photographies, et d’un tome de cartes et plans. Les plans, inédits, ont été dressés pour cette étude, et les cartes sont, pour la plupart, statistiques. Figurent aussi des cartes des Archives nationales.</p>
         <pb source="https://nakala.fr/10.34847/nkl.fafd015x#ae75cbb5096e58cecccda1393d524e426259dec9" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.fafd015x/ae75cbb5096e58cecccda1393d524e426259dec9/full/full/0/default.jpg"/>

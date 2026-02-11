@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1981_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1981_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,33 +55,33 @@
         <surname>Fréchet</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1074473">
         <head rend="uc">Introduction</head>
         <p>Le cadre géographique de notre étude est constitué par les archidiaconnés les plus occidentaux du diocèse de Toul, ceux de Ligny-en-Barrois et de Reynel, moins le doyenné de Biaise, enclave lointaine. Ce territoire bien délimité correspond sensiblement au Barrois Mouvant.</p>
       </div>
-      <div>
+      <div xml:id="r1074483">
         <head rend="uc">Sources</head>
         <p>Les recherches se sont révélées assez décevantes, aucun fonds continu ne pouvant être exploité. J’ai utilisé essentiellement les Archives départementales de la Meuse, où la documentation principale est répartie entre les séries B (fonds de la chambre des Comptes de Bar, d’ailleurs bien connu), E dépôt (archives communales, très fragmentaires à cause de la guerre de 1914), G (fonds des collégiales qui fournissent un apport important, en particulier pour les patronages leur appartenant, et fonds des paroisses elles-mêmes, trop récents généralement), et H (dans une moindre mesure). Le dépouillement de la série Q n’a pas apporté de résultat notable.</p>
         <p>Aux Archives départementales de Meurthe-et-Moselle, quelques fonds de la série B complètent ceux de la Meuse. Il en est de même de ceux des séries G, H et O de la Haute-Marne, qui n’ont pu être examinés à fond.</p>
         <p>Les différents pouillés imprimés, en particulier celui du P. Benoît de Toul (1711) ont permis d’une part le départ de la recherche, de l’autre l’établissement de statistiques simples.</p>
       </div>
-      <div>
+      <div xml:id="r1074499">
         <pb source="https://nakala.fr/10.34847/nkl.babcyu7p#9f96381795628088eb092dee39a2523bc5c4b620" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.babcyu7p/9f96381795628088eb092dee39a2523bc5c4b620/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Construction et architecture</head>
-        <div>
+        <div xml:id="r1074512">
           <head rend="uc">Chapitre premier
            <lb/>le contexte historique</head>
           <p>L’année 1477 marque la charnière entre deux périodes. La première est celle des guerres et des dévastations : la région lorraine est éprouvée tant par la guerre de Cent ans que par des luttes qui lui sont spécifiques. La suivante est une période de paix, troublée seulement par quelques incursions dans la seconde moitié du <num>xvi<hi rend="sup">e</hi></num> siècle. Elle a été assez heureuse pour la Lorraine qui fait alors figure d’État indépendant, probablement à son apogée. C’est cette prospérité qui a permis la floraison d’églises flamboyantes.</p>
         </div>
-        <div>
+        <div xml:id="r1074530">
           <head rend="uc">Chapitre II
            <lb/>Statut juridique des églises et financement des travaux</head>
           <p>Les édifices étudiés sont essentiellement des églises de villages ou de petites villes. Il y a lieu d’étudier leur statut et l’institution qui a présidé à leur construction. Pour la grande majorité, il s’agit de paroisses. Certaines églises de village sont annexes d’une paroissiale voisine. Dans des localités plus importantes, se rencontrent quelques autres catégories d’églises, desservant anciennement des communautés religieuses : des prieurés, et à Bar-le-Duc une collégiale (Saint-Pierre) ainsi qu’une église conventuelle (Saint-Antoine).</p>
           <p>Les chapelles constituent un autre groupe d’édifices. Ici non plus le vocabulaire ne correspond pas exactement à une catégorie précise, ni même à des statuts identiques. Les chapelles isolées et les fondations faites dans une église sont à peu près équivalentes juridiquement, alors que les constructions sont dans un cas une entité distincte, dans l’autre non, ou à peine.</p>
           <p>Pour les églises paroissiales, le rôle du patron est essentiel dans le financement des constructions : il est chargé du « choeur », en tant que bénéficiaire d’un tiers des grosses dîmes. Souvent il cède ou partage cette gestion avec le curé. La nef est financée par les autres décimateurs, ou bien dans certains cas (en particulier dans les annexes) par les habitants. Ces derniers sont aussi chargés de la tour, ce qui explique en partie qu’elle ait été souvent conservée dans un état ancien (roman par exemple).</p>
         </div>
-        <div>
+        <div xml:id="r1074548">
           <pb source="https://nakala.fr/10.34847/nkl.babcyu7p#fa9bb4a7458accd53f0c022a1b3b44e98fc574bf" n="117" facs="https://api.nakala.fr/iiif/10.34847/nkl.babcyu7p/fa9bb4a7458accd53f0c022a1b3b44e98fc574bf/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Modalités de la construction</head>
@@ -92,7 +90,7 @@
           <p>Les églises paroissiales sont souvent faites de « pièces et de morceaux », et révèlent des campagnes de construction très distinctes. Même lorsqu’elles appartiennent à peu près à la même époque, leurs différentes parties se heurtent souvent par des plans, des élévations et des appareils hétérogènes. On peut imputer, la plupart du temps, ces disparités au plus ou moins grand nombre de ceux qui doivent financer la construction, et dont la personnalité semble avoir eu une réelle influence, ainsi qu’au degré d’accord auquel ils parviennent.</p>
           <p>Les bâtisseurs eux-mêmes restent inconnus. On ne peut qu’appréhender avec plus ou moins de précision leurs contacts et leurs déplacements par le recours à l’étude archéologique des monuments eux-mêmes.</p>
         </div>
-        <div>
+        <div xml:id="r1074574">
           <head rend="uc">Chapitre IV
            <lb/>Les volumes</head>
           <p><hi rend="i">Nefs.</hi>– La nef unique est assez rare. Elle n’apparaît que comme une survivance.</p>
@@ -108,7 +106,7 @@
           <p>Les porches se répartissent entre deux types principaux. Les uns sont « en baldaquin », entièrement en pierre et voûtés, se ressemblant beaucoup avec leur grande arcade d’entrée, leur terrasse ornée d’une balustrade. Les autres sont charpentés, à colonnettes de pierre, et beaucoup plus simples.</p>
           <p>Les clochers sont implantés de manière variable. La croisée du transept est encore assez appréciée, bien qu’à l’intérieur elle ne corresponde guère à une structure déterminée. En façade, ils peuvent être hors-oeuvre ou dans-oeuvre. En fait, peu de clochers en pierre flamboyants ont subsisté et encore sont-ils d’une architecture bien médiocre.</p>
         </div>
-        <div>
+        <div xml:id="r1074645">
           <head rend="uc">Chapitre V
            <lb/>Lignes et Lumières</head>
           <p><hi rend="i">Les moulurations.</hi>– Les moulurations sont assez simples, essentiellement prismatiques, et sans originalité. Notons principalement l’utilisation presque exclusive de piles rondes et des retombées à pénétration.</p>
@@ -122,22 +120,22 @@
           <p><hi rend="i">Décor peint.</hi>– Il n’en subsiste que quelques vestiges, presque insignifiants.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1074711">
         <head rend="uc">Deuxième partie
          <lb/>Monographies</head>
         <p>Parmi les petites églises, nous n’avons retenu qu’un certain nombre d’exemples. Les principaux édifices (Saint-Pierre de Bar-le-Duc, Rembercourt-aux-Pots et Revigny) font l’objet de monographies.</p>
       </div>
-      <div>
+      <div xml:id="r1074723">
         <pb source="https://nakala.fr/10.34847/nkl.babcyu7p#c7e093b0917dc2c1692100ccdb19d0109114f1a0" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.babcyu7p/c7e093b0917dc2c1692100ccdb19d0109114f1a0/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Ni les destructions dues aux guerres de la période précédente ni les conditions démographiques ne suffisent à expliquer la floraison d’églises de cette époque. Cet essor est plutôt l’expression de la montée de nouvelles classes sociales qui veulent montrer leur richesse et leur goût, noblesse de robe, marchands, simples prêtres, paysans. Il témoigne également de la prise de conscience des communautés paroissiales, et du renouveau « national » du Barrois devenu lorrain.</p>
         <p>L’art flamboyant régional a pour principales caractéristiques la sobriété, l’équilibre des surfaces nues et du décor, le goût des jeux de volumes. L’émulation d’une localité à une autre explique peut-être la variété des plans à partir d’éléments semblables. Pour l’essentiel de son inspiration, l’école barroise se rattache à la France et à ses artistes auxquels elle emprunte la plupart de ses motifs (aux Chambiges en particulier). Mais, à l’instar du reste de la Lorraine, elle combine ces éléments avec un sentiment de l’espace qui se révèle souvent voisin de celui du <hi rend="i">Sondergotik.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1074744">
         <head rend="uc">Pièces justificatives</head>
         <p>Actes de fondation des chapelles Notre-Dame-de Pitié, Saint-Nicolas et Sainte-Barbe de Rembercourt-aux-Pots (1499-1524).– Don et authentification de reliques en faveur de la paroisse de Rembercourt (1526).– Reconstruction de l’église d’Érize-la-Brûlée (1534).</p>
       </div>
-      <div>
+      <div xml:id="r1074754">
         <head rend="uc">Illustrations</head>
         <p>Plans et photographies des édifices étudiés.</p>
       </div>

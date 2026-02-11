@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1941_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1941_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,26 +55,26 @@
         <forename>Josette</forename>
         <surname>Cléret</surname>
       </byline>
-      <div>
+      <div xml:id="r612854">
         <head rend="uc">Avant-propos</head>
         <p>Ce travail se propose l’étude d’une corporation parisienne encore mal connue, celle des marchands merciers. Seules l’organisation et l’activité commerciale ont été envisagées.</p>
       </div>
-      <div>
+      <div xml:id="r612864">
         <head rend="uc">Étude des sources</head>
         <p>Le fonds de la corporation a disparu ; trois catégories de sources peuvent y suppléer : les textes officiels ; les documents tels que comptes, procès, etc. ; enfin, pour le <num>xvi<hi rend="sup">e</hi></num> siècle, les minutes des notaires qui, malheureusement, ne donnent que des renseignements d’ordre économique et privé.</p>
       </div>
-      <div>
+      <div xml:id="r612880">
         <head rend="uc">Introduction
          <lb/>origines et caractères.</head>
         <p>Un texte de 1137 mentionne des <hi rend="i">venditores mercium ;</hi> on peut voir dans ces marchands, qui paraissent avoir déjà des intérêts collectifs, l’origine de la communauté dont nous parle un document de 1264. Essentiellement revendeurs de tous <pb source="https://nakala.fr/10.34847/nkl.d5fdmhyz#2247b0bf043f4a9fb04449c4159d625c789bc88b" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5fdmhyz/2247b0bf043f4a9fb04449c4159d625c789bc88b/full/full/0/default.jpg"/> objets fabriqués, mais aussi, d’après le <hi rend="i">Livre des métiers </hi>(1268), artisans de la soie, tels se présentent les merciers ; c’est au commerce en grand de la soie, dans lequel ils prennent la suite des Italiens, qu’ils doivent leur essor.</p>
         <p>A partir de la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, double évolution marquée par de nombreux procès : d’une part, la communauté fait interdire aux autres corporations la revente des objets venus de l’extérieur ; par contre-coup, ces dernières lui dénient le droit de fabriquer, auquel elle renonce au <num>xvi<hi rend="sup">e</hi></num> siècle, se réservant celui d’« enjoliver ».</p>
         <p>Désormais, c’est une communauté exclusivement marchande, qui se superpose à tous les autres corps de métiers dont elle écoule les produits.</p>
       </div>
-      <div>
+      <div xml:id="r612923">
         <head rend="uc">Première partie
          <lb/>L’organisation corporative</head>
         <p>Après examen, il nous paraît impossible de décider si la mercerie est un métier réglé ou un métier juré : on notera seulement que le monopole n’apparaît que tardivement, au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
-        <div>
+        <div xml:id="r612940">
           <head rend="uc">Chapitre premier
            <lb/>le cadre corporatif.</head>
           <p>1. <hi rend="i">Apprentissage.</hi> – ■ A la différence des autres métiers, les merciers ont droit à deux apprentis ; recrutement très varié. La plus grande liberté est laissée aux contractants ; ni l’âge – dix à vingt ans – ni l’indemnité d’hébergement versée par la famille, ni le temps – ■ un à six ans – ne semblent obéir à des règles fixes.</p>
@@ -85,14 +83,14 @@
           <p>Il faut assimiler aux valets les « facteurs et serviteurs », que s’attachent les marchands de draps de soie dès le <num>xiv<hi rend="sup">e</hi></num> siècle, à l’exemple des Italiens. Ce sont à la fois de simples commis et les représentants de leurs maîtres à l’extérieur.</p>
           <p>3. <hi rend="i">Maîtres.</hi> – Le métier est exercé par les hommes et les femmes indistinctement. A l’époque du <hi rend="i">Livre des métiers, </hi>l’accès à la maîtrise n’est soumis à aucune condition ; le droit d’entrée n’apparaît qu’en 1470. La corporation n’est animée d’aucun exclusivisme ; la proportion des étrangers reste très forte au <num>xvi<hi rend="sup">e</hi></num> siècle (des deux tiers environ). Courte étude du recrutement. Le nombre des maîtres est fort élevé ; au <num>xvi<hi rend="sup">e</hi></num> siècle, il paraît être de l’ordre d’un millier.</p>
         </div>
-        <div>
+        <div xml:id="r613000">
           <head rend="uc">Chapitre II
            <lb/>Les concurrents.</head>
           <p>1. <hi rend="i">Les forains.</hi> – Ils viennent vendre aux Halles les jours de marché ; en 1408, les merciers leur imposent leur contrôle et leur font interdire la vente au détail dans la ville. La vente en gros elle-même est restreinte au temps des foires en 1567.</p>
           <p>2. <hi rend="i">Les ultramontains.</hi> – Ils sont spécialisés dans le commerce des draps de soie et soumis au denier pour livre ; la vente au détail leur est interdite en 1408, comme aux autres forains. Ceux qui ont reçu des lettres de bourgeoisie font souvent partie de la communauté. A la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, les merciers profitent de leur décadence pour se rendre maîtres du marché de la soie.</p>
           <p>3. <hi rend="i">Les marchands suivant la Cour.</hi> – Parmi les marchands suivant la Cour, qui apparaissent au <num>xv<hi rend="sup">e</hi></num> siècle, les merciers sont nombreux. Echappant à tous les règlements corporatifs, ils font une concurrence redoutable à la communauté, lui enlevant notamment la clientèle royale. Mais, au début du <num>xvii<hi rend="sup">e</hi></num> siècle, celle-ci a réussi à leur imposer son contrôle, et bientôt les soumet à l’apprentissage.</p>
         </div>
-        <div>
+        <div xml:id="r613048">
           <pb source="https://nakala.fr/10.34847/nkl.d5fdmhyz#06cc1017c60b3fbb17795cc9c65a69f0adbb158b" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5fdmhyz/06cc1017c60b3fbb17795cc9c65a69f0adbb158b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le contrôle.</head>
@@ -101,17 +99,17 @@
           <p>Le mandat est obligatoire. D’un an en 1268, il est porté à deux ans en 1408, puis à trois bien avant 1558. L’administration et la représentation du métier et de la confrérie leur incombent. La surveillance des membres du métier, leur tâche principale, paraît s’exercer de façon fort lâche.</p>
           <p>2. <hi rend="i">Le droit de visite.</hi> – Les merciers écoulant des produits de toutes sortes, la plupart des corporations prétendent contrôler leur activité. Ce droit leur est refusé en 1413. Il n’est reconnu qu’aux « métiers de danger », serruriers, apothicaires et surtout orfèvres. Le développement de la fraude rend d’ailleurs ce contrôle indispensable.</p>
         </div>
-        <div>
+        <div xml:id="r613094">
           <head rend="uc">Chapitre IV
            <lb/>La confrérie.</head>
           <p>La question est obscure. A notre avis, il n’y a qu’une seule confrérie, celle de Saint-Louis-aux-Merciers, qui, en 1320, tient sa réunion annuelle aux Quinze-Vingts et, depuis 1406, au Palais. Les cérémonies religieuses ont lieu aux Saints-Innocents dès le <num>xiv<hi rend="sup">e</hi></num> siècle, puis, à partir du début du <num>xvi<hi rend="sup">e</hi></num>, au Saint-Sépulcre ; cette église était déjà le siège du culte du saint Voult de Lucques, cher aux merciers ultramontains.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r613119">
         <pb source="https://nakala.fr/10.34847/nkl.d5fdmhyz#aaae254713e5d43b6e0b63a4c820efe7039c7f50" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5fdmhyz/aaae254713e5d43b6e0b63a4c820efe7039c7f50/full/full/0/default.jpg"/>
         <head rend="uc">Seconde partie
          <lb/>L’activité commerciale</head>
-        <div>
+        <div xml:id="r613132">
           <head rend="uc">Chapitre premier
            <lb/>les lieux de vente.</head>
           <p>1. <hi rend="i">La boutique.</hi> – La vente en boutique est la plus répandue ; elle a lieu dans l’« ouvroir », qui donne sur la rue. Étude brève des règlements concernant les étaux. La « boutique » est, au contraire, la pièce où l’on garde le stock ; il peut y en avoir plusieurs. Description de quelques intérieurs.</p>
@@ -122,7 +120,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.d5fdmhyz#f710c71463b3e249fe7230daa740b10ae5d20a96" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5fdmhyz/f710c71463b3e249fe7230daa740b10ae5d20a96/full/full/0/default.jpg"/>
           <p>Pas de documents sur les foires, que ce soit le Lendit ou les foires de Champagne.</p>
         </div>
-        <div>
+        <div xml:id="r613230">
           <head rend="uc">Chapitre II
            <lb/>Les marchandises.</head>
           <p>L’extrême variété de leurs marchandises oblige les merciers à se spécialiser.</p>
@@ -136,7 +134,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.d5fdmhyz#080f6bc0561981cf97c574fd7bf3d72d82a7a976" n="37" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5fdmhyz/080f6bc0561981cf97c574fd7bf3d72d82a7a976/full/full/0/default.jpg"/>
           <p>VIII. <hi rend="i">La quincaillerie.</hi> – – Les métaux bruts, les armes, les outils, et tous ustensiles de métal se vendent chez les merciers.</p>
         </div>
-        <div>
+        <div xml:id="r613339">
           <head rend="uc">Chapitre III
            <lb/>L’approvisionnement et la vente.</head>
           <p>I. <hi rend="i">L’approvisionnement.</hi> – Deux sources différentes : à Paris, les merciers achètent pour la plus grande part la menue mercerie, ou font achever par des artisans locaux les articles semi-ouvrés venus de l’extérieur ; par contre, ils s’adressent aux pays de production pour les matières les plus importantes, soie, laine et métal, dont les petits détaillants se fournissent chez les grossistes.</p>
@@ -146,14 +144,14 @@
           <p>Les courtiers sont au moyen âge les intermédiaires obligés entre étrangers et marchands d’une ville donnée. Chaque métier possède les siens. L’activité des courtiers de mercerie, réglementée dès 1351, reçoit son statut définitif en 1408.</p>
           <p>IV. <hi rend="i">Grossistes et détaillants.</hi> – – La vente au détail l’emporte de beaucoup, mais elle a laissé peu de traces. La vente en gros : il ne faut pas entendre par là la vente par grandes quantités, mais les transactions passées entre marchands.</p>
         </div>
-        <div>
+        <div xml:id="r613388">
           <pb source="https://nakala.fr/10.34847/nkl.d5fdmhyz#52da0c0ecee7011b563bdb3a297ff1d5d5f0e939" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5fdmhyz/52da0c0ecee7011b563bdb3a297ff1d5d5f0e939/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>La technique commerciale.</head>
           <p>Le capital est souvent fourni par voie d’association : le type le plus répandu est l’association familiale ; la « compagnie » entre étrangers ne se trouve guère que chez les marchands de draps de soie. On fait aussi appel au crédit, dont la pratique est courante, même pour la vente au détail. Les paiements se font soit au comptant, soit le plus souvent à échéance lointaine : le règlement en espèces semble peu usité ; on se libère de ses dettes, soit par transport de cédules – les cédules des particuliers étant sujettes aux mêmes transactions que les cédules commerciales – soit par émission de lettres de change. Examen rapide des procédures d’exécution commerciale. L’usage du crédit détermine de nombreuses faillites, mais le concordat paraît fréquent.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r613406">
         <head rend="uc">Conclusion</head>
         <p>Variété du recrutement, facilité d’accès à la maîtrise, caractère un peu flottant de l’organisation corporative, tous ces traits opposent fortement la « marchandise de mercerie » aux autres corps de métiers parisiens. Ils s’expliquent aisément, si l’on songe qu’elle est essentiellement un corps de négociants. Le commerce, qui est à l’origine de leur fortune, a donné aux merciers parisiens une physionomie des plus originales. Elle ne fera d’ailleurs que s’accentuer avec le temps ; lorsqu’en 1776 on réunit le premier et le troisième des Six-Corps – les drapiers et les merciers – l’évolution est achevée : les merciers concentrent désormais entre leurs mains tout le commerce de la capitale.</p>
       </div>

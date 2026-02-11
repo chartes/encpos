@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <forename>Pierre</forename>
         <surname>Neyrand</surname>
       </byline>
-      <div>
+      <div xml:id="r541988">
         <head rend="uc">Introduction</head>
         <p>Le <num>xiv<hi rend="sup">e</hi></num> siècle est une période de transition entre le régime féodal et le régime de la centralisation monarchique. Cette transition est plus brutale à Lyon à cause de la réunion récente de cette ville à la couronne.</p>
       </div>
@@ -71,7 +69,7 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r542022">
         <head rend="uc">Chapitre préliminaire
          <lb/>Aperçu géographique et historique.
          <lb/>Le traité du 4 avril 1320.</head>
@@ -79,16 +77,16 @@
         <p>Ville ecclésiastique et ville commerçante : les citoyens secouent la domination ecclésiastique grâce à l’intervention du roi de France qui réunit Lyon à la couronne. Par le traité du 10 avril 1312, l’archevêque lui abandonne la juridiction de la ville.</p>
         <p>Le 4 avril 1320, Philippe le Long rend la juridiction du premier degré à l’archevêque, sous réserve de ses droits de souveraineté et de ressort ; il s’attribue de plus la régale d’Autun et le droit pour le bailli de Mâcon, son représentant, de rentrer en armes dans Lyon ; il exige le serment de fidélité et promet sa sauvegarde. L’imprécision de ce traité amènera plus tard bien des conflits.</p>
       </div>
-      <div>
+      <div xml:id="r542053">
         <head rend="uc">Première partie
          <lb/>Le gouvernement de l’archeveque</head>
-        <div>
+        <div xml:id="r542061">
           <head rend="uc">Chapitre premier
            <lb/>le domaine de l’archevêque de Lyon. Les fiefs.</head>
           <p>Le domaine. Limites et seigneuries limitrophes. Possessions propres de l’archevêque et châtellenies archiépiscopales. Le temporel de l’archevêque et celui du Chapitre métropolitain sont séparés.</p>
           <p>Les hommages sont rendus par les seigneurs du Lyonnais et les seigneurs limitrophes. Hommage personnel. Ses modalités. Les transformations qu’il va subir.</p>
         </div>
-        <div>
+        <div xml:id="r542076">
           <pb source="https://nakala.fr/10.34847/nkl.cff0ce9l#5f0f787dbb4716e835b38478f06943405ce508f0" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.cff0ce9l/5f0f787dbb4716e835b38478f06943405ce508f0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le gouvernement temporel
@@ -96,7 +94,7 @@
           <p>I. <hi rend="i">Sede plena.</hi> – Le conseil de l’archevêque : composition et attributions.</p>
           <p>II. <hi rend="i">Sede vacante.</hi> – La régale : l’évêque d’Autun et le Chapitre métropolitain se la disputent.</p>
         </div>
-        <div>
+        <div xml:id="r542106">
           <head rend="uc">Chapitre III
            <lb/>Les officiers de justice.</head>
           <p><hi rend="i">A Lyon.</hi> – Le courrier de Lyon est un chevalier choisi dans les familles nobles de la région ; il reçoit des gages assez considérables pour l’époque. Ses attributions concernent la police et la justice.</p>
@@ -104,7 +102,7 @@
           <p>Le prévôt de Lyon, les sergents de la cour séculière.</p>
           <p><hi rend="i">Hors de Lyon.</hi> – Les châtelains locaux. Le juge et le procureur de la terre et des châteaux du siège archiépiscopal. Le juge des appels de la terre et des châteaux.</p>
         </div>
-        <div>
+        <div xml:id="r542133">
           <head rend="uc">Chapitre IV
            <lb/>L’administration de la justice.</head>
           <p>I. <hi rend="i">La Justice de l’archevêque au <num>xiv<hi rend="sup">e</hi></num> siècle.</hi> – L’offîcialité a des rapports avec la juridiction temporelle. La justice séculière s’exerce, en première instance : 1° A Lyon, sur tous les lieux que ne couvre pas une immunité ; lieux où un traité divise la juridiction. 2° Hors de Lyon : les seigneurs du Lyonnais ont-ils haute justice ? La justice d’appel.</p>
@@ -113,17 +111,17 @@
           <p>La justice d’appel est entre les mains des officiers royaux. Diversité des sièges.</p>
           <p>II. <hi rend="i">La juridiction non contentieuse.</hi></p>
         </div>
-        <div>
+        <div xml:id="r542172">
           <head rend="uc">Chapitre V
            <lb/>La police.</head>
           <p>L’archevêque, par ses ordonnances, s’applique à maintenir l’ordre public, à réglementer l’exercice de la médecine, à contrôler les denrées, les poids et mesures des marchands. Il devrait aussi assurer l’hygiène publique et les travaux de voirie ; mais les citoyens s’en chargent.</p>
         </div>
-        <div>
+        <div xml:id="r542184">
           <head rend="uc">Chapitre VI
            <lb/>Les pouvoirs militaires.</head>
           <p>Le traité de 1320 attribue au roi une grande part dans la défense du Lyonnais. Cependant l’archevêque assure, en cas de guerre, la défense de ses châteaux et convoque le ban. Il aide le roi en envoyant des troupes ou en se rachetant</p>
         </div>
-        <div>
+        <div xml:id="r542196">
           <head rend="uc">Chapitre VII
            <lb/>Les finances.</head>
           <p>Le personnel financier comprend un trésorier général et des receveurs particuliers, celleriers ou chacipolles.</p>
@@ -136,14 +134,14 @@
           <p>Revenus d’ordre ecclésiastique : sceau de la chambre, de l’officialité ; recettes des compositions de la cour des excès du for ecclésiastique ; droits sur les évêques suffragants, le Chapitre de Lyon, certaines églises et abbayes, sur les bénéfices vacants.</p>
           <p>Les dépenses. Les revenus d’ordre ecclésiastique suffisent à peine à combler le déficit de l’administration temporelle de l’archevêque ; les impositions royales et la fiscalité pontificale se font durement sentir.</p>
         </div>
-        <div>
+        <div xml:id="r542253">
           <head rend="uc">Chapitre VIII
            <lb/>La monnaie et les poids et mesures</head>
           <p>I. <hi rend="i">La monnaie.</hi> – La monnaie que l’Eglise de Lyon frappe à son coin durant presque tout le <num>xiv<hi rend="sup">e</hi></num> siècle est concurrencée par la monnaie royale, et son mauvais aloi la déprécie fort. Dès le début de ce siècle, elle n’est plus, semble-t-il, frappée à Lyon mais à Béchevelin et à Riottiers. Le personnel des ateliers : le maître et le garde des monnaies, le tailleur des coins et les ouvriers ; privilèges qui leur sont reconnus par <pb source="https://nakala.fr/10.34847/nkl.cff0ce9l#11b2d94e8de9bdddc44d89cacfd1e504824d3a50" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.cff0ce9l/11b2d94e8de9bdddc44d89cacfd1e504824d3a50/full/full/0/default.jpg"/>l’archevêque et le Chapitre. La frappe comprend de la monnaie de billon et, plus rarement, de la monnaie d’argent.</p>
           <p>II. <hi rend="i">Les poids et mesures.</hi> – L’archevêque en règle la contenance et le poids ; pour ce faire, il les « échantille » à son étalon-type ; il a également le droit de les modifier.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r542288">
         <head rend="uc">Deuxième partie
          <lb/>Histoire
          <lb/>des rapports de l’archeveque de Lyon
@@ -151,7 +149,7 @@
          <lb/>dans son gouvernement temporel
          <lb/>(1320-1400).</head>
         <p>Caractère du traité du 4 avril 1320 et conflits qui devaient s’ensuivre. Ces différends seront généralement vidés en justice : rôle important joué par le procureur général de l’archevêque, les procureurs et les avocats pensionnaires.</p>
-        <div>
+        <div xml:id="r542307">
           <head rend="uc">Chapitre premier
            <lb/>la période préparatoire : 1320-1365.</head>
           <p>I. Le roi assied définitivement son pouvoir à Lyon : Le bailli de Mâcon est le gouverneur de la région et le représentant naturel du roi. Le « gardiateur », le plus ancien officier royal établi à Lyon d’une façon permanente, chargé au début de défendre simplement les privilèges menacés des citoyens, devient juge des cas royaux. Le juge du ressort et les différends à propos de l’emplacement de son tribunal. La <pb source="https://nakala.fr/10.34847/nkl.cff0ce9l#3d4f7a2c681da1678f72f271132cb7154ecb061d" n="115" facs="https://api.nakala.fr/iiif/10.34847/nkl.cff0ce9l/3d4f7a2c681da1678f72f271132cb7154ecb061d/full/full/0/default.jpg"/>maison royale de Roanne. Autres officiers, royaux dans les limites de la baronnie de l’Eglise.</p>
@@ -159,7 +157,7 @@
           <p>II. Les lettres de septembre 1341, obtenues grâce à l’autorité de l’archevêque Gui de Boulogne, n’ont pas de lendemain.</p>
           <p>III. La guerre et les Tard-Venus apaisent tous conflits de juridiction ; l’archevêque contribue largement aux impositions royales : changements dans l’administration royale : A Lyon, le capitaine et le lieutenant du bailli de Mâcon remplacent le gardiateur.</p>
         </div>
-        <div>
+        <div xml:id="r542333">
           <head rend="uc">Chapitre II
            <lb/>Charles d’Alençon
            <lb/>(1365-1375).</head>
@@ -170,20 +168,20 @@
           <p>Affaire des monnaies : pour donner du travail à son atelier monétaire réduit au chômage par le discrédit de sa monnaie, l’archevêque recourt à la contrefaçon ; opposition du roi et du Chapitre.</p>
           <p>Ce dernier obtient contre Charles d’Alençon l’arrêt du Parlement du 10 juin 1374 qui assure le payement des 500 livres dues annuellement par l’archevêque en compensation de la juridiction.</p>
         </div>
-        <div>
+        <div xml:id="r542367">
           <head rend="uc">Chapitre III
            <lb/>Jean de Talaru
            <lb/>(1375-1389).</head>
           <p>Il joue un rôle pacificateur : transaction du 17 octobre 1375 avec le Chapitre. Avec le pouvoir royal, la présence à Lyon d’Oudard d’Atainville, bailli de Mâcon, ravive les conflits ; divers procès en Parlement permettent à l’archevêque de se faire reconnaître certains droits. L’affaire du transfert de la justice d’appel de l’Ile-Barbe à Mâcon est passagère. Jean de Talaru obtient de Clément VII le chapeau de cardinal et résigne alors ses fonctions.</p>
         </div>
-        <div>
+        <div xml:id="r542381">
           <head rend="uc">Chapitre IV
            <lb/>Philippe de Thurey.</head>
           <p>Philippe est providé par le pape : sa connaissance de la cour et son activité, la folie du roi lui permettant d’obtenir l’arrêt du 3 avril 1393 ; les officiers royaux sont destitués, le procureur du roi à Lyon en appelle de l’exécution du commissaire du Parlement, et les deux arrêts du 30 août 1393 et du 5 octobre <pb source="https://nakala.fr/10.34847/nkl.cff0ce9l#4a51cb8402e074f0843deccef2c2a2767dd21483" n="117" facs="https://api.nakala.fr/iiif/10.34847/nkl.cff0ce9l/4a51cb8402e074f0843deccef2c2a2767dd21483/full/full/0/default.jpg"/>1394 ramènent le pouvoir royal à Lyon et en Lyonnais. Cette aventure rend les citoyens de plus en plus hostiles au pouvoir temporel de l’archevêque.</p>
           <p>Diverses autres questions sont résolues à cette époque, provisoirement ou définitivement : monnaies, poids et mesures, péages et couponage, banvin d’août.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r542402">
         <head rend="uc">Conclusion</head>
         <p>Les droits temporels laissés à l’archevêque sont en fait très contestés et destinés à disparaître sous peu.</p>
       </div>

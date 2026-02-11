@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1941_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1941_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,7 +63,7 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r613612">
         <head rend="uc">Introduction</head>
         <p>I. GÉNÉALOGIE ET CHRONOLOGIE DES COMTES D’ANGOULÊME.</p>
         <p>II. HISTOIRE POLITIQUE DU COMTÉ.</p>
@@ -79,7 +77,7 @@
         <p>Ils avaient dans leur mouvance les châtellenies de La Rochefoucauld, Blanzac, Montbron, Montmoreau, en Angoumois ; Montausier, qui, au <num>xi<hi rend="sup">e</hi></num> et au début du <num>xii<hi rend="sup">e</hi></num> siècle, fut du domaine comtal, Montendre et Aubeterre, en Saintonge ; La Tour-Blanche, en Périgord ; Chabanais et Confolens, en Limousin ; Ruffec et Verteuil, en Poitou.</p>
         <p>Ils tenaient en fief de l’évêque d’Angoulême celle de Montignac et le <hi rend="i">fief vicomtal,</hi> de l’abbé de Saint-Cybard celle de Jarnac. Quatre châtellenies angoumoisines relevaient de l’évêque d’Angoulême : Marcillac, qui, jusqu’au début du <num>xii<hi rend="sup">e</hi></num> siècle, appartint aux comtes, Marthon, Cellefrouin et La Rochandry.</p>
       </div>
-      <div>
+      <div xml:id="r613719">
         <head rend="uc">Chapitre premier
          <lb/>l’organisation administrative.</head>
         <p>I. ORGANISATION CENTRALE. – <hi rend="i">Les vicomtes de Marcillac. </hi>– Entre 866 et 879, Bougrin I<hi rend="sup">er</hi> établit un vicomte pour le seconder dans la lutte contre les Normands. La succession héréditaire ne tarda pas à s’établir dans sa famille, mais, en 1024, ses descendants furent dépossédés de leur titre et de leurs biens par Guillaume IV.</p>
@@ -97,7 +95,7 @@
         <p><hi rend="i">Les forestiers.</hi> – Au <num>xi<hi rend="sup">e</hi></num> siècle, les forestiers ont déjà transformé leur office en fief et leurs droits constituent un démembrement de la propriété. Au <num>xiii<hi rend="sup">e</hi></num> siècle, par suite de la dévolution héréditaire, ils se sont multipliés et leurs fonctions passent en partie aux mains des prévôts.</p>
         <p><hi rend="i">Agents divers.</hi> – <hi rend="i">Vicarii</hi> et vigiers. Péagers.</p>
       </div>
-      <div>
+      <div xml:id="r613868">
         <head rend="uc">Chapitre II
          <lb/>La justice.</head>
         <p>I. LES DEGRÉS DE LA JUSTICE. – La catégorie des quatre forfaits, qui apparaît au début du <num>xii<hi rend="sup">e</hi></num> siècle, relèvera au <num>xiii<hi rend="sup">e</hi></num> de la haute justice. Basse et moyenne justice.</p>
@@ -114,11 +112,11 @@
         <p>VII. LE COMTE ET LA JUSTICE ROYALE. – Très souvent le comte est cité à comparaître devant la justice royale. Les motifs ne manquent pas : causes où une des parties est sous la sauvegarde royale (officiers royaux, abbayes), cas de nouvelle dessaisine, délit de port d’armes, affaires concernant les foires et marchés, etc...</p>
         <p>VIII. LES INTERVENTIONS DES AGENTS ROYAUX DANS LE COMTÉ. – Ces interventions sont fréquentes. Le comte est soumis aux interrogatoires des enquêteurs royaux. Les sénéchaux de Périgord et de Saintonge ont un représentant permanent dans le comté.</p>
       </div>
-      <div>
+      <div xml:id="r613988">
         <pb source="https://nakala.fr/10.34847/nkl.ae0cjate#c34256ebfef0a13f92e15e6c850c3ebe6340c70e" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae0cjate/c34256ebfef0a13f92e15e6c850c3ebe6340c70e/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre III
          <lb/>Les finances.</head>
-        <div>
+        <div xml:id="r614001">
           <head rend="uc">A. Les recettes.</head>
           <p>I. REVENUS SEIGNEURIAUX. – <hi rend="i">Les impôts directs.</hi> – Certains impôts sont levés en argent, comme la taille, qui, à la fin du <num>xii<hi rend="sup">e</hi></num> siècle, existe sous ses deux formes de taille arbitraire et de taille abonnée. Taille aux quatre cas (mariage de la fille aînée, adoubement du fils aîné, rançon, croisade).</p>
           <p>D’autres sont levés en nature : métive, avenage, vinée, droit sur la vendange, frétenage, droits sur les poules, le fromage, la paille, le foin, la cire.</p>
@@ -140,7 +138,7 @@
           <p>III. REVENUS FÉODAUX. – Le comte perçoit des droits de mutation : l’acapt n’a souvent qu’une valeur symbolique. Au <num>xii<hi rend="sup">e</hi></num> siècle, le comte réclame des droits très élevés (1,000 sous). Droit de ventes et honneurs payés par l’acquéreur. Aide aux quatre cas.</p>
           <p>IV. RECETTES EXTRAORDINAIRES. – Pensions versées au comte <pb source="https://nakala.fr/10.34847/nkl.ae0cjate#b72131f3d5802aa06e411f89e3fb0fbeb4575ec8" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae0cjate/b72131f3d5802aa06e411f89e3fb0fbeb4575ec8/full/full/0/default.jpg"/> par les rois de France et d’Angleterre dans une intention politique. Engagement du domaine comtal.</p>
         </div>
-        <div>
+        <div xml:id="r614147">
           <head rend="uc">B. Les dépenses.</head>
           <p>I. DÉPENSES ORDINAIRES. – <hi rend="i">Fiefs et aumônes.</hi> – Rentes annuelles données en fief héréditaire ou en perpétuelle aumône.</p>
           <p><hi rend="i">Gages.</hi> – Les agents comtaux lèvent à leur profit une part des revenus comtaux.</p>
@@ -150,7 +148,7 @@
           <p>III. DÉPENSES EXTRAORDINAIRES. – Dépenses militaires (solde des mercenaires, rançons, etc...). Amendes infligées par les tribunaux royaux. Apanages et legs à la famille comtale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r614186">
         <head rend="uc">Chapitre IV
          <lb/>L’armée.</head>
         <p>I. LES GUERRES DES COMTES. – Jusqu’en 1242, l’état de guerre est presque permanent. Les campagnes se bornent le plus souvent à des pillages et à des sièges de châteaux. Le choc de deux armées est rare. A la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, l’autorité royale réprime sévèrement les guerres privées des comtes.</p>
@@ -159,7 +157,7 @@
         <p>IV. LES CHÂTEAUX. – Importance stratégique des châteaux. Le vassal doit demander au comte l’autorisation d’élever une forteresse et celui-ci peut s’y réserver un droit de visite. De nombreux châteaux étaient rendables au comte ou à son sénéchal.</p>
         <p>V. L’ARMÉE DU COMTE AU SERVICE DU ROI DE FRANCE. – A partir de 1242, le rôle militaire du comte se borne à conduire ses vassaux à l’ost royal.</p>
       </div>
-      <div>
+      <div xml:id="r614233">
         <head rend="uc">Appendice
          <lb/>du style usité en Angoumois au moyen Age.</head>
         <p>Dans la première moitié du <num>xii<hi rend="sup">e</hi></num> siècle, l’année commence au 1<hi rend="sup">er</hi> mars. Au <num>xiii<hi rend="sup">e</hi></num> siècle, on peut hésiter entre le style du 1<hi rend="sup">er</hi> mars et celui de l’Annonciation, qui sera employé à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,26 +56,26 @@
         <surname>Jurbert</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1003688">
         <head rend="uc">Sources</head>
         <p>Nous avons essentiellement consulté, aux Archives départementales du Morbihan, les registres paroissiaux, les rôles d’impositions, les minutes notariales, les papiers seigneuriaux et surtout le fonds privé de Kerguéhennec, ainsi que le fonds de l’intendance (série C) des Archives d’Ille-et-Vilaine. Les dépôts parisiens (Archives nationales et Bibliothèque nationale) complètent les sources précédentes.</p>
       </div>
-      <div>
+      <div xml:id="r1003698">
         <head rend="uc">Introduction</head>
         <p>La région de Bignan, isolée au centre du Vannetais constitue une petite unité géographique, économique, féodale et humaine. L’étude de ces populations exclusivement rurales, sous l’angle démographique, économique et social, nous permet de pénétrer plus avant dans le monde et la vie d’Ancien Régime en basse Bretagne et de préciser la part des novations et de l’immobilisme sur une période relativement homogène. Les particularités de l’évolution de Bignan expliquent en grande partie les attitudes ultérieures lors de la Révolution où la région tout entière bascule dans la chouannerie.</p>
       </div>
-      <div>
+      <div xml:id="r1003708">
         <pb source="https://nakala.fr/10.34847/nkl.498e216v#82d65c9b66479f0288de1403f607975750e27237" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.498e216v/82d65c9b66479f0288de1403f607975750e27237/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les hommes</head>
         <p>L’enquête démographique repose sur le dépouillement des registres paroissiaux de Bignan – qui compte à lui seul près de 3 000 habitants – de 1669 à 1790 et sur des sondages effectués dans des paroisses voisines. L’étude précise de la nuptialité, de la fécondité et de la mortalité a été réalisée, selon la méthode Fleury et Henry de reconstitution des familles, sur un échantillon d’une centaine de cas.</p>
-        <div>
+        <div xml:id="r1003724">
           <head rend="uc">Chapitre premier
            <lb/>approche quantitative de la population</head>
           <p>Il est difficile d’évaluer les effectifs de la population, du fait de l’absence ou de la mauvaise qualité des dénombrements. Près de 9 000 habitants pour l’ensemble de la région, et sans doute davantage, à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, un peu plus de 10 000 un siècle plus tard, vivent dispersés sur un espace de 22 600 hectares, soit une densité de l’ordre de 45 habitants au kilomètre carré ; étant donné la part réduite des surfaces cultivées, il s’agit là d’un surpeuplement relatif.</p>
           <p>Le mouvement de la population se solderait par un gain de 10 à 15 % : c’est le taux d’accroissement que connaît la Bretagne. Mais l’évolution n’est pas linéaire ; les courbes des registres paroissiaux reflètent une succession de trois périodes : stagnation et chute de la population jusqu’à la fin du règne de Louis XIV, vigoureux essor ensuite, cassé par les crises de la fin du <num>xviii<hi rend="sup">e</hi></num> siècle qui entraînent une retombée du peuplement. Les « clochers » de mortalité surgissent fréquemment mais toutes les décennies présentent un solde excédentaire des naissances sur les décès.</p>
         </div>
-        <div>
+        <div xml:id="r1003751">
           <head rend="uc">Chapitre II
            <lb/>Les rythmes saisonniers</head>
           <p>Les mariages se concentrent dans les deux premiers mois de l’année (68 %), en février surtout, où se célèbrent la moitié des unions avant le temps clos du carême ; la tendance à la concentration se renforce au cours du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
@@ -85,13 +83,13 @@
           <p>Les conceptions connaissent une forte poussée au début du printemps et décroissent ensuite jusqu’à la dépression hivernale ; une certaine abstinence conjugale de carême disparaît au cours du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Les décès obéissent à des rythmes variables ; la mortalité infantile épouse étroitement le mouvement des naissances ; à tous les autres âges, à l’âge adulte surtout, c’est en hiver que les décès, suite logique des grippes et des refroidissements, sont les plus nombreux ; une petite pointe de mortalité se manifeste aussi au début de l’automne.</p>
         </div>
-        <div>
+        <div xml:id="r1003786">
           <head rend="uc">Chapitre III
            <lb/>La nuptialité</head>
           <p>Le taux de nuptialité s’établit à 16,2 ‰ à Bignan en 1790, à 13,6 ‰ dans les paroisses voisines à la décennie précédente. Le célibat définitif, peu important en milieu rural (8 à 10 % des individus), est plus fréquent chez les notables. L’âge moyen au mariage est de 22,3 ans pour les filles et de 23,7 ans pour les garçons : 88 % des mariages ont lieu entre célibataires. Les remariages, les remariages féminins surtout, sont dans l’ensemble le fait de personnes jeunes ; ils interviennent rapidement après la mort du conjoint : la durée moyenne du veuvage masculin est de 1,4 an.</p>
           <p>La recherche du conjoint s’effectue dans un cercle étroit : dans 70 à 80 % des cas, les deux époux sont de la même paroisse ; une brève ouverture se fait jour au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle, mais elle se limite aux paroisses immédiatement voisines et, en fin de siècle, les communautés se replient à nouveau sur elles-mêmes. Conséquence logique : le nombre des mariages entre parents double ; il s’agit surtout d’un cousinage éloigné qui ne touche que 3 % des unions. Les notables, imités par une partie de la population rurale, se font dispenser des bans.</p>
         </div>
-        <div>
+        <div xml:id="r1003807">
           <head rend="uc">Chapitre IV
            <lb/>Natalité et fécondité</head>
           <p><hi rend="i">Mesure de la natalité.</hi> – Le taux de la natalité est élevé : 42,05 ‰ à Bignan en 1790, 41,2 ‰ dans la région dix ans auparavant.</p>
@@ -103,14 +101,14 @@
           <p>Le nombre moyen d’enfants par famille complète s’élève à 8,7 ; il est de 5,7 dans les familles incomplètes ; le bilan pour l’ensemble de la population est de 7,7 enfants par famille.</p>
           <p><hi rend="i">La fécondité.</hi> – La fécondité est calculée sur un échantillon de femmes mariées dont l’âge nous est connu avec précision. Si l’on excepte l’infertilité relative des jeunes adolescentes, la fécondité décroît progressivement : le nombre moyen d’enfants mis au monde par une femme en l’espace de cinq ans passe de 2,23 à 20 ans à 0,95 à 40 ans. Les taux de fécondité se classent à un niveau élevé : ils atteignent respectivement 269, 468, 416, 387, 346, 184 et 0 ‰ dans les tranches d’âge 15-19 ans, 20-24 ans, 25-29 ans, 30-34 ans, 35-39 ans, 40-44 ans et 45-49 ans. L’indice final de descendance d’une femme mariée entre 20 et 24 ans est de 8,7 enfants.</p>
         </div>
-        <div>
+        <div xml:id="r1003851">
           <head rend="uc">Chapitre V
            <lb/>La mortalité</head>
           <p>Le taux de mortalité, élevé lui aussi, est de 36,7 ‰ à Bignan en 1790, de 40,3 ‰ dans les autres paroisses aux environs de 1770-1780. L’âge moyen au décès, très proche de l’espérance de vie, oscille autour de 25 ans ; c’est que la mort frappe surtout les classes d’âge jeunes. La mortalité infantile et juvénile a été calculée d’après le destin des 6 518 enfants nés à Bignan de 1737 à 1789. La mortalité infantile est très forte et les décès se concentrent au cours du premier mois : les taux de mortalité néonatale et infantile s’établissent respectivement à 131,2 et 249,5 ‰ ; le procédé Bourgeois-Pichat permet d’en déterminer les composantes endogène (94 ‰) et exogène (155 ‰) ; l’alignement des deux courbes qui ne se produit qu’entre le quatrième et le cinquième mois et la pente plus faible du second segment sont l’indice d’une surmortalité exogène, d’une mauvaise condition sanitaire des bébés qui s’accentue au cours du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
           <p>La mortalité ne se relâche guère par la suite comme le montre la table de mortalité (quotients de mortalité et taux de survie) : 50 % seulement des enfants atteignent leur vingtième année ; la ponction de la mort s’accroît même régulièrement.</p>
           <p>Passé vingt ans, la mort relâche son étreinte ; les survivants ont une espérance moyenne de vie d’encore 35 à 40 ans. Une forte dichotomie se manifeste <pb source="https://nakala.fr/10.34847/nkl.498e216v#ad0011525f606fdcd20b32a0189fb08c0c6d104e" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.498e216v/ad0011525f606fdcd20b32a0189fb08c0c6d104e/full/full/0/default.jpg"/>entre les deux sexes. La femme bénéficie, à la naissance, d’une espérance de vie plus longue, mais alors que dans l’enfance et l’adolescence les décès masculins l’emportent toujours sur les décès féminins, une forte surmortalité frappe les femmes de 30 à 40 ans, indice de la conclusion tragique de nombre d’accouchements.</p>
         </div>
-        <div>
+        <div xml:id="r1003880">
           <head rend="uc">Chapitre VI
            <lb/>Les fondements biologiques de la population</head>
           <p>Le type physique du paysan breton n’est guère flatteur : petits et chétifs, les hommes souffrent d’infirmités et de déficiences diverses ; prématurément usés, ils vieillissent vite.</p>
@@ -119,10 +117,10 @@
           <p>L’encadrement médical est inexistant. Hôtel-Dieu et hôpitaux, fondations urbaines, ne reçoivent que les pauvres ; quelques familles nobles s’assurent le service d’un chirurgien, mais les campagnes ne voient de chirurgiens que lors des épidémies dans les paroisses les plus touchées ; les matrones de village sont plus dangereuses qu’efficaces ; devant la maladie et la mort les paysans sont réduits à eux-mêmes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1003902">
         <head rend="uc">Deuxième partie
          <lb/>L’économie</head>
-        <div>
+        <div xml:id="r1003910">
           <head rend="uc">Chapitre premier
            <lb/>la propriété</head>
           <p>La seigneurie constitue en Bretagne la seule véritable propriété ; toutes les terres s’y rattachent directement ou indirectement.</p>
@@ -131,7 +129,7 @@
           <p>La noblesse reste en possession des seigneuries ; la bourgeoisie en est exclue ; la propriété religieuse se réduit à peu de choses : une petite seigneurie, l’exploitation agricole d’un prieuré et surtout les petits lopins de terre attachés aux diverses chapellenies.</p>
           <p>Le contraste est grand entre les gros domaines seigneuriaux et les petites parcelles que détiennent les paysans ou les notables locaux ; la surface moyenne d’une parcelle paysanne est de 8 hectares. Un paysan sur deux est totalement dépourvu de terre et l’absence de droits collectifs (vaine pâture ou usage dans les forêts) aggrave la condition des prolétaires ruraux. Les afféagements restent très limités.</p>
         </div>
-        <div>
+        <div xml:id="r1003942">
           <head rend="uc">Chapitre II
            <lb/>Propriété et faire valoir</head>
           <p><hi rend="i">Le domaine.</hi> – Les propriétaires fonciers gèrent eux-mêmes leurs terres ; seules les très grosses seigneuries sont affermées, mais le propriétaire n’abandonne jamais un certain nombre de droits et continue de s’intéresser à la bonne gestion de ses terres. La personnalité sociale du fermier s’étoffe peu à peu. Les métairies, grosses exploitations agricoles, sont affermées ; une profonde mutation s’accomplit au cours du <num>xviii<hi rend="sup">e</hi></num> siècle : le passage généralisé du métayage au fermage ; la durée des baux s’allonge et les métayers ont tendance à constituer des dynasties héréditaires. Les clauses des baux sont détaillées, mais les propriétaires ne se préoccupent pas d’innovations agricoles.</p>
@@ -139,7 +137,7 @@
           <p>Les forêts, ornement de la seigneurie et source de substantiels bénéfices font l’objet de soins jaloux ; elles sont exploitées au maximum et donnent parfois naissance à de petites industries.</p>
           <p><hi rend="i">Les terres.</hi> – Les parcelles de terres détenues par les paysans le sont en majorité à titre de domaine congéable ; l’usement de Rohan domine dans la région de Bignan, mais quelques terres suivent celui de Broerec. Du fait de la relative douceur de l’administration seigneuriale, elles constituent autant de petites propriétés inachevées aux mains des paysans qui s’y succèdent de père en fils et qui jouissent d’une totale liberté dans leur mise en valeur. Le domaine congéable tend à s’aligner sur les héritages, bien plus rares, mais pratiquement dégagés de toute autorité seigneuriale.</p>
         </div>
-        <div>
+        <div xml:id="r1003975">
           <pb source="https://nakala.fr/10.34847/nkl.498e216v#b51947706aa738b7419621a8d5d050db4a403707" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.498e216v/b51947706aa738b7419621a8d5d050db4a403707/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le paysage agraire. Culture et élevage</head>
@@ -150,7 +148,7 @@
           <p>L’élevage répond à une double nécessité : assurer un complément indispensable à l’agriculture, assurer la survie des plus démunis. Prisonnier des structures agraires, l’élevage – essentiellement bovin – n’est pas très florissant : chétif, le bétail a une maigre valeur.</p>
           <p>Aucune amélioration, aucune innovation n’apparaissent au <num>xviii<hi rend="sup">e</hi></num> siècle ; les résultats des défrichements sont dérisoires et les techniques comme les catégories de plantes cultivées restent inchangées.</p>
         </div>
-        <div>
+        <div xml:id="r1004019">
           <head rend="uc">Chapitre IV
            <lb/>Circulation et échanges</head>
           <p>L’autoconsommation subvient aux besoins immédiats : alimentation, vêtement et chauffage sont produits sur place, et le paysan se fait souvent artisan pour confectionner son outillage.</p>
@@ -158,7 +156,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.498e216v#1a73d58cfbbb949dd3a278a48eec6b4131b0c985" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.498e216v/1a73d58cfbbb949dd3a278a48eec6b4131b0c985/full/full/0/default.jpg"/>
           <p>Le numéraire est rare dans les fortunes privées ; seuls les fermiers et les gros tenanciers disposent d’avances monétaires. Le paysan est soucieux de limiter les débours en argent ; bien souvent règne un invraisemblable endettement mutuel que l’on apure de temps à autre, à l’occasion d’un décès.</p>
         </div>
-        <div>
+        <div xml:id="r1004042">
           <head rend="uc">Chapitre V
            <lb/>Revenus et fiscalités</head>
           <p><hi rend="i">Le capital.</hi> – Le capital foncier, seigneurie et parcelles paysannes, voit sa valeur augmenter considérablement : le prix de la terre double, triple même parfois dans la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle. Les céréales, froment et seigle surtout, connaissent sur les marchés de Vannes et de Pontivy, et malgré les hésitations liées à la conjoncture, une vigoureuse hausse de leurs prix, qui se précipite à la veille de la Révolution. La valeur du bétail augmente aussi fortement.</p>
@@ -168,11 +166,11 @@
           <p>Le bilan fiscal du monde rural est assez optimiste : le paysan conserve les 2/3, voire même les 4/5 de sa production. La conjonction d’une fiscalité peu importante avec la hausse des prix crée en définitive une petite aristocratie rurale de fermiers et de domaniers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1004082">
         <pb source="https://nakala.fr/10.34847/nkl.498e216v#ab3de28f65c29d8c1b5f76090a68befb2db5686f" n="131" facs="https://api.nakala.fr/iiif/10.34847/nkl.498e216v/ab3de28f65c29d8c1b5f76090a68befb2db5686f/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>La société</head>
-        <div>
+        <div xml:id="r1004095">
           <head rend="uc">Chapitre premier
            <lb/>les cadres sociaux</head>
           <p>La société rurale s’organise en des cadres précis.</p>
@@ -180,7 +178,7 @@
           <p>La représentation juridique et politique des paroisses est assurée par un groupe restreint, le général, dominé par les personnalités du recteur, du procureur fiscal et des paysans les plus aisés.</p>
           <p>Les autres cadres sociaux ne favorisent guère l’éclosion d’un sentiment et d’une solidarité durables. Unité de production pour le propriétaire, la seigneurie n’est qu’un ensemble factice pour le paysan. Groupe restreint, le groupe familial, menacé par les ruptures d’unions et les remariages, est très instable.</p>
         </div>
-        <div>
+        <div xml:id="r1004116">
           <head rend="uc">Chapitre II
            <lb/>Groupes et relations sociales</head>
           <p>Le clergé paroissial se compose du recteur, d’un vicaire et d’un nombre variable de prêtres habitués. S’il dispose de la dîme, le recteur jouit d’une véritable aisance ; le congruiste et les autres prêtres ont un sort bien moins enviable. Instruit et conscient de ses devoirs, le clergé ne tranche pourtant guère par son genre de vie du monde rural dont il est issu. Plumelec renferme un petit prieuré de bénédictines.</p>
@@ -189,7 +187,7 @@
           <p>Le monde rural connaît une grande médiocrité d’ensemble, comme le révèle l’extrême concentration vers le bas des cotes d’impositions : en 1733, 75 % des capités ne paient pas plus de 3 livres ; 20 % environ versent entre 4 et 5 livres, et la plus forte capitation est de 18 livres. La société rurale s’organise selon une véritable hiérarchie sociale et économique. Les notables, notaires et officiers de justice surtout, forment une petite caste repliée sur elle-même et fort entreprenante ; les notaires, besogneux, n’ont pas l’importance des autres notables. Une élite rurale de fermiers et de gros tenanciers domine le menu peuple des campagnes, petits paysans, artisans ruraux, journaliers enfin à la situation très précaire et qui risquent de tomber dans la mendicité. La société rurale a enfin ses exclus : descendants de lépreux et artisans des forêts.</p>
           <p>Les relations sociales s’organisent en un double mouvement de solidarités et de tensions entre les différents groupes et à l’intérieur de chacun d’entre eux.</p>
         </div>
-        <div>
+        <div xml:id="r1004148">
           <head rend="uc">Chapitre III
            <lb/>Les justices seigneuriales</head>
           <p>Les justices seigneuriales, réduites du fait de la concentration des propriétés, restent nombreuses. Il s’agit essentiellement de hautes justices.</p>
@@ -198,7 +196,7 @@
           <p>Les nobles recourent aux justices pour sanctionner leurs droits de propriété ; mais l’immense majorité des procès oppose des paysans pour des questions foncières ou des règlements monétaires.</p>
           <p>Les justices jouent enfin un rôle important en matière de juridiction gracieuse.</p>
         </div>
-        <div>
+        <div xml:id="r1004172">
           <head rend="uc">Chapitre IV
            <lb/>Culture, mentalité et religion</head>
           <p>Dépourvu d’école, le monde rural est analphabète dans sa quasi-totalité ; l’instruction se borne au catéchisme et à quelques notions de morale ; seuls les notables et les paysans aisés peuvent envoyer leurs fils au collège de Vannes. Les quelques progrès enregistrés dans l’instruction sont sérieusement entamés par les crises de la fin du <num>xviii<hi rend="sup">e</hi></num> siècle ; à la veille de la Révolution, 6 % des hommes, 1,5 % des femmes signent leur acte de mariage.</p>
@@ -207,12 +205,12 @@
           <p>La religion est la seule forme de culture populaire. Le sentiment religieux, entaché de croyances et de pratiques superstitieuses, est très vif ; la présence de tiers ordres témoigne en faveur d’une spiritualité élevée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1004202">
         <head rend="uc">Conclusion</head>
         <p>La région de Bignan connaît, comme toute la Bretagne intérieure, une immobilité à tous les niveaux : démographique, économique et social.</p>
         <p>Son originalité tient à la faiblesse relative de la fiscalité (qui ne dresse pas le paysan contre le clergé, une noblesse absentéiste ou la monarchie) et à son corollaire, la constitution d’une élite rurale, consciente d’elle-même ; elle détermine largement le futur. En heurtant les populations rurales dans leur attachement pour le clergé, en prétendant réglementer la vie économique et enrôler à l’armée les jeunes paysans, le nouveau régime provoque l’insurrection.</p>
       </div>
-      <div>
+      <div xml:id="r1004215">
         <head rend="uc">Pièces justificatives</head>
         <p>Les cartes, graphiques et illustrations sont répartis entre les chapitres auxquels ils se rapportent.</p>
         <pb source="https://nakala.fr/10.34847/nkl.498e216v#9804a39682da5cefaf383e0263dd48c776a74a56" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.498e216v/9804a39682da5cefaf383e0263dd48c776a74a56/full/full/0/default.jpg"/>

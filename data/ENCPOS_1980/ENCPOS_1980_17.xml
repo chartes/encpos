@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,7 +54,7 @@
         <forename>Philippe-Georges</forename>
         <surname>Richard</surname>
       </byline>
-      <div>
+      <div xml:id="r1064888">
         <head rend="uc">Sources</head>
         <p>Le bas Quercy relevant autrefois, en majeure partie, du diocèse de Cahors, notre recherche a souffert de la quasi-inexistence de la série G des Archives départementales du Lot, par suite de la disparition des archives épiscopales à l’aube du <num>xix<hi rend="sup">e</hi></num> siècle. La série G des Archives départementales du Tarn-et-Garonne a partiellement pallié cette déficience, mais on n’y a guère trouvé que des documents relatifs aux grands monuments, telles l’abbatiale de Moissac, la collégiale de Montpezat, ou l’église Saint-Jacques de Montauban.</p>
         <p>L’étude des anciens cadastres (série III E des Archives départementales du Tarn-et-Garonne) a livré quelques rares indications intéressantes. En revanche, les recherches entreprises dans le registre des notaires (série VE) ont été plus fructueuses, et ont fourni baux à tâche, fondations de chapelles, legs et donations. Ont été principalement utilisés les registres des notaires de Caylus, Lauzerte, Moissac, Molières, Montauban et Montpezat-de-Quercy, dans la période comprise entre 1450 et 1550. Les renseignements tirés de cette série sont malheureusement clairsemés, excepté pour l’église de Caylus dont nous avons presque tous les détails de la reconstruction.</p>
@@ -66,30 +64,30 @@
         <p>Les Archives des monuments historiques (rue de Valois) ont été également consultées.</p>
         <p>Les sources imprimées ou manuscrites conservées aux Archives départementales du Tarn-et-Garonne et à la Bibliothèque nationale ont fourni d’intéressantes indications de recherche, ainsi que le Département des cartes et plans de la Bibliothèque nationale.</p>
       </div>
-      <div>
+      <div xml:id="r1064932">
         <pb source="https://nakala.fr/10.34847/nkl.e05ac0h5#4d15227943bf251ed484b2a7a7ee686a4f91c525" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.e05ac0h5/4d15227943bf251ed484b2a7a7ee686a4f91c525/full/full/0/default.jpg"/>
         <head rend="uc">Introduction</head>
         <p><hi rend="i">Cadre géographique.</hi> – Si le Quercy est assez précisément délimité, le bas Quercy ne correspond à aucune circonscription religieuse ou administrative médiévale. Cependant on peut facilement l’identifier au versant sud des plateaux du Causse quercynois. Ainsi la limite entre les actuels départements du Lot et du Tarn-et-Garonne concrétise-t-elle bien la séparation entre haut et bas Quercy. La région qui va servir de cadre à notre étude est donc le Quercy tarn-et-garonnais.</p>
         <p><hi rend="i">Rappel historique.</hi> – Le Quercy, proche de l’Aquitaine, a toujours figuré sinon au premier plan du conflit franco-anglais, du moins au nombre des enjeux territoriaux les plus disputés. Aussi, à la fin de la guerre de Cent ans, le bas Quercy était-il exsangue et les paroisses urbaines et rurales très dépeuplées. La reconstruction des églises a été à la mesure des ravages et des destructions.</p>
         <p><hi rend="i">Données numériques.</hi> – On peut malaisément évaluer avec exactitude le nombre d’églises reconstruites à la fin du <num>xv<hi rend="sup">e</hi></num> siècle et au début du <num>xvi<hi rend="sup">e</hi></num> siècle. Sur 226 églises debout actuellement, 104 portent les traces plus ou moins importantes de travaux exécutés à la fin de la guerre de Cent ans. Mais cette proportion de 46 % est faible, ne rendant pas compte des destructions et des reconstructions des siècles suivants. Aussi pouvons-nous considérer qu’au moins 50 % des églises du bas Quercy furent relevées au lendemain de la guerre de Cent ans.</p>
       </div>
-      <div>
+      <div xml:id="r1064974">
         <head rend="uc">Première partie
          <lb/>Étude historique</head>
-        <div>
+        <div xml:id="r1064982">
           <head rend="uc">Chapitre premier
            <lb/>la reconstruction dans le temps</head>
           <p>Des circonstances favorables présidèrent au phénomène de la reconstruction. Au repeuplement effectué dès 1450 par des accensements collectifs principalement, fut lié le renouveau économique aussi bien dans l’agriculture que dans le domaine industriel et artisanal.</p>
           <p>En outre, la reconstitution du tissu paroissial et le développement du rôle de la fabrique facilitèrent la reprise en main de l’administration des paroisses et assurèrent souvent la survie des édifices religieux.</p>
           <p>Ces circonstances ont permis au bas Quercy de relever et de rebâtir très rapidement ses églises : 1430 et 1560 semblent être les dates extrêmes de la reconstruction.</p>
         </div>
-        <div>
+        <div xml:id="r1065000">
           <pb source="https://nakala.fr/10.34847/nkl.e05ac0h5#d725951e5aa1eca5a2501439ecf58e2e1dd8b749" n="137" facs="https://api.nakala.fr/iiif/10.34847/nkl.e05ac0h5/d725951e5aa1eca5a2501439ecf58e2e1dd8b749/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le financement</head>
           <p>Il convient de distinguer deux types d’édifices financés différemment : en premier lieu, les édifices votifs ou sépulcraux (Notre-Dame-de-Grâce) et les chapelles seigneuriales reconstruites uniquement grâce à des fonds privés ; en second lieu, les églises paroissiales et leurs annexes, dont le financement était plus complexe. Il était assuré conjointement par le gros décimateur, souvent le recteur, et par l’ensemble des fidèles représenté par la fabrique. Néanmoins, là aussi, la contribution de nombreuses personnes privées, principalement des nobles, fut souvent décisive. A Notre-Dame de Livron, c’est grâce aux offrandes des pèlerins que le chevet a pu être reconstruit.</p>
         </div>
-        <div>
+        <div xml:id="r1065017">
           <head rend="uc">Chapitre III
            <lb/>Le déroulement des travaux</head>
           <p>C’est à un maçon des environs que la communauté paroissiale s’adressait généralement. Cependant les régions limitrophes du bas Quercy, le Rouergue principalement, mais aussi le haut Quercy ou le Languedoc, exportèrent un grand nombre d’ouvriers et d’artisans (vitriers, fondeurs...).</p>
@@ -98,24 +96,24 @@
           <p>Les reconstructions partielles et les reconstructions de petits édifices duraient en général quelques années, trois à Caylus, cinq à Aussac. En revanche, un siècle suffit à peine à relever de leurs ruines les églises de Caussade et de Montricoux, dont la reconstruction s’échelonna sur plusieurs campagnes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1065039">
         <head rend="uc">Deuxième partie
          <lb/>Étude archéologique</head>
         <p>Il faut en premier lieu distinguer les églises des villes importantes (Montauban, Caussade, Moissac...) et les petits sanctuaires ruraux, au centre d’un village ou isolés dans la campagne quercynoise. Les premières, beaucoup plus grandes, bénéficièrent en outre d’un financement plus nourri. Aussi sont-elles <pb source="https://nakala.fr/10.34847/nkl.e05ac0h5#ee810e861cbc0f66bf96ba2fb60725244040f754" n="138" facs="https://api.nakala.fr/iiif/10.34847/nkl.e05ac0h5/ee810e861cbc0f66bf96ba2fb60725244040f754/full/full/0/default.jpg"/>d’une facture plus soignée, de même que les édifices construits à l’initiative d’un particulier fortuné. En revanche, l’énorme majorité des églises du bas Quercy est constituée par des églises rurales, de dimensions modestes et de conception souvent archaïsante.</p>
-        <div>
+        <div xml:id="r1065055">
           <head rend="uc">Chapitre premier
            <lb/>matériau et appareil</head>
           <p>Les églises du bas Quercy sont construites en pierre calcaire au Nord et en briques au Sud. A quelques exceptions près, ce sont les vallées de l’Aveyron et de la Garonne qui effectuent la séparation entre les deux groupes d’édifices. La pierre et le calcaire sont parfois utilisés conjointement, mais on peut rarement parler d’appareil mixte, et jamais d’appareil décoratif.</p>
           <p>Les traditions romanes, fortes dans le Moissagais, sont la cause de la régularité de l’appareil des églises de cette région.</p>
         </div>
-        <div>
+        <div xml:id="r1065070">
           <head rend="uc">Chapitre II
            <lb/>Plan</head>
           <p>Bien que la diversité des édifices étudiés et la prédominance des reconstructions partielles ne permettent pas de dégager un plan type, on peut néanmoins souligner quelques traits généraux.</p>
           <p>A une exception près, nous n’avons affaire qu’à des églises à nef à vaisseau unique. Les nefs sont constituées de quatre travées au maximum, plus à Moissac et à Montauban. Des chapelles latérales assez nombreuses pallient l’absence générale de collatéraux. Les chœurs s’achèvent soit par un chevet plat, soit par une abside à trois pans : cette solution est toujours celle des églises en briques.</p>
           <p>Le clocher est généralement à l’Ouest, mais peut être construit en hors-d’œuvre, ou s’élever sur la première travée ou une chapelle latérale.</p>
         </div>
-        <div>
+        <div xml:id="r1065088">
           <head rend="uc">Chapitre III
            <lb/>Élévation intérieure</head>
           <p>Hormis de rares grands édifices, l’élévation est toujours à un niveau. Elle est toujours très simple et souvent pauvre.</p>
@@ -126,20 +124,20 @@
           <p><hi rend="i">Percements.</hi> – Hormis dans les grands édifices, les percements sont peu nombreux et peu importants. La porte principale est généralement percée à l’Ouest, mais elle est quelquefois secondée par une porte latérale au Sud.</p>
           <p>Les fenêtres sont étroites et ont été, en général, prévues sans remplage, sinon parfois un modeste réseau trilobé. Les fenêtres axiales des chevets sont cependant plus larges et quelques-unes ont conservé leur remplage d’origine, toujours de style flamboyant.</p>
         </div>
-        <div>
+        <div xml:id="r1065141">
           <head rend="uc">Chapitre IV
            <lb/>Élévation extérieure</head>
           <p>Comme l’élévation intérieure, l’élévation extérieure est très simple, même celle des grands édifices. Seuls les contreforts et quelquefois les larmiers animent les élévations latérales et les chevets.</p>
           <p>Les façades occidentales participent en général à cette sévérité, les roses et les grandes fenêtres y étant absentes, et les véritables portails demeurent exceptionnels.</p>
           <p>Des auvents, ou plus rarement des porches rustiques, abritent l’entrée principale.</p>
         </div>
-        <div>
+        <div xml:id="r1065159">
           <head rend="uc">Chapitre V
            <lb/>Clochers</head>
           <p>La plupart des édifices sont dotés de modestes clochers-murs maintes fois refaits et réparés. Néanmoins, il semble que ceux de la région de Moissac et de Monclar présentent un développement plus important.</p>
           <p>Les autres clochers peuvent se répartir en trois groupes homogènes : les premiers sont des tours carrées ou barlongues, massives et aveugles dans leurs parties basses ; on les trouve principalement dans la région de Lauzerte ; les seconds sont des clochers-porches, presque tous détruits, sauf celui de Négre-pelisse, mais dont les traces sont visibles dans de nombreuses églises situées au nord de Caussade ; enfin le dernier groupe est constitué par les clochers dits « toulousains », formés d’une base carrée en pierres et d’une tour octogonale en briques, qu’on rencontre dans la région montalbanaise. Les derniers sont les plus élégants et ont parfois conservé leur flèche en briques.</p>
         </div>
-        <div>
+        <div xml:id="r1065174">
           <pb source="https://nakala.fr/10.34847/nkl.e05ac0h5#7ee85665f9fe80aa327c83c76e00a6bceceeab92" n="140" facs="https://api.nakala.fr/iiif/10.34847/nkl.e05ac0h5/7ee85665f9fe80aa327c83c76e00a6bceceeab92/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Mouluration et décoration sculptée</head>
@@ -147,17 +145,17 @@
           <p>La décoration sculptée, peu importante, se réduit aux culots, aux chapiteaux et aux clefs de voûte. Généralement grossière, elle est néanmoins assez variée : on y trouve aussi bien des motifs héraldiques que des symboles religieux ou astronomiques. Décoration végétale et représentations humaines ou animales abondent également.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1065195">
         <head rend="uc">Troisième partie
          <lb/>Notices</head>
         <p>Elles sont au nombre de 65, et leur développement varie selon l’importance du monument et l’ampleur de la reconstruction. Les édifices mineurs ont été rattachés aux églises voisines plus importantes, selon la proximité.</p>
         <p>Les plans des églises sont joints aux notices.</p>
       </div>
-      <div>
+      <div xml:id="r1065210">
         <head rend="uc">Pièces justificatives</head>
         <p>Quatre baux à tâche, trois testaments et deux actes relatifs à la construction des églises et aux travaux effectués (1455-1519).</p>
       </div>
-      <div>
+      <div xml:id="r1065220">
         <head rend="uc">Album photographique</head>
         <p>L’album regroupe environ trois cents photographies des édifices étudiés.</p>
       </div>

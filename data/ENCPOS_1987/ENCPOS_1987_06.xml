@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,34 +57,34 @@
         <surname>Corcuff</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1144390">
         <head rend="uc">Introduction</head>
         <p>Le registre des lettres scellées à la chancellerie de Bretagne en 1486-1487 se trouve aux Archives départementales de la Loire-Atlantique sous la cote B 10. Il fait partie d’une série de dix registres annuels conservée pour le règne de François II (1458-1488). Il contient mille quatre cent soixante-dix actes et analyses datés principalement de 1486 et de 1487, mais dont certains remontent jusqu’à 1482. Quelques-uns ont été édités par les Bénédictins et régulièrement utilisés depuis par tous les historiens de la Bretagne, mais la majorité d’entre eux n’a jamais été exploitée et constitue une base essentielle à toute étude de l’histoire du bas Moyen Age breton.</p>
       </div>
-      <div>
+      <div xml:id="r1144400">
         <head rend="uc">Sources</head>
         <p>L’étude de la chancellerie du duché de Bretagne exige un dépouillement de tous les registres conservés, qui gardent la trace d’environ 95 pour 100 des actes expédiés durant les années considérées, et de fonds d’archives dispersés dans l’Ouest de la France. Les plus utiles sont ceux des Archives départementales de Loire-Atlantique, où se trouvent le Trésor des chartes de Bretagne et les épaves des archives de la Chambre des comptes, qui ont livré quelques originaux.</p>
       </div>
-      <div>
+      <div xml:id="r1144410">
         <pb source="https://nakala.fr/10.34847/nkl.58c2nj19#11d8999ae78a9aabf28edea410cdd1a34c964d15" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.58c2nj19/11d8999ae78a9aabf28edea410cdd1a34c964d15/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Étude</head>
-        <div>
+        <div xml:id="r1144427">
           <head rend="uc">Chapitre préliminaire
            <lb/>le duché et le duc en 1486</head>
           <p>En 1486, les limites orientales du duché suivent le Couesnon, passent légèrement à l’Est de Fougères, de Vitré, de La Guerche et de Châteaubriant jusqu’à la Loire. Au sud de la Loire, se trouve un vaste territoire comprenant plus de quatre-vingts paroisses, formant marche entre Bretagne, Anjou et Poitou, soumis à un régime particulier d’indivision.</p>
           <p>François II, petit-fils de Jean IV, par son père, Richard, comte d’Étampes, règne depuis 1458. Ses trente années de règne sont marquées par des rapports difficiles avec la France ; et les factions, favorables ou hostiles à l’indépendance du duché, s’affrontent et intriguent autour de ce prince malade et prématurément vieilli.</p>
           <p>Les ducs de la famille des Montforts ont doté leur principauté d’une solide administration qui ne le cède en rien à celles du royaume et des grands feudataires, et dont les rouages continuent à bien fonctionner, malgré l’affaiblissement physique et mental du duc et l’imminence d’un conflit ouvert avec la France.</p>
         </div>
-        <div>
+        <div xml:id="r1144445">
           <head rend="uc">Chapitre premier
            <lb/>étude du registre et des actes enregistrés</head>
           <p>Le registre des lettres scellées en chancellerie en 1486-1487 se présente matériellement sous la forme d’un petit in-folio de deux cent soixante-six feuillets de papier, écrits recto et verso, portant en filigrane une grappe de raisin et regroupés en dix-sept cahiers de douze à dix-huit feuillets.</p>
           <p>Il conserve la trace de l’enregistrement de mille cinq cent quatre-vingt-dix actes, dont soixante-huit ont été transcrits intégralement avec toutes les formules ; les autres sont analysés de manière précise par les clercs de la chancellerie.</p>
           <p>L’étude diplomatique des actes, en l’absence d’originaux pour la période concernée, ne peut se fonder, pour les caractères externes, que sur les originaux datés antérieurement ou postérieurement au registre et, pour les caractères internes, sur les actes transcrits intégralement. Elle confirme les conclusions déjà faites pour deux prédécesseurs de François II. Les actes expédiés sont en grande majorité des lettres scellées sur simple queue, signés par le duc et contresignés par un secrétaire. Ils se répartissent entre cinq catégories : 54 % d’actes à caractère financier, 26,7 % de lettres de justice, 8,9 % de mandements militaires, 8,5 % de lettres d’office, 1,8 % de mandements concernant les bénéfices ecclésiastiques.</p>
         </div>
-        <div>
+        <div xml:id="r1144463">
           <pb source="https://nakala.fr/10.34847/nkl.58c2nj19#5a2c7731235987b6c51b0cf418c7fadeec4f60b3" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.58c2nj19/5a2c7731235987b6c51b0cf418c7fadeec4f60b3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’élaboration et l’enregistrement des actes</head>
@@ -99,7 +97,7 @@
           <p>Le scellement et la délivrance des actes font l’objet d’une perception de taxe. Celle-ci n’est mentionnée que de façon tout à fait exceptionnelle dans le registre, en marge de l’acte concerné, mais elle est connue par d’autres documents ; pour la chancellerie bretonne, il est cependant difficile de faire la distinction entre le droit perçu pour l’octroi d’une faveur et la taxe perçue pour le sceau, les deux semblant confondus dans les textes. Bon nombre d’actes sont délivrés gratuitement. Le produit du sceau revient normalement au chancelier, mais <pb source="https://nakala.fr/10.34847/nkl.58c2nj19#3ac0f6c2dca6cb4edd0c7d2ecafa97a0f900e3b8" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.58c2nj19/3ac0f6c2dca6cb4edd0c7d2ecafa97a0f900e3b8/full/full/0/default.jpg"/>depuis 1481, il est entre les mains du contrôleur général qui, en même temps que la garde des sceaux, en assure la gestion.</p>
           <p>Les actes sont ensuite remis à leurs bénéficiaires, à la chancellerie, contre paiement de la taxe. Des lettres demeurent parfois en souffrance, mais elles sont comptabilisées dans le revenu du sceau. De nombreux mandements sont expédiés en plusieurs exemplaires, qui font tous l’objet d’un enregistrement. Les mandements adressés aux officiers locaux sont destinés à être publiés par leurs soins.</p>
         </div>
-        <div>
+        <div xml:id="r1144510">
           <head rend="uc">Chapitre III
            <lb/>Le personnel de la chancellerie</head>
           <p>La chancellerie est dirigée par le chancelier Jacques de la Villeéon, qui décède entre le 29 juillet et le 20 septembre 1487. Il préside les séances d’enregistrement jusqu’en avril et semble ensuite occupé par la guerre du duc. Il est remplacé, le 20 septembre 1487, par Philippe de Montauban, seigneur de Sens.</p>
@@ -112,14 +110,14 @@
           <p>Le travail des officiers subalternes, les greffiers et les huissiers, n’est pas évoqué dans le registre. Deux huissiers sont institués au cours de l’année. Les clercs de la chancellerie consignent les actes dans les registres avant le scellage.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1144544">
         <pb source="https://nakala.fr/10.34847/nkl.58c2nj19#6cc1512ad3ca14cc14b2fcdb06b1f89c22b26df6" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.58c2nj19/6cc1512ad3ca14cc14b2fcdb06b1f89c22b26df6/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Catalogue et édition des actes</head>
         <p>Le catalogue comprend mille quatre cent soixante-dix notices et l’édition des soixante-huit actes transcrits intégralement dans le registre.</p>
       </div>
-      <div>
+      <div xml:id="r1144565">
         <head rend="uc">Appendices</head>
         <p>Liste des secrétaires de la chancellerie. – Tableaux présentant le travail de la chancellerie en données chiffrées. – Index des noms de lieu et de personne figurant dans le registre.</p>
         <pb source="https://nakala.fr/10.34847/nkl.58c2nj19#06020b4d90661be640d4da8f4902597842fb248b" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.58c2nj19/06020b4d90661be640d4da8f4902597842fb248b/full/full/0/default.jpg"/>

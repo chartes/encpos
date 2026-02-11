@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,27 +56,27 @@
         <surname>Ashta-Bargoin</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1337347">
         <head rend="uc">Introduction</head>
         <p>De l’édit de Poitiers en juillet 1577, qui marque la création des bureaux des finances, à la mort de Louis XIII en 1643, l’histoire du bureau des finances de la généralité de Paris est celle d’une institution importante, prestigieuse, mais qui se heurte de plus en plus fréquemment à des difficultés extérieures qui vont progressivement entamer ses compétences et son autorité.</p>
         <p>Le nombre de trésoriers généraux augmente notablement (de cinq en 1577 à vingt-trois en 1643) : soixante-cinq titulaires ont exercé cet office pendant cette période, et dix ont été pourvus mais non reçus au bureau.</p>
         <p>Leurs compétences, héritées pour la plupart des anciens trésoriers de France et généraux des finances, n’évoluent que peu au cours de la période étudiée. Elles comprennent les finances ordinaires et extraordinaires, en direction et en juridiction, ainsi que la voirie, seulement en direction d’abord, puis aussi en juridiction à partir de 1627.</p>
       </div>
-      <div>
+      <div xml:id="r1337363">
         <head rend="uc">Sources</head>
         <p>A la Bibliothèque nationale de France (département des manuscrits), les documents du Cabinet des titres fournissent de nombreuses informations, surtout les séries des Pièces originales et des Dossiers bleus. Celles-ci sont cependant souvent sujettes à caution et difficilement exploitables. On trouve dans le fonds français quelques documents se rapportant directement à un trésorier général, mais l’intérêt de cette source reste limité. Enfin, au département des estampes, dans la série N 2, sont conservés des portraits de trésoriers généraux ou de leurs proches.</p>
         <p>Les documents dépouillés aux Archives nationales sont plus intéressants. Hormis quelques pièces diverses, ils se répartissent en deux groupes. Les archives du bureau des finances, d’une part, c’est-à-dire les registres d’enregistrement des lettres <pb source="https://nakala.fr/10.34847/nkl.1b080ju2#bb50ad74ccd3fdddfd8b593c5c676db144d416ea" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.1b080ju2/bb50ad74ccd3fdddfd8b593c5c676db144d416ea/full/full/0/default.jpg"/> patentes (Z<hi rend="sup">1F</hi> 555 à 585) et les registres d’audience du bureau (Z<hi rend="sup">1F</hi> 108 à 201), permettent de retrouver les lettres de provision des trésoriers généraux et de mesurer l’implication de chacun dans les activités du bureau. Le Minutier central des notaires de Paris, d’autre part, fournit des renseignements très abondants sur leur vie privée.</p>
       </div>
-      <div>
+      <div xml:id="r1337389">
         <head rend="uc">Première partie
          <lb/>L’office de trésorier général</head>
-        <div>
+        <div xml:id="r1337397">
           <head rend="uc">Chapitre premier
            <lb/>l’organisation du travail au bureau des finances</head>
           <p><hi rend="i">L’évolution de l’activité : une plus grande charge, inégalement répartie.</hi> – L’activité du bureau des finances était inégalement répartie au cours de l’année, avec un net pic d’activité au début de l’été et une saison creuse en automne. Par ailleurs, le travail n’était pas non plus également distribué entre les officiers, cette disparité étant plus sensible encore dans la tâche de rapporteur au bureau des finances que dans la présence effective aux séances. Le souhait de poursuivre ailleurs une carrière plus brillante, ou au contraire le sentiment que l’office de trésorier général était une consécration en soi, ainsi que les autres occupations que certains pouvaient avoir en dehors du bureau, ont vraisemblablement joué un rôle déterminant dans la participation de chacun. La charge de travail totale et le nombre moyen d’affaires traitées à chaque séance, après être restés stables jusqu’à la fin du règne de Henri IV, ont augmenté très sensiblement de la fin des années 1610 aux années 1630, puis ont à nouveau diminué, sans pour autant retrouver le niveau antérieur à Louis XIII. Cette évolution contribue à expliquer les créations d’offices au bureau. La première vague de créations, dans les années 1580, ne coïncidant pas avec un accroissement de la charge de travail, n’a vraisemblablement été motivée que par des considérations financières. La seconde, dans les années 1620, correspond à une forte augmentation du nombre des affaires traitées par le bureau : en sus des raisons financières habituelles, la royauté a donc aussi répondu à un souci de bonne gestion. La troisième vague, enfin, dans les années 1630, se situe dans une période où l’activité reste forte, mais moins que dans les années 1620, ce qui tend à montrer que les deux motivations devaient être liées.</p>
           <p><hi rend="i">Une meilleure structuration du travail.</hi> – Au cours de la période, enfin, on constate que les registres du bureau des finances sont de mieux en mieux tenus et structurés, avec l’apparition de pages préliminaires (pour le département des chevauchées, par exemple) et la mention systématique du rapporteur de l’affaire. C’est le signe que le travail collégial instauré par l’édit de Poitiers en 1577 s’inscrit dans les habitudes.</p>
         </div>
-        <div>
+        <div xml:id="r1337418">
           <pb source="https://nakala.fr/10.34847/nkl.1b080ju2#a12edd85f5c2cccf92002b460af4766e8312d16f" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.1b080ju2/a12edd85f5c2cccf92002b460af4766e8312d16f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La transmission de l’office</head>
@@ -86,32 +84,32 @@
           <p><hi rend="i">L’établissement du prix de l’office.</hi> – Le prix de vente des nouveaux offices par les parties casuelles est d’environ 25 000 livres tournois à la fin du <num>xvi<hi rend="sup">e</hi></num>, puis de 76 000 à 90 000 livres dans la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle. Malgré cette nette augmentation, il reste inférieur aux prix pratiqués sur le marché, où il semble se fixer autour de 110 000 livres dans les années 1620-1630, avant de redescendre à 75 000 livres environ à la fin des années 1630. Le prix de l’office de trésorier général suit donc une évolution parallèle à ceux des autres offices, qui, après une nette hausse au début du règne de Louis XIII, se tassent dans les dernières années du roi.</p>
           <p><hi rend="i">Éléments de comparaison.</hi> – Les prix exigés sur le marché pour les offices de trésorier général dans les bureaux de province sont inférieurs à ceux de Paris. On remarque aussi que le prix de l’office de trésorier généra] à Paris, après avoir d’abord suivi l’augmentation du prix des offices de judicature (Parlement et maîtrise des requêtes), décroche un peu avant le milieu du <num>xvii<hi rend="sup">e</hi></num> siècle, signe que le bureau des finances n’est plus aussi attractif.</p>
         </div>
-        <div>
+        <div xml:id="r1337468">
           <head rend="uc">Chapitre III
            <lb/>Considération sociale</head>
           <p><hi rend="i">Le prestige de l’office de trésorier général.</hi> – Au début du <num>xvii<hi rend="sup">e</hi></num> siècle, les trésoriers généraux revendiquent l’assimilation aux officiers des cours souveraines. De fait, ils jouissent bien d’une égale considération. Au cours du siècle, alors que les bureaux de province voient leur position s’éroder fortement, celui de Paris semble conserver intact son prestige.</p>
           <p><hi rend="i">Le problème des officiers pourvus et non reçus, ou reçus avec difficulté.</hi> – Le bureau des finances pouvait refuser de recevoir un candidat pour des raisons politiques (un engagement trop net en faveur de la Ligue, par exemple) ou sociales, mais il n’est guère possible de déterminer des motifs précis car ils ne sont jamais clairement spécifiés. Le bureau adoptait la même position si un officier paraissait financièrement trop privilégié, comme, par exemple, pour la réception de Jean de La Harde en l’office de trésorier général garde-scel.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1337496">
         <pb source="https://nakala.fr/10.34847/nkl.1b080ju2#429e0c81bd4222b05526ff851ad8a52311170c70" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.1b080ju2/429e0c81bd4222b05526ff851ad8a52311170c70/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>L’entourage des trésoriers généraux</head>
-        <div>
+        <div xml:id="r1337509">
           <head rend="uc">Chapitre premier
            <lb/>origines géographiques, familiales et socioprofessionnelles</head>
           <p><hi rend="i">Origine géographique.</hi> – Les vrais provinciaux sont rares au bureau des finances. L’écrasante majorité est issue de familles résidant à Paris depuis longtemps, ou ayant quitté le Bassin parisien quelques générations auparavant pour s’implanter dans la capitale.</p>
           <p><hi rend="i">Origine familiale.</hi> – Les trésoriers généraux, réserve faite de quelques familles prestigieuses, sont issus d’un milieu aisé mais non brillant. Leurs grands-parents représentent une bourgeoisie moyenne. Leurs pères sont le plus souvent officiers, d’un niveau élevé, mais non de très grands serviteurs de l’Etat.</p>
           <p><hi rend="i">Passé professionnel.</hi> – Les trésoriers généraux entraient au bureau vers quarante ans sous Henri III, vers trente-cinq ans sous Henri IV, et vers vingt-neuf ans sous Louis XIII. Cette nette tendance au rajeunissement du personnel n’est cependant pas un signe de dévalorisation du bureau, car les officiers restent tout aussi longtemps en charge au cours de la période : signe qu’ils ne recherchaient pas forcément une promotion. Ceux qui avaient déjà eu une activité avant d’entrer au bureau des finances occupaient majoritairement des offices d’un niveau élevé, en général dans la finance, souvent dans un autre bureau des finances, ou une charge de secrétaire du roi.</p>
         </div>
-        <div>
+        <div xml:id="r1337536">
           <head rend="uc">Chapitre II
            <lb/>Le milieu social des trésoriers généraux</head>
           <p><hi rend="i">Le cercle familial restreint.</hi> – Les frères et les beaux-frères des trésoriers généraux sont, eux aussi, majoritairement officiers du roi. Quant aux alliances matrimoniales des trésoriers généraux, elles se font dans un milieu social identique, celui de la grande bourgeoisie ou de la noblesse de robe. Être reçu trésorier général au bureau des finances n’était donc pas perçu comme une promotion sociale suffisante pour accéder au cercle des grands serviteurs de l’Etat.</p>
           <p><hi rend="i">Le cercle familial et amical élargi.</hi> – Si l’on sort du cercle familial restreint, on note que certains trésoriers généraux, comme Jean de La Barde ou Paul Ardier, bénéficiaient de soutiens au sein du gouvernement. Ce sont cependant des exceptions. L’existence de puissants appuis n’était pas la clef d’une carrière au bureau des finances. Ceux qui en bénéficiaient pouvaient même aspirer à des destins plus prestigieux.</p>
           <p><hi rend="i">Le cercle socioprofessionnel et le cumul des charges.</hi> – Les trésoriers généraux ne peuvent pas exercer en même temps un office comptable. Normalement, ils ne peuvent pas non plus prendre part aux fermes et traités, mais cette interdiction tend à s’assouplir au cours du règne de Louis XIII, jusqu’à n’être plus appliquée au milieu du <num>xvii<hi rend="sup">e</hi></num> siècle. Les trésoriers généraux n’occupent que rarement des charges effectives : ils préfèrent les charges honorifiques, comme celle de maître <pb source="https://nakala.fr/10.34847/nkl.1b080ju2#4a4d39b0e2540abd0fc48a9259f19bf4bf749124" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.1b080ju2/4a4d39b0e2540abd0fc48a9259f19bf4bf749124/full/full/0/default.jpg"/>d’hôtel du roi, ou les offices leur permettant de s’intégrer au monde financier, comme celui de secrétaire du roi.</p>
         </div>
-        <div>
+        <div xml:id="r1337574">
           <head rend="uc">Chapitre III
            <lb/>Le devenir des trésoriers généraux</head>
           <p><hi rend="i">La carrière au sein du bureau des finances.</hi> – Les trésoriers généraux demeurent en charge dix-sept ans et demi en moyenne, mais ce chiffre masque des durées très variables. Pour ceux qui restaient longtemps au bureau, il n’existait pas de réelle possibilité de promotion, si ce n’est honorifique en accédant à la qualité de président.</p>
@@ -119,48 +117,48 @@
           <p><hi rend="i">Le devenir de la génération suivante.</hi> – Les enfants des trésoriers généraux semblent bénéficier d’une nette mobilité sociale. Les fils et les gendres occupent tous des fonctions nettement plus importantes que les grands-pères et pères des trésoriers généraux, et sont souvent maîtres des comptes ou conseillers au Parlement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1337602">
         <head rend="uc">Troisième partie
          <lb/>La fortune des trésoriers généraux</head>
-        <div>
+        <div xml:id="r1337610">
           <head rend="uc">Chapitre premier
            <lb/>composition du patrimoine</head>
           <p>La composition du patrimoine des trésoriers généraux n’est guère originale. Leurs biens sont répartis entre des terres situées à proximité de Paris, des maisons dans la ville, souvent louées, l’office de trésorier général et d’autres offices secondaires, et des rentes sur l’Hôtel de Ville de Paris et sur des particuliers. Les trésoriers généraux ne diffèrent donc pas en cela du reste de la noblesse de robe parisienne.</p>
           <p>A la fin du règne de Louis XIII, les trésoriers généraux percevaient, pour l’exercice de leur office au bureau des finances, entre 3 497 et 4 497 livres tournois par an, réparties entre gages, droit de présence et droit de bûche. Ce revenu ne représentait que 3,5 % en moyenne du capital investi dans l’achat de l’office, ce qui était assez faible. Les trésoriers généraux ne recherchaient donc pas tant, dans l’exercice de leur office, un profit matériel immédiat que des satisfactions sociales et la possibilité de nouer des relations avec des hommes intéressés aux activités financières.</p>
         </div>
-        <div>
+        <div xml:id="r1337625">
           <pb source="https://nakala.fr/10.34847/nkl.1b080ju2#57b6d9cb3501bedf4cd9fca965fb95af4330b4e3" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.1b080ju2/57b6d9cb3501bedf4cd9fca965fb95af4330b4e3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Montant de la fortune au mariage</head>
           <p>A leur mariage, qui correspond au moment de leur installation dans la vie professionnelle, les trésoriers généraux possèdent une fortune d’environ 150 000 livres tournois. Leurs épouses, qui viennent d’un milieu social équivalent au leur, leur apportent en moyenne 60 000 livres de dot. Les trésoriers généraux font partie de la mince strate de la population la plus riche de la capitale. De plus, le milieu des trésoriers généraux est relativement homogène, puisque les conditions financières de leurs mariages se répartissent toutes dans une fourchette assez restreinte.</p>
         </div>
-        <div>
+        <div xml:id="r1337642">
           <head rend="uc">Chapitre III
            <lb/>Montant de la fortune au décès</head>
           <p>Les trésoriers généraux laissent à leur décès des fortunes importantes, supérieures à 200 000 livres. Ils font sans conteste partie des personnages les plus riches de Paris. Une grande partie de cette fortune provient d’acquêts réalisés par les trésoriers généraux eux-mêmes. L’office de trésorier général et les activités financières qui pouvaient l’accompagner étaient donc fort lucratives.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1337655">
         <head rend="uc">Quatrième partie
          <lb/>La vie privée des trésoriers généraux</head>
-        <div>
+        <div xml:id="r1337663">
           <head rend="uc">Chapitre premier
            <lb/>le cadre de vie</head>
           <p><hi rend="i">Adresse.</hi> – Tous les trésoriers généraux du bureau des finances de Paris habitent dans la capitale, principalement dans les quartiers à la mode, comme le Marais. Ils ont suivi le développement de la ville vers le nord-est. Ils possèdent aussi une maison des champs, à proximité de Paris, qui est pour eux une source de revenu autant qu’un marqueur social et une retraite.</p>
           <p><hi rend="i">Train de vie.</hi> – Les maisons des trésoriers généraux sont vastes, bien meublées et décorées. Ils y mènent un train de vie aisé, entourés d’objets de prix.</p>
         </div>
-        <div>
+        <div xml:id="r1337684">
           <head rend="uc">Chapitre II
            <lb/>Attitudes face au monde</head>
           <p><hi rend="i">Vie intellectuelle.</hi> – Nette domination de la religion et de l’histoire, importance de l’Antiquité, faible place du droit et des œuvres contemporaines, quasi-absence des sciences, tels sont les principaux caractères de la culture des trésoriers généraux dans la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">Attitudes religieuses et politiques.</hi> – Hormis Claude et Pierre Arnauld, deux protestants, tous les trésoriers généraux sont catholiques. Leur attitude politique a <pb source="https://nakala.fr/10.34847/nkl.1b080ju2#2bed5710ad24677681f43c98e77f379b6ad01376" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.1b080ju2/2bed5710ad24677681f43c98e77f379b6ad01376/full/full/0/default.jpg"/>évolué au cours de la période. A l’époque de la Ligue, le bureau des finances s’est divisé en deux parties, l’une restant à Paris et l’autre se transférant à Melun : presque tous les trésoriers généraux ont quitté la capitale tombée sous la domination des Seize, pour exercer dans le bureau des finances fidèle au roi. On peut donc conclure à une profonde fidélité des trésoriers généraux à l’égard de la monarchie. Ce n’est qu’à la fin du règne de Louis XIII, après le règlement du 22 août 1642 donnant la prééminence à l’intendant sur les trésoriers généraux lors des séances de répartition de la taille, que l’on voit poindre un conflit entre le bureau et la monarchie, qui incitera les trésoriers généraux à prendre une part active dans la Fronde.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1337717">
         <head rend="uc">Conclusion</head>
         <p>L’office de trésorier général était-il recherché pour lui-même ou pour s’intégrer au monde financier ? Plusieurs indices amènent à conclure à une collusion entre les trésoriers généraux et le monde de la finance : les nombreux financiers que l’on trouve dans l’entourage proche des trésoriers généraux, la fréquence du cumul d’un office au bureau des finances et d’un office de secrétaire du roi, l’importance de la fortune des trésoriers généraux. Tous n’ont pas participé aux activités financières de leur temps, mais l’acquisition d’un office de trésorier général devait permettre, à celui qui le souhaitait, d’entrer dans un réseau de relations où se traitaient des affaires financières.</p>
       </div>
-      <div>
+      <div xml:id="r1337727">
         <head rend="uc">Annexe</head>
         <p>Dictionnaire biographique des soixante-quinze trésoriers généraux qui font l’objet de l’étude.</p>
         <pb source="https://nakala.fr/10.34847/nkl.1b080ju2#bf931d98d32cafd178c591268e0c7aaaf1b1e9a7" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.1b080ju2/bf931d98d32cafd178c591268e0c7aaaf1b1e9a7/full/full/0/default.jpg"/>

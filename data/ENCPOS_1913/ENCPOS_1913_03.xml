@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1913_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1913_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,15 +61,15 @@
         <surname>Boucher</surname>
         <roleName>Élève de l’École des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r365625">
         <head rend="uc">Sources et bibliographie</head>
         <p>Liste et étude critique des comptes des Hôtels sous Charles VI.</p>
       </div>
-      <div>
+      <div xml:id="r365635">
         <head rend="uc">Première partie
          <lb/>Étude générale des hotels du roi, de la reine
          <lb/>et du dauphin</head>
-        <div>
+        <div xml:id="r365645">
           <head rend="uc">Chapitre premier
            <lb/>ressources, rapports avec la chambre des comptes,
            <lb/>comptes et pièces de comptabilité</head>
@@ -88,14 +86,14 @@
           <p>Elle exerce un contrôle avec la comptabilité des Hôtels. Traces de ce contrôle dans les comptes et pièces comptables.</p>
           <p>3. <hi rend="i">Comptabilité.</hi> – Comptes des différents services des Hôtels. – Etudes des diverses pièces comptables relatives à leur fonctionnement. Les jetons. La monnaie parisis est presque seule employée dans la comptabilité des Hôtels.</p>
         </div>
-        <div>
+        <div xml:id="r365711">
           <head rend="uc">Chapitre II
            <lb/>Les ordonnances de l’hôtel. Les officiers de l’hôtel</head>
           <p>1. <hi rend="i">Ordonnances de l’Hôtel du Roi.</hi> – Elles taxent les gages des officiers, établissent le roulement de leur service et fixent leurs indemnités ou allocations, mais ne s’occupent presque pas des divers services. Ordonnances de janvier 1387 n. st. (du Louvre), de février 1389 n. st. (de Vernon), de septembre 1418 (de Paris), de juillet 1422 (de Senlis). Jusqu’en 1418, augmentation progressive. du nombre des officiers de l’Hôtel, que l’ordonnance de 1422 réduit de moitié.</p>
           <p>2. <hi rend="i">Officiers de l’Hôtel.</hi> – Leurs privilèges. Officiers des métiers de l’Hôtel. Panneterie. Échançonnerie. Cuisine. Fruiterie. Ecurie. Fourrière. Le grand maître de l’Hôtel : ses fonctions. Liste des titulaires de cette charge.</p>
           <p>Pas plus que les maîtres des requêtes, les notaires et secrétaires du Roi ne sont à proprement parler des officiers de l’Hôtel du Roi. La Chancellerie n’ayant pas de comptabilité spéciale, ils y recevaient leurs gages et diverses allocations mais jamais la Chancellerie n’a fait partie de l’Hôtel du Roi, du moins sous Charles VI.</p>
         </div>
-        <div>
+        <div xml:id="r365737">
           <pb source="https://nakala.fr/10.34847/nkl.4912g9ka#c401beed8b6be41f95b120a82bc2c82019f2d47b" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.4912g9ka/c401beed8b6be41f95b120a82bc2c82019f2d47b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le gouvernement des hôtels</head>
@@ -103,10 +101,10 @@
           <p>Liste des gouverneurs des Hôtels sous Charles VI.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r365758">
         <head rend="uc">Deuxième partie
          <lb/>L’hotel du roi</head>
-        <div>
+        <div xml:id="r365766">
           <head rend="uc">Chapitre premier
            <lb/>la chambre aux deniers du roi</head>
           <p>C’est la caisse de l’Hôtel du Roi. Son état en 1380. Elle solde les frais de nourriture, les gages du personnel et diverses autres dépenses afférentes au fonctionnement de l’Hôtel du Roi.</p>
@@ -117,7 +115,7 @@
           <p>Recettes et dépenses de ce service : ses ressources, leur provenance.</p>
           <p>Comptabilité. Durée des comptes. – Etude détaillée de leur cadre intérieur.</p>
         </div>
-        <div>
+        <div xml:id="r365796">
           <pb source="https://nakala.fr/10.34847/nkl.4912g9ka#dba1e396d9f2e3f6ebcb8329b0866cc599a5d098" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.4912g9ka/dba1e396d9f2e3f6ebcb8329b0866cc599a5d098/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les coffres du roi</head>
@@ -125,13 +123,13 @@
           <p>Le garde des Coffres. Ses fonctions ; sa comptabilité ordinaire et extraordinaire. Liste des gardes des Coffres.</p>
           <p>Recettes et dépenses du service. Ses ressources : leur provenance.</p>
         </div>
-        <div>
+        <div xml:id="r365819">
           <head rend="uc">Chapitre III
            <lb/>Les garnisons des hôtels</head>
           <p>Chaque service avait des « garnisons » ou réserves de provisions, dont certaines constituent des services autonomes. Garnisons des vins du Roi. Etat et organisation du service en 1380. Le maître des garnisons des vins : ses fonctions. Liste de ces officiers sous Charles VI. – Ressources du service : leur origine.</p>
           <p>Les Hôtels de la Reine et du Dauphin possédèrent également des garnisons de vins. Liste des maîtres des garnisons de ces deux Hôtels.</p>
         </div>
-        <div>
+        <div xml:id="r365834">
           <head rend="uc">Chapitre IV
            <lb/>L’argenterie du roi</head>
           <p>Ce service est chargé de tout ce qui concerne l’habilement du Roi, de la famille royale et des officiers de l’Hôtel, et, en partie, de leur ameublement. L’Argenterie de la Reine en est détachée en 1393 et devient autonome.</p>
@@ -141,7 +139,7 @@
           <p>Le contrôleur de l’Argenterie : ses fonctions. Liste des contrôleurs.</p>
           <p>Ressources et comptabilité.</p>
         </div>
-        <div>
+        <div xml:id="r365863">
           <head rend="uc">Chapitre V
            <lb/>La garde des joyaux et la chambre aux joyaux</head>
           <p>1. <hi rend="i">La Garde des joyaux</hi>. – État du service en 1380 : ses dépôts particuliers. Transformation du service : il s’unifie et se centralise définitivement en 1400.</p>
@@ -151,7 +149,7 @@
           <p>Fonctions de l’argentier. Le clerc de la Chambre aux joyaux. – Les inventaires.</p>
           <p>Divers dépôts des joyaux et de la Chambre aux joyaux. Dilapidation des joyaux sous Charles VI : engagements et ventes successives.</p>
         </div>
-        <div>
+        <div xml:id="r365898">
           <pb source="https://nakala.fr/10.34847/nkl.4912g9ka#c2a143cb29fa8fc2123a67e5eba9d776dea46436" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.4912g9ka/c2a143cb29fa8fc2123a67e5eba9d776dea46436/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>La garde des tapisseries</head>
@@ -160,30 +158,30 @@
           <p>Inventaire des tapisseries de Charles VI.</p>
           <p>Garde des tapisseries de la Reine.</p>
         </div>
-        <div>
+        <div xml:id="r365924">
           <head rend="uc">Chapitre VII
            <lb/>L’écurie du roi</head>
           <p>Situation de ce service en 1380. Il ne comporte pas seulement 1’« extraordinaire ».</p>
           <p>Le maître de l’Écurie : ses fonctions. – Liste des maîtres de ce service. – Les officiers subalternes de l’Écurie.</p>
           <p>Comptabilité et inventaires.</p>
         </div>
-        <div>
+        <div xml:id="r365942">
           <head rend="uc">Chapitre VIII
            <lb/>La vènerie du roi</head>
           <p>Le maître de la Vénerie : ses fonctions. – Liste des maîtres de la Vénerie. Officiers subalternes.</p>
           <p>Ressources financières : leur origine. Fixité des recettes. Examen des comptes de la Vénerie et de leur cadre intérieur.</p>
         </div>
-        <div>
+        <div xml:id="r365957">
           <head rend="uc">Chapitre IX
            <lb/>La fauconnerie du roi</head>
           <p>Le maître fauconnier : ses fonctions. Liste des maîtres fauconniers. Ressources et comptabilité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r365970">
         <pb source="https://nakala.fr/10.34847/nkl.4912g9ka#21da5b5c3fbe2a1269a08eaa3a7602210ac3ad32" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.4912g9ka/21da5b5c3fbe2a1269a08eaa3a7602210ac3ad32/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Les hotels de la reine et du dauphin</head>
-        <div>
+        <div xml:id="r365983">
           <head rend="uc">Chapitre premier
            <lb/>la chambre aux deniers de la reine</head>
           <p>L’organisation et le fonctionnement de ce service sont calqués sur ceux de la Chambre aux deniers du Roi.</p>
@@ -191,7 +189,7 @@
           <p>Le contrôleur : ses fonctions. Liste des contrôleurs. Clercs de la Chambre aux deniers et clercs des offices. Rôle du gouverneur des Hôtels.</p>
           <p>Ressources du service et comptabilité.</p>
         </div>
-        <div>
+        <div xml:id="r366004">
           <head rend="uc">Chapitre II
            <lb/>L’argenterie de la reine</head>
           <p>Jusqu’au 25 mai 1393, elle se confond avec celle du Roi. Sa création. Organisation et fonctionnement.</p>
@@ -199,7 +197,7 @@
           <p>L’Argenterie de la Reine n’eut pas de gouverneur particulier, comme celle du Roi : ses dépenses sont ordonnancées par le gouverneur des Hôtels.</p>
           <p>Ressources et comptabilité.</p>
         </div>
-        <div>
+        <div xml:id="r366025">
           <head rend="uc">Chapitre III
            <lb/>Les hôtels du dauphin et des enfants de France</head>
           <p>Organisation générale.</p>

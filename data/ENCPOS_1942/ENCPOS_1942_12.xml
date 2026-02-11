@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,10 +61,10 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r626064">
         <head rend="uc">Première partie
          <lb/>Saint-Étienne de Nevers</head>
-        <div>
+        <div xml:id="r626072">
           <head rend="uc">Chapitre premier
            <lb/>histoire.</head>
           <p>L’abbaye de Saint-Étienne de Nevers aurait été fondée par saint Colomban vers l’an 600, selon l’opinion des hommes du Moyen Age ; cela est impossible. En 1063, l’évêque de Nevers et ses parents, ainsi que le comte de Nevers, installent sur l’emplacement d’anciens bâtiments religieux sécularisés des chanoines de saint Silvestre avec mission de restaurer le culte en cet endroit. Après l’échec de ces religieux, l’évêque de Nevers et les personnages qui étaient déjà intervenus <pb source="https://nakala.fr/10.34847/nkl.31eeawaw#8c42c27ba568162d43c7d1be14c27ec46610d77a" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.31eeawaw/8c42c27ba568162d43c7d1be14c27ec46610d77a/full/full/0/default.jpg"/>donnent l’abbaye à saint Hugues, abbé de Cluny. L’évêque et le comte font de nouvelles donations en 1074 et 1083. L’église est terminée au moment de sa consécration en 1097.</p>
@@ -75,12 +73,12 @@
           <p>Le monastère perd de son importance à partir du <num>xvi<hi rend="sup">e</hi></num> siècle : il tombe en commande en 1534, les moines abandonnent au duc la justice du Bourg en 1585. Le porche est détruit à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle ; de nouveaux bâtiments conventuels sont élevés en 1646.</p>
           <p>Sous la Révolution, l’église est d’abord théâtre, puis dépôt d’intendance. Le <num>xix<hi rend="sup">e</hi></num> et le <num>xx<hi rend="sup">e</hi></num> siècle entreprennent des travaux de restaurations.</p>
         </div>
-        <div>
+        <div xml:id="r626149">
           <head rend="uc">Chapitre II
            <lb/>Description.</head>
           <p>La nef est couverte d’un berceau en plein cintre et éclairée directement ; les bas-côtés, voûtés d’arêtes, sont surmontés de tribunes couvertes de voûtes en quart de cercle. Le transept est très saillant et couvert d’une coupole à la croisée, de berceaux en plein cintre dans les croisillons et de voûtes en cul-de-four sur les absidioles. Le chœur est voûté en berceau dans la partie droite et en cul-de-four à l’hémicycle ; il est entouré d’un déambulatoire voûté d’arêtes, sur lequel s’ouvrent trois chapelles rayonnantes voûtées en cul-de-four. Les deux clochers de façade et celui de la croisée du transept ont été détruits en 1792.</p>
         </div>
-        <div>
+        <div xml:id="r626161">
           <pb source="https://nakala.fr/10.34847/nkl.31eeawaw#3bf89e3a77de8111976f264c85028011003b88b8" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.31eeawaw/3bf89e3a77de8111976f264c85028011003b88b8/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Remarques sur la construction de l’église.</head>
@@ -89,10 +87,10 @@
           <p>Le constructeur s’est montré ingénieux dans la répartition des poussées : augmentation de la portée du demi-berceau de la tribune et concentration des forces en des points assez précis.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r626185">
         <head rend="uc">Deuxième partie
          <lb/>Les églises romanes éclairées</head>
-        <div>
+        <div xml:id="r626193">
           <head rend="uc">Chapitre premier
            <lb/>éclairage et voûtement.</head>
           <p>Les architectes romans ont cherché à voûter leurs églises et à les éclairer. Le second problème était facile à résoudre si l’église n’avait qu’une nef, même voûtée, ou si elle avait des bas-côtés et était couverte de charpente : avantages et inconvénients de ce dernier système.</p>
@@ -101,7 +99,7 @@
           <p>Liste des églises romanes à nef et collatéraux, éclairées et voûtées, en France.</p>
           <p>Les voûtes employées sont les berceaux, les voûtes en quart de cercle, les voûtes d’arêtes et, plus rarement, les berceaux transversaux et les coupoles ; avantages et inconvénients de ces divers systèmes.</p>
         </div>
-        <div>
+        <div xml:id="r626219">
           <head rend="uc">Chapitre II
            <lb/>Voutes en berceaux sur la nef et les bas-côtés.</head>
           <p>L’église-type étudiée est celle de Bourg-Saint-Andéol (Ardèche), construite dans la première moitié du <num>xii<hi rend="sup">e</hi></num> siècle, probablement de 1108 à 1119 : plan des travées, voûtes, supports, élévation et fenêtres hautes.</p>
@@ -109,7 +107,7 @@
           <p>Histoire : les églises datées sont Arles-sur-Tech (1046-1157), Saint-Guilhem-du-Désert (1066-1076), Saint-Benoît-sur-Loire (1080-1118), Castelnau-Pégayrolles (après 1082), Cruas (après 1098), Bourg-Saint-Andéol (1108-1119), Nant (après 1135). Dates approximatives des autres édifices.</p>
           <p>Étude du plan des travées, des voûtes, des supports, de l’élévation et de l’éclairage des églises de ce type. L’emploi des trois berceaux parallèles pour couvrir la nef et les collatéraux n’est pas fréquent ; la stabilité est difficile à assurer.</p>
         </div>
-        <div>
+        <div xml:id="r626246">
           <head rend="uc">Chapitre III
            <lb/>Voûtes en berceau sur la nef et en quart de cercle
            <lb/>sur les collatéraux.</head>
@@ -119,7 +117,7 @@
           <p>Histoire : on date les églises de Ris vers 985, Châteaumeillant avant 1152, Arles avant 1152, Saint-Paul-Trois-Châteaux entre 1154 et 1210, Vaison de 1160 au début du <num>xiii<hi rend="sup">e</hi></num> siècle. Dates approximatives des autres édifices.</p>
           <p>Étude du plan des travées, des voûtes, des supports, de l’élévation et de l’éclairage des églises de ce type. Les églises couvertes d’un berceau sur la nef et de voûtes en quart de cercle sur les bas-côtés ont une stabilité parfaite et n’ont jamais reçu d’arcs-boutants.</p>
         </div>
-        <div>
+        <div xml:id="r626280">
           <head rend="uc">Chapitre IV
            <lb/>Voûte en berceau sur la nef
            <lb/>et voûtes d’arêtes sur les bas-côtés.</head>
@@ -129,7 +127,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.31eeawaw#764f65b5ff11c2e15bad6ff151d26348ce024899" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.31eeawaw/764f65b5ff11c2e15bad6ff151d26348ce024899/full/full/0/default.jpg"/>
           <p>Étude du plan des travées, des voûtes, des supports, de l’élévation et de l’éclairage des églises de ce type. On peut reconnaître deux familles parmi ces édifices, dont l’élévation est à deux ou trois étages : Mauriac et Saulieu sont des églises de même importance, dont la comparaison fait ressortir les différences entre ces deux familles. Mais les architectes des églises « clunisiennes » ont souvent été trop audacieux et leurs églises ont eu besoin d’arcs-boutants.</p>
         </div>
-        <div>
+        <div xml:id="r626320">
           <head rend="uc">Chapitre V
            <lb/>Voûtes d’arêtes sur la nef et les collatéraux.</head>
           <p>L’église-type étudiée est celle de Pontaubert (Yonne), construite à la fin du <num>xii<hi rend="sup">e</hi></num> siècle, après 1167 : plan des travées, voûtes, supports, élévation et fenêtres hautes.</p>
@@ -137,13 +135,13 @@
           <p>Histoire : les églises datées sont Vézelay (1120-1140 environ), Dijon, Saint-Philibert (après 1137), Pontaubert (après 1167), Les Vaux-de-Cernay (1135-1180). Dates approximatives des autres édifices qui s’échelonnent du début du <num>xi<hi rend="sup">e</hi></num> à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Étude du plan des travées, des voûtes, des supports, de l’élévation et de l’éclairage des églises de ce groupe. Les églises voûtées d’arêtes sur la nef et les collatéraux sont relativement peu nombreuses en France, car le développement de la croisée d’ogives y a arrêté l’expansion des églises à voûtes d’arêtes.</p>
         </div>
-        <div>
+        <div xml:id="r626359">
           <head rend="uc">Chapitre VI
            <lb/>Voûtes diverses.</head>
           <p>Deux églises sont couvertes de berceaux transversaux sur la nef et de voûtes d’arêtes sur les bas-côtés : Tournus (1028-<pb source="https://nakala.fr/10.34847/nkl.31eeawaw#626f85d129dd23a7010e98ce120aaf85f1544c8f" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.31eeawaw/626f85d129dd23a7010e98ce120aaf85f1544c8f/full/full/0/default.jpg"/>1107) et Mont-Saint-Vincent (Saône-et-Loire) ; étude de la nef et de l’étage du narthex de Tournus, puis de l’église de Mont-Saint-Vincent : plan des travées, voûtes, supports, élévation et fenêtres hautes. Liaucous (Aveyron) a utilisé le berceau sur la nef et les berceaux transversaux sur les bas-côtés.</p>
           <p>Une église est couverte d’une file de coupoles : Le Puy (Haute-Loire).</p>
         </div>
-        <div>
+        <div xml:id="r626379">
           <head rend="uc">Chapitre VII
            <lb/>Recherches d’éclairage dans les pays étrangers.</head>
           <p>L’Angleterre n’a pas d’église romane éclairée et voûtée, à l’exception de Lewes, aujourd’hui détruite.</p>
@@ -157,7 +155,7 @@
           <p>La Syrie et la Palestine ont vu se constituer pendant l’occupation des Croisés deux types d’églises romanes éclairées et voûtées : dans l’un, le berceau de la nef est contre-buté par les voûtes d’arêtes des collatéraux ; dans l’autre, la nef et les bas-côtés sont couverts de voûtes d’arêtes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r626436">
         <head rend="uc">Conclusion</head>
         <p>Les recherches des architectes romans sur l’éclairage et le voûtement des églises à nef et bas-côtés ont été couronnées de succès ; trois systèmes de voûtes ont été fréquemment employés, ce sont : le berceau de la nef contre-buté par les voûtes en quart de cercle des bas-côtés, le berceau de la nef joint aux voûtes d’arêtes des collatéraux, et les voûtes d’arêtes sur la nef et les bas-côtés. Les fenêtres hautes sont presque toujours tracées en plein cintre et doublement ébrasées ; quand elles sont percées sous une voûte d’arêtes, elles sont beaucoup plus grandes que si la voûte de la nef est un berceau.</p>
         <p>L’étude du chiffre caractéristique d’une église (produit de la hauteur de la nef par sa largeur) permet peut-être de la dater approximativement : comparaison de ces chiffres pour les églises romanes éclairées.</p>

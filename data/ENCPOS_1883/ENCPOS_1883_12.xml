@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1883_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1883_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,14 +55,14 @@
         <forename>Ernest</forename>
         <surname>Langlois</surname>
       </byline>
-      <div>
+      <div xml:id="r120876">
         <head rend="uc">Introduction</head>
         <p>Indication des ouvrages qui se sont déjà occupés du poëme.</p>
       </div>
-      <div>
+      <div xml:id="r120886">
         <head rend="uc">Première partie
          <lb/>Étude historique</head>
-        <div>
+        <div xml:id="r120894">
           <head rend="uc">
             <hi rend="i">A.</hi> – Sources de la Chanson.</head>
           <p>Le <hi rend="i">Coronement Looys</hi> se divise en cinq parties correspondant à des poëmes antérieurement distincts.</p>
@@ -80,7 +78,7 @@
           <p>V. La cinquième partie contient la narration de la rébellion des vassaux contre Louis.</p>
           <p>Elle a une source historique incontestable, a savoir : les luttes de Guillaume de Montreuil-sur-Mer, au nom de Lothaire, fils de Louis d’Outre-mer, contre les vassaux rebelles.</p>
         </div>
-        <div>
+        <div xml:id="r120951">
           <head rend="uc">
             <hi rend="i">B.</hi> – Formation du poeme.</head>
           <p>I. Fusion de plusieurs poëmes en un seul.</p>
@@ -88,34 +86,34 @@
           <p>III. Fusion de plusieurs personnages en un seul, sous le nom de Guillaume.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r120972">
         <head rend="uc">Deuxième partie
          <lb/>Étude littéraire</head>
         <p><hi rend="i">A.</hi> – Les allusions au <hi rend="i">Coronement Looys</hi> faites par les textes du moyen âge.</p>
         <p><hi rend="i">B.</hi> – Les remaniements en prose.</p>
       </div>
-      <div>
+      <div xml:id="r120997">
         <pb source="https://nakala.fr/10.34847/nkl.3310g28j#80e9e9e2f51fb04cfa72e9510821df9bbe126d8a" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.3310g28j/80e9e9e2f51fb04cfa72e9510821df9bbe126d8a/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Étude philologique</head>
-        <div>
+        <div xml:id="r121010">
           <head rend="uc">
             <hi rend="i">A.</hi> – Étude des leçons.</head>
           <p>I. Les manuscrits qui contiennent le <hi rend="i">Coronement Looys.</hi></p>
           <p>II. Leur classification.</p>
         </div>
-        <div>
+        <div xml:id="r121030">
           <head rend="uc">
             <hi rend="i">B.</hi> – Étude des formes.</head>
           <p>I. Assonances.</p>
           <p>II. Mesure des vers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r121048">
         <head rend="uc">Conclusion</head>
         <p>Le <hi rend="i">Coronement Looys,</hi> dans sa forme actuelle, a été rédigé par un trouvère français, au commencement du douzième siècle.</p>
       </div>
-      <div>
+      <div xml:id="r121062">
         <head rend="uc">Texte critique
          <lb/>du
          <lb/>Coronement Looys</head>

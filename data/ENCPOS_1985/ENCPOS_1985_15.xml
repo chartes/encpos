@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,20 +56,20 @@
         <forename>Marie-Hélène</forename>
         <surname>Renou</surname>
       </byline>
-      <div>
+      <div xml:id="r1123395">
         <head rend="uc">Introduction</head>
         <p>Les grandes idées du XIX’ siècle sur l’assistance – prise de conscience des problèmes posés par la paupérisme et refus d’intervention de l’État en matière sociale – se traduisent différemment suivant la ville que l’on considère. C’est la situation de Toulouse, ville en plein essor démographique et située dans une région rurale, qui sera étudiée ici à travers l’évolution de ses hospices civils.</p>
       </div>
-      <div>
+      <div xml:id="r1123405">
         <head rend="uc">Sources</head>
         <p>Source de base de ce travail, les fonds de l’Hôtel-Dieu de Toulouse (délibérations de la commission administrative, états de mouvement et comptes) et de l’hospice de la Grave (état de mouvement) sont conservés aux Archives départementales de la Haute-Garonne. Les problèmes que posent notamment les nombreuses lacunes et une certaine partialité des délibérations peuvent être en partie résolus, à l’aide d’une très abondante documentation complémentaire, fournie aux Archives départementales par les séries L, X (administration hospitalière en général) et Y (dépôts de mendicité), et aux Archives municipales de Toulouse par les séries D, I, Q (administration hospitalière), R (domaine médical) et S : la correspondance échangée entre la commission et le préfet ou le maire, de même que les documents directement émanés du département ou de la ville, révèlent des aspects souvent absents des délibérations. Enfin, la sous-série F<hi rend="sup">15</hi> des Archives nationales, qui contient les documents provenant du ministère de l’Intérieur (correspondance échangée entre le ministre et le préfet) est <pb source="https://nakala.fr/10.34847/nkl.b0acskda#e4b248e2978e3c623bf717ea5031784c921d12d1" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.b0acskda/e4b248e2978e3c623bf717ea5031784c921d12d1/full/full/0/default.jpg"/>d’un apport essentiel, tant par les données fournies que par une vision plus objective.</p>
         <p>J’ai rencontré une double difficulté. En premier lieu, je n’ai pu vérifier par moi-même dans les archives de la congrégation des Filles de la Charité la disparition, qui m’a été signalée, des témoignages apportés par les supérieures des hospices sur l’administration hospitalière, ainsi que celle de la correspondance échangée entre les supérieures de Toulouse et leur supérieure générale de Paris. D’autre part, aux Archives départementales de la Haute-Garonne, le fonds de l’Hôtel-Dieu et la série X ne sont pas classés, mais seulement inventoriés sommairement, ce qui y rend la recherche malaisée.</p>
       </div>
-      <div>
+      <div xml:id="r1123427">
         <head rend="uc">Première partie
          <lb/>L’administration et le personnel
          <lb/>des hospices de Toulouse</head>
-        <div>
+        <div xml:id="r1123437">
           <head rend="uc">Première section
            <lb/>l’administration des hospices civils</head>
           <div>
@@ -85,7 +83,7 @@
             <p>Deux types de relations sont ici en jeu ; la tutelle du maire, ambiguë après l’an VIII, se borne souvent à des règlements de comptes locaux aussi mesquins que violents. Celle du préfet évolue très nettement ; jusqu’à la <pb source="https://nakala.fr/10.34847/nkl.b0acskda#fc767678a35c5bba6678b4b108580f0975c08365" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.b0acskda/fc767678a35c5bba6678b4b108580f0975c08365/full/full/0/default.jpg"/>Restauration, les préfets créent : ils sont les instigateurs des grandes transformations hospitalières tout en exerçant un contrôle pointilleux sur la gestion ; par la suite, seul ce contrôle s’exerce encore, mais de plus loin. Les initiatives préfectorales, lorsqu’elles ne s’accordent pas avec les habitudes locales ou les vues des administrateurs, donnent lieu, jusqu’en 1830, à des conflits d’une rare violence et se soldent par un échec des autorités de tutelle devant l’incroyable pouvoir et l’indépendance des notables locaux.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1123475">
           <head rend="uc">Deuxième section
            <lb/>le personnel des hospices et ses fonctions</head>
           <div>
@@ -111,7 +109,7 @@
             <p>Entièrement sous l’autorité des supérieures, le personnel subalterne n’est qu’une catégorie d’assistés un peu à part. De même origine sociale que les hospitalisés, il partage leurs conditions de vie assez rudes. C’est une population mouvante qui ne reste pas longtemps à l’hôpital, sans qualification ni ressources, mais accueillie en grand nombre par les administrateurs, malgré l’opposition des autorités supérieures.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1123540">
           <head rend="uc">Troisième section
            <lb/>un personnel en pleine évolution : le personnel médical</head>
           <div>
@@ -128,11 +126,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1123584">
         <head rend="uc">Deuxième partie
          <lb/>Les moyens financiers
          <lb/>et la gestion des hospices</head>
-        <div>
+        <div xml:id="r1123594">
           <head rend="uc">Première section
            <lb/>les ressources et les problèmes financiers</head>
           <div>
@@ -157,7 +155,7 @@
             <p>Passé le point culminant de la détresse, en l’an VII, où l’on parle de fermer les hospices, un lent rétablissement s’opère jusqu’en 1820, dû à la régularité des versements de fonds par le département pour le service des <pb source="https://nakala.fr/10.34847/nkl.b0acskda#12961dc121ba9232c3c7d68804155bed817e7ecd" n="131" facs="https://api.nakala.fr/iiif/10.34847/nkl.b0acskda/12961dc121ba9232c3c7d68804155bed817e7ecd/full/full/0/default.jpg"/>enfants trouvés, source d’énorme dépende. De l’an VI à 1870, les dépenses triplent : elles passent de 271 663 francs à 998 440 francs. Une crise économique vite réglée, vers 1853, provoque l’émergence de problèmes latents : l’impossibilité d’obtenir du département une subvention annuelle pour des services qui accueillent des individus de toute la Haute-Garonne contraint les hospices à aliéner l’équivalent de 500 000 francs de patrimoine, de 1850 à 1870. Cette situation est ressentie comme inacceptable en 1870.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1123663">
           <head rend="uc">Deuxième section
            <lb/>la gestion et l’approvisionnement</head>
           <div>
@@ -177,58 +175,58 @@
             <p>Les travaux (« les palais des pauvres au profit de l’orgueil des administrateurs ») sont un parfait exemple de l’ajustement qui a eu lieu entre les conceptions des médecins, obnubilés par l’air et la salubrité, et celles des administrateurs ; on a assaini et construit suivant les théories en vogue, tout en gardant l’aspect monumental cher aux administrateurs. En outre, <pb source="https://nakala.fr/10.34847/nkl.b0acskda#1d55e654d3293dc4e4739e361a9d224bd73f4793" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.b0acskda/1d55e654d3293dc4e4739e361a9d224bd73f4793/full/full/0/default.jpg"/> certaines constructions n’ont d’autre but que l’esthétique. Les assainissements sont réalisés sous le Premier Empire, les constructions utilitaires vers 1840 et les grands travaux après 1860.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1123722">
           <head rend="uc">Troisième section
            <lb/>les sociétés de secours : concurrence ou complémentarité</head>
           <p>A Toulouse, les sociétés de secours sont surtout des sociétés de prière et de bienfaisance ; il en existe une cinquantaine, tolérées par les autorités, dont la Société de charité maternelle. L’action de ces sociétés, mis à part cette dernière, n’allège pas la tâche des hospices mais renforce leur fonction d’accueil.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1123735">
         <head rend="uc">Troisième partie
          <lb/>La diversité des tâches permanentes</head>
-        <div>
+        <div xml:id="r1123743">
           <head rend="uc">Chapitre premier
            <lb/>les conditions de vie dans les hospices</head>
           <p>Le devoir moral des administrateurs envers les pauvres confiés à leur charge domine tous les secteurs : c’est en vertu de ce devoir qu’ils améliorent, dès qu’ils le peuvent, toutes les conditions matérielles, de l’alimentation à l’hygiène, jusqu’au degré qu’ils jugent suffisant et qui est atteint vers 1840 ; c’est lui qui les pousse à moraliser les pauvres par une instruction religieuse, un travail quotidien et une discipline stricte ; de lui découle aussi le souci psychologique à l’égard de la mort et de certains tabous ou secrets à respecter, vivace pendant tout le siècle.</p>
           <p>En tout domaine, ils jugent cas par cas, n’appliquant pas forcément la réglementation à la lettre. Aucun reproche ne leur est jamais adressé sur les conditions de vie dans les hospices, par aucune autorité : elles sont bien conformes à ce qu’on demande à ce type d’établissement.</p>
         </div>
-        <div>
+        <div xml:id="r1123758">
           <head rend="uc">Chapitre II
            <lb/>Les malades et leur traitement : un constat d’échec</head>
           <p>Les 2 000 à 2 800 malades qui entrent chaque année à l’Hôtel-Dieu (qui <pb source="https://nakala.fr/10.34847/nkl.b0acskda#41b0e026b27f8fcc0d698f8c277014097a3e9bff" n="133" facs="https://api.nakala.fr/iiif/10.34847/nkl.b0acskda/41b0e026b27f8fcc0d698f8c277014097a3e9bff/full/full/0/default.jpg"/>regroupe les trois quarts des lits d’hôpital du département) sont en majorité des hommes jeunes, isolés et indigents. Les administrateurs ont constamment adapté l’hôpital aux nouvelles nécessités, essor démographique de la ville et nouvelles théories hygiénistes, réalisant une œuvre très importante sans pour autant faire baisser le taux de mortalité. Tout ce qui a pu être fait l’a été en 1870 dans le cadre de la diversification, de l’augmentation de la capacité d’accueil et de la spécialisation des services hospitaliers et des activités extra-hospitalières (le thermalisme par exemple). La ville a en outre été épargnée par toutes les épidémies sauf le choléra en 1854 et la variole en 1870.</p>
           <p>En 1870, on est arrivé à une situation au-delà de laquelle on ne peut plus aller avec les connaissances scientifiques existantes : il faut des découvertes et leur vulgarisation pour avancer à nouveau.</p>
         </div>
-        <div>
+        <div xml:id="r1123778">
           <head rend="uc">Chapitre III
            <lb/>Les services réservés aux femmes : une évolution irréversible</head>
           <p>On assiste jusqu’en 1840 à une disparition totale des quartiers qui n’étaient que des prisons pour femmes et du côté répressif (travail forcé, détention après le traitement...) qui s’attachait traditionnellement aux autres services réservés aux femmes : l’Hôtel-Dieu ne fait plus que traiter les femmes qui se présentent, venant de tout le département. On traite les maladies vénériennes et on opère les accouchements difficiles, comme au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
           <p>La maternité n’accueille plus seulement les mères célibataires qui veulent cacher leur grossesse et abandonner l’enfant, mais aussi, après 1850, des femmes mariées indigentes qui craignent l’inexpérience des sages-femmes des campagnes : de même, les tentatives pour exalter l’instinct maternel en leur faisant allaiter leur enfant sont couronnées de succès puisque la plupart des femmes emmènent avec elles leur enfant à la sortie de l’hôpital.</p>
         </div>
-        <div>
+        <div xml:id="r1123799">
           <head rend="uc">Chapitre IV
            <lb/>Les vieillards ou l’hôpital immobile ?</head>
           <p>On ne discerne aucune évolution dans l’hospitalisation des vieillards, si ce n’est l’amélioration générale des conditions de vie, parce qu’aucun besoin nouveau ne se fait sentir.</p>
           <p>Deux seules particularités sont à noter : la présence archaïque à l’Hôtel-Dieu, alors que c’est un hôpital, de vieillards incurables dont les places sont issues de fondations, individus autrefois aisés mais tombés dans la pauvreté, ce qui leur vaut cette faveur, et l’apparition vers 1860 d’incurables payants.</p>
         </div>
-        <div>
+        <div xml:id="r1123814">
           <pb source="https://nakala.fr/10.34847/nkl.b0acskda#1d12cb931508358cc7a02d1561cacd917667148a" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.b0acskda/1d12cb931508358cc7a02d1561cacd917667148a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>L’hospice des orphelines : l’archaïsme
            <lb/>au cœur de la rationalisation</head>
           <p>L’existence et la situation de l’hospice des Orphelines illustrent la puissance de la charité privée à Toulouse : l’opinion publique a réussi à faire échouer les tentatives de rationalisation menées par la commission pour réunir cet hospice à la Grave ; les orphelines, filles de familles honorables tombées dans la pauvreté, gardent le régime qui leur a été fixé à la fondation de l’hospice au <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1123839">
           <head rend="uc">Chapitre VI
            <lb/>Les enfants des hospices ou l’éducation des futurs
            <lb/>« bons pauvres »</head>
           <p>Malgré le nombre considérable d’enfants à la charge des hospices (deux mille), le souci de la vie et du bien-être de chaque enfant dirige toute la politique des administrateurs, même s’ils doivent pour cela affronter les autorités de tutelle, en continuant par exemple à accueillir des enfants légitimes des familles indigentes ou en refusant les déplacements d’enfants de famille à famille nourricière. Grâce à plusieurs mesures préfectorales et aux secours apportés par les hospices aux familles, le nombre des enfants à charge diminue très nettement après 1840. Lorsqu’il est impossible de les maintenir dans leur famille, on place les enfants à la campagne, chez des familles nourricières, en facilitant leur reprise par les parents si ceux-ci offrent des garanties économiques, morales et affectives suffisantes. Pour attacher les enfants à la terre, on crée en 1869 un orphelinat agricole, dont l’idée date de 1848, mais celui-ci, créé trop tard, se solde par un échec en 1878.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1123854">
         <head rend="uc">Quatrième partie
          <lb/>La spécialisation des hospices :
          <lb/>vers l’abandon des tâches marginales</head>
-        <div>
+        <div xml:id="r1123864">
           <head rend="uc">Première section
            <lb/>les tâches temporaires</head>
           <div>
@@ -244,7 +242,7 @@
             <p>Le dépôt de mendicité est plus un concept qu’un lieu déterminé ; les catégories d’individus concernées varient au fil du temps. Toutefois, il renferme toujours tous ceux qu’on ne peut secourir ailleurs ni accueillir, pour quelque raison, à l’hospice ou à l’hôpital. La meilleure formule d’administration reconnue, après de multiples essais, se révèle être celle des hospices civils, ce qui fait que les dépôts toulousains sont toujours plus proches d’un hospice que d’une maison de répression, malgré les vœux des autorités pour plus de sévérité.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1123905">
           <head rend="uc">Deuxième section
            <lb/>les séparations définitives</head>
           <div>
@@ -267,15 +265,15 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1123975">
         <head rend="uc">Conclusion</head>
         <p>La situation en 1870 peut se résumer en trois points : il s’agit de charité, non d’assistance ; c’est le pouvoir des notables locaux qui détermine entièrement, ou presque, ses orientations ; on est arrivé à une rupture, surtout dans le domaine de la médecine : tout ce qui était possible a été réalisé et pour avancer à nouveau, il faut de nouvelles connaissances et de nouvelles commissions administratives capables de concilier deux mondes opposés, celui des médecins et celui des administrateurs. Quant aux mouvements, on remarque le rôle du préfet, traduction exacte des idées politiques du régime en place, l’installation progressive du pouvoir médical à l’hôpital et, enfin, la montée des aspirations démocratiques liées à l’explosion du socialisme après 1848 qui suscite une peur viscérale chez les notables et les pousse à ne laisser aucune misère sans secours, tout en niant tout droit de l’assisté ou du petit employé à obtenir quoi que ce soit. Or ceux qui étaient muets se mettent à parler et à poser leurs revendications après 1850.</p>
       </div>
-      <div>
+      <div xml:id="r1123985">
         <head rend="uc">Pièces justificatives</head>
         <p>Procès-verbal d’abandon au tour. – Noms donnés aux enfants trouvés. – Traité passé avec les sœurs. – Circulaire ministérielle sur l’alimentation dans les hospices. – Instruction populaire sur le choléra.</p>
       </div>
-      <div>
+      <div xml:id="r1123995">
         <head rend="uc">Annexes</head>
         <p>États des mouvements des hospitalisés et du personnel. – Index et listes des administrateurs, des médecins, des préfets et des maires. – Cartes et états concernant le patrimoine immobilier. – Plans et gravures concernant les campagnes de travaux.</p>
         <pb source="https://nakala.fr/10.34847/nkl.b0acskda#75936a6a6f2ce2511b4252afbc650556118f2382" n="138" facs="https://api.nakala.fr/iiif/10.34847/nkl.b0acskda/75936a6a6f2ce2511b4252afbc650556118f2382/full/full/0/default.jpg"/>

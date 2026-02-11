@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,7 +60,7 @@
         <head rend="uc">Avant-propos</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r534486">
         <head rend="uc">Introduction</head>
         <p>A l’origine, simple château-fort construit au X<hi rend="sup">e </hi>siècle sur une éminence à 1 kilomètre au nord-est de Clermont, par Ferrand, comte d’Auvergne, Montferrand passa par mariage, au <num>xiii<hi rend="sup">e</hi></num> siècle, dans la famille de Beaujeu, puis fut vendu à Philippe le Del, en 1292. L’Auvergne ayant été érigée en duché et donnée en apanage à Jean de Berry en 1360, Montferrand, grâce à ses privilèges, resta dans la main du roi. A la mort du duc (juin 1416), la juridiction du bailliage royal fut organisée à Montferrand.</p>
       </div>
@@ -74,39 +72,39 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r534524">
         <pb source="https://nakala.fr/10.34847/nkl.4135o00t#06c874a55d1fc195a4ff642cb70b8d5b94995bee" n="160" facs="https://api.nakala.fr/iiif/10.34847/nkl.4135o00t/06c874a55d1fc195a4ff642cb70b8d5b94995bee/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre premier
          <lb/>ville et territoire de Montferrand.</head>
         <p>La ville, qui dessine un vaste quadrilatère entouré de fossés et de murailles percées de quatre portes, était divisée en quatre quartiers par deux rues perpendiculaires ; le ruisseau de Tiretaine l’encerclait de deux bras. La maison consulaire était située, depuis le début du <num>xvi<hi rend="sup">e</hi></num> siècle, dans le quartier de la Vacherie (nord-ouest) ; les halles, dans celui des Moles (nord-est) ; la collégiale Notre-Dame, à l’est ; l’église paroissiale Saint-Robert (prieuré de Bénédictins), dans le quartier de la Saunerie (sud-est) ; d’autres édifices religieux s’élevaient dans la ville ou hors des murs : couvent des Cordeliers, des chanoines réguliers de Saint-Antoine, commanderies des Templiers et des Chevaliers de Malte.</p>
         <p>La « justice » de Montferrand s’étendait, au nord, jusqu’à la Croix-Bertrand, à l’est, jusqu’au ruisseau d’Artière, touchait, au sud-est et au sud, les territoires de Cournon et Clermont, atteignait, à l’ouest, Cattaroux et les pentes de Chanturgue.</p>
       </div>
-      <div>
+      <div xml:id="r534550">
         <head rend="uc">Chapitre II
          <lb/>Communauté urbaine et franchises.</head>
         <p>Deux chartes de coutumes furent octroyées à Montferrand : 1 une, à la fin du <num>xii<hi rend="sup">e</hi></num> siècle, par le comte Guillaume ; l’autre, en 1291, par Louis de Beaujeu ; une rédaction en langue vulgaire, avec addition des privilèges accordés par la royauté, fut faite, en 1496, par Jean Pradal. L’organisation du consulat, l’octroi du droit de barre, l’autorisation de percevoir les leydes, le rattachement immédiat à la couronne de<pb source="https://nakala.fr/10.34847/nkl.4135o00t#62a86370c84f630a2ca8e0dd1fe6467542be007f" n="161" facs="https://api.nakala.fr/iiif/10.34847/nkl.4135o00t/62a86370c84f630a2ca8e0dd1fe6467542be007f/full/full/0/default.jpg"/>puis 1225, la concession de foires et marchés étaient les principaux privilèges dont jouissait la communauté ; les consuls avaient le droit de créer des « bourgeois du roi » et d’avoir un sceau pour les affaires municipales.</p>
       </div>
-      <div>
+      <div xml:id="r534573">
         <head rend="uc">Chapitre III
          <lb/>Personnel de l’administration.</head>
         <p>Les consuls, chargés d’administrer la ville, étaient au nombre de quatre, nommés chaque année par cooptation, payés et habillés aux frais de la communauté. Ils avaient pour auxiliaires des conseillers, choisis par eux, non rémunérés et en nombre variable ; le clerc de la ville, les gâtiers chargés de veiller à la conservation des « fruits » et moissons sur tout le territoire, les « huches » ou crieurs publics, le sergent, les portefaix spécialement affectés à l’ensevelissement des pestiférés, les portiers commis à la garde des ponts-levis, le trompette étaient les principaux serviteurs municipaux, nommés par les consuls, vêtus et « gagés » aux frais de la ville. En outre, un médecin, un maître d’école, et des hommes de divers corps de métier étaient affectés au service de la communauté ; la distribution des aumônes et le soin des lépreux étaient assurés par quatre « bailes de la charité ».</p>
       </div>
-      <div>
+      <div xml:id="r534585">
         <head rend="uc">Chapitre IV
          <lb/>Administration générale et police.</head>
         <p>De fréquentes délibérations réunissaient les consuls et leurs conseillers en assemblées, dans la maison de ville. Administrateurs de la communauté, les <pb source="https://nakala.fr/10.34847/nkl.4135o00t#2c415b0623c57147216bf82618cea451c4282222" n="162" facs="https://api.nakala.fr/iiif/10.34847/nkl.4135o00t/2c415b0623c57147216bf82618cea451c4282222/full/full/0/default.jpg"/>consuls étaient pleinement responsables : ils devaient, à leur sortie de charge, rendre compte de leur gestion financière à des « auditeurs ». Ils assuraient la police des rues et des routes, les services d’eau et de voirie, prenaient des dispositions en cas de peste, surveillaient les foires et marchés, les poids et mesures ; la réglementation des processions et le choix des prédicateurs leur incombaient, ainsi que la fonte des cloches. Les consuls possédaient la juridiction de la « purge », tribunal institué pour l’examen de toutes causes concernant les lépreux en Auvergne et dans les pays avoisinants. Enfin, la garde des pâturages communs, la proclamation du ban des vendanges, la direction des travaux et réparations de la ville faisaient partie de leurs attributions.</p>
       </div>
-      <div>
+      <div xml:id="r534602">
         <head rend="uc">Chapitre V
          <lb/>Défense de la ville.</head>
         <p>Montferrand était défendu par son château-fort et ses remparts munis de tours. Le service de guet et la garde des portes assuraient la sécurité de la ville en temps de paix et de troubles ; tous les habitants, même les gens d’église, y étaient tenus. Si les consuls le jugeaient bon, ils nommaient, pour une durée variable et aux gages de la ville, un capitaine chargé de tous pouvoirs militaires. En tant que « bonne ville » du roi, Montferrand entretenait et équipait à ses frais huit francs-archers ; des hallebardiers servaient aussi les consuls. Quatre canons au moins, des couleuvrines, arquebuses et autres « bâtons d’artillerie » étaient entretenus par la municipalité. La résistance aux routiers et pillards n’était pas le moindre souci des organisateurs de la défense.</p>
       </div>
-      <div>
+      <div xml:id="r534614">
         <pb source="https://nakala.fr/10.34847/nkl.4135o00t#faa96a34c412a62ddc90a3d16ce289f3e09c7ace" n="163" facs="https://api.nakala.fr/iiif/10.34847/nkl.4135o00t/faa96a34c412a62ddc90a3d16ce289f3e09c7ace/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre VI
          <lb/>Finances.</head>
         <p>Les consuls, responsables. de l’équilibre du budget municipal, assuraient en outre la levée des impôts royaux.</p>
-        <div>
+        <div xml:id="r534630">
           <head rend="uc">I. Deniers communs.</head>
           <div>
             <head rend="uc">1° RECETTES. – A. <hi rend="i">Ressources ordinaires :</hi></head>
@@ -125,11 +123,11 @@
             <p>Entretien des murailles et portes, monuments publics, rues, routes, fontaines ; gages des serviteurs de la ville, frais des processions et prédications, aumônes, réceptions de hauts personnages et cadeaux, envoi de délégués, frais de procédure.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r534731">
           <head rend="uc">II. Equilibre du budget.</head>
           <p>Comptes rendus par les consuls en fin de charge ; lorsque les dettes étaient élevées, on décidait de percevoir tant de deniers par livre sur les habitants ; mais l’état des finances était en général satisfaisant.</p>
         </div>
-        <div>
+        <div xml:id="r534741">
           <head rend="uc">III. Deniers royaux, assiette et perception.</head>
           <div>
             <head rend="uc">1° Impositions directes :</head>
@@ -149,15 +147,15 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r534829">
         <head rend="uc">Chapitre VII
          <lb/>Importance de Montferrand dans la région.</head>
-        <div>
+        <div xml:id="r534837">
           <head rend="uc">I. Rapports avec le roi.</head>
           <p>Origine de ses droits ; le siège de la juridiction des Exempts d’Auvergne (églises de fondation royale et cas royaux) fut établi en 1466 à Montferrand. La possession du siège du bailliage royal lui conférait beaucoup d’importance et d’animation ; officiers de justice : bailli et son lieutenant-général, procureur et avocat, châtelain et son lieutenant.</p>
           <p>Pour les finances, Montferrand dépendait des élus de Basse-Auvergne, fixés à Clermont. Grands jours tenus cinq fois à Montferrand : sessions principales en 1481 et 1520.</p>
         </div>
-        <div>
+        <div xml:id="r534850">
           <head rend="uc">II. Rapports avec la Basse-Auvergne.</head>
           <p>Montferrand était la troisième des treize bonnes villes ; délégués envoyés aux réunions. Assemblées des Trois-Etats du Bas-Pays fréquemment tenues à Montferrand.</p>
           <pb source="https://nakala.fr/10.34847/nkl.4135o00t#2b2effc98a2417ad7eaecbf9d0c04f24652ee907" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.4135o00t/2b2effc98a2417ad7eaecbf9d0c04f24652ee907/full/full/0/default.jpg"/>
@@ -165,7 +163,7 @@
           <p>Rivalité avec Riom : en 1532, l’édit de Dieppe transféra dans cette ville le siège du bailliage ; en 1551, un présidial y fut créé, et en 1556, Henri II supprima toute juridiction royale à Montferrand. Malgré l’obtention d’une Cour des Aides en compensation de cette perte, ce fut le signal de sa décadence. La coexistence de trois villes importantes : Clermont, Riom, Montferrand, situées à si peu de distance les unes des autres, est un fait curieux à noter.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r534872">
         <head rend="uc">Conclusion</head>
         <p>Montferrand, réuni à Clermont par l’Edit d’union de 1631, confirmé en 1731, perdit toute importance et n’est plus aujourd’hui qu’une partie de Clermont-Ferrand.</p>
       </div>

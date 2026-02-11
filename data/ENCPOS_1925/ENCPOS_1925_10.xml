@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,28 +65,28 @@
         <head rend="uc">Sources. Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r442107">
         <head rend="uc">Première partie
          <lb/>Le pagus et la chatellenie de vertus</head>
-        <div>
+        <div xml:id="r442115">
           <head rend="uc">I. <hi rend="i">Le « pagus Vertudensis ».</hi></head>
           <p>Origines de Vertus. Du <num>vii<hi rend="sup">e</hi></num> à la fin du <num>ix<hi rend="sup">e</hi></num> siècle, chef-lieu de <hi rend="i">pagus ;</hi> limites incertaines de cette circonscription.</p>
         </div>
-        <div>
+        <div xml:id="r442144">
           <head rend="uc">II. <hi rend="i">Formation et histoire de la châtellenie.</hi></head>
           <p>Vertus, devenue la propriété des archevêques de Reims, est concédée à titre précaire à Herbert H, comte de Vermandois, dès la fin du <num>x<hi rend="sup">e</hi></num> siècle. Renouvellements de cette cession jusqu’au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle. Vertus, chef-lieu de châtellenie au <num>xii<hi rend="sup">e</hi></num> siècle, possède un prévôt dès cette époque. En 1210, construction du château fort du Mont-Aimé qui devient le centre d’une prévôté nouvelle.</p>
           <p>Douaire de plusieurs comtesses de Champagne, Vertus n’est réunie au domaine royal qu’en 1304, à la mort <pb source="https://nakala.fr/10.34847/nkl.e5b9odeb#f553240b101c8f104fb35d112f3fa1e6746e8157" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.e5b9odeb/f553240b101c8f104fb35d112f3fa1e6746e8157/full/full/0/default.jpg"/>de Blanche d’Artois, mère de Jeanne de Navarre, femme de Philippe le Bel.</p>
           <p>Charles, fils de Jean le Bon, régent du royaume, y fait tenir les Etats provinciaux de Champagne en 1358.</p>
         </div>
-        <div>
+        <div xml:id="r442186">
           <head rend="uc">III. <hi rend="i">Organisation de la châtellenie.</hi></head>
           <p>Elle est due surtout au gouvernement royal. Création et évolution de la garde des sceaux depuis 1302. Premières assises à la même époque. Amélioration de la justice par de fréquentes réformations.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r442200">
         <head rend="uc">Seconde partie
          <lb/>Le comté de vertus de 1361 à 1602</head>
-        <div>
+        <div xml:id="r442208">
           <head rend="uc">Titre premier
            <lb/>histoire générale</head>
           <p>Donation des trois châtellenies de Vertus, Rosnay et la Ferté-sur-Aube à Jean Galéas Visconti, en 1361, sous le titre de comté de Vertus.</p>
@@ -102,7 +100,7 @@
           <p>V. Les barons d’Avaugour suivent après lui une politique inverse, et conservent la possession de Vertus, moyennant un entier dévouement à la couronne royale. Cependant les guerres de religion amènent à nouveau la dévastation du comté.</p>
           <p>Mais c’est principalement la mauvaise politique financière suivie par les derniers comtes, qui amène le démembrement du comté en 1602.</p>
         </div>
-        <div>
+        <div xml:id="r442249">
           <head rend="uc">Titre II
            <lb/>Organisation du comté ; son évolution</head>
           <div>
@@ -136,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r442388">
         <head rend="uc">Appendices</head>
         <p>Liste des gouverneurs et des baillis.</p>
         <p>Sceaux ; cartes ; pièces justificatives.</p>

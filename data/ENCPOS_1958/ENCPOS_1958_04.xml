@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1958_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1958_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,13 +54,13 @@
         <forename>Yvonne</forename>
         <surname>Drieux</surname>
       </byline>
-      <div>
+      <div xml:id="r790113">
         <head rend="uc">Introduction</head>
         <p>L’hippiatrie ou médecine des chevaux constitue une des branches les plus importantes de l’art vétérinaire. Le premier ouvrage concernant son histoire est celui de P.-J. Amoreux, paru à Montpellier en 1773.</p>
         <p>Parmi les écrits des hippiatres de l’Antiquité, deux ouvrages sont fondamentaux : la <hi rend="i">Mulomedicina</hi> de Végèce (v<hi rend="sup">e</hi> siècle) et les <hi rend="i">Hippiatrica </hi>(<num>x<hi rend="sup">e</hi></num> siècle), compilation des traités d’Apsyrte, Pelagonius, Theomneste, Hiéroclès, Hippocrate et de nombreux autres vétérinaires byzantins du <num>iv<hi rend="sup">e</hi></num> siècle. Ces auteurs se montrent des cliniciens avertis ; leurs connaissances en thérapeutique sont développées.</p>
         <p>Du x<hi rend="sup">e</hi> au <num>xiii<hi rend="sup">e</hi></num> siècle, aucun écrit hippiatrique ne paraît plus, tandis que l’utilisation du cheval fait alors d’immenses progrès.</p>
       </div>
-      <div>
+      <div xml:id="r790163">
         <head rend="uc">Première partie
          <lb/>Les hippiatres</head>
         <p>A la cour de Frédéric H, qui s’intéresse personnellement aux sciences naturelles, vit la famille du comte de Catanzaro. L’un de ses membres, Giordano Ruffo, noble chevalier, châtelain de Cassino en 1239, est retenu par l’empereur pour s’occuper de l’écurie impériale. Après la mort de celui-ci, en 1250, Ruffo écrit, en latin, son <hi rend="i">De medicina equorum.</hi> Six ans plus tard, fait prisonnier par Manfred, il meurt en captivité. Quant aux sources de son ouvrage, Ruffo, sans aucun doute, connaît les <hi rend="i">Hippiatrica ; </hi>il est possible que ce soit à travers Hiéroclès. Mais, avant tout, il fait preuve d’une grande expérience personnelle. Son traité possède une réelle valeur scientifique. Il en existe de nombreux manuscrits en latin, en sicilien, en français, en provençal et même en hébreu. Son influence s’étend jusqu’à Carlo Ruini lui-même.</p>
@@ -82,16 +80,16 @@
         <p>Guillaume de Villiers nous semble être l’auteur du traité contenu dans les manuscrits français 1287 et 9577 de la Bibliothèque nationale et 336 de la Bibliothèque de Valenciennes, qui sont identiques. L’auteur utilise le <hi rend="i">De medicina equorum</hi> de Ruffo. Charmes et recettes magiques constituent la majeure partie de sa contribution.</p>
         <p>Les maréchaux de l’écurie du roi, Gauthier Dupré (1399-1403 et 1412), Audriet Levasseur (1419-1422), Pierre Leblanc et Antoine Lemareschal (1487), assurent ferrure et soins aux chevaux.</p>
       </div>
-      <div>
+      <div xml:id="r790337">
         <head rend="uc">Deuxième partie
          <lb/>L’hippiatrie</head>
-        <div>
+        <div xml:id="r790345">
           <head rend="uc">Chapitre premier
            <lb/>anatomie. Tératologie.</head>
           <p>Les notions d’anatomie des hippiatres sont celles qui sont utiles à la chirurgie ou celles qui se rapportent à des organes de siège superficiel. Les organes profonds sont simplement mentionnés, sans localisation exacte. Il n’existe pas de « pensée anatomique » à cette époque ; cet état de choses est dû à l’absence de la pratique des dissections.</p>
           <p>Les hippiatres possèdent une notion certaine de structures anormales existant dès la naissance qu’ils attribuent à un « faux pas » de la nature.</p>
         </div>
-        <div>
+        <div xml:id="r790360">
           <head rend="uc">Chapitre II
            <lb/>Pathologie générale.</head>
           <p>Les hippiatres décrivent comme des entités morbides différentes chacun des symptômes ou les formes plus ou moins graves de ce que nous savons maintenant n’être qu’une seule maladie. S’ils ne discutent aucun diagnostic différentiel, en revanche, ils posent fréquemment des pronostics.</p>
@@ -101,24 +99,24 @@
           <p>Les causes morbides occasionnelles intrinsèques sont l’âge et l’hérédité. Les causes extrinsèques comprennent les facteurs météorologiques, l’environnement, le régime alimentaire et le mode d’exploitation.</p>
           <p>Les hippiatres, enfin, font preuve de quelques notions de pathologie comparée.</p>
         </div>
-        <div>
+        <div xml:id="r790396">
           <head rend="uc">Chapitre III
            <lb/>Thérapeutique générale.</head>
           <p>Les principes de thérapeutique générale sont un corollaire de ceux de la pathologie. Les hippiatres obéissent donc au principe selon lequel il faut porter aide à la nature. Ils appliquent également le principe des contraires et celui des semblables à une thérapeutique fondée sur l’humoralisme. Ils expliquent très souvent le pourquoi de leur intervention ou le mode d’action du médicament formulé.</p>
           <p>Les formes pharmaceutiques et les modes d’administration sont extrêmement variés. La posologie est assez sommaire. Le régime, l’hygiène et l’isolement interviennent comme facteurs adjuvants de la thérapeutique.</p>
           <p>Les pratiques magiques ou « charmes » sont employées comme moyens d’urgence. Rusio, en outre, donne la description d’un « cheval astrologique ».</p>
         </div>
-        <div>
+        <div xml:id="r790414">
           <head rend="uc">Chapitre IV
            <lb/>Pathologie médicale.</head>
           <p>Les hippiatres possèdent une bonne connaissance d’un certain nombre de maladies ou d’affections qui sont encore aujourd’hui communes chez le cheval. Il faut, cependant, souligner leur ignorance totale des affections de l’appareil circulatoire.</p>
         </div>
-        <div>
+        <div xml:id="r790426">
           <head rend="uc">Chapitre V
            <lb/>Pathologie chirurgicale.</head>
           <p>Les connaissances des hippiatres en pathologie chirurgicale sont riches. La pathologie de l’appareil locomoteur, et singulièrement du pied, tient une place prépondérante. En consultant des ouvrages modernes, il est frappant d’y retrouver, sous le même vocable, les lésions décrites par les vétérinaires du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r790444">
           <head rend="uc">Chapitre VI
            <lb/>Pathologie infectieuse et parasitaire.</head>
           <p>La pathologie infectieuse n’a trouvé rang dans les sciences médicales <pb source="https://nakala.fr/10.34847/nkl.dec688t1#81edd8a2705843f81cab6e77f90034e10197fed8" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.dec688t1/81edd8a2705843f81cab6e77f90034e10197fed8/full/full/0/default.jpg"/>qu’à partir des travaux de Pasteur. Cependant, bien avant la découverte de leur agent causal, les vétérinaires médiévaux connaissaient la gravité et la contagiosité de certaines maladies qui font toujours peser une menace sur l’élevage du cheval.</p>
@@ -126,24 +124,24 @@
           <p>Nous considérons aussi que <hi rend="i">stima</hi> est bien le tétanos au début et non l’entorse cervicale.</p>
           <p>Les hippiatres possèdent une connaissance plus rudimentaire des maladies parasitaires : gastrophilose larvaire, verminose intestinale et gale.</p>
         </div>
-        <div>
+        <div xml:id="r790481">
           <head rend="uc">Chapitre VII
            <lb/>Thérapeutique chirurgicale.</head>
           <p>Les auteurs des traités d’hippiatrie sont des chirurgiens habiles. La minutie de certaines de leurs opérations le montre suffisamment. Mais, s’ils paraissent hardis à première vue, ils redoutent cependant d’intervenir dans les régions articulaires. Celles-ci, en effet, sont riches en tendons et en vaisseaux sanguins dont ils n’ont pas une connaissance anatomique suffisante.</p>
           <p>Retenons deux points de détail : le souci de provoquer une narcose chez le patient et l’observation d’une véritable hygiène opératoire.</p>
         </div>
-        <div>
+        <div xml:id="r790496">
           <head rend="uc">Chapitre VIII
            <lb/>Matière médicale.</head>
           <p>Parmi les trois catégories d’ingrédients utilisés, ceux de nature végétale sont en grande quantité ; le petit nombre des corps chimiques est en rapport avec le faible développement de la chimie ; enfin, l’emploi de certaines substances animales nous paraît inadmissible aujourd’hui. De tous ces produits, d’ailleurs, bien peu sont encore utilisés de nos jours.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r790509">
         <head rend="uc">Conclusion</head>
         <p>Les traités des hippiatres témoignent d’un sens d’observation, d’un empirisme, d’une intuition particulièrement remarquables ; audacieux en chirurgie, imaginatifs en thérapeutique, ils font, à l’encontre de la médecine humaine, une place à peu près nulle à l’astrologie.</p>
         <p>Sans tradition arabe, l’élaboration de ces traités revêt un caractère original dû à la personnalité des « maîtres » qui y ont consigné leur expérience.</p>
       </div>
-      <div>
+      <div xml:id="r790522">
         <pb source="https://nakala.fr/10.34847/nkl.dec688t1#8e948eaf6ed786fc0e68869d05c6508b4fcef455" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.dec688t1/8e948eaf6ed786fc0e68869d05c6508b4fcef455/full/full/0/default.jpg"/>
         <head rend="uc">Appendices</head>
         <p>I. Opiat anesthésique d’après Borgognoni.</p>

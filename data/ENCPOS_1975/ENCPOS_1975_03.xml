@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,10 +55,10 @@
         <forename>Geneviève</forename>
         <surname>Cagniant</surname>
       </byline>
-      <div>
+      <div xml:id="r995025">
         <head rend="uc">Première partie
          <lb/>Le chartrier de la chartreuse du Val-Dieu</head>
-        <div>
+        <div xml:id="r995033">
           <head rend="uc">Chapitre premier
            <lb/>classement du chartrier et élaboration du cartulaire</head>
           <p>Les origines de la chartreuse du Val-Dieu, fondée en 1170, ne sont connues que par un manuscrit du <num>xvii<hi rend="sup">e</hi></num> siècle (Bibliothèque municipale d’Alençon, ms. 112) où sont transcrits les actes de fondation, confirmations et principales acquisitions de la fin du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
@@ -72,7 +70,7 @@
           <p>Quelque temps après l’élaboration de cet ouvrage, un nouvel archiviste continue à classer les chartes datant de 1283 à 1287, selon le même système, en en ajoutant certaines à la fin des tiroirs C et D et en constituant avec d’autres le contenu d’un nouveau tiroir F.</p>
           <p>Les tiroirs G, H, I, J, K ne sont classés que vers la moitié du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r995110">
           <head rend="uc">Chapitre II
            <lb/>Contenu du chartrier</head>
           <p>Cette description ne s’applique qu’au chartrier classé à la fin du XIII<hi rend="sup">e </hi>siècle.</p>
@@ -83,11 +81,11 @@
           <p>La transcription du cartulaire est très fidèle aux originaux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r995158">
         <pb source="https://nakala.fr/10.34847/nkl.45205ktn#94228d62cdf82869a071a7ec152005c10ce1e18d" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.45205ktn/94228d62cdf82869a071a7ec152005c10ce1e18d/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Le domaine de la chartreuse du Val-Dieu</head>
-        <div>
+        <div xml:id="r995171">
           <head rend="uc">Chapitre premier
            <lb/>origines de la chartreuse du Val-Dieu
            <lb/>fondation et début de la formation de son domaine</head>
@@ -97,7 +95,7 @@
           <p>Selon les coutumes cartusiennes, le domaine est exploité par faire-valoir direct grâce aux frères convers, aux « donnés », laïcs s’engageant à servir à vie le monastère, et aux « mercenaires ».</p>
           <p>Au <num>xii<hi rend="sup">e</hi></num> siècle, la chartreuse du Val-Dieu n’est encore qu’un ermitage qui n’a de relations avec ses voisins qu’à l’occasion d’acquisitions de terrains.</p>
         </div>
-        <div>
+        <div xml:id="r995207">
           <pb source="https://nakala.fr/10.34847/nkl.45205ktn#49122092ec3e2d961dc33761b0e7273a1fe3379a" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.45205ktn/49122092ec3e2d961dc33761b0e7273a1fe3379a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Évolution du domaine au <num>xiii<hi rend="sup">e</hi></num> siècle</head>
@@ -107,12 +105,12 @@
           <p>Au cours du <num>xiii<hi rend="sup">e</hi></num> siècle, la chartreuse du Val-Dieu s’est donc totalement transformée, passant de l’état d’ermitage à celui d’établissement jouant un rôle féodal, économique et « bancaire ». Son développement ne va pas cesser dans les siècles suivants.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r995260">
         <head rend="uc">Troisième partie
          <lb/>Édition du chartrier</head>
         <p>L’édition est établie, pour les actes du <num>xii<hi rend="sup">e</hi></num> siècle, d’après le ms. 112 de la Bibliothèque municipale d’Alençon et, pour le chartrier du <num>xiii<hi rend="sup">e</hi></num> siècle, d’après le ms. 108 de la même bibliothèque et les originaux conservés aux Archives départementales de l’Orne.</p>
       </div>
-      <div>
+      <div xml:id="r995284">
         <head rend="uc">Appendice</head>
         <p>Bulles. – Liste des prieurs.</p>
       </div>

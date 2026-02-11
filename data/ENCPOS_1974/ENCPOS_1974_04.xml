@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,25 +55,25 @@
         <surname>Chanaud</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r980260">
         <head rend="uc">Sources</head>
         <p>Les archives de la Chambre des comptes du Dauphiné, conservées aux Archives départementales de l’Isère (série B), ont fourni l’essentiel de la documentation : comptes de châtellenies, comptes de la gabelle du bétail vendu à la foire de Briançon, révisions de feux, registres de reconnaissances et enquêtes diverses. Les Archives départementales des Hautes-Alpes, les Archives communales de Briançon et surtout les Archives d’État de Turin ont fourni d’utiles compléments.</p>
       </div>
-      <div>
+      <div xml:id="r980270">
         <head rend="uc">Introduction</head>
         <p>Cette étude, qui concerne les châtellenies de Briançon, Valpute (Vallouise), Saint-Martin-de-Queyrières, Bardonnèche, Césane, Oulx, Exilles et du Valcluson, se propose d’envisager un certain nombre d’aspects de la vie économique à la fin du Moyen Age, sans toutefois donner un tableau complet de l’économie montagnarde à cette époque. Les sources quantitatives étant ici particulièrement intéressantes, une partie de ce travail est constituée de chiffres, de courbes et de cartes.</p>
       </div>
-      <div>
+      <div xml:id="r980280">
         <pb source="https://nakala.fr/10.34847/nkl.c04c6nwd#9231233c36887f1c614b28a54667b9b32f6fb2c2" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.c04c6nwd/9231233c36887f1c614b28a54667b9b32f6fb2c2/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La montagne et les hommes</head>
-        <div>
+        <div xml:id="r980293">
           <head rend="uc">Chapitre premier
            <lb/>aperçu géographique</head>
           <p>La situation et la morphologie du Briançonnais le prédisposent au trafic et aux échanges. Le versant piémontais, qui tombe à pic sur la vallée du Pô, jouit d’un climat plus doux que le versant français dont l’altitude est considérable. La forêt est composée surtout de mélèzes, qui fournissent un excellent bois de construction.</p>
           <p>La vallée de la Clarée (vallée de Névache), large et plane, contraste avec la haute vallée de la Durance, beaucoup plus tourmentée. La Guisane a creusé une vallée où les cultures trouvent assez de place pour nourrir une population nombreuse. Enfin, la Gyronde arrose la Vallouise, fertile et riche en pâturages. Sur le versant actuellement italien, deux vallées, celles de la Doire Ripaire et du Cluson (Chisone) abritent de gros bourgs avant de déboucher sur la plaine du Pô ; un affluent de la Doire conduit à Bardonnèche, à l’écart de la circulation qui franchit le Montgenèvre.</p>
         </div>
-        <div>
+        <div xml:id="r980308">
           <head rend="uc">Chapitre II
            <lb/>La seigneurie et ses revenus</head>
           <p>Les nobles du Briançonnais, au <num>xiv<hi rend="sup">e</hi></num> et au <num>xv<hi rend="sup">e</hi></num> siècles, sont souvent misérables, endettés, et ils travaillent la terre comme les autres habitants, sauf dans la région de Bardonnèche où ils se sont solidement maintenus.</p>
@@ -86,7 +84,7 @@
           <p><hi rend="i">Le dauphin en Briançonnais.</hi> – L’administration delphinale est fondée sur le châtelain, dont les attributions financières, à la fin du Moyen Age, prennent le pas sur les attributions militaires et judiciaires. Chaque année, il rend compte des recettes et des dépenses de la châtellenie devant les auditeurs de la Chambre des comptes.</p>
           <p>A partir de 1343, la plupart des redevances sont converties en une rente annuelle. C’est donc dans la première moitié du <num>xiv<hi rend="sup">e</hi></num> siècle qu’on peut saisir les revenus du dauphin dans les châtellenies. Les revenus en nature sont les plus importants (28 %), suivis par la taille (23 %), les péages et les droits qui s’attachent aux échanges (15 %). Droits de justice (8 %), droits pesant sur l’élevage (4 %), et cens (4 %) constituent le reste des 5 500 florins environ que le dauphin perçoit sur l’ensemble du Briançonnais.</p>
         </div>
-        <div>
+        <div xml:id="r980376">
           <head rend="uc">Chapitre III
            <lb/>Démographie</head>
           <p>Un sondage, fait à propos de quelques mortalités, montre que le témoignage des <hi rend="i">probi homines</hi> est digne de foi.</p>
@@ -97,17 +95,17 @@
           <p><hi rend="i">Causes et conséquences de la misère.</hi> – Les « ruynes » (inondations et éboulements) et les épidémies expliquent les chutes brutales de la population. L’émigration est importante ; avant 1450, les émigrants se dirigent vers le Piémont, mais ensuite, l’Embrunais et la Provence constituent les pôles d’attraction principaux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r980431">
         <head rend="uc">Deuxième partie
          <lb/>La terre et la production</head>
-        <div>
+        <div xml:id="r980439">
           <head rend="uc">Chapitre premier
            <lb/>la terre et ses fruits</head>
           <p><hi rend="i">Le terroir.</hi> – L’exemple de Millaures, vers 1465, montre que les prés occupent beaucoup plus de place que les terres labourées ; depuis un siècle environ, une parcelle de terre sur dix environ a été convertie en pré. Les communaux sont utilisés pour la pâture du bétail.</p>
           <p><hi rend="i">L’exploitation paysanne.</hi> – A Millaures, l’exploitation moyenne, de 5,5 hectares, compte 4 hectares de pré pour 1,5 hectare de terre labourée. Les parcelles franches (nobles et allodiales), présentes dans quelques paroisses, occupent ici une place importante.</p>
           <p><hi rend="i">Production et reconversions.</hi> – Les principales cultures sont en Briançonnais le seigle et l’avoine. Le froment est cultivé en petites quantités dans la vallée de la Guisane. Les terrains sont de qualités inégales : un bon pré donne deux fois plus de foin qu’une parcelle médiocre. Un sondage montre à Rochemolles, vers 1465, un rendement d’environ 2 à 3 pour un (4 quintaux à l’hectare), pour le seigle. L’élevage est donc primordial, ce que montrent les conversions de terres en prés dans le mandement de Bardonnèche, où, de 1380 à 1432, des parcelles ont été ainsi converties dans la moitié des exploitations.</p>
         </div>
-        <div>
+        <div xml:id="r980466">
           <pb source="https://nakala.fr/10.34847/nkl.c04c6nwd#cb7a77642a19dd2b8b66b41527f38e095c224393" n="41" facs="https://api.nakala.fr/iiif/10.34847/nkl.c04c6nwd/cb7a77642a19dd2b8b66b41527f38e095c224393/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’élevage</head>
@@ -115,13 +113,13 @@
           <p>Une enquête de 1385 montre que le Valcluson s’adonne surtout à l’élevage bovin : la plupart des habitants possèdent deux vaches et deux veaux. Un habitant sur cinq seulement élève des ovins, et dans ce cas, il possède un âne. En Valpute, au contraire, les bêtes à laine prédominent.</p>
           <p>La redevance nommée <hi rend="i">fidancia ovium lumbardarum</hi> montre que la châtellenie de Césane accueille pendant l’été des ovins qui viennent de la région du Piémont située entre la Doire, le Cluson (Chisone) et le Pô (Chianocco, Giavenno, Scalenghe, Moncalieri, Turin). Les ovins des environs de Pignerol estivaient peut-être dans le Valcluson.</p>
         </div>
-        <div>
+        <div xml:id="r980493">
           <head rend="uc">Chapitre III
            <lb/>Les industries rurales</head>
           <p>La région de Bardonnèche et sans doute la vallée de la Guisane produisent des draps et font du Briançonnais l’une des deux zones d’industrie textile du Dauphiné ; Briançon pratique la tannerie ; mais ces industries périclitent vers 1450.</p>
           <p>Un ancien paroir, et un moulin (Beaulard), difficilement datables, font preuve d’une technique assez évoluée.</p>
         </div>
-        <div>
+        <div xml:id="r980508">
           <head rend="uc">Chapitre IV
            <lb/>Scènes de la vie de montagne</head>
           <p>Les Briançonnais remédient à la sécheresse par l’irrigation, et construisent des défenses contre les avalanches et les <hi rend="i">ruynes.</hi> En hiver, où les ressources sont insuffisantes, une partie de la population va vivre dans les plaines avoisinantes et revient au printemps.</p>
@@ -130,10 +128,10 @@
           <p>L’habitat permanent des villages est complété par les chalets où l’on vit pendant l’été. Le mobilier est sommaire, et les objets les plus fréquents sont des outils (faux) et des instruments de cuisine (faisselles, chaudrons, marmites). Les familles très nombreuses ne semblent pas être la règle. Vers 1430-1450, on constate dans certaines paroisses un éclatement de la famille qui est peut-être consécutif à des mortalités importantes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r980536">
         <head rend="uc">Troisième partie
          <lb/>Les échanges</head>
-        <div>
+        <div xml:id="r980544">
           <head rend="uc">Chapitre premier
            <lb/>conditions et objet des échanges</head>
           <p><hi rend="i">Les itinéraires.</hi> – La présence de la papauté à Avignon a fait au <num>xiv<hi rend="sup">e</hi></num> siècle la fortune du Briançonnais, placé sur la route entre l’Italie et le comtat Venaissin.</p>
@@ -141,7 +139,7 @@
           <p><hi rend="i">Marchandises et variations saisonnières du trafic.</hi> – Pendant l’hiver, le trafic ralentit et devient minime en décembre et en janvier, mais il ne cesse pas complètement. Les plus forts passages de marchands sont relevés en juin. En 1368-1369, les marchandises qui passent à Briançon sont de la quincaillerie (50 %), du sel (20 %), des étoffes et des matières premières textiles (17 %), drap, futaine, toile, chanvre, laine, du cuir, de la basane et des objets de cuir (20 %), ainsi que des faux, des chaudrons, des épices, etc. La circulation des produits essentiels (sel, textiles) ne s’interrompt pas au cours de l’hiver. Le <pb source="https://nakala.fr/10.34847/nkl.c04c6nwd#f4ded17d57cf31aaf005aca24d0abc492bebfe7d" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.c04c6nwd/f4ded17d57cf31aaf005aca24d0abc492bebfe7d/full/full/0/default.jpg"/>passage du sel, indispensable pour les éleveurs, est important pendant l’allaitement et l’estivage des animaux (d’avril à septembre). L’afflux, au moi de mai, de marchandises que les paysans ne peuvent produire (quincaillerie, futaine, épices, chaussures, faux), correspond peut-être à une foire de Briançon.</p>
           <p><hi rend="i">Foires et marchés.</hi> – Des marchés ruraux existent dans toutes les châtellenies, mais Briançon est seule à avoir d’importantes foires de bétail, au mois de septembre. Plus que les simples paysans, le trafic enrichit les marchands et les muletiers.</p>
         </div>
-        <div>
+        <div xml:id="r980588">
           <head rend="uc">Chapitre II
            <lb/>La foire aux ovins de Briançon</head>
           <p>Les comptes de la gabelle perçue sur les bêtes à laine vendues à la foire de septembre de Briançon permettent de suivre l’activité commerciale de la région de 1385 à 1486.</p>
@@ -152,11 +150,11 @@
           <p><hi rend="i">Conclusion.</hi> – Il nous reste aujourd’hui un témoin des échanges qui ont irrigué le Briançonnais pendant deux siècles : les clochers, et quelques églises <pb source="https://nakala.fr/10.34847/nkl.c04c6nwd#e84a26ec46d5d7452e3bf226146f4eb6081d2035" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.c04c6nwd/e84a26ec46d5d7452e3bf226146f4eb6081d2035/full/full/0/default.jpg"/>(La Salle, Vallouise) font irrésistiblement penser au Piémont et à la Lombardie, avec lesquels nous savons qu’un commerce intense a existé pendant deux siècles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r980639">
         <head rend="uc">Conclusion</head>
         <p>Si l’agriculture et l’élevage constituent la base de l’économie du Briançormais à la fin du Moyen Age, ce sont les échanges qui lui donnent son visage propre, et loin d’être replié sur lui-même, ce pays de montagne est extrêmement sensible à toutes les influences et à tous les revirements de la conjoncture générale.</p>
       </div>
-      <div>
+      <div xml:id="r980649">
         <head rend="uc">Annexes</head>
         <p>Pièces justificatives (liste des marchands venus à la foire, tableaux chiffrés, etc.). – Photographies (moulins, habitat, églises et clochers).</p>
       </div>

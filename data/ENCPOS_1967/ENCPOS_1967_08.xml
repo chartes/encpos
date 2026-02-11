@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>Annie</forename>
         <surname>Laurence</surname>
       </byline>
-      <div>
+      <div xml:id="r878497">
         <head rend="uc">Introduction
          <lb/>bailli et bailliage d’Arras</head>
         <p>En 1191, Philippe-Auguste nomme un bailli d’Artois qui reprend, pour le compte du souverain, l’essentiel des fonctions attribuées précédemment aux différents châtelains, héréditaires et fieffés (Aire, Arras, Bapaume, Saint-Omer).</p>
@@ -70,10 +68,10 @@
         <pb source="https://nakala.fr/10.34847/nkl.eed1afc1#bc1faca5299b07dc045fafac1f7b410f12210d9a" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.eed1afc1/bc1faca5299b07dc045fafac1f7b410f12210d9a/full/full/0/default.jpg"/>
         <p>Le châtelain d’Arras a, en effet, gardé quelques droits en matière judiciaire : garde de la prison communale, proclamation des bans, participation à certaines amendes.</p>
       </div>
-      <div>
+      <div xml:id="r878557">
         <head rend="uc">Première partie
          <lb/>Les infractions</head>
-        <div>
+        <div xml:id="r878565">
           <head rend="uc">Chapitre premier
            <lb/>crimes et délits contre les particuliers</head>
           <p><hi rend="i">Crimes et délits contre les personnes.</hi> – Contrairement aux tendances de la criminalité moderne, les infractions contre les personnes représentent la majorité des infractions relevées dans les exploits.</p>
@@ -85,7 +83,7 @@
           <p><hi rend="i">Infractions contre les biens.</hi> – L’assaut de maison apparaît fréquemment dans les exploits. S’il constitue en lui-même un délit, puni de soixante livres d’amende, il constitue en fait la circonstance aggravante de violences contre des personnes.</p>
           <p>Le vol, au contraire, semble assez rare, mais il est très sévèrement puni : cette infraction constituerait une des principales causes d’exécution capitale.</p>
         </div>
-        <div>
+        <div xml:id="r878604">
           <pb source="https://nakala.fr/10.34847/nkl.eed1afc1#c639f45e546d4cc93490ae2d86a9b4c943c707eb" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.eed1afc1/c639f45e546d4cc93490ae2d86a9b4c943c707eb/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Infractions contre l’autorité et ses représentants</head>
@@ -95,23 +93,23 @@
           <p>Les délits graves contre l’autorité sont rares : on rencontre un cas de refus de trêve, punissable de soixante livres d’amende, et un cas de faux-monnayage, passible de la peine de mort.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r878631">
         <head rend="uc">Deuxième partie
          <lb/>Les délinquants</head>
-        <div>
+        <div xml:id="r878639">
           <head rend="uc">Chapitre premier
            <lb/>condition des délinquants</head>
           <p>La plupart des infractions contenues dans les exploits de baillie sont commises à Arras, généralement par des individus modestes.</p>
           <p>La délinquance des femmes et des enfants est peu importante. Ces derniers, agissant rarement seuls, sont souvent impliqués dans des affaires graves.</p>
         </div>
-        <div>
+        <div xml:id="r878654">
           <head rend="uc">Chapitre II
            <lb/>Degrés de culpabilité</head>
           <p>La pratique judiciaire considère surtout la réalité du fait et accorde peu d’importance aux degrés de culpabilité. La tentative est plus ou moins assimilée à l’action consommée, le complice et l’auteur principal d’un crime sont punis de la même peine (en droit à partir de 1379), la récidive n’entraîne pas d’aggravation de peine.</p>
           <pb source="https://nakala.fr/10.34847/nkl.eed1afc1#36ac1d50cff0d28a82fcb97547669cbe2fb075d7" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.eed1afc1/36ac1d50cff0d28a82fcb97547669cbe2fb075d7/full/full/0/default.jpg"/>
           <p>La qualité de la victime peut, néanmoins, être prise en considération, comme circonstance aggravante (infraction contre un bourgeois, un sergent...) ou atténuante (mauvaise renommée de la victime...).</p>
         </div>
-        <div>
+        <div xml:id="r878674">
           <head rend="uc">Chapitre III
            <lb/>Degrés de responsabilité</head>
           <p>La légitime défense est en droit la seule cause d’irresponsabilité. La démence, l’homicide involontaire, la provocation peuvent cependant atténuer la responsabilité d’un délinquant. Les mineurs sont, au contraire, entièrement responsables de leurs actes dès l’âge de sept ans.</p>
@@ -119,10 +117,10 @@
           <p>En accord avec les anciens usages germaniques, nous trouvons enfin dans les exploits des exemples de responsabilité collective, représentée par la solidarité familiale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r878693">
         <head rend="uc">Troisième partie
          <lb/>Les peines</head>
-        <div>
+        <div xml:id="r878701">
           <head rend="uc">Chapitre premier
            <lb/>peines criminelles</head>
           <p><hi rend="i">Peine de mort.</hi> – La peine de mort, généralement par pendaison, est prévue en droit pour de nombreux cas : meurtre, homicide, rapt, coups et blessures mortels, coups et blessures en trêve, rupture de ban. Elle paraît être appliquée avec moins de rigueur en pratique, sauf pour cas de « larçin ».</p>
@@ -135,7 +133,7 @@
           <p>Les conséquences du ban sont multiples : confiscation générale des biens, pénalisation du recel de banni.</p>
           <p>En cas de rupture de ban, le banni peut être mis à mort en toute impunité, ou, s’il est pris par la justice, condamné à la peine afflictive sur laquelle chaque bannissement est prononcé : peine de mort ou mutilation. L’efficacité du ban est cependant amoindrie par de fréquentes mesures de grâce émanant du pouvoir comtal ou royal : possibilité pour un banni pour défaut de jour ou pour soupçon de crime d’être rappelé, et de voir son affaire reprise selon une procédure normale, rappels de ban prononcés aux termes d’un jugement. Dans les deux cas le ban est, il est vrai, racheté par une composition plutôt que remis. Cette décision n’est applicable aux délinquants bannis par le magistrat d’Arras qu’après accord de la ville.</p>
         </div>
-        <div>
+        <div xml:id="r878748">
           <head rend="uc">Chapitre II
            <lb/>Peines pécuniaires</head>
           <p>Les peines pécuniaires, amendes, confiscations, compositions, constituent l’essentiel des peines contenues dans les exploits de baillie et semblent être la base du système répressif en usage dans le bailliage d’Arras.</p>
@@ -144,16 +142,16 @@
           <p>A quelques exceptions près (« clercs mariés et marchans publiquement »), le clerc échappe, en vertu du privilège du for, à la justice séculière. Toutefois, le bailli accepte difficilement de renoncer à la connaissance d’une affaire où un clerc est impliqué. La composition permet alors à ce dernier de « demourer en paix envers Monseigneur (Madame) ». Cette transaction intervient pour les mêmes raisons si un délinquant laïc se fait clerc après avoir accompli son forfait, ou si ce forfait a été commis en un endroit relevant, <hi rend="i">ratione loci,</hi> d’une juridiction ecclésiastique.</p>
           <p><hi rend="i">Recouvrement des amendes et compositions.</hi> – L’efficacité d’un système pénal fondé essentiellement sur la peine pécuniaire dépend du recouvrement effectif des sommes dues. L’adaptation de l’amende aux moyens du condamné est une première garantie, de même que les délais de payement et de cautionnement. Des sanctions sont prévues en cas de dettes criminelles : saisie et vente des biens meubles, emprisonnement, bannissement.</p>
         </div>
-        <div>
+        <div xml:id="r878790">
           <head rend="uc">Chapitre III
            <lb/>Prison</head>
           <p>L’emprisonnement est surtout considéré comme le moyen de s’assurer de la personne du prévenu (détention préventive). Il apparaît, cependant, comme peine en cas de non-payement d’amende. Quelques cas permettent également de penser qu’il peut, dans la seconde moitié du siècle, constituer une peine principale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r878803">
         <head rend="uc">Quatrième partie
          <lb/>Procédure</head>
-        <div>
+        <div xml:id="r878811">
           <head rend="uc">Chapitre premier
            <lb/>exercice de l’action publique</head>
           <p>Le droit de poursuite appartient, dans l’ensemble du bailliage, au bailli. Aux termes de la procédure accusatoire, aucune action ne peut être intentée sans plainte de la partie lésée. Au <num>xiv<hi rend="sup">e</hi></num> siècle, cependant, la poursuite d’office est généralisée.</p>
@@ -162,23 +160,23 @@
           <p><hi rend="i">Mise en enquête.</hi> – Lorsqu’aucun accusateur ne se présente contre un prévenu, celui-ci peut se mettre en enquête, et permettre ainsi la poursuite d’office, condition qui n’est plus nécessaire au <num>xiv<hi rend="sup">e</hi></num> siècle. Une composition est généralement perçue à cette occasion pour hâter l’enquête et garantir au prévenu une liquidation rapide de son affaire.</p>
           <p><hi rend="i">Ajournement.</hi> – Si un prévenu n’a pu être arrêté, il est alors cité à comparaître, de tiers jour en tiers jour. En vertu d’un privilège de 1335, cette procédure ne peut être appliquée aux bourgeois d’Arras. En cas de non-comparution, le prévenu est banni, mais il peut, dans la plupart des cas, obtenir une remise de ban sous condition de se mettre en enquête.</p>
         </div>
-        <div>
+        <div xml:id="r878858">
           <head rend="uc">Chapitre II
            <lb/>Preuve</head>
           <p>La simple présomption peut avoir valeur de preuve, et de nombreux bannissements sont prononcés pour soupçon de crime. Les exploits font cependant état, dans certains cas, qu’une preuve formelle de culpabilité a été apportée. Nous ne possédons que deux précisions quant aux modes de preuve : l’aveu spontané et la preuve par témoignage, qui semble la plus utilisée.</p>
         </div>
-        <div>
+        <div xml:id="r878870">
           <head rend="uc">Chapitre III
            <lb/>Jugement</head>
           <p>Le bailli n’intervient pas dans le jugement d’une affaire ; ce rôle revient, dans le cadre de la ville et banlieue d’Arras, aux échevins, dans le reste du bailliage, au tribunal comtal. La composition de ce dernier semble avoir évolué au cours du siècle : si les documents de la première partie du <num>xiv<hi rend="sup">e</hi></num> siècle ne mentionnent que les hommes de fief ou les hommes du seigneur, les documents postérieurs désignent la cour comtale par le terme de « grand conseil (de Madame) », où figure un élément permanent de « fonctionnaires » : conseillers du comte, ancien bailli, etc., destinés probablement à éclairer de leur expérience les hommes de fief.</p>
         </div>
-        <div>
+        <div xml:id="r878888">
           <pb source="https://nakala.fr/10.34847/nkl.eed1afc1#cc87c79a458d1acfe68e2f8f5a5b9799be10686c" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.eed1afc1/cc87c79a458d1acfe68e2f8f5a5b9799be10686c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Exécution des sentences</head>
           <p>L’exécution des sentences revient au bailli, qu’il s’agisse des sentences prononcées par le tribunal urbain ou par le tribunal comtal.</p>
         </div>
-        <div>
+        <div xml:id="r878905">
           <head rend="uc">Chapitre V
            <lb/>Voies de recours</head>
           <p>Outre les voies de recours utilisées pour obtenir une rémission totale ou partielle de la peine, nous pouvons déceler, dans les exploits, l’existence de l’appel d’un tribunal inférieur au tribunal comtal, en opposition aux formes féodales de l’appel (défaute de droit et faux jugement).</p>

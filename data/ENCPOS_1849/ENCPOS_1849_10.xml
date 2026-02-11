@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1849_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1849_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,22 +54,22 @@
         <surname>Marty-Laveaux</surname>
         <roleName rend="uc">Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r6810">
         <head rend="uc">Positions.</head>
-        <div>
+        <div xml:id="r6816">
           <head rend="uc">I.</head>
           <p>Certains grammairiens, que Virgilius Maro nous fait connaître, recherchaient les mots les moins usités, et en dérivaient de nouveaux termes auxquels ils attribuaient des significations tout à fait détournées ; en outre, ils employaient les prépositions les unes pour les autres.</p>
         </div>
-        <div>
+        <div xml:id="r6826">
           <head rend="uc">II.</head>
           <p>Ils avaient des déclinaisons et des conjugaisons particulières, dont les formes étaient entièrement contraires au génie de la langue latine.</p>
         </div>
-        <div>
+        <div xml:id="r6836">
           <pb source="https://nakala.fr/10.34847/nkl.9863ciph#d322e610f3f7eda68521e0d08a5f31530f5b5584" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.9863ciph/d322e610f3f7eda68521e0d08a5f31530f5b5584/full/full/0/default.jpg"/>
           <head rend="uc">III.</head>
           <p>Les plus subtils joignaient à ces procédés l’abus de l’hyperbate et de la tmèse, et l’usage des sigles, qui servaient alors, non pas à abréger l’écriture, mais à dérober la science aux profanes.</p>
         </div>
-        <div>
+        <div xml:id="r6851">
           <head rend="uc">IV.</head>
           <p>Ce genre de style, dont les règles étaient enseignées dans les écoles, et qui se trouvait plus ou moins compliqué d’inventions bizarres et de précautions propres à rendre la science inabordable, fut en usage pendant une période dont il n’est pas possible de déterminer exactement la durée, mais qui comprend les huitième, neuvième et dixième siècles dans toute leur étendue.</p>
         </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2005_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2005_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -54,23 +52,23 @@
         <forename>John Perry</forename>
         <surname>Archer</surname>
       </byline>
-      <div>
+      <div xml:id="r1433787">
         <head>Introduction</head>
         <p>Dans une perspective d’analyse typologique, le présent travail vise à caractériser et à comparer la production diplomatique de sept souverains européens du <num>xii<hi rend="sup">e</hi></num> siècle : le pape, l’empereur, les rois de France, d’Angleterre, de Castille-León, d’Aragon et de Bohême. S’appuyant sur quelque 300 chartes conservées sous forme d’originaux, il passe au crible d’un examen rigoureux leurs caractères externes et fait l’analyse des écritures, des éléments figurés (chrismon, monogramme et autres signes de validation) et de la mise en page du discours diplomatique.</p>
         <p>Puisqu’il s’agit d’écritures, il convenait d’illustrer l’étude paléographique de manière complète. Aujourd’hui, la technologie numérique permet de traiter les formes graphiques de bien meilleure façon qu’autrefois : ce travail s’appuie sur les derniers développements techniques en usage. Les actes ont été soigneusement documentés grâce à plus de 6 000 photographies numériques, prélevées tantôt directement sur les chartes elles-mêmes, dans les services d’archives, tantôt sur des recueils de fac-similés. Plus de 150 illustrations sont intégrées dans l’exposé afin d’éclairer les divers objets d’étude paléographique.</p>
         <p>Cependant, l’étude de la structure visuelle de l’acte souverain n’aurait pas de sens sans une prise en compte du contexte de sa production. Une présentation par pays offre l’état actuel des connaissances sur les chancelleries et leur personnel dans ce <num>xii<hi rend="sup">e</hi></num> siècle où les états européens sont encore à l’orée de leur développement institutionnel.</p>
       </div>
-      <div>
+      <div xml:id="r1433814">
         <head>Sources</head>
         <p>Le corpus est composé de 305 actes numérisés à partir de fac-similés ou d’actes originaux. La papauté est représentée par 44 bulles, conservées surtout dans la série L des Archives nationales, à Paris, mais aussi aux archives départementales de l’Oise. 34 diplômes tirés surtout de la collection de fac-similés <hi rend="i">Kaiserurkunden in Abbildungen</hi> de Sickel et Sybel illustrent la production de la chancellerie impériale. Les diplômes au nom du roi de France sont au nombre de 68 ; la plupart proviennent de la série K des Archives nationales ; d’autres ont été numérisés dans les <hi rend="i">Fac-similés à l’usage de l’École des chartes</hi> et dans le recueil <hi rend="i">Musée des archives départementales</hi>. Les 52 pièces du dossier anglais sont tirées des archives des cathédrales de Canterbury, Salisbury et Exeter et de recueils de fac-similés : <hi rend="i">Facsimiles of Royal and Other Charters in the British Museum</hi>, <hi rend="i">The Palæographical Society</hi> et <hi rend="i">The New Palæographical Society</hi>, enfin le <hi rend="i">Recueil des actes de Henri II</hi>. La plupart des 43 actes retenus pour le royaume de Castille-León sont conservés dans trois dépôts espagnols : l’Archivo histórico nacional, à Madrid (fonds <hi rend="i">Sellos</hi> et <hi rend="i">Clero</hi>), les archives de la cathédrale de León et les archives de la basilique de Saint-Isidore de la même ville. Pour l’Aragon, les 29 pièces du dossier sont issues de l’Archivo histórico nacional et de l’Archivo de la Corona de Aragón, à Barcelone. Enfin, le royaume de Bohême est représenté par 35 documents de provenance diverse : les Archives centrales de l’Etat à Prague, le Musée des archives de Prague, les Archives régionales de Plzeň, ainsi que le recueil <hi rend="i">Acta Regum Bohemiae</hi>.</p>
       </div>
-      <div>
+      <div xml:id="r1433863">
         <head>Première partie <lb/>Méthodologie</head>
-        <div>
+        <div xml:id="r1433870">
           <head>Chapitre premier <lb/>La constitution du corpus</head>
           <p>L’objectif de réaliser un recueil, en quelque sorte normatif, des actes souverains solennels de l’Occident du <num>xii<hi rend="sup">e</hi></num> siècle imposait de constituer par échantillonnage un corpus représentatif de l’ensemble de la production. Il fallait faire des choix : les sept monarchies retenues ne constituent pas la totalité de l’Europe et il était impossible de consulter toutes les chartes produites par chacune de ces chancelleries. Ce qu’on a pu faire de mieux, c’est tenter de jalonner l’Occident du <num>xii<hi rend="sup">e</hi></num> siècle à intervalles réguliers dans le temps et de couvrir dans l’espace des aires géographiques et culturelles majeures. Pour chacun des souverains choisis, on a retenu une sélection de chartes, distribuées à intervalles réguliers et représentatives des évolutions internes majeures. Une trentaine de documents par pays ont paru suffisants pour donner une cohérence globale au corpus et pour, à travers lui, tout à la fois dégager l’acte souverain typique et faire apparaître les formes particulières et spécifiques.</p>
         </div>
-        <div>
+        <div xml:id="r1433893">
           <head>Chapitre II <lb/>Les outils numériques</head>
           <p>Les progrès de la technique ont permis de forger de nouveaux outils pour l’examen paléographique et l’étude de l’organisation spatiale des chartes, en adaptant du matériel numérique couramment disponible, en particulier des logiciels de graphisme et des dispositifs photographiques.</p>
           <p><hi rend="i">L’édition numérique</hi>. — Pour faire pendant à l’édition de texte qui envisage les caractères internes, on a créé un schéma de repères utiles pour l’analyse graphique de tout document de la période en question. Cette grille d’analyse a été conçue pour mettre pleinement en valeur l’ensemble des qualités graphiques des actes, et cela de manière normalisée. Alors que l’édition de texte part des données manuscrites pour aboutir à une présentation typographique normalisée, ce nouvel instrument, que l’on pourrait appeler par analogie « édition numérique », structure la même réalité en une présentation normalisée prenant appui sur un traitement numérique préalable. Une illustration montre l’organisation générale de cette grille d’analyse en identifiant séparément les éléments entrant dans sa composition et un album particulier présente, sous forme de planches, les grilles d’analyse réalisées pour une quinzaine d’actes.</p>
@@ -78,7 +76,7 @@
           <p><hi rend="i">Le traitement de l’image.</hi>— La technologie numérique permet non seulement de photographier les éléments paléographiques, mais de les travailler de manière à les dégager complètement de leur environnement. Cette technique, qu’on appelle l’<hi rend="i">abstraction</hi> de la forme, est le premier pas dans une étude paléographique véritablement scientifique ; elle permet de considérer l’élément en lui-même, de l’isoler de son contexte et de le poser sur un fond blanc. Le travail de base pour qui entreprend l’abstraction d’une image numérique est de trancher dans ces zones floues, entre le gris, le semi-gris, le plus ou moins gris, pour retirer une forme nette, propre, et qui représente fidèlement la figure d’origine. La notion technique qui sous-tend cette démarche est celle de <hi rend="i">seuil</hi>. Il s’agit de délimiter l’objet et de décider avec une précision plus grande que ne le fait l’appareil à quel endroit l’encre s’arrête et où commence le parchemin. Cet acte de discernement s’applique non seulement au découpage de la figure, mais aussi aux couleurs qui se trouvent dans le corps de la lettre. À l’image ainsi isolée on attribue une seule couleur normalisée dans laquelle l’ensemble du caractère graphique adhère à la moyenne arithmétique de ses valeurs colorimétriques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1433935">
         <head>Deuxième partie <lb/>Étude des pays européens</head>
         <p>L’examen de la production des différents souverains est guidé par trois grandes questions. D’abord, dans quelle mesure peut-on parler d’une chancellerie au <num>xii<hi rend="sup">e</hi></num> siècle, en tant que bureau stable servant de service des écritures ? Ensuite, qui a rédigé les actes : le destinataire ou la chancellerie ? Enfin, comment la forme des actes se modifie-t-elle au cours du siècle ? Peut-on dégager des évolutions qui affecteraient des éléments aussi divers que le format, la mise en page, l’écriture, le positionnement du monogramme ?</p>
         <p><hi rend="i">Saint-Siège.</hi>— Au <num>xii<hi rend="sup">e</hi></num> siècle, la papauté s’impose aux églises de la chrétienté comme instance suprême en matière de foi et de droit canonique et défend la primauté de l’autorité de l’Église sur tous les pouvoirs temporels. Vecteur graphique de cette prétention hégémonique, le privilège solennel pontifical, appelé aussi bulle, d’après le sceau métallique qu’il porte en signe de validation, a la forme la plus stable, la plus monumentale de toute la chrétienté, et ce tout au long du <num>xii<hi rend="sup">e</hi></num> siècle. Cette pérennité dans l’action de la chancellerie pontificale ne repose pas alors sur des normes écrites, mais plutôt sur des usages développés graduellement au terme d’une longue tradition. Ces habitudes associaient étroitement la volonté du pape, l’intervention des cardinaux et le travail de la chancellerie pour produire un document matériel qui se voulait une véritable expression de l’autorité pontificale.</p>
@@ -90,18 +88,18 @@
         <p><hi rend="i">Aragon.</hi>— Au cours du <num>xii<hi rend="sup">e</hi></num> siècle, la diplomatique aragonaise connaît une évolution importante qui reflète le rôle émergent du royaume dans le jeu politique européen. Au départ petit royaume montagnard, il acquiert des territoires considérables sous l’impulsion de la Reconquête et de l’union avec la Catalogne, que dirige le comte de Barcelone. Avant leur union, Aragon et Catalogne maintenaient des usages diplomatiques anciens, qui remontaient, en Aragon, à la création du royaume en 1035 et, en Catalogne, aux temps carolingiens. À la fin du <num>xii<hi rend="sup">e</hi></num> siècle, l’<hi rend="i">escribanía</hi> royale évolue vers une organisation plus cohérente et hiérarchisée et les actes de Pierre II (1196-1213) se conforment aux usages en vigueur dans les autres chancelleries souveraines.</p>
         <p><hi rend="i">Bohême.</hi>— C’est du milieu du <num>xii<hi rend="sup">e</hi></num> siècle, sous Vladislav II, que l’on peut dater la naissance en Bohême d’une diplomatique royale, encore fortement influencée par les traditions bavaroises : ce modèle germanique peut conduire parfois à une imitation servile des actes impériaux, tant dans la langue que dans le style d’écriture. Il faut attendre le dernier quart du <num>xii<hi rend="sup">e</hi></num> siècle pour qu’une identité graphique propre au pays apparaisse sous l’influence des moines-scribes de l’abbaye de Plasy. Ce n’est qu’avec le règne d’Ottokar I<hi rend="sup">er</hi> qu’une chancellerie royale indépendante se structure, sans pour autant supprimer la pratique de la rédaction par le destinataire. Sous l’effet de cette organisation de la chancellerie, encore très rudimentaire, la forme des actes se normalise.</p>
       </div>
-      <div>
+      <div xml:id="r1434105">
         <head>Troisième partie <lb/>Comparaisons : chronologie et géographie générales de l’acte souverain</head>
-        <div>
+        <div xml:id="r1434112">
           <head>Chapitre premier <lb/>La production des actes</head>
           <p>Bien qu’il n’existe pas de témoignage écrit sur l’organisation et le fonctionnement des chancelleries souveraines au <num>xii<hi rend="sup">e</hi></num> siècle, il est sûr que des services d’écriture plus ou moins étoffés existaient dans les monarchies étudiées à la fin du siècle, au moment où se développaient l’usage de l’écrit, l’enseignement du droit et de la scolastique. Certes Rome et l’Angleterre étaient en avance, mais partout le souverain disposait d’une chancellerie particulière au tournant du <num>xiii<hi rend="sup">e</hi></num> siècle. Presque partout aussi le chancelier était une figure politique de première envergure ; parfois les sources nous renseignent assez bien sur certains d’entre eux, comme Étienne de Garlande en France, Reinald von Dassel dans l’Empire et Bernard en Castille. En revanche, le personnel subalterne, chargé dans la pratique de la rédaction des actes, demeure mal connu, sauf dans les royaumes de la péninsule ibérique, où le nom du scribe figurait systématiquement dans les actes.</p>
         </div>
-        <div>
+        <div xml:id="r1434135">
           <head>Chapitre II <lb/>L’influence pontificale</head>
           <p/>
           <p>L’acte souverain solennel a su acquérir dans chaque pays sa propre identité graphique. Il n’en reste pas moins vrai que la papauté a exercé une influence importante, que reflète le transfert d’éléments pontificaux dans les actes des autres monarchies. Certains diplômes de Louis VII imitent les écritures pontificales ; le diplôme germanique a été contaminé par plusieurs traits romains ; la <hi rend="i">rota</hi> a directement inspiré la <hi rend="i">rueda</hi>, ou <hi rend="i">signo rodado</hi>, en Castille-León.</p>
         </div>
-        <div>
+        <div xml:id="r1434160">
           <head>Chapitre III <lb/>La forme des actes</head>
           <p>On peut caractériser avec une relative facilité la forme (écriture, mise en page, dessin des signes de validation) de l’acte souverain solennel de chaque pays, au-delà d’évolutions propres et d’infinies variations de détail.</p>
           <p><hi rend="i">Format</hi>. — Le premier grand trait concerne la taille des actes. On peut ainsi distinguer les pays de <hi rend="i">grand format</hi>(le Saint-Siège, l’Empire germanique, la Castille-León et la Bohême) des pays de <hi rend="i">format libre</hi>(la France, l’Angleterre et l’Aragon), où la taille est variable.</p>
@@ -111,11 +109,11 @@
           <p>On peut distinguer trois types de marques dans les souscriptions des actes souverains solennels du <num>xii<hi rend="sup">e</hi></num> siècle : les signes de validation du souverain lui-même ; les signes qui précèdent ou suivent les noms des témoins et les mentions du responsable de l’établissement de l’acte ; enfin, principalement dans les états espagnols, un signe qui accompagne la mention du scribe ou du chancelier. Presque tous les pays utilisent des signes figurés pour valider les actes souverains. Seules l’Angleterre et la Bohême y renoncent et fondent l’authentification des actes sur la seule apposition du sceau de cire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1434220">
         <head>Conclusion</head>
         <p>Au <num>xii<hi rend="sup">e</hi></num> siècle, la diplomatique européenne n’est pas la somme de la diplomatique de tous les pays d’Europe, mais l’expression d’une Europe une et diverse. Se manifeste alors un courant diplomatique qui est général en Occident : on observe partout des usages analogues ou parallèles ; mais ces convergences s’incorporent aux traits particuliers de chaque pays. Cette synthèse entre traditions nationales et tendances unificatrices débouche sur une certaine perfection d’expression formelle dans la présentation diplomatique, où chaque pays présente le visage de ce qu’il est, de ce qu’il croit être, sous les formes les plus consacrées, les plus réfléchies, les plus conscientes. Tout en s’inscrivant dans un modèle visuel global de la civilisation européenne, chaque pays proclame son identité dans l’écriture. Au-delà même du sens des mots, l’étude de leurs représentations graphiques permet ainsi d’entrer en intelligence avec ces cultures différenciées du pouvoir, de les saisir de manière plus intuitive, mais certainement plus directe aussi, que ne l’offre l’analyse du discours. En réunissant et en comparant les chartes de plusieurs pays, cette étude présente un reflet fidèle d’une civilisation médiévale européenne qui se construit à la fois dans l’unité et la pluralité, dans la ressemblance et la dissemblance.</p>
       </div>
-      <div>
+      <div xml:id="r1434235">
         <head>Pièces justificatives et planches</head>
         <p>Tous les actes du corpus et l’intégralité de la documentation photographique sont présentés à la fois sur support papier et sur support numérique. De nombreux renvois dans le texte permettent au lecteur de relier l’analyse écrite à l’image du document concerné : il peut ainsi consulter l’ensemble des actes étudiés et les macro-photographies correspondantes. Un album au format A3 présente les grilles d’analyse numérique d’un quinzaine actes tirés des sept pays et illustre les techniques numériques présentées dans la section méthodologique.</p>
       </div>

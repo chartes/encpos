@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1966_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1966_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,20 +55,20 @@
         <forename>Marc</forename>
         <surname>Fardet</surname>
       </byline>
-      <div>
+      <div xml:id="r869216">
         <head rend="uc">Sources</head>
         <p>La principale source consultée est le fonds d’archives de la ville de Nantes, et en particulier les séries des délibérations municipales (BB), des comptes de la ville (CC), des affaires militaires (EE).</p>
       </div>
-      <div>
+      <div xml:id="r869226">
         <head rend="uc">Avant-propos</head>
         <p>Créée en 1560, installée en 1565 et établie définitivement en 1570, après le rattachement de la Bretagne à la couronne de France (1532), la mairie de Nantes, la première de la province, était mûre pour assumer pleinement ses responsabilités en matière administrative et militaire, à une époque où les guerres de religion exigeaient des magistrats municipaux des décisions importantes qui se répercutaient sur toute la région.</p>
       </div>
-      <div>
+      <div xml:id="r869236">
         <head rend="uc">Première partie
          <lb/>L’organisation et le fonctionnement de la mairie
          <lb/>et ses rapports avec les institutions nantaises
          <lb/>et bretonnes</head>
-        <div>
+        <div xml:id="r869248">
           <head rend="uc">Chapitre premier
            <lb/>l’organisation et le fonctionnement de la mairie</head>
           <p><hi rend="i">Les magistrats municipaux.</hi> – Le maire est élu par l’assemblée générale des habitants sur une liste établie par le corps de ville et les anciens maires. Son <pb source="https://nakala.fr/10.34847/nkl.ef05p5v8#7301e5783a25d0353ccad7f70532e8ade4945c49" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef05p5v8/7301e5783a25d0353ccad7f70532e8ade4945c49/full/full/0/default.jpg"/> mandat dure un an, mais il peut être prorogé d’une année ou deux.</p>
@@ -80,7 +78,7 @@
           <p>L’exécution des décisions prises par la municipalité déborde le cadre de la cité ; il faut une personne apte à le représenter auprès des institutions nantaises et bretonnes ; cet homme est le procureur syndic. Il assiste à toutes les réunions du bureau de ville. Le greffier consigne par écrit les délibérations du conseil et des assemblées d’habitants. Des architectes dressent les plans des divers travaux. Enfin, la municipalité dispose d’un personnel subalterne : sergents, concierge, trompette, tambour.</p>
           <p><hi rend="i">Le fonctionnement de la mairie.</hi> – Le bureau de ville est l’ensemble des magistrats municipaux qui se réunissent deux fois par semaine, à la mairie, pour résoudre les affaires courantes. Lorsqu’ils ont des décisions graves à prendre, ils se constituent en conseil de ville, en s’adjoignant des notables de la ville pris dans le clergé ou parmi les officiers de justice et des finances et des représentants des bourgeois. Ce conseil joua un grand rôle, surtout au moment où Nantes était menacée par l’ennemi. Quand les décisions à prendre nécessitent la présence de spécialistes, le bureau fait appel à eux. Enfin, les assemblées générales groupaient, autour de ce conseil, tous les habitants, quand des mesures à prendre intéressaient leur communauté, par exemple celles concernant la garde en ville, ou la fidèlité au roi ; cependant, pour éviter la confusion, on demande que les convocations se limitent à des gens compétents.</p>
         </div>
-        <div>
+        <div xml:id="r869286">
           <head rend="uc">Chapitre II
            <lb/>Les rapports de la mairie de Nantes
            <lb/>avec les institutions nantaises et bretonnes</head>
@@ -92,10 +90,10 @@
           <p><hi rend="i">Les responsables de la défense.</hi> – Le connétable est un officier qui ne joue qu’un rôle honorifique. Les capitaines collaborent avec la municipalité en matière de défense. L’office de gouverneur du comté nantais est rempli par le maréchal-duc de Retz, dont les capitaines exécutent les ordres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r869336">
         <head rend="uc">Deuxième partie
          <lb/>La défense de la ville</head>
-        <div>
+        <div xml:id="r869344">
           <head rend="uc">Chapitre premier
            <lb/>les ouvrages de défense</head>
           <p><hi rend="i">La topographie de la ville.</hi> – Située entre la Loire et l’Erdre, la ville close est protégée par l’ancien château des ducs de Bretagne ; elle déborde le cadre de son enceinte et s’étend par ses faubourgs qu’il faut protéger des attaques ennemies.</p>
@@ -105,7 +103,7 @@
           <p><hi rend="i">Les fortifications des faubourgs.</hi> – Les travaux de la Ville-Neuve du Marchix sont poursuivis sur ordre du roi, pour défendre la ville, plus exposée en cet endroit au tir des canons ennemis. Les barrières situées dans les faubourgs sont maintenues en bon état et, quand le danger est plus grand, on aménage fossés et retranchements. On y construit parfois des corps de garde. Comme en ville, on porte la hotte à Richebourg et à Pirmil.</p>
           <p>Les nécessités de la guerre poussèrent le duc de Mercœur à transformer certaines parties du château en construisant trois bastions.</p>
         </div>
-        <div>
+        <div xml:id="r869388">
           <head rend="uc">Chapitre II
            <lb/>La participation de la ville à la défense</head>
           <p><hi rend="i">L’organisation de la milice bourgeoise.</hi> – La défense de la ville suppose, en plus des ouvrages fortifiés, un personnel qualifié, encadré par des chefs : le capitaine, responsable de son canton, est élu par sa compagnie ; le lieutenant, comme l’enseigne, est choisi par le capitaine. Le sergent-major est le chef de la milice bourgeoise et, à partir de 1589, chef des armées de la ville. Après eux, viennent quelques officiers dont le rôle est moins important, tels les cinquanteniers et les caporaux.</p>
@@ -116,11 +114,11 @@
           <p>Des visites domiciliaires sont prévues pour assurer l’exécution de ces ordonnances. Dans les maisons qui paraissent suspectes, des capitaines, assistés d’officiers de justice, sont envoyés pour perquisitionner. On surveille aussi les personnes étrangères à la ville qui y entrent sous prétexte de procès à soutenir, ou de mendicité. Pour empêcher la contagion et les infiltrations d’espions, on interdit aux pauvres l’entrée de la ville. Ceux qui s’y trouvent doivent porter la hotte.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r869425">
         <pb source="https://nakala.fr/10.34847/nkl.ef05p5v8#bb2fb4adc176c51a1f3d86033f00040b69e105d4" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef05p5v8/bb2fb4adc176c51a1f3d86033f00040b69e105d4/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Nantes, capitale de la Ligue en Bretagne</head>
-        <div>
+        <div xml:id="r869438">
           <head rend="uc">Chapitre premier
            <lb/>l’esprit public à Nantes pendant la Ligue</head>
           <p><hi rend="i">Influence du clergé.</hi> – Nommé gouverneur de Bretagne le 5 septembre 1582, le duc de Mercœur fait son entrée à Nantes peu de temps après le traité de Nemours par lequel Henri III accordait à la Ligue nouvellement créée des décrets d’expulsion contre les protestants. Le duc de Mercœur manifeste le désir de lutter contre les hérétiques et il y est aidé par le clergé et la municipalité. Nantes entre nettement dans la Ligue en 1588 ; son évêque rassure les Nantais sur l’intention du roi de maintenir son royaume en la religion catholique.</p>
@@ -128,7 +126,7 @@
           <p><hi rend="i">Rôle de la municipalité.</hi> – Outre le clergé, les magistrats municipaux, qui reflètent l’opinion publique, marquent leur hostilité à l’égard des protestants en refusant la nomination d’un lieutenant du prévôt des maréchaux soupçonné d’hérésie. La municipalité interdit les assemblées de réformés, chasse les suspects ou les emprisonne. La duchesse, descendante de Charles de Blois, duc de Bretagne, partage la responsabilité de son mari, ce qui lui vaut une grande popularité auprès des Nantais.</p>
           <p>Ce mouvement est rattaché à celui de Paris dirigé par le duc de Mayenne et le Conseil de l’Union ; Nantes essaie, de son côté, d’y attirer les nobles du comté. A partir de 1590, on invoque le cardinal de Bourbon, sous le nom de Charles X, à qui on prête serment de fidélité et. en son absence, au duc de Mercœur. Après la mort du cardinal, on frappe encore monnaie à son effigie.</p>
         </div>
-        <div>
+        <div xml:id="r869465">
           <head rend="uc">Chapitre II
            <lb/>Nantes centre de la lutte contre les protestants en Bretagne</head>
           <p>La ville soutient le duc en accordant son appui financier aux opérations militaires qu’il entreprend. Elle lui avance l’argent nécessaire à l’entretien de ses troupes, en attendant de s’être remboursée sur le produit des impositions à lever dans l’évêché ; le duc, soucieux de la conservation de la ville, demande aux Nantais de recruter, à leurs frais, des compagnies chargées de protéger ses abords et de faire la guerre dans le pays environnant. La ville finance le démantel<pb source="https://nakala.fr/10.34847/nkl.ef05p5v8#e7b43613eb0c7bb841534cb19fd9a6a124d1735a" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef05p5v8/e7b43613eb0c7bb841534cb19fd9a6a124d1735a/full/full/0/default.jpg"/>lement de places fortes, comme Montaigu, repaire de calvinistes, situé au sud de la Loire, dont elle a facilité la prise au duc de Nevers en ravitaillant les soldats de son armée. Son rayonnement s’étend dans toutes les directions : elle défend les côtes voisines de l’embouchure de la Loire, menacées par les troupes d’Henri de Navarre, et surveille les passages de ce fleuve.</p>
@@ -137,11 +135,11 @@
           <p>En 1592, la ville envoie au duc les secours qui permettent à son armée de faire lever le siège de Craon.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r869492">
         <head rend="uc">Conclusion</head>
         <p>La Ligue fut un mouvement à la fois religieux et autonomiste. A la fin des troubles, le peuple, lassé de la guerre, aspire à la paix. Les pouvoirs de la municipalité ont été restreints par Henri IV lorsqu’il vint signer l’édit de Nantes.</p>
       </div>
-      <div>
+      <div xml:id="r869502">
         <head rend="uc">Appendices</head>
         <p>Carte du théâtre des opérations militaires menées dans le pays nantais pendant les guerres de la Ligue.</p>
         <p>Inventaire des munitions de la ville (1596).</p>

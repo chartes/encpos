@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,19 +63,19 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r403494">
         <head rend="uc">Chapitre premier
          <lb/>le manuscrit</head>
         <p>Le manuscrit du Comte de Poitiers, actuellement conservé à la Bibliothèque de l’Arsenal sous le n° 3527, faisait autrefois partie de la Bibliothèque du marquis de Paulmy. Il est impossible de savoir comment ce dernier l’avait acquis.</p>
       </div>
-      <div>
+      <div xml:id="r403506">
         <head rend="uc">Chapitre II
          <lb/>Langue du roman</head>
         <div>
           <head rend="uc">I. – <hi rend="i">Liste des rimes.</hi></head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r403526">
           <head rend="uc">II. – <hi rend="i">Langue de l’auteur.</hi></head>
           <div>
             <head rend="uc">§ i<hi rend="sup">er</hi>. – Phonétique.</head>
@@ -95,24 +93,24 @@
             <p>Manque d’originalité du poète dans la syntaxe et dans le style. Les principaux phénomènes relevés se retrouvent dans tous les poèmes contemporains.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r403687">
           <head rend="uc">III. – <hi rend="i">Langue du copiste.</hi></head>
           <p>Tous les traits relevés prouvent que le copiste du manuscrit était originaire de la région du Nord de la France.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r403701">
         <head rend="uc">Chapitre III
          <lb/>Versification</head>
         <p>Ce poème est composé de vers octosyllabiques à rimes plates. – La brisure du couplet y est assez fréquente. – Plusieurs cas d’assonances à côté d’un certain nombre de rimes consonnantes. – 34,5 % de rimes riches et 32,4 % de rimes féminines. – Rimes équivoques et rimes brisées. – Série de trois vers sur la même rime. – Nombreux cas d’hiatus avec <hi rend="i">e, a.</hi> – Certains vers présentent des phénomènes d’allitération.</p>
       </div>
-      <div>
+      <div xml:id="r403717">
         <head rend="uc">Chapitre IV
          <lb/>Le roman</head>
         <div>
           <head rend="uc">I. – <hi rend="i">Analyse du roman.</hi></head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r403737">
           <head rend="uc">II. – <hi rend="i">Le comte et la comtesse de Poitiers.</hi></head>
           <div>
             <head rend="uc">§ i<hi rend="sup">er</hi>. – Gérard comte de Poitiers.</head>
@@ -123,12 +121,12 @@
             <p>La comtesse de Poitiers n’est pas cet être inférieur que l’on trouve si souvent dans les chansons de geste. Mais ce n’est pas encore la délicate héroïne de Chrestien de Troyes. Le poète a voulu dépeindre l’amour méconnu d’une épouse fidèle.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r403788">
           <head rend="uc">III. – <hi rend="i">Date et auteur.</hi></head>
           <p>1° <hi rend="i">Date.</hi> – Le roman semble avoir été composé dans le troisième tiers du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
           <p>2° <hi rend="i">Auteur.</hi> – L’auteur devait être un clerc jongleur originaire du nord de l’Ile-de-France et que sa vie aventureuse fit passer par la cour du comte de Chartres, Thibaut V, où il aurait entendu parler de Gérard, gendre de Pépin d’Aquitaine et arrière-grand-père de la comtesse de Chartres, fille de Louis VII et d’Aliénor d’Aquitaine.</p>
         </div>
-        <div>
+        <div xml:id="r403818">
           <head rend="uc">IV. – <hi rend="i">Le thème du roman.</hi></head>
           <div>
             <head rend="uc">§ i<hi rend="sup">er</hi>. – Le cycle des faux Indices.</head>

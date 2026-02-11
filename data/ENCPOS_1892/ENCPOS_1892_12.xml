@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1892_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1892_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,13 +57,13 @@
         <surname>de Vaissière</surname>
         <roleName rend="uc">Licencié ès lettres et Licencié en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r193507">
         <head rend="uc">Notice préliminaire</head>
         <p>La famille de Marillac. – Les premières années de Charles de Marillac et son séjour à Constantinople.</p>
         <p>La famille de Marlhac, par corruption de Marillac, est originaire de la Haute-Auvergne. Cette famille a eu le sort de beaucoup de familles provinciales de petite noblesse : au <num>xiv<hi rend="sup">e</hi></num> siècle, elle nous apparaît dans une situation assez prospère, mais elle est bientôt ruinée par les guerres anglaises, et obligée de se mettre sous le patronage de la maison de Lastic, puis de la maison de Bourbon. – Elle s’assure enfin, au commencement du <num>xvi<hi rend="sup">e</hi></num> siècle, la protection de la maison de France, et le père de Charles de Marillac, Guillaume de Marillac, obtient des charges royales.</p>
         <p>Charles, né à Aigueperse (?) vers 1510, est d’abord avocat au Parlement de Paris, puis secrétaire d’ambassade et ambassadeur à Constantinople. (Commencement de 1535 à mars 1538.) Ses correspondances sont perdues pour cette première ambassade.</p>
       </div>
-      <div>
+      <div xml:id="r193535">
         <pb source="https://nakala.fr/10.34847/nkl.e4ef2149#25f237f9b05085a43ad8d7802c67d07ccb2ded0f" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.e4ef2149/25f237f9b05085a43ad8d7802c67d07ccb2ded0f/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre I
          <lb/>Introduction générale aux ambassades de M. de Marillac,
@@ -74,7 +72,7 @@
          <lb/>d’après Marillac.</head>
         <p>De l’intérêt des correspondances diplomatiques de Marillac pour l’histoire de la Réformation en Allemagne et en Angleterre. – Cet ambassadeur nous a surtout laissé une très curieuse appréciation du rôle joué par Charles-Quint dans la Réformation. Pour Marillac « le grand zele de relligion... dont l’Empereur s’est prévalu... n’a été qu’une contenance à façon extérieure... et une vraye hypocrisie ». En réalité, la psychologie de Charles est moins simple que ne l’a faite Marillac. L’histoire impartiale a corrigé ces exagérations. M. Baumgarten, dans une récente brochure, a tracé du grand empereur un portrait que l’on peut croire définitif.</p>
       </div>
-      <div>
+      <div xml:id="r193558">
         <head rend="uc">Chapitre II
          <lb/>Ambassade de M. de Marillac en Angleterre
          <lb/>(avril 1539 – Mars 1543)</head>
@@ -82,7 +80,7 @@
         <p>§ 1. Le ministre anglais Thomas Cromwell favorise l’introduction du luthéranisme en Angleterre. – A son arrivée, Marillac assiste à une réaction passagère contre Cromwell et au vote des célèbres « Six articles ». Mais <pb source="https://nakala.fr/10.34847/nkl.e4ef2149#2ea8fa435981e9d3d9d5e997c3aff4446c60eaaf" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.e4ef2149/2ea8fa435981e9d3d9d5e997c3aff4446c60eaaf/full/full/0/default.jpg"/>Cromwell reprend bientôt le pouvoir et pour assurer le triomphe du luthéranisme dans l’Ile en dépit de Charles-Quint, il veut former une ligue anti-impériale entre l’Angleterre, la France et les Etats protestants d’Allemagne : les correspondances de Marillac nous instruisent du détail des négociations relatives au mariage d’Henry VIII et d’Anne de Clèves – premier gage de sympathie donné par Cromwell aux princes protestants d’Allemagne. – Marillac assiste à l’arrivée et au mariage d’Anne de Clèves et nous donne à ce sujet de curieux détails. – Il est aussi mêlé aux tentatives faites par Cromwell, pour s’assurer l’alliance française. – Echec des projets de Cromwell ; – sa chute et son exécution d’après Marillac.</p>
         <p>§ 2. Réaction en faveur du catholicisme ; avances faites à l’empereur par le nouveau ministère. – La France, qui sous l’influence de Montmorency a refusé d’adhérer au plan de Cromwell, s’effraye maintenant de la possibilité d’une entente anglo-impériale. Elle propose son alliance à l’Angleterre : négociations relatives au mariage de Marie Tudor et du duc d’Orléans ; portrait de Marie Tudor, par Marillac. – Reprise par la France des projets de Cromwell. – Refus de l’Angleterre d’y adhérer ; après de longues hésitations de la part de Charles-Quint une alliance anglo-impériale est conclue (11 février 1543). La France en est la première victime.</p>
       </div>
-      <div>
+      <div xml:id="r193583">
         <head rend="uc">Chapitre III
          <lb/>Le premier concile de Trente et l’intérim d’Augsbourg</head>
         <p>Charles-Quint, après s’être réconcilié avec l’Angleterre, et avoir imposé à la France le traité de Crespy (1544), veut soumettre par la force les protestants d’Allemagne au concile.</p>
@@ -92,7 +90,7 @@
         <p>1° Un formulaire théologique, qui permet à Charles de profiter immédiatement de ses victoires, en imposant une limite aux réclamations du protestantisme.</p>
         <p>2° D’autre part les concessions faites aux luthériens par l’intérim sont, dans la pensée de Charles, un moyen de pacification, qui préparera les voies au concile <hi rend="i">« régénéré ».</hi></p>
       </div>
-      <div>
+      <div xml:id="r193615">
         <head rend="uc">Chapitre IV
          <lb/>Ambassade de M. de Marillac à Bruxelles auprès de
          <lb/>Charles – Quint (1548-1549) : la double opposition de
@@ -101,7 +99,7 @@
         <p>§ 1. Le pape envoie les « facultez », c’est-à-dire les permissions qui doivent rendre valables les concessions religieuses faites par l’empereur. Mais il fait sur deux points (mariage des prêtres, communion des laïques sous les deux espèces) d’importantes réserves. – 11 ne compte accorder son approbation entière que si l’empereur s’engage à lui rendre Plaisance. C’est un moyen de bien disposer Charles, et en même temps de connaître ses intentions avant de s’avancer trop avant. – L’empereur use de faux-fuyants et offre finalement de faire trancher la question de Plaisance par un arbitrage. – Refus du pape. § 2. Charles assure au pape que tout s’arrangera pour le mieux, s’il veut lui accorder « l’ampliation » des facultés, et laisser venir à Bruxelles le cardinal Farnèze, pour traiter la question de Plaisance. Charles sait, en effet, que Farnèze est disposé à réduire la question de Plaisance aux termes d’un arrangement pécuniaire. § 3. Le pape ne veut point consentir à ces offres, et il envoie à Bruxelles les pièces établissant ses droits à</p>
         <p>Plaisance. Après une longue discussion, Charles refuse catégoriquement de rendre Plaisance. – Il se décide en même temps à profiter des facultés incomplètes accordées par le pape : les protestations de toute l’Allemagne contre les réserves mises par la papauté à l’Intérim forceront, il n’en doute pas, le Saint-Siège à se montrer plus large. – Mais les États d’Allemagne se soucient bien peu que l’on mette ou non des réserves à l’Intérim. Ce qu’ils demandent, ce n’est pas une entière et complète application de l’Intérim, c’est sa suppres<pb source="https://nakala.fr/10.34847/nkl.e4ef2149#6596b492197ac26da695add7c379846fa8dd93a9" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.e4ef2149/6596b492197ac26da695add7c379846fa8dd93a9/full/full/0/default.jpg"/>sion. L’empereur ne tenant pas ses promesses, ils ont désormais « bien bonne raison de s’excuser ». Une formidable opposition s’organise en Allemagne contre l’Intérim, au même moment où le pape refuse son approbation à cet acte.</p>
       </div>
-      <div>
+      <div xml:id="r193647">
         <head rend="uc">Chapitre V
          <lb/>Ambassade de M. de Marillac à Bruxelles auprès de
          <lb/>Charles – Quint (1548-1549) : la politique impériale
@@ -111,12 +109,12 @@
         <pb source="https://nakala.fr/10.34847/nkl.e4ef2149#95f0dde3c99f58bf71a10d2a90c3d8a1dfa5527b" n="115" facs="https://api.nakala.fr/iiif/10.34847/nkl.e4ef2149/95f0dde3c99f58bf71a10d2a90c3d8a1dfa5527b/full/full/0/default.jpg"/>
         <p>§ 3. Les échecs répétés de l’Angleterre, la situation économique déplorable que la guerre crée au pays, l’absolutisme du Protecteur, provoquent des soulèvements contre lui. – De plus le triomphe du luthéranisme est odieux à un grand nombre, et le parti hostile au Protecteur y voit la cause du refus de l’empereur de s’unir à l’Angleterre. – Après avoir résisté aux soulèvements populaires, le Protecteur succombe aux attaques de la noblesse. – Pour bien disposer l’empereur, le parti victorieux veut introduire l’Intérim en Angleterre. – C’est un succès pour l’empereur : une nation protestante adopte son Intérim ; il peut s’en prévaloir auprès des Allemands et du pape, qui refusent de l’accepter ou de le sanctionner. – Ces avances de l’Angleterre ne peuvent néanmoins décider Charles à s’unir à elle : il lui faut à ce moment partir pour l’Allemagne, où la situation s’aggrave tous les jours.</p>
       </div>
-      <div>
+      <div xml:id="r193674">
         <head rend="uc">Chapitre VI
          <lb/>Le séjour à Augsbourg de M. de Marillac, ambassadeur
          <lb/>auprès de Charles-Quint : la diète d’Augsbourg.
          <lb/>(1550 – 1551)</head>
-        <div>
+        <div xml:id="r193686">
           <head rend="uc">
             <hi rend="i">I.</hi> – <hi rend="i">La question du concile.</hi></head>
           <p>§ 1. L’empereur, découragé par l’insuccès de son Intérim, demande au pape Jules III la convocation d’un nouveau concile. 11 espère assez peu de la future assemblée une conciliation religieuse. – Il veut néanmoins à tout prix voir se réunir le concile : 1° Pour qu’on ne puisse lui reprocher d’avoir négligé aucun des moyens de résoudre la question religieuse. 2° Des préoccupations politiques très vives l’y poussent aussi.</p>
@@ -124,12 +122,12 @@
           <p>§ 2. Pour obtenir du pape la bulle de convocation, et des protestants leur adhésion au concile, l’empereur use de véritables subterfuges : il veut persuader au Saint-Siège que les luthériens accepteront le concile tel que le pape le leur accordera, et aux luthériens, qu’ils auront un concile tel qu’ils le désirent. – Pendant toute la diète, il essaie donc de donner le change au Saint-Siège sur les déclarations des protestants, et de tromper les protestants sur les intentions du Saint-Siège. – Il veut obtenir le concile coûte que coûte. Il sait très bien du reste que ces artifices se découvriront dès les premières sessions du concile ; – mais le concile « sera ouvert sans qu’on le puisse dès lors honnestement révocquer ou clorre ».</p>
           <p>§ 3. Il arrive à ses fins : il obtient du Saint-Siège la bulle de convocation, surtout après qu’il a fait briller aux yeux du pape l’espérance d’une solution avantageuse de l’affaire toujours pendante de Plaisance. – D’autre part, les protestants ne peuvent s’entendre pour une dernière protestation contre la bulle du pape. – Fatigués du reste par ces longs débats, ils ne désirent qu’une chose : le recès de la diète. – Ils partent d’Augsbourg décidés pour la plupart soit à ne pas venir au concile, soit à y envoyer des députés protestataires.</p>
         </div>
-        <div>
+        <div xml:id="r193714">
           <head rend="uc">
             <hi rend="i">II.</hi> – <hi rend="i">La question des rebelles.</hi></head>
           <p>L’empereur veut persuader à la diète que les soulèvements du nord de l’Allemagne sont, non pas des révoltes religieuses contre l’Intérim, mais des révoltes politiques. – Il compte obtenir seulement ainsi des subsides destinés à les combattre. – Les députés exigent qu’on admette les révoltés à s’expliquer devant la diète. – Ils accordent finalement quelques secours contre Magdebourg.</p>
         </div>
-        <div>
+        <div xml:id="r193731">
           <pb source="https://nakala.fr/10.34847/nkl.e4ef2149#3120622617a067f7e7212a540d268a186f491bdd" n="117" facs="https://api.nakala.fr/iiif/10.34847/nkl.e4ef2149/3120622617a067f7e7212a540d268a186f491bdd/full/full/0/default.jpg"/>
           <head rend="uc">
             <hi rend="i">III.</hi> – <hi rend="i">La question de la succession à l’empire.</hi></head>
@@ -140,7 +138,7 @@
           <p>§ 4. Le pacte de famille du 9 mars 1551.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r193766">
         <head rend="uc">Chapitre VII
          <lb/>La guerre civile en Allemagne
          <lb/>(1553)</head>
@@ -149,11 +147,11 @@
         <p>§ 2. L’empereur lance sur l’Allemagne le marquis Albert de Brandebourg-Kulmbach. Marillac est envoyé à Metz pour offrir aux princes allemands l’alliance du roi de France contre Albert. Les négociations projetées n’ont pas lieu. Mais l’ambassadeur peut assister de près à tous les troubles de l’Allemagne.</p>
         <p>§ 3. Les projets de l’empereur réussissent. – La Germanie ruinée par la guerre civile « luy devient bien peu redoutable ». Mais à ce moment, ayant assuré à son fils la couronne d’Angleterre, il se désintéresse des affaires d’Allemagne et abandonne à Ferdinand et à ses descendants la couronne impériale.</p>
       </div>
-      <div>
+      <div xml:id="r193794">
         <head rend="uc">Conclusion</head>
         <p>Ces ambassades en Angleterre et en Allemagne forment la première partie de la carrière politique de Marillac, qui ne meurt qu’en 1560, après avoir rendu bien d’autres services à son pays. – Ce qui domine dans les correspondances de Marillac, c’est l’inquiétude et la terreur que Charles-Quint a inspirées à l’Europe.</p>
       </div>
-      <div>
+      <div xml:id="r193804">
         <head rend="uc">Appendice</head>
         <p>1° C’est Charles de Marillac qui en 1550 signale à la Cour de France les instruments mécaniques de monnayage, en usage en Allemagne, et dont on sub<pb source="https://nakala.fr/10.34847/nkl.e4ef2149#4ea12c7cd5891b89d469f9221f3720c4723e4d1c" n="119" facs="https://api.nakala.fr/iiif/10.34847/nkl.e4ef2149/4ea12c7cd5891b89d469f9221f3720c4723e4d1c/full/full/0/default.jpg"/>stitue l’action aux opérations successives de la frappe au marteau.</p>
         <p>2° C’est à Augsbourg, au cours du séjour qu’y fit Marillac ambassadeur auprès de Charles-Quint, qu’un mécanicien, désigné par Marillac sous le nom de Chevalier du Saint-Sépulcre, enseigna son art à Guillaume de Marillac et à Aubin Olivier envoyés par Henri II.</p>

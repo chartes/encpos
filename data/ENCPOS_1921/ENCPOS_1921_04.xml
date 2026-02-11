@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,10 +59,10 @@
         <forename>Fernand</forename>
         <surname>Benoit</surname>
       </byline>
-      <div>
+      <div xml:id="r400121">
         <head rend="uc">Tome I
          <lb/>étude historique</head>
-        <div>
+        <div xml:id="r400129">
           <head rend="uc">Première partie
            <lb/>La Provence à l’avènement du comte
            <lb/>caractère de son pouvoir</head>
@@ -90,7 +88,7 @@
             <p>Deux forces d’opposition à la centralisation : la féodalité et surtout les républiques consulaires. Diversité de l’œuvre accomplie par le comte : division du plat-pays en baillies ; vigueries dans les villes consulaires. – Le <hi rend="i">majus dominium </hi>du comte : double caractère de suzeraineté et de souveraineté ; la prérogative essentielle en est le « mère-empire » <pb source="https://nakala.fr/10.34847/nkl.9c36ioki#02af18d6834d1435b4445c6421ed64e95f800959" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.9c36ioki/02af18d6834d1435b4445c6421ed64e95f800959/full/full/0/default.jpg"/>(<hi rend="i">gladii potestas</hi>) ; les droits du comte : « cavalcades », albergue, queste. Leur réglementation (albergue perçue par feu), et leur rénovation ; un nouvel impôt public : la pezade.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r400212">
           <head rend="uc">Deuxième partie
            <lb/>Le comte et les grandes communes
            <lb/>ou la politique extérieure</head>
@@ -120,7 +118,7 @@
             <p>Avignon échappe au vicaire de l’empereur et à Raimond VII : rôle de l’évêque d’Avignon, Zoen Tencarari. Alliance d’Avignon et de R. Bérenger contre le comte de Toulouse (1241). Alliance avec Gênes. Soumission de Marseille. Nouvelle invasion de Raimond VII (1243) : la situation est changée en faveur de son adversaire ; celui-ci en profite pour faire une expédition dans le Venaissin. Continuation de la lutte contre Raimond VII jusqu’au concile de Lyon.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r400292">
           <head rend="uc">Troisième partie
            <lb/>Étude géographique de la Provence</head>
           <div>
@@ -156,7 +154,7 @@
             <p>Carte des divisions administratives et des frontières de la Provence en 1245.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r400390">
           <head rend="uc">Quatrième partie</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -169,14 +167,14 @@
             <p>Le comte de Provence meurt le 19 août 1245 ; sa mort arrête des négociations entreprises au concile de Lyon pour le mariage de Béatrice avec Raimond VII. Innocent IV est favorable au roi de France ; la politique pontificale suivie par le comte de Provence, et les secours qu’il reçut du roi de France, ont donné au parti de Louis IX une grande influence à la cour d’Aix. Rôle de Romée de Villeneuve : il détient le testament du comte. Charles d’Anjou paie les dettes laissées par R. Bérenger, et épouse Béatrice de Provence.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r400434">
           <head rend="uc">Appendices</head>
           <p>Tableaux généalogiques des comtes de Provence de la maison de Barcelone, des vicomtes de Marseille, de la maison de Forcalquier et des familles alliées, de la maison de Baux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r400445">
         <head rend="uc">Tome II</head>
-        <div>
+        <div xml:id="r400451">
           <head rend="uc">I. Introduction diplomatique</head>
           <p>Forme des actes. – Notation chronologique : l’année commence en général au 25 mars dans les comtés de Provence et de Forcalquier, et est annoncée par des formules diverses : <hi rend="i">anno domini, secundum carnem,</hi> et <hi rend="i">incarnationis.</hi> Exception dans la région de Nice, où le notaire Bertrand de Comps emploie le style de la Nativité, et dans le Comtat Venaissin (Avignon). – Scellement des actes : grand sceau de cire du comte de Provence ; bulle de plomb, à Tarascon, Brignoles, <pb source="https://nakala.fr/10.34847/nkl.9c36ioki#c3727d0194b006010fe3bf6922162dcb4496f988" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.9c36ioki/c3727d0194b006010fe3bf6922162dcb4496f988/full/full/0/default.jpg"/>dont l’avers est réservé au comte. – Critique des actes faux. – Itinéraire du comte.</p>
         </div>
@@ -186,7 +184,7 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r400486">
         <head rend="uc">Tome III
          <lb/>sources et preuves</head>
         <p>I. – – Sources bibliographiques et manuscrites. Dépôts des Archives départementales et communales, et des Bibliothèques</p>

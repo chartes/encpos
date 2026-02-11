@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1965_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1965_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,27 +54,27 @@
         <forename>Françoise</forename>
         <surname>Isaac</surname>
       </byline>
-      <div>
+      <div xml:id="r861506">
         <head rend="uc">Sources</head>
         <p>Les sources essentielles de l’histoire des célestins de Paris sont assez dispersées. La plupart des documents sont conservés aux Archives nationales (série S, sous-série G<hi rend="sup">9</hi> et série L principalement), à la bibliothèque de l’Arsenal et partiellement à la Bibliothèque nationale et à la Bibliothèque Mazarine (il n’y a presque rien aux Archives de la Seine). Pour l’étude archéologique, presque tous les renseignements ont été donnés par les livres de dépenses du couvent, les obituaires et les descriptions anciennes de Paris.</p>
       </div>
-      <div>
+      <div xml:id="r861520">
         <head rend="uc">Introduction
          <lb/>l’ordre des célestins</head>
         <p><hi rend="i">La fondation et les débuts de l’ordre ; les célestins d’Italie.</hi> – C’est en réaction contre la décadence de l’ordre bénédictin que l’ordre des célestins, qui lui fut affilié en 1263, fut fondé par Pierre Angelieri, dit de Murrone, qui avait quitté le monastère bénédictin de Faïfoli pour devenir ermite. Les austérités qu’il imposait à son exemple ne découragèrent pas ses disciples et l’ordre était déjà bien constitué quand Pierre alla le faire confirmer par Grégoire X au concile de Lyon en 1274. Du royaume de Naples qui avait été son berceau, il s’étendit à toute l’Italie où il connut son apogée (avec quatre-vingt seize maisons) au <num>xiv<hi rend="sup">e</hi></num> siècle. En effet, l’accession au trône pontifical, en 1294, du saint ermite sous le nom de Célestin V, si elle fut un échec pour l’Église, fut extrêmement profitable à l’ordre auquel le pape donna son nom et qu’il couvrit de privilèges. La canonisation du fondateur apporta à la nouvelle congrégation bénédictine un prestige supplémentaire. L’expansion en Allemagne échoua et seule la France connut une congrégation durable de célestins. L’ordre s’éteignit en Italie en 1802.</p>
         <p><hi rend="i">Les célestins de France.</hi> – L’ordre fut introduit en France, en 1300, par Philippe le Bel. La plupart des monastères furent fondés, au <num>xiv<hi rend="sup">e</hi></num> et dans la la <pb source="https://nakala.fr/10.34847/nkl.5ebb26e6#e711ed503550f55c617202157c1bef9281cce808" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.5ebb26e6/e711ed503550f55c617202157c1bef9281cce808/full/full/0/default.jpg"/> première moitié du <num>xv<hi rend="sup">e</hi></num> siècle, par des rois et des princes (Charles V, Charles VI, Louis d’Orléans, etc.) et des cardinaux ; ils se localisent surtout autour de Paris, au nord, à l’est et vers la vallée du Rhône, et, hors de France, en Belgique, en Savoie et dans le Comtat Venaissin. L’ordre jouit en France de privilèges ; le Grand Schisme procure aux célestins français leur indépendance vis-à-vis des frères d’Italie dès 1380, mais la province de France n’est officiellement reconnue qu’en 1417. Après la période de ferveur et de prospérité morale du <num>xv<hi rend="sup">e</hi></num> siècle, l’ordre, auquel les guerres de religion portent un grand coup, stagne au XVI<hi rend="sup">e </hi>siècle et décline irrémédiablement, malgré une tentative de réforme qui, menée trop rudement par le Père Campigny, fit plus de mal que de bien. La création de la commission des réguliers entraîne une suppression voulue par la majorité des religieux. Il y avait alors en France vingt et un monastères. L’essai de restauration au début du <num>xix<hi rend="sup">e</hi></num> siècle ne parvient pas à faire revivre les célestins dont les constitutions n’étaient plus guère adaptées à l’époque.</p>
         <p><hi rend="i">La règle et les constitutions.</hi> – La règle est celle de saint Benoît, que viennent compléter des constitutions éclectiques faisant de larges emprunts aux cisterciens, aux franciscains, aux grandmontains et aux camaldules. Les constitutions de saint Pierre Célestin, très confuses, durent être amendées à diverses reprises. La province de France a les siennes propres dès le <num>xv<hi rend="sup">e</hi></num> siècle. Les traits les plus caractéristiques sont le mode de gouvernement de l’ordre : un chapitre général triennal où l’abbé et, pour la province de France, le provincial – il s’agit alors du chapitre provincial – est élu (les célestins sont les premiers moines à avoir adopté cette formule pratiquée par les franciscains) ; l’institution des oblats qui jouent le même rôle que les convers cisterciens, mais sont peut-être un peu mieux considérés ; les grandes austérités prévues par saint Pierre Célestin : abstinence perpétuelle, jeûnes très prolongés, rudes mortifications et dures punitions corporelles.</p>
       </div>
-      <div>
+      <div xml:id="r861592">
         <head rend="uc">Première partie
          <lb/>Étude historique</head>
-        <div>
+        <div xml:id="r861600">
           <head rend="uc">Chapitre premier
            <lb/>la fondation et les débuts du couvent</head>
           <p>C’est en 1352 que les premiers célestins vinrent s’installer à Paris dans l’hôtel des Barrés que leur avait donné un bourgeois et échevin de Paris, Garnier Marcel, cousin du célèbre prévôt des marchands. Ils y furent sans doute appelés par les notaires-secrétaires du roi, qui, sollicités par l’un d’eux, Robert de Jussy, ancien novice célestin, les avaient choisis pour chapelains de la confrérie qu’ils venaient de créer.</p>
           <p>Mais la véritable fondation eut lieu quelques années plus tard, par Charles V, dont la nouvelle résidence favorite, l’hôtel Saint-Paul, était située en face du monastère ; le roi les combla alors de sa faveur et se déclara le fondateur de leur monastère.</p>
         </div>
-        <div>
+        <div xml:id="r861615">
           <pb source="https://nakala.fr/10.34847/nkl.5ebb26e6#22429fe1204872b6df065be1f014bdc16a908e69" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.5ebb26e6/22429fe1204872b6df065be1f014bdc16a908e69/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les relations avec l’extérieur.
@@ -94,7 +92,7 @@
           <p><hi rend="i">Relations avec les ecclésiastiques.</hi> – Les privilèges pontificaux maintes fois confirmés assurent aux célestins de Paris l’exemption de la juridiction de l’ordinaire et de toutes dîmes. Si la première exemption n’entraîna jamais de conflits (les relations avec l’évêque de Paris et l’archevêque de Sens, quand elles existent, sont excellentes), la seconde occasionna souvent des procès. Les droits de sépulture dans leur monastère et la « canonique portion » des funérailles donnèrent lieu à une longue querelle entre les célestins et le curé de Saint-Paul.</p>
           <p>Le monastère de Paris, considéré comme chef d’ordre de la province de France, eut de très bons rapports avec les autres prieurés de France, sinon d’Italie, car les relations entre les deux provinces furent souvent difficiles ; il reçoit souvent les frères des autres couvents, ainsi que d’autres ecclésiastiques, réguliers surtout. Les célestins de Paris semblent avoir eu des liens d’amitié durable avec les chartreux de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r861710">
           <head rend="uc">Chapitre III
            <lb/>La vie intérieure du monastère</head>
           <p><hi rend="i">L’observance de la règle.</hi> – L’observance, excellente pendant les deux premiers siècles, est encore satisfaisante au <num>xvi<hi rend="sup">e</hi></num>, mais devient ensuite de plus en plus défectueuse.</p>
@@ -106,16 +104,16 @@
           <p>Le couvent est réputé pour l’abondance de ses aumônes ; elles s’adressent surtout à des écoliers nécessiteux, aux pauvres de la paroisse Saint-Paul, à leurs serviteurs et à certains religieux. Ce sera leur argument le plus convaincant lors de l’enquête menée, en 1770, pour la réforme qui aboutit à la suppression.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r861782">
         <pb source="https://nakala.fr/10.34847/nkl.5ebb26e6#04abd04a63ca91b9cd4d2336fe9fc8d8da6f6d25" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.5ebb26e6/04abd04a63ca91b9cd4d2336fe9fc8d8da6f6d25/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Étude archéologique</head>
-        <div>
+        <div xml:id="r861795">
           <head rend="uc">Chapitre premier
            <lb/>étude topographique</head>
           <p>Le monastère, situé au bord de la Seine, sur la rive droite, était primitivement à l’extérieur de Paris ; la construction de l’enceinte de Charles V lui assure bientôt la protection de ses murs en même temps qu’elle le fait entrer dans la ville. L’installation du roi dans les hôtels de Saint-Paul et des Tournelles donne au quartier son lustre. Leur lotissement, au <num>xvi<hi rend="sup">e</hi></num> siècle, entraîne le percement de nouvelles rues et l’édification d’immeubles de rapport. La rue de la Cerisaie, tracée en bordure nord du monastère, est la plus aristocratique. La construction de l’Arsenal qui vient enserrer, au sud et à l’est, les murs du couvent, redonne vie à cette partie de la paroisse Saint-Paul ; quand la place Royale et la rue Saint-Antoine furent abandonnées pour le faubourg Saint-Germain, le quartier avoisinant l’Arsenal fut délaissé.</p>
         </div>
-        <div>
+        <div xml:id="r861813">
           <head rend="uc">Chapitre II
            <lb/>Histoire de la construction</head>
           <p><hi rend="i">L’église.</hi> – La première pierre de l’église fut posée en 1365 par Charles V qui donne, en 1367, dix mille francs d’or pour achever sa construction. L’édifice fut consacré en 1370 par Guillaume II de Melun, archevêque de Sens, sous le titre de l’Annonciation ; il ne subit guère de modifications par la suite, sauf des aménagements intérieurs et l’adjonction de trois chapelles : celle que fit édifier Louis d’Orléans vers 1394, la chapelle de la confrérie des dix mille martyrs, avec ses chapelles collatérales élevées par divers prélats dont le cardinal de Bourbon, archevêque de Lyon, et Pierre de Foix, archevêque d’Aix, consacrée en 1482 par Louis de Beaumont, évêque de Paris, et, à une date indéterminée antérieure au <num>xvi<hi rend="sup">e</hi></num> siècle, la chapelle Saint-Martin.</p>
@@ -127,7 +125,7 @@
           <p><hi rend="i">Le « clos ».</hi> – <hi rend="i">Le</hi> « clos » est constitué par les premières donations faites au couvent ; il est environné de murs dès la fin du <num>xiv<hi rend="sup">e</hi></num> siècle. Les terres qui furent ensuite données aux religieux à l’extérieur du « clos » furent bientôt occupées par la ville et par le roi pour y établir le Grand et le Petit Arsenal qui, à partir du <num>xvi<hi rend="sup">e</hi></num> siècle, enserrent étroitement le couvent.</p>
           <p><hi rend="i">Destinée des bâtiments après la suppression.</hi> – Lorsque l’ordre est supprimé, le monastère est successivement affecté aux Cordeliers, aux sourds-muets, à un institut médico-électrique, puis à une caserne. Cette dernière destination entraîne la destruction de la plupart des bâtiments dès 1842. En 1904, les derniers vestiges disparaîssent.</p>
         </div>
-        <div>
+        <div xml:id="r861897">
           <head rend="uc">Chapitre III
            <lb/>Description des bâtiments</head>
           <p><hi rend="i">L’église.</hi> – L’église, simple et de dimensions modestes, était couverte de charpente. Seul, son sanctuaire à abside pentagonale était voûté ; elle n’a retenu l’attention que pour les belles statues de son portail (Charles V, Jeanne de Bourbon et saint Pierre Célestin) et quelques riches tombeaux (entrailles de Jeanne de Bourbon, Anne de Bourgogne, Léon de Lusignan, roi d’Arménie).</p>
@@ -139,7 +137,7 @@
           <p><hi rend="i">Les bâtiments monastiques.</hi> – Les bâtiments étaient vastes, répartis autour de diverses cours ; mais, assez disparates, ils visaient plus à la commodité qu’à l’esthétique. Les salles étaient nombreuses et il existait de nombreuses dépendances, <pb source="https://nakala.fr/10.34847/nkl.5ebb26e6#0e0bc2bb2f8ca9ad38236093fdb0706ae4265878" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.5ebb26e6/0e0bc2bb2f8ca9ad38236093fdb0706ae4265878/full/full/0/default.jpg"/> greniers et caves. Les beaux bâtiments reconstruits aux <num>xvii<hi rend="sup">e</hi></num> et XVIII<hi rend="sup">e </hi>siècles offraient une noble façade ; agrémentés d’une orangerie, ils prenaient vue en partie sur les très beaux jardins, plantés d’arbres, ornés de fleurs, de parterres et de pièces d’eau, qui s’étendaient derrière le monastère. Tout à fait à l’est, des vignes occupaient le reste de l’enclos. Les autres monastères célestins ont rarement des points communs : il n’y a pas d’architecture « célestine ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r861958">
         <head rend="uc">Troisième partie
          <lb/>Étude économique et financière</head>
         <p>Le couvent de Paris possède un riche temporel exploité par les procureurs, les oblats et des baillis ; il se compose de fiefs, de domaines où les religieux ont leurs chapelles, de fermes, de moulins, de vignes, de bois et d’étangs, de cens, de rentes, dont un certain nombre sur l’Hôtel-de-Ville, et de nombreuses maisons à Paris.</p>
@@ -147,7 +145,7 @@
         <p>De grandes fluctuations se produisent dans leurs biens. Ils vendent, achètent, échangent presque constamment, y étant souvent contraints par des procès. A partir du <num>xvi<hi rend="sup">e</hi></num> siècle, ils essayent de grouper leurs possessions et, au <num>xvii<hi rend="sup">e</hi></num> siècle, donnent la préférence aux maisons de Paris, plus facilement exploitables.</p>
         <p>Ces possessions se trouvaient essentiellement dans une région qui correspond aux départements de Seine, Seine-et-Marne, Seine-et-Oise et Eure-et Loir. Ils eurent une quarantaine de maisons à Paris, localisées sur la rive droite dans le quartier Saint-Paul, le quartier Saint-Merri, le quartier des Grèves, le quartier de la Halle (avec des boutiques sous les piliers des halles) et le quartier Notre-Dame. Sur la Seine, ils possédaient une « boutique à poisson » à l’Arche-Beaufils. Malgré les guerres, la situation financière de l’institution, après une courte période initiale de dénuement, est bonne jusqu’au <num>xvi<hi rend="sup">e</hi></num> siècle ; mais ensuite la prodigalité des religieux, les frais d’entretien de leurs propriétés et une gestion assez négligente causent leur ruine ; au <num>xviii<hi rend="sup">e</hi></num> siècle, ils sont couverts de dettes.</p>
       </div>
-      <div>
+      <div xml:id="r862009">
         <head rend="uc">Appendices</head>
         <p>Liste des incunables provenant de la bibliothèque des célestins conservés à la Bibliothèque Mazarine.</p>
         <p>État des religieux à la veille de la suppression.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1939_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1939_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,11 +56,11 @@
         <forename>Yvonne</forename>
         <surname>Aubert</surname>
       </byline>
-      <div>
+      <div xml:id="r591835">
         <head rend="uc">Avant-propos</head>
         <p>Étude de la vie d’une communauté du moyen âge, aux confins du pays de Caux et de la vallée de la Basse-Seine.</p>
       </div>
-      <div>
+      <div xml:id="r591845">
         <head rend="uc">Introduction</head>
         <p>Le chartrier de l’abbaye ; les pertes qu’il a subies ; son état actuel. Autres sources diplomatiques. Sources narratives.</p>
         <p>Critique des sources : la pancarte de Guillaume le Conquérant et les bulles de confirmation de Célestin III et d’Innocent III.</p>
@@ -73,7 +71,7 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r591875">
         <head rend="uc">Chapitre premier
          <lb/>le monastère.</head>
         <p>1. <hi rend="i">Etude des origines.</hi> – L’abbaye a été fondée par saint Philibert, vers 682, et détruite par les Normands. Les ducs normands la relèvent. Un moment prieuré de Fécamp (1025-1034), elle est rendue indépendante par le duc Robert le Magnifique, qui lui accorde de grands biens et l’affranchissement des coutumes épiscopales pour son église et plusieurs autres : ce privilège et le territoire auquel on l’applique seront appelés l’<hi rend="i">Exemption.</hi></p>
@@ -82,7 +80,7 @@
         <p>4. <hi rend="i">Description du temporel.</hi> – Les églises et les <pb source="https://nakala.fr/10.34847/nkl.8a8cq27c#6eb360a685ec1cf861b3cf705d3f5b5966577f1f" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.8a8cq27c/6eb360a685ec1cf861b3cf705d3f5b5966577f1f/full/full/0/default.jpg"/>dîmes en forment l’ossature. Les simples revenus et les possessions fragmentaires se groupent autour d’elles. Le territoire de l’Exemption. Les biens dans les diocèses de Rouen, Lisieux, Bayeux, Séez et Coutances. Les biens d’Angleterre, leur don vers 1240 à l’abbaye de Netley. Le prieuré de Saint-Paul-lès-Rouen.</p>
         <p>5. <hi rend="i">Historique du monastère.</hi> – Sensibilité de l’état économique de l’abbaye aux événements extérieurs : la crise de 1204, la guerre de Cent ans. Fuite des religieuses en 1357 et 1415. Éveil de l’esprit d’indépendance chez les vassaux de l’abbaye à l’occasion des guerres. Au début du <num>xvi<hi rend="sup">e</hi></num> siècle, l’état économique du monastère s’améliore et l’on reprend les constructions. En 1528, l’abbaye est mise en commende.</p>
       </div>
-      <div>
+      <div xml:id="r591951">
         <head rend="uc">Chapitre II
          <lb/>La vie intérieure du monastère.</head>
         <p>1. <hi rend="i">L’observance de la Règle.</hi> – L’abbaye suit la Règle de saint Benoît. Elle avait des constitutions propres, qui paraissent s’être transmises oralement. Dans les périodes de calme, les archevêques veillent à l’observance de la règle ; dans les périodes troublées, le relâchement est fréquent à l’abbaye.</p>
@@ -92,7 +90,7 @@
         <p>Les archevêques attachent une grande importance à la vie religieuse de l’abbaye : ils déplorent la rapidité des offices, le manque de livres liturgiques, la frivolité de certaines cérémonies. Les périodes de troubles lui sont néfastes.</p>
         <p>4. <hi rend="i">La vie matérielle à l’abbaye.</hi> – La vie en commun était de règle, mais il y fut souvent dérogé. Pendant la guerre de Cent ans, chaque religieuse prend elle-même en nature sa nourriture chez les marchands ; plus tard, on versera à chacune une somme forfaitaire. Toutefois, la dureté du climat pouvait justifier bien des adoucissements de la règle. La vie intellectuelle ne paraît pas avoir atteint un niveau élevé. Les travaux grossiers étaient effectués par des servantes. Aux temps de relâchement, le soin de la toilette et une vie semi-mondaine n’étaient pas inconnus au monastère.</p>
       </div>
-      <div>
+      <div xml:id="r591999">
         <pb source="https://nakala.fr/10.34847/nkl.8a8cq27c#f7b9f8054508b801f225135559fd74887d889495" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.8a8cq27c/f7b9f8054508b801f225135559fd74887d889495/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre III
          <lb/>Rôle économique et social du monastère.</head>
@@ -109,10 +107,10 @@
         <p>4. <hi rend="i">L’œuvre charitable.</hi> – La Règle en fait une obligation. La charité est volontiers pratiquée par l’abbaye. L’aumône aux portes, en argent et en nature. La création et la dotation de l’hôpital de Montivilliers par l’abbaye (1241). Son temporel est géré par l’aumônière.</p>
         <p>Influence de l’activité charitable de l’abbaye sur la région.</p>
       </div>
-      <div>
+      <div xml:id="r592125">
         <head rend="uc">Chapitre IV
          <lb/>La vie extérieure du monastère.</head>
-        <div>
+        <div xml:id="r592133">
           <head rend="uc">A. Le monastère dans la société ecclésiastique.</head>
           <p>1. <hi rend="i">Relations avec les établissements monastiques.</hi> – Monastère bénédictin indépendant, l’abbaye n’a jamais été affiliée à aucune congrégation. Ses relations étroites avec Fécamp, ses rapports avec les autres abbayes normandes. Echanges d’abbesses et de religieuses. Association de prières entre abbayes. Les rouleaux des morts. Les accords sur les questions temporelles (très peu de procès monastiques à Montivilliers). Les demandes de reliques entre monastères.</p>
           <p>2. <hi rend="i">Rapports avec l’Ordinaire.</hi> – L’abbaye prétendait, en s’appuyant sur un acte subreptice, au privilège d’exemption, mais ses titres ne lui accordaient que l’exercice de la juridiction épiscopale sur un territoire de douze à quatorze paroisses : <hi rend="i">l’Exemption de Montivilliers.</hi></p>
@@ -128,7 +126,7 @@
           <p>Les officiers de la juridiction ecclésiastique : le doyen, l’official, le promoteur et le secrétaire.</p>
           <p>Les synodes de l’abbaye. Les paroisses de l’Exemption. Les vicairies. L’abbaye et les curés de l’Exemption. Les droits de l’abbaye sur la paroisse Saint-Sauveur.</p>
         </div>
-        <div>
+        <div xml:id="r592216">
           <head rend="uc">B. Le monastère dans la société laïque.</head>
           <p>1. <hi rend="i">L’abbaye et les ducs de Normandie.</hi> – Les ducs de Normandie ont restauré et doté l’abbaye de Montivilliers. En lui confiant un grand rôle, ils lui donnèrent de grands privilèges, mais, devenus rois d’Angleterre, ils délaissent peu à peu le monastère. Les confiscations de Jean sans Terre. L’abbaye abandonne ses biens anglais.</p>
           <p>2. <hi rend="i">L’abbaye et les rois de France.</hi> – La protection royale sur l’abbaye est efficace. La royauté ne dote pas l’abbaye, mais lui paie régulièrement ses rentes et défend ses privilèges. Le roi protège l’abbaye même contre ses propres officiers.</p>
@@ -142,11 +140,11 @@
           <p>5. <hi rend="i">Les empiétements de l’administration royale.</hi> – Les officiers royaux se substituent à l’abbaye dans l’exercice de la haute justice (le bailli), des coutumes des foires et marchés. La royauté empiète sur les privilèges du monastère en s’arrogeant par la commende le droit de désigner l’abbesse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r592306">
         <head rend="uc">Conclusion</head>
         <p>Rôle historique de l’abbaye de Montivilliers : son activité spirituelle et temporelle sur le territoire de son Exemption.</p>
       </div>
-      <div>
+      <div xml:id="r592316">
         <pb source="https://nakala.fr/10.34847/nkl.8a8cq27c#23bf71f2b0cef5ff870c8df1f8e65e0184774697" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.8a8cq27c/23bf71f2b0cef5ff870c8df1f8e65e0184774697/full/full/0/default.jpg"/>
         <head rend="uc">Appendices</head>
         <div>
@@ -163,7 +161,7 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r592363">
         <head rend="uc">Pièces justificatives</head>
         <div>
           <head rend="uc">Cartes – Plans – Photographies</head>

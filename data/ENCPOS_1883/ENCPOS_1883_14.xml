@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1883_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1883_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,12 +58,12 @@
         <forename>Léonce</forename>
         <surname>Lex</surname>
       </byline>
-      <div>
+      <div xml:id="r121688">
         <head rend="uc">Introduction</head>
         <p>I. Bibliographie. – M. d’Arbois de Jubainville (<hi rend="i">Histoire des comtes de Champagne</hi>) est le véritable historien d’Eudes. – M. Landsberger, dans une dissertation présentée à l’Université de Gœttingue, l’a plusieurs fois rectifié. – Les derniers historiens allemands.</p>
         <p>II. Sources. – Aux renseignements donnés par les chroniques est ajoutée l’étude de nombreuses chartes publiées et inédites.</p>
       </div>
-      <div>
+      <div xml:id="r121705">
         <head rend="uc">Première partie
          <lb/>Entreprises militaires</head>
         <p>L’origine de la maison de Blois est incertaine. Les récits de Richer et de Jean Iperius ont tous deux un caractère légendaire.</p>
@@ -97,7 +95,7 @@
         <p>Guerres en Lorraine contre l’empereur d’Allemagne (1033-1036). Discussion de la place qu’il faut assigner au siége de Commercy.</p>
         <p>Dernière guerre. Mort d’Eudes (1037).</p>
       </div>
-      <div>
+      <div xml:id="r121814">
         <head rend="uc">Deuxième partie
          <lb/>Relations avec les églises</head>
         <p>Eudes et Thibaud comblent de dons les abbayes, mais ils sont intraitables quand leurs intérêts personnels sont en jeu, notamment dans les élections d’abbés.</p>
@@ -127,26 +125,26 @@
         <p>D’un diplôme royal (1048-1053) rappporté à tort à 1033 et à 1035.</p>
         <p>De quelques chartes sans date.</p>
       </div>
-      <div>
+      <div xml:id="r121907">
         <head rend="uc">Appendices.</head>
-        <div>
+        <div xml:id="r121913">
           <head rend="uc">
             <hi rend="i">I.</hi> – <hi rend="i">Diplomatique.</hi></head>
           <p>Période de 995 à 1004. – Période de 1004 a 1037.</p>
           <pb source="https://nakala.fr/10.34847/nkl.3952ls65#63c99e09d3079d3102d661bd34c3983b6f294652" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.3952ls65/63c99e09d3079d3102d661bd34c3983b6f294652/full/full/0/default.jpg"/>
           <p>Deux séries d’actes : chartes proprement dites, – notices. Étude de leurs différentes parties constitutives. – D’un prétendu sceau du comte Eudes.</p>
         </div>
-        <div>
+        <div xml:id="r121938">
           <head rend="uc">
             <hi rend="i">II.</hi> – <hi rend="i">Numismatique.</hi></head>
           <p>Monnaies de Chartres, – Blois, – Chinon, – Troyes et Meaux, – Sens et Provins, – Reims. – Celte dernière seule est nominale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r121956">
         <head rend="uc">Catalogue d’actes.</head>
         <p>Analyse de soixante-dix documents.</p>
       </div>
-      <div>
+      <div xml:id="r121966">
         <head rend="uc">Pièces justificatives.</head>
         <p>Textes de trente-cinq chartes, dont vingt-huit entièrement inédites. – Détermination de quelques pièces fausses.</p>
         <p>Chaque élève publiera les positions de sa thèse sous sa responsabilité personnelle.</p>

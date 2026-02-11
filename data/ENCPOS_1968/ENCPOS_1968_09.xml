@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,28 +57,28 @@
         <forename>Claire</forename>
         <surname>Guérin</surname>
       </byline>
-      <div>
+      <div xml:id="r892468">
         <head rend="uc">Sources</head>
         <p>Les séries M et MM des Archives nationales forment la base de la documentation relative à l’ordre de Saint-Lazare de Jérusalem. Dans les cartons de la série S furent recueillis les renseignements principaux concernant l’histoire des établissements hospitaliers de Normandie. Ces informations furent complétées par des recherches au minutier central des notaires de Paris, dans les papiers de Maître Guichard, notaire de l’ordre, ainsi qu’à la Bibliothèque nationale. La série A<hi rend="sup">1</hi> du Dépôt de la Guerre, à Vincennes, et la série de la Correspondance politique de Rome conservée aux Archives du ministère des Affaires étrangères ont apporté d’utiles précisions sur l’action personnelle de Louvois.</p>
       </div>
-      <div>
+      <div xml:id="r892482">
         <head rend="uc">Introduction</head>
         <p>Au cours des dernières années du <num>xvii<hi rend="sup">e</hi></num> siècle fut menée en France une entreprise qui eut un retentissement considérable, surtout en matière d’assistance. Pourtant, conduite par Louvois, cette tentative ne se fixait pas de buts proprement hospitaliers ; il s’agissait pour le secrétaire d’État à la Guerre de récompenser des officiers estropiés ou vieillis au service du roi.</p>
         <p>A ces besoins, Louvois trouva une solution d’une grande hardiesse : recueillir les biens de léproseries et d’ordres hospitaliers décadents pour en dis<pb source="https://nakala.fr/10.34847/nkl.1f811vb3#9d34c096d462d02f1604587c966ef3feadb70501" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f811vb3/9d34c096d462d02f1604587c966ef3feadb70501/full/full/0/default.jpg"/>tribuer les ressources à des gens de guerre. Pour dissimuler l’audace d’un tel procédé, il eut recours à un prête-nom, l’ordre de Saint-Lazare de Jérusalem et de Notre-Dame du Mont-Carmel. Les revenus des établissements ainsi rassemblés seraient distribués aux officiers désignés par Louvois, sous le couvert de commanderies de cet ordre.</p>
         <p>Le cadre chronologique de cette étude se trouve limité par deux actes royaux, l’édit de décembre 1672, consacrant les principes du programme de Louvois, et celui de mars 1693, qui vint mettre un terme à la tentative. Naturellement, la réforme intéressa tout le royaume, mais ses incidences ont été plus particulièrement étudiées, ici, sur un territoire restreint, le grand prieuré de Normandie, l’une des cinq divisions établies en 1680, correspondant en gros aux départements de la Seine, Seine-et-Oise, Seine-et-Mame, Eure et Seine-Maritime.</p>
       </div>
-      <div>
+      <div xml:id="r892509">
         <head rend="uc">Chapitre préliminaire
          <lb/>l’ordre de Saint-Lazare de Jérusalem
          <lb/>et de Notre-Dame du Mont-Carmel</head>
         <p>L’ordre de Saint-Lazare de Jérusalem naquit du mouvement qui suscits au <num>xii<hi rend="sup">e</hi></num> siècle, en Orient, la création de plusieurs ordres militaires et hospitaliers. Peu différent des autres, il se spécialisa dans les soins dispensés aux lépreux. Ayant gagné l’Europe, ses membres ne jouèrent pas en France le rôle que ses historiographes se sont plu à leur prêter. Les établissements dont ils assurèrent le fonctionnement ne semblent pas avoir dépassé, au <num>xiii<hi rend="sup">e</hi></num> siècle, quelques dizaines de petites maisons. Après la période de relâchement qu’il connut aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles, l’ordre avait attiré l’attention d’Henri IV qui, pour le faire revivre, l’avait uni à celui qu’il venait de créer en 1608, Notre-Dame du Mont-Carmel. A ce nouvel organisme, le roi fixait des buts militaires qu’il n’eut pas le temps d’atteindre.</p>
         <p>Pour Louvois, en 1672, cette institution offrait bien des avantages. Elle avait reçu des papes des privilèges importants, possédait quelques commanderies. Ses origines et ses statuts se révélaient assez mal connus pour que l’on pût, sous prétexte de découvrir les usurpations commises à son détriment, annexer à ses biens les revenus de bon nombre de léproseries. De plus, depuis sept ans, sous l’impulsion d’un carme, le Père Toussaint de Saint-Luc, des membres actifs de l’ordre tentaient d’attirer l’attention du roi sur Saint-Lazare. Ils avaient manifesté leurs prétentions dans les domaines militaires et hospitaliers par des écrits et des activités plus concrètes : ainsi, en 1667 et 1668, avaient-ils armé des navires contre les Anglais. Saint-Lazare avait également essayé de faire reconnaître ses droits sur les maladreries, en obtenant du duc d’Orléans la permission de rentrer en possession des léproseries de son apanage qui auraient été usurpées à l’ordre. A cette volonté de restauration s’opposaient la pauvreté du trésor de l’ordre, la médiocrité de ses possessions, le manque d’appuis influents. Louvois trouva une solution à ces aspirations.</p>
       </div>
-      <div>
+      <div xml:id="r892550">
         <pb source="https://nakala.fr/10.34847/nkl.1f811vb3#6f7f19b13ec97dc1f9e94988e049e473028073b0" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f811vb3/6f7f19b13ec97dc1f9e94988e049e473028073b0/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Besoins de réforme et tentatives de Louvois</head>
-        <div>
+        <div xml:id="r892563">
           <head rend="uc">Chapitre premier
            <lb/>des problèmes militaires graves au <num>xvii<hi rend="sup">e</hi></num> siècle</head>
           <p>En 1672, à l’occasion des préparatifs de la guerre de Hollande, Louvois avait remis au roi un mémoire indiquant qu’il tenait prêts cent vingt mille hommes. Mais si, de l’ardeur des officiers au service du roi, dépendait en grande partie l’attitude de l’armée tout entière, bien des insuffisances de l’organisation militaire pouvaient les détourner d’un service assidu.</p>
@@ -89,7 +87,7 @@
           <p>On n’avait guère trouvé que des expédients pour remédier à ces difficultés. Aux officiers blessés, à ceux qui s’étaient distingués, le roi accordait des gratifications de quelques centaines de livres. Il leur octroyait également des pensions, mais de chiffre moins élevé ; les anoblissements entraient aussi dans le cadre de ces récompenses. Mais ce n’étaient là que des dons sujets à des altérations. Le bénéficiaire n’en tirait pas de solides avantages.</p>
           <p>L’année 1670 connut, sous l’impulsion de Louvois, une double tentative. Avec les fonds qu’il recueillait pour les pensions des religieux-lais, Louvois résolut de combler deux lacunes. Sa première œuvre est bien connue. Il dota un hôtel destiné aux officiers et soldats invalides de la moitié des subsides versés par les abbayes. Le reste des crédits concentrés servirait à distribuer des pensions à des capitaines et officiers subalternes des régiments d’infanterie. Si le premier projet eut des débuts spectaculaires quoique difficiles, le second fut abandonné. Le sort des officiers âgés restait ignoré. Pour ceux d’entre eux qui demeuraient invalides, une vie commune avec les soldats ne constituait pas une solution pleinement satisfaisante.</p>
         </div>
-        <div>
+        <div xml:id="r892593">
           <pb source="https://nakala.fr/10.34847/nkl.1f811vb3#b0ab0aedc5686b110f4b958801f12ccef388749e" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f811vb3/b0ab0aedc5686b110f4b958801f12ccef388749e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les projets de Louvois</head>
@@ -100,7 +98,7 @@
           <p>A la tète de l’ordre de Saint-Lazare, Louvois plaça un conseil de direction composé de neuf chevaliers de l’ordre, dont la tâche principale consistait à faire effectuer par des commis la recherche des établissements touchés par l’édit. Ensuite, ces hôpitaux rattachés à Saint-Lazare par jugement de la Chambre de l’Arsenal seraient administrés par le conseil, en attendant leur répartition en commanderies.</p>
           <p>Ces deux organismes se mirent rapidement au travail et collaborèrent utilement. Le conseil de l’ordre mena les investigations de manière intensive. De son côté, la Chambre de l’Arsenal s’efforça d’élaborer des règlements facilitant l’application de l’édit.</p>
         </div>
-        <div>
+        <div xml:id="r892631">
           <pb source="https://nakala.fr/10.34847/nkl.1f811vb3#5c98a8fc6ddf5e80563b9be5b0828a7f2474fbc2" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f811vb3/5c98a8fc6ddf5e80563b9be5b0828a7f2474fbc2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’édit de 1672 et la politique hospitalière</head>
@@ -112,11 +110,11 @@
           <p>Les conséquences hospitalières de l’édit de 1672 se révélèrent importantes. Par l’énergie de ses prescriptions, cet acte supprimait toute source d’abus. S’il spoliait des centaines de titulaires et de possesseurs de biens hospitaliers, il établissait de façon définitive l’autorité de la royauté. Mais les buts proprement hospitaliers que s’était fixé l’édit, construction d’hôpitaux militaires et entretien des lépreux par Saint-Lazare, n’y tinrent qu’une place négligeable.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r892700">
         <pb source="https://nakala.fr/10.34847/nkl.1f811vb3#bbbf267c617c70ad1d79af7f322765cf44514141" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f811vb3/bbbf267c617c70ad1d79af7f322765cf44514141/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Échec de l’entreprise de Louvois</head>
-        <div>
+        <div xml:id="r892713">
           <head rend="uc">Chapitre premier
            <lb/>les oppositions à l’édit de 1672</head>
           <p>Des résistances à l’application de la réforme apparurent rapidement.</p>
@@ -124,7 +122,7 @@
           <p>Les ordres que le roi avait déclaré éteints en 1672 se trouvaient pour la plupart inexistants. Seul, celui du Saint-Esprit de Montpellier comprenait quelques maisons où l’hospitalité était exercée. Mais il était en proie à des rivalités internes, et sa résistance fut de courte durée. Celui que Rome lui reconnaissait pour chef, l’abbé du Colombier, fut jeté à la Bastille dès juin 1673 sur ordre de Louvois. Ayant fait taire ces protestations, Saint-Lazare put entrer en possession des biens de ces ordres, qui ne se révélèrent d’ailleurs que d’un revenu médiocre.</p>
           <p>Devant les atteintes portées à des institutions dont il se reconnaissait la garde, il était normal que le Saint-Siège s’émût. Louis XIV aurait dû demander à Rome l’autorisation de changer la destination des hôpitaux tenus en bénéfices et de déclarer éteints les ordres unis à Saint-Lazare. Louvois, peu soucieux de ces formalités, se rendit compte pourtant de leur nécessité. Il envoya à Rome, dès la fin de décembre 1672, un ambassadeur secret, l’abbé Coquelin, chargé de faire ratifier ce qui avait été prescrit par l’édit, et aussi d’obtenir de nouvelles grâces en faveur de l’ordre. Coquelin agit avec maladresse, s’aliéna l’amitié de tous ceux qui auraient pu l’aider, et fournit enfin à Paris et à Rome des promesses engageant la politique des deux cours, assurances qu’il n’était pas en mesure de donner. La papauté, plus piquée de l’attitude désinvolte de <pb source="https://nakala.fr/10.34847/nkl.1f811vb3#f5ba632a8b70a6b399c4290dad78db6ea238fa56" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f811vb3/f5ba632a8b70a6b399c4290dad78db6ea238fa56/full/full/0/default.jpg"/>Louis XIV que de la gravité des décisions prises en 1672, fit traîner les choses. Après un départ brusqué de l’abbé Coquelin, l’ambassadeur d’Estrées, en 1674, tenta de renouer les pourparlers, puis reçut l’ordre d’abandonner l’affaire : Louis XIV renonçait à obtenir l’accord pontifical, mais ce refus entamait gravement le succès de l’entreprise de Louvois.</p>
         </div>
-        <div>
+        <div xml:id="r892739">
           <head rend="uc">Chapitre II
            <lb/>Insuffisances, erreurs, lacunes de la réforme de Louvois</head>
           <p><hi rend="i">Les unions à Saint-Lazare.</hi> – C’est la Chambre de l’Arsenal qui pâtit la première des imprécisions de l’édit. Force lui fut de remédier à ces défauts par des déclarations successives en interprétation de cet acte. Elle dut se prononcer sur la nature des hôpitaux frappés par l’édit et sur la validité des unions effectuées avant 1672. De plus, elle se trouva surchargée par le nombre de litiges à examiner. Ses délégués, peu nombreux, recevaient le contrôle de territoires trop vastes pour qu’ils pussent vérifier le bien-fondé des prétentions des commis de Saint-Lazare. Malgré les recherches considérables menées par l’ordre, les biens unis en 1680 ne représentaient pour la Normandie qu’un quart de ceux que réclamait Saint-Lazare. Les diocèses du sud du royaume connaissaient des proportions moindres.</p>
@@ -133,7 +131,7 @@
           <p><hi rend="i">La distribution des commanderies.</hi> – Opérée par Louvois, sur proposition des inspecteurs de cavalerie et d’infanterie et des intendants de marine, l’attribution des commanderies ne répondit pas aux buts fixés en 1672. Seuls, cent quarante-cinq officiers qui ne faisaient pas encore partie de l’ordre de Saint-Lazare reçurent des récompenses. Certains corps se trouvèrent favorisés dans <pb source="https://nakala.fr/10.34847/nkl.1f811vb3#2fde59b2096aa618e7281cda7e2afe8fdd4d3d0f" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f811vb3/2fde59b2096aa618e7281cda7e2afe8fdd4d3d0f/full/full/0/default.jpg"/>cette distribution : les officiers d’infanterie recueillirent 47,5 % des richesses de Saint-Lazare, ceux de cavalerie 37,5 % ; les troupes attachées au service du roi, mousquetaires et gardes du corps, 7,5 % ; les officiers de marine, lésés dans la répartition, n’en eurent que 7,5 %. Bon nombre d’officiers commandeurs ne faisaient que commencer leur carrière militaire et beaucoup n’avaient jamais été blessés.</p>
           <p><hi rend="i">L’administration des commanderies.</hi> – Le système de Louvois prévoyait que les officiers devenaient eux-mêmes administrateurs des commanderies. En principe, ces récompenses constituaient pour les bénéficiaires des avantages appréciables, leur revenu équivalait souvent au montant annuel de la solde de l’officier. Mais des difficultés surgirent ; les officiers, retenus une partie de l’année, ne pouvaient s’occuper de biens situés loin de leur province d’origine. Les commanderies, outre leur état misérable, se trouvaient grevées de charges diverses et sujettes à des altérations. Aussi les officiers ont-ils négligé leurs devoirs et n’ont songé qu’à tirer de leurs commanderies le maximum de revenus.</p>
         </div>
-        <div>
+        <div xml:id="r892780">
           <head rend="uc">Chapitre III
            <lb/>Nouvelle orientation de la politique royale</head>
           <p>Depuis 1672, Louvois s’était occupé de toutes les étapes de la réforme ; il en avait élaboré les bases et surveillé l’exécution. Louis XIV l’avait rarement soutenu personnellement. Or, Louvois mourut en juillet 1691, dans des circonstances obscures, frappé par l’annonce d’une disgrâce imminente.</p>
@@ -142,16 +140,16 @@
           <p>Dans ces conditions, Louis XIV mit fin, en avril 1693, à l’expérience tentée par Louvois. Sans donner ni précisions, ni garanties pour l’avenir, le roi revenait <pb source="https://nakala.fr/10.34847/nkl.1f811vb3#3a04bd7d1c50a28182554266843c0d8b2869366c" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f811vb3/3a04bd7d1c50a28182554266843c0d8b2869366c/full/full/0/default.jpg"/>tout simplement à la situation antérieure à 1672. Seuls les officiers recevaient la garantie d’un prochain dédommagement. Pour l’ordre de Saint-Lazare, c’était la fin de sa période de grandeur.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r892807">
         <head rend="uc">Conclusion</head>
         <p>Lors de la promulgation de l’édit de 1693 n’apparaissaient des efforts de Louvois que les aspects négatifs. Œuvre d’un seul homme, mal soutenu par le roi, l’entreprise qu’il avait menée se trouvait entachée d’imperfections dès sa conception ; concrètement, les résultats s’avéraient décevants. Pour avantager quelque cent cinquante personnes, elle en avait lésé presque trois mille.</p>
         <p>Cet insuccès fut cependant à la base d’une prise de conscience par la royauté de besoins urgents dans le domaine militaire, comme en matière d’assistance. En 1693, il fut reconnu de tous que les officiers méritants et âgés avaient des droits. Les questions hospitalières, d’autre part, furent sérieusement étudiées. La tentative de Louvois, par ses imperfections mêmes, ouvrait la voie à des institutions plus satisfaisantes et plus durables, tel que la création de l’ordre de Saint-Louis et le regroupement des établissements hospitaliers.</p>
       </div>
-      <div>
+      <div xml:id="r892820">
         <head rend="uc">Pièces justificatives</head>
         <p>Mémoire sur l’histoire de Saint-Lazare (1672). – Édit de décembre 1672. – Délibération du Grand Conseil pour l’enregistrement de l’édit (février 1673). – Comptes de la maladrerie de Châtres-sous-Montlhéry (1632). – Devis des travaux à exécuter à l’hôtel-Dieu de Louvres-en-Parisis (1678). – État du grand prieuré de Normandie (1680). – Bail des biens de la commanderie de Pontoise (1681). – Mémoire de Chamlay sur l’ordre de Saint-Lazare (1692).</p>
       </div>
-      <div>
+      <div xml:id="r892830">
         <head rend="uc">Appendices et cartes</head>
         <p>Localisation des archives des cent soixante établissements constituant le grand prieuré de Normandie. – Liste des officiers pourvus de commanderies de Saint-Lazare.</p>
         <p>Carte des biens de l’ordre en 1672. – Cartes des unions à l’ordre, 1675, 1680. – Carte des grands prieurés et des commanderies qui les constituèrent (1680). – Cartes des établissements hospitaliers du grand prieuré de Normandie.</p>

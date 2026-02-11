@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1961_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1961_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,24 +54,24 @@
         <forename>Marie-Edmée</forename>
         <surname>Michel-Mulliez</surname>
       </byline>
-      <div>
+      <div xml:id="r822653">
         <head rend="uc">Sources-bibliographie</head>
         <p>Les registres d’audience du Bureau de la Ville conservés aux Archives nationales dans la sous-série Z<hi rend="sup">1H</hi> constituent la source essentielle de cette étude.</p>
       </div>
-      <div>
+      <div xml:id="r822667">
         <head rend="uc">Introduction</head>
         <p>L’ancienneté et la persistance du trafic des vins du bassin parisien attestent son importance dans la vie économique de cette région ; la capitale, grand centre de consommation et de réexportation, est au cœur de cette activité. Certains traits marquants de l’histoire du <num>xvi<hi rend="sup">e</hi></num> siècle, tels que l’affirmation d’une politique économique, l’appesantissement de la fiscalité royale et la hausse des prix, apparus sous François I<hi rend="sup">er</hi>, firent peu à peu sentir la nécessité d’adapter l’ancienne réglementation du commerce vinicole parisien. Le règne d’Henri III et particulièrement l’année 1577 durant laquelle fut rendu l’arrêt du Parlement du 14 août, peuvent être considérés comme le terme de l’activité législative engendrée par les besoins d’une situation nouvelle.</p>
       </div>
-      <div>
+      <div xml:id="r822687">
         <head rend="uc">Première partie
          <lb/>Provenance des vins et leur transport jusqu’à Paris</head>
-        <div>
+        <div xml:id="r822695">
           <head rend="uc">Chapitre premier
            <lb/>les lieux d’origine</head>
           <p>La vigne ne forme plus, depuis le <num>xix<hi rend="sup">e</hi></num> siècle, un trait dominant de la physionomie agricole du bassin parisien ; cependant, au <num>xvi<hi rend="sup">e</hi></num> siècle, les coteaux bien exposés de ses moindres vallées portent beaucoup de vignobles : cette région n’est pas foncièrement inapte à la viticulture ; de plus son remarquable réseau <pb source="https://nakala.fr/10.34847/nkl.17aash05#9ce750d017d1d66e0221060d77f5f6bf5e28a659" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.17aash05/9ce750d017d1d66e0221060d77f5f6bf5e28a659/full/full/0/default.jpg"/>hydrographique et la demande régulière des pays nordiques dépourvus de vignes lui donnaient une situation privilégiée. Les principaux centres d’approvisionnement du marché parisien sont la vallée de l’Yonne, la région de Lagny et l’Orléanais. Les environs de Paris, le Hurepoix, le Gâtinais et la Basse-Brie constituent des ensembles d’importance secondaire. Les apports des vignobles aujourd’hui renommés sont moins considérables : Beaune, Arbois, Saint-Pourçain, Anjou, Touraine, Bordeaux. Enfin, Paris recevait d’Espagne, du Portugal et de Grèce des vins liquoreux.</p>
           <p>L’aire d’approvisionnement s’est peu modifiée depuis le moyen âge ; elle ne se modifiera vraiment qu’au <num>xvii<hi rend="sup">e</hi></num> siècle lorsque commenceront à arriver à Paris les vins de la vallée du Rhône et du Languedoc, grâce à la construction de canaux.</p>
         </div>
-        <div>
+        <div xml:id="r822733">
           <head rend="uc">Chapitre II
            <lb/>Les conditions du transport</head>
           <p>Le transport du vin s’effectue principalement par la voie de la Seine et de ses affluents ; des efforts furent faits dans la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle pour accroître l’étendue du réseau navigable.</p>
@@ -81,11 +79,11 @@
           <p>Le vin était transporté en tonneaux fournis par les vignerons ; leurs factures, différentes suivant les régions, permettaient de distinguer les crus. La mesure la plus employée dans le commerce vinicole parisien était le muid qui équivalait au tiers du tonneau bordelais et contenait 268,2 litres à la jauge de Paris. L’édit d’août 1527 prescrivit une unification partielle des mesures en imposant la jauge de Paris, dite jauge « française », aux vins dits « auxerrois ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r822762">
         <head rend="uc">Deuxième partie
          <lb/>L’organisation du commerce du vin à Paris
          <lb/>et les marchands</head>
-        <div>
+        <div xml:id="r822772">
           <head rend="uc">Chapitre premier
            <lb/>la vente en gros</head>
           <p>La vente du vin en gros à Paris avait lieu au port de Grève pour les vins amenés par eau, à l’Étape pour les vins amenés par charroi ; cependant, la <pb source="https://nakala.fr/10.34847/nkl.17aash05#33463ad8ad6a554241162d1443cccadb7c7b244d" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.17aash05/33463ad8ad6a554241162d1443cccadb7c7b244d/full/full/0/default.jpg"/>municipalité pouvait accorder exceptionnellement la permission de vendre à l’Étape des vins venus par bateaux. Ce dernier marché avait une importance moindre, car il était fréquenté presque exclusivement par les petits vignerons de la région parisienne. Des règles strictes destinées à assurer le bon approvisionnement de la ville régissaient les transactions commerciales : les vins devaient être de bonne qualité et non mélangés ; il était défendu de commencer à vendre avant d’avoir exposé les vins au public, de les enlever avant qu’ils soient tous vendus, ou même d’enlever les vins non vendus avant un certain laps de temps ; enfin, il était interdit de surenchérir sur le premier prix fixé. Les bourgeois de Paris avaient la possibilité de vendre dans leurs caves et celliers, car eux seuls, depuis 1190, avaient le privilège de décharger à terre les vins amenés à Paris : ils préféraient vendre chez eux, où ils échappaient plus facilement au contrôle.</p>
@@ -94,12 +92,12 @@
           <p>Le prévôt des marchands instituait ces divers officiers, mais l’usage de la résignation et la vénalité lui firent perdre l’initiative du recrutement. Le XVI<hi rend="sup">e </hi>siècle vit l’établissement des communautés de profits dans plusieurs catégories d’offices municipaux : ce système était destiné à supprimer les rivalités internes et à assurer le meilleur service des marchands. Chaque groupe d’officiers avait sa confrérie. En règle générale les marchands étaient libres de se passer des divers agents municipaux, sauf du jaugeur, pourvu qu’ils agissent en personne ou par l’intermédiaire d’un de leurs serviteurs domestiques.</p>
           <p>Les taverniers et les artisans constituaient à eux seuls les sept dixièmes environ de la clientèle parisienne, le reste comprenant des personnes de professions libérales, des marchands, des communautés laïques ou religieuses, des seigneurs. Les modes de payement étaient traditionnels, car les instruments de <pb source="https://nakala.fr/10.34847/nkl.17aash05#20c59ff462d52ac1e62a329fb73a874c8284cf5f" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.17aash05/20c59ff462d52ac1e62a329fb73a874c8284cf5f/full/full/0/default.jpg"/>crédit étaient peu utilisés. Ces payements se faisaient souvent à terme et les jurés-vendeurs et marchands de vin parisiens possédaient le privilège de pouvoir faire contraindre leurs débiteurs par la saisie de biens ou par l’emprisonnement.</p>
         </div>
-        <div>
+        <div xml:id="r822810">
           <head rend="uc">Chapitre II
            <lb/>La vente au détail</head>
           <p>Le Bureau de la Ville au <num>xvi<hi rend="sup">e</hi></num> siècle exerçait sa juridiction sur la vente du vin au détail, mais la police des débits appartenait au prévôt de Paris. Le petit peuple de Paris avait une forte accoutumance au vin ; il se le procurait au jour le jour chez les taverniers, les cabaretiers, les hôteliers et accessoirement chez les bourgeois qui vendaient aux portes de leur maison le surplus de leur récolte. Dans les trois quartiers des Halles, du port de Grève et de la Sorbonne, ainsi que dans les faubourgs, ces débitants de vin professionnels étaient particulièrement nombreux. Ceux-ci s’approvisionnaient surtout sur les marchés parisiens, moins souvent dans les vignobles des environs de Paris, et rarement dans le vignobles plus éloignés. Ils devaient venir se déclarer au Bureau, lorsqu’ils avaient l’intention de vendre des vins liquoreux, afin qu’il leur soit fixé un prix de vente. Ils étaient toujours tenus de faire appel, mais non plus chaque jour, aux vingt-quatre jurés-crieurs de corps et de vins, lorsqu’ils voulaient faire annoncer leur prix de vente. Enfin tous les débitants de vin, professionnels ou bourgeois, devaient se servir des mesures étalonnées à l’étalon royal déposé à l’Hôtel de Ville. Ces mesures étaient le demi-setier, la pinte et la chopine, contenant respectivement près d’un quart, d’un demi et d’un litre. Le contrôle des mesures, effectué par six sergents de la Ville, devint de plus en plus effectif au <num>xvi<hi rend="sup">e</hi></num> siècle, car la municipalité, soutenue par le roi, fit reconnaître sa compétence en cette matière par tous, y compris par les nombreuses justices ecclésiastiques de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r822834">
           <head rend="uc">Chapitre III
            <lb/>Le commerce de réexportation et de transit</head>
           <p>Les forains étaient toujours soumis au régime de la « compagnie française ». Celle-ci avait été transformée au <num>xv<hi rend="sup">e</hi></num> siècle en un droit fixe payé par les forains à chaque voyage, mais demeuraient encore les obligations de se faire connaître au Bureau avant et après les achats de vins, et celle d’accepter la surveillance d’un « valet français ». Les bourgeois de Paris étaient attachés à ce système qui leur permettait de limiter la concurrence étrangère, mais le Bureau de la Ville ne les suivit pas toujours dans leur intransigeance.</p>
@@ -107,17 +105,17 @@
           <p>La réglementation établie sur le commerce de vin à Paris traduit le désir d’assurer à la ville un bon approvisionnement ; elle ne peut pas cependant être entièrement assimilée à l’exercice d’un « droit d’étape », car le recours aux agents municipaux n’était pas imposé aux marchands et tous les vins dirigés sur la capitale ne devaient pas nécessairement y être mis en vente. Si les marchands parisiens avaient entre leurs mains la majeure partie de ce commerce, c’était plutôt à cause de certains privilèges qui leur avaient été reconnus anciennement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r822864">
         <head rend="uc">Troisième partie
          <lb/>Les caractères originaux du commerce du vin à Paris
          <lb/>au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r822880">
           <head rend="uc">Chapitre premier
            <lb/>l’appesantissement de la fiscalité royale</head>
           <p>L’accroissement des besoins d’argent de la royauté entraîna la multiplication des aides ; le vin fut, au <num>xvi<hi rend="sup">e</hi></num> siècle, la marchandise la plus imposée à Paris. Le moyen âge avait déjà légué un système d’impositions indirectes pesant sur la vente du vin en gros ou au détail. Certaines parmi celles-ci avaient été anciennement concédées à l’échevinage parisien ; les autres furent peu à peu aliénées par le roi au profit de la municipalité à partir de 1522. Mais le roi établit de nouvelles aides grevant la circulation des vins ; elles auraient dû être temporaires. La municipalité avait l’entière connaissance de toutes ces impositions : elle jugeait, en première instance, les procès surgis à ce sujet et elle concluait les baux avec des fermiers ; cependant le roi exerça toujours un droit de contrôle sur la gestion de cette importante source de revenus.</p>
           <p>En général, les personnes qui vendaient du vin en gros étaient le plus fortement taxées et les forains étaient défavorisés par rapport aux bourgeois parisiens. C’est surtout sous le règne d’Henri II que les aides grevèrent le commerce vinicole, du fait de la création de nombreuses impositions : le prix du vin, encore assez bas, ne compensait pas l’appesantissement de la fiscalité royale. Les baux des aides conservés permettent d’évaluer, de façon approximative, le volume des exportations parisiennes : il aurait été de l’ordre de 80.000 hectolitres, vers le milieu du siècle.</p>
         </div>
-        <div>
+        <div xml:id="r822901">
           <head rend="uc">Chapitre II
            <lb/>La lutte contre la hausse des prix</head>
           <p>La hausse des prix devint pleinement évidente en France à partir de 1559. Ses causes profondes furent décelées par quelques esprits éclairés, mais <pb source="https://nakala.fr/10.34847/nkl.17aash05#61a14194245c7266edb0c8596fc08b830a00d2f6" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.17aash05/61a14194245c7266edb0c8596fc08b830a00d2f6/full/full/0/default.jpg"/>les rois, suivant en cela l’opinion courante, l’attribuaient essentiellement aux abus et fraudes des marchands.</p>
@@ -126,11 +124,11 @@
           <p>Toutes ces mesures ne pouvaient arrêter la hausse du prix du vin, car elles en visaient non les causes, mais les effets. Néanmoins elles aboutirent à ajuster l’ancienne réglementation du commerce vinicole parisien aux besoins d’une situation nouvelle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r822934">
         <head rend="uc">Conclusion</head>
         <p>Par bien des aspects le commerce du vin à Paris est encore au <num>xvi<hi rend="sup">e</hi></num> siècle de caractère médiéval ; mais l’apparition d’un nouveau type de marchand au volume d’affaires considérable et désireux de s’émanciper des cadres traditionnels fit sentir le besoin de modifier l’ancienne réglementation. Cependant ces gros marchands eux-mêmes étaient toujours tributaires des vieilles techniques.</p>
       </div>
-      <div>
+      <div xml:id="r822950">
         <pb source="https://nakala.fr/10.34847/nkl.17aash05#854d2952a51f46e6ff4a6660bf1b25fa00b7bc6f" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.17aash05/854d2952a51f46e6ff4a6660bf1b25fa00b7bc6f/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>Cartes des vignobles approvisionnant le marché parisien, des lieux d’origine des voituriers par eau, des marchands forains achetant ou faisant passer du vin par Paris (d’après les registres des compagnies françaises) ; localisation des débitants de vin de Paris.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1881_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1881_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,17 +58,17 @@
         <forename>Paul</forename>
         <surname>Guilhiermoz</surname>
       </byline>
-      <div>
+      <div xml:id="r111045">
         <head rend="uc">Introduction
          <lb/>exposé – Divisions – Sources</head>
-        <div>
+        <div xml:id="r111053">
           <head rend="uc">Première partie.
            <lb/>Saint-Germain-des-Prés.</head>
           <p><hi rend="i">La « ville » de Saint-Germain-des-Prés.</hi></p>
           <p>Maisons appartenant à la censive de l’abbaye, situées :</p>
           <p>Rue des Boucheries (Boucherie, rue, grand-rue de la Boucherie, grand-rue Saint-Germain, etc.) : Hôtels de <pb source="https://nakala.fr/10.34847/nkl.19aa4429#b1e3b995d35b5f425cd15b122d031ffcc66d57fa" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.19aa4429/b1e3b995d35b5f425cd15b122d031ffcc66d57fa/full/full/0/default.jpg"/>l’Image-Saint-Jacques, des Moutons, de l’Image-Saint-Michel, de l’Image-Sainte-Catherine, de l’Ecu de Bretagne, de la Croix de Fer, de la Rose, de l’Ecu de France, des Trois-Etaux, de l’Image-Saint-Martin, hôtel de Malicorne, hôtel Leblanc, hôtels du Martel, de la Fleur de lys, etc. – Rue des Quatre-Vents (voirie de la boucherie, etc.). – Rue des Fossés-Saint-Germain (chemin dessus les Fossés, etc.) : Champ des Bouchers, etc. – Rue des Mauvais-Garçons (Rue du Champ-des-Bouchers, de la Folie-Regnier) : Hôtel de la Folie-Regnier, etc. – Rue de Bussy (chemin allant du Pilori à la Seine, – chemin de la Porte-de-Bussy). – Rue du Four (rue, grand-rue du Four, rue allant de Saint-Germain à la Maladrerie, à Vaugirard, etc., – rue de Blanche-Oie, etc) : Jardins de Navarre, hôtel de l’évêque de Chartres, hôtels du Plat-d’étain, de l’Image-Saint-Pierre, du Four-Bannier, tuilerie de Belot Mathieu, hôtels Casin, des Ciseaux, de Gamaches, etc. – Carrefour de la Croix-Rouge (rue du Four) : tuilerie de Jean Grisart, etc. – Rue des Ciseaux (ruelle allant des Fossés à la rue de Blanche-Oie, etc.). – Rue du Sépulchre (rue allant à Saint-Père, etc.) : Hôtel du Sépulchre, etc. – Rue Taranne (rue allant à Saint-Père, etc.) : Hôtels Taranne, de Valence, Courtille de l’abbaye, etc. – Rue des Canettes (grand-rue Saint-Sulpice) : maison de Robert Broissel, maison aux Créneaux, hôtel de la Hotte, etc. – Rue Beurrière (ruelle du Four, de Cassel). – Rue du Vieux-Colombier (rue de Cassel, du Colombier, etc.) : Hôtel de Cassel, etc. – Parvis Saint-Sulpice : propriété de Jean de Brusy, clos Gauldry, etc. – Rue des Fossoyeurs (ruelle longeant l’hôtel de Garancière) : hôtel de Garancière, – (clos Bruneau). – Quai Malaquais (chemin sur Seine) : Séjour de Nesles. – Rue de Seine.</p>
         </div>
-        <div>
+        <div xml:id="r111078">
           <pb source="https://nakala.fr/10.34847/nkl.19aa4429#9fde7af7d3ba427ac9e57f7ae52c9c8dcdb73cb5" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.19aa4429/9fde7af7d3ba427ac9e57f7ae52c9c8dcdb73cb5/full/full/0/default.jpg"/>
           <head rend="uc">Deuxième partie.
            <lb/>Paris.</head>

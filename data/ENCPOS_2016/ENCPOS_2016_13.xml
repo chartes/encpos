@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2016_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2016_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,19 +53,19 @@
         <surname>Munsch</surname>
         <roleName>diplômé de master</roleName>
       </byline>
-      <div>
+      <div xml:id="r1579943">
         <head>Introduction</head>
         <p>Fils illégitime de Talleyrand, amant de la reine Hortense et père du duc de Morny, Charles de Flahaut de La Billarderie est un homme qui accumule les raccourcis. Connu quoique méconnu, il est un personnage historique trop souvent laissé dans l’ombre de ses contemporains. Né en 1785 – à l’agonie de la société d’Ancien Régime – et mort en 1870 – au moment où la défaite de Sedan sonne le glas de la seconde tentative impériale française –, Flahaut traverse un large et riche <num>xix<hi rend="sup">e</hi></num> siècle. Au cours de ces quatre-vingt-cinq années, il porte des étiquettes variées qui font de lui un être polymorphe, tour à tour émigré, officier, aide de camp, exilé, mari, père de famille ou encore diplomate. Le récit de son existence est généralement envisagé comme une somme biographique d’un seul bloc, touffu et hétéroclite, recouvrant des périodes successives maintenues ensemble avec plus ou moins de bonheur par un fil conducteur relativement artificiel. Dans les faits, Flahaut passe pour avoir mené deux vies au lieu d’une, tant les disparités sont grandes entre ce qui se déroule avant et après 1815. Durant ses trente premières années, il est un jeune garçon qui apprend à grandir en cherchant à se montrer à la hauteur du souvenir de son père officiel, Charles-François, guillotiné sous la Révolution bien qu’il eût pu échapper à son sort. Cet ultime acte d’honneur laissé en héritage constitue à la fois la chance et le fardeau de Flahaut, qui s’efforce de se montrer digne de l’exemple paternel. Le vecteur de cette entreprise est la carrière qu’il se choisit dans l’armée à son retour en France : la carrière d’un aide de camp.</p>
         <p>Un aide de camp est un officier attaché à la personne d’un général, d’un maréchal ou d’un souverain, dont le rôle principal est de transmettre les ordres verbaux ou écrits qu’il reçoit. Il s’agit essentiellement d’assurer une liaison efficace entre la tête et les membres. Toutefois, cet officier se doit aussi d’être polyvalent pour pouvoir remplir tout type de mission dont il se voit chargé, depuis la reconnaissance du terrain jusqu’au renseignement et à l’espionnage, en passant par la participation à des négociations en qualité de plénipotentiaire. L'historiographie du corps des aides de camp est pauvre, presque inexistante, à l’exception de quelques articles ponctuels et de l’étude transversale de Vincent Rolin, publiée en 2005. Il convient donc de fournir une analyse individuelle de cette fonction bien particulière afin d’apporter une autre pierre à cet édifice encore chancelant. Flahaut n’est pas l’incarnation absolue de la fonction, pas plus qu’il n’est exemplaire au premier chef, mais il a été choisi comme point d’entrée plutôt que tout autre pour trois raisons qui se complètent. Il se pose d’abord comme seul horizon, à tout juste quinze ans, de devenir aide de camp, à plus forte raison aide de camp de Bonaparte, ce qu’aucun garçon du même âge n’affirme aussi clairement ou avec autant de volonté. Subséquemment, sa carrière offre une trajectoire commode parce qu’ascendante ; par opposition à d’autres parcours plus erratiques, elle permet d’étudier la succession de ses périodes de service auprès de Murat, Berthier et finalement Napoléon, en sachant que chacune de ces étapes possède une atmosphère propre, presque une couleur respective, résultant de la rencontre d’un jeune homme qui tend à gagner en maturité avec des environnements militaires différents, des caractères bien trempés et des tâches de plus en plus lourdes. Tout cela rend le profil de Flahaut sous le Premier Empire totalement indissociable de son statut d’aide de camp, tant et si bien qu’au final, faire le portrait de l’homme revient à caractériser ce statut. À terme, c’est une biographie à perspective militaire qui est proposée.</p>
       </div>
-      <div>
+      <div xml:id="r1579961">
         <head>Sources</head>
         <p>Pour mener à bien cette étude, le fonds d’archives privées de la famille de Flahaut, conservé sous la cote 565 AP au centre des Archives nationales de Pierrefitte-sur-Seine, a été mobilisé en grande partie. Un large pan de ce qui constitue le fonds a été acquis en 1994, lors d’une vente aux enchères organisée à Londres concernant des documents jusqu’alors gardés au château de Bowood. À cette acquisition sont venus se greffer des ajouts ponctuels de dossiers que les Archives nationales possédaient déjà, notamment dans la sous-série AB XIX. L'ensemble constitue ce qui est aujourd’hui qualifié de « fonds Flahaut ». Classé au tournant du <num>xx<hi rend="sup">e</hi></num> siècle par un descendant de la famille, Lord Kerry, ce fonds a fait l’objet d’un inventaire publié par Jean-Philippe Chaumont en juillet 2005, qui s’est révélé une aide sans pareille dans le tri et l’exploitation des sources. Plus spécifiquement, la colonne vertébrale autour de laquelle s’articule cette étude est un ensemble de près de deux cents lettres réparties en six dossiers numérotés de 2 à 7 dans le carton 5. Hormis quelques-unes écrites après 1815, ces missives ont été rédigées par Charles au cours des campagnes impériales à l’attention de sa mère, M<hi rend="sup">me</hi> Adélaïde de Souza, née Filleul et veuve Flahaut ; elles permettent de le suivre dans sa carrière. D'autres fonds privés ont été employés ponctuellement, comme le fonds Murat, coté 31 AP, le fonds Ney, coté 137 AP, ou le fonds Napoléon, coté 400 AP et consultable en ligne. Outre ce noyau de documents privés, cette étude s’est vue enrichie par tout un agrégat d’archives publiques, également conservées aux Archives nationales, en énorme majorité au centre de Pierrefitte-sur-Seine. Les séries du Directoire exécutif (AF III), de la secrétairerie d’État impériale (AF IV), du Jardin des Plantes et du Muséum national d’histoire naturelle (AJ), du ministère de la Justice (BB), du Sénat conservateur, de la Chambre des pairs et de la Cour des pairs (CC), du Conseil du roi (E), de la Police générale (F<hi rend="sup">7</hi>), de la Maison du roi (O) et de la Grande Chancellerie et du Conseil (V) ont ainsi été convoquées. Quelques éléments, conservés au centre historique des Archives nationales, au cœur de Paris – comme la série des titres nobiliaires (MM) – viennent compléter cette liste. Au Service historique de la Défense, on trouve surtout, sous les cotes 4 yd, 6 yd et 7 yd, les dossiers militaires de Flahaut père et Flahaut fils, ceux des supérieurs de Charles (Louis Bonaparte, Leclerc, Murat, Berthier) et ceux de ses camarades (Exelmans, La Bédoyère…). Des papiers de la correspondance générale du ministre de la Guerre sont aussi à signaler, en série B. La Bibliothèque Thiers propose des sources de seconde main, en l’occurrence les manuscrits et autres notes de travail de Frédéric Masson, qui permettent de s’assurer de la justesse de certains événements de la vie du personnage, d’effectuer des recoupements d’informations ou de mettre à jour de nouvelles pistes de recherche. Les archives municipales de Boulogne-sur-Mer gardent les pièces relatives au procès de Charles-François de Flahaut, père de Charles, dans la série I (Dossiers des indésirables, suspects et détenus, et Police, Justice, Hygiène). La série Pat (Patronyme) contient quelques documents superfétatoires issus de recherches diverses menées sur la famille de Flahaut. À tout cela s’ajoutent les sources imprimées qui recoupent diverses tendances, comme les éditions de correspondances (Murat, Napoléon…), les mémoires (Abrantès, Caulaincourt, Hortense de Beauharnais, Rambuteau, Potocka…) et les journaux (Castellane, Gouverneur Morris…). De surcroît, les historiques des différents régiments dans lesquels a servi Flahaut permettent de suivre ses traces et de pallier certaines lacunes documentaires.</p>
       </div>
-      <div>
+      <div xml:id="r1579984">
         <head>Première partie.
           <lb/>Naissance d’un militaire (1785-1802)</head>
-        <div>
+        <div xml:id="r1579991">
           <head>Chapitre premier.
             <lb/>Genèse</head>
           <p>Pour comprendre Charles de Flahaut, il faut d’abord défaire les maillons entortillés de sa famille ; si l’on peut encore parler de famille dès lors que l’on envisage cet agrégat discordant d’hommes et de femmes qui lui transmettent un curieux héritage, fait de contrevérités et de tromperies.</p>
@@ -78,7 +76,7 @@
           <p><hi rend="i">Retrouver la France.</hi> — Alors qu’Adélaïde voyage de la Suisse jusqu’à Hambourg, le petit Flahaut est rappelé de son pensionnat anglais au début de l’année 1796. Suite à quelques péripéties, il parvient à Altona, puis il est placé à l’académie de Celle, où il parachève une éducation de qualité en apprenant notamment les rudiments de la langue allemande avec ses maîtres. À partir de l’été 1797, sa mère effectue de nombreuses démarches pour obtenir l’autorisation de regagner la France. Avec le soutien de Talleyrand, devenu ministre des Relations extérieures, tous deux finissent par obtenir leurs passeports en thermidor an V (début août 1797). Figurant encore sur la liste des proscrits, Adélaïde n’en retrouve pas moins sa place dans la société parisienne, mais elle n’est plus la seule à évoluer dans ce monde des sociabilités, étant souvent accompagnée par son fils, un adolescent façonné aux écoles anglaise et allemande, dont elle entend s’occuper à plein temps.</p>
           <p>Il est cependant une question que M<hi rend="sup">me</hi> de Flahaut se pose avec insistance : celle de l’avenir de son jeune garçon dans cette France nouvelle.</p>
         </div>
-        <div>
+        <div xml:id="r1580055">
           <head>Chapitre II.
             <lb/>Trouver sa voie</head>
           <p>Pour Charles, il s’agit désormais de choisir un chemin à suivre personnellement. Encore dans l’incertitude, le jeune homme se cherche au moins autant qu’il cherche un moyen de se montrer à la hauteur de la mémoire de son défunt père légitime.</p>
@@ -87,7 +85,7 @@
           <p><hi rend="i">Flahaut aux « Canaris ».</hi> — Charles est intégré dans la cavalerie des volontaires. Il devient un Canari, surnom donné à ces soldats en raison de la dominante jaune de leur dolman. Au départ, ce poste de hussard représente une réponse équitable à ses attentes, mais en tant que garde d’honneur de Bonaparte, les volontaires de la réserve ont principalement une fonction représentative. Ils restent en caserne à Dijon alors que d’autres formations partent pour l’Italie. Affecté dans un régiment qui semble défiler davantage qu’il ne se prépare à combattre, Flahaut ne peut espérer se monter digne de la confiance que lui a accordée Bonaparte, pas plus qu’il ne peut espérer placer ses pas dans ceux de son père. Les bonnes relations d’Adélaïde avec la famille du Premier Consul, en particulier avec Louis Bonaparte, valent à Charles d’être intégré dans le régiment commandé par celui-ci le 29 floréal an VIII (19 mai 1800), deux mois à peine après s’être engagé.</p>
           <p>Si M<hi rend="sup">me</hi> de Flahaut désapprouve le choix d’une carrière dans l’armée, elle ne désire pas moins s’impliquer afin de favoriser l’ascension de son fils.</p>
         </div>
-        <div>
+        <div xml:id="r1580095">
           <head>Chapitre III.
             <lb/>Le 5ᵉ dragons : sous les ordres de Louis Bonaparte</head>
           <p>En quittant les hussards volontaires de la réserve pour le 5<hi rend="sup">e</hi> régiment de dragons, Flahaut quitte un corps militaire qui vient de naître pour un autre dont la réputation n’est plus à faire.</p>
@@ -97,10 +95,10 @@
           <p>Charles de Flahaut dispose d’une plus grande autonomie, mais il n’est jamais réellement quitté du regard par M<hi rend="sup">me</hi> de Souza et Talleyrand.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1580144">
         <head>Deuxième partie.
           <lb/>À l’école du plaisir et de la bravoure (1802-1807)</head>
-        <div>
+        <div xml:id="r1580151">
           <head>Chapitre premier.
             <lb/>Un terrain de conquêtes : le milieu mondain</head>
           <p>Entrer chez Murat, c’est être introduit dans l’antre des plaisirs. Un adolescent qui pénètre dans un environnement comme celui-ci – influençable, qui plus est – ne peut que se laisser bercer par ce mode de vie et en tirer certaines leçons.</p>
@@ -109,7 +107,7 @@
           <p><hi rend="i">Au contact de la nouvelle élite.</hi> — Au terme du Consulat, Charles évolue au sein d’un monde en pleine mutation. Le poste qu’il occupe auprès de Murat le met en relation directe avec toute une série de figures à l’importance croissante, qui doivent bientôt incarner l’élite sociale du régime impérial naissant. Le prestige dont jouit son supérieur rejaillit nécessairement sur lui, encore que ce soit à moindre échelle.</p>
           <p>Introduit dans le milieu mondain, Charles ne doit plus le quitter. Le savoir-vivre et le savoir-faire acquis au cours de ces années de paix vont se révéler précieux sous l’Empire, d’un bout à l’autre de l’Europe, d’une réunion mondaine à une autre.</p>
         </div>
-        <div>
+        <div xml:id="r1580183">
           <head>Chapitre II.
             <lb/>Un « brevet de bravoure »</head>
           <p>Les guerres victorieuses du début de l’Empire constituent sans nul doute le morceau de bravoure de la carrière militaire de Flahaut. C'est une sorte d’âge d’or, au cours duquel il se laisse volontiers gagner par une certaine ivresse guerrière. Mais, comme tout abandon de soi-même, les lendemains d’euphorie coûtent cher.</p>
@@ -118,7 +116,7 @@
           <p><hi rend="i">Se brûler les ailes.</hi> — Flahaut gravit les échelons à un rythme soutenu. L'année 1806 confirme cette tendance, tout en présentant son lot de nuances. À un enchaînement de missions pour Murat, devenu grand-duc de Berg, succède la brève campagne de Prusse. Intégré une fois encore dans la réserve de cavalerie, Charles se place dans le sillage du beau-frère de l’empereur de Berlin jusqu’à Varsovie, allant au contact des Russes. Une promotion singulière vient clore cette période prolifique. Nommé chef d’escadron au 13<hi rend="sup">e</hi> régiment de chasseurs à cheval, Flahaut devient certes officier supérieur mais il n’est plus considéré comme l’aide de camp de Murat.</p>
           <p>Cette surprenante éviction requiert une analyse détaillée des rapports des deux hommes, puisque les liens tissés entre un aide de camp et celui auquel il est attaché sont un élément incontournable d’une période de service comme officier d’état-major.</p>
         </div>
-        <div>
+        <div xml:id="r1580219">
           <head>Chapitre III.
             <lb/>De l’amitié à l’inimitié : la relation Murat-Flahaut en perspective</head>
           <p>Ce qui commence comme une relation aimable et cordiale se transforme peu à peu en une opposition farouche.</p>
@@ -128,10 +126,10 @@
           <p>Bon gré, mal gré, Flahaut prend ses nouvelles fonctions au 13<hi rend="sup">e</hi> chasseurs en janvier 1807.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1580260">
         <head>Troisième partie.
           <lb/>Se préparer au service de l’empereur (1807-1813)</head>
-        <div>
+        <div xml:id="r1580267">
           <head>Chapitre premier.
             <lb/>Un soupçon d’infortune</head>
           <p>Il s’agit de la période la moins foisonnante de la carrière de Charles de Flahaut, qui connaît des moments de doute et de profonde introspection, même si la gravité qu’il attribue à cette situation est largement fondée sur une perception personnelle outrancière.</p>
@@ -140,7 +138,7 @@
           <p><hi rend="i">La relance espagnole.</hi> — Ayant passé huit jours à Paris, Flahaut part pour l’Espagne. Tandis que le pays s’enfonce dans une guerre d’indépendance, lui œuvre à son intégration dans l’état-major du maréchal Berthier, après que celui-ci a été convaincu par Adélaïde de Souza d’accepter de l’attacher à sa personne. Bien qu’intégré à cet entourage militaire, Flahaut n’est pas considéré comme l’aide du camp du prince de Neuchâtel. Ce n’est qu’à force de plaidoiries de la part de ses proches camarades et d’autres figures de sa connaissance, telles que Joséphine de Beauharnais ou Talleyrand, que Berthier consent à le prendre officiellement à son service, en juillet 1808. Pénétrer dans le monde des aides de camp ou y perdurer, c’est aussi et surtout une question de relations.</p>
           <p>Dès lors, sorti de ce qui était perçu comme une spirale d’infortunes, Flahaut se consacre à ses fonctions avec d’autant plus d’ardeur.</p>
         </div>
-        <div>
+        <div xml:id="r1580307">
           <head>Chapitre II.
             <lb/>La maturité</head>
           <p>Le prince de Neuchâtel représente la seconde chance de Flahaut de s’approcher de son désir initial de servir Napoléon. Du reste, cette opportunité lui ouvre de nouvelles perspectives.</p>
@@ -149,7 +147,7 @@
           <p><hi rend="i">Le repos du guerrier.</hi> — La maturité est aussi celle des sentiments. Lorsqu’il retourne à Paris, Flahaut ne quitte plus la France pendant près de deux ans et demi. Sa carrière ne progresse plus, mais sa relation avec la reine Hortense évolue grandement. L'été 1810 marque le plein épanouissement d’une passion jusqu’alors faite de chassés-croisés. Le point d’aboutissement est la naissance dans une commune suisse, en septembre 1811, d’un petit garçon, officiellement Charles-Auguste-Louis-Joseph Demorny, fruit de leur amour illégitime, voué à une enfance de secrets.</p>
           <p>Flahaut a changé. D'un exilé déchu, il s’est mué en un officier d’état-major compétent aux qualités indéniables, tout en se constituant une vie de famille quand bien même celle-ci serait singulière.</p>
         </div>
-        <div>
+        <div xml:id="r1580345">
           <head>Chapitre III.
             <lb/>La campagne de Russie ou la réussite dans l’échec</head>
           <p>Si la campagne de Russie, qui est l’entreprise militaire la plus ambitieuse de Napoléon mais aussi son échec le plus cuisant, met en danger les bases mêmes du régime impérial, elle permet à d’autres de parvenir.</p>
@@ -159,10 +157,10 @@
           <p>Treize ans après avoir formulé le souhait de servir Napoléon, à une époque où les bases du régime impérial s’effritent, Flahaut touche à l’apogée de sa carrière militaire en entrant dans la Maison de l’empereur.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1580378">
         <head>Quatrième partie.
           <lb/>L'aide de camp de l’empereur (1813-1815)</head>
-        <div>
+        <div xml:id="r1580385">
           <head>Chapitre premier.
             <lb/>Le zénith d’une carrière au crépuscule d’un Empire</head>
           <p>Fort de ses nouvelles fonctions, Flahaut se dévoue corps et âme pour la cause impériale. À son niveau, il contribue modestement à l’ensemble des efforts déployés pour sauver un empire qui se réduit comme peau de chagrin, de la campagne de Saxe à la campagne de France.</p>
@@ -171,7 +169,7 @@
           <p><hi rend="i">Retour de balancier.</hi> — Jusqu’aux premiers jours de l’année 1814, Napoléon se démène pour sauver ce qui peut l’être en Allemagne. Les aides de camp de la Maison militaire sont, bien sûr, impliqués dans cette tâche gargantuesque, allant et venant, d’une mission à l’autre. La défaite de Leipzig provoque l’effondrement de la Confédération du Rhin et le repli des Français vers le cœur de l’Empire. Alors que le régime impérial est en pleine déliquescence, Flahaut est promu général de division, son plus haut grade. Manquant de peu d’être nommé grand maréchal du Palais suite à la mort de Duroc, il n’en devient pas moins un élément essentiel de l’entourage de l’empereur.</p>
           <p>Les avancements successifs de Flahaut contrastent fortement avec l’effondrement de l’Empire.</p>
         </div>
-        <div>
+        <div xml:id="r1580417">
           <head>Chapitre II.
             <lb/>La chute de l’Empire, un moment fondateur ?</head>
           <p>La campagne de France marque la fin de toute une époque pour Flahaut. Ayant construit son existence sur les victoires de Napoléon, peut-il décemment envisager une vie après l’Empire ?</p>
@@ -180,7 +178,7 @@
           <p><hi rend="i">Les chemins de l’insoumission.</hi> — Ayant perdu la position qu’il avait tant aspiré à obtenir, Charles de Flahaut doit apprendre à se relever dans un pays devenu monarchie. Cette situation ne saurait le contenter bien longtemps. En l’espace de quelques mois, il passe d’une soumission récalcitrante à une opposition contenue. Jamais ouvertement hostile au pouvoir monarchique alors en place, il se laisse pourtant peu à peu gagner par un esprit mutin, qui va du remisage d’une Légion d’honneur qui a perdu de sa valeur à un refus formel de se plier aux ordres du nouveau ministre de la Guerre.</p>
           <p>La volonté du gouvernement de contrôler les figures bonapartistes, quelles que soient leurs intentions, suscite une forte animosité, mais le retour de Napoléon prend tout le monde de court. Flahaut ne fait pas exception.</p>
         </div>
-        <div>
+        <div xml:id="r1580453">
           <head>Chapitre III.
             <lb/>La rechute impériale</head>
           <p>L'épisode des Cent-Jours est une particularité avec laquelle Charles de Flahaut se doit de composer. Bien qu’il ait réussi à tirer un trait relatif sur son passé, voilà que l’incarnation de ses années militaires ressurgit sur le devant de la scène. Les choix qu’il s’apprête à faire vont être déterminants pour la suite de sa vie.</p>
@@ -190,12 +188,12 @@
           <p>Plus d’une vingtaine d’années après avoir émigré outre-Manche avec sa mère, Charles est de retour en Angleterre. Comme cela avait été le cas à l’époque, la France l’a poussé à prendre ses distances, à se livrer aux Anglais, à s’exiler sur une île. Toutes proportions gardées, il y a quelque chose de napoléonien dans le sort que s’est choisi Flahaut ; à l’image de son vieux rôle d’aide de camp, toujours à quelques pas derrière l’empereur, à jamais dépositaire de son souvenir.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1580490">
         <head>Épilogue.
           <lb/>Nostalgie impériale</head>
         <p>À partir de 1815, la vie de Charles de Flahaut se transforme en une nostalgie. L'ancien aide de camp de Napoléon avance vers l’avenir à reculons, le regard tourné vers ce qui n’est plus. C'est à l’aune de ce passé que se construit sa vieillesse. Ses trente premières années sont un filtre qui colore le reste de son existence de façon indélébile.</p>
       </div>
-      <div>
+      <div xml:id="r1580501">
         <head>Conclusion</head>
         <p>Faire l’histoire de Flahaut équivaut à réviser et balayer un point de vue communément admis, selon lequel il ne serait rien de plus qu’un officier de bas étage, tout juste bon à entrer dans la postérité pour avoir eu un fils avec Hortense de Beauharnais. La position périphérique que les historiens lui ont régulièrement attribuée est un leurre. Il ressort de cette étude que Flahaut est une figure de l’Empire à part entière, qui mérite d’être dépoussiérée au même titre qu’un La Bédoyère, un Exelmans ou tout autre officier d’état-major. Sa discrétion historiographique n’a d’égale que la réserve qu’il a lui-même entretenue jusqu’à sa mort. Si faire la biographie d’un homme, c’est chercher à le comprendre, au cours des trente premières années de sa vie, Charles de Flahaut est un personnage historique qui s’envisage selon trois axes tout à la fois différents et complémentaires.</p>
         <p><hi rend="i">Le développement individuel.</hi> — Flahaut est d’abord un jeune garçon qui se cherche et qui apprend à être un homme. Élevé par sa mère en l’absence d’une vraie figure paternelle, il passe sa jeunesse à chercher un substitut, pris dans une perpétuelle fuite en avant : Talleyrand est un père biologique, M. de Souza est un père adoptif, Louis Bonaparte est un père à tendance fraternelle, Murat est un père un peu trop fougueux, Berthier est un père extrêmement posé, et Napoléon est le père qu’il s’est choisi, celui qu’il aspire à avoir et vers lequel il se doit de tendre. Au sommet de cette pyramide, de cet autel à la paternité trône l’idole du père qui lui a transmis son nom, ce père qu’on lui a présenté comme un héros, une âme noble et qu’il accepte surtout comme tel, plaçant sa trajectoire dans le sillage de Charles-François.</p>
@@ -203,7 +201,7 @@
         <p><hi rend="i">L'entrée progressive dans le cercle immédiat de Napoléon.</hi> — Le désir initial d’être attaché à la personne de Bonaparte croît avec les années. Quoiqu’il paraisse ne pas avoir l’envergure d’autres figures du Premier Empire nettement plus visibles, il compte comme l’un des hommes de confiance de Napoléon avant le départ pour Sainte-Hélène. Cette affiliation à l’empereur, cette assimilation entre son nom et le bonapartisme le conduit d’ailleurs à quitter la France, devenue un environnement trop hostile pour mener l’existence paisible et anonyme à laquelle il aspire.</p>
         <p>Cette étude, qui se veut le parachèvement d’une analyse de la carrière militaire de Flahaut entreprise par Frédéric Masson au début des années 1880, se place <hi rend="i">in fine</hi> au point de jonction de l’historiographie du personnage en lui-même et de celle du corps des aides de camp.</p>
       </div>
-      <div>
+      <div xml:id="r1580535">
         <head>Annexes</head>
         <p>Généalogies. — Chronologie. — Édition de textes. — Cartes. — Documents iconographiques.</p>
       </div>

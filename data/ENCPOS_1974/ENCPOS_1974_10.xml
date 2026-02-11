@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,37 +55,37 @@
         <surname>Farcis</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r983902">
         <head rend="uc">Introduction</head>
         <p>En 1464, les états de Languedoc firent rédiger des « estimes » afin de procéder à la répartition de la taille. Un grand nombre de registres concernant le Vivarais ont été conservés et permettent de saisir quelques aspects de cette petite province située à la pointe septentrionale du Languedoc au bord du Rhône.</p>
       </div>
-      <div>
+      <div xml:id="r983912">
         <head rend="uc">Sources</head>
         <p>Cette étude est fondée sur le dépouillement complet de vingt-quatre des soixante-douze registres concernant les estimes qui sont conservés aux Archives départementales de l’Ardèche sous les cotes C 557 à C 628. Les mesures agraires ont été identifiées grâce à une enquête effectuée en 1782 conservée dans le même dépôt d’archives sous les cotes C 961, C 962 et C 963. Pour essayer de voir l’évolution de l’agriculture, nous avons consulté les résultats des recensements agricoles du début du <num>xix<hi rend="sup">e</hi></num> siècle (cotes 34, 53, 71, 173 et 176 de la série 12 M aux Archives départementales de l’Ardèche).</p>
       </div>
-      <div>
+      <div xml:id="r983928">
         <pb source="https://nakala.fr/10.34847/nkl.c5fe1y91#06e8d282eeb6a6ec4f5364fc2dc61c19955d5d66" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5fe1y91/06e8d282eeb6a6ec4f5364fc2dc61c19955d5d66/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Histoire et géographie du Vivarais</head>
-        <div>
+        <div xml:id="r983941">
           <head rend="uc">Chapitre premier
            <lb/>le cadre géographique</head>
           <p>Trois sortes d’oppositions marquent nettement le Vivarais : entre le nord et le sud du pays, entre les régions élevées et les régions basses, entre les reliefs de pente et les reliefs plans. En se combinant, elles dessinent sept régions aux caractéristiques particulières. La Montagne, prolongement du plateau vellave, est située à une altitude moyenne de 1 000 mètres, où le climat est rude ; le Haut-Vivarais, talus entre la Montagne et le Rhône, est la zone la plus aisément cultivable ; la Cévenne est caractérisée par un relief tourmenté et de violentes précipitations ; les Routières constituent une transition entre le Haut et le Bas-Vivarais qui a tous les aspects d’un pays méditerranéen ; le Coiron est un étroit plateau basaltique qui s’avance jusqu’à la vallée du Rhône, mince ruban fertile.</p>
         </div>
-        <div>
+        <div xml:id="r983953">
           <head rend="uc">Chapitre II
            <lb/>Aperçu historique</head>
           <p>Véritable mosaïque de seigneuries imbriquées les unes dans les autres, le Vivarais, terre d’Empire, fut rattaché pacifiquement au royaume par Philippe le Bel qui en 1305 conclut un traité avec l’évêque-comte de Viviers, principal seigneur de la région.</p>
           <p>Coiffés par l’administration royale, les grands barons et les syndics des villes du pays se réunirent souvent pendant la guerre de Cent Ans avec les délégués du Velay et du Gévaudan afin d’organiser en commun la défense de la région contre les bandes de routiers. C’est de ces réunions que sont issus les états du Vivarais qui à partir de 1425 ne jouèrent plus le rôle que d’assiette diocésaine pour la taille royale. Le clergé qui ne payait pas la taille ne participait pas aux états.</p>
         </div>
-        <div>
+        <div xml:id="r983968">
           <pb source="https://nakala.fr/10.34847/nkl.c5fe1y91#aadac35d57dd984739b2f7304fa4ac5cda0e6dfa" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5fe1y91/aadac35d57dd984739b2f7304fa4ac5cda0e6dfa/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’impôt</head>
           <p>L’impôt payé par les habitants du Languedoc en 1464 était la taille réelle qui pesait sur tous les biens roturiers. Les privilégiés – nobles, ecclésiastiques, habitants des villes franches – qui possédaient des terres touchées par l’impôt arguaient de leur état pour ne pas payer mais leur résistance fut vaincue avec l’aide intéressée du roi.</p>
           <p>En 1463, Louis XI avait décidé de remplacer la taille par des impôts indirects malgré le refus des états de Languedoc à qui il appartenait de consentir l’impôt et de le répartir entre les différents diocèses civils. Le roi fut obligé en 1464 de constater l’échec du nouveau système et revint à la taille. Pour l’établir de façon équitable, les états de Languedoc décidèrent de faire rédiger des « estimes ».</p>
         </div>
-        <div>
+        <div xml:id="r983988">
           <head rend="uc">Chapitre IV
            <lb/>Les estimes</head>
           <p>Les habitants déclaraient leurs biens sous serment auprès d’une sous-commission déléguée dans chaque village par le bailli royal et formée de notaires, d’un représentant de la cour ordinaire du seigneur du lieu et de plusieurs commis jurés choisis par les habitants.</p>
@@ -95,55 +93,55 @@
           <p>L’enquête fut menée rapidement, de juin à décembre 1464. Cette trop grande rapidité, jointe à des instructions sans doute trop vagues données aux enquêteurs, est la cause d’une grande irrégularité dans la rédaction des cahiers. Cela limite dans tous les domaines la portée des renseignements fournis par le document.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r984007">
         <pb source="https://nakala.fr/10.34847/nkl.c5fe1y91#c29dc359bff1001fb74b4ef433f055119e147a4b" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5fe1y91/c29dc359bff1001fb74b4ef433f055119e147a4b/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les hommes du Bas-Vivarais
          <lb/>au milieu du <num>xv<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r984028">
           <head rend="uc">Chapitre premier
            <lb/>l’habitat</head>
           <p>Une des caractéristiques essentielles de l’habitat est l’opposition nettement marquée entre les zones montagneuses, où la population était très dispersée, et la vallée de l’Ardèche où au contraire l’indice de concentration était le plus fort, ainsi d’ailleurs que la densité. Sur l’ensemble du terroir, celle-ci était en règle générale très faible, n’atteignant pas dans certaines régions (Montagne, plateau calcaire du sud-est) deux feux au kilomètre carré.</p>
           <p>Les estimes laissent dans l’ombre tout ou presque de ce qui touche aux maisons qui toutefois semblaient abriter des familles assez nombreuses.</p>
           <p>La recherche des lieux habités en 1464 nous a amené à constater qu’une fraction importante (encore qu’on ne puisse la chiffrer) de la population échappait sans doute à l’estime, foule des manouvriers ou des serfs, ou à l’opposé privilégiés de toute nature, qui les uns et les autres apparaissent en filigrane à travers toutes les phases de cette étude.</p>
         </div>
-        <div>
+        <div xml:id="r984046">
           <head rend="uc">Chapitre II
            <lb/>La condition des biens et des personnes</head>
           <p>Les biens en indivision étaient nombreux ; ils n’étaient pas propres à telle ou telle catégorie de fortune et ne portaient que sur des terres de faible valeur. En revanche les cas de frérèches, propriétés communautaires de style égalitaire, généralement formées de frères, ne se rencontraient que dans les milieux aisés : ces associations avaient pour but de grouper les terres et surtout la main-d’œuvre. Moins fréquentes, les communautés familiales, placées sous l’autorité absolue <pb source="https://nakala.fr/10.34847/nkl.c5fe1y91#ec58e30618bcdde6085a5fd0dbc16670261d80f3" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5fe1y91/ec58e30618bcdde6085a5fd0dbc16670261d80f3/full/full/0/default.jpg"/>du père, soulignaient l’indivisibilité du patrimoine ; à la disparition du père, la communauté se poursuivait généralement sous la conduite de la mère.</p>
           <p>Les nobles et les ecclésiastiques qui n’apparaissent qu’à travers les listes des cens versés par les déclarants, listes rarement complètes, étaient sans doute assez nombreux comme semble l’attester, par rapport à la superficie générale, la très faible superficie des terres détenues par les feux possédants, ce qui suppose l’existence de domaines étendus, par conséquent d’une main-d’œuvre importante. Était-elle de condition servile ? Cela semble être attesté par le fait que fermage et métayage ne se rencontraient jamais et que certains déclarants se disaient taillables et corvéables à merci ; même s’ils ne l’étaient pas en fait, on peut y voir la preuve que cette notion était encore vivace dans leur esprit.</p>
           <p>Les notaires constituaient une caste de plus en plus puissante prête à s’intégrer à la noblesse à la première occasion. Beaucoup plus ambiguë était la catégorie de ceux qui se disaient pauvres car dans nombre de cas, rien ne justifiait cette appellation.</p>
         </div>
-        <div>
+        <div xml:id="r984069">
           <head rend="uc">Chapitre III
            <lb/>Les fortunes</head>
           <p>La moyenne des fortunes (54 livres par feu) était assez faible. Elle était nettement plus élevée dans les villes que dans les campagnes où de plus elle était souvent faussée, relevée par les revenus de quelques coqs de village qui tranchaient sur la masse de la population. La plupart des déclarants disposaient de revenus moyens, entre 30 et 70 livres, sauf dans les villes, dominées par l’opposition riches-pauvres.</p>
           <p>Les biens meubles ne représentaient que 13 % de la fortune totale. Le bétail en constituait l’essentiel sauf dans les foyers riches qui déclaraient aussi des marchandises. La proportion de biens meubles était particulièrement faible dans les Cévennes.</p>
           <p>Ces deux éléments (équilibre des fortunes, biens meubles peu importants) joints à un troisième facteur, un endettement nulle part catastrophique, dénotent une économie traditionnelle, comme si la campagne bas-vivaroise avait vécu repliée sur elle-même.</p>
         </div>
-        <div>
+        <div xml:id="r984087">
           <head rend="uc">Chapitre IV
            <lb/>L’artisanat</head>
           <p>La campagne demandait peu à l’artisanat. Seuls les métiers du cuir et du drap avaient quelque importance, mais la spécialisation n’existait pas encore à l’intérieur de la profession.</p>
         </div>
-        <div>
+        <div xml:id="r984099">
           <pb source="https://nakala.fr/10.34847/nkl.c5fe1y91#3b07efaf461f86d1dde898841de526fe3554948b" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5fe1y91/3b07efaf461f86d1dde898841de526fe3554948b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>L’onomastique</head>
           <p>Les noms de famille, héréditaires, étaient formés d’un prénom, d’un sobriquet, d’un nom de métier ou le plus souvent d’un nom d’origine géographique. Certains semblaient indiquer qu’il y avait eu émigration ; le plus souvent celle-ci se limitait aux paroisses voisines, les noms d’origine étrangère au Vivarais étant très rares.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r984117">
         <head rend="uc">Troisième partie
          <lb/>L’exploitation du sol</head>
-        <div>
+        <div xml:id="r984125">
           <head rend="uc">Chapitre premier
            <lb/>la superficie des propriétés</head>
           <p>La superficie moyenne des propriétés était très réduite : 1,8 hectare par feu ; mais les chiffres ne concernaient que les prés, les vignes et les labours, et encore non en totalité. Les Cévennes apparaissaient encore une fois comme la région la plus pauvre du Bas-Vivarais. La surface ne représentait en général que 15 à 25 % de la surface utilisée actuellement.</p>
           <p>Les propriétés étaient constituées de parcelles minuscules éparpillées sur tout le territoire paroissial. Cependant certaines parcelles groupées constituaient de véritables domaines annexes dont on peut se demander s’ils avaient été créés peu à peu ou s’ils avaient été acquis en bloc, signe manifeste de dépopulation.</p>
           <p>Enfin de nombreux déclarants possédaient des parcelles dans les paroisses voisines, parcelles qui portaient le plus souvent des cultures interdites par le cadre naturel de la paroisse d’origine.</p>
         </div>
-        <div>
+        <div xml:id="r984143">
           <pb source="https://nakala.fr/10.34847/nkl.c5fe1y91#4dc5f7be021ae46c79b759762c745d8acb430851" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5fe1y91/4dc5f7be021ae46c79b759762c745d8acb430851/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les cultures</head>
@@ -154,7 +152,7 @@
           <p>Quant aux « hermes » (friches), on n’en connaît pas la superficie et il s’avère donc impossible de déterminer s’il s’agissait de terres vierges ou de terres abandonnées.</p>
           <p>On connaît d’autre part les productions du Vivarais à travers la liste des cens versés aux seigneurs. Les enquêteurs groupaient sous ce vocable les cens proprement dits ainsi que la taille seigneuriale, l’hommage, les corvées très fréquentes, les droits de justice, de gardiage et parfois d’herbage ; le montant global en était très élevé, souvent beaucoup trop par rapport aux revenus des habitants, et on peut se demander si tous étaient effectivement acquittés. Les céréales étaient toujours citées : l’avoine poussait partout, le seigle dans les Hautes-Cévennes et les Boutières, le froment dans les autres régions. Les seigneurs en exigeaient presque tous, ainsi que du vin, car le « bled » manquait en Vivarais et le vin se vendait fort bien dans le Velay et le Gévaudan. Cependant si les privilégiés et quelques riches tenanciers tiraient profit de l’agriculture, la masse des déclarants ne cherchait qu’à assurer sa subsistance.</p>
         </div>
-        <div>
+        <div xml:id="r984175">
           <head rend="uc">Chapitre III
            <lb/>L’élevage</head>
           <p>Les revenus tirés de l’élevage permettaient à de nombreux déclarants de compléter les maigres ressources provenant de la terre. Les ovins et les caprins, <pb source="https://nakala.fr/10.34847/nkl.c5fe1y91#48562f93db63167ebace4ed0e59c9e90e556fd2f" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5fe1y91/48562f93db63167ebace4ed0e59c9e90e556fd2f/full/full/0/default.jpg"/>espèces typiques du Bas-Vivarais, étaient de loin les plus nombreux, on en comptait 17 par feu. Ils étaient présents dans toutes les paroisses alors que de nos jours on ne les trouve plus que dans quelques régions qui leur assurent le meilleur rendement.</p>
@@ -163,11 +161,11 @@
           <p>Le porc, élevé par chaque famille pour sa consommation personnelle, était en outre engraissé pour la vente dans la vallée de l’Ardèche. Chaque foyer possédait également sa basse-cour mais cela n’apparaît qu’à travers les listes de cens car les volailles n’étaient pas estimées. Enfin les ruches fournissaient à nombre de tenanciers des Hautes-Cévennes miel, cire et sucre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r984202">
         <head rend="uc">Conclusion</head>
         <p>Trois traits essentiels se dégagent de cette étude malgré les limites apportées par la nature du document et le manque de régularité et de précision de la rédaction. La majorité de la population du Bas-Vivarais, pays tout entier rural, disposait de revenus moyens, n’étant encadrée que par quelques feux riches ou pauvres. D’autre part une profonde inégalité séparait les différentes régions : les Cévennes, d’accès difficile, étaient tournées vers le passé alors que la vallée de l’Ardèche, plus ouverte aux influences extérieures, avait une économie prospère. Enfin, une fraction importante de la population échappait à l’estime, surtout dans les régions reculées, attestant que le servage n’en avait pas encore disparu. Ces contrastes entre régions basses et régions élevées d’une part et d’autre part entre Bas et Haut-Vivarais où déjà une économie de profit se faisait jour ne pouvaient que s’accentuer au cours des siècles.</p>
       </div>
-      <div>
+      <div xml:id="r984212">
         <pb source="https://nakala.fr/10.34847/nkl.c5fe1y91#b2fd5f690c1fbbdc4c498d958a88d9d11ea221ba" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5fe1y91/b2fd5f690c1fbbdc4c498d958a88d9d11ea221ba/full/full/0/default.jpg"/>
         <head rend="uc">Appendices et pièces justificatives</head>
         <p>Listes des déclarants avec le total des biens immeubles, des biens meubles et le total général. – Liste des seigneurs censiers. – Découpage politique du Bas-Vivarais. – Graphiques représentant la répartition des fortunes.</p>

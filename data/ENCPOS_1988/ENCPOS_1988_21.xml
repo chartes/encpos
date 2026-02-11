@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1988_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1988_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,30 +54,30 @@
         <forename>Marc</forename>
         <surname>Smith</surname>
       </byline>
-      <div>
+      <div xml:id="r1166623">
         <head rend="uc">Introduction</head>
         <p>Depuis plusieurs années on a vu se développer les études historiques sur la représentation de divers peuples ou pays dans les esprits de leurs contemporains, géographiquement proches ou lointains : l’image du Turc en Europe, de l’Allemand en Italie, etc. La présente étude se propose de combler la lacune qui existe à ce sujet pour la France et l’Italie : elle a semblé d’autant plus intéressante que les rapports entre les civilisations de ces deux pays eurent, à l’époque qui a été choisie, l’importance que l’on sait. L’image de l’Italie a déjà été en partie explorée, et continue de l’être. L’étude inverse, terrain presque vierge, semblait donc plus fructueuse. Au moment où la France s’imprégne d’un certain nombre de valeurs italiennes, il semblait également souhaitable de départager des lieux communs historiographiques aussi contradictoires que la réputation européenne de la brillante cour des Valois, et le mépris italien pour tous les « barbares » septentrionaux. Pour ce faire, c’est à une étude d’autres lieux communs, de ceux de l’époque considérée, qu’on s’est attaché.</p>
         <p>Les limites de la période (vers 1515-vers 1600) ont surtout été fixées en fonction des sources retenues. On a fait une place de choix aux sources de « première main », qui permettent de déceler à la fois l’origine de diverses représentations et leur influence sur l’« imaginaire collectif », par la manière dont elles orientent la perception de la réalité. Les journaux de voyages se présentant comme des documents particulièrement précieux, on a choisi une période longue pour en regrouper le plus grand nombre possible. En outre, une étude extensive plus qu’intensive permettait d’observer l’évolution, ou la résistance, des stéréotypes face à une époque fertile en mutations.</p>
       </div>
-      <div>
+      <div xml:id="r1166636">
         <head rend="uc">Sources</head>
         <p>Les sources sont de trois ordres : récits de voyages ; correspondances ; <pb source="https://nakala.fr/10.34847/nkl.7aceclxg#866bb85598820770b306506058a5a8f207ffb7c5" n="186" facs="https://api.nakala.fr/iiif/10.34847/nkl.7aceclxg/866bb85598820770b306506058a5a8f207ffb7c5/full/full/0/default.jpg"/>œuvres littéraires, surtout d’auteurs séjournant ou ayant séjourné en France (en particulier, Machiavel, M. Equicola, B. Cellini, L. Alamanni, S. Guazzo, le Tasse).</p>
         <p>Les récits de voyageurs (une trentaine) sont publiés pour quelques-uns, mais la plupart sont encore manuscrits. Ont été exploités, parmi ceux-ci, ceux qui se trouvent à Paris (Bibliothèque nationale, fonds italien, 377, 662, 1319), à Venise (Bibliothèque de Saint-Marc : fonds italien, VI. 80 [5767], VIL 631 B [7477], VIL 2089 [8043], VIL 2464 [10 397], VIL 2585 [12 477], XI. 182 [7361] ; Musée Correr : fonds Cicogna, 973, 1134 et 2736, fonds Correr, 55/2266 et 1074, fonds Donà delle Rose, 447, et fonds P.D.S. 567), à la Bibliothèque Vaticane (fonds Urbinate latino, 1697), à la Bibliothèque Ambrosienne de Milan (D. 90 inf.), à la Bibliothèque Bertoliana de Vicence (499, G. 6.7.19), et à la Bibliothèque municipale de Mantoue (I. IV. 65, n° 1252).</p>
         <p>Les correspondances sont surtout des correspondances diplomatiques. Elles sont plus intéressantes dans la première moitié du siècle ; plus tard, en raison des guerres de religion, elles sont presque uniquement d’intérêt politique et militaire. En dehors des grandes collections de documents publiés, ont été exploitées les archives de plusieurs villes d’Italie, essentiellement : Parme (Carteggio Farnesiano estero, Francia, 6-24), Mantoue (Archivio Gonzaga, 85, 283, 630, 633-634, 636-640, 642-643, 645, 650-651, 655, 656, 658, 659, 663-664 ; Collezione autografi Volta, 2), Modène (Carteggio ambasciatori, Francia, 35, 52, 54).</p>
         <p>Des correspondances privées ont été consultées dans les éditions anciennes. Une correspondance manuscrite d’un très grand intérêt, celle de Jacopo Corbinelli, de 1565 à 1587 (Milan, Bibliothèque Ambrosienne, B. 9 inf. et T. 167 sup.) vient de faire l’objet d’une édition par les soins de M. Gazzotti et M.G. Bianchi ; elle doit paraître incessamment.</p>
       </div>
-      <div>
+      <div xml:id="r1166660">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>« vedere IL mondo »</head>
-        <div>
+        <div xml:id="r1166672">
           <head rend="uc">Chapitre premier
            <lb/>le récit de voyage</head>
           <p><hi rend="i">Le voyage et la curiosité.</hi> – Bien que le voyage soit déjà considéré comme un moyen d’enrichissement intellectuel, on trouve, sur une trentaine de voyages d’Italiens en France entre 1512 et 1603, presque uniquement des déplacements entrepris pour des raisons professionnelles, avec une très grande majorité de diplomates. Pourtant, sur ce voyage « nécessaire » se greffe une curiosité spontanée. Au voyageur professionnel s’en associent d’autres, poussés par le seul désir de voir du pays : un poste de secrétaire d’ambassadeur, quand on <pb source="https://nakala.fr/10.34847/nkl.7aceclxg#f07dcebbc1bb599bc4982690452ad9a33b06d2bb" n="187" facs="https://api.nakala.fr/iiif/10.34847/nkl.7aceclxg/f07dcebbc1bb599bc4982690452ad9a33b06d2bb/full/full/0/default.jpg"/>peut l’obtenir, est la solution idéale pour découvrir le monde à peu de frais. Le groupe des voyageurs manifeste encore sa curiosité par son itinéraire : ceux qui ne voyagent que par curiosité suivent des chemins sinueux, mais même les diplomates se permettent des détours et retards révélateurs : bien que la curiosité ne soit pas le motif du départ, elle est sans cesse sollicitée par le spectacle des pays traversés. Et sur chaque ville d’étape, on s’informe avec soin par deux moyens : le regard, mais aussi en grande partie l’information orale.</p>
           <p><hi rend="i">Le voyage comme « genre » littéraire.</hi> – La rédaction d’un récit de voyage n’est pas un acte naturel, elle n’est entreprise que par une minorité de voyageurs. Elle se fait de diverses manières, pendant ou après le voyage. On peut distinguer, grâce à l’examen interne et externe du texte, et en particulier par les erreurs chronologiques, les étapes interverties, etc., deux types principaux : d’abord le <hi rend="i">journal</hi> proprement dit, issu de l’itinéraire médiéval et du journal personnel (livres de <hi rend="i">ricordanze,</hi> très développés en Italie), tenu d’étape en étape, caractérisé par l’énumération régulière des étapes, scandées par les dates et les distances ; à ce type, on peut rattacher les récits mis au net sans refonte importante, et qui respectent le même rythme. En second lieu, des formes qu’on pourra appeler génériquement <hi rend="i">relations de voyages,</hi> rédigées après le retour, que ce soient des notes, des journaux retravaillés, ou de simples souvenirs rassemblés. Le rythme des étapes, moins rigoureux, peut disparaître complètement sur certaines portions de route. Certains récits, enfin, qui se présentent comme appartenant à l’une ou l’autre de ces catégories, sont en réalité des lettres de voyageurs.</p>
           <p><hi rend="i">Utilité du récit de voyage.</hi> – La rédaction du récit répond à plusieurs intentions : la célébration du voyage comme un acte exceptionnel du principal membre du groupe (le diplomate). C’est le principal caractère des récits de voyages de légats, et de cardinaux en général (avec une plus forte attention aux choses de la religion). Ensuite, le récit a des utilisations concrètes : il n’est pas seulement un aide-mémoire personnel, il doit aussi aider des voyageurs futurs : c’est un itinéraire. Les relations qui ne mentionnent pas toutes les étapes, et qui sont souvent plus narratives, se développent surtout après le milieu du siècle (mais sans éliminer les autres) : c’est le signe d’une orientation progressive vers des formes plus distrayantes qu’utiles.</p>
         </div>
-        <div>
+        <div xml:id="r1166716">
           <head rend="uc">Chapitre II
            <lb/>Le temps et l’espace</head>
           <p><hi rend="i">Sources de la connaissance de la France.</hi> – Le voyageur, avant son départ, peut connaître la France, outre l’information orale impondérable, par la littérature antique, géographique (Ptolémée, Strabon) et historique (César) : elle est omniprésente, qu’elle soit lue directement ou à travers les ouvrages récents qui s’en inspirent toujours largement. La description de la géographie française se fait encore suivant les termes antiques : les provinces de la Gaule romaine gardent une réalité objective et non seulement historique, elles coexistent pacifiquement avec les divisions de la France moderne. On ne décèle en revanche chez les voyageurs presque aucune influence visible d’ouvrages modernes particuliers, comme <hi rend="i">La Guide des chemins de France</hi> de Ch. Estienne, ni aucun <pb source="https://nakala.fr/10.34847/nkl.7aceclxg#6b98b6608ef482f273a504ce13604a243c96e45e" n="188" facs="https://api.nakala.fr/iiif/10.34847/nkl.7aceclxg/6b98b6608ef482f273a504ce13604a243c96e45e/full/full/0/default.jpg"/>emploi des cartes, tout cela étant pourtant disponible en Italie. Le principal instrument qui permette de se diriger en France est en fait un guide en chair et en os.</p>
@@ -87,7 +85,7 @@
           <p><hi rend="i">L’histoire et la géographie.</hi> – La géographie s’apprend surtout à travers l’histoire, aussi c’est l’histoire qui fait la célébrité d’un lieu, et le voyageur connaît, plus que les villes importantes, celles qui ont un glorieux passé. A l’inverse, dans une ville qu’il ne connaît pas, il regarde surtout le passé, incarné en trois moments : l’Antiquité essentiellement, dont il note les traces visibles, souvent avec plus de curiosité que de science (il découvre les ruines romaines plus souvent qu’il ne les connaît d’avance) ; un Moyen Age légendaire, où dominent (à part quelques souvenirs de Jeanne d’Arc) les figures des légendes carolingiennes et des romans chevaleresques, bien connues des Italiens (certains croient sincèrement à ces légendes, d’autres, plus tard, s’en moquent ouvertement – mais s’y intéressent autant) ; enfin l’histoire récente. Celle-ci concerne d’abord l’histoire d’Italie : les Italiens, qui notent toute personne ou tout objet ayant un rapport avec leur pays, s’attachent particulièrement aux lieux illustrés dans leur imagination par les grands noms des guerres d’Italie : l’un pensait trouver à Lapalice une riche capitale. La plus « italienne » est Avignon, à cause des souvenirs de Pétrarque et des papes. Ensuite, l’histoire récente est celle des guerres de religion : par l’information qu’elles multiplient, elles font connaître un plus grand nombre de points de l’espace français, mais aident peu la constitution d’une vision globale – ce qui contribue à les rendre difficilement compréhensibles en Italie, d’un point de vue stratégique en particulier.</p>
           <p>C’est sous une forme discursive (sur le modèle de l’histoire) plus que sous celle de l’image, qu’il faut se représenter la connaissance géographique.</p>
         </div>
-        <div>
+        <div xml:id="r1166755">
           <head rend="uc">Chapitre III
            <lb/>La ville mesurée</head>
           <p>Le voyageur du <num>xvi<hi rend="sup">e</hi></num> siècle (au contraire de son successeur du <num>xviii<hi rend="sup">e</hi></num>) ne « sent » pas l’espace du voyage, il le mesure. L’espace se concentre en une série de points : les villes de l’itinéraire.</p>
@@ -96,18 +94,18 @@
           <p><hi rend="i">Paris.</hi> – Les descriptions de Paris sont extrêmement semblables les unes aux autres, sans doute grâce à la littérature déjà existante et aux répétitions des guides : une étendue peut-être inférieure à Milan, mais la plus grande population d’Europe (300 000 ? 600 000 ?), surtout grâce à l’Université (30 000 « écoliers » ?) et au Parlement ; un site partagé en trois, le pont Notre-Dame (bâti) qui ressemble plus à une rue qu’à un pont, Notre-Dame, le Palais (et la Sainte-Chapelle) ; une activité économique prodigieuse (liée à une campagne extrêmement fertile), comparable à celle de Venise. L’image mythique élimine toute laideur dès le début du siècle : disparition de la saleté, du cimetière des Innocents. Le caractère traditionnel du mythe parisien se manifeste aussi par l’absence de mentions de l’œuvre de la Renaissance (Hôtel de Ville, Louvre).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1166803">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>« un tanto regno »</head>
-        <div>
+        <div xml:id="r1166815">
           <head rend="uc">Chapitre premier
            <lb/>le royaume très-chrétien</head>
           <p><hi rend="i">Le « noble » royaume de France.</hi> – Le prestige que confère à la dynastie son ancienneté, comparée aux légitimités plus récentes de la plupart des familles princières d’Italie, est renforcé par l’importance de la mythographie caro<pb source="https://nakala.fr/10.34847/nkl.7aceclxg#a53d5d7130a4d0f4898dcc6a7ff1fe69c00cd650" n="190" facs="https://api.nakala.fr/iiif/10.34847/nkl.7aceclxg/a53d5d7130a4d0f4898dcc6a7ff1fe69c00cd650/full/full/0/default.jpg"/>lingienne et du pouvoir sacré des rois de France : popularité italienne du pouvoir thaumaturgique. L’image du roi de France comme sauveur désintéressé de la liberté d’Italie, en revanche, a souffert depuis la descente de Charles VIII vers le royaume de Naples, sans toutefois disparaître. L’alliance turque, le gallicanisme anti-tridentin, cause de la décadence du clergé, et les guerres religieuses, où les rois manquent de détermination, posent avec plus d’acuité la question de la vocation religieuse de la monarchie française.</p>
           <p><hi rend="i">La religiosité des Français.</hi> – A l’opposé de l’Italie impie de la Renaissance, les Français, comme d’autres peuples du Nord, sont un peuple pieux, respectueux des évêques, adorant le pape, et dont la culture en général est d’une orientation plus religieuse : le développement de la Réforme française est donc une amère déception. Les causes des guerres sont méconnues : de loin, on croit à la sincérité des catholiques, de la Ligue (et les huguenots ne sont qu’avides de tueries et de « licence ») ; sur place, la découverte des motivations politiques des catholiques est souvent une révélation. Cependant, la réputation de piété des Français résiste, en particulier grâce à Paris. Les réactions des voyageurs varient selon leurs itinéraires : ceux qui ne traversent que des pays réformés sont horrifiés, ceux qui passent dans les grandes villes, plus catholiques, décrivent une frénésie religieuse qui confirme à sa manière la traditionnelle piété, en particulier lors des entrées solennelles de légats : l’enthousiasme populaire est aussi violent qu’autour des prédicateurs du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">L’art religieux français.</hi> – Comme pour contredire les accusations lancées contre le gothique par les théoriciens de la Renaissance, les voyageurs admirent unanimement les églises de France. Elles émerveillent par leurs grandes dimensions, par la richesse du matériau (la pierre, opposée à la brique) et du décor – des orgues, du mobilier, de la sculpture « flamboyante » –, c’est-à-dire, en fin de compte, par l’argent qu’elles ont coûté. Seul défaut remarqué : l’absence de beaux tombeaux. L’existence même d’un style « gothique » n’est pratiquement jamais évoquée. Seul le Tasse, tout en reconnaissant leurs qualités de richesse, condamne l’architecture des cathédrales françaises. Particulièrement célèbres : Notre-Dame de Paris (comme cathédrale de la capitale), Saint-Denis (pour son trésor), Notre-Dame d’Amiens, la plus belle église de France (en raison de ses dimensions) et rivale du Dôme de Milan. La splendeur des églises est l’une des principales confirmations de la piété française.</p>
         </div>
-        <div>
+        <div xml:id="r1166853">
           <head rend="uc">Chapitre II
            <lb/>Richesse du roi de France</head>
           <p>Les impôts levés sur un royaume fidèle et riche sont la source de la richesse du roi.</p>
@@ -118,7 +116,7 @@
           <p>L’expérience enseigne souvent le contraire. Le climat français, pour ceux qui ont à le subir, a trois caractéristiques : il est froid, venteux, instable (il peut aussi, en effet, varier du froid aux plus grandes chaleurs). Par conséquent, il est malsain, pour les Français eux-mêmes, qui ont une espérance de vie limitée, mais surtout pour les Italiens : au <num>xvi<hi rend="sup">e</hi></num> siècle, le dépaysement présente en lui-même toujours un risque, chaque nation, comme chaque individu, possédant une « complexion » particulière, une nature faite pour un milieu naturel défini (la dangereuse incompétence des médecins français est aussi aggravée par le fait qu’ils ne connaissent pas la complexion italienne).</p>
           <p>La prospérité française n’est pas l’inverse de la pauvreté méridionale, mais la rivale d’une Italie qui est toujours, pour l’Italien comme pour l’homme du Nord, le jardin de l’Europe. Les Italiens portent sur les productions un regard méditerranéen, fondé sur le triptyque blé-vigne-arboriculture (culture de l’olivier en particulier) ; la comparaison est constante, et l’inventaire des absences dessine une image en négatif de l’agriculture française : pas de figues en Normandie... Les fruits qu’on trouve sont insipides. Un symbole de l’exil : l’absence du melon, fruit par excellence de la douceur de vivre.</p>
         </div>
-        <div>
+        <div xml:id="r1166903">
           <head rend="uc">Chapitre III
            <lb/>Les armes et les lettres</head>
           <p>La puissance militaire du roi est due au dévouement d’une noblesse dont la guerre est l’unique « profession ».</p>
@@ -131,7 +129,7 @@
           <p>Malgré les progrès des lettres en France, quelques continuités apparaissent, quelques caractères toujours relevés par les Italiens : l’ignorance du latin (chez les rois, les moines ; et les plaidoiries se font en français...) ; l’allergie française aux mouvements expressifs des orateurs italiens, qui imitent l’<hi rend="i">actio</hi> antique ; <pb source="https://nakala.fr/10.34847/nkl.7aceclxg#d7d325ac0c323794977bad7903724aace29230c7" n="193" facs="https://api.nakala.fr/iiif/10.34847/nkl.7aceclxg/d7d325ac0c323794977bad7903724aace29230c7/full/full/0/default.jpg"/>mais ce qui scandalise le plus est le mépris où sont tenus les secrétaires, employés aux tâches les plus avilissantes (comme à bouchonner les chevaux).</p>
           <p>Le mépris des lettres, à nouveau aggravé par les guerres de religion, est condamné à deux titres : la noblesse se trouve par son ignorance dominée par la robe savante ; à l’inverse, les lettres perdent aussi en noblesse, à n’être exercées que par des esprits roturiers.</p>
         </div>
-        <div>
+        <div xml:id="r1166975">
           <head rend="uc">Chapitre IV
            <lb/>Splendeur de la monarchie : la cour</head>
           <p><hi rend="i">La fête et le vêtement.</hi> – Le vêtement est pour l’homme de la Renaissance ce qui définit le mieux l’étranger. Celui des Français a une réputation traditionnelle et durable d’extravagance. Il varie sans arrêt, d’un excès à l’autre, à l’opposé de l’idéal italien d’élégance mesurée. Mais l’extravagance du vêtement est aussi un signe de la richesse française.</p>
@@ -143,11 +141,11 @@
           <p>Le luxe quotidien est moins raffiné qu’en Italie, les marchandises locales souvent inférieures (tissus, gants, papier et encre...). Mais on doit au contraire acquérir en France livres, orfèvrerie, aiguilles et lunettes. Le confort souffre surtout de l’itinérance de la cour, toujours rappelée. Les plaintes sont incessantes sur les conditions de logement, non seulement sous François I<hi rend="sup">er</hi>, qui loge dans des porcheries, mais, de temps à autre, tout au long du siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1167022">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>« la natura de’ franciosi »</head>
-        <div>
+        <div xml:id="r1167034">
           <head rend="uc">Chapitre premier
            <lb/>une nation sans raison</head>
           <p>A l’opposé de l’idéal humaniste d’un homme équilibré, soumis à l’empire de la raison qui lui permet de construire lui-même son destin : le Français. L’image de sa psychologie, toute entière construite à partir de la légèreté que les Anciens attribuaient aux Gaulois, est constamment vérifiée par la confrontation avec l’expérience quotidienne.</p>
@@ -156,14 +154,14 @@
           <p><hi rend="i">L’inconstance.</hi> – A vrai dire, seules les mauvaises décisions tiennent. Le plus souvent, l’impétuosité avec laquelle chaque espoir est saisi fait que tout <pb source="https://nakala.fr/10.34847/nkl.7aceclxg#7bf29cf0ccd9d916f89c648ee41b458d2b1a1197" n="195" facs="https://api.nakala.fr/iiif/10.34847/nkl.7aceclxg/7bf29cf0ccd9d916f89c648ee41b458d2b1a1197/full/full/0/default.jpg"/>projet est chassé par le suivant, d’autant qu’une affaire entreprise est aussitôt considérée comme achevée. Ces variations rendent les actions des Français aussi imprévisibles qu’extravagantes. Aucune nouvelle venant de France n’est jugée sûre et définitive. Aucune promesse n’est tenue. L’amour des « nouveautés », du changement, mentionné de plus en plus souvent après 1560, explique parfaitement le développement de la Réforme et les troubles civils. Mais à l’inverse, un caractère ni calculateur ni rancunier, contrairement à l’Italie, pays de l’assassinat, permet les réconciliations les plus inespérées.</p>
           <p><hi rend="i">Psychologie et climat.</hi> – Cet esprit, aussi inconstant qu’extrême en toutes choses, est à l’image du climat français, et <hi rend="i">vice versa.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1167078">
           <head rend="uc">Chapitre II
            <lb/>L’empire de l’« appetito »</head>
           <p><hi rend="i">La gourmandise.</hi> – Le Français, comme le Gaulois, exprime surtout sa joie de vivre à table, il aime manger et boire, mais surtout manger, la boisson étant plutôt l’attribut des Allemands. Selon les cas, il est plus gourmand ou plus gourmet, encore que la cuisine française ne soit pas toujours très raffinée, de même que le comportement des convives. Une table bien chargée a une importance essentielle pour le prestige individuel, et apparaît aux Italiens comme le symbole de la domination de la chair sur l’esprit.</p>
           <p><hi rend="i">La cupidité.</hi> – Le Français, comme le Gaulois, aime l’or. Il cherche à obtenir tout ce dont il a envie, que ce soit la conquête de l’Italie, d’absurdes concessions politiques, d’incessants cadeaux, menus et grands, pour les courtisans, d’une avidité presque naïve, ou les ruineuses exigences des serviteurs, en pourboires, et des commerçants. Selon les cas, cette cupidité – qui va jusqu’à la malhonnêteté, le Français étant corrompu et voleur – se double d’avarice, ou répond à une égale prodigalité.</p>
           <p><hi rend="i">Le procès français.</hi> – Tout l’odieux caractère français se dévoile dans les procès. Les Français les aiment et mettent un point d’honneur à les mener avec la hargne la plus chicanière, sinon la plus malhonnête. Les Italiens sont d’autant plus égarés qu’ils connaissent mal les règles juridiques françaises, et que les juges sont corrompus, surtout dans la seconde moitié du siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1167105">
           <head rend="uc">Chapitre III
            <lb/>Familiarité et irrespect</head>
           <p>La politesse tient une place essentielle dans la vision de l’homme de la Renaissance italienne, insistant sur les valeurs de hiérarchie et de distance. La politesse française, à l’inverse, se veut fondée sur une aimable familiarité. C’est une nouvelle forme de l’insouciance française. Les tentations françaises de la politesse italienne ont tôt cédé le pas à la sévérité espagnole.</p>
@@ -173,7 +171,7 @@
           <p><hi rend="i">« Senza rispetto ad alcuno ».</hi> – La France n’est pas la plus grossière des nations – l’Allemagne la dépasse de loin –, mais les manières françaises apparaissent souvent comme intolérables. Les cardinaux, les ambassadeurs, n’ont droit à aucun égard. On attend dans les antichambres, et quand on veut forcer la porte, on s’expose à être malmené. Le roi, voulant écarter une foule, même de grands personnages, en 1500 comme en 1600, fait jouer du bâton. Du moins, le manque de rigueur des préséances permet d’épargner certaines susceptibilités ; mais à la longue, elles s’embrouillent tellement qu’après 1570, personne ne s’y retrouve plus, ce qui donne lieu aux plus déplorables querelles : à cet égard, la cour de France est la plus désorganisée d’Europe.</p>
           <p>Il semble bien excessif de vouloir faire de la politesse française un modèle européen, comme l’ont voulu certains historiens. Cependant, elle n’apparaît pas comme une simple rusticité, mais bien comme un code différent. Au mieux, on reconnaît à celui-ci quelques avantages, mais en précisant qu’il ne convient qu’aux Français, chez qui il est naturel, donc plus gracieux.</p>
         </div>
-        <div>
+        <div xml:id="r1167143">
           <head rend="uc">Chapitre IV
            <lb/>La française : liberté ou licence ?</head>
           <p>La femme, sujet toujours privilégié de la curiosité du voyageur, bénéficie en France d’une liberté particulière aux yeux des Italiens, dont la morale est bien moins dissolue que ne le voudrait une imagerie traditionnelle de la Renaissance.</p>
@@ -186,16 +184,16 @@
           <p>La réputation morale de la cour est donc presque constamment douteuse. On hésite souvent à épouser une Française (d’où l’intérêt également politique de la question). L’immoralité est une conséquence directe de la familiarité, plus dangereuse encore pour les Italiennes, qui n’y sont pas habituées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1167200">
         <head rend="uc">Conclusion</head>
         <p>L’image de la France est remarquable par sa stabilité, la distance jouant pour atténuer l’écho des formidables mutations qui secouent le pays, mais aussi par la puissance des stéréotypes, « grille » de lecture de la réalité qui permet de rendre compte en fonction de vérités éternelles – d’autant plus éternelles qu’elles remontent pour l’essentiel aux auteurs de l’Antiquité – des situations les plus variées, le lieu commun tenant communément lieu d’analyse, jusque chez un Machiavel. On ne saurait donc sous-estimer l’importance de ces représentations : plus que des « on-dit », ce sont des certitudes qu’on pourrait dire « scientifiques », tant elles sont considérées comme cent fois prouvées par l’expérience. A ce titre, elles peuvent influer directement sur le comportement de celui qui place en elles sa confiance, et jusqu’à l’action politique. Le mythe de la France premier royaume d’Europe doit aussi à cette inertie certaine sa <pb source="https://nakala.fr/10.34847/nkl.7aceclxg#1f3c410cf42fccc658d412bd54208d86e6d0ba61" n="198" facs="https://api.nakala.fr/iiif/10.34847/nkl.7aceclxg/1f3c410cf42fccc658d412bd54208d86e6d0ba61/full/full/0/default.jpg"/>survie malgré les difficultés que traverse le pays ; survie « douloureuse », nostalgique, « en creux », mais bien réelle : une confiance dans une grandeur ébranlée mais qui peut resurgir à tout instant. L’extraordinaire reprise manifestée dès le début du <num>xvii<hi rend="sup">e</hi></num> siècle n’étonnera qu’à moitié ; le Grand Siècle est loin de surgir du néant.</p>
         <p>D’autre part, la continuité des représentations permet aussi d’insister sur certaines continuités bien réelles des comportements français eux-mêmes, de ceux du bas Moyen Age à ceux de l’âge baroque, que ce soit une certaine conception de la splendeur ou une instabilité psychologique qui ne doit peut-être pas sa réputation uniquement aux lieux communs d’origine antique.</p>
       </div>
-      <div>
+      <div xml:id="r1167224">
         <head rend="uc">Pièces justificatives</head>
         <p>Lettres conservées dans les archives de Mantoue et de Parme. – Brève relation de voyage d’Alfonso Ragona, 1557 (Bibliothèque de Vicence).</p>
       </div>
-      <div>
+      <div xml:id="r1167234">
         <head rend="uc">Annexe</head>
         <p>Répertoire des récits de voyageurs exploités : biographies, itinéraires, sources et bibliographie.</p>
       </div>

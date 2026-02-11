@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,11 +56,11 @@
         <surname>Renaudin</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1192301">
         <head rend="uc">Introduction</head>
         <p>On comptait à Paris, aux XVII’ et XVIII’ siècles, trois monastères de carmélites déchaussées. L’histoire a surtout retenu le nom du premier, établi en 1604 au faubourg Saint-Jacques, qui fut pour la France ce que le carmel d’Avila avait été pour l’Espagne. Si l’histoire du « Grand Couvent » n’est pas à refaire, l’étude comparée des trois maisons met en évidence des comportements communs, mais aussi des évolutions propres à chacune d’elles ; par-delà l’histoire des fondations et la biographie des carmélites les plus célèbres, elle aide aussi à saisir la réalité matérielle, humaine et religieuse des ardents foyers de vie spirituelle que furent ces couvents.</p>
       </div>
-      <div>
+      <div xml:id="r1192311">
         <pb source="https://nakala.fr/10.34847/nkl.54e58zj1#47aebe39a0dcf41a5f8d3233e0891f836eea745a" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.54e58zj1/47aebe39a0dcf41a5f8d3233e0891f836eea745a/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Les sources les plus riches proviennent des Archives nationales et des archives des carmels.</p>
@@ -70,11 +68,11 @@
         <p>Les carmélites de Clamart et de Créteil nous ont ouvert leurs archives. Elles possèdent les chroniques des anciens monastères, deux registres de professions et des collections de lettres circulaires, manuscrites ou imprimées, source principale pour retracer la vie des religieuses.</p>
         <p>La Bibliothèque nationale et la Bibliothèque de l’Arsenal fournissent les documents sur l’administration des monastères et sur l’épisode janséniste au faubourg Saint-Jacques.</p>
       </div>
-      <div>
+      <div xml:id="r1192345">
         <head rend="uc">Première partie
          <lb/>Histoire des trois monastères :
          <lb/>les fondations du <num>xvii<hi rend="sup">e</hi></num> siècle, le temporel</head>
-        <div>
+        <div xml:id="r1192361">
           <head rend="uc">Chapitre préliminaire
            <lb/>L introduction en France des carmélites déchaussées
            <lb/>la fondation du premier monastère parisien</head>
@@ -83,14 +81,14 @@
           <p>Les premières tentatives de fondations en France, faites par un gentilhomme normand d’ascendance espagnole, Jean de Brétigny, échouèrent à cause des relations tendues entre la France et l’Espagne. 11 fallut toute l’autorité d’un grand nom, celui de Catherine d’Orléans, princesse de Longueville, désignée comme fondatrice séculière, et toute la diplomatie de Pierre de Bérulle pour convaincre Henri IV, et obtenir des carmes déchaussés d’Espagne l’envoi d’un essaim de filles de sainte Thérèse. Dans le même temps, à Paris, Madame Acarie et son entourage formait les premières postulantes dans la congrégation de Sainte-Geneviève.</p>
           <p>Le premier monastère parisien, le « Grand Couvent », fut établi, au faubourg Saint-Jacques, dans l’ancien prieuré bénédictin de Notre-Dame-des-Champs. Les carmélites espagnoles le dirigèrent jusqu’en 1608. La mère Anne de Jésus de Lobéra, grande religieuse mais d’un caractère intraitable, hostile à la spiritualité de l’école abstraite, très éloignée de l’esprit de sainte Thérèse, incapable de s’entendre avec les supérieurs français, Bérulle en particulier, qu’elle accuse de repenser la réforme thérésienne dans des catégories françaises, passe en Flandre dès 1607. La mère Anne de Saint-Barthélemy l’y rejoint en 1611. Il n’en est pas moins vrai que les premières carmélites françaises ont été formées à leur école.</p>
         </div>
-        <div>
+        <div xml:id="r1192392">
           <head rend="uc">Chapitre premier
            <lb/>le carmel parisien : un enjeu</head>
           <p>La lutte acharnée autour du jeune Carmel français montre en quelle estime on tenait ce milieu spirituel. Le premier conflit avait éclaté autour des Mères espagnoles ; après leur départ, trois compétiteurs se le disputent sur le terrain de la spiritualité.</p>
           <p>Dans un premier temps, ce sont, d’une part, les tenants de l’école abstraite, avec les supérieurs du Val et Gallemant, de l’autre, Bérulle et sa spiritualité subtile, marquée par la dévotion à l’Enfance de Jésus. Bérulle (f 1629) a vu le Carmel français, comme dans l’Oratoire, un terrain idéal pour son apostolat spirituel et la diffusion de ses idées christologiques. Il eut une grande alliée en la personne de la mère Madeleine de Saint-Joseph (f 1637), première prieure française du Grand Couvent, et, à travers elle, il marqua profondément le Carmel français naissant. Toutefois, il ne faut pas exagérer son importance (sa tentative pour imposer aux carmélites un vœu de servitude à la Vierge avorte en 1618) au détriment de l’apport thérésien, ni perdre de vue que les carmélites françaises étaient d’abord les filles de sainte Thérèse.</p>
           <p>L’arrivée des carmes déchaussés à Paris, en 1611, complique la situation en reposant la question du gouvernement des carmélites. L’affaire fit grand bruit et, suscita de part et d’autre de chauds partisans. Au terme d’une lutte acharnée, les carmes furent déboutés de leurs prétentions et les supérieurs séculiers confirmés définitivement, conformément à la bulle d’institution de 1603.</p>
         </div>
-        <div>
+        <div xml:id="r1192410">
           <pb source="https://nakala.fr/10.34847/nkl.54e58zj1#1eee50c1c70853df12bcaf9ea1d65ab7f7568645" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.54e58zj1/1eee50c1c70853df12bcaf9ea1d65ab7f7568645/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les deux autres fondations parisiennes</head>
@@ -98,7 +96,7 @@
           <p>Le noviciat y est si nombreux qu’en 1617, on établit une deuxième maison à Paris, rue Chapon, au Marais. En 1619, elle s’installe dans l’ancien hôtel des évêques de Châlons, grâce aux libéralités de Catherine de Gonzague et de Clèves, veuve d’Henri d’Orléans, duc de Longueville. La mère Madeleine de Saint-Joseph, puis la mère Marguerite du Saint-Sacrement Acarie (f 1660) dirigèrent la communauté naissante. Comme le « Grand Couvent », le « Petit Couvent » bénéficia de l’afflux des vocations et de la ferveur religieuse de l’époque, qui lui permirent de faire édifier une église.</p>
           <p>Après les troubles de la Fronde, les carmélites du premier monastère avaient obtenu l’autorisation de disposer d’une mission de refuge à l’intérieur des remparts. Elles acquirent d’abord une maison rue Pavée (1656), puis s’installèrent rue du Bouloi, à proximité du Louvre. L’« hospice » recevait souvent la visite d’Anne d’Autriche et de Marie-Thérèse. Grâce à leur protection, la maison du Bouloi fut érigée en couvent distinct, en 1663. En 1689, dans un climat de saturation religieuse et un contexte économique défavorable, la communauté s’installa dans sa demeure définitive, rue de Grenelle, au faubourg Saint-Germain. Seule la protection royale la sauva de la banqueroute. Elle ne connut jamais le dynamisme religieux des deux autres maisons.</p>
         </div>
-        <div>
+        <div xml:id="r1192433">
           <head rend="uc">Chapitre III
            <lb/>Le temporel des trois monastères</head>
           <p>Comme toutes les communautés religieuses, les carmels parisiens connurent un <num>xvii<hi rend="sup">e</hi></num> siècle prospère, temps des fondations et des acquisitions, de l’abondance des vocations et des libéralités des laïcs. Le <num>xviii<hi rend="sup">e</hi></num> siècle est tout en contrastes, sous l’effet de différents facteurs : moindre religiosité des Parisiens et tarissement des vocations, crise de Law, alourdissement de la charge fiscale, recherche des amortissements ; et surtout d’une législation royale sur les gens de mainmorte, qui réglemente sévèrement, dès la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, leurs acquisitions, les fondations pieuses et les dots moniales.</p>
@@ -107,11 +105,11 @@
           <p>Cette fortune n’exclut pas les années difficiles. Les dépenses extraordinaires (grosses réparations) sont mal compensées par les recettes casuelles (dots de religieuses en particulier), qui avaient fait la prospérité du siècle précédent. En temps normal, malgré une gestion prudente, l’entretien des religieuses et les frais de réparations des bâtiments monastiques et des maisons locatives, souvent achetées pour se garder de mauvais voisinages, engloutissent la plus grande partie des revenus.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1192484">
         <head rend="uc">Deuxième partie
          <lb/>Les carmélites parisiennes :
          <lb/>recrutement, observance, expériences spirituelles</head>
-        <div>
+        <div xml:id="r1192494">
           <head rend="uc">Chapitre premier
            <lb/>organisation générale d’un monastère</head>
           <p>La vie d’un monastère de carmélites est réglée par le respect des Constitutions primitives de sainte Thérèse d’Avila et de la règle de saint Albert, confirmée par Innocent IV (1247), qui prescrit la prière perpétuelle en clôture.</p>
@@ -120,7 +118,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.54e58zj1#1968a2963ab2b0ccd42b71798b2369ef4ed04e41" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.54e58zj1/1968a2963ab2b0ccd42b71798b2369ef4ed04e41/full/full/0/default.jpg"/>
           <p>C’est la prieure, élue pour trois ans, qui assure le gouvernement effectif du monastère, assistée par deux dépositaires pour le temporel. Parmi les religieuses, il faut distinguer les choristes, qui récitent l’office divin et qui peuvent être capitulantes, et les converses, au nombre de quatre ou cinq, qui sont recrutées pour les grosses tâches ménagères et qui ne disent pas l’office. Les tourières, laïques logées en dehors de la clôture, font le lien entre le monde et la communauté.</p>
         </div>
-        <div>
+        <div xml:id="r1192520">
           <head rend="uc">Chapitre II
            <lb/>Recrutement des religieuses</head>
           <p>Les deux premières maisons bénéficièrent de l’afflux des vocations au XVII<hi rend="sup">e </hi>siècle. Les monastères sont pleins très longtemps, tandis que le recrutement décline lentement. Le recul se manifeste au début du <num>xviii<hi rend="sup">e</hi></num> siècle (recrutement plus faible, diminution et vieillissement de la population des monastères, jansénisme au Grand Couvent), avec une certaine stabilisation dans la deuxième moitié du siècle. Le tarissement des vocations n’atteint pas les converses.</p>
@@ -128,7 +126,7 @@
           <p>Au <num>xvii<hi rend="sup">e</hi></num> siècle, les religieuses sont en leur grande majorité originaires de la capitale. La part de la province augmente très sensiblement au <num>xviii<hi rend="sup">e</hi></num> siècle, indice d’un recul de la vitalité religieuse chez les Parisiens, mais on constate des disparités d’une maison à l’autre ; le monastère de la rue Chapon, ouvert à la moyenne bourgeoisie, reste bien implanté dans la capitale ; celui de la rue de Grenelle, très aristocratique, recrute majoritairement en province. Les converses viennent plutôt des campagnes proches de Paris et du Bassin parisien.</p>
           <p>Les choristes issues de la noblesse (noblesse de robe surtout) ou d’une haute bourgeoisie en voie d’ascension sont majoritaire au <num>xvii<hi rend="sup">e</hi></num> siècle dans les trois monastères. Au siècle suivant, la moyenne bourgeoisie (marchands, professions libérales, offices) prédomine au Petit Couvent, tandis que le monastère de la rue de Grenelle est un fief de la noblesse militaire. Les converses, recrutées dans la petite bourgeoisie des villes au <num>xvii<hi rend="sup">e</hi></num>, sont plutôt d’origine paysanne au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1192581">
           <pb source="https://nakala.fr/10.34847/nkl.54e58zj1#25824a9f842075b7cba83ec371a45497c0001a6a" n="147" facs="https://api.nakala.fr/iiif/10.34847/nkl.54e58zj1/25824a9f842075b7cba83ec371a45497c0001a6a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Vie et mort des religieuses, expériences individuelles</head>
@@ -140,18 +138,18 @@
           <p>Au <num>xviii<hi rend="sup">e</hi></num> siècle, s’il reste des traces de l’influence originelle de Madame Acarie, de la spiritualité bérullienne et du foisonnement mystique des débuts, si l’exemple des premières Mères reste le modèle à imiter, on dut en venir progressivement à un souci prudent de l’acquisition des vertus. Au fil des années, les carmélites parisiennes se sont quelque peu figées dans leur mode de vie. La richesse créatrice de la fondation a été suivie, comme il arrive souvent, d’une moindre fécondité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1192624">
         <pb source="https://nakala.fr/10.34847/nkl.54e58zj1#b2966b53dccfa08437939c2a85376668e58a1d61" n="148" facs="https://api.nakala.fr/iiif/10.34847/nkl.54e58zj1/b2966b53dccfa08437939c2a85376668e58a1d61/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Le carmel parisien dans l’ordre et dans le siècle</head>
-        <div>
+        <div xml:id="r1192637">
           <head rend="uc">Chapitre premier
            <lb/>rayonnement des maisons parisiennes au sein de l’ordre</head>
           <p>Le monastère du faubourg Saint-Jacques, première maison de l’ordre en France, fut à l’origine directement ou indirectement de presque toutes les fondations. Le Petit Couvent fonda trois monastères (Chartres, Blois, Metz). Pendant tout le <num>xvii<hi rend="sup">e</hi></num> siècle, ils entretinrent avec ces maisons de durables relations d’amitié. Les deux monastères parisiens les assistaient de différentes manières, spirituellement et matériellement, en envoyant des postulantes et des religieuses bien dotées lors des fondations, ou des sommes d’argent lors des périodes de crise, en prêtant des religieuses confirmées pour exercer les charges de prieure ou de sous-prieure.</p>
           <p>Le Grand Couvent fut le porte-parole de l’ordre pendant la première moitié du XVII’ siècle. Son rayonnement fut incontestable, de par son réseau de relations, le prestige de nombre de ses religieuses, et surtout de par le haut niveau de spiritualité qui s’y maintenait. Peu à peu, le temps des fondations s’éloignant, les liens se relâchèrent. Les maisons de l’ordre, à commencer par les deux autres monastères parisiens, supportaient avec de plus en plus d’impatience des prétentions de chef d’ordre vraies ou supposées. L’épisode du jansénisme et une éclipse d’un demi-siècle lui porta un coup fatal. A la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, c’est le carmel de Saint-Denis, maison de profession de Madame Louise de France, qui exerçait un magistère moral sur le Carmel français.</p>
           <p>Les lettres circulaires, envoyées à tous les monastères à chaque décès d’une religieuse, contribuaient à maintenir un esprit commun dans l’ordre.</p>
         </div>
-        <div>
+        <div xml:id="r1192667">
           <head rend="uc">Chapitre II
            <lb/>Les laïcs et le carmel parisien : fréquentation des monastères</head>
           <p>Au XVII’ siècle, les monastères parisiens exercèrent un puissant attrait sur l’élite de la société parisienne. Les contemporains ont ironisé sur le nombre des visites au parloir. Pendant la première moitié du siècle, le Grand Couvent y attira les reines et, à leur suite, toute la cour. Il en fut plus tard de même pour le monastère de la rue du Bouloi, fondation royale. Un certain nombre de généreuses séculières obtinrent des brefs, malgré l’opposition des religieuses, pour entrer et séjourner en clôture, participer aux exercices de la communauté. Au XVIII’ siècle, ces bienfaitrices sont un précieux soutien matériel pour les <pb source="https://nakala.fr/10.34847/nkl.54e58zj1#8b86372ba0a5247e6b49a47d6cb1ef9de05e3424" n="149" facs="https://api.nakala.fr/iiif/10.34847/nkl.54e58zj1/8b86372ba0a5247e6b49a47d6cb1ef9de05e3424/full/full/0/default.jpg"/>monastères, car elles prennent à leur charge l’entretien des appartements qu’elles occupent, dotent des postulantes pauvres, aident de leurs libéralités les maisons au temporel fragilisé.</p>
@@ -160,7 +158,7 @@
           <p>A tous ceux et celles qui fréquentaient leurs parloirs, les carmélites donnaient l’exemple de leur sacrifice, recommandaient la pratique de l’oraison mentale et la lecture des livres de piété. Elles exerçaient par la qualité de leur vie religieuse une sorte d’apostolat indirect.</p>
           <p>Toutefois cette fréquentation du monde n’était pas sans risques. Elle est l’une des raisons de l’infiltration des thèses jansénistes au monastère du faubourg Saint-Jacques dès la fin du XVII’ siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1192696">
           <head rend="uc">Chapitre III
            <lb/>Les trois monastères dans le paysage religieux parisien</head>
           <p>Les carmélites apportèrent une note particulière dans le concert religieux de leur époque. Leurs sanctuaires, richement ornés, accueillaient le peuple parisien à l’occasion de nombreuses cérémonies, processions, expositions de reliques, prédications.</p>
@@ -168,16 +166,16 @@
           <p>Les stations d’Avent et de Carême amenaient chaque année les prédicateurs les plus divers, séculiers représentant tous les degrés de la hiérarchie, réguliers de toutes observances. Entre 1661 et 1704, on se pressait dans l’église des Grandes Carmélites pour entendre les prédicateurs les plus célèbres. Bossuet y prêcha plusieurs fois.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1192721">
         <pb source="https://nakala.fr/10.34847/nkl.54e58zj1#5c775b71d7d40eccf5cdb1e1af7b1a1ba9797110" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.54e58zj1/5c775b71d7d40eccf5cdb1e1af7b1a1ba9797110/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Si l’on peut, en définitive, apprécier de diverses manières la contribution des carmélites parisiennes à la vie de l’Eglise, on retiendra surtout qu’en deux siècles, de nombreuses religieuses se sanctifièrent dans l’exercice de cette double charité : l’amour de Dieu et la prière pour le salut des âmes, dans le recueillement et l’oubli du siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1192736">
         <head rend="uc">Pièces justificatives</head>
         <p>Lettres de Mlle d’Epernon à la mère Marie de Jésus, ancienne prieure du Grand Couvent (1648). – Contrats d’entrée en religion aux monastères du faubourg Saint-Jacques et de la rue Chapon (<num>xvii<hi rend="sup">e</hi></num> siècle). – Devis des ouvrages de peinture et dorure pour l’église des carmélites de la rue Chapon (1688).</p>
       </div>
-      <div>
+      <div xml:id="r1192752">
         <head rend="uc">Annexes</head>
         <p>Listes des religieuses des monastères de la rue Chapon et de la rue de Grenelle. – Listes des prieures des trois monastères. – Lettre circulaire d’une carmélite du monastère de la rue de Grenelle (<num>xviii<hi rend="sup">e</hi></num> siècle).</p>
       </div>

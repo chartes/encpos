@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -66,15 +64,15 @@
          <lb/>le milieu historique et littéraire</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r783581">
         <head rend="uc">Première partie
          <lb/>Vasque de Lucène</head>
-        <div>
+        <div xml:id="r783589">
           <head rend="uc">Chapitre premier
            <lb/>la vie de Vasque de Lucène.</head>
           <p>Né vers 1435 au diocèse de Coïmbre, Vasque de Lucène étudia à Cologne, puis à Paris, en compagnie de son frère, Fernand, avant d’être attiré à la cour de Bourgogne par la duchesse Isabelle. C’est à Fernand, non à Vasque, qu’il faut attribuer le <hi rend="i">Triumphe des dames</hi> et la <hi rend="i">Chaiere d’honneur.</hi> Vasque ne doit pas être confondu avec le docteur Vasco Fernandez, comte de Lucena. Sa première traduction, les <hi rend="i">Faiz d’Alexandre, </hi>de Quinte-Curce (1468), lui fut inspirée par Isabelle, qu’il servait comme échanson. La duchesse était alors retirée au château de Nieppe. Vasque y invitait Charles le Téméraire à la croisade. Le <hi rend="i">Traitté des faiz et haultes prouesses de Cyrus</hi> (1470) fut traduit sur l’ordre du prince. Échanson de Marguerite d’York, conseiller ducal, ambassadeur, Vasque de Lucène partagea la vie de la cour. Il mourut le 31 décembre 1512.</p>
         </div>
-        <div>
+        <div xml:id="r783617">
           <pb source="https://nakala.fr/10.34847/nkl.400d32k0#ba117856ab107bb34d8f84726580455e9801a0dd" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.400d32k0/ba117856ab107bb34d8f84726580455e9801a0dd/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le prologue
@@ -85,21 +83,21 @@
           <p><hi rend="i">De l’idéal chevaleresque au mythe du héros.</hi> – Parfait chevalier, Charles le Téméraire se doit d’imiter les exploits de Cyrus.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r783659">
         <head rend="uc">Deuxième partie
          <lb/>Le modèle de Vasque de Lucène :
          <lb/>l’« Institutio Cyri » du Pogge</head>
-        <div>
+        <div xml:id="r783669">
           <head rend="uc">Chapitre premier
            <lb/>le Pogge traducteur de Xénophon.</head>
           <p>Le Pogge, lorsqu’il traduisit la <hi rend="i">Cyropédie,</hi> à l’exhortation du futur pape Nicolas V, avait une formation d’helléniste tardive et précaire. Plutôt que de traduire fidèlement Xénophon, il désirait faire œuvre de virtuosité personnelle.</p>
         </div>
-        <div>
+        <div xml:id="r783685">
           <head rend="uc">Chapitre II
            <lb/>La traduction du Pogge.</head>
           <p>Le Pogge a condensé en six livres les huit livres de Xénophon, en retranchant au texte grec et en l’abrégeant. Il n’en a pas toujours compris le vocabulaire ni la syntaxe. Fort admirée par les uns, sa traduction fut vivement blâmée par Philelphe, qui, à son tour, s’exerça à traduire la <hi rend="i">Cyropédie.</hi></p>
         </div>
-        <div>
+        <div xml:id="r783700">
           <pb source="https://nakala.fr/10.34847/nkl.400d32k0#1bf60475468a1d6f57e366a48b1817b84cac8858" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.400d32k0/1bf60475468a1d6f57e366a48b1817b84cac8858/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les manuscrits.</head>
@@ -108,25 +106,25 @@
           <p>3. <hi rend="i">La transmission du manuscrit à la cour de Bourgogne.</hi> – L’<hi rend="i">Institutio Cyri</hi> a pu être transmise à la cour de Bourgogne dès le règne de Philippe le Bon, soit par les humanistes italiens, soit par le roi d’Aragon, avec lequel le duc était en relations.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r783739">
         <head rend="uc">Troisième partie
          <lb/>La traduction de Vasque de Lucène</head>
-        <div>
+        <div xml:id="r783747">
           <head rend="uc">Chapitre premier
            <lb/>les principes du traducteur.</head>
           <p>Vasque s’était proposé de traduire mot à mot son modèle, tout en respectant les exigences du français.</p>
         </div>
-        <div>
+        <div xml:id="r783759">
           <head rend="uc">Chapitre II
            <lb/>Le vocabulaire.</head>
           <p>Vasque s’est efforcé d’adapter au langage du temps les mots techniques et d’interpréter les termes courants.</p>
         </div>
-        <div>
+        <div xml:id="r783771">
           <head rend="uc">Chapitre III
            <lb/>La syntaxe et le style.</head>
           <p>Évitant, dans l’ensemble, l’artifice du latinisme, Vasque a développé l’expression selon les habitudes de la langue française.</p>
         </div>
-        <div>
+        <div xml:id="r783783">
           <head rend="uc">Conclusion
            <lb/>l’humanisme de Vasque de Lucène.</head>
           <p>Bien que le but de l’auteur, selon la tradition du moyen âge, fût avant tout moralisateur, l’œuvre de Vasque de Lucène témoigne d’un esprit nouveau : il s’efforce parfois de comprendre ce qui sépare son temps de l’antiquité.</p>
@@ -138,26 +136,26 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r783812">
         <head rend="uc">Quatrième partie
          <lb/>Introduction a l’édition</head>
-        <div>
+        <div xml:id="r783820">
           <head rend="uc">Chapitre premier
            <lb/>description des manuscrits.</head>
           <p>Le <hi rend="i">Traitté des faiz et haultes prouesses de Cyrus</hi> nous a été conservé dans sept manuscrits ; six d’entre eux sont magnifiquement enluminés.</p>
         </div>
-        <div>
+        <div xml:id="r783836">
           <head rend="uc">Chapitre II
            <lb/>Le manuscrit de base.</head>
           <p>L’exemplaire personnel de Charles le Téméraire doit être considéré comme perdu. Le ms. fr. 9736 de la Bibliothèque nationale de Paris, non enluminé, qui porte de nombreuses corrections et qui donne la leçon la meilleure et la plus complète, a pu être un modèle d’atelier.</p>
         </div>
-        <div>
+        <div xml:id="r783848">
           <head rend="uc">Chapitre III
            <lb/>Raisons du choix des livres I et V.</head>
           <p>Le premier livre peut être envisagé comme un « art de chevalerie ». Le livre V montre le héros en action.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r783861">
         <head rend="uc">Édition</head>
         <div>
           <head rend="uc">Prologue. – Livres I et V.</head>
@@ -172,7 +170,7 @@
         <head rend="uc">Index des noms propres</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r783895">
         <head rend="uc">Appendice</head>
         <div>
           <head rend="uc">Le manuscrit d’iéna.</head>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1940_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1940_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,11 +57,11 @@
         <surname>Terroine</surname>
         <roleName>Licenciée ès lettres, Diplômée de l’École des Langues orientales vivantes</roleName>
       </byline>
-      <div>
+      <div xml:id="r609975">
         <head rend="uc">Introduction</head>
         <p>Le présent travail, dans sa conception primitive, se proposait d’étudier les multiples activités de la bourgeoisie parisienne ; il a été volontairement réduit à examiner son origine géographique, sa condition juridique, sa fortune foncière et ses rapports avec l’Église.</p>
       </div>
-      <div>
+      <div xml:id="r609985">
         <head rend="uc">Étude des sources</head>
         <p>Les archives de la bourgeoisie ont entièrement disparu et nous ne possédons plus ni cartulaire ni pièces isolées. Il semble, toutefois, qu’il faille attribuer à l’initiative d’un bourgeois un cartulaire classé dans le fonds de Saint-Magloire, sous la cote LL 40. Essai de démonstration. Les documents que nous possé<pb source="https://nakala.fr/10.34847/nkl.6ff5e8j4#809c4fc333b2665176e68a13aaed51e31bdba60e" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ff5e8j4/809c4fc333b2665176e68a13aaed51e31bdba60e/full/full/0/default.jpg"/>dons se rapportent uniquement à des transactions de caractère perpétuel concernant la fortune immobilière. Ils ne doivent pas nous faire oublier les titres de nature temporaire relatifs aux biens meubles qui furent sans doute beaucoup plus nombreux.</p>
       </div>
@@ -72,20 +70,20 @@
          <lb/>imprimées</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r610011">
         <head rend="uc">Première partie
          <lb/>L’origine de la population</head>
-        <div>
+        <div xml:id="r610019">
           <head rend="uc">Chapitre premier
            <lb/>la bourgeoisie indigène.</head>
           <p>La plupart des grands lignages sont depuis longtemps fixés à Paris et la haute bourgeoisie se renouvelle peu. On peut en dire de même de beaucoup de familles d’artisans, comme le prouvent quelques exemples empruntés aux documents fournis par le fonds du Temple.</p>
         </div>
-        <div>
+        <div xml:id="r610031">
           <head rend="uc">Chapitre II
            <lb/>L’émigration provinciale.</head>
           <p>L’émigration provinciale est très difficile à étudier, car nous n’avons pas de renseignements directs. Après discussion, nous estimons qu’il est possible de <pb source="https://nakala.fr/10.34847/nkl.6ff5e8j4#ec4487d5743e7957d5b8ce60e083691d30deb7ef" n="109" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ff5e8j4/ec4487d5743e7957d5b8ce60e083691d30deb7ef/full/full/0/default.jpg"/>se fier, dans certaines conditions, au témoignage du patronyme d’origine. L’émigration dans les environs de Paris se fait par transplantation totale ou par lente compénétration. Des familles de Saint-Denis, les Augier et les Pocheron, en sont les vivants exemples.</p>
         </div>
-        <div>
+        <div xml:id="r610048">
           <head rend="uc">Chapitre III
            <lb/>Deux types d’émigration provinciale.
            <lb/>Bretons et normands.</head>
@@ -94,7 +92,7 @@
           <p>En conclusion, il y a afflux vers Paris de gens venus de l’Ouest et du Nord. Peu de rapports, au contraire, avec l’Est et le Midi. Mais, quelle que soit leur origine, les émigrés demeurent la plupart du temps en relation avec le pays natal.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r610069">
         <head rend="uc">Deuxième partie
          <lb/>La condition juridique
          <lb/>de la bourgeoisie parisienne.</head>
@@ -110,10 +108,10 @@
         <p>Les clercs majeurs ne font pas partie de la cité. Les clercs mineurs, mariés et marchands, sont considérés comme bourgeois et supportent les mêmes charges.</p>
         <p><hi rend="i">Conclusions.</hi> – Différences très minimes avec ce qu’on aperçoit dans les autres villes. Quant aux avantages personnels qui devaient faire de la bourgeoisie parisienne une classe privilégiée, ils ne datent guère que de la fin du <num>xiv<hi rend="sup">e</hi></num> siècle. C’est avec une grande lenteur qu’elle s’est peu à peu différenciée des autres <pb source="https://nakala.fr/10.34847/nkl.6ff5e8j4#d82042e67ce37d418643aa09d3e2cee46b369f91" n="112" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ff5e8j4/d82042e67ce37d418643aa09d3e2cee46b369f91/full/full/0/default.jpg"/> classes pour se constituer en un corps nettement défini, doté d’avantages spéciaux et supportant des charges propres.</p>
       </div>
-      <div>
+      <div xml:id="r610166">
         <head rend="uc">Troisième partie
          <lb/>L’expansion en Ile-de-France</head>
-        <div>
+        <div xml:id="r610174">
           <head rend="uc">Chapitre premier
            <lb/>la conquête du sol.</head>
           <p>I. <hi rend="i">Le mouvement des aliénations.</hi> – a) <hi rend="i">Les vendeurs.</hi> – La noblesse aliène ses fiefs par des ventes massives. Elle est remplacée par la bourgeoisie dans la hiérarchie féodale. Le clergé pratique le bail à cens, aliénation partielle de la propriété, et ne concède que des parcelles assez peu étendues. Les paysans abandonnent leurs tenures aux bourgeois, qui procèdent à des regroupements.</p>
@@ -124,7 +122,7 @@
           <p>Exemples du second cas : les efforts de Robert le Vinetier à Thiais et à Choisy pour se constituer un domaine d’un seul tenant, en remembrant des parcelles achetées à des paysans.</p>
           <p>III. <hi rend="i">Historique de l’expansion bourgeoise.</hi> – ■ Elle commence de très bonne heure, dès le milieu du <num>xii<hi rend="sup">e</hi></num> siècle. Très importante à l’époque de Philippe-Auguste, en recul sous les règnes de saint Louis et de Philippe III, elle prend un élan définitif avec Philippe le Bel. Cette courbe s’explique par le fait que les gros acheteurs sont les bourgeois au service du prince, qui, déjà fort considérés sous Philippe-Auguste, prennent avec Philippe le Bel une influence prépondérante dans le gouvernement.</p>
         </div>
-        <div>
+        <div xml:id="r610245">
           <pb source="https://nakala.fr/10.34847/nkl.6ff5e8j4#d897c4872a41dcfb5571927267770057d8f3d22e" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ff5e8j4/d897c4872a41dcfb5571927267770057d8f3d22e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La propriété bourgeoise et son exploitation.</head>
@@ -135,16 +133,16 @@
           <p><hi rend="i">Description du domaine.</hi> – Quelques exemples, notamment celui du manoir de Geoffroy Coquatrix à Cachan.</p>
           <p><hi rend="i">U exploitation.</hi> – Le faire-valoir direct est rare, bien qu’on trouve quelques maires. En général, on emploie le système du bail. Le bail perpétuel avec <pb source="https://nakala.fr/10.34847/nkl.6ff5e8j4#92813e7c8062ec790f1260dbe83f05b86ddd84ab" n="115" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ff5e8j4/92813e7c8062ec790f1260dbe83f05b86ddd84ab/full/full/0/default.jpg"/>aliénation de la propriété (bail à rente) est peu utilisé par la bourgeoisie parisienne. Elle lui préfère les baux temporaires : baux à ferme pour les terres et métayage pour les vignes. Il est impossible de savoir dans quelle mesure la bourgeoisie a exercé une influence sur l’exploitation agricole.</p>
         </div>
-        <div>
+        <div xml:id="r610300">
           <head rend="uc">Chapitre III
            <lb/>Le prêt agricole.</head>
           <p>La bourgeoisie place son argent en prêtant aux campagnards. On a de ce prêt agricole un exemple remontant au <num>xii<hi rend="sup">e</hi></num> siècle. C’est au même motif qu’elle obéit en finançant très probablement les affranchissements de la région parisienne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r610319">
         <head rend="uc">Quatrième partie
          <lb/>La bourgeoisie et l’église</head>
-        <div>
+        <div xml:id="r610327">
           <head rend="uc">I. La bourgeoisie dans l’église</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -159,7 +157,7 @@
             <p>Moines et moniales d’origine bourgeoise parviennent aux plus hautes fonctions (exemple de Renaud-Giffard, abbé de Saint-Denis).</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r610369">
           <head rend="uc">II. La bourgeoisie hors de l’église</head>
           <div>
             <head rend="uc">Chapitre premier</head>
@@ -174,11 +172,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r610411">
         <head rend="uc">Conclusion</head>
         <p>Une conclusion générale ressort peut-être moins des quelques points que nous avons dû nous borner à examiner ici que de l’ensemble de nos dépouillements. A aucun des points de vue, auxquels nous nous sommes placés pour l’étudier, la bourgeoisie parisienne ne présente d’originalité. Seul, le peuplement doit un instant retenir notre attention, car, à la différence des autres villes, la population se recrute bien au delà des limites de la banlieue, en province, voire même à l’étranger. L’activité commerciale reste faible, étroitement limitée au marché local ; l’industrie est presque inexistante. Aussi saisit-on à peine cette opposition entre une  masse d’artisans et quelques gros marchands, non point que les bourgeois n’aient réussi à amasser des richesses considérables, mais elles n’ont pas leur source dans le commerce, moins encore dans l’industrie. L’intérêt que présente la bourgeoisie parisienne est ailleurs. Née <pb source="https://nakala.fr/10.34847/nkl.6ff5e8j4#036e57bec7a704f537c45a4e9e1f8214d24f199d" n="118" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ff5e8j4/036e57bec7a704f537c45a4e9e1f8214d24f199d/full/full/0/default.jpg"/>des efforts du roi, au service duquel elle devait dépenser le meilleur de ses forces, c’est au roi qu’elle doit sa fortune et son unique originalité provient de cette liaison intime et constante avec la royauté à qui elle devait son existence.</p>
       </div>
-      <div>
+      <div xml:id="r610426">
         <head rend="uc">Appendices</head>
         <div>
           <head rend="uc">Notice et Analyse du cartulaire LL 40 de

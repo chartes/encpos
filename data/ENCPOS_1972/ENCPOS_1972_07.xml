@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1972_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1972_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,21 +57,21 @@
         <surname>Guyot-Ledoux</surname>
       </byline>
       <p>Le Nivernais, et, plus particulièrement la région d’entre Loire-et-Allier, a été choisi pour l’intérêt que présente l’étude des conditions agricoles d’une région peu favorisée. On a insisté particulièrement sur les aspects économiques, car ils possèdent plus d’originalité que les caractères sociaux dans cette région.</p>
-      <div>
+      <div xml:id="r954136">
         <head rend="uc">Introduction
          <lb/>le cadre historique et géographique</head>
         <p>Le Nivernais est un pays coutumier qui se trouve dans le ressort du Parlement de Paris et fait partie de la généralité de Moulins. La seigneurie de Saint-Parize-le-Châtel est connue depuis le <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         <p>Saint-Parize-le-Châtel est situé dans le pays d’entre Loire et Allier, au sud de Nevers. Cette paroisse présente un paysage diversifié. Les possibilités de culture y sont peu favorables aux céréales, les sols argileux de cette région se prêtant mieux aux prairies.</p>
       </div>
-      <div>
+      <div xml:id="r954157">
         <pb source="https://nakala.fr/10.34847/nkl.5bc96188#54071069d79d7bd23fac4bf5c31a72db9bddb0c8" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.5bc96188/54071069d79d7bd23fac4bf5c31a72db9bddb0c8/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Les principales sources d’archives proviennent des Archives départementales de la Nièvre ; les documents dont il a été tiré le plus de profit sont les minutes de notaires, les terriers et les registres paroissiaux. On a pu aussi prendre connaissance des archives privées du château de la Chasseigne, qui appartient à M. le comte de Montrichard ; elles sont d’un grand intérêt car elles décrivent les détails de gestion des exploitations agricoles dépendant de la seigneurie de la Chasseigne.</p>
       </div>
-      <div>
+      <div xml:id="r954172">
         <head rend="uc">Première partie
          <lb/>Les cadres de la vie rurale</head>
-        <div>
+        <div xml:id="r954180">
           <head rend="uc">Chapitre premier
            <lb/>le cadre seigneurial</head>
           <p><hi rend="i">Les seigneuries.</hi> – La principale seigneurie est celle de Saint-Parize-le-Châtel, dont la justice couvre presque toute l’étendue de la paroisse. Les seigneurs, au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle, en sont Germain-Joseph de Pagani jusqu’en 1750, puis Pierre Girard de Vannes. Tous deux sont issus de familles anoblies aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles. Les autres seigneuries importantes sont celles de la Chasseigne, de Soultrait et de Villars, qui appartiennent respectivement à Gilbert Flamen de Coudray, aux frères Richard de Soultrait et à François-Marie de Forestier.</p>
@@ -81,7 +79,7 @@
           <p><hi rend="i">Les droits d’usage et les communaux.</hi> – Les droits d’usage et les communaux sont très importants pour les habitants de Saint-Parize qui élèvent du bétail. Les bois d’usage sont constitués par le censif de Grand et Petit Bour, actuel bois de Bord ; le seigneur perçoit pour ce droit un cens de trois deniers <pb source="https://nakala.fr/10.34847/nkl.5bc96188#2e3ce775ce5f611832ecd159bc04758e03d2635d" n="57" facs="https://api.nakala.fr/iiif/10.34847/nkl.5bc96188/2e3ce775ce5f611832ecd159bc04758e03d2635d/full/full/0/default.jpg"/>par feu. La vaine pâture se pratique, mais la coutume du Nivernais octroie la permission de clore les prés ; ainsi les effets de la vaine pâture sont-ils atténués.</p>
           <p><hi rend="i">Les dîmes.</hi> – Le principal décimateur de la paroisse de Saint-Parize-le-Châtel est le chapitre de la cathédrale Saint-Cyr de Nevers. Le problème de la quotité de la dîme reste posé.</p>
         </div>
-        <div>
+        <div xml:id="r954242">
           <head rend="uc">Chapitre II
            <lb/>La répartition de la propriété</head>
           <p>A côté des domaines utiles des seigneurs, qui sont peu étendus pour la plupart, les censives forment la plus grande masse des propriétés.</p>
@@ -90,7 +88,7 @@
           <p><hi rend="i">Les autres propriétés.</hi> – Les officiers du présidial de Saint-Pierre-le-Moûtier possèdent d’importants domaines à Saint-Parize-le-Châtel où ils ont leur maison de campagne. Absents la plupart du temps, ils confient l’exploitation de leurs terres à un régisseur. On trouve encore à Saint-Parize des parcelles qui ne relèvent d’aucun seigneur ; ce sont des alleux ou des censives dont la redevance restée impayée a été prescrite. H existe aussi de petits fiefs tenus par des roturiers, qui consistent en une maison ou en une ou deux parcelles de terre.</p>
           <p>Les modes de possession des terres sont donc variés et le morcellement de la propriété est grand.</p>
         </div>
-        <div>
+        <div xml:id="r954278">
           <head rend="uc">Chapitre III
            <lb/>Les cadres de l’exploitation du sol</head>
           <p><hi rend="i">Les cadres juridiques de l’exploitation du sol.</hi> – Le fermage est pratiqué à Saint-Parize dans les seigneuries mises en régie et baillées à des marchands fermiers étrangers à la paroisse. De petites propriétés sont aussi données à ferme <pb source="https://nakala.fr/10.34847/nkl.5bc96188#2db64c6723d96438b865bde6a1e2e5c525e26069" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.5bc96188/2db64c6723d96438b865bde6a1e2e5c525e26069/full/full/0/default.jpg"/>sous le nom d’« accenses » ; elles sont prises par les paysans pauvres car leur prix est modique.</p>
@@ -100,10 +98,10 @@
           <p>Ces diverses exploitations comportent donc de grandes différences, tant sur le plan juridique sur sur le plan agricole. La rigidité du système du métayage entraîne de nombreuses difficultés pour le tenancier et empêche tout progrès.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r954314">
         <head rend="uc">Deuxième partie
          <lb/>Les hommes et leurs travaux</head>
-        <div>
+        <div xml:id="r954322">
           <head rend="uc">Chapitre premier
            <lb/>les hommes</head>
           <p>La population de Saint-Parize-le-Châtel s’élève, au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle, à environ six cent cinquante personnes réparties en cent cinquante feux.</p>
@@ -112,7 +110,7 @@
           <p><hi rend="i">Essai de démographie.</hi> – On constate à Saint-Parize une stagnation de la population, le nombre des baptêmes étant à peu près égal au nombre des sépultures. Des périodes de crise se dessinent surtout entre 1747 et 1750, alors qu’une renaissance s’opère entre 1752 et 1757.</p>
           <p><hi rend="i">Les communautés taisibles.</hi> – La persistance au <num>xviii<hi rend="sup">e</hi></num> siècle de communautés taisibles à Saint-Parize constitue une originalité de la société de cette paroisse. Les communautés taisibles sont des associations tacites, familiales la plupart du temps. La vie au même pot et au même feu pendant un an et un jour suffit à la formation de la communauté. Placée sous l’autorité du maître et chef de communauté, cette association comprend des membres, les parsonniers, qui mettent tous leurs biens en commun. Pour entrer dans la communauté par le mariage, on donne une dot portant le nom de « droit de communauté » ; presque tous les contrats de mariage portent cette clause. Les communautés taisibles sont très nombreuses à Saint-Parize ; ce sont surtout de petites communautés familiales qui regroupent le père, ses fils et ses gendres. Mais on trouve aussi de grandes communautés qui conservent une puissance considérable. Cependant les communautés que l’on rencontre au <num>xviii<hi rend="sup">e</hi></num> siècle sont en déclin ; elles sont dépourvues de l’influence sociale qu’elles pouvaient exercer aux siècles précédents.</p>
         </div>
-        <div>
+        <div xml:id="r954378">
           <head rend="uc">Chapitre II
            <lb/>Le domaine et son exploitation</head>
           <p><hi rend="i">Le métayer et le domaine.</hi> – Le métayer est un laboureur ; quelquefois c’est une petite communauté taisible qui se trouve à la tête d’un domaine. Le métayer est assez pauvre et connaît de nombreuses difficultés financières. Obligé de demander au propriétaire du domaine des avances d’argent et de grain, il s’endette peu à peu et se trouve incapable de rembourser. Il doit alors passer devant notaire une obligation en faveur du propriétaire, qui monte parfois jusqu’à plus de mille livres. Il lui arrive même d’aller jusqu’à céder la part de récolte qui lui revient, ce qui le libère de sa dette mais aggrave encore sa situation. Pourtant le domaine lui offre des possibilités de culture qui peuvent paraître avantageuses.</p>
@@ -122,7 +120,7 @@
           <p>Les rendements connus dans d’autres domaines se rapprochent de ceux de Saillant. Ils sont au grain trois pour les gros blés (7,5 hectolitres à l’hectare) et au grain cinq pour les petits blés (12,5 hectolitres à l’hectare).</p>
           <p><hi rend="i">Le prix du blé.</hi> – La mercuriale de Nevers donne des indications sur le prix des blés qui subit des variations saisonnières au cours de l’année : les prix montent en juin et juillet pour assurer la soudure avec la récolte suivante. Entre 1730 et 1760, le prix du froment s’élève de cent à cent soixante-dix livres pour un hectolitre.</p>
         </div>
-        <div>
+        <div xml:id="r954419">
           <head rend="uc">Chapitre III
            <lb/>Les « accenses » et leur exploitation</head>
           <p>Les « accenses » peuvent être assimilées aux petites propriétés particulières car elles ont les mêmes caractéristiques, et souvent une « accense » est prise par un petit propriétaire pour accroître la surface dont il dispose pour la culture.</p>
@@ -132,7 +130,7 @@
           <p><hi rend="i">Les jardins et les vergers.</hi> – Il existe des baux à façon de jardin pour le potager du château de la Chasseigne. Ces baux comprennent aussi l’octroi d’une « accense ». Le jardinier est rémunéré pour son travail. Les légumes cultivés sont surtout des pois, fèves et haricots, des choux et des navets. L’entretien des vergers comprend la taille des arbres, le nettoyage des haies et des allées. Les fruits recueillis sont partagés à part égale entre le tenancier et le propriétaire.</p>
           <p>Les conditions d’existence du manœuvre sont précaires, car il ne peut compter que sur son travail et est assujetti aux nécessités climatiques et économiques. Le sort du vigneron semble plus enviable, car il est payé quel que soit le résultat de son ouvrage.</p>
         </div>
-        <div>
+        <div xml:id="r954463">
           <head rend="uc">Chapitre IV
            <lb/>L’élevage</head>
           <p><hi rend="i">Les baux à cheptel.</hi> – Le bétail est fourni au métayer, ou au tenancier de l’« accense », par un bail à cheptel à moitié croît et profit, qui est octroyé par le propriétaire des terres, ou bien par un simple bail à cheptel, qui ne lie pas les bêtes à l’exploitation d’un fonds. Ce bail comporte un partage du croît et profit du bétail au cours du bail et à son expiration. Les bêtes fournies sont estimées à la conclusion du bail à cheptel. Pour un domaine, le cheptel peut s’élever jusqu’à deux mille livres ; il est de l’ordre de cinq cent livres pour une « accense » et cinquante à soixante-dix livres pour un petit propriétaire.</p>
@@ -142,7 +140,7 @@
           <p><hi rend="i">La pratique de l’élevage à Saint-Parize-le-Châtel.</hi> – Nous sommes bien renseignés sur les ventes de bétail du domaine de Saillant. Le profit des ventes est partagé entre le métayer et le seigneur de la Chasseigne, propriétaire du domaine, et procure au métayer un revenu moyen de cent quatre-vingt livres par an. Les ventes de bétail ont lieu surtout dans les foires et les marchés de Nevers et de la région.</p>
           <p>Les progrès de l’élevage sont importants au <num>xviii<hi rend="sup">e</hi></num> siècle, mais le grand développement de l’élevage dans cette région ne se fera qu’après la Révolution.</p>
         </div>
-        <div>
+        <div xml:id="r954534">
           <head rend="uc">Chapitre V
            <lb/>Les autres activités rurales</head>
           <p><hi rend="i">L’exploitation des bois et des étangs.</hi> – Les bois et les étangs sont mis en valeur par les seigneurs auxquels ils appartiennent. Les coupes de bois et les poissons des étangs sont vendus à des marchands.</p>
@@ -151,7 +149,7 @@
           <p><hi rend="i">Les industries rurales.</hi> – Des minières on extrait du minerai de fer qui est lavé puis traité dans les paroisses voisines. La tuilerie de la Chasseigne produit des tuiles, des briques, des carreaux et de la chaux. Ces activités ont une importance locale, elles suffisent aux besoins de la paroisse et des paroisses voisines sans dépasser ce cadre régional.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r954572">
         <pb source="https://nakala.fr/10.34847/nkl.5bc96188#0808a806c69a96a57ef388a8b61dfcd99413aad3" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.5bc96188/0808a806c69a96a57ef388a8b61dfcd99413aad3/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>La vie rurale au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle reste difficile pour le paysan ; ses récoltes sont médiocres, ses profits très faibles. La persistance de caractères archaïques, du métayage en particulier, vient aggraver cette situation. Le seul espoir d’amélioration réside dans une transformation de l’économie qui conduise à adopter le système du fermage dans les grandes exploitations et à développer l’élevage intensif.</p>

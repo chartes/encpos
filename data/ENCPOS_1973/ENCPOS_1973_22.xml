@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1973_22" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1973_22" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -54,7 +52,7 @@
         <surname>Parent</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r975854">
         <head rend="uc">Introduction</head>
         <p>Pour comprendre la production imprimée du <num>xvi<hi rend="sup">e</hi></num> siècle à Paris (quelque vingt-cinq mille éditions) il apparaît nécessaire de savoir comment les livres furent faits, dans quel milieu ils furent imprimés et dans quel public ils furent diffusés. Nous avons tenté de rassembler et de présenter tous les documents qui, au Minutier central des notaires parisiens, permettent de connaître les rapports entre auteurs et imprimeurs, les problèmes techniques de la fabrication du livre depuis l’achat du papier jusqu’à l’impression définitive, l’organisation du commerce, à Paris, en province et à l’étranger.</p>
         <p>Il convenait également d’étudier origines, fortunes et alliances des gens du livre ; ils forment un groupe social particulier dont la grève de 1539 révèle tensions et conflits.</p>
@@ -63,7 +61,7 @@
         <p>Deux grandes catégories de lecteurs se dégagent : les milieux de la cour et les cercles bourgeois de l’humanisme. Seul le livre de liturgie, très largement diffusé, dépasse ce public restreint.</p>
         <p>L’étude de l’évolution parallèle de l’édition et des mouvements intellectuels atteste l’importance prise, à Paris, par le phénomène du livre dans la période 1535-1560.</p>
       </div>
-      <div>
+      <div xml:id="r975885">
         <pb source="https://nakala.fr/10.34847/nkl.ea9bh405#d19aec2f08013844adddf86102ca5eb46691320e" n="154" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea9bh405/d19aec2f08013844adddf86102ca5eb46691320e/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>L’exercice du métier</head>
@@ -80,31 +78,31 @@
         <p><hi rend="i">La diffusion du livre.</hi> – La plupart des libraires parisiens, seuls ou en association, se limitent au marché local. Quelques grands marchands libraires, disposant d’un réseau commercial étendu, vont au-devant d’une clientèle rare et dispersée et prennent une part active au commerce national et international. Les Regnault vendent des livres en Champagne, Lorraine et Normandie et à partir de Rouen, exportent vers l’Angleterre, l’Espagne et Anvers. Les Petit ont des comptoirs à Caen, Rouen, Tours, Clermont et Moulins, mais sont surtout actifs à Lyon et Toulouse ; à l’extérieur leur commerce est essentiellement tourné vers la Flandre. D’autres marchands se sont spécialisés dans les relations avec les pays germaniques : les Estienne, les Dupuys, les Wechel sont parmi les premiers Français à fréquenter les foires de Francfort.</p>
         <p>Michel de Vascosan semble avoir particulièrement développé son commerce : disposant d’une succursale à Toulouse, il achète des livres à Venise et établit un correspondant à Anvers. Lyon, Venise, Bâle et bientôt Genève et Anvers sont de redoutables concurrents, aussi le grand commerce du livre se concentre-t-il entre les mains des membres les plus puissants de la profession.</p>
       </div>
-      <div>
+      <div xml:id="r975961">
         <head rend="uc">Deuxième partie
          <lb/>Le groupe social</head>
         <p><hi rend="i">L’implantation.</hi> – Cinq à six cents personnes vivent dans le quartier de l’Université, rue Saint-Jean-de-Beauvais ou rue Saint-Jean-de-Latran et surtout rue Saint-Jacques, artère centrale du quartier. Les libraires, voulant se rapprocher du public des gens du roi et du Parlement, s’installent sur les ponts et dans la Cité, où le Palais apparaît comme un haut lieu du commerce du livre.</p>
         <p><hi rend="i">Les débuts dans le métier.</hi> – La majorité des apprentis viennent de province, Loiret, Champagne, Beauvaisis, Bretagne ou Normandie. Le recrutement social est assez ouvert mais dans l’ensemble modeste ; un quart sont originaires des <pb source="https://nakala.fr/10.34847/nkl.ea9bh405#b7127bbe3dda865227ac7db01c3ae964836ff18a" n="156" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea9bh405/b7127bbe3dda865227ac7db01c3ae964836ff18a/full/full/0/default.jpg"/>métiers du livre. L’apprentissage, qui se fait entre onze et vingt ans, dure de trois à quatre ans. L’apprenti, payé en nature, peut recevoir une somme d’argent, soit à la fin du temps, soit au fur et à mesure. Le compagnon s’engage pour une durée assez courte, un an le plus souvent. Subissant la concurrence des apprentis, il n’a guère de garantie d’emploi ni de salaire.</p>
         <p><hi rend="i">Les gens du livre : la hiérarchie de leurs fortunes.</hi> – Dans ce métier très ouvert, les chances sont fort inégales. Les plus modestes des gens du livre sont les compagnons, les imprimeurs des faubourgs et les libraires installés à la porte des collèges. Tailleurs de caractères, marchands imprimeurs ou libraires se situent à un niveau de fortune intermédiaire. Une dizaine de familles, qui possèdent à la fois maisons, propriétés rurales, rentes, matériel et marchandises, constituent l’aristocratie du métier : ce sont les imprimeurs et libraires humanistes, les Estienne et les Bade, les spécialistes du livre liturgique, Pierre Ricouart, Guillaume Godard et Guillaume Merlin, les libraires du Palais, tels Galliot Du Pré et les descendants des familles installées depuis le début du siècle, les Petit, les Regnault, les Kerver et les Vascosan et Wechel.</p>
       </div>
-      <div>
+      <div xml:id="r975993">
         <head rend="uc">Troisième partie
          <lb/>Dans la cité, trois marchands libraires</head>
         <p><hi rend="i">Un relieur du roi : Pierre Roffet.</hi> – Pierre Roffet, imprimeur libraire et relieur, s’est spécialisé dans le commerce du beau livre de liturgie ; son entreprise est prospère. A sa mort en 1537, sa veuve Jeanne Cassot a ouvert, au Palais, une succursale de la boutique du Faucheur.</p>
         <p><hi rend="i">Un grand marchand de livres de liturgie : Guillaume Godard.</hi> – Guillaume Godard, installé depuis 1510 sur le Pont-aux-Changes, possède, rue de la Vieille-Pelleterie, plusieurs maisons où il entrepose papiers et livres. A des marchands venus de toute la France, Tournai, Troyes, Limoges, Lyon, Toulouse, il vend en grandes quantités les livres d’heures qu’il a fait imprimer. L’étendue de son réseau commercial témoigne de la grande diffusion du livre liturgique.</p>
         <p><hi rend="i">Un marchand libraire du Palais : Galliot Du Pré.</hi> – Galliot Du Pré possède quarante mille volumes qu’il a fait imprimer lui-même ou a achetés à Paris ou à Lyon. Les livres de droit représentent près de la moitié de l’ensemble. Galliot Du Pré offre en outre à ses clients des œuvres des Pères de l’Église, des commentaires de textes sacrés, des livres de controverse antiluthérienne et des ouvrages d’inspiration évangélique. Livres d’histoire et de géographie, livres scientifiques, romans et poèmes, traductions de l’italien et de l’espagnol se partagent les faveurs du public de la Gallée d’Or.</p>
       </div>
-      <div>
+      <div xml:id="r976020">
         <pb source="https://nakala.fr/10.34847/nkl.ea9bh405#8d14078ad8eb1e13ad8f12c4b0b491d9c6703b44" n="157" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea9bh405/8d14078ad8eb1e13ad8f12c4b0b491d9c6703b44/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Les techniques de la fabrication du livre ont peu évolué depuis le <num>xv<hi rend="sup">e</hi></num> siècle. Le groupe social s’est étoffé et diversifié : le marchand libraire, qu’il soit spécialisé dans le livre liturgique ou qu’il attire sa clientèle par la diversité de sa boutique, tend à dominer le métier ; il prête du matériel de typographie ou d’illustration aux imprimeurs qu’il fait travailler ; il dispose d’un réseau commercial étendu, qui lui permet d’écouler facilement sa marchandise. L’étude des inventaires après décès de libraires permet de connaître l’étendue du public du livre d’heures et la diversité des goûts et des préoccupations du public du Palais.</p>
         <p>De 1535 à 1560, le livre, au service de la propagande et de la culture, atteint son apogée.</p>
       </div>
-      <div>
+      <div xml:id="r976044">
         <head rend="uc">Annexes et documents</head>
         <p>Graphique de la production imprimée à Paris et à Lyon au <num>xvi<hi rend="sup">e</hi></num> siècle. – Carte de l’édition européenne d’après les short-title catalogues. – Contrat entre Nicolas de Herberay et des libraires. – Humanisme et typographie : les Grecs du Roi. – Inventaire annoté de la boutique de Galliot Du Pré.</p>
       </div>
-      <div>
+      <div xml:id="r976060">
         <head rend="uc">Cartes</head>
         <p>La plupart des cartes concernent le commerce, l’origine géographique des apprentis, les propriétés rurales des marchands libraires.</p>
         <pb source="https://nakala.fr/10.34847/nkl.ea9bh405#63aaf611fec5d179e8ddfe2e0278ae82a3e36524" n="158" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea9bh405/63aaf611fec5d179e8ddfe2e0278ae82a3e36524/full/full/0/default.jpg"/>

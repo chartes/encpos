@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,23 +56,23 @@
         <surname>Germe</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1187972">
         <head rend="uc">Introduction</head>
         <p>Entre 1589 et 1594, trois agents apostoliques, les légats Enrico Caetani et Filippo Sega, le nonce Marsilio Landriano, séjournèrent en France. Si on connaît quelque peu leur action politique, on sait moins en revanche quelles furent leurs activités juridictionnelles et pastorales. Or, leur présence dans le royaume, caractéristique de l’assise religieuse de l’opposition à Henri IV, était d’autant plus significative que depuis le renforcement du pouvoir des ordinaires par le concile de Trente, la tradition des légations en France était quelque peu tombée en désuétude. Ainsi, parallèlement à des préoccupations politiques, qui consistaient principalement à obtenir l’accession au trône d’un roi catholique, les envoyés pontificaux déployèrent une activité religieuse considérable.</p>
         <p>Cette activité, rendue possible par l’attribution aux légats et aux nonces de bulles de facultés, qui leur donnaient des pouvoirs plus ou moins étendus en matière religieuse et juridictionnelle, se traduisit par l’établissement d’actes, des suppliques et des bulles. De l’étude de ces actes se dessine le tableau d’une France catholique troublée par les guerres, mais apparaissent également les limites à l’action des envoyés pontificaux.</p>
       </div>
-      <div>
+      <div xml:id="r1187985">
         <pb source="https://nakala.fr/10.34847/nkl.92a9c594#ade77e2b6aaba3765fe71283c288144c47333384" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.92a9c594/ade77e2b6aaba3765fe71283c288144c47333384/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Si l’activité religieuse d’Enrico Caetani n’est retraçable que grâce à des renseignements dispersés, sans aucun caractère systématique, ses deux successeurs ont laissé quatre registres de suppliques et de bulles, conservés aux Archives Vaticanes (Segreteria di Stato, Francia 33, 39, 40 et 41). L’établissement d’une base de données informatique et d’un thésaurus d’interrogation a permis l’étude quantitative des actes contenus dans ces registres.</p>
         <p>Par ailleurs, la correspondance des trois agents pontificaux est venue heureusement compléter les informations déjà obtenues.</p>
       </div>
-      <div>
+      <div xml:id="r1188003">
         <head rend="uc">Première partie
          <lb/>Légations et nonciatures :
          <lb/>cadre politique, moyens humains
          <lb/>et financiers</head>
-        <div>
+        <div xml:id="r1188015">
           <head rend="uc">Chapitre premier
            <lb/>le cadre politique et religieux</head>
           <p>Le premier des envoyés pontificaux en France, Enrico Caetani, quitta Rome le 2 octobre 1589 avec une mission essentiellement politique : il s’agissait de procurer au royaume de France un souverain catholique, de se placer entre les factions qui déchiraient le pays et de tenter d’y ramener paix et concorde. La personnalité du légat, cardinal et camerlingue de l’Église romaine, une suite nombreuse et prestigieuse, tout concourait à faire de cette légation une légation de prestige. La Ligue, d’ailleurs, plaçait dans cet envoyé bien des espoirs ; Enrico Caetani ne tarda pas à la contenter, en se rangeant résolument à ses côtés, et en venant s’installer à Paris, âme de l’Union. Le cardinal légat ne faiblit pas devant les rigueurs du siège de Paris et quitta la ville à la fin de septembre 1590, pour prendre part au conclave qui devait élire le successeur de Sixte-Quint. Il laissait un membre de sa légation, Filippo Sega, évêque de Plaisance, comme vice-légat.</p>
@@ -82,13 +80,13 @@
           <p>Filippo Sega, quand il fut nommé légat, séjournait depuis plus de deux ans dans le royaume. Il en connaissait par conséquent les tourments, les désordres et les ruines. De plus, comme disciple de saint Charles Borromée, il se montrait attaché à la discipline ecclésiastique et à l’application des décrets tridentins. Mais ce sont ses actions politiques qui furent les plus remarquées : tentatives réitérées d’intervention dans les Etats de la Ligue, dont il stipendiait certains députés. La <hi rend="i">Satire Ménippée</hi> ne manqua de railler à de nombreuses reprises ses velléités politiques, comme ses intentions religieuses. Après l’entrée d’Henri IV dans Paris, Sega se retira à Montargis, ville neutre, où il continua son action religieuse. Il ne regagna l’Italie qu’en novembre 1594.</p>
           <p>Les trois envoyés pontificaux exercèrent une activité religieuse et juridictionnelle grâce à leurs bulles de facultés. Celles-ci leur permettaient d’utiliser certains pouvoirs habituellement dévolus au pape. Ces facultés devaient être enregistrées par le parlement de Paris, et Caetani assista même, contre la coutume, à l’enregistrement de ses facultés. Caetani, Landriano et Sega bénéficièrent de facultés sensiblement égales, où apparaissaient cependant la diversité de leurs positions au sein de la hiérarchie ecclésiastique, et la volonté des différents souverains pontifes de privilégier ou non l’action politique. Chacun des trois pouvait connaître les causes dévolues au Saint-Siège en matière contentieuse ; déléguer leurs pouvoirs ; nommer aux bénéfices vacants, dont le revenu n’excédait pas une certaine somme ; dispenser d’empêchements au mariage (c’est Caetani qui disposait des facultés les plus restreintes en cette matière) ; accorder certaines permissions, dispenses et absolutions (pour homicide involontaire, apostasie, simonie, etc.) ; commuer des vœux ; concéder des indulgences ... De surcroît, Caetani et Sega, cardinaux et légats, par brefs distincts de la bulle de facultés générales, disposaient de la possibilité d’autoriser la lecture d’ouvrages inscrits à <hi rend="i">V Index,</hi> et d’absoudre les hérétiques repentis.</p>
         </div>
-        <div>
+        <div xml:id="r1188049">
           <head rend="uc">Chapitre II
            <lb/>Les moyens humains : suite et personnel des bureaux</head>
           <p>La légation d’Enrico Caetani différa de celles qui suivirent par sa magnificence et son importance, près de deux cent quarante personnes, parmi lesquelles le jésuite Bellarmin et le prédicateur Panigarole, les archevêques d’Aix et d’Avignon, l’évêque de Plaisance, Filippo Sega. La distinction entre membres de la <hi rend="i">famiglia,</hi> prélats, religieux, et le personnel de la chancellerie apparaissait nettement. A l’inverse, Landriano et Sega, dont l’entourage était beaucoup plus restreint (cinquante-cinq personnes pour Sega à l’automne 1592), employaient les ecclésiastiques de leur <hi rend="i">famiglia à</hi> des tâches de bureau.</p>
           <p>Chaque membre de l’entourage et des bureaux a fait l’objet d’une courte <pb source="https://nakala.fr/10.34847/nkl.92a9c594#febec1d8159ddd0dbd3ebcde24d4e4eea8599d77" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.92a9c594/febec1d8159ddd0dbd3ebcde24d4e4eea8599d77/full/full/0/default.jpg"/>notice biographique. Pour la majeure partie, ces hommes étaient Italiens, à l’exception des abréviateurs de la chancellerie, que la législation gallicane obligeait à être Français. De même, une partie de la domesticité fut recrutée en France.</p>
         </div>
-        <div>
+        <div xml:id="r1188077">
           <head rend="uc">Chapitre ni
            <lb/>les finances</head>
           <p>Le principal revenu des légations et nonciatures était constitué par l’allocation mensuelle délivrée par la Chambre apostolique et perçue par le biais des marchands banquiers italiens possédant des succursales à Lyon. Si chacun des agents reçut, au moment de sa désignation à la légation ou la nonciature de France, une somme pour le voyage et ses préparatifs (même Sega, pourtant déjà en France à ce moment), leur provision mensuelle différait notablement, en fonction de leur rang (légat ou nonce). De surcroît, à partir de juin 1592, il est difficile de connaître le montant de la provision mensuelle de Sega. En effet, un compte séparé pour les affaires de France, dont les registres n’existent malheureusement plus, avait été créé à la Chambre apostolique. Ce compte servit à l’armée pontificale et au paiement du légat, par l’entremise des commissaires généraux de l’armée. Par ailleurs, les taxes perçues par la chancellerie de la légation, à l’occasion de la délivrance d’actes, formaient une autre source de revenus. Toutefois, en l’absence de tout compte, il s’agit d’une ressource difficilement évaluable ; de nombreux indices accordent à penser qu’elle fut extrêmement faible, d’autant plus que le trésorier de la légation en gardait une grande partie pour son salaire.</p>
@@ -96,23 +94,23 @@
           <p>Le bilan que l’on peut faire de ces recettes et dépenses montre que le séjour en France fut une ruine pour les finances des envoyés : Caetani, comme Sega, vit le poids de ses dettes s’alourdir considérablement à la suite de sa légation et, à sa mort, la situation n’était toujours pas rétablie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1188100">
         <pb source="https://nakala.fr/10.34847/nkl.92a9c594#5c6eb496b96fea84f6f68f66d09b8f8350c8efae" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.92a9c594/5c6eb496b96fea84f6f68f66d09b8f8350c8efae/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les bulles et les suppliques</head>
-        <div>
+        <div xml:id="r1188113">
           <head rend="uc">Chapitre premier
            <lb/>les actes</head>
           <p>Seuls les registres de bulles et de suppliques de Landriano et Sega ont été conservés. Les usages gallicans voulaient, en effet, qu’un légat, en quittant le royaume, remît ses registres au parlement de Paris. C’est ce que fit Caetani, mais à partir de cet instant, la trace de ses registres se perd. Landriano, qui n’avait pu gagner la capitale, laissa les siens à Sega à son départ pour Rome. Sega, de son côté, une fois retiré à Montargis, n’abandonna pas toute activité et, lorsqu’il regagna l’Italie, il emporta avec lui ses propres registres et ceux de son prédécesseur, ne pouvant les déposer auprès d’un parlement de Paris désormais royaliste. Les suppliques et bulles inscrites au long de ces volumes, semblables aux actes pontificaux, portent les signatures du légat ou du nonce, du régent de la chancellerie et de l’abréviateur.</p>
           <p>Pour obtenir un acte de l’envoyé pontifical, il fallait connaître sa présence dans le royaume. Les bulles de facultés étaient donc imprimées en latin et en français, puis diffusées dans le royaume.</p>
           <p>Le rythme de travail des chancelleries diffère suivant l’envoyé. Si l’une et l’autre travaillaient dimanches et jours de fêtes, la chancellerie de Sega témoigna d’une activité bien plus importante que celle de Landriano. Cette activité, pour l’un comme pour l’autre, se développa en étroit rapport avec les fluctuations politiques, le nombre d’actes dressés par les chancelleries baissant à mesure qu’Henri IV gagnait du terrain, les trêves apportant au contraire un regain d’activité.</p>
         </div>
-        <div>
+        <div xml:id="r1188131">
           <head rend="uc">Chapitre II
            <lb/>Les facultés utilisées : le cas de Caetani</head>
           <p>A partir d’autres sources (journal du maître de cérémonies de sa légation...), certains actes de la chancellerie d’Enrico Caetani ont pu être reconstitués : concessions d’indulgences, principalement sur le chemin vers Paris, et pendant le Carême ; absolution de l’évêque d’Auxerre, Jacques Amyot, resté fidèle à Henri III après l’assassinat des Guise ; autorisation de lire des ouvrages inscrits à l’<hi rend="i">Index ;</hi> quelques provisions de bénéfices. La modicité du matériel ainsi recueilli ne permet guère de tirer de conclusions quant aux facultés dont le légat aurait fait un usage plus grand.</p>
         </div>
-        <div>
+        <div xml:id="r1188147">
           <pb source="https://nakala.fr/10.34847/nkl.92a9c594#cd6efbf8360737504e207d037d32ed52bd2c76ce" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.92a9c594/cd6efbf8360737504e207d037d32ed52bd2c76ce/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les facultés utilisées : Landriano et Sega</head>
@@ -121,17 +119,17 @@
           <p>Sega a bien plus largement utilisé ses facultés que Landriano. Mais la diversité des actes, pour le légat, explique en partie cette différence d’avec le nonce.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1188175">
         <pb source="https://nakala.fr/10.34847/nkl.92a9c594#e039616585ac54d56ac79cb8c4ef1470213b02ae" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.92a9c594/e039616585ac54d56ac79cb8c4ef1470213b02ae/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>L’action religieuse et pastorale
          <lb/>à travers quelques actes particuliers</head>
-        <div>
+        <div xml:id="r1188190">
           <head rend="uc">Chapitre premier
            <lb/>la députation de délégués</head>
           <p>Enrico Caetani laissa Filippo Sega comme vice-légat, à son départ de Paris pour Rome, en lui déléguant la totalité de ses facultés. Dans quelle mesure le pouvait-il, puisque Sixte-Quint était mort ? Les gallicans et les royaux protestèrent fermement, les Ligueurs eux-mêmes se turent ; il est vrai que l’action du vice-légat fut extrêmement discrète. A l’arrivée de Landriano, Sega cessa d’exercer sa vice-légation mais remplit le rôle de conseil qui lui était assigné, à la satisfaction des deux hommes. Les délégués de Sega, une fois qu’il eut été élevé à la légation, se divisèrent en deux catégories : les délégués à mission diplomatique, issus de son entourage italien (son neveu notamment, chargé d’obtenir argent et soutien auprès des chefs de l’armée pontificale), tandis que les hommes auxquels il déléguait une partie de ses facultés dans un but exclusivement pastoral et religieux (à Nantes et à Craon notamment), étaient tous des Français.</p>
         </div>
-        <div>
+        <div xml:id="r1188202">
           <head rend="uc">Chapitre II
            <lb/>Quelques aspects de l’action religieuse et pastorale</head>
           <p>Il est intéressant également d’examiner l’action des agents pontificaux à l’égard des fidèles de la Ligue. Ainsi, Caetani et Sega tentèrent, le plus souvent sans succès, de modérer les ardeurs oratoires des prédicateurs parisiens, voire de les faire prêcher selon leurs directives. Parallèlement, ils recommandèrent à Rome des membres de grandes familles ligueuses (Guise et autres) pour l’obtention de bénéfices ecclésiastiques qu’eux-mêmes ne pouvaient conférer. Par ailleurs, certains actes des registres, provisions de bénéfices, absolutions ou permissions, concernent des membres influents de la Ligue (Jean Pelletier, Jean Guincestre, Jean-Baptiste de Taxis, Anne d’Urfé...) ; cependant ces actes sont peu nombreux.</p>
@@ -140,16 +138,16 @@
           <p>Enfin, le légat obtint ce que les papes réclamaient depuis longtemps : l’introduction du concile de Trente dans le royaume. Les États, ordre par ordre, se décidèrent à adopter les décrets tridentins, en août 1593. Mais Henri IV victorieux n’entérina pas cette décision, et ce succès ne fut donc que de courte durée. Néanmoins, chacun des trois envoyés appliquaient ces décrets dans ses actes, bulles et suppliques. C’est donc sans doute surtout de cette manière détournée que le concile réussit à introduire son esprit de réforme en France.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1188229">
         <head rend="uc">Conclusion</head>
         <p>Les trois agents pontificaux en France virent évoluer la conception de leur mission : d’une légation politique, en 1589, où les pouvoirs religieux se voulaient secondaires, on aboutit, en 1594, à une légation où religieux et politique apparaissaient en étroite corrélation. Et malgré leur volonté certaine de réforme et de pastorale dans la lignée tridentine, les trois hommes échouèrent, principalement en raison de leurs choix politiques. Après l’entrée d’Henri IV dans Paris, leurs actes furent cassés par le parlement ; nombre de provisions de bénéfices firent par la suite l’objet de litiges et de procès. En définitive, l’ensemble de leur action sombra dans la réprobation générale qui entourait désormais la Ligue.</p>
       </div>
-      <div>
+      <div xml:id="r1188239">
         <pb source="https://nakala.fr/10.34847/nkl.92a9c594#ef29f014e1ab853b24766d2f453bedb7419ef159" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.92a9c594/ef29f014e1ab853b24766d2f453bedb7419ef159/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Édition comparée des bulles de facultés et des brefs autorisant l’absolution d’hérétiques. – Mémoire de Filippo Sega sur la situation religieuse de la Bretagne. – Description de l’entrée d’Enrico Caetani dans Paris. – Discours d’Enrico Caetani au parlement de Paris.</p>
       </div>
-      <div>
+      <div xml:id="r1188254">
         <head rend="uc">Illustrations</head>
         <p>Gravures et dessins : cortèges des légats ; membres des légations. – Cartes.</p>
         <pb source="https://nakala.fr/10.34847/nkl.92a9c594#1e93c305cf29ed19c818499a0d2b75e8dae94a17" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.92a9c594/1e93c305cf29ed19c818499a0d2b75e8dae94a17/full/full/0/default.jpg"/>

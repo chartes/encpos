@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,20 +56,20 @@
         <forename>Charles</forename>
         <surname>Terrasse</surname>
       </byline>
-      <div>
+      <div xml:id="r394847">
         <head rend="uc">Introduction</head>
         <p>Raisons du choix de la région étudiée : deux grandes églises de style Renaissance se trouvent à Paris, Saint-Eustache et Saint-Étienne-du-Mont ; un grand nombre d’églises en tout ou en partie de même style sont localisées au nord et à l’ouest de Paris. Ces églises représentent l’expression la plus parfaite de ce style.</p>
         <p>Objet du travail : retracer l’histoire de ces monuments, qui est mal connue ; analyser l’architecture et la décoration de certains d’entre eux afin d’en dégager les caractères généraux.</p>
       </div>
-      <div>
+      <div xml:id="r394860">
         <head rend="uc">Sources et Bibliographie</head>
         <p>Importance des archives de notaires. – Archives de l’étude Bossy et de l’étude Cherrier à Paris.</p>
       </div>
-      <div>
+      <div xml:id="r394870">
         <pb source="https://nakala.fr/10.34847/nkl.d5cf2fvc#57867e231ee22a65a249b79cab7b7fc32848b31b" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5cf2fvc/57867e231ee22a65a249b79cab7b7fc32848b31b/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Histoire</head>
-        <div>
+        <div xml:id="r394883">
           <head rend="uc">Section I. – Églises de Paris</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -95,7 +93,7 @@
             <p>2. <hi rend="i">Description de l’église.</hi></p>
           </div>
         </div>
-        <div>
+        <div xml:id="r395009">
           <pb source="https://nakala.fr/10.34847/nkl.d5cf2fvc#839851af4b54c8e655273cf26bcdcd6e63dc8096" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5cf2fvc/839851af4b54c8e655273cf26bcdcd6e63dc8096/full/full/0/default.jpg"/>
           <head rend="uc">Section II. – Églises rurales</head>
           <div>
@@ -126,10 +124,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r395089">
         <head rend="uc">Deuxième partie
          <lb/>Archéologie</head>
-        <div>
+        <div xml:id="r395097">
           <head rend="uc">Section I
            <lb/>architecture</head>
           <div>
@@ -192,7 +190,7 @@
             <p>Ils sont décorés de statues (1<hi rend="sup">re</hi> période : Tour Saint-Maclou de Mantes, vraisemblablement élevée par Nicolas Delabrosse) ; d’ordres antiques (clocher de Chars).</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r395274">
           <pb source="https://nakala.fr/10.34847/nkl.d5cf2fvc#4e0664f463724d37d8cabeacfb62f83606b0322a" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5cf2fvc/4e0664f463724d37d8cabeacfb62f83606b0322a/full/full/0/default.jpg"/>
           <head rend="uc">Section II
            <lb/>décoration</head>
@@ -229,7 +227,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r395411">
         <head rend="uc">Conclusion</head>
         <p><hi rend="i">Architecture.</hi> – <hi rend="i">Églises de Paris.</hi> Elles ne rentrent dans aucune catégorie. <hi rend="i">Eglises rurales.</hi> 1<hi rend="sup">re</hi> période (de 1520 <pb source="https://nakala.fr/10.34847/nkl.d5cf2fvc#2627c41b44b87736b4658e9ed0829864a85148da" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5cf2fvc/2627c41b44b87736b4658e9ed0829864a85148da/full/full/0/default.jpg"/> environ à 1545 environ). Pas d’école. 2<hi rend="sup">e</hi> période (de 1545 environ à 1640 environ). Trois écoles distinctes : Parisis (foyer : Ecouen) qui représente la plus complète expression du style (Luzarches, Mareil-en-France) ; Vexin français (foyer : Pontoise), édifices médiocres ; Vexin normand (foyer : Gisors). Le Vexin normand reste particulièrement fidèle aux traditions gothiques ; le style de la Renaissance se manifeste surtout dans les façades (Montjavoult).</p>
         <p>Ces édifices ont été construits par les maîtres maçons du pays même (Villiers-le-Bel) ou du pays voisin (l’église d’Attainville fut construite par Nicolas de Saint-Michel, maçon établi à Luzarches). On ne peut attribuer aux Lemercier, établis à Pontoise, toutes les églises du Vexin français. Elles ont dû être élevées, comme celles du Parisis et du Vexin normand, par des maçons divers.</p>
@@ -238,7 +236,7 @@
         <p>Influence considérable, surtout en Parisis, de Sébastien Serlio, attestée au <num>xvi<hi rend="sup">e</hi></num> siècle par Jean Goujon (<hi rend="i">Vitruve</hi> de Jean Martin), au <num>xvii<hi rend="sup">e</hi></num> par Chambray (<hi rend="i">Parallèle</hi>), par les monuments eux-mêmes et leurs ornements.</p>
         <p><hi rend="i">Intérêt général manifesté pour l’art.</hi> – Cet art est mort le jour où les architectes ont cessé d’interpréter les modèles antiques pour les copier. L’esprit nouveau apparaît dans la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle, et est clairement <pb source="https://nakala.fr/10.34847/nkl.d5cf2fvc#34049625878ac1ecacbbc65c5907430bfdb10664" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.d5cf2fvc/34049625878ac1ecacbbc65c5907430bfdb10664/full/full/0/default.jpg"/> exprimé dans le <hi rend="i">Parallèle de l’architecture</hi> de Chambray, paru en 1650. Chambray proscrit la liberté dans l’art comme un goût « gothique ». C’est vers cette époque que prend fin l’art de la Renaissance.</p>
       </div>
-      <div>
+      <div xml:id="r395533">
         <head rend="uc">Pièces justificatives</head>
         <p>1 . Documents historiques.</p>
         <p>2. Photographies, dessins, plans et coupes.</p>

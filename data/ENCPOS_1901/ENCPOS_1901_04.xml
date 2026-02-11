@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1901_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1901_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,18 +58,18 @@
         <surname>Duval</surname>
         <roleName>Élève de l’École des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r256398">
         <head rend="uc">Première partie
          <lb/>Jeunesse et mariage de Charles d’Alençon
          <lb/>et de Marguerite – Role politique
          <lb/>de Charles jusqu’à sa mort</head>
-        <div>
+        <div xml:id="r256410">
           <head rend="uc">Chapitre premier
            <lb/>jeunesse de Marguerite</head>
           <p>Enfance de Marguerite. Louis d’Orléans, après la mort de Charles d’Angoulême, partage la tutelle avec Louise de Savoie, et, devenu roi, confie Marguerite et François au maréchal de Gié qui s’attire ainsi l’inimitié de Louise. Celle-ci arrive par ses intrigues à se débarrasser de lui (mai 1504).</p>
           <p>M<hi rend="sup">me</hi> de Châtillon est chargée de l’éducation de Marguerite. Ce qu’on lui enseigne. Ses précepteurs. Sa beauté. Echec de divers projets de mariage, avec le prince de Galles, avec Ferdinand le Catholique, avec Charles-Quint. Louis XII la destine alors à Charles duc d’Alençon.</p>
         </div>
-        <div>
+        <div xml:id="r256429">
           <pb source="https://nakala.fr/10.34847/nkl.8fcdl5c0#4cd298f8ba11c81938ea4a8d44d4107dfaebaddb" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.8fcdl5c0/4cd298f8ba11c81938ea4a8d44d4107dfaebaddb/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Jeunesse de Charles d’Alençon. Ses fiançailles
@@ -79,13 +77,13 @@
           <p>Enfance de Charles d’Alençon. Il reçoit une éducation soignée de la pieuse Marguerite de Lorraine qui, après la mort du duc René (sept. 1497), parvient à conserver la tutelle de ses enfants. Elle vend ses joyaux pour parfaire leur éducation.</p>
           <p>Projet de mariage entre Charles d’Alençon et Suzanne de Bourbon. Célébration des fiançailles à Moulins (21 mai 1501). Contrat de mariage. Louis de Montpensier, lésé dans ses droits, en appelle au Parlement qui refuse, malgré les instances du roi, d’enregistrer le contrat.</p>
         </div>
-        <div>
+        <div xml:id="r256451">
           <head rend="uc">Chapitre III
            <lb/>Rupture des fiançailles de Charles d’Alençon
            <lb/>et de Suzanne de Bourbon</head>
           <p>Charles de Montpensier, après la mort de son frère Louis, vient à Moulins et aspire à la main de Suzanne. Ses intrigues contre le duc d’Alençon. Pierre de Beaujeu, gravement malade, mande à Charles d’Alençon de venir en toute hâte pour la célébration du mariage, mais ce dernier arrive le lendemain de sa mort. Anne, déjà favorable au comte de Montpensier, prétexte sa douleur pour ajourner le mariage, et, quelques jours plus tard, entièrement acquise au projet du jeune comte, l’autorise à prendre les mesures nécessaires pour assurer la conservation de ses droits. Elle se décide à rompre les fiançailles du duc d’Alençon et de sa fille et obtient du roi, malgré l’opposition du seigneur de Graville, l’autorisation de marier Suzanne à Charles de Montpensier. Le duc d’Alençon ne proteste pas.</p>
         </div>
-        <div>
+        <div xml:id="r256465">
           <pb source="https://nakala.fr/10.34847/nkl.8fcdl5c0#dfdd332f9ceca070061288cb3da935e4634446bd" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.8fcdl5c0/dfdd332f9ceca070061288cb3da935e4634446bd/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Mariage de Charles d’Alençon et de Marguerite
@@ -95,7 +93,7 @@
           <p>Premières années de mariage. Les belles-sœurs de la duchesse, Françoise de Longueville et Anne de Montferrat. L’influence de la pieuse Marguerite de Lorraine sur Marguerite d’Angoulême. Les deux femmes se livrent ensemble aux exercices de piété et aux pratiques de la charité.</p>
           <p>Charles et son épouse à la cour.</p>
         </div>
-        <div>
+        <div xml:id="r256493">
           <head rend="uc">Chapitre V
            <lb/>De l’avènement de François I<hi rend="sup">er</hi>
            <lb/>à la mort de Marguerite de Lorraine</head>
@@ -104,7 +102,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.8fcdl5c0#3fe54257734824f4c63a55967ec23f6db3dc19dd" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.8fcdl5c0/3fe54257734824f4c63a55967ec23f6db3dc19dd/full/full/0/default.jpg"/>
           <p>François I<hi rend="sup">er</hi> visite sa sœur au duché d’Alençon (oct. 1517) et séjourne trois semaines à Argentan. Marguerite de Lorraine songe alors à entrer en religion, et fonde dans cette intention, avec l’aide de Marguerite, le monastère de Sainte-Claire, à Argentan, où elle entre en 1519. Elle continue à rester en relation avec sa bru, lui demande avis sur la répartition de sa fortune et reçoit d’elle de judicieux conseils. Sa profession. Sa maladie. Sa mort.</p>
         </div>
-        <div>
+        <div xml:id="r256534">
           <head rend="uc">Chapitre VI
            <lb/>Charles d’Alençon lieutenant-général du roi
            <lb/>en Champagne – Campagne de 1521</head>
@@ -112,7 +110,7 @@
           <p>Le duc d’Alençon seconde de tous ses efforts Bayard, et contraint, par son activité, François de Sickingen à abandonner Mézières. Nassau, resté seul, ne peut empêcher son ravitaillement, abandonne le siège et se dirige sur Guise.</p>
           <p>François I<hi rend="sup">er</hi>, enfin arrivé, veut lui barrer la route. Le <pb source="https://nakala.fr/10.34847/nkl.8fcdl5c0#25cf8e2ada3e087185d206307c0328d5d98fe883" n="37" facs="https://api.nakala.fr/iiif/10.34847/nkl.8fcdl5c0/25cf8e2ada3e087185d206307c0328d5d98fe883/full/full/0/default.jpg"/>duc d’Alençon renforce son avant-garde, et, par sa marche rapide, rejette les Impériaux vers l’Est, mais Charles-Quint, serré de près non loin de Valenciennes, parvient à s’échapper. Dernières opérations.</p>
         </div>
-        <div>
+        <div xml:id="r256563">
           <head rend="uc">Chapitre VII
            <lb/>Dernières années et mort de Charles d’Alençon</head>
           <p>Charles reste près du roi en 1522 et 1523. Il commande l’arrière-garde en Italie en 1524. Siège de Pavie. Insuccès du stratagème imaginé par un de ses lieutenants pour s’emparer de la ville.</p>
@@ -120,7 +118,7 @@
           <p>Charles à Lyon. Prétendue scène violente entre lui, Marguerite et Louise de Savoie. Origine de cette légende. Le récit de sa mort donné par Marguerite dans le poème des <hi rend="i">Prisons</hi> démontre la fausseté des assertions en cours.</p>
           <p>Maladie du duc Charles. Marguerite le console et le veille. Ses derniers moments ; sa mort. Désespoir de Marguerite. Elle aimait le duc d’Alençon, quoi qu’on en ait dit. Jugement sur Charles d’Alençon.</p>
         </div>
-        <div>
+        <div xml:id="r256592">
           <head rend="uc">Chapitre VIII
            <lb/>Le duché d’Alençon en 1525 et jusqu’en 1549</head>
           <p>Testament du duc d’Alençon : Marguerite hérite des châteaux et des maisons de son mari. État du domaine. <pb source="https://nakala.fr/10.34847/nkl.8fcdl5c0#a98e5d6a736a0aecd3b7f52cfeb81415702b9491" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.8fcdl5c0/a98e5d6a736a0aecd3b7f52cfeb81415702b9491/full/full/0/default.jpg"/>L’héritage d’Armagnac enfin reconnu par la transaction avec Alain d’Albret (25 juin 1515) ; acquisition de Beaugé. Les terres de Bernay et de Séez sont restituées au duc. Autres acquêts. Le douaire de Marguerite.</p>
@@ -129,11 +127,11 @@
           <p>Les menées des héritiers (1532-1534) sont déjouées par Marguerite qui, désormais, administrera le duché en toute tranquillité. Son action est restée aussi sensible après qu’avant la mort du duc Charles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r256619">
         <head rend="uc">Deuxième partie
          <lb/>La Renaissance dans le duché d’Alençon
          <lb/>influence de Marguerite</head>
-        <div>
+        <div xml:id="r256629">
           <head rend="uc">Chapitre premier
            <lb/>réorganisation de la justice</head>
           <p>Intérêt qu’avaient le duc et la duchesse à ce que leur juridiction souveraine ne donnât prise à aucune critique. Grand soin apporté dans le choix des officiers de justice.</p>
@@ -147,7 +145,7 @@
           <p>Autres réformes : Marguerite conserve, malgré les menées des baillis, le droit de nommer les lieutenants généraux (1531).</p>
           <p>La Réforme en Perche : réorganisation du bureau des grands jours du Perche. La création d’un deuxième enquêteur active la justice (août 1543). Prescriptions nouvelles imposées aux tabellions. Marguerite se réserve le droit de les choisir. Le sceau de la vicomté est rendu au vicomte (18 février 1545). Nomination d’un procureur pour assister aux accords conclus par les officiers de Marguerite (12 janvier 1548).</p>
         </div>
-        <div>
+        <div xml:id="r256679">
           <head rend="uc">Chapitre II
            <lb/>Réforme des hôpitaux et de l’assistance publique</head>
           <p>Nature compatissante de Marguerite. Sa pitié s’exerce à Paris, Nérac, Alençon, Mortagne, Argentan, Essay, Écouché. Comment elle pratiquait la charité. Quelques-unes de ses aumônes.</p>
@@ -161,7 +159,7 @@
           <p>Réforme de la Maison-Dieu d’’Écouché (1539) fondée sur les règlements des hôpitaux d’Alençon et de Mortagne.</p>
           <p>Quelques mots sur l’hôpital des Enfants-Rouges, fondé à Paris par Marguerite.</p>
         </div>
-        <div>
+        <div xml:id="r256723">
           <head rend="uc">Chapitre III
            <lb/>Marguerite fondatrice et bienfaitrice de monastères</head>
           <p>Marguerite veut fonder un monastère de filles repenties. Elle l’établit à Essay. Mesures préliminaires. Transaction avec l’évêque de Séez qui abandonne ses droits de patronage (7 septembre 1519). Marguerite achète le terrain et fait construire (juin-déc. 1519). Bulle confïrmative de Léon X (22 déc. 1519). Compensation accordée au curé d’Essay (oct. 1521). Dons en terres, en nature et en espèces. Marguerite est réellement la seule fondatrice du monastère (janv. 1520). Nouvelles libéralités accordées par elle aux religieuses d’Essay. Liste des douze premières religieuses de l’ordre de Saint-Augustin de Paris. Sainteté de leur vie. Marguerite leur fait de nouvelles rentes (janv. 1521).</p>
@@ -171,7 +169,7 @@
           <p>Marguerite et le couvent de Mortagne (lettres de 1509-1544-48).</p>
           <p>Les autres maisons religieuses du duché ne sont pas oubliées.</p>
         </div>
-        <div>
+        <div xml:id="r256755">
           <head rend="uc">Chapitre IV
            <lb/>Réforme catholique</head>
           <p>Rôle actif joué par Marguerite dans la réforme catholique.</p>
@@ -179,7 +177,7 @@
           <p>Marguerite veut réformer l’abbaye. Elle s’adresse à Philippe de Luxembourg, évêque du Mans, qui nomme des commissaires réformateurs ; leur enquête. Les religieuses refusent à plusieurs reprises d’accepter les réformes proposées. Mesures énergiques des commissaires. L’abbesse et quelques-unes de ses compagnes sont exilées. Les autres continuent la lutte. A la demande de Marguerite, le pape intervient (janvier 1518). <pb source="https://nakala.fr/10.34847/nkl.8fcdl5c0#2ee0ec3ebdca8db42782a759f87b1e78aa77956c" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.8fcdl5c0/2ee0ec3ebdca8db42782a759f87b1e78aa77956c/full/full/0/default.jpg"/>Triomphe de la réforme. Marie de la Jaille, dame d’honneur de Marguerite, première abbesse. Le succès de la réforme est assuré par les bienfaits de Marguerite. Reconnaissance de Marie de la Jaille envers elle. Une inscription commémorait le rôle joué par Marguerite.</p>
           <p>Réforme du chapitre de Séez. Les abus. Les chanoines sont trop riches et disposent personnellement des biens. Scandales ; abandon du culte. Leur amour de la chicane. Léon X, averti par Marguerite, nomme des commissaires réformateurs : Guillaume Briçonnet, évêque de Meaux, et Fraslin, abbé de Saint-André en Gouffern. Leur enquête. La règle nouvelle. Venue de chanoines déjà réformés. Rédaction définitive des statuts (1521).</p>
         </div>
-        <div>
+        <div xml:id="r256781">
           <head rend="uc">Chapitre V
            <lb/>Réforme protestante</head>
           <p>Pourquoi la Réforme devait réussir à Alençon. Première apparition des idées nouvelles. Frère Denys Marcel (1521).</p>
@@ -189,7 +187,7 @@
           <p>Dispersion de ce petit groupe. Le Court est poursuivi, condamné et brûlé à Rouen vers la fin de l’année 1533. Sacrilège commis à Alençon pendant l’instruction de son procès (11 juin 1533).</p>
           <p>Sentence des juges d’Alençon. Envoi d’une commission ; elle échoue devant la mauvaise volonté des officiers du duché, malgré l’aide que Marguerite lui apporte. Une nouvelle commission réprime sévèrement l’hérésie (1534) ; Marguerite favorise sa tâche. Dubois et Caroli sont proscrits.</p>
         </div>
-        <div>
+        <div xml:id="r256817">
           <head rend="uc">Chapitre VI
            <lb/>La maison d’’alençon : serviteurs et officiers</head>
           <p>Petit nombre des serviteurs de Marguerite de Lorraine. L’arrivée de Marguerite donne à sa maison une importance beaucoup plus grande. Comment Marguerite traitait ses serviteurs. Sa bonté. Elle obtient pour eux, de son frère, les privilèges accordés à ceux de la Maison royale, et les fait exempter du ban et de l’arrière-ban. Enfin, elle entretient aux écoles de nombreux jeunes gens et les fils de quelques-uns de ses officiers.</p>
@@ -199,7 +197,7 @@
           <p>Son mariage avec Henri d’Albret n’exerce aucune influence sur le choix de ses officiers qui restent les mêmes. Sa maison en 1529 (gages 18.000 liv.). Sa maison en 1539 (gages : 33.000 liv.). Sa maison en 1549 (gages : 33.000 liv.). Le comte H. de La Ferrière-Percy n’a connu et publié que les comptes de l’année 1549.</p>
           <p>État approximatif de ses revenus.</p>
         </div>
-        <div>
+        <div xml:id="r256849">
           <head rend="uc">Chapitre VII
            <lb/>La cour d’Alençon</head>
           <p>Cour brillante de Charles et de Marguerite à Alençon. La ville, le château, le palais d’été, le parc. – La cour d’Alençon vers l’année 1524. Les dames et demoiselles de Marguerite sont très nombreuses ; leurs noms. Les « devisantes ». Les aumôniers. Les chambellans. Les écuyers d’écurie. Les écuyers tranchants.</p>

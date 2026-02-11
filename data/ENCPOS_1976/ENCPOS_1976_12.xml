@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1976_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1976_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,29 +56,29 @@
         <surname>l’Huillier</surname>
       </byline>
       <p>Nicolas Chuquet est connu par son œuvre arithmétique et algébrique, le <hi rend="i">Triparty en la science des nombres.</hi> Cette œuvre a été publiée par Aristide Marre en 1880. A la suite du <hi rend="i">Triparty,</hi> il reste encore une arithmétique commerciale et un traité de géométrie inédits. La publication de ce dernier texte, objet de notre travail, comble en partie cette injuste lacune.</p>
-      <div>
+      <div xml:id="r1018178">
         <head rend="uc">Sources</head>
         <p>La recherche des textes susceptibles d’avoir inspiré Nicolas Chuquet nous a amené à consulter un grand nombre de géométries connues de l’Occident médiéval. Pour une part, notamment pour la géométrie antique, ces œuvres ont été traduites et éditées ; mais, même pour celles-ci, nous avons eu recours aux manuscrits médiévaux. Dans l’ensemble donc, c’est à des sources manuscrites qu’il a été fait appel. Elles proviennent de deux origines distinctes :</p>
         <p>– les fonds latin, français et italien de la Bibliothèque nationale de Paris, riches surtout en œuvres classiques connues de la plupart des universités médiévales ;</p>
         <p>– certaines bibliothèques italiennes où ont été recherchés uniquement des traités en langue vulgaire. Une soixantaine de manuscrits ont été consultés, à Florence surtout, mais aussi à Lucques, Sienne, Rome, Padoue, Bologne, Venise et Milan.</p>
         <p>Enfin, pour la biographie de Nicolas Chuquet, nous avons dépouillé les relevés de taxes de la ville de Lyon, pour la fin du <num>xv<hi rend="sup">e</hi></num> siècle (série CC des Archives communales).</p>
       </div>
-      <div>
+      <div xml:id="r1018203">
         <pb source="https://nakala.fr/10.34847/nkl.f0652aqu#dfa1ebcfd5592ae4bffbe78c2e0e1af05a578494" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.f0652aqu/dfa1ebcfd5592ae4bffbe78c2e0e1af05a578494/full/full/0/default.jpg"/>
         <head rend="uc">Introduction</head>
         <p>La France a laissé pour le <num>xv<hi rend="sup">e</hi></num> siècle peu d’ouvrages mathématiques nouveaux. Aussi est-il difficile de se faire une idée d’ensemble sur le niveau et les progrès de l’arithmétique ou de la géométrie. L’œuvre de Nicolas Chuquet, écrite à Lyon en 1484, révèle deux sources d’influence distinctes : d’une part celle de l’enseignement dispensé traditionnellement par les clercs, d’autre part celle de la pédagogie des écoles d’abaque déjà largement répandue en Italie.</p>
         <p>La Géométrie, par les diverses traditions auxquelles elle se réfère, est un témoin de choix pour l’histoire de la culture scientifique. La recherche des conditions dans lesquelles elle a été écrite permet également d’apporter des précisions et des hypothèses nouvelles à la biographie de Nicolas Chuquet.</p>
       </div>
-      <div>
+      <div xml:id="r1018227">
         <head rend="uc">Première partie
          <lb/>La géométrie de Nicolas Chuquet</head>
-        <div>
+        <div xml:id="r1018235">
           <head rend="uc">Chapitre premier
            <lb/>l’auteur</head>
           <p>A la fin de son <hi rend="i">Triparty,</hi> Nicolas Chuquet indique qu’il est parisien, bachelier en médecine, et qu’il écrit à Lyon en 1484 ce manuscrit qui contient en outre l’Arithmétique commerciale et la Géométrie. Ces maigres données furent longtemps les seuls éléments connus de son existence.</p>
           <p>Le dépouillement des relevés de taxes de la ville de Lyon nous a permis de fixer à 1480 son arrivée dans la rue de la Grenette (près de Saint-Nizier). Il y est connu comme « escripvain » pendant quatre ans, puis comme « maître d’algorisme ». Il meurt entre l’automne 1487 et le printemps 1489. Près de lui, dans la rue Neuve située à quelque deux cents pas de la Grenette, habitait Estienne de La Roche ; maître d’algorisme, celui-ci a possédé le manuscrit définitif de Nicolas Chuquet et l’a pillé, sans bien le comprendre, pour publier sous son nom une Arithmétique en 1520 et la rééditer en 1538. Les deux hommes se sont vraisemblablement connus et Nicolas Chuquet a sans doute été le précepteur d’Estienne de La Roche.</p>
         </div>
-        <div>
+        <div xml:id="r1018254">
           <pb source="https://nakala.fr/10.34847/nkl.f0652aqu#920bc1a4f23e595a01a621b2ce4bd872ae105c1c" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.f0652aqu/920bc1a4f23e595a01a621b2ce4bd872ae105c1c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les manuscrits</head>
@@ -88,11 +86,11 @@
           <p>On trouve également une partie de la géométrie dans le ms. Paris n. a. fr. 1052, fol. 39 r°-67v°. C’est un ouvrage antérieur au texte définitif, d’une quinzaine d’années au plus, et qui se révèle être également de la main de Nicolas Chuquet. Les 38 feuillets précédents sont une copie de la <hi rend="i">Sphère</hi> de Nicole Oresme, écrite sur un papier semblable à celui du Paris fr. 1346 ; ce texte est aussi de la main de Chuquet. A partir de ces éléments autographes, il est possible, grâce à divers critères paléographiques, de définir les caractéristiques de la main du mathématicien français.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1018279">
         <head rend="uc">Deuxième partie
          <lb/>La place de la tradition pratique
          <lb/>dans la géométrie de Nicolas Chuquet</head>
-        <div>
+        <div xml:id="r1018289">
           <head rend="uc">Chapitre premier
            <lb/>la notion de géométrie pratique
            <lb/>au moyen âge</head>
@@ -100,7 +98,7 @@
           <p>Les clercs du Moyen Âge ont en effet distingué entre une démarche pratique et une démarche spéculative en géométrie, comme dans les autres sciences du <hi rend="i">quadrivium.</hi> La différence essentielle est au niveau de la définition du domaine géométrique : la tradition pratique l’établit sur la base tripartite de la considération des formes sensibles (longueur, largeur, hauteur), remontant par là <pb source="https://nakala.fr/10.34847/nkl.f0652aqu#61c68a772e5cfd0195d74ed74c1c1bb00d8595c1" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.f0652aqu/61c68a772e5cfd0195d74ed74c1c1bb00d8595c1/full/full/0/default.jpg"/>aux conceptions de Platon et d’Héron d’Alexandrie ; la tradition spéculative le fonde sur la base quinquipartite commandée par la logique (point, ligne, angle, surface, volume), remontant par là aux conceptions d’Aristote et d’Euclide.</p>
           <p>Mais la différence la plus apparente se situe au niveau du moyen, la géométrie pratique s’exerçant par l’instrument de mesure, la géométrie spéculative par le raisonnement.</p>
         </div>
-        <div>
+        <div xml:id="r1018322">
           <head rend="uc">Chapitre II
            <lb/>Nicolas Chuquet
            <lb/>et la géométrie « artificialiste »</head>
@@ -109,7 +107,7 @@
           <p><hi rend="i">La verge à mesurer les tonneaux.</hi> – Il est fréquent de trouver dans la tradition pratique des problèmes portant sur le tonneau. Mais la Géométrie de Chuquet est la seule, avec celle de Fusoris, à présenter la « règle carrée ». Ce sont en effet, d’ordinaire, des traités particuliers qui présentent cet instrument ; il s’agit d’une verge graduée selon les racines des nombres, qu’on enfonçait par la bonde : la simple multiplication du résultat lu par la hauteur du fût donnait sa capacité en mesures-étalons. Chuquet a donc été inspiré par un de ces <hi rend="i">traités de jaugeage ;</hi> il ne fait cependant aucune allusion à ces tables que les Italiens appellent <hi rend="i">tavole degli scemi</hi> qui aidaient à corriger le résultat lu lorsque le tonneau n’était pas entièrement plein.</p>
           <p>Le calcul du volume par la règle assimile le récipient à un cylindre dont le diamètre est la demi-somme du grand et du petit diamètres. Cette évaluation est classique pour le Moyen Âge où le problème a toujours été résolu de manière peu satisfaisante. Jean de Murs, cependant, a proposé une solution nettement meilleure que les autres à partir de propositions du traité <hi rend="i">Des conoïdes et sphéroïdes</hi> d’Archimède.</p>
         </div>
-        <div>
+        <div xml:id="r1018378">
           <head rend="uc">Chapitre III
            <lb/>La tradition de géométrie rudimentaire
            <lb/>dans l’œuvre de Nicolas Chuquet</head>
@@ -118,12 +116,12 @@
           <p>De toute manière, il n’est nullement destiné aux milieux de la pratique. Sa forme et son contenu sont du tout différents des traités de bornage et d’arpentage, aussi bien ceux de l’agrimensure romaine que ceux, rares, que nous avons gardés du <num>xv<hi rend="sup">e</hi></num> ou du <num>xvi<hi rend="sup">e</hi></num> siècle. Il est également très peu adapté aux véritables besoins des maîtres des chantiers et des ingénieurs de la Renaissance.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1018416">
         <head rend="uc">Troisième partie
          <lb/>Nicolas Chuquet
          <lb/>et l’application de l’arithmétique et de l’algèbre
          <lb/>à la géométrie</head>
-        <div>
+        <div xml:id="r1018428">
           <head rend="uc">Chapitre premier
            <lb/>la pénétration des sciences arithmétiques dans la géométrie médiévale</head>
           <p><hi rend="i">Jusqu’au début du <num>xiv<hi rend="sup">e</hi></num> siècle.</hi> – Pendant la plus grande partie du Moyen Âge, la place de l’arithmétique dans la géométrie est quasiment nulle. La géométrie spéculative a parfois recours à l’argument <hi rend="i">ratione numeri.</hi> La géométrie pratique présente habituellement des exemples numériques qui se limitent aux quatre opérations de base. Même la règle de trois est inconnue. Pourtant les calculs sur les quantités irrationnelles et l’algèbre ont une large place dans la <hi rend="i">Practica Geometrie</hi> de Leonardo Pisano ; mais l’influence de cet ouvrage fut longtemps très limitée. De même, certains traités d’origine arabe, traduits au <num>xii<hi rend="sup">e</hi></num> siècle, qui présentent l’algèbre ou exposent la science orientale de la <hi rend="i">misāha</hi> (dans laquelle on fait usage de l’algèbre pour la résolution de problèmes géométriques), sont demeurés d’abord sans effet. La plupart de ces traductions étaient pourtant à Paris dès le début du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
@@ -131,7 +129,7 @@
           <p><hi rend="i">Les conditions d’un renouvellement.</hi> – La fondation des universités et des collèges a été le premier moteur du renouveau. Même s’ils laissaient peu de place à l’enseignement des sciences, ces établissements favorisaient la constitution de bibliothèques et la copie des manuscrits. L’arithmétique a profité la première de ces conditions meilleures. Grâce à elle, les <hi rend="i">Éléments</hi> d’Euclide sont devenus plus abordables. C’est, en outre, au même moment que sont nées les écoles d’abaque où l’enseignement par l’exemple numérique a été la pédagogie normale. Tout ceci a favorisé le développement de la géométrie. Il faut aussi souligner le rôle personnel de certains savants, comme Jean de Murs à Paris, qui ont communiqué autour d’eux le goût pour l’activité scientifique.</p>
           <p><hi rend="i">Les « Pratiche di geometria</hi> ». – C’est en Italie qu’il reste le plus de sources pour étudier les profits que la géométrie a tirés de ces nouvelles conditions. L’école d’abaque et l’enseignement traditionnel des clercs connaissent une évolution parallèle, où du petit problème simple la science passe à des exercices plus compliqués obtenus par juxtaposition ou inscription de figures. Chez les abacistes, ces problèmes, très vite posés en langue vernaculaire, sont appelés <hi rend="i">ragioni ;</hi> ils portent toujours sur des objets réels et sont illustrés de manière attrayante. Chez les clercs, les <hi rend="i">questioni,</hi> plus longtemps en latin, portent sur des figures géométriques. Les deux démarches se rejoignent entre 1450 et 1460, et la période suivante en offre la synthèse, montrant les maîtres à la recherche de problèmes nouveaux. C’est l’époque où l’algèbre, venue plus volontiers des milieux d’abacistes, pénètre la géométrie.</p>
         </div>
-        <div>
+        <div xml:id="r1018502">
           <head rend="uc">Chapitre II
            <lb/>La place des sciences arithmétiques
            <lb/>dans la géométrie de Nicolas Chuquet</head>
@@ -143,16 +141,16 @@
           <p><hi rend="i">L’influence italienne sur la Géométrie de Chuquet.</hi> – Toute une partie de la Géométrie de Chuquet témoigne d’une forte influence italienne. Celle-ci se fait sentir aussi bien sur les exercices les plus simples que sur les problèmes plus complexes. Elle vient de sources qui lui sont tout à fait contemporaines, comme le ms. Siena L. IV. 18, le <hi rend="i">Trattato d’abaco</hi> de Piero della Francesca, le <hi rend="i">Tractatus Geometriae</hi> de Luca Pacioli. Cependant, même si la langue de Chuquet comporte des italianismes, son traité de Géométrie n’est pas une traduction.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1018583">
         <head rend="uc">Quatrième partie
          <lb/>La place de la géométrie spéculative dans l’œuvre
          <lb/>de Nicolas Chuquet</head>
-        <div>
+        <div xml:id="r1018593">
           <head rend="uc">Chapitre premier
            <lb/>les courants de la tradition spéculative</head>
           <p>Parce qu’elle se situe dans l’ordre de la logique et qu’elle a pour moyen le raisonnement, la démarche spéculative est très proche de la philosophie. Et c’est effectivement dans ce sens que se sont portés les efforts de certains des maîtres de Chuquet : à partir des traductions des <hi rend="i">Éléments,</hi> ils ont cherché à définir avec rigueur le discours mathématique, tenté de préciser les concepts dans l’appréhension de l’espace et de la quantité géométriques, et rassemblé les propriétés et les règles nécessaires à la démonstration. L’autre tendance a été plus scientifique, et plus liée aux diverses figures et aux problèmes qu’elles posent : division, inscription, égalité de la ligne droite et de la ligne courbe, géométrie des volumes et trigonométrie sphérique.</p>
         </div>
-        <div>
+        <div xml:id="r1018609">
           <pb source="https://nakala.fr/10.34847/nkl.f0652aqu#c09b2e343de22e06c5622efa43e47312b67a8a7f" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.f0652aqu/c09b2e343de22e06c5622efa43e47312b67a8a7f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Nicolas Chuquet et la quadrature du cercle</head>
@@ -161,7 +159,7 @@
           <p><hi rend="i">La « triangulature du cercle « .</hi> – Nicolas Chuquet présente ensuite un procédé original, celui de la recherche d’un triangle <hi rend="i">isocèle</hi> égal au cercle ; sa base est égale à la circonférence, sa hauteur au rayon. Il s’est vraisemblablement inspiré de la Première Proposition du traité d’Archimède <hi rend="i">De la mesure du cercle.</hi></p>
           <p><hi rend="i">La quadrature par les polygones médians, méthode des périmètres.</hi> – Chuquet expose ensuite le procédé qui est resté longtemps un des plus utilisés pour le calcul de π, celui des polygones réguliers médians. Il cite comme source d’inspiration le <hi rend="i">Grand Art Général</hi> de Raimond Lulle. Dans cet ouvrage, en effet, le philosophe majorquin présente une quadrature par le carré moyen, mais par les surfaces et non par les périmètres. Dans un ouvrage antérieur, <hi rend="i">De la triangulature et quadrature du cercle,</hi> il a tenté de résoudre le problème par les périmètres, et pour les premiers polygones réguliers. Quelle que soit l’influence de ce procédé sur celui de Nicolas Chuquet, il est une démarche qui a totalement échappé à celui-ci : Raimond Lulle fait allusion à la manière dont la scolastique a abordé le problème, distinguant entre <hi rend="i">quadrature ad sen-sum</hi> et <hi rend="i">quadrature ad intellectum,</hi> et se réfère expressément à la première. Dans ces conditions, sa quadrature n’a pas de véritable valeur scientifique.</p>
         </div>
-        <div>
+        <div xml:id="r1018667">
           <head rend="uc">Chapitre III
            <lb/>Problèmes de construction et figures
            <lb/>dans la géométrie de Nicolas Chuquet</head>
@@ -170,19 +168,19 @@
           <p>Ces figures et ces procédés de construction manifestent une certaine parenté avec les ouvrages de praticiens, comme la <hi rend="i">Geometria deutsch</hi> de Matthäus Roriczer (1487). C’est qu’ils sont utiles, non au tracé du schéma directeur des grands édifices, mais au dessin des mordes servant à guider la coupe des pierres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1018701">
         <head rend="uc">Conclusion</head>
         <p>L’étude de la Géométrie de Chuquet révèle des emprunts extrêmement divers. « Quiconque prend, se vend » ; il est possible, à partir des observations ainsi rassemblées, de préciser un peu les conditions d’existence du mathématicien français. Né vers 1445, Nicolas Chuquet aurait fait ses premières études à Paris, sa ville natale. C’est là qu’il serait devenu bachelier en médecine. Entre 1470 et 1475 il part pour l’Italie, et là, peu de temps après son arrivée, il rassemble ce qu’il a appris en sa jeunesse et rédige la géométrie du ms. Paris, n. a. fr. 1052. Allant de ville en ville, passant notamment dans la région de Florence, il apprend l’algèbre et réapprend la géométrie. Il rassemble peut-être des documents écrits. En 1480, il arrive à Lyon. Après quelques années passées comme copiste, il devient le maître d’Estienne de La Roche, et écrit en 1484 son ouvrage mathématique. Il copie toujours, puisqu’en 1485 il commence la traduction de la <hi rend="i">Sphère</hi> de Nicole Oresme contenue dans le ms. Paris n. a. fr. 1052. Avant de mourir, il donne son livre mathématique à son disciple, avec quelques ouvrages qu’il a pu rapporter d’Italie.</p>
         <p>Sa partie géométrique est une œuvre typiquement européenne, rejetant l’influence arabe pourtant forte en géométrie algébrique, et témoignant des nouvelles directions prises par la mathématique italienne contemporaine.</p>
         <p>Son dessein est avant tout pédagogique, et d’une pédagogie étonnamment moderne : la Géométrie de Chuquet n’entre plus dans les divisions classiques qui distinguent l’école des clercs de celle des laïcs, la démarche pratique du <pb source="https://nakala.fr/10.34847/nkl.f0652aqu#9a14cfee334206c4fa01f864a620ac6f11209bce" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.f0652aqu/9a14cfee334206c4fa01f864a620ac6f11209bce/full/full/0/default.jpg"/>raisonnement spéculatif. Elle se situe au carrefour des connaissances générales et de l’application possible à une multitude de domaines ou de propos : elle est prête pour l’enseignement de l’homme moderne.</p>
       </div>
-      <div>
+      <div xml:id="r1018726">
         <head rend="uc">Édition</head>
         <p>Le texte édité est celui du ms. Paris fr. 1346. Les corrections, très rares, ont tenu compte de la version du ms. Paris n. a. fr. 1052, lorsqu’elle existe.</p>
         <p>Il a reçu une <hi rend="i">annotation critique</hi> rapportant les variantes présentées par la première version lorsque les textes ne sont pas trop éloignés ; dans le cas inverse, les paragraphes, ainsi que les passages non repris par la seconde version, ont été publiés intégralement en appendice.</p>
         <p>H a reçu en outre une <hi rend="i">annotation historique,</hi> chaque problème ayant été recherché dans la tradition géométrique depuis l’Antiquité.</p>
       </div>
-      <div>
+      <div xml:id="r1018750">
         <head rend="uc">Appendices</head>
         <p>Édition des passages du ms. Paris n. a. fr. 1052 non repris dans Paris fr. 1346, ou trop différents de la version définitive. – Exposé de la <hi rend="i">Rigle des premiers,</hi> notation algébrique propre à Nicolas Chuquet.</p>
       </div>

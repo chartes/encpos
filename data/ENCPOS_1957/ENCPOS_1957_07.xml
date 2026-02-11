@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,17 +62,17 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r781724">
         <head rend="uc">Introduction
          <lb/>le monnayage avant les ducs Valois</head>
         <p>Le droit de frapper monnaie à Dijon avait été acquis par le duc de Bourgogne, Robert I<hi rend="sup">er</hi>, aux dépens de l’abbaye Saint-Étienne de Dijon. Le fils de Robert I<hi rend="sup">er</hi>, Hugues I<hi rend="sup">er</hi>, céda la moitié du profit qu’il tirait de la fabrication de la monnaie à l’abbaye Saint-Bénigne de Dijon.</p>
         <p>La liberté de monnayage du duc se heurta à des difficultés provenant les unes de ses sujets, qui réclamaient une monnaie stable, les autres du roi, dont les interventions étaient de plus en plus fréquentes. Ces difficultés amenèrent le duc Eudes IV à transférer l’atelier de Dijon à Auxonne. Cette ville, possession ducale sise hors du royaume, en terre d’Empire, échappait à la surveillance du roi de France.</p>
       </div>
-      <div>
+      <div xml:id="r781751">
         <head rend="uc">Première partie
          <lb/>Le droit de monnayage
          <lb/>acquisition et exercice</head>
-        <div>
+        <div xml:id="r781761">
           <head rend="uc">Chapitre premier
            <lb/>la politique des ducs Valois.</head>
           <p><hi rend="i">Acquisition du droit de monnayage à Auxonne.</hi> – Le transfert à Auxonne de l’atelier de Dijon provoqua des réclamations de Saint-Bénigne, qui voulait une part des profits de la monnaie, comme s’il s’était agi de l’ate<pb source="https://nakala.fr/10.34847/nkl.828c7dt5#d52586982808499ad605f38dcffd06ed56c80410" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.828c7dt5/d52586982808499ad605f38dcffd06ed56c80410/full/full/0/default.jpg"/>lier de Dijon ; Eudes IV dut lui reconnaître ce droit ; en retour, les religieux lui amodièrent, sa vie durant, contre une rente, leur part de ces profits. Il ne semble pas que cet accord ait été renouvelé ; cependant, la réouverture de l’atelier de Dijon par le roi Jean le Bon, héritier du duché après la mort du dernier duc capétien, ne souleva aucune protestation de l’abbaye.</p>
@@ -83,7 +81,7 @@
           <p><hi rend="i">Extension du monnayage dans le duché.</hi> – Jean sans Peur rouvrit deux ateliers en terre d’Empire : celui qui avait été créé par Jean le Bon à Saint-Laurent, dans une île, en face de Chalon (1412), et celui de Cuisery (1417). Philippe le Bon en établit un autre à Chaussin, chef-lieu de châtellenie (1421). Tous ces ateliers étaient dans le duché.</p>
           <p><hi rend="i">Cession au duc par le roi d’ateliers hors du duché.</hi> – Philippe le Bon se fit céder par le traité d’Arras (1435) les profits des ateliers d’Auxerre et de Mâcon. Auxerre, seul, fonctionna (1435-1438). Mais un problème de principe fut soulevé par la surveillance de ces ateliers et la reddition des comptes. Aucun accord officiel n’intervint, mais il est probable que le duc l’emporta sur le roi.</p>
         </div>
-        <div>
+        <div xml:id="r781802">
           <head rend="uc">Chapitre II
            <lb/>Administration et gestion financière des monnaies.</head>
           <p><hi rend="i">Période d’activité des ateliers.</hi> – L’atelier de Dijon fonctionna de 1417 <pb source="https://nakala.fr/10.34847/nkl.828c7dt5#bee5b8e9b018257a7c1b45987c76374186e970c9" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.828c7dt5/bee5b8e9b018257a7c1b45987c76374186e970c9/full/full/0/default.jpg"/>à 1445 et de 1459 à 1467 ; celui de Chalon, ouvert deux fois par an au moment des foires, de 1419 à 1441 (?). L’atelier d’Auxonne, rouvert en 1390, resta en activité jusqu’en 1477 (avec des interruptions de 1430 à 1438, de 1446 à 1451, de 1453 à 1459 et de 1460 à 1472). Celui de Saint-Laurent fonctionna moins longtemps (de 1412 à 1428 et de 1438 à 1441). Les frappes furent intermittentes à Cuisery (1417-1422) et à Chaussin (1421-1423, 1427).</p>
@@ -94,18 +92,18 @@
           <p>Les bénéfices sur les ateliers royaux de Dijon et de Chalon, bénéfices cédés à Jean sans Peur en 1417, auraient dû, en toute logique, être versés au receveur général des duché et comté de Bourgogne. En fait, ils furent recueillis soit par ce dernier, soit par le receveur général du royaume, Pierre de Gorremont, créature de Jean sans Peur. Le duc de Bourgogne avait obtenu de la reine, trois jours après la cession de ces revenus, le gouvernement du royaume et, par conséquent, la gestion des finances. Il profita de la première donation pour autoriser le receveur général des duché et comté à utiliser une partie des revenus des ateliers de Dijon et de Chalon et détourna la presque totalité du reste pour son compte personnel.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r781844">
         <pb source="https://nakala.fr/10.34847/nkl.828c7dt5#fa8d1b70a818669dc5bb35d458166ccabaa5cb63" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.828c7dt5/fa8d1b70a818669dc5bb35d458166ccabaa5cb63/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les monnayeurs</head>
-        <div>
+        <div xml:id="r781857">
           <head rend="uc">Chapitre premier
            <lb/>les privilèges.</head>
           <p>Les maîtres et officiers des Monnaies de Bourgogne, à titre viager, les ouvriers des Monnaies, à titre héréditaire, jouissaient, comme faisant partie du Serment de France, des mêmes privilèges que ceux accordés par les rois de France à leurs monnayeurs.</p>
           <p><hi rend="i">Obtention et confirmation des privilèges.</hi> – Jean sans Peur confirma les lettres de privilèges accordées par Eudes IV exemptant les monnayeurs de la juridiction ordinaire (sauf les trois cas) et de tous les impôts, puis leur accorda de nouvelles lettres énumérant, pour les confirmer, tous les privilèges que contestaient les villes de Dijon et d’Auxonne. Philippe le Bon et Charles le Téméraire confirmèrent à leur tour ces nouvelles lettres.</p>
           <p><hi rend="i">Défense des privilèges.</hi> – Les monnayeurs défendaient âprement contre les villes leurs privilèges qui les mettaient sur le même rang que les gens d’Église et les nobles ; l’attitude flottante des ducs, confirmant solennellement les privilèges tout en ordonnant aux monnayeurs de payer les impôts, engendra la confusion et provoqua de nombreux appels en Parlement de France. Les monnayeurs acceptèrent certaines contributions, comme celle des « fortifications », mais en refusèrent d’autres.</p>
         </div>
-        <div>
+        <div xml:id="r781881">
           <head rend="uc">Chapitre II
            <lb/>Les hommes.</head>
           <p>Les ouvriers étaient des gens modestes, mais jouissaient d’une certaine aisance.</p>
@@ -113,28 +111,28 @@
           <p>Les maîtres particuliers étaient, en général, de riches marchands (la caution demandée était de 4.000 l. t.), hardis et ambitieux : le monnayage procurait, la plupart du temps, d’importants bénéfices aux maîtres, mais le bail pouvait se solder par un déficit. Les maîtres particuliers se livraient aux mêmes abus que les officiers, s’appropriant, en outre, une partie des bénéfices qui auraient dû revenir au duc. En retour, ils lui accordaient facilement de fortes avances sur sa part de bénéfice ou même des prêts <pb source="https://nakala.fr/10.34847/nkl.828c7dt5#e2fe4461e472ec0b913fcf5e7b6785966e068a6d" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.828c7dt5/e2fe4461e472ec0b913fcf5e7b6785966e068a6d/full/full/0/default.jpg"/>sur leur fortune personnelle. Les mêmes noms se retrouvent souvent, comme pour les officiers (Douay, Chisseret, Marriot). Trois frères, les Viart, ont joué un rôle particulièrement important. Ils surent se rendre indispensables au duc, qui n’avait, d’ailleurs, aucune illusion au sujet de leur honnêteté, et se chargèrent de fournir tout ce qui était nécessaire à l’hôtel du duc en 1418 et 1419. Ils gouvernèrent toutes les Monnaies bourguignonnes en 1422, mais le monopole de gestion se solda par un échec. Avant de disparaître, probablement ruinés, ils avaient eu le temps de s’allier à de très riches et très honorables familles de Dijon.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r781905">
         <head rend="uc">Troisième partie
          <lb/>Les sources du métal</head>
-        <div>
+        <div xml:id="r781913">
           <head rend="uc">Chapitre premier
            <lb/>la réglementation du change.</head>
           <p>Sous Philippe le Hardi et Jean sans Peur, les maîtres particuliers se procuraient eux-mêmes le billon nécessaire à la frappe. Mais la multiplication des ateliers et le manque de matières premières amenèrent les ducs, pour éviter que les ateliers ne se fassent concurrence, à réglementer le change et à confier aux changeurs le soin de fournir les ateliers en billon.</p>
           <p>En 1421, Philippe le Bon mit au point une réglementation sévère : chaque changeur devait apporter, sous peine d’amende, un minimum de billon aux ateliers. Devant l’inefficacité de cette décision, le duc supprima les lettres conférant l’office de changeur, puis les rétablit en en limitant le nombre et en exigeant une redevance annuelle. Peu à peu, tous les changeurs, incapables de s’acquitter de leur mission, se démirent de leur charge. En 1427, il n’y en avait plus et tout le billon échappait aux ateliers. De nouveaux changeurs furent alors institués qui devaient lutter contre la fuite du billon à l’étranger. Le duc n’obtint aucun résultat ; il décida alors que ceux qui n’apporteraient pas aux ateliers le minimum de billon auquel ils s’étaient engagés seraient tenus de lui verser une somme équivalente au profit que lui aurait fourni la frappe du billon s’il avait été livré. Mais il n’était pas possible de lutter contre le désordre. Le duc abandonna tout espoir d’obliger ses sujets à s’adresser aux changeurs.</p>
           <p>Le moyen le plus efficace pour se procurer du billon fut celui employé par la duchesse Marguerite de Bavière, à l’imitation du roi. Pour rétablir la bonne monnaie, elle décida un emprunt forcé de marcs d’argent qui fut approuvé ensuite par les États des duché et comté de Bourgogne. Les contributions, recueillies dans chaque bailliage par des commissaires nom<pb source="https://nakala.fr/10.34847/nkl.828c7dt5#5b489e1b149ca5027680e706b9c446afdd58c4d6" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.828c7dt5/5b489e1b149ca5027680e706b9c446afdd58c4d6/full/full/0/default.jpg"/>més par la duchesse et centralisées par un receveur général, furent données aux maîtres particuliers (argent) ou versées à la recette générale des duché et comté (or). Ce fut la seule fois qu’on eut recours à un emprunt de cette nature.</p>
         </div>
-        <div>
+        <div xml:id="r781936">
           <head rend="uc">Chapitre II
            <lb/>Les sources d’approvisionnement des changeurs en métaux.</head>
           <p>Les foires étaient les sources d’approvisionnement les plus sûres. Celles de Chalon suffirent jusqu’en 1420, mais déclinèrent à partir de ce moment-là, concurrencées par les foires de Genève.</p>
           <p>Les confiscations de billon sur les marchands qui le portaient clandestinement à Genève ou en Savoie étaient fréquentes, mais n’enrayaient pas la fuite des métaux. Les envois à la fonte d’objets d’orfèvrerie furent inexistants. Jean sans Peur espéra un temps tirer parti des mines d’argent de l’Avallonnais, mais elles ne rapportèrent rien.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r781952">
         <head rend="uc">Quatrième partie
          <lb/>Le monnayage</head>
         <p>Les comptes de la Monnaie de Dijon permettent de se faire une idée de la politique monétaire des ducs de Bourgogne. Jean sans Peur, pour retirer de grands profits de ses ateliers, devait faciliter la frappe, donc attirer le billon. Pour cela, il força les cours du prix du marc d’argent et prit un bénéfice exorbitant sur le monnayage (77 % des espèces monnayées de février à novembre 1418), mais la fixation du prix du marc lui échappa. Jean sans Peur et son fils, Philippe le Bon, furent partagés entre le désir de faire baisser le prix du marc et celui de maintenir leur bénéfice (ce qui les obligeait, en raison de la hausse du prix du marc, à faire des mutations). La politique de bonne monnaie stable d’Henri VI força Philippe le Bon à ramener son taux de bénéfice à 20 % des espèces monnayées, à partir de 1421. Ce pourcentage alla s’amenuisant en raison de la stabilisation de la monnaie et de la lente hausse du prix du marc. Les ducs de Bourgogne, en revanche, ne touchèrent pas à l’or.</p>
-        <div>
+        <div xml:id="r781963">
           <head rend="uc">Chapitre premier
            <lb/>le monnayage des ducs de Bourgogne
            <lb/>au nom des rois de France.</head>
@@ -142,7 +140,7 @@
           <p>Après la mort de Charles VI, Dijon et Chalon monnayèrent au nom d’Henri VI jusqu’au traité d’Arras (1435). La frappe s’effectua uniquement en saluts de 1432 à 1434.</p>
           <p>Le monnayage fut interrompu pendant deux ans, après le traité d’Arras, par les négociations entre le duc et le roi sur le pied de monnaie à adopter et reprit au nom de Charles VII. Philippe le Bon fit frapper les espèces au briquet à Dijon-Chalon et à Auxerre (briquet en cœur de la croix au revers). Cet atelier avait frappé au nom d’Henri VI jusqu’en 1437 ; Philippe le Bon monnaya au nom de Louis XI. L’atelier de Dijon fut fermé à la mort de ce duc (1467) et ne rouvrit qu’après la réunion du duché à la couronne.</p>
         </div>
-        <div>
+        <div xml:id="r782012">
           <head rend="uc">Chapitre II
            <lb/>Les monnaies frappées au nom des ducs de Bourgogne.</head>
           <p>Philippe le Hardi monnaya à son nom, à Auxonne, des écus d’or et des monnaies blanche et noire. Ces pièces étaient de trop faible aloi et les marchands les refusaient. Le duc fut obligé de se conformer au pied de monnaie du royaume. Pour faciliter la circulation de ses espèces, il adopta pour elles des types proches de ceux des espèces royales.</p>

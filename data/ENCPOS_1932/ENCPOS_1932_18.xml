@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,10 +63,10 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r522337">
         <head rend="uc">Premiere partie
          <lb/>Histoire</head>
-        <div>
+        <div xml:id="r522345">
           <head rend="uc">Chapitre premier
            <lb/>les origines et le développement extérieur
            <lb/>de l’abbaye.</head>
@@ -78,13 +76,13 @@
           <p>3. La situation de l’abbaye en pays plat, à proximité de la Loire, sur la route des gens de guerre allant du Nivernais en Berry, la met à la merci de tous les coups de main. Incendie de 1143. Pillages de l’abbaye pendant les guerres anglaises en 1361 et 1420.</p>
           <p>4. Pendant les guerres de religion, Saint-Satur, voisine du foyer protestant de Sancerre, pouvait moins que toute autre abbaye échapper au pillage des réformés. Descente des protestants de Sancerre à Saint-Satur en 1567.</p>
         </div>
-        <div>
+        <div xml:id="r522401">
           <head rend="uc">Chapitre II
            <lb/>L’abbaye et les puissances laïques.</head>
           <p>1. Les rois de France confirment à l’abbaye ses acquisitions à Bourges et lui accordent leur sauvegarde en 1266. Saint-Satur prend dès lors le titre d’abbaye royale.</p>
           <p>2. Les conflits opposant Saint-Satur aux seigneurs ses voisins naissent le plus souvent de la délimitation des justices et des dîmeries respectives.</p>
         </div>
-        <div>
+        <div xml:id="r522416">
           <head rend="uc">Chapitre III
            <lb/>L’abbaye et les puissances spirituelles.</head>
           <p>1. Au <num>xii<hi rend="sup">e</hi></num> siècle, l’archevêque Pierre de La Châtre se montra particulièrement bienveillant à l’égard du monastère. Au <num>xiii<hi rend="sup">e</hi></num> siècle, la question des dîmes dressa les moines contre leur archevêque.</p>
@@ -92,7 +90,7 @@
           <p>2. Saint-Satur est particulièrement favorisée par les papes qui, après y avoir introduit des chanoines réguliers en 1131, lui accordent de nombreuses bulles confirmatives de ses biens et lui facilitent le rachat des dîmes inféodées.</p>
           <p>3. Après la substitution des chanoines réguliers aux chanoines séculiers établis par Mathilde dans le monastère, Saint-Satur s’affilie à la congrégation de Saint-Victor et accueille des abbés victorins. Ses rapports avec les abbayes et chapitres voisins se réduisent presque uniquement à des procès ayant surtout les dîmes pour objet.</p>
         </div>
-        <div>
+        <div xml:id="r522451">
           <head rend="uc">Chapitre IV
            <lb/>L’administration et la vie intérieure de l’abbaye.</head>
           <p>1. Le monastère connut une ère de grande ferveur religieuse sous les abbatiats des victorins Raoul et Geoffroy.</p>
@@ -102,11 +100,11 @@
           <p>3. Parmi les offices et les dignités, seules la sacristie et l’aumônerie paraissent avoir joui de revenus indépendants. Les vicairies et les prieurés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r522488">
         <pb source="https://nakala.fr/10.34847/nkl.dd06ho5y#5462aad4729e7a0089adc23fd4d4711ddd04277b" n="162" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd06ho5y/5462aad4729e7a0089adc23fd4d4711ddd04277b/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Developpement économique</head>
-        <div>
+        <div xml:id="r522501">
           <head rend="uc">Premiere section
            <lb/>le temporel</head>
           <div>
@@ -131,7 +129,7 @@
             <p>Difficultés d’apprécier le revenu de l’abbaye que Nicolay évalue en 1567 à quatre ou cinq mille livres.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r522593">
           <head rend="uc">Deuxième section
            <lb/>l’exploitation</head>
           <div>

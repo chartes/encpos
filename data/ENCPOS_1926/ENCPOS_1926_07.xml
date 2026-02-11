@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1926_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1926_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,7 +58,7 @@
         <forename>B.</forename>
         <surname>de Gaiffier d’Hestroy</surname>
       </byline>
-      <div>
+      <div xml:id="r449775">
         <head rend="uc">Introduction</head>
         <p>Les événements expliquent l’intensité de la production hagiographique au <num>xi<hi rend="sup">e</hi></num> siècle. La période des invasions est close ; un grand mouvement de restauration et de rénovation commence, mouvement qui fut particulièrement intense dans les diocèses de Thérouanne, Tournai, Cambrai et Liége, ainsi qu’en témoignent plus de cent textes de ce genre appartenant à celte région.</p>
       </div>
@@ -68,7 +66,7 @@
         <head rend="uc">Bibliographie générale</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r449800">
         <head rend="uc">Première partie
          <lb/>Le dossier</head>
         <p>La première partie est le dossier, c’est-à-dire l’analyse des textes, suivie d’un examen spécial de chacun d’eux. Chaque texte est étudié d’après le plan suivant : bibliographie, esquisse biographique du saint ; ensuite, dans <pb source="https://nakala.fr/10.34847/nkl.6f6201hp#15735e3cf1962ac6dc1a7e7756f5f09492242fe9" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.6f6201hp/15735e3cf1962ac6dc1a7e7756f5f09492242fe9/full/full/0/default.jpg"/>la mesure rendue possible par l’état de la transmission manuscrite, on s’est attaché à déterminer pour chaque cas donné la personnalité de l’auteur, l’époque et le lieu où il écrivait, sa condition et son milieu, le public spécial qu’il visait ou le destinataire à qui il faisait hommage de son œuvre, enfin les circonstances extérieures et les influences dont sa rédaction porte les traces. Par souci d’ordre et de clarté, on groupe ici par diocèses les pièces principales de ce dossier. Une table, en annexe, contient le dépouillement complet de la documentation.</p>
@@ -79,30 +77,30 @@
         <p>IV. <hi rend="i">Diocèse de Liège.</hi> – Nulle autre région n’est plus riche en documents. Comme à Cambrai, l’école cathédrale est prospère. Anselme, l’auteur des <hi rend="i">Gesta episcoporum Leodiensium,</hi> lui appartient. Les grandes abbayes du diocèse comptent parmi leurs moines des écrivains de renom. Au début du siècle, Lobbes brille à leur tête avec le célèbre Hériger, dont l’œuvre hagiographique fut abondante : <hi rend="i">Vita S. Remacli [BHL.</hi> 7115), <hi rend="i">Vita metrica S. Ursmari [BHL.</hi> 8419), <hi rend="i">Vita, Translationes, Miracula S. Landoaldi (BHL.</hi> 4700-4706). La tradition studieuse demeure vivace dans ce monastère ; inaugurée par Folcuin, elle va jusqu’à l’auteur anonyme qui, à la fin du siècle, composa les <hi rend="i">Miracula S. Ursmari in itinere per Flandriam an. 1060 facta [BHL.</hi> 8425). A Lobbes aussi, a été formé Olbert qui, plus tard, devint à Gembloux un autre Hériger ; son œuvre se réduit aujourd’hui aux seuls Miracles de saint Véron (<hi rend="i">BHL.</hi> 8550), mais il eut l’honneur de donner l’impulsion aux études dans lesquelles s’illustra son disciple Sigebert, le grand chroniqueur et hagiographe de Gembloux, l’auteur des <hi rend="i">Vitae</hi> du fondateur de l’abbaye Guibert (<hi rend="i">BHL.</hi> 8882-83), de l’évêque de Metz Déoderic (<hi rend="i">BHL.</hi> 8055), du roi Sigebert III (<hi rend="i">BHL,</hi> 7711), des évêques de Maastricht saint Lambert (<hi rend="i">BHL.</hi> 4686) et saint Théodard (<hi rend="i">BHL.</hi> 8049), de la Passion métrique des martyrs d’Agaune (<hi rend="i">BHL.</hi> 5754), etc. Sigebert fut le maître d’Hillin de Fosses auquel on doit une <hi rend="i">Vita metrica</hi> et des <hi rend="i">Miracula</hi> de saint Foillan (<hi rend="i">BHL.</hi> 3076, 3078) ; ces derniers textes, on le sait, clô<pb source="https://nakala.fr/10.34847/nkl.6f6201hp#c621b95b39c98eca96a2f1b5ac144b458e98bbf9" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.6f6201hp/c621b95b39c98eca96a2f1b5ac144b458e98bbf9/full/full/0/default.jpg"/>lurent une liste nombreuse de Vies anonymes consacrées à glorifier le patron de Fosses <hi rend="i">[BHL.</hi> 3070, 3071, 3073). Formé lui aussi à Lobbes, Thierry de Saint-Hubert fut abbé d’Andain et le héros de la <hi rend="i">Vita S. Theoderici [BHL.</hi> 8050) que rédigea, après sa mort, un de ses moines. Non loin de Saint-Hubert, à l’abbaye de Nassagne, furent composées les <hi rend="i">Passiones</hi> de l’ermite et martyr saint Monon <hi rend="i">[BHL.</hi> 6005, 6006). A Waulsort, monastère peuplé d’Irlandais, il faut signaler la <hi rend="i">Vita [BHL. </hi>2515) de saint Eloquius, compagnon de saint Fursy, ainsi qu’une Vie de sainte Hiltrude de Liessies <hi rend="i">[BHL.</hi> 3953). A Nivelles, deux rédactions de la biographie de sainte Gertrude <hi rend="i">[BHL.</hi> 3493-98). A Saint-Trond, les <hi rend="i">Miracula S. Trudonis [BHL.</hi> 8326, 8327). Enfin, le conflit qui mil aux prises les puissantes abbayes de Malmédy et de Stavelot eut son écho dans le <hi rend="i">Triumphus S. Remacli de Malmundariensi coenobio [BHL.</hi> 7140, 7141). Auparavant déjà on y avait écrit des <hi rend="i">Miracula S. Remacli [BHL.</hi> 7137, 7138), une <hi rend="i">Inventio corporis an. 1038 et Dedicatio ecclesiae Stahulensis [BHL.</hi> 7139), <hi rend="i">une Passio</hi> de saint Agilolf de Cologne (<hi rend="i">HBL.</hi> 145) et, sur saint Quirin, une <hi rend="i">Translatif) Malmundarium</hi> et des <hi rend="i">Miracula [BHL.</hi> 7040, 7041).</p>
         <p>Enumération des textes hagiographiques.</p>
       </div>
-      <div>
+      <div xml:id="r450210">
         <head rend="uc">Deuxième partie
          <lb/>Aperçu général de la littérature
          <lb/>hagiographique dans le marquisat
          <lb/>de Flandre et le duché de Basse-Lotharingie
          <lb/>au <num>xi<hi rend="sup">e</hi></num> siècle</head>
         <p>Nous appuyant sur les conclusions de la première partie, nous présentons dans un tableau d’ensemble les résultats de l’enquête. Ces résultats ont été groupés dans les quatre chapitres suivants :</p>
-        <div>
+        <div xml:id="r450233">
           <pb source="https://nakala.fr/10.34847/nkl.6f6201hp#a10b9d0d8e89f56e008d4fb7de31291341a5f416" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.6f6201hp/a10b9d0d8e89f56e008d4fb7de31291341a5f416/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les auteurs</head>
           <p>Nombre relativement restreint des écrits hagiographiques qui peuvent être attribués à un auteur déterminé. – La rareté de la culture qui ne survivait plus guère que dans les communautés monastiques ou dans les Chapitres fait que les auteurs sont toujours des moines ou des chanoines. Comment se formaient ces écrivains. – Ecoles. – Règles et traditions littéraires qu’ils observent. Etude des prologues : ses éléments. Certains textes hagiographiques ont été révisés (<hi rend="i">Vita Fursei, Vita Gaugerici, Elevatio S. Bertini, Elevatio S. Modoaldi...</hi>) et parfois par ceux-là mêmes qui en avaient ordonné la composition. – Style : succès de la prose rimée. Influence des formes poétiques sur la prose assonancée. Abondance des réminiscences poétiques. Confusion des genres. – – Causes qui ont amené, à côté de la composition des Vies de saints originales, la refonte de nombreuses vies anciennes. Les remaniements, leurs variétés. Exemple : les <hi rend="i">Vitae Foillani.</hi></p>
         </div>
-        <div>
+        <div xml:id="r450257">
           <head rend="uc">Chapitre II
            <lb/>Les héros de la littérature hagiographique</head>
           <p>Eglises et abbayes, détruites au cours des invasions, se relèvent de leurs ruines ; des fondations nouvelles surgissent. La renaissance littéraire s’inspire de ces circonstances : la liste des pièces hagiographiques de celte époque contient avant tout des textes consacrés aux fondateurs et aux réformateurs d’abbayes. – Valeur historique des œuvres hagiographiques, étude des différents cas. Saints non contemporains de l’auteur : l’auteur dispose d’une source primitive ou il doit y suppléer par des extraits empruntés à d’autres Vies de saints. Saints <pb source="https://nakala.fr/10.34847/nkl.6f6201hp#80c6dd813a99927ff2c98918350938099926279c" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.6f6201hp/80c6dd813a99927ff2c98918350938099926279c/full/full/0/default.jpg"/>contemporains : si l’on excepte quelques œuvres telles que la <hi rend="i">Vita S. Macarii,</hi> les hagiographes rédigent des biographies qui ont une réelle importance pour l’histoire du temps, mais ils ne sont guère habiles à peindre leur personnage, et trop souvent, là où nous leur demanderions des souvenirs, ils nous donnent des lieux communs ; dans quelques-unes, le ton du panégyrique est plus accentué. Parmi les procédés que les hagiographes emploient pour donner du relief à leur héros, signalons en premier lieu les généalogies et plus spécialement les généalogies par lesquelles ils rattachent le saint à la dynastie carolingienne : essai de classification ; ensuite le souci de mettre le héros en rapport de parenté ou d’action avec les saints de l’époque. Importance du groupe irlandais à ce point de vue.</p>
         </div>
-        <div>
+        <div xml:id="r450278">
           <head rend="uc">Chapitre III
            <lb/>Le public</head>
           <p>Les rites et les habitudes de l’ordre monastique et de la société religieuse expliquent la large diffusion du genre hagiographique. On peut grouper en deux catégories principales les textes, suivant les services qu’ils étaient appelés à rendre : dans le culte divin, sous forme de légendes liturgiques ; dans l’enseignement religieux ou ascétique, sous forme de lecture pieuse ou d’homélies : Cette répartition est indiquée par Alcuin, qui ajoute, à titre supplémentaire, la poésie hagiographique. Examen des multiples emplois des Vies de saints dans les monastères. Vies divisées en leçons et récitées à l’office : importance du genre ; créées pour les besoins du service liturgique, elles ont parfois réagi sur le culte lui-même. De plus, comme lecture d’édification, la Vie de saint trouvait son emploi au réfectoire, où elle était lue du haut de la chaire pendant le repas, à la <hi rend="i">collatio</hi> et pendant le travail. Réglementation de ces divers points d’après <pb source="https://nakala.fr/10.34847/nkl.6f6201hp#fc88731fd311f6b0d9cb9cbe0a638a351738ed2d" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.6f6201hp/fc88731fd311f6b0d9cb9cbe0a638a351738ed2d/full/full/0/default.jpg"/> les coutumiers monastiques des <num>x<hi rend="sup">e</hi></num> et <num>xi<hi rend="sup">e</hi></num> siècles. Enfin la Vie des saints était parfois racontée aux moines par l’abbé, par manière d’entretiens familiers. Elle était aussi appelée à fournir le sujet des lectures méditées auxquelles les moines vaquaient dans leurs cellules. Au peuple fidèle les exemples des saints étaient habituellement proposés sous forme d’homélies. Aux fêles annuelles des saints patrons, le prédicateur fait le panégyrique du saint ; composition de l’auditoire. Ces fêles étaient obligatoirement chômées par la population d’alentour ; on les faisait coïncider à dessein avec une foire ou un marché. – Langue de ces panégyriques. Cette hagiographie populaire avait en quelque sorte ses auxiliaires laïques dans la personne des jongleurs. Succès du genre. Histoires édifiantes de saints militaires. Conservation des œuvres hagiographiques, transcription des Vies de saints dans les « scriploria » des monastères. Quelques manuscrits hagiographiques du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r450317">
           <head rend="uc">Chapitre IV
            <lb/>Intérêts que les textes hagiographiques
            <lb/>étaient appelés a défendre</head>

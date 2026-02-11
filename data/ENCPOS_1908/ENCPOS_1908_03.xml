@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,7 +58,7 @@
         <surname>Bondois</surname>
         <roleName>Licencié ès lettres, Élève de l’École des Hautes Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r317518">
         <head rend="uc">Introduction
          <lb/>contribution à l’étude
          <lb/>de la chancellerie royale
@@ -69,13 +67,13 @@
          <lb/>le règne de François II</head>
         <p>AVANT-PROPOS. – But du travail. Les sources. Le plan. Caractère vague de l’organisation administrative de la chancellerie. Bibliographie.</p>
       </div>
-      <div>
+      <div xml:id="r317544">
         <pb source="https://nakala.fr/10.34847/nkl.8b01cet1#6de74b35d7858ac81ce9353f03c7571e1004e2f2" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.8b01cet1/6de74b35d7858ac81ce9353f03c7571e1004e2f2/full/full/0/default.jpg"/>
         <head rend="uc">Livre I
          <lb/>les officiers et l’organisation
          <lb/>de la chancellerie royale
          <lb/>(1515-1589)</head>
-        <div>
+        <div xml:id="r317561">
           <head rend="uc">Chapitre premier
            <lb/>le chancelier</head>
           <p>1. La place du chancelier parmi les grands officiers de la couronne et son importance dépendaient de son influence personnelle.</p>
@@ -84,12 +82,12 @@
           <p>Les attributions du chancelier étaient triples : il était le chef de la chancellerie ; il avait un rôle judiciaire et législatif ; il exerçait parfois une autorité politique.</p>
           <p>Mais, quoique inamovible, il était entièrement à la disposition du roi qui pouvait se passer de lui en créant un garde des sceaux.</p>
         </div>
-        <div>
+        <div xml:id="r317585">
           <head rend="uc">Chapitre II
            <lb/>Le garde des sceaux</head>
           <p>Le garde des sceaux était un fonctionnaire qui avait toutes les attributions du chancelier, sauf le titre. – Les gardes des sceaux du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r317603">
           <pb source="https://nakala.fr/10.34847/nkl.8b01cet1#2d5a9878d7c9a14ab49c8454c78360303f0ea9f3" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.8b01cet1/2d5a9878d7c9a14ab49c8454c78360303f0ea9f3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’audiencier et le contrôleur, le rôle des maîtres
@@ -98,7 +96,7 @@
           <p>2. Le contrôleur assistait l’audiencier.</p>
           <p>3. Le rôle des maîtres des requêtes consistait à « rapporter » sur les actes avant l’audience du sceau à laquelle ils assistaient. Leurs noms étaient parfois portés dans les mentions de présence ; ils pouvaient présider les petites chancelleries. – Les maîtres des requêtes sous le règne de François II.</p>
         </div>
-        <div>
+        <div xml:id="r317634">
           <head rend="uc">Chapitre IV
            <lb/>Les secrétaires et notaires du roi</head>
           <p>1. La nomination des secrétaires appartenait au roi (lettres de création ou de survivance). Le secrétaire passait un examen devant le chancelier et les membres du Parlement. Il était reçu par l’audiencier et devait faire enregistrer ses provisions (marc d’or).</p>
@@ -111,31 +109,31 @@
           <p>6. Le rôle des secrétaires du roi consistait à dresser les minutes des actes et à les faire recopier par leurs clercs. Cependant, de graves abus se produisirent dans l’expédition <pb source="https://nakala.fr/10.34847/nkl.8b01cet1#5953d2f54830f8d856c1e130f15a12f8763d18fd" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.8b01cet1/5953d2f54830f8d856c1e130f15a12f8763d18fd/full/full/0/default.jpg"/>des actes. Des mesures royales essayèrent d’y remédier (décembre 1538, décembre 1539, 18 mars 1561). Les notaires eurent aussi à lutter contre la jalousie des autres corps constitués.</p>
           <p>7. Les privilèges étaient nombreux. C’étaient des confirmations générales, des exemptions spécifiées, des privilèges locaux ou des privilèges d’un caractère spécial. Les notaires étaient « privilégiés parmi les privilégiés ».</p>
         </div>
-        <div>
+        <div xml:id="r317687">
           <head rend="uc">Chapitre V
            <lb/>Les chauffecires</head>
           <p>Les chauffecires (au nombre de 4) assistaient à tour de rôle à l’audience et scellaient les actes. Ils devaient ne pas savoir lire et avaient d’importants privilèges.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r317700">
         <head rend="uc">Livre II
          <lb/>les petites chancelleries ou chancelleries
          <lb/>ordinaires</head>
         <p>Les petites chancelleries établies auprès des Cours souveraines prirent un grand développement au <num>xvi<hi rend="sup">e</hi></num> siècle. Elles étaient organisées d’une manière identique à celle de la Grande chancellerie, et virent se multiplier le nombre de leurs officiers. Elles pouvaient expédier des lettres de justice et de collation, et des copies de leurs actes particuliers. Ces chancelleries avaient des sceaux spéciaux. Les caractères particuliers de leurs actes étaient la date du lieu et la signature « par la Cour ». Ces chancelleries s’efforcèrent de lutter contre l’autorité du chancelier, et eurent à subir les empiètements des chancelleries présidiales.</p>
       </div>
-      <div>
+      <div xml:id="r317720">
         <pb source="https://nakala.fr/10.34847/nkl.8b01cet1#28b7f5698c0b10565e147e425f7118f436441e33" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.8b01cet1/28b7f5698c0b10565e147e425f7118f436441e33/full/full/0/default.jpg"/>
         <head rend="uc">Livre III
          <lb/>les actes royaux ; leurs caractères
          <lb/>diplomatiques</head>
-        <div>
+        <div xml:id="r317735">
           <head rend="uc">Chapitre premier
            <lb/>les lettres patentes</head>
           <p>1. Les grandes lettres patentes sont les lettres scellées, sur lacs de soie verte et rouge, de cire verte. Elles ont une formule de notification générale et ne sont datées que du mois. Ces lettres sont des actes qui dépendent entièrement de la volonté royale.</p>
           <p>2. Les lettres sur double queue sont scellées, sur double queue de parchemin, de cire jaune ; elles présentent la formule : « à tous ceux qui ces présentes lettres verront, salut », et sont datées du jour.</p>
           <p>3. Les mandements sur simple queue sont datés du jour et ont une adresse particulière, déterminée avec soin par un protocole minutieux.</p>
         </div>
-        <div>
+        <div xml:id="r317753">
           <head rend="uc">Chapitre II
            <lb/>Les actes émanés du roi</head>
           <p>1. Les lettres closes et les lettres de cachet étaient des actes de caractère plus personnel ; elles étaient fermées d’un cachet de cire rouge ; elles débutent par la formule « de par le Roy », et portent les adresses extérieures à la manière des anciennes lettres. Ces lettres avaient la même valeur que les mandements.</p>
@@ -144,14 +142,14 @@
           <p>4. Les instructions étaient rédigées par articles pour les officiers chargés de missions particulières.</p>
           <p>5. Les lettres de sceau plaqué étaient des actes expédiés directement par le roi, mais ouvertes. Elles débutaient par la formule « de par le Roy » et étaient validées par la signature du roi et le contre-seing du notaire. Les acquits se rattachent à cette catégorie d’actes.</p>
         </div>
-        <div>
+        <div xml:id="r317782">
           <head rend="uc">Chapitre III
            <lb/>Matière, langue, écriture</head>
           <p>1. Pour la matière, on employait surtout le parchemin, quelquefois le papier.</p>
           <p>2. La langue employée généralement était le français, quelquefois le latin (actes de nature religieuse ou diplomatique). – Le cas des privilèges des Suédois du 26 mars 1559-1560.</p>
           <p>3. L’écriture des originaux était arrondie et facile à lire, mais celle des minutes était très personnelle.</p>
         </div>
-        <div>
+        <div xml:id="r317800">
           <head rend="uc">Chapitre IV
            <lb/>Étude du document</head>
           <p>1. Dans le protocole initial, la suscription présente des variétés pour les actes relatifs au Dauphiné et à la Provence, pour les actes de François II comme roi d’Ecosse, et de Henri III comme roi de Pologne.</p>
@@ -160,7 +158,7 @@
           <p>3. Les clauses finales sont injonctives, prohibitives, dérogatoires, réservatives et comminatoires.</p>
           <p>4. La formule de corroboration et du bon plaisir. – Différentes formes de la formule de corroboration. On ne trouve jamais : « car tel est notre bon plaisir », comme l’a déjà montré M. de Mas Latrie.</p>
         </div>
-        <div>
+        <div xml:id="r317826">
           <head rend="uc">Chapitre V
            <lb/>Signatures et mentions <hi rend="i">extra</hi><hi rend="i">-sigillum</hi></head>
           <p>1. A droite de l’acte se trouve la signature du roi et celle du secrétaire. La question du secrétaire de la main est difficile à résoudre. La signature du secrétaire d’Etat ou des finances ne semble pas autographe. La répartition géographique des secrétaires d’Etat n’est pas observée durant le règne de François II. Souvent cette signature est suivie de l’indication de la présence d’un maître des requêtes (le rapporteur). Les mentions de présence des membres du Conseil n’ont pas disparu.</p>
@@ -169,12 +167,12 @@
           <p>Il faut distinguer l’enregistrement pur et simple et l’enregistrement qui suppose la vérification préalable (Parlement, Chambre des comptes), qui donna naissance au droit de remontrance.</p>
           <p>L’enregistrement à la Chancellerie (registres du Trésor <pb source="https://nakala.fr/10.34847/nkl.8b01cet1#03e30b1595415044a1e815b978519e1902bbce1a" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.8b01cet1/03e30b1595415044a1e815b978519e1902bbce1a/full/full/0/default.jpg"/>des Chartes) avait lieu pour les intérêts relatifs aux particuliers (actes scellés sur lacs de soie : lettres de grâce). On inscrivait sur les originaux des mentions diverses : dates de prestation de serment des officiers, mentions de <hi rend="i">vidimus,</hi> etc.</p>
         </div>
-        <div>
+        <div xml:id="r317865">
           <head rend="uc">Chapitre VI
            <lb/>Les sceaux</head>
           <p>Type général du sceau de majesté. – Sceaux spéciaux. – Le cachet royal.</p>
         </div>
-        <div>
+        <div xml:id="r317877">
           <head rend="uc">Chapitre VII
            <lb/>Les expéditions des actes</head>
           <p>1. Les caractères distinctifs des originaux sont l’aspect soigné, l’écriture sans ratures, la largeur des marges et les alignements réguliers. Les originaux sont toujours scellés.</p>
@@ -183,20 +181,20 @@
           <p>4. Les collations.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r317902">
         <head rend="uc">Livre IV
          <lb/>essai d’un classement juridique des actes</head>
         <p>1° Actes législatifs.</p>
         <p>2° Lettres de grâce.</p>
         <p>3° Lettres de justice et de finance.</p>
         <p>Les classements du <num>xvi<hi rend="sup">e</hi></num> siècle, les tentatives de Papon, les classifications du « stile » de la Chancellerie manquent de netteté.</p>
-        <div>
+        <div xml:id="r317928">
           <pb source="https://nakala.fr/10.34847/nkl.8b01cet1#d28d0919a0cc50ca27ddcbda237bd2ff99afeab1" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.8b01cet1/d28d0919a0cc50ca27ddcbda237bd2ff99afeab1/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les actes législatifs</head>
           <p>Les déclarations sont scellées sur double queue de cire jaune, et datées du jour. Il est difficile de saisir la différence des édits et des ordonnances, actes scellés sur lacs de soie et datés du mois.</p>
         </div>
-        <div>
+        <div xml:id="r317945">
           <head rend="uc">Chapitre II
            <lb/>Lettres de grâce</head>
           <p>Les lettres de grâce, caractérisées par la formule de grâce, étaient accordées par le bon vouloir du roi et comprenaient :</p>
@@ -204,7 +202,7 @@
           <p>2° Lettres de grâce individuelles.</p>
           <p>3° Lettres de grâce collectives.</p>
         </div>
-        <div>
+        <div xml:id="r317966">
           <head rend="uc">Chapitre III
            <lb/>Lettres de justice</head>
           <p>1. Lettres de justice proprement dites.</p>
@@ -215,7 +213,7 @@
           <p>3. Lettres de finances. – Lettres sur double queue : provisions d’effets, collations, pensions. – Lettres sur simple queue : dons, féautés et serments.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r318004">
         <head rend="uc">Appendices</head>
         <p>I. Les taxes de chancellerie au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         <p>II. Les chancelleries présidiales. Leur création. Leur organisation. Leurs actes. Les chancelleries sous Charles IX et Henri III. Empiètements et luttes. Pièces justificatives de l’appendice II.</p>
@@ -229,7 +227,7 @@
          <lb/>(1793 numéros)</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r318043">
         <head rend="uc">Appendices au catalogue</head>
         <p>I. Itinéraire de François II.</p>
         <p>II. Essai d’un catalogue des lettres missives de François II (169 numéros).</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1959_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1959_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,7 +54,7 @@
         <forename>Françoise</forename>
         <surname>Pathie</surname>
       </byline>
-      <div>
+      <div xml:id="r807438">
         <head rend="uc">Avant-propos</head>
         <p>L’une des sources les plus riches de l’histoire sociale du <num>xviii<hi rend="sup">e</hi></num> siècle est le Cabinet des titres, dont la formation a été étudiée par Léopold Delisle. Mais l’institution qui a donné lieu à la collection Chérin est souvent méconnue. C’est à partir de Pierre Clairambault que le Cabinet des ordres prend une importance qui ne cessa de grandir au cours du <num>xviii<hi rend="sup">e</hi></num> siècle avec les commissions toujours plus nombreuses confiées aux généalogistes des ordres. Faut-il attribuer à la personnalité de ceux-ci les faveurs dont ils furent l’objet ? C’est en reconstituant leur milieu social et professionnel, leur formation et leur caractère qu’il sera possible de le dire.</p>
       </div>
@@ -64,10 +62,10 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r807469">
         <head rend="uc">Première partie
          <lb/>L’institution</head>
-        <div>
+        <div xml:id="r807477">
           <head rend="uc">Chapitre premier
            <lb/>les fonctions des généalogistes des ordres du roi.</head>
           <p>L’office de généalogiste fut créé en 1595 pour la vérification des titres requis pour entrer dans les ordres du Saint-Esprit et de Saint-Michel. Les titulaires de la charge furent, au <num>xviii<hi rend="sup">e</hi></num> siècle : Pierre Clairambault de 1698 à 1740 ; Nicolas-Pascal de Clairambault, en survivance depuis 1716, exerça jusqu’à 1758 ; Jean-Nicolas-Hyacinthe Beaujon de 1758 à 1772 ; Bernard Chérin de 1772 à 1785 ; Edme-Joseph Berthier, qui assura <pb source="https://nakala.fr/10.34847/nkl.7f9ancvk#78f954276726824e2db180c9307c7225c9727c30" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f9ancvk/78f954276726824e2db180c9307c7225c9727c30/full/full/0/default.jpg"/>l’intérim de 1785 à 1787, et Louis-Nicolas-Hyacinthe Chérin de 1787 à 1790.</p>
@@ -75,23 +73,23 @@
           <p>En 1781, ils furent chargés de la vérification des quatre degrés de noblesse exigés pour les sous-lieutenances aux termes de l’ordonnance de Ségur. On les consulta, en outre, dans certaines affaires contentieuses de noblesse rapportées au Conseil des Dépêches.</p>
           <p>Tandis que leurs fonctions dans les ordres leur donnaient peu de travail, tout en leur assurant un revenu fixe, les commissions représentaient une activité considérable ; mais de substantielles gratifications leur permirent d’entretenir plusieurs commis, que l’abondance du travail rendait nécessaires.</p>
         </div>
-        <div>
+        <div xml:id="r807515">
           <head rend="uc">Chapitre II
            <lb/>Le cabinet des ordres et les commis.</head>
           <p>Le Cabinet des ordres se confondait d’abord avec l’appartement du généalogiste ; mais, en 1790, il en était distinct et se trouvait, ainsi que les archives des ordres, aux Grands-Augustins. Le travail était préparé au cabinet par les commis, dont le nombre et la formation changèrent au cours du siècle : Pierre Clairambault en avait deux à son service, Bernard Chérin cinq, et son fils dix. Certains avaient été notaires, d’autres sortaient du collège ; l’un d’eux fut même formé par Bréquigny. Malgré leur compétence et la nécessité dans laquelle se trouvait le généalogiste de recourir à leurs services, ils demeurèrent toujours dans sa dépendance sans jamais former un corps autonome.</p>
           <p>Maugard, qui émit en 1793 un projet d’École des chartes, Pavillet, qui donna des cours dans ce même établissement, furent quelque temps commis au Cabinet ; Nicolas-Pascal de Clairambault, Bernard Chérin et son fils le furent également avant de devenir généalogistes.</p>
         </div>
-        <div>
+        <div xml:id="r807530">
           <head rend="uc">Chapitre III
            <lb/>Les généalogistes a l’œuvre.</head>
           <p>Depuis les recherches des usurpations de noblesse du <num>xvii<hi rend="sup">e</hi></num> siècle, les preuves littérales étaient tenues pour les plus probantes. Nicolas-Pascal de Clairambault acceptait également les jugements rendus lors des recherches du <num>xvii<hi rend="sup">e</hi></num> siècle et les actes privés sous forme d’originaux et de <pb source="https://nakala.fr/10.34847/nkl.7f9ancvk#09c11756f478dd92c6a4e0bc91746d2e131b4e7c" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f9ancvk/09c11756f478dd92c6a4e0bc91746d2e131b4e7c/full/full/0/default.jpg"/>copies. Beaujon suivit d’abord les mêmes principes, puis, sans doute sous l’influence de Chérin, se montra plus rigoureux et exigea des familles des titres originaux uniquement ; cette règle fut observée strictement par Chérin.</p>
           <p>Les généalogistes partageaient souvent le même avis, mais le formulaient différemment, tenant compte toujours des alliances et des services qui permettaient de situer une famille dans la société avec les nuances qui convenaient.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r807563">
         <head rend="uc">Seconde partie
          <lb/>Les hommes</head>
-        <div>
+        <div xml:id="r807571">
           <head rend="uc">Chapitre premier
            <lb/>Biographies.</head>
           <p><hi rend="i">Pierre Clairambault.</hi> – Né le 30 mai 1651 à Asnières (Côte-d’Or), il était fils d’un secrétaire du roi. Il vint travailler à la suite de son frère aîné, Nicolas, à la Bibliothèque du roi. A la demande de Bossuet et de Fénelon, il réunit les éléments d’une histoire des grandes maisons de France. En 1683, il fut chargé, à titre de commissaire, de réunir les jugements rendus lors des recherches des usurpateurs de noblesse et fut lui-même procureur du roi pour la généralité de Paris. En 1685, il entra au bureau des fonds à la marine avec son frère et le suivit aux comptes. Il fut chargé d’organiser les archives de la marine, mais participa également au classement des papiers des autres secrétariats d’État.</p>
@@ -109,7 +107,7 @@
           <p><hi rend="i">Louis-Nicolas-Hyacinthe Chérin.</hi> – Né en 1762, il fut généalogiste à vingt-cinq ans et mourut, à trente-sept ans, général de la Révolution. Il eut quelques difficultés pour succéder à son père et commit ensuite des maladresses dans l’exercice de sa charge ; il eut, en particulier, un différend avec le président de Lamoignon, ce qui faillit lui coûter sa commission. Son inexpérience concourut à multiplier les attaques contre le Cabinet des ordres.</p>
           <p>Épris des idées nouvelles, il dut livrer, en 1792, le Cabinet des ordres, qui allait être brûlé place des Piques. Puis il s’engagea dans l’armée révolutionnaire. Ami de Hoche, il fut tué, en 1799, à Aarau, près de Zurich.</p>
         </div>
-        <div>
+        <div xml:id="r807649">
           <pb source="https://nakala.fr/10.34847/nkl.7f9ancvk#6ec187c449bbad5c8ce5304b96733eff6c635425" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f9ancvk/6ec187c449bbad5c8ce5304b96733eff6c635425/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les généalogistes dans la société.</head>
@@ -117,17 +115,17 @@
           <p>Si Bernard Chérin eut quelque difficulté pour payer sa charge, il eut, comme les autres, en fin de carrière, une fortune honorable.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r807670">
         <head rend="uc">Troisième partie
          <lb/>Héritage et destin du cabinet des ordres</head>
-        <div>
+        <div xml:id="r807678">
           <head rend="uc">Chapitre premier
            <lb/>une institution controversée.</head>
           <p>L’activité du Cabinet des ordres fut l’objet de maintes critiques à des titres divers. Certaines portèrent sur l’organisation même du Cabinet, d’autres sur le pouvoir, jugé arbitraire, du généalogiste.</p>
           <p>Des commissions furent nommées à plusieurs reprises par le Conseil des Dépêches, à la demande de quelques familles, pour reviser l’avis du généalogiste, qui leur était défavorable. Elles étaient généralement composées de bénédictins et d’hommes comme Bréquigny ou Ardilier ; leur avis infirma celui de Chérin.</p>
           <p>Les détracteurs des généalogistes exploitèrent ces exemples et réclamèrent la suppression de l’office. De nombreux projets de réforme naquirent du vivant même de Chérin, et surtout à sa mort, pour qu’il fût remplacé par une commission. Mais leur caractère utopique et intéressé, et surtout la volonté du roi, s’y opposèrent.</p>
         </div>
-        <div>
+        <div xml:id="r807696">
           <head rend="uc">Chapitre II
            <lb/>Le prestige de la charge.</head>
           <p>Le nombre de candidats à la succession de Chérin et la violence même des attaques qui furent portées contre le généalogiste témoignent de l’importance de ses fonctions au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
@@ -135,14 +133,14 @@
           <p>La situation du généalogiste était pourtant difficile. Il dépendait, en principe, du roi, mais les prétentions des familles et certaines recommandations étaient parfois embarrassantes. Le bon fonctionnement d’une telle institution dépendait beaucoup du caractère du titulaire de la charge.</p>
           <p>Du moins la considération de certains érudits pour les généalogistes témoigne-t-elle de leur compétence : ils l’emportaient sur les bénédictins dans la connaissance des actes des <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles.</p>
         </div>
-        <div>
+        <div xml:id="r807740">
           <head rend="uc">Chapitre III
            <lb/>Du cabinet des ordres au cabinet des titres.</head>
           <p>Les généalogistes ne nous ont laissé aucun exposé de leurs méthodes critiques. Seul Louis-Nicolas-Hyacinthe Chérin a composé un recueil d’ordonnances incomplet et insuffisant. Quant à Edme-Joseph Berthier, il nous a laissé un manuscrit en forme de dictionnaire nobiliaire et féodal.</p>
           <p>C’est grâce surtout aux collections Clairambault et Chérin que l’on peut avoir une idée de leur activité. De formation très différente, elles sont toutes deux très riches en renseignements divers sur le <num>xvii<hi rend="sup">e</hi></num> et le <num>xviii<hi rend="sup">e</hi></num> siècle et sur l’histoire sociale de cette époque.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r807768">
         <head rend="uc">Conclusion</head>
         <p>L’originalité et l’importance de l’activité du Cabinet des ordres au <num>xviii<hi rend="sup">e</hi></num> siècle doivent sans doute être attribuées à la personnalité des généalogistes et surtout à celles de Pierre Clairambault et de Bernard Chérin.</p>
       </div>

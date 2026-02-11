@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,10 +65,10 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r416498">
         <head rend="uc">Première partie
          <lb/>Historique de la construction</head>
-        <div>
+        <div xml:id="r416506">
           <head rend="uc">Chapitre premier
            <lb/>des origines à 926</head>
           <p>Les origines du culte à l’emplacement actuel de l’église de Saint-Père de Chartres se confondraient, d’après les traditions, avec l’évangélisation même du pays des Carnutes : saint Potentien y aurait érigé un oratoire dès l’an 69.</p>
@@ -78,13 +76,13 @@
           <pb source="https://nakala.fr/10.34847/nkl.b35bq64g#2ddc4f0611b473969f8ada1aff05267f3de90d97" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.b35bq64g/2ddc4f0611b473969f8ada1aff05267f3de90d97/full/full/0/default.jpg"/>
           <p>Plusieurs fois ruinée par les Normands au <num>ix<hi rend="sup">e</hi></num> siècle, l’abbaye est entièrement détruite en 911 et reste en ruines.</p>
         </div>
-        <div>
+        <div xml:id="r416541">
           <head rend="uc">Chapitre II
            <lb/>De 926 à 1134</head>
           <p>L’église est restaurée après 926 par l’évêque Aganon et l’abbaye rétablie après 941 par l’évêque Ragenfroid, qui y fait construire un cloître et divers bâtiments monastiques. Wulphad, son successeur y érige une chapelle dédiée à saint Benoît. L’abbaye est close de murs à la fin du <num>x<hi rend="sup">e</hi></num> siècle.</p>
           <p>Des bâtiments incendiés en 1077 il ne nous reste plus rien qu’une tour du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r416568">
           <head rend="uc">Chapitre III
            <lb/>De 1134 à 1540</head>
           <p>L’incendie du 5 septembre 1134 détruit de nouveau entièrerement l’abbaye. Les travaux de reconstruction commencent immédiatement, mais sont surtout activement poussés par le moine Hilduard, qui, sous l’abbé Foucher, après 1150, élève le chœur.</p>
@@ -94,7 +92,7 @@
           <p>En 1408 le cloître est reconstruit par l’abbé Étienne.</p>
           <p>L’abbé François de Brilhac (1520-1540) rétablit l’abbaye dans son ancienne splendeur.</p>
         </div>
-        <div>
+        <div xml:id="r416607">
           <head rend="uc">Chapitre IV
            <lb/>De 1540 à 1560</head>
           <p>L’abbé Pierre de Brisai et le prieur Christophe de la Chaus<pb source="https://nakala.fr/10.34847/nkl.b35bq64g#f3aa119866c49f0cf42db23acc3a3397f6290a7c" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.b35bq64g/f3aa119866c49f0cf42db23acc3a3397f6290a7c/full/full/0/default.jpg"/>sée embellissent considérablement l’église : érection d’un maître-autel (1541), d’un jubé (1543), d’une chapelle intérieure dédiée à la Conception de la Vierge (1544), par Jean Bénardeau, maçon ; l’ornementation et la statuaire sont exécutées par le célèbre sculpteur François Marchand. Réparation générale des voûtes (1549).</p>
@@ -103,20 +101,20 @@
           <p>En 1626 on construit une chapelle rayonnante supplémentaire.</p>
           <p>En 1631 on remet en état les voûtes et les murs.</p>
         </div>
-        <div>
+        <div xml:id="r416636">
           <head rend="uc">Chapitre V
            <lb/>De 1650 à 1700</head>
           <p>Les religieux de la Congrégation de Saint-Maur, installés dans le monastère en 1650, s’endettent pour parer aux réparations urgentes des bâtiments monastiques.</p>
           <p>L’inondation de 1665 cause de très grands dégâts au cloître, au pavage de l’église et au jubé.</p>
           <p>En 1666 et 1667 sont construites deux chapelles, une s’ouvrant sur le bas-côté du chœur au nord, l’autre sur le déambulatoire. En 1698 remise en état générale de tous les arcs-boutants de l’église.</p>
         </div>
-        <div>
+        <div xml:id="r416654">
           <head rend="uc">Chapitre VI
            <lb/><num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>Le <num>xviii<hi rend="sup">e</hi></num> siècle est pour l’abbaye un siècle de décadence. De 1700 à 1770 disparaissent successivement tous les bâtiments monastiques anciens. Nous ne nous occuperons pas de ceux qui furent reconstruits alors.</p>
           <p>La Révolution transforme l’église abbatiale en atelier de fabrication de salpêtre, d’où disparition de tous les ornements <pb source="https://nakala.fr/10.34847/nkl.b35bq64g#c7b0fb2e802abfe969849b8f5e27101bd39bd43c" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.b35bq64g/c7b0fb2e802abfe969849b8f5e27101bd39bd43c/full/full/0/default.jpg"/>intérieurs : jubé, stalles, tombes, ... etc., et démolition de trois chapelles extérieures et de la chapelle intérieure de la Conception de la Vierge. Depuis 1795 l’église est abandonnée sans aucun entretien.</p>
         </div>
-        <div>
+        <div xml:id="r416685">
           <head rend="uc">Chapitre VII
            <lb/>Du Concordat à nos jours</head>
           <p>La signature du Concordat amène la réouverture de deux églises à Chartres, dont Saint-Père.</p>
@@ -126,23 +124,23 @@
           <p>De 1901 à la guerre, remise en état générale par MM. Darcy et Brunet.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r416710">
         <head rend="uc">Deuxième partie
          <lb/>Description archéologique</head>
-        <div>
+        <div xml:id="r416718">
           <head rend="uc">Chapitre premier
            <lb/>plan de l’église</head>
           <p>Nous ne pouvons rien savoir du plan des églises qui s’élevaient sur l’emplacement de Saint-Père aux époques mérovingienne et carolingienne. Les fouilles exécutées en 1729 démontrent cependant l’existence d’une sorte de <hi rend="i">martyrium </hi>ou de confession sous l’une d’elles.</p>
           <p>Les rares vestiges de l’église du <num>xi<hi rend="sup">e</hi></num> siècle ne nous permettent pas davantage d’en restituer le plan d’une façon certaine. Un manuscrit de la Bibliothèque municipale de Chartres conserve trois plans de cette époque, mais aucun ne s’applique avec évidence à Saint-Père. L’église du <num>xi<hi rend="sup">e</hi></num> siècle devait être de plan bénédictin à absidioles de grandeur et de profondeur inégales</p>
           <p>Plan de l’église actuelle</p>
         </div>
-        <div>
+        <div xml:id="r416752">
           <pb source="https://nakala.fr/10.34847/nkl.b35bq64g#2e9c566e7b7cbb3ad93adfb08a99996478ad7e04" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.b35bq64g/2e9c566e7b7cbb3ad93adfb08a99996478ad7e04/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Tour</head>
           <p>Description de la tour. Elle date, comme le clocher porche de Saint-Germain-des-Prés, du début du <num>xi<hi rend="sup">e</hi></num> siècle. Le rez-de-chaussée a été voûté au <num>xiii<hi rend="sup">e</hi></num> siècle. L’étage, unique aujourd’hui, était recoupé anciennement par un plancher porté sur des corbeaux encore visibles.</p>
         </div>
-        <div>
+        <div xml:id="r416781">
           <head rend="uc">Chapitre III
            <lb/>Nef</head>
           <p>Description de la nef. Elle est voûtée sur croisées d’ogives.</p>
@@ -150,14 +148,14 @@
           <p>Le triforium a tous les caractères architectoniques d’une œuvre des environs de 1220.</p>
           <p>La construction des fenêtres hautes, d’après la comparaison avec celles de la cathédrale de Chartres, qui sont de 1220 et celles de la cathédrale de Paris, datées de 1240, doit se placer aux environs de 1230.</p>
         </div>
-        <div>
+        <div xml:id="r416802">
           <head rend="uc">Chapitre IV
            <lb/>Bas – Cotés de la nef et chapelle saint-étienne</head>
           <p>Les deux bas-côtés sont semblables.</p>
           <p>La chapelle saint-Étienne, démolie à la Révolution, s’ouvrait au nord sur la dernière travée du bas-côté de la nef et la première travée du bas-côté du chœur. Elle avait une crypte que l’on découvrit en 1808 et qui, aujourd’hui, est détruite.</p>
           <p>Le bas-côté sud se continue pendant deux travées le long de la tour que l’on avait primitivement songé à démolir pour agrandir la nef.</p>
         </div>
-        <div>
+        <div xml:id="r416820">
           <pb source="https://nakala.fr/10.34847/nkl.b35bq64g#542899671b879e0eb16255159ceee5f51fc14199" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.b35bq64g/542899671b879e0eb16255159ceee5f51fc14199/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Chœur</head>
@@ -166,13 +164,13 @@
           <p>La claire-voie qui règne dans le chœur est du <num>xiii<hi rend="sup">e</hi></num> siècle. La balustrade dénote une influence normande.</p>
           <p>La disposition des fenêtres hautes rappelle celle des cathédrales de Strasbourg et de Cologne.</p>
         </div>
-        <div>
+        <div xml:id="r416858">
           <head rend="uc">Chapitre VI
            <lb/>Abside</head>
           <p>La partie basse de l’abside est l’œuvre d’Hilduard.</p>
           <p>Les parties hautes, très semblables à celles du chœur, datent du début du <num>xiv<hi rend="sup">e</hi></num> siècle. Les grandes fenêtres sont comparables à celles de la Sainte-Chapelle de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r416879">
           <head rend="uc">Chapitre VII
            <lb/>Bas-cotés du chœur</head>
           <p>Disposition très spéciale des voûtes des bas-côtés du chœur.</p>
@@ -180,58 +178,58 @@
           <p>Les voûtes des quatre premières travées du bas-côté sud ont été relancées vers le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle. La chapelle <pb source="https://nakala.fr/10.34847/nkl.b35bq64g#3062a6c7ab47dbacfacfcc4bed8091c88b54034f" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.b35bq64g/3062a6c7ab47dbacfacfcc4bed8091c88b54034f/full/full/0/default.jpg"/>Sainte-Soline forme, le long des deux premières travées, un embryon de transept. Elle a été modifiée au <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
           <p>La chapelle du Sacré-Cœur, qui s’ouvre sur la cinquième travée, est particulièrement intéressante. Elle doit dater des années immédiatement postérieures à 1134 et ses voûtes d’ogives sont primitives.</p>
         </div>
-        <div>
+        <div xml:id="r416923">
           <head rend="uc">Chapitre VIII
            <lb/>Déambulatoire et chapelles rayonnantes</head>
           <p>Même système original de voûtement que dans les bas-côtés du chœur.</p>
           <p>La voûte de la première travée sud a été relancée vers le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
           <p>Les trois chapelles rayonnantes datent d’Hilduard. Elles sont voûtées d’ogives et leurs arcs de communication avec le déambulatoire ont été très modifiés à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle ou au <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r416959">
           <head rend="uc">Chapitre IX
            <lb/>Charpente</head>
           <p>Toute l’ancienne charpente de l’édifice s’est conservée, sauf sur le bas-côté nord de la nef, couvert aujourd’hui d’un comble de béton.</p>
         </div>
-        <div>
+        <div xml:id="r416971">
           <head rend="uc">Chapitre X
            <lb/>Extérieur</head>
           <p>Description des parties basses extérieures. Disposition originale du bas-côté sud de la nef le long du cloître. Il n’y a pas de façade principale. Portes très simples des <num>xi<hi rend="sup">e</hi></num>, <num>xii<hi rend="sup">e</hi></num>, XIII<hi rend="sup">e </hi>et <num>xiv<hi rend="sup">e</hi></num> siècles.</p>
           <p>Les arcs-boutants doubles de la nef étaient simples primitivement : l’arc supérieur a été remonté au début du XIV<hi rend="sup">e </hi>siècle. Les arcs-boutants du chœur (1260 environ) et ceux de l’abside (1310) sont primitifs.</p>
           <p>La construction de la très légère tourelle d’escalier, élevée vers <pb source="https://nakala.fr/10.34847/nkl.b35bq64g#46d675002b4d8e47f8d0e745016d905c2935d237" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.b35bq64g/46d675002b4d8e47f8d0e745016d905c2935d237/full/full/0/default.jpg"/> le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle sur la première travée sud du déambulatoire, est un chef-d’œuvre d’audace et de science.</p>
         </div>
-        <div>
+        <div xml:id="r417026">
           <head rend="uc">Chapitre XI
            <lb/>Bâtiments monastiques</head>
           <p>Plan des bâtiments monastiques, qui ont presque tous disparu. Description du cloître et de la vieille cuisine.</p>
           <p>Deux salles voûtées d’arêtes ont seules été conservées : elles sont superposées et dans la salle du haut se rencontre une curiosité archéologique unique à l’époque romane : un pilier à pupitre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r417042">
         <head rend="uc">Troisième partie
          <lb/>Décoration intérieure – Mobilier – Trésor</head>
-        <div>
+        <div xml:id="r417050">
           <head rend="uc">Chapitre premier
            <lb/>vitraux</head>
           <p>Description détaillée de tous les vitraux. Les plus anciens sont ceux du chœur qui datent des environs de 1225 ; ceux de la nef sont du début du <num>xiv<hi rend="sup">e</hi></num> siècle, ceux de l’abside du mileu de ce siècle.</p>
           <p>Dans la claire-voie de l’abside, fragments de vitraux provenant de Saint-Hilaire de Chartres et attribués à Robert Pinaigrier (<num>xvi<hi rend="sup">e</hi></num> siècle).</p>
         </div>
-        <div>
+        <div xml:id="r417077">
           <head rend="uc">Chapitre II
            <lb/>Tombeaux</head>
           <p>Les anciens tombeaux qui se voyaient dans le pavage de l’église ne nous sont plus connus que par des témoignages écrits. Description de ces tombeaux ; épitaphes. Seule la dalle tumulaire de Simon de Bérou (<num>xiii<hi rend="sup">e</hi></num> siècle) subsiste encore.</p>
         </div>
-        <div>
+        <div xml:id="r417095">
           <pb source="https://nakala.fr/10.34847/nkl.b35bq64g#fc064b263d46ba788ba293a7b7e161e04ef4e937" n="103" facs="https://api.nakala.fr/iiif/10.34847/nkl.b35bq64g/fc064b263d46ba788ba293a7b7e161e04ef4e937/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Mobilier</head>
           <p>Autels, stalles, orgues, cloches, tableaux et statues.</p>
         </div>
-        <div>
+        <div xml:id="r417112">
           <head rend="uc">Chapitre IV
            <lb/>Trésor</head>
           <p>Reliques et argenterie. La crosse dite de Ragenfroid. Ornements.</p>
         </div>
-        <div>
+        <div xml:id="r417124">
           <head rend="uc">Chapitre V
            <lb/>Émaux</head>
           <p>Les célèbres émaux de Léonard Limosin (1547), qui, depuis 1803, se voient à l’église Saint-Père, ne faisaient pas partie « historiquement » du mobilier de l’abbaye. Ils ornaient le château d’Anet.</p>

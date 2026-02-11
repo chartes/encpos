@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,18 +54,18 @@
         <forename>Françoise</forename>
         <surname>Simeray</surname>
       </byline>
-      <div>
+      <div xml:id="r1192922">
         <head rend="uc">Sources</head>
         <p>En l’absence de toute source archivistique ou narrative, la reconstitution de l’activité du <hi rend="i">scriptorium</hi> de Saint-Amand ne peut s’appuyer que sur les manuscrits eux-mêmes. Ils sont conservés, dans leur grande majorité, à la Bibliothèque municipale de Valenciennes, où ils ont été transportés à la Révolution. Une partie se trouve également au Cabinet des manuscrits de la Bibliothèque nationale. L’ensemble constitue pour le XII’ siècle, période étudiée, un corpus homogène d’environ cent cinquante manuscrits, auxquels on ne peut ajouter que deux chartes originales de cette période, le chartrier de l’abbaye ayant disparu à la Révolution. En revanche, l’histoire de la bibliothèque s’appuie sur diverses sources archivistiques, notamment sur la sous-série 12 H des Archives départementales du Nord et sur les documents conservés aux Archives municipales de Valenciennes.</p>
       </div>
-      <div>
+      <div xml:id="r1192936">
         <head rend="uc">Introduction historique</head>
         <p>Fondée avant 639 par saint Amand, l’apôtre de la Belgique, grâce à une donation de Dagobert, l’abbaye d’Elnone connaît une première période de prospérité à l’époque carolingienne, que les invasions normandes ne viennent pas interrompre. Ses écoles sont florissantes et leurs maîtres renommés. Après l’incendie de l’abbaye en 1066 et les difficultés dues à son adaptation aux <pb source="https://nakala.fr/10.34847/nkl.730fs7y0#eccf72d5ee9d3f90a33e1992f44c2386992eb924" n="152" facs="https://api.nakala.fr/iiif/10.34847/nkl.730fs7y0/eccf72d5ee9d3f90a33e1992f44c2386992eb924/full/full/0/default.jpg"/>conditions de la féodalité, elle connaît un certain renouveau, notamment sous l’abbé Hugues II (1150-1169), période qui coïncide avec le plus grand essor du <hi rend="i">scriptorium</hi> de Saint-Amand. Par la suite, affaiblie par les ravages de la guerre de Cent Ans puis par les abus des abbés commendataires, elle est reprise en mains par l’abbé Nicolas Dubois (1621-1673), qui reconstruit les bâtiments et y rétablit la vie intellectuelle. En 1790, elle est vendue comme bien national et entièrement détruite.</p>
       </div>
-      <div>
+      <div xml:id="r1192955">
         <head rend="uc">Première partie
          <lb/>La bibliothèque de l’abbaye de Saint-Amand</head>
-        <div>
+        <div xml:id="r1192963">
           <head rend="uc">Chapitre premier
            <lb/>histoire de la bibliothèque</head>
           <p>Le plus ancien manuscrit conservé est un exemplaire en onciale de la chronique d’Eusèbe-Jérôme (Valenciennes, Bibl. mun., ms 495). Mais c’est surtout de l’époque carolingienne que date, avec le développement des écoles, le premier essor de la bibliothèque de Saint-Amand. Les manuscrits ont deux origines : le <hi rend="i">scriptorium</hi> de l’abbaye, actif dès la fin du <num>viii<hi rend="sup">e</hi></num> siècle, et, notamment après les invasions normandes, lors desquelles la bibliothèque semble avoir subi quelques pertes, les donations extérieures. Parallèlement, l’abbaye devient sous Charles le Chauve le foyer du style franco-saxon et fournit les établissements extérieurs en manuscrits de luxe.</p>
@@ -76,14 +74,14 @@
           <p>L’activité du <hi rend="i">scriptorium</hi> connaît ensuite une certaine décadence, et la bibliothèque s’enrichit peu : une centaine de manuscrits environ pour les trois derniers siècles du Moyen Age. Elle a en revanche à subir de lourdes pertes, dues aux vicissitudes de la guerre de Flandre, de la guerre de Cent Ans (elle est notamment entièrement détruite en 1340) et des guerres de Religion : un catalogue publié en 1641 dans la <hi rend="i">Bibliotheca Belgica manuscripta</hi> de Sanderus ne mentionne plus que deux cent quatre-vingt-deux manuscrits, ce qui représente, compte tenu des acquisitions de la fin du Moyen Age, une perte d’à peu près la moitié du fonds tel qu’il était à sa période de plus grande expansion, au <num>xii<hi rend="sup">e</hi></num> siècle.</p>
           <p>A l’époque moderne, la bibliothèque s’enrichit encore de quelques manuscrits, mais cette période voit surtout l’essor du fonds imprimé : il subsiste à l’heure actuelle environ deux mille cinq cents volumes, mais la bibliothèque en possédait sans doute au moins le double. Le renouveau des études imposé au <num>xvii<hi rend="sup">e</hi></num> siècle par l’abbé Dubois empêche une dispersion trop grande des manuscrits. Seul un groupe d’une quarantaine quitte l’abbaye en 1670, emporté par Charles-Maurice Le Tellier, archevêque de Reims, qui en fait don en 1700 à la Bibliothèque du roi. En 1792, les manuscrits, qui n’avaient pas quitté l’abbaye, sont transportés en bloc à Valenciennes, où ils forment aujourd’hui un fonds homogène.</p>
         </div>
-        <div>
+        <div xml:id="r1193059">
           <head rend="uc">Chapitre II
            <lb/>Organisation et emplacement</head>
           <p><hi rend="i">Emplacement.</hi> – Il n’y a pas à proprement parler d’emplacement unique pour la bibliothèque au Moyen Age : les livres étaient disséminés en plusieurs endroits de l’abbaye : église, infirmerie, école, dortoir, etc. L’essentiel du fonds était cependant sans doute conservé dans des coffres ou des armoires. A l’époque moderne, la bibliothèque occupe un étage entier des bâtiments reconstruits par l’abbé Dubois et mesure environ 55 m de long sur 10m de large, ce qui l’apparente aux plus grandes bibliothèques du royaume.</p>
           <p><hi rend="i">Bibliothécaires.</hi> – On a peu de renseignements sur les bibliothécaires du Moyen Age ; on en connaît en revanche plusieurs pour l’époque moderne, en particulier Dom Ildephonse Goetghebuer, auteur du catalogue des manuscrits publié en 1641.</p>
           <p><hi rend="i">Marques d’appartenance.</hi> – Les cotes des manuscrits se composent d’une grande lettre onciale (<num>xv<hi rend="sup">e</hi></num> siècle) ou capitale (<num>xvii<hi rend="sup">e</hi></num> siècle), suivie d’un chiffre arabe ajouté au début du <num>xvii<hi rend="sup">e</hi></num> siècle. Celles des manuscrits liturgiques sont précédées de la lettre <hi rend="i">L.</hi> Les imprimés ne portent aucune cote. Les ex-libris sont de formes variées et ont été ajoutés à des époques diverses, soit à l’intérieur des plats de reliure, soit en haut de la première page du manuscrit. Les plus anciens remontent au <num>xii<hi rend="sup">e</hi></num> siècle. On note en particulier la présence d’ex-libris copiés en même temps que le texte, sous forme de page de titre ou de colophon, en capitales rouges et vertes le plus souvent.</p>
         </div>
-        <div>
+        <div xml:id="r1193114">
           <pb source="https://nakala.fr/10.34847/nkl.730fs7y0#cbddad79c0082942039f3f3a8b933739eb7924e7" n="154" facs="https://api.nakala.fr/iiif/10.34847/nkl.730fs7y0/cbddad79c0082942039f3f3a8b933739eb7924e7/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le contenu de la bibliothèque au moyen age</head>
@@ -92,10 +90,10 @@
           <p>Enfin, on sait d’après l’<hi rend="i">Index major</hi> que la bibliothèque de Saint-Amand possédait un très beau fonds d’ouvrages médicaux, malheureusement tous disparus.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1193142">
         <head rend="uc">Deuxième partie
          <lb/>Le <hi rend="i">scriptorium</hi> de Saint-Amand au XII’ siècle</head>
-        <div>
+        <div xml:id="r1193154">
           <head rend="uc">Chapitre premier
            <lb/>fonctionnement du <hi rend="i">scriptorium</hi></head>
           <p><hi rend="i">Emplacement.</hi> – On possède très peu de renseignements sur l’emplacement du <hi rend="i">scriptorium</hi> au Moyen Age. Un compte du XVI’ siècle indique qu’il se trouvait près du chauffoir.</p>
@@ -104,13 +102,13 @@
           <p>En outre, une autre source de modèles à recopier était tout simplement les manuscrits figurant déjà dans le fonds de la bibliothèque, dont on copiait de nouveaux exemplaires en les mettant au goût du jour.</p>
           <p><hi rend="i">Le travail de copie.</hi> – La règle bénédictine prévoyant le partage du temps entre diverses activités, le temps consacré à la copie des manuscrits ne pouvait être qu’assez réduit, et il fallait parfois un à deux ans pour copier un volume de grande taille (un scribe copiait en moyenne une à deux pages par séance). Ce temps dut cependant augmenter après 1150, avec l’essor de la bibliothèque. Les manuscrits sont le plus souvent copiés par plusieurs scribes successifs ; cependant, à partir de 1150, on constate un réel effort d’homogénéisation de la production, et nombreux sont les manuscrits copiés par une seule main. Enfin, il est difficile de déterminer si les rubriques et initiales de couleur étaient confiées à des moines spécialisés dans cette tâche.</p>
         </div>
-        <div>
+        <div xml:id="r1193200">
           <head rend="uc">Chapitre II
            <lb/>Expansion du <hi rend="i">scriptorium</hi> de Saint-Amand au <num>xii<hi rend="sup">e</hi></num> siècle</head>
           <p>L’expansion du <hi rend="i">scriptorium</hi> de Saint-Amand au <num>xii<hi rend="sup">e</hi></num> siècle se manifeste avant tout par l’influence artistique qu’il a exercée sur les abbayes voisines, essentiellement Saint-Martin de Tournai, Marchiennes et Anchin, influence d’ailleurs toute réciproque. En outre, certains enlumineurs amandinois ont eux-mêmes exécuté la décoration de manuscrits pour d’autres abbayes, comme le moine Sawalon pour Marchiennes, et le « maître byzantinisant » pour Saint-Martin de Tournai. Mais il ne s’agit pas ici, comme c’est le cas au <num>ix<hi rend="sup">e</hi></num> siècle, d’une volonté délibérée de fabrication « en série » de manuscrits de luxe.</p>
           <p>L’expansion du <hi rend="i">scriptorium</hi> se mesure également au nombre de ses scribes. Ce chiffre est difficile à établir, mais on peut penser qu’au moins une dizaine de copistes y travaillaient en permanence. Il est particulièrement élevé (une cinquantaine) dans la décennie 1150-1160, époque d’apogée de la production : il faut alors penser que tous les moines de l’abbaye ont participé à la copie des manuscrits.</p>
         </div>
-        <div>
+        <div xml:id="r1193245">
           <head rend="uc">Chapitre III
            <lb/>Les caractéristiques du <hi rend="i">scriptorium</hi></head>
           <p>L’activité du <hi rend="i">scriptorium se</hi> divise en trois grandes périodes : la fin du XI<hi rend="sup">e </hi>et le début du <num>xii<hi rend="sup">e</hi></num> siècle, qui correspondent à une période de formation ; le troisième quart du <num>xii<hi rend="sup">e</hi></num> siècle, période d’apogée au cours de laquelle la systématisation des règles employées à la période précédente aboutit à la production de toute une série de manuscrits particulièrement soignés, homogènes <pb source="https://nakala.fr/10.34847/nkl.730fs7y0#530fc34cf7e3bbc8f615faacf9d5ff88fc4016e0" n="156" facs="https://api.nakala.fr/iiif/10.34847/nkl.730fs7y0/530fc34cf7e3bbc8f615faacf9d5ff88fc4016e0/full/full/0/default.jpg"/>et luxueux ; et enfin le dernier quart du siècle, au cours duquel se précise l’évolution vers l’époque gothique.</p>
@@ -129,19 +127,19 @@
           <p><hi rend="i">Décoration des manuscrits.</hi> – La décoration des manuscrits est en général assez soignée, notamment dans le troisième quart du XII’ siècle. Les principaux éléments de décoration sont les lettres ornées, très nombreuses et variées, souvent rehaussées d’or, et les initiales rouges et vertes, dont l’alternance donne leur aspect caractéristique aux manuscrits de Saint-Amand. Remarquables sont également les grandes pages de titre en lettres capitales alternativement rouges et vertes. Enfin, l’enluminure amandinoise est une des plus riches du Nord de la France au XII’ siècle. Deux artistes s’y sont particulièrement distingués : le moine Sawalon, spécialisé dans les lettres ornées, et qui a signé de son nom, dans le troisième quart du XII’ siècle, la décoration d’une grande Bible en cinq volumes (Valenciennes, Bibl. mun., mss 1-5), et, à la fin du siècle, le « maître byzantinisant ». Mais il s’agit là de brillantes individualités, et l’on ne peut pas véritablement parler d’une école d’enluminure de Saint-Amand.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1193395">
         <head rend="uc">Conclusion</head>
         <p>Après une période de formation au cours de laquelle sont exécutés quelques manuscrits assez soignés, le <hi rend="i">scriptorium</hi> de Saint-Amand atteint son apogée dans le troisième quart du XII’ siècle, période à laquelle, sous l’impulsion du bibliothécaire auteur de l’<hi rend="i">Index major,</hi> est produite toute une série de manuscrits particulièrement somptueux, ce qui implique une activité accrue du <hi rend="i">scriptorium </hi>et la collaboration de nombreux scribes ; mais cette période de splendeur toute artificielle est suivie d’un déclin rapide.</p>
       </div>
-      <div>
+      <div xml:id="r1193417">
         <head rend="uc">Appendices</head>
         <p>Édition de l’<hi rend="i">Index minor.</hi> – Édition de l’<hi rend="i">Index major.</hi> – Tables de concordance des cotes des manuscrits.</p>
       </div>
-      <div>
+      <div xml:id="r1193435">
         <head rend="uc">Notices des manuscrits</head>
         <p>Les notices concernent les cent cinquante manuscrits conservés.</p>
       </div>
-      <div>
+      <div xml:id="r1193445">
         <pb source="https://nakala.fr/10.34847/nkl.730fs7y0#2eb16e00b51ae9ef326a13f2b345716e8b7e4119" n="159" facs="https://api.nakala.fr/iiif/10.34847/nkl.730fs7y0/2eb16e00b51ae9ef326a13f2b345716e8b7e4119/full/full/0/default.jpg"/>
         <head rend="uc">Planches</head>
         <p>Sur les soixante-dix planches, une partie consiste en reproductions de caractère paléographique ; les autres photographies concernent surtout les reliures et les enluminures.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -69,24 +67,24 @@
         <head rend="uc">Sources manuscrites et imprimées</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r313648">
         <head rend="uc">Première partie
          <lb/>La jeunesse
          <lb/>et les expéditions guerrières d’Amauri</head>
-        <div>
+        <div xml:id="r313658">
           <head rend="uc">Chapitre premier
            <lb/>la jeunesse d’Amauri avant son départ pour l’Italie
            <lb/>(1260 ?-1289)</head>
           <p>La date approximative de la naissance d’Amauri peut se placer vers 1260. Sur les ordres du roi, il met la ville <pb source="https://nakala.fr/10.34847/nkl.2dcdk40r#6359e2f0eef3c01e4e21169b1b73ee775d8265d7" n="138" facs="https://api.nakala.fr/iiif/10.34847/nkl.2dcdk40r/6359e2f0eef3c01e4e21169b1b73ee775d8265d7/full/full/0/default.jpg"/>de Narbonne en état de défense (mars 1281). Son oncle, Amauri de Pérignan, lui reproche d’avoir envahi ses terres et empiété sur sa juridiction (14 février 1282). Il est fait prisonnier à Perpignan par le roi d’Aragon, en 1283, dès l’ouverture de la campagne de Catalogne. A plusieurs reprises, le chapitre de Narbonne l’accuse d’avoir envahi son territoire de Névian et molesté les chanoines (1287-1288).</p>
         </div>
-        <div>
+        <div xml:id="r313677">
           <head rend="uc">Chapitre II
            <lb/>Amauri au service de la ligue guelfe de Toscane
            <lb/>(mai 1289-décembre 1291)</head>
           <p>Amauri accompagne en Italie le fils de Charles d’Anjou, Charles II, qui le donne aux Florentins pour capitaine de la <hi rend="i">taglia</hi> ou ligue guelfe de Toscane (mai 1289). A la tête des forces guelfes, Amauri remporte sur les Gibelins d’Arezzo la grande victoire de Campaldino (11 juin 1289). Le baile ou gouverneur d’Amauri, Guillaume Bernard de Durfort, trouve la mort dans la bataille. La ville d’Arezzo, assiégée pendant vingt jours, résiste à toutes les attaques. Amauri lève le siège et fait dans Florence une entrée triomphale.</p>
           <p>Il est réélu capitaine de la <hi rend="i">taglia</hi> pour l’année 1290. A la grande guerre succède la guerre d’escarmouches (1290). Réélu de nouveau capitaine pour l’année 1291, Amauri continue à pousser des incursions dans les terres des Gibelins, mais sans livrer de grande bataille (1291). A la fin de 1291, Amauri quitte l’Italie et rentre en France où nous le trouvons au commencement de l’année 1292.</p>
         </div>
-        <div>
+        <div xml:id="r313702">
           <pb source="https://nakala.fr/10.34847/nkl.2dcdk40r#0334c472037968145664208a3ef3f159faa7edb3" n="139" facs="https://api.nakala.fr/iiif/10.34847/nkl.2dcdk40r/0334c472037968145664208a3ef3f159faa7edb3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La jeunesse d’Amauri après son retour de Toscane
@@ -95,10 +93,10 @@
           <p>Au mois de juin 1298, Amauri met d’accord le comte de Foix et la reine de Majorque. Guillaume de Narbonne, son oncle, lui laisse en mourant plusieurs fiefs pour lesquels les nouveaux feudataires d’Amauri lui prêtent l’hommage et le serment de fidélité (juin 1298). Amauri succède à son père entre le 24 septembre et le 14 octobre 1298.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r313725">
         <head rend="uc">Deuxième partie
          <lb/>Le gouvernement du vicomte Amauri II</head>
-        <div>
+        <div xml:id="r313733">
           <head rend="uc">Chapitre premier
            <lb/>rapports d’Amauri II avec le roi de France</head>
           <p>A la politique espagnole de ses prédécesseurs, Amauri fait succéder la politique française. Il prête hommage à Philippe le Bel (fin de 1298). Au moment de la guerre de Flandre, Amauri et ses Juifs sont exemptés de la contribution du cinquantième (23 juillet 1300). Il se fait accorder des lettres de surséance (février 1301).</p>
@@ -109,7 +107,7 @@
           <p>Il intente un procès au roi devant le Parlement de Paris, quand les officiers royaux mettent en vente, au profit du roi, les biens confisqués sur ses Juifs narbonnais (1307-1309). Le roi projette la construction d’un port dans le territoire de Leucate. Il entre en pourparlers avec les coseigneurs de Leucate (octobre 1302) et avec le vicomte de Narbonne (avril 1309). Ce dernier abandonne à Philippe le Bel, contre la promesse d’une compensation équivalente, la haute justice du château de Leucate et du terroir de Saint-Pancrace, les droits de leude perçus à Narbonne sur terre et sur mer, enfin la moitié de la juridiction exercée par le vicomte au château de Villafargues et dans le terroir de Livière. L’acte de pariage institue à Narbonne une cour commune, c’est-à-dire semi-royale et semi-vicomtale. Le roi accorde au vicomte une indemnité de <pb source="https://nakala.fr/10.34847/nkl.2dcdk40r#d3286177f14d8a341bbb80ba711d1dde44b04336" n="141" facs="https://api.nakala.fr/iiif/10.34847/nkl.2dcdk40r/d3286177f14d8a341bbb80ba711d1dde44b04336/full/full/0/default.jpg"/>5.000 livres pour le dédommager des immeubles confisqués sur ses Juifs (5 juin 1309). Il lui délivre même des lettres de rémission (7 juin 1309). En échange du château de Leucate, les coseigneurs de ce fief, Raimond de Durban et Gaubert de Durban reçoivent, le premier, le château d’Olonzac (8 juin 1309), le second, le château de Villegly (23 octobre 1310). Quant au vicomte, il reçoit plusieurs terres dans le Minervois et dans le Narbonnais (14 août 1309). Mais la ville de Laure, comprise dans la donation faite par Philippe le Bel à Amauri II, achète son retour au domaine royal (14 novembre 1318). La ville d’Olonzac ne réussit pas à échapper à la domination de Raimond de Durban (1321-1323). Le projet de construction d’un port de mer à Leucate échoue et le pariage est rompu (14 juin 1322).</p>
           <p>Le vicomte reçoit du roi de nouvelles lettres de rémission (janvier 1323). Charles IV le Bel lui confie le commandement d’une flotte destinée à une expédition dans les royaumes d’Arménie et de Chypre. Il conclut un accord avec le vicomte à ce sujet (13 février 1323). Mais ce projet de croisade ne reçoit aucune exécution (1324-1328). Amauri meurt le 19 juin 1328.</p>
         </div>
-        <div>
+        <div xml:id="r313770">
           <head rend="uc">Chapitre II
            <lb/>Rapports d’Amauri II avec l’archevêque de Narbonne et
            <lb/>avec le clergé régulier de Narbonne, du narbonnais
@@ -123,7 +121,7 @@
           <p>Il accorde une rente viagère aux Dominicains de Narbonne (21 mars 1300) et une pension perpétuelle aux Hospitaliers (1318).</p>
           <p>Il autorise l’abbaye de Grandselve à faire boire son bétail à ses abreuvoirs (1318 ou 1319).</p>
         </div>
-        <div>
+        <div xml:id="r313825">
           <head rend="uc">Chapitre III
            <lb/>Rapports d’Amauri II avec les consuls de Narbonne</head>
           <p>A l’avènement du vicomte, les consuls et les habitants de Narbonne lui prêtent le serment de fidélité (26 octobre 1298). Dans leurs luttes contre Amauri H, les consuls sont puissamment secondés par les agents royaux.</p>
@@ -133,7 +131,7 @@
           <p>Les consuls accusent constamment le vicomte ou ses agents de violer les coutumes de la ville.</p>
           <p>Enfin, les mêmes reprochent au vicomte d’entraver les travaux qu’ils font exécuter sur le parcours de la rivière d’Aude (janvier 1313-janvier 1314).</p>
         </div>
-        <div>
+        <div xml:id="r313852">
           <pb source="https://nakala.fr/10.34847/nkl.2dcdk40r#22dce476a8fb3ac3fb8aff7daf6af6e8b5508d16" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.2dcdk40r/22dce476a8fb3ac3fb8aff7daf6af6e8b5508d16/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Rapports d’Amauri II avec ses vassaux et avec les
@@ -154,13 +152,13 @@
             <p>Les habitants des communautés consulaires, les plus libres de tous, se préoccupent avant tout d’échapper à la domination vicomtale.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r313928">
           <head rend="uc">Chapitre V
            <lb/>Rapports d’Amauri II avec les seigneurs voisins</head>
           <p>Amauri II entretient de fréquentes relations avec ses deux oncles maternels, Roger Bernard III, comte de Foix, et Jacques I<hi rend="sup">er</hi>, roi de Majorque. Il conclut avec ce dernier un accord au sujet de la leude perçue au grau de Narbonne (31 mai 1304).</p>
           <p>Le successeur de Jacques I<hi rend="sup">er</hi>, Sanche, joue le rôle de conciliateur entre Amauri II et les membres de sa famille.</p>
         </div>
-        <div>
+        <div xml:id="r313951">
           <pb source="https://nakala.fr/10.34847/nkl.2dcdk40r#85a7c7ae4ed0b7ccd51d91e998ff287c18b51c69" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.2dcdk40r/85a7c7ae4ed0b7ccd51d91e998ff287c18b51c69/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Rapports d’Amauri II avec sa famille</head>
@@ -170,10 +168,10 @@
           <p>Amauri marie Sybille, Jeanne et Gaucerande avant de <pb source="https://nakala.fr/10.34847/nkl.2dcdk40r#ab24c9db96e1b6433eb9e78f2b32e124fe3b9c91" n="147" facs="https://api.nakala.fr/iiif/10.34847/nkl.2dcdk40r/ab24c9db96e1b6433eb9e78f2b32e124fe3b9c91/full/full/0/default.jpg"/>mourir. Sa quatrième fille. Constance, se marie un an après sa mort.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r313995">
         <head rend="uc">Troisième partie
          <lb/>L’administration du vicomte Amauri II</head>
-        <div>
+        <div xml:id="r314003">
           <head rend="uc">Chapitre premier
            <lb/>Etat territorial de la vicomté sous Amauri II</head>
           <p>Comme seigneur de Narbonne et comme vassal de l’archevêque, Amauri tient en fief le bourg de Narbonne et une partie de la cité.</p>
@@ -181,7 +179,7 @@
           <p>L’état territorial de la vicomté est modifié, à plusieurs reprises, par la constitution d’un apanage en faveur de Pierre de Narbonne (29 juillet 1299), par la conclusion d’un pariage entre le vicomte et le roi (7 avril 1309), enfin par la constitution d’un apanage en faveur de Guillaume de Narbonne (6 juin 1321).</p>
           <p>En somme, les limites de la vicomté sont, à peu de chose près, les mêmes que celles de l’arrondissement actuel de Narbonne.</p>
         </div>
-        <div>
+        <div xml:id="r314024">
           <head rend="uc">Chapitre II
            <lb/>La justice et l’administration dans Narbonne et hors
            <lb/>de Narbonne</head>
@@ -210,7 +208,7 @@
             <p>Après l’acquisition d’une partie du Minervois (14 août 1309), le vicomte place à la tête de sa terre du Minervois un viguier assisté d’un lieutenant.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r314156">
           <head rend="uc">Chapitre III
            <lb/>Les finances d’Amauri II : ses dépenses et ses revenus</head>
           <p>Travaux publics, gages, pensions, dots absorbent une grande partie des ressources du vicomte. Ses revenus <pb source="https://nakala.fr/10.34847/nkl.2dcdk40r#8f7ee693c551122e564cca98478e4b3a12bbf0c4" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.2dcdk40r/8f7ee693c551122e564cca98478e4b3a12bbf0c4/full/full/0/default.jpg"/>lui proviennent de l’exercice de ses droits féodaux et de l’exploitation de ses domaines.</p>
@@ -220,7 +218,7 @@
           <p>4. <hi rend="i">Revenus et droits domaniaux.</hi> – Dans ses domaines, situés aux environs de Narbonne, le vicomte tire des revenus de la chasse, de la pêche, de la culture du froment, de l’exploitation des forêts, de son droit de forestage.</p>
           <p>Amauri II n’exerce plus le droit de naufrage : il est obligé de restituer les épaves à leurs légitimes propriétaires.</p>
         </div>
-        <div>
+        <div xml:id="r314220">
           <pb source="https://nakala.fr/10.34847/nkl.2dcdk40r#621febd8bbf3da11a55a096ce37b989b9c27ff84" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.2dcdk40r/621febd8bbf3da11a55a096ce37b989b9c27ff84/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>L’entourage du vicomte Amauri II. Conclusion</head>

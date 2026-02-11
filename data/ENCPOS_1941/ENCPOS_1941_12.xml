@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1941_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1941_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,7 +60,7 @@
         <head rend="uc">Introduction bibliographique</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r618001">
         <head rend="uc">Première partie
          <lb/>Biographie</head>
         <p>I. <hi rend="i">Sources.</hi> – Les œuvres de Martial d’Auvergne nous renseignent très rarement sur sa vie. La <hi rend="i">Chronique scandaleuse </hi>décrit l’accès de fièvre qui le rendit fou en 1466. Parmi les documents d’archives, les registres du Parlement de Paris mentionnent quelquefois, mais sèchement, le procureur d’Auvergne ; les archives de la paroisse de Saint-Germain-le Vieux, dans laquelle il habitait, sont moins pauvres : nous y trouvons les preuves d’un côté de son activité ignoré jusqu’ici.</p>
@@ -73,10 +71,10 @@
         <p>VI. <hi rend="i">Le métier.</hi> – Dans le monde agité qui peuple le Palais de Justice, un procureur n’est pas un personnage important. Les procureurs sont soumis à une réglementation professionnelle stricte. Ils ne sont pas populaires. Affaires dans lesquelles intervient Martial d’Auvergne.</p>
         <p>VII. <hi rend="i">La vie privée.</hi> – Martial se marie avec Martine Fournier, fille de Jacques Fournier, conseiller en Parlement, au début de juin 1466 : trois semaines après, il est pris d’un terrible accès de fièvre et se jette par la fenêtre de sa chambre, mais n’en meurt point. Il renonce dès lors aux « livres d’amours et vanité ». – Ses quatre fils : Guillaume, Germain, Louis et Martial. – Il s’occupe des intérêts de sa paroisse : il en est marguillier de 1471 à 1474, et probablement de 1484 à 1487. Il fait dans son église diverses fondations pieuses. Il meurt le 13 mai 1508 ; le 28 octobre suivant, quatre cents <pb source="https://nakala.fr/10.34847/nkl.fd60eme9#72b18e9f6bb4bfb0e1ed7d563d557f165a2f967d" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd60eme9/72b18e9f6bb4bfb0e1ed7d563d557f165a2f967d/full/full/0/default.jpg"/>pauvres se régalent aux Bernardins du dîner que Martial, par son testament, avait ordonné qu’on leur servît.</p>
       </div>
-      <div>
+      <div xml:id="r618110">
         <head rend="uc">Deuxième partie
          <lb/>Les <hi rend="i">Vigiles de Charles VII</hi></head>
-        <div>
+        <div xml:id="r618121">
           <head rend="uc">Chapitre premier
            <lb/>manuscrits et éditions.</head>
           <p>I. <hi rend="i">Manuscrits.</hi> – Le manuscrit français 5054 de la Bibliothèque nationale représente la version originale des <hi rend="i">Vigiles de Charles VII.</hi> Le manuscrit 503 de Chantilly en est la copie.</p>
@@ -84,7 +82,7 @@
           <p>III. <hi rend="i">Filiation du texte.</hi> – La première édition, celle de Du Pré, dérive du ms. fr. 5054. Les éditions suivantes reproduisent le texte de la première, directement ou indirectement.</p>
           <p>IV. <hi rend="i">Modifications apportées par l’ensemble des éditions à la version originale.</hi> – Certaines d’entre elles ont pour objet de corriger des fautes patentes, d’améliorer la versification, le style ou la langue, de compléter l’information historique. Il semble bien ressortir de cela que Martial a revu lui-même son œuvre avant de la livrer à l’impression.</p>
         </div>
-        <div>
+        <div xml:id="r618162">
           <head rend="uc">Chapitre II
            <lb/>L’œuvre.</head>
           <p>I. <hi rend="i">Date de composition.</hi> – Les <hi rend="i">Vigiles</hi> ont été composées entre 1477 et 1482.</p>
@@ -99,7 +97,7 @@
           <p>b) <hi rend="i">Versification.</hi> – – 1. <hi rend="i">Compte des syllabes à l’intérieur du vers.</hi> Non-élision du <hi rend="i">e</hi> final des polysyllabes ; les syllabes muettes comptent ou ne comptent pas suivant les besoins du vers ; élision du <hi rend="i">i</hi> de <hi rend="i">qui</hi> et de <hi rend="i">si</hi> devant voyelles ; différentes synérèses ; vers faux. – 2. <hi rend="i">Strophes.</hi> Dans les leçons des <pb source="https://nakala.fr/10.34847/nkl.fd60eme9#ed8d43b9cd69e05045d6a6c55029d97cbeca738d" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.fd60eme9/ed8d43b9cd69e05045d6a6c55029d97cbeca738d/full/full/0/default.jpg"/><hi rend="i">Vigiles</hi> et des <hi rend="i">Dévotes louanges à la Vierge,</hi> Martial a mis en œuvre des types de strophes et des mètres divers et souvent originaux. On ne rencontre cependant pas de forme lyrique fixe, comme la ballade ou le lai, à l’exception du groupe de huitains à refrain qui constitue la première partie de la leçon de Labour.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r618381">
         <head rend="uc">Appendices</head>
         <div>
           <head rend="uc">I. Lexique.</head>

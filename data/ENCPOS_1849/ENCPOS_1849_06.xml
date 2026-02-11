@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1849_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1849_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,30 +54,30 @@
         <surname>Gossin</surname>
         <roleName rend="uc">Licencié en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r6005">
         <head rend="uc">Positions.</head>
-        <div>
+        <div xml:id="r6011">
           <head rend="uc">I.</head>
           <p>Chez tous les peuples, on séquestra les lépreux. En France, cette séquestration avait lieu avec des formes solennelles, par le double concours de l’autorité civile et de l’autorité ecclésiastique.</p>
         </div>
-        <div>
+        <div xml:id="r6021">
           <head rend="uc">II.</head>
           <p>Elle avait pour principal effet d’interdire aux lépreux la compagnie des hommes, l’entrée des villes, des églises et des lieux publics.</p>
         </div>
-        <div>
+        <div xml:id="r6031">
           <head rend="uc">III.</head>
           <p>Elle entraînait certaines restrictions à la jouissance des droits civils. En général, le lépreux ne pouvait ni aliéner, ni succéder, ni tester, ni ester en justice. Il conservait seulement l’usufruit de ses biens.</p>
         </div>
-        <div>
+        <div xml:id="r6041">
           <pb source="https://nakala.fr/10.34847/nkl.a88bx8i9#e50d48c85eac2162efbdd3dd7eab50d43e86d9ef" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.a88bx8i9/e50d48c85eac2162efbdd3dd7eab50d43e86d9ef/full/full/0/default.jpg"/>
           <head rend="uc">IV.</head>
           <p>Le mariage n’était pas dissous par la lèpre survenante ; mais les fiançailles et les promesses de mariage étaient rompues.</p>
         </div>
-        <div>
+        <div xml:id="r6056">
           <head rend="uc">V.</head>
           <p>De nombreux hôpitaux furent consacrés au soulagement des lépreux. L’ordre de Saint-Lazare se dévoua particulièrement à leur service.</p>
         </div>
-        <div>
+        <div xml:id="r6066">
           <head rend="uc">VI.</head>
           <p>Après l’extinction de la lèpre en France, la dotation immobilière des léproseries, d’abord affectée à l’ordre de Saint-Lazare, par édit de 1672, fit retour, par un autre édit de 1693, aux hôpitaux destinés aux pauvres atteints de maladies ordinaires.</p>
         </div>

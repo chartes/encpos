@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1992_25" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1992_25" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <surname>Vidal</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1223452">
         <head rend="uc">Introduction</head>
         <p>Le choix d’un cadre chronologique aussi restreint que cinq années pour aborder l’étude d’une personnalité telle que Joseph Paul-Boncour, d’une longévité assez exceptionnelle (1873-1972) et présente dans la vie publique française depuis l’affaire Dreyfus, peut paraître relever de la gageure. Mais la période considérée constitue sans aucun doute le point culminant d’une carrière parlementaire et ministérielle de tout premier plan quant aux responsabilités exercées, en politique étrangère notamment, pendant les années 1932-1933 et encore au premier semestre de 1936.</p>
         <p>Le rôle de Paul-Boncour n’en a pas moins été très largement éclipsé, dans l’historiographie comme dans la mémoire collective, par les deux figures de Léon Blum et d’Édouard Herriot, ses contemporains, qui ont présidé parallèlement aux destinés des deux grands partis politiques du temps, la SFIO et les radicaux valoisiens.</p>
@@ -65,17 +63,17 @@
         <p>Les années 1932-1936 sont exceptionnellement troublées : sur la scène internationale, le rideau tombe alors définitivement sur les deux premiers actes diplo<pb source="https://nakala.fr/10.34847/nkl.99c25960#3440c321f30bc24c933a37d4779e2635cb4c7904" n="234" facs="https://api.nakala.fr/iiif/10.34847/nkl.99c25960/3440c321f30bc24c933a37d4779e2635cb4c7904/full/full/0/default.jpg"/>matiques de l’après-guerre, Versailles et Locarno, avec les dernières grandes conférences internationales (sur les réparations et le désarmement) dont le climat tendu prélude à l’atmosphère de peur qui va s’instaurer progressivement après l’avènement d’Hitler au pouvoir outre-Rhin.</p>
         <p>La politique française, bientôt privée de ses deux maîtres à penser de la décennie précédente, Briand et Poincaré, alors que le pays est ébranlé dans sa prospérité et sa sécurité, entre à son tour dans la zone des tempêtes : les déchirements et, pour finir, la faillite de la majorité parlementaire du cartel, issue des urnes en mai 1932, débouchent sur les événements du 6 février 1934 et sur la plus grave crise institutionnelle qu’ait connue le régime. La recomposition du paysage politique qui s’ensuit alors à gauche s’opère sur une ligne de défense républicaine propre à fédérer les énergies, mais peu faite pour dissiper les équivoques que fait planer la montée des périls extérieurs, comme l’illustrent bien les prises de position souvent pleines d’ambiguïté de Paul-Boncour.</p>
       </div>
-      <div>
+      <div xml:id="r1223479">
         <head rend="uc">Sources</head>
         <p>Les papiers Paul-Boncour déposés aux Archives nationales sont à compléter par le fonds homonyme déposé aux Archives du ministère des Affaires étrangères par le neveu et collaborateur du ministre, intéressant essentiellement le rôle de ce dernier à Genève en 1932. Pour la période considérée, le fonds des Archives nationales est assez hétérogène : les coupures de presse relatives aux activités de Paul-Boncour comme ministre et parlementaire l’emportent quantitativement ; s’y ajoutent les version manuscrites et dactylographiées de ses discours, des documents de travail utilisés dans l’exercice de ses fonctions (rapports, procès-verbaux de séances, textes préparatoires, brochures dédicacées par leur auteur à son intention...) et, source qualitativement la plus riche, des fragments de correspondance, concernant surtout la vie politique du Loir-et-Cher au rythme des consultations électorales.</p>
         <p>À côté des fonds « institutionnels », touchant aux activités genevoises de Paul-Boncour délégué de la France auprès du Conseil de la Société des nations, puis ministre des Affaires étrangères, conservés dans la série SDN au Quai d’Orsay, dans laquelle l’identification des auteurs des documents ne manque pas de poser fréquemment problème, force est de recourir à d’autres fonds d’archives privées pour mieux cerner le rôle de Paul-Boncour.</p>
         <p>Particulièrement intéressants sont les fonds Weygand à Vincennes. Herriot, Avenol ou Massigli aux Affaires étrangères ; d’autres se révèlent plus décevants, car essentiellement constitués de documents officiels disponibles par ailleurs (fonds Jouvenel au Quai d’Orsay, Flandin à la Bibliothèque nationale).</p>
         <p>Dans le domaine de la politique intérieure française, les fonds de la préfecture de police ou de la sous-série F’ des Archives nationales sont pratiquement muets, tant sur l’individu que sur l’USR ensuite. Le fonds Léon Blum de la Fondation nationale des sciences politiques, les papiers Ramadier déposés aux Archives départementales de l’Aveyron se révèlent riches d’indications éparses sur la mouvance néo-socialiste, l’USR et le rôle de Paul-Boncour en son sein. Enfin les <pb source="https://nakala.fr/10.34847/nkl.99c25960#c37ddf17c3925a713f19c859c7439d58cff0f924" n="235" facs="https://api.nakala.fr/iiif/10.34847/nkl.99c25960/c37ddf17c3925a713f19c859c7439d58cff0f924/full/full/0/default.jpg"/>papiers Clémendot déposés à l’institut d’histoire du syndicalisme de l’université de Paris I donnent une ouverture intéressante sur la perception des événements politiques au niveau de la « base » militante du mouvement. Cependant, les lacunes malgré tout énormes de cette documentation ont rendu nécessaire un dépouillement systématique des divers organes de presse parisiens de la mouvance « néo ».</p>
       </div>
-      <div>
+      <div xml:id="r1223503">
         <head rend="uc">Première partie
          <lb/>1931-1932 ; l’année des trahisons ?</head>
-        <div>
+        <div xml:id="r1223511">
           <head rend="uc">Chapitre premier
            <lb/>années de jeunesse et de militantisme socialiste</head>
           <p>Si le cadre chronologique de la <num>xv<hi rend="sup">e</hi></num> législature de la <num>iii<hi rend="sup">e</hi></num> République se trouve correspondre à la phase la plus spectaculaire de la vie politique de Paul-Boncour, ce n’est pas simplement l’effet du hasard, mais bien l’aboutissement d’un parcours politique parfaitement maîtrisé par son auteur et pour lequel, en conséquence, les bornes législatives sont autant de repères commodes.</p>
@@ -85,7 +83,7 @@
           <p>Il déploie alors ses talents dans différents domaines : éphémère directeur de <hi rend="i">Floréal</hi> (1920-1923), parlementaire actif, écouté de tout l’hémicycle sur les questions de politique étrangère et de défense nationale, il est coopté dans la délégation française à l’Assemblée de la Société des nations après la victoire électorale du Cartel en 1924. Élu, à la Chambre, président de la commission des Affaires étrangères (1928), il y est reconduit jusqu’à son élection au Sénat à l’automne 1931.</p>
           <p>Resté parallèlement à la tête de son cabinet d’avocat, et s’assurant ainsi une aisance matérielle gage de totale indépendance politique, Paul-Boncour, même après avoir repris en 1924 le siège législatif d’Albert Thomas dans le Tarn, ne <pb source="https://nakala.fr/10.34847/nkl.99c25960#4b01c6b5f2f788b330e12ebdc86f85e8601e1546" n="236" facs="https://api.nakala.fr/iiif/10.34847/nkl.99c25960/4b01c6b5f2f788b330e12ebdc86f85e8601e1546/full/full/0/default.jpg"/>poursuivra pas de carrière politique d’élu local dans le sens d’un socialisme municipal réalisateur, comme celui de son camarade de parti et voisin aveyronnais Ramadier à Decazeville, ou de gestionnaire des intérêts départementaux, comme son ami de jeunesse Henry de Jouvenel, président du Conseil général de la Corrèze.</p>
         </div>
-        <div>
+        <div xml:id="r1223559">
           <head rend="uc">Chapitre II
            <lb/>L’arrivée aux affaires</head>
           <p>Le congrès SFIO de Tours du printemps 1931, rompant avec toute politique de défense nationale en régime capitaliste, offre à Paul-Boncour le prétexte idéal pour se libérer de la discipline du parti, à quelques mois d’échéances déterminantes pour l’avenir du pays et le sien propre : le scrutin législatif du printemps 1932 et la conférence internationale pour la limitation des armements, qui doit s’ouvrir en février 1932.</p>
@@ -95,17 +93,17 @@
           <p>Suspect de trahison de l’idéal sociétaire et de la cause de la paix par le désarmement aux yeux de ses amis socialistes et même de l’aile gauche radicale, Paul-Boncour s’efforce au début de l’automne de retourner une conjoncture diplomatique de plus en plus défavorable à la France, en déposant sur la table de la Conférence un plan de sécurité et de désarmement à géométrie variable en fonction de la position géographique des États signataires par rapport à l’Europe. Mais cette initiative, âprement discutée à Paris tant par les militaires que par les politiques avant sa mise au point définitive, se trouve de fait dépassée lors de sa <pb source="https://nakala.fr/10.34847/nkl.99c25960#daa4b7aba989a98abcef407e7db381524a867bc6" n="237" facs="https://api.nakala.fr/iiif/10.34847/nkl.99c25960/daa4b7aba989a98abcef407e7db381524a867bc6/full/full/0/default.jpg"/>communication en novembre à Genève, où Herriot et Paul-Boncour doivent le 10 décembre entériner, par une formule lourde d’équivoques, la reconnaissance de principe au Reich de l’égalité des droits dans le domaine des armements.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1223589">
         <head rend="uc">Deuxième partie
          <lb/>1933 ou l’épreuve du pouvoir</head>
-        <div>
+        <div xml:id="r1223597">
           <head rend="uc">Chapitre premier
            <lb/>la présidence du conseil pour prendre date</head>
           <p>Sur ces entrefaites, la chute du gouvernement sur une autre question de politique étrangère (le refus par la Chambre du règlement des dettes de guerre aux Etats-Unis après la suspension par l’Allemagne du paiement des réparations) vaut à Paul-Boncour d’accéder à la présidence du Conseil, le 18 décembre. Mais c’est pour s’y trouver confronté au nœud des contradictions de la majorité du Cartel issue des urnes au printemps précédent. Déjà divisés par des nuances plus que significatives en politique étrangère, radicaux et socialistes se révèlent surtout irréconciliables dans le domaine de la politique budgétaire gouvernementale.</p>
           <p>Paul-Boncour, ayant affirmé sa parfaite continuité de pensée vis-à-vis de son prédécesseur, sollicite en vain et, semble-t-il, sans grande conviction, la participation des socialistes au gouvernement. Mais, ayant essuyé un refus, n’en tire pas les conséquences et va payer le prix de son relatif isolement politique. La commission des Finances de la Chambre, numériquement dominée par la SFIO et les valoisiens, va opposer au projet de budget rigoureusement équilibré du ministre des Finances, le modéré Henry Chéron, un contre-projet socialiste d’inspiration toute différente.</p>
           <p>Après un vain essai de concertation avec les syndicats de la fonction publique auxquels il propose, en échange de leur collaboration, la consécration d’une reconnaissance légale, le sénateur du Loir-et-Cher se résigne à démissionner, posant ainsi implicitement sa candidature pour un éventuel retour au pouvoir et, dans l’immédiat, pour son maintien au Quai d’Orsay.</p>
         </div>
-        <div>
+        <div xml:id="r1223615">
           <pb source="https://nakala.fr/10.34847/nkl.99c25960#8b2d29c95a9851c36007cfb979cd6589676fade2" n="238" facs="https://api.nakala.fr/iiif/10.34847/nkl.99c25960/8b2d29c95a9851c36007cfb979cd6589676fade2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Aux affaires étrangères</head>
@@ -117,7 +115,7 @@
           <p>Le scandale Stavisky, qui provoque la démission du gouvernement Chautemps fin janvier 1933, marque la fin de l’ère Paul-Boncour au Quai d’Orsay d’où, à peine installé, Daladier se voit à son tour délogé par l’émeute du 6 février, événement qui marque le tournant de la législature sur le plan intérieur.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1223653">
         <head rend="uc">Troisième partie
          <lb/>Du 6 février au front populaire :
          <lb/>essai de recomposition au centre gauche</head>
@@ -128,14 +126,14 @@
         <pb source="https://nakala.fr/10.34847/nkl.99c25960#582261cd55d08e5db1781b65b8b9611ef4a8ccfb" n="240" facs="https://api.nakala.fr/iiif/10.34847/nkl.99c25960/582261cd55d08e5db1781b65b8b9611ef4a8ccfb/full/full/0/default.jpg"/>
         <p>Peut-on alors encore parler de parcours sans faute pour le sénateur du Loir-et-Cher à l’occasion d’un retour au pouvoir que l’on pourrait croire ardemment désiré ? Il s’en faut de beaucoup, car la combinaison gouvernementale dont l’USR se trouve être partie n’offre guère de cohésion et, partant, n’autorise à prendre aucune des mesures que les néos appelaient de leurs vœux. Pour sa part, Paul-Boncour s’est trouvé relégué dans l’emploi honorifique de ministre d’Etat chargé des relations avec la SDN ; il semble avoir pressenti le risque pour l’USR, privée de ses deux chefs les plus prestigieux, d’aller à la bataille électorale très amoindrie et victime de l’usure d’un pouvoir condamné à l’inaction, ce qui se vérifie largement les 27 avril et 3 mai.</p>
       </div>
-      <div>
+      <div xml:id="r1223684">
         <head rend="uc">Quatrième partie
          <lb/>Le cabinet Sarraut, ou l’effondrement du système français
          <lb/>de sécurité collective</head>
         <p>Le droit de regard dont dispose en quelque sorte Paul Boncour sur un Quai d’Orsay occupé par le leader de F Alliance démocratique, Pierre-Étienne Flandin, ne saurait le satisfaire complètement. Car, lavé des accusations portées contre sa politique de 1933 par l’oubli et l’abandon par Laval et Flandin de la ligne diplomatique de Barthou, le sénateur du Loir-et-Cher a soigneusement préparé sa rentrée sur la scène internationale : une intervention remarquée à la tribune du Sénat, lors des débats de mars 1935 sur le retour à un service militaire de deux ans, suivie, un mois plus tard, d’un voyage triomphal en Roumanie et en Yougoslavie, enfin une participation active aux travaux de la commission des Affaires étrangères de la haute assemblée suffisent à l’imposer à l’attention de Laval, en septembre 1935, pour meubler de personnalités donnant toutes garanties de loyalisme aux institutions genevoises la délégation française à l’Assemblée de la SDN, aux côtés d’Herriot et Georges Bonnet. Leur présence vaut-elle pour autant approbation tacite de la ligne politique du président du Conseil dans l’affaire éthiopienne ? Quoique ses silences soient moins éloquents que ceux d’Herriot, il semble bien qu’il n’en soit pas non plus question en ce qui concerne Paul-Boncour.</p>
         <p>Rentré au gouvernement, mais privé de tout pouvoir décisionnel direct, la remilitarisation de la zone rhénane par le Reich, le 7 mars, va-t-elle enfin lui offrir l’occasion de faire prévaloir une ligne de fermeté ? Partie prenante des consultations restreintes à la présidence du Conseil qui suivent l’entrée des troupes allemandes, il semble, devant les arguments opposés par l’état-major à toute perspective de riposte militaire, se ranger assez vite au point de vue de Flandin et va s’employer à ses côtés à Londres à négocier une réassurance britannique des frontières franco-belges. Négociation difficile, sur laquelle pèse aussi l’hypothèque de l’attitude italienne, conditionnée par le dénouement rapide de la guerre éthiopienne. Et, appelé à plusieurs reprises à représenter la France à Genève au sein des instances chargées du suivi de la crise abyssine, Paul-Boncour dispose d’une marge de manœuvre trop réduite pour faire prévaloir une solution négociée avant l’effondrement militaire de l’empire du Négus, début mai. Aussi, conscient de l’urgence des <pb source="https://nakala.fr/10.34847/nkl.99c25960#b7e2c13e9216a047aa7bf684995fbbc3620e62b0" n="241" facs="https://api.nakala.fr/iiif/10.34847/nkl.99c25960/b7e2c13e9216a047aa7bf684995fbbc3620e62b0/full/full/0/default.jpg"/>décisions à prendre pour empêcher le rapprochement italo-allemand et éviter la désagrégation complète de la SDN, presse-t-il, alors que l’indisponibilité de Flandin lui fait assurer l’intérim au Quai d’Orsay, Albert Sarraut et Léon Blum de hâter le processus de passation des pouvoirs, mais en vain.</p>
       </div>
-      <div>
+      <div xml:id="r1223706">
         <head rend="uc">Conclusion</head>
         <p>L’absence du sénateur du Loir-et-Cher du gouvernement Blum constitué début juin 1936 consacre-t-elle donc l’échec ministériel d’une personnalité-symbole d’une phase politique dépassée ?</p>
         <p>Par-delà ses causes immédiates (un désaccord fondamental avec le nouveau président du Conseil sur la conduite à adopter vis-à-vis de Rome l’empêche de briguer le Quai d’Orsay), cet effacement illustre sans doute l’échec d’une démarche politique profondément individualiste, au sortir d’une législature dont les contradictions initiales, bien perçues par l’intéressé, l’ont condamné à une errance perpétuelle entre les groupes et les personnalités d’une majorité de gauche par trop hétérogène pour pouvoir s’entendre sur des objectifs positifs communs. Et le moindre des paradoxes n’est pas de voir les conceptions de Paul-Boncour triompher sans lui avec l’avènement au pouvoir d’un Front populaire appelé à réaliser ses conceptions de réformisme gouvernemental.</p>

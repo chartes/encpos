@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,18 +61,18 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r1026312">
         <head rend="uc">Première partie
          <lb/>Commentaire</head>
         <p>Le livre VIII des <hi rend="i">Étymologies</hi> d’Isidore de Séville, intitulé <hi rend="i">De Ecclesia et sectis,</hi> comporte onze chapitres, dans lesquels on trouve successivement une définition de l’orthodoxie (I <hi rend="i">De Ecclesia et synagoga,</hi> II <hi rend="i">De religione et fide</hi>), une définition de l’hétérodoxie (III <hi rend="i">De haeresi et scisma</hi>) et un catalogue des hérésies juives (IV <hi rend="i">De haeresibus Iudaeorum</hi>), chrétiennes (V <hi rend="i">De haeresibus Christianorum</hi>) et païennes, celles-ci étant constituées par les six derniers chapitres traitant respectivement des philosophes (VI <hi rend="i">De philosophis gentium</hi>), des poètes (VII <hi rend="i">De poetis</hi>), des sibylles (VIII <hi rend="i">De sibyllis</hi>), des mages (IX <hi rend="i">De magis</hi>), des païens (X <hi rend="i">De paganis</hi>) et des dieux de la gentilité (XI <hi rend="i">De diis gentium</hi>).</p>
-        <div>
+        <div xml:id="r1026375">
           <pb source="https://nakala.fr/10.34847/nkl.e1ddar1k#3e83e7d7e1cd734ffc1bf8dbaa3bd317759ceb33" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1ddar1k/3e83e7d7e1cd734ffc1bf8dbaa3bd317759ceb33/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les sources du livre VIII</head>
           <p>Dans le livre VIII, qui aborde des sujets chrétiens et païens, Isidore excelle dans l’art de la mosaïque : on s’aperçoit que chaque phrase, chaque idée est un emprunt. Les auteurs qu’il utilise sont avant tout les Pères de l’Église, parmi lesquels il faut citer, en premier lieu, saint Augustin, puis Lactance, Tertullien, et d’autres auteurs chrétiens comme le Pseudo-Jérôme ; rares sont les citations de saint Jérôme. Mais Isidore se sert aussi d’auteurs profanes, en particulier de Servius, le scholiaste de Virgile, du grammairien Diomède, et, de rares fois, de Solin ; il reprend quelques définitions de glossateurs comme Festus et Placide ; certains passages, se rapprochant des scholies d’Horace ou de Lucain laissent présumer qu’il a aussi puisé dans des recueils de scholies aujourd’hui perdus ; si, en effet, l’essentiel des sources est identifié, il reste quelques notices ou détails, concernant en particulier certaines hérésies ou certaines sectes de philosophes, dont l’origine est inconnue ; il y a tout lieu de penser qu’ils ont été recueillis dans des traités d’hérésiologie aujourd’hui perdus (comme, par exemple, ceux de l’évêque africain Primase d’Hadrumète, ou de l’évêque espagnol Justinien de Valence), et dans des manuels de tradition scolaire, faisant partie de l’abondante littérature doxographique qui fleurit dans l’érudition tardive ; la composition et les sources du <hi rend="i">De haeresibus liber, </hi>petit traité attribué à Isidore, appuie ces présomptions. Enfin, la similitude de texte qui apparaît parfois entre Isidore et le Mythographe I, dont la date est incertaine (<num>v<hi rend="sup">e</hi></num> ou <num>vii<hi rend="sup">e</hi></num> siècle ?) ne permet pas d’assurer que l’un est copié sur l’autre, mais elle peut révéler que les deux auteurs dépendent, pour certains détails, d’une source commune aujourd’hui perdue.</p>
           <p>La variété des emprunts et leur « traitement » est toutefois une marque de l’authenticité isidorienne de la composition de ce livre et de ses chapitres. Certes, pour un sujet comme les hérésies chrétiennes, Isidore ne fait que démarquer le <hi rend="i">De haeresibus liber</hi> de saint Augustin ; mais, même dans ce cas, il remanie le classement des hérésies selon des critères bien à lui, et, dans un souci de brièveté, il préfère emprunter les notices de l’<hi rend="i">Indiculus de Haeresibus</hi> du Pseudo-Jérôme, lorsque celles de saint Augustin sont trop longues. Quant au traitement même des sources, Isidore le personnalise de plusieurs manières : pour réserver à l’étymologie la première place dans sa notice, il opère de véritables chassés-croisés dans le texte-source ; mais il a surtout l’art de combiner les renseignements de provenances différentes : le plus souvent, il écartèle l’un pour y insérer l’autre, et c’est le texte de saint Augustin qui, régulièrement, enserre les autres sources. Mais lorsque, comme c’est le cas pour la notice qu’il consacre à la secte, il encadre la définition de Servius dans des mots pris chez saint Augustin, son art n’est plus seulement un artifice d’exposition : il devient un instrument de pensée ; c’est comme un pont qu’il jette entre le monde païen et le monde chrétien.</p>
         </div>
-        <div>
+        <div xml:id="r1026419">
           <pb source="https://nakala.fr/10.34847/nkl.e1ddar1k#bab26a92e0b86e99991080ef04cd6188fcbee314" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1ddar1k/bab26a92e0b86e99991080ef04cd6188fcbee314/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’enseignement du livre VIII</head>
@@ -86,10 +84,10 @@
           <p>L’œuvre d’Isidore est pourtant précieuse : à une époque de décadence de la culture, Isidore fait une œuvre de sauvegarde, car, même s’il donne à l’Église et à la religion chrétienne la première place, il rend hommage à l’inspiration des poètes classiques païens, qui sont les seuls auteurs cités expressément à l’appui de son texte. En même temps, Isidore ne laisse pas de refléter son temps : il met à jour le catalogue des hérésies, emprunte au Code Théodosien certaines définitions des pratiques de la magie, mal encore très répandu à son époque ; il complète Varron et saint Augustin en ajoutant aux dieux romains les divinités orientales qui ont plus d’actualité : l’étymologie même du nom d’Isidore en est le témoin. Mais une telle ouverture d’esprit à tout complément d’information n’est pas étonnante, lorsque l’on se rappelle qu’Isidore n’a jamais terminé ses <hi rend="i">Etymologies.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1026480">
         <head rend="uc">Deuxième partie
          <lb/>Tradition manuscrite du livre VIII</head>
-        <div>
+        <div xml:id="r1026488">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits</head>
           <p>Description sommaire des vingt-huit manuscrits choisis par le Comité international d’études isidoriennes, en vue de l’étude de la tradition manuscrite des <hi rend="i">Étymologies,</hi> à savoir les manuscrits (groupés par familles et par affinités, désignés par leurs sigles) :</p>
@@ -131,19 +129,19 @@
           <p><hi rend="i">p</hi> Vaticano, Pal. lat. 281. – <num>ix<hi rend="sup">e</hi></num> s., Germanie ;</p>
           <p><hi rend="i">x</hi> Vercelli, Bibl. capit. 58. – <num>ix<hi rend="sup">e</hi></num> s., Verceil.</p>
         </div>
-        <div>
+        <div xml:id="r1026905">
           <head rend="uc">Chapitre II
            <lb/>Le classement des manuscrits</head>
           <p>A partir des variantes de texte du livre VIII, on peut essayer de dresser un <hi rend="i">stemma codicum.</hi> Ce travail a pour but de vérifier et de préciser les recherches déjà importantes qui ont été faites sur la tradition manuscrite des <hi rend="i">Etymologies </hi>par W.M. Lindsay, le dernier éditeur de l’œuvre par W. Porsig, dans son article <hi rend="i">Die Rezencionen der Etymologiae des Isidorus von Sevilla,</hi> paru dans <hi rend="i">Hermes,</hi> t. LXXII (1937), p. 129-270, et tout récemment par M. Reydellet, dans un mémoire sur <hi rend="i">La diffusion, des Origines d’Isidore de Séville au haut Moyen Age,</hi> paru dans les <hi rend="i">Mélanges d’archéologie et d’histoire</hi> publiés par l’École française de Rome, t. LXXVIII (1966), p. 383-437.</p>
           <p>On aboutit aux conclusions suivantes : il existe bien trois familles de manuscrits, espagnole, française et italienne, liées entre elles par un groupe intermédiaire, le « groupe de Porzig », constitué par les manuscrits <hi rend="i">X</hi> et <hi rend="i">C ; <pb source="https://nakala.fr/10.34847/nkl.e1ddar1k#ef5b5729a61ec4c50740ae1ea409eeb6bb0f7d60" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1ddar1k/ef5b5729a61ec4c50740ae1ea409eeb6bb0f7d60/full/full/0/default.jpg"/>ce</hi> groupe, né de l’exportation d’un témoin de la famille espagnole, sans doute dans le courant du <num>viii<hi rend="sup">e</hi></num> siècle (d’après sa parenté avec le texte du <hi rend="i">Liber Glossarum</hi> d’Ansileubus), et de sa contamination par les autres familles, ne mérite pas lui-même le nom de famille.</p>
         </div>
-        <div>
+        <div xml:id="r1026967">
           <head rend="uc">Chapitre III
            <lb/>L’histoire du texte</head>
           <p>Il reste difficile de savoir, à la lumière du texte du livre VIII, comment s’est faite la diffusion de l’œuvre antérieurement à l’existence de ces trois principales familles. Il semble qu’elle se soit diffusée en plusieurs temps, d’abord sous une forme clandestine, dont Braulion de Saragosse, éditeur officiel de l’œuvre, apporte le témoignage, puis sous la forme de l’édition de Braulion, datée de 632. Ce fait, déjà confirmé par les recherches de M. Reydellet sur l’organisation des livres et des catalogues de l’œuvre dans sa tradition manuscrite, pourrait bien se trouver confirmé aussi par les variantes de texte du livre VIII ; cependant, on se heurte à la difficulté de dater les additions de texte, qui pourraient être des indices sérieux, étant donné l’état inachevé de l’œuvre, de l’aveu même de son auteur. Pourtant, à travers la critique des variantes du livre VIII, la relation apparue entre les manuscrits <hi rend="i">T, Q, n, A, e</hi> et la famille italienne, pourrait constituer la trace d’un premier passage des <hi rend="i">Étymologies </hi>en Europe, avant l’édition officielle de Braulion.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1026988">
         <head rend="uc">Troisième partie
          <lb/>Édition</head>
         <p>L’édition a été faite compte tenu des règles formulées par le Colloque isidorien tenu à l’Université de Paris-Sorbonne, le 22 mai 1975, et figurant dans le compte rendu de ce colloque.</p>

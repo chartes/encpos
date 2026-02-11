@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <forename>Kim Loan</forename>
         <surname>Hoang Thi</surname>
       </byline>
-      <div>
+      <div xml:id="r877815">
         <head rend="uc">Introduction</head>
         <p>Le texte original du livre de Marco Polo fut rédigé en franco-italien par Rusticien de Pise. De passage à Venise en 1307, Thibaut de Chepoy reçut un exemplaire de ce récit des mains de Marco Polo lui-même. La version française en est le remaniement.</p>
         <p>Des publications de ce texte ont déjà vu le jour, soit d’après la version franco-italienne (l’édition de la Société de Géographie de Paris en 1824, la traduction en anglais de cette édition par Yule en 1871, l’édition critique de Benedetto en 1928, enfin la publication en français moderne de M. Louis Hambis en 1955), soit d’après la version française (édition de Pauthier, 1865). H faut y ajouter des essais d’inventaires (Yule, Benedetto), de classement (Benedetto) et des études historiques (Moule et Pelliot en particulier). Mais le texte français de la copie de Thibaut de Chepoy n’a jamais été étudié pour lui-même. La présente édition est établie d’après un classement rigoureux des familles <hi rend="i">A, B </hi>et <hi rend="i">C</hi> des seize manuscrits de la version française, avec les variantes des manuscrits les plus intéressants. Le manuscrit fr. 5649 de la Bibliothèque nationale (<hi rend="i">B</hi> 4), le plus proche de la version franco-italienne (Paris, Bibl. nat. fr. 1116) en est le manuscrit de base.</p>
       </div>
-      <div>
+      <div xml:id="r877840">
         <head rend="uc">Première partie
          <lb/>Historique de la version française
          <lb/>du livre de Marco Polo</head>
-        <div>
+        <div xml:id="r877850">
           <head rend="uc">Chapitre premier
            <lb/>Thibaut de Chepoy et le livre de Marco Polo</head>
           <p>En 1285, Thibaut est écuyer et valet de Philippe le Bel. Il entre ensuite au service de Robert d’Artois qui, pendant la guerre des Flandres, en 1297, <pb source="https://nakala.fr/10.34847/nkl.a99064ea#596fbbded3ff4e44f8a23336fe923715386f0ec0" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.a99064ea/596fbbded3ff4e44f8a23336fe923715386f0ec0/full/full/0/default.jpg"/>le place à la tête d’un corps de son armée. En 1291, Philippe le Bel le députe comme sénéchal à Agen. Dès 1300-1301, Thibaut entre au service de Charles de Valois. Celui-ci avait des droits nominaux sur le royaume de Constantinople à cause de son mariage avec Catherine de Courtenay ; avec l’appui de Boniface VIII, Charles de Valois décide donc de le conquérir et engage l’expédition d’Italie à laquelle participe Thibaut qui est mis en rapport avec Charles II, roi de Naples, en 1303. Thibaut prend part ensuite à la campagne de Flandre. Vers la fin de 1306, il est envoyé par Charles de Valois à la conquête du royaume de Constantinople. Au cours de cette mission, à son passage à Venise, Marco Polo lui remet la copie de son livre. Ayant échoué dans sa tentative, Thibaut rentre en France en 1310. Après sa mort (vers 1311-1312), c’est son fils Jean qui offre à Charles de Valois la copie du livre de Marco Polo.</p>
         </div>
-        <div>
+        <div xml:id="r877867">
           <head rend="uc">Chapitre II
            <lb/>Le remaniement du texte de Thibaut de Chepoy
            <lb/>et la diffusion de la version française</head>
@@ -81,7 +79,7 @@
           <p>On a pu dénombrer une trentaine de manuscrits de la version française : quinze du <num>xiv<hi rend="sup">e</hi></num> siècle, dix du <num>xv<hi rend="sup">e</hi></num> siècle, dont sept conservés ; trois du <num>xvi<hi rend="sup">e</hi></num> siècle. Le nombre des exemplaires va donc en décroissant. Il n’existe pas d’édition incunable de cette version.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r877944">
         <head rend="uc">Deuxième partie
          <lb/>Notices des manuscrits</head>
         <p>La version française est contenue dans seize manuscrits :</p>
@@ -104,7 +102,7 @@
         <pb source="https://nakala.fr/10.34847/nkl.a99064ea#ce7ee428298fe704e6b54387d5a2cfb9936b114e" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.a99064ea/ce7ee428298fe704e6b54387d5a2cfb9936b114e/full/full/0/default.jpg"/>
         <p>16. Le ms. Paris, Bibl. Arsenal 5219 (C 3), des <num>xv<hi rend="sup">e</hi></num>-<num>xvi<hi rend="sup">e</hi></num> siècles, en parchemin, compte I-168-I ff. ; cent quatre-vingt-dix-sept miniatures illustrent le livre de Marco Polo. De la collection de Charles-Adrien Picard, il passa, en 1780, au marquis de Paulmy.</p>
       </div>
-      <div>
+      <div xml:id="r878257">
         <head rend="uc">Troisième partie
          <lb/>Essai de classement des manuscrits
          <lb/>de la version française de Thibaut de Chepoy</head>
@@ -112,12 +110,12 @@
         <p>Le groupe <hi rend="i">B</hi> est assez homogène et c’est lui qui, par comparaison avec le manuscrit franco-italien fr. 1116, se rapproche le plus de la version originale ; <hi rend="i">B</hi> 4 (Paris, Bibl. nat. fr. 5649) a été choisi comme manuscrit de base.</p>
         <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.a99064ea/ce7ee428298fe704e6b54387d5a2cfb9936b114e/0,1600,1500,820/600,/0/default.jpg"/>
       </div>
-      <div>
+      <div xml:id="r878297">
         <pb source="https://nakala.fr/10.34847/nkl.a99064ea#5ee2fbf4fda1b62c367a82b91bd80dd456de0f5b" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.a99064ea/5ee2fbf4fda1b62c367a82b91bd80dd456de0f5b/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Cette édition critique de la version française du livre de Marco Polo est établie d’après plus de manuscrits que l’édition de Pauthier. Les remaniements subis par ce texte par rapport à la version franco-italienne donnent des indications sur ce qui pouvait intérssser les lecteurs de l’époque.</p>
       </div>
-      <div>
+      <div xml:id="r878312">
         <head rend="uc">Édition de la version française
          <lb/>du livre de Marco Polo</head>
         <p>Édition des deux premières parties. – Notes critiques. – Variantes des familles <hi rend="i">A</hi> et <hi rend="i">B.</hi> – Glossaire. – Index des noms propres.</p>

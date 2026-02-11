@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1886_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1886_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,17 +56,17 @@
         <forename>Ch.</forename>
         <surname>Baudon de Mony</surname>
       </byline>
-      <div>
+      <div xml:id="r142589">
         <head rend="uc">Introduction</head>
         <p>Plan et divisions de ce travail. – Sources imprimées. – Sources manuscrites. <hi rend="i">En France</hi> : Archives du département de l’Ariège ; deux inventaires de 1760, débris de ce riche dépôt. Archives Nationales, J. 879 et 880. Bibliothèque Nationale, Collections Decamps et Doat, Armoires de Baluze. Archives du département des Basses-Pyrénées. Archives du département des Pyrénées-Orientales. Archives du château de Léran. <hi rend="i">En Espagne</hi> : Archives de la couronne d’Aragon. Collections de parchemins groupés par règnes. <hi rend="i">Cartas reales.</hi> Registres de la chancellerie d’Aragon. Archives capitulaires d’Urgel. Archives du Patrimoine royal et de l’Audience royale de Palma (Majorque). Archives capitulaires de Vich. Archives municipales de Girone. Académie de l’Histoire de Madrid.</p>
       </div>
-      <div>
+      <div xml:id="r142611">
         <pb source="https://nakala.fr/10.34847/nkl.513578ci#dfacd405576c44b135f59fd861222404deea117a" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/dfacd405576c44b135f59fd861222404deea117a/full/full/0/default.jpg"/>
         <head rend="uc">Partie préliminaire
          <lb/>origines des relations des comtes de Foix
          <lb/>avec la Catalogne
          <lb/>(<num>xi<hi rend="sup">e</hi></num>-<num>xii<hi rend="sup">e</hi></num> siècles)</head>
-        <div>
+        <div xml:id="r142640">
           <head rend="uc">Chapitre I
            <lb/>Rapports de la maison de Barcelone
            <lb/>avec le MIDI de la France.</head>
@@ -77,7 +75,7 @@
           <p>De nombreuses alliances de famille sont la conséquence de ces relations.</p>
           <p>§ III. <hi rend="i">Union de Raimond-Borrel, comte de Barcelone, avec Ermessinde, fille de Roger le Vieux, comte de Carcassonne, <pb source="https://nakala.fr/10.34847/nkl.513578ci#532b7e22febeeea6c4bf8faa9832ba03a14eae40" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/532b7e22febeeea6c4bf8faa9832ba03a14eae40/full/full/0/default.jpg"/> à la fin du</hi> x<hi rend="sup">e</hi><hi rend="i">siècle.</hi> – Elle est le point de départ des relations des comtes de Barcelone avec les comtes de Foix.</p>
         </div>
-        <div>
+        <div xml:id="r142719">
           <head rend="uc">Chapitre II
            <lb/>Origines et situation particulière du comté de
            <lb/>Foix : elles expliquent ses relations avec la
@@ -86,7 +84,7 @@
           <p>§ II. <hi rend="i">Situation topographique du comté de Foix.</hi> – Elle explique son indépendance vis-à-vis des comtes de Toulouse et ses relations avec la Catalogne. – Le relief accidenté du haut comté oppose une barrière infranchissable à la domination des comtes de Toulouse. – Le haut comté de Foix touche au sud, au sud-est et à l’est à des possessions de seigneurs catalans.</p>
           <p>§ III. <hi rend="i">Indépendance du Sabartès ou haut comté de Foix prouvée par les actes.</hi> 1° Grand nombre de terres allodiales dans le midi au <num>xi<hi rend="sup">e</hi></num> siècle. – 2° Le comté de Carcassonne, dont est sorti celui de Foix, est indépendant de fait des comtes de Toulouse. – 3° Les comtes de Foix ne remplissent aucun devoir de vassalité envers ceux de Toulouse pour le Sabartès. – 4° Premier hommage du comte de Foix à celui de Toulouse pour le <hi rend="i">bas comté</hi> seulement (1167). – 3° Raimond VII, comte de Toulouse, irrité contre le comte de Foix, ne lui réclame que le bas comté de Foix <pb source="https://nakala.fr/10.34847/nkl.513578ci#b56d3b968e7f6f8a6086b5bf1842b7271b61f0c1" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/b56d3b968e7f6f8a6086b5bf1842b7271b61f0c1/full/full/0/default.jpg"/>(1242 et 1243). – 6° Les comtes de Foix, devenus vassaux des rois de France pour leur bas comté, conservent le Sabartès en toute franchise. – <hi rend="i">Conclusion :</hi> Cette situation indépendante permet aux comtes de Foix de se tourner vers la Catalogne.</p>
         </div>
-        <div>
+        <div xml:id="r142772">
           <head rend="uc">Chapitre III
            <lb/>Aperçu historique sur les premières relations des
            <lb/>comtes de Foix avec la Catalogne jusqu’à leur
@@ -99,12 +97,12 @@
           <p>§ III. <hi rend="i">Suite de ces relations jusqu’à la fin du</hi> <num>xii<hi rend="sup">e</hi></num><hi rend="i">siècle. </hi>– Le mariage de Roger III avec Chimène (vers 1117) et l’acquisition par Raimond-Bérenger III des comtés de Bésalu (1111) et de Cerdagne (1117) opèrent un nouveau rapprochement entre les comtes de Foix et de Barcelone. – Guerres entre les maisons de Barcelone et de Toulouse ; sage neutralité des comtes de Foix. Cependant leurs intérêts les attirent du côté des comtes de Barcelone. – Hommage de Roger Bernard à Raimond-Bérenger IV expliqué par les circonstances (1181). – Son mariage avec Cécile, fille de Raimond-Trencavel, conclu sous les auspices du comte de Barcelone (1151). – Faveurs accordées par les rois d’Aragon aux comtes de Foix : Roger Bernard nommé gouverneur de la Provence ; Raimond Roger reçoit en fief les comtés de Carcassonne et de Razès (1188).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r142851">
         <head rend="uc">Première partie
          <lb/>Histoire des relations des seigneurs de Caboet
          <lb/>et de Castelbon, prédécesseurs des comtes
          <lb/>de Foix, avec l’église d’Urgel, principalement au sujet de l’Andorre.</head>
-        <div>
+        <div xml:id="r142863">
           <head rend="uc">Chapitre I
            <lb/>Origines de la question d’Andorre.</head>
           <p>§ I. <hi rend="i">Description géographique des vallées andorranes.</hi></p>
@@ -112,7 +110,7 @@
           <p><hi rend="i">Conclusion :</hi> Les habitants de l’Andorre devaient au <num>ix<hi rend="sup">e</hi></num> siècle se trouver sous la protection spéciale de l’empereur et être soumis à la juridiction du comte d’Urgel.</p>
           <p>§ III. <hi rend="i">Droits de l’église d’Urgel sur l’Andorre à cette époque.</hi> – L’acte de consécration de cette église n’accorde à l’évêque qu’une juridiction spirituelle sur cette vallée. Le pouvoir temporel de l’église d’Urgel sur l’Andorre s’établit lentement, dès le <num>ix<hi rend="sup">e</hi></num> siècle, et par la force des choses.</p>
         </div>
-        <div>
+        <div xml:id="r142932">
           <head rend="uc">Chapitre II
            <lb/>Le pouvoir temporel des évêques d’Urgel sur
            <lb/>l’Andorre, depuis la première moitié du x<hi rend="sup">e</hi> siècle
@@ -120,7 +118,7 @@
           <p>§ I. <hi rend="i">Abandon de l’Andorre à l’église par les comtes d’Urgel. </hi>– Le comte Sunifred cède à l’église ses alleux d’Andorre (entre 951 et 954). Borrel, comte d’Urgel et de Barcelone, abandonne le haut pays d’Urgel au vicomte Guillaume et à l’évêque ; il cède notamment à celui-ci ses droits sur l’Andorre (988).</p>
           <p>§ II. <hi rend="i">Difficultés et anarchie suscitées dans Tévêché d’Urgel par l’ambition des comtes de Cerdagne.</hi> – Ermengaud, comte d’Urgel, demande à l’église de lui livrer provisoirement ses châteaux pour déterminer les seigneurs, ses vassaux, à en faire autant. – Accroissements continuels des domaines de l’église : elle se constitue un défenseur dans le seigneur de Caboet, à qui elle donne l’Andorre en fief.</p>
         </div>
-        <div>
+        <div xml:id="r142969">
           <pb source="https://nakala.fr/10.34847/nkl.513578ci#88a2a0264f5f0c2dd47c21fe25900a1e858ada72" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/88a2a0264f5f0c2dd47c21fe25900a1e858ada72/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Relations des évêques d’Urgel
@@ -129,7 +127,7 @@
           <p>§ II. <hi rend="i">Relations féodales des seigneurs de Caboet avec l’église d’Urgel, principalement en ce qui concerne l’Andorre. </hi>– Guillaume Guitard de Caboet donne, dans son testament, la vallée de San Juan à l’église d’Urgel et reconnaît sa suzeraineté sur l’Andorre (31 juillet 1110). – Empiétements transitoires du comte Ermengaud dans les terres de l’église, notamment en Andorre ; il les répare généreusement (27 janvier 1133 n. st.). – Miron Guitard et son fils Raimond de Caboet se reconnaissent vassaux de l’église d’Urgel (1150 et 1156). Ce dernier lui confirme la donation de Guillaume Guitard et y ajoute la vallée de Caboet : Arnaud son frère devra tenir d’elle en fief tous les domaines de sa maison. – Arnaud de Caboet se révolte contre lui et contre l’évêque. – Puis il fait acte de vassalité envers l’église (19 juillet 1159 et 29 juin 1162). – Accord des habitants de l’Andorre avec l’évêque d’Urgel, dans lequel le comte de Foix figure comme garant (7 mars 1163 n. st.). – Arnalde de Caboet hérite des domaines de son père Arnaud.</p>
           <p>§ III. <hi rend="i">Droits politiques de l’évêque d’Urgel sur l’Andorre au</hi> <num>xii<hi rend="sup">e</hi></num><hi rend="i">siècle.</hi> – D’après un accord conclu avec les habitants de cette vallée (8 janvier 1176 n. s.) : 1° Redevances ecclésiastiques et féodales. – 2° Service militaire. – 3° Justice.</p>
         </div>
-        <div>
+        <div xml:id="r143015">
           <pb source="https://nakala.fr/10.34847/nkl.513578ci#1f648b71ceb32ea37099a010ece3267cbf1e113c" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/1f648b71ceb32ea37099a010ece3267cbf1e113c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Relations des évêques d’Urgel
@@ -140,12 +138,12 @@
           <p>§ IV. <hi rend="i">Intrigues de Raimond et d’Arnaud de Castelbon pour obtenir la succession de la maison de Caboet.</hi> – Empiétements de Raimond sur les droits de l’église et ses intrigues en Andorre. – Paix conclue par l’entremise de G. Jordan, évêque élu d’Elne (1171). – Pour écarter la maison de Castelbon des possessions de celle de Caboet, l’évêque Arnaud de Perexens donne la main d’Arnalde de Caboet à Bertrand de Tarasco (1180). Arnaud de Castelbon réussit ensuite à épouser Arnalde et obtient du comte d’Ur<pb source="https://nakala.fr/10.34847/nkl.513578ci#69462e0a09e33bbf5fc462e6510b01e97ddbd91f" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/69462e0a09e33bbf5fc462e6510b01e97ddbd91f/full/full/0/default.jpg"/>gel l’investiture de la comtorie de Caboet (1185). – L’évêque se plie aux circonstances et lui en donne lui-même l’investiture (1186). – Hostilités d’Arnaud contre le comte et l’évêque d’Urgel (1190-1194) : le roi d’Aragon y intervient. – La paix conclue par Arnaud avec le comte d’Urgel, le 2 octobre 1190, lui vaut la concession du château de San Vicens en Andorre par ce dernier : c’est une nouvelle cause de dissentiment avec l’église. – Accord conclu entre elle et Arnaud par l’intermédiaire du roi d’Aragon (27 août 1194).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r143075">
         <head rend="uc">Deuxième partie
          <lb/>Histoire de l’intervention des comtes de Foix
          <lb/>dans le comté d’Urgel jusqu’à la réunion du
          <lb/>vicomté de Castelbon à leurs états (1226).</head>
-        <div>
+        <div xml:id="r143087">
           <head rend="uc">Chapitre I
            <lb/>Démêlés de Raimond-Roger, comte de Foix, et d’Arnaud de Castelbon avec le comte et l’église
            <lb/>d’Urgel (1198-1206).</head>
@@ -154,14 +152,14 @@
           <p>§ III. <hi rend="i">Guerres suscitées dans le diocèse et le comté d’Urgel par l’alliance d’Arnaud de Castelbon avec Raimond-Roger. </hi>– <hi rend="i">Paix définitive</hi> (1206).</p>
           <p>Le comte de Foix recherche la main d’Ermessinde pour son fils Roger-Bernard. – Opposition de l’évêque et du comte d’Urgel ; la guerre éclate et le comte de Foix est fait prisonnier avec Arnaud de Castelbon par le comte d’Urgel. Celui-ci leur impose de dures conditions (1203). Ils recommencent les hostilités et la paix définitive est conclue avec le comte d’Urgel et l’évêque en 1206. Le traité d’Arnaud avec l’évêque est une nouvelle reconnaissance de la suzeraineté de l’église sur les vallées de Caboet, de San Juan et d’Andorre. – Roger-Bernard épouse Ermessinde, l’héritière du vicomté de Castelbon.</p>
         </div>
-        <div>
+        <div xml:id="r143131">
           <head rend="uc">Chapitre II
            <lb/>Relations du comte de Foix avec le roi d’Aragon,
            <lb/>Pierre II, pendant la guerre des Albigeois.</head>
           <p>§ I. <hi rend="i">Intervention pacifique du roi d’Aragon en faveur de Raimond-Roger et de ses alliés.</hi> – Le roi Pierre Il n’est pas favorable à l’hérésie : il soutient les comtes de Foix et de Toulouse pour rétablir la domination de ses ancêtres sur le midi de la France. – La situation avantageuse du comté de Foix le protège mieux que le comté de Toulouse contre les entreprises des croisés.</p>
           <p>§ II. <hi rend="i">Alliance offensive de Pierre roi d’Aragon avec les comtes de Foix et de Toulouse.</hi> – La défaite du roi Pierre anéantit l’influence des rois d’Aragon dans le midi de la France (10 septembre 1213).</p>
         </div>
-        <div>
+        <div xml:id="r143156">
           <pb source="https://nakala.fr/10.34847/nkl.513578ci#cfffbef34236bb83ec2d212d5505df8b06f9297f" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/cfffbef34236bb83ec2d212d5505df8b06f9297f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Suite de l’histoire d’Arnaud de Castelbon.</head>
@@ -169,12 +167,12 @@
           <p>§ II. <hi rend="i">Ses empiétements continuels sur les droits et les domaines de l’église</hi> d’<hi rend="i">Urgel.</hi> – Il commet toute sorte d’excès contre l’église jusqu’à la fin de sa vie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r143189">
         <head rend="uc">Troisième partie
          <lb/>Guerres des comtes de Foix dans l’évêché
          <lb/>d’Urgel, jusqu’au paréage d’Andorre.
          <lb/>(1226-1278)</head>
-        <div>
+        <div xml:id="r143201">
           <head rend="uc">Chapitre I
            <lb/>Différends de Roger-Bernard II, comte de Foix,
            <lb/>avec les évêques d’Urgel, Pierre de Puigvert et
@@ -183,7 +181,7 @@
           <p>§ II. <hi rend="i">Il fortifie son pouvoir par l’organisation féodale de ses domaines et par des alliances.</hi> – Heureuses conséquen<pb source="https://nakala.fr/10.34847/nkl.513578ci#ecd92177ff5995ef9ea391e7aeb22b526a0587e6" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/ecd92177ff5995ef9ea391e7aeb22b526a0587e6/full/full/0/default.jpg"/>ces de la double alliance conclue par lui avec la puissante famille de Cardone.</p>
           <p>§ III. <hi rend="i">Nouveaux démêlés du comte de Foix avec l’évêque Pons de Vilamur.</hi> – Roger-Bernard reconnaît de nouveau la suzeraineté de l’église (1232). – Mais il porte une nouvelle atteinte à ses droits, en se faisant donner le paréage de la ville neuve d’Orgaña (26 mai 1233).</p>
         </div>
-        <div>
+        <div xml:id="r143240">
           <head rend="uc">Chapitre II
            <lb/>Différends de Roger-Bernard II avec Nugnès Sanche,
            <lb/>comte de roussillon (1233-1237).</head>
@@ -191,7 +189,7 @@
           <p>§ II. <hi rend="i">Démêlés au sujet du Donnezan.</hi> – La famille d’Alion a ressaisi une partie de ses droits sur ce pays : c’est la cause des querelles du comte de Foix avec elle et avec Nugnès Sanche.</p>
           <p>§ III. <hi rend="i">Paix définitive</hi> (1237).</p>
         </div>
-        <div>
+        <div xml:id="r143272">
           <head rend="uc">Chapitre III
            <lb/>Suite des démêlés de Roger-Bernard II avec Pons
            <lb/>de Vilamur.</head>
@@ -199,7 +197,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.513578ci#9d93d5b0cf3d616bc73d0f2ac448811e1d0e1600" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/9d93d5b0cf3d616bc73d0f2ac448811e1d0e1600/full/full/0/default.jpg"/>
           <p>§ II. <hi rend="i">Renouvellement de la guerre.</hi> – Les hostilités recommencent plusieurs fois. – Ravages exercés par Roger de Foix, fils du comte, dans les domaines de l’église. – A la fin de sa vie, Bernard 11 se réconcilie avec l’évêque et est absous de la censure qu’il a encourue (2 juin 1240).</p>
         </div>
-        <div>
+        <div xml:id="r143302">
           <head rend="uc">Chapitre IV
            <lb/>Guerres de Roger IV avec Pons de Vilamur.
            <lb/>(1241-1256)</head>
@@ -208,14 +206,14 @@
           <p>§ III. <hi rend="i">La Cour de Rome est saisie de l’affaire</hi> (9 décembre 1251). – Les juges renvoient la cause à Rome, malgré l’opposition du comte. – L’évêque d’Ostie et de Velletri en est chargé. – Requête d’André del Mercat, procureur de l’évêque d’Urgel.</p>
           <p>§ IV. <hi rend="i">Pons de Vilamur accusé et déposé à Rome pour sa conduite privée</hi> (1256). – Le comte de Foix ne doit pas être demeuré étranger aux accusations portées contre l’évêque par plusieurs chanoines d’Urgel. – Pons de Vilamur se rend auprès du Saint-Siège pour se disculper (1252). – Son procureur à Urgel lève l’interdit jeté sur le vicomté de Castelbon (1252). – Pons de Vilamur est jugé et déposé ; sa dégradation est un succès pour Roger IV.</p>
         </div>
-        <div>
+        <div xml:id="r143341">
           <pb source="https://nakala.fr/10.34847/nkl.513578ci#d47a31590fe10b030bb06a43a44bdeffeb5eb270" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/d47a31590fe10b030bb06a43a44bdeffeb5eb270/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Dernières années de Roger IV.</head>
           <p>§ I. <hi rend="i">Anarchie dans le comté d’Urgel et amoindrissement de la puissance des comtes de ce pays.</hi> – Les comtes de Foix en profitent pour agrandir leur influence. – Alvare, comte d’Urgel, cède à Roger IV tous ses droits sur le vicomté de Castelbon (17 décembre 1256).</p>
           <p>§ II. <hi rend="i">Querelles de Roger IV avec l’évêque Abril.</hi> – L’évêque refuse l’hommage dérisoire offert par le comte, il jette l’interdit sur l’Andorre. – Roger IV en appelle de nouveau au pape (1258).</p>
         </div>
-        <div>
+        <div xml:id="r143369">
           <head rend="uc">Chapitre VI
            <lb/>Première intervention de Roger-Bernard III en
            <lb/>Catalogne.</head>
@@ -225,7 +223,7 @@
           <p>§ IV. <hi rend="i">Alliance conclue avec l’infant Pierre</hi> (1269). – L’infant ménage les seigneurs rebelles ; il conclut une alliance avec eux pour obtenir leur concours dans une expédition qu’il projette de faire en Sicile (27 janvier 1269, n. st.). – Le roi renonce à ses droits sur le vicomté de Castelbon, à raison du crime d’hérésie imputé à Arnaud de Castelbon et à Ermessinde sa fille (11 mai 1269). – La paix est conclue avec le roi par l’intermédiaire de l’infant.</p>
           <p>§ V. <hi rend="i">Mémoire d’Arnaud de Castelbon et d’Ermessinde condamnée par l’inquisition.</hi> – Vains subterfuges de Roger-Bernard pour éluder la sentence de condamnation qui est portée le 2 novembre 1269.</p>
         </div>
-        <div>
+        <div xml:id="r143419">
           <head rend="uc">Chapitre VII
            <lb/>Relations de Roger-Bernard avec le roi d’Aragon
            <lb/>jusqu’à la coalition des grands de Catalogne
@@ -234,7 +232,7 @@
           <p>§ II. <hi rend="i">Difficultés entre les rois de France et d’Aragon au sujet des châteaux du haut comté de Foix.</hi> – Roger-Bernard, prisonnier du roi de France, fait remettre à Jacques I<hi rend="sup">er</hi> plusieurs châteaux du Sabartès. – Démêlés de ce dernier avec Philippe le Hardi au sujet de ces châteaux. Le comte de Foix est puni de sa trahison par un redouble<pb source="https://nakala.fr/10.34847/nkl.513578ci#c9bbbbce91fc20d3f54070892710bf3beb77eebc" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/c9bbbbce91fc20d3f54070892710bf3beb77eebc/full/full/0/default.jpg"/>ment de rigueurs dans sa prison ; il fait demander à Jacques I<hi rend="sup">er</hi> la restitution de ses places fortes. – Refus réitérés du roi d’Aragon. – Jacques I<hi rend="sup">er</hi> finit par abandonner ses prétentions sur le Sabartès (8 février 1273, n. st.)</p>
           <p>§ III. <hi rend="i">Mariage d’Esclarmonde, sœur de Roger-Bernard, avec Jacques, fils puîné du roi d’Aragon.</hi> – C’est le gage de la réconciliation du comte de Foix avec le roi d’Aragon. – Celui-ci lui accorde la tutelle de scs cousins Ermengaud cl Alvare (25 septembre 1275).</p>
         </div>
-        <div>
+        <div xml:id="r143474">
           <head rend="uc">Chapitre VIII
            <lb/>Première coalition formée par Roger-Bernard III
            <lb/>contre Pierre III, roi d’Aragon (1277-1278).</head>
@@ -244,12 +242,12 @@
           <p>§ IV. <hi rend="i">Paix de Roger-Bernard III avec l’évêque d’Urgel ; Paréage d’Andorre</hi> (1278). – Analyse et discussion de ce traité : malgré tous les avantages qu’il procure aux comtes de Foix, il maintient la suzeraineté de l’église d’Urgel sur l’héritage de la maison de Caboet et notamment sur l’Andorre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r143519">
         <head rend="uc">Quatrième partie
          <lb/>Guerres de Roger-Bernard III
          <lb/>avec les rois d’Aragon.
          <lb/>(1278-1298)</head>
-        <div>
+        <div xml:id="r143531">
           <head rend="uc">Chapitre I
            <lb/>Deuxième coalition formée par Roger-Bernard
            <lb/>contre le roi Pierre.</head>
@@ -257,7 +255,7 @@
           <p>§ II. <hi rend="i">Coalition formée par Roger-Bernard et commencement des hostilités</hi> (printemps 1280). – Le roi Pierre est alors occupé à une guerre contre les Sarrasins. – Ayant reçu les lettres de défi du comte de Foix et de ses alliés <pb source="https://nakala.fr/10.34847/nkl.513578ci#56caeb04e1eea363d28bbe0cde941d3ae8818ed6" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/56caeb04e1eea363d28bbe0cde941d3ae8818ed6/full/full/0/default.jpg"/>(23 février 1280, n. st.), il requiert le secours de son frère le roi de Majorque (24 février) et avertit les viguiers de Catalogne de se préparer à la guerre. – Négociations du comte de Foix avec l’infant Alphonse ; le roi repousse ses propositions et exige l’exécution entière des conventions passées (18 mars). – Ravages des alliés sur les terres du roi.</p>
           <p>§ III. <hi rend="i">Campagne du roi d’Aragon et prise de Balaguer.</hi> – Pierre laisse ses ennemis se concentrer à Balaguer. Il les y surprend par une marche rapide, les assiège dans la ville et les force à capituler malgré les secours qui leur arrivent de France et d’Espagne (20 juillet). – Il s’était appuyé sur les villes pour avoir raison de la noblesse.</p>
         </div>
-        <div>
+        <div xml:id="r143568">
           <head rend="uc">Chapitre II
            <lb/>Captivité de Roger-Bernard III (20 juillet 1280 –
            <lb/>10 décembre 1283).</head>
@@ -266,7 +264,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.513578ci#7abf2740e22a0ac8d853d4918e1065ab13548cf1" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/7abf2740e22a0ac8d853d4918e1065ab13548cf1/full/full/0/default.jpg"/>
           <p>§ III. <hi rend="i">Soumission de Roger-Bernard aux exigences du roi. </hi>– Gloire du roi Pierre à son retour de l’expédition de Sicile. – Il donne leur constitution définitive aux cortès catalanes et se crée ainsi une force nationale contre la noblesse et contre l’étranger. – Le comte de Foix découragé consent à échanger le vicomté de Castelbon contre quelques villes que lui cède le roi. – Il sort de prison et renouvelle ses engagements à Monblanch (10 décembre 1283).</p>
         </div>
-        <div>
+        <div xml:id="r143605">
           <head rend="uc">Chapitre III
            <lb/>Luttes entreprises par Roger Bernard III contre le
            <lb/>roi Pierre pour recouvrer le vicomté
@@ -274,7 +272,7 @@
           <p>§ I. <hi rend="i">Roger-Bernard refuse d’exécuter l’échange du vicomté de Castelbon.</hi> – Il retire les pouvoirs donnés à son procureur G. de Castel-Auli, pour recevoir les terres cédées par le roi. – Il crée des difficultés aux officiers de Pierre III chargés d’occuper ses domaines et s’empare du château de Tor. – Réclamations du roi (8 janvier 1284, n. st.). – Le comte de Foix fait publier dans le vicomté de Castelbon la bulle d’excommunication lancée par le pape contre le roi d’Aragon.</p>
           <p>§ II. <hi rend="i">Préparatifs de guerre de l’infant Alphonse contre Roger-Bernard</hi> (mai 1284). – Convocations adressées par l’infant à la noblesse catalane. L’infant ne dépasse pas Agramunt et députe le vicomte de Cardone et le comte de Pallars auprès du comte de Foix ; les circonstances expliquent la conduite de l’infant. – Traité avantageux pour le comte de Foix (27 mai) et trêve (2 juin 1284) – Roger-Bernard rentre peu à peu en possession de tout le vicomté de Castelbon.</p>
         </div>
-        <div>
+        <div xml:id="r143632">
           <pb source="https://nakala.fr/10.34847/nkl.513578ci#aabad188313a2d324680c12727134a4d9a8d4e4e" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/aabad188313a2d324680c12727134a4d9a8d4e4e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Alliance de Roger-Bernard avec le roi de France
@@ -282,7 +280,7 @@
           <p>§ I. <hi rend="i">Part prise par Roger-Bernard dans la croisade de </hi>1285. – Ses relations avec la Catalogne le font choisir pour négociateur avec les ennemis du roi de France. – Les soupçons de Guillaume de Nangis sur la conduite du comte de Foix au siège de Girone ne paraissent pas fondés.</p>
           <p>§ II. <hi rend="i">Attitude de Roger-Bernard jusqu’à la trêve conclue entre les rois de France et d’Aragon</hi> (25 juillet 1286). – Entrevue projetée entre lui et le roi d’Aragon (1286). Le comte de Foix est-compris dans la trêve conclue entre les rois de France et d’Aragon. – Documents sur le séjour de Constance de Foix en Catalogne et en Aragon (1286).</p>
         </div>
-        <div>
+        <div xml:id="r143662">
           <head rend="uc">Chapitre V
            <lb/>Suite de l’histoire du vicomté de Castelbon jusqu’à l’intervention de Roger-Bernard dans les
            <lb/>affaires de la succession de Pallars.</head>
@@ -292,7 +290,7 @@
           <p>§ III. <hi rend="i">Nouvelles difficultés avec l’évêque d’Urgel</hi> (1292). – Elles se rapportent sans doute au château de la Bastide de Pons, situé à l’entrée de l’Andorre. – La guerre, au moment d’éclater, est arrêtée par l’intervention du sénéchal de Carcassonne.</p>
           <p>§ IV. <hi rend="i">Convention conclue par Raimond Foulques, vicomte de Cardone, avec le roi d’Aragon ; le comte de Foix y est compris</hi> (10 août 1292). – Le roi d’Aragon, en guerre avec les rois de France et de Majorque, cherche à obtenir la neutralité du comte de Foix. Jacques II et le vicomte de Cardone se donnent des <hi rend="i">asseurements</hi> mutuels au sujet du vicomté de Castelbon. – Réserves singulières faites par Guillaume Raimond de Josa en faveur du comte de Foix, dans une convention qu’il conclut avec le roi d’Aragon ; lé droit de guerre privée en Catalogne (11 août 1292).</p>
         </div>
-        <div>
+        <div xml:id="r143718">
           <head rend="uc">Chapitre VI
            <lb/>Intervention de Roger-Bernard dans la guerre de
            <lb/>succession du comté de Pallars et son activité
@@ -305,14 +303,14 @@
           <p>§ V. <hi rend="i">Protestation du roi d’Aragon contre l’aliénation du comté d’Urgel</hi> (5 janvier 1300, n. st.). – Roger-Bernard n’en persiste pas moins dans ses desseins sur ce pays.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r143779">
         <head rend="uc">Cinquième partie
          <lb/>Guerres entreprises par Roger-Bernard III et
          <lb/>Gaston I<hi rend="sup">er</hi>, son fils, au sujet de la succession
          <lb/>de Guillelme de Moncade, jusqu’à la prise de
          <lb/>possession des baronnies de Moncade et de
          <lb/>Castelvieil par Gaston I<hi rend="sup">er</hi> en 1311.</head>
-        <div>
+        <div xml:id="r143803">
           <head rend="uc">Chapitre I
            <lb/>Négociations de Roger-Bernard avec le roi d’Aragon et préparatifs de guerre pour s’assurer la
            <lb/>succession de Guillelme de Moncade.</head>
@@ -323,7 +321,7 @@
           <p>§ V. <hi rend="i">Mariage de Gaston, fils de Roger-Bernard, avec Jeanne d’Artois</hi> (1301). – Fort de cette alliance avec la maison royale de France, Roger-Bernard se dispose à la guerre contre le roi d’Aragon. L’évêque de Pamiers, Bernard Saisset, avait essayé en vain de mettre Roger-Bernard à la tête d’une coalition du Midi contre le roi de France.</p>
           <p>§ VI. <hi rend="i">Dernière coalition formée par Roger-Bernard contre le roi d’Aragon ; sa mort.</hi> – Ses alliés principaux sont le <pb source="https://nakala.fr/10.34847/nkl.513578ci#cb9d92184001e0dda4720ff59264422edb75f82b" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/cb9d92184001e0dda4720ff59264422edb75f82b/full/full/0/default.jpg"/>vicomte de Cardone et Arnaud d’Espagne ; celui-ci va porter ses attaques dans le comté de Pallars. – Sympathies de toute la noblesse catalane pour la cause du comte de Foix. – Lettre de défi adressée au roi par Roger-Bernard (30 décembre 1301). – Il réunit ses troupes dans la haute Ariège. – L’infant Jacques, de concert avec le procureur du roi de Majorque, prend les mesures nécessaires pour empêcher l’invasion du comte de Foix. – Celui-ci déclare la guerre au roi de Majorque qui veut s’opposer à son passage sur ses terres. – Les hostilités commencent dans le comté de Pallars ; siège du château de Lort (26 février 1302, n. st.). – Mort de Roger-Bernard (3 mars).</p>
         </div>
-        <div>
+        <div xml:id="r143874">
           <head rend="uc">Chapitre II
            <lb/>Querelles de Gaston I<hi rend="sup">er</hi> avec les d’Armagnac à la suite
            <lb/>des conventions conclues entre lui et Jacques II,
@@ -331,14 +329,14 @@
           <p>§ I. <hi rend="i">Négociations de Gaston de Foix avec le roi d’Aragon. </hi>– Trêve conclue entre Gaston, comte de Foix, et Jacques II (29 mars 1302). – Le roi d’Aragon fait requérir Guillelme d’exécuter la promesse qu’elle a faite d’entrer dans l’ordre d’Uclès (24 novembre 1302). – Son refus sert les intérêts de Gaston qui obtient du roi la rescision de l’échange fait avec elle et la reconnaissance de ses droits (8 janvier 1303, n. st.). – L’annulation de l’acte d’échange est faite entre le roi et Guillelme le 7 mars suivant. – La convention du 8 janvier, négociée par le vicomte de Cardone, est approuvée par le comte de Foix (23 mai 1303).</p>
           <p>§ II. <hi rend="i">Guerres du comte Gaston avec la famille d’Armagnac. </hi>– <hi rend="i">Paix de Toulouse</hi> (29 janvier 1304, n. st.) – Les concessions obtenues en Catalogne par le comte de Foix ravivent les hostilités déjà existantes entre lui et la famille <pb source="https://nakala.fr/10.34847/nkl.513578ci#728dc5866bb0e737bf5233e655b3773d8786c040" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/728dc5866bb0e737bf5233e655b3773d8786c040/full/full/0/default.jpg"/>d’Armagnac. – – Le roi Philippe le Bel essaie vainement de les arrêter ; il évoque l’affaire à son tribunal et impose aux deux parties la paix de Toulouse ; les terres de Guillelme de Moncade sont adjugées à Gaston d’Armagnac (29 janvier 1304, n. st.).</p>
         </div>
-        <div>
+        <div xml:id="r143914">
           <head rend="uc">Chapitre III
            <lb/>Affaires de Cerdagne et d’Andorre.</head>
           <p>§ I. <hi rend="i">Traité avec le roi de Majorque au sujet de la Cerdagne.</hi> – Querelles du comte de Foix avec le roi au sujet de leurs possessions respectives et de leur juridiction en Cerdagne. Gaston reconnaît la suzeraineté du roi sur le château de Lès (1<hi rend="sup">er</hi> juin 1304). – Sentence arbitrale réglant les contestations (15 juillet 1304).</p>
           <p>§ II. <hi rend="i">La rivalité du comte de Foix et de l’évêque d’Urgel continue en Andorre.</hi> – Ils cherchent l’un et l’autre à faire prédominer leur influence. – L’évêque s’appuie sur le pouvoir royal ; il obtient de Jacques II un privilège pour les habitants d’Andorre (15 octobre 1303). – Le comte de Foix leur en octroie un de son côté (1305).</p>
           <p>§ III. <hi rend="i">Reprise des hostilités entre le comte Gaston et le roi de Majorque. Trêve, le</hi> 30 <hi rend="i">décembre</hi> 1306. – Siège du château de Quer par le roi de Majorque ; la guerre éclate à ce sujet entre lui et Gaston. – Gaston est menacé de voir scs fiefs de Cerdagne confisqués. – Trêve conclue par l’intermédiaire du roi d’Aragon (30 décembre 1306).</p>
         </div>
-        <div>
+        <div xml:id="r143952">
           <head rend="uc">Chapitre IV
            <lb/>Reprise de la guerre entre les maisons de Foix et
            <lb/>d’Armagnac au sujet des possessions de Moncade.</head>
@@ -346,7 +344,7 @@
           <p>§ II. <hi rend="i">Guerre entre les maisons de Foix et d’Armagnac, apaisée par le pape Clément V.</hi> – Guillelme prend ouvertement le parti de ses neveux d’Armagnac. Elle implore pour eux le secours du roi d’Aragon (2 août 1307). – L’intervention du pape Clément V suspend momentanément les hostilités (1308). – Paix définitive conclue entre le comte de Foix et le roi de Majorque, par l’intermédiaire de la reine Esclarmonde et du vicomte de Cardone (1308).</p>
           <p>§ III. <hi rend="i">Arrêt du parlement confirmant la paix de Toulouse </hi>(26 avril 1309). – C’est une nouvelle atteinte aux droits du comte de Foix sur les terres de Guillelme de Moncade.</p>
         </div>
-        <div>
+        <div xml:id="r143989">
           <head rend="uc">Chapitre V
            <lb/>Suite des démêlés de Gaston de Foix avec Gaston de
            <lb/>Fézensaguet depuis le testament de Guillelme de
@@ -354,7 +352,7 @@
           <p>§ I. <hi rend="i">Mort de Guillelme de Moncade et démarches du comte de Foix et du vicomte de Fézensaguet, pour faire reconnaître par le roi d’Aragon leurs droits sur la succession de Moncade.</hi> – Ils se rendent eux-mêmes à Barcelone, auprès de l’infant. – Celui-ci en réfère à son père. Gaston de Fézensaguet envoie des députés au roi (4 novembre 1309). – Le comte de Foix fait de même (18 décembre). – Réponse évasive du roi au procureur du comte de Foix.</p>
           <p>§ II. <hi rend="i">Hostilités déclarées entre le comte Gaston et le vicomte de Fézensaguet</hi> (juillet 1310 – 7 sept. 1310 – traité de paix). – Attaque dirigée par le comte de Foix contre la ville de Martorell : elle est repoussée par Gaston de Fézen<pb source="https://nakala.fr/10.34847/nkl.513578ci#f929d8e2aad11b1c22df7d35fa7730594b77c0d0" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.513578ci/f929d8e2aad11b1c22df7d35fa7730594b77c0d0/full/full/0/default.jpg"/>saguet. – La ville de Vich est occupée par le comte de Foix. – Le roi d’Aragon prend parti contre Gaston de Foix et ses alliés. – Siège de Vich soutenu par Raimond Foulques de Cardone. – Paix avantageuse pour le comte de Foix (7 sept. 1310) ; ses droits sur les terres de Catalogne sont reconnus et il cède, en échange, au vicomte de Fézensaguet ses domaines du Carcassès.</p>
         </div>
-        <div>
+        <div xml:id="r144021">
           <head rend="uc">Chapitre VI
            <lb/>Solution des dernières difficultés concernant
            <lb/>l’héritage de Guillelme de Moncade.</head>
@@ -372,7 +370,7 @@
         <head rend="uc">Appendice géographique</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r144092">
         <head rend="uc">Pièces justificatives (n° I à CLXXXIII).</head>
         <p>Chaque élève publiera les positions de sa thèse sous sa responsabilité personnelle.</p>
         <p>(<hi rend="i">Règlement du</hi> 2 <hi rend="i">février</hi> 1866, <hi rend="i">art.</hi> 9.)</p>

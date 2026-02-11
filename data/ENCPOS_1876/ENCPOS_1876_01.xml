@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1876_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1876_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -55,13 +53,13 @@
         <surname>Bémont</surname>
         <roleName rend="uc">Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r86596">
         <head rend="uc">Introduction
          <lb/>étude des sources</head>
         <p><hi rend="i">Chartes.</hi> Les chartes délivrées au nom de Simon de Montfort comte de Leicester sont datées suivant le style français de Pâques. De même certaines lettres patentes de Henri III concernant le traité de 1259.</p>
         <p><hi rend="i">Chroniques.</hi> Pour la première partie de ce travail, Mathieu Paris (<hi rend="i">Historia major</hi>) est un témoin qui mérite pleine confiance. Pour la seconde partie, la chronique de Thomas Wykes, hostile à Simon de Montfort, est de beaucoup la plus précise et la plus détaillée ; mais son témoignage doit être contrôlé surtout par les Annales de Wawerley, favorables à la cause des barons, et par la chronique des maires et vicomtes de Londres. Il faut employer avec circonspection le <hi rend="i">Chronicon de bellis Leues et Eusham,</hi> et ne tenir aucun compte des chroniques de Melrose et de Lanercost.</p>
       </div>
-      <div>
+      <div xml:id="r86625">
         <head rend="uc">Première partie.</head>
         <p>I. Simon de Montfort vint pour la première fois en Angleterre en 1229 ; le roi le prit à son service en 1230, et lui rendit son héritage paternel en août 1231 ; mais Simon ne porta officiellement le titre de comte qu’après la renonciation solennelle d’Amaury (11 avril 1239).</p>
         <pb source="https://nakala.fr/10.34847/nkl.5b41z72e#0d85a1a9242ef2b6f5c09550d62d7dfaa818f044" n="4" facs="https://api.nakala.fr/iiif/10.34847/nkl.5b41z72e/0d85a1a9242ef2b6f5c09550d62d7dfaa818f044/full/full/0/default.jpg"/>
@@ -71,7 +69,7 @@
         <p>III. Le comte de Leicester prit une part importante au traité <hi rend="i">de Paris</hi> (28 mai 1258, 4 décembre 1259), en négociant, soit seul, soit avec d’autres fondés de pouvoirs, d’abord des trèves successives, puis la paix. Il retarda la conclusion définitive de la paix en soutenant les prétentions de sa femme sur les provinces confisquées en 1203 par Philippe-Auguste.</p>
         <p>De nouvelles discussions soulevées au sujet du douaire de la comtesse Aliénore, furent inutilement soumises à l’arbitrage du roi et de la reine de France : les conférences d’août 1262 n’amenèrent aucun résultat.</p>
       </div>
-      <div>
+      <div xml:id="r86667">
         <head rend="uc">Seconde partie.</head>
         <p>Dans la <hi rend="i">guerre des barons,</hi> Simon de Montfort joua un rôle considérable : il fut un des coalisés du 12 avril 1258, qui arrachèrent au roi les Provisions d’Oxford ; le serment qu’il prêta de maintenir ces provisions, il le tint sans défaillance, autant par <pb source="https://nakala.fr/10.34847/nkl.5b41z72e#244c3d6114f9f46fc4654104d89e4a8cc075bcdb" n="5" facs="https://api.nakala.fr/iiif/10.34847/nkl.5b41z72e/244c3d6114f9f46fc4654104d89e4a8cc075bcdb/full/full/0/default.jpg"/>la force de ses convictions politiques et religieuses, que par la ténacité naturelle de son caractère.</p>
         <p>On ne peut lui attribuer l’honneur d’avoir fondé la Chambre des Communes : avant lui déjà, les chevaliers des comtés et les représentants des villes avaient pris place dans le Parlement, et rien ne prouve qu’il ait voulu les y appeler périodiquement. Il les convoqua pour faire sanctionner par ces représentants des classes moyennes, qui lui fournirent le plus grand nombre de ses partisans, les réformes imposées au roi vaincu.</p>

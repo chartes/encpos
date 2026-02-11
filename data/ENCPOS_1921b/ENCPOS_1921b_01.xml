@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921b_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921b_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,13 +61,13 @@
         <head rend="uc">Sources manuscrites et imprimées</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r409054">
         <head rend="uc">Introduction</head>
         <p>On connaît surtout l’œuvre de censure entreprise par les Assemblées du Clergé sur la librairie.</p>
         <p>Il en est une autre, parallèle, d’encouragement.</p>
         <p>Cette étude essaie de les montrer toutes deux pour qu’on puisse juger plus impartialement.</p>
       </div>
-      <div>
+      <div xml:id="r409070">
         <head rend="uc">Première partie
          <lb/>Du droit des Assemblées du Clergé
          <lb/>de censurer et d’approuver les livres</head>
@@ -78,7 +76,7 @@
         <p>Rome, de son côté, ne pouvait admettre l’autorité doctrinale des Assemblées du Clergé, convoquées sans son ordre. La compétence spirituelle qu’elles s’attribuaient était du ressort des Conciles à qui elles cherchèrent à s’identifier, surtout aux <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles, en se fondant sur ce que la première Assemblée (celle de Poissy, 1561) avait été réunie pour traiter des affaires de la Religion, théorie toujours réfutée par le Saint-Siège. Mais le Pape sut temporiser politiquement.</p>
         <p>Le Parlement refusa souvent aux Assemblées la connaissance des matières doctrinales ; il s’arrogea le droit de casser leurs décisions et même de leur substituer les siennes, mais dans ce cas, le Roi évoqua fréquemment les affaires.</p>
       </div>
-      <div>
+      <div xml:id="r409114">
         <head rend="uc">Deuxième partie
          <lb/>Censures des Assemblées Générales
          <lb/>du Clergé</head>
@@ -86,7 +84,7 @@
         <p>Elles exhortaient les évêques à interdire aux fidèles la lecture des livres censurés et demandaient au Roi de défendre la circulation de ces livres.</p>
         <p>Leurs censures étaient donc de simples avis défavorables comme leurs approbations n’étaient que des encouragements, mais le prestige des Assemblées procurait une grande force à leurs sentences.</p>
         <p>B) <hi rend="i">Politique.</hi> – Les Assemblées combattaient surtout les ouvrages où se manifestaient des doctrines <hi rend="i">anti-hiérarchiques, </hi>le Protestantisme, le Jansénisme, la Casuistique et la Philosophie.</p>
-        <div>
+        <div xml:id="r409148">
           <pb source="https://nakala.fr/10.34847/nkl.d0b321fp#df8b19bb30cecdfd03750d5f4e643c677fa5ed08" n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.d0b321fp/df8b19bb30cecdfd03750d5f4e643c677fa5ed08/full/full/0/default.jpg"/>
           <head rend="uc">I° lutte contre les ouvrages anti-hiérarchiques</head>
           <p>Les Assemblées qui se considéraient comme le Corps privilégié (le premier du Royaume) d’une Église privilégiée (l’Église Gallicane) appelaient anti-hiérarchique tout ouvrage contraire aux principes suivants :</p>
@@ -95,11 +93,11 @@
           <p>les réguliers ne sont jamais tout à fait exempts de l’Ordinaire.</p>
           <p>Ayant par leur importance même un rôle politique, les Assemblées défendirent aussi le principe de la souveraineté royale, mais empêchèrent cette souveraineté d’empiéter sur les libertés de l’Église Gallicane.</p>
         </div>
-        <div>
+        <div xml:id="r409175">
           <head rend="uc">2° lutte contre le Protestantisme</head>
           <p>Sans se lasser, les Assemblées demandaient l’application vigilante des édits : Assemblées de 1670, 1675, 1685, 1775. Elles encouragèrent les livres qui combattaient le Protestantisme (livres de controverses, traductions orthodoxes, etc.) et eurent un fonds affecté spécialement aux pensions des ministres convertis.</p>
         </div>
-        <div>
+        <div xml:id="r409185">
           <head rend="uc">3° lutte contre le Jansénisme</head>
           <p>De 1655 à 1765 les Assemblées poursuivirent les propositions jansénistes ; en particulier :</p>
           <p><hi rend="i">l’Assemblée de</hi> 1655 rédigea un premier formulaire à signer par tous les Évêques ;</p>
@@ -109,11 +107,11 @@
           <pb source="https://nakala.fr/10.34847/nkl.d0b321fp#f4a1f0bf3582b3907820acb4bd71300db2c51721" n="4" facs="https://api.nakala.fr/iiif/10.34847/nkl.d0b321fp/f4a1f0bf3582b3907820acb4bd71300db2c51721/full/full/0/default.jpg"/>
           <p><hi rend="i">l’Assemblée de</hi> 1755 protesta contre les infractions à la Bulle et contre la compétence que s’arrogeaient les Parlements en matière d’administration des sacrements.</p>
         </div>
-        <div>
+        <div xml:id="r409238">
           <head rend="uc">4° lutte contre le Quiétisme</head>
           <p>L’Assemblée de 1700 adopta le rapport de Bossuet sur le Quiétisme et la condamnation des <hi rend="i">Maximes des Saints</hi> de Fénelon.</p>
         </div>
-        <div>
+        <div xml:id="r409252">
           <head rend="uc">5° lutte contre la Casuistique</head>
           <p>Pour apaiser les consciences troublées par cette méthode,</p>
           <p><hi rend="i">l’Assemblée de</hi> 1641 pria la Faculté de Théologie d’établir un traité de théologie morale ;</p>
@@ -121,13 +119,13 @@
           <p><hi rend="i">l’Assemblée de</hi> 1682 condamna les propositions de Casuistique après le tribunal de l’Inquisition ;</p>
           <p><hi rend="i">l’Assemblée de</hi> 1700 précisa les propositions de Casuistique blâmables dans la fameuse <hi rend="i">Censura et Declaratio Conventus Generalis Cleri Gallicani,</hi> rédigée par Bossuet.</p>
         </div>
-        <div>
+        <div xml:id="r409290">
           <head rend="uc">6° lutte contre les philosophes</head>
           <p>Au <num>xviii<hi rend="sup">e</hi></num> siècle, les Assemblées ne pouvaient plus motiver leurs condamnations livre par livre, vu le grand nombre de livres contraires à l’orthodoxie. Elles ne purent viser expressément que les principaux ouvrages écrits par Voltaire, Rousseau, Helvétius, d’Holbach, l’abbé Raynal, Fréret, Boulanger, etc. et remontrèrent au Roi que les ennemis de la Religion étaient aussi ceux du Trône.</p>
           <p>En 1782, l’Assemblée proposa une réglementation nouvelle de la librairie. Voyant qu’il ne pouvait compter que sur lui-même, le Clergé décida de combattre l’athéisme par la diffusion des ouvrages des apologistes de la Religion et par des récompenses aux bons auteurs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r409310">
         <pb source="https://nakala.fr/10.34847/nkl.d0b321fp#ae1e21b51abf3e859aa39bc95b911624f739c8e6" n="5" facs="https://api.nakala.fr/iiif/10.34847/nkl.d0b321fp/ae1e21b51abf3e859aa39bc95b911624f739c8e6/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Encouragements des Assemblées Générales
@@ -149,7 +147,7 @@
         <p>Les autres catégories de livres encouragés sont d’importance secondaire ; il faut cependant signaler que :</p>
         <p>/) quelques histoires ecclésiastiques gratifiées ont trait à l’œuvre de Baronius : l’<hi rend="i">Epitome</hi> de cet auteur, par l’évêque de Pamiers, Henri de Sponde ; la traduction de Copin et l’<hi rend="i">Anatheoresis historico-chronologica ad annales ecclesiasticos </hi>du Père Pagy.</p>
       </div>
-      <div>
+      <div xml:id="r409455">
         <head rend="uc">Quatrième partie
          <lb/>Ouvrages concernant les actes du Clergé</head>
         <p>Il convient de citer à part les ouvrages concernant les actes des Assemblées qui permettent d’apprécier la valeur de leurs travaux.</p>
@@ -163,7 +161,7 @@
         <p>En 1680, Borjon donna un abrégé.</p>
         <p>L’Assemblée de 1700 commanda une nouvelle édition des <hi rend="i">Mémoires</hi> à l’abbé de Targny et à Lemerre. Cette édition se compose de treize tomes.</p>
       </div>
-      <div>
+      <div xml:id="r409525">
         <head rend="uc">Conclusion</head>
         <p>En matière de librairie, qui avait le plus de poids : la censure ou l’encouragement des Assemblées ?</p>
         <p>La censure des Assemblées n’ayant ni valeur religieuse, ni valeur légale, existait en principe plutôt qu’en fait. Elle n’était appuyée d’aucune sanction, et n’était prononcée d’ordinaire qu’après la publication des livres ; elle ne nuisit donc pas à la production intellectuelle. Au contraire, les encouragements des Assemblées Générales permirent la publication d’ouvrages très importants dont le Clergé surveillait minutieusement l’impression, quand il ne la confiait pas aux meilleurs imprimeurs.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,16 +60,16 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r514733">
         <head rend="uc">Avant-propos</head>
         <p>Henri I<hi rend="sup">er</hi>, vainqueur de son frère Robert Courteheuse, se sert pour l’administration normande de son ancienne chancellerie : celle-ci ne change rien à ses méthodes.</p>
       </div>
-      <div>
+      <div xml:id="r514747">
         <head rend="uc">Chapitre premier
          <lb/>multiplicité des actes de Henri I<hi rend="sup">er</hi>.</head>
         <p>Le <hi rend="i">Pipe Roll</hi> de l’an 31 du règne de Henri I<hi rend="sup">er</hi> prouve que déjà la chancellerie avait une grande activité. Autres preuves de cette activité : extrême variété de l’objet des actes. Exemples et motifs : la chancellerie doit satisfaire aux exigences d’une administration méthodiquement organisée.</p>
       </div>
-      <div>
+      <div xml:id="r514771">
         <pb source="https://nakala.fr/10.34847/nkl.59c5893d#497b11a582b6b127af1887c0ae3a6116e3ceb3ff" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.59c5893d/497b11a582b6b127af1887c0ae3a6116e3ceb3ff/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre II
          <lb/>Classification des actes.</head>
@@ -81,7 +79,7 @@
         <p><hi rend="i">Vidimus et copies authentiques.</hi> Il faut se défier de ces copies qui, malgré leur caractère d’authenticité juridique, n’ont souvent servi qu’à donner valeur à des faux.</p>
         <p>Classification des actes de Henri I<hi rend="sup">er</hi> en actes solennels, généralement rédigés par les destinataires, et en actes non solennels, rédigés par la chancellerie. Autre distinction en brefs et chartes faite par ce service dans les actes par lui expédiés.</p>
       </div>
-      <div>
+      <div xml:id="r514820">
         <head rend="uc">Chapitre III
          <lb/>Actes non solennels.</head>
         <p>Distinction faite par la chancellerie elle-même entre les brefs et les chartes ; preuves et exemples.</p>
@@ -112,12 +110,12 @@
         <p>La date chronologique est rare dans des brefs. Elle est d’ailleurs très vague et n’indique jamais le millésime : les synchronismes que l’on rencontre parfois à sa place sont suspects d’avoir été ajoutés par les copistes de cartulaires.</p>
         <p>Le millésime se rencontre dans un certain nombre de chartes des dernières années du règne : impossibilité de prouver le style observé par la chancellerie.</p>
       </div>
-      <div>
+      <div xml:id="r514946">
         <head rend="uc">Chapitre IV
          <lb/>Actes solennels.</head>
         <p>L’acte solennel usité sous Guillaume le Conquérant l’est encore sous Henri I<hi rend="sup">er</hi>.</p>
         <p>I. <hi rend="i">Caractères internes.</hi> L’acte solennel est rédigé par le destinataire : exemples.</p>
-        <div>
+        <div xml:id="r514968">
           <pb source="https://nakala.fr/10.34847/nkl.59c5893d#0dae0c5b999fe67e88b1619e8bb152af35b5a41b" n="57" facs="https://api.nakala.fr/iiif/10.34847/nkl.59c5893d/0dae0c5b999fe67e88b1619e8bb152af35b5a41b/full/full/0/default.jpg"/>
           <head rend="uc">1. <hi rend="i">Ancienne forme de l’acte solennel.</hi></head>
           <p>Exemple d’acte solennel rédigé par le destinataire : la charte de fondation de l’abbaye de Savigny (1113), ses éléments.</p>
@@ -128,7 +126,7 @@
           <p>Annonce des signes de validation : elle mentionne la plupart du temps la souscription et le sceau.</p>
           <p>Certains actes souscrits ne comportent pas le seing du roi.</p>
         </div>
-        <div>
+        <div xml:id="r515007">
           <head rend="uc">2. <hi rend="i">Evolution de l’acte solennel.</hi></head>
           <p>Certains diplômes présentant par ailleurs tous les éléments de l’acte non solennel n’en diffèrent que par leur eschatocole.</p>
           <p>Il semble que ces diplômes, quoique souscrits, aient subi dans leur rédaction l’influence plus ou moins directe de la chancellerie. Leur eschatocole varie et marque une évolution vers l’acte non solennel. L’acte solennel disparaît presque définitivement sous Henri I<hi rend="sup">er</hi>.</p>
@@ -136,14 +134,14 @@
           <p>Le scellement des actes solennels.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r515038">
         <head rend="uc">Chapitre V
          <lb/>Chartes confirmées par le roi.</head>
         <p>Assez souvent, la partie intéressée ne fait pas les <pb source="https://nakala.fr/10.34847/nkl.59c5893d#b90482d6ce6aa9f99e8da398bf251b46634f2e75" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.59c5893d/b90482d6ce6aa9f99e8da398bf251b46634f2e75/full/full/0/default.jpg"/>frais d’un nouveau diplôme pour faire confirmer son acte par le roi.</p>
         <p>Confirmation par simple apposition du sceau : rares exemples connus ; raisons.</p>
         <p>Plus souvent, les signes de validation sont apposés avec mention : exemples. Ce mode de confirmation disparaît par suite de l’activité grandissante de la chancellerie.</p>
       </div>
-      <div>
+      <div xml:id="r515061">
         <head rend="uc">Chapitre VI
          <lb/>La chancellerie.</head>
         <p>Sous Henri I<hi rend="sup">er</hi>, la chancellerie se compose encore des clercs de sa chapelle, qui suit le roi dans ses voyages.</p>
@@ -152,7 +150,7 @@
         <p>Rôle des clercs de la chancellerie. Ils ne semblent pas avoir eu le privilège exclusif de l’expédition des actes royaux.</p>
         <p>La chancellerie ne se servait pas de formulaire. Peut-être y avait-il des rouleaux de chancellerie comme sous Henri H. Les archives suivaient ce service dans tous ses déplacements.</p>
       </div>
-      <div>
+      <div xml:id="r515101">
         <head rend="uc">Conclusion</head>
         <p>L’évolution de la diplomatique anglo-normande se fait <pb source="https://nakala.fr/10.34847/nkl.59c5893d#03e4003d3279a71ee535fd2520e794d8fd48050d" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.59c5893d/03e4003d3279a71ee535fd2520e794d8fd48050d/full/full/0/default.jpg"/> d’une façon presque définitive sous Henri I<hi rend="sup">er</hi> ; à peine subira-t-elle quelques modifications sous Richard-Cœur-de-Lion et Jean sans Terre.</p>
         <p>Cette évolution est parallèle au développement de l’organisation administrative et à son perfectionnement. L’acte solennel, incommode pour une administration expéditive, devait disparaître. L’évolution de la diplomatique des rois anglo-normands se fait différemment de celle des rois de France, dont l’administration ne se développera que plus tard.</p>

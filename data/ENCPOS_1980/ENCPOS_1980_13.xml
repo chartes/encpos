@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,21 +56,21 @@
         <surname>Lalou</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1062455">
         <head rend="uc">Introduction</head>
         <p>Deux manuscrits font l’objet de cette étude : le manuscrit conservé à la Bibliothèque nationale – nouvelles acquisitions françaises 2100 – et le manuscrit conservé au Musée Condé de Chantilly n° 619. Le manuscrit parisien a déjà fait l’objet d’une édition complète, en 1836, mais qui ne comprend ni glossaire ni introduction critique. Le manuscrit de Chantilly n’a été édité que partiellement en 1909 ; l’édition ne comprend ni glossaire, ni étude linguistique ; les thèses avancées dans l’introduction sont pour la plupart dépassées. Une édition nouvelle et complète est donc nécessaire.</p>
       </div>
-      <div>
+      <div xml:id="r1062465">
         <head rend="uc">Première partie
          <lb/>Étude</head>
-        <div>
+        <div xml:id="r1062473">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits : description et comparaison</head>
           <p>Le manuscrit de Chantilly nous est parvenu entier dans un bon état de conservation, tandis que le manuscrit parisien est abîmé et a été amputé du début.</p>
           <p>L’analyse détaillée du texte permet de dégager les différences dans l’évolution de l’histoire des deux manuscrits. Pour les trois quarts du mystère, les deux textes n’ont de commun que la trame de l’action. Pour la fin, ils donnent le même texte. Les différences, dans le début, apparaissent dans l’agencement <pb source="https://nakala.fr/10.34847/nkl.19d8t94v#82d2f995f3082b431f5986a2e46acebc7fbf59e7" n="106" facs="https://api.nakala.fr/iiif/10.34847/nkl.19d8t94v/82d2f995f3082b431f5986a2e46acebc7fbf59e7/full/full/0/default.jpg"/>des scènes, le nom des personnages et l’évolution de l’action. Cette partie rapporte l’arrivée des saints à Soissons, où ils prêchent avant d’être soumis à toute une série de supplices.</p>
           <p>La fin du texte, qui rapporte la translation des reliques des saints, est la même dans les deux manuscrits. Comme les deux textes ne sont pas datés – on ne connaît que des dates de représentations – on peut supposer qu’ils sont des copies l’un de l’autre. L’analyse détaillée de cette partie ne permet pas de tirer des conclusions certaines : soit le manuscrit de Chantilly est une copie du manuscrit parisien, soit les auteurs des deux textes ont eu recours à une source perdue.</p>
         </div>
-        <div>
+        <div xml:id="r1062496">
           <head rend="uc">Chapitre II
            <lb/>La légende de saint Crépin et saint Crépinien,
            <lb/>les sources des mystères et les influences du théâtre religieux</head>
@@ -85,7 +83,7 @@
           <p>On trouve, en outre, des relations entre le mystère de Paris et certains mystères hagiographiques postérieurs, comme ceux de saint Laurent, de saint Vincent ou de saint Adrien. Les thèmes abordés dans les sermons ou discours religieux du <hi rend="i">Mystère de saint Crépin et saint Crépinien</hi> se retrouvent dans les mystères de saint Genis et de saint Clément, et dans d’autres mystères encore. En effet, le <hi rend="i">Mystère de saint Crépin</hi> est peu original sur ce point : les thèmes et les images se retrouvent dans presque tous les mystères du <num>xv<hi rend="sup">e</hi></num> siècle. Enfin, l’étude des noms des personnages aboutit aux mêmes conclusions : excepté quelques noms qui se trouvent dans des romans en prose des xm<hi rend="sup">e</hi> et <num>xiv<hi rend="sup">e</hi></num> siècles, les noms des personnages sont utilisés constamment dans d’autres mystères dès le <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
           <p>L’originalité du <hi rend="i">Mystère de saint Crépin et de saint Crépinien</hi> tient surtout au fait qu’il se situe dans la lignée des mystères du <num>xiv<hi rend="sup">e</hi></num> siècle tout en comportant des éléments propres aux mystères du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1062648">
           <head rend="uc">Chapitre III
            <lb/>Les représentations et les confréries de cordonniers</head>
           <p>Les deux mystères ont été représentés.</p>
@@ -93,7 +91,7 @@
           <p>La « Confrairie monseigneur saint Crespin et monseigneur saint Crespinien » fondée en l’église Notre-Dame de Paris fit représenter le mystère à Paris en 1458 et en 1459. Elle était encore composée à cette époque de maîtres et de compagnons cordonniers.</p>
           <p>Des textes perdus de la vie de saint Crépin et de saint Crépinien furent représentés à Aix-en-Provence en 1443 et à Compiègne en 1488, certainement à la faveur de l’expansion du culte de saint Crépin et saint Crépinien parmi les cordonniers, dont les confréries dédiées aux deux saints étaient fort nombreuses à partir du <num>xv<hi rend="sup">e</hi></num> siècle, en France et à l’étranger.</p>
         </div>
-        <div>
+        <div xml:id="r1062685">
           <pb source="https://nakala.fr/10.34847/nkl.19d8t94v#b1946779ba206abea2445238f638c9c1c0fcdb93" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.19d8t94v/b1946779ba206abea2445238f638c9c1c0fcdb93/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>La mise en scène des mystères</head>
@@ -103,7 +101,7 @@
           <p>L’agencement général du théâtre apparaît d’une façon assez floue. Les décors sont presque complètement inconnus ; de la même façon les mouvements et le jeu des acteurs ne sont que rarement précisés par des didascalies laconiques. La musique, le « <hi rend="i">silete</hi> », ne peut que donner lieu à quelques hypothèses.</p>
           <p>Dans le cadre de l’étude de la mise en scène, les représentations iconographiques cycliques de la vie des saints Crépin et Crépinien ont fait l’objet d’une étude comparative. Les représentations partielles antérieures aux mystères n’ont été abordées que pour essayer de trouver une tradition de la représentation des saints avant l’apparition soudaine des cycles de leur vie aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles. Le <hi rend="i">corpus</hi> étudié précisément se compose de trois toiles, six vitraux et sept retables pour la plupart étrangers. Il ressort de cette étude que si l’influence des mystères est sensible dans un bon nombre d’œuvres iconographiques, le <hi rend="i">Mystère de saint Crépin et de saint Crépinien</hi> n’a guère dû avoir d’influence directe que sur les deux vitraux de Gisors et de Clermont-de-l’Oise.</p>
         </div>
-        <div>
+        <div xml:id="r1062738">
           <head rend="uc">Chapitre V
            <lb/>Étude linguistique des mystères</head>
           <p>L’étude de la langue situe les deux pièces dans la première moitié du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
@@ -112,17 +110,17 @@
           <p>Le fait essentiel de la versification est l’utilisation constante par le manuscrit de Chantilly du vers de quatre syllabes en fin de tirade, un peu moins régulier dans le manuscrit parisien.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1062771">
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
         <p>Les deux textes sont édités en face à face pour la première partie quand les mêmes scènes sont rapportées.</p>
         <p>Pour la dernière partie, le texte du manuscrit parisien est édité en entier ; le texte du manuscrit de Chantilly apparaît dans les variantes en bas de page.</p>
       </div>
-      <div>
+      <div xml:id="r1062786">
         <head rend="uc">Annexes</head>
         <p>Glossaire. – Notes (les notes donnent les références des citations bibliques et des correspondances précises avec d’autres mystères). – Index des noms propres cités dans le mystère. – Index des personnages du mystère.</p>
       </div>
-      <div>
+      <div xml:id="r1062796">
         <head rend="uc">Album photographique</head>
         <p>L’album contient les représentations cycliques étudiées dans le quatrième chapitre ainsi que quelques représentations isolées de saint Crépin.</p>
         <pb source="https://nakala.fr/10.34847/nkl.19d8t94v#9ac9981efad4d6b2d52cbeaea667a29d7d424b34" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.19d8t94v/9ac9981efad4d6b2d52cbeaea667a29d7d424b34/full/full/0/default.jpg"/>

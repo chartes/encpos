@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <forename>Pierre</forename>
         <surname>Caillet</surname>
       </byline>
-      <div>
+      <div xml:id="r458260">
         <head rend="uc">Avant – Propos
          <lb/>bibliographie
          <lb/>introduction</head>
@@ -68,11 +66,11 @@
         <p>La mort de l’archevêque de Lyon, Amédée de Talaru, survenue le 11 février 1444 le décide à poser sa candidature à ce siège. Elu, le 21, par la majorité des chanoines il doit, devant l’opposition de Charles VII et l’hostilité du doyen du chapitre, renoncer, le 3 avril, à l’archevêché en faveur de son neveu, Charles de Bourbon, encore enfant. Il prend par procuration possession de l’évêché du Puy, le 2 juin, et fait son entrée solennelle au Puy, le 29 octobre.</p>
         <p>Portrait de Jean de Bourbon, son caractère.</p>
       </div>
-      <div>
+      <div xml:id="r458286">
         <pb source="https://nakala.fr/10.34847/nkl.d2163eu7#f7abd42cde7c0d0d80a7c4410d572a0b4eccb985" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.d2163eu7/f7abd42cde7c0d0d80a7c4410d572a0b4eccb985/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>L’évêque du Puy</head>
-        <div>
+        <div xml:id="r458299">
           <head rend="uc">Chapitre premier
            <lb/>les débuts – Rôle politique</head>
           <p>Comte du Velay, Jean de Bourbon assiste à ce titre à diverses assemblées des Etats de Languedoc et ne tarde pas à y jouer un rôle important. 11 est envoyé par les Etats en mission auprès du roi en 1456.</p>
@@ -80,7 +78,7 @@
           <p>Il prend part avec le vicomte de Polignac, à la ligue du Bien Public (1465) ; il ne réussit pas à gagner la ville du Puy à sa cause ; son château d’Espaly est pris d’assaut par les troupes royales (octobre).</p>
           <p>Il abandonne alors la lutte et se voit confier par le duc de Bourbon, rentré en grâce et nommé gouverneur de Languedoc, le soin d’administrer la province avec le titre de lieutenant général (7 juillet 1466)</p>
         </div>
-        <div>
+        <div xml:id="r458320">
           <head rend="uc">Chapitre II
            <lb/>Rôle administratif
            <lb/>le lieutenant général en Languedoc et en Forez</head>
@@ -90,7 +88,7 @@
           <p>Démêlés de Jean de Bourbon avec le Parlement de Toulouse. 11 organise à Montpellier une cour de justice rivale du Parlement. Cette mesure autoritaire entraîne la destitution de Jean de Bourbon par Louis XI et son remplacement par l’évêque d’Albi, Louis d’Amboise (6 mars 1474).</p>
           <p>L’évêque du Puy, nommé par le duc Jean II lieutenant général en Forez, préside dès lors à l’administration de ce pays. Il prend sa revanche et se fait rendre par le duc, après la révocation de Louis d’Amboise, la lieutenance générale de Languedoc (6 décembre 1484) ; mais le parlement de Toulouse refuse d’enregistrer les lettres de nomination et la mort de l’évêque met seule fin au conflit.</p>
         </div>
-        <div>
+        <div xml:id="r458348">
           <head rend="uc">Chapitre III
            <lb/>Rôle ecclésiastique</head>
           <div>
@@ -110,11 +108,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r458395">
         <pb source="https://nakala.fr/10.34847/nkl.d2163eu7#ce53aa58629c2c8c36ff171ae899b3311bb2baba" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.d2163eu7/ce53aa58629c2c8c36ff171ae899b3311bb2baba/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>L’abbé de Cluny</head>
-        <div>
+        <div xml:id="r458408">
           <head rend="uc">Chapitre premier
            <lb/>décadence de l’ordre de Cluny à l’avènement
            <lb/>de Jean de Bourbon</head>
@@ -130,7 +128,7 @@
             <p>Le pape confirme ce choix et autorise <hi rend="i">de speciali gratia</hi> le nouvel abbé à garder son évêché.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r458452">
           <pb source="https://nakala.fr/10.34847/nkl.d2163eu7#557cd2b084e606d8dc002927e76ec63e66e564f3" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.d2163eu7/557cd2b084e606d8dc002927e76ec63e66e564f3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Sa tentative de réforme</head>
@@ -168,7 +166,7 @@ Bourbon.</hi>
             <p>Malgré sa ténacité et le concours actif que lui ont apporté les définiteurs, il n’a pu aboutir par suite des circonstances défavorables, de la résistance et de la mauvaise volonté rencontrées dans l’Ordre comme au dehors.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r458560">
           <head rend="uc">Chapitre III
            <lb/>Ses libéralités
            <lb/>résignation de l’abbaye (1480). Mort (1485)</head>
@@ -178,17 +176,17 @@ Bourbon.</hi>
           <p>Voulant désigner son successeur, il résigne, le 30 août 1480, en faveur de Jacques d’Amboise, se réservant toutefois l’administration temporelle et spirituelle de l’Ordre. Il meurt dans son prieuré de Saint-Rambert le 2 décembre 1485.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r458586">
         <head rend="uc">Troisième partie
          <lb/>L’homme privé</head>
-        <div>
+        <div xml:id="r458594">
           <head rend="uc">Chapitre premier
            <lb/>rapports de Jean de Bourbon avec sa famille</head>
           <p>Jean de Bourbon entretient les meilleures relations avec les membres de sa famille. Il négocie en 1446 le mariage de l’héritier de Bourbon Jean, comte de Clermont, son neveu, avec Jeanne de France, fille de Charles VII.</p>
           <p>De 1449 à 1466 il administra le diocèse de Lyon en qualité de vicaire de son neveu Charles.</p>
           <p>Il ordonne la rédaction d’un inventaire général des titres de la maison de Bourbon.</p>
         </div>
-        <div>
+        <div xml:id="r458612">
           <pb source="https://nakala.fr/10.34847/nkl.d2163eu7#6836c9d662fd1ecfeaf671c10005dd5af7f3a6e2" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.d2163eu7/6836c9d662fd1ecfeaf671c10005dd5af7f3a6e2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les biens de Jean de Bourbon</head>
@@ -196,7 +194,7 @@ Bourbon.</hi>
           <p>Fortune immobilière.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r458633">
         <head rend="uc">Conclusion</head>
         <p>Actif, entreprenant et généreux, soucieux des véritables intérêts de l’Eglise, Jean de Bourbon est une figure complexe et intéressante de prélat administrateur et réformateur, et sa vie contribue à éclairer le rôle si divers de l’épiscopat du <num>xv<hi rend="sup">e</hi></num> siècle et la tentative de Réforme Catholique qui précéda sans pouvoir l’empêcher la Réforme Protestante.</p>
       </div>

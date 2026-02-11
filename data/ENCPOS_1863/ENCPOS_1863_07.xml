@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1863_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1863_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -57,7 +55,7 @@
         <surname>Richard</surname>
       </byline>
       <p>But de ce travail. – Documents employés : chartes et cartulaires ; de leur valeur.</p>
-      <div>
+      <div xml:id="r45829">
         <head rend="uc">Des personnes.</head>
         <p>Le Comte : son pouvoir administratif et judiciaire, ses fidèles, ses biens.</p>
         <p>Le Vicomte.</p>
@@ -72,12 +70,12 @@
         <p>Les Hôpitaux.</p>
         <p>Droit civil des personnes.</p>
       </div>
-      <div>
+      <div xml:id="r45885">
         <head rend="uc">De la terre.</head>
         <p>Alleux. Bénéfices. Bénéfices ecclésiastiques : régime de la main-ferme.</p>
         <p>Transformation des alleux et des bénéfices ; les Fiefs : le <hi rend="i">senior</hi> et <hi rend="i">l’homo.</hi></p>
       </div>
-      <div>
+      <div xml:id="r45905">
         <head rend="uc">Des biens.</head>
         <p>Le <hi rend="i">castrum ;</hi> la <hi rend="i">villa ;</hi> le <hi rend="i">burgus ;</hi> les églises ; les <hi rend="i">curtes. </hi>Désignation des biens par les mesures de superficie et les cultures ; les salines ; la vigne et le bail à complant ;</p>
       </div>

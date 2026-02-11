@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1991_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1991_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,11 +58,11 @@
         <forename>Nathalie</forename>
         <surname>Borel</surname>
       </byline>
-      <div>
+      <div xml:id="r1196799">
         <head rend="uc">Introduction</head>
         <p>La première version de la <hi rend="i">Fleur des histoires</hi> fut compilée entre 1446 et Pâques 1451 (datation proposée par Guy de Poerck). Son auteur, Jean Mansel (1400/1401-1473/1474), était un fonctionnaire ducal établi à Hesdin, en Artois. Il atteignit le faîte de sa carrière en 1460, lorsqu’il fut commis à la recette générale des aides ordinaires d’Artois, du Boulonnais et de Saint-Pol, charge qu’il exerça pendant neuf ans. C’est cependant en qualité d’écrivain, ou plus exactement de compilateur, qu’il passa, dans une modeste mesure, à la postérité. A Hesdin, ville auprès de laquelle s’élevait la résidence d’été des ducs de Bourgogne, travaillaient en effet de nombreux auteurs, compilateurs, grossoyeurs, tel David Aubert, miniaturistes, tel Loyset Liédet, enlumineurs et relieurs.</p>
       </div>
-      <div>
+      <div xml:id="r1196813">
         <pb source="https://nakala.fr/10.34847/nkl.cee84812#ade74a26b832f86e5adcf47d3cf8b29c9b438ae4" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.cee84812/ade74a26b832f86e5adcf47d3cf8b29c9b438ae4/full/full/0/default.jpg"/>
         <head rend="uc">Les manuscrits</head>
         <p>La liste de manuscrits a été établie par G. de Poerck (<hi rend="i">Introduction à la « Fleur des histoires » de Jean Mansel) :</hi></p>
@@ -83,16 +81,16 @@
         <p>M. Gent, Bibl. univ., 12.</p>
         <p>G. de Poerck cite également deux autres manuscrits dont nous ignorons les possesseurs : l’un appartint à l’Ashburnham Library sous la cote « Barrois 107 » et fut vendu à Londres, chez Sotheby, le 13 juin 1901 ; l’autre fit partie de la collection du prince Dietrichstein, vendue à Lucerne les 21 et 22 novembre 1933.</p>
       </div>
-      <div>
+      <div xml:id="r1196873">
         <head rend="uc">Première partie
          <lb/>Tentative de classement des manuscrits
          <lb/>d’après des données codicologiques</head>
-        <div>
+        <div xml:id="r1196883">
           <head rend="uc">Chapitre premier
            <lb/>notices des manuscrits</head>
           <p>Les notices sont divisées en cinq parties : description (type de support, nombre de feuillets, dimensions, justification, nombre de cahiers, reliure), contenu, décoration (initiales, miniatures, bordures), histoire (énumération des possesseurs) et bibliographie.</p>
         </div>
-        <div>
+        <div xml:id="r1196895">
           <pb source="https://nakala.fr/10.34847/nkl.cee84812#6f02442cca9f596b648f0b22afe962ee943e94dc" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.cee84812/6f02442cca9f596b648f0b22afe962ee943e94dc/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les cinq groupes de manuscrits</head>
@@ -104,7 +102,7 @@
           <p>Cette première ébauche de classement des manuscrits est confirmée et précisée par l’examen des variantes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1196959">
         <pb source="https://nakala.fr/10.34847/nkl.cee84812#9bb8f92ea9d34293a2c8da114b387a4f5e6337a9" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.cee84812/9bb8f92ea9d34293a2c8da114b387a4f5e6337a9/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Classement des manuscrits d’après l’examen
@@ -115,18 +113,18 @@
         <p><hi rend="i">Livre III (1" partie : vies de saints</hi>). – Rien ne permet d’affirmer que le manuscrit Bruxelles, Bibl. roy., 10515 (J) ait jadis été accompagné d’un second volume contenant le livre III. Si cependant ce second volume a réellement existé, il se peut que les variantes qui le distinguaient des manuscrits Bruxelles, Bibl. roy., 9232 (A) et Wien, Schottenstift, 140 (H) se retrouvent dans le manuscrit Paris, Bibl. nat., fr. 57. Le manuscrit Paris, Bibl. nat., fr. 305 fut copié sur l’exemplaire Wien, Schottenstift, 140. D’autre part il semble que ce manuscrit de Vienne ait été corrigé peu après sa transcription : en effet l’encre rouge a été utilisée pour rehausser les carets des additions interlinéaires ou barrer et exponctuer les passages à supprimer ; de plus ces corrections paraissent avoir modifié le texte des manuscrits Paris, Bibl. Mazarine, 1560, Paris, Bibl. nat., fr. 57 et Bruxelles, Bibl. roy., 9232. Le groupe constitué par les manuscrits Paris, Bibl. nat., fr. 298 (B), Paris, Bibl. Mazarine, 1560 (E) et London, British Muséum, Royal 18 E VI (K) présente les mêmes caractéristiques que dans le livre II, son subarchétype ayant reproduit tantôt les variantes propres au manuscrit Bruxelles 9232, tantôt celles qui caractérisent H. Il apparaît cependant que le copiste du manuscrit K a parfois préféré aux leçons de l’exemplaire qu’il transcrivait celles d’un autre manuscrit dont le texte était analogue à celui des manuscrits Bruxelles 9232 et Wien 140.</p>
         <p>Cette tentative de classement des manuscrits à partir de l’examen de leurs variantes a également révélé que les leçons qui distinguent les exemplaires Wien, Schottenstift, 139 et 140 des manuscrits Bruxelles, Bibl. roy., 9232 et 10515 sont le plus souvent les plus satisfaisantes. D’autre part le texte des deux manuscrits de Vienne est le plus fidèle aux sources utilisées par le compilateur : ainsi dans le <hi rend="i">Traité des provinces du monde,</hi> qui est en fait la transcription du livre XV des <hi rend="i">Propriétés des choses</hi> de Barthélémy l’Anglais, les variantes qui opposent le manuscrit Wien 139 aux manuscrits Bruxelles 9231 et 10515 sont le plus souvent les leçons du manuscrit Paris, Bibl. nat., fr. 134, un exemplaire des <hi rend="i">Propriétés des choses.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1197021">
         <pb source="https://nakala.fr/10.34847/nkl.cee84812#51549f24cb2ffd67e710074e055b07f54445597d" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.cee84812/51549f24cb2ffd67e710074e055b07f54445597d/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Édition partielle du livre III
          <lb/>histoire profane (de domitien a Clovis)</head>
         <p>Le texte édité est celui du manuscrit Bruxelles, Bibl. roy., 9232 (fol. 291-309v). Jusqu’au chapitre 13 inclus (<hi rend="i">« De l’empereur Valentinien et comment pluseurs royaulmes et provinces furent convertis a la foy crestienne »</hi>), il a été corrigé à l’aide du manuscrit Wien, Schottenstift, 140. Le texte du manuscrit de Vienne se terminant à la fin du chapitre 13, il n’est plus possible de corriger les chapitres suivants à l’aide d’un meilleur exemplaire : en effet les manuscrits Paris, Bibl. nat., fr. 299 et København, Kongelige Bibliothek, Thott 568 f°, qui jusqu’au chapitre 13 avaient pour subarchétype l’exemplaire de Vienne et reproduisaient ses variantes, contiennent les mêmes fautes que le manuscrit de Bruxelles. D’autre part, à partir du chapitre 13, les <hi rend="i">Grandes Chroniques de France</hi> constituent la source principale de Jean Mansel : leur texte est donc cité en note lorsque ce dernier le recopie fidèlement ou au contraire s’en écarte délibérément. Il semble en effet que certaines des modifications introduites dans le texte des <hi rend="i">Grandes Chroniques</hi> révèlent le désir qu’avait Jean Mansel de se faire l’écho de la propagande bourguignonne.</p>
       </div>
-      <div>
+      <div xml:id="r1197052">
         <head rend="uc">Conclusion</head>
         <p>La première version de la <hi rend="i">Fleur des histoires</hi> est une vaste compilation d’œuvres diverses. Le plus souvent Jean Mansel résume les ouvrages qu’il utilise : l’Histoire de Griseldis, par exemple, est un abrégé d’une traduction anonyme, du XV’ siècle, du récit de Pétrarque. Lorsqu’il emprunte des passages entiers à un autre auteur, il les présente dans un ordre différent et les associe à d’autres sources : c’est ainsi qu’il utilise les <hi rend="i">Grandes Chroniques de France.</hi> Pour constituer le <hi rend="i">Traité des provinces du monde,</hi> il s’est cependant contenté de recopier, presque sans aucune modification, le livre XV des <hi rend="i">Propriétés des choses.</hi> Certaines des œuvres utilisées par Jean Mansel furent écrites peu avant la version en trois livres : ainsi la source de l’<hi rend="i">Histoire de Belges</hi> est la traduction que fit en 1446 Jean Wauquelin des <hi rend="i">Annales de Jacques de Guise ;</hi> d’autres, telle la <hi rend="i">Chronique dite de Baudouin d’Avesnes,</hi> datent de la fin du XIII’ siècle. Malgré son manque d’originalité, la première version de la <hi rend="i">Fleur des histoires</hi> était encore copiée vers 1480, alors que la rédaction en quatre livres existait depuis 1464 au moins. Il semble cependant que cette œuvre, composée par un fonctionnaire ducal, copiée par des scribes dont les graphies présentent toujours, à des degrés divers, des caractéristiques picardes, parfois enluminée dans les ateliers des maîtres de la <pb source="https://nakala.fr/10.34847/nkl.cee84812#b13a91bd6b1ffeaa8e104167aced769a8a2a4b2d" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.cee84812/b13a91bd6b1ffeaa8e104167aced769a8a2a4b2d/full/full/0/default.jpg"/>miniature flamande, n’ait été tout d’abord diffusée que dans l’entourage des deux derniers ducs de Bourgogne et parmi leurs amis et alliés.</p>
       </div>
-      <div>
+      <div xml:id="r1197099">
         <head rend="uc">Album de photographies</head>
         <p>Enluminures de plusieurs des manuscrits étudiés.</p>
         <pb source="https://nakala.fr/10.34847/nkl.cee84812#b40ecf631c1340d6cedb9740e07899423c680eca" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.cee84812/b40ecf631c1340d6cedb9740e07899423c680eca/full/full/0/default.jpg"/>

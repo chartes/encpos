@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,20 +55,20 @@
         <forename>Thibaut</forename>
         <surname>Girard</surname>
       </byline>
-      <div>
+      <div xml:id="r1130447">
         <head rend="uc">Introduction</head>
         <p>Malgré le renouveau récent des études héraldiques de caractère scientifique, l’œuvre des héraldistes du <num>xvii<hi rend="sup">e</hi></num> siècle reste très mal connue. C’est particulièrement le cas de celle de Charles Du Fresne, sieur du Cange (1610-1688), d’autant plus que celui-ci, en dépit de la gloire que lui ont value ses travaux de lexicographe, n’a jamais fait l’objet de recherches biographiques approfondies.</p>
       </div>
-      <div>
+      <div xml:id="r1130463">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Commentaire</head>
-        <div>
+        <div xml:id="r1130475">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits héraldiques de du Cange</head>
           <p>Les premiers témoins de l’intérêt de Du Cange pour l’héraldique sont les manuscrits qu’il a copiés dans les années 1630-1635. Son œuvre de copiste et de compilateur porte sur trois types d’ouvrages : les armoriaux, les traités de blason médiévaux et les manuscrits décrivant l’organisation des tournois et de diverses cérémonies. La plupart de ces copies ont pour objet des armoriaux, notamment celui du héraut Vermandois, celui du héraut Urfé (probablement collationné avec un manuscrit de l’armorial du héraut Sicile) et une partie de celui du héraut Navarre.</p>
         </div>
-        <div>
+        <div xml:id="r1130487">
           <pb source="https://nakala.fr/10.34847/nkl.3b374j2j#d8e7d6170eb68e55119cf9844b87f6924b8136b2" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.3b374j2j/d8e7d6170eb68e55119cf9844b87f6924b8136b2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le <hi rend="i">traité du droit et comportement des armes</hi>
@@ -79,7 +77,7 @@
           <p><hi rend="i">L’histoire des armoiries.</hi> – Du Cange a d’abord essayé de trouver un lien entre les emblèmes utilisés dans l’Antiquité et les armoiries, mais il s’est rapidement aperçu qu’il faisait fausse route. La partie historique du <hi rend="i">Traité</hi> est de ce fait inachevée.</p>
           <p><hi rend="i">Le droit héraldique.</hi> – En revanche, une place très importante est accordée aux questions juridiques. Le propos initial de Du Cange était d’offrir aux gentilshommes de son temps les connaissances juridiques nécessaires au respect et à la compréhension des règles de l’héraldique. Toutefois, sa formation de juriste l’a insensiblement conduit à traiter de sujets plus théoriques, telles que les prérogatives des souverains en matière de port des armoiries.</p>
         </div>
-        <div>
+        <div xml:id="r1130530">
           <head rend="uc">Chapitre III
            <lb/>Sources et particularités de composition du <hi rend="i">traité</hi></head>
           <p>La culture de Du Cange est si vaste qu’il peut, sur tout sujet, invoquer l’autorité d’un très grand nombre d’auteurs.</p>
@@ -87,21 +85,21 @@
           <p><hi rend="i">L’art de la citation chez Du Cange.</hi> – Du Cange cite un grand nombre d’auteurs, mais sans y apporter toujours la rigueur nécessaire. Il lui arrive assez fréquemment de déformer involontairement les termes d’une citation ou d’attribuer à un auteur des propos qui appartiennent à un autre.</p>
           <p><hi rend="i">Le style et la composition du « Traité ».</hi> – L’abondance des citations conduit parfois Du Cange à s’écarter de son propos et à commenter plus longuement les auteurs qu’il cite que les questions à propos desquelles il les mentionne. D’autre part, la place considérable tenue dans sa culture par la littérature classique et par le Moyen Age n’est pas sans influence sur son style, qui comporte un certain nombre d’archaïsmes et qui, en général, n’est pas d’une grande fluidité.</p>
         </div>
-        <div>
+        <div xml:id="r1130567">
           <pb source="https://nakala.fr/10.34847/nkl.3b374j2j#53699737e780edfd95d37161fc486bd1c76b6957" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.3b374j2j/53699737e780edfd95d37161fc486bd1c76b6957/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>L’influence du <hi rend="i">traité</hi> sur l’œuvre postérieure de du Cange</head>
           <p>Après avoir abandonné la rédaction du <hi rend="i">Traité,</hi> Du Cange ne s’est pas totalement désintéressé de l’héraldique. Certaines de ses œuvres postérieures, notamment les <hi rend="i">Dissertations</hi> sur Joinville et le Glossaire latin, traitent à plusieurs reprises des armoiries. Cependant, il est très rare que les termes du <hi rend="i">Traité y</hi> soient repris textuellement. En revanche, les citations communes sont nombreuses.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1130601">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Édition du <hi rend="i">traité du droit</hi><lb/><hi rend="i">et comportement des armes</hi></head>
         <p>Le travail d’édition a consisté à reconstituer un ordre logique dans un manuscrit autographe (Bibl. nat., fr. 9466) qui regroupe de façon peu cohérente divers états du texte, depuis de simples esquisses jusqu’à des chapitres définitivement mis au net.</p>
         <p>Par ailleurs, étant resté à l’état d’ébauche, il se caractérise par son aspect composite et disparate. Le principe de la présente édition a donc été d’une part de ne retenir que ce qui se présentait sous une forme à peu près achevée, d’autre part d’éliminer les redites et les digressions trop importantes.</p>
       </div>
-      <div>
+      <div xml:id="r1130627">
         <head rend="uc">Annexes</head>
         <p>Projets de plan du <hi rend="i">Traité</hi> rédigés par Du Cange. – Présentation comparée des tables des matières de l’original d’un « manuscrit de blason » et de sa copie par Du Cange. – Essai de reconstitution du catalogue de la bibliothèque de Du Cange.</p>
         <pb source="https://nakala.fr/10.34847/nkl.3b374j2j#a6fd31681d36ff40c055301cabf9dc9952462d82" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.3b374j2j/a6fd31681d36ff40c055301cabf9dc9952462d82/full/full/0/default.jpg"/>

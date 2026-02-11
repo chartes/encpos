@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1855_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1855_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,21 +56,21 @@
         <forename>Félix Éloi</forename>
         <surname>Delore</surname>
       </byline>
-      <div>
+      <div xml:id="r19150">
         <head rend="uc">Division générale</head>
-        <div>
+        <div xml:id="r19156">
           <head rend="uc">Première période
            <lb/>de la fin du neuvième siècle au onzième.</head>
           <p>I. – Étal de l’Église à l’époque de la décadence carlovingienne. – Rivalité naturelle des évêques et des comtes. – Leur position respective dans les villes ; leurs droits.</p>
           <p>II. – Causes de la faiblesse des évêques. – Leurs moyens de résistance. – Preuves de leur infériorité : 1° le domaine éminent des villes, disputé ; – 2° élections ; – 3° ruine du temporel des églises ; – 4° attaques contre la personne des évêques.</p>
         </div>
-        <div>
+        <div xml:id="r19171">
           <head rend="uc">Deuxième période
            <lb/>onzième siècle et premières années du douzième.</head>
           <p>I. – Caractère général de la période. – Causes qui rétablis <pb source="https://nakala.fr/10.34847/nkl.4b383025#987f82561b5d1a5e910ca50ab5a91e5457470bce" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.4b383025/987f82561b5d1a5e910ca50ab5a91e5457470bce/full/full/0/default.jpg"/>sent l’indépendance des évêques. – Manière dont ces causes ont agi.</p>
           <p>II. – Développement : – 1° Caractère des élections pendant la seconde période : quelques exemples d’élections ; – 2° persistance des comtes à usurper le temporel des églises. – Résistance énergique de Fulbert. – Progrès accompli du temps d’Yves de Chartres.</p>
         </div>
-        <div>
+        <div xml:id="r19191">
           <head rend="uc">Troisième période
            <lb/>douzième et treizième siècles.</head>
           <p>I. – Caractère général de cette période. – Causes qui assurent la victoire des évêques : – 1° politique du Saint-Siége ; – 2° accroissement du pouvoir royal. – Insuffisance de celle dernière cause ; – 3° médiation de saint Bernard et influence de Suger.</p>

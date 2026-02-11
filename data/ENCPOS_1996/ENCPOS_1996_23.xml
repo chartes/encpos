@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_23" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_23" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,32 +56,32 @@
         <surname>Le Bris-Castandet</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1285255">
         <head rend="uc">Introduction</head>
         <p>L’étude des plus grands relieurs et doreurs du <num>xviii<hi rend="sup">e</hi></num> siècle et de leurs plus belles productions a fait l’objet de nombreux travaux. En revanche, on ne s’est encore que très peu intéressé aux reliures courantes de cette époque et aux relieurs et doreurs anonymes – les plus nombreux – qui les produisaient. La présente recherche a pour objet de définir la place et le statut réels des relieurs, à la veille de la Révolution, dans un monde de l’édition en pleine mutation. Les relations entretenues par eux avec les autres professionnels du livre, l’examen détaillé de leur outillage et de leurs techniques, et enfin l’adaptation de la production à la clientèle, considérée au travers de l’exemple de Pierre Vente, relieur des Menus Plaisirs, constituent les trois axes principaux de cette étude.</p>
       </div>
-      <div>
+      <div xml:id="r1285271">
         <head rend="uc">Sources</head>
         <p>Ce sont les documents du Minutier central des notaires de Paris, aux Archives nationales, et en particulier les inventaires après décès renfermant des listes d’outils, qui constituent la matière principale de cette étude et en gouvernent les orientations. Une part importante des actes recueillis l’ont été dans l’étude XLIX, entièrement dépouillée pour la période concernée. Onze autres études ont été traitées par l’intermédiaire des répertoires dressés par les notaires ainsi que des fichiers manuels du Minutier central. Il s’agit des études XI, XII, XVII, XVIII, XXIII, XLIII, XLVII, LXIV, LXXIII, LXXVI, C, toutes situées dans le quartier de l’Université. Des compléments intéressants ont été recueillis dans les séries et sous-séries P (Chambre des comptes), Y (Châtelet de Paris), Z<hi rend="sup">1j</hi> (Chambre et greffiers des bâtiments), et surtout O’ (Maison du roi), qui renferme les comptes des Menus Plaisirs et par <pb source="https://nakala.fr/10.34847/nkl.3f2c2975#9347d6ea9269cbb440249f463bac31f9635eb681" n="194" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f2c2975/9347d6ea9269cbb440249f463bac31f9635eb681/full/full/0/default.jpg"/>conséquent des reliures effectuées par Pierre Vente pour la cour. Aux Archives de Paris, l’examen de dossiers de faillite concernant des relieurs et libraires, présents dans les sous-séries D<hi rend="sup">4</hi> B" et D’ B<hi rend="sup">6</hi>, a été fructueux. Enfin, au département des manuscrits de la Bibliothèque nationale de France, le manuscrit français 22118, de la collection Anisson-Duperron, entièrement consacré aux relieurs, a été consulté avec grand profit.</p>
         <p>L’étude de la production de Pierre Vente a été conduite principalement à la Bibliothèque nationale de France (réserve des livres rares). Le département de la musique ainsi que la Bibliothèque municipale de Versailles conservent quelques-unes des reliures de partitions exécutées par ce relieur. La bibliothèque Mazarine, la bibliothèque de l’Arsenal, la bibliothèque de la Sorbonne et la bibliothèque Sainte-Geneviève possèdent également de ses reliures.</p>
       </div>
-      <div>
+      <div xml:id="r1285301">
         <head rend="uc">Première partie
          <lb/>La communauté des relieurs et doreurs de livres</head>
-        <div>
+        <div xml:id="r1285309">
           <head rend="uc">Chapitre premier
            <lb/>historique de la communauté des relieurs et doreurs</head>
           <p>A l’origine, le métier de relieur était annexé à celui de libraire. Puis ce fut le cadre corporatif qui rassembla les deux métiers, devenus distincts, jusqu’à ce que la concurrence causât des tensions suffisantes pour provoquer, en 1686, la séparation en deux communautés. A partir de là, les relieurs et doreurs de livres tentèrent d’affirmer, de procès en procès, leurs monopoles et leur indépendance vis-à-vis des papetiers, des libraires et des doreurs sur cuir.</p>
           <p>Après la suppression par Turgot, en février 1776, des communautés de métier, l’édit du mois d’août suivant les rétablit, mais en réunissant les relieurs et doreurs aux papetiers-colleurs et en permettant le cumul de deux professions. Désormais, les relieurs et doreurs purent exercer non seulement la papeterie, mais aussi, de nouveau, la librairie. Toutefois, ces métiers restèrent relativement distincts.</p>
         </div>
-        <div>
+        <div xml:id="r1285324">
           <head rend="uc">Chapitre II
            <lb/>La communauté des relieurs et doreurs
            <lb/>dans la deuxième moitié du <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>Les procès intentés par l’ensemble de la communauté mettent en lumière, aussi bien que sa difficulté à s’affirmer face aux libraires, la solidarité communautaire qui règne en son sein et qui repose sur des liens à la fois professionnels et personnels, voire, très souvent, familiaux. Les fils non encore établis travaillent chez leurs parents, qui parfois leur cèdent leurs outils ou payent leur maîtrise au moment de leur mariage. Les alliances matrimoniales au sein de la communauté, favorisées par la proximité géographique et les textes réglementaires, sont l’un des <pb source="https://nakala.fr/10.34847/nkl.3f2c2975#e548e19d7cf73c6164c6d1343056c6b324a9f130" n="195" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f2c2975/e548e19d7cf73c6164c6d1343056c6b324a9f130/full/full/0/default.jpg"/>ciments de cette solidarité. Un cas d’association entre père et fils a même été relevé, puis entre beau-père et gendre.</p>
           <p>Cette solidarité n’empêche pas les conflits de perdurer, non seulement entre maîtres et compagnons, au sujet des salaires notamment, mais aussi entre les maîtres, révélant ainsi des divergences profondes de situations professionnelles et sociales, entre les ateliers familiaux et ceux qui emploient plusieurs ouvriers.</p>
         </div>
-        <div>
+        <div xml:id="r1285352">
           <head rend="uc">Chapitre III
            <lb/>Le statut social du relieur</head>
           <p>La dispense d’apprentissage pour les fils de maître a rendu la maîtrise quasi héréditaire, d’autant plus que des dispositions ont visé, en 1702, 1741 et 1750, à interdire la formation d’apprentis pendant plusieurs années. Les relieurs ont alors formé des alloués qui ne pourraient pas, eux, parvenir à la maîtrise et augmenter ainsi la concurrence, déjà sévère.</p>
@@ -93,22 +91,22 @@
           <p>La diversification des activités apparaît à certains comme un moyen d’augmenter de faibles revenus. Elle se fait, semble-t-il, plus souvent en direction de la librairie que de la papeterie, même si de plus en plus de maîtres sont qualifiés, après 1776, de « marchands papetiers-relieurs ». La présence de nombreux périodiques dans des fonds de livres appartenant à des relieurs, ainsi que de dettes actives « pour lecture », atteste, dans quelques cas, une activité de cabinet de <pb source="https://nakala.fr/10.34847/nkl.3f2c2975#e73738215c7a3f80ad52888dcc933c4564a5184d" n="196" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f2c2975/e73738215c7a3f80ad52888dcc933c4564a5184d/full/full/0/default.jpg"/>lecture ou de location d’ouvrages. Mais le commerce le plus lucratif reste celui de la couverture d’almanachs, en carton comme en maroquin, dont certains, tel P.-J.-B. Boulanger, se font une véritable spécialité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1285382">
         <head rend="uc">Deuxième partie
          <lb/>Le métier</head>
-        <div>
+        <div xml:id="r1285390">
           <head rend="uc">Chapitre premier
            <lb/>l’espace du travail</head>
           <p>La plupart des maîtres, même après 1776, quand cela n’est plus exigé d’eux, résident dans le quartier de l’Université, dans une dizaine de rues principalement, groupées autour de l’église Saint-Hilaire. Tous ne disposent pas d’une boutique au rez-de-chaussée, et beaucoup n’ont même pas de pièce réservée au travail. Celui-ci s’effectue alors dans la cuisine, notamment dans les logements, nombreux, ne comportant que deux ou trois pièces. On cherche alors à gagner de la place en démontant les presses qui peuvent l’être, et en se servant du porte-presse comme pied de table. Les petits outils sont souvent suspendus au mur ou posés sur des tablettes qui contiennent aussi les ouvrages en cours.</p>
         </div>
-        <div>
+        <div xml:id="r1285402">
           <head rend="uc">Chapitre II
            <lb/>Le travail</head>
           <p><hi rend="i">Le personnel.</hi> – Suivant l’importance de l’atelier, le personnel se compose essentiellement des familiers – le maître, son épouse et ses enfants, avec parfois un apprenti logeant sous le même toit – ou comprend au contraire plusieurs ouvriers dont certains, comme les batteurs de livres, sont spécialisés et peut-être itinérants entre plusieurs ateliers. Le rôle des femmes est important ; elles peuvent même, après 1776, accéder à la maîtrise.</p>
           <p><hi rend="i">L’organisation du temps.</hi> – Les différentes opérations de la reliure font l’objet de traitements séparés par grandes séries, certains ateliers étant capables de fournir plusieurs centaines de volumes par mois.</p>
           <p><hi rend="i">Spécialités et polyvalence.</hi> – D’après l’étude des outils présents dans les inventaires, plus de 40 % des maîtres sont spécialisés en reliure, autant sont polyvalents, et seulement 10 % ne pratiquent que la dorure, dont certains se sont spécialisés dans la dorure sur tranche.</p>
         </div>
-        <div>
+        <div xml:id="r1285429">
           <head rend="uc">Chapitre III
            <lb/>Les phases du travail : les outils et leur usage</head>
           <p>Le pliage des feuilles, à l’aide d’un plioir de bois ou d’ivoire, et la couture des cahiers sont des opérations réservées aux femmes. Auparavant, le battage des <pb source="https://nakala.fr/10.34847/nkl.3f2c2975#b3dd17ff9f97f5946f4e21334c3431bd8ddc56a5" n="197" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f2c2975/b3dd17ff9f97f5946f4e21334c3431bd8ddc56a5/full/full/0/default.jpg"/>cahiers pliés, à l’aide d’un marteau sur une pierre, est une tâche pénible et bruyante, parfois reléguée dans un appentis de la cour. La couture à la grecque, dans laquelle les nerfs disparaissent dans des incisions du dos, se généralise du fait de sa rapidité d’exécution, bien qu’elle soit théoriquement réservée aux petits formats : ceux-ci représentent d’ailleurs l’essentiel de la production de reliures courantes. Malgré l’existence du cousoir portatif, c’est le cousoir monté sur une table qui est majoritairement répandu.</p>
@@ -120,24 +118,24 @@
           <p>La dorure s’effectue soit dans le même atelier, soit dans un atelier spécialisé, en sous-traitance. Beaucoup d’ateliers que l’on peut considérer comme polyvalents ne pratiquent, en fait de dorure, qu’un décor très limité, voire inexistant lorsque l’on se contente de pousser le titre au dos du livre. Des fers appelés « bandes », comportant des titres usuels entiers, sont parfois employés. Le décor le plus courant se limite à un filet encadrant les plats, à un fleuron en forme de bouquet dans les entre-nerfs du dos et, parfois, à des armoiries. Les fers à dorer sont malheureusement très mal décrits dans les inventaires, le plus souvent en fonction de leur destination sur le livre : bordures, coins, fers à dos. On trouve aussi des points et étoiles, des bouquets, et des « plein-or » destinés à imprimer sur le cuir, d’un seul coup de presse, un décor complexe. Les petits fers à composer des dentelles sont en revanche beaucoup plus rares et destinés aux ateliers produisant des reliures de luxe. Le dessin des dentelles est, semble-t-il, déterminé à l’avance et les fers nécessaires pour l’exécuter sont rangés ensemble.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1285465">
         <pb source="https://nakala.fr/10.34847/nkl.3f2c2975#e66a2bb67cdbce10e9c29bce7d84306790a60b32" n="198" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f2c2975/e66a2bb67cdbce10e9c29bce7d84306790a60b32/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Le commerce</head>
-        <div>
+        <div xml:id="r1285478">
           <head rend="uc">Chapitre premier
            <lb/>les fournisseurs</head>
           <p>Assez peu de relieurs possèdent et utilisent du papier marbré ou doré. L’approvisionnement en peaux pose, quant à lui, de nombreux problèmes aux relieurs modestes. Le maroquin ne se trouve que chez une minorité de maîtres, qui l’emploient soit pour la reliure à décor et aux armes, destinée aux amateurs, soit aux couvertures d’almanachs prisées par la clientèle aisée. Les grandes institutions, comme la Bibliothèque du roi, font venir leur maroquin de Tunis et du Maroc, où il est beaucoup moins cher que celui du Levant. On en produit également à Marseille. Certains relieurs emploient, d’autre part, des peaux de mouton colorées et imitant le maroquin, dites « peaux maroquinées ».</p>
           <p>Les peaux de veau, qui font l’objet d’un lotissement en commun entre les membres de la communauté, sont fabriquées dans le Perche, principalement à Verneuil. Leur lotissement fait l’objet de querelles incessantes au sein de la communauté. Leur prix ne cesse d’augmenter durant tout le <num>xviii<hi rend="sup">e</hi></num> siècle, passant de 15 livres la douzaine dans la première moitié du siècle à 40, voire 45 livres à la veille de la Révolution. Beaucoup de relieurs ne peuvent plus en employer et les remplacent progressivement par la basane, ainsi qu’en témoignent les inventaires. D’ailleurs, les libraires perdent de l’argent sur les reliures de veau, que les relieurs ne trouvent pourtant pas assez bien rémunérées.</p>
           <p>En 1756, le prix de revient d’une reliure en veau de format in-douze est estimé à 7 sols, et le prix de vente de ce volume aux libraires par les relieurs se situe aux alentours de 10 sols. La façon est par conséquent mal rémunérée, et les relieurs cherchent par tous les moyens à diminuer les coûts. Ceux-ci sont encore plus importants lorsque l’atelier emploie beaucoup d’ouvriers ou fait appel à la sous-traitance, ce qui semble une pratique courante et non pas nécessairement réservée aux ouvrages de dorure.</p>
         </div>
-        <div>
+        <div xml:id="r1285502">
           <head rend="uc">Chapitre II
            <lb/>La clientèle et la production</head>
           <p>Les libraires constituent l’essentiel de la clientèle de beaucoup de relieurs. Le livre s’achète en effet de plus en plus fréquemment tout relié. Dans un tiers des cas recensés, la reliure de librairie forme même l’unique débouché connu du relieur ; même dans les ateliers produisant des reliures d’amateur sur commande, la clientèle des libraires est souvent appréciée comme un débouché important, même si la valeur ajoutée est très faible sur ces travaux.</p>
           <p>La clientèle des collectionneurs n’est pas absente des déclarations actives des inventaires après décès. Toutefois, si les bibliophiles marquèrent particulièrement le <num>xviii<hi rend="sup">e</hi></num> siècle, il semble que la période pré-révolutionnaire ait connu un fléchissement de ce phénomène, dû peut-être aux difficultés économiques ainsi qu’à une <pb source="https://nakala.fr/10.34847/nkl.3f2c2975#59fea1cc5cb08680c5244082e689fb33d1e0a81c" n="199" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f2c2975/59fea1cc5cb08680c5244082e689fb33d1e0a81c/full/full/0/default.jpg"/>modification du rapport au livre, dans un contexte d’explosion de la production éditoriale. Ainsi, le marquis de Paulmy sacrifie à la possibilité de relier le plus possible d’ouvrages le plaisir d’en commander de très richement exécutés. Pierre Vente se voit commander, pour les Menus Plaisirs, des reliures de veau écaille, et même des cartonnages.</p>
         </div>
-        <div>
+        <div xml:id="r1285528">
           <head rend="uc">Chapitre III
            <lb/>Un relieur, doreur, libraire, éditeur, marchand papetier : pierre vente</head>
           <p>L’exemple de Pierre Vente, quoique atypique dans le milieu de la reliure parisienne, a été choisi en raison des sources assez nombreuses recueillies sur son compte, en particulier l’inventaire après décès de sa femme et les comptes des Menus Plaisirs, ainsi que plusieurs reliures signées. Grâce au soutien des gentilshommes de la Chambre du roi, il obtient le 20 décembre 1753, alors qu’il n’est pas même, et ne sera d’ailleurs jamais, maître relieur, le brevet de relieur des Menus Plaisirs qu’il gardera jusqu’à la dissolution de ce service en 1792.</p>
@@ -145,21 +143,21 @@
           <p>Pour le service des Menus Plaisirs, Vente fournit aussi bien des reliures de maroquin aux armes, ornées parfois de grandes dentelles, le tout d’une très belle exécution, que des cartonnages, reliures de veau, et même portefeuilles et billets de théâtre et de voiture pour les grands personnages de la cour ou pour les spectacles du roi à Fontainebleau.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1285547">
         <head rend="uc">Conclusion</head>
         <p>Ce n’est probablement pas la Révolution française qui eut raison de l’activité d’un très grand nombre d’ateliers modestes, même si elle eut un effet désastreux sur celle des grands relieurs. Les difficultés des petits ateliers sont plus anciennes et tiennent à la fois aux problèmes économiques et à la modification du rapport au livre, désormais plus éphémère à cause de l’augmentation de la production éditoriale. La reliure de librairie et ses impératifs de productivité s’accommodent mal de méthodes traditionnelles fondées sur un savoir-faire ancestral. Cependant, les relieurs qui s’adaptent à cette nouvelle situation, symptomatique d’une plus grande diffusion de l’imprimé, passent plus aisément le cap difficile de la Révolution en participant aux débuts de la reliure industrielle, dont l’expérience est d’abord tentée sur les reliures d’almanachs.</p>
       </div>
-      <div>
+      <div xml:id="r1285557">
         <pb source="https://nakala.fr/10.34847/nkl.3f2c2975#8a225de3bf3e31dce0b9a0c2535f1545ab044f6b" n="200" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f2c2975/8a225de3bf3e31dce0b9a0c2535f1545ab044f6b/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>Liste de quelques éditions de Pierre Vente, ainsi que de plusieurs reliures, signées ou non, mais qu’on peut attribuer à son atelier, notamment des reliures de partitions musicales pour Marie-Antoinette et Mesdames de France.</p>
         <p>Toutes les occurrences de termes désignant les outils et les marchandises des maîtres relieurs et doreurs dans les inventaires après décès sont regroupées dans un glossaire qui se veut un catalogue du vocabulaire de métier à partir de sources directes (les outils sont prisés de l’avis de maîtres de la communauté, appelés comme experts) et indirectes (les définitions des dictionnaires de l’époque).</p>
       </div>
-      <div>
+      <div xml:id="r1285575">
         <head rend="uc">Répertoire des relieurs et doreurs</head>
         <p>L’ensemble des actes, pour la plupart inédits, recueillis lors du dépouillement des archives notariales, figurent en analyse dans un répertoire alphabétique de tous les relieurs dont l’activité se situe sur tout ou partie de la période étudiée, soit six cents noms environ. Ils sont accompagnés des renseignements biographiques principaux concernant chaque personnage : maîtrise, adresse, mariage.</p>
       </div>
-      <div>
+      <div xml:id="r1285585">
         <head rend="uc">Planches</head>
         <p>Une trentaine de photographies représentant des reliures courantes et des cartonnages, mais surtout des reliures de l’atelier de Pierre Vente.</p>
       </div>

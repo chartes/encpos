@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1924_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1924_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,37 +61,37 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r426958">
         <head rend="uc">Première partie
          <lb/>Le personnel</head>
-        <div>
+        <div xml:id="r426966">
           <head rend="uc">Chapitre premier
            <lb/>Terminologie</head>
           <p>Le terme officiel est <hi rend="i">maître des Requêtes de l’Hôtel du Roi.</hi> Sous Charles VII apparaît le qualificatif : <hi rend="i">ordinaire. </hi>Cette habitude se développe sous Louis XI.</p>
         </div>
-        <div>
+        <div xml:id="r426986">
           <head rend="uc">Chapitre II
            <lb/>Nombre des maîtres. Histoire des créations d’offices</head>
           <p>Le chiffre légal est le seul indiqué par les ordonnances, mais il est toujours dépassé. Ce chiffre est de 6, 4 clercs et 2 lais, en 1350 ; et déjà de 8, 4 clercs et 4 lais, en 1359. Réduction au temps de la domination anglaise. Louis XI crée temporairement un 9<hi rend="sup">e</hi> maître. <pb source="https://nakala.fr/10.34847/nkl.1abbia77#6256f42afed40fb26e1f606b0371b78d541daa03" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.1abbia77/6256f42afed40fb26e1f606b0371b78d541daa03/full/full/0/default.jpg"/>Grand nombre de maîtres extraordinaires. Charles VIII confirme 9 maîtres, sous réserve de réduction à 8. L’affaire Pierre Poignant : création d’un 10<hi rend="sup">e</hi> maître à titre viager (1485).</p>
           <p>Histoire détaillée des créations sous François I<hi rend="sup">er</hi>. En 1544. le nombre des maîtres est arrivé à 18. Edits de réduction au nombre de 8 (août 1546 et août 1547), appliqués partiellement.</p>
           <p>L’édit de Compiègne porte de 16 à 20 le nombre des maîtres (août 1553). Dans la suite, cette progression ne fera que s’accentuer.</p>
         </div>
-        <div>
+        <div xml:id="r427021">
           <head rend="uc">Chapitre III
            <lb/>Recrutement des maîtres des requêtes</head>
           <p>On les recrute surtout parmi les conseillers au Parlement et les officiers des bailliages et sénéchaussées. Il se crée des familles de maîtres des Requêtes ; la dynastie des Fumée. La noblesse n’est pas exigée des maîtres lais. Ils sont pour la plupart originaires de Paris, du nord, de l’ouest ou du centre de la France ; les Auvergnats sont nombreux au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r427039">
           <head rend="uc">Chapitre IV
            <lb/>Nomination des maîtres des requêtes</head>
           <p>Elle, appartient au roi depuis le début jusqu’à la fin de notre période. Aucun droit de présentation. On relève quelques traces peu probantes d’élection par le Parlement de 1409 à 1413.</p>
         </div>
-        <div>
+        <div xml:id="r427051">
           <head rend="uc">Chapitre V
            <lb/>Entrée en fonctions des maîtres des requêtes</head>
           <p>Mal connue au <num>xiv<hi rend="sup">e</hi></num> siècle, elle comprend dès le début du <num>xv<hi rend="sup">e</hi></num> siècle une double réception par le Chancelier et <pb source="https://nakala.fr/10.34847/nkl.1abbia77#cfe77891c7d7405e6c2779aa7bf08298349208d6" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.1abbia77/cfe77891c7d7405e6c2779aa7bf08298349208d6/full/full/0/default.jpg"/>par le Parlement. L’investiture du Chancelier est nécessaire, et suffisante, sauf exception très rare, pour exercer comme extraordinaire. Mais la réception en Parlement donne seule son caractère complet au maître des Requêtes. Incidents de réception au <num>xv<hi rend="sup">e</hi></num> siècle. Dès les premières années du <num>xvi<hi rend="sup">e</hi></num> siècle, serment contre la vénalité. L’examen n’apparaît que sous Henri II. Pas encore de réception au Grand Conseil, et jamais de réception devant l’Auditoire des Requêtes de l’Hôtel.</p>
         </div>
-        <div>
+        <div xml:id="r427092">
           <head rend="uc">Chapitre VI
            <lb/>Conditions théoriques mises à la réception
            <lb/>en parlement</head>
@@ -103,7 +101,7 @@
           <p>Provisions contestées : différents genres d’oppositions à la réception.</p>
           <p>Le clerc doit succéder au clerc, le lai au lai ; rappelée au <num>xv<hi rend="sup">e</hi></num> siècle, cette règle tombe en désuétude au <num>xvi<hi rend="sup">e</hi></num>.</p>
         </div>
-        <div>
+        <div xml:id="r427136">
           <head rend="uc">Chapitre VII
            <lb/>Les maîtres des requêtes en charge</head>
           <p>Le cumul est assez souvent pratiqué, avec une charge au Parlement, aux Aides, dans un bailliage ou une sénéchaussée, ou avec la dignité épiscopale au <num>xvi<hi rend="sup">e</hi></num> siècle. Pas de résidence continuelle ; à partir de 1544 : trois mois à la Cour et trois mois à Paris par an.</p>
@@ -114,7 +112,7 @@
           <p>Costume.</p>
           <p>Fonctions auxquelles peuvent parvenir les maîtres des Requêtes.</p>
         </div>
-        <div>
+        <div xml:id="r427207">
           <head rend="uc">Chapitre VIII
            <lb/>Gages, droits et privilèges des maîtres des requêtes</head>
           <p>1. Nature et taux des gages et droits.</p>
@@ -125,7 +123,7 @@
           <p>2. Mode de paiement et assignation des gages et des droits. Retards.</p>
           <p>3. Privilèges des maîtres des Requêtes.</p>
         </div>
-        <div>
+        <div xml:id="r427243">
           <head rend="uc">Chapitre IX
            <lb/>Le personnel spécial à l’auditoire des requêtes
            <lb/>de l’hôtel</head>
@@ -133,7 +131,7 @@
           <p>L’avocat du. roi : l’édit du 25 octobre 1493 ne paraît que faire revivre un état de choses ancien (Guillaume le Tur succède en 1400 à Jean Jouvenel en cette charge). Le greffier, les huissiers-sergents des Requêtes de l’Hôtel. Avocats et procureurs des parties.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r427261">
         <pb source="https://nakala.fr/10.34847/nkl.1abbia77#0df060e3360cdbfc9900ac529f04ff42e8ecdbb4" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.1abbia77/0df060e3360cdbfc9900ac529f04ff42e8ecdbb4/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Fonctions des maîtres des requêtes</head>
@@ -142,7 +140,7 @@
            <lb/>division du sujet</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r427285">
           <head rend="uc">Chapitre premier
            <lb/>les maîtres des requêtes à la suite du roi</head>
           <p>Organisation du service à la Cour : par roulement.</p>
@@ -151,12 +149,12 @@
           <p>Les maîtres des Requêtes et le Grand Conseil.</p>
           <p>Les maîtres des Requêtes à la Chancellerie de France.</p>
         </div>
-        <div>
+        <div xml:id="r427309">
           <head rend="uc">Chapitre II
            <lb/>Missions et chevauchées</head>
           <p>Missions diplomatiques. Missions financières. Commissions judiciaires. Missions administratives diverses. – Chevauchées : elles apparaissent au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r427327">
           <head rend="uc">Chapitre III
            <lb/>Les maîtres des requêtes en leur auditoire au palais
            <lb/>à Paris</head>
@@ -169,14 +167,14 @@
           <p><hi rend="i">c</hi>) Attributions d’enregistrement.</p>
           <p><hi rend="i">d</hi>) Attributions temporairement dévolues à l’Auditoire : il remplace les Requêtes du Palais de 1418 à 1454 ; il remplace la Chambre des Aides de 1462 à 1464.</p>
         </div>
-        <div>
+        <div xml:id="r427388">
           <head rend="uc">Chapitre IV
            <lb/>Les maîtres des requêtes tenant la chancellerie
            <lb/>de Paris</head>
           <p>Ils la tiennent comme lieutenants du Chancelier. Leur rôle, leurs pouvoirs ; ils agissent d’accord avec le Parlement.</p>
           <p>Ils tiennent les chancelleries de province lorsqu’ils s’y trouvent.</p>
         </div>
-        <div>
+        <div xml:id="r427405">
           <head rend="uc">Chapitre V
            <lb/>Les maîtres des requêtes au parlement</head>
           <p>Ils sont censés conseillers nés au Parlement, et font partie de la Cour à titre personnel, et non comme tribunal constitué.</p>

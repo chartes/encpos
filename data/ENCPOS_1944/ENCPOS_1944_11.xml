@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1944_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1944_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,14 +63,14 @@
         <head rend="uc">Sources – Liste des ouvrages utilisés</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r651722">
         <head rend="uc">Introduction</head>
         <p>Géographiquement, le sujet se borne à la région sud-est du Dassin parisien : rebord boisé de la forêt d’Othe, argiles fertiles de la Champagne humide et les terrains jurassiques plus secs de la côte des Bar, de la Montagne et du plateau de Langres. Ce sont les hautes vallées de l’Armançon, de la Seine, de l’Aube et de la Marne. Cette région est relativement homogène. Historiquement, les <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles sont l’époque de la domination de la maison de Blois sur la Champagne. C’est aussi la période des défrichements et des affranchissements : elle marque donc un grand progrès d’ordre économique et social.</p>
       </div>
-      <div>
+      <div xml:id="r651744">
         <head rend="uc">Première partie
          <lb/>La vie économique</head>
-        <div>
+        <div xml:id="r651752">
           <pb source="https://nakala.fr/10.34847/nkl.c18dzbd7#0ea04430e2f257622930bc7ebab655209677330b" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.c18dzbd7/0ea04430e2f257622930bc7ebab655209677330b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les bois.</head>
@@ -80,7 +78,7 @@
           <p>L’exploitation des bois était active. La hache pour abattre, la serpe pour débroussailler et ébrancher sont fréquemment citées. Les révolutions étaient soit de quinze, soit de vingt ans.</p>
           <p>Les droits d’usage étaient nombreux ; ils étaient concédés par le seigneur. Les actes délimitent en général le canton où ils sont autorisés, les essences réservées, la nature du bois à enlever (mort ou vif, petit ou gros) et la quantité qu’on en peut prendre. Le principal rôle de ces droits est d’assurer le chauffage des habitants et la réparation des maisons ou des Outils.</p>
         </div>
-        <div>
+        <div xml:id="r651781">
           <head rend="uc">Chapitre II
            <lb/>Les terres.</head>
           <p>L’effort de défrichement a surtout porté sur la forêt d’Othe et sur la Champagne humide. Il a, presque partout, été l’œuvre des abbayes ou des villes neuves. Le droit de défricher semble se concéder comme un droit d’usage. On défriche par essartage et on enlève ensuite les souches. La terre sa répartit ensuite entre le comte, l’église et les laïques. <pb source="https://nakala.fr/10.34847/nkl.c18dzbd7#cf52a911428af36aec0c867cdd303f0b30b929d1" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.c18dzbd7/cf52a911428af36aec0c867cdd303f0b30b929d1/full/full/0/default.jpg"/>Elle est extrêmement morcelée : les parcelles sont très petites et allongées. S’il y a une grande propriété (certains grands seigneurs et les abbayes), il n’y a pas de grands domaines. La terre comtale proprement dite est à peu près inexistante. La terre d’église domine en Champagne humide entre Seine et Marne, sur la côte entre Seine et Biaise et dans l’ouest de la forêt d’Othe. Ailleurs, c’est la terre seigneuriale qui l’emporte nettement. Peu de mentions de terre commune.</p>
@@ -88,7 +86,7 @@
           <p>Les principales céréales cultivées sont l’avoine et le froment ; peu d’orge, presque pas de seigle. L’avoine domine sur les terres plus pauvres, le froment en Champagne humide. La vigne est répandue à peu près partout et a tendance à s’accroître ; quelques légumes et des vergers complètent le paysage agricole.</p>
           <p>L’exploitation est grevée de multiples charges dont les taux sont très variables : redevances en nature qui se transforment peu à peu en cens d’argent, dîmes, terrages. Au <num>xiii<hi rend="sup">e</hi></num> siècle apparaissent les baux.</p>
         </div>
-        <div>
+        <div xml:id="r651813">
           <head rend="uc">Chapitre III
            <lb/>Le bétail.</head>
           <p>Le gros bétail, relativement peu nombreux, comprend chevaux, bovins et porcs. Les chevaux sont très peu répandus dans les campagnes. Les bovins étaient plus nombreux dans la Champagne pouilleuse que dans le sud de notre région.</p>
@@ -97,7 +95,7 @@
           <p>Les droits de pâtures constituaient un des multiples droits d’usage. On rencontre des pâtures générales (bois et terres) : elles se limitaient dans le temps et dans l’espace et le nombre des animaux à faire paître était souvent précisé. Des accords intervenaient fréquemment sur les parcours de pâture. Certaines pâtures avaient lieu uniquement dans les bois : les deux principales restrictions à ces droits résultaient de la nécessité d’observer les délais après les coupes et de permettre la glandée.</p>
           <p>La vaine pâture était généralement admise.</p>
         </div>
-        <div>
+        <div xml:id="r651842">
           <head rend="uc">Chapitre IV
            <lb/>L’industrie, la chasse et la pêche.</head>
           <p>Les carrières se trouvent principalement dans les terrains jurassiques où la pierre offrait plus de résistance, surtout dans le Tonnerrois et aux environs de Bar-sur-Seine et de Bar-sur-Aube.</p>
@@ -108,7 +106,7 @@
           <p>On travaillait le cuir un peu partout. Les peaux étaient préparées pour les fourrures et le cuir. Les tanneries sont en général concentrées dans les villes.</p>
           <p>La chasse était générale dans ce pays de bois. Ce droit était limité par de très nombreuses garennes et restreint parfois à l’usage de certains engins. La pêche était concédée dans les rivières qui étaient objets d’appropriation. Certaines rivières étaient en ban ; comme pour la chasse, le temps, les engins et même le produit de la pêche étaient parfois strictement réglementés.</p>
         </div>
-        <div>
+        <div xml:id="r651874">
           <head rend="uc">Chapitre V
            <lb/>La circulation et les échanges.</head>
           <p>Le réseau routier est à peu près celui des Romains. 11 était assez dense et suivait en général les grandes percées naturelles. Les défrichements permettront l’extension des routes qui donne lieu à une certaine multiplication des ponts.</p>
@@ -117,10 +115,10 @@
           <p>Les monnaies les plus utilisées sont celles de Langres, de Dijon, de Troyes et de Provins. Au <num>xiii<hi rend="sup">e</hi></num> siècle, la monnaie royale fera son apparition et se répandra de plus en plus largement. La multiplicité des mesures et leurs fréquentes modifications devaient entraver les échanges, qui n’en demeurent pas moins assez actifs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r651902">
         <head rend="uc">Deuxième partie
          <lb/>La vie sociale</head>
-        <div>
+        <div xml:id="r651910">
           <pb source="https://nakala.fr/10.34847/nkl.c18dzbd7#d0a8a4f117dffbec188fef9b16a5639c8861dd7e" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.c18dzbd7/d0a8a4f117dffbec188fef9b16a5639c8861dd7e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>le Peuplement.</head>
@@ -128,14 +126,14 @@
           <p>Dans la forêt d’Othe et en Champagne humide, l’habitat est relativement dispersé. Sur la Côte et dans la Montagne, il est groupé autour des puits. En règle générale, les villages étaient plus nombreux autrefois que maintenant.</p>
           <p>L’accroissement de la population provoquera une évolution économique par l’apparition d’une classe d’ouvriers agricoles et une évolution sociale avec les affranchissements : les paysans deviennent une force avec laquelle il faut compter.</p>
         </div>
-        <div>
+        <div xml:id="r651951">
           <head rend="uc">Chapitre II
            <lb/>Les hommes libres.</head>
           <p>L’importante question de la noblesse utérine est assez délicate à trancher. Il semble que de multiples coutumes particulières se soient établies à ce sujet. On l’admit plus généralement à l’ouest de notre région. C’est le seul caractère original de la noblesse champenoise. Le pays était très fortement féodalisé, mais peu de grands feudataires (seuls les comtes de Brienne subsisteront à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle). La petite noblesse pullule qui possède peu de terres. Les croisades endettèrent beaucoup la noblesse champenoise.</p>
           <p>L’Église est très puissante : avec l’accroissement de population, les abbayes prennent une grande extension. Les moines sont souvent d’origine noble ou bourgeoise. Les terres de l’Église sont vastes et tendront à s’augmenter avec la <pb source="https://nakala.fr/10.34847/nkl.c18dzbd7#52da99cea12050514601714f65426138e0d5f912" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.c18dzbd7/52da99cea12050514601714f65426138e0d5f912/full/full/0/default.jpg"/>chute des fortunes seigneuriales fortement entamées par les croisades. Toutefois, la fin du <num>xiii<hi rend="sup">e</hi></num> siècle marque la fin de leur apogée.</p>
           <p>D’autres classes sociales ne peuvent, à vrai dire, être rangées ni dans celle des hommes libres, ni dans celle des serfs. Ce sont les aubains dont la personne était libre, mais qui n’avaient pas la pleine propriété de leurs biens. Quelques Juifs vivent dans les campagnes : leur situation a beaucoup varié, mais les persécutions l’emportent sur les mesures de faveur. Nous n’avons que très peu de renseignements sur les bâtards et les lépreux.</p>
         </div>
-        <div>
+        <div xml:id="r651986">
           <head rend="uc">Chapitre III
            <lb/>Les serfs.</head>
           <p>La principale source de la servitude est la naissance. L’homme libre peut aussi se donner lui et ses biens, soit à une église, soit à un laïc : ce sont les oblations et les recommandations.</p>
@@ -144,7 +142,7 @@
           <p>En outre, le serf, ayant reçu une terre, doit un certain nombre de redevances et de services : taille, échoîte, corvées. Toutes ces charges se transformeront peu à peu en redevances d’argent.</p>
           <p>A cet égard, la Champagne présente assez peu de particularités.</p>
         </div>
-        <div>
+        <div xml:id="r652010">
           <pb source="https://nakala.fr/10.34847/nkl.c18dzbd7#6186fd944aa5226040690f25458b145993fbdb8c" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.c18dzbd7/6186fd944aa5226040690f25458b145993fbdb8c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les affranchissements.</head>
@@ -152,7 +150,7 @@
           <p>Avant d’être collectifs, les affranchissements furent d’abord individuels : les comtes de Champagne furent les premiers à en accorder. De même, le premier adoucissement à la servitude fut la fixation, ou abonnement, des charges, redevances et services. La dévalorisation de la monnaie accélère la libération des populations paysannes qui, peu à peu, s’affranchirent, en tout ou partie, de leurs charges. Le formariage et l’échoîte sont les redevances qui disparurent le plus vite.</p>
           <p>Les affranchissements collectifs allèrent de pair avec la fondation des villes neuves. Tout d’abord, le type de Lorris fut au début le plus généralement accordé. Les comtes de Champagne créèrent plus tard deux types locaux : celui de Beaumont et celui de Troyes. Avant le <num>xiii<hi rend="sup">e</hi></num> siècle, presque toutes les chartes de franchise seront de ce dernier type.</p>
         </div>
-        <div>
+        <div xml:id="r652039">
           <head rend="uc">Chapitre V
            <lb/>La vie villageoise.</head>
           <p>Essais de reconstitution d’un village au <num>xiii<hi rend="sup">e</hi></num> siècle : le finage et ses cultures, les bois. Description du village, aspect des maisons ; les édifices principaux : la motte féodale et le château, la grange d’une abbaye, l’église, la léproserie.</p>
@@ -162,17 +160,17 @@
           <p>Des charges pèsent sur le paysan et il doit certains services. Son matériel est peu considérable : il n’a qu’une ou deux vaches, un cheval quand il est plus aisé.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r652072">
         <head rend="uc">Conclusion</head>
         <p>La Champagne méridionale est, aux <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, à un tournant de son histoire ; l’économie domaniale a cessé de vivre, mais de nouvelles circonstances économiques et d’importantes transformations sociales annoncent les siècles futurs.</p>
       </div>
-      <div>
+      <div xml:id="r652094">
         <head rend="uc">Appendices</head>
         <p>I. 1333. Saisies faites sur des paysans de Jeugny pour non-paiement des tailles.</p>
         <p>II. Tableau des foires et des marchés.</p>
         <p>III. Tableau des chartes de franchise.</p>
       </div>
-      <div>
+      <div xml:id="r652110">
         <head rend="uc">Cartes</head>
         <p>Granges.</p>
         <p>Cultures.</p>

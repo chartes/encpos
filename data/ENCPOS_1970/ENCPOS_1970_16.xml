@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,23 +55,23 @@
         <surname>Laget</surname>
         <roleName>licenciée en histoire de l’art et archéologie</roleName>
       </byline>
-      <div>
+      <div xml:id="r924431">
         <head rend="uc">Sources</head>
         <p>Le fonds de l’abbaye de Montmajour est constitué par la série 2H des Archives départementales des Bouches-du-Rhône (2H 1 à 650), qui offre des documents nombreux et variés sur l’abbaye elle-même, ses prieurés et ses principales dépendances. Des documents conservés aux Archives communales et à la Bibliothèque d’Arles le complètent. Pour la période moderne, on trouve quelques pièces intéressant Montmajour dans les fonds de la Congrégation de Saint-Maur des Archives nationales et de la Bibliothèque nationale. Le premier historien de l’abbaye est, au <num>xvii<hi rend="sup">e</hi></num> siècle, le bénédictin Claude Chantelou, dont l’<hi rend="i">Historia Monasterii Sancti Petri Montis Majoris</hi> est conservé à la Bibliothèque nationale (ms. lat. 13915) et dans les Bibliothèques d’Arles (ms. 162,164 et 755) et d’Aix (Méjanes, ms. 554).</p>
       </div>
-      <div>
+      <div xml:id="r924451">
         <head rend="uc">Introduction
           <lb/>l’îlot de Montmajour</head>
         <p><hi rend="i">Situation géographique.</hi> – Dans la plaine rhodanienne au nord-est d’Arles, se dressent trois îlots rocheux, la montagne de Cordes, le rocher du Castellet et la montagne de Montmajour. A l’époque romaine, Arles était bordée par une véritable mer intérieure. Son assèchement progressif depuis le Bas-Empire et pendant le moyen âge donna naissance aux paluds qui environnèrent Montmajour jusqu’au <num>xvii<hi rend="sup">e</hi></num> siècle. Ceux-ci faisaient la richesse de l’abbaye, à qui ils appartenaient, mais entraînaient les inconvénients d’un climat malsain et d’un abord difficile. Cependant l’abbaye n’était pas éloignée, au moyen âge, de voies de circulation plus ou moins importantes : la route d’Arles à Tarascon, le « chemin baussenq » venant d’Arles et contournant la montagne en direction des Baux et l’antique chemin Saunier.</p>
       </div>
-      <div>
+      <div xml:id="r924472">
         <pb source="https://nakala.fr/10.34847/nkl.83f1o6fz#f4362276e1f73fd3734c5239d900400a25b9e638" n="122" facs="https://api.nakala.fr/iiif/10.34847/nkl.83f1o6fz/f4362276e1f73fd3734c5239d900400a25b9e638/full/full/0/default.jpg"/>
         <head rend="uc">Étude historique</head>
-        <div>
+        <div xml:id="r924483">
           <head rend="uc">Introduction</head>
           <p>On a tenté une meilleure compréhension des édifices élevés par les moines grâce à la connaissance de leurs revenus, de leur importance politique et religieuse en Provence et de l’étendue de leurs ramifications. [On s’appuie ici en partie sur L. Royer, <hi rend="i">L’abbaye de Montmajour-les-Arles du</hi> <num>x<hi rend="sup">e</hi></num><hi rend="i">au</hi> <num>xv<hi rend="sup">e</hi></num><hi rend="i">siècle, </hi>thèse (manuscrite) de l’École des Chartes, 1910, Bibliothèque de Grenoble, R 9818.]</p>
         </div>
-        <div>
+        <div xml:id="r924515">
           <head rend="uc">Chapitre premier
             <lb/>l’abbaye du <num>x<hi rend="sup">e</hi></num> au xv<hi rend="sup">e</hi> siècle</head>
           <p><hi rend="i">Fondation.</hi> – En 949, la première bienfaitrice des moines, Teucinde, échangea avec le chapitre d’Arles l’îlot de Montmajour, où vivait une petite communauté monastique placée sous le vocable de Saint Pierre, à laquelle elle ne céda la montagne définitivement que par testament en 977. Au milieu du <num>x<hi rend="sup">e</hi></num> siècle, la communauté encore peu nombreuse est déjà organisée et hiérarchisée, avec un prieur, le <hi rend="i">suppraemus monachorum,</hi> et quelques moines menant une vie quasi-érémitique sous la direction de l’abbé. A la fin du <num>x<hi rend="sup">e</hi></num> siècle, la communauté est devenue une importante abbaye bénédictine à la suite des nombreuses donations suscitées par le privilège d’exemption dont elle jouissait. Son développement fut favorisé par la conjoncture du renouveau économique et religieux de la Provence du <num>x<hi rend="sup">e</hi></num> siècle, après les ravages des invasions.</p>
@@ -93,7 +91,7 @@
           <p>Enfin les moines remplissaient auprès des laïcs le devoir d’hospitalité et leur offraient une sépulture ; ils parcouraient la Provence en faisant quêtes et prédications.</p>
           <p><hi rend="i">Déclin de l’abbaye aux</hi> <num>xv<hi rend="sup">e</hi></num><hi rend="i">et</hi> <num>xvi<hi rend="sup">e</hi></num><hi rend="i">siècles.</hi> – A la fin du moyen âge, l’abbaye sortit épuisée de sa longue querelle avec le prieuré de Saint-Antoine-en-Viennois, érigé en chef d’ordre au <num>xiii<hi rend="sup">e</hi></num> siècle, et auquel Montmajour fut même rattaché un moment (1490-1496). La pratique de la commende (xv<hi rend="sup">e</hi> s.) était préjudiciable à la gestion des revenus abbatiaux et celle de l’union à un office claustral avait ruiné l’activité des prieurés. De plus, la Provence et le pays d’Arles souffrirent au <num>xiv<hi rend="sup">e</hi></num> siècle des ravages des Grandes Compagnies, contre lesquelles l’abbaye se protégea en se fortifiant par sa tour en 1369. Au xvi<hi rend="sup">e</hi> siècle, les troubles des guerres de religion obligèrent les moines à se réfugier dans leur maison artésienne, tandis que l’abbaye était occupée par des troupes armées.</p>
         </div>
-        <div>
+        <div xml:id="r924792">
           <pb source="https://nakala.fr/10.34847/nkl.83f1o6fz#cc3a88af2b5bdd038c3ed1e7751feca5732669e6" n="125" facs="https://api.nakala.fr/iiif/10.34847/nkl.83f1o6fz/cc3a88af2b5bdd038c3ed1e7751feca5732669e6/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
             <lb/>L’abbaye de 1639 à la révolution</head>
@@ -105,7 +103,7 @@
           <p><hi rend="i">Prieurés et dépendances au</hi> <num>xviii<hi rend="sup">e</hi></num><hi rend="i">siècle.</hi> – L’abbé et les religieux se partageaient les revenus de quelques prieurés et églises (avec leurs dîmes et droits seigneuriaux) encore conservés ; prieurés dont les revenus appartenaient à la manse conventuelle : Jonquières et le château de Ponteau, Correns avec les églises et domaines du Val, Chateauvert, Roquebrune, Villepeys et Saint-Aygulph, les prieurés dauphinois de Villars-Chevrières, Murinais, Quincivet, les prieurés plus importants de Saint-Jean-en-Royans, Monteux, Bédouin ; prieurés restés unis aux offices claustraux : Saint-Jean-de-la-Sale, Lambesc, Saint-Martin-des-Pallières, Châteauneuf-les-Moustiers, Mezel, Estoublon, Mallemort, Cornillon, Istres, Carluc, Sainte-Croix-à-Lauze, Meyrigues, Redortiers ; prieurés restés indépendants : Notre-Dame-de-la-Mer, Mouries et Castillon, Mallemort, la Sône, Sault et Parnans ; les droits seigneuriaux de l’abbé à Pertuis et Miramas ; le collège de Dijon acquis en Avignon au xiv<hi rend="sup">e</hi> siècle pour les religieux étudiants.</p>
           <p><hi rend="i">La suppression de l’abbatiat.</hi> – Le dernier abbé commendataire fut le cardinal de Rohan. Il se démit en 1780 de son abbaye entre les mains du roi qui en confia l’administration aux Économats. Par brevet du 2 septembre 1786, Louis XVI supprima l’abbatiat de Montmajour et unit les revenus de la manse abbatiale à l’évêché d’Arles et aux évêchés de Vence, Glandèves et Saint-Paul-Trois-<pb source="https://nakala.fr/10.34847/nkl.83f1o6fz#941032b2bb43ef939b86b47670b4c6fd5a365d21" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.83f1o6fz/941032b2bb43ef939b86b47670b4c6fd5a365d21/full/full/0/default.jpg"/>Châteaux. Les religieux, qui n’étaient plus qu’une dizaine, poursuivirent la vie monastique sous l’autorité du prieur jusqu’à la Révolution.</p>
         </div>
-        <div>
+        <div xml:id="r924888">
           <head rend="uc">Chapitre III
             <lb/>L’abbaye de la révolution à nos jours</head>
           <p><hi rend="i">L’abbaye bien national : ses dégradations.</hi> – Le 22 avril 1791, Élisabeth Chatelard était adjudicatrice du monastère et de la montagne pour 62 200 francs, les objets relatifs au culte et les meubles exceptés, car ils étaient destinés à la vente aux enchères. Pour payer les annuités, l’adjudicatrice dut transformer l’abbaye en carrière de pierres. Le 23 mars 1793, la première annuité n’ayant pas été réglée, l’abbaye fut remise aux enchères et acquise par Étienne Roche pour 23 400 francs. La première adjudicatrice y avait fait des dégradations évaluées à 36 685 1., 10 s.</p>
@@ -114,9 +112,9 @@
           <p><hi rend="i">Travaux de restauration.</hi> – La restauration fut entreprise dès 1846 par Henri Revoil. Sa campagne la plus importante fut en 1872 la restauration de la galerie nord du cloître. Jules Formigé lui succéda, depuis 1904, dans l’entretien et la consolidation des bâtiments anciens. Il effectua également quelques restaurations aux bâtiments modernes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r924919">
         <head rend="uc">Étude archéologique</head>
-        <div>
+        <div xml:id="r924925">
           <head rend="uc">Première partie</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -145,7 +143,7 @@
             <p>Mobilier de l’église Notre-Dame. Mobilier des bâtiments conventuels. Mobilier des chapelles.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r925183">
           <head rend="uc">Deuxième partie</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -169,23 +167,23 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r925260">
         <head rend="uc">Dépendances de l’abbaye</head>
-        <div>
+        <div xml:id="r925266">
           <head rend="uc">Chapitre premier
             <lb/>tableau général des prieurés et dépendances
             <lb/>notes archéologiques sur quelques églises
             <lb/>qui dépendaient de Montmajour</head>
           <p>On a pu retrouver, dans les diocèses d’Arles et Aix, les chapelles Saint-Pierre de Roquebrune, Saint-Martin de Castillon, l’église Saint-Vincent de Cornillon, les chapelles d’Alleins et de Pernes, les églises de Miramas-le-Vieux et Saint-Julien d’Éguilles, l’ancienne chapelle castrale du Castellet et l’ancienne chapelle Saint-Victor près de Fontvieille. Quelques-unes ne comportent plus que des pans de murs : ce sont en général de petites chapelles romanes provençales sans caractère particulier. Le prieuré Saint-Honorat de Roquefavour possède encore des constructions en place, mais elles sont modernes pour la plupart. L’église prieurale de Correns, qu’une description du <num>xviii<hi rend="sup">e</hi></num> siècle permet de croire assez semblable à celle de Notre-Dame de Montmajour, située sur une hauteur en dehors de la ville, a totalement disparu. L’église paroissiale actuelle a été reconstruite par J.-B. Franque. On possède également des descriptions du <num>xviii<hi rend="sup">e</hi></num> siècle des « châteaux abbatiaux », alors déjà ruinés, du Fort-Gibron à Correns, de Miramas-le-Vieux, de Ponteau près de Martigues, de Pertuis et du Castellet.</p>
         </div>
-        <div>
+        <div xml:id="r925294">
           <pb source="https://nakala.fr/10.34847/nkl.83f1o6fz#2c62e87e850485d0d5478399ae61a64895cfdcbe" n="131" facs="https://api.nakala.fr/iiif/10.34847/nkl.83f1o6fz/2c62e87e850485d0d5478399ae61a64895cfdcbe/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
             <lb/>Les possessions de Montmajour dans la ville d’Arles</head>
           <p>L’abbaye possédait en Arles les églises paroissiales de Saint-Isidore et Saint-Julien (consacrée en 1119). A côté de Saint-Julien se trouvait un ensemble de bâtiments servant de logement aux religieux lors de leurs séjours en ville. L’église Saint-Julien, qui prit couramment le vocable de Saint-Antoine après 1491 et le transfert des reliques de ce saint, fut reconstruite en 1647, ainsi que la « maison de Saint-Antoine », à laquelle de nouvelles transformations furent apportées au <num>xviii<hi rend="sup">e</hi></num> siècle. Les religieux louaient à des particuliers une grande partie du bâtiment.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r925318">
         <head rend="uc">Annexes</head>
         <p>I. – Liste des abbés de Montmajour.</p>
         <p>II. – Cérémonial du Pardon de la Sainte-Croix (extrait d’un calendrier de Montmajour, 1693, Bibl. d’Arles, ms. 765, ff. 165 et suiv.).</p>

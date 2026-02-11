@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1893_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1893_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -55,11 +53,11 @@
         <forename>Paul</forename>
         <surname>d’Arbois de Jubainville</surname>
       </byline>
-      <div>
+      <div xml:id="r194370">
         <head rend="uc">Introduction</head>
         <p>Les documents manuscrits ou imprimés proviennent principalement des archives des établissements religieux de l’ancien diocèse de Troyes. Les coutumes, suivies dans le pays et rédigées aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles, sont celles de Troyes, de Chaumont, de Meaux, de Vitry et de Sens. Du bailliage de Sens dépendaient les domaines de l’évêque et du chapitre de la cathédrale placés sous la domination directe du roi. Avant la rédaction des coutumes, cette partie de la Champagne est régie en outre par la coutume dite du roi Thibaut et par l’ordonnance des rois Philippe le Bel, Louis le Hutin et Philippe le Long concernant les nobles et autres du comté de Champagne.</p>
       </div>
-      <div>
+      <div xml:id="r194392">
         <head rend="uc">Chapitre I
          <lb/>État des personnes</head>
         <p>Les serfs. – La plupart des habitants des campagnes sont tenus en servage et beaucoup ne seront affranchis de la servitude qu’au <num>xvii<hi rend="sup">e</hi></num> siècle. Ils sont appelés dans les <pb source="https://nakala.fr/10.34847/nkl.14aa7a55#deec547554b794154b905451e407f7681bc6243e" n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.14aa7a55/deec547554b794154b905451e407f7681bc6243e/full/full/0/default.jpg"/> chartes <hi rend="i">servi, homines de corpore, hommes de capite et de corpore, homines ligii de corpore, hommes de poté.</hi> On devient serf par la naissance, par la prescription d’un an et un jour, par l’oblation volontaire à un monastère. Les caractères de la servitude sont : la taille à volonté ou abonnée, la capitation ou chevage, la poursuite, le formariage, la mainmorte en meubles et en héritages : une ou plusieurs de ces charges peuvent être remises au serf. De plus, il est incapable d’entrer dans la cléricature ou les ordres religieux sans l’assentiment de son seigneur et, devenu clerc, s’il se marie deux fois ou se livre au commerce et à l’usure, il perd le bénéfice de clergie et retombe dans sa condition première. Les seigneurs donnent, vendent, engagent, échangent, partagent, mettent en commun leurs serfs : la dernière opération résulte des pariages très fréquents en Champagne au moyen âge.</p>
@@ -71,13 +69,13 @@
         <p>Les vilains apparaissent fort rarement dans les actes qui concernent la population rurale.</p>
         <p>Les bourgeois n’habitent pas seulement les villes : ils sont répandus dans les villages. Les coutumes, dans les articles où sont définies les conditions des personnes, ne les distinguent même pas des vilains, quoique la bourgeoisie nous apparaisse cependant comme une roture privilégiée.</p>
       </div>
-      <div>
+      <div xml:id="r194454">
         <head rend="uc">Chapitre II
          <lb/>État des terres</head>
         <p>La légitimité du franc-alleu roturier est reconnue par toutes les coutumes dans l’ancien diocèse de Troyes. Aussi dans le bailliage de Meaux, où le principe « nulle terre sans seigneur » l’emporte, une exception est admise pour les terres qui relèvent du diocèse de Troyes. Les chartes nous montrent des vilains vendant aux abbayes des propriétés qui ne sont grevées d’aucune redevance, d’aucun droit de lods et ventes, d’aucun droit d’amortissement.</p>
         <p>Le régime des tenures est très varié : elles sont soit données à cens ou à champart, soit baillées à einphytéose, soit louées à métairie ou à ferme. Le colonat partiaire est peu fréquent. Les quelques baux à ferme qui nous sont parvenus sont consentis pour dix-neuf ans.</p>
       </div>
-      <div>
+      <div xml:id="r194469">
         <head rend="uc">Chapitre III
          <lb/>Les droits seigneuriaux</head>
         <p>1° Redevances et services dus pour les tenures. Les termes de payement les plus communs pour les rentes en argent et en grains sont la saint Remy, l’époque des <pb source="https://nakala.fr/10.34847/nkl.14aa7a55#5b1bd1e1b46f14e6883162afe52bac1ede093233" n="4" facs="https://api.nakala.fr/iiif/10.34847/nkl.14aa7a55/5b1bd1e1b46f14e6883162afe52bac1ede093233/full/full/0/default.jpg"/>foires, les grandes fêtes de l’année, la saint André, la saint Martin et la saint Jean : à Troyes et dans les environs le terme de la saint Remy est le plus usité.</p>
@@ -85,40 +83,40 @@
         <p>3° L’usage des pâturages et des forêts est laissé aux paysans moyennant un cens annuel. Les usagers consentent aux cantonnements demandés par les abbayes dans les bois dont ils jouissent en commun avec elles. Les droits d’usages sont l’objet de nombreux règlements, ils sont aussi l’occasion de procès, où les communautés rurales apparaissent comme parties, et même de rébellions à main armée des usagers contre le seigneur de la forêt. – Le pâturage dans les bois est général, il n’est interdit que pour certains animaux : les usagers se le réservent le plus souvent dans les cantonnements accordés aux établissements religieux. Le panage est interdit d’ordinaire à l’époque de la chute des glands. Dans les portions de bois mises en coupe, le pâturage est suspendu pendant cinq années à partir de l’exploitation. – Les défrichements doivent être autorisés par le seigneur foncier qui perçoit le cens des essarts.</p>
         <p>4° Redevances et services personnels. Taille haute et basse, taille abonnée avec détermination des aides. Des aides abbatiales correspondent à celles que lèvent les seigneurs laïques. – La capitation : variation de son taux. – La mainmorte est un des caractères les plus persistants du servage, elle porte soit sur les meubles, soit sur les héritages, soit sur tous les biens du serf indistinctement. – Le formariage est souvent aboli à la suite des conventions d’entrecours faites par deux seigneurs : les abbayes et chapitres situés dans la même région sont presque toujours liés par des traités d’entrecours.</p>
       </div>
-      <div>
+      <div xml:id="r194495">
         <pb source="https://nakala.fr/10.34847/nkl.14aa7a55#078882cf1a15ca2e78ca7a58c7babbd9531e123a" n="5" facs="https://api.nakala.fr/iiif/10.34847/nkl.14aa7a55/078882cf1a15ca2e78ca7a58c7babbd9531e123a/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre IV
          <lb/>Charges publiques</head>
         <p>La principale est le service militaire auquel a droit le comte de Champagne dans ses domaines et dans ceux des établissements ecclésiastiques dont il est l’avoué. Privilèges et dispenses accordés à des individus et à des communautés rurales.</p>
       </div>
-      <div>
+      <div xml:id="r194512">
         <head rend="uc">Chapitre V
          <lb/>Charges ecclésiastiques</head>
         <p>La dîme ne correspondait pas à la dixième partie du revenu, mais son taux différait suivant les lieux et les produits auxquels elle s’appliquait. Au <num>xviii<hi rend="sup">e</hi></num> siècle elle descendait jusqu’au cinquante-et-unième de la récolte, et variait en moyenne du treizième au vingt-et-unième. Les dîmes inféodées sont données, vendues, échangées, partagées : elles appartiennent même parfois à des vilains. – Grosses et menues dîmes ; dans la seconde catégorie est rangée le plus souvent la dîme du vin. – La dîme des novales, qui en droit devait appartenir au curé, lui est contestée fréquemment par le seigneur foncier.</p>
         <p>Les offrandes et les oblations forment le casuel du curé, et lui sont dus à des fêtes et à des époques déterminées de l’année, comme dans l’exercice de son ministère et pour des cérémonies privées.</p>
       </div>
-      <div>
+      <div xml:id="r194533">
         <pb source="https://nakala.fr/10.34847/nkl.14aa7a55#59bee4464ab2fb99e500cf691bc264f7b70dcc2d" n="6" facs="https://api.nakala.fr/iiif/10.34847/nkl.14aa7a55/59bee4464ab2fb99e500cf691bc264f7b70dcc2d/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre VI
          <lb/>La justice</head>
         <p>La justice est souvent partagée entre plusieurs seigneurs, le suzerain se réservant les cas les plus graves et l’application de la peine capitale. – Les conflits de juridiction. – Tarifs d’amende concédés aux communautés et communes rurales par les chartes de privilèges.</p>
       </div>
-      <div>
+      <div xml:id="r194550">
         <head rend="uc">Chapitre VII
          <lb/>L’instruction publique dans les campagnes</head>
         <p>Prescription des statuts synodaux obligeant les curés à avoir un clerc qui puisse instruire les enfants. – Mentions d’écoles relevées dans les chartes.</p>
       </div>
-      <div>
+      <div xml:id="r194562">
         <head rend="uc">Chapitre VIII
          <lb/>Industrie et commerce</head>
         <p>Les exploitations du minerai de fer et les forges. Papeteries. Foulons à drap. Verreries. – Les voies de communication : leur entretien appartient au seigneur qui perçoit les droits de circulation et de péage. La navigation de la basse Seine préoccupe les rois de France au <num>xiv<hi rend="sup">e</hi></num> siècle. – Foires et marchés : liste des mentions fournies par les documents. – Le commerce de l’argent : règlementation du prêt à intérêt au <num>xiii<hi rend="sup">e</hi></num> siècle. Moyens de le dissimuler par la vente à terme et la vente à réméré. – Banquiers chrétiens et banquiers juifs : grand nombre de Juifs répandus dans les campagnes. – <pb source="https://nakala.fr/10.34847/nkl.14aa7a55#52a62c515267b3a5557654282106d509420ee979" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.14aa7a55/52a62c515267b3a5557654282106d509420ee979/full/full/0/default.jpg"/>Monnaies : substitution de la monnaie tournois à la monnaie provinois dans les actes après l’ordonnance royale de 1262. – Séries de prix.</p>
       </div>
-      <div>
+      <div xml:id="r194591">
         <head rend="uc">Chapitre IX
          <lb/>Les mesures</head>
         <p>Leur variété suivant les lieux et leur rapport : elles correspondent aux anciennes baronnies du diocèse qui possèdent pour chaque mesure un étalon seigneurial.</p>
       </div>
-      <div>
+      <div xml:id="r194603">
         <head rend="uc">Chapitre X
          <lb/>Communautés de village et communes rurales</head>
         <p>Les communautés de village reçoivent des privilèges dès la seconde moitié du <num>xii<hi rend="sup">e</hi></num> siècle ; elles apparaissent comme parties dans des procès, approuvent des cantonnements dans les forêts où elles ont une part des droits d’usages, consentent à des réunions d’hôpitaux. – Les communes rurales : chartes données par les comtes de Champagne à La Villeneuve-au-Châtelet et à Villemaur. Suppression de communes au <num>xiv<hi rend="sup">e</hi></num> siècle par abdication des habitants.</p>

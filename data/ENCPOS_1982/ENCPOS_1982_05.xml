@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <forename>Corinne</forename>
         <surname>Casset</surname>
       </byline>
-      <div>
+      <div xml:id="r1084488">
         <head rend="uc">Introduction</head>
         <p>Depuis une dizaine d’années, l’histoire du judaïsme français à la fin du <num>xix<hi rend="sup">e</hi></num> siècle connaît un renouveau. Si l’histoire générale de la communauté commence à être mieux connue, les biographies de ses porte-parole sont encore rares, surtout pour les débuts de la Troisième République, période où, cependant, les tendances politiques des juifs français et celles des opportunistes au pouvoir se sont identifiées d’une manière particulièrement significative.</p>
         <p>L’exemple de Joseph Reinach permet de mieux cerner l’aboutissement d’une évolution sociale dont la Révolution de 1789 marque le départ, et l’affirmation d’une vision de la France que les historiens du judaïsme français s’accordent à trouver représentative de la communauté juive tout entière.</p>
       </div>
-      <div>
+      <div xml:id="r1084507">
         <head rend="uc">Sources</head>
         <p>La documentation fondamentale est constituée par les papiers et la correspondance passive de Joseph Reinach, légués par lui au Cabinet des manuscrits de la Bibliothèque nationale en 1921 et accessibles à la consultation, selon sa volonté, depuis 1951 : les dépouillements ont porté sur les fonds antérieurs à 1894, limite chronologique de notre étude (nouv.acq.fr. 13527-13566, 13608, 24874 – 24894, 24910, 24913).</p>
         <p>Les recherches concernant les origines familiales de Joseph Reinach étaient primordiales dans l’optique choisie pour ce travail. De nombreux documents nous ont été communiqués par ses descendants (testaments, généalogies, souvenirs et mémoires, documents photographiques...). Ils ont été complétés, d’une part, aux Archives nationales, par les recensements des Juifs effectués sous le Premier Empire (F 19 1838 et 1840), par le dossier de naturalisation de Hermann Reinach, père de Joseph (BB<hi rend="sup">11</hi> 1057), et <pb source="https://nakala.fr/10.34847/nkl.ee6dh233#bcf06bdf3a364db4dc6c62b34236083cde3f10c8" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee6dh233/bcf06bdf3a364db4dc6c62b34236083cde3f10c8/full/full/0/default.jpg"/>d’autre part par les actes notariaux encore conservés par l’étude Philippot. Les relations de la famille Reinach avec la communauté juive ont laissé quelques traces dans les archives très endommagées du Consistoire central et dans celles du Consistoire israëlite de Paris, ainsi qu’à l’Alliance israëlite universelle (sondages dans les bulletins et publications de la communauté, <hi rend="i">L’’Univers israëlite</hi> et les <hi rend="i">Archives israëlites</hi>).</p>
         <p>La carrière et les idées politiques de Joseph Reinach ont été appréhendées essentiellement à travers ses livres et ses articles parus dans la <hi rend="i">République française.</hi> Aux Archives nationales, les papiers d’Auguste Scheurer-Kestner (276 AP 1) ont permis de mieux suivre la vie de ce journal. Les procès-verbaux des élections législatives de 1889 et 1893 à Digne, conservés aux Archives départementales des Alpes de Haute-Provence, et les comptes rendus des débats parlementaires de la Chambre des députés témoignent de la carrière du député Joseph Reinach. Quant aux dossiers personnels conservés à la Préfecture de police, constitués essentiellement de coupures de presse, ils se sont révélés très décevants.</p>
       </div>
-      <div>
+      <div xml:id="r1084544">
         <head rend="uc">Première partie
          <lb/>Antécédents et formation</head>
-        <div>
+        <div xml:id="r1084552">
           <head rend="uc">Chapitre premier
            <lb/>les origines des Reinach</head>
           <p>L’existence de deux villes du nom de Reinach en Suisse, l’une dans le canton de Bâle-Campagne, l’autre dans celui d’Argovie ne simplifie pas le problème que pose l’origine de la famille. La localisation en Argovie semble cependant mieux convenir car une relative tolérance y régnait envers les juifs.</p>
@@ -79,7 +77,7 @@
           <p>Mayence conquise par les armées de la Révolution, les Reinach deviennent français. Sous l’Empire, l’un des fils de Herz Mayer, Mayer Herz, est élu membre laïque du Consistoire israëlite de Mayence. Son neveu, Joseph-Jacob, grand-père de Joseph Reinach, épouse Thérèse May, fille d’un riche banquier francfortois, et s’établit à Francfort.</p>
           <p>Les Reinach présentent donc, dès l’abord, trois traits caractéristiques : une relative aisance financière, leur établissement en Allemagne, pays où les doctrines émancipatrices se sont éveillées dès le <num>xviii<hi rend="sup">e</hi></num> siècle, leur attachement à la France révolutionnaire qui leur a donné la citoyenneté française.</p>
         </div>
-        <div>
+        <div xml:id="r1084585">
           <pb source="https://nakala.fr/10.34847/nkl.ee6dh233#9617112327c0ae60c947364613eb436aa95a15f7" n="53" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee6dh233/9617112327c0ae60c947364613eb436aa95a15f7/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>« l’aventure personnelle » de hermann-joseph Reinach</head>
@@ -87,7 +85,7 @@
           <p>Hermann Reinach s’installe à Paris en 1845 ; il devient administrateur des chemins de fer de Sète à Montpellier (1846-1852), puis se livre à diverses activités bancaires jusqu’en 1867, date à laquelle il se retire des affaires. Il a amassé une considérable fortune (en 1899, il laisse un héritage de quatorze millions) qui va permettre à ses fils de vivre sans soucis matériels. Républicain, il participe en 1848 à la fondation du journal libre-échangiste la <hi rend="i">République française.</hi> Quelques années plus tard, il collabore à la <hi rend="i">Semaine financière</hi> de son ami Eugène Forcade qui est lié aux Rothschild.</p>
           <p>Athée, Hermann Reinach revendique cependant le judaïsme comme un élément important de son patrimoine familial. Assez peu scrupuleux envers les obligations religieuses traditionnelles, la pratique de la charité à l’intérieur de la communauté reste sa seule manière de s’y rattacher réellement.</p>
         </div>
-        <div>
+        <div xml:id="r1084616">
           <head rend="uc">Chapitre III
            <lb/>La génération de l’assimilation</head>
           <p>Hermann Reinach a épousé en 1853, Julie Buding, fille d’un banquier de Cassel. Leurs trois enfants, Joseph, né en 1856, Salomon, né en 1858, et Théodore, né en 1860, se signalent par une précocité intellectuelle exceptionnelle que Hermann, dont l’ambition est de donner trois génies à la France, exploite avec des méthodes d’enseignement appropriées. A quinze ans, les adolescents entrent successivement en classe de seconde au lycée Condorcet où leurs succès au Concours général sont restés célébres.</p>
@@ -95,41 +93,41 @@
           <p>Joseph passe le baccalauréat puis, pendant un an, il effectue, comme volontaire, son service armé à Nancy. Là, il fréquente la société républicaine de la ville. De retour à Paris, il obtient la licence en droit. Ses penchants naturels, <pb source="https://nakala.fr/10.34847/nkl.ee6dh233#5689b8f8201a6fa40d61ceca286a1133c314bfc5" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee6dh233/5689b8f8201a6fa40d61ceca286a1133c314bfc5/full/full/0/default.jpg"/> encouragés par la lecture des <hi rend="i">Châtiments</hi> et la fréquentation de son voisin Adolphe Thiers, en font un ardent républicain et le poussent à vouloir défendre ses idées par le journalisme et l’action politique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1084644">
         <head rend="uc">Deuxième partie
          <lb/>L’âge d’or (1877-1866)</head>
-        <div>
+        <div xml:id="r1084652">
           <head rend="uc">Chapitre premier
            <lb/>l’engagement républicain</head>
           <p>Dans les salons républicains parisiens dont il est l’habitué, Joseph Reinach fait, en 1876, la connaissance de Léon Gambetta dont la personnalité le détermine à s’engager dans le combat. Gambetta lui offre une collaboration littéraire à son journal, la <hi rend="i">République française</hi> ; il lui commande une brochure de propagande pour la réélection des 363.</p>
           <p>Après avoir connu quelques difficultés passagères avec le rédacteur en chef Paul Challemel-Lacour, Joseph est intégré à la rédaction politique du journal ; il est chargé des articles de politique extérieure.</p>
         </div>
-        <div>
+        <div xml:id="r1084671">
           <head rend="uc">Chapitre II
            <lb/>« voyage en Orient »</head>
           <p>Suivant la tradition inaugurée par les Romantiques, Joseph Reinach entreprend, à la fin de l’année 1878, un voyage en Orient. A son retour il publie deux volumes qui contiennent ses impressions et ses réflexions politiques et où il appelle à la régénération des peuples orientaux. Persuadé que le démembrement de l’Empire ottoman est proche, et inquiet de voir la mainmise de la Russie s’établir sur cette région, il propose de restaurer la Grèce, d’en faire le point d’appui de la civilisation occidentale en Orient, de libérer puis de fédérer toutes les nations des Balkans qui deviendraient ainsi une ceinture de forteresses contre la Russie. A son avis, la France, alliée à l’Angleterre, peut jouer un rôle civilisateur dans cette région du monde et y acquérir, par la seule force de ses idées, une place prépondérante.</p>
         </div>
-        <div>
+        <div xml:id="r1084683">
           <head rend="uc">Chapitre III
            <lb/>Le grand ministère</head>
           <p>En 1881, Joseph Reinach, impatient de jouer un rôle politique de plus d’envergure, devient le chef de cabinet de Léon Gambetta à la présidence <pb source="https://nakala.fr/10.34847/nkl.ee6dh233#042536ca016e4e6a9a1da210f71f1706ef45725a" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee6dh233/042536ca016e4e6a9a1da210f71f1706ef45725a/full/full/0/default.jpg"/>du Conseil. La nature de son activité d’alors est peu connue, mais l’expérience l’influence profondément par les liens indissolubles qu’elle crée avec Gambetta, dont il publie les discours.	– –</p>
           <p>La présence de nombreux juifs dans l’entourage de Gambetta dénote la profonde symbiose qui existait à l’époque entre la sensibilité politique des républicains opportunistes et celle de la communauté juive dans son ensemble. Joseph Reinach incarne ce rapprochement, dont les causes doivent être recherchées dans une même conception intellectualiste de la République, dans un attachement semblable aux valeurs universalistes propres à éliminer les particularismes et les corps intermédiaires entre l’individu et l’État, enfin dans une vision messianique commune d’une régénération nationale qui aboutirait à l’édification d’une société sans conflits.</p>
         </div>
-        <div>
+        <div xml:id="r1084703">
           <head rend="uc">Chapitre IV
            <lb/>La politique coloniale</head>
           <p>Par ses articles, Joseph Reinach entend répandre les idéaux colonialistes et défendre la politique d’expansion de Jules Ferry. Comme dans le <hi rend="i">Voyage en Orient,</hi> il exalte le rôle civilisateur et régénérateur de la France, et encourage l’action d’associations telles que l’Alliance israëlite universelle dont il devient membre en 1883. Selon lui, la colonisation est également un atout majeur du rayonnement de la France dans le monde, propre à fournir au pays l’occasion de sortir de son isolement. Il reste partisan de l’entente avec l’Angleterre.</p>
         </div>
-        <div>
+        <div xml:id="r1084719">
           <head rend="uc">Chapitre V
            <lb/>Joseph Reinach et sa famille en 1886</head>
           <p>À trente ans, Joseph Reinach est à l’apogée de sa carrière. Il allie un caractère pugnace à une très grande bonté ; il aime le travail et l’étude, mais aussi les plaisirs et la vie mondaine. En 1884, il a épousé sa petite-cousine, Henriette de Reinach, fille de son cousin germain, Jacques de Reinach. Ils ont deux enfants : Julie, née en 1883, et Adolphe, né en 1887.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1084732">
         <head rend="uc">Troisième partie
          <lb/>Les luttes (1886-1894)</head>
-        <div>
+        <div xml:id="r1084740">
           <pb source="https://nakala.fr/10.34847/nkl.ee6dh233#ba30669e4ed2a070542bb3c7cc7cb6a48c7ea3cf" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee6dh233/ba30669e4ed2a070542bb3c7cc7cb6a48c7ea3cf/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la lutte contre Boulanger :
@@ -137,7 +135,7 @@
           <p>Après les élections de 1885 où les opportunistes ont perdu beaucoup de terrain, Joseph Reinach ressent la nécessité de revivifier la <hi rend="i">République française</hi> à l’agonie ; il renouvelle l’organisation du journal avec l’appui politique et moral de Jules Ferry. Il tente de réaliser quelques timides réformes qui se heurtent à la mauvaise volonté de certains rédacteurs.</p>
           <p>La ligne politique du journal est le plus souvent fixée par J. Ferry qui commente et critique les articles dans ses lettres à Joseph Reinach. Elle est centrée autour de la lutte contre les positions extrêmes, de la poursuite de la politique d’expansion coloniale, et de l’adoption de réformes sociales modérées.</p>
         </div>
-        <div>
+        <div xml:id="r1084766">
           <head rend="uc">Chapitre II
            <lb/>La lutte contre Boulanger :
            <lb/>les étapes de la lutte</head>
@@ -145,32 +143,32 @@
           <p>Après avoir prôné la sévérité contre le général rebelle, Joseph Reinach dénonce, à partir de juillet 1888, le complot boulangiste et exige que soient appliquées « les justes lois ». En même temps, il se bat contre le ministère Floquet et les radicaux qu’il accuse de complicité involontaire avec Boulanger ; il ménage cependant la possibilité d’une union avec eux, qui seule pourrait conjurer le danger représenté par les élections législatives de 1889. Après l’élection de Boulanger à Paris, il soutient le ministère Tirard.</p>
           <p>En tant qu’un des principaux meneurs de la campagne anti-boulangiste, Joseph Reinach a été très attaqué pendant cette crise qui coïncide avec une forte explosion d’antisémitisme.</p>
         </div>
-        <div>
+        <div xml:id="r1084790">
           <head rend="uc">Chapitre III
            <lb/>Le député</head>
           <p>Après son échec aux élections de 1885 en Seine-et-Oise, Joseph Reinach décide de se présenter en 1889 à Digne, gros bourg rural où cet intellectuel parisien ne se sent guère à l’aise. La campagne de ses adversaires est essentiel<pb source="https://nakala.fr/10.34847/nkl.ee6dh233#9d4f541b98fb8816ec67eb93c8649a0a5260a31c" n="57" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee6dh233/9d4f541b98fb8816ec67eb93c8649a0a5260a31c/full/full/0/default.jpg"/>lement fondée sur des arguments antisémites. Joseph Reinach l’emporte cependant devant le boulangiste Jules Proal.</p>
           <p>Ce mandat lui offre surtout l’occasion exceptionnelle de se faire entendre sur des problèmes nationaux. De 1889 à 1893, sa carrière est marquée par de nombreuses interventions : il propose, entre autres, d’apporter des limitations à la loi de 1881 sur la liberté de la presse, de créer un ministère des Colonies, d’humaniser le régime des aliénés ; il se prononce contre l’interdiction de la pièce de Victorien Sardou, <hi rend="i">Thermidor,</hi> ce qui lui attire la fameuse réplique de Clemenceau : « La Révolution est un bloc ».</p>
         </div>
-        <div>
+        <div xml:id="r1084814">
           <head rend="uc">Chapitre IV
            <lb/>« histoire d’un idéal »</head>
           <p>Le suicide de Jacques de Reinach, son cousin germain, accusé d’être l’un des principaux protagonistes du scandale de Panama, brise la carrière politique de Joseph Reinach, tandis que la campagne antisémite redouble contre lui. Fortement ébranlé par ces événements, inquiet des attentats anarchistes et de la montée du socialisme qu’il rejette, Joseph Reinach déplore, dans un essai intitulé <hi rend="i">Histoire d’un idéal,</hi> la mort des valeurs pour lesquelles les hommes de sa génération se sont battus.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1084831">
         <head rend="uc">Conclusion</head>
         <p>La mort, en 1893, de l’un des derniers grands leaders opportunistes, Jules Ferry, et les débuts de l’affaire Dreyfus, en 1894, marquent la fin de l’identification de l’ensemble de la communauté juive à la République modérée, et le début d’une grande diversification dans les options politiques des juifs.</p>
       </div>
-      <div>
+      <div xml:id="r1084841">
         <head rend="uc">Pièces justificatives</head>
         <p>« Budget » de la <hi rend="i">République française</hi> en 1884 (lettre de Timothée Colani à Auguste Scheurer-Kestner, 10 novembre 1883). – Lettre de Jules Méline à Joseph Reinach (1<hi rend="sup">er</hi> octobre 1893). – Quatre éditoriaux de Joseph Reinach pendant la crise boulangiste (1888). – Réponse de Joseph Reinach à Philippe Sapin, auteur de l’ouvrage antisémite <hi rend="i">L’indicateur israëlite</hi> (1896).</p>
       </div>
-      <div>
+      <div xml:id="r1084863">
         <pb source="https://nakala.fr/10.34847/nkl.ee6dh233#b137540d7724b7d5ab706f881e5a27249bd77d19" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee6dh233/b137540d7724b7d5ab706f881e5a27249bd77d19/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>Généalogie de la famille Reinach. – Vocabulaire politique.</p>
       </div>
-      <div>
+      <div xml:id="r1084878">
         <head rend="uc">Documents photographiques</head>
         <p>15 photographies de Joseph Reinach, de son entourage et de ses résidences.</p>
       </div>

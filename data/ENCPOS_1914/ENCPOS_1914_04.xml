@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1914_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1914_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,17 +58,17 @@
         <surname>Braibant</surname>
         <roleName>Licencié ès lettres, Diplômé d’études supérieures d’histoire, Élève de l’École des Hautes Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r372884">
         <head rend="uc">Introduction</head>
         <p>Histoire sommaire du monastère de Saint-Magloire, fondé près du palais de la Cité au <num>x<hi rend="sup">e</hi></num> siècle, par Hugues le Grand plutôt que par son fils Hugues Capet. Son transfert sur le grand chemin de Paris à Saint-Denis, non loin du lieu dit <hi rend="i">les Champeaux,</hi> à la fin du règne de Louis VI ou au début de celui de Louis VII. Union de la plus grande partie de son temporel à la mense épiscopale de Paris en 1564, date à laquelle est limitée cette étude. Catherine de Médicis donne les bâtiments de Saint-Magloire aux Filles pénitentes, et la communauté se transporte à Saint-Jacques-du-Haut-Pas (1572). Sa dissolution (1618).</p>
         <p>Étude des sources manuscrites. – Bibliographie des ouvrages imprimés.</p>
       </div>
-      <div>
+      <div xml:id="r372907">
         <pb source="https://nakala.fr/10.34847/nkl.e0ec16u4#603b398cb2760716eafc791824edfc8dc05279be" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.e0ec16u4/603b398cb2760716eafc791824edfc8dc05279be/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Études sur les censives parisiennes
          <lb/>de Saint-Magloire</head>
-        <div>
+        <div xml:id="r372922">
           <head rend="uc">Chapitre premier
            <lb/>la censive de la cité et la grande censive de la ville.
            <lb/>Histoire et topographie.</head>
@@ -84,18 +82,18 @@
           <pb source="https://nakala.fr/10.34847/nkl.e0ec16u4#e2ecc0ddf7e5c057449752f2c8c3f8f46ac6caf6" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.e0ec16u4/e2ecc0ddf7e5c057449752f2c8c3f8f46ac6caf6/full/full/0/default.jpg"/>
           <p>Physionomie de la censive à la même époque. Rareté relative des jardins. Jeux de paume. Etuves. Le Bourg-l’Abbé, séjour des filles. des entremetteuses et des souteneurs. Les « chambres à fillettes » de la rue Jean-Palée. Biographie d’une « femme amoureuse » de la rue Hue-Leu.</p>
         </div>
-        <div>
+        <div xml:id="r372995">
           <head rend="uc">Chapitre II
            <lb/>Tableau topographique d’un îlot de la grande censive</head>
           <p>Ilot limité par les rues Saint-Denis, aux Oues, Quincampoix et Aubry-le-Boucher, comprenant le monastère. Topographie des immeubles, droits seigneuriaux et rentes dont ils étaient grevés envers la communauté, succession de leurs propriétaires. Topographie des bâtiments de Saint-Magloire. La « Salle au Comte de Dammartin » ; son identification avec l’hôtel de Marle.</p>
         </div>
-        <div>
+        <div xml:id="r373007">
           <head rend="uc">Chapitre III
            <lb/>Tableau topographique des censives de la cité
            <lb/>et de l’Université</head>
           <p>Cité. – Université : quatre maisons rue de la Montagne-Sainte-Geneviève, joignant le collège de Navarre ; petite censive rue Saint-Jacques.</p>
         </div>
-        <div>
+        <div xml:id="r373021">
           <head rend="uc">Chapitre IV
            <lb/>Le prieuré de Saint-Barthélemy</head>
           <p>C’est un prieuré non conventuel. Le premier prieuré de Saint-Barthélemy était vraisemblablement un vestige du monastère de la Cité. Il longeait la façade méridionale de l’église Saint-Barthélemy, qui n’est peut-être pas autre <pb source="https://nakala.fr/10.34847/nkl.e0ec16u4#4df65138e64c8d8ccfb9b859ce83efdafd03fa6b" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.e0ec16u4/4df65138e64c8d8ccfb9b859ce83efdafd03fa6b/full/full/0/default.jpg"/>chose que la primitive abbatiale de Saint-Magloire sécularisée. Sa démolition, en 1315 ou un peu auparavant, à l’effet de laisser se développer en profondeur les maisons des rues voisines. Le prieur se transporte alors dans un immeuble situé au fond du cul-de-sac faisant communiquer l’église Saint-Pierre-des-Arcis avec la rue de la Vieille-Draperie.</p>
@@ -104,17 +102,17 @@
           <p>Revenus du prieuré. Les offrandes apportées par les justiciables de la prévôté de Paris qui juraient sur les reliques de saint Blanchard lui appartenaient ; conflit du prieur et de la confrérie Notre-Dame-aux-Clercs du Châtelet à ce sujet (1325).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r373048">
         <head rend="uc">Deuxième partie
          <lb/>Les droits du monastère sur la Seine
 dans sa traversée de Paris</head>
-        <div>
+        <div xml:id="r373056">
           <head rend="uc">Chapitre premier
            <lb/>introduction topographique</head>
           <p>Le bras nord de la Seine au moyen âge entre l’alignement de notre rue du Figuier et le Châtelet. L’île Notre-<pb source="https://nakala.fr/10.34847/nkl.e0ec16u4#73d0cd6e7d2a4e6a5d4243c9531c50bb6ee00ebc" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.e0ec16u4/73d0cd6e7d2a4e6a5d4243c9531c50bb6ee00ebc/full/full/0/default.jpg"/>Dame, moitié occidentale de l’île Saint-Louis actuelle. Le pont jeté à l’époque romaine entre la Cité et la rive droite occupait l’emplacement de notre pont Notre-Dame. Il fut remplacé, avant 1122, par le Grand Pont (Pont au Change actuel). Ce dernier était, totalement ou en partie, construit en pierre lorsqu’il s’écroula (1296), à l’exception de sa culée méridionale, qui subsista jusqu’au <num>xvii<hi rend="sup">e</hi></num> siècle sous le nom d’<hi rend="i">arche de Chanteraine</hi>. Philippe le Bel et les églises propriétaires de ses moulins lui substituèrent deux ponts de bois, le Pont aux Changeurs et le Pont aux Meuniers.</p>
           <p>Mibrai, lieudit de la Seine et de ses rives sur l’emplacement du pont romain. On y passait la rivière par un léger pont de bois, dit <hi rend="i">la planche Mibrai.</hi> Le pont Notre-Dame lui succède en 1413.</p>
         </div>
-        <div>
+        <div xml:id="r373090">
           <head rend="uc">Chapitre II
            <lb/>Les droits du monastère sur la Seine</head>
           <p>Un « gort » voisin de la Cité, point de départ vraisemblable des droits des Magloriens sur la rivière. En 1 123, Louis VI leur donne le droit de pêche depuis le chevet de l’île Notre-Dame jusqu’au Grand Pont, et la juridiction des pêcheurs qui la fréquentaient dans ces limites. Les religieux convertissent cette concession en droit de haute justice sur leur « eau ».</p>

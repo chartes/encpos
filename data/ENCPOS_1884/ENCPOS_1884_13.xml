@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1884_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1884_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,17 +57,17 @@
         <forename>Maurice</forename>
         <surname>Prou</surname>
       </byline>
-      <div>
+      <div xml:id="r130023">
         <head rend="uc">Chapitre I
          <lb/>Lorris et le gatinais aux <num>xi<hi rend="sup">e</hi></num> et <num>xii<hi rend="sup">e</hi></num> siècles</head>
         <p>Le village de Lorris était situé dans le <hi rend="i">pagus Wastinensis. </hi>Lorris est probablement entré dans le domaine royal en 1066.</p>
         <p>Les habitants de Lorris obtinrent de Louis VI une charte de coutumes aujourd’hui perdue. La plus ancienne rédaction des Coutumes de Lorris qui nous soit parvenue remonte à 1155 : c’est là le texte qu’on se propose d’étudier ici. Ces coutumes furent confirmées en 1187, en 1448 et en 1625.</p>
         <p>Les guerres et les exactions des seigneurs et de leurs officiers avaient provoqué un dépeuplement des campagnes d’entre Seine et Loire, l’abandon d’un grand nombre de terres, un ralentissement des relations commerciales. En faisant rédiger les chartes de coutumes et particulièrement la charte de Lorris, la royauté a voulu repeupler les villages <pb source="https://nakala.fr/10.34847/nkl.16e4iy5a#4451f6117ce1614268993e2a766ece7d2dad0f56" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e4iy5a/4451f6117ce1614268993e2a766ece7d2dad0f56/full/full/0/default.jpg"/>et déterminer dans ses domaines un nouveau développement de l’agriculture et du commerce.</p>
       </div>
-      <div>
+      <div xml:id="r130062">
         <head rend="uc">Chapitre II
          <lb/>Les coutumes de Lorris</head>
-        <div>
+        <div xml:id="r130070">
           <head rend="uc">
             <hi rend="i">Examen des dispositions de la charte de</hi> 1155.</head>
           <p>1° <hi rend="i">Administration.</hi> – L’administration de la paroisse est toute entre les mains du prévôt ; les habitants n’y ont aucune part. Des sergents assistent le prévôt. On trouve aussi un héraut et un guetteur.</p>
@@ -90,7 +88,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.16e4iy5a#d488a6d105583729dd3212e0ae54e05903aaf2ed" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e4iy5a/d488a6d105583729dd3212e0ae54e05903aaf2ed/full/full/0/default.jpg"/>
           <p>6° <hi rend="i">Pénalité.</hi> – La coutume du Gâtinais reste applicable à la punition des crimes de haute justice. – Le retrait de la tenure n’a lieu que dans le cas de forfait commis contre le roi ou un de ses hôtes : la confiscation des immeubles n’a pas été introduite sous l’influence d’une renaissance du droit romain. – L’amende de soixante sous, dérivée du ban royal prescrit par les capitulaires, est réduite à cinq sous ; l’amende de cinq sous, dont il est également question dans les capitulaires, est réduite à douze deniers. – Essai de classification des délits au <num>xiii<hi rend="sup">e</hi></num> siècle, selon l’amende qu’ils entraînent en Orléanais. – La charte de Lorris détermine les cas où un habitant est responsable des dégâts commis par ses animaux : l’amende ne peut être prononcée que par le prévôt.</p>
         </div>
-        <div>
+        <div xml:id="r130211">
           <head rend="uc">
             <hi rend="i">Conclusions du chapitre</hi> II</head>
           <p>1° La charte de 1155 n’est probablement que la reproduction de la charte accordée par Louis VI aux hommes de Lorris.</p>
@@ -100,7 +98,7 @@
           <p>5° Mais la plupart des villages qui avaient obtenu les privilèges de Lorris ont adopté toutes les autres coutumes pratiquées à Lorris, qui étaient celles du Gâtinais ; ce qui explique <pb source="https://nakala.fr/10.34847/nkl.16e4iy5a#db2427f3a1624fc1d45d596d43d0652545e02b96" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e4iy5a/db2427f3a1624fc1d45d596d43d0652545e02b96/full/full/0/default.jpg"/>comment le nom de Lorris s’est attaché à la coutume de cette région.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r130266">
         <head rend="uc">Chapitre III
          <lb/>Propagation des coutumes de Lorris dans le domaine
          <lb/>royal.</head>
@@ -112,7 +110,7 @@
         <p>2° A des villes neuves ;</p>
         <p>3° Aux habitants de terres tenues en pariage avec des églises.</p>
       </div>
-      <div>
+      <div xml:id="r130310">
         <head rend="uc">Chapitre IV
          <lb/>Propagation dans les domaines des maisons de Courtenay
          <lb/>et de Sancerre</head>
@@ -121,20 +119,20 @@
         <p>Pendant la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, de petits seigneurs de la même région suivirent l’exemple des comtes.</p>
         <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle le comté de Sancerre était régi par la coutume de Lorris-Montargis.</p>
       </div>
-      <div>
+      <div xml:id="r130354">
         <head rend="uc">Chapitre V
          <lb/>Propagation en Champagne</head>
         <p>Chaumont en Bassigny (1190) et Ervy (1199) sont les seules villes qui aient reçu des comtes de Champagne la charte de Lorris dans son intégrité.</p>
         <p>Les chartes de Chaource et Maraye-en-Othe n’ont subi que légèrement l’influence des coutumes de Lorris.</p>
         <p>Quant aux chartes de Villeneuve-au-Châtelot, de la Montagne au-delà de l’Aisne, de Maurupt et de Villiers en Argonne, on ne saurait, comme on l’a prétendu, les rattacher, à la charte de Lorris.</p>
       </div>
-      <div>
+      <div xml:id="r130372">
         <head rend="uc">Conclusion</head>
         <p>Le succès des coutumes de Lorris tient à ce que leur octroi n’était pas moins avantageux au roi et aux seigneurs qu’à leurs hommes. Louis VI et Louis VII ont provoqué l’amélioration de la condition des classes agricoles dans le centre de la France.</p>
         <pb source="https://nakala.fr/10.34847/nkl.16e4iy5a#b432abcc2b3c4a4587d093caa8469eda55fa24f3" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e4iy5a/b432abcc2b3c4a4587d093caa8469eda55fa24f3/full/full/0/default.jpg"/>
         <p>Liste chronologique des chartes copiées en totalité ou en partie sur les coutumes de Lorris.</p>
       </div>
-      <div>
+      <div xml:id="r130390">
         <head rend="uc">Pièces justificatives</head>
         <p>Chaque élève publiera les positions de sa thèse sous sa responsabilité personnelle.</p>
         <p>(<hi rend="i">Règlement du</hi> 2 <hi rend="i">février</hi> 1866, art. 9).</p>

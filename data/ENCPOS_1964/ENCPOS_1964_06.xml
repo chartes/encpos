@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1964_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1964_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,18 +55,18 @@
         <forename>Françoise</forename>
         <surname>Canut</surname>
       </byline>
-      <div>
+      <div xml:id="r852333">
         <head rend="uc">Avant-propos</head>
         <p>Le cartulaire de l’abbaye de Signy est un gros recueil de cinq cents chartes environ relatives aux possessions du monastère. H réunit une documentation intéressante pour une région assez pauvre en sources d’histoire médiévale.</p>
       </div>
-      <div>
+      <div xml:id="r852343">
         <head rend="uc">Sources</head>
         <p>La série H des Archives départementales des Ardennes, principale source de l’histoire de l’abbaye (H 203-H 237), contient deux de ses cartulaires, la Bibliothèque municipale de Reims un inventaire ancien du <num>xiii<hi rend="sup">e</hi></num>-<num>xiv<hi rend="sup">e</hi></num> siècle (manuscrit 1568), la Bibliothèque nationale l’ébauche d’un « cartulaire historique » de François de Camps (manuscrit fr. 8.344) et la <hi rend="i">Chronique de Signy</hi> (nouv. acq. lat. 583).</p>
       </div>
-      <div>
+      <div xml:id="r852369">
         <head rend="uc">Première partie
          <lb/>Notice historique</head>
-        <div>
+        <div xml:id="r852377">
           <head rend="uc">Chapitre premier
            <lb/>fondation et histoire de l’abbaye jusqu’en 1233</head>
           <p><hi rend="i">La fondation.</hi> – L’abbaye de Signy est fondée en mars 1135 par une colonie de douze moines venue d’Igny sur un alleu cédé par le chapitre métropolitain de Reims aux confins de son domaine des Pothées. Le rôle attribué à saint Bernard dans cette fondation par la <hi rend="i">Chronique de Signy</hi> reste problématique.</p>
@@ -79,7 +77,7 @@
           <p>La venue à Signy de trois célèbres abbés bénédictins, dont Guillaume de Saint-Thierry, l’ami de saint Bernard, illustre bien le succès de la nouvelle observance de Cîteaux.</p>
           <p>Pendant tout le siècle qui suit sa fondation, l’abbaye, malgré quelques difficultés intérieures et extérieures, ne cesse pas de s’accroître, se bâtit, essaime par deux fois. Arrivée au terme de ce siècle, elle est en pleine prospérité.</p>
         </div>
-        <div>
+        <div xml:id="r852429">
           <head rend="uc">Chapitre II
            <lb/>La formation du temporel</head>
           <p><hi rend="i">Situation des acquisitions.</hi> – Jusqu’au <num>xii<hi rend="sup">e</hi></num> siècle, l’abbaye se taille un domaine au sud de Signy dans le comté de Porcien, au nord de la Champagne : région de plaine, crayeuse et sèche, très différente du site de Signy.</p>
@@ -96,7 +94,7 @@
           <p><hi rend="i">Nature juridique des biens.</hi> – La nature juridique des biens entrés dans le domaine est variée : petits alleux, seigneuries, droits féodaux.</p>
           <p>Malgré les préceptes de son ordre, l’abbaye possède « villages, moulins, églises, autels... » et, sans pour cela compromettre son idéal spirituel, semble-t-il, elle ne se maintient pas en dehors de la société féodale de son temps. Elle accroît avec sagacité ses possessions et se pourvoit d’un domaine riche et bien groupé.</p>
         </div>
-        <div>
+        <div xml:id="r852497">
           <head rend="uc">Chapitre III
            <lb/>L’exploitation du domaine</head>
           <p><hi rend="i">Organisation générale.</hi> – Le cartulaire de Signy nous livre le nom d’un certain nombre de cellériers, mais ne mentionne aucun portier. Outre les officiers traditionnels, on rencontre des <hi rend="i">mercatores,</hi> un <hi rend="i">forestarius.</hi></p>
@@ -109,22 +107,22 @@
           <p>Les moines de Signy, outre les activités artisanales communes aux monastères vivant isolés du monde, exploitent des ardoisières à Fumay puis, près de Rimogne, à l’Écaillère.</p>
           <p>Enfin, pour transporter leurs produits, ils se font exempter des péages dans les régions avoisinant Signy, puis dans d’autres régions plus lointaines, en Flandre et dans le pays de Liège où ils semblent circuler activement.</p>
         </div>
-        <div>
+        <div xml:id="r852556">
           <head rend="uc">Conclusion</head>
           <p>Fondée selon toutes les règles cisterciennes, l’abbaye de Signy s’écarte rapidement des lois de cet ordre pour créer et accroître son domaine, ne faisant en cela que s’adapter à l’économie nouvelle du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r852573">
         <pb source="https://nakala.fr/10.34847/nkl.6c2br429#bfcac3918d9da23a0b1442046fe2a21443aa4d06" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c2br429/bfcac3918d9da23a0b1442046fe2a21443aa4d06/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Notice descriptive et critique
          <lb/>du cartulaire</head>
-        <div>
+        <div xml:id="r852588">
           <head rend="uc">Chapitre premier
            <lb/>histoire du chartrier</head>
           <p>Le chartrier de Signy, fort important, a été détruit lors de la Révolution, après 1790, et seuls les cartulaires, assimilés aux manuscrits de la bibliothèque, ont été épargnés.</p>
         </div>
-        <div>
+        <div xml:id="r852600">
           <head rend="uc">Chapitre II
            <lb/>Notice descriptive</head>
           <p><hi rend="i">Description matérielle du cartulaire.</hi> – Le manuscrit se présente sous forme de deux <hi rend="i">codices</hi> reliés au <num>xviii<hi rend="sup">e</hi></num> siècle, contenant deux cent vingt-sept feuillets de parchemin écrits à pleines pages. Les cahiers sont le plus souvent des quaternions marqués de quelques signatures anciennes. L’état de conservation est bon. Un titre courant rubriqué indique les différents chapitres du classement méthodique par auteurs d’actes écrits.</p>
@@ -134,7 +132,7 @@
           <p>Des numéros de renvois sont affectés aux actes traitant d’une même affaire.</p>
           <p>Le manuscrit, conservé à la Bibliothèque de Charleville avant d’être déposé aux Archives départementales des Ardennes, a-t-il été utilisé dans l’élaboration des recueils postérieurs d’actes de Signy ? Ces recueils sont : un inventaire sur parchemin du <num>xiii<hi rend="sup">e</hi></num>-<num>xiv<hi rend="sup">e</hi></num> siècle contenant huit cent vingt-six analyses d’actes de 1135 au <num>xvi<hi rend="sup">e</hi></num> siècle, un recueil de quelques actes de 1141 à 1373 copiés sur dix-huit feuillets de papier au <num>xv<hi rend="sup">e</hi></num> siècle, un « cartulaire historique » attribué à François de Camps analysant cent quatre-vingts actes, et un gros recueil d’actes par ordre chronologique de 1135 à 1729.</p>
         </div>
-        <div>
+        <div xml:id="r852670">
           <pb source="https://nakala.fr/10.34847/nkl.6c2br429#91ae93b6e31046f7991a47c49bb02dd7aa0c8ba0" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c2br429/91ae93b6e31046f7991a47c49bb02dd7aa0c8ba0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Notice critique</head>
@@ -151,11 +149,11 @@
          <lb/>Catalogue</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r852741">
         <head rend="uc">Pièces justificatives</head>
         <p>Tables du cartulaire du <num>xiii<hi rend="sup">e</hi></num> siècle. – Introduction et tables de l’inventaire du <num>xiii<hi rend="sup">e</hi></num>-<num>xiv<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r852769">
         <head rend="uc">Appendices</head>
         <p>Liste chronologique des abbés et dignitaires de l’abbaye de Signy cités dans le cartulaire. – Notices des sceaux de l’abbaye de Signy. – Tables chronologiques des actes analysés au catalogue. – Carte de la répartition du temporel de l’abbaye de Signy.</p>
         <pb source="https://nakala.fr/10.34847/nkl.6c2br429#ca749ed84be7555da72b6dd35e388a069cc4b34e" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c2br429/ca749ed84be7555da72b6dd35e388a069cc4b34e/full/full/0/default.jpg"/>

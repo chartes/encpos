@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <forename>Marthe</forename>
         <surname>Dulong</surname>
       </byline>
-      <div>
+      <div xml:id="r467923">
         <head rend="uc">Avant-propos</head>
         <p>Nous nous proposons : 1° de publier la <hi rend="i">Vie provençale de sainte Delphine</hi> et le <hi rend="i">Procès de sa canonisation ;</hi></p>
         <p>2° d’étudier, dans une introduction critique, les problèmes linguistiques et littéraires que l’édition de cette <hi rend="i">Vie</hi> comporte ;</p>
@@ -70,7 +68,7 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r467965">
         <pb source="https://nakala.fr/10.34847/nkl.0d6cv54y#88f222e64aa1dfbd1aefaaf025738e2f1a0a4de7" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.0d6cv54y/88f222e64aa1dfbd1aefaaf025738e2f1a0a4de7/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La vie provençale</head>
@@ -87,7 +85,7 @@
         <p>8. La <hi rend="i">Vie provençale</hi> a une grande valeur historique. Ses données sur Philippe d’Ayguières s’accordent avec ce que nous savons de lui d’autre part. Elle corrige le <hi rend="i">Procès</hi> au sujet du rôle joué par Guillaume de Saint-Martial dans le mariage de Delphine, et seule nous permet de comprendre comment cette dernière a pu consentir à cette union tout en conservant son projet de chasteté. En outre elle fait entrer en scène, à Marseille, le célèbre médecin Arnaud de Villeneuve à une époque où des documents diplomatiques prouvent qu’il était en effet dans cette ville.</p>
         <p>9. La <hi rend="i">Vie provençale</hi> a une chronologie indépendante du <hi rend="i">Procès ;</hi> elle donne l’âge de Delphine aux principaux événements de sa vie, et le nombre d’années écoulées entre ces événements. Cette chronologie s’accorde complètement avec les données des pièces d’archives et les dires des témoins du <hi rend="i">Procès.</hi> Ceci est une nouvelle preuve de la valeur historique de cette <hi rend="i">Vie.</hi></p>
       </div>
-      <div>
+      <div xml:id="r468173">
         <pb source="https://nakala.fr/10.34847/nkl.0d6cv54y#83540c20cd363e9e73fa9c3dfb21111ba4bfebec" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.0d6cv54y/83540c20cd363e9e73fa9c3dfb21111ba4bfebec/full/full/0/default.jpg"/>
         <head rend="uc">Deuxieme partie
          <lb/>Procès pour la canonisation de Sainte Delphine</head>
@@ -96,18 +94,18 @@
         <p>3. Caractères de l’enquête. – Les lettres de commission sont accompagnées d’un questionnaire que les Commissaires sont obligés de suivre. Le procureur N. Laurenchi, a résumé la vie et les miracles de Delphine en 91 articles.</p>
         <p>Les Commissaires, en utilisant ce questionnaire et ces articles, ont limité le champ du témoignage, et éliminé le bavardage. Les témoins auditifs servent seulement à établir l’étendue du culte rendu à Delphine. Tous les témoins appelés ne sont pas venus, et l’on n’a pas interrogé les autres sur tous les articles. On a admis trois sortes de témoignages : 1° la constatation physique du fait ; 2° la production de pièces notariées ; 3° les dépositions de témoins-jurés. Les témoins sont de deux sortes : 1° les amis de Delphine ; 2° les gens du peuple qui lui ont demandé des miracles.</p>
         <p>4. Ce <hi rend="i">Procès</hi> apporte des renseignements indirects sur les mœurs et les événements du <num>xiv<hi rend="sup">e</hi></num> siècle en Provence : l’entourage de Delphine, les reclusoirs en Provence, le goût des laïques du <num>xiv<hi rend="sup">e</hi></num> siècle pour prononcer des sermons, la conception de la vie spirituelle chez les convertis de Delphine. Les témoignages sur <pb source="https://nakala.fr/10.34847/nkl.0d6cv54y#782c33a1fce36cb0430bcae83f0bc8ac8a1b3450" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.0d6cv54y/782c33a1fce36cb0430bcae83f0bc8ac8a1b3450/full/full/0/default.jpg"/>les miracles nous renseignent sur les maladies du temps, les médecins, leurs honoraires, l’arrivée des Grandes Compagnies, leurs ravages, etc...</p>
-        <div>
+        <div xml:id="r468226">
           <head rend="uc">Appendice I</head>
           <p><hi rend="i">Sur le vœu de pauvreté évangélique de Delphine</hi></p>
           <p>Les témoins affirment unanimement que Delphine s’est dépouillée de tous ses biens en 1333 et en a distribué la valeur aux pauvres. Cependant, des pièces d’archives montrent qu’en 1358 elle recevait encore des cens, et faisait des prêts de blé, par l’intermédiaire de son procureur Raymond Brunenc.</p>
         </div>
-        <div>
+        <div xml:id="r468241">
           <head rend="uc">Appendice II</head>
           <p><hi rend="i">Pourquoi Delphine ne fut-elle pas canonisée ?</hi></p>
           <p>Sans doute à cause du retour de la papauté à Rome. Cependant l’intimité de Delphine avec Sancie, reine de Naples et les Franciscains <hi rend="i">Spirituels,</hi> l’avait peut-être rendue béguine sans le savoir.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r468261">
         <head rend="uc">Troisième partie
          <lb/>Textes</head>
         <p><hi rend="i">Vie provençale de saint Elzéar.</hi></p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,27 +62,27 @@
         <head rend="uc">Sources et Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r409986">
         <head rend="uc">Introduction</head>
-        <div>
+        <div xml:id="r409992">
           <head rend="uc">Chapitre premier</head>
           <p>I. <hi rend="i">Guet ordinaire et guet bourgeois.</hi> – Ces deux formes du guet qu’on a parfois confondues, au moins en fait, diffèrent essentiellement au triple point de vue de leur nature, de leur forme et de leur rôle. Le guet ordinaire, composé d’abord, jusqu’à la réforme de 1559, de deux éléments, gens de certains métiers et sergents royaux, puis uniquement d’archers royaux, constitue le service de police qui a pour mission d’assurer pendant chaque nuit la sécurité dans Paris.</p>
           <p>Au contraire le guet bourgeois est une garde exceptionnelle de la ville faite, en principe, par tous ses habitants, en temps de troubles ou en cas de danger d’ordre civil ou militaire.</p>
           <p>II. <hi rend="i">Les grandes périodes de l’histoire du guet ordinaire.</hi> – – Cette histoire se divise en deux grandes périodes que sépare l’Édit du mois de mai 1559. Chacune d’elles peut se subdiviser <pb source="https://nakala.fr/10.34847/nkl.b939bw4w#3051165ab4ceec4ccb66658aecceb56df78a3bc4" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.b939bw4w/3051165ab4ceec4ccb66658aecceb56df78a3bc4/full/full/0/default.jpg"/>en un certain nombre d’époques dont celle des origines, antérieure à 1364, et celle du déclin, puis de la disparition de la compagnie du guet, qui s’ouvre en 1666.</p>
         </div>
-        <div>
+        <div xml:id="r410021">
           <head rend="uc">Chapitre II
            <lb/>La question de l’ordonnance prétendue de 1254 <hi rend="sup">et de</hi>
            <lb/>l’établissement du guet ordinaire à Paris,</head>
           <p>Quoique la question de l’origine du guet ordinaire à Paris ne soit pas comprise dans le cadre du présent travail, il était nécessaire de donner quelques renseignements sur l’état ancien de ce guet, antérieurement à l’ordonnance de 1364 (n. st.), et dont les éléments constitutifs semblent apparaître au cours du <num>xiii<hi rend="sup">e</hi></num> siècle. En particulier, il convenait d’examiner le cas d’une ordonnance du mois de décembre 1254, et qui selon certains auteurs aurait établi le guet ordinaire à Paris. En réalité cette ordonnance, dont le texte ne se trouve nulle part, paraît être le résultat d’une erreur du commissaire Delamare dans son Traité de la Police.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r410046">
         <head rend="uc">Première partie
          <lb/>Le guet ordinaire depuis l’ordonnance du
          <lb/>6 mars 1364 (n. St.) jusqu’à la réforme de 1559</head>
         <p>L’ordonnance rendue sur le fait du guet, le 6 mars 1364 (n. st.), par le roi Jean est le premier texte qui renseigne de façon précise sur l’organisation du guet ordinaire à Paris. Cette organisation à laquelle ont trait de nombreuses lettres royaux ou des arrêts du Parlement se maintiendra jusqu’à la réforme de 1559.</p>
-        <div>
+        <div xml:id="r410059">
           <head rend="uc">Chapitre premier
            <lb/>le personnel</head>
           <p>Il est composé : 1° de gens de métiers, formant le guet dit « des métiers » qui porte aussi quelques autres noms dont « guet assis » est le plus fréquent ; 2° de sergents royaux <pb source="https://nakala.fr/10.34847/nkl.b939bw4w#53a73f5dca730e5876d70e2a8fa6d81e49478b1e" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.b939bw4w/53a73f5dca730e5876d70e2a8fa6d81e49478b1e/full/full/0/default.jpg"/>formant le guet royal ; 3° de certains hommes à gages qui remplacent les gens de métiers absents. Le chevalier du guet commande la troupe des sergents et contrôle le service du guet des métiers. En outre l’organisation du guet ordinaire comprend un certain nombre d’éléments administratifs : les clercs du guet, les sergents-collecteurs.</p>
@@ -95,49 +93,49 @@
           <p>V. <hi rend="i">Les organes administratifs du guet.</hi> – Les deux <hi rend="i">clercs du guet</hi> en font l’<hi rend="i">assiette</hi> quotidienne. Ils ont jusqu’en 1540 la perception et la comptabilité des amendes du guet. A partir de cette date les <hi rend="i">sergents-collecteurs</hi> les remplacent dans cette dernière fonction.</p>
           <p>Un examinateur, qui contrôle l’assiette du guet, n’apparaît qu’au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r410132">
           <head rend="uc">Chapitre II
            <lb/>Le service du guet</head>
           <p>Ce service, fait chaque nuit à des heures fixées par les ordonnances royales, revêt une double forme : postes fixes occupés par les gens de métiers, patrouilles à travers la ville faites par les sergents que commande le chevalier du guet ou un lieutenant.</p>
         </div>
-        <div>
+        <div xml:id="r410144">
           <pb source="https://nakala.fr/10.34847/nkl.b939bw4w#2be13df8eaa403928902fdb24c1facb7cbf63b8c" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.b939bw4w/2be13df8eaa403928902fdb24c1facb7cbf63b8c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le système financier du guet</head>
           <p>Les dépenses du guet sont représentées par la solde de son personnel, prise sur la recette du Domaine pour les chevaliers et sergents, sur le produit des « défauts et amendes » pour les organes administratifs. Les recettes sont représentées par les deniers provenant des « défauts et amendes » prononcés contre les gens des métiers qui, astreints au guet, n’y viennent pas.</p>
         </div>
-        <div>
+        <div xml:id="r410161">
           <head rend="uc">Chapitre IV
            <lb/>Conclusion</head>
           <p>Le guet ordinaire, non tant par le fait du guet royal que par la constante mauvaise volonté des gens de métiers à s’acquitter de leur service du « guet assis » et par la faute de certains clercs du guet qui abusèrent de leurs fonctions, malgré les nombreux actes royaux et arrêts du Parlement rendus à ce sujet, fut loin d’être assuré d’une manière parfaite et régulière.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r410174">
         <head rend="uc">Deuxième partie
          <lb/>La réforme du guet ordinaire en 1559 et
          <lb/>’ son évolution jusqu’à l’établissement des
          <lb/>« cavaliers de l’ordonnance » en 1666.</head>
         <p>Le guet ordinaire sous sa forme mixte, royal et municipal à la fois, apparaît à la fin de la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle comme ayant fait son temps. L’Édit du mois de mai 1559, supprimant le guet des métiers, va créer, sous le commandement du chevalier du guet, une troupe homogène d’archers royaux. Cette troupe, qui n’est que le développement du guet royal de la période précédente, deviendra la compagnie du guet et verra à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle son homogénéité détruite par l’établissement, œuvre de Colbert, d’une troupe nouvelle de cavaliers.</p>
-        <div>
+        <div xml:id="r410201">
           <pb source="https://nakala.fr/10.34847/nkl.b939bw4w#92004603ba92e42e1fa4d04d09f786cc223909d0" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.b939bw4w/92004603ba92e42e1fa4d04d09f786cc223909d0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>l’époque de transformation du guet et sa réforme</head>
           <p>Dès 1550, les <hi rend="i">officiers</hi> du guet royal constatent le mauvais état du guet et demandent une réforme. Cette réforme, proposée par l’autorité royale à la municipalité parisienne, est rejetée par celle-ci. Malgré l’hostilité persistante du Bureau de la ville, elle sera réalisée neuf ans après par l’Édit du mois de mai 1559, sur les bases du projet proposé en 1550. Cet Édit supprime le guet des métiers, augmente le nombre du guet royal et remplace le service dû par les métiers par une redevance perçue sur les habitants de Paris. Après une période confuse de difficultés financières soulevées par l’application de l’Édit, la troupe du guet dont le service s’est trouvé momentanément, suspendu est rétabli en 1563, dans la forme générale prévue par l’Édit de 1559, mais avec des effectifs diminués.</p>
         </div>
-        <div>
+        <div xml:id="r410222">
           <head rend="uc">Chapitre II
            <lb/>État du guet après la réforme de 1559</head>
           <p>I. <hi rend="i">Le personnel.</hi> – La troupe du guet est désormais composée uniquement d’<hi rend="i">officiers</hi> royaux, nommés <hi rend="i">archers,</hi> sous le commandement du chevalier du guet. En ce qui concerne les organes administratifs, les deux clercs du guet sont maintenus sous le nom de <hi rend="i">greffiers-contrôleurs.</hi> La recette des deniers du guet et le paiement de sa solde seront effectués par les soins d’un payeur du guet, d’abord en commission, puis en titre d’office.</p>
           <p>II. <hi rend="i">Le service du guet.</hi> – Ses caractères généraux n’ont pas changé. Mais le service du « guet assis » est fait désormais par les archers royaux.</p>
           <p>III. <hi rend="i">Le système financier.</hi> – La question financière avait été en réalité la raison de l’hostilité de la municipalité parisienne à l’égard de la réforme. La difficulté de trouver les deniers nécessaires au paiement du guet sera la cause de la réduction des effectifs de ce dernier. Sans cesse réglée, mais jamais résolue, cette question n’avait pas cessé de troubler son fonctionnement.</p>
         </div>
-        <div>
+        <div xml:id="r410264">
           <pb source="https://nakala.fr/10.34847/nkl.b939bw4w#0b9c7d009a5710ea39079ec22926371bdd6c1d65" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.b939bw4w/0b9c7d009a5710ea39079ec22926371bdd6c1d65/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La compagnie du guet au <num>xvii<hi rend="sup">e</hi></num> siècle</head>
           <p>Au début du <num>xvii<hi rend="sup">e</hi></num> siècle, la troupe du chevalier du guet, devenue la <hi rend="i">compagnie</hi> du guet et dont les effectifs sont demeurés les mêmes qu’à la fin du siècle précédent, est en nombre insuffisant pour assurer la garde nocturne de Paris. La création d’offices d’exempts, de nouveaux archers, et surtout l’adjonction d’un certain nombre de <hi rend="i">soldats</hi> lui permettront d’étendre son service, fait toujours sous la double forme de postes fixes et de patrouilles mobiles.</p>
         </div>
-        <div>
+        <div xml:id="r410301">
           <head rend="uc">Chapitre IV
            <lb/>L’établissement des « cavaliers de l’ordonnance » en
            <lb/>1666 et les conséquences de cet établissement</head>

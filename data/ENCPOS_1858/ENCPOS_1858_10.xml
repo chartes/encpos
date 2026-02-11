@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1858_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1858_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,38 +57,38 @@
         <forename>Paul</forename>
         <surname>Thomeuf</surname>
       </byline>
-      <div>
+      <div xml:id="r30726">
         <head rend="uc">I.
          <lb/>Du premier cartulaire de Montier-en-Der.</head>
         <p>§ 1. Description du manuscrit. – § 2. Opinion de Bréquigny sur la date du cartulaire, sa lettre à D. Dumay. – § 3. Que ce cartulaire a été rédigé, non point comme Bréquigny le prétend, au commencement du <num>xiii<hi rend="sup">e</hi></num> siècle, mais vers l’année 1130, sous le gouvernement de l’abbé Roger ; preuves paléographiques et diplomatiques de cette assertion. – § 4. De l’ordre dans lequel sont classés les actes du cartulaire et de la table de ces actes. – Du petit résumé chronologique qui se trouve en tête du manuscrit ; qu’il a été commencé au <num>xiii<hi rend="sup">e</hi></num> siècle, et de son importance historique. – § 5. Des autres cartulaires de Montier-en-Der ; notice des quatre autres cartulaires de l’abbaye. – § 6. <hi rend="i">Appendice.</hi> Des archives de l’abbaye du Der.</p>
       </div>
-      <div>
+      <div xml:id="r30754">
         <pb source="https://nakala.fr/10.34847/nkl.4d92jto3#9ee37a2b95395862bb0b3aff14c530ef5cdb2310" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.4d92jto3/9ee37a2b95395862bb0b3aff14c530ef5cdb2310/full/full/0/default.jpg"/>
         <head rend="uc">II.
          <lb/>Du polyptyque de Montier-en-Der.</head>
         <p>§ 1. Notice sur ce polyptyque. – Que, sauf Ducange, les savants ne s’en sont point servi. – §2. De la division du polyptyque et des formules qui y sont usitées. – Qu’il ne renferme que la liste des propriétés <hi rend="i">ad victum et vestimentum fratrum,</hi> et non point celle des propriétés <hi rend="i">de Thesauro ecclesiœ.</hi> – Distinction entre ces deux classes de propriétés monastiques. – Quelle est la date exacte de ce document ; dissertation sur ce sujet, et conclusion d’après l’examen de huit actes importants de notre cartulaire : « la rédaction primitive du polyptyque de Montier-en-Der a eu lieu de 1030 à 1040, pendant les dernières années du gouvernement de Dudon I, ou pendant les premières de celui de Milon. » – § 4. De l’importance de ce polyptyque ; qu’il présente les plus précieux détails sur l’état des personnes et surtout sur l’état des terres au commencement du <num>xi<hi rend="sup">e</hi></num> siècle, et que, par plus d’un côté, il n’offre pas moins d’intérêt que celui d’Irminon.</p>
       </div>
-      <div>
+      <div xml:id="r30785">
         <head rend="uc">III.
          <lb/>Histoire des trois premiers siècles de l’abbaye du Der,
          <lb/>d’après les textes du premier cartulaire.</head>
         <p>Division de cette histoire. CHAPITRE I. SAINT -BERCHAIRE. – § 1. Sa naissance près de Poitiers. – §2. Saint Nivard, archevêque de Reims, son parrain, le confie à S. Remacles. – Que Berchaire a connu les plus grands évêques de son siècle. – § 3. De son séjour à Luxeuil où il étudie la règle de S. Columban. – § 4. De son voyage avec S. Ni<pb source="https://nakala.fr/10.34847/nkl.4d92jto3#8a0b20ea6991c97d0ab518647e61fe9be7eab3ba" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.4d92jto3/8a0b20ea6991c97d0ab518647e61fe9be7eab3ba/full/full/0/default.jpg"/>vard aux bords de la Marne ; fondation du célèbre monastère d’Haut-Villiers. – § 5. De la forêt du Derw et du château de Pontziol. – Est-il vrai, comme D. Gaspard le prétend, que Berchaire ait été abbé de Lonzes, avant de fonder le grand monastère du Der ? – De la fondation de Puellemontier. – – Que S. Berchaire avait déjà établi un autre couvent de filles à Vecqueville (<hi rend="i">gangiacum</hi>), et d’un diplôme de Thierry relatif à cette fondation. – § 6. Quels ont été avec Berchaire les fondateurs de Puellemontier ? – Que Waltilde, femme du duc Waimer, en a été la première abbesse, et non point une autre Waltilde. – Prospérité de Puellemontier. – Quelle règle suivaient les sœurs ? – § 7. Des commencements de Montier-en-Der et du mémorable diplôme de Childéric, qui est la vraie charte de fondation de l’abbaye (4 juillet 672) ; analyse de cet acte ; traduction et notes inédites de D. Gaspard. – Quels sont les priviléges accordés à l’abbaye ? – Quelles étaient à cette époque les limites de ses possessions ? – Opinion de D. Gaspard. – Date et signatures du diplôme. – § 8. Du diplôme de Thierry III qui confirme celui de Childéric (23 mai 682). – § 9. De la charte de S. Berchaire par laquelle il donne à l’abbaye ses propriétés allodiales en Aquitaine. – § 10. Où étaient exactement situés ces différents alleux ? Qu’il est possible de déterminer la position de quelques-uns ; exemples. – § 11. Discussion sur la date de la charte de S. Berchaire. Qu’elle est évidemment postérieure au diplôme de Childéric ; preuves. – § 12. Immunités ecclésiastiques. – § 13. Quels sont les saints auxquels est spécialement consacrée la nouvelle abbaye ? – § 14. Que la règle adoptée par S. Berchaire <pb source="https://nakala.fr/10.34847/nkl.4d92jto3#3f58341d96b66e2628a6e13acd560f1e7f97ca97" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.4d92jto3/3f58341d96b66e2628a6e13acd560f1e7f97ca97/full/full/0/default.jpg"/>est un heureux mélange des deux règles de S. Benoit et de S. Columban ; discussion et preuves. – § 15. Fin de la vie de S. Berchaire. – Ses rapports avec S. Léger. – Ses pèlerinages à Rome et en Palestine. – Sa mort en 685.</p>
-        <div>
+        <div xml:id="r30812">
           <head rend="uc">Chapitre II. Synaulius (de 685 au commencement du
            <lb/>huitième siècle.)</head>
           <p>§ 1. Du précieux secours que nous prête le petit résumé chronologique placé en tête du cartulaire. – § 2. Privilèges ecclésiastiques accordés à l’abbaye par Bertoend, évêque de Châlons ; en quoi consistent-ils ? – Confirmation des priviléges de Montier-en-Der par le pape Jean VI. – § 4. Mort de Synaulius.</p>
         </div>
-        <div>
+        <div xml:id="r30824">
           <head rend="uc">Chapitre III. Du commencement du <num>viii<hi rend="sup">e</hi></num> siècle
            <lb/>à l’année 814.</head>
           <p>§ 1. D’une liste des abbés du Der entre Synaulius et Hatton, qui nous est fournie par le <hi rend="i">nécrologe</hi> de l’abbaye. – § 2. Donation d’Erlesenna ; églises rurales fondées et desservies par les religieux. – §3. De deux lettres prétendues de Charlemagne, adressées à des déprédateurs de l’abbaye. – § 4. Le pape Adrien confirme le privilége de Jean VI. – § 5. Est-ce sous Charlemagne ou sous Charles le Chauve que vivait le comte Boson, bienfaiteur de l’abbaye ? – § 6. Première ruine de l’abbaye. – Le 1<hi rend="sup">er</hi> novembre 814, Louis le Pieux en donne toutes les possessions à l’église de Reims. – A-t-il été donné suite à cette donation ? – §7. Résumé des trois premiers chapitres.</p>
         </div>
-        <div>
+        <div xml:id="r30850">
           <head rend="uc">Chapitre IV. De l’année 814 à l’année 960.</head>
           <p>§ 1. De l’abbaye de Stavelo, et d’Hattou, qui en était abbé en 815. – Comment et quand Dation obtint-il le <pb source="https://nakala.fr/10.34847/nkl.4d92jto3#cf89badd933749735ec5bc420061e02436f6c8b4" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.4d92jto3/cf89badd933749735ec5bc420061e02436f6c8b4/full/full/0/default.jpg"/>titre d’abbé du Der ? – Le diplôme de 815 est-il authentique ? – § 2. Du diplôme de 827 où l’on ordonne une enquête sur l’abbaye du Der ; Hatton finit par la relever et y introduit dans toute sa pureté la règle de S. Benoît. – § 3. D’une donation de Louis en 832. – Mort d’Hatton en 836. – § 4. Dans quel ordre se succèdent les abbés du Der depuis la mort d’Hatton jusqu’à l’avènement d’Albéric ? De la double liste de notre résumé chronologique et des historiens modernes ; que ces deux listes ne sont pas d’accord. – § 5. Nouvelle liste proposée et preuves à l’appui. § 6. Résumé historique de cette période. – Table analytique des diplômes de Charles le Chauve. – Que sait-on d’Adalgaire, de ses successeurs et en particulier de Pardulus ? – D’un précieux document publié par Surius, le <hi rend="i">De diversis casibus Dervenvis cœnobii.</hi> – Invasion des Hongrois en 919. – Fuite des religieux en Bourgogne où Raoul leur fait accueil. – Comment ils réforment le monastère de Saint-Chef au diocèse de Vienne. – Leur retour dans le Der. – Corruption de leurs mœurs et seconde ruine de l’abbaye. – La réforme cette fois vient du monastère de Saint-Evre, à Toul, qui avait lui-même adopté celle de Cluny. – De l’abbé Albéric et de son conseiller Adson. – Albéric meurt en 960 ; Adson lui succède. – Liste des abbés du Der jusqu’en 1130.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r30870">
         <head rend="uc">IV.
          <lb/>De l’état des terres et en particulier du domaine rural
          <lb/>dans le Perthois au commencement du <num>xi<hi rend="sup">e</hi></num> siècle, d’après

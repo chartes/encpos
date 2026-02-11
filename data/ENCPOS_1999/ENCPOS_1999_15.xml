@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,24 +57,24 @@
         <surname>Chevalier</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1344370">
         <head rend="uc">Introduction</head>
         <p>Le monde de la prédication médiévale, en particulier au <num>xiii<hi rend="sup">e</hi></num> siècle, a produit une abondante littérature édifiante, réservée aux divers besoins des prédicateurs. Parmi ces textes variés, les recueils d’<hi rend="i">exempla</hi> sont une mine de renseignements pour les historiens qui se penchent sur les mentalités médiévales. Ces compilations rassemblent en effet de courtes anecdotes inspirées souvent de la vie même du prédicateur, ou tout au moins privilégiant le témoignage authentique. On y a donc trouvé un reflet de la vie religieuse du Moyen Age, notamment pour le <num>xiii<hi rend="sup">e</hi></num> siècle, le plus fécond en ouvrages de ce genre. Les <hi rend="i">exempla</hi> constituent une « matière prédicable » qui devient peu à peu indispensable à qui veut rédiger un sermon efficace, propre à inculquer aux fidèles les valeurs chrétiennes. Ce sont les ordres mendiants qui se chargent de cette nouvelle prédication itinérante : ils proposent, en même temps qu’un nouveau mode de vie religieuse, une nouvelle parole, accessible à tous. Les <hi rend="i">exempla</hi> sont leur arme favorite pour imprégner les esprits ; Dominicains et Franciscains passent maîtres dans l’art de prêcher. Les livres sur lesquels les Mendiants s’appuient suivent cette évolution, et des recueils d’<hi rend="i">exempla</hi> de plus en plus nombreux sont rédigés, parmi lesquels le <hi rend="i">De dono timoris</hi> du dominicain Humbert de Romans, resté inédit. Ce texte est un témoin essentiel du mouvement de mise par écrit d’un ensemble d’anecdotes parfois anciennes, dans un but précis de prédication. Il s’inspire en effet d’un recueil antérieur de quelques années, le <hi rend="i">Tractatus de diversis materiis predicabilibus</hi> du dominicain Etienne de Bourbon (♰ 1261), auquel il emprunte son plan et de nombreux <hi rend="i">exempta.</hi> Grâce à la connaissance de cette première source, les comparaisons sont donc très fructueuses, d’autant plus que le <hi rend="i">Tractatus de diversis materiis</hi> est également la matrice d’un autre recueil d’<hi rend="i">exempla,</hi> celui que composa Martin le Polonais (♰ 1279) et qu’il intitula <pb source="https://nakala.fr/10.34847/nkl.db61o0e2#54f3404c5cf3198a1c7169b83dca1a84bfd2941e" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.db61o0e2/54f3404c5cf3198a1c7169b83dca1a84bfd2941e/full/full/0/default.jpg"/><hi rend="i">Promptuarium exemplorum.</hi> Ces trois textes, chronologiquement très proches, présentent néanmoins des divergences nettes tant dans le traitement des sources exemplaires que dans la fortune que leur réservèrent les siècles postérieurs.</p>
       </div>
-      <div>
+      <div xml:id="r1344436">
         <head rend="uc">Première partie
          <lb/>Humbert de romans et le <hi rend="i">de dono timoris</hi></head>
-        <div>
+        <div xml:id="r1344447">
           <head rend="uc">Chapitre premier
            <lb/>Humbert de romans : repères biographiques</head>
           <p>Humbert de Romans est né aux environs de l’an 1200 à Romans-sur-Isère, dans l’actuel département de la Drôme. Après avoir obtenu une maîtrise ès arts à Paris, il entre dans l’ordre dominicain le 30 novembre 1224. 11 gravit patiemment, à partir de cette date, les échelons de la hiérarchie de l’ordre. En 1226, il devient lecteur du couvent de Lyon, retrouvant ainsi sa région d’origine. Puis, en 1237, il est prieur dans ce même couvent, qu’il contribue à agrandir, en l’installant en 1235 dans le quartier Confort, sur un terrain cédé par l’abbaye d’Ainay. En 1242, Humbert est nommé prieur de la province romaine, puis provincial de France en 1244. Cette charge comporte de très larges responsabilités, au sein d’un ordre qui s’est considérablement étendu en peu de temps. Le principal problème qui se posa à lui fut le début de la querelle dite de l’Université, qui opposa maîtres séculiers et maîtres mendiants à la Sorbonne. Enfin, le 31 mai 1254, Humbert fut élu maître général de l’ordre dominicain, au chapitre général de Bude en Hongrie. Cette charge, qu’il occupa pendant presque dix ans, le conduisit à s’occuper des missions en Terre sainte, de la prise en charge des sœurs dominicaines et de la fin de la querelle de l’Université. En mai 1263, il obtint son congé et se retira au couvent de Lyon. Sa retraite fut remplie par de nombreuses activités, notamment l’écriture. Humbert de Romans mourut le 14 juillet 1277 à Valence, où il fut inhumé.</p>
         </div>
-        <div>
+        <div xml:id="r1344459">
           <head rend="uc">Chapitre II
            <lb/>Un auteur prolifique</head>
           <p>Les quatorze années de retraite dont Humbert bénéficia au couvent de Lyon lui laissèrent le temps de rédiger une quantité d’ouvrages relatifs à la prédication. Citons, outre ses encycliques promulguées entre 1254 et 1263, l’<hi rend="i">Ecclesiasticum officiant secundum ordinem Fratrum predicatorum,</hi> prototype de la liturgie dominicaine unifiée, auquel il adjoignit la <hi rend="i">Legenda sancti Dominici.</hi> Parmi les ouvrages destinés aux prédicateurs, l’<hi rend="i">Epistola de regularis observantia discipline</hi> connut au Moyen Age un immense succès, ainsi que le <hi rend="i">De eruditione predicatorum.</hi> Quant à l’<hi rend="i">Opus tripartitum,</hi> il fut composé pour le concile de Lyon de 1274.</p>
         </div>
-        <div>
+        <div xml:id="r1344491">
           <pb source="https://nakala.fr/10.34847/nkl.db61o0e2#fadb952feb6cf9ed926f5d39b65a91f2d761f43f" n="135" facs="https://api.nakala.fr/iiif/10.34847/nkl.db61o0e2/fadb952feb6cf9ed926f5d39b65a91f2d761f43f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le <hi rend="i">de dono timoris,</hi> un recueil d’<hi rend="i">exempla</hi></head>
@@ -87,22 +85,22 @@
           <p><hi rend="i">La valeur propre du recueil.</hi> – Le <hi rend="i">De dono timoris,</hi> petit recueil qui vécut longtemps dans l’ombre du <hi rend="i">Tractatus</hi> d’Etienne de Bourbon, mérite davantage de considération que ne lui en a réservé la critique littéraire du <num>xix<hi rend="sup">e</hi></num> siècle. Moins touffu que le texte de son aîné, le <hi rend="i">De dono timoris</hi> offrait des avantages pratiques qui ont séduit les prédicateurs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1344610">
         <head rend="uc">Deuxième partie
          <lb/>La tradition manuscrite du <hi rend="i">de dono timoris</hi></head>
-        <div>
+        <div xml:id="r1344621">
           <head rend="uc">Chapitre premier
            <lb/>attribution et datation</head>
           <p><hi rend="i">Attribution.</hi> – Comme nulle part, dans le corps du texte, Humbert de Romans ne se présente comme l’auteur de l’ouvrage, les attributions du <hi rend="i">De dono timoris</hi> ont <pb source="https://nakala.fr/10.34847/nkl.db61o0e2#af41e75ba5fffdfc70fcf1ac23722ea5e0c8888e" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.db61o0e2/af41e75ba5fffdfc70fcf1ac23722ea5e0c8888e/full/full/0/default.jpg"/>été aussi variées que fantaisistes au cours des siècles. C’est ainsi que l’on trouve dans les manuscrits le nom de Nicolas de Hannapes ou d’Albert le Grand, et que certaines notices citent Pierre Alphonse ou Etienne de Bourbon. A la suite de J.-Th. Welter (<hi rend="i">L’exemplum dans la littérature religieuse et didactique du Moyen Age,</hi> 1927), il convient de retenir le nom de Humbert de Romans comme auteur du <hi rend="i">De dono timoris.</hi></p>
           <p><hi rend="i">Datation.</hi> – Le <hi rend="i">Tractatus de diversis materiis</hi> d’Etienne de Bourbon ayant été interrompu par la mort de son auteur en 1261, il paraît très improbable, au vu des nombreux emprunts que fait Humbert à ce texte, que le <hi rend="i">De dono timoris</hi> soit antérieur. On peut donc situer la rédaction entre 1263 et 1277.</p>
         </div>
-        <div>
+        <div xml:id="r1344666">
           <head rend="uc">Chapitre II
            <lb/>Étude des manuscrits</head>
           <p><hi rend="i">Recensement des manuscrits.</hi> – Quatre-vingt-six manuscrits du <hi rend="i">De dono timoris</hi> ont été recensés dans le monde : Afrique du Sud, Allemagne, Autriche, Angleterre, France, Italie, Pays-Bas, Pologne, Portugal, République tchèque, Suède, Suisse ; ils sont datés du <num>xiii<hi rend="sup">e</hi></num> au <num>xv<hi rend="sup">e</hi></num> siècle. Ce recensement, qui n’avait pas jusqu’ici été réalisé de manière complète, témoigne de l’immense succès dont jouit le texte au Moyen Age. On trouve des versions complètes du <hi rend="i">De dono timoris,</hi> mais aussi des versions incomplètes ou mélangées avec le <hi rend="i">Tractatus</hi> d’Étienne de Bourbon. Cette large diffusion témoigne de l’extension de l’ordre dominicain dans l’Est de l’Europe ainsi que de la vivacité de la prédication mendiante jusqu’au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">Répartition des manuscrits.</hi> – La répartition par siècles montre que la diffusion a été constante aux <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles. Ce sont l’Allemagne, l’Autriche et la France qui conservent aujourd’hui le plus grand nombre de manuscrits. Quant à la répartition ancienne des manuscrits selon l’ordre religieux dont ils proviennent, on constate que ce sont les Bénédictins qui en possédèrent le plus grand nombre.</p>
         </div>
-        <div>
+        <div xml:id="r1344729">
           <head rend="uc">Chapitre III
            <lb/>Étude codicologique et critères d’édition</head>
           <p><hi rend="i">Critères de choix des manuscrits.</hi> – La collation des manuscrits nécessaires à l’édition a été précédée d’un examen minutieux des témoins, tant le choix était difficile parmi une si grande abondance. Ont été sélectionnés des manuscrits d’origines et d’époques aussi variées que possible.</p>
@@ -110,22 +108,22 @@
           <p><hi rend="i">Critères d’édition.</hi> – L’édition a été faite à partir du manuscrit de base Bibl. nat. de Fr., lat. 15953, dont l’orthographe n’a pas été normalisée. L’apparat critique fournit variantes textuelles et sources des citations non bibliques (celles-ci étant indiquées dans le corps du texte).</p>
           <p><hi rend="i">Conclusion : un stemma est-il possible ?</hi> – Il n’a pas été possible de dresser un <hi rend="i">stemma</hi> de la diffusion du texte, qui aurait nécessité l’examen de tous les manuscrits. <pb source="https://nakala.fr/10.34847/nkl.db61o0e2#047a9ca1b562b23eef1c43d1c2c6d6aa9f78d28e" n="137" facs="https://api.nakala.fr/iiif/10.34847/nkl.db61o0e2/047a9ca1b562b23eef1c43d1c2c6d6aa9f78d28e/full/full/0/default.jpg"/> En revanche, quelques similitudes entre les manuscrits collationnés permettent déjà de distinguer plusieurs familles de manuscrits.</p>
         </div>
-        <div>
+        <div xml:id="r1344771">
           <head rend="uc">Chapitre IV
            <lb/>Le <hi rend="i">Promptuarium exemplorum</hi></head>
           <p><hi rend="i">Recensement des manuscrits.</hi> – Le <hi rend="i">Promptuarium exemplorum,</hi> rédigé par Martin le Polonais, offre un terme de comparaison très utile entre le <hi rend="i">De dono timoris</hi> et le <hi rend="i">Tractatus de diversis materiis.</hi> La transcription du texte du manuscrit Bibl. nat. de Fr., lat. 3301<hi rend="sup">A</hi>, est donnée à la suite de l’édition du <hi rend="i">De dono timoris. </hi>On compte aujourd’hui dix-sept manuscrits du texte, répartis en Europe.</p>
           <p><hi rend="i">Règles de transcription.</hi> – Les citations bibliques se trouvent dans le corps du texte, les leçons rejetées en bas de page. Les sources des <hi rend="i">exempla</hi> ne provenant pas d’Etienne de Bourbon sont données à la suite du texte, quand elles ont été identifiées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1344820">
         <head rend="uc">Troisième partie
          <lb/>L’utilisation des sources exemplaires</head>
-        <div>
+        <div xml:id="r1344828">
           <head rend="uc">Chapitre premier
            <lb/>panorama des sources</head>
           <p>Les sources du <hi rend="i">De dono timoris</hi> sont extrêmement variées, de l’Antiquité à des auteurs contemporains comme Jacques de Vitry ou Vincent de Beauvais. Les <hi rend="i">Vitae Patrum</hi> sont la source la plus prisée par Humbert de Romans. On compte 24 % d’<hi rend="i">exempla</hi> ajoutés personnellement par l’auteur, et qu’il n’a donc pas choisis dans le <hi rend="i">Tractatus de diversis materiis.</hi> De même, Humbert est l’auteur d’environ 14 % des <hi rend="i">exempla</hi> de son traité, ce qui montre que l’on n’a pas affaire à une simple compilation, mais à un réel travail de choix et de rédaction.</p>
         </div>
-        <div>
+        <div xml:id="r1344860">
           <head rend="uc">Chapitre II
            <lb/>Le style personnel de Humbert de romans.
            <lb/>Comparaison avec Étienne de Bourbon</head>
@@ -133,7 +131,7 @@
           <p><hi rend="i">Le souci de brièveté.</hi> – Ayant pour but de rédiger un manuel pratique, Humbert a choisi parfois de donner simplement les références des textes qu’il considérait comme utiles, au heu de les citer en entier. C’est souvent le cas avec les <hi rend="i">exem<pb source="https://nakala.fr/10.34847/nkl.db61o0e2#1fa893a706e1edbb82c1deeabd8df5fae4be23b8" n="138" facs="https://api.nakala.fr/iiif/10.34847/nkl.db61o0e2/1fa893a706e1edbb82c1deeabd8df5fae4be23b8/full/full/0/default.jpg"/>pla</hi> issus des dialogues de Grégoire le Grand, des <hi rend="i">Vitae Patrum,</hi> qu’il suppose connus de ses lecteurs.</p>
           <p><hi rend="i">Quelques échanges d’« exempla ».</hi> – Dans quelques cas exceptionnels, Etienne de Bourbon avoue avoir puisé chez Humbert de Romans. Celui-ci a ensuite repris ces mêmes <hi rend="i">exempla,</hi> après les avoir relus chez Etienne, mais en les remaniant, prouvant ainsi qu’il ne rédigeait pas de manière mécanique.</p>
         </div>
-        <div>
+        <div xml:id="r1344910">
           <head rend="uc">Chapitre III
            <lb/>L’illustration par l’<hi rend="i">exemplum :</hi>
            <lb/>la méthode de Humbert de romans</head>
@@ -142,35 +140,35 @@
           <p><hi rend="i">Conclusion.</hi> – Humbert est resté fortement influencé par le texte d’Etienne de Bourbon, et a parfois peiné à s’en détacher. Il a cependant laissé libre cours à son style, et l’on peut constater qu’il est pleinement à la hauteur de sa tâche. Humbert a cherché à rédiger un manuel, ce qui n’était pas le cas d’Etienne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1344968">
         <head rend="uc">Quatrième partie
          <lb/>Le <hi rend="i">Promptuarium exemplorum</hi> de Martin le Polonais</head>
-        <div>
+        <div xml:id="r1344980">
           <head rend="uc">Chapitre premier
            <lb/>Martin le Polonais</head>
           <p>Martin le Polonais est né à Opava en Silésie, à une date inconnue. Profès au couvent dominicain de Prague, puis prieur, il est ensuite pénitencier à la Curie pontificale en 1261. Nommé archevêque de Gnesen (Gniezno) en 1278, il n’occupa jamais sa charge, car il mourut en chemin en 1279, et fut enterré à Bologne, dans l’église des Dominicains. Martin le Polonais est surtout connu comme l’auteur de la chronique la plus fameuse du Moyen Age, intitulée <hi rend="i">Chronicon pontificum et imperatorum.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1344995">
           <pb source="https://nakala.fr/10.34847/nkl.db61o0e2#3f320999dfa871f4c6c092b8a4cc4cf90e8521a5" n="139" facs="https://api.nakala.fr/iiif/10.34847/nkl.db61o0e2/3f320999dfa871f4c6c092b8a4cc4cf90e8521a5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le <hi rend="i">Promptuarium exemplorum</hi></head>
           <p>On trouve généralement le <hi rend="i">Promptuarium exemplorum</hi> uni avec les <hi rend="i">Serniones de tempore et de sanctis</hi> de Martin. Il s’est essentiellement diffusé dans l’Est de l’Europe. C’est un recueil d’<hi rend="i">exempla</hi> empruntés à l’ensemble du <hi rend="i">Tractatus de diversis materiis</hi> d’Étienne de Bourbon, et non plus, comme chez Humbert, seulement à sa première partie, le <hi rend="i">De dono timoris.</hi> Martin a repris les <hi rend="i">exempta </hi>d’Étienne dans le même ordre, à l’exclusion de tout le reste du texte et notamment de tout son contenu théologique.</p>
         </div>
-        <div>
+        <div xml:id="r1345039">
           <head rend="uc">Chapitre III
            <lb/>La composition du <hi rend="i">Promptuarium exemplorum</hi></head>
           <p><hi rend="i">Comparaison des plans.</hi> – Martin a repris le plan d’Etienne de Bourbon avec plus de latitude que Humbert : même si l’on retrouve chez lui les mêmes rubriques, il arrive qu’il modifie les titres. Il est néanmoins manifeste qu’il a travaillé au fil du texte d’Étienne.</p>
           <p><hi rend="i">Comparaison des « exempta ».</hi> – L’examen des <hi rend="i">exempta</hi> des trois recueils montre que Martin et Humbert ont travaillé de manière séparée, sans que l’un soit influencé par le travail de l’autre. Martin a repris un nombre considérable <hi rend="i">d’exempla</hi> à Étienne de Bourbon sans apporter la moindre modification.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1345072">
         <head rend="uc">Conclusion</head>
         <p>On comprend, au terme de l’étude du <hi rend="i">De dono timoris</hi> de Humbert de Romans, pourquoi ce texte remporta un si grand succès au Moyen Age. L’auteur y a mis en effet toute sa science des hommes et est resté fidèle à son objectif de rédiger un manuel, utile au plus grand nombre, ce que n’avait pas fait Étienne de Bourbon. Le <hi rend="i">Promptuarium exemplorum,</hi> quant à lui, est plutôt une compilation au sens strict du terme.</p>
       </div>
-      <div>
+      <div xml:id="r1345090">
         <head rend="uc">Annexes</head>
         <p><hi rend="i">Tabula exemplorum</hi> : recensement de tous les <hi rend="i">exempta</hi> du recueil avec, pour chacun, sa source, son identification chez Etienne de Bourbon et éventuellement un court commentaire. – Notices abrégées de tous les manuscrits connus du <hi rend="i">De dono timoris.</hi> – Notices codicologiques complètes des huit manuscrits utilisés pour l’édition. – Index des <hi rend="i">exempta.</hi> – Index des citations bibliques. – Index des citations patristiques. – Plans comparatifs des trois ouvrages.</p>
-        <div>
+        <div xml:id="r1345114">
           <pb source="https://nakala.fr/10.34847/nkl.db61o0e2#7eb83d6d1cb97daaa126be0486c82f5498b84a2d" n="140" facs="https://api.nakala.fr/iiif/10.34847/nkl.db61o0e2/7eb83d6d1cb97daaa126be0486c82f5498b84a2d/full/full/0/default.jpg"/>
           <head rend="uc">Édition du <hi rend="i">de dono timoris</hi>
            <lb/>et du <hi rend="i">Promptuarium exemplorum</hi></head>

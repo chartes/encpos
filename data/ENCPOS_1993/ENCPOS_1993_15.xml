@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,25 +56,25 @@
         <surname>Poncet</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1232390">
         <head rend="uc">Introduction</head>
         <p>De tous les grands serviteurs de la monarchie française au <num>xvi<hi rend="sup">e</hi></num> siècle, Pomponne de Bellièvre est apparemment un des mieux connus, depuis que des biographies lui ont été consacrées, il y a une vingtaine d’années, par deux historiens américains. Toutefois, la question est loin d’être épuisée : la relecture des papiers de Bellièvre à la Bibliothèque nationale et le recours aux actes notariés autorisaient un nouveau travail qui pût insister davantage sur les ressorts profonds de la réussite de Bellièvre et mettre en valeur un entourage et une fortune par ailleurs fort méconnus.</p>
       </div>
-      <div>
+      <div xml:id="r1232406">
         <head rend="uc">Sources</head>
         <p>L’ensemble exceptionnel des papiers de Bellièvre conservés à la Bibliothèque nationale (fonds français 15890-15911) a constitué encore une fois la documentation de premier ordre sur ce personnage, tandis que le dépouillement de la correspondance de ses ambassades helvétiques (1564-1570) (fonds français 16012-16024) a <pb source="https://nakala.fr/10.34847/nkl.8e493no3#d24947ac6e2cfa3894fe5e9cd3e3a1c021e61c93" n="122" facs="https://api.nakala.fr/iiif/10.34847/nkl.8e493no3/d24947ac6e2cfa3894fe5e9cd3e3a1c021e61c93/full/full/0/default.jpg"/>été très utile pour décrire ces années si décisives dans sa carrière. L’étude LXXVIII du Minutier central des notaires parisiens est riche d’actes permettant de lever le voile opaque entourant jusqu’alors la fortune et la famille de Bellièvre. Des recherches complémentaires ont enfin été effectuées dans les diverses collections de la Bibliothèque nationale, aux Archives nationales, dans les différents fonds lyonnais et dans quelques dépôts d’archives départementales (Isère, Savoie, Yvelines, Seine-Maritime).</p>
       </div>
-      <div>
+      <div xml:id="r1232421">
         <head rend="uc">Première partie
          <lb/>Une lente mais irrésistible ascension
          <lb/>(1529-1588)</head>
-        <div>
+        <div xml:id="r1232431">
           <head rend="uc">Chapitre premier
            <lb/>les débuts (1529-1564)</head>
           <p>L’arrière-grand-père de Pomponne de Bellièvre, Barthélemy I", arrivé à Lyon dans les années 1430 en provenance de la Bresse, joignit rapidement à ses activités de notaire des charges de confiance auprès de l’archevêque de la ville qui garda son fils Barthélemy II à ses côtés. L’héritier de ce dernier, Claude, profitant de la position de notable acquise par ses pères, quitta le notariat pour se mettre au service du roi qui en fit son premier président au parlement de Grenoble (1541-1554). Son fils cadet, Pomponne, qui poursuivit des études à Paris et à Padoue, appartenait donc à la haute noblesse parlementaire de province lorsqu’il entra en 1554 au parlement de Chambéry.</p>
           <p>Conseiller de cette petite cour, il fit dans cette région récemment conquise ses premières armes de magistrat. La paix du Cateau-Cambrésis (1559), qui supprimait de fait le parlement français de Savoie, ne brisa pas sa carrière, puisque, avec le soutien du chancelier Michel de L’Hospital et de l’évêque d’Orléans, Jean de Morvilliers, il fut nommé lieutenant général du bailliage de Vermandois. Son séjour à Laon (1560-1564) fut pour lui l’occasion de resserrer ses liens avec Morvilliers et la régente Catherine de Médicis qui le jugea apte à exercer la charge d’ambassadeur aux Grisons (mars 1564). A ce poste qui, tout comme celui de Suisse, requérait de son titulaire le talent du diplomate, mais aussi l’habileté d’un financier, Bellièvre se familiarisa avec le maniement des deniers publics.</p>
         </div>
-        <div>
+        <div xml:id="r1232446">
           <pb source="https://nakala.fr/10.34847/nkl.8e493no3#05107f12dbe7076887df4aaedc3e4df1bbae2364" n="123" facs="https://api.nakala.fr/iiif/10.34847/nkl.8e493no3/05107f12dbe7076887df4aaedc3e4df1bbae2364/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’indispensable conseiller (1566-1574)</head>
@@ -84,13 +82,13 @@
           <p>Avec la bienveillante protection de Morvilliers et des siens, Bellièvre obtient son rappel (février 1570) et une charge de conseiller d’État (juillet 1570). A son arrivée à Paris, il peut compter sur le soutien de son oncle Barthélemy Faye, allié à de bonnes familles de parlementaires parisiens, et sur ses cousins éloignés, les Gondi, alors bien en cour. Après avoir résigné ses charges lyonnaises, il se consacre à son travail de conseiller du roi qui met à contribution sa connaissance des mercenaires et des finances publiques, ainsi que des cantons suisses où il repart quelques mois (novembre 1572-mars 1573) pour leur donner la version royale de la Saint-Barthélemy. Son entrée au Conseil du roi faisait enfin de lui le protecteur attitré de son frère aîné Jean, premier président au parlement de Grenoble comme son père, et de ses alliés dauphinois auprès du souverain.</p>
           <p>Après l’élection d’Henri d’Anjou au trône de Pologne (juillet 1573), Bellièvre accompagna ce prince vers son nouveau royaume en qualité d’ambassadeur de Charles IX et eut ainsi l’occasion de côtoyer les amis et intimes du jeune roi au service duquel il mit ses compétences d’organisateur et de diplomate. Il monta enfin la fuite de celui qui était appelé au trône de France sous le nom d’Henri III après le décès de son frère Charles IX (mai 1574).</p>
         </div>
-        <div>
+        <div xml:id="r1232469">
           <head rend="uc">Chapitre III
            <lb/>Au service d’Henri III (1574-1588)</head>
           <p>Bellièvre, fait surintendant des finances en septembre 1574, ne tarda pas à occuper une place de tout premier plan au Conseil du roi, même après la disparition de son protecteur Morvilliers (1578). Il partageait le pouvoir avec les secrétaires d’État, principalement Villeroy, et avec le chancelier Hurault de Cheverny. En outre, il jouissait de la confiance et de l’amitié de Louis de Gonzague, duc de Nevers, et de l’arrogant duc d’Épernon.</p>
           <p>Catholique sincère, il fut le diplomate par excellence d’Henri III qui l’employa à diverses reprises pour travailler à la pacification religieuse du royaume, particu<pb source="https://nakala.fr/10.34847/nkl.8e493no3#55b3862496104e9e6c4503bdde6cccdd7acd3941" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.8e493no3/55b3862496104e9e6c4503bdde6cccdd7acd3941/full/full/0/default.jpg"/>lièrement dans le Sud-Ouest, pour tâcher de détourner François d’Anjou de ses aventureux projets aux Pays-Bas ou encore pour tenter de sauver la tête de Marie Stuart. Il montra beaucoup de compréhension pour le brouillon duc d’Anjou, apporta son soutien au protestant Henri de Navarre lorsque celui-ci devint le légitime prétendant à la couronne de France (juin 1584), et il affecta une attitude respectueuse mais circonspecte avec le parti des Guises où il comptait pourtant des amis et parents.</p>
         </div>
-        <div>
+        <div xml:id="r1232489">
           <head rend="uc">Chapitre IV
            <lb/>Le magistrat diplomate</head>
           <p>Surintendant des finances sans interruption de septembre 1574 à septembre 1588, Pomponne de Bellièvre avait à ses côtés des intendants dont le nombre varia de quatre à six durant le règne et qui étaient pour lui plus des collaborateurs que des subordonnés. L’un d’entre eux, Benoît Milon, exerça même une « vice-surintendance » de fait pendant la longue mission de Bellièvre dans le Sud-Ouest (novembre 1580-février 1582). Ces officiers, qui avaient tous, sans exception, exercé des charges de finance avant d’être pourvus de l’intendance, eurent dans l’ensemble de bonnes relations avec Bellièvre qui ne dédaignait pas de les employer à l’occasion pour ses affaires privées (B. Milon).</p>
@@ -98,18 +96,18 @@
           <p>La présidence à mortier au parlement de Paris vint, en 1576, récompenser celui de Bellièvre. Ce dernier n’exerça cet office, obtenu après un court conflit entre le roi et la cour, qu’autant que ses autres obligations le lui permettaient. D’ailleurs, il le résigna contre argent dès 1580 à Barnabé Brisson, mais conservait des liens avec les parlementaires parisiens (les Faye, Nicolas Perrot). Le mariage de sa fille aînée avec Claude Prévost (1586), un parent des Potier, était la meilleure preuve de son attachement au milieu dont il était issu et qu’il avait dû quitter pour le service du roi.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1232508">
         <pb source="https://nakala.fr/10.34847/nkl.8e493no3#73262c4905da8613f27e17a3e358427e32d718dd" n="125" facs="https://api.nakala.fr/iiif/10.34847/nkl.8e493no3/73262c4905da8613f27e17a3e358427e32d718dd/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Une fin de carrière mouvementée (1588-1607)</head>
-        <div>
+        <div xml:id="r1232521">
           <head rend="uc">Chapitre premier
            <lb/>la lutte contre l’adversité (1588-1599)</head>
           <p>En dépit des tentatives de Bellièvre pour amadouer le duc de Guise, Henri III doit fuir sa capitale le 13 mai 1588 et s’il signe, contraint et forcé, l’édit d’Union (juillet 1588), il songe encore à se défaire des Guises. Le renvoi de ses ministres, dont était Bellièvre, en septembre 1588 a des motivations avant tout politiques : il s’agit de se séparer des hommes soutenus par sa mère et de prouver aux États de Blois sa volonté de mener une nouvelle politique. Bellièvre se retire dans son château de Grignon avec sa famille et refuse les avances des ligueurs parisiens et de Mayenne. Il ne sort de sa passivité que pour protéger ses propriétés, des voisins ou des amis. Ses principaux parents sont restés fidèles au camp royal, même après l’assassinat d’Henri III (août 1589), et les nouveaux ministres de 1588 le servent utilement pour régler la succession de son cousin Jacques Faye et celle de son gendre Claude Prévost (septembre-décembre 1590).</p>
           <p>Il ne se départit guère de sa neutralité en 1589-1590, mais s’engage peu à peu dans la polémique et travaille à faire reconnaître Henri IV comme roi légitime. Par sa participation aux rencontres officieuses qui avaient lieu en région parisienne dans les demeures des principaux conseillers de chaque parti, il prépare son retour sur la scène politique au service d’Henri IV : la conférence de Suresnes (avril 1593) marque la fin de cette « diplomatie couverte ».</p>
           <p>Envoyé à Lyon pour ramener la ville à l’obéissance royale et restaurer les finances municipales, il profite de ce séjour (juin 1594-septembre 1595) pour inciter d’importants ligueurs, dont Mayenne lui-même, à faire leur soumission au roi. A son retour il est, avec Montmorency, l’homme fort du gouvernement et s’emploie à redresser les finances royales pour faire face aux nécessités de la guerre avec l’Espagne. Le siège d’Amiens l’oblige à enterrer le projet de réforme qu’avait approuvé l’assemblée des notables de Rouen (janvier 1597) : le baron de Rosny, futur duc de Sully, profite de cet épisode militaire pour prendre une place grandissante dans le domaine financier. Bellièvre renoue avec l’activité diplomatique en février 1598 lors des négociations de Vervins qui aboutissent à la signature de la paix avec Philippe II (mai 1598). Le 2 août 1599, la charge de chancelier de France vient couronner une existence vouée au service de la monarchie.</p>
         </div>
-        <div>
+        <div xml:id="r1232539">
           <pb source="https://nakala.fr/10.34847/nkl.8e493no3#782b7eb85ad81fb74244c4992e5f5ac79f6c1595" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.8e493no3/782b7eb85ad81fb74244c4992e5f5ac79f6c1595/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Monseigneur le chancelier (1599-1607)</head>
@@ -117,11 +115,11 @@
           <p>Son cancellariat fut trop court pour qu’il imprimât sa marque dans l’administration de la justice, et spécialement de la Grande Chancellerie. Il échoua dans sa tentative de réduction du nombre des conseillers d’Etat, mais son influence sur la désignation des maîtres des requêtes choisis comme intendants de justice n’est pas douteuse. Le personnel de la Grande Chancellerie fut relativement stable de 1599 à 1607 et Bellièvre ne put réprimer les abus et la concussion dont on accusait ces officiers. Il joua un rôle de médiateur entre le roi et ses cours souveraines, rappelant à celles-ci où était leur devoir et à celui-là qu’il ne pouvait se passer de leur conseil. Les liens familiaux qui Punissaient à trois des premiers présidents de parlement (Paris, Grenoble, Rouen) l’aidèrent sans doute grandement dans cette tâche délicate. Le cancellariat de Bellièvre, comme tout le règne d’Henri IV au reste, fut marqué par une grande liberté en matière d’impression de livres. Dans ce domaine comme dans celui de la surveillance des pièces de théâtre, le chancelier privilégia toujours la voie de l’apaisement et intervint dès que la paix intérieure ou extérieure était menacée par une parution ou une représentation importune.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1232560">
         <pb source="https://nakala.fr/10.34847/nkl.8e493no3#86ec40cf838ddd0c4ff766562617140e5852267f" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.8e493no3/86ec40cf838ddd0c4ff766562617140e5852267f/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>L’homme privé</head>
-        <div>
+        <div xml:id="r1232573">
           <head rend="uc">Chapitre premier
            <lb/>une fortune modeste</head>
           <p>L’héritage de Bellièvre et la dot de sa femme, constitués essentiellement d’immeubles lyonnais, représentaient 75 à 80 000 livres vers 1570. Bellièvre, qui résidait ordinairement dans la région parisienne, opéra un transfert de propriétés et vendit les deux tiers de ce patrimoine en deux décennies (1570-1580). Ses gages, en constante augmentation depuis 1554, furent une source importante de revenus pour se constituer un nouveau patrimoine en Ile-de-France. Il usa assez modérément de la rente constituée, essentiellement dans la décennie 1580, pour placer de l’argent qu’il convertissait par la suite en terres ou en bâtisses.</p>
@@ -129,7 +127,7 @@
           <p>Comme tout ministre influent, il pourchassa avec un certain succès l’obtention de bénéfices ecclésiastiques qu’il faisait tenir par des parents ou par ses enfants et qui lui rapportaient presque autant que ses gages officiels. Sa gestion démontrait également son souci de la bonne tenue morale des établissements que la faveur royale lui avait confiés.</p>
           <p>Sa fortune, qui atteignait en 1607 un peu moins de 680 000 livres dont un quart en créances difficilement recouvrables, pouvait paraître modeste au regard de ses brillants états de service.</p>
         </div>
-        <div>
+        <div xml:id="r1232594">
           <head rend="uc">Chapitre II
            <lb/>Le <hi rend="i">pater familias</hi></head>
           <p>La maladie de son fils aîné, Albert, qu’il avait contrairement aux habitudes destiné au service de l’Église, obligea Pomponne de Bellièvre à faire appel à son cadet, Claude, pour ne pas laisser perdre l’archevêché de Lyon qu’il avait eu du mal à obtenir en 1599. C’est à son troisième fils, Nicolas, marié à la fille de Sillery, qu’il revint en définitive d’être l’héritier du chancelier.</p>
@@ -137,21 +135,21 @@
           <p>Bellièvre était enfin un chef de maison prenant sous sa protection des parents ou amis qui servaient ses intérêts en échange de sa bienveillante protection et considérant ses principaux serviteurs comme des agents et des officiers domestiques qui surent profiter de la position de leur maître pour s’affranchir de la dépendance dans laquelle ils étaient confinés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1232621">
         <head rend="uc">Épilogue
          <lb/>grandeur et décadence des Bellièvre</head>
         <p>Nicolas de Bellièvre, conformément à la volonté de ses parents, régla la succession de ceux-ci à son profit et parvint à racheter Grignon aux enchères en 1615. La réussite des Bellièvre aux XVII’ siècle est superbe : Nicolas fut président à mortier au parlement de Paris, tandis que son fils Pomponne y exerça la première présidence. En revanche, sous l’effet conjugué de la hausse du prix des offices et de l’absence d’héritier, la situation financière s’était dégradée à tel point que le dernier descendant mâle, Pierre, dut abandonner tous ses biens à ses créanciers en 1675.</p>
       </div>
-      <div>
+      <div xml:id="r1232633">
         <head rend="uc">Conclusion</head>
         <p>La réussite de Pomponne de Bellièvre, qui s’inscrit dans une histoire familiale plus vaste dont il occupe la place centrale, socialement et chronologiquement, n’est pas unique mais prend tout son sens dans le contexte des guerres de Religion. Elle repose sur trois éléments majeurs : une rare polyvalence qui l’amena à mêler étroitement diplomatie, finances et justice, une indéfectible loyauté au souverain légitime que les hasards lui avaient donné comme maître et, enfin, l’appui d’amis et de parents sans lesquels il n’est pas de succès individuel possible.</p>
       </div>
-      <div>
+      <div xml:id="r1232643">
         <pb source="https://nakala.fr/10.34847/nkl.8e493no3#473067bac246ebfbb206c3bc30b9583bc6c94c13" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.8e493no3/473067bac246ebfbb206c3bc30b9583bc6c94c13/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Contrat de mariage de Bellièvre (1569). – Lettres de Jacques Faye à Bellièvre (1571) ; de Jean du Tramblay à Bellièvre (1571). – Déclaration d’indemnité générale des membres du Conseil après des constitutions de rentes pour le roi (1586). – Lettre de Bellièvre à Claude de Bauffremont (1595). – État des droits du chancelier (1599-1600). – Projet de réforme du Conseil (1601).</p>
       </div>
-      <div>
+      <div xml:id="r1232658">
         <head rend="uc">Annexes</head>
         <p>Principaux membres du Conseil des Finances de 1582 à 1586. – Listes : intendants et trésoriers de l’Épargne durant le règne d’Henri III ; audienciers et contrôleurs de la Grande Chancellerie de 1599 à 1607. – Gages et pensions de Bellièvre. – Succession de Bellièvre en 1607. – Répartition des biens meubles de Bellièvre en 1607. – Bellièvre et la rente constituée : tableau chronologique. – Trois cartes. – Iconographie. – Dix-sept tableaux généalogiques.</p>
         <pb source="https://nakala.fr/10.34847/nkl.8e493no3#4792ea7fa0b7d5f2841c913aff48146af091fbd5" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.8e493no3/4792ea7fa0b7d5f2841c913aff48146af091fbd5/full/full/0/default.jpg"/>

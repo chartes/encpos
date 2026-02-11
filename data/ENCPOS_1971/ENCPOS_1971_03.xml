@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1971_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1971_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>Catherine</forename>
         <surname>Berthier-Georgesco</surname>
       </byline>
-      <div>
+      <div xml:id="r935665">
         <head rend="uc">Sources</head>
         <p>Le fonds du prieuré de Saint-Martin-des-Champs à Paris se trouve essentiellement aux Archives nationales, où il est réparti entre les séries H<hi rend="sup">5</hi> (comptes du <num>xviii<hi rend="sup">e</hi></num> siècle), L, LL (cartulaires et censiers, livres de visites, registres capitulaires et comptes allant du <num>xiii<hi rend="sup">e</hi></num> siècle à la Révolution) et S, qui présentent des documents très variés aussi bien sur le prieuré même que sur ses nombreuses dépendances. Les actes concernant Saint-Martin-des-Champs jusqu’à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle ont été publiés par J. Depoin entre 1912 et 1921.</p>
         <p>Des manuscrits conservés à la Bibliothèque Nationale (notamment nouv. acq. lat. 1 359 et lat. 10 977, <hi rend="i">Liber Testamentorum</hi>) et à la Bibliothèque Mazarine complètent ces sources, ainsi que les ouvrages d’érudition du premier historien du monastère, dom Martin Marrier, en particulier l’<hi rend="i">Historia regalis monasterii sancti Martini de Campis...,</hi> Paris, 1637.</p>
@@ -65,18 +63,18 @@
         <p>D’autre part, des sondages ont été effectués aux Archives nationales dans les minutes des notaires parisiens, spécialement dans l’étude X du Minutier Central, et dans les rapports d’expertises des greffiers des Bâtiments (sous-série Z<hi rend="sup">11</hi>).</p>
         <p>L’iconographie du sujet, abondante, repose sur des documents conservés par les Archives nationales (plans divers dont aucun, à notre avis, n’est antérieur au <num>xviii<hi rend="sup">e</hi></num> siècle), par la bibliothèque du Musée Carnavalet et par la Bibliothèque Nationale. L’étude archéologique des vestiges du prieuré et de ses dépendances dans les divers départements s’appuie sur les documents graphiques conservés à la Bibliothèque des Monuments Historiques, qui sont l’œuvre des architectes chargés des restaurations depuis le <num>xix<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r935751">
         <pb source="https://nakala.fr/10.34847/nkl.65a55vpl#6255b938dda5281c6da1a74b5bf958fb19e1c349" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.65a55vpl/6255b938dda5281c6da1a74b5bf958fb19e1c349/full/full/0/default.jpg"/>
         <head rend="uc">Introduction
          <lb/>les origines du prieuré</head>
         <p>En 1060, le roi Henri I<hi rend="sup">er</hi> fonda le monastère et y installa des chanoines réguliers. Les termes mêmes de la charte royale laissent entendre qu’il existait antérieurement une abbaye de Saint-Martin et qu’elle fut détruite de fond en comble par les Normands. Un diplôme de Childebert III, du 7 décembre 710, la mentionne, ainsi qu’un polyptyque partiel de Saint-Maur-des-Fossés (dernier quart du <num>ix<hi rend="sup">e</hi></num> siècle). L’acte de fondation rappelle que cette abbaye était située devant la « Porte de Paris », c’est-à-dire sur la rive droite, au nord de Saint-Merry, plutôt qu’au sud, près de la porte septentrionale de la Cité, malgré l’existence en ce lieu d’un oratoire Saint-Martin, signalé par Grégoire de Tours. L’abbaye du <num>xi<hi rend="sup">e</hi></num> siècle aurait donc été rebâtie sur le même emplacement.</p>
       </div>
-      <div>
+      <div xml:id="r935784">
         <head rend="uc">Première partie
          <lb/>Le prieuré du <num>xi<hi rend="sup">e</hi></num> siècle au début
          <lb/>du <num>xvii<hi rend="sup">e</hi></num> siècle</head>
         <p>Le temporel du prieuré, sa vie administrative et religieuse ont fait l’objet de plusieurs travaux. Nous avons donc préféré n’étudier que les aspects moins connus de l’histoire de Saint-Martin-des-Champs : expansion territoriale et fondation des filiales jusqu’au <num>xiii<hi rend="sup">e</hi></num> siècle, désastres de la guerre de Cent ans, état des revenus au xvi<hi rend="sup">e</hi> siècle. Sur le plan de la vie religieuse, un chapitre a été consacré aux tentatives de réforme à partir de 1500.</p>
-        <div>
+        <div xml:id="r935819">
           <head rend="uc">Chapitre premier
            <lb/>les grandes étapes et les aspects économiques de la
            <lb/>formation du temporel</head>
@@ -90,12 +88,12 @@
           <p><hi rend="i">La justice et l’administration.</hi> – Henri I<hi rend="sup">er</hi> accorde l’immunité fiscale au monastère et à ses possessions, dont les habitants, ceux de Pontoise exceptés, sont dispensés par Louis VI des charges militaires. Le monastère a cour de justice, auditoire, geôle et pilori. La haute et la basse justices s’exercent dans son enclos, sur tout le bourg Saint-Martin et sur partie de son domaine. Les fourches patibulaires sont aux environs de Paris, à Sevran, Noisy, Bondy, Annet, où des officiers laïques, les maires ou prévôts, exercent la justice dès la fin du <num>xii<hi rend="sup">e</hi></num> siècle. Ces maires sont aussi des administrateurs locaux.</p>
           <p><hi rend="i">L’organisation interne.</hi> – Mentionné dès 1097, le chambrier est le premier officier du monastère. Après lui viennent le cellerier, le sacristain, l’hôtelier et l’infirmier ; le sous-prieur, le chantre et le sous-chambrier ont un rôle subalterne. Tous ces offices apparaissent dès les premières années du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r935948">
           <head rend="uc">Chapitre II
            <lb/>Misère et décadence pendant la guerre de cent ans</head>
           <p>En 1318, le prieuré de Saint-Martin-des-Champs prospère et la communauté compte soixante-dix religieux. Un demi-siècle plus tard, leur nombre a diminué de moitié et ils ont cessé d’observer la règle ; les bâtiments, déjà détériorés, souffrent beaucoup du séjour d’une garnison royale en 1380. En 1386, les réparations sont évaluées à plus de sept mille francs et le monastère connaît une misère affreuse. Les prieurs Foulques de Blandes et Jean Alvernas rétablissent la discipline et font faire les travaux les plus urgents. En 1410, cinquante-deux moines vivent à Saint-Martin-des-Champs, mais vingt seulement en 1434. Les prieurés dépendants, réduits parfois au quart de leurs effectifs ou bien désertés, subsistent à l’état de ruines. Le début du <num>xv<hi rend="sup">e</hi></num> siècle voit se dessiner un grand effort de restauration spirituelle et temporelle dans toutes les filiales, tandis que la maison mère végète. Une des raisons essentielles de sa décadence est l’absentéisme des prieurs commendataires ; les administrateurs perpétuels qu’ils nomment mettent au pillage les revenus conventuels. Lorsque la façade de l’église s’écroule, en 1455, les religieux envoient un des leurs à Bourges, auprès de Charles VII ; sur leur requête, le roi finance la reconstruction et prête son maître d’œuvres, Jean James.</p>
         </div>
-        <div>
+        <div xml:id="r935966">
           <pb source="https://nakala.fr/10.34847/nkl.65a55vpl#df196397f3b0374b633380d10b4e55fe3a662b21" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.65a55vpl/df196397f3b0374b633380d10b4e55fe3a662b21/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le prieuré et ses dépendances aux xvi<hi rend="sup">e</hi> et <num>xvii<hi rend="sup">e</hi></num> siècles :
@@ -106,12 +104,12 @@
           <p><hi rend="i">La décadence du temporel.</hi> – La déclaration du temporel de 1532 montre le faible rapport des domaines, affermés et morcelés ; souvent plus coûteux que rentable, l’exercice de la justice a cessé en plusieurs endroits. Par manque de ressources, les religieux laissent tomber en ruine les bâtiments de leurs hôtels seigneuriaux. Pendant tout le <num>xvii<hi rend="sup">e</hi></num> siècle ils sont en procès avec leurs prieurs commendataires, qui refusent de faire faire à leurs frais les réparations nécessaires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r936051">
         <pb source="https://nakala.fr/10.34847/nkl.65a55vpl#6d1342691045f8aea76cfc429c314c0645db9d58" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.65a55vpl/6d1342691045f8aea76cfc429c314c0645db9d58/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les bâtiments du prieuré
          <lb/>avant leur reconstruction au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r936072">
           <head rend="uc">Chapitre premier
            <lb/>l’église</head>
           <p><hi rend="i">L’église du <num>xi<hi rend="sup">e</hi></num> siècle.</hi> – Une absidiole voûtée en berceau, arrondie à l’est en cul-de-four, a été dégagée en 1913 ; accolée au mur sud du déambulatoire du <num>xii<hi rend="sup">e</hi></num> siècle, elle est l’unique vestige de l’église consacrée en 1070.</p>
@@ -119,18 +117,18 @@
           <p><hi rend="i">La nef du <num>xiii<hi rend="sup">e</hi></num> siècle.</hi> – Grande halle à charpente apparente construite dans la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, la nef est sans grand intérêt archéologique. Les appuis des fenêtres ont été relevés de 0,80 mètre au <num>xix<hi rend="sup">e</hi></num> siècle et la charpente est moderne. Sur la nef s’élevait une flèche gothique, qui existait encore au <num>xvii<hi rend="sup">e</hi></num> siècle. La façade primitive demeure inconnue.</p>
           <p><hi rend="i">Le mobilier de l’église,</hi> – L’église devait être entièrement peinte. Une Descente de croix, aujourd’hui disparue, était signalée au siècle dernier sur un pilier à l’entrée du chœur. A la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, le nef fut lambrissée et décorée de tableaux peints par Jouvenet. La tribune d’orgues, œuvre des environs de 1620, s’élevait au-dessus de l’entrée principale. Le chœur des moines débordait sur une partie de la nef ; sa clôture et ses stalles de menuiserie, <pb source="https://nakala.fr/10.34847/nkl.65a55vpl#37c300a60582cad8adbb5fdcf66d56ac8950d64d" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.65a55vpl/37c300a60582cad8adbb5fdcf66d56ac8950d64d/full/full/0/default.jpg"/>sculptées par Jean Morel en 1511, étaient célèbres. Elles furent refaites en même temps que le maître-autel, reconstruit à partir de 1624 d’après le dessin de François Mansart et orné d’un tableau représentant la Circoncision. Au milieu du chœur se trouvait un pupitre de cuivre, en forme d’aigle, du début du <num>xv<hi rend="sup">e</hi></num> siècle ; des tapisseries de la vie de saint Martin faisaient le tour du chœur ; le clocher aussi était décoré de tapisseries. Chaque chapelle avait son autel, où plusieurs confréries célébraient leurs offices ; celle de Notre-Dame-de-Toute-Joie s’employa à décorer la chapelle d’axe. Deux autres autels adossés à la clôture du chœur furent construits face à la nef en 1683.</p>
         </div>
-        <div>
+        <div xml:id="r936164">
           <head rend="uc">Chapitre II
            <lb/>Les bâtiments autour du grand cloître</head>
           <p>Les lieux claustraux s’étendaient au nord de l’église, comme à Saint-Germain-des-Prés ou à Saint-Bénigne de Dijon. Il ne reste aucun vestige du grand cloître, probablement reconstruit au <num>xiii<hi rend="sup">e</hi></num> siècle, en même temps que la nef et le réfectoire. Les plans indiquent une alternance de colonnettes jumelées et de piles fasciculées ; l’angle nord-ouest était occupé par le lavabo et par le timbre de pierre qui servait à annoncer les repas. Le réfectoire, parallèle à l’église, bordait le cloître au nord. L’analyse archéologique invite à dater cet élégant bâtiment d’avant 1250. La parenté stylistique de son portail avec ceux de la chapelle de la Vierge à Saint-Germain-des-Prés et à Saint-Germain-en-Laye suffit-elle à justifier la tradition qui attribue à Pierre de Montreuil la construction du réfectoire ? Derrière lui, les cuisines et leurs dépendances, lavoir, four, blutterie, ainsi que l’hôtellerie donnaient sur une cour au nord.</p>
           <p>L’aile des bâtiments qui bordait le cloître à l’est regroupait l’essentiel des lieux claustraux : la sacristie, la salle du chapitre, le mortuaire et l’école de grammaire et de théologie. Au-dessus se trouvaient les dortoirs, construits par Henri I<hi rend="sup">er</hi> et refaits au début du xvi<hi rend="sup">e</hi> siècle ; leur escalier de pierre descendait directement dans le chœur de l’église. A l’angle nord-est se trouvait le chauffoir et le sartrain. L’aile occidentale du cloître, occupée par les caves, celliers et greniers, débouchait sur la petite cour des écuries et des étables, le long de la rue Saint-Martin.</p>
         </div>
-        <div>
+        <div xml:id="r936193">
           <head rend="uc">Chapitre III
            <lb/>Les bâtiments autour du petit cloître</head>
           <p>Le petit cloître, situé à l’est du grand cloître, était réservé aux novices, dont le dortoir faisait un angle droit avec celui des religieux prêtres. Son rez-de-chaussée comportait des salies d’étude et ses combles, depuis la seconde moitié du <num>xvii<hi rend="sup">e</hi></num> siècle, abritaient la bibliothèque. Le noviciat communiquait avec l’infirmerie. Située à l’écart selon l’usage, elle avait été plusieurs fois agrandie ou réparée depuis le début du <num>xiv<hi rend="sup">e</hi></num> siècle ; reconstruite après 1633, elle <pb source="https://nakala.fr/10.34847/nkl.65a55vpl#d8f2b5c5bed4368d15bffc6abdcca7e383a7db7d" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.65a55vpl/d8f2b5c5bed4368d15bffc6abdcca7e383a7db7d/full/full/0/default.jpg"/>servait de logement aux « anciens ». Les religieux malades suivaient les offices dans la chapelle de la Vierge ; située dans le prolongement de l’église, elle présentait dans son plan et dans son élévation des similitudes frappantes avec celle de Saint-Germain-des-Prés et avec la Sainte-Chapelle. On peut penser qu’elle fut bâtie à la même époque. À cheval sur le passage entre les deux cloîtres, la tour des archives dominait cet ensemble.</p>
         </div>
-        <div>
+        <div xml:id="r936222">
           <head rend="uc">Chapitre IV
            <lb/>Autour des lieux claustraux : jardins, cours, enceinte</head>
           <p>L’hôtel prieural, attenant à la chapelle et à l’infirmerie, donnait sur les jardins de la communauté, à la fois vergers, potagers et jardins d’agrément, qui s’étendaient au nord et à l’est. Deux grandes cours occupaient l’espace sud. Le tout était clos de murs d’enceinte munis de tours d’angle et d’échauguettes, qui dataient de 1273 environ.</p>
@@ -139,10 +137,10 @@
           <p>Dans la seconde cour se trouvaient la chapelle funéraire de Nicolas Arrode, construite vers le milieu du <num>xiii<hi rend="sup">e</hi></num> siècle, et le cimetière, qu’envahit peu à peu le jardin prieural au <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r936260">
         <head rend="uc">Troisième partie
          <lb/>Les grands travaux du <num>xviii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r936274">
           <head rend="uc">Chapitre premier
            <lb/>lotissement de l’enclos</head>
           <p>En 1712, la communauté, à la suite d’une transaction passée avec l’abbé de Lionne, prieur commandataire, fait dresser les plans des bâtiments à construire dans l’enclos et sur la rue Saint-Martin. Ils sont l’œuvre de Victor-Thierry Dailly, auteur également de maisons de rapport pour Saint-Germain-des-Prés et d’un projet de reconstruction du dortoir de Saint-Bénigne de Dijon. L’opération est en partie financée par les ventes des bois et de la seigneurie de Noisy-<pb source="https://nakala.fr/10.34847/nkl.65a55vpl#2602abc0ce7270d51af90917c5f5e405e2ff6444" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.65a55vpl/2602abc0ce7270d51af90917c5f5e405e2ff6444/full/full/0/default.jpg"/>le-Grand et par l’aliénation de la ferme de Monvilliers en Beauce ; l’autorisation royale est accordée par arrêt du Grand conseil du 8 juillet 1712.</p>
@@ -150,7 +148,7 @@
           <p>A l’intérieur de l’enclos, les maisons s’alignent en bordure d’une place terminée en hémicycle, la place de Justice. Les locataires sont des petits boutiquiers et des artisans.</p>
           <p>Le lotissement de l’enclos ne s’achève qu’avec la création d’un marché, par lettres patentes du 23 mars 1764. Conçu par l’architecte Dobilly, ce marché s’ouvre largement sur les rues voisines ; la rue Royale est percée jusqu’à la place de Justice, qui devient la place Royale. Les premiers baux des maisons de ce marché sont passés à la fin de l’année 1766. Les emplacements encore libres sont donnés à bâtir à des particuliers pendant les trente dernières années.</p>
         </div>
-        <div>
+        <div xml:id="r936300">
           <head rend="uc">Chapitre II
            <lb/>La reconstruction des bâtiments monastiques</head>
           <p>Plusieurs campagnes de reconstruction se succèdent au cours du siècle ; leur espacement dans le temps prouve l’épuisement des ressources. Un nouveau dortoir est commencé en 1702, en même temps que l’aile attenante du cloître, dont le comble en terrasse est déjà prévu lorsque le chapitre de Cluny ordonne, en 1708, la suspension des travaux jusqu’à complète liquidation des dettes. Mais en 1718 on travaille à nouveau aux trois autres côtés du cloître, le premier étant achevé ; le noviciat est déjà refait, le grand dortoir ne compte encore que quatorze chambres.</p>
@@ -162,13 +160,13 @@
         <head rend="uc">Pièces justificatives</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r936330">
         <head rend="uc">Pièces annexes</head>
         <p>1. Liste des prieurs de Saint-Martin-des-Champs.</p>
         <p>2. Liste des églises et des prieurés dépendants, avec un tableau comparatif des dates de donation et des noms des donateurs.</p>
         <p>3. Cartes des dépendances acquises aux <num>xi<hi rend="sup">e</hi></num> et <num>xii<hi rend="sup">e</hi></num> siècles, en France et en Angleterre.</p>
       </div>
-      <div>
+      <div xml:id="r936358">
         <head rend="uc">Albums de photographies et de planches</head>
         <p>Chaque dépendance fait l’objet d’une brève notice archéologique.</p>
       </div>

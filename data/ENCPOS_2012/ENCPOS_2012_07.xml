@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2012_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2012_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,18 +53,18 @@
         <surname>Deldicque</surname>
         <roleName>diplômé de master</roleName>
       </byline>
-      <div>
+      <div xml:id="r1528133">
         <head>Introduction</head>
         <p>Cette thèse a l’ambition de s’insérer dans le mouvement de redécouverte et de réhabilitation de la période artistique, partagée entre Moyen Âge et Renaissance, que constituent la fin du <num>xv<hi rend="sup">e</hi></num> siècle et le tout début du <num>xvi<hi rend="sup">e</hi></num> siècle : plus qu’une phase de transition, il s’agit d’un moment artistique à part entière, dans lequel de grands commanditaires, à l’instar de l’amiral de Graville, jouèrent un rôle non négligeable.</p>
         <p>Si l’artiste de l’époque et sa production sortent progressivement de l’ombre, le second acteur essentiel dans la genèse de l’œuvre d’art, le commanditaire, est encore mal cerné, notamment dans ses motivations, ses intérêts, ses partenaires, ses goûts et son rôle dans cette phase d’épanouissement artistique. L’étude de la commande artistique de l’amiral de Graville semblait ainsi tout indiquée.</p>
         <p>Issu d’une famille de noblesse militaire, Louis Malet de Graville fit partie de ces hommes auxquels la disparition progressive des grands féodaux ouvrit les portes du pouvoir et de la fortune. Conseiller de Louis XI, Charles VIII et Louis XII, amiral de France de 1487 à sa mort en 1516, il demeure une figure un peu oubliée, connue cependant par quelques œuvres qu’il commanda, telles que la <hi rend="i">Mise au Tombeau</hi> sculptée de Malesherbes ou ses riches manuscrits enluminés, qui auguraient d’un mécénat autrement plus développé.</p>
         <p>Il s’agit donc d’exhumer des pans entiers de la commande artistique de l’amiral demeurés dans l’ombre. Toutes les formes de l’activité artistique ont été étudiées : architecture, sculpture, enluminure, vitraux, menuiserie, tapisserie. Surtout, la commande artistique du personnage a été appréhendée dans sa totalité : en plus des œuvres et des édifices qui font l’originalité du mécénat de Louis Malet de Graville et témoignent de ses goûts personnels, a été prise en compte la commande qualifiée d’« ordinaire », ou de convenance sociale, souvent négligée par la recherche, que tout seigneur se devait d’assurer pour tenir son rang, mettre en valeur ses seigneuries, soutenir la vie religieuse des territoires qui étaient sous son contrôle, préparer sa mort et illustrer son lignage. Enfin, ce mécénat s’inscrivait dans un milieu et dans un réseau d’échanges entre commanditaires, ce qui permet de le mettre en perspective, d’en dégager les originalités et de poser la question de sa modernité.</p>
       </div>
-      <div>
+      <div xml:id="r1528167">
         <head>Sources</head>
         <p>À l’étude des édifices et des œuvres conservés s’est ajouté un travail de dépouillement d’archives. En plus des nombreuses minutes conservées dans le Minutier central des notaires parisiens des Archives nationales, sources les plus explicites pour ce travail, quelques documents tirés des séries J, KK, L, LL, MM, P, Q<hi rend="sup">1</hi>, S et T ont été mis à contribution. Le chartrier de Malesherbes, aujourd’hui aux Archives nationales (399 AP), comprend plusieurs comptes de seigneuries ayant appartenu à l’amiral qui ont été exploités, tout comme le fonds de la seigneurie de Marcoussis conservé aux archives départementales de l’Essonne (13 J) et celui du marquisat de Graville aux archives départementales de la Seine-Maritime (série A). Des documents conservés aux archives départementales d’Eure-et-Loir (testaments de l’amiral et de son épouse), à la médiathèque de l’architecture et du patrimoine, au département des Manuscrits et à celui des Estampes et de la Photographie de la Bibliothèque nationale de France complètent ce panorama.</p>
       </div>
-      <div>
+      <div xml:id="r1528180">
         <head>Chapitre liminaire <lb/>Nouveau regard sur la biographie de Louis Malet de Graville</head>
         <p>Il convenait en premier lieu de s’attacher à revoir, à la lumière des dernières recherches historiques, la biographie de Louis Malet de Graville, qui n’a pas fait l’objet d’étude depuis les travaux de Paul-Michel Perret publiés en 1889. Sa vie et sa carrière politique permettent en effet de mettre en perspective certains aspects de la commande artistique du personnage.</p>
         <p>Louis Malet de Graville était issu de deux prestigieuses lignées. La première, la famille Malet de Graville, originaire de Normandie, s’est illustrée depuis le <num>xiv<hi rend="sup">e</hi></num> siècle par le service de la Couronne. Par le mariage de son grand-père, Graville était également l’héritier du grand maître de l’hôtel de Charles VI, Jean de Montaigu, mis à mort en 1409 par les Bourguignons.</p>
@@ -74,9 +72,9 @@
         <p>À la mort de Louis XI, il devint un personnage incontournable pour les régents Anne et Pierre de Beaujeu par son soutien indéfectible, notamment lors de la Guerre Folle. Il en fut récompensé par la charge d’amiral de France obtenue en 1487. Pendant la guerre de Bretagne, il joua un rôle central, suivant au plus près les opérations et les dirigeant, aux côtés du jeune Charles VIII. Il devint dès lors le conseiller écouté du roi. Fort de son expérience, il s’opposa farouchement à la campagne italienne destinée à la reprise de l’héritage napolitain prônée par les jeunes conseillers du souverain. Il se vit donc confier la défense du royaume pendant l’absence du roi, et notamment des gouvernements de Normandie et de Picardie, alors sous la menace des Impériaux. L’échec de l’expédition transalpine le replaça au centre du jeu, mais la mort soudaine de Charles VIII mit un terme à son retour en grâce.</p>
         <p>Louis Malet de Graville avait été l’un des ennemis intimes du duc d’Orléans, devenu roi sous le nom de Louis XII. Mais, s’il fut écarté du Conseil royal, c’était en sa qualité d’ancien serviteur de Louis XI ; l’alliance matrimoniale qui le liait à Georges d’Amboise (sa fille Jeanne avait épousé le neveu du cardinal, Charles II d’Amboise) garantissait son maintien en charge. En 1504, après la disgrâce du maréchal de Gié, il fut appelé à le remplacer dans le maniement des finances. Il mourut le 30 octobre 1516.</p>
       </div>
-      <div>
+      <div xml:id="r1528209">
         <head>Première partie <lb/>Les devoirs d’un grand seigneur foncier</head>
-        <div>
+        <div xml:id="r1528216">
           <head>Première section <lb/>La commande du seigneur au sein de ses domaines</head>
           <div>
             <head>Chapitre premier <lb/>Les cadres de la commande d’un grand seigneur foncier</head>
@@ -96,7 +94,7 @@
             <p>Deux autres châteaux tiennent une place importante dans le maillage castral mis en place par l’amiral. Le château ancestral de Graville tout d’abord, en Normandie, qui connut des travaux de réparations commandés par les parents de l’amiral, poursuivis <hi rend="i">a minima</hi> par ce dernier, qui ne fréquentait que sporadiquement la demeure et qui transforma le donjon en prison. Le château de Milly-la-Forêt, situé non loin de celui de Malesherbes, fut davantage l’objet de ses attentions : le seul compte conservé signale des travaux entrepris au donjon, mais les vestiges monumentaux, notamment le châtelet d’entrée brique et pierre, attribuable aux années 1500, indique des travaux de grande ampleur en lien avec les dernières nouveautés du temps.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1528280">
           <head>Deuxième section <lb/>Œuvrer pour l’Église ou les devoirs d’un pieux seigneur</head>
           <div>
             <head>Chapitre premier <lb/>Au cœur d’un large mouvement de reconstruction d’églises</head>
@@ -118,9 +116,9 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1528352">
         <head>Deuxième partie <lb/>Une commande personnelle d’exception</head>
-        <div>
+        <div xml:id="r1528359">
           <head>Première section <lb/>Du palais à l’oratoire, en passant par la bibliothèque : la commande personnelle de Louis Malet de Graville</head>
           <div>
             <head>Chapitre premier <lb/>Le grand officier et son roi</head>
@@ -140,7 +138,7 @@
             <p>Cette spiritualité exigeante se traduisit dans sa commande artistique et cette influence est tout à fait remarquable. Certains motifs iconographiques, centrés sur la Passion, ou son goût pour des matériaux assez frustres en découlent. C’est dans cette optique que la <hi rend="i">Mise au tombeau</hi> destinée à la chapelle castrale de Malesherbes a été reconsidérée comme un témoin de sa piété. La découverte de la tête de la <hi rend="i">Vierge de Pitié</hi> qui l’accompagnait a permis de mettre en perspective cette œuvre et de revaloriser la manière de son sculpteur, Adrien Wincart.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1528423">
           <head>Deuxième section <lb/>Le réseau et l’homme</head>
           <div>
             <head>Chapitre premier <lb/>Une famille d’amateurs d’art</head>
@@ -164,22 +162,22 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1528493">
         <head>Conclusion</head>
         <p>Louis Malet de Graville apparaît comme l’un des grands commanditaires du royaume autour des années 1500. Sa fortune et sa condition lui imposaient une certaine obligation d’ostentation et de largesse, en bref une commande artistique de convenance sociale. Il fut ainsi un important acteur du formidable mouvement de reconstruction de royaume qui suivit, avec un certain décalage, la fin de la guerre de Cent Ans. En tant que l’un des plus puissants personnages du royaume, il dut mener grand train, reconstruire les seigneuries familiales et veiller sur les âmes de sa lignée et de ses censitaires.</p>
         <p>Parallèlement, une certaine sensibilité artistique et des goûts propres sont apparus. Son soutien au mouvement de la réforme religieuse et l’influence de celle-ci, non seulement sur sa piété, mais également sur sa commande, en sont les caractéristiques majeures. Le goût pour la lecture et les riches productions enluminées d’origine parisienne en est une autre.</p>
         <p>Outre la découverte d’œuvres et d’édifices inédits, l’étude monographique de la personnalité d’un commanditaire et de tous les aspects de son mécénat a permis d’approfondir la connaissance des œuvres existantes, en les mettant en perspective entre elles ou avec d’autres productions issues de la commande de partenaires de l’amiral. Tout un réseau de commanditaires est ainsi apparu.</p>
         <p>Sa commande artistique demeure originale. Il fut, non pas tiraillé entre Flandre et Italie, à l’instar de bon nombre de ses contemporains, mais entre luxe et austérité : le seigneur et le courtisan se devaient d’être fastueux, l’homme se voulait simple et pieux. En somme, Graville relevait plutôt du Moyen Âge par ses goûts, mais était déjà un homme de la Renaissance par ses attitudes de commanditaire.</p>
       </div>
-      <div>
+      <div xml:id="r1528511">
         <head>Pièces justificatives</head>
         <p>Édition de trente-deux documents : testaments, marchés, inventaires, comptes, lettres, délibérations capitulaires.</p>
       </div>
-      <div>
+      <div xml:id="r1528520">
         <head>Catalogue des manuscrits</head>
         <p>Liste des ouvrages ayant fait partie de la bibliothèque de Louis Malet de Graville et de Marie de Balsac. — Notices complètes des trente et un manuscrits conservés avec datation, attribution, commentaire historique et stylistique, reproductions.</p>
       </div>
-      <div>
+      <div xml:id="r1528529">
         <head>Annexes</head>
         <p>Dossier iconographique : planches réparties par édifices et type d’objets. — Généalogies. — Cartes. — Index des noms de personnes et de lieux.</p>
       </div>

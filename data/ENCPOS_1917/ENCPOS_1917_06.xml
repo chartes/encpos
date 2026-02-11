@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1917_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1917_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -68,24 +66,24 @@
          <lb/>liste des principales ordonnances sur l’arrière-ban</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r383800">
         <head rend="uc">Première partie
          <lb/>Nature du service</head>
         <p>I. <hi rend="i">Signification des termes.</hi> – Les différentes significations des mots « ban » et « arrière-ban ». Du <num>xv<hi rend="sup">e</hi></num> au <num>xviii<hi rend="sup">e</hi></num> siècle, le « ban et l’arrière-ban » ou, plus simplement « l’arrière-ban », est le service dû au roi par les possesseurs de fiefs et d’arrière-fiefs.</p>
         <p>II. <hi rend="i">Caractère de l’arrière-ban</hi>. – Au <num>xv<hi rend="sup">e</hi></num> et au XVI<hi rend="sup">e </hi>siècle, le service est dû par la terre noble. Au <num>xvii<hi rend="sup">e</hi></num> siècle, l’obligation est personnelle pour les nobles, réelle pour les roturiers possesseurs de fiefs.</p>
         <p>Les devoirs des puînés, des douairières, des usufruitiers, des possesseurs de rentes inféodées ou de francs-alleux.</p>
       </div>
-      <div>
+      <div xml:id="r383854">
         <pb source="https://nakala.fr/10.34847/nkl.ba3fp251#c4fcbab44f94fc9d47f90512083a38858b4cb11d" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.ba3fp251/c4fcbab44f94fc9d47f90512083a38858b4cb11d/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Fonctionnement du service</head>
-        <div>
+        <div xml:id="r383867">
           <head rend="uc">Chapitre premier
            <lb/>la convocation</head>
           <p>1. <hi rend="i">Modes de convocation</hi>. – Au <num>xv<hi rend="sup">e</hi></num> siècle, un chambellan ou un maître d’hôtel est souvent chargé de faire la convocation. A partir de 1544, l’ordre de convocation est transmis par le capitaine général. Au <num>xvii<hi rend="sup">e</hi></num> siècle, la convocation se fait par lettres patentes et lettres closes au bailli, au lieutenant général ou à l’intendant.</p>
           <p>2. <hi rend="i">Nombre des convocations.</hi> – 440 convocations particulières et 44 générales en 313 ans. Inégale répartition des convocations suivant les provinces : les provinces maritimes sont particulièrement chargées. Convocations partielles du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r383908">
           <head rend="uc">Chapitre II
            <lb/>La déclaration</head>
           <p>La déclaration est le seul moyen d’obtenir une assiette équitable du service.</p>
@@ -93,7 +91,7 @@
           <p>2. <hi rend="i"><num>xvi<hi rend="sup">e</hi></num> siècle.</hi> – On abandonne le projet ; les abus continuent. – – François I<hi rend="sup">er</hi> ordonne une déclaration estimative et détaillée ; règlements de 1540, 1542, 1543, 1547. – Mais les estimations sont dispersées, tardives <pb source="https://nakala.fr/10.34847/nkl.ba3fp251#4adff2e088cf216010331e7375e3b994e418e219" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.ba3fp251/4adff2e088cf216010331e7375e3b994e418e219/full/full/0/default.jpg"/>et, la plupart du temps, inexactes : le roi doit ordonner de nouvelles déclarations ou relever le taux du service. – Essais infructueux d’Henri II en 1553 : les procès-verbaux des élus ; le projet Sevyn.</p>
           <p>3. <hi rend="i">XVII</hi><hi rend="sup">e</hi><hi rend="i">siècle.</hi> – La déclaration est reçue à la première montre ou peu de temps auparavant au greffe civil du bailliage ou de la sénéchaussée.</p>
         </div>
-        <div>
+        <div xml:id="r383966">
           <head rend="uc">Chapitre III
            <lb/>La « montre »</head>
           <p>1. <hi rend="i">La montre au XV</hi><hi rend="sup">e</hi><hi rend="i">siècle.</hi> – Les « commissaires à la montre » : ce sont souvent des chambellans ou des maîtres d’hôtel du roi, parfois les baillis ou leurs lieutenants.</p>
@@ -104,7 +102,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.ba3fp251#7d6ad10c0b33ee916602cd6c8d12433beb9d3bfd" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.ba3fp251/7d6ad10c0b33ee916602cd6c8d12433beb9d3bfd/full/full/0/default.jpg"/>
           <p><hi rend="i">Appendice</hi>. – 1. Les défaillants et retardataires, – 2. Les rôles des montres. – 3. Le caractère des montres ; elles ne fièrent jamais périodiques,</p>
         </div>
-        <div>
+        <div xml:id="r384040">
           <head rend="uc">Chapitre IV
            <lb/>Les différentes formes du service</head>
           <div>
@@ -120,7 +118,7 @@
             <p>3. Nouvel essai de conversion en 1639 : réclamations des gentilshommes ; l’arrière-ban est désormais à cheval.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r384124">
           <pb source="https://nakala.fr/10.34847/nkl.ba3fp251#e3298f446eaa3226638953d0816873f1474b0aa6" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.ba3fp251/e3298f446eaa3226638953d0816873f1474b0aa6/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Service personnel, remplacement, excuses.</head>
@@ -128,13 +126,13 @@
           <p>2. <hi rend="i">Le roturier possesseur de fief.</hi> – S’il est « suffisant » et « habile », il est admis d’habitude au service personnel, sauf en Quercy et en Champagne. – Le plus souvent il préfère contribuer : roturier et inhabile ne font qu’un ; on les donne en « aide » aux gentilshommes pauvres.</p>
           <p>3. <hi rend="i">Les excusés</hi> : femmes, mineurs, malades, vieillards.</p>
         </div>
-        <div>
+        <div xml:id="r384163">
           <head rend="uc">Chapitre VI
            <lb/>La contribution</head>
           <p>1. <hi rend="i">Le taux.</hi> – Il est très variable. – Dans la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle : de 12 à 15 °/0 du revenu du fief pour les nobles, de 15 à 20 °/0 pour les roturiers. – Unification du taux en 1555. – Dans la seconde moitié du <num>xvi<hi rend="sup">e</hi></num> siècle il atteint le 1/5 du revenu. – Partialité et caprice des gens de la montre. – Projet La Noue.</p>
           <p>2. <hi rend="i">Le paiement.</hi> – On a beaucoup de peine à l’obtenir. Il est fait, dans chaque bailliage ou sénéchaussée, à un trésorier élu par les convoqués. – Malversations des commis de ces trésoriers improvisés. – Louis XIV exige que le gentilhomme commis aux deniers fasse lui-<pb source="https://nakala.fr/10.34847/nkl.ba3fp251#055396ab91be04a66d360e6f2270b2ce7bc59cf1" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.ba3fp251/055396ab91be04a66d360e6f2270b2ce7bc59cf1/full/full/0/default.jpg"/>même la recette. – La reddition des comptes. – Le reliquat : son emploi.</p>
         </div>
-        <div>
+        <div xml:id="r384203">
           <head rend="uc">Chapitre VII
            <lb/>Les exemptions</head>
           <p>Les exemptions sont fort nombreuses pour la période qui nous intéresse.</p>
@@ -148,7 +146,7 @@
           <p><hi rend="i">Appendice.</hi> – – Les exemptions personnelles ; exemptions frauduleuses. – Les remèdes : plus grande sévérité dans les certificats et révocations générales.</p>
           <p><hi rend="i">Conclusion.</hi> – Le grand nombre des exemptions fait porter la plus grosse partie de la charge de l’arrière-ban sur la noblesse de province, généralement pauvre et sans protecteurs.</p>
         </div>
-        <div>
+        <div xml:id="r384277">
           <pb source="https://nakala.fr/10.34847/nkl.ba3fp251#d8a6e9a48460421c94cc684d95367c4d55b4c318" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.ba3fp251/d8a6e9a48460421c94cc684d95367c4d55b4c318/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VIII
            <lb/>Le commandement</head>
@@ -164,7 +162,7 @@
             <p>2. <hi rend="i">Les officiers au <num>xvii<hi rend="sup">e</hi></num> et au <num>xviii<hi rend="sup">e</hi></num> siècle.</hi> – Pas de modifications essentielles au <num>xvii<hi rend="sup">e</hi></num> siècle : le sous-lieutenant. – La solde. – – Organisation d’un état-major véritable au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r384384">
           <head rend="uc">Chapitre IX
            <lb/>La troupe</head>
           <p>1. <hi rend="i"><num>xv<hi rend="sup">e</hi></num> siècle.</hi> – L’effectif de la compagnie varie entre 100 et 500 hommes.</p>
@@ -173,21 +171,21 @@
           <p>3. <hi rend="i"><num>xvii<hi rend="sup">e</hi></num> siècle.</hi> – Organisation en « escadrons ». L’escadron comprend 4 « brigades », la brigade 2 « divisions ».</p>
           <p>La préséance des compagnies d’arrière-ban. – Les étendards.</p>
         </div>
-        <div>
+        <div xml:id="r384437">
           <head rend="uc">Chapitre X
            <lb/>La durée du service. La vie en campagne.</head>
           <p>1. <hi rend="i">La durée du service.</hi> – Son irrégularité au <num>xv<hi rend="sup">e</hi></num> s. – Unification en 1542 : 3 mois dans le royaume, 40 jours hors des frontières. – Suppression en 1548 du service hors des frontières.</p>
           <p>2. <hi rend="i">La vie en campagne.</hi> – Les compagnies ne doivent pas se débander et piller « le bonhomme ». Les vivres sont fournis au taux des ordonnances. – Les excès sont jugés par le tribunal des Maréchaux de France.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r384467">
         <head rend="uc">Troisième partie
          <lb/>Les organisations particulières</head>
-        <div>
+        <div xml:id="r384475">
           <head rend="uc">§ I. – Bretagne.</head>
           <p>Les montres bretonnes à la fin de l’époque ducale. – Les capitaines. – M. Du Garo capitaine général en 1580. – La décadence de l’arrière-ban est moins accentuée en Bretagne que dans les autres provinces, peut-être à cause du remplacement par gentilshommes.</p>
         </div>
-        <div>
+        <div xml:id="r384485">
           <head rend="uc">§ II. – Normandie.</head>
           <p>Organisation toute spéciale de cette province. – Dès le <num>xv<hi rend="sup">e</hi></num> siècle on trouve un capitaine général de l’arrière-<pb source="https://nakala.fr/10.34847/nkl.ba3fp251#3a89a910fceec31132c33ae552933ad709656d89" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.ba3fp251/3a89a910fceec31132c33ae552933ad709656d89/full/full/0/default.jpg"/>ban de Normandie (Jean Blosset, 1478). – Organisation définitive par ordonnance d’août 1556.</p>
           <p>1. <hi rend="i">L’état-major général.</hi> – Le capitaine général est choisi par le Roi parmi les gentilshommes de Normandie. – Le maréchal des logis général. – – Leurs gages sont proportionnés à l’effectif.</p>
@@ -196,7 +194,7 @@
           <p><hi rend="i">Conclusion.</hi> – • Les capitaines peuvent retenir les gentilshommes qui leur paraissent particulièrement propres au service : c’est une des raisons de la réelle valeur des arrière-bans de Normandie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r384533">
         <head rend="uc">Conclusion</head>
         <p>Si l’arrière-ban n’a pas la solidité des troupes régulières, son contingent n’est pas à dédaigner. Il servit sur les champs de bataille, garda les frontières, protégea les côtes et prêta main-forte à la justice civile. La fréquence des convocations et les nombreux essais de réorganisation dont il fut l’objet suffisent à prouver quelle importance le roi attachait au service de la noblesse.</p>
       </div>

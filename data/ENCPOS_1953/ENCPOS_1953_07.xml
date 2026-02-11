@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1953_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1953_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,41 +55,41 @@
         <forename>Pierre</forename>
         <surname>Gasnault</surname>
       </byline>
-      <div>
+      <div xml:id="r746346">
         <head rend="uc">Chapitre préliminaire
          <lb/>histoires consacrées a Saint-Martin de tours</head>
         <p>Parmi les histoires écrites avant la Révolution, seule l’histoire de Raoul Monsnyer, continuée par Michel Vincent, tous deux chanoines de Saint-Martin, mérite d’être retenue. Mais elle est restée en partie manuscrite. De nos jours, il faut signaler l’ouvrage du chanoine Vaucelle. Mais la critique des sources n’a pas encore été entreprise avec assez de rigueur.</p>
       </div>
-      <div>
+      <div xml:id="r746358">
         <head rend="uc">Première partie
          <lb/>Le chartrier</head>
-        <div>
+        <div xml:id="r746366">
           <head rend="uc">Chapitre premier
            <lb/>histoire.</head>
           <p>Mentionné dès le début du <num>ix<hi rend="sup">e</hi></num> siècle, le dépôt d’archives de Saint-Martin de Tours fut ruiné en partie par les invasions normandes. Les premiers travaux de classement datent du <num>x<hi rend="sup">e</hi></num> siècle et, pendant tout le Moyen Age, les chanoines veillèrent à la conservation de leurs archives. Le répertoire rédigé en 1541 par François Courtin était une œuvre importante ; mais les guerres de religion désorganisèrent le chartrier pour un demi-siècle. Au <num>xvii<hi rend="sup">e</hi></num> siècle et dans la première moitié du <num>xviii<hi rend="sup">e</hi></num>, les archives furent consultées et copiées par de nombreux érudits (Bignon, Besly, A. Duchesne, dom Le Michel, dom Lesueur, J. Bouhier, Gaignières, et surtout Baluze). Les archivistes que le chapitre entretint à ses gages à partir de 1733 exécutèrent d’importants travaux de classement et d’inventaire. <pb source="https://nakala.fr/10.34847/nkl.89283q8f#40c15d558508cdc93369313ab2dc99b21c414a73" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.89283q8f/40c15d558508cdc93369313ab2dc99b21c414a73/full/full/0/default.jpg"/> Mais la Révolution ruina le chartrier. Il n’en reste plus aujourd’hui que des épaves.</p>
         </div>
-        <div>
+        <div xml:id="r746407">
           <head rend="uc">Chapitre II
            <lb/>Les documents.</head>
           <p>Le cartulaire le plus ancien était la <hi rend="i">pancarte noire.</hi> Rédigé entre 1131 et 1143, peut-être par Pierre Béchin, il comprenait la copie d’environ cent cinquante actes, le plus ancien étant la bulle du pape Adéodat (672-676). Les chartes des <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles avaient été transcrites dans la <hi rend="i">pancarte rouge</hi> et dans la <hi rend="i">pancarte blanche.</hi> Les registres capitulaires et le rituel de Péan Gatineau. Tous ces documents ont été brûlés à la Révolution et il n’en reste que des copies du <num>xvii<hi rend="sup">e</hi></num> et du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r746456">
         <head rend="uc">Deuxième partie
          <lb/>Étude diplomatique</head>
-        <div>
+        <div xml:id="r746464">
           <head rend="uc">Chapitre premier
            <lb/>les diplômes royaux.</head>
           <p><hi rend="i">Caractères de la rédaction.</hi> – Dès le règne de Louis le Pieux, la plupart des diplômes destinés à Saint-Martin étaient rédigés par les chanoines eux-mêmes, ce qui permet d’expliquer certaines particularités (reprise des mêmes formules, juxtaposition de dispositions étrangères, style recherché), voire certaines irrégularités (invocation et suscription fautives) de ces actes.</p>
           <p><hi rend="i">Les tentatives de faux et les faux.</hi> – Le diplôme de Charles le Gros du 22 août 886, lui-même sincère, fait allusion à un privilège de Nicolas I<hi rend="sup">er </hi>et à un acte du concile de Pitres. Ces deux actes sont des faux rédigés vraisemblablement pour écarter l’abbé de l’administration des biens dévolus à l’entretien des chanoines. Les trois diplômes de confirmation de l’immunité intitulés au nom de Charles le Simple sont des faux (irrégularités diplomatiques, erreurs historiques). Ils insistent sur les obligations incombant aux détenteurs des biens de l’abbaye et rappellent au roi de France qu’il est, en tant qu’abbé, défenseur des biens de Saint-Martin. On peut y rattacher les bulles fausses de Léon III et de Serge III, qui tendent à assurer le paiement des dîmes et des nones.</p>
         </div>
-        <div>
+        <div xml:id="r746489">
           <head rend="uc">Chapitre II
            <lb/>Les privilèges ecclésiastiques.</head>
           <p>Sous l’impulsion de la reine Bathilde, des moines réguliers furent intro<pb source="https://nakala.fr/10.34847/nkl.89283q8f#ddeb21946acdab8f9cdf32beb00f30ac768c84b1" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.89283q8f/ddeb21946acdab8f9cdf32beb00f30ac768c84b1/full/full/0/default.jpg"/>duits à Saint-Martin de Tours vers 650. L’évêque de Tours, Chrodebert, leur accorda un privilège d’émancipation, aujourd’hui perdu. Ce privilège fut confirmé par le pape Adéodat (672-676) et renouvelé par l’évêque de Tours, Ibbon (703-711). Ces deux actes peuvent être considérés comme sincères ; car toutes leurs dispositions sont semblables à celles des privilèges épiscopaux contemporains. Lorsque, au début du <num>ix<hi rend="sup">e</hi></num> siècle, l’élément monacal eut été évincé complètement par l’élément clérical, la situation du monastère vis-à-vis de l’archevêque de Tours demeura inchangée.</p>
           <p>Au <num>xi<hi rend="sup">e</hi></num> siècle, la question de l’exemption fut liée à celle de l’évêque monastique. L’acte du concile de Tusey, le privilège d’Adrien I<hi rend="sup">er</hi> et le privilège de Grégoire V, qui confirment l’exemption du monastère de Saint-Martin et lui attribuent un évêque monastique, sont des faux rédigés vers 1083, à la suite du conflit violent qui opposa, en 1081, les chanoines à l’archevêque de Tours, Raoul I<hi rend="sup">er</hi> de Langeais, et au légat pontifical, Amat d’Oloron. Une bulle sincère d’Adrien I<hi rend="sup">er</hi> pour Saint-Denis a servi de modèle au faussaire. En 1096, le pape Urbain II plaça les chanoines de Saint-Martin sous la protection du Saint-Siège et les bulles pontificales du <num>xii<hi rend="sup">e</hi></num> siècle nous les présentent comme exempts de la juridiction de l’archevêque de Tours. Les bulles d’Urbain II du 14 mars et du 29 mars 1096 sont des faux composés à l’extrême fin du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r746545">
           <head rend="uc">Chapitre III
            <lb/>Les actes privés.</head>
           <p>Au <num>ix<hi rend="sup">e</hi></num> siècle, quelques actes sont rédigés en dehors de Saint-Martin par des personnages intitulés <hi rend="i">amanuensis, notarius</hi> ou <hi rend="i">dominicus cancellarius.</hi> A Saint-Martin, la rédaction des actes était assurée par l’écolâtre ou par son secondicier. L’écolâtre se qualifie aussi de <hi rend="i">cancellarius.</hi></p>

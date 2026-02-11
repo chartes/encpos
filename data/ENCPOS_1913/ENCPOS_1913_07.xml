@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1913_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1913_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,35 +65,35 @@
         <head rend="uc">Sources et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r367656">
         <head rend="uc">Première partie
          <lb/>Les officiers en recrue</head>
-        <div>
+        <div xml:id="r367664">
           <head rend="uc">Chapitre premier
            <lb/>l’organisation du recrutement par enrôlement</head>
           <p>Le recrutement des armées est assuré, pendant le quartier d’hiver, au moyen d’officiers désignés dans chaque régiment par le vote de leur camarades et chargés, avec quelques bas-officiers et soldats, d’enrôler des hommes, soit pour leurs seules compagnies, soit pour tout le corps.</p>
           <p>La revue du printemps. Récompenses accordées, sous forme « de payes de gratification », aux officiers qui présentent de bonnes compagnies. Expédient employé par certains d’entre eux ; « les passe-volants ».</p>
         </div>
-        <div>
+        <div xml:id="r367679">
           <pb source="https://nakala.fr/10.34847/nkl.b871f0kz#61328e41e533bb4bd9dd3752ed23be9277f29351" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.b871f0kz/61328e41e533bb4bd9dd3752ed23be9277f29351/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’enrôlement frauduleux</head>
           <p>Volontaire en principe, l’enrôlement ne l’est pas souvent en fait, car la misère seule détermine à embrasser la carrière des armes. Enrôlements singuliers : les femmes-soldats. L’absence de volontaires et la préoccupation de dépenser le moins d’argent possible vont pousser les officiers à user de procédés frauduleux pour se procurer des recrues : affiches mensongères, ivresse provoquée. Cas où le consentement des intéressés ne suffit pas à rendre valable un enrôlement : enrôlements d’enfants et d’écoliers.</p>
         </div>
-        <div>
+        <div xml:id="r367696">
           <head rend="uc">Chapitre III
            <lb/>L’enrôlement forcé</head>
           <p>Quand ils ne trouvent pas assez de volontaires, les officiers n’hésitent pas à enlever tous les hommes qu’ils rencontrent sur leur chemin, ou à les séquestrer. La séquestration se fait à leur domicile privé ou dans des « fours », aménagés <hi rend="i">ad hoc</hi>, où l’on attire les jeunes gens sous les prétextes les plus variés pour leur arracher leur consentement à force de mauvais traitements.</p>
           <p>Indulgence excessive du pouvoir pour les officiers coupables de ces fautes. L’émotion dans le peuple : séditions et émeutes.</p>
         </div>
-        <div>
+        <div xml:id="r367715">
           <head rend="uc">Chapitre IV
            <lb/>L’enrôlement des prisonniers</head>
           <p>L’insuffisance des engagements volontaires est telle que le Roi envoie souvent d’office à ses armées des individus détenus dans ses prisons, ou permet à ceux-ci de s’engager avec certains officiers d’honnêteté éprouvée.</p>
           <pb source="https://nakala.fr/10.34847/nkl.b871f0kz#2bc99f4cb7391a31e50ea5991fc711eb4bcb9454" n="53" facs="https://api.nakala.fr/iiif/10.34847/nkl.b871f0kz/2bc99f4cb7391a31e50ea5991fc711eb4bcb9454/full/full/0/default.jpg"/>
           <p>Conditions de ces enrôlements : autorisation accordée aux contrebandiers ou vagabonds, refusée aux prisonniers passibles des galères. Cependant en 1712, 1.500 forçats sont envoyés à l’armée d’Espagne.</p>
         </div>
-        <div>
+        <div xml:id="r367735">
           <head rend="uc">Chapitre V
            <lb/>Les enrôlements litigieux</head>
           <p>Un homme enrôlé par un officier est sa propriété exclusive et ne peut s’engager avec un autre officier avant d’avoir accompli son temps de service.</p>
@@ -103,10 +101,10 @@
           <p>« Le débauchage » des soldats, de régiment à régiment.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r367754">
         <head rend="uc">Deuxième partie
          <lb/>Les levées de milice</head>
-        <div>
+        <div xml:id="r367762">
           <head rend="uc">Chapitre premier
            <lb/>l’organisation du recrutement par incorporation
            <lb/>de miliciens</head>
@@ -115,20 +113,20 @@
           <pb source="https://nakala.fr/10.34847/nkl.b871f0kz#fd48714400063454f8658ee72b8e3006a7a0f370" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.b871f0kz/fd48714400063454f8658ee72b8e3006a7a0f370/full/full/0/default.jpg"/>
           <p>Rôle du Roi et des intendants dans la répartition annuelle du contingent. Les demandes d’exemptions présentées par les provinces.</p>
         </div>
-        <div>
+        <div xml:id="r367787">
           <head rend="uc">Chapitre II
            <lb/>Le tirage au sort</head>
           <p>Les miliciens sont recrutés par voie de tirage au sort ; attributions des intendants et de leurs subdélégués. Conditions à remplir pour tirer au sort ; les exemptés.</p>
           <p>Nombre énorme de réfractaires ; insuffisance des mesures prises pour remédier à l’insoumission.</p>
           <p>Abus engendrés par le tirage au sort.</p>
         </div>
-        <div>
+        <div xml:id="r367805">
           <head rend="uc">Chapitre III
            <lb/>L’assemblée et le départ des recrues</head>
           <p>Réunion des miliciens aux lieux d’assemblée, par les soins des magistrats municipaux. Après un conseil de révision, remise des hommes par l’autorité civile aux officiers des régiments ; les prétentions et le rôle de ces derniers. Départ des détachements, sous la surveillance d’escortes de maréchaussée ; les ravages de la désertion, favorisée d’ailleurs par l’incurie des officiers.</p>
           <p>Le remplacement des déserteurs ; les amnisties.</p>
         </div>
-        <div>
+        <div xml:id="r367820">
           <head rend="uc">Chapitre IV
            <lb/>Le remplacement à prix d’argent</head>
           <p>Les étapes, qui aboutissent à cette mesure adoptée en 1708 : achat de remplaçants ; « cotisation » des garçons d’un village en faveur du milicien ; levée des arts et métiers de 1701 ; vœux formulés par de nombreux intendants.</p>
@@ -136,11 +134,11 @@
           <p>Organisation défectueuse : retards dans les payements, énorme gaspillage d’argent.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r367844">
         <head rend="uc">Conclusion</head>
         <p>La multiplicité des mêmes faits à toutes les époques, sur tous les points du territoire, dans tous les régiments, montre une application défectueuse des systèmes de recrutement en vigueur ; toutefois il serait dangereux de généraliser des constatations résultant de documents qui nous conservent surtout le souvenir de faits anormaux.</p>
       </div>
-      <div>
+      <div xml:id="r367854">
         <head rend="uc">Photographies</head>
         <p>Affiches de recrutement.</p>
         <p>Mandements d’intendants.</p>

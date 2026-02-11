@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1940_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1940_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>Hélène</forename>
         <surname>Binet</surname>
       </byline>
-      <div>
+      <div xml:id="r603898">
         <head rend="uc">Introduction</head>
         <p>En rédigeant la biographie de Jean de Monluc, évêque de Valence et de Die, nous avons tenté d’apporter quelques précisions au problème que pose sa personnalité religieuse.</p>
       </div>
@@ -65,24 +63,24 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r603917">
         <head rend="uc">Première partie
          <lb/>Le diplomate</head>
-        <div>
+        <div xml:id="r603925">
           <head rend="uc">Chapitre premier
            <lb/>l’origine de Jean de Monluc
            <lb/>(1502 ?-1535).</head>
           <p>Jean de Monluc appartient à une famille gasconne <pb source="https://nakala.fr/10.34847/nkl.b749138a#f50848b220f82be6bf78620fbb635ad5cefbc6c2" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.b749138a/f50848b220f82be6bf78620fbb635ad5cefbc6c2/full/full/0/default.jpg"/>de vieille noblesse, mais dénuée de fortune. La date et le lieu de sa naissance sont incertains.</p>
           <p>Il entre dans l’ordre de Saint-Dominique et étudie le droit civil et canonique à l’Université de Toulouse, où il se lie d’amitié avec Boyssoné. Il fréquente la cour de Nérac et subit, peut-être, l’influence de Lefèvre d’Étaples. Il suit Marguerite de Navarre à Paris en 1533. Il assiste, là, aux prédications de Gérard Roussel et parachève, sans doute, sa formation d’humaniste auprès de maîtres favorables à la Réforme.</p>
         </div>
-        <div>
+        <div xml:id="r603947">
           <head rend="uc">Chapitre II
            <lb/>Les débuts dans la carrière diplomatique
            <lb/>(1535-1546).</head>
           <p>Envoyé à Rome en 1535 par Marguerite de Navarre, Jean de Monluc y reste. Il est engagé par le pape Paul III pour enseigner la théologie au collège de la Sapienza. A l’arrivée du cardinal du Bellay, il entre dans sa clientèle et, grâce à lui, il est chargé, en 1536, d’une mission dans le Levant. A son retour, il joue le rôle d’agent officieux entre la cour de France et les chancelleries italiennes. En 1538, il exerce un moment la charge d’ambassadeur de France à Rome. Jusqu’en 1540, il défend la politique et les intérêts de Montmorency auprès du Saint-Siège.</p>
           <p>En 1542, alors qu’il était dans l’entourage de François I<hi rend="sup">er</hi>, il est nommé ambassadeur à Venise. Devant le sénat vénitien, il prononce une harangue et s’occupe des affaires concernant le Milanais. Il est envoyé, en 1545, à Constantinople, de concert avec un <pb source="https://nakala.fr/10.34847/nkl.b749138a#37bd684f5fbd32933e5ec0bd134148d67b1aa549" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.b749138a/37bd684f5fbd32933e5ec0bd134148d67b1aa549/full/full/0/default.jpg"/>représentant de l’Empereur, pour demander une trêve au sultan. Il triomphe de nombreuses difficultés, mais ses intrigues le font accuser de trahison. Il se défend habilement. Une fois revenu à la Cour, il devient maître des requêtes de l’hôtel du Roi. En 1546, il prend part aux négociations du traité d’Ardres.</p>
         </div>
-        <div>
+        <div xml:id="r603973">
           <head rend="uc">Chapitre III
            <lb/>La candidature a l’épiscopat (1546-1553).</head>
           <p>Jean de Monluc, pour obtenir un évêché, se livre à des menées secrètes et multiplie les démarches en haut lieu. Client des Guise, il est leur agent en Italie, où il négocie le mariage de François d’Aumale et d’Anne d’Este en 1547. En 1549 et 1550, il est en Écosse auprès de la régente Marie de Lorraine.</p>
@@ -90,24 +88,24 @@
           <p>A cette époque, des rumeurs circulent sur sa vie privée et sur son orthodoxie : sa réputation est déjà compromise à Rome.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r603992">
         <pb source="https://nakala.fr/10.34847/nkl.b749138a#01250e8b22cc3475223b365f973dec57f32f134c" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.b749138a/01250e8b22cc3475223b365f973dec57f32f134c/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>L’évêque de Valence</head>
-        <div>
+        <div xml:id="r604005">
           <head rend="uc">Chapitre premier
            <lb/>l’hérésie dans le diocèse de Valence et de Die
            <lb/>avant 1553.</head>
           <p>Les évêchés de Valence et de Die sont entourés par des diocèses où l’hérésie a compté ses premiers adeptes. Eux-mêmes sont contaminés. L’attitude du clergé ne contribue guère à enrayer le développement des idées nouvelles. Le chef spirituel du diocèse, Jacques de Tournon, réside peu. La vigilance du vicaire général et des chapitres cathédraux et collégiaux est sans résultat. L’ensemble du clergé séculier et régulier est tombé dans un état de décadence qui le rend impuissant.</p>
           <p>Le pouvoir laïc n’est pas toujours hostile aux idées nouvelles.</p>
         </div>
-        <div>
+        <div xml:id="r604022">
           <head rend="uc">Chapitre II
            <lb/>Les débuts de l’épiscopat (1553-1557).</head>
           <p>Les bulles conférant l’évêché de Valence à Monluc sont données le 9 octobre 1553, la mainlevée du temporel est décrétée le 2 février 1554. L’évêque ne fait son entrée à Valence que le 2 avril 1555, mais, dans l’intervalle, il est entré en relations avec les consuls : il s’intéresse à l’Université de Valence et tente de ré<pb source="https://nakala.fr/10.34847/nkl.b749138a#27cc5905fcfe05f6112e81e0e880a28340cc2e7f" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.b749138a/27cc5905fcfe05f6112e81e0e880a28340cc2e7f/full/full/0/default.jpg"/>gler un différend entre ses fermiers et le conseil de ville.</p>
           <p>L’entrée donne lieu à des cérémonies symboliques qui mettent Monluc en possession de sa ville et de son évêché. Pendant son séjour, il entretient de bons rapports avec son chapitre. Il repart le 27 avril 1555. De loin, il reste le seigneur temporel qui correspond avec les consuls au sujet de l’Université et du péage. Il reste aussi le seigneur spirituel qui adresse à ses fidèles une épître sur la manière de faire des processions.</p>
         </div>
-        <div>
+        <div xml:id="r604042">
           <head rend="uc">Chapitre III
            <lb/>L’activité réformatrice (1557-1560).</head>
           <p>En mars 1557, Monluc retourne à Valence. Ses prédications attirent un nombreux auditoire et éveillent les soupçons du chapitre déjà aux prises avec lui pour des questions d’intérêt. En mai, il entreprend une visite pastorale et fait son entrée à Die en juin. Il tient deux synodes diocésains et édicte des statuts concernant la réforme de son clergé.</p>
@@ -116,10 +114,10 @@
           <p>A partir de 1560, les séjours de Monluc dans son diocèse deviennent très rares.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r604066">
         <head rend="uc">Troisième partie
          <lb/>Le conseiller de Catherine de Médicis</head>
-        <div>
+        <div xml:id="r604074">
           <head rend="uc">Chapitre premier
            <lb/>la politique de tolérance
            <lb/>et la Préparation du concile national
@@ -128,7 +126,7 @@
           <p>Parti au printemps de 1560, il revient à la Cour en juillet, au moment où le Roi pense à convoquer un concile national. Monluc se fait l’avocat de ce projet dans la harangue qu’il prononce, le 24 août 1560, au Conseil de Fontainebleau. Il assiste, en décembre et janvier, aux États-Généraux d’Orléans et soutient la politique religieuse de Catherine.</p>
           <p>Au printemps de 1561, il prêche le carême à la Cour. Sa hardiesse de pensée soulève l’indignation des catholiques, mais il continue à préconiser la réconciliation des deux partis et cherche par tous les moyens à faire aboutir le projet de concile national. Les défenseurs de l’orthodoxie romaine commencent à agir contre lui.</p>
         </div>
-        <div>
+        <div xml:id="r604096">
           <pb source="https://nakala.fr/10.34847/nkl.b749138a#51a6f56ada8f2bbeec6b7118c343c5b469806ec9" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.b749138a/51a6f56ada8f2bbeec6b7118c343c5b469806ec9/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les conférences théologiques.
@@ -138,14 +136,14 @@
           <p>Après l’échec du colloque et la clôture de l’assemblée, il travaille encore à la restauration de l’unité religieuse. Il ne croit celle-ci possible que dans la mesure où Rome fera des concessions dont il précise la nature.</p>
           <p>Pendant les conférences de Saint-Germain, en janvier 1562, il seconde activement la politique de tolérance de Catherine de Médicis. Malgré ses protestations d’attachement au Saint-Siège, ses sympathies vont vers les Réformés. Son influence sur l’esprit de la Reine inquiète ses ennemis.</p>
         </div>
-        <div>
+        <div xml:id="r604123">
           <head rend="uc">Chapitre III
            <lb/>Les idées religieuses de Jean de Monluc.</head>
           <p>Jean de Monluc a prêché une réforme fondée sur un retour au christianisme primitif et la connais<pb source="https://nakala.fr/10.34847/nkl.b749138a#05741703e4f0847759f7b799b0f0693b440ea529" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.b749138a/05741703e4f0847759f7b799b0f0693b440ea529/full/full/0/default.jpg"/>sance des Écritures saintes. Il a condamné l’abus de prières dévotes, certaines fêtes religieuses et le culte des images.</p>
           <p>En face de la doctrine de Calvin, sa position est mal définie ; il n’a pas proclamé la justification par la foi seule, mais il a insisté très souvent sur la corruption de la nature humaine et semble avoir nié le mérite des œuvres. Sa conception de la présence réelle dans le sacrement de l’Eucharistie a varié.</p>
           <p>Jean de Monluc nous apparaît donc plutôt comme un « Nicodémite ».</p>
         </div>
-        <div>
+        <div xml:id="r604146">
           <head rend="uc">Chapitre IV
            <lb/>Les conséquences d’attitude de Monluc.
            <lb/>La condamnation
@@ -153,7 +151,7 @@
           <p>Jean de Monluc appartient au parti des « politiques » sur lequel s’appuie Catherine de Médicis, louvoyant entre catholiques et huguenots. Il est envoyé plusieurs fois à Orléans négocier avec Condé. Pour amener le prince à désarmer, il semble prendre son parti contre les Triumvirs, mais, en réalité, il reste l’agent de la Reine et s’efforce seulement de sauver la paix au prix de toutes les ruses, mais il n’y réussit point et devient également suspect aux protestants.</p>
           <p>En 1563, il est cité devant le tribunal de l’Inquisition, puis déclaré hérétique. Il ne s’émeut guère de cette mesure et continue à cabaler à la Cour, où la Reine lui conserve son estime. Il la suit à travers la France en 1565 et 1566. A cette date, il se voit confier une mission financière en Languedoc. Il est défi<pb source="https://nakala.fr/10.34847/nkl.b749138a#c683cd41eafa54013e843245d26d40937bfefa64" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.b749138a/c683cd41eafa54013e843245d26d40937bfefa64/full/full/0/default.jpg"/>nitivement condamné par le tribunal de l’inquisition à la fin de 1566 ; il refuse d’accepter la sentence de Rome et marque par différents actes sa désobéissance au Saint-Siège. En 1568, il est de nouveau chargé d’une mission financière en Guyenne et revient à la Cour en 1570, en dépit des démarches de Pie V.</p>
         </div>
-        <div>
+        <div xml:id="r604170">
           <head rend="uc">Chapitre V
            <lb/>La fin d’une longue carrière.
            <lb/>L’ambassade de Pologne
@@ -162,7 +160,7 @@
           <p>En 1574, Jean de Monluc perd son titre d’évêque de Valence. En fait, il en garde toutes les prérogatives. Il retourne dans son diocèse. Il est désigné en 1576 par le Roi pour faire exécuter l’édit de pacification de Beaulieu dans la province de Dauphiné. Sa mission est difficile. Fidèle à sa politique de paix, il adresse une lettre au Roi lors de l’assemblée des États de Blois. En 1577, de concert avec Damville, il <pb source="https://nakala.fr/10.34847/nkl.b749138a#3d97d2eb22637a9b639d8630cf4ef14b08d84ea4" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.b749138a/3d97d2eb22637a9b639d8630cf4ef14b08d84ea4/full/full/0/default.jpg"/>est chargé de faire appliquer l’édit de Poitiers en Languedoc. Il assiste aux États de Béziers. Lorsque Catherine de Médicis arrive dans le Sud-Ouest, il la rejoint et prêche encore aux catholiques et aux huguenots la modération. Il meurt à Toulouse le 12 avril 1579.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r604195">
         <head rend="uc">Conclusion</head>
         <p>La Réforme a séduit son esprit d’humaniste, mais ne l’a jamais compté parmi ses adeptes déclarés. Pour ne pas perdre son évêché et pour conserver tous les avantages de sa situation, il a préféré adopter une attitude équivoque.</p>
       </div>

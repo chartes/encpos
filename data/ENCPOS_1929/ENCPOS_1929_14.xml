@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,32 +61,32 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r482226">
         <head rend="uc">Première partie
          <lb/>Les organes et les fonctions du
          <lb/>pouvoir ducal</head>
-        <div>
+        <div xml:id="r482236">
           <head rend="uc">Chapitre I
            <lb/>Les cadres géographiques</head>
           <p>1. Les cadres géographiques des Etats donnés au duc en apanage sont assez difficiles à déterminer en raison de l’enchevêtrement des ressorts ecclésiastiques, administratifs et judiciaires. Le seul cadre commun est la <hi rend="i">châtellenie,</hi> c’est-à-dire un lieu où le duc possède un château pour lequel il reçoit des hommages et à la tête duquel il a placé un agent à la <pb source="https://nakala.fr/10.34847/nkl.72575e94#ab7bd25fec18b7557daf916b3c3d2c82c2041646" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/ab7bd25fec18b7557daf916b3c3d2c82c2041646/full/full/0/default.jpg"/> fois administratif et judiciaire, mais les châtellenies ne sont pas égales entre elles.</p>
           <p>2. Quant aux frontières de ces Etats et des Etats voisins, elles sont, la plupart du temps, fort imprécises, surtout au nord du Poitou où s’est organisé le système des « <hi rend="i">Marches séparantes ».</hi></p>
           <p>3. Quoi qu’il en soit, par leur étendue et leurs richesses, les Etats donnés au duc en apanage font de celui-ci un des seigneurs les plus puissants du royaume de France.</p>
         </div>
-        <div>
+        <div xml:id="r482266">
           <head rend="uc">Chapitre II
            <lb/>Le duc</head>
           <p>1. Le duc de Berry joint à son titre de <hi rend="i">duc</hi> celui de <hi rend="i">pair de France</hi> et, à certaines époques, celui de <hi rend="i">lieutenant du Roi</hi> en certains pays.</p>
           <p>2. Les règles dynastiques en vigueur dans les Etats donnés au duc en apanage sont les mêmes que celles qui existent dans le domaine royal.</p>
           <p>3. Le duc se déplace souvent et il lui arrive même de quitter la France. Dans ce cas, il institue des <hi rend="i">lieutenants</hi> révocables à sa volonté.</p>
         </div>
-        <div>
+        <div xml:id="r482300">
           <head rend="uc">Chapitre III
            <lb/>L’hotel</head>
           <p>I. Le duc, comme le Roi, a un <hi rend="i">Hôtel</hi> avec de nombreux serviteurs privés affectés les uns à ses besoins corporels, les autres à ses besoins intellectuels, d’autres à ses besoins religieux. Les plus importants de tous ces serviteurs sont les <hi rend="i">Chambellans</hi> chargés de veiller à la Chambre du duc et gardiens du sceau ducal du secret.</p>
           <p>2. L’administration financière de l’Hôtel est confiée <pb source="https://nakala.fr/10.34847/nkl.72575e94#6d358142700ee0210da2df775fbd9065c08691b0" n="143" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/6d358142700ee0210da2df775fbd9065c08691b0/full/full/0/default.jpg"/> au <hi rend="i">Maître de la Chambre aux Deniers</hi> et au <hi rend="i">Contrôleur de la Dépense de l’Hôtel.</hi></p>
           <p>3. L’Hôtel du duc ressemble, quant à sa composition, à l’Hôtel du Roi.</p>
         </div>
-        <div>
+        <div xml:id="r482338">
           <head rend="uc">Chapitre IV
            <lb/>Le pouvoir central</head>
           <p>1. Le plus important de tous les agents du pouvoir central est le <hi rend="i">Chancelier</hi> dont les fonctions consistent principalement à faire rédiger les divers actes du duc et à être garde de tous les sceaux, sauf le sceau du secret.</p>
@@ -99,7 +97,7 @@
           <p>6. Enfin le duc, comme le Roi, est assisté d’un <hi rend="i">Conseil</hi> composé de gens convoqués par lui et dont la compétence est universelle.</p>
           <p>7. Malgré quelques différences plus apparentes que réelles, les organes du pouvoir central de l’autorité ducale ressemblent aux organes correspondants de l’autorité royale.</p>
         </div>
-        <div>
+        <div xml:id="r482392">
           <head rend="uc">Chapitre V
            <lb/>Le pouvoir local</head>
           <p>1. Les <hi rend="i">prévôts</hi> prennent généralement leur charge <pb source="https://nakala.fr/10.34847/nkl.72575e94#569a984e609057e1a7cfe826840530cde49dd052" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/569a984e609057e1a7cfe826840530cde49dd052/full/full/0/default.jpg"/>à ferme. Ils sont assistés de lieutenants, de procureurs, d’avocats et de sergents, de conseils, de chanceliers et de notaires et quelquefois de juges. Ils ont des attributions politiques, administratives, financières, militaires et même judiciaires bien que ces dernières attributions soient très critiquées et tendent à disparaître.</p>
@@ -108,7 +106,7 @@
           <p>4. Il existe trois <hi rend="i">Sénéchaussées</hi> dans les Etats du duc : celle de Berry, celle d’Auvergne et celle du Poitou. Les <hi rend="i">Sénéchaux</hi> ne touchent aucun gage et sont assistés de lieutenants généraux et particuliers, de conseils et d’assesseurs, de procureurs, d’avocats et de sergents, de chanceliers et de notaires et de clercs des présentations. Les attributions des sénéchaux sont immenses : politiques, administratives, financières, militaires et surtout judiciaires.</p>
           <p>5. Certains officiers ne relèvent ni du pouvoir central, ni du pouvoir local. Ce sont les <hi rend="i">Réformateurs généraux</hi> que le duc envoie enquêter en certains de ses états et les gens qui composent le <hi rend="i">Conseil du duc au Parlement de Paris.</hi></p>
         </div>
-        <div>
+        <div xml:id="r482470">
           <head rend="uc">Chapitre VI
            <lb/>Les fonctions judiciaires</head>
           <div>
@@ -130,7 +128,7 @@
             <p>D). L’administration de la justice ducale ressemble en tous points à l’administration de la justice royale.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r482598">
           <pb source="https://nakala.fr/10.34847/nkl.72575e94#0361e0c7b2f4bda8779bf72d08e42b1a4fde0c24" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/0361e0c7b2f4bda8779bf72d08e42b1a4fde0c24/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Les fonctions financières</head>
@@ -155,7 +153,7 @@
             <p>D) L’administration financière du duc a des qualités qui manquent à l’administration judiciaire, le duc ayant imité l’administration financière établie <pb source="https://nakala.fr/10.34847/nkl.72575e94#5127f0497f1d5e7c34e3e240c9916ed28ba979d9" n="148" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/5127f0497f1d5e7c34e3e240c9916ed28ba979d9/full/full/0/default.jpg"/>par Charles V. Malheureusement, la prodigalité du duc annihile les qualités de cette administration.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r482783">
           <head rend="uc">Chapitre VIII
            <lb/>Les fonctions militaires</head>
           <div>
@@ -183,11 +181,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r482932">
         <head rend="uc">Deuxieme partie
          <lb/>Les pouvoirs du duc</head>
         <p>Pour déterminer quels sont les pouvoirs du duc, il faut examiner les limites mises à son autorité par le Roi, la famille ducale, les seigneurs féodaux, les gens d’Eglise, les communautés d’habitants, les Etats provinciaux.</p>
-        <div>
+        <div xml:id="r482943">
           <pb source="https://nakala.fr/10.34847/nkl.72575e94#862ec21f731b28abe1c367f74924c77ce157832e" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/862ec21f731b28abe1c367f74924c77ce157832e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre I
            <lb/>Le roi</head>
@@ -199,31 +197,31 @@
           <pb source="https://nakala.fr/10.34847/nkl.72575e94#1aab1c89230fac172f3313a8ff648aee85190e50" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/1aab1c89230fac172f3313a8ff648aee85190e50/full/full/0/default.jpg"/>
           <p>6. Dans tous les domaines, le duc a donc réussi à se rendre à peu près indépendant du Roi.</p>
         </div>
-        <div>
+        <div xml:id="r483044">
           <head rend="uc">Chapitre II
            <lb/>La famille ducale</head>
           <p>Le duc a donné des terres aux différents membres de sa famille, mais aucun d’eux n’eut assez de pouvoir dans ces terres pour faire obstacle à l’autorité ducale.</p>
         </div>
-        <div>
+        <div xml:id="r483056">
           <head rend="uc">Chapitre III
            <lb/>Les seigneurs féodaux</head>
           <p>1. Les seigneurs féodaux sont encore nombreux dans les Etats du duc, mais leurs attributions administratives, judiciaires, financières et militaires ne peuvent en rien gêner l’autorité ducale.</p>
           <p>2. D’un autre côté, pour avoir une noblesse docile, le duc surveille étroitement ses vassaux, se montrant très strict au sujet des devoirs féodaux, attire les seigneurs à la Cour en leur distribuant des charges et des fonctions et enfin cherche à remplacer l’ancienne noblesse par ses serviteurs.</p>
         </div>
-        <div>
+        <div xml:id="r483071">
           <head rend="uc">Chapitre IV
            <lb/>Les gens d’église</head>
           <p>I. Les établissements ecclésiastiques séculiers et réguliers sont très nombreux dans les Etats du duc. Ils ont un double pouvoir judiciaire : celui qu’ils exercent en tant qu’ecclésiastiques et celui qu’ils •exercent en tant que seigneurs féodaux.</p>
           <p>2. Ces pouvoirs auraient pu faire obstacle à l’au<pb source="https://nakala.fr/10.34847/nkl.72575e94#f5c91cac6015030e3933dc361234d41a2d316cc7" n="152" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/f5c91cac6015030e3933dc361234d41a2d316cc7/full/full/0/default.jpg"/>torité ducale, les plus importants de ces établissements ecclésiastiques jouissant de la sauvegardé royale. Aussi le duc lutta-t-il contre ces prérogatives soit par la violence, soit par des moyens de conciliation : fonctions dans l’Hôtel ou dans l’administration, services rendus, contrats de- pariage ; soit enfin et surtout par la création de nouveaux établissements ecclésiastiques comme la Sainte-Chapelle de Bourges.</p>
         </div>
-        <div>
+        <div xml:id="r483091">
           <head rend="uc">Chapitre V
            <lb/>Les communautés d’habitants</head>
           <p>1. Les communautés d’habitants de <hi rend="i">Berry</hi> font partie des <hi rend="i">villes de bourgeoisie</hi> ou <hi rend="i">de prévôté.</hi> Leurs attributions politiques, administratives, judiciaires, financières et militaires sont tout à fait restreintes.</p>
           <p><hi rend="i">2. Les</hi> communautés d’habitants d’<hi rend="i">Auvergne</hi> se placent dans la catégorie des <hi rend="i">villes à consulat.</hi> Leurs pouvoirs sont plus grands que ceux des communautés d’habitants de Berry, notamment en matière politique, mais n’ont quand même pas une puissance capable de faire obstacle à l’autorité ducale.</p>
           <p>3. Quant aux communautés d’habitants de <hi rend="i">Poitou, </hi>elles font partie des <hi rend="i">villes à commune</hi> et ont plus d’indépendance encore que les communautés d’habitants d’Auvergne, notamment au point de vue judiciaire, mais elles ne gênent pas beaucoup, elles non plus, l’autorité ducale.</p>
         </div>
-        <div>
+        <div xml:id="r483140">
           <head rend="uc">Chapitre VI
            <lb/>Les états provinciaux</head>
           <p>1. Les Etats provinciaux composés de représentants des seigneurs féodaux, des gens d’Eglise et des <pb source="https://nakala.fr/10.34847/nkl.72575e94#d70a907991dc86093a6a4ed1b2b3a0468ba4ad71" n="153" facs="https://api.nakala.fr/iiif/10.34847/nkl.72575e94/d70a907991dc86093a6a4ed1b2b3a0468ba4ad71/full/full/0/default.jpg"/>L’ADMINISTRATION DES APANAGES DE JEAN DE BERRY 153 communautés d’habitants sont convoqués par le duc là où il se trouve et quand bon lui semble.</p>

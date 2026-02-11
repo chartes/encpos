@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1885_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1885_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -54,7 +52,7 @@
         <forename>Gédéon</forename>
         <surname>Huet</surname>
       </byline>
-      <div>
+      <div xml:id="r136365">
         <head rend="uc">Introduction.
          <lb/>Étude sur Gasse.</head>
         <p>I. <hi rend="i">Liste des manuscrits contenant ses chansons ; remarques sur ces mss.</hi> – Les divergences que présentent les noms des auteurs de chansons dans le grand ms. de Berne, comparé aux autres mss. ne peuvent pas toutes s’expliquer par des fautes de copiste. – B.N. franç. 20,050 se compose de deux parties distinctes par l’écriture, le travail des copistes et la langue.</p>

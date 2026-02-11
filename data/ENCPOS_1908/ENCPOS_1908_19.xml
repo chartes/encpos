@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,7 +59,7 @@
         <surname>Valmont</surname>
         <roleName>Licencié ès lettres, licencié en droit,, Élève de l’École des Hautes Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r326735">
         <head rend="uc">Préface</head>
         <p>Les livres de MM. Biollay et Afanassiev, sur le commerce des grains en France au <num>xviii<hi rend="sup">e</hi></num> siècle. – Le fonds du Contrôle général, aux Archives Nationales, qui, en ce qui concerne la correspondance administrative, est l’unique source de ces auteurs, est complètement insuffisant à partir de 1715 ; il faut le reconstituer à l’aide des archives des intendances et des Chambres de commerce, au moins par des monographies. – Différents fonds d’archives dont l’étude renouvellera progressivement l’histoire du commerce des grains. – Points de vue et méthodes possibles. – But de ce travail : préciser sur deux points importants les ouvrages cités :</p>
         <p>1° Etudier en même temps que l’administration et les idées d’un intendant de Rouen, précurseur de Berlin, celles <pb source="https://nakala.fr/10.34847/nkl.87ccb3n4#a0df65780e509e13c289afa476b8b95091e0a77d" n="160" facs="https://api.nakala.fr/iiif/10.34847/nkl.87ccb3n4/a0df65780e509e13c289afa476b8b95091e0a77d/full/full/0/default.jpg"/> de ce ministre lui-même et des contrôleurs généraux qui l’ont immédiatement précédé.</p>
@@ -71,16 +69,16 @@
         <head rend="uc">Sources et Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r326771">
         <head rend="uc">Première partie
          <lb/>Un économiste : Antoine-Paul-Joseph Feydeau de
          <lb/>Brou, intendant de Rouen
          <lb/>(1755-1762 ♰)</head>
-        <div>
+        <div xml:id="r326783">
           <head rend="uc">Observations préliminaires</head>
           <p>Antoine-Paul-Joseph Feydeau de Brou. Sa famille. Né en 1731, avocat du roi au Châtelet de Paris, conseiller au Parlement en 1751, il succède à Louis-François de La Bourdonnaye, comme intendant de Rouen, le 23 juin 1755. Il n’a pas vingt-quatre ans révolus. C’est le moment où l’on commence à « raisonner sur les blés ». La plus importante édition du livre d’Herbert est de 1755. Quesnay va publier l’article Fermiers (1756) et l’article Grains (1757) dans l’<hi rend="i">Encyclopédie,</hi> puis son <hi rend="i">Tableau économique</hi> (1758). Brou est disposé par sa jeunesse même à partager les idées nouvelles. – Son collaborateur, Dailly, subdélégué général et premier secrétaire de l’intendance. Attributions de ce fonctionnaire. Sa valeur personnelle ; sa compétence en agriculture. Sa carrière <pb source="https://nakala.fr/10.34847/nkl.87ccb3n4#38d780762ea9ae93117426ff1141ede35ceb617e" n="161" facs="https://api.nakala.fr/iiif/10.34847/nkl.87ccb3n4/38d780762ea9ae93117426ff1141ede35ceb617e/full/full/0/default.jpg"/>administrative. Parfaite union de Brou et de son subordonné. Leur rôle respectif d’après les minutes de leur correspondance. – Les secrétaires à l’intendance. Note sur l’organisation des bureaux.</p>
         </div>
-        <div>
+        <div xml:id="r326806">
           <head rend="uc">Chapitre premier
            <lb/>Feydeau de Brou et le commerce des grains sous le
            <lb/>contrôleur général Moras. – La disette de 1757</head>
@@ -96,7 +94,7 @@
           <p>La Chambre, sur la demande de Brou, remet une médaille d’or aux marchands avec qui il a traité. Elle rend hommage à sa prévoyance. – La récolte de 1757 est assez bonne. L’année 1757-1758 se passe sans encombre.</p>
           <p>Epilogue : le règlement des comptes du munitionnaire de la marine (1757-1759). – États divers du produit de la vente ; versements au munitionnaire. Qui paiera la différence entre le montant de ces versements et le prix convenu ? Brou, au fond, n’a laissé passer sans mot dire les envois forcés de Moras que parce qu’il espérait que <pb source="https://nakala.fr/10.34847/nkl.87ccb3n4#6300596584730bd8d5b83bd03c2298e1c9c85639" n="165" facs="https://api.nakala.fr/iiif/10.34847/nkl.87ccb3n4/6300596584730bd8d5b83bd03c2298e1c9c85639/full/full/0/default.jpg"/>l’État en ferait les frais. Quand Silhouette, contrôleur général, lui annonce que sa généralité les supportera par voie d’imposition (3 avril 1759), il proteste : les blés de Moras n’ont été utiles que par suite du manque de liberté et notamment du refus de laisser venir des blés de Champagne ; la surimposition ferait le plus mauvais effet. – Silhouette répond en lui envoyant enfin le prix total des fournitures du munitionnaire, et en lui indiquant la proportion dans laquelle la généralité de Rouen et celle de Caen doivent contribuer au paiement de l’excédent. Il lui laisse entendre qu’on évitera les plaintes en ne publiant pas la cause de la surimposition. – Nouvelles protestations de Brou. Il relève des erreurs dans la répartition de la contribution. Il n’admet pas la dissimulation illégale qu’on lui propose : le peuple doit connaître les motifs des charges qu’il supporte. Or, toute opération sur les blés lui est suspecte ; celle-ci est particulièrement obscure et a dû singulièrement profiter au munitionnaire. Il ne veut pas qu’on risque de détruire la considération qu’il s’est acquise dans l’esprit de ses administrés. – Résultat de ces protestations.</p>
         </div>
-        <div>
+        <div xml:id="r326870">
           <head rend="uc">Chapitre II
            <lb/>Feydeau de Brou et le commerce des grains
            <lb/>sous le contrôleur général Silhouette
@@ -108,7 +106,7 @@
           <p>Dès mai 1759, Brou réclame à Silhouette la suppression des marchands de grains privilégiés et du droit de banalité de Rouen, déjà demandée à Moras ; la suppression des déclarations et de l’interdiction de vendre hors des marchés. – Bonne volonté de Silhouette. Il cherche à libérer le commerce des farines gêné à Rouen par le droit de banalité et à faire partager ses vues au Parle<pb source="https://nakala.fr/10.34847/nkl.87ccb3n4#257c2500d31807b22da0e91d4d33c94bec46b69e" n="167" facs="https://api.nakala.fr/iiif/10.34847/nkl.87ccb3n4/257c2500d31807b22da0e91d4d33c94bec46b69e/full/full/0/default.jpg"/>ment. En exprimant le regret de ne pouvoir faire plus pour l’agriculture, il envoie à Brou (12 juillet 1759) un projet de déclaration permettant les magasins, supprimant en fait les articles I et V de la déclaration du 31 août 1699 et faisant espérer la liberté relative de l’exportation. – Contre-projet de Brou (1<hi rend="sup">er</hi> août) supprimant en outre les déclarations, autorisant la vente au magasin, interdisant les recherches et la taxe du prix des grains, exemptant les grains de péages, en renouvellement de l’arrêt du Conseil du 10 novembre 1739. – Critique originale de la législation existante et notamment de la déclaration du 19 avril 1723.</p>
           <p>De concert avec Miromesnil, premier président du Parlement, Brou fait imprimer à Rouen un traité de la police des grains.</p>
         </div>
-        <div>
+        <div xml:id="r326915">
           <head rend="uc">Chapitre III
            <lb/>Feydeau de Brou et les projets de réformes de Bertin</head>
           <p>Bertin, contrôleur général (novembre 1759-décembre 1763). – Progrès des idées économistes dans la généralité de Rouen. Remontrances du Parlement du 10 mai 1760. Ses plaintes sur l’état lamentable de l’agriculture.</p>
@@ -117,23 +115,23 @@
           <p>« Mémoire à consulter sur la liberté du commerce des grains » (envoyé à l’intendant de Rouen le 1<hi rend="sup">er</hi> août 1761). Il maintient la prohibition de l’exportation, mais <pb source="https://nakala.fr/10.34847/nkl.87ccb3n4#23476e3743741c855ffc362d1db45e8aa570c0ac" n="168" facs="https://api.nakala.fr/iiif/10.34847/nkl.87ccb3n4/23476e3743741c855ffc362d1db45e8aa570c0ac/full/full/0/default.jpg"/>propose les principales réformes demandées par Brou. – Celui-ci communique le mémoire à la société d’agriculture et se contente de ratifier ses « observations » : la société demande la réforme complète du commerce intérieur et extérieur des grains. Brou prie le contrôleur de lui envoyer le projet avant d’adresser la déclaration au Parlement, dont il désire préparer l’opinion.</p>
           <p>Temporisation de Berlin. – Impatience de la société d’agriculture. – Circulaire de Berlin du 13 avril 1762 et projet entièrement semblable à la grande déclaration du 25 mai 1763 : permission de faire des magasins, suppression des gènes portées parla déclaration de 1699, suppression des déclarations, maintien de la prohibition de l’exportation et des règlements protecteurs de l’approvisionnement de Paris. – Brou demande que l’article premier précise qu’il sera permis de vendre dans les magasins ; il se rallie à l’opinion du contrôleur général sur l’exportation, le peuple n’étant pas encore préparé à cette réforme, mais il réclame avec la société d’agriculture la suppression des règlements de Paris : argument tiré de l’histoire de la disette de 1757. – Mort de Feydeau de Brou, juin 1762.</p>
         </div>
-        <div>
+        <div xml:id="r326948">
           <head rend="uc">Conclusions</head>
           <p>On peut reprocher à Feydeau de Brou trop de complaisance pour les marchands en rapport avec l’intendance et un emploi un peu excessif de la prime. On peut observer aussi que, par suite des besoins de sa généralité, il avait tout à gagner à la liberté et qu’il songea plutôt, en encourageant le commerce des grains, à assurer les subsistances qu’à améliorer la condition de l’agriculture. Mais on doit reconnaître qu’il a conçu dès 1757, non seulement toutes les réformes de Bertin, mais encore celles que Turgot seul devait faire aboutir : per<pb source="https://nakala.fr/10.34847/nkl.87ccb3n4#e87b1ad872863ed4029f22eaad654fa55a695993" n="169" facs="https://api.nakala.fr/iiif/10.34847/nkl.87ccb3n4/e87b1ad872863ed4029f22eaad654fa55a695993/full/full/0/default.jpg"/>mission précise de vendre hors des halles et marchés (arrêt du 13 septembre 1774, article I<hi rend="sup">er</hi>) ; suppression des marchands de grains privilégiés et du droit de banalité (1775) ; suppression des règlements de Paris (1776). Son opinion dernière sur l’exportation fut justifiée par les événements. Ses idées sur les approvisionnements publics sont les idées mêmes de Turgot (préambule de l’arrêt de 1774). Feydeau de Brou fut donc, très jeune et très tôt, un économiste de l’école la plus positive, et sa pensée est d’autant plus précieuse qu’elle fut en grande partie formée par les circonstances.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r326968">
         <head rend="uc">Deuxième partie
          <lb/>L’édit de juillet 1764
          <lb/>dans la généralité de Rouen et au parlement
          <lb/>de Normandie</head>
-        <div>
+        <div xml:id="r326980">
           <head rend="uc">Chapitre premier
            <lb/>la réforme</head>
           <p>État de la question de l’exportation à la mort de Feydeau de Brou. – Espoirs des propriétaires. – Liberté de l’exportation des farines (mars-novembre 1763). – Déclaration du 25 mai 1763 établissant la liberté du commerce intérieur. Ajournement de l’enregistrement ; ses raisons politiques et économiques. Division du Parlement. Conférence avec la Chambre de commerce qui désire l’exportation. – Le Parlement enregistre la déclaration (mars 1764) et demande la liberté d’exportation. Importance de son rôle. – Hésitations de L’Averdy, contrôleur général ; leurs causes. – Avis du bureau de coin<pb source="https://nakala.fr/10.34847/nkl.87ccb3n4#a13e19075a145e729a05b48798b7de1b4ff5f325" n="170" facs="https://api.nakala.fr/iiif/10.34847/nkl.87ccb3n4/a13e19075a145e729a05b48798b7de1b4ff5f325/full/full/0/default.jpg"/>merce, des députés du commerce. – La question de l’exportation au Conseil royal de commerce. Avis modéré des députés du commerce sur le taux-limite. La liberté de l’exportation est décidée (17 juin 1764). – L’édit de juillet 1764. Ports ouverts dans la généralité de Rouen : Rouen, Le Havre, Honfleur, Dieppe et Fécamp. Le taux prohibitif : 12 1. 10 s. le quintal. Raisons du choix de ce taux d’après Behic, député de Rouen.</p>
           <p>Satisfaction des cultivateurs et des propriétaires dans la généralité de Rouen. – Remerciements du Parlement ; il demande qu’on complète la réforme par la suppression de tous droits sur les grains. – Satisfaction de la société d’agriculture. Mémoire sur le commerce des farines : enlever ce commerce aux Anglais qui fournissent les farines expédiées du Havre aux colonies françaises d’Amérique.</p>
         </div>
-        <div>
+        <div xml:id="r327000">
           <head rend="uc">Chapitre II
            <lb/>L’application de l’édit et l’échec de la réforme</head>
           <p>L’article IV réservant le transport des grains à l’étranger aux navires français. Les difficultés d’interprétation. L’article IV et les menus grains : l’article IV et le cabotage national ; l’article IV et le Pacte de famille.</p>
@@ -151,7 +149,7 @@
           <p>Statu quo. – Avis des députés du commerce du 26 octobre 1769. – Terray (décembre 1769) a, sur l’exportation, les idées du Parlement de Normandie. – L’enquête de 1771. L’édit de juillet 1764 jugé par Behic, par la Chambre de commerce, par les cultivateurs. – Tort fait au Parlement et à Miromesnil dans l’opinion du peuple par la demande de l’exportation. Un pamphlet de 1773.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r327053">
         <head rend="uc">Conclusions</head>
         <p>1° Le Parlement a demandé la liberté d’exportation pour servir les intérêts des cultivateurs, du commerce et de ses membres, propriétaires fonciers. Désireux avant tout de popularité, il a réagi contre l’édit avec le peuple dont, du reste, il partageait au fond les préjugés.</p>
         <p>2° Le taux prohibitif a été fixé trop haut pour la Normandie. Il fallait adapter le taux aux ressources et aux habitudes de chaque province (opinion de Behic). L’enquête d’Amelot en 1716 et la réponse de Gasville, intendant de Rouen.</p>

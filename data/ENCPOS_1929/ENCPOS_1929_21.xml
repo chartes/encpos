@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,24 +65,24 @@
         <head rend="uc">Sources et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r486900">
         <head rend="uc">Chapitre preliminaire
          <lb/>la région de Chazelles</head>
         <p>Point de contact entre le Forez, le Lyonnais et le Beaujolais, la région de Chazelles est un pays montagneux, où la propriété est très morcelée, et l’alleu très fréquent encore au <num>xii<hi rend="sup">e</hi></num> siècle.</p>
         <p>La suzeraineté des comtes de Forez y est assez lointaine, et la commanderie de Chazelles va peu à peu se développer aux dépens des petits seigneurs locaux, nombreux, peu puissants, et criblés de dettes.</p>
       </div>
-      <div>
+      <div xml:id="r486921">
         <pb source="https://nakala.fr/10.34847/nkl.ed39l868#fd965eca229e28817ac722e727ff99cdcd72f7c3" n="212" facs="https://api.nakala.fr/iiif/10.34847/nkl.ed39l868/fd965eca229e28817ac722e727ff99cdcd72f7c3/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les commandeurs de Chazelles
          <lb/>des origines au <num>xv<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r486942">
           <head rend="uc">Chapitre premier
            <lb/>les origines de la commanderie de Chazelles</head>
           <p>Les Hospitaliers s’installent en Forez, à Montbrison et à Chazelles, non pas en 1148 comme le croyaient les historiens locaux, mais après 1158, et sans doute vers 1181, grâce à la faveur du comte de Forez Guy II.</p>
           <p>La Commanderie de Chazelles est distincte de celle de Montbrison dès la fin du <num>xii<hi rend="sup">e</hi></num> siècle. Ses membres, La Murette, La Roussilière, Saint-Ronnet-les-Places, La Roche, et Sauzy sont tous constitués au XIII<hi rend="sup">e </hi>siècle.</p>
         </div>
-        <div>
+        <div xml:id="r486967">
           <head rend="uc">Chapitre II
            <lb/>Les premiers commandeurs de Chazelles</head>
           <p>Les premiers commandeurs dont on ait gardé les noms : Pierre Frainet, commandeur de Chazelles vers la fin du <num>xii<hi rend="sup">e</hi></num> siècle, Durant Messonier, commandeur de Forez avant 1200, Frère Guy, commandeur de Chazelles de 1213 à 1237, Eustorge de Revel, commandeur de Saint-Bonnet-les-Places en 1249, ont laissé peu de traces.</p>
@@ -92,7 +90,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.ed39l868#10a33dcd6156470216ee18826d5bf873f04aa833" n="213" facs="https://api.nakala.fr/iiif/10.34847/nkl.ed39l868/10a33dcd6156470216ee18826d5bf873f04aa833/full/full/0/default.jpg"/>
           <p>Les trois successeurs de Bernard de Chambon : Giraud de Naves (1267-1283), Dreux de La Tour (1283-1293) et Jean Ysard (1295-1301) continuent à agrandir la commanderie et établissent solidement par des accords ses droits de justice.</p>
         </div>
-        <div>
+        <div xml:id="r486996">
           <head rend="uc">Chapitre III
            <lb/>Les commandeurs de Chazelles
            <lb/>commandeurs de Forez (1303-1425)</head>
@@ -121,7 +119,7 @@
             <p>VI. – <hi rend="i">Michel de Vanzé</hi> (1422-1425) est le dernier commandeur de Forez ayant administré, au moins de 1422 à 1425, les commanderies de Montbrison et Chazelles.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r487098">
           <pb source="https://nakala.fr/10.34847/nkl.ed39l868#d56ef069514d7efda5481ba9ff8f6e8e124d491e" n="215" facs="https://api.nakala.fr/iiif/10.34847/nkl.ed39l868/d56ef069514d7efda5481ba9ff8f6e8e124d491e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>La fin de l’union des commanderies foréziennes
@@ -129,11 +127,11 @@
           <p>Après Michel de Vanzé les commanderies foréziennes sont à jamais séparées. Le successeur de Vanzé à Chazelles, Louis de Saint-Priest, essaie de retenir par tous les moyens, et même en se servant de faux, ce qu’il peut garder des biens de la commanderie de Montbrison, administrés depuis plus de cent ans par la maison de Chazelles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r487118">
         <head rend="uc">Deuxieme partie
          <lb/>L’organisation de la commanderie
          <lb/>et ses rapports avec l’extérieur</head>
-        <div>
+        <div xml:id="r487128">
           <head rend="uc">Chapitre premier
            <lb/>place de la maison de Chazelles
            <lb/>dans l’ordre de saint-jean-de-jérusalem</head>
@@ -147,7 +145,7 @@
             <p>La commanderie de Chazelles absorbe au <num>xiv<hi rend="sup">e</hi></num> siècle la maison de Montbrison qui, bientôt, est considérée comme une de ses dépendances ; et l’administration et les revenus de l’Hôpital en Forez sont centralisés à Chazelles.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r487179">
           <head rend="uc">Chapitre II
            <lb/>L’administration de la commanderie</head>
           <p>Elle est entièrement aux mains de membres de l’ordre de Saint-Jean, le commandeur et ses auxiliaires.</p>
@@ -166,7 +164,7 @@
             <p>Ce sont les prévôts des six membres, auxquels doivent probablement être assimilés les commandeurs placés à la tête de certains membres. Les prévôts, agents d’exploitation d’une partie du domaine de la commanderie, ont un rôle administratif, financier et judiciaire ; à côté d’eux, dans les châteaux de la commanderie ayant <hi rend="i">districtum</hi> et mandement, un capitaine ou châtelain est chargé de la défense.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r487244">
           <head rend="uc">Chapitre III
            <lb/>Les rapports extérieurs de la commanderie</head>
           <div>
@@ -184,11 +182,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r487301">
         <head rend="uc">Troisième partie
          <lb/>Le domaine de la commanderie</head>
         <p>La commanderie de Chazelles et ses cinq membres possèdent au <num>xiv<hi rend="sup">e</hi></num> siècle des biens et des droits dans une soixantaine de villages de Forez et Lyonnais.</p>
-        <div>
+        <div xml:id="r487318">
           <head rend="uc">Chapitre premier
            <lb/>la formation du domaine</head>
           <p>La commanderie une fois établie sur les terres qu’on lui a données, se développe exclusivement aux dépens des alleux locaux.</p>
@@ -196,7 +194,7 @@
           <p>II. – Le contrat d’engagement est fréquent, et tous les exemples de prêts consentis par la commanderie sont consentis à des alleutiers qui, avant le prêt, reprennent leur alleu en franc-fief des mains du commandeur de Chazelles.</p>
           <p>III. – Le contrat de vente est le moyen normal d’accroissement du domaine de la commanderie. La maison de Chazelles acquiert, aussi, exclusivement des alleux, nobles ou roturiers, et presque toujours fait reconnaître par le vendeur, avant la vente, et par <pb source="https://nakala.fr/10.34847/nkl.ed39l868#6541a0aedf08efb66d9c2a92ecb017b80d2814ba" n="219" facs="https://api.nakala.fr/iiif/10.34847/nkl.ed39l868/6541a0aedf08efb66d9c2a92ecb017b80d2814ba/full/full/0/default.jpg"/>un acte distinct, qu’il tient son alleu en franc-fief ou en censive de la commanderie.</p>
         </div>
-        <div>
+        <div xml:id="r487344">
           <head rend="uc">Chapitre II
            <lb/>L’exploitation du domaine</head>
           <div>
@@ -225,7 +223,7 @@
             <p>Les dépenses sont les frais d’exploitation, les dépenses de la maison de Chazelles, le salaire du juge et des quelques domestiques agricoles payés, enfin la responsion due chaque année au Grand Prieuré d’Auvergne, assez lourde, et payée parfois par l’engagement des biens propres des commandeurs.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r487470">
           <pb source="https://nakala.fr/10.34847/nkl.ed39l868#133b8f26a84f0052710ac5458cd56de94e01ab07" n="221" facs="https://api.nakala.fr/iiif/10.34847/nkl.ed39l868/133b8f26a84f0052710ac5458cd56de94e01ab07/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La justice temporelle

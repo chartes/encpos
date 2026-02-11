@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>Mireille</forename>
         <surname>Forget</surname>
       </byline>
-      <div>
+      <div xml:id="r553682">
         <head rend="uc">Introduction</head>
         <p>Depuis le <num>xviii<hi rend="sup">e</hi></num> siècle, il n’y a pas eu d’étude d’ensemble sur Pierre Danès. L’ouvrage de P. Hilaire Danès, qui synthétisait à peu près tout ce que, à l’époque, on savait sur le personnage, est, du point de vue critique, très insuffisant. Un certain nombre de documents de première importance ayant été mis à jour dans les dernières années, il importait de grouper les témoignages connus, de les critiquer et de les reviser à l’aide des documents originaux, pour mieux expliquer la carrière de Pierre Danès.</p>
         <p>L’on ne s’est pas proposé, dans ce travail, autre chose que d’étudier la vie d’un homme qui fut un grand humaniste, sans s’attacher à son œuvre écrite, très peu importante et qui manque d’individualité.</p>
@@ -66,24 +64,24 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r553710">
         <pb source="https://nakala.fr/10.34847/nkl.c3d44k5f#7bed948ba0d151e4d610b1e78b5c5746ba1b95fe" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3d44k5f/7bed948ba0d151e4d610b1e78b5c5746ba1b95fe/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Au service de la science</head>
-        <div>
+        <div xml:id="r553723">
           <head rend="uc">Chapitre premier
            <lb/>origines et jeunesse de Danès.</head>
           <p>I. Au début du <num>xvi<hi rend="sup">e</hi></num> siècle, la famille Danès est une famille de négociants, drapiers, fourreurs, bourgeois de Paris ; par la suite, ses membres acquerront presque tous des offices. Sur la foi de l’Hermite de Soliers, on a attribué aux Danès des origines napolitaines. Rien n’est moins prouvé. Il est certain, en tous cas, que la famille Danès était implantée en France au début du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
           <p>II. Danès est né en 1497 ; on ne sait rien sur ses années d’enfance. Les premiers renseignements que l’on ait sur lui datent de l’année 1516 où il acheva sa philosophie au Collège de Navarre. Elève remarqué, il eut pour maîtres Lascaris et Budé, se distingua dans l’étude des langues mais aussi de la philosophie et des sciences exactes. Vers 1519, il reçut la prêtrise ; à la même époque, il enseignait déjà au Collège de Lisieux et donna son édition de Justin.</p>
         </div>
-        <div>
+        <div xml:id="r553750">
           <head rend="uc">Chapitre II
            <lb/>L’acheminement vers la Célébrité
            <lb/>(1519-1530).</head>
           <p>I. Les années que passa Danès comme professeur au Collège de Lisieux n’ont jamais été étudiées. Pour les scruter, il faut pénétrer dans le milieu d’impri<pb source="https://nakala.fr/10.34847/nkl.c3d44k5f#7a28198676be1d1708a4178c24b844649ce4699b" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3d44k5f/7a28198676be1d1708a4178c24b844649ce4699b/full/full/0/default.jpg"/>meurs et de fervents humanistes qui se groupaient autour de Budé. Danès fut admis dans l’intimité de la famille Badius et collabora longtemps avec le célèbre imprimeur. Nombreuses sont les preuves de ses rapports avec les savants de l’époque et de l’estime que l’on avait déjà pour lui.</p>
           <p>II. En 1528, lors de l’affaire du <hi rend="i">Ciceronianus,</hi> Erasme, qui ne connaissait Danès que de réputation, lui adressa une lettre ; il résulte de cette missive qu’Erasme n’estimait pas que Danès fût au nombre des défenseurs intransigeants de Budé ; il semble, au contraire, penser que Danès était sensiblement de son avis, Cette lettre permet d’entrevoir pourquoi Danès était sympathique à Erasme et pourquoi celui-ci, consulté sur le choix des Lecteurs royaux, avait préféré Danès à Toussain, choix qui ne paraissait guère explicable.</p>
         </div>
-        <div>
+        <div xml:id="r553776">
           <head rend="uc">Chapitre III
            <lb/>Danès lecteur royal
            <lb/>(1530-1535).</head>
@@ -94,17 +92,17 @@
           <p>V. En 1533, Danès est formellement cité parmi ceux qui suivaient les prêches du Louvre. A cette époque, tous scs amis étaient ouvertement Réformés ou favorables à la Réforme, ce qui explique l’accusation portée plus tard contre lui par Th. de Bèze de s’être laissé détourner de ses premières opinions lors de son voyage en Italie. Il est probable, toutefois, que le revirement de Danès fut surtout postérieur à ce voyage.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r553820">
         <head rend="uc">Deuxième partie
          <lb/>Au service du roi</head>
-        <div>
+        <div xml:id="r553828">
           <head rend="uc">Chapitre premier
            <lb/>le voyage en Italie.</head>
           <p>I. Les étapes du voyage de Danès en Italie étaient mal connues ; on peut, actuellement, les préciser davantage. Danès rejoignit d’abord Georges de Selve à Venise. Il se lia avec les principaux représentants de l’humanisme italien : on a des traces de son activité d’érudit à cette époque. Il n’est pas impossible qu’il ait séjourné quelque temps à Padoue. On a lieu de croire que Danès put rendre quelques services, en politique, <pb source="https://nakala.fr/10.34847/nkl.c3d44k5f#d72bdfa4586bb8630122af6d2ceb52fca49fc051" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3d44k5f/d72bdfa4586bb8630122af6d2ceb52fca49fc051/full/full/0/default.jpg"/> à Georges de Selve malade et qu’il s’employa à la recherche des manuscrits destinés au Roi.</p>
           <p>II. Un premier retour de Danès en France, qui a toujours passé inaperçu, dut avoir lieu vers le début de 1537. Danès assista alors au banquet offert à Dolet par ses amis. Il avait, auparavant, été quelque temps à Rome. C’est au retour de ce dernier voyage qu’il écrivit les lettres au cardinal Du Bellay et à Jean Strazel qui ont été datées, par erreur, de 1539. Dès ce moment, sans doute, Danès dut rédiger une des <hi rend="i">Apologies</hi> imprimées par ordre du cardinal Du Bellay.</p>
           <p>III. On ne sait plus rien de Danès jusqu’à la fin de 1538, date à laquelle il se trouve à Rome. Au début de 1539, il alla à Naples. Il paraît s’être alors occupé surtout d’humanisme. Il participa, avec nombre de prélats érudits, à un repas chez le cardinal Contarini, où l’on discuta de Pline et d’Aristote. Il envoya à Maffeo des corrections de texte de la <hi rend="i">Poétique.</hi> Son retour en France dut avoir lieu vers 1540-1511.</p>
         </div>
-        <div>
+        <div xml:id="r553859">
           <head rend="uc">Chapitre II
            <lb/>Missions officielles et vie a la cour
            <lb/>(1540-1557).</head>
@@ -114,17 +112,17 @@
           <p>IV. Nommé précepteur du Dauphin, en 1549, Danès suit désormais la Cour dans ses déplacements, jusqu’en 1560, à l’exception de quelques voyages qu’il dut faire, à partir de 1557, dans l’évêché de Lavaur, dont il venait d’être pourvu. On est peu renseigné sur ses rapports avec son royal élève. En 1553, il tombe malade ; on songe à en tirer prétexte pour le remplacer par Amyot.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r553888">
         <head rend="uc">Troisième partie
          <lb/>Au service de l’église</head>
-        <div>
+        <div xml:id="r553896">
           <head rend="uc">Chapitre premier
            <lb/>premières années d’épiscopat
            <lb/>(1560-1563).</head>
           <p>I.A l’époque où Danès quitta la Cour pour se rendre dans son évêché de Lavaur, la guerre civile était déjà commencée en Languedoc. Au cours des troubles, Danès fut arrêté par les huguenots, mais bientôt relâché. C’est probablement peu après qu’il se rendit au Colloque de Poissy. A son retour, se place l’épisode d’une collision entre huguenots et papistes à laquelle l’évêque fut mêlé. Danès était déjà parti <pb source="https://nakala.fr/10.34847/nkl.c3d44k5f#34d109847e907fcd20d38d24e074711b7b3b7236" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3d44k5f/34d109847e907fcd20d38d24e074711b7b3b7236/full/full/0/default.jpg"/>pour le Concile de Trente quand, dans un retour offensif, les huguenots brûlèrent une partie de sa bibliothèque.</p>
           <p>II. Danès arriva au Concile en mai 1562 et y demeura au moins jusqu’au 11 novembre 1563. Là, il eut à se prononcer sur plusieurs questions, entre autres, celle de la concession du calice : il fut d’avis de l’accorder dans les royaumes de Bohême et de Hongrie, réservant au pape de trancher pour la Germanie. En ce qui concerne la résidence des évêques, il la déclara de droit divin.</p>
         </div>
-        <div>
+        <div xml:id="r553918">
           <head rend="uc">Chapitre II
            <lb/>Danès évêque a Lavaur
            <lb/>(1563-1577).</head>
@@ -133,7 +131,7 @@
           <p>III. Dans ses dernières années, ne pouvant plus <pb source="https://nakala.fr/10.34847/nkl.c3d44k5f#a34ccaff1af421a03fe6e3560bcbaa7f24858d8f" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3d44k5f/a34ccaff1af421a03fe6e3560bcbaa7f24858d8f/full/full/0/default.jpg"/>demeurer dans son diocèse en effervescence, il se retira à Saint-Germain-des-Prés et y mourut, âgé de quatre-vingts ans, le 23 avril 1577.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r553944">
         <head rend="uc">Conclusion</head>
         <p>La physionomie de Danès, aussi bien que les traits de son caractère, ne dénote pas un homme d’action. Ses goûts le portaient vers l’étude désintéressée. Totalement dépourvu d’ambition, il dut son élévation à de puissants protecteurs que jamais il ne sollicita.</p>
         <p>Son œuvre a surtout été une collaboration. Il paraît certain qu’à différentes époques de sa vie il écrivit, sous le voile de l’anonymat, des <hi rend="i">Apologies</hi> en faveur de la politique royale. On lui a attribué, à tort, le <hi rend="i">De ritibus ecclesiae catholicae,</hi> publié sous le nom du président Duranti.</p>

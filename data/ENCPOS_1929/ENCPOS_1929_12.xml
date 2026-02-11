@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,10 +56,10 @@
         <forename>Suzanne</forename>
         <surname>Gounelle</surname>
       </byline>
-      <div>
+      <div xml:id="r481146">
         <head rend="uc">I
          <lb/>Saint-Gilles au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r481160">
           <head rend="uc">Chapitre I
            <lb/>L’église catholique a Saint-Gilles</head>
           <div>
@@ -85,7 +83,7 @@
             <p>En dehors de l’abbaye, les documents moins nombreux laissent penser que le mal est moins profond. Le grand Prieuré cependant, n’est pas exempt de mauvais éléments.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r481259">
           <head rend="uc">Chapitre II
            <lb/>État social</head>
           <p>A. – <hi rend="i">Description.</hi> La ville est une grosse bourgade située sur un bras du Rhône, au milieu d’une plaine coupée de garrigues et d’étangs, et de quelques forêts. Les cultures qui l’entourent comprennent surtout du blé et de la vigne ; sur le Rhône, s’étend le port de St-Gilles, bien déchu de son ancienne prospérité, mais où un trafic important se fait encore, mettant Saint-Gilles en relations avec les villes riveraines et la mer. La ville elle-même a encore l’apparence d’une cité du Moyen-Age, avec ses hauts remparts, qu’elle a conservés.</p>
@@ -94,22 +92,22 @@
           <p>C. – <hi rend="i">La population</hi> est surtout composée de cultivateurs, petits propriétaires ou fermiers, et marchands. Il n’y a pas de grande noblesse à St-Gilles ; c’est un bourg paysan, où se distinguent seules quelques familles bourgeoises ou de petite noblesse.</p>
           <p>Sur tous s’étend la puissance de l’abbé, seigneur de la ville, à qui tout étranger doit prêter serment de fidélité pour être reçu bourgeois.</p>
         </div>
-        <div>
+        <div xml:id="r481300">
           <head rend="uc">Chapitre III
            <lb/>Rapports entre l’église et la ville</head>
           <p>Les rapports sont tendus entre la ville et l’Eglise.</p>
           <p>L’abbé, qui en tant que seigneur temporel devrait donner l’exemple d’obéissance aux lois municipales, les viole souvent ; il nomme des officiers à vie, alors que les lois interdisent un exercice de plus d’un an. Le vicaire général est constamment en chicanes avec les officiers civils, et les habitants supportent avec peine le spectacle des dérèglements des chanoines ; la ville s’efforce de les faire cesser, mais elle n’a pas de prise sur eux, qui ne relèvent que de l’abbé, lequel n’intervient pas.</p>
         </div>
-        <div>
+        <div xml:id="r481315">
           <head rend="uc">Conclusion</head>
           <p>Il n’est donc pas étonnant de voir la facilité et la rapidité avec laquelle la Réforme s’introduit à St-Gilles ; le terrain est bien préparé pour la recevoir, le peuple s’est détaché de l’Eglise qui ne le satisfait plus, les pouvoirs publics sont négligents à veiller aux intérêts de l’Eglise, plus tard même favorables aux idées nouvelles, qui s’introduisent alors avec facilité parmi le peuple.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r481326">
         <pb source="https://nakala.fr/10.34847/nkl.ae68tea9#0cf39224428352452059e7063125365538c60eba" n="122" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae68tea9/0cf39224428352452059e7063125365538c60eba/full/full/0/default.jpg"/>
         <head rend="uc">II
          <lb/>l’apparition du protestantisme</head>
-        <div>
+        <div xml:id="r481339">
           <head rend="uc">Chapitre I
            <lb/>Les débuts du protestantisme dans la région
            <lb/>du sud-est</head>
@@ -121,7 +119,7 @@
           <p>Tout le plat pays aux alentours de ces grandes villes est gagné à son tour par la « contagion luthérienne ».</p>
           <p><hi rend="i">La réaction catholique.</hi> Les progrès sont tels dans tout le pays que le roi juge utile d’intervenir ; en 1532 il interdit les assemblées ; en 1547 il ordonne au sénéchal de Beaucaire et Nîmes de procéder diligemment contre les hérétiques. Le Parlement de Toulouse ne cesse pas de lancer contre eux des arrêts, et les fait fustiger jusqu’à effusion de sang, rouer vifs, envoyer aux galères à perpétuité ou brûler vifs. Des Grands-jours se tiennent à Nîmes en <pb source="https://nakala.fr/10.34847/nkl.ae68tea9#1ac6ef53f3ce3887f04d33e7c326d82cbe5182e0" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae68tea9/1ac6ef53f3ce3887f04d33e7c326d82cbe5182e0/full/full/0/default.jpg"/>1541 pour les juger ; le Parlement envoie dans la région des commissions pour enquêter sur les hérétiques en 1552, 1554, 1560, qui jugent et condamnent. Le roi envoie en 1560 son lieutenant le comte de Villars, avec des troupes, pour débarrasser le pays « de cette canaille ». Les exécutions capitales sont fréquentes mais elles ne font qu’enraciner la foi nouvelle au cœur du peuple, et l’on voit en 1560 les plus petits bourgs du pays demander des pasteurs à Genève, qui ne suffit pas à en fournir.</p>
         </div>
-        <div>
+        <div xml:id="r481384">
           <head rend="uc">Chapitre II
            <lb/>Les débuts du protestantisme à Saint-Gilles</head>
           <p>A. – <hi rend="i">Rapports avec la région.</hi> Avec cette région si tôt conquise aux idées nouvelles, St-Gilles est en contact direct :</p>
@@ -137,19 +135,19 @@
           <p>Elle essaye aussi de se réformer elle-même pour mieux <pb source="https://nakala.fr/10.34847/nkl.ae68tea9#adf43b7994d86328ea69c6c98f733c64ab9b44ff" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae68tea9/adf43b7994d86328ea69c6c98f733c64ab9b44ff/full/full/0/default.jpg"/> lutter contre l’influence protestante grandissante. Dès 1541, et jusqu’à la fin du <num>xvi<hi rend="sup">e</hi></num> siècle, des séances entières de Chapitre sont consacrées à prendre des décisions pour la réforme des mœurs et de la tenue des chanoines, mais inutilement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r481490">
         <head rend="uc">III
          <lb/>l’Eglise « dressee »
          <lb/>l’organisation et le, développement
          <lb/>du protestantisme à Saint-Gilles jusqu’à
          <lb/>l’édit de Nantes</head>
-        <div>
+        <div xml:id="r481504">
           <head rend="uc">Chapitre I
            <lb/>L’organisation des églises ; vue générale</head>
           <p>a) <hi rend="i">Les pasteurs.</hi> Les pasteurs faisaient leurs études préparatoires au collège de Genève, fondé par Calvin en 1559. Ils étaient ensuite pourvus d’une ou plusieurs églises souvent fort éloignées les unes des autres, qu’ils desservent et qui leur versent un traitement d’environ vingt livres par mois ; mais les églises de cette époque sont souvent fort négligentes à s’acquitter de ce devoir.</p>
           <p>h) <hi rend="i">Le Consistoire.</hi> C’est une assemblée composée de diacres et d’anciens, aide puissante pour le pasteur qui en préside les séances ; il administre et dirige l’église où il fait appliquer la « discipline » de Calvin, et surveille étroitement les fidèles aussi bien dans leurs devoirs religieux que dans leur vie privée ; c’est un véritable tribunal de famille. Il dirige mémo entièrement les villes où les Réformés sont <pb source="https://nakala.fr/10.34847/nkl.ae68tea9#878281b2ec1bcf8a159266d12bbde160e7f6eadd" n="128" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae68tea9/878281b2ec1bcf8a159266d12bbde160e7f6eadd/full/full/0/default.jpg"/>en majorité, et n’est subordonné qu’aux colloques et aux synodes, ce qui donne une grande cohésion au parti protestant. Grâce à cette sévérité, il obtient une réforme générale des mœurs dans les villes protestantes.</p>
         </div>
-        <div>
+        <div xml:id="r481532">
           <head rend="uc">Chapitre II
            <lb/>L’église réformée de St-Gilles</head>
           <p>a) <hi rend="i">Bernard Arnail.</hi> Avec l’année 1560, on arrive à l’organisation de l’église réformée ; le pasteur est Bernard Arnail, ancien maître d’école à St-Gilles. Sous son ministère, les assemblées sont nombreuses, et les Réformés ne se cachent plus ; ils ne sont pas encore très nombreux ; assez pourtant pour inquiéter le Chapitre, qui requiert la force armée pour accompagner la procession du 1<hi rend="sup">er</hi> septembre, assez aussi pour attirer les représailles de l’autorité : une compagnie de gendarmerie est envoyée à St Gilles en 1560 pour y réprimer les assemblées, et un impôt de 360 livres est levé sur les habitants réformés de la ville pour couvrir les frais qu’elle occasionne ; la même année une autre taille de plus de 923 livres leur est encore imposée. Les répressions sur les personnes accompagnent les levées d’argent.</p>

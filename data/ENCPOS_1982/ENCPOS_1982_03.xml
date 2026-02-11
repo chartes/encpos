@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,27 +55,27 @@
         <forename>Michèle</forename>
         <surname>Bimbenet-Privat</surname>
       </byline>
-      <div>
+      <div xml:id="r1083218">
         <head rend="uc">Introduction</head>
         <p>Le brillant épisode du séjour de Benvenuto Cellini à la cour de France a quelque peu éclipsé l’activité des orfèvres parisiens de la seconde moitié du <num>xvi<hi rend="sup">e</hi></num> siècle. Certes, pour cette époque, les œuvres conservées sont rares et, le plus souvent, leurs auteurs n’ont pas été identifiés. La richesse des sources permet cependant de retracer, pendant quarante années de troubles politiques, de famines et de guerres religieuses, la vie corporative de ces artisans, les profils commerciaux de ces marchands et l’existence quotidienne de ces bourgeois.</p>
       </div>
-      <div>
+      <div xml:id="r1083234">
         <head rend="uc">Sources</head>
         <p>Aux Archives nationales, la sous-série Q<hi rend="sup">1</hi> et les plans de la série N fournissent de précieuses indications sur la localisation des boutiques et sur les bâtiments corporatifs des orfèvres. L’étude de la réglementation et du métier proprement dit repose sur le dépouillement des minutes du greffe de la Cour des monnaies (sous-série Z <hi rend="sup">1 B</hi>) et de quelques registres de la série T (notamment T 1490<hi rend="sup">1</hi> et 1490<hi rend="sup">2</hi>). La vie de la corporation peut être étudiée grâce d’une part aux règlements et aux comptes corporatifs (KK 1344-1350), d’autre part aux archives des diverses confréries d’orfèvres (KK 1014<hi rend="sup">bis</hi>-1014<hi rend="sup">ter</hi>). Les séries L et LL donnent des renseignements utiles sur les trésors des églises parisiennes et sur la part prise par les orfèvres dans leur constitution, tandis que divers documents appartenant au fonds des manuscrits français de la Bibliothèque nationale permettent de définir le rôle joué par la clientèle royale ou gravitant autour de la cour.</p>
         <p>Pour connaître le milieu social, nous avons exploité les actes insinués au Châtelet (série Y) et surtout profité de l’immense documentation inédite <pb source="https://nakala.fr/10.34847/nkl.3dfflbyw#13cea76753feb55bff118d4d29b5b4c33e2105b9" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.3dfflbyw/13cea76753feb55bff118d4d29b5b4c33e2105b9/full/full/0/default.jpg"/>conservée au Minutier central des notaires parisiens (études III, VI, VIII, IX, XIX, XX, LIV, LXXXV, CXXII...). Au Cabinet des manuscrits, le fichier Laborde s’est également révélé d’une consultation fructueuse.</p>
         <p>En dehors des objets aujourd’hui conservés, la documentation iconographique est empruntée au fonds des estampes d’ornement du Département des estampes de la Bibliothèque nationale.</p>
       </div>
-      <div>
+      <div xml:id="r1083279">
         <head rend="uc">Première partie
          <lb/>Le métier</head>
-        <div>
+        <div xml:id="r1083287">
           <head rend="uc">Chapitre premier
            <lb/>le cadre du travail : quartiers et boutiques</head>
           <p><hi rend="i">Localisation des ateliers.</hi> – L’orfèvre du <num>xvi<hi rend="sup">e</hi></num> siècle, comme ses prédécesseurs, s’établit de préférence soit sur le pont au Change soit dans ses abords de la rive droite : outre le poids d’une tradition fortement ancrée parmi ces dynasties d’artisans, la proximité des bâtiments corporatifs (rue des Lavandières), de la Cour des monnaies et les prescriptions des gardes qui préfèrent réunir pour mieux contrôler, sont des facteurs d’explication suffisants. Enfin, l’orfèvre se trouve ainsi aux portes du Louvre et à proximité des quartiers aristocratiques où il rencontre ses principaux clients. D’autres établissements, plus sporadiques, ne sont pas négligeables : certains privilégiés travaillent dans l’enclos du palais ; le Petit-Nesle abrite encore les anciens compagnons de Benvenuto Cellini ; la ville entière, enfin, cache des orfèvres sans maîtrise, sans statut, sans atelier, mais dont l’activité défie toute réglementation et toute poursuite.</p>
           <p><hi rend="i">L’« ouvroir » et la boutique.</hi> – La forge (<hi rend="i">ouvroir</hi>) ne se manifeste à l’attention du passant que par son enseigne. Cette amorce de publicité compense la discrétion d’un atelier que, par mesure de prudence, protègent de lourds vantaux de bois. Une fenêtre laisse pénétrer le jour nécessaire au travail de précision de l’orfèvre. Sombre et étroit, le reste de l’atelier est éclairé de bougies. Derrière l’établi, la forge (<hi rend="i">fourneau</hi>) est placée contre le mur du fond.</p>
           <p><hi rend="i">Les outils du métier.</hi> – Les descriptions contenues dans une cinquantaine d’inventaires après décès, les gravures d’Étienne Delaune, et quoique postérieures, les planches de l’<hi rend="i">Encyclopédie</hi> de Diderot permettent de reconstituer l’outillage de base des ateliers parisiens de l’époque : marteaux, bigornes, enclumes nécessaires au martelage, outils de décoration (tas, <pb source="https://nakala.fr/10.34847/nkl.3dfflbyw#043a51d7be7c9811f6b0064daf5aa973a9d34848" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.3dfflbyw/043a51d7be7c9811f6b0064daf5aa973a9d34848/full/full/0/default.jpg"/>étampes, poinçons, burins, ciselets), matériel de soudure, bancs à tirer. Beaucoup de ces outils sont importés d’Allemagne. L’orfèvre apparaît comme l’artisan universel, maître des techniques les plus diverses. Il est souvent secondé par sa femme ou sa fille, les brunisseresses d’argenterie, et il est assisté dans ses tâches multiples par un personnel nombreux.</p>
         </div>
-        <div>
+        <div xml:id="r1083337">
           <head rend="uc">Chapitre II
            <lb/>Le cadre corporatif</head>
           <p>L’image, volontairement figée, que les ordonnances royales donnent de l’existence des membres de la corporation, est loin de correspondre à la réalité.</p>
@@ -90,7 +88,7 @@
           <p><hi rend="i">Les fonctions du clerc et des gardes des orfèvres.</hi> – Le clerc assure la police du commerce de l’orfèvrerie et tient registre des vols que les orfèvres lui signalent. Plus puissants, les six gardes sont en liaison avec la Cour des monnaies ; ils visitent les ateliers, contrôlent les poinçons et le titre des métaux, dénichent les compagnons en chambre et mettent à l’amende les fautifs. Ils sont élus annuellement par un collège formé par leurs prédécesseurs des deux années précédentes. Les gardes constituent une aristocratie très fermée et jalousée. Leur sévérité les fait souvent haïr de leurs confrères : un exemple extrême est offert par Étienne Tostée, assassiné en 1560 par un compagnon.</p>
           <p>Ainsi, la corporation fait-elle de plus en plus figure de « forteresse professionnelle ».</p>
         </div>
-        <div>
+        <div xml:id="r1083387">
           <head rend="uc">Chapitre III
            <lb/>La vie de la corporation</head>
           <p>La prospérité du début du siècle contraste avec l’austérité des années 1550-1590.</p>
@@ -99,24 +97,24 @@
           <p><hi rend="i">La corporation dans la cité.</hi> – Diverses confréries, placées sous le vocable de saint Éloi, des Martyrs (à Montmartre) ou de sainte Anne (à Notre-Dame) regroupent les orfèvres parisiens. La confrérie Sainte-Anne est la plus <pb source="https://nakala.fr/10.34847/nkl.3dfflbyw#97ccf1e042e89a3306e79100fd17a23cdbbf6bd4" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.3dfflbyw/97ccf1e042e89a3306e79100fd17a23cdbbf6bd4/full/full/0/default.jpg"/>importante et participe activement à la vie de la cité : coutume du mai à Notre-Dame, et surtout processions, menées par le roi et la cour, destinées à écarter famines, guerres et hérésies, et toutes vouées à la glorification de la dynastie des Valois. Ce loyalisme monarchique n’est sans doute pas exempt de préoccupation mercantile.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1083441">
         <head rend="uc">Deuxième partie
          <lb/>Le commerce</head>
-        <div>
+        <div xml:id="r1083449">
           <head rend="uc">Chapitre premier
            <lb/>le marché</head>
           <p><hi rend="i">La signification de l’achat.</hi> – Si les marchés donnent l’image d’une clientèle au statut social élevé (noblesse, prélats, seigneurs de la cour), la frange inférieure des clients des orfèvres se laisse difficilement connaître. Un sondage, réalisé dans cinquante inventaires après décès de bourgeois parisiens, montre que la bourgeoisie possède plus souvent un bijou ou une pièce de vaisselle isolée qu’un buffet complet. L’achat d’orfèvrerie revêt un aspect social : c’est un signe du rang ou de la richesse. D’autres clients se recrutent parmi les collectionneurs, tels que le cardinal de Lorraine qui, dans la seule année 1551, passe onze marchés d’orfèvrerie. Les achats baissent en temps de troubles : aucun marché n’a été retrouvé pour la décennie 1580-1590, sinon dans le milieu, exceptionnellement préservé, de la cour.</p>
           <p><hi rend="i">Typologie du client.</hi> – L’Église, cliente traditionnelle, voit ses possibilités d’achat décroître tout au long du siècle : appauvrie par les taxes du pouvoir royal, en butte aux pillages, elle est hors d’état de reconstituer ses trésors ; seuls les prélats aristocrates et les riches fabriques passent encore commande aux orfèvres. Les communautés urbaines, à l’occasion des entrées princières, s’adressent fréquemment à ceux-ci. Le renom du métier parisien se maintient, comme l’atteste la régularité des marchés passés par les confrères de province et de l’étranger. Lorsque ces derniers doivent restreindre leurs voyages, jugés périlleux, la noblesse demeure la cliente la plus fidèle des orfèvres.</p>
           <p><hi rend="i">Les commandes de la cour et de la famille royale.</hi> – Etre distingué par le roi, c’est pour le marchand se faire connaître de tout le milieu courtisan. Les fêtes de la cour ou les visites diplomatiques sont autant d’occasions <pb source="https://nakala.fr/10.34847/nkl.3dfflbyw#a31e9bc0801748c74917957dfd33c588f647731a" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.3dfflbyw/a31e9bc0801748c74917957dfd33c588f647731a/full/full/0/default.jpg"/>de commandes. Au regard de la masse des ouvrages exécutés, les orfèvres attitrés auprés d’un membre de la famille royale sont cependant plus nombreux (Lambert Hotman, Mathurin Belot, Jean Adam, Jacques Foucault, Jean et Bonaventure Cousin, Guillaume Du Carnoy, Richard Toutain, Pierre Filacier).</p>
         </div>
-        <div>
+        <div xml:id="r1083481">
           <head rend="uc">Chapitre II
            <lb/>Les méthodes de commerce</head>
           <p><hi rend="i">La vente à la boutique.</hi> – Selon l’importance du marchand, la vente se fait dans un coin de l’atelier, ou dans une pièce spécialement aménagée à cet effet, où trône la « montre », vitrine d’exposition du fonds. Les livres-journaux conservés sont rares ; de ce fait, il resterait peu de traces des transactions commerciales si les marchés ne palliaient cette insuffisance. 50 % de ceux-ci sont passés en référence à des « portraits » ou modèles dessinés ou gravés, souvent apportés par le client. Celui-ci fournit également le métal, tandis que le montant de la façon est fixé à l’amiable, parfois après expertise de confrères.</p>
           <p><hi rend="i">La hiérarchie des commerçants.</hi> – De l’humble orfèvre qui ne dispose que d’un maigre fonds d’anneaux à l’artiste remarqué par le roi, l’échelle est grande. Le marchand doit lutter contre les revendeurs ; pour se défendre, il recourt en premier lieu à l’association familiale. Pour Guillemette Calleau et son fils François Pasquier, par exemple, l’association est l’unique condition de survie. A l’échelon supérieur, l’association se fait plus dynamique pour prospecter le marché provincial, voire pour envoyer un membre de la famille, comme correspondant à l’étranger (les Garnier). Les grands orfèvres qui reçoivent d’importantes commandes, emploient un grand nombre de sous-traitants et font ainsi vivre des ateliers plus modestes (Guillaume Du Carnoy). Plus sa réussite se confirme, plus l’orfèvre se détache de son état originel d’artisan pour se rapprocher du statut de marchand.</p>
           <p><hi rend="i">La réussite : les .métiers annexes.</hi> – La Monnaie de Paris offre un milieu où les artisans du métal peuvent se mêler aux graveurs (Etienne Delaune) ou aux sculpteurs (Germain Pilon), d’où son rôle dans la diffusion des styles et des modèles. Les ambitieux y trouvent également la possibilité de quitter l’artisanat : Claude Marcel, passé par ce biais dans les finances royales et les milieux de la cour, en est un bon exemple.</p>
         </div>
-        <div>
+        <div xml:id="r1083508">
           <head rend="uc">Chapitre III
            <lb/>La production</head>
           <p><hi rend="i">Le jeu des estampes.</hi> – D’après les inventaires après décès étudiés, six orfèvres sur cinquante possèdent dans leur atelier des recueils d’estampes (les <pb source="https://nakala.fr/10.34847/nkl.3dfflbyw#28696652fddc9bb8fab78254e5a1447b2ae3252b" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.3dfflbyw/28696652fddc9bb8fab78254e5a1447b2ae3252b/full/full/0/default.jpg"/><hi rend="i">pourtraictures</hi>), mais le recours aux estampes est sans doute plus fréquent, la modicité du prix des gravures les faisant souvent dédaigner par les priseurs. Bien que certains orfèvres soient eux-mêmes graveurs (Toutain), la plupart utilisent les œuvres de René Boyvin, d’Étienne Delaune ou d’Androuet Du Cerceau : ainsi les thèmes de l’École de Fontainebleau inspirent-ils toujours les orfèvres, quarante ans après les gravures de Fantuzzi. Par ailleurs, la fuite des graveurs protestants vers les pays voisins contribue à situer l’orfèvrerie parisienne dans un courant plus européen qu’étroitement français.</p>
@@ -124,10 +122,10 @@
           <p><hi rend="i">La bijouterie.</hi> – Cette catégorie de travaux prédomine dans les petits ateliers, trop modestes pour manier d’importantes quantités de métaux. Deux tendances dominent la bijouterie : sa valeur symbolique (devises, allégories) et la complexité de sa facture, incarnée par le <hi rend="i">comesso,</hi> qui mêle glyptique, orfèvrerie et émaillerie. Étienne Delaune demeure l’inspirateur des artistes, attachés au service de la cour (François Dujardin, Jean Adam, Richard Toutain).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1083548">
         <head rend="uc">Troisième partie
          <lb/>Étude sociale</head>
-        <div>
+        <div xml:id="r1083556">
           <head rend="uc">Chapitre premier
            <lb/>la fortune</head>
           <p><hi rend="i">La fortune de départ.</hi> – L’étude de soixante-neuf contrats de mariage montre que 80 % des orfèvres épousent des filles ou des veuves de maîtres ; le montant des dots s’échelonne de cinquante à huit cents livres, à l’image des inégalités déjà signalées entre les membres de la corporation. Les douaires sont toujours plus modestes, l’orfèvre n’étant alors souvent que compagnon, avide d’un mariage bénéfique.</p>
@@ -136,14 +134,14 @@
           <p>A chaque type de fortune correspond un type d’investissements : rentes pour les moins riches, importance du fonds et des dettes actives pour les plus gros marchands qui placent aussi leur fortune dans des immeubles à Paris et des terres en banlieue.</p>
           <p><hi rend="i">Le milieu de l’orfèvre.</hi> – Malgré la disparité des fortunes, le milieu professionnel reste très homogène. D’après un sondage réalisé dans le fichier Laborde, 60,8 % des parrains d’enfants d’orfèvres gravitent autour du même milieu professionnel, membres de la famille ou voisins. Les carrières des fils, les mariages des filles sortent rarement de ce domaine restreint. Au-delà du jeu de la fortune, l’appartenance au monde artisanal demeure souveraine.</p>
         </div>
-        <div>
+        <div xml:id="r1083591">
           <head rend="uc">Chapitre II
            <lb/>La vie au logis</head>
           <p><hi rend="i">Le mobilier domestique.</hi> – Tous les orfèvres – y compris le groupe des artistes royaux – obéissent à la règle de l’entassement dans les maisons étroites du pont au Change ou de ses environs. Le mobilier, de noyer ou de chêne, diffère peu d’une maison à l’autre ; la richesse se traduit seulement par son abondance ou sa décoration.</p>
           <p><hi rend="i">Le décor intérieur.</hi> – Trente maisons sur cinquante possèdent des tableaux, d’inspiration religieuse pour la plupart, plus profanes chez les amateurs d’art (Richard Toutain). Les tapisseries, en revanche, n’apparaissent que dans les familles aisées dont le cadre de vie, les vêtements, les bijoux ou la vaisselle sont identiques à ceux de tous les notables de l’artisanat.</p>
           <p><hi rend="i">Occupations et loisirs.</hi> – Neuf orfèvres sur cinquante possèdent une bibliothèque : sans être illettré, leur milieu n’atteint jamais l’érudition de celui des libraires ou des imprimeurs. L’orfèvre est avant tout l’homme de la figure, plus que celui du caractère. A défaut de lire, il prise davantage les jeux, la musique, les rencontres, agréments d’une vie gaie et placée sous le signe de la famille.</p>
         </div>
-        <div>
+        <div xml:id="r1083618">
           <head rend="uc">Chapitre III
            <lb/>La vie dans Paris</head>
           <p><hi rend="i">Un rôle à jouer ou à subir.</hi> – Dans la ville ligueuse, certains orfèvres – les notables – exercent un rôle : capitaines de quartiers, juges de la mar<pb source="https://nakala.fr/10.34847/nkl.3dfflbyw#53784e1f07eaeae4272122d984089570a012e4f0" n="37" facs="https://api.nakala.fr/iiif/10.34847/nkl.3dfflbyw/53784e1f07eaeae4272122d984089570a012e4f0/full/full/0/default.jpg"/>chandise, échevins (Claude Marcel). Certains, à l’opposé, subissent leur condition : freinés dans leur travail par les lois somptuaires, atteints dans leurs biens par les pillages, ils vivent dans un climat d’insécurité que traduit l’abondance des armes retrouvées dans les boutiques.</p>
@@ -151,20 +149,20 @@
           <p><hi rend="i">L’option protestante.</hi> – Il est difficile d’apprécier avec exactitude la pénétration de la Réforme dans le milieu de l’orfèvrerie. Parmi les plus touchés, apparaissent ceux qui fréquentent les milieux artistiques réformés, traitent avec des confrères étrangers passés à la Réforme ou recrutent leurs clients parmi la noblesse huguenote : on les devine à leur absence des registres paroissiaux, à leur départ de la capitale, à leur sort tragique lors de la Saint-Barthélémy. Il serait pourtant illusoire d’exagérer de si faibles indices, car massacres et arrestations peuvent autant être imputables à la richesse des orfèvres qu’à leur appartenance religieuse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1083651">
         <head rend="uc">Conclusion</head>
         <p>L’étude du commerce de l’orfèvrerie parisienne met en évidence, au-delà de l’appartenance à une corporation et à un milieu d’artisans et d’artistes, la disparité profonde des destins individuels et les difficultés éprouvées durant les années 1550-1590.</p>
       </div>
-      <div>
+      <div xml:id="r1083661">
         <head rend="uc">Pièces justificatives</head>
         <p>Plan du pont au Change en 1575. – Contrats professionnels (apprentissage, contrat de compagnon). – Marchés d’orfèvrerie. – Extraits d’inventaires après décès (outils, tableaux, vêtements, orfèvrerie). – Graphiques et tableaux : âge des apprentis, répartition de la clientèle, répartition des fortunes, dispositions des habitations.</p>
       </div>
-      <div>
+      <div xml:id="r1083671">
         <pb source="https://nakala.fr/10.34847/nkl.3dfflbyw#3443235583c452103831a6f1dabc28d1696b3ef0" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.3dfflbyw/3443235583c452103831a6f1dabc28d1696b3ef0/full/full/0/default.jpg"/>
         <head rend="uc">Répertoire des orfèvres et des enseignes</head>
         <p>Répertoire de 1455 orfèvres (apprentis, compagnons et maîtres). – Répertoire de 300 enseignes.</p>
       </div>
-      <div>
+      <div xml:id="r1083686">
         <head rend="uc">Album</head>
         <p>Photographies et projets de la façade de la chapelle des orfèvres. – Photographies de pièces d’orfèvrerie parisienne (Paris, Cabinet des médailles de la Bibliothèque nationale, Musée du Louvre ; Rome, Musée du Vatican ; Vienne, Kunsthistorisches Museum ; Zurich, Kunstgewerbe Muséum). – Estampes et dessins d’ornemanistes.</p>
       </div>

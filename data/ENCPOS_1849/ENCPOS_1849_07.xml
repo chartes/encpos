@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1849_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1849_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -52,19 +50,19 @@
         <forename>E.</forename>
         <surname>Héron de Villefosse</surname>
       </byline>
-      <div>
+      <div xml:id="r6219">
         <head rend="uc">I.</head>
         <p>Le roman de l’<hi rend="i">Image du monde</hi> n’est pas de Jean de Beauvais, mais d’un Messin nommé Gossuin.</p>
       </div>
-      <div>
+      <div xml:id="r6233">
         <head rend="uc">II.</head>
         <p>Ce poëme n’est pas un ouvrage original, mais est extrait de plusieurs autres, surtout du traité <hi rend="i">de Imagine mundi,</hi> qu’on attribue à Honoré d’Autun.</p>
       </div>
-      <div>
+      <div xml:id="r6247">
         <head rend="uc">III.</head>
         <p>Le plan, entièrement subordonné à la religion, diffère de celui des auteurs qui ont fourni les matières.</p>
       </div>
-      <div>
+      <div xml:id="r6257">
         <head rend="uc">IV.</head>
         <p>L’auteur semble mériter plus d’indulgence qu’on ne lui en a accordé. 11 a une certaine indépendance d’esprit, et ne répète pas servilement les préjugés reçus.</p>
         <pb source="https://nakala.fr/10.34847/nkl.7581axbh#35923142188231abb27a3bfa216cda23136c7183" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.7581axbh/35923142188231abb27a3bfa216cda23136c7183/full/full/0/default.jpg"/>

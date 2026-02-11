@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,10 +58,10 @@
         <surname>Babelon</surname>
         <roleName>Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r336897">
         <head rend="uc">Première partie
          <lb/>Étude sur les Moralités en général</head>
-        <div>
+        <div xml:id="r336905">
           <head rend="uc">Chapitre premier
            <lb/>de la Moralité, genre dramatique</head>
           <p>§ I. DÉFINITION. – La Moralité peut être définie : une pièce dramatique composée en vue de l’édification et où paraissent en scène des allégories personnifiées. – Au point de vue chronologique comme au point de vue de l’action dramatique, on doit les considérer comme un intermédiaire entre les Mystères et les Miracles par personnages, d’une part, et les Farces et Soties, d’autre part.</p>
@@ -76,7 +74,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.f84b7183#cf06011ff62aa0ee4c0bd9c46e04b7d92d6cf67f" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.f84b7183/cf06011ff62aa0ee4c0bd9c46e04b7d92d6cf67f/full/full/0/default.jpg"/>
           <p>§ V. HISTORIQUE DE LA MORALITÉ. – Les dates extrêmes de représentations de Moralités sont 1390 et 1680. Mais leur période de floraison peut être circonscrite entre le milieu du <num>xv<hi rend="sup">e</hi></num> siècle et le milieu du <num>xvi<hi rend="sup">e</hi></num>.</p>
         </div>
-        <div>
+        <div xml:id="r337014">
           <head rend="uc">Chapitre II
            <lb/>Des différentes classes de Moralités. – Les Moralités
            <lb/>dérivées de la psychomachie</head>
@@ -89,15 +87,15 @@
           <p>Nous donnons le catalogue des pièces appartenant à la première catégorie, celle où la Moralité de Bien Advisé et Mal Advisé doit être classée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r337047">
         <head rend="uc">Deuxième partie
          <lb/>La Moralité de bien advisé et mal advisé</head>
-        <div>
+        <div xml:id="r337055">
           <head rend="uc">Chapitre III
            <lb/>Historique de la Moralité de bien advisé et mal advisé</head>
           <p>Plusieurs auteurs ont indiqué différentes dates au sujet de l’apparition de cette Moralité. Les documents viennent rectifier leurs opinions : <hi rend="i">Bien Advisé</hi> fut joué en 1439 à Rennes, en 1448 à Laval et en 1455 à Nantes.</p>
         </div>
-        <div>
+        <div xml:id="r337071">
           <pb source="https://nakala.fr/10.34847/nkl.f84b7183#0c1df9978c2acdf04593698ce55adc2de3fb8955" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.f84b7183/0c1df9978c2acdf04593698ce55adc2de3fb8955/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le texte de la Moralité de bien advisé</head>
@@ -116,13 +114,13 @@
            <lb/>Description et histoire du manuscrit de bien advisé</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r337151">
           <head rend="uc">Chapitre VI
            <lb/>Le texte imprimé de bien advisé</head>
           <p><hi rend="i">a.</hi> L’exemplaire de la Bibliothèque Nationale. <hi rend="i">b.</hi> L’exemplaire du musée Condé, à Chantilly.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r337171">
         <head rend="uc">Troisième partie
          <lb/>La Moralité de bien Advisé et mal Advisé
          <lb/>texte établi d’après les deux rédactions</head>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_20" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_20" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,17 +57,17 @@
         <forename>Charles</forename>
         <surname>Valois</surname>
       </byline>
-      <div>
+      <div xml:id="r327245">
         <head rend="uc">Première partie
          <lb/>L’historien et les caractères de son œuvre</head>
-        <div>
+        <div xml:id="r327253">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits</head>
           <p>Le manuscrit original (B.N., fr. 10270). C’est un autographe, qui date, en apparence, du <num>xvi<hi rend="sup">e</hi></num> siècle. Ce n’est qu’un fragment de l’œuvre.</p>
           <p>Il en existe une copie du <num>xvii<hi rend="sup">e</hi></num> siècle (B.N., fr. 23295-96), faite d’après l’original, lorsqu’il était complet. – Une troisième main, au <num>xvii<hi rend="sup">e</hi></num> siècle, a tantôt retouché, tantôt surchargé l’écriture de la copie. Divers indices d’une préparation pour l’impression.</p>
           <p>Cette copie vient d’une bibliothèque de l’Oratoire. Fausse attribution au P. Maimbourg, jésuite. – L’auteur présumable de la surcharge serait le P. Denis Héron, oratorien.</p>
         </div>
-        <div>
+        <div xml:id="r327289">
           <pb source="https://nakala.fr/10.34847/nkl.51eff0he#8ccac9940e579e01614e7a41c04160400042aade" n="176" facs="https://api.nakala.fr/iiif/10.34847/nkl.51eff0he/8ccac9940e579e01614e7a41c04160400042aade/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’historien</head>
@@ -82,7 +80,7 @@
           <p><hi rend="i">Dessein de l’auteur. Composition de l’œuvre.</hi> Désordre, répétitions. Insuffisance de la chronologie. Lacunes déconcertantes, notamment au sujet de la Ligue dans les provinces.</p>
           <p>L’auteur a pour principe déclaré de ne pas expliquer les causes des événements, mais il abuse de cette prudence historique. Ses réticences, quand il est obligé de juger les rois, princes, prélats ou autres grands personnages.</p>
         </div>
-        <div>
+        <div xml:id="r327349">
           <pb source="https://nakala.fr/10.34847/nkl.51eff0he#42f6d8c6ee06c443ea8ca379720e629822f48604" n="177" facs="https://api.nakala.fr/iiif/10.34847/nkl.51eff0he/42f6d8c6ee06c443ea8ca379720e629822f48604/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les tendances</head>
@@ -95,7 +93,7 @@
           <p>Mais son hostilité contre les « Politiques » ne l’empêche pas de manifester une vive sympathie pour le Béarnais.</p>
           <p>Ce témoignage d’un Ligueur présente d’autant plus d’intérêt que nous ne connaissions guère – sauf des pamphlets dépourvus de valeur historique ou des mémoires d’intérêt local – que des histoires royalistes <pb source="https://nakala.fr/10.34847/nkl.51eff0he#5d404ed8ed4fd0ed1bd482021a70290b9a85d7fb" n="178" facs="https://api.nakala.fr/iiif/10.34847/nkl.51eff0he/5d404ed8ed4fd0ed1bd482021a70290b9a85d7fb/full/full/0/default.jpg"/>(abstraction faite des œuvres modernes, généralement passionnées).</p>
         </div>
-        <div>
+        <div xml:id="r327392">
           <head rend="uc">Chapitre IV
            <lb/>La méthode d’information – Les sources</head>
           <p>L’Anonyme transcrit desactes authentiques, des lettres, des pamphlets, qu’il sauve de l’oubli ; des procès-verbaux d’intéressantes discussions entre Ligueurs et Royalistes.</p>
@@ -104,19 +102,19 @@
           <p>Ses références, très vagues, sont indiquées par des périphrases, quoiqu’il cite parfois nommément, du côté protestant, A. d’Aubigné, Jean de Montlyard, plusieurs pamphlets, etc., et, du côté catholique, J.-A. de Thou (qu’il apprécie avec une rare justesse), Pierre Matthieu, Julien Peleus, Palma Cayet, le <hi rend="i">Catholique anglais,</hi> le <hi rend="i">De justa Henrici III abdicatione,</hi> etc.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r327422">
         <head rend="uc">Deuxième partie
          <lb/>Table analytique des matières
          <lb/>de l’« histoire de la ligue »</head>
         <p>Cette table est accompagnée de l’indication des principaux passages totalement ou partiellement originaux, ou puisés à des sources aujourd’hui perdues.</p>
         <p>On s’est efforcé de déterminer les plus notables sources <pb source="https://nakala.fr/10.34847/nkl.51eff0he#b53bea07dbe876bd4126c9d60197b9f09775964d" n="179" facs="https://api.nakala.fr/iiif/10.34847/nkl.51eff0he/b53bea07dbe876bd4126c9d60197b9f09775964d/full/full/0/default.jpg"/>utilisées par l’Anonyme, sauf dans les très nombreux passages où il se borne à reproduire la version communément admise.</p>
       </div>
-      <div>
+      <div xml:id="r327444">
         <head rend="uc">Troisième partie
          <lb/>Enseignements à tirer de l’œuvre de l’anonyme</head>
         <p>L’historien apporte quelque lumière sur de multiples événements, espacés à travers plus de six années (1586-1592) ; mais son récit, une fois critiqué, n’en précise le plus fréquemment que des détails.</p>
         <p>Les principaux enseignements fournis par cet ouvrage peuvent être rattachés à l’histoire des Ligueurs parisiens dits « Zélés » à celle de quelques capitaines de l’Union, et à celle de Mayenne, pendant les quatre premières années de sa rébellion.</p>
-        <div>
+        <div xml:id="r327458">
           <head rend="uc">Chapitre premier
            <lb/>les Zélés à Paris</head>
           <p>§ I<hi rend="sup">er</hi>. <hi rend="i">Un conflit entre Henri III et Jean Boucher, curé de Saint-Benoît</hi> (mai-juin 1587). – Les « Politiques » ayant réédité, en mai 1587, un pamphlet catholique de Gilles Bourdin, qu’ils retournent contre les Ligueurs, Boucher oblige l’imprimeur, Michel de Roigny, à en brûler les exemplaires (17 mai). – A la suite d’une assemblée à l’Hôtel de Ville, où le conseiller Lopin avait préconisé la paix avec les protestants, Boucher outrage en chaire le « fauteur d’hérésie ». Plainte est portée : sévère décision du Conseil du roi à l’égard du curé. Mais celui-ci est sauvé par ses hautes relations ; le président Boucher <pb source="https://nakala.fr/10.34847/nkl.51eff0he#462e18679bfe32efa6d6ed0ce5169c11f18a3e24" n="180" facs="https://api.nakala.fr/iiif/10.34847/nkl.51eff0he/462e18679bfe32efa6d6ed0ce5169c11f18a3e24/full/full/0/default.jpg"/>d’Orsay lui obtient une audience royale pour le 5 juin. Témoins secrètement apostés par le roi.</p>
@@ -127,7 +125,7 @@
           <p>2. Une discussion d’un autre bourgeois de Paris contre Dominique de Vic, gouverneur de Saint-Denis (ms. B.N.), sera utilement rapprochée des dialogues que nous transmet l’Anonyme. – Cette relation semble encore d’origine ligueuse, mais elle est exacte.</p>
           <p>On a montré à tort les chefs de la Ligue conduisant une foule entièrement aveugle, inconsciente, « enragée ». Il y avait, à côté de cet élément méprisable de la population des « villes unies », des Ligueurs honnêtes et, quoique fanatiques, relativements éclairés ; leurs conversations, fixées par des témoins, nous révèlent l’idée directrice de la Ligue, mieux que les déclamations des prédicateurs.</p>
         </div>
-        <div>
+        <div xml:id="r327505">
           <pb source="https://nakala.fr/10.34847/nkl.51eff0he#5314b3de679d5648a64c99934e6cdc3921e2978c" n="181" facs="https://api.nakala.fr/iiif/10.34847/nkl.51eff0he/5314b3de679d5648a64c99934e6cdc3921e2978c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Un des hommes de guerre de la ligue I
@@ -138,7 +136,7 @@
           <p>Sommations ; la réponse des assiégés. – Trahison du capitaine de Villers dans l’abbaye du Pré. Un moine livre l’abbaye de Saint-Vincent. – On indique aux Royaux le point le plus faible de l’enceinte ; la canonnade du 2 décembre prouve aux assiégés que la défense sera vaine. – Retraite de la colonne de secours amenée par le comte de Brissac. – Négociations, capitulation relativement honorable.</p>
           <p>Prestige conservé par Bois-Dauphin dans son parti.</p>
         </div>
-        <div>
+        <div xml:id="r327535">
           <head rend="uc">Chapitre III
            <lb/>Défense de Vincennes par Louis de Beaulieu
            <lb/>(avril-septembre 1590)</head>
@@ -147,7 +145,7 @@
           <p>Beaulieu avertit le duc de Nemours que le roi va tenter « l’Escalade ». Paris est sauvé.</p>
           <p>Cette relation est due à un témoin, qui semble écrire, après le 1<hi rend="sup">er</hi> septembre 1590, une œuvre de circonstance et tendancieuse, mais non sans grande valeur cependant.</p>
         </div>
-        <div>
+        <div xml:id="r327567">
           <head rend="uc">Chapitre IV
            <lb/>Mayenne chef d’armée</head>
           <p>L’opinion traditionnelle ; l’Anonyme la modifie sous quelques rapports en l’aggravant.</p>
@@ -170,7 +168,7 @@
           <p>Mayenne reconnaît, le soir de la déroute, qu’il a été mal conseillé : son amère parole contre les « gens d’écritoire ».</p>
           <p>§ IV. <hi rend="i">Le gaspillage des deniers de l’armée, en 1590.</hi> – Mayenne, pendant le siège de Paris (8 mai-30 août), n’est pas coupable des lenteurs de l’armée de secours, imputables au duc de Parme, mais d’un gaspillage financier dont l’effet l’empêchera (en septembre et octobre) de fournir à son allié des subsistances et des munitions, et déterminera celui-ci à regagner les Flandres. Conséquences : situation toujours critique de Paris ; insécurité de la banlieue ; disette. Mécontentements soulevés par Mayenne : les <hi rend="i">Mémoires</hi> des Seize. – – Les témoignages accusateurs de Mendoza contre Farnèse (20 octobre), contre Mayenne (13, 27 novembre ; décembre), confirment la version de l’Anonyme et montrent, de plus, que l’on s’est trompé sur le crédit dont Mendoza aurait joui auprès des chefs de la Ligue (Arch. Nat.).</p>
         </div>
-        <div>
+        <div xml:id="r327668">
           <pb source="https://nakala.fr/10.34847/nkl.51eff0he#9f3e3dea6bd2bbea8c0cc7060da396b620aaceea" n="185" facs="https://api.nakala.fr/iiif/10.34847/nkl.51eff0he/9f3e3dea6bd2bbea8c0cc7060da396b620aaceea/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Mayenne chef de parti ; ses rapports avec les politiques</head>
@@ -192,7 +190,7 @@
           <p>Mais l’Anonyme omet une des principales causes de la ruine de la Ligue : le duc de Feria, en essayant de faire élire par les Etats généraux un roi de France autrichien, s’aliène tous les bons Français (19 juin 1593) et jette définitivement le discrédit sur le parti que protège l’Espagne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r327755">
         <head rend="uc">Conclusion</head>
         <p>La partialité du Ligueur anonyme et ses nombreux emprunts aux écrivains ses devanciers rendent souvent son témoignage négligeable.</p>
         <p>Il contribue cependant à élucider, outre un grand nombre d’événements isolés, compris surtout entre 1586 et 1592, plusieurs faits militaires importants de 1589 et 1590. Il donne une idée nouvelle, sinon toujours exacte, de la politique intérieure du duc de Mayenne à Paris. 11 révèle d’intéressants pamphlets et de longs dialogues, pris sur le vif, entre Henri III et le prédicateur Boucher, entre « catholiques royaux » et « catholiques unis ».</p>

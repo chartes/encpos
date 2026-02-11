@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,10 +65,10 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r493094">
         <head rend="uc">Premiere partie
          <lb/>L’organisation administrative</head>
-        <div>
+        <div xml:id="r493102">
           <head rend="uc">Chapitre premier
            <lb/>l’intendant de la marine; ses fonctions.</head>
           <p>Les Intendants de la Marine apparaissent au XVII<hi rend="sup">e </hi>siècle. Etablis à la suite des armées navales, ils ont les mêmes attributions que les Intendants des armées de terre. Un peu plus tard, fixés au chef-lieu d’un département maritime, ils peuvent néanmoins embarquer comme Intendants des armées navales ; les Intendants de la Marine possèdent des pouvoirs très étendus <pb source="https://nakala.fr/10.34847/nkl.decb438a#2a1aef2dddb7294793b4d06ab0594f7ff875f8b8" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.decb438a/2a1aef2dddb7294793b4d06ab0594f7ff875f8b8/full/full/0/default.jpg"/> dans leur département. – Toutes les paroisses maritimes de la Bretagne dépendent de l’Intendance du port de Brest.</p>
@@ -78,7 +76,7 @@
           <p>Administrateur, l’intendant est chargé du maintien de l’ordre dans l’arsenal ; il veille à l’exécution des ordonnances, édicte lui-même des règlements exécutoires dans son département, suggère au Secrétaire d’Etat les mesures à prendre en diverses circonstances. L’Intendant est le directeur de l’arsenal ; sous ses ordres, commissaires et écrivains sont à la tête des « détails du port ».</p>
           <p>L’Intendant est le seul ordonnateur et le comptable général du port, en deniers comme en matériel. Il vise toutes les écritures se rapportant aux comptes. Retards dans l’expédition de ces écritures.</p>
         </div>
-        <div>
+        <div xml:id="r493132">
           <head rend="uc">Chapitre II
            <lb/>Desclouzeaux et la marine.</head>
           <p><hi rend="i">Rapports avec le Secrétaire d’Etat ayant le département de la marine.</hi> – Seignelay apporte dans ses relations avec Desclouzeaux la fougue et la violence qu’il met en toutes choses ; il défend toutefois l’autorité de Desclouzeaux contre les officiers de vaisseau ou les administrations rivales.</p>
@@ -96,7 +94,7 @@
           <p>L’Intendant de la marine a la direction de l’hôpital maritime. Un économe, dont Desclouzeaux surveilla la gestion de très près, administra l’hôpital jusqu’à ce qu’un commissaire en fût spécialement chargé.</p>
           <p>L’Intendant n’a aucune autorité sur les aumôniers de la marine ; mais il doit leur donner son appui dans l’exercice de leurs fonctions. Desclouzeaux entretint d’excellentes relations avec les Jésuites chargés de la direction du séminaire des aumoniers de vaisseau, mais ne se laissa pas subjuguer par eux.</p>
         </div>
-        <div>
+        <div xml:id="r493199">
           <head rend="uc">Chapitre III
            <lb/>Desclouzeaux et les pouvoirs militaires et civils.</head>
           <p><hi rend="i">Rapports avec les pouvoirs militaires.</hi> – Desclouzeaux semble avoir entretenu d’assez bonnes relations avec le Gouverneur du château.</p>
@@ -108,10 +106,10 @@
           <p>Tendance de Desclouzeaux à prendre parti pour les gens de la marine contre les bourgeois. A l’occasion, il sait néanmoins intervenir en faveur de ceux-ci.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r493241">
         <head rend="uc">Seconde partie
          <lb/>L’œuvre de Desclouzeaux</head>
-        <div>
+        <div xml:id="r493249">
           <head rend="uc">Chapitre premier
            <lb/>les travaux.</head>
           <p>I.A l’arrivée de Desclouzeaux, l’arsenal s’achève, mais de grands travaux restent encore à faire ; par suite <pb source="https://nakala.fr/10.34847/nkl.decb438a#759614f30a46d8ce2317561420642c4a4f07120b" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.decb438a/759614f30a46d8ce2317561420642c4a4f07120b/full/full/0/default.jpg"/> du manque de fonds, nombre d’entre eux s’exécuteront très lentement.</p>
@@ -122,7 +120,7 @@
           <p>VI. <hi rend="i">Améliorations du port. </hi>a) curage du port : constructions de nouvelles machines à curer. b) Construction d’un phare à Ouessant, amélioration du phare de Saint-Mathieu.</p>
           <p>VII. <hi rend="i">Divers.</hi> – Intervention de Desclouzeaux dans la construction du séminaire des aumôniers de la marine et de la nouvelle église paroissiale.</p>
         </div>
-        <div>
+        <div xml:id="r493308">
           <head rend="uc">Chapitre II
            <lb/>Les approvisionnements</head>
           <p>I. Isolement de Brest à l’extrémité de la Bretagne ; la mer est la voie par laquelle l’arsenal reçoit tous ses approvisionnements. Règles fixées par l’ordon<pb source="https://nakala.fr/10.34847/nkl.decb438a#1ea1d14f288789f11ab51942b0bcf81958a953d5" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.decb438a/1ea1d14f288789f11ab51942b0bcf81958a953d5/full/full/0/default.jpg"/>nance de 1689 pour les adjudications et les marchés. A partir de 1698, adjudication générale de toutes les marchandises et munitions à une compagnie dirigée par Samuel Bernard.</p>
@@ -134,14 +132,14 @@
           <p>VI. <hi rend="i">Poudres.</hi> – Création de la poudrerie du Pont de Buis. Construction d’un magasin à poudre à Landévennec, celui de Brest étant insuffisant. Deux autres magasins projetés ne pourront être édifiés faute d’argent.</p>
           <p>VII. <hi rend="i">Vivres.</hi> – Dans chaque port, le service des vivres dépend des commis du Munitionnaire général de la Marine. En réalité, Desclouzeaux est à Brest le véritable directeur des Subsistances. Rapports des représentants du Munitionnaire et de l’Intendant. Mesures prises par Desclouzeaux pour la subsistance des équipages. Pour le service des vivres, constructions de fours et de magasins aux Fret, à Landévennec, et à Brest. Etablissement de nouvelles aiguades.</p>
         </div>
-        <div>
+        <div xml:id="r493381">
           <head rend="uc">Chapitre III
            <lb/>Les constructions navales.</head>
           <p><hi rend="i">Evolution de l’architecture navale.</hi> Le vaisseau de ligne sous Louis XIV est un type intermédiaire entre le vaisseau rond du Moyen Age et le bâtiment parfait qui sera mis en chantier à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle. La recherche du progrès dans les constructions navales est assurée par le Conseil de construction et l’Ins<pb source="https://nakala.fr/10.34847/nkl.decb438a#f85f209120c14500187dc3121193d75ef43e7206" n="67" facs="https://api.nakala.fr/iiif/10.34847/nkl.decb438a/f85f209120c14500187dc3121193d75ef43e7206/full/full/0/default.jpg"/>pecteur des constructions, le marquis de Langeron ; fâcheuse ingérence de celui-ci dans les travaux.</p>
           <p><hi rend="i">Constructions navales au port de Brest.</hi> Deux grands maîtres charpentiers, Etienne Hubac et Blaise Pangallo. Attributions de l’intendant. Desclouzeaux, ancien officier, a une compétence particulière.</p>
           <p>Activité des chantiers. A partir de 1693, construction de frégates légères à frais partagés entre des sociétés d’armateurs et la marine. A la fin du temps de course, ces bâtiments restent la propriété du roi. Après la paix de Ryswick on ne construit plus. On cherche avant tout à conserver les vaisseaux qui existent. Le projet de couler bas les vaisseaux pour les conserver dans l’eau de mer, imaginé par Pontchartrain, est irréalisable ; le doublage en plomb proposé par Desclouzeaux est au contraire adopté.</p>
         </div>
-        <div>
+        <div xml:id="r493416">
           <head rend="uc">Chapitre IV
            <lb/>Attributions diverses.
            <lb/>Fortifications, haras, compagnie des Indes.</head>
@@ -151,24 +149,24 @@
           <p>IV. Du fait même de l’isolement de la Basse-Bretagne, le pouvoir qu’exerce Desclouzeaux dépasse les fonctions d’un Intendant de la marine. Aussi réclamera-t-il, <pb source="https://nakala.fr/10.34847/nkl.decb438a#a7434d16c8d951a2e8de0270d4630f4833d5736a" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.decb438a/a7434d16c8d951a2e8de0270d4630f4833d5736a/full/full/0/default.jpg"/> plusieurs fois, la création d’une Intendance de Basse-Bretagne dont il eût été le titulaire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r493457">
         <head rend="uc">Troisieme partie
          <lb/>Le port de Brest de 1683 à 1701</head>
-        <div>
+        <div xml:id="r493465">
           <head rend="uc">Chapitre premier
            <lb/>les événements de 1683 à la guerre
            <lb/>de la Ligue d’Augsbourg.</head>
           <p><hi rend="i">Tentative d’établissement au Siam</hi>. – De 1685 à 1689 Desclouzeaux sera chargé de l’armement des escadres armées pour le Siam et recevra les ambassadeurs siamois abordant en France. L’intendant profita de ces expéditions lointaines pour compléter l’instruction des jeunes officiers.</p>
           <p><hi rend="i">Desclouzeaux et les. protestants.</hi> Ceux-ci sont à Brest en très petit nombre. Tous abjurèrent rapidement, sauf un enseigne de vaisseau. Inspection de Desclouzeaux le long des côtes de son département pour empêcher l’exode des religionnaires fugitifs. Zélé, mais tolérant, il n’usa jamais de violences.</p>
         </div>
-        <div>
+        <div xml:id="r493488">
           <head rend="uc">Chapitre II
            <lb/>Première partie de la guerre de la Ligue d’Augsbourg.</head>
           <p><hi rend="i">La guerre d’escadre et les affaires d’Irlande.</hi></p>
           <p>Difficultés d’approvisionner l’arsenal à cause des corsaires ennemis postés aux atterrages de Brest ; lutte contre <pb source="https://nakala.fr/10.34847/nkl.decb438a#f10dbde4ff512274d9ba6a2edf37dfb3eea60cee" n="69" facs="https://api.nakala.fr/iiif/10.34847/nkl.decb438a/f10dbde4ff512274d9ba6a2edf37dfb3eea60cee/full/full/0/default.jpg"/> ces corsaires ; organisation des convois marchands. Malgré les difficultés, les armements s’effectuent très rapidement à Brest.</p>
           <p>Armement des escadres de secours pour l’Irlande et préparation des armées navales.</p>
         </div>
-        <div>
+        <div xml:id="r493513">
           <head rend="uc">Chapitre III
            <lb/>Seconde partie de la guerre de la Ligue d’Augsbourg.</head>
           <p><hi rend="i">La guerre navale industrielle.</hi></p>
@@ -176,7 +174,7 @@
           <p>Tentative de descente des Anglais à Camaret. Travaux de fortifications ; mesures prises contre les espions.</p>
           <p>Armements en course ; préparatifs et retour de l’expédition de Carthagène.</p>
         </div>
-        <div>
+        <div xml:id="r493536">
           <head rend="uc">Chapitre IV
            <lb/>Les dernières années de l’administration
            <lb/>de Desclouzeaux.</head>
@@ -184,7 +182,7 @@
           <p>Tentative de canalisation de l’Aulne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r493554">
         <head rend="uc">Conclusion</head>
         <p>Desclouzeaux ne fut-il pas un intendant tel que Colbert souhaitait d’en trouver pour organiser les arsenaux et créer une marine digne d’une grande nation comme la France ?</p>
         <pb source="https://nakala.fr/10.34847/nkl.decb438a#51044f0fdc039e3dc415cd3844e1f1c5bb8ac1ab" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.decb438a/51044f0fdc039e3dc415cd3844e1f1c5bb8ac1ab/full/full/0/default.jpg"/>

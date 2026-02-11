@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1914_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1914_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,33 +56,33 @@
         <surname>Boudet</surname>
         <roleName>Élève de l’École des Hautes Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r372417">
         <head rend="uc">Introduction</head>
         <p>Sources diplomatiques. – Le fonds du chapitre de Saint-Dié se trouve pour la plus grande part aux Archives départementales des Vosges. Il a subi dès les époques anciennes des ravages, des incendies et des pillages. – Les classements et les inventaires. – La Révolution lui cause peu de dommages. Il fut laissé à l’abandon dans l’ancien chartrier. Une opération de vente, faite sans inventaire en 1826, fit disparaître un certain nombre de parchemins anciens, et beaucoup de papiers. On retrouve aujourd’hui les pièces les plus remarquables ainsi aliénées à la bibliothèque de Nancy et à la Bibliothèque nationale. Quelques documents sont demeurés aux archives municipales de Saint-Dié, ainsi que le cartulaire ou <hi rend="i">Livre rouge.</hi></p>
         <p>Travaux modernes. – L’histoire du chapitre a été déjà traitée dans des ouvrages de valeur inégale par Jean Ruyr (1625-1634), de Riguet (<num>xvii<hi rend="sup">e</hi></num> siècle), J.-Cl. Sommier (1737), Gravier (1836).</p>
         <p>Bibliographie.</p>
       </div>
-      <div>
+      <div xml:id="r372442">
         <pb source="https://nakala.fr/10.34847/nkl.bbe23t2q#0ecbfef5f2c26ffd9c494b55e2b3366e83ebfcd6" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.bbe23t2q/0ecbfef5f2c26ffd9c494b55e2b3366e83ebfcd6/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Histoire</head>
-        <div>
+        <div xml:id="r372455">
           <head rend="uc">Chapitre premier
            <lb/>les origines. Le monastère (<num>vii<hi rend="sup">e</hi></num>-<num>x<hi rend="sup">e</hi></num> siècle)</head>
           <p>Le monastère de Saint-Dié fut fondé vers 660 par Déodat, sur la personnalité duquel on est mal renseigné. La légende en a fait un évêque de Nevers. Il reçut du roi Childéric II la haute vallée de la Meurthe, qu’il nomma « Val de Galilée ». Un diplôme, d’authenticité contestable, émané de l’évêque de Trèves, Numérien, rapporte les détails de la fondation et de l’organisation intérieure. Le monastère fut donné par Charlemagne à l’abbaye de Saint-Denis (769), puis passa aux évêques de Toul. Il fut sécularisé vers 975, grâce à l’intervention du duc de Haute-Lorraine, Frédéric I<hi rend="sup">er</hi>.</p>
         </div>
-        <div>
+        <div xml:id="r372483">
           <head rend="uc">Chapitre II
            <lb/>Le chapitre et les puissances laïques</head>
           <p>Les empereurs confirmèrent les possessions du chapitre et en donnèrent l’avouerie aux ducs de Lorraine. Les relations des chanoines avec ces derniers sont continuellement marquées par des luttes violentes. Les ducs s’approprient les deux tiers du val de Saint-Dié, dépouillent sans cesse les hommes du chapitre et pillent ses biens. Mathieu II (1220-1251) et Raoul (1328-1346) eurent avec lui des démêlés particulièrement retentissants. Le seul effet heureux de l’intervention ducale fut la fondation de la ville de Saint-Dié (1267-1284). A partir du <num>xv<hi rend="sup">e</hi></num> siècle les relations deviennent meilleures : les ducs promettent régulièrement leur protection aux chanoines et les laissent vivre en paix. En somme, l’avouerie n’eut <pb source="https://nakala.fr/10.34847/nkl.bbe23t2q#95171b60f80d3d15babcd8c50935f0a968e52455" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.bbe23t2q/95171b60f80d3d15babcd8c50935f0a968e52455/full/full/0/default.jpg"/>aucun avantage pour le chapitre ; elle n’a servi qu’à donner prétexte pour le dépouiller. Les seigneurs imitèrent le détestable exemple des ducs : certains furent des sous-avoués ou reçurent la <hi rend="i">garde</hi> de telle ou telle possession.</p>
         </div>
-        <div>
+        <div xml:id="r372510">
           <head rend="uc">Chapitre III
            <lb/>Le chapitre et les autorités spirituelles</head>
           <p>Léon IX accorda d’importants privilèges à l’église de Saint-Dié : une bulle de 1049 rappelle, sans le citer, le privilège de Numérien et sanctionne l’exemption de l’église. Les papes postérieurs confirmèrent cette immunité et intervinrent à plusieurs reprises pour ratifier les acquisitions et les donations, ou pour régler divers points de discipline intérieure. Ils soutinrent les chanoines dans leur lutte contre les évêques de Toul qui, rappelant l’étal de choses du <num>x<hi rend="sup">e</hi></num> siècle, revendiquaient la possession de l’église de Saint-Dié.</p>
           <p>Le chapitre fit triompher de même ses prérogatives à l’égard des évêques de Bâle. – Les relations avec les monastères voisins sont marquées par des contestations et des échanges de possessions.</p>
         </div>
-        <div>
+        <div xml:id="r372531">
           <head rend="uc">Chapitre IV
            <lb/>L’organisation et la vie intérieure du chapitre</head>
           <p>Le chapitre se compose de trente chanoines dont trois dignitaires (doyen, chantre et écolâtre) et d’un grand prévôt. Celui-ci, personnage généralement étranger au chapitre, est apparenté bien souvent à la famille ducale. Il a la juridiction spirituelle dans les paroisses du val de Saint-Dié et possède un official, le « sénier », qui préside sa cour de justice. Il a de plus une juridiction territoriale, la « féauté », pour régler les questions intéressant les propriétés et les bornages.</p>
@@ -93,10 +91,10 @@
           <p>Les chanoines doivent être en principe de naissance libre et légitime. Ils appartiennent quelquefois à de très nobles familles. Ils achètent leurs maisons qui se groupent autour des deux églises.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r372555">
         <head rend="uc">Deuxième partie
          <lb/>Développement économique</head>
-        <div>
+        <div xml:id="r372563">
           <head rend="uc">Chapitre premier
            <lb/>formation et description du temporel</head>
           <p>Les donations, particulièrement nombreuses au XII<hi rend="sup">e </hi>siècle, furent le principal mode d’accroissement du fonds primitif, don du fisc royal. Les fondations d’anniversaires avec les achats de rentes quelles suscitaient devinrent la grande ressource financière à partir du XIV<hi rend="sup">e </hi>siècle.</p>
@@ -104,7 +102,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.bbe23t2q#77aa56987e261859386ec10f4b006996afa24689" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.bbe23t2q/77aa56987e261859386ec10f4b006996afa24689/full/full/0/default.jpg"/>
           <p>Description du temporel : liste alphabétique des biens du Val, du Chaumontois et de l’Alsace.</p>
         </div>
-        <div>
+        <div xml:id="r372594">
           <head rend="uc">Chapitre II
            <lb/>L’exploitation du temporel</head>
           <p>Les officiers énumérés plus haut, administrent les divers groupements de possessions. Ils doivent des comptes au chapitre général de mai et sont responsables de leur gestion.</p>
@@ -115,7 +113,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.bbe23t2q#65971bcf8dd1d9493185bd2d90ef2078689aca78" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.bbe23t2q/65971bcf8dd1d9493185bd2d90ef2078689aca78/full/full/0/default.jpg"/>
           <p>Les coutumes locales sont renouvelées dans les plaids banaux, assemblées présidées par l’officier du chapitre. On y nomme les nouveaux maires. – En Alsace le système est analogue, avec un formalisme plus compliqué et plus archaïque.</p>
         </div>
-        <div>
+        <div xml:id="r372666">
           <head rend="uc">Chapitre III
            <lb/>La richesse du chapitre. L’emploi et la gestion de
 ses ressources</head>
@@ -128,7 +126,7 @@ ses ressources</head>
         <head rend="uc">Conclusion</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r372706">
         <head rend="uc">Appendice</head>
         <p>Note sur le style employé à Saint-Dié.</p>
       </div>

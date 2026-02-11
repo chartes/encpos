@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -69,7 +67,7 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r532228">
         <head rend="uc">Introduction
          <lb/>le port de Marseille dans l’antiquité</head>
         <p>I. Populations qui utilisèrent le port avant l’arrivée des Grecs : Ligures, Phéniciens.</p>
@@ -79,7 +77,7 @@
         <p>V. Topographie du port ; description de la rade ; changement du sol dans l’antiquité : partie nord-est occupée par des marécages, séparés du port lui-même par un cordon littoral. Rivage septentrional en-deçà du quai actuel, défendu par un rempart ; topographie de la ville établie par rapport au port ; rues parallèles au rivage, coupées par des rues transversales ; tracé de l’enceinte de Marseille ; emplacement de la citadelle sur la butte des Moulins. Rivage méridional inutilisé.</p>
         <p>Marseille sous l’Empire : décadence du port.</p>
       </div>
-      <div>
+      <div xml:id="r532264">
         <head rend="uc">I
          <lb/>le port de Marseille du I<hi rend="sup">er</hi> au <num>xii<hi rend="sup">e</hi></num> siècle.</head>
         <p>Etat très précaire du port à la fin de l’Empire.</p>
@@ -90,22 +88,22 @@
         <p>V. Grâce aux croisades, les Marseillais reprennent contact avec l’Orient et y acquièrent des privilèges. Les prétendues chartes de privilèges de 1136, 1152, 1188 ne sont que des faux du <num>xiii<hi rend="sup">e</hi></num> siècle. Les établissements marseillais dans le Levant datent cependant de cette époque. Objets d’importation et d’exportation.</p>
         <p>VI. Relations du port avec les autres puissances méditerranéennes, surtout avec les villes d’Italie : Gênes (traités de 1138 et 1154). L’expansion de Marseille inquiète Gênes, qui se fait donner le port et la cité par le comte de Provence en 1174, mais ses tentatives pour les conquérir échouent.</p>
       </div>
-      <div>
+      <div xml:id="r532321">
         <head rend="uc">II
          <lb/>le port de Marseille dans la I<hi rend="sup">re</hi> moitié du <num>xiii<hi rend="sup">e</hi></num> siècle.</head>
         <p>Période de grande activité du port ; celui-ci devient la propriété de la commune qui se libère à prix d’argent de la domination des vicomtes.</p>
-        <div>
+        <div xml:id="r532342">
           <pb source="https://nakala.fr/10.34847/nkl.e5b6z846#9140d9e3ed4453066919f39cd24da44c3f09e428" n="128" facs="https://api.nakala.fr/iiif/10.34847/nkl.e5b6z846/9140d9e3ed4453066919f39cd24da44c3f09e428/full/full/0/default.jpg"/>
           <head rend="uc">I. Aspect du port a cette époque.</head>
           <p>La rive méridionale contient des salines appartenant à Saint-Victor. Dans le fond du port, au « plan Fourmiguier », se trouvent les entrepôts de bois et de pierres. Une portion des remparts correspondant à l’actuelle rue des Fabres est double ; entre les deux, se trouvent les ateliers de charpentiers et l’annonerie. Sur la rive septentrionale, est le port proprement dit avec, les « escars » où viennent s’amarrer les navires. Sur la pointe Saint-Jean, une petite tour, la tour de Malbert, soutient la chaîne qui ferme l’entrée du port.</p>
         </div>
-        <div>
+        <div xml:id="r532357">
           <head rend="uc">II. Institutions du port : police.</head>
           <p>Entretien matériel : mesures prises pour la propreté du port, pour son nettoyage, pour la circulation des navires et le déchargement des marchandises.</p>
           <p>Défense du port : la chaîne ; les trois phares de Marseille, situés à Notre-Dame de la Garde, à Marseille Veyre et à l’île de Riou. Tout navire venant d’outre-mer doit apporter une baliste à la commune pour contribuer à sa défense.</p>
           <p>Revenus du port : droit appelé <hi rend="i">latus navium</hi> et droit d’attache perçus sur les navires ; impôt de la table de la mer et droit de rivage levés sur les marchandises débarquées ; leides perçues sur les marchandises vendues, contrôlées aux deux services municipaux : le poids du Lauret et le poids de Fers et Casses. Impôts perçus par le clavaire.</p>
         </div>
-        <div>
+        <div xml:id="r532377">
           <head rend="uc">III. Institutions du port : droit maritime.</head>
           <p>Activité des chantiers de construction à Marseille au <num>xiii<hi rend="sup">e</hi></num> siècle ; la commune a le monopole des engins nécessaires pour mettre les navires à la mer ; règlements imposés aux calfats.</p>
           <pb source="https://nakala.fr/10.34847/nkl.e5b6z846#2dd38bc5e06ab28573518a0e5732d0237a881222" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.e5b6z846/2dd38bc5e06ab28573518a0e5732d0237a881222/full/full/0/default.jpg"/>
@@ -118,17 +116,17 @@
           <p>Les <hi rend="i">consuls sur mer</hi> n’existèrent probablement que dans la deuxième moitié du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Durant le voyage, les marchandises comme les passagers sont placés sous la responsabilité du patron de navire, qui doit s’en tenir à ses conventions, sauf empêchement valable. Les risques de mer sont répartis également entre l’armateur et le négociant : réglementation touchant les prêts maritimes, la coutume du jet, le droit de naufrage, le droit de représailles.</p>
         </div>
-        <div>
+        <div xml:id="r532444">
           <head rend="uc">IV. Ressources du port : la pêche.</head>
           <p>Les pêcheurs formaient à Marseille une corporation importante ; les poissons étaient vendus soit directement sur le quai, soit à la poissonnerie ; règlements spéciaux pour les revendeurs. Taxes différentes suivant la qualité du poisson.</p>
           <pb source="https://nakala.fr/10.34847/nkl.e5b6z846#dcf3dfb5c8ee786242d332b2b8aa58b6aa04f248" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.e5b6z846/dcf3dfb5c8ee786242d332b2b8aa58b6aa04f248/full/full/0/default.jpg"/>
           <p>Il y avait aussi à Marseille des corailleurs, qui allaient pêcher le corail, en général sur les côtes de Sardaigne ou de Sicile.</p>
         </div>
-        <div>
+        <div xml:id="r532462">
           <head rend="uc">V. Ressources du port : l’industrie des transports.</head>
           <p>Le <num>xiii<hi rend="sup">e</hi></num> siècle est l’époque où il y eut le plus de « passages outre-mer ». Conventions faites à ce sujet entre Marseille et les ordres militaires. A Marseille, s’embarquèrent Thibaut de Champagne et, plus tard, quelques compagnons de saint Louis, qui y fit lui-même des commandes de vaisseaux.</p>
         </div>
-        <div>
+        <div xml:id="r532478">
           <head rend="uc">VI. Ressources du port : le commerce.</head>
           <p><hi rend="i">Principaux contrats commerciaux :</hi> commandes, sociétés ; la lettre de change et le prêt maritime sont également très employés.</p>
           <p><hi rend="i">Population commerçante de Marseille :</hi> formation d’une aristocratie de marchands enrichis par le commerce maritime et jouant un rôle politique (les Manduel, les Fer, les Vivaud) ; rôle des juifs et des étrangers.</p>
@@ -140,7 +138,7 @@
             <p><hi rend="i">Commerce avec l’Orient,</hi> extrêmement actif. Les Marseillais ont des fondoucs à Acre, à Tyr, à Beyrouth, ils sont en relation avec Alexandrie ; leurs comptoirs les plus importants sont ceux d’Afrique du Nord : Bougie, Ceuta et Tunis. Les fondoucs sont administrés par des consuls nommés par le conseil et munis de pouvoirs judiciaires.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r532520">
           <pb source="https://nakala.fr/10.34847/nkl.e5b6z846#f81d329b26043ccd95935f008b20d8642a787ba9" n="131" facs="https://api.nakala.fr/iiif/10.34847/nkl.e5b6z846/f81d329b26043ccd95935f008b20d8642a787ba9/full/full/0/default.jpg"/>
           <head rend="uc">VII. Relations du port avec les puissances méditerranéennes.</head>
           <p><hi rend="i">Avec les villes du littoral :</hi> Arles (traités de 1214, 1221, 1242), Avignon (traités de 1225 et 1242), Montpellier (désaccords entre les négociants des deux villes en Orient, traités de 1229 et 1254). Aigues-Mortes, Narbonne, Béziers, Toulon, Hyères, Cannes, Nice et Grasse.</p>
@@ -148,7 +146,7 @@
           <p><hi rend="i">Avec les villes de Catalogne et d’Aragon ;</hi> traité avec le comte d’Empurias en 1219 ; possessions accordées aux marseillais à Majorque en 1230.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r532551">
         <head rend="uc">III
          <lb/>le port de Marseille a la fin du <num>xiii<hi rend="sup">e</hi></num> siècle.</head>
         <p>Mainmise de Charles d’Anjou sur la ville en 1252.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1873_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1873_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -56,7 +54,7 @@
         <surname>Du Chêne</surname>
         <roleName>Archiviste de la Vendée</roleName>
       </byline>
-      <div>
+      <div xml:id="r77412">
         <head rend="uc">Première partie.</head>
         <p>La duchesse Emme à Talmond.</p>
         <p>Guillaume le Chauve ou le Vieux, premier prince de Talmond. – Il organise la féodalité en Talmondais. – Du droit d’amiraudage.</p>
@@ -68,7 +66,7 @@
         <p>Fondation de l’abbaye de Sainte-Croix.</p>
         <p>Mort de Guillaume I<hi rend="sup">er</hi>.</p>
       </div>
-      <div>
+      <div xml:id="r77454">
         <pb source="https://nakala.fr/10.34847/nkl.ccef6553#95e76bc4b75c163883bdb16fb41ab14b08676536" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.ccef6553/95e76bc4b75c163883bdb16fb41ab14b08676536/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les successeurs de Guillaume</head>

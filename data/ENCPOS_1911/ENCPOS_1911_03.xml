@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,18 +57,18 @@
         <surname>Blum</surname>
         <roleName>Licencié ès lettres et en droit., Élève de l’École des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r348882">
         <head rend="uc">Introduction</head>
         <p>Définition de l’hypothèque. Le régime hypothécaire. Les problèmes de la législation hypothécaire. Comparaison entre la législation hypothécaire de l’ancien régime et celle de l’époque contemporaine.</p>
       </div>
-      <div>
+      <div xml:id="r348892">
         <head rend="uc">Aperçu bibliographique</head>
         <p>Ouvrages imprimés. Documents d’archives et manuscrits. Histoire traditionnelle du régime hypothécaire.</p>
       </div>
-      <div>
+      <div xml:id="r348902">
         <head rend="uc">Première partie
          <lb/>L’hypothèque dans l’ancien droit français</head>
-        <div>
+        <div xml:id="r348910">
           <head rend="uc">Chapitre premier
            <lb/>formation de l’hypothèque française</head>
           <p>Notions préliminaires : l’hypothèque en droit romain et en droit français.</p>
@@ -89,12 +87,12 @@
           <p>Rentes constituées par des particuliers. Rentes constituées par le Roi : édit de mars 1673 ; les lettres de ratification : origine, effets. Déclaration du 30 juin 1673 ; la surenchère ; formule des lettres de ratification. – Exécution de l’édit de mars 1673. Extension des lettres de ratification. Les lettres de ratification et le commerce des rentes. La « reconstitution ».</p>
           <p>Importance de la législation hypothécaire des rentes sur l’hôtel de Ville de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r349002">
           <head rend="uc">Chapitre II
            <lb/>Les appropriances en Bretagne</head>
           <p>Notions sommaires sur les appropriances.</p>
         </div>
-        <div>
+        <div xml:id="r349014">
           <head rend="uc">Chapitre III
            <lb/>Les coutumes de nantissement</head>
           <p>1. Caractère germanique et féodal du nantissement. Rôle de la preuve écrite.</p>
@@ -107,11 +105,11 @@
           <p>Rôle du nantissement dans la formation du régime hypothécaire moderne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r349053">
         <head rend="uc">Deuxième partie
          <lb/>Les essais de réforme hypothécaire
          <lb/>antérieurs à 1771</head>
-        <div>
+        <div xml:id="r349063">
           <head rend="uc">Chapitre premier
            <lb/>le mouvement de réforme avant 1673</head>
           <p>1. Lettres patentes du 27 mai 1424. Le nantissement obligatoire pour les hypothèques. Caractère de ces lettres patentes. Le nantissement a-t-il existé à Paris ?</p>
@@ -119,7 +117,7 @@
           <p>Edit de 1581 ; caractère de cet édit.</p>
           <p>3. Tentatives pour établir des conservateurs d’hypothèques au <num>xvii<hi rend="sup">e</hi></num> siècle. Edit de 1609. Édit de mars 1654. L’édit de 1657 ne concerne peut-être que les hypothèques sur les rentes.</p>
         </div>
-        <div>
+        <div xml:id="r349096">
           <head rend="uc">Chapitre II
            <lb/>L’édit de mars 1673</head>
           <p>Ses principales dispositions ; publicité relative qu’il établit. Ses rédacteurs.</p>
@@ -127,36 +125,36 @@
           <p>Publication de lédit. Exécution financière : bail du 6 mai 1673 ; commencement d’exécution administrative.</p>
           <p>Révocation de cet édit en avril 1674. Examen des diverses opinions proposées pour expliquer celte révocation. Arguments tirés soit de l’inexécution de l’édit, soit de la mise en pratique du régime établi par cet édit. Quelle fut l’attitude de la noblesse ? Hostilité du Parlement. Raisons d’ordre financier.</p>
         </div>
-        <div>
+        <div xml:id="r349119">
           <head rend="uc">Chapitre III
            <lb/>Les essais de réforme après 1673.</head>
           <p>Deux tendances : 1° Influence de l’édit de 1673. 2° Précurseurs de l’édit de 1771.</p>
           <p>Propositions de 1692. Les projets de 1704 ; le mémoire de Daguessau ; le projet du manuscrit français 16207 de la Bibliothèque Nationale. Les projets de 1704 et l’édit de 1673, opinion d’Achille III de Harlay. Projet de 1720. Projet de 1730. Proposition de 1735. Projets de 1736-1740 : observations de Joly de Fleury. Propositions de 1749, de 1750 et de 1759. Projets de 1762, de 1764 et de 1767. Rapport entre ces projets et celui de 1762. Sources et plan de ces projets. Publicité des droits réels et insinuation.</p>
         </div>
-        <div>
+        <div xml:id="r349134">
           <head rend="uc">Chapitre IV
            <lb/>Le mouvement de réforme hypothécaire dans
            <lb/>la doctrine.</head>
           <p>Leschassier. Loysel. De Fourcroy. Basnage. D’Héricourt. Ferrière. Un mémoire de 1766, de Lebrun, avocat au Parlement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r349149">
         <pb source="https://nakala.fr/10.34847/nkl.83b3586q#cb14f522d41d680b30c15d357046eb6919e91c9e" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.83b3586q/cb14f522d41d680b30c15d357046eb6919e91c9e/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>L’édit de juin 1771</head>
-        <div>
+        <div xml:id="r349162">
           <head rend="uc">Chapitre premier
            <lb/>l’édit de juin 1771</head>
           <p>Dans quelle mesure l’édit de juin 1771 consacrait-il une ancienne jurisprudence ? Dans quelle mesure établissait-il un droit nouveau ? Principales dispositions de lédit. Ses sources.</p>
           <p>Travaux préparatoires : Les <hi rend="i">Réflexions générales et particulières sur le projet d’Édit</hi> (1770). L’auteur de ces <hi rend="i">Réflexions.</hi> Ses sources. Modifications apportées au texte du projet : origine des dispositions relatives à la surenchère du dixième et à la publication des extraits des contrats de vente.</p>
         </div>
-        <div>
+        <div xml:id="r349185">
           <head rend="uc">Chapitre II
            <lb/>La publication de l’édit de juin 1771</head>
           <p>1. Résistance apportée par les Parlements de province à l’enregistrement de l’édit. Provinces dans lesquelles l’édit de juin ne fut pas publié : tentatives faites pour l’y publier. Provinces dans lesquelles l’édit de juin 1771 n’était pas publié ou n’était pas exécutoire en 1789.</p>
           <p>"2. Les remontrances des Parlements de province. Arguments contre l’édit de juin 1771 considéré en lui-même et arguments particuliers à chaque province. Concessions faites à certains parlements de province. Réponses de la Chancellerie aux arguments des Parlements. Rôle de la régie dans la publication de l’édit.</p>
         </div>
-        <div>
+        <div xml:id="r349200">
           <pb source="https://nakala.fr/10.34847/nkl.83b3586q#927771111c909a2e03ca46423d116ff4b8e8bb5f" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.83b3586q/927771111c909a2e03ca46423d116ff4b8e8bb5f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’exécution de l’édit de juin 1771</head>
@@ -167,17 +165,17 @@
           <p>4. L’édit de juin 1771 a-t-il procuré les avantages qu’on en attendait, avantages économiques, et avantages financiers ?</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r349230">
         <head rend="uc">Quatrième partie
          <lb/>La fin de l’ancien régime hypothécaire</head>
-        <div>
+        <div xml:id="r349238">
           <head rend="uc">Chapitre premier
            <lb/>difficultés d’exécution de l’édit de juin 1771</head>
           <p>Lacunes et obscurités de l’édit. Réclamations adressées relativement à son exécution : principales difficultés.</p>
           <pb source="https://nakala.fr/10.34847/nkl.83b3586q#3192730ec4f13baa571d156204006c02043ed186" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.83b3586q/3192730ec4f13baa571d156204006c02043ed186/full/full/0/default.jpg"/>
           <p>Bruit d’abrogation (1774) de l’édit de juin 1771 : circulaires de Joly de Fleury. Réponses des procureurs royaux et seigneuriaux à cette circulaire.</p>
         </div>
-        <div>
+        <div xml:id="r349258">
           <head rend="uc">Chapitre II
            <lb/>Réaction contre l’édit de juin 1771 sous Louis XVI</head>
           <p>1. Joly de Fleury et Miromesnil. La commission créée au Conseil d’État par arrêt du Conseil du 18 février 1775 pour examiner l’édit de juin 1771, les motifs de la résistance des Parlements et proposer les changements nécessaires dans la législation des hypothèques : organisation, attributions administratives, rôle de la commission en matière de contentieux administratif ; attributions législatives.</p>
@@ -185,12 +183,12 @@
           <p>2. Œuvre de la commission. Modifications proposées à l’édit de juin 1771 (purge, oppositions, publication des extraits des contrats de vente). Elaboration d’un projet de réforme hypothécaire. Publicité et nantissement. L’hypothèque spéciale. Projet adopté définitivement par la Commission ; rédaction ; principales dispositions. Publicité imparfaite ; suppression des conservateurs d’hypothèques, établissement des greffiers : notificateurs d’hypothèques, lettres de ratification.</p>
           <p>3. Sort de ce projet. Les ministres de Louis XVI et la question hypothécaire. Projets de réponse présentés par des particuliers aux ministres de Louis XVI.</p>
         </div>
-        <div>
+        <div xml:id="r349279">
           <head rend="uc">Chapitre III
            <lb/>La question des hypothèques dans les cahiers de 1789</head>
           <p>Vœux en faveur de la suppression de l’édit de juin <pb source="https://nakala.fr/10.34847/nkl.83b3586q#1a1112833f8ef4047bf93d209905f53cf39d145c" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.83b3586q/1a1112833f8ef4047bf93d209905f53cf39d145c/full/full/0/default.jpg"/>1771 ; vœux en faveur de la modification de l’édit. Vœux en faveur de l’application de l’édit. Vœux relatifs à la réforme hypothécaire.</p>
         </div>
-        <div>
+        <div xml:id="r349296">
           <head rend="uc">Chapitre IV
            <lb/>L’édit de juin 1771 et la Révolution</head>
           <p>1. La législation révolutionnaire.</p>
@@ -201,7 +199,7 @@
           <p>La Conservation générale des hypothèques. Administration centrale. Bureau de correspondance. Caisse hypothécaire. Situation des conservateurs d’hypothèques dépendant de la conservation générale. Efforts de la Conservation générale pour faire exécuter le Code hypothécaire de l’an III.</p>
           <p>Le dualisme administratif : l’administration de l’Enregistrement et la Conservation générale. Tempérament législatif : loi du 19 prairial an IV. Exécution de cette loi : 1° dans les pays soumis à l’édit de juin 1771 ; 2° dans les pays non soumis à l’édit de juin 1771.</p>
         </div>
-        <div>
+        <div xml:id="r349326">
           <pb source="https://nakala.fr/10.34847/nkl.83b3586q#63df64855c33472d29f43f53d6929b8811552bfb" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.83b3586q/63df64855c33472d29f43f53d6929b8811552bfb/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Disparition de l’ancien régime hypothécaire</head>

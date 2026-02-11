@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1893_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1893_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,14 +56,14 @@
         <forename>Paul</forename>
         <surname>Hoppenot</surname>
       </byline>
-      <div>
+      <div xml:id="r197261">
         <head rend="uc">I
          <lb/>histoire de l’église Sainte-Madeleine.</head>
         <p>On ne rencontre aucune mention de l’église Sainte-Madeleine antérieurement au <num>xii<hi rend="sup">e</hi></num> siècle, silence d’autant plus étonnant qu’elle nous apparaît à cette époque comme ayant déjà une certaine importance. Elle est citée dans l’ordinaire de Saint-Etienne, en 1157, parmi les églises que visite la procession du Chapitre. Son nom se trouve dans une charte de 1220 et dans plusieurs autres chartes du <num>xiii<hi rend="sup">e</hi></num> siècle, mais rien dans ces documents n’est de nature à nous éclairer sur son histoire à cette époque.</p>
         <p>Au <num>xiv<hi rend="sup">e</hi></num> siècle, nous trouvons des fondations nombreuses de messes et d’anniversaires. Des donations enrichissent l’église, la chapelle Sainte-Catherine est fondée en 1333 par un bailli de Sézanne. Avec le <num>xv<hi rend="sup">e</hi></num> siècle commence la série des comptes de la fabrique, grâce auxquels nous pouvons suivre l’histoire et le développement de l’église, assister à ses fêtes, connaître ses paroissiens. Beaucoup parmi ceux-ci sont des nobles et des gens de robe. C’est un écuyer, pane<pb source="https://nakala.fr/10.34847/nkl.7039186c#88c201fcb82b050c7f2a3896f348882cdc4172df" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.7039186c/88c201fcb82b050c7f2a3896f348882cdc4172df/full/full/0/default.jpg"/>tier du roi, qui fonde la chapelle Saint-Jehan et Saint-Christophe (1418). Les noms du prévôt de Troyes, du bailli et de son lieutenant figurent fréquemment dans les comptes des recettes et dans les quêtes à côté de ceux des gentilshommes et des marchands importants de la cité. De nombreuses confréries sont établies et se recrutent dans les différentes classes de la société.</p>
         <p>Au début du <num>xvi<hi rend="sup">e</hi></num> siècle, l’évêque Odard Hennequin fonde les Heures canoniales (1503). Quelques années plus tard, un autre évêque consacre solennellement les chapelles et les autels de l’église qui vient de subir d’importantes transformations architecturales.</p>
         <p>La Madeleine nous apparaît au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle comme une paroisse riche et prospère et placée au premier rang des églises de la ville. Elle n’était cependant que simple succursale de Saint-Remy et dut attendre jusqu’en 1802 son érection en paroisse indépendante.</p>
-        <div>
+        <div xml:id="r197322">
           <head rend="uc">II
            <lb/>histoire du monument</head>
           <p>La nef et le transept datent de la fin du <num>xii<hi rend="sup">e</hi></num> siècle, ainsi que la première travée du chœur. – L’église avait alors, sans doute, la forme d’une croix grecque dont chaque pan était flanqué de deux collatéraux ; elle devait être surmontée d’une tour et de trois tourelles. Les documents faisant entièrement défaut antérieurement au <num>xv<hi rend="sup">e</hi></num> siècle, on en est réduit à des conjectures sur la forme générale du monument avant cette époque.</p>
@@ -77,7 +75,7 @@
           <p>La chapelle Saint-Quirin, la chapelle voisine de la tour et la seconde partie de la sacristie ont été construites vers la même époque. Le jubé a été construit de 1508 à 1517. L’autel Sainte-Anne et l’autel Saint-Antoine étaient appuyés contre le jubé. Les autels Saint-Sébastien, Saint-Nicolas et Saint-Thibaut furent établis de 1514 à 1516.</p>
           <p>A l’extérieur, on éleva la jolie porte de l’ancien cimetière probablement de 1524 à 1526. Enfin on construisit la tour de 1531 à 1561 environ.</p>
         </div>
-        <div>
+        <div xml:id="r197381">
           <head rend="uc">III
            <lb/>plan et Description</head>
           <p>Le plan est cruciforme ; la nef et le chœur ont des bas côtés doubles. Les plus excentriques s’arrêtent à la hauteur du milieu du chœur, les deux autres l’entourent. Le chevet est à trois pans.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1924_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1924_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,7 +54,7 @@
         <forename>Pierre</forename>
         <surname>Marot</surname>
       </byline>
-      <div>
+      <div xml:id="r432526">
         <head rend="uc">Introduction</head>
         <p>L’<hi rend="i">Essai</hi> de Digot relatif à la commune de Neufchâteau paru en 1847, déjà médiocre à son époque, est aujourd’hui vieilli. Esprit dans lequel ce livre a été écrit : l’auteur a répudié les théories extrêmes du patriotisme français en Lorraine au moyen âge et du prétendu « régionalisme lorrain ».</p>
       </div>
@@ -64,10 +62,10 @@
         <head rend="uc">Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r432549">
         <head rend="uc">Première partie
          <lb/>Histoire de la ville</head>
-        <div>
+        <div xml:id="r432557">
           <head rend="uc">Chapitre premier
            <lb/>les origines</head>
           <p>1. Neufchâteau est situé dans la vallée de Meuse au point où la voie romaine de Trêves traversait la rivière de Mouzon, sur les confins de la Lorraine du côté de la Champagne, donc en un lieu de passage.</p>
@@ -75,7 +73,7 @@
           <p>3. Neufchâteau est né de la réunion <hi rend="i">a</hi>) d’une <hi rend="i">villa <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#4534382c87151bd41ba323eff8fd9a9e228438fe" n="106" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/4534382c87151bd41ba323eff8fd9a9e228438fe/full/full/0/default.jpg"/></hi>(Saint-Christophe ?) qui existait à la fin du <num>xi<hi rend="sup">e</hi></num> siècle et dont l’origine nous est inconnue, et <hi rend="i">b</hi>) d’une ville neuve (<hi rend="i">novum oppidum, novum castrum</hi>) créée par le duc de Lorraine Thierry I (1070-1123). probablement pour fixer une population de marchands, ville qui imposa son caractère et son nom à la <hi rend="i">villa</hi> primitive.</p>
           <p>Ville de passage, Neufchâteau fut peuplé de marchands ; ville frontière, il fut une place forte disputée par les voisins du duché.</p>
         </div>
-        <div>
+        <div xml:id="r432612">
           <head rend="uc">Chapitre II
            <lb/>La puissance monastique au <num>xii<hi rend="sup">e</hi></num> siècle
            <lb/>dans la région neufchâteloise</head>
@@ -83,7 +81,7 @@
           <p>1. <hi rend="i">État des possessions des abbayes à Neufchâteau au <num>xii<hi rend="sup">e</hi></num> siècle</hi> : biens des abbayes de Saint-Mansuy de Toul, de Saint-Bénigne de Dijon, du prieuré de Châtenois, des abbayes de Norimond, de l’Étanche, de Chaumousey, de Mureau. L’importance du clergé régulier est un caractère de l’histoire de notre ville.</p>
           <p>2. Ce que les textes des donations nous apprennent sur Neufchâteau. Les officiers ducaux (<hi rend="i">villicus, ministeriales, monetarii</hi>). Les fréquentes mentions du droit de péage attestent l’activité du transit.</p>
         </div>
-        <div>
+        <div xml:id="r432658">
           <head rend="uc">Chapitre III
            <lb/>Les origines de la suzeraineté
            <lb/>des comtes de Champagne à Neufchâteau</head>
@@ -92,21 +90,21 @@
           <p>2. Les <hi rend="i">causes économiques</hi> et plus profondes sont dans la constitution de Neufchâteau : les Neufchâtelois commerçaient dans les terres du comte de Champagne et avaient besoin d’une protection contre le duc de Lorraine, seigneur batailleur qui ne leur assurait pas la paix nécessaire au négoce, le comte devint très naturellement suzerain pour Neufchâteau.</p>
           <p>L’importance de l’acte d’hommage de 1220 est capitale. Les bourgeois essaient d’échapper à leur seigneur en s’appuyant sur leur arrière-seigneur et à leur arrière-seigneur en s’appuyant sur leur seigneur.</p>
         </div>
-        <div>
+        <div xml:id="r432698">
           <head rend="uc">Chapitre IV
            <lb/>Les chartes de commune</head>
           <p>1. <hi rend="i">Les Neufchâtelois et le duc Mathieu II.</hi> – Renforcement de la puissance des bourgeois après l’hommage de 1220 : a) confirmation des libertés par le duc (15 septembre 1225) ; <hi rend="i">b</hi>) charte de commune de 1231 aujourd’hui perdue. – La fin du règne de Mathieu II est marquée par la paix (fondations religieuses : hôpital du Saint-Esprit et couvent des Cordeliers) et la prospérité.</p>
           <p>2. <hi rend="i">Les Neufchâtelois et le duc Ferry III.</hi> – A la mort de Mathieu II, Catherine, sa femme, a le bail du duché. Les bourgeois profitent de la minorité du jeune duc pour obtenir des lettres de Catherine (26 juillet 1252). – Ferry III accorde le 12 janvier 1257 la première charte de commune de Troyes aux Neufchâtelois : l’influence champenoise est manifeste. Le comte de Champagne était garant de Ferry III.</p>
           <p>3. Neufchâteau est dès lors arrivé à son plein développement, il est pourvu de toutes ses libertés. Les grandes familles enrichies par le commerce sont constituées : le <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#560e9f1f46909ed9faf4a00bef46558a23ce3559" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/560e9f1f46909ed9faf4a00bef46558a23ce3559/full/full/0/default.jpg"/>duc et les seigneurs lorrains sont débiteurs des Neufchâtelois et par conséquent dans leur dépendance. Caractère ploutocratique de la commune.</p>
         </div>
-        <div>
+        <div xml:id="r432733">
           <head rend="uc">Chapitre V
            <lb/>La suzeraineté de la maison de France à Neufchâteau</head>
           <p>1. Par le mariage de Philippe le Bel les membres de la maison de France et les rois de France ensuite deviennent suzerains des ducs de Lorraine pour Neufchâteau. Le 19 juillet 1300, Thiébaut de Rumigny, qui avait reçu Neufchâteau, de Ferry III, son père, fait hommage à Philippe le Bel pour cette ville (19 juillet 1300).</p>
           <p>2. Du fait de leur suzeraineté, Philippe IV (1297), Louis, comte de Champagne (1 303 et 1312), interviennent en faveur des Neufchâtelois contre le duc de Lorraine. – Gaucher de Châtillon, connétable de France, épouse Isabelle de Rumigny, mère du duc Thibaut II, en 1314. Isabelle reçoit Neufchâteau en douaire.</p>
           <p>Progrès considérables de l’expansion royale à l’Est de la France.</p>
         </div>
-        <div>
+        <div xml:id="r432751">
           <head rend="uc">Chapitre VI
            <lb/>Les Neufchâtelois entre le roi de France
            <lb/>et le duc de Lorraine</head>
@@ -114,7 +112,7 @@
           <p>2. Ils essaient en même temps d’échapper aux officiers du roi qui s’efforcent de les soumettre aux obligations de l’impôt et de l’armée. En 1347, le roi déclare les Neufchâtelois exempts de toute imposition. Les Neufchâtelois se livrent à plusieurs excès contre les officiers du roi : <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#b4b1cb0e4a2a71b77626586ed0fcf12c84d2cd80" n="109" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/b4b1cb0e4a2a71b77626586ed0fcf12c84d2cd80/full/full/0/default.jpg"/>expédition de Montéclair ; ils interdisent l’entrée de leur ville aux gens du bailliage de Chaumont : procès de 1381 aux Grands Jours de Troyes.</p>
           <p>Ce double jeu assure aux Neufchâtelois l’indépendance vis-à-vis du duc et du roi. Ils se servent de l’amitié qu’entretiennent au <num>xiv<hi rend="sup">e</hi></num> siècle les ducs et les rois pour se faire pardonner leurs excès, de ceux-ci, à la faveur de ceux-là.</p>
         </div>
-        <div>
+        <div xml:id="r432782">
           <head rend="uc">Chapitre VII
            <lb/>La Jacquerie</head>
           <p>A la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, les bourgeois changent apparemment de politique : ils entrent en lutte ouverte contre le duc de Lorraine. Celui-ci (Jean I<hi rend="sup">er</hi>) s’était brouillé avec le roi de France (Charles VI) et voulait avoir un pouvoir exclusif à Neufchâteau : dès lors, les Neufchâtelois pour résister au duc s’appuyèrent sur le roi.</p>
@@ -122,7 +120,7 @@
           <p>2. Le duc et les habitants (ces derniers étaient coupables d’avoir renié le roi) sont intimés en Parlement. Habilement, les Neufchâtelois démontrent au roi qu’ils n’ont forfait envers lui qu’à cause du duc de Lorraine. L’arrêt du 27 août 1390 assure la protection des bourgeois contre le duc de Lorraine et ordonne la mainmise du roi sur Neufchâteau,</p>
           <p>3. L’arrêt prononcé en Parlement, après la mort du duc Jean I<hi rend="sup">er</hi> et contre le duc Charles H, le 17 juin 1391, déclarait que Neufchâteau mouvait de la prévôté d’Ande<pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#5965eb5365fc88d1c8dddc8b84479832c1faab54" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/5965eb5365fc88d1c8dddc8b84479832c1faab54/full/full/0/default.jpg"/>lort et du bailliage de Chaumont. – L’arrêt du 13 février 1395 reconnaissait que le duc avait méfait envers les bourgeois.</p>
         </div>
-        <div>
+        <div xml:id="r432826">
           <head rend="uc">Chapitre VIII
            <lb/>»
            <lb/>la Jacquerie (suite).</head>
@@ -130,7 +128,7 @@
           <p>2. La grande terreur de février 1410 : le duc emprisonne de nombreux et notables bourgeois en usant d’un subterfuge. Il fait mettre à mort Guillaume Hurel. II vole les biens des prisonniers. Les bourgeois capitulent le 13 avril, mais vont se plaindre au roi des procédés de Charles II. Le duc se refuse à recevoir les officiers du bailli de Chaumont. Il est défaillant en Parlement : c’est un des principaux chefs du parti bourguignon. – Le 1<hi rend="sup">er</hi> avril 1412, il est condamné par le Parlement à être banni du royaume ; Neufchâteau est déclaré dépendre « nuement » du roi. Mais le roi, pressé par le duc de Bourgogne, octroie au duc, en février 1413, des lettres de rémission.</p>
           <p>3. Les jugements que l’on a portés sur la politique des Neufchâtelois ne sont pas toujours conformes à la vérité : ce n’est pas par désintéressement que les bourgeois prirent le parti du roi, mais par nécessité. Importance de la Jacquerie : le rôle de la royauté à Neufchâteau et la « mission » de Jeanne d’Arc.</p>
         </div>
-        <div>
+        <div xml:id="r432850">
           <head rend="uc">Chapitre IX
            <lb/>La décadence du <num>xv<hi rend="sup">e</hi></num> siècle</head>
           <p>A partir du <num>xv<hi rend="sup">e</hi></num> siècle, Neufchâteau perd de son importance : les excès du <num>xv<hi rend="sup">e</hi></num> siècle avaient affaibli les grandes <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#6f85c8166e373ec6761e68717a8202d4a08448b8" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/6f85c8166e373ec6761e68717a8202d4a08448b8/full/full/0/default.jpg"/>familles ; les conditions économiques avaient changé : la voie de commerce de la vallée de Meuse était moins fréquentée, les foires de Champagne étaient déchues. Neufchâteau qui n’était plus guère une ville de transit, demeure ville frontière.</p>
@@ -139,49 +137,49 @@
           <p>Lorsque vainqueur du Téméraire, René II aura assuré son pouvoir, Neufchâteau sera soumis absolument au due de Lorraine : c’en sera fait de son indépendance.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r432895">
         <head rend="uc">Deuxième partie
          <lb/>Les institutions religieuses et civiles</head>
-        <div>
+        <div xml:id="r432903">
           <head rend="uc">Chapitre premier
            <lb/>le clergé séculier</head>
           <p>1. Les <hi rend="i">paroisses</hi> Saint-Nicolas et Saint-Christophe : le curé de Neufchâteau était à la nomination de l’abbaye de Saint-Mansuy de Toul. – Les desservants des obits assistaient le curé : ils étaient au nombre de douze (règlement de 1434). – Fondations des bourgeois dans les églises paroissiales.</p>
           <p>2. Les <hi rend="i">chapelles :</hi> chapelle du château fondée par Raoul en 1344 ; chapelle Saint-Pierre fondée par Pierre la Greixe en 1384. – Le maître des écoles était parfois chapelain du château.</p>
         </div>
-        <div>
+        <div xml:id="r432926">
           <head rend="uc">Chapitre II
            <lb/>Le clergé régulier</head>
           <p>1. Le prieuré Notre-Dame (dépendance de Saint-Mansuy) : ses droits sur les paroisses. – Le prieuré de Châtenois. – L’abbaye de Morimond. – L’abbaye de <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#304d7c9ef39a91eb890bc4a419dc1aafd46c189e" n="112" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/304d7c9ef39a91eb890bc4a419dc1aafd46c189e/full/full/0/default.jpg"/>Mureau : importance de ses possessions à Neufchâteau, la « maison de Mureau », le moulin, la Maison-Dieu et la chapelle Sainte-Marguerite. – L’abbaye de l’Étanche.</p>
           <p>2. <hi rend="i">Les couvents de Neufchâteau</hi> : a) le <hi rend="i">couvent des Cordeliers</hi> fondé en 1242 par le duc Mathieu II, fut protégé par les ducs et les seigneurs voisins. Les Frères mineurs entretinrent de bons rapports avec les bourgeois. Ils furent remplacés en 1500 par des Frères de l’Observance ;</p>
           <p><hi rend="i">b</hi>) le <hi rend="i">couvent des Clarisses</hi> fut établi en 1295 par Marguerite, duchesse de Lorraine et femme de Ferry III. Ses revenus : fondations de Marguerite, dons des ducs de Lorraine, dot des religieuses, aumônes.</p>
         </div>
-        <div>
+        <div xml:id="r432964">
           <head rend="uc">Chapitre III
            <lb/>Les établissements charitables</head>
           <p>Outre la maladrerie de Rinvaux, l’Hôtel-Dieu de Mureau et l’hôpital Saint-Jean dont nous ne savons presque rien, Neufchâteau avait un <hi rend="i">hôpital du Saint-Esprit.</hi></p>
           <p>Les Frères du Saint-Esprit furent établis par Mathieu II en 1237. L’hôpital, fondé par Fr. Robert de Rome, releva d’abord directement de la maison <hi rend="i">de Saxia in Urbe,</hi> puis fut rattaché à l’important hôpital du Saint-Esprit de Besançon (début du <num>xiv<hi rend="sup">e</hi></num> siècle). On recevait à l’hôpital des pauvres, des malades, des pensionnaires. Le personnel soignant comprenait le recteur ou gouverneur, les Pères et les Sœurs. Les revenus de l’hôpital furent médiocres. Aperçu sur les immeubles de l’hôpital : la ferme de Berthelevaux.</p>
         </div>
-        <div>
+        <div xml:id="r432992">
           <head rend="uc">Chapitre IV
            <lb/>Le clergé et le siècle</head>
           <p>1. La <hi rend="i">vie du clergé</hi> est mal connue. Les Cordeliers trafiquaient <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#8a3143e1082eb73a27473cffdc42e7c20804d2c6" n="113" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/8a3143e1082eb73a27473cffdc42e7c20804d2c6/full/full/0/default.jpg"/> ; la guerre de Cent ans amena quelque relâchement dans l’observance des règles monastiques.</p>
           <p>2. <hi rend="i">Rapports des bourgeois et du clergé.</hi> La générosité des Neufchâtelois envers le clergé est la preuve de leur foi. – Il n’y a pas à Neufchâteau de lutte entre les « communiers » et la cléricature : les raisons de conflit (droits de justice, impôt communal) n’existaient pas à Neufchâteau.</p>
         </div>
-        <div>
+        <div xml:id="r433020">
           <head rend="uc">Chapitre V
            <lb/>Le duc et ses officiers</head>
           <p>1. Le <hi rend="i">duc</hi> en son château : les séjours de René II ; essai sur la vie du duc en son manoir à la fin du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
           <p>2. Les <hi rend="i">officiers ducaux</hi> : le prévôt, le lieutenant de bailli, le châtelain ou capitaine, le cellerier ou receveur, les tabellions, le maître de la monnaie : recrutement, traitement, attributions de ces fonctionnaires.</p>
           <p>3. Le <hi rend="i">voué</hi> : difficulté de connaître les attributions du voué <hi rend="i">ducal</hi> : il protège les bourgeois. Il fait hommage pour sa vouerie au duc de Lorraine et perçoit le tiers des issues de la ville. La vouerie passa successivement aux seigneurs de Montfaucon, Blamont, du Châtelet. A partir du milieu du <num>xv<hi rend="sup">e</hi></num> siècle, les voués n’apparaissent plus.</p>
         </div>
-        <div>
+        <div xml:id="r433066">
           <head rend="uc">Chapitre VI
            <lb/>Le corps communal. Son organisation</head>
           <p>Insuffisance des textes sur les institutions de Neufchâteau.</p>
           <p>1. Évolution du droit urbain à Neufchâteau : les libertés remontent à la fondation de la ville ; elles vont s’agrandissant : confirmation de 1225. La commune est constituée en 1231 (corps communal et sceau). La charte de <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#ffbb8ccc352bb6469bf8c31ef20435ac309d0dff" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/ffbb8ccc352bb6469bf8c31ef20435ac309d0dff/full/full/0/default.jpg"/> 1257, modifiée postérieurement, organise définitivement le corps communal.</p>
           <p>2. Annuellement, à la Saint-Remy, les bourgeois élisaient treize des leurs. Ces treize élisaient dans la quinzaine un <hi rend="i">maire.</hi> Les douze autres membres avaient nom <hi rend="i">jurés.</hi> Le maire, assisté des jurés, juge, répartit et lève les impôts. Les jurés n’avaient aucun pouvoir individuel. – L’<hi rend="i">assemblée générale des bourgeois.</hi></p>
         </div>
-        <div>
+        <div xml:id="r433100">
           <head rend="uc">Chapitre VII
            <lb/>Justice, service militaire, impôts, banalités</head>
           <p>1. La <hi rend="i">justice</hi> était rendue par le maire. Nous ignorons la procédure, mais nous connaissons le tarif des amendes établi sous le duc Ferry II (♰ 1213). Le produit des amendes était remis au duc.</p>
@@ -189,7 +187,7 @@
           <p>3. Les <hi rend="i">impôts</hi> : la taille abonnée ou <hi rend="i">jurée</hi> : impôt de répartition en 1225, impôt de quotité en 1237. – Autres impôts sur la <hi rend="i">vente,</hi> les <hi rend="i">boissons,</hi> la <hi rend="i">chaussée,</hi> etc Tous ces impôts étaient répartis et perçus par le maire, qui les remettait au duc. – Impôt extraordinaire : <hi rend="i">Y aide </hi>votée par les États.</p>
           <p>4. Les <hi rend="i">banalités</hi> : les fours.</p>
         </div>
-        <div>
+        <div xml:id="r433157">
           <head rend="uc">Chapitre VIII
            <lb/>La vie économique</head>
           <p>1. <hi rend="i">L’agriculture</hi> : occupation secondaire des bourgeois. Les Neufchâtelois ont des vignes, des jardins. Ils achètent des terres aux alentours de leur ville. Certains exercent la profession de vigneron.</p>
@@ -197,7 +195,7 @@
           <p>3. <hi rend="i">Le commerce.</hi> Les bourgeois pratiquèrent surtout le commerce de transit ; ils allaient sur tons les grands marchés d’Europe, achetaient et revendaient : on trouve leurs traces en Italie, sur les bords du Rhin (Constance), dans le Nord (pays de Liége). Les convois de marchands.</p>
           <p>4. <hi rend="i">Le commerce de l’argent</hi> était pratiqué par les changeurs, les juifs et les Lombards. Droit auquel étaient soumis les juifs : droits d’« entrage » et de séjour ; la haine contre les juifs ; le duc René II les chasse du duché en 1477.</p>
         </div>
-        <div>
+        <div xml:id="r433205">
           <head rend="uc">Chapitre IX
            <lb/>La vie urbaine. Les familles bourgeoises</head>
           <p>1. Aperçu sur la constitution des <hi rend="i">grandes familles </hi>neufchâteloises. Le <hi rend="i">processus</hi> de leurs fortunes : enrichis par le commerce, les bourgeois prêtent, achètent des fiefs, s’allient aux plus grandes familles de’ la Lorraine (les Tripotel, Treuve-Denier, Pourcelot).</p>
@@ -205,40 +203,40 @@
           <p>3. Le gouvernement de la ville appartint <hi rend="i">exclusivement</hi> aux riches. Il n’y eut pas à Neufchâteau de lutte entre le peuple et l’aristocratie. Aussi y eut-il comme un accaparement des charges communales par les mêmes familles : on trouve dans un même conseil de ville un père maire et un fils juré. La classe aristocratique ne se renouvela pas après le <num>xv<hi rend="sup">e</hi></num> siècle, l’industrie de Neufchâteau n’était pas assez développée et le commerce était alors complètement modifié. Ce fut une des causes essentielles de la déchéance de Neufchâteau.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r433246">
         <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#39be77ba24462e7944532ac2aea5bffc523d1f32" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/39be77ba24462e7944532ac2aea5bffc523d1f32/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>1. On peut vérifier à Neufchâteau les grandes lois du régime communal.</p>
         <p>2. L’histoire de Neufchâteau est un épisode instructif de l’expansion royale à l’Est de la France au moyen âge.</p>
       </div>
-      <div>
+      <div xml:id="r433264">
         <head rend="uc">Pièces justificatives</head>
-        <div>
+        <div xml:id="r433270">
           <head rend="uc">Appendice I</head>
           <p><hi rend="i">Liste</hi> des maires et jurés de Neufchâteau. – Liste des châtelains, des celleriers, des gardiens des Frères mineurs, des recteurs de l’Hôpital du Saint-Esprit, des abbesses des Clarisses.</p>
         </div>
-        <div>
+        <div xml:id="r433283">
           <head rend="uc">Appendice II</head>
           <p><hi rend="i">Sigillographie de Neufchâteau :</hi> sceaux de la ville, des maires, des chevaliers et bourgeois, du couvent des Cordeliers, du couvent des Clarisses, du prieuré Notre-Dame (Planches).</p>
         </div>
-        <div>
+        <div xml:id="r433296">
           <head rend="uc">Appendice III</head>
           <p><hi rend="i">Les armes de Neufchâteau au moyen âge</hi> : Neufchâteau a peut-être eu dès le <num>xiv<hi rend="sup">e</hi></num> siècle des armes à <hi rend="i">trois tours ;</hi> en tout cas, dès cette époque, le <hi rend="i">château</hi> ou la <hi rend="i">tour</hi> était son emblème.</p>
         </div>
-        <div>
+        <div xml:id="r433327">
           <head rend="uc">Appendice IV</head>
           <p>Les <hi rend="i">armoiries des familles neufchâteloises</hi> du moyen âge sur les monuments funéraires des églises de Neufchâteau.</p>
         </div>
-        <div>
+        <div xml:id="r433341">
           <head rend="uc">Appendice V</head>
           <p>Le <hi rend="i">style chronologique</hi> en usage à Neufchâteau était celui de l’Annonciation.</p>
         </div>
-        <div>
+        <div xml:id="r433355">
           <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#1ef82654c331184fa859b060775cc852e257aca3" n="117" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/1ef82654c331184fa859b060775cc852e257aca3/full/full/0/default.jpg"/>
           <head rend="uc">Appendice VI</head>
           <p>On ne peut préciser, contrairement à ce qu’ont cru certains auteurs, le fief pour lequel les ducs de Lorraine étaient vassaux des comtes de Champagne avant qu’ils ne dussent l’hommage à ces derniers pour Neufchâteau.</p>
         </div>
-        <div>
+        <div xml:id="r433370">
           <head rend="uc">Appendice VII</head>
           <p><hi rend="i">Plan et topographie de Neufchâteau.</hi> Aspect de la ville neuve : les rues principales convergent vers la place du marché. Il n’y a pas de symétrie dans les rues. Les faubourgs de Neufchâteau. Déplacement du centre de la ville vers l’ouest (Plans).</p>
           <pb source="https://nakala.fr/10.34847/nkl.3e5fdnhd#21bab0c242ebcb314d3b233360aedfa5f50190c0" n="118" facs="https://api.nakala.fr/iiif/10.34847/nkl.3e5fdnhd/21bab0c242ebcb314d3b233360aedfa5f50190c0/full/full/0/default.jpg"/>

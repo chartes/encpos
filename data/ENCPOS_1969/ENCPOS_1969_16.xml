@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,24 +55,24 @@
         <surname>Pallier</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r911069">
         <head rend="uc">Introduction</head>
         <p>Il a paru pendant la Ligue quelques grands ouvrages et une quantité de petits écrits, édités à l’occasion des moindres événements de cette longue lutte. Quelques villes : Paris, Lyon, Troyes, se sont illustrées dans le camp ligueur par leurs impressions. Après de nombreuses études qui ont retraçé cet affrontement sur le plan des idées politiques et dans le cadre général de la France, il n’était pas inutile de rechercher, dans le cadre restreint mais homogène de Paris, ce que fut la totalité de l’information, ses sources, l’organisation d’une propagande, la résonance de ses thèmes dans le public, sans oublier l’aspect matériel, commercial même, des controverses.</p>
         <p>Les manuscrits de Ph. Renouard, consacrés aux impressions parisiennes du <num>xvi<hi rend="sup">e</hi></num> siècle, conservés à la réserve de la Bibliothèque nationale, ont été la base de cette recherche. Celle-ci fut complétée par le recours au minutier des notaires parisiens et au fonds du Parlement, aux Archives nationales.</p>
       </div>
-      <div>
+      <div xml:id="r911088">
         <pb source="https://nakala.fr/10.34847/nkl.c64c2tp1#7eac37de1100b02bd055812a163f09dd699b5e28" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.c64c2tp1/7eac37de1100b02bd055812a163f09dd699b5e28/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Le monde du livre, le pouvoir et le public
          <lb/>à Paris en 1585</head>
-        <div>
+        <div xml:id="r911103">
           <head rend="uc">Chapitre premier
            <lb/>le monde du livre</head>
           <p>La guerre, le conflit religieux, la crise monétaire et leur conséquence, la fiscalité royale, ébranlent les structures politiques, économiques et sociales du pays. A Paris tous ces aspects sont à la fois exacerbés et contenus.</p>
           <p>Le monde de l’imprimerie, au milieu de cette triple crise, est apparemment privilégié, grâce à la protection de l’Université et aux exemptions qui en découlent. En fait, c’est un monde où il y a des privilégiés (libraires-jurés, imprimeurs du roi, membres de compagnies, possesseurs de monopoles d’édition), accaparant avec la faveur du pouvoir un maigre marché, tandis que le plus grand nombre est réduit à des travaux de hasard.</p>
           <p>Les oppositions sociales entre grands et petits, entre maîtres et compagnons imprimeurs ont avant tout une cause économique, que traduisent bien les grèves de 1571-1572 et la déclaration du roi qui les suit. La crise est due, non pas tant à l’indiscipline des ouvriers, qu’au manque de capitaux, au départ de nombreux imprimeurs entreprenants pour l’étranger, pour cause de religion, à la concurrence étrangère, aux dangers du commerce intérieur.</p>
         </div>
-        <div>
+        <div xml:id="r911121">
           <head rend="uc">Chapitre II
            <lb/>Les livres et leur public : le reflet de la crise politique</head>
           <p>Inclu dans la crise, réglementé par le roi, soumis au faix de sa censure, ce monde représente néanmoins une force, d’autant plus grande que, depuis le milieu du siècle, un public de plus en plus touché par toutes les formes de propagande écrite et orale et de plus en plus nombreux attend de lui l’information.</p>
@@ -82,10 +80,10 @@
           <p>L’opposition passe du côté des catholiques ; la Ligue, apte à saisir tous les mécontentements, mène une campagne de placards. Joignant au droit populaire les prétentions de la maison de Lorraine (affaire des <hi rend="i">Stemmata Lotharingie ac Barri ducum</hi> de François de Rosières), ses forces décuplent avec la mort de l’héritier catholique au trône, le duc d’Anjou.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r911149">
         <head rend="uc">Deuxième partie
          <lb/>Les presses de la ligue</head>
-        <div>
+        <div xml:id="r911157">
           <head rend="uc">Chapitre premier
            <lb/>les pièces ligueuses. Impression, édition</head>
           <p>L’action politique de la Ligue entraîne une modification de l’aspect matériel, des structures, des modes de diffusion de l’imprimé. On peut estimer, d’après la proportion des pièces perdues ou détruites, que la Ligue a jeté dans Paris plus d’un millier d’éditions entre 1585 et 1594, dont un tiers en 1589. Ce nombre, les impératifs de la production de masse, la primauté donnée aux pamphlets brefs et aux occasionnels historiques, entraînent une certaine unité de la production, une osmose des genres.</p>
@@ -94,7 +92,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.c64c2tp1#3a3eb374531a1e48730d5026bf5190e64b18c03f" n="138" facs="https://api.nakala.fr/iiif/10.34847/nkl.c64c2tp1/3a3eb374531a1e48730d5026bf5190e64b18c03f/full/full/0/default.jpg"/>
           <p>L’information veut être rapide, les nouvelles et les bulletins se succèdent, l’importance des transmissions de ville à ville grandit. En revanche le souci de la correction des textes et l’honnêteté commerciale sont souvent absents. Les éditions concurrentes, rééditions, reprises de textes anciens multiplient la production. Leurs tirages importants (2.000 exemplaires) sont écoulés par les colporteurs qui les crient et les vendent par les rues, sous l’égide du parti catholique.</p>
         </div>
-        <div>
+        <div xml:id="r911183">
           <head rend="uc">Chapitre II
            <lb/>La propagande ligueuse</head>
           <p>La masse des pièces n’est pas inorganisée. Au contraire l’habile propagande du parti catholique a frappé les historiens contemporains (A. de Thou, Palma-Cayet). Sachant utiliser les événements (la mort de Marie Stuart, l’invasion des reîtres), les ligueurs ont su aussi mener des campagnes de presse de longue haleine, au demeurant plus actives et efficaces contre un homme (le duc d’Épernon, Henri III, Henri IV) que pour une idée.</p>
@@ -107,7 +105,7 @@
           <p>En revanche l’aspect offensif, c’est-à-dire les polémiques victorieuses que le parti catholique engageait avec ses adversaires, tourne rapidement à son désavantage après la mort du duc de Guise et celle d’Henri III. Hormis le refus du prétendant hérétique, les ligueurs ont peu d’idées communes. Dès 1590, d’abondantes répliques royalistes, appuyées sur le sentiment national et le gallicanisme, l’emportent devant l’opinion publique.</p>
           <p>La cause de ces défaites est l’absence d’inspiration unique, le passage dès 1589 aux propagandes particulières. Les pièces sont partagées par ordre d’importance entre l’offensive théocratique de la papauté, les prétentions du duc de Lorraine, les ambitions de Mayenne. La propagande espagnole apparaît moins fréquemment qu’on ne l’attendrait à Paris ; il n’y a qu’une seule pièce en faveur du duc de Savoie.</p>
         </div>
-        <div>
+        <div xml:id="r911229">
           <head rend="uc">Chapitre III
            <lb/>Les textes et leurs lecteurs</head>
           <p>Les impressions de la Ligue ne forment pas un ensemble homogène. La Ligue n’a pas produit seulement des pamphlets, elle a envahi, à Paris, tous les genres et particulièrement les plus populaires. En même temps que l’histoire est mise au goût du jour (croisade contre les Albigeois), les récits de batailles, les nouvelles étrangères, les faits divers merveilleux passent presque totalement aux mains de la Ligue dès 1588. On doit y ajouter la poésie, sous forme de chansons, d’« estreines » ou de tombeaux. Les pièces de privilège, enfin, changent de parti ; les arrêts du Parlement, les actes du Conseil de la Ligue sont d’ailleurs souvent de véritables pamphlets. On peut en dire autant de pièces émanées d’autorités religieuses, Faculté de théologie ou légat.</p>
@@ -117,7 +115,7 @@
           <p>L’étude du personnel et du vocabulaire de la masse des occasionnels montre non seulement des formes dégénérées de la conscience politique ou religieuse, les attaques <hi rend="i">ad hominem</hi> et les « coups du ciel » raillés par la <hi rend="i">Ménippée,</hi> mais laisse entrevoir aussi l’attitude du bourgeois ligueur envers l’étranger, le soldat, envers sa ville. Plus souvent qu’on ne l’attendrait, les pièces montrent les problèmes de la vie de tous les jours à Paris. Elles trahissent aussi le goût pour la violence, une crise affective.</p>
           <p>Les lecteurs, pour autant qu’on puisse le voir à travers leurs « journaux », sont en majorité plus touchés par les formes traditionnelles d’information et de pensée. Mais ceux-ci ne sont pas assez nombreux et ne représentent pas un échantillonnage social suffisant pour tirer des conclusions générales. Il faut cependant y noter, là aussi, la formation d’un vocabulaire, l’extension des « mémoires » en même temps que la crise se développe. Tous montrent néanmoins que la presse n’était qu’un moyen de propagande parmi d’autres employés concurremment, tels les prêches, les processions. Bien souvent aussi, dans ces « journaux », c’est la propagande du parti contraire qui a prévalu.</p>
         </div>
-        <div>
+        <div xml:id="r911266">
           <head rend="uc">Chapitre IV
            <lb/>Le rôle des imprimeurs</head>
           <p>La Ligue et ses conséquences : le départ du roi, le siège de 1590, la guerre incessante autour de Paris, ont ruiné l’imprimerie en même temps que la ville. Seuls quelques libraires solidement installés (La Noue, Du Puys, Bonfons) continuèrent leur commerce normal, au ralenti.</p>
@@ -138,7 +136,7 @@
          <lb/>parisiennes (1585-1594)</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r911326">
         <head rend="uc">Pièces annexes</head>
         <p>Documents sur les imprimeurs et libraires parisiens pendant la Ligue.</p>
         <pb source="https://nakala.fr/10.34847/nkl.c64c2tp1#0052f0e6ff15be3164b018a4972f1dc52170be36" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.c64c2tp1/0052f0e6ff15be3164b018a4972f1dc52170be36/full/full/0/default.jpg"/>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1913_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1913_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,15 +59,15 @@
         <surname>Deloncle</surname>
         <roleName>Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r366236">
         <head rend="uc">Première partie : Introduction</head>
-        <div>
+        <div xml:id="r366242">
           <head rend="uc">I
            <lb/>définition du sujet</head>
           <p>Ce travail a pour sujet l’histoire d’un des plus anciens quartiers de Paris, celui limité au Nord par la rue Saint-Honoré dans la portion comprise entre la rue de l’Oratoire et celle de l’Arbre-Sec, au Sud par le quai du Louvre (entre le Louvre actuel et la place de l’Ecole), à l’Ouest par ce palais et la rue de l’Oratoire, à l’Est par la rue de l’Arbre-Sec. Ce quartier, du <num>xiii<hi rend="sup">e</hi></num> au XVIII<hi rend="sup">e </hi>siècle, resta soumis à une seule censive, celle de Saint-Germain-l’Auxerrois et il présente si peu d’enclaves d’autres censives que l’on pourra trouver dans les documents concernant celle de Saint-Germain tous les renseignements voulus pour une étude topographique de cette <pb source="https://nakala.fr/10.34847/nkl.4e5651up#f6909f78b348a54ac040f2b959dee43d5212e563" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e5651up/f6909f78b348a54ac040f2b959dee43d5212e563/full/full/0/default.jpg"/>région : par suite, dans le titre précédent, le terme de censive donne le lien qui rattache entre eux les différents documents utilisés.</p>
           <p>Les limites de cette censive n’ont pas varié au cours des siècles ; dans la portion de Paris qu elles déterminent, on a essayé de reconstituer ici, rue par rue, l’enchaînement des maisons entre elles et pour chaque maison la suite des propriétaires. Les premières mentions de ces maisons apparaissent à des dates différentes pendant la seconde moitié du <num>xiii<hi rend="sup">e</hi></num> siècle. Le point de départ de ce travail ne saurait donc être aussi précis que le point d’arrivée : la date de 1740 représente le moment où. par suite de la fusion du chapitre de Saint-Germain avec celui de Notre-Dame, il n’y a plus de censive de Saint-Germain-l’Auxerrois. Il n’y a plus dès lors que la censive de l’Archevêché.</p>
         </div>
-        <div>
+        <div xml:id="r366278">
           <head rend="uc">II
            <lb/>les documents utilisés</head>
           <p>Les cartulaires de Saint-Germain-l’Auxerrois contiennent surtout des contrats où les chanoines et les clercs de cette église ne figurent point parmi les parties mais où il est fait mention de leurs droits de censive : c’est à ce titre que ces actes sont insérés dans ces recueils.</p>
@@ -79,71 +77,71 @@
           <p>Les plans sont une représentation plus frappante pour les yeux des renseignements épars dans les documents précédents. Le plus ancien de ceux où soit figurée la censive de Saint-Germain-l’Auxerrois était depuis longtemps cité, mais il était mal connu. Il fut composé en septembre 1569 par un maître peintre, nommé Pierre Quesnel, afin d’être produit comme pièce authentique dans une action judiciaire.</p>
           <p>Les plus précis des plans relatifs à cette région furent composés, l’un vers 1670 ou 1675 pour le chapitre de Saint-Germain, les autres dans les premières années du <num>xviii<hi rend="sup">e</hi></num> siècle pour le Terrier du roi.</p>
         </div>
-        <div>
+        <div xml:id="r366328">
           <head rend="uc">III
            <lb/>la méthode suivie</head>
           <p>Les renseignements fournis par ces diverses catégories de documents se répartissent deux-mêmes sur deux périodes : la lin du <num>xiii<hi rend="sup">e</hi></num> siècle d’une part, les <num>xvi<hi rend="sup">e</hi></num>, <num>xvii<hi rend="sup">e</hi></num>, <num>xviii<hi rend="sup">e</hi></num> siècles d’autre part. Entre ces deux époques, il n’y a pas de continuité. Les documents du <num>xv<hi rend="sup">e</hi></num> siècle sont très rares et cela crée une très grande difficulté : en rapprochant les données fournies par le cartulaire, on arrive à reconstituer des groupes de maisons à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, mais, faute de points de repère précis, il est impossible le plus souvent de les situer dans une rue, quelquefois même de les attribuer à un côté plutôt qu’à un autre. Le seul moyen de les identifier est de retrou<pb source="https://nakala.fr/10.34847/nkl.4e5651up#4a75fa8eb28bf8bbaab6e762e2b1e34225491abc" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e5651up/4a75fa8eb28bf8bbaab6e762e2b1e34225491abc/full/full/0/default.jpg"/>ver aux siècles suivants des indications concernant telle maison de ces groupes. 11 faut donc pour la recherche des documents suivre une méthode régressive, aller du connu à l’inconnu, des plans précis et des documents qui s’y réfèrent aux documents isolés des siècles précédents. Ensuite, pour les nécessités de l’exposition, il faut renverser cet ordre et présenter les résultats dans leur suite chronologique. Telle a été la méthode suivie pour chaque maison. Dans chaque rue les maisons sont énumérées d’une manière rigoureusement topographique, en partant d’un point de repère précis et en allant du Nord au Sud et de l’Ouest à l’Est. Les rues sont citées dans l’ordre alphabétique.</p>
           <p>Ce travail fournit de nombreux renseignements sur les familles parisiennes qui vécurent dans ce quartier : familles nobles obligées d’habiter près du souverain qu elles servaient, familles parlementaires, désireuses de se rapprocher des premières et qui vivaient nombreuses autour de cette église, petites gens enfin, fournisseurs et domestiques, pour la plupart, de la famille royale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r366385">
         <head rend="uc">Seconde partie
          <lb/>Étude topographique de la censive</head>
-        <div>
+        <div xml:id="r366393">
           <head rend="uc">I
            <lb/>rue de l’Arbre-Sec</head>
           <p>Cette rue, qui aboutissait sur la Seine à un abreuvoir et présentait à tous les carrefours des ateliers de maréchaux ferrants, servait aux habitants du quartier à conduire leurs chevaux à la rivière. Seules, les maisons du rang ouest situées entre la rue Saint-Honoré au Nord et la rue des Fossés-Saint-Germain au Sud, appartenaient à la censive de Saint-Germain, dont relevaient aussi les <pb source="https://nakala.fr/10.34847/nkl.4e5651up#980aa5885032efa5c2e0f6c46e17f5453a433f3e" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e5651up/980aa5885032efa5c2e0f6c46e17f5453a433f3e/full/full/0/default.jpg"/>échoppes et boutiques placées autour du chevet de l’église, jusqu’à la rue des Prêtres-Saint-Germain-l’Auxerrois. Les principales familles qui eurent des propriétés dans cette rue sont les familles de La Croix, de Marle et Legagneux. Le sculpteur Michel Anguier y posséda une maison.</p>
         </div>
-        <div>
+        <div xml:id="r366410">
           <head rend="uc">II
            <lb/>cloître Saint-Germain</head>
           <p>Le côté Nord de l’église présentait anciennement des maisons bâties entre ses chapelles. Elles furent démolies après 1329. A plusieurs reprises, au <num>xiv<hi rend="sup">e</hi></num>, au <num>xv<hi rend="sup">e</hi></num> et au <num>xvi<hi rend="sup">e</hi></num> siècle, les clercs de Saint-Germain firent clore de portes solides les diverses entrées du cloître, où toutes les maisons, à une exception près, leur appartenaient. Il est donc impossible d’étudier à part chacune d’elles comme dans les rues où elles étaient toutes à des propriétaires distincts. Différents culs-de-sac et passages s’ouvraient sur le cloître ou y conduisaient : cul-de-sac de la Treille et de Saint-Germain, ruelle de Troubernart, dite plus tard du Demi-Saint, passage au Nord de la maison du Doyenné, rue des Prêtres-Saint-Germain-l’Auxerrois. On remarquait au Nord du cloître une maison à piliers et une maison portant l’enseigne peinte de l’Annonciation, à l’Ouest la maison du Doyenné, au Sud le bassin de la pompe du Pont-Neuf et un ancien cimetière .</p>
         </div>
-        <div>
+        <div xml:id="r366440">
           <head rend="uc">III
            <lb/>rue Daveron ou de Bailleul</head>
           <p>On trouvait au rang Nord de cette rue le petit hôtel d’Aligre, anciennement de Lansac, au rang Sud une maison à tourelle située à l’angle Est de la rue Jean-Tison et une maison ayant appartenu aux Haudriettes.</p>
         </div>
-        <div>
+        <div xml:id="r366452">
           <pb source="https://nakala.fr/10.34847/nkl.4e5651up#4b94ea6a7ca15d2dd2831ba3c9521abd6fc20245" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e5651up/4b94ea6a7ca15d2dd2831ba3c9521abd6fc20245/full/full/0/default.jpg"/>
           <head rend="uc">IV
            <lb/>quai de l’école (aujourd’hui du Louvre)</head>
           <p>Dans la partie de ce quai comprise entre la rue des Fossés-Saint-Germain (dite aussi des Poulies et du Petit-Bourbon, aujourd’hui du Louvre), la plupart des maisons avaient une seconde issue sur le cloître Saint-Germain-l’Auxerrois.</p>
         </div>
-        <div>
+        <div xml:id="r366469">
           <head rend="uc">V
            <lb/>rue des Fossés-Saint-Germain</head>
           <p>Cette rue paraît rappeler par sa forme autant que par son nom, la fortification légère qui entourait le bourg de Saint-Germain-l’Auxerrois au <num>xi<hi rend="sup">e</hi></num> siècle, et plus anciennement peut-être le camp établi par les Normands sur le monceau de Saint-Germain. Au rang Sud, l’hôtel de Sourdis était situé en partie dans la censive de Saint-Germain, en partie dans celle de l’évêque. Un plan de 1687 et un plan de l’abbé Delagrive, daté de 1755. déterminent la limite de ces censives. Dans la partie du rang Sud la plus voisine de la rue de l’Arbre-Sec, on trouvait quelques enclaves de la censive de l’évêque et d’anciens fiefs particuliers, dévolus à une époque relativement récente à Saint-Germain.</p>
           <p>L’angle formé par les deux orientations de celte rue est un point dont l’importance topographique a été de tout temps remarquée, puisque le langage donna souvent à la partie Nord-Sud de la rue des Fossés des appellations spéciales, soit en la confondant avec la rue des Poulies, soit en la nommant rue du Petit-Bourbon.</p>
         </div>
-        <div>
+        <div xml:id="r366490">
           <pb source="https://nakala.fr/10.34847/nkl.4e5651up#6d81f58e318a8981f9c21abf0aa9dfa0d30fcb45" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e5651up/6d81f58e318a8981f9c21abf0aa9dfa0d30fcb45/full/full/0/default.jpg"/>
           <head rend="uc">VI
            <lb/>rue Jean-Tison</head>
           <p>Il est possible de reconstituer sans lacunes le rang Est de cette rue dès la fin du <num>xiii<hi rend="sup">e</hi></num> siècle. On trouvait dans cette partie de la censive plusieurs maisons appartenant au chapitre de Saint-Honoré ; l’origine de celle propriété apparaît dans des documents du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r366519">
           <head rend="uc">VII
            <lb/>rue des poulies</head>
           <p>Plusieurs des notices consacrées par Berty aux hôtels du rang Ouest de cette rue sont intéressantes et solidement établies (par exemple celle de l’hôtel de Bourbon), d’autres contiennent des inexactitudes ou des lacunes (celles de l’hôtel de Créqui et de l’hôtel de Conti). On doit de plus identifier avec l’hôtel de Nevers deux maisons que posséda Catherine de Médicis dans cette rue, et que l’on n’avait pas déterminées jusqu’ici.</p>
         </div>
-        <div>
+        <div xml:id="r366531">
           <head rend="uc">VIII
            <lb/>rue Saint-Honoré</head>
           <p>L’hôtel d’Aligre, après avoir appartenu à Pierre Lescot et au sieur de Lansac, devint la propriété des familles de Schomberg et d’Aligre. C’était le plus remarquable édifice de cette partie de la rue, il fut quelque temps le siège du Grand Conseil. Près de lui on voyait les vieilles maisons de la Cloche et du Mouton.</p>
         </div>
-        <div>
+        <div xml:id="r366543">
           <head rend="uc">IX
            <lb/>enclaves formées, hors de ce quartier, par la
            <lb/>censive de Saint-Germain</head>
           <p>Ces enclaves se trouvaient rue des Deux-Boules, rue de la Coutellerie, rue aux Fers, rue de la Ferronnerie, <pb source="https://nakala.fr/10.34847/nkl.4e5651up#ade55efb0fe0d78705cf88a45f7ec06b48ac3a31" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e5651up/ade55efb0fe0d78705cf88a45f7ec06b48ac3a31/full/full/0/default.jpg"/>aux charniers des Innocents, rue des Lavandières, rue de Marivaux, quai de la Mégisserie, rue Perrin-Gasselin, rue du Roi-de-Sicile, rue Saint-Germain-l’Auxerrois, auprès de Saint-Landry et de Saint-Leufroy, et rue de la Vannerie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r366563">
         <head rend="uc">Appendice</head>
         <p>Notes et plans relatifs au fief de Saint-Germain à Auteuil, au fief de Montmoyen et au fief de Torval.</p>
       </div>
-      <div>
+      <div xml:id="r366573">
         <head rend="uc">Pièces justificatives</head>
         <p>Le cartulaire de Saint-Germain-l’Auxerrois (<num>xiii<hi rend="sup">e</hi></num>-<num>xiv<hi rend="sup">e</hi></num> siècles).</p>
       </div>

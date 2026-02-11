@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1919_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1919_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <surname>Léonard</surname>
         <roleName>Licencié ès lettres, Diplômé d’études supérieures, Élève de l’École des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r388341">
         <head rend="uc">Introduction</head>
         <p>I. <hi rend="i">Les archives des comtes de Toulouse.</hi></p>
         <p>Le trésor des chartes des comtes de Toulouse est représenté aujourd’hui par les cartons J 303 à J 331 des Archives Nationales.</p>
@@ -74,9 +72,9 @@
          <lb/>la diplomatique des comtes de Toulouse</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r388415">
         <head rend="uc">Première période</head>
-        <div>
+        <div xml:id="r388421">
           <head rend="uc">I
            <lb/>de Guillaume I<hi rend="sup">er</hi> à Alphonse Jourdain
            <lb/>(804-1112)</head>
@@ -84,7 +82,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.15406km3#d6bdd8c138a146ec1887ff7ce4d4f2a2d7fe231c" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.15406km3/d6bdd8c138a146ec1887ff7ce4d4f2a2d7fe231c/full/full/0/default.jpg"/>
           <p>Les actes de cette époque subissent l’influence des chancelleries ecclésiastiques. Ils se divisent en deux catégories : les <hi rend="i">notices</hi> ou <hi rend="i">brefs,</hi> consacrés primitivement aux plaids et aux transactions administratives, et caractérisés par le titre, la forme impersonnelle et l’absence de formules ; les <hi rend="i">diplômes</hi>, employés pour les donations et les privilèges en faveur des établissements religieux, d’origine probablement ecclésiastique et caractérisés par la solennité des formules. Les diplômes se divisent en trois catégories, suivant le protocole : diplômes en forme de lettres à l’église, de déclaration, de notification.</p>
         </div>
-        <div>
+        <div xml:id="r388462">
           <head rend="uc">II
            <lb/>Alphonse Jourdain
            <lb/>(1112-1148)</head>
@@ -92,12 +90,12 @@
           <p>Les <hi rend="i">notices</hi> et les <hi rend="i">brefs</hi> disparaissent, mais certaines de leurs caractéristiques, en particulier le titre, se retrouvent parfois dans les autres actes. Parmi les diplômes, ceux qui commencent par une notification sont les plus employés. Etude des formules.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r388488">
         <pb source="https://nakala.fr/10.34847/nkl.15406km3#e41a7e1be88478601eba38690c51019bdbd69efc" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.15406km3/e41a7e1be88478601eba38690c51019bdbd69efc/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième période
          <lb/>Raymond V et Raymond VI
          <lb/>(1148-1222)</head>
-        <div>
+        <div xml:id="r388503">
           <head rend="uc">Première partie
            <lb/>La chancellerie centrale</head>
           <p>Il y a pendant cette période plusieurs chancelleries des comtes de Toulouse. A côté de la chancellerie centrale, et, semble-t-il, indépendantes d’elle, on trouve les chancelleries de Saint-Gilles, de Nîmes, de Mauguio et du marquisat de Provence.</p>
@@ -106,7 +104,7 @@
           <p>A côté de ces fonctionnaires de la chancellerie centrale apparaissent, dressant par exception des actes de Raymond V, de Raymond VI et de leurs officiers, des notaires seigneuriaux et des notaires publics. C’est surtout pendant le règne de Raymond V qu’on trouve les notaires seigneuriaux, dans des actes dressés par les soins des destinataires. Ce sont, entre autres : Bernard Sicfred et Arnaud de Clairan, notaires des vicomtes de Carcassonne et de Béziers ; Géraud, notaire du comte de Foix ; <pb source="https://nakala.fr/10.34847/nkl.15406km3#96ef4e26a32d803cb79724d9248291bb47a9621a" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.15406km3/96ef4e26a32d803cb79724d9248291bb47a9621a/full/full/0/default.jpg"/>Foulques, notaire du seigneur de Montpellier. Sous Raymond VI on trouve dans les actes les notaires publics de Montauban Guillaume Itier (1204) et Pierre de Juvignargues (1221), Étienne, notaire de Moissac (1197), Guillaume Delpit, notaire de Gaillac (1219).</p>
           <p><hi rend="i">Actes de la chancellerie centrale.</hi> – Le <hi rend="i">diplôme,</hi> très rare, est réservé aux donations et privilèges en faveur des établissements religieux. L’ancien diplôme en forme de notification, dépourvu de ses formules de solennité, est devenu la <hi rend="i">lettre en forme de charte</hi> dont l’usage est très fréquent. Enfin, un grand nombre de chartes des comtes de Toulouse revêtent la forme de l’<hi rend="i">acte notarié </hi>et ne diffèrent pas essentiellement des expéditions que délivrent les notaires publics. L’influence de ceux-ci est le trait caractéristique de la chancellerie centrale de cette époque.</p>
         </div>
-        <div>
+        <div xml:id="r388555">
           <head rend="uc">Deuxième partie
            <lb/>Les chancelleries locales
            <lb/>étude générale</head>
@@ -142,7 +140,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r388662">
         <head rend="uc">Troisième période
          <lb/>Raymond VII
          <lb/>(1222-1249)</head>
@@ -166,7 +164,7 @@
          <lb/>des comtes de Toulouse</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r388749">
         <head rend="uc">Appendices</head>
         <p>I. Étude sur le <hi rend="i">Regestum Comitum Tolosae</hi> (Bibl. mun. d’Aix, ms. n° 671).</p>
         <p>II. Étude sur la chancellerie des évêques de Nîmes du <num>ix<hi rend="sup">e</hi></num> au <num>xii<hi rend="sup">e</hi></num> siècle.</p>

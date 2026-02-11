@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1868_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1868_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,18 +58,18 @@
         <surname>Le Proux</surname>
         <roleName rend="uc">Avocat</roleName>
       </byline>
-      <div>
+      <div xml:id="r67078">
         <head rend="uc">Avant-propos.</head>
         <p>But de ce travail. Auteurs qui ont parlé des comtes de Vermandois.</p>
       </div>
-      <div>
+      <div xml:id="r67088">
         <head rend="uc">Introduction.</head>
         <p>Le Vermandois avant ses comtes héréditaires.</p>
       </div>
-      <div>
+      <div xml:id="r67098">
         <head rend="uc">Première partie
          <lb/>Histoire</head>
-        <div>
+        <div xml:id="r67106">
           <head rend="uc">I<hi rend="sup">re</hi> section. – Les comtes héréditaires de la famille carolingienne.</head>
           <p>CHAPITRE I. – Herbert I<hi rend="sup">er</hi>, fils de Pépin, fait la guerre au seigneur de Cambrai, meurt assassiné en 902.</p>
           <p>CHAPITRE II. – Herbert II (902-944). Son rôle dans les affaires de la France. Emprisonnement de Charles le Simple. Usurpation de l’archevêché de Reims. Querelles d’Herbert avec le roi Raoul. Son alliance avec Hugues de France. Avénement de Louis <pb source="https://nakala.fr/10.34847/nkl.92fa1uv1#69696b50794e21013a2bb884c5caf1870bc47c4e" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.92fa1uv1/69696b50794e21013a2bb884c5caf1870bc47c4e/full/full/0/default.jpg"/>d’Outremer. Herbert fait partie de la ligue des grands vassaux contre ce prince : il s’allie avec le roi de Germanie, puis se réconcilie avec Louis. Diverses guerres d’Herbert. Son genre de mort d’après la chronique de Richer. Ses enfants.</p>
@@ -80,7 +78,7 @@
           <p>CHAPITRE V. – Albert H. Othon I<hi rend="sup">er</hi>. Albert, après une vie déréglée, se retire, avant l’année 1010 (erreur de Colliette), dans l’abbaye d’Homblières. Othon le remplace (charte du 15 juillet 1010). Albert sort du cloître, reprend le gouvernement et meurt vers 1016. Othon I<hi rend="sup">er</hi> reste seul maître du Vermandois. Assiste, en 1017, au couronnement de Henri, fils de Robert ; meurt vers 1046.</p>
           <p>CHAPITRE VI. – Herbert IV (1047-1080). Longue vie sans incidents. H refuse son appui au châtelain de Cambrai contre son évêque ; assiste, en 1059, au sacre de Philippe, et épouse Adèle de Crépy, qui lui apporte le comté de ce nom, en 1077 ; ‘ meurt en 1080. H ne laisse qu’une fille, Adèle. Le fils Eudes, qu’on lui attribue, n’a pas existé. Fausse enquête de Philippe-Auguste. Chartes fausses fabriquées par Le Carpentier (État du Cambraisis) adoptées à tort par Colliette.</p>
         </div>
-        <div>
+        <div xml:id="r67159">
           <head rend="uc"><num>ii<hi rend="sup">e</hi></num> section. – Comtes héréditaires de la maison capétienne.</head>
           <p>CHAPITRE 1". – Hugues de France, comte de Vermandois par son mariage avec Adèle, fille d’Herbert IV. Il part pour la croi<pb source="https://nakala.fr/10.34847/nkl.92fa1uv1#5ad10e11bc7f6924c1abf8d052fcdde4e4bc7783" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.92fa1uv1/5ad10e11bc7f6924c1abf8d052fcdde4e4bc7783/full/full/0/default.jpg"/>sade en 1096, est fait prisonnier par les Grecs. Revient en France après la prise d’Antioche, retourne plus tard en Palestine, et meurt vers 1102 de ses blessures, à Tarse en Cilicie.</p>
           <p>CHAPITRE II. – Adèle, veuve de Hugues, gouverne seule jusqu’en 1120.</p>
@@ -92,10 +90,10 @@
           <p>APPENDICE. – Topographie du Vermandois. Administration des comtes. Leurs officiers. Leurs revenus. Leurs sceaux, etc.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r67215">
         <head rend="uc">Deuxième partie
          <lb/>Documents</head>
-        <div>
+        <div xml:id="r67223">
           <head rend="uc">Avant-propos.
            <lb/>Sources d’ou proviennent les documents.</head>
           <p>I<hi rend="sup">re</hi> SECTION. – Catalogue des actes des comtes de Vermandois, du dixième au treizième siècle.</p>

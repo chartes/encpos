@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1983_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1983_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,11 +54,11 @@
         <surname>Gielen-Tisserand</surname>
         <roleName>agrégée de l’Université</roleName>
       </byline>
-      <div>
+      <div xml:id="r1101243">
         <head rend="uc">Introduction</head>
         <p>Dès 1661, et durant tout son ministère à la tête des affaires de la Marine, Colbert multiplie les efforts pour développer le commerce franco-suédois, dans un contexte diplomatique qui ne se révèle pas toujours favorable. Ses attributions de contrôleur général des finances l’amènent également à s’occuper du paiement des subsides par lesquels Louis XIV tente de s’attacher le royaume de Charles XI.</p>
       </div>
-      <div>
+      <div xml:id="r1101253">
         <head rend="uc">Sources</head>
         <p>Les collections des Mélanges et des Cinq Cents de Colbert conservées au Cabinet des manuscrits de la Bibliothèque nationale contiennent quelques lettres adressées à Colbert par les résidents et ambassadeurs français à Stockholm.</p>
         <p>Dans le fonds de la Marine des Archives nationales, la sous-série B<hi rend="sup">2 </hi>fournit une documentation abondante et précise : les ordres adressés par le ministre aux responsables de la marine dans les ports de France et aux représentants français dans les pays du Nord révèlent les intentions du gouvernement central et permettent de reconstituer dans une certaine mesure le commerce qui s’effectue entre les deux royaumes. La sous-série B<hi rend="sup">3</hi> donne des renseignements ponctuels sur le trafic des ports ; la sous-série B<hi rend="sup">7</hi> éclaire surtout la période de la Compagnie du Nord.</p>
@@ -69,11 +67,11 @@
         <p>Aux Archives nationales de Suède, rares sont les pièces qui, pour le <num>xvii<hi rend="sup">e</hi></num> siècle, se rapportent directement au commerce avec la France. Mais les documents issus du fonds <hi rend="i">Gallica</hi> (correspondance diplomatique), du fonds du Collège de Commerce et de diverses archives de familles (De la Gardie en particulier) sont utiles pour préciser la connaissance d’un certain nombre de personnages et pour montrer qu’en dehors des initiatives gouvernementales, il existe un commerce privé entre la France et la Suède.</p>
         <p>Dans la même perspective ont été sondées les archives de l’amirauté de Guyenne, conservées aux Archives départementales de la Gironde et de la Charente-Maritime.</p>
       </div>
-      <div>
+      <div xml:id="r1101302">
         <head rend="uc">Première partie
           <lb/>Du renouvellement à la rupture de l’alliance
           <lb/>franco-suédoise (1661-1668)</head>
-        <div>
+        <div xml:id="r1101312">
           <head rend="uc">Première section
             <lb/>1661-1665</head>
           <div>
@@ -94,7 +92,7 @@
             <p>La revendication française de disposer de magasins en Suède, si possible à Göteborg pour éviter de payer les droits du Sund, n’est pas satisfaite ; elle revient, dans les années suivantes, chaque fois qu’il est question d’un accord commercial avec la Suède. Il en est de même pour le sel. Quelques achats français sont attestés : en 1662, Courtin dispose de 100 000 livres pour acheter du cuivre, des bois et des boulets ; en 1664, environ 150 000 livres sont versées à la Suède, dont une partie sert peut-être à payer les marchandises rapportées par trois navires que Louis XIV fait armer « suivant le traité de commerce fait avec la Couronne de Suède ». En 1665, 400 000 livres au moins sont dépensées en Suède pour la Marine.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1101364">
           <head rend="uc">Deuxième section
             <lb/>1665-1668</head>
           <div>
@@ -123,38 +121,38 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1101450">
         <head rend="uc">Deuxième partie
           <lb/>La période de la compagnie du nord (1669-1672)</head>
-        <div>
+        <div xml:id="r1101458">
           <head rend="uc">Chapitre premier
             <lb/>les derniers mois avant la création de la compagnie</head>
           <p>En 1667-1668, deux projets suédois de « commerce direct » entre France et Suède échouent, le premier émanant des frères Momma, grands entrepreneurs et négociants, l’autre étant d’initiative publique : le Collège de Commerce énonce dix propositions susceptibles de favoriser les échanges, mais l’accord ne se fait ni sur le problème des droits de douane (les Suédois réclament l’exemption de la taxe de cinquante sols par tonneau qui frappe les navires étrangers en France) ni sur celui du sel. Il est vrai que les relations diplomatiques sont alors mauvaises entre les deux royaumes. Pourtant les achats français continuent à un rythme soutenu, surtout pour le cuivre, alors que Colbert déplore la quasi-inexistence du flux inverse, les Suédois n’envoyant chaque année en France qu’un faible nombre de bateaux qui les ravitaillent en vins du Bordelais et en objets de luxe destinés à l’aristocratie.</p>
         </div>
-        <div>
+        <div xml:id="r1101470">
           <head rend="uc">Chapitre II
             <lb/>Les débuts de la compagnie du nord</head>
           <p>Créée par une déclaration de juin 1669, et reprenant le nom d’une précédente compagnie spécialisée dans la pêche des baleines, la Compagnie du Nord a été étudiée avec précision par P. Boissonnade et P.-J. Charliat. Leur jugement sur l’efficacité de cette entreprise de Colbert mérite toutefois d’être nuancé.</p>
           <p>Pour son commerce avec la Suède, la Compagnie s’appuie sur des hommes qui servent déjà Colbert dans ce pays depuis plusieurs années : Tersmitte en est nommé directeur, Pierre Formont caissier ; Nicolas Formont est son correspondant à Dantzig, François Du Pré à Hambourg. A la fin de 1670, le bilan est décevant : le sel que l’on envoie d’office à Stockholm ne se vend pas, la qualité des bois qui arrivent en France laisse à désirer ; les négociants de Bordeaux expliquent que leurs vins ne sont appréciés en Suède qu’après avoir subi des manipulations dont les Hollandais se réservent le secret.</p>
         </div>
-        <div>
+        <div xml:id="r1101485">
           <pb source="https://nakala.fr/10.34847/nkl.f3be355j#bc522a9e585ecb639a0b3297c67810c810b765f1" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3be355j/bc522a9e585ecb639a0b3297c67810c810b765f1/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
             <lb/>L’année 1671</head>
           <p>Les difficultés du démarrage de la Compagnie incitent Colbert à envoyer ses directeurs dans les pays du Nord pour apprécier sur place les possibilités d’échanges. Les rapports de Lagny et Pagès sont très décevants : les Suédois n’ont pratiquement pas besoin de produits français ; le sel ne leur convient pas, car ils ne le trouvent pas assez blanc ; l’aristocratie, qui aime le vin, préfère les vins espagnols ou ceux du Rhin, et ne consomme les français que frelatés. Les directeurs ne craignent pas que l’existence de quota d’exportation compromette l’approvisionnement français en bois, goudron et cuivre, mais ils s’inquiètent de la mauvaise volonté des gouvernants suédois (qui retardent, par exemple, l’embarquement de mâts achetés à Riga, contretemps coûteux pour la Compagnie) et insistent sur la valeur à leurs yeux excessive des droits de douane. Le compte rendu de leur séjour en Suède trahit leur étonnement de trouver un pays aussi peu peuplé, où presque toute l’activité économique se concentre dans la capitale.</p>
           <p>A l’automne 1671, devant les réticences de la Suède à conclure un traité d’alliance, Pomponne remet au Collège de Commerce un projet de traité de navigation et de commerce, qui reprend l’idée des magasins privilégiés, déjà envisagés en 1662 ; il propose une modulation du montant des droits de douane en fonction de la valeur intrinsèque des vins et des sels, ce qui favoriserait les produits français aux dépens des espagnols et des portugais. Les négociateurs français ne croient pas à la possibilité de réaliser ces projets.</p>
         </div>
-        <div>
+        <div xml:id="r1101505">
           <head rend="uc">Chapitre IV
             <lb/>II. Faut acheter moins en Suède</head>
           <p>Les représentants français à Stockholm depuis 1661 ont toujours exprimé des jugements sévères sur leurs interlocuteurs, gouvernants ou marchands, à qui ils reprochent de manquer de sérieux. Les malversations d’Elias Ăhl et l’échec des frères de Besche renforcent Colbert dans l’idée qu’il faut trouver en France une partie des matériaux nécessaires aux constructions navales. Il multiplie les enquêtes sur les mâts que l’on trouve en-France, mais les spécialistes constatent leur infériorité ; quant au goudron des Landes, il revient plus cher que celui qui arrive de Suède.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1101518">
         <pb source="https://nakala.fr/10.34847/nkl.f3be355j#b0104e96ad11977fffe5145841f959da61213ec3" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3be355j/b0104e96ad11977fffe5145841f959da61213ec3/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
           <lb/>Vers l’échec des projets suédois de Louis XIV et de Colbert</head>
-        <div>
+        <div xml:id="r1101531">
           <head rend="uc">Chapitre premier
             <lb/>alliance et subsides</head>
           <p><hi rend="i">Colbert et les subsides.</hi>– En avril 1672, Honoré de Courtin, chargé de gagner la Suède à l’alliance française dans la perspective d’une guerre contre les Provinces-Unies, signe à Stockholm le traité par lequel la Suède rejoint le camp de la France, contre le versement annuel d’une somme de 400 000 écus qui sera portée à 600 000 lorsque la Suède engagera des troupes dans le combat. Dès lors, les lettres de change que Colbert envoie aux représentants français en Suède ne servent plus que très rarement à payer du cuivre ou des mâts ; par le biais des subsides et des gratifications personnelles offertes à certains gouvernants suédois pour qu’ils favorisent l’entrée en guerre de leur pays, Colbert occupe un poste-clé dans les relations franco-suédoises, même s’il n’est alors que l’exécutant de décisions prises par Louis XIV.</p>
@@ -162,7 +160,7 @@
           <p><hi rend="i">Le montant et l’utilisation des subsides.</hi>– Entre 1672 et 1674, la Suède reçoit de la France 1 450 000 écus, car les sommes initialement prévues ont été augmentées. Les besoins financiers du gouvernement de Stockholm sont tels que le subside est souvent utilisé avant d’avoir été réellement réglé ; la moitié des sommes a servi à l’armée d’Allemagne, entrée en action <pb source="https://nakala.fr/10.34847/nkl.f3be355j#c1ab84c4144fdc53e9420b8e8ce4ca9298ea7291" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3be355j/c1ab84c4144fdc53e9420b8e8ce4ca9298ea7291/full/full/0/default.jpg"/>à l’automne 1674, le reste a payé les frais de fonctionnement de l’Etat et des ambassades.</p>
           <p>Plus de trois millions d’écus sont versés à la Suède entre 1675 et 1680, année où elle abandonne l’alliance française. Hambourg ne joue plus le rôle de ville intermédiaire, puisqu’en 1676, Jean Adlercrona s’installe à Paris où Étienne Molié le remplace deux ans plus tard. Malgré le volumineux trafic d’argent entre les deux royaumes, leurs relations sont difficiles ; les Suédois contestent en particulier à Louis XIV le droit qu’il prétend avoir de contrôler l’utilisation des sommes qu’il leur verse. L’entente commerciale que Colbert, désormais assisté de son fils Seignelay, continue à souhaiter s’en trouve d’autant moins réalisable.</p>
         </div>
-        <div>
+        <div xml:id="r1101566">
           <head rend="uc">Chapitre II
             <lb/>Commerce : les difficultés de Colbert et de Seignelay</head>
           <p><hi rend="i">Échec des tentatives de négociations.</hi>– Lors de la discussion du traité de 1672, Honoré de Court in, sur les conseils du Grand chancelier De la Gardie, renonce à évoquer la question du commerce, car son examen vaudrait à Knut Kurck, le président du Collège de Commerce, d’accéder au poste de négociateur ; or, dans les milieux dirigeants de Stockholm, il est l’un des adversaires les plus décidés de l’alliance française. Son opinion provient du souci de ne pas compromettre l’équilibre de l’économie suédoise en coupant brutalement les liens qui l’attachent à celle des Provinces-Unies. L’importance du capital hollandais présent dans des entreprises installées en Suède (manufactures, commerce, armement naval) explique que la plupart des hommes d’affaires suédois partagent ce sentiment qui, joint à l’orientation mercantiliste de la politique économique du gouvernement, explique qu’à Stockholm toutes les propositions françaises touchant le commerce se heurtent à un refus.</p>
@@ -170,7 +168,7 @@
           <p><hi rend="i">Produits suédois en France.</hi>– La guerre qui commence en 1672 est reconnue comme la cause décisive de l’effondrement de la Compagnie du Nord, même si cette dernière ne perd son existence juridique qu’en 1677. En 1683, pourtant, Seignelay pense encore la rétablir.</p>
           <p>Son échec à partir de 1672-1673, ainsi que celui de la Compagnie des Pyrénées qui devait aussi procurer des bois aux chantiers de constructions navales, oblige Colbert et les responsables de la marine dans les ports à faire <pb source="https://nakala.fr/10.34847/nkl.f3be355j#1eb9259ff09adeaa31a3c52c83eaa4941016e521" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3be355j/1eb9259ff09adeaa31a3c52c83eaa4941016e521/full/full/0/default.jpg"/> appel à des marchands privés. Quand Jacques Savary dans son <hi rend="i">Parfait Négociant</hi> (1675) affirme que seule une grande compagnie peut assurer le commerce avec le Nord, il est donc en contradiction avec la réalité. Pierre Forment devient alors, grâce à ses correspondants à Amsterdam, Hambourg et autres villes du Nord, une sorte de fournisseur officiel de la marine en produits suédois. Colbert et Seignelay ne sont d’ailleurs pas toujours satisfaits des produits qu’il livre. Il est aussi banquier et demande à ses correspondants d’avancer les fonds nécessaires à l’achat des marchandises du Nord. Au Havre et à La Rochelle, d’autres marchands tantôt sont sollicités pour fournir des mâts, du cuivre et du goudron, tantôt font d’eux-mêmes des propositions auxquelles le secrétariat d’État répond en fonction de ses besoins. Celui-ci doit parfois consentir à payer cher certains produits, parce qu’indispensables. Cependant il joue de la concurrence dans la mesure du possible et fait effectuer des enquêtes sur les négociants qui proposent leurs services.</p>
         </div>
-        <div>
+        <div xml:id="r1101605">
           <head rend="uc">Chapitre III
             <lb/>Derniers espoirs et derniers conflits
             <lb/>avant la mort de Colbert</head>
@@ -182,12 +180,12 @@
           <p><hi rend="i">Échec des derniers projets de commerce franco-suédois.</hi>– En juillet 1680 est élaboré en France un nouveau projet de traité, dépourvu de clauses précises, il se contente de préconiser que les deux rois facilitent chacun dans leur royaume le commerce des sujets de l’autre, sans contrevenir toutefois aux conventions déjà passées avec d’autres puissances. Dans la réalité, les concessions commerciales faites aux Provinces-Unies par la France en 1678 et par la Suède en 1680 empêchent, encore plus que dans les années antérieures, l’établissement d’un commerce direct entre les deux États. De plus, en 1682, avec le départ de Feuquières, puis celui de Bazin, les relations diplomatiques sont rompues entre les deux gouvernements.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1101653">
         <head rend="uc">Conclusion</head>
         <p>L’intérêt porté par Colbert aux pays du Nord n’est pas nouveau, puisque Richelieu déjà soulignait l’avantage que la France trouverait à y vendre ses produits, en échange des fournitures de marine dont ils ont alors un quasi-monopole. La prédilection qu’il accorde à la Suède s’explique par la domination économique de ce royaume dans le secteur baltique. Tous les efforts qu’il déploie pour y favoriser le commerce français rencontrent ceux de Louis XIV pour gagner le soutien de la Suède dans laquelle le roi voit son alliée la plus souhaitable, parce qu’avec ses multiples dépendances, elle constitue le flanc septentrional de la « barrière de l’Est » qu’il veut voir tournée contre les Habsbourg. L’importance des subsides qu’il lui accorde entre 1663 et 1680 révèle la force de cette conviction. Mais à partir de 1672 éclate la contradiction entre la politique du roi et celle de <pb source="https://nakala.fr/10.34847/nkl.f3be355j#32f4a5cb6f251ffd91f593de92a8b6367d70e808" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3be355j/32f4a5cb6f251ffd91f593de92a8b6367d70e808/full/full/0/default.jpg"/>son ministre : la guerre anéantit les espoirs d’instaurer un commerce privilégié entre les deux pays. Au demeurant, l’acharnement de Colbert était-il justifié ? Les causes de son échec résident avant tout dans la méconnaissance du pays avec lequel il voulait traiter, dans le refus de prendre en compte le mercantilisme pratiqué par le gouvernement suédois, quand lui-même prétendait l’appliquer en France, enfin dans la sous-évaluation de la force économique des Provinces-Unies.</p>
         <p>A l’époque du ministère de Colbert, indépendamment du commerce « officiel » contrôlé par le ministre, des marchands français entretiennent des relations d’affaires avec la Suède. Tel est le cas de Thomas Legendre, le correspondant à Rouen de Jakob Momma, comme en témoigne une série de lettres datant des années 1668-1674 conservées aux Archives nationales de Suède. Par ailleurs, les archives de l’amirauté de Guyenne permettent de retrouver trace du passage de bateaux suédois à La Rochelle et à Bordeaux ; les renseignements qu’elles fournissent pourraient sans doute être complétés à l’aide des archives provinciales de Suède.</p>
       </div>
-      <div>
+      <div xml:id="r1101671">
         <head rend="uc">Pièces justificatives</head>
         <p>Tarif des marchandises que le roi de Suède et le roi de France se proposent d’échanger, en application du traité de commerce du 20-30 décembre 1662.– Protestations de l’ambassadeur Esaias von Pufendorf contre la saisie de deux vaisseaux suédois par des corsaires français (1667).– Actes enregistrés par le greffe de l’amirauté de Guyenne, au siège de La Rochelle (1666-1667) et factum (s.d.) relatifs à Henri Tersmitte.– Compte rendu du voyage des directeurs de la Compagnie du Nord en Suède (1671).– Comptant au porteur au bénéfice de Pierre Formont et récépissé (1675) ; acte de Charles XI autorisant Jean de Flon-Adlercrona à recevoir les subsides de France (10 juin 1675) et récépissé du bénéficiaire (mars 1676).– Article du Bulletin polymathique du Muséum de Bordeaux (5 février 1804) sur la fabrication du goudron.– Ordre de Charles XI adressé au Collège des Finances touchant les intérêts de Jakob Reenstierna (2 avril 1672) et lettres de passeport délivrées au maître d’un navire suédois partant pour la France (30 octobre 1666).</p>
       </div>

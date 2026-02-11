@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Diu</surname>
         <roleName>agrégée des lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1186350">
         <head rend="uc">Introduction</head>
         <p>Erasme est une des figures emblématiques de l’humanisme et la masse des travaux qui lui sont consacrés chaque année est désormais considérable.</p>
         <p>Après n’avoir conservé de lui, pendant longtemps, que l’image d’un homme de lettres ironique, prédécesseur talentueux de Voltaire, le monde savant a fini par reconnaître ses qualités éminentes d’exégète et de théologien au moment crucial où les querelles religieuses ébranlent le <num>xvi<hi rend="sup">e</hi></num> siècle : sa pensée théologique a été analysée et on en a déterminé les sources patristiques.</p>
@@ -68,10 +66,10 @@
         <p>Cependant la traduction comme genre a également sa place dans le monde des lettres du <num>xvi<hi rend="sup">e</hi></num> siècle, place qu’il s’agit de déterminer : souvent présentée <pb source="https://nakala.fr/10.34847/nkl.25b78t09#21f6c10cd345d3aff97f13d0cae16727a07b9eab" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.25b78t09/21f6c10cd345d3aff97f13d0cae16727a07b9eab/full/full/0/default.jpg"/>d’abord comme un simple exercice d’école, lié à l’apprentissage des langues, elle est aussi œuvre littéraire singulière qui, dans un domaine où l’imitation dicte encore ses lois, pose avec acuité la question de la liberté ou de l’asservissement d’un auteur à son modèle.</p>
         <p>A une première approche théorique, . nourrie par l’examen de la correspondance d’Erasme et de ses principaux traités pédagogiques et didactiques, succèdera une partie plus concrète qui étudiera la version érasmienne d’un corpus particulier, les <hi rend="i">Homélies sur Ozias,</hi> envisagées sous l’angle lexicographique, grammatical et rhétorique.</p>
       </div>
-      <div>
+      <div xml:id="r1186399">
         <head rend="uc">Première partie
           <lb/>Les traductions dans l’œuvre d’Érasme</head>
-        <div>
+        <div xml:id="r1186407">
           <head rend="uc">Chapitre premier
             <lb/>pourquoi traduire ?</head>
           <p>Si tous s’accordent finalement pour reconnaître à la traduction une place centrale dans les activités humanistes, une évolution a pourtant été nécessaire ; elle est sensible chez les théoriciens aussi bien que chez les praticiens, tel Érasme. Traduire n’a d’abord de fin que pédagogique, et peu à peu seulement la traduction devient une activité littéraire à part entière, d’autant plus noble qu’elle participe à la renaissance des lettres comme à celle de la foi.</p>
@@ -86,7 +84,7 @@
           <p><hi rend="i">Le statut ambigu de la traduction.</hi> – La traduction n’est pas une activité solitaire : elle se pratique dans le cercle de la <hi rend="i">Respublica literaria ;</hi> car, plus encore que toute autre activité littéraire, elle réclame un public – demain lecteur, aujourd’hui demandeur – et, en outre, l’obtention d’un statut d’auteur, pour le traducteur, dépend de son acceptation et de sa reconnaissance au sein de ce même cercle. Aussi le traducteur est-il soumis à cette double contrainte de travailler autant pour le profit des autres que pour sa propre gloire.</p>
           <p>Enfin, la traduction, Erasme ne cesse de le déplorer, reflète l’imperfection du monde de la Renaissance où, les hommes, bien qu’ils le désirent, ne peuvent atteindre directement aux sources sans le secours du traducteur. L’écart entre ce monde et l’idéal érasmien d’un âge d’or antique restauré peut expliquer, en grande partie, les hésitations qui marquent l’histoire des éditions érasmiennes de Chrysostome, tantôt grecques, tantôt bilingues, et, plus souvent, latines.</p>
         </div>
-        <div>
+        <div xml:id="r1186500">
           <pb source="https://nakala.fr/10.34847/nkl.25b78t09#7f8de4dce825919dca1c10e26a6847872bdcc7f0" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.25b78t09/7f8de4dce825919dca1c10e26a6847872bdcc7f0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
             <lb/>Comment traduire ?</head>
@@ -107,10 +105,10 @@
           <p>Chez Érasme, l’exigence de fidélité devient centrale dès lors qu’il se tourne vers les textes sacrés. Pourtant cette fidélité n’est pas synonyme de littéralisme au sens étroit du terme : il conviendra, en suivant les principes cicéroniens, de peser le poids des mots dans l’ensemble du discours, ce qui ménage une certaine liberté à l’auteur-traducteur. Les règles qui vont nénamoins donner un cadre à cette liberté sont définies en des termes qui relèvent à la fois de la traduction et de la rhétorique : au désir de clarté (<hi rend="i">perspicuitas, explanatius</hi>) se joint la simplicité (<hi rend="i">simplicitas</hi>) et enfin l’abondance (<hi rend="i">fusius, copiosius</hi>).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1186629">
         <head rend="uc">Deuxième partie
           <lb/>Les traductions de saint Jean Chrysostome</head>
-        <div>
+        <div xml:id="r1186637">
           <head rend="uc">Chapitre premier
             <lb/>la traduction de Chrysostome : les circonstances</head>
           <p>Erasme a été doublement amené à traduire Chrysostome : son goût personnel s’accordait en effet avec celui du public de la Renaissance. Dès lors, l’entreprise d’édition latine des œuvres de Chrysostome se place sous l’égide de la <hi rend="i">Respublica literaria</hi> où se manifestent intérêts collectifs, mais aussi intérêts commerciaux.</p>
@@ -123,7 +121,7 @@
           <p><hi rend="i">La traduction de Chrysostome : une entreprise commerciale.</hi> – La traduction de Chrysostome est aussi le fruit de l’étroite collaboration entre Erasme et son éditeur privilégié, le bâlois Jean Froben. Elle comporte donc des aspects commerciaux qu’on ne saurait négliger : venant relayer le grand « succès de librairie » que devront être les œuvres d’Augustin, l’édition latine de Chrysostome inaugure tout un programme d’édition de textes grecs.</p>
           <p>Dans cette entreprise commerciale, Erasme avoue ses intérêts : l’examen des dédicaces montre que les avantages matériels qu’il escompte sont des motifs plus puissants que la simple amitié. En outre, il se fait l’écho dans sa correspondance des arguments publicitaires employés par Froben, en vantant la célébrité des traducteurs ou la nouveauté de ses traductions.</p>
         </div>
-        <div>
+        <div xml:id="r1186700">
           <head rend="uc">Chapitre II
             <lb/>Un exemple de traduction : les <hi rend="i">homélies sur Ozias</hi></head>
           <p>Une des traductions les plus intéressantes d’Erasme est la série des cinq homélies sur Ozias : outre son intérêt sémantique, elle offre un terrain d’investigation privilégié qui permet de vérifier la mise en œuvre de la théorie érasmienne de la traduction, et aussi de répondre à certaines questions restées en suspens, comme celle de la fidélité, qui reste à définir.</p>
@@ -148,7 +146,7 @@
           <p>Cette abondance se manifeste dans la traduction sous ses deux formes de <hi rend="i">copia verborum ac rerum.</hi> La <hi rend="i">copia verborum</hi> est illustrée par l’emploi d’antonymes (pa0vp.ia : <hi rend="i">non imperitia sed negligentia</hi>) ou de doublets synonymiques (vp.vokoyia : <hi rend="i">laudes et hymnos</hi> ; avveaTakp.évov : <hi rend="i">compositum ac modestum</hi> ; ÊKno^ineva) : <hi rend="i">evulgetur ac traducatur</hi>). La <hi rend="i">copia rerum</hi> peut justifier les ajouts explicatifs et la longueur de la traduction érasmienne comparée à celle d’Œcolampade.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1186920">
         <head rend="uc">Conclusion</head>
         <p>Au sein de la <hi rend="i">Respublica literaria,</hi> dans l’Europe de la Renaissance, la traduction occupe une place importante, bien qu’ambiguë : si sa fondamentale imperfection ne satisfait guère les esprits assoiffés d’idéal, elle demeure pourtant indispensable à la restauration littéraire et spirituelle qui s’opère.</p>
         <p>Tous les traducteurs se réfèrent aux mêmes principes hérités de la tradition antique et remis à l’honneur par les humanistes. Mais cette théorie, qui prône une fidélité bien tempérée, est assez floue pour se voir diversement interprétée : <pb source="https://nakala.fr/10.34847/nkl.25b78t09#a52e5d4672549dae1670f314f8ed86fc99de61a3" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.25b78t09/a52e5d4672549dae1670f314f8ed86fc99de61a3/full/full/0/default.jpg"/>la pratique de la traduction révèle que des solutions parfois radicalement opposées peuvent être apportées aux questions théoriques restées en suspens.</p>

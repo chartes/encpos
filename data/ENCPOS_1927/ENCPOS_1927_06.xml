@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -72,15 +70,15 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r460002">
         <head rend="uc">Première partie
          <lb/>L’évolution historique de Grasse</head>
-        <div>
+        <div xml:id="r460010">
           <head rend="uc">Chapitre premier
            <lb/>le consulat des origines à 1227</head>
           <p>Incertitudes sur les origines de Grasse. Les seigneurs qui portent son nom étendent au <num>xi<hi rend="sup">e</hi></num> siècle leur pouvoir sur tout le diocèse d’Antibes. Au <num>xii<hi rend="sup">e</hi></num> siècle, apparaissent de nouveaux évêques d’Antibes, étrangers à la famille de Grasse, qui entrent en conflit avec elle. A la faveur de ces luttes, et avec la protection de l’évêque qui établit sa résidence dans leur ville, les Grassois conquièrent leur indépendance (avant 1155). <pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#7580bd0c5dcc3d7c0fc7f73a7e603225f49da9dc" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/7580bd0c5dcc3d7c0fc7f73a7e603225f49da9dc/full/full/0/default.jpg"/>Leur consulat, reconnu par Alphonse d’Aragon en 1176, allié à Gênes (1171), Pise (1179) et Marseille (1227) acquiert un prestige qui inquiète les comtes de Provence. Raymond Bérenger V se rapproche de l’évêque d’Antibes et se crée à Grasse un parti dirigé par le chevalier Hugues Sicard. Après une suppression temporaire du consulat en 1220, il en obtient des Grassois, le 24 juillet 1227, la cession définitive.</p>
         </div>
-        <div>
+        <div xml:id="r460039">
           <head rend="uc">Chapitre II
            <lb/>Histoire de Grasse depuis la cession du consulat
            <lb/>jusqu’a la réunion de la Provence à la couronne</head>
@@ -88,37 +86,37 @@
           <p>L’acquisition de Nice par la Savoie en 1388, fait de Grasse, au début du <num>xv<hi rend="sup">e</hi></num> siècle, une sorte de petite capitale régionale. C’est elle qui assure de 1456 à 1458 la protection des villes côtières menacées par les galères aragonaises de Villamarina.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r460081">
         <head rend="uc">Deuxième partie
          <lb/>L’administration comtale à Grasse</head>
-        <div>
+        <div xml:id="r460089">
           <pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#e7cf7792ab1137d1c17a5785af7caab4f90a317c" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/e7cf7792ab1137d1c17a5785af7caab4f90a317c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la viguerie de Grasse</head>
           <p>Grasse, chef-lieu d’une baylie sous Raymond Bérenger V, devient le centre d’une viguerie dès les premières années du règne de Charles d’Anjou. Causes de cette transformation. Localités comprises dans la viguerie. Ses modifications.</p>
           <p>Les comtes de Provence (rois de Sicile depuis Charles d’Anjou) possèdent de nombreux droits dans l’étendue de la viguerie<hi rend="sup">e</hi> : juridiction, service d’ost, albergue, droits domaniaux, etc... Les villages sont administrés par un bayle royal ou seigneurial, mais qui est soumis dans les deux cas à la « Cour royale » de Grasse.</p>
         </div>
-        <div>
+        <div xml:id="r460113">
           <head rend="uc">Chapitre II
            <lb/>Le haut personnel de la cour royale</head>
           <p>Condition et nomination des officiers royaux. Les principaux sont le viguier, le juge et le clavaire. Le viguier est le chef politique et militaire de la viguerie, le représentant du comte dans la ville qu’il administre, d’accord avec le conseil de la commune.</p>
           <p>Le juge exerce sous son contrôle la juridiction de première instance et d’appel dans la ville et dans la viguerie, et le clavaire centralise à Grasse les revenus royaux.</p>
         </div>
-        <div>
+        <div xml:id="r460128">
           <pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#6ee9a506350afa2806a1db11c7d83cb1dfd701f4" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/6ee9a506350afa2806a1db11c7d83cb1dfd701f4/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les notaires de Grasse</head>
           <p>Les premières mentions de notaires à Grasse datent de la fin du <num>xii<hi rend="sup">e</hi></num> siècle. Les trois étapes d’un acte notarié : la <hi rend="i">nota,</hi> l’<hi rend="i">extensorium,</hi> la <hi rend="i">grosse.</hi> Souscriptions et seings de notaires grassois aux <num>xiii<hi rend="sup">e</hi></num> et XIV<hi rend="sup">e </hi>siècles.</p>
           <p>Trois notaires sont adjoints à la Cour royale de Grasse pour rédiger ses écritures. Le roi René réglemente leur office et fixe leur salaire en 1487.</p>
         </div>
-        <div>
+        <div xml:id="r460176">
           <head rend="uc">Chapitre IV
            <lb/>Les fonctionnaires inférieurs
            <lb/>abus des officiers royaux</head>
           <p>Le plus connu des fonctionnaires inférieurs est le sous-viguier chargé d’exercer la police et d’opérer les arrestations. Les autres auxiliaires de la Cour royale sont les lieutenants de juge, le crieur et le geôlier.</p>
           <p>Les officiers royaux et particulièrement le sous-viguier commettent de nombreux abus, surtout durant le <num>xiv<hi rend="sup">e</hi></num> siècle. Au <num>xv<hi rend="sup">e</hi></num> siècle, le corps municipal étant plus puissant, les officiers hésitent avant de se livrer à des actes arbitraires.</p>
         </div>
-        <div>
+        <div xml:id="r460205">
           <head rend="uc">Chapitre V
            <lb/>Droits comtaux a Grasse
            <lb/>juridiction – Police – Service d’ost</head>
@@ -126,35 +124,35 @@
           <p>Le sous-viguier s’efforce de maintenir l’ordre dans la ville où les rixes sont fréquentes.</p>
           <p>Les chevauchées ou service d’ost, casuelles et souvent payées en argent, cessent en fait d’être exigées dès la première moitié du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r460236">
           <head rend="uc">Chapitre VI
            <lb/>Droits comtaux à Grasse (<hi rend="i">suite</hi>)
            <lb/>impositions ordinaires</head>
           <p>Ce sont les droits de justice et d’encan, les chevauchées payées en argent, l’albergue ou fouage. l’aide aux quatre cas, la taille (bientôt levée par la commune), les droits de ban, la moitié des droits de regarderie et d’arbitrage, les droits sur les leydes, sur les tables de la boucherie et de la poissonnerie.</p>
           <p>Le Roi possède en outre à Grasse, de nombreuses propriétés pour lesquelles il touche des redevances et des droits de lods ou trezain.</p>
         </div>
-        <div>
+        <div xml:id="r460257">
           <head rend="uc">Chapitre VII
            <lb/>La gabelle du sel</head>
           <p>La gabelle du sel existe à Grasse dès le règne de Charles I d’Anjou et s’approvisionne aux salines d’Hyères. Elle est transférée de Grasse à Cannes au <num>xiv<hi rend="sup">e</hi></num> siècle, puis rétablie à Grasse malgré la difficulté des transports. Personnel de la gabelle. Prix du sel. La gabelle est généralement vendue pour une ou plu<pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#c512daace53e47aaa3507d3afc3cb29718c406a5" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/c512daace53e47aaa3507d3afc3cb29718c406a5/full/full/0/default.jpg"/>sieurs années à des particuliers, et fait quelquefois l’objet de donations royales.</p>
         </div>
-        <div>
+        <div xml:id="r460280">
           <head rend="uc">Chapitre VIII
            <lb/>Les impots royaux extraordinaires</head>
           <p>Le don gracieux voté par les trois états de Provence devient au <num>xiv<hi rend="sup">e</hi></num> siècle, le principal impôt royal.</p>
           <p>La ville s’occupe de recueillir l’argent nécessaire et le porte elle-même aux délégués royaux. Les souverains, toujours à court d’argent, établissent de nouvelles taxes et des droits de douane qui soulèvent les protestations de la ville.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r460302">
         <head rend="uc">Troisième partie
          <lb/>L’organisation municipale</head>
-        <div>
+        <div xml:id="r460310">
           <head rend="uc">Chapitre premier
            <lb/>la commune et la ville de Grasse (Topographie)</head>
           <p>Grasse s’étage sur le versant méridional d’une colline au sommet de laquelle se trouve la grande source de la Foux. Elle est entourée de territoires dépendant de l’évêque, des seigneurs de Grasse ou de l’abbaye de Lérins. La commune est pauvre. Les libéralités des comtes de Provence l’enrichissent à la fin du XIV<hi rend="sup">e </hi>siècle.</p>
           <p>La ville est entourée d’une enceinte fortifiée. Rues et fontaines ; monuments publics ; monastères ; hôpitaux.</p>
         </div>
-        <div>
+        <div xml:id="r460329">
           <pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#2fd456f5c5580166d56a5b9cc87d731db1282ddf" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/2fd456f5c5580166d56a5b9cc87d731db1282ddf/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La communauté et ses franchises
@@ -164,27 +162,27 @@
           <p>Dès le <num>xiii<hi rend="sup">e</hi></num> siècle, la population de Grasse ne comprend plus, en dehors du clergé, que des clercs et gradués en droit, des propriétaires, des marchands et des artisans.</p>
           <p>Les Juifs, cantonnés dans un quartier spécial, se livrent au prêt à intérêt. La ville leur est hostile et les menace souvent d’expulsion.</p>
         </div>
-        <div>
+        <div xml:id="r460362">
           <head rend="uc">Chapitre III
            <lb/>L’organisation municipale à Grasse</head>
           <p>Le consulat grassois et ses organes : l’assemblée du peuple, les consuls, leur juge et leur notaire.</p>
           <p>Cette organisation autonome cède la place en 1227 à un régime syndical qui s’organise peu à peu, l’as semblée générale se réduisant à une assemblée res treinte, puis à un conseil de vingt membres qui administre la ville et nomme les magistrats.</p>
           <p>Les syndics sont les principaux auxiliaires du conseil et les premiers magistrats de la ville. Le conseil nomme en outre des agents judiciaires qui sont : <pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#8341a47847e80a59a89779536d66902b1f845472" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/8341a47847e80a59a89779536d66902b1f845472/full/full/0/default.jpg"/>à Grasse les regardateurs, les arbitres et les banniers ; à Aix, le pensionnaire chargé de représenter la ville an tribunal des premiers appels ; et des agents financiers : clavaire, auditeurs des comptes et courtiers. Les fonctionnaires inférieurs sont : le crieur public et le sonneur.</p>
         </div>
-        <div>
+        <div xml:id="r460385">
           <head rend="uc">Chapitre IV
            <lb/>Justice et police
            <lb/>défense de la ville</head>
           <p>Grasse en devenant une commune syndicale a perdu la plus grande partie de ses pouvoirs de juridiction. Le conseil n’a plus qu’un rôle de conciliation et se fait représenter par les syndics au tribunal du juge. La ville conserve cependant une juridiction inférieure exercée par les « regardateurs » et les arbitres qui connaissent, les uns, des contraventions aux statuts de métiers et des fraudes commerciales, les autres des délits ruraux. Elle s’occupe aussi de la police rurale et urbaine sous le contrôle du viguier.</p>
           <p>Le conseil veille à l’organisation de la défense, fait réparer les remparts, garder les portes, et crée une milice.</p>
         </div>
-        <div>
+        <div xml:id="r460402">
           <head rend="uc">Chapitre V
            <lb/>Les impots municipaux. – Les emprunts</head>
           <p>La ville a recours à des impositions indirectes : les <hi rend="i">rêves</hi> qui frappent les denrées de consommation (blé, viande et vin) et à des impôts directs : la <hi rend="i">taille </hi>pesant sur toutes les terres roturières et les <hi rend="i">chevauchées <pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#1c7b0d2a5649d0c30607d45541f768c8b696eeec" n="53" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/1c7b0d2a5649d0c30607d45541f768c8b696eeec/full/full/0/default.jpg"/></hi>perçues d’après le livre de la taille sur les plus riches propriétaires. Ces taxes sont en principe extraordinaires.</p>
           <p>La ville fait aussi des emprunts, parfois forcés quand elle s’adresse à ses propres notables. Au <num>xv<hi rend="sup">e</hi></num> siècle les prêteurs sont le plus souvent des marchands d’Avignon qu’elle n’arrive plus à rembourser.</p>
         </div>
-        <div>
+        <div xml:id="r460439">
           <head rend="uc">Chapitre VI
            <lb/>Ecoles – Aumoneries – Médecins – Hopitaux</head>
           <p>Le conseil se préoccupe d’assurer l’instruction des enfants : chaque année il passe un contrat avec un maître d’école qu’il paie et à qui il fournit son logement.</p>
@@ -192,7 +190,7 @@
           <p>Le conseil engage chaque année un médecin et prend des mesures d’hygiène sévères pour protéger la ville quand la peste sévit dans la région.</p>
           <p>Les hôpitaux Saint-Jacques, Sainte-Marguerite et Saint-Lazare sont administrés par le conseil et l’évêque qui s’entendent pour la nomination de leurs recteurs.</p>
         </div>
-        <div>
+        <div xml:id="r460460">
           <head rend="uc">Chapitre VII
            <lb/>La ville et son clergé</head>
           <p>Grasse a remplacé Antibes comme cité épiscopale. L’évêque entretient de bons rapports avec la municipalité. Celle-ci ne s’émeut guère des troubles provo<pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#57ae20f7e2fdad6d760a65934dd6cb6550d14c99" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/57ae20f7e2fdad6d760a65934dd6cb6550d14c99/full/full/0/default.jpg"/>qués dans son église par le Grand Schisme à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, mais prend parti dans la lutte entre les deux évêques qui se disputent en 1451 le trône épiscopal.</p>
@@ -200,7 +198,7 @@
           <p>Les ordres religieux établis à Grasse au <num>xiii<hi rend="sup">e</hi></num> siècle : Augustins, Franciscains, Dominicains surtout, sont mêlés à la vie de la cité.</p>
           <p>Quoique la population soit attachée à ses pratiques religieuses, on relève quelques accusations d’hérésie ou de sorcellerie.</p>
         </div>
-        <div>
+        <div xml:id="r460498">
           <head rend="uc">Chapitre VIII
            <lb/>La ville et ses voisins :
            <lb/>les seigneurs de Grasse,
@@ -209,23 +207,23 @@
           <p>L’abbaye de Lérins entretient d’excellents rapports avec le comtat grassois auquel les souverains de Provence et les papes la recommandent tour à tour. Mais par la suite, quelques querelles éclatent entre le <pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#9738d2247cf9d2a00bad68c7c50b65f75c976c15" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/9738d2247cf9d2a00bad68c7c50b65f75c976c15/full/full/0/default.jpg"/>monastère et la ville de Grasse, et celle-ci prend souvent le parti de ses officiers royaux dans leurs conflits avec l’abbé de Lérins au sujet de la gabelle du sel.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r460523">
         <head rend="uc">Quatrième partie
          <lb/>Conditions économiques</head>
-        <div>
+        <div xml:id="r460531">
           <head rend="uc">Chapitre premier
            <lb/>richesse et population de Grasse
            <lb/>produits du sol et approvisionnements</head>
           <p>La population de Grasse augmente aux dépens de celle des petits villages voisins.</p>
           <p>Le sol de la région grassoise se prête assez mal à la culture du blé que la ville importe chaque année en grande quantité et pour la vente duquel le conseil de la commune établit souvent une gabelle. La campagne est au contraire fertile en vignes dont les produits alimentent le commerce d’exportation des Grassois. Enfin les pâturages abondent et l’élevage des troupeaux fournit à la ville, avec la chasse et la pêche, ses principales denrées de consommation.</p>
         </div>
-        <div>
+        <div xml:id="r460548">
           <head rend="uc">Chapitre II
            <lb/>Métiers et industries</head>
           <p>Le contrôle des « regardateurs » s’exerce également sur les commerces et les industries de la ville. <pb source="https://nakala.fr/10.34847/nkl.f7e35jdf#59105eb1d689598eefd01b2cccfd0ecfa658accb" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.f7e35jdf/59105eb1d689598eefd01b2cccfd0ecfa658accb/full/full/0/default.jpg"/>Les principaux « métiers » grassois dont nous possédons les statuts sont ceux : des boulangers (avec leurs auxiliaires, meuniers et fourniers) ; des taverniers et des bouchers (auxquels se rattachent les tripiers et marchands de chandelles).</p>
           <p>Les principales industries sont : l’industrie textile et la tannerie.</p>
         </div>
-        <div>
+        <div xml:id="r460568">
           <head rend="uc">Chapitre III
            <lb/>Commerce</head>
           <p>Grasse possède des foires importantes qui attirent chez elle deux fois par an tous les marchands du voisinage. Elle tient un marché chaque semaine et accueille toujours favorablement les négociants étrangers. Pour son commerce avec les villes de Provence elle est favorisée par son droit d’immunité absolue, quant aux péages exigés dans les terres du domaine comtal.</p>

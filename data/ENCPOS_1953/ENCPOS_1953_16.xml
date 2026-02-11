@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1953_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1953_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,16 +55,16 @@
         <forename>Jean-François</forename>
         <surname>Maurel</surname>
       </byline>
-      <div>
+      <div xml:id="r750142">
         <head rend="uc">Première partie
          <lb/>Jean Beleth et son œuvre</head>
-        <div>
+        <div xml:id="r750150">
           <head rend="uc">Chapitre premier
            <lb/>l’auteur.</head>
           <p>Du petit nombre de documents conservés, on peut déduire que Jean Beleth était disciple de Gilbert de la Porrée, sans qu’il soit possible d’affirmer que ce fut à Chartres ; d’après des témoignages quelque peu postérieurs, il enseigna à Paris et se trouvait à Amiens en 1182. Son information géographique est trop vaste pour permettre une identification précise ; il n’a pas lui-même, comme on l’a cru, affirmé son appartenance à l’Église de Paris. Son nom, orthographié par les contemporains « Beleth », mais aussi « Belet », n’implique pas une origine anglaise que rien ne peut faire pressentir dans la <hi rend="i">Summa,</hi> où plusieurs villes de France, d’Italie ou d’Empire sont citées, mais aucune d’Angleterre.</p>
           <p>Du texte de la <hi rend="i">Summa,</hi> on peut conclure que Beleth n’était pas moine, mais probablement prêtre, qu’il écrivait surtout pour des clercs, mais non spécialement pour les prêtres.</p>
         </div>
-        <div>
+        <div xml:id="r750173">
           <head rend="uc">Chapitre II
            <lb/>L’œuvre.</head>
           <p>Aucune des nombreuses œuvres attribuées à Beleth ne peut être fermement retenue, sauf la <hi rend="i">Summa de ecclesiasticis officiis.</hi></p>
@@ -75,53 +73,53 @@
           <p>Il faut remarquer, enfin, que catalogues et auteurs médiévaux citent souvent <hi rend="i">Summa Beleth</hi> sans préciser, ce qui laisse supposer qu’il n’y avait qu’un traité du maître.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r750252">
         <head rend="uc">Deuxième partie
          <lb/>La « Summa de ecclesiasticis officiis »</head>
-        <div>
+        <div xml:id="r750260">
           <head rend="uc">Chapitre premier
            <lb/>le titre et la date de la « Summa ».</head>
           <p>Le titre de <hi rend="i">Rationale</hi> donné à la Somme de Beleth par Lauriman ne se rencontre jamais au Moyen Age : il est dû au traité de Guillaume Durand. A côté de <hi rend="i">Summa de divinis officiis,</hi> on trouve plus fréquemment <hi rend="i">Summa de ecclesiasticis officiis,</hi> que nous adoptons.</p>
           <p>Comme l’a récemment montré le P. Van den Eyde, la <hi rend="i">Summa</hi> a été écrite entre 1160 et 1164, soit entre les dernières visions et la mort d’Élizabeth de Schönau, dont Beleth rapporte l’un des récits en précisant qu’elle vit encore.</p>
         </div>
-        <div>
+        <div xml:id="r750291">
           <head rend="uc">Chapitre II
            <lb/>Le plan.</head>
           <p>L’auteur semble avoir un plan établi auquel il se réfère plusieurs fois, mais qu’il suit d’assez loin. Après avoir traité de façon générale des lieux, des temps et des personnes sacrées, il décrit l’office, dont la Messe, puis les livres liturgiques ; enfin, dans sa partie la plus importante, il passe en revue les divers temps de l’année liturgique, de l’Avent à la Pentecôte, traitant brièvement après chacun des fêtes de saints.</p>
         </div>
-        <div>
+        <div xml:id="r750303">
           <head rend="uc">Chapitre III
            <lb/>But et caractères de la « Summa ».</head>
           <p>La <hi rend="i">Summa</hi> décrit surtout les offices du clergé séculier et néglige à la fois liturgie monastique et liturgie épiscopale, ce qui permet de l’opposer aux <pb source="https://nakala.fr/10.34847/nkl.6a1flz6t#c3ea603d6ca4faecab0872a4f3fbfc01955941c7" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.6a1flz6t/c3ea603d6ca4faecab0872a4f3fbfc01955941c7/full/full/0/default.jpg"/>traités précédents, qui faisaient la part large à l’évêque : on peut dire qu’elle est à ces traités ce qu’un rituel est à un pontifical.</p>
           <p>La <hi rend="i">Summa</hi> est surtout utile par la précision de ses descriptions d’offices, par l’ampleur géographique de son information, qui se vérifie exacte. La distinction n’est pas toujours faite entre les grands courants de la vie liturgique et ses côtés anecdotiques ; pourtant, grande importance est donnée aux rites baptismaux. L’explication est encore, pour partie, historique ; elle fait souvent appel aux usages antiques, païens ou juifs ; l’explication symbolique est moins développée que dans d’autres traités, antérieurs ou contemporains ; elle est beaucoup plus marquée dans les notes ajoutées par la suite à la <hi rend="i">Summa.</hi></p>
           <p>Déjà, Beleth utilise les méthodes scolastiques : formules <hi rend="i">nota quod..., queritur...</hi> ; appel à plusieurs autorités entre lesquelles l’auteur se réserve de choisir.</p>
         </div>
-        <div>
+        <div xml:id="r750341">
           <head rend="uc">Chapitre IV
            <lb/>Influence.</head>
           <p>Copiée à de nombreux exemplaires au <num>xiii<hi rend="sup">e</hi></num> siècle, la <hi rend="i">Summa</hi> l’est beaucoup moins au <num>xiv<hi rend="sup">e</hi></num>. Des notes de lecture indiquent qu’on en use encore quelque peu à la fin du Moyen Age. Les registres de prêt du <num>xiv<hi rend="sup">e</hi></num> n’en font que rarement mention ; toutefois, un maître de Sorbonne l’emprunte en 1402. Au <num>xiii<hi rend="sup">e</hi></num> on la traduit en français et plusieurs manuscrits en copient des fragments. Le traducteur de Guillaume Durand l’a lue. Plusieurs auteurs du <num>xiii<hi rend="sup">e</hi></num> siècle recourent à Beleth, mais dans sa partie la moins importante, les récits hagiographiques.</p>
         </div>
-        <div>
+        <div xml:id="r750387">
           <head rend="uc">Chapitre V
            <lb/>L’édition.</head>
           <p>La <hi rend="i">Somme</hi> a été éditée plusieurs fois au <num>xvi<hi rend="sup">e</hi></num> siècle par Lauriman, qui a voulu faire par là œuvre de Contre-Réforme. Il a utilisé un manuscrit très complet ; mais il n’a pas hésité à le remanier pour supprimer certains traits trop naïfs ou le colorer de son érudition humaniste ; il a parfois sollicité le texte, mais a surtout totalement changé le vocabulaire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r750410">
         <head rend="uc">Troisième partie
          <lb/>Étude des manuscrits</head>
-        <div>
+        <div xml:id="r750418">
           <head rend="uc">Chapitre premier
            <lb/>manuscrits actuellement conservés.</head>
           <p>Notices de cent vingt manuscrits. Quelques-uns sont du <num>xii<hi rend="sup">e</hi></num> siècle, le plus <pb source="https://nakala.fr/10.34847/nkl.6a1flz6t#c0d6a6a675cdeb5c1beb19af8be41d7ed2a488e7" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.6a1flz6t/c0d6a6a675cdeb5c1beb19af8be41d7ed2a488e7/full/full/0/default.jpg"/> grand nombre du <num>xiii<hi rend="sup">e</hi></num>, quelques-uns du <num>xiv<hi rend="sup">e</hi></num>. Index des auteurs contenus dans ces manuscrits qui montre que les Pères latins, saint Bernard, Hugues et Richard de Saint-Victor étaient, avec les liturgistes contemporains, les auteurs qu’on rapprochait le plus volontiers de Beleth. L’ordre des chapitres est, à de rares manuscrits près, toujours le même, sauf vers la fin, pour les saints du temps après Pentecôte. Mais là, comme pour la plupart des notes ajoutées d’abord en marge, puis incorporées progressivement au texte, il s’agit de l’œuvre des disciples de Beleth. Ces notes sont, d’ailleurs, très vite apparues, puisqu’on les trouve déjà presque toutes trente ans après la rédaction.</p>
         </div>
-        <div>
+        <div xml:id="r750453">
           <head rend="uc">Chapitre II
            <lb/>Manuscrits des bibliothèques médiévales.</head>
           <p>Liste des manuscrits classés par ordre alphabétique des bibliothèques, avec cotes anciennes et modernes éventuellement, puis par ordres monastiques ou communautés diverses. Étude qui montre que tous les ordres ont possédé Beleth, y compris les ordres mendiants, sauf les Franciscains ; chanoines, collèges, universités et parfois laïques l’ont eu aussi. Mais les bibliothèques fondées au <num>xiv<hi rend="sup">e</hi></num> siècle s’en sont désintéressées. Comparaison avec les autres liturgistes qui semble prouver que les trois manuels successifs du Moyen Age furent Amalaire, Beleth, Durand.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r750472">
         <head rend="uc">Quatrième partie
          <lb/>Édition partielle.</head>
         <p>Office, Messe, Semaine sainte, d’après le ms. Paris, Bibl. nat., lat. 714, le moins chargé, avec le manuscrit lat. 2540, de notes additives et des développements hagiographiques de la fin ; variantes relevées dans Paris, Bibl. nat., lat. 994, qui contient la plupart des additions et est daté de 1195.</p>

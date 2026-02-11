@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,20 +59,20 @@
          <lb/>Histoire et archéologie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r838120">
         <head rend="uc">Sources</head>
         <p>Si les sources diplomatiques relatives à l’abbaye de Saint-Martial sont fort rares jusqu’au <num>xiii<hi rend="sup">e</hi></num> siècle, les textes narratifs sont remarquablement nombreux ; ce sont surtout les chroniques d’Adémar de Chabannes, de Geoffroy de Vigeois et de Bernard Itier.</p>
       </div>
-      <div>
+      <div xml:id="r838136">
         <head rend="uc">Introduction</head>
         <p>Considérant que les églises rurales de la France médiévale sont, pour la plupart, d’origine monastique, il a paru intéressant de rechercher, pour telle abbaye déterminée, les raisons de la dispersion et de la construction des églises auprès desquelles elle avait installé des prieurés, et les conséquences qu’entraîna leur création.</p>
         <p>En 848, les chanoines gardiens du sépulcre de saint Martial, premier évêque de Limoges, adoptèrent la règle de saint Benoît. Après les invasions normandes, le développement de la légende de l’apostolicité de saint Martial engendra pour l’abbaye une remarquable prospérité. Après l’introduction, en 1062, de la réforme clunisienne, Saint-Martial brilla d’un vif éclat dans le domaine des arts et des activités intellectuelles, et rassembla un important domaine. Mais, dès le <num>xiii<hi rend="sup">e</hi></num> siècle, la sclérose des institutions, la défaveur des fidèles et le contrecoup des guerres anglaises amorcèrent une décadence que la sécularisation de l’abbaye, en 1535, ne parvint pas à arrêter.</p>
       </div>
-      <div>
+      <div xml:id="r838155">
         <pb source="https://nakala.fr/10.34847/nkl.23c2001o#b5604411c4bc9b3126074b6a905f9f2c66c775b4" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.23c2001o/b5604411c4bc9b3126074b6a905f9f2c66c775b4/full/full/0/default.jpg"/>
         <head rend="uc">Livre premier
          <lb/>les prieurés</head>
-        <div>
+        <div xml:id="r838168">
           <head rend="uc">Chapitre premier
            <lb/>le domaine monastique</head>
           <p><hi rend="i">Terminologie.</hi> – Le terme de prieuré, qui n’apparaît dans les textes narratifs et diplomatiques qu’au début du <num>xiii<hi rend="sup">e</hi></num> siècle, remplace tout à la fois les termes de <hi rend="i">monasterium,</hi> d’<hi rend="i">obedientia</hi> et d’<hi rend="i">ecclesia</hi> que l’on rencontre auparavant à l’exclusion de tout autre, <hi rend="i">ecclesia</hi> pouvant tout aussi bien désigner une église paroissiale qu’une celle. Le <hi rend="i">prior,</hi> en revanche, figure dans les actes à partir de 1101, et supplante, dans le courant du <num>xii<hi rend="sup">e</hi></num> siècle, l’<hi rend="i">obedienciarius.</hi> Tous deux avaient été précédés, au <num>xi<hi rend="sup">e</hi></num> siècle, par le <hi rend="i">prepositus.</hi> La préexistence du prévôt par rapport au prieur commande, au <num>xiii<hi rend="sup">e</hi></num> siècle, la hiérarchie établie, au profit de la première, entre la prévôté et le prieuré. « Prieuré » est devenu un terme générique, auquel il ne faut pas attacher une acception trop précise.</p>
@@ -87,7 +85,7 @@
           <p>Il n’est pas possible de suivre l’évolution de cette expansion, qui coïncide avec celle du culte de saint Martial, et dont on ne peut constater que le résultat à la fin du <num>xi<hi rend="sup">e</hi></num> siècle, alors que le gros du domaine de l’abbaye est déjà constitué. Ce domaine atteint son plein développement dans la première moitié du siècle suivant.</p>
           <p>La dispersion géographique des prieurés de Saint-Martial n’est pas sans rapports avec le réseau des grandes voies romaines, mais elle paraît également liée aux courants de circulation créés par les grandes voies fluviales. La part qui revient aux moines limousins dans l’établissement du réseau routier du Moyen Age est importante.</p>
         </div>
-        <div>
+        <div xml:id="r838315">
           <head rend="uc">Chapitre II
            <lb/>L’organisation du domaine monastique</head>
           <p>La naissance des prieurés à partir des anciens monastères, églises paroissiales ou simples domaines, est impossible à dater avant le début du <num>xiii<hi rend="sup">e</hi></num> siècle. Elle est le fruit d’une lente évolution qui se produisit tout au long du siècle précédent, et qui se manifeste par l’apparition d’unités domaniales, centrées autour d’une église et destinées à assurer la mise en valeur des terres et des droits précédemment acquis, et pourvues chacune, aux dépens du peuplement des anciens monastères, d’un très petit nombre de moines, ce qui était contraire aux décisions conciliaires. La totale réorganisation du domaine monastique que marque ce phénomène est calquée, en fait, sur la structure féodale.</p>
@@ -96,10 +94,10 @@
           <p>Le prieur pratique l’hospitalité, fait valoir les droits seigneuriaux qui lui reviennent, veille au bon rendement de son domaine, pour la plus grande partie baillé à cens et qui lui rapporte principalement des revenus en nature, et n’exploite guère directement que ses bois et ses étangs. Les charges qu’il supporte sont avant tout représentées par les prestations en argent et par les « messages » en nature qu’il fait parvenir à l’abbaye.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r838353">
         <head rend="uc">Livre II
          <lb/>les monuments</head>
-        <div>
+        <div xml:id="r838361">
           <head rend="uc">Chapitre premier
            <lb/>distribution du plan des églises
            <lb/>des prieurés</head>
@@ -109,7 +107,7 @@
           <p>L’implantation d’un clocher au-dessus de la croisée du transept est très probablement liée à la célébration de l’<hi rend="i">opus Dei</hi> qui se faisait à cet emplacement. Dans la mesure où elle cessa dans la plupart des prieurés, le clocher devint exclusivement <pb source="https://nakala.fr/10.34847/nkl.23c2001o#571ef73046974daf5370be816e4fc818b54b2e55" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.23c2001o/571ef73046974daf5370be816e4fc818b54b2e55/full/full/0/default.jpg"/> paroissial et fut reporté au-dessus de la nef des fidèles ou à proximité de celle-ci.</p>
           <p>Le plan cruciforme des églises conçues pour un peuplement monastique relativement important déterminait la disposition des bâtiments des religieux, mais ces bâtiments n’entouraient un cloître au sens propre du terme que dans la mesure où existait au monastère une véritable vie conventuelle.</p>
         </div>
-        <div>
+        <div xml:id="r838418">
           <head rend="uc">Chapitre II
            <lb/>Construction et décoration</head>
           <p>Des quêtes assuraient le financement de la reconstruction des églises, œuvre de chantiers locaux.</p>
@@ -119,12 +117,12 @@
           <p>En revanche, les constructeurs limousins des églises des prieurés importèrent des régions calcaires, où l’abbaye possédait des dépendances, des reliefs et des chapiteaux sculptés.</p>
           <p>Quelques églises de prieurés reçurent, à une époque tardive, qui ne saurait être antérieure au <num>xv<hi rend="sup">e</hi></num> siècle, des éléments de fortification, ce qui témoigne de l’éclatement qu’avaient alors subi les enceintes défensives des anciens bourgs monastiques.</p>
         </div>
-        <div>
+        <div xml:id="r838473">
           <head rend="uc">Appendices</head>
           <p>Cartes des dépendances de Saint-Martial (à la fin du <num>xi<hi rend="sup">e</hi></num> siècle et à la fin du <num>xii<hi rend="sup">e</hi></num> siècle ; toponymes ; voies romaines ; voies médiévales).</p>
           <p>Plans de cinquante-cinq églises ayant dépendu de Saint-Martial.</p>
         </div>
-        <div>
+        <div xml:id="r838498">
           <pb source="https://nakala.fr/10.34847/nkl.23c2001o#b2544912e8460165474e240e1f24bead755e9dbd" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.23c2001o/b2544912e8460165474e240e1f24bead755e9dbd/full/full/0/default.jpg"/>
           <head rend="uc">Pièces justificatives</head>
           <p>Bulles des papes Urbain II, Adrien IV et Urbain III énumérant les possessions de Saint-Martial (1096, 1159 et 1186). – Pouillé de l’abbaye établi par le chanoine Legros (fin du <num>xviii<hi rend="sup">e</hi></num> siècle).</p>

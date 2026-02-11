@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,7 +60,7 @@
         <head rend="uc">Bibliographie et Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r240898">
         <head rend="uc">Introduction
          <lb/>les débuts de la réforme à Orléans</head>
         <p>Théodore de Bèze fixe à 1528 l’apparition des idées nouvelles à Orléans. Il semble qu’on puisse même remonter plus haut pour en trouver les premières traces.</p>
@@ -72,7 +70,7 @@
         <pb source="https://nakala.fr/10.34847/nkl.88e5m8bw#4520691dca668feec6b6c2e9b9e17bd615519220" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.88e5m8bw/4520691dca668feec6b6c2e9b9e17bd615519220/full/full/0/default.jpg"/>
         <p>Causes de ce succès rapide du protestantisme à Orléans : un besoin général de réforme dans l’Église, sensible tout particulièrement dans cette ville où la vie religieuse est puissamment développée, les communautés importantes et nombreuses ; – la facilité d’une portion du clergé orléanais à accepter les idées nouvelles (Bréviaire de 1542) ; – surtout l’existence d’une Université où de nombreux Allemands réformés viennent étudier et où enseignent des professeurs plus ou moins favorables à l’hérésie.</p>
       </div>
-      <div>
+      <div xml:id="r240927">
         <head rend="uc">Chapitre premier
          <lb/>le protestantisme orléanais sous François II</head>
         <p>Dès le début du règne de François II, les protestants orléanais s’agitent et prennent une attitude menaçante.</p>
@@ -84,7 +82,7 @@
         <p>Les Etats Généraux se réunissent le 13 décembre.</p>
         <p>État d’esprit des réformés orléanais au commencement de l’année 1561, d’après une poésie inédite.</p>
       </div>
-      <div>
+      <div xml:id="r240969">
         <head rend="uc">Chapitre II
          <lb/>Semblants de trêve et préparatifs de guerre</head>
         <p>Les premiers actes du gouvernement donnent, dans une certaine mesure, satisfaction aux protestants. – A Orléans, complaisance du prince de La Roche-sur-Yon, gouverneur de la ville. Les réformés sont autorisés à se réunir les uns chez les autres pour exercer leur culte ; à partir du 1<hi rend="sup">er</hi> mai, ils tiennent, sans être inquiétés, des assemblées publiques.</p>
@@ -94,25 +92,25 @@
         <p>L’Église s’est tellement accrue qu’elle manque de ministres. Lettres à Calvin pour lui en demander.</p>
         <p>Les effets de l’édit de janvier à Orléans.</p>
       </div>
-      <div>
+      <div xml:id="r241000">
         <pb source="https://nakala.fr/10.34847/nkl.88e5m8bw#6de30bd4078c1449226af0d312feac20bb5902ec" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.88e5m8bw/6de30bd4078c1449226af0d312feac20bb5902ec/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre III
          <lb/>L’occupation protestante à Orléans</head>
-        <div>
+        <div xml:id="r241013">
           <head rend="uc">I
            <lb/><hi rend="i">la prise d’Orléans par Condé</hi></head>
           <p>A la suite du massacre de Vassy, prise d’armes générale. Catherine de Médicis, qui redoute par-dessus tout les hasards d’une guerre, songe à s’enfermer dans Orléans avec le roi, et à y attendre que Guise et Condé aient vidé leur querelle. Ses hésitations laissent aux chefs catholiques le temps d’intervenir et de s’assurer de la Cour.</p>
           <p>Pendant ce temps, Coudé et ses partisans balancent sur la conduite à tenir. Le prince, voyant que Paris lui est fermé, se décide à gagner Orléans.</p>
           <p>A Orléans, grande agitation. Grâce aux atermoiements du s<hi rend="sup">r</hi> de Monterud, lieutenant du gouverneur, les réformés s’entendent entre eux et s’arment. – Arrivée de d’Andelot, le 1<hi rend="sup">er</hi> avril 1562. Le 2 avril, surprise de la porte Saint-Jean. Marche précipitée de Condé, qui pénètre à son tour dans Orléans, au milieu des acclamations.</p>
         </div>
-        <div>
+        <div xml:id="r241041">
           <head rend="uc">II
            <lb/><hi rend="i">premières mesures du prince de Condé pour organiser</hi>
            <lb/><hi rend="i">son parti</hi></head>
           <p>Situation difficile des chefs protestants à Orléans : ils n’ont ni troupes, ni argent.</p>
           <p>Condé se multiplie pour organiser son parti : levée de soldats ; manifeste et lettres du prince ; négociations avec la Cour.</p>
         </div>
-        <div>
+        <div xml:id="r241063">
           <pb source="https://nakala.fr/10.34847/nkl.88e5m8bw#9ba2591dd893b6a3a3b5fde68d4f15251f7c3e51" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.88e5m8bw/9ba2591dd893b6a3a3b5fde68d4f15251f7c3e51/full/full/0/default.jpg"/>
           <head rend="uc">III
            <lb/><hi rend="i">Caractères successifs de la domination protestante</hi>
@@ -123,7 +121,7 @@
           <p>Le culte catholique est suspendu le 21 avril. Les prêtres et un grand nombre de fidèles quittent la ville. Le 17 mai, les ministres s’installent dans les églises. – Troisième synode national des réformés français tenu à Orléans.</p>
           <p>Mesures financières de Condé : il met la main sur les deniers de la ville ; il décrète des impôts. – Etablissement d’un arsenal dans le couvent des Cordeliers. – Arrivée des renforts. – Guerre de plume.</p>
         </div>
-        <div>
+        <div xml:id="r241099">
           <head rend="uc">IV
            <lb/><hi rend="i">Orléans mis en état de défense</hi></head>
           <p>Les « parlements » du mois de juin et les premières opérations militaires de Condé.</p>
@@ -132,7 +130,7 @@
           <p>La question financière : Condé fait percevoir par ses agents l’octroi de 7 sols 6 deniers tournois par tonneau de vin entrant dans la ville. Mesures pour recouvrer les impôts Emprunt de 30,000 livres tournois.</p>
           <p>Prédications et succès des ministres réformés. Le service religieux de l’Hôtel-Dieu est remis aux protestants.</p>
         </div>
-        <div>
+        <div xml:id="r241130">
           <head rend="uc">V
            <lb/><hi rend="i">le siège d’Orléans par le duc de guise</hi></head>
           <p>Irritation des protestants d’Orléans en apprenant les échecs du parti au dehors, et notamment la prise de Rouen. – Exécution, le 2 novembre, du conseiller au Parlement de Paris J.-B. Sapin et de l’abbé de Gastine. Effet produit sur le Parlement, qui répond par trois arrêts du 14 novembre.</p>
@@ -145,7 +143,7 @@
           <p>Négociations des chefs réformés avec les échevins pour obtenir qu’ils payent la solde de leurs troupes. Evacuation de la ville. – Entrée de Catherine de Médicis à Orléans, le 1<hi rend="sup">er</hi> avril.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r241175">
         <head rend="uc">Chapitre IV
          <lb/>Le gouvernement de Sipierre
          <lb/>un Essai de pacification et de tolérance</head>

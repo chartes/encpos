@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1966_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1966_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,15 +53,15 @@
         <forename>Odile</forename>
         <surname>Dresch</surname>
       </byline>
-      <div>
+      <div xml:id="r868022">
         <head rend="uc">Sources</head>
         <p>Les sources essentielles des trois couvents minimes de Nigeon, Vincennes et de la place Royale sont assez dispersées. La majeure partie des documents ayant servi à l’étude archéologique se trouvent aux Archives nationales (série S et surtout série LL) et aux Archives de la Seine (série des domaines DQ<hi rend="sup">10</hi>). A la Bibliothèque de l’Arsenal et à la Bibliothèque Mazarine sont conservés les index des bibliothèques des couvents. Outre l’important manuscrit <hi rend="i">Annales de la province de France,</hi> les sources manuscrites et imprimées de l’histoire de l’ordre dans cette province sont à la Bibliothèque nationale.</p>
       </div>
-      <div>
+      <div xml:id="r868040">
         <head rend="uc">Première partie
          <lb/>Histoire de l’ordre. – Son installation à Paris. –
          <lb/>Vie sociale et recrutement des trois couvents</head>
-        <div>
+        <div xml:id="r868050">
           <head rend="uc">Chapitre premier
            <lb/>histoire de l’ordre. Fondation des trois couvents</head>
           <p>La fondation de Nigeon, en 1493, coïncide avec le début de l’ordre dans la province de France et la première rédaction de la règle que saint François de Paule révisa trois fois par la suite, jusqu’à sa mort en avril 1507. L’ordre, très hiérarchisé, était dirigé par un correcteur général, élu pour trois, puis pour six ans, par le chapitre général, aidé par les « zélateurs » ou procureurs et par des « collègues » ou visiteurs généraux. De même, au niveau de la province, le provincial était assisté de deux « collègues » provinciaux.</p>
@@ -72,7 +70,7 @@
           <p>Le couvent de Vincennes fut cédé à l’ordre en 1585, après l’échec de l’installation des Cordeliers par Henri III à qui l’ordre de Grandmont avait laissé ce prieuré. Le roi fit de ce couvent, proche de son château, un lieu où il faisait retraite, avec les deux confréries qu’il avait créées, les « hiéronymites » et la « Congrégation de... la vie saine ».</p>
           <p>Les minimes voulaient cependant disposer d’une résidence à Paris même. Après plusieurs essais infructueux, ils profitèrent de l’entrée dans l’ordre d’Olivier Chaillou, qui légua sa fortune pour acheter, en 1609, une partie du jardin de l’hôtel de Vitry, situé derrière la place Royale, sur l’emplacement de l’ancien palais des Tournelles. Malgré des rapports difficiles avec la famille de Vitry, les religieux, aidés par Henri IV, Marie de Médicis et surtout par le duc de La Vieuville, purent commencer rapidement les travaux.</p>
         </div>
-        <div>
+        <div xml:id="r868079">
           <head rend="uc">Chapitre II
            <lb/>Relations avec le clergé et la société de Paris.
            <lb/>Le tiers-ordre</head>
@@ -85,25 +83,25 @@
           <p><hi rend="i">La vie économique des trois couvents.</hi> – La vie économique des trois couvents est en rapport avec le rôle qu’ils jouèrent dans la société parisienne. Nigeon et Vincennes, qui ne reçurent que peu de fondations, vécurent pauvrement du revenu de quelques maisons et rentes ; le couvent de Vincennes ne put jamais jouir pleinement du revenu de ses terres, pourtant assez importantes, car elles avaient été louées par l’ordre de Grandmont en baux emphytéotiques. Les maisons qui appartenaient à ces deux couvents, à part quelques-unes situées dans le Marais, se trouvaient dans les faubourgs ouest pour Nigeon, est pour Vincennes.</p>
           <p>La place Royale, de par son rôle social au <num>xvii<hi rend="sup">e</hi></num> siècle, put, grâce à des fondations nombreuses, entreprendre les coûteux travaux du portail et du maître-autel. Le couvent, au <num>xviii<hi rend="sup">e</hi></num> siècle, fut obligé de convertir son économie : il acquit quelques maisons dispersées dans Paris, acheta une ferme importante et construisit une auberge à Juvisy, sur la route de Fontainebleau. Mais il vit le revenu de ses rentes réduit, par les mesures de 1720, au denier quarante et se trouva, à la veille de la Révolution, plus endetté encore que Nigeon et Vincennes.</p>
         </div>
-        <div>
+        <div xml:id="r868189">
           <head rend="uc">Chapitre III
            <lb/>Le recrutement</head>
           <p>Les couvents de Paris demeurèrent jusqu’à la Révolution les plus peuplés de la province de France. Les frères, au nombre de trente-cinq à quarante-cinq au <num>xvii<hi rend="sup">e</hi></num> et au début du <num>xviii<hi rend="sup">e</hi></num> siècles, n’étaient plus, à la veille de la Révolution, que quinze à vingt. Le nombre des frères, dans chaque couvent, s’accrut régulièrement jusqu’en 1650 pour diminuer ensuite.</p>
           <p>Les prêtres, qui formaient les trois quarts des religieux dans chaque couvent, venaient souvent du nord et se recrutaient dans un cercle restreint de familles assez riches de la bourgeoisie ou de la noblesse de robe : beaucoup étaient frères ou cousins. Les oblats, à part quelques exceptions, étaient issus de la petite bourgeoisie du nord ou des alentours de Paris. La condition d’oblat ne dépen<pb source="https://nakala.fr/10.34847/nkl.25860n6w#3822f92d7a4e71e763c914ad9f2cd7ea7c5b28ac" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.25860n6w/3822f92d7a4e71e763c914ad9f2cd7ea7c5b28ac/full/full/0/default.jpg"/>dait pas tant de la fortune de la famille que du niveau d’instruction du novice. La différence sociale entre prêtres et oblats s’estompa au <num>xviii<hi rend="sup">e</hi></num> siècle grâce à une nette démocratisation du recrutement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r868228">
         <head rend="uc">Deuxième partie
          <lb/>Vie intérieure des couvents
          <lb/>rôle intellectuel et religieux des minimes</head>
-        <div>
+        <div xml:id="r868238">
           <head rend="uc">Chapitre premier
            <lb/>la vie intérieure des couvents</head>
           <p>Dès le noviciat, situé pour la province de France à Nigeon, la séparation s’établissait entre clercs et oblats (ou convers). Les novices, isolés de leurs parents et des religieux profès, étaient pris en charge, pendant un an, par le maître des novices et son assistant, tous deux nommés par le provincial.</p>
           <p><hi rend="i">Le correcteur, le chapitre local et les officiers.</hi> – Le pouvoir était partagé, dans les couvents, entre le correcteur, élu le 15 septembre, et le chapitre, groupant les clercs, seuls dotés du droit de vote, qui se réunissait trois fois par semaine pour écouter les confessions et prendre les décisions importantes. Le correcteur était aidé par deux « sénieurs » ou « discrets ». Les autres officiers importants étaient élus ; les offices secondaires étaient pourvus par le correcteur.</p>
           <p><hi rend="i">La vie du religieux minime.</hi> – La vie du religieux minime se distinguait de celle des autres ordres mendiants par une austérité plus grande et surtout par l’observance du vœu quadragésimal qui interdisait aux frères toute viande et tout laitage. Le minime jeûnait la moitié de l’année et passait la plus grande partie de la journée à prier. Malgré sa dureté, la règle fut suivie fidèlement par les trois couvents qui refusèrent, en 1769, que les austérités en fussent atténuées.</p>
         </div>
-        <div>
+        <div xml:id="r868262">
           <head rend="uc">Chapitre II
            <lb/>Position des couvents dans les conflits religieux
            <lb/>des <num>xvi<hi rend="sup">e</hi></num>, <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles</head>
@@ -113,7 +111,7 @@
           <p>Avec la fondation du couvent de la place Royale, les minimes, grâce à Mersenne, connurent la célébrité. Celui-ci combattit l’athéisme en essayant de créer un vaste système où toutes les hérésies étaient réfutées par la raison et les sciences. D’autres frères engagèrent des controverses célèbres avec les protestants et les anglicans. Dans la seconde moitié du <num>xvii<hi rend="sup">e</hi></num> siècle, sous l’influence de Nicolas Barré, le couvent, abandonnant la position rationnaliste, retrouva le mysticisme de saint François de Paule. Repoussant à la fois le refus de la grâce des jansénistes et la trop grande confiance en l’homme des quiétistes, il n’hésita pas à signer les formulaires de 1661 et 1662 condamnant les cinq propositions. Le contenu des bibliothèques montre, cependant, que les minimes s’intéressaient à ces problèmes. Mais, suivant l’exemple des grands réformateurs comme Olier et saint Jean Eudes, ils agirent davantage sur le plan pratique.</p>
           <p>Le chapitre national, réuni en 1769, ne signala pas de défaillance dans l’observance des quatre vœux et se contenta de réorganiser le correctoire, sans en changer l’esprit d’austérité. L’attitude la plus surprenante reste celle qu’eurent les couvents devant les événements de 1789, accueillis avec enthousiasme.</p>
         </div>
-        <div>
+        <div xml:id="r868326">
           <head rend="uc">Chapitre III
            <lb/>La vie intellectuelle et les bibliothèques des couvents</head>
           <p><hi rend="i">Les auteurs.</hi> – Les auteurs de la province ont presque tous vécu à la place Royale. Ils se divisent en deux générations : ceux du début et ceux de la fin du <num>xvii<hi rend="sup">e</hi></num> siècle. Le rayonnement de Mersenne, entre 1610 et 1648, fut immense ; autour de lui se réunit la première académie scientifique de Paris ; en outre, dans le couvent même se forma une école de philosophes, historiens et hommes de science, groupant les pères Niceron, François de La Noue, Rangueil. La seconde moitié du <num>xvii<hi rend="sup">e</hi></num> siècle vit un changement d’orientation dans les recherches des religieux : on ne trouve plus au couvent de la place Royale des esprits universels, mais des érudits cantonnés dans un domaine étroit et des compilateurs. La pédagogie et l’hagiographie semblent avoir attiré les religieux qui se groupèrent autour des pères Blanchot, Michel de La Noue et Pijart d’une part, Simon Martin et François de Giry d’autre part. Le père Élie Avrillon, au début du <num>xviii<hi rend="sup">e</hi></num> siècle, fut célèbre par ses ouvrages de catéchisme. On ne trouve que peu d’historiens parmi les minimes.</p>
@@ -124,10 +122,10 @@
           <p>La bibliothèque de Vincennes, servant aux étudiants et « lecteurs », contenait les ouvrages de base nécessaires à l’étude de la théologie, des manuels, des dictionnaires et des récits de missions.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r868395">
         <head rend="uc">Troisième partie
          <lb/>Étude archéologique des trois couvents</head>
-        <div>
+        <div xml:id="r868403">
           <head rend="uc">Chapitre premier
            <lb/>le couvent de la place royale</head>
           <p><hi rend="i">Histoire de la construction de l’église et des bâtiments.</hi> – L’ordre eut la chance de trouver un terrain à acheter dans le quartier du Marais en pleine expansion. Les bâtiments du couvent de la place Royale, très importants, commencés en 1611, furent resserrés dans un enclos exigu de deux hectares et demi environ. L’église, située derrière la place Royale, fut orientée nord-sud, de façon à être vue du centre de la place. En grande partie édifiée en 1625, elle avait d’abord eu une abside en hémicycle qui, à la suite des nouveaux projets du principal fondateur, le duc de La Vieuville, avait été transformée, en 1623, en chevet à trois pans. Dès 1611, des coupoles sur trompes avaient été prévues pour couvrir abside et absidioles. En 1630, commença une seconde série de travaux avec l’édification du maître-autel qui obligea les religieux à transformer les anciennes absidioles en chapelles rectangulaires pour refaire, plus au nord, un nouveau chevet à pans coupés, avec l’abside et les absidioles aussi couvertes de coupoles. Le portail fut commencé en 1653 par François Mansart qui, en 1661, n’avait encore achevé que le premier ordre. Il ne fut terminé qu’en 1672-1673 par l’architecte Thévenot. Celui-ci, modifiant le projet initial, abandonna le troisième ordre et l’immense dôme. En 1673 fut construit le chœur des religieux au-dessus de la porte d’entrée. En 1679, enfin, l’église, dont les tribunes et la travée joignant le chœur avaient été refaites, put être dédicacée à saint François de Paule. Elle fut louée sous la Révolution, mais sa destruction fut décidée pour ouvrir la « chaussée des minimes », actuelle rue de Béarn. Le pavillon ouest du portail subsiste encore aujourd’hui.</p>
@@ -138,20 +136,20 @@
           <p>La nef, bâtie sur un plan encore rare à Paris, était bordée de quatorze chapelles, installées entre les contreforts, et surmontée de vastes galeries où furent déposés les livres du couvent. La voûte, sur croisées d’ogives, retombait sur des pilastres doriques. Le chevet comprenait aussi une tribune où fut installé un petit chœur de religieux. Toutes les chapelles, surélevées de deux marches, ouvraient sur la nef par de belles grilles et étaient ornées de lambris, fresques, tableaux et tombeaux. Le gigantesque maître-autel, décoré de colonnes de marbre et de statues de Gilles Guérin, fut pourvu en 1731 d’un tabernacle, véritable monument surmonté d’une coupole.</p>
           <p>Le cloître, prévu pour être voûté d’arêtes comme les allées couvertes de la place Royale, fut construit avec voûtes sur croisées d’ogives par Gobelin en 1625. Des grilles de fer séparaient les allées du préau. Les galeries du premier étage étaient célèbres par les fresques en trompe-l’œil exécutées par Niceron en 1644 et 1645. Dans le bâtiment nord, se trouvaient la sacristie, avec de beaux tableaux, et le chapitre ; à l’est, le réfectoire aux murs peints par La Hire et Simon Vouet, suivi des cuisines ; au sud, la « porterie » et trois pièces pour recevoir les séculiers. Le quatrième côté du cloître n’était qu’une allée surmontée d’une terrasse. Les deux étages, au-dessus des autres allées, contenaient les dortoirs et chambres d’hôtes. L’infirmerie, enfin, se composait de deux corps de logis se coupant à angle droit.</p>
         </div>
-        <div>
+        <div xml:id="r868444">
           <head rend="uc">Chapitre II
            <lb/>Le couvent de Nigeon ou passy</head>
           <p>Ce couvent, admirablement situé sur les hauteurs de Chaillot, était entouré d’un enclos de sept hectares et demi, dont une partie était plantée de vignes et dont l’autre descendait en terrasses jusqu’à la Seine. L’église, orientée est-ouest, achevée avec les bâtiments en 1527, était très simple ; elle ne fut <pb source="https://nakala.fr/10.34847/nkl.25860n6w#6329be207593df7bf9999ee8aeaee1a9693699d4" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.25860n6w/6329be207593df7bf9999ee8aeaee1a9693699d4/full/full/0/default.jpg"/>dédicacée qu’en 1578, après que deux chapelles eussent été ajoutées à gauche du sanctuaire. Une porte triomphale donnait accès à une cour sur laquelle ouvrait l’église, remarquable surtout par son portail de style Renaissance, un des premiers de l’Ile-de-France et attribué, probablement à tort, à Jean Bullant. A l’intérieur, le vaste chœur, occupant le tiers de l’église, était séparé de la nef par un avant-chœur et un grand jubé. La disposition de l’enclos en terrasses avait permis l’aménagement, sous le chevet à pans coupés, de vastes caveaux. Quatre chapelles, probablement ajoutées postérieurement, longeaient la nef au nord ; deux autres, en enfilade, ouvraient, du même côté, sur le sanctuaire.</p>
           <p>Les bâtiments se répartissaient autour du cloître de la même façon que ceux de la place Royale, à l’exception du bâtiment ouest, dans le prolongement du portail, qui, au lieu de salles destinées aux séculiers, contenait l’apothicairerie. Le noviciat et la bibliothèque occupaient une partie des étages.</p>
           <p>L’infirmerie, placée comme à la place Royale à gauche de l’église, prolongeait au nord les deux chapelles du sanctuaire. A la Révolution, les bâtiments furent transformés par Liévin Bauwens en une manufacture de coton et l’enclos fut vendu par petits lots.</p>
         </div>
-        <div>
+        <div xml:id="r868467">
           <head rend="uc">Chapitre III
            <lb/>Le couvent de Vincennes</head>
           <p>Le couvent de Vincennes se rapprochait de celui de Nigeon par sa situation près de Paris et son vaste enclos (quinze hectares et demi). Il se signalait par une curieuse enceinte polygonale construite en 1605 ; cette forme fut adoptée par économie. Une grande allée menait de cette enceinte à l’église située au centre de l’enclos. Henri III transforma la nef, très simple, sans chapelle, de l’église grandmontaine, en la divisant en deux églises, haute et basse. Un clocher-porche permettait d’accéder à la nef supérieure. La vieille chapelle Notre-Dame, à gauche de la nef, fut surmontée d’une autre chapelle. Les minimes, trouvant le cloître des grandmontains trop petit, le prolongèrent au sud par un second ensemble de bâtiments entourant une cour carrée. Les pierres qui servirent à ces constructions provenaient de la destruction du petit couvent qu’Henri III avait fait construire au nord-est du chevet en forme d’hémicycle. L’infirmerie, parallèle à l’église, au nord, lui était reliée par deux étages de galeries.</p>
           <p>Ce couvent, destiné, après la Révolution, à servir de « dépôt d’approvisionnement », fut acheté en 1823 par Louis XVIII et détruit en 1862, lors de l’aménagement par Napoléon III du « lac des minimes ».</p>
         </div>
-        <div>
+        <div xml:id="r868482">
           <head rend="uc">Chapitre IV
            <lb/>Étude comparative des trois couvents.
            <lb/>Peut-on parler d’une architecture « minime » ?</head>
@@ -159,11 +157,11 @@
           <p>Les bâtiments de Nigeon et de la place Royale, fort semblables dans leur disposition, sembleraient prouver l’existence d’un plan commun à tous les couvents minimes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r868505">
         <head rend="uc">Conclusion</head>
         <p>De cette étude des trois couvents de Paris, ressort la prépondérance exceptionnelle du couvent de la place Royale. Il apparaît remarquable si on le compare aux autres maisons de l’ordre, parmi lesquelles Nigeon et Vincennes. Par son importance sociale et intellectuelle, par la splendeur de son église, cette maison fut, au <num>xvii<hi rend="sup">e</hi></num> siècle, un des centres culturels et religieux les plus importants de Paris. Au <num>xviii<hi rend="sup">e</hi></num> siècle, abandonné de la riche société, oublié dans ce quartier du Marais, le couvent retrouva l’humilité et la pauvreté de l’ordre telles qu’elles étaient pratiquées dans les deux maisons voisines, Nigeon et Vincennes.</p>
       </div>
-      <div>
+      <div xml:id="r868527">
         <head rend="uc">Appendices</head>
         <p>Liste des auteurs minimes ayant vécu dans les trois couvents de Paris et de leurs œuvres. – Liste des manuscrits, provenant de la bibliothèque de la place Royale, conservés à la Bibliothèque nationale, à la Bibliothèque de l’Arsenal et à la Bibliothèque Mazarine. – Liste des sépultures. – Liste des portraits placés dans le chœur de l’église de Nigeon. – Carte des maisons de l’ordre des minimes. – Carte des couvents minimes de la province de France.</p>
         <pb source="https://nakala.fr/10.34847/nkl.25860n6w#d7b5a5e4675cd7ad367a2cf6d6e267fd9cf4a770" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.25860n6w/d7b5a5e4675cd7ad367a2cf6d6e267fd9cf4a770/full/full/0/default.jpg"/>

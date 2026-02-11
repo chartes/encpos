@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,16 +56,16 @@
         <forename>Denise</forename>
         <surname>Ogilvie-David</surname>
       </byline>
-      <div>
+      <div xml:id="r1043313">
         <head rend="uc">Introduction</head>
         <p>Dans notre introduction à l’édition du second livre, <hi rend="i">De dono pietatis, </hi>du <hi rend="i">Tractatus de diversis materiis predicabilibus</hi> d’Étienne de Bourbon, nous avons surtout développé quelques conclusions sur l’analyse et la classification des <hi rend="i">exempla</hi> auxquelles nous sommes parvenue à la suite de l’observation du contenu et de l’agencement de ce livre, de l’étude des sources et de la forme des <hi rend="i">exempla.</hi></p>
         <p>A la suite de l’édition du texte, nous donnons une analyse de chaque <hi rend="i">exemplum,</hi> l’identification de sa source, et l’indication éventuelle de son utilisation dans des recueils antérieurs.</p>
       </div>
-      <div>
+      <div xml:id="r1043345">
         <head rend="uc">Première partie
          <lb/>Présentation</head>
         <p>Le <hi rend="i">Tractatus de diversis materiis predicabilibus</hi> est l’œuvre d’un prédicateur général dominicain, qui fut en même temps, dès 1235, inquisiteur. C’est au terme d’une vie de prédications et de voyages que, s’étant retiré au couvent des frères Prêcheurs de Lyon, il rédigea ce traité. L’ouvrage, organisé selon les dons du Saint-Esprit, devait comporter sept livres. Étienne de Bourbon mourut avant d’avoir écrit les deux derniers, en 1261.</p>
-        <div>
+        <div xml:id="r1043360">
           <pb source="https://nakala.fr/10.34847/nkl.aabbfa4s#fdf9fbb9557b8845d544362c6cd9f1103fc78dbc" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.aabbfa4s/fdf9fbb9557b8845d544362c6cd9f1103fc78dbc/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>le don de piété : théologie et dévotion</head>
@@ -76,13 +74,13 @@
           <p>2. « <hi rend="i">Exempla » : dévotion et conduites.</hi> – A ces attitudes religieuses proposées et défendues dans les <hi rend="i">rationes,</hi> font pendant tout un système de conduites illustrées par les <hi rend="i">exempla :</hi> dans le <hi rend="i">titulus</hi> sur le Verbe de Dieu, c’est essentiellement sur l’efficacité de l’assistance aux sermons qu’insistent les <hi rend="i">exempla</hi> ; l’exposé sur les effets de la Croix et de la Passion donne lieu à de très nombreux <hi rend="i">exempla</hi> sur la vertu du signe de croix, de la croisade et du pèlerinage ; ceux du <hi rend="i">titulus</hi> consacré à la Vierge recommandent les fêtes, prières, jeûnes et rites qui constituent les gestes collectifs de la dévotion à Marie.</p>
           <p>On observe ainsi une étroite correspondance entre les <hi rend="i">exempla</hi> et les <hi rend="i">rationes :</hi> celles-ci fondant théologiquement les conduites recommandées par ceux-là.</p>
         </div>
-        <div>
+        <div xml:id="r1043442">
           <head rend="uc">Chapitre II
            <lb/>Les sources des « exempla »</head>
           <p>Après trente ans de mission et de prédication qui l’ont conduit dans les villes et les bourgades d’un territoire qui recouvre presque les limites linguistiques du francoprovençal, langue qui devait être sa langue maternelle, Étienne de Bourbon, dans son couvent de Lyon, revient aux livres pour rédiger son traité : la plupart des <hi rend="i">exempla</hi> sont de source savante. Plusieurs exemples nous le prouvent ; il a les <hi rend="i">Vies des Pères</hi> sous les yeux : plusieurs récits témoi<pb source="https://nakala.fr/10.34847/nkl.aabbfa4s#18a2c5d16e1fb45680e2d629efe57521d2a29774" n="135" facs="https://api.nakala.fr/iiif/10.34847/nkl.aabbfa4s/18a2c5d16e1fb45680e2d629efe57521d2a29774/full/full/0/default.jpg"/>gnent, par la correspondance des termes employés avec ceux de la source, qu’Étienne de Bourbon travaillait à résumer des textes directement après leur lecture. Mais de nombreuses imprécisions, des textes synthétiques où l’on reconnaît l’influence de plusieurs sources montrent qu’il s’agissait bien souvent de souvenirs de lecture. De toute façon la part de sources écrites est très importante.</p>
           <p>Sur les 204 <hi rend="i">exempla</hi> des cinq premiers <hi rend="i">tituli,</hi> 140 portent l’indication d’une source écrite : 37 proviennent de vies de saints, 31 des <hi rend="i">Vies des Pères, </hi>29 de chroniques diverses (<hi rend="i">Historia tripartita, ecclesiastica, scolastica, transmarina, antiochena, Gesta Francorum,</hi> etc.). 41 <hi rend="i">exempla</hi> ne mentionnent aucune source : ils s’avèrent le plus souvent provenir d’une source savante écrite. 23 <hi rend="i">exempla</hi> mentionnent une transmission orale. Ces <hi rend="i">exempla</hi> peuvent être de source savante, c’est-à-dire provenir du monde des clercs et en décrire les préoccupations, souvent en changeant le décor et les personnages d’<hi rend="i">exempla </hi>plus anciens de sources écrites, ou provenir d’un fonds narratif populaire. Par ailleurs, des <hi rend="i">exempla</hi> de sources écrites semblent parfois faire référence à ce même fonds narratif.</p>
         </div>
-        <div>
+        <div xml:id="r1043506">
           <head rend="uc">Chapitre III
            <lb/>Remarques sur la classification des « exempla »</head>
           <p>Ces observations nous incitent à remettre en cause la classification des <hi rend="i">exempla</hi> par source, proposée par Welter, la « source • ne rendant pas toujours compte de l’origine du récit ni de sa forme.</p>
@@ -90,7 +88,7 @@
           <p>Cette hypothèse semble offrir la possibilité de classer les <hi rend="i">exempla</hi> selon les formes des fonctions avec lesquelles ils présentent une analogie, classification qui rend mieux compte du contenu des <hi rend="i">exempla</hi> que la classification par les sources.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1043553">
         <pb source="https://nakala.fr/10.34847/nkl.aabbfa4s#bf5523fb433227b8715da4f48b96b25d73fffa49" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.aabbfa4s/bf5523fb433227b8715da4f48b96b25d73fffa49/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
@@ -99,12 +97,12 @@
         <p>L’orthographe médiévale a été respectée. Dans l’intention de faciliter la lecture du texte, nous avons rétabli la distinction entre les <hi rend="i">u</hi> et <hi rend="i">v, i</hi> et <hi rend="i">j,</hi> et le <hi rend="i">j </hi>dans les mots comme <hi rend="i">abjicio.</hi> Nous avons remplacé le système de division du texte selon les sept premières lettres de l’alphabet (indiqué en note dans l’édition définitive) par une division en petites unités de dix à quinze lignes, qui sert de référence pour les index et l’analyse des <hi rend="i">exempla.</hi></p>
         <p>Nous avons édité les cinq premiers <hi rend="i">tituli</hi> du deuxième livre, délaissant les deux derniers consacrés à la Vierge et aux bonnes œuvres. La partie éditée représente environ 60 % du deuxième livre. En tête du texte, nous donnons une table analytique où sont résumés les <hi rend="i">rationes,</hi> les <hi rend="i">exempla</hi> bibliques et les <hi rend="i">exempla,</hi> et indiquées les citations (bibliques et d’autorités), afin de donner le plan le plus précis de la composition du livre.</p>
       </div>
-      <div>
+      <div xml:id="r1043625">
         <head rend="uc">Troisième partie
          <lb/>Sources et parallèles des « exempla »</head>
         <p>Nous donnons une analyse de chaque <hi rend="i">exemplum,</hi> dans l’ordre du texte, suivie de l’identification de la source et de l’indication d’une ou plusieurs utilisations de l’<hi rend="i">exemplum</hi> dans des recueils antérieurs, avec un commentaire si nécessaire. La traduction française d’un texte parallèle peut aussi être indiquée.</p>
       </div>
-      <div>
+      <div xml:id="r1043645">
         <head rend="uc">Annexes</head>
         <p>Table des citations bibliques. – Index des incipit d’<hi rend="i">exempla.</hi> – Index des sources indiquées dans les <hi rend="i">exempla.</hi> – Index des personnages.</p>
       </div>

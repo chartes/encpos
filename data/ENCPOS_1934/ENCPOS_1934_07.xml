@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,10 +63,10 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r539060">
         <head rend="uc">Première partie
          <lb/>Histoire de la ville de Gisors</head>
-        <div>
+        <div xml:id="r539068">
           <head rend="uc">Chapitre premier
            <lb/>Gisors des origines à 1198.</head>
           <p>En 968, un <hi rend="i">plaid</hi> des Français et des Normands est tenu sur les bords de l’Epte, à Gisors. Les archevêques de Rouen y possèdent un fief dont, au XI<hi rend="sup">e </hi>siècle, ils confient la garde à la famille de Chaumont.</p>
@@ -81,7 +79,7 @@
           <p>Entrevues des rois de France et d’Angleterre à Gisors entre 1173 et 1188.</p>
           <p>Philippe-Auguste entre dans Gisors le 12 avril 1193. Après la bataille de Courcelles (septembre 1198), il s’y réfugie.</p>
         </div>
-        <div>
+        <div xml:id="r539124">
           <head rend="uc">Chapitre II
            <lb/>Gisors de 1200 à 1419.</head>
           <p>Le <num>xiii<hi rend="sup">e</hi></num> siècle est pour Gisors un siècle de tranquillité et de prospérité. Fréquents séjours de Philippe-Auguste, de saint Louis, de l’archevêque de Rouen, Eudes Rigaud, des derniers Capétiens directs.</p>
@@ -95,7 +93,7 @@
           <p>En 1398, Gisors rentre dans le domaine royal, après la mort de la reine Blanche.</p>
           <p>Activité de la garnison de Gisors qui fait plusieurs expéditions heureuses contre les Anglais, notamment à Sérifontaine. Les victoires d’Henri V l’amènent dans le Vexin, au début de 1419.</p>
         </div>
-        <div>
+        <div xml:id="r539180">
           <head rend="uc">Chapitre III
            <lb/>De l’occupation anglaise a la guerre du bien public.</head>
           <p>La panique à Gisors. Le duc de Clarence met le siège devant Gisors le 31 août 1419. Le 11 septembre, le capitaine de la ville signe une composition ; le 18, les Anglais entrent dans Gisors. Le château est livré trois jours après.</p>
@@ -108,10 +106,10 @@
           <p>Pendant la guerre du Bien Public, en septembre 1465, Gisors doit, à cause de la faiblesse de sa garnison, ouvrir ses portes à Charles de France ; mais au mois de décembre, la ville rentre définitivement dans le domaine royal.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r539219">
         <head rend="uc">Deuxième partie
          <lb/>Les institutions</head>
-        <div>
+        <div xml:id="r539227">
           <head rend="uc">Chapitre premier
            <lb/>l’administration.</head>
           <p>Il n’y a pas, dans la période que nous étudions, d’organisation municipale à Gisors.</p>
@@ -128,7 +126,7 @@
           <p>V. Le bailli est assisté, à partir du milieu du XIV<hi rend="sup">e </hi>siècle, d’un lieutenant, puis de lieutenants particuliers, et depuis 1411, d’un lieutenant général. Sous la domination anglaise, les lieutenants sont choisis par le bailli.</p>
           <p>VI. Il existe, à côté du bailli, un garde du sceau aux causes de la châtellenie et un ou deux tabellions.</p>
         </div>
-        <div>
+        <div xml:id="r539318">
           <head rend="uc">Chapitre II
            <lb/>Les finances.</head>
           <div>
@@ -155,7 +153,7 @@
             <p>V. Gisors possède un grenier à sel.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r539438">
           <head rend="uc">Chapitre III
            <lb/>La justice.</head>
           <p>I. Le premier degré de juridiction royale est le plaid du vicomte. Le vicomte tient deux plaids : le plaid de meuble, consacré aux procès de commerce, d’achats, de dettes, aux affaires qui demandent rapide conclusion ; et le plaid d’héritage, pour les affaires de propriété foncière, tenu tous les quinze jours. Le vicomte peut se faire suppléer par le prévôt.</p>
@@ -167,7 +165,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.bcbegmdp#de54820b6eed92ade68d2a30fff7938a021a04e6" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcbegmdp/de54820b6eed92ade68d2a30fff7938a021a04e6/full/full/0/default.jpg"/>
           <p>VI. Vicomte et officiers des aides ont pour auxiliaires les sergents. La sergenterie de Gisors est fieffée. Le sergent est assisté d’un sous-sergent. Le sergent possède à la fois des attributions financières et judiciaires.</p>
         </div>
-        <div>
+        <div xml:id="r539485">
           <head rend="uc">Chapitre IV
            <lb/>L’organisation militaire.</head>
           <p>I. Le château de Gisors est l’élément principal de la défense de la place. Il est construit de 1096 à 1106, et reconstruit presque complètement de 1161 à 1184. Philippe-Auguste complète ses défenses.</p>
@@ -178,7 +176,7 @@
           <p>On admet dans la garnison des éléments français dans la limite d’un huitième. Le nombre des hommes d’armes augmente jusque vers 1436, puis va diminuant jusqu’en 1449. Des revues de la garnison sont passées régulièrement. Il y a, en outre, un contrôleur de la garnison.</p>
           <p>V. Les habitants doivent, de leur côté, participer à la défense en faisant le guet au château.</p>
         </div>
-        <div>
+        <div xml:id="r539551">
           <pb source="https://nakala.fr/10.34847/nkl.bcbegmdp#ee82a7ec50bec129cd095320f8448794810b4477" n="69" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcbegmdp/ee82a7ec50bec129cd095320f8448794810b4477/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>La ville et ses habitants.</head>

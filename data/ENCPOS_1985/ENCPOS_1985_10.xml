@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,15 +57,15 @@
         <surname>Le Masne de Chermont</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1121001">
         <head rend="uc">Introduction</head>
         <p>Archevêque de Pise de 1254 à 1277, Frédéric Visconti est spirituellement un fils de Latran IV (1215) : conscient de la charge qui lui incombe, il remplit avec exactitude ses devoirs pastoraux, en particulier dans l’exercice de son ministère de prédicateur. La bibliothèque Laurentienne de Florence conserve un manuscrit rassemblant cent quatorze de ses sermons qui témoignent de la pratique de la prédication d’un prélat du <num>xiii<hi rend="sup">e</hi></num> siècle. Ces homélies, prononcées par un clerc instruit, mais qui n’a rien d’un théologien, s’adressent à des auditoires divers, composés de religieux ou de laïcs, et ont été dites pour beaucoup en italien (elles sont cependant toutes transcrites en latin).</p>
         <p>L’étude de ce recueil s’inscrit dans l’effort actuel d’édition destiné à étayer les recherches sur la prédication médiévale.</p>
       </div>
-      <div>
+      <div xml:id="r1121020">
         <head rend="uc">Première partie
          <lb/>Étude</head>
-        <div>
+        <div xml:id="r1121028">
           <pb source="https://nakala.fr/10.34847/nkl.a36f5lif#e11816b1fd129e6327249123fc990bfdc334d62d" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.a36f5lif/e11816b1fd129e6327249123fc990bfdc334d62d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>Frédéric Visconti : un évêque du <num>xiii<hi rend="sup">e</hi></num> siècle</head>
@@ -78,7 +76,7 @@
           <p><hi rend="i">La structure de son recueil.</hi> – Le manuscrit de Florence contient des sermons destinés à un grand nombre d’occasions liturgiques (synodes, messes pour des défunts, fêtes mobiles, fêtes fixes).</p>
           <p>La présente étude s’est limitée au sanctoral. Les saints qui y apparaissent sont représentatifs du paysage hagiographique du <num>xiii<hi rend="sup">e</hi></num> siècle. Plusieurs sermons sont consacrés à des saints contemporains : quatre à saint François d’Assise, deux à saint Dominique, un à saint Pierre de Vérone (mort en 1252 et canonisé en 1253).</p>
         </div>
-        <div>
+        <div xml:id="r1121087">
           <head rend="uc">Chapitre II
            <lb/>La prédication de Frédéric Visconti</head>
           <p><hi rend="i">Thèmes et prothèmes.</hi> – Les thèmes et les prothèmes sont, à une exception près, tirés de l’Écriture mais ne sont pas systématiquement extraits de la liturgie du jour. Le développement en est structuré, s’articulant autour de deux ou trois grands points. A plusieurs reprises, Frédéric Visconti choisit de commenter un épisode de la vie d’un saint ou d’un personnage de la Bible, puis de faire ensuite exposition morale s’appuyant sur les vertus dégagées dans la première partie.</p>
@@ -86,7 +84,7 @@
           <p><hi rend="i">La prédication mariale.</hi> – Six sermons sont consacrés à la Vierge. Le seul développement un tant soit peu théologique qui apparaisse ici concerne sa conception immaculée, sujet fort débattu à l’époque. Marie constitue un exemple qui doit inspirer la vie spirituelle des fidèles. Son rôle d’intercession est très vivement souligné.</p>
           <p><hi rend="i">La prédication morale.</hi> – La prédication morale de Frédéric Visconti se fonde sur une opposition simple, celles des vertus et des vices, essentiellement l’orgueil, la luxure et l’avarice. Elle fournit également des indications concrètes sur certaines pratiques de l’époque ; les plus intéressantes d’entre elles ont trait au prêt à intérêt tel qu’il est pratiqué dans la république marchande de Pise, aux rapports commerciaux existant entre Pisans et Sarrasins, et à la limitation du nombre des enfants. L’évêque insiste sur le rôle d’intercession tenu par les prières des religieux pour le salut des fidèles. Il recommande donc à ses ouailles d’apporter leur aide matérielle aux communautés, notamment aux Mendiants, tant pour leurs besoins quotidiens (en particulier pour les livres) que pour la construction d’églises.</p>
         </div>
-        <div>
+        <div xml:id="r1121122">
           <head rend="uc">Chapitre III
            <lb/>Les matériaux de la prédication</head>
           <p><hi rend="i">Le récit.</hi> – Le récit tient une place très importante dans les sermons du sanctoral. Pour les passages hagiographiques, l’origine la plus souvent mentionnée est la <hi rend="i">Légende</hi> des saints (Catherine, Denis, Augustin, Lucie). Mais, dans l’état actuel des publications, il est difficile de trouver la source permettant la comparaison ; à titre de jalon, on peut faire des rapprochements avec la <hi rend="i">Legenda aurea</hi> de Jacques de Voragine dont la rédaction est légèrement postérieure. Les récits d’origine scripturaire semblent être le fruit d’un discours assez libre à partir du texte de la Bible. Peut-être s’agit-il là de la transcription en latin d’une traduction faite oralement en italien et destinée à rendre des passages importants de l’Écriture intelligibles à un public d’<hi rend="i">illiterati</hi> qui ne peut avoir accès aux péricopes bibliques, lues en latin, de la liturgie. L’emploi du récit doit sa faveur au fait qu’il permet au fidèle de mémoriser sous une forme facile des exemples susceptibles de l’inspirer dans sa progression spirituelle.</p>
@@ -97,20 +95,20 @@
           <p>Frédéric Visconti est un représentant de la génération antérieure à l’emploi systématique des instruments de travail (recueil de <hi rend="i">distinctiones, </hi>d’<hi rend="i">exempla...</hi>) qui caractérise les sermons des <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1121246">
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
         <p>L’édition est établie d’après le manuscrit Plut. XXXIII, sin. 1 de la Biblioteca Medicea Laurenziana de Florence.</p>
         <p>Ce manuscrit du <num>xiii<hi rend="sup">e</hi></num> siècle comprend cent quarante-quatre folios et a été dépouillé dans le répertoire de J.B. Schneyer (<hi rend="i">Repertorium der lateinischen Sermones des Mittelalters fiir die Zeit von 1150-1350,</hi> t. 2, 1970). Il se caractérise par le très grand soin apporté à la copie, à l’indication des références et surtout à tout ce qui pouvait faciliter son utilisation (renvois, manchettes, travail préparatoire à la confection d’un index des citations patristiques). Il a été collationné sur l’original et porte des additions et corrections de différents types.</p>
         <p>J’ai choisi d’en faire une édition partielle ne comprenant que les quarante sermons composant le sanctoral, dispersés en différents endroits du recueil. Le manuscrit a été respecté le plus possible, les additions postérieures sont reproduites en note.</p>
       </div>
-      <div>
+      <div xml:id="r1121274">
         <pb source="https://nakala.fr/10.34847/nkl.a36f5lif#620b2de4c8becf754745e7591ce6fcb2823912ad" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.a36f5lif/620b2de4c8becf754745e7591ce6fcb2823912ad/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Ce recueil présente un aspect de la prédication effective adressée dans les années 1250-1270 par un évêque séculier à des religieux non mendiants et à des laïcs. On y trouve des expositions morales illustrées par des emprunts à la Bible et aux récits hagiographiques.</p>
         <p>Pour remplir son devoir de prédicateur, Frédéric Visconti s’est efforcé de présenter un enseignement dogmatique volontairement simple, sous une forme claire, afin de faire du sermon un instrument adapté à son auditoire et efficace pour l’élévation spirituelle des fidèles.</p>
       </div>
-      <div>
+      <div xml:id="r1121292">
         <head rend="uc">Annexes</head>
         <p>Liste des citations bibliques. – Liste des citations non-bibliques.</p>
         <pb source="https://nakala.fr/10.34847/nkl.a36f5lif#189cfb39e7d7bb91776d2d0c13f37a6c9f3771ed" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.a36f5lif/189cfb39e7d7bb91776d2d0c13f37a6c9f3771ed/full/full/0/default.jpg"/>

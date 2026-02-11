@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1906_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1906_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -57,7 +55,7 @@
         <surname>Dugueyt</surname>
         <roleName>Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r301370">
         <head rend="uc">Introduction – Bibliographie</head>
         <p>I. 1244 ? 1265. – Lieu et date de sa naissance : Jacques de Molay est né vraisemblablement près de Cintrey (Haute-Saône), vers 1241. Il est reçu Templier à Beaune en 1265. – Cérémonial de sa réception.</p>
         <p>II. 1265-1293. – Jacques de Molay dut arriver en Terre Sainte vers 1270. Nous ignorons à peu près tout de son existence au cours des vingt-huit années qui suivent son entrée au Temple. Aperçu sur l’Ordre du Temple pendant cette période. Après la prise de Saint-Jean-d’Acre (1291), les Templiers se réfugient en Chypre.</p>

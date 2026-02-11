@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1992_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1992_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,10 +56,10 @@
         <forename>Anne-Caroline</forename>
         <surname>Beaugendre</surname>
       </byline>
-      <div>
+      <div xml:id="r1210053">
         <head rend="uc">Première partie
          <lb/>Étude</head>
-        <div>
+        <div xml:id="r1210061">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits et leur histoire</head>
           <p>Du texte du <hi rend="i">Livre des merveilles du monde,</hi> compilé dans le premier tiers du XV’ siècle par un auteur anonyme, il reste quatre manuscrits, tous superbement illustrés.</p>
@@ -70,12 +68,12 @@
           <p><hi rend="i">New York, Pierpont Morgan Library, ms 461.</hi> – C’est le seul manuscrit à comporter la préface de l’auteur, dans laquelle il expose ses intentions, texte très utile pour tenter de cerner sa personnalité (cf. chapitre III). Il est orné de miniatures dues, elles aussi, au « Maître de Jouvenel des Ursins » (cf. chapitre VI), et fut réalisé aux environs de 1460-1470. Il fut peut-être exécuté pour un personnage de la cour de René d’Anjou, comme le suggèrent deux miniatures comportant les armes d’Anjou-Naples.</p>
           <p><hi rend="i">Paris, Bibliothèque nationale, ms fr. 22971.</hi> – Ce quatrième et dernier manuscrit est sans conteste l’exemplaire le plus luxueux que nous possédions du <hi rend="i">Livre des merveilles du monde.</hi> Il fut sans doute exécuté vers 1480 pour un membre de la famille de Charles d’Angoulême, père de François I<hi rend="sup">er</hi>, peut-être sa femme Louise de Savoie ; en effet, ses miniatures sont attribuées à l’artiste connu sous le nom de « Maître de Charles d’Angoulême » (cf. chapitre VI). Il a fait partie de la collection de Roger de Gaignières au XVII’ siècle, collection acquise par la Bibliothèque royale en 1715.</p>
         </div>
-        <div>
+        <div xml:id="r1210120">
           <head rend="uc">Chapitre II
            <lb/>Les éditions du XVI’ siècle</head>
           <p>Malgré son caractère « merveilleux » très prononcé, qui le rapproche d’ouvrages plus anciens et peut paraître étonnant à la veille de la Renaissance, alors que de nombreux récits de voyages ont déjà contribué à une meilleure connaissance du monde, le <hi rend="i">Livre des merveilles du monde,</hi> c’est certain, a eu un public au moins jusqu’aux environs de 1530. En témoigne la dizaine d’éditions que nous possédons encore, qui s’échelonnent entre 1504 et 1534. De grands imprimeurs, tels que Jean Trepperel ou Philippe Le Noir, l’ont inscrit à leur catalogue. Neuf éditions ont pu être identifiées, et sans doute une recherche plus approfondie permettrait-elle d’en trouver d’autres. Sur ces neuf éditions, sept ont été réalisées à Paris et deux à Lyon. Par la suite, il semble que les <hi rend="i">Merveilles du monde</hi> soient entièrement tombées dans l’oubli, jusqu’à une période récente ; encore les chercheurs semblent-ils ne s’être intéressés qu’aux miniatures qui ornent les manuscrits.</p>
         </div>
-        <div>
+        <div xml:id="r1210140">
           <head rend="uc">Chapitre III
            <lb/>L’auteur. Les circonstances de la rédaction des <hi rend="i">merveilles du monde</hi></head>
           <p><hi rend="i">L’auteur.</hi> – Le nom de l’auteur ne nous est pas parvenu. Cependant, il est possible de faire des hypothèses, sinon sur son identité, du moins sur son origine, ceci grâce à plusieurs indices de différentes natures.</p>
@@ -85,7 +83,7 @@
           <p>Il est impossible de déterminer avec précision le lieu de rédaction, mais on peut dire, grâce à l’illustration et aux recherches faites sur les différents artistes auxquels on doit les miniatures qui ornent les exemplaires du <hi rend="i">Livre des merveilles du monde,</hi> que, selon toute vraisemblance, cette compilation a pour origine une région située dans les pays de la Loire, peut-être une ville telle que Nantes, Angers, Tours ou Bourges.</p>
           <p>Les commanditaires étaient certainement des personnages fortunés et cultivés, riches marchands ou grands seigneurs.</p>
         </div>
-        <div>
+        <div xml:id="r1210202">
           <head rend="uc">Chapitre IV
            <lb/>Les sources</head>
           <p>Du fait de la date tardive de rédaction du <hi rend="i">Livre des merveilles du monde,</hi> il est fort malaisé de déterminer avec précision la tradition des sources utilisées.</p>
@@ -101,14 +99,14 @@
           <p><hi rend="i">L’accès de l’auteur aux sources.</hi> – Le nombre élevé de références différentes amène à se demander si toutes ces sources ont été directement utilisées par le compilateur. Il est possible qu’il se soit servi d’un ouvrage déjà constitué d’extraits d’auteurs anciens, tel que le <hi rend="i">Spéculum majus</hi> de Vincent de Beauvais, mais ce n’est pas certain.</p>
           <p>Le <hi rend="i">Livre des merveilles du monde</hi> a sans doute été compilé à partir de textes en latin. Il se compose, d’une part, d’extraits d’auteurs classiques et du haut Moyen Âge (peut-être tirés d’une autre compilation) ; et d’autre part, d’extraits d’auteurs médiévaux et d’<hi rend="i">exempla</hi> auxquels viennent se mêler des récits tirés de la Bible, des légendes et le fruit des réflexions du compilateur, tout cela ordonné selon un plan double qui fait l’originalité de ce recueil.</p>
         </div>
-        <div>
+        <div xml:id="r1210356">
           <pb source="https://nakala.fr/10.34847/nkl.add1s875#7690075df7a9eb96ca512d7b1dae1a06dae16659" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.add1s875/7690075df7a9eb96ca512d7b1dae1a06dae16659/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Le texte</head>
           <p>L’ouvrage se compose de deux parties distinctes. La première comporte cinquante-six chapitres consacrés à un pays ou à une province, classés alphabétiquement (de <hi rend="i">Affrique</hi> à <hi rend="i">Ululande</hi>) ; c’est la seule qui soit illustrée. La deuxième partie est thématique ; elle comporte dix-sept chapitres, consacrés à l’homme, aux animaux, aux éléments.</p>
           <p>Le style n’est pas exempt parfois d’une certaine lourdeur, mais le texte reste distrayant et d’une lecture agréable, et est agrémenté de superbes illustrations.</p>
         </div>
-        <div>
+        <div xml:id="r1210384">
           <head rend="uc">Chapitre VI
            <lb/>L’illustration</head>
           <p>L’illustration joue un rôle important pour la datation des manuscrits du <hi rend="i">Livre des merveilles du monde.</hi> Trois d’entre eux ont bénéficié du talent de deux des enlumineurs les plus renommés du XV’ siècle.</p>
@@ -121,7 +119,7 @@
           <p>Les deux exemplaires du <hi rend="i">Livre des merveilles du monde</hi> de la collecion Charnacé et Pierpont Morgan 461 sont, dans le catalogue établi par E. König, attribués au « Maître du Boccace de Genève », qui a peut-être travaillé avec le « Maître de Jouvenel des Ursins » pour le manuscrit Charnacé.</p>
           <p><hi rend="i">Le « Maître de Charles d’Angoulême ».</hi> – Cet artiste fut actif vers 1480-1500. Son style s’apparente à l’art de l’orfèvrerie et de la gravure sur cuivre et sur émail. Paul Durrieu a proposé de l’identifier à Robinet Testard, attaché à Louise de Savoie. Mais sa personnalité demeure mystérieuse.</p>
         </div>
-        <div>
+        <div xml:id="r1210459">
           <head rend="uc">Chapitre VII
            <lb/>Règles d’édition</head>
           <p>Le manuscrit choisi pour base de l’édition est le ms fr. 1377-1379, excepté pour la préface, présente seulement dans le manuscrit Pierpont Morgan 461 ; ce manuscrit est le plus ancien (1427), et son texte est le plus complet.</p>
@@ -135,17 +133,17 @@
         <head rend="uc">Deuxième partie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r1210495">
         <head rend="uc">Édition</head>
         <p>Édition complète d’après le ms fr. 1377-1379, corrigé par le ms fr. 22971.</p>
       </div>
-      <div>
+      <div xml:id="r1210505">
         <head rend="uc">
           <hi rend="i">Index nominum</hi>
         </head>
         <p><hi rend="i">L’Index nominum</hi> comporte tous les noms de personne et de lieu se trouvant dans le texte du <hi rend="i">Livre des merveilles du monde,</hi> ainsi que certains noms apparaissant dans les notes et l’introduction.</p>
       </div>
-      <div>
+      <div xml:id="r1210526">
         <head rend="uc">Annexes</head>
         <p>Résultat de quelques sondages effectués dans le manuscrit Pierpont Morgan 461 pour l’étude des variantes textuelles. – Description de chaque miniature pour les manuscrits fr. 1377 à 1379, Pierpont Morgan 461 et fr. 22971.</p>
         <pb source="https://nakala.fr/10.34847/nkl.add1s875#7e376b4c2aff069be02b240305fd734c5340d29b" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.add1s875/7e376b4c2aff069be02b240305fd734c5340d29b/full/full/0/default.jpg"/>

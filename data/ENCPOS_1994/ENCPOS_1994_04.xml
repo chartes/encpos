@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -57,11 +55,11 @@
         <surname>Bubenicek</surname>
         <roleName>maître es lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1239602">
         <head rend="uc">Introduction</head>
         <p>Dame de haut lignage, Yolande de Flandre a longtemps souffert d’une historiographie embryonnaire et contradictoire, car s’ils ont reconnu généralement son énergique et inlassable activité, les quelques érudits qui, au siècle dernier, se sont penchés sur le personnage s’attachèrent avant tout à en donner l’image réductrice d’une femme cruelle et avide de pouvoir. L’abondance des sources permet toutefois de corriger un jugement aussi caricatural, qui ne résiste d’ailleurs pas à une analyse plus poussée. En s’inscrivant dans les nouvelles perspectives de recherche en matière d’histoire politique, il devient alors possible de traiter du pouvoir féminin à travers l’exemple que constitue le cas de Yolande, princesse au règne particulièrement long. Le problème de la femme qui gouverne conduit ainsi à examiner, dans un premier temps, les conditions d’exercice du pouvoir d’une veuve régente indépendante, puis remariée ; à analyser ensuite la lutte qu elle eut à mener dans l’obtention, la gestion et la transmission de ses biens ; à soulever, enfin, la question des équipes qui l’assistèrent de leurs compétences, sans lesquelles elle n’aurait sans doute pu s’imposer.</p>
       </div>
-      <div>
+      <div xml:id="r1239612">
         <pb source="https://nakala.fr/10.34847/nkl.61d92oeb#acaf163bddadae3c39b589c14c2df6a562b001fb" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.61d92oeb/acaf163bddadae3c39b589c14c2df6a562b001fb/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>L’exceptionnelle richesse des sources manuscrites qui touchent au personnage en fait une privilégiée de l’histoire. Pour traiter de la princesse en politique que fut Yolande, il a été nécessaire de dépouiller les fonds d’une dizaine de dépôts d’archives, tant en France qu’en Belgique, que l’on peut ramener géographiquement à trois types : les fonds lorrains, les fonds parisiens et les fonds flamands. Si tous fournissent actes, comptes et procès en abondance, les Archives départementales du Nord en particulier ont permis de rassembler un riche matériel sigillographique grâce auquel l’image a parfois relayé le texte.</p>
@@ -69,11 +67,11 @@
         <p>Certains fonds parisiens (Bibliothèque nationale, collection de Lorraine ; Musée Condé, Institut de France) sont également utiles dans cette perspective. Mais l’ensemble fourni par le dépouillement de diverses collections de la Bibliothèque nationale (Lorraine, Moreau, Dupuy, fonds français, Clairambault, Mélanges Colbert), comme des séries J et X des Archives nationales (J, JJ, X<hi rend="sup">1A</hi> et X<hi rend="sup">1C</hi>) permet surtout de retracer les vicissitudes de l’existence de Yolande, aux prises, pour la défense de ses droits, avec la société politique de la seconde moitié du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         <p>Les fonds flamands constitués par l’immense série B des Archives départementales du Nord, et par diverses séries du fonds de la Chambre des Comptes des Archives générales du Royaume à Bruxelles, permettent enfin de compléter les précédents et, surtout, de reconstituer les équipes de pouvoir de Yolande de Flandre.</p>
       </div>
-      <div>
+      <div xml:id="r1239650">
         <head rend="uc">Chapitre préliminaire</head>
         <p>Yolande n’entre véritablement dans l’histoire des femmes de pouvoir qu’en 1344, lorsque jeune veuve de dix-huit ans, elle débute une régence pour les fils qu’elle eut du feu comte de Bar. Sa haute naissance et sa situation d’héritière de son père, Robert de Cassel, apanagé en Flandre maritime, avaient déjà toutefois fait d’elle l’objet d’enjeux importants : en attendant de se révéler une femme d’action redoutable, Yolande, parti convoité par le comte de Flandre pour le jeune Louis de Male, puis par le roi pour Henri IV, comte de Bar, avait ainsi servi le jeu politique.</p>
       </div>
-      <div>
+      <div xml:id="r1239660">
         <pb source="https://nakala.fr/10.34847/nkl.61d92oeb#3adcdd4fe2f9ffc5afe540ec2b09bee131ca4fb9" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.61d92oeb/3adcdd4fe2f9ffc5afe540ec2b09bee131ca4fb9/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>De l’exercice du pouvoir
@@ -82,7 +80,7 @@
         <p>La régence s’inscrit toutefois dans un contexte politique et juridique complexe, le pouvoir passant, pour la comtesse, par l’exercice d’un bail que lui contestèrent successivement les différents membres de la parentèle barroise des jeunes comtes : Henri de Bar, sire de Pierrefort, et Thibaut de Bar, sire de Pierrepont, leurs cousins ; puis l’« anglaise » Jeanne de Warren, leur grand-tante. Sachant à bon escient utiliser les règles juridiques, comme le montre magistralement l’argumentation qu’elle développa en Parlement contre Jeanne, Yolande sut également, pour conserver le pouvoir, jouer des discordes internes du lignage de Bar ainsi que des conditions nées de la double mouvance du Barrois, en sollicitant alternativement l’aide du roi et celle de l’empereur.</p>
         <p>Pendant la régence devait toutefois se produire un événement modifiant profondément les conditions d’exercice du pouvoir de Yolande, car celle-ci se décida, en 1353, à se remarier, en épousant Philippe de Longueville, frère du roi de Navarre. De veuve indépendante, la comtesse retombait donc officiellement sous l’autorité d’un second baron, et son gouvernement devait s’exercer théoriquement désormais dans le cadre conjugal. Après avoir éclairci les motifs de ce remariage, il paraît donc intéressant de déterminer quelle fut l’incidence réelle de cette union sur le pouvoir de Yolande régente, puis sur son autorité personnelle de femme richement possessionnée, Philippe pouvant se prévaloir du titre de « bail » de son épouse. Dans le premier cas, l’exercice conjoint du gouvernement ne dura qu’un temps ; dans le second, les conditions particulières nées de la guerre, de l’éloignement des deux époux, auxquelles il faut ajouter les avantages d’une haute condition nobiliaire, permettent de mettre en évidence, à travers un « divorce » latent, l’indépendance effective de la comtesse de Bar, réalité que soulignent efficacement titulature et sigillographie.</p>
       </div>
-      <div>
+      <div xml:id="r1239685">
         <pb source="https://nakala.fr/10.34847/nkl.61d92oeb#9b9bcfd91afddfc76ee60ce6acef1ba7e0fe8438" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.61d92oeb/9b9bcfd91afddfc76ee60ce6acef1ba7e0fe8438/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Au cœur du jeu politique :
@@ -93,7 +91,7 @@
         <p>Mais la « lèse-majesté » dont s’était rendue coupable Yolande de Flandre fut d’abord, pour le roi, le prétexte idéal d’une intervention sur les terres du douaire barrois de la comtesse, par la saisie des forteresses de Clermont-en-Argonne, Vienne-le-Château et Cumières. Occasion d’affirmer la présence française en terre d’Empire, l’occupation du douaire barrois de Yolande permit également, et surtout, d’y limiter les capacités d’action d’une princesse qui en avait fait la base de son pouvoir.</p>
         <p>Richement dotée, Yolande avait d’autre part les moyens de grever son patrimoine aux dépens de son fils et héritier, Robert, duc de Bar ; quand la brouille existait entre la mère et le fils, la solution consistait, pour le second, à faire appel à son beau-frère Charles V, d’autant plus intéressé à voir hériter sans dommage l’époux de sa sœur que la maîtrise de l’apanage de Cassel présentait un intérêt stratégique exceptionnel. Contrainte de céder, en 1373, sous la pression efficace que représentait la prison « fermée », Yolande s’engagea donc à disposer de ses biens en l’unique faveur du duc de Bar, se préparant ainsi à une mise à la retraite que souligne l’iconographie de ses sceaux.</p>
       </div>
-      <div>
+      <div xml:id="r1239716">
         <pb source="https://nakala.fr/10.34847/nkl.61d92oeb#c25b64a458380d0e3d98a0fa6e2e14e3bb1d7c5a" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.61d92oeb/c25b64a458380d0e3d98a0fa6e2e14e3bb1d7c5a/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Le « conseil Madame ».
@@ -104,16 +102,16 @@
         <p>L’étude du conseil de Yolande, veuve indépendante après le décès de Philippe de Navarre et l’émancipation définitive du duc de Bar, permet, quant à elle, de dessiner une évolution. Socialement et géographiquement, le recrutement change, les Lorrains cédant la place à une majorité de Flamands, parmi lesquels les compétences « techniques », auparavant relativement rares, abondent : un grand nombre de légistes, des gens de finance et des secrétaires assistent désormais Yolande.</p>
         <p>Posant la question du « gouvernement central » de la comtesse, l’étude de ses équipes de pouvoir permet enfin de dégager un profil de « conseiller ministre » ; c’est ainsi qu’il convient d’examiner celui qui fut, de la régence barroise jusqu’en 1385, date de sa mort, le véritable « ministre d’État » de Yolande, le légiste Thibaut de Bourmont. Licencié en droit, Thibaut gravit les marches du pouvoir jusqu’à l’incarcération de la comtesse au Temple, cet événement permettant d’évaluer pleinement son rôle de ministre actif et dévoué. Efficacement relayée par une hiérarchie agissante, l’autorité de Thibaut, chef de gouvernement, se mesure aux rapports entretenus avec les « fonctionnaires » de Yolande, receveurs et financiers en particulier. Intermédiaire obligé auprès de la comtesse, Thibaut fut encore le chef de sa justice. L’étendue de ses relations parisiennes révèle enfin l’ascension sociale de ce clerc d’origine modeste qui, doté par Yolande, put accéder à la noblesse.</p>
       </div>
-      <div>
+      <div xml:id="r1239746">
         <pb source="https://nakala.fr/10.34847/nkl.61d92oeb#eb626e8e240497acdf817c8d52c11212127ef2ac" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.61d92oeb/eb626e8e240497acdf817c8d52c11212127ef2ac/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>La carrière politique de Yolande de Flandre pose la question de savoir si elle constitue une exception ou le cas général. L’activité d’autres femmes de pouvoir (citons, entre autres, Ermessende de Barcelone, Blanche de Navarre, comtesse de Champagne, Marguerite de Provence, Jeanne de Montfort ou encore Mahaut d’Artois) permet alors de conclure que Yolande, forte du conseil de ses équipes, acharnée à défendre son statut de veuve et de régente, à lutter enfin pour conserver ou obtenir son dû, loin de constituer un cas rare, mérite de prendre place parmi celles dont on a pu dire qu’entre leurs mains « la quenouille eut raison de l’épée », et au sujet desquelles Froissart a pu affirmer qu’elles avaient « courage d’homme et cœur de lion » ; la comtesse de Bar pouvant apparaître, de façon originale, comme la représentante d’un monde finissant face à un État réducteur des dernières forces d’autonomie.</p>
       </div>
-      <div>
+      <div xml:id="r1239761">
         <head rend="uc">Pièces justificatives</head>
         <p>Ensemble de vingt et une pièces d’archives (1345-1388) : huit lettres ; une sentence interlocutoire du Parlement ; deux mémoires ; dix actes.</p>
       </div>
-      <div>
+      <div xml:id="r1239771">
         <head rend="uc">Annexes</head>
         <p>Huit généalogies. – Six tableaux (conseil de Yolande de Flandre, officiers...). – Un chapitre annexe sur les résidences parisiennes de Yolande de Flandre. – Quatre cartes. – Neuf planches photographiques relatives aux sceaux de la comtesse de Bar et dame de Cassel.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,19 +55,19 @@
         <forename>Louise</forename>
         <surname>Audelin</surname>
       </byline>
-      <div>
+      <div xml:id="r1142215">
         <head rend="uc">Introduction</head>
         <p>Plusieurs dynasties ont illustré l’histoire des sciences ; pour la botanique, ce fut le cas de la famille Jussieu. Trois hommes se succédèrent sous l’Ancien Régime, avec une régularité remarquable, au Jardin du roi et à l’Académie des sciences de 1710 à 1789 : Antoine (1686-1758), démonstrateur de botanique au Jardin du roi de 1710 à sa mort ; Bernard (1699-1777), son frère, sous-démonstrateur de 1722 à 1777, et leur neveu, Antoine-Laurent (1748-1836), sous-démonstrateur lui aussi et auteur du <hi rend="i">Genera plantarum,</hi> paru en 1789, couronnement des recherches de Bernard comme des siennes dans le domaine de la classification naturelle des végétaux. Personnalités scientifiques éminentes, mais également hommes d’affaires, Antoine, puis son neveu, surent édifier, pour l’un, et gérer, pour l’autre, une fortune importante, avec une rigueur et un sens de l’économie caractéristiques de leurs origines lyonnaises, qui ne se démentirent jamais.</p>
       </div>
-      <div>
+      <div xml:id="r1142229">
         <head rend="uc">Sources</head>
         <p>La Bibliothèque centrale du Muséum national d’histoire naturelle conserve la plupart des papiers scientifiques et privés de la famille Jussieu. De 1857 à 1985, les descendants des Jussieu donnèrent ou vendirent à l’établissement d’abord les manuscrits scientifiques et, en dernier lieu, les archives privées intéressant l’histoire sociale. D’autres dons avaient été faits par la famille en 1935 au laboratoire de Phanérogamie du Muséum et à l’Académie des sciences et constituent un complément important à notre documentation. Certains papiers appartenant au fonds Jussieu se trouvent parmi les archives déposées par la Bibliothèque <pb source="https://nakala.fr/10.34847/nkl.e9fa3200#2679522aacc7b4a29889ea1464aee78e6e8ce724" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.e9fa3200/2679522aacc7b4a29889ea1464aee78e6e8ce724/full/full/0/default.jpg"/> du Muséum aux Archives nationales (sous-série AJ<hi rend="sup">1 5</hi>). Le Minutier central des notaires parisiens, la sous-série 0<hi rend="sup">1</hi> et la série Y, ainsi que les archives privées aux Archives nationales (fonds Malesherbes, 399 AP), ont également été exploités. La Bibliothèque nationale (département des Manuscrits), celle de l’Académie de médecine ainsi que celle de la Faculté de médecine et enfin les archives du laboratoire de Cryptogamie du Muséum complètent les fonds parisiens. Les Archives départementales du Rhône, la Bibliothèque municipale de Lyon, les Archives municipales de Lyon et celles de Montrottier (Rhône) ont fourni la documentation relative aux origines de la famille. Des compléments d’information ont été apportés par la Bibliothèque de la Faculté de médecine de Montpellier, la Bibliothèque municipale de Grenoble et, à Londres, le British Museum (Natural History) et la British Library, de même que les bibliothèques de la Royal Society et de la Linnean Society. Enfin, des fonds privés m’ont été aimablement communiqués par leurs propriétaires, descendants des Jussieu, M<hi rend="sup">me</hi> Lewandowska et M. Dufresne.</p>
       </div>
-      <div>
+      <div xml:id="r1142256">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Une ascension sociale exemplaire ?</head>
-        <div>
+        <div xml:id="r1142268">
           <head rend="uc">Chapitre premier
            <lb/>les origines</head>
           <p><hi rend="i">Du notariat à la pharmacie.</hi> – Les origines de la famille Jussieu se rattachent à une région, le Lyonnais (Montrottier est à l’ouest de Lyon), et à un milieu socio-professionnel, celui des professions libérales. A l’origine les Jussieu étaient tous notaires, avant que le père des botanistes, Laurent, ne s’installe à Lyon comme apothicaire à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle. Les Jussieu appartenaient donc à une bourgeoisie aisée et intellectuelle.</p>
@@ -79,7 +77,7 @@
           <p><hi rend="i">L’établissement des enfants.</hi> – Dix des enfants survécurent et empruntèrent trois voies différentes : les sciences (l’aîné, Christophe, reprit l’officine paternelle ; Antoine, Bernard et le benjamin Joseph furent botanistes) ; l’Église (deux filles carmélites, un frère prêtre à Paris et un autre grand vicaire à Beauvais) ; et le commerce (un marchand mercier et un marchand drapier, tous deux à Paris).</p>
           <p>La vocation de Bernard pour les sciences fut des plus incertaines : c’est son père qui le poussa dans cette voie, constatant qu’elle avait fort bien réussi à Antoine.</p>
         </div>
-        <div>
+        <div xml:id="r1142312">
           <head rend="uc">Chapitre II
            <lb/>La fortune des Jussieu et sa gestion</head>
           <p><hi rend="i">Le patrimoine des Lyonnais (1711-1758</hi>). – L’aîné des fils de Laurent de Jussieu, Christophe, épousa successivement deux filles de marchands lyonnais aisés. Il acheta un fief noble en 1715, en parfait notable lyonnais désireux de « jouer » au seigneur.</p>
@@ -95,7 +93,7 @@
           <p><hi rend="i">La fortune d’Antoine-Laurent en 1789.</hi> – En 1789, la fortune d’Antoine-Laurent dépasse les 300 000 livres. Les chapitres dominants restent les charges officielles et surtout les rentes, mais un élément spéculatif a fait son apparition : des actions de la Compagnie des Indes et de la Caisse d’Escompte, encore que leur part reste faible.</p>
           <p>Antoine-Laurent a donc poursuivi la politique de son oncle Antoine, préférant les rentes, plus sûres et faciles à percevoir. Cette prudence trouve sa source dans les origines lyonnaises.</p>
         </div>
-        <div>
+        <div xml:id="r1142381">
           <head rend="uc">Chapitre III
            <lb/>Aristocrates bourgeois ou bourgeois gentilshommes ?
            <lb/>Le statut social des Jussieu</head>
@@ -110,18 +108,18 @@
           <p>Les Jussieu sont, dans le fond, des bourgeois lyonnais dont l’anoblissement n’a été qu’un moyen de s’intégrer à la haute société parisienne qu’ils côtoyaient professionnellement. Ce sont avant tout des savants, pour qui la fortune fut un moyen, non négligeable certes, mais pas une fin.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1142447">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>La carrière scientifique</head>
-        <div>
+        <div xml:id="r1142459">
           <head rend="uc">Chapitre premier
            <lb/>les débuts d’Antoine de Jussieu</head>
           <p><hi rend="i">La formation scientifique.</hi> – C’est à un médecin lyonnais ami de Tournefort, Goiffon, qu’Antoine de Jussieu doit sa première formation de botaniste et ses études de médecine à Montpellier.</p>
           <p><hi rend="i">La chance.</hi> – Bénéficiant de la mort accidentelle de Tournefort, Antoine fut recommandé au surintendant du Jardin du roi, Fagon, par Goiffon qui l’encouragea à herboriser puis à présenter sa récolte au surintendant qui était sensible aux efforts pour l’enrichissement des collections de son établissement. Le 10 août 1710, Antoine fut nommé démonstrateur.</p>
           <p>Entièrement dévoué à Fagon, il accepta de se faire recevoir docteur de la Faculté de Paris, comme l’avait fait Tournefort à la demande du surintendant, pour calmer la rivalité qui opposait les Facultés de Paris et de Montpellier.</p>
         </div>
-        <div>
+        <div xml:id="r1142483">
           <head rend="uc">Chapitre II
            <lb/>Un siècle d’enseignement de la botanique au jardin du roi</head>
           <p><hi rend="i">Une fidélité absolue à l’esprit de Fagon (1710-1729</hi>). – Les démonstrations <pb source="https://nakala.fr/10.34847/nkl.e9fa3200#815d4e7beb716e97adbba157c25d3d0153cf1ede" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.e9fa3200/815d4e7beb716e97adbba157c25d3d0153cf1ede/full/full/0/default.jpg"/>sur lesquelles reposait l’enseignement de la morphologie et des vertus médicinales des plantes se firent à l’époque d’Antoine de Jussieu de la même façon qu’à celle de Tournefort.</p>
@@ -136,7 +134,7 @@
           <p><hi rend="i">Une faille dans le monopole.</hi> – Antoine-Laurent aurait souhaité cumuler les deux postes de ses oncles, mais l’intendant, Buffon, ne lui accorda que celui de sous-démonstrateur, assez satisfait de donner une leçon à un jeune homme un peu trop ambitieux.</p>
           <p>Mais le cumul des charges n’était plus envisageable non plus, car les emplois du Jardin évoluaient vers une plus grande spécialisation ; ainsi la charge de sous-démonstrateur <pb source="https://nakala.fr/10.34847/nkl.e9fa3200#a88dc562ab6c8586726108b42d4ca53947e626f5" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.e9fa3200/a88dc562ab6c8586726108b42d4ca53947e626f5/full/full/0/default.jpg"/> se trouva-t-elle quelque peu amoindrie par celle de jardinier en chef qui lui enleva tout le côté matériel.</p>
         </div>
-        <div>
+        <div xml:id="r1142547">
           <head rend="uc">Chapitre III
            <lb/>Les Jussieu et la république des sciences</head>
           <p><hi rend="i">La diffusion des idées.</hi> – L’Académie des sciences était en quelque sorte le complément du Jardin du roi, puisque c’est là que les Jussieu présentèrent le résultat de leurs observations réalisées au Jardin qui leur servait de laboratoire.</p>
@@ -147,11 +145,11 @@
           <p><hi rend="i">Un « marché commun » des sciences naturelles.</hi> – L’affiliation aux académies européennes faisait des Jussieu des citoyens à part entière de la République des sciences. Ce réseau de relations leur permettait d’enrichir leurs collections personnelles en échantillons d’herbier, en livres et en objets d’histoire naturelle. La solidarité scientifique se manifestait également par le jeu des recommandations mutuelles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1142584">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>La méthode naturelle ou la « vraye science »</head>
-        <div>
+        <div xml:id="r1142596">
           <head rend="uc">Chapitre premier
            <lb/>la botanique au <num>xviii<hi rend="sup">e</hi></num> siècle ou la
            <lb/>recherche d’une classification naturelle
@@ -164,7 +162,7 @@
           <p>C’est à Antoine-Laurent que revint l’initiative de faire planter le Jardin du roi selon la classification inventée par son oncle et revue par lui en 1774, rendant ainsi la méthode naturelle réellement publique pour la première fois.</p>
           <p>Le débat Jussieu-Adanson vient de ce que Bernard n’a jamais rien publié, faute de certitude concernant un grand nombre de plantes encore inconnues.</p>
         </div>
-        <div>
+        <div xml:id="r1142655">
           <head rend="uc">Chapitre II
            <lb/>Antoine-Laurent de Jussieu
            <lb/>et le <hi rend="i">Genera plantarum</hi></head>
@@ -180,20 +178,20 @@
           <p>Antoine-Laurent de Jussieu resta l’homme d’un seul ouvrage, car tous ses projets postérieurs (dont un <hi rend="i">Species plantarum</hi>) avortèrent en raison de la situation politique troublée de la Révolution.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1142730">
         <head rend="uc">Conclusion</head>
         <p>Malgré une œuvre fondamentale dans le domaine de la taxonomie végétale, les Jussieu restèrent des gens discrets, éloignés de la botanique à la mode au <num>xviii<hi rend="sup">e</hi></num> siècle, sachant gérer leur carrière avec autant d’habileté que leur fortune personnelle. Car l’aspect familial et privé est aussi important pour les comprendre que l’aspect professionnel ; en effet, la réussite d’Antoine-Laurent est indissociable de celle de Bernard qui elle-même n’aurait pu exister sans Antoine.</p>
       </div>
-      <div>
+      <div xml:id="r1142746">
         <pb source="https://nakala.fr/10.34847/nkl.e9fa3200#d91c9b469947c59fdacf5d64f1e852a31302fb98" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.e9fa3200/d91c9b469947c59fdacf5d64f1e852a31302fb98/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Mémoire d’Antoine de Jussieu contre le règlement du 28 avril 1729. – Inventaire de la collection d’histoire naturelle d’Antoine de Jussieu en 1758. – Mémoire d’Antoine de Jussieu sur le Ginseng. – Mémoire d’Antoine-Laurent de Jussieu sur les genres de plantes nouveaux contenus dans l’herbier du Pérou de son oncle Joseph.</p>
       </div>
-      <div>
+      <div xml:id="r1142761">
         <head rend="uc">Annexe</head>
         <p>Tableau généalogique de la famille Jussieu.</p>
       </div>
-      <div>
+      <div xml:id="r1142771">
         <head rend="uc">Planches</head>
         <p>Portraits de Bernard et d’Antoine-Laurent de Jussieu. – Plan de Lyon au <num>xviii<hi rend="sup">e</hi></num> siècle. – Carte des environs de Lyon. – Cartes des différentes herborisations d’Antoine de Jussieu. – Photographies de planches de l’herbier Jussieu et de divers dessins réalisés pour illustrer certaines recherches. – Reproduction de deux pages du <hi rend="i">Genera plantarum.</hi> – Spécimens de l’écriture d’Antoine, Bernard et Antoine-Laurent de Jussieu.</p>
       </div>

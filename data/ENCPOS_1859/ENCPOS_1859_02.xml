@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1859_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1859_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -52,7 +50,7 @@
         <forename>Paul-Emmanuel</forename>
         <surname>Chéron</surname>
       </byline>
-      <div>
+      <div xml:id="r32970">
         <head rend="uc">(bibliothèque impériale, cartulaire n° 153.)</head>
         <p>Ayant pris pour sujet de thèse le cartulaire de l’abbaye de <hi rend="i">Pontigny,</hi> nous avons ouvert notre travail par la description des lieux cités dans ce recueil, nous arrêtant principalement aux pays qui environnaient les <hi rend="i">granges</hi> de l’abbaye susdite. Les principales de ces <hi rend="i">granges </hi>ou <hi rend="i">resserres</hi> étaient celles de <hi rend="i">Bœurs</hi> ou de <hi rend="i">Chailley-en-Othe,</hi> de <hi rend="i">Crécy,</hi> aux bords de <hi rend="i">l’Armançon,</hi> d’<hi rend="i">Aigremont et</hi> de <hi rend="i">Villiers,</hi> entre l’<hi rend="i">Yonne</hi> et le <hi rend="i">Serein,</hi> autour desquelles nous avons groupé les différents villages dont les produits se recueillaient dans les <hi rend="i">resserres</hi> ci-dessus énoncées.</p>
         <pb source="https://nakala.fr/10.34847/nkl.116bpcwo#6b0313e1566886b1d3802ebd2a73b4ff950b0d69" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.116bpcwo/6b0313e1566886b1d3802ebd2a73b4ff950b0d69/full/full/0/default.jpg"/>

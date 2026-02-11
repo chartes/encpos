@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,28 +56,28 @@
         <forename>René</forename>
         <surname>Bargeton</surname>
       </byline>
-      <div>
+      <div xml:id="r620025">
         <head rend="uc">Introduction</head>
         <p>L’étude et l’édition du texte du <hi rend="i">Livre de philosophie et de moralité</hi> présentent un intérêt au point de vue de l’histoire des idées, car l’ouvrage a connu un certain succès à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle et au début du siècle suivant. Elles permettent également d’établir les rapports qui existent entre divers traités de littérature morale de la même époque, car l’œuvre d’Alart de Cambrai, originale dans sa forme, s’apparente étroitement à son temps.</p>
       </div>
-      <div>
+      <div xml:id="r620045">
         <head rend="uc">Première partie
          <lb/>Étude</head>
-        <div>
+        <div xml:id="r620053">
           <head rend="uc">Chapitre premier
            <lb/>description et classement des manuscrits.
            <lb/>Établissement du texte.</head>
           <p>Neuf manuscrits nous ont conservé l’œuvre d’Alart de Cambrai. <pb source="https://nakala.fr/10.34847/nkl.42ba6cl9#c31d32705d670681c16b41954ff395c39c5b65eb" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.42ba6cl9/c31d32705d670681c16b41954ff395c39c5b65eb/full/full/0/default.jpg"/> Ce sont les suivants : <hi rend="i">A,</hi> Bibl. nat., fr. 17177, des environs de 1271. – <hi rend="i">B,</hi> copié sur <hi rend="i">A,</hi> mais incomplet, et écrit vers 1278, Bibl. nat., fr. 24431. – <hi rend="i">C,</hi> Bibl. nat., fr. 12471. – Z), Bibl. nat., fr. 1444. – <hi rend="i">F,</hi> Bibliothèque de l’Arsenal, n° 3516, qui date de 1268. – – <hi rend="i">M</hi>, Bibliothèque municipale de Berne, n° 113. – <hi rend="i">N,</hi> Bibliothèque de l’Arsenal, n° 3142. – <hi rend="i">R,</hi> Bibliothèque municipale d’Arras, n° 657. – <hi rend="i">S,</hi> Musée Condé à Chantilly, n° 474.</p>
           <p>Seuls <hi rend="i">A, F, M</hi> donnent un texte complet. Le manuscrit <hi rend="i">A </hi>a été choisi comme manuscrit de base pour l’édition. Tous les manuscrits autres que <hi rend="i">A</hi> et <hi rend="i">B</hi> appartiennent à la même famille.</p>
         </div>
-        <div>
+        <div xml:id="r620127">
           <head rend="uc">Chapitre II
            <lb/>Analyse et source de lœuvre.</head>
           <p>I. <hi rend="i">Le titre.</hi> – Le <hi rend="i">Livre de philosophie et de moralité</hi> a été souvent désigné, à tort, <hi rend="i">Moralités des philosophes.</hi></p>
           <p>II. <hi rend="i">Caractère de l’œuvre.</hi> – L’œuvre est un recueil commenté de sentences morales, attribuées arbitrairement à des philosophes de l’Antiquité. Développement impersonnel et abstrait, enrichi parfois de quelques exemples, courants dans la littérature du Moyen Age. La morale de l’œuvre peut se résumer dans ce conseil : observer en toutes choses la mesure, qualité qui s’entendait à la fois, a-t-on dit, de l’équilibre, de la prudence, de la discrétion et de l’impassibilité.</p>
           <p>III. <hi rend="i">Sources de l’œuvre.</hi> – Le <hi rend="i">Livre de philosophie et de moralité</hi> contient les mêmes développements que les <hi rend="i">Moralités des philosophes,</hi> traduction française du <hi rend="i">Moralium dogma philosophorum,</hi> attribué à Guillaume de Conches. On constate pareillement de nombreux rapports avec la littérature proverbiale de l’époque, et en premier lieu avec les <hi rend="i">Diz et proverbes des sages.</hi> L’auteur connaissait également les traductions françaises des <hi rend="i">Disticha Catonis,</hi> et en général les proverbes proprement dits. A plusieurs reprises, il en cite, et certains même ne se retrouvent pas ailleurs.</p>
         </div>
-        <div>
+        <div xml:id="r620184">
           <pb source="https://nakala.fr/10.34847/nkl.42ba6cl9#adcee578ee1257d46e97364085ee5d0df2f31c33" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.42ba6cl9/adcee578ee1257d46e97364085ee5d0df2f31c33/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Influence de l’œuvre.</head>
@@ -90,7 +88,7 @@
           <p>Au début du <num>xiv<hi rend="sup">e</hi></num> siècle, l’auteur du roman de <hi rend="i">Renart le Contrefait</hi> introduisait dans la branche II de son œuvre de nombreuses sentences empruntées pour la plus grande part au <hi rend="i">Livre de Philosophie.</hi></p>
           <p>Enfin les treize premières rubriques de l’œuvre d’Alart de Cambrai se retrouvent dans une œuvre en prose de la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, le roman de <hi rend="i">Cassidore,</hi> encore inédit. Ce roman fait partie d’un vaste cycle de romans orientaux, comprenant <hi rend="i">Les Sept Sages, Marques de Rome, Fiseus, Cassidore, Pelyarmenus</hi> et l’histoire de <hi rend="i">Kanor</hi> et de ses frères.</p>
         </div>
-        <div>
+        <div xml:id="r620277">
           <head rend="uc">Chapitre IV
            <lb/>L’auteur, langue et versification.</head>
           <p>I. <hi rend="i">L’auteur.</hi> – L’auteur nous a donné lui-même son nom, au début de son œuvre ; il s’appelait Alart et était originaire de Cambrai.</p>
@@ -98,13 +96,13 @@
           <p>II. <hi rend="i">La langue.</hi> – Nos conclusions sont confirmées par l’étude de la langue, dans laquelle on peut relever quelques phénomènes particuliers au picard, mais contaminés par le dialecte de l’Ile-de-France.</p>
           <p>III. <hi rend="i">La versification.</hi> – L’œuvre est écrite en couplets d’octosyllabes à rimes plates. L’auteur réussit parfois à condenser sa pensée en deux ou trois vers bien frappés.</p>
         </div>
-        <div>
+        <div xml:id="r620337">
           <head rend="uc">Conclusion</head>
           <p>Le <hi rend="i">Livre de philosophie et de moralité</hi> est une œuvre de morale laïque, empruntée aux moralistes de l’Antiquité. La morale est condensée dans une phrase, que l’auteur explique et commente en vers. Le développement, en général abstrait et impersonnel, est parfois enrichi de quelques exemples tirés du fonds commun de la littérature de l’époque.</p>
           <p>L’œuvre se place à mi-chemin entre la littérature des sentences, où le précepte est réduit à un simple proverbe, faisant suite à un quatrain ou à un sixain, et les longues compilations ou traités proprement dits. C’est là ce qui fait son originalité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r620355">
         <head rend="uc">Seconde partie
          <lb/>Édition</head>
         <p>I. Texte.</p>
@@ -131,13 +129,13 @@
          <lb/>fragment d’un poème moral sur la « mesure ».</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r620420">
         <head rend="uc">Appendice II
          <lb/>les « proverbes de Sénèque ».</head>
         <p>Il ne faut pas confondre les <hi rend="i">Proverbes de Sénèque</hi> et les <hi rend="i">Enseignements de Sénèque.</hi> Ces derniers comprennent, en général, les proverbes proprement dits et de nombreuses sentences, parmi lesquelles ont été englobées les rubriques de l’œuvre d’Alart de Cambrai.</p>
         <p>Le texte édité est celui du manuscrit français 22921 de la Bibliothèque nationale.</p>
       </div>
-      <div>
+      <div xml:id="r620443">
         <head rend="uc">Appendice III
          <lb/>chansons extraites des romans
          <lb/>de « Fiseus », de « Pelyarmenus » et de « Kanor ».</head>

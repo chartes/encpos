@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_28" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_28" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,17 +56,17 @@
         <surname>Merle-Gelly</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1287867">
         <head rend="uc">Avant-propos</head>
         <p>S’il est désormais reconnu que la contribution du duc de Choiseul au redressement de la France après la guerre de Sept Ans fut primordiale, la personnalité et l’action de ceux qui exécutèrent son programme ne sont encore qu’imparfaitement connus.</p>
         <p>De 1760 à 1770, Jean-Étienne-Bernard de Clugny, baron de Nuits, fut un de ses proches collaborateurs, occupant des postes-clefs à des périodes charnières, à Saint-Domingue pendant la seconde partie de la guerre, à Brest pour y préparer la revanche.</p>
       </div>
-      <div>
+      <div xml:id="r1287880">
         <head rend="uc">Sources</head>
         <p>En l’absence d’archives privées, lettres ou écrits, l’action de Clugny dans ses deux intendances a été étudiée au moyen des documents administratifs conservés principalement aux Archives nationales, c’est-à-dire la correspondance, heureusement abondante, échangée avec le secrétaire d’État de la Marine, pour l’essentiel, complétée par les mémoires d’instruction insérés dans son dossier personnel, et par la collection Moreau de Saint-Méry pour Saint-Domingue.</p>
         <p>Quelques documents d’état civil, des jugements épars dans les écrits de l’époque ont guidé une timide approche du personnage.</p>
       </div>
-      <div>
+      <div xml:id="r1287893">
         <pb source="https://nakala.fr/10.34847/nkl.dafay1qg#d1dc5ddfe3b773a21f14acb86dd1aed018a79b71" n="238" facs="https://api.nakala.fr/iiif/10.34847/nkl.dafay1qg/d1dc5ddfe3b773a21f14acb86dd1aed018a79b71/full/full/0/default.jpg"/>
         <head rend="uc">Introduction</head>
         <p>La carrière de Jean-Étienne-Bernard de Clugny présente de multiples facettes : il fut d’abord magistrat en Bourgogne pendant dix ans, puis intendant trois ans à Saint-Domingue, six ans à Brest, cinq mois à Versailles comme intendant général ; il partagea trois ans la disgrâce des Choiseul, fut de nouveau intendant, mais dans la métropole, un an et demi en Roussillon, neuf mois à Bordeaux, et devint, pour finir, contrôleur général des finances pendant six mois.</p>
@@ -77,10 +75,10 @@
         <p>Des liens de famille, par sa mère avec Pierre Gilbert de Voisins, le grand juriste et conseiller de Louis XV, par son père et sa belle-mère Barillon avec les Choiseul, peuvent expliquer sa nomination à l’intendance des îles Sous-le-Vent le 1<hi rend="sup">er</hi> janvier 1760 ; sa fidélité à l’égard de Maurepas exilé aura préparé son retour en scène et son ascension à partir de 1774. A cette date, en outre, la marquise de Montesson et la comtesse de Genlis, ses cousines paternelles, le rapprochent du Palais-Royal.</p>
         <p>Sa personnalité a été très discutée et reste mal connue. Cependant, c’est un homme des Lumières : il a de la fortune, des curiosités, des livres, et une bonne cave. Il a aussi une mauvaise santé et les mœurs de son temps...</p>
       </div>
-      <div>
+      <div xml:id="r1287924">
         <head rend="uc">Première partie
          <lb/>L’intendant de Saint-Domingue (1760-1764)</head>
-        <div>
+        <div xml:id="r1287932">
           <head rend="uc">Chapitre premier
            <lb/>état de la colonie en 1760</head>
           <p>Très prospère quatre ans plus tôt, Saint-Domingue, en 1760, a déjà beaucoup souffert des conséquences de la guerre, et de toutes les manières. De plus, l’île est directement menacée d’un débarquement anglais, sa richesse et sa situation en faisant un des principaux enjeux du conflit ; le gouvernement entend la garder à tout prix et lui sacrifiera le Canada.</p>
@@ -88,7 +86,7 @@
           <p><hi rend="i">L’économie.</hi> – Colonie d’exploitation, Saint-Domingue vivait du commerce. L’interruption du trafic a donc ruiné toute son économie, la privant de sa principale source de revenus, les droits d’octroi, empêchant les exploitations de renouveler leur main-d’œuvre servile, dépréciant les produits coloniaux, renchérissant les denrées de base naguère importées. Ne subsiste qu’un commerce de contrebande qui ne profite pas aux caisses publiques. Les finances sont dans un état déplorable, sans argent dans les caisses, sans crédit, alors même que les dépenses augmentent sans cesse et de façon incontrôlable.</p>
           <p><hi rend="i">Climat social.</hi> – Un esprit d’autonomie se développe chez les habitants qui se sentent loin de la métropole et se croient ignorés d’elle. La défense de la colonie ne peut compter sur le moindre élan patriotique de leur part. Les Conseils supérieurs chargés d’enregistrer les lois et de voter les impôts se prennent volontiers pour des parlements autorisés à faire des remontrances. D’un autre côté, une série d’empoisonnements dans les années 1757 et 1758 continue d’inquiéter une population qui a déjà connu des révoltes.</p>
         </div>
-        <div>
+        <div xml:id="r1287967">
           <head rend="uc">Chapitre II
            <lb/>L’intendance de Clugny</head>
           <p>Le chef-lieu de la colonie reste encore incertain. La capitale est Port-au-Prince, où Clugny fait reconstruire la demeure de l’intendant. Mais, en temps de guerre, les administrateurs gouvernent plus volontiers à partir du Cap et l’ordonnance de 1763 officialise ce transfert, qui ne durera pas.</p>
@@ -106,11 +104,11 @@
           <p>En définitive, Bernard de Clugny a réussi à faire face aux difficultés du temps de guerre et à maintenir la colonie dans un état qui permit, la paix retrouvée, un décollage économique étonnant. Si son administration fut diversement appréciée, elle fut approuvée par Choiseul dont elle reflétait les objectifs et qui l’en récompensa en l’appelant dans un autre poste important.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1288037">
         <pb source="https://nakala.fr/10.34847/nkl.dafay1qg#df086a3a385f57d6e72ec0dbae0b806a0993b176" n="241" facs="https://api.nakala.fr/iiif/10.34847/nkl.dafay1qg/df086a3a385f57d6e72ec0dbae0b806a0993b176/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>L’intendant de la marine a Brest (1765-1770)</head>
-        <div>
+        <div xml:id="r1288050">
           <head rend="uc">Chapitre premier
            <lb/>un poste-clef dans la politique du moment</head>
           <p>En 1765, quand Clugny arrive à Brest, Choiseul est convaincu que la paix récente ne sera qu’une courte trêve et que les hostilités reprendront avec les Anglais, et sur mer ; il y voit l’occasion pour la France de prendre la revanche des derniers échecs.</p>
@@ -122,7 +120,7 @@
           <p>La récente ordonnance du 25 mars 1765 vient en principe de réduire son autorité en subordonnant dans les ports l’intendant au commandant de la marine. Mais la place prise, pendant ces années-là, par l’œuvre de reconstruction navale sera telle qu’elle conférera à l’intendant qui la dirige une importance nouvelle.</p>
           <p>Le mémoire d’instruction presque tout entier consacré aux charges imposées par cette politique de reconstruction indiquait bien d’emblée où seraient les priorités.</p>
         </div>
-        <div>
+        <div xml:id="r1288089">
           <pb source="https://nakala.fr/10.34847/nkl.dafay1qg#40de9260b0dd136aee807b6181a9e7a8e1ed4448" n="242" facs="https://api.nakala.fr/iiif/10.34847/nkl.dafay1qg/40de9260b0dd136aee807b6181a9e7a8e1ed4448/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La reconstruction navale a Brest</head>
@@ -132,7 +130,7 @@
           <p><hi rend="i">Les ressources humaines.</hi> – Acteurs essentiels dans le processus de construction, les ingénieurs constructeurs sont des personnages importants et leur statut a fait l’objet d’une des ordonnances de mars 1765. A Brest, travaillent Ollivier depuis longtemps, et Groignard à partir de 1765. A l’autre bout de la chaîne, quelque deux mille ouvriers forment avec leurs familles une population instable et fragile.</p>
           <p><hi rend="i">Bilan.</hi> – Au départ de Clugny en novembre 1770, les objectifs fixés par Choiseul sont pratiquement atteints. Mais il a fallu, pour parvenir à ce résultat, l’apport au dernier moment de la flotte de la Compagnie des Indes. Constructions, radoubs, refontes, les chantiers de Brest ont travaillé en moyenne chaque année pour six à neuf bâtiments. Ils ont construit dix vaisseaux, trois frégates et trois corvettes : quatre de ces vaisseaux participeront à la guerre d’Amérique. En 1770, viennent s’y ajouter de Lorient six vaisseaux, une frégate et trois corvettes. La flotte de Brest est alors de trente-huit vaisseaux, dix-neuf frégates, sept corvettes et deux flûtes.</p>
         </div>
-        <div>
+        <div xml:id="r1288133">
           <head rend="uc">Chapitre III
            <lb/>Autres tâches de l’intendant</head>
           <p><hi rend="i">Marine.</hi> – En tant qu’intendant de la marine, Clugny a la responsabilité des travaux du port et de l’arsenal, des armements, de l’artillerie, des chiourmes.</p>
@@ -145,7 +143,7 @@
           <p><hi rend="i">La prise de possession de Lorient.</hi> – L’intendance de Clugny à Brest s’achève en beauté à Lorient où, le 26 avril 1770, il prend possession au nom du roi du port de la Compagnie des Indes. Il obtient son rattachement au département de Brest. Et les bâtiments de la Compagnie viendront opportunément compléter la flotte brestoise quelques semaines avant son départ et avant la disgrâce des Choiseul.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1288178">
         <head rend="uc">Conclusion
          <lb/>de Versailles a Paris</head>
         <p>Appelé à Versailles par Praslin en novembre 1770, Clugny entame alors une course aux honneurs qui connaîtra en peu de temps bien des péripéties. Il semble promis au portefeuille de la Marine ; il finira, cinq ans plus tard, au Contrôle général des finances.</p>
@@ -155,15 +153,15 @@
         <pb source="https://nakala.fr/10.34847/nkl.dafay1qg#d5f44a6fe3fcb65380186fe52bc86fc34340e84d" n="244" facs="https://api.nakala.fr/iiif/10.34847/nkl.dafay1qg/d5f44a6fe3fcb65380186fe52bc86fc34340e84d/full/full/0/default.jpg"/>
         <p>Clugny est mort en place le 18 octobre 1776, achevant dans ce haut poste une carrière de grand commis commencée dans le sillage de Choiseul, au service des colonies et de la marine.</p>
       </div>
-      <div>
+      <div xml:id="r1288207">
         <head rend="uc">Pièces justificatives</head>
         <p>Signatures du contrat de mariage de Bernard de Clugny. – Commission d’intendant de Saint-Domingue. – Mémoire de la chambre d’agriculture du Port-au-Prince sur l’administration de Clugny. – Mémoire sur l’administration de Clugny. – Arrêt en commandement du 12 juin 1769, lui accordant les pleins pouvoirs pour juger Gordon. – Liste générale des vaisseaux, frégates, etc., au 1<hi rend="sup">er</hi> décembre 1770. – État de comparaison de la marine du roi. – Procès-verbal de cession au roi du port de Lorient. – Bon du roi portant nomination de Clugny comme intendant général de la Marine et des Colonies. – La bibliothèque de Clugny à Paris et à Nuits, dans les inventaires après décès (1776).</p>
       </div>
-      <div>
+      <div xml:id="r1288221">
         <head rend="uc">Annexes</head>
         <p>Tableaux généalogiques. – Fortune de Clugny en 1776, d’après son inventaire après décès.</p>
       </div>
-      <div>
+      <div xml:id="r1288231">
         <head rend="uc">Illustrations</head>
         <p>Portrait de Clugny, attribué à La Tour. – Le château de Nuits : au <num>xvii<hi rend="sup">e</hi></num> siècle ; aujourd’hui ; vues intérieures. – La commanderie de Saint-Marc. – Cartes de Saint-Domingue. – Les vaisseaux du Don gratuit. – Plans de Brest (1754, 1767). – Plan de Lorient (1770). – Lorient : l’hôtel Gabriel. – Bordeaux : le Grand Théâtre. – Paris : l’hôtel Tubeuf.</p>
       </div>

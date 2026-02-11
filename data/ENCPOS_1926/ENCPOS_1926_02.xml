@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1926_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1926_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -69,17 +67,17 @@
         <head rend="uc">Sources et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r446816">
         <head rend="uc">Première partie
          <lb/>Histoire de l’abbaye</head>
-        <div>
+        <div xml:id="r446824">
           <head rend="uc">Chapitre premier
            <lb/>la fondation et le développement de l’abbaye</head>
           <p>§ I. <hi rend="i">L’abbaye au <num>xii<hi rend="sup">e</hi></num> siècle.</hi> – L’abbaye Notre-Dame de Bellevaux, première fille de Morimond, fut fondée au diocèse de Besançon le 22 mars 1220. Les seigneurs de la Roche-sur-l’Ognon, de Cirey, de Chambornay eurent part à sa fondation. Prospérité de l’abbaye au <num>xii<hi rend="sup">e</hi></num> siècle ; ses filiales : Lucelle, Rosières, la Charité, Montheron et Laurus. Dédicace de l’église en 1143. Mort à l’abbaye, en 1174, de saint Pierre, archevêque de Tarentaise, dont les reliques demeurent à Bellevaux.</p>
           <pb source="https://nakala.fr/10.34847/nkl.6eff9m8d#261d440d1bb2fa1af3ccb7eb4d4e7e39d7d94a38" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.6eff9m8d/261d440d1bb2fa1af3ccb7eb4d4e7e39d7d94a38/full/full/0/default.jpg"/>
           <p>§ 2. <hi rend="i">L’abbaye et les guerres du <num>xiv<hi rend="sup">e</hi></num> et du <num>xv<hi rend="sup">e</hi></num> siècle. </hi>– Dès la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, l’abbaye est ravagée par l’armée de l’empereur Rodolphe de Habsbourg qui y campe en 1289 ; les Routiers ; bataille de Chambornay-lès-Bellevaux en 1366. Union à Bellevaux de l’abbaye cistercienne de femmes de Montarlot-les-Rioz.</p>
         </div>
-        <div>
+        <div xml:id="r446882">
           <head rend="uc">Chapitre II
            <lb/>L’abbaye et les autorités spirituelles</head>
           <p>§ 1. <hi rend="i">L’abbaye et le Saint-Siège.</hi> – En 1131, Innocent III confirme les biens de Notre-Dame de Bellevaux ; autres bulles confirmatives. Relations particulières à propos de la canonisation et des reliques de saint Pierre de Tarentaise.</p>
@@ -87,22 +85,22 @@
           <p>§ 3. <hi rend="i">L’abbaye et l’ordre de Cîteaux.</hi> – Relations de Bellevaux avec Cîteaux et Morimond ; avec ses filiales ; démêlés avec Lucelle au <num>xvi<hi rend="sup">e</hi></num> siècle à propos d’une élection abbatiale.</p>
           <p>Relations avec les abbayes n’appartenant pas à l’ordre de Cîteaux.</p>
         </div>
-        <div>
+        <div xml:id="r446921">
           <head rend="uc">Chapitre III
            <lb/>L’abbaye et les puissances laïques</head>
           <p>§ 1. <hi rend="i">L’abbaye et les comtes de Bourgogne.</hi> – Grande bienveillance des comtes de Bourgogne envers l’abbaye. Les donations de Rainaud III ; diplôme de Frédéric Barberousse en 1196 prenant l’abbaye sous sa protection ; donations d’Othon I, Othon II et Othon IV.</p>
           <p>§ 2. <hi rend="i">L’abbaye et les seigneurs.</hi> – Générosité des sei<pb source="https://nakala.fr/10.34847/nkl.6eff9m8d#188373b91f4707758d60f6800dcf3d61a738bb80" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.6eff9m8d/188373b91f4707758d60f6800dcf3d61a738bb80/full/full/0/default.jpg"/>gneurs et particulièrement des sires de la Roche. Othon de la Roche, sire d’Athènes, appelle en Grèce des moines de Bellevaux qui y fondent l’abbaye de Daphni. Parmi les bienfaiteurs : les comtes de Ferrette, de Montbéliard, de Salins ; nombreuses sépultures seigneuriales en l’abbaye ; Jean de Vienne, amiral de France, mort à Nicopolis, y repose. Contestations entre l’abbaye et les seigneurs à propos d’anciennes donations.</p>
         </div>
-        <div>
+        <div xml:id="r446949">
           <head rend="uc">Chapitre IV
            <lb/>Vie intérieure et vie spirituelle de l’aubaye</head>
           <p>Les offices et les dignités. L’observance de la règle. La commende s’introduit au <num>xv<hi rend="sup">e</hi></num> siècle avec Jean Rolin et s’établit définitivement à la fin du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r446974">
         <head rend="uc">Deuxième partie
          <lb/>Développement économique de l’abbaye</head>
-        <div>
+        <div xml:id="r446982">
           <head rend="uc">Chapitre premier
            <lb/>formation et description du temporel</head>
           <p>§ 1. <hi rend="i">Les donations.</hi> – Les donations sont le principal mode de formation du temporel. Raisons qui poussent les donateurs : désir d’être associé aux prières des moines, reconnaissance pour les services rendus par l’abbaye, désir d’être enterré en l’église de Bellevaux ; donations pour la pitance des moines ; donations le plus souvent entre vifs ; quelques-unes par testament ; donations sous réserve d’usufruit ; petit nombre des donations au <num>xii<hi rend="sup">e</hi></num> siècle, chiffres moyens des donations pour le <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
@@ -110,13 +108,13 @@
           <p>§ 3. <hi rend="i">Description du temporel.</hi> – Liste des possessions de l’abbaye.</p>
           <p>§ 4. <hi rend="i">La seigneurie de Bellevaux.</hi> – Etendue de la seigneurie. La justice de l’abbaye.</p>
         </div>
-        <div>
+        <div xml:id="r447054">
           <head rend="uc">Chapitre II
            <lb/>Exploitation du temporel</head>
           <p>§ 1. <hi rend="i">L’exploitation directe par les moines aux <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles.</hi> – Aux <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, les moines exploitent leurs possessions eux-mêmes. Le personnel de l’exploitation : les moines et surtout les convers, sous la direction du cellerier, du sous-cellerier et d’un dignitaire spécial : le <hi rend="i">grangiarius.</hi> Les granges : Bellevaux a jusqu’à quatorze granges. Le nombre des convers diminuant au <num>xiv<hi rend="sup">e</hi></num> siècle, plusieurs granges doivent être transformées en villages à la fin du siècle. Faute de main-d’œuvre, l’abbaye doit renoncer à l’exploitation directe.</p>
           <p>§ 2. <hi rend="i">L’exploitation indirecte.</hi> – L’abbaye est contrainte à accenser ses propriétés. Rapports de l’abbaye avec ses tenanciers. Accensements et amodiations des granges et des moulins dès le <num>xv<hi rend="sup">e</hi></num> siècle. Au <num>xvi<hi rend="sup">e</hi></num> siècle, les moines n’exploitent plus guère eux-mêmes que les environs immédiats de l’abbaye.</p>
         </div>
-        <div>
+        <div xml:id="r447123">
           <head rend="uc">Chapitre III
            <lb/>L’exploitation des capitaux de l’abbaye</head>
           <p>§ 1. <hi rend="i">L’oblature et les pensions.</hi> – Place peu considérable des oblats dans l’ordre de Cîteaux ; quelques contrats d’oblature passés par Bellevaux ; pensions accordées par l’abbaye contre des donations. L’abbaye ne trouve là que des revenus insignifiants</p>
@@ -125,7 +123,7 @@
           <p>§ 3. <hi rend="i">Les rentes.</hi> – Les achats de rentes sont très restreints, sauf ceux de rentes en sel à Salins et à Lons-le-Saunier, auxquels l’abbaye consacre des sommes très élevées.</p>
           <p>§ 4. <hi rend="i">Etat économique de l’abbaye du <num>xiv<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle.</hi> – De créancière, l’abbaye devient débitrice. Richesse comparée de Bellevaux et des autres abbayes cisterciennes de Franche-Comté. Ses revenus au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r447189">
           <head rend="uc">Chapitre IV
            <lb/>Les résultats économiques</head>
           <p>Assainissement des marécages de la vallée de l’Ognon ; transformation en riches pâturages. Défrichement des bois. Introduction de la culture de la vigne. Autres cultures : céréales, chanvre, pommiers. Formation de nombreux villages. Au <num>xvi<hi rend="sup">e</hi></num> siècle, l’abbaye crée les forges de Cirey et du Moulin-Martin, mais ne les exploite pas elle-même.</p>

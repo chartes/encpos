@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1951_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1951_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,42 +60,42 @@
         <head rend="uc">Avant-propos – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r728083">
         <head rend="uc">Introduction
          <lb/>les archives grecques</head>
         <p>Les archives centrales de l’empire grec ont disparu. Force est donc de recourir aux archives des destinataires, disséminées dans les divers dépôts d’archives de la Grèce continentale ou des îles, en Asie Mineure peut-être, en Italie du Sud, en Sicile, en France, en Bulgarie, en Turquie, au Mont-Athos enfin. Le pèlerin russe Barskij, à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, rapporte de ses voyages à la Sainte-Montagne quelques remarques diplomatiques sur les documents qu’on lui a fait admirer. Depuis lors, nombreux sont les savants qui ont cherché à travailler dans ces archives ; peu ont vaincu la méfiance des moines, qui, attachés à une tradition que l’on trouve écrite jusque dans les τυπιϰά, conservent leurs documents loin du regard de l’étranger. De nombreuses éditions ont cependant vu le jour, mais les dépôts restent mal connus.</p>
       </div>
-      <div>
+      <div xml:id="r728101">
         <head rend="uc">Première partie
          <lb/>Élaboration et mode de tradition des actes</head>
-        <div>
+        <div xml:id="r728109">
           <head rend="uc">Introduction
            <lb/>histoire de la chancellerie</head>
           <p>Au milieu de la décentralisation apparente des services de la chancel<pb source="https://nakala.fr/10.34847/nkl.f00e82vg#e646e5543cdc526eea82e4be1229d478dd13ef04" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.f00e82vg/e646e5543cdc526eea82e4be1229d478dd13ef04/full/full/0/default.jpg"/>lerie depuis l’époque romaine, deux personnages émergent qu’il est utile de rapprocher : le <hi rend="i">quaestor</hi> et l’έπὶ τοῦ ϰανιϰλείον. Le premier apparut peut-être sous le règne de Constantin ; quoi qu’il fasse, c’est comme auxiliaire de l’empereur qu’il agit. L’étendue de son office s’accrut avec le règne de Justinien, qui vit aussi l’essor de ceux que l’on nomme ἀσηχρῆται, classe de fonctionnaires qui fournit à l’empereur ses secrétaires particuliers. Du règne d’Héraclius date sans doute la disparition du questeur dont les fonctions furent réparties entre le λογοθέτης τοῦ δρόμου, le πρωτασηϰρῆτις, qui peut bien avoir eu un moment sous son autorité l’ensemble des services de la chancellerie, et l’ἐπὶ τοῦ ϰανιϰλείου. Dans le mouvement de centralisation administrative de la fin du <num>xi<hi rend="sup">e</hi></num> siècle s’inscrit la création par Alexis I<hi rend="sup">er</hi> Comnène du λογοθέτης τῶν σεϰρέτων, qui jusqu’en 1204 exerce un contrôle sur l’ensemble des bureaux ; le μέγας λογοθέτης le remplacera, sous les Paléologues, à la tête de la chancellerie. Le πρωτασηκρῆτις qui a quitté la chancellerie remplit désormais de hautes fonctions juridiques. Chacun de ces officiers est intervenu dans l’administration de la chancellerie pour une part qui a varié et qu’il est difficile de déterminer pour une longue période, mais depuis le <num>xii<hi rend="sup">e</hi></num> siècle, en tout cas, le rôle de l’ἐπὶ τοῦ ϰανιϰλείου n’a cessé de grandir. D’origine souvent illustre, toujours personnage cultivé, il prend une part active à la rédaction des actes, vérifie leur régularité formelle et assiste à la souscription. Souvent chargé de missions diplomatiques délicates, il semble avoir exercé une fonction de caractère domestique.</p>
         </div>
-        <div>
+        <div xml:id="r728146">
           <head rend="uc">Chapitre premier
            <lb/>de la naissance a l’expédition de l’acte.</head>
           <p>Fidèle à la tradition romaine, la chancellerie impériale grecque a exigé, selon toute vraisemblance, dans la plupart des cas, une requête rédigée. L’auteur de l’acte écrit est, en droit, l’empereur ; les sources narratives nous affirment qu’il le fut en fait quelquefois. La rédaction d’un acte par le destinataire, prouvée par le γράμμα d’Alexis Paléologue de 1375, n’a pu être qu’un fait exceptionnel. La minute était établie sous la dictée de l’empereur ou d’un officier de la chancellerie ; quand elle n’a pas existé, l’acte fut dressé sur la base de documents antérieurs compilés par les secrétaires de la chancellerie. Le procédé qui consiste à insérer dans un document jusqu’à la forme d’instruments antérieurs paraît avoir été, en effet, très en honneur à la chancellerie grecque dès le <num>xi<hi rend="sup">e</hi></num> siècle et être devenu une habitude sous le règne des Paléologues. Le scribe qui a grossoyé l’acte a réservé en blanc des espaces qui seront remplis à l’encre rouge par l’officier de récognition, attestant ainsi que l’acte est parfait. L’empereur y appose alors sa souscription au cinabre. Depuis le <num>xii<hi rend="sup">e</hi></num> siècle, on lit parfois, au bas des documents, la signature de grands personnages <pb source="https://nakala.fr/10.34847/nkl.f00e82vg#9697de3a7a05ad5ea07246fb4c4155f22f126b69" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.f00e82vg/9697de3a7a05ad5ea07246fb4c4155f22f126b69/full/full/0/default.jpg"/>dont l’intervention reste encore impossible à définir. L’acte est ensuite scellé. La dernière phase, la plus obscure, est celle de l’enregistrement. On ignore combien de temps l’empereur grec a conservé les anciens <hi rend="i">commentarii.</hi> En cas de perte ou de destruction de documents, les bénéficiaires ne peuvent compter, semble-t-il, que sur la bonne volonté de l’empereur pour obtenir un nouveau titre de propriété. L’enregistrement, quand il existe, est fait pour des raisons pratiques : un acte portant modification de la propriété foncière peut être enregistré dans les bureaux du fisc ; il est ensuite remis au destinataire. Les ποστάγματα étaient parfois adressés à un fonctionnaire local qui en prenait note avant de les remettre au destinataire.</p>
         </div>
-        <div>
+        <div xml:id="r728179">
           <head rend="uc">Chapitre II
            <lb/>De l’original aux copies ou mode de tradition des actes.</head>
           <p>Dans une marche régressive du texte le plus digne au texte le moins digne de foi, le premier mode de tradition des actes est l’original (πρωτότυπος) qui, par exception, a pu être établi en plusieurs exemplaires. Entre l’original et la copie, il faut placer les nombreuses confirmations rédigées d’après les originaux ou les copies présentées ; au <num>xiii<hi rend="sup">e</hi></num> siècle, elles ont pu revêtir la forme de προστάγματα. On connaît même une copie de χρυσόβουλλος certifiée en forme de πρόσταγμα par l’empereur lui-même. Pour conserver ses διϰαιώματα originaux en bon état, le procédé le plus courant et le plus sûr consistait à se faire délivrer une copie (ίσος, <hi rend="i">ίσό</hi>τυπος) de l’acte par la chancellerie. Ces copies pouvaient être obtenues sur simple présentation de l’original. Lorsqu’elle ne transmettait pas les originaux eux-mêmes, la chancellerie faisait parfois parvenir aux bureaux intéressés ou compétents copie des actes pour enregistrement du contenu. Ces copies rejoignaient ensuite l’original chez le destinataire. Les actes des fonctionnaires pouvaient insérer des actes impériaux. L’ensemble de ces copies a toute raison d’être conforme à l’original. Beaucoup moins sûres sont les copies établies à la demande du destinataire et certifiées par des fonctionnaires civils ou ecclésiastiques. Les nombreuses copies libres qui accompagnent l’original ou prétendent le remplacer ne peuvent être utilisées qu’avec une extrême prudence, comme les copies groupées pour des raisons pratiques en rouleaux ou <hi rend="i">codices,</hi> et qui atteignent souvent les proportions de véritables cartulaires. Par les copies figurées, conservées en grand nombre dans les archives grecques, nous touchons aux limites du faux. La grossièreté de ces derniers n’empêche pas qu’ils ont souvent été utilisés comme preuves, même au tribunal impérial, sans éveiller le soupçon. La masse des copies est pour nous une manifestation de cette hantise de l’éviction des avantages acquis, qui fut le mal chronique des sujets de l’empereur grec.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r728206">
         <pb source="https://nakala.fr/10.34847/nkl.f00e82vg#c9f3c0f9419ce3dff9a49fb8f4faff9e1998fd14" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.f00e82vg/c9f3c0f9419ce3dff9a49fb8f4faff9e1998fd14/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les différentes formes d’actes
          <lb/>leurs caractères internes</head>
-        <div>
+        <div xml:id="r728221">
           <head rend="uc">Chapitre premier
            <lb/>classification formelle des actes.</head>
           <p>La période grecque de l’Empire offre les mêmes formes d’actes que la dernière période romaine. La terminologie demeure instable. C’est au <num>ix<hi rend="sup">e</hi></num> siècle que les anciennes formes de l’édit, du rescrit et du <hi rend="i">mandatum </hi>se différencient et se transforment. Il y a lieu à nouvelle classification ; une première distinction s’impose entre les lettres destinées à l’étranger et les actes établis pour les habitants de l’Empire. Les premières, toujours entourées de formes solennelles qui les apparentent à l’édit, sont munies d’une traduction dans la langue du destinataire au moins jusqu’au <num>xiii<hi rend="sup">e</hi></num> siècle. Le souci de respecter la qualité du destinataire amène la chancellerie à concevoir un type d’actes que sa forme solennelle rapproche des précédentes, celui des προϰουρατοριϰὰ χρυσόβονλλα.</p>
           <p>Dans les limites de l’Empire, l’expression de la volonté impériale peut être entourée d’une solennité plus ou moins grande. L’édit gardera ses caractères essentiels jusqu’au <num>xii<hi rend="sup">e</hi></num> siècle. A la fin du <num>ix<hi rend="sup">e</hi></num> siècle, la substitution définitive de la forme des <hi rend="i">leges spéciales</hi> aux <hi rend="i">leges generales</hi> explique sans doute l’extension des formes du χρυσόβουλλος et du πρόσταγμα. A la fin du <num>xi<hi rend="sup">e</hi></num> siècle s’établissent les limites entre la forme du χρυσόβονλλος λόγος et du	χρυσόβουλλον σιγίλλιον, moins solennel, qui est dû peut-être à une contamination du χρυσόβουλλος λόγος et du πρόσταγμα qui est la forme la plus simple revêtue par les actes impériaux. L’ancienne forme du rescrit se maintient au moins jusqu’à la fin du <num>xii<hi rend="sup">e</hi></num> siècle : c’est la λὐσις. Une dernière forme d’acte rejoint celle des actes destinés à l’étranger, celle du ϰωδίϰελλος. Toute classification matérielle des documents grecs souscrits par l’empereur reste artificielle et il est fort possible qu’il faille donner au πρόσταγμα, de ce point de vue, une place plus élevée que celle qu’on lui attribue jusqu’ici. Le choix de telle ou telle forme d’acte pour telle ou telle matière, dès l’époque romaine, ne peut être expliqué à partir de principes rigides : c’est affaire humaine.</p>
         </div>
-        <div>
+        <div xml:id="r728284">
           <head rend="uc">Chapitre II
            <lb/>Caractères internes des actes. Leur évolution.</head>
           <p>Les χρυσοβούλλοι λόγοι, les édits et les lettres destinées à l’étranger peuvent avoir un protocole composé de l’invocation trinitaire, la titulature et l’adresse, qu’ils perdent au plus tard à la fin du <num>xii<hi rend="sup">e</hi></num> siècle. Les <pb source="https://nakala.fr/10.34847/nkl.f00e82vg#9060ade42afc28aeaacfb6d6575352155e78e0ef" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.f00e82vg/9060ade42afc28aeaacfb6d6575352155e78e0ef/full/full/0/default.jpg"/>préambules qui figurent quelquefois en tête des documents auxquels ils sont censés servir d’ornement ne sont que des exercices de rhétorique.</p>
@@ -108,7 +106,7 @@
           <p>L’étude du formulaire fait ressortir la continuité de la tradition romaine, dans le protocole et les formules de salut, la fermeté du formulaire du XI<hi rend="sup">e </hi>au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r728365">
         <head rend="uc">Conclusion</head>
         <p>L’étude des sources diplomatiques laisse reconnaître quatre étapes avec certitude : le règne de Justinien qui n’est pas un point de départ, le règne d’Héraclius qui constitue un moment essentiel de l’histoire de la chancellerie ; le <num>xi<hi rend="sup">e</hi></num> siècle, époque des premiers originaux, qui n’est sans doute qu’un siècle de transition ; le <num>xiv<hi rend="sup">e</hi></num> siècle, enfin, affirmant son attachement au caractère formel des actes, qui a dû connaître une extension du rôle de la chancellerie. L’apport de la dynastie macédonienne, qu’il est permis de croire important, reste un point encore obscur.</p>
       </div>

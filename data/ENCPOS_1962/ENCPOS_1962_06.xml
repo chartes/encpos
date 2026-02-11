@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,15 +55,15 @@
         <forename>Marjolaine</forename>
         <surname>Caucheteux-Chavannes</surname>
       </byline>
-      <div>
+      <div xml:id="r830486">
         <head rend="uc">Définition</head>
         <p>Nous appelons « sceaux des rois de France » les sceaux validant des actes royaux intitulés au nom d’un roi de France, à l’exclusion des « sceaux royaux » ou sceaux de juridictions.</p>
       </div>
-      <div>
+      <div xml:id="r830496">
         <head rend="uc">Sources</head>
         <p>Les actes royaux scellés examinés se trouvent conservés aux Archives nationales (séries J, K, P, R et S), à la Bibliothèque nationale et dans les bibliothèques de Paris et les dépôts d’archives départementales et municipales. Pour le fonctionnement de la chancellerie et l’emploi des sceaux, nous avons eu recours aux registres du Parlement et à divers traités des <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles.</p>
       </div>
-      <div>
+      <div xml:id="r830518">
         <head rend="uc">Chapitre premier
          <lb/>la diplomatique et les sceaux</head>
         <p><hi rend="i">Le grand sceau.</hi> – Le grand sceau était l’objet de beaucoup d’égards. Instrument de validation des actes royaux donnant aux décisions force exécutoire, il était solennellement appliqué au cours de l’audience du sceau. Il était confié au chancelier qui ne s’en séparait qu’exceptionnellement, sur demande expresse du souverain. Le grand sceau de Charles VI fut perdu lorsque son chancelier Henri de Marie fut massacré par les Bourguignons.</p>
@@ -76,50 +74,50 @@
         <p><hi rend="i">Le sceau du secret.</hi> – Sceau de la Chambre, confié au chambellan, le « sceau du secret » apparaît en Angleterre dès 1208 et en France sous Philippe le Bel. Plusieurs ordonnances s’efforcèrent de limiter l’emploi abusif du sceau du secret pour valider des lettres-patentes. De nombreuses lettres sont revêtues à la fois du grand sceau et du sceau du secret, en témoignage de la volonté expresse du souverain.</p>
         <p><hi rend="i">Le signet.</hi> – Sceau personnel du souverain, le signet est d’un emploi général en Europe. Il fait partie des joyaux que les souverains transmettent à leurs successeurs. Pendant la régence du dauphin Charles, vers 1358, un signet fut spécialement affecté aux lettres de finances et, à la fin du <num>xv<hi rend="sup">e</hi></num> siècle, un signet fut réservé aux lettres missives.</p>
       </div>
-      <div>
+      <div xml:id="r830588">
         <head rend="uc">Chapitre II
          <lb/>Le grand sceau et le type de majesté</head>
         <p>Succédant aux bustes carolingiens, le sceau de majesté montrant le souverain assis sur un trône et revêtu des insignes royaux apparaît en 998 avec l’empereur Otton III. Le type de majesté, s’il apparaît alors pour la première fois sur les sceaux, n’est pas un type iconographique inconnu : il était fréquent au Bas-Empire sur les diptyques consulaires, sur les monnaies et dans les miniatures carolingiennes. Il se répandit dans toute l’Europe sur les sceaux royaux ; avant le milieu du <num>xi<hi rend="sup">e</hi></num> siècle, Henri I<hi rend="sup">er</hi> de France et Édouard le Confesseur d’Angleterre l’adoptèrent.</p>
         <p>Les sceaux de majesté des souverains d’Europe centrale (Hongrie, Bohême, Croatie, Pologne) sont quelque peu inspirés de modèles impériaux, les sceaux <pb source="https://nakala.fr/10.34847/nkl.f3afodrr#f6f5458b4de2408852833fbcfabfa9e65825af09" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3afodrr/f6f5458b4de2408852833fbcfabfa9e65825af09/full/full/0/default.jpg"/>écossais et Scandinaves de sceaux anglais, les sceaux des Normands de Sicile, des empereurs latins et des rois de Chypre de sceaux byzantins. Rares furent les seigneurs qui eurent l’audace de se servir d’un sceau de majesté.</p>
       </div>
-      <div>
+      <div xml:id="r830618">
         <head rend="uc">Chapitre III
          <lb/>Le sceau de majesté en France</head>
         <p>Le style barbare des premiers sceaux capétiens montre un recul très net de l’art par rapport à l’époque carolingienne. Si, jusqu’à la fin du <num>xii<hi rend="sup">e</hi></num> siècle, le graveur cherche plutôt à représenter « un » souverain que « le » souverain, le sceau de Philippe le Bel peut prétendre au titre de « portrait ».</p>
         <p>Sur son sceau, le roi porte un costume d’apparat qui rappelle beaucoup celui du sacre. Les attributs royaux montrent la dignité royale ; sceptre et bâton évoquent le sacre. Le trône, d’abord en forme de simple banc, s’orne de têtes et de pattes d’animaux ; sous Louis X il est surmonté d’un dais et, sous Philippe V, d’un pavillon fleurdelisé.</p>
         <p>Louis VII est le seul roi de France à avoir possédé un sceau à double face, de 1137 à 1154 ; après 1175, le grand sceau est pourvu d’un contre-sceau de petite taille ; Louis VII en eut successivement trois : une Diane antique, une intaille gnostique et une fleur de lys simple. A partir de Philippe III, le contre-sceau montre toujours l’écu de France dans un encadrement plus ou moins orné.</p>
       </div>
-      <div>
+      <div xml:id="r830642">
         <head rend="uc">Chapitre IV
          <lb/>Iconographie des sceaux remplaçant le grand sceau</head>
         <p>Le sceau laissé par Philippe-Auguste au conseil établi à Paris pendant la croisade est unique : il ne se distingue du grand sceau que par sa taille légèrement plus petite et un contre-sceau différent. Les sceaux « de croisade » de saint Louis et le « seel novel » de Philippe VI représentent seulement un emblème royal par excellence : la couronne. Les sceaux ordonnés de Charles V et Charles VI montrent le roi à mi-corps tenant devant lui un écu ; ceux de Charles VII sont du type de majesté ; François I<hi rend="sup">er</hi> se servit du sceau ordonné de Louis XII en en modifiant la légende.</p>
         <p>Le « sceau dauphin » est de type armorial à partir de Charles V, équestre à partir de Louis XI.</p>
         <p>Le sceau de Charles VIII pour l’Italie est du type de majesté ; ceux de ses successeurs sont équestres.</p>
       </div>
-      <div>
+      <div xml:id="r830664">
         <head rend="uc">Chapitre V
          <lb/>Iconographie du sceau du secret</head>
         <p>Le sceau du secret montre toujours un écu fleurdelisé dans un encadrement plus ou moins orné ; seuls ceux de Charles VII, Louis XI et Louis XII portent une légende. Celui de Philippe le Bel est connu par une empreinte conservée <pb source="https://nakala.fr/10.34847/nkl.f3afodrr#24d5546cd28de0744ca9a88d3a7f534ad64af0e5" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3afodrr/24d5546cd28de0744ca9a88d3a7f534ad64af0e5/full/full/0/default.jpg"/>aux archives de la ville de Montpellier. Charles VI posséda un sceau du secret, qui, bien que plaqué au bas d’un acte conservé aux Archives nationales, ne figure pas dans l’inventaire de Douët d’Arcq. Celui de Charles VII figure sur des lettres de ce roi aux bourgeois de Lyon (Archives de Lyon). Celui de Louis XI, dont l’existence est longtemps demeurée insoupçonnée, figure sur un acte conservé à la Bibliothèque nationale. Celui de François I<hi rend="sup">er</hi> est à tort qualifié par Douët d’Arcq de « cachet pour les lettres missives ».</p>
       </div>
-      <div>
+      <div xml:id="r830685">
         <head rend="uc">Chapitre VI
          <lb/>Iconographie du signet</head>
         <p>Les signets sont très variés ; ils sont en général anépigraphes. Celui de Philippe le Bel montre un lion rampant dans un trilobe. Philippe V et peut-être Philippe VI eurent un « signet au griffon ». Douët d’Arcq attribue à Charles VI un signet du duc de Bourgogne. François I<hi rend="sup">er</hi> eut un petit cachet ovale portant un écu couronné.</p>
       </div>
-      <div>
+      <div xml:id="r830701">
         <head rend="uc">Chapitre VII
          <lb/>Les matrices des sceaux royaux et leurs faussaires</head>
         <p>Seuls les noms de quelques graveurs de matrices royales nous sont connus : Guillaume de May, de Paris, grava celle du grand sceau de Charles VII, Nicolas Macquereau, de Bourges, celle du sceau dauphin de Charles VII et Jean Amy, de Paris, celle du sceau dauphin de François I<hi rend="sup">er</hi>. Les matrices du grand sceau étaient conservées dans des coffres, celles du sceau du secret dans des bourses ou « tasses ». Enterrées avec le roi jusqu’à Louis VIII, les matrices des sceaux royaux furent, à partir de Philippe V, brisées et données aux religieuses de la Saussaie-lès-Villejuif, mais ce privilège n’était plus respecté au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         <p>Si la gravure des matrices et celle des coins de monnaie relèvent de techniques comparables, le style des monnaies est très en retard par rapport à celui des sceaux ; Philippe le Bel, le premier, adopta la représentation en majesté de son sceau pour une monnaie. Les faussaires furent nombreux à fabriquer des matrices de plomb ou d’étain et à trafiquer avec de fausses empreintes. Ils encouraient cependant des peines sévères allant jusqu’à la pendaison. Les procès de fausaires étaient de la compétence du chancelier ; en cas de confiscation des biens du coupable, celle-ci était faite à son profit.</p>
       </div>
-      <div>
+      <div xml:id="r830726">
         <head rend="uc">Chapitre VIII
          <lb/>La cire des sceaux royaux</head>
         <p><hi rend="i">Composition.</hi> – Cire blanche et cire jaune ont la même composition chimique et les mêmes propriétés physiques ; la cire jaune n’a pas été « blanchie » par exposition à l’air et au soleil. Des analyses de laboratoire ont montré que cette cire est de la cire d’abeille pure. La cire verte est composée de cire d’abeille, de colophane (qui lui donne son aspect brillant et accroît sa solidité) et de rési<pb source="https://nakala.fr/10.34847/nkl.f3afodrr#3c9988bc1398c49fb11949fa2dbd9990705da339" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3afodrr/3c9988bc1398c49fb11949fa2dbd9990705da339/full/full/0/default.jpg"/>nate de cuivre (qui lui donne sa couleur) ; colophane et résinate de cuivre étaient employés sous la forme brute de poix et de vert-de-gris. La cire vermeille est composée de cire d’abeille et de cinabre.</p>
         <p><hi rend="i">Quantités de cire utilisée pour le grand sceau et le sceau du secret.</hi> – Quelques comptes de l’émolument du grand sceau montrent que la cire était achetée par petites quantités chez divers épiciers. Sous François I<hi rend="sup">er</hi>, la petite chancellerie du Parlement consommait en moyenne trois fois plus de cire et au-delà que la grande chancellerie.</p>
         <p>Quelques comptes de l’Hôtel du roi mentionnent sous la rubrique « harnoys » les achats de cire vermeille pour le sceau du secret ; il y avait en général deux fournisseurs qui la procuraient alternativement.</p>
       </div>
-      <div>
+      <div xml:id="r830759">
         <head rend="uc">Chapitre IX
          <lb/>La légende des sceaux des rois de France</head>
         <p>La légende du grand sceau reprend la suscription des actes royaux. Charles VIII ajouta, sur celle de son troisième grand sceau, son numéro ordinal. La légende des sceaux ordonnés comporte une mention de la situation ayant amené leur emploi. A partir du second sceau de Philippe I<hi rend="sup">er</hi>, la légende est séparée du champ et encadrée par deux cercles grenetés. La légende du sceau de Robert le Pieux est précédée d’une croix pattée qui disparait sur les sceaux de ses successeurs et ne se maintient que sur les « sceaux en l’absence » de saint Louis, Philippe III, Philippe VI, Charles V et sur le premier sceau ordonné de Louis XI.</p>
@@ -127,15 +125,15 @@
         <p>D’Henri I<hi rend="sup">er</hi> à saint Louis, la formule <hi rend="i">Dei gracia</hi> est abrégée en <hi rend="i">Di gra. </hi>Il y a peu d’abréviations dans la légende des grands sceaux. A partir du sceau de Philippe-Auguste, les mots sont séparés les uns des autres.</p>
         <p>Les graveurs des légendes des sceaux des rois de France se sont montrés assez conservateurs tant pour la forme des lettres que pour leur disposition.</p>
       </div>
-      <div>
+      <div xml:id="r830796">
         <head rend="uc">Chapitre X
          <lb/>L’évolution du sceau de majesté en Europe</head>
         <p>Au milieu du <num>xi<hi rend="sup">e</hi></num> siècle, il y a de grandes analogies entre les sceaux de majesté employés par Henri I<hi rend="sup">er</hi> en France, Édouard le Confesseur en Angleterre et Henri II dans l’Empire. Les différences nationales se font plus nettement sentir un demi-siècle plus tard ; elles portent surtout sur la position des bras du souverain, qui pendant plus de deux siècles sera caractéristique de chaque pays, et sur la forme du trône : tandis qu’en France, le trône reste sobre et que la <pb source="https://nakala.fr/10.34847/nkl.f3afodrr#77e2e1527487586b01829b5179a2815ed65f6c46" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3afodrr/77e2e1527487586b01829b5179a2815ed65f6c46/full/full/0/default.jpg"/>silhouette royale se dégage bien au milieu d’un champ dépouillé d’ornements, en Angleterre, en Espagne et dans l’Empire le trône est de plus en plus richement orné et le champ se peuple de tout un décor de niches et de personnages.</p>
       </div>
-      <div>
+      <div xml:id="r830823">
         <head rend="uc">Pièces justificatives</head>
         <p>Analyse de huit échantillons de cire de sceaux de rois de France effectuée par les laboratoires de la Compagnie Saint-Gobain. – Reproductions de soixante-dix neuf sceaux avec leurs contre-sceaux.</p>
-        <div>
+        <div xml:id="r830832">
           <head rend="uc">Catalogue des sceaux des rois de France</head>
           <p>Catalogue de soixante-douze sceaux de rois de France, d’Hugues Capet à François I<hi rend="sup">er</hi>.</p>
         </div>

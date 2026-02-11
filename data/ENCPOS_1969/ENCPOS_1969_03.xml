@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,22 +54,22 @@
         <forename>Françoise</forename>
         <surname>Courcol</surname>
       </byline>
-      <div>
+      <div xml:id="r902631">
         <head rend="uc">Sources</head>
         <p>Les séries H et Q des Archives nationales ont fourni l’essentiel de la documentation, tant en ce qui concerne la construction du pont que la location des maisons. Accessoirement, les séries X et KK ont été utilisées, ainsi que le minutier central des notaires de Paris. L’iconographie, enfin, a été puisée au Cabinet des estampes de la Bibliothèque nationale et au Musée Carnavalet.</p>
       </div>
-      <div>
+      <div xml:id="r902641">
         <head rend="uc">Introduction
          <lb/>emplacement du pont Notre-Dame.
          <lb/>Les ouvrages antérieurs au pont du <num>xvi<hi rend="sup">e</hi></num> siècle</head>
         <p>L’emplacement du pont Notre-Dame semble pouvoir être identifié avec celui du Grand-Pont romain de Paris ; ce dernier devait nécessairement se trouver, en effet, dans l’axe du <hi rend="i">cardo</hi> antique représenté par la voie d’Orléans, continuée par le Petit-Pont, puis sur la rive droite par la rue Saint-Martin. Aucune indication ne peut être apportée sur la durée du pont romain ; on ne peut affirmer qu’il ait encore existé du temps de Grégoire de Tours. Trois siècles plus tard, au contraire, il est vraisemblable que l’ancien Grand-Pont avait été déplacé vers l’ouest, comme Abbon en apporte le témoignage. Il faut attendre le XIV<hi rend="sup">e </hi>siècle pour voir réapparaître un passage sur le fleuve entre l’île et la rive droite face à la rue Saint-Martin. Au début du <num>xv<hi rend="sup">e</hi></num> siècle, un pont de bois, bordé de « manoirs », fut édifié par la municipalité ; il s’écroula le 25 octobre 1499.</p>
       </div>
-      <div>
+      <div xml:id="r902675">
         <pb source="https://nakala.fr/10.34847/nkl.af3eji3j#c93a1df4767c9648ce7317e5623f557d2f1b5cf6" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.af3eji3j/c93a1df4767c9648ce7317e5623f557d2f1b5cf6/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Construction et architecture du pont et des maisons.
          <lb/>Ouvrages annexes</head>
-        <div>
+        <div xml:id="r902690">
           <head rend="uc">Chapitre premier
            <lb/>la construction du pont
            <lb/>(1499-1512)</head>
@@ -82,7 +80,7 @@
           <p>A partir de 1507, la municipalité se préoccupa de faire construire de chaque côté du pont soixante-huit maisons ; afin que ces édifices puissent contribuer à la décoration de la ville sans nuire par leurs poids à la solidité du pont, on décida d’utiliser la brique avec chaînages de pierre. L’emploi, pour la première fois à Paris, de cette combinaison, l’uniformité et la symétrie parfaite des édifices excitèrent l’admiration des contemporains et firent du pont Notre-Dame le premier édifice parisien de la Renaissance.</p>
           <p><hi rend="i">Prix de revient.</hi> – Une note inscrite sur le « Livre Rouge » du Châtelet donne la somme de 205.380 livres ; ce total paraît cependant difficile à vérifier, étant donné le caractère fragmentaire des renseignements qui nous sont parvenus.</p>
         </div>
-        <div>
+        <div xml:id="r902738">
           <pb source="https://nakala.fr/10.34847/nkl.af3eji3j#eaf53e8886cc2bbd8af49850812a7d0432e217c0" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.af3eji3j/eaf53e8886cc2bbd8af49850812a7d0432e217c0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Ouvrages annexes et réparations du pont</head>
@@ -94,21 +92,21 @@
           <p>En 1659, le pont subit une révision complète. Jamais il ne s’y produisit d’accidents semblables à ceux qui, trop souvent, frappèrent les autres ponts de Paris.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r902792">
         <head rend="uc">Deuxième partie
          <lb/>Les maisons du pont Notre-Dame et leurs habitants</head>
-        <div>
+        <div xml:id="r902800">
           <head rend="uc">Chapitre premier
            <lb/>la politique financière de la ville en matière de baux</head>
           <p>A l’origine, la ville passait des baux pour une durée de neuf ans et se réservait le droit de choisir ses locataires. Le montant des loyers s’éleva régulièrement, mais on note une chute des prix au moment des guerres de religion ; il semble qu’au <pb source="https://nakala.fr/10.34847/nkl.af3eji3j#d8ef944b853811615534eab57054042743032d1e" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.af3eji3j/d8ef944b853811615534eab57054042743032d1e/full/full/0/default.jpg"/> prix des loyers s’ajoutèrent, aux <num>xvi<hi rend="sup">e</hi></num> et <num>xvii<hi rend="sup">e</hi></num> siècles, des droits d’entrée et même des pots de vin. A partir de 1602, la durée des baux fut réduite à six ans ; à partir de 1699, la ville ne choisit plus ses locataires, mais passa les baux aux enchères. Un certain nombre de clauses restrictives furent en outre ajoutées au cours des ans, telle l’obligation, par exemple, de réserver une « chambre » aux prévôt et échevins pour les entrées des rois et les fêtes solennelles.</p>
         </div>
-        <div>
+        <div xml:id="r902829">
           <head rend="uc">Chapitre II
            <lb/>Description et entretien des maisons</head>
           <p>Les visites régulières qu’effectua la ville dans les maisons du pont, consignées dans des procès-verbaux très précis, soulignent la vigilance exercée par la municipalité sur les biens dépendant de son domaine et apportent des renseignements sur l’état primitif des lieux et les aménagements qu’ils subirent. Les maisons comprenaient : du côté de la rue, un caveau aveugle, un ouvroir au rez-de-chaussée, deux étages et un comble ; du côté de la rivière, on accédait par quelques marches du caveau à la cuisine, puis de l’ouvroir à l’arrière-boutique, la différence de niveau étant rachetée dès le premier étage.</p>
           <p>Très petites et incommodes à l’origine, les demeures furent progressivement surélevées et agrandies par des pièces en encorbellement sur le fleuve, tandis que, à l’intérieur, des cloisons légères furent établies et des cheminées à boiseries aménagées.</p>
         </div>
-        <div>
+        <div xml:id="r902844">
           <head rend="uc">Chapitre III
            <lb/>Délimitations administratives et religieuses.
            <lb/>Numérotage et enseignes</head>
@@ -116,7 +114,7 @@
           <p>Elles dépendaient de trois paroisses : Saint-Jacques de la Boucherie, Saint-Gervais et Sainte-Marie-Magdeleine en la Cité.</p>
           <p>Des numéros leur furent attribués, qui paraissent avoir constitué pour la ville un moyen pratique de recenser les immeubles, tandis que les enseignes servaient à les différencier pour le public et à donner les adresses.</p>
         </div>
-        <div>
+        <div xml:id="r902864">
           <head rend="uc">Chapitre IV
            <lb/>Locataires. Le pont dans l’histoire</head>
           <p>La situation du pont Notre-Dame au centre de la vie religieuse, administrative et commerciale de la capitale en faisait un endroit privilégié. Ses habitants, très nombreux à porter le titre de bourgeois de Paris, appartenaient à la classe <pb source="https://nakala.fr/10.34847/nkl.af3eji3j#ca84ebc2837961c46c2bc7cc4135edc7ff30e2e5" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.af3eji3j/ca84ebc2837961c46c2bc7cc4135edc7ff30e2e5/full/full/0/default.jpg"/>aisée de la société et tenaient des commerces de luxe. Plumassiers, merciers, chapeliers, libraires et même orfèvres, malgré l’interdiction énoncée par les lettres de fondation de Charles VI, formaient l’essentiel des commerçants au début du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
@@ -125,7 +123,7 @@
           <p>Les troubles politiques qui ébranlèrent le <num>xvi<hi rend="sup">e</hi></num> et le <num>xvii<hi rend="sup">e</hi></num> siècle eurent des répercussions sur la vie du pont Notre-Dame : pendant les guerres de religion, plusieurs maisons furent pillées et leurs occupants massacrés ; au moment de la Fronde, on y éleva des barricades.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r902913">
         <head rend="uc">Troisième partie
          <lb/>Le pont Notre-Dame, voie triomphale</head>
         <p>La municipalité parisienne avait coutume de recevoir en grande pompe le monarque nouvellement sacré, à son retour de Reims ; alors que la tradition voulait que l’itinéraire royal passât la Seine au pont au Change, François I<hi rend="sup">er</hi>, le 15 février 1515, se rendit à la cathédrale par le pont Notre-Dame, conférant à celui-ci le titre de voie royale.</p>
@@ -135,13 +133,13 @@
         <p>Les artistes qui dirigeaient l’entreprise voulaient non seulement faire œuvre esthétique, mais encore politique en exaltant, dans toutes leurs manifestations, la puissance du prince.</p>
         <p>Une dernière fois, le 2 mars 1722, afin d’honorer l’infante d’Espagne qui aurait dû épouser Louis XV, on décora le pont Notre-Dame.</p>
       </div>
-      <div>
+      <div xml:id="r902949">
         <head rend="uc">Conclusion</head>
         <p>La présence de maisons sur un pont était contraire aux règles de l’urbanisme du <num>xviii<hi rend="sup">e</hi></num> siècle. Aussi, alléguant des raisons de salubrité et d’embellissement, Louis XV, par les lettres patentes du 22 avril 1769, avait-il annoncé le projet de détruire tous les édifices qui bordaient les ponts de Paris ; la municipalité donna enfin son accord en 1784 et réclama en compensation l’exonération de charges équivalant au revenu des loyers, en l’espèce l’entretien des juridictions et des prisons.</p>
         <p>Ces propositions ayant été acceptées par arrêt du Conseil en date du 14 août 1785, congé fut donné aux locataires, et les entrepreneurs à qui furent adjugés les travaux de démolition remplacèrent les maisons de la Renaissance par des parapets et des trottoirs.</p>
         <p>C’est ainsi que le pont Notre-Dame, voie remarquable par son élégance, ne devint plus qu’un chemin reliant une rive à l’autre. Et ce qui suscite aujourd’hui nos regrets fut accueilli avec enthousiasme par les contemporains.</p>
       </div>
-      <div>
+      <div xml:id="r902971">
         <head rend="uc">Appendices</head>
         <p>Liste des habitants des soixante-huit maisons, avec leur profession. – Plans du pont Notre-Dame et de deux de ses maisons. – Album de photographies.</p>
       </div>

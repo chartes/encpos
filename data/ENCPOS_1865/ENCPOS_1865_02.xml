@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1865_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1865_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -55,7 +53,7 @@
         <forename>Daniel</forename>
         <surname>Bernard</surname>
       </byline>
-      <div>
+      <div xml:id="r51643">
         <head rend="uc">I
          <lb/>partie biographique.</head>
         <p>Plan général de la thèse.</p>
@@ -78,7 +76,7 @@
         <p>Il meurt à Avignon en 1449 et non en 1458 ; date, selon les conjectures de Duchesne.</p>
         <p>Quelle était sa valeur littéraire comme poëte et comme orateur.</p>
       </div>
-      <div>
+      <div xml:id="r51722">
         <head rend="uc">II
          <lb/>partie bibliographique.</head>
         <p>Catalogue des œuvres d’Alain Chartier, renfermées dans les manuscrits de la Bibliothèque impériale, dépouillés et classés par leurs numéros d’ordre.</p>
@@ -88,7 +86,7 @@
         <p>Table alphabétique des matières.</p>
         <p>Liste des diverses éditions imprimées, classées d’après leur ordre chronologique.</p>
       </div>
-      <div>
+      <div xml:id="r51749">
         <head rend="uc">III
          <lb/>partie critique.</head>
         <p>Histoire des différentes éditions (Colard Mansion, P. le Caron, Galliol Dupré et Duchesne).</p>

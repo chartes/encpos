@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,9 +60,9 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r344652">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r344658">
           <head rend="uc">Sources</head>
           <p>1. Les registres criminels du parlement de Paris et les actes des rois de France. – Procédure employée contre les hérétiques sous François I<hi rend="sup">er</hi> : ordonnance de Fontainebleau, 1540. – Sous Henri II : édits du 19 novembre 1549 et du 27 juin 1551. – Sous François II : édit de Romorantin, mars 1560. – Distinction entre les laïcs et les clercs jouissant du privilège de clergie. – Les Inquisiteurs de la Foi. – Motifs pour lesquels on était poursuivi. Les peines. – Ordonnances du Parlement contre les hérétiques.</p>
           <p>2. Les délibérations capitulaires du chapitre de Saint-Julien du Mans. – Petit nombre des registres originaux. – Extraits fournis par le ms. 257 de la Bibliothèque du Mans.</p>
@@ -79,7 +77,7 @@
           <p>10. Remontrance du 29 avril 1562. Son peu d’intérêt pour l’histoire locale. – C’est le seul document émanant des protestants pendant l’occupation.</p>
           <p>Auteurs qui ont écrit spécialement sur la province du Maine. – Peu de valeur de leurs écrits. – Les ouvrages généraux.</p>
         </div>
-        <div>
+        <div xml:id="r344724">
           <head rend="uc">Deuxième partie</head>
           <p>Les origines de la Réforme. – Critique de l’opinion de Dom Piolin. – Jugement de Jehan le Coq par le Parlement (décembre 1535). – – Propagation rapide de la Réforme parmi les prêtres, les gens de métier, les officiers de la ville et ceux du roi. – Les mesures prises par la Royauté et le Parlement restent sans effet.</p>
           <p>Constitution de l’Église du Mans (1<hi rend="sup">er</hi> janvier 1561) – Division de la ville et des faubourgs en cinq cantons. Les « surveillants » ; les ministres ; les diacres ; le scribe ; les « senieurs ». – Instruction des fidèles dans les « exhortations ». – Prohibition des jeux de dés, de cartes, etc.</p>

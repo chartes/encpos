@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -53,19 +51,19 @@
         <forename>Claire</forename>
         <surname>Lesage</surname>
       </byline>
-      <div>
+      <div xml:id="r1121452">
         <head rend="uc">Introduction</head>
         <p>Le <hi rend="i">Mercure de France</hi> a connu une carrière et une longévité exceptionnelles. De 1890, date de sa création, à 1965, son importance fut capitale dans la vie littéraire française, particulièrement jusqu’à l’année 1914. Cependant, peu d’études lui ont été consacrées : après les souvenirs plus ou moins attendris et embellis des témoins, la revue et la maison d’édition au caducée n’ont éveillé qu’un intérêt assez faible chez les historiens, sauf pour des points de détail.</p>
         <p>La perte des archives du <hi rend="i">Mercure de France,</hi> qui avaient pourtant été soigneusement conservées par le directeur Alfred Vallette, de 1890 à sa mort en 1935, constitue en effet un premier obstacle matériel, qui interdit toute statistique et prive les chercheurs de renseignements très précis sur le fonctionnement interne de la maison. D’autre part, les autres sources auxquelles ils doivent se reporter nourrissent plutôt d’ordinaire l’histoire littéraire ; or le <hi rend="i">Mercure de France</hi> peut ne pas sembler le sujet idéal d’une telle discipline : sa longévité, source de changements et d’évolutions, lui retire le caractère exemplaire et frappant d’une expérience brève ; de plus, les hommes qui restèrent si longtemps à sa tête furent toujours très discrets, malgré leur remarquable compétence. Les travaux de critique l’étudient donc plutôt comme point de comparaison, en utilisant les résultats visibles isolés de leur contexte (collection de la revue et production éditoriale) et non comme sujet en soi, qui possède ses stratégies propres.</p>
         <p>Il est néanmoins possible d’étudier la revue et les éditions du <hi rend="i">Mercure de France</hi> en elles-mêmes et de les replacer dans les conditions qui leur ont donné naissance, de comprendre les intentions des fondateurs, les réussites ou les déceptions, les successives adaptations aux changements de la vie littéraire. Car, dans sa forme, et même dans son contenu, une petite revue est tout autant un reflet de la vie littéraire que de la littérature elle-même.</p>
       </div>
-      <div>
+      <div xml:id="r1121484">
         <pb source="https://nakala.fr/10.34847/nkl.4c857922#fdae420d1f1c791540836f9937f868ae1edf49e3" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.4c857922/fdae420d1f1c791540836f9937f868ae1edf49e3/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Les lacunes de la documentation sont réelles : en particulier, on ne peut que regretter l’absence de registres, qui, pour la revue, indiqueraient le nombre et l’identité des abonnés à la revue, son tirage..., permettant ainsi de mieux connaître les lecteurs, et, pour les éditions, fourniraient les tirages de tous les volumes, leur rythme de vente... Il manque également une série complète des contrats d’édition qui favoriserait l’étude de leur évolution et de leur perfectionnement.</p>
         <p>Les sources permettent néanmoins une autre approche que l’étude purement littéraire. Les correspondances et les journaux d’hommes de lettres, manuscrits ou imprimés, les contrats d’éditeurs et divers documents personnels d’écrivains reflètent les activités de la société littéraire, et du <hi rend="i">Mercure de France</hi> en particulier, et soulignent leurs rapports. Les correspondances manuscrites sont essentiellement conservées à la Bibliothèque littéraire Jacques Doucet (où se trouvent en particulier tout le fonds Léautaud et de nombreux documents sur Alfred Vallette et sa femme Rachilde, donnés par M<hi rend="sup">me</hi> Fort-Vallette), à la Bibliothèque nationale et à la Bibliothèque de l’institut. Les journaux manuscrits sont celui d’Henri de Régnier, partagé entre la Bibliothèque nationale et la Bibliothèque de l’institut, et celui de Jehan Rictus (qui signait encore Gabriel Randon quand il collaborait au <hi rend="i">Mercure de France</hi>), conservé à la Bibliothèque nationale. Parmi les journaux édités, figurent essentiellement celui de Jules Renard et celui de Paul Léautaud. Il faut <hi rend="i">y</hi> ajouter de nombreux volumes de souvenirs. Enfin la revue et les livres édités sous le signe du caducée sont les résultats achevés, les « produits finis » de l’activité du <hi rend="i">Mercure de France.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1121521">
         <head rend="uc">Première partie
          <lb/>Le <hi rend="i">Mercure de France :</hi> un produit typique
          <lb/>de la jeune société littéraire
@@ -82,7 +80,7 @@
         <p>Mais le <hi rend="i">Mercure</hi> possède aussi des caractères propres, dont certains se révéleront des avantages exceptionnels. La revue est un point de rassemblement tout désigné, puisqu’elle occupe le domicile des Vallette, gens de lettres accueillants à leurs semblables. Le 15, rue de l’Échaudé devient rapidement un centre très actif de vie littéraire – d’effervescence littéraire. Le principe de liberté et d’indépendance, qui régit les rapports des collaborateurs avec le directeur ou leurs confrères, et les relations de la revue avec l’extérieur, la garde de toute compromission.</p>
         <p>Cependant, les atouts les plus importants du <hi rend="i">Mercure</hi> tiennent à la personne même de Vallette que ses amis ont choisi comme le meilleur administrateur possible. Il réunit toutes les aptitudes idéales pour un directeur de revue : désintéressement, méthode, ordre, sens pratique, économie, prudence, puissance de travail, autorité... Les proches d’Alfred Vallette insistent tous sur ces qualités et soulignent son abnégation : sa situation – un homme de lettres à la carrière interrompue – lui permet à la fois de comprendre intimement les intérêts des écrivains et de rester neutre au sein même de la revue ; il est juge et non partie. Son indifférence à la gloire lui permet d’éviter hâtes et emballements, de modifier la <pb source="https://nakala.fr/10.34847/nkl.4c857922#34342ce2d39423d545c88195a115a0de963b2932" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.4c857922/34342ce2d39423d545c88195a115a0de963b2932/full/full/0/default.jpg"/>revue lentement, en suivant étroitement la courbe de ses succès. Quand il décide de changements dans le <hi rend="i">Mercure,</hi> ce n’est pas pour rejoindre une image préétablie ; il adapte souplement la revue aux conditions matérielles ou intellectuelles nouvelles. Ce pragmatisme ne signifie pourtant pas inconstance, car Vallette applique à ses choix ses principes stricts de valeur, de liberté et de loyauté.</p>
       </div>
-      <div>
+      <div xml:id="r1121641">
         <head rend="uc">Deuxième partie
          <lb/>L’évolution et l’affermissement
          <lb/>du <hi rend="i">Mercure de France</hi></head>
@@ -99,11 +97,11 @@
         <p>Les succès matériels n’introduisent pas au <hi rend="i">Mercure</hi> la prudence, la peur de perdre ces avantages lentement acquis ; Vallette se soucie peu de ménager les susceptibilités ou les pudeurs de tout ordre, naturellement dans la limite du respect humain et de son horreur des « histoires ». Il refuse de se priver de collaborations dont se plaignent certains lecteurs. La réussite n’a pas gâté son amour de l’indépendance.</p>
         <p>La liberté du <hi rend="i">Mercure de France</hi> dans la société littéraire et éditoriale et le refus d’adopter certaines de ses « mauvaises manières » ne l’incitent cependant pas à prendre une position de retrait. Au contraire, le <hi rend="i">Mercure</hi> a pris en charge un rôle très important des petites revues, celui de moteur de la vie littéraire, hors des lieux qui lui sont exclusivement consacrés, comme le salon de Rachilde. Beaucoup d’activités littéraires publiques ont utilisé le <hi rend="i">Mercure</hi> comme canal et moyen d’existence (parmi d’autres revues, mais d’une façon privilégiée). Et les « gens du Mercure » eux-mêmes y participent très activement.</p>
       </div>
-      <div>
+      <div xml:id="r1121825">
         <head rend="uc">Conclusion</head>
         <p>La revue, les éditions et la maison du <hi rend="i">Mercure de France</hi> s’adaptent donc avec une parfaite souplesse à une réalité lucidement analysée : les mises au point d’Alfred Vallette, à tous les moments de l’existence du <hi rend="i">Mercure,</hi> manifestent une rare clairvoyance à l’égard du monde de la presse ou de l’édition. Les évolutions du <hi rend="i">Mercure</hi> sont des réponses très adéquates à des besoins précis. Elles utilisent souvent des structures déjà existantes, mais incomplètes ou fragiles, et les perfectionnent à tel point qu’elles deviennent durables et efficaces. Cependant, ces justes répliques aux lacunes du système littéraire ne se réduisent pas à un opportunisme servile, car elles sont accompagnées d’un choix que guident de stricts cri<pb source="https://nakala.fr/10.34847/nkl.4c857922#49090f21742f3247aa533388560ad88bfbbf550e" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.4c857922/49090f21742f3247aa533388560ad88bfbbf550e/full/full/0/default.jpg"/>tères de valeur : la revue refuse de suivre certaines évolutions du monde éditorial.</p>
       </div>
-      <div>
+      <div xml:id="r1121852">
         <head rend="uc">Pièces justificatives</head>
         <p>Quatorze lettres de Francis Jammes à Paul Morisse (1910-1915). – Choix d’articles extraits du <hi rend="i">Mercure de France</hi> ou concernant la vie de la revue.</p>
       </div>

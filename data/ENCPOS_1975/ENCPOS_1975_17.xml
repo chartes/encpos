@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,26 +54,26 @@
         <forename>Anne-Marie</forename>
         <surname>Kaminski–Parisot de Bernecourt</surname>
       </byline>
-      <div>
+      <div xml:id="r1004393">
         <head rend="uc">Sources</head>
         <p>La source principale de notre étude est la série G des Archives départementales du Doubs, à la fois considérable et fragmentaire par suite des destructions de la Révolution. Aux Archives départementales du Doubs, nous avons également consulté la série B (archives des bailliages), ainsi que la série C (intendance de Franche-Comté) et la série E supplément (titres des familles).</p>
         <p>L’enquête a été complétée par des sondages dans les séries correspondantes des Archives départementales du Jura et de la Haute-Saône.</p>
       </div>
-      <div>
+      <div xml:id="r1004406">
         <head rend="uc">Introduction
          <lb/>le diocèse de Besançon. Étendue et divisions</head>
         <p>Le diocèse de Besançon est très étendu. A peu de chose près, sa superficie représente celle des actuels départements du Doubs, du Jura et de la Haute-Saône augmentés du Territoire de Belfort et d’une petite partie du Jura suisse. Il est limité par les diocèses de Toul, Langres, Dijon, Chalon-sur-Saône, par l’archevêché de Lyon et les évêchés de Belley et de Bâle. A quelques exceptions près, les limites du diocèse coïncident avec celles de la Franche-Comté. Au cours du <num>xviii<hi rend="sup">e</hi></num> siècle, ces limites ont subi de légères modifications. En 1742, lors de la création de l’évêché de Saint-Claude, l’archevêque de Besançon cède au nouvel <pb source="https://nakala.fr/10.34847/nkl.59b8zhh0#2b1d99237519bc8e4dad3750ab4d68e4ccbee8ed" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.59b8zhh0/2b1d99237519bc8e4dad3750ab4d68e4ccbee8ed/full/full/0/default.jpg"/>évêque sept paroisses. En 1779, l’archevêque et son suffragant l’évêque de Bâle échangent une vingtaine de paroisses. Le diocèse est divisé en quinze doyennés ruraux. Chacun d’eux a à sa tête un archiprêtre ou doyen rural. Ce sont des auxiliaires précieux pour l’archevêque. Ils portent les saintes huiles aux curés, font connaître les mandements archiépiscopaux, mais leur fonction principale est la surveillance et le renseignement. Leurs rapports et leurs correspondances constituent une source d’intérêt exceptionnel ; malheureusement il n’en reste que des fragments.</p>
       </div>
-      <div>
+      <div xml:id="r1004429">
         <head rend="uc">Première partie
          <lb/>Le cadre paroissial</head>
-        <div>
+        <div xml:id="r1004437">
           <head rend="uc">Chapitre premier
            <lb/>les paroisses</head>
           <p>11 est difficile de donner un chiffre précis. Les auteurs anciens ne sont pas tous d’accord. En 1705, il y aurait eu 748 églises portant officiellement le titre de paroissiales ; l’Almanach de Besançon de 1772 totalise 819 paroisses et après 1782 on estime le nombre des paroisses pourvues à 840. Au début du <num>xviii<hi rend="sup">e</hi></num> siècle, les Luthériens occupent quelques paroisses des doyennés d’Ajoye et de Rougemont (région d’Héricourt). Ces villages sont rendus au culte catholique dans le courant du siècle.</p>
           <p>En règle générale, les paroisses du diocèse sont étendues. Elles englobent plusieurs communautés villageoises auxquelles s’ajoutent hameaux, métairies et groupes de forgerons ou de bûcherons vivant dans les bois. Quelques-unes sont monstrueuses. Cette situation pose des problèmes : desserte difficile dans un pays montagneux aux hivers rudes ; crainte des habitants de mourir ou de voir mourir leurs proches sans sacrements ; procès et conflits sans fin entre les divers villages surtout au sujet des réparations à faire à l’église ou à la maison curiale.</p>
         </div>
-        <div>
+        <div xml:id="r1004458">
           <pb source="https://nakala.fr/10.34847/nkl.59b8zhh0#0de0cc4cdbfa53b650055982c8b96ee099bb5ff6" n="137" facs="https://api.nakala.fr/iiif/10.34847/nkl.59b8zhh0/0de0cc4cdbfa53b650055982c8b96ee099bb5ff6/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les hommes</head>
@@ -84,13 +82,13 @@
           <p>On trouve dans certaines paroisses des « familiarités » ; ce sont des corps de prêtres qui n’ont pas charge d’âmes, et dont la principale activité est la desserte des messes de fondations.</p>
           <p>Spécialement dans les paroisses peuplées, il est fréquent de voir le curé faire appel à des réguliers de divers ordres pour l’aider à vaquer aux confessions au moment des grandes fêtes.</p>
         </div>
-        <div>
+        <div xml:id="r1004484">
           <head rend="uc">Chapitre III
            <lb/>Les églises</head>
           <p>En principe, il y a l’église paroissiale où tout le monde est tenu de se rendre pour assister à la messe de paroisse. En fait, de nombreux villages ont une église filiale ou succursale de l’église paroissiale : en 1705 il y en a 310. Suivant le cas, ces églises sont desservies par le curé régulièrement (tous les dimanches ou tous les quinze jours suivant accord entre le curé et les habitants) ou bien par un vicaire qui réside dans le village.</p>
           <p>La règle veut que mariages, baptêmes et enterrements ne se fassent qu’à l’église paroissiale, mais il y a des dérogations. Les églises ont beaucoup souffert des guerres et des épidémies qui ont ravagé la Franche-Comté pendant le <num>xvii<hi rend="sup">e</hi></num> siècle. Détruites ou laissées à l’abandon par le manque de prêtres après la « guerre de dix ans », elles ne sont pas encore rétablies à la fin du siècle. Les visites des doyens ruraux montrent que dans les dernières années du <num>xvii<hi rend="sup">e</hi></num> siècle, si un effort de réparation et de reconstruction a déjà été entrepris, il reste encore beaucoup à faire : vieux ciboires en laiton souvent fendus, tabernacles branlants, linges déchirés ou pourris, ornements et livres insuffisants. Les fonts baptismaux sont mal entretenus. Quant aux cimetières, jamais entièrement clos, ils servent de pâture au bétail. Très peu d’églises ont une sacristie correctement équipée.</p>
         </div>
-        <div>
+        <div xml:id="r1004511">
           <pb source="https://nakala.fr/10.34847/nkl.59b8zhh0#7e5c58a6513efda25d0ad6ea9b0ccbf084fa60f0" n="138" facs="https://api.nakala.fr/iiif/10.34847/nkl.59b8zhh0/7e5c58a6513efda25d0ad6ea9b0ccbf084fa60f0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Évolution au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
@@ -98,29 +96,29 @@
           <p>Le financement de ces travaux n’est pas simple. Communautés villageoises, seigneurs, rechignent souvent. Dans ces cas-là, le curé fait appel à l’ordinaire : les menaces d’interdit ne suffisent pas toujours ; l’interdit lui-même n’empêche pas les paroissiens de tarder à passer les marchés. Souvent le curé est obligé de participer aux dépenses. Le cadre paroissial se modifie également par le démembrement de paroisses trop grandes, ce qui ne se fait pas toujours avec l’accord du curé qui voit diminuer ses revenus. La desserte des églises filiales est améliorée par la multiplication des vicaires. Certaines chapelles sont agrandies et élevées au rang d’églises.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1004538">
         <head rend="uc">Deuxième partie
          <lb/>Recrutement, études, culture et moralité</head>
-        <div>
+        <div xml:id="r1004546">
           <head rend="uc">Chapitre premier
            <lb/>Collation des bénéfices curiaux</head>
           <p>La plus grande partie des paroisses du diocèse ont un patron. Le droit de patronage appartient très souvent à un ecclésiastique ou à une communauté religieuse, mais on trouve aussi des patrons laïcs en nombre moindre. Parfois le patronage est mixte : dans ce cas, il s’exerce en général à tour de rôle. Outre quelques avantages honorifiques ou financiers, le patron a le droit de présenter un candidat à l’ordinaire ; il peut aussi s’opposer à toute nomination de bénéficier faite sans son accord sauf si le bénéfice a été conféré par le pape.</p>
           <p>Au <num>xviii<hi rend="sup">e</hi></num> siècle, la pratique des cures mises au concours afin de susciter le meilleur candidat se développe avec l’appui du cardinal de Choiseul.</p>
           <p>Les décrets du concile de Trente s’opposent à la possession de plusieurs bénéfices à charge d’âmes. Cette mesure est respectée en Franche-Comté, mais certains curés augmentent leurs revenus par la possession d’une ou plusieurs chapellenies.</p>
         </div>
-        <div>
+        <div xml:id="r1004570">
           <pb source="https://nakala.fr/10.34847/nkl.59b8zhh0#d503f9749f03feab8fe4e86f65e4bea7ceb61fac" n="139" facs="https://api.nakala.fr/iiif/10.34847/nkl.59b8zhh0/d503f9749f03feab8fe4e86f65e4bea7ceb61fac/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Origines sociales</head>
           <p>Il est très difficile de déterminer l’origine sociale des curés. Il semble cependant qu’il ait été difficile à un pauvre de faire carrière dans l’Église. On exige des candidats au sous-diaconat un titre patrimonial ; en général, il s’agit d’une rente assignée sur des immeubles dont la durée est variable : cette rente peut être viagère ou versée jusqu’au moment où le jeune clerc est pourvu d’un bénéfice. La valeur en est variable également. Pour le début du <num>xviii<hi rend="sup">e</hi></num> siècle, on n’en trouve pas d’inférieure à 133 francs 6 gros en monnaie comtoise (une centaine de livres en monnaie du royaume).</p>
           <p>Peu de nobles font carrière dans le clergé rural mais on en trouve ; ce sont essentiellement des cadets de familles seigneuriales locales. En fait, toutes les classes sont peu ou prou représentées, sauf les fils de marchands, semble-t-il.</p>
         </div>
-        <div>
+        <div xml:id="r1004596">
           <head rend="uc">Chapitre III
            <lb/>Origines géographiques</head>
           <p>Au <num>xvii<hi rend="sup">e</hi></num> siècle, pour parer aux désordres causés par la « Guerre de dix ans », l’archevêque Claude d’Achey avait fait appel à des prêtres étrangers à la Comté. Mais ce n’est qu’une exception : au <num>xviii<hi rend="sup">e</hi></num> siècle tous les curés sont francs-comtois. L’usage veut qu’on ne mette jamais un curé à la tête de la paroisse dont il est originaire.</p>
         </div>
-        <div>
+        <div xml:id="r1004620">
           <head rend="uc">Chapitre IV
            <lb/>Études et formation</head>
           <p>Au milieu du <num>xvii<hi rend="sup">e</hi></num> siècle, le curé ignorant n’est pas une rareté ; les rapports des doyens ruraux signalent encore à la fin du siècle quelques curés incapables de tenir les registres paroissiaux en latin.</p>
@@ -129,12 +127,12 @@
           <p>On insiste beaucoup sur la confession. Un prêtre ne peut confesser avant d’avoir vingt-sept ans. Il doit passer un examen précédé d’une retraite d’approbation. L’autorisation de confesser n’est pas obtenue à vie ; il est fréquent de la voir limitée à un an ou même quelques mois. Sauf autorisation spéciale de l’ordinaire, un simple curé ne peut absoudre les cas réservés. Ces autorisations sont assez fréquemment données à cause de l’étendue du diocèse et des difficultés de circuler en hiver.</p>
           <p>La formation des curés ou des vicaires n’est pas terminée une fois qu’ils sont installés dans leurs paroisses ; elle doit continuer leur vie durant. Ils sont tenus de participer aux conférences qui ont lieu dans le cadre de chaque doyenné rural et aux retraites du séminaire. Il ne semble pas que l’assiduité ait été de règle pour un bon nombre d’entre eux.</p>
         </div>
-        <div>
+        <div xml:id="r1004655">
           <head rend="uc">Chapitre V
            <lb/>Les progrès de la culture au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>On trouve en Franche-Comté quelques brillantes individualités au XVIII<hi rend="sup">e </hi>siècle, mais le progrès de la culture est sensible partout. On ne trouve plus de plaintes contre des curés ignorants. L’étude des inventaires après décès montre que les grandes bibliothèques sont exceptionnelles mais que de nombreux curés ont « quelques livres ». Bibles, livres de sermons et de méditations sont la majorité. Les jésuites sont très lus, ainsi que les œuvres de saint François de Sales. Peu de livres suspects (on trouve cependant parmi les auteurs Jansénius et Pascal) ; on ne rencontre pratiquement pas de livres hérétiques écrits par des théologiens luthériens ou calvinistes, mais des histoires des schismes et hérésies diverses, avec notamment les ouvrages du P. Mainbourg, jésuite. Les ouvrages profanes sont exceptionnels : écrivains de l’Antiquité (Cicéron, Juvénal), livres de jardinage. On a l’impression que les curés francs-comtois vivent un peu hors de leur siècle ; cette impression doit être nuancée car les livres, atlas et cartes de géographie sont présents dans de nombreuses maisons curiales.</p>
         </div>
-        <div>
+        <div xml:id="r1004677">
           <head rend="uc">Chapitre VI
            <lb/>Conduite et moralité</head>
           <p>Le progrès de la culture s’est-il accompagné d’un progrès de la moralité ? Ici encore, une réponse définitive est difficile.</p>
@@ -145,10 +143,10 @@
           <p>Pour se défendre, le prévenu peut interjeter appel comme d’abus au Parlement (mais ces appels sont rarement reçus) ou obtenir un rescrit pontifical qui permet de faire rejuger le procès par l’officialité d’un diocèse voisin.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1004707">
         <head rend="uc">Troisième partie
          <lb/>Éléments de fortune</head>
-        <div>
+        <div xml:id="r1004715">
           <head rend="uc">Chapitre premier
            <lb/>revenus des cures</head>
           <p>A en croire les curés, les ressources qu’ils tirent de leurs cures sont limitées. Les demandes de modérations pour le don gratuit sont très nombreuses ; d’ailleurs, la Chambre ecclésiastique du diocèse les refuse très souvent. Les cures sont d’un rapport très variable : du simple au triple (et même au quadruple pour certaines) au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
@@ -162,7 +160,7 @@
           <p><hi rend="i">Ressources diverses.</hi> – Les droits de charrue, bons deniers michottes, livraison de beurre et de fromage (dans la montagne), gerbes de passion sont, si l’on en croit les curés, fort mal payés à cause de la pauvreté des gens. Les règlements de droits curiaux sont périodiquement revus, mais les curés les trouvent en général trop bas. Le casuel n’est intéressant que dans les paroisses suffisamment peuplées, mais il y a de nombreux impayés.</p>
           <p><hi rend="i">Les messes de fondation.</hi> – Cette sorte de revenu fait défaut aux curés des paroisses récentes qui essaient de pousser les paroissiens à en fonder. Les messes de fondation (ou bénédictions du Saint-Sacrement) sont acquittées par des rentes cédées au curé et à ses successeurs, ou par la cession de pièces de terre. Malheureusement, leur revenu est aléatoire. Certains curés doivent recourir à l’ordinaire pour s’en faire décharger ou du moins en diminuer le nombre car elles ne rapportent plus rien.</p>
         </div>
-        <div>
+        <div xml:id="r1004783">
           <head rend="uc">Chapitre II
            <lb/>Les charges</head>
           <p>Les charges qui pèsent sur le clergé des campagnes sont lourdes. Lorsqu’il s’agit de fixer celles qui doivent être prises en compte dans le calcul du don gratuit, la Chambre ecclésiastique ne prête attention qu’aux charges de messes de fondation et qu’à l’entretien du vicaire domestique s’il y en a un.</p>
@@ -174,7 +172,7 @@
           <p>Le curé décimateur doit contribuer aux réparations et à l’entretien du chœur même s’il ne perçoit la dîme qu’à titre de supplément de portion congrue ; ainsi en a décidé le parlement de Besançon.</p>
           <p>Les curés se plaignent fréquemment que toutes ces charges ne leur permettent pas de soulager les misères comme ils le devraient. Ils se plaignent aussi de ne pouvoir accueillir les voyageurs, les ermites qui sont amenés à passer par leurs villages. A la fin du siècle, on note chez quelques-uns un certain esprit « revendicatif » contre certains religieux réguliers dont les revenus pourraient faire vivre dans un seul village quatre curés en donnant à chacun d’eux 1 200 livres annuelles (1780).</p>
         </div>
-        <div>
+        <div xml:id="r1004818">
           <head rend="uc">Chapitre III
            <lb/>Fortune personnelle et cadre de vie</head>
           <p>Les inventaires après décès constituent une source intéressante quand ils sont complets, ce qui n’est pas souvent le cas pour les curés. Les officiers de bailliage sont surtout préoccupés par la sauvegarde des archives appartenant à la cure.</p>

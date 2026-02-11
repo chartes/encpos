@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,27 +57,27 @@
         <forename>Philippe</forename>
         <surname>Henwood</surname>
       </byline>
-      <div>
+      <div xml:id="r1040638">
         <head rend="uc">Introduction</head>
         <p>La première partie du règne de Charles VI apparaît comme une accalmie de courte durée à laquelle mettront bientôt fin la reprise de la guerre étrangère et la guerre civile. Aussi les dernières années du <num>xiv<hi rend="sup">e</hi></num> siècle et les toutes premières du siècle suivant brillent-elles d’un éclat nouveau. Cette période exceptionnelle atteint son apogée dans les années 1390-1405. Luxe et prodigalité rivalisent, une grande importance étant accordée aux arts dits « mineurs » et, en particulier, à l’orfèvrerie. La maladie du roi ne ralentit pas ce mouvement. Paris, où résident fréquemment les princes et leurs cours brillantes, profite au premier chef de la prospérité retrouvée.</p>
         <p>Dans ce contexte, la connaissance du trésor royal, entendu comme l’ensemble des joyaux et de la vaisselle du roi, présente un grand intérêt, tant économique qu’artistique : reflet de l’état des finances du roi, il l’est aussi de l’art et des goûts d’une époque. C’est pourquoi, à une étude « évolutive » rendant compte des principales causes de l’enrichissement mais aussi de la disparition progressive du trésor, fait suite une recherche sur l’orfèvrerie et les orfèvres parisiens pendant le règne de Charles VI.</p>
       </div>
-      <div>
+      <div xml:id="r1040657">
         <head rend="uc">Sources</head>
         <p>Les principales sources utilisées pour cette étude sont conservées :</p>
         <p>– aux Archives nationales : comptes royaux, spécialement ceux de l’argenterie de Charles VI et d’Isabeau de Bavière (KK 18-49), archives de la corporation <pb source="https://nakala.fr/10.34847/nkl.e32aib41#0db7d6c76effbfc1a9879a233157312b17c574bb" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.e32aib41/0db7d6c76effbfc1a9879a233157312b17c574bb/full/full/0/default.jpg"/> des orfèvres concernant la période (K 1033, K 1040 <hi rend="i">bis,</hi> K 1043, KK 1344-1345, T 1490<hi rend="sup">1-6</hi>) ainsi que diverses pièces des séries J, JJ, LL, P et Y ;</p>
         <p>– à la Bibliothèque nationale : inventaires du trésor (ms. fr. 21444-21447 et 23931), compte de Lomer le Ber en 1417 (ms. fr. 6747) et de très nombreux documents répartis entre la collection des Pièces originales, la collection de Bourgogne et l’ensemble du fonds des manuscrits français (comptes, inventaires de collections disparues, actes de Charles VI, etc.).</p>
       </div>
-      <div>
+      <div xml:id="r1040686">
         <head rend="uc">Première partie
          <lb/>Évolution du trésor royal</head>
-        <div>
+        <div xml:id="r1040694">
           <head rend="uc">Chapitre premier
            <lb/>présentation</head>
           <p><hi rend="i">Les inventaires du trésor royal de 1380 à 1422.</hi> – Plusieurs inventaires des joyaux, de la vaisselle et des autres objets composant le trésor royal permettent d’étudier l’évolution de sa composition pendant le règne de Charles VI. L’inventaire général que Charles V fit dresser à la veille de sa mort constitue un excellent point de départ. Il a été publié par Labarte en 1879. Deux copies tardives de cet inventaire, l’une partielle, l’autre intégrale, le complètent en indiquant le sort d’un grand nombre d’objets ôtés du trésor entre 1380 et 1390. Trois autres inventaires, également inédits, permettent de connaître la composition du trésor à des dates postérieures : celui de 1391 recense les collections du Louvre, de Saint-Germain-en-Laye et de Vincennes ; celui de 1400, le plus complet, y ajoute les châteaux de Melun et de la Bastille où le roi avait, entretemps, fait apporter une partie de ses joyaux ; l’inventaire de 1413, plus bref que les deux précédents, n’intéresse que la Bastille, le Louvre et Vincennes. Il faut y ajouter un récolement partiel opéré en 1415, un inventaire daté de 1418 et récolé en 1420 et l’inventaire après décès de Charles VI en 1422, qui sont autant de jalons pour cette étude. Le manque d’homogénéité dans le contenu et le classement interne de ces différents inventaires rend cependant malaisé leur usage direct et nécessite l’établissement de tableaux comparatifs.</p>
           <p><hi rend="i">Les gardes des joyaux et de la vaisselle du roi.</hi> – La rédaction d’un nouvel inventaire ou le récolement d’un inventaire précédent étaient généralement dus au changement du garde des joyaux. En 1380, plusieurs personnes se partageaient encore la responsabilité des trésors du roi, chacune se trouvant à la tête d’un des dépôts où ceux-ci étaient entreposés. En août 1391, Berthaut <pb source="https://nakala.fr/10.34847/nkl.e32aib41#64c7965e8f588afa1c4622ebe553460948a84472" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.e32aib41/64c7965e8f588afa1c4622ebe553460948a84472/full/full/0/default.jpg"/>de Landes reçut « la garde et gouvernement » de tous les joyaux et de la vaisselle du roi, à l’exception de ceux conservés dans le château de Melun dont restait chargé le capitaine Philippe de Savoisy. Puis, à partir de 1400, le trésor royal dans son ensemble fut confié à un seul homme en la personne de Gérard de Montagu, déjà maître des comptes et garde du trésor des chartes, qui occupa nominalement le poste de janvier à décembre 1400 avant de devenir chancelier du duc de Berry, évêque de Poitiers, conseiller de Louis d’Orléans puis évêque de Paris. Gérard de Bruyères, secrétaire du roi et personnalité plus effacée, lui succéda. La guerre civile rendit parfois sa position difficile. Aussi, à sa demande, fut-il, en septembre 1413, remplacé par le garde de l’Épargne, Guillaume Fouquaut, puis, à la fin de l’année 1415, par Jacques l’Empereur, garde des deniers des coffres du roi ; ce dernier dut céder sa place au Bourguignon Jean de Poligny, dit Chapelain, en mai 1418.</p>
         </div>
-        <div>
+        <div xml:id="r1040720">
           <head rend="uc">Chapitre II
            <lb/>Le trésor royal pendant le règne de Charles VI</head>
           <p>L’étude de l’évolution de la composition du trésor royal pendant le règne de Charles VI est essentiellement négative. Les enrichissements de la première partie du règne et les tentatives du roi pour freiner un mouvement que la guerre et les besoins financiers sans cesse croissants rendaient irréversible ne purent empêcher la disparition de l’ensemble des richesses rassemblées par Charles V et dont l’inventaire de 1380 reflétait l’éblouissante image.</p>
@@ -103,10 +101,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1040817">
         <head rend="uc">Deuxième partie
          <lb/>Les orfèvres parisiens et les artistes du roi</head>
-        <div>
+        <div xml:id="r1040825">
           <head rend="uc">Chapitre premier
            <lb/>le métier de l’orfèvrerie à Paris sous Charles VI</head>
           <p>L’orfèvrerie parisienne connut dans les dernières années du <num>xiv<hi rend="sup">e</hi></num> siècle et pendant la première décennie du siècle suivant une période privilégiée. Les cours s’ornèrent d’une parure étincelante d’or et de pierres précieuses. Le roi, mais aussi les ducs et leur famille, résidaient fréquemment dans la capitale. Principaux détenteurs des biens de fortune, ils furent aussi des mécènes. L’afflux de la monnaie et la liberté d’utilisation du métal précieux permirent aux orfèvres parisiens d’affirmer leur talent et aussi de s’enrichir. Tous cependant ne bénéficièrent pas également de la prospérité et nombreux furent les orfèvres en difficulté dans les dernières années du règne.</p>
@@ -119,7 +117,7 @@
           <p><hi rend="i">Dictionnaire des orfèvres parisiens entre 1380 et 1422.</hi> – Un dictionnaire comprenant six cents noms d’orfèvres exerçant leur art à Paris pendant le règne de Charles VI, avec l’indication des éléments connus de leur biographie, de leurs œuvres et de leurs principaux clients, complète cette étude.</p>
           <p>Certains d’entre eux, qualifiés du titre honorifique de « valet de chambre », étaient plus particulièrement attachés à la personne du roi, à celle de la reine ou à celle des princes. Les principaux furent Jean du Vivier et Hermann Ruissel, orfèvres de Charles VI ; Jean Clerbouc, orfèvre attitré d’Isabeau de Bavière ; Jean Mainfroy, orfèvre du duc de Bourgogne ; Hance Croist, Gilet Saget et Aubertin Boillefèves, orfèvres des ducs Louis et Charles d’Orléans.</p>
         </div>
-        <div>
+        <div xml:id="r1040890">
           <head rend="uc">Chapitre II
            <lb/>Les artistes du roi</head>
           <p>Il a paru intéressant, pour terminer cette étude, de retracer la biographie de quelques autres artistes parisiens qui étaient personnellement attachés à Charles VI ainsi que l’indique leur titre de « sergent d’armes » ou de « valet de chambre » du roi. Leurs biographies confirment l’absence de solution de continuité entre le règne du « sage roi » et celui du « roi fou ».</p>
@@ -131,18 +129,18 @@
           <p>Jean du Vivier et Hermann Ruissel étaient les orfèvres attitrés de Charles VI Le premier était déjà au service de Jean II puis de Charles V et de ses frères. On ne trouve le nom du second qu’à partir de 1385 et jusqu’en 1404. Leurs noms et les témoignages de leur talent se côtoient à de très nombreuses reprises dans les comptes royaux. Ils furent associés à la réalisation de magnifiques joyaux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1040923">
         <head rend="uc">Troisième partie
          <lb/>Édition de l’inventaire de 1400</head>
         <p>Édition complète de l’inventaire des joyaux et de la vaisselle du roi Charles VI dressé en l’an 1400 (ms. fr. 21446 de la Bibliothèque nationale), augmentée de la description des objets ne figurant que dans les inventaires de 1391 et 1413 (extraits des mss. fr. 21445 et 21444) et d’un index.</p>
         <pb source="https://nakala.fr/10.34847/nkl.e32aib41#d76955ad5f1f2f0ea2e711787a3577aa17335683" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.e32aib41/d76955ad5f1f2f0ea2e711787a3577aa17335683/full/full/0/default.jpg"/>
         <p>Tableaux comparatifs des différents inventaires, permettant de connaître le sort de chaque objet entre 1380 et 1422.</p>
       </div>
-      <div>
+      <div xml:id="r1040943">
         <head rend="uc">Pièces justificatives</head>
         <p>Lettres de commission des gardes des joyaux. – Joyaux délivrés à Louis de Bavière et à Boucicaut. – Enquête sur les joyaux disparus en 1415. – Édition de la partie « recettes » du compte de Lomer le Ber des joyaux vendus et fondus pour le roi en 1417 (Bibl. nat., ms. fr. 6747, fol. 25-97).</p>
       </div>
-      <div>
+      <div xml:id="r1040953">
         <head rend="uc">Planches</head>
         <p>Reproductions des plus belles parmi les œuvres conservées des orfèvres parisiens dans les années 1400, décrites dans le catalogue. – Portrait du roi Charles VI : représentations et témoignages contemporains.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,17 +55,17 @@
         <forename>Maxime</forename>
         <surname>Préaud</surname>
       </byline>
-      <div>
+      <div xml:id="r911506">
         <head rend="uc">Introduction</head>
         <p>Bien que nul ne puisse contester son importance pour comprendre la science, les mentalités et parfois même certains événements du moyen âge, l’astrologie ne retient encore qu’exceptionnellement l’attention des érudits. Si on a, il est vrai, étudié la position de divers adversaires médiévaux du déterminisme astral ou édité, à des fins surtout philologiques, certains traités d’astrologie, il ne semble pas qu’une monographie ait été consacrée à la critique minutieuse des méthodes de travail d’un astrologue du moyen âge.</p>
         <p>Le cas de Conrad Heingarter a paru se prêter à une telle tentative, l’état de la documentation permettant, pour une fois, la confrontation de trois séries de données : la littérature scientifique utilisée et commentée par l’astrologue, les horoscopes et prédictions établis par lui, enfin des renseignements positifs sur les personnages et conjonctures historiques visés par ses prophéties.</p>
         <p>L’examen de ces documents, essentiellement axé sur la vérification des calculs et l’étude des sources, permet d’estimer la rigueur scientifique de Conrad, son honnêteté professionnelle et son respect de la tradition.</p>
       </div>
-      <div>
+      <div xml:id="r911522">
         <pb source="https://nakala.fr/10.34847/nkl.530c90e4#44244f2b737aa4addc086361c7b9fa5e17da26c6" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.530c90e4/44244f2b737aa4addc086361c7b9fa5e17da26c6/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Conrad Heingarter</head>
-        <div>
+        <div xml:id="r911535">
           <head rend="uc">Chapitre premier
            <lb/>biographie</head>
           <p>Presque tous les renseignements que l’on possède aujourd’hui sur la vie de Conrad Heingarter se retrouvent dans les travaux de L. Thorndike et du Dr. E. Wickersheimer. H est bon cependant d’en rappeler ici les principaux.</p>
@@ -75,7 +73,7 @@
           <p>En 1477, il dit se trouver depuis quatorze ans au service de Jean II de Bourbon ; en juillet 1485, le duc lui fait don d’un domaine près de Vichy.</p>
           <p>La dernière mention de Conrad date du 30 novembre 1488 : il adresse, de Moulins, sa <hi rend="i">Défense de l’astrologie</hi> à l’amiral de France Louis Malet de Graville.</p>
         </div>
-        <div>
+        <div xml:id="r911560">
           <head rend="uc">Chapitre II
            <lb/>Travaux connus</head>
           <p>Les travaux de Conrad Heingarter touchent à l’astronomie, à l’astrologie et à la médecine : à la fin du moyen âge, ces trois disciplines sont étroitement dépendantes l’une de l’autre.</p>
@@ -88,10 +86,10 @@
           <p>Enfin, selon Simon de Phares, Conrad aurait écrit pour Louis XI un traité sur la conjonction de Saturne et de Mars du 2 août 1469 ; mais le manuscrit n’a pas été retrouvé. On peut penser que d’autres œuvres de Conrad sont également perdues.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r911615">
         <head rend="uc">Deuxième partie
          <lb/>Les méthodes de travail</head>
-        <div>
+        <div xml:id="r911623">
           <head rend="uc">Chapitre premier
            <lb/>la vérification des calculs</head>
           <p>On peut faire une distinction entre les calculs purement astronomiques, comme la recherche des positions des planètes, et les calculs destinés au traitement de l’horoscope proprement dit, comme la détermination des « cuspides » des maisons astrologiques.</p>
@@ -163,7 +161,7 @@
             <p>En comparant tous les résultats de Conrad avec ceux que l’on devrait normalement obtenir à partir des tables alphonsines généralement satisfaisantes (édition de Venise, 1483), on conclut que, sur quatre-vingt-onze résultats, trente-et-un sont différents.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r911915">
           <head rend="uc">Chapitre II
            <lb/>L’utilisation des sources</head>
           <p>En limitant la recherche des sources au seul aspect astrologique de l’œuvre de Conrad, on constate que les deux sources essentielles qu’il utilise sont Ptolémée et Haly Abenragel (Ibn Abî’l Rijâl). Outre ces deux noms illustres de <pb source="https://nakala.fr/10.34847/nkl.530c90e4#d1c06d93dbd5c92e7b195a8b7c832d93a6579564" n="148" facs="https://api.nakala.fr/iiif/10.34847/nkl.530c90e4/d1c06d93dbd5c92e7b195a8b7c832d93a6579564/full/full/0/default.jpg"/>l’astrologie, Conrad se réfère à d’autres autorités, comme Haly Abenrudian (ʿAly ibn Riḍwān), Alcabitius (al-Quabisi), Albumasar (Abû-Ma’shar), d’une part, et, d’autre part, Aristote, et surtout les commentaires d’Albert le Grand, pour donner à l’ensemble une couleur plus scientifique.</p>
@@ -179,7 +177,7 @@
           <p>D’un autre côté, Conrad est d’une honnêteté scrupuleuse dans ses citations ; il ne change pratiquement pas un mot au texte original.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r912019">
         <head rend="uc">Troisième partie
          <lb/>Édition des textes</head>
         <p>L’édition porte sur deux œuvres de Conrad Heingarter.</p>
@@ -191,7 +189,7 @@
         <p>Comme il traite des quatre saisons séparément, son ouvrage est divisé en quatre parties. Après l’exposé de la situation astrale, Conrad tire un certain nombre de conclusions qui intéressent le pape, le roi de France, la cherté des vivres, les maladies et les guerres possibles. Il ne perd pas de vue la lutte avec le duc de Bourgogne, mais il évite de s’engager sur l’issue des combats. Il s’appuie sur les autorités, notamment sur Ptolémée, et son intervention personnelle dans la prédiction est très limitée. Il est difficile de considérer ce jugement comme un ouvrage de propagande politique.</p>
         <p>L’édition de ces textes comporte des éclaircissements sur la terminologie particulière à l’astrologie, appuyés sur les auteurs classiques, tels que Ptolémée ou Haly Abenragel, et des vérifications de calculs, à propos notamment de la station de Jupiter, de la latitude de la lune et de la position de la part de fortune.</p>
       </div>
-      <div>
+      <div xml:id="r912074">
         <head rend="uc">Conclusion</head>
         <p>Conrad Heingarter est un médiocre astrologue : ses nombreuses erreurs de calcul et son imprécision témoignent d’un grave défaut de rigueur scientifique. Il est cependant en général honnête ; mais, lorsque, parmi la foule d’indications que contient, par exemple, le <hi rend="i">De judiciis</hi> de Haly Abenragel, il arrive qu’un élément vienne contredire les conclusions précédentes, Conrad, s’il ne peut résoudre la difficulté, passe sous silence la contradiction.</p>
         <p>Il ne paraît guère audacieux dans ses conclusions, s’appuyant solidement sur la tradition. Il conviendrait toutefois, pour une appréciation équitable, de savoir ce que valaient ses collègues contemporains. Mais les éléments de comparaison font malheureusement défaut.</p>

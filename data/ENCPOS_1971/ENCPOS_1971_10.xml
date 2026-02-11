@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1971_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1971_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
       </byline>
       <p>Les forêts sont une richesse traditionnelle de la Lorraine. Les ducs en possédaient une part importante, gérée par une administration spéciale, qui a laissé, pour le <num>xviii<hi rend="sup">e</hi></num> siècle, d’abondantes archives conservées, pour la plupart, au dépôt de Meurthe-et-Moselle ; deux séries sont particulièrement intéressantes : les procès-verbaux de visite des forêts, issus pour la plupart des maîtrises instituées au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle, contenant un état des forêts, gruerie par gruerie (B 10 688-10 697) ; les comptes de bois, qui nous permettent de connaître, d’une façon discontinue, l’importance des ventes de bois au cours du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
       <p>Ces deux séries de documents ont été complétées notamment par le manuscrit 1568 de la Bibliothèque municipale de Nancy, qui donne un état assez complet des grueries à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
-      <div>
+      <div xml:id="r939496">
         <head rend="uc">Chapitre premier
          <lb/>l’administration des Eaux-et-Forêts</head>
         <p>L’administration des Eaux-et-Forêts s’est dégagée progressivement des institutions anciennes.</p>
@@ -79,7 +77,7 @@
         <p>Accessible à tous, la pêche était réglementée afin de protéger le poisson.</p>
         <p>Les particuliers ne pouvaient exploiter leur futaie à leur gré. Les officiers ducaux étaient admis à surveiller leur gestion.</p>
         <p>L’administration des Eaux-et-Forêts de Lorraine était très influencée par les institutions françaises parallèles.</p>
-        <div>
+        <div xml:id="r939579">
           <pb source="https://nakala.fr/10.34847/nkl.58fdg97p#52af8c95db64673558cec51776dcacdca90f07d4" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.58fdg97p/52af8c95db64673558cec51776dcacdca90f07d4/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le traitement et l’exploitation des forêts</head>
@@ -87,7 +85,7 @@
           <p><hi rend="i">L’exploitation du bois.</hi> – Le taillis était divisé en autant de triages qu’il y avait d’années dans la révolution, un triage étant coupé chaque année. Au moment de la coupe, les officiers procédaient au martelage et au balivage des arbres pour en établir l’assiette. Le bois était vendu aux enchères, en gros dans la mesure du possible. La vente ordinaire représentait le revenu régulier de la gruerie, environ 68 % de ses recettes. La coupe et la vidange étaient réglementées. Les anciens baliveaux bons pour la coupe étaient marqués ; c’était le blanchi au corps ; ils étaient ensuite coupés. Après la coupe, on procédait au récolement de la vente ; les erreurs dans les arpentages étaient fréquentes. Les ventes extraordinaires et les ventes de chablis représentaient environ 4 % des ventes ordinaires.</p>
           <p>Le taillis-sous-futaie était le régime général de la Lorraine au <num>xviii<hi rend="sup">e</hi></num> siècle ; peu estimé aujourd’hui, il était cependant adapté aux besoins de l’époque.</p>
         </div>
-        <div>
+        <div xml:id="r939632">
           <head rend="uc">Chapitre III
            <lb/>Le commerce et le prix du bois</head>
           <p><hi rend="i">Le commerce local.</hi> – Une enquête dans les comptes des grueries de Nancy et d’Arches des années 1702-1705 montre que les adjudicataires étaient des habitants proches ; à Arches, on ne trouve que des ventes de détail ; à Nancy, on rencontre quelques gros acheteurs.</p>
@@ -95,7 +93,7 @@
           <p><hi rend="i">Le commerce extérieur.</hi> – La plupart des rivières étaient, sinon navigables, du moins flottables. Des droits de haut-conduit étaient perçus à l’entrée et à la sortie des duchés. Le commerce avec la France se faisait vers les Trois Évêchés et, par les rivières, vers la Champagne, la Brie et le Lyonnais. Peu de bois était dirigé vers l’Alsace, qui était pourvue de forêts. Le Rhin et ses affluents permettaient de flotter vers les pays rhénans et la Hollande d’importantes quantités de bois, qui étaient débitées en planches et revendues sous le nom de bois de Hollande.</p>
           <p>Le bois représentait un tiers du revenu des exportations de la Lorraine.</p>
         </div>
-        <div>
+        <div xml:id="r939670">
           <head rend="uc">Chapitre IV
            <lb/>La forêt et les industries</head>
           <p>D’importantes surfaces boisées étaient réservées aux industries.</p>
@@ -107,7 +105,7 @@
           <p>Les quatre salines de Dieuze, Château-Salins, Moyen-Vic et Rosières étaient de très grandes consommatrices de bois ; elles grevaient plus de 20 000 ha de forêts qui n’y suffisaient pas ; une partie du sel était exporté.</p>
           <p>Les industries étaient prospères, mais elles ont une large responsabilité dans la raréfaction du bois à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r939727">
           <pb source="https://nakala.fr/10.34847/nkl.58fdg97p#649320eb2b5dbf5714142e0dae97e4bf08b3196a" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.58fdg97p/649320eb2b5dbf5714142e0dae97e4bf08b3196a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Les forêts et les communautés</head>
@@ -117,14 +115,14 @@
           <p><hi rend="i">La répression des délits.</hi> – Les forestiers étaient chargés de la surveillance des forêts et de la répression des délits, conformément aux dispositions du titre IV de l’ordonnance de 1707. Le produit des amendes et des dommages et intérêts représentait, en 1703, 5 % du bénéfice net ; il s’éleva à 8 % sous l’administration française, ce qui laisse supposer une reprise en mains vigoureuse.</p>
           <p>Les forêts ducales étaient un appoint indispensable à la vie des communautés ; l’administration française semble avoir limité leurs droits et exercé une tutelle plus étroite sur les biens communaux.</p>
         </div>
-        <div>
+        <div xml:id="r939771">
           <head rend="uc">Chapitre VI
            <lb/>La marine et les forêts</head>
           <p><hi rend="i">Les exigences de la marine et l’œuvre de Colbert.</hi> – La marine avait besoin de bois de grande taille et d’excellente qualité. En 1669, Colbert donna un droit à la marine sur les bois royaux français et institua des commissaires pour les visiter.</p>
           <p>Dès le <num>xvii<hi rend="sup">e</hi></num> siècle, les arbres lorrains furent réquisitionnés. A partir de 1728, le sieur Babaud et son fils Babaud de la Chaussade, entrepreneurs, fournirent la marine en bois lorrains.</p>
           <p><hi rend="i">Le monopole de 1738, ses effets limités.</hi> – L’arrêt du 22 septembre 1738 introduisit en Lorraine les privilèges déjà accordés en France à la marine. Babaud de la Chaussade continua à fournir la marine française. Toutefois, la qualité des bois lorrains ne répondait pas aux exigences de la marine et les problèmes de transport en rendaient l’exploitation difficile, si bien que les arsenaux français s’en désintéressèrent.</p>
         </div>
-        <div>
+        <div xml:id="r939801">
           <pb source="https://nakala.fr/10.34847/nkl.58fdg97p#cbf980e82e5cada2a3e5d974a62a4411a9c79859" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.58fdg97p/cbf980e82e5cada2a3e5d974a62a4411a9c79859/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Les forêts dans les finances ducales</head>
@@ -134,26 +132,26 @@
           <p>Cette progression suivie d’une chute brutale traduit la surexploitation puis l’épuisement des forêts. En 1787, on ne coupa que le bois nécessaire pour couvrir les frais de gestion.</p>
           <p><hi rend="i">Les recettes forestières dans les finances ducales.</hi> – Les recettes forestières semblent avoir représenté entre 5 et 8 % des revenus des duchés ; ce chiffre, apparemment faible, s’explique par les prélèvements opérés par les communautés et les industries, par les charges de l’administration des Eaux-et-Forêts et par l’affermage de certains revenus forestiers, qui n’apparaissent pas dans les comptes.</p>
         </div>
-        <div>
+        <div xml:id="r939839">
           <head rend="uc">Chapitre VIII
            <lb/>Recensement des forêts ducales</head>
           <p>Les forêts ducales sont recensées dans l’ordre alphabétique des grueries.</p>
           <p>On peut estimer à un peu moins de 130 000 ha la surface des bois ducaux, pour la plupart en taillis-sous-futaie de feuillus, le hêtre étant l’essence dominante ; ils étaient souvent dans un état médiocre, le taillis était dégradé et la futaie trop rare. La surface boisée diminua entre le début et la fin du XVIII<hi rend="sup">e </hi>siècle, sous l’effet des défrichements et des dégradations. Les forêts proches des agglomérations étaient surexploitées tandis que certaines forêts éloignées des Vosges et de la Lorraine allemande étaient sous-exploitées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r939859">
         <head rend="uc">Conclusion</head>
         <p>Alors qu’au Moyen Âge les forêts ducales ne servaient guère qu’aux usages des communautés, elles prirent une importance grandissante à l’époque moderne, permirent l’essor des industries qui les ruinèrent et laissèrent les populations dans une situation économique difficile.</p>
       </div>
-      <div>
+      <div xml:id="r939869">
         <pb source="https://nakala.fr/10.34847/nkl.58fdg97p#cc4442faa39d539ba4da649df54f690387d6da59" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.58fdg97p/cc4442faa39d539ba4da649df54f690387d6da59/full/full/0/default.jpg"/>
         <head rend="uc">Pièce annexe</head>
-        <div>
+        <div xml:id="r939880">
           <head rend="uc">« ordonnance » de 1707 (règlement général de 1701).</head>
           <p>L’« ordonnance » de 1707, qui réorganise les Eaux-et-Forêts en Lorraine, reprend les grandes lignes du Code des Eaux-et-Forêts de Colbert.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r939891">
         <head rend="uc">Album de cartes</head>
         <p>L’album comprend, en particulier, trois cartes figurant les circonscriptions administratives des Eaux-et-Forêts.</p>
         <pb source="https://nakala.fr/10.34847/nkl.58fdg97p#363c32dd60ecc824f7c23d19db737779afcab40e" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.58fdg97p/363c32dd60ecc824f7c23d19db737779afcab40e/full/full/0/default.jpg"/>

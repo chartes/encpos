@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -71,20 +69,20 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r478915">
         <head rend="uc">Chapitre preliminaire</head>
         <p>La puissance de l’ordre Dominicain au <num>xiii<hi rend="sup">e</hi></num> siècle. – Ses rapports avec les rois de France et l’affection de Louis IX pour les Prêcheurs. – Geoffroi de Beaulieu, Dominicain, travaille à la canonisation de Saint-Louis. – Les Dominicains prennent le parti de Philippe le Bel contre Boniface VIII. Pour commémorer la canonisation de Saint Louis, Philippe le Bel propose dès 1299 au chapitre général tenu à Metz la fondation d’un monastère de religieuses dominicaines à Poissy, lieu de naissance de son aïeul, – fondation aussitôt approuvée par les définiteurs de l’ordre, mais qui ne sera suivie d’effet qu’en 1304.</p>
       </div>
-      <div>
+      <div xml:id="r478931">
         <pb source="https://nakala.fr/10.34847/nkl.cb13nefo#51d913ef60443311243f88655b6e1d23b08bf449" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb13nefo/51d913ef60443311243f88655b6e1d23b08bf449/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Étude historique et religieuse</head>
-        <div>
+        <div xml:id="r478944">
           <head rend="uc">Chapitre I
            <lb/>La fondation</head>
           <p>La Charte de fondation est datée de juillet 1304. Elle dote le monastère en rentes, droits d’usage, privilèges juridiques et fiscaux, et se borne, au point de vue spirituel, à ordonner aux religieuses de se conformer en tout à la discipline régulière de l’ordre dominicain, les exemptant de tout contrôle extérieur, même pontifical. L’autorisation du fondateur est nécessaire pour toute admission ; après sa mort l’approbation royale doit être sollicitée dans le cas seulement où il s’agit de postulantes non nobles. La fondation prévoit le nombre de 120 religieuses qui pourra dans l’avenir être porté à 200 proportionnellement à l’accroissement des revenus du monastère.</p>
         </div>
-        <div>
+        <div xml:id="r478956">
           <head rend="uc">Chapitre II
            <lb/>La vie régulière</head>
           <p>La règle pratiquée à Poissy est celle que formula Humbert de Romans dans ses constitutions de 1259. – Constitutions qui permettent de donner une idée de la vie au monastère de Poissy telle que Philippe le Bel désirait que les religieuses la menassent et non telle que la modifièrent les influences et les circonstances extérieures.</p>
@@ -116,7 +114,7 @@
             <p>Le prieur est chargé de la garde des bâtiments sis dans l’enclos du monastère, qui, ayant remplacé l’ancien château de Poissy, reçoivent le Roi lors de ses visites.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r479063">
           <head rend="uc">Chapitre III
            <lb/>Le déclin de la vie régulière</head>
           <div>
@@ -132,7 +130,7 @@
             <p>Poissy, tête de pont sur la Seine, aux confins de la Normandie et de l’Ile de France, fut occupé par l’ennemi en 1356, 1358, 1411, pillé en 1441. A ces divers moments les religieuses se réfugient à Paris. La fortune du monastère subit une dépréciation considérable <pb source="https://nakala.fr/10.34847/nkl.cb13nefo#686aa874c9ba25b9c0212e588e8851ca8b472814" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb13nefo/686aa874c9ba25b9c0212e588e8851ca8b472814/full/full/0/default.jpg"/> à cette époque ; cette diminution de la propriété commune entraîne le développement de la propriété personnelle et la pratique de la vie privée.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r479113">
           <head rend="uc">Chapitre IV
            <lb/>La réforme du monastère</head>
           <p>Quelques essais infructueux de réforme sont tentés à la fin du <num>xv<hi rend="sup">e</hi></num> siècle. La congrégation de Hollande fournit des réformateurs à la province de France : Jean Clérée entreprend en 1506, avec l’appui du pouvoir séculier, la réforme du monastère de Poissy, où il constate la ruine de la clôture et l’existence de la vie privée. En butte à une opposition violente de la part des sœurs, il dépose la prieure Jeanne d’Estouteville, institue à sa place Prégente de Melun et fait venir de Metz quelques religieuses observantes ; il meurt avant d’avoir achevé sa tâche : Charonnelli, prieur de Saint-Jacques, Guillaume Petit, inquisiteur de France, lui succèdent. De même que Jean Clérée, ils doivent lutter à la fois contre les religieuses rebelles et contre le provincial de France qui ne veut pas voir le couvent de Poissy échapper à sa juridiction.</p>
@@ -141,10 +139,10 @@
           <p>Quant à la restauration de la vie régulière au monastère de Poissy, on peut conclure que, s’il y eut des tentatives répétées, appuyées par l’autorité civile, il n’y eut aucun résultat durable.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r479143">
         <head rend="uc">Deuxieme partie
          <lb/>Étude économique</head>
-        <div>
+        <div xml:id="r479151">
           <head rend="uc">I<hi rend="sup">re</hi><hi rend="i">Section</hi>
            <lb/>la fortune</head>
           <div>
@@ -171,7 +169,7 @@
             <p>Le budget du monastère en 1512 s’élève approximativement à 5.800 livres parisis. Il a donc subi depuis 1304 une augmentation de 30 %. Il faut ajouter <pb source="https://nakala.fr/10.34847/nkl.cb13nefo#cde5e7646c12a4fa969c4f10d51daa90fb07a326" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb13nefo/cde5e7646c12a4fa969c4f10d51daa90fb07a326/full/full/0/default.jpg"/>à ces rentes en argent les redevances en nature qui tendent à prendre une importance plus grande (grains, chapons, sel), le produit des coupes de bois et de foin, les revenus du domaine réservé.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r479240">
           <head rend="uc"><num>ii<hi rend="sup">e</hi></num><hi rend="i">Section</hi>
            <lb/>l’exploitation</head>
           <div>
@@ -254,7 +252,7 @@
         <head rend="uc">Pièces justificatives</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r479511">
         <head rend="uc">Appendices</head>
         <p>I. La fontaine de Migneaux.</p>
         <p>II. Liste des religieuses dont les noms nous sont parvenus (1304-1550).</p>

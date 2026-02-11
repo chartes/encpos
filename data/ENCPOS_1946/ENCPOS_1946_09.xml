@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1946_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1946_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <forename>Catherine</forename>
         <surname>Gauchery</surname>
       </byline>
-      <div>
+      <div xml:id="r668427">
         <head rend="uc">Introduction</head>
         <p>Cette étude d’architecture s’accompagne d’une étude historique et sociale et se limite aux élections de Bourges, d’Issoudun et de Saint-Amand.</p>
       </div>
-      <div>
+      <div xml:id="r668437">
         <head rend="uc">Première partie
          <lb/>Étude historique et sociale</head>
         <p>Pendant la période troublée qui va des guerres de Religion à la Fronde, trois grands personnages établirent successivement leur domination sur le Berry : Claude de la Châtre pendant la Ligue, Sully sous Henri IV et Henri de Condé sous Louis XIII. Malgré leur présence, qui retint un assez grand nombre de gentilshommes dans la province, l’exode de la haute noblesse vers la Cour s’accentue. En même temps, les terres des petits hobereaux ruinés passèrent dans les mains de parvenus très portés à bâtir.</p>
         <p>Bourges, capitale de la généralité, conserve son aspect gothique ; les bourgeois restent traditionalistes et les influences étrangères ne pénètrent dans la ville que par l’intermédiaire de l’Université et des ordres religieux. Les artistes, maçons, tailleurs <pb source="https://nakala.fr/10.34847/nkl.c3566eos#bfe2fd2fa109d83187135b158f44b0885637a3d5" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3566eos/bfe2fd2fa109d83187135b158f44b0885637a3d5/full/full/0/default.jpg"/> de pierre, sculpteurs, peintres, groupés en corporations, gardent dans leurs conditions l’humilité des artisans.</p>
       </div>
-      <div>
+      <div xml:id="r668457">
         <head rend="uc">Deuxième partie
          <lb/>Étude de l’architecture</head>
         <p>Les guerres de Religion entraînèrent l’arrêt des constructions et la décadence de la corporation du bâtiment. L’évolution de l’art très florissant de la première Renaissance vers l’art classique romain, apparu dans les autres provinces au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle, ne se produisit pas en Berry. A Bourges, à Issoudun, quelques rares éléments classiques – pilastres, corniches à larmiers, décor de bossage ? à congélations – apparaissent cependant sur les façades de modestes maisons bourgeoises restées gothiques par leur structure.</p>
-        <div>
+        <div xml:id="r668474">
           <head rend="uc">Chapitre premier
            <lb/>les débuts (1580-1620).</head>
           <p><hi rend="i">Les maîtres maçons.</hi> – Les maîtres maçons, ne connaissant que la routine, étaient incapables par eux-mêmes de rénover l’architecture. Ce furent les grands seigneurs, obligés de reconstruire leurs châteaux ruinés par les guerres civiles, qui, les premiers, introduisirent l’art classique en Berry par l’intermédiaire d’architectes étrangers : les plans fournis par ces derniers étaient exécutés par les maçons locaux dont certains, tels Jean Lafrimpe, Antoine Gargault, se mirent peu à peu à leur école.</p>
@@ -79,7 +77,7 @@
           <p>b) <hi rend="i">Les travaux de Sully en Berry.</hi> – Sully participa, par son ardeur à bâtir, à la rénovation de l’architecture berrichonne. Il introduisit dans la province une équipe nombreuse d’ingénieurs, d’architectes et de pionniers qui remirent le pays en valeur. Il édifia la ville d’Henrichemont avec le concours de ses amis selon un plan radio-concentrique dû vraisemblablement à Salomon de Brosse. Il inaugura à Montrond une nouvelle méthode de fortification, continuée et perfectionnée à partir de 1621 par Jean Sarrazin, ingénieur du prince de Condé.</p>
           <p>c) <hi rend="i">La reconstruction de l’abbaye Saint-Sulpice.</hi> – A Bourges même, les Bénédictins jouèrent un rôle important dans l’introduction de l’art classique en appelant, pour restaurer leurs bâtiments détruits par les protestants en 1562, des artistes de tous les pays. Michel Bourdin, sculpteur du prince de Condé, fréquenta leur chantier. C’est pour eux que Jean <pb source="https://nakala.fr/10.34847/nkl.c3566eos#4262d26bdc4fa1e85f4cdfb7bb7574ae43c10aea" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3566eos/4262d26bdc4fa1e85f4cdfb7bb7574ae43c10aea/full/full/0/default.jpg"/>Lejuge exécuta sa première œuvre : le portail de leur église copié sur un modèle de Vignole.</p>
         </div>
-        <div>
+        <div xml:id="r668539">
           <head rend="uc">Chapitre II
            <lb/>La période Louis XIII : Jean Lejuge.</head>
           <p>Le style classique fut définitivement fixé dans la province par Jean Lejuge, maître incontesté de l’architecture entre 1620 et 1650. Né d’une humble famille de vignerons des faubourgs de Bourges, il fut formé par les maîtres maçons locaux ; mais il réussit à se libérer de leurs vieilles formules grâce aux conseils éclairés de ceux qui l’employèrent : les Bénédictins, le prince de Condé, qui lui confia presque tous ses travaux en Berry.</p>
@@ -87,12 +85,12 @@
           <p>Jean Lejuge est un architecte provincial d’un talent certain, mais d’un caractère modeste ; il n’a fait qu’adapter à la demeure berrichonne traditionnelle et à de petits édifices un décor classique emprunté aux livres des théoriciens : Serlio, <pb source="https://nakala.fr/10.34847/nkl.c3566eos#6b5ce20ead3cde58eba8f5669510ce5d43d49457" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3566eos/6b5ce20ead3cde58eba8f5669510ce5d43d49457/full/full/0/default.jpg"/>Vignole, Le Muet, ou inspiré par ses clients les plus avertis ; il a gardé de la tradition française le goût du pittoresque et de la fantaisie. Les caractéristiques de son style sont la mesure et la sobriété, la perfection du travail de taille, le goût pour les niches, les bossages unis, le décor géométrique.</p>
           <p>En dehors de Lejuge, l’édifice le plus important bâti sous Louis XIII fut les deux corps de logis du collège des Jésuites, exécutés en partie sur les plans de Martellange.</p>
         </div>
-        <div>
+        <div xml:id="r668571">
           <head rend="uc">Chapitre III
            <lb/>L’évolution de l’architecture après 1650.</head>
           <p>Après la mort de Lejuge, ses confrères continuèrent sa tradition, malgré la présence de deux architectes parisiens : François Levau à Lignières (1652-1660) et François Mansart à la Ferté-Gilbert (1660). L’un d’eux, Antoine Basseville, a laissé à Bourges et dans les environs une œuvre d’un caractère local plein de saveur. L’évolution s’achève sur les travaux entrepris à la fin du siècle par l’archevêque Phélypeaux de la Vrillière : l’Archevêché et le Séminaire, auxquels nos artistes berrichons ne prirent aucune part.</p>
         </div>
-        <div>
+        <div xml:id="r668583">
           <head rend="uc">Chapitre IV
            <lb/>L’architecture classique
            <lb/>en dehors de Bourges et de ses environs immédiats.</head>
@@ -102,7 +100,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.c3566eos#1624d676a14aacd70888f6d623823cd5e0c6bf21" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3566eos/1624d676a14aacd70888f6d623823cd5e0c6bf21/full/full/0/default.jpg"/>
           <p>En Sologne, ce style prend un aspect particulier par suite de l’utilisation presque exclusive de la brique dont la patine donne aux châteaux de Brinon, de la Ferté-Imbault, de Blancafort et de Lauroy ce bel aspect mordoré que nous leur voyons aujourd’hui.</p>
         </div>
-        <div>
+        <div xml:id="r668617">
           <head rend="uc">Chapitre V
            <lb/>Étude des divers éléments d’architecture.</head>
           <p>Les escaliers à montée droite et à repos apparaissent au début de la période que nous étudions ; jusqu’à 1650 les volées sont séparées par un mur d’échiffre plein ; après cette date, ils s’ajourent et s’ornent de balustres profilés.</p>
@@ -110,20 +108,20 @@
           <p>Les ouvrages de menuiserie : portes et lambris, sont soit à panneaux d’assemblage, soit à panneaux rapportés. On commence à utiliser dans les charpentes le système dit à pannes que l’on trouve concurremment avec celui des chevrons faisant ferme. On utilise fréquemment le comble à surcroît et le comble à l’impériale, mais très rarement le comble brisé.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r668636">
         <head rend="uc">Troisième partie
          <lb/>La décoration</head>
-        <div>
+        <div xml:id="r668644">
           <head rend="uc">Chapitre premier
            <lb/>la sculpture.</head>
           <p>La sculpture comprend les œuvres d’artistes parisiens : mausolée des Montigny et des Laubespine par Bourdin et <pb source="https://nakala.fr/10.34847/nkl.c3566eos#a01b72410bae6f11e5dcc4488a58333b95428e0a" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3566eos/a01b72410bae6f11e5dcc4488a58333b95428e0a/full/full/0/default.jpg"/>Buyster, et la production locale plus populaire influencée par les artistes venus des Flandres.</p>
         </div>
-        <div>
+        <div xml:id="r668661">
           <head rend="uc">Chapitre II
            <lb/>La peinture.</head>
           <p>Un artiste de valeur, Jean Boucher, groupe autour de lui quelques peintres dont aucun ne sort de la médiocrité. Les œuvres les plus marquantes qui nous ont été conservées de cette époque, en dehors des nombreux tableaux de Boucher, sont la Résurrection de Saint-Pierre-le-Guillard, du début du <num>xvii<hi rend="sup">e</hi></num> siècle, les lambris peints de la chapelle des Fradet de Saint-Jean-des-Champs, quelques tableaux du musée de Bourges. Les vitraux de cette époque, ceux des Montigny et des La Châtre à la cathédrale de Bourges et celui des Stuart à Aubigny, ont déjà abandonné la belle technique des siècles précédents.</p>
         </div>
-        <div>
+        <div xml:id="r668679">
           <head rend="uc">Chapitre III
            <lb/>Le mobilier.</head>
           <p>Les beaux mobiliers de cette époque sont des apports de l’étranger. Seules les tapisseries dont la vogue persiste en Berry proviennent des ateliers marchois.</p>

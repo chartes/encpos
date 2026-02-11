@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,11 +55,11 @@
         <forename>Marguerite-Marie</forename>
         <surname>Bommier</surname>
       </byline>
-      <div>
+      <div xml:id="r537362">
         <head rend="uc">Avant-propos</head>
         <p>Les dates de 1297-1369 correspondent à l’occupation française (sauf les années 1302-1304).</p>
       </div>
-      <div>
+      <div xml:id="r537372">
         <head rend="uc">Sources</head>
         <p>Presque tous les documents utilisés pour cette étude proviennent des Archives communales de Lille, de la série des titres (AA) et de la série des comptes de la ville (CC), à peu près complète à partir de 1318. La série des Bans du Magistrat fait défaut pour cette époque.</p>
       </div>
@@ -69,21 +67,21 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r537391">
         <head rend="uc">Introduction</head>
         <p>Lille ne fut pas atteinte par la révolution sociale de la Flandre en 1280-1296, causée, dans les autres villes, par les exactions des patriciens. Si Lille put <pb source="https://nakala.fr/10.34847/nkl.eccfan86#def4a428ae28e75cb47a8b6824c776f0c8fb107f" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.eccfan86/def4a428ae28e75cb47a8b6824c776f0c8fb107f/full/full/0/default.jpg"/>échapper à ces troubles, c’est grâce à la réforme de la comtesse Jeanne, en 1235, établissant sur les échevins le contrôle du pouvoir public, d’un conseil de Huit-Hommes, et de la communauté urbaine.</p>
         <p>Philippe le Bel prit Lille en 1297 ; après un retour à la domination flamande de 1302 à 1304, Lille fut reprise par le roi et resta séparée du comté de Flandre, avec Douai et Orchies, jusqu’en 1369, date du mariage de Philippe le Hardi avec Marguerite de Mâle.</p>
         <p>Les guerres de Flandre, et plus tard la guerre de Cent ans, firent décliner l’industrie et le commerce flamands ; les finances des villes en subirent le contre-coup et tombèrent en décadence.</p>
       </div>
-      <div>
+      <div xml:id="r537412">
         <head rend="uc">Première partie
          <lb/>Organisation administrative</head>
-        <div>
+        <div xml:id="r537420">
           <head rend="uc">Chapitre premier
            <lb/>les échevins et les Huit-Hommes.</head>
           <p>Le pouvoir appartenait aux douze échevins, assistés du conseil des Huit-Hommes. Le maire des échevins semble avoir joui d’une autorité supérieure à celle de ses collègues ; les Huit-Hommes étaient aussi présidés par un maire. Les uns et les autres étaient renouvelés chaque année à la Toussaint ; ils étaient toujours recrutés parmi la haute bourgeoisie.</p>
         </div>
-        <div>
+        <div xml:id="r537432">
           <head rend="uc">Chapitre II
            <lb/>Rôle du roi de France et de la communauté.</head>
           <p>Le roi de France se réservait le droit de consentir les levées d’impôts indirects extraordinaires, nom<pb source="https://nakala.fr/10.34847/nkl.eccfan86#71a2d9af878db63ac79a831690f9fe73da900ab3" n="37" facs="https://api.nakala.fr/iiif/10.34847/nkl.eccfan86/71a2d9af878db63ac79a831690f9fe73da900ab3/full/full/0/default.jpg"/>niés assises. Il les accordait pour une ou plusieurs années. Les assises fournissaient à la ville la plus grande partie de ses revenus ; aussi eut-elle soin d’en faire renouveler sans interruption les concessions. Le roi en profita pour retenir à son profit, à partir de 1335, environ un cinquième des assises ; il déterminait à quelles dépenses devraient être affectées les sommes laissées à la ville ; il chargeait le Souverain-Bailli de veiller à l’exécution de ses ordres.</p>
@@ -91,7 +89,7 @@
           <p>La communauté avait le droit de consentir les assises et les émissions de rentes viagères.</p>
           <p>Ainsi le pouvoir absolu des échevins était tempéré public et de la communauté. par l’autorité des Huit-Hommes, l’action du pouvoir</p>
         </div>
-        <div>
+        <div xml:id="r537458">
           <head rend="uc">Chapitre III
            <lb/>Les trésoriers de la ville.</head>
           <p>Les trésoriers de la ville, au nombre de quatre, se nommaient « comtes de la Hanse » ; ils étaient renouvelés chaque année, à la Toussaint, par les échevins. C’étaient toujours de riches bourgeois. Ils étaient chargés de garder le trésor de la ville, de recevoir le produit des impôts, de payer les dépenses ordonnées par les échevins et les Huit-Hommes, de dresser chaque année les comptes de la ville et de garder les lettres d’obligation et de quittance. Jusqu’en 1364, le « siège » des comtes de la Hanse était transporté chaque année à la maison du maire des échevins. En <pb source="https://nakala.fr/10.34847/nkl.eccfan86#cf0af741f4146e73b4c55a597717a860f4766512" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.eccfan86/cf0af741f4146e73b4c55a597717a860f4766512/full/full/0/default.jpg"/>l’année 1364, la ville leur installa une chambre des comptes et une trésorerie dans la halle échevinale.</p>
@@ -99,10 +97,10 @@
           <p>Au début de la domination française, jusqu’en 1302, les finances de Lille ne furent pas gérées par les comtes de la Hanse, mais par un receveur unique : Bourdon le Borgne, qui avait été probablement nommé par le comte de Flandre en 1279, année de l’ordonnance de Philippe le Hardi sur la comptabilité des communes. Ce receveur fut supprimé en 1302 et les comtes de la Hanse furent rétablis.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r537482">
         <head rend="uc">Deuxième partie
          <lb/>Organisation economique</head>
-        <div>
+        <div xml:id="r537490">
           <head rend="uc">Chapitre premier
            <lb/>les recettes.</head>
           <p>Les recettes étaient, les unes, ordinaires, les autres, extraordinaires.</p>
@@ -113,7 +111,7 @@
           <p>IV. Plusieurs catégories de personnes étaient exemptes d’impôts : les membres du clergé et les ordres religieux ne payaient ni la taille, ni les assises, sauf exception ; les officiers royaux étaient exempts d’assises ; mais les monnayeurs et les écoliers, qui prétendaient ne pas payer les impôts, durent s’y soumettre.</p>
           <p>V. La ville vendait à son profit du vin et d’autres objets ; bien que la vente du vin, en gros ou au détail, ne fût pas un monopole, elle rapportait cependant beaucoup. Elle semble n’avoir été en usage que dans les moments de crise financière.</p>
         </div>
-        <div>
+        <div xml:id="r537542">
           <head rend="uc">Chapitre II
            <lb/>Les dépenses.</head>
           <p>I. Les dépenses administratives comprenaient les frais de bureau, les salaires des employés de la ville, les pensions, les présents de vin et autres, très nombreux, les voyages et les procès. Le Magistrat ne recevait pas de traitement mais s’en dédommageait par des « depends de bouche » et des vacations.</p>
@@ -121,12 +119,12 @@
           <p>III. Dépenses militaires. Les bourgeois devaient le service d’« ost » ; la ville les aidait à payer leur équipement. Elle se munissait d’armes défensives à <pb source="https://nakala.fr/10.34847/nkl.eccfan86#b23129036c5f888982ac9f16888a2385b37a2355" n="41" facs="https://api.nakala.fr/iiif/10.34847/nkl.eccfan86/b23129036c5f888982ac9f16888a2385b37a2355/full/full/0/default.jpg"/>placer sur les remparts. Les travaux aux fortifications absorbaient une grande partie des ressources communales en temps de guerre. Ils étaient exécutés sous la direction des échevins et des Huit-Hommes par les deux « Maîtres » de la ville ou par des entrepreneurs privés. Pendant la guerre de Cent ans, en 1340, les échevins se déchargèrent de ce soin sur deux bourgeois notables, choisis parmi eux et qui rendaient compte de leur administration.</p>
           <p>IV. Lille se prétendait exempte des aides ; cependant le roi les exigea de la ville qui s’acquitta le plus souvent par abonnement. Elle employa notamment ce procédé pour payer la rançon du roi Jean Bon.</p>
         </div>
-        <div>
+        <div xml:id="r537568">
           <head rend="uc">Chapitre III
            <lb/>Les prêts de la ville.</head>
           <p>Le Magistrat de Lille consentait à avancer de l’argent à d’autres villes ou à des particuliers, surtout à des seigneurs ou à des officiers royaux en fonctions à Lille. Le recouvrement de ces prêts était très difficile, souvent même impossible. C’était une lourde charge pour la ville.</p>
         </div>
-        <div>
+        <div xml:id="r537580">
           <head rend="uc">Chapitre IV
            <lb/>La dette.</head>
           <p>En temps de guerre, les ressources habituelles devenaient insuffisantes. La ville avait recours aux emprunts.</p>
@@ -134,14 +132,14 @@
           <pb source="https://nakala.fr/10.34847/nkl.eccfan86#559264499b5e75f343428a780ca57ecd848eccf4" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.eccfan86/559264499b5e75f343428a780ca57ecd848eccf4/full/full/0/default.jpg"/>
           <p>La dette consolidée était formée de rentes perpétuelles sur le domaine ; la ville les racheta presque toutes avant 1337. En général les emprunts étaient amortis par le service de rentes viagères à une ou deux vies. Le taux, de 10 à 12 %, variait suivant l’âge des assurés.</p>
         </div>
-        <div>
+        <div xml:id="r537603">
           <head rend="uc">Chapitre V
            <lb/>État financier de Lille de 1297 à 1369.</head>
           <p>Malgré la surveillance exercée sur eux, les échevins gaspillaient l’argent de la ville en dépenses personnelles. Une comptabilité annuelle et sans ordre ne pouvait y remédier. D’autre part, les membres du Magistrat affermaient les impôts et échappaient ainsi à toute surveillance.</p>
           <p>Devant un déficit permanent et à la suite des guerres prolongées, le Magistrat se décida à une réforme. Les ordonnances communales de 1364 et de 1365 établirent une comptabilité mensuelle des dépenses, réformèrent les abus et prescrivirent des économies. Le résultat de ces réformes ne fut pas très sensible.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r537619">
         <head rend="uc">Conclusion</head>
         <p>L’histoire financière de Lille au <num>xiv<hi rend="sup">e</hi></num> siècle montre l’incapacité des communes à gérer elles-mêmes leurs finances et le parti que le roi en tirait pour s’ingérer dans l’administration communale.</p>
       </div>

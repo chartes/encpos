@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Labbé</surname>
         <roleName>Licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r567912">
         <head rend="uc">Avant-propos</head>
         <p>Justification du choix et des limites du sujet. La vie féodale d’une seigneurie de Haute-Bretagne.</p>
       </div>
@@ -70,14 +68,14 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r567940">
         <head rend="uc">Introduction</head>
         <p>I. LE PAYS. – Délimitation et description.</p>
         <p>II. HISTOIRE DU PAYS DE VITRÉ AVANT LA FONDATION DE LA BARONNIE AU <num>xi<hi rend="sup">e</hi></num> SIÈCLE. – Les vestiges de l’époque préhistorique sont représentés par un dolmen, la <hi rend="i">Roche aux Fées,</hi> des menhirs. A l’époque gallo-romaine, le territoire de la baronnie <pb source="https://nakala.fr/10.34847/nkl.0afe9h7v#d1952572e62b204c44bb23c0d9c74e29dbc40da2" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.0afe9h7v/d1952572e62b204c44bb23c0d9c74e29dbc40da2/full/full/0/default.jpg"/>était sillonné par des routes dont on a, pour quelques-unes, retrouvé le tracé. Beaucoup de noms de lieux dénotent une origine gallo-romaine. Quelques découvertes de l’époque mérovingienne ont été faites dans cette région (fouilles d’Allion).</p>
       </div>
-      <div>
+      <div xml:id="r567968">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r567974">
           <head rend="uc">Chapitre premier
            <lb/>fondation de la baronnie.
            <lb/>Les premiers barons.</head>
@@ -85,28 +83,28 @@
           <p>Son fils Tristan (1030-1045), par son mariage, augmenta la baronnie du Vendelais, région nord de la baronnie.</p>
           <p>Ce fut Robert I<hi rend="sup">er</hi> (1045-1090) qui choisit Vitré comme chef-lieu de son fief. Un premier château construit par Rivallon existait sur le coteau de Sainte-Croix, mais Robert édifia un nouveau château sur la hauteur qui domine la vallée de la Vilaine. Il fonda le prieuré bénédictin de Vitré, Sainte-Croix.</p>
         </div>
-        <div>
+        <div xml:id="r568004">
           <pb source="https://nakala.fr/10.34847/nkl.0afe9h7v#222911efaca8ed35d5bb30058765874ed064f31d" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.0afe9h7v/222911efaca8ed35d5bb30058765874ed064f31d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Suite des premiers barons de 1090 à 1251.</head>
           <p>Ils furent assez insignifiants ; leur vie est surtout marquée par les pieuses donations qu’ils multiplient en faveur des prieurés.</p>
           <p>A André I<hi rend="sup">er</hi> (1090-1135) succéda Robert II (1135-1155), qui fut un baron turbulent et passa son temps à combattre. Robert III (1155-1173) et André II (1173-1211) furent des princes pieux qui n’hésitèrent pas à entreprendre des pèlerinages en Terre-Sainte. André se montra tout dévoué à la cause de son seigneur, le jeune Arthur de Bretagne, contre les rois d’Angleterre, Richard Cœur de Lion, Jean sans Terre. André III (1211-1250) fit construire l’enceinte fortifiée de Vitré de 1220 à 1240. Dans la lutte qui s’éleva entre Pierre Mauclerc et Louis IX, il fut fidèle à la cause du roi et le suivit à la septième croisade, où il trouva la mort à la bataille de Mansourah.</p>
         </div>
-        <div>
+        <div xml:id="r568028">
           <head rend="uc">Chapitre III
            <lb/>La baronnie de 1251 à 1605.
            <lb/>Les comtes de Laval.</head>
           <p>Le fils d’André III, André IV, mourut vers 1251, à l’âge de trois ans. Le comte de Laval, Guy VII, qui avait épousé Philippe, fille aînée d’André III, devint baron de Vitré. A partir de cette date, la baronnie de Vitré se trouvait agrandie de la seigneurie d’Aubigné, qui constituait une partie de la dot de Philippe. Pendant que les comtes de Laval étaient également seigneurs de Vitré, l’histoire de la baronnie <pb source="https://nakala.fr/10.34847/nkl.0afe9h7v#9073a00178340775410cfd0b7940605a4ba0d7d1" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.0afe9h7v/9073a00178340775410cfd0b7940605a4ba0d7d1/full/full/0/default.jpg"/>n’offre rien de bien marquant, si ce n’est quelques pillages des armées anglaises, qui en traversèrent le territoire pendant la guerre de Cent ans, et le siège de 1589 par Mercœur, au moment des troubles de la Ligue, alors que Vitré était un foyer de protestantisme.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r568048">
         <head rend="uc">Deuxième partie</head>
-        <div>
+        <div xml:id="r568054">
           <head rend="uc">Chapitre premier
            <lb/>division territoriale. Les châtellenies.</head>
           <p>Jusqu’en 1251, quatre châtellenies divisèrent administrativement le fief de Vitré : les châtellenies de Vitré, de Marcillé, de Chevré, de Chatillon-en-Vendelais et d’Aubigné après 1251. Un <hi rend="i">châtelain,</hi> chargé de fonctions militaires, puis financières, était à la tête de chacune des châtellenies ; à partir du <num>xiv<hi rend="sup">e</hi></num> siècle, le <hi rend="i">capitaine</hi> du château aura le soin de veiller à l’entretien de la place forte.</p>
         </div>
-        <div>
+        <div xml:id="r568080">
           <head rend="uc">Chapitre II
            <lb/>Administration. Les officiers seigneuriaux.</head>
           <p>Le plus important de tous était le sénéchal ; il représentait le seigneur dans la baronnie et recevait des gages annuels ; il était, semble-t-il, amovible, et exerçait surtout des fonctions judiciaires ; mais délégué par le seigneur pour le représenter, il avait une compétence étendue et pouvait, à l’occasion, s’occuper <pb source="https://nakala.fr/10.34847/nkl.0afe9h7v#f57c2bc09e7cf377c0e7a1557b1ae8b99920ad13" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.0afe9h7v/f57c2bc09e7cf377c0e7a1557b1ae8b99920ad13/full/full/0/default.jpg"/> de questions financières et administratives.</p>
@@ -116,7 +114,7 @@
           <p>Le prévôt, outre des attributions judiciaires, était avec le voyer chargé de percevoir les rentes domaniales et de contraindre les vassaux à s’en acquitter.</p>
           <p>Les sergents étaient nombreux et préposés aux besognes les plus diverses ; ils percevaient les rentes, signifiaient les exploits et faisaient la police.</p>
         </div>
-        <div>
+        <div xml:id="r568138">
           <head rend="uc">Chapitre III
            <lb/>Les revenus seigneuriaux.</head>
           <p>Le seigneur tirait scs revenus de l’exploitation de son domaine direct : des forêts et landes dans lesquelles la police était faite par des <hi rend="i">forestiers ;</hi> des garennes, des moulins, des fours à ban, des étangs sur lesquels étaient prélevés les <hi rend="i">mangers de carême.</hi></p>
@@ -124,54 +122,54 @@
           <p>Les droits perçus par le seigneur étaient nombreux : rentes (<hi rend="i">terrage, avenage</hi>), droits sur la vente et <pb source="https://nakala.fr/10.34847/nkl.0afe9h7v#c31a9d5983140b22ef2e4b5fef1130fbf4172c43" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.0afe9h7v/c31a9d5983140b22ef2e4b5fef1130fbf4172c43/full/full/0/default.jpg"/> la circulation des marchandises, droits personnels<hi rend="i">{taille, forçage</hi>), droits de justice, de sceau, droit de quintaine, de gîte, de capitainerie, de guet.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r568177">
         <head rend="uc">Troisième partie
          <lb/>L’organisation municipale de Vitré</head>
-        <div>
+        <div xml:id="r568185">
           <head rend="uc">Chapitre premier
            <lb/>la communauté de ville.</head>
           <p>A Vitré, nous ne trouvons aucune survivance de municipe gallo-romain ; la ville date de la fin du <num>xi<hi rend="sup">e</hi></num> siècle. Les germes de la municipalité sont dans l’organisation paroissiale.</p>
           <p>L’origine de la communauté de ville est l’assemblée des bourgeois, qui n’apparaît constituée qu’en 1465. Elle ordonne des dépenses dans une mesure très limitée et élit les officiers municipaux. Une <hi rend="i">maison de ville</hi> existera à la fin du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r568216">
           <head rend="uc">Chapitre II
            <lb/>Les officiers municipaux.</head>
           <p>Le principal est le <hi rend="i">procureur syndic</hi> qui représente l’assemblée des bourgeois et défend ses intérêts. Le <hi rend="i">miseur</hi> dresse pour un an le compte des recettes et des dépenses ; au début, un <hi rend="i">contrôleur du miseur</hi> est élu.</p>
         </div>
-        <div>
+        <div xml:id="r568240">
           <pb source="https://nakala.fr/10.34847/nkl.0afe9h7v#61b2a8786fb21dca66f1cb6d41ebe600df9407d0" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.0afe9h7v/61b2a8786fb21dca66f1cb6d41ebe600df9407d0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les finances.</head>
           <p>Les recettes sont constituées par les droits de <hi rend="i">billot </hi>(sur la vente du vin), de <hi rend="i">cloison</hi> (droit d’octroi sur le vin) et par un droit sur les toiles. Un <hi rend="i">droit de bêche </hi>est exceptionnellement levé pour l’entretien des fortifications.</p>
           <p>Les dépenses étaient de deux sortes : les unes étaient consacrées aux fortifications (rentes pour les expropriations), les autres au paiement des gages des officiers municipaux.</p>
         </div>
-        <div>
+        <div xml:id="r568272">
           <head rend="uc">Chapitre IV
            <lb/>Organisation militaire.</head>
           <p>Elle était assez rudimentaire. La garnison de la ville se composait d’arbalétriers, de deux canonniers et d’un garde d’artillerie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r568285">
         <head rend="uc">Quatrième partie
          <lb/>La vie économique de la région</head>
-        <div>
+        <div xml:id="r568293">
           <head rend="uc">Chapitre premier
            <lb/>l’agriculture.</head>
           <p>Les cultures sont assez pauvres ; elles se composent de froment rouge et surtout de seigle. On <pb source="https://nakala.fr/10.34847/nkl.0afe9h7v#66e1c2e2ef966b82de94fe5c3b94cacabbc07930" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.0afe9h7v/66e1c2e2ef966b82de94fe5c3b94cacabbc07930/full/full/0/default.jpg"/>cultive la vigne au Moyen Age dans la baronnie, surtout du côté de Marcillé. L’élevage des bêtes bovines donne lieu à une grande production de beurre.</p>
         </div>
-        <div>
+        <div xml:id="r568310">
           <head rend="uc">Chapitre II
            <lb/>L’industrie.</head>
           <p>Le tissage des toiles développé à partir du début du <num>xiv<hi rend="sup">e</hi></num> siècle, les <hi rend="i">cannevas</hi> firent la richesse de Vitré. On fabrique également des draps ; on trouve des traces de tanneries et teintureries. Ces industries sont des industries rurales.</p>
         </div>
-        <div>
+        <div xml:id="r568332">
           <head rend="uc">Chapitre III
            <lb/>Le commerce.</head>
           <p>On achète du vin d’Anjou, des draps. Les marchands de Vitré, groupés en confrérie, vendent leurs toiles en France, en Angleterre et surtout en Espagne, d’où elles sont retransmises, au <num>xvi<hi rend="sup">e</hi></num> siècle, dans l’Amérique centrale. La contrebande du sel paraît développée. Le commerce intérieur se fait dans les foires et les marchés ; le commerce permanent était alors considéré comme une fraude. Les foires de Vitré comptaient parmi les plus anciennes et les plus importantes de la Bretagne. Le commerce était groupé dans les trois <hi rend="i">halles aux cohues</hi> : la cohue à la viande, la cohue au pain et la cohue aux draps ou à la toile. De nombreux droits sont levés sur les marchés et foires ainsi que sur les <hi rend="i">étaux.</hi></p>
           <p>Les routes étaient en fort mauvais état, aucun service de poste régulier n’existait.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r568361">
         <pb source="https://nakala.fr/10.34847/nkl.0afe9h7v#14e953de2a91ebdbd934964d8c5ba39cca30ac8c" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.0afe9h7v/14e953de2a91ebdbd934964d8c5ba39cca30ac8c/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>La baronnie est un pays de marche bretonne qui suivit les destinées de la Bretagne, tout en ressemblant davantage aux pays voisins de l’Est ; l’autorité seigneuriale s’affaiblit et la vie municipale se développe, surtout à partir du moment où la baronnie relève du roi de France.</p>

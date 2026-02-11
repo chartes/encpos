@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,7 +60,7 @@
         <head rend="uc">Table des matières</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r566074">
         <head rend="uc">Avant-propos</head>
         <p>Cette étude, visant à faire connaître en Jean Scot la physionomie de l’helléniste, déterminera comment il conçoit le genre de la traduction. Elle suppose l’<hi rend="i">édition historique</hi> de Maxime et une critique nouvelle de la traduction érigénienne.</p>
       </div>
@@ -70,53 +68,53 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r566097">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r566103">
           <pb source="https://nakala.fr/10.34847/nkl.7066pag3#78b11ad913f885b4bd6fbea845c2cc11ca931c58" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.7066pag3/78b11ad913f885b4bd6fbea845c2cc11ca931c58/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la traduction ; le milieu ; le traducteur.</head>
           <p>Le règne de Charles le Chauve marque une époque dans le mouvement des traductions du grec en latin ; nous y replaçons celle des <hi rend="i">Ambigua</hi> de Maxime le Confesseur, exécutée par Jean Scot Érigène, helléniste réputé. Mais si les difficultés particulières et la longueur exceptionnelle du texte ont entraîné une certaine lassitude du traducteur, celui-ci a déjà quelque expérience du genre.</p>
         </div>
-        <div>
+        <div xml:id="r566124">
           <head rend="uc">Chapitre II
            <lb/>Le <hi rend="i">maxime</hi> de Jean Scot.</head>
           <p>Privés du manuscrit grec dont se servit Jean Scot, nous devons avoir recours à une <hi rend="i">édition historique </hi>des <hi rend="i">Ambigua ;</hi> reconstitution externe, surtout interne, par la confrontation de la traduction érigénienne avec le texte de Maxime tel qu’il nous est conservé.</p>
         </div>
-        <div>
+        <div xml:id="r566148">
           <head rend="uc">Chapitre III
            <lb/>La traduction de Jean Scot ;
            <lb/>la tradition manuscrite.</head>
           <p>La traduction intégrale nous est connue grâce à deux manuscrits : le Mazarine 561 (M) et Arsenal 237 (A) ; le folio 9 du manuscrit Vatican Regina 596 a été détaché de M ; contemporains l’un de l’autre, ils sont rédigés d’après un archétype perdu ; différent à l’origine, M a corrigé son texte sur A, sans obéir au sens.</p>
         </div>
-        <div>
+        <div xml:id="r566162">
           <pb source="https://nakala.fr/10.34847/nkl.7066pag3#5af3117cf4140abc68b1a9850be6c98c5d0d3fc0" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.7066pag3/5af3117cf4140abc68b1a9850be6c98c5d0d3fc0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le vocabulaire de la traduction.</head>
           <p>Nous devons tenir compte des erreurs matérielles de lecture : lettres grecques mal groupées, méprise sur l’accentuation, les esprits. Gêné par la variété extrême du vocabulaire grec, Jean Scot trouve dans les glossaires les mots du vocabulaire concret. La langue théologique et philosophique manifeste l’indépendance de Jean Scot à l’égard de ses instruments de travail ; il interprète les mots insolites par l’étymologie, prétexte à la confusion, qu’augmentent la lassitude et la hâte. Les mots invariables (surtout les particules) et les mots composés montrent la souplesse du grec en face de la pauvreté du latin ; la notion du mot propre n’existe pas ; par ignorance ou affectation, Jean Scot garde des mots grecs.</p>
         </div>
-        <div>
+        <div xml:id="r566179">
           <head rend="uc">Chapitre V
            <lb/>La morphologie.</head>
           <p>Les flexions nominales sont généralement bien interprétées (erreurs sur les déclinaisons contractes) ; les formes verbales à radicaux divers, inégalement reconnues ; les personnes, les temps et les voix sont l’objet de confusion ; les élisions et les crases, mal résolues.</p>
         </div>
-        <div>
+        <div xml:id="r566191">
           <head rend="uc">Chapitre VI
            <lb/>La syntaxe.</head>
           <p>L’inattention explique la violation de quelques <pb source="https://nakala.fr/10.34847/nkl.7066pag3#b8f8fede9d827ed97d1b7261017280cc53c52f5c" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.7066pag3/b8f8fede9d827ed97d1b7261017280cc53c52f5c/full/full/0/default.jpg"/>règles d’accord. En latin, l’absence d’article, élément essentiel de la souplesse syntaxique du grec, explique l’embarras de Jean Scot, les gaucheries de sa traduction et ses « procédés » (emploi de <hi rend="i">ipse</hi>) pour y suppléer. Dans sa hâte, il n’a pas toujours transformé les cas grecs selon les besoins de la syntaxe latine. L’emploi des temps et des modes, parfois incertain, l’est avant tout dans les propositions subordonnées où Jean Scot tente d’introduire les habitudes de la langue grecque (substitution du tour analytique à la proposition infinitive ; traduction du participe).</p>
         </div>
-        <div>
+        <div xml:id="r566212">
           <head rend="uc">Chapitre VII
            <lb/>Stylistique. Les principes du traducteur.</head>
           <p>Sauf quelques figures de style, introduites ou reproduites, malgré le parti pris de variété et le désir d’être clair, Jean Scot, latiniste émérite, vise à la traduction littérale, qui l’oblige à s’écarter du latin classique.</p>
         </div>
-        <div>
+        <div xml:id="r566224">
           <head rend="uc">Conclusion</head>
           <p>I. L’obscurité, le latin conventionnel sont les conséquences des principes adoptés par Jean Scot et de sa rédaction hâtive.</p>
           <p>II. On s’explique ainsi la destinée de la traduction : Jean Scot, son auteur, la cite dans son <hi rend="i">De diuisione naturae ;</hi> des lecteurs ont glosé quelques mots, quelques phrases ; mais l’auteur médiéval des « Ex<pb source="https://nakala.fr/10.34847/nkl.7066pag3#ea99b4e5d1392599e3a3ec33a18e87523855d65a" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.7066pag3/ea99b4e5d1392599e3a3ec33a18e87523855d65a/full/full/0/default.jpg"/>traits » de Maxime, s’il s’est servi de la traduction érigénienne, l’a entièrement remaniée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r566247">
         <head rend="uc">Deuxième partie
          <lb/>Édition du texte des <hi rend="i">Ambigua</hi>
          <lb/>traduits par Jean Scot</head>

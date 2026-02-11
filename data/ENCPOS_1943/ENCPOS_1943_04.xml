@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <forename>Marie-Thérèse</forename>
         <surname>Chabord</surname>
       </byline>
-      <div>
+      <div xml:id="r631763">
         <head rend="uc">Avant-propos</head>
         <p>La période 1560-1610 a été choisie comme cadre chronologique de ce travail, parce qu’elle correspond à la lutte entre catholiques et protestants, dont nous avons voulu étudier les conséquences sur le temporel d’une riche communauté ecclésiastique.</p>
       </div>
@@ -67,38 +65,38 @@
         <head rend="uc">Sources et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r631782">
         <head rend="uc">Introduction historique</head>
         <p>Les événements de la région parisienne. L’attitude ligueuse du chapitre. Les dégâts survenus à ses propriétés du fait des guerres. Son œuvre de reconstruction.</p>
-        <div>
+        <div xml:id="r631791">
           <pb source="https://nakala.fr/10.34847/nkl.1af5j719#a65f9d7a21b7a6be4480e0d23432ce9d1cd3d87c" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.1af5j719/a65f9d7a21b7a6be4480e0d23432ce9d1cd3d87c/full/full/0/default.jpg"/>
           <head rend="uc">Constitution du temporel.</head>
           <p>Localisation et caractères des immeubles de Paris, essai de délimitation du territoire sur lequel le chapitre était seigneur justicier et censier dans la capitale et sa banlieue immédiate.</p>
           <p>Répartition géographique et description des biens ruraux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r631810">
         <head rend="uc">Chapitre premier
          <lb/>administration centrale.</head>
         <p>Une partie des biens capitulaires sert d’assignation aux prébendes des chanoines, le reste alimente les caisses de divers offices, il existe probablement un fonds général. L’office de la chambre est chargé de la gestion de tous les biens sous le contrôle du chapitre. Les questions de tout ordre sont discutées dans les assemblées capitulaires qui ont lieu plusieurs fois par semaine. Les propriétés rurales sont régulièrement visitées par des chanoines spécialement délégués. A Paris, l’église est aidée dans son administration par un personnel laïque. Les contrats sont préparés par l’office de la chambre et passés devant notaires après avoir été approuvés par le chapitre.</p>
       </div>
-      <div>
+      <div xml:id="r631822">
         <head rend="uc">Chapitre II
          <lb/>Administration des immeubles parisiens.</head>
         <p>Les immeubles sont loués en général pour neuf ans ; cette durée diminue pendant la crise de 1590. Les loyers sont en hausse régulière jusqu’à la fin de 1588, subissent une chute brutale de 1590 à 1594, puis remontent peu à peu. Pendant la crise qui suit le siège de Paris, les locataires paient des sommes minimes convenues verbalement avec les chanoines. Ils sont tenus au paiement des impôts et des menues réparations ; pas de règle fixe pour les travaux importants. La sous-location est en principe interdite. Des règlements spéciaux <pb source="https://nakala.fr/10.34847/nkl.1af5j719#871cfdb3d1b40ece40f3d8b3bed8adc392a3bd4a" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.1af5j719/871cfdb3d1b40ece40f3d8b3bed8adc392a3bd4a/full/full/0/default.jpg"/>sont appliqués aux maisons du cloître Notre-Dame et aux immeubles autres que les maisons d’habitation.</p>
       </div>
-      <div>
+      <div xml:id="r631839">
         <head rend="uc">Chapitre III
          <lb/>Administration des propriétés rurales.</head>
         <p>Le chapitre baille à cens les terres incultes et les landes ; il n’utilise pas le faire-valoir direct. Ses propriétés sont affermées pour neuf ans ; les baux à longue durée sont exceptionnels. Le fermage est convenu en argent ou en nature, le chapitre préférant les redevances en grain, mais en fait celles-ci sont, la plupart du temps, transformées en argent à la requête des fermiers. La courbe des fermages est analogue à celle des loyers parisiens. L’entretien des bâtiments est à la charge du fermier ; le chapitre assume les réparations importantes, tente d’améliorer ses exploitations par de nouvelles constructions, surveille la mise en culture et avance des semences à ses fermiers ; il consent des diminutions les années de mauvaise récolte et surtout pendant les guerres.</p>
         <p>Les chanoines afferment les bois taillis et vendent sur pied la futaie ; ils interdisent le pâturage dans leurs bois. Le droit de pêche est également affermé.</p>
       </div>
-      <div>
+      <div xml:id="r631854">
         <head rend="uc">Chapitre IV
          <lb/>Administration des droits seigneuriaux.</head>
         <p>La perception est tantôt baillée à ferme, tantôt confiée à un receveur. La justice est exercée par des officiers à gages : prévôt, lieutenant, procureur fiscal, sergents. Le greffe est parfois donné à ferme avec le tabellionnage. A Paris, la justice est rendue par le chambrier lai, assisté d’un lieutenant ; il juge en première instance au civil et au criminel dans la capitale et reçoit les appels des justices seigneuriales par un privilège spécial au chapitre ; il va aussi tenir des assises dans les prévôtés. Le droit de justice du chapitre a été respecté par le Parlement.</p>
       </div>
-      <div>
+      <div xml:id="r631866">
         <pb source="https://nakala.fr/10.34847/nkl.1af5j719#8cef0e6331275b4d6c2deb6f91b9e890f69210c3" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.1af5j719/8cef0e6331275b4d6c2deb6f91b9e890f69210c3/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre V
          <lb/>Histoire financière.</head>
@@ -108,7 +106,7 @@
         <head rend="uc">Conclusion</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r631892">
         <head rend="uc">Appendices</head>
         <div>
           <head rend="uc">I. Carte des domaines ruraux.</head>

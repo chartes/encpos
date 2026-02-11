@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,39 +56,39 @@
         <forename>Philippe</forename>
         <surname>Grand</surname>
       </byline>
-      <div>
+      <div xml:id="r843979">
         <head rend="uc">Première partie
          <lb/>Gérard d’Abbeville</head>
-        <div>
+        <div xml:id="r843987">
           <head rend="uc">Chapitre premier</head>
           <p>Gérard d’Abbeville, maître en théologie à l’Université de Paris de 1260 environ à 1272, collègue de Guillaume de Saint-Amour et de Robert de Sorbon, est longtemps resté oublié dans l’ombre de Guillaume de Saint-Amour, le principal meneur des maîtres séculiers lors de la grande querelle qui opposa ceux-ci aux maîtres mendiants, entre 1250 et 1270. Seules, ses œuvres polémiques ont été étudiées et partiellement éditées. Des travaux récents ont permis de découvrir dans ses quodlibets une théologie et une philosophie cohérentes, d’esprit augustinien et illuministe, apparentées aux doctrines professées par les franciscains.</p>
         </div>
-        <div>
+        <div xml:id="r843997">
           <head rend="uc">Chapitre II</head>
           <p>La vie de Gérard d’Abbeville est peu connue car il n’a guère parlé de lui-même dans ses œuvres. Nous savons par son testament qu’il était fort riche. Il avait hérité de la bibliothèque de Richard de Fournival, chancelier de l’Église d’Amiens, et la légua à sa mort à la Sorbonne, dont il avait probablement été, en 1257, cofondateur avec Robert de Sorbon, son exécuteur testamentaire. Archidiacre du Ponthieu, il tirait d’importantes ressources de ses nombreux bénéfices. Son œuvre écrite et l’activité qu’il déploya à l’Université donnent à penser qu’il résida presque toujours à Paris, où il prit la relève de Guillaume de <pb source="https://nakala.fr/10.34847/nkl.6c6dkjr8#071e401839004394bd2fa430df850a0a9277be8a" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c6dkjr8/071e401839004394bd2fa430df850a0a9277be8a/full/full/0/default.jpg"/>Saint-Amour (exilé depuis 1256) à la tête des maîtres séculiers menacés par les dominicains et les franciscains dans leur prépondérance à la Faculté de théologie.</p>
           <p>En 1269-1271, saint Thomas d’Aquin, du côté des ordres mendiants, et Gérard d’Abbeville, du côté des maîtres séculiers, furent les acteurs principaux de la querelle. Après 1271, Thomas retourna en Italie et Gérard ne fit plus parler de lui jusqu’à sa mort, le 8 novembre 1272.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r844016">
         <head rend="uc">Deuxième partie
          <lb/>Édition des quodlibets I et XIV</head>
-        <div>
+        <div xml:id="r844024">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits</head>
           <p>Les quodlibets de Gérard d’Abbeville sont conservés dans deux manuscrits principaux, à Paris (Bibl. nat., lat. 16405) et à Rome (Vat., lat. 1015).</p>
           <p>Ils sont tous les deux contemporains de Gérard d’Abbeville. Le manuscrit parisien lui appartint, le manuscrit romain porte l’ex-libris d’un clerc rouennais, Guillaume de Greinville.</p>
           <p>Les questions 1, 5 et 6 du quodlibet XIV sont également contenues dans le manuscrit Bibl. nat., lat. 16297, qui est un spicilège d’œuvres connues au <num>xiii<hi rend="sup">e</hi></num> siècle ayant appartenu au maître séculier Godefroid de Fontaines, à la fin du siècle.</p>
         </div>
-        <div>
+        <div xml:id="r844048">
           <head rend="uc">Chapitre II
            <lb/>Texte</head>
           <p>Le manuscrit Bibl. nat., lat. 16405, a été adopté comme manuscrit de base.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r844061">
         <head rend="uc">Troisième partie
          <lb/>Commentaire</head>
-        <div>
+        <div xml:id="r844069">
           <head rend="uc">Chapitre premier
            <lb/>le quodlibet I</head>
           <p>Le quodlibet 1 se compose de trois groupes de questions : sur la grâce et la charité, sur l’âme, et sur les dîmes. Ce dernier groupe n’est point étudié.</p>
@@ -101,7 +99,7 @@
           <p>En résumé, Gérard d’Abbeville professe une théologie illuministe fondée sur un dynamisme profond lié au dynamisme même de la Trinité. La charité est divine dans sa racine, humaine dans ses fruits. La base de la charité est d’ordre ontologique (elle est la « forme » de l’être), son expression concrète est d’ordre moral et social.</p>
           <p>B. <hi rend="i">Questions sur l’âme.</hi> – A l’occasion du problème de la motion locale et de l’autonomie de l’âme séparée, Gérard d’Abbeville étudie le mystère de l’union de l’âme et du corps. Il a adopté comme tous les philosophes du <num>xiii<hi rend="sup">e</hi></num> siècle, la définition aristotélicienne de l’âme forme du corps, mais, comme Platon, il veut sauver son indépendance, exalter sa légèreté en contraste avec la lourdeur du corps. Il ne parvient pas à concilier dans une vision chrétienne le dualisme platonicien et l’hylémorphisme aristotélicien.</p>
         </div>
-        <div>
+        <div xml:id="r844118">
           <head rend="uc">Chapitre II
            <lb/>Le quodlibet XIV</head>
           <p>Le quodlibet XIV (décembre 1269) comprend essentiellement cinq groupes de questions : sur les états de perfection dans l’Église, la volonté humaine, la toute-puissance de Dieu, l’âme et la connaissance intellectuelle, l’éternité du monde. Le dernier groupe n’est pas étudié (le maître affirme l’union du temps et du mouvement, mais ne sait comment intégrer la conception « rectiligne » de Platon, et réfute par voie d’autorité la thèse « circulaire » ou « cyclique » d’Aristote).</p>
@@ -117,7 +115,7 @@
           <p>C’est en augustinien illuministe qu’il aborde la métaphysique de l’âme. Le mouvement intérieur des facultés de l’âme, mémoire, intelligence, volonté, participe directement au mouvement de la Trinité. L’être le plus profond de l’homme est l’image de Dieu en lui.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r844199">
         <head rend="uc">Conclusion</head>
         <p>Gérard d’Abbeville est un théologien typique de la seconde moitié du <num>xiii<hi rend="sup">e</hi></num> siècle. Il nous permet de voir que les luttes doctrinales à cette époque n’opposent plus les partisans d’Aristote à ses adversaires, mais les partisans d’un aristotélisme intégral aux partisans d’une synthèse (trop souvent réduite à un syncrétisme) d’Aristote et de la tradition platonisante. Gérard d’Abbeville lutte sur plusieurs fronts, en juriste, en théologien et en philosophe et il semble bien qu’il fut d’un grand poids lors de la condamnation des propositions déterministes en décembre 1270 par l’évêque Étienne Tempier. Il est le dernier grand archidiacre de l’Église et, à ce titre, représente l’arrière-garde intelligente des prélats de son époque. Mais il est aussi le premier théoricien du gallicanisme encore indépendant de l’autorité royale.</p>
         <pb source="https://nakala.fr/10.34847/nkl.6c6dkjr8#4672a3397e96ba15dcd2acff870aed2bd1c14c80" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c6dkjr8/4672a3397e96ba15dcd2acff870aed2bd1c14c80/full/full/0/default.jpg"/>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1949_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1949_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,19 +59,19 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r697799">
         <head rend="uc">Introduction</head>
         <p>Historique de l’île de France depuis sa découverte jusqu’à sa rétrocession au roi en 1764. Généralités sur l’administration de la colonie, la justice, les finances, le commerce, les troupes et les milices depuis 1767 jusqu’à l’année 1789. Division de l’île en onze, puis huit quartiers : sept pour les campagnes, un pour la ville : le Port-Louis. Population de l’île. Caractères et origines de cette population. État dans lequel se trouvait la colonie après l’administration de la compagnie des Indes, son dénuement et sa détresse morale.</p>
       </div>
-      <div>
+      <div xml:id="r697809">
         <head rend="uc">Première partie
          <lb/>Cadre juridique et social de la vie privée</head>
-        <div>
+        <div xml:id="r697817">
           <head rend="uc">Chapitre premier
            <lb/>la naissance. L’enfance et l’éducation.</head>
           <p>Statistiques des naissances, chez les blancs, les noirs libres et les esclaves, d’après les recensements. Les blancs, élevés très près de la nature et livrés à tous leurs caprices, dès leur plus jeune âge, manquaient de culture en général. Aucun établissement d’instruction publique n’existant dans la colonie, deux moyens s’offraient aux colons pour donner une éducation à leurs enfants : les envoyer en France dans des couvents ou des collèges, malgré les dangers d’un long voyage, ou les faire instruire chez eux par de médiocres précepteurs. Chez les esclaves et les noirs libres, manque total d’instruction ; à peine sortis de l’enfance on les mettait en apprentissage,</p>
         </div>
-        <div>
+        <div xml:id="r697829">
           <pb source="https://nakala.fr/10.34847/nkl.5a9eq1ln#75f45b3f14d582619d88aee7d8e057cde9045148" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.5a9eq1ln/75f45b3f14d582619d88aee7d8e057cde9045148/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le mariage.</head>
@@ -82,17 +80,17 @@
           <p><hi rend="i">Mariages des noirs libres.</hi> – Fiançailles, contrat de mariage, régime de la communauté suivant la coutume de Paris, mariage religieux catholique, mêmes formalités que pour les blancs. Mariage non catholique toléré.</p>
           <p><hi rend="i">Mariage des esclaves.</hi> – Mariage catholique, bans et consentement du maître seul obligatoire.</p>
         </div>
-        <div>
+        <div xml:id="r697864">
           <head rend="uc">Chapitre III
            <lb/>Les sépultures et les successions.</head>
           <p><hi rend="i">Les sépultures.</hi> – Mortalité dans la population de la colonie. En 1767, il existait trois cimetières pour les blancs. Formalités et « ordonnancements » des enterrements catholiques. Sépultures des noirs libres et des esclaves.</p>
           <p><hi rend="i">Les successions.</hi> – Successions <hi rend="i">ab intestat,</hi> successions testamentaires ; testaments olographes, publics et secrets, forme et fonds de ces actes. Importance du curateur aux biens vacants.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r697890">
         <head rend="uc">Deuxième partie
          <lb/>Conditions matérielles de la vie privée</head>
-        <div>
+        <div xml:id="r697898">
           <head rend="uc">Chapitre premier
            <lb/>l’habitation.</head>
           <p>Concessions de terre par le gouverneur et l’intendant de la colonie, conditions requises.</p>
@@ -102,28 +100,28 @@
           <p><hi rend="i">Camps des noirs libres.</hi> – Dans les faubourgs du Port-Louis, cases en palissades.</p>
           <p><hi rend="i">Quelques belles résidences.</hi> – Le Réduit, Monplaisir et Palma.</p>
         </div>
-        <div>
+        <div xml:id="r697945">
           <head rend="uc">Chapitre II
            <lb/>Le mobilier.</head>
           <p><hi rend="i">Gros meuble.</hi> – Chez les blancs, peu de superflu, des meubles simples et pratiques en bois et en rotin représentaient le strict nécessaire. Quelques meubles grossiers chez les noirs et les esclaves, ces derniers se contentant souvent d’un simple lit de feuilles et d’un foyer.</p>
           <p><hi rend="i">Accessoires.</hi> – Les colons et les noirs libres se servaient de vaisselle de faïence, la porcelaine de Chine étant réservée aux riches ; ils possédaient de nombreux bibelots, mais peu d’argenterie ; les ustensiles de cuisine étaient en cuivre et en fer. La nature fournissait aux esclaves leurs ustensiles de ménage : jarres et gamelles de bois, courges évidées.</p>
         </div>
-        <div>
+        <div xml:id="r697966">
           <head rend="uc">Chapitre III
            <lb/>Le Costume.</head>
           <p><hi rend="i">Costume des blancs. ■</hi> – Les créoles avaient du goût pour la toilette et s’ingéniaient à suivre les modes de France. Les fournitures et les étoffes venaient de l’Europe et de l’Inde. Une garde-robe de bourgeoise. L’intérieur d’une boutique de modes. Bijoux et fards. Les vêtements des hommes étaient plus simples.</p>
           <p><hi rend="i">Costume des noirs.</hi> – Moins de recherche, sauf chez les Indiens. Costume, bijoux et accessoires différents suivant les castes. Pour les esclaves, le maître devait fournir, une fois par an, un pantalon et une chemise aux hommes, une jupe, un mouchoir et une chemise aux femmes.</p>
         </div>
-        <div>
+        <div xml:id="r697987">
           <head rend="uc">Chapitre IV
            <lb/>L’alimentation.</head>
           <p>Les colons négligeaient les cultures vivrières. Productions de la colonie ; <pb source="https://nakala.fr/10.34847/nkl.5a9eq1ln#76247c4236f2a14eac69b3ab806debca956730bd" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.5a9eq1ln/76247c4236f2a14eac69b3ab806debca956730bd/full/full/0/default.jpg"/>blé, riz, maïs, manioc, légumes, fruits, volailles, poissons, gibier, arack et guildive. Denrées importées : blé de Bourbon et de l’Inde, viande de boucherie et salaisons de Madagascar, beurre, fromages, vins et liqueurs d’Europe. Marchés, repas et menus des colons. Nourriture des noirs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r698005">
         <head rend="uc">Troisième partie
          <lb/>La vie privée</head>
-        <div>
+        <div xml:id="r698013">
           <head rend="uc">Chapitre premier
            <lb/>la vie privée des blancs.</head>
           <p>Mœurs et caractères généraux des habitants de l’île de France. Traits dominants chez les créoles : vivacité et intelligence, malgré le manque de culture, bonté, bravoure, hospitalité, mais vanité et amour excessif du plaisir ; chez certains Européens, venus dans l’intention de faire fortune : goût du luxe et soif d’argent, qui les entraînaient dans des spéculations illicites.</p>
@@ -132,7 +130,7 @@
           <p><hi rend="i">Plaisirs et distractions.</hi> – Réunions mondaines, bals et réceptions, activités culturelles, relations avec l’étranger et la métropole.</p>
           <p><hi rend="i">Les maladies et épidémies.</hi></p>
         </div>
-        <div>
+        <div xml:id="r698048">
           <head rend="uc">Chapitre II
            <lb/>La vie des noirs.</head>
           <p><hi rend="i">Les noirs libres.</hi> – Caractères généraux et traits particuliers à chaque classe, leur division et leurs antipathies. Les Indiens, les Malgaches et les créoles étaient ouvriers et artisans, les affranchis, fiers de leur récente <pb source="https://nakala.fr/10.34847/nkl.5a9eq1ln#9a1d02146414a3e29bef8b3e22037953758db0a1" n="41" facs="https://api.nakala.fr/iiif/10.34847/nkl.5a9eq1ln/9a1d02146414a3e29bef8b3e22037953758db0a1/full/full/0/default.jpg"/>liberté, ne consentaient pas à exercer un métier et préféraient vivre en « habitant », à la campagne. Le goût du plaisir et du luxe poussait nombre de négresses au métier de galanterie. Fortune des uns, indigence des autres.</p>
@@ -140,13 +138,13 @@
           <p><hi rend="i">Maladies des noirs.</hi> – Caractères et traitement.</p>
           <p><hi rend="i">Plaisirs et distractions.</hi> – Danses et chants particuliers à chaque caste, désordres causés par le goût du jeu et de la boisson.</p>
         </div>
-        <div>
+        <div xml:id="r698090">
           <head rend="uc">Chapitre III
            <lb/>La religion.</head>
           <p>La religion dominante et la seule à peu près connue à l’île de France était la religion catholique. Débuts difficiles du clergé. Il y avait seulement trois paroisses en 1767 et cinq en 1770. Peu de zèle religieux de la part des colons. La religion catholique était la seule qui fût autorisée aux esclaves, obligation de les baptiser, instruction donnée dans les habitations. Les autres religions étaient tolérées, à condition que leur culte ne fût pas public. En 1788, un édit accorda un état civil aux non-catholiques. Formalités pour les déclarations de naissances, mariages et décès. Considérations sur les mariages mixtes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r698103">
         <head rend="uc">Conclusion</head>
         <p>Malgré les désordres et les vicissitudes, on vivait heureux, semble-t-il, à l’île de France, lorsque la Révolution vint bouleverser la situation en 1790.</p>
       </div>

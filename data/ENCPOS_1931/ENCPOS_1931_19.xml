@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,11 +58,11 @@
         <head rend="uc">Sources, bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r508895">
         <head rend="uc">Premiere partie
          <lb/>Origines, formation topographique
          <lb/>et peuplement</head>
-        <div>
+        <div xml:id="r508905">
           <head rend="uc">Chapitre premier
            <lb/>origines et constitution de la paroisse.</head>
           <p>La fondation d’une chapelle du titre de St-Paul apôtre dans le cimetière, situé sur la rive droite de la Seine, des religieuses de Saint-Martial en la Cité, nous est connue par un passage de la Vie de St Eloi. Critique de ce passage. S’agit-il de St Paul apôtre, de St Paul ermite ou du vénérable Paul, évêque de Paris ?</p>
@@ -72,7 +70,7 @@
           <p>Au milieu du <num>xii<hi rend="sup">e</hi></num> siècle, une population rurale cultivait et habitait le territoire autour de l’église.</p>
           <p>On ignore à quelle date elle devint paroisse mais c’était certainement un fait accompli à la fin du XII<hi rend="sup">e </hi>siècle.</p>
         </div>
-        <div>
+        <div xml:id="r508936">
           <pb source="https://nakala.fr/10.34847/nkl.98c06b6f#b7de1e3af33b1d2bb66c755376b68ab4e216f3e4" n="162" facs="https://api.nakala.fr/iiif/10.34847/nkl.98c06b6f/b7de1e3af33b1d2bb66c755376b68ab4e216f3e4/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Transformation du territoire paroissial
@@ -82,7 +80,7 @@
           <p>Vers 1300, on distinguait trois circonscriptions ou « quêtes », à savoir : à l’intérieur des murs de la Ville, deux circonscriptions séparées par la rue Saint-Antoine ; la troisième comprenait, en dehors du rempart, les maisons du faubourg.</p>
           <p>Paroisse de la périphérie, Saint-Paul contient à cette époque beaucoup de résidences de grands seigneurs laïques et ecclésiastiques. On n’y rencontre guère de métiers localisés, sauf les foulons. Le port des Barres précise l’importance du trafic fluvial sur les rives de la Seine.</p>
         </div>
-        <div>
+        <div xml:id="r508969">
           <head rend="uc">Chapitre III
            <lb/>Modifications dans la topographie
            <lb/>et le peuplement de la paroisse du milieu du <num>xiv<hi rend="sup">e</hi></num>
@@ -93,10 +91,10 @@
           <p>Les reconstructions ou agrandissements successifs de l’église correspondent aux étapes du peuplement et à la situation économique des paroissiens.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r509040">
         <head rend="uc">Seconde partie
          <lb/>Institutions paroissiales</head>
-        <div>
+        <div xml:id="r509048">
           <head rend="uc">A. – Curés et clergé</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -132,7 +130,7 @@
             <p>Au <num>xv<hi rend="sup">e</hi></num> siècle, le nombre des chapelains augmente. Le vicaire et le clerc de l’œuvre ont des attributions spéciales.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r509193">
           <head rend="uc">B. Communautes des paroissiens
            <lb/>et fabrique</head>
           <div>
@@ -152,7 +150,7 @@
             <p>A partir de la fin du <num>xv<hi rend="sup">e</hi></num> siècle, nombre de paroissiens donnent ou lèguent des sommes d’argent au lieu de rentes sur leurs biens. Cet usage mit de grosses sommes à la disposition de la fabrique. Elle usa du prêt à intérêt sous la forme à peine déguisée de constitutions de rentes assignées sur les biens de l’emprunteur.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r509291">
           <head rend="uc">C. – La vie religieuse de la paroisse</head>
           <div>
             <head rend="uc">Chapitre premier

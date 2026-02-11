@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1866_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1866_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,11 +58,11 @@
         <forename>Francis</forename>
         <surname>Molard</surname>
       </byline>
-      <div>
+      <div xml:id="r57887">
         <head rend="uc">Première partie
          <lb/>Organisation du tribunal de l’officialité</head>
         <p>I. Le tribunal de l’Officialité est composé des fonctionnaires suivants dans les trois diocèses de Lausanne, de Vienne et de Grenoble, à savoir : 1° l’Offïcial ; 2° et 3° le Chancelier et son Vice-receveur ou Mestral ; 4° et 5° le Procureur fiscal et son Substitut ; 6° et 7° les Notaires jurés et leurs sous-greffiers (subscribæ) ; 8° les <hi rend="i">familiares.</hi></p>
-        <div>
+        <div xml:id="r57901">
           <head rend="uc">Official</head>
           <p>LL L’official, qualifié du titre de <hi rend="i">magister</hi> dans le diocèse de Vienne, de celui de <hi rend="i">dominus</hi> dans les deux diocèses de Lausanne et de Grenoble, dit en parlant de lui-même <hi rend="i">nos,</hi> et non <hi rend="i">ego,</hi> comme les officiaux du nord de la Loire.</p>
           <pb source="https://nakala.fr/10.34847/nkl.d2f6qyy7#ff4212534082a847d913a2025c857a873c83f9fb" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.d2f6qyy7/ff4212534082a847d913a2025c857a873c83f9fb/full/full/0/default.jpg"/>
@@ -72,7 +70,7 @@
           <p>IV. L’official est soumis à l’évêque, ou, à défaut de l’évêque, au chapitre où le doyen le remplace parfois avec le titre de Vice-gérant.</p>
           <p>V. L’official est rétribué par l’évêque, ainsi que la cour d’officialité. Il a droit à un casuel.</p>
         </div>
-        <div>
+        <div xml:id="r57941">
           <head rend="uc">Le chancelier</head>
           <p>VI. La charge de chancelier donne la noblesse.</p>
           <p>VII. La charge de chancelier s’afferme moyennant un prix déterminé payé tous les quatre ans.</p>
@@ -81,7 +79,7 @@
           <p>X. Le chancelier présente le procureur fiscal à l’approbation de l’évêque et partage avec lui le profit des bans.</p>
           <p>XI. Le chancelier a le droit de faire les publications en cour d’officialité. Il a une paye fixe et un salaire casuel.</p>
         </div>
-        <div>
+        <div xml:id="r57966">
           <head rend="uc">Le procureur fiscal</head>
           <p>XII. Il remplissait le rôle de ministère public. Il recevait les plaintes et dénonciations et agissait lui-même en cas de scandale patent.</p>
           <p>XIII. Il recevait les produits des amendes des compositions et des condamnations.</p>
@@ -90,7 +88,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.d2f6qyy7#22fe1e8d1ec40c8688c1205abffb5edf3c0e1407" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.d2f6qyy7/22fe1e8d1ec40c8688c1205abffb5edf3c0e1407/full/full/0/default.jpg"/>
           <p>XVI. Il avait la haute surveillance sur l’exécution des coupables, les prisons de l’official, et réglait avec le châtelain les dépenses des prisonniers arrêtés par la cour séculière et renvoyés à l’official après examen préalable. En cas de discord, l’official jugeait et décidait entre eux.</p>
         </div>
-        <div>
+        <div xml:id="r57993">
           <head rend="uc">Les clercs jurés</head>
           <p>XVII. Les clercs jurés pouvaient être clercs d’un autre diocèse, notaires impériaux et apostoliques, secrétaires de l’évêque ou du souverain du pays, prêtres, et curés ayant charge d’âmes.</p>
           <p>XVIII. Ce sont eux qui transmettent à l’official les demandes de sceller. Ils signent, rédigent, tous les deux ou à tour de rôle, les actes scellés par l’official (à Vienne depuis 1553, à Lausanne depuis 1360).</p>
@@ -98,29 +96,29 @@
           <p>XX. Ils ont des sous-greffiers. Ils rédigent et copient tous les actes et pièces de procédure en cour d’officialité.</p>
           <p>XXI. Ils ont un traitement fixe et un casuel à prendre sur les frais des procès. Leur charge est à ferme, et se paye tous les deux ans. Ils président directement aux exécutions des clercs,</p>
         </div>
-        <div>
+        <div xml:id="r58015">
           <head rend="uc">Les familiers</head>
           <p>XXII. Ils aident aux jurés de la cour séculière dans les exécutions des clercs, portent les lettres d’exécution, les citations, et les monitoires.</p>
           <p>XXIII. L’huissier proclamateur, qui est aussi un des familiers, sonne la cloche qui annonce l’ouverture de la cour et signe aux lettres d’absolution.</p>
           <p>XXIV. La cour de l’official chôme tous les dimanches et pendant un certain nombre de jours fériés dont le détail est contenu dans un calendrier spécial destiné à celte cour.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r58032">
         <pb source="https://nakala.fr/10.34847/nkl.d2f6qyy7#e8f617d3fddfa8ce235df9d90ca6d771cf5805c2" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.d2f6qyy7/e8f617d3fddfa8ce235df9d90ca6d771cf5805c2/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Procédure du tribunal de l’officialité</head>
-        <div>
+        <div xml:id="r58045">
           <head rend="uc">Procédure civile</head>
           <p>I. La compétence du tribunal d’officialité s’étendait territorialement sur un doyenné ou un archiprêtré tout entier, et individuellement sur toutes les personnes ecclésiastiques qui se trouvaient dans le ressort dudit doyenné (quand bien même ces personnes étaient clercs ou avaient charge d ûmes en pays étrangers).</p>
           <p>II. Il y avait des procureurs et des avocats attachés au tribunal d’officialité. Ils étaient nommés par l’official et prêtaient serment entre ses mains. Un salaire annuel leur était attribué en outre de leurs honoraires.</p>
         </div>
-        <div>
+        <div xml:id="r58058">
           <head rend="uc">Procédure criminelle</head>
           <p>III. Les sentences portées par le tribunal d’officialité, affectaient trois formes bien distinctes : la <hi rend="i">compositio,</hi> la <hi rend="i">condemnatio,</hi> la <hi rend="i">marciatio.</hi></p>
           <p>IV. L’official avait droit de prononcer la mort et la confiscation en cas de sortilége et d’hérésie. Les peines pour l’adultère, le rapt, la fornication et la détention arbitraire des biens de l’Église étaient les excommunications majeures et mineures, l’échelle, la prison et l’amende.</p>
           <p>V. L’appel, tant au civil qu’au criminel, était porté par devant l’archevêque diocésain ou le pape. L’official du diocèse voisin était alors chargé de faire enquête et prononçait en dernier ressort.</p>
         </div>
-        <div>
+        <div xml:id="r58085">
           <head rend="uc">Attributions extrajudiciaires des officiaux</head>
           <p>VI. Les attributions extrajudiciaires des officiaux sont la rédaction des actes synodaux, les visites pastorales faites de concert <pb source="https://nakala.fr/10.34847/nkl.d2f6qyy7#077b90622bb50039d620d6fd364b905eb53bc0e6" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.d2f6qyy7/077b90622bb50039d620d6fd364b905eb53bc0e6/full/full/0/default.jpg"/> avec l’évêque, et, au seizième siècle, le vicariat général pour le spirituel et le temporel de l’évêché.</p>
           <p>VII. Ce sont aussi la sépulture et le payement des dettes des curés au moyen de leurs dépouilles.</p>

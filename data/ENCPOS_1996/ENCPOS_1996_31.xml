@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_31" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_31" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,25 +56,25 @@
         <surname>Rousseau</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1289243">
         <head rend="uc">Introduction</head>
         <p>Les études sigillographiques françaises ont longtemps ignoré le domaine des religieux. Les régions du nord de la France ont été l’objet de travaux anciens, et celles du sud, d’autres plus récents (M. de Framond sur le Rouergue, F. Plazannet sur la Gascogne). A côté de ces travaux régionaux, certains catalogues thématiques ont été réalisés, concernant notamment les sceaux des rois (B. Bedos). Ainsi, le monde des réguliers est resté vierge de toute étude en la matière. Il convenait donc d’étudier la sigillographie monastique pour en dégager les originalités. Un travail concernant l’ensemble du monde bénédictin eût été trop vaste, il a donc fallu se limiter à l’un de ses rameaux : celui de Cîteaux. Cet ordre étant très développé, l’étude porte sur ses cinq premières maisons – Cîteaux, La Ferté-sur-Grosne, Pontigny, Clairvaux et Morimond –, de 1098, fondation de Cîteaux par saint Robert, à 1516, introduction de la commende dans certains monastères de l’ordre. Ce sont deux cent dix empreintes sigillaires qui ont été sélectionnées dans les fonds d’archives français et européens.</p>
       </div>
-      <div>
+      <div xml:id="r1289253">
         <head rend="uc">Sources</head>
         <p>La base de la recherche a consisté en un dépouillement systématique des inventaires des principales collections sigillographiques existantes : Douët d’Arcq (Archives nationales), Roman (Bibliothèque nationale de France), Ellis (Public Record Office), Gray-Birch (British Library), Guglieri-Navarro (Archives historiques nationales à Madrid), complétés par les inventaires régionaux ou départementaux de Demay (Artois-Picardie, Flandre et Normandie), Coulon (Bourgogne et Champagne), Des Robert (Lorraine), Cahen (Moselle), auxquels a été ajoutée l’exploitation des cartulaires imprimés d’abbayes cisterciennes.</p>
         <pb source="https://nakala.fr/10.34847/nkl.8efd80qz#715f3fe9b644897f941de417f9fbd7619042c8df" n="260" facs="https://api.nakala.fr/iiif/10.34847/nkl.8efd80qz/715f3fe9b644897f941de417f9fbd7619042c8df/full/full/0/default.jpg"/>
         <p>Ces premiers travaux de repérage, vérifiés par des sondages dans quelques départements au sud de la Loire (Aveyron, Gironde et Vienne), ont amené à exploiter principalement les fonds d’archives du nord de la France : les séries J et S des Archives nationales ; les séries B et H des Archives départementales de l’Aube, de la Côte-d’Or, du Jura, de la Marne, de la Haute-Marne, de Meurthe-et-Moselle, de la Moselle, du Nord et de l’Yonne ; la série du Trésor des chartes des Archives municipales de Dijon. S’ajoutent à cela les fonds très riches du grand séminaire de Bruges, de la British Library, des Archives historiques nationales à Madrid, des Archives de 1 État de Bavière à Munich, des archives conventuelles de l’abbaye de Heiligenkreuz en Autriche et des archives Vaticanes.</p>
       </div>
-      <div>
+      <div xml:id="r1289271">
         <head rend="uc">Chapitre préliminaire
          <lb/>les archives des cinq premières arbayes cisterciennes</head>
         <p>Les cinq premières maisons de l’ordre de Cîteaux ont fait l’objet d’études peu nombreuses, et pour la plupart déjà anciennes. Souvent victimes des guerres et des invasions – ces abbayes sont situées dans l’est du royaume de France –, les archives sont aujourd’hui réduites à l’état d’épaves. Le fonds de l’abbaye de Cîteaux, aujourd’hui conservé aux Archives départementales de la Côte-d’Or, a souffert de l’invasion espagnole de 1636 et des destructions par les moines eux-mêmes au moment de la Révolution. Il ne comprend plus aucun sceau, mais renferme encore de nombreux documents comptables et judiciaires, de l’époque moderne essentiellement. Le fonds de Clairvaux, très riche, est d’un accès difficile, et la plupart des sceaux qu’il contenait ont été détruits à une date récente. Le fonds de Pontigny est sans doute le plus riche de ces cinq maisons cisterciennes. Il possède un grand nombre de documents scellés. Curieusement, d’ailleurs, on y trouve beaucoup de sceaux de l’abbaye elle-même et de ses abbés. Les fonds des abbayes de La Ferté-sur-Grosne et de Morimond ont été pratiquement anéantis pendant la Révolution. Ils ne conservent que quelques documents médiévaux, mais sans aucun sceau. Ainsi, les recherches ont dû être orientées en direction d’autres fonds cisterciens, privilégiant toujours les filles directes des cinq premières maisons.</p>
       </div>
-      <div>
+      <div xml:id="r1289283">
         <head rend="uc">Première partie
          <lb/>Étude des sceaux</head>
-        <div>
+        <div xml:id="r1289291">
           <head rend="uc">Chapitre premier
            <lb/>aspects juridiques de l’emploi du sceau dans l’ordre de Cîteaux</head>
           <p><hi rend="i">La législation ecclésiastique.</hi> – Le droit de l’Église naît avec les compilations juridiques du XI’ siècle. A cette époque, l’emploi du sceau n’est pas généralisé dans <pb source="https://nakala.fr/10.34847/nkl.8efd80qz#8b9169ec9d91c6db6fba5844f46e0b742412fdd5" n="261" facs="https://api.nakala.fr/iiif/10.34847/nkl.8efd80qz/8b9169ec9d91c6db6fba5844f46e0b742412fdd5/full/full/0/default.jpg"/>les institutions ecclésiastiques. Ce n’est que sous les pontificats d’Alexandre III et d’Innocent IV que le sceau est évoqué dans les collections de décrétales. Le droit se contente cependant de donner une définition générale de l’emploi du sceau, et s’attache surtout à établir la définition du sceau authentique afin de faciliter la reconnaissance des titres. D’autre part, les maisons religieuses sont assimilées aux collèges du droit romain, donc à des personnes morales. Le droit canonique reprend les prescriptions du Digeste en matière d’érection des collèges. Ainsi, les monastères sont considérés comme des personnes morales, mais plus comme les mineurs du Code Justinien. Ils peuvent acquérir des biens de leur propre chef et donc disposer d’un sceau pour leurs transactions.</p>
@@ -84,7 +82,7 @@
           <p>L’apparition du sceau dans l’ordre de Cîteaux a lieu au milieu du XII’ siècle ; c’est ce qu’indiquent les plus anciennes chartes conservées. Le monastère étant une personne morale placée sous la responsabilité d’un abbé, son sceau ne pouvait être qu’anonyme. Une exception notoire à cette règle est le second sceau de saint Bernard, premier abbé de Clairvaux. Ce sceau nominal est connu par une matrice dont l’authenticité douteuse a soulevé de nombreuses polémiques auxquelles il semble impossible d’apporter un terme, faute d’empreinte. Ce cas mis à part, l’utilisation du sceau anonyme dans l’ordre est universelle à partir de la seconde moitié du XII’ siècle. Au XIII’ siècle, les <hi rend="i">Statuta</hi> sont compilés en codifications et fixent précisément le type, la forme et les représentations des sceaux.</p>
           <p>En 1335, la bulle <hi rend="i">Fulgens sicut Stella</hi> de Benoît XII réforme l’ordre. Si ses effets sur la vie monastique cistercienne furent limités, elle inaugura une véritable révolution des pratiques sigillaires en introduisant l’usage du sceau nominal pour les abbés. Désormais les intérêts des communautés sont divisés entre ceux de l’abbé et ceux du couvent, doté du sceau anonyme de la personne morale dont le type est précisément défini dans le droit. L’inflation des affaires traitées par le Chapitre général est à l’origine de la création d’une institution originale, à la fin du XII’ siècle : les définiteurs. Utilisant tout d’abord le sceau de l’abbé de Cîteaux pour promulguer leurs décisions, ils sont dotés d’un sceau particulier à la fin du XIV’ siècle. On trouve donc quatre types « le sceaux définis précisément par le droit cistercien : le sceau anonyme de l’abbé et de sa communauté ; celui, nominal, de l’abbé ; celui, anonyme, de la communauté ; celui des définiteurs du Chapitre. Enfin, le droit cistercien ne précise pas les limites de l’emploi du sceau, se rangeant à l’usage général, et reste très discret sur les conditions de garde et de conservation des matrices. Soumis au droit ecclésiastique général, les Cisterciens eurent le souci de codifier dans un droit particulier les types de sceau employés par les membres de l’ordre.</p>
         </div>
-        <div>
+        <div xml:id="r1289341">
           <pb source="https://nakala.fr/10.34847/nkl.8efd80qz#bc702c7f5f8eceef0dd4a74fec431fd45de6c92a" n="262" facs="https://api.nakala.fr/iiif/10.34847/nkl.8efd80qz/bc702c7f5f8eceef0dd4a74fec431fd45de6c92a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Diplomatique des sceaux des cinq pères</head>
@@ -94,7 +92,7 @@
           <p>Les annonces de sceau sont elles aussi très classiques. Toutefois, dans un certain nombre d’actes destinés à des personnes extérieures à l’ordre, les abbés spécifient, jusqu’en 1335, qu’ils emploient un sceau commun à eux-mêmes et à leur communauté. De même, les annonces indiquent la présence du sceau des définiteurs dont la décision était toujours promulguée sous le nom de l’abbé de Cîteaux. On ne trouve pas mention de distinction entre l’<hi rend="i">abbas electus</hi> et l’<hi rend="i">abbas benedictus.</hi> Les cas de juridiction gracieuse sont assez rares, et l’annonce du sceau en indique toujours la spécificité, qui ne nécessita jamais la mise en place d’un type de sceau particulier. De manière classique, les préséances de scellement suivent l’ancienneté de la fondation du monastère, de la gauche vers la droite, au bas des documents. L’abbé de Cîteaux occupe toujours une place honorifique lorsqu’il scelle concurremment avec d’autres prélats.</p>
           <p>Si ceux que la tradition appelle les quatre Pères de l’ordre suivent des usages diplomatiques assez courants en matière de sceau, l’abbé de Cîteaux a une pratique originale. L’emploi de la forme ronde pour la matrice de son sceau, et celui, exclusif à l’exception d’un seul abbé, de la cire brune ou naturelle caractérisent les sceaux des abbés de Cîteaux pendant tout le Moyen Age.</p>
         </div>
-        <div>
+        <div xml:id="r1289378">
           <pb source="https://nakala.fr/10.34847/nkl.8efd80qz#2066ad83114c182142a7805bc0cdf76790165e51" n="263" facs="https://api.nakala.fr/iiif/10.34847/nkl.8efd80qz/2066ad83114c182142a7805bc0cdf76790165e51/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Analyse des sceaux</head>
@@ -105,24 +103,24 @@
           <p><hi rend="i">Le programme héraldique.</hi> – Les armoiries apparaissent de manière certaine sur les sceaux au début du XV" siècle. Le programme héraldique de ces sceaux est cependant assez restreint puisqu’il consiste en une représentation, en général placée dans la partie inférieure, des armes de la maison. Les abbés de Pontigny et de La Ferté adoptent des armes parlantes, tandis que celles de Cîteaux et de Clairvaux rappellent leur position géographique dans le royaume de France. Quant à 1 abbé de Morimond, il emploie des armes dont le sens est mystérieux. Les communautés ne font pas figurer d’armes sur leur sceau, ni les définiteurs du Chapitre général. <pb source="https://nakala.fr/10.34847/nkl.8efd80qz#a800d25619812f747a3169aff357eb2e6e4644b2" n="264" facs="https://api.nakala.fr/iiif/10.34847/nkl.8efd80qz/a800d25619812f747a3169aff357eb2e6e4644b2/full/full/0/default.jpg"/>C’est donc une iconographie classique que proposent les sceaux des cinq premiers abbés de l’ordre. Leur représentation abbatiale est cependant originale, avec ses trois types successifs, de même que celle de la Vierge, protectrice par excellence de l’ordre de Cîteaux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1289444">
         <head rend="uc">Conclusion</head>
         <p>La sigillographie des réguliers présente donc des aspects originaux, malgré la sécheresse qu’on lui a longtemps prêtée. Le droit cistercien, précis en tout, a admirablement indiqué les types, les formes et les matières des matrices, donnant aux sceaux cisterciens l’unité voulue dans la Charte de charité. De plus, c’est l’abbé de Cîteaux, chef d’ordre, qui a la sigillographie la plus originale. Seul parmi les abbés à n’employer que des sceaux de forme ronde, il se distingue aussi par l’emploi d’une seule couleur de cire. La série complète des sceaux des abbés de Cîteaux, ici présentée, permet de tirer des conclusions fermes. En revanche les sceaux des quatre autres Pères sont plus rares, mais on peut estimer que leur emploi du sceau est plus proche de l’usage général. Seule une étude sur l’ensemble des maisons cisterciennes permettra de définir s’il existe une spécificité cistercienne du sceau, ou si celle-ci ne concerne que l’abbé de Cîteaux.</p>
       </div>
-      <div>
+      <div xml:id="r1289454">
         <head rend="uc">Deuxième partie
          <lb/>Corpus des sceaux</head>
         <p>Le corpus est composé de deux cent dix notices de sceaux, réparties en huit sections : les sceaux de l’abbaye et des abbés de Cîteaux (n<hi rend="sup">os</hi> 1 à 67), Clairvaux (n<hi rend="sup">os</hi> 68 à 117), La Ferté-sur-Grosne (n<hi rend="sup">os</hi> 118 à 128), Morimond (n<hi rend="sup">os</hi> 129 à 166), Pontigny (n<hi rend="sup">os</hi> 167 à 188) ; les sceaux des définiteurs du Chapitre général de Cîteaux (n<hi rend="sup">os</hi> 189 à 194) ; les sceaux faussement attribués à des abbés de Clairvaux et à l’abbaye de Morimond (n<hi rend="sup">os</hi> 195 à 198) ; la matrice du sceau de l’abbaye de Clairvaux (n° 199). Les contre-sceaux sont désignés par des numéros <hi rend="i">bis.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1289497">
         <head rend="uc">Pièces justificatives</head>
         <p>Lettres d’un formulaire cistercien. – Définitions des Chapitres généraux de 1215 et de 1253. – Dossier sur le sceau de saint Bernard. – Acte du prieur de Cîteaux en l’absence de l’abbé. – Bulle de Martin V pour l’abbaye de Pontigny.</p>
       </div>
-      <div>
+      <div xml:id="r1289507">
         <head rend="uc">Annexes</head>
         <p>Tableau généalogique de l’ordre de Cîteaux. – Carte du développement de l’ordre dans l’Europe médiévale. – Listes abbatiales. – Tableau des différents <pb source="https://nakala.fr/10.34847/nkl.8efd80qz#e14f658ed1fa0633d6b033f0223bdd5ceeda013d" n="265" facs="https://api.nakala.fr/iiif/10.34847/nkl.8efd80qz/e14f658ed1fa0633d6b033f0223bdd5ceeda013d/full/full/0/default.jpg"/>ornements ecclésiastiques. – La Vierge de Miséricorde. – Les armes des cinq abbayes. – Sceau de l’actuel abbé général de Cîteaux. – Index des notices du corpus. – Table héraldique.</p>
       </div>
-      <div>
+      <div xml:id="r1289522">
         <head rend="uc">Planches</head>
         <p>Cent cinquante-deux planches illustrant chaque type de sceau.</p>
         <pb source="https://nakala.fr/10.34847/nkl.8efd80qz#5cd0bdd752d4495a302225e6bec48ff1c71bba4e" n="266" facs="https://api.nakala.fr/iiif/10.34847/nkl.8efd80qz/5cd0bdd752d4495a302225e6bec48ff1c71bba4e/full/full/0/default.jpg"/>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1990_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,19 +57,19 @@
         <surname>Gallois</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1187557">
         <head rend="uc">Introduction</head>
         <p>Arme politique, tribune littéraire, affiche publicitaire ou tout cela à la fois, le journal acquit une importance croissante sous la monarchie censitaire et semblait être, malgré l’anonymat des articles, le porte-voix nécessaire pour se faire connaître et propager ses idées. Il attira en conséquence nombre d’hommes de talent, polémistes et écrivains, voulant utiliser à leur profit ce nouveau pouvoir. Une première approche de cette « aristocratie » de la presse que constituent les collaborateurs de six des principaux quotidiens parisiens (la <hi rend="i">Gazette de France,</hi> la <hi rend="i">Quotidienne,</hi> le <hi rend="i">Journal des débats,</hi> le <hi rend="i">Constitutionnel,</hi> le <hi rend="i">Courrier français</hi> et le <hi rend="i">National</hi>) est fournie par l’étude de cent vingt-cinq d’entre eux, sur plus de quatre cent cinquante au total, choisis arbitrairement (premières lettres de l’alphabet).</p>
       </div>
-      <div>
+      <div xml:id="r1187591">
         <pb source="https://nakala.fr/10.34847/nkl.67cd6oo0#7bde6a2058bb2a36f05f686d2a5b4e8096a2d425" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.67cd6oo0/7bde6a2058bb2a36f05f686d2a5b4e8096a2d425/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>L’essentiel de la documentation provient du dépouillement des dictionnaires biographiques contemporains, spécialisés (<hi rend="i">Physiologie de la presse,</hi> etc.) et généraux (<hi rend="i">Biographie nouvelle des contemporains, Biographie universelle, Dictionnaire des contemporains</hi> de Vapereau, etc.), complété par les mémoires et correspondances de ces journalistes ou de leur entourage, par les travaux de seconde main qui les concernent, ainsi que par des sondages, aux Archives nationales, dans les séries et sous-séries F<hi rend="sup">18</hi> (Presse), F<hi rend="sup">1 b</hi> I (Personnel du ministère de l’Intérieur), 246 AP (Papiers Fortoul), 361 AP (Archives Silvestre de Sacy) et, à la Bibliothèque nationale, dans le dossier nouv. acq. fr. 23687 (Familles Chénier et Bonnet de Malherbe).</p>
       </div>
-      <div>
+      <div xml:id="r1187622">
         <head rend="uc">Première partie
          <lb/>Rédacteurs et collaborateurs</head>
-        <div>
+        <div xml:id="r1187630">
           <head rend="uc">Chapitre premier
            <lb/>origines géographiques et sociales</head>
           <p>La population étudiée, essentiellement masculine (on n’a recensé que six femmes en tout, souvent en parenté avec d’autres journalistes et, pour cinq d’entre elles, appartenant à la rédaction littéraire de la <hi rend="i">Gazette de France</hi>)<hi rend="i">, </hi>venait de province pour près de 64 % des lieux de naissance identifiés ; Paris formait certes 28,4 % des rédacteurs, mais son rôle ne fit que diminuer avec la Révolution (passant de 58,3 % pour les personnes nées entre 1771 et 1780 à 11,8 % pour celles nées après 1811), tandis que les préfectures et sous-préfectures dormaient le jour à 71,4 % des journalistes nés après 1790, contre 50 % auparavant.</p>
@@ -79,14 +77,14 @@
           <pb source="https://nakala.fr/10.34847/nkl.67cd6oo0#12e11fa2fc6994e9736fe32dcb822e691988ef0d" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.67cd6oo0/12e11fa2fc6994e9736fe32dcb822e691988ef0d/full/full/0/default.jpg"/>
           <p>De fait, presque tous avaient suivi l’enseignement secondaire jusqu’en classe de rhétorique (hormis l’imprimeur Alkan et Brazier, fils d’un maître d’études). 51,6 % ont poursuivi leur scolarité au-delà, 27,5 % à la faculté de droit, 5,5 % à celle de médecine et autant à l’Ecole polytechnique, de façon moins fréquente à l’Ecole normale supérieure (du moins dans cet échantillon) ou à l’Ecole des chartes.</p>
         </div>
-        <div>
+        <div xml:id="r1187665">
           <head rend="uc">Chapitre II
            <lb/>Activités journalistiques et littéraires</head>
           <p>A l’issue de leurs études, seuls 19,2 % se sont tournés vers la presse ; les autres ont commencé par exercer l’activité à laquelle ils s’étaient préparés, administration publique pour 22,4 % d’entre eux (employés et cadres supérieurs), armée pour 18,4 % (dont près de 14 % d’officiers), professorat pour 13 % et médecine pour 4,8 %. Ils sont entrés à la rédaction d’un journal par relations ou recommandations, plus rarement en y présentant ou en y envoyant un article (comme Louis Blanc au <hi rend="i">Bon Sens</hi> ou Castil-Blaze au <hi rend="i">Journal des débats}. </hi>Tandis que 4,8 % ont débuté dans la presse de province, 33,6 % ont inséré leurs premiers articles dans l’un des six journaux pris en compte, 24 % dans un autre quotidien parisien et 33,2 % sont passés auparavant par des revues satiriques ou spécialisées.</p>
           <p>Les salaires, peu importants dans ces dernières, permettaient parfois aux rédacteurs réguliers d’atteindre une certaine aisance : la petite presse, comme le <hi rend="i">Corsaire-Satan,</hi> le <hi rend="i">Vert-Vert</hi> ou l’<hi rend="i">Entr’acte,</hi> n’offrait, pour cent lignes maximum, que 6 à 7 centimes par ligne ; les revues telles la <hi rend="i">Revue des Deux Mondes</hi> ou la <hi rend="i">Revue indépendante,</hi> proposaient 150 francs par feuille (seize pages). Enfin, les quotidiens payaient leurs auteurs à la ligne (de 10 à 25, voire 50 centimes), à l’article (50 francs à la <hi rend="i">Quotidienne</hi> et à la <hi rend="i">Gazette de France,</hi> le double au <hi rend="i">Journal des débats}</hi> ou encore au mois pour les collaborateurs attitrés, avec des appointements proches de ceux d’un chef de bureau ou d’un chef de division d’un ministère : le sténographe des Chambres, par exemple, recevait 150 francs au <hi rend="i">Journal des débats</hi> (vers 1800), 200 francs à la <hi rend="i">Gazette de France</hi> (1832), 400 francs au <hi rend="i">National</hi> (1835) et au <hi rend="i">Courrier français</hi> (1826), 425 francs au <hi rend="i">Constitutionnel</hi> et 500 francs à la <hi rend="i">Quotidienne </hi>(1837) ; rares cependant étaient ceux qui touchaient 12 000 francs par an comme Jules Janin au <hi rend="i">Journal des débats à</hi> la veille de la Révolution de 1848.</p>
           <p>Ces revenus peu considérables incitaient à la multiplication des collaborations dans les périodiques ou dans les almanachs et keepsakes. Par ailleurs, les journalistes répertoriés, dans leur immense majorité (89,6 %), publiaient pour 19,2 % d’entre eux des recueils d’articles, mais surtout pour près de 50 % des pamphlets et brochures politiques, pour 37,6 % des livres d’histoire (ainsi dans la collection des « Résumés historiques » des éditeurs libéraux Lecointe et Durey), pour 25,6 % des traductions de l’anglais, de l’allemand, du latin et du grec, pour 24 % des poésies ou des romans et pour 23,2 % des pièces de théâtre.</p>
         </div>
-        <div>
+        <div xml:id="r1187751">
           <pb source="https://nakala.fr/10.34847/nkl.67cd6oo0#fd6efe89d71bace4bc23e8394a833500fc8b5274" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.67cd6oo0/fd6efe89d71bace4bc23e8394a833500fc8b5274/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Réussite et notoriété</head>
@@ -94,12 +92,12 @@
           <p>Certes, nombreux étaient aussi ceux qui devaient trouver des ressources supplémentaires dans un poste de bibliothécaire ou d’archiviste, voire d’employé subalterne. Il est cependant caractéristique, comme le faisait remarquer M. Christophe Charle dans le tome III de l’<hi rend="i">Histoire de l’édition française,</hi> que les domiciles des journalistes étudiés soient concentrés dans les zones résidentielles des milieux aisés et riches de la capitale. II’ (proches des journaux et théâtres), I" et X’ arrondissements, témoignant ainsi de ce qu’il a pu appeler le « mimétisme bourgeois des écrivains ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1187795">
         <head rend="uc">Deuxième partie
          <lb/>Dictionnaire des journalistes</head>
         <p>Notices biographiques de cent vingt-cinq journalistes (lettres A, B et C).</p>
       </div>
-      <div>
+      <div xml:id="r1187807">
         <head rend="uc">Annexe</head>
         <p>Liste sommaire des autres collaborateurs des six journaux étudiés.</p>
       </div>

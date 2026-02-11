@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1941_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1941_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -66,17 +64,17 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r611200">
         <head rend="uc">Chapitre préliminaire
          <lb/>les origines.</head>
         <p>1. <hi rend="i">Les institutions municipales avant le <num>xiv<hi rend="sup">e</hi></num> siècle.</hi> – La charte de Thibaud IV en 1230 accorde une « commune » (douze jurés et un maire choisis par le comte), qui disparaît en 1242. De 1270 à 1354-1356, un « voyeur » est chargé, avec un officier du roi ou du comte, de s’occuper du guet et de la voirie. Pendant ce temps, quelques assemblées générales d’habitants réunis sur l’ordre du roi pour discuter de questions d’impôts. En 1317, mention des « élus de la ville ».</p>
         <p>2. <hi rend="i">Apparition du Conseil de ville.</hi> – Pendant la guerre de Cent ans, la ville, abandonnée à elle-même, est obligée de <pb source="https://nakala.fr/10.34847/nkl.1a43293b#bbf6bb9727eb52d557084d392192d8038fdf136d" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.1a43293b/bbf6bb9727eb52d557084d392192d8038fdf136d/full/full/0/default.jpg"/>pourvoir à sa défense, avec l’aide des officiers locaux. Apparition du Conseil de ville en 1354 et en 1358, comme à Tours, Blois, Châlons-sur-Marne et Reims.</p>
       </div>
-      <div>
+      <div xml:id="r611234">
         <head rend="uc">Première partie
          <lb/>Relations de la ville
          <lb/>avec les autres pouvoirs</head>
-        <div>
+        <div xml:id="r611244">
           <head rend="uc">Chapitre premier
            <lb/>les relations avec le roi.</head>
           <p>Troyes, ville en général royale, sauf pendant la période bourguignonne (1417-1429).</p>
@@ -84,7 +82,7 @@
           <p>2. <hi rend="i">Privilèges accordés par le roi.</hi> – Privilèges politiques (échevinage, garde), économiques (nouvelles foires), financiers (impôts pour la défense, exemption de taille en 1486).</p>
           <p>3. <hi rend="i">Charges supportées pour le roi.</hi> – La ville doit fournir au roi de nombreuses tailles, des dons, prêts, vivres et armes, etc...</p>
         </div>
-        <div>
+        <div xml:id="r611277">
           <head rend="uc">Chapitre II
            <lb/>Les relations avec les officiers royaux.</head>
           <p>1. <hi rend="i">Le bailli et son lieutenant général.</hi> – Ils dirigent la ville et surveillent le Conseil, puis l’échevinage, dans toutes les branches de leur activité.</p>
@@ -93,29 +91,29 @@
           <p>3. <hi rend="i">Autres officiers royaux.</hi> – Le ou les gardes des foires sont membres du Conseil. Le capitaine dirige le Conseil jusqu’au début du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
           <p>4. <hi rend="i">Officiers royaux de moindre importance pour la ville.</hi> – Les sergents royaux et les notaires royaux sont souvent des auxiliaires du Conseil. Le gouverneur de Champagne a peu de rapports directs avec la ville.</p>
         </div>
-        <div>
+        <div xml:id="r611325">
           <head rend="uc">Chapitre III
            <lb/>Les relations avec le clergé.</head>
           <p>1. <hi rend="i">L’évêque.</hi> – L’évêque assiste souvent aux réunions du Conseil et de l’échevinage. Quelquefois il est élu au Conseil. Henri de Poitiers (1353-1370), en même temps capitaine de la ville, puis Jean Léguisé (1426-1450), exercent une grande influence.</p>
           <p>2. <hi rend="i">Chapitres et abbayes.</hi> – Ils ont des représentants élus au Conseil.</p>
           <p>3. <hi rend="i">Bas clergé.</hi> – Il se borne à aider la ville.</p>
         </div>
-        <div>
+        <div xml:id="r611355">
           <head rend="uc">Chapitre IV
            <lb/>Les relations avec la noblesse.</head>
           <p>Les membres du Conseil, puis de l’échevinage, sont souvent nobles, car ils tiennent leur noblesse de leur mère.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r611368">
         <head rend="uc">Deuxième partie
          <lb/>Organes de l’administration municipale</head>
-        <div>
+        <div xml:id="r611376">
           <head rend="uc">Chapitre premier
            <lb/>les assemblées générales.</head>
           <p>1. <hi rend="i">Assemblées de la Saint-Barnabé.</hi> – Tous les ans, le <pb source="https://nakala.fr/10.34847/nkl.1a43293b#b0745ddfea8dc0ada0f4264cbb0261a035ce1b39" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.1a43293b/b0745ddfea8dc0ada0f4264cbb0261a035ce1b39/full/full/0/default.jpg"/>11 juin, réunion des habitants et, en pratique, des notables seulement, au beffroi, pour examiner des comptes, élire le « voyeur » et le maître de la maladrerie des Deux-Eaux et discuter des questions d’intérêt général (travaux aux fortifications, voirie, exemptions d’impôts).</p>
           <p>2. <hi rend="i">Autres assemblées générales.</hi> – Elles sont convoquées avec la permission du bailli par le Conseil de ville, chaque année, surtout en cas de danger, pour un objet déterminé : défense de la ville ou approbation des impôts.</p>
         </div>
-        <div>
+        <div xml:id="r611404">
           <head rend="uc">Chapitre II
            <lb/>Le conseil de ville (1354-1470).</head>
           <p>1. <hi rend="i">Recrutement.</hi> – Le Conseil de ville est nommé, tous les ans, par une assemblée assez restreinte. Il comprend une vingtaine de membres et parfois jusqu’à trente-sept. Prestation de serment des conseillers au bailli ou à son lieutenant qui les institue.</p>
@@ -123,7 +121,7 @@
           <p>3. <hi rend="i">Réunions.</hi> – Le Conseil se réunit à jours fixes et, en cas de danger, tous les jours ou plusieurs fois par semaine, dans une maison louée, ou à l’écritoire du bailliage. Ne respecte pas toujours la règle de la majorité. Très souvent il appelle des notables sixainiers pour délibérer avec lui. Il nomme aussi au <num>xiv<hi rend="sup">e</hi></num> siècle des commissions « en étroit conseil », dont les unes sont temporaires et les autres permanentes, ces dernières pour ordonnancer les paiements, surveiller les travaux et acheter des armes. Les membres de la Commission des maîtres des œuvres deviennent au <num>xv<hi rend="sup">e</hi></num> siècle officiers de la ville.</p>
           <p>4. <hi rend="i">Autorité.</hi> – Le Conseil ne possède pas de sceau, en droit ; néanmoins, il en fait fabriquer un pour écrire au roi.</p>
         </div>
-        <div>
+        <div xml:id="r611453">
           <pb source="https://nakala.fr/10.34847/nkl.1a43293b#0fa425ef07ce66eafa68152ecc9b368ef1491600" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.1a43293b/0fa425ef07ce66eafa68152ecc9b368ef1491600/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les officiers et Pensionnaires de la ville.</head>
@@ -135,7 +133,7 @@
           <p>6. <hi rend="i">Le clerc de la voirie et le clerc des œuvres.</hi> – Le premier est auxiliaire des « voyeurs », le second des maîtres des œuvres.</p>
           <p>7. <hi rend="i">Pensionnaires.</hi> – Ils sont « entretenus » par la ville : conseiller-pensionnaire, procureur en Parlement, sergents, guetteurs, médecins, musiciens et trompettes, artillier, gouverneur de l’horloge, maître d’école.</p>
         </div>
-        <div>
+        <div xml:id="r611516">
           <head rend="uc">Chapitre IV
            <lb/>L’échevinage
            <lb/>(de 1470 jusque vers 1493).</head>
@@ -146,17 +144,17 @@
           <p>5. <hi rend="i">Autorité.</hi> – Elle est plus grande que celle du Conseil, car l’échevinage se voit reconnaître des pouvoirs de police, qui s’exercent sous l’autorité du bailli, et possède un sceau.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r611568">
         <head rend="uc">Troisième partie
          <lb/>Attributions municipales</head>
-        <div>
+        <div xml:id="r611576">
           <head rend="uc">Chapitre premier
            <lb/>les recettes ordinaires.</head>
           <p>1. <hi rend="i">Recettes domaniales de la ville.</hi> – <hi rend="i">a</hi>) Domaine urbain, par usurpation et par acquisitions normales (remparts, patrimoine de la maladrerie). – <hi rend="i">b</hi>) « Menus deniers des chaussées » levés aux portes pour l’entretien des routes.</p>
           <p>2. <hi rend="i">Impôts octroyés par le roi.</hi> – <hi rend="i">a</hi>) Pour l’entretien des fortifications, le roi octroie divers impôts. L’assemblée générale doit les approuver, puis les faire renouveler. Le régent <pb source="https://nakala.fr/10.34847/nkl.1a43293b#c620a29d40693f4db3506cacf368c9451bf8e7e3" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.1a43293b/c620a29d40693f4db3506cacf368c9451bf8e7e3/full/full/0/default.jpg"/>en 1357 concède à la ville des droits d’entrée et de sortie, qui disparaissent après 1359. – <hi rend="i">b</hi>) Droits sur les vins. Droits d’entrée et de vente, différents suivant la valeur des vins. Ils sont exploités directement. – <hi rend="i">c</hi>) Le moulage sur le blé apporté aux moulins est constaté par des méreaux ; il disparaît vers 1445. – <hi rend="i">d</hi>) La maille sur le pain blanc remplace le moulage. On la lève chez les boulangers. – <hi rend="i">e</hi>) Gabelle, « crue » ayant un taux variable, versée à la ville par le grènetier royal.</p>
           <p>3. <hi rend="i">Marchandise du sel.</hi> – La ville, marchande de sel par occasion en 1430, obtient du roi en 1451 d’être le seul fournisseur du grenier de Troyes ; elle en tire une de ses plus grosses recettes.</p>
         </div>
-        <div>
+        <div xml:id="r611639">
           <head rend="uc">Chapitre II
            <lb/>Les recettes extraordinaires.</head>
           <p>1. <hi rend="i">Tailles.</hi> – Les tailles sont considérées comme un impôt extraordinaire, mais, en fait, levées par connétablies ou sixaines, très souvent, pour subvenir à des dépenses imprévues.</p>
@@ -165,13 +163,13 @@
           <p>4. <hi rend="i">Profits divers.</hi> – Amendes de voirie et dons divers.</p>
           <p>5. <hi rend="i">Emprunts.</hi> – Soit sans intérêt et à court terme sur les habitants les plus riches, soit à intérêt et rachetables lorsqu’ils sont consentis par de gros marchands de Paris</p>
         </div>
-        <div>
+        <div xml:id="r611683">
           <head rend="uc">Chapitre III
            <lb/>Les dépenses.</head>
           <p>1. <hi rend="i">Dépenses ordinaires.</hi> – Les plus grosses concernent les <pb source="https://nakala.fr/10.34847/nkl.1a43293b#4421e47d40805c8646a35d061355fa853bcb91c5" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.1a43293b/4421e47d40805c8646a35d061355fa853bcb91c5/full/full/0/default.jpg"/>fortifications pour lesquelles on a créé la plupart des impôts, puis viennent la voirie et quelques embellissements et les gages des officiers.</p>
           <p>2. <hi rend="i">Dépenses extraordinaires.</hi> – Parfois matériel de guerre et gens d’armes. Présents fréquents aux grands personnages et au roi. Dons à des particuliers et à des communautés religieuses. Procès. Députations.</p>
         </div>
-        <div>
+        <div xml:id="r611711">
           <head rend="uc">Chapitre IV
            <lb/>L’administration financière.</head>
           <p>1. <hi rend="i">La division en quatre « recettes » et en tailles.</hi> – Recettes des deniers communs, de la voirie, de la marchandise du sel, de la maladrerie, tailles. Dépendance des recettes entre elles.</p>
@@ -180,7 +178,7 @@
           <p>4. <hi rend="i">Reddition des comptes.</hi> – Les comptes sont rendus devant les « auditeurs » élus par les habitants, devant les officiers royaux et quelquefois des commissaires du roi. Procédure minutieuse.</p>
           <p>5. <hi rend="i">Le « budget</hi> ». – Il est généralement en équilibre, grâce aux tailles extraordinaires.</p>
         </div>
-        <div>
+        <div xml:id="r611755">
           <head rend="uc">Chapitre V
            <lb/>La police et les institutions militaires.</head>
           <p>1. <hi rend="i">Pouvoirs de police.</hi> – Des pouvoirs sont exercés par la ville plus ou moins librement sur la voirie, les suspects, les étrangers et les marchés.</p>
@@ -188,7 +186,7 @@
           <p>2. <hi rend="i">Institutions militaires.</hi> – Exigences de la défense de Troyes, tant à l’intérieur qu’à l’extérieur. Organisation du « guet et garde » (sixainiers et dixainiers). Garde des portes. Archers et arbalétriers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r611784">
         <head rend="uc">Conclusion</head>
         <p>Évolution des institutions de la ville vers l’oligarchie et vers l’ingérence du pouvoir central.</p>
       </div>

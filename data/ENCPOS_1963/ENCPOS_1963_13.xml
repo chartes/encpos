@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,17 +55,17 @@
         <forename>Denise</forename>
         <surname>Hillard-Villard</surname>
       </byline>
-      <div>
+      <div xml:id="r844372">
         <head rend="uc">Introduction
          <lb/>le cadre des négociations</head>
         <p>Au lendemain du traité d’Arras, Charles VII ne domine qu’une faible partie du royaume car l’ouest est occupé par les Anglais ou leurs alliés. L’état de ses finances est lamentable et les dégâts commis par les écorcheurs ne contribuent pas à l’améliorer. Les territoires bourguignons jouissent d’une relative prospérité, mais sont affaiblis par l’absence d’unité territoriale et administrative et par les guerres intestines.</p>
         <p>Les deux princes possèdent des personnalités tout aussi opposées. Le caractère de Charles VII, jugé très différemment, semble cependant s’affermir après 1435. Philippe le Bon, le duc au maintien impérial, se comporte avant tout en grand seigneur et n’applique que rarement une réelle activité aux affaires de son état.</p>
         <p>Tous deux trouvent dans leur entourage de grands serviteurs, laïcs et ecclésiastiques ; le duc bénéficie en outre de l’appui et de l’habileté de la duchesse Isabelle.</p>
       </div>
-      <div>
+      <div xml:id="r844390">
         <head rend="uc">Première partie
          <lb/>Les négociations franco-bourguignonnes</head>
-        <div>
+        <div xml:id="r844398">
           <head rend="uc">Chapitre premier
            <lb/>le déroulement des négociations d’octobre 1435
            <lb/>à février 1445</head>
@@ -77,7 +75,7 @@
           <p>Les princes s’inquiétèrent de la situation désastreuse du royaume, ravagé par les écorcheurs et toujours en guerre contre l’Angleterre. Ils se rendirent à Nevers et, sous la direction de Philippe, élaborèrent des réclamations qu’ils soumirent au roi. Mais Charles VII les éluda et mécontenta profondément les seigneurs.</p>
           <p>Devant cette évidente mauvaise volonté, Philippe le Bon ralentit la fréquence des relations diplomatiques ; aussi le roi prit-il l’initiative de lui envoyer une ambassade en novembre 1444. Le duc fournit alors pour la première fois des revendications précises, mais sans succès. Il fallut recourir à une forme diplomatique nouvelle, inusitée depuis 1435 : les conférences.</p>
         </div>
-        <div>
+        <div xml:id="r844429">
           <head rend="uc">Chapitre II
            <lb/>Les conférences de châlons-sur-marne</head>
           <p>Les préparatifs furent longs car le duc fit rechercher et copier des textes, effectuer des enquêtes et exécuter une carte. Puis il tint conseil avec ses ambassadeurs au début de mars. La duchesse Isabelle devait diriger en personne les négociations.</p>
@@ -89,10 +87,10 @@
           <p>Les rares résultats étaient à l’avantage presque exclusif du roi René, mais la paix, auparavant si menacée, était provisoirement sauvegardée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r844465">
         <head rend="uc">Deuxième partie
          <lb/>La diplomatie bourguignonne</head>
-        <div>
+        <div xml:id="r844473">
           <head rend="uc">Chapitre premier
            <lb/>le personnel et les « méthodes »</head>
           <p>Le petit personnel envoyé au roi est toujours constitué de messagers montés qui se répartissent en plusieurs catégories. H y avait d’abord des chevaucheurs et des poursuivants ; les titres semblent équivalents sans se confondre. Cette qualité assurait des gages d’environ dix sous de monnaie royale par jour de mission. Le duc employa un grand nombre de ces messagers, certains plus fréquemment que d’autres, mais sans que l’on puisse y voir un choix déterminé.</p>
@@ -104,7 +102,7 @@
           <p>Pendant leur séjour, souvent long d’un ou deux mois, ils devaient subvenir à leurs besoins, mais recevaient généralement un présent de valeur au moment de partir. Ils n’étaient payés par leur maître qu’à leur retour, mais <pb source="https://nakala.fr/10.34847/nkl.00efjq28#08ead1c5e435a5470e7a92bc9ef88f82c98df0c3" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.00efjq28/08ead1c5e435a5470e7a92bc9ef88f82c98df0c3/full/full/0/default.jpg"/>presque toujours avec rapidité et exactitude, et étaient aussi dédommagés pour les pertes imprévues.</p>
           <p>Ainsi le duc disposait-il d’un personnel diplomatique très varié et bien organisé, mais pas spécialement affecté à cette fonction.</p>
         </div>
-        <div>
+        <div xml:id="r844511">
           <head rend="uc">Chapitre II
            <lb/>La présentation des griefs</head>
           <p>Pour appuyer leurs revendications, les ambassadeurs emportaient toujours avec eux de nombreux documents : <hi rend="i">vidimus</hi> de pièces d’archives, extraits de chroniques, enquêtes.</p>
@@ -114,7 +112,7 @@
           <p>Le roi attaquait Philippe le Bon de tous côtés ; insensiblement il ruinait les avantages cédés par le traité d’Arras et sapait la puissance ducale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r844540">
         <head rend="uc">Conclusion</head>
         <p>Contrairement à ce que l’on aurait pu attendre, le duc ne s’allia jamais au dauphin contre le roi, même lors de la Praguerie. Celui-ci se comporta surtout en chef de guerre et laissa ses troupes dévaster les territoires bourguignons.</p>
         <p>Le duc ne chercha pas davantage à soulever les grands seigneurs. A Nevers, ils élaborèrent des revendications dans l’espoir de participer au gouvernement du royaume, mais aussi d’assurer son relèvement.</p>

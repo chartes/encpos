@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,52 +56,52 @@
         <surname>Bénazet</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1082621">
         <head rend="uc">Introduction</head>
         <p>La terminologie du <num>xviii<hi rend="sup">e</hi></num> siècle diffère du vocabulaire utilisé de nos jours pour désigner la fonction diplomatique et ses représentants : l’« art de négocier » n’est devenu « diplomatie » qu’en 1791, le « négociateur » a précédé le « diplomate » (néologisme créé par Robespierre). Cette fonction était exercée par des ambassadeurs et par des ministres plénipotentiaires, secondés les uns et les autres par des secrétaires qui, en cas d’absence ou de disparition du chef de mission, étaient alors appelés à agir comme chargés d’affaires.</p>
         <p>De 1748, au lendemain de la guerre de Succession d’Autriche, jusqu’en 1791, où l’avènement d’une nouvelle constitution marque la fin de l’Ancien Régime, et où les préliminaires de guerre consacrent la rupture entre la France révolutionnaire et le reste de l’Europe, l’effectif général des diplomates s’élève à cent vingt-deux. Les missions à l’étranger comprenaient les ambassades, dans les États les plus importants, et les postes dits de second ordre, confiés à des ministres plénipotentiaires. La distinction reposait sur le prestige et sur la puissance dont bénéficiaient le pays et son souverain.</p>
         <p>L’origine sociale des ambassadeurs et des ministres était relativement homogène : ils appartenaient presque tous à la noblesse, ordre dont étaient issus la plupart des grands serviteurs du roi. Ils ne jouissaient d’aucun statut juridique précis ; ils dépendaient totalement du bon vouloir du monarque. Aucun n’envisageait de faire exclusivement carrière dans la diplomatie.</p>
       </div>
-      <div>
+      <div xml:id="r1082643">
         <pb source="https://nakala.fr/10.34847/nkl.417e54j3#4451d381f7bdaf7044b45e3ea3a19c2242466dd8" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.417e54j3/4451d381f7bdaf7044b45e3ea3a19c2242466dd8/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Les dépouillements ont porté sur plusieurs séries des Archives du ministère des Relations extérieures : dossiers du Personnel, Correspondance politique, Mémoires et documents, Finances du ministère, fonds Bourbon. Les informations relatives à la situation et à la vie sociale des diplomates proviennent des Archives nationales (séries de la Maison du roi et des provisions d’offices, papiers séquestrés et scellés de la période révolutionnaire, dossier du Tribunal révolutionnaire, archives privées et Minutier central), des Archives de Paris (insinuations et déclarations de successions) et de la Bibliothèque nationale (Cabinet des titres, catalogues de vente de bibliothèques). Les dossiers personnels conservés aux Archives de la Guerre se sont révélés d’un intérêt inégal.</p>
         <p>Parmi les sources imprimées (<hi rend="i">Recueils des instructions données aux ambassadeurs et ministres de France, Mémoires</hi> et <hi rend="i">Journaux</hi> de contemporains...), une mention spéciale doit être faite du <hi rend="i">Journal</hi> du marquis de Bombelles : l’incomparable documentation fournie dans les deux seuls volumes édités donne à penser que la partie demeurée manuscrite et conservée actuellement en Autriche mériterait une publication.</p>
       </div>
-      <div>
+      <div xml:id="r1082673">
         <head rend="uc">Première partie
          <lb/>Statut et mission</head>
-        <div>
+        <div xml:id="r1082681">
           <head rend="uc">Chapitre premier
            <lb/>statut juridique</head>
           <p>Les ambassadeurs et ministres ne recevaient ni brevet, ni lettres patentes, ni lettres de provision les nommant à leur poste. Une simple note du secrétaire d’État des Affaires étrangères leur était remise, ainsi qu’une lettre de créance délivrée par le roi lors de l’audience de départ ; le négociateur prenait alors possession de son « caractère ». Au retour, avait lieu une audience analogue ; le négociateur y rendait son « caractère ». Ces formalités sont consignées dans la <hi rend="i">Gazette de France.</hi> L’agrément préalable des autorités d’accueil n’était pas sollicité.</p>
         </div>
-        <div>
+        <div xml:id="r1082697">
           <head rend="uc">Chapitre II
            <lb/>Formation</head>
           <p>La formation pratique n’existait pas en tant que telle, malgré une expérience sans lendemain, tentée à l’Académie politique du marquis de Torcy en 1710-1720. Divers palliatifs tentaient de compenser l’absence <pb source="https://nakala.fr/10.34847/nkl.417e54j3#0164f18789e6af89b4e239b10dd34809c80698cf" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.417e54j3/0164f18789e6af89b4e239b10dd34809c80698cf/full/full/0/default.jpg"/>d’une initiation plus organisée : lecture des manuels pour ambassadeurs (le plus ancien remontait à 1436, puis leur nombre est allé croissant, les plus courants étant ceux de Wicquefort, Callières, Pecquet et Mably), correspondance politique, voyages à l’étranger, stages comme conseiller d’ambassade. Ce vide pédagogique a suscité la rédaction d’un <hi rend="i">Plan d’étude pour la formation des diplomates,</hi> élaboré peu avant la Révolution et publié en 1793.</p>
         </div>
-        <div>
+        <div xml:id="r1082718">
           <head rend="uc">Chapitre III
            <lb/>Formalités de départ</head>
           <p>L’ambassadeur recevait à Versailles sa lettre de créance, pièce officielle et publique, et un <hi rend="i">mémoire pour servir d’instruction,</hi> document confidentiel qui indiquait les raisons pour lesquelles le roi avait choisi sa personne, un rappel historique des relations avec le pays considéré, des conseils pratiques pour son action et des indications sur le cérémonial ; un passeport et les tables de chiffres lui étaient alors délivrés.</p>
         </div>
-        <div>
+        <div xml:id="r1082734">
           <head rend="uc">Chapitre IV
            <lb/>Arrivée et présentation à la cour d’accueil</head>
           <p>Le négociateur voyageait incognito et ne pouvait faire valoir son « caractère » que dans le pays d’accréditation. Arrivé à la cour, il remettait, lors d’une première audience, sa lettre de créance et les présents dont il était chargé pour le souverain : sa mission commençait alors. Il avait tout intérêt à bien remplir sa première négociation, test révélateur de son efficacité et source éventuelle de son prestige futur : l’abbé de Bernis, par exemple, s’en acquitta de façon remarquée à Venise.</p>
         </div>
-        <div>
+        <div xml:id="r1082746">
           <head rend="uc">Chapitre V
            <lb/>L’immunité diplomatique</head>
           <p>D’origine médiévale, l’immunité diplomatique a été progressivement définie au cours des âges ; elle fut codifiée, en 1576, par Ayrault, puis, successivement, par Grotius et Vattel. Elle concernait la personne de l’ambassadeur et celle de son épouse, ses carrosses et équipages, son hôtel.</p>
         </div>
-        <div>
+        <div xml:id="r1082758">
           <head rend="uc">Chapitre VI
            <lb/>Résidence et personnel</head>
           <p>L’hôtel de France était presque toujours un immeuble loué ; il était meublé et équipé aux frais du roi (exemples de Rome, Venise, Soleure, Londres, Lisbonne). Le personnel, dont les effectifs étaient à la mesure <pb source="https://nakala.fr/10.34847/nkl.417e54j3#2c642efced44da52786af724b9787e8cb6df1a00" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.417e54j3/2c642efced44da52786af724b9787e8cb6df1a00/full/full/0/default.jpg"/>du souci de représentation, bénéficiait de l’immunité diplomatique et n’était justiciable que du chef de poste. Les collaborateurs du diplomate comprenaient le secrétaire de l’ambassade, désigné par le roi, les secrétaires de l’ambassadeur, un interprète pour les relations pratiques courantes – bien que le français fût langue diplomatique depuis 1713 –, l’aumônier et, parfois, un archiviste.</p>
         </div>
-        <div>
+        <div xml:id="r1082775">
           <head rend="uc">Chapitre VII
            <lb/>L’ambassadeur au travail</head>
           <p>L’ambassadeur avait trois fonctions principales, l’information, la négociation et la représentation.</p>
@@ -113,47 +111,47 @@
           <p>Pour parfaire ses qualités diplomatiques, le négociateur consacrait une partie de son temps à la rédaction de la correspondance, parfois d’un <hi rend="i">Journal</hi> ou de <hi rend="i">Mémoires,</hi> mais surtout à la lecture, à la conversation, modeste prolongement des salons parisiens, et à la réflexion. Il était de son intérêt de voyager dans le pays, sous réserve d’obtenir l’autorisation de Versailles.</p>
           <p>Des congés, aux motifs divers, pouvaient s’obtenir après avis demandé au secrétariat d’État. Leur durée était variable, de quelques mois à trois ans ; pendant ces absences, le premier secrétaire faisait fonction de chargé d’affaires et assurait la correspondance.</p>
         </div>
-        <div>
+        <div xml:id="r1082819">
           <head rend="uc">Chapitre VIII
            <lb/>Gestion financière</head>
           <p>Le chef de mission gérait le budget de son poste, en application d’une « instruction sur la manutention pécuniaire de sa mission ». Il recevait une « gratification extraordinaire pour frais de voyage et d’ameublement et d’autres dépenses de premier établissement », ainsi que des « appointements » annuels représentant, en réalité, un forfait global pour le budget de gestion de l’ambassade. Il était l’ordonnateur et le liquidateur des dépenses, et seul juge de la ventilation des crédits : salaire du personnel, entretien et loyer de l’hôtel de France, frais de courrier. Il lui fallait aussi régler des dépenses extraordinaires (deuils, anniversaires, présents, voyages, pertes d’effets, droits de douane...), pour lesquelles il était souvent conduit à demander des gratifications extraordinaires. Dans certains pays, les droits de douane étaient applicables au personnel diplomatique, mais ils étaient remboursés par Versailles sur présentation de mémoires justificatifs. Ailleurs, ce personnel jouissait d’une franchise qui put donner lieu à des abus. En aucun cas, il n’était soumis au paiement d’impositions locales.</p>
         </div>
-        <div>
+        <div xml:id="r1082831">
           <head rend="uc">Chapitre IX
            <lb/>Fin de la mission</head>
           <p>Le séjour dans un poste était de durée inégale : de quelques mois à vingt-six ans. La mission se terminait pour diverses raisons : décès, maladie, démission, demande de rappel, échec de la mission, nécessité de service, changement de politique ou de ministre, perte de faveur. Quand le diplomate recevait de Versailles sa lettre de rappel, l’autorité d’accueil <pb source="https://nakala.fr/10.34847/nkl.417e54j3#399abbe633a8cff98e2cb9e99255b03e6bbcd483" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.417e54j3/399abbe633a8cff98e2cb9e99255b03e6bbcd483/full/full/0/default.jpg"/>lui remettait, au cours d’une audience de congé, des lettres de recréance destinées au roi de France, il y était joint des cadeaux pour l’ambassadeur ou son épouse, parfois des décorations ou des titres de noblesse, ainsi que des présents pour le roi de France. Au retour à Versailles, le négociateur était tenu de rendre compte de sa mission et de remettre les papiers et les archives la concernant. Le roi pouvait alors le récompenser par des décorations, des pensions et des promotions militaires ou politiques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1082849">
         <head rend="uc">Deuxième partie
          <lb/>La carrière</head>
-        <div>
+        <div xml:id="r1082857">
           <head rend="uc">Chapitre premier
            <lb/>« cursus honorum » au moment de la nomination</head>
           <p>Les postes diplomatiques à pourvoir étaient en nombre limité (entre quatorze et trente-quatre) ; les occasions de faire de longs séjours ou de longues carrières, assez rares ; les affectations, mutations et promotions, aléatoires ; le traitement, modeste ; les frais de représentation, élevés ; l’endettement, fréquent ; l’éloignement de la cour, préjudiciable. Pour ces raisons, les candidats n’affluaient pas. Ils pouvaient venir de la carrière des armes (soixante-dix-huit), de la « filière » diplomatique (quatorze), de la magistrature (huit), du clergé (cinq), des bureaux des Affaires étrangères (quatre), de carrières variées (trois) ou inconnues (dix) ; parmi eux, figuraient même quelques étrangers (sept).</p>
         </div>
-        <div>
+        <div xml:id="r1082869">
           <head rend="uc">Chapitre II
            <lb/>Critères de recrutement</head>
           <p>Faute de formation spécifique, les négociateurs étaient choisis en fonction de critères quelque peu empiriques : la naissance noble, qui impliquait diverses qualités très souvent mentionnées au début de l’instruction remise au négociateur (goût de la tradition, raffinement naturel, talent de plaire, prédispositions cosmopolites) ; le sens de l’honneur et celui du devoir au service du roi ; les services militaires ; la faveur ; le népotisme. L’image du diplomate idéal n’existe pas, mais des portraits dressés par des contemporains permettent de dégager un profil-type, que précisent un certain nombre d’appréciations laudatives ou critiques, portées par des monarques, des mémorialistes ou des témoins.</p>
         </div>
-        <div>
+        <div xml:id="r1082881">
           <pb source="https://nakala.fr/10.34847/nkl.417e54j3#940f5607e823721eea66062f424bab233bfde6a3" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.417e54j3/940f5607e823721eea66062f424bab233bfde6a3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Appointements et pensions</head>
           <p>Le budget de chaque mission était arrêté par Versailles. Les renseignements disponibles permettent, d’une part, pour la période 1759-1791, de dresser les courbes des dépenses totales du ministère des Affaires étrangères, des dépenses totales des envoyés à l’étranger et de leur rapport, et d’autre part, pour la période 1772-1789, d’établir l’état progressif des « traitements » annuels de chaque poste diplomatique.</p>
           <p>Les ressources des négociateurs provenaient de la quote-part qu’ils percevaient sur le budget du poste, et de diverses pensions personnelles ; la conjugaison de ces deux éléments n’empêchait pas, du reste, les diplomates de contracter des dettes que, tôt ou tard, le Trésor royal prenait à son compte. A la fin de ses activités (il n’y avait pas d’âge limite), le diplomate jouissait de pensions de différentes origines et de gratifications pour services rendus.</p>
         </div>
-        <div>
+        <div xml:id="r1082901">
           <head rend="uc">Chapitre IV
            <lb/>Récompenses</head>
           <p>Le négociateur recevait des décorations (ordre de Saint-Louis ou du Saint-Esprit), soit avant son départ pour rehausser son prestige à l’étranger, soit après la mission pour en couronner le succès. Les militaires bénéficiaient de promotions dans leur corps d’origine ou de l’octroi d’un gouvernement de place militaire. Certaines promotions s’effectuaient à titre civil : nomination dans une ambassade plus prestigieuse, octroi de lettres de conseiller d’État ou de noblesse, poste de secrétaire d’État (des Affaires étrangères, de la Guerre et de la Maison du Roi), fonctions diverses à la cour, plus ou moins honorifiques, et parfois étendues à l’épouse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1082914">
         <head rend="uc">Troisième partie
          <lb/>Place dans la société</head>
-        <div>
+        <div xml:id="r1082922">
           <head rend="uc">Chapitre premier
            <lb/>origines et alliances</head>
           <p>L’origine géographique des diplomates s’étend, dans des proportions très inégales, à toutes les provinces de France et même à l’étranger.</p>
@@ -161,42 +159,42 @@
           <p>Leurs origines historiques les rattachaient à des familles nobles : pour un tiers, noblesse d’origine chevaleresque ou d’ancienne extraction ; pour un autre tiers, noblesse datant des <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles ; un nombre infime était issu de la bourgeoisie.</p>
           <p>La majorité des diplomates avait contracté mariage avant la première mission ; pour les autres, rien ne prouve que des raisons professionnelles aient déterminé une politique précise d’alliances matrimoniales. Les unions se scellaient surtout à l’intérieur de la noblesse d’épée, moins souvent entre l’épée et la robe, ou entre l’épée et la finance. Un nombre très limité de diplomates appartenait à la noblesse de robe : ils contractaient alliance plus souvent à l’intérieur de leur propre classe qu’avec la noblesse de finance.</p>
         </div>
-        <div>
+        <div xml:id="r1082957">
           <head rend="uc">Chapitre II
            <lb/>Les fortunes</head>
           <p>Sous le rapport de la fortune, les diplomates sont indissociables de l’ensemble de la noblesse contemporaine. Les contrats de mariage permettent d’évaluer patrimoines et niveaux de vie. Ils tendent à prouver que la part des biens entrant en communauté est très faible, par rapport aux biens apportés des deux côtés. Les inventaires après décès et les papiers séquestrés présentent un état descriptif et estimatif des biens matériels : mobilier et linge, argenterie, diamants, bibliothèques, deniers comptants, et divers (caves, écuries). Sans pouvoir rivaliser avec les gens de finances, les diplomates connaissent des conditions d’existence fort honorables.</p>
         </div>
-        <div>
+        <div xml:id="r1082969">
           <head rend="uc">Chapitre III
            <lb/>Goûts et culture</head>
           <p>Lorsqu’il vivait en France, le diplomate résidait, sinon à Versailles, près de la cour, en tout cas à Paris, dans un hôtel souvent situé aux abords du faubourg Saint-Germain. Le cadre y était agréable et confortable, la domesticité bon marché. A l’occasion, l’ambassadeur fréquentait les salons parisiens de Mme du Deffand ou de Mme Helvétius ; le duc de Nivernais, le duc de Choiseul et le comte d’Affry ont eux-mêmes tenu salon.</p>
           <p>Quelques diplomates ont pratiqué les sciences, la peinture ou la musique. Leur bibliothèque était souvent bien fournie : les catalogues de vente donnent une idée de leurs lectures, l’histoire étant surtout favorisée. Certains ont parfois affiché une indépendance d’esprit qui n’était pas toujours appréciée à l’étranger ; d’autres se sont intéressés aux sciences occultes. La franc-maçonnerie, en particulier le Grand Orient de France, a compté des affiliés parmi eux. L’esprit critique du siècle a permis à plusieurs de mesurer les réformes dont le pays avait besoin. Beaucoup ont écrit dans les genres les plus divers, mais seul un nombre restreint d’entre eux a connu les honneurs de l’Académie française.</p>
         </div>
-        <div>
+        <div xml:id="r1082984">
           <pb source="https://nakala.fr/10.34847/nkl.417e54j3#652375a40d3bfa0a7c5ef92de4ab5f9205d62a24" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.417e54j3/652375a40d3bfa0a7c5ef92de4ab5f9205d62a24/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les destinées</head>
           <p>Après le tournant décisif que représente l’année 1791, les diplomates de la fin de l’Ancien Régime connurent des destinées diverses durant la Révolution (un tué lors de la défense des Tuileries, une victime des massacres de Septembre, quatre guillotinés), dans l’émigration, puis sous l’Empire et la Restauration.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1083002">
         <head rend="uc">Conclusion</head>
         <p>A quelques exceptions près, les ambassadeurs de la fin de l’Ancien Régime n’ont pas reçu de formation spécifique. Pour la plupart, les missions diplomatiques n’ont souvent été qu’une digression occasionnelle, au milieu d’une carrière consacrée aux armes – elles étaient alors regardées comme une autre façon de servir le roi –, ou parfois à la magistrature.</p>
         <p>Certains diplomates ont accompli une longue carrière à l’étranger, du fait de leurs compétences ou de l’efficacité de leurs services. Toutefois, le souci de ne pas s’éloigner de Versailles, source de toutes les faveurs, a pu contribué à freiner les vocations : pour beaucoup, en effet, la « carrière » diplomatique, malgré son prestige, n’était qu’un « exil honorable », faute de méthode dans la formation et de régularité dans la carrière.</p>
       </div>
-      <div>
+      <div xml:id="r1083015">
         <head rend="uc">Pièces justificatives</head>
         <p>Lettre de créance (1792). – Lettre de rappel (1784). – Lettre de recréance (1784). – Tables de chiffrage et de déchiffrage. – Dépêche chiffrée et déchiffrée (1752). – Instruction sur la manutention pécuniaire (1784). – Lettre du baron de Breteuil, ambassadeur en Suède (1763-1768), sur les droits de douane. – Lettre du marquis de Bombelles, ambassadeur à Lisbonne, sur le taux de change (1787). – Présents emportés par le comte de Vergennes en Turquie (1755). – Plein pouvoir (1771). – Catalogue de la bibliothèque du comte de Montmorin à Madrid (1783). – État des revenus du comte de Boisgelin à la veille de la Révolution.</p>
       </div>
-      <div>
+      <div xml:id="r1083025">
         <head rend="uc">Appendices</head>
         <p>État du personnel à l’ambassade de France à Rome, au service du duc de Nivernais (1749-1752). – Tableau des ambassadeurs et ministres par pays. – Carte <pb source="https://nakala.fr/10.34847/nkl.417e54j3#f6ce18ccf5a8c4ea0b80df07c317225f098dd7b7" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.417e54j3/f6ce18ccf5a8c4ea0b80df07c317225f098dd7b7/full/full/0/default.jpg"/> de l’Europe dans la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, avec indication des postes diplomatiques français.</p>
       </div>
-      <div>
+      <div xml:id="r1083046">
         <head rend="uc">Dictionnaire biographique</head>
         <p>Notices comportant des renseignements sur les origines familiales, l’état civil, la carrière et l’œuvre de chacun des 122 diplomates qui ont exercé leurs fonctions de 1748 à 1791.</p>
       </div>
-      <div>
+      <div xml:id="r1083056">
         <head rend="uc">Illustrations</head>
         <p>Portraits d’ambassadeurs.</p>
       </div>

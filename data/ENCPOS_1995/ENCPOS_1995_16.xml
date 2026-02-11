@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1995_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1995_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -56,17 +54,17 @@
         <surname>Gascard</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1260920">
         <head rend="uc">Introduction</head>
         <p>Les théories sur l’enseignement du latin au <num>xvii<hi rend="sup">e</hi></num> siècle peuvent être élaborées à l’aide des textes officiels, des règlements d’études et des manuels. Pour cette raison, l’établissement d’un catalogue des grammaires latines se révèle d’une grande utilité, puisque l’influence réciproque de ces différents types d’écrits détermine des tendances qui évoluent tout au long du siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1260936">
         <head rend="uc">Première partie
          <lb/>L’enseignement du latin au moyen Age et a la renaissance</head>
         <p><hi rend="i">Le cadre.</hi> – Dès le Moyen Age, il s’esquisse une répartition des tâches d’enseignement qui, à l’époque moderne, va différencier des institutions au départ similaires mais dont la finalité se spécifie au fil des siècles. D’une part, les écoles mages donnent naissance aux collèges. D’autre part, les « petites écoles » paroissiales se multiplient, sous le contrôle de l’évêque et de son délégué. Enfin, les petites écoles capitulaires vont se restreindre à un rôle strict de maîtrises d’enfants de chœur. Les collèges prennent peu à peu une place définie, intermédiaire entre les petites écoles et l’Université. Le rôle des frères de la Vie commune est essentiel : en dissociant la grammaire du reste des arts et en redécouvrant les textes antiques, ils s’éloignent de la tradition scolastique. Les humanistes de la Renaissance leur doivent leur goût pour une culture universelle et leur intérêt pour la pédagogie. Les collèges jésuites, influencés par le <hi rend="i">modus parisiensis,</hi> cherchent un juste milieu entre les pratiques médiévales et le renouveau humaniste, leur fonction étant non <pb source="https://nakala.fr/10.34847/nkl.99fe509l#2935ca04c09b5d49dea9b24fa978ba71b9b16d48" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.99fe509l/2935ca04c09b5d49dea9b24fa978ba71b9b16d48/full/full/0/default.jpg"/>seulement d’enseigner les humanités mais aussi de gagner les âmes à la religion catholique. La deuxième moitié du <num>xvi<hi rend="sup">e</hi></num> siècle voit se développer les affrontements entre les jésuites et les protestants ; ceux-ci se trouvent dans l’obligation de cesser toute cohabitation et de créer leurs propres collèges.</p>
         <p><hi rend="i">Les grammaires latines.</hi> – A partir de 1480, les grammaires médiévales (Donat, Priscien, Alexandre de Villedieu) sont remplacées par des ouvrages italiens modernes (Valla, Perotti, Niger), puis par ceux des élèves des frères de la Vie commune : Bade, Murmellius et surtout Despautère. Ces grammairiens cherchent avant tout à être exhaustifs et objectifs : ils s’appuient pour cela sur les textes des auteurs antiques. Pierre de la Ramée (Ramus), dans la même optique, propose en 1559 trois ouvrages différents : les <hi rend="i">Scholœ grammaticœ,</hi> les <hi rend="i">Grammaticœ libri quatuor</hi> et les <hi rend="i">Rudimenta grammaticœ.</hi> Le premier est de toute évidence un ouvrage d’érudition pour grammairiens, le second vise plutôt les professeurs et le troisième est certainement destiné à des élèves.</p>
       </div>
-      <div>
+      <div xml:id="r1260984">
         <head rend="uc">Deuxième partie
          <lb/>L’enseignement du latin au XVII’ siècle :
          <lb/>les réformes officielles
@@ -77,7 +75,7 @@
         <p><hi rend="i">Les nouvelles orientations : le collège de Richelieu, l’Oratoire, les protestants et les jansénistes.</hi> – Le projet du collège de Richelieu est le premier exemple des nouvelles tendances : on doit y enseigner en français toutes les connaissances indispensables à un gentilhomme. Les oratoriens (1645 : <hi rend="i">Ratio studiorum</hi> du père Jean Morin ; <hi rend="i">circa</hi> 1683 : <hi rend="i">Entretiens sur les sciences</hi> du père Bernard Lamy), les protestants et les jansénistes (<hi rend="i">post</hi> 1660 : <hi rend="i">Réglement</hi> d’Antoine Arnauld) poursuivent le même but : le latin doit être enseigné non plus comme une langue vivante mais comme une langue morte, non pas pour être parlé mais pour être lu. Le remaniement des grammaires est indispensable : rédigées en français, elles sont courtes et plutôt versifiées. La version latine représente l’exercice le plus pratiqué. L’expression orale (en français) est très appréciée.</p>
         <p><hi rend="i">L’éducation des nobles et le rôle du précepteur.</hi> – La méthode par l’usage fait des émules (1668 : <hi rend="i">Examen de la maniere d’enseigner le latin par le seul usage) </hi>auprès d’un public de privilégiés ; elle ne satisfait nullement l’ensemble des précepteurs : les jansénistes Pierre Nicole (1670 : <hi rend="i">De l’education d’un prince</hi>) et Pierre Coustel (1687 : <hi rend="i">Les regles de l’education des enfans</hi>), le protestant Tanneguy Lefèvre (1672 : <hi rend="i">Methode pour commencer les humanités grecques et latines</hi>) et le jésuite Claude Fleury (1686 : <hi rend="i">Traité du choix et de la méthode des etudes) </hi>accordent de l’importance à l’utilisation de la langue française, revendiquent l’utilité de la grammaire et considèrent le latin comme une langue littéraire.</p>
       </div>
-      <div>
+      <div xml:id="r1261102">
         <head rend="uc">Troisième partie
          <lb/>La grammaire de Despautère, un ouvrage composite</head>
         <p>La grammaire de Despautère est la plus publiée et la plus utilisée. Il ne s’agit plus de l’ouvrage original mais d’un livre composite, abondamment commenté, corrigé et adapté : les parties traitant la grammaire sont la <hi rend="i">Prima pars</hi> et la <hi rend="i">Syntaxis.</hi></p>
@@ -91,7 +89,7 @@
         <p><hi rend="i">Les autres commentateurs.</hi> – Le <hi rend="i">Vilbonius</hi> de Philibert Monet (1614), les <hi rend="i">Institutiones linguœ latinœ</hi> d’Esprit Aubert de Sorgue (1619) et la <hi rend="i">Renovata grammatica</hi> rédigée par un auteur anonyme (1654) sont trois ouvrages érudits. Le <hi rend="i">Synopsis</hi> de Toussaint Chasnaeus (1614) et le <hi rend="i">Despautere glosé</hi> (1639) proposent une présentation nouvelle permettant une traduction littérale des règles latines. La <hi rend="i">Grammatica absolutissima</hi> de Jean-Jacques Tanquerel (1633) se caractérise par sa forme claire et complète. La <hi rend="i">Grammatica regia</hi> de Scipion Dupleix (1644) et <hi rend="i">La porte françoise, en Vers Burlesques</hi> d’Agathomphile (1656) peuvent être considérées comme des ouvrages d’appoint. La <hi rend="i">Methodus nova et acurata</hi> de Louis Couvay (1648) est un ouvrage original, composé de tableaux et de gravures. Le <hi rend="i">Despauterius novus</hi> du père Charles Pajot (1650) apparaît comme une grammaire encyclopédique, rassemblant des connaissances appartenant à tous les domaines. La <hi rend="i">Grammatica emendata</hi> de François du Creux (1654) présente un travail neuf, clair et facile d’utilisation. <hi rend="i">La grammaire de Despautere abregée</hi> du père Jean Gaudin (1676), sans être très originale, est déjà tournée vers le <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         <p>Toutes ces méthodes, issues de la même grammaire, donnent une idée de l’imagination de leurs auteurs et de la vitalité des théories pédagogiques. La précision philologique laisse peu à peu la place à la recherche didactique.</p>
       </div>
-      <div>
+      <div xml:id="r1261251">
         <head rend="uc">Quatrième partie
          <lb/>Les premières grammaires latines rédigées en français</head>
         <p>Le latin de collège perd progressivement de son pouvoir. Cette évolution est très clairement perceptible dans les manuels.</p>
@@ -101,7 +99,7 @@
         <p>La méthode de Lancelot, malgré d’inévitables imperfections, est la première à théoriser vraiment une nouvelle approche de l’enseignement du latin.</p>
         <p><hi rend="i">La « Methode universelle » de Du Tertre (1650</hi>). – Critiquant toutes les autres grammaires, de Behourt à Lancelot, Du Tertre propose une méthode minimale, applicable seulement dans le cadre d’une éducation privée.</p>
       </div>
-      <div>
+      <div xml:id="r1261316">
         <head rend="uc">Cinquième partie
          <lb/>Les petites grammaires</head>
         <p>Parallèlement aux ouvrages précédents paraît une importante quantité de petites méthodes qui s’adaptent tant bien que mal aux nouvelles lignes de pensée. Il n’est pas aisé de les introduire dans un cadre rigoureux ; l’un des critères essentiels est le choix du destinataire.</p>
@@ -112,11 +110,11 @@
         <p><hi rend="i">Des grammaires pour les régents.</hi> – La <hi rend="i">Nouvelle methode</hi> (1654) et la <hi rend="i">Methode courte et facile</hi> (1663) de Jean-Marie Filz sont destinées aux régents.</p>
         <p><hi rend="i">Un cas à part : la grammaire attribuée à Bossuet.</hi> – Une grammaire manuscrite qui avait été attribuée à Bossuet l’a été à tort d’après les études récentes.</p>
       </div>
-      <div>
+      <div xml:id="r1261411">
         <head rend="uc">Conclusion</head>
         <p>Alors que, depuis le Moyen Age, le latin tenait la place d’honneur dans la rédaction des méthodes et grammaires, le français apparaît au cours du <num>xvii<hi rend="sup">e</hi></num> siècle et acquiert alors un rôle fondamental. Les habitudes seront pourtant difficiles à changer et le <num>xviii<hi rend="sup">e</hi></num> siècle aura un lent travail à faire pour adopter définitivement la langue française dans les manuels de latin.</p>
       </div>
-      <div>
+      <div xml:id="r1261433">
         <head rend="uc">Annexe</head>
         <p>Bibliographie des grammaires latines du <num>xvii<hi rend="sup">e</hi></num> siècle : trois cent trente éditions environ sont recensées dans le catalogue que complète notamment un index des imprimeurs-libraires, classés par lieux d’édition.</p>
       </div>

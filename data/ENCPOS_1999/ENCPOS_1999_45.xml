@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_45" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_45" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,23 +57,23 @@
         <surname>Veysseyre</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1360966">
         <head rend="uc">Introduction</head>
         <p>Le succès de la littérature arthurienne ne s’est pas démenti depuis le <num>xii<hi rend="sup">e</hi></num> siècle, époque de Geoffroy de Monmouth et de Wace, jusqu’à la fin du Moyen Age, en passant par les grands romans de Chrétien de Troyes et les cycles en prose du <num>xiii<hi rend="sup">e</hi></num> siècle. Les nobles de la cour de Bourgogne au <num>xv<hi rend="sup">e</hi></num> siècle sont particulièrement friands de cette littérature mettant en scène des hommes de guerre, et ils en commandent un certain nombre de versions mises au goût du jour, dérimées, traduites ou compilées.</p>
         <p>Le <hi rend="i">Roman de Brut</hi> est une traduction de l’<hi rend="i">Historia regum Britannie</hi> de Geoffroy de Monmouth écrite dans le milieu de la cour de Bourgogne en 1445, par Jean Wauquelin, à la demande d’Antoine de Croÿ (mort en 1475 ou 1477). Noble de premier plan, ce dernier fut un des principaux chefs militaires de Philippe le Bon et, en récompense de ses services, il fut fait chevalier de la Toison d’or. Il se rapprocha ensuite de Louis XI, qui le chargea d’importantes missions diplomatiques. Il servit en particulier de médiateur entre la couronne de France et le duché de Bourgogne.</p>
         <p>Jean Wauquelin (mort en 1452), après avoir dirigé au début de sa carrière un atelier de copistes à Mons, composa ensuite la totalité de ses œuvres (compilations, traductions, mises en prose, etc.) à l’instigation de Philippe le Bon ou de son entourage proche.</p>
         <p>Le <hi rend="i">Roman de Brut</hi> est conservé dans un manuscrit unique : le ms. British Library, Lansdowne 214 (<num>xv<hi rend="sup">e</hi></num> siècle). Il est d’aspect tout à fait modeste, tant par sa décoration que par sa reliure.</p>
       </div>
-      <div>
+      <div xml:id="r1361021">
         <pb source="https://nakala.fr/10.34847/nkl.5c5836de#91a43cd7e4a808ba2545c4e45b2f1576353c786a" n="370" facs="https://api.nakala.fr/iiif/10.34847/nkl.5c5836de/91a43cd7e4a808ba2545c4e45b2f1576353c786a/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Commentaire</head>
-        <div>
+        <div xml:id="r1361034">
           <head rend="uc">Chapitre premier
            <lb/>la langue du manuscrit</head>
           <p>La graphie est fortement marquée par des caractéristiques picardes, comme en témoignent par exemple les mots <hi rend="i">leu</hi> (loup), <hi rend="i">chiel</hi> ou <hi rend="i">caude</hi>. La morphologie relève également de la scripta picarde : l’article défini féminin singulier <hi rend="i">le</hi> et le pronom de la première personne du singulier <hi rend="i">jou</hi> en sont des exemples. La syntaxe est caractéristique du moyen français. Quant au style, il s’apparente au texte latin quant aux figures de rhétorique (les images employées s’inspirent en grande majorité de celles de Geoffroy de Monmouth) ; il est très proche de la prose spontanée du <num>xv<hi rend="sup">e</hi></num> siècle pour le rythme des phrases, qui sont généralement riches en subordonnées et très amples.</p>
         </div>
-        <div>
+        <div xml:id="r1361072">
           <head rend="uc">Chapitre II
            <lb/>Jean Wauquelin, traducteur de l’<hi rend="i">Historia regum Britannie</hi></head>
           <p><hi rend="i">Le texte source.</hi> – Le texte de Geoffroy de Monmouth est aujourd’hui conservé dans plus de deux cents manuscrits. Sa tradition est donc complexe : l’exemplaire latin utilisé par Jean Wauquelin appartient à la « version commune » (par opposition à la « première variante » et à la « seconde variante »). La qualité en est assez bonne, exception faite des prophéties de Merlin, qui sont très corrompues et ont donc beaucoup gêné le traducteur. Il faut cependant signaler que la tradition manuscrite de ces <hi rend="i">Prophetie Merlini</hi> est dans l’ensemble des exemplaires latins particulièrement fluctuante.</p>
@@ -86,14 +84,14 @@
           <p><hi rend="i">L’itération lexicale.</hi> – L’itération lexicale a deux fonctions sous la plume de Jean Wauquelin : une fonction explicative, qui rejoint l’emploi de la paraphrase, et une fonction stylistique. Les binômes, voire les polynômes, synonymiques permettent à Wauquelin d’amplifier son texte et d’obtenir assez facilement une cadence majeure, visant à la dramatisation du récit et à la suggestion d’une certaine solennité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1361144">
         <head rend="uc">Seconde partie
          <lb/>Édition</head>
         <p>L’édition porte sur l’intégralité du <hi rend="i">Roman de Brut,</hi> traduction de l’ensemble de l’<hi rend="i">Historia regum Britannie.</hi></p>
         <p>Les méthodes habituelles d’édition ont été employées, sauf en ce qui concerne les graphies <hi rend="i">oe</hi> : lorsqu’il s’agit de deux syllabes différentes (comme dans <hi rend="i">loënge</hi>), le <hi rend="i">e</hi> porte un tréma ; la diphtongue (comme dans <hi rend="i">voelle</hi>) est rendue par la graphie <hi rend="i">oe</hi> ; le son [eu] (comme dans <hi rend="i">bœf</hi> ou <hi rend="i">pœt</hi>) est représenté par <hi rend="i">ce.</hi></p>
         <p>Les corrections apportées au texte sont toujours signalées en note et s’appuient la plupart du temps sur le texte latin de l’<hi rend="i">Historia regum Britannie.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1361203">
         <head rend="uc">Annexes</head>
         <p><hi rend="i">Annexes du commentaire.</hi> – Liste des manuscrits latins de l’<hi rend="i">Historia regum Britannie.</hi> – Liste des fautes du traducteur attribuables aux déficiences de la tradition manuscrite. – Schéma récapitulatif des manuscrits de l’<hi rend="i">Historia regum Britannie</hi> qui auraient pu servir de modèle à Jean Wauquelin.</p>
         <p><hi rend="i">Annexes de l’édition.</hi> – Notes critiques, établissant notamment des rapprochements avec le texte de l’<hi rend="i">Historia regum Britannie.</hi> – Arbre généalogique des rois de Bretagne cités dans le <hi rend="i">Roman de Brut.</hi> – Edition synoptique des <hi rend="i">Prophetie Merlini </hi>et de leur traduction par Jean Wauquelin. – Glossaire. – Index des personnages. – Index des noms de lieu.</p>

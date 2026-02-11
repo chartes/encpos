@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1906_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1906_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,13 +57,13 @@
         <surname>Labrosse</surname>
         <roleName>Licencié ès lettres-philosophie</roleName>
       </byline>
-      <div>
+      <div xml:id="r303827">
         <head rend="uc">Introduction
          <lb/>de l’histoire de l’exégèse biblique au moyen âge</head>
         <p>1. L’exégèse biblique occupe une place importante dans l’histoire de la civilisation du Moyen-âge. Par l’interprétation allégorique, la Bible est devenue une des sources principales de la théologie, de la philosophie, du droit, de la vie religieuse et morale de cette époque.</p>
         <p>2. C’est pourquoi les commentaires des Livres saints offrent un intérêt de premier ordre, non seulement pour l’histoire de la Bible et des théories exégétiques, mais encore, et peut-être surtout, pour celle des idées et de la civilisation médiévales. Documents d’une extrême variété, ils reflètent les préoccupations et les tendances des siècles qui les ont produits. L’historien soucieux de suivre l’évolution de la pensée humaine dans toutes ses manifestations ne peut se dispenser de les étudier.</p>
       </div>
-      <div>
+      <div xml:id="r303842">
         <pb source="https://nakala.fr/10.34847/nkl.dd4b3r6b#8d7fee998f26aab8eb9ef597b15752c8b65f57eb" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd4b3r6b/8d7fee998f26aab8eb9ef597b15752c8b65f57eb/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Biographie de Nicolas de Lire</head>
@@ -82,10 +80,10 @@
         <p>Nous sommes fort peu renseignés sur les dernières années de Nicolas de Lire. En 1339, très probablement le 23 avril, il publiait un commentaire mystique et moral sur l’Ecriture (<hi rend="i">Postilla moralis) ;</hi> il faut probablement reporter après cette date la composition d’une méditation pieuse sur la vie de saint François d’Assise (<hi rend="i">Contemplatio ad honorem sancti Francisci</hi>).</p>
         <p>Nicolas de Lire mourut certainement après le 6 juillet 1349 <pb source="https://nakala.fr/10.34847/nkl.dd4b3r6b#67883d9dac27bdcf4af0ee1304525776191f2958" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd4b3r6b/67883d9dac27bdcf4af0ee1304525776191f2958/full/full/0/default.jpg"/>et, suivant toute vraisemblance, le 14 octobre de la même année. Il fut enseveli dans la salle du chapitre du grand couvent des Cordeliers, à Paris.</p>
       </div>
-      <div>
+      <div xml:id="r303973">
         <head rend="uc">Deuxième partie
          <lb/>L’œuvre de Nicolas de Lire</head>
-        <div>
+        <div xml:id="r303981">
           <head rend="uc">I. – Catalogue critique</head>
           <div>
             <head rend="uc">Œuvres d’authenticité certaine</head>
@@ -176,7 +174,7 @@
             <p>24. <hi rend="i">De Superstitionibus.</hi> Manuscrit : Rome, Bibl. Boncompagni, n° 248, f° 77.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r304591">
           <head rend="uc">II. – Étude sur l’œuvre</head>
           <p>1. <hi rend="i">L’exégète.</hi> – Nicolas savait assez d’hébreu pour lire lui-même la Bible hébraïque et utiliser les commentaires des rabbins. Il semble avoir ignoré complètement le grec.</p>
           <p>Ses principes d’herméneutique ne diffèrent pas essentiellement de ceux de ses contemporains. Il conserve le canon des Livres saints reçu dans l’Eglise chrétienne, mais en accentuant la distinction des livres canoniques et des livres non canoniques. Ces derniers ne peuvent servir à la constitution du dogme : ils servent seulement à l’édification des fidèles. Nicolas admet la théorie du double sens de l’Écriture, littéral et mystique ; mais insiste fortement sur la supériorité du sens littéral, fondement du sens spirituel. Le véritable sens de l’Écriture est celui qui est conforme tout à la fois au sens grammatical, non seulement de la version latine, mais encore du texte hébreu, à la raison et aux dogmes chrétiens. L’autorité des saints et des docteurs n’est pas telle, en matière d’exégèse, que l’on ne puisse, pour de bonnes raisons, rejeter leurs interprétations.</p>
@@ -189,7 +187,7 @@
           <p>Dans son traité : <hi rend="i">De visione divinœ essentiæ</hi>, il discute surtout en exégète la question de la vision béatifique. Le <hi rend="i">De sacramento</hi> n’est pas à proprement parler une disserta<pb source="https://nakala.fr/10.34847/nkl.dd4b3r6b#019a166125901a20e49f80836c054d12b8a81dd0" n="139" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd4b3r6b/019a166125901a20e49f80836c054d12b8a81dd0/full/full/0/default.jpg"/>tion théologique et n’offre que la solution d’un certain nombre de cas de conscience.</p>
           <p>4. <hi rend="i">Le Moraliste.</hi> – Le goût de Nicolas pour les questions de morale pratique se manifeste tout particulièrement dans son commentaire mystique de l’Ecriture (<hi rend="i">Postilla moralis) </hi>qui nous révèle un psychologue avisé, un prédicateur discret et un censeur plein de bonhomie.</p>
         </div>
-        <div>
+        <div xml:id="r304678">
           <head rend="uc">III. – Influence de Nicolas de Lire</head>
           <p>L’œuvre de Nicolas de Lire a obtenu un très vif succès et a été extrêmement répandue. Le nombre des manuscrits qui en ont été conservés (plus de 800), des éditions qui en ont été données de 1471 à 1660 (près de 100), les travaux dont elle a été l’objet (traductions, répertoires, extraits, critiques), toute une série de témoignages divers en font foi. Les Juifs la connaissaient et l’appréciaient.</p>
           <p>Pour la détermination du sens littéral, les commentaires de Nicolas firent autorité, aux quatorzième et quinzième siècles, parmi les chrétiens. On appréciait sa clarté, son bon sens, sa sobriété et surtout son érudition hébraïque. La <hi rend="i">Postilla litteralis</hi> devint un manuel commode d’exégèse que l’on admira, que l’on utilisa, mais que l’on n’imita guère. Les commentateurs se crurent dispensés d’étudier les langues, notamment l’hébreu, et ne songèrent pas à suivre, comme l’avait fait Nicolas avec tant de profit et de succès, la voie tracée au treizième siècle par un autre franciscain, Roger Bacon.</p>

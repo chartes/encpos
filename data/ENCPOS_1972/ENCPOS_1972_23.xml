@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1972_23" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1972_23" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,20 +58,20 @@
         <roleName>maître ès lettres</roleName>
       </byline>
       <p>La relative ampleur du cadre et l’abondance des sources nous ont conduit à négliger certains aspects, comme la démographie ou le rôle de la justice dans la vie des habitants de la région. Notre choix s’est porté sur une contrée dont l’histoire reste à écrire, le Bas-Limousin. Les paroisses que nous avons retenues sont situées au nord de Brive, au contact de la plaine aquitaine et de la montagne limousine, ce qui permet de voir comment s’opérait au <num>xviii<hi rend="sup">e</hi></num> siècle le passage entre ces deux zones géographiques.</p>
-      <div>
+      <div xml:id="r963060">
         <head rend="uc">Sources</head>
         <p>Trois dépôts renferment des documents intéressant notre sujet. Les Archives nationales ont livré des plans de routes (série H), des enquêtes révolutionnaires sur la situation économique de la Corrèze (série F<hi rend="sup">14</hi>) et la correspondance des intendants avec le Contrôle général (série G<hi rend="sup">7</hi>). Aux Archives départementales de la Haute-Vienne, nous avons dépouillé les séries C (généralité de Limoges), D (collège des Jésuites) et 1G (évêché de Limoges). La majeure partie de la documentation est rassemblée aux Archives départementales de la Corrèze, dans les séries C (généralité de Limoges), E (titres de famille, minutes de notaires et dépôts des communes) et F (collections de documents). Enfin, M. le marquis de Lasteyrie nous a ouvert ses archives ; nous y avons trouvé deux plans et un état de la terre du Saillant à l’époque de la Révolution.</p>
       </div>
-      <div>
+      <div xml:id="r963078">
         <pb source="https://nakala.fr/10.34847/nkl.ea1fm941#cbbb4d8b2ebf72aba5b39404eb3593bfd6d9fc51" n="180" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea1fm941/cbbb4d8b2ebf72aba5b39404eb3593bfd6d9fc51/full/full/0/default.jpg"/>
         <head rend="uc">Introduction
          <lb/>présentation géographique et historique</head>
         <p>Les quatre paroisses choisies appartiennent à un même cadre géographique, le bassin de Brive. Relief et climat expliquent l’importance prise par la vigne au <num>xviii<hi rend="sup">e</hi></num> siècle, bien que le paysage agraire puisse être défini comme « un bocage de prés », selon l’expression d’André Meynier. L’histoire de la région est fort mal connue car les documents font défaut. Trois seigneuries se partageaient le pays, celles de l’évêque de Limoges, du prince de Rohan et du marquis du Saillant. Sans tenir compte de ces cadres féodaux, la royauté a installé ses cadres administratifs : l’élection de Brive englobe Allassac, Donzenac, Sadroc et Voutezac, mais ces paroisses sont réparties entre deux sénéchaussées, celles de Brive et d’Uzerche.</p>
       </div>
-      <div>
+      <div xml:id="r963101">
         <head rend="uc">Première partie
          <lb/>La terre</head>
-        <div>
+        <div xml:id="r963109">
           <head rend="uc">Chapitre premier
            <lb/>la répartition de la terre</head>
           <p><hi rend="i">Présentation des documents.</hi> – Deux types de documents ont été utilisés pour cette étude, les rôles de vingtièmes et les états de fonds. Ces derniers sont propres au Limousin ; ils résultent de la réforme de la taille tarifée entreprise par l’intendant Tourny (1730-1743) et poursuivie par ses successeurs. Ils décrivent, pour une même paroisse, toutes les parcelles qui la composent et donnent la nature des cultures, la superficie et l’estimation du revenu. Deux paroisses, Allassac et Donzenac, ont été dotées de pareils arpentements, dans lesquels on peut voir une préfiguration du cadastre. Pour les deux autres paroisses nous nous sommes servi des rôles de vingtièmes, mais ils sont loin de contenir la même richesse de renseignements.</p>
@@ -81,7 +79,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.ea1fm941#96d6f3aeade33f611b983604059bcb14753a3539" n="181" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea1fm941/96d6f3aeade33f611b983604059bcb14753a3539/full/full/0/default.jpg"/>
           <p>Pour les paroisses du vignoble, Allassac, Donzenac et Voutezac, trois éléments se dégagent. Les vignerons occupent un rang prépondérant parmi les paysans, en raison surtout de la place que tiennent les vignes dans leurs exploitations. La propriété bourgeoise est fort appréciable, travaillée par moitié en faire-valoir direct et en faire-valoir indirect. Enfin, les propriétaires étrangers aux paroisses sont nombreux ; le désir de posséder des vignes et d’en boire le vin explique en partie ce phénomène. Sadroc, paroisse du plateau, se distingue par l’absence totale de vignerons et par l’importance des laboureurs et des journaliers. Un seul trait la rattache aux autres paroisses, la part détenue par les propriétaires forains, qui y est assez considérable. Si la propriété ecclésiastique est peu importante, sauf à Voutezac, celle de la noblesse est fort variable : nulle à Sadroc, elle n’est pas négligeable à Allassac et Donzenac et atteint des pourcentages relativement élevés à Voutezac.</p>
         </div>
-        <div>
+        <div xml:id="r963138">
           <head rend="uc">Chapitre II
            <lb/>Cultures et exploitations ; les difficultés</head>
           <p><hi rend="i">Les cultures.</hi> – La récapitulation par nature de cultures permet de dresser un bilan de l’agriculture dans la région au <num>xviii<hi rend="sup">e</hi></num> siècle. Les documents notariaux sont avares de renseignements, mais les enquêtes révolutionnaires permettent d’apporter des précisions sur la culture du maïs, qui n’avait pas alors l’importance qu’elle revêt aujourd’hui. Aussi rien ne nous permet de croire à une révolution agricole au <num>xviii<hi rend="sup">e</hi></num> siècle : les usages locaux sont plutôt hérités des <num>xvi<hi rend="sup">e</hi></num> et <num>xvii<hi rend="sup">e</hi></num> siècles.</p>
@@ -89,11 +87,11 @@
           <p><hi rend="i">Les problèmes.</hi> – Les problèmes sont posés presque exclusivement par la vigne, car la consommation locale ne suffit pas à absorber la production. Des traces d’un commerce du vin vers Limoges, Bourganeuf et la montagne limousine ont été relevées, mais elles sont insuffisantes pour qu’on puisse en tirer des conclusions sérieuses. Les difficultés du commerce s’expliquent avant tout par la faible organisation des moyens de communication : si la route de Paris à Toulouse est terminée vers 1777, le réseau routier secondaire est déplorable. Des efforts furent faits pour relier notamment Allassac au Bariolet, mais ils n’aboutirent qu’à la veille de la Révolution.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r963190">
         <pb source="https://nakala.fr/10.34847/nkl.ea1fm941#211fa8820d73f8fa66fa13d831ba7ca27c894341" n="182" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea1fm941/211fa8820d73f8fa66fa13d831ba7ca27c894341/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les hommes</head>
-        <div>
+        <div xml:id="r963203">
           <head rend="uc">Chapitre premier
            <lb/>les privilégiés</head>
           <p><hi rend="i">Le clergé.</hi> – La nature viticole de la région a attiré les établissements monastiques dès le Moyen Âge. Les abbayes reçurent en dons des vignes et des rentes, dont le produit a perdu beaucoup de sa valeur au <num>xviii<hi rend="sup">e</hi></num> siècle. Par contre, au <num>xvii<hi rend="sup">e</hi></num> siècle, deux établissements de Limoges, les Jésuites et les Carmes, se constituèrent un important vignoble à Voutezac en obligeant leurs débiteurs à leur vendre les vignes qu’ils y possédaient.</p>
@@ -101,7 +99,7 @@
           <p><hi rend="i">Les nobles et les privilégiés.</hi> – Les nobles sont connus par un rôle de vingtièmes de 1780. Sur les quatre-vingt-deux nobles possessionnés dans les quatre paroisses, quinze seulement y habitent. Le marquis du Saillant est le plus riche. Ses dix-huit mille livres de revenu annuel, provenant de quatre seigneuries, et la charge de sénéchal de la province en font l’un des nobles les plus puissants de la province. Les autres disposent de revenus honnêtes mais n’hésitent pas à épouser des filles de la bourgeoisie locale, comme Étienne de Bruchard qui se maria avec Marie Dubois. Seul Pierre des Cars se ruine peu <hi rend="i">à</hi> peu : de dettes en ventes, ses terres sont absorbées progressivement par les bourgeois de Sadroc.</p>
           <p>Parmi les nobles étrangers nous retrouvons la vieille noblesse limousine, les comtes de Cosnac et de Bonneval, le marquis de Lastic Saint-Jal. Ils voisinent avec des gens anoblis par les offices de judicature à Brive, Tulle et Uzerche. Certains de ces nouveaux nobles sont d’ailleurs originaires de nos paroisses, comme Hélie Boutot, lieutenant criminel au présidial de Brive, né à Donzenac. De même que les ecclésiastiques, les nobles sont attirés par les vignes et utilisent pour se les approprier les mêmes moyens que les Jésuites ; c’est le cas de François Rochon à Voutezac.</p>
         </div>
-        <div>
+        <div xml:id="r963252">
           <pb source="https://nakala.fr/10.34847/nkl.ea1fm941#98658be7e62daed2f5196a8517f68005b7dc3425" n="183" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea1fm941/98658be7e62daed2f5196a8517f68005b7dc3425/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les paysans</head>
@@ -109,14 +107,14 @@
           <p><hi rend="i">Les vignerons.</hi> – Les documents concernant des vignerons sont rares. Leur originalité vient de leur spécialisation agricole qui leur donne des revenus suffisants, mais les maintient dans une certaine dépendance vis-à-vis des bourgeois qui possèdent l’argent et une partie des vignes.</p>
           <p><hi rend="i">Les laboureurs.</hi> – La situation des laboureurs est relativement stable tout au long du siècle. Le cas de Dominique Verlhac, laboureur à Sadroc, illustre l’importance que revêt pour ce groupe la mise en ordre de la fortune familiale. Eux aussi utilisent les prêts et les baux à cheptel pour faire fructifier leur fortune.</p>
         </div>
-        <div>
+        <div xml:id="r963284">
           <head rend="uc">Chapitre III
            <lb/>Les bourgeois</head>
           <p><hi rend="i">Comment on devient bourgeois.</hi> – Bien que l’accession à la bourgeoisie soit assez rare, l’exemple de la famille Treuil d’Allassac en éclaire les étapes : le grand-père était vigneron, le père praticien, le fils bourgeois. Les fermes des dîmes et rentes épiscopales permettent d’accumuler les créances conjointement avec les baux à cheptel. Cela se traduit, lors du mariage des enfants, par la constitution de dots dont le montant est élevé pour la région.</p>
           <p><hi rend="i">Comment on sort de la bourgeoisie.</hi> – L’ascension sociale se poursuit à l’intérieur de la bourgeoisie vers la noblesse. Trois familles étudiées en donnent la preuve, les Dubois d’Allassac, les Breuil de Sadroc, les Chambon de Donzenac. L’intégration à la noblesse se fait soit par le mariage d’une fille, soit par l’achat de charges anoblissantes, soit par l’adoption des usages nobles. Ce dernier moyen est le plus répandu et le plus illusoire. Seuls les deux premiers donnent effectivement la noblesse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r963306">
         <pb source="https://nakala.fr/10.34847/nkl.ea1fm941#b6b97437802275c973372d13623fa907b2be92d1" n="184" facs="https://api.nakala.fr/iiif/10.34847/nkl.ea1fm941/b6b97437802275c973372d13623fa907b2be92d1/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>La région étudiée marque le passage de la plaine aquitaine au plateau limousin. La vigne y est la principale culture ; elle entraîne une spécialisation agricole assez forte, marquée par la multiplication des petits propriétaires. L’exportation de la production est contrariée par la déficience du réseau routier, malgré la présence de la route de Paris à Toulouse. Sur le plateau les cultures sont plus pauvres et voisinent avec un peu d’élevage. De tous les groupes sociaux étudiés les bourgeois sont les plus importants. Par les fermes des dîmes et rentes, les baux à cheptel et à métairie, les prêts, ils dominent la vie économique de la région. Ils utilisent cette influence dans les justices seigneuriales, dont ils détiennent tous les offices, et dans les assemblées paroissiales, où leur opinion est prépondérante.</p>

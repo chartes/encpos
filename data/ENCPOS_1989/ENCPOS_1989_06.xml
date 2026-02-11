@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,13 +54,13 @@
         <surname>Bula</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1172321">
         <head rend="uc">Sources</head>
         <p>Les sources principales sont constituées, aux Archives nationales, par les archives du comte d’Artois (sous-série R<hi rend="sup">1</hi>).</p>
         <p>Des compléments ont été apportés par les archives de la Chambre des comptes (série P) et du Conseil du roi (série E) aux Archives nationales, par le Minutier central des notaires parisiens et par la collection Joly de Fleury de la Bibliothèque nationale.</p>
         <p>Les minutes du procès du sur intendant des finances Radix de Sainte-Foy conservées aux Archives nationales (sous-série X<hi rend="sup">2b</hi>) ont été également consultées.</p>
       </div>
-      <div>
+      <div xml:id="r1172345">
         <head rend="uc">Chapitre préliminaire
          <lb/>l’institution des apanages. Rappel historique</head>
         <p>Les premiers Capétiens adoptèrent les principes d’indivisibilité héréditaire du domaine royal et de succession par ordre de primogéniture. Les frères cadets et les fils puînés des rois furent établis à la tête de territoires qui, détachés du domaine à titre de fief, constituaient leur apanage. Les biens concédés en apanage ne pouvaient être aliénés et retournaient à la Couronne en cas d’interruption de la ligne masculine.</p>
@@ -72,17 +70,17 @@
         <p>Les charges incluaient les fiefs et aumônes, les gages des officiers des justices royales, les frais de justice (frais de procédure criminelle et entretien des enfants trouvés), l’entretien et la réparation des domaines et bâtiments de l’apanage.</p>
         <p>Les forêts des apanages restaient administrées par les officiers des maîtrises des eaux et forêts et leur exploitation était soumise aux mêmes formalités que les bois du roi, suivant les dispositions de l’ordonnance du mois d’août 1669.</p>
       </div>
-      <div>
+      <div xml:id="r1172374">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>La formation de l’apanage du comte d’Artois<lb/>et sa gestion jusqu’en 1776</head>
-        <div>
+        <div xml:id="r1172388">
           <head rend="uc">Chapitre premier
            <lb/>le comte d’Artois</head>
           <p>Né le 9 octobre 1757, Charles-Philippe, comte d’Artois, était le quatrième fils du dauphin Louis et de Marie-Josèphe de Saxe. Son mariage en novembre 1773 avec Marie-Thérèse de Savoie donna lieu à la création de son apanage et à l’établissement de sa Maison.</p>
           <p>Le prince disposait désormais de deux sources de revenus : des fonds s’élevant à 2 200 000 livres, versés annuellement par le Trésor royal pour l’entretien de sa Maison, et son apanage qui devait lui procurer une rente d’au moins 200 000 livres.</p>
         </div>
-        <div>
+        <div xml:id="r1172403">
           <head rend="uc">Chapitre II
            <lb/>La formation de l’apanage</head>
           <p>Créé par un édit d’octobre 1773, l’apanage comprenait les duchés d’Angoulême, d’Auvergne, de Mercœur et la vicomté de Limoges, auxquels s’ajoutèrent le marquisat de Pompadour et la vicomté de Turenne, accordés à titre de supplément d’apanage par des lettres patentes du 28 mars 1774.</p>
@@ -93,7 +91,7 @@
           <p>Deux derniers remaniements de moindre importance portèrent ensuite sur le comté de Ponthieu : le prince obtint par un édit d’août 1785 la mouvance sur les terres de Saint-Valéry et Roc-de-Cayeux et par un édit de février 1786, les seigneuries de Doullens et de Montreuil-sur-Mer.</p>
           <p>Par ailleurs, dans son apanage, le comte d’Artois se substituait au roi en qualité de seigneur féodal et propriétaire de biens fonciers. Il pouvait racheter les domaines engagés pour les incorporer à l’apanage, pourvoir aux offices, sauf à ceux de la justice extraordinaire (aides, tailles et gabelles) et le roi lui accorda, par une déclaration du 2 mars 1774, le produit du centième denier des offices, qui auparavant lui était réservé.</p>
         </div>
-        <div>
+        <div xml:id="r1172435">
           <head rend="uc">Chapitre III
            <lb/>Les évaluations à la chambre des comptes</head>
           <p>En conséquence de la fixation de la rente annuelle à 200 000 livres, il était nécessaire d’évaluer la consistance et les revenus de l’apanage.</p>
@@ -105,7 +103,7 @@
           <p>De plus, les commissaires du comte d’Artois furent autorisés à présenter aux commissaires du roi, avant la clôture des évaluations, leurs demandes visant à obtenir une déduction du tiers sur le produit de certains droits, pour frais de régie, et une augmentation des frais d’entretien des enfants trouvés.</p>
           <p>Il semble bien que toutes ces propositions des commissaires du comte d’Artois, tendant à réduire le produit de l’apanage, étaient destinées à obtenir plus facilement pour le prince des suppléments d’apanage. Au début de l’année 1789, l’administration du comte d’Artois redoutait que les évaluations ne fussent soumises à l’examen des Etats généraux, mettant ainsi en évidence que les officiers de la Chambre des comptes laissaient sous-évaluer le revenu réel de l’apanage.</p>
         </div>
-        <div>
+        <div xml:id="r1172470">
           <head rend="uc">Chapitre IV
            <lb/>Le conseil du comte d’Artois et l’administration de françois de Bastard</head>
           <p>Le Conseil, uniquement administratif et ne possédant pas de juridiction, fut créé par une déclaration du 17 novembre 1773 en même temps que la Maison du prince, dont il faisait partie intégrante.</p>
@@ -115,12 +113,12 @@
           <p>C’est durant l’administration de François de Bastard que furent acquises les premières terres patrimoniales du comte d’Artois : la forge de Ruelle en Angoumois (1774), échangée en 1776 avec le roi contre des forêts situées dans le ressort des maîtrises de Saint-Dizier, Wassy et Sainte-Menehould, la châtellenie de Cognac (1775) et le duché de la Meilleraye en Poitou (1776).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1172495">
         <pb source="https://nakala.fr/10.34847/nkl.d3ae763g#15648ce5c6cdeade6a9837f48afde17dfd90d4c2" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.d3ae763g/15648ce5c6cdeade6a9837f48afde17dfd90d4c2/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>L’administration de l’apanage<lb/>du comte d’Artois de 1776 à 1790</head>
-        <div>
+        <div xml:id="r1172514">
           <head rend="uc">Chapitre premier
            <lb/>l’administration de Maximilien Radix de Sainte-Foy (1776-1781)</head>
           <p>En septembre 1776, la charge de surintendant des finances fut désunie de celle de chancelier, conservée par François de Bastard, au profit de Maximilien Radix de Sainte-Foy, diplomate et ancien trésorier de la Marine.</p>
@@ -138,7 +136,7 @@
           <p>Le but de ces opérations était de faire augmenter rapidement les revenus de ces terres, ou d’en diviser une partie en parcelles revendues ensuite au prix fort et de percevoir de ce fait les droits de mutation dus par les nouveaux propriétaires.</p>
           <p>Les revenus de l’apanage ne purent à eux seuls financer cette série d’acquisitions, si bien que le surintendant dut emprunter des sommes considérables : le comte d’Artois contracta de cette manière des dettes qui s’alourdirent d’année en année.</p>
         </div>
-        <div>
+        <div xml:id="r1172567">
           <head rend="uc">Chapitre II
            <lb/>Le procès Radix de Sainte-Foy (1779-1784)</head>
           <p>Au début de l’année 1779, un procès fut ouvert contre Antoine Lebel, premier commis de la surintendance, accusé de falsifications et surtaxes sur des lettres de foi et hommage, et de vente d’offices à un prix supérieur au tarif officiel.</p>
@@ -148,7 +146,7 @@
           <p>D’autres accusations, relatives à des malversations commises dans la gestion des biens patrimoniaux du prince, pesaient également sur le surintendant des finances.</p>
           <p>Maximilien Radix de Sainte-Foy s’était démis de sa charge de surintendant des finances en octobre 1781. Redoutant l’issue du procès, il s’enfuit à Londres après son dernier interrogatoire, qui eut beu en août 1782. Mais grâce aux appuis dont il disposait à la Cour, il put éviter d’être condamné et fut déchargé, comme Julien Pyron, de toutes les accusations portées contre lui, car ses amis obtinrent du roi des lettres d’extinction du procès, datées du 2 mars 1784.</p>
         </div>
-        <div>
+        <div xml:id="r1172599">
           <head rend="uc">Chapitre III
            <lb/>L’administration de l’apanage de 1781 à 1790</head>
           <p>Le fermier général Jean-Jacques de Verdun, remplaçant Maximilien Radix de Sainte-Foy à la charge de surintendant des finances en octobre 1781, travailla en étroite collaboration avec les intendants des finances et le chancelier Jean-Baptiste Auget de Monthyon qui avait succédé à François de Bastard, décédé en janvier 1780.</p>
@@ -162,18 +160,18 @@
           <p>Un décret de l’Assemblée constituante du 13 août 1790, ratifié par le roi le 21 septembre de la même année, prévoyait que les princes ne recevraient plus désormais d’apanages réels, mais une rente apanagère. Toutes les concessions d’apanage existantes furent révoquées, les princes pouvant néanmoins continuer à jouir des domaines et des droits fonciers compris dans leurs apanages jusqu’en janvier 1791.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1172638">
         <head rend="uc">Conclusion</head>
         <p>L’apanage du comte d’Artois, qui n’était pas une simple rente assignée sur les fonds d’Etat, mais avait nécessité l’établissement d’officiers et d’administrateurs attachés à la personne du prince et chargés de la gestion de ses biens, créait dans le royaume une sorte d’enclave qui ne contribuait qu’à renforcer la complexité administrative de l’Ancien Régime.</p>
         <p>Par ailleurs, les abus commis par Maximilien Radix de Sainte-Foy démontrèrent le danger de confier la gestion d’une partie du domaine à une adminis<pb source="https://nakala.fr/10.34847/nkl.d3ae763g#149b9f2c557703dc22deba09d41626e562546af2" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.d3ae763g/149b9f2c557703dc22deba09d41626e562546af2/full/full/0/default.jpg"/>tration particulière, qui n’était en fait soumise à aucun contrôle véritable de la part du pouvoir royal.</p>
         <p>Les apanages étaient, dans la tradition monarchique, institués pour garantir l’indépendance financière des princes. Dans le cas du comte d’Artois, ce but fut loin d’être atteint. L’octroi de provinces « pauvres », telles le Limousin et l’Auvergne, ne fut guère avantageux pour les finances du prince et entraîna des remaniements territoriaux préjudiciables pour le bon fonctionnement de l’administration de l’apanage. Les spéculations de Maximilien Radix de Sainte-Foy portant sur l’acquisition de biens patrimoniaux dans l’apanage aboutirent même à alourdir les dettes du comte d’Artois.</p>
         <p>L’apanage, qui représentait un revenu bien plus faible que les fonds versés directement par le Trésor royal pour l’entretien de la Maison du prince, fut peu profitable pour ce dernier, revêtant en définitive les caractères d’une institution archaïque.</p>
       </div>
-      <div>
+      <div xml:id="r1172662">
         <head rend="uc">Pièces justificatives</head>
         <p>Édit d’octobre 1773. – Déclaration du 17 novembre 1773. – Lettres patentes du 7 juillet 1779. – Lettres de provision du trésorier général de la Maison du comte d’Artois.</p>
       </div>
-      <div>
+      <div xml:id="r1172672">
         <head rend="uc">Membres du conseil du comte d’Artois</head>
         <p>Recueil de notices sur les membres du Conseil du comte d’Artois.</p>
         <pb source="https://nakala.fr/10.34847/nkl.d3ae763g#87a0cec5c7777493e35cd16d628788664833de17" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.d3ae763g/87a0cec5c7777493e35cd16d628788664833de17/full/full/0/default.jpg"/>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,26 +56,26 @@
         <forename>François</forename>
         <surname>Blanchet</surname>
       </byline>
-      <div>
+      <div xml:id="r476160">
         <head rend="uc">Première partie
          <lb/>Topographie</head>
-        <div>
+        <div xml:id="r476168">
           <head rend="uc">I
            <lb/>structure générale du pays</head>
           <p>Au point de vue géologique, Harfleur s’élève sur des terrains inconsistants formés par les alluvions de la Seine. Deux influences contraires ont nui à son port : celle des galets, qui, s’amoncelant sur la côte, ont fini par former la pointe du Hoc, et celle des alluvions de la Seine, qui, mêlées aux galets, ont obstrué la rade.</p>
         </div>
-        <div>
+        <div xml:id="r476180">
           <head rend="uc">II
            <lb/>situation</head>
           <p>La situation d’Harfleur par rapport à l’arrière-pays était excellente. C’était le débouché naturel du pays de Caux, avec Dieppe et Rouen. Mais Harfleur avait sur ces ports l’avantage de surveiller à la fois la Seine maritime et la mer. D’où une importance non seulement économique, mais stratégique.</p>
         </div>
-        <div>
+        <div xml:id="r476192">
           <pb source="https://nakala.fr/10.34847/nkl.b3071dp8#c83e5f3270056dbc6faf1f50f8e34a90f1827c17" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/c83e5f3270056dbc6faf1f50f8e34a90f1827c17/full/full/0/default.jpg"/>
           <head rend="uc">III
            <lb/>géographie</head>
           <p>Les collines d’Ingouville protégeaient Harfleur des invasions, au nord. La plaine de Leure était la voie ouverte aux débarquements anglais. Leure était l’avant-port de la ville. Plusieurs anses naturelles découpaient le rivage voisin. Le château-fort des sires de Tancarville défendait le pays à l’est.</p>
         </div>
-        <div>
+        <div xml:id="r476209">
           <head rend="uc">IV
            <lb/>topographie proprement dite</head>
           <p>Le meilleur plan pour restituer l’état ancien de la ville est celui de la collection d’Anville, qui remonte au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
@@ -88,22 +86,22 @@
           <p>Au centre de la ville étaient les halles (halle au blé, halles de la boulangerie, de la draperie et mercerie, de la boucherie). Dans le voisinage de la porte de Montivilliers il y avait deux moulins.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r476274">
         <head rend="uc">Deuxieme partie
          <lb/>Histoire de la ville</head>
         <p>Les Romains établirent un port, <hi rend="i">Caracotinum,</hi> là où s’éleva plus tard Harfleur. Des voies romaines unissaient cette ville à Rouen et au centre des Gaules. Les invasions anglo-saxonnes la ruinèrent. Harfleur remplaça <hi rend="i">Caracotinum</hi> vers la fin du <num>vi<hi rend="sup">e</hi></num> siècle. Les premiers temps de son histoire sont obscurs. Elle fut érigée en commune par Jean Sans Terre en 1202, mais cette organisation fut éphémère. A la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, la ville appartenait en fief au comte de Gueldre ; en 1281, Renaud, comte de Gueldre, l’échangea avec Philippe-Auguste contre une rente de 1.300 livres.</p>
-        <div>
+        <div xml:id="r476305">
           <head rend="uc">I
            <lb/>Harfleur à la veille de la guerre de cent ans</head>
           <p>Vers le deuxième tiers du <num>xiv<hi rend="sup">e</hi></num> siècle, Harfleur était un entrepôt de commerce très actif. Des privilèges importants avaient attiré les marchands, qui ve<pb source="https://nakala.fr/10.34847/nkl.b3071dp8#63f7db1221cf691ce0eb1469c831f7ca68875175" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/63f7db1221cf691ce0eb1469c831f7ca68875175/full/full/0/default.jpg"/>naient surtout des pays méditerranéens. La prospérité régnait. Harfleur était à même de devenir un grand port militaire.</p>
         </div>
-        <div>
+        <div xml:id="r476328">
           <head rend="uc">II
            <lb/>début de la guerre de cent ans</head>
           <p>Dès le début de la guerre de Cent Ans, Harfleur devint une base navale importante. Harfleur et Honfleur, Portsmouth et Southampton se disputèrent l’empire de la Manche. Sous le règne de Philippe de Valois, la ville, tout en restant constamment sur la défensive, envoya une flottille incendier Southampton en 1338. Ses bâtiments participèrent à la bataille de l’Ecluse en 1340. Les évènements n’empêchèrent pas le roi de favoriser le commerce en octroyant des privilèges aux marchands étrangers.</p>
           <p>La guerre perpétuelle et la piraterie affaiblissaient Harfleur. Les Anglo-Navarrais, à Montivilliers et à Honfleur, la menaçaient. Etienne Marcel envoya des renforts, qui s’épuisèrent dans des escarmouches. En 1360, les Anglais débarquèrent à Leure et se préparaient à piller Harfleur quand le traité de Brétigny fut signé. Jean II avait cherché à faire prospérer le commerce et avait même établi des foires pendant deux ans, mais son règne fut néfaste pour la ville.</p>
         </div>
-        <div>
+        <div xml:id="r476343">
           <head rend="uc">III
            <lb/>histoire de la ville de 1360 à 1415</head>
           <p>Charles V désarma d’abord les Navarrais, qui campaient autour d’Harfleur, puis, pour réduire les Anglais, fit du port un véritable arsenal maritime. Le duc de Lancastre essaya vainement de le détruire en 1369. Le roi répondit à cette tentative en envoyant <pb source="https://nakala.fr/10.34847/nkl.b3071dp8#c57064f742df2af0f81ffb4f3ef032c7f0ac61e4" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/c57064f742df2af0f81ffb4f3ef032c7f0ac61e4/full/full/0/default.jpg"/>d’Harfleur plusieurs expéditions contre l’Angleterre. Harfleur fut sérieusement menacée en 1374 et en 1378. La pensée dominante de la politique de Charles V semble avoir été un projet de descente en Angleterre, qui ne fut jamais réalisé par suite des offensives anglaises.</p>
@@ -111,7 +109,7 @@
           <p>Sous le règne de Charles VI, la situation d’Harfleur fut très instable. La ville participa directement à toutes les opérations de la guerre. En 1383, une concentration de troupes ayant lieu à l’Ecluse, la ville envoya un grand nombre de vaisseaux et de troupes. Les dernières années du <num>xiv<hi rend="sup">e</hi></num> siècle furent marquées par une série d’alertes. En 1404, la flotte harfleuraise pilla la Cornouaille pour rétablir Owen Glendowr sur le trône d’Angleterre.</p>
           <p>Le commerce bénéficia de l’impulsion qu’il avait reçue sous le règne précédent. Les privilèges furent encore confirmés et, malgré les guerres, le trafic du port fut assez intense. Les bassins et les fortifications furent réparés.</p>
         </div>
-        <div>
+        <div xml:id="r476375">
           <head rend="uc">IV
            <lb/>la première occupation anglaise (1415-1435)</head>
           <p>Le prétexte de l’invasion fut la piraterie à laquelle se livraient principalement les marins d’Harfleur. La rupture diplomatique eut lieu le 28 juillet 1415. Les Anglais assiégèrent la ville du 14 août au 22 septembre. Bloquée par terre et par mer, elle ca<pb source="https://nakala.fr/10.34847/nkl.b3071dp8#2120a6010347dc615d1c1a067330613d02c5def9" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/2120a6010347dc615d1c1a067330613d02c5def9/full/full/0/default.jpg"/>pitula après une résistance héroïque. Les habitants furent exilés et les chefs de la résistance durent se rendre prisonniers à Calais le 11 novembre.</p>
@@ -120,7 +118,7 @@
           <p>Henri VI confirma les privilèges accordés par les rois de France aux marchands étrangers fréquentant le port. Le commerce reprit son essor, celui des vins en particulier.</p>
           <p>Les Anglais repoussèrent d’abord les attaques françaises. En août 1416, ils remportèrent un succès naval au large d’Harfleur. Ils refusèrent de rendre la ville lors de la tentative d’arbitrage de l’empereur Sigismond (1416-1417). En 1417, Henri V conquit toute la Basse Normandie, Harfleur restait définitivement au pouvoir des Anglais. En 1425, la flotte d’Harfleur se rendit au siège du Mont Saint Michel.</p>
         </div>
-        <div>
+        <div xml:id="r476404">
           <pb source="https://nakala.fr/10.34847/nkl.b3071dp8#6fff025bf2b7a651b57a09e9cf6f6b49c454fb92" n="41" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/6fff025bf2b7a651b57a09e9cf6f6b49c454fb92/full/full/0/default.jpg"/>
           <head rend="uc">V
            <lb/>insurrection cauchoise et délivrance d’Harfleur,
@@ -128,7 +126,7 @@
           <p>La domination anglaise avait fini par devenir précaire. Un soulèvement des paysans cauchois rendit toute la Haute Normandie à Charles VII ; après une tentative infructueuse des <hi rend="i">« cent-quatre »</hi> paysans cauchois le 4 novembre, Harfleur revint à la couronne le 25 novembre.</p>
           <p>La domination française ne fut pas assez solidement établie pour être durable. La misère était grande. En 1438, l’insubordination d’une partie de la garnison faillit ouvrir les portes à Henri VI. Les préparatifs de l’ennemi s’intensifiaient.</p>
         </div>
-        <div>
+        <div xml:id="r476430">
           <head rend="uc">VI
            <lb/>campagne de 1440 et seconde occupation anglaise
            <lb/>(1440-1449)</head>
@@ -136,7 +134,7 @@
           <p>Beaucoup d’habitants s’exilèrent alors. La ville était ruinée par la guerre. Henri VI la releva, rappela ses sujets et leur donna une organisation communale. La trêve de 1444 ramena la paix.</p>
           <p>En décembre 1449, Charles VII mit le siège devant la ville qui se rendit le 1<hi rend="sup">er</hi> janvier 1450.</p>
         </div>
-        <div>
+        <div xml:id="r476454">
           <head rend="uc">VII
            <lb/>Harfleur depuis son retour à la couronne
            <lb/>jusqu’à 1517</head>
@@ -147,7 +145,7 @@
           <p>Charles VIII fit fortifier davantage la place, qui fut garnie d’artillerie. Des garnisons occupèrent le Chef-de-Caux, qui fut fortifié. Henri VII étant mal disposé à l’égard de la France, une série d’alertes inquiétèrent les Harfleurais, mais elles ne furent jamais sérieuses. Une épidémie de peste, qui éclata en 1494, fît des ravages à Harfleur.</p>
           <p>Depuis la fin de la guerre de Cent Ans, le rôle militaire d’Harfleur s’effaçait de plus en plus. Les fortifications furent cependant renforcées, surtout du côté de la porte de Leure. Une nouvelle menace des Anglais en 1513 obligea à augmenter les garnisons <pb source="https://nakala.fr/10.34847/nkl.b3071dp8#df5d061506ae736df79b3780fad0c6b04202c389" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/df5d061506ae736df79b3780fad0c6b04202c389/full/full/0/default.jpg"/>d’Harfleur et du Chef-de-Caux. La peste sévit de nouveau au début du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r476499">
           <head rend="uc">VIII
            <lb/>envasement du port
            <lb/>et fondation du Havre-de-Grace</head>
@@ -156,38 +154,38 @@
           <p>Harfleur avait été le type du port du Moyen Age, et ne put survivre. Il fallait aux besoins nouveaux de la marine et du commerce un bassin plus important. Le Hâvre-de-Grâce répondit aux exigences de la situation.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r476544">
         <pb source="https://nakala.fr/10.34847/nkl.b3071dp8#0b5a879b660134bd4c80bf847197995cd84905b9" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/0b5a879b660134bd4c80bf847197995cd84905b9/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Administration de la ville
          <lb/>et
          <lb/>institutions municipales</head>
-        <div>
+        <div xml:id="r476561">
           <head rend="uc">I
            <lb/>caractères et cadre géographique des institutions
            <lb/>d’Harfleur</head>
           <p>L’organisation municipale de la ville était assez simple. Elle s’administrait elle-même sous le contrôle du capitaine, agent royal. Harfleur était une sergenterie faisant partie de la vicomté de Montivilliers et du bailliage de Caux.</p>
         </div>
-        <div>
+        <div xml:id="r476575">
           <head rend="uc">II
            <lb/>le capitaine et son lieutenant</head>
           <p>Le capitaine était nommé par le roi et logé à l’Hôtel de Ville. Il recevait 300 livres par an. A partir de la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle, on voit un même capitaine à la tête d’Harfleur et de Montivilliers. Les principaux capitaines furent Etienne du Moustier, Morelet de Montmor, Sauvage de Gencourt, Lyonnel de Braquemont, Guillaume d’Estouteville ; an temps de la domination anglaise, le comte de Dorset, Guillaume Miners, le comte de Schrewsbury ; après 1450 le comte de Dunois, puis le seigneur de Sourdeval, le comte de Dammartin, Jean du Bellay, seigneur de la Flotte, Louis Regnart, seigneur de Sorans, Berault Stuart, seigneur d’Aubigny, et Louis de Brézé, comte de Maulevrier.</p>
           <pb source="https://nakala.fr/10.34847/nkl.b3071dp8#c035728e3e574935584a7ff4e05508133fc713f9" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/c035728e3e574935584a7ff4e05508133fc713f9/full/full/0/default.jpg"/>
           <p>Le capitaine était assisté d’un lieutenant, nommé par lui, qui le remplaça plus tard dans son rôle d’administrateur de la ville.</p>
         </div>
-        <div>
+        <div xml:id="r476601">
           <head rend="uc">III
            <lb/>les élus, l’assemblée, le procureur</head>
           <p>Le rouage principal du gouvernement était le conseil des élus. Ils étaient au nombre de quatre, rééligibles chaque année par l’assemblée. Ils recevaient dix livres par an. Ils étaient aidés par des agents subalternes, les quarteniers.</p>
           <p>L’assemblée des bourgeois de la ville se réunissait tous les ans à l’Hôtel de Ville pour élire les officiers municipaux et pour discuter les questions importantes.</p>
           <p>Le procureur représentait la ville aux assises de Montivilliers et assurait la liaison entre elle et le pouvoir central. Il y avait encore des sergents et des clercs.</p>
         </div>
-        <div>
+        <div xml:id="r476619">
           <head rend="uc">IV
            <lb/>organisation judiciaire</head>
           <p>Au point de vue judiciaire, Harfleur relevait du tribunal de Montivilliers, où se tenaient des assises régulières sous la présidence du bailli de Caux. On en appelait de ses décisions à l’Echiquier et au Parlement de Paris. Les procès ayant trait aux aides et aux autres impôts étaient portés devant la Cour des Aides de Rouen.</p>
         </div>
-        <div>
+        <div xml:id="r476631">
           <head rend="uc">VI
            <lb/>organisation financière</head>
           <p>Au point de vue financier, Harfleur faisait partie de l’élection de Montivilliers.</p>
@@ -195,29 +193,29 @@
           <p>En dehors des impôts royaux, allégés d’ailleurs par Charles VII, plusieurs redevances municipales pesaient sur la ville. La principale était le quatrième des vins. Le revenu était affecté à l’entretien des fortifications.</p>
           <p>La perception des impôts était assurée par un receveur ; un « receveur des deniers octroyés pour les fortifications » centralisait les sommes que les octrois royaux affectaient à l’entretien des remparts. Il était aidé par un contrôleur.</p>
         </div>
-        <div>
+        <div xml:id="r476654">
           <head rend="uc">VII
            <lb/>agents subalternes et tabellionage</head>
           <p>L’Assemblée élisait encore une série d’agents subalternes : courtiers et crieurs de vin.</p>
           <p>La présence d’un tabellion à Harfleur est mentionnée à partir de 1384.</p>
         </div>
-        <div>
+        <div xml:id="r476669">
           <head rend="uc">VIII
            <lb/>fermes</head>
           <p>La plupart des offices et des revenus étaient affermés. Le rapport des fermes fut sujet à des fluctuations, surtout à la fin du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r476687">
           <head rend="uc">IX
            <lb/>organisation religieuse</head>
           <p>Au point de vue religieux, Harfleur était soumise à l’obédience de l’abbesse de Montiviliiers, qui, en vertu du privilège de l’exemption de l’Ordinaire, nommait les curés sous réserve de l’approbation archiépiscopale de Rouen.</p>
         </div>
-        <div>
+        <div xml:id="r476699">
           <pb source="https://nakala.fr/10.34847/nkl.b3071dp8#430d5e06b3b520b482ecb727d89ce34a9722e4e1" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3071dp8/430d5e06b3b520b482ecb727d89ce34a9722e4e1/full/full/0/default.jpg"/>
           <head rend="uc">X
            <lb/>grenier à sel</head>
           <p>Le grenier à sel d’Harfleur est cité pour la première fois en 1366. Il fut toujours prospère, grâce aux salaisons de poisson, qui furent une des principales industries de la région.</p>
         </div>
-        <div>
+        <div xml:id="r476716">
           <head rend="uc">XI
            <lb/>coutumes et prévoté</head>
           <p>Les rôles d’Oléron régissaient l’activité économique de la ville. Les coutumes des prévôtés de Leure et d’Harfleur furent publiées en 1387. Elles dénotent une grande activité commerciale.</p>

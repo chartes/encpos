@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1991_24" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1991_24" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,20 +56,20 @@
         <surname>Sibille</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1207522">
         <head rend="uc">Introduction</head>
         <p>Patriarche, primat d’Aquitaine et métropolitain, l’archevêque de Bourges, à la fin du <num>xv<hi rend="sup">e</hi></num> siècle, était à la tête du plus grand diocèse du royaume. Suzerain et seigneur foncier, il disposait des pouvoirs féodaux et judiciaires à Saint-Palais, Quantilly, Cornusse et Naves. A l’intérieur de son diocèse, le prélat devait cependant compter avec le chapitre de la cathédrale Saint-Étienne, qui, depuis la fin du XIV’ siècle, dépendait directement du Saint-Siège. Par le nombre de ses membres, le chapitre était le plus important du diocèse. Propriétaire de biens divers dans cent vingt-quatre paroisses, il jouissait de revenus considérables. Soixante-huit vicaires lui étaient subordonnés.</p>
         <p>En principe, la Pragmatique Sanction avait rendu aux chapitres le droit d’élire leurs évêques. Or, entre 1482 et 1525, le choix des archevêques de Bourges passa progressivement entre les mains du roi. Cette période de moins de quarante ans est non seulement marquée par de difficiles élections épiscopales mais aussi par des conflits de juridiction entre l’archevêque et son chapitre.</p>
         <p>Au cours de la période étudiée, six archevêques, cent soixante-deux chanoines et cent quatre-vingt-sept vicaires ont été recensés. Il s’agit en premier lieu d’analyser l’organisation du clergé de la cathédrale, de voir quels étaient ses privilèges et les conflits de juridiction qui pouvaient en résulter. Il est ensuite nécessaire d’expliquer qui étaient les chanoines et les vicaires, et d’étudier leur mode de vie à Bourges. La <pb source="https://nakala.fr/10.34847/nkl.15f7ppa4#fd7868d9dbf0517adb42d92d8d11fc0ec86d6d55" n="206" facs="https://api.nakala.fr/iiif/10.34847/nkl.15f7ppa4/fd7868d9dbf0517adb42d92d8d11fc0ec86d6d55/full/full/0/default.jpg"/> dernière partie est consacrée aux archevêques : comment devenait-on archevêque ? Quel rôle ces prélats jouèrent-ils dans leur diocèse ?</p>
       </div>
-      <div>
+      <div xml:id="r1207549">
         <head rend="uc">Sources</head>
         <p>Les sources consultées proviennent essentiellement des archives du chapitre Saint-Étienne et de l’archevêché. Aujourd’hui, elles se trouvent en grande partie aux Archives départementales du Cher. Ont été également consultés les documents pontificaux (trente-deux registres de suppliques pour les années 1484-1523, conservés à l’Archivio Segreto Vaticano) et les sources qui ne sont issues ni de l’archevêché ni du chapitre, mais où les archevêques et les chanoines de Bourges figurent en tant que tels (minutes de notaires de Bourges).</p>
       </div>
-      <div>
+      <div xml:id="r1207559">
         <head rend="uc">Première partie
          <lb/>Institutions</head>
-        <div>
+        <div xml:id="r1207567">
           <head rend="uc">Chapitre premier
            <lb/>le clergé de la cathédrale : organisation du chapitre
            <lb/>et de la communauté des vicaires</head>
@@ -82,13 +80,13 @@
           <p>Les officiers du chapitre, les coûtres, gardaient le trésor et les reliques de la cathédrale et préparaient le pain, le vin, l’eau et les vêtements sacerdotaux pour les messes.</p>
           <p>Les prévôts, clercs (élus parmi les chanoines) et laïcs, étaient chargés d’administrer le domaine du chapitre. Ils étaient assistés de greffiers, de bâtonniers et de notaires.</p>
         </div>
-        <div>
+        <div xml:id="r1207604">
           <head rend="uc">Chapitre II
            <lb/>La juridiction du chapitre dans son cloître</head>
           <p>Dans son cloître, véritable enceinte urbaine qui renfermait plusieurs rues, le chapitre avait droit de justice sur ses membres, sur ses serviteurs, sur les vicaires et les prêtres habitués. De plus, depuis la fin du XIV’ siècle, il était totalement exempté de la juridiction archiépiscopale et de toute puissance laïque et il relevait directement du Saint-Siège.</p>
           <p>Jaloux de leurs immunités, les chanoines, au cours de la période étudiée, s’employèrent à faire respecter leurs privilèges d’exemption, face aux officiers royaux ou archiépiscopaux. Les vicaires tentèrent également de se soustraire à cette juridiction.</p>
         </div>
-        <div>
+        <div xml:id="r1207619">
           <head rend="uc">Chapitre III
            <lb/>Droits du chapitre en cas de vacance du siège
            <lb/>administration du temporel de l’archevêché</head>
@@ -96,35 +94,35 @@
           <p>Le bailli du temporel était chargé de la justice temporelle sur l’ensemble des domaines de l’archevêché. Les officiaux ordinaires et primatiaux étaient toujours choisis parmi les chanoines. Ils étaient assistés d’auditeurs, d’un greffier, d’un scelleur et de deux promoteurs de justice. Quant aux vicaires généraux, ils étaient nommés pour faire respecter la discipline religieuse par le clergé et par les fidèles du diocèse.</p>
           <p>Dispersés dans les actuels départements du Cher, de l’Allier et de l’Indre, les biens de l’archevêché devaient être gérés par une administration nombreuse, aux rouages complexes. Le chapitre recrutait des gestionnaires parmi les chanoines qui avaient déjà exercé les fonctions de prévôts-clercs dans le cadre de l’administration des biens du chapitre.</p>
         </div>
-        <div>
+        <div xml:id="r1207639">
           <pb source="https://nakala.fr/10.34847/nkl.15f7ppa4#d5a46e086ef37bdb13b80e206801b92ad16f5efe" n="208" facs="https://api.nakala.fr/iiif/10.34847/nkl.15f7ppa4/d5a46e086ef37bdb13b80e206801b92ad16f5efe/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Droits du chapitre et de l’archevêque dans la cathédrale</head>
           <p>L’archevêque de Bourges n’était pas totalement libre d’officier à son gré dans la cathédrale. Il lui arriva parfois d’en être empêché par les chanoines, qui étaient chargés d’organiser la prière dans l’église, selon le rythme des heures canoniales. Il devait aussi participer financièrement à l’entretien des enfants de chœur, fournir de l’encens, du vin pour la communion, de la cire pour les cierges. Les archevêques firent également de nombreux dons aux chanoines pour financer la reconstruction de la tour et des deux portails nord de la cathédrale, de 1506 à 1543.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1207657">
         <head rend="uc">Deuxième partie
          <lb/>Le clergé de la cathédrale</head>
-        <div>
+        <div xml:id="r1207665">
           <head rend="uc">Chapitre premier
            <lb/>comment on devient chanoine ou vicaire de la cathédrale de Bourges</head>
           <p>En principe, le chapitre de Bourges conférait la plupart des prébendes. Or, entre 1482 et 1525, les intérêts privés intervinrent presque toujours dans les successions de prébendes, qui se traduisirent par des marchandages entre le chapitre, les archevêques, les rois de France et les papes. L’archevêque avait en effet le droit de conférer les prébendes vacantes plus de six mois et certains personnats. Le roi intervenait en faveur de ses protégés. Quant au pape, il conférait certaines prébendes en vertu de son droit de réserve.</p>
           <p>La plupart des vicairies étaient à la collation du chapitre, mais quelques-unes étaient conférées par l’archevêque, le doyen ou le grand archidiacre. En général, il y avait peu de successions litigieuses de vicairies.</p>
         </div>
-        <div>
+        <div xml:id="r1207680">
           <pb source="https://nakala.fr/10.34847/nkl.15f7ppa4#0591ab4022f34fbd8ec2969c140f07b6c0396982" n="209" facs="https://api.nakala.fr/iiif/10.34847/nkl.15f7ppa4/0591ab4022f34fbd8ec2969c140f07b6c0396982/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Qui sont les chanoines de Bourges</head>
           <p>Le recrutement du chapitre était essentiellement régional. Il comprenait des clercs issus de familles nobles ou de la grande bourgeoisie berruyère qui s’étaient enrichies au service du duc Jean de Berry et des rois de France, des universitaires (plus de la moitié, des juristes, essentiellement), qui compensaient leur défaut de naissance par une vie active dans l’administration royale ou ecclésiastique, ou d’anciens vicaires de la cathédrale, issus de milieux sociaux plus modestes, et qui avaient reçu une formation musicale et liturgique. Les chanoines avaient entre dix-huit et cinquante-cinq ans. Les familles qui eurent plusieurs représentants au chapitre entretenaient avec lui des relations plus étroites.</p>
         </div>
-        <div>
+        <div xml:id="r1207697">
           <head rend="uc">Chapitre III
            <lb/>Ce que font les chanoines a Bourges</head>
           <p>Les douze chanoines de résidence, qui étaient astreints à une présence continue, et les capitulants (une dizaine) qui demeuraient à Bourges de manière habituelle constituaient le noyau de la communauté, qu’ils faisaient vivre. Les autres, occupés par leurs fonctions au service du roi ou de l’Église, séjournaient moins en Berry.</p>
           <p>Avec l’aide des vicaires, les chanoines exploitaient directement une partie de leur temporel, selon le système des granges, mais ils en baillaient une autre partie à ferme, à des laïcs. Conscients d’appartenir à une élite, ces clercs vivaient confortablement dans leurs maisons canoniales. Amateurs de beaux livres, certains se constituèrent de riches bibliothèques, tandis que d’autres, soucieux d’assurer leur salut, firent édifier des chapelles en la cathédrale.</p>
         </div>
-        <div>
+        <div xml:id="r1207712">
           <head rend="uc">Chapitre IV
            <lb/>Pourquoi quitte-t-on le chapitre de Bourges ?</head>
           <p>La plupart des chanoines gardèrent leur prébendes pendant plus de quarante ans et moururent en fonctions. Mais, pour quelques clercs plus favorisés par la naissance, un canonicat à Bourges n’était qu’une étape obligatoire avant la consécration épiscopale ou l’obtention d’une dignité.</p>
@@ -132,33 +130,33 @@
           <p>La multiplication des fondations pieuses en la cathédrale impliquait celle des desservants. C’est ainsi que s’accentua la coupure entre un haut clergé, constitué par les chanoines, et un bas clergé de vicaires et de prêtres habitués, entièrement recruté et pensionné par le premier.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1207736">
         <head rend="uc">Troisième partie
          <lb/>Les archevêques de Bourges</head>
-        <div>
+        <div xml:id="r1207744">
           <head rend="uc">Chapitre premier
            <lb/>comment on devient archevêque de Bourges</head>
           <p>Entre 1482 et 1525, le choix des archevêques de Bourges passa progressivement aux mains des rois de France. Seuls deux prélats, Guillaume de Cambray (1492-1505) et François de Bueil (1520-1525), furent élus par le chapitre cathédral. En 1482, les chanoines furent contraints d’accepter pour archevêque Pierre Cadouet, créature de Louis XL Louis XII leur imposa également ses candidats, Michel de Bucy (1506-1512), André Forman (1513-1514) et Antoine Bohier (1514-1519). Après 1537, il n’y eut plus d’élection archiépiscopale à Bourges.</p>
         </div>
-        <div>
+        <div xml:id="r1207756">
           <head rend="uc">Chapitre II
            <lb/>Qui sont les archevêques de Bourges</head>
           <p>Ces hommes choisis par les rois étaient très différents. On a pu dénombrer trois Berrichons, un Auvergnat, un Parisien et un Écossais. Certains étaient nobles, d’autres venaient de la bourgeoisie commerçante ou appartenaient à des familles d’administrateurs royaux. On connaît à certains archevêques des liens de parenté avec de hauts dignitaires ecclésiastiques ou même avec des chanoines de la cathédrale. D’autres encore, issus de milieux plus modestes, s’étaient élevés par leurs études universitaires ou en entrant dans l’administration royale. A cette grande diversité d’origines vient s’ajouter celle des âges des archevêques. Mais en général, ils avaient atteint ou dépassé la cinquantaine, à leur avènement.</p>
         </div>
-        <div>
+        <div xml:id="r1207768">
           <pb source="https://nakala.fr/10.34847/nkl.15f7ppa4#e7aee3f328af09e7c24fd96a7e8ba5466b2adfdb" n="211" facs="https://api.nakala.fr/iiif/10.34847/nkl.15f7ppa4/e7aee3f328af09e7c24fd96a7e8ba5466b2adfdb/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Ce que font les archevêques a Bourges</head>
           <p>Bien qu’ils fussent pour la plupart choisis par les rois, les archevêques de Bourges se soucièrent de leurs tâches pastorales. Certains encouragèrent la réforme des ordres religieux dans leur diocèse, promulguèrent des statuts synodaux ou entretinrent leur temporel. Mais leurs efforts rencontrèrent beaucoup d’obstacles : l’étendue du diocèse, les abbayes et collégiales exemptes qui essayaient de se soustraire à leur juridiction, et le chapitre cathédral, qui ne voulut jamais renoncer à traiter d’égal à égal avec les archevêques, et qui avait pour lui la permanence et le nombre.</p>
         </div>
-        <div>
+        <div xml:id="r1207785">
           <head rend="uc">Chapitre IV
            <lb/>L’archevêché de Bourges, étape vers de plus grands honneurs
            <lb/>ou couronnement d’une carrière ecclésiastique</head>
           <p>La plupart des archevêques de Bourges étaient originaires de ce diocèse et y avaient passé toute leur vie. Pour eux, le siège archiépiscopal était le couronnement de leur carrière ecclésiastique. Comme il était difficile d’obtenir l’archevêché de Bourges et que seules la mort, une sentence judiciaire ou une obligation canonique en entraînaient la perte, cinq archevêques moururent en fonctions, parvenus au faîte de leur carrière ecclésiastique. Seul l’Écossais André Forman fut transféré par le Saint-Siège dans un autre diocèse, celui de Saint-André.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1207800">
         <head rend="uc">Conclusion</head>
         <p>Le recensement des membres du chapitre de Bourges entre 1485 et 1525 a conduit à étudier de plus près les moyens qui permettaient à certains clercs d’entrer dans cette communauté. Au début du XVI’ siècle, un canonicat de chapitre cathédral était une étape obligatoire avant d’obtenir de plus grands honneurs (épiscopat, cardinalat). Bien que le chapitre fût le principal collateur des prébendes, plusieurs nominations de chanoines donnèrent lieu à des contestations, du fait de l’intervention des archevêques, des papes et des rois de France.</p>
         <p>Le recrutement était essentiellement régional. Certains chanoines provenaient de grandes familles commerçantes, passées du négoce à l’administration des finances royales puis aux autres charges du gouvernement. La grande majorité étaient des universitaires (surtout des juristes). Les occupations des chanoines, comme leurs origines, étaient très variées.</p>
@@ -166,15 +164,15 @@
         <p>Entre 1482 et 1525, le chapitre entra plus d’une fois en conflit avec le roi à propos du choix des archevêques et perdit peu à peu tout pouvoir électif. Ces prélats avaient des origines géographiques et sociales très différentes. La plupart étaient des universitaires. Certains se montrèrent soucieux de leur tâche pastorale et résidèrent fréquemment dans le diocèse.</p>
         <p>Dans l’ensemble, les rapports entre l’archevêque et le chapitre cathédral étaient assez tendus et, à plusieurs reprises, les chanoines intentèrent au prélat des procès, à propos de conflits de juridiction, d’élections archiépiscopales, à propos également de la contribution financière pour la reconstruction de la tour nord. Dans de telles conditions, une coexistence pacifique était encore la situation la plus souhaitable.</p>
       </div>
-      <div>
+      <div xml:id="r1207824">
         <head rend="uc">Notices biographiques</head>
         <p>Les notices concernent les cent soixante-deux chanoines mentionnés dans les registres des délibérations du chapitre et les cent quatre-vingt sept vicaires cités dans les mêmes registres et dans les archives notariées.</p>
       </div>
-      <div>
+      <div xml:id="r1207834">
         <head rend="uc">Pièces justificatives</head>
         <p>Testaments des archevêques Pierre Cadouet (1492), Guillaume de Cambray (1505), François de Bueil (1525) et du doyen Jean de Villiers (1524). – Accord entre le chapitre cathédral et Hervé Cadouet (1493).</p>
       </div>
-      <div>
+      <div xml:id="r1207844">
         <head rend="uc">Annexes</head>
         <p>Cartes et plans. – Douze tableaux généalogiques. – Listes chronologiques des dignitaires du chapitre, des chanoines prébendés et semi-prébendés, et des vicaires. – Illustrations (vitraux, vestiges archéologiques, maisons canoniales...).</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,7 +59,7 @@
         <head rend="uc">Introduction bibliographique</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r500673">
         <head rend="uc">Chapitre premier
          <lb/>la vie</head>
         <p>Nous ne savons rien des origines de Robert de Courson, sauf sa nationalité anglaise. Il étudia probablement les arts et le droit romain, et fut en relations avec les écoles de médecine de Salerne. Sans aucun doute il étudia le droit canonique, puis avec Pierre le Chantre, vers 1195, la théologie. C’est alors qu’il connut Foulques de Neuilly et prit part à sa prédication. Chanoine de Noyon en 1204 au plus tard, profitant des exceptions apportées en faveur des écoliers et des maîtres aux règlements qui tendaient vers la fin du XII<hi rend="sup">e </hi>siècle à restaurer la discipline intérieure des chapitres, Courson ne réside pas et, maître en théologie, enseigne à Paris. Vers 1208, il échange son canonicat de Noyon contre un bénéfice parisien. Outre l’enseignement, l’office de juge délégué, très fréquemment confié à Courson, absorbe son activité.</p>
@@ -70,15 +68,15 @@
         <p>Courson semble avoir atteint le but de sa légation : outre les décisions prises à titre de légat, outre sa prédication, d’un caractère sans doute populaire, Courson réunit des conciles qui reflètent assez bien sa pensée, et qui préparent exactement le <num>iv<hi rend="sup">e</hi></num> concile de Latran. Enfin, son réglement des Ecoles, d’août 1215, est d’un intérêt capital ; il continue la politique scolaire de la papauté et donne un réglement intérieur aux Ecoles qui, jusque là, n’avaient que de très vagues statuts (par exemple, un nombre limité de chaires de théologie). Mais ce réglement soulève une grave question ; la proscription de l’enseignement, à Paris, de la Métaphysique d’Aristote. Pourquoi proscrit-on cet enseignement, alors que les ouvrages théologiques du temps citent à peine la Métaphysique ? – M. Birkenmajer a démontré que si la Métaphysique est alors peu connue des théologiens, par contre, elle est très fréquemment citée dans les œuvres issues des facultés d’arts ou de médecine, spécialement de Salerne. Nous confirmons cette opinion en notant 1° que Courson, qui rendit le décret de 1215, est un ancien élève des Arts et un ami des médecins de Salerne ; 2° que la proscription de l’enseignement de la Métaphysique d’Aristote se trouve, dans le décret de 1215, parmi les règlements relatifs aux artistes. Le but de ce règlement est de supprimer l’influence de la Métaphysique sur des œuvres qui, venant cependant de la faculté des arts ou de médecine, ont des tendances nettement philosophiques.</p>
         <p>Après le concile de Latran, Innocent III, et davantage encore Honorius III, édifiés sur la diplomatie maladroite du légat, le tiennent à l’écart. On consent à lui confier un rôle honorifique dans la croisade de 1218 ; parti en août 1218 pour Damiette, Robert de Courson y meurt le 6 février 1219.</p>
       </div>
-      <div>
+      <div xml:id="r500726">
         <pb source="https://nakala.fr/10.34847/nkl.d86dyape#ddee2f1a6b5a3c929976bbb27ed261e35e1f4c02" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.d86dyape/ddee2f1a6b5a3c929976bbb27ed261e35e1f4c02/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre II
          <lb/>L’œuvre</head>
-        <div>
+        <div xml:id="r500739">
           <head rend="uc">1. <hi rend="i">Ouvrages perdus</hi>.</head>
           <p>Plusieurs ouvrages de Courson sont malheureusement perdus : nous n’avons pu retrouver un <hi rend="i">De salva</hi><hi rend="i">tione Origenis</hi> et des <hi rend="i">Lecture solemnes</hi> que lui attribuent les anciens auteurs. D’anciens catalogues de manuscrits attribuent également à Courson un <hi rend="i">Commentaire sur les Sentences</hi> et des <hi rend="i">Distinctiones,</hi> perdus tous deux.</p>
         </div>
-        <div>
+        <div xml:id="r500772">
           <head rend="uc">2. <hi rend="i">Ouvrages conservés</hi>.</head>
           <p>Il nous reste de Courson un prologue très bref à une œuvre attribuée parfois à Jean de Salisbury, le <hi rend="i">De Septenis</hi>. Ce prologue, œuvre de jeunesse sans doute, montre que Courson a fréquenté la faculté des arts.</p>
           <p>La <hi rend="i">Summa</hi> est au contraire un ouvrage très important et d’un caractère tout théologique.</p>
@@ -98,7 +96,7 @@
          <lb/>(ecdotique)</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r500962">
         <head rend="uc">Pieces justificatives</head>
         <p>N° I : Pièces d’un procès entre l’abbaye de Corbie et le monastère de Lihons (soumis à l’arbitrage de Robert de Courson et d’Etienne Langton).</p>
         <p>N° II : Itinéraire de Robert de Courson pendant sa légation.</p>

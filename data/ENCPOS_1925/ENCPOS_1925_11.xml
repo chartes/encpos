@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,9 +55,9 @@
         <forename>Jeanne</forename>
         <surname>Odier</surname>
       </byline>
-      <div>
+      <div xml:id="r442566">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r442572">
           <head rend="uc">Biographie</head>
           <p>La découverte du manuscrit du Vatican Rossiano n° 753, qui contient le <hi rend="i">Liber Ostensor</hi> de Jean de Roquetaillade, a renouvelé l’étude de sa biographie.</p>
           <p>Il est né à Marcolès, près d’Aurillac (on réfute les légendes qui s’étaient formées sur son lieu de naissance avant qu’on le connût avec certitude). Pourquoi s’appelle-t-il Jean <hi rend="i">de Roquetaillade ?</hi> Ce doit être un nom de famille, mais il n’y a aucun document qui permette de le rattacher à la grande famille des Roquetaillade du Rouergue ni à celle des Beaumont-Pierretaillade de la vicomté de Turenne. En attendant que ce problème soit résolu, il faut accepter l’hypothèse, étayée par la tradition, d’une famille Roquetaillade établie dans le pays depuis une époque indéterminée et qui n’aurait pas laissé de traces.</p>
@@ -68,10 +66,10 @@
           <p>Depuis la fin de 1356, on ne sait pas ce que Jean de Roquetaillade est devenu. Les récits de Fodéré et de Durif sur les dernières années de sa vie sont fort sujets à caution. Jean le Bel et Froissart disent qu’il était vers 1360 enfermé au château de Bagnols. Sur sa mort, on ne sait rien de précis. Les légendes suivant lesquelles il aurait été brûlé ou enterré à Villefranche n’ont point de fondement. Froissart dit que les cardinaux « le laissèrent vivre tant que il peut durer ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r442633">
         <head rend="uc">Seconde partie
          <lb/>Œuvres</head>
-        <div>
+        <div xml:id="r442641">
           <head rend="uc">I. <hi rend="i">Commentarium in oraculum</hi>
            <lb/><hi rend="i">beati cybilli</hi></head>
           <p>Cet ouvrage, le premier en date de ceux qui sont conservés, est extrêmement volumineux. On le trouve dans le manuscrit latin n° 2599 de la Bibliothèque nationale. Il fut écrit de 1346 à 1350. L’Oracle de saint Cyrille, d’après les travaux récents, dut être composé vers 1287 dans un milieu joachimite spirituel ; très obscur, il concerne surtout les combats des Angevins et des Aragonais, et prédit au clergé dégénéré un prochain jugement. Il possède une clef : un commentaire attribué à Joachim, apocryphe naturellement, fort obscur aussi.</p>
@@ -88,7 +86,7 @@
           <p>La date des événements annoncés est calculée avec certitude. L’Antéchrist, d’après des calculs fondés sur Daniel, doit apparaître en 1365. Le préAntéchrist, Louis de Bavière, doit régner jusqu’en 1350, ses fils jusqu’en 1365 ou 1420. La cour romaine doit fuir d’Avignon entre 1360 et 1362.</p>
           <p>L’analyse de l’ouvrage est suivie d’un sommaire destiné à faire connaître l’ordre matériel qu’a suivi l’auteur et le contenu, très résumé, de chaque traité.</p>
         </div>
-        <div>
+        <div xml:id="r442737">
           <head rend="uc">II. <hi rend="i">Visiones</hi></head>
           <p>Cet ouvrage est contenu, complet, dans quatre manuscrits. Il y en a une traduction catalane. Terminé le 11 novembre 1349, il fut écrit dans la prison du Soudan et adressé au cardinal Guillaume Curti.</p>
           <p>De très peu postérieur au commentaire de saint Cyrille, il ne contient presque rien qui n’y ait déjà été dit. Mais il est plus court, plus clair, plus ordonné. Il est divisé en <pb source="https://nakala.fr/10.34847/nkl.3a0eb58g#0c8cb460acfc448f0d2b3e21056fe420fabaa254" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a0eb58g/0c8cb460acfc448f0d2b3e21056fe420fabaa254/full/full/0/default.jpg"/> 30 <hi rend="i">intellectus.</hi> On y retrouve le même intérêt pour les guerres des pays méditerranéens, les mêmes théories sur l’Antéchrist Louis de Sicile, qui eut pour précurseurs Frédéric II, Louis de Bavière, et qui sera suivi de deux autres Antéchrists encore. La date de 1366, à laquelle l’Antéchrist doit apparaître, sera précédée de désastres terribles (dont quelques-uns, comme la grande peste de 1348 ont déjà eu lieu), en même temps que des horreurs du schisme et de la persécution des religieux. L’ordre des frères mineurs sera divisé en trois parties dont l’une sera composée de relâchés, l’autre de spirituels ; la troisième seule sera orthodoxe. La cause de ces divisions doit être cherchée dans l’attitude des frères prêcheurs qui se plaisent à semer la discorde.</p>
@@ -97,7 +95,7 @@
           <p>Les destinées du monde après la mort de l’Antéchrist sont semblables à celles qu’annonce la littérature eschatologique des Pères. Jean de Roquetaillade, cependant, fait de légères critiques à saint Augustin et à Joachim de Flore, et exalte le rôle des frères mineurs.</p>
           <p>A la suite des <hi rend="i">Visiones</hi> se trouve une prophétie sur les fils du roi d’Aragon qui, de son temps, eut une certaine vogue.</p>
         </div>
-        <div>
+        <div xml:id="r442778">
           <pb source="https://nakala.fr/10.34847/nkl.3a0eb58g#162442cc65f28d8511aad217116ed2ed86f1ed63" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a0eb58g/162442cc65f28d8511aad217116ed2ed86f1ed63/full/full/0/default.jpg"/>
           <head rend="uc">III. Commentaire de la prophétie
            <lb/><hi rend="i">veh mundo in centum annis...</hi> Ou le
@@ -105,45 +103,45 @@
           <p>Cet ouvrage n’est signalé par aucun des historiens de Jean de Roquetaillade. Il n’est connu que par le manuscrit de la bibliothèque de Tours n° 520. Le style, les idées, et surtout une mention que Jean de Roquetaillade en fait dans le <hi rend="i">Liber Ostensor,</hi> ne nous permettent pas de douter qu’il soit de lui. Il fut composé, suivant l’auteur lui-même, en 1354.</p>
           <p>La prophétie commentée est extraite d’un traité d’Arnaud de Villeneuve, le <hi rend="i">De cymbalis ecclesie,</hi> écrit en 1301. Elle annonce au monde douze calamités. La première doit atteindre la Syrie, la seconde la Grèce, la troisième la Sicile (commentaire de Jean de Roquetaillade sur les luttes des royaumes d’Aragon, Naples, Sicile ; les Français doivent être massacrés par l’Antéchrist Louis de Sicile) ; la quatrième l’Eglise romaine (les signes de la ruine sont la « rupture du pont » et la « noyade de l’âne » ; Jean de Roquetaillade rappelle, à ce sujet, ses souvenirs personnels) ; la cinquième l’Italie, la sixième le centre de l’Europe, la septième et la huitième le royaume de Naples (Jean de Roquetaillade discute la responsabilité de l’assassinat du roi André de Hongrie, et conclut à l’innocence de la reine Jeanne) la neuvième est dirigée contre les docteurs de Paris (en particulier Guillaume de Saint-Amour, Jean de Pouilly, <hi rend="i">Henricus de Alla Curia,</hi> condamnés par la sainte Eglise romaine) ; la dixième s’abattra sur la Grande-Bretagne, la onzième sur l’Espagne (d’après Jean de Roquetaillade, les malheurs commenceront quand le jeune roi de Castille, dom Pedre [le Cruel], aura atteint ses vingt et un ans. Il est déjà vicieux, né d’une race corrompue. Un roi sauveur, mystiquement appelé « la chauvesouris » exterminera les Mahométans dont l’Espagne est <pb source="https://nakala.fr/10.34847/nkl.3a0eb58g#71ced38ab3457eff1baa3b7fa1d1cb3d18f02bde" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a0eb58g/71ced38ab3457eff1baa3b7fa1d1cb3d18f02bde/full/full/0/default.jpg"/>infestée). Enfin, le douzième fléau est l’Antéchrist. L’oracle a commencé de s’accomplir en 1288 parla prise de Tripoli et de Saint-Jean d’Acre. Il n’y a plus que trente-quatre années jusqu’à ce que s’accomplissent les calamités prédites, à la suite desquelles apparaîtra un saint Pape, réformateur du siècle, de la pauvreté évangélique et de la vie apostolique.</p>
         </div>
-        <div>
+        <div xml:id="r442822">
           <head rend="uc">IV. <hi rend="i">Liber Ostensor</hi></head>
           <p>Ce livre est certainement le plus intéressant de Jean de Roquetaillade. Il n’en existe qu’un manuscrit récemment entré au Vatican (Fonds Rossiano n° 753). Ecrit dans la prison du Soudan, cet ouvrage fut terminé le 1<hi rend="sup">er</hi> septembre 1356. Jean de Roquetaillade l’adressa à Elie Talleyrand de Périgord, cardinal-protecteur de l’ordre des frères mineurs.</p>
           <p>La composition du livre n’est pas très nette. Il semble que l’intention de l’auteur ait été de le diviser en douze traités, précédés d’un prologue et d’un argument. Il contient des renseignements historiques abondants sur les événements contemporains, et surtout sur les royaumes de Naples, Castille, et France. Jean de Roquetaillade y raconte ses nombreuses visions, et y commente une quantité de textes prophétiques.</p>
           <p>Jean de Roquetaillade prend parti dans le grand conflit de la pauvreté évangélique. Il en fait un panégyrique enthousiaste. Cependant il réprouve les sectes schismatiques d’Angelo de Clareno, d’Ubertin de Casale, de Pierre Olivi, de Michel de Césène : avant tout, il faut obéir au Pape et au ministre de l’Ordre. Difficulté de concilier l’idéal de la pauvreté évangélique et l’obéissance qu’on doit aux décrétales des Papes. Jean de Roquetaillade rejette toute la responsabilité du différend sur les frères prêcheurs inquisiteurs. Il s’acharne à démontrer que les Papes n’ont jamais été contraires à la <pb source="https://nakala.fr/10.34847/nkl.3a0eb58g#1b5e8f3af068d739262fed4a44722b6d31a18a9c" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a0eb58g/1b5e8f3af068d739262fed4a44722b6d31a18a9c/full/full/0/default.jpg"/>règle de saint François et que tout le mal provient de l’interprétation fallacieuse que les Dominicains ont donnée des décrétales. Concordance des décrétales <hi rend="i">Exiit </hi>(Nicolas III, 1279) et <hi rend="i">Cum inter nonnullos</hi> (Jean XXII, 1323), attitude favorable de Jean XXII (témoignage de Bonagrazia da Bergamo), de Benoît XII, de Clément VI (il confesse publiquement sa foi en l’orthodoxie de la bulle), d’Innocent VI (sentences données en laveur de la pauvreté le 12 juillet 1355, lors du procès de Marino, de la marche d’Ancône, et le 7 juillet 1356 lors du procès intenté par « Stephanus de Ecclesia », procurateur de l’ordre des frères prêcheurs, à Bernard du Puy, frère mineur, maître en théologie).</p>
           <p>Pour Jean de Roquetaillade, les frères mineurs qui ont été brûlés le 3 juin 1354, s’ils sont morts pour leur idéal de pauvreté, sont des martyrs.</p>
         </div>
-        <div>
+        <div xml:id="r442861">
           <head rend="uc">V. Le <hi rend="i">vade mecum in tribulatione</hi></head>
           <p>Cet ouvrage, le plus connu de Jean de Roquetaillade, est conservé dans une vingtaine de manuscrits. Il a été traduit en anglais, en allemand, en catalan, édité au <num>xvii<hi rend="sup">e</hi></num> siècle. Adressé à Pierre Périer, frère mineur, maître en médecine, qui avait demandé à l’auteur quelques prophéties, il fut écrit à la fin de 1356.</p>
           <p>11 débute par une lettre où l’auteur se défend d’être un grand prophète, mais déclare savoir interpréter les textes prophétiques, se vante d’avoir fait des prédictions orales et écrites qui se sont exactement réalisées, surtout au sujet de la capture du roi Jean à Poitiers ; enfin il déclare que son livre est fortutile, parce qu’il prévient le clergé des malheurs qui l’attendent, et le poussent à une prompte repentance. On trouve dans cet opuscule, divisé en vingt « intentions », des prédictions relatives aux catastrophes qui fondront sur le monde de 1360 à 1365 : invasion de vers, tempêtes, famines, épidémies, abcès, ulcères – des<pb source="https://nakala.fr/10.34847/nkl.3a0eb58g#a3f132d7cdc53dbe1097b27f82f5af30c374f200" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a0eb58g/a3f132d7cdc53dbe1097b27f82f5af30c374f200/full/full/0/default.jpg"/>traction des villes (Aurillac en particulier) – déchaînement de la justice populaire – règne de la traîtrise – avènement de deux Antéchrists, l’un en Orient, l’autre en Occident, celui-ci en 1365. Le clergé régulier aura beaucoup à souffrir, les tribulations qu’il subira sont le juste châtiment de ceux qui ont transgressé la règle ; elles seront suivies de la réforme des ordres. Pendant ce temps, le clergé séculier sera dépouillé de ses richesses, et les cardinaux fuiront d’Avignon (1362). Il y a sept remèdes à ces malheurs ; le second en est donné par Ézéchiel, VII, 16 : que ceux qui sont en Juda fuient dans les montagnes, et, ajoute Roquetaillade, comme la tribulation doit durer cinq ans, de 1360 à 1365, qu’ils fassent des provisions dans les cavernes : de fèves, de légumes, de mil, de viandes sèches... Pour sauver le monde, Dieu enverra deux prophètes, des Cordeliers, et, en 1367, un grand Réformateur qui aidera le roi de France, élu à l’Empire romain, qui refusera de porter la couronne d’or en souvenir de la couronne d’épines de Jésus-Christ. Ils détruiront les Mahométans, ramèneront les schismatiques grecs à l’Eglise romaine, convertiront les hérétiques, réconcilieront les Guelfes et les Gibelins. Après un millénaire de paix suivront le déchaînement de Gog et de Magog, l’avènement du dernier Antéchrist, contre lesquels se lèveront Élie et Enoch, ressuscités.</p>
         </div>
-        <div>
+        <div xml:id="r442888">
           <head rend="uc">VI. <hi rend="i">Epistolae</hi></head>
           <p><hi rend="i">a.</hi> Lettre citée intégralement par le continuateur de Guillaume de Nangis, qui dit qu’elle fut adressée en 1356 à l’archevêque de Toulouse (<hi rend="i">Stephanus Aldobrandi</hi>), en Avignon. Elle est contenue également dans un manuscrit du British Museum (<num>xv<hi rend="sup">e</hi></num> siècle) et fut éditée au <num>xvii<hi rend="sup">e</hi></num> siècle. Jean de Roquetaillade y prédit des guerres franco-anglaises, et des tribulations pour le clergé.</p>
           <p><hi rend="i">b.</hi> Lettre qui fait partie intégrante de la première, dans <pb source="https://nakala.fr/10.34847/nkl.3a0eb58g#7183cb256b464b9d756065642bd9bae35410d657" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a0eb58g/7183cb256b464b9d756065642bd9bae35410d657/full/full/0/default.jpg"/> l’édition du <num>xvii<hi rend="sup">e</hi></num> siècle. L’éditeur la croit adressée au cardinal d’Ostie. Elle doit être postérieure au <hi rend="i">Liber Ostensor.</hi> Elle a été écrite à la requête d’un prélat qui voulait connaître l’avenir. Jean de Roquetaillade s’y plaint surtout des malheurs des temps, des vices du clergé, des dîmes et droits de visite excessifs. 11 supplie son illustre lecteur de bien vouloir intervenir en faveur du bien de l’Eglise.</p>
         </div>
-        <div>
+        <div xml:id="r442941">
           <head rend="uc">VII. Défense</head>
           <p>Petit ouvrage contenu dans deux manuscrits de Paris et de Tours, où Jean de Roquetaillade se défend d’être hétérodoxe. Il doit dater de 1354-1356.</p>
         </div>
-        <div>
+        <div xml:id="r442951">
           <head rend="uc">VIII. <hi rend="i">Liber paragolici</hi></head>
           <p>Ouvrage perdu, signalé dans l’inventaire de la bibliothèque de Benoît XII, à Peniscola. Il était dirigé contre François de Monte Belluna, auteur d’un pamphlet politique dont un manuscrit se trouve au Vatican, et qui date de 1356-1357.</p>
         </div>
-        <div>
+        <div xml:id="r442964">
           <head rend="uc">IX. Ouvrages de médecine et d’alchimie</head>
           <p>Ces ouvrages n’ont pu être étudiés. Ce sont le <hi rend="i">Liber de consideracione quinte essentie omnium rerum</hi> conservé dans de très nombreux manuscrits, imprimé dès le <num>xvi<hi rend="sup">e</hi></num> siècle en traduction française et en latin. Jean de Roquetaillade en est certainement l’auteur. Le style de cet ouvrage et les renseignements qu’il y donne sur sa biographie ne permettent pas d’en douter, non plus que les mentions qu’il fait de ses connaissances alchimiques dans le « <hi rend="i">Commentarium... beati Cyrilli</hi> ». On lui attribue un petit traité de la pierre philosophale généralement appelé <hi rend="i">Liber lucis et tribulacionis,</hi> conservé, lui aussi, dans de très nombreux manuscrits et imprimé maintes fois depuis le <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
           <pb source="https://nakala.fr/10.34847/nkl.3a0eb58g#335552df2ece890ff39d3ef70672b64747b8a790" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a0eb58g/335552df2ece890ff39d3ef70672b64747b8a790/full/full/0/default.jpg"/>
           <p>Ces traités sont souvent attribués à Roger Bacon, dans les manuscrits d’Angleterre, ou à Raymond Lulle.</p>
           <p>Ressemblance de ces traités avec ceux de Roger Bacon et d’Arnaud de Villeneuve.</p>
         </div>
-        <div>
+        <div xml:id="r443009">
           <head rend="uc">X. Ouvrages perdus</head>
           <p>Jean de Roquetaillade parle souvent d’une quantité d’ouvrages qu’il a écrits et qui ne nous sont pas conservés, semble-t-il.</p>
           <p>Liste de ces ouvrages. Ils sont tous de caractère exégétique ou prophétique sauf l’un deux, écrit en langue vulgaire, dont voici le titre latin : <hi rend="i">De ponderibus rerum.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r443026">
         <head rend="uc">Conclusion</head>
         <p>I. <hi rend="i">Jean de Roquetaillade fut-il un hérétique</hi> ? – Aucun chroniqueur du temps ne le dit. Il professe des opinions orthodoxes, sur l’autorité toute-puissante du Pape et du ministre général de l’ordre franciscain, il réprouve les sectes schismatiques.</p>
         <p>Il laisse paraître pourtant parfois, mais rarement, des sentiments contraires.</p>
@@ -164,13 +162,13 @@
         <p>Autre témoignage de la popularité de Jean de Roquetaillade, au commencement du <num>xv<hi rend="sup">e</hi></num> siècle. La mère du comte d’Urgel, Marguerite de Montferrat, excite son fils <pb source="https://nakala.fr/10.34847/nkl.3a0eb58g#63afdf3795e004ad3df4d0659be1a14f6d2385e9" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.3a0eb58g/63afdf3795e004ad3df4d0659be1a14f6d2385e9/full/full/0/default.jpg"/>à combattre Ferdinand de Castille (qui avait obtenu (1412) le trône d’Aragon), en s’appuyant sur des prophéties et entre autres sur celle de J. de Rocatallada.</p>
         <p>Kampers a étudié l’influence que Jean de Roquetaillade dut exercer sur le pseudo-Télesphore de Cusenza. On pourrait ajouter aux preuves données par Kampers que Jean de Roquetaillade, dans le <hi rend="i">Liber Ostensor,</hi> cite presque toutes les sources dont Télesphore s’est servi. Les présomptions d’une utilisation très complète des prophéties de Jean de Roquetaillade par Télesphore sont si fortes, qu’elles emportent presque la certitude.</p>
       </div>
-      <div>
+      <div xml:id="r443224">
         <head rend="uc">Appendices</head>
-        <div>
+        <div xml:id="r443230">
           <head rend="uc">Appendice I</head>
           <p>Textes de Jean de Paris, Arnaud de Villeneuve, Jean de Roquetaillade, sur la date de l’avènement de l’Antéchrist.</p>
         </div>
-        <div>
+        <div xml:id="r443240">
           <head rend="uc">Appendice II</head>
           <p>Légendes qui se sont formées sur Jean de Roquetaillade.</p>
         </div>

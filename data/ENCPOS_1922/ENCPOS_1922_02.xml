@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -66,47 +64,47 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r410536">
         <head rend="uc">Introduction</head>
         <p>Avec Francis Bacon et René Descartes se manifeste un aspect nouveau de la pensée philosophique : <hi rend="i">la méthode. </hi>Tout le <num>xvii<hi rend="sup">e</hi></num> siècle est occupé de cette idée profondément classique. Il semble qu’on ait méconnu les nombreux essais par lesquels la Renaissance en a préparé l’expression, et parmi eux le plus considérable, peut-être le premier, dont l’auteur est Pierre de La Ramée.</p>
       </div>
-      <div>
+      <div xml:id="r410556">
         <pb source="https://nakala.fr/10.34847/nkl.e02cf238#9d469e733142352c7f48f6456347370b5c986aef" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.e02cf238/9d469e733142352c7f48f6456347370b5c986aef/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>L’origine de la méthode</head>
-        <div>
+        <div xml:id="r410569">
           <head rend="uc">Chapitre premier
            <lb/>les influences lointaines</head>
           <p>On trouverait les origines de l’idée de méthode chez les Anciens. Mais s’ils l’ont connue, elle n’était pas alors ce que l’on a entendu depuis par le terme de méthode.</p>
           <p>La méthode s’est formée peu à peu. Avec Roger Bacon la science du moyen âge en prépare l’avènement. L’humanisme à son début la fait également prévoir avec Pétrarque,</p>
         </div>
-        <div>
+        <div xml:id="r410584">
           <head rend="uc">Chapitre II
            <lb/>La rhétorique</head>
           <p>La rhétorique ouvre la voie aux créateurs de la méthode. Elle fournit le vocabulaire que la dialectique empruntera. La rhétorique de Cicéron est exposée par Guillaume Fichet (<hi rend="i">Rhetorica,</hi> 1471). Le manuscrit latin 16233 de la Bibliothèque Nationale contient un traité de rhétorique. Il faut sans doute y voir un remaniement par Guillaume Fichet de la rhétorique précédente.</p>
           <p>A la théorie de Cicéron est adjointe celle d’Hermogène de Tarse. Le mot de μέθοδος emprunté par Fichet à cet auteur grec entre dès lors dans la langue latine sous la forme <hi rend="i">methodus.</hi></p>
         </div>
-        <div>
+        <div xml:id="r410606">
           <head rend="uc">Chapitre III
            <lb/>La dialectique</head>
           <p>Indépendamment de la rhétorique, la dialectique se renouvelle : Rodolphe Agricola (1422-1485) veut unir dialectique et rhétorique. Cette tentative sera féconde en résultats. Le platonisme avec Marsile Ficin (1433-1499) apporte des vues générales ; il élargit le champ de la pensée. Déjà Laurent Valla <pb source="https://nakala.fr/10.34847/nkl.e02cf238#ddec52af37335bd970876cbe377fccb87a39efb9" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.e02cf238/ddec52af37335bd970876cbe377fccb87a39efb9/full/full/0/default.jpg"/>(1407-1457) avait, à sa lumière, éclairci la logique. Lefèvre d’Etaples (1455-1537) restaure le péripatétisme que la scolastique avait déformé. Ph. Mélanchton (1497-1560), continuant Agricola, contribue à renouveler la logique. J.-L. Vivès (1492-1540) explique que cette science doit se régler sur l’usage réel du discours et de la pensée. Elle ne doit point vouloir conformer la pensée ni le discours à des règles arbitraires.</p>
         </div>
-        <div>
+        <div xml:id="r410623">
           <head rend="uc">Chapitre IV
            <lb/>Conclusion</head>
           <p>Tous ces progrès, toutes ces influences tendent au même but et ont pour conséquence naturelle la méthode.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r410636">
         <head rend="uc">Deuxième partie
          <lb/>La méthode de nature</head>
-        <div>
+        <div xml:id="r410644">
           <head rend="uc">Chapitre premier
            <lb/>introduction</head>
           <p>La période comprise entre les années 1540 et 1560 environ, âge critique de la Renaissance qui alors se renouvelle, est aussi le moment où la méthode fut créée. Il faut distinguer le mot et l’idée : l’idée apparaît chez La Ramée et se constitue en trois étapes : 1543, 1547, 1555. Le mot est employé par Jean Sturm à la date de 1543 dans le 3<hi rend="sup">e</hi> livre des <hi rend="i">Partitiones dialecticae,</hi> consacré à la démonstration : la démonstration de méthode est un des modes de démonstration exposés. La même année Pierre de La Ramée oppose à l’<hi rend="i">Organon</hi> d’Aristote une logique inspirée de Platon. Il y donne des règles de la disposition ou second degré du jugement. En 1547 la disposition est nommée par lui <hi rend="i">methodus.</hi> Dans la <hi rend="i">Dialectique</hi> de 1555, Pierre de La Ramée explique la <hi rend="i">méthode de nature,</hi> et fixe sa place définitive dans la logique.</p>
           <p>La méthode est constituée.</p>
         </div>
-        <div>
+        <div xml:id="r410683">
           <pb source="https://nakala.fr/10.34847/nkl.e02cf238#664fbd920148d227edfb2274efff18df85287bdc" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.e02cf238/664fbd920148d227edfb2274efff18df85287bdc/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La méthode et la dialectique de la Ramée</head>
@@ -115,60 +113,60 @@
           <p>La méthode de nature qui améliore les règles exprimées en 1547 et 1553 enseigne qu’il faut suivre l’ordre de nature en allant du plus simple au plus composé, du plus général au plus particulier, du plus clair et notoire au plus obscur et moins connu.</p>
           <p>Toute l’œuvre de La Ramée est dominée par l’idée de raison qui lui vient de Platon, l’idée de nature et celle de pratique dialectique (<hi rend="i">exercitatio</hi>) qui remontent à Cicéron et à Quintilien.</p>
         </div>
-        <div>
+        <div xml:id="r410729">
           <head rend="uc">Chapitre III
            <lb/>La doctrine dialectique de la Ramée</head>
           <p>La critique d’Aristote occupe une place fort importante dans l’œuvre de La Ramée. Pourtant peu à peu La Ramée rend <pb source="https://nakala.fr/10.34847/nkl.e02cf238#13cf15e456fb99843f7266cedb58828856b5abe1" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.e02cf238/13cf15e456fb99843f7266cedb58828856b5abe1/full/full/0/default.jpg"/> mieux justice à Aristote : à partir de 1543 (<hi rend="i">Animadversionum Aristotelicarum libri IX et X</hi>) il en vient à se dire aristotélicien. Il accuse ses adversaires d’être de moins bons interprètes d’Aristote que lui (<hi rend="i">Defensio pro Aristotele,</hi> 1571). La méthode de nature qu’il présente comme tirée d’Aristote est surtout due à l’union de la rhétorique cicéronienne et de la dialectique platonicienne. •</p>
           <p>D’autres influences s’exercèrent encore sur l’esprit de La Ramée qui était ouvert à toutes les sciences et particulièrement attaché aux mathématiques. Il ne paraît pas qu’on puisse faire de rapprochement entre la création de la méthode et la conversion au protestantisme de La Ramée en 1561.</p>
         </div>
-        <div>
+        <div xml:id="r410757">
           <head rend="uc">Chapitre IV
            <lb/>Autres essais de méthode</head>
           <p>La méthode de La Ramée n’est pas la seule qui paraisse à cette époque critique. Jean Sturm (1516-1581) emploie le terme de <hi rend="i">methodus</hi> dès 1538, en lui donnant le sens que lui donnait Hermogène. Lorsqu’il fait pénétrer ce terme dans la dialectique (1543), il ne développe pas beaucoup le sens que lui a donné la rhétorique. Mais au sujet de la progression mathématique, il formule des règles beaucoup plus voisines de celles que La Ramée consacre à la méthode : Jean Sturm est le dernier précurseur de La Ramée.</p>
           <p>Francisco Robortello (vers 1550-1600) expose une méthode de la rhétorique et Mario Nizoli (1498-1556) propose de rénover la dialectique par la grammaire.</p>
           <p>Giacomo Aconzio publié en 1558 un traité <hi rend="i">De Methodo, </hi>qui n’est pas sans valeur Mais Aconzio écrit postérieurement à La Ramée qu’il connaît : il ne s’en distingue qu’en restant plus près de Galien.</p>
         </div>
-        <div>
+        <div xml:id="r410783">
           <head rend="uc">Chapitre V
            <lb/>Conclusion</head>
           <p>La méthode de nature, due à La Ramée, représente mieux les tendances générales du <num>xvi<hi rend="sup">e</hi></num> siècle et recevra plus de développement que toute autre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r410802">
         <pb source="https://nakala.fr/10.34847/nkl.e02cf238#2e9f5d9cf0ef0787316229dc5de93f28385b078d" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.e02cf238/2e9f5d9cf0ef0787316229dc5de93f28385b078d/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Le Ramisme</head>
-        <div>
+        <div xml:id="r410815">
           <head rend="uc">Chapitre premier
            <lb/>le Ramisme en France</head>
           <p>Le Ramisme désigne l’expansion de la doctrine de La Ramée.</p>
           <p>En France il se confond avec les luttes que soutient ce philosophe. Omer Talon écrit une rhétorique conforme aux vues de son ami. La violence des critiques de J. Charpentier et la querelle qu’il entama avec Ossat, disciple de La Ramée, au sujet de la méthode, montrent à la fois l’importance de cette question et que la méthode était la chose de La Ramée. Après la mort de La Ramée à l’époque de la Saint-Barthélemy, sa doctrine, étant celle d’un réformé, est proscrite de l’Université. Pour des raisons religieuses le Ramisme ne peut se développer en France.</p>
         </div>
-        <div>
+        <div xml:id="r410830">
           <head rend="uc">Chapitre II
            <lb/>Le Ramisme en Allemagne et sur les bords du Rhin</head>
           <p>Le Ramisme reçut en Allemagne une grande extension, dont l’évolution seule a été marquée.</p>
           <p>A l’état pur, il est représenté par J.-Th. Freigius. Artificiellement uni à la doctrine de Philippe Mélanchton il devient le Philippo-ramisme chez Beurhaus et Bilstenius. Keckermann rédige l’histoire du Ramisme, au début du <num>xvii<hi rend="sup">e</hi></num> siècle : c’est que le mouvement a pris fin. Mais il a porté ses fruits : la méthode est définitivement entrée dans le cadre de la logique.</p>
         </div>
-        <div>
+        <div xml:id="r410851">
           <head rend="uc">Chapitre III
            <lb/>Le Ramisme en Angleterre</head>
           <p>Le Ramisme apparaît assez pur en Angleterre. Il prend de l’extension à Cambridge sous l’action de la critique. E. Digby l’attaque <pb source="https://nakala.fr/10.34847/nkl.e02cf238#a2574a438b003a62e190141c97e93a1357235775" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.e02cf238/a2574a438b003a62e190141c97e93a1357235775/full/full/0/default.jpg"/> (1580), W. Temple le défend et le développe brillamment. En 1615, Cambridge est encore considéré comme ramiste. Oxford est l’adversaire du Ramisme.</p>
           <p>Francis Bacon a beau le combattre, on voit encore paraître des traités de dialectique suivant les principes de La Ramée en 1626 et en 1672. Ce dernier est dû à John Milton.</p>
         </div>
-        <div>
+        <div xml:id="r410871">
           <head rend="uc">Chapitre IV
            <lb/>Le Ramisme en écosse</head>
           <p>Son évolution est ici particulièrement régulière. Introduit à la fin du <num>xvi<hi rend="sup">e</hi></num> siècle par Andrews Melville, il est enseigné alors dans les Universités, et au <num>xvii<hi rend="sup">e</hi></num> siècle James Sharp l’expose à l’Université de S. Andrews (cahier de cours de l’année 1643-1644, écrit par Th. Kirkson et approuvé par Sharp) et Sophocardius, à l’Université d’Edinburgh (cahier de cours de M. Newall, 1674). Herbert Kennedy donne en • 1694 une théorie de la méthode qui est une traduction latine abrégée de la <hi rend="i">Logique</hi> de Port-Royal mêlée de principes et de formules ramistes.</p>
           <p>Ainsi le Ramisme se fond dans une doctrine qui se borne à le parfaire.</p>
         </div>
-        <div>
+        <div xml:id="r410902">
           <head rend="uc">Chapitre IV
            <lb/>Conclusion</head>
           <p>Le Ramisme a eu pour effet d’enrichir la logique non pas tant des règles méthodiques adoptées par La Ramée que de l’idée même de méthode.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r410915">
         <head rend="uc">Conclusion générale
          <lb/>l’évolution de la méthode</head>
         <p>L’idée de méthode, sinon le Ramisme, fructifia en France mieux que partout ailleurs. Sa place est consacrée dans la logique par Gassendi qui juge très équitablement La Ramée. Le domaine où la pensée se contrôle elle-même avait été accru par l’adjonction de la méthode à la logique. Mais ce <pb source="https://nakala.fr/10.34847/nkl.e02cf238#c4eef58b2c655e6c2d290fcab63ef28d623f0e82" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.e02cf238/c4eef58b2c655e6c2d290fcab63ef28d623f0e82/full/full/0/default.jpg"/>progrès ne fut pas le dernier : Descartes fit de la méthode la base de sa philosophie. A-t-il été influencé par La Ramée ? Les deux méthodes ont plus d’un trait commun. Assurément Descartes acheva l’œuvre entreprise par La Ramée.</p>

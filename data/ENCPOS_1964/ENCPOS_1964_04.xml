@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1964_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1964_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,7 +54,7 @@
         <forename>Odile</forename>
         <surname>Boussel</surname>
       </byline>
-      <div>
+      <div xml:id="r851224">
         <head rend="uc">Chapitre premier
          <lb/>vie de l’évêque Jonas d’Orléans</head>
         <p>On sait par l’<hi rend="i">Admonitio</hi> ou préface de l’<hi rend="i">Institutio regia</hi> que Jonas est né, a été élevé, a reçu sa formation intellectuelle et est entré dans les ordres en Aquitaine. Dans le <hi rend="i">De cultu imaginum,</hi> Jonas parle d’un voyage en Asturie où il rencontra vraisemblablement Beatus et Etherius ainsi que des adoptianistes. On ne sait pas dans quel dessein il a affectué ce voyage, qui eut lieu avant l’anathème prononcé en 800 par Léon III contre Félix d’Urgel. Jonas a dû naître avant 780.</p>
@@ -64,14 +62,14 @@
         <p>Jonas a encouragé le mouvement de réforme monastique entrepris par saint Benoît d’Aniane, et particulièrement dans l’abbaye de Saint-Mesmin.</p>
         <p>L’activité la plus notable de Jonas s’est déployée dans les conciles : en 825, il participe à un synode sur la querelle des images et il réunit, à ce propos, des extraits des Pères dont il est ensuite chargé d’aller porter à Rome les éléments. Jonas est réputé pour son éloquence et sa science des textes sacrés. H participe au concile de Paris en 829 et sans doute à celui d’Aix en 836. Il semble y avoir joué un rôle important.</p>
         <p>Jonas est mort avant 843.</p>
-        <div>
+        <div xml:id="r851262">
           <pb source="https://nakala.fr/10.34847/nkl.c4ab1cz1#d078ab7464ec4900937a28845591e6fd5b505c76" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.c4ab1cz1/d078ab7464ec4900937a28845591e6fd5b505c76/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Œuvres de Jonas d’Orléans</head>
           <p><hi rend="i">Œuvres perdues.</hi> – On suppose l’existence d’un <hi rend="i">Liber contra perfidos, </hi>d’un hymnaire, de sermons, de lettres et de poèmes.</p>
           <p><hi rend="i">Œuvres conservées.</hi> – Jonas a écrit en bon latin une vie de saint Herbert, du <num>viii<hi rend="sup">e</hi></num> siècle, et fait une histoire de sa translation. Contre l’<hi rend="i">Apologétique</hi> de Claude de Turin il a composé le <hi rend="i">De cultu imaginum.</hi> L’<hi rend="i">Institutio laïcalis</hi> et l’<hi rend="i">Institutio regia</hi> présentent de grands rapports entre eux et avec les actes du concile de Paris. La comparaison des trois textes établit que l’<hi rend="i">Institutio regia</hi> dépend des deux autres. La reprise fréquente de certains actes du concile de Paris dans des textes auxquels Jonas a participé laisse à entendre que Jonas a été le rédacteur officiel des canons de Paris (829) et d’Aix (836), et de la <hi rend="i">Relatio episcoporum </hi>de Worms (829). La date de l’<hi rend="i">Institutio regia</hi> a fait l’objet de nombreuses hypothèses. Il a dernièrement été démontré, avec l’appui d’un nouveau document, le « florilège canonique » d’Orléans, que la date de 831 était la plus valable car la datation traditionnelle de 834 ne s’accorde pas avec la position politique de Jonas.</p>
         </div>
-        <div>
+        <div xml:id="r851326">
           <head rend="uc">Chapitre III
            <lb/><hi rend="i">L’Admonitio ad Pippinum</hi> et l’<hi rend="i">institutio regia</hi></head>
           <p>La dénomination de notre texte, jusque-là appelé <hi rend="i">De institutione regia, </hi>pose un problème : un manuscrit du <num>ix<hi rend="sup">e</hi></num> siècle donne, en effet, le titre <hi rend="i">YAdmonitio Jonae episcopi ad Pippinum. Admonitio</hi> veut dire avertissement, <hi rend="i">institutio </hi>signifie à la fois éducation et institution, et l’on retrouve ces deux thèmes dans les œuvres de Jonas. L’étude de la préface amène à donner le premier titre : <hi rend="i">Admonitio ;</hi> le traité suivant, en dix-sept chapitres, requiert le titre d’<hi rend="i">Institutio regia.</hi> Pour désigner l’ensemble on s’en est donc tenu au titre traditionnel d’<hi rend="i">Institutio regia.</hi></p>
@@ -83,7 +81,7 @@
           <p>L’<hi rend="i">Institutio regia</hi> est donc une œuvre de circonstance, un miroir des princes valable de tous temps et une œuvre limitée qui s’efface devant les véritables sources de la pensée chrétienne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r851405">
         <head rend="uc">Édition</head>
         <p>Édition intégrale de<hi rend="i">Institutio regia</hi> et de sa préface, l’<hi rend="i">Admonitio ad Pippinum,</hi> d’après le manuscrit de base, Vatican, Archive de Saint-Pierre, cat. D 168, et, pour cinq chapitres, d’après le florilège d’Orléans (Paris, Bibliothèque nationale, nouv. acq. lat. 1632), avec les variantes du manuscrit lat. 3033, fonds Barberini du Vatican.</p>
       </div>

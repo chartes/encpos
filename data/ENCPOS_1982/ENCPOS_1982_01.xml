@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,26 +56,26 @@
         <surname>Barbier</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1081906">
         <head rend="uc">Avant-propos</head>
         <p>Les vallées de l’Oise et de l’Aisne ont constitué, pendant la période carolingienne, mais également sous les rois mérovingiens, et sous les premiers Capétiens, une « province royale » (E. Ewig), c’est-à-dire une région qui se définit par la concentration des palais et la fréquence de la présence royale. L’étude des biens fiscaux de cette province est intéressante à plusieurs points de vue : elle aide à mieux discerner l’assise matérielle de la puissance royale, à comprendre l’organisation de cette région et, enfin, à évaluer les transferts de terres, et donc de pouvoir, que représentaient les aliénations de ces domaines royaux.</p>
       </div>
-      <div>
+      <div xml:id="r1081916">
         <head rend="uc">Sources</head>
         <p>Point de départ de la recherche, l’établissement d’une liste des biens fiscaux mérovingiens et carolingiens repose sur un ensemble de sources imprimées : l’essentiel est constitué par les diplômes royaux, édités dans les collections des <hi rend="i">Monumenta Germaniae historica,</hi> des <hi rend="i">Chartes et diplômes, </hi>des <hi rend="i">Recueils des historiens de la France.</hi> Les résultats obtenus ont été complétés par le dépouillement des principales sources narratives, de Grégoire de Tours à Richer (Frédégaire et ses continuateurs, <hi rend="i">Annales royales, Annales de Saint-Bertin</hi> et <hi rend="i">de Saint-Vaast,</hi> Flodoard...). Les sources hagiographiques ont été de maigre rapport.</p>
         <p>Pour approfondir la connaissance des biens fiscaux à l’époque carolingienne ou pour la période suivante, nous avons consulté les diplômes et catalogues d’actes des rois capétiens, essentiellement jusqu’à Louis VIII, ainsi que les chartriers des établissements ecclésiastiques bénéficiaires <pb source="https://nakala.fr/10.34847/nkl.9434plf9#cdb605601270a10dfe5a955bcf77ded70c0fa80f" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.9434plf9/cdb605601270a10dfe5a955bcf77ded70c0fa80f/full/full/0/default.jpg"/>des donations royales : en premier lieu, Saint-Denis (Archives nationales, L 837-866 ; LL 1 157-1158) et Saint-Corneille de Compiègne (chartes éditées par dom Morel), mais aussi Saint-Médard de Soissons (Archives nationales, LL 1021), Saint-Germain des Prés, l’église de Reims et les abbayes rémoises. Ces recherches ont été poursuivies dans les collections du Cabinet des manuscrits de la Bibliothèque nationale (en particulier, collection de Picardie, volumes 88, 110, 233, 267, 290, 293). Des sondages ont été effectués dans les archives d’églises susceptibles d’avoir reçu des domaines du fisc, soit directement du souverain, soit par l’intermédiaire de laïques qui en auraient été les bénéficiaires, plus particulièrement en Laonnois et en Vermandois : abbayes de Laon (Archives nationales, L 994), de Bohéries et de Prémontré (Archives nationales, L 992 et 995), entre autres.</p>
       </div>
-      <div>
+      <div xml:id="r1081954">
         <head rend="uc">Introduction</head>
         <p>Les diverses théories relatives aux domaines fiscaux mérovingiens et carolingiens reposent sur la notion d’un capital foncier mérovingien, progressivement cédé à des églises et à une aristocratie avide de terres. Or l’établissement d’un inventaire juxtaposant les biens des souverains mérovingiens et carolingiens à ceux des premiers Capétiens facilite la comparaison et conduit ainsi soit à confirmer, soit à nuancer l’idée de départ.</p>
         <p>Ce recensement a été effectué pour sept des onze cités ecclésiastiques de la province de Reims : Reims, Beauvais, Châlons, Laon, Noyon, Senlis, Soissons. Il prend en compte toute propriété foncière mentionnée comme appartenant aux rois mérovingiens, carolingiens et capétiens (<num>vi<hi rend="sup">e</hi></num>-XI<hi rend="sup">e </hi>siècles). Les domaines des maires du palais mérovingiens, les étapes de l’itinéraire royal dont l’appartenance au fisc n’est pas autrement précisée, ainsi que les biens royaux qui apparaissent dans des diplômes faux, y ont été admis lorsque d’autres indices pouvaient étayer la présomption de bien fiscal. Enfin ont été relevés les toponymes susceptibles de contenir une allusion à une ancienne possession royale (<hi rend="i">fiscus, regius...</hi>). En revanche, les biens fiscaux et les palais qui se trouvaient dans les cités n’ont pas été retenus, car ils ont déjà fait l’objet de travaux importants.</p>
         <p>Les sources consultées ne font connaître, pour l’essentiel, que les biens fiscaux cédés par les souverains. Encore toutes les donations ne sont-elles pas énumérées nommément. De plus, les domaines publics faisant partie, à l’époque carolingienne, des honneurs comtaux n’y sont pas mentionnés, à l’exception de ceux qui furent rattachés au <hi rend="i">comitatus</hi> de Beauvais ; la consistance des bénéfices des fidèles et vassaux demeure également inconnue. L’inventaire topographique ne constitue donc rien d’autre qu’une base de travail et ne saurait être considéré comme une reconstitution, même hypothétique, du domaine fiscal.</p>
       </div>
-      <div>
+      <div xml:id="r1081988">
         <pb source="https://nakala.fr/10.34847/nkl.9434plf9#e271d8cb2ee2e6753cb634fbea0135f49043c7cb" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.9434plf9/e271d8cb2ee2e6753cb634fbea0135f49043c7cb/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Essai de synthèse</head>
-        <div>
+        <div xml:id="r1082001">
           <head rend="uc">Chapitre premier
            <lb/>le fisc mérovingien</head>
           <p><hi rend="i">Un héritage du fisc romain ?</hi> – Le report sur la carte des noms de lieu recensés fait ressortir un certain nombre de constantes dont la répétition corrobore l’hypothèse d’un capital foncier originel ; il permet également de cerner quelques traits caractéristiques de ce dernier.</p>
@@ -89,7 +87,7 @@
           <p><hi rend="i">Acquisitions et aliénations.</hi> – Aucun accroissement du fisc mérovingien n’est attesté. Les acquisitions se résument à des confiscations et, à la fin de la période, à des sécularisations. Parmi les échanges supposés, l’un aboutit, au <num>vii<hi rend="sup">e</hi></num> siècle, à la réunion. d’Attigny au fisc ; il paraît s’être effectué dans un contexte politique particulier – les conflits entre la Neustrie et l’Austrasie –, ainsi que certaines confiscations attestées à la même époque dans le diocèse de Reims. Quant aux sécularisations, leur importance réelle ne peut être que soupçonnée, à travers les témoignages relatifs aux biens de l’abbaye de Saint-Denis dans le Beauvaisis, à ceux de l’Église de Reims dans les diocèses de Reims et de Laon, ou aux domaines excentriques de l’abbaye de Saint-Amand (Barisis, Sinceny).</p>
           <p>Compte tenu de la nature des sources consultées, les principaux bénéficiaires des donations royales semblent être les établissements ecclésiastiques, essentiellement l’abbaye de Saint-Denis et les églises de Reims et Laon. Les donataires laïques sont représentés par les maires du palais de Neustrie et d’Austrasie, ainsi que par les comtes de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r1082106">
           <head rend="uc">Chapitre II
            <lb/>Le fisc carolingien</head>
           <p><hi rend="i">Gestion et exploitation des biens fiscaux.</hi> – Bien connue en théorie, l’organisation de l’administration fiscale carolingienne ne transparaît toutefois pas dans les sources consultées. L’action des administrateurs se laisse deviner, soit dans les traces que les polyptyques recensant les biens royaux ont pu laisser dans quelques diplômes, soit par le biais de transferts d’esclaves, d’un domaine à l’autre, qui révèlent une évaluation stricte des besoins en main-d’œuvre des <hi rend="i">villae</hi> royales, soit, enfin, à travers un heu commun hagiographique, corroboré par des témoignages diplomatiques et législatifs : la tendance des souverains à vouloir étendre les propriétés royales au détriment des domaines voisins.</p>
@@ -104,7 +102,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.9434plf9#62ff98cb4ea06d6436e1b47f89bd03b3b32baf78" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.9434plf9/62ff98cb4ea06d6436e1b47f89bd03b3b32baf78/full/full/0/default.jpg"/>
           <p>Les sources relatives aux aliénations sont, en majorité, constituées de diplômes de donation octroyés à des établissements ecclésiastiques. Ce type de libéralité en apparaît donc comme privilégié par rapport à d’autres concessions temporaires, telles que bénéfices accordés aux fidèles ou honneurs comtaux. De ce fait, les donations aux laïques semblent se réduire à un élément anecdotique. De même, est-il délicat d’évaluer dans quelle proportion laïques et églises reçurent respectivement des biens fiscaux. Certes, les établissements religieux paraissent avoir été les principaux bénéficiaires de la générosité royale : si Saint-Denis et Saint-Corneille de Compiègne furent les plus richement dotés, une trentaine d’autres monastères et églises, soit les sanctuaires les plus importants de la <hi rend="i">Francia occidentalis</hi> (Charroux, Saint-Martin de Tours...), obtinrent des domaines dans les vallées de l’Oise et de l’Aisne. Toutefois, la répartition entre églises et laïques des biens fiscaux distribués demande à être nuancée, en fonction des époques et des régions. Par exemple, dans le Perthois, comté du diocèse de Châlons et zone de forte concentration fiscale, les domaines du fisc furent surtout concédés aux églises (Montiérender, Saint-Urbain de Châlons, Saint-Remi de Reims, église cathédrale de Châlons). En Vermandois, en revanche, les donations en faveur de comtes ou d’églises paraissent d’égale importance. De même, sur vingt-trois fiscs énumérés dans le diplôme délivré par Charles le Chauve en faveur de Saint-Corneille de Compiègne (877), au <num>xi<hi rend="sup">e</hi></num> siècle, quatre étaient demeurés au roi (Attigny, Creil, le Chêne, Verberie), neuf étaient allés à des églises (Bussy, Montmacq, Ponthion et Roye-sur-Matz à Saint-Corneille de Compiègne ; Biermes, Cupin et Écry à Saint-Denis ; Merlaut à Saint-Martin de Tours ; Samoussy à l’église de Metz ; Voyenne à Notre-Dame et Saint-Jean de Laon), six étaient passés aux mains de laïques (Andigny aux sires de Guise ; Rozoy-sur-Serre à un seigneur local ; Taizy aux comtes de Porcien ; Sévigny à ceux de Roucy ; Sinceny à ceux de Vermandois) ; le sort des derniers reste indéterminé. Il est possible que les comtes se soient emparés de fiscs au <num>x<hi rend="sup">e</hi></num> siècle, à la faveur des troubles qui agitèrent alors le royaume.</p>
         </div>
-        <div>
+        <div xml:id="r1082246">
           <head rend="uc">Chapitre III
            <lb/>Le sort des biens fiscaux aux <num>xi<hi rend="sup">e</hi></num> et <num>xii<hi rend="sup">e</hi></num> siècles</head>
           <p><hi rend="i">Le domaine des premiers Capétiens.</hi> – Le domaine capétien se développe entre des centres : Senlis, Compiègne et Quierzy ; depuis ces deux derniers points, il s’étend jusqu’à Soissons et Laon. Par rapport à l’époque carolingienne, il s’est resserré sur les vallées de l’Oise et de l’Aisne. Rien ne demeure en Perthois, en Vermandois, ou dans la partie nord du Laonnois.</p>
@@ -113,12 +111,12 @@
           <p>A l’origine, certaines zones fiscales correspondent à d’anciennes forêts-frontières (entre les diocèses de Laon et de Cambrai, de Châlons et de Toul). Leur passage dans le patrimoine d’établissements ecclésiastiques, ou dans celui de seigneurs laïques, soit directement, soit par le biais de l’avouerie (abbaye de Prüm et sires de Guise, abbaye de Saint-Urbain de Châlons et sires de Joinville) ont contribué à maintenir, à long terme, l’incertitude dans le tracé des frontières entre royaumes, ou, à moindre échelle, entre anciens comtés carolingiens (seigneurie de Rozoy-sur-Serre, comté de Valois).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1082297">
         <head rend="uc">Deuxième partie
          <lb/>Inventaire des biens fiscaux
          <lb/>et des palais ruraux dans sept diocèses
          <lb/>de la province ecclésiastique de Reims</head>
-        <div>
+        <div xml:id="r1082309">
           <head rend="uc">Chapitre premier
            <lb/>inventaire des biens fiscaux : notices</head>
           <p>Deux cent quatre-vingt noms de lieu ont été répertoriés. Sur cet ensemble, environ deux cent vingt localités ont fait partie, à des dates diverses, du domaine des souverains mérovingiens et carolingiens, ainsi que de celui des <pb source="https://nakala.fr/10.34847/nkl.9434plf9#d333d9a70363a9604b5cef77e95726f4551ef0f4" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.9434plf9/d333d9a70363a9604b5cef77e95726f4551ef0f4/full/full/0/default.jpg"/>premiers Capétiens. Un doute subsiste pour les soixante autres, dont une trentaine n’est connue que par des diplômes faux.</p>
@@ -132,7 +130,7 @@
           <p><hi rend="i">Diocèse de Soissons.</hi> – Soixante-et-un noms de lieu ont été retenus : biens fiscaux dans quarante-cinq localités, dont deux fiscs (<hi rend="i">Casnum, </hi>Verberie) ; le fisc de Cuisy-en-Almont est connu par un diplôme faux.</p>
           <p><hi rend="i">Biens fiscaux ne pouvant être localisés dans un diocèse particulier.</hi> – Diverses identifications sont possibles pour la localité dénommée <hi rend="i">Burgundia.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1082388">
           <head rend="uc">Chapitre II
            <lb/>Monographies des palais ruraux
            <lb/>mérovingiens et carolingiens</head>
@@ -145,11 +143,11 @@
           <p><hi rend="i">Diocèse de Soissons.</hi> – Berny, Choisy-au-Bac, Compiègne, Montmacq, Quierzy, Verberie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1082441">
         <head rend="uc">Conclusion</head>
         <p>L’importance de la propriété royale mérovingienne et carolingienne, de même que les donations qui en ont été faites, rendent compte de l’organisation féodale dans les vallées de l’Oise et de l’Aisne.</p>
       </div>
-      <div>
+      <div xml:id="r1082451">
         <head rend="uc">Annexes</head>
         <p>Cartes et tableaux.</p>
         <pb source="https://nakala.fr/10.34847/nkl.9434plf9#3a9863563f18e6ddfb2c4c123137c9e57758d5dd" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.9434plf9/3a9863563f18e6ddfb2c4c123137c9e57758d5dd/full/full/0/default.jpg"/>

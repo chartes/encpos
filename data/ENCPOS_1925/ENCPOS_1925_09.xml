@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,25 +63,25 @@
         <head rend="uc">Bibliographie et sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r441451">
         <head rend="uc">Livre I
          <lb/>le pays, le seigneur et les habitants
          <lb/>des origines au <num>xiii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r441467">
           <head rend="uc">Chapitre premier
            <lb/>le pays</head>
           <p>A l’époque préhistorique, la région des lacs jurassiens se trouve sur la route de diffusion des produits des ateliers de silex du Grand-Pressigny qui, par les lacs de Remordy et de Saint-Point, gagne le col de Jougne, passage utilisé également par la route du Grand Saint-Bernard à l’époque romaine.</p>
           <p><hi rend="i">Novum Castrum</hi> apparaît en 1011 <hi rend="i">sedes regalissima </hi>de Rodolfe III. C’est une place de guerre. Ville de refuge, <pb source="https://nakala.fr/10.34847/nkl.dcb5ss9l#2c31891cc5263626329acac7a14780426f0a982a" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.dcb5ss9l/2c31891cc5263626329acac7a14780426f0a982a/full/full/0/default.jpg"/>elle devient le centre d’une seigneurie constituée dès la fin du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Les noms de lieu de la région doivent généralement leur origine à des particularités du terrain ; Fenils, nom du berceau de la famille de Neuchâtel, vient d’une combinaison de la racine germanique et scandinave <hi rend="i">fen-</hi> avec <hi rend="i">ins</hi> (<hi rend="i">ula</hi>) : « l’île des marais ».</p>
         </div>
-        <div>
+        <div xml:id="r441515">
           <head rend="uc">Chapitre II
            <lb/>Le seigneur</head>
           <p>La <hi rend="i">regalissima sedes</hi> et les terres adjacentes sont possédées par le seigneur à titre de propriétaire et non à litre de comte.</p>
           <p>Les premiers membres de la famille des Fenis-Neuchâtel constituaient avant leur installation dans la région un lignage de chevaliers d’origine souabe.</p>
           <p>Le titre comtal est porté par Ulrich III (1182-1225) et ses descendants qui, dès 1225, se réservent les territoires de la seigneurie situés en pays aléman. Berthoud, seigneur de Neuchâtel, possède <hi rend="i">ratione dominii</hi> les seuls droits régaliens incorporés dès le <num>xii<hi rend="sup">e</hi></num> siècle à leur seigneurie par les seigneurs de l’empire ou attachés à la possession de l’ancienne <hi rend="i">regalissima sedes.</hi> Dès 1180 le seigneur neuchâtelois est vassal de l’évêque de Lausanne pour un double fief ecclésiastique. Dès 1288 la seigneurie est fief lige des Châlons.</p>
         </div>
-        <div>
+        <div xml:id="r441551">
           <head rend="uc">Chapitre III
            <lb/>Les habitants</head>
           <p>La condition des habitants de la seigneurie est déterminée par la condition de leurs terres : hommes royés, habergeants, taillables et censitaires ; ou par les fonctions dont ils sont investis : ministériaux ruraux et domestiques.</p>
@@ -92,7 +90,7 @@
           <p>Les hommes royés sont au début colons royaux, parce que tenant de la main de l’empereur ou du roi des terres de son <hi rend="i">dominium ;</hi> celles-ci une fois incorporées à leurs tenures, comme alleux ou fiefs immédiats, ils deviennent royés indépendamment d’elles. Ils sont tenus au service d’ost et de plaid.</p>
           <p>Les habergements, mode de tenure servile venu de l’ouest et du centre de la France, se rencontrent en Franche-Comté dès le <num>xiii<hi rend="sup">e</hi></num> siècle et au <num>xiv<hi rend="sup">e</hi></num> siècle en deçà du Jura.</p>
         </div>
-        <div>
+        <div xml:id="r441603">
           <head rend="uc">Chapitre IV
            <lb/>Les institutions</head>
           <p>Le <hi rend="i">villicus,</hi> serf pris sur le domaine, puis ministériel, n’a que des fonctions administratives. Le <hi rend="i">maire,</hi> son successeur, tout d’abord fonctionnaire domanial, ministériel, puis chevalier, puis vassal du comte, acquiert en outre une partie de la basse justice. Après la création du bourg, il devient fonctionnaire urbain choisi parmi les ministériaux, puis parmi les bourgeois et voit croître ses attributions judiciaires à côté de celles qu’il exerce sur la ville et le finage urbain.</p>
@@ -102,11 +100,11 @@
           <p>L’hôpital du Saint-Esprit, dépendant de celui de Besançon, date de 1231.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r441648">
         <head rend="uc">Livre II
          <lb/>les chartes constitutives de la bourgeoisie
          <lb/>neuchâteloise</head>
-        <div>
+        <div xml:id="r441658">
           <head rend="uc">Chapitre premier
            <lb/>la charte de 1214</head>
           <div>
@@ -142,12 +140,12 @@
             <p>Les seigneurs neuchâtelois font appel à la puissance spirituelle de l’évêque de Lausanne en lui confiant le soin de faire respecter le pacte communal.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r441802">
           <head rend="uc">Chapitre II
            <lb/>Les institutions aux <num>xiii<hi rend="sup">e</hi></num> et <num>xiv<hi rend="sup">e</hi></num> siècles</head>
           <p>L’ouverture au trafic international du col du Saint-Gothard au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle favorise le développement commercial de la ville. Les ventes et péages <pb source="https://nakala.fr/10.34847/nkl.dcb5ss9l#57181b3b3bdd14470c3ec28f8612486d55c98ac0" n="73" facs="https://api.nakala.fr/iiif/10.34847/nkl.dcb5ss9l/57181b3b3bdd14470c3ec28f8612486d55c98ac0/full/full/0/default.jpg"/>deviennent la source principale de revenus à côté du tonlieu, de l’onguelt, du denier de la chair, de la giète, des bans de la halle et de justice, de la manende et de quelques cens anciens. La perception des revenus est affermée. Le conseil de ville se forme ; dans la justice communale les jurés remplacent les bons hommes ; les magistrats urbains apparaissent au milieu du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r441843">
           <head rend="uc">Chapitre III
            <lb/>La charte de 1454</head>
           <div>

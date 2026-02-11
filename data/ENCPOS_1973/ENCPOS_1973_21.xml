@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1973_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1973_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,19 +56,19 @@
         <surname>Massip</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r975319">
         <head rend="uc">Sources</head>
         <p>Les principales sources utilisées sont les états et les comptes des Maisons du roi et de la reine conservés à la Bibliothèque nationale et aux Archives nationales (séries KK, 0<hi rend="sup">1</hi> et Z<hi rend="sup">1a</hi>) ; les registres de la série LL des Archives nationales pour les églises de Paris ; et le Minutier central des notaires parisiens.</p>
       </div>
-      <div>
+      <div xml:id="r975337">
         <head rend="uc">Introduction</head>
         <p>La vie musicale à Paris pendant la minorité de Louis XIV et le gouvernement de Mazarin est liée à la vie de cour qui suscite une musique religieuse appropriée à ses dévotions et les spectacles profanes que sont l’opéra italien et le ballet de cour. D’autre part, les concerts privés se développent, qui contribuent à former un public restreint dont les goûts vont à la musique française et aux instruments à clavier. Ces amateurs ne disposent pas d’une production imprimée très importante.</p>
       </div>
-      <div>
+      <div xml:id="r975347">
         <pb source="https://nakala.fr/10.34847/nkl.c14bvyc9#1cef198657340dc4d37236cc11a56894ff75a71f" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.c14bvyc9/1cef198657340dc4d37236cc11a56894ff75a71f/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les cadres institutionnels</head>
-        <div>
+        <div xml:id="r975360">
           <head rend="uc">Chapitre premier
            <lb/>musiques royales et princières</head>
           <p><hi rend="i">La musique de la Chapelle du roi.</hi> – Le personnel de la Chapelle-musique qui sert par semestre est composé de deux sous-maîtres, de quatorze chantres laïques et ecclésiastiques, d’un joueur de cornet, d’un organiste et d’enfants. Les chantres reçoivent des gages fixes et peuvent jouir de bénéfices ecclésiastiques. Les charges se vendent sous forme de pension viagère.</p>
@@ -88,7 +86,7 @@
           <p><hi rend="i">Les emplois marginaux.</hi> – Quelques musiciens ne peuvent transmettre leur charge, d’autres émargent sur la liste des gens de métier.</p>
           <p>Les différents corps de la musique du roi sont fréquemment associés, notamment pour les cérémonies religieuses. Ce groupe qui compte environ cent trente privilégiés est hiérarchisé par la disparité des gages et des prix de charges qui en découlent.</p>
         </div>
-        <div>
+        <div xml:id="r975455">
           <head rend="uc">Chapitre II
            <lb/>Les églises de Paris</head>
           <p>L’église cathédrale, les églises collégiales et les paroisses de Paris sont des foyers de musique ; elle rehausse les cérémonies religieuses tandis que des « musiques extraordinaires » ou concerts y sont donnés. Le cérémonial de Paris leur impose un rituel strict qui laisse peu de place à la musique concertante, employée seulement pour les leçons de Ténèbres et pour des motets. Le personnel d’une église est scindé en groupe vocal et groupe instrumental.</p>
@@ -98,7 +96,7 @@
           <p><hi rend="i">L’organiste.</hi> – Le recrutement des organistes se fait par concours, survivance ou simplement par la renommée du musicien. Les tribunes de Paris rapportent à leurs titulaires des rémunérations qui varient beaucoup selon l’importance du service et de la paroisse. Indépendamment de ses fonctions musicales, l’organiste doit parfois s’occuper de l’entretien de l’orgue, laissé, dans d’autres paroisses, à un facteur appointé.</p>
           <p>Les couvents possèdent aussi leur musique ; la musique de la Chapelle du roi s’y déplace fréquemment et introduit dans ces différents sanctuaires des innovations qui contribuent à l’évolution de la musique sacrée.</p>
         </div>
-        <div>
+        <div xml:id="r975499">
           <head rend="uc">Chapitre III
            <lb/>En marge de la musique du roi : corps de métiers et associations</head>
           <p><hi rend="i">Les statuts de 1658.</hi> – La communauté des joueurs d’instruments dont Louis Constantin puis Guillaume Dumanoir portent successivement le titre de « roi » se trouve régie par de nouveaux statuts à partir de 1658. Ceux-ci réduisent <pb source="https://nakala.fr/10.34847/nkl.c14bvyc9#20dd6024d8d2b9ba9c7adfe3ae7d89338ac14301" n="149" facs="https://api.nakala.fr/iiif/10.34847/nkl.c14bvyc9/20dd6024d8d2b9ba9c7adfe3ae7d89338ac14301/full/full/0/default.jpg"/>notamment la durée de l’apprentissage de six à quatre ans et règlent les frais de réception dans la communauté.</p>
@@ -111,11 +109,11 @@
           <p>Les trois groupements définis dans cette première partie entretiennent des liens étroits, les deux derniers alimentent, l’un la Chapelle-musique, l’autre la musique de la Chambre du roi.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r975560">
         <pb source="https://nakala.fr/10.34847/nkl.c14bvyc9#c786bd533167c26d84a8b80158e7a0f362cb2ad3" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.c14bvyc9/c786bd533167c26d84a8b80158e7a0f362cb2ad3/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>La condition sociale</head>
-        <div>
+        <div xml:id="r975573">
           <head rend="uc">Chapitre premier
            <lb/>les musiciens du roi</head>
           <p>Les gens de la musique du roi représentent un groupe d’environ cent trente personnes.</p>
@@ -129,7 +127,7 @@
           <p><hi rend="i">La mobilité sociale.</hi> – Les musiciens de la Chambre se donnent la qualité de « noble homme », les violons du roi, celle de « honorable homme », « bourgeois de Paris ». Les premiers recherchent pour leurs filles des alliances avec des nobliaux ou des officiers et leur donnent des dots élevées de dix mille à quarante mille livres. Rien de tel chez les violons qui restent dans leur milieu d’origine. La musique de la Chambre apparaît comme une source d’enrichissement pour ses membres.</p>
           <p><hi rend="i">Conclusion.</hi> – Ce groupe hétérogène dans lequel le rapport des fortunes est de un à cent présente une certaine unité quant à son mode de vie et à sa mentalité proches de la bourgeoisie parisienne car, même pour les plus riches, le désir de posséder l’emporte sur celui de paraître.</p>
         </div>
-        <div>
+        <div xml:id="r975635">
           <head rend="uc">Chapitre II
            <lb/>Les musiciens étrangers à la musique royale et aux musiques princières</head>
           <p><hi rend="i">Les leçons.</hi> – Les leçons demeurent une source de revenus commune à tous les musiciens. Elles s’adressent aux enfants et aux adultes qui souhaitent adjoindre à leur profession une activité de complément. La formation donnée prétend être complète et pour atteindre ce but suit un rythme intensif.</p>
@@ -140,15 +138,15 @@
           <p><hi rend="i">Les maîtres faiseurs d’instruments de musique.</hi> – Leurs fonds représentent une faible valeur marchande, de six cents à trois mille cinq cents livres pour un facteur en activité, et contiennent plusieurs centaines d’instruments de faible valeur en général. Ces artisans pratiquent aussi le commerce d’occasion et la réparation des instruments abîmés ; les plus importants entretiennent des relations commerciales avec l’étranger, notamment l’Italie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r975680">
         <head rend="uc">Conclusion</head>
         <p>La période 1643-1661 se présente comme une époque charnière pour la vie musicale à Paris, les institutions et la condition sociale des musiciens.</p>
       </div>
-      <div>
+      <div xml:id="r975690">
         <head rend="uc">Annexes</head>
         <p>Tableau des mutations de charges dans la musique de la Chambre d’après les états. – Tableau des apprentissages. – Tableau des contrats de mariage.</p>
       </div>
-      <div>
+      <div xml:id="r975700">
         <head rend="uc">Pièces justificatives</head>
         <p>Cinq traités de charge. – Un marché d’orgue. – Trois états de la musique de l’Écurie. – Trois états de la musique de la reine.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,10 +57,10 @@
         <surname>Barbance</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1225214">
         <head rend="uc">Première partie
          <lb/>Édition critique</head>
-        <div>
+        <div xml:id="r1225222">
           <head rend="uc">Introduction</head>
           <p>Boccace est l’un des premiers humanistes italiens à jouir d’une large faveur en France. Le <hi rend="i">De casibus</hi> fait partie des ouvrages écrits à la fin de sa vie, où se déploie son érudition.</p>
           <p><hi rend="i">Présentation du traducteur.</hi> – Laurent de Premierfait est sans aucun doute pour beaucoup dans la diffusion des œuvres de Boccace en France. Clerc champenois, il se lie d’amitié avec de nombreux humanistes français et italiens, en particulier lors d’un long séjour à la cour pontificale d’Avignon. A Paris, il est protégé par le duc de Bourbon pour lequel il traduit le <hi rend="i">De senectute</hi> de Sénèque et le <hi rend="i">De amicitia</hi> de Cicéron, puis par Jean de Berry. Il exécute pour celui-ci une traduction du <hi rend="i">De casibus</hi> de Boccace en 1409, qui vient compléter la première version qu’il en avait donnée en 1400, puis celle du <hi rend="i">Décaméron.</hi> Il meurt en 1418 après avoir donné une traduction des <hi rend="i">Œconomica</hi> d’Aristote.</p>
@@ -70,27 +68,27 @@
           <p><hi rend="i">Présentation du « De casibus ».</hi> – Le texte se compose de neuf livres, chacun divisé en chapitres consacrés au récit de la vie d’un ou plusieurs personnages tirés de la Bible, de l’histoire et de la mythologie antiques ou de l’histoire plus récente. La structure des récits est toujours la même : parvenus au faîte de la gloire, les héros qu’il choisit comme exemples voient leur destin changé par les revirements de Fortune. C’est leur arrogance qui provoque leur chute.</p>
           <p><hi rend="i">Sources.</hi> – Dans sa traduction, Laurent de Premierfait agrémente le texte de Boccace de nombreuses indications historiques et géographiques. Il utilise les historiens Lucain et Orose, quelques poètes latins, principalement Ovide, les <hi rend="i">Étymologies</hi> d’Isidore de Séville ainsi que la <hi rend="i">Genealogia</hi> de Boccace.</p>
         </div>
-        <div>
+        <div xml:id="r1225287">
           <head rend="uc">Édition</head>
           <p>Les cinq manuscrits retenus pour l’édition sont les plus anciens. Ce sont : <hi rend="i">A :</hi> Paris, Bibl. nat., fr. 226 ; <hi rend="i">B :</hi> Paris, Bibl. nat., fr. 131 ; <hi rend="i">C :</hi> Paris, Bibl. nat., fr. 16994 ; <hi rend="i">D :</hi> Genève, Bibl. univ., fr. 190 ; <hi rend="i">E :</hi> Paris, Bibl. de l’Arsenal, ms 5193.</p>
           <p>L’édition est partielle. Elle est limitée aux livres I et VI.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1225321">
         <head rend="uc">Deuxième partie
          <lb/>Étude linguistique</head>
-        <div>
+        <div xml:id="r1225329">
           <head rend="uc">Chapitre premier
            <lb/>étude des manuscrits</head>
           <p>On constate une parenté évidente entre les manuscrits Bibl. nat., fr. 131 et fr. 16994. Quelques similitudes rapprochent également les manuscrits Genève, Bibl. univ., fr. 190 et Paris, Ars. 5193. Dans l’ensemble, le texte reste cependant relativement stable et les variations touchent surtout la graphie des mots et la ponctuation du texte.</p>
         </div>
-        <div>
+        <div xml:id="r1225341">
           <pb source="https://nakala.fr/10.34847/nkl.d3d6yh98#d05da451d7bf1d3a16091af14c5029e148beca88" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.d3d6yh98/d05da451d7bf1d3a16091af14c5029e148beca88/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Aspects syntaxiques</head>
           <p>Dans les cas où le texte de Laurent de Premierfait suit celui de Boccace d’assez près pour qu’une confrontation soit possible, on constate une tendance nette chez le traducteur à préférer l’emploi de propositions, relatives ou circonstancielles, à celui d’éléments nominaux ou semi-verbaux. Cette transposition le conduit parfois également à modifier les rapports syntaxiques régissant les éléments constituants de proposition en latin. Il peut ainsi utiliser l’enchaînement de ces propositions, en particulier des relatives, pour faire progresser son récit.</p>
         </div>
-        <div>
+        <div xml:id="r1225358">
           <head rend="uc">Chapitre III
            <lb/>Problèmes de cohésion textuelle</head>
           <p><hi rend="i">Les enchaînements thématiques.</hi> – L’enchaînement des propositions permet de déterminer le type de progression textuelle à l’œuvre dans un texte. Il s’agit de voir, à travers le jeu des reprises anaphoriques, des déterminants, des connecteurs logiques..., la façon dont l’auteur répartit l’information donnée comme principale, ou rhématique, et ce qu’il présente comme le cadre à l’intérieur duquel s’inscrit le récit.</p>
@@ -100,7 +98,7 @@
           <p><hi rend="i">Essai de caractérisation du texte.</hi> – Le soin avec lequel Laurent de Premierfait situe les acteurs de chaque récit dans le temps et l’espace et l’attention qu’il porte aux problèmes de référence confèrent aux différents cas une valeur d’objectivité. Ce point de vue extérieur permet à l’auteur de changer brusquement de perspective <pb source="https://nakala.fr/10.34847/nkl.d3d6yh98#6a186d18aa585006f1a2756b40ab538bf81e0d28" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.d3d6yh98/6a186d18aa585006f1a2756b40ab538bf81e0d28/full/full/0/default.jpg"/>textuelle sans créer pour autant la moindre rupture discursive. Il manifeste également une nette tendance à indiquer de manière explicite la valeur argumentative des éléments introduits par Boccace. Lorsqu’il spécifie des rapports sémantiques implicites ou sous-entendus en latin, l’effet produit est celui d’une succession d’événements logique et inéluctable. La toute-puissance de Fortune et la faiblesse de l’homme face à son destin trouvent ainsi leur expression.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1225403">
         <head rend="uc">Conclusion</head>
         <p>La traduction de Laurent de Premierfait infléchit le contenu du texte de Boccace vers une interprétation moralisante. Présenter les cas sous un angle apparemment objectif lui permet d’en faire des exemples. Il espère ainsi inciter le lecteur à une réflexion sur l’histoire et le comportement des hommes.</p>
       </div>

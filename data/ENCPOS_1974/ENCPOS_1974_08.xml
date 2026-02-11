@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,13 +56,13 @@
         <forename>Nicole</forename>
         <surname>Diament</surname>
       </byline>
-      <div>
+      <div xml:id="r982794">
         <head rend="uc">Introduction</head>
         <p>L’étude de la police sous le règne de Louis XIV, dont les objectifs furent définis dès 1667 par l’édit créant la charge de lieutenant général de police et mettant en place les éléments essentiels d’une institution nouvelle, permet de cerner une des structures fondamentales de la société, qui contribua à donner à la monarchie d’Ancien Régime son caractère d’État administratif et centralisé, si fortement marqué dès la fin du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
         <p>La présente étude se propose de suivre la naissance et le développement de cette police, « moderne » à bien des égards, à travers la vie, la carrière et l’œuvre d’un de ses premiers serviteurs, encore connu aujourd’hui comme l’auteur du <hi rend="i">Traité de la police :</hi> Nicolas Delamare.</p>
         <p>Le commissaire Delamare, au sein de la poignée d’hommes qui eurent une influence déterminante sur l’avenir de cette nouvelle police, est, à plusieurs titres, exemplaire : en particulier par la longueur de sa carrière, par l’importance de son rôle à Paris, et par son œuvre de théoricien de la police.</p>
       </div>
-      <div>
+      <div xml:id="r982820">
         <pb source="https://nakala.fr/10.34847/nkl.d3fa995x#f282bb84961d3e204266477d1ba142110d5adaa2" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.d3fa995x/f282bb84961d3e204266477d1ba142110d5adaa2/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Ont été consultés principalement les documents contenus dans la collection Delamare à la Bibliothèque nationale, c’est-à-dire dans les manuscrits 21545 à 21808 du fonds français. Certains de ces volumes ont été entièrement dépouillés, d’autres ont été utilisés de façon moins systématique. Le manuscrit 8118 du fonds français nous a renseignée sur les séances du Conseil de police.</p>
@@ -72,10 +70,10 @@
         <p>Des recherches effectuées au Minutier central des notaires parisiens et aux Archives départementales des Yvelines nous ont apporté des renseignements utiles sur la biographie du commissaire Delamare.</p>
         <p>Enfin, quelques vérifications nous ont menée aux Archives nationales, dans les archives imprimées de la série AD II, et dans celles des commissaires au Châtelet où se trouvent quelques fragments des papiers de Delamare sous les cotes Y 14370<hi rend="sup">B</hi>, Y 14371, Y 14372.</p>
       </div>
-      <div>
+      <div xml:id="r982852">
         <head rend="uc">Première partie
          <lb/>Polices et police à Paris sous Louis XIV</head>
-        <div>
+        <div xml:id="r982860">
           <head rend="uc">Chapitre premier
            <lb/>naissance de la police moderne</head>
           <p>Le développement de Paris, à la fois territorial et démographique, engendra un besoin d’ordre public. A l’avènement du Roi-Soleil, cet ordre public était assuré par un grand nombre d’autorités détentrices des pouvoirs de police de la capitale : Parlement, Châtelet, Hôtel de Ville, seigneurs ecclésiastiques ; une multitude d’autres juridictions se disputaient la police de la ville, et cette pluralité était source de conflits et d’inefficacité.</p>
@@ -86,7 +84,7 @@
           <p>Au cours du règne de Louis XIV, la nouvelle institution s’affermit, ses pouvoirs furent étendus par un certain nombre d’ordonnances et d’arrêts qui lui conférèrent une autorité grandissante. Pourtant, le lieutenant général de police dut souvent s’opposer aux prétentions des anciennes juridictions qui se dressèrent contre lui en s’appuyant sur leurs privilèges anciens. Ceux-ci, selon la coutume bien connue de l’Ancien Régime, n’avaient pas été supprimés en 1667.</p>
           <p>Le lieutenant de police, aidé d’une partie du personnel du Châtelet qui fut mis à sa disposition, imposa son autorité et entreprit de faire de la capitale une ville propre, éclairée, où régnait l’ordre public, et où la sécurité des habitants était assurée.</p>
         </div>
-        <div>
+        <div xml:id="r982892">
           <head rend="uc">Chapitre II
            <lb/>Les commissaires enquêteurs et examinateurs au Châtelet</head>
           <p>Les commissaires au Châtelet, dont l’origine remonte, d’après Nicolas Delamare, aux <hi rend="i">missi</hi> du haut Moyen Age, étaient regroupés dans une communauté qui veillait de très près aux intérêts de ses membres.</p>
@@ -97,10 +95,10 @@
           <p>La Reynie, premier lieutenant général de police, s’efforça de faire attribuer un statut différent aux commissaires qui se chargeaient des fonctions de police ; ces dernières étaient en effet bénévoles en 1667, et il était impossible, à moins d’avoir une solide fortune personnelle de s’y consacrer totalement. Des dispositions furent prises pour améliorer le sort des commissaires de police sous forme de pension collective et de gratifications, mais il leur resta très difficile d’exercer uniquement des fonctions de police.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r982929">
         <head rend="uc">Deuxième partie
          <lb/>Nicolas Delamare</head>
-        <div>
+        <div xml:id="r982937">
           <head rend="uc">Chapitre premier
            <lb/>biographie</head>
           <p>Né à Noisy-le-Grand, le 23 juin 1639, Nicolas Delamare est issu d’une famille roturière de petits officiers. Orphelin assez jeune, il fut recueilli par un grand oncle auprès duquel il acheva son éducation en autodidacte. Après un séjour en Italie, il revint à Paris, où il acheta en 1664 une charge de procureur du roi au Châtelet ; vers la même époque, il épousa la fille d’un avocat au Conseil du roi.</p>
@@ -113,7 +111,7 @@
           <p>A partir de 1713, Delamare dut réduire son activité professionnelle, sans jamais l’abandonner totalement, et de 1718 à 1723, il se contenta de conseiller et de diriger ses collaborateurs.</p>
           <p>Il mourut le 15 avril 1723 dans sa quatre-vingt-quatrième année.</p>
         </div>
-        <div>
+        <div xml:id="r982975">
           <head rend="uc">Chapitre II
            <lb/>Le « traité de la police »
            <lb/>élaboration et problèmes d’édition</head>
@@ -127,7 +125,7 @@
           <p>Cette double attribution fut à l’origine d’une querelle d’intérêts entre le commissaire et l’Hôtel-Dieu, ce dernier rechignant à délivrer à Delamare la totalité de la somme qui lui était due. A la mort du commissaire, Lecler du Brillet, son continuateur, qu’il avait lui-même choisi et fait agréer par le premier président de Mesmes et le procureur général Joly de Fleury, reprit la lutte avec l’Hôtel-Dieu. La querelle ne se termina qu’en 1734. Quatre années plus tard, Lecler du Brillet livrait enfin au public le quatrième tome du <hi rend="i">Traité.</hi></p>
           <p>L’œuvre du commissaire resta inachevée, mais son entreprise suscita des initiatives analogues au cours du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r983034">
           <head rend="uc">Chapitre III
            <lb/>La carrière du commissaire Delamare</head>
           <p>Delamare fut chargé dès 1673 du quartier de la Cité, centre à la fois intellectuel et religieux de la capitale.</p>
@@ -136,12 +134,12 @@
           <p>Outre son activité au jour le jour dans son quartier, Delamare fut chargé d’un certain nombre de tâches spéciales, qui concernaient les affaires du roi, et d’autres qui formèrent des sortes de « départements » qui lui furent confiés en particulier, et dont nous avons étudié à part deux exemples, que nous estimons être les plus probants pour notre analyse de l’action de la police sous le règne de Louis XIV.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r983056">
         <pb source="https://nakala.fr/10.34847/nkl.d3fa995x#ed93e71144b3cbf21734d4eadebeb33feae37c5e" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.d3fa995x/ed93e71144b3cbf21734d4eadebeb33feae37c5e/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Étude détaillée de deux exemples d’activité policière
          <lb/>au <num>xvii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r983077">
           <head rend="uc">Chapitre premier
            <lb/>Nicolas Delamare et le problème des subsistances à Paris</head>
           <p>On peut évaluer la population parisienne à Paris à l’époque entre 500 000 et 800 000 habitants. Le ravitaillement de Paris en grains ou en farines passait par les trois marchés de la capitale, le port de la Grève, le port de l’Escole et la Halle. Il passait aussi par les boulangeries de la ville ou des faubourgs, ainsi que par les boulangers forains qui approvisionnaient dans leur grande majorité les marchés au pain de la capitale.</p>
@@ -155,7 +153,7 @@
           <p>Les policiers mettaient aussi en avant la réglementation prolixe en matière des grains, et pensaient qu’elle suffisait à elle seule à résoudre les problèmes.</p>
           <p>Enfin, leur échec relatif dans les problèmes des subsistances procède d’abord de la gravité des crises qui ont secoué la France, des résistances que leur opposèrent les autorités locales, et du manque d’informations qui leur auraient permis de se faire une idée plus juste de la situation, et d’agir en conséquence.</p>
         </div>
-        <div>
+        <div xml:id="r983118">
           <head rend="uc">Chapitre II
            <lb/>Nicolas Delamare et la police des livres à Paris</head>
           <p>Delamare fut chargé de la surveillance spéciale de la production imprimée, de sa circulation et de son commerce.</p>
@@ -165,7 +163,7 @@
           <p>Il subit un échec dans ce dernier domaine : le manque de moyens ne permettait pas à la police de la capitale de contrôler toutes les voies d’arrivée des livres étrangers à Paris, et les autorités de police locales étaient parfois compromises dans ce commerce.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r983143">
         <pb source="https://nakala.fr/10.34847/nkl.d3fa995x#bc37012b5fcb6843ba97fdd87e2ca4aba32f5871" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.d3fa995x/bc37012b5fcb6843ba97fdd87e2ca4aba32f5871/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>La tentative originale qui prit naissance en 1667 portait en elle les germes d’une police organisée et centralisée.</p>

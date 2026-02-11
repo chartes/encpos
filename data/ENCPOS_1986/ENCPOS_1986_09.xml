@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,21 +56,21 @@
         <surname>Henrard</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1131415">
         <head rend="uc">Introduction</head>
         <p>De la chancellerie des comtes d’Armagnac subsistent deux registres. Le premier, conservé aux Archives départementales du Tarn-et-Garonne, sous la cote A 44, couvre la période qui s’étend de juillet 1425 à mars 1426. Le second fait partie du Trésor des Chartes aux Archives nationales ; il est coté J 854 n° 3 et contient les actes enregistrés de novembre 1426 à juin 1427.</p>
       </div>
-      <div>
+      <div xml:id="r1131425">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Étude</head>
-        <div>
+        <div xml:id="r1131437">
           <head rend="uc">Chapitre premier
            <lb/>le contexte historique</head>
           <p>Entre 1425 et 1427, le nom d’Armagnac est sur toutes les lèvres, puisqu’il désigne l’ensemble des partisans de Charles VII. Pourtant Jean IV, comte depuis 1418, a rompu avec la politique ambitieuse de son père, le connétable Bernard VII. II ne quitte guère ses Etats et paraît se désintéresser des déchirements du royaume. Cette attitude fait une grande partie de l’intérêt des registres étudiés : le comte apporte tout son soin à l’administration de ses domaines, centrés autour <pb source="https://nakala.fr/10.34847/nkl.e1f0nku7#b62a3d1651fdaf08a1dfffac69e6913a63af8a50" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1f0nku7/b62a3d1651fdaf08a1dfffac69e6913a63af8a50/full/full/0/default.jpg"/>du comté d’Armagnac et des terres de Gascogne qui en dépendent d’une part, autour du comté de Rodez et des autres possessions d’outre-Garonne d’autre part. Trois cents kilomètres séparent la baronnie de Valleraugue du pays de Rivière, qui n’ont en commun que l’appartenance à un ensemble territorial qui va du cœur du Massif central à l’Adour. Jean IV porte à son apogée l’Etat comtal : en 1421, il a acquis le comté de l’Isle-Jourdain ; en 1427, il recueille l’héritage d’Amaury de Séverac.</p>
           <p>L’image de Jean IV a souffert d’abord de la comparaison avec l’entreprenant Bernard VII, qui lui était déjà opposé à l’époque, puis des catastrophes de la fin de sa vie, marquée par son emprisonnement et l’humiliation de sa maison. L’éclairage apporté par les registres issus de sa chancellerie est tout différent : le comte d’Armagnac, l’un des plus puissants seigneurs du royaume, tire profit du malheur des temps en jouissant dans ses Etats d’une indépendance de fait, sans renier en quoi que ce soit son allégeance à Charles VII.</p>
         </div>
-        <div>
+        <div xml:id="r1131457">
           <head rend="uc">Chapitre II
            <lb/>La chancellerie</head>
           <p><hi rend="i">Le chancelier et le personnel de la chancellerie.</hi> – Le chancelier d’Armagnac, premier des officiers comtaux, est choisi par le comte parmi ses conseillers et lors d’une séance du conseil. Sa nomination peut donner lieu – mais ce n’est pas une règle absolue – à des lettres de provision. Les lettres nommant Pierre de Valon portent que la charge est révocable <hi rend="i">ad nutum,</hi> comme tous les autres offices comtaux. L’investiture se fait par prestation de serment entre les mains du comte et remise du grand sceau.</p>
@@ -87,7 +85,7 @@
           <p>La réapparition du préambule dans un certain nombre d’actes, à valeur solennelle ou non (provisions d’office, lettres de rémission...), n’est pas un trait particulier à l’Armagnac. A la même époque, ce phénomène s’observe, en effet, dans d’autres régions. Il serait peut-être à mettre en relation avec le développement de la littérature politique du temps. L’examen des originaux fait apparaître de grandes similitudes dans le formulaire des différentes catégories d’actes. Ainsi, la formule de corroboration de type probatoire peut être utilisée pour les actes scellés sur lacs de soie, les lettres scellées sur double queue et celles qui le sont sur simple queue. Si la chancellerie d’Armagnac suit un formulaire très proche de la chancellerie royale, il faut cependant se garder de procéder par analogie pour établir une typologie des actes. Attribuer tel acte enregistré à une catégorie diplomatique en fonction du contenu juridique pourrait induire à trop d’erreurs.</p>
           <p>L’originalité de la diplomatique de Jean IV consiste d’une part dans l’expédition sous forme de lettres scellées sur simple queue d’actes (lettres de rémission, certaines donations) qui devraient appartenir, selon les usages de la chancellerie royale, à la catégorie des lettres sur double queue et d’autre part à l’utilisation des lettres de sceau plaqué au lieu et place des « mandements » (lettres sur simple queue), voire même des lettres patentes.</p>
         </div>
-        <div>
+        <div xml:id="r1131528">
           <pb source="https://nakala.fr/10.34847/nkl.e1f0nku7#44f7657176b7a306118d7baa6fac79c5b88a7d4b" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1f0nku7/44f7657176b7a306118d7baa6fac79c5b88a7d4b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le conseil et la justice</head>
@@ -97,7 +95,7 @@
           <p><hi rend="i">Les bailes.</hi> – Les bailes partagent avec les consuls certaines attributions judiciaires et veillent aux intérêts comtaux. Ils sont assez étroitement surveillés par l’administration du comte afin d’éviter des abus de pouvoir. Dans le comté de Rodez, on trouve des superbailes : à Rodez, dans le pays de Bédène, à Rebourguil, dont les circonscriptions sont plus étendues que celles des autres bailes. En pays de Rivière, le baile-majour a des attributions plus larges.</p>
           <p><hi rend="i">Jean IV et la justice.</hi> – Le comte use largement du droit usurpé de concéder des lettres de rémission. Surtout, il ne reconnaît en aucune manière la juridiction sur ses terres du parlement de Toulouse et n’accorde qu’avec réticence l’autorisation d’appliquer ses arrêts.</p>
         </div>
-        <div>
+        <div xml:id="r1131569">
           <head rend="uc">Chapitre IV
            <lb/>Les finances</head>
           <p><hi rend="i">L’organisation financière.</hi> – En Gascogne, la hiérarchie est stricte : au premier niveau figurent les trésoriers (de Lomagne, de l’Isle-Jourdain) ou receveurs : après paiement des dépenses ordinaires, ils envoient le reliquat de leurs recettes au trésorier-général de Gascogne, qui centralise les fonds (sauf sans doute ceux des receveurs d’Aure et de Magnoac). Dans le comté de Rodez, les receveurs ne sont pas subordonnés à un trésorier général. La plus vaste circonscription est celle du trésorier du comté de Rodez, qui perçoit la majeure partie des revenus de cette région. Le grainetier de Gages reçoit une bonne part des redevances en blés.</p>
@@ -113,7 +111,7 @@
           <p>L’approvisionnement de l’Hôtel comtal et les dépenses annexes absorbent des sommes considérables, et les livraisons en nature, pourtant impressionnantes, n’empêchent pas le recours aux réquisitions dès le début du printemps. Jean IV mène un train de vie fastueux et il maintient, sans doute pour des raisons politiques, deux hôtels comtaux : au château de Gages, dans le comté de Rodez, et à l’Isle-Jourdain, où il réside habituellement.</p>
           <p>De nombreux nobles servent directement Jean IV ; les subsides qui lui sont accordés lui permettent d’entretenir par de multiples présents la fidélité d’une grande partie de la noblesse rouergate et gasconne. Les officiers royaux, et notamment les sénéchaux voisins, ne sont pas oubliés.</p>
         </div>
-        <div>
+        <div xml:id="r1131633">
           <head rend="uc">Chapitre V
            <lb/>La guerre</head>
           <p><hi rend="i">La défense.</hi> – Jean IV, sujet de Charles VII, est en guerre contre les Anglais. Il se garde bien pourtant de la moindre action offensive contre eux, préférant le système des patis et suffertes qui lui permet en outre d’accroître son influence bien au-delà de ses Etats. Néanmoins, l’effort de défense est important : quarante-cinq places comtales sont mentionnées dans les deux registres. Une dizaine de communautés gasconnes obtiennent le droit de s’imposer elles-mêmes pour réparer leurs fortifications.</p>
@@ -121,7 +119,7 @@
           <p>Le problème des rapports de Jean IV avec le sinistre André de Ribes n’est pas résolu. Les registres ne permettent pas de conclure à la complicité, mais le comte bénéficie largement de son rôle d’intermédiaire entre les populations d’Albigeois et les routiers.</p>
           <p>Par opposition à une Gascogne constamment inquiète, le comté de Rodez paraît à l’abri des ravages de la guerre, et les hommes d’armes du roi sont les plus redoutés, lors de leur passage par le Rouergue que Jean IV fait étroitement surveiller.</p>
         </div>
-        <div>
+        <div xml:id="r1131660">
           <head rend="uc">Chapitre VI
            <lb/>Économie et société</head>
           <p><hi rend="i">La démographie.</hi> – Le relèvement démographique de la Gascogne ne semble pas amorcé. L’insécurité due à la guerre dépeuple les zones proches de la « frontière ». Mais c’est la peste, qui frappe Lectoure puis Auch et Barran, que les réductions de feux désignent comme première cause de mortalité. En revanche, la famine de 1425 n’a laissé de traces dans les registres que pour le pays de Rivière.</p>
@@ -136,7 +134,7 @@
           <p>Les notations les plus intéressantes concernent des catégories marginales dans la Gascogne du <num>xv<hi rend="sup">e</hi></num> siècle. Un acte est consacré au statut d’un questal, alors que les questaux étaient généralement considérés comme disparus depuis longtemps du comté d’Armagnac. Un autre montre le pouvoir comtal prenant sous sa protection les <hi rend="i">crestias</hi> de Lectoure, maltraités par les bailes de ce lieu.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1131721">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Regeste</head>

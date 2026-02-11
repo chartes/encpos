@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,18 +56,18 @@
         <forename>Joseph</forename>
         <surname>Billioud</surname>
       </byline>
-      <div>
+      <div xml:id="r347541">
         <head rend="uc">Introduction
          <lb/>origine des états</head>
         <p>Premières réunions des trois ordres, non pas en 1282 (date où le duc obtient du seul Clergé la dîme pour deux ans moyennant l’immutabilité des monnaies), mais lors des assises des baillis ou du Parlement de Beaune, soit pour y former le jury des causes importantes, soit pour légiférer avec le duc (exemples de 1286 à 1351).</p>
         <p>En requérant d’eux un impôt, comme tuteur du duc, Jean le Bon reconnaît en 1352 la nécessité de leur consentement ; il inaugure ainsi la série des Etats purement financiers, dont la tenue est rendue plus nécessaire, dès 1360, par la levée de la rançon promise aux Anglais.</p>
         <p>Consultés sur les seules affaires pouvant entraîner la levée d’un impôt, ils se distinguent du Conseil provincial, ouvert parfois à quelques membres des trois ordres.</p>
       </div>
-      <div>
+      <div xml:id="r347559">
         <pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#dbb2df0ce8302927d88e131ebe254a4452bff9b0" n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/dbb2df0ce8302927d88e131ebe254a4452bff9b0/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Fonctionnement des états</head>
-        <div>
+        <div xml:id="r347572">
           <head rend="uc">Chapitre premier
            <lb/>composition des états</head>
           <p>Il y a quarante ou quatre-vingts membres suivant l’importance numérique de la noblesse.</p>
@@ -78,13 +76,13 @@
           <p>Des baillis, procureurs, receveurs sont convoqués jusqu’en 1450 et siègent avec la noblesse. Le bailli de Dijon garde seul ce droit.</p>
           <p>Vains essais d’Etats partiels ou d’Etats convoqués à part dans chaque bailliage (1417). Le cas des États de 1357, dont tous les membres sont élus dans des assemblées préliminaires de bailliage, reste une exception.</p>
         </div>
-        <div>
+        <div xml:id="r347620">
           <pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#c0e9a57592483a099794610163a465ad01c18a92" n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/c0e9a57592483a099794610163a465ad01c18a92/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Convocation des états</head>
           <p>L’ordre émane du souverain, de son tuteur, de la duchesse régente (1434), sous forme de mandement remis au porteur des convocations. Dans certains cas il est transmis, sous la royauté, par le gouverneur (1356-1363 et depuis 1477) ; sous les ducs, par le Conseil de Dijon, auquel on laisse la fixation de la date. Peu à peu la commission donnée aux gens du Conseil chargés de requérir l’aide tint lieu de convocation, mais les Etats protestent dès 1460, et obtiennent en 1493 des lettres patentes de convocation, adressées au corps tout entier et contenant le motif de l’aide. De 1424 à 1472, le gouverneur convoque, en cas d’invasion, sur avis du Conseil ou du chancelier ; en 1438 et 1477, le Conseil convoque de son chef. A la criée succèdent les lettres individuelles remises soit par les baillis et sergents jusqu’en 1377, soit par des messagers. Elles sont rédigées à Dijon, puis à Paris depuis la réunion.</p>
         </div>
-        <div>
+        <div xml:id="r347637">
           <head rend="uc">Chapitre III
            <lb/>La session</head>
           <p>Elle est tenue jusqu’en 1386 soit à Beaune, Chatillon, Chalon, Montbard, Paris ou Sens, soit à Dijon, dans la moitié des cas. Les villes les plus souvent choisies ensuite sont Dijon et, par exception, Beaune. Le duc ou les commissaires fixent le lieu dans les convocations, adressées quinze jours d’avance. – Les députés des villes sont élus au dernier moment ; ils sont inviolables dès 1460.</p>
@@ -93,7 +91,7 @@
           <p>Parmi les sessions ne comportant pas de requête d’impôt, citons soit les États tenus à l’avènement du nouveau souverain, soit ceux dont les ordres ont réclamé la convocation pour y examiner les affaires laissées à leur compétence (rédaction des coutumes, ambassades). La session normale comporte toujours une requête de subside, examinée par les ordres séparément dès 1381 ; leurs « avis » sont fondus dans la réponse que fait l’abbé de Cîteaux à la réunion générale. Quand les Etats demandent des réductions ou posent des conditions, les commissaires en réfèrent au souverain qui accepte toujours, par des lettres notifiées aux membres des Etats dissous.</p>
           <p>Les actes des Étals sont rares, rédigés par un notaire public jusqu’à ce qu’on crée (1460) un office de secrétaire pour le clerc des Elus, qui transcrivait déjà les minutes de délibération. Leurs archives sont organisées en 1459 par une commission chargée de recouvrer tous leurs privilèges, soin remis ensuite au procureur des États. Ils n’ont pas de sceau.</p>
         </div>
-        <div>
+        <div xml:id="r347666">
           <head rend="uc">Chapitre IV
            <lb/>Les états et l’impôt</head>
           <p>1° <hi rend="i">Octroi de l’impôt.</hi> – Motifs : outre les cas féodaux, <pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#ea38c44ad27cc6f14c280220657c8713b3fed28b" n="5" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/ea38c44ad27cc6f14c280220657c8713b3fed28b/full/full/0/default.jpg"/>dont l’un, l’achat de nouvelles terres, est mal reçu, Philippe le Hardi allègue ses dettes, les autres souverains leurs guerres, des traités.</p>
@@ -109,10 +107,10 @@
           <p>3° <hi rend="i">Droit du Roi à l’impôt en Bourgogne.</hi> – Il lui faut le consentement du duc et des Etats. Mais, jusqu’au début du <num>xv<hi rend="sup">e</hi></num> siècle, par suite d’une clause de la donation de 1364, les aides ordinaires courent pour le Roi, qui les donne chaque fois au duc.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r347746">
         <head rend="uc">Deuxième partie
          <lb/>Recouvrement de l’impôt</head>
-        <div>
+        <div xml:id="r347754">
           <head rend="uc">Chapitre premier
            <lb/>les élus</head>
           <p>L’assiette de l’impôt est établie par les baillis ou des commissaires ducaux, puis, depuis 1382, par la commission permanente des Élus qui y procède par exception dès 1361 et 1371 ; elle était d’abord chargée de la défense <pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#6dd9b368b60c3d3a9bf141dd176ac6c8492f2d02" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/6dd9b368b60c3d3a9bf141dd176ac6c8492f2d02/full/full/0/default.jpg"/>du pays (1357) et de la levée de la gabelle rachetée par les États et perçue en leur nom (1373-1381).</p>
@@ -121,19 +119,19 @@
           <p>Les Élus sont commis par le duc jusqu’en 1437, par le gouverneur ou le Conseil pendant les invasions ; leurs serments prêtés aux États et aux commettants. Augmentation de leurs gages taxés au jour, puis depuis 1384 fixes et proportionnels à l’aide, depuis 1458 de 200 francs pour chaque ordre et accrus de vacations. Suppléant de l’Élu des nobles. L’Elu du clergé préside leurs séances, tenues à la Chambre des comptes et où, depuis 1486, on vérifie les privilèges obtenus par les Etats, munis ensuite de lettres d’attache.</p>
           <p>Leur clerc a des gages fixes de 100 francs par aide, plus ses écritures et l’exemption d’impôt ; il est nommé par le duc jusqu’en 1476. Les Élus arrivent alors à le désigner, et ce droit est confirmé par Charles VIII en 1484.</p>
         </div>
-        <div>
+        <div xml:id="r347789">
           <pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#54be0eec5f090507d72168d92c52a1ac6d52a6fd" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/54be0eec5f090507d72168d92c52a1ac6d52a6fd/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’assiette</head>
           <p>A la demande des États, elle est précédée toujours d’une recherche des feux. Deux « cercheurs » par bailliage, aidés des curés et échevins ; de 1469 à 1475, les États se réservent leur nomination, d’ordinaire laissée aux Elus, qui fixent leurs gages, sauf le droit du duc.</p>
           <p>Au <num>xiv<hi rend="sup">e</hi></num> siècle, les cotes des diverses classes de feux sont fixées approximativement à la session, avant la « cerche » : d’où pouvoir aux Elus de les modifier pour atteindre le total voté. Au <num>xv<hi rend="sup">e</hi></num> siècle, les Elus répartissent l’aide exactement entre les feux d’après la « cerche ». En 1475, les Etats, méfiants, se réservent la confection de l’assiette.</p>
         </div>
-        <div>
+        <div xml:id="r347821">
           <head rend="uc">Chapitre III
            <lb/>Les receveurs</head>
           <p>Il y en a un pour chacun des cinq bailliages, plus un pour Beaune et Nuits. Ils sont distincts de ceux du domaine, auxquels Charles VIII (1484-1493) et François I<hi rend="sup">er</hi> (1530) tentent vainement de confier la recette des aides. Ils sont maintenus, mais avec commission renouvelée chaque fois. Ils sont nommés par les Elus, parfois par les États (1471), par le duc, par les contribuables (1381), par le receveur général (1397). Serments prêtés d’ordinaire aux commettants ; ceux-ci fixent les gages, accrus de vacations depuis 1465. Cautionnement fourni au receveur général. Ils font des tournées avec les Élus dans les prévôtés pour affermer les impôts indirects. Pour les fouages les Elus leur envoient un cahier indiquant la part de chaque communauté, fixée en ayant égard à la condi<pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#5cd96bfaacd41446de484f9a319792dab75f6c9e" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/5cd96bfaacd41446de484f9a319792dab75f6c9e/full/full/0/default.jpg"/>tion sociale de ses habitants et aux avantages dont ils jouissent. L’ordre de levée aussitôt reçu, ils le transcrivent sur le brevet porté à chaque communauté par les sergents, qui « crient » aussi l’impôt. Répartition dans les communes par les échevins, dans les villages par les justiciers, ou à leur défaut, les commis du duc ou des Élus, puis par les asséeurs que choisissent les habitants. Gratuité des quittances et brevets réclamée et obtenue à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle. Le receveur général, nommé par les Élus, est souvent en même temps receveur du bailliage de Dijon ; depuis 1413, il est nommé par le duc, qui choisit le receveur général du duché. De 1386 à 1388, il ordonne la levée des termes anticipés par complaisance pour le duc ; d’ordinaire, c’est un simple caissier.</p>
         </div>
-        <div>
+        <div xml:id="r347848">
           <head rend="uc">Chapitre IV
            <lb/>Les arriérés d’impôt</head>
           <p>Les communes surchargées s’adressent au duc et depuis 1386 aux Elus, qui tiennent à cet effet des séances spéciales ; des « rémissions » sont accordées par les « asseeurs ».</p>
@@ -141,34 +139,34 @@
           <p>De 1372 à 1403, le contentieux appartient aux Élus siégeant à Dijon ; puis, aux tribunaux ordinaires, baillis, Conseil de Dijon, Chambre des comptes, Parlement de Beaune. Ils jugent soit en première instance, soit en appel les uns des autres. Appels au Parlement de Paris. Depuis 1502, la Chambre des comptes est seule compétente, formant pour les appels, avec des juges du Parlement de Dijon, une chambre mixte.</p>
           <p>Reddition des comptes devant les Elus et les commis du duc, puis devant la Chambre des comptes, établie vers 1377, et où les Elus ne paraissent plus après 1398.</p>
         </div>
-        <div>
+        <div xml:id="r347880">
           <head rend="uc">Chapitre V
            <lb/>Le budget des états</head>
           <p>Il provient des sommes supplémentaires assises sur chaque recette, pour payer les frais de levée et les cadeaux fréquents des États aux grands officiers de la province, sommes dont les Elus ordonnent le paiement. Ces frais énormes une fois payés, les Etats réclament le reste ; mais les concessions du pouvoir (1371-1484) restent vaines. Dès 1431, on vote donc d’autres suppléments à l’aide, ou même on obtient une session spéciale pour voter les sommes nécessaires au pays (ambassades, procès, fortifications des villes). Ces sommes sont assises sur les différentes recettes et, depuis 1447, sur une seule, celle d’Autun ou Dijon, l’office de receveur spécial des États ne datant que de 1631. Leur levée nécessite une permission du pouvoir.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r347893">
         <pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#364cc52ecac5eaf20eb5ed26143fd4357674f847" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/364cc52ecac5eaf20eb5ed26143fd4357674f847/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Influence sur le gouvernement</head>
-        <div>
+        <div xml:id="r347906">
           <head rend="uc">Chapitre premier
            <lb/>les ambassades</head>
           <p>Dès 1431, elles portent au duc en Flandre les remontrances qui suivent l’octroi de l’aide et tiennent leurs pouvoirs des seuls États, non des Élus ; dès 1468, elles comprennent deux ou trois membres pour chaque ordre, parmi lesquels les Elus, toujours employés au <num>xvi<hi rend="sup">e</hi></num> siècle. La direction est donnée à l’abbé de Cîteaux. Chaque envoyé est indemnisé par son ordre jusqu’en 1440 ; puis, tous les frais sont pris sur un supplément à l’aide ; des gages à la journée sont fixés par les Etats.</p>
         </div>
-        <div>
+        <div xml:id="r347924">
           <head rend="uc">Chapitre II
            <lb/>La gabelle du sel</head>
           <p>Après l’avoir votée (1370), rachetée et levée à leur compte (1373-1381), subie en permanence depuis 1383, les États la font abaisser de 22 à 12 francs le muid (1391). Le sel de Salins est vendu dans les greniers, au profit des marchands fermiers, qui les fournissent ; leurs baux de huit ans sont passés en la Chambre des comptes « au plus ravalant » et en présence des Elus ; garanties obtenues de 1462 à 1467. La gabelle portée à 40 francs en 1460, moyennant la suppression des autres aides ordinaires, au produit annuel desquelles (17.000 francs) elle équivaut à peu près.</p>
         </div>
-        <div>
+        <div xml:id="r347936">
           <pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#9130fe71cfb0ad0e24fb51c4799cf97ec118f645" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/9130fe71cfb0ad0e24fb51c4799cf97ec118f645/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Rôle politique</head>
           <p>Dès décembre 1380, les Etats choisissent les sept représentants du duché aux États généraux de Paris, droit exercé en décembre 1483 pour ceux de Tours, mais plus en 1576. Les Etats ratifient les traités de Gaillon (mars 1360) avec Édouard III, d’Arras avec Charles VI (mars 1415) et Maximilien d’Autriche (décembre 1482) ; ils approuvent les ambassades ducales aux conciles de Constance et de Pavie. Ambassade au Dauphin payée par un subside spécial (1431). Louis XI traite avec eux au sujet de la réunion (1477 janvier).</p>
           <p>Commission d’Élus pour la défense du pays contre les Anglais (1357). Mesures contre les Écorcheurs (1438). Demande de maintien d’un maréchal particulier aux deux réunions (1361 et 1477). Contrôle des garnisons royales.</p>
         </div>
-        <div>
+        <div xml:id="r347956">
           <head rend="uc">Chapitre IV
            <lb/>La justice</head>
           <p>Les Etats obtiennent la régularité et la prolongation des sessions du Parlement de Beaune (1431) et, à la réunion, son maintien et son indépendance. On les assemble pour le réorganiser (1480) ; une commission prise parmi eux obtient que la session soit prolongée (1484) ; création de quatre nouvelles charges de conseillers (1486). Suppression de ce Parlement (1485) ; il est rétabli après plusieurs ambassades des États.</p>
@@ -176,33 +174,33 @@
           <p>Aux deux réunions, on maintient la juridiction de la chancellerie, qui scellera les chartes comme celle de Paris (1478). Dispense de droits pour le scellement des arrêts de justice (1361-1460).</p>
           <p>Suppression en 1431 du droit d’évocation exercé par le Conseil provincial ; mais maintien momentané de cette juridiction pour décharger le Parlement jusqu’à ce que celui-ci soit prolongé de trois à six mois.</p>
         </div>
-        <div>
+        <div xml:id="r347982">
           <head rend="uc">Chapitre V
            <lb/>Le commerce</head>
           <p>Les Etats sont consultés plusieurs fois sur les « espiceries » taxées par Charles VII. La suppression du droit de sauf-conduit étendu à tort des marchands étrangers à ceux du pays leur est due. Mesures relatives aux péagers. Abolition des droits sur les bestiaux importés de France pendant les foires de Chalon.</p>
           <p>L’exportation des grains, défendue (1421-1459) par crainte de disette, est ensuite favorisée comme celle des vins par l’Yonne, des draperies par la Bresse. Louis XII impose au gouverneur le contrôle des Etats pour toute mesure nouvelle.</p>
         </div>
-        <div>
+        <div xml:id="r347997">
           <head rend="uc">Chapitre VI
            <lb/>Les monnaies</head>
           <p>Les États consentent en 1421 des emprunts pour émettre <pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#54d73a2f23884dae12f8f55a9fe5aa6694f4eb25" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/54d73a2f23884dae12f8f55a9fe5aa6694f4eb25/full/full/0/default.jpg"/> une monnaie forte permettant d’exclure la monnaie faible du Dauphin. États de 1485, réunis spécialement pour parer au désordre monétaire.</p>
         </div>
-        <div>
+        <div xml:id="r348014">
           <head rend="uc">Chapitre VII
            <lb/>Le droit privé</head>
           <p>Aide pour la rédaction des coutumes (1431 et 1458) ; elle est opérée par six commissaires, dont trois nommés par les États (1459). Hommage des nobles à Dijon (1478). Application (1477) et maintien (1483) de la Pragmatique. Suppression des droits d’amortissement indûment perçus sur les franches aumônes (1460) et les rentes rachetables (1487). Abolition des droits d’aubenage (1484), de prise (1361, 1382, 1477). Répression du braconnage (1460).</p>
         </div>
-        <div>
+        <div xml:id="r348026">
           <head rend="uc">Chapitre VIII
            <lb/>Le procureur des états</head>
           <p>Il prépare les ambassades dès 1460, poursuit devant les Cours de Dijon les causes intentées par les États en revendication de privilèges. D’autres procureurs non attitrés sont constitués dans les bailliages pour les mêmes affaires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r348039">
         <head rend="uc">Conclusion</head>
         <p>Ayant assuré un juste recouvrement de l’impôt par leur propre personnel, les Etats, dont l’autorité s’est accrue en défendant les pays contre les Écorcheurs, s’in<pb source="https://nakala.fr/10.34847/nkl.bcf6l4ch#fff162b2075bbcc6d1c20a6a595f452387a594e5" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.bcf6l4ch/fff162b2075bbcc6d1c20a6a595f452387a594e5/full/full/0/default.jpg"/>gèrent dans son administration dès 1440, et désormais résistent mieux au duc. Louis XI, Charles VIII tentent de s’en passer, mais doivent reconnaître tous leurs droits (1484).</p>
       </div>
-      <div>
+      <div xml:id="r348054">
         <head rend="uc">Appendice</head>
         <p>Etats des « pays adjacens » (vicomté d’Auxonne, Charollais, Mâconnais, Auxerrois, Bar-sur-Seine).</p>
       </div>

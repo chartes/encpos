@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1923_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1923_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,12 +61,12 @@
         <surname>Bourgeois</surname>
         <roleName>Décoré de la Médaille Militaire et de la Croix de Guerre</roleName>
       </byline>
-      <div>
+      <div xml:id="r418381">
         <head rend="uc">Introduction bibliographique et
          <lb/>topographique</head>
         <p>Archives. – Ouvrages manuscrits de Jean Rogier, Pierre et Oudart Coquault, Louis Bidet et Claude Bidet. – Ouvrages imprimés : l’œuvre de Varin.</p>
         <p>Topographie de Reims au moyen âge : les enceintes successives, les diverses seigneuries, les paroisses.</p>
-        <div>
+        <div xml:id="r418395">
           <head rend="uc">Première partie
            <lb/>Histoire politique de l’échevinage ;
            <lb/>ses rapports avec l’archevêque de Reims et
@@ -88,7 +86,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.d8e0tw1g#2f1b25a25be32d9584e368d95fb9cc4fd550f3f1" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.d8e0tw1g/2f1b25a25be32d9584e368d95fb9cc4fd550f3f1/full/full/0/default.jpg"/>
           <p>XIII. Après la bataille de Poitiers, les bourgeois obtiennent de l’archevêque la nomination d’un conseil de ville investi de pouvoirs financiers et militaires s’étendant à toute la ville. Le dauphin confirme ce nouvel état de chose le 9 septembre 1358 et nomme Gaucher de Châtillon, capitaine de Reims le 30 décembre 1358.</p>
         </div>
-        <div>
+        <div xml:id="r418463">
           <head rend="uc">Deuxième partie
            <lb/>Les institutions seigneuriales et municipales
            <lb/>dans les limites du ban de l’échevinage</head>

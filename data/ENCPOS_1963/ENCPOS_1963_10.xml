@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,26 +55,26 @@
         <surname>Fayard</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r842870">
         <head rend="uc">Sources</head>
         <p>Les sources essentielles sont : les volumes de la correspondance politique de Hambourg conservés aux Archives du Ministère des Affaires étrangères et la série B des Archives de la Marine, déposée aux Archives nationales. Le fonds de l’amirauté de Guyenne conservé aux Archives départementales de la Gironde ainsi que les archives notariales de Paris ont aussi été mis à profit.</p>
       </div>
-      <div>
+      <div xml:id="r842880">
         <head rend="uc">Introduction</head>
         <p>Hambourg était, au milieu du <num>xvii<hi rend="sup">e</hi></num> siècle, l’une des plus importantes villes du Saint Empire romain germanique et l’un des principaux centres financiers de l’Europe. Ce port avait réussi à ne pas se laisser entraîner dans la décadence de la Hanse.</p>
         <p>La guerre de Trente Ans avait fait apparaître le rôle capital que pouvait jouer cette ville en ce qui concernait la politique française. Dès 1643, la France y eut un résident en la personne de Claude de Meulles. Il était réservé à la famille Bidal d’Asfeld d’augmenter l’importance de ce poste.</p>
       </div>
-      <div>
+      <div xml:id="r842899">
         <pb source="https://nakala.fr/10.34847/nkl.3ffb72ku#bcc154c24fee20c6047f03dd16ddaffc42c0c542" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.3ffb72ku/bcc154c24fee20c6047f03dd16ddaffc42c0c542/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Résidents et envoyés de France à Hambourg</head>
-        <div>
+        <div xml:id="r842912">
           <head rend="uc">Chapitre premier
            <lb/>origines de la famille Bidal d’Asfeld</head>
           <p>Pierre Bidal était le fils de Benoît Bidal, mercier ordinaire du roi Louis XIII. En 1637, Pierre Bidal épousa Catherine Bastonneau, alliée aux Miron et aux Maupeou. Établi marchand drapier rue aux Fers, son commerce prospéra rapidement ; il devint le fournisseur des grands, du roi et de la reine Christine de Suède, dont il fut le « facteur général pour ses affaires en France ». Du métier de marchand de « soye », il se haussa à celui de banquier. La reine Christine lui emprunta sans cesse de l’argent qu’elle fut incapable de rembourser. Aussi, le 12 octobre 1653, anoblit-elle Pierre Bidal, lui conférant le titre de baron et lui accordant les terres de Harsefeld, dans le duché de Brême, et de Wildenbruch en Poméranie. Cependant, pour avoir accordé trop de crédit à sa bienfaitrice, il fit banqueroute en avril 1658.</p>
           <p>Le 26 mai 1661, le roi le nomma résident de France à Hambourg.</p>
         </div>
-        <div>
+        <div xml:id="r842927">
           <head rend="uc">Chapitre II
            <lb/>Pierre Bidal, résident de France à Hambourg (1661-1682)</head>
           <p>Le rôle du résident de France à Hambourg était de veiller au bon acheminement du courrier et de rendre compte de toutes les nouvelles portées à sa connaissance.</p>
@@ -85,7 +83,7 @@
           <p>Dans sa retraite, Pierre Bidal essaya de renouer la négociation entreprise par l’ambassadeur Verjus auprès de l’évêque de Munster quelque temps plus tôt. En mai 1676, Pierre Bidal réussit à conclure un traité avec Vintgens, représentant de l’évêque de Munster. Mais une indiscrétion en rendit la ratification impossible.</p>
           <p>Après la paix de Nimègue, il reprit ses fonctions à Hambourg. Il y mourut le 26 juillet 1682.</p>
         </div>
-        <div>
+        <div xml:id="r842951">
           <pb source="https://nakala.fr/10.34847/nkl.3ffb72ku#a9ea89b84af811d2a3593f2914930a96bc80875b" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.3ffb72ku/a9ea89b84af811d2a3593f2914930a96bc80875b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’abbé Étienne Bidal, résident et envoyé extraordinaire à Hambourg
@@ -95,10 +93,10 @@
           <p>Après la paix de Ryswick, ce fut en qualité d’envoyé extraordinaire qu’il retourna à Hambourg. En 1703, les hostilités entre la France et l’empereur le forcèrent, une nouvelle fois, à abandonner son poste. Lewencron, qui avait été ministre du roi de Danemark à la Diète d’Empire, devait le remplacer, mais il fut arrêté. Il n’y eut pas de représentant de la France à Hambourg ayant un caractère officiel ou officieux de 1703 à 1714, date à laquelle Jean-Baptiste Poussin, secrétaire d’ambassade à Copenhague, fut nommé envoyé extraordinaire à Hambourg.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r842977">
         <head rend="uc">Deuxième partie
          <lb/>Louis XIV et le cercle de basse-saxe</head>
-        <div>
+        <div xml:id="r842985">
           <head rend="uc">Chapitre premier
            <lb/>Hambourg : carrefour d’information et centre financier</head>
           <p>La situation géographique de Hambourg fit de cette ville un poste clef pour la surveillance du courrier et permit au résident de France d’être un agent informateur de premier ordre, surtout en périodes d’hostilités.</p>
@@ -106,19 +104,19 @@
           <pb source="https://nakala.fr/10.34847/nkl.3ffb72ku#d1fba8b16aec7ac075c6a2f66e1c62f3dff85317" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.3ffb72ku/d1fba8b16aec7ac075c6a2f66e1c62f3dff85317/full/full/0/default.jpg"/>
           <p>A partir de 1685, la place de Hambourg cessa, en ce qui concerne la remise des subsides de la France à ses alliés, d’avoir l’importance qu’elle avait eue dans les premières années du règne de Louis XIV.</p>
         </div>
-        <div>
+        <div xml:id="r843008">
           <head rend="uc">Chapitre II
            <lb/>Louis XIV et Hambourg</head>
           <p>En 1679, Louis XIV fut, avec les ducs de Brunswick, l’arbitre d’un conflit entre Hambourg d’une part, l’électeur de Brandebourg et le roi de Danemark d’autre part. Mais, d’une façon générale, le roi de France ne prit parti dans les nombreux conflits qui opposèrent, dans la deuxième moitié du <num>xvii<hi rend="sup">e</hi></num> siècle, la cité hanséate à ses voisins, que lorsque Hambourg, au hasard des circonstances, devenait un pion important sur l’échiquier international.</p>
         </div>
-        <div>
+        <div xml:id="r843026">
           <head rend="uc">Chapitre III
            <lb/>Louis XIV et le duc de Slesvig-Holstein</head>
           <p>Le résident de France à Hambourg était accrédité auprès du duc de Slesvig-Holstein.</p>
           <p>Allié de la Suède en 1679, Louis XIV contribua au rétablissement dans ses États du duc Christian-Albert de Slesvig-Holstein, dépossédé par son ennemi héréditaire, le roi de Danemark. Devenu en 1682 l’allié du Danemark, le roi de France s’abstint de prendre position dans les conflits qui continuèrent à opposer le roi de Danemark au duc de Slesvig-Holstein.</p>
           <p>En 1701, Louis XIV pensa se servir de Frédéric IV de Gottorp pour s’allier avec Charles XII de Suède, beau-frère du duc. Le 18 novembre 1701, l’abbé Bidal réussissait à conclure un traité verbal, par lequel Frédéric IV s’engageait à empêcher Charles XII de fournir des troupes aux ennemis de Louis XIV moyennant 15 000 écus de subsides mensuels. La France ne put tirer profit de ce traité, car Frédéric IV mourut l’année suivante, laissant pour lui succéder un enfant de deux ans.</p>
         </div>
-        <div>
+        <div xml:id="r843044">
           <head rend="uc">Chapitre IV
            <lb/>Benoît Bidal, baron d’Asfeld, et le tiers parti</head>
           <p>Benoît Bidal, dont l’activité entre 1690 et 1695 a été étroitement liée à celle de son frère l’abbé Étienne Bidal, fut, pendant cette période, l’un des principaux agents de la diplomatie française en Allemagne et dans les pays scandinaves. Envoyé en Suède en 1690, il fut ensuite chargé de réunir, sous l’égide de la France, les puissances disposées à former un « tiers party », c’est-à-dire une troisième force susceptible d’avoir une influence favorable à la France au cours des conflits entre Louis XIV et l’empereur.</p>
@@ -128,11 +126,11 @@
           <p>Le tiers parti ne fut pas formé, mais les tentatives faites par la France pour le constituer avaient suffisamment paralysé l’action des ennemis de Louis XIV pour que l’on puisse dire que les subsides versés par la France à cette occasion ne le furent pas en vain.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r843071">
         <head rend="uc">Troisième partie
          <lb/>Les relations maritimes et commerciales
          <lb/>entre la France et Hambourg</head>
-        <div>
+        <div xml:id="r843081">
           <head rend="uc">Chapitre premier
            <lb/>consuls et commissaires de la marine de France à Hambourg,
            <lb/>agents hambourgeois en France</head>
@@ -140,19 +138,19 @@
           <p>Jacques Martin, correspondant du banquier parisien Tallemant, « consul de la nation françoise » depuis 1655, semble avoir cessé ses fonctions peu après l’arrivée de Pierre Bidal à Hambourg. Louis XIV, qui fit en Slesvig-Holstein de nombreux achats de matériel militaire, préféra avoir à Hambourg, plutôt qu’un consul, un commissaire de la marine chargé de l’approvisionnement des arsenaux royaux ; François Du Pré porta ce titre de 1670 à 1682. Il n’eut un successeur qu’en 1714, en la personne de Pierre de Rochefort, lequel fut avant tout l’agent informateur du secrétaire d’État de la marine, le comte Jérôme de Pontchartrain.</p>
           <p>Le Hambourgeois Jean Beck et le Français Christophe Brosseau furent chargés à Paris de veiller aux intérêts des villes hanséatiques.</p>
         </div>
-        <div>
+        <div xml:id="r843105">
           <head rend="uc">Chapitre II
            <lb/>Le trafic commercial entre la France et Hambourg de 1661 à 1716</head>
           <p>Les guerres entre Louis XIV et l’empereur entravèrent gravement le com merce franco-hambourgeois de 1675 à 1679, de 1689 à 1698, ainsi que pendant la guerre de la succession d’Espagne. Elles l’annihilèrent presque complètement certaines années. L’époque la plus favorable aux échanges entre la France et Hambourg correspond à la période d’activité de la Compagnie du nord. Les produits français importés par Hambourg étaient des vins, des eaux-de-vie, et <pb source="https://nakala.fr/10.34847/nkl.3ffb72ku#ec04d6d8b4b7623dcde8a5428e03697ccca31bed" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.3ffb72ku/ec04d6d8b4b7623dcde8a5428e03697ccca31bed/full/full/0/default.jpg"/>des étoffes de luxe dont cette ville approvisionnait la noblesse allemande. La France faisait venir de Hambourg des bois et des métaux. Il se révèle très difficile d’évaluer avec précision l’importance du trafic entre la France et le grand port de l’Elbe, à cause du manque de documents.</p>
           <p>Après la mort de Colbert, la politique maritime et commerciale de Louis XIV à l’égard de Hambourg fut beaucoup plus déterminée par les impératifs de la guerre de course que par les intérêts du commerce français.</p>
         </div>
-        <div>
+        <div xml:id="r843125">
           <head rend="uc">Chapitre III
            <lb/>Le traité de commerce de 1716</head>
           <p>En 1716, la France consentit à renouveler le traité conclu en 1655 avec les villes hanséatiques venu à expiration en 1670. Le Conseil de commerce français, voulant empêcher que les ennemis de la France fissent leur commerce sous la bannière des villes hanséatiques (comme cela s’était souvent produit), concentra son attention sur les articles relatifs à la navigation en temps de guerre. Il n’hésita pas cependant à accorder l’exemption du droit de cinquante sous par tonneau ainsi que d’autres privilèges. Ce traité permit l’installation en France de nombreux Hanséates qui, au <num>xviii<hi rend="sup">e</hi></num> siècle, facilitèrent le développement des échanges entre la France et les villes hanséatiques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r843144">
         <head rend="uc">Pièces justificatives</head>
         <p>Mémoires pour servir d’instruction à Pierre Bidal (1661), Benoît Bidal (1690), Étienne Bidal (1698). – État de payement des subsides de la France aux princes étrangers (1690-1693). – Liste des Français résidant à Hambourg (1669). – Passeport délivré par le roi de France à un navire hambourgeois (1678).</p>
         <p>Plan de Hambourg (1682). – Carte de l’Elbe (1629). – Cartes du Slesvig-Holstein.</p>

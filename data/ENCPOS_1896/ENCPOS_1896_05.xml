@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1896_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1896_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,39 +61,39 @@
         <head rend="uc">Introduction. – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r213433">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r213439">
           <head rend="uc">Chapitre premier</head>
           <p>Description des églises classées en trois groupes.</p>
           <p>Premier groupe : grandes églises dont le plan comporte un porche, trois nefs, un transept, un choeur avec collatéral sur lequel s’ouvrent des chapelles absidales. Types : Châtel-Montagne, Ébreuil.</p>
           <p>Deuxième groupe : églises à trois nefs avec transept, une abside et deux absidioles semi-circulaires. Types principaux : Châtel-de-Neuvre, Cressanges, le Theil, Saint-Germain-des-Fossés.</p>
           <p>Troisième groupe : églises à une seule nef : Cognat.</p>
         </div>
-        <div>
+        <div xml:id="r213458">
           <pb source="https://nakala.fr/10.34847/nkl.2b58q8cz#0da26a87924ec70ba95f2b114ac865b4c0b8bc37" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.2b58q8cz/0da26a87924ec70ba95f2b114ac865b4c0b8bc37/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II</head>
           <p>Les clochers : leur classification en clochers de façade et en clochers centraux.</p>
         </div>
-        <div>
+        <div xml:id="r213473">
           <head rend="uc">Chapitre III</head>
           <p>Les chapiteaux : leur classification. La sculpture.</p>
         </div>
-        <div>
+        <div xml:id="r213483">
           <head rend="uc">Chapitre IV</head>
           <p>Peintures. Description des fresques de l’église abbatiale d’Ébreuil.</p>
         </div>
-        <div>
+        <div xml:id="r213493">
           <head rend="uc">Chapitre V</head>
           <p>Serrurerie. Pentures des églises d’Ébreuil, de Fleuriel, du Theil.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r213504">
         <head rend="uc">Deuxième partie
          <lb/>Géographie de l’école auvergnate</head>
         <p>Délimitation de la zone d’influence de cette école, en prenant pour <hi rend="i">critérium</hi> la forme et la disposition des voûtes et à l’aide d’exemples tirés d’églises où l’on trouve des influences étrangères. Telles sont les églises de Souvigny, d’Iseure, de Bourbon-l’Archambault, de Saint-Menoux, de Buxières-les-Mines, de Saint-Désiré, d’Huriel, de Fleuriel, du Montet.</p>
       </div>
-      <div>
+      <div xml:id="r213520">
         <head rend="uc">Conclusions</head>
         <p>Caractères auvergnats des églises d’une partie du Bourbonnais. Puissance de cette école d’architecture, dont les principes de construction se sont conservés jusqu’au <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
       </div>

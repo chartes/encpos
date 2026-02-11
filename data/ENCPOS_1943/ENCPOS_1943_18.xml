@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,7 +59,7 @@
         <head rend="uc">Livre premier</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r640332">
         <head rend="uc">Avant-propos</head>
         <p>Critique de l’œuvre de Du Bourg. Insuffisance d’une documentation uniquement composée de statuts.</p>
       </div>
@@ -69,14 +67,14 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r640351">
         <head rend="uc">Introduction</head>
         <p>Origine des corps de métiers développés parallèlement aux institutions communales. Métiers groupés en communautés aux <num>xiii<hi rend="sup">e</hi></num> et <num>xiv<hi rend="sup">e</hi></num> siècles.</p>
       </div>
-      <div>
+      <div xml:id="r640373">
         <head rend="uc">Première partie
          <lb/>Administration intérieure des métiers</head>
-        <div>
+        <div xml:id="r640381">
           <pb source="https://nakala.fr/10.34847/nkl.3c4250k9#4d26dca2f14993a1358c21fa9f43eca0f7947424" n="156" facs="https://api.nakala.fr/iiif/10.34847/nkl.3c4250k9/4d26dca2f14993a1358c21fa9f43eca0f7947424/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la hiérarchie corporative.</head>
@@ -84,7 +82,7 @@
           <p>2. <hi rend="i">L’ouvrier.</hi> – Salaire. Responsabilité professionnelle. Rupture du contrat par l’ouvrier.</p>
           <p>3. <hi rend="i">Le maître.</hi> – Conditions à remplir pour pouvoir ouvrir un atelier ; absence de chef-d’œuvre ; la majorité des métiers ne paient pas de droit d’entrée. Admission à la maîtrise des artisans étrangers à la ville. Facilités données aux fils de maîtres. Veuves de maîtres.</p>
         </div>
-        <div>
+        <div xml:id="r640416">
           <head rend="uc">Chapitre II
            <lb/>Les bailes.</head>
           <p>1. <hi rend="i">Durée du mandat.</hi> Mode de recrutement : par les capitouls (le plus souvent), par cooptation, par l’assemblée générale du métier.</p>
@@ -92,7 +90,7 @@
           <p>3. <hi rend="i">Mode d’exercice des fonctions.</hi> Cas de spécialisation.</p>
           <p>4. <hi rend="i">Rémunération.</hi> Part des amendes, vacations.</p>
         </div>
-        <div>
+        <div xml:id="r640468">
           <head rend="uc">Chapitre III
            <lb/>Les agents de second ordre.</head>
           <p>1. <hi rend="i">Les courtiers.</hi> – Les courtiers apparaissent dans les sta<pb source="https://nakala.fr/10.34847/nkl.3c4250k9#d2617bffa8f6169bb4d359d7247fe2df9d73bbfb" n="157" facs="https://api.nakala.fr/iiif/10.34847/nkl.3c4250k9/d2617bffa8f6169bb4d359d7247fe2df9d73bbfb/full/full/0/default.jpg"/>tuts en 1281. Ils faisaient partie du corps de métier, mais ils sont en même temps des sortes de fonctionnaires municipaux. Les salaires. Hôteliers-courtiers.</p>
@@ -100,17 +98,17 @@
           <p>3. <hi rend="i">Mesureurs de bois, peseurs de laine.</hi></p>
           <p>4. <hi rend="i">Mesureurs de vin.</hi> Les mesureurs, au nombre de douze, formaient une corporation à part.</p>
         </div>
-        <div>
+        <div xml:id="r640508">
           <head rend="uc">Chapitre IV
            <lb/>Vie collective des artisans.</head>
           <p>1. <hi rend="i">Assemblées.</hi> – Les assemblées sont mentionnées seulement dans deux statuts. Elles sont périodiques et surveillées par l’autorité municipale.</p>
           <p>2. <hi rend="i">Confréries.</hi> – La confrérie apparaît dès la fin du <num>xii<hi rend="sup">e</hi></num> siècle, en même temps que l’association professionnelle. Elle se développe parallèlement à cette dernière. Elle est nettement distincte de la communauté civile. Caisse commune. Patrons. Devoirs pieux et charitables des membres de la confrérie. La confrérie est-elle à l’origine de la corporation ? Vraisemblance de l’hypothèse pour la corporation des bouchers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r640538">
         <head rend="uc">Deuxième partie
          <lb/>La réglementation professionnelle</head>
-        <div>
+        <div xml:id="r640546">
           <head rend="uc">Chapitre premier
            <lb/>la réglementation du travail.</head>
           <p>1. <hi rend="i">La journée de travail.</hi> – Durée. Travail de nuit généralement interdit. Chômage des jours de fête, du samedi et du dimanche.</p>
@@ -118,7 +116,7 @@
           <p>3. <hi rend="i">L’association entre marchands.</hi> – Nombre maximum des associés : deux.</p>
           <p>4. <hi rend="i">Conventions. Cumul.</hi></p>
         </div>
-        <div>
+        <div xml:id="r640587">
           <head rend="uc">Chapitre II
            <lb/>La réglementation de la vente.</head>
           <p>1. <hi rend="i">Conditions de la vente.</hi> – Vente en public. Lotissement .</p>
@@ -128,26 +126,26 @@
           <p>5. <hi rend="i">Les hôtelleries.</hi> – Lieux de vente. Les courtiers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r640629">
         <head rend="uc">Troisième partie
          <lb/>Relations des métiers avec l’autorite</head>
-        <div>
+        <div xml:id="r640637">
           <head rend="uc">Chapitre premier
            <lb/>législation, juridiction.</head>
           <p>1. <hi rend="i">Le comte.</hi> – Le comte a la haute main sur les métiers comme sur le reste de la population.</p>
           <p>2. <hi rend="i">Les capitouls.</hi> – Dès l’origine, les capitouls collaborent avec le comte à la législation des métiers. Ils commencent à légiférer seuls au moment de la réunion du comté à la couronne (1270). – <hi rend="i">a</hi>) Promulgation des statuts. Leur élaboration. Rôle des artisans. – <hi rend="i">h</hi>) Pouvoir juridictionnel. Prudhommes-juges des questions techniques. – <hi rend="i">c</hi>) Nomination des bailes de certains métiers. Moins grande autonomie des <pb source="https://nakala.fr/10.34847/nkl.3c4250k9#34d6453f6dae3cd1997df2806f59e4dc84642e7b" n="159" facs="https://api.nakala.fr/iiif/10.34847/nkl.3c4250k9/34d6453f6dae3cd1997df2806f59e4dc84642e7b/full/full/0/default.jpg"/>métiers toulousains si on les compare à ceux de Paris et de Chartres.</p>
           <p>3. <hi rend="i">Le roi et ses agents.</hi> – Rivalité traditionnelle entre les consuls et les agents royaux (sénéchal et viguier), qui se poursuit même après que Charles TV ait accordé aux capitouls le monopole et la direction des métiers (1324).</p>
         </div>
-        <div>
+        <div xml:id="r640684">
           <head rend="uc">Chapitre II
            <lb/>Les corps de métiers et les finances municipales.</head>
           <p>Insuffisance des renseignements concernant les droits perçus sur les corporations. L’autorité municipale se réserve une partie des amendes et des droits d’admission qu’elle emploie à l’entretien de la maison commune et aux constructions de la ville.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r640697">
         <head rend="uc">Quatrième partie
          <lb/>Monographies de certains métiers</head>
-        <div>
+        <div xml:id="r640705">
           <head rend="uc">Chapitre premier
            <lb/>alimentation.</head>
           <p>1. <hi rend="i">La boucherie.</hi> – <hi rend="i">a</hi>) Les <hi rend="i">macellarii.</hi> Concession du métier à titre héréditaire par le comte Raymond V (1222). Ils vendaient de la viande de bœuf, de mouton, du porc frais et du porc salé. Achat, écorchage et vente au détail des animaux. – <hi rend="i">h</hi>) Les <hi rend="i">bocherii</hi> vendent de la viande de qualité inférieure : brebis, boucs, chèvres, truies. – <hi rend="i">c</hi>) Les tripiers. – <hi rend="i">d</hi>) Les agneliers vendent des agneaux, chevreaux, lièvres, chevreuils, perdrix.</p>
@@ -156,7 +154,7 @@
           <p>4. <hi rend="i">L’épicerie.</hi> – Les épiciers vendent des épices et des substances pharmaceutiques. En 1395, ils ont annexé les chandeliers, les ciriers et les apothicaires.</p>
           <p>5. <hi rend="i">L’huilerie.</hi> – En 1324, les huiliers forment une seule communauté avec les chandeliers.</p>
         </div>
-        <div>
+        <div xml:id="r640777">
           <head rend="uc">Chapitre II
            <lb/>Étoffes et habillement.</head>
           <p>1. <hi rend="i">L’industrie drapière.</hi> – Industrie florissante à Toulouse. Artisans et marchands drapiers. Arçonnage. Filage par les filandières. Tissage. Foulage et tendage par les pareurs. Lanage par les cardeurs. Tondage (les tondeurs forment une corporation à part). Teinture. Diverses sortes de draps.</p>
@@ -172,7 +170,7 @@
         <head rend="uc">Table des matières</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r640825">
         <head rend="uc">Livre II
          <lb/>publication du « livre des métiers »</head>
         <p>1. INTRODUCTION. – – Description du manuscrit. Valeur historique.</p>

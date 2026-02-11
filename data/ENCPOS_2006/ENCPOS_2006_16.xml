@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2006_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2006_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,7 +53,7 @@
         <surname>Haegele</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1454266">
         <head>Introduction</head>
         <p>La correspondance entre Napoléon et Joseph Bonaparte pourrait se caractériser par deux aspects : d’un côté les ordres et les reproches, de l’autre les justifications et les plaintes. Cette analyse se révèle juste, si l’on porte un regard attentif aux 1 607 lettres qui ont subsisté dans les nombreux fonds d’archives qu’ont laissés les deux frères Bonaparte. Joseph a été, dès le moment où son frère a accédé aux plus hautes charges, un commis dévoué, voire un serviteur de sa cause. Mais ne faut-il voir que d’un côté le donneur d’ordre, de l’autre l’exécutant, parfois mortifié de voir sa volonté détournée ? Est-il possible de dégager de la correspondance de Joseph avec son frère le développement d’idées personnelles ? En effet, contrairement à ses autres frères, Lucien ou Louis, Joseph n’a pas abandonné la lutte et a montré à plusieurs occasions une véritable capacité pour les affaires politiques ; il ne s’est en effet jamais considéré comme le souverain d’États fantoches. Ce sont cette disposition à l’indépendance, cette volonté manifeste de Joseph d’exprimer ses idées politiques qui ont souvent manqué dans les analyses précédentes. Les rares biographies complètes consacrées à Joseph font évidemment état des nombreuses contradictions du personnage historique : Bernard Nabonne s’est attaché à cerner la carrière politique de Joseph dans ses grandes lignes, exploitant les sources alors disponibles dans les années quarante. Gabriel Girod de l’Ain s’est avant tout intéressé à la vie privée de Joseph, mais ne s’est guère penché sur sa pensée politique. Il n’était pas possible de rester sur ce portrait, d’autant que ces deux biographies ont été publiées avant le retour en Espagne des archives prises par les Anglais lors de la bataille de Vitoria, en 1813.</p>
         <p>La présente thèse vise donc un double objectif : donner un nouvel aperçu de la politique et de la pensée de Joseph et éditer la correspondance privée et politique croisée de Joseph avec son frère Napoléon.</p>
@@ -63,7 +61,7 @@
         <p>Du Casse a produit des pièces en les commentant de façon délibérément engagée. Il convenait de définir aujourd’hui une nouvelle vision de l’homme et de sa pensée, de prendre en compte sa carrière, son apprentissage du métier de roi, ses doutes, comme son opposition sourde mais réelle aux menées brutales et guerrières. On a peut-être pris trop à la lettre les reproches de Napoléon à son frère ; les conseils qu’ils donnent sont même parfois malvenus ou inutiles et Joseph ne manque pas de le relever, avec une certaine malice, lorsqu’il indique à l’empereur que les dispositions qu’il prescrit sont déjà exécutées depuis longtemps. Aussi, accabler Joseph, c’est avant tout ne donner foi qu’à la seule correspondance active de Napoléon. La distance, les délais d’acheminement ont souvent provoqué des malentendus, ignorés par Joseph, mais non par les historiens de la commission historique chargée par Napoléon III de publier la correspondance de son oncle.</p>
         <p>L’étude de la correspondance permet aussi un regard nouveau sur les techniques épistolaires des frères Bonaparte et sur l’évolution de leur écriture. On s’attachera notamment à analyser le papier qu’ils utilisaient, lequel n’est pas un détail si anodin, ainsi que les différents canaux suivis pour transmettre le courrier.</p>
       </div>
-      <div>
+      <div xml:id="r1454293">
         <head>Sources</head>
         <p>Les sources utilisées pour le commentaire et l’édition proviennent dans leur majeure partie des Archives nationales, où sont conservés les papiers de Joseph Bonaparte (cote 381 AP) ainsi que les papiers de la famille Napoléon (cote 400 AP). Ces deux sous-séries ont apporté un grand nombre d’éléments nouveaux pour la constitution du corpus. Il a été admis pendant un certain nombre d’années que la correspondance des deux frères avait été complètement parcourue par les différents historiens qui avaient succédé au baron du Casse, auteur de dix volumes de correspondance, intitulés <hi rend="i">Mémoires et correspondance politique et militaire du roi Joseph</hi>. Le dépouillement des archives a prouvé que la correspondance des deux frères étaient loin d’être complète et exhaustive. Quant aux lettres déjà publiées, il a fallu procéder à une relecture approfondie ainsi qu’une annotation poussée.</p>
         <p>D’autres sources ont dû également être vues ou revues entièrement : les archives de la secrétairerie impériale (AF IV) figurent au premier rang. La cote AF IV 1714 a été une source précieuse, puisqu’elle contient les registres de copie-lettres du roi Joseph. Lorsque l’on sait qu’un grand nombre d’originaux ont disparu, ces copies ne peuvent être négligées.</p>
@@ -71,9 +69,9 @@
         <p>Les archives de Joseph Bonaparte ont connu une histoire bouleversée : très attaché à ses papiers et à sa correspondance, le frère aîné de Napoléon avait pris soin d’en mettre une partie à l’abri en Espagne, puis dans une caisse cachée sous terre pendant quelques années. Mais la plus grande partie des fonds, c’est-à-dire les archives royales, ont été prises par le duc de Wellington sur le champ de bataille de Vitoria le 21 juin 1813. Cette perte a soustrait aux historiens des éléments complets pour comprendre l’histoire du règne de Joseph sur les royaumes de Naples et d’Espagne. Il a fallu attendre 1977 pour que la famille Wellington cède à la Espagne les caisses saisies en Espagne.</p>
         <p>Depuis lors, ces sources ont été très négligées, comme le sont les fonds du 400 AP, cédés par la famille Bonaparte : le carton 400 AP 131, désormais accessible à tous les historiens et contenant une foule de documents importants sur la vie de Joseph, est resté ainsi totalement inconnu jusqu’à ce jour.</p>
       </div>
-      <div>
+      <div xml:id="r1454326">
         <head>Première partie <lb/>Le travail sur les sources</head>
-        <div>
+        <div xml:id="r1454333">
           <head>Chapitre premier <lb/>Aspects de la correspondance des deux frères</head>
           <p><hi rend="i">Approche matérielle des lettres</hi>. – La paléographie du début du <num>xix<hi rend="sup">e</hi></num> siècle n’a été que peu étudiée. Pourtant, elle présente d’indéniables intérêts pour l’historien. L’étude de l’écriture des deux frères Bonaparte n’est pas inutile : on a beaucoup glosé sur l’écriture de l’empereur, sans toutefois proposer une approche rigoureuse de sa graphie. Au moment d’éditer sa correspondance avec son frère Joseph, on ne pouvait écarter cet aspect primordial. L’écriture de Napoléon a conduit un certain nombre d’historiens à produire des contresens importants, dus à de mauvaises lectures. Il est possible aujourd’hui de rectifier ces erreurs en établissant une lecture rigoureuse de ces lettres.</p>
           <p>Il convient pour cela de faire appel à une vraie méthode de paléographie : l’écriture de Napoléon est avant tout le résultat d’un grand nombre d’héritages variés, italiens, français, école militaire etc. Il existe une écriture que l’on peut qualifier de « Bonaparte » car Joseph en reproduit certains traits. C’est pour cette raison qu’on le sollicite assez souvent pour déchiffrer certaines lettres de son frère.</p>
@@ -82,7 +80,7 @@
           <p><hi rend="i">Acheminement du courrier</hi>. – L’acheminement des lettres, par poste ou par estafette, est un élément primordial dans l’étude des relations épistolaires des deux frères Bonaparte. L’étude porte ainsi sur un aspect méconnu de la poste impériale, avec l’établissement de l’estafette de Naples, par décret officiel. Les archives de cette estafette sont conservées sous la cote 381 AP 4 et ont pu faire l’objet d’un dépouillement.</p>
           <p>La transmission du courrier est rapidement considérée comme un objectif de guerre, particulièrement en Espagne, où l’on peut parler de <hi rend="i">guerre du courrier</hi>. Les lettres interceptées par la guérilla et transmises au commandement anglais ont ainsi considérablement enrichi les archives Wellington. Dans cette guerre, l’avantage est allé de façon incontestable aux Anglais qui ont su lire les chiffres du ministère de la Guerre et des Affaires étrangères. Une des clefs de voûte des guerres napoléoniennes se trouve certainement dans l’acheminement du courrier.</p>
         </div>
-        <div>
+        <div xml:id="r1454375">
           <head>Chapitre II <lb/>Principes d’édition d’hier et d’aujourd’hui.</head>
           <p><hi rend="i">Les précédentes éditions</hi>. – Les éditions du passé ont été lacunaires, voire orientées politiquement par des historiens soucieux de se conformer à des instructions venant de Napoléon III.</p>
           <p>Les grandes entreprises sont celles réalisées par le baron du Casse, citée précédemment, et par la Commission historique nommée par Napoléon III en 1855 dont le but est de procéder à une édition des lettres, <hi rend="i">telle que l’empereur Napoléon I<hi rend="sup">er</hi> l’aurait faite</hi>. Cette manière de faire implique donc d’écarter des lettres considérées comme inutiles ou trop privées. Au total, le pourcentage des lettres écartées est proche de 35%. Du Casse ne procède pas autrement, même s’il publie plus que la Commission. Pour lui, il importe avant tout de répondre à l’<hi rend="i">Histoire du Consulat et de l’Empire</hi> de Thiers qui s’est lui-même appuyé sur de nombreuses lettres inédites.</p>
@@ -91,15 +89,15 @@
           <p>Le deuxième mode, retenu ici, consiste à adopter les principes d’édition de l’École nationale des chartes : respect de la grammaire et de l’orthographe originales, appareil de notes critiques, établissement d’un tableau de la tradition des lettres reprenant les originaux et les copies ainsi que les précédentes publications..</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1454421">
         <head>Deuxième partie <lb/>Joseph Bonaparte : personnalité et idéologie politique</head>
-        <div>
+        <div xml:id="r1454428">
           <head>Chapitre premier <lb/>Biographie détaillée</head>
           <p>Il est inutile de revenir ici sur l’ensemble de la carrière politique de Joseph ainsi que sur sa vie privée. Il convient seulement de rappeler que de nombreux éléments nouveaux peuvent être encore apportés sur la carrière d’un homme que l’on a toujours décrit comme attaché indéfectiblement à son frère.</p>
           <p>Rien de plus hasardeux que ce jugement, hérité du baron du Casse : Joseph est tout, sauf docile, et ne cesse de penser au moment où il héritera d’une situation plus importante. L’homme est ambitieux, malgré ses dénégations et celles de ses premiers historiens, et s’il professe à tous moments des sentiments d’un républicanisme sincère, il sait toujours faire la part entre l’idéal et la réalité, en incarnant l’ordre et l’autorité. Son passage à Naples permet à Joseph de faire ses preuves comme souverain et de fonder son propre laboratoire d’expériences politiques, sociales et économiques. Malgré un règne court, un peu plus de deux ans, il peut partir en estimant avoir rempli l’essentiel de sa charge, se remboursant au passage d’une belle somme de 878 000 ducats, qu’il détourne de l’emprunt qu’il a passé en Hollande.</p>
           <p>Arrivé en Espagne, Joseph continue à donner corps à ses propres contradictions : comment devenir populaire, tout en étant soutenu par les forces armées d’un pouvoir détesté ? Cette situation frappe les Espagnols qui entrent à son service et qui l’apprécient comme homme, non comme frère de l’empereur. Joseph s’efforce de donner un côté espagnol à tous ses actes, provoquant la colère de son frère et des maréchaux français en place. Les rapports sont exécrables entre Joseph et le maréchal Soult, qui s’est à peu près totalement rendu indépendant. Remettre en cause son autorité est le pire des délits aux yeux du roi, qui ne cesse de réclamer le renvoi des coupables ; cette guerre des chefs est la cause naturelle des désastres qui s’accumulent à partir de 1812, aux Arapiles dans un premier temps, puis à Vitoria, qui sonne la retraite totale des forces françaises en Espagne. Joseph est mis en résidence surveillée par son frère, avant d’être subitement nommé lieutenant-général de l’Empire pendant la campagne de France, promotion qui est également une façon de le surveiller. Après la défaite définitive de 1815, Joseph gagne l’Amérique, puis l’Angleterre et enfin l’Italie, en évitant soigneusement de tresser des couronnes de laurier à son frère Napoléon.</p>
         </div>
-        <div>
+        <div xml:id="r1454445">
           <head>Chapitre II <lb/>Joseph, honnête homme ou souverain autoritaire ?</head>
           <p>Il convient de s’interroger sur la personnalité et la pensée politique de Joseph, lesquelles sont étonnamment complexes. Joseph est un homme cultivé, plein de bon sens, mais manifestement vaniteux et léger. Il charme par sa conversation et excelle dans les discussions diplomatiques. En roi, il impose le respect par sa manière de trancher les conflits et ne manque pas de sacrifier à l’éternel <hi rend="i">diviser pour régner</hi>, sachant fort bien jouer des dissensions existant chez ses ministres.</p>
           <p>De ce fait, l’homme a tout autant fasciné que dérangé et l’avis des historiens est toujours partagé : d’un côté, ceux qui ne voient en lui qu’un fantoche plein d’illusions, ou ceux qui voient en lui un gentilhomme des Lumières.</p>
@@ -108,17 +106,17 @@
           <p>Quoi qu’il en soit, par sa soumission apparente au régime impérial, l’image de Joseph sort écornée : le jugement de ses contemporains est sévère, celui d’un grand nombre d’historiens également et si certains, comme le baron du Casse, ont tenté de le défendre, leurs arguments n’ont pas convaincu.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1454473">
         <head>Troisième partie <lb/>Édition de la correspondance des frères Joseph et Napoléon Bonaparte</head>
         <p>L’édition de la correspondance des deux frères porte sur toutes les lettres qu’ils ont écrites entre 1784 et 1818 : Joseph a donc été le correspondant le plus fidèle et le plus ancien de son frère, ce qui n’est pas peu important. Au total, ce sont 1607 lettres qui ont été conservées jusqu’à nos jours, mais cela ne représente pas la totalité du corpus, étant donné qu’un petit nombre d’entre elles ont disparu au cours des événements : les lettres de Joseph remontant à la période révolutionnaire ont été perdues, ainsi que des lettres de la période espagnole et de la campagne de France. Certaines ne sont connues qu’à partir des minutes.</p>
         <p>Il n’a été procédé à aucune censure, mais plutôt à de nombreuses rectifications, corrections et ajouts afin d’obtenir le premier corpus intégral, qui ne nécessite pas de se tourner vers une dizaine de sources, dont beaucoup sont lacunaires.</p>
         <p>La correspondance est divisée par période. La première couvre les années 1784-1805, soit les années de formation et d’ascension. La deuxième les années 1806-1808, c’est-à-dire le règne napolitain de Joseph. La troisième parcourt le règne espagnol, 1808-1813, et la dernière les années des débâcles successives, de la campagne de France à l’exil.</p>
       </div>
-      <div>
+      <div xml:id="r1454490">
         <head>Conclusion</head>
         <p>Une édition scientifique, raisonnée et annotée de la correspondance de Napoléon et de Joseph apporte un éclairage neuf sur l’histoire du Premier Empire. L’infaillibilité de Napoléon, que Du Casse prétendait reconnaître dès 1795, paraît notamment moins évidente. Il est par ailleurs révélateur de noter que de nombreux détails les rapprochaient, que leur niveau d’éducation et que leurs goûts en matière de littérature ne différaient que peu. Joseph et Napoléon partageaient beaucoup de points communs : leur rupture, après 1805 et encore plus après 1809, ne pouvait être que spectaculaire.</p>
       </div>
-      <div>
+      <div xml:id="r1454499">
         <head>Annexes</head>
         <p>Addenda. — Tableaux synoptiques. — Cartes. — Édition de documents inédits ayant servi de sources.</p>
       </div>

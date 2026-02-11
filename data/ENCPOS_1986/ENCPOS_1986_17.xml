@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,40 +55,40 @@
         <forename>Valérie</forename>
         <surname>Poinsotte</surname>
       </byline>
-      <div>
+      <div xml:id="r1136356">
         <head rend="uc">Introduction</head>
         <p>L’histoire des pays rhénans au début de la Révolution française a déjà été étudiée en détail. En particulier, la situation économique et sociale, l’attitude de l’opinion envers les événements de France et la pénétration des idées révolutionnaires et les débuts de l’émigration ont fait l’objet de travaux récents. Il manquait toutefois une étude concernant les conséquences diplomatiques de la dégradation des rapports entre la France et les Electorats ecclésiastiques, dégradation qui amena la guerre et qui est le reflet des tensions croissantes au niveau européen.</p>
         <p>Les électeurs ecclésiastiques se composaient de l’archevêque de Mayence, également évêque de Worms, de l’archevêque de Trêves, dont la résidence se trouvait à Coblence, et de l’archevêque de Cologne, en même temps évêque de Munster et grand maître de l’ordre Teutonique, et qui résidait à Bonn. La France entretenait des ministres plénipotentiaires dans les trois résidences électorales, tandis que l’électeur de Cologne était seul à posséder un chargé d’affaires à Paris ; encore ce dernier ne s’occupait-il que d’affaires mineures.</p>
         <p>En 1789, la Révolution française modifia les rapports diplomatiques. La bonne intelligence se transforma alors en méfiance réciproque, puis en hostilité. En 1792, les ministres plénipotentiaires quittèrent les Électorats, les relations furent définitivement rompues ; et les occupations militaires périodiques remplacèrent les missions diplomatiques. A l’intérieur de cette période, l’été 1791 marque une coupure, aussi bien dans la situation intérieure française que dans les relations internationales. Au cours de cet été, la fuite du roi, le rapprochement entre la Prusse et l’Autriche, l’hostilité déclarée de l’Empire envers la France, les rassemblements armés d’émigrés dans les pays du Rhin, l’élection de la Législative, enfin, créèrent une situation toute nouvelle, où la guerre devint possible et même désirée.</p>
       </div>
-      <div>
+      <div xml:id="r1136372">
         <pb source="https://nakala.fr/10.34847/nkl.6c81918w#a11d18fdef307c4f37ca2bbad47d3ca4ba61e32b" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c81918w/a11d18fdef307c4f37ca2bbad47d3ca4ba61e32b/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>L’essentiel des sources se trouve aux archives du ministère des Relations extérieures, dans les séries Correspondance politique et Mémoires et documents. Les fonds du Comité diplomatique de l’Assemblée sont d’un intérêt assez médiocre et ne concernent que l’année 1792. La correspondance des envoyés français, très riche, abonde en renseignements variés sur les grandes affaires européennes, la politique des électeurs, les mouvements révolutionnaires et la vie de cour.</p>
       </div>
-      <div>
+      <div xml:id="r1136387">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>La situation en 1789</head>
-        <div>
+        <div xml:id="r1136399">
           <head rend="uc">Chapitre premier
            <lb/>l’Europe</head>
           <p>La Prusse conserve une position prééminente en Europe, grâce à son système d’alliances récent et dynamique, tandis que l’Autriche et la Russie s’enlisent dans leur guerre contre la Porte et que la France, paralysée par ses troubles intérieurs, se borne à observer le cours des événements.</p>
         </div>
-        <div>
+        <div xml:id="r1136411">
           <head rend="uc">Chapitre II
            <lb/>Les électeurs ecclésiastiques et l’Allemagne</head>
           <p>Les électeurs ecclésiastiques, puissances négligeables au point de vue économique et militaire, jouent un grand rôle dans l’Empire dont ils savent utiliser les rouages à la perfection. Leur importance symbolique, liée à la force persistante de l’idée d’Empire, oblige les grandes puissances allemandes, Prusse et Autriche, à les ménager.</p>
           <p>Deux affaires importantes ont mis en avant les électeurs ecclésiastiques. En premier lieu, l’électeur de Mayence adhère, en 1785, à la « Ligue des Princes » (<hi rend="i">Fürstenbund</hi>), coalition anti-autrichienne créée peu de temps auparavant par Frédéric II. La politique de Joseph II envers l’Allemagne a provoqué ce geste spectaculaire de l’électeur, archichancelier de l’Empire. Le parti prussien devient tout puissant à la cour de Mayence. En 1787, l’élection d’un coadjuteur, Dalberg, confirme en apparence l’emprise de la Prusse sur l’Électorat.</p>
           <p>D’autre part, les électeurs ecclésiastiques essayent de mener une politique commune dans l’affaire des nonciatures qui les oppose à la Curie romaine, à l’occasion de la création d’une nonciature à Munich. L’attitude ambiguë de l’empereur, les bonnes relations du roi de Prusse avec la papauté et la méfiance des évêques font échouer le mouvement des archevêques.</p>
         </div>
-        <div>
+        <div xml:id="r1136433">
           <pb source="https://nakala.fr/10.34847/nkl.6c81918w#4bdf5e0792cc672570e81d881be33c7f98333582" n="143" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c81918w/4bdf5e0792cc672570e81d881be33c7f98333582/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les électeurs ecclésiastiques et la France</head>
           <p>En 1789, les relations entre les Electorats ecclésiastiques et la France sont calmes et amicales. Le contentieux se réduit à quelques affaires de navigation entre les bateliers de Mayence et ceux de Strasbourg. Les ministres plénipotentiaires sont Colbert de Maulévrier à Bonn, Vergennes à Coblence et O’Kelly à Mayence. Leur correspondance présente un intérêt inégal.</p>
         </div>
-        <div>
+        <div xml:id="r1136450">
           <head rend="uc">Chapitre IV
            <lb/>Situation intérieure des Électorats</head>
           <p>Les électeurs ecclésiastiques ne sont pas des tyrans ennemis des Lumières. Ils ne négligent pas le gouvernement de leurs États et mènent une politique de réformes.</p>
@@ -98,11 +96,11 @@
           <p>La cour de l’électeur joue un rôle important, et dans la politique de ce dernier, et dans le travail des ambassadeurs français. A Bonn, l’électeur, Max-Franz d’Autriche, mène seul sa politique. A Coblence, Klemenz Wenzeslaus de Saxe se repose sur son favori, le baron de Duminique. Enfin, la cour de Mayence est le théâtre des intrigues et des luttes d’influence qui opposent le parti prussien, dominé par l’ambassadeur prussien Stein et par la nièce de l’électeur, Sophie von Coudenhoven, et le parti autrichien.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1136469">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>La lutte des électeurs contre la révolution<lb/>au sein de l’empire (1789-1791)</head>
-        <div>
+        <div xml:id="r1136483">
           <head rend="uc">Chapitre premier
            <lb/>Liège</head>
           <p>Prenant exemple sur la Révolution française, et à l’instigation de la Prusse qui désire se procurer une base de départ pour intervenir dans les Pays-Bas autrichiens, les habitants de la principauté de Liège se soulèvent en août 1789. Ils obligent le prince-évêque à promulguer des réformes rétablissant les libertés municipales et corporatives.</p>
@@ -113,7 +111,7 @@
           <p>La diplomatie française est restée spectatrice de toute l’affaire, tandis que l’opinion publique de ce pays prend fait et cause pour cette révolution écrasée, où elle voit une préfiguration du sort qui serait le sien si l’Europe se liguait contre la France en révolution. La correspondance politique des envoyés français près des cours du Rhin pendant l’année 1790 est consacrée en grande partie à cette affaire : les ambassadeurs se révèlent très hostiles à la révolution liégoise, alors que le ministre des Affaires étrangères Montmorin se cantonne dans une réserve totale.</p>
           <p>Cette affaire prouve que les électeurs, tout en ne possédant qu’une force militaire négligeable, savent utiliser à la perfection les institutions de l’Empire pour parvenir à leurs fins.</p>
         </div>
-        <div>
+        <div xml:id="r1136518">
           <head rend="uc">Chapitre II
            <lb/>La querelle des princes possessionnés d’Alsace</head>
           <p>Les princes possessionnés d’Alsace sont les premières puissances extérieures à souffrir directement des bouleversements français. Leur problème s’envenime très vite, les bases de négociations ne pouvant être trouvées : s’agit-il d’une affaire intérieure, les terres se trouvant sous souveraineté française ? ou d’une affaire extérieure, leurs détenteurs étant princes d’Empire ? Le traité de West<pb source="https://nakala.fr/10.34847/nkl.6c81918w#f9074ed3f5668143487bdd0be7671a17dfa437dd" n="145" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c81918w/f9074ed3f5668143487bdd0be7671a17dfa437dd/full/full/0/default.jpg"/>phalie est remis en cause. Aux réclamations de l’électeur de Cologne, de l’évêque de Spire ou du duc de Wurtemberg, viennent s’ajouter les plaintes des archevêques privés par la réorganisation religieuse de leurs évêchés suffragants (Metz, Nancy, Saint-Dié, Toul, Verdun pour l’électeur de Trêves, Strasbourg pour l’électeur de Mayence), ou même d’une partie de leur diocèse propre : le doyenné de Carignan est enlevé à l’archevêché de Trêves pour être incorporé au nouveau diocèse de Sedan.</p>
@@ -122,7 +120,7 @@
           <p>En 1791, l’Assemblée exécute en Alsace tous les décrets contestés. Le décret de commission impériale parvient à la Diète le 26 avril. Malgré l’impatience des électeurs ecclésiastiques et de l’évêque de Spire, lés discussions sont lentes. La fuite du roi précipite la décision et, le 6 août 1791, un <hi rend="i">conclusum</hi> est voté. La Diète se borne à demander à Léopold II l’envoi d’une nouvelle lettre. La décision appartient désormais à l’empereur, qui doit ratifier le <hi rend="i">conclusum</hi> et peut donc imposer à l’affaire les délais de son choix.</p>
           <p>Cette affaire montre l’intervention croissante de l’Assemblée nationale dans les affaires diplomatiques. Elle prouve aussi que les électeurs ecclésiastiques, malgré l’échec de leurs démarches auprès de Montmorin, espèrent encore en 1791 que l’empereur résoudra l’affaire par la voie diplomatique. Mais déjà des voix, dont celle de l’électeur de Mayence, s’élèvent pour réclamer une intervention militaire contre la Révolution.</p>
         </div>
-        <div>
+        <div xml:id="r1136555">
           <head rend="uc">Chapitre III
            <lb/>L’élection impériale de 1790</head>
           <p>La mort de Joseph II avait modifié le cours de la révolution de Liège, ainsi que celui de l’affaire des princes possessionnés d’Alsace. Le nouveau roi de Hongrie, Léopold, désire mener une politique différente de celle de son frère, faire la paix avec la Turquie, mater la révolte des Pays-Bas autrichiens et réconcilier avec l’Autriche les princes de l’Empire. Il n’est pas opposé à un rapprochement austro-prussien.</p>
@@ -131,11 +129,11 @@
           <p>Cette élection a soulevé de grands espoirs en Allemagne, où des réformes profondes sont de plus en plus considérées comme nécessaires. Mais la constitution impériale ne connaît aucun changement important. La personnalité et les options de Léopold font, cependant, espérer une politique différente et tous les vœux se tournent vers le nouvel empereur, surtout après son rapprochement avec la Prusse. L’électeur de Mayence lui-même se rapproche de l’Autriche et prend comme ministre dirigeant le référendaire Albini, partisan inébranlable de la cour de Vienne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1136582">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>La lutte des électeurs ecclésiastiques<lb/>contre la révolution au sein de leurs états<lb/>(1789-1791)</head>
-        <div>
+        <div xml:id="r1136598">
           <head rend="uc">Chapitre premier
            <lb/>les troubles</head>
           <p>Les électeurs ecclésiastiques doivent lutter contre divers troubles qui naissent dans leurs Etats. Que ces mouvements puissent être ou non qualifiés de révolutionnaires, les électeurs en retirent une grande méfiance envers la France, soupçonnée d’entretenir les insurrections. De plus, ils conservent l’illusion de pouvoir lutter par les armes contre une révolution. Les états de Ronn et de Coblence prennent exemple sur les états généraux français et tentent d’imposer des réformes fiscales. Ces revendications effrayent les électeurs mais, devant l’opposition des ordres privilégiés, le tiers-état renonce.</p>
@@ -143,7 +141,7 @@
           <p>Divers troubles urbains éclatent en 1789 et 1790 dans les pays rhénans. Aucun mouvement fédérateur ou unificateur ne peut cependant être perçu. Les insurgés se réclament souvent des idées françaises, mais ne sont pas en contact direct avec la France. Les agitations les plus notoires ont lieu les 5 et 6 octobre 1789 à Cologne, le 23 octobre de cette même année à Trêves et surtout du 31 août au 3 septembre 1790 à Mayence, alors que l’électeur se trouve à la Diète d’élection de Francfort. Des soulèvements ruraux ne se produisent alors qu’à Boppart, gros bourg de l’Électorat de Trêves, au sujet d’un règlement forestier promulgué en 1786. Mais d’avril 1789 à avril 1790, les insurrections se succèdent dans les villages.</p>
           <p>Par ailleurs, la chambre de Wetzlar charge les électeurs ecclésiastiques d’exécuter militairement ses sentences. Outre l’affaire de Liège, trois exécutions militaires ont lieu en 1789-1791 dans les pays du Rhin : dans les domaines de l’abbaye de Malmédy-Stavelot, dans le comté de la Leyen et dans les territoires allemands de l’évêché de Strasbourg. Les électeurs ecclésiastiques suscitent également des décrets contre les fauteurs de troubles, dans les cercles et à la Diète. Ils tentent de créer un cordon de troupes contre les « brigands lorrains ».</p>
         </div>
-        <div>
+        <div xml:id="r1136624">
           <head rend="uc">Chapitre II
            <lb/>Affaires économiques et affaires particulières</head>
           <p>Les ambassadeurs français auprès des cours du Rhin doivent également régler des questions assez terre à terre, d’ordre économique ou touchant à des intérêts particuliers.</p>
@@ -152,14 +150,14 @@
           <p>En 1791, des différends d’une autre nature éclatent lorsque les électeurs prohibent les pavillons aux trois couleurs.</p>
           <p>Enfin, les ambassadeurs doivent régler une multitude d’affaires particulières.</p>
         </div>
-        <div>
+        <div xml:id="r1136654">
           <head rend="uc">Chapitre III
            <lb/>Les débuts de l’émigration</head>
           <p>Les électeurs trouvent en 1791 le moyen de montrer à la France leur mécontement <pb source="https://nakala.fr/10.34847/nkl.6c81918w#c585914266ec38677b8010a886091ecb6608ee9c" n="148" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c81918w/c585914266ec38677b8010a886091ecb6608ee9c/full/full/0/default.jpg"/> d’une manière plus éclatante que par quelques brimades douanières.</p>
           <p>En 1789-1790, les Électorats ecclésiastiques représentent pour les émigrés français plus une étape qu’un lieu de séjour, exception faite de Trêves, ville proche de la frontière. Or, en février 1791, le prince de Condé sollicite et obtient de l’électeur de Mayence l’autorisation de s’installer dans son palais épiscopal de Worms. Il commence à y organiser une armée destinée à reconquérir la France. L’attention de l’Assemblée nationale se porte alors sur les pays rhénans, tandis que des mesures de représailles sont prises contre les émigrés.</p>
           <p>Le comte d’Artois, précédemment réfugié à Turin, arrive le 13 juin 1791 à Coblence chez son oncle, l’électeur de Trêves. L’opinion publique française s’émeut, surtout quand elle apprend la fuite du roi, le 20 juin 1791.</p>
         </div>
-        <div>
+        <div xml:id="r1136677">
           <head rend="uc">Chapitre IV
            <lb/>L’été 1791</head>
           <p>L’été 1791 est très riche en événements capitaux. La fuite du roi scelle le rapprochement entre l’Autriche et la Prusse, tandis que les émigrés, soutenus par la Russie, réclament de l’empereur une intervention militaire à laquelle il se refuse. Léopold devient l’arbitre de l’Europe mais préfère renforcer sa position plutôt que d’intervenir dans les affaires françaises. La Diète de Ratisbonne vote le 6 août un <hi rend="i">conclusum</hi> en faveur des princes possessionnés d’Alsace.</p>
@@ -167,18 +165,18 @@
           <p>Tout semble donc annoncer la guerre ; mais en réalité seuls les émigrés et l’Impératrice de Russie la désirent vraiment. L’Assemblée constituante se garde de tout geste provocateur et préfère achever la Constitution, même s’il faut pour cela tirer sur le peuple (fusillade du Champ de Mars). La paix est donc finalement préservée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1136700">
         <head rend="uc">
           <hi rend="i">Quatrième partie</hi>
           <lb/>La marche a la guerre<lb/>(de l’été 1791 a l’été 1792)</head>
-        <div>
+        <div xml:id="r1136714">
           <head rend="uc">Chapitre premier
            <lb/>l’automne 1791</head>
           <p>A l’automne 1791, la situation internationale se modifie. Tandis que les puissances européennes ont renoncé à former un concert contre la France, l’Assem<pb source="https://nakala.fr/10.34847/nkl.6c81918w#aee1478e4d673d0342cbbbb06e6554f939739074" n="149" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c81918w/aee1478e4d673d0342cbbbb06e6554f939739074/full/full/0/default.jpg"/>blée législative, nouvellement élue, désire la guerre et prend les mesures les plus propres à la provoquer.</p>
           <p>Dans les Electorats ecclésiastiques, les princes émigrés tournent à leur avantage les formules ambiguës de la Déclaration de Pillnitz et se laissent éblouir par les promesses de Catherine II. Les ministres plénipotentiaires français doivent enfin choisir leur camp : seul, O’Kelly demande un congé pour retourner en Ecosse. Colbert de Maulévrier et Vergennes prennent parti pour les frères du roi, sans démissionner ni être rappelés. Cette situation pour le moins étrange dure jusqu’à la démission de Montmorin (novembre) et son remplacement par Delessart.</p>
           <p>Aux yeux de l’Assemblée comme à ceux de l’opinion publique française, le danger principal pour la Révolution vient des préparatifs guerriers des princes émigrés sur le Rhin.</p>
         </div>
-        <div>
+        <div xml:id="r1136737">
           <head rend="uc">Chapitre II
            <lb/>La marche a la guerre</head>
           <p>A partir du mois de novembre 1791, l’Assemblée exerce un pouvoir croissant dans les questions diplomatiques. Elle vote, le 9 novembre, un décret qui déclare coupables de trahison les émigrés qui seront encore en armes sur le Rhin au premier janvier ; elle demande en outre au roi, dans le même décret, de prendre des mesures à l’encontre des princes qui accueillent ses frères.</p>
@@ -191,11 +189,11 @@
           <p>Après l’élection impériale à Francfort et le couronnement de François II (5 et 14 juillet 1792), une conférence a lieu à Mayence, le 21 juillet, entre le nouvel empereur, le roi de Prusse, les électeurs ecclésiastiques, le duc de Brunswick et les princes français. A cette occasion, les envoyés de France reçoivent des électeurs le « conseil » de s’éloigner. Ainsi sont rompues les relations diplomatiques entre la France et les Électorats ecclésiastiques rhénans.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1136784">
         <head rend="uc">Conclusion</head>
         <p>En 1792, les électeurs ecclésiastiques rhénans semblent en position de force, face à une France déchirée par les dissensions internes. Ils espèrent écraser la Révolution française avec l’aide des puissances allemandes, comme ils ont maté la Révolution de Liège. Ils veulent ainsi recouvrer leurs droits perdus en Alsace. L’avenir va prouver leur erreur.</p>
       </div>
-      <div>
+      <div xml:id="r1136794">
         <head rend="uc">Pièce justificative</head>
         <p>Rapport d’un agent secret sur la situation à Coblence à la fin de juin 1792.</p>
       </div>

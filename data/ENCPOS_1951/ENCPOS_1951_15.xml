@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1951_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1951_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,26 +58,26 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r729998">
         <head rend="uc">Introduction</head>
         <p>Les emblèmes représentent un aspect non négligeable de la littérature et de l’iconographie pendant les <num>xvi<hi rend="sup">e</hi></num>, <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles. Reprenant les sujets les plus courants de la production plastique des époques considérées, ils nous livrent à la fois les clefs de ces thèmes caractéristiques et les raisons de leur succès. L’intérêt des emblèmes réside, en effet, en ce qu’ils nous documentent sur les goûts d’un certain public ; ils ont été l’objet d’une mode, avec toutes les résonances sociales du mot : conçus moins pour la satisfaction de l’artiste que pour les besoins de la vulgarisation, ils correspondent dès l’origine à cette notion de pédagogie que les Jésuites leur imposeront. Atteindre à travers eux le public dans sa liaison avec l’art de la Renaissance, dégager, d’autre part, les mythes sociaux et politiques dont ils se sont, suivant cette définition, chargés, voilà les points essentiels auxquels s’est attachée cette étude.</p>
       </div>
-      <div>
+      <div xml:id="r730026">
         <head rend="uc">Première partie
          <lb/>Idées et faits promoteurs</head>
-        <div>
+        <div xml:id="r730034">
           <head rend="uc">Chapitre premier
            <lb/>emblème. Devise. Hiéroglyphe.</head>
           <p>L’emblème est à l’origine un élément symbolique entrant dans la composition d’un ensemble décoratif. Consacré genre littéraire après Alciat, <pb source="https://nakala.fr/10.34847/nkl.08da5tl0#d504e0def98cb9d8c22641383036f9a61154a1b9" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.08da5tl0/d504e0def98cb9d8c22641383036f9a61154a1b9/full/full/0/default.jpg"/>il devient, par l’union d’une image, d’une maxime et d’un texte épigrammatique, une « poésie peinte ». C’est sous cet aspect qu’on le trouve dans les Livres d’emblèmes.</p>
           <p>Le « hiéroglyphe », selon la conception de la Renaissance empruntée aux sources alexandrines de l’emblème, est une image idéographique, où le texte joue un rôle non négligeable. La devise du <num>xvi<hi rend="sup">e</hi></num> siècle joint aux conceptions du blason celles des hiéroglyphes ; elle est d’une composition plus élémentaire que l’emblème et s’accompagne d’une maxime ; c’est l’emblème appliqué à un cas individuel.</p>
         </div>
-        <div>
+        <div xml:id="r730060">
           <head rend="uc">Chapitre II
            <lb/>« l’image ».</head>
           <p>Emblèmes, devises, hiéroglyphes sont des images au sens platonicien du mot : c’est, en effet, le néo-platonisme florentin qui inaugure une civilisation visuelle en accordant aux yeux un pouvoir de connaissance supérieur à celui des autres sens. Pour Ficin, l’image doit matérialiser les vérités morales : on trouve déjà là les futures visées pédagogiques de l’emblème, qui, avec son contenu édifiant, est destiné à fournir en lieux communs la littérature, le discours, la décoration architecturale et mobilière, la peinture, etc.</p>
           <p>Du besoin d’exprimer une signification morale vient ce goût de l’attitude, du geste, de la figuration héroïque, qui apparente l’emblème à la notion de théâtre et lui donne une place importante aux origines de l’art baroque.</p>
         </div>
-        <div>
+        <div xml:id="r730075">
           <head rend="uc">Chapitre III
            <lb/>Origines des emblèmes à Paris (1500-1534).</head>
           <p>A Paris comme ailleurs, les hiéroglyphes précèdent les emblèmes. La première édition parisienne de l’alexandrin Horapollon est antérieure à 1521 ; dès lors, l’utilisation de ces figures se fait sentir dans la production imprimée, concurremment avec l’influence du <hi rend="i">Songe de Polyphile,</hi> édité à Venise en 1499. L’homme de cette première époque est Geoffroy Tory, qui traduit Horapollon, compose la première devise hiéroglyphique et nous donne dans son <hi rend="i">Champfleury</hi> (1529) un certain nombre d’images emblématiques.</p>
@@ -87,56 +85,56 @@
           <p>Il faut, enfin, faire une place à l’iconographie officielle, dont les premières notions sont vulgarisées par les <hi rend="i">Illustrations des Gaules</hi> de Jean Lemaire, et qui donne le départ au thème politique du prince, caractéristique <pb source="https://nakala.fr/10.34847/nkl.08da5tl0#be443a22ccd0a47d8dcc1607634aa0e3658963e9" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.08da5tl0/be443a22ccd0a47d8dcc1607634aa0e3658963e9/full/full/0/default.jpg"/> des emblèmes parisiens : au moment où Alciat paraît, le Rosso décore à Fontainebleau la Galerie de François I<hi rend="sup">er</hi>, où le souverain, pour la première fois, apparaît sous l’image du héros.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r730119">
         <head rend="uc">Deuxième partie
          <lb/>Les documents</head>
-        <div>
+        <div xml:id="r730127">
           <head rend="uc">Chapitre premier
            <lb/>livres d’emblèmes parisiens.</head>
           <p>Alciat, l’auteur du premier livre d’emblèmes, est édité sans interruption de 1534 à 1600. Il fait très vite figure de classique littéraire, mais, à part quelques images faciles à reconnaître et à imiter, adaptées aussitôt dans les marques typographiques, son influence sur l’iconographie est peu considérable.</p>
           <p>La Perrière, Toulousain, publie à Paris à partir de 1540 le <hi rend="i">Théâtre des Bons Engins ;</hi> il n’est pas sans points communs avec le Parisien Gilles Corrozet, libraire et auteur, autour duquel se groupent les représentants d’un néoplatonisme calme et bourgeois. Son <hi rend="i">Hécatomgraphie</hi> paraît en 1540, suivie d’autres publications dont la qualité emblématique est parfois difficile à établir. En 1543, on illustre Horapollon, en 1546 est édité le <hi rend="i">Songe de Polyphile.</hi> A ce moment commence la période de l’utilisation décorative des emblèmes et finit celle de leur publication : seules paraissent désormais la <hi rend="i">Délie</hi> de Scève (1564) et les <hi rend="i">Devises Héroïques</hi> de Paradin (1571), ouvrages de référence, tandis que le <hi rend="i">Livre de Fortune</hi> de Jean Cousin (1568) reste manuscrit.</p>
         </div>
-        <div>
+        <div xml:id="r730166">
           <head rend="uc">Chapitre II
            <lb/>Les entrées royales.</head>
           <p>Après un demi-siècle de tâtonnements, où la réception faite à Charles-Quint en 1539 utilise une image du <hi rend="i">Songe de Polyphile,</hi> c’est l’entrée d’Henri II (1549), organisée par Jean Martin, qui, la première, utilise systématiquement emblèmes et hiéroglyphes. Suivent l’entrée de Charles IX de 1571, celle de Henri III comme roi de Pologne en 1573, etc. ; à la fin du siècle, les troubles intérieurs ôtent à ces manifestations une grande partie de leur luxe et de leur solennité.</p>
         </div>
-        <div>
+        <div xml:id="r730182">
           <head rend="uc">Chapitre III
            <lb/>L’art officiel et le rôle du décor.</head>
           <p>A côté des entrées, les fêtes de Cour, sur lesquelles nous sommes peu <pb source="https://nakala.fr/10.34847/nkl.08da5tl0#f3e43904a5ef898baef6fef507565218a5225849" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.08da5tl0/f3e43904a5ef898baef6fef507565218a5225849/full/full/0/default.jpg"/>renseignés avant 1581, constituent un groupe de documents en rapport avec Paris, qui en est généralement le cadre ; l’art très officiel d’un Caron, qui se charge de retracer ces fêtes, contribue avec les entrées à établir la notion d’un décor emblématique à base d’architecture symbolique et d’hiéroglyphes. La décoration de certaines résidences royales de Paris, comme l’hôtel de Soissons, illustre cette notion : l’utilisation décorative des emblèmes semble, d’ailleurs, n’avoir atteint dans la capitale, au <num>xvi<hi rend="sup">e</hi></num> siècle, que les milieux cultivés de la Cour ou des grandes familles de robe appartenant elles aussi à ce cercle officiel. Parallèlement, l’impulsion des grands artistes chargés de cette décoration tend à la dépouiller de son caractère symbolique pour utiliser sa valeur purement plastique : il est impossible de déceler le degré de qualité emblématique dans des compositions telles qu’arabesques ou grotesques.</p>
         </div>
-        <div>
+        <div xml:id="r730205">
           <head rend="uc">Chapitre IV
            <lb/>Les intérieurs parisiens : décoration murale et mobilière.</head>
           <p>A part quelques exceptions tardives, comme 1’« Occasion et la Fortune » de l’Hôtel d’O, les renseignements fournis par les inventaires après décès nous rendent sceptiques quant à l’utilisation murale des emblèmes : des placards tirés de ces derniers ont pourtant été édités dans les imageries parisiennes. Par contre, leur adaptation dans le mobilier ne fait aucun doute. Il y a là une question de format : l’emblème, pièce de marqueterie, est une petite composition, qui s’insère en guise de médaillon dans un ensemble décoratif, ou remplit les plans limités d’objets de dimensions réduites. Outre ces cas où l’emblème est transporté tel quel du livre dans le domaine plastique, il faut signaler, dans le mobilier, l’emploi fréquent des arabesques et grotesques dont nous venons de parler – le style Androuet du Cerceau – et des figures plutôt allégoriques entrant dans le cadre des thèmes familiers aux emblèmes parisiens : vie humaine, vertus, Prince.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r730218">
         <head rend="uc">Troisième partie
          <lb/>Quelques thèmes</head>
-        <div>
+        <div xml:id="r730226">
           <head rend="uc">Chapitre premier
            <lb/>le jeu des balances.</head>
           <p>Un groupe d’emblèmes important est celui qui illustre de façons diverses le thème de la dualité (de la nature humaine, de la vie, etc...). Thème remontant entre autres aux Psychomachies médiévales. Rire et pleurs, comique et tragique, majeur et mineur se trouvent dans l’emblème de <pb source="https://nakala.fr/10.34847/nkl.08da5tl0#7b3c62457aff3ed28aa6650085f7e4976cba482a" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.08da5tl0/7b3c62457aff3ed28aa6650085f7e4976cba482a/full/full/0/default.jpg"/>Démocrite et d’Héraclite qu’une tradition continue mène de Ficin à Alciat et à l’imagier parisien Jean II Le Clerc, puis aux graveurs et aux peintres flamands. Vice et Vertu, Fortune et Vertu sont encore de ces duels où intervient la personnalité héroïque d’Hercule et qu’arbitre la Justice, dont les balances sont destinées à peser le pour et le contre de toutes situations ambiguës : c’est la notion du « juste milieu », dont l’instauration est le rôle du Prince, héros victorieux du Vice et de la Fortune, et qui doit en protéger ses sujets.</p>
         </div>
-        <div>
+        <div xml:id="r730243">
           <head rend="uc">Chapitre II
            <lb/>La fortune.</head>
           <p>A l’image médiévale de la Roue, à la représentation classique de la Fortune et de l’Occasion, emblèmes de l’instabilité, s’ajoute à Paris la figure du Navire, propre à la capitale, dont elle constitue les armes, pour désigner plus particulièrement la Fortune politique : c’est à ce titre qu’on la trouve en série dans les Entrées et dans le <hi rend="i">Livre de Fortune</hi> de Jean Cousin. Les deux cents emblèmes de ce dernier ouvrage contiennent une revue complète des différents aspects du thème.</p>
         </div>
-        <div>
+        <div xml:id="r730259">
           <head rend="uc">Chapitre III
            <lb/>Le prince.</head>
           <p>Il existe une liaison étroite entre les manuels politiques traitant du Prince, de l’art de gouverner, etc., et les emblèmes parisiens : nous constatons ainsi que la morale propre à ces emblèmes est plus particulièrement une morale civique dont le Prince est le héros, et qui tend à régler la condition humaine, le rôle des différentes appartenances sociales ou professionnelles, etc... L’ouvrage caractéristique de cet état d’esprit est le <hi rend="i">Livre de Police Humaine</hi> de Gilles d’Aurigny d’après F. Patrizzi (1543, 1544, 1546), contemporain de la plus forte activité emblématique à Paris.</p>
           <p>Parmi les emblèmes nommément consacrés au Prince, il faut énumérer ses diverses figurations héroïques : Orphée, Ulysse, Hercule surtout ; propre à Paris est l’Hercule Gaulois, qui représente l’Éloquence et non la Force : allusion au rôle du Prince dans la diffusion des Lettres et des Arts. Il semble que ce courant idéologique ait reçu une direction officielle, celle du souverain ou de son entourage ; persistant dans les emblèmes du <num>xvii<hi rend="sup">e</hi></num> siècle, il coïncide avec les tendances absolutistes croissantes des rois.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r730285">
         <head rend="uc">Conclusion</head>
         <p>Formellement, les emblèmes parisiens subissent une transformation importante, vers les années 1570-1580, avec l’apparition des conceptions <pb source="https://nakala.fr/10.34847/nkl.08da5tl0#ddcbbf968291a9762bb44b6cbe900ddb1ac22140" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.08da5tl0/ddcbbf968291a9762bb44b6cbe900ddb1ac22140/full/full/0/default.jpg"/>jésuites, de l’Opéra, du style baroque, etc... Mais, en ce qui concerne le fond, ils prennent en charge dès l’origine des idées communes à l’époque et au lieu, idées qui persistent à travers les variations de la forme plastique : à Paris, tant que la capitale reste le centre du gouvernement, ils sont et demeurent essentiellement des emblèmes politiques.</p>
       </div>
-      <div>
+      <div xml:id="r730300">
         <head rend="uc">Appendices</head>
         <p>Une fête de cour sous Henri II.</p>
         <p>Emblèmes post-tridentins de la galerie d’Ulysse à Fontainebleau.</p>

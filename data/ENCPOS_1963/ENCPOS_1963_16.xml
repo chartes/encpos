@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,31 +54,31 @@
         <forename>Wolfram</forename>
         <surname>Mallison</surname>
       </byline>
-      <div>
+      <div xml:id="r845870">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r845876">
           <head rend="uc">Chapitre premier
            <lb/>Raymond de Cadoène, abbé de Cluny (1400-1416)</head>
           <p>Raymond de Cadoène, né peu avant 1346, était un noble gascon qui entra jeune au prieuré clunisien de Tornac, diocèse de Nîmes, avant d’être appelé à Cluny par Jacques de Cozan. Prieur claustral, puis prieur majeur au printemps de 1377, Raymond II de Cadoène fut élu trente-neuvième abbé de Cluny le 11 septembre 1400. Il mourut le 12 septembre 1416.</p>
         </div>
-        <div>
+        <div xml:id="r845888">
           <head rend="uc">Chapitre II
            <lb/>L’ordinaire de Raymond de Cadoène</head>
           <p>Pour éliminer les erreurs ou les difficultés susceptibles d’arriver dans la célébration de l’office divin et de la messe, pour rendre accessibles ensuite ses préceptes à chacun des moines, Raymond de Cadoène fit extraire les éléments d’un ordinaire des trois livres qu’il avait fait établir : un missel (1408), un bréviaire (1410) et une édition revue des statuts de Bertrand du Colombier rédigés en 1307 (1412). Raymond de Cadoène essaya de remédier ainsi aux désordres que les définiteurs des chapitres généraux ne cessaient de dénoncer.</p>
           <p>Seul, le texte des <hi rend="i">initia</hi> du bréviaire est donné. Ceux-ci permettent de reconstituer l’ensemble de formules liturgiques contenues dans le bréviaire de Cluny dont aucun exemplaire manuscrit ne s’est conservé. Après le calendrier, le propre du temps, qui précède le sanctoral, ne contient strictement que les dimanches et les fêtes variables. Il se termine avec l’ordonnance des leçons des <pb source="https://nakala.fr/10.34847/nkl.1a8aa0j2#79e7cb306bb1ca2340c34af5c1d98ff76e18a21e" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.1a8aa0j2/79e7cb306bb1ca2340c34af5c1d98ff76e18a21e/full/full/0/default.jpg"/> féries. Le commun des saints est suivi de l’office de la Vierge <hi rend="i">in sabbato, </hi>de l’office hebdomadaire des saints Pierre et Paul, d’indications sur les psaumes graduels, des suffrages des saints, du petit office de la Vierge, de l’office de tous les saints, de l’office des morts, des psaumes familiers et d’un tableau des prières après prime et avant complies.</p>
           <p>L’ordinaire se limite à l’énoncé des <hi rend="i">initia</hi> liturgiques et n’essaie pas de remplacer les détails des coutumiers. L’explicit donne la date de 1410 qui est confirmée par cette note du chapitre de mercredi des Cendres : <hi rend="i">sicut contigit anno presenti M° CCC° IX° more gallicano computando.</hi></p>
         </div>
-        <div>
+        <div xml:id="r845926">
           <head rend="uc">Chapitre III
            <lb/>Les manuscrits de l’ordinaire</head>
           <p>Le manuscrit <hi rend="i">A</hi> (Paris, Bibl. nat., nouv. acq. lat. 1435, premier quart du <num>xv<hi rend="sup">e</hi></num> siècle) contient les trois parties de l’ordinaire, mais deux cahiers, dont l’un contenait la fin du bréviaire, manquent. <hi rend="i">B</hi> (Paris, Bibl. nat., lat. 17338, premier quart du <num>xv<hi rend="sup">e</hi></num> siècle), donnant le texte entier du bréviaire, permet de compléter <hi rend="i">A.</hi> Dans <hi rend="i">C</hi> (Bourges, Bibl. municipale, manuscrit 208, deuxième moitié du <num>xv<hi rend="sup">e</hi></num> siècle), qui n’était pas un manuscrit conservé dans le chœur, mais qui servait d’ouvrage de référence au maître des novices, la partie consacrée au missel est absente. Aucun des trois manuscrits ne contient de textes en notation musicale.</p>
         </div>
-        <div>
+        <div xml:id="r845972">
           <head rend="uc">Chapitre IV
            <lb/>Règles d’édition</head>
           <p><hi rend="i">A</hi> a été choisi comme manuscrit de base ; les variantes de <hi rend="i">C</hi> n’ont pu être considérées qu’en ce qui concerne le calendrier. Le texte a été divisé en deux cent quatre-vingt-sept paragraphes. Le nombre total des <hi rend="i">initia</hi> s’élève à environ douze mille. Les index permettent des comparaisons rapides. On y trouve des indications sur la répartition et le mode de récitation de 1421 antiennes, 120 psaumes, 93 hymnes, 236 versets, 1009 répons, 242 capitules, 559 collectes, 69 invitatoires, 236 leçons, 14 cantiques, et 160 leçons évangéliaires avec leurs homélies.</p>
         </div>
-        <div>
+        <div xml:id="r845995">
           <head rend="uc">Conclusion</head>
           <p>Du fait de la rareté des manuscrits clunisiens donnant les textes de l’office divin, l’ordinaire de Raymond de Cadoène comble la lacune qui existe entre les coutumiers de Bernard et d’Udalric au <num>xi<hi rend="sup">e</hi></num> siècle et les premiers bréviaires imprimés. Ceux-ci ont adopté, parfois textuellement, les rubriques de l’ordinaire, ou du moins du bréviaire qu’il représente.</p>
         </div>

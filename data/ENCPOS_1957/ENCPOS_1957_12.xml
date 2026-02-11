@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -53,11 +51,11 @@
         <forename>Henri-Georges</forename>
         <surname>Le Saulnier de Saint-Jouan</surname>
       </byline>
-      <div>
+      <div xml:id="r784437">
         <head rend="uc">Introduction</head>
         <p>On appelait au moyen âge <hi rend="i">dictamen</hi> l’art de la composition et du style et particulièrement celui de la composition et du style épistolaire. Cet art, en raison de l’utilité pratique qui était reconnue à l’<hi rend="i">epistola</hi> par les contemporains, fit l’objet d’un enseignement dans les écoles et les universités du <num>xii<hi rend="sup">e</hi></num> au <num>xiv<hi rend="sup">e</hi></num> siècle. Étudié d’abord en Italie, il le fut en France à partir de 1130, notamment à Tours, à Orléans et à Paris. L’un des maîtres qui enseigna en France, au <num>xiii<hi rend="sup">e</hi></num> siècle, la technique de l’<hi rend="i">epistola </hi>fut Pons le Provençal.</p>
       </div>
-      <div>
+      <div xml:id="r784477">
         <head rend="uc">Chapitre premier
          <lb/>l’œuvre.</head>
         <p>Pons le Provençal est l’auteur de quatre traités : une <hi rend="i">Summa dictaminis,</hi> une <hi rend="i">Summa de constructione,</hi> un <hi rend="i">Epistolarium</hi> et un <hi rend="i">De libellis.</hi></p>
@@ -71,13 +69,13 @@
         <p>Le <hi rend="i">tractatus positionum</hi> ou <hi rend="i">de positionibus</hi> attribué à Pons le Provençal à l’incipit et à l’explicit du manuscrit 10060 du fonds latin de la Bibliothèque Vaticane paraît être, en réalité, l’ouvrage de Roffredo de Bénévent où ce juriste a traité des questions que le demandeur devait adresser par écrit au défendeur au cours d’un procès devant une juridiction d’Église.</p>
         <p>Aux manuscrits indiqués, il faut ajouter les manuscrits perdus, celui de Turin (Univ. 918), disparu en 1904, la <hi rend="i">Summa dictaminis</hi> de la Bibliothèque de Thou, cité par Ducange (<hi rend="i">Glossarium,</hi> art. <hi rend="i">supermissa</hi>), et très probablement la <hi rend="i">Summa magistri Poncii,</hi> mentionnée dans le testament de Jakob Roth, fait à Zurich en 1321.</p>
       </div>
-      <div>
+      <div xml:id="r784684">
         <head rend="uc">Chapitre II
          <lb/>L’auteur.</head>
         <p>L’auteur s’est intitulé, dans le Prologue de la <hi rend="i">Summa de constructione </hi>et dans celui de l’<hi rend="i">Epistolarium, « magister Poncius Provincialis</hi> ». Dans plusieurs lettres de ce formulaire, il s’est désigné « <hi rend="i">magister Pondus</hi> » ou <hi rend="i">« magister P.</hi> ». On lit son nom sous ces trois formes aux incipit et aux explicit que portent les différents manuscrits de ses traités. Dans deux des modèles que contient l’état primitif du formulaire, l’auteur est nommé « <hi rend="i">P. magister in dictamine</hi> ». Le nom de baptême et le surnom de Pons le Provençal attestent son origine méridionale.</p>
         <p>Aucune mention de maître Pons n’a pu être reconnue en dehors du texte que les manuscrits ont conservé de son œuvre. De l’examen des modèles de l’<hi rend="i">Epistolarium,</hi> il résulte que Pons le Provençal enseigna peut-être à Toulouse vers 1236-1238, et très probablement à Paris, où il dut composer la <hi rend="i">Summa dictaminis,</hi> avant 1244, ainsi que les premiers états de son formulaire ; il professa ensuite à Orléans, où il aurait publié, en 1252, l’<hi rend="i">Epistolarium</hi> et, probablement, l’édition complète des quatre ouvrages dont il est l’auteur.</p>
       </div>
-      <div>
+      <div xml:id="r784731">
         <pb source="https://nakala.fr/10.34847/nkl.bece83b6#6e50644005ac018bae44d63eb4693fd762950c20" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.bece83b6/6e50644005ac018bae44d63eb4693fd762950c20/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre III
          <lb/>La doctrine.</head>
@@ -90,7 +88,7 @@
         <p>Les trois styles distingués par Pons le Provençal suivant lesquels il était possible de rédiger une lettre – <hi rend="i">brevitas, ornatus mediocris, ornatus superior</hi> – correspondaient à la hiérarchie des personnes en <hi rend="i">inferiores, mediocres, superiores.</hi> La distinction des styles, héritée de la rhétorique de l’Antiquité, fut adoptée d’autant plus volontiers au moyen âge qu’elle <pb source="https://nakala.fr/10.34847/nkl.bece83b6#b1155a7955e840d523631f42793c2e86ff34ba35" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.bece83b6/b1155a7955e840d523631f42793c2e86ff34ba35/full/full/0/default.jpg"/>convenait au sentiment que l’on avait, à cette époque, de la hiérarchie sociale : au <num>xii<hi rend="sup">e</hi></num> et au <num>xiii<hi rend="sup">e</hi></num> siècle, elle a été exprimée en France par les théoriciens de l’art poétique, en Italie par les maîtres en <hi rend="i">dict amen.</hi> Pons le Provençal l’a puisée à ces deux sources.</p>
         <p>Selon Pons le Provençal, l’art d’écrire reposait sur la connaissance de la grammaire, de la logique et de la rhétorique. Le maître italien Guido Faba a exprimé également cette idée dans sa <hi rend="i">Summa dictaminis</hi> et on retrouve la même conception sous la plume de saint Bonaventure.</p>
       </div>
-      <div>
+      <div xml:id="r784917">
         <head rend="uc">Chapitre IV
          <lb/>Le formulaire.</head>
         <p>Pons le Provençal écrit, dans le prologue de l’<hi rend="i">Epistolarium,</hi> qu’il a composé cet ouvrage « <hi rend="i">secundum doctrinam et ordinem Summe [dictaminis</hi>] ». De fait, les principes qui sont énoncés dans le manuel ont trouvé leur application dans le formulaire ; l’ordre et le titre des chapitres de l’<hi rend="i">Epistolarium</hi> qui contiennent les lettres de catégories de personnes déterminées reproduisent assez fidèlement ceux des paragraphes de la <hi rend="i">Summa, </hi>entre lesquels sont répartis les <hi rend="i">proverbia</hi> et les <hi rend="i">petitiones</hi> donnés à titre d’exemples. La division de l’<hi rend="i">Epistolarium</hi> en dix-huit chapitres est peut-être imitée de celle des <hi rend="i">Institutiones grammaticae</hi> de Priscien.</p>
@@ -99,7 +97,7 @@
         <p>Seize lettres de l’<hi rend="i">Epistolarium</hi> font allusion à des événements historiques que l’on peut identifier grâce aux noms des personnages qu’elles <pb source="https://nakala.fr/10.34847/nkl.bece83b6#d2665555cb9e4b309005dfa8e507afed3c8722bd" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.bece83b6/d2665555cb9e4b309005dfa8e507afed3c8722bd/full/full/0/default.jpg"/>mettent en rapports ou dont il est question dans le texte : lutte de Frédéric II contre la Ligue lombarde ; rivalité du comte de Provence, Raymond-Béranger V, et du comte de Toulouse, Raymond VII, et intervention du roi de France contre ce dernier ; croisade de saint Louis en Égypte ; et, semble-t-il, passage des Pastoureaux à Orléans. Pons le Provençal a dû composer ces lettres en s’inspirant de l’actualité. Leur valeur pour l’historien est, cependant, médiocre. L’auteur a généralement évité de préciser les faits, dont il n’avait peut-être qu’une connaissance imparfaite : les événements furent probablement plus ou moins déformés suivant l’opinion en cours à l’université où enseignait maître Pons ; ils ont pu être également transformés pour s’adapter à un thème d’école. Dans les modèles qu’il attribuait à un personnage historique, Pons le Provençal n’a pas tenu compte du formulaire diplomatique propre à la chancellerie de celui-ci ; il s’est plutôt préoccupé de suivre les usages communément reçus, tels qu’on les trouvait codifiés dans les <hi rend="i">Summa dictaminis.</hi></p>
         <p>Les deux derniers chapitres de l’<hi rend="i">Epistolarium</hi> ont été réservés aux modèles juridiques. L’un, le <hi rend="i">De modo curie,</hi> contient des exemples de lettres, telles que les juges ou les parties devaient en rédiger au cours d’un procès devant une juridiction ecclésiastique. L’autre, le <hi rend="i">De cartis sive de instrumentis,</hi> est composé de trente-trois modèles de contrats. Il faut rattacher aux formules de ces deux chapitres les modèles du <hi rend="i">De libellis.</hi></p>
       </div>
-      <div>
+      <div xml:id="r785042">
         <head rend="uc">Conclusion</head>
         <p>Les caractéristiques de l’enseignement du <hi rend="i">dictamen</hi> au <num>xiii<hi rend="sup">e</hi></num> siècle et les causes de son déclin.</p>
       </div>

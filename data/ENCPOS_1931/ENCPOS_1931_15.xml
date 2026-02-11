@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,7 +63,7 @@
         <head rend="uc">Bibliographie critique</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r506221">
         <head rend="uc">Premiere partie
          <lb/>Étude historique et analytique</head>
         <div>
@@ -73,7 +71,7 @@
            <lb/>analyse du poème.</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r506240">
           <head rend="uc">Chapitre II
            <lb/>La transmission du texte.</head>
           <p><hi rend="i">Baudouin de Sebourc</hi> est un poème de 26.000 vers, se rattachant par des liens assez lâches au cycle poétique de la première croisade. Le texte nous est transmis par deux mss. de la Bibl. Nat., les fr. 12552 et 12553 (A et <hi rend="i">B</hi>).</p>
@@ -82,14 +80,14 @@
           <p>Il existe d’autre part à la bibliothèque de l’Université de Munich, sous la cote 756, un feuillet en mauvais état, écrit au milieu du <num>xiv<hi rend="sup">e</hi></num> siècle, contenant un fragment d’une adaptation du poème en moyen-néerlandais.</p>
           <p>Les mss. de Paris ont servi à Louis Boca en 1841 pour son édition (sans caractère critique) du poème.</p>
         </div>
-        <div>
+        <div xml:id="r506304">
           <head rend="uc">Chapitre III
            <lb/>La date, la patrie et l’auteur du poème.</head>
           <p>Le poème est certainement postérieur à la mort de Philippe le Bel, comme il résulte du vers XXII 17. Tous les autres éléments de datation continuent cette hypothèse, beaucoup invitent à rajeunir le poème sans permettre de le faire à coup sûr. Cependant, l’emploi de deux termes relatifs au costume et à l’armement (<hi rend="i">volequin</hi> et <hi rend="i">gants à broches</hi>) invite à reporter au moins aux environs de 1350 la date de composition.</p>
           <p>La langue permet de localiser le poème dans la région de Valenciennes, hypothèse confirmée par les connaissances géographiques de l’auteur, et par les noms de monnaies qu’il cite.</p>
           <p>L’auteur, qui semble avoir une certaine culture, est un homme du peuple écrivant pour le peuple.</p>
         </div>
-        <div>
+        <div xml:id="r506330">
           <pb source="https://nakala.fr/10.34847/nkl.238f29mh#6e28af814c2c65d2dbd6ae696d19a51a4dfbe1ea" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.238f29mh/6e28af814c2c65d2dbd6ae696d19a51a4dfbe1ea/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les sources du poème.</head>
@@ -107,26 +105,26 @@
             <p>Parmi les autres sources, il faut compter : 1° la <pb source="https://nakala.fr/10.34847/nkl.238f29mh#f99e523b2336f765d9e12f6569ce9878b784a010" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.238f29mh/f99e523b2336f765d9e12f6569ce9878b784a010/full/full/0/default.jpg"/><hi rend="i">Navigatio Brendani</hi>, à laquelle notre auteur a pris le nom de Brandon, le thème des torches lancées par les diables, et la légende des adoucissements à la damnation de Judas ; 2° le <hi rend="i">Balaham et Josaphas</hi> de Gui de Cambrai, auquel il a pris l’épisode de la conversion de Josaphas ; 3° deux fableaux, ceux <hi rend="i">Du chevalier qui fist sa fame confesse</hi> et <hi rend="i">Du Prestre qui fut mis au lardier</hi>. Enfin, de nombreuses allusions montrent que l’auteur connaissait : 1° des légendes d’origine judéo-arabe sur l’<hi rend="i">Enfance de Moïse ;</hi> 2° les légendes de Fécamp et de Bruges relatives au Précieux Sang ; 3° des chansons de geste des cycles de Charlemagne, de Guillaume et de Huon de Bordeaux ; 4° des romans arthuriens, des romans courtois et les trois grands romans inspirés de l’antiquité.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r506462">
           <head rend="uc">Chapitre V
            <lb/>Les continuations du poème.</head>
           <p>Une seule, le <hi rend="i">Bastart de Buillon,</hi> nous est conservée, peut-être incomplètement : ce poème contient des récits annoncés dans <hi rend="i">Baudouin de Sebourc.</hi> Des autres continuations annoncées, nous possédons un résumé en prose dans la dernière partie du roman de <hi rend="i">Jean d’Avesnes</hi>, contenant le récit de « la fin et la mort de Baudouin de Sebourc », et celui des exploits de Saladin jusqu’à sa mort. Une partie des autres branches annoncées était peut-être contenue dans le poème que résume en prose le <hi rend="i">Livre de Baudouin de Flandre.</hi></p>
         </div>
-        <div>
+        <div xml:id="r506489">
           <head rend="uc">Chapitre VI
            <lb/>Les éléments historiques.</head>
           <p>Les allusions aux événements historiques sont rares et vagues, sauf deux, relatives, l’une à la ré<pb source="https://nakala.fr/10.34847/nkl.238f29mh#c0a4ed2c4140d66e289718a96b4ef645d30fac2b" n="131" facs="https://api.nakala.fr/iiif/10.34847/nkl.238f29mh/c0a4ed2c4140d66e289718a96b4ef645d30fac2b/full/full/0/default.jpg"/>volte des Ronds du Hainaut contre la comtesse Marguerite en 1252, l’autre à l’emprisonnement de Gui de Dampierre par Philippe le Bel en 1294.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r506507">
         <head rend="uc">Seconde partie
          <lb/>Etude littéraire</head>
-        <div>
+        <div xml:id="r506515">
           <head rend="uc">Chapitre premier
            <lb/>la composition et le style.</head>
           <p>Le poème n’a d’épique que le cadre. La composition est médiocre et le style très inégal. La maladresse de l’auteur se marque dans les répétitions de mots, de phrases ou de thèmes, dans l’abus des redondances et des chevilles. Son laisser-aller s’observe dans les altérations de mots pour les besoins de la rime, dans la lourdeur de l’exposition et la faiblesse de l’invention romanesque.</p>
         </div>
-        <div>
+        <div xml:id="r506527">
           <head rend="uc">Chapitre II
            <lb/>Les moralités.</head>
           <p>Dans les fins de laisses, que termine souvent une maxime, un dicton ou un proverbe, l’auteur moralise, donnant à ses auditeurs des conseils de piété et de vertu. Comme ses contemporains, il est misogyne.</p>
@@ -135,28 +133,28 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r506548">
           <pb source="https://nakala.fr/10.34847/nkl.238f29mh#329773733221636f942dd09a57d885a9fe8bc1c3" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.238f29mh/329773733221636f942dd09a57d885a9fe8bc1c3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’élément comique.</head>
           <p>Il tient une place énorme dans le poème. Il a surtout pour objets les femmes, les prêtres et les vilains. Ce comique est souvent gros et très volontiers scabreux. Les choses saintes sont traitées avec une légèreté frisant l’irrespect. Cet auteur annonce Rabelais.</p>
         </div>
-        <div>
+        <div xml:id="r506565">
           <head rend="uc">Chapitre IV
            <lb/>L’élément merveilleux.</head>
           <p>Le plus souvent, il est d’origine chrétienne (interventions divines, apparitions d’anges, miracles de toute nature), et parfois d’origine orientale.</p>
         </div>
-        <div>
+        <div xml:id="r506577">
           <head rend="uc">Chapitre V
            <lb/>Hypothèses sur la dualité des auteurs.</head>
           <p>Un changement radical s’observe vers le vers XVII 803. Ce changement est marqué par le renouvellement des personnages, l’abandon presque complet des éléments comique, merveilleux et* scabreux. A partir de ce moment, une formule plus strictement épique succède à la précédente, ayant pour but l’achèvement rapide du poème après le retour à l’unité d’action, et la liaison de ce poème avec ses continuations.</p>
           <p>Ce phénomène ne s’explique que par l’hypothèse d’un changement d’auteur au passage indiqué.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r506593">
         <pb source="https://nakala.fr/10.34847/nkl.238f29mh#add2c54da94bba4d00bd17aa6449a72e821954f1" n="133" facs="https://api.nakala.fr/iiif/10.34847/nkl.238f29mh/add2c54da94bba4d00bd17aa6449a72e821954f1/full/full/0/default.jpg"/>
         <head rend="uc">Troisieme partie</head>
-        <div>
+        <div xml:id="r506604">
           <head rend="uc">I.</head>
           <div>
             <head rend="uc">
@@ -182,7 +180,7 @@
           <head rend="uc">III. Le fragment moyen-néerlandais.</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r506670">
           <head rend="uc">IV.</head>
           <div>
             <head rend="uc">

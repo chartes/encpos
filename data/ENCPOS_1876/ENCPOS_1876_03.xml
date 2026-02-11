@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1876_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1876_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Demaison</surname>
         <roleName rend="uc">Licencié en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r87099">
         <head rend="uc">Chapitre premier.
          <lb/>Description et classement des manuscrits.</head>
         <p>I. – Description des manuscrits.</p>
@@ -69,7 +67,7 @@
         <p>Il en est de même des mss. <hi rend="i">b, c.</hi></p>
         <p>III. – Remarques sur le Département des enfants d’Aymeri, contenu dans les mss. du Mus. brit., bibl. du roi, 20 B, <pb source="https://nakala.fr/10.34847/nkl.8517p40g#f0eac04e875cecbc6b722afa7d1dcafa5e7352ee" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.8517p40g/f0eac04e875cecbc6b722afa7d1dcafa5e7352ee/full/full/0/default.jpg"/>XIX, f » 66 r° col. I à f° 86 v° col. I, et Harl. 1321, f° 63 v° col. I à f° 89 r° col. I. – Ses rapports avec la version du Département qui se trouve à la suite des Enfances Guillaume dans les mss. de la Bibl. nat., f. fr. 24369, et du Mus. brit., bibl. du roi, 20 D, XI.</p>
       </div>
-      <div>
+      <div xml:id="r87194">
         <head rend="uc">Chapitre second.
          <lb/>Caractères extrinsèques de la chanson d’Aymeri de Narbonne. – Date de sa composition. – Son auteur.</head>
         <p>I. – Langue du poème.</p>
@@ -77,28 +75,28 @@
         <p>III. – Date de la composition : la chanson d’Aymeri est une couvre de la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         <p>IV. – Auteur. – L’attribution à Bertrand de Bar-sur-Aube, auteur de Girart de Viane, est une simple présomption qui ne repose sur aucune base solide.</p>
       </div>
-      <div>
+      <div xml:id="r87221">
         <head rend="uc">Chapitre troisième.
          <lb/>Sources du poème. – Éléments historiques et légendaires.</head>
-        <div>
+        <div xml:id="r87229">
           <head rend="uc">1° <hi rend="i">éléments historiques.</hi></head>
           <p>I. – Aymeri et Hermengarde.</p>
           <p>Réfutation de l’opinion de Fauriel. – L’Aymeri de la légende ne peut être le vicomte de Narbonne Aymeri II, car on le voit paraître dans des documents d’une date trop ancienne pour permettre cette supposition. (Chronique de Waulsors, roman de Gérard de Roussillon.)</p>
           <p>II. – Siége de Narbonne. – Rapports de la légende avec l’histoire. – Allusion à la prise de Narbonne dans la chanson de Roland.</p>
         </div>
-        <div>
+        <div xml:id="r87248">
           <head rend="uc">2° <hi rend="i">traditions locales.</hi></head>
           <p>I. – Fondation de l’église Saint Paul de Narbonne par Charlemagne.</p>
           <p>II. – Saint Maurand de Douai.</p>
         </div>
-        <div>
+        <div xml:id="r87264">
           <pb source="https://nakala.fr/10.34847/nkl.8517p40g#015746a82e7486b742e8924c99b227e07a97fe3e" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.8517p40g/015746a82e7486b742e8924c99b227e07a97fe3e/full/full/0/default.jpg"/>
           <head rend="uc">3° <hi rend="i">Eléments légendaires.</hi></head>
           <p>I. – Histoire des hanaps et des noix brûlés à Pavie par les messagers d’Aymeri. – Examen des autres sources qui présentent cette légende. (Roman de Rou, Chronique de Geoffroy, prieur du Vigeois.)</p>
           <p>II. – Allusions à diverses chansons de geste : 1° Chanson de Roland ; 2° Prise de Nobles ; 3° Girart de Viane ; 4° Charroi de Nîmes ; 5° Prise d’Orange ; 6° Couronnement Looys ; 7° Covenans Vivien ; 8° Aliscamps ; 9° Hernaut de Girone ; 10° Siége de Barbastre ; 11° Aymer le Chétif ; 12° Siége de Narbonne ; 13° Foulques de Candie ; 14° Isembart et Gormont.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r87286">
         <head rend="uc">Chapitre quatrième.
          <lb/>Diffusion de la légende d’Aymeri et de la prise
          <lb/>de Narbonne.</head>

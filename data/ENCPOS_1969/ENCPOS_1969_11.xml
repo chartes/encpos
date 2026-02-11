@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,10 +56,10 @@
         <surname>Lesourd</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r906914">
         <head rend="uc">Première partie
          <lb/>Étude historique et littéraire</head>
-        <div>
+        <div xml:id="r906922">
           <head rend="uc">Chapitre premier
            <lb/>vie et œuvres de Regnaud le Queux</head>
           <p>Malgré le petit nombre de manuscrits des œuvres de Regnaud Le Queux et celui, encore plus infime, de documents le concernant, il est possible de retracer sa vie dans ses grandes lignes. L’auteur a mentionné dans ses œuvres un certain nombre de personnages dont l’identification permet de connaître les milieux dans lesquels il a évolué. Le <hi rend="i">Baratre infernal</hi> est daté de 1480. Une note de l’auteur nous apprend qu’à cette époque il était précepteur de René de Brosse, dit de Bretagne. On peut penser que c’est au début de son préceptorat que Regnaud Le Queux composa le <hi rend="i">Baratre,</hi> préceptorat qui a dû se situer entre 1480 et 1490 ; en effet, les père et mère de René de Brosse s’étant mariés en 1468, sa naissance doit se placer vers 1470. Sa mère, Louise de Laval, mourut en 1480. Dans cette même note, l’auteur nous apprend qu’il était licencié en lois, détail intéressant quand on considère que c’est à un autre « legisperite », Jehan Pastureau, qu’est dédié le manuscrit de Paris du <hi rend="i">Baratre infernal</hi> (Bibl. nat., fr. 450). Dans ce même manuscrit apparaissent les noms des gens au jugement desquels Regnaud Le Queux soumet son œuvre : Jehan Meschineau (à ne pas confondre avec l’auteur des <hi rend="i">Lunettes des princes</hi>), Charles de Gaucourt et Jehan Gaudeté. Charles de Gaucourt fut gouverneur de Picardie, lieutenant général et gouverneur de Paris et d’Ile-de-France ; Louis XI le chargea de missions de <pb source="https://nakala.fr/10.34847/nkl.40bfb29n#5f11e1d903b96df05f1b9a1ef036a3de6d747b8e" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.40bfb29n/5f11e1d903b96df05f1b9a1ef036a3de6d747b8e/full/full/0/default.jpg"/>confiance, comme son ambassade auprès de Charles le Téméraire. Une autre ambassade le mena chez le duc de Milan en 1465. Regnaud Le Queux le suivit-il à cette occasion ? Ce n’est pas impossible. En tout cas, Charles de Gaucourt, qui avait le goût des lettres, n’a certainement pas manqué de rapporter quelques volumes de son séjour en Italie. Regnaud Le Queux a dû entrer assez tôt au service du gouverneur de Picardie. C’est dans son entourage qu’il a débuté dans la carrière littéraire. Grâce à sa protection, probablement, il put approcher la famille royale, notamment la reine Marie d’Anjou, femme de Charles VII et mère de Louis XI et de Charles de France : Regnaud Le Queux fera un éloge vibrant de ce « vray amateur des muses » dans le <hi rend="i">Baratre infernal.</hi></p>
@@ -83,7 +81,7 @@
           <p>Attributions rejetées : l’<hi rend="i">Instructif de seconde rhétorique</hi> (vers 1500), le <hi rend="i">Donnet baillé au feu roi Charles VIII</hi> (vers 1500).</p>
           <p>Regnaud Le Queux mourut dans l’indifférence de ses contemporains, à une date inconnue, vraisemblablement vers 1500. Sans Jean Bouchet, il serait même tombé dans un oubli total ; mais le grand rhétoriqueur poitevin lui donnera en 1516 dans son <hi rend="i">Temple de bonne renommée</hi> la place honorable qui lui avait toujours été refusée de son vivant.</p>
         </div>
-        <div>
+        <div xml:id="r907167">
           <head rend="uc">Chapitre II
            <lb/>Le <hi rend="i">Baratre infernal</hi>. Analyse de l’œuvre</head>
           <p>Bien plus que Dante, c’est Boccace (<hi rend="i">De genealogia deorum</hi>) le véritable inspirateur de Regnaud Le Queux, tout au moins dans la première partie de son ouvrage.</p>
@@ -92,7 +90,7 @@
           <p>La seconde partie commence par une série d’élucubrations sur l’enfer, les divers noms dont il est appelé, sa situation « au milieu de la terre », cela avec toutes sortes de « proeuves » tirées des « philozophes, orateurs et poetes ». L’auteur se lance ensuite dans une description des diables, avant d’aborder un <pb source="https://nakala.fr/10.34847/nkl.40bfb29n#077077c888f40188e84e6516ed770782c553881b" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.40bfb29n/077077c888f40188e84e6516ed770782c553881b/full/full/0/default.jpg"/>chapitre sur la diversité des peines infernales. L’auteur termine par des visions et révélations faites à un certain nombre de personnages de l’enfer et de ses peines, ainsi que des damnés qui les ont méritées. La principale de ces visions est celle de Tondal. Enfin, c’est la conclusion du <hi rend="i">Baratre</hi> « contre ceux-là qui ne croyent aux visions, revelacions et exemples susdictz », et « qui ne croyent que enfer soit ».</p>
           <p>Il ne faut pas chercher dans le <hi rend="i">Baratre infernal</hi> de préoccupations politiques ou sociales, comme il en existe chez Dante. Regnaud Le Queux, qui était prudent, n’a pas fait d’allusion à ses contemporains en plongeant tel ou tel d’entre eux en enfer. Il a quand même des idées, en gros celles de la bourgeoisie de son époque. Il condamne les guerres et les tournois, les joueurs, le clergé dissolu. La médecine l’intéresse. Enfin, c’est un supersticieux qui croit aux fantômes.</p>
         </div>
-        <div>
+        <div xml:id="r907228">
           <head rend="uc">Chapitre III
            <lb/>Les sources</head>
           <p>Regnaud Le Queux dresse un véritable panorama de la littérature antique. La littérature médiévale est mise également à contribution. Voici les auteurs qu’il utilise, de première et de seconde main :</p>
@@ -223,7 +221,7 @@
           <p>On peut encore faire une distinction entre les sources principales et les sources secondaires. Pour l’antiquité, les sources principales sont Virgile, Ovide et leurs commentateurs, Servius et Fulgence, Sénèque et Martianus Capella, avec le commentaire de Remy d’Auxerre. Pour le moyen âge, la source principale, c’est Boccace. De nombreuses citations sont tirées de la <hi rend="i">Bible.</hi> Les auteurs italiens ont une place particulière qu’il convient de signaler : Boccace, Pétrarque, Dante, Marco Polo, Roberto Valturio, Biondo Flavio. On en connaît des éditions antérieures à 1480, date de composition du <hi rend="i">Baratre infernal,</hi> que Regnaud Le Queux a pu par conséquent utiliser.</p>
           <p>Tout ceci témoigne d’une grande érudition. Il apparaît que Regnaud Le Queux, qui avait beaucoup lu, a inséré dans le <hi rend="i">Baratre</hi> la somme de ses connaissances, sans discrétion, il faut bien le dire. Il n’en reste pas moins que ce texte est un témoignage précieux de ce qu’un auteur français du <num>xv<hi rend="sup">e</hi></num> siècle pouvait avoir lu, à cette époque si importante qui a vu la naissance et le développement de l’imprimerie en Europe.</p>
         </div>
-        <div>
+        <div xml:id="r907946">
           <head rend="uc">Chapitre IV
            <lb/>La forme de l’œuvre : langue, style, versification</head>
           <p>L’œuvre est un mélange de vers et de prose. Le procédé remonte assez haut dans la tradition littéraire du moyen âge : on le trouve dans <hi rend="i">Aucassin et Nicolette,</hi> dans le <hi rend="i">Voir dit</hi> de Guillaume de Machaut et dans la <hi rend="i">Prison amoureuse</hi> de Froissart. Cette forme hybride a eu du succès chez les réthoriqueurs ; Molinet l’utilise dans des œuvres telles que la <hi rend="i">Complainte de Grèce, </hi>le <hi rend="i">Trosne d’honneur,</hi> le <hi rend="i">Naufrage de la pucelle,</hi> le <hi rend="i">Chapelet des dames,</hi> etc. Son disciple, Jean Lemaire de Belges, partagera son goût. La littérature latine du moyen âge avait aussi fourni des exemples de ce type. L’origine de ce procédé remonte peut-être au <hi rend="i">De consolatione</hi> de Boece.</p>
@@ -235,7 +233,7 @@
         <head rend="uc">Deuxième partie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r908019">
         <head rend="uc">Édition</head>
         <p>Deux manuscrits autographes de Regnaud Le Queux se trouvent à la Bibliothèque nationale : le <hi rend="i">Baratre infernal,</hi> fr. 450, et les vers d’<hi rend="i">Albumazar, </hi>lat. 7331. L’édition du <hi rend="i">Baratre infernal</hi> est établie d’après le manuscrit fr. 450 : c’est un volume in-folio de deux cent trente-huit feuillets. Voici l’incipit du <hi rend="i">Baratre infernal :</hi></p>
         <p>Proheme intentant les parties</p>

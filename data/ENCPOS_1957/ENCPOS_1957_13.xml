@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,20 +59,20 @@
         <head rend="uc">Avant-propos</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r785238">
         <head rend="uc">Bibliographie – Sources</head>
         <p>Les principaux documents qui ont servi à dresser le relevé des noms de lieux et qui lui ont fourni le plus de formes anciennes sont, d’une part, le cartulaire de l’abbaye de Saint-Amant, encore inédit (Bibl. nat., lat. 12898, et Arch. de la Charente, H<hi rend="sup">IV</hi> 2), et le Livre des fiefs de Guillaume de Blaye, édité par le chanoine Nanglard, d’autre part deux inventaires d’actes, l’un de la baronnie de Montignae et Tourriers, l’autre de l’abbaye de Saint-Amant ; ces inventaires ont été exécutés au <num>xviii<hi rend="sup">e</hi></num> siècle par des feudistes avertis qui ont su à peu près respecter les formes anciennes des noms. Une autre catégorie de sources a contribué à l’établissement de ce relevé : ce sont les nombreux censiers et terriers que l’évêque d’Angoulême a fait rédiger pour sa châtellenie de Vars et Marsac à intervalles rapprochés ; le premier, dont on possède un fragment, remonte à 1378.</p>
         <p>Enfin, une carte du <num>xviii<hi rend="sup">e</hi></num> siècle, concernant trois communes, conservée aux Archives de la Charente, nous permet d’établir une comparaison intéressante avec le cadastre de 1840.</p>
       </div>
-      <div>
+      <div xml:id="r785267">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r785273">
           <head rend="uc">Chapitre premier
            <lb/>introduction géographique et économique.</head>
           <p>Pays au sous-sol calcaire par endroits recouvert de sable, le canton de Saint-Amant présente un paysage assez varié ; collines et vallons, « puys <pb source="https://nakala.fr/10.34847/nkl.ce28xqtq#69181c5d67e898a682bd2db6d4ed094f7cc50075" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.ce28xqtq/69181c5d67e898a682bd2db6d4ed094f7cc50075/full/full/0/default.jpg"/>et combes » se succèdent, tandis que la Charente, qui a modelé sa vallée en larges méandres, enserre dans ses bras de nombreuses îles marécageuses. Le contraste est net entre le plateau uniforme et peu fertile de la forêt de la Boixe et les prairies qui s’étendent au bord de la Charente.</p>
           <p>Les principales cultures furent autrefois le blé et la vigne ; les paroisses qui possédaient des prairies pratiquaient l’élevage. Les défrichements successifs permirent de cultiver de nouvelles terres et, au <num>xviii<hi rend="sup">e</hi></num> siècle, on introduisit le maïs, qui se répandit assez vite. Actuellement, le paysage rural est resté le même ; seules les prairies artificielles sont venues s’y ajouter.</p>
         </div>
-        <div>
+        <div xml:id="r785299">
           <head rend="uc">Chapitre II
            <lb/>Introduction historique.</head>
           <p>On constate que, dès la préhistoire, la forêt de la Boixe a connu une occupation humaine que les fouilles de tumulus nous ont révélée. D’autres fouilles ont fait apparaître des vestiges gaulois, puis romains. Deux voies importantes, celles de Saintes-Clermont et celle de Rom-Périgueux, traversaient le canton du nord au sud et de l’est à l’ouest, se croisant à Montignac.</p>
@@ -82,22 +80,22 @@
           <p>Le canton de Saint-Amant ne fut constitué tel qu’il est qu’en 1800, après plusieurs remaniements.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r785318">
         <head rend="uc">Deuxième partie
          <lb/>Relevé méthodique des noms de lieux</head>
         <p>Les noms de lieux ont été répartis en cinq groupes : noms de lieux d’origine gauloise ; noms de lieux d’origine romaine ; noms de lieux du haut moyen âge ; noms de lieux romans du moyen âge ; noms de lieux d’origine indéterminée.</p>
         <p>Les noms de lieux romans du moyen âge sont de beaucoup les plus nombreux ; on peut les classer sous les rubriques suivantes : formations à sens non topographique ; aspect des lieux (relief, sol, forme des terrains) ; noms dérivés de l’eau (canaux, îles, ports) ; noms se rattachant à la flore (plantes, arbres, bois et forêts) ; noms évoquant les animaux ; noms de personnes (les noms de lieux formés à l’aide de ces noms sont <pb source="https://nakala.fr/10.34847/nkl.ce28xqtq#c5f479a22a754fb2e843e3b585522acbcb500029" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.ce28xqtq/c5f479a22a754fb2e843e3b585522acbcb500029/full/full/0/default.jpg"/>les plus nombreux) ; noms se rapportant à l’habitation (maison et annexes) ; constructions diverses (murs, ponts, routes, enclos) ; agriculture (champs, ouches, prés) ; mesures de superficie (journaux, sillons) ; industrie et commerce (moulins, fours, forges, marchés) ; féodalité et justice (prises, redevances seigneuriales) ; noms religieux (abbayes, bâtiments religieux, saints).</p>
       </div>
-      <div>
+      <div xml:id="r785338">
         <head rend="uc">Troisième partie</head>
-        <div>
+        <div xml:id="r785344">
           <head rend="uc">Chapitre premier
            <lb/>étude linguistique.</head>
           <p><hi rend="i">Phonétique.</hi> – Les noms de lieux portent la trace des diverses modifications qu’ont subi les parlers du canton : passage du provençal au français au <num>xv<hi rend="sup">e</hi></num> siècle ; fermeture de certaines voyelles finales ; dénasalisation du son final <hi rend="i">in.</hi></p>
           <p><hi rend="i">Syntaxe.</hi> – L’article joue un grand rôle dans les noms de lieux, tandis que les adjectifs sont peu variés et peu employés.</p>
           <p>Les prépositions ont une grande importance. <hi rend="i">A, de, en</hi> et <hi rend="i">chez</hi> occupent une place privilégiée. Les noms de lieux qui sont formés à l’aide de la préposition <hi rend="i">chez</hi> et d’un nom de personne sont très fréquents en Charente. Dans le canton, leur première apparition dans les textes date de 1359. Peut-être sont-ils la suite des noms formés avec <hi rend="i">ous</hi> et un nom de personne que l’on trouve au <num>xiii<hi rend="sup">e</hi></num> siècle en Charente.</p>
         </div>
-        <div>
+        <div xml:id="r785399">
           <head rend="uc">Chapitre II
            <lb/>Étude historique et économique.</head>
           <p>A l’époque gauloise, l’occupation du sol se fait autour de la forêt de la Boixe, tandis que les villas gallo-romaines s’installent plutôt tout le long de la vallée de la Charente. Au moyen âge, les défrichements progressent rapidement ; il suffit pour les suivre de regarder les nombreux lieux qui contiennent le mot <hi rend="i">bois</hi> dans leur nom et qui sont aujourd’hui devenus des champs ou des prés. L’examen de tous ces noms permet aussi d’esquisser les traits principaux du paysage, aux cultures variées, avec prédominance de la vigne et des prés.</p>

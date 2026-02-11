@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,26 +57,26 @@
         <surname>Guilleminot</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1028387">
         <head rend="uc">Introduction</head>
         <p>L’établissement d’une bibliographie des ouvrages religieux et politiques parus à la veille des guerres de religion et, à travers elle, l’étude des positions des auteurs et des gens du livre permettent de préciser la situation réelle du livre à cette date et l’influence réciproque des propagandes catholique et protestante. Les événements qui jalonnent l’année 1561, l’édit de Janvier qui la conclut, expliquent le choix de cette période : les guerres ne perturbent pas encore les conditions normales de l’édition et la politique d’apaisement de Catherine de Médicis peut sembler favorable à une libre diffusion des écrits réformés.</p>
       </div>
-      <div>
+      <div xml:id="r1028397">
         <head rend="uc">Chapitre préliminaire</head>
         <p><hi rend="i">Le livre et la crise.</hi> – Dans un climat d’angoisse générale devant les difficultés du temps (crise politique et économique, peste) et l’agitation religieuse, la propagande catholique ou protestante par l’imprimé s’impose à tous et contribue à agiter les esprits ; la crise est souvent mentionnée dans les ouvrages de l’année 1561 et les témoignages des contemporains soulignent l’importance qu’ils reconnaissent au livre, responsable des troubles et en même temps arme essentielle dans le combat à mener.</p>
         <pb source="https://nakala.fr/10.34847/nkl.ad68g90n#7c6d8c7e53e17da6c276777c720620d24e78bc2b" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad68g90n/7c6d8c7e53e17da6c276777c720620d24e78bc2b/full/full/0/default.jpg"/>
         <p><hi rend="i">Le livre et les pouvoirs.</hi> – Si le contrôle du monde du livre s’effectue en principe selon les dispositions de l’édit de Châteaubriant, l’étude des privilèges et des permis d’imprimer montre que cette procédure, qui n’est pas toujours respectée, est une source de conflits entre le roi, le Parlement et la Faculté de théologie ; en janvier 1562, le pouvoir royal tente sans succès d’assumer seul l’octroi des privilèges.</p>
         <p>En même temps se poursuit une politique de répression des ouvrages clandestins, que rend vaine la puissance du protestantisme français.</p>
       </div>
-      <div>
+      <div xml:id="r1028424">
         <head rend="uc">Première partie
          <lb/>Le monde catholique</head>
-        <div>
+        <div xml:id="r1028432">
           <head rend="uc">Chapitre premier
            <lb/>la production d’ouvrages religieux</head>
           <p>Les impressions théologiques catholiques représentent 144 ouvrages ou, si l’on compte les différentes éditions d’un même ouvrage que les méthodes de la bibliographie matérielle permettent de distinguer dans la production d’un imprimeur, 157 éditions. Leur classement en un tableau méthodique met en valeur l’importance des écrits d’apologétique et de polémique, qui représentent la moitié de ces impressions.</p>
         </div>
-        <div>
+        <div xml:id="r1028444">
           <head rend="uc">Chapitre II
            <lb/>Les auteurs</head>
           <p>26 auteurs français, dont 5 laïques, assument la défense de l’orthodoxie catholique ; les clercs, docteurs en théologie, religieux appartenant à des ordres implantés depuis longtemps en France ou prélats de l’Église de France, ont tous leur place dans les structures traditionnelles de l’Église gallicane et semblent peu sensibles aux influences romaines ; les nouveaux combattants de la Contre-Réforme n’interviennent pas encore. Ces auteurs se concentrent dans la moitié nord de la France ; la plupart d’entre eux exercent des fonctions importantes et assistent aux assemblées politiques et religieuses de l’armée. Si les écrits de la majorité d’entre eux expriment leur volonté de lutter par tous les moyens contre l’hérésie, les œuvres de Claude d’Espence et de Jean de Montluc, largement diffusées en 1561, reflètent les positions modérées de ces deux ecclésiastiques qui soutiennent la politique de Catherine de Médicis. Tous voient dans le cardinal de Lorraine le chef de l’Église de France.</p>
@@ -86,7 +84,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.ad68g90n#d817230af6b2abc2c0f0157a6c445ca2e17cf597" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad68g90n/d817230af6b2abc2c0f0157a6c445ca2e17cf597/full/full/0/default.jpg"/>
           <p>L’étude des éditions révèle la large diffusion de certains écrits : le discours prononcé par le cardinal de Lorraine au colloque de Poissy vient en tête avec 10 éditions dans l’année (dont 7 à Paris chez Guillaume Morel) ; les œuvres de Gentian Hervet, René Benoist, Jean de Montluc, Nicolas de Villegagnon, Artus Désiré et René Des Freuz font aussi l’objet de plusieurs éditions. Tous ces textes sont en français et présentent les mêmes caractéristiques matérielles qui leur assurent un écoulement rapide.</p>
         </div>
-        <div>
+        <div xml:id="r1028467">
           <head rend="uc">Chapitre III
            <lb/>Les ouvrages religieux et le monde du livre</head>
           <p>A Paris, les libraires du Palais restent fidèles à leurs publications habituelles, édits, occasionnels, droit, médecine, littérature et histoire, et n’éditent pas d’ouvrages religieux. Les grands libraires du quartier de l’Université consacrent une part assez importante de leur production à la théologie ; Guillaume Morel publie, à côté d’éditions savantes, des ouvrages de circonstance ; Vascosan, au service du pouvoir royal qui lui accorde des privilèges exceptionnels, édite des auteurs liés à la cour. La propagande catholique se concentre chez quelques libraires, Chesneau, Frémy, Gaultier, Calvarin, Ruelle, qui se consacrent entièrement à ce genre et se soumettent au contrôle de la Faculté de théologie et du Parlement.</p>
@@ -95,10 +93,10 @@
           <p>Cette concentration de la polémique catholique à Paris est brisée par la guerre, qui va permettre le développement des centres provinciaux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1028489">
         <head rend="uc">Deuxième partie
          <lb/>Le monde protestant</head>
-        <div>
+        <div xml:id="r1028497">
           <head rend="uc">Chapitre premier
            <lb/>les hommes</head>
           <p><hi rend="i">Le monde du livre.</hi> – L’examen systématique des ouvrages publiés chez des libraires protestants permet de situer les limites de leur engagement au service de la Réforme.</p>
@@ -109,7 +107,7 @@
           <p><hi rend="i">Les auteurs.</hi> – Si les auteurs protestants semblent fréquenter souvent des libraires partageant leur foi, certains confient aussi leurs œuvres à des éditeurs catholiques ; ces textes ne traitent d’ailleurs jamais de questions religieuses, et seuls la <hi rend="i">Gélodacrye</hi> de Jacques Grévin et le <hi rend="i">Traitté de la Vocation </hi>de Pierre de La Place laissent deviner les convictions de leurs auteurs.</p>
           <p>Libraires et auteurs réformés ne profitent donc pas des circonstances politiques favorables à leur cause pour se mettre ouvertement au service de la Réforme.</p>
         </div>
-        <div>
+        <div xml:id="r1028547">
           <head rend="uc">Chapitre II
            <lb/>L’anonymat</head>
           <p>La propagande protestante est entièrement assumée par des presses clandestines ; 87 titres ou 140 éditions sans adresse ont été relevés en 1561.</p>
@@ -120,17 +118,17 @@
           <p>L’origine de ces impressions est difficile à déterminer. Quelques pièces peuvent être ajoutées à la liste donnée dans la <hi rend="i">Bibliographie lyonnaise</hi> de Baudrier au nom de Jean Saugrain ; un autre groupe de textes semble provenir de l’atelier de Nicolas Edoard installé à Paris, ou de son entourage.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1028581">
         <head rend="uc">Troisième partie
          <lb/>Contacts et controverses</head>
-        <div>
+        <div xml:id="r1028589">
           <head rend="uc">Chapitre premier
            <lb/>la polémique</head>
           <p>Les ouvrages de polémique présentent des traits communs : les auteurs insistent toujours sur leur volonté de gagner les gens simples et peu instruits, de composer un traité élémentaire. Ce souci entraîne l’usage du français et un effort de clarté dans la rédaction et la mise en pages du texte.</p>
           <p>Les nombreux écrits de controverse qui répondent à des œuvres de parution très récente suivent en principe des règles de composition assez strictes : résumé du texte adverse, rédaction sur le même plan que l’ouvrage attaqué, refus de l’éloquence.</p>
           <p>Au cours de l’année 1561, deux controverses comportent plusieurs textes se répondant de part et d’autre : la polémique entre Gentian Hervet et les communautés protestantes d’Orléans et de Beaugency représentées par Hugues Sureau du Rosier, et surtout le dur affrontement entre Villegagnon, Genève, et des protestants inconnus. Nicolas de Villegagnon ravive le conflit qui l’oppose à Genève depuis son expédition du Brésil, en invitant Calvin à un débat public et en attaquant à deux reprises un des ouvrages essentiels de l’année, la <hi rend="i">Remonstrance a la Royne mere</hi> d’Augustin Marlorat, dont six éditions paraissent en 1561 ; une série de violents pamphlets lui répond ; cette polémique, dont tous les textes ont subsisté, est une source capitale pour l’étude des méthodes et des arguments de la controverse politique et religieuse.</p>
         </div>
-        <div>
+        <div xml:id="r1028611">
           <pb source="https://nakala.fr/10.34847/nkl.ad68g90n#ab41f872264ba587da4ba8ae2471630c9dc116ef" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad68g90n/ab41f872264ba587da4ba8ae2471630c9dc116ef/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les adversaires</head>
@@ -139,7 +137,7 @@
           <p>Les catholiques s’inquiètent de l’emprise des protestants en France, de la difficulté qu’il y a à les distinguer du reste de la population, difficulté qu’accroît encore l’anonymat de leurs écrits ; les protestants justifient cet anonymat par un souci de modestie. Tous les vices sont prêtés aux protestants ; ceux-ci ne répondent qu’aux attaques dirigées contre les pasteurs et les assemblées de fidèles qui mettent en cause l’existence même des églises réformées. Genève, symbole du mal aux yeux des catholiques, n’est guère défendue dans les écrits protestants qui maintiennent toujours le débat sur les problèmes du protestantisme français.</p>
           <p>Les auteurs catholiques gardent le silence sur les personnalités françaises gagnées au protestantisme. Les pièces protestantes soulignent le rôle que doit jouer le roi de Navarre, célèbrent la libération du prince de Condé après la mort de François II ainsi que la ferveur de la reine de Navarre. Aucun grand personnage ne fait figure de chef des églises réformées de France.</p>
         </div>
-        <div>
+        <div xml:id="r1028637">
           <head rend="uc">Chapitre III
            <lb/>Le conflit</head>
           <p>Le débat essentiel concerne la situation des réformés dans le Royaume ; l’accusation de sédition est longuement développée et réfutée. La plupart des pièces reviennent aussi sur la punition des hérétiques dont tous, catholiques aussi bien que protestants, reconnaissent la légitimité.</p>
@@ -147,16 +145,16 @@
           <p>Tous attribuent à la royauté le devoir de dénouer la crise. Les catholiques réclament l’extermination des hérétiques et la réforme de la discipline ecclésiastique, les protestants des mesures d’apaisement et la réunion d’un concile national qui assurera le triomphe de la vraie foi.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1028656">
         <pb source="https://nakala.fr/10.34847/nkl.ad68g90n#123888076b7844030bd966e147197e7f2400f9a9" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad68g90n/123888076b7844030bd966e147197e7f2400f9a9/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>La tolérance provisoire dont jouissent les réformés en 1561 ne modifie pas les conditions de la propagande protestante, face à laquelle se constitue une propagande catholique dont Ronsard va reprendre les arguments et le vocabulaire dès 1562. Les deux camps sont prêts, matériellement et psychologiquement, à accompagner de leurs publications les guerres qui vont éclater.</p>
       </div>
-      <div>
+      <div xml:id="r1028671">
         <head rend="uc">Illustrations</head>
         <p>Reproduction de pages de titres et d’ornements typographiques servant à l’identification d’impressions protestantes.</p>
       </div>
-      <div>
+      <div xml:id="r1028681">
         <head rend="uc">Bibliographie</head>
         <p>Bibliographie des ouvrages religieux et politiques parus en 1561 : 357 notices bio-bibliographiques suivies d’une analyse de l’œuvre.</p>
         <pb source="https://nakala.fr/10.34847/nkl.ad68g90n#e605fd1017d44b9c0cb193aeded7807603a7d23e" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.ad68g90n/e605fd1017d44b9c0cb193aeded7807603a7d23e/full/full/0/default.jpg"/>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_25" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_25" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,15 +56,15 @@
         <surname>Toulouse</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1250098">
         <head rend="uc">Introduction</head>
         <p>Les hydrographes et cartographes normands ont laissé pour la période qui va de 1500 à 1650 des traités d’hydrographie et des cartes marines, seuls témoignages de leur art de naviguer, c’est-à-dire des connaissances qu’ils avaient et des techniques qu’ils employaient pour conduire un navire à bon port. L’existence de cet ensemble de documents, essentiellement composé de cartes, a souvent fait parler d’école normande de cartographie ou d’hydrographie.</p>
       </div>
-      <div>
+      <div xml:id="r1250108">
         <head rend="uc">Sources</head>
         <p>On conserve vingt-quatre cartes (dont une en trois exemplaires) et huit atlas normands, auxquels il faut ajouter une carte détruite en 1915 dont on possède un fac-similé. Tous les documents cartographiques sont manuscrits. Les traités de navigation sont moins nombreux : on en possède cinq manuscrits (dont deux en deux exemplaires), et sept imprimés. Les sources concernant les hydrographes et <pb source="https://nakala.fr/10.34847/nkl.fa4d728j#94bf93059dc46dc996e2407870a78f85974592f9" n="198" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa4d728j/94bf93059dc46dc996e2407870a78f85974592f9/full/full/0/default.jpg"/>les cartographes eux-mêmes sont assez réduites. Dans l’ensemble, cette documentation est très dispersée, mais la plupart des cartes sont conservées à la Bibliothèque nationale à Paris, et à Londres.</p>
       </div>
-      <div>
+      <div xml:id="r1250123">
         <head rend="uc">Première partie
          <lb/>Les hydrographes et les cartographes</head>
         <p>Dans l’ensemble, les hydrographes et cartographes normands sont mal connus. Pour la plupart d’entre eux, les seuls renseignements biographiques que l’on possède sont livrés par les titres et dédicaces de leurs cartes et traités. La destruction de Dieppe et de ses archives en 1694 par les boulets anglais explique en partie les lacunes importantes dans la connaissance de la vie de ces hommes.</p>
@@ -80,59 +78,59 @@
         <pb source="https://nakala.fr/10.34847/nkl.fa4d728j#f66137adb127331abce3f069c29ba69f3ad87b98" n="199" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa4d728j/f66137adb127331abce3f069c29ba69f3ad87b98/full/full/0/default.jpg"/>
         <p>On conserve également plusieurs œuvres restées anonymes, essentiellement des atlas. Malgré tout, la documentation reste peu abondante, et nombre de cartes et de traités ne sont pas parvenus jusqu’à nous.</p>
       </div>
-      <div>
+      <div xml:id="r1250186">
         <head rend="uc">Deuxième partie
          <lb/>La science nautique des normands</head>
-        <div>
+        <div xml:id="r1250194">
           <head rend="uc">Chapitre premier
            <lb/>la cosmographie</head>
           <p>De nombreux ouvrages d’hydrographie commencent par un rappel de notions de cosmographie. Les Normands reprennent largement les idées qui ont cours à l’époque sur la structure de la sphère céleste et les cercles qui la divisent. Ces considérations théoriques ne sont pas très utiles au marin, plus soucieux des aspects pratiques.</p>
         </div>
-        <div>
+        <div xml:id="r1250206">
           <head rend="uc">Chapitre II
            <lb/>La latitude</head>
           <p>Ce qui importe avant tout au navigateur, c’est de pouvoir à tout moment savoir où il se trouve, afin de poursuivre ou de corriger sa route. La notion de latitude, connue depuis l’Antiquité, est utilisée par les marins pour se repérer à partir de la fin du XV’ siècle.</p>
           <p>Il est très simple en théorie de déterminer la latitude : il suffit de mesurer la hauteur du pôle sur l’horizon ou la distance zénithale du soleil à midi. L’application pratique n’est pas toujours aisée, néanmoins les hydrographes normands proposent dans leurs traités des moyens plus ou moins simples de résoudre ce problème. Ces moyens sont énoncés sous la forme d’ensembles de règles, appelés régimes : les marins avaient à leur disposition le régime de l’étoile polaire, celui de la Croix du Sud, et le régime du soleil pour déterminer la latitude.</p>
           <p>Pour effectuer les mesures nécessaires à la résolution de ce problème (essentiellement des mesures de hauteurs d’astres), les marins disposaient d’instruments souvent dérivés d’instruments astronomiques. L’instrument de prédilection des Normands semble avoir été l’arbalestrille. Au début du <num>xvii<hi rend="sup">e</hi></num> siècle, de nouveaux instruments apparaissent, comme le quartier de Davis.</p>
         </div>
-        <div>
+        <div xml:id="r1250230">
           <pb source="https://nakala.fr/10.34847/nkl.fa4d728j#96626cca860144835e3022e279e0a6da6c01482e" n="200" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa4d728j/96626cca860144835e3022e279e0a6da6c01482e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le comput</head>
           <p>Pour pouvoir utiliser les tables de déclinaison solaire qui interviennent dans la détermination de la latitude par la hauteur du soleil, le pilote doit connaître la date. De même, l’importance du rôle de la lune dans le phénomène des marées nécessite la connaissance de l’âge de la lune. Les traités d’hydrographie consacrent donc en général quelques pages au comput. Ils évoquent notamment le nombre d’or et les épactes. Cependant ils utilisent toujours, au début du <num>xvi<hi rend="sup">e</hi></num> siècle, les chiffres reconnus comme faux par les computistes dès le <num>xiv<hi rend="sup">e</hi></num> siècle. En revanche, la réforme grégorienne du calendrier de 1582 a été très vite assimilée par les hydrographes normands.</p>
         </div>
-        <div>
+        <div xml:id="r1250259">
           <head rend="uc">Chapitre IV
            <lb/>Les marées</head>
           <p>Le phénomène de la marée est d’une importance capitale pour les marins qui naviguent sur les côtes normandes. La relation entre la lune et la marée avait été remarquée dès l’Antiquité, et les hydrographes du <num>xvi<hi rend="sup">e</hi></num> siècle savaient l’utiliser pour déterminer l’heure et l’amplitude de la marée. Chaque port était connu par sa « situation » sur la rose des vents, qui correspondait au nombre d’heures qui sépare la pleine mer du passage de la lune au méridien. L’amplitude de la marée est quant à elle liée à l’âge de la lune : les marées les plus fortes ont toujours lieu un jour ou deux après la pleine ou la nouvelle lune. Tous ces renseignements étaient regroupés dans des tableaux ou se présentaient sous forme de cadrans.</p>
         </div>
-        <div>
+        <div xml:id="r1250277">
           <head rend="uc">Chapitre V
            <lb/>Les heures</head>
           <p>Les notions d’heures et de durée interviennent en science nautique dans de nombreux problèmes, entre autres les marées, l’estimation de la distance parcourue, ou la détermination de la latitude. De nuit, le marin se sert des étoiles, et notamment de l’étoile polaire et des gardes, pour déterminer l’heure. Il a à sa disposition le régime des heures, qui donne l’heure de la nuit en fonction de la position des gardes et du mois de l’année, et peut s’aider d’un instrument appelé le nocturlabe. Dans la journée, le soleil ne peut donner qu’une indication beaucoup plus vague, et ce ne sont pas les sabliers et autres horloges peu perfectionnés de l’époque qui permettaient de préciser l’heure.</p>
         </div>
-        <div>
+        <div xml:id="r1250289">
           <pb source="https://nakala.fr/10.34847/nkl.fa4d728j#3abdf5b64c3a1dcad5b7871167658bd56a48eefd" n="201" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa4d728j/3abdf5b64c3a1dcad5b7871167658bd56a48eefd/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Les distances</head>
           <p>Pour estimer la distance parcourue par son navire, le pilote a recours au régime des lieues, qui lui donne la longueur d’une portion de rhumb entre deux parallèles. Néanmoins le problème de l’estime, c’est-à-dire de la détermination de la position d’un navire, est relativement complexe, puisque tous les facteurs qui interviennent, distance parcourue, direction suivie, latitude, sont souvent connus de façon imprécise, et que d’autres facteurs comme les courants ou la déclinaison magnétique, qui ne sont pas toujours pris en compte, peuvent venir fausser les calculs du pilote.</p>
         </div>
-        <div>
+        <div xml:id="r1250306">
           <head rend="uc">Chapitre VII
            <lb/>Boussole et déclinaison magnétique</head>
           <p>La boussole est un instrument fondamental à bord d’un navire. Son emploi est attesté dès le XIII’ siècle. Aux XVI’ et XVII’ siècles, un certain nombre d’améliorations lui sont apportées, notamment dans la forme de l’aiguille ou de la boîte. Le changement le plus important concerne les positions relatives du disque de carton portant la rose des vents et de l’aiguille aimantée : alors que jusque-là l’aiguille était attachée sous la rose, et donc invisible, à partir du milieu du XVI’ siècle, certains hydrographes préconisent de laisser l’aiguille libre au-dessus d’une rose fixée au fond de la boîte.</p>
           <p>Ce changement vient de la prise de conscience d’un problème très important qui se pose aux marins des XVI’ et XVII’ siècles, la déclinaison magnétique. Ce phénomène, découvert au XV’ siècle, est mal connu et mal compris au XVI’ siècle. Il donne lieu à des théories plus fantaisistes les unes que les autres. Petit à petit, avec la multiplication des mesures, les hydrographes réalisent toute la complexité du phénomène et, au milieu du XVII’ siècle, finissent par abandonner toute idée de théorisation. Les Normands suivent de près les travaux des Anglais, pionniers en matière de déclinaison magnétique.</p>
         </div>
-        <div>
+        <div xml:id="r1250321">
           <head rend="uc">Chapitre VIII
            <lb/>La longitude</head>
           <p>Tout comme celle de latitude, la notion de longitude est connue depuis l’Antiquité. La détermination de la longitude est également un problème très simple en théorie, puisqu’elle se réduit à un problème de différence d’heures. Mais son application pratique est rendue presque impossible au XVI’ siècle, et même encore au XVII’ siècle, par l’absence d’instruments pouvant donner l’heure de <pb source="https://nakala.fr/10.34847/nkl.fa4d728j#2c5dc9141baa05c64b2211ff85bd44c1d32db1db" n="202" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa4d728j/2c5dc9141baa05c64b2211ff85bd44c1d32db1db/full/full/0/default.jpg"/>manière fiable et précise. Les hydrographes normands connaissent bien la théorie, et essayent de l’appliquer. Ils préconisent l’emploi d’horloges, mais sont conscients des défauts de celles dont ils disposent. Ils évoquent des méthodes basées sur l’observation d’événements astronomiques, telles que la méthode des éclipses ou celle des distances lunaires, mais elles ne sont guère applicables en mer. Tout au long du <num>xvi<hi rend="sup">e</hi></num> et au début du XVII’ siècle également, ils essayent de trouver une corrélation entre déclinaison magnétique et longitude. Ce n’est qu’avec le Père Fournier en 1643 que l’idée de déterminer la longitude grâce à la déclinaison magnétique est abandonnée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1250345">
         <head rend="uc">Troisième partie
          <lb/>La cartographie</head>
-        <div>
+        <div xml:id="r1250353">
           <head rend="uc">Chapitre premier
            <lb/>la cartographie</head>
           <p><hi rend="i">La projection.</hi> – La plupart des cartes marines normandes sont des cartes plates. A partir du début du <num>xvii<hi rend="sup">e</hi></num> siècle, on voit apparaître des cartes dites « réduites », c’est-à-dire construites selon la projection aux latitudes croissantes inventée par Mercator en 1569. Les hydrographes normands sont également capables d’utiliser d’autres projections, et l’on conserve un certain nombre de cartes dont les projections peuvent être qualifiées de savantes.</p>
@@ -146,23 +144,23 @@
           <p><hi rend="i">La nomenclature.</hi> – Les sources des cartographes normands sont essentiellement portugaises et hollandaises pour la nomenclature.</p>
           <p><hi rend="i">Les données hydrographiques.</hi> – Au XVII’ siècle, on assiste à la naissance de véritables cartes hydrographiques, où sont portées des indications concernant entre autres les écueils, les mouillages, les marées. On voit là une influence de la cartographie hollandaise.</p>
         </div>
-        <div>
+        <div xml:id="r1250445">
           <head rend="uc">Chapitre II
            <lb/>La carte, instrument de navigation</head>
           <p><hi rend="i">La fabrication des cartes.</hi> – On possède peu de renseignements sur la fabrication des cartes. Certaines étaient sans doute copiées sur d’autres à l’aide de papier carbone.</p>
           <p><hi rend="i">L’utilisation des cartes.</hi> – Les cartes marines normandes que l’on conserve n’ont pas servi à la navigation. Beaucoup sont dédiées à des princes, dont elles venaient orner les bibliothèques. Elles ont pu aussi être utilisées dans un but d’enseignement ou à des fins militaires.</p>
         </div>
-        <div>
+        <div xml:id="r1250466">
           <head rend="uc">Chapitre III
            <lb/>La carte, objet d’art</head>
           <p>Les cartes normandes se distinguent par leur grande qualité matérielle. Elles sont en général très enluminées, surtout au XVI’ siècle. Les bordures sont parfois très soignées, mais c’est dans l’espace blanc de l’intérieur des terres, laissé vide sur les cartes marines, que se développe le plus la décoration. On trouve des illustrations traditionnelles de rois sur leurs trônes, ou des représentations de mythes et légendes de l’Antiquité ou du Moyen Age. On voit encore des représen<pb source="https://nakala.fr/10.34847/nkl.fa4d728j#3fe9ff7b0d1bfc8f15539e6f38b1ee25377905d9" n="204" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa4d728j/3fe9ff7b0d1bfc8f15539e6f38b1ee25377905d9/full/full/0/default.jpg"/>tâtions de scènes à caractère plus historique. Ce sont cependant les illustrations ethnographiques qui sont les plus remarquables : la plupart ont été réalisées d’après des observations directes, notamment pour celles qui concernent la région du Brésil. Malheureusement, on ne sait rien des auteurs de ces illustrations.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1250484">
         <head rend="uc">Conclusion</head>
         <p>Rien ne permet vraiment d’affirmer qu’il y a eu au XVI’ et dans la première moitié du XVII’ siècle un enseignement d’hydrographie à Dieppe. Cependant, les documents conservés montrent que les hydrographes normands étaient tout à fait au courant des progrès de la science nautique de cette époque, et les cartes présentent des caractères qui justifient l’emploi de l’expression d’école normande de cartographie, au sens de groupe de cartographes s’influençant mutuellement.</p>
       </div>
-      <div>
+      <div xml:id="r1250494">
         <head rend="uc">Annexes</head>
         <p>Catalogue des cartes normandes. – Volume de planches : 56 planches (reproduction de cartes et de pages d’atlas ; détails : instruments de navigation, réseau de rhumbs...).</p>
       </div>

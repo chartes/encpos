@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,11 +54,11 @@
         <forename>Annie</forename>
         <surname>Henwood-Reverdot</surname>
       </byline>
-      <div>
+      <div xml:id="r1039815">
         <head rend="uc">Introduction</head>
         <p>L’église Saint-Étienne de Beauvais est un monument célèbre mais mal connu. Son importance dans l’histoire de l’architecture a déjà attiré l’attention des archéologues ; cependant elle n’a fait l’objet d’aucune étude d’ensemble. Si certaines parties, telles la roue de fortune ou les voûtes des bas-côtés de la nef, ont été souvent analysées, en revanche le chœur et la sculpture sont demeurés totalement ignorés. L’exploitation du fonds des archives de l’église, en grande partie inédit, permet d’établir une histoire détaillée du monument et d’en renouveler plusieurs aspects. L’examen des dossiers de restauration invite à faire le point sur les modifications apportées au cours des deux derniers siècles. Enfin, la publication du résultat des fouilles récemment pratiquées dans le chœur et la découverte, dans cette partie de l’édifice, de bases de piles appelant une voûte sur croisées d’ogives, aux environs de 1100, imposent une révision des connaissances acquises jusqu’ici.</p>
       </div>
-      <div>
+      <div xml:id="r1039825">
         <head rend="uc">Sources</head>
         <p>La base de cette étude est constituée par le dépouillement des archives conservées à l’église. Il s’agit d’un fonds très important par son volume comme par son intérêt, dont les plus anciens documents remontent au <num>xv<hi rend="sup">e</hi></num> siècle. On trouve essentiellement des comptes de la fabrique, des contrats, des expertises de travaux, des devis, des délibérations.</p>
         <pb source="https://nakala.fr/10.34847/nkl.89ed31fk#61a6892f1c7103f833205e79af02657e50944d5b" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.89ed31fk/61a6892f1c7103f833205e79af02657e50944d5b/full/full/0/default.jpg"/>
@@ -71,17 +69,17 @@
         <p>Les travaux qui ont été effectués à l’église depuis le milieu du <num>xix<hi rend="sup">e</hi></num> siècle ont pu être étudiés grâce aux neuf dossiers de restauration déposés à la Direction de l’architecture.</p>
         <p>Les sources iconographiques proviennent surtout des Archives départementales de l’Oise et du Cabinet des estampes de la Bibliothèque nationale.</p>
       </div>
-      <div>
+      <div xml:id="r1039876">
         <head rend="uc">Première partie
          <lb/>Étude historique</head>
-        <div>
+        <div xml:id="r1039884">
           <head rend="uc">Chapitre premier
            <lb/>des origines au <num>xv<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Les temps obscurs (<num>iii<hi rend="sup">e</hi></num>-<num>xii<hi rend="sup">e</hi></num> siècles</hi>). – Il est toujours difficile de déterminer les origines d’un établissement religieux, au surplus lorsqu’il s’agit d’une simple église paroissiale. Cependant, la fondation et les premiers siècles de l’église Saint-Étienne de Beauvais sont relativement bien connus grâce à deux vies de saints. L’un de ceux-ci, saint Firmin, venu prêcher le christianisme à Beauvais vers le <num>iii<hi rend="sup">e</hi></num> siècle, aurait fait construire une église dédiée à saint Étienne sur l’emplacement de sa prison. L’autre, saint Vaast, évêque d’Arras au <num>vi<hi rend="sup">e</hi></num> siècle, fit dans cette église de nombreux miracles de son vivant et après sa mort. Ses reliques y furent déposées lors des invasions normandes, de sorte que le vocable de Saint-Vaast s’imposa à l’église pour plusieurs siècles. En dépit du caractère hagiographique de ces sources, l’ancienneté de l’église ne peut être mise en doute. Certes, elle ne fut peut-être pas fondée aux premiers temps de l’évangélisation (le vocable de Saint-Étienne ne peut être antérieur au <pb source="https://nakala.fr/10.34847/nkl.89ed31fk#fb01ed4a68843113d52710f3ffdd8aa364243401" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.89ed31fk/fb01ed4a68843113d52710f3ffdd8aa364243401/full/full/0/default.jpg"/> <num>v<hi rend="sup">e</hi></num> siècle), mais son existence est attestée au <num>ix<hi rend="sup">e</hi></num> siècle. A partir de la fin du <num>xi<hi rend="sup">e</hi></num> siècle, l’église sort de la légende et entre dans l’histoire : en 1072, l’évêque de Beauvais y fonde un chapitre et à cette occasion l’église est dite <hi rend="i">mater et caput ceterarum ecclesiarum.</hi> Les textes n’apportent aucun renseignement sur la construction de l’édifice actuel. Seule la mention d’un incendie vers 1180 peut être retenue pour ses conséquences archéologiques.</p>
           <p><hi rend="i">La fin du Moyen Âge (<num>xiii<hi rend="sup">e</hi></num>-<num>xv<hi rend="sup">e</hi></num> siècles</hi>). – Aux <num>xiii<hi rend="sup">e</hi></num> et <num>xiv<hi rend="sup">e</hi></num> siècles, les sources sont très pauvres et concernent rarement le bâtiment lui-même. La première mention touchant l’entretien date de 1260. L’église est surtout connue par le biais des testaments, des obituaires, des pouillés et des procès. Dès cette époque, on voit se dessiner le conflit qui opposera pendant des siècles les chanoines aux marguilliers à propos des réparations à effectuer à l’église.</p>
           <p>Au <num>xv<hi rend="sup">e</hi></num> siècle, la découverte de documents inédits, comptes et coutumier de la fabrique, s’ajoutant à d’autres déjà publiés, permet de mieux connaître la vie quotidienne de cette église à la fois collégiale et paroissiale. Un certain nombre de travaux peuvent ainsi être signalés, surtout pendant la première moitié du siècle. Grâce à la documentation rassemblée, certains aspects ont pu être développés, comme les rapports entre marguilliers et chanoines, les différends au sujet de la possession des reliques et de l’entretien de l’église, le mobilier du chœur, les principales fêtes. Nous avons également mis en valeur un des aspects essentiels à cette époque, celui d’église « communale », car Saint-Étienne sert de cadre à de nombreuses manifestations politiques, est la paroisse privilégiée des riches marchands bourgeois, possède la cloche de la commune, toutes caractéristiques qui font d’elle la plus importante église de Beauvais.</p>
         </div>
-        <div>
+        <div xml:id="r1039995">
           <head rend="uc">Chapitre II
            <lb/>L’ancien régime</head>
           <p><hi rend="i">Les grands travaux du <num>xvi<hi rend="sup">e</hi></num> siècle.</hi> – Le fait essentiel est à cette époque la construction d’un chœur flamboyant qui remplace celui du <num>xii<hi rend="sup">e</hi></num> siècle jugé trop étroit. Les sources, très abondantes, permettent de suivre la marche des travaux. La nouvelle construction fut commencée vers 1500 par le bâtiment du sépulcre logé à l’angle du bras nord du transept, puis furent implantés les chapelles du nord et le vaisseau central. En 1522, les travaux étaient suffisamment avancés pour que soit consacré le maître-autel ; cependant les voûtes hautes ne furent montées qu’en 1545 et les chapelles du sud achevées quelques années plus tard. Durant la seconde moitié du siècle, les ouvriers s’employèrent surtout à effectuer le délicat raccordement du chœur et de la croisée du transept. Visites et expertises se multiplièrent jusqu’en 1595. Vers 1580, les marguilliers décidèrent la construction d’un clocher pour remplacer celui de la croisée. Il fut implanté au nord de la façade de l’église.</p>
@@ -92,7 +90,7 @@
           <p>En 1743, une institution séculaire prend fin : le chapitre de Saint-Vaast est supprimé par un décret épiscopal, et ses biens donnés à la fabrique.</p>
           <p>Pendant la seconde moitié du siècle, les marguilliers s’attachent à aménager le chœur suivant les critères de l’esthétique contemporaine, mais, en raison de leur impécuniosité, les embellissements demeurent discrets. Dans un premier temps, le jubé et la clôture sont supprimés, puis l’évêque autorise la démolition du maître-autel gothique. En 1774, des grilles entourent le sanctuaire où est placé un autel « à la moderne ».</p>
         </div>
-        <div>
+        <div xml:id="r1040069">
           <head rend="uc">Chapitre III
            <lb/>L’époque contemporaine</head>
           <p><hi rend="i">Des vicissitudes révolutionnaires aux premières restaurations.</hi> – Dès 1791, le nombre des paroisses de Beauvais est réduit à deux : la cathédrale et Saint-Étienne qui reçoit plusieurs pièces de mobilier provenant des églises condamnées. En 1792, le clergé réfractaire est remplacé par des prêtres constitutionnels et, à partir de 1793, la déchristianisation bat son plein. Au cours d’une manifestation populaire, le portail occidental est mutilé et toutes les statues sont brisées. Le conseil de district fait procéder à la démolition du dôme qui couronne le clocher. L’église est ensuite fermée et transformée en magasin <pb source="https://nakala.fr/10.34847/nkl.89ed31fk#be9af26385b540c2db0906d39584d799e9487fce" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.89ed31fk/be9af26385b540c2db0906d39584d799e9487fce/full/full/0/default.jpg"/>à fourrage. Cette destination lui fut très préjudiciable : une porte vint endommager un des plus célèbres vitraux du chœur et l’entassement du foin causa la chute de la rose du chevet. Avec le retour à la liberté du culte, les paroissiens obtiennent, non sans mal, que l’église leur soit restituée. Dès lors, une équipe de laïcs s’efforce de rendre au monument son aspect antérieur à la Révolution et effectue de nombreuses réparations.</p>
@@ -100,10 +98,10 @@
           <p>Des fouilles pratiquées en 1901 dans la nef et aux abords de l’église révélèrent l’existence de vestiges appartenant à des thermes gallo-romains. Une autre campagne de fouilles, en 1956, a permis le dégagement de substructions de l’ancien chœur du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1040105">
         <head rend="uc">Deuxième partie
          <lb/>Étude archéologique</head>
-        <div>
+        <div xml:id="r1040113">
           <head rend="uc">Chapitre premier
            <lb/>l’église du <num>xii<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Les fouilles de 1956 et le chœur primitif.</hi> – De nos jours, seuls la nef et le transept appartiennent à la construction du <num>xii<hi rend="sup">e</hi></num> siècle, puisque le chœur primitif <hi rend="i">a</hi> été démoli au <num>xvi<hi rend="sup">e</hi></num> siècle. Les fouilles de 1956 ont permis le dégagement des fondations de ce chœur. Aucune publication n’est venue couronner cette campagne quoiqu’elle ait apporté des révélations capitales pour l’histoire de la voûte d’ogives. En effet, l’importance du chœur de Saint-Étienne, pressentie par de nombreux archéologues, a été confirmée par la découverte de bases de piles dont la structure correspond à un voûtement sur croisées d’ogives, que divers critères permettent de dater des environs de 1100. On peut en <pb source="https://nakala.fr/10.34847/nkl.89ed31fk#b1a2cff18d9e80ebc7826b980398c9b57dfde90d" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.89ed31fk/b1a2cff18d9e80ebc7826b980398c9b57dfde90d/full/full/0/default.jpg"/>déduire que le Beauvaisis a connu et employé de telles voûtes à une date presque aussi précoce que le domaine anglo-normand. De plus, le chevet, que l’on supposait circulaire, s’est révélé plat, plan qui facilite le voûtement. Ces découvertes font plus que jamais de l’église Saint-Étienne de Beauvais un des grands monuments de l’époque gothique.</p>
@@ -119,7 +117,7 @@
           <p>B. <hi rend="i">Le bras nord du transept et la roue de fortune.</hi> Le bras nord du transept possède un décor très riche : le pignon est couvert d’un treillis de pierre formant des caissons sculptés de rosaces, très bel aboutissement d’une habitude régionale. Au-dessous s’ouvre une large rose à remplage rayonnant. Sur la circonférence gravitent douze personnages qui composent une roue de fortune, thème très répandu dès le <num>xii<hi rend="sup">e</hi></num> siècle dans l’iconographie médiévale. Ces sculptures, qui n’ont pas été restaurées, sont d’un style encore tout roman, caractérisé par les plis concentriques des draperies sur le ventre des personnages et par les plis tuyautés rassemblés au bas des robes. Il semble qu’on puisse y reconnaître plusieurs mains. L’ensemble peut être daté des environs de 1150, époque à laquelle le transept fut voûté.</p>
           <p>C. <hi rend="i">La façade occidentale.</hi> Construite après 1180, elle demeure très sobre mais contraste avec l’élévation latérale par la saillie des contreforts et l’importance des fenêtres. Le demi-pignon qui correspond au bas-côté sud est percé d’un large oculus qui surmonte un portail en tiers-point flanqué de colonnettes à chapiteaux feuillagés. Le portail principal fait l’objet d’une présentation particulière.</p>
         </div>
-        <div>
+        <div xml:id="r1040311">
           <head rend="uc">Chapitre II
            <lb/>La sculpture monumentale</head>
           <p><hi rend="i">Le portail nord et sa place dans la sculpture du début du <num>xii<hi rend="sup">e</hi></num> siècle.</hi> – Le portail situé dans le bas-côté nord de la nef est un chef-d’œuvre presque inédit de la sculpture romane. Excessivement restauré au <num>xix<hi rend="sup">e</hi></num> siècle, il peut cependant être étudié grâce à des gravures antérieures. Outre quelques aspects originaux, comme le linteau appareillé à lits curvilignes, son intérêt essentiel réside dans la partie historiée, tympan, chapiteaux, voussure à triple rouleau où sont sculptés les animaux favoris du bestiaire roman (sirènes, lions, basilics, etc.) affrontés systématiquement de part et d’autre d’une plante stylisée, entrecroisés, enlacés dans des rinceaux et des rubans. On y trouve toutes les habitudes décoratives venues de l’Orient par le biais des étoffes, des ivoires et des manuscrits, avec lesquels des rapprochements s’imposent.</p>
@@ -130,7 +128,7 @@
           <p>On peut distinguer plusieurs mains dans cet ensemble de qualité inégale : le couronnement est la meilleure partie, c’est sans doute l’œuvre du maître, avec des draperies souples et fluides. Le renouveau de l’art antique autour de 1200 y est perceptible.</p>
           <p>Les ébrasements obliques, dépouillés de leurs statues en 1793, ont conservé leurs chapiteaux ornés de beaux échantillons d’une flore naturaliste. Étant donné que tous les portails consacrés au couronnement de la Vierge comportent aux ébrasements les effigies des prophètes et des patriarches, il est possible de reconstituer l’iconographie du portail de Saint-Étienne. Il nous est apparu que l’ange d’un des chapiteaux ne pouvait être que celui qui, à Senlis, à Chartres, arrête le bras d’Abraham sacrifiant Isaac. Cette conviction s’est trouvée renforcée par l’existence de trois têtes conservées au musée qui passent pour provenir du portail, ce que ni les dimensions ni le style ne contredisent. L’examen de ces têtes peut laisser penser que l’une d’elles pourrait être celle d’Abraham, une autre un saint Pierre et la troisième un prophète. Ces sculptures s’apparentent au style des ateliers sénonais vers 1200, mais sont beaucoup moins belles. Tous ces éléments nous ont conduite à proposer une datation des environs de 1220.</p>
         </div>
-        <div>
+        <div xml:id="r1040388">
           <pb source="https://nakala.fr/10.34847/nkl.89ed31fk#ad3110b736ab82831dc4b8c3e16ae6d456cabd93" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.89ed31fk/ad3110b736ab82831dc4b8c3e16ae6d456cabd93/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’église du <num>xvi<hi rend="sup">e</hi></num> siecle et le mobilier</head>
@@ -139,7 +137,7 @@
           <p><hi rend="i">Le mobilier et les œuvres d’art.</hi> – En dépit de nombreuses destructions, l’église possède quelques pièces de mobilier remarquables : les stalles et leurs dossiers ornés de saints et de sibylles dans un style italianisant du <num>xvi<hi rend="sup">e</hi></num> siècle, les grilles en fer forgé du <num>xviii<hi rend="sup">e</hi></num> siècle, l’ancien maître-autel de la même époque, des chandeliers. En outre, quelques statues du <num>xvi<hi rend="sup">e</hi></num> siècle sont parvenues jusqu’à nous et en particulier deux groupes sculptés : un Christ de pitié avec sainte Marthe et sainte Marguerite, d’un assez bon style, et une Pietà au donateur.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1040451">
         <head rend="uc">Pièces justificatives</head>
         <p>Extraits des comptes de la fabrique du <num>xv<hi rend="sup">e</hi></num> au <num>xviii<hi rend="sup">e</hi></num> siècle, extraits des délibérations paroissiales, devis, expertises, marchés, rapports d’architectes, rapport de fouilles.</p>
       </div>

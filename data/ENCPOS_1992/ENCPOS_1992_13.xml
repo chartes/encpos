@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1992_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1992_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,27 +56,27 @@
         <forename>Hélène</forename>
         <surname>de La Tour-Sevelinges</surname>
       </byline>
-      <div>
+      <div xml:id="r1217302">
         <head rend="uc">Introduction</head>
         <p>La législation concernant les objets d’art au <num>xix<hi rend="sup">e</hi></num> siècle et au début du <num>xx<hi rend="sup">e</hi></num> siècle est à l’image de la prise de conscience de l’idée de patrimoine dont elle témoigne par ailleurs : lente et laborieuse, mais riche en promesses.</p>
       </div>
-      <div>
+      <div xml:id="r1217324">
         <head rend="uc">Sources</head>
         <p>L’essentiel de la documentation provient des archives du service des Antiquités et Objets d’art, déposées au Centre d’archives et de documentation des Monuments historiques. Ces sources manuscrites ont été utilement complétées, pour la partie législative, par le dépouillement des décrets révolutionnaires (Duvergier, <hi rend="i">Collection complète des lois, décrets, règlements...,</hi> Paris, 1938) et des rapports et débats parlementaires publiés au <hi rend="i">Journal officiel,</hi> concernant la législation touchant les objets d’art.</p>
       </div>
-      <div>
+      <div xml:id="r1217342">
         <pb source="https://nakala.fr/10.34847/nkl.bfd52v8y#4e7caa2f463210b589634fc788cb3e0eaa06fc6c" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfd52v8y/4e7caa2f463210b589634fc788cb3e0eaa06fc6c/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Le statut juridique des objets d’art
          <lb/>depuis la révolution jusqu’à la loi du 30 mars 1887</head>
-        <div>
+        <div xml:id="r1217357">
           <head rend="uc">Chapitre premier
            <lb/>la révolution française et les objets d’art</head>
           <p>Pendant la Révolution française, les objets d’art furent l’objet d’un curieux paradoxe ; tandis que, victimes de la trilogie « Liberté-Égalité-Fraternité », les symboles de la royauté et de l’aristocratie étaient livrés au pillage et à la vengeance des patriotes et que, au gré des confiscations et des ventes touchant les biens de la couronne, du clergé et des émigrés, de nombreux objets d’art étaient dispersés, une idée nouvelle, défendue par l’abbé Grégoire, se développait dans les esprits, l’idée de patrimoine.</p>
           <p>Reflétant l’histoire et le génie de la nation, les œuvres d’art étaient, en effet, déclarées d’utilité publique, fortes du rôle moral et pédagogique que leur conférait leur nature artistique. Dès lors, l’intervention de l’État en faveur de la protection des objets d’art était justifiée.</p>
           <p>Cependant, la Révolution, après avoir esquissé ce nouveau droit, le droit des objets d’art à être protégés, s’était interdit tout moyen d’action en raison du climat de violence qu’elle avait suscité. Deux intérêts s’affrontaient : l’intérêt artistique, exempt de toute considération politique, et l’intérêt politique (la victoire de la jeune République), exempt de toute considération esthétique.</p>
         </div>
-        <div>
+        <div xml:id="r1217375">
           <head rend="uc">Chapitre II
            <lb/>La conservation des objets d’art au <num>xix<hi rend="sup">e</hi></num> siècle,
            <lb/>jusqu’à la loi du 30 mars 1887</head>
@@ -86,14 +84,14 @@
           <p>Ce n’est qu’en 1830 que le gouvernement prend acte de cette évolution en nommant Ludovic Vitet inspecteur des Monuments historiques. À l’origine de cette décision, on trouve des hommes qui se sont déjà illustrés, à titre privé, dans la <pb source="https://nakala.fr/10.34847/nkl.bfd52v8y#7ba61afc081bcec065c9f70c6414f8b05ee05d4e" n="121" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfd52v8y/7ba61afc081bcec065c9f70c6414f8b05ee05d4e/full/full/0/default.jpg"/>défense du patrimoine, tel François Guizot, ministre de l’intérieur. En 1837, la Commission des monuments historiques est créée : le classement devient la mesure par excellence de protection, mais sans valeur légale.</p>
           <p>Au niveau juridique, le pas n’est pas encore franchi, aucune loi n’ayant avalisé le droit des objets d’art à être protégés. C’est la jurisprudence qui fait autorité. Elle laisse apparaître une règle de conduite générale en matière de domanialité, caractérisée par l’inaliénabilité et l’imprescriptibilité du patrimoine public mobilier. La propriété privée reste intangible ; seuls, les objets d’art appartenant à l’État sont l’objet de la sollicitude des juristes.</p>
         </div>
-        <div>
+        <div xml:id="r1217406">
           <head rend="uc">Chapitre III
            <lb/>La mise en place d’une législation de protection du patrimoine :
            <lb/>la loi du 30 mars 1887</head>
           <p>La loi du 30 mars 1887 est la première mesure cohérente concernant les monuments historiques. Elle distingue immeubles par nature et par destination, et objets mobiliers. L’économie de cette loi repose sur la procédure de classement qui trouve, ici, une dimension juridique. L’œuvre classée, c’est-à-dire inscrite sur la liste des objets mobiliers, est inaliénable et imprescriptible si elle appartient à l’État. Si elle est la propriété d’un département, d’une commune, d’une fabrique ou d’un établissement public, elle ne peut être restaurée sans l’autorisation du ministre des Beaux-Arts. En cas de vol d’un objet classé, la prescription est de trois ans.</p>
           <p>Le classement autorisait donc l’intervention de l’État : le droit des œuvres d’art à être protégées trouvait ici sa consécration juridique ; l’idée de patrimoine s’était officiellement traduite. Toutefois, cette loi n’en marquait pas le triomphe absolu. En effet, le législateur avait davantage tenu compte de la qualité du propriétaire que des qualités intrinsèques de l’objet : il n’était nulle part question, dans cette loi, des objets d’art appartenant à des particuliers. La propriété privée restait à l’abri de l’ingérence de l’État. De ce fait, de nombreux trésors échappaient encore à la surveillance de ce dernier et, nourrissant le commerce d’antiquités, étaient souvent perdus à jamais pour la France.</p>
         </div>
-        <div>
+        <div xml:id="r1217423">
           <head rend="uc">Chapitre IV
            <lb/>Le travail de la sous-commission des objets mobiliers
            <lb/>(jusqu’à la réorganisation de la commission des monuments historiques
@@ -104,11 +102,11 @@
           <p>Pendant près de quarante ans, la destinée du service des Antiquités et Objets d’art fut liée à cet homme de qualité, dont l’intelligence était à l’image de la volonté, infatigable. Créateur et chef du service jusqu’en 1931, Frantz Marcou fut aussi, en coulisse, le promoteur de la législation concernant les objets d’art et son interprète.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1217454">
         <head rend="uc">Deuxième partie
          <lb/>La situation des objets mobiliers dans les édifices cultuels
          <lb/>suite à la loi de séparation des églises et de l’état</head>
-        <div>
+        <div xml:id="r1217464">
           <head rend="uc">Chapitre premier
            <lb/>la création des commissions départementales
            <lb/>pour le classement des objets mobiliers,
@@ -119,7 +117,7 @@
           <p>Nommées par les préfets, les commissions départementales avaient pour rôle d’envoyer à la sous-commission des propositions de classement concernant le mobilier cultuel. Gênées dans leur travail par l’absence de subvention et le climat d’hostilité et de méfiance qu’engendrait la loi de Séparation, ces commissions furent d’une aide relativement médiocre.</p>
           <p>Le gouvernement avait reculé jusqu’à cette dernière limite la création du service des Antiquités et Objets d’art ; c’est, paradoxalement, une loi apparemment sans objet artistique qui le contraignit à mettre sur pied l’organisation administrative que supposait déjà la loi du 30 mars 1887.</p>
         </div>
-        <div>
+        <div xml:id="r1217494">
           <head rend="uc">Chapitre II
            <lb/>Les conséquences de la loi de séparation des églises et de l’état
            <lb/>sur la conservation des objets d’art des édifices cultuels</head>
@@ -130,7 +128,7 @@
           <p>Pour assurer l’exercice public du culte, la loi du 2 janvier 1907 laissa à la disposition des fidèles et du ministre du culte les édifices et leur mobilier affectés au culte, réglant ainsi le problème de l’attribution des biens cultuels. Enfin, la loi <pb source="https://nakala.fr/10.34847/nkl.bfd52v8y#31e41913b0779dd154d022d0addc3477de0c36a7" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfd52v8y/31e41913b0779dd154d022d0addc3477de0c36a7/full/full/0/default.jpg"/>du 13 avril 1908 réglait le problème de propriété afférent aux meubles, en se conformant au principe selon lequel l’accessoire suit le principal. L’interaction de ces deux lois eut pour conséquence de retirer aux mairies la jouissance d’œuvres d’art dont elles étaient propriétaires, pour l’accorder aux fidèles et au ministre du culte dépourvus, pour leur part, de tout titre de propriété. Les meubles des édifices cultuels se trouvaient donc indisponibles tant dans les mains du propriétaire que dans celles de l’affectataire.</p>
           <p>Les lendemains de la loi de Séparation s’annonçaient difficiles.</p>
         </div>
-        <div>
+        <div xml:id="r1217532">
           <head rend="uc">Chapitre III
            <lb/>Les lendemains de la loi de séparation
            <lb/>et le sort réservé aux objets d’art des édifices cultuels</head>
@@ -139,12 +137,12 @@
           <p>La situation des objets mobiliers des églises paroissiales demeurait, après la loi du 2 janvier 1907, bien aléatoire. En effet, les ministres du culte n’avaient, dans leur église, aucun titre juridique ; pouvait-on en droit les considérer, alors, comme responsables ? Si le ministre du culte n’était pas considéré comme le substitut légal d’associations cultuelles qui ne furent jamais mises en place, à qui incombaient la garde des objets classés et la protection effective des œuvres d’art contre le vol ? à la mairie propriétaire ou au ministre affectataire ? Le problème restait insoluble, pour le plus grand détriment des trésors religieux qui, dans la première décennie du XX’ siècle, offraient aux voleurs une proie facile car le budget des Beaux-Arts était trop insuffisant pour financer l’installation de coffres-forts là où la protection des œuvres d’art le réclamait.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1217553">
         <pb source="https://nakala.fr/10.34847/nkl.bfd52v8y#5d2f37a74121de7eee4fd6cfa66d6c60856200b1" n="125" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfd52v8y/5d2f37a74121de7eee4fd6cfa66d6c60856200b1/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>La création du service des antiquités et objets d’art
          <lb/>et la loi du 31 décembre 1913</head>
-        <div>
+        <div xml:id="r1217568">
           <head rend="uc">Chapitre premier
            <lb/>la création du service de l’inspection des antiquités et objets d’art
            <lb/>et ses modifications jusqu’en 1919</head>
@@ -154,7 +152,7 @@
           <p>Le décret du 11 avril 1908 précisait la mission assignée au service de l’inspection et exigeait pour le recrutement des diplômes significatifs (Écoles françaises d’Athènes ou de Rome, École du Louvre, École des chartes). En même temps, il portait à trois le nombre des inspecteurs généraux, et à six le nombre des inspecteurs (conséquence de la fusion inspecteur-inspecteur adjoint).</p>
           <p>En 1914, l’administration des Beaux-Arts décidait la limitation à quatre, par voie d’extinction, du nombre des inspecteurs et inspecteurs généraux adjoints. C’était la preuve que la création de ce service avait correspondu à une urgence suscitée par le classement des objets d’art dans les édifices cultuels ; une fois l’urgence disparue, le service pouvait être réduit.</p>
         </div>
-        <div>
+        <div xml:id="r1217594">
           <pb source="https://nakala.fr/10.34847/nkl.bfd52v8y#e89ff3e1ae8698c7466633e828e0c38983165979" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfd52v8y/e89ff3e1ae8698c7466633e828e0c38983165979/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les conservateurs départementaux des antiquités et objets d’art
@@ -166,7 +164,7 @@
           <p>La guerre occasionna pour les conservateurs des tâches et des responsabilités particulières : en 1914 comme en 1939, ils furent chargés de procéder à l’évacuation vers l’arrière des objets d’art menacés par les bombardements et les pillages. En 1919, les conservateurs reçurent la mission d’opérer un récolement spécial pour permettre de réclamer, auprès des autorités allemandes, l’indemnisation des pertes et la restitution des objets volés.</p>
           <p>Le service de la Conservation, sous la direction du service de l’Inspection, était entravé dans l’exercice de ses fonctions par l’insuffisance de la loi. Consécutives, en partie, à la création du service des Antiquités et Objets d’art, des préoccupations législatives finirent par se manifester.</p>
         </div>
-        <div>
+        <div xml:id="r1217628">
           <pb source="https://nakala.fr/10.34847/nkl.bfd52v8y#bed085c050d865bc4af04332285f11fa131270ea" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfd52v8y/bed085c050d865bc4af04332285f11fa131270ea/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La loi du 31 décembre 1913 et la législation douanière
@@ -180,12 +178,12 @@
           <p>On chercha également à freiner l’exode des trésors artistiques français vers l’étranger par l’établissement d’une protection douanière. Celle-ci passait par des mesures sur l’importation et sur l’exportation, le but étant, par une taxe élevée, de dissuader l’exportateur d’exiler hors de France des œuvres d’art. Le décret du 1<hi rend="sup">er</hi> mai 1920 mettait ces mesures en vigueur, mais les graves entraves qu’il créait au commerce de luxe le firent abroger dès 1921.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1217670">
         <pb source="https://nakala.fr/10.34847/nkl.bfd52v8y#10ab3dbae5cfbb9530365eeecc6de2663d966517" n="128" facs="https://api.nakala.fr/iiif/10.34847/nkl.bfd52v8y/10ab3dbae5cfbb9530365eeecc6de2663d966517/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Il a fallu près d’un siècle à l’État français pour expliciter la notion de patrimoine et pour doter la France d’une législation cohérente en matière de protection des objets d’art. Le résultat est amplement positif : l’objet à caractère historique et artistique a acquis une identité et un signalement ; l’objet classé est protégé contre la convoitise et l’ignorance. A travers ces mesures, les Français ont appris à connaître leur patrimoine et, en le connaissant, à l’aimer. Toutefois, on peut remarquer que l’État, faute de moyens financiers, a souvent mis dans une situation délicate les objets qu’il prétendait protéger par la loi. Ainsi a-t-il attendu les années 1907-1908 pour mettre en place le service des Antiquités et Objets d’art.</p>
       </div>
-      <div>
+      <div xml:id="r1217685">
         <head rend="uc">Annexes</head>
         <p>Rapports et débats parlementaires concernant les lois du 30 mars 1887, du 9 décembre 1905 et du 31 décembre 1913. – Rapports de l’inspecteur général des Monuments historiques, Paul-Frantz Marcou, sur l’interprétation des lois des 9 décembre 1905 et 2 janvier 1907 et sur la création du service des Antiquités et Objets d’art. – Quelques procès-verbaux de la sous-commission des Objets mobiliers (1891-1895). – Tableau des correspondants de la sous-commission. – Tableau des conservateurs départementaux des Antiquités et Objets d’art.</p>
       </div>

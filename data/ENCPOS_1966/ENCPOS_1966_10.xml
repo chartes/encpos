@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1966_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1966_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,20 +54,20 @@
         <forename>Hugues</forename>
         <surname>de La Bonninière de Beaumont</surname>
       </byline>
-      <div>
+      <div xml:id="r870719">
         <head rend="uc">Sources</head>
         <p>Les principales sources consultées ont été, d’une part, les archives de la Librairie, les collections Anisson, Delamare et Joly de Fleury et la correspondance de Pontchartrain à la Bibliothèque nationale ; d’autre part, le fonds des mémoires et documents France au ministère des Affaires étrangères pour les années 1727-1740. Enfin on a utilisé les archives du Conseil d’État privé (sous-série V“des Archives nationales).</p>
       </div>
-      <div>
+      <div xml:id="r870729">
         <head rend="uc">Introduction</head>
         <p>On entend par « Librairie » au <num>xviii<hi rend="sup">e</hi></num> siècle, un ensemble d’institutions qui sont chargées d’élaborer et de faire appliquer par la communauté des marchands libraires et imprimeurs une législation commerciale.</p>
         <p>Mais comme le livre, d’autre part, est alors le principal ferment des querelles religieuses et politiques et le seul véhicule des idées nouvelles, cette surveillance économique se double d’une censure qui s’efforce de retrancher de la production imprimée tout ce qui peut nuire à l’État et à la religion ou diffamer les personnes.</p>
         <p>Pour étudier l’histoire de ces institutions et des résultats auxquels leur travail a abouti, il faut donc connaître d’abord les moyens mis à leur disposition par le législateur, examiner ensuite leurs mécanismes. Mais leurs attributions se chevauchent ; elles se doublent et se heurtent les unes aux autres.</p>
       </div>
-      <div>
+      <div xml:id="r870751">
         <head rend="uc">Première partie
          <lb/>La législation du livre au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r870765">
           <head rend="uc">Chapitre premier
            <lb/>histoire de la législation du livre de 1686 à 1745</head>
           <p><hi rend="i">L’édit de 1686.</hi> – L’édit du 11 août 1686 est le dernier que Louis XIV ait promulgué sur l’organisation de la « Librairie » dans son ensemble et il servira <pb source="https://nakala.fr/10.34847/nkl.7e1c1029#2204aac0f2bbb103742223f1644d7c1b3d2a6040" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.7e1c1029/2204aac0f2bbb103742223f1644d7c1b3d2a6040/full/full/0/default.jpg"/> de référence. Son esprit est tout colbertien et il s’attache surtout à organiser le métier d’imprimeur et de libraire.</p>
@@ -80,7 +78,7 @@
           <p><hi rend="i">Fleuriau d’Armenonville.</hi> – Ce grand code, pourtant, ne donna pas entière satisfaction, puisqu’il fallut y ajouter un nouvel arrêt du Conseil, le 10 avril 1725, à la suite du mémoire de l’abbé Blondel sur « les vexations qu’exercent les libraires et imprimeurs de Paris », et un autre encore le 8 février 1727.</p>
           <p><hi rend="i">De 1727 à 1745.</hi> – Presque rien désormais ne sera changé à la législation officielle. Le chancelier d’Aguesseau se contenta, en 1744, d’étendre à tout le royaume les dispositions de 1723 et de les renforcer par l’arrêt du 10 juillet 1745.</p>
         </div>
-        <div>
+        <div xml:id="r870815">
           <head rend="uc">Chapitre II
            <lb/>L’héritage de Louis XIV : privilèges et permissions simples</head>
           <p><hi rend="i">Définition du privilège et de la permission simple d’imprimer.</hi> – En 1686, on connaissait essentiellement le privilège d’imprimer, monopole commercial accordé par lettres patentes de grand sceau. En 1701, on lui adjoint la permission <pb source="https://nakala.fr/10.34847/nkl.7e1c1029#6dc17f89da88dc28645f23694cbd0d51aa4cfc4b" n="73" facs="https://api.nakala.fr/iiif/10.34847/nkl.7e1c1029/6dc17f89da88dc28645f23694cbd0d51aa4cfc4b/full/full/0/default.jpg"/>simple d’imprimer, également matérialisée par lettres de grand sceau, mais sans monopole, et dont les droits sont moins élevés. Les permissions délivrées par les juges de police ne concernent que les feuilles volantes imprimées recto-verso.</p>
@@ -92,7 +90,7 @@
           <p>Les lettres de privilège ou de permission simple d’imprimer se présentent diplomatiquement comme tous les autres mandements et doivent être reproduites au début ou à la fin du livre imprimé.</p>
           <p><hi rend="i">Le problème de la propriété littéraire.</hi> – Les libraires avaient pris l’habitude de considérer ces lettres patentes comme des titres de propriété de l’œuvre littéraire, ce qui donna fieu, avec les auteurs, à de nombreuses controverses qui n’étaient pas tranchées juridiquement en 1750. Le pouvoir royal, lui, les considérait surtout comme le meilleur moyen d’une part d’exercer sa censure, d’autre part, grâce au monopole qui était attaché au privilège, de contrôler le commerce du livre.</p>
         </div>
-        <div>
+        <div xml:id="r870866">
           <head rend="uc">Chapitre III
            <lb/>Concurrence étrangère et permissions tacites</head>
           <p><hi rend="i">La concurrence étrangère.</hi> – Au monopole, la permission simple d’imprimer dérogea : cela s’explique par le souci du commerce qui caractérise la politique royale en matière de librairie au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
@@ -107,11 +105,11 @@
           <p>Une réaction se produisit, à partir de 1740, avec le chancelier d’Aguesseau, qui ne se montra guère partisan de la permission tacite, encore moins de ces permissions « occultes » qui ne laissaient aucune trace et pouvaient être à tout moment désavouées. D’Aguesseau préférait donner des privilèges ; c’est à lui qu’il appartint d’en accorder un, en 1746, aux éditeurs de l’<hi rend="i">Encyclopédie.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r870929">
         <pb source="https://nakala.fr/10.34847/nkl.7e1c1029#967812d5a4000563ab7296ff83a711ad22a1cc9b" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.7e1c1029/967812d5a4000563ab7296ff83a711ad22a1cc9b/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les institutions de la librairie</head>
-        <div>
+        <div xml:id="r870942">
           <head rend="uc">Chapitre premier
            <lb/>l’autorité ministérielle et la production imprimée</head>
           <p>Le roi avait délégué son autorité sur la librairie au chancelier de France. Celui-ci agissait au sein du Conseil des dépêches.</p>
@@ -121,7 +119,7 @@
           <p><hi rend="i">Chanceliers et gardes des sceaux.</hi> – En dehors du Conseil des dépêches, le chancelier ou, s’il est en disgrâce, le garde des sceaux ont la haute main sur l’administration de la librairie. Toutefois, de 1727 à 1737, bien qu’on ait rappelé à Versailles le chancelier d’Aguesseau, elle fut confiée au garde des sceaux Germain Louis Chauvelin. Cette anomalie s’explique par le caractère autoritaire du cardinal de Fleury, qui jugeait le second plus docile que le premier.</p>
           <p><hi rend="i">Le choix du directeur de la Librairie.</hi> – Le chancelier ou le garde des sceaux ont toute liberté dans le choix du directeur de la Librairie dont la fonction est officieuse et qui joue auprès d’eux le rôle d’un auxiliaire personnel. Cependant il semble bien que le cardinal de Fleury imposa Antoine Rouillé à Chauvelin, le comte d’Argenson et Jean François Maboul à d’Aguesseau, rompant avec l’habitude, prise depuis Pontchartrain et Voysin, de nommer à ce poste un proche parent du chancelier, ainsi destiné à une brillante carrière. La souplesse des institutions d’ancien régime et l’influence prise sur Louis XV par son ancien précepteur permirent à celui-ci de ne pas tenir compte d’une coutume qui fut remise en honneur par le chancelier Lamoignon, désignant son fils Malesherbes comme directeur de la Librairie en 1750.</p>
         </div>
-        <div>
+        <div xml:id="r870978">
           <head rend="uc">Chapitre II
            <lb/>La direction de la librairie</head>
           <p>Avant Bignon, la fonction de directeur de la Librairie semble avoir été très limitée. L’auxiliaire du chancelier se contentait de conserver les manuscrits approuvés afin de pouvoir vérifier les privilèges et dépister les contrefaçons. Dès 1699, Pontchartrain étendit les attributions du directeur en faveur de son neveu Jean-Paul Bignon.</p>
@@ -133,7 +131,7 @@
           <p>Le directeur entretient également une correspondance suivie avec les intendants et les inspecteurs de la Librairie en province. Il participe, en liaison avec le Conseil de chancellerie, à l’élaboration de la législation.</p>
           <p>Le titre de directeur général de la Librairie, reconnu généralement à Malesherbes à partir de 1750, semble n’avoir constitué aucune nouveauté dans l’institution de la direction de la Librairie.</p>
         </div>
-        <div>
+        <div xml:id="r871013">
           <head rend="uc">Chapitre III
            <lb/>Le bureau pour les affaires de chancellerie et librairie
            <lb/>du conseil d’état privé</head>
@@ -145,7 +143,7 @@
           <p><hi rend="i">Le fonctionnement du bureau.</hi> – Les séances ont lieu chez le conseiller d’État qui le préside, à son initiative. Les membres sont nommés par le chancelier. Parmi eux figurent toujours les directeurs de la Librairie quand ils font partie du Conseil d’État privé, et le lieutenant général de police.</p>
           <p><hi rend="i">Les prérogatives du bureau.</hi> – Tribunal administratif, il juge les requêtes en opposition à des arrêts antérieurs du Conseil sur le fait de la Librairie. Il nomme les maîtres-imprimeurs. Il prépare les arrêts de législation. Il casse enfin les privilèges « surpris au sceau », en concurrence avec le Parlement de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r871059">
           <head rend="uc">Chapitre IV
            <lb/>La censure répressive</head>
           <p>On appelle censure répressive, au <num>xviii<hi rend="sup">e</hi></num> siècle, la poursuite exercée par la police contre les dérogations à la règle des monopoles et permissions et le jugement des contrefacteurs.</p>
@@ -154,7 +152,7 @@
           <p>La tâche des inspecteurs consiste à visiter les librairies et imprimeries en liaison avec les officiers des chambres syndicales et à instruire les procès intentés aux contrevenants.</p>
           <p><hi rend="i">Le Parlement.</hi> – Grâce à son droit de « police générale », le Parlement peut évoquer devant lui, sur requête de son procureur général, tout ouvrage qui attaque l’État, la religion ou les personnes, même s’il est publié avec la caution de la censure. Il juge également les auteurs de ces ouvrages condamnés à la « brûlure ».</p>
         </div>
-        <div>
+        <div xml:id="r871098">
           <head rend="uc">Chapitre V
            <lb/>L’administration locale</head>
           <p>Un commerce souvent florissant en province a exigé la mise en place d’une administration locale.</p>
@@ -164,7 +162,7 @@
           <p>L’administration provinciale au <num>xviii<hi rend="sup">e</hi></num> siècle est calquée sur l’administration centrale de la librairie, sous la haute autorité du chancelier.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r871143">
         <head rend="uc">Conclusion</head>
         <p>Parallèlement à l’explication des textes et aux études statistiques sur la production imprimée, la recherche de la politique menée par le pouvoir royal, recherche fondée sur l’examen de la législation qu’il a élaborée et des institutions qui ont été chargées de l’appliquer, permet quelques observations.</p>
         <p>De 1699 à 1714, le chancelier de Pontchartrain et son neveu Bignon s’appliquèrent à renforcer l’autorité royale sur l’administration du commerce et de la censure des livres, par l’installation définitive de la direction de la Librairie et la spécialisation d’un bureau du Conseil d’État privé pour examiner toutes les affaires contentieuses ayant trait à la chancellerie et librairie. Cette œuvre, continuée par ce bureau, aboutit en 1723 à la promulgation du code de la librairie.</p>

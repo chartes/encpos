@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,12 +56,12 @@
         <surname>Hemeryck</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r921716">
         <head rend="uc">Introduction</head>
         <p>Les œuvres d’Alain Chartier, secrétaire du roi Charles VII, présentent deux inspirations différentes : la <hi rend="i">Belle Dame sans merci</hi> et les poésies destinées à la cour chantent l’amour, ses divertissements et ses peines ; le <hi rend="i">Quadrilogue invectif</hi> et le <hi rend="i">Livre de l’Espérance</hi> reflètent l’indignation et l’inquiétude qu’il ressent devant les malheurs de son pays et l’indignité des Français.</p>
         <p>Des œuvres moins célèbres, le <hi rend="i">Débat des deux fortunes d’amour</hi> et les œuvres latines, peuvent servir de point de départ à l’étude de son univers intellectuel.</p>
       </div>
-      <div>
+      <div xml:id="r921745">
         <head rend="uc">Première partie
          <lb/>Le poète : le <hi rend="i">débat des deux fortunes d’amour</hi></head>
         <p><hi rend="i">Présentation de l’œuvre.</hi> – Le <hi rend="i">Débat des deux fortunes d’amour</hi> est un poème dans la ligne de la <hi rend="i">Belle Dame sans merci,</hi> qui eut un énorme succès. Le <hi rend="i">Débat,</hi> exploitant la même veine, met en scène des seigneurs et des dames qui se demandent si l’amour comporte plus de joie que de douleur ; deux amants, aux points de vue contradictoires, l’un joyeux, l’autre triste, prennent tour à tour la parole.</p>
@@ -88,16 +86,16 @@
         <p><hi rend="i">Établissement du texte.</hi> – Il ne subsiste pas de manuscrit contemporain de Chartier et révisé par lui. Le <hi rend="i">Débat</hi> est contenu dans vingt-cinq manuscrits, dont trois n’ont pas été examinés. Les deux meilleurs sont celui d’Aix, Bibliothèque Méjanes 168, et celui de Grenoble, Bibliothèque municipale 874.</p>
         <p>Galliot du Pré a joint le <hi rend="i">Débat</hi> aux éditions des œuvres de Chartier qu’il donna en 1526 et 1529.</p>
         <p>D’après les meilleurs manuscrits, qui insistent sur l’opposition « plaisirs et douleurs », « biens et maux de fortune d’amour », il faut appeler le poème <hi rend="i">Débat des deux fortunes d’amour</hi> et non <hi rend="i">Débat des deux fortunés d’amour.</hi></p>
-        <div>
+        <div xml:id="r921937">
           <head rend="uc">Édition du <hi rend="i">débat des deux fortunes d’amour</hi></head>
           <p>L’édition est faite d’après le manuscrit de Grenoble, Bibliothèque municipale 874 et indique les variantes des manuscrits de la Bibliothèque municipale <pb source="https://nakala.fr/10.34847/nkl.a4be6636#0a6a6378fa8f5c77b789c36f4c387d9484490d3f" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.a4be6636/0a6a6378fa8f5c77b789c36f4c387d9484490d3f/full/full/0/default.jpg"/>d’Aix 168, de la Bibliothèque de l’Arsenal 3521 et de la Bibliothèque nationale fr. 1127.</p>
           <p>Lexique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r921959">
         <head rend="uc">Deuxième partie
          <lb/>Le penseur vu à travers les œuvres latines</head>
-        <div>
+        <div xml:id="r921967">
           <head rend="uc">Chapitre premier
            <lb/>présentation des œuvres latines</head>
           <div>
@@ -134,7 +132,7 @@
             <p>Mis à part les discours officiels, la manière de Chartier se fait, avec le temps, de plus en plus littéraire et de plus en plus influencée par la lecture des écrivains antiques.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r922156">
           <head rend="uc">Chapitre II
            <lb/>Établissement et tradition du texte</head>
           <p><hi rend="i">Tradition des œuvres latines à l’exception du Dialogus et des Invectives. </hi>– Les dix œuvres en question sont contenues dans un nombre restreint de manuscrits, où ne figurent jamais les œuvres françaises. Certains ne contiennent qu’une pièce ou deux, d’autres sont plus complets ; seuls, le manuscrit de la Bibliothèque nationale de Paris, lat. 8757 et celui du Musée Condé à Chantilly 438 contiennent la totalité des œuvres ; le manuscrit de Florence, Biblioteca Riccardiana 443, et celui de Berlin, Staatsbibliothek lat. fol. 366, les contiennent presque toutes. Dans les autres manuscrits, manquent les œuvres de jeunesse et les deux œuvres écrites dans les dernières années de sa vie. Les manuscrits de la Bibliothèque nationale de Paris, lat. 5961, de Wolfenbüttel, Bibliothèque Herzog August, cod. Guelf. Helmstedt 376, et de Tolède, Cabildo Toledano VI 21, présentent parmi les autres le recueil le plus complet.</p>
@@ -150,7 +148,7 @@
           <p>Souvent les <hi rend="i">Invectives</hi> sont copiées comme exemple d’un genre littéraire, à côté de règles de rhétorique et d’invectives célèbres, comme celles qu’on attribuait à Salluste et à Cicéron.</p>
           <p><hi rend="i">Œuvres jointes à celles de Chartier dans les manuscrits.</hi> – D’assez nombreux auteurs antiques, peu de médiévaux et plusieurs humanistes français du début du <num>xv<hi rend="sup">e</hi></num> siècle, et principalement Nicolas de Clamanges, sont représentés dans les mêmes manuscrits que Chartier. Ses œuvres ont été jointes surtout à celles des auteurs italiens du xiv<hi rend="sup">e</hi> siècle et du <num>xv<hi rend="sup">e</hi></num> siècle, et notamment à celles d’Aeneas Sylvius Piccolomini, pape sous le nom de Pie II. L’intérêt qu’on a porté à Chartier dans la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle, date de la plupart des manuscrits, était donc similaire à celui qu’on avait pour Coluccio Salutati, le chancelier de Florence, ou pour le Pogge.</p>
         </div>
-        <div>
+        <div xml:id="r922298">
           <head rend="uc">Chapitre III
            <lb/>La forme</head>
           <p><hi rend="i">La langue.</hi> – Il arrive à Chartier d’employer l’indicatif dans l’interrogation indirecte, le subjonctif après les relatifs indéfinis et après <hi rend="i">etsi</hi> et <hi rend="i">quanquam. </hi>Sans doute mettait-il des nuances là où la règle classique suivait des normes strictes.</p>
@@ -166,7 +164,7 @@
           <p>Dans les discours officiels, il cite abondamment la Bible et Aristote, en indiquant souvent la référence ; dans les œuvres littéraires, il cite surtout les auteurs antiques, en intégrant parfois la citation à sa phrase ; il lui arrive de décalquer la structure d’une phrase antique. Il s’inspire surtout de Salluste et de Sénèque. Il oppose des périodes pleines de souffle à des formules concises et nerveuses. Son style, ferme et oratoire, ne manque pas d’agrément.</p>
           <p>Les mêmes citations, images ou pensées, se retrouvent fréquemment dans deux ou plusieurs œuvres différentes.</p>
         </div>
-        <div>
+        <div xml:id="r922390">
           <head rend="uc">Chapitre IV
            <lb/>Les thèmes et les sources</head>
           <p><hi rend="i">L’ordre idéal.</hi> – La conception du monde que reflètent les écrits de Chartier est toute théocratique et fortement influencée par la <hi rend="i">Cité de Dieu. </hi>La paix est l’harmonie du monde sous la volonté divine. Chaque homme doit faire son devoir à la place où Dieu l’a mis pour accomplir cette harmonie. Les souverains sont les lieutenants de Dieu sur la terre ; chacun d’eux, suivant la conception de Jean de Salisbury, est à la tête du <hi rend="i">corpus regni.</hi> L’accord de la loi, de la raison et de la nature impose de leur obéir dans la vertu pour arriver <pb source="https://nakala.fr/10.34847/nkl.a4be6636#d9f905b93e15ba47aa9243a053fc2e786d6d6b7b" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.a4be6636/d9f905b93e15ba47aa9243a053fc2e786d6d6b7b/full/full/0/default.jpg"/> à la paix, et d’aimer le pays dont on est membre. Or la France, que Chartier nomme <hi rend="i">Francia</hi> dans les discours officiels et <hi rend="i">Gallia</hi> ailleurs, occupe une place privilégiée dans l’ordre divin ; elle est choyée par Dieu, comme l’attestent son histoire et les prodiges accordés à la dynastie qui la gouverne. Chartier suit les traditions bien établies depuis l’époque de Charles V et le <hi rend="i">Songe du Verger.</hi></p>
@@ -177,13 +175,13 @@
           <p>Ce culte de l’éloquence et de la sagesse, cette fière conception de la culture et de la valeur personnelle, inséparables cependant des soucis de l’intérêt commun, est l’idéal des « humanistes » parisiens du début du <num>xv<hi rend="sup">e</hi></num> siècle, Jean de Montreuil, Gerson et surtout Nicolas de Clamanges.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r922464">
         <pb source="https://nakala.fr/10.34847/nkl.a4be6636#900b3dc9adecdfb8c67a993912c1275cf0db634c" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.a4be6636/900b3dc9adecdfb8c67a993912c1275cf0db634c/full/full/0/default.jpg"/>
         <head rend="uc">Édition des œuvres latines</head>
         <p>Édition des discours officiels, des œuvres de propagande politique – y compris la traduction française du <hi rend="i">Dialogus familiaris</hi> – et des œuvres privées.</p>
         <p>Variantes. – Liste des citations. – Notes. – Bibliographie. – Index des noms propres.</p>
       </div>
-      <div>
+      <div xml:id="r922486">
         <head rend="uc">Conclusion</head>
         <p>Poète ou latiniste, Alain Chartier tend toujours au perfectionnement de soi. Son idéal est de vertu, de paix et de justice. Son érudition n’est peut-être pas très étendue, et il n’est ni théologien ni véritablement philosophe. Mais son œuvre témoigne du dernier éclat de l’idéal courtois avant son déclin, et de l’amour persistant des lettres anciennes et de l’éloquence, entre le premier humanisme parisien et les débuts de la Renaissance.</p>
       </div>

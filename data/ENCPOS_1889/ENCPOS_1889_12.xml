@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1889_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1889_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,35 +58,35 @@
         <surname>Richebé</surname>
         <roleName>Avocat, Élève de l’École des Hautes Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r171419">
         <head rend="uc">Introduction</head>
-        <div>
+        <div xml:id="r171425">
           <head rend="uc">1° but de la thèse.</head>
           <p>Ce travail est destiné à former la préface d’une histoire détaillée de la Chambre des comptes de Lille, instituée en 1386. Il a pour but de montrer quelle était, avant cette date, l’organisation financière du comté de Flandre.</p>
         </div>
-        <div>
+        <div xml:id="r171435">
           <head rend="uc">2° Sources.</head>
           <p>A, <hi rend="i">Archives.</hi> – Les dépôts qui ont été consultés sont les archives du département du Nord, celles du royaume de Belgique, celles de la province de Flandre orientale à Gand et la Bibliothèque Nationale. On s’est surtout attaché à l’étude attentive des comptes, où l’on saisit beaucoup mieux que dans les chartes tous les rouages de l’administration financière d’un pays.</p>
           <p>B, <hi rend="i">Imprimés.</hi> – Il n’existe aucun ouvrage d’ensemble <pb source="https://nakala.fr/10.34847/nkl.9ab12u67#55a93e867ee9bae088855aaa25655e46b37a1adf" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab12u67/55a93e867ee9bae088855aaa25655e46b37a1adf/full/full/0/default.jpg"/>sur les finances de la Flandre. On n’a trouvé à utiliser que des monographies relatives à certains points particuliers.</p>
         </div>
-        <div>
+        <div xml:id="r171461">
           <head rend="uc">Première partie
            <lb/>Domaine des comtes de Flandre</head>
           <p>Avant d’exposer l’organisation financière de la Flandre, il a paru nécessaire de rappeler brièvement les principales modifications qui ont été apportées aux limites de ce pays depuis sa constitution en comté jusqu’à son annexion aux États de la maison de Bourgogne. Les plus importants des faits énumérés sont ceux qui suivent. – Réunion au domaine des pays d’Alost, de Waes et des Quatre-Métiers (Flandre impériale). – Cession d’Arras, Saint-Omer, Aire, Hesdin, Bapaume (Artois). – Acquisition des châtellenies de Cassel, de Bruges, de Bailleul, de Bourbourg et de Gand. – Abandon au roi de France des villes, châtellenies et bailliages de Lille, Douai et Béthune (Transport de Flandre). – Don des villes et territoires de Cassel, Bourbourg, Bergues, Gravelines et Warneton en apanage à Robert de Flandre. – Rétrocession de Lille, Douai et Orchies (Flandre wallonne).</p>
         </div>
-        <div>
+        <div xml:id="r171473">
           <head rend="uc">Deuxième partie
            <lb/>Revenus du domaine</head>
           <p>1° <hi rend="i">Revenus fixes.</hi> – Cette catégorie comprend : <hi rend="i">A,</hi> les rentes privilégiées dites de <hi rend="i">briefs</hi> ou d’<hi rend="i">espier (spyckerrenten</hi>), dont l’origine est antérieure à l’établissement du régime féodal ; <hi rend="i">B,</hi> les rentes domaniales ordinaires ; <hi rend="i">C,</hi> la rente de 10.000 livres tournois, dite du <pb source="https://nakala.fr/10.34847/nkl.9ab12u67#953b04a319ffdaf670ba8674857f6afc52dc718a" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab12u67/953b04a319ffdaf670ba8674857f6afc52dc718a/full/full/0/default.jpg"/><hi rend="i">transport</hi>, cédée en 1312 par le roi de France au comte de Flandre, moyennant l’abandon de Lille, Douai et Béthune ; <hi rend="i">D,</hi> la <hi rend="i">nouvelle rente,</hi> imposée à diverses villes flamandes en 1328, à la suite de la bataille de Cassel.</p>
           <p>2° <hi rend="i">Revenus éventuels.</hi> – Les principaux étaient le produit des droits féodaux proprement dits, celui des droits de justice et celui des impôts.</p>
         </div>
-        <div>
+        <div xml:id="r171532">
           <head rend="uc">Troisième partie
            <lb/>Dépenses</head>
           <p>1° <hi rend="i">Dépenses fixes.</hi> – Elles peuvent toutes se ranger sous les deux rubriques suivantes : <hi rend="i">A,</hi> rentes féodales hypothéquées sur le domaine (<hi rend="i">feoda) ; B,</hi> aumônes perpétuelles (<hi rend="i">eleemosynæ</hi>).</p>
           <p><hi rend="i">Dépenses variables.</hi> – Il y a lieu de distinguer : <hi rend="i">A,</hi> les dépenses d’hôtel : services de l’hôtel, chambre aux deniers, <hi rend="i">séjour</hi> (entretien de l’écurie du comte) et <hi rend="i">livrée</hi> (distributions périodiques d’étoffes et de fourrures) ; <hi rend="i">B,</hi> les réparations et travaux faits aux châteaux et aux palais ; <hi rend="i">C,</hi> les dépenses diverses moins importantes : gages et pensions à vie, présents, paiement des gens de guerre, frais d’examen des comptes, etc.</p>
         </div>
-        <div>
+        <div xml:id="r171586">
           <head rend="uc">Quatrième partie
            <lb/>Gestion financière</head>
           <p>1° <hi rend="i">Perception des rentes dites de « briefs » ou d’« espier ».</hi> – A l’origine du comté de Flandre, la plupart des revenus du domaine étaient payés en nature <pb source="https://nakala.fr/10.34847/nkl.9ab12u67#d1cd46164c7cf597418efefb52611e3ea9769cde" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab12u67/d1cd46164c7cf597418efefb52611e3ea9769cde/full/full/0/default.jpg"/> au souverain, en raison de la rareté du numéraire. Ils étaient perçus au moyen de rôles appelés<hi rend="i">briefs</hi> et versés dans des magasins nommés <hi rend="i">espiers</hi>, <hi rend="i">lardiers, jacqueries,</hi> suivant que les redevables avaient à s’acquitter en grains ou en bestiaux. Les bureaux de recette où l’on payait en deniers étaient plus spécialement désignés sous les noms de <hi rend="i">cens, échiquiers</hi> ou simplement <hi rend="i">briefs.</hi> Mais ces dénominations n’ont rien d’absolu. Dans la partie du territoire qui appartenait au comte, il existait une quarantaine de dépôts de ce genre. A la tête de chacun se trouvait un préposé (<hi rend="i">spicarius</hi>) chargé d’encaisser les revenus qui avaient été attribués à sa recette. Les redevances, levées sur les contribuables (<hi rend="i">parsonniers</hi> ou <hi rend="i">volghers</hi>) par des collecteurs responsables solidairement, les <hi rend="i">hoofdmans, </hi>étaient remises par ceux-ci à des intermédiaires : les <hi rend="i">ammans</hi>, qui, à leur tour, devaient les faire parvenir au receveur de l’espier. Ce dernier était tenu d’acquitter les rentes et aumônes assignées à perpétuité sur sa recette. Il avait, en outre, à rendre compte de sa gestion chaque année, suivant un formulaire à peu près invariable, le <hi rend="i">gros brief (groote brief</hi>), dans une assemblée générale de tous les receveurs du domaine, la <hi rend="i">haute-rennengue (hoofdredeninghe</hi>). Là encore, sur un état de tous les revenus domaniaux qui avait été dressé à l’avance, la <hi rend="i">renenghelle</hi>, on déduisait du produit net de chaque recette certaines assignations temporaires ou provisoires. – A partir du <num>xii<hi rend="sup">e</hi></num> siècle, on remarque une tendance à la transformation en rentes pécuniaires des redevances exigibles en nature. Un peu plus tard, on voit mêmes certains receveurs convertir leur office en un fief héréditaire : ils prennent à leur compte les profits et les pertes et ne sont plus tenus envers le souverain qu’au paiement d’une rente invariable en numéraire. – L’évaluation en deniers des <pb source="https://nakala.fr/10.34847/nkl.9ab12u67#017c919333eea5acc2afd49e388a70921b55c29c" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab12u67/017c919333eea5acc2afd49e388a70921b55c29c/full/full/0/default.jpg"/>redevances en nature se faisait d’après une mercuriale annuelle, le <hi rend="i">cop de l’espier,</hi> dont l’usage est encore conservé de nos jours à Lille pour les arrentements. – Les comptes des receveurs de briefs offrent le détail des recettes et des dépenses portées en bloc sur les gros briefs de la rennengue. Ils sont une mine inépuisable de renseignements pour l’étude des noms de familles et de localités.</p>
@@ -108,7 +106,7 @@
           <p><hi rend="i">B.</hi> Travaux publics. – Les travaux de quelque importance, faits aux places fortes, aux ponts, aux canaux, donnent lieu à la nomination de préposés dont les comptes présentent le détail des sommes employées, les gages des ouvriers et le prix des matériaux. – Il en est de même pour les réparations au palais et châteaux du comte.</p>
           <p><hi rend="i">C.</hi> Guerres. – En cas de guerre, on institue des trésoriers qui ont à rendre compte des sommes à eux confiées et des dépenses par eux effectuées.</p>
         </div>
-        <div>
+        <div xml:id="r171821">
           <pb source="https://nakala.fr/10.34847/nkl.9ab12u67#b4d2d4e28627154b7775164b1b3afe0d73732215" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab12u67/b4d2d4e28627154b7775164b1b3afe0d73732215/full/full/0/default.jpg"/>
           <head rend="uc">Cinquième partie
            <lb/>Controle de la comptabilité</head>
@@ -117,7 +115,7 @@
           <p>2° <hi rend="i">Les députés aux comptes</hi>, <hi rend="i">origine de la Chambre des comptes de Lille.</hi> – Par une suite de démembrements analogues à ceux qui ont affecté le grand conseil du roi de France, on voit se détacher successivement de celui du comte de Flandre (<hi rend="i">curia comitis</hi>) plusieurs corps particuliers qui se répartissent certaines de ses attributions. C’est d’abord la Chambre légale (<hi rend="i">wetachitige kamer</hi>), cour féodale suprême ; puis l’<hi rend="i">audience</hi>, sorte de conseil des parties, et, enfin, la Chambre des comptes. – La comptabilité des agents financiers qui ne relevaient pas de la cour des hauts-renneurs (clerc de l’hôtel, maître du séjour, officiers de justice, maîtres des monnaies, receveurs des domaines privés du comte hors de Flandre, receveur général) était examinée par des commissions nommées <hi rend="i">ad hoc</hi> chaque fois que cela était nécessaire. Les délégués étaient généralement des membres du grand conseil, comme on le voit par l’examen des formules finales des comptes. Ils étaient présidés soit par le souverain du pays lui même, soit par son héritier présomptif, soit par un haut personnage ecclésiastique, tel que le prévôt de Notre-Dame de Bruges ou celui de Harlebeke. On leur adjoignait des <pb source="https://nakala.fr/10.34847/nkl.9ab12u67#5ab0f25793d84f1081f10fa493fd28a4f7ec8929" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab12u67/5ab0f25793d84f1081f10fa493fd28a4f7ec8929/full/full/0/default.jpg"/>vérificateurs permanents : le maître des comptes (<hi rend="i">meester van rekeninghen</hi>), le commis aux comptes, et le greffier des comptes. Enfin le service d’ordre était fait par un huissier ou <hi rend="i">duerwaerder,</hi> qui remplissait les mêmes fonctions auprès des hauts-renneurs à l’époque de leur séance annuelle. – Vers la fin du règne de Louis de Male, un grand nombre de comptes étaient examinés à Lille et corrigés d’une manière uniforme. Le local où avait lieu l’examen portait déjà le nom de Chambre des comptes, et les commissaires désignés étaient presque toujours les mêmes. Le duc de Bourgogne, Philippe le Hardi, ne fit donc, deux ans après son avènement au comté de Flandre, que régulariser et consacrer officiellement une institution qui existait déjà de fait. Ce qui achève de le prouver, c’est le choix des officiers de la nouvelle Chambre, pris parmi ceux d’entre les membres du conseil qui avaient fait le plus fréquemment partie des commissions de contrôle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r171909">
         <head rend="uc">Appendice
          <lb/>comptabilité des villes et communautés de Flandre et
          <lb/>droit de controle appartenant au comte sur leur

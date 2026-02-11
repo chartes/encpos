@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1917_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1917_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,73 +60,73 @@
         <head rend="uc">Sources. – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r381080">
         <head rend="uc">Première partie
          <lb/>Origines</head>
-        <div>
+        <div xml:id="r381088">
           <head rend="uc">Chapitre premier
            <lb/>fondation et dotation de la collégiale,
            <lb/>d’après son lectionnaire</head>
           <p>On manque de documents anciens sur la fondation et la dotation de la collégiale Sainte-Opportune. D’après un lectionnaire du <num>xiv<hi rend="sup">e</hi></num> siècle, Hildebrand H, évêque de Séez (de 853 à 878 environ), se trouvant à la tête de cette église, aurait reçu « du roi Louis » une dotation qu’il aurait fait servir à l’entretien des chanoines.</p>
           <p>La première mention de Sainte-Opportune se trouve dans une charte originale de 1108, reproduite dans le cartulaire, du <num>xiii<hi rend="sup">e</hi></num> siècle, de Saint-Germain-l’Auxerrois : c’est la confirmation par Galon, évêque de Paris, de la concession faite par son prédécesseur Imbert (évêque de 1030 environ à 1060) au chapitre de Saint-Germain de la collation des prébendes de Sainte-Opportune.</p>
         </div>
-        <div>
+        <div xml:id="r381117">
           <pb source="https://nakala.fr/10.34847/nkl.a5864skv#45d65a153572df450ca77d3a36f50674d2727dd2" n="6" facs="https://api.nakala.fr/iiif/10.34847/nkl.a5864skv/45d65a153572df450ca77d3a36f50674d2727dd2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les prébendes, la chevecerie, la cure</head>
           <p>Au début du <num>xiii<hi rend="sup">e</hi></num> siècle, le Chapitre est composé de quatre chanoines. La collation des prébendes appartenait au chapitre de Saint-Germain-l’Auxerrois, qui avait un droit de patronage sur Sainte-Opportune. Il avait la moitié des annales des prébendes, l’autre moitié revenant à la fabrique de Sainte-Opportune.</p>
         </div>
-        <div>
+        <div xml:id="r381140">
           <head rend="uc">Chapitre III
            <lb/>Règlement de 1225-26</head>
           <p>Un accord entre les chapitres de Sainte-Opportune et de Saint-Germain-l’Auxerrois, en mars 1225-26, unit la chevecerie et la cure à la prébende du chevecier, qui est déclaré tenu à l’assiduité. Les trois autres chanoines en sont dispensés, et peuvent se faire remplacer chacun par un vicaire.</p>
         </div>
-        <div>
+        <div xml:id="r381152">
           <head rend="uc">Chapitre IV
            <lb/>Formation de la censive de Sainte-Opportune</head>
           <p>Les marais du Chapitre (du pont Perrin à Chaillot) furent acensés au <num>xii<hi rend="sup">e</hi></num> siècle (chartes de 1153, 1154, 1176, 1176-77), moyennant un cens annuel de 12 deniers par arpent, le Chapitre gardant la dîme et la voierie.</p>
         </div>
-        <div>
+        <div xml:id="r381170">
           <head rend="uc">Chapitre V
            <lb/>Division des prébendes</head>
           <p>Les revenus du Chapitre s’étant considérablement accrus par l’acensement des marais, Renaud, évêque de <pb source="https://nakala.fr/10.34847/nkl.a5864skv#cbffaed2ee49097077efafea8e2a604cf3dd5a46" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.a5864skv/cbffaed2ee49097077efafea8e2a604cf3dd5a46/full/full/0/default.jpg"/>Paris, prescrivit, en 1253, que chaque prébende serait divisée en deux, à la mort ou à la retraite de son possesseur. Cette mesure ne se trouva complètement réalisée qu’au bout de soixante ans environ. Depuis lors, le Chapitre fut composé de huit chanoines. Il y avait, de plus, un semi-prébendé : on ne sait pas à quelle époque il a été institué.</p>
         </div>
-        <div>
+        <div xml:id="r381187">
           <head rend="uc">Chapitre VI
            <lb/>Règlement de 1311-12</head>
           <p>Guillaume, évêque de Paris, visita Sainte-Opportune en 1311-12 : il y trouva les choses dans le désordre le plus complet. Les chanoines s’étaient approprié les biens et revenus de la fabrique, et l’église tombait en ruines. Dans sa charte du 2 mars 1311-12, l’évêque établit un règlement, d’après lequel les chanoines devaient faire successivement chaque année les fonctions de procureur et de trésorier. De plus, il institua deux marguilliers laïcs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r381200">
         <head rend="uc">Deuxième partie
          <lb/>Organisation du chapitre</head>
-        <div>
+        <div xml:id="r381208">
           <head rend="uc">Chapitre premier
            <lb/>droit de patronage et collation des prébendes</head>
           <p>Le chapitre de Saint-Germain-l’Auxerrois garda son droit de patronage et la collation des prébendes jusqu’à sa réunion au chapitre de Notre-Dame (1743) : la collation de la prébende du chevecier-curé fut attribuée à l’archevêque de Paris, celle des autres prébendes et de la semi-prébende au chapitre de Notre-Dame, qui céda <pb source="https://nakala.fr/10.34847/nkl.a5864skv#7f711b807b3a0747258dfde67e9df6b2966df2a7" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.a5864skv/7f711b807b3a0747258dfde67e9df6b2966df2a7/full/full/0/default.jpg"/>ensuite à l’archevêque la collation de ces prébendes, le 1<hi rend="sup">er</hi> mars 1749.</p>
         </div>
-        <div>
+        <div xml:id="r381229">
           <head rend="uc">Chapitre II
            <lb/>Réception des chanoines</head>
           <p>Les nouveaux chanoines, mis en possession avec un certain cérémonial, prêtaient serment et versaient des droits de réception.</p>
         </div>
-        <div>
+        <div xml:id="r381241">
           <head rend="uc">Chapitre III
            <lb/>Ordre requis pour les prébendes</head>
           <p>A la division des prébendes, chacune des nouvelles prébendes conserva l’ordre requis par la prébende dont elle était issue : ainsi, quatre des prébendes requéraient la prêtrise, deux le diaconat, deux le sous-diaconat. Les chanoines qui n’avaient reçu que les ordres mineurs siégeaient dans les stalles inférieures, et ne prenaient pas part au chapitre.</p>
         </div>
-        <div>
+        <div xml:id="r381253">
           <head rend="uc">Chapitre IV
            <lb/>Le chevecier</head>
           <p>La chevecerie était la seule dignité du Chapitre. Le chevecier (curé depuis 1225-26) présidait au chœur et au chapitre. Tenu de fournir le luminaire et l’encens, il prenait les offrandes en cire, excepté à Noël et à la Purification. Il y eut des contestations fréquentes entre le Chapitre et le chevecier, surtout à partir de la fin du <num>xvi<hi rend="sup">e</hi></num> siècle, au sujet des offrandes, du luminaire, de la maison capicériale, etc.</p>
         </div>
-        <div>
+        <div xml:id="r381271">
           <pb source="https://nakala.fr/10.34847/nkl.a5864skv#f13337b6e5fdd390a9bc69ad4cd485ec1df9ccfc" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.a5864skv/f13337b6e5fdd390a9bc69ad4cd485ec1df9ccfc/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Le semi-prébendé</head>
           <p>Le semi-prébendé n’avait que la moitié du revenu d’un chanoine. Il était astreint à l’assistance à toutes les heures canoniales, et ne prenait pas part au chapitre. Il fut très souvent en contestation avec le Chapitre au sujet de ses droits et obligations.</p>
         </div>
-        <div>
+        <div xml:id="r381288">
           <head rend="uc">Chapitre VI
            <lb/>Règlements pour l’assistance a l’office</head>
           <p>Différents règlements furent arrêtés par le Chapitre au sujet de l’assistance des chanoines à l’office canonial. Dans la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle, les chanoines gagnaient leurs distributions du jour en assistant à une des trois grandes heures. Le système des distributions varia dans la suite.</p>
@@ -138,39 +136,39 @@
            <lb/>Montant des distributions pour l’assistance a l’office</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r381317">
           <head rend="uc">Chapitre VIII
            <lb/>Les fondations</head>
           <p>Les fondations furent surtout nombreuses au <num>xiv<hi rend="sup">e</hi></num> siècle. Souvent les capitaux des fondations furent dépensés en frais de procédure et en réparations, ou restèrent inemployés. Les fondations furent réduites en 1717.</p>
         </div>
-        <div>
+        <div xml:id="r381335">
           <head rend="uc">Chapitre IX
            <lb/>Les chapitres</head>
           <p>Il y avait quatre chapitres généraux dans l’année, et <pb source="https://nakala.fr/10.34847/nkl.a5864skv#b639906ace9931645440fe2bb6d4262db9c8a048" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.a5864skv/b639906ace9931645440fe2bb6d4262db9c8a048/full/full/0/default.jpg"/>un chapitre chaque semaine. Des distributions avaient lieu pour l’assistance à ces chapitres.</p>
         </div>
-        <div>
+        <div xml:id="r381352">
           <head rend="uc">Chapitre X
            <lb/>Logement des chanoines</head>
           <p>Chacun des chanoines avait son logement dans la maison canoniale, sise rue de la Vieille-Cordonnerie ou des Fourreurs.</p>
         </div>
-        <div>
+        <div xml:id="r381364">
           <head rend="uc">Chapitre XI
            <lb/>Le procureur-receveur</head>
           <p>Le procureur-receveur, qui s’occupait des affaires du Chapitre, devait être un chanoine, d’après le règlement de 1312. Cependant, au <num>xvi<hi rend="sup">e</hi></num> siècle, ce fut souvent un laïc. Au <num>xviii<hi rend="sup">e</hi></num> siècle, il y avait de plus un chanoine-agent, qui s’occupait de la censive, et était aidé dans ses fonctions par un laïc, le commis.</p>
         </div>
-        <div>
+        <div xml:id="r381388">
           <head rend="uc">Chapitre XII
            <lb/>Les vicaires</head>
           <p>Le Chapitre avait huit vicaires. Le nombre des vicaires fut porté un moment à dix, à la suite d’une fondation, dans la seconde moitié du <num>xvi<hi rend="sup">e</hi></num> siècle. Dans les dernières années de ce siècle et au commencement du siècle suivant, leur nombre fut très réduit, ou même il n’y en eut plus. Au <num>xvii<hi rend="sup">e</hi></num> et au <num>xviii<hi rend="sup">e</hi></num> siècle, il y eut, avec quelques variations, six vicaires : un diacre et un sous-diacre et quatre vicaires choristes ; puis un « haut vicaire de chœur », dans la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle. Il y avait de plus quatre enfants de chœur, un « serpent », deux huissiers.</p>
         </div>
-        <div>
+        <div xml:id="r381424">
           <pb source="https://nakala.fr/10.34847/nkl.a5864skv#5e0ee82f8282e27bb7f6418386113970adfd1df2" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.a5864skv/5e0ee82f8282e27bb7f6418386113970adfd1df2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre XIII
            <lb/>La paroisse. – Les marguilliers</head>
           <p>La paroisse était peu étendue. La cure dépendait, à l’origine, du Chapitre ; en 1226, elle fut unie à la prébende du chevecier. Le maître-autel étant réservé à l’office canonial, l’autel paroissial était celui de la chapelle Saint-Louis.</p>
           <p>Depuis 131 1-12, des marguilliers, institués par l’évêque, administraient la fabrique.</p>
         </div>
-        <div>
+        <div xml:id="r381444">
           <head rend="uc">Chapitre XIV
            <lb/>L’église des Saints-Innocents</head>
           <p>L’église des Saints-Innocents, qui appartenait déjà au Chapitre au milieu du <num>xii<hi rend="sup">e</hi></num> siècle, fut unie à Sainte-Opportune, avec ses revenus, par Clément VH, en 1391. Le Chapitre donnait ses revenus à ferme aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles.</p>
@@ -178,36 +176,36 @@
           <p>Le Chapitre avait la collation de la cure ou vicairie perpétuelle, ainsi que celle des chapellenies fondées dans cette église et sous les charniers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r381481">
         <head rend="uc">Troisième partie
          <lb/>Biens et finances du chapitre</head>
-        <div>
+        <div xml:id="r381489">
           <head rend="uc">Chapitre premier
            <lb/>biens et rentes</head>
           <p>Outre sa censive, que nous étudierons particulièrement, le Chapitre possédait un moulin à Paris, au Pont-aux-<pb source="https://nakala.fr/10.34847/nkl.a5864skv#aac7fd8ef69ca80aecb8899158aefdb29a7bb466" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.a5864skv/aac7fd8ef69ca80aecb8899158aefdb29a7bb466/full/full/0/default.jpg"/>Meuniers, une rente sur des terres sises à Guillerval, près d’Étampes, diverses rentes et redevances.</p>
         </div>
-        <div>
+        <div xml:id="r381506">
           <head rend="uc">Chapitre II
            <lb/>La censive du chapitre</head>
           <p>La censive du Chapitre formait une longue bande de terrain, s’étendant du pont Perrin (rue Saint-Antoine, en face du couvent de la Visitation), à Chaillot. De plus elle comprenait les alentours de l’église (grand et petit cloître Sainte-Opportune, etc.).</p>
         </div>
-        <div>
+        <div xml:id="r381518">
           <head rend="uc">Chapitre III
            <lb/>La justice du chapitre</head>
           <p>La justice du Chapitre était exercée au <num>xvi<hi rend="sup">e</hi></num> siècle par un bailli, assisté d’un greffier et d’un procureur fiscal. Au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle, le Chapitre se vit retirer la haute justice ; puis, en 1674, la haute, moyenne et basse justice du Chapitre fut réunie au Châtelet.</p>
         </div>
-        <div>
+        <div xml:id="r381542">
           <head rend="uc">Chapitre IV
            <lb/>Procès au sujet de la censive</head>
           <p>Le Chapitre eut de nombreuses contestations, au sujet de la censive, avec les seigneurs limitrophes : entre autres, aux <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles, avec l’abbaye de Saint-Denis (au sujet de terrains rue Saint-Louis), et avec le Domaine (au sujet de la place Royale et de ses alentours).</p>
         </div>
-        <div>
+        <div xml:id="r381566">
           <head rend="uc">Chapitre V
            <lb/>Finances du chapitre</head>
           <p>Le Chapitre, dont les revenus étaient médiocres au <num>xii<hi rend="sup">e</hi></num> siècle, fut enrichi par l’acensement de ses marais ; mais <pb source="https://nakala.fr/10.34847/nkl.a5864skv#f7c0827173e108c3b9508c2cec1bb4c111b797ba" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.a5864skv/f7c0827173e108c3b9508c2cec1bb4c111b797ba/full/full/0/default.jpg"/> il se trouvait pauvre de nouveau à la fin du<num>xiv<hi rend="sup">e</hi></num> siècle, et ce fut la cause de l’union de l’église des Saints-Innocents à Sainte-Opportune. A la fin du <num>xvi<hi rend="sup">e</hi></num> siècle, le Chapitre souffrit des troubles du temps. Le <num>xvii<hi rend="sup">e</hi></num> siècle fut aussi pour lui une époque de gêne. Au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle, après un moment d’aisance, il put craindre de ne pouvoir subsister. Une quinzaine d’années après, il entra, à cause du grand nombre et du produit élevé des lods et ventes, dans une période de large aisance, qui devait durer jusqu’à 1790.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r381614">
         <head rend="uc">Quatrième partie
          <lb/>Suppression du chapitre de Sainte-Opportune</head>
         <p>Tous les Chapitres ayant été supprimés par le décret de l’Assemblée Nationale concernant la Constitution civile du clergé (lettres patentes du roi du 24 août 1790), cette disposition fut notifiée au chapitre de Sainte-Opportune le 4 décembre 1790.</p>

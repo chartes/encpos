@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1995_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1995_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,10 +56,10 @@
         <forename>Armelle</forename>
         <surname>Émery</surname>
       </byline>
-      <div>
+      <div xml:id="r1258249">
         <head rend="uc">Première partie
          <lb/>Étude</head>
-        <div>
+        <div xml:id="r1258257">
           <head rend="uc">Chapitre premier
            <lb/>présentation du manuscrit</head>
           <p><hi rend="i">Le contenu.</hi> – Le manuscrit conservé à la Bibliothèque nationale de France sous la cote lat. 8110 contient un texte en vers latins avec sa glose, paraphrasant les livres historiques de l’Ancien Testament, de la Genèse aux Maccabées. Ce texte, dont l’incipit est <hi rend="i">Nomina cunctorum sunt infrascripta librorum,</hi> est attribué à un certain <hi rend="i">Petrus episcopus</hi> ; il est également appelé <hi rend="i">Benoni liber.</hi> Les titres donnés à cet ouvrage variant selon les catalogues, la dénomination la plus exacte paraît être celle qui figure au dos de la reliure du <num>xviii<hi rend="sup">e</hi></num> siècle : <hi rend="i">Vêtus Testamentum versibus latinis.</hi></p>
@@ -73,7 +71,7 @@
           <p><hi rend="i">L’histoire du manuscrit.</hi> – Le manuscrit date de la première moitié du XIII’ siècle. Son histoire (des cotes anciennes figurent aux fol. 1 et 118v) ne commence avec certitude qu’avec la mention de sa présence dans la bibliothèque des ducs de Milan (inventaire de 1426, n° 57). Il passe ensuite, sous Louis XII, dans la bibliothèque des rois de France avec le butin rapporté des guerres d’Italie en 1499 ou 1500 ; on le retrouve ensuite dans la librairie de Blois et dans les inventaires successifs de la Bibliothèque royale.</p>
           <p><hi rend="i">Les études antérieures.</hi> – Le manuscrit n’a guère éveillé l’attention des chercheurs, à l’exception de dom Pitra qui en a édité quelques fragments au XIX<hi rend="sup">1</hi>’ siècle, non sans d’importantes et abusives corrections.</p>
         </div>
-        <div>
+        <div xml:id="r1258368">
           <head rend="uc">Chapitre II
            <lb/>L’auteur</head>
           <p><hi rend="i">Indications du manuscrit.</hi> – Quinze vers acrostiches du fol. 3 (v. 15-29) fournissent le nom de <hi rend="i">Petrus episcopus ;</hi> en outre, les v. 13-14 mentionnent un certain <hi rend="i">Benonus.</hi></p>
@@ -81,7 +79,7 @@
           <p><hi rend="i">Les objectifs de l’auteur.</hi> – Si l’identité de l’auteur reste mal connue, on peut discerner ses objectifs, exposés dans le prologue du <hi rend="i">liber Genesis</hi> : intéresser les lecteurs à une forme poétique chrétienne au détriment des œuvres profanes, qu’il juge très sévèrement. Il se réclame des poètes bibliques et patristiques, qui ont su présenter le message religieux sous une forme métrique, et annonce son intention de vulgariser par le moyen des vers la doctrine des Pères de l’Église. A la fin du prologue, la glose 91 décrit la méthode utilisée dans l’ouvrage : évoquer un fait biblique, puis en donner le sens profond d’après les Pères ; l’auteur précise alors qu’une partie importante du texte figure en glose.</p>
           <p><hi rend="i">La personnalité de l’auteur.</hi> – Au total, l’auteur apparaît fidèle à une tradition exégétique ancienne, assez critique envers la culture classique qu’il est pourtant loin d’ignorer (il cite Ovide), et familier des textes glosés au point de concevoir son ouvrage dès l’origine comme un composé indissociable de vers et de gloses.</p>
         </div>
-        <div>
+        <div xml:id="r1258424">
           <pb source="https://nakala.fr/10.34847/nkl.c8654806#4d55c3fcecc4bc0b79c6cf687e5915aeeff3cc7d" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.c8654806/4d55c3fcecc4bc0b79c6cf687e5915aeeff3cc7d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le <hi rend="i">fetus Testamentum versibus latinis</hi>
@@ -90,7 +88,7 @@
           <p><hi rend="i">Comparaisons possibles.</hi> – Le <hi rend="i">Vêtus Testamentum versibus latinis</hi> présente plusieurs analogies avec l’<hi rend="i">Aurora</hi> (division en chapitres, sources isidoriennes, recours aux sens symboliques), mais ne versifie que les livres historiques de l’Ancien Testament. Son originalité réside surtout dans sa structure mixte, mi-glose mi-vers.</p>
           <p><hi rend="i">Une faible diffusion.</hi> – Le succès et l’influence du <hi rend="i">Vêtus Testamentum versibus latinis</hi> paraissent réduits : aucun auteur n’en fait mention et on n’en conserve qu’un seul manuscrit. On peut expliquer cet échec par la concurrence de l’<hi rend="i">Aurora </hi>et par la difficulté d’admettre un texte où il faut sans cesse recourir aux gloses.</p>
         </div>
-        <div>
+        <div xml:id="r1258492">
           <head rend="uc">Chapitre IV
            <lb/>Glose et vers : l’originalité du texte</head>
           <p><hi rend="i">Les gloses dues au copiste.</hi> – Certaines gloses, dues au copiste et souvent signalées par une croix, indiquent un vers omis au premier abord.</p>
@@ -98,7 +96,7 @@
           <p><hi rend="i">Les gloses mentionnées dans un vers.</hi> – D’autres gloses sont annoncées dans le vers même : soit citations bibliques (introduites par des termes comme « <hi rend="i">ait »</hi> ou <hi rend="i">« legitur</hi> »), soit explications diverses que l’auteur signale ouvertement comme figurant en glose (ainsi précise-t-il : <hi rend="i">« quid sonet hoc nomen demonstrat glosula presens</hi> », v. 3576). C’est sans doute la principale originalité de ce texte, qu’on peut expliquer par des contraintes métriques (tel passage se paraphrasant malaisément) ou par un parti pris favorable aux textes glosés.</p>
           <p><hi rend="i">La complémentarité de la glose et du vers.</hi> – Quoi qu’il en soit, glose et vers se complètent : parfois seul le vers contient le récit littéral, parfois c’est la glose ; on comprend mal l’un sans l’autre, et le lecteur doit avoir constamment un œil sur le poème et l’autre sur l’apparat.</p>
         </div>
-        <div>
+        <div xml:id="r1258537">
           <head rend="uc">Chapitre V
            <lb/>Les sources</head>
           <p><hi rend="i">L’inspiration patristique.</hi>  – L’auteur admet s’être inspiré de la pensée des Pères, mais ne montre guère qu’il les connaît : il les cite surtout à travers des compilations.</p>
@@ -106,24 +104,24 @@
           <p><hi rend="i">La source principale.</hi> – Les <hi rend="i">Quaestiones in Vêtus Testamentum</hi> d’Isidore de Séville forment la source immédiate, ce qui se traduit par certaines redites, omissions ou insistances, et par une fidélité étroite aux interprétations symboliques compilées par Isidore, soigneusement versifiées par <hi rend="i">Petrus episcopus.</hi></p>
           <p><hi rend="i">Le symbolisme isidorien.</hi> – Il est donc naturel que tout élément de l’Ancien Testament soit l’objet d’une réflexion allégorique, qu’il s’agisse des personnages, des noms propres ou des nombres. Ce type d’exégèse avait la faveur du public médiéval et d’autres auteurs de poèmes bibliques ont repris ces interprétations.</p>
         </div>
-        <div>
+        <div xml:id="r1258582">
           <head rend="uc">Chapitre VI
            <lb/>La versification</head>
           <p><hi rend="i">Le style.</hi> – On reconnaît une certaine recherche stylistique (conforme à la tradition médiévale) dans le nombre assez important de rimes intérieures ou finales. L’auteur use aussi de chiasmes, plus souvent de répétitions et d’accumulations.</p>
           <p><hi rend="i">Les paraphrases.</hi> – Beaucoup de vers sont d’étroites paraphrases d’Isidore à quelques mots près. Plusieurs expressions identiques reviennent dans des vers différents pour exprimer des idées similaires.</p>
           <p><hi rend="i">La métrique.</hi> – La métrique s’écarte peu des usages médiévaux. Les vers irréguliers sont en fait des citations bibliques ou isidoriennes glissées parmi les hexamètres. L’auteur pratique l’élision et observe la quantité des syllabes, avec quelques hésitations concernant les ablatifs singuliers en <hi rend="i">e</hi> et les gérondifs en <hi rend="i">o.</hi> Si besoin est, il recourt à une forme inhabituelle (<hi rend="i">Agustinus</hi>) ou se justifie d’avoir allongé une syllabe (glose 1019).</p>
         </div>
-        <div>
+        <div xml:id="r1258621">
           <head rend="uc">Chapitre VII
            <lb/>Les graphies</head>
           <p>En règle générale, les graphies du manuscrit s’écartent peu des usages courants : on note seulement beaucoup de consonnes doublées, des <hi rend="i">n</hi> devant consonne labiale, la confusion entre <hi rend="i">s</hi> et <hi rend="i">x</hi> ainsi qu’entre <hi rend="i">e</hi> et <hi rend="i">i,</hi> et l’usage fréquent de <hi rend="i">y</hi> à l’initiale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1258658">
         <pb source="https://nakala.fr/10.34847/nkl.c8654806#e86a11260b03113b25caf2daca9a53d0a2da4c12" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.c8654806/e86a11260b03113b25caf2daca9a53d0a2da4c12/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
-        <div>
+        <div xml:id="r1258671">
           <head rend="uc">Principes observés dans l’édition</head>
           <p><hi rend="i">Le problème des gloses.</hi> – Face à un texte glosé de cette nature, deux tentations se présentent : soit reproduire le tout à l’identique en imitant la disposition du manuscrit, soit opérer un tri parmi les gloses en ne retenant que les plus utiles. Dans un cas, on obtient une édition quasi photographique, guère plus commode d’usage que le manuscrit lui-même ; dans l’autre cas, on trahit le dessein de l’auteur qui entendait fournir aux lecteurs un texte entièrement glosé.</p>
           <p><hi rend="i">Disposition en deux colonnes.</hi> – Un moyen terme a été choisi, à savoir une disposition en deux colonnes : à gauche les vers, à droite les gloses, tant marginales qu’interlinéaires, numérotées comme le vers auquel elles se réfèrent. A l’intérieur d’un vers, un astérisque signale le mot ou l’endroit précis où il convient de se reporter à la glose.</p>
@@ -131,7 +129,7 @@
           <p><hi rend="i">Apparat critique.</hi> – L’apparat critique s’étage sur deux niveaux : sources de l’auteur et critiques textuelles. Pour faciliter la compréhension, les passages bibliques commentés par <hi rend="i">Petrus episcopus</hi> à la suite d’Isidore sont signalés entre parenthèses, après les références aux <hi rend="i">Quaestiones in Vêtus Testamentum.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1258710">
         <head rend="uc">Conclusion</head>
         <p>Il est rare que soient édités des textes glosés, et on connaît peu de textes conçus dès l’origine sous cette forme : le <hi rend="i">Vêtus Testamentum versibus latinis</hi> en est un exemple à la fois traditionnel dans son propos et novateur dans sa forme.</p>
         <pb source="https://nakala.fr/10.34847/nkl.c8654806#81e9c58392a56e99a7b3fcfbc698ad686eecff39" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.c8654806/81e9c58392a56e99a7b3fcfbc698ad686eecff39/full/full/0/default.jpg"/>

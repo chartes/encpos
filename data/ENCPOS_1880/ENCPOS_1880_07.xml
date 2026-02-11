@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1880_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1880_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -54,7 +52,7 @@
         <forename>Jean</forename>
         <surname>Kaulek</surname>
       </byline>
-      <div>
+      <div xml:id="r105351">
         <head rend="uc">I. – Introduction.</head>
         <p>II. – Le ms. FF. 442 de la Bibliothèque nationale n’est pas le ms. original du <hi rend="i">Rosier des guerres</hi> comme l’a soutenu M. Paulin Paris.</p>
         <p>III. – Classement des mss. employés.</p>
@@ -67,7 +65,7 @@
         <pb source="https://nakala.fr/10.34847/nkl.ab7d2u28#114475555d8abcc7529eebc28b18dffe0ffee6b2" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.ab7d2u28/114475555d8abcc7529eebc28b18dffe0ffee6b2/full/full/0/default.jpg"/>
         <p>X. – De même que le texte, les notes marginales anciennes doivent être de Choinet. – Rien ne nous autorise à les attribuer à Louis XI.</p>
       </div>
-      <div>
+      <div xml:id="r105413">
         <head rend="uc">Appendice :</head>
         <p>1° Description des manuscrits ;</p>
         <p>2° Lettre de Louis XI au Dauphin.</p>

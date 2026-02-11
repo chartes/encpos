@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_20" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_20" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <forename>Jacques</forename>
         <surname>Pons</surname>
       </byline>
-      <div>
+      <div xml:id="r1138154">
         <head rend="uc">Sources</head>
         <p>Le fonds du cabinet d’architecture de Félix Duban n’a pu être retrouvé. Enrichi des papiers de son beau-frère, l’architecte François Debret (1777-1850), ainsi que des souvenirs du frère de ce dernier, le peintre Jean-Baptiste Debret (1768-1848), il avait été abrité par Duban dans sa maison, construite à cet usage comme un « sanctuaire ». Augmenté par les souvenirs du peintre Théodore Maillot (1826-1888), gendre de Duban, il subit une première dispersion en 1898. La trace s’en perd définitivement en 1927.</p>
         <p>En cette absence, les sources essentielles sont représentées par les archives des institutions publiques dont l’architecte fit partie ou eut à dépendre. Ce caractère a inévitablement orienté les études jusqu’ici consacrées à Duban et privilégié sa carrière publique, au détriment de son activité privée.</p>
@@ -69,15 +67,15 @@
         <p>Etroitement liées aux précédentes, les sources iconographiques appartiennent au service des cartes et plans des Archives nationales (versements de la direction de l’Architecture et de l’Agence du Louvre), à la bibliothèque de l’Ecole des Beaux-arts (travaux de scolarité de Duban, envoi de Rome, plusieurs recueils de travaux personnels), aux Archives des Monuments historiques (relevés effectués pour la Sainte-Chapelle et le château de Blois). Quelques dessins de Duban sont répartis entre le cabinet des Dessins du Musée du Louvre, le Musée Vivenel de Compiègne, l’Académie d’Architecture et diverses collections privées. Ont été, en outre, consultés les grands fonds iconographiques parisiens : cabinets des Estampes de la Bibliothèque nationale et du Musée Carnavalet, collections de la Commission du Vieux Paris et de la Bibliothèque historique de la Ville de Paris, cabinet des Dessins de l’Académie d’architecture.</p>
         <p>Un autre type de source, utilisé avec circonspection, doit être enfin signalé, les témoignages oraux recueillis auprès de la famille du Vivier de Streel, apparentée à Félix Duban.</p>
       </div>
-      <div>
+      <div xml:id="r1138203">
         <head rend="uc">Introduction</head>
         <p>Architecte aujourd’hui méconnu, Félix Duban fut l’objet, après sa mort, de marques d’honneur significatives de la place qu’il occupait dans le monde des beaux-arts et de l’estime qu’on lui y témoignait. Lorsqu’il disparut à Bordeaux, le 8 octobre 1870, ses funérailles réunirent l’élite locale. Au cours des années suivantes, plusieurs commémorations perpétuèrent sa mémoire : hommage de l’Académie, des académies étrangères et de ses élèves en 1871 ; deux exposition rétrospectives, l’une à Paris en 1872, l’autre à Blois ; inauguration en 1873 d’un monument funéraire, élevé par souscription publique ; baptême d’une rue à son nom ; érection d’un monument en son honneur à l’Ecole des Beaux-arts en 1894. Cependant, au fur et à mesure de la disparition des témoins de sa vie, et, en premier lieu de sa femme et de sa fille, le souvenir de Duban <pb source="https://nakala.fr/10.34847/nkl.3f156u91#7d63d8f3065ea113dd665061edd042502eb62efa" n="171" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f156u91/7d63d8f3065ea113dd665061edd042502eb62efa/full/full/0/default.jpg"/>s’estompa. Si Louis Hautecœur fut le premier à rendre à l’architecte la place qui lui revient, il faut attendre les dix dernières années pour que l’intérêt des chercheurs se tourne vers un artiste victime des circonstances.</p>
       </div>
-      <div>
+      <div xml:id="r1138218">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>La carrière d’un architecte au <num>xix<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r1138236">
           <head rend="uc">Chapitre premier
            <lb/>« un honnête homme »</head>
           <p>Félix-Jacques Picard-Duban (il abandonnera de bonne heure la première partie de son patronyme) naît le 14 octobre 1797 à Paris. Contrairement à l’opinion admise, ses parents et grands-parents ne sont pas de modestes commerçants, mais des « marchands faïenciers du roi », qui jouissent d’une réelle aisance et dont l’environnement professionnel prédispose à apprécier les beaux objets. Son grand-oncle, Claude Sautereau de Marcy, est un littérateur dilettante. L’union de l’une de ses sœurs avec l’architecte Debret (1808) lui ouvre de nouveaux horizons, car elle met sa famille en contact avec le monde artistique : lui-même neveu d’architecte, Debret se trouve allié au peintre David ; son mariage a pour témoins les architectes Percier et Hippolyte Lebas. Cet événement décide probablement de la vocation du jeune Duban.</p>
@@ -86,19 +84,19 @@
           <p>Les qualités humaines de Duban facilitent ces liens. Sincérité en amitié, discrétion, délicatesse caractérisent son caractère sensible qui ne se laisse emporter que par les sujets qui le passionnent. Un orgueil certain de ses capacités cor<pb source="https://nakala.fr/10.34847/nkl.3f156u91#ab3632507c6d8da7cf145213647ce6e092ffd0ff" n="172" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f156u91/ab3632507c6d8da7cf145213647ce6e092ffd0ff/full/full/0/default.jpg"/>respond à un maintien plein de distinction naturelle. Sa fidélité à ses idées se traduit extérieurement par la conservation jusqu’à ses derniers jours d’une chevelure longue comme en portait vers 1830 la « nouvelle vague ».</p>
           <p>Si ses parents ne l’ont pas laissé sans bien, Duban construit lui-même sa fortune. Suffisante pour garantir sa famille après sa mort, pour lui assurer une large aisance et pour permettre à Félicie Duban de fonder, à sa mort, différents prix destinés à perpétuer le souvenir de son père, elle n’a cependant rien de considérable (350 000 francs en 1884). Duban, qui n’a jamais su être courtisan, a manqué les occasions que lui aurait permis de l’accroître.</p>
         </div>
-        <div>
+        <div xml:id="r1138265">
           <head rend="uc">Chapitre II
            <lb/>La formation d’un architecte</head>
           <p>De bonnes études au lycée Napoléon ont donné à Duban une solide formation classique qui justifie la perfection et l’élégance de son français et de son latin. A leur issue, en 1813, il entre aussitôt dans l’atelier de son beau-frère et, sous son patronage, s’inscrit en 1814 à l’Ecole des Beaux-arts. Il y suit neuf ans d’études profitables, couronnées par l’obtention du Grand Prix de Rome en 1823. Quelques particularités le font remarquer. A la différence de ses camarades, son succès ne doit rien à une multiplication de « tentatives », car la seule à laquelle il se livre date de 1817, peu de temps après son entrée. Ce détail atteste une grande sûreté de savoir, qu’ont du mal à reconnaître ses maîtres classiques, peu favorables aux signes d’originalité qu’il montre dans les exercices auxquels il se soumet.</p>
           <p>Séjournant en Italie de 1824 à 1829, Duban est à jamais marqué par ce pays. Pompeï et Florence le fascinent plus que la Sicile ou Naples. Aîné du groupe d’amis que les hasards du concours envoient à sa suite à Rome, Vaudoyer, Labrouste et Duc, il devient naturellement le chef de file de la nouvelle école architecturale. Son naturel d’arbitre y contribue. Il s’acquitte ponctuellement et avec un grand talent de dessinateur des envois auxquels le règlement le soumet. Sa doctrine s’est formée : en 1828, son avant-dernier envoi, la restauration du Portique d’Octavie, fait sensation auprès des uns, mais scandale auprès des membres de l’Académie, car il y introduit une polychromie intérieure qui paraîtrait de nos jours bien timide. Le mouvement se poursuit l’année suivante. A la restauration des temples de Paestum de Labrouste qui prône la polychromie extérieure, répond le temple protestant de Duban, manifeste de sobriété contre les usages de l’Académie et peut-être aussi manifeste politique contre le régime de la Restauration. Duban revient à Paris avec une réputation de révolutionnaire.</p>
         </div>
-        <div>
+        <div xml:id="r1138280">
           <head rend="uc">Chapitre III
            <lb/>La démonstration du talent</head>
           <p>L’usage de l’administration des Travaux publics réserve aux Prix de Rome une carrière toute tracée au service du gouvernement. Si, à son retour à Paris, Duban retrouve, aux côtés de Debret, son ancienne place d’inspecteur de l’Ecole <pb source="https://nakala.fr/10.34847/nkl.3f156u91#0cc557f5700bec8f4cf60e9267240dea77ff5a71" n="173" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f156u91/0cc557f5700bec8f4cf60e9267240dea77ff5a71/full/full/0/default.jpg"/>des Beaux-arts qui lui assurait, durant sa scolarité, apprentissage sur le terrain et appointements, il n’est chargé d’aucun travail important. Une partie de son activité est consacrée à la direction d’ateliers. Il commence par assister Debret, assure ensuite l’intérim de l’atelier de Blouet, son aîné de peu, puis fonde le sien qui connaît un grand succès durant la moitié du siècle, même s’il ne voit pas éclore beaucoup d’autres Prix de Rome. Son influence s’étend vite sur ses élèves et sur ses jeunes confrères qui voient en lui un « Victor Hugo » de l’architecture. Les milieux qui suivent les doctrines architecturales qu’il professe sont les mêmes que ceux qui s’enthousiasment pour le romantisme. Toutefois, en dehors de la conjonction temporelle des deux réactions, architecturale et littéraire, rien ne justifie l’appellation de romantique parfois donnée à cet architecte. Il reste un admirateur du classicisme, mais sans se limiter à celui qui lui a été enseigné ; il va directement en chercher les sources, non plus seulement dans l’Antiquité qu’il admire, mais aussi dans la Renaissance italienne ou française.</p>
           <p>La chute de la Restauration et l’avènement de la Monarchie de juillet lui valent ses premiers travaux. Il attire sur lui l’attention de Thiers ; celle-ci ne le quittera jamais. Il débute avec les décorations éphémères des fêtes commémoratives des journées révolutionnaires de juillet qui lui concilient la faveur d’un vaste public. Une audience plus éclairée lui est gagnée par la continuation de l’Ecole des Beaux-arts, qui lui est confiée en 1832. Il achève la première phase de cette construction en 1839 mais n’a de cesse, jusqu’à sa mort, de la continuer et de l’embellir. Les travaux de la célébration de juillet, qui prennent fin en 1835, lui valent la Légion d’Honneur, tandis que l’attention d’une clientèle aussi fortunée qu’esthète se tourne vers lui. En 1836, le comte de Pourtalès lui confie la construction de son hôtel, achevé en 1839. C’est le chef-d’œuvre privé de l’architecte, et l’occasion pour lui de réaliser l’aménagement d’un des premiers musées conçus à cette seule fin. Sa carrière est lancée.</p>
         </div>
-        <div>
+        <div xml:id="r1138300">
           <head rend="uc">Chapitre IV
            <lb/>L’architecte en vogue</head>
           <p>Duban devient l’un des architectes les plus en vue de la Monarchie de Juillet.</p>
@@ -107,7 +105,7 @@
           <p>Les ouvrages que lui confie une riche clientèle sont peut-être plus séduisants. La consécration est venue dans ce domaine dès 1837. Le duc d’Orléans lui commande un album des édifices construits ou achevés à Paris sous le nouveau règne, destiné à son beau-père le roi de Prusse. Résultat d’une collaboration avec quatre confrères et amis, ce chef-d’œuvre, qui avait suscité l’admiration au-delà des frontières, est aujourd’hui perdu. Successivement, le baron de Vendeuvre, le marquis d’Espeuilles, le comte de Chabrol et le duc de Luynes font appel à lui. La seule de ces réalisations qui ait été achevée et qui subsiste aujourd’hui est le château de la Montagne, édifié pour le marquis d’Espeuilles et dont les décors intérieurs constituent un ensemble complet ; elle peut être attribuée de manière certaine à Duban. Enfin, le duc d’Aumale lui demande de projeter la reconstruction de Chantilly.</p>
           <p>La chute de la Monarchie de juillet représente, sans qu’il ait la possibilité de s’en douter, la fin de la période la plus brillante de la vie de Duban. Pourtant, deux bâtiments prestigieux sont successivement confiés à ses soins. Nommé architecte du château de Fontainebleau, il n’abandonne ce poste transitoire que pour devenir architecte de la restauration du Vieux Louvre, puis du palais tout entier. Malgré les réels succès qu’il y remporte, il n’a pas la possibilité d’y réaliser l’œuvre de sa vie. Le directeur des musées, Nieuwerkerke, donne son appui à l’architecte. Mais dans la rivalité ministérielle qui oppose le directeur à Fould, le soutien de l’Empereur qu’il n’a pas su se concilier par incompatibilité de caractère, fait défaut à Duban. Il est contraint de donner sa démission.</p>
         </div>
-        <div>
+        <div xml:id="r1138332">
           <head rend="uc">Chapitre V
            <lb/>Le maître</head>
           <p>Une phase nouvelle commence pour Duban à la suite de son échec au Louvre. Elle ne s’achève qu’à sa mort. Une amertume certaine, que vient aggraver la maladie, l’entraîne à un isolement que concrétise la construction d’une maison, lieu de retraite, à Passy. Pourtant, il reçoit les marques officielles les plus élevées auxquelles un architecte puisse prétendre. Nommé inspecteur général des Bâtiments civils au lendemain de sa démission, il est de plus élu à l’Académie des Beaux-arts en 1854, quelques mois seulement après sa première tentative. Une grande médaille d’honneur à l’exposition universelle des Beaux-arts de 1855 le met sur un pied d’égalité avec Ingres. Membre de la commission des Arts et Edifices diocésains, puis du Conseil municipal de Paris, il n’y paraît guère. Il est commandeur de la Légion d’Honneur en 1868.</p>
@@ -115,17 +113,17 @@
           <p>Les seuls travaux qu’il réalise à la même époque pour la collectivité sont les continuations de ses deux chantiers préférés, l’Ecole des Beaux-arts et le château de Blois. Il use de toute sa persuasion pour obtenir les crédits nécessaires à leur achèvement, sans parvenir complètement à son but. Il ne parvient pas à donner à l’école la façade sur la rue Bonaparte qu’il avait envisagée, ni à l’aile du XVIF siècle de Blois l’escalier qui lui fait défaut.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1138356">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Le chantier du Louvre (1848-1854)</head>
         <p>Le chantier du Louvre attire l’attention autant par l’importance du monument et l’abondance des sources disponibles, malgré la destruction d’une partie d’entre elles, que par l’absence d’un travail d’ensemble.</p>
-        <div>
+        <div xml:id="r1138371">
           <head rend="uc">Chapitre premier
            <lb/>une nomination progressive</head>
           <p>La place occupée par Duban dans la direction des chantiers du Louvre suit une courbe ascendante puis descendante. Sa première intervention, en juin 1848, n’a lieu qu’au titre d’une commission chargée d’assister l’architecte en titre, Fontaine, en vue de déterminer un travail ponctuel et immédiat. Il ne se voit pas confier les projets d’achèvement de la réunion des deux palais, dont l’étude revient à Visconti et à Trélard. Mais sa qualité de restaurateur est l’élément déterminant qui le fait choisir, le 14 octobre 1848, pour la restauration du Vieux Louvre. Au-delà du premier projet qui lui est demandé, la restauration urgente de la Galerie d’Apollon et la décoration des salles voisines, il envisage une vaste remise en état de l’ensemble de l’édifice : guidée par le double objectif de garantir un témoignage de l’art ancien et d’aménager un musée fonctionnel, elle s’étend à tout le premier étage, aux abords et cour, aux façades et au deuxième étage. En octobre 1849, la compétence de Duban est étendue au percement de la rue de Rivoli, au dégagement du Carrousel. A son tour, il fournit un projet d’achèvement, d’une grande sobriété.</p>
         </div>
-        <div>
+        <div xml:id="r1138383">
           <pb source="https://nakala.fr/10.34847/nkl.3f156u91#969d4cb66d805a0286facecc42a20a10163c9cb2" n="176" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f156u91/969d4cb66d805a0286facecc42a20a10163c9cb2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les étapes du chantier</head>
@@ -141,18 +139,18 @@
           <p>Par l’échantillon de l’activité de l’architecte qu’il fournit, de la restauration la plus difficile au plus simple raccord de décoration, en passant par l’agencement des jardins, le Louvre offre l’exemple le plus complet qui permette de comprendre l’œuvre de Duban.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1138448">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>Caractéristiques et principes directeurs</head>
         <pb source="https://nakala.fr/10.34847/nkl.3f156u91#964463a6fff3633f6868e73be2b52456fcc54a78" n="178" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f156u91/964463a6fff3633f6868e73be2b52456fcc54a78/full/full/0/default.jpg"/>
         <p>Au regard du faible nombre des constructions réalisées par Duban, une tendance extrême consisterait à voir surtout en lui un décorateur. Il faut, néanmoins, accorder la priorité à d’autres aspects de son activité.</p>
-        <div>
+        <div xml:id="r1138468">
           <head rend="uc">Chapitre premier
            <lb/>un artiste</head>
           <p>Duban se considère avant tout comme un artiste, jaloux dès prérogatives de cet état, mais imprégné des devoirs qui en sont la contrepartie. Toujours prêt à recevoir un avis éclairé, sinon à le suivre, il tolère difficilement que lui soient imposées les conceptions d’un non spécialiste. Ce fut le cas dans ses rapports avec Napoléon III. Ces devoirs se manifestent tout autant envers le commanditaire qu’envers l’œuvre elle-même et le principe de la beauté. La cause de l’art devrait passer avant tout. Il n’en néglige pas pour autant les réalités matérielles.</p>
         </div>
-        <div>
+        <div xml:id="r1138480">
           <head rend="uc">Chapitre II
            <lb/>Un constructeur</head>
           <p>Dans toute création, Duban se révéla d’une exigence absolue avec lui-même. Malgré les études préparatoires, ses travaux lui donnent rarement une satisfaction immédiate. Il procède alors à de multiples essais, voire à des changements en cours de réalisation si celle-ci révèle des insuffisances esthétiques. Il en résulte une réelle lenteur que compense difficilement la stricte direction de ses chantiers. L’exemple le plus frappant en est la cour du Louvre, qu’implore le ministre de modifier à ses propres frais, une fois qu’il s’est rendu compte du mauvais effet qui résultait du premier état.</p>
@@ -161,33 +159,33 @@
           <pb source="https://nakala.fr/10.34847/nkl.3f156u91#d9e4b92aed9402eabfe8242e34ac4e3769f4087a" n="179" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f156u91/d9e4b92aed9402eabfe8242e34ac4e3769f4087a/full/full/0/default.jpg"/>
           <p>S’il semble hostile aux moyens de reproduction en série qui sont à l’encontre de l’art, Duban ne dédaigne pas les procédés modernes. Ce n’est pas, comme on l’a dit, seulement à la fin de sa carrière, à la verrière de l’Ecole des Beaux-arts, qu’il emploie le fer. Dès 1836, il remplace le toit d’une salle de l’hôtel de Pourtalès par un châssis de verre et de métal ; en 1840, il construit un vaste jardin d’hiver au château de la Montagne, multipliant par ce moyen le système de l’éclairage zénithal. L’emploi de la lave émaillée des frères Balze, dans le domaine décoratif, recueille ses suffrages. Il s’intéresse aux procédés de conservation des pierres anciennes et dégradées. Pourtant, certaines de ces innovations ont pour résultat des vices techniques. En 1859, des fuites se manifestent dans la lanterne du Salon carré. Les sculptures extérieures de Blois doivent être refaites à la fin du siècle, rongées par l’effet conjugué de la pluie et de l’enduit avec lequel il avait cru les préserver.</p>
         </div>
-        <div>
+        <div xml:id="r1138506">
           <head rend="uc">Chapitre III
            <lb/>Un restaurateur</head>
           <p>Duban est considéré par ses contemporains comme l’un des spécialistes de la restauration. Dès sa création, il entre à la commission des Monuments historiques. Il y développe des principes qu’il a probablement élaborés sur le chantier de la Sainte-Chapelle, au contact de Lassus et de Viollet-le-Duc, ses cadets, mais en adoptant une voie médiane entre leurs théories respectives. Fortement tenté, au départ, de proposer une restauration dans le style d’origine sans tenir compte des apports successifs des siècles, il subit une évolution. Il s’en tient alors à un strict maintien de l’état ancien sauf lorsque l’édifice est resté inachevé ou si son état est trop compromis. Ce cas se présente à Blois : d’une part, il démolit un bâtiment inachevé pour rétablir un pignon dont subsistaient peu de vestiges ; de l’autre, il opte pour la reconstruction de la partie la plus ancienne.</p>
           <p>Durant le bref laps de temps où il exerce les fonctions d’architecte de Fontainebleau, il donne la preuve la plus éclatante de conceptions totalement modernes en matière de monuments historiques. Un projet de réaménagement intérieur du château, pour en faire une sorte de musée des arts décoratifs, dans l’esprit du musée des Monuments français, et où une salle serait consacrée à chacune des périodes de l’ameublement depuis Louis VII, avait été envisagé. Duban s’y oppose et le fait échouer. Faute de documents donnant la preuve de la nature et de l’emplacement du mobilier d’origine, il considère que l’état des appartements tels que les ont laissés Napoléon et Louis-Philippe est un état historique qu’il serait préjudiciable de modifier, quels qu’en soient les défauts esthétiques.</p>
           <p>Au travers des décors intérieurs polychromes qu’il s’efforce de reconstituer, sur des traces anciennes sûres à la Sainte-Chapelle, moins certaines à I&gt;1&lt;ois, on peut le considérer comme l’initiateur de tous les décors qui revêtirent par la suite les édifices médiévaux restaurés.</p>
         </div>
-        <div>
+        <div xml:id="r1138524">
           <head rend="uc">Chapitre IV
            <lb/>Un décorateur</head>
           <p>Le goût de la décoration prend deux aspects chez Duban. Il s’exprime, d’une part, <pb source="https://nakala.fr/10.34847/nkl.3f156u91#765722f3c94e2fa56afa3f6fd6415a85963a1f1a" n="180" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f156u91/765722f3c94e2fa56afa3f6fd6415a85963a1f1a/full/full/0/default.jpg"/> dans des aquarelles dont la finesse rivalise avec le charme et qui reconstituent l’atmosphère d’intérieurs d’époques disparues : le monde étrusque, Pompeï, l’Italie du Quatrocento.</p>
           <p>Par ailleurs, il trouve sa réalisation dans les décors intérieurs dont Duban dote les bâtiments qu’il restaure, aménage ou construit. Inspiration puisée dans ses diverses époques de prédilection, l’Antiquité et la Renaissance, polychromie violente ou délicate, jeux de lumière et de volumes en sont les caractéristiques ; cet aspect de son œuvre est le plus séduisant et le plus facile à appréhender et il n’est pas étonnant qu’il ait pu occulter les autres facettes du personnage.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1138545">
         <head rend="uc">Conclusion</head>
         <p>Si une véritable biographie de cette personnalité aussi discrète sur elle-même que sur les autres ne semble pouvoir encore être réalisée, les orientations principales en apparaissent. Artiste et architecte, Félix Duban place sa vie dans la perspective de la réalisation d’un idéal esthétique auquel il sacrifie les contingences matérielles. Réussite ou échec partiel sur le plan de sa fortune et de son œuvre quantitative, sa vie est une complète réussite par le modèle qu’elle donne et l’influence qu’elle exerce. Les variations suivies par sa carrière au fil des régimes qu’il traverse, tout autant que le style qu’il développe, font de lui l’incarnation d’un aspect oublié de la monarchie de Juillet. Homme de son siècle en bien des aspects, il reste attaché à des principes difficilement conciables avec les nouveaux comportements et modes d’action.</p>
       </div>
-      <div>
+      <div xml:id="r1138555">
         <head rend="uc">Pièces justificatives</head>
         <p>Inventaire après décès de la fille de Félix Duban. – Rapports de l’architecte (restauration de la Sainte-Chapelle et du château de Blois, aménagement du château de Fontainebleau). – Lettres concernant le pensionnat de Duban à Rome (1825-1827) et la réforme de l’École des Beaux-arts (1863). – Principaux devis conservés. – Etats de service.</p>
       </div>
-      <div>
+      <div xml:id="r1138565">
         <head rend="uc">Annexes</head>
         <p>Arbres généalogiques. – Tableau synoptique des relations professionnelles de l’architecte. – Listes de ses entrepreneurs et des élèves de son atelier. – Tableaux synoptiques des chantiers. – Récapitulation des honoraires. – Chronologie générale. – Chronologie de certains chantiers. – Catalogue reconstitué des dessins.</p>
       </div>
-      <div>
+      <div xml:id="r1138575">
         <pb source="https://nakala.fr/10.34847/nkl.3f156u91#6ae0b7e3d5fee4c909f2df9b6642aaeed0f0d0af" n="181" facs="https://api.nakala.fr/iiif/10.34847/nkl.3f156u91/6ae0b7e3d5fee4c909f2df9b6642aaeed0f0d0af/full/full/0/default.jpg"/>
         <head rend="uc">Album de planches</head>
         <p>Dans le choix de cent cinquante documents iconographiques (photographies des réalisations de Duban actuellement conservées ; reproduction de dessins, plans et aquarelles) ont été privilégiés les témoignages inédits ou particulièrement significatifs.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,11 +56,11 @@
         <forename>Cécile</forename>
         <surname>Mouton</surname>
       </byline>
-      <div>
+      <div xml:id="r1006346">
         <head rend="uc">Avant-propos</head>
         <p>Connu et estimé de ses contemporains, Denis Simon de Marquemont, prélat diplomate, est de nos jours tombé dans l’oubli. L’objet principal de cette étude est de retracer son activité à la cour pontificale depuis la reprise des relations diplomatiques entre Paris et le Saint-Siège en 1595, jusqu’à la mort du prélat, en 1626.</p>
       </div>
-      <div>
+      <div xml:id="r1006356">
         <head rend="uc">Sources</head>
         <p>La documentation consultée est composée surtout de correspondances. La plupart des dépêches de Marquemont de 1603 à 1624 sont conservées dans les mss. 18001 à 18019 du fonds français à la Bibliothèque nationale.</p>
         <p>Celles de la période du gouvernement de Richelieu se trouvent aux Archives du ministère des Affaires étrangères, dans les volumes 33 à 39 de la série Correspondance politique. Les volumes 12 et 23 contiennent les lettres du prélat au chancelier Sillery.</p>
@@ -72,17 +70,17 @@
         <p>C’est aux Archives du Vatican que nous avons trouvé les renseignements concernant la carrière ecclésiastique du prélat, ainsi qu’une partie de la correspondance des nonces dans les volumes 191 à 193 du fonds Pio, et 64 à 66 de la série Nunziatura di Francia. Nous en avons consulté une autre partie dans les volumes 8054 à 8065 du fonds Barberini à la Bibliothèque Vaticane, où se trouve également la collection des <hi rend="i">Avvisi di Roma</hi> (volumes 1085 à 1096).</p>
         <p>Enfin, il nous a été possible de prendre connaissance des registres 32, 33 et 70 des Archives des Pieux établissements de la France à Rome, concernant la vie de l’église nationale de Saint-Louis des Français, et d’un manuscrit conservé au couvent de la Trinité des Monts, relatant l’histoire de cette institution.</p>
       </div>
-      <div>
+      <div xml:id="r1006390">
         <head rend="uc">Introduction</head>
         <p>Capitale du monde chrétien, Rome était en même temps le cœur de la diplomatie européenne, où, plus qu’ailleurs, se manifestait la rivalité traditionnelle entre la France et l’Espagne.</p>
         <p>Retenir le pape en tant que souverain temporel de lier ses intérêts à ceux du roi Catholique, accroître l’influence française à la cour pontificale, et assurer le Souverain Pontife de la dévotion filiale du roi Très Chrétien à son égard tout en évitant son ingérence dans les affaires du royaume, tel devait être le souci constant d’un diplomate français au Saint-Siège.</p>
         <p>L’ambassadeur à qui était confié ce soin bénéficiait de l’assistance de divers ecclésiastiques « serviteurs de la couronne » : cardinaux français, évêques à qui était intimé l’ordre de quitter leur diocèse pour servir le roi, prélats faisant carrière à la Curie où ils exerçaient une réelle influence.</p>
         <p>C’est à ces titres divers que Denis Simon de Marquemont passa la plus grande partie de sa vie à la cour pontificale, au service de Henri IV, puis de Louis XIII.</p>
       </div>
-      <div>
+      <div xml:id="r1006409">
         <head rend="uc">Première partie
          <lb/>L’initiation de Marquemont aux affaires</head>
-        <div>
+        <div xml:id="r1006417">
           <head rend="uc">Chapitre premier
            <lb/>Marquemont serviteur de Henri IV</head>
           <p>Issu d’une famille de la bourgeoisie parisienne, fils d’un secrétaire du roi qui fut préfet de la maison du duc de Luxembourg, Denis Simon de Mar<pb source="https://nakala.fr/10.34847/nkl.bedea72z#159419f09fbbba6213f1417258e523502b3dd911" n="165" facs="https://api.nakala.fr/iiif/10.34847/nkl.bedea72z/159419f09fbbba6213f1417258e523502b3dd911/full/full/0/default.jpg"/>quemont, né en 1572, entra très tôt dans la cléricature. Ayant obtenu son doctorat <hi rend="i">in utroque jure,</hi> il accompagna à Rome en 1595 Jacques Davy Du Perron, chargé d’obtenir du pape Clément VIII l’absolution de Henri IV à la suite de son abjuration. Le duc de Luxembourg-Piney, ambassadeur d’obédience, le garda à son service jusqu’en 1598.</p>
@@ -90,7 +88,7 @@
           <p>Ayant résolu de faire carrière au Saint-Siège, Marquemont obtint de Clément VIII les charges de protonotaire apostolique et de camérier secret en 1602, puis celle d’auditeur de Rote qui, en 1604, fit de lui le Français le plus important à Rome après l’ambassadeur.</p>
           <p>La protection du ministre Villeroy, de Sillery et de son fils Puysieulx, chargé des Affaires étrangères, lui permit de gagner la confiance du roi qui lui accorda une pension de 1 000 écus et ordonna à ses ambassadeurs de recourir à son assistance. Conseiller de Philippe de Béthune, frère de Sully, de 1601 à 1605, puis du baron d’Halincourt, fils de Villeroy, de 1605 à 1608, et de François Savary de Brèves jusqu’en 1611, il les aida à reconstituer le parti français au Saint-Siège, tout en jouant auprès du gouvernement le rôle d’un informateur avisé et vigilant.</p>
         </div>
-        <div>
+        <div xml:id="r1006447">
           <head rend="uc">Chapitre II
            <lb/>Marquemont archevêque comte de Lyon
            <lb/>et primat des gaules sous Louis XIII</head>
@@ -100,11 +98,11 @@
           <p>Orateur du Clergé aux États généraux de 1614, il présida aussi, avec le cardinal de La Valette, l’assemblée du Clergé de 1621, transférée à Bordeaux. Délégué par son ordre pour négocier avec le roi au camp de Clairac l’octroi d’un don gratuit destiné à financer la guerre contre les huguenots, il dut céder aux exigences de Louis XIII.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1006471">
         <pb source="https://nakala.fr/10.34847/nkl.bedea72z#3e4157dd3023dfea94e3bb6dcc586ffbd58418f3" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.bedea72z/3e4157dd3023dfea94e3bb6dcc586ffbd58418f3/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Marquemont chargé d’affaires a Rome (1617-1619)</head>
-        <div>
+        <div xml:id="r1006484">
           <head rend="uc">Chapitre premier
            <lb/>l’archevêque de Lyon choisi pour soutenir au Saint-Siège
            <lb/>les intérêts du roi très chrétien</head>
@@ -115,7 +113,7 @@
           <p>Or, en avril 1617, les anciens protecteurs de Marquemont, Villeroy, Sillery et Puysieulx, venaient de reprendre le pouvoir. Dans l’impossibilité de procéder au choix rapide d’un nouvel ambassadeur, ils firent approuver par le roi l’idée d’en confier les fonctions à l’archevêque de Lyon.</p>
           <p>C’est donc en tant que chargé d’affaires que le prélat se rendit à Rome en attendant la nomination d’un ambassadeur ordinaire. Il fut incité de toutes parts à solliciter pour lui-même ce titre, ce que le gouvernement refusa : celui-ci préférait en effet réserver cette charge à de grands personnages laïques, en mesure de garder une plus grande indépendance vis-à-vis du pape et de déployer un faste digne de la France.</p>
         </div>
-        <div>
+        <div xml:id="r1006513">
           <head rend="uc">Chapitre II
            <lb/>Le double objet de la mission de l’archevêque de Lyon</head>
           <p>Après avoir justifié l’assassinat de Concini, Marquemont se vit confier le soin d’exiger la restitution de sommes considérables que la maréchale d’Ancre avait déposées à Rome sous forme de « lieux de monts », emprunts publics émis <pb source="https://nakala.fr/10.34847/nkl.bedea72z#d6ee1d8338746c2055538326c3d23cb126f4ec50" n="167" facs="https://api.nakala.fr/iiif/10.34847/nkl.bedea72z/d6ee1d8338746c2055538326c3d23cb126f4ec50/full/full/0/default.jpg"/>par le pape. Face aux exigences de Louis XIII qui entendait reprendre possession de ces biens provenant en partie de la dilapidation du trésor royal, Paul V se montra intransigeant dans son refus de lever le séquestre sur cet argent : le pape soutenait que celui-ci avait été confisqué parce qu’il se trouvait sur le territoire pontifical au moment de la condamnation de la maréchale, accusée en outre de judaïsme et de sorcellerie, et relevant à ce dernier titre du tribunal de l’Inquisition. Après un an d’âpres discussions, Marquemont parvint à faire accepter un compromis : des 425 000 livres revendiquées par les deux souverains, 175 000 furent laissées au pape, qui les destina à la fabrique de Saint-Pierre, tandis que 250.000 furent restituées au roi qui en fit don à Luynes, son nouveau favori.</p>
@@ -123,7 +121,7 @@
           <p>Le mariage de la sœur du roi, Chrétienne de France, avec le prince de Piémont, conclu à la fin des guerres de Savoie, put être célébré en février 1619 grâce à la dispense que Marquemont obtint de Paul V pour les fiancés, parents à des degrés prohibés.</p>
           <p>L’archevêque sut défendre avec vigueur la politique du gouvernement français à l’égard de ses alliés protestants quand le pape, à la nouvelle des troubles survenus en 1617 entre les protestants des Ligues grises et leurs sujets catholiques de Valteline, fit demander à Louis XIII de rompre avec les Grisons.</p>
         </div>
-        <div>
+        <div xml:id="r1006539">
           <head rend="uc">Chapitre III
            <lb/>Prolongation de la mission de l’archevêque de Lyon</head>
           <p>Parti en juin 1617 avec l’intention de résider environ six mois à Rome, Marquemont fut contraint d’y rester près de deux ans en attendant l’arrivée du nouvel ambassadeur, le marquis de Cœuvres, lequel ne prit ses fonctions qu’en avril 1619. Il ne put cependant mettre à profit cette prolongation forcée de son séjour pour obtenir son élévation au cardinalat, malgré toute l’ardeur avec laquelle il plaida sa propre cause.</p>
@@ -133,11 +131,11 @@
           <p>C’est à l’archevêque de Lyon que fut encore confiée la charge délicate d’intervenir au nom du roi pour que soient apportées des modifications dans les statuts de l’église nationale de Saint-Louis des Français. Soucieux de remédier aux déficiences, unanimement reconnues à l’époque, du service assuré par les chapelains, Louis XIII saisit l’occasion de la réforme qui s’imposait pour mieux établir son pouvoir sur cette communauté jalouse de son indépendance, au sein de laquelle furent introduits des prêtres de la congrégation de l’Oratoire, récemment fondée par Bérulle. Au prix de nombreuses difficultés et malgré de très vives oppositions, Marquemont parvint à faire appliquer en septembre 1618 un <hi rend="i">motu proprio</hi> de Paul V ordonnant l’exécution de cette mesure, mais les troubles devaient persister dans la communauté longtemps après son départ.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1006570">
         <head rend="uc">Troisième partie
          <lb/>Marquemont adjoint de l’ambassadeur de France
          <lb/>près le Saint-Siège et cardinal (1622-1626)</head>
-        <div>
+        <div xml:id="r1006580">
           <head rend="uc">Chapitre premier
            <lb/>les étapes du séjour de l’archevêque de Lyon à Rome de 1622 à 1626</head>
           <p>C’est à la demande de Noël Brûlart de Sillery, frère du chancelier et ambassadeur auprès de Grégoire XV, que le gouvernement dépêcha de nouveau Marquemont à Rome à la fin de l’année 1622. Chargé officiellement de rendre compte au pape de la paix de Montpellier accordée par le roi à ses sujets protestants en octobre 1622, il venait en fait seconder l’ambassadeur que les difficultés de l’affaire de la Valteline plongeaient dans l’embarras en raison de l’attitude du Saint-Siège favorable aux Espagnols.</p>
@@ -145,14 +143,14 @@
           <p>Le 19 janvier 1626, il fut créé cardinal par Urbain VIII, après bien des espoirs déçus. En 1622, en particulier, alors que le chapeau lui avait été promis, le Conseil, qui souhaitait vivement sa promotion, avait dû céder aux exigences de Marie de Médicis, favorable à l’évêque de Luçon. Richelieu s’employa d’ailleurs à assurer ensuite la nomination de son rival malheureux. Le pape attribua à Marquemont le titre de la Trinité des Monts et le nomma membre de trois congrégations : <hi rend="i">Propaganda Fide,</hi> Saint-Office et Interprètes du concile. Le nouveau cardinal eut à peine le temps d’y siéger : moins de huit mois après son élévation à la pourpre, une maladie l’emporta subitement le 16 septembre 1626.</p>
           <p>Marquemont étant mort en cour de Rome, les dispositions du concordat de Bologne permirent à Urbain VIII de désigner lui-même son successeur à l’archevêché de Lyon, cas sans doute unique sous le régime de ce concordat. La place du cardinal défunt au sein du Sacré Collège fut attribuée à Pierre de Bérulle.</p>
         </div>
-        <div>
+        <div xml:id="r1006610">
           <head rend="uc">Chapitre II
            <lb/>Marquemont informateur et conseiller</head>
           <p>Si Marquemont conserva quelque distance avec Philippe de Béthune, qui éprouvait à son égard une certaine jalousie, il gagna en revanche la totale confiance de Richelieu : indépendamment de son rôle officiel d’adjoint de l’ambassadeur, chargé d’apporter au gouvernement un complément d’informations, le cardinal ministre fit de lui l’un de ses agents secrets à la cour pontificale. Leurs liens furent encore resserrés par l’intermédiaire du frère de Marquemont, le sieur de La Loge, confident de Richelieu à Paris.</p>
           <p>L’archevêque put de la sorte exprimer avec une totale liberté ses avis sur la politique extérieure de la France, n’hésitant pas, le cas échéant, à la critiquer ouvertement. Il tenta en particulier, de dissuader Richelieu d’envoyer une armée en Valteline.</p>
           <p>Doué d’un jugement équilibré et capable d’analyser les événements avec bon sens et lucidité, Marquemont s’attacha cependant à une idée chimérique dont il ne cessa de conseiller l’exécution : la conquête de Milan, destinée dans son esprit à engager les hostilités contre les Espagnols en Italie, sans porter préjudice aux intérêts du pape.</p>
         </div>
-        <div>
+        <div xml:id="r1006628">
           <pb source="https://nakala.fr/10.34847/nkl.bedea72z#2bef067079060b583238a8cb1420b173c3ee7fb5" n="170" facs="https://api.nakala.fr/iiif/10.34847/nkl.bedea72z/2bef067079060b583238a8cb1420b173c3ee7fb5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Marquemont prélat indépendant et modéré</head>
@@ -162,13 +160,13 @@
           <p>Il s’employa l’année suivante à éviter une rupture des relations entre Paris et Rome, dangereusement affectées par « l’affaire Santarelli ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1006655">
         <head rend="uc">Conclusion</head>
         <p>Apprécié pour ses qualités d’informateur et de conseiller, Marquemont fut en outre appelé à jouer un rôle de plus en plus important de conciliateur chargé d’atténuer les tensions sans cesse renaissantes entre Paris et Rome.</p>
         <p>D’abord membre d’une clientèle, celle des Brûlart, il garda toutefois assez d’indépendance pour s’en dégager et gagner la confiance de Louis XIII.</p>
         <p>Énergique, obstiné, ambitieux, prenant très à cœur son double rôle d’ecclésiastique et de diplomate, il s’efforça tout au long de sa carrière de concilier son attachement au roi et au pape ; mais lorsque les heurts furent inévitables entre les deux souverains, il n’hésita jamais à défendre les intérêts du Saint-Siège.</p>
       </div>
-      <div>
+      <div xml:id="r1006671">
         <head rend="uc">Pièces justificatives</head>
         <p>Harangue prononcée par Marquemont à la séance d’ouverture des États généraux (27 octobre 1614). – Instructions à Marquemont (14 juin 1617). – Bref de Paul V à Louis XIII (19 avril 1619).</p>
       </div>

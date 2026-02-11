@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1909_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1909_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,30 +57,30 @@
         <surname>Lanco</surname>
         <roleName>Élève de l’École des Hautes Etudes</roleName>
       </byline>
-      <div>
+      <div xml:id="r331584">
         <head rend="uc">Introduction</head>
         <p>Le sujet, son intérêt ; absence presque complète de travaux antérieurs. – Les sources. Fonds d’archives publiques et privées. – Bibliographie.</p>
       </div>
-      <div>
+      <div xml:id="r331594">
         <head rend="uc">Première partie
          <lb/>Le prêtre (1723-1791)</head>
-        <div>
+        <div xml:id="r331602">
           <head rend="uc">Chapitre premier
            <lb/>Charles le Masle, jusqu’au rectorat d’Herbignac
            <lb/>(1723-1768)</head>
           <p>On sait très peu de chose sur cette période de sa vie : il naquit le 1<hi rend="sup">er</hi> décembre 1723 dans une humble famille de paysans originaires du pays de Vannes, qui avait fourni déjà au <num>xvii<hi rend="sup">e</hi></num> siècle et au <num>xviii<hi rend="sup">e</hi></num> des membres du clergé. Il fut ordonné prêtre en 1747, et prit ses grades à l’Université de Nantes.</p>
         </div>
-        <div>
+        <div xml:id="r331632">
           <pb source="https://nakala.fr/10.34847/nkl.691et422#3c0e896871a764f4da3353a7900b5310d2f4f1db" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.691et422/3c0e896871a764f4da3353a7900b5310d2f4f1db/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le rectorat d’Herbignac (1768-1791)</head>
           <p>Son nom apparaît pour la première fois sur les registres paroissiaux le 17 octobre 1768. Il prit une part active aux délibérations du <hi rend="i">général de la paroisse,</hi> conseil qui avait alors la liante main sur toutes les affaires paroissiales, tant spirituelles que temporelles. Son administration curiale fut assez féconde : érection d’une confrérie du Très Saint Rosaire dans l’église paroissiale (18 mars 1779), mission donnée la même année par les PP. de Saint-Laurent-sur-Sèvre (7 février ; 19 mars 1779) ; réfection et bénédiction de la chapelle de N.-D. de Miséricorde (1779), de la chapelle « trêviale » de Kerrobert, – réparations faites au presbytère (1785), puis sa reconstruction (1786). – Il fut aussi un pasteur charitable : il solda les frais occasionnés par la mission de 1779 et fit, le 24 décembre 1780, un don de 4.000 livres pour la fondation d’une mission décennale et d’aumônes annuelles aux pauvres de la paroisse . En 1790, il fut élu maire d’Herbignac, et, en janvier 1791, il prêta le serment à la Constitution civile du clergé. Son nom disparaît des registres le 2 avril 1791.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r331654">
         <head rend="uc">Deuxième partie
          <lb/>L’évêque (1791-1803)</head>
-        <div>
+        <div xml:id="r331662">
           <head rend="uc">Section I
            <lb/>la période constitutionnelle (1791-1794)</head>
           <div>
@@ -97,7 +95,7 @@
             <p>Il était à la tête d’un clergé fort peu nombreux : seuls 49 prêtres sur 450 avaient « sermenté », et jamais il n’y eut plus de 80 paroisses dirigées par des curés constitutionnels. Il n’eut jamais non plus son conseil épiscopal au complet ; 8 membres au plus sur 16. Ses lettres pastorales : 8 mai 1791, 7 mars, 11 août, 22 décembre 1792, 19 février 1793. – Une fit que cinq ordinations qui comprennent sept prêtres. Contre le clergé réfractaire, il demandait aux autorités d’agir avec vigueur. Mais bientôt, lors de la persécution, il refusa de livrer ses lettres de prêtrise et fut dénoncé à la Convention par trois de ses vicaires épiscopaux. Le 24 germinal an II, il fut incarcéré au Petit Couvent par l’ordre de Le Carpentier, et il ne recouvra sa liberté qu’au mois d’août suivant.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r331702">
           <pb source="https://nakala.fr/10.34847/nkl.691et422#e1ab6589bb9481d4479d3cdd0aa819956503d3ba" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.691et422/e1ab6589bb9481d4479d3cdd0aa819956503d3ba/full/full/0/default.jpg"/>
           <head rend="uc">Section II
            <lb/>la période de la liberté des cultes
@@ -122,7 +120,7 @@
             <p>La pacification du pays, opérée par le général Brune, permit à Le Masle d’envoyer une lettre pastorale, où il célébrait les bienfaits de la paix. Il tint en 1800 un synode à Lorient, qui ne compta qu’une vingtaine de prêtres, et, peu après, présida solennellement à l’installation, comme curé, de Gautier, vicaire du curé de Lorient, récemment décédé. Enfin il se rendit au concile national de 1801, interrompu brusquement par l’annonce des négociations commencées entre le pape et le premier consul. Le 9 octobre 1801 il fit son dernier mandement pour notifier sa démission.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r331768">
           <head rend="uc">SECTION III
            <lb/>SES DERNIÈRES ANNÉES ; SA MORT (octobre 1801-
            <lb/>octobre 1803)</head>

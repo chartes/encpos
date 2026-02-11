@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,42 +57,42 @@
         <forename>Robert</forename>
         <surname>Brun</surname>
       </byline>
-      <div>
+      <div xml:id="r412278">
         <head rend="uc">Première partie
          <lb/>La fondation de Salon</head>
         <p>Salon n’est pas de fondation romaine. La <hi rend="i">villa Salone </hi>figure, au <num>ix<hi rend="sup">e</hi></num> siècle, parmi les possessions de l’abbaye de Saint-Sauveur de Marseille ; elle passe dans celles de l’église d’Arles, probablement par une donation de Boson. Les archevêques fortifient leur domaine : Salon, au début du <num>x<hi rend="sup">e</hi></num> siècle, est un <hi rend="i">castrum.</hi></p>
-        <div>
+        <div xml:id="r412308">
           <head rend="uc">La politique des archevêques</head>
           <p>Les archevêques attirent des cultivateurs sur leurs terres et évincent les voisins dangereux. Le diplôme de 1144, de Conrad III, n’est pas une donation, mais une confirmation. La création du consulat à Arles invite les archevêques à considérer Salon comme un refuge éventuel : ils favorisent la prospérité de leur domaine, mais y conservent avec soin le pouvoir absolu.</p>
         </div>
-        <div>
+        <div xml:id="r412318">
           <pb source="https://nakala.fr/10.34847/nkl.4bf7uc7d#4a03bda93223d282c68799ae328d0b2ccbb44873" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.4bf7uc7d/4a03bda93223d282c68799ae328d0b2ccbb44873/full/full/0/default.jpg"/>
           <head rend="uc">L’apogée de Salon</head>
           <p>Malgré les embarras financiers -des archevêques (reconstruction du château dès 1219) et l’impopularité de Jean Baussan, archevêque d’Arles, malgré les tentatives de Raymond Bérenger V et de Charles d’Anjou, Salon conserve son indépendance et, dans les difficultés, sollicite l’appui du pape. Les empereurs, Frédéric II surtout, considèrent Salon comme un point d’appui en Provence. – L’apogée de Salon à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r412339">
           <head rend="uc">Les guerres de Provence</head>
           <p>Sous la menace des Grandes Compagnies, la ville organise activement sa défense ; elle est prise (fin de 1361 ou début de 1362). – Salon s’affranchit de la juridiction de Guillaume de la Garde et relève directement du pape (1369-1374). – Les <hi rend="i">Tuchins</hi> et les bandes de Raymond de Turenne achèvent de ruiner le pays.</p>
         </div>
-        <div>
+        <div xml:id="r412353">
           <head rend="uc">Salon au <num>xv<hi rend="sup">e</hi></num> siècle</head>
           <p>Louis II cherche à intervenir à Salon, surtout par intérêt fiscal (1399 et 1406) ; il échoue. – Les Salonais reconnaissent volontiers l’autorité de René d’Anjou et reçoivent de lui des privilèges. La bonne administration des archevêques favorise l’essor de la ville.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r412370">
         <head rend="uc">Deuxième partie
          <lb/>Le régime seigneurial</head>
-        <div>
+        <div xml:id="r412378">
           <head rend="uc">L’administration</head>
           <p>Salon, <hi rend="i">terre adjacente,</hi> ne relève pas du comté de Provence : l’archevêque d’Arles y exerce, sans partage, les droits souverains.</p>
           <p>Le représentant de l’archevêque réunit -d’abord toutes les attributions ; il porte successivement les noms de <hi rend="i">villicus,</hi> de <pb source="https://nakala.fr/10.34847/nkl.4bf7uc7d#9d877e9927f0b9d361a92f3fd10ad885964feb1f" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.4bf7uc7d/9d877e9927f0b9d361a92f3fd10ad885964feb1f/full/full/0/default.jpg"/>baile, de viguier (en 1268). En temps de guerre, le viguier prend le titre de capitaine.</p>
         </div>
-        <div>
+        <div xml:id="r412404">
           <head rend="uc">La justice</head>
           <p>La qualité des juges, l’institution de degrés d’appel réguliers sans être trop nombreux, les garanties données aux accusés, la douceur des pénalités assurent aux justiciables une situation privilégiée.</p>
           <p>Les délits de simple police sont jugés par un tribunal à deux degrés, formé d’<hi rend="i">estimateurs</hi> choisis parmi les notables. Le <hi rend="i">sous-viguier,</hi> agent subalterne, hérite des attributions de police exercées primitivement par le viguier.</p>
         </div>
-        <div>
+        <div xml:id="r412425">
           <head rend="uc">Les finances</head>
           <p>L’organisation financière n’apparaît que tardivement. Le clavaire est à la fois administrateur, percepteur et trésorier-payeur. Sa comptabilité est contrôlée par les auditeurs des comptes.</p>
           <p>L’exploitation du domaine est la source normale de revenus. La <hi rend="i">tasque,</hi> sorte de champart, disparaît de bonne heure. <hi rend="i">Lods et trézain</hi> (droits de mutation) sont, à l’origine, distincts. Les fours seulement sont banaux.</p>
@@ -104,7 +102,7 @@
           <p>Le droit de <hi rend="i">pallium</hi> est une taille féodale due à l’avènement de l’archevêque ; il est supprimé en 1305. Les tailles sont rares et ont toujours un objet d’utilité générale. Les emprunts sont fréquents.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r412481">
         <head rend="uc">Troisième partie
          <lb/>Le régime municipal</head>
         <div>
@@ -113,17 +111,17 @@
           </head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r412502">
           <head rend="uc">Salon et le mouvement d’émancipation communale</head>
           <p>La ville de Salon subit le contre-coup des révolutions de la <pb source="https://nakala.fr/10.34847/nkl.4bf7uc7d#9a20118c0f034756235185bad074cead82df6117" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.4bf7uc7d/9a20118c0f034756235185bad074cead82df6117/full/full/0/default.jpg"/>commune d’Arles, surtout en 1249, mais sans obtenir aucun privilège politique. Si même elle ne recherche et n’acquiert que tardivement l’autonomie administrative, c’est que la douceur du régime seigneurial la lui rend moins nécessaire et que les archevêques la jugent dangereuse.</p>
         </div>
-        <div>
+        <div xml:id="r412517">
           <head rend="uc">L’origine des libertés municipales</head>
           <p>Les libertés municipales dérivent du parlement public.</p>
           <p>Le parlement, convoqué et présidé par le seigneur ou son représentant, est composé des <hi rend="i">probi homines,</hi> c’est-à-dire des notables sans distinction de classe. 11 nomme des syndics temporaires et a un droit de contrôle ; la fréquence des réunions et le nombre des membres vont en diminuant.</p>
           <p>Le conseil est la sélection naturelle du parlement. Les syndics tendent à devenir permanents.</p>
         </div>
-        <div>
+        <div xml:id="r412537">
           <head rend="uc">
             <hi rend="i">Les premiers essais d’organisation</hi>
             <lb/>
@@ -134,48 +132,48 @@
           <p>3° Pendant une vacance du siège, ils obtiennent du chapitre d’Arles une charte très libérale (avant 1404).</p>
           <p>4° Benoît XIII la remplace par une concession sauvegardant les droits de l’archevêque (24 novembre 1404).</p>
         </div>
-        <div>
+        <div xml:id="r412566">
           <head rend="uc">
             <hi rend="i">L’organisation municipale au <num>xv<hi rend="sup">e</hi></num> siècle</hi>
           </head>
           <p>Deux syndics, un assesseur, huit conseillers, un trésorier sont élus, chaque année, au suffrage universel, en fait par les notables. L’archevêque nomme deux autres conseillers. Le conseil prépare les affaires. Ce nom désigne, par extension, l’assemblée des notables qui, elle-même, continue la tradition du parlement public.</p>
           <p>Les syndics sont les gardiens des privilèges de la ville.</p>
         </div>
-        <div>
+        <div xml:id="r412589">
           <pb source="https://nakala.fr/10.34847/nkl.4bf7uc7d#cf4dacda272c77a381e5ea3aa85631e964dbb908" n="41" facs="https://api.nakala.fr/iiif/10.34847/nkl.4bf7uc7d/cf4dacda272c77a381e5ea3aa85631e964dbb908/full/full/0/default.jpg"/>
           <head rend="uc">Les finances communales</head>
           <p>Les biens communaux donnent des revenus insignifiants. On a rarement recours à la taille au <num>xv<hi rend="sup">e</hi></num> siècle. Le <hi rend="i">vingtain </hi>est un impôt du 20<hi rend="sup">e</hi> frappant la production ; il peut s’étendre à toutes les sources de revenus.</p>
           <p>La <hi rend="i">rève</hi> est un impôt de consommation frappant surtout les commerçants.</p>
           <p>Les emprunts ne sont pas nécessairement un indice de détresse financière.</p>
         </div>
-        <div>
+        <div xml:id="r412628">
           <head rend="uc">L’administration municipale</head>
           <p>La plupart des services publics sont confiés soit à des agents nommés sur la présentation des notables (<hi rend="i">banniers, eygadiers</hi>), soit à des commissions d’experts choisis parmi eux (<hi rend="i">obriers, estimateurs-jurés, inspecteurs, peseurs-jurés</hi>).</p>
           <p>La <hi rend="i">charité</hi> n’a pas influé sur les institutions municipales.</p>
           <p>L’hôpital est administré par la commune en 1450.</p>
           <p>Des écoles sont mentionnées dès 1341.</p>
         </div>
-        <div>
+        <div xml:id="r412659">
           <head rend="uc">La communauté juive</head>
           <p>Son importance dès le début du <num>xiv<hi rend="sup">e</hi></num> siècle. Les Juifs jouissent à Salon d’une situation privilégiée et d’une autonomie remarquable. Ils nomment des représentants officiels <hi rend="i">consuls</hi> ou <hi rend="i">baylons</hi>). Ils paient des redevances spéciales minimes et contribuent aux charges locales, mais ils répartissent et lèvent librement leurs impôts.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r412684">
         <head rend="uc">Quatrième partie
          <lb/>La vie économique</head>
         <p>Salon est un centre agricole et un nœud de routes commerciales.</p>
-        <div>
+        <div xml:id="r412695">
           <head rend="uc">Agriculture</head>
           <p>Le régime du sol est caractérisé par le morcellement de la propriété. <pb source="https://nakala.fr/10.34847/nkl.4bf7uc7d#3fe50f389491cab3b6b8907fd103e6c6b8c9807e" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.4bf7uc7d/3fe50f389491cab3b6b8907fd103e6c6b8c9807e/full/full/0/default.jpg"/> La <hi rend="i">facheria,</hi> contrat à part de fruits, a favorisé l’exploitation agricole aux époques troublées, en particulier à la fin du <num>xiv<hi rend="sup">e</hi></num> et au début du <num>xv<hi rend="sup">e</hi></num> siècle. L’élevage est la source principale de richesse. Le manque de pâturages entraîne l’usage de la transhumance qui, à son tour, multiplie les rapports de Salon avec la Haute Provence.</p>
         </div>
-        <div>
+        <div xml:id="r412726">
           <head rend="uc">Commerce</head>
           <p>Vers le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle, les marchandises importées d’Orient passent par Salon. – Les guerres de Provence paralysent le transit, mais le commerce local ne fléchit qu’au début du <num>xv<hi rend="sup">e</hi></num> siècle. On constate un relèvement économique dès le second tiers du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">Importations.</hi> – Céréales, pelleteries, étoffes des Basses-Alpes. Les relations avec Avignon : les objets de luxe.</p>
           <p><hi rend="i">Exportations.</hi> – La laine (surtout en Suisse et en Savoie) ; les cuirs.</p>
           <p>Le commerce de l’huile et des amandes est surtout local ; il se développe au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r412775">
           <head rend="uc">Industrie</head>
           <p>L’industrie transforme les produits locaux. – Les étoffes communes, le drap, la serge, la toile. – Une teinturerie existe en 1453. La préparation des peaux : le cordouan. Les artisans forment des confréries, non des corporations.</p>
           <p>L’action du seigneur se traduit par la concession de privilèges (exemption de péages, d’impôts), la répression des fraudes, la limitation des bénéfices et du nombre des intermédiaires.</p>

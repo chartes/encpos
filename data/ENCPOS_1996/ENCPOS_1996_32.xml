@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_32" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_32" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,61 +55,61 @@
         <surname>Sablonnière</surname>
         <roleName>licenciée es lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1289690">
         <head rend="uc">Introduction</head>
         <p>Fondé en 1795, le Conservatoire de musique de Paris est toujours, pendant l’entre-deux-guerres, le seul établissement supérieur d’enseignement de la musique en France. Il est dirigé par Gabriel Fauré jusqu’en 1921, date à laquelle Henri Rabaud lui succède. L’établissement entre dans une nouvelle période de son histoire, marquée par des difficultés financières qui réduisent l’action du directeur et entraînent la suppression de classes. Mais, en même temps, l’enseignement continue d’être d’excellente qualité et des projets novateurs sont également élaborés.</p>
       </div>
-      <div>
+      <div xml:id="r1289700">
         <head rend="uc">Sources</head>
         <p>Les sources sont conservées, pour l’essentiel, aux Archives nationales dans la sous-série AJ<hi rend="sup">37</hi>, qui rassemble les archives de l’administration du Conservatoire, et également dans la sous-série F<hi rend="sup">21</hi>, Beaux-Arts. Des renseignements supplémentaires ont été trouvés au service des archives et de la documentation du Conservatoire national supérieur de musique de Paris, de même qu’au département de la musique de la Bibliothèque nationale de France. Enfin, cette documentation a été utilement complétée par un dépouillement de périodiques, source souvent précieuse, et par des mémoires et souvenirs contemporains.</p>
       </div>
-      <div>
+      <div xml:id="r1289718">
         <pb source="https://nakala.fr/10.34847/nkl.33cc7x6b#0d2ef9abef0e0befe497822548ea51660720b502" n="268" facs="https://api.nakala.fr/iiif/10.34847/nkl.33cc7x6b/0d2ef9abef0e0befe497822548ea51660720b502/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Le cadre administratif et les batiments</head>
-        <div>
+        <div xml:id="r1289731">
           <head rend="uc">Chapitre premier
            <lb/>la tutelle administrative</head>
           <p>Dépendant du ministère de l’Instruction publique et des Beaux-Arts, devenu ministère de l’Éducation nationale en 1932, le Conservatoire est un établissement d’enseignement public dont la tutelle apparaît toutefois lointaine, en raison du désintérêt des pouvoirs publics pour la musique et l’enseignement musical. Les liens entre le Conservatoire et son supérieur hiérarchique immédiat, le directeur des beaux-arts, s’avèrent plus étroits du fait que ce dernier préside le conseil supérieur d’enseignement du Conservatoire. Une décision ministérielle importante vient changer quelque peu les perspectives de la grande école de musique : c’est l’attribution de la personnalité civile et de l’autonomie financière, en 1926.</p>
         </div>
-        <div>
+        <div xml:id="r1289743">
           <head rend="uc">Chapitre II
            <lb/>L’administration interne</head>
           <p>Le directeur du Conservatoire a une lourde responsabilité à la tête de l’établissement, tant administrative que pédagogique. Son autorité tend même à se renforcer à l’arrivée de Henri Rabaud en 1921. Il est assisté dans sa tâche par un secrétaire général, qui assure les fonctions de sous-directeur, et un sous-chef du secrétariat. Le reste du personnel administratif et de service apparaît très insuffisant par rapport à l’importance de l’établissement.</p>
         </div>
-        <div>
+        <div xml:id="r1289755">
           <head rend="uc">Chapitre III
            <lb/>Le budget et les finances</head>
           <p>Pendant tout l’entre-deux-guerres, les crédits accordés par l’Etat au Conservatoire restent très insuffisants par rapport aux dépenses, qui s’accroissent d’année en année avec l’inflation. L’attribution de l’autonomie financière permet à l’établissement de disposer de quelques ressources supplémentaires qui demeurent cependant trop faibles, surtout à la veille du second conflit mondial. Aucun moyen n’est donc donné au Conservatoire par les gouvernants pour réaliser des projets concernant aussi bien l’aménagement et l’agrandissement des bâtiments que la réforme de l’enseignement.</p>
         </div>
-        <div>
+        <div xml:id="r1289767">
           <pb source="https://nakala.fr/10.34847/nkl.33cc7x6b#cdcf51c31876007cfecabc8a5e8a42d6a1f40c46" n="269" facs="https://api.nakala.fr/iiif/10.34847/nkl.33cc7x6b/cdcf51c31876007cfecabc8a5e8a42d6a1f40c46/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les batiments</head>
           <p>Depuis le début du <num>xix<hi rend="sup">e</hi></num> siècle, le Conservatoire occupait des locaux situés dans le faubourg Poissonnière, entre la rue Bergère et la rue du Conservatoire où se trouve la salle de concerts. En 1911, le Conservatoire déménage dans un ancien collège de Dominicains, au 14 de la rue de Madrid. Si les bâtiments sont suffisamment vastes pour accueillir toutes les classes, plusieurs aménagements se révèlent encore nécessaires sous le directorat de Henri Rabaud. L’ancienne salle de concerts continue de servir pour les besoins de l’enseignement, mais son éloignement du Conservatoire fait envisager la construction d’une nouvelle salle dont aucun des projets ne sera cependant réalisé.</p>
         </div>
-        <div>
+        <div xml:id="r1289790">
           <head rend="uc">Chapitre V
            <lb/>La bibliothèque</head>
           <p>Les difficultés rencontrées dans la gestion des collections particulièrement précieuses de la bibliothèque et dans l’obtention de crédits déterminent de profonds changements dans l’administration de la bibliothèque. Dépendant du directeur du Conservatoire jusqu’en 1936, cette dernière est, à partir de janvier 1937, rattachée administrativement à la Réunion des bibliothèques nationales, prélude à la constitution du département de la musique de la Bibliothèque nationale, en 1942.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1289803">
         <head rend="uc">Deuxième partie
          <lb/>Les professeurs et les élèves</head>
-        <div>
+        <div xml:id="r1289811">
           <head rend="uc">Chapitre premier
            <lb/>les professeurs</head>
           <p>Le recrutement des professeurs est assuré par le conseil supérieur d’enseignement. Le choix se porte toujours sur d’anciens élèves du Conservatoire, généralement engagés vers quarante ou quarante-cinq ans. Fonctionnaires de l’État, les professeurs du Conservatoire ont toutefois un statut particulier puisque leurs fonctions sont considérées, en quelque sorte, comme « honorifiques » et assorties de salaires peu élevés. Une amélioration de la condition des professeurs se fait pourtant sentir, confirmée en 1935 par un décret classant le Conservatoire établissement supérieur des beaux-arts. La situation des professeurs demeure malgré cela très diverse selon les spécialités enseignées, mais tous trouvent leur intérêt à enseigner au Conservatoire dans le prestige conféré par la fonction.</p>
         </div>
-        <div>
+        <div xml:id="r1289823">
           <pb source="https://nakala.fr/10.34847/nkl.33cc7x6b#581fc8cb12395bb88589b0f7acc84fce12e43d9e" n="270" facs="https://api.nakala.fr/iiif/10.34847/nkl.33cc7x6b/581fc8cb12395bb88589b0f7acc84fce12e43d9e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les élèves</head>
           <p>Presque huit cents élèves suivent les cours du Conservatoire chaque année. Leur admission se fait sur concours, entre le mois d’octobre et le début de décembre, pour la plupart des classes, ou après un examen de contrôle. La majorité des élèves sont issus de la région parisienne, mais d’autres régions en fournissent aussi un certain nombre, notamment le Nord et Toulouse. La plupart sont d’origine sociale modeste.</p>
           <p>Outre les élèves, des auditeurs peuvent suivre les cours du Conservatoire pendant une année. Les élèves étrangers sont encore très minoritaires, mais le Conservatoire cherche à favoriser leur admission en plus grand nombre. Les femmes tendent à prendre le pas, numériquement, sur les hommes. Des quotas restrictifs les touchent alors, mais l’évolution des mentalités joue en leur faveur.</p>
         </div>
-        <div>
+        <div xml:id="r1289843">
           <head rend="uc">Chapitre III
            <lb/>Les études</head>
           <p>Une fois admis au Conservatoire, les élèves sont astreints à une discipline sévère, justifiée par la sélection aux concours d’entrée. Le règlement intérieur est notamment très strict en ce qui concerne le travail des élèves en dehors du Conservatoire, Ils ont en effet l’obligation de demander l’autorisation du directeur pour prêter leur concours à toute représentation musicale. La plupart doivent cependant gagner leur vie en exerçant de petits métiers. Afin d’y remédier, la direction s’efforce de procurer un plus grand nombre de bourses aux étudiants sans ressources.</p>
@@ -119,11 +117,11 @@
           <p>Après leurs études, les élèves sont le plus souvent employés dans des orchestres, à Paris ou en province. Un très petit nombre seulement connaissent une carrière plus brillante comme solistes. Les lauréats des classes de déclamation lyrique sont généralement admis à l’Opéra ou à l’Opéra-Comique. L’enseignement, en particulier au Conservatoire ou dans les écoles de province, représente également une carrière classique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1289862">
         <pb source="https://nakala.fr/10.34847/nkl.33cc7x6b#1702c57acef2b122d8a6482466d2e7c492332f7d" n="271" facs="https://api.nakala.fr/iiif/10.34847/nkl.33cc7x6b/1702c57acef2b122d8a6482466d2e7c492332f7d/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>L’enseignement et les activités de l’établissement</head>
-        <div>
+        <div xml:id="r1289875">
           <head rend="uc">Chapitre premier
            <lb/>les classes théoriques</head>
           <p><hi rend="i">Le solfège.</hi> – Le solfège est obligatoire pour les élèves ayant échoué à l’examen d’exemption qui a lieu au mois de décembre, après leur admission. L’enseignement est distinct pour les élèves instrumentistes et les élèves chanteurs. A partir de 1933, la trop grande différence de niveau entre les élèves instrumentistes oblige à une nouvelle séparation des classes en deux divisions, l’une élémentaire, l’autre supérieure. Enfin, en 1938, l’enseignement du solfège est divisé en quatre sections.</p>
@@ -131,12 +129,12 @@
           <p><hi rend="i">L’harmonie et le contrepoint et fugue.</hi> – L’enseignement de l’harmonie et du contrepoint et fugue a pour but de préparer les élèves à la composition. L’application stricte des règles des traités en vigueur est recommandée mais des libertés peuvent être prises, conséquence de l’évolution du goût musical.</p>
           <p><hi rend="i">La composition.</hi> – Les études de composition sont sanctionnées, à partir de 1921, par un concours. Les deux professeurs les plus marquants de. la période sont Paul Dukas et Henri Busser. Les élèves sont généralement influencés, dans leurs premiers essais de composition, par la musique française de la fin du <num>xix<hi rend="sup">e</hi></num> siècle, notamment celle de Debussy, Ravel et Fauré. Le concours du Prix de Rome garde son prestige aux yeux des professeurs et des élèves malgré les critiques formulées à l’encontre du genre de la cantate.</p>
         </div>
-        <div>
+        <div xml:id="r1289914">
           <head rend="uc">Chapitre II
            <lb/>Les classes vocales</head>
           <p>Les classes vocales sont organisées en trois degrés : vocalisation, chant et déclamation lyrique. L’enseignement des professeurs de chant s’appuie généralement sur les méthodes françaises, sans beaucoup tenir compte des techniques du chant italien ou allemand. Les critiques contre cet enseignement sont chaque fois assez vives au moment des concours de fin d’année, bien que les chaires soient occupées par de grands artistes comme Claire Croiza. Les classes de déclamation lyrique sont plus réputées et débouchent sur les deux grands théâtres lyriques, l’Opéra et l’Opéra-Comique.</p>
         </div>
-        <div>
+        <div xml:id="r1289926">
           <pb source="https://nakala.fr/10.34847/nkl.33cc7x6b#df13e5c25c4c0cec1d4334e7c8a00c73b8b73530" n="272" facs="https://api.nakala.fr/iiif/10.34847/nkl.33cc7x6b/df13e5c25c4c0cec1d4334e7c8a00c73b8b73530/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les classes instrumentales</head>
@@ -146,7 +144,7 @@
           <p><hi rend="i">Les instruments à archet.</hi> – L’enseignement du violon s’inscrit dans la lignée de l’école franco-belge de violon représentée principalement par Eugène Ysaïe et Jacques Thibaud. La classe d’alto connaît un développement tel que la création d’une seconde classe apparaît de plus en plus nécessaire. Quant à l’enseignement du violoncelle, il laisse une place beaucoup plus large à la virtuosité sans toutefois négliger le travail de la sonorité. Une classe préparatoire de violoncelle est créée en 1918, pour répondre à l’attraction de plus en plus forte exercée par cet instrument dont le répertoire s’est beaucoup enrichi dans la seconde moitié du <num>xix<hi rend="sup">e</hi></num> siècle. L’enseignement de la contrebasse se renouvelle grâce à la personnalité d’Édouard Nanny, virtuose réputé.</p>
           <p><hi rend="i">Les instruments à vent.</hi> – L’excellence des classes d’instruments à vent, notamment des bois, est unanimement reconnue. Les comptes rendus des concours de fin d’année soulignent en effet très souvent la belle qualité de l’enseignement des professeurs.</p>
         </div>
-        <div>
+        <div xml:id="r1289973">
           <head rend="uc">Chapitre IV
            <lb/>Les classes d’ensemble instrumental et vocal,
            <lb/>d’orchestre et de direction d’orchestre</head>
@@ -154,29 +152,29 @@
           <p>La classe d’ensemble vocal, obligatoire pour tous les élèves de chant, prépare ces derniers au métier de choriste. Le répertoire est assez vaste et comprend aussi bien des œuvres <hi rend="i">a cappella</hi> de la Renaissance que des compositions modernes.</p>
           <p>La classe d’orchestre est considérée par le directeur comme essentielle pour la formation des élèves. Le premier professeur, Vincent d’Indy, enseigne également la direction d’orchestre depuis 1914. Cette dernière classe connaît un grand développement, malgré les résistances qu’elle rencontra à sa création. Un concours de direction d’orchestre est ainsi institué en 1921. Une classe d’instruments à percussion est annexée à la classe d’orchestre, mais elle est supprimée en 1933.</p>
         </div>
-        <div>
+        <div xml:id="r1289997">
           <pb source="https://nakala.fr/10.34847/nkl.33cc7x6b#8b42c374f65394e9f2656f09e3fa2184b1d694b0" n="273" facs="https://api.nakala.fr/iiif/10.34847/nkl.33cc7x6b/8b42c374f65394e9f2656f09e3fa2184b1d694b0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>L’histoire de la musique</head>
           <p>L’histoire de la musique est professée jusqu’à la fin de 1936 par Maurice Emmanuel, réputé pour ses travaux sur la musique grecque. Cet enseignement est cependant considéré comme secondaire par rapport aux autres classes. L’ambiguïté concernant les récompenses à attribuer (médailles ou prix) en est la preuve. L’institution en 1924 du diplôme d’études musicales supérieures, qui exige l’obtention du premier prix d’histoire de la musique, vient toutefois revaloriser l’enseignement de la discipline.</p>
         </div>
-        <div>
+        <div xml:id="r1290014">
           <head rend="uc">Chapitre VI
            <lb/>La danse</head>
           <p>Un cours de danse est institué en 1925, à la demande du professeur de maintien, Jeanne Chasles. Les débuts de la classe sont assez prometteurs mais, supprimée en 1934 puis assurée bénévolement, elle décline peu à peu.</p>
         </div>
-        <div>
+        <div xml:id="r1290026">
           <head rend="uc">Chapitre VII
            <lb/>Les exercices d’élèves</head>
           <p>Les exercices d’élèves sont un bon indicateur de la tenue de l’enseignement au Conservatoire, et le directeur veille tout particulièrement à leur préparation. Leur nombre s’accroît dans les années 1930.</p>
         </div>
-        <div>
+        <div xml:id="r1290038">
           <head rend="uc">Chapitre VIII
            <lb/>Les autres activités du conservatoire</head>
           <p>Le Conservatoire s’ouvre aux techniques modernes et innove dès 1929 en instaurant des séances d’enregistrement pour les élèves des classes de chant, en collaboration avec la firme Pathé. Ces séances doivent servir l’enseignement en permettant aux élèves d’entendre mieux leurs défauts et de les corriger.</p>
           <p>En 1939, un cours de radiophonie est institué et confié à Pierre Schaeffer, ingénieur à la Radiodiffusion, pour permettre aux élèves d’acquérir quelques connaissances, notamment, en matière de prise de son. Un projet est également étudié, en collaboration avec les services de la Radiodiffusion, pour la formation des ingénieurs du son, dont le Conservatoire assurerait la partie musicale.</p>
         </div>
-        <div>
+        <div xml:id="r1290053">
           <pb source="https://nakala.fr/10.34847/nkl.33cc7x6b#7d20467e1e6c90f6edc11f6468a4ae35531c16a9" n="274" facs="https://api.nakala.fr/iiif/10.34847/nkl.33cc7x6b/7d20467e1e6c90f6edc11f6468a4ae35531c16a9/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IX
            <lb/>Le conservatoire et les autres institutions musicales</head>
@@ -185,11 +183,11 @@
           <p>Les liens avec des institutions musicales étrangères apparaissent extrêmement ténus. La seule initiative suivie d’effet fut l’organisation d’échanges avec les conservatoires de Bruxelles et Liège sous la forme de concerts d’élèves.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1290077">
         <head rend="uc">Conclusion</head>
         <p>Malgré l’insuffisance des moyens qui lui sont accordés, le Conservatoire continue d’avoir la primauté dans la formation de haut niveau des jeunes musiciens français. Il n’est cependant pas à l’abri d’une certaine routine, et on note que les méthodes employées par les professeurs perpétuent souvent les anciennes traditions sans tenir compte des techniques utilisées dans les écoles étrangères.</p>
       </div>
-      <div>
+      <div xml:id="r1290087">
         <head rend="uc">Pièces justificatives</head>
         <p>Suite de l’ouvrage documentaire de Constant Pierre, <hi rend="i">Le Conservatoire national de musique et de déclamation,</hi> pour la période 1930-1939. – Tableau des classes pour l’année 1935-1936, avec indication de la profession des pères des élèves. – Liste des œuvres interprétées par les élèves de chant et de déclamation lyrique aux concours de fin d’année. – Lettres de professeurs.</p>
       </div>

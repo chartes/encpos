@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1960_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1960_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,79 +53,79 @@
         <forename>Pierre</forename>
         <surname>Moulinier</surname>
       </byline>
-      <div>
+      <div xml:id="r814601">
         <head rend="uc">Introduction</head>
         <p>L’histoire de la gabelle médiévale dans le midi de la France est bien connue grâce aux travaux de Spont et Meynial. La présente étude veut compléter leur apport par la recherche d’aspects méconnus de la fiscalité du sel et des conditions économiques du commerce de cette denrée envisagé depuis sa production jusqu’à son arrivée chez l’usager.</p>
       </div>
-      <div>
+      <div xml:id="r814611">
         <head rend="uc">Première partie
          <lb/>Les revenus du sel</head>
-        <div>
+        <div xml:id="r814619">
           <head rend="uc">Chapitre premier
            <lb/>l’administration de la gabelle en Provence
            <lb/>avant la « société » de 1398 : le traité de 1301.</head>
           <p>Dès 1290, date de l’achat des salines de Peccais par la royauté française, la suprématie que détient le roi de Sicile sur le Rhône est compromise. Plutôt que de se livrer à une concurrence stérile, les deux souverains préfèrent traiter en 1301 ; mais cet accord, qui établit un terrain commun pour le trafic des deux sels, reste caduc. Au <num>xiv<hi rend="sup">e</hi></num> siècle, le comte de Provence, qui fait percevoir par des Florentins d’Avignon les droits fructueux de la <hi rend="i">riparia Rodani,</hi> ne cesse de voir son sel concurrencé par celui de Peccais, plus abondant. Les deux princes forment alors une société pour le « tirage du sel » sur le Rhône (1398).</p>
         </div>
-        <div>
+        <div xml:id="r814643">
           <head rend="uc">Chapitre II
            <lb/>La « part du royaume ».</head>
           <p>Le roi ne s’assure pas seulement, par l’établissement de la gabelle en Languedoc en 1341, le droit régalien de disposer du sel de ses sujets, il <pb source="https://nakala.fr/10.34847/nkl.efdcjb91#40b125ab710380494c60dc6d93dba2d2f6db0587" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.efdcjb91/40b125ab710380494c60dc6d93dba2d2f6db0587/full/full/0/default.jpg"/>prend à son compte le monopole du tirage du sel sur le Rhône en créant la « ferme du tirage du royaume » en 1448. Souverain seigneur du sel, il ajoute à ces prérogatives les revenus d’un <hi rend="i">dominus salis</hi> possédant salines et faisant faire à son profit le commerce du sel dans ses propres greniers.</p>
         </div>
-        <div>
+        <div xml:id="r814664">
           <head rend="uc">Chapitre III
            <lb/>La « part de l’empire ».</head>
           <p>Le traité conclu en 1398 est complété par la ferme du tirage de l’empire, allouée dès 1443 aux mêmes familles de marchands que la ferme du royaume. Ces mesures ne soulèvent aucune protestation des officiers pontificaux du Comtat, où le commerce et les greniers offrent de nombreux profits. La gabelle royale se complète, en Dauphiné, d’une gabelle delphinale levée à Tain sur le sel qui se dirige vers le Viennois et la Bresse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r814677">
         <head rend="uc">Deuxième partie
          <lb/>La production du sel</head>
-        <div>
+        <div xml:id="r814685">
           <head rend="uc">Chapitre premier
            <lb/>les salines du delta rhodanien.</head>
           <p>Dès le <num>xiv<hi rend="sup">e</hi></num> siècle, le Rhône est alimenté en sel par les salines de Peccais pour le royaume, de Camargue (Notre-Dame-de-la-Mer et la Vernède) pour la Provence. Les salines de Peccais sont partagées entre le roi et l’abbé de Psalmodi, et leur histoire est dominée par celle de la réparation d’Aigues-Mortes. La propriété de ces salines tend à passer des mains des seigneurs et communautés religieuses à celles des bourgeois et marchands.</p>
         </div>
-        <div>
+        <div xml:id="r814703">
           <head rend="uc">Chapitre II
            <lb/>La production de sel du Rhône.</head>
           <p>La technique de fabrication du sel change peu en Méditerranée au cours de l’ancien régime : les salines sont exploitées par des <hi rend="i">maîtres,</hi> aidés de leurs ouvriers, qui prêtent leurs services aux seigneurs exploitant directement leur propriété ou à leurs emphytéotes qui obtiennent souvent une part des fruits selon le régime de l’<hi rend="i">affacharia</hi> ; à la fin du <num>xv<hi rend="sup">e</hi></num> siècle, l’arrentement tend à devenir le principal mode d’acquisition des salines.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r814730">
         <pb source="https://nakala.fr/10.34847/nkl.efdcjb91#1b7b61cd8e7e3536633b4fcce859dc04ea2602b1" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.efdcjb91/1b7b61cd8e7e3536633b4fcce859dc04ea2602b1/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Le transport du sel</head>
-        <div>
+        <div xml:id="r814743">
           <head rend="uc">Chapitre premier
            <lb/>le Rhône, voie du sel.</head>
           <p>Le Rhône est sillonné par une batellerie très variée, où les barques à sel, spécialisées dès le xv<hi rend="sup">e</hi> siècle, <hi rend="i">barques, barquettes, fustes, sapines, guindelles, allèges,</hi> occupent une place éminente. La voie d’eau est doublée par une triple voie de terre, dont Avignon, Romans et Lyon sont les grands points de transit.</p>
         </div>
-        <div>
+        <div xml:id="r814763">
           <head rend="uc">Chapitre II
            <lb/>Le trafic par le Rhône.</head>
           <p>Le début du xv<hi rend="sup">e</hi> siècle est marqué par une importante transformation dans les moyens de transport rhodaniens : après une adaptation de la batellerie, la voie de terre, très prisée auparavant pour éviter les troubles de la vallée et ses péages, tombe dans une relative désuétude au profit de la voie d’eau, qui permet de porter de plus grosses quantités de sel.</p>
         </div>
-        <div>
+        <div xml:id="r814779">
           <head rend="uc">Chapitre III
            <lb/>Revente et expansion dans le pays.</head>
           <p>La revente du sel est assurée par les regrattiers, qui se fournissent dans les greniers dispersés le long du Rhône : greniers royaux, seigneuriaux, ecclésiastiques ou urbains, boutiques privées. Les grands chemins d’expansion du sel s’articulent autour d’Avignon, Valence, Pont-Saint-Esprit, Romans, Lyon et Genève. Trois voies servent au trafic du sel vers la Savoie par le Dauphiné : le Rhône en amont de Lyon, l’Isère, et la voie transversale de Romans vers la Bresse.</p>
         </div>
-        <div>
+        <div xml:id="r814791">
           <head rend="uc">Chapitre IV
            <lb/>Les grands marchands.</head>
           <p>Les grands marchands du tirage du sel, les Villars, les Du Pré, les Chappuis, les Combes, les Génas, les Mayauld, les Joyes, les Joubert, tous issus de sept ou huit villes du Rhône, Lyon, Condrieu, Tournon, Valence, Pont-Saint-Esprit, Avignon, Beaucaire, commencent, au début du xv<hi rend="sup">e</hi> siècle, une carrière brillante et favorisée par la ferme du tirage qui leur est concédée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r814808">
         <pb source="https://nakala.fr/10.34847/nkl.efdcjb91#eaa3d079f33f59b921841d404074fad20bac7f04" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.efdcjb91/eaa3d079f33f59b921841d404074fad20bac7f04/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Le moyen âge constitue, sur le double plan technique et économique, une période de préparation au grand monopole du trafic du sel au <num>xvi<hi rend="sup">e</hi></num> siècle : le « tirage du sel » sur le Rhône, pris en charge par la royauté française au xv<hi rend="sup">e</hi> siècle, ne prendra son essor véritable qu’au siècle suivant. Il n’en suscite pas moins de grandes fortunes fondées sur ses fructueux revenus et sur l’exploitation des salines. Il se présente déjà comme un objet de négociation politique entre les mains du roi de France.</p>
       </div>
-      <div>
+      <div xml:id="r814833">
         <head rend="uc">Pièces justificatives</head>
         <p>Documents concernant l’exploitation des salines, la vente du sel, la navigation sur le Rhône, les péages et les mesures aux <num>xiv<hi rend="sup">e</hi></num> et xv<hi rend="sup">e</hi> siècles.</p>
       </div>
-      <div>
+      <div xml:id="r814853">
         <head rend="uc">Annexes</head>
         <p>I. Relevé de prix de vente du sel du <num>xiv<hi rend="sup">e</hi></num> au début du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         <p>II. Relevé de mesures utilisées dans la vallée du Rhône au moyen âge.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1991_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1991_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,19 +54,19 @@
         <forename>Marie-Claire</forename>
         <surname>Pontier</surname>
       </byline>
-      <div>
+      <div xml:id="r1205834">
         <head rend="uc">Introduction</head>
         <p>Ax-les-Thermes est aujourd’hui une petite ville de la haute Ariège, proche des frontières andorrane et espagnole, connue surtout pour son thermalisme et ses activités de loisir. C’est une cité ancienne, qui porta jusqu’au XIX’ siècle le nom d’Ax. Il s’agissait de la première ville fortifiée que l’on rencontrait en venant d’Espagne. Elle fut ravagée par un incendie en 1587 et ses archives les plus anciennes disparurent. Une étude historique documentée n’est donc possible qu’à partir de cette date. En revanche, c’est plus arbitrairement qu’a été choisie pour terme de ce travail l’année 1715, ce qui permet de couvrir un large XVII’ siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1205844">
         <head rend="uc">Sources</head>
         <p>Ont été essentiellement consultées les archives communales de la ville d’Ax-les-Thermes, et en particulier les registres de délibérations qui permettent de reconstituer la vie administrative, économique et sociale. Les Archives départementales de l’Ariège renferment également des documents intéressants, notamment dans les sous-séries 2 B, 19 J (chartrier d’Orgeix) et 2 H Dépôt (hôpital d’Ax).</p>
       </div>
-      <div>
+      <div xml:id="r1205854">
         <pb source="https://nakala.fr/10.34847/nkl.e149023s#0de899af1099297aa4c0e85aec3f7aae80126bd9" n="176" facs="https://api.nakala.fr/iiif/10.34847/nkl.e149023s/0de899af1099297aa4c0e85aec3f7aae80126bd9/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les institutions</head>
-        <div>
+        <div xml:id="r1205867">
           <head rend="uc">Chapitre premier
            <lb/>aperçu géographique et historique</head>
           <p>Le consulat d’Ax se trouvait dans le haut comté de Foix et correspondait à peu près à l’actuel canton d’Ax-les-Thermes, hormis la région de Mérens. Il était proche de la Cerdagne et du Capcir, ainsi que de la frontière andorrane.</p>
@@ -77,7 +75,7 @@
           <p>Ce consulat était l’un des plus étendus du comté de Foix. La ville envoyait des représentants aux états du pays, participant ainsi à la vie politique du comté, que dominaient le gouverneur, l’évêque de Pamiers et le juge-mage du comté, devenu par la suite subdélégué de l’intendant.</p>
           <p>Ax jouissait de privilèges très étendus, octroyés dans leur forme définitive à la fin du XIV’ siècle et confirmés par la suite. Ils réglaient la vie politique et économique de la ville et les habitants leur accordaient une très grande importance.</p>
         </div>
-        <div>
+        <div xml:id="r1205891">
           <head rend="uc">Chapitre II
            <lb/>L’organisation politique</head>
           <p>L’organisation politique d’Ax ne présentait aucune originalité par rapport aux autres villes de consulat du Midi de la France. On y trouvait les trois organes de gouvernement : le collège des consuls, le conseil politique et l’assemblée générale des habitants.</p>
@@ -87,7 +85,7 @@
           <p>Le conseil politique était l’organe de délibération et de décision. Composé d’environ vingt-quatre membres perpétuels, choisis par cooptation, il était réuni par les consuls, puis par le maire, et il examinait les propositions que ceux-ci lui présentaient. Les réunions étaient rapportées dans des procès-verbaux rédigés par le secrétaire du conseil, un notaire gagé par la ville. Ce sont ces registres de délibérations qui sont à la base de cette étude.</p>
           <p>L’assemblée générale des chefs de famille était convoquée dans les situations graves. Selon le sujet de discussion, les habitants des villages pouvaient y être appelés. Elle fut réunie très rarement au XVII’ siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1205920">
           <head rend="uc">Chapitre III
            <lb/>L’administration de la ville</head>
           <p>Le champ des compétences des consuls était défini par les privilèges de la ville. S’il correspond à des fonctions d’administration au sens actuel du terme, on constate aussi que certaines attributions dépassaient largement ce cadre.</p>
@@ -100,7 +98,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.e149023s#fd166e5d57a33a22b0bdd65da6ee38388cad5520" n="178" facs="https://api.nakala.fr/iiif/10.34847/nkl.e149023s/fd166e5d57a33a22b0bdd65da6ee38388cad5520/full/full/0/default.jpg"/>
           <p>Néanmoins, les consuls ne jouissaient pas d’une liberté absolue. Leur administration était contrôlée à la fin de leur mandat par des auditeurs de comptes, nommés par le conseil politique. De plus, dans la seconde moitié du <num>xvii<hi rend="sup">e</hi></num> siècle, l’intendant ou son subdélégué devait viser l’état d’imposition avant que les sommes qui y étaient contenues puissent être levées.</p>
         </div>
-        <div>
+        <div xml:id="r1205964">
           <head rend="uc">Chapitre IV
            <lb/>Les villages du consulat</head>
           <p>Les villages du consulat présentaient un certain nombre de différences par rapport à la ville. Tout d’abord, ils n’avaient pas, comme elle, le roi, comte de Foix, pour seigneur direct. Ils servaient, en revanche, de cadre à diverses seigneuries laïques ou ecclésiastiques. Ils devaient donc payer divers droits seigneuriaux et jouissaient de droits d’usage plus ou moins étendus.</p>
@@ -108,10 +106,10 @@
           <p>Ces villages étaient soumis à diverses autorités, notamment celle du seigneur qui nommait un bayle chargé de participer aux diverses assemblées et de défendre ses intérêts. En outre, comme ils faisaient partie du consulat de la ville, ils ressortissaient de l’autorité des consuls d’Ax. Ceux-ci nommaient un capitaine dans chaque village, qui était chargé de répercuter leurs ordres et de les tenir au courant des affaires. Ils rendaient également la justice dans toute l’étendue du consulat. Il existait en outre des liens financiers entre la ville et les villages, tenus de participer à certaines dépenses.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1205983">
         <head rend="uc">Deuxième partie
          <lb/>L’économie</head>
-        <div>
+        <div xml:id="r1205991">
           <head rend="uc">Chapitre premier
            <lb/>l’agriculture</head>
           <p>L’étude de la propriété des terres fait apparaître une différence très nette entre les villages qui n’avaient que des activités rurales et Ax dont les habitants avaient des emplois plus diversifiés. De fait, si les villageois possédaient presque <pb source="https://nakala.fr/10.34847/nkl.e149023s#676eef00a6518ccb203b35702caab7215e22c3b1" n="179" facs="https://api.nakala.fr/iiif/10.34847/nkl.e149023s/676eef00a6518ccb203b35702caab7215e22c3b1/full/full/0/default.jpg"/>tous quelques terres, c’était loin d’être le cas des Axéens, dont plus de la moitié ne disposait que d’une maison et d’un petit jardin. Leurs activités, comme dans toute ville, étaient en effet plutôt orientées vers d’autres secteurs économiques que l’agriculture.</p>
@@ -121,7 +119,7 @@
           <p>La région était, par contre, une zone privilégiée pour l’élevage, qui constituait une source de revenus importante pour les villageois. On y élevait surtout des ovins, mais aussi des bovins et des équidés.</p>
           <p>Cette activités s’exerçait en faire-valoir direct mais assez souvent également sous forme de <hi rend="i">gazailhe,</hi> bail à cheptel par lequel les habitants de la ville, intervenant comme bailleurs, se procuraient des revenus supplémentaires. Il y avait deux types de <hi rend="i">gazailhe,</hi> l’une « migère », c’est-à-dire à mi-fruits, l’autre dite « de prix », concernant essentiellement les animaux de travail.</p>
         </div>
-        <div>
+        <div xml:id="r1206031">
           <head rend="uc">Chapitre II
            <lb/>La forêt</head>
           <p>La forêt était à la fois un élément important de la vie quotidienne et une source de matière première pour les « industries » de la région.</p>
@@ -129,7 +127,7 @@
           <p>Le consulat d’Ax, région montagneuse aux nombreuses rivières, était une zone favorable à l’installation de moulins à scier et de forges qui appartenaient, en général, aux seigneurs des villages ou à de riches habitants de la ville qui les confiaient à des fermiers. Ces activités « industrielles » consommaient beaucoup de bois et étaient la cause de nombreuses dégradations dans les forêts. Mais, comme le fit remarquer Louis de Froidour, elles permettaient de faire vivre une bonne partie de la population et il était impossible de les interdire pour protéger les bois.</p>
           <p>Des règlements particuliers à la région furent donc élaborés et les consuls furent chargés de veiller à leur application, tâche qui ne fut pas toujours facile.</p>
         </div>
-        <div>
+        <div xml:id="r1206052">
           <pb source="https://nakala.fr/10.34847/nkl.e149023s#08632b7cc3276a8207e3d2a630f8bed39b8940fe" n="180" facs="https://api.nakala.fr/iiif/10.34847/nkl.e149023s/08632b7cc3276a8207e3d2a630f8bed39b8940fe/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le commerce et l’artisanat</head>
@@ -139,15 +137,15 @@
           <p>La majeure partie de la population se consacrait à des activités textiles. L’élevage ovin fournissait en effet la matière première nécessaire à la fabrication de « cordelat ». En outre, les habitants pouvaient utiliser les eaux chaudes de la ville pour laver la laine. On trouvait donc de nombreux tisserands, pareurs, tondeurs, teinturiers... La présence toute proche de la forêt permettait l’existence d’artisans travaillant le bois, tels que des menuisiers, scieurs, fabricants de comportes, appelés « semalaires »... De même, une partie du fer sortant des forges des environs était traitée sur place par des forgerons, maréchaux, cloutiers qui l’utilisaient comme matière première. On trouvait enfin des personnes exerçant des métiers plus traditionnels : cordonniers, orfèvres...</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1206079">
         <head rend="uc">Troisième partie
          <lb/>La société</head>
-        <div>
+        <div xml:id="r1206087">
           <head rend="uc">Chapitre premier
            <lb/>les notables</head>
           <p>Comme dans toutes les villes, il existait à Ax une poignée de familles qui se distinguait de l’ensemble de la population. Par exemple, dans les compoix, leurs noms étaient précédés d’un qualificatif tel que « sieur » ou « monsieur ». Ces <pb source="https://nakala.fr/10.34847/nkl.e149023s#0614853c6d9bffdf00372edef1f36313ec6baa90" n="181" facs="https://api.nakala.fr/iiif/10.34847/nkl.e149023s/0614853c6d9bffdf00372edef1f36313ec6baa90/full/full/0/default.jpg"/>familles formaient un groupe à part, pratiquant l’endogamie et figurant parmi les plus riches de la ville. Leurs chefs contrôlaient la vie politique de la cité, occupant les postes de consul, conseiller politique, bayle de l’hôpital... Elles manifestaient une volonté très nette de s’élever au-dessus du peuple, que ce soit par une recherche dans l’habitat, par certaines pratiques religieuses ostentatoires ou surtout par leurs tentatives d’accéder à la noblesse.</p>
         </div>
-        <div>
+        <div xml:id="r1206104">
           <head rend="uc">Chapitre II
            <lb/>La religion</head>
           <p>Ax était le siège d’un archiprêtré, comportant quatre annexes, Ascou, Sorgeat, Ignaux et Vaychis. Il s’agissait de l’un des archiprêtrés les plus étendus du diocèse de Pamiers, aux revenus importants. L’archiprêtre d’Ax jouissait d’un privilège assez rare puisqu’il pouvait revêtir les attributs pontificaux lors des fêtes solennelles. De 1588 à 1715, huit archiprêtrés se sont succédé à Ax. L’un d’eux fit preuve d’un caractère particulièrement violent et se heurta souvent à la population et aux autorités de la ville.</p>
@@ -155,14 +153,14 @@
           <p>Dans un comté déchiré par les guerres de religion et fortement marqué par le protestantisme, la région d’Ax demeura toujours catholique. Un prédicateur, payé par la ville et par l’archiprêtre, venait prêcher pour chaque carême et Ax fut la première ville du comté où on établit une confrérie de pénitents. Celle-ci tint un rôle important dans la vie de la communauté, au prix de nombreux conflits avec l’archiprêtre.</p>
           <p>Il arriva aux consuls d’intervenir parfois dans le domaine de la religion, soit en se plaignant à l’évêque des excès de l’archiprêtre, soit au contraire en aidant ce dernier à faire respecter les règles de conduite dictées par l’Église.</p>
         </div>
-        <div>
+        <div xml:id="r1206125">
           <head rend="uc">Chapitre III
            <lb/>L’instruction</head>
           <p>Une école pour les garçons existait à Ax dès 1588. Le régent était choisi par le conseil politique, assisté de l’archiprêtre, et devait être approuvé par l’évêque. Il était gagé par la ville et recevait aussi de l’argent de l’archiprêtre. A partir de 1648, la ville exigea du candidat qu’il prît l’engagement d’entretenir sur ses gages un second régent.</p>
           <p>Jusqu’en 1670, l’enseignement demeura en principe gratuit. Cette année-là, <pb source="https://nakala.fr/10.34847/nkl.e149023s#7e5d867f70f9b21deae21e58b9818ed6de4cb892" n="182" facs="https://api.nakala.fr/iiif/10.34847/nkl.e149023s/7e5d867f70f9b21deae21e58b9818ed6de4cb892/full/full/0/default.jpg"/>on établit un droit d’escolage, payé par les parents des élèves. Cependant, les pauvres pouvaient continuer à aller à l’école car l’hôpital versait une somme d’argent au régent pour leur droit d’escolage.</p>
           <p>Dès la deuxième moitié du XVII’ siècle, grâce à Mgr de Caulet et à sa sœur, il se créa des écoles pour les filles dans le diocèse de Pamiers. A Ax, notamment, une régente s’installa en 1673. Ces régentes recevaient des sommes d’argent provenant de legs faits en leur faveur et ne furent gagées par la ville qu’à partir de 1713. Elles percevaient aussi un droit d’escolage et étaient envoyées dans la ville par l’évêque sans que les consuls pussent intervenir dans leur choix.</p>
         </div>
-        <div>
+        <div xml:id="r1206148">
           <head rend="uc">Chapitre IV
            <lb/>L’assistance et la santé</head>
           <p>L’assistance aux pauvres et aux malades était assurée non par la ville mais par l’hôpital d’Ax, fondé en 1260. Cet hôpital jouissait d’un renom particulier dans la région, à cause des vertus des eaux chaudes. Il était administré par des bayles nommés et contrôlés par le conseil politique et l’archiprêtre. Ils étaient chargés de la perception des différents revenus avant qu’ils soient affermés en 1690. Ils ordonnaient les dépenses qui étaient effectuées par l’hospitalier, chargé de la gestion quotidienne.</p>
@@ -170,7 +168,7 @@
           <p>En revanche, la santé relevait plutôt de la ville. Celle-ci payait un médecin et une sage-femme pour soigner les malades, accordait des gratifications aux chirurgiens ou apothicaires. En cas d’épidémie, les consuls prenaient des mesures prophylactiques. Malgré ces précautions, l’épidémie de peste de 1631 fut très meurtrière.</p>
           <p>Enfin, si le thermalisme n’existait pas encore réellement, les vertus des eaux chaudes de la ville étaient connues dans tout le comté et même au-delà. L’hôpital accordait d’ailleurs une aide aux pauvres qui venaient à Ax pour se soigner.</p>
         </div>
-        <div>
+        <div xml:id="r1206169">
           <pb source="https://nakala.fr/10.34847/nkl.e149023s#81995dae9a0ba5d370434ed28430aa7f546477b3" n="183" facs="https://api.nakala.fr/iiif/10.34847/nkl.e149023s/81995dae9a0ba5d370434ed28430aa7f546477b3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Les fléaux</head>
@@ -179,18 +177,18 @@
           <p>En outre, la ville fut à plusieurs reprises menacée par les Espagnols. Les consuls organisaient alors la garde et, parfois, menaient, avec l’aide des habitants armés pour l’occasion, des actions défensives pour contenir l’ennemi. Dans ces circonstances, une grande solidarité se révélait entre la ville et les villages du consulat.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1206199">
         <head rend="uc">Conclusion</head>
         <p>Le consulat d’Ax, et plus généralement le comté de Foix, se sont progressivement intégrés au royaume de France pendant la période considérée.</p>
         <p>De plus, suivant une évolution classique au XVII’ siècle, la ville a perdu une partie de l’indépendance dont elle jouissait grâce notamment à ses privilèges. Le pouvoir royal a accentué son emprise sur la région, par l’intermédiaire des intendants.</p>
         <p>Si ces processus étaient normaux au XVII’ siècle, la structure du consulat d’Ax demeurait, pour sa part, plus particulière. Les consuls disposaient de pouvoirs qui excédaient les limites de la ville et réunissaient sous leur autorité les dix villages. Ax était ainsi le centre d’une communauté d’intérêts, sorte de compromis entre les communautés de vallée et l’étroitesse naturelle d’une ville de consulat traditionnelle.</p>
       </div>
-      <div>
+      <div xml:id="r1206215">
         <pb source="https://nakala.fr/10.34847/nkl.e149023s#686f06cfae2713d569806c26acf638510a40d2c0" n="184" facs="https://api.nakala.fr/iiif/10.34847/nkl.e149023s/686f06cfae2713d569806c26acf638510a40d2c0/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Procès-verbal d’une élection consulaire (27 décembre 1627). – Arrentement du droit d’aide (27 janvier 1640). – Divers types de gazailhes (1576-1640).</p>
       </div>
-      <div>
+      <div xml:id="r1206230">
         <head rend="uc">Annexes</head>
         <p>Listes des consuls, des bayles de l’hôpital, des archiprêtres, des régents de la ville... (1567-1733). – Tableaux et graphiques : réunions du conseil politique ; finances de la ville ; droits seigneuriaux pesant sur les villages ; droits d’usage des villages ; types de propriété... – Tableaux généalogiques. – Cartes. – Photographies : Ax et les villages.</p>
       </div>

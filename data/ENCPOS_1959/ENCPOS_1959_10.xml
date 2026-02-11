@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1959_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1959_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,17 +55,17 @@
         <forename>Gérard</forename>
         <surname>Naud</surname>
       </byline>
-      <div>
+      <div xml:id="r805481">
         <head rend="uc">Introduction</head>
         <p>Les <hi rend="i">Arresta lata in Parlamento</hi> entrent dans la catégorie dite des recueils d’arrêts notables, qui font leur apparition à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle. Pour ce recueil, il est préférable d’employer le terme « décision notable », car l’arrêtiste n’a souvent retenu que l’une des décisions particulières contenues dans un arrêt du Parlement.</p>
         <p>Son intérêt a été signalé par Olivier-Martin (<hi rend="i">Histoire de la coutume de Paris,</hi> I, p. 89) qui a montré que les « décisions de Jean des Mares » n<hi rend="sup">os</hi> 308 à 328 étaient un résumé de certains des passages de ce recueil.</p>
         <p>Les <hi rend="i">Arresta</hi> n’ont pas connu la notoriété ; utilisés par le rédacteur du pseudo-des Mares à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, ils ont été agrégés dans la seconde moitié du <num>xv<hi rend="sup">e</hi></num> à des compilations de textes juridiques, les seules, d’ailleurs, à en livrer le texte.</p>
         <p>Mais, grâce aux indications assez précises qu’ils contiennent sur les noms des parties et la date des procès qu’ils relatent, il est possible de retrouver le lien qui existe entre les arrêts du Parlement et vingt-deux des notables du pseudo-des Mares : l’exactitude de la méthode, l’esprit juridique qui ont marqué l’évolution de ce recueil peuvent ainsi être connus.</p>
       </div>
-      <div>
+      <div xml:id="r805534">
         <head rend="uc">Première partie
          <lb/>La tradition</head>
-        <div>
+        <div xml:id="r805542">
           <pb source="https://nakala.fr/10.34847/nkl.ae8c1c71#b7533025569b04723db138d7ff4886ca646a0423" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae8c1c71/b7533025569b04723db138d7ff4886ca646a0423/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>Description des manuscrits.</head>
@@ -75,7 +73,7 @@
           <p><hi rend="i">Manuscrit B</hi> : Bibl. nat., lat. 12811 ; il n’a pas encore fait l’objet d’une notice détaillée. De la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle, il contient une série d’actes divers et d’ordonnances (fol. 1-16), une série de notables intitulés <hi rend="i">Drois royaulx,</hi> dont on retrouve une partie dans les mss. Dupuy 247 (fol. 320 v°) et fr. 5259 (fol. 122 v°) et dans le <hi rend="i">Grand Coutumier</hi> (éd. Laboulaye, I, ch. III, p. 94-103) [fol. 16 v°-19] ; un ensemble de lettres patentes et d’arrêts notables dont on retrouve une partie dans les mss. Dupuy 247 (fol. 110-144), fr. 5259 (fol. 129-160) et dans le <hi rend="i">Grand Coutumier</hi> (IV, ch. V-VII, p. 608-636) [fol. 19-44] ; une série d’ordonnances (fol. 44-54) ; les <hi rend="i">Arresta lata in Parlamento</hi> (fol. 67-76), qui font corps avec une série d’arrêts notables disposés sans ordre (fol. 54-67) et précèdent les <hi rend="i">Usages de Court Laye</hi> (fol. 76-82), et une série d’arrêts notables disposés par matières, où Giffard a remarqué un traité de juridiction ecclésiastique (<hi rend="i">N.R.H.D</hi>., XXX, 1906, p. 440, n. 5) [fol. 82 v°-127].</p>
           <p><hi rend="i">Manuscrit C</hi> : Bibl. nat., fr. 5359 (décrit par Guilhiermoz, <hi rend="i">Enquêtes et Procès,</hi> p. 168-169) : il transmet le texte de deux décisions, qui portent les n<hi rend="sup">os</hi> 314 et 309 du pseudo-des Mares (fol. 103 b et 102 v° b-103 b).</p>
         </div>
-        <div>
+        <div xml:id="r805616">
           <head rend="uc">Chapitre II
            <lb/>Classement des manuscrits.</head>
           <p>Sur un total de quarante-trois décisions, <hi rend="i">A</hi> et <hi rend="i">B</hi> n’en ont que vingt-huit en commun, pour lesquelles ils donnent un texte comparable. <hi rend="i">A </hi>suit l’ordre chronologique, <hi rend="i">B</hi> n’a pas d’ordre apparent. Mais l’essentiel est que <hi rend="i">A</hi> ne donne en tête des décisions que quelques indications chronologiques, alors que <hi rend="i">B</hi> y met une sorte de rubrique pouvant servir de titre ou de résumé à la décision qu’elle précède, et introduite par le mot <hi rend="i">Nota.</hi></p>
@@ -84,7 +82,7 @@
           <p>D’un autre côté, si le ms. <hi rend="i">A</hi> avait été copié sur ce manuscrit inconnu, il donnerait un ordre différent et comporterait sans doute les <hi rend="i">Nota</hi> de <hi rend="i">B. </hi>Aussi faut-il penser que <hi rend="i">A,</hi> qui livre une version moins élaborée du recueil, est tributaire, direct ou non, d’un dossier antérieur à ce manuscrit inconnu qui s’en serait inspiré ; mais ce dossier n’a pas été retrouvé non plus.</p>
           <p>Ainsi, il existe deux courants de tradition : à partir d’un dossier original, une branche conduit à <hi rend="i">A</hi> ; l’autre, à partir d’un manuscrit inconnu, mène au pseudo-des Mares, d’une part, à <hi rend="i">B,</hi> de l’autre.</p>
         </div>
-        <div>
+        <div xml:id="r805744">
           <head rend="uc">Chapitre III
            <lb/>Établissement du texte.</head>
           <p>1° <hi rend="i">Le manuscrit de base.</hi> – Il s’agit de retenir la forme des <hi rend="i">Arresta </hi>la plus riche en données pour notre propos : le ms. <hi rend="i">B</hi> est donc choisi comme manuscrit de base ; il sera complété par <hi rend="i">A</hi> pour les décisions qu’il ne transmet pas.</p>
@@ -94,11 +92,11 @@
           <p>En regard du texte des <hi rend="i">Arresta</hi> sont transcrites les décisions du pseudo-des Mares qui le résument. Toutefois, cette transcription est faite d’après le ms. fr. 5359, et non d’après Brodeau, qui remplace les notes marginales contemporaines de la confection du manuscrit par des annotations de son cru, qui ne peuvent intéresser ici.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r805809">
         <pb source="https://nakala.fr/10.34847/nkl.ae8c1c71#a35563ff3e2a8b166aa71b2ef97f909a4cd1a566" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae8c1c71/a35563ff3e2a8b166aa71b2ef97f909a4cd1a566/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Étude du texte</head>
-        <div>
+        <div xml:id="r805822">
           <head rend="uc">Examen détaillé de chacune des décisions.</head>
           <p>Sur les quarante-trois décisions contenues dans les <hi rend="i">Arresta lata in Parlamenta,</hi> huit seulement évoquent des affaires déjà connues des historiens du droit.</p>
           <p>La décision I, relative à l’acquisition de la franchise personnelle par prescription et résidence sur une terre libre, a été étudiée par M. Petot (<hi rend="i">N.R.H.D</hi>., LVIII, 1934, p. 464-498) d’après les registres du Parlement, dont elle est la transcription.</p>
@@ -109,11 +107,11 @@
           <p>La décision XXIX fait allusion au conflit de juridiction qui éclata en 1372 entre l’archevêque de Rouen et le bailli de Rouen, étudié par Mirot et Desprez, dans <hi rend="i">Le Moyen Age,</hi> t. X (1897), p. 129-174.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r805901">
         <head rend="uc">Troisième partie
          <lb/>Le témoignage des <hi rend="i">Arresta lata in Parlamento</hi></head>
         <p>L’évolution de ce recueil est marquée par une méthode et un esprit juridiques que l’étude du texte permet de définir.</p>
-        <div>
+        <div xml:id="r805915">
           <pb source="https://nakala.fr/10.34847/nkl.ae8c1c71#378e0a75a0c5fce1af3255fe1285a8419ec56808" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae8c1c71/378e0a75a0c5fce1af3255fe1285a8419ec56808/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la méthode.</head>
@@ -130,7 +128,7 @@
           <p>On constate donc dans cette version un souci de clarté et de généralisation : le recueil devient, en effet, une collection de notions générales qui doivent être connues d’un praticien.</p>
           <p>Trois esprits au moins ont laissé les traces de leur réflexion sur ce recueil, en l’agençant chacun à sa façon ; mais leurs efforts vont tous dans le même sens : saisir, à travers les circonstances accidentelles, un principe de valeur générale ; l’anonymat lui-même de ce travail laisse voir plus clairement qu’il s’agit d’un souci latent, qui semble être celui qui préside aux méthodes d’élaboration du droit à l’époque.</p>
         </div>
-        <div>
+        <div xml:id="r806030">
           <head rend="uc">Chapitre II
            <lb/>L’esprit juridique.</head>
           <p>Seuls les choix constatés de tel ou tel point particulier d’un arrêt ou l’intérêt porté à telle ou telle affaire permettent de déceler l’esprit juridique. Une revue du domaine juridique du recueil, suivie d’un examen plus poussé sur la question des rentes, l’une de celles qui sont le plus souvent soulevées, s’impose.</p>
@@ -142,7 +140,7 @@
           <p>L’esprit des auteurs semble ainsi tout utilitaire, éloigné de préoccupations critiques ou créatrices ; ce sont des praticiens soucieux de rassembler des recettes juridiques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r806090">
         <head rend="uc">Conclusion</head>
         <p>Instructive sur l’élaboration du droit à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, l’étude du texte des <hi rend="i">Arresta lata in Parlamento</hi> nous montre également qu’il fallait une certaine fortune pour plaider devant le Parlement : nous y rencontrons, en effet, surtout des prélats, des couvents, des communes ou des marchands et propriétaires terriens.</p>
         <p>L’époque est troublée ; si l’on pointe sur la carte les lieux des litiges, on constate que l’action du Parlement ne s’exerce guère que sur les pays compris entre la Loire et la Somme, et s’étend à l’est jusqu’à la Champagne.</p>
@@ -154,18 +152,18 @@
           <lb/>(édition du texte)</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r806131">
         <head rend="uc">Extraits des registres du Parlement</head>
         <p>Nous avons publié, pour documenter l’étude du texte, l’arrêt dont s’est inspiré chaque décision. Voici la liste de ces extraits :</p>
         <p>X<hi rend="sup">1a</hi> 19, fol. 477 (Postel-Postel) ; X<hi rend="sup">1a</hi> 22, fol. 342 v° (Haussecul-Boucherie) <pb source="https://nakala.fr/10.34847/nkl.ae8c1c71#d951bb2cb78ac089d0a5fdde5612078da3bc1cb6" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae8c1c71/d951bb2cb78ac089d0a5fdde5612078da3bc1cb6/full/full/0/default.jpg"/> ; X<hi rend="sup">1a</hi> 22, fol. 343 (Sens-Cossigny) ; X<hi rend="sup">1a</hi> 22, fol. 431 (Amiens-Augustins) ; X<hi rend="sup">1a</hi> 1469, fol. 499 v° (comte d’Auxerre-gens de Lagny) ; X<hi rend="sup">1a</hi> 1469, fol. 532 v° (<hi rend="i">id.</hi>) ; X<hi rend="sup">1a</hi> 1469, fol. 502-503 v° (Corbie, Filleul-Wasteble) ; X<hi rend="sup">1a</hi> 1469, fol. 533 v° (<hi rend="i">id.</hi>) ; X<hi rend="sup">1a</hi> 22, fol. 371 (Mazinguehem-Grebannalle) ; X<hi rend="sup">1a</hi> 1469, fol. 509 (prieur de Chartres-Jean Noël) ; X<hi rend="sup">1a</hi> 1469, fol. 536 v° (<hi rend="i">id.</hi>) ; X<hi rend="sup">1a</hi> 22, fol. 407 (habitants de Sens-archevêque de Sens) ; X<hi rend="sup">1a</hi> 19, fol. 502 (Thomas-Le Flament) ; X<hi rend="sup">1a</hi> 22, fol. 423 v° (Bornasel-Douai) ; X<hi rend="sup">1a</hi> 1469, fol. 510 (écoliers de Boncourt-religieux de Sainte-Geneviève) ; X<hi rend="sup">1a</hi> 1469, fol. 540 (<hi rend="i">id.</hi>) ; X<hi rend="sup">1a</hi> 8, fol. 282 v° (Monmignies-Roussy) ; X<hi rend="sup">1a</hi> 22, fol. 391 v° (archevêque de Rouen-chapitre de Rouen) ; X<hi rend="sup">1a</hi> 22, fol. 427 v° (Bernier-Lopy) ; X<hi rend="sup">1a</hi> 19, fol. 504 (Montigny-Dommiers) ; X<hi rend="sup">1a</hi> 22, fol. 408 v° (Jardin-Saint-Quentin) ; X<hi rend="sup">1a</hi> 22, fol. 435 v° (Lorfèvre-Coquin, Varennes) ; X<hi rend="sup">1a</hi> 1470, fol. 2 (bailli de Rouen-comte de Tancarville) ; X<hi rend="sup">1a</hi> 1470, fol. 33 v° (<hi rend="i">id.</hi>) ; X<hi rend="sup">1a</hi> 1470, fol. 6 (Robert-Termeilles) ; X<hi rend="sup">1a</hi> 1470, fol. 36 v° (<hi rend="i">id.</hi>) <hi rend="i">; </hi>X<hi rend="sup">1a</hi> 23, fol. 108 (Hospitaliers-évêque de Laon) ; X<hi rend="sup">1a</hi> 23, fol. 206 (Scot-Nigrebonne) ; X<hi rend="sup">1a</hi> 1470, fol. 2 v° (L’Espicier, Le Huz-évêque de Châlons) ; X<hi rend="sup">1a</hi> 1470, fol. 6 v° (Comment-évêque de Châlons) ; X<hi rend="sup">1a</hi> 1470, fol. 37 (<hi rend="i">id.</hi>) <hi rend="i">; </hi>X<hi rend="sup">2a</hi> 8, fol. 319 (Morlinguehem-Aulnay) ; X<hi rend="sup">1a</hi> 23, fol. 134 v° (Lévis-l’Isle) ; X<hi rend="sup">1a</hi> 23, fol. 119 (bailli de Rouen-archevêque de Rouen) ; X<hi rend="sup">2a</hi> 8, fol. 333 (Thalemas-Drueil) ; X<hi rend="sup">1a</hi> 1469, fol. 488 v° (sire de Vervins-habitants de Vervins) ; X<hi rend="sup">1a</hi> 1470, fol. 46 (<hi rend="i">id.</hi>) ; X<hi rend="sup">1a</hi> 8300 A, fol. 8 (Maubuisson-duc d’Orléans) ; X<hi rend="sup">1a</hi> 1470, fol. 49 v° (<hi rend="i">id.</hi>) ; X<hi rend="sup">1a</hi> 23, fol. 169 (Filleul, d’Artois-Goncourt) ; X<hi rend="sup">1a</hi> 23, fol. 214 (Belin-Noël) ; X<hi rend="sup">1a</hi> 23, fol. 180 v° (Luz-prieur de Saint-Sauveur) ; X<hi rend="sup">1a</hi> 23, fol. 180 (Lévis-habitants d’Avias) ; X<hi rend="sup">1a</hi> 23 (Cernay-Picquigny) ; X<hi rend="sup">1a</hi> 23, fol. 469 (Gannes-Clamecy) ; X<hi rend="sup">1a</hi> 1470, fol. 61 (Croizetes-communauté de Crespy) ; X<hi rend="sup">1a</hi> 1470, fol. 104 v° (<hi rend="i">id.</hi>) ; X<hi rend="sup">2a</hi> 8, fol. 379 v° (prieur de la Voulte-Chapel).</p>
       </div>
-      <div>
+      <div xml:id="r806389">
         <head rend="uc">Appendices</head>
         <p>Tableau de concordance entre les différents manuscrits et l’édition du texte. Liste des passages du pseudo-des Mares transcrits : 68, 69, 125, 308-315, 317-326, 328.</p>
         <p>Index des noms de personnes et de lieux. Index juridique.</p>
         <p>Arbre généalogique de Bertrand II, comte de l’Isle, pour servir à l’étude du procès Lévis-l’Isle.</p>
       </div>
-      <div>
+      <div xml:id="r806405">
         <head rend="uc">Cartes</head>
         <p>I. Croquis de la région de Soissons pour servir à la décision I.</p>
         <pb source="https://nakala.fr/10.34847/nkl.ae8c1c71#e090f1222627645f811253d7ccb307f02cfc77f8" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.ae8c1c71/e090f1222627645f811253d7ccb307f02cfc77f8/full/full/0/default.jpg"/>

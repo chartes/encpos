@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,25 +55,25 @@
         <forename>Paul</forename>
         <surname>Robinne</surname>
       </byline>
-      <div>
+      <div xml:id="r884000">
         <head rend="uc">Sources</head>
         <p>Les principales sources consultées se trouvent aux Archives nationales, dans la sous-série V<hi rend="sup">1</hi> et dans les séries B et T ; à la Bibliothèque nationale, notamment les grandes séries du Cabinet des titres ; aux Archives départementales de la Seine-Maritime (fonds du Parlement, séries E et Q) ; à la Bibliothèque municipale de Rouen, en particulier les dossiers du séquestre. Nous avons également consulté les archives privées de MM. d’Esneval (fonds Le Roux, d’Acquigny et Bézuel), de La Londe, de Balorre (fonds Marescot), de Malartic (fonds Goujon de Gasville), de Pomereu, d’Harcourt (fonds Planterose), du Mesnildot.</p>
       </div>
-      <div>
+      <div xml:id="r884014">
         <head rend="uc">Introduction</head>
         <p>Le Parlement de Normandie, successeur immédiat de l’Échiquier ducal, stabilisé de façon permanente à Rouen en 1499, ne prend son nom qu’en 1515. Sa composition et sa compétence sont arrêtées définitivement au début du <num>xviii<hi rend="sup">e</hi></num> siècle : il comprend alors cent vingt-huit officiers répartis en quatre chambres. De 1774 à 1790, cent soixante-treize magistrats regroupés en cent cinquante-cinq familles se succèdent dans les diverses fonctions parlementaires. Le ressort du Parlement s’étend sur toute la province à l’exception du comté d’Eu. Le palais élevé au début du <num>xvi<hi rend="sup">e</hi></num> siècle offre un cadre exceptionnel aux activités professionnelles des magistrats.</p>
       </div>
-      <div>
+      <div xml:id="r884036">
         <pb source="https://nakala.fr/10.34847/nkl.cb16vqj0#fa2a64aacc97149a08aa98df981a18ea4e3d3104" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb16vqj0/fa2a64aacc97149a08aa98df981a18ea4e3d3104/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La formation du milieu parlementaire
          <lb/>à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r884057">
           <head rend="uc">Chapitre premier
            <lb/>hérédité et noblesse</head>
           <p>Pendant la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, les magistrats du Parlement de Normandie se recrutent, dans soixante pour cent des cas, parmi la haute société de robe ; les autres magistrats sont fils de seigneurs de fiefs ou de militaires et d’officiers de finance. Le Parlement, tel qu’il se présente au début du règne de Louis XVI, est à majorité noble, mais les roturiers constituent une minorité importante (27 %). En 1777, le Parlement décide qu’« à l’avenir aucun sujet ne seroit receu dans le parlement qu’il ne fût noble ou fils de maître ». Cette décision n’est pas exactement respectée, puisque sept roturiers sont admis de 1779 à 1785. C’est néanmoins une sélection plus sévère que dans les dernières années du règne de Louis XV.</p>
         </div>
-        <div>
+        <div xml:id="r884075">
           <head rend="uc">Chapitre II
            <lb/>L’origine des familles parlementaires</head>
           <p>Il est délicat de présenter un critère de classement qui réponde à la fois à la réalité juridique et à la réputation sociale. On peut compter quatre familles de race chevaleresque (sans anoblissement connu avant 1400), quatre d’ancienne extraction (sans anoblissement avant 1500), six de simple extraction (reconnues nobles avant 1600) ; quarante-cinq familles ont été anoblies par lettres, vingt-neuf par charge de chancellerie, vingt-neuf par charge de judicature et de finance.</p>
@@ -84,7 +82,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.cb16vqj0#61b7e8fceec6b24f7a84397d239da7c3551b23b2" n="133" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb16vqj0/61b7e8fceec6b24f7a84397d239da7c3551b23b2/full/full/0/default.jpg"/>
           <p>Les magistrats de souche normande se partagent inégalement entre les trois généralités de Rouen, Caen et Alençon ; plus de quatre-vingts familles appartiennent à la première. Quelques-unes sont d’origine rurale ; la plupart viennent des bourgs et des villes. La métropole normande est le berceau d’une quarantaine de familles parlementaires. Rouen est, comme Paris, mais à un moindre degré, un pôle d’attraction pour les différents pays de la province.</p>
         </div>
-        <div>
+        <div xml:id="r884113">
           <head rend="uc">Chapitre III
            <lb/>Les mécanismes de l’ascension sociale
            <lb/>des familles parlementaires</head>
@@ -95,7 +93,7 @@
           <p>Quelques familles passent directement de la haute bourgeoisie au Parlement. Parfois des magistrats qui sont nés roturiers sont nobles lorsqu’ils entrent au Parlement, des lettres de noblesse accordées à leur père ou aïeul étant venues consacrer un état social de fait.</p>
           <p>A la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, les charges parlementaires représentent donc une valeur sociale considérable qu’elles n’avaient pas encore un siècle plus tôt. C’est vers la fin du règne de Louis XIV que le Parlement est devenu le point de mire de toutes les familles ambitieuses de la bourgeoisie marchande, de robe ou de finance. C’est alors que la compagnie commence à surveiller plus attentivement son recrutement social. Le Parlement de Normandie tend ainsi à devenir le club le plus aristocratique de la province.</p>
         </div>
-        <div>
+        <div xml:id="r884184">
           <head rend="uc">Chapitre IV
            <lb/>L’entrée dans la carrière</head>
           <p>Pour entrer au Parlement, il faut trouver un office vacant ou susceptible de le devenir bientôt, se mettre en rapport avec le titulaire ou ses ayants droit. <pb source="https://nakala.fr/10.34847/nkl.cb16vqj0#1ae65e7e7ca6384adc9f18b9d05e1b4e51d58661" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb16vqj0/1ae65e7e7ca6384adc9f18b9d05e1b4e51d58661/full/full/0/default.jpg"/>Le marché ne sera conclu que sous la réserve de l’agrément du chancelier qui, de son côté, ne fera délivrer des lettres de provision à cet office que sous certaines conditions.</p>
@@ -107,10 +105,10 @@
           <p>En somme, la plupart des dispositions légales qui régissent le recrutement des magistrats n’ont plus aucune force au <num>xviii<hi rend="sup">e</hi></num> siècle. La loi est remplacée par un libre et souverain système de cooptation fondé sur la naissance, l’honorabilité et la fortune.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r884226">
         <head rend="uc">Deuxième partie
          <lb/>La fortune des magistrats</head>
-        <div>
+        <div xml:id="r884234">
           <head rend="uc">Chapitre premier
            <lb/>présentation de la fortune parlementaire</head>
           <p>Une fortune personnelle est nécessaire aux magistrats pour soutenir leur rang social. Cette fortune est, le plus souvent, un patrimoine familial hérité, consolidé par une longue suite d’alliances profitables et grâce aux dispositions de la coutume (régime dotal, tiers coutumier).</p>
@@ -118,7 +116,7 @@
           <p>Malgré les apparences, les magistrats ne sont que moyennement fortunés. A côté d’une minorité très riche, plus de cent familles n’ont qu’un capital de cent à deux cent mille livres.</p>
           <p>La répartition des biens parlementaires est en général uniforme : 60 à 80 % de terres, environ 15 % de rentes, 7 à 15 % d’immeubles bâtis, 5 % de meubles, 3 à 10 % d’office. C’est le type d’une fortune fondée sur la terre, provinciale et aristocratique.</p>
         </div>
-        <div>
+        <div xml:id="r884257">
           <head rend="uc">Chapitre II
            <lb/>Les offices</head>
           <p>Tout office est considéré au <num>xviii<hi rend="sup">e</hi></num> siècle comme un bien immeuble, vénal et transmissible. S’il convient de distinguer exercice et propriété de la charge, les magistrats normands n’ont jamais été tentés de les dissocier en dehors du cercle étroit de la famille. Mais les fils qui succèdent à leur père sont rares.</p>
@@ -129,7 +127,7 @@
           <p>Les vacations et épices ont une réputation surfaite. Le plus actif des rapporteurs ne reçoit pas plus de trois mille livres par an ; la moyenne pour les magistrats ordinaires se situe autour de cinq cents livres.</p>
           <p>Au total, la charge de conseiller au Parlement de Normandie rapporte peu à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle : à peine 10 % du revenu annuel d’un conseiller moyen. Pour le magistrat professionnellement inactif, elle ne représente qu’un capital. Pour tous c’est surtout une caution morale, une dignité qui les porte au sommet de la hiérarchie sociale de la province.</p>
         </div>
-        <div>
+        <div xml:id="r884303">
           <head rend="uc">Chapitre III
            <lb/>Propriété foncière et puissance seigneuriale</head>
           <p>L’essentiel de la richesse parlementaire normande au <num>xviii<hi rend="sup">e</hi></num> siècle est fondé sur la propriété foncière rurale qui constitue globalement les deux tiers de leur fortune. <pb source="https://nakala.fr/10.34847/nkl.cb16vqj0#78b9941011c8ab8c1cfdec8bfc4cda211d4af338" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb16vqj0/78b9941011c8ab8c1cfdec8bfc4cda211d4af338/full/full/0/default.jpg"/> Cette propriété foncière étant alors caractérisée par le régime seigneurial, les magistrats en retirent de nouveaux profits.</p>
@@ -141,13 +139,13 @@
           <p><hi rend="i">Puissance seigneuriale.</hi> – La condition seigneuriale des magistrats renforce la suprématie foncière des uns, compense la médiocrité des autres. Habiles à faire valoir leurs droits, ils en tirent des avantages matériels et plus encore des avantages moraux qui leur procurent une grande considération sociale.</p>
           <p>Disposant d’un personnel à demeure, souvent dirigé par un secrétaire ou un intendant, les magistrats s’attachent à maintenir une exploitation rentable et bénéfique. La propriété foncière semble être l’élément majeur de la fortune parlementaire ; elle n’est en fait qu’un aspect de la puissance seigneuriale des magistrats.</p>
         </div>
-        <div>
+        <div xml:id="r884353">
           <head rend="uc">Chapitre IV
            <lb/>La propriété immobilière urbaine</head>
           <p>La plupart des magistrats sont propriétaires d’immeubles urbains ; cent quinze d’entre eux possèdent à Rouen immeuble bâti ou terrain. Si le nombre et la valeur de ces immeubles sont extrêmement variables, leur importance par <pb source="https://nakala.fr/10.34847/nkl.cb16vqj0#dab800acd7aea51ef8d56bfb48f1163a0526a7e7" n="137" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb16vqj0/dab800acd7aea51ef8d56bfb48f1163a0526a7e7/full/full/0/default.jpg"/>rapport à l’ensemble des fortunes l’est moins. Au-delà d’un capital de cinq cent mille livres, la part immobilière n’excède pas 10 % des fortunes ; mais elle a tendance à augmenter au fur et à mesure que le capital diminue. L’accroissement du capital immobilier est plus sensible dans les fortunes allant de quatre cent à cent cinquante mille livres ; la part de l’immobilier se situe alors entre 8 et 28 %.</p>
           <p>Plus de cent magistrats sont propriétaires de leur domicile, dont la valeur immobilière varie de trois mille à plus de quatre-vingt mille livres. Mais, en plus de leurs hôtels, ils possèdent aussi quelques immeubles de rapport. Plus on descend dans la hiérarchie des fortunes, plus la fortune terrienne fait place aux placements immobiliers ; mais ceux-ci ne deviennent prioritaires que pour une minorité de magistrats.</p>
         </div>
-        <div>
+        <div xml:id="r884373">
           <head rend="uc">Chapitre V
            <lb/>Autres sources et formes de richesse</head>
           <p><hi rend="i">Les rentes.</hi> – Les rentes possédées par les parlementaires rouennais sont de trois sortes : rentes foncières, rentes constituées sur des particuliers, rentes publiques.</p>
@@ -163,10 +161,10 @@
           <p>Propriétaires terriens aisés, seigneurs de fief incontestés, logés en ville de manière confortable, les magistrats du Parlement de Normandie ont une fortune solide, éclatante parfois, toujours respectable.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r884433">
         <head rend="uc">Troisième partie
          <lb/>La vie quotidienne des magistrats</head>
-        <div>
+        <div xml:id="r884441">
           <head rend="uc">Chapitre premier
            <lb/>le cadre de la vie privée des magistrats</head>
           <p><hi rend="i">Demeures urbaines.</hi> – Tenus par les devoirs de leurs charges de résider à Rouen pendant de longs mois, les magistrats y possèdent tous un domicile. L’ensemble de ces demeures se répartit dans la ville autour de deux axes principaux : l’un qui va de la cathédrale vers la porte Beauvoisine au nord, l’autre va de l’abbaye de Saint-Ouen jusqu’aux approches de la porte Cauchoise vers l’ouest.</p>
@@ -179,7 +177,7 @@
           <p>Le mariage des magistrats est un acte social de grande conséquence : l’examen des convenances, le rapport des fortunes l’emportent souvent sur les inclinations sentimentales. La vie conjugale est empreinte de dignité ; l’épouse du magistrat est généralement son alliée.</p>
           <p>Le gouvernement de la maison s’étend à un personnel domestique inséparable de la famille. Les magistrats ont, en général, trois ou quatre personnes à leur service, envers lesquelles ils adoptent une bienveillante attitude patriarcale.</p>
         </div>
-        <div>
+        <div xml:id="r884509">
           <head rend="uc">Chapitre II
            <lb/>La vie intellectuelle</head>
           <p>Dotés d’une instruction classique, les magistrats normands ne dédaignent pas à l’occasion de concourir à divers prix littéraires, en particulier à ceux distribués par l’Académie des Palinods. Mais ils se sont souvent bornés à y traiter de sujets qui leur étaient aussi familiers qu’ils étaient peu originaux.</p>
@@ -187,14 +185,14 @@
           <p>L’éducation, les bibliothèques, le comportement familial et seigneurial manifestent une grande tradition religieuse. Le problème du jansénisme parlementaire ne se pose plus que sous la forme d’une opposition personnelle de <pb source="https://nakala.fr/10.34847/nkl.cb16vqj0#1a271fad9a8eab86f36f4c7146b9469126e3359f" n="140" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb16vqj0/1a271fad9a8eab86f36f4c7146b9469126e3359f/full/full/0/default.jpg"/>certains magistrats à l’encontre des jésuites et des « congrégations de Messieurs » qui comptent encore des adeptes au sein du Parlement.</p>
           <p>Une vingtaine de magistrats sont affiliés à des loges maçonniques.</p>
         </div>
-        <div>
+        <div xml:id="r884551">
           <head rend="uc">Chapitre III
            <lb/>La vie en société</head>
           <p>Personnages publics, les magistrats participent aux cérémonies officielles de la province. Ils reçoivent volontiers, tant à Rouen qu’à la campagne. La détente et la bonne humeur sont également de mise durant les vacances prolongées auxquelles ils sont par deux fois contraints en 1771 et 1788.</p>
           <p>Une gestion attentive des terres porte quelques rares magistrats à tenter des expériences dans le domaine agricole, en rapport avec les sociétés royales d’agriculture de Rouen et de Caen. D’autres se préoccupent d’obtenir pour la population de leur paroisse des ateliers de charité, où ils trouvent, il est vrai, leur intérêt. Les fondations d’écoles de charité sont tout entières à leur actif.</p>
           <p>La vie seigneuriale entraîne un certain nombre de droits et de devoirs. Les devoirs à l’égard de la collectivité rurale s’expriment sous forme d’aumônes, de fondations, d’entretien des biens paroissiaux.</p>
         </div>
-        <div>
+        <div xml:id="r884569">
           <head rend="uc">Chapitre IV
            <lb/>Aspect social dans les fonctions
            <lb/>et les relations publiques</head>
@@ -206,7 +204,7 @@
           <p>En 1789, l’intransigeance parlementaire au sujet de la convocation des états, jointe à une difficile période de hausse des prix, provoque une baisse brutale de la popularité des magistrats dans l’opinion. Des pamphlets anonymes dénoncent l’attitude des magistrats, des menaces leur sont adressées.</p>
           <p>La noblesse normande délègue quatre parlementaires aux états généraux, où ils ne joueront pratiquement aucun rôle jusqu’à la suppression des parlements le 30 septembre 1790.</p>
         </div>
-        <div>
+        <div xml:id="r884615">
           <head rend="uc">Chapitre V
            <lb/>La mentalité des magistrats à la fin de l’ancien régime</head>
           <p>La plupart des traits de la société parlementaire se retrouvent dans le second ordre ; pourtant un statut commun attribué à ses membres, des habitudes communes, une solidarité stricte ont donné conscience aux magistrats d’appartenir à un ordre particulier, distinct de la noblesse et du tiers-état : l’ordre de la magistrature.</p>
@@ -214,7 +212,7 @@
           <p>S’ils ont une haute conscience de la dignité de leurs charges, les magistrats, par attachement à des structures dépassées, se coupent de la réalité sociale, politique, économique. Utilisant de façon maladroite des idées ambiguës : liberté, nation, représentation, ils s’exposent à des manifestations opposées à leurs intérêts.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r884634">
         <head rend="uc">Conclusion</head>
         <p>Si bon nombre de magistrats émigrent à partir de 1791, plus de la moitié restent sur leurs terres, évitant ainsi les désagréments du séquestre. L’étude de la société parlementaire pourrait à la rigueur se poursuivre au-delà de la Révolution. Elle montrerait la continuité partielle des cadres administratifs et judiciaires.</p>
         <pb source="https://nakala.fr/10.34847/nkl.cb16vqj0#bf5c1d04b0039f89cbff42f7cf6bf1c5e0006bfc" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb16vqj0/bf5c1d04b0039f89cbff42f7cf6bf1c5e0006bfc/full/full/0/default.jpg"/>

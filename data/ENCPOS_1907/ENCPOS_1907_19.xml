@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,10 +62,10 @@
         <head rend="uc">Introduction – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r315698">
         <head rend="uc">Livre I
          <lb/>branche de Roucy-Roucy</head>
-        <div>
+        <div xml:id="r315706">
           <head rend="uc">Chapitre premier
            <lb/>Renaud (948-967)</head>
           <p>Il n’appartient pas à la famille des comtes de Vermandois, ni à celle des comtes de Soissons ; ce n’est pas non plus le chef normand dont parle Flodoard, qui, parti en 923 des bords de la Loire, alla ravager le Vermandois.</p>
@@ -81,21 +79,21 @@
           <p>Il meurt, non en 973, mais en juin 967.</p>
           <p>Il avait épousé Aubrée, belle-fille de Louis IV (elle était fille de Gilbert de Lorraine et de Gerberge) ; il eut quatre enfants : l’aîné Gilbert lui succéda.</p>
         </div>
-        <div>
+        <div xml:id="r315756">
           <head rend="uc">Chapitre II
            <lb/>Gilbert (juin 967-998 ?)</head>
           <p>Il est compromis avec son frère Brunon, évêque de Langres, dans la trahison d’Arnoul, archevêque de Reims (août 989) : il est fait prisonnier par Charles de Lorraine, emmené à Laon, et mis en liberté peu après. – Donations à l’abbaye de Saint-Rémy de Reims. – Le nom de sa femme est inconnu ; on lui attribue deux fils et une fille.</p>
         </div>
-        <div>
+        <div xml:id="r315768">
           <head rend="uc">Chapitre III
            <lb/>Ebles I<hi rend="sup">er</hi> (998 ?-1033)</head>
           <p>Il épouse Béatrix, fille du comte de Hainaut Rénier IV (1010 au plus tôt), dont il eut deux filles. Il doit être identifié avec l’archevêque de Reims, qui fut élu en 1021, et sacra à Reims le roi Henri I<hi rend="sup">er</hi> (14 mai 1027).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r315789">
         <head rend="uc">Livre II
          <lb/>branche de Roucy-Ramerupt</head>
-        <div>
+        <div xml:id="r315797">
           <head rend="uc">Chapitre premier
            <lb/>Hilduin (1033-1063 ?)</head>
           <p>Hilduin, comte d’Arcis et Ramerupt (il ne fut pas comte de Montdidier) épouse Adélaïde, fille aînée <pb source="https://nakala.fr/10.34847/nkl.c3cc1643#3873566632c8a7fdd393cd6e9f381bc5d242dda6" n="178" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3cc1643/3873566632c8a7fdd393cd6e9f381bc5d242dda6/full/full/0/default.jpg"/>d’Ebles I, entre 1030 et 1033 ; il succède à son beau-père en 1033. Il souscrit plusieurs chartes des comtes de Champagne.</p>
@@ -112,18 +110,18 @@
           <p>IX. Adèle, femme d’Arnoul, comte de Chiny,</p>
           <p>X. Adélaïde, femme de Faucon et mère de Barthélemy, évêque de Laon.</p>
         </div>
-        <div>
+        <div xml:id="r315862">
           <head rend="uc">Chapitre II
            <lb/>Ebles II (1063-1104)</head>
           <p>Il entre en lutte avec le chapitre de Laon, au sujet de l’avouerie de Glennes. – Il s’offre à Alexandre II contre <pb source="https://nakala.fr/10.34847/nkl.c3cc1643#6cd3628e4346563dae82da7137b83f4d141085a9" n="179" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3cc1643/6cd3628e4346563dae82da7137b83f4d141085a9/full/full/0/default.jpg"/>les Sarrazins (vers 1072) ; en 1073, aidé par Grégoire VII, il passe en Espagne ; on ne sait rien de précis sur cette expédition. – – Il prend parti contre Manassès, archevêque de Reims : il donne asile en son comté au prévôt Manassès, son oncle, plus tard Manassès II, archevêque de Reims, et à plusieurs autres clercs (dont Bruno, qui devait fonder l’ordre des Chartreux) ; il plaide leur cause à Rome en 1077. Condamnation de Manassès I<hi rend="sup">er</hi> : Ebles est chargé de l’exécution de la sentence (27 décembre 1080). – Il donne à l’abbaye de Marmoutier les prieurés de N.-D. de Ramerupt et de la Celle-en-Brie. – Par ses pillages, il s’attire la vengeance de Louis, fils de Philippe I<hi rend="sup">er</hi>, qui ravage les terres du comte de Roucy (1102). – Sa lutte contre Thomas de Marle. Siège du château de Montaigu. Intervention du fils du roi (1103).</p>
           <p>Il a de son mariage avec Sibylle, deuxième fille de Robert Guiscard, duc de Pouille, cinq enfants, au nombre desquels il faut mettre Mabille, regardée souvent comme la fille d’Hugues Cholet.</p>
         </div>
-        <div>
+        <div xml:id="r315890">
           <head rend="uc">Chapitre III
            <lb/>Robert Guiscard I (1104-au plus tard 1117)</head>
           <p>Il succède à son père : il fut certainement comte de Roucy.</p>
         </div>
-        <div>
+        <div xml:id="r315902">
           <head rend="uc">Chapitre IV
            <lb/>Hugues, dit Cholet (avant 1117-vers 1160)</head>
           <p>Frère du précédent, il n’apparaît dans aucun texte avant 1117. Il intervient dans un conflit entre ses vassaux et l’abbaye de Saint-Thierry de Reims, et juge un différend survenu entre Barthélemy, avoué de Maizy, et les chanoines de Laon (1131).</p>
@@ -133,7 +131,7 @@
           <p>En 1144, il fait lever par l’archevêque de Reims l’excommunication ainsi que l’interdit jeté sur ses biens en 1136. – Il fait un accord avec Suger à propos des tailles qu’il levait à Concevreux (1145). – Sa grande libéralité pour les abbayes voisines : Vauclere, Cuissy et le prieuré de N.-D. d’Evergnicourt. – Il fonde l’abbaye cistercienne de La Valroy (1147), et lui concède de grands avantages en 1154.</p>
           <p>Il fut marié deux fois, et eut, de sa deuxième femme, sept enfants, dont l’aîné lui succéda. – De sa première femme, il avait eu une fille Ade, qui épousa Guermond II (et non Gaucher II) de Châtillon.</p>
         </div>
-        <div>
+        <div xml:id="r315931">
           <head rend="uc">Chapitre V
            <lb/>Robert Guiscard II (1160 ?-1180)</head>
           <p>Il est associé à son père depuis 1147, certainement depuis 1149. – Il confirme certaines donations de son père. – Sa lutte avec Henri, archevêque de Reims (1164). – Il a des démêlés avec le pape Alexandre III au sujet d’un vol commis par lui sur un messager de Guichard, archevêque de Lyon.</p>
@@ -141,23 +139,23 @@
           <p>Il pille l’abbaye de Vauclere et est excommunié. – Il se soumet ; son excommunication est levée en 1166, et il part en pèlerinage pour la Terre Sainte. – Il est de retour en 1167.</p>
           <p>Divisions et luttes entre Robert Guiscard, le comte de Rethel et Hugues de Pierrepont ; intervention de Pierre de Celle, abbé de Saint-Rémy, auprès d’Albert de Mora (le futur pape Grégoire VIII) et du pape Alexandre III. – Il intervient dans la lutte de Louis VII, contre Renaud de Rozoy (1178). – Il meurt en 1180 ou 1181 au plus tard.</p>
         </div>
-        <div>
+        <div xml:id="r315954">
           <head rend="uc">Chapitre VI
            <lb/>Raoul (1180-1184, au plus tard)</head>
           <p>Raoul est l’aîné des sept enfants de Robert Guiscard et d’Elisabeth de Mareuil. – Il confirme des donations faites aux moines de La Valroy et de Saint-Nicolas de Roucy. – Il meurt, au plus tard, en 1184 (et non en 1196), sans enfants.</p>
         </div>
-        <div>
+        <div xml:id="r315966">
           <head rend="uc">Chapitre VII
            <lb/>Jean I<hi rend="sup">er</hi> (1184-1201, au plus tard)</head>
           <p>Il succède à son frère Raoul. Donation et confirmation de biens aux abbayes. – Il reconstruit le village de Lappion avec le prieur de Saint-Paul-aux-Bois et Robert de Pierrepont. – Il meurt, au plus tard, en 1201, sans héritier.</p>
         </div>
-        <div>
+        <div xml:id="r315982">
           <head rend="uc">Chapitre VIII
            <lb/>Eustachie (1200-1212, au plus tard)</head>
           <p>Elle succède à Jean I<hi rend="sup">er</hi>, son frère. – Elle apparaît dans <pb source="https://nakala.fr/10.34847/nkl.c3cc1643#2738d3b34104125d10986649fdb11897e1e8077a" n="182" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3cc1643/2738d3b34104125d10986649fdb11897e1e8077a/full/full/0/default.jpg"/>les actes depuis 1168 ; elle était déjà mariée en 1181 avec Robert, seigneur de Pierrepont, celui-ci était mort en 1200. – Elle se remarie avec Enguerran III, sire de Coucy, qui s’intitule comte de Roucy pour la première fois en 1201. – Ils divorcent en 1203 (en tous cas, certainement avant 1205). Enguerran III convole en secondes noces avec Mahaut, veuve de Geoffroi III, comte du Perche. Quant à Eustachie, on a prétendu, à tort, qu’elle s’était remariée avec Alain II de Roucy, seigneur de Neuville-en-Laonnois. Elle administre seule le comté de Roucy jusqu’en 1212. – Elle dut mourir à cette époque. Son fils Jean II, déjà seigneur de Pierrepont depuis 1210, lui succéda en 1212 (avant septembre).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r316004">
         <head rend="uc">Appendice</head>
         <p>Le comté de Reims ne paraît pas avoir été possédé par les comtes de Roucy.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,16 +63,16 @@
         <head rend="uc">Introduction. Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r353353">
         <head rend="uc">Première partie
          <lb/>La politique religieuse de Philippe le Bon</head>
-        <div>
+        <div xml:id="r353361">
           <head rend="uc">Chapitre premier
            <lb/>la politique de Philippe le Bon dans les Pays-Bas</head>
           <p>Conformément à la politique traditionnelle de la maison de Bourgogne, Philippe le Bon étend ses possessions dans les Pays-Bas : il acquiert successivement Namur, le Hainaut et la Hollande, le Brabant.</p>
           <p>Sa politique religieuse est un chapitre de sa politique générale : elle consiste à utiliser ses bonnes relations avec <pb source="https://nakala.fr/10.34847/nkl.1ca1i632#2793ad115d296711cd418a69ddcaef21db427e92" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.1ca1i632/2793ad115d296711cd418a69ddcaef21db427e92/full/full/0/default.jpg"/>la papauté pour faire passer, d’après un plan systématique, tous les diocèses des Pays-Bas sous l’influence bourguignonne.</p>
         </div>
-        <div>
+        <div xml:id="r353381">
           <head rend="uc">Chapitre II
            <lb/>Philippe le Bon et la papauté</head>
           <p>Influence de Philippe le Bon à la cour de Rome.</p>
@@ -83,28 +81,28 @@
           <p>Le Vœu du Faisan. Le Congrès de Mantoue. Comment le duc de Bourgogne ajourna indéfiniment la réalisation de ses promesses.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r353403">
         <head rend="uc">Deuxième partie
          <lb/>Les résultats de la politique religieuse de
          <lb/>Philippe le Bon</head>
-        <div>
+        <div xml:id="r353413">
           <head rend="uc">Chapitre premier
            <lb/>Philippe le Bon et l’évèché de Tournai</head>
           <p>Le pape ayant nommé Jacques d’Harcourt, dont la candidature était appuyée par le roi de France, Philippe s’y oppose et obtient la nomination de Jean Chevrot.</p>
           <p>Malgré les intrigues du roi de France, il fait également nommer Guillaume Fillastre pour succéder à Chevrot.</p>
         </div>
-        <div>
+        <div xml:id="r353428">
           <pb source="https://nakala.fr/10.34847/nkl.1ca1i632#d584724823c6eaff8349e3ab085f18393ece714a" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.1ca1i632/d584724823c6eaff8349e3ab085f18393ece714a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Philippe le Bon et l’évêché de Cambrai</head>
           <p>Philippe le Hardi et Jean sans Peur avaient déjà tenté de faire nommer leurs créatures, mais sans succès. Philippe le Bon obtient la nomination de Jean de Bourgogne, fils naturel de Jean sans Peur ; les avantages qu’il en tire.</p>
         </div>
-        <div>
+        <div xml:id="r353445">
           <head rend="uc">Chapitre III
            <lb/>Philippe le Bon et l’évêché de Thérouanne</head>
           <p>Philippe fait nommer son fils naturel, David de Bourgogne, évêque de Thérouanne.</p>
         </div>
-        <div>
+        <div xml:id="r353457">
           <head rend="uc">Chapitre IV
            <lb/>Philippe le Bon et l’évêché de Liège</head>
           <p>Première intervention de Jean sans Peur. La bataille d’Othée : ses conséquences pour l’influence bourguignonne.</p>
@@ -112,7 +110,7 @@
           <p>Grâce à son influence sur Jean de Heinsberg, Philippe le Bon obtient des avantages d’ordre judiciaire et financier.</p>
           <p>La résignation de Jean de Heinsberg ; son successeur est le neveu de Philippe le Bon. Louis de Bourbon et le peuple de Liège : nouvelle révolte ; victoire du duc de Bourgogne.</p>
         </div>
-        <div>
+        <div xml:id="r353478">
           <pb source="https://nakala.fr/10.34847/nkl.1ca1i632#8c9dc3fb75980b6ede95ebbebfb228bf0a5f1ef4" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.1ca1i632/8c9dc3fb75980b6ede95ebbebfb228bf0a5f1ef4/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Philippe le Bon et l’évêché d’Utrecht</head>
@@ -121,14 +119,14 @@
           <p>Révolte de la population : Philippe impose son fils par les armes.</p>
           <p>Tentative de réglementation imposée aux ordres religieux.</p>
         </div>
-        <div>
+        <div xml:id="r353504">
           <head rend="uc">Chapitre VI
            <lb/>Philippe le Bon et les abbayes</head>
           <p>Philippe veut réserver les abbayes à ses créatures ; il ne tient aucun compte des élections faites par les religieux.</p>
           <p>Un exemple caractéristique des procédés dont il use : une élection à l’abbaye de Saint-Bertin. Jean de Medon est élu abbé, mais le pape, sur les instances de Philippe, donne l’abbaye en commende à Guillaume Fillastre. Jean de Medon ne veut pas se laisser déposséder : ses démarches auprès du parlement et de l’Université de Paris. Il est excommunié. Le pape nomme Guillaume Fillastre abbé régulier.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r353520">
         <head rend="uc">Conclusion</head>
         <p>Philippe le Bon a lutté contre les dernières franchises cléricales comme il a combattu les franchises urbaines. De sentiments très pieux, il encourage la réforme du clergé, mais place toujours au premier plan la réalisation de ses visées politiques.</p>
       </div>

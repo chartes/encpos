@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,14 +57,14 @@
         <forename>Marie-Dominique</forename>
         <surname>Valette</surname>
       </byline>
-      <div>
+      <div xml:id="r1125402">
         <head rend="uc">Introduction</head>
         <p>Composée dans le troisième quart du <num>xv<hi rend="sup">e</hi></num> siècle, à une époque où l’histoire de France devient une passion commune à tous les Français instruits, la <hi rend="i">Chronique de France jusqu’en 1380,</hi> encore appelée la <hi rend="i">Chronique du Président Fauchet,</hi> du nom du possesseur de deux des manuscrits qui conservent cette œuvre, est une compilation historique anonyme allant des origines troyennes à la fin du règne de Charles V, dont la base historique repose principalement sur les <hi rend="i">Grandes Chroniques de France</hi> et qui accorde une place importante aux chansons de geste et aux romans des siècles antérieurs.</p>
       </div>
-      <div>
+      <div xml:id="r1125430">
         <head rend="uc">Première partie
          <lb/>Commentaire</head>
-        <div>
+        <div xml:id="r1125438">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits</head>
           <p>Le texte de la <hi rend="i">Chronique de France jusqu’en 1380</hi> est conservé dans trois manuscrits, tous contemporains de la date de composition de l’œuvre.</p>
@@ -77,7 +75,7 @@
           <p><hi rend="i">V :</hi> Vatican, Regina lat. 749. – Ce manuscrit de cinq cent cinquante-deux folios sur papier, dont l’écriture cursive est relativement négligée, est daté du mois d’avril 1476. Ayant appartenu, comme le précédent, à Claude Fauchet, il comporte des notes marginales rendant compte du contenu du texte, d’une main différente mais contemporaine de celle du scribe (P. Lefèvre). Comme de nombreux manuscrits de Claude Fauchet, le codex du Vatican a fait ensuite partie de la bibliothèque de la reine Christine.</p>
           <p>L’examen des filigranes de ces deux derniers manuscrits sur papier indique que leur origine géographique se situerait dans la partie Nord de la France. Ces trois manuscrits doivent être les copies d’un original perdu, dont la plus fidèle est celle contenue dans le manuscrit <hi rend="i">A.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1125498">
           <head rend="uc">Chapitre II
            <lb/>Le contenu de l’œuvre</head>
           <p><hi rend="i">L’auteur et la date.</hi> – La <hi rend="i">Chronique</hi> est anonyme, aucune allusion dans le prologue ou à l’intérieur même du texte ne permettant de donner davantage de précisions. Toutefois, d’après la langue, qui comporte plusieurs traits picards, il semblerait que l’auteur soit originaire du Nord de la France. Le nom de « P. Lefèvre », qui figure dans l’explicit du manuscrit du Vatican, paraît être celui du copiste.</p>
@@ -87,7 +85,7 @@
           <p>Les sources épiques ou romanesques consistent en chansons de geste ou en romans, dont la liste comporte des titres bien connus, mais aussi quelques œuvres aujourd’hui perdues, d’où l’intérêt « archéologique » de la <hi rend="i">Chronique :</hi> deux romans de Raoul Lefèvre, le <hi rend="i">Roman de Jason et Médée</hi> et le <hi rend="i">Recueil des troyennes histoires</hi> ; deux épopées mérovingiennes : <hi rend="i">Marc et Sadoine</hi> (chanson perdue) et <hi rend="i">Florent et Octavien</hi> (XIV<hi rend="sup">e </hi>siècle) ; la <hi rend="i">Berthe au grand pied</hi> d’Adenet le Roi ; <hi rend="i">Macaire</hi> ; la <hi rend="i">Chevalerie Ogier</hi> ; <hi rend="i">Aymer et Arnais d’Orléans</hi> (chanson perdue) ; <hi rend="i">Huon de Bordeaux ; Renaut <pb source="https://nakala.fr/10.34847/nkl.cfb082mu#c15d7cf1b1d8902df2772adcae46d1f56cf93cd3" n="164" facs="https://api.nakala.fr/iiif/10.34847/nkl.cfb082mu/c15d7cf1b1d8902df2772adcae46d1f56cf93cd3/full/full/0/default.jpg"/> de Montauban</hi> (d’après le remaniement versifié ou la version en prose du <num>xv<hi rend="sup">e</hi></num> siècle) ; <hi rend="i">Richier de Bavière</hi> (chanson perdue) ; <hi rend="i">Guillaume d’Orange</hi> (d’après la version en prose du <num>xv<hi rend="sup">e</hi></num> siècle).</p>
           <p><hi rend="i">L’apport personnel du chroniqueur.</hi> – Un bon compilateur médiéval devait se garder de tout apport personnel et ajouter à ses sources le minimum ; pour que sa compilation jouît d’autant d’autorité que ses sources, l’idéal était même qu’il n’y ajoutât rien. Le chroniqueur laisse néanmoins transparaître un thème sans cesse présent dans l’œuvre, celui de la traîtrise, qui se retrouve d’un bout à l’autre de la chronique. De plus, outre des ajouts de nature chronologique ou géographique, dont il sera question plus loin, il livre de temps à autre des réflexions personnelles sur les devoirs du prince ou sur les rapports entre le roi et les seigneurs, déclarant par exemple : « Si est bon exemple aux roys, quant ilz ont ung bon prince soubz eulx, qui soit loial et bon, ilz le doivent bien amer et priser... ». Enfin, il ne peut s’empêcher parfois d’ajouter une morale à la suite de telle ou telle anecdote, mais il s’agissait là d’une tendance courante, l’histoire devant avant tout servir la morale et donner des « exemples ».</p>
         </div>
-        <div>
+        <div xml:id="r1125665">
           <head rend="uc">Chapitre III
            <lb/>Le travail du chroniqueur</head>
           <p><hi rend="i">Les qualités d’historien de l’auteur de la</hi> « Chronique ». – Il semble que l’auteur de la <hi rend="i">Chronique</hi> ait souvent travaillé de mémoire. En effet, les récits qu’il donne des chansons de geste tiennent parfois de plusieurs versions : la façon dont il traite la geste de Guillaume d’Orange en est un exemple. Le chroniqueur devait être, par voie de conséquence, doté d’une vaste culture.</p>
@@ -100,21 +98,21 @@
           <p><hi rend="i">L’utilisation des chansons de geste et des romans.</hi> – Dès les <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, les historiens avaient nourri leurs récits de textes épiques, sans doute dans l’intention de mieux éclairer un passé trop obscur. Cette tendance ne fit que s’amplifier au <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles, sous l’effet soit d’un sens critique moins aiguisé, soit d’une recherche du succès littéraire. Dans la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle, l’utilisation des traditions orales et des chansons de geste était chose courante et l’auteur de la <hi rend="i">Chronique,</hi> à cet égard, se situe tout à fait dans le ton de son époque, dans la lignée d’un David Aubert.</p>
           <p>L’une des qualités de l’auteur de la <hi rend="i">Chronique</hi> consiste dans l’adresse qu’il manifeste à fondre réalité et fiction. Outre le fait qu’il s’efforce de tenir compte de la chronologie respective des événements historiques et des épisodes fabuleux, il est maître dans l’art de les lier habilement. Il explique les invasions sarrasines de Marc et de Sadoine par la faiblesse politique des derniers mérovingiens, introduit les aventures de Florent et d’Octavien par des considérations sur la succession impériale en Orient, l’histoire de Berthe par le récit des exploits de Pépin le Bref qui, par la grande renommée qu’il en tire, lui permettent d’épouser cette princesse hongroise. Cette qualité est à l’origine de la grande homogénéité de l’œuvre.</p>
         </div>
-        <div>
+        <div xml:id="r1125783">
           <pb source="https://nakala.fr/10.34847/nkl.cfb082mu#9a0b5198ad73de480fc231a50d83f17b68ae1be1" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.cfb082mu/9a0b5198ad73de480fc231a50d83f17b68ae1be1/full/full/0/default.jpg"/>
           <head rend="uc">Conclusion
            <lb/>la valeur de la chronique</head>
           <p>Que son auteur ait eu pour but la recherche du succès, en composant une œuvre qui répondait au goût du public de son époque, ou celui, à la fois plus érudit et plus ambitieux, de « collecter tout le passé, littéraire aussi bien qu’historique » (M, Suard), la <hi rend="i">Chronique de France jusqu’en 1380</hi> est une réalisation dont la construction cohérente, le riche contenu et la rédaction plaisante font une parfaite réussite.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1125805">
         <head rend="uc">Deuxième partie
          <lb/>Édition : époques mérovingienne
          <lb/>et carolingienne</head>
         <p>L’édition a été réalisée d’après le manuscrit <hi rend="i">A</hi> qui offre le meilleur texte, en tout cas le plus cohérent et le plus clair ; l’histoire des époques mérovingienne et carolingienne y occupe les folios 27v à 130v. Quelques variantes des deux autres manuscrits <hi rend="i">P</hi> et <hi rend="i">V</hi> ont été données pour le début du texte, à simple titre indicatif, car elles sont le plus souvent insignifiantes ou de nature exclusivement orthographique.</p>
         <p>Quelques fragments de la <hi rend="i">Chronique</hi> avaient déjà été édités d’après les manuscrits <hi rend="i">P</hi> et <hi rend="i">V</hi>, les seuls que l’on connût jusqu’ici.</p>
       </div>
-      <div>
+      <div xml:id="r1125846">
         <head rend="uc">Annexes</head>
         <p>Index des noms de personne et de lieu. – Lexique. – Edition du prologue de la <hi rend="i">Chronique,</hi> d’après <hi rend="i">V,</hi> seul manuscrit qui en conserve le texte en bon état : inexistant dans <hi rend="i">P,</hi> le prologue se trouve en effet très endommagé dans <hi rend="i">A</hi> ; quelque peu conventionnel, il révèle pourtant le dessein général de l’auteur qui se propose d’écrire une chronique de France ou plutôt de ses rois en traitant « des généalogies des seigneurs et nobles princes qui ont gouverné oudict royaume, et partie de leurs vyes, et quant ilz ont régné... ». – Edition des épisodes romanesques antiques jusqu’au règne de Priam, d’après <hi rend="i">A,</hi> avec variantes de <hi rend="i">P</hi> et <hi rend="i">V.</hi> – Édition de l’épisode du <hi rend="i">Châtelain de Coucy,</hi> d’après <hi rend="i">A,</hi> avec variantes de <hi rend="i">P</hi> et <hi rend="i">V.</hi></p>
       </div>

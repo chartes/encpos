@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1957_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,32 +65,32 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r780170">
         <head rend="uc">Introduction</head>
         <p>Au cours du <num>xvi<hi rend="sup">e</hi></num> siècle, la fiscalité royale se fait plus lourde sur le clergé de France ; la perception des décimes tend à devenir régulière, en même temps que se généralise la pratique des emprunts forcés, saisies de revenus et inventaires des trésors d’églises.</p>
         <p>La fortune du clergé semble pourtant intacte au moment où la royauté, qui doit liquider les dettes de François I<hi rend="sup">er</hi> et Henri II, convoque les États généraux d’Orléans.</p>
       </div>
-      <div>
+      <div xml:id="r780193">
         <head rend="uc">Première partie
          <lb/>Historique des aliénations
          <lb/>du temporel ecclésiastique
          <lb/>ordonnées par les rois Charles IX et Henri III
          <lb/>(de 1563 a 1588)</head>
-        <div>
+        <div xml:id="r780207">
           <head rend="uc">Chapitre premier
            <lb/>les préliminaires de l’aliénation de 1563.</head>
           <p><hi rend="i">Les attaques contre la fortune du clergé aux États d’Orléans (1560</hi>). – Les assemblées préparatoires élisant les députés du tiers état prévoient <pb source="https://nakala.fr/10.34847/nkl.0b703bgl#222d37147f81eb0a67e38d55c03c9255b115352e" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.0b703bgl/222d37147f81eb0a67e38d55c03c9255b115352e/full/full/0/default.jpg"/>le versement d’une partie des revenus ecclésiastiques aux finances publiques. Aux États, le chancelier de L’Hospital déclare que les ecclésiastiques sont simples administrateurs de leurs biens : les cahiers du tiers état et de la noblesse préconisent une redistribution des biens du clergé.</p>
           <p><hi rend="i">Les projets d’aliénation du temporel ecclésiastique aux États de Pontoise (1561</hi>). – Les assemblées préparatoires du tiers état et divers traités proposent de combler le déficit en vendant les biens du clergé, au moment même où le roi exige des églises la déclaration de leurs revenus. Le cahier du tiers état, à Pontoise, résume tous les projets élaborés sous la forme de trois propositions d’aliénation du temporel ecclésiastique, dont l’une serait générale. La noblesse donne son accord.</p>
           <p><hi rend="i">Le contrat de Poissy (21 octobre 1561</hi>). – Le clergé, pour écarter le danger, propose d’amortir la dette royale par des versements annuels, qui permettront de recouvrer le domaine royal aliéné ou engagé à l’Hôtel de Ville de Paris. Mais le roi doit recourir à des constitutions de rentes sur cette subvention, lors de la première guerre civile (1562), en même temps qu’il fait saisir les objets précieux des églises pour couvrir les dépenses de guerre.</p>
         </div>
-        <div>
+        <div xml:id="r780239">
           <head rend="uc">Chapitre II
            <lb/>La première aliénation du temporel ecclésiastique (1563).</head>
           <p><hi rend="i">La préparation de l’édit d’aliénation.</hi> – Dès janvier 1563, un édit d’aliénation de 100.000 1. t. de rente des biens du clergé est présenté au Parlement, qui réussit à obtenir du roi qu’il se contente d’une nouvelle constitution de rentes sur la subvention de Poissy. Malgré la fin de la guerre civile (édit d’Amboise, 19 mars 1563), la royauté, pressée par le besoin, est contrainte d’imposer dans le lit de justice du 17 mai 1563 la vérification de l’édit d’aliénation de 100.000 écus de rente des biens ecclésiastiques.</p>
           <p><hi rend="i">Les négociations avec Rome.</hi> – Le chevalier de Seurre va solliciter l’autorisation pontificale pour l’aliénation (13 mars 1563) ; mais Pie IV, qui redoute l’opposition des prélats français et surtout espagnols, désireux de voir les effets de la paix d’Amboise, réserve son approbation.</p>
           <p><hi rend="i">L’édit d’aliénation ; précisions apportées par les instructions et ordonnances.</hi> – L’édit, daté du 13 mai 1563, insiste sur la nécessité de chasser les troupes étrangères de France, notamment les Anglais installés au Havre. Seuls les ordres mendiants sont exemptés de l’aliénation ; les acquéreurs choisissent eux-mêmes les biens qu’ils désirent ; des amendes doivent frapper les ecclésiastiques récalcitrants. Les instructions envoyées aux officiers royaux qui président aux ventes leur ordonnent de ménager aux bénéficiers une rente équivalant au revenu des biens aliénés ; cette rente sera constituée sur le domaine royal racheté avec le produit <pb source="https://nakala.fr/10.34847/nkl.0b703bgl#2fa2dba74f012c8cf8289dd6666dd4e0d36cd194" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.0b703bgl/2fa2dba74f012c8cf8289dd6666dd4e0d36cd194/full/full/0/default.jpg"/>de l’aliénation, ou bien transmise directement par les acquéreurs aux bénéficiers.</p>
         </div>
-        <div>
+        <div xml:id="r780271">
           <head rend="uc">Chapitre III
            <lb/>L’opposition du clergé a l’édit d’aliénation.
            <lb/>Le rachat des biens vendus (1564-1567).</head>
@@ -103,7 +101,7 @@
           <p>Le roi prolongea le délai de rachat à diverses reprises jusqu’au 1<hi rend="sup">er</hi> août 1567. L’édit du 11 juillet 1566 promit aux bénéficiers, à défaut d’argent comptant, des rentes constituées sur les recettes générales et leur donna l’autorisation de constituer des rentes à l’Hôtel de Ville de Paris, pour s’assuier le montant des sommes que le Trésor de l’Épargne ne pouvait rembourser : les syndics généraux constituèrent 50.000 1. t. (octobre 1566), puis 20.000 1. t. de rentes (février 1567) sur l’Hôtel de Ville de Paris.</p>
           <p><hi rend="i">Essai d’établissement du bilan du rachat de l’aliénation de 1563.</hi> – – Grâce au montant de la taxe imposée pour le rachat aux diocèses, aux constitutions de rentes sur l’Hôtel de Ville, aux assignations sur les recettes générales et, enfin, aux rentes constituées par les acquéreurs au profit <pb source="https://nakala.fr/10.34847/nkl.0b703bgl#1906e3d56d0565d248e71457681d74de19e709c7" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.0b703bgl/1906e3d56d0565d248e71457681d74de19e709c7/full/full/0/default.jpg"/>des bénéficiers, et qui pouvaient être rendues comme partie du prix d’achat, les ecclésiastiques parvinrent théoriquement à racheter l’intégralité des biens aliénés en 1563 (environ 5.170.000 1. t.).</p>
         </div>
-        <div>
+        <div xml:id="r780324">
           <head rend="uc">Chapitre IV
            <lb/>Les aliénations autorisées par Pie V (1568-1569).</head>
           <p><hi rend="i">Les négociations avec Rome et la bulle du 1</hi>
@@ -112,7 +110,7 @@
           <p><hi rend="i">L’aliénation de 1568-1569.</hi> – Encore sollicitée par A. Rucellaï, elle fut accordée pour 50.000 écus de rente par la bulle du 24 novembre 1568. Les églises paroissiales disposant de moins de 100 ducats d’or de revenu et les prieurs pourvus de moins de 24 ducats d’or de revenu en étaient dispensés, ainsi que les ordres mendiants et les chevaliers de Saint-Jean de Jérusalem.</p>
           <p><hi rend="i">L’organisation de l’aliénation.</hi> – Le roi pratiqua des emprunts forcés, dont il promit le remboursement sur le produit de l’aliénation. Les prélats délégués par le pape se firent remplacer par une commission de parlementaires, qui fit, en février 1569, le département de 34.000 écus sur tous les diocèses, excepté ceux de la généralité de Poitiers. Les bénéficiers choisissaient eux-mêmes les biens qu’ils pourraient aliéner pour payer leur taxe, qu’ils pouvaient également payer directement. Avant même la clôture du compte de l’aliénation (10 septembre 1577 : 2.474.681 1. t. de recettes), une assemblée de prélats réunie en 1573 était prête à donner son accord à une nouvelle aliénation.</p>
         </div>
-        <div>
+        <div xml:id="r780359">
           <head rend="uc">Chapitre V
            <lb/>Les aliénations accordées par Grégoire XIII a Henri III
            <lb/>(1574-1576).</head>
@@ -122,7 +120,7 @@
           <p>Les frais de l’aliénation, assez élevés (10 % du prix des ventes) du fait du change des monnaies versées aux reîtres, étaient supportés par les acquéreurs, qui pouvaient être contraints à verser le prix de leurs acquisitions par saisie de leurs biens et emprisonnement.</p>
           <p><hi rend="i">La résistance des ecclésiastiques aux États de Blois et à l’assemblée de Melun (1576-1577, 1579</hi>). – Après qu’on eut demandé des comptes aux ecclésiastiques mêlés aux négociations des aliénations, des protestations solennelles furent élaborées, réprouvant les contributions extraordinaires imposées au clergé. L’assemblée de Melun obtint la remise des « restes » à verser au titre de l’aliénation, dont le compte ne fut vérifié qu’en août 1587 (recette : 4.444.660 1. t.).</p>
         </div>
-        <div>
+        <div xml:id="r780402">
           <head rend="uc">Chapitre VI
            <lb/>L’aliénation de 1586 et la résistance du clergé
            <lb/>aux exigences du roi et du pape.</head>
@@ -131,7 +129,7 @@
           <p><hi rend="i">L’organisation de l’aliénation.</hi> – Un rôle très important est réservé dans chaque diocèse aux représentants élus des bénéficiers. Les acheteurs sont tenus à payer, pour les frais, un droit de 7,5 % du prix d’achat.</p>
           <p>La recette, interrompue par les troubles de la fin du règne, reprend en 1595 : le compte de Philippe de Castille, vérifié en 1599, est clos le 28 mars 1600 (recette : 1.216.145 écus).</p>
         </div>
-        <div>
+        <div xml:id="r780434">
           <pb source="https://nakala.fr/10.34847/nkl.0b703bgl#ff0dcff83b828ee9471a93ec6d52260c5adf4f2d" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.0b703bgl/ff0dcff83b828ee9471a93ec6d52260c5adf4f2d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>L’aliénation obtenue de Sixte-Quint en 1587,
@@ -144,13 +142,13 @@
           <p><hi rend="i">Les conséquences des aliénations : le rachat des biens aliénés.</hi> – Le clergé fut déchargé par Henri IV, en 1595, d’une partie des sommes réclamées par Sardini. Il bénéficia sous ce roi, et sous Louis XIII et Louis XIV, de nombreux édits de rachat de ses biens, auxquels le Parlement tenta vainement de s’opposer. En 1641, 1675 et 1702, les assemblées du clergé transmirent leur droit de retrait au roi, qui leva sur les héritiers des anciens acquéreurs des droits équivalant au 1/8, puis au 1/6 du prix d’achat des biens aliénés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r780477">
         <head rend="uc">Deuxième partie
          <lb/>Mise en pratique des aliénations
          <lb/>résultats généraux
          <lb/>détails de l’exécution des ventes
          <lb/>dans les diocèses de Bourges et de Limoges</head>
-        <div>
+        <div xml:id="r780491">
           <head rend="uc">Chapitre premier
            <lb/>l’ampleur comparée des aliénations du temporel
            <lb/>dans toute la France.
@@ -165,7 +163,7 @@
           <p><hi rend="i">Aliénation de 1586.</hi> – Les ventes semblent surtout pratiquées dans le Bassin parisien et la région de la Loire ; de nombreuses remises de taxes furent accordées aux diocèses du Midi. Le roi en tira 1.001.118 écus.</p>
           <p><hi rend="i">Graphiques de l’ampleur comparée des aliénations.</hi> – Ils soulignent pour les diocèses du Nord l’ampleur de la vente de 1563, très peu effectuée dans le Midi.</p>
         </div>
-        <div>
+        <div xml:id="r780554">
           <head rend="uc">Chapitre II
            <lb/>L’exécution des aliénations
            <lb/>aux diocèses de Bourges et Limoges.</head>
@@ -182,7 +180,7 @@
           <p>A Limoges, la taxe de 1586 (16.011 écus) est acquittée pratiquement sans ventes de biens. Une partie de la recette est saisie par le duc de Ventadour (4.239 écus).</p>
           <p>En 1588, le diocèse est taxé à 10.630 écus (soit 31.890 1. t.) à verser à Sardini.</p>
         </div>
-        <div>
+        <div xml:id="r780615">
           <head rend="uc">Chapitre III
            <lb/>Les biens vendus aux diocèses de Limoges et Bourges.</head>
           <p>Les aliénations de cens et rentes foncières ont été plus nombreuses au diocèse de Limoges qu’à celui de Bourges.</p>
@@ -195,7 +193,7 @@
           <p>A Limoges, les ventes de biens mal commodes ou contestés sont fréquentes, comme à Bourges. On note quelques « engagements » de dîmes et la vente exceptionnelle d’une forêt (par le chapitre de Saint-Germain : 150 arpents adjugés 1.006 l. t.). Les députés élus pour le diocèse empêchent les adjudications abusives.</p>
           <p>Les biens aliénés semblent avoir été plus vite rachetés dans ce diocèse qu’à Bourges.</p>
         </div>
-        <div>
+        <div xml:id="r780665">
           <head rend="uc">Chapitre IV
            <lb/>Les acquéreurs de biens ecclésiastiques
            <lb/>aux diocèses de Bourges et de Limoges.</head>
@@ -211,11 +209,11 @@
           <p><hi rend="i">Les principaux groupes d’acquéreurs.</hi> – A Limoges, grandes familles de bourgeois ; à Bourges, vieilles familles de robe, mais aussi riches commerçants, reviennent régulièrement dans la nomenclature des acquéreurs. Les nobles semblent avoir été déçus par le déroulement de l’aliénation de 1563.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r780721">
         <head rend="uc">Conclusion</head>
         <p>Marquant une étape vers la définition du pouvoir absolu du roi, la pratique des aliénations du temporel ecclésiastique a favorisé l’organisation de la grande Église gallicane du <num>xvii<hi rend="sup">e</hi></num> siècle. Si les ventes de biens du clergé n’ont pas changé la figure de la propriété, une des raisons en est dans l’extraordinaire privilège du rachat octroyé par les rois, compensation théorique à la fin de l’immunité ecclésiastique.</p>
       </div>
-      <div>
+      <div xml:id="r780737">
         <head rend="uc">Appendices</head>
         <p>I. Aliénation de 1563 : Instructions aux officiers royaux. États de recette.</p>
         <p>II. Rachat de l’aliénation de 1563 : Départements de la taxe du rachat.</p>

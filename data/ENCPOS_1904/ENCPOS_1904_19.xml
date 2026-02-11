@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1904_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1904_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,48 +60,48 @@
         <surname>Pressac</surname>
         <roleName>Licencié ès lettres et en droit., Élève de l’École des Hautes-Études (Sciences religieuses)</roleName>
       </byline>
-      <div>
+      <div xml:id="r287713">
         <head rend="uc">Introduction. – Bibliographie</head>
         <p>Intérêt de ce travail : c’est l’étude critique d’une institution qui a été très importante au moyen âge : le pouvoir pontifical s’est formé en partie de ses dépouilles. C’est aussi un épisode intéressant des rapports de l’Église et de l’Etat dans l’histoire des institutions françaises.</p>
         <p>Plan suivi : Tout ce qui a rapport à la dignité, puis tout ce qui a trait au pouvoir effectif, qui se subdivise en trois branches principales : élection – administration – juridiction.</p>
         <p>Méthode. – Critique des textes canoniques.</p>
       </div>
-      <div>
+      <div xml:id="r287729">
         <pb source="https://nakala.fr/10.34847/nkl.b3ea1jnj#a5d2defee688c328504298eb5804057d017ecc84" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3ea1jnj/a5d2defee688c328504298eb5804057d017ecc84/full/full/0/default.jpg"/>
         <head rend="uc">Livre premier
          <lb/>la métropole et l’archevêque</head>
-        <div>
+        <div xml:id="r287742">
           <head rend="uc">Chapitre premier
            <lb/>hiérarchie générale</head>
           <p>La hiérarchie de l’Église s’est modelée sur la hiérarchie administrative de l’Empire romain. La métropole administrative est devenue la métropole ecclésiastique, et l’évêque de la cité métropole est devenu l’évêque métropolitain, avec un certain pouvoir hiérarchique sur les évêques des autres cités de la province. Cette évolution est achevée au <num>iv<hi rend="sup">e</hi></num> siècle, et nous en trouvons la preuve dans les textes des anciens conciles.</p>
         </div>
-        <div>
+        <div xml:id="r287760">
           <head rend="uc">Chapitre II
            <lb/>Les archevêchés des Gaules</head>
           <p>Ancienne hiérarchie de l’Église des Gaules. Anciennes provinces ecclésiastiques ; mention des plus anciens textes où il en est question. Principe de l’immutabilité des circonscriptions ecclésiastiques. Erection, dans la suite, de trois métropoles : Toulouse, Paris, Albi.</p>
           <p>Carte des provinces ecclésiastiques aux<hi rend="sup">e</hi> siècle, d’après M. Longnon.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r287780">
         <pb source="https://nakala.fr/10.34847/nkl.b3ea1jnj#a8c9b9698cb2be5068eb0cdded4be59bb6af81db" n="125" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3ea1jnj/a8c9b9698cb2be5068eb0cdded4be59bb6af81db/full/full/0/default.jpg"/>
         <head rend="uc">Livre deuxième
          <lb/>la dignité archiépiscopale
          <lb/>et le titre d’archevêque</head>
-        <div>
+        <div xml:id="r287795">
           <head rend="uc">Chapitre premier
            <lb/>comment on devient archevêque</head>
           <p>L’évêque métropolitain est élu par un corps électoral composé des clercs et du peuple de la cité métropolitaine et des évêques de la province. Le peuple, puis les clercs, s’éliminent peu à peu, et la fonction électorale finit par être attribuée exclusivement au chapitre. Au reste, l’élection de l’évêque métropolitain ne diffère pas de l’élection d’un évêque ordinaire. Comme un évêque ordinaire aussi, l’évêque métropolitain doit être sacré et confirmé. Il est sacré par ses évêques suffragants, d’après une théorie chère à l’Église primitive qui cherche l’union étroite, pour un but commun, du métropolitain et de ses suffragants ; – – il est confirmé par le pape, qui tient beaucoup à investir le métropolitain par la remise du pallium. Le pape, qui investit et confirme les métropolitains, ne tarde pas à s’emparer aussi du sacre, soit par lui-même, soit en déléguant, par bulles, quelqu’un à cet effet.</p>
           <p>Naguère, les translations de sièges étaient choses absolument interdites : depuis le <num>ix<hi rend="sup">e</hi></num> siècle, on en voit quelques exemples, et, dans les Décrétales, c’est une matière rigoureusement réservée au pape. On voit donc alors des évêques qui deviennent métropolitains et des métropolitains qui changent de siège. Dans ce cas, le corps électoral n’élit pas, il postule : la postulation est, en tout, soumise an pape.</p>
           <p>Au cas de vacance du siège métropolitain, le collège électoral joue un rôle, mais les textes canoniques attribuent le rôle principal au chapitre métropolitain.</p>
         </div>
-        <div>
+        <div xml:id="r287819">
           <pb source="https://nakala.fr/10.34847/nkl.b3ea1jnj#4199c1082a4b5bfa542d8bd4e7ea43d93fb73ca2" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3ea1jnj/4199c1082a4b5bfa542d8bd4e7ea43d93fb73ca2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Diplomatique archiépiscopale</head>
           <p>Les évêques métropolitains ne prennent pas anciennement le titre d’archevêque : ce n’est que vers la fin du <num>ix<hi rend="sup">e</hi></num> siècle qu’ils s’en parent à peu près communément : l’examen des souscriptions des conciles est instructif à ce sujet. Avant le <num>ix<hi rend="sup">e</hi></num> siècle, par contre, on trouve, très exceptionnellement, quelques évêques non métropolitains honorés, à titre particulier, de la dignité archiépiscopale.</p>
           <p>Quelques particularités de la diplomatique archiépiscopale sont encore à signaler : légats-nés du Saint-Siège, etc.</p>
         </div>
-        <div>
+        <div xml:id="r287851">
           <head rend="uc">Chapitre III
            <lb/>Prérogatives honorifiques
            <lb/>de la dignité archiépiscopale</head>
@@ -115,11 +113,11 @@
           <p>Les autres prérogatives honorifiques dont il est fait mention dans les textes sont : les sandales, les croix archiépiscopales, et le droit d’officier pontificalement dans toute la province.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r287887">
         <head rend="uc">Livre III
          <lb/>définition et évolution de l’autorité
          <lb/>métropolitaine</head>
-        <div>
+        <div xml:id="r287897">
           <head rend="uc">Chapitre premier
            <lb/>role du métropolitain dans le choix et la
            <lb/>confirmation de ses suffragants</head>
@@ -133,7 +131,7 @@
           <p>Quant à la dévolution de l’élection qui se faisait au métropolitain dans certains cas, le pape s’en empare aussi, d’abord (dès le <num>xii<hi rend="sup">e</hi></num> siècle), en cas de vacance <hi rend="i">in curia,</hi> ensuite dans tous les cas.</p>
           <p>S’étant emparé aussi de tout le contentieux électoral, le pape, au détriment des métropolitains, est donc devenu seul maître du choix canonique des évêques, métropolitains ou non.</p>
         </div>
-        <div>
+        <div xml:id="r288005">
           <head rend="uc">Chapitre II
            <lb/>Le métropolitain, autorité administrative
            <lb/>et hiérarchique</head>
@@ -144,7 +142,7 @@
           <p>Le métropolitain exerçait son autorité disciplinaire sur les évêques de sa province par le droit d’asile.</p>
           <p>Devenu, surtout après les entraves qu’y apporte le concile de Trente, une simple formalité gênante et onéreuse, ce droit tombe en désuétude. Le métropolitain ne garde plus guère sur sa province, que ses privilèges honorifiques.</p>
         </div>
-        <div>
+        <div xml:id="r288057">
           <pb source="https://nakala.fr/10.34847/nkl.b3ea1jnj#573b8984436bdee2f9ae053254d81ae15422ff85" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3ea1jnj/573b8984436bdee2f9ae053254d81ae15422ff85/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Droits de juridiction des métropolitains</head>
@@ -153,7 +151,7 @@
           <p>Il reste aux officialités métropolitaines le droit de juger les appels des officialités diocésaines, droit qui devient de moins en moins important, d’abord par l’appel à Rome, ensuite par la diminution de compétence des juridictions ecclésiastiques au profit de la justice du roi.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r288081">
         <head rend="uc">Conclusion</head>
         <p>Il ne reste donc pas, dans l’histoire moderne, grand’ chose des anciennes attributions des métropolitains : l’appel, quelque droit de dévolution, et des prérogatives honorifiques. Peu de tentatives seront faites en leur faveur, et elles émaneront toujours du pouvoir civil, qui les prendra comme tremplin de la lutte contre le Saint-Siège.</p>
         <p>La cause des métropolitains n’intéresse personne, et tout le monde a intérêt à leur affaiblissement : l’évolution de l’Église s’opère dans un sens qui leur est défavorable.</p>

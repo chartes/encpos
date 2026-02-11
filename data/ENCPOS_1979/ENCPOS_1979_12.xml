@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1979_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1979_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,12 +55,12 @@
         <surname>Picou</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1052672">
         <head rend="uc">Sources</head>
         <p>La documentation concernant le couvent des Cordeliers de Châteauroux est d’une extrême pauvreté pour les deux premiers siècles de son existence. Les plus anciennes sources franciscaines, très abondantes en ce qui concerne les problèmes de doctrine ou le personnage du fondateur de l’ordre, ne nous instruisent qu’accessoirement sur la vie des établissements religieux. D’autre part, ce couvent n’a pas eu d’historien et il n’a pas été pourvu d’un cartulaire. Néanmoins, un Obituaire et une chronique rédigés au <num>xvii<hi rend="sup">e</hi></num> siècle par le P. Péan, gardien, nous permettent de connaître les circonstances de la fondation de cet établissement.</p>
         <p>Les sources sont plus riches pour la période moderne. Ce sont essentiellement des actes pontificaux, rassemblés dans le Bullaire de l’ordre, qui nous révèlent la crise interne traversée par le couvent au <num>xv<hi rend="sup">e</hi></num> siècle, des liasses de rentes et un registre des dépenses conservés aux Archives départementales de l’Indre, enfin la sous-série G<hi rend="sup">9</hi> aux Archives nationales, qui permettent de retracer la vie de la communauté au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         <p>D’autre part, en ce qui concerne la topographie des bâtiments dont des vestiges importants subsistent encore, des plans et un devis du <num>xviii<hi rend="sup">e</hi></num> siècle, retrouvés dans les papiers du Comité ecclésiastique aux Archives nationales, ainsi qu’une description de l’église au <num>xix<hi rend="sup">e</hi></num> siècle par Guilhermy, conservée à la Bibliothèque nationale, permettent de restituer les dispositions anciennes des lieux. Enfin, des sondages effectués dans différents services d’archives, biblio<pb source="https://nakala.fr/10.34847/nkl.01277y5v#87115157ada40f3a373f9c02a5d132c4bd01f13e" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.01277y5v/87115157ada40f3a373f9c02a5d132c4bd01f13e/full/full/0/default.jpg"/>thèques et musées de province nous ont permis de constituer un album de trente plans de couvents de Cordeliers, fondés au <num>xiii<hi rend="sup">e</hi></num> siècle, ceci afin de replacer le couvent de Châteauroux dans le contexte de l’architecture franciscaine de France.</p>
-        <div>
+        <div xml:id="r1052732">
           <head rend="uc">Chapitre premier
            <lb/>la ville et la seigneurie de Châteauroux au <num>xiii<hi rend="sup">e</hi></num> siècle</head>
           <p>L’histoire de Châteauroux remonte aux premiers temps de la vieille ville de Déols, à laquelle se rattache son origine. Avant 917, le seigneur du lieu abandonne le site de Déols, difficile à protéger, pour une hauteur située à trois kilomètres, où il construit un château fort appelé <hi rend="i">Castrum Dolis</hi> – à l’endroit où s’élève le château Raoul actuel – qui prend le nom de <hi rend="i">Castrum Radulphi </hi>en 1112.</p>
@@ -74,7 +72,7 @@
           <p>L’histoire de la ville au <num>xiii<hi rend="sup">e</hi></num> siècle est liée au sort de la seigneurie de Châteauroux dont l’importance territoriale était considérable, puisqu’elle s’étendait dès le <num>xi<hi rend="sup">e</hi></num> siècle du Cher jusqu’à la Gartempe et à l’Anglain, et qu’elle s’agrandit aux <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, au sud et au nord-est, par de nombreuses acquisitions.</p>
           <p>Par sa situation géographique, à la limite des mouvances franco-anglaises, elle fut amenée à jouer un rôle de premier plan dans le conflit France-Angleterre, ce qui eut une répercussion immédiate sur sa propre destinée : en effet, c’est parce que le roi d’Angleterre, Richard, voulait affirmer son emprise sur le Bas-<pb source="https://nakala.fr/10.34847/nkl.01277y5v#595e66d2d1be7ec3874d421cd4e0ab47f0a8b8b1" n="103" facs="https://api.nakala.fr/iiif/10.34847/nkl.01277y5v/595e66d2d1be7ec3874d421cd4e0ab47f0a8b8b1/full/full/0/default.jpg"/>Berry qu’il maria Denise, l’héritière des princes de Déols, seigneurs de Châteauroux, à son fidèle vassal André de Chauvigny, baron poitevin. Or, si la famille de Chauvigny entretint de bons rapports avec les villes et les vassaux, elle eut des démêlés avec l’abbaye de Déols, qui aboutirent à la remise en question de la validité du mariage d’André et de Denise. Désormais, les Chauvigny chercheront à tout prix à affirmer leur légitimité.</p>
         </div>
-        <div>
+        <div xml:id="r1052814">
           <head rend="uc">Chapitre II
            <lb/>Histoire du couvent de la fondation au <num>xvii<hi rend="sup">e</hi></num> siècle</head>
           <p>Les couvents franciscains ne possédant pas de charte de fondation par souci de pauvreté, les circonstances de l’établissement des Cordeliers à Châteauroux ne nous sont connues que par l’Obituaire du couvent, rédigé au <num>xvii<hi rend="sup">e</hi></num> siècle. Son texte est la traduction d’un registre latin, perdu avant la Révolution, dont l’auteur connaissait la légende née autour d’André I<hi rend="sup">er</hi> de Chauvigny, parti à la croisade : ce qui explique l’influence du roman épique qui apparaît dans l’Obituaire. Cette source doit donc être utilisée avec réserve. L’examen critique de l’Obituaire et la confrontation avec des textes diplomatiques nous amènent à reculer la date de fondation, qui se situerait entre 1232 et 1248, donnée confirmée par l’archéologie.</p>
@@ -84,7 +82,7 @@
           <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle, les guerres n’épargnèrent pas la province de Touraine, dont presque tous les couvents furent pillés et les religieux massacrés. Néanmoins, en dépit d’un épisode sanglant, le couvent de Châteauroux, à l’instar des autres <pb source="https://nakala.fr/10.34847/nkl.01277y5v#73c441b76777d6e55b43e28da326efd175f988b3" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.01277y5v/73c441b76777d6e55b43e28da326efd175f988b3/full/full/0/default.jpg"/>communautés franciscaines de France, contribua à la lutte contre le protestantisme grâce à ses excellents prédicateurs et à la tenue de chapitres provinciaux destinés à confondre les hérétiques.</p>
           <p>En 1612, un siècle après la disparition du dernier membre de la famille de Chauvigny, la terre de Châteauroux, dont les seigneurs étaient les La Tour Landry et les d’Aumont, passa une fois de plus en de nouvelles mains. En effet, elle fut acquise par Henri II, prince de Condé, qui souhaitait se constituer une grande seigneurie en Berry, où il possédait déjà le château de Bommiers, don de sa mère. Comme ses prédécesseurs, il se montra bienveillant à l’égard du couvent des Cordeliers, politique que ne reprit pas son fils, le grand Condé.</p>
         </div>
-        <div>
+        <div xml:id="r1052886">
           <head rend="uc">Chapitre III
            <lb/>La place des Cordeliers dans la société locale</head>
           <p>Les frères mineurs, qui, par vocation, étaient des religieux vivant dans les villes au milieu des laïcs, resserrèrent leurs liens avec ces derniers en leur accordant la possibilité de choisir leurs églises pour dernière demeure.</p>
@@ -92,7 +90,7 @@
           <p>En fait, toutes les sépultures ne furent pas acceptées dans les églises conventuelles, mais les religieux ne tolérèrent que celles qui étaient accompagnées de dons substantiels. La localisation des sépultures revêtait une signification sociale : à Châteauroux, le chœur abrita, dès 1270, les premiers seigneurs de la ville, les Chauvigny, tandis que le reste de la nef comprenait des caveaux de familles ou des chapelles, réservés aux grands bourgeois de la ville de 1457 à 1773, ainsi que des sépultures isolées attribuées aux gens pourvus de fonctions honorifiques, entre 1462 et 1744. La chapelle Saint-Claude, au sud de l’église, fut la nécropole des Chauvigny et de leurs successeurs, les d’Aumont, de 1242 à 1530. Le couvent, quant à lui, abrita les religieux de 1468 à 1782.</p>
           <p>H est frappant de constater que le nombre de laïcs (cent quarante-six) était le double de celui des religieux (soixante-douze) ce qui témoigne de la popularité des Cordeliers dans la société locale.</p>
         </div>
-        <div>
+        <div xml:id="r1052907">
           <head rend="uc">Chapitre IV
            <lb/>Histoire du couvent du <num>xvii<hi rend="sup">e</hi></num> siècle à nos jours</head>
           <p>L’envoi, en 1766, par la Commission des réguliers, d’une circulaire au clergé nous fait connaître la situation de la province de Touraine à cette époque. Les gardiens dénoncent l’insubordination, la crise des observances et l’existence de petites maisons ; les religieux se plaignent du despotisme des supérieurs, <pb source="https://nakala.fr/10.34847/nkl.01277y5v#4bbaca4f8e31dc7494f406ad50e26d9c204a29ee" n="105" facs="https://api.nakala.fr/iiif/10.34847/nkl.01277y5v/4bbaca4f8e31dc7494f406ad50e26d9c204a29ee/full/full/0/default.jpg"/>de la non-observance de la règle, d’une disproportion trop grande entre la situation matérielle des supérieurs et des religieux, enfin du poids énorme des impôts levés sur les communautés.</p>
@@ -100,7 +98,7 @@
           <p>Le siège de l’évêché ayant été fixé à Châteauroux, on songea à établir la cathédrale dans l’église des Cordeliers. Le projet n’ayant pas abouti, celle-ci servit de temple décadaire, tandis que les bâtiments conventuels abritaient successivement le séminaire, la gendarmerie, et un hospice militaire.</p>
           <p>En 1802, quand le culte catholique fut rétabli, l’église fut affectée à la desserte paroissiale sous le vocable de Saint-André jusqu’en 1876 ; deux ans après, la nef était scindée en deux, la partie occidentale étant occupée par une école primaire, la partie orientale par le musée lapidaire. La nef fut classée monument historique en 1922 pour la moitié est, en 1932 pour la moitié ouest. Quant aux bâtiments conventuels, ils furent occupés par la gendarmerie jusqu’en 1975. A cette date, des travaux furent entrepris sur l’initiative de la municipalité : la nef vient d’être restituée dans son volume primitif et on a mis à jour, dans la partie est du couvent, le chapitre, le prédicatoire et, à l’étage, un dortoir.</p>
         </div>
-        <div>
+        <div xml:id="r1052945">
           <head rend="uc">Chapitre V
            <lb/>Étude archéologique</head>
           <p>Il est à remarquer que les Franciscains, observant l’esprit de pauvreté à l’extrême, n’avaient pas de doctrine esthétique et que leurs constructions répondaient au souci de loger le plus grand nombre possible de fidèles dans un espace restreint.</p>
@@ -119,15 +117,15 @@
         <head rend="uc">Notices de trente plans de couvents franciscains</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r1053025">
         <head rend="uc">Pièces justificatives</head>
         <p>Devis de réparations de la chapelle Saint-Guillaume (1756). – Arrentement d’une partie du couvent à Christophe Claveau (1786). – Devis de réparations du couvent pour y établir le séminaire (1791). – Devis de réparations de l’église pour y établir la cathédrale (1791). – Description de l’église par F. de Guilhermy, au milieu du <num>xix<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1053041">
         <head rend="uc">Annexes</head>
         <p>Liste des gardiens du couvent. – Liste des pères temporels du couvent. – Plan de Châteauroux au <num>xiii<hi rend="sup">e</hi></num> siècle. – Carte de la seigneurie de Châteauroux au <num>xiii<hi rend="sup">e</hi></num> siècle. – Carte des rentes possédées par les Cordeliers aux environs de Châteauroux.</p>
       </div>
-      <div>
+      <div xml:id="r1053063">
         <head rend="uc">Album de photographies et de plans</head>
         <p>Deux volumes sont consacrés aux photographies et aux plans du couvent de Châteauroux, un troisième volume regroupe les plans des trente couvents franciscains étudiés.</p>
         <pb source="https://nakala.fr/10.34847/nkl.01277y5v#eb00776c36577b8768e7f6914145d4c7d6fe7225" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.01277y5v/eb00776c36577b8768e7f6914145d4c7d6fe7225/full/full/0/default.jpg"/>

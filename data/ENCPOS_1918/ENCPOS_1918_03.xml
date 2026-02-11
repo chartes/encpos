@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1918_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1918_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Jassemin</surname>
         <roleName>Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r387185">
         <head rend="uc">Introduction</head>
         <p>Raisons du choix de la période étudiée. La Chambre des comptes est alors à l’époque la plus brillante de son histoire : auparavant, ses pouvoirs sont encore mal fixés ; depuis, ils ne cesseront de diminuer.</p>
       </div>
@@ -66,10 +64,10 @@
         <head rend="uc">Bibliographie et sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r387204">
         <head rend="uc">Première partie
          <lb/>Personnel</head>
-        <div>
+        <div xml:id="r387212">
           <head rend="uc">Chapitre premier
            <lb/>hiérarchie</head>
           <p>1. <hi rend="i">Les présidents</hi>. – Ils sont deux : le premier président ou président clerc et le président lai. Après une tentative de Charles VII, Louis XI arrive à faire passer la charge de premier président aux mains d’un laïque. Il <pb source="https://nakala.fr/10.34847/nkl.f8173df6#a06d152a5dae502314fae1c4a9ab23f52f9a2ac7" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8173df6/a06d152a5dae502314fae1c4a9ab23f52f9a2ac7/full/full/0/default.jpg"/> crée en 1477 un troisième office, celui de vice-président.</p>
@@ -81,7 +79,7 @@
           <p>7. <hi rend="i">Les gens du roi.</hi> – Dès le <num>xiv<hi rend="sup">e</hi></num> siècle le procureur général a un substitut qui prend le titre de « procureur du roi en la Chambre des comptes ». Celte charge est érigée en titre d’office en 1454. On lui adjoint en 1480 un avocat du roi.</p>
           <p>8. <hi rend="i">Les procureurs.</hi> – Ce ne sont pas des officiers royaux et ils ne font pas partie de la Chambre ; mais ils y prêtent serment, au moins depuis 1458. Jusqu’en 1460, les procureurs auprès des autres juridictions peuvent aussi exercer à la Chambre des comptes.</p>
         </div>
-        <div>
+        <div xml:id="r387288">
           <pb source="https://nakala.fr/10.34847/nkl.f8173df6#eff4f340830db34b3b7cf83493cf4ad419f003ae" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8173df6/eff4f340830db34b3b7cf83493cf4ad419f003ae/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Acquisition et perte des offices</head>
@@ -95,7 +93,7 @@
           <p>7. <hi rend="i">Stabilité</hi>. – Les officiers n’ont aucune garantie contre l’arbitraire du roi. Louis XI surtout, même après l’ordonnance de 1467, multiplie les révocations.</p>
           <p>8. <hi rend="i">Honorariat</hi>. – Le système de la subrogation qui, sous Charles VI, permettait d’assurer une pension aux officiers hors de charge a disparu. La Chambre elle-même s’oppose à ce que l’on donne des gages à ceux qui ne font plus leur service.</p>
         </div>
-        <div>
+        <div xml:id="r387369">
           <head rend="uc">Chapitre III
            <lb/>Organisation et discipline</head>
           <p>1. <hi rend="i">Division du personnel.</hi> – Il n’y a, en principe, qu’un seul bureau pour les maîtres. Mais les clercs sont répartis entre un certain nombre de chambres, six jusqu’en 1483, sept depuis lors.</p>
@@ -103,7 +101,7 @@
           <p>3. <hi rend="i">Jours et heures de travail.</hi> – Les congés sont nombreux : Louis XII ordonne la réforme du calendrier de la Chambre.</p>
           <p>4. <hi rend="i">Assiduité et résidence.</hi> – Les officiers qui s’absentent sans congé sont punis d’une amende. Mais les rois, surtout depuis Louis XI, accordent un grand nombre de lettres de non-résidence.</p>
         </div>
-        <div>
+        <div xml:id="r387406">
           <head rend="uc">Chapitre IV
            <lb/>Gages, droits, profits et privilèges</head>
           <p>I. <hi rend="i">Nature et caractères.</hi> – 1. Les gages proprement dits sont peu élevés. Ils ne changent pas au cours du siècle, <pb source="https://nakala.fr/10.34847/nkl.f8173df6#42c4bcbc860fc65984264a0e119143e4bb86d349" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8173df6/42c4bcbc860fc65984264a0e119143e4bb86d349/full/full/0/default.jpg"/> sauf pour les correcteurs et le premier huissier.</p>
@@ -114,10 +112,10 @@
           <p>En conclusion, la Chambre des comptes, malgré son recrutement arbitraire et disparate, forme à cette époque un corps uni et actif.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r387453">
         <head rend="uc">Deuxième partie
          <lb/>Attributions et Fonctionnement</head>
-        <div>
+        <div xml:id="r387461">
           <head rend="uc">Section première
            <lb/>comptabilité</head>
           <div>
@@ -168,7 +166,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div xml:id="r387628">
           <head rend="uc">Section II
            <lb/>domaine</head>
           <div>
@@ -211,14 +209,14 @@
             </div>
           </div>
         </div>
-        <div>
+        <div xml:id="r387776">
           <head rend="uc">Section III
            <lb/>finances extraordinaires
            <lb/>et administration générale</head>
           <p>La Chambre des comptes est en principe « Conseil souverain de toutes les finances ». Elle conserve à ce titre une certaine part à l’administration des finances extraordinaires et surveille non seulement les officiers comptables mais même les élus. En tant que Conseil du roi elle enregistre tous les actes d’intérêt public et donne elle-même, au nom du souverain, des règlements qui <pb source="https://nakala.fr/10.34847/nkl.f8173df6#e6e5fb5de292617455c3d12370cbe916a684972b" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.f8173df6/e6e5fb5de292617455c3d12370cbe916a684972b/full/full/0/default.jpg"/>ont force de loi. Charles VII la consulte à plusieurs reprises sur les réformes financières qu’il prépare.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r387796">
         <head rend="uc">Conclusion</head>
         <p>Malgré l’étendue de ses attributions le rôle de la Chambre des comptes dans l’État n’est pas aussi grand qu’il aurait pu l’être. Elle se heurte à chaque instant à l’arbitraire royal et ne lui résiste peut-être pas toujours avec une énergie suffisante. Son contrôle est ainsi impuissant à prévenir et à corriger les effets de la mauvaise organisation des finances.</p>
       </div>

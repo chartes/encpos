@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1883_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1883_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Martineau</surname>
         <roleName>Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r122150">
         <head rend="uc">Chapitre premier
          <lb/>origines de la fortune de l’amiral Chabot.
          <lb/>(1492 ?-1526)</head>
@@ -69,17 +67,17 @@
         <p>Il est avec l’archevêque d’Embrun et Jean de Selve le troisième ambassadeur français chargé de négocier près de Charles-Quint la délivrance de François I<hi rend="sup">er</hi>. Après la signature du traité de Madrid (14 janvier 1526), il règle avec Lannoy, vice-roi de Naples, le cérémonial de la rentrée de François 1" en France.</p>
         <p>La bataille de Pavie a laissé vacants les plus hauts postes de l’État : François I<hi rend="sup">er</hi>, pour reconnaître les services de Chabot, le fait coup sur coup amiral en remplacement de Bonnivet, et gouverneur de Bourgogne en remplacement de la Trémoille.</p>
       </div>
-      <div>
+      <div xml:id="r122196">
         <head rend="uc">Chapitre II
          <lb/>Grandeur de l’amiral Chabot ; Chabot amiral de France
          <lb/>et gouverneur de Bourgogne.
          <lb/>(1526-1536)</head>
-        <div>
+        <div xml:id="r122208">
           <head rend="uc">1526</head>
           <p>Chabot passe l’été dans son gouvernement de Bourgogne. Une histoire suivie de son administration est impossible. Trop de documents font défaut ; Chabot n’est guère plus de trois ou quatre mois par an dans son gouvernement, et toutes les affaires importantes sont en somme réglées par le roi. L’administration de Chabot fut en général douce et conciliante.</p>
           <p>François I<hi rend="sup">er</hi> lui donne les terres de Rouvre et de Penthièvre, confisquées sur des partisans de Bourbon, qui avaient passé a l’Empereur avec lui.</p>
         </div>
-        <div>
+        <div xml:id="r122225">
           <pb source="https://nakala.fr/10.34847/nkl.686cg93t#37f97a9547631ffb35e4096cd804dd7da6b863e4" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.686cg93t/37f97a9547631ffb35e4096cd804dd7da6b863e4/full/full/0/default.jpg"/>
           <head rend="uc">1527</head>
           <p>Chabot se marie au mois de janvier avec Françoise de Longwy, fille de la sœur naturelle du roi.</p>
@@ -88,24 +86,24 @@
           <p>Mesures prises par l’amiral pour mettre la Bourgogne en état de défense, au milieu de la reprise générale des hostilités. Il fait renouveler, par l’intermédiaire des Suisses, le traité de neutralité de 1522 entre celte province et la Franche-Comté.</p>
           <p>Peste de Dijon (juillet) ; Chabot reste pour donner l’exemple aux habitants.</p>
         </div>
-        <div>
+        <div xml:id="r122252">
           <head rend="uc">1528</head>
           <p>Démêlés de Chabot avec les gens de guerre passant par la Bourgogne pour se rendre en Italie ; difficulté de les payer, le roi n’envoie pas d’argent.</p>
           <p>Chabot est désigné pour prendre le commandement général des troupes en Italie à la place de Lautrec. Le roi ne le laisse pas partir, sans doute pour ne pas l’envoyer a un échec certain. On ne saurait guère y voir autre chose ; le crédit de Chabot est aussi grand que jamais ; un auteur contemporain l’appelle le grand Brion.</p>
         </div>
-        <div>
+        <div xml:id="r122265">
           <head rend="uc">1529</head>
           <p>Chabot perd l’amirauté de Guyenne, qui est donnée au ro de Navarre.</p>
           <p>Traité de Cambrai. – La restitution des biens de Penthièvre à la famille dépossédée est une des conditions du traité. – Chabot est envoyé en Italie pour le faire ratifier par l’Empereur. Il devait encore tâcher de s’immiscer dans les affaires des princes italiens ; l’Empereur ne lui en donna pas les moyens.</p>
         </div>
-        <div>
+        <div xml:id="r122278">
           <pb source="https://nakala.fr/10.34847/nkl.686cg93t#de0240649c2a6d165bd750470d22c840f1979457" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.686cg93t/de0240649c2a6d165bd750470d22c840f1979457/full/full/0/default.jpg"/>
           <head rend="uc">1530</head>
           <p>Voyage du roi en Bourgogne.</p>
           <p>La délivrance des fils du roi. – L’affaire de Penthièvre est sur le point de brouiller Chabot et Montmorency : importance que le roi attache au bon accord de ces deux personnages.</p>
           <p>Chabot en Bourgogne se lient prêt à intervenir pour la ville de Genève en lutte contre le duc de Savoie, et entretient des espions en Suisse.</p>
         </div>
-        <div>
+        <div xml:id="r122299">
           <head rend="uc">1531</head>
           <p>L’entrée de la reine Eléonore à Dijon (18 janvier).</p>
           <p>L’affaire de l’évêque d’Auxerre : Chabot avec tous les courtisans intervient pour soustraire à l’action de la justice François de Dinteville, évêque d’Auxerre, justement condamné par le prévôt de Paris.</p>
@@ -114,43 +112,43 @@
           <p>Il échange avec son frère la mairie de Bordeaux contre la seigneurie de Sainte-Foy, en Poitou.</p>
           <p>Il recouvre l’amirauté de Guyenne.</p>
         </div>
-        <div>
+        <div xml:id="r122324">
           <head rend="uc">1532</head>
           <p>Il est fait chevalier de l’ordre de la Jarretière aux conférences de Boulogne.</p>
         </div>
-        <div>
+        <div xml:id="r122334">
           <head rend="uc">1533</head>
           <p>Sa baronnie de Buzançais est érigée en comté avec sa terre de Brion.</p>
         </div>
-        <div>
+        <div xml:id="r122344">
           <pb source="https://nakala.fr/10.34847/nkl.686cg93t#139976a59a1a0abc09f24bec78eea1f81e887f22" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.686cg93t/139976a59a1a0abc09f24bec78eea1f81e887f22/full/full/0/default.jpg"/>
           <head rend="uc">1534</head>
           <p>Il acquiert du duc de Wurtemberg et du landgrave de Hesse une partie de la principauté de Montbéliard et devient gouverneur du tout pour le roi.</p>
           <p>La princesse d’Orange, sa cousine, lui cède le comté de Charny.</p>
           <p>On doit à Chabot d’avoir fait un rapport favorable au roi sur les projets de découvertes maritimes de Jacques Cartier, et d’avoir favorisé les expéditions qui amenèrent en 1534 et en 1535 la première occupation du Canada au nom de la France.</p>
         </div>
-        <div>
+        <div xml:id="r122365">
           <head rend="uc">1535</head>
           <p>Au mois de janvier, il est envoyé en Angleterre, pour resserrer avec Henri VIII les liens d’alliance contre Charles-Quint. – Duplicité et timidité de la diplomatie de François I<hi rend="sup">er</hi>. – Chabot conseille une politique d’action et recommande, en dehors de tout esprit religieux, l’alliance avec les princes protestants, le roi d’Angleterre et les Turcs, les ennemis naturels de Charles-Quint. Montmorency soutient la politique contraire.</p>
           <p>Importance croissante de la fortune de Chabot et de son influence ; il a la haute direction des affaires de l’État avec le cardinal de Lorraine et Montmorency. – Il est au faite de sa prospérité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r122383">
         <head rend="uc">Chapitre III
          <lb/>Les dernières années de l’amiral Chabot ;
          <lb/>son procès ; sa rentrée en grace.
          <lb/>(1536-1543)</head>
-        <div>
+        <div xml:id="r122395">
           <head rend="uc">1536</head>
           <p>Chabot commande l’armée d’invasion du Piémont contre le due de Savoie, mais est constamment gêné par la diplomatie</p>
           <p>6 hésitante <pb source="https://nakala.fr/10.34847/nkl.686cg93t#e73eea2b0f0f2a13f7249ec4d656caa06b6a0189" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.686cg93t/e73eea2b0f0f2a13f7249ec4d656caa06b6a0189/full/full/0/default.jpg"/> de François I<hi rend="sup">er</hi>. L’insuccès final de celte expédition est la conséquence naturelle des ordres du roi, et ne doit pas être attribué comme faute à Chabot. Ce ne fut pas la cause de sa disgrâce, comme on l’a prétendu.</p>
           <p>Mort du dauphin François. – Chabot est maintenu dans la lieutenance générale de Normandie sous le nouveau dauphin Henri.</p>
         </div>
-        <div>
+        <div xml:id="r122420">
           <head rend="uc">1537</head>
           <p>Son crédit commence à être ébranlé, et il est question contre lui d’un procès qui n’eut pas de suite.</p>
         </div>
-        <div>
+        <div xml:id="r122430">
           <head rend="uc">1538</head>
           <p>Accroissement de l’influence de Montmorency, qui est fait connétable (février) : diminution de celle de Chabot. – Il négocie encore avec le connétable la trêve de dix ans qui fut conclue à Nice au mois de juillet avec les ambassadeurs de Charles-Quint, de Cannes et Granvelle ; mais presque aussitôt il tombe en disgrâce.</p>
           <p>Procès de l’amiral Chabot.</p>
@@ -165,11 +163,11 @@
           <p>Sa mort (1<hi rend="sup">er</hi> juin 1543), – ses funérailles (7 juin).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r122483">
         <head rend="uc">Appendice premier</head>
         <p>Oraison funèbre de l’amiral Chabot, par Pierre Doré.</p>
       </div>
-      <div>
+      <div xml:id="r122493">
         <head rend="uc">Appendice II</head>
         <p>Épitaphe en vers français.</p>
         <p>Chaque élève publiera les positions de sa thèse sous sa responsabilité personnelle.</p>

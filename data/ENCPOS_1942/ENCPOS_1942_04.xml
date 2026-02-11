@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,11 +63,11 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r621620">
         <head rend="uc">Introduction géographique</head>
         <p>Rabastens est situé sur la rive droite du Tarn, dont la plaine à l’ouest de la ville est réduite à quelques mètres par des coteaux : pays fertile desservi par une rivière navigable.</p>
       </div>
-      <div>
+      <div xml:id="r621630">
         <head rend="uc">Chapitre préliminaire
          <lb/>les origines de la ville.</head>
         <p>On a généralement expliqué la formation de Rabastens par un prieuré dont la fondation était reportée au <num>vii<hi rend="sup">e</hi></num> siècle. Une bulle d’Urbain II, en 1097, ne le signale pas dans la liste des anciens biens de Moissac dont il dépendait. Mentionné pour la première fois en 1240, le prieuré est à l’origine du second groupement de la ville, le bourg.</p>
@@ -77,13 +75,13 @@
         <pb source="https://nakala.fr/10.34847/nkl.fba8sq60#2caee6c54ac9bd0eb11fe6703e9236a1818065a2" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.fba8sq60/2caee6c54ac9bd0eb11fe6703e9236a1818065a2/full/full/0/default.jpg"/>
         <p>Le nom actuel de la ville est, à la réduction près de l’<hi rend="i">x </hi>final en <hi rend="i">s,</hi> celui du <num>xii<hi rend="sup">e</hi></num> siècle ; il résulte de l’addition du suffixe <hi rend="i">-enc</hi> à un radical de nom de personne.</p>
       </div>
-      <div>
+      <div xml:id="r621685">
         <head rend="uc">Chapitre premier
          <lb/>la topographie.</head>
         <p>La ville comprend : <hi rend="i">a</hi>) le <hi rend="i">castel,</hi> noyau primitif de la ville ; <hi rend="i">b</hi>) le <hi rend="i">bore,</hi> type classique des villes neuves du <num>xii<hi rend="sup">e</hi></num> siècle, avec son prieuré en amont ; <hi rend="i">c</hi>) au delà des fortifications et en formant comme une demi-ceinture au bourg et au <hi rend="i">castrum,</hi> les cinq <hi rend="i">barris</hi> ou faubourgs : <hi rend="i">Sobira, del Forn del Rey, </hi>de <hi rend="i">Sanct Miquel,</hi> des <hi rend="i">Frayres Menors</hi> et de <hi rend="i">Murel.</hi></p>
         <p>La détermination des limites du territoire du Consulat est un problème difficile que l’étude des lieux-dits de la juridiction de Rabastens et des consulats limitrophes permet de résoudre approximativement. La liste de ces lieux-dits ne comprend pas moins de quatre-vingts noms.</p>
       </div>
-      <div>
+      <div xml:id="r621749">
         <head rend="uc">Chapitre II
          <lb/>Rabastens et l’histoire générale.</head>
         <p>Le consulat, dès le <num>xiv<hi rend="sup">e</hi></num> siècle, est représenté aux assemblées d’Etats de Languedoc. Trois époques de crise amènent le consulat de Rabastens à participer à la vie générale du pays :</p>
@@ -91,17 +89,17 @@
         <p>II. <hi rend="i">La guerre de Cent ans.</hi> – Rabastens est troublé par les routiers, dont une compagnie est défaite sous ses murs par les soldats de Gaston Phébus en 1381.</p>
         <p>III. <hi rend="i">Les guerres de Religion.</hi> – Proche de Montauban et de Castres, deux foyers importants de la Réforme, la ville reste fidèle au parti catholique, puis à la Ligue, malgré le harcèlement des ennemis qui s’en emparent même à deux reprises.</p>
       </div>
-      <div>
+      <div xml:id="r621788">
         <pb source="https://nakala.fr/10.34847/nkl.fba8sq60#9ecdb765fca876bf8695b57d7730b50b695cbb23" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.fba8sq60/9ecdb765fca876bf8695b57d7730b50b695cbb23/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre III</head>
-        <div>
+        <div xml:id="r621799">
           <head rend="uc">1. – La vie administrative.</head>
           <p><hi rend="i">Origines du régime consulaire.</hi> – Au début du <num>xiii<hi rend="sup">e</hi></num> siècle, seigneurie indivise entre cinquante seigneurs, la ville s’est constituée avant 1243 en un consulat, confirmé par une charte de Philippe IV en 1288.</p>
           <p><hi rend="i">Les consuls et les conseillers.</hi> – Au <num>xiii<hi rend="sup">e</hi></num> siècle, le sénéchal choisit chaque année huit consuls, dont les noms lui sont présentés par les consuls dont les pouvoirs expirent. Au <num>xv<hi rend="sup">e</hi></num> siècle leur nombre est réduit à quatre ; en 1527 un arrêt fixe, en le compliquant, le mode de leur nomination : le juge d’Albigeois et le procureur du roi les désignent au deuxième degré avec l’assistance d’électeurs, nommés au premier degré par les consuls, et qui prennent le titre de conseillers. Ces conseillers forment alors un corps restreint remplaçant l’assemblée plénière du <num>xiii<hi rend="sup">e</hi></num> siècle et chargé, en plus de la nomination des consuls, de l’examen de la gestion financière. Pour les conseillers comme pour les consuls le recrutement est le même ; la seule condition requise est d’être majeur.</p>
           <p><hi rend="i">Officiers de la cille.</hi> – A côté d’un personnel subalterne : greffier, garde-messiers, sergents municipaux, les consuls désignent des procureurs et un syndic à partir du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">Officiers royaux.</hi> – Le bayle, au <num>xiv<hi rend="sup">e</hi></num> siecle, s’efface devant le lieutenant du juge d’Albigeois. Un procureur du roi est signalé au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r621872">
           <head rend="uc">2. – Attributions municipales.</head>
           <p>1. <hi rend="i">La justice.</hi> – La charte reconnaît au consulat la haute justice, exercée encore au <num>xvi<hi rend="sup">e</hi></num> siècle par les consuls, mais au nom du roi. Les dispositions du code pénal sont très voisines de celles des autres cités méridionales.</p>
           <p>2. <hi rend="i">Les finances.</hi> – Aucune organisation n’équilibre le budget <pb source="https://nakala.fr/10.34847/nkl.fba8sq60#7789da998dcf2fd8f97f839d85cbcb6f30d94f1c" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.fba8sq60/7789da998dcf2fd8f97f839d85cbcb6f30d94f1c/full/full/0/default.jpg"/> de la ville dont la situation financière est au <num>xvi<hi rend="sup">e</hi></num> siècle des plus lamentables. Les dépenses nécessitées surtout par l’entretien des bâtiments et les frais militaires dépassent de beaucoup les recettes ordinaires : revenu de quelques maisons, des droits de marché, de courtage, de gardiage et de marque de vin.</p>
@@ -111,27 +109,27 @@
           <p>3. <hi rend="i">L’organisation militaire.</hi> – Des mesures rudimentaires sont prises quand le besoin s’en fait sentir. La garde, commandée par un officier choisi par les consuls, se montre insuffisante et la ville fait appel à des soldats étrangers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r621927">
         <head rend="uc">Chapitre IV
          <lb/>La vie sociale.</head>
         <p><hi rend="i">Le régime des personnes.</hi> – La classe de la noblesse, nombreuse au <num>xiii<hi rend="sup">e</hi></num> siècle, se fond avec le tiers état au cours du siècle suivant.</p>
         <p><hi rend="i">Mouvement de la population.</hi> – Au <num>xv<hi rend="sup">e</hi></num> siècle, la ville compte, au bas mot, 2,000 habitants, autant que l’ensemble de la population rurale. Quelques indices du mouvement d’immigration au <num>xv<hi rend="sup">e</hi></num> siècle. L’importance de leur situation sociale, intellectuelle ou commerciale a incité des habitants à quitter le consulat ; de même les protestants se réfugient à Montauban,</p>
       </div>
-      <div>
+      <div xml:id="r621966">
         <head rend="uc">Chapitre V
          <lb/>La vie religieuse.</head>
         <p><hi rend="i">La paroisse.</hi> – Les deux églises de <hi rend="i">Nostra Dona del Castel <pb source="https://nakala.fr/10.34847/nkl.fba8sq60#d845c1716ff93f9d6bcc5c0b75a467c12b91a421" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.fba8sq60/d845c1716ff93f9d6bcc5c0b75a467c12b91a421/full/full/0/default.jpg"/></hi>et de <hi rend="i">Sanct Miquel</hi> dépendent de l’église paroissiale, c’est-à-dire du prieuré de <hi rend="i">Nostra Dona del Bore,</hi> auquel le service a été confié. Des confréries sont fondées dans chaque église ; un chapitre est attaché au prieuré en 1547. En marge de la paroisse, un couvent de Franciscains. Le territoire rural est desservi par de petites églises ou leurs annexes.</p>
         <p><hi rend="i">Revenus du clergé.</hi> – Les fidèles contribuent au culte par la dîme sur les céréales, le vin, le lin, les légumes et le safran, par des dons, habituels dans les testaments.</p>
         <p><hi rend="i">La vie spirituelle.</hi> – L’hérésie albigeoise a plus touché le consulat que la Réforme. Dissensions intestines entre le prieur et les fidèles, surtout entre le prieur et les Cordeliers. A la vie religieuse se rattachent, par leur aspect confessionnel, certaines activités municipales : <hi rend="i">a) L’enseignement.</hi> Tardivement développé, l’école, au <num>xvi<hi rend="sup">e</hi></num> siècle, ne comprend que deux sections : celle des abécédaires et celle des grammairiens. – <hi rend="i">b) Les œuvres de bienfaisance.</hi> 1. <hi rend="i">Les hôpitaux.</hi> Les hôpitaux, au nombre de trois plus une maladrerie, sont confiés à des administrateurs ; leurs revenus sont affermés. 2. <hi rend="i">Le bassin du Purgatoire.</hi> Cette œuvre d’assistance chargée d’assurer la célébration de messes quotidiennes appliquées aux âmes du Purgatoire est, au même titre que l’hôpital, gérée par les consuls.</p>
       </div>
-      <div>
+      <div xml:id="r622031">
         <head rend="uc">Chapitre VI
          <lb/>La vie privée.</head>
         <p>I. <hi rend="i">Les contrats de mariage.</hi> – Les contrats de mariage sont caractérisés par une double dot, celle qui est constituée à la jeune fille par sa famille (<hi rend="i">verqueria</hi>) et celle qui lui est reconnue par son fiancé (<hi rend="i">augment</hi>) ; cette dernière semble disparaître au <num>xvi<hi rend="sup">e</hi></num> siècle. En marge des constitutions de dots, quelques exemples de donations entre vifs, entre parents et enfants, d’une part, entre conjoints, de l’autre.</p>
         <p>II. <hi rend="i">Les testaments.</hi> – Les clauses religieuses perdent de leur <pb source="https://nakala.fr/10.34847/nkl.fba8sq60#218e7a45d264feeddf5f3106e24fda557921c137" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.fba8sq60/218e7a45d264feeddf5f3106e24fda557921c137/full/full/0/default.jpg"/> importance au <num>xvi<hi rend="sup">e</hi></num> siècle. L’institution d’héritiers exclut les filles dotées ; fréquents partages égaux entre enfants ; rôle du juge d’Albigeois dans les questions de tutelle.</p>
         <p>III. <hi rend="i">La maison.</hi> – Quelques remarques. Au <num>xvi<hi rend="sup">e</hi></num> siècle, un progrès est à noter sur le <num>xv<hi rend="sup">e</hi></num> au point de vue du mobilier.</p>
       </div>
-      <div>
+      <div xml:id="r622098">
         <head rend="uc">Chapitre VII
          <lb/>La vie économique.</head>
         <p>I. LA TERRE, <hi rend="i">a) Le régime.</hi> – Essai d’établissement de la proportion des francs-alleux par rapport aux terres tenues en censive. Les cens présentent les caractères habituels. La propriété est peu stable ; son morcellement s’accroît du XIV<hi rend="sup">e </hi>au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
@@ -146,7 +144,7 @@
         <p>III. LE COMMERCE. – L’état agricole du consulat nécessite un mouvement d’importation.</p>
         <p>L’intérêt commercial de Rabastens réside dans le négoce du vin, favorisé par la voie navigable du Tarn et dont le principal débouché est l’Angleterre : réglementation du commerce, obstacles suscités par les jurats bordelais.</p>
       </div>
-      <div>
+      <div xml:id="r622169">
         <pb source="https://nakala.fr/10.34847/nkl.fba8sq60#07501b8b2389a39ccf18a9468285096cc171916b" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.fba8sq60/07501b8b2389a39ccf18a9468285096cc171916b/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Les villes de formation spontanée comme Rabastens, à l’encontre des bastides dont la création artificielle répondait à un seul besoin politique, s’adaptent à la centralisation du pouvoir royal, plus marquée après les guerres de Religion.</p>

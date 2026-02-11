@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1964_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1964_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,19 +55,19 @@
         <forename>Claude</forename>
         <surname>Lannette-Claverie</surname>
       </byline>
-      <div>
+      <div xml:id="r854701">
         <head rend="uc">Sources</head>
         <p>Les principaux documents utilisés sont les deux recueils de <hi rend="i">L’état de la librairie en France sous M. le chancelier de Pontchartrain,</hi> conservés à la Bibliothèque nationale dans la Collection Anisson (nouv. acq. fr. 399 et 400), ainsi que la plupart des pièces des manuscrits fr. 22.124 à 22.129.</p>
       </div>
-      <div>
+      <div xml:id="r854715">
         <head rend="uc">Introduction</head>
         <p>Ce premier état général de la librairie française est intéressant à plus d’un titre ; les documents provenant du recensement des imprimeries et des librairies du royaume effectué en 1701 à l’initiative du bureau de la librairie sont passés ensuite dans les archives de l’inspection de la librairie et font partie de la Collection Anisson, constituée surtout par l’inspecteur d’Hemery. Ils nous donnent non seulement des renseignements sur les établissements, le personnel qui y est employé, la production typographique de l’armée 1700, mais nous révèlent l’identité de tous les imprimeurs et libraires et la façon dont ils ont fait leur apprentissage, leur service et dont ils se sont établis.</p>
       </div>
-      <div>
+      <div xml:id="r854725">
         <head rend="uc">Première partie
          <lb/>Les raisons de l’enquête et son déroulement
          <lb/>en province et a Paris</head>
-        <div>
+        <div xml:id="r854735">
           <head rend="uc">Chapitre premier
            <lb/>le bureau de la librairie.
            <lb/>L’héritage et les problèmes à résoudre.
@@ -79,14 +77,14 @@
           <p>Pontchartrain se décharge, dès 1699, du soin des affaires de librairie sur son neveu l’abbé Jean-Paul Bignon, ancien oratorien, homme érudit et brillant : ce dernier est d’esprit éclairé, cartésien, et devient cependant chef de la censure, directeur du bureau de la librairie dépendant de la Chancellerie, en relation directe avec le Conseil d’État privé. Bignon va accomplir un intense travail dans ses nouvelles fonctions qui ne représentent qu’une partie de ses activités. Il met au point, par exemple, un projet détaillé pour contrôler l’introduction en France des livres imprimés à l’étranger. Son rôle est essentiel dans l’accord des approbations et des privilèges. Il va assurer définitivement la suprématie intellectuelle et économique de Paris dans le domaine de l’édition. L’arrêt du 2 octobre 1701 enlève aux juges de police toute faculté d’accorder des permissions pour les ouvrages d’auteurs anciens et pour ceux dont le privilège est expiré. L’imprimerie lyonnaise en particulier, jugulée par des entraves juridiques, va voir s’accentuer d’une façon brutale sa décadence. Le chancelier veillera jalousement a ce que rien ne soit imprimé sans permission. Les éditeurs parisiens bénéficient presque exclusivement des privilèges et du système des continuations.</p>
           <p>Pontchartrain et Bignon s’intéressent également à la situation de la librairie en province. On décide d’étendre à tout le royaume les mesures prises à l’égard des imprimeurs parisiens, de réduire le nombre des ateliers et de disposer désormais d’une seule méthode d’investiture : les arrêts du Conseil d’État, après examen par le bureau de la librairie du dossier de tout postulant et rapport des autorités locales. Mais il importe avant tout d’opérer un recensement général. En matière <pb source="https://nakala.fr/10.34847/nkl.9f13aq4x#f7a390e564840b8f094d92b50ec4e91ade268d1f" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.9f13aq4x/f7a390e564840b8f094d92b50ec4e91ade268d1f/full/full/0/default.jpg"/>de librairie, les enquêtes ordonnées en 1667, en 1674, confiées aux baillis, n’ont pas abouti. L’arrêt du 6 décembre 1700 suspend provisoirement toute installation et rend obligatoire dans les quinze jours la remise par les imprimeurs et les libraires d’un mémoire détaillé sur leur carrière, leur personnel, leur outillage, leur production, tandis que les « juges de police » effectueront des visites soigneuses. Pontchartrain demande aux intendants dans une circulaire du 17 janvier 1701 de veiller à la bonne marche de l’enquête et de lui envoyer les documents réunis : il joint à sa lettre un modèle imprimé.</p>
         </div>
-        <div>
+        <div xml:id="r854776">
           <head rend="uc">Chapitre II
            <lb/>L’enquête en province.
            <lb/>Remise des mémoires et perquisitions</head>
           <p>Beaucoup d’intendants semblent avoir adressé l’arrêt et leurs ordres dès la fin du mois de janvier. La Bourdonnaye en Guyenne ne donne pourtant ses instructions à Agen et Périgeux qu’au milieu de février. Et la municipalité d’Amiens n’est prévenue que le 24 mai, celle de Saint-Omer le 10 juin. On peut se demander si l’intendant a bien averti toutes les villes de son département : il envoie souvent ses ordres aux lieutenants généraux de police, dont l’office est de création récente et fort efficace, et à ses subdélégués. Mais beaucoup de villes ont voulu garder leurs attributions de police et c’est le maire et les échevins ou les consuls qui se chargèrent alors de l’enquête. L’arrêt fut partout publié ou notifié personnellement aux intéressés. Les mémoires que ceux-ci rédigent adoptent généralement la disposition du modèle imprimé, divisé en douze articles ; certaines communautés remirent un mémoire unique sur l’état de la librairie dans leur ville. Il y eut aussi des interrogatoires effectués à l’hôtel de ville ou bien par l’enquêteur pendant la visite. La remise des mémoires fut loin d’être partout effectuée dans le temps prescrit. La visite a été accomplie souvent avec soin, mais de façons bien diverses : les enquêteurs ne sont pas toujours compétents, sauf s’ils sont choisis au sein du corps de ville ; ils se font d’ailleurs escorter du syndic, le cas échéant, ou d’un imprimeur qu’ils désignent. On examine avec soin les presses ; on vérifie les titres des livres contenus dans les boutiques. Pendant les visites ou sur les mémoires, certains imprimeurs signalent les contestations qui les opposent à des confrères ou aux merciers.</p>
           <p>Les intendants ont eu parfois des difficultés à centraliser au chef-lieu de la généralité les documents demandés. D’autres préparent un état général de la librairie dans leur département, travail qui dure souvent un mois. Il semble que le bureau de la librairie ait reçu dès mars et avril 1701 la majorité des mémoires et des procès-verbaux ; l’intendant d’Amiens ne fait son envoi que le 6 juillet.</p>
         </div>
-        <div>
+        <div xml:id="r854793">
           <head rend="uc">Chapitre III
            <lb/>L’exécution de l’enquête à Paris et la
            <lb/>constitution des registres de l’abbé Bignon</head>
@@ -94,10 +92,10 @@
           <p>L’abbé Bignon, désireux de posséder, pour l’ensemble du royaume, des mémoires d’une disposition aussi claire que possible, fait recopier par deux scribes les documents reçus de province, à raison d’un imprimeur ou d’un libraire par feuille ; l’ensemble sera un peu plus tard relié en deux gros volumes in-folio, d’autant plus précieux que la moitié environ des pièces originales a disparu (en particulier celles envoyées par les généralités de Caen, de Lille, de Rouen, de Lyon). La comparaison entre les originaux et les copies montre que le travail des scribes a été souvent incomplet. On relève nombre de fautes, et il importe donc d’utiliser avec une certaine méfiance les registres de Bignon.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r854816">
         <head rend="uc">Deuxième partie
          <lb/>Les enseignements de l’enquête</head>
-        <div>
+        <div xml:id="r854824">
           <head rend="uc">Chapitre premier
            <lb/>étude sur les lieux et les temps d’apprentissage
            <lb/>indiqués dans les mémoires de 1701</head>
@@ -105,7 +103,7 @@
           <p>C’est naturellement Paris qui peut revendiquer la première place parmi les villes assurant la formation d’apprentis. L’aire de recrutement des provinciaux est vaste : sud-est, centre, Bourgogne, Picardie, et surtout Brie, Valois, Champagne. Mais une désaffection, due aux difficultés d’accès à la maîtrise, se produit dans la deuxième moitié du siècle ; certains apprentis s’engagent au service du roi, et d’autres désertent simplement. En outre, les maîtres eux-mêmes ne désirent <pb source="https://nakala.fr/10.34847/nkl.9f13aq4x#08e559dd84d76e6b81eb6d90c4d478da05f35b23" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.9f13aq4x/08e559dd84d76e6b81eb6d90c4d478da05f35b23/full/full/0/default.jpg"/>plus former de futurs concurrents : on ne compte plus que quarante-quatre apprentis imprimeurs et dix-neuf apprentis libraires à Paris en 1701. D’ailleurs, l’emploi des alloués est encouragé dès le début du <num>xviii<hi rend="sup">e</hi></num> siècle. Le même phénomène semble se produire à Lyon, qui a exercé une grande attraction sur les provinciaux venus d’Auvergne, de Bourgogne, de Dauphiné, de Savoie et de Suisse pour s’obliger. L’aire de recrutement des autres villes se limite aux régions voisines. Toulouse et Bordeaux seuls, en 1701, forment des apprentis en Languedoc et Aquitaine. Il y en a fort peu en Bretagne, et il semble en être de même en Normandie, alors qu’en Franche-Comté, en Champagne le nombre en est relativement élevé.</p>
           <p>La durée effective de l’apprentissage est à Paris de cinq ans pour les Parisiens, de quatre ans pour les provinciaux. En province, on ne semble pas toujours s’être plié aux exigences des statuts locaux. A Lyon, tous les imprimeurs se sont obligés cinq années, mais ceux de Toulouse trois ans seulement. Ailleurs les temps indiqués sont très variables, sauf à Besançon où la durée est régulièrement fixée à cinq ans. Dans les Pays-Bas espagnols et en Hollande, on relève des temps de six et même sept ans. Les Alsaciens vont parfois étudier quelque temps en Allemagne les techniques du livre (Heilbronn, Francfort) ; à Strasbourg, la durée de l’apprentissage est de trois ans.</p>
         </div>
-        <div>
+        <div xml:id="r854861">
           <head rend="uc">Chapitre II
            <lb/>Les compagnons et le tour de France</head>
           <p>L’accomplissement d’un temps de « service » de trois à quatre ans au moins est presque partout obligatoire, sauf pour les fils de maîtres. A Paris, les compagnons se réunissent dans un enclos de la commanderie de Saint-Jean-de-Latran et forment une confrérie parfaitement illégale, bien qu’ils prétendent avoir le droit de plaider en nom collectif, malgré des interdictions successives. Ils sont peu nombreux : il n’y a guère d’exemple de ces associations ouvrières au sein des métiers du livre en dehors de Paris et de Lyon.</p>
@@ -114,7 +112,7 @@
           <p>De grandes parties du royaume sont tenues en dehors de l’itinéraire type du compagnon typographe ou libraire, comme dans les autres professions. A l’ouest, la Bretagne, sauf Nantes, et surtout la Normandie, sont peu fréquentées, bien que Rouen soit un centre actif. La Champagne offre peu d’embauche. On s’aventure rarement en Picardie, encore moins en Flandre. Les Trois-Évêchés, malgré leur situation excentrique semblent pourtant fréquentés par des compagnons d’origines diverses au début du <num>xviii<hi rend="sup">e</hi></num> siècle. Quant à l’Alsace, tout la-maintient en dehors du tour de France habituel : les Strasbourgeois font des grands voyages en Allemagne (surtout Francfort et Nuremberg) ; les huit ateliers de leur ville comptent vingt-huit compagnons allemands ou suisses.</p>
           <p>S’ils vont à l’étranger, les compagnons préfèrent l’Espagne et surtout l’Italie, où ils visitent Turin, Milan, Rome, Venise, pendant plusieurs années. La Hollande les attire aussi. Mais, en fait, on sort peu des limites du royaume pendant la période du service.</p>
         </div>
-        <div>
+        <div xml:id="r854896">
           <head rend="uc">Chapitre III
            <lb/>Établissement et activités professionnelles</head>
           <p>L’accès à la maîtrise parisienne est devenu pour un simple compagnon presque impossible à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle : priorité est donnée aux fils et gendres de maîtres ; les droits de réception, déjà élevés, sont doublés en 1703, la communauté se trouvant d’ailleurs couverte de dettes. On relève encore bien des désordres, certains n’étant pas reçus et exerçant en vertu de l’accord verbal du syndic. Des communautés se forment en province pendant tout le <num>xvii<hi rend="sup">e</hi></num> siècle et se donnent des statuts, système qui jouit de la faveur du pouvoir royal. Mais l’organisation semble loin d’être partout parfaite. Et les communautés ont souffert du rachat des offices créés en 1691 et 1694. Les droits d’admission s’en élèvent d’autant. D’ailleurs, presque seuls sont reçus les gendres et les fils de maîtres ; c’est le cas, à Bordeaux, pour sept de ces derniers en 1700 : ils ont tous moins de vingt ans ; le phénomène est encore plus accentué à Rouen.</p>
@@ -123,7 +121,7 @@
           <p>L’essentiel de la production est consacré à la vie religieuse. Livres d’heures, de dévotion, catéchismes, cantiques spirituels pour les missions sont tirés à plus de 2.000 exemplaires ; de même les civilités, les alphabets, les livres de la <hi rend="i">bibliothèque bleue</hi> et les almanachs, les noëls en patois, et aussi les « gazettes ». Il n’y a pas d’ouvrages importants, par manque de capitaux et de privilèges.</p>
           <p>Seules, quelques villes travaillent à des impression notables. Strasbourg destine surtout ses livres à l’Allemagne et à la Hollande. Dans le sud-ouest, Toulouse tient une place remarquable et envoie ses livres en Provence, dans le centre, et même par delà la Loire : les éditeurs importants sont Caranove, Robert, Colomiez. Bordeaux est bien moins actif. Les uniques centres qu’on puisse relever à l’ouest sont Caen et Rouen. Lyon, dont les vingt-neuf ateliers sont bien fournis, pourrait seule rivaliser avec Paris, mais son activité semble étouffée par le régime des privilèges : on n’emploie pas en général plus de cinq compagnons. Il y a des essais d’associations. Mais c’est Paris, avec ses beaux établissements (qui ont su profiter de la réduction du nombre des imprimeries) et ses cent soixante dix-huit presses, qui détient le monopole de la production. Imprimeurs et libraires éditent en commun des ouvrages importants, comme les <hi rend="i">Mémoires</hi> de Donneau de Visé (Daniel Jollet), les <hi rend="i">Acta Sanctorum,</hi> le <hi rend="i">Dictionnaire</hi> de Moreri (Coignard et Mariette). Guillaume Desprez imprime pour sa part la Bible de Saci et les œuvres de Jean Hamon. Un catalogue de tous les ouvrages déclarés <hi rend="i">a</hi> été établi, où on a essayé de reconstituer une partie du réseau souvent enchevêtré des accords passés entre imprimeurs et libraires. Il est dommage qu’on ne puisse ajouter à cette liste celle des contrefaçons.</p>
         </div>
-        <div>
+        <div xml:id="r854957">
           <head rend="uc">Chapitre IV
            <lb/>L’exercice des métiers du livre
            <lb/>par les veuves d’imprimeurs et de libraires.</head>
@@ -131,17 +129,17 @@
           <p>On trouve aussi des filles de libraires qui exercent la librairie en s’autorisant de cette seule qualité : ainsi à Dijon, à Tours. On ne trouve souvent chez elles que de la papeterie et quelques livrets. Leur condition précaire peut justifier la méfiance manifestée par les responsables de la libraire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r854980">
         <head rend="uc">Conclusion</head>
         <p>Après examen des documents recueillis par Bignon, on va accroître et préciser la réglementation en élaborant le règlement de 1723, en cent vingt-cinq articles, étendu à tout le royaume en 1744. Mais, à cette date, un contrôle sévère est déjà exercé sur le nombre des imprimeries qui est réduit et fixé par l’arrêt du 21 juillet 1704 dans chaque ville du royaume ; trois cent soixante-quatorze ateliers avaient été recencés en 1701 ; on ne peut plus désormais s’établir imprimeur sans un arrêt du Conseil d’État. Des réductions seront encore effectuées en 1739 et en 1759. Diverses enquêtes, dont celle de Sartine en 1764, n’en feront pas moins ressortir bien des désordres, d’ailleurs dus en partie aux activités des colporteurs et des libraires : elles soulignent également le déclin, systématiquement préparé, des grands centres provinciaux au profit de Paris, auquel portent pourtant tort les innombrables contrefaçons hollandaises.</p>
       </div>
-      <div>
+      <div xml:id="r854990">
         <head rend="uc">Pièces annexes</head>
         <p>Listes alphabétiques des apprentis et des compagnons travaillant à Paris et en province.</p>
         <p>Catalogue des ouvrages édités en 1700, d’après les déclarations.</p>
         <p>Inventaires de librairies provinciales.</p>
       </div>
-      <div>
+      <div xml:id="r855006">
         <head rend="uc">Cartes</head>
         <p>Imprimeries recensées en 1701, autorisées en 1704.</p>
         <p>Caractères et production typographique.</p>

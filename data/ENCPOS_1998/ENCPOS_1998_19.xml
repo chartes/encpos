@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1998_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1998_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,24 +58,24 @@
         <surname>Jacquier</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1325544">
         <head rend="uc">Introduction</head>
         <p>En Lorraine méridionale, et plus particulièrement dans le département des Vosges, on honore toute une famille de saints que la tradition place au IV’ siècle. Les saints enfants de Baccius et Lientrude présentent la caractéristique de concentrer dans une même famille plusieurs types de sainteté : Élophe, Libaire, Susanne et Euchaire sont martyrs : Euchaire est également un saint confesseur, puisqu’une tradition fait de lui un évêque de Grand (Vosges). Enfin, Menne, Ode et Gontrude sont honorées pour leur pureté virginale. Plongeant ses racines dans une époque des plus reculées, la tradition s’appuie sur des documents postérieurs d’au moins six siècles : il est donc impossible de confirmer ou de réfuter l’existence réelle de ces saints. Tel n’est pas le propos de cette étude. Il convient plutôt de se pencher sur les manifestations du culte de ces premiers saints lorrains, afin de montrer leur portée à la fois géographique et chronologique.</p>
       </div>
-      <div>
+      <div xml:id="r1325554">
         <head rend="uc">Sources</head>
         <p>L’édition des Vies de saint Élophe et de sainte Libaire a été établie à partir de treize manuscrits conservés à la bibliothèque municipale de Trèves (mss. 1151, 1163 et 1178), à la Bibliothèque royale de Bruxelles (mss. 2376-2381, 206 et 856-861), à la bibliothèque interuniversitaire de Montpellier (ms. 1), dans les abbayes de Zwettl (ms. 14) et de Melk (ms. 677), aux archives historiques de la ville de Cologne <pb source="https://nakala.fr/10.34847/nkl.dc69p1k3#0568baf87560c9c0c4ef2f68ca73d97d121b17a9" n="158" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc69p1k3/0568baf87560c9c0c4ef2f68ca73d97d121b17a9/full/full/0/default.jpg"/> (W 164 C), à la Bibliothèque nationale d’Autriche (<hi rend="i">Series nova</hi> 12813) et à la bibliothèque des Bollandistes (mss. 160 et 161). Les livres liturgiques consultés ont été choisis selon le diocèse à l’usage duquel ils étaient destinés (Arras, Chartres, Châlons, Cologne, Langres, Meaux, Metz, Nancy, Utrecht, Trèves, Toul et Verdun) et les bibliothèques de conservation les plus accessibles. Le fonds lorrain de la bibliothèque du grand séminaire de Saint-Dié est la source principale pour l’étude du culte des saints enfants de Baccius et Lientrude, notamment les documents de travail manuscrits de 1 abbé Jean-François Deblaye. Il convient enfin de mentionner le manuscrit latin 10514 de la Bibliothèque nationale de France (évangéliaire de Poussay), les dossiers photographiques des antiquités et objets d’art du département des Vosges (archives départementales) et surtout les données orales de la tradition locale, recueillies auprès de particuliers.</p>
       </div>
-      <div>
+      <div xml:id="r1325573">
         <head rend="uc">Première partie
          <lb/>Les origines, les premiers témoignages</head>
-        <div>
+        <div xml:id="r1325581">
           <head rend="uc">Chapitre premier
            <lb/>une famille de saints</head>
           <p>Il convient d’indiquer en premier lieu les données générales de la tradition. La famille de Baccius et Lientrude est de sang royal, peut-être originaire de Champagne. Elle illustre un thème hagiographique, celui de la famille, qui n’est pas rare. On assigne sa résidence en divers lieux, à Toul, Grand, Soulosse (Vosges)... Trois membres de cette famille, Élophe, Euchaire et Libaire, présentent la caractéristique d’être céphalophores, comme leur illustre modèle saint Denis, premier évêque de Paris. Des recherches archéologiques récentes consacrées à la ville gallo-romaine de Grand ont montré l’importance de l’eau dans ces cultes. Ainsi, de nombreuses fontaines miraculeuses sont dédiées à 1 un ou l’autre des saints enfants de Baccius et Lientrude. Autre caractéristique commune, tous les saints étudiés sont fêtés, comme saint Denis, au mois d’octobre, hormis sainte Ode qui l’est le 16 février. Enfin, ces cultes sont très profondément liés au terroir lorrain, hormis quelques patronages en Champagne, en Ile-de-France et dans le Pas-de-Calais.</p>
           <p>La tradition constitue la famille en trois étapes. Le premier texte repéré rapporte la vie de saint Élophe, jeune homme brillant, bon chrétien, archidiacre, qui fut arrêté au temps de Julien l’Apostat pour avoir converti de nombreux païens. Il refusa d’’apostasier et fut donc décapité. Il porta son chef jusqu’au lieu de sa sépulture, où il s’assit sur une pierre qui se transforma pour lui en un siège de cire molle. Son frère Euchaire est présenté comme évêque de Grand. II subit le martyre et porta lui aussi son chef jusqu’au lieu de sa sépulture. Trois sœurs sont ensuite nommées : Menne, qui reçut le voile des vierges des mains d’un ange et vécut ensuite pieusement en ermite ; Libaire, martyrisée pour avoir refusé de céder aux avances amoureuses de Julien et de sacrifier aux idoles païennes ; Susanne enfin, dont on ne sait <pb source="https://nakala.fr/10.34847/nkl.dc69p1k3#c6c735729bc80baf7ea1ed0c57bfdf5bc55209fd" n="159" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc69p1k3/c6c735729bc80baf7ea1ed0c57bfdf5bc55209fd/full/full/0/default.jpg"/>rien, sinon qu’elle fut martyrisée en Champagne. Cette première famille limitée s’accroît de deux membres dans deux inscriptions lapidaires du XVI’ siècle. Il s’agit de deux vierges dont les personnalités restent mystérieuses, Ode et Gontrude. Enfin, deux autres saintes sont liées à cette famille, sainte Bologne, vierge et martyre près de Chaumont, que la tradition fait naître à Grand, patrie de sainte Libaire, et sainte Colombe, martyre elle aussi, que l’on appelle parfois la « fiancée de saint Élophe ».</p>
         </div>
-        <div>
+        <div xml:id="r1325601">
           <head rend="uc">Chapitre II
            <lb/>Les vies médiévales : saint Élophe</head>
           <p>La vie de saint Élophe est connue par un texte appelé <hi rend="i">Vêtus passio.</hi> remontant au début du <num>xi<hi rend="sup">e</hi></num> siècle, repris et récrit par Rupert de Deutz vers 1125, puis abrégé deux fois, d’abord par un auteur resté anonyme au XIII’ ou au XIV’ siècle, puis par Jean Gielmans vers 1470. L’édition de la <hi rend="i">Vêtus passio</hi> repose sur la collation de neuf manuscrits du XII’ au XV’ siècle. Le texte de Rupert n’est conservé que dans deux manuscrits, tout comme celui de l’abréviateur anonyme. Enfin, le texte de Gielmans est édité à partir du manuscrit <hi rend="i">Series nova</hi> 12813 de la Bibliothèque nationale d’Autriche. La confrontation de ces quatre éditions complètes permet d’étudier d’un point de vue littéraire la réécriture de la <hi rend="i">Vêtus passio</hi> par Rupert de Deutz et la postérité de ces deux textes.</p>
@@ -87,31 +85,31 @@
           <pb source="https://nakala.fr/10.34847/nkl.dc69p1k3#b31b377ffe939d3030cfd8e6d62d047eeba78a4f" n="160" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc69p1k3/b31b377ffe939d3030cfd8e6d62d047eeba78a4f/full/full/0/default.jpg"/>
           <p>Rupert a en quelque sorte modernisé la <hi rend="i">Vetus passio.</hi> Mais la postérité de ces deux textes est favorable à la <hi rend="i">Vetus passio,</hi> beaucoup plus utilisée pour la rédaction des livres liturgiques. Les deux abréviations s’en inspirent elles aussi. La <hi rend="i">Vetus passio</hi> a donc le statut de texte liturgique, tandis que le texte de Rupert de Deutz est destiné à la méditation personnelle dans le silence d’une cellule.</p>
         </div>
-        <div>
+        <div xml:id="r1325692">
           <head rend="uc">Chapitre III
            <lb/>Les vies médiévales : sainte Libaire</head>
           <p>Deux Vies de sainte Libaire sont conservées, l’une dans un manuscrit copié au <num>xvii<hi rend="sup">e</hi></num> siècle par les Bollandistes sur un manuscrit aujourd’hui perdu, et l’autre dans le manuscrit de Jean Gielmans déjà évoqué. L’édition de ces deux Passions montre qu’il s’agit avant tout d’une féminisation de la Vie de saint Élophe. Sainte Libaire est présentée, comme sainte Geneviève et sainte Jeanne d’Arc, en bergère, mais aussi en céphalophore, et à ce titre elle se rapproche d’autres saintes céphalophores dont les Vies présentent peu d’originalité. On retrouve en tout cas chez sainte Libaire la force de la foi de son frère, ainsi qu’un certain esprit de provocation.</p>
         </div>
-        <div>
+        <div xml:id="r1325710">
           <head rend="uc">Chapitre IV
            <lb/>Les vies médiévales : sainte Menne et saint Euchaire</head>
           <p>Les <hi rend="i">Acta sanctorum</hi> publient à la date du 3 octobre une Vie de sainte Menne, d’après un manuscrit aujourd’hui perdu ; vers 1630, Jean Ruyr consacre dans son ouvrage sur <hi rend="i">Les sainctes antiquitez de la Vôge</hi> un chapitre à sainte Menne, où il reprend visiblement le même texte que les Bollandistes en allant parfois jusqu’à le traduire. Cela permet de combler les lacunes du manuscrit perdu. Cette Vie de sainte Menne se compose de deux parties inégales, la première consacrée à la vocation de la sainte, qui refuse le mariage, la seconde, plus courte, évoquant sa vie d’ermite. Son passage à pied sec d’une rivière agitée, transition entre les deux parties, rappelle le passage de la mer Rouge par Moïse.</p>
           <p>La vie de saint Euchaire n’est plus connue que par deux inscriptions remontant au <num>xvi<hi rend="sup">e</hi></num> siècle, l’une provenant de la chapelle du martyre d’Euchaire à Pompey (Meurthe-et-Moselle) et aujourd’hui conservée au Musée historique lorrain de Nancy, l’autre gravée sur le tombeau du saint dans l’église de Liverdun (Meurthe-et-Moselle). Ces inscriptions adjoignent au saint un très grand nombre de compagnons martyrs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1325740">
         <pb source="https://nakala.fr/10.34847/nkl.dc69p1k3#b2ab26365821899e13bc65e14ac0d147b96d2fcd" n="161" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc69p1k3/b2ab26365821899e13bc65e14ac0d147b96d2fcd/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Histoire du culte des saints enfants
          <lb/>de Baccius et Lientrude</head>
-        <div>
+        <div xml:id="r1325755">
           <head rend="uc">Chapitre premier
            <lb/>diffusion géographique</head>
           <p>Le premier point à élucider concerne la diffusion géographique du culte des saints étudiés. Plusieurs sources peuvent être utiles. Tout d’abord, les patronages des églises dessinent une carte, jointe en annexe. Cinquante-trois édifices peuvent être repérés, trente dans les Vosges, seize en Meurthe-et-Moselle, quatre dans la Meuse, deux dans la Haute-Marne et un dans le Bas-Rhin. Plusieurs concentrations peuvent être identifiées : la première autour de Neufchâteau, la deuxième autour de Poussay (Vosges) et une troisième autour de Toul se trouvent aux environs des lieux de la vie de chacun des saints étudiés. D’autres « blocs » sont assez proches des trois premiers évoqués, autour de Vittel (Vosges) et dans le canton de Vézelise (Meurthe-et-Moselle). Enfin, on repère plusieurs patronages autour de Rambervillers (Vosges), ce qui contredit l’idée selon laquelle les saints enfants de Baccius et Lientrude seraient confinés dans la Plaine des Vosges, alors que la « Montagne » serait vouée aux saints colombaniens du Saint-Mont. Ces délimitations sont confirmées par quelques lieux-dits, mais certains patronages leur échappent : sainte Libaire est honorée dans la Marne, la Seine-et-Marne et le Pas-de-Calais ; saint Élophe en Seine-et-Marne, en Eure-et-Loir et à Cologne.</p>
           <p>L’anthroponymie confirme également cette répartition. Il faut là encore noter les attestations relativement nombreuses des prénoms des saints enfants de Baccius et Lientrude dans les régions de la Montagne vosgienne, notamment à La Bresse et à Bussang (Vosges).</p>
           <p>La dernière source interrogée est la liturgie et ses livres. Saint Élophe seul est présent dans le <hi rend="i">Martyrologe romain.</hi> La source en est constituée par trois manuscrits du martyrologe de Fleurus, issus d’un archétype messin. On trouve encore saint Élophe dans le martyrologe de Hermann Greven, avec sainte Susanne, au 8 octobre. Toute la famille est évoquée dans les martyrologes de du Saussay et Chastelain. Les seuls ouvrages liturgiques, autres que les martyrologes, tant manuscrits qu’imprimés, qui mentionnent l’un ou l’autre des saints enfants de Baccius et Lientrude sont très localisés, à l’usage des diocèses de Toul, Nancy et Saint-Dié. A Cologne, saint Élophe est évoqué au 16 octobre. Il apparaît également au <num>xvi<hi rend="sup">e</hi></num> siècle à Utrecht, mais disparaît du bréviaire de ce diocèse au <num>xviii<hi rend="sup">e</hi></num> siècle, lorsque la preuve est faite que c’est bien Cologne, et non Utrecht, qui possède le chef du saint.</p>
         </div>
-        <div>
+        <div xml:id="r1325789">
           <head rend="uc">Chapitre II
            <lb/>Le culte jusqu’a la révolution française</head>
           <p>Le culte des saints enfants de Baccius et Lientrude doit être étudié en deux temps, car la Révolution marque une rupture. Il se cristallise autour de leurs reliques.</p>
@@ -121,36 +119,36 @@
           <p>Les reliques de sainte Libaire restèrent à Grand jusqu’en 1587, date à laquelle elles furent portées à Toul pour être préservées pendant les guerres de Religion. Les habitants de Grand réclamèrent à plusieurs reprises leur retour et en obtinrent des parcelles en 1622, 1645 et 1696. En 1702, Bossuet, évêque de Meaux, assista en personne à l’arrivée de reliques à Condé-Sainte-Libiaire (Seine-et-Marne).</p>
           <p>On sait très peu de chose sur le culte de sainte Ode. Une chapelle lui était dédiée dans une forêt proche de Saint-Ouën-lès-Parey (Vosges) : il n’en reste qu’une niche conservée dans le village. Les reliques de la sainte furent visitées en 1722 et 1785. Des reliques de sainte Gontrude, qui avaient été transportées à Musson (Belgique) à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, revinrent à Hagnéville (Vosges) en 1727.</p>
         </div>
-        <div>
+        <div xml:id="r1325843">
           <head rend="uc">Chapitre III
            <lb/>Renaissance du culte au <num>xix<hi rend="sup">e</hi></num> siècle</head>
           <p>La Révolution française a bouleversé l’histoire du culte des saints enfants de Baccius et Lientrude, notamment en ce qui concerne les reliques qui furent dispersées <pb source="https://nakala.fr/10.34847/nkl.dc69p1k3#ab20b4b79d91db8a1fd7edaed9b13ba36dd744f7" n="163" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc69p1k3/ab20b4b79d91db8a1fd7edaed9b13ba36dd744f7/full/full/0/default.jpg"/> et recueillies par des paroissiens restés fidèles. Au milieu du <num>xix<hi rend="sup">e</hi></num> siècle, on prend conscience qu’il faut se hâter de recueillir des témoignages si l’on veut rendre aux reliques leur authenticité canonique. Le travail fut mené dès 1846 par l’abbé Jean-François Deblaye (1816-1884), soutenu à partir de 1849 par le nouvel évêque de Saint-Dié, M<hi rend="sup">gr</hi> Caverot. Surmontant quelques divergences de vues avec les curés à qui il avait affaire, l’abbé Deblaye réussit à rendre leur authenticité aux reliques de sainte Menne (1846-1850), à celles de sainte Libaire (1847-1851) qui étaient revenues dans leur totalité et en grande pompe à Grand en 1793, et à celles de saint Élophe (1849-1851) et de sainte Ode (1851-1855).</p>
           <p>Pour les réhabiliter, il dut mener des recherches historiques. Il prit donc part à un certain nombre de querelles d’érudits. Il réfléchit sur l’identité de sainte Ode, en arrivant à la conclusion qu’elle ne saurait, comme il l’avait cru d’abord au grand dam des tenants de la tradition, être confondue avec sainte Ode d’Amay, mère de saint Arnoul de Metz. Il s’opposa vigoureusement, dans une correspondance haute en couleur, au baron nancéien Jean-Baptiste Prosper Guerrier de Dumast, qui prétendait que sainte Menne avait été enterrée sur une de ses propriétés près de Blénodlès-Toul (Meurthe-et-Moselle), et non à Puzieux (Vosges). D’autres querelles d’érudits, auxquelles l’abbé Deblaye ne prit point part, sont à retenir : les nombreux compagnons martyrs d’Euchaire ont-ils réellement existé ou bien les trouvailles archéologiques au lieu du martyre, appelé « champ des Tombes », ne révèlent-elles qu’une nécropole ordinaire ? Julien l’Apostat était-il présent en Gaule pour martyriser lui-même Élophe, Libaire et Euchaire ?</p>
           <p>Tous ces travaux permettent un renouveau des pèlerinages dès lors que les reliques sont données à la vénération du peuple. Dans les années 1880, on voit renaître des cérémonies autour des châsses de saint Élophe à Saint-Élophe, de sainte Menne à Puzieux et de sainte Libaire à Grand. Tout cela s’accompagne de publications fort nombreuses, certaines ayant des prétentions historiques, la plupart cherchant surtout à édifier les fidèles.</p>
         </div>
-        <div>
+        <div xml:id="r1325882">
           <head rend="uc">Chapitre IV
            <lb/>Histoire du culte au XX’ siècle</head>
           <p>Les cultes ne se sont pas éteints de nos jours. La dévotion portée aux reliques s’est essoufflée, même si elle n’a pas totalement disparu. En 1950, lorsque l’archevêque de Cologne offre à l’évêque de Saint-Dié, qui les demandait, des reliques de saint Élophe, ce don est ressenti comme un gage de paix entre l’Allemagne et la France. La seconde guerre mondiale eut pour conséquence de faire renaître une certaine dévotion pour sainte Libaire, patronne des soldats, à qui plusieurs ex-votos sont dédiés. Elle est souvent comparée à Jeanne d’Arc, comme l’avait déjà fait Maurice Barrès en 1923 dans <hi rend="i">Le mystère en pleine lumière.</hi> De nos jours encore, la dévotion est forte les jours de pèlerinage, notamment pour celui de saint Élophe, le lundi qui suit le 16 octobre. Quelques publications à caractère religieux ou touristique sont à relever.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1325899">
         <pb source="https://nakala.fr/10.34847/nkl.dc69p1k3#6ef069b777911cd58ce8a53568cf6a64672591b9" n="164" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc69p1k3/6ef069b777911cd58ce8a53568cf6a64672591b9/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Représentations iconographiques</head>
-        <div>
+        <div xml:id="r1325912">
           <head rend="uc">Chapitre premier
            <lb/>catalogue</head>
           <p>Les saints enfants de Baccius et Lient rude ont été une source d’inspiration locale relativement féconde. Le catalogue réunit deux cent soixante-dix planches d’une ou plusieurs photographies, et répertorie différents types d’œuvres. Les sculptures sont très nombreuses ; parmi elles, il convient de remarquer tout particulièrement les gisants, ainsi que quelques retables historiés. Les vitraux sont également très nombreux. Quelques tableaux et divers objets de culte s’ajoutent à ce corpus. Dans une même église, il est important de noter que le saint est souvent représenté dans la même attitude par des œuvres de types différents. Le catalogue est classé selon les saints, puis par types d’œuvres, puis par ordre alphabétique de lieux de conservation. Y ont été ajoutées quelques représentations d’autres saints et saintes céphalophores, puis quelques exemples de reliquaires, enfin quelques images des lieux de culte.</p>
         </div>
-        <div>
+        <div xml:id="r1325924">
           <head rend="uc">Chapitre II
            <lb/>Essai de chronologie</head>
           <p>Le plus ancien témoignage est la représentation de sainte Menne en orante sur la reliure du précieux Évangéliaire de Poussay (<num>xi<hi rend="sup">e</hi></num> siècle, Bibliothèque nationale de France, ms. lat. 10514). Outre quelques statues, on remarque tout particulièrement le gisant de sainte Ode (<num>xv<hi rend="sup">e</hi></num> siècle [?], Saint-Ouën-lès-Parey, Vosges), celui de saint Élophe (début du <num>xvi<hi rend="sup">e</hi></num> siècle, Saint-Élophe, Vosges), et celui de saint Euchaire (vers 1513, Liverdun), attribué à Jean Pèlerin dit Viator.</p>
           <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle, outre plusieurs statues, apparaissent les croix de chemin figuratives que l’on retrouve jusqu’au <num>xviii<hi rend="sup">e</hi></num> siècle. Au <num>xvii<hi rend="sup">e</hi></num> siècle, les œuvres sont beaucoup moins nombreuses. Un retable de la chapelle Sainte-Épéothe (Soulosse-sous-Saint-Élophe, Vosges), sur les lieux du martyre de saint Élophe, est daté de 1614 et représente le jugement, le martyre et le périple du céphalophore. La première représentation picturale est un tableau du Rosaire dans l’église de Graffigny (Haute-Marne), sur lequel est figuré saint Élophe. Au <num>xviii<hi rend="sup">e</hi></num> siècle, les représentations conservées sont plus nombreuses, notamment les tableaux, dont le plus remarquable est le <hi rend="i">Martyre de sainte Libaire</hi> de Senémont (1777, Rambervillers, Vosges). Du <num>xviii<hi rend="sup">e</hi></num> siècle sont à noter les statuettes de procession, ainsi que les cires habillées du Musée historique lorrain (Nancy).</p>
           <p>C’est le <num>xix<hi rend="sup">e</hi></num> siècle qui nous a laissé le plus grand nombre d’œuvres, sculptures, peintures et surtout vitraux. Le <num>xx<hi rend="sup">e</hi></num> siècle offre lui aussi quelques témoignages, notamment des ex-votos réalisés à la fin des deux guerres mondiales. Le dernier témoin est un vitrail de l’église de Trondes (Meurthe-et-Moselle) représentant saint Élophe, réalisé vers 1990.</p>
         </div>
-        <div>
+        <div xml:id="r1326006">
           <pb source="https://nakala.fr/10.34847/nkl.dc69p1k3#0f6c12f2bf1c90f054ebd9cf3f3952b8efafc15b" n="165" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc69p1k3/0f6c12f2bf1c90f054ebd9cf3f3952b8efafc15b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Iconographie</head>
@@ -160,11 +158,11 @@
           <p>Sainte Susanne et sainte Colombe ne présentent que les attributs des martyres : la palme et l’épée pointée en bas. Sainte Ode est vue comme une religieuse, de même que sainte Gontrude, souvent entourée de deux anges. Enfin, sainte Bologne est toujours accompagnée du tonneau hérissé de pointes, dans lequel son bourreau la précipita du haut d’une colline.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1326033">
         <head rend="uc">Conclusion</head>
         <p>Les saints enfants de Baccius et Lientrude offrent un bon exemple de la permanence d’un culte à travers les siècles. Perdu dans la nuit des temps, entériné par les autorités ecclésiastiques, il se poursuit de nos jours. L’important n’est pas de savoir si ces saints ont réellement existé ou non, mais de constater qu’ils correspondent à une manière de transmettre de façon plus accessible aux fidèles la parole de Dieu. Bien que profondément ancrée dans un terroir très localisé, l’histoire du culte des saints enfants de Baccius et Lientrude s’inscrit dans le cadre plus large de l’étude de la piété populaire du Moyen Age à nos jours.</p>
       </div>
-      <div>
+      <div xml:id="r1326043">
         <pb source="https://nakala.fr/10.34847/nkl.dc69p1k3#6be6cc1bc1a272c95442c2d025937e6c6d7b9c49" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc69p1k3/6be6cc1bc1a272c95442c2d025937e6c6d7b9c49/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>Documents généraux sur les saints enfants de Baccius et Lientrude. – Dossiers individuels : cartes, textes, photographies, documents relatifs à l’histoire des textes, des cultes ou des représentations iconographiques. – Patronages d’églises et de chapelles, lieux de conservation des reliques et des représentations iconographiques. – Identification des autres saints et saintes cités. – Identification des noms de lieu.</p>

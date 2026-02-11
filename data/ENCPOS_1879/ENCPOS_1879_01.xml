@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1879_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1879_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,15 +56,15 @@
         <forename>Fernand</forename>
         <surname>Bournon</surname>
       </byline>
-      <div>
+      <div xml:id="r99406">
         <head rend="uc">Introduction</head>
         <p>I. – Activité de Charles V pour la restauration des habitations royales ; documents à l’appui : travaux faits au Louvre, au Palais royal (palais de Justice), à l’hôtel de Nesle, à Vincennes, Saint-Ouen, Beauté-sur-Marne, Conflans, Saint-Germain en Laye, Creil, Châteauneuf-sur-Loire. Maîtres, clercs et payeurs des œuvres de 1364 à 1380.</p>
         <p>H. – Examen des sources. Les documents les plus précieux, les registres des œuvres royaux ont péri dans l’incendie de 1737 ; il faut se contenter des extraits faits par Menant et Sauvai. Les autres documents sont surtout aux Archives nationales (trésor des Chartes, comptes d’Isabeau de Bavière, archives des Célestins et de l’église Saint-Pol). Absence de travaux graphiques et imprimés.</p>
       </div>
-      <div>
+      <div xml:id="r99419">
         <head rend="uc">Première partie
          <lb/>Histoire de l’hôtel Saint-Pol</head>
-        <div>
+        <div xml:id="r99427">
           <head rend="uc">Chapitre premier
            <lb/>acquisitions.</head>
           <p>I. – Origine du quartier Saint-Pol.</p>
@@ -92,7 +90,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r99512">
         <head rend="uc">Deuxième partie
          <lb/>Description de l’hôtel Saint-Pol</head>
         <p>I. – Notes sur les artistes du <num>xiv<hi rend="sup">e</hi></num> siècle qui ont été employés à la décoration de l’hôtel ; Raymond du Temple, Evrard le peintre, Jean de Saint-Romain, les d’Orliens. Sépultures royales construites sous les galeries de l’hôtel Saint-Pol.</p>
@@ -104,7 +102,7 @@
         <p>VII. – Animaux petits et grands.</p>
         <p>VIII. – Eaux et fontaines.</p>
       </div>
-      <div>
+      <div xml:id="r99551">
         <head rend="uc">Troisième partie
          <lb/>La vie à l’hôtel Saint-Pol</head>
         <p>I. – Charles V et Charles VI sont les seuls rois qui aient habité régulièrement l’hôtel. Charles VII n’y demeura jamais. Louis XI fit quelques séjours non à l’hôtel Saint-Pol, mais dans une de ses dépendances, l’hôtel Neuf près de la Bastille.</p>
@@ -116,7 +114,7 @@
         <p>VI. – Mascarade des sauvages.</p>
         <p>VII. – Fragment de compte des funérailles de Charles VI.</p>
       </div>
-      <div>
+      <div xml:id="r99586">
         <head rend="uc">Appendice</head>
         <p>Compte de travaux faits à l’église Saint-Pol par le duc d’Orléans (1399-1400).</p>
         <p>Pièces justificatives.</p>

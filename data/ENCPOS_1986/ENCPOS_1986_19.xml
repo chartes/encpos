@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <forename>Joël</forename>
         <surname>Poivre</surname>
       </byline>
-      <div>
+      <div xml:id="r1137637">
         <head rend="uc">Introduction</head>
         <p>On peut s’interroger sur l’intérêt historique de la biographie d’un polémiste célèbre en son temps, mais oublié de nos jours, tel que Jérémie Ferrier. Cet intérêt réside d’abord dans la vie même du personnage, pasteur protestant qui, après avoir soutenu avec éclat que le pape Clément VIII était l’Antéchrist, se convertit en 1613 et prit soin de se réfuter lui-même, et qui à la fin de sa vie, de surcroît, mit ses talents de polémiste au service de Richelieu.</p>
         <p>Ferrier est aussi un révélateur des grandes évolutions de son temps. A ce titre, son cas intéresse non seulement l’histoire religieuse ou politique, mais aussi l’histoire intellectuelle et sociale du début du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1137656">
         <head rend="uc">Sources</head>
         <p>Parmi les sources manuscrites, le fonds le plus riche est celui du consistoire protestant de Nîmes, conservé aux Archives départementales du Gard (sous-séries 30 J et 42 J). Nous avons également eu recours aux fonds judiciaires de la Chambre de l’Édit de Castres (Archives départementales de la Haute-Garonne, sous-série 3 B) et à certains dossiers de la série TT des Archives nationales. Si les fonds notariaux conservés à Nîmes se sont révélés intéressants, les recherches au Minutier central des notaires parisiens n’ont livré qu’un seul acte. Enfin, la Bibliothèque nationale possède quelques lettres de Ferrier, et la Bibliothèque historique du protestantisme français a fourni, outre diverses copies, un document autographe de Ferrier.</p>
         <p>Les sources imprimées se répartissent en deux groupes : d’une part, les œuvres polémiques de Ferrier, soit théologiques soit politiques, avec les réponses qu’elles ont suscitées, conservées pour la plupart à la Bibliothèque natio<pb source="https://nakala.fr/10.34847/nkl.4e55ins7#d7c6df643044e89141d241699cc1d8a63f9c1be8" n="160" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e55ins7/d7c6df643044e89141d241699cc1d8a63f9c1be8/full/full/0/default.jpg"/>nale ; d’autre part, des récits contemporains, le plus souvent anonymes, ainsi que les œuvres de divers mémorialistes (L’Estoile, Sully ou Casaubon...). S’y ajoutent quelques recueils de documents de l’époque (papiers de Richelieu...).</p>
       </div>
-      <div>
+      <div xml:id="r1137674">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Une vie mouvementée (1576-1626)</head>
-        <div>
+        <div xml:id="r1137686">
           <head rend="uc">Chapitre premier
            <lb/>le protestant de combat (1576-1610)</head>
           <p>Jérémie Ferrier est issu d’une famille pastorale du Rouergue. Né à Millau en 1576, orphelin de père assez jeune, il est recueilli par un pasteur, M. de Gasque. Après des études brillantes au collège et à l’Académie protestante de Nîmes, il est consacré pasteur en 1595 et nommé à Aumessas, puis, en 1596, à Alès. Là, il révèle ses talents de controversiste (Les <hi rend="i">essais,</hi> 1601), et attire sur lui l’attention de l’Église de Nîmes, qui, en 1601, obtient son ministère.</p>
@@ -79,7 +77,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.4e55ins7#5089933eee2084c8c6d55b86bef9e482ca4fcc9f" n="161" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e55ins7/5089933eee2084c8c6d55b86bef9e482ca4fcc9f/full/full/0/default.jpg"/>
           <p>Depuis 1605, Ferrier s’était rendu à plusieurs reprises à Paris, notamment pour accomplir auprès de la Cour des missions dont le chargeait son Eglise. A ces occasions, il prêcha à Charenton où son éloquence fut unanimement appréciée. L’Eglise de Paris demanda donc, à partir de 1607, sa nomination en son sein, et finit par l’obtenir, entre autres grâce aux pressions de Sully, lors du synode national de Saint-Maixent en 1609. Mais les Nîmois ne consentirent qu’à un « prêt » temporaire.</p>
         </div>
-        <div>
+        <div xml:id="r1137717">
           <head rend="uc">Chapitre II
            <lb/>Le protestant d’état (1610-1613)</head>
           <p>Ferrier arriva à Paris, juste après l’assassinat d’Henri IV en mai 1610. Ses prêches à Charenton insistèrent sur l’unité nécessaire des protestants face aux périls de l’heure. Mais ses convictions personnelles le portaient plutôt vers le parti de la Cour, et il en donna vite la preuve. En juillet 1610, il quitta Paris sans avertissement et revint à Nîmes où il fit de violentes prédications contre les Jésuites, qu’il rendait responsables de la mort du roi et qui cherchaient alors à ouvrir un collège dans la ville. D’où de nouveaux démêlés avec les édiles municipaux qu’il taxait de lâche complaisance à l’égard des pères.</p>
@@ -87,7 +85,7 @@
           <p>L’attitude de Ferrier à Saumur le fit soupçonner de trahison. Les soupçons se muèrent en accusations graves, en particulier celle d’être pensionné par la Cour, dès le Synode provincial du 15 octobre 1611, réuni à Montpellier. Ferrier parvint à se disculper, grâce à son éloquence persuasive. Mais le synode provincial de 1612 décida de déférer son cas au synode national. Celui-ci, réuni à Privas en mai, fit comparaître Ferrier, contre lequel des accusations sérieuses étaient portées. Convaincu de malversations, d’abandon de poste indu, pour avoir quitté Paris sans congé, et d’autres chefs d’accusation, Ferrier se vit interdire d’assemblée politique pour six ans et fut muté, à titre de sanction, à Montélimar. Parallèlement son frère cadet, Ésaïe, également pasteur, était suspendu du ministère, à la suite d’une affaire mal éclaircie. Il est vrai qu’à cette date, Ésaïe Ferrier était pensionné par le clergé catholique, sur l’ordre du cardinal du Perron, qui visait Jérémie au-delà de son frère.</p>
           <p>L’Eglise de Nîmes, très attachée à Ferrier, faillit se rebeller contre la décision synodale, si le comportement étrange du pasteur ne lui avait fait changer d’avis. Ce dernier, en effet, décida de faire intervenir le pouvoir en sa faveur ; grâce aux amis qu’il avait à la Cour, notamment Claude de Bullion, le futur surintendant, qu’il avait connu à Saumur, il obtint un arrêt du Conseil annulant la décision de Privas. Puis il se fit pourvoir, dès septembre 1612, de la <pb source="https://nakala.fr/10.34847/nkl.4e55ins7#398975f046fee5034499c3e590a2af6be8406de2" n="162" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e55ins7/398975f046fee5034499c3e590a2af6be8406de2/full/full/0/default.jpg"/>charge de lieutenant-criminel au présidial de Nîmes. Ces opérations lui aliénèrent l’opinion nîmoise. Le présidial refusa de l’accueillir, car son office était normalement supprimé depuis plusieurs années. Par ailleurs, le colloque de Lyon, chargé par le synode de Privas des suites de l’affaire, commença à instruire son procès pour désertion du ministère. Ferrier riposta en composant un libelle satirique contre le synode, <hi rend="i">Le magot genevois.</hi> Au présidial, après de multiples péripéties judiciaires, il se vit débouté de ses prétentions en mai 1613 ; il contourna la difficulté en achetant une charge de simple conseiller, et au début de juillet, commença à siéger parmi les magistrats, toute opposition contre lui ayant cessé. Cette entrée dans la magistrature causa sa perte dans l’Église réformée. Le synode provincial du Bas-Languedoc l’excommunia pour désertion du ministère : la sentence fut publiquement lue en chaire, le dimanche 14 juillet 1613. En se rendant au présidial dès le lendemain, Ferrier acheva d’exaspérer la population réformée de la ville. Il s’ensuivit une véritable émeute au cours de laquelle sa maison fut pillée et ses meubles brûlés. Ferrier lui-même dut se cacher puis quitter clandestinement la ville avec sa famille. Son départ consacrait l’échec de sa politique de docilité au pouvoir qu’il aurait voulu faire accepter par tous les huguenots.</p>
         </div>
-        <div>
+        <div xml:id="r1137747">
           <head rend="uc">Chapitre III
            <lb/>Le catholique d’état (1613-1626)</head>
           <p>Ferrier gagna Paris où il chercha d’abord à obtenir une réparation substantielle des dommages subis. Lui et ses amis participèrent à une guerre de pamphlets contre les Nîmois. Il reçut finalement une indemnité confortable et revendit son office pour un bon prix. En septembre 1613, après avoir été catéchisé par le cardinal du Perron, il abjura le calvinisme entre les mains du Père Coton. Ce geste lui valut de la part du clergé une pension annuelle de deux mille livres, chiffre le plus élevé atteint dans ce domaine à l’époque. Il composa ensuite deux ouvrages de controverse contre ses ex-coreligionnaires, dont l’un, <hi rend="i">De l’Antéchrist et de ses marques,</hi> réfutait son écrit de 1602. En 1619, il fut nommé historiographe du roi, fonction plutôt honorifique mais assortie d’une pension non négligeable. Il se mêla à la vie intellectuelle de la capitale et fut notamment un membre assidu de « l’académie » des frères Dupuy. Si, durant cette période, il n’écrivit rien et fit peu parler de lui, il mena la vie du parfait « honnête homme », cultivé, discret et curieux de tout. Il possédait un « cabinet » de bijoux et de monnaies qui faisait l’envie de Peiresc. En 1623 au plus tard, et peut-être dès 1622, en tout cas bien avant 1626, date jusqu’ici admise, il fut nommé conseiller d’Etat, poste qui le rapprochait du pouvoir.</p>
@@ -95,25 +93,25 @@
           <p>Ferrier avait épousé Isabeau de Guéraud, dont il eut trois enfants : l’aîné, François, fit une carrière militaire et servit Richelieu dans la guerre contre l’Espagne à partir de 1635. Il mourut sans postérité en 1637. Le second, Jean, fut commis du surintendant des Finances d’Effiat et acquit une fortune importante. Il fut tué en 1638 au cours d’une rixe. Il ne restait plus alors que Marie, née en 1613 et seule à avoir été baptisée dans la religion catholique. Elle représentait un beau parti. En 1638, un gentilhomme limousin l’enleva. Mais il dut la rendre à sa famille, sur l’injonction de Richelieu. Marie épousa finalement le lieutenant criminel Tardieu. Les deux époux se signalèrent par leur parcimonie. Sans enfant, ils périrent assassinés par deux bandits qui en voulaient à leur or (25 août 1665). Isabeau de Guéraud, morte en 1659, était restée protestante malgré la conversion de son mari.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1137783">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Les milieux et la pensée</head>
-        <div>
+        <div xml:id="r1137795">
           <head rend="uc">Chapitre premier
            <lb/>milieu familial, milieu social</head>
           <p>Jérémie était l’aîné de trois fils. L’un de ses frères connut un destin parallèle au sien. Cet Esaïe Ferrier, né vers 1582, ne fait qu’un avec « le frère de M. Ferrier », étudiant en théologie à Nîmes en 1602, qu’évoquent les documents. Esaïe fut pasteur, comme Jérémie. Suspendu par le synode de Privas en 1612, il fut déposé par celui de Vitré en 1617. Comme son frère, il était pensionné par le clergé et il finit par se convertir. Il était docteur en droit civil et en droit canon, fait remarquable pour un huguenot. Du deuxième frère, on ne sait rien sinon qu’il était médecin. Ainsi cette génération, à travers le droit et la médecine, s’écartait de la tradition théologique de la famille, et il y a tout lieu de penser que Jérémie fut pour quelque chose dans ces choix.</p>
           <p>Ferrier était d’humble origine et ses parents ne lui avaient laissé qu’un faible héritage. A la fin de sa vie, il occupe un poste en vue et dispose d’une véritable fortune. Le mécanisme de cette ascension repose sur deux leviers. Le premier est une gestion financière habile, âpre et économe, qui permit à Ferrier un enrichissement certain. En 1613, sa fortune s’élève à environ quarante cinq mille livres, en terres, maisons, office et biens meubles. Un des procédés utilisés par Ferrier fut le prêt à des taux plus ou moins usuraires. Le reste de sa fortune lui vint de la dot de sa femme et des gratifications de la Cour. L’objectif final, réalisé en 1612, était l’achat d’un office de justice en vue d’améliorer son statut social. L’émeute de 1613 ne compromit pas sa fortune. En 1638, sa veuve <pb source="https://nakala.fr/10.34847/nkl.4e55ins7#af2e470da9877a3acf5da86634a638b710abe928" n="164" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e55ins7/af2e470da9877a3acf5da86634a638b710abe928/full/full/0/default.jpg"/>pouvait assurer une dot de trois cent mille livres à sa fille. Le deuxième moyen d’ascension pratiqué par Jérémie fut le clientélisme. Il fut d’abord favorisé par M. de Gasque, son tuteur ; puis il bénéficia, jusqu’en 1611, de la protection de Sully ; ensuite, le duc ayant été disgrâcié, il se plaça sous le patronage de Bullion ; il fut, enfin, une parfaite « créature » de Richelieu, qui, après sa disparition, continua à protéger sa famille. Lui-même à l’époque où il était à Nîmes disposa de « créatures », notamment au sein du consistoire ou du conseil de ville.</p>
           <p>Le but ultime de l’ambition de Ferrier, qui, à la fin de sa vie, se faisait appeler Du Ferrier, fut, semble-t-il, d’obtenir l’anoblissement par le service du roi. Plus précisément, il correspond bien au type social défini sous le nom de <hi rend="i">gentry </hi>(G. Huppert), groupe social distinct à la fois de la bourgeoisie et de la noblesse. Il en partage, en effet, les moyens d’ascension, notamment l’achat d’un office de judicature, et les valeurs culturelles et politiques.</p>
         </div>
-        <div>
+        <div xml:id="r1137822">
           <head rend="uc">Chapitre II
            <lb/>Les bases de la pensée</head>
           <p>Le Collège de Nîmes, où Ferrier fit ses études secondaires, appliquait des principes pédagogiques humanistes et réformés, inspirés de l’œuvre de Jean Sturm. Il en résultait une grande place accordée à la littérature de l’Antiquité classique et une parfaite maîtrise du latin et du grec, maîtrise que Ferrier a manifestée dans son œuvre. On <hi rend="i">y</hi> étudiait aussi des rudiments de philosophie générale, de théologie et, fait important, car cet enseignement marqua beaucoup le jeune Ferrier, de droit civil. A l’Académie protestante, Ferrier apprit l’hébreu, approfondit ses connaissances en théologie et surtout s’entraîna à la controverse par la pratique régulière de discussion de thèses en latin. Ces exercices faisaient largement appel à la logique formelle, ce qui n’allait pas sans donner, à la longue, une conception trop intellectualisée de la foi aux futurs pasteurs.</p>
           <p>Un des moyens de se faire une idée de la culture de Jérémie Ferrier consiste à reconstituer sa bibliothèque, qui était fort riche. A défaut d’inventaire, les nombreuses citations d’ouvrages dont il émailla certains de ses livres permettent de connaître ses lectures. Celles-ci se révèlent encyclopédiques, avec une nette prédominance de la littérature antique. Les auteurs ecclésiastiques, en particulier les pères de l’Église, sont très bien représentés. On note, par ailleurs, un intérêt particulier pour l’histoire, surtout l’histoire ecclésiastique. Ferrier s’intéresse également au droit (il cite couramment le <hi rend="i">Décret</hi> de Gratien), à la littérature de la Renaissance, Erasme et Montaigne, et à la démonologie. Il connaît parfaitement les controversistes de son temps, ce qui est naturel, et, bien sûr, l’Écriture Sainte. Au total, il dispose d’une culture scripturaire et humaniste largement ouverte aux connaissances profanes de son siècle.</p>
           <p>La pensée de Ferrier se fonde sur des concepts aristotéliciens, tels celui de substance. De plus, il utilise parfois dans la controverse des syllogismes en forme qu’il considère comme des arguments de choix. Plus originale est l’imprégnation par le droit, qui se manifeste dans le vocabulaire employé et dans la manière même de poser les problèmes théologiques. Certaines questions débattues par Ferrier sont en réalité des questions dignes d’un canoniste. Ce juridisme est d’ailleurs répandu, à cette époque, dans toute la société, mais il culmina chez <pb source="https://nakala.fr/10.34847/nkl.4e55ins7#8232d80298e222a1279619e83666e3d73cd24d90" n="165" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e55ins7/8232d80298e222a1279619e83666e3d73cd24d90/full/full/0/default.jpg"/>Ferrier. Dans la polémique, Ferrier manie volontiers la répétition ou l’accumulation, et surtout l’ironie, d’autant plus redoutable chez lui qu’elle est souvent féroce. Par ailleurs, il sait utiliser habilement l’équivoque intellectuelle, voire jusqu’au mensonge. En définitive, sa méthode polémique cherche à écraser l’adversaire et à se justifier lui-même plus qu’à convaincre, au détriment d’une vraie confrontation d’idées.</p>
         </div>
-        <div>
+        <div xml:id="r1137853">
           <head rend="uc">Chapitre III
            <lb/>La pensée religieuse et politique</head>
           <p>Le protestantisme de Ferrier n’est déjà plus celui de Calvin. Notamment il se veut plus rationaliste. Cette dérive est, en fait, celle de tout le calvinisme français, mais Ferrier va plus loin que ses contemporains : on peut voir en lui un précurseur de la notion de « libre examen », dans laquelle la raison se substitue entièrement à l’Esprit-Saint pour interpréter la Bible. Ce rationalisme est d’ailleurs un fruit de la controverse. L’autre aspect essentiel de la pensée théologique de Ferrier est la prééminence de l’ecclésiologie, et plus spécialement de la question de la vraie Eglise. Ce souci est encore un produit de la controverse, non sans conduire parfois à des prises de position étranges. Le cas de Ferrier se révèle ici exemplaire : c’est tout le calvinisme français qui, entraîné par le poids de la controverse, tend à élaborer une théologie éloignée des bases posées par les réformateurs et même, en certains cas, en contradiction avec elles. La conversion n’a pas produit de véritable rupture dans la pensée de Ferrier, ce qui conduit à s’interroger sur sa sincérité.</p>
@@ -121,18 +119,18 @@
           <p>L’œuvre polémique politique de Ferrier révèle une pensée très cohérente et qui confirme le côté hétérodoxe du personnage. En effet, Ferrier, s’inspirant de Machiavel, considère la religion comme subordonnée à la politique et, au besoin, récupérée par elle. Il professe en conséquence l’existence d’une morale politique distincte de la morale chrétienne, et qui se résume par l’axiome « la fin justifie les moyens ». Ce faisant, il aboutit à la notion de « raison d’Etat » que développent avec lui tous les écrivains à gages de Richelieu. Chez Ferrier, ces conceptions s’appuient sur une vision globale de l’univers, vision pessimiste dans laquelle la violence est à l’origine de tout. Cette violence, qui le fascine, nécessite, pour la canaliser, un pouvoir fort, absolu, celui des rois en général, et du roi de France en particulier, chacun étant tenu de résister aux ambitions inéluctables des autres. Face aux Espagnols, le combat du roi de France est légitime parce que fatal, et tout sujet doit y contribuer. On aboutit ainsi à un véritable nationalisme fondé en raison. Mais Ferrier va encore plus loin : il divinise littéralement la notion d’Etat, ce qui permet de saisir le fond de sa pensée religieuse. Il n’a pas éliminé le sacré de son esprit, il l’a simplement transféré du Dieu chrétien à l’Etat moderne, du Christ au Léviathan.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1137872">
         <pb source="https://nakala.fr/10.34847/nkl.4e55ins7#fed9635953eff38a3d0521083c6bbcddae5e15f8" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e55ins7/fed9635953eff38a3d0521083c6bbcddae5e15f8/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>L’homme et son image</head>
-        <div>
+        <div xml:id="r1137889">
           <head rend="uc">Chapitre premier
            <lb/>l’homme</head>
           <p>Ferrier fut incontestablement un sujet doué. Il possédait une large curiosité intellectuelle et une intelligence très soucieuse de cohérence. Cependant, il était avant tout pragmatique et ne montra jamais de goût pour la spéculation désintéressée. Il avait une grande facilité d’écriture. Enfin, et peut-être surtout, c’était un orateur de premier ordre. Il a exercé sur ses auditeurs une véritable séduction, dont la cause reste à découvrir, mais qui est largement attestée par les contemporains.</p>
           <p>Si Ferrier était vif, il savait en général contrôler parfaitement ses émotions et était passé maître dans l’art de se composer un personnage, il était en conséquence très dissimulé. Par ailleurs, il se faisait une haute idée de lui-même, allant parfois jusqu’à la mégalomanie. Cet orgueil le rendait naturellement ambitieux, et son ambition fut le moteur de sa vie. C’est notamment pour la satisfaire qu’il se montra si âpre au gain, et non par amour de l’argent. Son enfance d’orphelin pauvre avait sans doute développé chez lui une volonté tenace de revanche sociale qui explique son ambition. Enfin, il faut insister sur sa grande lucidité, sauf quand l’orgueil l’aveuglait, et sur le profond pessimisme qui nourrissait cette lucidité.</p>
         </div>
-        <div>
+        <div xml:id="r1137904">
           <head rend="uc">Chapitre II
            <lb/>L’image</head>
           <p>Ferrier, déjà célèbre de son vivant, a eu les honneurs de la postérité. Du <num>xvii<hi rend="sup">e</hi></num> siècle à nos jours, il a inspiré les historiens mais aussi les écrivains, tels Boileau, Racine ou Tallemant des Réaux. Le <num>xix<hi rend="sup">e</hi></num> siècle l’a fait entrer dans les principaux dictionnaires biographiques. Le <num>xx<hi rend="sup">e</hi></num> siècle l’a quelque peu oublié, du moins jusqu’en 1940 où une étude lui fut consacrée pour la première fois. Son souvenir a donc persisté, mais a fait l’objet de certaines manipulations, qui aboutissent à deux images antinomiques.</p>
@@ -140,16 +138,16 @@
           <p>Dès 1613, se constitua progressivement, chez les protestants, une véritable légende noire de Ferrier qui en fit le type parfait de l’apostat maudit. On finit par le présenter comme un personnage peu intelligent, avare, ambitieux et brouil<pb source="https://nakala.fr/10.34847/nkl.4e55ins7#8b37696a574ba564eeb50587a95f95f9dbc67b18" n="167" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e55ins7/8b37696a574ba564eeb50587a95f95f9dbc67b18/full/full/0/default.jpg"/>Ion. Cette version protestante reçut un trait de plus, le ridicule, par le biais de Boileau dans ses <hi rend="i">Satires</hi> et de Racine dans <hi rend="i">Les plaideurs.</hi> Ces deux auteurs s’attaquaient en fait à Marie, la fille de Ferrier, épouse du lieutenant criminel Tardieu, couple que la rumeur publique stigmatisait pour son avarice sordide. Mais, à leur suite, le cas de Marie fut toujours assimilé à celui de Jérémie. Les milieux catholiques, eux, ne s’opposèrent pas à cette version, car ils considéraient Ferrier comme un libertin.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1137954">
         <head rend="uc">Conclusion</head>
         <p>La question essentielle qui se pose au sujet du cas individuel de Ferrier est celle des motifs de sa conversion. Il est clair désormais qu’il se convertit à la fois par intérêt et par idéologie. Mais l’idéologie qui le pousse à se convertir n’a plus grand rapport avec le christianisme. Ferrier, en définitive, n’adopte pas le catholicisme, mais la religion de son roi.</p>
         <p>Le « cas Ferrier » est riche d’enseignements. Il dévoile d’abord certaines faiblesses du protestantisme français, entraîné par la controverse à des positions dogmatiques dangereuses car en réalité étrangères à son génie, et trop prompt à se fier à un homme providentiel. Les dangers de la controverse concernent aussi le catholicisme, car le débat entre les deux confessions engendre un scepticisme qui les englobe toutes deux. Enfin, dans le domaine politique, l’activité de Ferrier est à inscrire dans la construction de l’Etat moderne, laïque, national et, en l’occurence, absolutiste. Jérémie Ferrier, et c’est tout son intérêt, fut un des acteurs de la modernité française au début du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1137973">
         <head rend="uc">Pièces justificatives</head>
         <p>Thèses de 1602. – Pièces du procès de 1602. – Pièce du procès pour l’office au présidial en 1612. – Quittance autographe de Ferrier (1623). – Trois lettres de Ferrier.</p>
       </div>
-      <div>
+      <div xml:id="r1137983">
         <head rend="uc">Annexes</head>
         <p>Tableau généalogique. – Cartes des provinces synodales réformées, des places de sûreté et des lieux d’activité de Ferrier.</p>
         <pb source="https://nakala.fr/10.34847/nkl.4e55ins7#eba7a47deec0f3b8da73db8a0a0c373f090e5e74" n="168" facs="https://api.nakala.fr/iiif/10.34847/nkl.4e55ins7/eba7a47deec0f3b8da73db8a0a0c373f090e5e74/full/full/0/default.jpg"/>

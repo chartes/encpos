@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,24 +62,24 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r391649">
         <head rend="uc">Introduction</head>
         <p>Le terme « Brie » n’a jamais désigné une division politique, ecclésiastique, administrative ; il s’applique essentiellement à une unité économique.</p>
         <p>Le <num>xii<hi rend="sup">e</hi></num> et surtout le <num>xiii<hi rend="sup">e</hi></num> siècle sont, pour la Brie, l’époque de la plus grande prospérité due et au voisinage de Paris et à l’importance des foires de Champagne protégées par les Comtes.</p>
         <p>Cette prospérité décline depuis l’annexion de la Champagne à la couronne et la décadence des foires ; elle disparaît à la suite de la guerre de Cent Ans.</p>
       </div>
-      <div>
+      <div xml:id="r391677">
         <pb source="https://nakala.fr/10.34847/nkl.6ac9pmsl#72f32cdb342ec9d7291f59c0c27ae4b5a323c2aa" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ac9pmsl/72f32cdb342ec9d7291f59c0c27ae4b5a323c2aa/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les habitants</head>
-        <div>
+        <div xml:id="r391690">
           <head rend="uc">Chapitre premier
            <lb/>les propriétaires briards</head>
           <p>Le sol de la Brie est très morcelé.</p>
           <p>I. – <hi rend="i">Propriétaires ecclésiastiques :</hi> séculiers, réguliers : monastères exclusivement briards ou (dans la Brie française) dépendances des grands établissements parisiens.</p>
           <p>II. – <hi rend="i">Propriétaires laïques :</hi> souverains et seigneurs ; nombreux bourgeois, en particulier parisiens (Brie française) ; étrangers, surtout italiens et espagnols (Brie champenoise).</p>
         </div>
-        <div>
+        <div xml:id="r391716">
           <head rend="uc">Chapitre II
            <lb/>Les serfs</head>
           <p><hi rend="i">Sources du servage.</hi> – Naissance, mariage, résidence, servitude volontaire. Le serf est un immeuble que le seigneur peut donner, vendre, échanger en totalité ou en partie, perpétuellement ou à temps. Mais ces actes juridiques n’impliquent pas déplacement de l’individu fixé à sa tenure. De même le partage des serfs consiste à faire cesser l’indivision entre les copropriétaires, non à séparer matériellement les membres d’une même famille.</p>
@@ -90,12 +88,12 @@
           <p><hi rend="i">Condition du serf.</hi> – Il peut être propriétaire, en <pb source="https://nakala.fr/10.34847/nkl.6ac9pmsl#a029a387f179485b3f7d8c6c8ea2fd88b9d07b34" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ac9pmsl/a029a387f179485b3f7d8c6c8ea2fd88b9d07b34/full/full/0/default.jpg"/>dehors de sa tenure, de biens dont il dispose entre vifs, contracter avec son seigneur. Les mariages entre nobles et serfs sont prévus par les coutumes.</p>
           <p><hi rend="i">Affranchissement.</hi> – Le serf affranchi, parfois seulement dispensé de certaines redevances, devient noble, bourgeois ou clerc.</p>
         </div>
-        <div>
+        <div xml:id="r391760">
           <head rend="uc">Chapitre III
            <lb/>Les serfs privilégiés</head>
           <p>Serfs royaux et d’Église. Hôtes, maires et doyens. – Ils jouissent d’avantages judiciaires et financiers, dus soit à la qualité de leurs maîtres (serfs royaux et d’Église), soit à leur rôle économique. Hôtes (redevances fixes). Agents seigneuriaux : maire et doyen (exemption de la taille, salaire en nature).</p>
         </div>
-        <div>
+        <div xml:id="r391772">
           <head rend="uc">Chapitre IV
            <lb/>Les redevances</head>
           <p>Elles sont perçues sur tous les habitants et dues :</p>
@@ -104,7 +102,7 @@
           <p>3° au propriétaire : loyer en argent ou en nature, cens, rentes, « moison », fournitures ou coutumes.</p>
           <p>Les redevances multiples et variables en argent et en nature se transforment en une redevance fixe en argent, ce qui est un indice de prospérité économique.</p>
         </div>
-        <div>
+        <div xml:id="r391796">
           <head rend="uc">Chapitre V
            <lb/>Les services</head>
           <p>Quelques-uns sont de nature économique : culture de la terre et charrois dus au seigneur foncier.</p>
@@ -113,10 +111,10 @@
           <p>Les services aussi se transforment en redevances.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r391820">
         <head rend="uc">Deuxième partie
          <lb/>L’exploitation du sol</head>
-        <div>
+        <div xml:id="r391828">
           <head rend="uc">Chapitre premier
            <lb/>les forêts</head>
           <p>Signification du mot « forêt ». Utilité des forêts pour les diverses classes de la société.</p>
@@ -124,20 +122,20 @@
           <p>Propriétaires fonciers : coupes de bois ; elles sont vendues souvent dans la capitale.</p>
           <p>Usagers : nature juridique de leurs droits. Rois pour le chauffage, la construction, droits de pâturage.</p>
         </div>
-        <div>
+        <div xml:id="r391849">
           <head rend="uc">Chapitre II
            <lb/>Les défrichements</head>
           <p>Obstacles venant des propriétaires tréfonciers, des usagers, du morcellement, vaincus grâce au « remembrement » de la propriété.</p>
           <p>Avantages du défrichement : culture, fondation de nouveaux villages.</p>
           <p>Obligations imposées au concessionnaire. Le défrichement doit être accompli dans un laps de temps déterminé. Il est parfois interdit au concessionnaire de sous-louer les terres défrichées, de fonder des villes, et jamais il ne lui est permis d’établir des forteresses.</p>
         </div>
-        <div>
+        <div xml:id="r391867">
           <pb source="https://nakala.fr/10.34847/nkl.6ac9pmsl#681921cdd704e956569fa222a7e4b5c97c2e3d84" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.6ac9pmsl/681921cdd704e956569fa222a7e4b5c97c2e3d84/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Composition d’un domaine</head>
           <p>Chaque exploitation pourrait se suffire à elle-même. Elle comprend terres labourables, vignes, prés, bois. Elle est souvent mise en valeur par le système du métayage.</p>
         </div>
-        <div>
+        <div xml:id="r391884">
           <head rend="uc">Chapitre IV
            <lb/>Les céréales. Plantes textiles et tinctoriales</head>
           <p>Le terme « blé » désigne souvent l’ensemble des céréales. La plus cultivée en Brie est le froment. On rencontre aussi l’avoine, le seigle, l’orge (regardée comme une céréale de qualité inférieure).</p>
@@ -147,7 +145,7 @@
           <p>Plantes textiles. Le chanvre est cultivé dans toute la Brie.</p>
           <p>Plantes tinctoriales. La garance et la guède sont cultivées aux environs de Provins.</p>
         </div>
-        <div>
+        <div xml:id="r391911">
           <head rend="uc">Chapitre V
            <lb/>Les vignes</head>
           <p>La culture de la vigne est plus développée au XIII<hi rend="sup">e </hi>siècle que de nos jours.</p>
@@ -157,19 +155,19 @@
           <p>Gardiens des vignes ; vendanges, pressoirs.</p>
           <p>Redevances perçues sur les vignes : cens, « moison », vinage ; sur le transport du vin (portage, échantelage) ; sa mise en vente (entrage, criage, forage, pertuisage).</p>
         </div>
-        <div>
+        <div xml:id="r391944">
           <head rend="uc">Chapitre VI
            <lb/>Les prés</head>
           <p>Les prés d’un même village sont voisins et constituent un ensemble : la prairie. Certains sont réservés aux chevaux. Ils sont clos de fossés plus souvent que de haies.</p>
         </div>
-        <div>
+        <div xml:id="r391956">
           <head rend="uc">Chapitre VII
            <lb/>Bétail et Volailles</head>
           <p>Les chevaux sont employés non seulement pour les charrois mais encore pour les labours.</p>
           <p>Bœufs et vaches. Dès le <num>xiii<hi rend="sup">e</hi></num> siècle, les fromages sont l’objet d’un certain commerce.</p>
           <p>Moutons. Volailles (gélines et chapons), oies, pigeons.</p>
         </div>
-        <div>
+        <div xml:id="r391980">
           <head rend="uc">Chapitre VIII
            <lb/>La vie du paysan</head>
           <p>Aspect du village. Ses limites : bornes, croix ou ormes.</p>
@@ -183,7 +181,7 @@
           <p>Mœurs. Rixes. Luttes contre les agents seigneuriaux. Vie dans les prisons.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r392019">
         <head rend="uc">Conclusion</head>
         <p>Au <num>xiii<hi rend="sup">e</hi></num> siècle, rapports nombreux entre les diverses classes de la société ; passage fréquent et parfois clandestin, grâce au commerce, du servage à la bourgeoisie, voire à la noblesse.</p>
         <p>La Brie au <num>xiii<hi rend="sup">e</hi></num> siècle a joui d’une prospérité égale sinon supérieure à celle dont elle jouit actuellement.</p>

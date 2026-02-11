@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,12 +55,12 @@
         <surname>Dargaud</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r998016">
         <head rend="uc">Introduction</head>
         <p>L’église Saint-Nicolas-des-Champs, en façade sur la rue Saint-Martin, est un monument intéressant à plus d’un titre : son portail méridional, inspiré d’un décor de Philibert de l’Orme, est un des plus beaux spécimens de l’architecture religieuse de la Renaissance à Paris et plusieurs de ses baies sont ornées de vitraux blancs à riche bordure décorative de la fin du <num>xvi<hi rend="sup">e</hi></num> et du <num>xvii<hi rend="sup">e</hi></num> siècle. De plus, son imposant retable, où collaborèrent pour la première fois Simon Vouet et Sarrazin, et ses chapelles décorées de tableaux d’autel et de peintures murales commandés à Quentin Varin, Georges Lallemant ou François II Pourbus en font comme un petit musée de la peinture française à Paris au début du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
         <p>Pour l’histoire de l’architecture, Saint-Nicolas-des-Champs n’est pas moins importante : sa nef des <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles témoigne de la sobriété de l’art flamboyant parisien tandis que le reste de l’édifice accuse la persistance de l’architecture gothique jusqu’au début du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r998065">
         <head rend="uc">Sources</head>
         <p>Aux Archives nationales, la sous-série H<hi rend="sup">5</hi> et les registres LL 863 et LL 864 permettent de préciser les « embellissements » du <num>xviii<hi rend="sup">e</hi></num> siècle. Le carton S 3458 renferme les transactions passées avec Saint-Martin-des-Champs. Les inventaires des titres de la fabrique sont conservés sous les cotes S 3459-3462.</p>
         <pb source="https://nakala.fr/10.34847/nkl.16e6dzg1#a37362da3b0cecddec16903b36ef8cc2050ad42a" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e6dzg1/a37362da3b0cecddec16903b36ef8cc2050ad42a/full/full/0/default.jpg"/>
@@ -70,17 +68,17 @@
         <p>Aux Archives de la Seine et aux Archives des Monuments historiques, les dossiers des restaurations modernes ne commencent malheureusement qu’en 1871 et 1887. Les papiers Guilhermy et ceux de l’abbé Drouyn au Département des manuscrits de la Bibliothèque nationale ont fourni quelques renseignements.</p>
         <p>La documentation graphique a été trouvée à la Section des cartes et plans des Archives nationales (très intéressants plans rétrospectifs des campagnes d’extension de l’église, établis au <num>xviii<hi rend="sup">e</hi></num> siècle), au Cabinet des estampes de la Bibliothèque nationale et au musée Carnavalet.</p>
       </div>
-      <div>
+      <div xml:id="r998117">
         <head rend="uc">Première partie
          <lb/>Histoire de l’église</head>
-        <div>
+        <div xml:id="r998125">
           <head rend="uc">Chapitre premier
            <lb/>les origines (<num>xi<hi rend="sup">e</hi></num>-<num>xv<hi rend="sup">e</hi></num> siècles)</head>
           <p>Dès la fondation de Saint-Martin-des-Champs en 1060, une cure d’âmes fut établie qui disposa très tôt d’un oratoire : la chapelle Saint-Nicolas est mentionnée dans plusieurs bulles du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Une reconstruction intervint sans doute au début du <num>xiii<hi rend="sup">e</hi></num> siècle, à en juger par la corniche conservée.</p>
           <p>Le clocher, fort proche d’allure de celui de l’ancienne abbaye Sainte-Geneviève (la « tour Clovis »), ne peut être contemporain des travées dans lesquelles il est maintenant englobé. Il fut probablement élevé au siècle précédent, hors-œuvre de l’église du <num>xiii<hi rend="sup">e</hi></num> siècle, comme par exemple à Saint-Gervais ou à Saint-Laurent.</p>
         </div>
-        <div>
+        <div xml:id="r998173">
           <head rend="uc">Chapitre II
            <lb/>L’église flamboyante (début <num>xv<hi rend="sup">e</hi></num>-milieu <num>xvi<hi rend="sup">e</hi></num> siècle)</head>
           <p>La chronologie n’est pas aisée. A l’aide de quelques renseignements nouveaux et de l’étude archéologique, on peut corriger les notices de l’abbé Lebeuf (1754) et de Maurice Dumolin (1936).</p>
@@ -89,29 +87,29 @@
           <p>Une première transaction en 1421 donna le terrain nécessaire à une reconstruction sur un plan plus vaste qui fut sans doute celui d’une nef flanquée d’un bas-côté et d’une rangée de chapelles. Les travaux s’achevèrent vraisemblablement vers 1456.</p>
           <p>De 1490 à 1501, on recula les chapelles du côté nord et, vers 1535, celles du côté sud. Vers 1540, l’état des voûtes de la nef et des piliers des bas-côtés nord nécessita leur reprise par le maître maçon Jean de Froncières.</p>
         </div>
-        <div>
+        <div xml:id="r998217">
           <head rend="uc">Chapitre III
            <lb/>Accroissement de l’église (dernière moitié du <num>xvi<hi rend="sup">e</hi></num> siècle)</head>
           <p>Dès 1567, on voulut à nouveau agrandir l’église pour faire face à l’accroissement de la population. La transaction avec Saint-Martin n’intervint qu’en 1575 et la campagne de travaux s’étira sur dix ans, dirigée principalement par le maître maçon Guillaume du Mas. Quatre travées seulement furent alors construites en raison des difficultés financières de la fabrique.</p>
           <p>L’achèvement de l’église était rendu urgent par la demande de chapelles privées. Une dernière transaction avec Saint-Martin en 1601 le rendit possible mais, faute d’argent, les travaux ne commencèrent qu’en 1613.</p>
         </div>
-        <div>
+        <div xml:id="r998238">
           <head rend="uc">Chapitre IV
            <lb/>L’achèvement de l’église (1613-1617)</head>
           <p>« Les entrepreneurs du bastiment neuf » furent Charles Benoist, Jean Touchin et Charles Girard. Ils construisirent les deux dernières travées droites du chœur et le déambulatoire, « de même manière, façon et ordonnance » que les travées de 1576-1587. Seule la concession, en 1616, des douze chapelles neuves pour 1200 livres tournois chacune permit d’achever de payer les ouvriers.</p>
           <p>Au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle, les colonnes ovales du chœur furent cannelées et surmontées de pilastres. De 1823 à 1829, une restauration générale complétée par la réfection des statues du portail en 1842 eut essentiellement la façade pour objet. Celle-ci avait peut-être déjà été modifiée en 1775.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r998260">
         <pb source="https://nakala.fr/10.34847/nkl.16e6dzg1#8b54774fb01f6d3e3d17ba614a02d3b846027a9c" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e6dzg1/8b54774fb01f6d3e3d17ba614a02d3b846027a9c/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Étude archéologique</head>
-        <div>
+        <div xml:id="r998273">
           <head rend="uc">Chapitre premier
            <lb/>le plan</head>
           <p>Le plan avec doubles collatéraux et chapelles englobées dans un mur continu est celui de Notre-Dame de Paris. Les architectes de 1575 et 1613 ne firent finalement que développer le plan que l’église du <num>xv<hi rend="sup">e</hi></num> siècle s’était donné progressivement, au fur et à mesure de son élargissement.</p>
         </div>
-        <div>
+        <div xml:id="r998291">
           <head rend="uc">Chapitre II
            <lb/>L’église flamboyante</head>
           <p>La façade apparaît très restaurée, notamment dans son décor. En revanche, la corniche et l’encadrement des baies sur le côté sud semblent plus authentiques. Il subsiste deux travées des anciens charniers qui, à Saint-Nicolas-des-Champs, servaient simplement de chapelle des catéchismes et de lieu de réunion.</p>
@@ -119,7 +117,7 @@
           <p>A l’intérieur, on passe des piles arrondies de la nef aux faisceaux de colonnettes séparant les deux bas-côtés sud et aux piliers ondulés des bas-côtés nord. Les murs gouttereaux de la première église du <num>xv<hi rend="sup">e</hi></num> siècle se devinent au nord comme au sud, à l’entrée des chapelles actuelles. Celles-ci, au sud tout au moins, accusent leur date de construction (vers 1535) par le style des consoles à la retombée de leurs voûtes.</p>
           <p>Saint-Nicolas-des-Champs, église flamboyante, illustre bien les caractéristiques de cet art à Paris. Essentiellement décor nouveau sur une structure inchangée – en apparence –, on y lit cependant une volonté de combiner « d’une manière particulièrement subtile la détente dans les surfaces et les tensions dans les lignes » (Roland Sanfaçon). Elle garde surtout une grande sobriété qui est celle du gothique flamboyant à Paris, fort différent des « incendies » de Rue ou de Vendôme.</p>
         </div>
-        <div>
+        <div xml:id="r998318">
           <pb source="https://nakala.fr/10.34847/nkl.16e6dzg1#35878cb8cced13b9455c969d9bc2eba9073efa0c" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e6dzg1/35878cb8cced13b9455c969d9bc2eba9073efa0c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le reste de l’édifice</head>
@@ -127,10 +125,10 @@
           <p>Toutefois les arcades sont en plein cintre et plus élevées que dans la nef ; une chapelle consacrée à la Vierge est dans l’axe et saillante et les colonnes édifiées sur un plan curieusement ovale sont pourvues de chapiteaux doriques. Le contraste avec « le vieux bâtiment » a été rendu plus manifeste par les réajustements du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r998345">
         <head rend="uc">Troisième partie
          <lb/>Décor et mobilier</head>
-        <div>
+        <div xml:id="r998353">
           <head rend="uc">Chapitre premier
            <lb/>le <num>xvi<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Tapisseries.</hi> – Comme la plupart des fabriques, Saint-Nicolas-des-Champs commanda une tenture de chœur consacrée à la vie de son saint patron. Les marchés retrouvés pour cinq des quatorze pièces qu’elle comptait furent passés de 1557 à 1563 avec Guillaume Brocart, maître tapissier de haute lice.</p>
@@ -139,7 +137,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.16e6dzg1#da683bdf29e6bcecbcbbe4138ed6b3e498767346" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e6dzg1/da683bdf29e6bcecbcbbe4138ed6b3e498767346/full/full/0/default.jpg"/>
           <p><hi rend="i">Le portail méridional.</hi> – Inspiré d’une gravure de Philibert de l’Orme, le portail méridional fut construit en 1581, peut-être offert par quelque riche paroissien. Son état original est donné par une gravure de Marot. Il illustre le goût de « la donnée triomphale ». Il est à rapprocher du portail du déambulatoire de Saint-Germain-l’Auxerrois (vers 1570), mais est d’une qualité supérieure. L’intense mouvement donné aux rinceaux et autres éléments ornementaux de l’entablement se retrouve dans les vantaux de bois de la porte sculptés par le menuisier Colo.</p>
         </div>
-        <div>
+        <div xml:id="r998400">
           <head rend="uc">Chapitre II
            <lb/>Le <num>xvii<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Les jubés.</hi> – Un nouveau jubé fut commandé en 1601, remplacé dès 1638 par un troisième jubé commandé à l’architecte Clément Métezeau.</p>
@@ -151,7 +149,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.16e6dzg1#5ecd768ae2b45aa45f84482b0b2c7118904c9229" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e6dzg1/5ecd768ae2b45aa45f84482b0b2c7118904c9229/full/full/0/default.jpg"/>
           <p>En 1668, le beffroi fut exhaussé sur des dessins conservés aujourd’hui aux Archives nationales.</p>
         </div>
-        <div>
+        <div xml:id="r998462">
           <head rend="uc">Chapitre III
            <lb/>Le <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Les « embellissements ».</hi> – Sur l’impulsion du curé, « la régularité, l’embellissement, l’agrément, la clarté » voulus pour l’église, au <num>xviii<hi rend="sup">e</hi></num> siècle, amenèrent la « réformation » des bancs (pour laquelle plusieurs plans de l’église furent dressés, dont deux nous sont parvenus), la suppression du jubé, le cannelage des colonnes du chœur, la disparition des vitraux de couleur, le badigeonnage peut-être des peintures murales.</p>
@@ -161,11 +159,11 @@
           <p>A l’autre bout de l’église, une nouvelle chapelle de la communion fut habilement aménagée par Antoine et Boulland au revers du retable dont ils modifièrent quelque peu l’ordonnance. A Antoine revient sans doute le mérite de « l’aimable mise en scène classique » créée par l’écho renvoyé des colonnes en trompe-l’œil du tableau d’autel aux colonnes réelles du déambulatoire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r998505">
         <head rend="uc">Pièces justificatives</head>
         <p>Comptes rendus d’assemblées de fabriques, devis et marchés.</p>
       </div>
-      <div>
+      <div xml:id="r998515">
         <head rend="uc">Album de planches</head>
         <p>Plans, reproductions de dessins et gravures, photographies.</p>
         <pb source="https://nakala.fr/10.34847/nkl.16e6dzg1#34b82e8403849d6b3c4888306dde84f9e92d5840" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.16e6dzg1/34b82e8403849d6b3c4888306dde84f9e92d5840/full/full/0/default.jpg"/>

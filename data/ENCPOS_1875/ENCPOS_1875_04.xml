@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1875_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1875_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,41 +56,41 @@
         <surname>Normand</surname>
         <roleName rend="uc">Avocat</roleName>
       </byline>
-      <div>
+      <div xml:id="r83729">
         <head rend="uc">Première partie
          <lb/>Notice.</head>
-        <div>
+        <div xml:id="r83737">
           <head rend="uc">I</head>
           <p>Sujet de la chanson. – Sa date. – Cycle auquel elle appartient. – Son auteur.</p>
         </div>
-        <div>
+        <div xml:id="r83747">
           <head rend="uc">II</head>
           <p>La chanson est un remaniement du <num>xiii<hi rend="sup">e</hi></num> siècle. – Son origine est vraisemblablement méridionale.</p>
         </div>
-        <div>
+        <div xml:id="r83763">
           <head rend="uc">III</head>
           <p>Du personnage d’Aiol. – Sa généalogie. – Aiol, héros de la chanson de geste, et Saint-Aiol, abbé de Lerins.</p>
         </div>
-        <div>
+        <div xml:id="r83773">
           <head rend="uc">IV</head>
           <p>Description du manuscrit. – Langueet versification du poème.</p>
         </div>
-        <div>
+        <div xml:id="r83783">
           <head rend="uc">V</head>
           <p>Diffusion à l’étranger : 1° en Italie ; 2 » dans les Pays-Bas ; 3° en Espagne.</p>
         </div>
-        <div>
+        <div xml:id="r83793">
           <pb source="https://nakala.fr/10.34847/nkl.52672zod#519e657ec409824faf7ed48bd0d1cbe6e1f33a89" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.52672zod/519e657ec409824faf7ed48bd0d1cbe6e1f33a89/full/full/0/default.jpg"/>
           <head rend="uc">VI</head>
           <p>Célébrité de la chanson au moyen âge. – Sa valeur littéraire.</p>
         </div>
-        <div>
+        <div xml:id="r83808">
           <head rend="uc">VII
            <lb/>appendice</head>
           <p>Passage de la chronique d’Albéric des trois fontaines, relatif à Aiol. – Fragments des divers renouvellements de la chanson.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r83821">
         <head rend="uc">Deuxième partie
          <lb/>Texte.</head>
         <p>Chaque élève publiera les positions de sa thèse isolémcht et sous sa responsabilité personnelle.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,22 +55,22 @@
         <surname>Marchand</surname>
         <roleName>Licencié ès lettres, Élève de l’École des Hautes Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r404759">
         <head rend="uc">Introduction</head>
         <p>On entend par <hi rend="i">brisure</hi> toute modification apportée au blason plain du chef de nom et d’armes pour distinguer, dans la famille, les lignes collatérales de la ligne directe, les fils du père et les bâtards des légitimes.</p>
         <p>La Maison de France présente un tableau raccourci de l’histoire générale des brisures, offrant le plus grand nombre de transformations subies par un même écu. C’est pourquoi il sera plus facile qu’ailleurs d’y découvrir les grandes règles du sujet.</p>
         <p>On suivra d’abord l’évolution des brisures dans l’ordre historique et généalogique, pour les étudier ensuite du point de vue proprement héraldique. Cette double enquête permettra de dégager des faits les idées directrices.</p>
         <p>Enfin, la méthode générale de ce travail est fondée sur l’examen des données généalogiques et chronologiques, et leur comparaison.</p>
       </div>
-      <div>
+      <div xml:id="r404782">
         <head rend="uc">Première partie
          <lb/>Étude historique</head>
         <p>Philippe Hurepel, fils de Philippe Auguste, brise, le premier, les armes de France en les chargeant d’un lambel de gueules de cinq pièces. Il meurt sans laisser de fils. Robert, comte <pb source="https://nakala.fr/10.34847/nkl.7b98l5i2#d783af59390633aa83616a78787f6db4ba1de23e" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.7b98l5i2/d783af59390633aa83616a78787f6db4ba1de23e/full/full/0/default.jpg"/>d’Artois, et Charles, comte d’Anjou, relèvent la brisure de leur oncle, mais l’aîné porte le lambel châtellé, à cause de sa mère qui s’armait d’un château. Alfonse, pour le même motif, prend les armes de Castille en partition de celles de France. Les frères cadets de Philippe III le Hardi brisent : Pierre, comte d’Alençon, d’une bordure de gueules, et Robert, tige de la branche de Bourbon, d’une bande du même. Après la mort du comte d’Alençon, Charles, comte de Valois, relève sa brisure. Louis, comte d’Évreux, frère de Charles, charge les armes de France d’une bande componée d’argent et de gueules. Les fils de Philippe IV le Bel, Philippe, comte de Poitiers, et Charles, comte de La Marche, brisent : le premier, d’un lambel componé d’argent et de gueules ; le second, d’une bordure componée des mêmes. Philippe, fils de Charles, comte de Valois, engrêle la bordure de gueules du vivant de son père, la porte plaine de 1325 à 1328 et l’efface alors en montant sur le trône. Son frère cadet, Charles, comte d’Alençon, sème la bordure de besants d’argent. Jean de France, avant de succéder à la couronne, porte la bordure de gueules plaine, comme l’avait fait son père. Philippe, duc d’Orléans, son frère, relève le lambel componé. Les quatre fils de Jean le Bon brisent d’une bordure : Charles la prend de gueules plaine et il écartèle de Dauphiné ; Louis la porte de même, sans ajouter de quartiers ; Jean l’engrêle ; Philippe la componé d’argent et de gueules. Louis, duc d’Orléans, fils de Charles V, brise d’un lambel d’argent. Charles, frère de Louis XI, successivement duc de Berry, de Normandie et de Guyenne, dont les armes ont varié, a porté de Berry écartelé de Normandie-ancien ; de Normandie-moderne écartelé de Guyenne ; puis de France plain écartelé de Guyenne. Peut-être, comme duc de Berry a-t-il porté les armes de France à la bordure engrêlée de gueules.</p>
       </div>
-      <div>
+      <div xml:id="r404799">
         <head rend="uc">Deuxième partie
          <lb/>Etude héraldique</head>
-        <div>
+        <div xml:id="r404807">
           <head rend="uc">I. – Pièces.</head>
           <p>Les pièces employées comme brisure forment trois groupes :</p>
           <p>A. – Le <hi rend="i">lambel,</hi> la <hi rend="i">bordure</hi> et la <hi rend="i">bande</hi> servent de premières <pb source="https://nakala.fr/10.34847/nkl.7b98l5i2#b223417f2311e3f6c825e95a07cfa0759eb9834c" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.7b98l5i2/b223417f2311e3f6c825e95a07cfa0759eb9834c/full/full/0/default.jpg"/>brisures et sont exclusivement réservés aux fils cadets de rois de France et aux branches issues d’eux.</p>
@@ -82,7 +80,7 @@
           <p>B. – Les pièces employées comme surbrisure, dans l’intérieur des grandes Branches, peuvent être des pièces héraldiques, comme le lambel, la bordure, la bande, le chef, le sautoir et l’écusson, ou des meubles comme les lionceaux, les dauphins, les croissants et les châteaux. Les bâtards chargent exclusivement leurs armes d’une barre ou d’un bâton en barre.</p>
           <p>C. – Les pièces de ce groupe servent de support à des armes dont le champ est réduit à leur surface. On trouve dans cet emploi : la bande, la barre, le pal, la fasce et le franc-quartier. La disposition des armes sur pièces est un système de brisure propre aux bâtards.</p>
         </div>
-        <div>
+        <div xml:id="r404900">
           <head rend="uc">II. – Émaux.</head>
           <p>Les émaux doivent être étudiés pour les trois catégories de personnes suivantes :</p>
           <p>A. LES FILS DE FRANCE. – Ils adoptent pour leurs brisures (lambel, bordure et bande) dans l’ordre chronologique, d’abord le gueules, puis le componé d’argent et de gueules, enfin l’argent.</p>
@@ -90,7 +88,7 @@
           <p>C. LES BATARDS. – S’ils brisent d’une barre, elle est d’or, d’argent ou de gueules ; s’ils portent les armes sur pièce, le champ est toujours de métal.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r404925">
         <head rend="uc">Conclusion</head>
         <p>Les grands principes qui déterminent dans la Maison de France, le choix, le port, les modifications et la chute des brisures sont les suivants :</p>
         <p>A. – Qui doit briser ? D’abord, les cadets : les frères du roi et ses fils ; cette règle est appliquée depuis le début du <num>xiii<hi rend="sup">e</hi></num> siècle, sauf pour le fils aîné du roi, qui distingue ses armes de celles de son père seulement depuis le début du <num>xiv<hi rend="sup">e</hi></num> siècle. Dans les Branches, les cadets, plus que le fils aîné, respectent le principe de la brisure. Parmi ceux qui ne brisent pas, il faut comprendre les femmes, les clercs et les bâtards, qui sont hors du système féodal. – Comment brise-t-on ? Pour les Fils de France, au moyen du lambel, de la bordure et de la bande ; dans les Branches, soit par des pièces honorables, soit par des meubles arbitrairement choisis, soit par une pièce tirée du blason maternel. Les bâtards brisent soit en chargeant les armes d’une barre, soit en les plaçant sur une pièce honorable.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_29" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_29" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,20 +55,20 @@
         <forename>Micheline</forename>
         <surname>Zéphir</surname>
       </byline>
-      <div>
+      <div xml:id="r993136">
         <head rend="uc">Introduction</head>
         <p>Cette étude porte sur la place et le rôle des libraires et imprimeurs parisiens à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle. Si les libraires de la capitale ont été retenus, c’est en raison du rôle prédominant de Paris sur la province durant cette période ; les limites chronologiques se justifient par l’arrivée en 1750 à la Direction de la librairie de Malesherbes et par les changements radicaux qui s’opèrent dans la librairie au moment de la Révolution française.</p>
       </div>
-      <div>
+      <div xml:id="r993152">
         <head rend="uc">Sources</head>
         <p>Nous avons essentiellement consulté les actes notariés conservés au Minutier central des notaires parisiens et principalement les études des notaires qui demeuraient dans le quartier de l’Université ou à proximité. Ont été également utilisés, à la Bibliothèque nationale, le fonds de la Chambre syndicale des libraires et imprimeurs de Paris (mss. fr. 21813 à 22060), la collection Anisson Duperron (mss. fr. 22061 à 22193) et les catalogues de libraires de la série Q 10 A. Enfin nous avons consulté aux Archives de Paris les dossiers de faillite de la série D 4 B<hi rend="sup">6</hi>.</p>
       </div>
-      <div>
+      <div xml:id="r993166">
         <pb source="https://nakala.fr/10.34847/nkl.a0e153lo#d4f9e0725d7f0e10d55c765bde11d9afad691f03" n="242" facs="https://api.nakala.fr/iiif/10.34847/nkl.a0e153lo/d4f9e0725d7f0e10d55c765bde11d9afad691f03/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La communauté des libraires et imprimeurs
          <lb/>à Paris à la fin de l’ancien régime</head>
-        <div>
+        <div xml:id="r993181">
           <head rend="uc">Chapitre premier
            <lb/>les métiers du livre à Paris au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">La ville de Paris.</hi> – Paris apparaît encore au <num>xviii<hi rend="sup">e</hi></num> siècle comme une ville médiévale malgré ses nouveaux quartiers, ses illuminations qui font l’admiration du monde entier et son administration en pleine modernisation dont le lieutenant général de police a la charge. Sa population, évaluée à près de 700 000 habitants, en fait la deuxième ville d’Europe et la première du continent. Capitale administrative et universitaire, elle favorise un commerce de luxe et de demi-luxe. Elle comporte aussi tout un monde d’individus marginaux disponibles pour toutes les entreprises aventureuses. Paris est enfin, et surtout, une capitale politique où siège un Parlement qui s’agite et une capitale intellectuelle dont la renommée dépasse très largement les frontières du royaume.</p>
@@ -79,7 +77,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.a0e153lo#fd85ab95041cfd87a611eea6ca80888fee6f5c83" n="243" facs="https://api.nakala.fr/iiif/10.34847/nkl.a0e153lo/fd85ab95041cfd87a611eea6ca80888fee6f5c83/full/full/0/default.jpg"/>
           <p><hi rend="i">Le commerce du livre.</hi> – Le commerce du livre n’est point en droit, et encore moins en fait, le monopole des libraires. Les colporteurs, les merciers, les marchands forains ont, dans certaines conditions bien déterminées, le droit de vendre des ouvrages imprimés. A côté d’eux, tout un monde de marchands de livres clandestins, tolérés ou pourchassés, fait le commerce du livre, sur les lieux publics, sous le porche des églises, au porte à porte ou même dans des boutiques.</p>
         </div>
-        <div>
+        <div xml:id="r993231">
           <head rend="uc">Chapitre II
            <lb/>La communauté des libraires et imprimeurs</head>
           <p><hi rend="i">L’origine de la communauté.</hi> – La communauté des libraires et imprimeurs de Paris ne fut créée qu’en 1618, à leur demande. Ce fut à l’origine un compromis entre les libraires et imprimeurs, soucieux de maintenir leurs privilèges économiques, et le pouvoir royal, qui confiait à la nouvelle communauté un rôle de surveillance politique des imprimés. Mais l’insuffisance de cette autosurveillance obligera très tôt le pouvoir royal à la renforcer par celles du Bureau de la librairie et du lieutenant général de police.</p>
@@ -88,11 +86,11 @@
           <p><hi rend="i">Le fonctionnement de la communauté.</hi> – Un syndic aidé de quatre adjoints dirigeait la communauté. Ils étaient habituellement choisis parmi les anciens et même parmi les anciennes familles. Leur rôle important consistait à défendre les intérêts de la communauté, à contrôler les imprimés et à tenir différents registres. Ils avaient également des charges honorifiques et devaient participer à certaines cérémonies.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r993265">
         <pb source="https://nakala.fr/10.34847/nkl.a0e153lo#649a7dcc7953ebc0b74fc56268e56e01a3b73c91" n="244" facs="https://api.nakala.fr/iiif/10.34847/nkl.a0e153lo/649a7dcc7953ebc0b74fc56268e56e01a3b73c91/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Étude économique et sociale</head>
-        <div>
+        <div xml:id="r993278">
           <head rend="uc">Chapitre premier
            <lb/>le milieu social</head>
           <p><hi rend="i">Le recrutement et l’origine sociale des alloués, des apprentis et des libraires. </hi>– D’origine sociale très variée, les libraires et les apprentis étaient pour la plupart fils de commerçants ou d’artisans ; plus jeunes et aussi souvent d’origine plus modeste, les alloués comptaient dans leurs rangs des fils d’ouvriers et de domestiques. La majorité d’entre eux étaient originaires de Paris et des grandes villes de province. Les étrangers furent très rares. A partir de 1760, nous remarquons une évolution du recrutement en faveur d’hommes nouveaux, de provinciaux et d’anciens libraires clandestins, tandis que le nombre des réceptions augmente.</p>
@@ -100,7 +98,7 @@
           <p><hi rend="i">Les alliances des libraires.</hi> – A considérer les liens de parenté qui les unissaient les uns aux autres, on peut être amené à se demander si la communauté des libraires et imprimeurs parisiens était une communauté professionnelle ou une communauté familiale. Cette situation constituait une première entrave au respect du règlement par les syndic et adjoints. En dehors des alliances avec des filles de libraires, nous trouvons essentiellement des alliances avec les filles des autres artisans et commerçants, principalement ceux des Six-Corps et des métiers du livre, et celles des titulaires de petits offices.</p>
           <p><hi rend="i">Les professions des enfants des libraires.</hi> – Les enfants des libraires furent aussi bien souvent destinés à la librairie, toutefois, semble-t-il, un peu moins à notre période qu’à celles qui l’ont précédée. Les achats d’offices restaient courants pour les cadets et plusieurs fils de libraires entrèrent dans d’autres commerces, surtout après 1776.</p>
         </div>
-        <div>
+        <div xml:id="r993317">
           <pb source="https://nakala.fr/10.34847/nkl.a0e153lo#64348e6833a61c55ef3986b020ffe8909d42b8bc" n="245" facs="https://api.nakala.fr/iiif/10.34847/nkl.a0e153lo/64348e6833a61c55ef3986b020ffe8909d42b8bc/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La situation économique des libraires et des imprimeurs</head>
@@ -109,11 +107,11 @@
           <p><hi rend="i">Les causes des variations de fortune.</hi> – Tout au cours de notre période, nous notons un enrichissement notable de ceux qui vendent des livres nouveaux simplement tolérés, tandis que s’appauvrissent de nombreux vendeurs du livre traditionnel et que l’une des principales causes de faillite est la saisie ou la sanction infligée à un libraire pour l’édition, l’impression ou la vente d’un ouvrage prohibé.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r993350">
         <head rend="uc">Troisième partie
          <lb/>Étude de la production imprimée
          <lb/>et du commerce de librairie</head>
-        <div>
+        <div xml:id="r993360">
           <head rend="uc">Chapitre premier
            <lb/>la production imprimée à Paris au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Tentative d’évaluation globale de la production imprimée française.</hi> – Nous n’avons pas eu la prétention, dans cette étude, de déterminer exactement quelle fut la production imprimée en France au <num>xviii<hi rend="sup">e</hi></num> siècle, mais seulement <pb source="https://nakala.fr/10.34847/nkl.a0e153lo#6810246f9bb20e71775a9811e572d5f154e5b654" n="246" facs="https://api.nakala.fr/iiif/10.34847/nkl.a0e153lo/6810246f9bb20e71775a9811e572d5f154e5b654/full/full/0/default.jpg"/>d’essayer de voir, à partir des documents étudiés, dans quel sens il faudrait compléter les données des registres de privilèges et de permissions tacites et ceux du dépôt légal. On constate qu’il existait un grand nombre de réimpressions (vraisemblablement plus de 25 % de la production totale) tant clandestines qu’autorisées qui n’apparaissaient pas dans les bibliographies et un nombre qui allait en s’amplifiant d’ouvrages prohibés, dont certains furent imprimés en France. La courbe de la production imprimée française fut ascendante jusque vers 1770, stationnaire voire descendante pendant une dizaine d’années, puis de nouveau ascendante à l’extrême fin de l’Ancien Régime. Tout laisse à penser que la production imprimée française atteignit et dépassa les 2 000 unités annuelles au cours de la période que nous étudions.</p>
@@ -122,7 +120,7 @@
           <p><hi rend="i">Les modes de diffusion des livres et de la pensée.</hi> – Le livre imprimé jouait un rôle essentiel dans la diffusion des idées. Ses lecteurs l’achetaient le plus souvent chez un libraire mais ne le payaient pas toujours comptant. Pour de nombreux ouvrages importants ou pour les périodiques, les éditeurs durent recourir aux abonnements et aux souscriptions. Il ne faudrait pas non plus négliger la vente à domicile, ni les cabinets de lecture, ni les bibliothèques publiques qui existaient dans les grandes villes. D’autres formes plus originales, telle la location de bibliothèque entière, ont existé.</p>
           <p><hi rend="i">L’intervention du pouvoir royal.</hi> – – L’intervention du pouvoir royal sur la production aurait dû être considérable : le système de la censure préalable et de l’attribution du privilège lui donnait tous pouvoirs d’interdire, de modifier, de favoriser tel ou tel ouvrage. En fait, le pouvoir royal perdit au <num>xviii<hi rend="sup">e</hi></num> siècle le contrôle des imprimés et dut souffrir une quasi-liberté de la presse, sans oser, <pb source="https://nakala.fr/10.34847/nkl.a0e153lo#03fcd35010e6bdde785e0e0e823993c006d74d2e" n="247" facs="https://api.nakala.fr/iiif/10.34847/nkl.a0e153lo/03fcd35010e6bdde785e0e0e823993c006d74d2e/full/full/0/default.jpg"/>ni même peut-être vouloir l’admettre. Il toléra et favorisa tout un réseau clandestin de fabrication et de distribution du livre prohibé, dans l’espoir de mieux le contrôler, mais ne parvint pas ainsi à empêcher la diffusion des ouvrages qu’il jugeait les plus dangereux. Les arrêts de 1777, principale mesure de la période, eurent le mérite de redonner une certaine vie à la presse provinciale.</p>
         </div>
-        <div>
+        <div xml:id="r993439">
           <head rend="uc">Chapitre II
            <lb/>Les relations professionnelles des libraires</head>
           <p><hi rend="i">La clientèle.</hi> – La clientèle de quartier s’adressait le plus souvent aux colporteurs et aux merciers : la clientèle principale des grands libraires était une clientèle aristocratique relativement dispersée en France comme en Europe. Les femmes y jouaient un rôle important, les enfants ne comptaient encore que pour le livre de classe. La clientèle avait un rôle déterminant sur la production imprimée.</p>
@@ -133,11 +131,11 @@
           <p><hi rend="i">Le pouvoir royal.</hi> – Le pouvoir royal surveillait les libraires afin surtout d’éviter la vente du livre clandestin. Il organisait pour cela des enquêtes, soit générales, soit particulières, accordait çà et là des permissions tacites ou clandestines pour certains ouvrages, saisissait les livres interdits et sanctionnait leurs imprimeurs ou leurs débiteurs. La répression fut assez dure après l’attentat de Damiens et à la veille de la Révolution mais la déclaration de 1757 qui prévoyait la peine capitale ne fut jamais appliquée. Enfin le roi pouvait pour des motifs divers créer de nouveaux libraires, ce qui le plus souvent se heurtait à l’opposition de la communauté.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r993496">
         <head rend="uc">Conclusion</head>
         <p>Le rôle des libraires parisiens fut important dans la diffusion des idées et des connaissances nouvelles : ils aidèrent à leur vulgarisation par la création de livres de petit format, d’ouvrages abrégés, de périodiques. Ce sont peut-être les libraires clandestins plutôt que les membres de la communauté qui favorisèrent l’édition du livre prohibé, janséniste, jésuite ou philosophique. Ils continuèrent, dans une période économiquement difficile, une politique d’expansion et évitèrent ainsi une récession dans la production qui pouvait paraître inévitable. Il est difficile de savoir quel rôle ils ont pu jouer dans la préparation intellectuelle de la Révolution puisque leur clientèle pour le livre philosophique était essentiellement aristocratique. En 1788 toutefois, plusieurs d’entre eux ont vraisemblablement contribué à l’information du tiers état et furent emprisonnés pour ce motif.</p>
       </div>
-      <div>
+      <div xml:id="r993506">
         <pb source="https://nakala.fr/10.34847/nkl.a0e153lo#1000c540c1f0710e09e300ccac2aeefa9996f820" n="249" facs="https://api.nakala.fr/iiif/10.34847/nkl.a0e153lo/1000c540c1f0710e09e300ccac2aeefa9996f820/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>Liste des syndics et des adjoints. – Mémoire de Grangé contre Duchesne au sujet de <hi rend="i">La Nouvelle Héloïse.</hi> – Fonds de librairie de Desprez. – Cartes géographiques des débiteurs des libraires au moment de leur décès ou de leur faillite. – Tableaux généalogiques des familles des principaux libraires. – Notices biographiques sur les libraires.</p>

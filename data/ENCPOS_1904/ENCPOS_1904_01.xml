@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1904_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1904_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,41 +57,41 @@
         <surname>Anchel</surname>
         <roleName>Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r278936">
         <head rend="uc">Introduction. – Critique des sources
          <lb/>de l’ouvrage</head>
         <p>Les <hi rend="i">Miracula Beatae Mariae Laudunensis.</hi> Circonstances dans lesquelles ils furent écrits. – Le manuscrit latin 12593 de la Bibliothèque Nationale. – Waitz attribue les <hi rend="i">Miracula</hi> à Hermann de Tournai. Arguments à l’appui de cette thèse : 1° la date de rédaction des <hi rend="i">Miracula</hi> (1146) ; 2° les relations d’Hermann de Tournai avec Barthélemy de Joux. – Sources des <hi rend="i">Miracula.</hi> – Les chartes de Barthélemy de Joux. – <hi rend="i">Barthélemy de Vir</hi> par M. de Florival. – <hi rend="i">Histoire de Laon</hi> par l’Éleu.</p>
       </div>
-      <div>
+      <div xml:id="r278972">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r278978">
           <head rend="uc">I. – Débuts de Barthélemy de Joux</head>
           <p>Les parents de Barthélemy de Joux. Les filles de Hilduin comte de Roucy. – Incertitude de la date de nais<pb source="https://nakala.fr/10.34847/nkl.ede4m75x#31d6161eea33c5b7aab7ca72d92dc9bc926c0b85" n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.ede4m75x/31d6161eea33c5b7aab7ca72d92dc9bc926c0b85/full/full/0/default.jpg"/>sauce de Barthélemy. Il est élevé à Reims. Il est nommé chanoine et trésorier de Reims, puis trésorier de la collégiale de Saint-Quentin. – Une lettre adressée à Lambert évêque d’Arras émane peut-être de Barthélemy.</p>
         </div>
-        <div>
+        <div xml:id="r278993">
           <head rend="uc">II. – Le diocèse de Laon et l’élection de
            <lb/>Barthélemy</head>
           <p>Le diocèse de Laon. Son état en 1112. – L’évêque Gaudry. La révolte communale de Laon ; meurtre de l’évêque Gaudry et incendie de Laon. – L’évêque Hugues (4 août-27 décembre 1112). – Élection de Barthélemy à l’évêché de Laon (1113).</p>
         </div>
-        <div>
+        <div xml:id="r279005">
           <head rend="uc">III. – La Restauration de la cathédrale
            <lb/>et le rétablissement de la commune</head>
           <p>Le doyen Anselme. – Les voyages des reliques de Laon. Restauration de la cathédrale. – Voyages de Barthélemy en Espagne et à Rome. – Expédition en Normandie (1119). – Barthélemy obtient que Louis VI renonce à certains droits de régale (1121). – Désordre de l’évêché. – Rétablissement de la commune (1128). Analyse de l’Institution de Paix. Rapports de l’évêque avec la commune ; du chapitre avec la commune. Extension de la commune. Création de la commune de Bruyères, Chéret, Vorges, Valbon (1129).</p>
         </div>
-        <div>
+        <div xml:id="r279017">
           <head rend="uc">IV. – Les officiers du Laonnois. – Le chapitre
            <lb/>de la cathédrale</head>
           <p>Vidamie du Laonnois ; suppression et rétablissement de la charge. – Prévôté du Laonnois. – Vicomté du Laonnois. – Châtellenie de Laon. – Le chapitre et ses dignitaires : doyen, archidiacres, chantre, trésorier. – Barthélemy <pb source="https://nakala.fr/10.34847/nkl.ede4m75x#feb36233bb6af1397a9038e5b7057582f7bec40d" n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.ede4m75x/feb36233bb6af1397a9038e5b7057582f7bec40d/full/full/0/default.jpg"/> tente de réformer le chapitre. – Le <hi rend="i">plegium christianitatis.</hi> – Les curés de Laon. – Le synode.</p>
         </div>
-        <div>
+        <div xml:id="r279038">
           <head rend="uc">V. – Fondations et réformes religieuses</head>
           <p>Dispositions de Barthélemy. – Saint Norbert. Sa rencontre avec Barthélemy d’après Hermann de Tournai et d’après la <hi rend="i">Vie de saint Norbert.</hi> – Séjour de saint Norbert à Laon. – Choix de Prémontré comme lieu de fondation d’une abbaye (1120). Fondation de l’abbaye de Prémontré. Participation de Barthélemy. – Fondation de l’abbaye de Fontenille (1137) ; de l’abbaye de Cuissy (1122 ou 1125) ; réforme de l’abbaye de Saint-Martin (1125 ?) ; fondation de l’abbaye de Thenailles (1130) ; de l’abbaye de Clairefontaine (1131). – Règle de Prémontré. Influence de Cîteaux. – Fondation de l’abbaye de Foigny (1121) ; de l’abbaye de Vauclerc (1134) ; de l’abbaye de Bohéries (1135 ou 1145) ; de l’abbaye de Montreuil. – Réforme de l’abbaye de N.-D. et Saint-Jean-Baptiste de Laon (1128) ; de l’abbaye de Saint-Nicolas-aux-Bois. – Lettre de Barthélemy pour Saint-Michel-en-Thiérache. – Substitutions de moines à des chanoines séculiers. – Fondation de la maladrerie de la Neuville-sous-Laon (1123). – Introduction dans le diocèse des chevaliers du Temple et de Saint-Jean de Jérusalem. – Action de Barthélemy hors de son diocèse.</p>
         </div>
-        <div>
+        <div xml:id="r279052">
           <head rend="uc">VI. – Protection accordée aux abbayes</head>
           <p>Contestations entre les abbayes de Nogent et de Prémontré, de Saint-Martin et de Saint-Jean-du-Bourg, de Saint-Vincent et N.-D. et Saint-Jean, de Saint-Michel et Thenailles, de Foigny et Cuissy, apaisées par Barthélemy. – Accord entre l’ordre de Prémontré et celui de <pb source="https://nakala.fr/10.34847/nkl.ede4m75x#a21d9e5b601d207bbbf2c3ed7043c60d2c21f4b4" n="4" facs="https://api.nakala.fr/iiif/10.34847/nkl.ede4m75x/a21d9e5b601d207bbbf2c3ed7043c60d2c21f4b4/full/full/0/default.jpg"/>Cîteaux (1142). – Les avoués des églises. Pillages des seigneurs laïques. Les seigneurs de Roucy. Les seigneurs de Coucy.</p>
         </div>
-        <div>
+        <div xml:id="r279067">
           <head rend="uc">VII. – Retraite et mort de Barthélemy</head>
           <p>Le divorce du comte de Vermandois. Barthélemy suspendu (1142). – Barthélemy se retire à Foigny (1150). Motifs de la retraite de l’évêque. Hostilité du chapitre. – Barthélemy à Foigny. Lettre à Nicolas abbé de Prüm. Lettre au concile de Reims. – Mort de Barthélemy (12-14 juillet 1156 ?).</p>
         </div>

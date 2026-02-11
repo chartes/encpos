@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,31 +56,31 @@
         <forename>Monique</forename>
         <surname>Merlet</surname>
       </byline>
-      <div>
+      <div xml:id="r880597">
         <head rend="uc">Sources</head>
         <p>On a utilisé essentiellement, pour la première partie, les papiers du bureau des péages, conservés aux Archives nationales dans la série H<hi rend="sup">4</hi>, et les archives anciennes de la ville d’Angers (séries BB et surtout CC : impôts et comptabilité). La seconde partie a pour base les journaux de recette du péage qui se trouvent dans cette dernière série, sous les cotes CC 30, CC 31 et CC 32.</p>
       </div>
-      <div>
+      <div xml:id="r880611">
         <head rend="uc">Introduction</head>
         <p>Le péage de la Cloison d’Angers présente un double intérêt, institutionnel et économique. En tant qu’institution, on étudiera ses origines, son histoire, son importance dans la vie municipale et son administration. En tant qu’impôt levé sur les marchandises empruntant la voie fluviale, on se servira de ses résultats pour apprécier la circulation commerciale en Anjou au <num>xviii<hi rend="sup">e</hi></num> siècle, les conditions dans lesquelles elle s’effectuait (communications, techniques de navigation) et sa relative importance.</p>
       </div>
-      <div>
+      <div xml:id="r880627">
         <pb source="https://nakala.fr/10.34847/nkl.afcbw8e9#6e92c2ba8db25835c71b7caf754f916ce70d2273" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.afcbw8e9/6e92c2ba8db25835c71b7caf754f916ce70d2273/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Histoire et administration
          <lb/>d’un péage municipal</head>
-        <div>
+        <div xml:id="r880642">
           <head rend="uc">Chapitre premier
            <lb/>origines du péage de la cloison d’Angers</head>
           <p>Le péage a été créé pour financer la reconstruction des murailles de la ville d’Angers. Celle-ci avait eu trois enceintes successives : la première, galloromaine, autour d’une cité très étendue ; la seconde, très étroite, avait été élevée lors des invasions barbares ; la troisième, qui faisait quatre mille mètres de tour, avait été bâtie par saint Louis. C’est cette dernière enceinte que le duc d’Anjou décida de restaurer, au milieu du <num>xiv<hi rend="sup">e</hi></num> siècle. Le relèvement des murailles d’Angers coïncide avec le grand mouvement de fortification des villes de l’ouest et du sud-ouest qui commença vers 1350. Pour trouver les fonds nécessaires, le duc d’Anjou obtint de la « Compagnie des marchands fréquentant la rivière de Loire et autres fleuves descendant en icelle », association de négociants ayant pour but de protéger les intérêts du commerce et d’assurer la navigabilité du fleuve, la permission de lever temporairement un péage sur la Loire et ses affluents angevins « pour la cloison d’Angers ». L’accord eut lieu en 1344 : c’était un péage de plus s’ajoutant à ceux, déjà très nombreux, qui chargeaient le cours de la Loire. On en comptait au moins trente-trois au <num>xiv<hi rend="sup">e</hi></num> siècle, entre Chaumont-sur-Loire et Champtoceaux.</p>
         </div>
-        <div>
+        <div xml:id="r880666">
           <head rend="uc">Chapitre II
            <lb/>Le péage de la cloison des origines
            <lb/>à la création de la mairie d’Angers (1474)</head>
           <p>Établi pour ne durer que quelques années, le péage de la Cloison d’Angers était encore levé au <num>xviii<hi rend="sup">e</hi></num> siècle. Des prolongations successives lui donnèrent perennité, malgré les abolitions générales des péages de Loire : supprimé en 1438 par édit royal, il fut rétabli presque immédiatement. La mainmise de Louis XI sur l’Anjou (juillet 1474) et la création de la mairie d’Angers eurent pour conséquence la transmission à la nouvelle municipalité du pouvoir de lever et de gérer la Cloison.</p>
         </div>
-        <div>
+        <div xml:id="r880686">
           <pb source="https://nakala.fr/10.34847/nkl.afcbw8e9#56083c236e66f17001adfcdbea9897adf3fceea2" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.afcbw8e9/56083c236e66f17001adfcdbea9897adf3fceea2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le péage de la cloison de la création de la mairie
@@ -92,12 +90,12 @@
           <p>La guerre de Bretagne terminée, on continua de lever la Cloison, non pour l’entretien des murailles, mais pour fournir au roi les contributions énormes exigées pour soutenir les frais des guerres d’Italie : Angers dut payer cinquante mille livres en un demi-siècle.</p>
           <p>La ville, ayant à souffrir des guerres de religion, s’arma de nouveau dans la seconde moitié du <num>xvi<hi rend="sup">e</hi></num> siècle. Mais, avec la pacification du royaume par Henri IV, s’amorça un grand mouvement de démolition et d’abandon des murailles. La Cloison continua néanmoins d’être levée et fut même doublée en 1596.</p>
         </div>
-        <div>
+        <div xml:id="r880726">
           <head rend="uc">Chapitre IV
            <lb/>La cloison d’Angers et les « marchands fréquentant »</head>
           <p>La « Compagnie des marchands fréquentant » lutta longtemps, mais sans résultat, pour faire supprimer le péage de la Cloison. Elle lui reprochait d’être nuisible au commerce et de ne servir nullement à faciliter la navigation. La Compagnie, en effet, levait de son côté un péage dit « droit de boête », et utilisait l’argent recueilli pour améliorer la navigabilité. Elle faisait notamment procéder au balisage indispensable : le cours de la Loire est irrégulier, et le chenal navigable variable. Désespérant de faire supprimer la Cloison, les marchands fréquentant tentèrent en vain de s’abonner.</p>
         </div>
-        <div>
+        <div xml:id="r880738">
           <head rend="uc">Chapitre V
            <lb/>Finances municipales</head>
           <p><hi rend="i">Sources de revenus autres que la Cloison.</hi> – Pour ses nombreuses dépenses (remparts, voirie, hygiène, bienfaisance, frais somptuaires, etc.), la ville avait d’autres revenus, mais la Cloison était sa principale ressource. Il est malaisé <pb source="https://nakala.fr/10.34847/nkl.afcbw8e9#daeab895dd52d67406cff5e2e4355608f4663a4a" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.afcbw8e9/daeab895dd52d67406cff5e2e4355608f4663a4a/full/full/0/default.jpg"/>de savoir de quoi vivait Angers sous le gouvernement des ducs, mais, après la création de la mairie, elle jouit de plusieurs impositions, telles que la traite des vins d’Anjou, le trépas de Loire, péage frère de la Cloison, l’imposition foraine, impôt sur les marchandises passant la frontière de Bretagne. Elle levait aussi des droits de pavage, barrage, pontonnage, et touchait les rentes de ses propriétés foncières. En 1668, fut établi un octroi aux portes de la ville : c’est le seul impôt dont le revenu devint supérieur à celui de la Cloison elle-même.</p>
@@ -105,23 +103,23 @@
           <p><hi rend="i">Personnel chargé de la perception de la Cloison.</hi> – Le personnel chargé de la perception comprenait des sous-receveurs installés aux bureaux de recette et chargés de recueillir l’argent ; un contrôleur ou « directeur de la Cloison » qui devait les surveiller ; enfin, à l’échelon central, un trésorier-receveur, responsable de la recette générale et de l’emploi des deniers de la Cloison. Ce dernier tenait des registres soumis à l’approbation du corps de ville. Le plus souvent, il cumulait avec sa fonction celle de receveur de tous les autres revenus.</p>
           <p>N’étaient astreintes à payer le péage de la Cloison que les marchandises entrant dans la ville ou passant par les bureaux d’Ingrandes, des Ponts-de-Cé et de la Pointe pour être vendues. Les denrées destinées à la provision de l’habitant étaient exemptes. Une exemption générale avait lieu durant les quatre « foires franches » d’Angers. Les exemptions personnelles étaient très rares.</p>
         </div>
-        <div>
+        <div xml:id="r880779">
           <head rend="uc">Chapitre VI
            <lb/>Les pancartes de la cloison</head>
           <p>On possède trois pancartes de la Cloison, respectivement datées de 1384, 1500 et 1681. Les deux premières présentent de nombreux caractères communs, tandis que la troisième est très différente. Les pancartes de 1384 et 1500 taxent le vin très haut, et cette marchandise fait l’objet d’une réglementation détaillée. Dans la pancarte de 1681, le vin est mis au rang des autres denrées. Il est sensible, d’après ces pancartes, que le commerce de la Loire était depuis le <num>xiv<hi rend="sup">e</hi></num> siècle à base de vin, de blé et de draperie. La Cloison n’était pas levée sur le sel. Cet impôt était un peu plus lourd que les autres péages levés dans la même région (Prévôté, Boête des marchands).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r880798">
         <pb source="https://nakala.fr/10.34847/nkl.afcbw8e9#c89760f718484afef38ef8ec4ef9529573a57fb1" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.afcbw8e9/c89760f718484afef38ef8ec4ef9529573a57fb1/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Le trafic fluvial en Anjou au <num>xviii<hi rend="sup">e</hi></num> siècle
          <lb/>d’après les journaux de recette
          <lb/>du péage de la cloison d’Angers</head>
-        <div>
+        <div xml:id="r880821">
           <head rend="uc">Introduction</head>
           <p>On a limité cette étude aux marchandises qui empruntaient la voie d’eau, laissant de côté celles qui entraient dans la ville par les portes. On a ainsi une idée de la circulation fluviale en Anjou au <num>xviii<hi rend="sup">e</hi></num> siècle. On n’a trouvé de documents comptables que pour les années 1761 et 1766. Encore manque-t-il le mois de janvier dans les journaux de recette de 1766.</p>
         </div>
-        <div>
+        <div xml:id="r880837">
           <head rend="uc">Chapitre premier
            <lb/>les rivières navigables
            <lb/>et les routes en Anjou au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
@@ -129,20 +127,20 @@
           <p>Presque toutes se trouvent dans le nord de l’Anjou. Le sud n’a que de petites rivières non navigables : l’Aubance, le Layon.</p>
           <p><hi rend="i">Les routes.</hi> – La route ne remplace pas la voie d’eau, elle la complète. Au <num>xviii<hi rend="sup">e</hi></num> siècle encore, les régions les moins irriguées de l’Anjou manquent presque autant de routes que de rivières. Au nord, cinq routes royales relient Angers à Paris, Caen, Le Mans, Rennes, Nantes et Orléans ; au sud, il n’y a que deux routes : celle des Sables et celle de Poitiers. Toutes ces routes sont en assez mauvais état. Mais ce n’est pas l’amélioration du réseau routier au <num>xix<hi rend="sup">e</hi></num> siècle qui fit disparaître la navigation : c’est le chemin de fer.</p>
         </div>
-        <div>
+        <div xml:id="r880881">
           <pb source="https://nakala.fr/10.34847/nkl.afcbw8e9#d3202710ea7a272fda93b7d62fb930c787da088a" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.afcbw8e9/d3202710ea7a272fda93b7d62fb930c787da088a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La navigation de la Loire jusqu’au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>La navigation de la Loire s’est organisée autour de trois villes : Orléans, qui assurait les relations avec Paris et la Méditerranée, Angers, où s’effectuait un grand trafic de vin, et Nantes, d’abord port du sel et du vin, puis grand port de la pêche hauturière et du sucre des Antilles.</p>
           <p>La navigation de la Loire, très ancienne puisqu’elle date d’avant la conquête romaine, s’est prolongée presque sans interruption jusqu’au <num>xviii<hi rend="sup">e</hi></num> siècle, et même jusqu’au <num>xix<hi rend="sup">e</hi></num>. Les invasions normandes et bretonnes du <num>ix<hi rend="sup">e</hi></num> siècle l’avaient fait disparaître, mais le transport du sel et la culture intensive de la vigne dans la vallée de la Loire l’aidèrent à reprendre vie dès le <num>xi<hi rend="sup">e</hi></num> siècle. Le blé et, au <num>xvii<hi rend="sup">e</hi></num> siècle, le sucre formèrent aussi une part importante du trafic.</p>
         </div>
-        <div>
+        <div xml:id="r880937">
           <head rend="uc">Chapitre III
            <lb/>Les bateaux de Loire et leur équipage</head>
           <p>La navigation de la Loire avait des techniques particulières. Elle employait des bateaux à fond plat et à avant relevé, munis d’un gouvernail archaïque, mais ne nécessitant pas un trop fort tirant d’eau. Ces bateaux descendaient le fleuve avec le courant et le remontaient à la voile, en s’aidant des vents de l’océan. On groupait le plus souvent les embarcations par trains ; il existait différents types de bateaux : chalands, hâvriers, gabarres, hennequins, futereaux, sentines, toues, etc.</p>
           <p>Les mariniers de la Loire, sans être groupés en corporation, formaient cependant un corps de métier très original, et la fonction était le plus souvent héréditaire. Ils étaient pour la plupart originaires des bords de l’eau.</p>
         </div>
-        <div>
+        <div xml:id="r880952">
           <head rend="uc">Chapitre IV
            <lb/>Le commerce du vin en Anjou au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>La vallée de la Loire en général et l’Anjou en particulier produisent des crus estimés qui ont donné lieu très tôt à un important commerce d’exportation. Au <num>xviii<hi rend="sup">e</hi></num> siècle, ce sont les vins blancs qui sont envoyés à l’étranger par la mer ; les vins rouges sont gardés pour le commerce intérieur.</p>
@@ -152,14 +150,14 @@
           <p>Le trafic du vin était soumis à un contrôle minutieux de la part de la ferme générale, car on fraudait beaucoup.</p>
           <p>Les dérivés du vin (eau-de-vie) et les autres boissons (bière, cidre) donnaient lieu à un trafic peu important.</p>
         </div>
-        <div>
+        <div xml:id="r881002">
           <head rend="uc">Chapitre V
            <lb/>Le commerce du blé en Anjou au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>La culture du blé est abondante dans la vallée de la Loire. Le blé était principalement dirigé vers Nantes pour l’exportation. En 1761, il en est passé 36 000 milliers de livres aux Ponts-de-Cé, et 50 500 milliers de livres en 1766. La courbe saisonnière est assez irrégulière. On aperçoit cependant nettement une montée du trafic après la moisson. Le mois le plus fort est novembre.</p>
           <p>Il venait aussi du blé du Maine et de la Bretagne. Dans l’ensemble, il est passé en Anjou, ailleurs qu’aux Ponts-de-Cé, 250 000 livres en 1761 et 600 000 livres en 1766.</p>
           <p>On transportait aussi de la farine (un million de livres environ en 1766) et d’autres céréales (avoine, seigle, orge), ainsi que des pois et des fèves.</p>
         </div>
-        <div>
+        <div xml:id="r881026">
           <head rend="uc">Chapitre VI
            <lb/>Marchandises dont le tonnage excédait
            <lb/>le million de livres</head>
@@ -167,20 +165,20 @@
           <p>Pour les métaux, on note <hi rend="i">4</hi> 525 000 livres aux Ponts-de-Cé en 1766. Le plus important est le fer, suivent le plomb, l’acier, etc. La quincaille de cuivre et la mitraille donnent lieu également à un trafic considérable.</p>
           <p>La droguerie (5 700 000 livres en 1766 à Ingrandes), la résine (2 530 874 livres en 1766 au même endroit) et les textiles sont aussi importants. L’Anjou produisait beaucoup de draps et de toile. Le charbon remontait la Loire en grandes quantités.</p>
         </div>
-        <div>
+        <div xml:id="r881050">
           <pb source="https://nakala.fr/10.34847/nkl.afcbw8e9#3fbe8da62052301a0201f89e02b81455c083563a" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.afcbw8e9/3fbe8da62052301a0201f89e02b81455c083563a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Marchandises dont le tonnage se situe
            <lb/>entre 100 000 et 900 000 livres</head>
           <p>Par ordre d’importance du tonnage, on constate le trafic des marchandises suivantes : la teinture, les fruits et confiture (pruneaux surtout), les huiles et principalement l’huile de poisson, la cherrée (cendre utilisée dans la verrerie), le verre, la mercerie, le brai (goudron gras), le papier. Les bestiaux et les cuirs donnaient lieu également à un trafic actif.</p>
         </div>
-        <div>
+        <div xml:id="r881069">
           <head rend="uc">Chapitre VIII
            <lb/>Marchandises en petites quantités</head>
           <p>Le trafic des savons, suifs, cire et produits gras est moins important, de même que celui des produits chimiques (alun, soude), des denrées exotiques (chocolat, thé, poivre, épices), des fourrages et des graines, des futailles, des cornes, etc. Un certain nombre de produits manufacturés entraient aussi dans le commerce.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r881082">
         <head rend="uc">Pièces justificatives</head>
         <p>Extraits des comptes des receveurs de la mairie d’Angers. – Pancartes de la Cloison. – Exemple du journal de recette de la Cloison aux Ponts-de-Cé en 1766.</p>
       </div>

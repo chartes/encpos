@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_22" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_22" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,22 +56,22 @@
         <surname>Servant</surname>
         <roleName>maître ès lettre</roleName>
       </byline>
-      <div>
+      <div xml:id="r1181107">
         <head rend="uc">Sources</head>
         <p>Nous avons utilisé en priorité les documents conservés aux Archives communales de Valenciennes, principalement la série II (greffe des werps), complétée utilement par les registres d’embriévures des werps (J2-3..) et les bordereaux de la prévôté (J2-2..) ; les testaments, jadis inclus dans les liasses de chirographes, ont fait tout récemment l’objet d’un classement séparé. Les manuscrits conservés à la Bibliothèque municipale ont fourni de très intéressants renseignements sur l’histoire locale, en particulier les ouvrages de Louis de La Fontaine dit Wicart et de Simon Le Boucq.</p>
         <p>Aux Archives départementales du Nord, quelques compléments ont été trouvés dans les séries B (contrats de rente), G (testaments des chanoines de la cathédrale de Cambrai, comptes de la fabrique) et H (contrats de rente également).</p>
         <p>On a examiné dans les principales bibliothèques de la région (Lille, Douai, et surtout Cambrai) quelques manuscrits fournissant des informations complémentaires sur l’histoire et la comptabilité municipale, ainsi que sur le chapitre de la Toison d’Or tenu à Valenciennes en 1473. Mais l’étude de cette solennité a été menée principalement à l’aide des archives de l’ordre, aujourd’hui conservées au Haus-, Hof- und Staatsarchiv de Vienne (Autriche), fonds coté AB 453 b/I.</p>
       </div>
-      <div>
+      <div xml:id="r1181123">
         <head rend="uc">Introduction</head>
         <p>L’objet principal de cette étude est la ville de Valenciennes prise sur une période chronologique assez restreinte (un demi-siècle), et considérée sous un <pb source="https://nakala.fr/10.34847/nkl.5f3c23tc#8c47b694ca3beb77191618dc40edef3617071097" n="184" facs="https://api.nakala.fr/iiif/10.34847/nkl.5f3c23tc/8c47b694ca3beb77191618dc40edef3617071097/full/full/0/default.jpg"/>aspect particulier, les manifestations intellectuelles et artistiques de son histoire au cours de cette période. Le choix du lieu s’explique en raison de critères d’ordre géographique, socio-économique et politique : la ville se situe dans le comté de Hainaut, relève par conséquent de l’autorité des ducs de Bourgogne à une époque où les territoires soumis à leur influence s’avèrent particulièrement florissants ; même, certains de ces pays se montrent très novateurs, tant sur le plan des techniques que sur celui des idées (Allemagne, Pays-Bas). En même temps, le pouvoir municipal appartient à une oligarchie de bourgeois enrichis grâce au commerce ou à l’industrie textile : c’est le groupe social qui, à l’instar des princes et de leur cour, commence à manifester de l’intérêt pour les phénomènes artistiques et culturels.</p>
         <p>Une présentation générale du cadre géographique et de la clientèle potentielle (le patriciat urbain) permet de mieux comprendre l’originalité du mouvement artistique et intellectuel tel qu’il se déploie à Valenciennes à la fin du Moyen Age, Il ne s’agit cependant pas là d’une étude d’histoire de l’art ou d’histoire culturelle : on a privilégié les hommes et non la production proprement dite, affaire de spécialistes. On s’est cependant efforcé de dépasser le stade de la monographie d’histoire locale, en replaçant le mouvement dans la tendance générale de l’époque et du lieu.</p>
       </div>
-      <div>
+      <div xml:id="r1181141">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Les cadres de la vie quotidienne</head>
-        <div>
+        <div xml:id="r1181153">
           <head rend="uc">Première section
             <lb/>cadres socio-économiques</head>
           <div>
@@ -95,7 +93,7 @@
             <p>L’individu se trouve inclus presque automatiquement dans trois types de structures très prenantes, la famille, le métier, le groupe religieux. La première lui lègue un passé, une tradition, des ambitions également ; le second encadre sa vie professionnelle, et le troisième sa vie spirituelle. Les trois éléments sont d’ailleurs inter dépendants. L’endogamie professionnelle est assez forte. En outre, tous les métiers à Valenciennes se doublent de confréries religieuses <pb source="https://nakala.fr/10.34847/nkl.5f3c23tc#a25ac4646d028ae8385932598b087205e624ce03" n="186" facs="https://api.nakala.fr/iiif/10.34847/nkl.5f3c23tc/a25ac4646d028ae8385932598b087205e624ce03/full/full/0/default.jpg"/>très actives, multipliant banquets, processions et autres fêtes du même ordre. La société valenciennoise n’apparaît pas encore figée, il existe des voies d’ouverture. La première passe par l’acquisition de la bourgeoisie, formalité peu onéreuse et quasi obligée à laquelle souscrivent presque tous les habitants, à l’exception des femmes, des enfants et des criminels. La véritable scission s’opère entre la petite bourgeoisie artisanale (le monde de la boutique, des « gens mécaniques ») et le patriciat, c’est-à-dire les quelques familles les plus riches de la cité, les Quarouble, Du Gardin, Rasoir, Du Bos, Creste, Le Kien, Vrediel, etc. Ces hommes, en rachetant les seigneuries des nobles en difficulté, en épousant des héritières titrées mais sans fortune, se rapprochent peu à peu de la noblesse, et la fusion entre les deux groupes sociaux se réalise complètement au <num>xvi<hi rend="sup">e</hi></num> siècle. On peut donc conclure que le fondement de la hiérarchie sociale valenciennoise est la fortune, comme dans toute ville de commerce d’ailleurs.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1181239">
           <head rend="uc">Deuxième section
             <lb/>une ville et son miroir</head>
           <div>
@@ -112,11 +110,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1181287">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Aspects artistiques</head>
-        <div>
+        <div xml:id="r1181299">
           <head rend="uc">Première section
             <lb/>hommes et métiers d’art</head>
           <div>
@@ -131,7 +129,7 @@
             <p>Les peintres et sculpteurs, sous l’égide de Simon Marmion, forment en 1462 une confrérie sous le patronage de saint Luc, dont la chapelle est installée à Notre-Dame-la-Grande (chapelle Saint-Honoré). L’action de Marmion s’est révélée déterminante pour l’activité des peintres à Valenciennes. Son talent et sa renommée ont favorisé le rassemblement autour de lui d’un groupe de jeunes disciples parmi lesquels Jehan Prevost (qui épousa sa veuve) et son neveu Michel Clauwet, qui pourrait être la souche de l’illustre dynastie des Clouet du <num>xvi<hi rend="sup">e</hi></num> siècle. Avec la mort de Marmion s’amorce une ère de déclin pour la peinture valenciennoise.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1181346">
           <pb source="https://nakala.fr/10.34847/nkl.5f3c23tc#880eaec932028ff89608df1f7b3b96e769accdd1" n="189" facs="https://api.nakala.fr/iiif/10.34847/nkl.5f3c23tc/880eaec932028ff89608df1f7b3b96e769accdd1/full/full/0/default.jpg"/>
           <head rend="uc">Deuxième section
             <lb/>clientèle et production</head>
@@ -158,24 +156,24 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1181451">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>Aspects culturels</head>
-        <div>
+        <div xml:id="r1181463">
           <head rend="uc">Chapitre premier
             <lb/>l’enseignement</head>
           <p>L’enseignement à Valenciennes dépend presque entièrement de l’abbaye augustine de Saint-Jean ; cependant, les chanoines de Saint-Géry ont fini par obtenir eux aussi le droit d’instruire la jeunesse. Les écoles sont de deux types : petites <pb source="https://nakala.fr/10.34847/nkl.5f3c23tc#d8b7622a28e5bd5282118399079c11bcb22bd92a" n="191" facs="https://api.nakala.fr/iiif/10.34847/nkl.5f3c23tc/d8b7622a28e5bd5282118399079c11bcb22bd92a/full/full/0/default.jpg"/> écoles presque sans latin (<hi rend="i">citra latinum seu Donatum</hi>) et grandes écoles latines qui forment les futurs prêtres et constituent un lieu de passage obligé pour tous les candidats à l’université. Le bilan chiffré de la scolarisation à Valenciennes est positif, avec un taux de l’ordre de 50 %. En revanche, la situation des maîtres n’est guère enviable. La fin du <num>xv<hi rend="sup">e</hi></num> siècle est marquée par l’implantation en ville d’un collège dirigé par Th. Warnet selon les principes réformateurs de Jean Standonck. Mais dès la mort de Warnet, l’expérience est abandonnée.</p>
           <p>Certains complètent leur formation intellectuelle à l’université : on connaît les Valenciennois ayant étudié à Louvain, grâce à la matricule de cet établissement. Presque tous se bornent à suivre les cours donnés à la faculté des arts. Certains sont qualifiés de <hi rend="i">pauper,</hi> ce qui tendrait à prouver que l’argent ne constitue pas un obstacle insurmontable pour quiconque veut étudier. A leur retour à Valenciennes, ces étudiants deviennent maître dans une des écoles latines ou occupent une fonction au sein du personnel municipal. On voit aussi passer à Louvain des fils de grandes familles du patriciat, qui semblent venus là dans le but premier de s’instruire : la culture commence à devenir une fin en soi.</p>
         </div>
-        <div>
+        <div xml:id="r1181497">
           <head rend="uc">Chapitre II
             <lb/>Maîtres à penser ou à écrire,
             <lb/>un demi-siècle de littérature à Valenciennes</head>
           <p>Deux grands noms incarnent la tradition littéraire à Valenciennes : Chastellain et Molinet, tous deux chroniqueurs et indiciaires de la maison de Bourgogne. Mais tandis que le premier est resté très attaché à la personne du duc, ne séjournant que peu à Valenciennes (on ne trouve aucune trace de sa présence dans les archives municipales), le second au contraire s’est réellement installé en ville en s’éloignant des milieux de la cour. Dans sa <hi rend="i">Chronique</hi> ou ses poésies, il relate à plusieurs reprises des événements locaux. Sa fonction auprès du duc ne l’empêche pas d’entretenir des relations littéraires suivies avec des poètes « français » tels qu’Octovien de Saint-Gelais. Il paraît avoir voué un culte particulier à deux de ses protecteurs, Charles le Téméraire et Philippe le Beau. Nous avons découvert dans différents manuscrits de Douai, Cambrai et Valenciennes deux épitaphes en l’honneur de ces deux princes, formellement attribuées à Molinet ; celle de Charles paraît bien effectivement être sortie de sa plume.</p>
           <p>Outre ces deux individualités marquantes, on retiendra le nom de trois personnages dont on conserve les écrits : Jehan Coppin, Engherant Le Franc et Jehan Martin. Il faut également citer ici le puy de Valenciennes, association littéraire très ancienne, qui organise chaque année des concours de poésie. C’est à la fois peu et beaucoup : mais la culture à cette époque conserve un caractère oral très marqué. Beaucoup de pièces n’ont jamais été mises par écrit, et on n’a pas toujours jugé utile de garder celles qui l’étaient, par exemple pour les joutes poétiques, car elles étaient très répétitives.</p>
         </div>
-        <div>
+        <div xml:id="r1181518">
           <pb source="https://nakala.fr/10.34847/nkl.5f3c23tc#42601e0b6d28e93174abae5273e57b6e157e5e4d" n="192" facs="https://api.nakala.fr/iiif/10.34847/nkl.5f3c23tc/42601e0b6d28e93174abae5273e57b6e157e5e4d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
             <lb/>Les relais de la pensée</head>
@@ -185,19 +183,19 @@
           <p>La ville a servi de cadre à des expériences très novatrices, dont l’échec est sans doute dû au manque d’enthousiasme de la population (les bourgeois), à la mentalité très conservatrice.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1181576">
         <head rend="uc">Conclusion</head>
         <p>La renommée de Valenciennes dans les domaines artistique et culturel à la fin du Moyen Age est amplement méritée, même si peu de grands noms l’illustrent. Il s’agit surtout à vrai dire d’un mouvement de masse, qui s’inscrit dans la tendance générale de l’époque : à Lille, à Douai, à Cambrai, on retrouve des comportements similaires chez les bourgeois aisés. Cependant, on décèle des éléments originaux dans le mouvement intellectuel et artistique valenciennois : si Marmion, Chastellain et Molinet se sont fixés dans la cité, c’est parce qu’ils y ont trouvé un public et une clientèle capable de goûter leur art. La bourgeoisie montre qu’à la fin du Moyen Age, elle est capable de relayer les princes <pb source="https://nakala.fr/10.34847/nkl.5f3c23tc#0a001d6e3162ee35cb456ea541a2d7d2f910b1e5" n="193" facs="https://api.nakala.fr/iiif/10.34847/nkl.5f3c23tc/0a001d6e3162ee35cb456ea541a2d7d2f910b1e5/full/full/0/default.jpg"/>dans leur rôle de mécène. Mais l’accès des élites urbaines à l’art et à la culture ne fait que creuser davantage le fossé qui la sépare du peuple : des tensions naissent, elles se feront bientôt jour par le biais du problème religieux, extrêmement aigu pendant tout le <num>xvi<hi rend="sup">e</hi></num> siècle à Valenciennes.</p>
       </div>
-      <div>
+      <div xml:id="r1181597">
         <head rend="uc">Pièces justificatives</head>
         <p>Serment des bourgeois. – Ordonnances des orfèvres et inventaires d’orfèvrerie. – Testaments. – Contrat du retable de l’abbaye de Flines. – Liste des étudiants de Valenciennes inscrits à Louvain. – Poème(s) inédit(s) de Molinet. – Livres « jetés en mole » des chanoines de Cambrai.</p>
       </div>
-      <div>
+      <div xml:id="r1181607">
         <head rend="uc">Annexes</head>
         <p>Cartes et plans divers. – Tableaux récapitulatifs et graphiques divers, concernant les nouveaux bourgeois et les bénéficiaires de la franchise, les écoles de Valenciennes en 1497, la fréquentation valenciennoise à l’université de Louvain.</p>
       </div>
-      <div>
+      <div xml:id="r1181617">
         <head rend="uc">Iconographie</head>
         <p>Photographies des tableaux de l’école de Marmion et de Jean Prévost conservés au musée des Beaux-Arts de Valenciennes. – Plan en couleur de Valenciennes au <num>xvii<hi rend="sup">e</hi></num> siècle. – Fac-similés d’impressions de Jehan de Liège. – Chirographes conservés aux Archives communales de Valenciennes.</p>
         <pb source="https://nakala.fr/10.34847/nkl.5f3c23tc#883ec6142e0bba2085cb22b7891d84edc1327eb8" n="194" facs="https://api.nakala.fr/iiif/10.34847/nkl.5f3c23tc/883ec6142e0bba2085cb22b7891d84edc1327eb8/full/full/0/default.jpg"/>

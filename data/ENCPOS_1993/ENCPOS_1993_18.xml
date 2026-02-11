@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,43 +55,43 @@
         <forename>Juliette</forename>
         <surname>Robain</surname>
       </byline>
-      <div>
+      <div xml:id="r1234125">
         <head rend="uc">Introduction</head>
         <p>Au XII’ siècle, une partie de la Catalogne est encore sous domination musulmane. La reconquête a peu progressé depuis l’époque carolingienne où les chrétiens avaient repris la « Vieille Catalogne », formée par les comtés du nord et de l’est, et la frontière chrétienne y est beaucoup moins avancée que dans le reste de la Péninsule. Ramon Berenguer IV, comte de Barcelone et prince d’Aragon, met fin à cette situation en reprenant les deux grandes cités musulmanes de Tortose et de Lérida en 1148 et 1149 (les régions de Tortose et de Lérida forment la Nouvelle Catalogne). La région de Lérida, qui est étudiée ici, est repeuplée et réorganisée selon le modèle élaboré au cours des décennies précédentes dans les vieux comtés catalans.</p>
       </div>
-      <div>
+      <div xml:id="r1234135">
         <head rend="uc">Sources</head>
         <p>La richesse de la documentation catalane médiévale est connue, mais a été relativement peu exploitée pour l’époque des premiers comtes-rois : Ramon Berenguer IV (1131-1162), Alfons I" (1162-1196) et Pere I" (1196-1213). Les principaux fonds sont conservés à l’Archivo de la Corona de Aragón, à Barcelone, principalement <pb source="https://nakala.fr/10.34847/nkl.c93c931d#a80d1d1d294c034a30f46e3d7009174345ee82bf" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.c93c931d/a80d1d1d294c034a30f46e3d7009174345ee82bf/full/full/0/default.jpg"/> dans les séries de <hi rend="i">Pergaminos de la Cancillería real,</hi> et dans celles du <hi rend="i">Gran priorato de Cataluña de la Ordén de San Juan de Jerusalén</hi> pour les ordres militaires. Ont aussi été utilisés les fonds des grands monastères catalans, notamment celui de Poblet, conservé à l’Archivo histórico nacional à Madrid.</p>
       </div>
-      <div>
+      <div xml:id="r1234158">
         <head rend="uc">Chapitre préliminaire
          <lb/>situation de la région de Lérida
          <lb/>a la veille de la reconquête</head>
         <p>A l’époque musulmane, la ville de Lérida a d’abord formé le centre de l’un des districts de la marche supérieure d’al-Andalus avant d’être rattachée à la taïfa de Saragosse puis d’être elle-même la capitale d’une taïfa. A la veille de la reconquête, cette taïfa s’étend approximativement sur les deux actuelles <hi rend="i">comarcas </hi>de Segria et Garrigues.</p>
         <p>La principauté de Lérida est entourée en 1149 par plusieurs États chrétiens : à l’ouest, le royaume d’Aragon dont les souverains successifs entreprennent plusieurs expéditions contre Lérida ; au sud, le comté d’Urgell ; et à l’est, le comté de Barcelone. L’union du comté de Barcelone au royaume d’Aragon en 1137 est l’une des causes de la reconquête de Lérida, qui ne peut plus s’appuyer sur une principauté pour se défendre contre l’autre.</p>
       </div>
-      <div>
+      <div xml:id="r1234179">
         <head rend="uc">Première partie
          <lb/>Les châteaux</head>
-        <div>
+        <div xml:id="r1234187">
           <head rend="uc">Chapitre premier
            <lb/>le réseau castral après la reconquête</head>
           <p>Les châteaux ont un rôle important dans la réorganisation du pays consécutive à la conquête chrétienne. Le réseau des châteaux musulmans, les <hi rend="i">husun,</hi> est réutilisé ; s’y ajoutent de nouveaux châteaux chrétiens, implantés principalement dans les vallées du Segre et de l’Èbre et dans les montagnes du Montsant. Une grande variété de termes est utilisée pour désigner le château chrétien, <hi rend="i">castrum </hi>étant de loin le plus fréquent. Le <hi rend="i">castrum</hi> est souvent associé à une <hi rend="i">villa :</hi> le phénomène <pb source="https://nakala.fr/10.34847/nkl.c93c931d#48d6153356ef2eb3f433c077286f6fbcbbdeb5dc" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.c93c931d/48d6153356ef2eb3f433c077286f6fbcbbdeb5dc/full/full/0/default.jpg"/> de l’<hi rend="i">incastellamento</hi> semble s’appliquer en Catalogne comme en Italie, l’on voit les villages se regrouper au pied des châteaux au lieu d’être éparpillés dans la plaine. Le territoire entier est divisé en <hi rend="i">castell termenats,</hi> circonscriptions d’importance variable dépendant du château.</p>
         </div>
-        <div>
+        <div xml:id="r1234228">
           <head rend="uc">Chapitre II
            <lb/>Le rôle du <hi rend="i">castrum</hi></head>
           <p>Le château a des fonctions diverses dans l’organisation du pays. Le rôle militaire est le plus évident, bien que la lutte contre les musulmans ne soit plus prioritaire après la reconquête de Lérida et de Tortose. Le château reste un point d’appui important dans les guerres privées entre barons.</p>
           <p>La fonction de centre de commandement fait du château le centre de la seigneurie banale, les hommes vivant dans le cadre de la seigneurie doivent au maître du château, souvent représenté par un <hi rend="i">castlà</hi> et un bayle, un certain nombre de redevances et de services. Le système élaboré en Vieille Catalogne dans la seconde moitié du XI’ siècle s’applique dans les mêmes modalités.</p>
           <p>Enfin, le château est un élément important du monde féodal. On le retrouve fréquemment dans l’iconographie. Le terme aurait peut-être donné son nom au pays, c’est du moins l’une des nombreuses hypothèses tentant d’expliquer l’origine du mot Catalogne : <hi rend="i">Catalonia</hi> viendrait de <hi rend="i">castlà,</hi> l’homme chargé de la garde du château.</p>
         </div>
-        <div>
+        <div xml:id="r1234261">
           <head rend="uc">Chapitre III
            <lb/>Les modes de transmission des châteaux</head>
           <p>Les châteaux se transmettent le plus souvent sous la forme apparente ou réelle de dons. Certaines transactions s’effectuent au sein de la famille, les plus courantes sont les transmissions par héritage, mais elles se font aussi à l’occasion du mariage : les châteaux peuvent être donnés en dot, par un père à sa fille, ou en <hi rend="i">sponsalicium,</hi> par un mari à sa femme.</p>
           <p>Les donations sont pourtant rarement « gratuites » et exigent généralement une contrepartie. Si elle reste d’ordre spirituel dans les donations pieuses, la contrepartie est bien réelle dans les donations en fief : il s’agit de services d’ost, de cavalcade... auxquels peut s’ajouter une partie des revenus de la châtellenie. Les châteaux peuvent aussi être donnés en gage (<hi rend="i">impignoramentum) ;</hi> dans ce cas, la compensation est sans ambiguïté financière ; le taux du prêt à intérêt est souvent élevé et peut couramment atteindre 20 %.</p>
         </div>
-        <div>
+        <div xml:id="r1234284">
           <pb source="https://nakala.fr/10.34847/nkl.c93c931d#d190526a1ff73b98368441d1ead75cd793bd8a7f" n="152" facs="https://api.nakala.fr/iiif/10.34847/nkl.c93c931d/d190526a1ff73b98368441d1ead75cd793bd8a7f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les modes de détention des châteaux</head>
@@ -102,24 +100,24 @@
           <p>La féodalité catalane a pu connaître son plein épanouissement dès la deuxième moitié du <num>xi<hi rend="sup">e</hi></num> siècle (P. Bonnassie), ou seulement au cours du XII’ siècle (T. Bisson) ; le système féodal est en tout cas assez élaboré dans la seconde moitié de ce siècle pour être pleinement mis en œuvre dans la région de Lérida.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1234330">
         <head rend="uc">Deuxième partie
          <lb/>Les châtelains</head>
-        <div>
+        <div xml:id="r1234338">
           <head rend="uc">Chapitre premier
            <lb/>le comte-roi</head>
           <p>Le comte-roi est le premier châtelain de ses terres dans la hiérarchie féodale. Mais au XII’ siècle, son pouvoir est de plus en plus défini en termes régaliens. La compilation juridique des <hi rend="i">Usatges de Barcelona,</hi> rédigée vers le milieu du siècle à l’instigation de Ramon Berenguer IV, insiste sur les attributions du <hi rend="i">princeps</hi> en matière de justice, de guerre et de paix, de fortifications, de monnaie... Le prince reprend aussi à son compte la paix et la trêve de Dieu.</p>
           <p>L’activité administrative d’Alfons I", secondé par Ramon de Caldes, contribua à améliorer l’organisation du pays : les archives comtales furent reclassées, une réforme fiscale se mit en place et assura une meilleure gestion des ressources du pays.</p>
           <p>Les comtes de Barcelone doivent cependant faire face à un certain nombre d’oppositions et de critiques, dont se font l’écho les <hi rend="i">sirventés</hi> des troubadours.</p>
         </div>
-        <div>
+        <div xml:id="r1234368">
           <pb source="https://nakala.fr/10.34847/nkl.c93c931d#c027364876521958c1f9924168150b69f277a708" n="153" facs="https://api.nakala.fr/iiif/10.34847/nkl.c93c931d/c027364876521958c1f9924168150b69f277a708/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les seigneurs laïques</head>
           <p>Les châteaux de la région de Lérida sont donnés en fief aux représentants de plusieurs grands lignages catalans. Les comtes d’Urgell, comtes par la grâce de Dieu, ont un statut à part. La participation d’Ermengol VI à la conquête lui a valu de larges donations, notamment celle de la ville de Lérida en fief. Leur puissance pourrait être dangereuse pour les comtes-rois, mais ils restent constamment fidèles aux souverains.</p>
           <p>On trouve d’autres familles de châtelains, notamment les Montcada très présents dans la région de Lérida, les Cervera, <hi rend="i">castlans</hi> de Lérida...</p>
         </div>
-        <div>
+        <div xml:id="r1234392">
           <head rend="uc">Chapitre III
            <lb/>Les seigneurs ecclésiastiques</head>
           <p>Le reconquête s’accompagne de la restauration de l’évêché de Lérida, qui reçoit en dotation les dîmes et les prémices de la ville de Lérida et de tout son territoire. Une nouvelle cathédrale commence à s’édifier sur l’emplacement de l’ancienne mosquée.</p>
@@ -127,32 +125,32 @@
           <p>Enfin, les ordres militaires jouissent de la faveur des comtes-rois. Ceux-ci leur donnent de nombreux châteaux (théoriquement un cinquième de toutes les conquêtes) pour les dédommager de la perte de l’héritage d’Alphonse le Batailleur. Ils participent largement au repeuplement de la région.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1234411">
         <head rend="uc">Troisième partie
          <lb/>Les châtellenies</head>
-        <div>
+        <div xml:id="r1234419">
           <head rend="uc">Chapitre premier
            <lb/>processus d’asservissement : la seigneurie banale</head>
           <p>La seigneurie banale née au siècle précédent dans le comté de Barcelone s’abat sur les paysans de Nouvelle Catalogne. Les exactions exigées par les seigneurs commencent à se codifier mais ne sont pas encore limitées aux cinq <hi rend="i">mais usos <pb source="https://nakala.fr/10.34847/nkl.c93c931d#32517d7f4da0f6c5f6ab598285394608c7f176ec" n="154" facs="https://api.nakala.fr/iiif/10.34847/nkl.c93c931d/32517d7f4da0f6c5f6ab598285394608c7f176ec/full/full/0/default.jpg"/></hi>classiques du <num>xiii<hi rend="sup">e</hi></num> siècle (<hi rend="i">cugucia, exorquia, intestia, arsina, ferma de spoli</hi>). La position frontière de la région de Lérida ne préserve pas ses habitants de l’asservissement. La plaine de Lérida n’est pas une région déserte ni exposée à des dangers particuliers ; les seigneurs ne cherchent donc pas à y attirer des colons à tout prix en leur accordant des conditions favorables.</p>
         </div>
-        <div>
+        <div xml:id="r1234449">
           <head rend="uc">Chapitre II
            <lb/>Processus d’affranchissement : les chartes de peuplement
            <lb/>et leurs limites</head>
           <p>Certaines communautés villageoises de la région de Lérida bénéficient cependant de chartes de franchise, destinées à attirer des colons et à favoriser le repeuplement. Ces chartes sont le plus souvent octroyées par le comte-roi qui peut ainsi faire contrepoids au pouvoir des seigneurs féodaux.</p>
           <p>Les communautés musulmanes sont régies par des règles différentes ; si la tolérance religieuse est affirmée, les anciens habitants ne peuvent pas toujours rester sur place et doivent se regrouper dans les <hi rend="i">morerias</hi> de certaines villes ou villages.</p>
         </div>
-        <div>
+        <div xml:id="r1234470">
           <head rend="uc">Chapitre III
            <lb/>Le legs de la domination musulmane</head>
           <p>Plus de quatre siècles de domination musulmane ont laissé des traces dans le pays. Leur système d’irrigation perfectionné fut réutilisé par les chrétiens. On trouve encore aujourd’hui dans la toponymie le souvenir de cette période.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1234483">
         <head rend="uc">Conclusion</head>
         <p>Le féodalisme apparaît dans la région de Lérida dès la reconquête en 1149 ; cependant, la souveraineté du comte de Barcelone s’affirme de plus en plus nettement et son pouvoir ne risque plus d’être menacé par les barons du pays.</p>
       </div>
-      <div>
+      <div xml:id="r1234493">
         <head rend="uc">Pièces justificatives</head>
         <p>Édition des documents inédits des règnes de Ramon Berenguer IV, Alfons I<hi rend="sup">er</hi> et Pere 1“concernant la région de Lérida, et brève analyse des documents ayant déjà fait l’objet d’une édition.</p>
       </div>

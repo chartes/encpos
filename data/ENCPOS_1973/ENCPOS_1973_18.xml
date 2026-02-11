@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1973_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1973_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,33 +56,33 @@
         <surname>Heusse-Ducassé</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r973672">
         <head rend="uc">Sources</head>
         <p>Les sources principales sont les archives du fonds de Malte aux Archives départementales de la Haute-Garonne, complétées par l’enquête pontificale de 1373 aux Archives du Vatican, et par les Archives communales de Poucharramet (Cadastre).</p>
       </div>
-      <div>
+      <div xml:id="r973682">
         <head rend="uc">Introduction</head>
         <p>Le dessein de cette étude était, à l’origine, d’étudier l’évolution économique et sociale, durant tout le Moyen Age, des quarante villages du Comminges donnés à l’ordre de l’Hôpital au début du <num>xii<hi rend="sup">e</hi></num> siècle, pour y faire des sauvetés, donations qui sont reproduites dans le cartulaire de Saint-Clar, édité par M. Ourliac. L’examen des archives du fonds de Malte aux Archives départementales de la Haute-Garonne révéla bientôt que les Hospitaliers avaient perdu la majorité de ces villages, et que six d’entre eux seulement étaient encore, en tout ou partie, en leur possession au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle. Ce sujet s’est donc réduit, et divisé selon deux directions différentes : d’une part, une tentative pour comprendre les modalités des donations faites à l’Hôpital au début du <num>xii<hi rend="sup">e</hi></num> siècle et les raisons de la perte de ses possessions, et d’autre part, l’étude de la commanderie de Poucharramet qui regroupa la plus grande partie de ce qui appartenait encore à l’ordre un siècle plus tard.</p>
       </div>
-      <div>
+      <div xml:id="r973710">
         <pb source="https://nakala.fr/10.34847/nkl.c26f65rt#c4707951bdb6b22abf3ee8b0d8250cf5df41b5f8" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.c26f65rt/c4707951bdb6b22abf3ee8b0d8250cf5df41b5f8/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Le cartulaire de Saint-Clar
          <lb/>problèmes et hypothèses</head>
-        <div>
+        <div xml:id="r973725">
           <head rend="uc">Chapitre premier
            <lb/>les hospitaliers à Jérusalem et en Comminges
            <lb/>à la fin du <num>xi<hi rend="sup">e</hi></num> et au début du <num>xii<hi rend="sup">e</hi></num> siècle</head>
           <p>Les origines de l’Ordre de l’Hôpital sont assez obscures. Selon les traditions les plus sérieuses, un hospice fondé dans Jérusalem et confié à des religieux bénédictins se serait érigé en ordre séparé, vers l’époque de la première croisade, sous l’influence de frère Géraud, avant de se transformer en ordre militaire vers 1140. Cependant, une des chartes du cartulaire de Saint-Clar est de 1098, ce qui invite à repousser la date de l’« indépendance » de l’Hôpital vers le milieu du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
           <p>En Comminges, entre 1096 et 1120, les donations se multiplient sous l’influence de deux hommes, frère Géraud (personnage distinct du prieur de Jérusalem) et Forton de Hautefage.</p>
         </div>
-        <div>
+        <div xml:id="r973760">
           <head rend="uc">Chapitre II
            <lb/>« pour y faire une sauveté »</head>
           <p>L’institution des sauvetés ne relève pas, semble-t-il, d’une politique concertée ou d’un projet délibéré, mais plutôt d’une superposition d’un faisceau de conditions : l’accroissement démographique et le besoin de conquérir de nouvelles terres, l’extension des idées de paix et le développement de la réforme grégorienne, enfin l’introduction dans le Midi commingeois des institutions féodales. On assiste à un passage de la <hi rend="i">villa</hi> de type gallo-romain au village et à la seigneurie, transformation économique et structurelle à la fois, subie autant que voulue par les « maîtres », qui deviennent des seigneurs. Les Hospitaliers apparaissent non pas comme les promoteurs de l’entreprise, mais seulement comme les garants et les gardiens spirituels de la <hi rend="i">salvetas,</hi> lieu de paix : les honneurs sont donnés <hi rend="i">ad eorum custodiam.</hi></p>
           <p>A partir de la fin du <num>xii<hi rend="sup">e</hi></num> siècle, on observe une décadence de l’institution des sauvetés, même de celles qui étaient restées aux mains des Hospitaliers : ceux-ci sont parfois obligés de faire appel à un seigneur laïc pour restaurer l’établissement.</p>
         </div>
-        <div>
+        <div xml:id="r973792">
           <pb source="https://nakala.fr/10.34847/nkl.c26f65rt#cd89518b485bc3c8fff38300652889205d44bf92" n="125" facs="https://api.nakala.fr/iiif/10.34847/nkl.c26f65rt/cd89518b485bc3c8fff38300652889205d44bf92/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La perte de leurs biens par les hospitaliers</head>
@@ -95,12 +93,12 @@
           <p>Finalement, six des anciennes sauvetés restèrent entre leurs mains ; dans trois d’entre elles, Marignac, Serres et Lescuns, l’Hôpital n’avait que l’église et quelques tenures, avant que leur réunion aux biens des Templiers de Montsaunès en 1312 ne leur confère un peu plus d’importance. Les trois autres, Saint-Clar, Poucharramet et Lautignac, conservées sans doute parce que les plus proches de Toulouse, furent réunies dans le cadre d’une commanderie établie à Poucharramet.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r973834">
         <head rend="uc">Deuxième partie
          <lb/>La commanderie de Poucharramet et ses membres :
          <lb/>Saint-Clar, Lautignac, Cambernard, Castelnau-Picampeau
          <lb/>du <num>xii<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r973858">
           <head rend="uc">Chapitre premier
            <lb/>des premières donations à l’établissement permanent</head>
           <p>A la suite des donations retranscrites dans le cartulaire de Saint-Clar, l’Hôpital possédait très peu de choses à Saint-Clar et Lautignac, davantage à Poucharramet, où il dut cependant affronter en 1168 la tentative du fils d’Aimeric de Muret pour revenir sur la donation de 1102.</p>
@@ -108,7 +106,7 @@
           <p>On ne sait à peu près rien du mode de présence des Hospitaliers dans ces lieux au cours du <num>xii<hi rend="sup">e</hi></num> siècle. Il semble cependant que cette présence ne fut qu’intermittente. Vers 1198 la commanderie de Poucharramet parait organisée et elle est réunie en 1199 par décision du prieur de Toulouse à l’Hôpital pyrénéen d’Aure.</p>
           <p>Après la crise albigeoise, qui se répercuta également à Poucharramet et Saint-Clar, le <num>xiii<hi rend="sup">e</hi></num> siècle marque une période d’extension décisive des commanderies. On observe une union de fait de ces deux établissements qui est consacrée en 1254. De nombreuses donations accroissent les possessions des Hospitaliers qui s’étendent sur une vaste région. La seigneurie de Saint-Clar donnée par Sarrazine de Pointis en 1248, les granges de Lautignac et Cambernard, quelques terres à Castelnau-Picampeau constituent, avec les possessions de Poucharramet, le domaine foncier de cette commanderie. Mais s’ils sont les seuls maîtres à Saint-Clar, où ils accordent en 1254 une charte de coutumes à la communauté villageoise, ils doivent, à Poucharramet même, compter – et lutter – avec un seigneur laïc, Bernard Baron à qui le comte Bernard IV inféoda en 1199 ce village et son <hi rend="i">castrum.</hi></p>
         </div>
-        <div>
+        <div xml:id="r973896">
           <head rend="uc">Chapitre II
            <lb/>Structure de la seigneurie</head>
           <div>
@@ -130,7 +128,7 @@
             <p><hi rend="i">Les droits banaux.</hi> – Les Hospitaliers détenaient la banalité des moulins, des fours, des forges. Ils avaient également le monopole de la garde des troupeaux, mais pouvaient abandonner ce droit aux paysans. Ils concédaient enfin des droits de pacage et d’usage dans les bois contre le versement d’un droit appelé droit de fourrage.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r973986">
           <head rend="uc">Chapitre III
            <lb/>Les commanderies : précepteurs, frères, donats, familia
            <lb/>(<num>xiii<hi rend="sup">e</hi></num>-<num>xiv<hi rend="sup">e</hi></num> siècles)</head>
@@ -143,7 +141,7 @@
           <p><hi rend="i">Les famuli.</hi> – Les domestiques engagés à l’année vivaient également dans les commanderies. Le plus grand nombre était affecté au soin des animaux.</p>
           <p>On ne sait rien sur leur rétribution avant le <num>xiv<hi rend="sup">e</hi></num> siècle, où les salaires des serviteurs occupent une place importante dans le budget des commanderies.</p>
         </div>
-        <div>
+        <div xml:id="r974069">
           <head rend="uc">Chapitre IV
            <lb/>Évolution des commanderies du <num>xiii<hi rend="sup">e</hi></num> au <num>xiv<hi rend="sup">e</hi></num> siècle</head>
           <p>L’impression de prospérité et de calme domine au <num>xiii<hi rend="sup">e</hi></num> et au début du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
@@ -155,11 +153,11 @@
           <p>A la fin du <num>xv<hi rend="sup">e</hi></num> siècle, la région est totalement désolée, les hommes viennent d’ailleurs, les commanderies sont vides. La reprise économique s’est produite très tard et ne fut pas suivie d’effets avant le <num>xvi<hi rend="sup">e</hi></num> siècle. Le domaine réservé de l’Hôpital est reconstitué et donné à ferme, ainsi que l’ensemble des droits qu’il percevait.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r974154">
         <head rend="uc">Troisième partie
          <lb/>La vie rurale sur les possessions des hospitaliers
          <lb/>en Bas-Comminges du <num>xiii<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècles</head>
-        <div>
+        <div xml:id="r974176">
           <head rend="uc">Chapitre premier
            <lb/>les villages, hommes et lieux</head>
           <div>
@@ -177,7 +175,7 @@
             <p><hi rend="i">Les fortunes.</hi> – Le cadastre de Poucharramet de 1559 révèle un appauvrissement progressif des habitants du village au profit de bourgeois des villes et surtout de marchands des gros bourgs environnants.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r974313">
           <head rend="uc">Chapitre II
            <lb/>L’économie rurale</head>
           <p><hi rend="i">Les conditions.</hi> – Le sol de boulbènes, lourd et difficile à travailler, un climat incertain et très contrasté, n’étaient pas très favorables à l’agriculture. Cependant la nécessité d’accroître les emblavures conduit les hommes à mettre en culture ces terres froides et répulsives.</p>

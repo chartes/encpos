@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1938_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1938_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <surname>Waquet</surname>
         <roleName>Diplômé d’études supérieures de droit public</roleName>
       </byline>
-      <div>
+      <div xml:id="r590998">
         <head rend="uc">Introduction</head>
         <p>I. L’Europe vers 1322 : influence de la France ; expansion de la dynastie capétienne.</p>
         <p>II. Sources et bibliographie.</p>
@@ -67,10 +65,10 @@
         <p>IV. Aperçu sur les usages diplomatiques.</p>
         <p>Plan de la présente étude.</p>
       </div>
-      <div>
+      <div xml:id="r591020">
         <pb source="https://nakala.fr/10.34847/nkl.cefa07at#dbb23e6676b96aee682a58861a955f8708c1f3fd" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.cefa07at/dbb23e6676b96aee682a58861a955f8708c1f3fd/full/full/0/default.jpg"/>
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r591031">
           <head rend="uc">Chapitre premier
            <lb/>le roi de France et la politique pontificale.
            <lb/>Les affaires d’Orient, d’Italie et d’Empire.</head>
@@ -89,7 +87,7 @@
           <p>III. La candidature française à l’Empire. Jean XXII paraît s’y être beaucoup plus intéressé que Charles le Bel. Le rôle de Jean de Luxembourg. S’il y a eu des projets français relatifs à une candidature à l’Empire avant juillet 1324. Le traité de Bar-sur-Aube (27 juillet 1324). Il est renouvelable au gré de Jean XXII. Diète de Rhense, où la candidature française échoue (septembre 1324). Le roi de France <pb source="https://nakala.fr/10.34847/nkl.cefa07at#4b08ca09a659912d6b3d7016bff73773f5a21dd2" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.cefa07at/4b08ca09a659912d6b3d7016bff73773f5a21dd2/full/full/0/default.jpg"/>semble se désintéresser du projet ; le pape continue ses exhortations.</p>
           <p>Rôle du roi de France dans la politique pontificale.</p>
         </div>
-        <div>
+        <div xml:id="r591094">
           <head rend="uc">Chapitre II
            <lb/>La France et les Marches d’Empire.</head>
           <p>I. Relations avec les comtes de Brabant, de Hainaut et de Namur. Le roi aurait réconcilié les maisons d’Avesnes et de Dampierre. Relations avec l’évêque de Liége. Relations avec Jean de Luxembourg.</p>
@@ -100,7 +98,7 @@
           <p>Rôle médiateur et influence de la monarchie française en terre d’Empire.</p>
           <p>III. Relations avec le Dauphiné. Mariage d’Isabelle de France avec le dauphin de Viennois, et intervention de la reine Jeanne, comtesse de Bourgogne. – <pb source="https://nakala.fr/10.34847/nkl.cefa07at#dfcda45fa7a2f14627437038138f333b98da4edd" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.cefa07at/dfcda45fa7a2f14627437038138f333b98da4edd/full/full/0/default.jpg"/>Intervention du roi de France dans le conflit entre le Dauphiné et la Savoie.</p>
         </div>
-        <div>
+        <div xml:id="r591129">
           <head rend="uc">Chapitre III
            <lb/>Relations entre le roi de France
            <lb/>et les États chrétiens d’Espagne.</head>
@@ -108,9 +106,9 @@
           <p>Relations avec l’Aragon et le royaume de Majorque. Le roi d’Aragon, occupé à la conquête de la Sardaigne, tient à la bienveillance du roi de France, d’autant plus que les Aragonais sont détestés de Jean XXII. Projet de cession au roi de France des terres du roi de Majorque sises en France. Projets incessants de mariages franco-aragonais : tous échouent ; ces échecs sont imputables à la France. Autres affaires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r591147">
         <head rend="uc">Deuxième partie</head>
-        <div>
+        <div xml:id="r591153">
           <head rend="uc">Chapitre premier
            <lb/>la Flandre et la politique française.</head>
           <p>I. La question flamande en 1322.</p>
@@ -121,7 +119,7 @@
           <p>V. Intervention royale. Les Gantois fidèles à la France. A leur demande, Charles le Bel nomme Jean de Namur son lieutenant en Flandre. Envoi d’une armée en Flandre et sentences d’excommunication et d’interdit portées contre les Flamands. Les villes rebelles et Robert de Cassel se résignent à traiter. Rôle prépondérant des commissaires royaux dans les négociations. Places respectives du comte et du roi dans le traité d’Arques. Clauses de ce traité. Sa réalisation.</p>
           <p>VI. Nouveaux troubles en Flandre. Les Flamands qui veulent « aider à ce que la paix faite à Arques soit bien tenue et gardée » sont l’objet de violences en Flandre maritime. Acuité de la question flamande à la mort de Charles le Bel. Caractères de cette question sous son règne. Le comte, de formation française, est inférieur à son rôle. Le roi, en guerre avec l’Angleterre, ne peut accorder toute son attention aux affaires de Flandre.</p>
         </div>
-        <div>
+        <div xml:id="r591185">
           <head rend="uc">Chapitre II
            <lb/>Le conflit franco-anglais.</head>
           <p>I. Origines et état des problèmes en 1322.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1926_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1926_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,24 +58,24 @@
         <surname>Chamson Mazaurig</surname>
         <roleName>Licenciée ès lettres, Diplômée d’études supérieures</roleName>
       </byline>
-      <div>
+      <div xml:id="r447415">
         <head rend="uc">Avant-propos</head>
         <p>Justification du sujet et de ses limites.</p>
       </div>
-      <div>
+      <div xml:id="r447425">
         <head rend="uc">Introduction
          <lb/>histoire des archives de l’abbaye</head>
         <p>Le fonds de Psalmodi n’a jamais été dispersé. Il est tout entier aux Archives du Gard dans les séries H et G. Il comprend deux originaux carolingiens, quelques copies d’actes carolingiens exécutées aux <num>x<hi rend="sup">e</hi></num> et <num>xi<hi rend="sup">e</hi></num> siècles, de nombreux actes du <num>xi<hi rend="sup">e</hi></num> siècle. Les cartulaires anciens ont disparu. Il y en avait probablement deux. Le cartulaire de 1683, dit livre Vert, en deux volumes, donne des copies fidèles d’actes existant encore.</p>
       </div>
-      <div>
+      <div xml:id="r447455">
         <head rend="uc">Première partie
          <lb/>Critique des sources de l’histoire de l’abbaye</head>
-        <div>
+        <div xml:id="r447463">
           <head rend="uc">I. – Sources narratives</head>
           <p>La chronique d’Uzès n’est pas une chronique, mais une simple <pb source="https://nakala.fr/10.34847/nkl.e1b6s3f6#d1e896467cf32c4d8217d044d08bf607bbd2a5ff" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1b6s3f6/d1e896467cf32c4d8217d044d08bf607bbd2a5ff/full/full/0/default.jpg"/> série de notes ajoutées au <num>xv<hi rend="sup">e</hi></num> siècle en marge d’un manuscrit de Bernard Gui : <hi rend="i">Flores Chronicorum.</hi> Ces notes reproduisent les renseignements fournis par une chronique carolingienne de Saint-Théodorit d’Uzès. Cette chronique n’était qu’une copie des Annales d’Aniane, complétée par des additions concernant l’histoire locale et particulièrement Psalmodi. Les faits sont exacts, mais les dates sont erronées (confusion dans les styles).</p>
           <p>La chronique de Nîmes, composée au <num>xiii<hi rend="sup">e</hi></num> siècle, renferme beaucoup d’erreurs.</p>
         </div>
-        <div>
+        <div xml:id="r447497">
           <head rend="uc">II. – Sources diplomatiques</head>
           <p>A. <hi rend="i">Actes royaux et impériaux.</hi> – Le faux diplôme de Charlemagne, daté de 791, a été forgé au début du <num>xii<hi rend="sup">e</hi></num> siècle sur le modèle d’un acte privé carolingien, émanant peut-être de Guillaume de Gellone. C’est un faux de vanité qui concède surtout des privilèges honorifiques.</p>
           <p>Le diplôme de Louis le Débonnaire, daté de 815, et celui de Charles le Chauve, daté de 844, nous sont connus par de bonnes copies du début du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
@@ -91,41 +89,41 @@
           <p>Un acte de Raymond de Saint-Gilles de 1071 est authentique, un autre de 1094 est faux. Plusieurs faux ont été forgés en vue d’assurer à Psalmodi la possession de Saint-Silvestre de Teillan. Un hommage prêté par les seigneurs de Lunel est authentique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r447603">
         <head rend="uc">Deuxième partie
          <lb/>Histoire de l’abbaye</head>
-        <div>
+        <div xml:id="r447611">
           <head rend="uc">I. – L’époque carolingienne</head>
           <p>L’abbaye de Psalmodi n’existait pas à l’époque mérovingienne. Sa fondation semble se rattacher à la renaissance bénédictine languedocienne dont saint Benoît d’Aniane fut un des propagateurs. Elle fut créée par l’abbé Corbila, aidé sans doute par l’archevêque de Narbonne, Nimbrisius, et le comte Guillaume, ami de Charlemagne. Elle prit une place de premier rang sous l’abbatiat de Thiémir, théologien qui attira sur Psalmodi la faveur de Louis le Débonnaire. Elle comptait alors 140 moines et jouissait du privilège d’immunité. L’abbaye eut à subir les empiétements de Bernard, duc de Septimanie, mais fut réintégrée dans ses possessions par Charles le Chauve. Elle paraît avoir perdu son privilège d’immunité sous ce roi, mais Charles le Simple le lui rendit. Le <pb source="https://nakala.fr/10.34847/nkl.e1b6s3f6#17e4edec9c7b84e7e73ec6ab95c48fdf6bfd1019" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1b6s3f6/17e4edec9c7b84e7e73ec6ab95c48fdf6bfd1019/full/full/0/default.jpg"/>pape Etienne VII la soumit directement à la juridiction du Saint-Siège. Les invasions sarrasines obligèrent les moines à s’enfuir à Saint-Julien de Cornillac. On perd leurs traces jusqu’à la fin du <num>x<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r447632">
           <head rend="uc">II. – Période seigneuriale</head>
           <p>L’abbé Garnier entreprend la reconstitution de l’abbaye vers la fin du <num>x<hi rend="sup">e</hi></num> siècle. En 1004, il réunit une grande assemblée de nobles et de clercs qui décident de la reconstruction et de la réparation de Psalmodi. Il recherche l’appui des comtes de Provence et de Toulouse. En même temps, il restaure le temporel de l’abbaye grâce à de nombreuses donations.</p>
           <p>Mais aucun acte pontifical ou royal ne vient sanctionner les privilèges de l’abbaye.</p>
         </div>
-        <div>
+        <div xml:id="r447651">
           <head rend="uc">III. – Période pontificale</head>
           <p>Vers 1070, les moines de Saint-Victor de Marseille s’emparent de l’abbaye sous le prétexte de la réformer. Ils se font céder des droits par le comte de Maguelonne et par le pape Grégoire VII. C’est seulement en 1098 que l’abbaye est délivrée de la tutelle de Saint-Victor. – Depuis le milieu du <num>xi<hi rend="sup">e</hi></num> siècle, les particuliers ne lui font plus de dons. – Le pape Urbain II (1099) rétablit l’abbaye dans ses anciens privilèges.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r447668">
         <head rend="uc">Troisième partie
          <lb/>Le temporel de l’abbaye</head>
-        <div>
+        <div xml:id="r447676">
           <head rend="uc">I. – Le site, la situation, les occupations anciennes
            <lb/>de la région de Psalmodi</head>
           <p>Psalmodi est une île au milieu des marais. Le site est très défavorable aux établissements humains, mais la situation est excellente, près du Rhône et de la mer. L’occu<pb source="https://nakala.fr/10.34847/nkl.e1b6s3f6#c2e7cf4f9b4235df19a86347abcf21b3bb5fa4df" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1b6s3f6/c2e7cf4f9b4235df19a86347abcf21b3bb5fa4df/full/full/0/default.jpg"/>pation romaine seule a créé des lieux habités d’une manière permanente dans la partie la plus marécageuse de la région côtière.</p>
         </div>
-        <div>
+        <div xml:id="r447693">
           <head rend="uc">II. – Le temporel à l’époque carolingienne</head>
           <p>Les moines poursuivent et atteignent un double but : possession de terres voisines assez riches pour assurer la subsistance des moines ; possession du littoral. – La légende de la tour Matafère : on a pris Matafère pour un nom propre ; il faut y voir un nom commun suivi d’un adjectif (<hi rend="i">mata, fera</hi>).</p>
           <p>A la fin de cette période, les moines possèdent une grande partie de la région côtière, ainsi que Joncels dans la montagne.</p>
         </div>
-        <div>
+        <div xml:id="r447710">
           <head rend="uc">III. – Le temporel à l’époque seigneuriale</head>
           <p>Les moines continuent à étendre leur domination sur la région de Nîmes et de Substantion, mais ils veulent des possessions dans les montagnes et s’en font donner dans les comtés d’Aix et de Sisteron en Provence.</p>
         </div>
-        <div>
+        <div xml:id="r447720">
           <head rend="uc">IV. – Le temporel à l’époque pontificale</head>
           <p>Les donations s’arrêtent. L’abbaye achète surtout des droits de justice. – Tableau du temporel en 1099 d’après l’acte d’Urbain II. – Les possessions de l’abbaye sont dispersées.</p>
         </div>
@@ -138,7 +136,7 @@
         <head rend="uc">Appendices</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r447749">
         <head rend="uc">Pièces justificatives</head>
         <p>Les actes de l’abbaye des origines à l’année 1099.</p>
         <pb source="https://nakala.fr/10.34847/nkl.e1b6s3f6#eec326d70ff021e188f467a7fe09cc60dff0aea1" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1b6s3f6/eec326d70ff021e188f467a7fe09cc60dff0aea1/full/full/0/default.jpg"/>

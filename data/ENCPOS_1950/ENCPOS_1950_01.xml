@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1950_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1950_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,51 +54,51 @@
         <forename>Antoine</forename>
         <surname>Bloch-Michel</surname>
       </byline>
-      <div>
+      <div xml:id="r710802">
         <head rend="uc">Chapitre premier
          <lb/>les origines.</head>
         <p>Le grand-père et Richard, père de Michel, marchands, ont des biens importants au Bourg-Théroulde et aux alentours. Richard s’installe à Paris. Fournisseur de la cour royale, il est anobli en 1376.</p>
-        <div>
+        <div xml:id="r710813">
           <head rend="uc">Chapitre II
            <lb/>Les enfants de Richard de Laillier.</head>
           <p>Michel de Laillier, son frère et ses trois beaux-frères, sont tous changeurs ; ils multiplient des attaches dans le même milieu et dans le monde parlementaire.</p>
         </div>
-        <div>
+        <div xml:id="r710825">
           <head rend="uc">Chapitre III
            <lb/>La grande période commerciale (1396-1417).</head>
           <p>Laillier vend surtout des joyaux et fait le commerce de l’argent. Ses affaires avec la reine, le roi, dont il est valet de chambre, et surtout avec les ducs de Bourgogne, dont il devient progressivement le principal fournisseur d’orfèvrerie et un des auxiliaires indispensables. Accessoirement, son commerce privé à Paris et ailleurs, notamment par voie fluviale et maritime. Avec les plus notables des changeurs, il côtoie les princes dans la société littéraire, la <hi rend="i">Cour amoureuse.</hi></p>
         </div>
-        <div>
+        <div xml:id="r710840">
           <head rend="uc">Chapitre IV
            <lb/>Au service des Bourguignons.</head>
           <p>Remplacé par Jacques, son frère, comme fournisseur de Jean sans Peur, Michel sert le duc comme bailleur de fonds et comme trésorier de France, général et maître des Comptes. Nouveau ralentissement de son commerce après 1412, les ducs de Bourgogne ayant quitté Paris.</p>
         </div>
-        <div>
+        <div xml:id="r710852">
           <head rend="uc">Chapitre V
            <lb/>Au service des Armagnacs.</head>
           <p>Officier concussionnaire, malgré l’appui ducal, il est dénoncé, puis <pb source="https://nakala.fr/10.34847/nkl.5e3cbz7t#6b0b2f2aebc64cc630e2b909244317df5db6549d" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.5e3cbz7t/6b0b2f2aebc64cc630e2b909244317df5db6549d/full/full/0/default.jpg"/>arrêté en 1413. Armagnac, il recèle une partie de la fortune de la reine et échappe au complot bourguignon de 1416. En 1417, il est chargé de fortifier des villes de Normandie, et ambassadeur à la Tombe.</p>
         </div>
-        <div>
+        <div xml:id="r710869">
           <head rend="uc">Chapitre VI
            <lb/>Sous le régime anglo-bourguignon (1418-1436).</head>
           <p>Dispersion du personnel armagnac en 1418. Lallier, familier de la reine, sert le nouveau régime. Négociateur à Pont-de-l’Arche et présent à Troyes. Un des exécuteurs du testament de Charles VI. Complot pour Charles VII en 1422. Échec et retour en fonctions, grâce à Philippe le Bon. Dépôt de bijoux chez des marchands de Lille.</p>
         </div>
-        <div>
+        <div xml:id="r710881">
           <head rend="uc">Chapitre VII
            <lb/>L’épisode du 13 avril 1436.</head>
           <p>Laillier, entouré de quelques changeurs et riches marchands, ses amis, provoque une émeute à la faveur de laquelle Richemont entre dans Paris.</p>
         </div>
-        <div>
+        <div xml:id="r710893">
           <head rend="uc">Chapitre VIII
            <lb/>Les dernières années.</head>
           <p>Laillier est nommé prévôt des Marchands. Démarches faites pour le maintien du personnel bourguignon de la Chambre des Comptes. Réception de Charles VII. Membre de l’ambassade à Calais en 1440. Sa mort.</p>
         </div>
-        <div>
+        <div xml:id="r710905">
           <head rend="uc">Chapitre IX
            <lb/>La fortune de Michel de Laillier.</head>
           <p>Quelques changeurs, dont ses amis et lui, détiennent les premières fortunes de Paris. Ses maisons en ville. Il est seigneur de la Chapelle, du Vivier et d’Ermenonville. Autres terres et rentes.</p>
         </div>
-        <div>
+        <div xml:id="r710917">
           <head rend="uc">Chapitre X
            <lb/>La succession et la descendance.</head>
           <p>Nombreux procès entre les Lorfèvre, ses héritiers, sa famille et ses anciens associés. Maintien du nom de Laillier jusqu’à la Révolution.</p>

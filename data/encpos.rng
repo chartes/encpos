@@ -296,6 +296,11 @@
   <define name="div">
     <a:documentation>Parties et chapitres. Récursif : un chapitre est contenu dans une partie, etc.</a:documentation>
     <element name="div">
+      <optional>
+        <attribute name="xml:id">
+          <data type="ID"/>
+        </attribute>
+      </optional>
       <a:documentation>OBLIGATOIRE: une section (titre, chapitre ou sous-chapitre) s’ouvre nécessairement par un titre</a:documentation>
       <optional>
         <ref name="pb"/>

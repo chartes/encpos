@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,17 +59,17 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r626679">
         <head rend="uc">Introduction</head>
         <p>1. <hi rend="i">Limites du sujet dans l’espace.</hi> – Il est difficile de délimiter la généralité de Bourges. On ne peut savoir quelle notion de la limite se faisaient les contemporains. Les dossiers des Ponts et Chaussées sur des points très particuliers nous donnent quelques indications. Le seul moyen de savoir sur quels territoires elle s’étendait est de chercher quelles paroisses et collectes en faisaient partie. Celles-ci sont groupées par élections. La généralité de Bourges en comprit sept durant tout le <num>xviii<hi rend="sup">e</hi></num> siècle (Le Blanc, Bourges, La Charité-sur-Loire, Châteauroux, La Châtre, Issoudun et Saint-Amand). Leur étendue ne semble pas avoir varié sensiblement, sauf celle de l’élection du Blanc qui, entre 1762 et le début de 1767, passa de quatre-vingt-dix-huit à cent dix-huit paroisses. La généralité de Bourges s’étendait sur les régions qui ont formé plus tard les départements du Cher et de l’Indre, une partie de ceux de la Nièvre, de l’Allier, de la Creuse, de la Haute-Vienne, de la Vienne, de l’Indre-et-Loire et du Loir-et-Cher.</p>
         <pb source="https://nakala.fr/10.34847/nkl.f57e44w5#af49f1739d78aeeb464fb1831b3dc6f769b61af4" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.f57e44w5/af49f1739d78aeeb464fb1831b3dc6f769b61af4/full/full/0/default.jpg"/>
         <p>2. <hi rend="i">Limites du sujet dans le temps.</hi> – L’étude se fera au <num>xviii<hi rend="sup">e</hi></num> siècle, époque importante dans l’histoire des voies de communication, car c’est d’elle que date la création du réseau actuel.</p>
       </div>
-      <div>
+      <div xml:id="r626717">
         <head rend="uc">Première partie
          <lb/>Le réseau routier au <num>xviii<hi rend="sup">e</hi></num> siècle
          <lb/>et ses transformations</head>
-        <div>
+        <div xml:id="r626733">
           <head rend="uc">Chapitre premier
            <lb/>les routes de poste.</head>
           <p>Les routes de poste sont celles sur lesquelles circulaient la poste et les messageries royales.</p>
@@ -81,7 +79,7 @@
           <p>3. <hi rend="i">La route Bourges-La Charité-sur-Loire.</hi> – Au début du siècle, elle passait par Charentonnay, Baugy, Nohant-en-Goût. En 1765, une route d’un seul alignement fut ouverte. <pb source="https://nakala.fr/10.34847/nkl.f57e44w5#a7d9d11126826f5c61549cbe3ca4a94b13235324" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.f57e44w5/a7d9d11126826f5c61549cbe3ca4a94b13235324/full/full/0/default.jpg"/>Les travaux duraient encore en 1783. Le Pont-Neuf de La Charité était en février 1738 dans un péril imminent de ruine ; l’espace entre le fond solide et le dessous des platesformes avait été vidé par les eaux. On réussit néanmoins à le sauver. Puis la débâcle des glaces du 17 janvier 1789 emporta un des deux ponts de La Charité. Le passage fut rétabli par un bac.</p>
           <p>Ces trois routes de poste existèrent durant tout le <num>xviii<hi rend="sup">e</hi></num> siècle. Une quatrième, celle de Bourges à Vierzon par Mehun, fit son apparition, dans la Liste générale des postes de France, en 1781, mais disparut en 1783. Cette année-là, une cinquième route est mentionnée, celle de Limoges à Tours, suivant jusqu’à Châteauroux la route Paris-Toulouse. Au début de 1787, elle n’était pas encore achevée. Elle devait exister jusqu’en 1789.</p>
         </div>
-        <div>
+        <div xml:id="r626789">
           <head rend="uc">Chapitre II
            <lb/>Les grandes routes.</head>
           <p>Les grandes routes sont celles qui, reliant des agglomérations importantes, n’ont ni la poste ni les messageries royales.</p>
@@ -92,7 +90,7 @@
           <p>3. <hi rend="i">Route de Tours à Clermont.</hi> – Passe par Châtillon-sur-Indre, Châteauroux, La Châtre, Culan et Montluçon. De Tours à Châteauroux, elle suivait la route de poste Limoges-Tours. De nouveaux alignements furent tracés de 1771 à 1789.</p>
           <p>4. <hi rend="i">Route Bourges-Tulle.</hi> – Passe par Levet, Châteauneuf, Lignières, La Châtre et Guéret. Son tracé fut modifié entre 1781 et 1789. En 1787, il fut décidé qu’elle passerait par Thévet.</p>
         </div>
-        <div>
+        <div xml:id="r626846">
           <head rend="uc">Chapitre III
            <lb/>Les petites routes et les chemins.</head>
           <p>1. <hi rend="i">Route Le Blanc-Blois.</hi> – Par Châtillon-sur-Indre, Saint – Aignan et Contres. Modifiée depuis 1774 ; en 1778, on y travaillait encore, mais elle était déjà bien avancée.</p>
@@ -107,7 +105,7 @@
           <p>9. <hi rend="i">Communication de La Chapelle-d’Angillon à Henrichemont.</hi> – Exécutée depuis 1786.</p>
           <p>D’autres petites routes furent encore construites.</p>
         </div>
-        <div>
+        <div xml:id="r626926">
           <head rend="uc">Chapitre IV
            <lb/>Les traverses.</head>
           <p>1. <hi rend="i">Traverse de Bourges.</hi> – Depuis le 29 décembre 1789, divers alignements furent donnés dans des rues servant de traverses.</p>
@@ -118,19 +116,19 @@
           <p>6. <hi rend="i">Traverse d’ Aubigny.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r626974">
         <pb source="https://nakala.fr/10.34847/nkl.f57e44w5#d8983d57742a1ba306ad76e0c0f406d59bbab111" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.f57e44w5/d8983d57742a1ba306ad76e0c0f406d59bbab111/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les administrations
          <lb/>qui se sont occupées des routes</head>
-        <div>
+        <div xml:id="r626989">
           <head rend="uc">Chapitre premier
            <lb/>l’administration des ponts et chaussées.</head>
           <p>Le corps des Ponts et Chaussées fut créé, après plusieurs essais, par un arrêt du 1<hi rend="sup">er</hi> février 1716 et modifié par un arrêt du 7 juillet 1750. Entre autres, il comprenait des inspecteurs généraux, des ingénieurs et sous-ingénieurs. Gendrier, Bouchet, Hue, Cadet de Limay eurent dans leur département, d’ailleurs variable, la généralité de Bourges.</p>
           <p>Le premier ingénieur du Berry semble avoir été Berthe, remplacé par Marcilly Dieulamant en 1669. Puis, en 1678, Poitevin était chargé des turcies et levées et des travaux des ponts et chaussées des généralités de Tours, Orléans, Moulins, Bourges et Riom. Son département fut partagé par des arrêts des 10 octobre 1682 et 4 mai 1683. Un arrêt du 21 novembre 1713 nomma un ingénieur dans la généralité de Bourges. Desroches, Taschereau des Pictières, Pitrou, Claude Cendrier, Tresaguet, Cadet de Limay, Valframbert, de Montrocher, Le Jolivet et Vorle occupèrent ce poste au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Dès 1737, il y avait un sous-ingénieur. En 1746, il y en avait au moins deux. En 1748, ils étaient trois, chargés chacun de plusieurs routes. Les départements n’apparurent qu’après : celui de Châteauroux en 1768, celui de La Charité en 1772. En 1773, il y avait quatre sous-ingénieurs. Un de ceux-ci fut supprimé en 1776. En 1781, et jusqu’en 1789, les cinq départements de Bourges, La Charité, La Châtre, Le Blanc et Châteauroux existèrent.</p>
         </div>
-        <div>
+        <div xml:id="r627017">
           <pb source="https://nakala.fr/10.34847/nkl.f57e44w5#e8a6568188fd6fb2aaa34ab2937c7278f663ae06" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.f57e44w5/e8a6568188fd6fb2aaa34ab2937c7278f663ae06/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le rôle des intendants, des subdélégués
@@ -139,45 +137,45 @@
           <p>L’Assemblée provinciale fut créée dans le Berry par arrêt du 12 juillet 1778 et lettres patentes du 9 mai 1779. Le terme « province du Berry » employé dans cet arrêt prêta à confusion. D’autres lettres patentes furent alors données le 30 juillet 1779. Chargée de s’occuper de travaux publics, cette Assemblée se vit confier par le roi une partie des attributions de l’intendant. Entre les deux, un conflit ne tarda pas à éclater. Un règlement du 23 août 1783 et une décision du 24 mars 1784 rendirent à l’intendant l’essentiel de ses pouvoirs en matière de ponts et chaussées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r627040">
         <head rend="uc">Troisième partie
          <lb/>Les moyens employés
          <lb/>pour la construction des routes</head>
-        <div>
+        <div xml:id="r627050">
           <head rend="uc">Chapitre premier
            <lb/>la corvée royale.</head>
           <p>La corvée consistait en plusieurs jours de travail gratuit par an sur les grandes routes, à la charge des communautés voisines de celles-ci. En juin 1737, elle existait en Berry. Jusqu’à la création de l’Assemblée provinciale, elle dut être <pb source="https://nakala.fr/10.34847/nkl.f57e44w5#24433d24985976a52c07d331baded832ea8fa9e2" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.f57e44w5/24433d24985976a52c07d331baded832ea8fa9e2/full/full/0/default.jpg"/>très dure à cause du petit nombre de routes, de la population peu nombreuse et de la grande misère du pays. Aucun essai sérieux n’avait été tenté jusqu’alors pour la convertir en une taxe pécuniaire. Dès que l’Assemblée provinciale fut organisée, elle étudia cette importante question. Ses travaux furent longs. Ce n’est que le 13 avril 1781 qu’un arrêt du Conseil sanctionna ses décisions et transforma la corvée en une taxe pécuniaire. Son régime ne devait pas varier jusqu’en 1789.</p>
         </div>
-        <div>
+        <div xml:id="r627067">
           <head rend="uc">Chapitre II
            <lb/>Les ateliers de charité.</head>
           <p>Le but de cette institution était de secourir les malheureux en échange d’un travail effectué, en général sur des routes. Dès 1771, ils existèrent couramment dans le Berry. Pendant le temps de la corvée, ils étaient suspendus. Quoiqu’ils fussent ordinairement établis sur des routes secondaires, leur œuvre n’en fut pas moins considérable.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r627080">
         <head rend="uc">Quatrième partie
          <lb/>La circulation</head>
-        <div>
+        <div xml:id="r627088">
           <head rend="uc">Chapitre premier
            <lb/>les traites.</head>
           <p>La généralité de Bourges faisait partie de l’étendue des cinq grosses fermes, zone qui varia au <num>xviii<hi rend="sup">e</hi></num> siècle, mais ces variations ne concernèrent pas le Berry. Par le tarif de 1667, les paroisses du Berry et Bourbonnais enclavées dans celles d’Auvergne et de la Marche furent exemptées des droits d’entrée et de sortie sur les bestiaux et des droits de sortie sur les vins. Un arrêt du 16 février 1686 étendit cette exemption à <pb source="https://nakala.fr/10.34847/nkl.f57e44w5#fed72e6c0922fc222cec0dbbe85686b3329a585c" n="103" facs="https://api.nakala.fr/iiif/10.34847/nkl.f57e44w5/fed72e6c0922fc222cec0dbbe85686b3329a585c/full/full/0/default.jpg"/>tous les habitants de l’élection du Blanc. Pour la perception des droits, il y avait en 1701 des bureaux principaux à Châteauroux, Argenton et La Châtre et quelques bureaux de conserve.</p>
         </div>
-        <div>
+        <div xml:id="r627111">
           <head rend="uc">Chapitre II
            <lb/>Les droits de péage et les bacs.</head>
           <p>Ces droits étaient perçus essentiellement sur ce qui passait. Il y en eut cent un dans la généralité de Bourges au <num>xviii<hi rend="sup">e</hi></num> siècle. On chercha alors à débarrasser le commerce de ces entraves. En 1789, sur cent un péages existant, soixante-dix avaient été supprimés ; quelques très rares créations sont à mentionner, il est vrai. Les bacs étaient presque aussi nombreux que les péages. Ils pouvaient être de deux sortes, les uns étant définitifs sur de petites routes, les autres sur les routes principales remplaçant un pont à un endroit donné en attendant son rétablissement. Au <num>xviii<hi rend="sup">e</hi></num> siècle, dans le maintien de ces droits, on tint beaucoup compte de l’état du bac et de son utilité.</p>
         </div>
-        <div>
+        <div xml:id="r627135">
           <head rend="uc">Chapitre III
            <lb/>Les octrois.</head>
           <p>Leur nom, comme celui des péages d’ailleurs, pouvait varier (en particulier, ils pouvaient prendre celui de barrage). Perçus pour les dépenses communes, ils étaient établis dans la plupart des agglomérations de la généralité.</p>
         </div>
-        <div>
+        <div xml:id="r627147">
           <head rend="uc">Chapitre IV
            <lb/>Les foires, assemblées et marchés.</head>
           <p>Ils étaient assez nombreux dans la généralité, mais d’importance secondaire. Les foires étaient en général des foires agricoles, de bestiaux plus particulièrement.</p>
         </div>
-        <div>
+        <div xml:id="r627159">
           <pb source="https://nakala.fr/10.34847/nkl.f57e44w5#1966292a5c036564e199ef3b8920c57448f6386a" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.f57e44w5/1966292a5c036564e199ef3b8920c57448f6386a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>La poste, les messageries, le roulage.</head>
@@ -185,13 +183,13 @@
           <p>2. <hi rend="i">Les messageries.</hi> – Elles transportaient les voyageurs, les paquets au-dessous de 50 livres, l’or et l’argent. Passaient sur les routes de la généralité les diligences de Toulouse, de Limoges, de Lyon par le Bourbonnais, de Clermont, de Moulins. Une voiture reliait Bourges à Orléans, en correspondance avec une diligence. Il y avait, en outre, les petites messageries. En 1775, elles étaient au nombre de treize, dont les principales étaient celles de Bourges à Gien, de Bourges à Nevers, de Bourges à Tours.</p>
           <p>3. <hi rend="i">Le roulage.</hi> – Le roulage était chargé du transport des marchandises lourdes. Il fut libre jusqu’en 1775 et le devint de nouveau en 1784.</p>
         </div>
-        <div>
+        <div xml:id="r627200">
           <head rend="uc">Chapitre VI
            <lb/>Le commerce.</head>
           <p>Le commerce fut toujours très peu actif. Le commerce principal était celui des bestiaux. De plus, les bœufs du Sud-Ouest passaient sur les routes de la généralité, se dirigeant vers Paris. Les moutons y furent toujours très nombreux. Leur laine était utilisée dans les manufactures de la généralité (Bourges, Châteauroux, Issoudun) ou était vendue dans les provinces voisines. Le chanvre, comme la laine, était exporté en Orléanais, Bourbonnais, Lyonnais et Champagne. Dans le Sancerrois existait un petit commerce de vin. <pb source="https://nakala.fr/10.34847/nkl.f57e44w5#e0bd72414fe47cb2d3672a5e297ee7ae466b94b6" n="105" facs="https://api.nakala.fr/iiif/10.34847/nkl.f57e44w5/e0bd72414fe47cb2d3672a5e297ee7ae466b94b6/full/full/0/default.jpg"/>Enfin, les fers des forges de la généralité étaient dirigés vers Paris ou les ports de la Loire, étant destinés à la marine de Brest ou de Rochefort.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r627218">
         <head rend="uc">Conclusion</head>
         <p>A la Révolution, les transformations du réseau n’étaient pas achevées. C’était la Restauration qui devait en profiter. Les voyageurs, à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, vantaient les routes de France. Toutefois, les principales voies de communication étaient les voies d’eau.</p>
       </div>

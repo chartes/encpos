@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,39 +59,39 @@
         <surname>Lejeune</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1176956">
         <head rend="uc">Avant-propos</head>
         <p>Le noyau du présent travail est constitué par l’étude critique du registre des procès-verbaux des séances du Conseil ducal de Bretagne (1459-1463), conservé aux Archives départementales de Loire-Atlantique sous la cote E 131. L’intérêt d’un tel document réside dans sa nature (il est rare de disposer d’une série complète de procès-verbaux de ce type sur quatre années pleines) et dans la période couverte, qui correspond au début du principat de François II. L’édition complète de ce registre, source directe et privilégiée pour une étude sur le Conseil ducal, dépasse, par l’étendue et la variété des questions abordées, le simple cadre institutionnel et intéresse l’histoire générale du duché de Bretagne au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1176972">
         <head rend="uc">Sources</head>
         <p>En dehors du dépouillement intégral du registre du Conseil ducal de Bretagne (E 131), qui constitue la source principale de cette étude, le recours à des sources complémentaires s’est révélé indispensable pour suivre et comprendre, en amont et en aval, les affaires évoquées au Conseil. Ont ainsi été consultées <pb source="https://nakala.fr/10.34847/nkl.cbbd394y#4d940e8403a99bdff5a4d47add682da496f5d781" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.cbbd394y/4d940e8403a99bdff5a4d47add682da496f5d781/full/full/0/default.jpg"/>les pièces suivantes : le registre de chancellerie pour l’année 1462 (le seul registre subsistant pour la période étudiée), conservé aux Archives départementales de Loire-Atlantique sous la cote B 2 ; dans ce même dépôt, le trésor des chartes des ducs de Bretagne (série E) a également fourni des pièces intéressantes et le catalogue manuscrit des actes de François II, établi à la fin du <num>xix<hi rend="sup">e</hi></num> siècle par Léon Maître (14 J 9), s’est révélé un instrument de travail indispensable, malheureusement demeuré inédit. Il convient de signaler, dans la collection des Blancs-Manteaux de la Bibliothèque nationale, le manuscrit français 22318, qui contient des extraits des registres, aujourd’hui disparus, de la chancellerie ducale bretonne pour les années 1461 et 1463. En raison de la perte des comptes de la trésorerie générale de Bretagne, les extraits publiés au <num>xviii<hi rend="sup">e</hi></num> siècle par les érudits mauristes Dom Lobineau et Dom Morice constituent d’utiles compléments. Les archives anglaises, susceptibles d’intéresser le présent travail (en raison des relations étroites entretenues tout au cours du <num>xv<hi rend="sup">e</hi></num> siècle entre le royaume d’Angleterre et le duché de Bretagne) ont fait l’objet d’un rapide repérage, qui s’est révélé décevant. Le manque de temps et la certitude qu’une telle recherche ne pourrait amener que des compléments d’informations très ponctuels ont fait négliger la consultation des fonds des autres États mentionnés occasionnellement dans le registre (Portugal, Espagne et Saint-Siège).</p>
       </div>
-      <div>
+      <div xml:id="r1177005">
         <head rend="uc">Introduction</head>
         <p>Le début du principat de François II correspond à un tournant dans l’évolution des rapports entre le royaume de France et le duché de Bretagne. A la bonne entente avec Charles VII succéda vite une brouille très sérieuse avec Louis XI, qui allait dégénérer en conflit armé dès 1465. Cette dégradation des relations entre François II et Louis XI tenait au refus du roi de France de tolérer plus longtemps les prétentions à la souveraineté affichées traditionnellement par les ducs bretons de la maison de Montfort depuis le début du <num>xv<hi rend="sup">e</hi></num> siècle. Le principat de François II (1458-1488) correspond d’autre part, dans l’histoire bretonne, à un apogée du développement institutionnel tendant au renforcement du pouvoir ducal, résultat du processus amorcé dès Jean IV (1364-1399).</p>
         <p>On dispose pour cette période charnière, que constitue le début du principat de François II, d’un document exceptionnel. Il s’agit du registre des délibérations du Conseil ducal (1459-1463) qui éclaire cette évolution des rapports franco-bretons et cet aspect de l’histoire institutionnelle bretonne. Il permet de pénétrer les arcanes du gouvernement ducal, en levant le voile sur le secret des délibérations du Conseil ; le rôle de cette institution dans l’élaboration des grandes orientations de la politique ducale peut être, en effet, analysé à partir de cette source directe et privilégiée. C’est l’occasion de poser le problème de l’organisation des pouvoirs à la tête du duché et d’étudier, à travers les conseillers ducaux, le milieu des hommes de pouvoir dans le duché de Bretagne à une époque donnée.</p>
       </div>
-      <div>
+      <div xml:id="r1177024">
         <pb source="https://nakala.fr/10.34847/nkl.cbbd394y#b432e055e4783182401ee126d0cbb4d8c847e4d6" n="125" facs="https://api.nakala.fr/iiif/10.34847/nkl.cbbd394y/b432e055e4783182401ee126d0cbb4d8c847e4d6/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Le conseil ducal au début du principat<lb/>de françois II (1459-1463)</head>
-        <div>
+        <div xml:id="r1177043">
           <head rend="uc">Chapitre premier
            <lb/>étude du registre des séances du conseil ducal</head>
           <p><hi rend="i">Étude matérielle.</hi> – Le registre du Conseil comprend deux cent quarante feuillets écrits <hi rend="i">recto-verso,</hi> de format in-quarto. La présentation du texte dénote une grande négligence de la part du greffier (nombreuses ratures et additions marginales). La tenue en était irrégulière : plusieurs pages laissées en blanc et des changements du type d’écriture l’attestent. Une étude des neuf marques de papier relevées au cours du document s’est révélée un élément de critique très utile, qui a permis la conclusion suivante : le registre est d’une nature composite ; il comprend en certains endroits des feuillets qui ont été insérés.</p>
           <p><hi rend="i">Nature du registre.</hi> – Les éléments de critique matérielle suscitent des interrogations quant à la véritable nature du registre, traditionnellement présenté comme un plumitif. S’il s’agit bien d’un registre de délibérations, il convient de distinguer trois types de rédaction : procès-verbaux proprement dits (ce qui représente la très grande majorité des cas), comptes rendus et simples ordres du jour sans aucun développement. Il est, en revanche, plus difficile de déterminer si le registre du Conseil est l’unique épave d’une série archivistique jadis plus longue et aujourd’hui disparue ou s’il constitua dès l’origine une expérience originale qui resta sans suite, cette deuxième hypothèse étant la plus vraisemblable.</p>
           <p><hi rend="i">Une source privilégiée mais lacunaire.</hi> – En dépit de la richesse des renseignements de toute sorte que renferme le registre du Conseil (notamment sur l’organisation et la composition de l’institution), l’aspect lacunaire d’un tel document est indéniable et doit être comblé par le recours à des sources complémentaires indispensables. La manière parfois très elliptique dont sont rapportées les affaires évoquées au Conseil et les problèmes d’identification que posent certains personnages mentionnés dans le registre, rendent en effet nécessaire un complément d’information, qui s’articule autour d’une recherche en amont et en aval de la fourchette chronologique couverte par le registre.</p>
         </div>
-        <div>
+        <div xml:id="r1177074">
           <head rend="uc">Chapitre II
            <lb/>Les gens du conseil</head>
           <p><hi rend="i">La composition du Conseil d’après les « états de finances ».</hi> – La perte des comptes des trésoriers généraux (appelés « états de finances ») rend plus précieux encore les extraits publiés par les Bénédictins. Il serait cependant insuf<pb source="https://nakala.fr/10.34847/nkl.cbbd394y#6990cebc1225715ff1bc6df7bdb96f2ef9dc0285" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.cbbd394y/6990cebc1225715ff1bc6df7bdb96f2ef9dc0285/full/full/0/default.jpg"/>fisant de limiter les conseillers ducaux aux seuls noms figurant dans la rubrique de l’état de finances intitulée « Gens de Conseil ». Une collation entre les listes contenues dans les différents comptes (1459-1460, 1462-1463) et les listes de conseillers énumérés à chaque séance du Conseil dans le registre des délibérations en rend parfaitement compte. Dans le premier cas, une douzaine de noms seulement apparaissent avec l’indication de leurs gages ; dans le second, c’est plus d’une cinquantaine de noms qui reviennent régulièrement au cours des quatre cent soixante séances consignées dans le registre.</p>
           <p><hi rend="i">Les membres du Conseil.</hi> – Le registre des délibérations permet de reconstituer de manière très exacte la composition du Conseil ducal dans les cinq premières années du principal de François II. L’absence d’un véritable texte réglementaire relatif à l’organisation interne du Conseil laissait le duc libre de faire entrer qui il voulait à son Conseil. Les choix du prince reflétant ses orientations politiques, il convient de détailler les membres du Conseil. Les conseillers ducaux se divisaient en deux grandes catégories : les conseillers de droit et les conseillers en titre d’office. On trouvait, parmi les premiers, les dignitaires ecclésiastiques et les grands seigneurs laïcs du duché (leur présence au Conseil était en fait très rare), les membres des institutions centrales (chancellerie et chambre des comptes) ainsi que les officiers judiciaires et militaires du duché, au niveau central et local. Les conseillers en titre d’office n’exerçaient aucune autre charge que celle de conseiller du duc. A la différence des conseillers de droit, leur admission au sein du Conseil était précédée d’une cérémonie d’investiture avec prestation de serment dans les mains du chancelier. Leur nombre n’était ni fixe ni limité. Dans la pratique, ils constituaient un noyau d’une douzaine de personnes qui formaient le Conseil ordinaire du duc. Tenus à une certaine assiduité en échange d’une rémunération substantielle, ils constituaient la partie la plus stable du Conseil. Les maîtres des requêtes étaient des membres à part entière du Conseil, mais d’un type particulier du fait de leur spécialisation. Qualifiés de « conseillers maîtres », ils ne portaient pas un titre simplement honorifique puisque le registre permet de constater qu’ils avaient voix délibérative au Conseil. Constituant la partie la plus technique du Conseil, ils en étaient les chevilles ouvrières, assurant le travail préparatoire à l’ordre du jour de chaque séance.</p>
           <p><hi rend="i">Les auxiliaires du Conseil.</hi> – Le greffier du Conseil, Pierre Raboceau, était un secrétaire de la chancellerie, spécialement affecté à la rédaction du registre des délibérations du Conseil. Sa signature apparaît en plusieurs endroits du registre. On relève également les noms et les signatures de plusieurs autres secrétaires ducaux chargés d’assurer l’expédition des actes commandés en Conseil. La présence au Conseil et à la chancellerie de ces techniciens de l’écriture est un indice de l’étroite collaboration qui existait entre les deux institutions ; ils constituaient le lien assurant le suivi des affaires, depuis le commandement des actes en Conseil jusqu’à leur expédition en chancellerie.</p>
         </div>
-        <div>
+        <div xml:id="r1177106">
           <head rend="uc">Chapitre III
            <lb/>Le conseil ducal de Bretagne</head>
           <p><hi rend="i">Historique.</hi> – Le Conseil ducal de Bretagne est issu de la <hi rend="i">Curia ducis.</hi> Un lent processus de différenciation en un conseil de techniciens s’accomplit à partir de <pb source="https://nakala.fr/10.34847/nkl.cbbd394y#d670d3a18bc864611a12d789334559604421368c" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.cbbd394y/d670d3a18bc864611a12d789334559604421368c/full/full/0/default.jpg"/> la fin du <num>xiii<hi rend="sup">e</hi></num> siècle. L’institution n’est véritablement connue qu’à partir des ducs Montfort (1364), qui s’attachèrent à favoriser le développement institutionnel de leur principauté dans le sens d’un renforcement du pouvoir ducal. Le Conseil participe de cette évolution. Cependant, l’institution n’est connue par aucune source directe et ce sont essentiellement les formules finales de commandement des actes qui constituent des indices d’appréciation. Un texte mérite néanmoins d’être signalé : l’ordonnance de Philippe le Hardi, duc de Bourgogne (1404), qui organisait le gouvernement pendant la minorité de Jean V et plaçait le jeune duc sous le contrôle étroit de son Conseil. Seul texte à organiser de manière réglementaire les pouvoirs au sein du gouvernement ducal et à définir les attributions du Conseil ducal, cette ordonnance n’eut cependant qu’une portée éphémère en raison des circonstances très particulières qui avaient dicté sa rédaction. On relève enfin une tendance à une plus grande spécialisation du Conseil ducal de Bretagne au cours du <num>xv<hi rend="sup">e</hi></num> siècle. Devant le volume croissant des affaires à traiter, le Conseil se différencia en une section judiciaire particulière, appelée « auditoire des assignances » ; cette évolution, amorcée depuis la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, était devenue une institution fonctionnant régulièrement sous François II. Après 1480, une section financière spécialisée apparut avec l’existence d’un Conseil des finances.</p>
@@ -109,17 +107,17 @@
           <p><hi rend="i">Commandement et enregistrement des actes.</hi> – La collation du registre des délibérations avec les registres de chancellerie (sous la forme d’un original, pour <pb source="https://nakala.fr/10.34847/nkl.cbbd394y#8db87500e8755df0b60bbf03644a543286ac183b" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.cbbd394y/8db87500e8755df0b60bbf03644a543286ac183b/full/full/0/default.jpg"/>l’année 1462, et d’extraits, pour les années 1461 et 1463) permet d’apprécier plus précisément le rôle du Conseil dans l’élaboration des actes, et de suivre ainsi la chaîne diplomatique depuis la genèse et le commandement des actes en Conseil jusqu’à leur expédition en chancellerie. Dresser une typologie des actes non soumis au contrôle du Conseil s’avère très difficile (la chancellerie privée du prince étant encore mal connue).</p>
           <p><hi rend="i">Les conseillers du duc à Paris.</hi> – Le duc de Bretagne devait entretenir à Paris un certain nombre de conseillers, spécialistes du droit, afin de défendre ses intérêts devant le parlement de Paris. Le duc avait en effet plusieurs procès pendant en parlement, dont il confiait la conduite à ses conseillers de Paris, procureurs, avocats et conseillers proprement dits. Choisis généralement parmi les grands noms des juristes parisiens, avocats du parlement, ces conseillers avaient une vocation précise et limitée, à la différence du Conseil ducal de Bretagne. Le registre des délibérations permet de constater que les deux groupes de conseillers entretenaient une correspondance suivie ; le chef des conseillers de Paris, le procureur Robert Jehan, venait rendre compte régulièrement de son action devant le Conseil ducal. Le registre livre également la liste précise de ces conseillers parisiens, ainsi que le montant de leurs gages pour l’année 1459.</p>
         </div>
-        <div>
+        <div xml:id="r1177215">
           <head rend="uc">Conclusion</head>
           <p>Le jeune François II de Bretagne, inexpérimenté et naturellement peu enclin à s’intéresser au gouvernement du duché, se trouva placé, à son avènement, à la tête d’un véritable Etat, doté d’institutions centralisées et structurées. Il s’appuya pour gouverner, conseillé en cela par son chancelier Guillaume Chauvin, sur l’expérience et la compétence des membres de son Conseil qui assurait l’expédition des affaires courantes. Le champ d’activité de cet organe suprême de gouvernement ne se limitait cependant pas à l’exercice d’un travail administratif routinier. Conseil de gouvernement mais aussi conseil judiciaire, il assurait toutes les fonctions d’un conseil politique. Composé essentiellement de techniciens rompus à la pratique des affaires et recrutés dans la petite noblesse et la bourgeoisie du duché, le Conseil ducal, entre 1459 et 1463, révèle dans la pratique l’exercice d’un gouvernement, non pas aristocratique, mais technique et collégial, sous la présidence du chancelier. Le registre des délibérations, source directe et privilégiée pour étudier le Conseil ducal dans les premières années du principal de François II, révèle le rôle essentiel joué par cette institution dans l’élaboration de la politique générale du duché, en dévoilant les détails de sa composition, les rouages de son fonctionnement et les champs d’application de son activité journalière.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1177226">
         <pb source="https://nakala.fr/10.34847/nkl.cbbd394y#ed08b623597b0de938581dfee9d908c648f95869" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.cbbd394y/ed08b623597b0de938581dfee9d908c648f95869/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Édition complète du registre du conseil<lb/>(31 mars 1459 – 6 avril 1463)</head>
-        <div>
+        <div xml:id="r1177245">
           <head rend="uc">Chapitre préliminaire</head>
           <p>Critères d’édition. Remarques linguistiques et particularités orthographiques du greffier du Conseil.</p>
         </div>
@@ -128,11 +126,11 @@
         <head rend="uc">Édition</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r1177265">
         <head rend="uc">Appendices</head>
         <p>Cinquante-sept notices biographiques des gens du Conseil (conseillers, secrétaires, maîtres des requêtes). – Tableaux généalogiques. – Chronologie générale. – Itinéraire du Conseil ducal. – État des officiers ducaux (1459-1463).</p>
       </div>
-      <div>
+      <div xml:id="r1177275">
         <head rend="uc">Planches</head>
         <p>Fac-similés de pages du registre du Conseil.</p>
       </div>

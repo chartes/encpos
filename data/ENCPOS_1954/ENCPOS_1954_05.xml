@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1954_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1954_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,11 +62,11 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r754740">
         <head rend="uc">Première partie
          <lb/>Évolution générale de la Faculté de droit
          <lb/>au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r754756">
           <head rend="uc">Chapitre premier
            <lb/>la Faculté au moyen âge.</head>
           <p><hi rend="i">Le <num>xiii<hi rend="sup">e</hi></num> et le <num>xiv<hi rend="sup">e</hi></num> siècle.</hi> – Les origines de l’Université. Le traité de Paris de 1229. Domination pontificale. La corporation universitaire : importance des droits réservés aux étudiants. Les Facultés. La Faculté de droit, grâce à l’enseignement conjugué du droit romain et du droit canonique, obtient la prééminence dans la communauté. Son éclat au <num>xiii<hi rend="sup">e</hi></num> siècle. Liens étroits avec l’Église, renforcés par l’installation des Papes en Avignon.</p>
@@ -79,7 +77,7 @@
             <hi rend="sup">e</hi>
             <hi rend="i">siècle.</hi> – Le Parlement de Toulouse, créé en 1444, prend en main la surveillance de l’Université. Il s’attaque aux principaux abus : vénalité des chaires, indiscipline des écoliers, inertie des professeurs. L’enseignement du droit connaît une prérenaissance : Étienne Aufrery.</p>
         </div>
-        <div>
+        <div xml:id="r754823">
           <pb source="https://nakala.fr/10.34847/nkl.fded1itk#521ccc62980eaea80220942fc61ecbb694ed2f9c" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.fded1itk/521ccc62980eaea80220942fc61ecbb694ed2f9c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La Faculté
@@ -89,7 +87,7 @@
           <p><hi rend="i">L’agitation de la Faculté au début du siècle.</hi> – Gros afflux d’étudiants souvent d’humeur turbulente : conflits avec la municipalité et la sénéchaussée ; tendances autoritaires des Capitouls au <num>xvi<hi rend="sup">e</hi></num> siècle. Les privilèges judiciaires et financiers de l’Université sont fréquemment mis en procès. Les querelles de l’humanisme et de la Réforme : les novateurs de la Faculté aux prises avec les « réactionnaires ».</p>
           <p><hi rend="i">Prestige de la Faculté.</hi> – La paix est sauvée par le Parlement, nommé en 1544 conservateur des privilèges. Accès des anciens élèves de la Faculté aux hautes charges de l’État. Les grands docteurs toulousains : Jean de Boysonné, Jean de Coras, Arnaud du Ferrier.</p>
         </div>
-        <div>
+        <div xml:id="r754881">
           <head rend="uc">Chapitre III
            <lb/>La Faculté
            <lb/>pendant la seconde moitié du <num>xvi<hi rend="sup">e</hi></num> siècle.</head>
@@ -98,7 +96,7 @@
           <p><hi rend="i">La fin du <num>xvi<hi rend="sup">e</hi></num> siècle.</hi> – Le retour de la paix amène une relative stabilisation. Les professeurs obtiennent rétribution des pouvoirs publics, mais le désordre reste chronique. La Faculté est devenue une simple école préparatoire provinciale aux fonctions judiciaires. L’enseignement du droit canonique est en décadence : fusion des deux droits en 1598. Il n’y aura pas de tentative sérieuse de redressement avant la réforme royale de 1668.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r754923">
         <pb source="https://nakala.fr/10.34847/nkl.fded1itk#57bd64341824383f8ec179ca978e8770863ec931" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.fded1itk/57bd64341824383f8ec179ca978e8770863ec931/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Organisation de l’Université</head>
@@ -110,10 +108,10 @@
         <p><hi rend="i">Les ressources de l’Université.</hi> – L’Université n’est pas stipendiée par les pouvoirs publics. Ses ressources : petits bénéfices, aumônes, droits d’immatriculation et droits d’examen ; leur caractère précaire. Ses dépenses : solennités religieuses, frais des procès.</p>
         <p><hi rend="i">Les bâtiments de l’Université.</hi> – L’Université n’a pas de local administratif. Construction des nouvelles écoles de droit en 1515 et 1540. Querelles avec les Capitouls au sujet de leur entretien.</p>
       </div>
-      <div>
+      <div xml:id="r754991">
         <head rend="uc">Troisième partie
          <lb/>Les docteurs-régents de la Faculté de droit</head>
-        <div>
+        <div xml:id="r754999">
           <head rend="uc">Chapitre premier
            <lb/>modes de désignation des docteurs-régents.</head>
           <p><hi rend="i">Les docteurs-régents en droit civil et canonique.</hi> – – Professeurs titulaires de la Faculté, leur nombre est réduit à six au début du <num>xvi<hi rend="sup">e</hi></num> siècle. Conditions générales requises pour être régent : doctorat en sciences, catholicité, bonne moralité.</p>
@@ -123,19 +121,19 @@
           <p><hi rend="i">Hérédité et vénalité des chaires.</hi> – Malgré les efforts du Parlement, la vénalité des chaires s’étend au <num>xvi<hi rend="sup">e</hi></num> siècle. Pratiques de transmission héréditaire et de <hi rend="i">resignatio in favorem.</hi></p>
           <p><hi rend="i">Évolution des modes de désignation au <num>xvi<hi rend="sup">e</hi></num> siècle.</hi> – Le Parlement finit par contrôler l’ensemble des nominations. Pendant les guerres de religion, il introduit d’office certains de ses membres. Unification des deux branches du droit à la fin du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r755070">
           <head rend="uc">Chapitre II
            <lb/>Les ressources des docteurs-régents.</head>
           <p><hi rend="i">Les ressources de type ancien.</hi> – Avant le milieu du <num>xvi<hi rend="sup">e</hi></num> siècle, les professeurs ne sont pas stipendiés par les pouvoirs publics. Disparition des collectes levées sur les étudiants. Les droits d’examens, limités par le Parlement désireux d’éviter les abus, constituent une source de revenus insuffisante. Inégalité des émoluments : avant 1598, les professeurs de droit civil sont mieux payés que les professeurs de droit canonique. Pauvreté des « professeurs libres » qui n’ont pas droit à ces émoluments.</p>
           <p><hi rend="i">Rétribution des professeurs par les pouvoirs publics.</hi> – Au milieu du siècle, les ressources traditionnelles des professeurs deviennent insuffisantes : ils font appel au roi et aux États de Languedoc. Après de longues négociations, ils obtiennent une rente versée par les prélats et bénéficiers du Languedoc, une part du produit des impôts sur le sel de la province. Les guerres de Religion en empêchent le paiement. Au début du <num>xvii<hi rend="sup">e</hi></num> siècle, les professeurs arrivent à recevoir les impôts du sel, mais les prélats, ruinés, ne peuvent arriver à verser leurs rentes. Supériorité et avantages des professeurs de droit sur leurs collègues.</p>
           <p><hi rend="i">Principales ressources extra-professionnelles.</hi> – Les professeurs vivent largement de la pratique judiciaire, mais le Parlement s’y oppose. Interdiction de cumuler le professorat et le barreau (1538), le professorat et la magistrature (début du <num>xvii<hi rend="sup">e</hi></num> siècle).</p>
         </div>
-        <div>
+        <div xml:id="r755115">
           <head rend="uc">Chapitre III
            <lb/>Privilèges financiers des docteurs-régents.</head>
           <p>Prétentions des universitaires en matière d’exemption fiscale. Ils ont peine à obtenir satisfaction : caractère contradictoire de leurs privilèges, besoins d’argent de la royauté et des Capitouls. L’exemption de la taille est particulièrement difficile à obtenir en Languedoc où la taille est réelle. Nombreux procès de l’Université avec les Capitouls au début du siècle. A <pb source="https://nakala.fr/10.34847/nkl.fded1itk#19581d724b8719b92862143dbad7e7b464b22c0d" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.fded1itk/19581d724b8719b92862143dbad7e7b464b22c0d/full/full/0/default.jpg"/> la fin du <num>xvi<hi rend="sup">e</hi></num> siècle, l’enseignement obtient plusieurs fois confirmation de ses privilèges par la royauté. Le Parlement les fait respecter par crainte d’appauvrir les universitaires. A partir du <num>xvii<hi rend="sup">e</hi></num> siècle, exemption définitive de la taille sur l’industrie. Exemptions fréquentes de la taille sur les biens ruraux.</p>
         </div>
-        <div>
+        <div xml:id="r755144">
           <head rend="uc">Chapitre IV
            <lb/>La condition matérielle et sociale des docteurs-régents.</head>
           <p>Dans la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle, recrutement des professeurs dans la bourgeoisie locale. Liens sociaux des universitaires et des parlementaires. Petit nombre des étrangers. Ressources personnelles, surtout foncières, des éléments locaux. Accès facile des universitaires au Parlement. Les troubles de la Faculté, au début du <num>xvi<hi rend="sup">e</hi></num> siècle, n’ébranlent pas la stabilité de la condition professorale. Crise matérielle et morale des docteurs-régents au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle. Affaiblissement des ressources professionnelles et exclusion des fonctions judiciaires. Les guerres de Religion : tribulations des professeurs et abandon des chaires. Le prestige de la Faculté diminue, tandis que s’accroît celui des parlements. Les régents assimilés au <num>xvii<hi rend="sup">e</hi></num> siècle aux membres des présidiaux.</p>

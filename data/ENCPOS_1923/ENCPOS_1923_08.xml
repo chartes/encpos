@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1923_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1923_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,7 +59,7 @@
         <forename>Lucien</forename>
         <surname>Metzger</surname>
       </byline>
-      <div>
+      <div xml:id="r422484">
         <head rend="uc">Introduction</head>
         <p>Justification du plan. Étude des ouvrages antérieurs consacrés à ce sujet : Schœpflin, Roth v. Schreckenstein, etc. Sources : <hi rend="i">a</hi>) publiées : Lunig, Burgermeister, Cartulaire de Strasbourg ; <hi rend="i">b</hi>) inédites : volumes et liasses des archives départementales du Bas-Rhin (principalement Série E. Fonds du directoire de la noblesse de la Basse-Alsace). Archives municipales de Strasbourg.</p>
       </div>
@@ -69,11 +67,11 @@
         <head rend="uc">Index bibliographique</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r422511">
         <head rend="uc">Première partie
          <lb/>Considérations générales sur la noblesse
          <lb/>immédiate d’empire</head>
-        <div>
+        <div xml:id="r422521">
           <head rend="uc">Chapitre premier
            <lb/>aperçu sommaire sur le corps de la noblesse d’empire</head>
           <p>1. <hi rend="i">Nom et définition.</hi> – « Corpus Nobilitatis immediatae » ou « Corpus Nobilium sacro Romano Imperio sine medio sub<pb source="https://nakala.fr/10.34847/nkl.27c8ll37#a7aba118d31b0d05bd09b265372922b01c49aea1" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.27c8ll37/a7aba118d31b0d05bd09b265372922b01c49aea1/full/full/0/default.jpg"/>jectorum », en langue germanique : « Freye Reichs-Ritterschafft », ou « Des Reichs gefreyte Ritterschafft. » Partie de la noblesse inférieure, maintenue dans l’immédiateté vis-à-vis de l’Empire. La notion juridique de l’« immédiateté » en droit germanique.</p>
@@ -81,13 +79,13 @@
           <p>3. <hi rend="i">Organisation du Corps.</hi> – Le Corps est divisé en trois cercles : Souabe, Franconie et Bas-Rhin. Chaque cercle se compose de cantons. A la tête des trois cercles réunis est placé le directoire général ; une commission analogue, appelée également « directoire » est chargée des affaires relatives à un cercle ou à un canton.</p>
           <p>4. <hi rend="i">La noblesse de la Basse-Alsace et le Corps.</hi> – La noblesse de la Basse-Alsace aurait été associée à la noblesse rhénane, au <num>xv<hi rend="sup">e</hi></num> siècle. Elle ne s’est pourtant pas encore groupée, au moment, où le reste de la noblesse immédiate d’Empire avait déjà achevé son organisation. Érigée en corps, en vertu, d’une ordonnance de Charles-Quint, en 1547, elle reste isolée, sans éprouver le besoin d’entrer en relation directe avec les trois autres cercles.</p>
         </div>
-        <div>
+        <div xml:id="r422573">
           <head rend="uc">Chapitre II
            <lb/>La noblesse inférieure</head>
           <p>1. <hi rend="i">La noblesse inférieure et l’ordre équestre.</hi> – • A l’origine, l’ordre équestre représentait l’ensemble des membres de la chevalerie. Au <num>xii<hi rend="sup">e</hi></num> siècle, la distinction s’établit, entre « ordo equestris major » et « ordo equestris minor » ; l’« ordo major » composé de chevaliers libres, aboutit ultérieurement à la haute noblesse, l’« ordo minor », comprenant des chevaliers non libres, donne naissance à la noblesse inférieure, intitulée également, pendant tout le moyen âge, « ordo equestris » tout court.</p>
           <p>2. <hi rend="i">Milites « libres et non libres.</hi> » – Communément, le mot <pb source="https://nakala.fr/10.34847/nkl.27c8ll37#663739aa8ae92ab457bdf82b3553499a145b9218" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.27c8ll37/663739aa8ae92ab457bdf82b3553499a145b9218/full/full/0/default.jpg"/><hi rend="i">miles</hi> signifie à la fois noble et chevalier, représentant, en ce sens, une personne libre. <hi rend="i">Miles</hi> est aussi susceptible de désigner une personne non libre, affectée à des services divers, mais, essentiellement, de chevalier. Ces <hi rend="i">milites</hi> non libres se trouvent englobés, généralement, dans la dénomination de <hi rend="i">ministeriales.</hi> Concurrence des termes <hi rend="i">miles</hi> et <hi rend="i">ministerialis </hi>dans les chartes de l’évêché de Strasbourg. Intérêt de la distinction entre <hi rend="i">milites</hi> libres et non libres. La fusion de la ministérialité avec la vassalité, au <num>xiii<hi rend="sup">e</hi></num> siècle, a amené la formation de la noblesse, dite inférieure.</p>
         </div>
-        <div>
+        <div xml:id="r422640">
           <head rend="uc">Chapitre III
            <lb/>La ministérialité</head>
           <p>i. <hi rend="i">Définition, origine et évolution de la ministérialité.</hi> – Les <hi rend="i">ministeriales</hi> étaient une classe de personnes de condition non libre, mais de situation sociale très élevée, et qui, dans le système féodal, se rangeaient au-dessous de la chevalerie libre. L’origine de la ministérialité paraît remonter à l’époque carolingienne. Allusion, dans le capitulaire de 789. Les offices de Cour, se trouvent déjà décrits dans le traité <hi rend="i">De ordine palatii</hi> d’Hincmar, les <hi rend="i">ministeriales</hi> de l’administration locale, se rencontrent pour la première fois, dans le Capitulaire <hi rend="i">de villis.</hi> A l’époque suivante, le terme <hi rend="i">ministerialis</hi> change de signification, s’appliquant désormais exclusivement aux agents, chargés d’offices divers et résidant sur les domaines.</p>
@@ -96,32 +94,32 @@
           <p>4. <hi rend="i">La jusion de la ministérialité avec la vassalité.</hi> – Une constitution impériale du <num>xiii<hi rend="sup">e</hi></num> siècle nous démontre la condition des <hi rend="i">ministeriales</hi> au terme de leur évolution. La vie de chevalier des <hi rend="i">ministeriales,</hi> la possession et l’hérédité de leurs fiefs (Dienstlehen) se présentent comme facteurs décisifs dans l’œuvre d’assimilation de la ministérialité avec la vassalité et la noblesse jusqu’à la fusion définitive.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r422729">
         <head rend="uc">Deuxième partie
          <lb/>La composition et l’histoire de la noblesse
          <lb/>immédiate de la Basse-Alsace, des origines
          <lb/>jusqu’à sa constitution en corps en 1550</head>
-        <div>
+        <div xml:id="r422741">
           <head rend="uc">Chapitre premier
            <lb/>origine et composition de la noblesse de la Basse-Alsace</head>
           <p>1. <hi rend="i">Exposé de diverses théories sur la matière.</hi> – Suivant l’opinion de la noblesse même, ses membres tireraient leurs origines des gentilshommes, qui ont accompagné Charlemagne dans ses expéditions contre les Saxons. En récompense de leurs services, il leur aurait assigné des terres en Alsace. D’accord avec Schoepflin on convient de voir dans les <hi rend="i">ministeriales</hi> la souche de l’ordre équestre et partant de la noblesse inférieure d’Alsace, mais il n’y a pas lieu de rapprocher <hi rend="i">ingenuus, liber homo</hi> des termes <hi rend="i">ministerialis, miles.</hi></p>
           <p>2. <hi rend="i">Composition de la noblesse de la Basse-Alsace.</hi> – L’élément primordial en est formé par les <hi rend="i">ministeriales</hi> de l’évêché de Strasbourg et de l’Empire. Il est difficile d’attribuer d’une façon décisive le caractère de <hi rend="i">ministerialis</hi> aux ancêtres de notre noblesse, par le fait de la rareté des noms de famille, avant le <num>xiii<hi rend="sup">e</hi></num> siècle et de la substitution du terme plus général <hi rend="i">miles</hi> à l’expression propre <hi rend="i">ministerialis</hi> par la suite. Résultats des recherches généalogiques sur les familles les plus remarquables du Corps équestre (Andlau, Rathsamhausen, etc.). La noblesse a compté également parmi ses membres <pb source="https://nakala.fr/10.34847/nkl.27c8ll37#89234db3d321f2dbe64c0ce72ec500e89b56b1eb" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.27c8ll37/89234db3d321f2dbe64c0ce72ec500e89b56b1eb/full/full/0/default.jpg"/>des patriciens strasbourgeois (Zorn, Mullenheim). En outre des bourgeois riches par l’intermédiaire de l’institution des « Constofler » avaient trouvé moyen de s’y faire recevoir. En dernier lieu, on y rencontrera des nobles immigrés de tous les points de l’Empire.</p>
         </div>
-        <div>
+        <div xml:id="r422802">
           <head rend="uc">Chapitre II
            <lb/>La ministérialité dans l’évêché de Strasbourg</head>
           <p>i. <hi rend="i">Terminologie.</hi> – Les premiers textes, faisant allusion à cette institution, datent du <num>xi<hi rend="sup">e</hi></num> siècle. Désignations générales : <hi rend="i">ministerialis</hi> ou <hi rend="i">miles.</hi> Noms plus rares et encore discutables <hi rend="i">’. Servitor, Servions, Servus, Officiatus, Officialis, Cliens, Ignobilis.</hi></p>
           <p>2. <hi rend="i">Condition des personnes et des biens.</hi> – Les <hi rend="i">ministérielles </hi>en qualité de membres de la <hi rend="i">familia ecclesiae</hi> étaient justiciables du <hi rend="i">jus Curiae</hi> mais ils étaient exempts de la juridiction du scultète pour leurs maisons, situées dans la ville, hors du domaine de la cour. Ils étaient capables d’acquérir des biens propres désignés par les mots : <hi rend="i">praedium, possessio, allodium, </hi>sans avoir la faculté, ces biens une fois acquis, d’en disposer librement. D’habitude, les services des <hi rend="i">ministérielles</hi> étaient rémunérés par la collation des fiefs spéciaux (<hi rend="i">Dienstlehen), </hi>plus tard, ils pouvaient être détenteurs de véritables fiefs, au même titre que les vassaux libres.</p>
           <p>3. <hi rend="i">Les fonctions des « ministérielles ».</hi> – <hi rend="i">a</hi>) Offices de cour. : <hi rend="i">vicedominus, marescalcus, dapifer, pincerna, camerarius.</hi> Leurs attributions sont très vaguement connues par les documents. <hi rend="i">b</hi>) Administration locale : Les textes qui nous sont parvenus ne nous permettent pas encore de préciser si les officiers employés sur les domaines, tel que le <hi rend="i">maior,</hi> le <hi rend="i">cellerarius,</hi> le <hi rend="i">forestarius,</hi> etc., tous des <hi rend="i">ministerielles</hi> dans le capitulaire <hi rend="i">de villis,</hi> avaient même qualité dans l’évêché de Strasbourg, <hi rend="i">c</hi>) Administration municipale. Officiers : scultète, burgrave, péager, maître de la monnaie. Ces offices étaient occupés avant 1263 à peu près exclusivement par des <hi rend="i">ministérielles ; </hi>après 1263 certains offices étaient réservés aux citoyens. <hi rend="i">d</hi>) Service militaire. Les <hi rend="i">ministérielles</hi> accompagnaient l’évêque dans ses expéditions.</p>
         </div>
-        <div>
+        <div xml:id="r422921">
           <pb source="https://nakala.fr/10.34847/nkl.27c8ll37#315f5b6ba7c2261b7e883f5c9b756be19461ba6d" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.27c8ll37/315f5b6ba7c2261b7e883f5c9b756be19461ba6d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La noblesse urbaine de Strasbourg (patriciat)</head>
           <p>I. <hi rend="i">Origine et composition du patriciat.</hi> – Nom : <hi rend="i">Geschlechter, </hi>jamais <hi rend="i">Patrizier</hi> dans les textes ; désignation officielle : <hi rend="i">Constofler.</hi> Le patriciat peut être considéré comme constitué, à partir de 1262, ayant eu pour base les <hi rend="i">majores cives</hi> ou bien <hi rend="i">cives Argentinensis civitatis sapientiores et honorabiliores</hi> du statut municipal d’environ 1215. Les patriciens étaient en majeure partie des commerçants et propriétaires libres ; la ministérialité n’y avait pas une part appréciable.</p>
           <p>2. <hi rend="i">Le Patriciat et l’Ordre équestre [les « Constofler »</hi>). – La plupart des patriciens faisaient partie de l’ordre équestre. Obligés de faire leur service militaire, comme <hi rend="i">Constofler,</hi> ils étaient chevaliers de naissance. L’ensemble des <hi rend="i">Constofler </hi>formait la cavalerie urbaine. D’après une décision du magistrat de 1471, des non-nobles étaient admis, sous certaines conditions, aux <hi rend="i">Constofel,</hi> ils entreront par cette voie dans l’ordre équestre.</p>
         </div>
-        <div>
+        <div xml:id="r422981">
           <head rend="uc">Chapitre IV
            <lb/>La noblesse de la Basse-Alsace depuis l’acquisition de
            <lb/>son « immédiateté » jusqu’à 1550</head>
@@ -135,12 +133,12 @@
           <p>4. <hi rend="i">La noblesse de la Basse-Alsace et les Empereurs.</hi> – Nombre de gentilshommes tiennent des fiefs d’Empire. L’empereur Maximilien <pb source="https://nakala.fr/10.34847/nkl.27c8ll37#19edd4731436eb2cff6dc7dc2800be3b1325f0cc" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.27c8ll37/19edd4731436eb2cff6dc7dc2800be3b1325f0cc/full/full/0/default.jpg"/> I<hi rend="sup">er</hi> entre en négociations avec les membres de la Noblesse, en vue de la perception d’un impôt particulier, dit « denier commun ». Ils ne s’exécutent qu’après pression énergique exercée sur eux par l’empereur, en présence de l’invasion imminente des Turcs, mais encore seulement à titre de don gratuit. Contrairement à l’exemple du reste de la noblesse d’Empire, ces innovations n’amènent pas la constitution en corps de la noblesse alsacienne. La raison en est sa situation particulière et ses rapports avec les autres Etats d’Alsace.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r423098">
         <head rend="uc">Troisième partie
          <lb/>L’histoire et l’organisation de la noblesse
          <lb/>immédiate de la Basse-Alsace, depuis sa constitution en corps jusqu’au traité de paix de
          <lb/>Westphalie</head>
-        <div>
+        <div xml:id="r423110">
           <head rend="uc">Chapitre premier
            <lb/>le corps de la noblesse de 1550 à 1618</head>
           <p>1. <hi rend="i">La formation du Corps.</hi> – La constitution de la noblesse en Corps (1550) est due à une ordonnance de Charles-Quint de 1547. Le Directoire est issu d’une commission, visée dans la même ordonnance, et élue par la noblesse d’après l’ordre et dans l’idée de l’empereur de la représenter dans ses rapports avec lui et notamment dans les négociations en vue de la perception du « Don gratuit ».</p>
@@ -149,7 +147,7 @@
           <p>4. <hi rend="i">La politique du Corps dans la première époque de son existence.</hi> – Le Corps prend fait et cause pour les membres <hi rend="i">Usburger</hi> de Strasbourg dans leur conflit avec cette ville, au sujet de la cohabitation. Échec. Tout le Corps est engagé dans la fameuse, querelle pour la préséance dans les États provinciaux d’Alsace. Après de nombreuses vicissitudes, le « prius votum » est accordé aux villes par l’empereur. Nouvelles revendications de la noblesse. Plainte en diffamation, portée contre les villes par le Corps, qui est débouté de sa demande. L’affaire traîne toujours à la fin de la période que nous étudions.</p>
           <p>5. <hi rend="i">La noblesse dans la Réformation et la contre-réformation, jusqu’au début de la Guerre de Trente ans.</hi> – La plupart des membres du Corps passent à la Réforme ; le Directoire tout entier se compose de protestants. Dans le conflit, précédant la « Guerre des évêques » entre les chanoines catholiques et protestants du Grand Chapitre de Strasbourg, le Corps s’efforce d’observer une stricte neutralité, en dépit des sollicitations de quelques princes protestants. Il poursuit cette politique dans la « Guerre des évêques » et joue un certain rôle dans les négociations, amenant la fin de cette guerre. En présence de la contre-réformation en Alsace, encouragée par le succès du parti catholique dans la « Guerre des Évêques », il n’arrive pas à faire triompher sa prétention de pouvoir introduire la religion protestante aussi dans les territoires tenus en fiefs de suzerains catholiques, en vertu du principe : « Cujus regio, ejus religio. »</p>
         </div>
-        <div>
+        <div xml:id="r423163">
           <pb source="https://nakala.fr/10.34847/nkl.27c8ll37#d21eb90e5eb516b17a14dfa2562d49421ad385a0" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.27c8ll37/d21eb90e5eb516b17a14dfa2562d49421ad385a0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le corps dans la guerre de trente ans</head>
@@ -157,7 +155,7 @@
           <p>2. 1630-48 (<hi rend="i">De l’intervention des armées suédoises et françaises jusqu’au traité de paix de Westphalie</hi>). – <hi rend="i">a</hi>) La guerre. Les territoires de la noblesse sont ravagés par les Lorrains, alliés de l’empereur. Le Corps n’arrive qu’à peine à faire face aux contributions de guerre, exigées par les Impériaux. Sauvegardes délivrées au Corps de la noblesse par les commandants d’armées (Horn, duc de Rohan). Il est mis à contribution pour le ravitaillement des armées françaises en Alsace, organisé par le cardinal de la Valette. La noblesse est traitée avec une certaine méfiance par le duc Bernard de Weimar. Excuses présentées au Corps, par le cardinal Mazarin, pour les dégâts causés sur son territoire par le repli forcé du maréchal Guébriant.</p>
           <p><hi rend="i">b</hi>) Les négociations de paix. Le Corps de la noblesse, dépourvu de moyens suffisants pour payer un envoyé spécial au Congrès, charge de ses intérêts, Jean de Giffen, plénipotentiaire de l’Évêché de Strasbourg. Instructions données à de Giffen : maintien dans la possession des privilèges et de l’immédiateté vis-à-vis de l’Empire et mention nominale dans <pb source="https://nakala.fr/10.34847/nkl.27c8ll37#c4138ab1bccdc6c064a97123ea2d64a9be7aa627" n="69" facs="https://api.nakala.fr/iiif/10.34847/nkl.27c8ll37/c4138ab1bccdc6c064a97123ea2d64a9be7aa627/full/full/0/default.jpg"/>l’instrument de paix. Les démarches de Giffen sont soutenues par de Gemmingen, plénipotentiaire des trois autres cercles du Corps de la Noblesse d’Empire. Mémoire de la noblesse au sujet de l’immédiateté, présenté à l’empereur Ferdinand III et des griefs, relatifs aux privilèges, soumis au plénipotentiaire de l’Empire, de Trautmannsdorf. Dans le traité de Westphalie la noblesse figure, dans l’article « Teneatur » parmi les Etats alsaciens, auxquels l’immédiateté vis-à-vis de l’Empire est reconnue par le roi de France. Discussion sur la portée de l’article en question, quant à la noblesse, de la Basse-Alsace.</p>
         </div>
-        <div>
+        <div xml:id="r423206">
           <head rend="uc">Chapitre III
            <lb/>L’organisation du corps de la noblesse</head>
           <p>I. <hi rend="i">Le Directoire.</hi> – Le nombre des membres du Directoire n’est pas fixé avant l’établissement des statuts, en 1651. Sont exclus du Directoire les nobles, citoyens d’une ville ou entrés dans le service d’un prince autre que l’empereur. Le droit d’élection pour les sièges vacants appartient au Directoire même. La charge de membre du Directoire est viagère. Il est préposé à la gestion des affaires intérieures et extérieures du Corps, chargé de la sauvegarde des intérêts moraux et matériels de ses membres. La réunion du Directoire se tient d’ordinaire au domicile d’un des conseillers. Il a le droit ou le devoir de s’adjoindre une Commission supplémentaire, en circonstances graves.</p>
@@ -165,7 +163,7 @@
           <p>3. <hi rend="i">L’Assemblée générale de la noblesse</hi> (<hi rend="i">Rittertag</hi>). – L’Assemblée générale de la noblesse se rattache aux associations de nobles existant pendant tout le Moyen-âge (Alliances. Poêles (Trinkstuben). Son organisation, très médiocre à l’origine, est perfectionnée par certains règlements, institués au cours des temps. Le droit de convocation appartient au Directoire. Tout membre est astreint à une assiduité rigoureuse et à la présence en personne, sauf empêchement grave ; il est libre, en ce cas, d’envoyer un délégué. Lieu de réunion : maisons de la noblesse. Temps : laissé à la décision du Directoire. Délibérations : présidence du Directoire. Rédaction d’un « recès », signé par les assistants. Objet : toutes les affaires intérieures et extérieures du Corps, d’une importance particulière.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r423246">
         <head rend="uc">Conclusion</head>
         <p>La noblesse immédiate de la Basse-Alsace, n’ayant pas au Moyen-âge d’organisation officielle, ne pouvait être appelée à jouer un rôle très important dans l’histoire de l’Alsace, à cette époque. Mais érigée en Corps au <num>xvi<hi rend="sup">e</hi></num> siècle et dotée de plusieurs privilèges impériaux, elle prend une part plus active à la vie politique du pays. Mêlée à toutes les vicissitudes de la Guerre de Trente Ans, elle est maintenue par le traité de paix de Westphalie, dans l’immédiateté vis-à-vis de l’Empire, tout en passant sous la souveraineté du roi de France.</p>
       </div>

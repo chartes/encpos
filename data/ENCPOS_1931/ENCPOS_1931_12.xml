@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,26 +63,26 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r504673">
         <head rend="uc">Premiere partie
          <lb/>Henri de Mesmes (1532-1596)</head>
-        <div>
+        <div xml:id="r504681">
           <head rend="uc">Chapitre premier
            <lb/>famille et première jeunesse (1532-1545).</head>
           <p>Ayant fait fortune, les Mesmes se sont flattés d’une antique origine. En réalité, il semble que leurs ancêtres n’aient occupé, avant le <num>xvi<hi rend="sup">e</hi></num> siècle, qu’une situation modeste. Jean-Jacques de Mesmes, le père d’Henri, poussé par la Maison de Navarre, quitte la Gascogne et s’établit à Paris vers 1530. Grâce à la protection royale, il y fonde la fortune de sa famille.</p>
           <p>Henri de Mesmes, né en 1532, est confié, vers 1540, <pb source="https://nakala.fr/10.34847/nkl.db2dp2v1#27d7cc5f61d9f2154d041bb6eb6d19fae1415646" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.db2dp2v1/27d7cc5f61d9f2154d041bb6eb6d19fae1415646/full/full/0/default.jpg"/>à un précepteur humaniste, Jean Maledent. Pendant dix-huit mois, de 1542 à 1544, il étudie avec fruit au Collège de Bourgogne. Après sa sortie du collège, il reste un an à Paris ; il voit les grands humanistes ; il fréquente la maison de Lazare de Baïf et s’y fait remarquer par son intelligence et sa science précoce.</p>
         </div>
-        <div>
+        <div xml:id="r504707">
           <head rend="uc">Chapitre II
            <lb/>À l’université de Toulouse (1545-1550).</head>
           <p>En septembre 1545, Henri de Mesmes et son frère cadet Jean-Jacques partent pour Toulouse, où ils vont commencer leurs études juridiques. Ils sont accompagnés par Jean Maledent. A Toulouse, ils suivent les cours de l’Université, dont Henri de Mesmes nous a laissé dans ses <hi rend="i">Mémoires</hi> un tableau assez vivant. Mesmes y rencontre Denis Lambin, Adrien Turnèbe, Léger du Chesne, Guy du Faur de Pibrac. Il y entend les leçons d’Arnauld du Ferrier, de Coras, et sans doute de Cujas. Après trois ans d’études juridiques, Mesmes fait des « lectures », ou cours libres. Pendant l’été et l’automne de 1549, il passe à Cahors de longues et studieuses vacances, avec un groupe d’étudiants toulousains. Au bout de cinq ans, il prend son doctorat, fait un voyage d’études qui le mène d’Avignon à Orléans et Poitiers, et rentre à Paris.</p>
         </div>
-        <div>
+        <div xml:id="r504723">
           <head rend="uc">Chapitre III
            <lb/>Début de carrière (1550-1556).</head>
           <p>Au retour de Toulouse, Jean Maledent quitte les fils de Jean-Jacques de Mesmes. Henri de Mesmes <pb source="https://nakala.fr/10.34847/nkl.db2dp2v1#1517a67f96619c94f78065af86e1e87528cb8e4f" n="103" facs="https://api.nakala.fr/iiif/10.34847/nkl.db2dp2v1/1517a67f96619c94f78065af86e1e87528cb8e4f/full/full/0/default.jpg"/>échoue dans sa candidature à une chaire de droit canon. Pendant l’année scolaire 1550-1551, il fait des cours libres de droit canon. En 1552, il entre à la Cour des Aides et se marie. 11 ne siège que quelques jours à la Cour des Aides, et, en janvier 1553, il est nommé Conseiller au Grand Conseil. Les démarches faites par son père et la protection du roi de Navarre lui obtiennent la survivance de l’office de maître des requêtes. Il a la faveur d’Henri II, qui lui donne une charge non officielle aux requêtes de l’hôtel. Il reste en relations très suivies avec les lettrés. Son cousin Jean-Pierre de Mesures, qui vit auprès de lui, est en rapports constants avec la « Brigade ».</p>
         </div>
-        <div>
+        <div xml:id="r504740">
           <head rend="uc">Chapitre IV
            <lb/>Le voyage d’Italie (1556-1558).</head>
           <p>La République de Sienne, après la prise de la ville par les Impériaux, s’est retirée dans une forteresse de la Toscane méridionale, Montalcino. S’étant mise sous la protection du roi de France, elle lui demande, à l’été de 1556, d’envoyer en Toscane un magistrat pour y être capitaine de justice et surintendant des finances. Henri II, peut-être conseillé par le cardinal de Lorraine, désigne Henri de Mesmes.</p>
@@ -92,7 +90,7 @@
           <p>Mesmes arrive à Montalcino au printemps de 1557. Ses pouvoirs judiciaires, très étendus, sont définis par une « capitulation » avec le gouvernement. Sa charge de surintendant lui donne de graves soucis : <pb source="https://nakala.fr/10.34847/nkl.db2dp2v1#5de5c9c9b3362212fbe2e7e502c1eb8f0b8d81ee" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.db2dp2v1/5de5c9c9b3362212fbe2e7e502c1eb8f0b8d81ee/full/full/0/default.jpg"/>la situation économique et financière de la République est lamentable ; de plus, le gouverneur militaire, Blaise de Monluc, dont Mesmes a blessé la susceptibilité, est irrité par le contrôle que le jeune magistrat exerce sur les dépenses. Monluc, mal en Cour, quitte Montalcino à l’automne, Mesmes, à la suite d’une grave maladie, se voit mis en sous-ordre : Jean de Monluc est nommé surintendant des finances.</p>
           <p>En mai 1558, Henri de Mesmes quitte Montalcino, ayant fait approuver son administration par le gouvernement. Au retour, il voit Renée de France à Ferrare. Il passe par Venise, et va trouver, à Conegliano, le cardinal de Tournon ; il revoit alors Denis Lambin, secrétaire du cardinal. Il rentre à Paris au milieu du mois de juillet 1558.</p>
         </div>
-        <div>
+        <div xml:id="r504766">
           <head rend="uc">Chapitre V
            <lb/>Un magistrat protecteur des lettres (1558-1568).</head>
           <p>Jusqu’à la mort d’Henri H, Mesmes, maintenant en possession de l’office que son père lui a résigné, vit presque toujours à la Cour. En 1559, ayant perdu, en la personne du Roi, son plus sûr protecteur, il se décide à une demi-retraite, voulant « se tenir à ses livres et à son office » ; il ne veut plus se mêler de politique, prévoyant des troubles imminents.</p>
@@ -100,7 +98,7 @@
           <p>Maître des requêtes de l’hôtel, Mesmes voit chaque jour le Chancelier de l’Hospital, et se lie avec lui. Cette amitié lui permet d’intervenir plus efficacement à la Cour en faveur des lettrés. Il est en relations avec les plus célèbres humanistes français et correspond avec plusieurs érudits et collectionneurs étrangers.</p>
           <p>Il exerce avec activité ses fonctions administratives. Il suit la Cour dans le grand voyage de 1564-1565 ; il est chargé de missions de confiance.</p>
         </div>
-        <div>
+        <div xml:id="r504796">
           <head rend="uc">Chapitre VI
            <lb/>Accession a la grande politique. La paix
            <lb/>de Saint-Germain (1568-1570).</head>
@@ -108,7 +106,7 @@
           <p>Membre du Conseil privé, Mesmes a la confiance de Charles IX et de Catherine de Médicis. Il veille à rester bien en Cour. En mai 1570, il est adjoint à Biron pour continuer la négociation de la paix avec les protestants. La situation qui se présente aux deux agents de Charles IX est très défavorable : le roi faiblit et veut la paix, les protestants ne veulent pas signer avant d’avoir arraché la décision par les armes. Le plan de la Cour est de dissocier le parti protestant. Mesmes et Biron voient Jeanne d’Albret à la Rochelle ; n’ayant rien obtenu, ils se rendent au camp des Princes, à Saint-Etienne. Ils suivent <pb source="https://nakala.fr/10.34847/nkl.db2dp2v1#50276cd7a7bd4e621d170b0e9467e6e5d0f68544" n="106" facs="https://api.nakala.fr/iiif/10.34847/nkl.db2dp2v1/50276cd7a7bd4e621d170b0e9467e6e5d0f68544/full/full/0/default.jpg"/>l’armée protestante dans sa marche sur la Bourgogne. Les pourparlers n’aboutissent pas. Mesmes et Biron reprennent le chemin de Paris. Mais la bataille d’Arnay-le-Duc modifie la situation : les protestants perdent l’espoir d’atteindre rapidement Paris. Ils signent une trêve à Entrains (14 juillet 1570). Mesmes et Biron sont mêlés à la signature de cette trêve ; mais aux conférences de Saint-Germain ils ne jouent qu’un rôle de second plan.</p>
           <p>La paix « boiteuse et mal assise » du 5 août 1570 est l’œuvre personnelle de Charles IX. Elle se ressent des conditions générales défavorables où elle a été négociée : les succès militaires de Jarnac et de Moncontour n’ont pas été exploités, on a laissé aux protestants le temps de se redresser, et même, un instant, de menacer sérieusement la Cour.</p>
         </div>
-        <div>
+        <div xml:id="r504821">
           <head rend="uc">Chapitre VII
            <lb/>La faveur royale. L’homme de confiance
            <lb/>de Catherine de Médicis (1570-1582).</head>
@@ -117,13 +115,13 @@
           <p>Le rôle important qu’il joue à la Cour l’éloigne quelque peu de l’étude et de la fréquentation des lettrés. Il conserve pourtant des relations suivies avec Michel de l’Hospital, disgrâcié. Il est en rapports avec Montaigne, qui lui dédie un opuscule de La Boétie. Il fait venir chez lui Jean Passerat, qu’il donne comme précepteur à son fils.</p>
           <p>La culture et la réputation de science d’Henri de Mesmes consolident sa situation en Cour. Il devient l’homme de confiance de Catherine de Médicis ; il fait des démarches auprès des artistes qu’elle emploie et surveille l’exécution des commandes qu’elle leur fait.</p>
         </div>
-        <div>
+        <div xml:id="r504849">
           <head rend="uc">Chapitre VIII
            <lb/>La disgrace et la retraite définitive (1582-1588).</head>
           <p>Le 17 janvier 1582, Mesmes est disgrâcié par le roi et perd toutes ses charges. Il conserve cependant son office au Parlement. C’est à la demande de sa mère, probablement, que le Roi renvoie son conseiller. La rumeur publique donne à cette disgrâce- un caractère outrageant et infamant.</p>
           <p>Mesmes retourne à ses études, auxquelles il s’adonne en compagnie de Passerai, demeuré auprès de lui. Il enrichit ses collections. Il est toujours en relations d’amitié avec les lettrés et les savants. Il voit les érudits étrangers de passage à Paris : Janus Gulielmius, Paul Melissus. Mais les grands humanistes disparaissent peu à peu et ne sont pas remplacés.</p>
         </div>
-        <div>
+        <div xml:id="r504864">
           <pb source="https://nakala.fr/10.34847/nkl.db2dp2v1#1107f4fe9aaa3b73dc25fa6d898db8639da487fe" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.db2dp2v1/1107f4fe9aaa3b73dc25fa6d898db8639da487fe/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IX
            <lb/>Les troubles de Paris. Les dernières années
@@ -131,11 +129,11 @@
           <p>Pendant les troubles qui sévissent à Paris à partir de 1588, Mesmes exerce encore sa charge au Parlement. Mais il se donne surtout aux études. Il rédige ses <hi rend="i">Mémoires</hi> vers 1590. Encore jeune, il voit disparaître la plupart des hommes qu’il a connus, et il est lui-même malade. Il apparaît comme mêlé au parti des « Politiques ». Il meurt en 1596, peut-être sans avoir conservé l’usage de toutes ses facultés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r504888">
         <head rend="uc">Deuxieme partie
          <lb/>Notes sur quelques aspects
          <lb/>de l’humanisme en France au <num>xvi<hi rend="sup">e</hi></num> siècle.</head>
-        <div>
+        <div xml:id="r504904">
           <head rend="uc">Chapitre premier
            <lb/>l’érudition au <num>xvi<hi rend="sup">e</hi></num> siècle.</head>
           <p>Les recherches de bibliothèque et l’examen des manuscrits sont à la base de l’érudition au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
@@ -144,14 +142,14 @@
           <p>Le travail de l’érudit, en philologie classique, se partage entre les recherches de détail, <hi rend="i">emendationes, </hi>et les commentaires plus généraux. Mais la philologie reste à son rang de science auxiliaire ; elle est d’ailleurs complétée par d’autres sciences qui apparaissent à ce moment, l’archéologie et la numismatique. Les érudits et les grands seigneurs réunissent des collections d’antiquités.</p>
           <p>Grâce à ces nouvelles sources d’information, on en vient à l’étude scientifique de l’histoire ; mais le genre historique, comme tous les autres genres littéraires, tire ses lois des œuvres antiques. Quant aux recherches médiévales, on s’y adonne également ; mais c’est plus par simple curiosité que poussé par les préoccupations morales qui mènent à l’étude de l’Antiquité.</p>
         </div>
-        <div>
+        <div xml:id="r504946">
           <head rend="uc">Chapitre II
            <lb/>La république des humanistes.</head>
           <p>Dans toute l’Europe, lettrés et savants sont rapprochés par l’unité de leurs goûts et de leurs études. L’influence érasmienne s’étend jusqu’à la fin du siècle. Cette unité intellectuelle a pour conséquence immédiate la collaboration des savants des divers pays : les correspondances des humanistes en constituent le témoignage le plus probant.</p>
           <p>La France et l’Italie sont à la tête de l’humanisme européen. En France, la science de l’Antiquité et la littérature en langue vulgaire sont étroitement unies : cette union subsiste devant l’étranger, où les grands érudits français et les lecteurs royaux sont connus et admirés à l’égal des poètes de la Pléiade.</p>
           <p>L’Italie, dont la littérature n’est pas alors aussi brillante, possède toujours l’attrait des souvenirs <pb source="https://nakala.fr/10.34847/nkl.db2dp2v1#6a2a41149970d666ae345c4a31fd8d86431e2c79" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.db2dp2v1/6a2a41149970d666ae345c4a31fd8d86431e2c79/full/full/0/default.jpg"/>antiques et des merveilles de la Renaissance. Les villes italiennes reçoivent la visite d’innombrables savants, venus en voyage d’études. Beaucoup, tel Lambin, profitent d’une mission diplomatique. En 1573, tout un groupe d’érudits accompagne Paul de Foix à Rome et y passe plusieurs mois. La colonie française de Rome se réunit autour de l’ambassadeur Louis d’Abain et de Muret. A Paris, de nombreux Italiens sont attirés à la Cour par la Reine-mère : <hi rend="i">fuorusciti</hi> florentins, érudits, artistes.</p>
         </div>
-        <div>
+        <div xml:id="r504973">
           <head rend="uc">Chapitre III
            <lb/>Les lettrés dans l’état : l’humanisme parlementaire.</head>
           <p>L’humanisme n’a pas été une mode passagère : pendant plus d’un demi-siècle, il s’est étendu à toute la France. Les humanistes de la province sont, pour beaucoup, des poètes obscurs et de petits lettrés. Mais les Universités, et plus encore les Parlements, sont de très actifs centres intellectuels : Toulouse, Poitiers, Orléans.</p>
@@ -159,7 +157,7 @@
           <p>Si l’on fait abstraction de quelques grands savants comme Danès et le maréchal Strozzi, on voit que les Princes et les membres de leur entourage immédiat ne sont pas de véritables humanistes : il leur manque une solide préparation philologique. La Cour est le centre des arts, mais le milieu parlementaire fournit à l’humanisme français ses éléments les plus solides : Michel <pb source="https://nakala.fr/10.34847/nkl.db2dp2v1#5ba65e6def12ddec161716212770e4074dac571f" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.db2dp2v1/5ba65e6def12ddec161716212770e4074dac571f/full/full/0/default.jpg"/> de l’Hospital représente parfaitement cet humanisme parlementaire.</p>
           <p>Les magistrats lettrés trouvent parmi les lecteurs royaux et les poètes leurs meilleurs amis. Protecteurs des lettres, ils maintiennent, pendant les guerres civiles, la tradition de mécénat qui date de François I<hi rend="sup">er</hi>. Ils ont compris l’importance des lettres dans l’Etat et ils les favorisent : leur classe retire de cette fonction un lustre qui n’est pas la moindre cause de son élévation.</p>
         </div>
-        <div>
+        <div xml:id="r505003">
           <head rend="uc">Chapitre IV
            <lb/>Les lettres antiques dans la vie des humanistes.</head>
           <p>L’humanisme est une formation morale. Pendant les guerres et les troubles du <num>xvi<hi rend="sup">e</hi></num> siècle, les poètes ont voulu se réfugier aux <hi rend="i">Iles fortunées</hi> : de même certains humanistes cherchent dans la science l’oubli des malheurs de leur temps. Mais les humanistes trouvent aussi chez les Anciens les éléments d’une morale publique et d’une politique : Plutarque, César, Tacite.</p>
@@ -167,7 +165,7 @@
           <p>Cette formation antique admet quelques correctifs : l’observation de la réalité, l’influence de quelques contemporains considérés comme des classiques. Enfin, la théorie de la « précellence du langage français » se répand même chez les purs humanistes. Ainsi, l’humanisme se dégage d’une imitation trop <pb source="https://nakala.fr/10.34847/nkl.db2dp2v1#f7a94afab18630748950c093a03af249001de7b7" n="112" facs="https://api.nakala.fr/iiif/10.34847/nkl.db2dp2v1/f7a94afab18630748950c093a03af249001de7b7/full/full/0/default.jpg"/>servile de l’Antiquité ; mais la culture antique reste à la base de la vie morale des lettrés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r505037">
         <head rend="uc">Appendices</head>
         <p>1. Le parc du château de Roissy.</p>
         <p>2. Note sur un exemplaire de Pétrone.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,10 +57,10 @@
         <forename>André</forename>
         <surname>Legoy</surname>
       </byline>
-      <div>
+      <div xml:id="r469326">
         <head rend="uc">Première partie
          <lb/>La vie privee</head>
-        <div>
+        <div xml:id="r469334">
           <head rend="uc">I. La famille</head>
           <p>Gaucher de Chatillon né en 1250, de Gaucher IV et d’Isabelle de Lézinnes. Après la mort prématurée de son père, il reste sous la tutelle de sa mère, de 1261 à 1265, ainsi que son frère Gui, mort sans postérité avant 1286, et sa sœur Marie, future épouse de Miles IX, sire de Noyers.</p>
           <p>Uni avant 1281 à Isabelle de Dreux, fille de Jean, vicomte de Châteaudun, il la perd le 29 avril 1300. Remarié dès l’année suivante à Hélissent de Vergy, veuve d’Henri II, comte de Vaudemont, il épouse en troisièmes noces, en 1312, Isabelle de Rumigny, veuve, dès cette même année, de Thibaud, duc de Lorraine. Il lui survit quatre années et meurt au mois de mai 1329.</p>
@@ -70,7 +68,7 @@
           <p>De sa deuxième femme, il eut un fils, Gui, sire de la Fère.</p>
           <p>Il est allié aux plus grandes familles féodales françaises et étrangères, notamment à celles de Lézinnes, Villehardouin, de Blois, Saint-Pol, de Dampierre et d’Avesnes.</p>
         </div>
-        <div>
+        <div xml:id="r469361">
           <head rend="uc">II. Les fiefs</head>
           <p>Très étendus, ils sont situés presque tous en Champagne. ’</p>
           <p>A partir de 1265, Gaucher possède l’importante seigneurie de Crécy-en-Brie, et celles de Trouisy, de Muscourt et de Marigny. Leur étendue varie peu. La vente de Muscourt, les concessions faites à des monastères sous l’influence de motifs religieux ou à la suite de démêlés avec le couvent de Saint-Maur-des-Fossés sont amplement compensées par des agrandissements de sa seigneurie de Crécy-en-Brie, d’autres achats et les terres que lui apporte sa femme Isabelle ou qui proviennent de la succession de son oncle Jean, comte de Blois, et de son frère Gui.</p>
@@ -81,7 +79,7 @@
           <p>La mort de son gendre Gautier V, et son mariage avec Isabelle de Rumigny lui donnent la jouissance du comté de Brienne et des terres de Rumigny, Aubenton, Beveren, Florennes. Mais elle lui échappe entièrement dès 1324 et ses embarras financiers l’obligent à aliéner plusieurs de ses biens propres.</p>
           <p>Au mois de mai 1323, il règle de son vivant le partage de ses biens qui aura lieu à sa mort, entre ses fils, en assurant une grande part à l’aîné, Gaucher. Celui-ci étant mort en 1325, sa part est assurée à son fils Gaucher.</p>
         </div>
-        <div>
+        <div xml:id="r469397">
           <head rend="uc">III. La place de Gaucher de Chatillon
            <lb/>dans la société féodale</head>
           <p>En dehors de l’exercice de ses droits de suzerain, Gaucher intervient plusieurs fois comme arbitre dans des conflits entre seigneurs laïques et ecclésiastiques.</p>
@@ -91,15 +89,15 @@
           <p>En relations amicales avec ses parents, les comtes de Blois et de Saint-Pol, il entretient aussi des rapports cordiaux avec la famille flamande des Dampierre. Mais troublées par les guerres des comtes de Flandre et des rois capétiens, ses relations furent plus suivies avec les comtes de Hainaut, Jean et’ Guillaume.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r469424">
         <head rend="uc">Deuxième partie
          <lb/>La vie publique</head>
-        <div>
+        <div xml:id="r469432">
           <head rend="uc">I. La place de Gaucher près du roi</head>
           <p>Entré dès l’année 1270 parmi les chevaliers de l’hôtel royal, devenu en 1285 connétable de Champagne, puis à la fin de 1302 connétable de France, il fait partie de l’hôtel de deux fils de Philippe IV le Bel : Louis et Philippe.</p>
           <p>Conseiller très écouté de ses souverains, gratifié par eux de nombreuses pensions, il intervient à partir de 1302 dans toutes les affaires du royaume. Il est chargé de missions à l’étranger, mais surtout de la conduite des guerres contre les grands vassaux et les souverains étrangers. Il assume la répression de révoltes intérieures.</p>
         </div>
-        <div>
+        <div xml:id="r469445">
           <pb source="https://nakala.fr/10.34847/nkl.f01af62h#6ad94aef302a68ffd67e239c7766eff606038c44" n="53" facs="https://api.nakala.fr/iiif/10.34847/nkl.f01af62h/6ad94aef302a68ffd67e239c7766eff606038c44/full/full/0/default.jpg"/>
           <head rend="uc">II. Le rôle de Gaucher dans les guerres du royaume</head>
           <p>A trois reprises, il se rend à Verdun, ville placée sous la protection royale : en 1309, pour réprimer une insurection ; en 1318, pour mettre fin à la lutte entre l’évêque de Verdun et le comte de Bar ; en 1321, pour obliger l’évêque à respecter le gardien royal et les habitants que celui-ci tenait sous sa protection.</p>
@@ -120,7 +118,7 @@
           <p>Puis il assure la possession du comté de Flandre au petit-fils de Robert, Louis, favorable aux rois de France, en s’en portant caution en 1323, en décidant Philippe VI de Valois à le soutenir contre ses sujets révoltés en 1328 et en les combattant à la bataille de Cassel.</p>
           <p>Quelque temps auparavant, il avait pris part à la guerre de Guyenne, en 1321, et avait fait conclure avec le roi d’Angleterre le traité du 31 mars 1325, assurant la réunion d’une partie de l’Aquitaine au domaine royal.</p>
         </div>
-        <div>
+        <div xml:id="r469519">
           <head rend="uc">III. Le rôle de Gaucher
            <lb/>dans la répression des révoltes</head>
           <p>Après avoir aisément triomphé d’une émeute populaire en 1307 à Chalons-sur-Marne, de résistances en Navarre la même année, d’une révolte de Béraud de Mercœur et de l’archevêque de Lyon en 1311, après des négociations avec les grandes ligues des nobles en 1315, il doit s’opposer ensuite à deux mouvements redoutables : l’un, conduit par le duc de Bourgogne, les nobles champenois, le comte de Nevers, en 1317, au nom de la fille de Louis X, Jeanne, qu’ils prétendaient dépouillée du royaume, des comtés de Champagne et de Brie ; l’autre, par les nobles et Robert d’Artois, de 1316 à 1319 contre la comtesse Mahaut.</p>

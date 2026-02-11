@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1863_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1863_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -119,7 +117,7 @@
       <p>Le diocèse d’Autun est d’origine plus ancienne que ces deux diocèses, et, par conséquent, les divisions ecclésiastiques sont moins stables qu’on ne le suppose communément.</p>
       <p>Les archiprêtrés ne sont pas établis sur les vicairies.</p>
       <p>Les comtés n’ont pas les mêmes circonscriptions que les évêchés.</p>
-      <div>
+      <div xml:id="r45357">
         <pb source="https://nakala.fr/10.34847/nkl.f22czf41#a5a4d36d587d63f9faba97e0f8f0647495a95600" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.f22czf41/a5a4d36d587d63f9faba97e0f8f0647495a95600/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion.</head>
         <p>Les divisions territoriales, ecclésiastiques, civiles, basées sur des intérêts différents, répondant à des besoins étrangers les uns aux autres, sont complètement indépendantes entre elles.</p>

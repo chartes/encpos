@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1900_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1900_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,16 +56,16 @@
         <forename>Edmond</forename>
         <surname>Villemsens</surname>
       </byline>
-      <div>
+      <div xml:id="r252744">
         <head rend="uc">Bibliographie. – Introduction</head>
         <p>Caractère et but de cette étude.</p>
         <p>La constitution géologique du sol, et par suite sa division en contrées naturelles, est la base des anciennes circonscriptions historiques.</p>
         <p>Aperçu sommaire sur la situation géographique et politique du Vexin normand ; son intérêt dans l’histoire féodale.</p>
       </div>
-      <div>
+      <div xml:id="r252760">
         <head rend="uc">Première partie
          <lb/>Étude géographique</head>
-        <div>
+        <div xml:id="r252768">
           <head rend="uc">I
            <lb/>état ancien et formation historique du Vexin normand</head>
           <p>Situation de ce territoire dans l’ancienne Gaule. – La cité des « Veliocasses ». – Le <hi rend="i">pagus Velcassinus,</hi> pays neustrien. – Le comté du Vexin.</p>
@@ -77,13 +75,13 @@
           <p>Le traité de Saint-Clair-sur-Epte (911) ; constitution du duché de Normandie. – La frontière de l’Epte. Origine politique du Vexin normand.</p>
           <p>Dénominations du Vexin entier, puis en particulier du Vexin normand ; cette qualification ne se rencontre pas avant le <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r252817">
           <head rend="uc">II
            <lb/>délimitation</head>
           <p>Contradictions et erreurs des textes au sujet de la frontière de l’Epte. L’Epte et l’Andelle, limites purement factices. La Seine, entre le Vexin et le pays de Madrie, constitue une limite à peine plus réelle. Au Nord, au contraire, topographiquement et géologiquement, la division du Lions et du Brai est très apparente.</p>
           <p>Étendue du territoire ainsi délimité, représentée par les divisions modernes.</p>
         </div>
-        <div>
+        <div xml:id="r252832">
           <head rend="uc">III
            <lb/>aspect physique. – Contrées naturelles</head>
           <p>Ce territoire, dans son ensemble, se rattache à la Normandie, exception faite du Vexin bossu (calcaire grossier), qui prolonge le Vexin français sur la rive droite de l’Epte, entre Noyers, Cahaignes, Guitri et Gasni.</p>
@@ -92,10 +90,10 @@
           <p>Description physique du Vexin normand : son état géographique au <num>xii<hi rend="sup">e</hi></num> siècle comparé à l’état actuel (cours d’eau, forets, cultures).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r252865">
         <head rend="uc">Deuxième partie
          <lb/>Histoire féodale</head>
-        <div>
+        <div xml:id="r252873">
           <head rend="uc">Chapitre premier
            <lb/>le régime féodal dans le Vexin normand</head>
           <p>L’établissement des Normands dans cette région est probablement antérieur à 911. Ils y ont fondé peu de nouveaux villages ; preuves et raison de ce fait.</p>
@@ -106,7 +104,7 @@
           <p>Les défrichements : l’agriculture. – Les vignes, cultivées sur les bords de la Seine et de l’Epte inférieure, sur les mêmes points qu’à présent, et en outre à Écos, sont même signalées à Chauvincourt. – Les moulins.</p>
           <p>Le commerce, exercé principalement par les établissements religieux. – Le port d’Andeli et les droits de péage <pb source="https://nakala.fr/10.34847/nkl.493fuf12#6f6343d3539cd6178a39b0577a92cd1d8d09df69" n="156" facs="https://api.nakala.fr/iiif/10.34847/nkl.493fuf12/6f6343d3539cd6178a39b0577a92cd1d8d09df69/full/full/0/default.jpg"/>des archevêques de Rouen. – Les marchés ; diversité des mesures. Le marché de Saint-Clair-sur-Epte établi en faveur de l’abbaye de Saint-Denis.</p>
         </div>
-        <div>
+        <div xml:id="r252914">
           <head rend="uc">Chapitre II
            <lb/>Féodalité ecclésiastique</head>
           <p>L’autorité diocésaine de l’archevêque de Rouen s’exercait sur toutes les églises et possessions ecclésiastiques du Vexin normand, et même sur celles qui étaient la propriété d’établissements religieux situés hors du diocèse.</p>
@@ -115,7 +113,7 @@
           <p>Beaucoup d’abbayes étrangères au Vexin normand y eurent des propriétés. – L’abbaye de Saint-Denis n’eut jamais la propriété intégrale du Vexin, mais elle y posséda, dès l’époque mérovingienne, des domaines considérables, particulièrement dans le Lions et la forêt de Bleu, qu’elle perdit en partie sous la domination anglo-normande. Histoire de son domaine du Château-Neuf au <num>xii<hi rend="sup">e</hi></num> siècle. – L’abbaye de Saint-Ouen de Rouen eut des biens fort importants dans ce pays ; elle dominait principalement, avec le prieuré de Gasni, dans la basse vallée de l’Epte. La forêt de Saint-Ouen.</p>
           <p>Tableau des propriétés ecclésiastiques réparties sur le territoire du Vexin normand. – Leur caractère : morcellement et dispersion des domaines.</p>
         </div>
-        <div>
+        <div xml:id="r252944">
           <pb source="https://nakala.fr/10.34847/nkl.493fuf12#d128d104b7f8ecc0e1ef01dea3a318e451289b5b" n="157" facs="https://api.nakala.fr/iiif/10.34847/nkl.493fuf12/d128d104b7f8ecc0e1ef01dea3a318e451289b5b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Féodalité laïque</head>
@@ -124,11 +122,11 @@
           <p>2. <hi rend="i">La famille de Baudemont.</hi> – Cette famille dominait en deux régions du Vexin ; à Bacqueville et à Baudemont, qui relevèrent de Vernon. Elle tint le domaine du Bus en fief de l’archevêque de Rouen, et rendit souvent l’hommage au roi de France. – Erreur de Le Prévost sur Goël de Baudemont, en qui il a vu deux personnages distincts. – Baudri du Bosc combattit avec Louis VI et soutint la cause de Guillaume Cliton. – Goël de Baudemont fut vassal de Louis VII. – Heudeburge, sa fille, hérita de ses propriétés de Bacqueville et de Baudemont. – Étienne de Longchamp, gendre de Heudeburge, tint en 1196 la terre de Baudemont dans l’hommage à Philippe-Auguste.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r252990">
         <pb source="https://nakala.fr/10.34847/nkl.493fuf12#b4d4fc8285e9d0502ba24c05a2b0a5bc8d0fbffd" n="158" facs="https://api.nakala.fr/iiif/10.34847/nkl.493fuf12/b4d4fc8285e9d0502ba24c05a2b0a5bc8d0fbffd/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Le Vexin normand dans l’histoire générale</head>
-        <div>
+        <div xml:id="r253003">
           <head rend="uc">Chapitre premier
            <lb/>situation politique</head>
           <p>L’existence politique du Vexin normand date du traité de Saint-Clair-sur-Epte. Le démembrement du comté, sans doute effectué avant 911, ne souleva alors aucune difficulté, ni du comte de Vexin ni de l’abbaye de Saint-Denis.</p>
@@ -137,14 +135,14 @@
           <p>Les officiers et fonctionnaires royaux : la garde des châteaux ; les agents de finances. – -La justice rendue, pour de petites causes, par des seigneurs du pays, au nom du roi d’Angleterre.</p>
           <p>Les débuts administratifs de la domination de Philippe-Auguste. Les marches ; leur caractère spécial. Elles préparent la conquête du pays.</p>
         </div>
-        <div>
+        <div xml:id="r253039">
           <pb source="https://nakala.fr/10.34847/nkl.493fuf12#9b20f7f4f9fee23904db8f0f10cd21c072919128" n="159" facs="https://api.nakala.fr/iiif/10.34847/nkl.493fuf12/9b20f7f4f9fee23904db8f0f10cd21c072919128/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’autorité suzeraine en Vexin normand</head>
           <p>La domination du duc de Normandie, depuis 911, s’exerça à peu près constamment sur la presque totalité de ce territoire. Les rois d’Angleterre tinrent les châteaux du Vexin normand dans une étroite dépendance, et supplantèrent l’autorité religieuse là où l’intérêt général le commandait, comme au Château-Neuf. – Mais la suzeraineté directe du roi de France s’étendit sur certaines terres du Vexin normand, notamment sur celles de Baudemont dans le Vexin bossu ; et, à plusieurs reprises (1160, 1196), au cours des longues guerres féodales qui remplissent l’histoire de cette époque, le Vexin normand à peu près entier fut réuni temporairement par le roi de France.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r253057">
         <head rend="uc">Conclusion</head>
         <p>La situation politique du Vexin normand, étroitement uni à la Normandie, mais non point homogène ni entièrement distinct de la région française, est en parfait accord avec sa situation physique, qui en fait un pays de transition, une marche de Normandie.</p>
         <pb source="https://nakala.fr/10.34847/nkl.493fuf12#33adf178ec02b75d4a321c75036868fc63ec1fda" n="160" facs="https://api.nakala.fr/iiif/10.34847/nkl.493fuf12/33adf178ec02b75d4a321c75036868fc63ec1fda/full/full/0/default.jpg"/>

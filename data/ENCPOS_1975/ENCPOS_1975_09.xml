@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,26 +55,26 @@
         <surname>Droguet</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r998696">
         <head rend="uc">Sources</head>
         <p>La presque totalité des sources est conservée aux Archives communales de Marseille : séries BB (délibérations municipales), CC (impôts et comptabilité) et EE (affaires militaires). Des investigations aux Archives départementales des Bouches-du-Rhône (séries B, Cour des Comptes de Provence, et E, Notaires) et à la Bibliothèque nationale (registres de notaires marseillais des nouv. acq. lat., mss. 1341-1350 et 1372) n’ont apporté que peu de renseignements complémentaires.</p>
       </div>
-      <div>
+      <div xml:id="r998706">
         <head rend="uc">Introduction</head>
         <p>Si l’histoire de Marseille au Moyen Âge est déjà bien approfondie, un de ses aspect n’avait été abordé que de façon incidente, les finances municipales : il a paru que Marseille devait avoir sa place dans l’ensemble grandissant des monographies sur les finances urbaines.</p>
         <p>Cette étude repose sur les plus anciens documents comptables : quoique lacunaires et éparpillés sur une durée d’un demi-siècle, ils fournissent, avec les délibérations communales, de précieux renseignements sur un moment capital de l’histoire des institutions marseillaises. Dans la seconde moitié du <num>xiv<hi rend="sup">e</hi></num> siècle, Marseille est une ville modeste qui compte 12 000 habitants environ. Mais cette période de décadence sur le plan commercial est celle du recouvrement de l’autonomie administrative et financière.</p>
       </div>
-      <div>
+      <div xml:id="r998725">
         <pb source="https://nakala.fr/10.34847/nkl.b03e4863#4ccbc282e0aa6e034db1e491079e46126c6f4ae6" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.b03e4863/4ccbc282e0aa6e034db1e491079e46126c6f4ae6/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>L’administration financière
          <lb/>et le système fiscal</head>
-        <div>
+        <div xml:id="r998740">
           <head rend="uc">Chapitre premier
            <lb/>la constitution des finances municipales</head>
           <p>Les Chapitres de Paix de 1257 avaient supprimé l’autonomie financière de Marseille, Charles d’Anjou s’étant réservé pour lui et ses successeurs la totalité des revenus de la seigneurie. En contrepartie, il avait pris à sa charge les obligations qui incombaient jusqu’alors à la ville (paiement des officiers municipaux, frais d’ambassade, et cure du port), mais non pas la totalité des dépenses, et les versements auxquels s’était obligée la cour royale n’étaient pas faits régulièrement. La situation empira à partir du règne de Jeanne I<hi rend="sup">re</hi>. Par ailleurs, Marseille, pour soutenir indéfectiblement cette reine et la seconde maison d’Anjou, dut consentir de gros efforts financiers. Les Marseillais étant exempts de la plupart des impôts indirects perçus dans leur ville et de la taille, il existait un potentiel d’éventuelles impositions qui pouvait être exploité par les autorités municipales, d’autant plus qu’aucun texte n’empêchait les Marseillais de se taxer. Dans la première moitié du <num>xiv<hi rend="sup">e</hi></num> siècle, la cité leva quelques tailles et créa occasionnellement des impôts indirects. L’argent de la communauté était confié à un changeur qui jouait le rôle de banque de dépôt.</p>
         </div>
-        <div>
+        <div xml:id="r998762">
           <head rend="uc">Chapitre II
            <lb/>L’organisation administrative des finances</head>
           <p><hi rend="i">L’autorité en matière de finances : le gouvernement communal.</hi> – Le rôle du viguier étant de plus en plus honorifique, la réalité du pouvoir est entre les mains des trois syndics et des Six de la Guerre (apparus en 1349) qui ont un pouvoir discrétionnaire sur les finances municipales.</p>
@@ -86,7 +84,7 @@
           <p><hi rend="i">La comptabilité.</hi> – Il n’existe pas de compte général des recettes et des dépenses. Par contre, sont conservés des documents qui, pour être d’une interprétation plus difficile, n’en sont que plus intéressants car reflétant mieux la réalité : les cartulaires des syndics et des Six de la Guerre, où sont consignés les engagements de dépenses, et ceux du trésorier où sont notés en détail les paiements. A quoi il faut ajouter des journaux de perception des rêves, qui indiquent les sommes reçues par le trésorier, et des registres d’emprunts ; en outre, deux registres de tailles sont conservés (1360-1361 et 1384-1385).</p>
           <p>Les comptes du trésorier sont examinés par une commission généralement composée de quatre membres élus par le Conseil. Un rapport sur sa gestion est présenté au Conseil qui lui en donne quittance.</p>
         </div>
-        <div>
+        <div xml:id="r998806">
           <head rend="uc">Chapitre III
            <lb/>Le système fiscal</head>
           <p>La presque totalité des revenus de la cité lui est fournie par les impôts qu’elle perçoit, que ceux-ci lui appartiennent en propre ou qu’ils lui soient cédés, de façon pratiquement constante en cette période, par la cour royale.</p>
@@ -98,10 +96,10 @@
           <p>L’émission d’un emprunt forcé est un moyen plus rapide que la taille pour recueillir des fonds importants. Correspondant à une avance sur la rêve du vin, le remboursement en est effectué sur cette rêve. La ville emprunte aussi à des particuliers. Ses créanciers sont les capitalistes marseillais. Un intérêt leur est accordé : il est couramment de 10 ou 15 % l’an. Pour en garantir le remboursement, des rêves leur sont hypothéquées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r998858">
         <head rend="uc">Deuxième partie
          <lb/>Dépenses et revenus de la ville</head>
-        <div>
+        <div xml:id="r998866">
           <head rend="uc">Chapitre premier
            <lb/>les dépenses</head>
           <p><hi rend="i">Les dépenses administratives.</hi> – Il faut rémunérer – outre le trésorier, les syndics et les Six de la Guerre – le personnel administratif : sergents de l’office de la Guerre et de la trésorerie, notaires, médecin et, au début du <num>xv<hi rend="sup">e</hi></num> siècle, maîtres d’école.</p>
@@ -117,7 +115,7 @@
           <p>Bien qu’elle ne fût jamais directement menacée, Marseille eut toujours soin d’entretenir ses fortifications. Le principal souci était la défense de l’entrée du port.</p>
           <p>En vertu de son statut de « Terre adjacente », Marseille refusa toujours officiellement de contribuer aux charges de la Provence, mais l’octroi de dons gracieux était une façon déguisée de prendre part au financement des expéditions montées par Louis II pour la reconquête du royaume de Naples.</p>
         </div>
-        <div>
+        <div xml:id="r998950">
           <pb source="https://nakala.fr/10.34847/nkl.b03e4863#bddb1e149c5da7a7657bf6585c46b03d4838c6db" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.b03e4863/bddb1e149c5da7a7657bf6585c46b03d4838c6db/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les revenus de la ville</head>
@@ -126,7 +124,7 @@
           <p><hi rend="i">La taille.</hi> – On ne leva jamais autant de tailles que durant la guerre de l’Union d’Aix. Le rythme était de deux levées par trimestre. Entre décembre 1384 et mai 1385 la taille produisit 8 000 livres. En certaines périodes, elle rapporterait donc au moins autant que les impôts indirects.</p>
           <p><hi rend="i">Les emprunts.</hi> – Les emprunts forcés furent nombreux dans le même temps. Les avances faites par les riches négociants portaient parfois sur des sommes considérables, tels les 4 000 florins prêtés par G. de Favas en 1390.</p>
         </div>
-        <div>
+        <div xml:id="r998988">
           <head rend="uc">Chapitre III
            <lb/>Esquisse d’un bilan</head>
           <p><hi rend="i">Les dépenses ordinaires.</hi> – En temps normal les débours se réduisent aux dépenses administratives et aux gages des gardes du territoire. Ils peuvent connaître des variations sensibles mais sont toujours effectués par le trésorier de la cité.</p>
@@ -138,12 +136,12 @@
           <p>Cet alourdissement des charges fut difficilement supporté par la masse des contribuables. Par ailleurs, cette période voit l’accaparement définitif des finances municipales par l’oligarchie qui domine la cité : ces riches négociants jouent le rôle de banquiers de la communauté ; en contrepartie, ils contrôlent directement ses sources de revenus. Ils font des finances municipales leur propre affaire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r999033">
         <head rend="uc">Troisième partie
          <lb/>Les rêves, reflet d’une économie
          <lb/>les tailles et les emprunts, reflet d’une société</head>
         <p>Des éléments n’ayant pas directement trait aux finances municipales sont fournis par les documents comptables. Malgré leurs lacunes et leurs imprécisions, ils donnent des renseignements appréciables sur l’économie et la société.</p>
-        <div>
+        <div xml:id="r999046">
           <pb source="https://nakala.fr/10.34847/nkl.b03e4863#17cceeb987a5cfc46da6e597345f4e84dc16548a" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.b03e4863/17cceeb987a5cfc46da6e597345f4e84dc16548a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les rêves, reflet d’une économie</head>
@@ -152,7 +150,7 @@
           <p>Au début du <num>xiv<hi rend="sup">e</hi></num> siècle, l’horizon commercial s’est dégagé. Le tissu des relations avec la Provence se fait plus dense et l’influence de Marseille pénètre plus loin vers l’intérieur, jusqu’en Dauphiné, tandis que les échanges avec la Sardaigne connaissent un renouveau.</p>
           <p>Un des articles d’exportation les plus importants est le poisson, frais et salé.</p>
         </div>
-        <div>
+        <div xml:id="r999090">
           <head rend="uc">Chapitre II
            <lb/>Les tailles et les emprunts : reflet d’une société</head>
           <p><hi rend="i">Répartition des fortunes.</hi> – La fortune est concentrée dans les mains d’un groupe d’une quarantaine de personnes environ. Des marchands tels que J. de Cazals, les Montels, les Favas et les Bonifazi dominent le lot. En dessous de cette aristocratie de l’argent, une classe de gens assez riches, plus nombreuse : ce sont les négociants de moindre envergure, les hommes de loi et les plus fortunés des laboureurs, des gens de mer et des artisans. Vient ensuite la masse de la population que l’on peut diviser en deux parties égales : les classes moyennes et les couches les plus défavorisées.</p>
@@ -162,17 +160,17 @@
           <p><hi rend="i">L’oligarchie marchande et le pouvoir.</hi> – Le mode d’élection aux charges municipales étant, malgré les apparences, la cooptation, celles-ci sont monopolisées par les riches marchands, en particulier par quelques familles, de notoriété récente ou ancienne. Certains négociants semblent plus attirés que d’autres par les fonctions publiques. Au début du <num>xv<hi rend="sup">e</hi></num> siècle, le groupe détenant le pouvoir s’est encore restreint.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r999138">
         <head rend="uc">Conclusion</head>
         <p>Dans la seconde moitié du <num>xiv<hi rend="sup">e</hi></num> siècle, Marseille recouvra, paradoxalement, son autonomie, par le respect des textes qui, un siècle plus tôt, en contenaient la négation. Cela fut rendu possible par la décomposition administrative du royaume angevin. Le poids des guerres, avec leur cortège de conséquences (difficultés de ravitaillement, paralysie de l’activité industrielle et commerciale), fut particulièrement lourd pour les finances de la ville. Les revenus ordinaires ne suffirent pas ; il fallut multiplier tailles et emprunts.</p>
         <p>L’équilibre ne fut rétabli qu’au début du <num>xv<hi rend="sup">e</hi></num> siècle. Encore était-il précaire. Marseille était alors une ville affaiblie, dominée par une oligarchie marchande qui avait profité des difficultés financières de la cité pour asseoir définitivement son pouvoir.</p>
       </div>
-      <div>
+      <div xml:id="r999163">
         <pb source="https://nakala.fr/10.34847/nkl.b03e4863#1f474128275a86c202e0f68b5f376aceea77d713" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.b03e4863/1f474128275a86c202e0f68b5f376aceea77d713/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Recueil de textes et listes des trésoriers, des emprunts et des assignations des droits royaux à la ville.</p>
       </div>
-      <div>
+      <div xml:id="r999178">
         <head rend="uc">Annexes</head>
         <p>Tableaux : engagement et paiement des dépenses ; rapport des tailles et des rêves. – Cartes et graphiques : ventes de vin et de poisson. – Planches.</p>
       </div>

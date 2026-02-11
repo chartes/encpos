@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,14 +55,14 @@
         <surname>Grimault</surname>
         <roleName>Licencié ès sciences, licencié ès lettres (Histoire), Diplôme d’études supérieures des langues classiques, Bibliothécaire adjoint à la Bibliothèque municipale de Nantes</roleName>
       </byline>
-      <div>
+      <div xml:id="r392208">
         <head rend="uc">Chapitre premier
          <lb/>choix du sujet. But et plan du travail</head>
         <p>Les manuscrits du poème sont cités dans l’<hi rend="i">Histoire littéraire de la France.</hi> But : contribution à l’étude des dialectes du Nord. Délimitation du sujet : le « Dit du Cerf blanc » (manuscrit de l’Arsenal) n’est pas envisagé.</p>
         <p>Plan. Dénomination des manuscrits : 25.566 appelé A ; 378 appelé <hi rend="i">B.</hi> Choix du titre.</p>
         <p>Transcription : adoption de « j », « v », « vu » pour « w » des scribes, de l’accent aigu, des signes de ponctuation.</p>
       </div>
-      <div>
+      <div xml:id="r392234">
         <head rend="uc">Chapitre II
          <lb/>Analyse du poème. Étude des allégories</head>
         <p>Peu de différences entre les deux manuscrits.</p>
@@ -72,13 +70,13 @@
         <p>Étude des allégories. Le cerf représente la dame. <pb source="https://nakala.fr/10.34847/nkl.fc76ty30#1d6259fa7170ca374546a29d029f4203894d5c96" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc76ty30/1d6259fa7170ca374546a29d029f4203894d5c96/full/full/0/default.jpg"/>Pourquoi c’est un cerf et non une biche. Andouillers représentant les qualités de la dame. Chiens représentant les moyens qu’emploie l’Amour pour conquérir la dame. Amour représentant le chasseur.</p>
         <p>Allégories complètement différentes de celles des bestiaires.</p>
       </div>
-      <div>
+      <div xml:id="r392260">
         <head rend="uc">Chapitre III
          <lb/>Description des manuscrits</head>
         <p>Description matérielle des manuscrits. Enluminures. Armoiries du manuscrit <hi rend="i">A,</hi> dont celles de Flandre. Ecriture de la 2<hi rend="sup">e</hi> moitié du <num>xiii<hi rend="sup">e</hi></num> siècle de différents scribes. Abréviations.</p>
         <p>Composition des manuscrits. <hi rend="i">A</hi> est un recueil de poètes du Nord, du <num>xiii<hi rend="sup">e</hi></num> siècle. Pièces signées ; pièces anonymes. <hi rend="i">B</hi> est un recueil de poèmes d’origines diverses. Les pièces anonymes communes aux deux manuscrits semblent être d’origine picarde. Liste de ces pièces.</p>
       </div>
-      <div>
+      <div xml:id="r392303">
         <head rend="uc">Chapitre IV
          <lb/>Phonétique</head>
         <p>Plan : étude comparative et simultanée du produit de chaque lettre latine dans les deux manuscrits.</p>
@@ -110,7 +108,7 @@
         <p>R. Reste partout.</p>
         <p>Nasales. M et N. Restent. Mouillement picard de « n » dans « ni » ou « ne » en « ngn » : « tiengne, reviengne » ; et en « ng » à la finale.</p>
       </div>
-      <div>
+      <div xml:id="r392483">
         <head rend="uc">Chapitre V
          <lb/>Morphologie</head>
         <p>Article. Au féminin, « li » et « le » dans <hi rend="i">A.</hi> « u, ou » pour « au ».</p>
@@ -132,7 +130,7 @@
         <p>Conditionnel. Type en « oit ».</p>
         <p>Participe passé. Réduction « iée-ie » dans les deux textes : « bleciée-blecie ». Double formation « esmeü », « esmu ».</p>
       </div>
-      <div>
+      <div xml:id="r392582">
         <head rend="uc">Chapitre VI
          <lb/>Syntaxe et vocabulaire</head>
         <p>Ellipse. Ellipse de l’article devant les noms de personnages allégoriques. Ellipse du « de » partitif, du déterminatif. du sujet.</p>
@@ -144,14 +142,14 @@
         <p>Rejet de proposition subordonnée explicative loin de son antécédent.</p>
         <p>Emploi du complément direct pour l’indirect. « Pour désir faire secours » au lieu de « pour à... ».</p>
         <p>Changement de préposition. Emplois de « à » pour « de ».</p>
-        <div>
+        <div xml:id="r392617">
           <head rend="uc">Vocabulaire</head>
           <p>Infinitifs pris substantivement.</p>
           <p>Doublets. « pensers-pensée », « desirs-desirriers », « amant-ami », « aïe-aïve ».</p>
           <p>Personnifications. Fréquentes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r392634">
         <pb source="https://nakala.fr/10.34847/nkl.fc76ty30#4f45ec5955a3820a8b89600cab614d4ef9591794" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc76ty30/4f45ec5955a3820a8b89600cab614d4ef9591794/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre VII
          <lb/>Versification</head>
@@ -163,7 +161,7 @@
         <p>Structure intérieure du vers. Cas d’enjambement.</p>
         <p>Tableau des rimes.</p>
       </div>
-      <div>
+      <div xml:id="r392687">
         <head rend="uc">Chapitre VIII
          <lb/>Dialectes. Recherche du texte original</head>
         <p>Dialecte de <hi rend="i">A.</hi> Appartient au domaine de « c » dur devant « a ». Pas normand : <hi rend="i">« ē »</hi> diphtongué en « oi », <hi rend="i">« ŏl »</hi> plus consonne donne « au », <hi rend="i">« ĕ »</hi> entravé passe à « ie » ; mouillement « ngn » ; réduction « ieu-iu » ; « le » féminin, « veïr », « chou ». Caractères non picards : « w » germain devenu « g », <hi rend="i">« ĕ</hi> » entravé resté « e », « la ». Doit être du sud de la Picardie.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1877_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1877_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,16 +56,16 @@
         <forename>Jules</forename>
         <surname>Delahaye</surname>
       </byline>
-      <div>
+      <div xml:id="r91118">
         <head rend="uc">Chapitre I
          <lb/>Abus.</head>
         <p>L’inféodation des Biens ecclésiastiques est l’origine de tous les abus du clergé au <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         <p>L’étude détaillée de ces abus prouve la proposition précédente.</p>
       </div>
-      <div>
+      <div xml:id="r91139">
         <head rend="uc">Chapitre II
          <lb/>Réforme.</head>
-        <div>
+        <div xml:id="r91147">
           <head rend="uc">
             <hi rend="i">Moyens généraux de la réforme.</hi>
           </head>
@@ -75,7 +73,7 @@
           <p>Effets des peines canoniques.</p>
           <p>L’Eglise isole les prêtres simoniaques ou mariés, en défendant aux fidèles de recourir à leur ministère.</p>
         </div>
-        <div>
+        <div xml:id="r91167">
           <pb source="https://nakala.fr/10.34847/nkl.d58766u2#27759dbbfa70e422af837a9327d2dce22c5ab522" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.d58766u2/27759dbbfa70e422af837a9327d2dce22c5ab522/full/full/0/default.jpg"/>
           <head rend="uc">
             <hi rend="i">Plan de la réforme.</hi>
@@ -88,7 +86,7 @@
           <p>Résistances rencontrées par les Réformateurs ; énergie de ceux-ci : Robert d’Arbrissel, S. Bruno, S. Gautier, Hugues, archevêque de Lyon, Bernard de Tyron, etc., etc.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r91208">
         <head rend="uc">Chapitre III.
          <lb/>Opinions et polémiques.</head>
         <p>La Réforme détermine, dans le clergé, divers courants d’opinions, suscite diverses polémiques, sur les questions suivantes :</p>

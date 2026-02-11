@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1976_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1976_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,21 +56,21 @@
         <surname>Leniaud</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1016788">
         <head rend="uc">Sources</head>
         <p>En raison des divers registres d’activité de Lassus, le matériel documentaire est vaste et varié. Les sources peuvent être classées en deux catégories, les œuvres et les écrits. Dans la première, il s’agit de monuments, d’objets mobiliers et de dessins ; dans la seconde, d’archives et de correspondances. Cette documentation est dispersée et lacunaire.</p>
         <p>Elle est dispersée en raison de la multiplicité des administrations intéressées à la restauration ou à la construction d’un édifice religieux : administrations centrales (Direction des cultes, Monuments historiques, Maison de l’empereur), départementales (séries O et V), municipales (Aurillac, Le Mans et Nantes), et ecclésiastiques (diocésaines et paroissiales). Quant aux archives privées de Lassus, elles subsistent sous la forme d’un véritable « fonds Lassus » dans le fonds Allard du Cholet à la Bibliothèque nationale (n. a. fr. 23986-24035).</p>
         <p>La documentation est également lacunaire : parmi les œuvres d’art, les pièces de mobilier et les dessins ont presque tous disparu ; de nombreux édifices ont été détruits (l’hôtel Soltykoff, le couvent des Oiseaux, rue de Sèvres à Paris, le couvent de Saint-Maur à Montluçon). Le travail ne peut donc se présenter, dans l’état actuel de la recherche, comme un catalogue de l’œuvre de Lassus ; c’est, en conséquence, une étude plus générale de l’ensemble de ses réalisations.</p>
       </div>
-      <div>
+      <div xml:id="r1016804">
         <pb source="https://nakala.fr/10.34847/nkl.625ck067#0203835c2c1239da5b486966261215e980d95a3f" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.625ck067/0203835c2c1239da5b486966261215e980d95a3f/full/full/0/default.jpg"/>
         <head rend="uc">Introduction</head>
         <p>Bien qu’éclipsé après sa mort par son cadet Viollet-le-Duc, Lassus fut reconnu de son vivant comme l’un des chefs de file du mouvement néo-gothique. L’étude de son activité d’archéologue et d’architecte restaurateur et créateur, non point démesurée, mais variée, et à divers titres typique, permet d’aborder un point capital de l’histoire de l’art au <num>xix<hi rend="sup">e</hi></num> siècle, le retour du Moyen Âge dans l’architecture. Ceci pose une triple série de problèmes : la place de Lassus dans le monde érudit des années 1830-1860, la valeur à accorder à ses méthodes et à ses restaurations, enfin les sources d’inspiration de ses œuvres et leur adaptation aux exigences administratives et religieuses. Bref, au-delà d’une simple donnée d’histoire de l’architecture, se pose tout un système de questions d’histoire intellectuelle, administrative et religieuse.</p>
       </div>
-      <div>
+      <div xml:id="r1016825">
         <head rend="uc">Première partie
          <lb/>L’homme et l’archéologue</head>
-        <div>
+        <div xml:id="r1016833">
           <head rend="uc">Chapitre premier
            <lb/>la critique de l’école des beaux-arts</head>
           <p><hi rend="i">L’homme.</hi> – Les origines sociales de Lassus sont modestes : fils d’un « marchand-chandelier », il naquit le 19 mars 1807 à Paris. On ne sait pas grand-chose de sa jeunesse ; il se maria en 1834 et jouit jusqu’à sa mort, en 1857, d’une médiocre fortune, si l’on en croit les nombreux emprunts qu’il contracta et son inventaire après décès. Cette condition contraste avec l’entourage brillant qui fut le sien et celui de son gendre, Lambert-Lassus, avocat à Versailles : on y relève Delacroix, Gounod, Maréchal, A. Dauvergne, Douët d’Arcq, Petit de Juileville, Darcel, Didron, Guilhermy... Toutefois, il ne paraît pas avoir réellement profité d’appuis politiques.</p>
@@ -85,7 +83,7 @@
           <p>Lassus resta en excellents termes avec son maître, et lui dédia son édition de l’<hi rend="i">Album de Villard de Honnecourt.</hi> Il reprit au profit du gothique ses théories sur le climat, l’échelle humaine et l’adéquation de la structure à la décoration. De son côté, Labrouste voyait en lui un parfait disciple mais, peu versé dans l’art médiéval, il refusa de prendre la succession des chantiers de Belleville et de Moulins.</p>
           <p>Faute de sources, il est très difficile de reconstituer les débuts de Lassus, tant son opposition à l’enseignement de l’École que son passage chez Labrouste. Toutefois, il apprit dans la première que le fondement de l’architecture était l’archéologie, et auprès du second que l’architecture était avant tout l’art de bâtir ; rejetant la tradition antique, il en trouvait une autre pour asseoir sa recherche : ce fut la tradition médiévale.</p>
         </div>
-        <div>
+        <div xml:id="r1016900">
           <head rend="uc">Chapitre II
            <lb/>A la recherche d’une nouvelle culture, l’art médiéval</head>
           <p><hi rend="i">Comment Lassus a pris goût au Moyen Âge.</hi> – C’est vers 1835 que Lassus se prit de passion pour le Moyen Âge. Chateaubriand, Hugo, Montalembert avaient déjà révélé au public les beautés du patrimoine médiéval ; Duban disposait dans la cour des Beaux-arts les débris du musée des Monuments français ; Arcisse de Caumont créait la Société française d’archéologie qui regroupait les multiples efforts provinciaux.</p>
@@ -98,7 +96,7 @@
           <p>Une autre partie se donne <hi rend="i">ad probandum :</hi> définissant le gothique comme le système de quatre nervures saillantes épaulées par quatre arcs-boutants, il démontra, contre Quatremère de Quincy, la logique de cet art et en affirma également l’origine française. Enfin, il vit dans la Renaissance et l’invasion du paganisme le commencement de la décadence.</p>
           <p>Une troisième partie se veut <hi rend="i">ad utendum :</hi> il publia dans les <hi rend="i">Annales </hi>des dessins médiévaux d’architecture qui lui servirent à Saint-Nicolas de Nantes ; les stalles de la cathédrale de Poitiers, qu’il avait également publiées, furent très tôt reproduites ; ses travaux sur l’ancien autel de la cathédrale d’Arras lui servirent pour un décor de cérémonie en 1849 à la Sainte-Chapelle.</p>
         </div>
-        <div>
+        <div xml:id="r1016975">
           <pb source="https://nakala.fr/10.34847/nkl.625ck067#77afe94da3ebbd718dd505a3a5acc7459690576a" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.625ck067/77afe94da3ebbd718dd505a3a5acc7459690576a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les débuts</head>
@@ -106,10 +104,10 @@
           <p><hi rend="i">Les premiers travaux.</hi> – Les premières réalisations de Lassus restent noyées dans la même brume que ses débuts. Elles confirment l’idée que s’il était novateur, il ne méconnaissait pas l’académisme. Il faisait paraître au Salon le palais des Tuileries en 1833, la restauration de la Sainte-Chapelle en 1835, le réfectoire de Saint-Martin-des-Champs en 1836. En même temps, il présenta un projet néo-classique pour le concours du tombeau de l’Empereur et réalisa en collaboration avec Préault et Pyanet le tombeau de l’abbé de l’Épée à Saint-Roch. Pour lui, architecte avant tout, l’archéologie n’était pas une simple spéculation, mais, comme l’entendait Didron, débouchait sur la pratique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1017002">
         <head rend="uc">Deuxième partie
          <lb/>L’architecte restaurateur</head>
-        <div>
+        <div xml:id="r1017010">
           <head rend="uc">Chapitre premier
            <lb/>la carrière</head>
           <p><hi rend="i">Les débuts.</hi> – Au début de la carrière de Lassus, la conservation des monuments n’était pas centralisée. Commandés par la ville de Paris et par la Fabrique dont Lassus fut l’architecte à partir de 1843, les travaux de restauration à Saint-Germain-l’Auxerrois furent contrôlés par le Comité et le Conseil des bâtiments civils. Exécutés sous la direction de Godde, ils furent parfois combattus, mais tout le mérite en revint à Lassus qui était premier inspecteur. <pb source="https://nakala.fr/10.34847/nkl.625ck067#d0627cadba80ba75e017591ac9a34be6669649fd" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.625ck067/d0627cadba80ba75e017591ac9a34be6669649fd/full/full/0/default.jpg"/>L’édifice fut considéré comme l’un des mieux restaurés de la capitale. Également, avec les crédits de la ville, Lassus restaura Saint-Séverin en collaboration avec Gréterin. Il y transporta le porche de Saint-Pierre-aux-Bœufs avant la destruction de cet édifice qu’il dessinait depuis 1837, à la demande de Rambuteau.</p>
@@ -120,7 +118,7 @@
           <p><hi rend="i">La constitution du service des édifices diocésains.</hi> – Relevant de la Direction des cultes dont il formait le deuxième bureau de la seconde division, le service fut constitué en mars 1848. Des crédits extraordinaires s’ajoutaient à un budget de deux ou trois millions de francs. Les devis et projets des architectes des trente-cinq conservations diocésaines étaient soumis à l’approbation d’un comité de trois inspecteurs généraux créé en 1853. Cette politique de centralisation administrative, aboutissant à la constitution d’un corps d’architectes capables, n’alla pas sans protestations provinciales.</p>
           <p>Lassus fut architecte de la troisième conservation, c’est-à-dire des cathédrales de Chartres et du Mans. Il fut également chargé des travaux d’agrandissement de la cathédrale de Moulins, et poursuivit avec Viollet-le-Duc la restauration de Notre-Dame. Il effectua en outre, en 1848-1849, l’inspection de la cathédrale de Nantes où les travaux effectués par Seheult étaient contestés par l’Administration des cultes.</p>
         </div>
-        <div>
+        <div xml:id="r1017054">
           <pb source="https://nakala.fr/10.34847/nkl.625ck067#51572ff83deac2124601d2be646625d9ddabe0d5" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.625ck067/51572ff83deac2124601d2be646625d9ddabe0d5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les travaux de restauration</head>
@@ -136,7 +134,7 @@
           <p><hi rend="i">Les restaurations d’édifices postmédiévaux.</hi> – Les travaux que l’architecte accomplit aux séminaires de Chartres et du Mans ont toujours été exécutés ou prévus en accord avec le style de ces édifices. En revanche, contrairement à ce qu’il avait énoncé dans son rapport sur la restauration de Notre-Dame, il n’hésita pas à s’attaquer aux modifications du <num>xviii<hi rend="sup">e</hi></num> siècle dans les chœurs gothiques à Chartres, au Mans ; il avait également envisagé de le faire à Saint-Germain-l’Auxerrois.</p>
           <p>Si son action peut être sujette à controverses, Lassus eut au moins le mérite d’être l’un des premiers à poser des principes sains en matière de restauration.</p>
         </div>
-        <div>
+        <div xml:id="r1017133">
           <head rend="uc">Chapitre III
            <lb/>La manière de restaurer</head>
           <p><hi rend="i">Les techniques.</hi> – Lassus faisait précéder chaque restauration de recherches historiques dans les ouvrages des auteurs du <num>xviii<hi rend="sup">e</hi></num> siècle, dans les archives et dans diverses collections iconographiques ; il profita également de conseils <pb source="https://nakala.fr/10.34847/nkl.625ck067#6d2024961a7aa5c6b39076760f195cb20bff1908" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.625ck067/6d2024961a7aa5c6b39076760f195cb20bff1908/full/full/0/default.jpg"/>d’érudits comme Gilbert. La préparation de ses projets lui donna l’occasion d’une importante innovation, l’utilisation des daguerréotypes.</p>
@@ -146,10 +144,10 @@
           <p>Lassus inaugurait ainsi des manières de restaurer les édifices dont certaines furent reprises par Viollet-le-Duc.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1017181">
         <head rend="uc">Troisième partie
          <lb/>L’architecte créateur</head>
-        <div>
+        <div xml:id="r1017189">
           <head rend="uc">Chapitre premier
            <lb/>le néo-gothique, réponse à la crise de l’architecture religieuse</head>
           <p><hi rend="i">Le gothique, art religieux par excellence.</hi> – La crise de l’académisme, la redécouverte du Moyen Âge, et la nécessité de construire des églises devaient donner à Lassus l’occasion d’exprimer sa passion pour le gothique en concevant entièrement des édifices nouveaux.</p>
@@ -162,7 +160,7 @@
           <p><hi rend="i">Le gothique, réponse à un problème architectural.</hi> – Bien que dispersée dans divers écrits, la pensée de Lassus exprime une théorie parfaitement cohérente de l’architecture. Contre Quatremère de Quincy, pour qui le gothique manquait d’ordre et était le fruit du hasard, Lassus expose que cet art obéit à des règles de proportion et de décoration originales. Contre l’éclectisme qui caractérise des constructions comme la Madeleine et Sainte-Geneviève, dont l’apparence ne répond pas à la structure gothique, il expose la théorie de l’« unité de style » : plutôt que de combiner des éléments puisés aux arts de différentes époques, il faut choisir celui qui paraît le plus convenable. Il ne s’agit pas de copier des formes déjà inventées, mais de répondre à des besoins nouveaux, dans l’esprit des artistes médiévaux.</p>
           <p>Ainsi l’archéologue Lassus avait montré que le gothique était un art rationnel, français d’origine et adapté au climat, le catholique que c’était l’art religieux par excellence, le théoricien en faisait la réponse idéale à la crise de l’architecture.</p>
         </div>
-        <div>
+        <div xml:id="r1017248">
           <pb source="https://nakala.fr/10.34847/nkl.625ck067#2a9eda24b2a65dd447c13b7bd569631f2766bf43" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.625ck067/2a9eda24b2a65dd447c13b7bd569631f2766bf43/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Lassus bâtisseur d’églises</head>
@@ -175,7 +173,7 @@
           <p><hi rend="i">L’ameublement.</hi> – Bien que décimé par les destructions et les pertes récentes, le mobilier de Lassus révèle le goût de l’architecte pour tous les arts décoratifs, menuiserie (chaires, confessionnaux, stalles, lambris), serrurerie <pb source="https://nakala.fr/10.34847/nkl.625ck067#6eb86c30e5c2237d692d600ce72927a8846de40f" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.625ck067/6eb86c30e5c2237d692d600ce72927a8846de40f/full/full/0/default.jpg"/>(pentures), orfèvrerie (chandeliers, reliquaires – la châsse de sainte Radegonde par exemple), vêtements liturgiques (ornements pontificaux de Mgr de Dreux-Brézé), autels, art du vitrail.</p>
           <p>Son intérêt pour les divers éléments du mobilier décoratif l’amena aussi à les regrouper. Il réalisa ainsi, entièrement en gothique flamboyant, la chapelle de la Vierge à Saint-Germain-l’Auxerrois, seul témoin de l’unité de style. Il avait également projeté de faire dans le même esprit, mais en gothique du <num>xiii<hi rend="sup">e</hi></num> siècle, le mobilier de Notre-Dame-de-la-Treille à Lille.</p>
         </div>
-        <div>
+        <div xml:id="r1017312">
           <head rend="uc">Chapitre III
            <lb/>Les autres activités architecturales de Lassus</head>
           <p><hi rend="i">Les constructions civiles.</hi> – Lassus fut nommé membre du Conseil des bâtiments civils en février 1856. Il se comporta en défenseur des édifices anciens comme le château de Loches ou le cloître des Billettes à Paris, mais également en architecte attentif aux exigences fonctionnelles et sanitaires. Son rôle consistait principalement à examiner des projets de maisons d’arrêt, d’écoles, de logements ouvriers et d’églises.</p>
@@ -187,11 +185,11 @@
           <p>En même temps, l’architecte exposait divers dessins et aquarelles : la châsse de sainte Radegonde, le réfectoire de Saint-Martin-des-Champs et cinq études sur Saint-Aignan, pour lesquels il fut médiocrement récompensé.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1017389">
         <head rend="uc">Conclusion</head>
         <p>Lassus fut célèbre de son vivant : de son atelier sortirent des architectes notoires comme Boeswillwald ou Darcy. Personne ne contesta son rôle de pionnier tant dans la renaissance des arts décoratifs que dans le renouveau de l’archéologie. Dans le domaine de l’érudition, son nom reste attaché à la publication de l’<hi rend="i">Album de Villard de Honnecourt</hi> et à son article sur l’ogive. Restaurateur, il passait pour un modèle de science et de scrupule et fait figure de pionnier dans le domaine des techniques. Son rôle de créateur a paru plus négligeable : il est mort trop tôt pour avoir pu imaginer une architecture métallique ou en béton armé. Pourtant, cette dernière est issue d’une conception « fonctionnaliste » du gothique qui était la sienne. Trop érudit, peut-être, trop appliqué sans doute à la recherche d’un art idéal du <num>xiii<hi rend="sup">e</hi></num> siècle pour être vraiment créateur, il a su néanmoins doter ses édifices d’une poésie qui manque à bien des constructions du <num>xix<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1017415">
         <head rend="uc">Pièces justificatives</head>
         <p>Lettres de Lassus à Darcel, au chanoine Lottin, à l’évêque de Moulins, à l’évêque de Poitiers, à George Sand, à Viollet-le-Duc, à la Fabrique de Saint-Germain-l’Auxerrois, au ministre de l’Instruction publique. – Lettres à Lassus de Didron, Guilhermy, l’évêque de Poitiers. – Procès-verbaux, notes et rapports divers. – Concours de Notre-Dame-de-la-Treille, projet de Lassus : <hi rend="i">L’éclectisme est la plaie de l’art.</hi></p>
       </div>

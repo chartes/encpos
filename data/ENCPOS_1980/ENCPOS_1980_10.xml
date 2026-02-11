@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <surname>Grivel</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1060743">
         <head rend="uc">Avant-propos</head>
         <p>Jusqu’à maintenant, l’histoire de la gravure est surtout l’histoire des graveurs. Quelques rares articles et les notices de l’<hi rend="i">Inventaire du fonds français. Graveurs du <num>xvii<hi rend="sup">e</hi></num> siècle</hi> laissaient supposer que la véritable histoire de la gravure au <num>xvii<hi rend="sup">e</hi></num> siècle ne peut se faire sans l’étude approfondie du milieu où naît l’estampe : graveurs, mais aussi éditeurs, marchands et clients.</p>
       </div>
-      <div>
+      <div xml:id="r1060769">
         <head rend="uc">Sources</head>
         <p>Aux Archives nationales, les séries L (L 570-571, LL 923-929) et S (en particulier, S 51, 52A et 52B), la sous-série Q<hi rend="sup">1</hi> (surtout Q<hi rend="sup">1</hi> 1099<hi rend="sup">5</hi>) nous ont fourni de précieuses indications pour la localisation de nos marchands. La sous-série 0<hi rend="sup">1 </hi>nous a donné des renseignements sur les arrêts concernant la gravure, le Cabinet du roi, mais aussi la carrière des graveurs du <num>xvii<hi rend="sup">e</hi></num> siècle (0<hi rend="sup">1</hi> 1049,1050, 1051, 1907A et 1964 essentiellement).</p>
         <p>Pour approfondir la connaissance du milieu social, nous avons complété ces dépouillements par des recherches au Minutier central des notaires parisiens aux Archives nationales (études XI, XVI, XLIII, XLIX, Cil et CIX principalement), aux Archives de Paris et au Cabinet des manuscrits de la Bibliothèque nationale (Fichier Laborde).</p>
         <p>Les collections Delamare et Anisson-Duperron, les Archives syndicales de la librairie, conservées au Cabinet des manuscrits, nous ont permis d’étudier la législation du commerce de l’estampe. Nous avons, enfin, complété la lecture de l’<hi rend="i">Inventaire du fonds français</hi> du Département des estampes de la Bibliothèque nationale par le dépouillement des recueils d’estampes des principaux graveurs français compris dans l’ordre alphabétique entre la lettre L et la lettre Z, et par celui des collections Hennin et de l’Histoire de France.</p>
       </div>
-      <div>
+      <div xml:id="r1060815">
         <pb source="https://nakala.fr/10.34847/nkl.e77c51mz#4205effedde0dc90d4774caa4ab69f20be862bef" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.e77c51mz/4205effedde0dc90d4774caa4ab69f20be862bef/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La fabrication et la vente de l’estampe</head>
-        <div>
+        <div xml:id="r1060828">
           <head rend="uc">Chapitre premier
            <lb/>le monde de la gravure à Paris au <num>xvii<hi rend="sup">e</hi></num> siècle : étude de structure</head>
           <p>La fabrication et la vente d’une estampe nécessitent l’intervention de plusieurs participants : l’inventeur du sujet, l’éditeur, le graveur, l’imprimeur en taille-douce et le marchand. On peut y ajouter l’enlumineur en taille-douce, dont l’apport reste facultatif.</p>
@@ -84,7 +82,7 @@
           <p><hi rend="i">Le marchand d’estampes.</hi> – Il est extrêmement difficile de faire une typologie des marchands d’estampes parisiens. Un premier groupe est constitué par les graveurs qui vendent leurs propres œuvres. Ils peuvent par la suite se charger de vendre la production de parents ou d’amis, évolution qui entraîne souvent l’abandon du métier de graveur et la spécialisation dans le commerce.</p>
           <p>Sont également vendeurs d’estampes l’éditeur, l’imprimeur et l’enlumineur. Petit à petit apparaît une catégorie de marchands spécialisés qui sont des commerçants et non plus des artistes. Certains sont aussi papetiers, orfèvres, merciers, et surtout libraires : le plus bel exemple en est donné par la dynastie des Langlois. Aux grossistes s’opposent les détaillants qui se contentent de revendre la production éditée par d’autres, en prenant leur bénéfice. La vente se fait en magasin ou en appartement ; elle peut aussi se faire en plein air, sur des tréteaux. Elle a enfin un caractère itinérant et temporaire lorsqu’elle est assurée par les colporteurs.</p>
         </div>
-        <div>
+        <div xml:id="r1060920">
           <head rend="uc">Chapitre II
            <lb/>Le monde de la gravure à Paris au <num>xvii<hi rend="sup">e</hi></num> siècle : étude dynamique</head>
           <p><hi rend="i">L’évolution artistique.</hi> – Les guerres de Religion ont accéléré le processus de déclin d’un art dont les progrès sont devenus insensibles. Elles ont permis, pourtant, le développement de l’école des graveurs sur bois de la rue Montorgueil. Le retour de la paix, avec la disparition des bois gravés pour la Ligue, laisse comme seul genre le portrait. L’arrivée, dans les années 1575-1585, de nombreux graveurs flamands revivifie l’estampe française : le burin flamand remplace le bois français, apporte précision et virtuosité. L’utilisation par Jacques Callot, en 1617, du vernis dur transforme technique et esthétique : la gravure s’affirme comme art à part entière, et le commerce de l’estampe y gagne ses lettres de noblesse.</p>
@@ -94,7 +92,7 @@
           <p><hi rend="i">Les éditeurs et marchands d’estampes parisiens : étude socio-économique. </hi>– Le montant de la fortune des marchands d’estampes est variable. De même sa composition. Rares sont ceux qui possèdent des terres ou des immeubles de rapport. Certains ont des rentes foncières, ou des rentes sur l’Hôtel de Ville, les tailles, les aides et gabelles. Le matériel de vente et l’outillage ne représentent qu’un capital de médiocre valeur. L’essentiel reste le fonds de planches gravées et d’estampes. Les marchands d’estampes sont originaires pour plus d’un tiers du monde de l’estampe, 12 % sont d’un milieu commerçant, et 10 % du monde de l’artisanat.</p>
           <p>Leurs femmes sont pour 26 % filles de graveurs ou marchands d’estampes, pour 16 % filles de libraires, pour 16 % filles de marchands, pour 10 % filles d’artisans. Le mariage avec une veuve est très fréquent. L’apport dotal est le plus souvent compris entre 1 000 et 2 000 livres tournois. Le groupe des marchands d’estampes conserve, par-delà les différences de niveau social et de conditions de vie, une grande cohésion au niveau des relations sociales.</p>
         </div>
-        <div>
+        <div xml:id="r1060979">
           <head rend="uc">Chapitre III
            <lb/>La législation régissant le commerce de l’estampe</head>
           <p><hi rend="i">D’Henri IV à Louis XIV : une législation confuse.</hi> – Les marchands d’estampes sont régis par la justice consulaire pour toutes les contestations d’ordre commercial. Mais celle-ci ne saurait régir les graveurs ou la gravure elle-même, qui, diffusée à de multiples exemplaires et susceptible d’une action sur le grand public, nécessite une surveillance constante.</p>
@@ -104,17 +102,17 @@
           <p>Il convient d’étudier à part les imprimeurs en taille-douce, qui sont constitués en communauté de métier en février 1677, puis à nouveau le 27 février 1692.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1061028">
         <head rend="uc">Deuxième partie
          <lb/>Étude de la production</head>
-        <div>
+        <div xml:id="r1061036">
           <head rend="uc">Chapitre premier
            <lb/>étude statistique des thèmes de la gravure au <num>xvii<hi rend="sup">e</hi></num> siècle</head>
           <p>Nous avons fondé notre étude sur le dépouillement des gravures volantes du Cabinet des estampes de la Bibliothèque nationale.</p>
           <p>Nous avons utilisé les méthodes statistiques pour étudier la production française d’estampes du <num>xvii<hi rend="sup">e</hi></num> siècle. Notre population de base est constituée de <pb source="https://nakala.fr/10.34847/nkl.e77c51mz#a8ab211c7bdb09030360294ac10714211ca4c1dc" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.e77c51mz/a8ab211c7bdb09030360294ac10714211ca4c1dc/full/full/0/default.jpg"/> l’ensemble de la production du <num>xvii<hi rend="sup">e</hi></num> siècle français, conservée au Cabinet des estampes, à l’exclusion des gravures d’illustration et de l’œuvre des graveurs quantitativement trop faible. Notre sondage probabiliste nous a donné les résultats suivants : la gravure religieuse vient en tête avec 29,01 % du total de la production. Puis viennent la gravure de portrait (20,3 %), la topographie et l’architecture (9,04 %), la gravure de décoration (8,1 %), la gravure d’allégorie (6,2 %), les représentations des comportements humains (5,4 %)... tous ces genres constituent un fonds documentaire qui vient s’ajouter <hi rend="i">à</hi> l’imagerie religieuse, si représentative de la spiritualité post-tridentine.</p>
           <p><hi rend="i">La production, française face aux courants artistiques européens.</hi> – Le <num>xvii<hi rend="sup">e</hi></num> siècle a été marqué par deux influences étrangères fondamentales pour son évolution : l’influence flamande et l’influence italienne, qui ont coexisté tout au long du siècle. L’estampe reflète les grands courants picturaux, recherche du réalisme, classicisme ou baroque.</p>
         </div>
-        <div>
+        <div xml:id="r1061090">
           <head rend="uc">Chapitre II
            <lb/>La production française à travers les fonds de quelques marchands</head>
           <p>Tous les marchands possèdent un choix plus ou moins identique d’images pieuses, de portraits, d’almanachs, de gravures d’ornement pour contenter la clientèle. Mais l’étonnante concentration de marchands et éditeurs, en particulier rue Saint-Jacques, incite, outre à diversifier, à spécialiser les fonds.</p>
@@ -124,17 +122,17 @@
           <p>Le Cabinet du roi, enfin, créé le 22 décembre 1667, est l’un des secteurs les plus importants de l’édition de l’estampe. Mais cet établissement de prestige, qui joue un rôle primordial d’émulation, est le type même de l’entreprise déficitaire. Le roi, principal éditeur parisien, est, par un curieux paradoxe, le seul client de son entreprise qui fait vivre des dizaines d’artisans et d’artistes. Les ouvrages produits, d’abord destinés à la propagande royale, sont vendus à compter du 10 juillet 1679. Selon le projet de Nicolas Clément, responsable de l’opération, trois cents exemplaires restent au roi, cinq à six cents exemplaires <pb source="https://nakala.fr/10.34847/nkl.e77c51mz#bf475488d16c778b0c650406bd7d8559d2b41da1" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.e77c51mz/bf475488d16c778b0c650406bd7d8559d2b41da1/full/full/0/default.jpg"/>sont donnés en consignation aux marchands de taille-douce, moyennant 10 % de commission. Sébastien Mâbre-Cramoisy est chargé des planches entrant dans la composition de livres. Mais, à la mort de Colbert le 6 septembre 1683, ce vaste programme commercial se révèle un échec.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1061128">
         <head rend="uc">Troisième partie
          <lb/>Étude du marché</head>
-        <div>
+        <div xml:id="r1061136">
           <head rend="uc">Chapitre premier
            <lb/>la clientèle</head>
           <p>Il est extrêmement difficile de connaître l’exacte composition de la clientèle en l’absence des livres-journaux de marchands d’estampes. Nous ne pouvons nous appuyer que sur les inventaires après décès et sur les marchés d’estampes.</p>
           <p>Paris compte, au <num>xvii<hi rend="sup">e</hi></num> siècle, 500 000 habitants environ. Il semblerait, au vu des inventaires après décès, que 20 % de la population seulement aient possédé des estampes. Mais il est probable que les estampes de faible valeur n’ont pas été prisées par le sergent à verge responsable. Les marchés d’estampes n’apportent guère plus de renseignements, car ils ne concernent qu’une fraction de la population susceptible d’une dépense suffisamment importante pour commander une planche gravée. Les sources iconographiques donnent à penser que l’estampe était plus présente dans les foyers parisiens que ne le disent les documents d’archives. Il semble d’ailleurs qu’il n’existait pas deux circuits de production totalement indépendants l’un de l’autre : l’un destiné au peuple, et l’autre à une élite intellectuelle cultivée et raffinée. Il y avait, au contraire, constante interférence.</p>
           <p>Outre son action dans la diffusion rapide des idées, l’un des rôles essentiels joués par la gravure est un rôle de documentation ; la gravure d’ornement est destinée aux différentes catégories professionnelles, artistiques d’abord, mais aussi artisanales. Les motifs servent de modèles aux apprentis pour apprendre leur métier, mais aussi aux maîtres qui, soit manque d’imagination, soit désir de suivre une mode, se contentent ainsi de reprendre les créations d’autrui. Le curieux, enfin, est l’un des clients du marchand d’estampes. Mais le marchand ne lui est pas indispensable. Il ne saurait lui procurer qu’un complément à ses collections ; et le collectionneur déplore de devoir passer par cet intermédiaire, qui vend plus cher que l’artiste lui-même.</p>
         </div>
-        <div>
+        <div xml:id="r1061160">
           <pb source="https://nakala.fr/10.34847/nkl.e77c51mz#606dfdb590d0746291d5458667dbfd5851d0905f" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.e77c51mz/606dfdb590d0746291d5458667dbfd5851d0905f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les conditions de vente de la production</head>
@@ -144,14 +142,14 @@
           <p><hi rend="i">Les chiffres de tirage.</hi> – Ils restent très mal connus. Il semble, d’après les quelques marchés d’estampes étudiés, que le tirage de la gravure d’illustration puisse atteindre cinq cents et même sept cents exemplaires. La gravure de portrait est tirée à deux cents exemplaires, la gravure de thèse à mille trois cent soixante exemplaires, en moyenne.</p>
           <p><hi rend="i">L’apparition progressive d’une certaine publicité.</hi> – Les marchands d’estampes parisiens cherchent à se faire connaître et utilisent diverses techniques publicitaires pour modifier les habitudes d’achat de la clientèle potentielle : le port de l’enseigne à la porte du magasin, la réclame par le biais de la lettre de l’estampe, enfin les annonces dans le <hi rend="i">Mercure Galant.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1061209">
           <head rend="uc">Chapitre III
            <lb/>L’estampe parisienne dans le marché national et international</head>
           <p>Paris est au centre du commerce de l’estampe au <num>xvii<hi rend="sup">e</hi></num> siècle. La clientèle de province achète directement ses estampes chez les artistes et les marchands parisiens. Les marchands de province s’approvisionnent à Paris à la foire Saint-Germain, ou chez les grossistes de la rue Saint-Jacques.</p>
           <p>L’estampe parisienne est également exportée à l’étranger, en Angleterre, en Allemagne, et surtout en Espagne, qui constitue un marché intéressant pour l’imagerie religieuse française.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1061231">
         <pb source="https://nakala.fr/10.34847/nkl.e77c51mz#c36d7e8229da687870466990eb8541c090e49efb" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.e77c51mz/c36d7e8229da687870466990eb8541c090e49efb/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>L’étude de l’édition et du commerce de l’estampe parisienne est donc une « approche » privilégiée, non seulement pour la connaissance réelle de la gravure française du <num>xvii<hi rend="sup">e</hi></num> siècle, mais aussi pour une meilleure compréhension des mentalités et des sensibilités du Grand Siècle.</p>
@@ -165,7 +163,7 @@
         <head rend="uc">Index des enseignes</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r1061278">
         <head rend="uc">Pièces justificatives</head>
         <p>Convention des graveurs et marchands d’estampes parisiens contre le sieur Palevoisin : Archives nationales, Minutier central XLIII-42 (18 mars 1644). – Convention des graveurs et marchands d’estampes parisiens contre François Mansart : Archives nationales, Minutier central CIX-191 (12 février 1651). – Arrêt du Conseil de Saint-Jean-de-Luz (26 mai 1660). – Extraits des registres de permissions d’imprimer (1635-1664) : Bibliothèque nationale, Cabinet des manuscrits, manuscrits français 16753 et 16754.</p>
         <pb source="https://nakala.fr/10.34847/nkl.e77c51mz#627009552048c17ff59ff661a523d6125dc3de3b" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.e77c51mz/627009552048c17ff59ff661a523d6125dc3de3b/full/full/0/default.jpg"/>

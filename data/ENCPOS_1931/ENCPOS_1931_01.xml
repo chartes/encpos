@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,7 +54,7 @@
         <forename>André</forename>
         <surname>Berthier</surname>
       </byline>
-      <div>
+      <div xml:id="r498136">
         <head rend="uc">Chapitre premier
          <lb/>biographie</head>
         <p>Raymond Martin était originaire de Subirats en Catalogne. Il prit l’habit des Frères Prêcheurs au couvent de Barcelone et porta cet habit pendant cinquante ans. Il mourut peu après 1284.</p>
@@ -70,7 +68,7 @@
         <p>En 1269, il revenait d’un second voyage à Tunis.</p>
         <p>En 1281, il était nommé professeur au <hi rend="i">studium he</hi><hi rend="i">braicum</hi> de Barcelone.</p>
         <p>Ses qualités d’écrivain et d’érudit le portèrent à agir surtout par l’influence de ses écrits. Son activité littéraire est ce que nous connaissons le mieux de lui. Elle tire son originalité de sa science des langues orientales.</p>
-        <div>
+        <div xml:id="r498194">
           <head rend="uc">Chapitre II
            <lb/>L’« Explanatio symboli Apostolorum »
            <lb/>et le « pugio Fidei »</head>
@@ -82,7 +80,7 @@
           <p>Les éditions <hi rend="i">: Pugio Fidei</hi> a été publié partiellement par Petrus Galatinus, qui ne le cite même pas, dans son livre <hi rend="i">De Arcanis catholicæ veritatis</hi>, dont la première édition est de 1518 et par Victor Porchet de Salvaticis dans son ouvrage <hi rend="i">Victoria adversus impios Hebræos</hi> (1520). Il a été édité en entier par Joseph de Voisin à Paris en 1651 et réédité à Leipzig, en 1687 par Carpzov.</p>
           <p>Le plan : Le livre premier étudie les problèmes de l’immortalité de l’âme, de la création du monde, de l’existence de Dieu et combat les erreurs de la philosophie arabe. Le second livre traite la question de la venue du Messie contre les Juifs affirmant qu’il était à venir. Le livre III se divise en trois parties : la première, consacrée à la Trinité, la seconde à la chûte de l’homme et à la peine du péché, la troisième à Jésus-Christ, sa divinité, son Eglise, ses sacrements.</p>
         </div>
-        <div>
+        <div xml:id="r498257">
           <head rend="uc">Chapitre III
            <lb/>Le « Capistrum Judæorum ».</head>
           <p>Le <hi rend="i">Capistrum Judæorum</hi> fut composé en 1267.</p>
@@ -91,13 +89,13 @@
           <p>En effet, le <hi rend="i">Pugio Fidei</hi> cite, en plusieurs passages, le <hi rend="i">Capistrum Judæorum</hi> et y renvoie. Ces citations se vérifient aisément dans le texte des manuscrits de Bologne et de Paris.</p>
           <p>Plan : L’œuvre est consacrée à l’examen de la question de la venue du Messie. Elle est divisée en sept arguments prouvant que le Messie est déjà venu et en sept objections des Juifs, réfutées chacune séparément, prétendant que le Messie n’est pas encore venu.</p>
         </div>
-        <div>
+        <div xml:id="r498302">
           <head rend="uc">Chapitre IV
            <lb/>Écrits d’attribution douteuse</head>
           <p><hi rend="i">De erroribus philosophorum.</hi> Dans son ouvrage sur Siger de Brabant, le R.P. Mandonnet a pensé attribuer à R. Martin cet ouvrage anonyme. Il y a, en faveur de l’attribution à R. Martin, des possibilités, mais il y a contre elle de sérieuses difficultés.</p>
           <p><hi rend="i">Vocabulista in Arabico</hi>. Ce dictionnaire arabe-latin et latin-arabe, publié par Schiaparelli, est accompagné d’un dialogue où se lit le nom de Raymond Martin. Nous sommes assez portés à admettre que R. Martin fut l’auteur du dictionnaire. Le dialogue aurait été composé par lui et un lettré arabe. Tous <pb source="https://nakala.fr/10.34847/nkl.bd7fi7mt#0c59fe021bf4fca61990efe98a8589b6d1296105" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd7fi7mt/0c59fe021bf4fca61990efe98a8589b6d1296105/full/full/0/default.jpg"/>deux y auraient transcrit l’expression réciproque de leurs convictions religieuses, en témoignage de leur collaboration.</p>
         </div>
-        <div>
+        <div xml:id="r498328">
           <head rend="uc">Chapitre V
            <lb/>Sources et méthode de Raymond Martin</head>
           <p>Prouver aux infidèles la vérité du catholicisme en critiquant leurs idées religieuses, étudiées aux meilleurs sources, et en se pliant aux exigences de la mentalité de ces peuples, c’est l’objet que se propose R. Martin en ses écrits.</p>
@@ -120,7 +118,7 @@
           <p>Son style, à défaut d’élégance, a de la précision et il dit bien ce qu’il veut faire entendre.</p>
           <p>Son œuvre est celle d’un travailleur puissant, et d’une intelligence subtile et synthétique.</p>
         </div>
-        <div>
+        <div xml:id="r498430">
           <head rend="uc">Chapitre VI
            <lb/>Destinée du « pugio Fidei ».</head>
           <p>Le <hi rend="i">Pugio Fidei</hi> domine l’œuvre de R. Martin. Comparé aux œuvres dirigées contre les Juifs qui l’ont devancé, il marque un immense progrès. Ce qui les caractérisait [le mieux, c’était, à quelques exceptions près, l’uniformité due à l’ignorance de la littérature rabbinique. Le <hi rend="i">Pugio</hi>, au contraire, fait de cette littérature un inventaire complet et l’utilise sous toutes ses formes. Cette contribution, jointe à l’effort qui y est fait pour donner une théologie chrétienne exposée au moyen des livres dont Juifs et Arabes reconnaissent l’autorité, explique pourquoi le <hi rend="i">Pugio Fidei</hi> fut connu à travers tout le Moyen Age et même au-delà. Malgré sa richesse et sa valeur, deux raisons limitèrent son influence : son genre spécial d’écrit de polémique et la nécessité, pour en tirer parti, de savoir l’hébreu. Il s’imposa à tous ceux qui purent le lire et R. Martin fut considéré comme un maître éminent par les hommes qui, directement ou indirectement, se mirent à son école.</p>
@@ -131,7 +129,7 @@
           <p>Ce qui est le plus remarquable, c’est l’usage qu’en fit Pascal. Cet ouvrage fut l’un de ceux sur lesquels il s’attarda le plus en vue de la préparation de son <hi rend="i">Apologie.</hi> Il est clair que ses <hi rend="i">Pensées</hi> sur l’Ancien Testament lui sont venues en partie de la méditation du <hi rend="i">Pugio Fidei.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r498508">
         <head rend="uc">Conclusion</head>
         <p>Par son intelligence, son labeur, son érudition, sa probité, Raymond Martin s’affirme un des meilleurs esprits du Moyen Age. Ayant vécu au milieu des Dominicains d’Espagne, passionnés de science, de haut enseignement et d’action, comme d’ardente charité, il a consacré son existence à servir le plus noble idéal d’apostolat intellectuel.</p>
         <pb source="https://nakala.fr/10.34847/nkl.bd7fi7mt#5f0e5cde4f107a7dd3b2df1e0052af37144ca2db" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd7fi7mt/5f0e5cde4f107a7dd3b2df1e0052af37144ca2db/full/full/0/default.jpg"/>

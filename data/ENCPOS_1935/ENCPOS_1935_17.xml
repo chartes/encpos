@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -70,28 +68,28 @@
         <head rend="uc">Bibliographie – Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r557624">
         <head rend="uc">Chapitre préliminaire
          <lb/>la fondation de l’ordre.</head>
         <p><hi rend="i">La Charte de Charité,</hi> approuvée par Calixte II le 23 décembre 1119, et sans doute rédigée entre 1115 et 1118, crée un lien de droit entre les diverses abbayes issues de Citeaux directement ou indirectement. Deux pouvoirs sont établis : celui du Chapitre Général, qui réunit annuellement à Citeaux tous les <pb source="https://nakala.fr/10.34847/nkl.82e2828z#a89f30e1e8c403844103b5e64bdca9f51ef58350" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.82e2828z/a89f30e1e8c403844103b5e64bdca9f51ef58350/full/full/0/default.jpg"/>abbés, et dont la juridiction s’étend à l’Ordre entier ; celui des abbés, fondateurs ou visiteurs qui s’étend sur les abbayes-filles. Les maisons cisterciennes ne sont différenciées que par cette hiérarchie juridique. Elles demeurent toutes, pour leur vie intérieure, des abbayes bénédictines autonomes, tenues de suivre à la lettre la règle de saint Benoît, selon l’interprétation de Citeaux.</p>
       </div>
-      <div>
+      <div xml:id="r557644">
         <head rend="uc">Premiere partie
          <lb/>L’exemption de l’ordre</head>
-        <div>
+        <div xml:id="r557652">
           <head rend="uc">Chapitre premier
            <lb/>les Cisterciens et l’exemption.</head>
           <p><hi rend="i">La Charte de Charité</hi> devait être approuvée par tout évêque dans le diocèse duquel on fondait une nouvelle abbaye. Les Cisterciens ne cessaient pas ainsi tout rapport avec l’épiscopat, tandis que les instituts exempts, propriétés du Saint-Siège, ne connaissaient qu’un évêque, celui de Rome.</p>
           <p>Lorsque les Cisterciens eurent excité la jalousie par leur dispense de payer la dîme, lorsqu’ils eurent pris parti dans le schisme de 1159, Alexandre III, reconnaissant, permit à leurs abbés d’entrer en charge, sans être bénis, si les évêques refusaient d’accorder la bénédiction (1169). Lors de cette cérémonie, le nouvel élu devait en effet prêter un serment d’obéissance <hi rend="i">« salua ordine suo</hi> », formule jugée inacceptable par certains évêques. L’exemption fut complète <pb source="https://nakala.fr/10.34847/nkl.82e2828z#6c8fc128df2c2e81e78749389e50ad0693337e12" n="147" facs="https://api.nakala.fr/iiif/10.34847/nkl.82e2828z/6c8fc128df2c2e81e78749389e50ad0693337e12/full/full/0/default.jpg"/> en 1184, lorsque Lucius III interdit aux évêques d’excommunier les moines blancs.</p>
         </div>
-        <div>
+        <div xml:id="r557679">
           <head rend="uc">Chapitre II
            <lb/>L’organisation des pouvoirs dans l’abbaye
            <lb/>et dans l’ordre.</head>
           <p>Ces pouvoirs étaient organisés dès les premiers statuts. Les bulles pontificales eurent toujours, en cette matière, un caractère confirmatif : liberté des élections, compétence des Chapitres quotidiens et du Chapitre Général.</p>
           <p>La question la plus délicate resta celle de la bénédiction des abbés. Mais, après le privilège de 1169, les Cisterciens ne furent même pas obligés de s’adresser à des évêques autres que leurs diocésains, pour faire bénir leurs abbés.</p>
         </div>
-        <div>
+        <div xml:id="r557696">
           <head rend="uc">Chapitre III
            <lb/>Limitation des pouvoirs de l’évêque.</head>
           <div>
@@ -111,31 +109,31 @@
             <p>Les Cisterciens acquièrent bientôt des dîmes. Consécration de cette coutume par le Chapitre Général de 1230 et une bulle de Grégoire IX (1237).</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r557802">
           <head rend="uc">Chapitre IV
            <lb/>Les Cisterciens et le pouvoir pontifical.</head>
           <p>Les mesures générales contre les exempts ne touchent pas les Cisterciens, qui obtiennent d’Alexandre III de ne pas être contraints par des lettres apostoliques ne faisant pas mention de leur privilège. Depuis Honorius III, les légats apostoliques n’ont plus le droit d’excommunier les membres de l’Ordre. Les Cisterciens ne paient pas la dîme saladine (1190), mais sont en conflit avec Innocent III et Honorius III au sujet des contributions pour la Terre Sainte. Innocent IV les exempte (1246), mais la dîme sicilienne crée un nouveau conflit où ils finissent par céder (1270). La papauté confirme souvent les privilèges. Les cardinaux, anciens Cisterciens, interviennent en faveur de l’Ordre. Le Chapitre Général constitue des procureurs en Cour de Rome.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r557815">
         <head rend="uc">Deuxième partie
          <lb/>Le gouvernement de l’ordre</head>
-        <div>
+        <div xml:id="r557823">
           <head rend="uc">Chapitre premier
            <lb/>la préparation du chapitre général.</head>
           <p>L’autorité suprême dans l’Ordre revient au Cha<pb source="https://nakala.fr/10.34847/nkl.82e2828z#708dd81629926634f69af551ebc3ab9db2476eef" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.82e2828z/708dd81629926634f69af551ebc3ab9db2476eef/full/full/0/default.jpg"/>pitre Général. 11 se réunit à Citeaux, tous les ans, l’avant-veille de la Sainte-Croix (12 septembre), et dure cinq jours. L’assistance est obligatoire pour tous les abbés, sauf dispense pour maladie ou trop grand éloignement. Au <num>xiii<hi rend="sup">e</hi></num> siècle, les absences se multiplient, ainsi que les plaintes pour mauvaise réception dans les granges (exploitations rurales dirigées par les frères convers), durant le trajet des abbayes à Citeaux. Les réunions préliminaires des principaux abbés préparent le travail.</p>
         </div>
-        <div>
+        <div xml:id="r557846">
           <head rend="uc">Chapitre II
            <lb/>La direction des travaux et la tenue des séances.</head>
           <p>L’abbé de Citeaux est, de droit, président. S’il est absent, il est remplacé par l’un des quatre premiers pères (ou abbés des quatre premières « filles » de Citeaux : La Ferté, Pontigny, Clairvaux et Morimond). Les définiteurs forment une commission du Chapitre. Ils sont chargés de terminer les affaires et de rédiger les « définitions » ou statuts annuels. Ils apparaissent en 1197. Leur mode de nomination provoque une longue querelle (1263-1265), terminée par une bulle de Clément IV (9 juin 1255) et un arbitrage du cardinal de Saint-Laurent (septembre 1265) : un plus grand pouvoir est accordé en cette matière aux quatre premiers abbés. La tenue des séances est minutieusement réglée ; au <num>xiii<hi rend="sup">e</hi></num> siècle, la masse des abbés enregistre les statuts plutôt qu’elle ne décide.</p>
         </div>
-        <div>
+        <div xml:id="r557864">
           <head rend="uc">Chapitre III
            <lb/>L’activité du chapitre général.</head>
           <p>L’assemblée légifère sur la proposition de son pré<pb source="https://nakala.fr/10.34847/nkl.82e2828z#27ee074e99207f6ed2c929538901c061d617278c" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.82e2828z/27ee074e99207f6ed2c929538901c061d617278c/full/full/0/default.jpg"/>sident ou sur des requêtes extérieures. Les règles posées sont valables pour l’Ordre entier, sauf dispense accordée par le Chapitre lui-même. Les statuts sont codifiés de temps à autre dans des collections méthodiques. Cette activité législative embrasse toute la vie des monastères et toute la vie de l’Ordre dans leurs moindres détails. Le Chapitre Général est, pour les abbés, un tribunal correctionnel et contentieux. Au correctionnel, il prononce toutes les peines et intervient partout. Au contentieux, il agit à peu près uniquement par juges délégués : trois abbés voisins des parties terminent la querelle. Durant notre période, les décisions du Chapitre et de ses délégués sont habituellement bien observées.</p>
         </div>
-        <div>
+        <div xml:id="r557881">
           <head rend="uc">Chapitre IV
            <lb/>Le gouvernement des filiations.</head>
           <p>Les abbés des maisons fondatrices sont tenus de visiter annuellement leurs abbayes « filles ». Ils président aux élections des abbés « fils », qu’ils peuvent déposer, mais seulement dans un Chapitre extraordinaire réuni à cet effet. Le Chapitre Général doit fréquemment rappeler à leur devoir ces abbés-visiteurs qui se montrent trop sévères ou trop complaisants. Vers le milieu du <num>xiii<hi rend="sup">e</hi></num> siècle, beaucoup d’entre eux prononcent des sentences de déposition irrégulières. D’autre part, la visite de Citeaux, qui incombe aux quatre premiers pères, se heurte trop souvent au mauvais vouloir de l’abbé. C’est principalement sur ces deux points que porte la réforme de 1265, dont le résultat est contenu dans la même bulle du 9 juin (<hi rend="i">Parvus fous</hi>), qui fixe aussi la nomination des délimiteurs.</p>

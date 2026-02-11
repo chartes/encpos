@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,32 +63,32 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r631175">
         <head rend="uc">Sources et bibliographie</head>
         <p>Description du manuscrit de base, Bibl. nat. lat., 6830 I.</p>
       </div>
-      <div>
+      <div xml:id="r631185">
         <head rend="uc">Première partie
          <lb/>Étude de l’œuvre</head>
-        <div>
+        <div xml:id="r631193">
           <head rend="uc">Chapitre premier
            <lb/>l’auteur et la littérature agricole de son temps.</head>
           <p>Pierre de Crescent naquit, à Bologne vers 1233. Il étudia à l’Université la logique, la médecine, les sciences naturelles et le droit, puis, au cours de sa carrière administrative, parcourut l’Italie du Nord. Il se retira vers 1299 dans sa propriété de Villa d’Olmo, où il composa son <hi rend="i">Ruralium commodorum opus.</hi> Il mourut vers 1320.</p>
           <p>Son œuvre se place à mi-chemin entre les compilations qui relèvent <pb source="https://nakala.fr/10.34847/nkl.b01d4a1y#cc3cb786926bc35cf666133805d72d48a7cc6c97" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.b01d4a1y/cc3cb786926bc35cf666133805d72d48a7cc6c97/full/full/0/default.jpg"/> de la tradition latine et les essais en partie originaux, théoriques, comme le <hi rend="i">De vegetalibus</hi> d’Albert le Grand, ou pratiques, comme les ouvrages anglo-normands du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r631227">
           <head rend="uc">Chapitre II
            <lb/>Composition et plan de l’ouvrage.</head>
           <p>C’est vers 1304-1306 que le traité fut composé, à la demande de Frère Aimeri de Plaisance, général des Dominicains. Il comprend douze livres, précédés de deux épîtres : la première est adressée à Frère Aimeri lui-même, l’autre à Charles d’Anjou, auquel est dédié l’ouvrage. Viennent ensuite l’introduction et le traité proprement dit.</p>
           <p>Ce dernier se divise ainsi : liv. I, Généralités ; II, La génération des plantes ; III, Les céréales ; IV, La vigne ; V, Les arbres ; VI, Les plantes ; VII, Les prés et les bois ; VIII, Les vergers ; IX, Les animaux ; X, La chasse et la pêche. Le livre XI est un résumé des précédents et le livre XII un calendrier agricole.</p>
           <p>Ces livres, d’étendue très inégale, sont précédés de prologues et divisés en chapitres. L’impression d’ensemble qui se dégage est celle d’une œuvre solidement construite et très claire.</p>
         </div>
-        <div>
+        <div xml:id="r631245">
           <head rend="uc">Chapitre III
            <lb/>La langue.</head>
           <p>La langue de l’ouvrage n’est pas homogène ; cela tient aux nombreux emprunts faits par Crescent à divers auteurs. On peut distinguer des éléments empruntés au latin classique et au latin médiéval et des italianismes, qui se rencontrent dans les passages originaux.</p>
         </div>
-        <div>
+        <div xml:id="r631257">
           <head rend="uc">Chapitre IV
            <lb/>Les sources.</head>
           <p>1. <hi rend="i">Les auteurs.</hi> – Les auteurs utilisés par Crescent sont <pb source="https://nakala.fr/10.34847/nkl.b01d4a1y#a8acce74c82ae922a42168b953e021d7fff8c6c3" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.b01d4a1y/a8acce74c82ae922a42168b953e021d7fff8c6c3/full/full/0/default.jpg"/>nombreux, mais beaucoup n’ont pas été connus directement. En général, les sources sont citées. On peut distinguer deux grandes catégories d’auteurs auxquels Crescent a eu recours : les médecins et les agronomes. Parmi ces derniers, les latins Caton, Palladius, Varron et les contemporains Albert le Grand, Burgundio de Pise, traducteur d’une partie des <hi rend="i">Géoponiques,</hi> reviennent le plus souvent. Au nombre des auteurs moins nettement désignés, on trouve le Calabrais Jordanus Ruffus et le Roi Dancus, auteur supposé d’un traité de vénerie.</p>
@@ -99,12 +97,12 @@
           <p><hi rend="i">c) Ampleur des emprunts</hi> : étude détaillée des livres I, II, III, IV, VII, VIII, IX.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r631306">
         <head rend="uc">Deuxième partie
          <lb/>L’agriculture médiévale
          <lb/>d’après les passages originaux
          <lb/>de l’œuvre de Pierre de Crescent</head>
-        <div>
+        <div xml:id="r631318">
           <head rend="uc">Chapitre premier
            <lb/>l’exploitation rurale.</head>
           <p>Le modèle est la <hi rend="i">curia,</hi> qui correspond à la <hi rend="i">villa</hi> romaine. Elle est exploitée, semble-t-il, par des salariés. Son plan comporte, d’un côté, les bâtiments du propriétaire, de l’autre, ceux des serviteurs et des animaux.</p>
@@ -112,7 +110,7 @@
           <p>Les engrais étaient variés, mais il semble bien que l’engrais végétal (lupin) ait été le plus apprécié. On le combinait fréquemment avec l’irrigation qui jouait dans toute cette région un rôle primordial.</p>
           <p>Les labours étaient fréquents : au moins trois par an.</p>
         </div>
-        <div>
+        <div xml:id="r631352">
           <head rend="uc">Chapitre II
            <lb/>Les cultures.</head>
           <p><hi rend="i">a</hi>) Les principales <hi rend="i">céréales et assimilées</hi> étaient l’avoine, la chiche, la fève, le froment, le haricot, le mil, l’orge, le panic, le pois, le seigle, la vesce. On connaissait le maïs sous le nom de <hi rend="i">milica.</hi> Le lin et le chanvre représentaient les plantes industrielles.</p>
@@ -121,7 +119,7 @@
           <p><hi rend="i">d</hi>) Dans <hi rend="i">Y arboriculture,</hi> c’est la greffe qui intéresse surtout Crescent et il nous cite les expériences, souvent bizarres, auxquelles ses contemporains se plaisaient.</p>
           <p><hi rend="i">e</hi>) Des <hi rend="i">parcs d’agrément</hi> ornaient fréquemment les villégiatures rurales et comprenaient, outre le parc proprement dit, un verger et une garenne.</p>
         </div>
-        <div>
+        <div xml:id="r631427">
           <pb source="https://nakala.fr/10.34847/nkl.b01d4a1y#09d2cc0c0cfaad69e35765cc7fecde1ecba53be7" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.b01d4a1y/09d2cc0c0cfaad69e35765cc7fecde1ecba53be7/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les animaux.</head>
@@ -130,13 +128,13 @@
           <p>Il en était de même des poissons que l’on élevait dans des viviers ou des étangs spécialement aménagés.</p>
           <p>L’apiculture, enfin, était très développée et les ruches présentaient tous les perfectionnements désirables.</p>
         </div>
-        <div>
+        <div xml:id="r631457">
           <head rend="uc">Chapitre IV
            <lb/>La chasse et la pêche.</head>
           <p>Chasse et pêche fournissaient un appoint important à l’alimentation. On chassait les oiseaux, principalement au faucon, à l’épervier, à l’autour ; on pouvait également se servir d’armes de jet, mais le procédé le plus fréquemment employé semble avoir été les filets dont Crescent nous donne une copieuse énumération. C’est également aux filets que l’on avait recours pour attraper les animaux sauvages, mais les grosses pièces étaient prises au piège et dans des fosses.</p>
           <p>La pêche se faisait au filet, à la nasse, à l’hameçon et à la chaux. Les divers engins, aussi bien de pêche que de chasse, étaient très judicieusement conçus.</p>
         </div>
-        <div>
+        <div xml:id="r631472">
           <head rend="uc">Chapitre V
            <lb/>Les instruments et les mesures.</head>
           <p>Les instruments sont les mêmes que de nos jours. Signalons seulement le <hi rend="i">foraterra</hi> qui servait à planter la vigne et un plateau percé qui facilitait le travail des fouleurs.</p>
@@ -144,19 +142,19 @@
           <p>Les mesures employées par Crescent sont difficiles à évaluer ; signalons la <hi rend="i">corbis,</hi> le <hi rend="i">plaustrum</hi> et la <hi rend="i">sextaria</hi> parmi les mesures de capacité ; la <hi rend="i">bubulca</hi> pour la superficie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r631513">
         <head rend="uc">Troisième partie
          <lb/>Influence de l’œuvre en France</head>
         <p>L’influence est surtout fonction de la valeur de la traduction française exécutée en 1373 pour Charles V. Or, celle-ci est assez mauvaise et dénature en partie l’œuvre de Crescent. Le traducteur anonyme manque des compétences agricoles nécessaires et ne cherche pas à identifier les termes italianisants dont notre auteur se sert souvent.</p>
         <p>L’influence du traité ne semble pas avoir été profonde au <num>xvi<hi rend="sup">e</hi></num> siècle ; en effet, dans les écrits composés à cette époque, on ne trouve que peu de traces de l’ouvrage de Crescent. Seule l’œuvre de Gorgole de Corne en contient indiscutablement des extraits. Charles Estienne l’ignore et Olivier de Serres se borne à lui emprunter, semble-t-il, des détails secondaires sur les coutumes italiennes. Lorsque les textes originaux latins furent rendus facilement accessibles, on oublia la compilation de Crescent.</p>
       </div>
-      <div>
+      <div xml:id="r631534">
         <head rend="uc">Quatrième partie
          <lb/>Étude des miniatures</head>
         <p>ORNANT LA TRADUCTION FRANÇAISE</p>
         <p>(Paris, Bibl. de l’Arsenal, ms. 5064).</p>
       </div>
-      <div>
+      <div xml:id="r631549">
         <head rend="uc">Conclusion</head>
         <p>Le <hi rend="i">Ruralium commodorum opus</hi> est l’œuvre d’un esprit honnête et judicieux, assez en avance sur ses contemporains. <pb source="https://nakala.fr/10.34847/nkl.b01d4a1y#44d0ae1b076b5ff14f1ffd6ea456ee973b14b907" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.b01d4a1y/44d0ae1b076b5ff14f1ffd6ea456ee973b14b907/full/full/0/default.jpg"/>Les renseignements exacts et précis qu’il nous donne, concernant les coutumes de son temps, peuvent apporter une utile contribution à l’étude de l’agriculture médiévale.</p>
       </div>

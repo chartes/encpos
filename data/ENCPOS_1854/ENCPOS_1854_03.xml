@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1854_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1854_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -57,7 +55,7 @@
         <surname>Chassaing</surname>
         <roleName>Licencié en Droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r16210">
         <head rend="uc">I
          <lb/>divisions territoriales de l’Auvergne.</head>
         <p>Dénominations diverses de l’Auvergne.</p>
@@ -76,7 +74,7 @@
         <p>11<hi rend="sup">e</hi> PAGUS BRIVATENSIS, le Brivadois : – <hi rend="i">Aicis Brivatensis, </hi>Brioude ; – <hi rend="i">Calerinsis,</hi> Chalières ; – <hi rend="i">Cantolianicus,</hi> Chanteuge ; – <hi rend="i">Cumicensis,</hi> Cusse ou Cumignat ; – <hi rend="i">Loiacensis,</hi> Inconnu ; – <hi rend="i">Nonatensis,</hi> Nonette ; – <hi rend="i">Radicatensis,</hi> Rageades ;</p>
         <p>12° TERRITORIUM PLANEZA, PLANETIA, la Planèze : <hi rend="i">Aicis Carlatensis,</hi> Carlat.</p>
       </div>
-      <div>
+      <div xml:id="r16411">
         <pb source="https://nakala.fr/10.34847/nkl.f3c56vem#978c3e0a065980720ebdec0c4a9259810063670c" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.f3c56vem/978c3e0a065980720ebdec0c4a9259810063670c/full/full/0/default.jpg"/>
         <head rend="uc">II
          <lb/>divisions politiques de l’Auvergne.</head>

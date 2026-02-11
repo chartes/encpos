@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_20" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_20" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,59 +65,59 @@
         <head rend="uc">Sources et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r345670">
         <head rend="uc">Première partie
          <lb/>Eudes avant son épiscopat</head>
-        <div>
+        <div xml:id="r345678">
           <head rend="uc">I</head>
           <p>Eudes était le troisième fils d’Archambaud I<hi rend="sup">er</hi>, seigneur de Sully-sur-Loire, qui avait en Berri d’importants domaines. Il était cousin des comtes de Champagne, de Blois, de Sancerre. ainsi que des rois de France et d’Angleterre 11 était aussi cousin de l’évêque de Durham, Hugues du Puiset, et de l’archevêque de Reims, Guillaume de Champagne. Il était le neveu de Raoul, abbé de Cluny, et d’Henri de Sully, évêque de Worcester, et le frère cadet d’Henri de Sully, archevêque de Bourges.</p>
         </div>
-        <div>
+        <div xml:id="r345692">
           <pb source="https://nakala.fr/10.34847/nkl.377ax87e#c756078bd9ab8298601fbda5a24bf20431530569" n="164" facs="https://api.nakala.fr/iiif/10.34847/nkl.377ax87e/c756078bd9ab8298601fbda5a24bf20431530569/full/full/0/default.jpg"/>
           <head rend="uc">II</head>
           <p>Eudes naquit probablement en Berri vers 1160, peut-être même avant cette date. Il fut peut-être chanoine à la collégiale des Aix-Dam-Gilon. Il étudia aux écoles parisiennes vers 1175.</p>
           <p>A cette époque il était probablement sous-diacre. En 1184 on le trouve archidiacre de Sologne. Vers 1188 il alla à Rome. En 1190 il est déjà chantre de Bourges. Il était très probablement, en même temps, chanoine régulier de Saint-Victor de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r345710">
           <head rend="uc">III</head>
           <p>L’évêque de Paris, Maurice de Sully, qui n’était pas parent d’Eudes, mourut le 11 septembre 1196. Pierre le Chantre fut élu ; mais il refusa l’épiscopat. Le chapitre, peut-être à l’instigation de Philippe-Auguste, choisit alors Eudes de Sully, qui fut sacré en juin 1197.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r345721">
         <head rend="uc">Seconde partie
          <lb/>Eudes pendant son épiscopat</head>
-        <div>
+        <div xml:id="r345729">
           <head rend="uc">I</head>
           <p>Eudes s’entendit bien avec ses archidiacres – dont deux devinrent, grâce à lui, l’un, Geoffroy, archevêque de Tours, et l’autre, Aubri, archevêque de Reims – et avec son chapitre, dont il obligea le chancelier à habiter Paris. 11 améliora la situation matérielle des clercs de Notre-Dame, établit dans cette église quatre marguilliers prêtres, et porta de un à quatre le nombre des marguilliers laïcs. La construction de la cathédrale de Paris se poursuivit <pb source="https://nakala.fr/10.34847/nkl.377ax87e#e2cb01aee10f44c5aadfcd7c40c1ffcb086944de" n="165" facs="https://api.nakala.fr/iiif/10.34847/nkl.377ax87e/e2cb01aee10f44c5aadfcd7c40c1ffcb086944de/full/full/0/default.jpg"/> pendant son épiscopat, et on voit qu’en 1202 la chapelle supérieure du palais épiscopal est achevée.</p>
         </div>
-        <div>
+        <div xml:id="r345744">
           <head rend="uc">II</head>
           <p>En 1203, Eudes fit un règlement pour la collégiale Saint-Germain-l’Auxerrois et y établit un chantre. En 1207, il fixa les rapports qui existeraient entre cette église et la nouvelle chapelle, qui devint plus tard la collégiale Saint-Honoré. En 1204, Eudes fit un règlement pour les collégiales de Saint-Marcel et de Saint-Cloud. En 1205, il augmenta le nombre des chanoines de Champeaux et statua sur la résidence des chanoines dans cette église et dans celle de Saint-Marcel.</p>
           <p>Eudes établit plusieurs paroisses, modifia le territoire de certaines autres et favorisa le service religieux par l’érection de chapelles dans les paroisses étendues. Il respecta les droits des curés et des patrons ; mais, quand il put, il se réserva la collation des bénéfices, qu’il n’accorda qu’à des clercs méritants.</p>
         </div>
-        <div>
+        <div xml:id="r345757">
           <head rend="uc">III</head>
           <p>A la fin de 1201, Eudes établit dans le diocèse de Paris l’officialité ; en 1207, pendant son voyage à Rome, il eut même deux officiaux. Son « chapelain » semble avoir rempli l’office du futur vicaire général.</p>
         </div>
-        <div>
+        <div xml:id="r345767">
           <head rend="uc">IV</head>
           <p>Avec l’abbé de Saint-Victor, Eudes rédigea la règle de l’ordre des Trinitaires. Il fonda et rattacha à l’ordre de Cîteaux les abbayes de femmes de Saint-Antoine et de Port-Royal. Eudes accorda un important privilège à l’abbaye de Saint-Victor et surveilla les monastères de <pb source="https://nakala.fr/10.34847/nkl.377ax87e#58257b18a099664b98522656660f8e0d503a5be1" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.377ax87e/58257b18a099664b98522656660f8e0d503a5be1/full/full/0/default.jpg"/>son diocèse, tout en entretenant avec eux de bonnes relations. Il triompha des prétentions de l’abbesse de Chelles, et, après plusieurs années de procès, fit reconnaître par l’abbé de Sainte-Geneviève sa juridiction sur la paroisse du Mont.</p>
         </div>
-        <div>
+        <div xml:id="r345782">
           <head rend="uc">V</head>
           <p>A la fin de 1198, ou au début de 1199, Eudes régla minutieusement l’office de la Circoncision, transformé par les clercs inférieurs en <hi rend="i">fête des fous,</hi> qu’il abolit. En 1199, il plaça la fête de saint Etienne, patron de l’église de Bourges, au rang des grandes solennités ecclésiastiques. En 1207, il établit à Paris la fête de saint Bernard.</p>
         </div>
-        <div>
+        <div xml:id="r345796">
           <head rend="uc">VI</head>
           <p>En 1199, Eudes de Sully fonda, sur un domaine de la mense épiscopale, le village de Marnes-la-Coquette. Pendant son épiscopat, il s’occupa de faire retourner à l’Eglise les dîmes inféodées et surveilla la gestion des biens paroissiaux.</p>
         </div>
-        <div>
+        <div xml:id="r345806">
           <head rend="uc">VII</head>
           <p>C’est Eudes de Sully que, en 1198, Innocent III chargea d’exhorter Philippe-Auguste à reprendre sa femme Ingeburge. En 1200, Eudes fit exécuter à Paris l’interdit prononcé par le légat contre Philippe. Alors des sergents royaux pillèrent le palais épiscopal et obligèrent Eudes à fuir ; mais, en août 1200, pour l’indemniser, le roi l’exempta du service d’ost et de chevauchée. En septembre, Eudes écrivit au pape le résultat de l’entrevue de Saint-Léger-en-Iveline. A la fin de 1207, Eudes alla à Rome, probablement à propos d’Ingeburge et des Albi<pb source="https://nakala.fr/10.34847/nkl.377ax87e#14b1c83e11e73e9070cb89da1ca057efdfea6b3f" n="167" facs="https://api.nakala.fr/iiif/10.34847/nkl.377ax87e/14b1c83e11e73e9070cb89da1ca057efdfea6b3f/full/full/0/default.jpg"/>geois. D’après un contemporain, c’est lui qui aurait poussé le pape à réduire l’hérésie par la violence.</p>
           <p>Eudes recueillit dans son diocèse de l’argent pour secourir la Terre-Sainte et autorisa Foulques de Neuilly à commencer la prédication d’où sortit la quatrième croisade.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r345825">
         <head rend="uc">Troisième partie
          <lb/>Sa mort ; son caractère</head>
         <p>Eudes de Sully mourut à Paris le 13 juillet 1208. Il fut enterré à Notre-Dame.</p>
@@ -129,7 +127,7 @@
         <head rend="uc">Appendice</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r345849">
         <head rend="uc">Catalogue des actes d’Eudes de Sully</head>
         <p>(65 numéros) précédé de la Chronologie de ces actes et d’un Itinéraire.</p>
       </div>

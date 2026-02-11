@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1949_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1949_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -58,20 +56,20 @@
         <head rend="uc">Introduction et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r706391">
         <head rend="uc">Chapitre premier
          <lb/>histoire du comté.</head>
         <p>Simples données chronologiques pour la période qui s’étend des origines à la fin du <num>x<hi rend="sup">e</hi></num> siècle, avec quelques digressions sur les points essentiels. Époque pré-gallo-romaine, époque gallo-romaine, époque franque, élaboration de la féodalité.</p>
         <p>Seconde partie (<num>xi<hi rend="sup">e</hi></num>-<num>xiii<hi rend="sup">e</hi></num> siècle). Tendance générale : disparition de la féodalité locale au cours des <num>xi<hi rend="sup">e</hi></num> et <num>xii<hi rend="sup">e</hi></num> siècles ; ascension de la classe bourgeoise (fin du <num>xii<hi rend="sup">e</hi></num>) ; stabilité relative des institutions et équilibre des forces entre archevêques et dauphins (début du <num>xiii<hi rend="sup">e</hi></num>). Le <num>xiii<hi rend="sup">e</hi></num> siècle est marqué surtout par des luttes sociales souvent sanglantes : les communautés cherchent, jusqu’au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle, à accroître, puis à garder leurs privilèges. Réaction des seigneurs qui, appuyés sur la classe noble, brident les libertés municipales. En conclusion, à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, nette ascension de la noblesse, recul des libertés locales, administration et politique déplorables des seigneurs.</p>
       </div>
-      <div>
+      <div xml:id="r706466">
         <head rend="uc">Chapitre II
          <lb/>Géographie historique du comté.</head>
         <p>Discussion sur les limites du comté ; thèse opposée à celle de Manteyer par interprétation différente du testament d’Abon et de la Vie de sainte Thècle. Les limites nord-est du comté rapportées, conformément à la plus ancienne tradition au Pertuis-Rostang. Délimitation géographique de tout le comté au début du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         <pb source="https://nakala.fr/10.34847/nkl.822a30fl#6d349747927ddf92287deca6445607e67f42c413" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.822a30fl/6d349747927ddf92287deca6445607e67f42c413/full/full/0/default.jpg"/>
         <p>Cartes montrant l’une les limites du comté, l’étendue des mandements et des communes, l’autre les diverses dépendances féodales des dauphins, des archevêques d’Embrun, du chapitre, vers 1250.</p>
       </div>
-      <div>
+      <div xml:id="r706492">
         <head rend="uc">Chapitre III
          <lb/>Institutions politiques.</head>
         <p><hi rend="i">Terres communes aux archevêques et aux dauphins</hi> (Embrun et Chorges). – État aux <num>xi<hi rend="sup">e</hi></num> et <num>xii<hi rend="sup">e</hi></num> siècles. On constate la très ancienne institution du pariage, puis celle de l’administration commune à partir du milieu du <num>xiii<hi rend="sup">e</hi></num> siècle. Importance des institutions municipales ; diverses périodes : de la fin du <num>xii<hi rend="sup">e</hi></num> siècle aux environs de 1235, acquisition paisible des libertés ; de 1235 à 1258, lutte entre les seigneurs et le consulat. Évolution défavorable aux libertés municipales ; tentatives de gouvernement indépendant ; rôle étendu des Assemblées générales d’habitants. Nombre de consuls, quatre puis cinq avec des conseillers ; nomination par l’Assemblée générale ; présence d’officiers de police ; pouvoirs étendus. De 1258 à la fin du siècle, perte des libertés et privilèges consulaires ; rôle surtout économique de l’institution.</p>
@@ -79,7 +77,7 @@
         <p><hi rend="i">Terres delphinales</hi> (Réotier, les Orres, les Crottes, Baratier, Montmirail, Savines, Avançon, Theus, Rémolon). – Situation au <num>xii<hi rend="sup">e</hi></num> siècle pour Réotier et les Orres. Caractéristiques : absence quasi totale, au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle, de libertés municipales ; droits très étendus des nobles ; maintien de la petite féodalité, souvent employée comme agent delphinal ; condition très dure pour les serfs.</p>
         <p><hi rend="i">Mandement de Rame</hi> (l’Argentière, Fressinières, Rame, Palon, Champcella). – Discussion de la thèse de Manteyer dans la <hi rend="i">Provence</hi> sur l’appartenance de ce mandement au Briançonnais delphinal. Rejet de cette thèse par la critique des documents cités ; apport de preuve nouvelle (acte de 1128, montrant un comte de Provence, Guillaume, agir souverainement à l’Argentière). Conclusion : dépendance féodale du mandement des comtes de Forcalquier, avec droits importants à l’Église d’Embrun, et quelques droits aux dauphins. Au <num>xiii<hi rend="sup">e</hi></num> siècle, prépondérance des dauphins qui ont hérité les droits des comtes de Forcalquier. Droits de l’Église d’Embrun maintenus à Rame, l’Argentière, Palon, Champcella. – Absence d’institutions municipales, présence d’une petite féodalité de caractère administratif.</p>
       </div>
-      <div>
+      <div xml:id="r706571">
         <pb source="https://nakala.fr/10.34847/nkl.822a30fl#1860d8e309072b25c58f9fe9d32b3f5864cd087c" n="133" facs="https://api.nakala.fr/iiif/10.34847/nkl.822a30fl/1860d8e309072b25c58f9fe9d32b3f5864cd087c/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre IV
          <lb/>Institutions judiciaires.</head>
@@ -87,7 +85,7 @@
         <p><hi rend="i">Terres de l’Église d’Embrun.</hi> – Quelques juges particuliers, puis un seul juge pour toutes les terres, le juge des châteaux archiépiscopaux. Droits de justice assez étendus à divers seigneurs particuliers ; avantages pour la noblesse. Appel possible des sentences seigneuriales devant le juge archiépiscopal et en dernier ressort devant l’archevêque lui-même. Les consulats n’ont pas de privilèges judiciaires.</p>
         <p><hi rend="i">Terres delphinales.</hi> – Pas de juges particuliers ; presque partout les vassaux du dauphin ont basse justice, quelquefois même haute justice. On appelle de leurs sentences devant le juge delphinal de l’Embrunais et, en dernier ressort, devant le dauphin lui-même. Administration défectueuse de la justice. Manque d’unité des institutions judiciaires du comté d’Embrun, mauvaise distribution de la justice.</p>
       </div>
-      <div>
+      <div xml:id="r706615">
         <head rend="uc">Chapitre V
          <lb/>Institutions financières.</head>
         <p>Les droits régaliens usurpés par les seigneurs locaux à la fin de la période carolingienne sont répartis entre les archevêques, les comtes de Provence et de Forcalquier, enfin les dauphins. Quelques seigneurs particuliers en jouissent.</p>
@@ -99,12 +97,12 @@
         <p>La fin du <num>xiii<hi rend="sup">e</hi></num> siècle est marquée par une centralisation financière assez poussée entre les mains du bailli d’Embrun et du vicaire du temporel pour l’archevêque.</p>
         <p>D’autre part, ecclésiastiques et nobles, favorisés par l’effondrement des libertés municipales, voient leurs privilèges croître en ces matières.</p>
       </div>
-      <div>
+      <div xml:id="r706656">
         <head rend="uc">Chapitre VI
          <lb/>Institutions militaires.</head>
         <p>Les institutions militaires sont surtout pratiquées dans les terres comtales, puis delphinales ; soigneusement réglementées dans les villes de consulat. Généralement quarante jours de service par an dus aux dauphins et aux archevêques, pratiquement aux seuls dauphins dans le détroit du comté seulement. Résistance des villes de consulat aux cavalcades. Elles possédaient quelques droits en cette matière (levée des cavalcades, défense des murailles de la ville, entretien des châteaux). En résumé, institutions peu importantes dans le comté.</p>
       </div>
-      <div>
+      <div xml:id="r706668">
         <head rend="uc">Conclusion</head>
         <p>Manque sensible d’unité des institutions. Instabilité politique due aux rivalités entre seigneurs laïques et ecclésiastiques, puis au désir de libertés des villes de consulat. Importance de l’élément social dans les institutions du comté : ascension des classes bourgeoises (fin <num>xii<hi rend="sup">e</hi></num>-milieu du <num>xiii<hi rend="sup">e</hi></num> siècle), puis réaction seigneuriale et accroissement marqué dans tous les domaines des libertés et privilèges de la classe noble. Par contre, disparition quasi totale de la féodalité locale, absorbée par les deux grands seigneurs laïques et ecclésiastiques. Au début du <num>xvi<hi rend="sup">e</hi></num> siècle, les institutions ne correspondent plus aux aspirations profondes de la majeure partie des populations du comté.</p>
       </div>

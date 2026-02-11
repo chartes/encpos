@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Lacombe</surname>
         <roleName>Ph. D</roleName>
       </byline>
-      <div>
+      <div xml:id="r460819">
         <head rend="uc">Introduction</head>
         <p>Prévostin est à peu près inconnu. On peut négliger les travaux qui ont été faits jusqu’ici. Nous diviserons notre étude en deux parties.</p>
       </div>
@@ -66,7 +64,7 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r460838">
         <head rend="uc">Première partie
          <lb/>Sa vie</head>
         <p>Ce chancelier de l’Université de Paris, s’appelait <hi rend="i">Guillelmus Prepositinus,</hi> en français probablement Guillaume Prévostin. 11 est né dans l’Italie du Nord entre 114o et 1150. On ignore où il a fait ses études préliminaires, mais elles sont sérieuses. Sa formation théologique s’est faite à Paris où il eut pour maître Maurice de Sully et sans doute Pierre le Mangeur. Après la maîtrise, il enseigna à Paris ; ces leçons ont leur reflet dans les <hi rend="i">Questions</hi> du ms. 1708 de la Bibliothèque Mazarine.</p>
@@ -77,10 +75,10 @@
         <p>Le titre de la <hi rend="i">Summa Theologica</hi> dans le ms. 159 de la Bibliothèque de Toulouse indique qu’il fut nommé archevêque de Londres ; cela n’est pas vrai.</p>
         <p>Il se retira peut-être au monastère de Saint-Martin des Champs dans l’obituaire duquel son nom se trouve et auquel il avait peut-être légué ses livres. En tout cas il disparaît après 1209, laissant une grande réputation de science et d’humilité.</p>
       </div>
-      <div>
+      <div xml:id="r460914">
         <head rend="uc">Deuxième partie
          <lb/>Ses oeuvres</head>
-        <div>
+        <div xml:id="r460922">
           <head rend="uc">I
            <lb/><hi rend="i">questiones Prepositini cancellarii</hi>
            <lb/><hi rend="i">parisiensis</hi></head>
@@ -91,7 +89,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.a8106o34#4bd7c5ef8ef4a089aae65344a51d1b67fed3ccc5" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8106o34/4bd7c5ef8ef4a089aae65344a51d1b67fed3ccc5/full/full/0/default.jpg"/>
           <p>5) Ces questions ont été rédigées à Paris et représentent le premier enseignement de Prévostin, dans le cercle de Maurice de Sully, entre 1170 et 1180.</p>
         </div>
-        <div>
+        <div xml:id="r460970">
           <head rend="uc">II
            <lb/><hi rend="i">Tractatus de officiis</hi></head>
           <p>1) Il n’existe de cette œuvre qu’un ms. : le n° VI-32 de la Bibliothèque Saint-Pierre de Salzbourg. Il en existait un autre à Avignon dans la Bibliothèque des Papes.</p>
@@ -102,7 +100,7 @@
           <p>6) Le <hi rend="i">Tractatus de officiis</hi> prend pour squelette le <hi rend="i">Gemma Anime</hi> et l’entoure d’une doctrine personnelle. Dans le <hi rend="i">Gemma anime</hi> (Migne, Patrologie latine, vol. CLXXII), Prévostin’ suit l’ordre des questions de la col. 645 à 675. Les citations sont rarement littérales.</p>
           <p>7) La découverte de cette source de G. Durant doit modifier certaines conclusions des liturgistes et des archéologues : par exemple ce traité constate l’existence des jubés à la tin du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r461030">
           <head rend="uc">III
            <lb/><hi rend="i">Summa super Psalterium</hi></head>
           <p>1) Il reste deux manuscrits de cette œuvre : ms. <pb source="https://nakala.fr/10.34847/nkl.a8106o34#a179216258e21292908ea767f9ca3414400e3eaa" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8106o34/a179216258e21292908ea767f9ca3414400e3eaa/full/full/0/default.jpg"/>lat. 454 de la Bibl. Nat. et ms. 55 de la Bibl. d’Assise, en outre, trois exemplaires du prologue seul.</p>
@@ -111,7 +109,7 @@
           <p>4) L’authenticité en est certaine.</p>
           <p>5) Elle fut composée avant 1198.</p>
         </div>
-        <div>
+        <div xml:id="r461065">
           <head rend="uc">IV
            <lb/><hi rend="i">Summa contra hereticos</hi></head>
           <p>1) On connaissait l’existence de cette <hi rend="i">Summa</hi> dans le ms. 434 de la Bibliothèque de Douai, où il est complet et attribué à Prévostin. On le croyait unique.</p>
@@ -121,7 +119,7 @@
           <p>5) Le traité est difficile à dater. La date donnée par Muratori, l’année 1230, doit être rejetée. Elle se <pb source="https://nakala.fr/10.34847/nkl.a8106o34#564d7058cec1f2a6521f3b9d54498edebb1bee5c" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8106o34/564d7058cec1f2a6521f3b9d54498edebb1bee5c/full/full/0/default.jpg"/>place entre 1184 et 1209, peut-être dans les premières années du pontificat d’innocent III.</p>
           <p>6) Le traité n’apporte rien de neuf sur les Cathares, mais il renouvelle et complète nos connaissances sur les Passagiens, pour lesquels les sources sont extrêmement rares. Ceux-ci apparaissent, non comme des Cathares, non comme des Chrétiens judaïsants, mais comme des ancêtres des Protestants du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r461121">
           <head rend="uc">V
            <lb/><hi rend="i">Summa theologica</hi></head>
           <p>1) 11 n’y a pas d’édition imprimée de la <hi rend="i">Summa Theologica.</hi></p>
@@ -132,7 +130,7 @@
           <p>6) Table des rubriques du manuscrit latin 14525 de la Bibliothèque Nationale, qui donne une idée de son contenu, et de la nouveauté de quelques matières.</p>
           <p>7) La <hi rend="i">Summa</hi> fut composée à Paris entre 1206 et 1209.</p>
         </div>
-        <div>
+        <div xml:id="r461164">
           <head rend="uc">VI
            <lb/><hi rend="i">les sermons</hi></head>
           <p>1) Il existe 5 recueils. Bibl. de l’Arsenal, manus<pb source="https://nakala.fr/10.34847/nkl.a8106o34#a626ba127f852cc87776d9427f8a3a7736a0b4bb" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.a8106o34/a626ba127f852cc87776d9427f8a3a7736a0b4bb/full/full/0/default.jpg"/>crit 543 ; Bibl. Nationale, lat. 14804 ; Bibl. de Saint-Pierre de Salzbourg, manuscrit VI-32, Bibl. Nationale lat. 14586 ; Bibl. de Munich, lat. 14126, et quelques autres épars.</p>
@@ -140,7 +138,7 @@
           <p>3) La plupart des recueils datent de 1203 à 1209, sauf celui du manuscrit de Salzbourg qui est d’avant 1198, peut-être d’avant 1197.</p>
           <p>4) Tous ces sermons sont authentiques sauf celui du manuscrit 338 des nouvelles acquisitions latines Je la Bibliothèque Nationale.</p>
         </div>
-        <div>
+        <div xml:id="r461196">
           <head rend="uc">
             <hi rend="i">Les opuscules</hi>
           </head>

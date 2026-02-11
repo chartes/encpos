@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,7 +54,7 @@
         <forename>Camille</forename>
         <surname>Houdaille</surname>
       </byline>
-      <div>
+      <div xml:id="r1230410">
         <head rend="uc">Sources</head>
         <p>Si les archives anciennes de l’abbaye de Saint-Denis-en-France ont fait l’objet d’inventaires précis au XVIII’ siècle, les religieux mauristes ont laissé eux-mêmes de très nombreux documents concernant l’abbaye placée sous leur mouvance. Dispersés au cours de la Révolution, certains de ces documents sont restés aux Archives municipales de Saint-Denis, dans la série GG, les autres sont répartis entre les Archives nationales, en particulier dans les séries H<hi rend="sup">5</hi>, L et LL, et les Cabinets des manuscrits et des estampes de la Bibliothèque nationale, sans oublier les archives notariales conservées à Bobigny.</p>
         <p>Le cadre architectural de l’abbaye est connu (en dehors des bâtiments eux-mêmes) grâce aux plans dressés pour sa reconstruction et aux décisions ou rapports d’entretien ou de reconstruction.</p>
@@ -64,14 +62,14 @@
         <p>Les sources générales sur la congrégation, ébauches de constitutions, règlements de chapitres généraux ou, pour la fin du XVIII’ siècle, rapports de la Commission des réguliers, sont également partagées entre Archives nationales et Bibliothèque nationale. Deux directoires, destinés l’un aux maîtres des novices et l’autre aux commis, se trouvent à la Bibliothèque nationale.</p>
         <p>Les sources biographiques consistent principalement en listes de religieux, matricule des Mauristes, registres des novices, des sépultures, liste d’épitaphes <pb source="https://nakala.fr/10.34847/nkl.ff3by1i5#5dc91d5bfdd8c05e9609119ff56bb93fd150db8b" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff3by1i5/5dc91d5bfdd8c05e9609119ff56bb93fd150db8b/full/full/0/default.jpg"/>(pour les anciens bénédictins) ou listes ponctuelles des religieux présents à l’abbaye (1633, 1718, 1769, 1790), et par ailleurs recueils de notices biographiques (Bibliothèque nationale, Bibliothèque Mazarine, Archives municipales de Saint-Denis).</p>
       </div>
-      <div>
+      <div xml:id="r1230441">
         <head rend="uc">Introduction</head>
         <p>En 1633, Louis XIII décide de réformer l’abbaye royale de Saint-Denis, dont les religieux bénédictins veulent se séculariser, en y introduisant de force, sinon de gré, des moines mauristes. C’est le début d’une nouvelle période pour la vie monastique, qui, bien qu’elle ait duré plus de cent cinquante ans, est passée sous silence aussi bien dans l’histoire de l’abbaye (dont on ne retient que le glorieux passé) que dans celle de la congrégation de Saint-Maur (où l’abbaye de Saint-Germain-des-Prés éclipse ses sœurs).</p>
       </div>
-      <div>
+      <div xml:id="r1230451">
         <head rend="uc">Première partie
          <lb/>Histoire de l’abbaye aux <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles</head>
-        <div>
+        <div xml:id="r1230471">
           <head rend="uc">Chapitre premier
            <lb/>la population monastique</head>
           <p><hi rend="i">Une nouvelle population.</hi> – Le 2 août 1633, trente-quatre religieux mauristes viennent prendre la place des cinquante-deux anciens moines. A une exception près, aucune fusion ne s’opère entre les deux communautés, mais une sorte de cohabitation s’instaure entre les Mauristes, dont la communauté s’accroît et se renouvelle sans cesse, et ceux des anciens, une bonne moitié, qui sont restés sur place et qui, s’ils n’ont pas vraiment de vie communautaire, participent à l’office divin, jusqu’à la mort du dernier d’entre eux, le 20 février 1687.</p>
@@ -81,7 +79,7 @@
           <p><hi rend="i">Les variations périodiques des effectifs.</hi> – Les effectifs de la communauté sont variables en fonction notamment du rythme des assemblées trisannuelles (la diète de la province de France se réunit à Saint-Denis) et annuelles, qui n’hésitent pas à déplacer les religieux d’un monastère à l’autre, généralement à l’intérieur d’une même province monastique. Certaines fonctions (visiteur, prédicateur, voire professeur ou étudiant, car les enseignements changent souvent de lieu) impliquent ces déplacements. Mais les variations périodiques ne portent finalement pas tant sur l’importance numérique de la communauté que sur les religieux qui la composent et se renouvellent régulièrement.</p>
           <p><hi rend="i">L’âge des religieux.</hi> – Puisque la composition exacte de la communauté à un moment donné demeure inconnue, il est difficile d’aboutir à des conclusions précises sur l’âge des religieux, mais on peut noter l’absence de noviciat à Saint-Denis, l’existence d’un cours pour les jeunes moines et la présence d’anciens prieurs qui viennent finir leurs jours à l’abbaye. Les convers et commis arrivent à l’abbaye dès leur noviciat.</p>
         </div>
-        <div>
+        <div xml:id="r1230515">
           <head rend="uc">Chapitre II
            <lb/>La vie quotidienne a l’abbaye</head>
           <p><hi rend="i">Les prieurs.</hi> – Avec la disparition de l’abbé commendataire, le prieur se voit chargé de la responsabilité tant spirituelle que temporelle de sa communauté. Il l’exerce pour trois ans, sans cumul possible, et doit en rendre compte au chapitre général de la congrégation. Il arrive que les mêmes religieux soient appelés successivement aux fonctions de supérieurs de monastères et de supérieurs généraux de la congrégation ; la situation se rencontre fréquemment à Saint-Denis. Lorsqu’ils reviennent à l’état de simples religieux, c’est souvent à Saint-Denis qu’ils sont envoyés.</p>
@@ -91,40 +89,40 @@
           <p><hi rend="i">La journée d’un commis.</hi> – Institution originale de la congrégation, le commis ne prononce pas de vœux, mais s’engage par un contrat de stabilité. Il doit avoir un métier. Les commis, comme les convers, sont minoritaires dans la communauté et n’ont pas voix au chapitre.</p>
           <p><hi rend="i">Les événements qui bouleversent cette vie quotidienne.</hi> – Que ce soit en se pliant aux exigences des cérémonies royales, en participant aux missions d’évangélisation, en obéissant aux traditions de l’abbaye, en acceptant les dérangements provoqués par le fonctionnement de la congrégation ou en subissant la guerre, la communauté, malgré les manquements à la régularité que ces diverses vicissitudes ont pu occasionner, a continué à mener la vie d’une véritable communauté monastique.</p>
         </div>
-        <div>
+        <div xml:id="r1230571">
           <head rend="uc">Chapitre III
            <lb/>La vie spirituelle et son rayonnement</head>
           <p><hi rend="i">Le fondement spirituel de la réforme mauriste.</hi> – La règle de saint Benoît, avec le chant de l’office divin, est toujours et plus que jamais la référence de la communauté. Mais les moines mauristes ne s’attachent pas à une abbaye, ils ne peuvent savoir où ils iront quand ils prononcent leurs vœux. S’ils aiment à redécouvrir l’histoire du monastère où ils se trouvent et à en faire revivre les usages propres, cette préoccupation demeure secondaire par rapport au souci de mener une vraie vie cénobitique dans l’esprit et la pureté du chemin tracé par saint Benoît. C’est une nouvelle aventure spirituelle qui commence, commune à tous les monastères mauristes.</p>
           <p><hi rend="i">Le rayonnement de la vie spirituelle de l’abbaye.</hi> – Ce nouveau souffle se manifeste parallèlement à un relatif désintérêt de la Cour pour la nécropole royale, alors que l’on constate un renouveau du culte de saint Denis, pourtant dépouillé de son origine aréopagyte et de ses écrits mystiques, mais d’autant plus honoré comme martyr et premier évêque de Paris ; il contribue à restituer à l’abbaye son rôle de pôle spirituel pour la ville et la banlieue de Saint-Denis, grâce à l’accueil régulier de missions, aux relations avec les autres communautés religieuses de Saint-Denis ou à la direction spirituelle d’abbayes de femmes, ainsi qu’à l’exercice d’un ministère paroissial et à l’administration des sacrements.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1230593">
         <pb source="https://nakala.fr/10.34847/nkl.ff3by1i5#c5fc6df50c67b4907f5541a6cce4d95bfed717e2" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff3by1i5/c5fc6df50c67b4907f5541a6cce4d95bfed717e2/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>La communauté mauriste de Saint-Denis a cessé d’exister avec les complies du 14 septembre 1792, après lesquelles l’église abbatiale devint paroissiale. Sa condition d’abbaye royale la désignait aux attaques contre l’Église et contre la royauté. Sa dépendance à l’égard de la congrégation ne pouvait la laisser subsister seule.</p>
       </div>
-      <div>
+      <div xml:id="r1230608">
         <head rend="uc">Deuxième partie
          <lb/>Édition du nécrologe des mauristes</head>
-        <div>
+        <div xml:id="r1230616">
           <head rend="uc">Présentation du nécrologe</head>
           <p>Le registre conservé aux Archives municipales de Saint-Denis sous la cote GG 195 contient deux cent soixante-quatorze notices biographiques des personnes mortes à l’abbaye, rédigées au fur et à mesure des décès, de 1638 à 1774, et précédées d’une liste des bienfaiteurs et des personnes dont l’anniversaire est célébré par un office de la communauté.</p>
         </div>
-        <div>
+        <div xml:id="r1230626">
           <head rend="uc">Édition du nécrologe</head>
           <p>Seules les deux cent soixante-quatorze notices biographiques ont été reproduites, et elles le sont intégralement. Leur numérotation a été modifiée afin de faciliter les références.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1230637">
         <pb source="https://nakala.fr/10.34847/nkl.ff3by1i5#d21636f03eba93c4ab536bdda0b42f8bd4dea549" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff3by1i5/d21636f03eba93c4ab536bdda0b42f8bd4dea549/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Notices biographiques de religieux témoins de la communauté : dom Mommole Geoffroy ; frère Jean Cornette ; dom Robert Florimond Racine.</p>
       </div>
-      <div>
+      <div xml:id="r1230652">
         <head rend="uc">Annexes</head>
         <p>Tableaux : les anciens bénédictins présents à l’abbaye en 1633 ; les sénieurs de l’abbaye de 1633 à 1792 ; les secrétaires du chapitre de l’abbaye de 1633 à 1792 ; la formation des moines à l’abbaye de 1683 à 1785 ; les conventuels de l’abbaye députés aux diètes provinciales, de 1635 à 1778 ; les convers et commis ; les religieux de l’abbaye en 1790 ; les officiers temporels de 1633 à 1790. – La reconstruction de l’abbaye. – Liste des personnages dont la notice figure dans le nécrologe des Mauristes de Saint-Denis, avec leurs références dans le nécrologe et dans la matricule des Mauristes.</p>
       </div>
-      <div>
+      <div xml:id="r1230662">
         <head rend="uc">Planches hors-texte</head>
         <p>Courbes de l’évolution des deux communautés de religieux à l’abbaye de Saint-Denis entre 1633 et 1687. – Plan des anciens et nouveaux bâtiments de l’abbaye de Saint-Denis. – Graphiques de l’origine géographique, par provinces de la congrégation de Saint-Maur, des deux cent soixante-quatorze personnes figurant dans le nécrologe des Mauristes de Saint-Denis, et de leur lieu de profession monastique ou contrat de stabilité. – Graphique de l’âge des religieux ou commis de Saint-Denis lors de leur profession monastique ou contrat de stabilité.</p>
       </div>

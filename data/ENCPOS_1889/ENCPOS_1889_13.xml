@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1889_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1889_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,16 +63,16 @@
         <head rend="uc">Avant-propos et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r172165">
         <head rend="uc">Première partie
          <lb/>Le diocèse de Beauvais aux <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles ; ses
          <lb/>subdivisions géographiques.</head>
-        <div>
+        <div xml:id="r172187">
           <head rend="uc">Chapitre I
            <lb/>Limites du diocèse de Beauvais.</head>
           <p>Les documents permettent de fixer, à peu près exactement, les limites du diocèse de Beauvais aux XII<hi rend="sup">e </hi>et <num>xiii<hi rend="sup">e</hi></num> siècles. La frontière entre ce diocèse et les diocèses environnants coïncidait avec l’Oise, de Thourotte à Verberie, puis suivait la lisière méridionale de <pb source="https://nakala.fr/10.34847/nkl.11e0157f#40b58f57964ed5a040935d5351601dced8f6d3ca" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.11e0157f/40b58f57964ed5a040935d5351601dced8f6d3ca/full/full/0/default.jpg"/>la forêt d’Halatte, contournait la forêt de l’Isle-Adam, et allait couper l’Oise vers Valmondois. De là, elle allait rejoindre, vers Aumont, la falaise du pays de Bray qu’elle suivait jusqu’à l’Epte : elle empruntait ensuite le cours de l’Epte jusqu’à la source de cette rivière, et allait rejoindre le cours de l’Oise en suivant la ligne de hauteurs qui sépare, d’une part, les bassins de la Bresle et de la Somme, de l’autre, les bassins du Thérain, de la Bresche, de l’Aronde et du Matz. Le diocèse de Beauvais avait donc alors à peu près les mêmes limites qu’à l’époque moderne.</p>
         </div>
-        <div>
+        <div xml:id="r172214">
           <head rend="uc">Chapitre II
            <lb/>Subdivisions géographiques du diocèse de Beauvais.</head>
           <p>Le diocèse de Beauvais à l’époque moderne a été divisé en trois archidiaconés ; les trois archidiaconés ont été subdivisés en neuf doyennés. Ces divisions et subdivisions existaient-elles au <num>xii<hi rend="sup">e</hi></num> siècle, <hi rend="i">en tant que circonscriptions géographiques ?</hi> Il n’est rien moins que facile de le prouver.</p>
@@ -84,15 +82,15 @@
           <p>En résumé, malgré la haute autorité de Louvet, il est permis de conclure des textes, que les divisions et subdivisions géographiques du diocèse de Beauvais ne remontent pas à une date aussi ancienne que le <num>xii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r172269">
         <head rend="uc">Deuxième partie
          <lb/>Grands fiefs souverains de l’ancien diocèse de Beauvais</head>
-        <div>
+        <div xml:id="r172277">
           <head rend="uc">Chapitre I
            <lb/>Domaine royal.</head>
           <p>Le roi n’était pas à cette époque très richement possessionné dans le diocèse de Beauvais. Au sud-est, il avait la seigneurie de Pont-Sainte-Maxence, avec ses dépendances ; au nord-est, comme successeur des comtes de Vermandois, il disposait de droits plus ou moins considérables sur la région qui s’étend entre Maignelay, Roye-sur-Matz, Ressons ; à l’ouest, la confiscation de la Normandie par Philippe-Auguste sur Jean sans Terre l’avait rendu suzerain de plusieurs fiefs entre l’Epte, le Thérain et la forêt de Thelle ; enfin, en plein diocèse, il avait la seigneurie d’Angy.</p>
         </div>
-        <div>
+        <div xml:id="r172289">
           <pb source="https://nakala.fr/10.34847/nkl.11e0157f#b32ba376add3649818f60f7b069a9f9e9dafc43a" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.11e0157f/b32ba376add3649818f60f7b069a9f9e9dafc43a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Comté-pairie de Beauvais.</head>
@@ -103,7 +101,7 @@
           <p>4° Au sud : Mello, Foulangues, Balagny-sur-Thérain, Ully-Saint-Georges.</p>
           <p>5° Au centre : la ville de Beauvais, Bracheux, Savignies, Bailleul-sur-Thérain, Bresles, Juvignies, Troissereux, Verderel, Bulles, La Rue-Saint-Pierre, Bailleval, Catenoy, Sarron, Ansacq (en partie), Bury Mouy, Abbecourt, Hodenc-l’Évêque, Mouchy-le-Châtel, Noailles, Saint-Sulpice, Warluis.</p>
         </div>
-        <div>
+        <div xml:id="r172327">
           <pb source="https://nakala.fr/10.34847/nkl.11e0157f#f2bee029cfbc1a2215a348a8077cad6030ddeb1f" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.11e0157f/f2bee029cfbc1a2215a348a8077cad6030ddeb1f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Comté de Clermont.</head>
@@ -113,21 +111,21 @@
           <p>3° Au sud : Cramoisy, Creil, Montataire, Saint-Leu-d’Esserent, Tiverny :</p>
           <p>4° Au centre : Clermont, Ronquerolles, Argenlieu, Breuil-le-Sec, Breuil-le-Vert, Choisy-la-Victoire, Warty (aujourd’hui Fitz-James), La Neurville-en-Hez, Litz, Courlieu, Cauffry, Uny-Saint-Georges, Sacy-Ie-Grand, Saint-Martin-Longueau, Hermes, Berthecourt, Villers-Saint-Sépulcre, Cambronne (en partie), Hondainville, Saint-Félix.</p>
         </div>
-        <div>
+        <div xml:id="r172368">
           <head rend="uc">Chapitre IV
            <lb/>Comté de Beaumont-sur-Oise.</head>
           <p>Le comté de Beaumont-sur-Oise était le moins grand des trois comtés qui se partageaient l’ancien diocèse de <pb source="https://nakala.fr/10.34847/nkl.11e0157f#ceb99a23b0a12e0a29a7b3a3db59b47052fd0b22" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.11e0157f/ceb99a23b0a12e0a29a7b3a3db59b47052fd0b22/full/full/0/default.jpg"/>Beauvais et tandis que le comté de Clermont devait subsister jusqu’au <num>xii<hi rend="sup">e</hi></num> siècle, le comté de Beaumont fut acquis par la couronne vers 1223. Ce comté était vassal de celui de Beauvais, mais, comme pour celui de Clermont, on ne sait ni depuis quelle époque, ni de quelle manière s’exerçait la suzeraineté. A son tour, le comte de Beaumont dominait souverainement dans la région méridionale du diocèse de Beauvais et en particulier à Asnières-sur-Oise, Beaumont-sur-Oise, la Boissière, Boran, Bornel, Cavillon, Chambly, le Déluge, Fresnoy-en-Thelle, Gouvieux (en partie), l’Ile-Adam, Lormaisons, Maffliers, Méru, Morangles, Mours, Neuilly-en-Thelle, Noisy-sur-Oise, Persan, Presles, Puiseux-le-Hauberger, Sainte-Geneviève, Saint-Martin-du-Tertre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r172392">
         <head rend="uc">Troisième partie
          <lb/>Féodalité ecclésiastique</head>
-        <div>
+        <div xml:id="r172400">
           <head rend="uc">Chapitre I
            <lb/>Chapitre cathédral de Beauvais.</head>
           <p>Le chapitre de la cathédrale de Beauvais avait obtenu par diverses concessions ou donations un temporel fort considérable. Il dominait – en tout ou partie – à Allonne, Ansacq, Arsy, Bienville, Boursines, la Bruyère, Catenoy, Cauvigny, Coizeaux, Cuigy-en-Bray, Doudeauville, Essuile, Estrées-Saint-Denis, Gancourt-Saint-Etienne, Guignecourt, Haudivilliers, Litz, Longvillers, Mouchy-le-Perreux, Moyvillers, Noirémont, Oroër, Reuil-sur-Brêche, La Rue-Saint-Pierre, Velennes, Voisinlieu.</p>
         </div>
-        <div>
+        <div xml:id="r172412">
           <pb source="https://nakala.fr/10.34847/nkl.11e0157f#94bbcdd00db1440d9466e3e3bd2463f79ac512db" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.11e0157f/94bbcdd00db1440d9466e3e3bd2463f79ac512db/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Abbayes.</head>
@@ -147,7 +145,7 @@
           <p>12° <hi rend="i">Abbaye de Chaalis</hi> (diocèse de Senlis). – L’abbaye de Chaalis avait des revenus souvent assez importants à Brenouille, Cinqueux, Froyères, Moyvillers, Noirvaux, Rotangy, Sainte-Eusoye, Trembloy, Troussures.</p>
           <p>13° <hi rend="i">Abbaye de Saint-Denis</hi> (diocèse de Paris). – L’abbaye de Saint-Denis avait depuis une époque reculée des droits sur diverses localités du diocèse de Beauvais, en particulier dans la partie méridionale de ce diocèse, savoir : à Asnières, Bailleul-le-Soc, Bruyères, Cavillon, Cires-les-Mello, Crouy-en-Thelle, Estrées-Saint-Denis, Liancourt, Maffliers, Morancy, Mours, Moyvillers, Noisy-sur-Oise, Presles, Saint-Martin-du-Tertre, Ully-Saint-Georges, Verderonne.</p>
         </div>
-        <div>
+        <div xml:id="r172530">
           <head rend="uc">Chapitre III
            <lb/>Prieurés.</head>
           <p>Parmi les nombreux prieurés de l’ancien diocèse de Beauvais, les plus riches étaient :</p>
@@ -155,13 +153,13 @@
           <p>2° <hi rend="i">Le prieuré de Saint-Leu d’Esserent,</hi> qui possédait la plus grande partie de la seigneurie de Saint-Leu et les cures de Cauffry, Champagnes, Précy-sur-Oise.</p>
           <p>3° <hi rend="i">Le prieuré de Wariville :</hi> ce prieuré, très riche, avait d’importantes possessions à Belloy, Bucamp, Bulles, Bus-Maubert, Courlieu, Fumechon, Hermes, La Houssoye, Mésenguy, Monceaux-près-Bulles, Puits-la-Vallée, Saint-Rimault.</p>
         </div>
-        <div>
+        <div xml:id="r172562">
           <head rend="uc">Chapitre IV
            <lb/>Collégiales, établissements hospitaliers.</head>
           <p>Les collégiales et établissements hospitaliers du dio<pb source="https://nakala.fr/10.34847/nkl.11e0157f#3974b0730d144b9dfc56ed296c3802ab346be6a9" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.11e0157f/3974b0730d144b9dfc56ed296c3802ab346be6a9/full/full/0/default.jpg"/>cèse de Beauvais étaient très nombreux. La seule collégiale qui eût des revenus considérables était celle de Saint-Pierre de Gerberoy dont dépendaient les églises de Canny-sur-Thérain, Courcelle-Ranson, Ernemont-Boutavent, Gerberoy (en partie), Haussez, Héricourt-Saint-Samson, La Chapelle-sous-Gerberoy, Loueuse, Omécourt, Rotangy, Sully, Saint-Deniscourt, Saint-Ouen près Therdonne, Saint-Samson, Tillé, Wambez. Quant aux établissements hospitaliers du diocèse, les documents ne nous renseignent que sur l’hôtel-Dieu de Beauvais qui avait divers droits, relativement importants, à Noyers-Saint-Martin, Francastel, Lihus, Villers-sur-Thère.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r172580">
         <head rend="uc">Quatrième partie</head>
         <div>
           <head rend="uc">Dictionnaire topographique de l’ancien diocèse de

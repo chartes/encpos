@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1998_32" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1998_32" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,45 +55,45 @@
         <surname>de Solan Bethmale</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1333334">
         <head rend="uc">Introduction</head>
         <p>Dans le calendrier julien utilisé par l’Église, la fête de Pâques est célébrée le dimanche suivant la pleine lune qui atteint ou dépasse l’équinoxe de printemps. Ce dernier était supposé avoir lieu tous les ans le 21 mars et les nouvelles lunes étaient censées revenir aux mêmes dates au bout de dix-neuf ans, de sorte qu’il suffisait d’en marquer deux cent trente-cinq dans le calendrier pour obtenir facilement toutes les autres. Mais depuis le <num>xii<hi rend="sup">e</hi></num> siècle, de nombreux computistes ont fait remarquer que l’équinoxe de printemps et les nouvelles lunes se produisaient plusieurs jours avant la date qui leur avait été attribuée. Ainsi est née la question de la réforme du calendrier.</p>
         <p>Au <num>xv<hi rend="sup">e</hi></num> siècle, en Occident, le problème de la réforme du calendrier, quittant le domaine de la seule réflexion théorique, fait l’objet de discussions pratiques dans le cadre des conciles généraux de Constance puis de Bâle. L’étude s’appuie sur les textes relatifs à la réforme du calendrier rédigés entre le début du <num>xv<hi rend="sup">e</hi></num> siècle et 1476, date de la mort de Regiomontanus.</p>
         <p>En premier lieu, il convient d’évaluer la place occupée par la question de la réforme du calendrier dans la vie sociale et politique, grâce à l’étude de la personnalité des auteurs de propositions de réforme, de leurs sources, de leur tradition manuscrite. En second lieu, il est nécessaire d’analyser les problèmes techniques, astronomiques et canoniques, à résoudre, ainsi que les solutions envisagées. Il doit être ainsi possible de mieux comprendre les causes de l’échec de la réforme.</p>
       </div>
-      <div>
+      <div xml:id="r1333368">
         <head rend="uc">Sources</head>
         <p>Deux sortes de sources ont été consultées : d’une part, des ouvrages de comput, permettant de comprendre les principes du calendrier ecclésiastique ; d’autre part, des textes proprement relatifs à la correction du calendrier.</p>
         <pb source="https://nakala.fr/10.34847/nkl.a69at1wq#e950e319e34a8cfefd50e6e910f2f376c652c246" n="276" facs="https://api.nakala.fr/iiif/10.34847/nkl.a69at1wq/e950e319e34a8cfefd50e6e910f2f376c652c246/full/full/0/default.jpg"/>
         <p>Au bas Moyen Age, la littérature de comput comprend essentiellement des traités et des calendriers. Certains présentent le système utilisé par l’Église ; d’autres ajoutent à cet exposé des informations astronomiques. On peut ainsi distinguer des traités de comput ecclésiastique, chirométriques ou en prose, des calendriers ecclésiastiques, des traités de comput astronomique et des calendriers astronomiques.</p>
         <p>Les textes concernant la réforme du calendrier sont très divers. Certains, qui contiennent des solutions politiques ou techniques destinées à mettre fin aux erreurs, peuvent être proprement qualifiés de propositions de réforme du calendrier. On y trouve des traités (dont plusieurs n’avaient pas été signalés jusqu’à présent), des questions disputées, des lettres, des projets d’actes, un compte rendu de séance, des avis, et même un texte en forme de calendrier ecclésiastique. D’autres documents, moins engagés, permettent de comprendre la procédure institutionnelle suivie pour la correction du calendrier au concile de Bâle ou font allusion à la place du problème dans l’époque. Il s’agit pour l’essentiel des protocoles des notaires du concile de Bâle et des <hi rend="i">Gesta concilii Basiliensis</hi> de Jean de Ségovie.</p>
       </div>
-      <div>
+      <div xml:id="r1333393">
         <head rend="uc">Première partie
          <lb/>Le calendrier ecclésiastique
          <lb/>les calendriers juif et arabe</head>
-        <div>
+        <div xml:id="r1333403">
           <head rend="uc">Chapitre premier
            <lb/>le calendrier ecclésiastique</head>
           <p>Pour pouvoir comprendre les projets de réforme du calendrier, il est indispensable de connaître les principes du calendrier solaire et du calendrier lunaire, qui constituent le calendrier ecclésiastique. Puisque Pâques tombe le dimanche suivant la lune 14<hi rend="sup">e</hi> pascale, l’évaluation astronomique des erreurs nécessite une définition précise de la relation entre conjonction et lune l<hi rend="sup">re</hi>. Il apparaît, à travers les textes étudiés, que la lune 1<hi rend="sup">er</hi> est assimilée au jour de la conjonction moyenne de la Lune et du Soleil.</p>
         </div>
-        <div>
+        <div xml:id="r1333427">
           <head rend="uc">Chapitre II
            <lb/>Les calendriers juif et arare</head>
           <p>Le calendrier juif et, dans une moindre mesure, le calendrier arabe fascinent bien des auteurs de projets de réforme du calendrier. Il est donc utile de les présenter sommairement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1333440">
         <pb source="https://nakala.fr/10.34847/nkl.a69at1wq#c6e156b2e7dd9357519e5b37aff8db222736ac3f" n="277" facs="https://api.nakala.fr/iiif/10.34847/nkl.a69at1wq/c6e156b2e7dd9357519e5b37aff8db222736ac3f/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les hommes</head>
-        <div>
+        <div xml:id="r1333453">
           <head rend="uc">Chapitre premier
            <lb/>autour de pierre d’Ailly</head>
           <p><hi rend="i">Pierre d’Ailly.</hi> – L’évêque de Cambrai Pierre d’Ailly (1351-1420), connu pour sa culture astrologique, est l’auteur d’un traité sur la réforme du calendrier, rédigé en 1411 : l’<hi rend="i">Exhortatio super kalendarii correctione.</hi> L’auteur recopie de nombreux passages techniques de l’<hi rend="i">Opus tertium</hi> de Roger Bacon, sans jamais le signaler. C’est que Pierre d’Ailly ne se préoccupe pas d’abord de rechercher la solution technique la plus adéquate, mais de pousser à l’action le concile de Rome qui se prépare. Trois autres textes sont transmis avec l’<hi rend="i">Exhortatio</hi> dans de nombreux manuscrits : une épître dédicatoire et une supplique collective adressées au pape Jean XXIII, ainsi qu’un projet de décret de réforme. Il est probable que l’ensemble a été envoyé au pape peu après le milieu de l’année 1411. Finalement, le concile de Rome a vite échoué et la question de la réforme du calendrier semble n’avoir été qu’effleurée au concile de Constance.</p>
           <p><hi rend="i">Jean Gerson.</hi> – La contribution de Jean Gerson (1363-1429) à la réflexion sur la réforme du calendrier est plus inattendue. Elle prend la forme d’une lettre, datée de 1428 et probablement adressée à Oswald de Corda, prieur de la Grande Chartreuse. Le chancelier propose qu’un cardinal se charge de promouvoir la réforme auprès du pape et que des experts en examinent les modalités pratiques. Jean Gerson, apparemment peu intéressé par les modalités techniques de la réforme, se contente d’annexer à sa lettre un extrait du <hi rend="i">De astronomia</hi> de Raymond Lulle.</p>
         </div>
-        <div>
+        <div xml:id="r1333490">
           <head rend="uc">Chapitre II
            <lb/>La réforme du calendrier au concile de bale</head>
           <p>Le concile de Bâle (1431-1449) est le point culminant des réflexions autour de la question de la réforme du calendrier au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
@@ -104,7 +102,7 @@
           <p><hi rend="i">Nicolas de Cues.</hi> – Nicolas de Cues (1401-1464), docteur en droit canonique, est le deuxième grand acteur des tentatives de réforme du calendrier au concile de Bâle. On lui doit un traité, le <hi rend="i">De correctione kalendarii.</hi> rédigé en 1435 ou en 1436, et présenté au concile en mars 1436. Visiblement plus intéressé par la validité canonique de la réforme que par ses aspects scientifiques, Nicolas de Cues a abondamment recours aux actes des anciens conciles et aux textes de la basse Antiquité sur la date de Pâques.</p>
           <p><hi rend="i">Johannes Keck.</hi> – Johannes Keck (1400-1450), prêtre et bachelier formé en théologie, a écrit en mars 1440 un calendrier ecclésiastique suivant les principes de la correction du calendrier proposée dans le projet de décret de 1437. Il apparaît que le nouveau système ne modifierait que fort peu de chose à l’ancien. Il est toutefois impossible d’en déduire que le calendrier de Johannes Keck a été rédigé dans l’intention de faire accepter la réforme proposée.</p>
         </div>
-        <div>
+        <div xml:id="r1333557">
           <head rend="uc">Chapitre III
            <lb/>Après le concile de bale</head>
           <p><hi rend="i">Henricus de Runen.</hi> – Maître ès arts à l’université d’Erfurt, Henricus de Runen a dirigé, en 1444, une dispute sur la réforme du calendrier dont nous possédons le compte rendu. Même s’il ne prend pas parti et n’avance aucune solution nouvelle, Henricus a le mérite de mettre en évidence les conventions sur lesquelles repose le comput et de tenter d’envisager, de manière systématique, toutes les solutions possibles pour la réforme du calendrier.</p>
@@ -114,10 +112,10 @@
           <p><hi rend="i">La question de la réforme du calendrier en 1474 à travers le « Kalendarium » de Regiomontanus.</hi> – Dans la version latine de son célèbre calendrier, Regiomontanus (1436-1476) a inséré un développement sur la réforme du calendrier. Il ne propose aucune solution mais montre à quel point les défauts du calendrier sont connus dans la population chrétienne et chez les juifs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1333602">
         <head rend="uc">Troisième partie
          <lb/>Les méthodes</head>
-        <div>
+        <div xml:id="r1333610">
           <head rend="uc">Chapitre premier
            <lb/>l’analyse des erreurs du calendrier</head>
           <p><hi rend="i">Les erreurs astronomiques.</hi> – Les deux fondements astronomiques du calendrier ecclésiastique, l’année tropique de trois cent soixante-cinq jours un quart et l’égalité entre deux cent trente-cinq lunaisons et dix-neuf années solaires, sont inexacts. C’est pourquoi l’équinoxe vernal et les nouvelles lunes réelles semblent remonter dans le calendrier. Il convient d’évaluer les écarts accumulés ainsi que les durées exactes de l’année tropique et du mois synodique, afin de pouvoir déterminer les remèdes à apporter aux erreurs du calendrier.</p>
@@ -126,7 +124,7 @@
           <p><hi rend="i">Les obligations canoniques sur les dates des fêtes.</hi> – Le problème canonique posé par la réforme du calendrier ne doit pas être négligé. En effet, la fête de Pâques est définie à la fois comme le dimanche suivant la pleine lune atteignant ou dépassant l’équinoxe de printemps et comme le dimanche suivant la lune 14<hi rend="sup">e</hi> atteignant ou dépassant le 21 mars. Il est donc nécessaire de savoir si la pleine lune et l’équinoxe de printemps doivent être définis par rapport aux données astronomiques ou au calendrier juif, dont il est question dans la Bible, et si l’équinoxe de printemps doit rester fixé au 21 mars. Les réponses à ces questions sont variées.</p>
           <p>La célébration de la fête de Noël, à la différence de celle de Pâques, n’est soumise à aucun véritable impératif. Il n’est pas indispensable qu’elle reste fixe par rapport aux saisons. Cependant, la dérive du 25 décembre dans les saisons peut avoir de fâcheuses conséquences pour la liturgie.</p>
         </div>
-        <div>
+        <div xml:id="r1333649">
           <head rend="uc">Chapitre II
            <lb/>La correction des erreurs du calendrier</head>
           <p>Il convient de réduire les écarts existants et d’empêcher que de nouveaux ne se forment. Il est donc légitime de distinguer une correction initiale d’une correction périodique. D’autre part, la remontée des nombres d’or ou de l’équinoxe de printemps du calendrier peut être obtenue de deux façons : par déplacement, en les fixant quelques lignes plus haut, ou par soustraction, en omettant un ou plusieurs jours.</p>
@@ -135,15 +133,15 @@
           <p><hi rend="i">La correction conjointe des calendriers lunaire et solaire.</hi> – Puisque l’écart des nombres d’or et des conjonctions moyennes diffère de celui de l’équinoxe vernal et du 21 mars, et puisque la dérive des nouvelles lunes est plus lente que celle des <pb source="https://nakala.fr/10.34847/nkl.a69at1wq#5f6b70ee7c004f6367459b1407f4a10171e893fd" n="281" facs="https://api.nakala.fr/iiif/10.34847/nkl.a69at1wq/5f6b70ee7c004f6367459b1407f4a10171e893fd/full/full/0/default.jpg"/>équinoxes et des solstices, il est impossible de corriger à la fois le calendrier solaire et le calendrier lunaire par soustraction. Il faut donc apparemment renoncer à réformer le calendrier solaire, ou accepter de corriger les deux composantes du calendrier par déplacement, malgré les inconvénients de cette méthode. En fait, une autre solution est mise à l’honneur au <num>xv<hi rend="sup">e</hi></num> siècle, qui consiste à employer en même temps la soustraction et le déplacement. Cette méthode, qui peut être qualifiée de mixte, est utilisée par le projet de décret de 1437, pour la correction initiale du calendrier lunaire, et par le projet de décret de 1435, pour la correction périodique du calendrier lunaire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1333691">
         <head rend="uc">Conclusion</head>
         <p>Au <num>xv<hi rend="sup">e</hi></num> siècle, les défauts du calendrier semblent avoir été largement connus, mais très rarement compris. A l’occasion du concile de Constance et, surtout, du concile de Bâle, la question de la réforme prend une nouvelle dimension : à la discussion théorique traditionnelle vient s’ajouter un débat sur la mise en œuvre effective d’une correction. La réflexion canonique sur la date de Pâques prend son essor à ce moment-là. La faillite de la procédure engagée à Bâle s’explique probablement par le souci d’éviter l’introduction d’un nouveau germe de division parmi les chrétiens. Cependant, l’échec n’est pas total, car les solutions proposées en 1435 et 1437 serviront dans la réforme de 1582.</p>
       </div>
-      <div>
+      <div xml:id="r1333707">
         <head rend="uc">Édition</head>
         <p>Édition de la <hi rend="i">Phaselexis</hi> de 1437 de Hermann Zœst, à partir du manuscrit de Bâle, bibliothèque universitaire, A V 25, fol. 165-182.</p>
       </div>
-      <div>
+      <div xml:id="r1333721">
         <head rend="uc">Annexes</head>
         <p>Tableaux des différentes estimations de la durée de l’année tropique et du mois synodique. – Tables des nombres d’or corrigés proposées dans les projets de réforme du calendrier. – Tableau récapitulatif de toutes les propositions étudiées. – Schémas, graphiques et tableaux divers.</p>
         <pb source="https://nakala.fr/10.34847/nkl.a69at1wq#02eb994708fde1f686ec38240136040228f4df7c" n="282" facs="https://api.nakala.fr/iiif/10.34847/nkl.a69at1wq/02eb994708fde1f686ec38240136040228f4df7c/full/full/0/default.jpg"/>

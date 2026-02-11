@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1965_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1965_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,24 +54,24 @@
         <forename>Maurice</forename>
         <surname>de Tribolet-Hardy</surname>
       </byline>
-      <div>
+      <div xml:id="r864497">
         <head rend="uc">Avant-propos</head>
         <p>Le cartulaire de Montfaucon est un gros recueil de quatre cent quarante-trois chartes relatives aux possessions des sires de Montfaucon. Il réunit une documentation intéressante pour l’histoire de la Franche-Comté aux XIII<hi rend="sup">e </hi>et <num>xiv<hi rend="sup">e</hi></num> siècles.</p>
       </div>
-      <div>
+      <div xml:id="r864517">
         <head rend="uc">Sources</head>
         <p>Les Archives de Neuchâtel en Suisse, sous la cote n° 220, conservent le cartulaire qui fait l’objet de la présente édition. Il y a, aux Archives départementales du Doubs, une copie de ce cartulaire, établie en 1870 par l’archiviste Jules Gauthier, ainsi qu’un gros inventaire in-folio (E 2758 – E 2767) des titres de la maison de Chalon actuellement conservés au château d’Arlay (Jura), inventaire dont le vol. VIII concerne les titres de la seigneurie de Montfaucon.</p>
       </div>
-      <div>
+      <div xml:id="r864527">
         <head rend="uc">Première partie
          <lb/>Notice descriptive et critique du cartulaire</head>
-        <div>
+        <div xml:id="r864535">
           <head rend="uc">Chapitre premier
            <lb/>histoire du chartrier</head>
           <p><hi rend="i">Les Archives du Jura et le chartrier d’Arlay.</hi> – Les archives de la maison de Montfaucon furent recueillies par la maison de Chalon quand Jeanne de Montfaucon (morte en 1445) épousa Louis de Chalon, prince d’Orange. En 1530, toutes les possessions de la maison de Chalon-Orange furent dévolues à la maison <pb source="https://nakala.fr/10.34847/nkl.b3faq5tm#0bc23225fb86bb46e6e78943337d0562759947db" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3faq5tm/0bc23225fb86bb46e6e78943337d0562759947db/full/full/0/default.jpg"/>de Nassau, dont tous les biens franc-comtois furent confisqués en 1570 par le duc d’Albe, à la suite de la révolte des Gueux. Les titres concernant ces biens furent réunis sous l’autorité du trésorier des chartes du comté de Bourgogne. En 1830, ces titres furent remis par le préfet du Doubs à un prince d’Aremberg et se trouvent depuis lors au chartrier d’Arlay.</p>
           <p><hi rend="i">Les Archives de Neuchâtel.</hi> – Le mariage de Jeanne de Montfaucon et du comte Louis de Neuchâtel, célébré en juillet 1325, explique la présence, aux Archives de Neuchâtel, du cartulaire et de nombreuses pièces se rapportant à la Franche-Comté.</p>
         </div>
-        <div>
+        <div xml:id="r864561">
           <head rend="uc">Chapitre II
            <lb/>Notice descriptive</head>
           <p><hi rend="i">Description matérielle du cartulaire.</hi> – Le manuscrit se présente sous forme d’un grand volume in-folio de cent vingt-trois feuillets de papier dont cent seize seulement sont écrits à pleines pages. L’état de conservation est bon pour les trois cent cinquante premiers actes, mauvais pour les cent derniers. Le manuscrit ne contient ni titre courant ni tables.</p>
@@ -81,7 +79,7 @@
           <p><hi rend="i">Datation du cartulaire.</hi> – En épousant le comte Louis de Neuchâtel (juillet 1325), Jeanne de Montfaucon lui apportait en dot, en plus de ses possessions comtoises, le cartulaire déposé à Neuchâtel. Comme d’autre part, le document le plus récent transcrit dans ce manuscrit porte la date 1315, le cartulaire a donc été établi entre 1315 et 1325.</p>
           <p><hi rend="i">Contenu du cartulaire.</hi> – Le manuscrit contient la copie de quatre cent quarante-trois pièces comprises entre 1204 et 1315.</p>
         </div>
-        <div>
+        <div xml:id="r864606">
           <head rend="uc">Chapitre III
            <lb/>Notice critique</head>
           <p><hi rend="i">Valeur du texte du cartulaire.</hi> – D’après les quelques originaux retrouvés, les copies paraissent assez fidèles.</p>
@@ -91,10 +89,10 @@
           <p>Le style employé par l’officialité de Besançon doit être celui de Noël ou de l’Annonciation, puis, à partir de 1261, le style employé semble être celui de Pâques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r864645">
         <head rend="uc">Deuxième partie
          <lb/>Notice historique</head>
-        <div>
+        <div xml:id="r864653">
           <head rend="uc">Chapitre premier
            <lb/>remarques sur les acquisitions
            <lb/>des Montfaucon en Varais de 1204 à 1305</head>
@@ -105,7 +103,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.b3faq5tm#3e42cda91e1a55ac7e150b052decdb89f95f6434" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3faq5tm/3e42cda91e1a55ac7e150b052decdb89f95f6434/full/full/0/default.jpg"/>
           <p>Pendant près d’un siècle, les sires de Montfaucon ont suivi une politique efficace de points d’appui, en s’établissant au bord du Doubs et dans les vallées, le plus souvent sur des positions dominantes. Les Montfaucon ont concentré tous leurs efforts sur le Varais qui, au début du <num>xiv<hi rend="sup">e</hi></num> siècle, peut être considéré comme une chasse gardée de la maison de Montfaucon.</p>
         </div>
-        <div>
+        <div xml:id="r864702">
           <head rend="uc">Chapitre II
            <lb/>Les droits du seigneur sur sa terre</head>
           <p><hi rend="i">Les droits de protection exercés par le seigneur sur ses hommes.</hi> – Le principal devoir du seigneur étant de faire régner la justice dans ses terres, les sires de Montfaucon se réservent la haute et basse justice.</p>
@@ -115,7 +113,7 @@
           <p>En règle générale, ils s’efforcent d’étendre leur monopole sur les moulins et les fours (banalités).</p>
           <p><hi rend="i">U administration du domaine.</hi> – Les sires de Montfaucon ne gèrent pas directement leurs biens. Ils préfèrent s’en remettre à des châtelains (<hi rend="i">castellani) </hi>et à des prévôts (<hi rend="i">prepositi</hi>), chargés de percevoir les tailles et les revenus dans le ressort de la châtellenie (« chastelrie », « chatelenie ») qui leur est confiée, et qui sont tenus de rendre un compte exact de leur gestion. Selon toute probabilité ces charges sont affermées.</p>
         </div>
-        <div>
+        <div xml:id="r864758">
           <head rend="uc">Chapitre III
            <lb/>La société franc-comtoise</head>
           <p><hi rend="i">Les nobles.</hi> – Dès la seconde moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, l’endettement commence à caractériser l’attitude économique du seigneur comtois, obligé de vendre ou d’engager ses biens pour rembourser ses dettes. Cette situation peu enviable est surtout le fait du petit seigneur comtois, cadet de famille, peu avantagé par le droit successoral qui favorise l’aîné et, même si les alleux pullulent en Franche-Comté, ils sont trop petits pour assurer une vie décente à des propriétaires indépendants, mais misérables.</p>
@@ -125,7 +123,7 @@
           <p><hi rend="i">Les juifs et les lombards.</hi> – En 1301, les juifs et les lombards apparaissent pour la première fois dans le cartulaire. Ils sont mentionnés à Pontarlier, Dôle et Besançon. Ils participent activement à la mutation économique qui s’accomplit alors, en avançant de grosses sommes d’argent à la noblesse comtoise endettée. Les sires de Montfaucon empruntent également, toutefois ils prennent soin de rembourser leurs dettes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r864807">
         <head rend="uc">Conclusion</head>
         <p>Les Montfaucon ont su s’adapter aux nécessités de l’économie nouvelle, tout en respectant les structures féodales archaïsantes de la société comtoise d’alors. Repliés sur leurs terres du Varais, ils ont réalisé à leur profit le regroupement des terres qui, à l’aube du <num>xiv<hi rend="sup">e</hi></num> siècle, s’avérait nécessaire pour affirmer leur indépendance face aux empiétements de la monarchie française.</p>
       </div>
@@ -133,7 +131,7 @@
         <head rend="uc">Édition partielle</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r864832">
         <head rend="uc">Appendices</head>
         <p>Répertoire biographique des principaux seigneurs cités dans le cartulaire.</p>
         <p>Table chronologique des actes édités.</p>

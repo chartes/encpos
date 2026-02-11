@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1956_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1956_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,13 +56,13 @@
         <forename>Geneviève</forename>
         <surname>Salleron</surname>
       </byline>
-      <div>
+      <div xml:id="r776134">
         <head rend="uc">Introduction et bibliographie</head>
         <p>C’est pour contribuer à la connaissance de la prédication française au <num>xv<hi rend="sup">e</hi></num> siècle qu’a été entreprise cette étude. Robert Ciboule tient une place honorable parmi les prédicateurs français entre Jean Gerson et Olivier Maillard.</p>
       </div>
-      <div>
+      <div xml:id="r776150">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r776156">
           <head rend="uc">Chapitre premier
            <lb/>l’auteur.</head>
           <p><hi rend="i">La jeunesse et les études.</hi> – Robert Ciboule est né vers 1403 à Breteuil en Normandie. Il vient jeune à Paris, où nous le trouvons, en 1430, comme boursier au collège d’Harcourt. En 1435, l’Université le délègue au congrès d’Arras. Il est élu recteur en 1437.</p>
@@ -76,19 +74,19 @@
           <p><hi rend="i">Le chancelier.</hi> – En 1451, Guillaume Chartier lui confère la chancellerie de Notre-Dame. Ciboule fait partie de la commission de réforme de l’Université de 1452, dirigée par le cardinal d’Estouteville.</p>
           <p><hi rend="i">Les dernières années.</hi> – Doyen de la cathédrale d’Évreux et camérier de Nicolas V, Ciboule est nommé proviseur du collège d’Harcourt en 1455. 11 passe la fin de sa vie dans sa maison canoniale à Paris, où il meurt en août 1458, après une maladie assez longue, coupée de répits et de rechutes.</p>
         </div>
-        <div>
+        <div xml:id="r776206">
           <head rend="uc">Chapitre II
            <lb/>Les œuvres.</head>
           <p>Les œuvres de Robert Ciboule comprennent des ouvrages de caractère scolaire, comme le <hi rend="i">Commentaire sur l’épître aux Romains,</hi> politique, comme les deux lettres écrites en collaboration avec Martin Berruyer au cardinal Aleman, président du concile de Bâle, et à l’évêque de Lübeck, et surtout de nombreux traités et opuscules religieux. Ses deux œuvres les plus connues sont le <hi rend="i">Mémoire sur le procès de Jeanne d’Arc</hi> et le <hi rend="i">Livre de Sainte Méditation,</hi> qui datent des années 1452-1453. Ciboule est, en outre, l’auteur de sermons français, dont une douzaine nous a été conservée.</p>
         </div>
-        <div>
+        <div xml:id="r776230">
           <head rend="uc">Chapitre III
            <lb/>Étude littéraire et doctrinale des sermons français.</head>
           <p><hi rend="i">La technique.</hi> – Les sermons français de Ciboule obéissent aux règles formulées par les <hi rend="i">Artes praedicandi</hi> touchant la façon de choisir et de développer un thème. Cependant, ils ne présentent pas la forme savante et rigide des sermons latins de la même époque composés pour les clercs.</p>
           <p><hi rend="i">Le style.</hi> – Les sermons français ont un style simple et clair. L’auteur s’ingénie à rendre vivante et accessible la doctrine qu’il veut enseigner aux fidèles. Les exemples et les images ne sont pas très nombreux. Par contre, les citations sont très fréquentes. Elles sont empruntées surtout aux Pères de l’Église et aux théologiens. Les Anciens sont peu représentés ; on remarque, cependant, des citations d’Aristote, Platon, Sénèque et Horace.</p>
           <p><hi rend="i">La doctrine.</hi> – L’enseignement dogmatique et moral reflète surtout celui de l’Évangile, comme cela est normal dans une prédication dominicale. Mais sur certains points tels que l’importance donnée à l’humilité, <pb source="https://nakala.fr/10.34847/nkl.b381tkou#0e0cfa7e95c2d751199da27b5291de22c6cd45ee" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.b381tkou/0e0cfa7e95c2d751199da27b5291de22c6cd45ee/full/full/0/default.jpg"/>la connaissance de Dieu que l’on peut avoir à travers la connaissance de soi, Ciboule se révèle plus particulièrement comme un disciple de saint Bernard et de Guillaume de Saint-Thierry.</p>
         </div>
-        <div>
+        <div xml:id="r776266">
           <head rend="uc">Chapitre IV
            <lb/>Étude du sermon de la passion.</head>
           <p><hi rend="i">Datation et localisation.</hi> – Le sermon de la Passion, qui a pour thème un verset du psaume 108 : <hi rend="i">Posuerunt adversum me mala pro bonis et odium pro dilectione mea,</hi> a été prononcé, le vendredi saint 30 mars 1442, à Saint-Jacques-de-la-Boucherie, paroisse dont Robert Ciboule était le curé.</p>

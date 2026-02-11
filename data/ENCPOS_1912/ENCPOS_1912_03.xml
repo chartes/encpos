@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1912_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1912_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,17 +55,17 @@
         <forename>François</forename>
         <surname>Boucher</surname>
       </byline>
-      <div>
+      <div xml:id="r358814">
         <head rend="uc">Première partie
          <lb/>Historique</head>
-        <div>
+        <div xml:id="r358822">
           <head rend="uc">Chapitre premier
            <lb/>les origines</head>
           <p>Contrairement à la légende qui fait remonter l’origine de la cathédrale à saint Mansuy, premier évêque de Toul, il ne paraît pas y avoir eu d’église, à l’emplacement actuel, avant le <num>v<hi rend="sup">e</hi></num> siècle.</p>
           <p>Le premier document où il y soit fait allusion est une donation faite par Pretoria à Notre-Dame et Saint-Etienne ; ce document est contemporain de l’évêque Eudulus (fin du <num>vi<hi rend="sup">e</hi></num> siècle). Incendiée une première fois sous Pépin le Bref, et quelques années plus tard sous Charlemagne, la cathédrale fut entièrement détruite par le feu en 826, du temps de l’évêque Frotier, qui la fit reconstruire. Elle avait une riche décoration polychrome.</p>
           <p>Cette cathédrale carolingienne ayant brûlé en 895, elle fut réparée par l’évêque Ludelme, qui l’agrandit et la suréleva ; mais les invasions hongroises de 928 et 954 vinrent de nouveau la dévaster.</p>
         </div>
-        <div>
+        <div xml:id="r358852">
           <pb source="https://nakala.fr/10.34847/nkl.45cdg5r4#66f7fb8fbb00ee43436017410ab304cdbc466238" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.45cdg5r4/66f7fb8fbb00ee43436017410ab304cdbc466238/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La cathédrale romane</head>
@@ -76,7 +74,7 @@
           <p>D’importantes modifications sont faites à l’église romane par l’évêque Pibon (1069-1107), qui construit à l’occident une grosse tour flanquée de deux campaniles, fait peindre les plafonds de l’édifice et la voûte de l’abside, élève au-dessus du comble un haut clocher de bois recouvert de plomb et fait aussi recouvrir le chevet. La cathédrale romane est enfin consacrée par le pape Eugène III, sous l’épiscopat de Henri de Lorraine, probablement en 1147.</p>
           <p>Essai de restitution de cet édifice, qui était un beau type d’église rhénane, et devait comprendre une abside flanquée de deux tours, un transept, sur la croisée duquel se place le clocher de bois de Pibon. A l’occident était la grosse tour due au même évêque, construction des plus curieuses, formant une sorte de second transept et rappelant probablement la façade de Marmoutiers (Alsace). Discussion de ces hypothèses. Témoins qui nous restent de cet édifice : quelques fûts de colonnes avec leurs bases et leurs chapiteaux cubiques.</p>
         </div>
-        <div>
+        <div xml:id="r358884">
           <head rend="uc">Chapitre III
            <lb/>Construction de la cathédrale actuelle</head>
           <p>La date de 1201 donnée pour le commencement des travaux est inacceptable. Il faut préférer celle de 1221, <pb source="https://nakala.fr/10.34847/nkl.45cdg5r4#210d4309887e871e2da999df39f833f0b764eaa4" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.45cdg5r4/210d4309887e871e2da999df39f833f0b764eaa4/full/full/0/default.jpg"/>qui s’accorde beaucoup mieux avec l’épiscopat d’Eudes de Sorcy et le style du chevet, par lequel on commença la construction. Le chevet était terminé en 1253, à la mort de l’évêque Roger de Marcey, qui le fit orner de vitraux. A cette campagne, se rattachent le chevet, les deux chapelles carrées qui le flanquent, les tribunes qui les surmontent et les tourelles d’escalier par lesquelles on y accède, ainsi que la sacristie du trésor. Le croisillon sud est commencé sous Gilles de Sorcy, qui y reçoit la sépulture en 1269. Le portail du cloître, ses deux premières travées, et la chapelle Notre-Dame-de-la-Gésine, font partie de la même campagne, ainsi que le portail extérieur de la rue des Clercs.</p>
@@ -86,22 +84,22 @@
           <p>Au début du <num>xvi<hi rend="sup">e</hi></num> siècle, le gros œuvre s’achève par la réfection de la corniche du chevet et la construction des étages supérieurs des deux tours d’abside. Le grand comble est alors refait et, quelques années plus tard, l’installation de l’horloge fait modifier légèremen t la tourelle de la façade.</p>
           <p>Au nord de la nef, Hector d’Ailly construit la chapelle des Evêques ; elle n’est pas terminée quand il meurt, en 1533. Du côté opposé, Jean Forget bâtit une autre chapelle, qui était achevée en 1549. Enfin, en 1561, l’écroulement de la tour d’abside sud et la démolition de celle du nord donnent à l’édifice son aspect actuel.</p>
         </div>
-        <div>
+        <div xml:id="r358939">
           <head rend="uc">Chapitre IV
            <lb/>La cathédrale de 1561 à nos jours</head>
           <p>Au cours des <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles, l’intérieur de la cathédrale est décoré au goût du jour et son mobilier presque entièrement renouvelé. L’évêché de Toul ayant été supprimé en 1790, la cathédrale devient la paroisse Saint-Étienne. En 1794, l’édifice, transformé en temple de la Raison, est mutilé : toutes les statues de la façade sont brisées. L’église est rouverte en 1797 ; on s’emploie aussitôt aux réparations les plus urgentes. Enfin, la cathédrale ayant été classée, en 1839, comme monument historique, l’ère des restaurations commence à partir de 1847. Le croisillon sud, très endommagé, voit son exis<pb source="https://nakala.fr/10.34847/nkl.45cdg5r4#b007e449b34821583c691996dccf440318149c7e" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.45cdg5r4/b007e449b34821583c691996dccf440318149c7e/full/full/0/default.jpg"/>tence menacée à la suite de travaux imprudents et doit être entièrement reconstruit, de 1850 à 1854, par M. Bœswilwald. Les restaurations se poursuivent par le cloître (1860) et l’abside (1864).</p>
           <p>Très détériorée par le bombardement de 1870, la façade subit dans les années suivantes une restauration complète. Enfin, en 1902, la partie basse de la chapelle des Evêques a été consolidée, et on vient d’achever actuellement la restauration totale de la chapelle de Jean Forget.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r358972">
         <head rend="uc">Deuxième partie
          <lb/>Description</head>
-        <div>
+        <div xml:id="r358980">
           <head rend="uc">Chapitre premier
            <lb/>le plan</head>
           <p>Son originalité ; la disposition du chevet est due à l’influence de l’église romane. Analogie avec la cathédrale de Châlons et Saint-Vincent de Metz. Persistance des tours d’abside dans l’ancien domaine de l’école rhénane. Régularité de l’ensemble : l’axe n’a aucune brisure sensible.</p>
         </div>
-        <div>
+        <div xml:id="r358992">
           <head rend="uc">Chapitre II
            <lb/>Intérieur. Le chevet</head>
           <p>Traces des remaniements de la fin du <num>xiii<hi rend="sup">e</hi></num> siècle. Sculptures et peintures cachées par le parement de marbre. Chapelle Saint-Pierre : disposition du passage ; sa voûte, son retable. Tribune au-dessus de cette chapelle : sa mouluration, massif d’autel qu’elle contient.</p>
@@ -112,13 +110,13 @@
           <p>Salle capitulaire : elle est adossée au mur d’enceinte. Epaisseur énorme des embrasures de ce côté. La cheminée est postérieure.</p>
           <p>Salle du trésor : elle n’est pas antérieure au reste ; son aspect archaïque est dû à ses ogives non moulurées et à ses chapiteaux, sans doute réemployés.</p>
         </div>
-        <div>
+        <div xml:id="r359039">
           <head rend="uc">Chapitre III
            <lb/>Le transept</head>
           <p><hi rend="i">Croisillon sud.</hi> – L’ancien sol est en contre-bas de 1 <hi rend="sup">m</hi> 75. Escaliers qui devaient exister dans cette partie de l’église. Les profils sont plus récents que ceux du chœur. Remplage de la grande fenêtre. Anciens supports de l’orgue du <num>xv<hi rend="sup">e</hi></num> siècle. Pierre tombale de 1289.</p>
           <p><hi rend="i">Croisillon nord.</hi> – Preuves de sa date plus récente. Forme des arcatures. Monuments qui s’y trouvent. Détails de la balustrade flamboyante.</p>
         </div>
-        <div>
+        <div xml:id="r359070">
           <head rend="uc">Chapitre IV
            <lb/>La nef</head>
           <p><hi rend="i">Les travées.</hi> – Ordonnance de la travée du <num>xiii<hi rend="sup">e</hi></num> siècle. Absence de triforium. Ancienneté, dans l’école champenoise, du passage au niveau des fenêtres. Les travées du <num>xiv<hi rend="sup">e</hi></num> siècle ; respect de l’architecte pour les dispositions du <pb source="https://nakala.fr/10.34847/nkl.45cdg5r4#a7d1cf5518f85f9eceffc5e956df7727099cd38f" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.45cdg5r4/a7d1cf5518f85f9eceffc5e956df7727099cd38f/full/full/0/default.jpg"/> <num>xiii<hi rend="sup">e</hi></num> siècle. Pourquoi la septième travée n’a pas de chapelle. Ingénieuse précaution pour assurer la stabilité des voûtes des chapelles. Premières travées de la nef. Elles sont franchement flamboyantes, mais très simples néanmoins.</p>
@@ -128,14 +126,14 @@
           <p><hi rend="sup">7 </hi>avec celles de Solesmes.</p>
           <p><hi rend="i">Ancienne librairie.</hi> – Modifications qu’elle subit au <num>xv<hi rend="sup">e</hi></num> siècle ; ses inscriptions. Sculptures qui y sont conservées.</p>
         </div>
-        <div>
+        <div xml:id="r359141">
           <head rend="uc">Chapitre V
            <lb/>Extérieur</head>
           <p><hi rend="i">Le chevet.</hi> – Mur qui l’entourait autrefois, la corniche flamboyante, son origine. Restes des tours d’abside.</p>
           <p><hi rend="i">Les croisillons.</hi> – Leur extrême simplicité. Même caractère des façades nord et sud de l’église. La disposition des contreforts diffère sur les deux faces ; raisons de ce fait. Extérieur des chapelles des Evêques, de Jean Forget et de Notre-Dame-de-la-Gésine. Etat ancien de cette dernière. Le vieux chapitre ; caractère anglais de ses baies.</p>
           <p><hi rend="i">La. façade.</hi> – Ses défauts, ses qualités. Divisions prin<pb source="https://nakala.fr/10.34847/nkl.45cdg5r4#ffa48b23303d65e3bc208b7f8d68c00d8e360db4" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.45cdg5r4/ffa48b23303d65e3bc208b7f8d68c00d8e360db4/full/full/0/default.jpg"/>cipales et grandes lignes ; restes de sculptures qui surmontent les portails. La tourelle centrale : influences germaniques dans sa disposition primitive. Parties remaniées dans les balustrades, dont plusieurs sont d’un style très mauvais. Les tours ; des flèches y étaient prévues.</p>
         </div>
-        <div>
+        <div xml:id="r359173">
           <head rend="uc">Chapitre VI
            <lb/>Le cloitre</head>
           <p>Détail du portail qui y donne accès. Différences entre les travées du <num>xiii<hi rend="sup">e</hi></num> siècle et leurs voisines.</p>
@@ -148,7 +146,7 @@
         <head rend="uc">Conclusion</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r359246">
         <head rend="uc">Pièces justificatives</head>
         <p>Documents.</p>
         <p>Photographies (1-205). Dessins.</p>

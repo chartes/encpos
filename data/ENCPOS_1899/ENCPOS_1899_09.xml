@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -60,13 +58,13 @@
          <lb/>étude des Sources. – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r240233">
         <head rend="uc">Chapitre premier
          <lb/>les frontières en 1403</head>
         <p>Situation des frontières de l’ouest et du centre au moment où vont se rompre les trêves avec l’Angleterre. – Blaye, Bourg, Libourne sont à l’Angleterre, ainsi que les places de Mortagne, Montendre, Chalais. – Royan, Talmont, Archiac, Barbézieux, Bouteville sont places françaises ; seconde ligne de défense sur la Charente.</p>
         <p>Bergerac presque enclavé en terres anglaises. Une ligne de forteresses monte de Mussidan au Limousin par Montagrier, Saint-Jean-de-Côle, Courbefy, s’enfonçant comme un coin entre les places françaises de Périgueux, Bourdeilles, la Tour-Blanche, Brantôme, Mareuil, Nontron, Pierrebuffière. En amont de Bergerac, sur les rives de la Dordogne, le sire de Beynac, seigneur de Beynac et de Domme, le sire de Salignac, la ville de Sarlat, la petite ville de la Roque-Gajac sont attachés au roi de France.</p>
       </div>
-      <div>
+      <div xml:id="r240248">
         <pb source="https://nakala.fr/10.34847/nkl.94d6onol#9c9b2d17f96ad5c61ff21a8bc171052ad40037ae" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.94d6onol/9c9b2d17f96ad5c61ff21a8bc171052ad40037ae/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre II
          <lb/>(1403-1404)</head>
@@ -79,7 +77,7 @@
         <p>Le connétable prend ensuite Saint-Jean-de-Côle, passe à Périgueux, s’empare de Montagrier, descend jusqu’à Bergerac, soumet le seigneur de la Force, revient à Périgueux vers le 15 octobre. Ses troupes vont ensuite hiverner à Cognac, tandis que lui-même retourne à Paris.</p>
         <p>La campagne que, d’après le Religieux de Saint-Denis, <pb source="https://nakala.fr/10.34847/nkl.94d6onol#acf0e646d4f5993bdefbe03543d290dcb34f8349" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.94d6onol/acf0e646d4f5993bdefbe03543d290dcb34f8349/full/full/0/default.jpg"/>le comte de Clermont aurait faite en 1404, en Limousin, est tout imaginaire.</p>
       </div>
-      <div>
+      <div xml:id="r240291">
         <head rend="uc">Chapitre III
          <lb/>(1405)</head>
         <p>Les troupes attendent à Cognac le connétable qui annonce toujours sa venue comme prochaine.</p>
@@ -95,7 +93,7 @@
         <p>Le sire de Mussidan s’empare de Brantôme (12 novembre). Préparatifs de défense de Bergerac. Archambaud d’Abzac prend Carlux (21 novembre). Le sire de Limeuil rentre en possession de ses places et y met garnison anglaise sous les ordres de Perrot le Béarnais.</p>
         <p>Saint-Jean-d’Angély menacé. Préparatifs de défense. États réunis à Saintes (4 janvier 1406).</p>
       </div>
-      <div>
+      <div xml:id="r240338">
         <head rend="uc">Chapitre IV
          <lb/>(1406)</head>
         <p>Campredon et seize valets du sire de Bourdeilles reprennent l’abbaye de Brantôme sur les Anglais (23 mars). Ils sont bientôt soutenus par les seigneurs de la Rochefoucaud, de Mareuil, de Pérusse, de Pierrebuffière, qui commencent le siège de la ville. Huit jours après, arrivent les sires de Torsay et de Harpedenne.</p>
@@ -106,7 +104,7 @@
         <p>États de Saintonge (14 mai) : ils refusent à nouveau le fouage pour Brantôme.</p>
         <p>Archambaud d’Abzac relâché moyennant rançon et la promesse de rendre ses places.</p>
       </div>
-      <div>
+      <div xml:id="r240373">
         <head rend="uc">Chapitre V
          <lb/>(1406)</head>
         <p>Guillaume le Bouteiller envoyé par le connétable d’Albret (milieu de juillet) au secours de Brive contre Ramonet de Sort. Malemort est déjà revenu au pouvoir des gens de Brive. Guillaume le Bouteiller s’empare des trois autres places occupées par Ramonet. Erreurs du Religieux de Saint-Denis sur cette campagne. Démolition de Malemort. – Pendant ce temps, le connétable achète à Archambaud d’Abzac la reddition de ses places. Il s’empare de Fleurac et soumet ensuite le sire de Limeuil, qui est contraint de lui remettre toutes ses places : énumération de celles-ci. Le connétable met le siège devant Mussidan ; Marie de Montaud, dame de Mussidan, capitule. Achat de Moruscles.</p>
@@ -116,7 +114,7 @@
         <p>Le duc d’Orléans quitte Paris le 19 ou 20 septembre, est à Poitiers le 3 octobre, à Barbézieux le 15. C’est de là qu’il adresse un message à Libourne.</p>
         <p>Le siège de Blaye commencé le 21 octobre ; convention passée avec les capitaines de la place par le duc, qui met le siège devant Bourg (31 octobre). Défaite de l’amiral Glignet de Brabant devant Saint-Julien-de-Médoc. Le duc d’Orléans lève le siège de Bourg (1<hi rend="sup">er</hi> janvier 1407).</p>
       </div>
-      <div>
+      <div xml:id="r240409">
         <head rend="uc">Chapitre VI
          <lb/>(1406-1408)</head>
         <p>Archambaud d’Abzac s’empare de Castelnau ; Guiraud de Peyronencq, ancien capitaine de Moruscles, s’établit à Bigarroque ; le sire de Limeuil se fait de nouveau Anglais ; Jaure est pris par Ramonet de Sort. Alais par Bernard de Doatlup (22 octobre) ; la Roque-Gajac, Coste, Miramon, Creysse tombent aussi au pouvoir des Anglais.</p>
@@ -128,7 +126,7 @@
         <p>Trêves conclues du 15 janvier au 15 avril 1408. Elles ne sont publiées à Périgueux que le 31 janvier ; le sire de Pons conservateur général en deçà de la Dordogne. Trêves particulières de Périgueux avec les capitaines anglais.</p>
         <p>Concentration de troupes en janvier à Montignac, en février et avril à Périgueux.</p>
       </div>
-      <div>
+      <div xml:id="r240444">
         <head rend="uc">Chapitre VII
          <lb/>(1408-1410)</head>
         <p>Prolongation des trêves du 15 avril au 15 septembre : elle n’est publiée à Périgueux que le 19 juin. Trêves particulières prises par cette ville avec les capitaines anglais.</p>
@@ -142,7 +140,7 @@
         <p>Sommation à Bourg et à Blaye d’avoir à payer les « patis » qu’elles doivent à Jean de Harpedenne.</p>
         <p>Trêves conclues par Bergerac avec le roi d’Angleterre. Les trêves générales sont prolongées du 1<hi rend="sup">er</hi> août au 1<hi rend="sup">er</hi> novembre 1410 (21 juin). Trêves prises par Arnaud de Bourdeilles au Bec-sur-Gironde.</p>
       </div>
-      <div>
+      <div xml:id="r240501">
         <head rend="uc">Chapitre VIII
          <lb/>(1410-1412)</head>
         <p>Le dauphin, duc de Guyenne, reçoit la pleine administration de son duché (28 janvier 1410). Privilèges accordés aux bonnes villes ; les offices changent de titulaires. Jacques, sire de Heilly, nommé maréchal de Guyenne (avant 8 octobre 1410).</p>
@@ -153,7 +151,7 @@
         <p>Thomas, duc de Clarence, lieutenant pour Lancastre en Aquitaine, débarque à la Hogue-Saint-Vaast (10 août) avec le duc d’York et le comte Dorset, venant au secours des Armagnacs. Ceux-ci, qui viennent de faire la paix avec le roi de France et le duc de Bourgogne (Auxerre, 22 août), déclarent renoncer à tout traité avec Lancastre.</p>
         <p>Le sire de Limeuil fait prisonnier par les Anglais de Castelnau (19 septembre).</p>
       </div>
-      <div>
+      <div xml:id="r240540">
         <head rend="uc">Chapitre IX
          <lb/>(1412-1413)</head>
         <p>Le duc de Clarence, après avoir dévasté le Maine, l’Anjou, la Touraine, menace l’Orléanais. Traité de Buzançais (25 novembre) entre les ducs de Berry et d’Orléans, et le duc de Clarence, qui promet de se rendre à Bordeaux sans commettre de pillage, et d’y être avant le 1<hi rend="sup">er</hi> janvier.</p>
@@ -165,7 +163,7 @@
         <p>Les Anglais, demeurés à la Rochelle depuis novembre 1412, s’emparent du maire qu’ils emmènent avec eux en avril ou mai 1413. Se dirigeant sur Bordeaux, ils occupent Soubise et dévastent Sablonceaux.</p>
         <p>Fidélité chancelante des habitants du Périgord.</p>
       </div>
-      <div>
+      <div xml:id="r240583">
         <head rend="uc">Chapitre X
          <lb/>(1413-1414)</head>
         <p>Popularité du sire de Heilly auprès des Cabochiens ; il obtient d’eux un impôt pour mener campagne en Guyenne (juin 1413).</p>
@@ -176,7 +174,7 @@
         <p>Les Etats du Périgord (22 février) accordent à Arnaud de Bourdeilles un fouage destiné à acheter Bertrand d’Abzac à la cause française. Pillage du prieuré de Tanniès.</p>
         <p>Trêves générales du 2 février 1413 au 2 février 1414. Avant qu’elles soient connues en Guyenne, tout pouvoir pour traiter dans ce pays est donné par le duc de Bourbon au sire de Pons.</p>
       </div>
-      <div>
+      <div xml:id="r240618">
         <head rend="uc">Chapitre XI
          <lb/>(1414-1415)</head>
         <p>Le maréchal Boucicaut capitaine général en Languedoc et Guyenne (14 avril). Calme des frontières.</p>
@@ -189,7 +187,7 @@
         <p>Bergerac, Périgueux se préoccupent d’obtenir des « suffertes » de Ramonet de Sort, capitaine de Puyguilhem, de Guiraud de Peyronencq, capitaine de Clérans, de Gravano, capitaine d’Aubeterre.</p>
         <p>Arnaud de Bourdeilles tente vainement d’enlever Fayole à Monot Andrax (fin décembre).</p>
       </div>
-      <div>
+      <div xml:id="r240659">
         <head rend="uc">Chapitre XII
          <lb/>(1416-1417)</head>
         <p>Le comte d’Armagnac « gouverneur général de toutes les forteresses du royaume ».</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -66,14 +64,14 @@
         <head rend="uc">Sources manuscrites et imprimees</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r488651">
         <head rend="uc">Chapitre preliminaire</head>
         <p>La commanderie d’Argentens dominait Nérac. Ses dépendances les plus importantes étaient Puy-Fort-Eguille, un peu en amont de Nérac, près de la Baise, Saint-Léon non loin de la Garonne, Cours et Romestaing sur les confins du Bazadais.</p>
       </div>
-      <div>
+      <div xml:id="r488661">
         <head rend="uc">Premiere partie
          <lb/>Formation et histoire</head>
-        <div>
+        <div xml:id="r488669">
           <head rend="uc">Chapitre premier
            <lb/>des origines à 1230</head>
           <p>Nos éléments d’information pour cette période se réduisent presque aux cartulaires. Nous en avons <pb source="https://nakala.fr/10.34847/nkl.db8b4aa2#b10982a84d407a19e282a5793da626034278d5fb" n="6" facs="https://api.nakala.fr/iiif/10.34847/nkl.db8b4aa2/b10982a84d407a19e282a5793da626034278d5fb/full/full/0/default.jpg"/>six pour Argentens, un pour Saint-Léon, un pour Cours, deux pour Romestaing.</p>
@@ -86,7 +84,7 @@
           <p>III. – <hi rend="i">Cartulaire de Cours.</hi> L’acte le plus ancien est le don par Arnaud du Gréset de tout ce qu’il pos<pb source="https://nakala.fr/10.34847/nkl.db8b4aa2#e1903424f2c53a6e488f50f1a7c73446409b486e" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.db8b4aa2/e1903424f2c53a6e488f50f1a7c73446409b486e/full/full/0/default.jpg"/>sédait à Cours. On y relève deux actes d’Amanieu IV (donation d’un serf et d’un terrain pour bâtir).</p>
           <p>IV. – – <hi rend="i">Cartulaires de Romestaing.</hi> – – Les deux cartulaires contiennent des actes pour la plupart antérieurs à 1167. Le plus ancien est de 1161 : le don de la dîme de Cavagnan.</p>
         </div>
-        <div>
+        <div xml:id="r488751">
           <head rend="uc">Chapitre II
            <lb/>De 1230 à 1312.</head>
           <p>Etude distincte d’Argentens, Puy-Fort-Eguille, Saint-Léon et Cours.</p>
@@ -99,7 +97,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.db8b4aa2#4d662ae41507511cb054340369943a2971e6f627" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.db8b4aa2/4d662ae41507511cb054340369943a2971e6f627/full/full/0/default.jpg"/>
           <p>IV. – <hi rend="i">Cours.</hi> Dons d’Amanieu VII d’Albret en 1241 et 1262. Lettres patentes du roi d’Angleterre, Edouard I, qui accorde en 1288 sa protection au commandeur Vidal de Caupène et confirme en 1289 la possession de bois voisins de Cours et de Romestaing. Une convention conclue en 1289 fixe les droits respectifs du commandeur et des habitants.</p>
         </div>
-        <div>
+        <div xml:id="r488811">
           <head rend="uc">Chapitre III
            <lb/>De la suppression du Temple
            <lb/>à la fin de la guerre de cent ans</head>
@@ -108,7 +106,7 @@
           <p>Saint-Léon est le seul membre dont le domaine s’accroît dans la deuxième moitié du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>En 1453 les Hospitaliers sont autorisés à vendre du vin, sans payer le droit de « soquet » dans une maison située hors les murs de Nérac.</p>
         </div>
-        <div>
+        <div xml:id="r488840">
           <head rend="uc">Chapitre IV
            <lb/>De la fin de la guerre de cent ans
            <lb/>à la fin des guerres de religion</head>
@@ -119,16 +117,16 @@
           <p>Puy-Fort-Eguille et Cours sont ravagés par les protestants en 1586 et 1587.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r488881">
         <head rend="uc">Deuxieme partie
          <lb/>Administration</head>
-        <div>
+        <div xml:id="r488889">
           <head rend="uc">Chapitre premier
            <lb/>organisation communale</head>
           <p>Nous ne connaissons le mode d’élection des consuls que pour Saint-Léon : en 1467, deux consuls sont élus par les habitants et l’élection est confirmée par le commandeur.</p>
           <p>Attributions des consuls : a) ils participent à la justice à Cours ; <hi rend="i">b</hi>) ils concourent à la défense militaire à Puy-Fort-Eguille (1381).</p>
         </div>
-        <div>
+        <div xml:id="r488908">
           <head rend="uc">Chapitre II
            <lb/>Droits de juridiction</head>
           <p>Ils étaient exercés à Puy-Fort-Eguille, Saint-Léon, Cours et Romestaing.</p>
@@ -136,7 +134,7 @@
           <p>II. – <hi rend="i">Saint-Léon.</hi> En 1281, partage de la moyenne et de la basse justice avec le baron Estenen Ferriol qui détenait la haute justice. En 1467 Fort de Lat semble être seul à y exercer la justice.</p>
           <p>III. – <hi rend="i">Cours et Romestaing.</hi> Toute justice appartient au commandeur.</p>
         </div>
-        <div>
+        <div xml:id="r488946">
           <head rend="uc">Chapitre III
            <lb/>Vicairie perpétuelle ; et dîme</head>
           <p>Le commandeur a le droit de patronat à Argentens, Puy-Fort-Eguille, Montréal du Gers, Cours et Romestaing.</p>
@@ -144,7 +142,7 @@
           <p><hi rend="i">Prémice</hi>. La prémice pour laquelle nous n’avons aucun renseignement au <num>xvi<hi rend="sup">e</hi></num> siècle, était encore perçue en 1669.</p>
           <p>Quant aux revenus des vicaires perpétuels menue dîme, prémice et casuel) ils sont indiqués dans le plus grand détail par les conventions de 1305, similaires pour Argentens et Cours, et par celle de 1486, pour Puy-Fort-Eguille.</p>
         </div>
-        <div>
+        <div xml:id="r488985">
           <head rend="uc">Chapitre IV
            <lb/>Seigneurie foncière et exploitation
            <lb/>du domaine indirect.</head>

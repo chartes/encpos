@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1956_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1956_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,11 +56,11 @@
         <surname>Bayle</surname>
         <roleName>Licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r770784">
         <head rend="uc">Avant-propos</head>
         <p>Jean de Eecoute, théologien, psychologue, moraliste et mystique formé à l’Université, témoigne par son <hi rend="i">De Triplici desponsatione</hi> de l’effort de recherche doctrinale au cours de la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle. Son traité étudie sous une forme allégorique des questions fondamentales dans la religion chrétienne, celle de la grâce et de la liberté, celle de la faute et de la rédemption ; c’est l’exposé de toute une doctrine de la nature humaine dans sa relation d’union à Dieu.</p>
       </div>
-      <div>
+      <div xml:id="r770804">
         <head rend="uc">Introduction
          <lb/>critique des sources</head>
         <p>Archives d’Enghien. Archives de la collégiale de Saint-Pierre de Lille. Archives de l’Université de Paris. Faculté de théologie et collège de Sorbonne.</p>
@@ -71,10 +69,10 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r770825">
         <head rend="uc">Première partie
          <lb/>L’homme</head>
-        <div>
+        <div xml:id="r770833">
           <head rend="uc">Chapitre premier
            <lb/>sa famille et ses études.</head>
           <p>Jean de Eecoute se disait lui-même originaire d’Enghien en Hainaut, <pb source="https://nakala.fr/10.34847/nkl.dc4cc0w9#59729b8f37fe51bf7ea246f0bc1d29d6719c4f4a" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc4cc0w9/59729b8f37fe51bf7ea246f0bc1d29d6719c4f4a/full/full/0/default.jpg"/>sans préciser s’il s’agissait de la ville de ce nom ou de la seigneurie assez importante dont elle était le centre.</p>
@@ -82,7 +80,7 @@
           <p>Jean de Eecoute semble avoir été de famille modeste ; son frère, Guillaume, était valet des échevins et son beau-frère, Jean Le Maire, clerc du bailliage. Peut-être son père était-il chirurgien municipal, appointé quatre livres par an pour donner ses soins aux indigents.</p>
           <p>Jean de Eecoute fut étudiant à l’Université de Paris ; en 1453, il entra comme <hi rend="i">socius</hi> au collège de Sorbonne, dont il fut bibliothécaire en 1459 et 1461, prieur en 1460. Il obtint, en 1462, la licence en théologie, cinquième sur une promotion de seize ; il reçut le bonnet de docteur le 26 avril de la même année, mais ne s’inscrivit pas au nombre des quarante maîtres régents de la Faculté.</p>
         </div>
-        <div>
+        <div xml:id="r770863">
           <head rend="uc">Chapitre II
            <lb/>Sa carrière.</head>
           <p>Jean de Eecoute fut alors ordonné prêtre, sans doute dans son diocèse d’origine : Cambrai, et obtint une prébende de chanoine en l’église collégiale de Saint-Pierre de Lille. Il en devint bientôt trésorier, le 17 avril 1463, ayant été élu en remplacement de Jacques Basin, qui venait d’embrasser l’état religieux. Jean de Eecoute semble s’être contenté de cette unique prébende. Il s’occupa de prédication et d’administration. En matière de prédication n’ont été conservées que les traces de ses interventions, au côté de son ancien maître, Gilles Carlier, doyen de Cambrai, contre les assertions de certains prédicateurs, franciscains surtout.</p>
@@ -94,7 +92,7 @@
          <lb/>L’œuvre</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r770890">
         <head rend="uc">Introduction</head>
         <p>Jean de Eecoute n’a écrit qu’un seul ouvrage d’importance et deux <pb source="https://nakala.fr/10.34847/nkl.dc4cc0w9#131ca59a2f4d3a69b6e85db7420cdaa97e34941a" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc4cc0w9/131ca59a2f4d3a69b6e85db7420cdaa97e34941a/full/full/0/default.jpg"/>opuscules. Ceux-ci réfutaient les assertions de deux théologiens franciscains, reprises en 1467 par deux prédicateurs de cet ordre prêchant l’un à Douai, l’autre à Cambrai, et affirmant que, par la vertu des paroles du Christ sur la croix : « Femme, voici ton fils », saint Jean était devenu le fils naturel de la Vierge Marie.</p>
         <p>Ces opuscules ont été insérés à la suite de la <hi rend="i">Sportula fragmentorum</hi> de Gilles Cartier, éditée en 1479 à Bruxelles par les Frères de la Vie commune.</p>
@@ -104,7 +102,7 @@
         <p>La troisième partie était annoncée par l’auteur dans l’explicit de la <hi rend="i">Secunda desponsatio</hi> sous ce titre : <hi rend="i">Tertia desponsatio, scilicet Spiritus Sancti cum anima devota, in persona utriusque Marie pretactate.</hi></p>
         <p>Elle ne fut pas rédigée, l’auteur étant mort entre temps. La forme adoptée par Jean de Eecoute est celle d’un récit allégorique. Il se situait ainsi dans une tradition littéraire dont le premier représentant chrétien fut Boèce et qu’illustrèrent, aux <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, Alain de Lille et Jean de Meung.</p>
         <p>Comme eux, Jean de Eecoute est humaniste, la nature humaine est à ses yeux un objet d’étude digne d’attention. Chrétien et même mystique, de façon très intellectuelle, tout comme Boèce, d’ailleurs, son attitude d’esprit est le « Connais-toi toi-même », légitimé du point de vue chrétien par l’idée de création.</p>
-        <div>
+        <div xml:id="r770963">
           <head rend="uc">Chapitre premier
            <lb/>étude de la fiction.</head>
           <p>La <hi rend="i">Prima desponsatio</hi> met en scène le récit de l’Annonciation. Les vertus de Marie délibèrent sur le texte de la Salutation angélique. Il y a deux opposantes, <hi rend="i">Virginité</hi> qui se lamente et <hi rend="i">Raison naturelle</hi> qui refuse d’admettre comme venant de Dieu une proposition contraire à l’expérience. <hi rend="i">Prudence</hi> emporte la décision après une prolixe intervention</p>
@@ -113,7 +111,7 @@
           <p>Dans la <hi rend="i">Secunda desponsatio,</hi> après une délibération de la Trinité au sujet de l’humanité pécheresse, un ange est envoyé à Marie-Madeleine et lui demande d’accepter Jésus pour époux.</p>
           <p>Comme le consentement suppose l’élimination des vices, il n’est obtenu qu’après un long progrès spirituel, prise de conscience et purification. Commencé sous l’empire de <hi rend="i">Crainte,</hi> après une description de l’enfer, ce progrès se heurte à une habile résistance d’<hi rend="i">Orgueil,</hi> de <hi rend="i">Cupidité,</hi> d’<hi rend="i">Oisiveté,</hi> de <hi rend="i">Désespoir</hi> et de <hi rend="i">Luxure.</hi> Une sentence de <hi rend="i">Justice divine</hi> condamne la pécheresse qui obtient de <hi rend="i">Miséricorde</hi> un sursis pendant lequel, dans la prison de <hi rend="i">Pénitence,</hi> elle est mise à la question ; elle y résiste avec beaucoup de fermeté. Finalement, convaincue du caractère inévitable des tribulations, elle admet leur utilité et accepte de se rendre auprès de la Vierge. Pendant le voyage, <hi rend="i">Contrition</hi> lui fait prendre des herbes amères et des pilules. Bien accueillie par Marie et instruite par les <hi rend="i">Vertus,</hi> elle va se jeter aux pieds du Christ dans la demeure de Simon le Pharisien ; ils échangent leurs consentements et les cérémonies des noces sont célébrées à Béthanie.</p>
         </div>
-        <div>
+        <div xml:id="r771060">
           <head rend="uc">Chapitre II
            <lb/>Analyse doctrinale.</head>
           <p>Le <hi rend="i">De Triplici desponsatione</hi> étudie les modalités d’application de la rédemption à l’âme humaine. Il pose donc le problème du consentement et de la coopération de la volonté humaine à la volonté divine.</p>
@@ -127,7 +125,7 @@
           <p>Les remèdes : la prise de conscience et l’adhésion à Dieu.</p>
           <p>Les étapes : la crainte du jugement et du châtiment, insuffisante : elle incite au désespoir l’âme, consciente de sa misère ; l’espoir en la miséricorde divine, insuffisant : il incite l’âme, consciente de sa faiblesse, à temporiser en attendant la grâce finale ; la pression de souffrances réelles, tribulations ou pénitence par crainte, permet à l’âme de prendre conscience de ses possibilités d’action ; la conversion ; la contemplation de la Vierge Marie ; les enseignements de ses vertus ; le détachement : Marie-Madeleine affronte la réprobation des pharisiens.</p>
         </div>
-        <div>
+        <div xml:id="r771114">
           <head rend="uc">Chapitre III
            <lb/>Étude de la forme.</head>
           <p><hi rend="i">Les procédés.</hi> – Jean de Eecoute a choisi la mise en scène allégorique ; il procède par descriptions et discours. Les descriptions sont ou bien très vagues, pour les vertus, que les épithètes accumulées ne caractérisent guère ; ou bien très précises, réalistes et symboliques, pour les vices, ou encore franchement caricaturales, pour la pénitence par crainte. Les discours se répartissent en trois catégories : les débats, les exposés didactiques et les invectives.</p>

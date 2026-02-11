@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,11 +63,11 @@
         <head rend="uc">Sources. – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r404065">
         <head rend="uc">Chapitre premier
          <lb/>les origines du collège de la marche
          <lb/>(1204-1433)</head>
-        <div>
+        <div xml:id="r404075">
           <head rend="uc">I</head>
           <p>1. Le Collège de Constantinople (1204-1362).</p>
           <p>2. L’emplacement du Collège : <hi rend="i">Viens sine capite</hi> (cul-de-sac d’Amboise).</p>
@@ -78,7 +76,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.eaacw0x8#e244ad5a5e4839799cd6172e7d81570b385eb85d" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.eaacw0x8/e244ad5a5e4839799cd6172e7d81570b385eb85d/full/full/0/default.jpg"/>
           <p>5. Guillaume de La Marche : ses liens de parenté avec Jean. Il se substitue à celui-ci dans le bail de 1362. – Doute sur la date de la mort de Jean de La Marche. – Bail emphytéotique de 1374, au profit de Guillaume de La Marche.</p>
         </div>
-        <div>
+        <div xml:id="r404112">
           <head rend="uc">II</head>
           <p>1. Testament de Guillaume de La Marche (23 mars 1402, n. st.). – Inventaire de ses biens.</p>
           <p>2. Quoique la succession de Guillaume ne soit liquidée qu’au bout de vingt ans, le Collège fonctionne dès 1402.</p>
@@ -86,7 +84,7 @@
           <p>4. Beuvin, après avoir obtenu des lettres d’amortissement en décembre 1407, acquiert divers héritages et diverses rentes sur des maisons sises dans le quartier compris entre les rues Traversine, de la Montagne-Sainte-Geneviève, Saint-Victor et Saint-Nicolas-du-Chardonnet (1407-1423).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r404132">
         <head rend="uc">Chapitre II
          <lb/>Les statuts du collège</head>
         <p>1. Les statuts du Collège sont approuvés par l’évêque de Paris le 19 mai 1423. – Esprit général et importance de ces statuts.</p>
@@ -94,16 +92,16 @@
         <p>3. Dispositions spéciales dues à Beuvin de Winville : le second chapelain et les six nouveaux écoliers. – Reconnaissance des droits de l’évêque de Paris sur le collège de la Marche.</p>
         <p>4. Beuvin de Winville survit dix ans à l’approbation des <pb source="https://nakala.fr/10.34847/nkl.eaacw0x8#c0f297691f8850ecc0afa3ec274601f9c49d2623" n="73" facs="https://api.nakala.fr/iiif/10.34847/nkl.eaacw0x8/c0f297691f8850ecc0afa3ec274601f9c49d2623/full/full/0/default.jpg"/>statuts du Collège. – Sa mort en 1433. – Inventaire de ses biens.</p>
       </div>
-      <div>
+      <div xml:id="r404165">
         <head rend="uc">Chapitre III
          <lb/>Les maitres et principaux du collège</head>
-        <div>
+        <div xml:id="r404173">
           <head rend="uc">I
            <lb/><hi rend="i">les maîtres du collège au <num>xv<hi rend="sup">e</hi></num> siècle.</hi></head>
           <p>1. Les maîtres antérieurs à la mort de Beuvin de Winville : Gilles d’Apremont ; Gilles d’Asnières ; Geoffroy Henry ; Gilles Houdebin : rareté des informations sur ces personnages.</p>
           <p>2. Les maîtres postérieurs à la mort de Beuvin : Michel Miniclard : son mérite attesté par l’Université ; son renvoi. – Jean de Rosières ; Nicolas Varin, bienfaiteur du Collège : inventaire de ses biens (1501).</p>
         </div>
-        <div>
+        <div xml:id="r404196">
           <head rend="uc">II
            <lb/><hi rend="i">les principaux du collège au <num>xvi<hi rend="sup">e</hi></num> siècle.</hi></head>
           <p>1. Michel Barrocte : commencement des baux de pédagogie. – Caractère de ces baux ; leur influence sur les destinées du Collège.</p>
@@ -112,7 +110,7 @@
           <p>4. Les frères Chollet : création de deux obits par Richard Chollet, ancien principal, le 20 août 1579, pour lui, son frère Jean et Richard de Wassebourg.</p>
           <p>5. Nicole Voillot et Gontier Maclot.</p>
         </div>
-        <div>
+        <div xml:id="r404228">
           <head rend="uc">III
            <lb/><hi rend="i">les principaux du collège au <num>xvii<hi rend="sup">e</hi></num> siècle.</hi></head>
           <p>1. Laurent Bourceret : sa nomination en 1608, non conforme aux statuts. – Contestations sur la principalité lors de sa mort.</p>
@@ -122,7 +120,7 @@
           <p>4. Après la courte principalité de Gilles Ballé (1678-1686), Gilles Le Sourt devient principal du Collège : ses goûts de luxe.</p>
           <p>5. Au départ de Gilles Le Sourt, curé de Saint-Paul, violentes contestations relatives à la principalité du Collège : Wiry Henry de La Pierre l’emporte sur ses concurrents en 1695.</p>
         </div>
-        <div>
+        <div xml:id="r404265">
           <head rend="uc">IV
            <lb/><hi rend="i">les principaux du collège au <num>xviii<hi rend="sup">e</hi></num> siècle.</hi></head>
           <p>1. Nicolas-Antoine Mongin, personnage peu connu. – Bresson. – ■ Les troubles reprennent de plus belle au Collège sous la principalité de ce dernier. – Intervention de l’archevêque de Paris en 1750. – La sage ordonnance de cette année suscite les plus violentes protestations.</p>
@@ -132,39 +130,39 @@
           <p>5. Firmin Caboche agrégé : il prend part aux attaques contre l’agrégation. – Déclin des vieux usages universitaires. – – Pierre Jacquin, frère de l’ancien principal, admis en 1776, quoique marié, comme intrant à l’élection du recteur. – La fin de la principalité de Caboche coïncide avec celle de l’Ancien Régime.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r404298">
         <head rend="uc">Chapitre IV
          <lb/>Le temporel du collège</head>
-        <div>
+        <div xml:id="r404306">
           <head rend="uc">I</head>
           <p>Le temporel à ses débuts d’après les inventaires inclus aux statuts de 1423. – Acquisition de fiefs importants (Cressilly, le Buisson aux Moineaux) à la fin du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r404322">
           <pb source="https://nakala.fr/10.34847/nkl.eaacw0x8#21536322d532189847b2b8b7169165c775198f6e" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.eaacw0x8/21536322d532189847b2b8b7169165c775198f6e/full/full/0/default.jpg"/>
           <head rend="uc">II</head>
           <p>1. Au début du <num>xvi<hi rend="sup">e</hi></num> siècle, création de nouvelles bourses par Nicolas Varin et Martial Gallicher.</p>
           <p>2. Richard de Wassebourg fait obtenir au Collège deux bourses fondées par Varey de Lucey, seigneur de Dombasle.</p>
           <p>3. Les propriétés du Collège sont ruinées au moment de la Ligue.</p>
         </div>
-        <div>
+        <div xml:id="r404349">
           <head rend="uc">III</head>
           <p>1. Prospérité du Collège au temps de Philibert Patena, vers 1639 <hi rend="sup">:</hi> il est <hi rend="sup">au</hi> premier rang de l’Université avec 15.000 livres de rente.</p>
           <p>2. Administration de Mercier. – Document intéressant sur le fief de Cressilly, près Chevreuse.</p>
         </div>
-        <div>
+        <div xml:id="r404370">
           <head rend="uc">IV</head>
           <p>1. Au <num>xviii<hi rend="sup">e</hi></num> siècle, mauvaise administration financière du Collège : procureurs incapables ou malhonnêtes.</p>
           <p>2. Déclarations d’immeubles faites au papier terrier de l’abbaye de Sainte-Geneviève. – Tableau de l’état de l’actif et du passif du Collège pour l’année 1791. – Tableau de l’état des bourses à cette date.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r404390">
         <head rend="uc">Chapitre V
          <lb/>Les professeurs et les régents du collège</head>
-        <div>
+        <div xml:id="r404398">
           <head rend="uc">I</head>
           <p>Quelques renseignements sur l’état des études au <num>xv<hi rend="sup">e</hi></num> siècle. – La bibliothèque du Collège.</p>
         </div>
-        <div>
+        <div xml:id="r404414">
           <head rend="uc">II
            <lb/><hi rend="i">professeurs et régents au <num>xvi<hi rend="sup">e</hi></num> siècle.</hi></head>
           <p>La Renaissance au collège de la Marche.</p>
@@ -174,19 +172,19 @@
           <p>3. Erreur commise par Quicherat concernant la présence simultanée de Muret, Turnèbe et Buchanan au collège de la Marche.</p>
           <p>4. Autres maîtres du Collège au <num>xvi<hi rend="sup">e</hi></num> siècle : Louis Du Boullay, Jacques de Cueilly, Thomas Scourjon, Jean Filesac, etc.</p>
         </div>
-        <div>
+        <div xml:id="r404457">
           <head rend="uc">III
            <lb/><hi rend="i">professeurs et régents au <num>xvii<hi rend="sup">e</hi></num> siècle.</hi></head>
           <p>Rareté des renseignements sur les professeurs à cette époque. – Un marchien, Gabriel Dabes, au début du siècle, dit son mot sur la réforme de l’Université. – Un autre, Jean-Baptiste Couture, obtient à la fin du même siècle un grand succès comme professeur.</p>
         </div>
-        <div>
+        <div xml:id="r404477">
           <head rend="uc">IV
            <lb/><hi rend="i">professeurs et régents au <num>xviii<hi rend="sup">e</hi></num> siècle.</hi></head>
           <p>1. Jacques Delille, membre de l’Académie française, simple régent de collège.</p>
           <p>2. Conclusion de notre étude sur les professeurs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r404501">
         <head rend="uc">Chapitre VI
          <lb/>L’instruction et l’éducation à la marche au
          <lb/><num>xviii<hi rend="sup">e</hi></num> siècle</head>
@@ -196,18 +194,18 @@
         <p>4. Le théâtre au Collège.</p>
         <p>5. Clientèle aristocratique du Collège au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r404538">
         <head rend="uc">Chapitre VII
          <lb/>Le collège de la marche sous la Révolution et l’Empire</head>
-        <div>
+        <div xml:id="r404546">
           <head rend="uc">I</head>
           <p>Le Collège sous la Révolution. – Jean-Baptiste Coisnon, <pb source="https://nakala.fr/10.34847/nkl.eaacw0x8#621bd6420ef3b8da9f695888695625b116a6d243" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.eaacw0x8/621bd6420ef3b8da9f695888695625b116a6d243/full/full/0/default.jpg"/>dernier principal. Son mérite n’empêche pas la fermeture du Collège. – Détails sur les archives de la Marche à cette époque. – Réunion temporaire des bourses à celles du collège de Navarre. – Fermeture du Collège.</p>
         </div>
-        <div>
+        <div xml:id="r404561">
           <head rend="uc">II</head>
           <p>L’Institution nationale des colonies. – Sa création dans les anciens locaux du Collège, le 5 pluviôse an V. – Caractère particulier de cette Institution. – Distribution des prix et palmarès de l’an VIII. – Difficulté de savoir quand disparut définitivement l’Institution nationale des colonies, et quand rouvrit l’ancien Collège de la Marche. – – Fermeture définitive du Collège en exécution du décret de Madrid (11 décembre 1808).</p>
         </div>
-        <div>
+        <div xml:id="r404571">
           <head rend="uc">III</head>
           <p>Vaine tentative de restauration du Collège en 1817. – Requête et projets de Holandre, ancien magistrat, parent d’un des fondateurs du Collège.</p>
           <p>En 1824, une pension particulière était installée à la Marche. – Démolition des bâtiments en 1866 à la suite de la percée de la rue des Écoles.</p>

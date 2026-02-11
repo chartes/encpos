@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1978_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,7 +58,7 @@
         <forename>Marc</forename>
         <surname>Du Pouget</surname>
       </byline>
-      <div>
+      <div xml:id="r1036730">
         <head rend="uc">Première partie
          <lb/>Formation et développement
          <lb/>des chroniques latines de Saint-Denis</head>
@@ -71,23 +69,23 @@
         <p>Au <num>xiv<hi rend="sup">e</hi></num> siècle, tandis que le moine Yves élargit les perspectives des <hi rend="i">Vita et actus</hi> en rapportant dans sa chronique les manifestations du culte de saint Denis survenues tout au long de l’histoire de France, l’activité proprement historique est perpétuée par Richard Lescot. Ce copiste prodigieux auquel on peut attribuer entre autres le « cartulaire blanc » (Arch. nat., LL 1157) et les mss Bibl. nat., lat. 5286 (chronique d’Yves de Saint-Denis) et lat. 5005 C (chroniques de Géraud de Frachet avec continuation), chroniqueur et polémiste, entreprend une révision minutieuse de la traduction de Primat. Ce travail, consigné dans les marges de <hi rend="i">D</hi>2, est basé, comme l’a montré L. Delisle, sur une collation entre ce dernier manuscrit, les Grandes Chroniques et les Chroniques de Saint-Germain-des-Prés. Le résultat final est un manuscrit des Grandes Chroniques exécuté avant 1350 pour Jean, duc de Normandie (ms. British Library, Reg. 16 G VI).</p>
         <p>A la fin du même siècle et au début du siècle suivant, la série des grandes compilations historiques élaborées à Saint-Denis se continue et se termine avec le Religieux de Saint-Denis, récemment identifié avec Michel Pintoin. Celui-ci est non seulement l’historien du règne de Charles VI, mais aussi l’auteur d’une chronique universelle, véritable somme des travaux de ses devanciers. De cet ouvrage monumental, il existe deux rédactions, qui ne transmettent pas la totalité de l’œuvre : le ms. Bibl. Mazarine 2016, <hi rend="i">R1,</hi> première rédaction ; le ms. Bibl. nat., nouv. acq. lat. 1798, <hi rend="i">R2,</hi> copie de la fin du <num>xv<hi rend="sup">e</hi></num> siècle, et le ms. Bibl. Mazarine 2017 en partie autographe, deuxième rédaction. Conservée dans son lieu d’origine, cette œuvre incomplète maintient en partie le renom des historiens de Saint-Denis malgré la dispersion de la bibliothèque et la ruine de la culture historique ; elle sert de base à Nicole Gilles et à ses successeurs, et le P. Doublet y fait de fréquents emprunts dans son <hi rend="i">Histoire de l’abbaye de Saint-Denis.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1036848">
         <pb source="https://nakala.fr/10.34847/nkl.2bcb3556#cccc8767432e6e46433d8cf2bc560a38b4d6b813" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.2bcb3556/cccc8767432e6e46433d8cf2bc560a38b4d6b813/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Commentaire et édition critique
          <lb/>de la <hi rend="i">Descriptio clavi et corone Domini</hi></head>
-        <div>
+        <div xml:id="r1036866">
           <head rend="uc">Chapitre premier
            <lb/>les principaux caractères</head>
           <p>Le crédit de l’historiographie dionysienne a longtemps réussi à faire admettre comme une réalité historique le voyage de Charlemagne en Orient et la fondation de la foire du Lendit par Charles le Chauve. Cette légende, selon laquelle la couronne d’épines et le clou de la crucifixion, conservés à Saint-Denis, auraient d’abord été portés à Aix-la-Chapelle, puis transférés à l’abbaye, est l’œuvre d’un moine écrivant vers 1080. L’auteur de la <hi rend="i">Descriptio clavi et corone Domini</hi> (tel est le titre du manuscrit le plus ancien) ne transmet qu’un écho incertain de la Terre sainte du <num>xi<hi rend="sup">e</hi></num> siècle ; en revanche, sur l’invention des reliques, les miracles qu’elles suscitent, leur transfert, il ne fait grâce au lecteur d’aucun détail. L. Levillain, trouvant la clé du récit, a montré qu’il s’agissait d’une transposition historique de la fondation de l’Endit (<hi rend="i">Indictum), </hi>ostension annuelle des reliques de la Passion donnant lieu à une foire dans le bourg de Saint-Denis ; les indications chronologiques nous fournissent un point de départ : l’année 1050. Outre la glorification des reliques, l’auteur a pour objectif la commémoration de Charles le Chauve, enterré dans le chœur des moines et considéré comme bienfaiteur de l’abbaye. Enfin, il fournit un précieux témoignage sur la légende carolingienne à la fin du <num>xi<hi rend="sup">e</hi></num> siècle et sur l’influence des légendes épiques, particulièrement dans la célèbre « Vision de Constantin ». Toutefois, l’insertion de Charlemagne dans une sorte de « livret de pèlerinage » marque le personnage de l’empereur d’une manière décisive, préparant le modèle présenté aux rois très chrétiens de France et l’image du saint patron de l’empire germanique.</p>
         </div>
-        <div>
+        <div xml:id="r1036898">
           <head rend="uc">Chapitre II
            <lb/>Les sources</head>
           <p>La première partie du récit est marquée par la volonté délibérée de ne pas utiliser les textes historiques courants. Les indications chronologiques puisées dans le chartrier de l’abbaye aboutissent à de surprenantes confusions. Les <pb source="https://nakala.fr/10.34847/nkl.2bcb3556#fd04e2201c13a1c1c57ac87e1977b07766a9b728" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.2bcb3556/fd04e2201c13a1c1c57ac87e1977b07766a9b728/full/full/0/default.jpg"/>connaissances de l’auteur sont plutôt d’ordre hagiographique et liturgique : emprunts à l’<hi rend="i">Inventio sanctae Crucis,</hi> à des antiennes ou psaumes, au <hi rend="i">Liber interpretationis hebraicorum nominum</hi> de saint Jérôme. Sur Aix-la-Chapelle, il dispose de renseignements vagues et déformés par l’épopée, déformation que l’on retrouve dans les épisodes inspirés de témoignages oraux ou de faits vus.</p>
           <p>Pour conduire sa narration jusqu’à son terme, c’est-à-dire à la translation du corps de Charles le Chauve à Saint-Denis, l’auteur utilise une chronique composée dans son abbaye, dont <hi rend="i">VAbbreviatio</hi> offre au <num>xii<hi rend="sup">e</hi></num> siècle un résumé, qui lui fournit « les gestes de Charles le Chauve », notamment son séjour dans l’au-delà (la <hi rend="i">Visio Karoli tercii</hi> s’appliquait à l’origine à Charles le Gros) et l’inhumation de sa dépouille, ramenée de Nantua, dans le chœur de la basilique de Saint-Denis à la suite d’une vision.</p>
         </div>
-        <div>
+        <div xml:id="r1036940">
           <head rend="uc">Chapitre III
            <lb/>Les manuscrits</head>
           <p>L’édition critique est basée sur dix manuscrits ou catégories de manuscrits :</p>
@@ -106,28 +104,28 @@
           <p><hi rend="i">M :</hi> Montpellier, Bibl. de la Faculté de Médecine H 280 ;</p>
           <p><hi rend="i">V :</hi> Vienne, Nationalbibliothek 3398.</p>
         </div>
-        <div>
+        <div xml:id="r1037067">
           <head rend="uc">Chapitre IV
            <lb/>La diffusion</head>
           <p>Dès le début du <num>xii<hi rend="sup">e</hi></num> siècle, Hugues de Fleury fait allusion à l’origine des reliques conservées à Saint-Denis. Vers 1180, un clerc d’Aix-la-Chapelle incorpore la première partie dans le livre II de la <hi rend="i">Vita sancti Karoli</hi> destinée à <pb source="https://nakala.fr/10.34847/nkl.2bcb3556#8309a84bbe22366b4109d45423695875fb747e68" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.2bcb3556/8309a84bbe22366b4109d45423695875fb747e68/full/full/0/default.jpg"/>illustrer la sainteté du premier empereur germanique. Résumée dans les compilations latines d’Hélinand de Froidmont, de Vincent de Beauvais et d’Aubry de Trois-Fontaines, la <hi rend="i">Descriptio</hi> est traduite à trois reprises au <num>xiii<hi rend="sup">e</hi></num> siècle par Pierre de Beauvais, par l’Anonyme de Béthune, enfin par Primat dans les Grandes Chroniques de France. Au <num>xiv<hi rend="sup">e</hi></num> siècle, l’essentiel de la légende de la <hi rend="i">Descriptio</hi> est intégré dans le cycle monarchique français. A l’époque moderne, le P. Doublet la diffuse encore, l’attribuant par erreur à Rigord. Ce n’est qu’à partir des travaux de G. Rauschen et de F. Castets en 1890 et 1892 que le texte est rendu accessible aux historiens, malgré le caractère précaire et incertain des éditions.</p>
         </div>
-        <div>
+        <div xml:id="r1037114">
           <head rend="uc">Chapitre V
            <lb/>Édition critique</head>
           <p>Texte basé sur le ms. <hi rend="i">A,</hi> corrigé par l’accord de <hi rend="i">P</hi> et de la recension <hi rend="i">KR </hi>et comportant en appendice une interpolation relative aux joyaux de l’abbaye, tirée des <hi rend="i">Vita et actus beati Dyonisii.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1037142">
         <head rend="uc">Troisième partie
          <lb/>La légende carolingienne à Saint-Denis
          <lb/>du <num>xii<hi rend="sup">e</hi></num> au <num>xv<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r1037164">
           <head rend="uc">Chapitre premier
            <lb/>la donation de Charlemagne</head>
           <p>La légende selon laquelle Charlemagne aurait conféré à Saint-Denis une véritable primauté sur la France repose sur l’autorité d’un faux diplôme (<hi rend="i">Diplomata Karolinorum,</hi> n° 286) et sur celle de la chronique du pseudo-Turpin. Le retentissement de ce thème s’affirme dans l’œuvre de l’Anonyme de Béthune, dans les Grandes Chroniques et les compilations latines de Guillaume de Nangis, d’Yves et du Religieux de Saint-Denis. Le pseudo-Turpin semble, contrairement à la théorie généralement admise, n’avoir fait que résumer et atténuer <pb source="https://nakala.fr/10.34847/nkl.2bcb3556#2dec9b9194d0a6867d5d9c2cfb1c665e56ae538f" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.2bcb3556/2dec9b9194d0a6867d5d9c2cfb1c665e56ae538f/full/full/0/default.jpg"/>les prétentions du faux diplôme qui, faisant du roi un serf de Saint-Denis, est, malgré quelques remaniements, le plus fidèle à l’idée originale. H répond parfaitement aux exigences de la politique ambitieuse de l’abbé de Saint-Denis Adam (exclusivité au profit de Saint-Denis du couronnement et du dépôt des insignes royaux, supériorité de l’abbé sur les évêques, affranchissement des serfs de Saint-Denis) et doit être rapproché de plusieurs faux de l’abbaye utilisant la « donation de Constantin » et visant à obtenir l’immunité, accordée par Louis VI en 1112. Si la personnalité et la situation de l’abbé Adam expliquent la volonté de dominer la royauté, l’accession de Suger à l’abbatiat adoucit l’âpreté des ambitions de Saint-Denis, auxquelles seul saint Louis consentit à se plier.</p>
           <p><hi rend="i">Édition de l’épisode de la « Donation de Charlemagne ».</hi> – Textes de l’Anonyme de Béthune (ms. Bibl. nat., nouv. acq. fr. 6295), de la chronique universelle de Guillaume de Nangis (ms. Bibl. nat., lat. 4918) et de celle du Religieux de Saint-Denis (ms. Bibl. Mazarine 2016), avec tableau comparatif des éléments des différentes versions.</p>
         </div>
-        <div>
+        <div xml:id="r1037191">
           <head rend="uc">Chapitre II
            <lb/>La légende dionysienne de la fleur de lis</head>
           <p>Antérieurement au poème né à Joyenval et faisant remonter à Clovis l’origine de la fleur de lis, une légende différente, élaborée à Saint-Denis au <num>xiii<hi rend="sup">e</hi></num> siècle, attribue à saint Denis le don de cet emblème à Charlemagne. On en retrouve la trace à partir de la fin du <num>xiii<hi rend="sup">e</hi></num> siècle dans la <hi rend="i">Vie de saint Louis </hi>de Guillaume de Nangis, dans la chronique d’Yves de Saint-Denis et dans celle du Religieux. Elle est en liaison avec l’Université de Paris (l’universitaire Thomas d’Irlande reprend le même thème) et les troubles de 1229, à l’occasion desquels semble avoir été composée une strophe de neuf vers latins rimés de sept pieds (<hi rend="i">Flos duplex Achaie...</hi>).</p>

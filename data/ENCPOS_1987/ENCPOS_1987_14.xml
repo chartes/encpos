@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <forename>Anne-Claude</forename>
         <surname>Lamur</surname>
       </byline>
-      <div>
+      <div xml:id="r1148804">
         <head rend="uc">Introduction</head>
         <p>Les chansonniers de troubadours, témoins tardifs et fragmentaires de la poésie lyrique occitane des <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, sont assez mal connus : seules ont été étudiées les sources des manuscrits et les relations qui les unissent. Mais de nombreux aspects, comme l’étude de la conception et de la réalisation matérielle des chansonniers, celle du comportement des scribes vis-à-vis du texte, de la langue qu’ils utilisent et de l’histoire des manuscrits restent inconnus : c’est autour de ces points que s’organise l’étude du chansonnier <hi rend="i">M</hi> (Paris, Bibliothèque nationale, fr. 12474).</p>
       </div>
-      <div>
+      <div xml:id="r1148830">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Structure et réalisation matérielle</head>
-        <div>
+        <div xml:id="r1148842">
           <head rend="uc">Chapitre premier
            <lb/>la structure du manuscrit</head>
           <p><hi rend="i">La classification méthodique.</hi> – <hi rend="i">M</hi> propose un classement élaboré, en quatre parties : chansons, <hi rend="i">sirventes, descorts, tensos.</hi> Néanmoins, ces principes sont parfois enfreints : si l’<hi rend="i">Estampida</hi> de Raimbaut de Vaqueiras apparaît parmi les <hi rend="i">descorts,</hi> c’est que le copiste la considère comme un <hi rend="i">descort.</hi> Mais la présence de <hi rend="i">sirventes</hi> parmi les <hi rend="i">cansos</hi> ou vice versa est peut-être due au fait qu’il s’agit <pb source="https://nakala.fr/10.34847/nkl.f224u189#4d27c416e2323f2e1e1dd704f026d59d8dde8a0f" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/4d27c416e2323f2e1e1dd704f026d59d8dde8a0f/full/full/0/default.jpg"/>de pièces répertoriées sous un auteur n’apparaissant que dans une seule section méthodique (ce qui n’est pas le cas de tous les poètes), peut-être en raison de sa réputation : tel poète connu surtout pour ses chansons d’amour aura vu toute son œuvre, y compris les <hi rend="i">sirventes,</hi> recensée parmi les <hi rend="i">cansos.</hi></p>
           <p><hi rend="i">La succession des poètes.</hi> – Le plan idéal que certains érudits ont cru déceler dans les chansonniers (troubadours renommés et prolifiques d’abord, petits troubadours ou dont nous avons conservé peu d’œuvres ensuite, anonymes enfin) est absent de <hi rend="i">M,</hi> comme de nombreux chansonniers : seul le hasard semble être responsable de la succession des poètes. Même en ce qui concerne les dix premiers poètes, pour lesquels certaines habitudes sont décelables, <hi rend="i">M</hi> se montre individualiste.</p>
         </div>
-        <div>
+        <div xml:id="r1148911">
           <head rend="uc">Chapitre II
            <lb/>La table</head>
           <p>La présence de la table des matières compense l’absence de rigueur dans la succession des poètes.</p>
@@ -80,13 +78,13 @@
           <p><hi rend="i">Absence de certaines corrections.</hi> – On s’aperçoit que le réviseur, lorsqu’il est intervenu sur le texte, n’a pas reporté ses corrections à la table : elle devait encore être séparée du corps du manuscrit.</p>
           <p><hi rend="i">Les corrections propres à la table.</hi> – Dans certains cas, en réalisant la table, le copiste apporte des corrections ou des modifications : il remet à leur place des pièces détachées de l’ensemble des œuvres du même auteur, attribue à un seul poète les poésies recensées dans le texte sous deux attributions possibles et corrige des leçons fautives.</p>
         </div>
-        <div>
+        <div xml:id="r1148951">
           <head rend="uc">Chapitre III
            <lb/>De possibles améliorations</head>
           <p><hi rend="i">Le travail du correcteur.</hi> – On n’a de traces du travail du réviseur que dans de rares cas, quand le scribe n’a pas reporté dans le texte la correction proposée : le ou les mots sont restés, écrits en petit, dans la marge au lieu d’être grattés. Dans d’autres cas, le correcteur signale par une croix les initiales (rubriquées) à ajouter ou modifier.</p>
           <p><hi rend="i">Des pages blanches.</hi> – Certains feuillets sont restés blancs, soit dans l’attente infructueuse de l’arrivée de nouvelles pièces, soit pour que le lecteur puisse lui-même <pb source="https://nakala.fr/10.34847/nkl.f224u189#3c46d796feeba7494c92649c1acbcbaf7ae50f6e" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/3c46d796feeba7494c92649c1acbcbaf7ae50f6e/full/full/0/default.jpg"/> compléter son manuscrit. C’est ce qu’a fait un lecteur du <num>xiv<hi rend="sup">e</hi></num> siècle, qui a ajouté aux folios 225v-226 une pièce inconnue des autres chansonniers, <hi rend="i">Axi com cell qu’e-ll mar es perillats,</hi> écrite dans une langue où se mélangent les faits occitans et des traits typiquements catalans. Cette pièce est éditée ici.</p>
         </div>
-        <div>
+        <div xml:id="r1148987">
           <head rend="uc">Chapitre IV
            <lb/>La réalisation matérielle</head>
           <p><hi rend="i">L’écriture.</hi> – Le chansonnier est tout entier de la même main, aisément identifiable comme une main italienne de la fin du <num>xiii<hi rend="sup">e</hi></num> ou du début du <num>xiv<hi rend="sup">e</hi></num> siècle (comparable à celle qui a copié le chansonnier <hi rend="i">D</hi>).</p>
@@ -95,12 +93,12 @@
           <p>Le style des illustrations du chansonnier <hi rend="i">M</hi> le différencie de tous les autres manuscrits : le caractère gothique des enluminures, de même que la présence de nombreux grotesques dorés dans les marges, atteste que la décoration est l’œuvre d’un artiste picard. Or la présence à Naples d’un atelier picard dans les années 1315-1340 a été récemment mise en évidence. Le royaume de Naples sous les Angevins était en effet le principal centre attractif de la péninsule pour les Français, après le remplacement des cadres italiens par l’entourage de Charles I. D’ailleurs, l’influence française sur la miniature napolitaine était déjà grande avant l’arrivée des Angevins. D’autre part, les lettres filigranées du chansonnier <hi rend="i">M</hi> peuvent être rapprochées de celles de deux autres manuscrits exécutés à Naples sous Charles I, un recueil de chroniques (Paris, Bibliothèque nationale, lat. 5005 A) et une traduction du <hi rend="i">Al-Hawi</hi> (Paris, Bibliothèque nationale, lat. 6912). Tous ces indices permettent d’affirmer avec assez de certitude que le chansonnier <hi rend="i">M</hi> a été enluminé (et donc réalisé) à Naples dans une période intermédiaire entre les deux manuscrits de Charles I et le groupe de l’atelier picard opérant sous Robert : soit sous le règne de Charles II, au tournant des <num>xiii<hi rend="sup">e</hi></num> et <num>xiv<hi rend="sup">e</hi></num> siècles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1149082">
         <pb source="https://nakala.fr/10.34847/nkl.f224u189#c207ce19386566e5735905148aef04432059d725" n="128" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/c207ce19386566e5735905148aef04432059d725/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Copie, compilation et remaniement</head>
-        <div>
+        <div xml:id="r1149099">
           <head rend="uc">Chapitre premier
            <lb/>copie et compilation : des sources multiples</head>
           <p><hi rend="i">Les conclusions de Gröber et Avalle.</hi> – Gröber reconnaît au chansonnier <hi rend="i">M</hi> plusieurs sources qui le lient à <hi rend="i">T<hi rend="sup">3b</hi></hi>, <hi rend="i">D<hi rend="sup">b</hi>, R, C, V,</hi> aux chansonniers de Miquel de la Tor et de Bernat Amoros, et au <hi rend="i">L. in Ass.</hi> de Barbieri ; Avalle le place dans la même constellation, d’origine languedocienne, y, que <hi rend="i">CGQRT.</hi></p>
@@ -111,7 +109,7 @@
           <p><hi rend="i">Le problème des doublets.</hi> – La présence de doublets n’atteste pas forcément une double source : deux pièces placées sous leur auteur, puis, anonymes, dans la section des <hi rend="i">descorts,</hi> n’en présentent pas moins exactement le même texte : c’est que le copiste a puisé dans son stock de pièces pour constituer une section méthodique. Deux autres pièces figurent sous deux auteurs différents, et les textes sont également très dissemblables : il y a bien ici double source ; un dernier texte, apparaissant deux fois sous le même poète, mais dans deux versions légèrement différentes, ne permet pas de tirer de conclusions certaines.</p>
           <p><hi rend="i">Le problème des « unica ».</hi> – Trois chansons, cinq <hi rend="i">tensos</hi> et surtout vingt et un <hi rend="i">sirventes</hi> (parmi lesquels les six pièces connues de Raimon de Tors de Marseilha) sont des <hi rend="i">unica</hi> dans <hi rend="i">M.</hi> Le grand nombre d’<hi rend="i">unica</hi> parmi les <hi rend="i">sirventes</hi> est peut-être dû au fait que des pièces liées à un contexte historique et poli<pb source="https://nakala.fr/10.34847/nkl.f224u189#c24cbc83ff9b1ffa44299aede2c6da7a4068d1b5" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/c24cbc83ff9b1ffa44299aede2c6da7a4068d1b5/full/full/0/default.jpg"/>tique très précis se démodent plus aisément, surtout face à un public décalé dans le temps et dans l’espace.</p>
         </div>
-        <div>
+        <div xml:id="r1149250">
           <head rend="uc">Chapitre II
            <lb/>Copie et remaniement</head>
           <p><hi rend="i">Variantes de mots : substitutions.</hi> – Les substitutions, conservant ou non le sens du passage et du mot, peuvent avoir plusieurs motifs : la prédilection du copiste pour certains mots, ses tendances stylistiques (celui de <hi rend="i">M</hi> aime particulièrement le procédé de répétition, si cher aussi à Peire Cardenal), le désir de corriger une rime (à un mot déjà présent à la rime peut être substitué un autre), l’amélioration de la formulation (l’ajout d’une syllabe peut éviter un hiatus ou une ambiguïté de prononciation), la recherche d’une meilleure adaptation au contexte, la correction d’une erreur supposée (le copiste ayant mal compris le sens d’un passage), l’influence de l’environnement culturel du copiste (c’est sûrement ce qui a motivé l’introduction du nom de <hi rend="i">Robert Giscart,</hi> le conquérent normand de l’Italie du sud, dans une pièce de B. de Born, <hi rend="i">Lo coms a mandat e volgut,</hi> où il n’avait rien à faire, variante qui vient appuyer l’hypothèse d’une origine napolitaine du manuscrit), l’influence de la langue ou du dialecte du copiste (elle peut entraîner le remplacement de certains mots par d’autres, mieux connus ou plus courants dans la région d’origine du copiste), les erreurs de lecture, la transmission orale (elle peut expliquer la substitution à certains mots de leurs synonymes exacts, ayant qui plus est le même nombre de syllabes). Un peu marginales sont les variantes aboutissant au remplacement d’un mot par une autre forme du même terme (essentiellement dans des buts métriques), les variantes concernant des noms propres (bien sujets à altération, surtout dans un pays étranger, mais plus difficilement à substitution, dans la mesure où un scribe italien est presque sûr de se tromper), et les variantes intervenant dans des séries de mots (il s’agit de la modification d’un mot dans une série sous l’influence d’une séquence stéréotypée).</p>
@@ -131,22 +129,22 @@
           <p><hi rend="i">Problèmes sans réponse : blancs et espaces vides.</hi> – Quand il ne sait qu’écrire, le scribe laisse un espace blanc, qu’il complète ensuite, s’il le peut, d’après les indications du réviseur : le mot nouveau ne s’insère jamais exactement dans l’espace ménagé. Parfois, un blanc est laissé pour copier une strophe entière, preuve que le copiste en connaissait l’existence et la place, mais ne pouvait pas la lire sur son modèle.</p>
           <p><hi rend="i">Des variantes qui n’en sont pas.</hi> – Le manuscrit présente parfois, seul de tous, une version correcte ; d’autres fois, en revanche, deux versions antagonistes coexistent, sans qu’aucune ne soit l’œuvre d’un remanieur : c’est l’auteur lui-même qui a repris son texte (et ce phénomène ne concerne pas uniquement les <hi rend="i">tornadas</hi>).</p>
         </div>
-        <div>
+        <div xml:id="r1149389">
           <pb source="https://nakala.fr/10.34847/nkl.f224u189#398f5482d0c1e3a0309909e6b5b018a09e9ee31f" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/398f5482d0c1e3a0309909e6b5b018a09e9ee31f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Copie et déduction : un embryon de critique du texte</head>
           <p>A plusieurs reprises, le copiste de <hi rend="i">M</hi> a réfléchi sur l’auteur d’une pièce : dans le cas d’une attribution douteuse, il fait suivre le nom de l’auteur supposé de la mention <hi rend="i">ut dicitur</hi> (mais ce type de précisions n’est pas repris à la table) ; dans d’autres exemples, il cherche à donner un auteur à une pièce anonyme, et trouve dans le texte des indices pour l’attribuer, dans un cas à <hi rend="i">un clerc,</hi> et dans un autre à <hi rend="i">una donna de Tolosa.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1149421">
           <head rend="uc">Conclusion</head>
           <p>Si l’on ne voit pas se dessiner une politique cohérente de transformations du texte, on se rend bien compte de la dégradation qu’ont fait subir à l’original des troubadours des générations de copistes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1149432">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>Étude philologique</head>
-        <div>
+        <div xml:id="r1149444">
           <head rend="uc">Chapitre premier
            <lb/>la graphie</head>
           <p>Pour marquer l’élision de α ou <hi rend="i">o</hi> suivi de <hi rend="i">e</hi>, le copiste soude les deux voyelles.</p>
@@ -165,7 +163,7 @@
           <p>/z/ est noté s ou <hi rend="i">z</hi> (ou <hi rend="i">ç</hi>), parfois <hi rend="i">is.</hi> Le suffixe <hi rend="i">-itia</hi> aboutit à <hi rend="i">esa.</hi> La lettre <hi rend="i">ç</hi> note les sons /z/, /s/, /ts/, et s’emploie parfois en composition avec <hi rend="i">h (peçhat</hi>).</p>
           <p>La flexion est marquée par s, sauf après <hi rend="i">g</hi> (représentant /tš/), <hi rend="i">t</hi> (mais <hi rend="i">tz</hi> est souvent réduit à <hi rend="i">z</hi>) et <hi rend="i">n</hi> (en alternance avec s).</p>
         </div>
-        <div>
+        <div xml:id="r1149660">
           <head rend="uc">Chapitre II
            <lb/>La phonétique</head>
           <p>– <hi rend="i">arius</hi> donne le plus souvent <hi rend="i">ier, -aria</hi> aboutit généralement à <hi rend="i">iera.</hi></p>
@@ -191,7 +189,7 @@
           <p>/y/ latin intervocalique est noté le plus souvent <hi rend="i">i,</hi> rarement <hi rend="i">g</hi> (devant <hi rend="i">e</hi>) : ce qui peut indiquer le son /dž/.</p>
           <p><hi rend="i">Z</hi> (ou <hi rend="i">ç</hi>) remplacent parfois, à l’initiale, le son /dž/ : il s’agit d’un italianisme.</p>
         </div>
-        <div>
+        <div xml:id="r1149888">
           <pb source="https://nakala.fr/10.34847/nkl.f224u189#275f694837817d74b1c80e70b0059ab79a231951" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/275f694837817d74b1c80e70b0059ab79a231951/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La morphologie</head>
@@ -207,38 +205,38 @@
           <p>Le futur des verbes en <hi rend="i">ar</hi> est basé sur la lettre <hi rend="i">e (chanterai</hi>).</p>
           <p>Le verbe <hi rend="i">poder</hi> présente quelques formes particulières : <hi rend="i">pueis</hi> pour <hi rend="i">puesc, po</hi> pour <hi rend="i">pot</hi> (même devant voyelle), <hi rend="i">pon</hi> pour <hi rend="i">podon.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1150066">
           <head rend="uc">Chapitre IV
            <lb/>Remarques de syntaxe</head>
           <p>Le scribe soude très souvent la préposition <hi rend="i">a</hi> (et d’autres particules monosyllabiques, prépositions, adverbes, articles, conjonctions, adjectifs, pronoms, mais plus rarement), au mot qui la suit, comme si elle en faisait partie.</p>
           <p>Le scribe suit généralement les règles de la déclinaison à deux cas, non sans faire quelques erreurs (les plus fréquentes étant l’omission de la désinence aux mots terminés par <hi rend="i">g</hi> ou <hi rend="i">ch</hi> notant /tš/).</p>
           <p>Les seules phrases réellement imaginées par le copiste lui-même sont les rubriques introduisant les œuvres de chaque troubadour.</p>
         </div>
-        <div>
+        <div xml:id="r1150096">
           <head rend="uc">Conclusion</head>
           <p>Le copiste est un italien (peut-être florentin), connaissant bien l’occitan, mais <pb source="https://nakala.fr/10.34847/nkl.f224u189#f746bf1fce384b201cd4254e9b9450dff48e724e" n="135" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/f746bf1fce384b201cd4254e9b9450dff48e724e/full/full/0/default.jpg"/>également habitué à copier des textes en français. Il réussit à s’exprimer avec clarté et cohérence à travers des systèmes graphiques qui, pour certains, lui sont propres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1150112">
         <head rend="uc">
           <hi rend="i">Quatrième partie</hi>
           <lb/>L’histoire du manuscrit</head>
-        <div>
+        <div xml:id="r1150124">
           <head rend="uc">Chapitre premier
            <lb/>la préhistoire du manuscrit</head>
           <p>L’étude de la décoration, la variante introduisant le nom de <hi rend="i">Robert Giscart,</hi> et le fait que le manuscrit apparaît pour la première fois à la fin du <num>xv<hi rend="sup">e</hi></num> siècle à Naples permettent de voir en cette ville le lieu d’origine du manuscrit <hi rend="i">M. </hi>Si la recherche dans les comptes des trésoriers des Angevins et les-tentatives de reconstitution de leur bibliothèque (qui comprend surtout des ouvrages religieux, de médecine et des classiques) n’ont pas donné de résultats, la présence des troubadours dans le sud de l’Italie dès l’époque suève plaide en faveur de cette hypothèse.</p>
         </div>
-        <div>
+        <div xml:id="r1150150">
           <head rend="uc">Chapitre II
            <lb/>IL Cariteo</head>
           <p>On ne sait par quel intermédiaire le manuscrit passa aux mains du poète napolitain d’origine catalane Benedetto Gareth. Ce personnage connut sous le règne de Ferrant de Naples un réel rôle politique, mais acheva sa vie comme simple particulier, occupé exclusivement de son œuvre. Avec son neveu, le catalan Casassagia, il lisait, commentait et traduisait son précieux <hi rend="i">Libro Limosino (M</hi>), et s’en inspirait même pour son œuvre poétique : pour lui, la poésie des troubadours était encore bien vivante.</p>
         </div>
-        <div>
+        <div xml:id="r1150166">
           <head rend="uc">Chapitre III
            <lb/>Angelo Colocci</head>
           <p>A la mort de Gareth, Colocci acheta le chansonnier à sa veuve (non sans créer des remous à Naples). Personnage de premier plan dans la Rome du deuxième quart du <num>xvi<hi rend="sup">e</hi></num> siècle, l’évêque de Nocera figure parmi les précurseurs du renouveau de l’intérêt pour les troubadours en Italie. Il a couvert le chansonnier <hi rend="i">M</hi> de très nombreuses annotations témoignant de son application <pb source="https://nakala.fr/10.34847/nkl.f224u189#99d8a73267bc5f1f8107891092c3b4c4a0198e79" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/99d8a73267bc5f1f8107891092c3b4c4a0198e79/full/full/0/default.jpg"/>à apprendre la langue et à s’imprégner de la pensée des troubadours : pour lui, la lyrique occitane était un objet d’étude, et, outre <hi rend="i">M,</hi> il posséda plusieurs autres recueils.</p>
         </div>
-        <div>
+        <div xml:id="r1150197">
           <head rend="uc">Chapitre IV
            <lb/>Les copies du chansonnier <hi rend="i">M</hi></head>
           <p><hi rend="i">Copie et traduction de Bartolomeo Casassagia.</hi> – Le neveu de Cariteo, Casassagia, a effectué pour Colocci une copie et une traduction de neuf pièces de Folquet de Marseille et des pièces d’Arnaut Daniel que contient le chansonnier <hi rend="i">M.</hi> Ce travail se trouve dans les manuscrits du Vatican lat. 4796 et lat. 7182.</p>
@@ -248,20 +246,20 @@
           <p><hi rend="i">Les copies de La Curne de Sainte Palaye.</hi> – La Curne de Sainte Palaye, érudit français du <num>xviii<hi rend="sup">e</hi></num> siècle, relança, après deux siècles de désintérêt presque total, les études sur les troubadours. Il se rendit en Italie, et fit copier tous les manuscrits possédés par les bibliothèques de ce pays, et en particulier <hi rend="i">M, </hi>qui était encore à la Bibliothèque vaticane (après avoir fait réaliser le même travail en France) ; puis il effectua sur ces copies un travail remarquable, que la mort l’empêcha de terminer.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1150308">
         <head rend="uc">Conclusion</head>
         <p>Le chansonnier <hi rend="i">M</hi> apparaît comme un manuscrit organisé, recherchant la clarté tant par sa structure que dans sa présentation, dans les leçons qu’il donne (très souvent refaites), et dans les graphies dont il les habille. Quant à son histoire, il semble établi qu’il a été réalisé dans le contexte de la cour angevine de Naples, écrit peut-être par un florentin, et enluminé par un picard, environ sous le règne de Charles II : le rôle de Naples dans la transmission de la poésie occitane est ainsi avéré. L’exemple de ce chansonnier nous invite donc à nous intéresser davantage aux autres manuscrits et à en tirer des enseignements pour la compréhension de la poésie des troubadours et l’étude de sa diffusion.</p>
       </div>
-      <div>
+      <div xml:id="r1150322">
         <pb source="https://nakala.fr/10.34847/nkl.f224u189#0523a9830d5ea4a61231a4925c126d04a29ec012" n="137" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/0523a9830d5ea4a61231a4925c126d04a29ec012/full/full/0/default.jpg"/>
         <head rend="uc">Édition</head>
         <p>Édition diplomatique des pièces de Peire Cardenal contenues dans le chansonnier <hi rend="i">M</hi> et de sa table des matières.</p>
       </div>
-      <div>
+      <div xml:id="r1150341">
         <head rend="uc">Annexes</head>
         <p>Liste des variantes de mots du chansonnier <hi rend="i">M.</hi> – Liste des variantes entre la table et les <hi rend="i">incipit</hi> du manuscrit. – Tableau de la succession des poètes dans les chansonniers <hi rend="i">M, A, B, C, D, I, S, U.</hi> – Correspondance entre les vers de <hi rend="i">M</hi> et l’édition de Bertran de Born par G. Gouiran. – Localisation des initiales ornées et des vignettes.</p>
       </div>
-      <div>
+      <div xml:id="r1150367">
         <head rend="uc">Illustrations</head>
         <p>Photographies de feuillets du manuscrit <hi rend="i">M :</hi> table, pièces de Peire Vidal et de Peire Cardenal, inscriptions du <num>xvi<hi rend="sup">e</hi></num> siècle, pièce ajoutée ultérieurement.</p>
         <pb source="https://nakala.fr/10.34847/nkl.f224u189#d207c1163b3617ce083416c2480e8e80860d89f0" n="138" facs="https://api.nakala.fr/iiif/10.34847/nkl.f224u189/d207c1163b3617ce083416c2480e8e80860d89f0/full/full/0/default.jpg"/>

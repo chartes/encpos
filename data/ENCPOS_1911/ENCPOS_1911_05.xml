@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,41 +61,41 @@
         <surname>Decq</surname>
         <roleName>Élève de l’École des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r349966">
         <head rend="uc">Première partie
          <lb/>De la situation économique des eaux et forêts
          <lb/>dans le domaine royal au moyen Age</head>
-        <div>
+        <div xml:id="r349976">
           <head rend="uc">Chapitre premier
            <lb/>des revenus des forêts</head>
           <p><hi rend="i">Revenus directs.</hi> – Ventes de bois ; approvisionnement de la marine, de la guerre et des hôtels royaux ; ferme des revenus divers du sol et acensement des bois et terrains improductifs.</p>
           <pb source="https://nakala.fr/10.34847/nkl.dfb74k38#43c1d7431772ef7f736916cda1b48642fcb027da" n="44" facs="https://api.nakala.fr/iiif/10.34847/nkl.dfb74k38/43c1d7431772ef7f736916cda1b48642fcb027da/full/full/0/default.jpg"/>
           <p><hi rend="i">Revenus indirects</hi>. – Rentes féodales, aforestages ; droit de tiers et danger ; droit de graierie et gruerie.</p>
         </div>
-        <div>
+        <div xml:id="r350002">
           <head rend="uc">Chapitre II
            <lb/>Des charges des forêts</head>
           <p>Dîmes forestières. Usages. Dons royaux en nature. Établissements et industries forestières : verreries, tuileries, forges.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r350015">
         <head rend="uc">Deuxième partie
          <lb/>Histoire de l’administration des eaux et forêts
          <lb/>jusqu’àu <num>xvi<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r350031">
           <head rend="uc">Chapitre premier
            <lb/>première période : l’administration des eaux et forêts
            <lb/>est unie à celle du domaine</head>
           <p>Forestiers mérovingiens et carolingiens. Féodalisation d’offices forestiers : origine des gruyers, verdiers, sergents fieffés. Forestiers royaux aux <num>xi<hi rend="sup">e</hi></num> et <num>xii<hi rend="sup">e</hi></num> siècles. Rôle du Grand Veneur et de la Cour du Roi en matière forestière au <num>xii<hi rend="sup">e</hi></num> siècle.</p>
           <p>L’administration des Eaux et Forêts aux mains des prévôts et baillis (<num>xiii<hi rend="sup">e</hi></num> siècle).</p>
         </div>
-        <div>
+        <div xml:id="r350072">
           <head rend="uc">Chapitre II
            <lb/>Deuxième période : formation d’une administration
            <lb/>autonome des eaux et forêts (fin du <num>xiii<hi rend="sup">e</hi></num> siècle-1360)</head>
           <p>Importance croissante des gruyers et verdiers royaux. Apparition des Maîtres des Eaux et Forêts vers 1287 : <pb source="https://nakala.fr/10.34847/nkl.dfb74k38#8691888522bc12d0cb612a52c782a256b2371174" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.dfb74k38/8691888522bc12d0cb612a52c782a256b2371174/full/full/0/default.jpg"/>peu d’importance de leurs attributions primitives. Au commencement du <num>xiv<hi rend="sup">e</hi></num> siècle, les baillis et sénéchaux perdent leurs attributions forestières au profit des maîtres. Création d’inquisiteurs sur tous les maîtres des Eaux et Forêts (1330), d’Enquêteurs et réformateurs des Eaux et Forêts (1341), du Souverain Maître des Eaux et Forêts (1360).</p>
         </div>
-        <div>
+        <div xml:id="r350103">
           <head rend="uc">Chapitre III
            <lb/>Troisième période : l’administration autonome
            <lb/>des eaux et forêts (1360-<num>xvi<hi rend="sup">e</hi></num> siècle)</head>
@@ -105,55 +103,55 @@
           <p>Transformation de l’administration des Eaux et Forêts à la fin du <num>xv<hi rend="sup">e</hi></num> siècle et au commencement du <num>xvi<hi rend="sup">e</hi></num> : apparition des Maîtres particuliers, création de nouveaux et nombreux offices, institution de Tables de marbre en province (Rouen, Toulouse, Dijon, Bordeaux, etc.). Décadence et suppression de l’office du Souverain Maître (1575).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r350151">
         <pb source="https://nakala.fr/10.34847/nkl.dfb74k38#38766aedbaa59b4e8b8d2c9b6e33ff9fa7a53c86" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.dfb74k38/38766aedbaa59b4e8b8d2c9b6e33ff9fa7a53c86/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>De l’organisation de l’administration
          <lb/>autonome des eaux et forêts</head>
-        <div>
+        <div xml:id="r350166">
           <head rend="uc">Chapitre premier
            <lb/>administration de la forêt : gruyers, verdiers,
            <lb/>maitres, sergents</head>
           <p>Généralités : titres, conditions, nomination et réception, vacances, obligations disciplinaires, gages. – Attributions administratives, judiciaires et financières. – Grueries et verderies fieffées. – Gruyers de Champagne et de Brie.</p>
         </div>
-        <div>
+        <div xml:id="r350180">
           <head rend="uc">Chapitre II
            <lb/>Administration de la forêt : officiers inférieurs</head>
           <p>Sergents à pied, à cheval, à gages et sans gages, traversiers ; sergents fieffés, sergents dangereux. – Chevaucheurs des forêts ; louvetiers et goupiliers ; parquiers ; garenniers ; gardes des viviers.</p>
         </div>
-        <div>
+        <div xml:id="r350192">
           <head rend="uc">Chapitre III
            <lb/>Les maitrises des eaux et forêts : les maitres
            <lb/>et enquêteurs</head>
           <p>Généralités. – Attributions administratives : application des ordonnances, surveillance du personnel, visite des forêts, réformations de forêts, assises des coupes et adjudications des ventes de bois, gestion des bois en <pb source="https://nakala.fr/10.34847/nkl.dfb74k38#7b211d1551ef486e73ac6f468aeec6602a7ad511" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.dfb74k38/7b211d1551ef486e73ac6f468aeec6602a7ad511/full/full/0/default.jpg"/>régale, administration des Eaux. – Attributions judiciaires : les Jours des Eaux et Forêts. – Attributions financières.</p>
         </div>
-        <div>
+        <div xml:id="r350211">
           <head rend="uc">Chapitre IV
            <lb/>Les maitrises des eaux et forêts : personnel
            <lb/>des maitrises</head>
           <p>Lieutenant du Maître. Procureur et avocat du Roi sur le fait des Eaux et Forêts. Clercs et greffiers des Eaux et Forêts. Mesureurs et arpenteurs jurés des Eaux et Forêts.</p>
         </div>
-        <div>
+        <div xml:id="r350225">
           <head rend="uc">Chapitre V
            <lb/>La souveraine maitrise des eaux et forêts : le
            <lb/>souverain maitre</head>
           <p>Généralités. – Attributions administratives : enregistrement et exécution des ordonnances, nomination, réception et direction du personnel, direction de l’exploitation des forêts, visites et réformations des forêts. – Attributions judiciaires.</p>
         </div>
-        <div>
+        <div xml:id="r350239">
           <head rend="uc">Chapitre VI
            <lb/>La souveraine maitrise des eaux et forêts : les
            <lb/>sièges ou auditoires des eaux et forêts</head>
           <p>La Table de marbre du Palais à Paris : compétence et organisation ; personnel (lieutenant général, lieutenant particulier, conseillers, procureur du Roi, avocat du Roi, greffier).</p>
           <p>L’Échiquier des Eaux et Forêts de Rouen.</p>
         </div>
-        <div>
+        <div xml:id="r350256">
           <pb source="https://nakala.fr/10.34847/nkl.dfb74k38#8ebf1d7a0330f2f3bcffdeacec9135f5093b5de3" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.dfb74k38/8ebf1d7a0330f2f3bcffdeacec9135f5093b5de3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Le receveur général des eaux et forêts</head>
           <p>Origines. Attributions.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r350274">
         <head rend="uc">Appendice</head>
         <p>Listes chronologiques des Souverains Maîtres et Généraux Réformateurs des Eaux et Forêts et de leurs lieutenants généraux.</p>
       </div>

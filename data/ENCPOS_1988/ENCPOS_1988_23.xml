@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1988_23" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1988_23" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,14 +55,14 @@
         <forename>Hélène</forename>
         <surname>Viallet</surname>
       </byline>
-      <div>
+      <div xml:id="r1168099">
         <head rend="uc">Introduction</head>
         <p>L’élevage est le seul mode de mise en valeur possible de bien des régions marginales, défavorisées par les conditions naturelles. L’ensemble des opérations qui assurent la production, l’entretien et l’utilisation des animaux domestiques peut déborder de son cadre strictement économique pour donner naissance à une véritable civilisation pastorale, c’est-à-dire un genre de vie fondé sur l’exploitation extensive des pâturages. Les bestiaux se déplacent périodiquement à mesure qu’ils épuisent les ressources, et ils entraînent avec eux leurs gardiens.</p>
         <p>Cette migration particulière du bétail, l’estivage ou « estive », s’oppose aux deux autres grands modes de migration du bétail que l’on distingue traditionnellement : le nomadisme et la transhumance. Ces derniers sont en effet la caractéristique des régions au climat désertique ou semi-arides alors que l’estivage est pratiqué dans les montagnes tempérées où l’homme a réussi à mettre au point un délicat ajustement entre culture et élevage. Au titre des handicaps, la longueur de l’hiver, le froid et l’humidité ne permettaient pas de vivre uniquement de la culture des céréales, mais en compensation, les montagnards pouvaient trouver des ressources essentielles dans l’élevage, grâce à l’abondance et à la qualité de l’herbe. Une même exploitation associait des tranches superposées de champs, de prés de fauche, et d’alpages. Cette combinaison d’une agriculture sédentaire et d’un élevage à migration estivale qui permet d’utiliser tous les niveaux de la montagne en cours d’année, est surtout propre aux Alpes du nord, dont elle a façonné les paysages.</p>
         <p>Ce genre de vie est issu des contrastes du relief montagnard, des contraintes et des potentialités qu’il offre. Mais le milieu naturel n’est pas un facteur déterminant unique. Pourquoi des vallées offrant les mêmes caractéristiques climatiques, un relief et un manteau végétal semblables ont-elles utilisé les pâturages d’altitude selon des systèmes d’exploitation différents ? L’étude des données historiques et de l’évolution des structures foncières propres à chaque vallée <pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#0d02b678ca232b4a1203bf1b53623cbe50842115" n="210" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/0d02b678ca232b4a1203bf1b53623cbe50842115/full/full/0/default.jpg"/>apparaît comme le seul moyen d’expliquer ces oppositions. Pourquoi le Beaufortain, situé entre le Faucigny, où prédominent les « petites montagnes », et la Tarentaise, terre d’élection des « fruits communs », a-t-il adopté le système de la « grande montagne particulière » ?</p>
         <p>A l’inverse de la Suisse, le thème de l’histoire des systèmes agro-pastoraux montagnards dans les Alpes a été très peu abordé en France. On a parfois considéré, au nom d’une histoire paysanne immobile, que l’homme avait toujours utilisé les pâturages d’altitude selon un type d’exploitation figé, immuable du Moyen Age jusqu’aux bouleversements du <num>xx<hi rend="sup">e</hi></num> siècle. Or cette affirmation d’une vie pastorale immobile était réfutée de façon évidente dans le cas du Beaufortain, où le gruyère avait été importé par les fromagers suisses. La fabrication de ce gros fromage, qui nécessite un troupeau important, inalpé en « grande montagne », avait-elle dû, pour s’imposer, bouleverser les structures socioéconomiques d’une région livrée auparavant à la petite exploitation familiale, ou bien s’était-elle diffusée rapidement dans une vallée où l’organisation de la vie pastorale permettait déjà son implantation ? Quelles avaient été les conséquences de cette introduction du gruyère ? Un autre aspect de la problématique de ce sujet consistait, après avoir reconstitué une image fidèle de la société à Saint-Maxime de Beaufort, à la confronter avec la vision rousseauiste d’une montagne égalitaire et vertueuse. Cette étude présentait donc de multiples intérêts, d’ordre ethnologique et historique, mais exigeait une documentation qui permît de fournir des réponses à ces pistes de recherche.</p>
       </div>
-      <div>
+      <div xml:id="r1168129">
         <head rend="uc">Sources</head>
         <p>Trois types de sources ont été utilisées : documents d’archives, sources iconographiques et enquêtes orales.</p>
         <p>Comme l’exploitation des grandes montagnes était privée, les informations concernant la vie en alpage sont très ponctuelles dans les archives communales de Beaufort. Celles-ci offrent, en revanche, des matériaux remarquables pour l’étude des structures foncières : une collection de deux cents registres terriers, trois cadastres successifs entre 1607 et 1738, un fonds important sur les aliénations de communaux au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
@@ -72,11 +70,11 @@
         <p>Aucune série ne pouvant renfermer un fonds propre aux alpages, les documents étaient très dispersés. La source la plus abondante a été d’origine privée : les archives de la famille Blanc, qui domina la vie beaufortaine pendant plus de deux siècles, ont été essentielles pour la réalisation de cette étude. Ce fonds très riche a permis d’éclaircir de nombreux aspects de l’économie agro-pastorale.</p>
         <p>Enfin, pour dresser un tableau de la vie quotidienne en alpage, j’ai utilisé des sources iconographiques (photographies, gravures, plans de chalets) et <pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#073ef139df72722463b7e65659653be378d3d5ac" n="211" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/073ef139df72722463b7e65659653be378d3d5ac/full/full/0/default.jpg"/>orales (enquête auprès de personnes ayant travaillé en alpage avant la seconde guerre mondiale).</p>
       </div>
-      <div>
+      <div xml:id="r1168168">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Une vallée montagnarde</head>
-        <div>
+        <div xml:id="r1168180">
           <head rend="uc">Chapitre premier
            <lb/>le milieu naturel</head>
           <p>Le Beaufortain est une cellule géographique bien délimitée, au cœur des Etats de la Maison de Savoie. Le massif fait partie de la zone des massifs centraux alpins, qui se situe entre les Préalpes et la zone intra-alpine. La communauté de Saint-Maxime (13 971 hectares) occupe la moitié de son territoire.</p>
@@ -89,7 +87,7 @@
           <p>D’un point de vue économique, le secrétaire de la communauté divisait, à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, le territoire de Saint-Maxime en trois niveaux : « Les montagnes tant propres que communes forment la partie supérieure de la paroisse. La deuxième consiste en la partie de la mi-mont, laquelle est pour la plupart en forêt et une portion en terres semables... la partie inférieure est en terres semables » (1778).</p>
           <p>Dans l’ensemble, le massif du Beaufortain offre des conditions naturelles très favorables au développement de l’activité agro-pastorale. Les facteurs géographiques et climatiques ont créé des potentialités à partir desquelles le peuplement et l’histoire, les structures foncières vont constituer une forme particulière d’économie montagnarde.</p>
         </div>
-        <div>
+        <div xml:id="r1168227">
           <head rend="uc">Chapitre II
            <lb/>Le peuplement et l’histoire du massif</head>
           <p>L’absence de vestiges et de documents ne permet pas de suivre de façon certaine l’histoire du peuplement du massif. Aucun acte antérieur à la fin du <num>xii<hi rend="sup">e</hi></num> siècle ne mentionne la région. L’histoire du Beaufortain jusqu’au Moyen Age se réduit à quelques jalons : occupation par les Ceutrons ; présence romaine (attestée tardivement par la dénomination de <hi rend="i">Luciaco</hi> que porte la région dans un acte de 1170) ; implantation du christianisme, au début du <num>v<hi rend="sup">e</hi></num> siècle, à la suite de la prédication de deux moines de Lérins, saint Jacques d’Assyrie, qui sera le premier évêque de Tarentaise, et saint Maxime, patron de la paroisse de Beaufort.</p>
@@ -104,7 +102,7 @@
           <p>L’étude des <hi rend="i">Consignes du sel</hi> de la seconde partie du <num>xviii<hi rend="sup">e</hi></num> siècle laisse apparaître une forte disparité des niveaux de vie, bien loin d’une démocratie égalitaire montagnarde : l’importante disparité sociale repose sur la possession de bovins. En 1763, 21,5 % des feux ne disposent d’aucun cheptel ; 45 % des feux hivernent moins de trois vaches. Le seuil de l’aisance (cinq vaches et plus) n’est atteint que par 15 % des feux : il s’agit des « montagnards » et des notables, en majorité hommes de loi.</p>
           <p>Le notaire-insinuateur M<hi rend="sup">e</hi> Joseph Blanc, puis son fils Michel exercent la charge de secrétaire de la communauté. Ce poste-clé de l’administration locale savoyarde, créé en 1738, leur assure le pouvoir politique, dont Turin a dépossédé sindics et conseillers. Même s’il n’est qu’un instrument de l’intendant, le secrétaire se rend indispensable et influent. En outre, la famille Blanc jouit d’une fortune foncière sans équivalent dans la vallée et tire de gros bénéfices de ses activités commerciales.</p>
         </div>
-        <div>
+        <div xml:id="r1168357">
           <head rend="uc">Chapitre III
            <lb/>L’économie agro-pastorale</head>
           <p>La vie pastorale dans les Alpes du nord est organisée autour de l’unité d’exploitation que constitue la « montagne ». Le terme actuel d’alpage n’est pas utilisé. Une montagne ne s’évalue pas d’après sa superficie, mais selon le nombre de vaches qu’elle peut recevoir. Sa surface a pu varier selon les époques, les locations et les ventes. Il s’agit en fait d’un terme abstrait, désignant une unité d’exploitation à un moment donné. Au <num>xviii<hi rend="sup">e</hi></num> siècle, on a compté entre trente-sept et quarante-deux alpages sur le territoire de Saint-Maxime.</p>
@@ -122,11 +120,11 @@
           <p>L’élevage et la vente de ses produits conditionne la survie des habitants : les ressources en céréales sont insuffisantes ; il faut en importer le tiers. Le gruyère sert de monnaie d’échange. Le Beaufortain jouit de nombreux avantages par rapport aux communautés de certaines vallées (Haute-Maurienne) ou de l’avant-pays. Sa prospérité, qui ne doit pas faire oublier la dureté et la précarité de la vie en montagne, est chose reconnue et enviée en Savoie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1168465">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Modes de jouissance des pâturages</head>
-        <div>
+        <div xml:id="r1168477">
           <pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#a16a5dee1b932acbd83b82d3a1bea7c8ed0ceed0" n="217" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/a16a5dee1b932acbd83b82d3a1bea7c8ed0ceed0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la propriété commune</head>
@@ -137,7 +135,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#bea72aad455815827dae0a67aa561493384be0a5" n="218" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/bea72aad455815827dae0a67aa561493384be0a5/full/full/0/default.jpg"/>
           <p>En l’espace de cinq ans, 1 026 hectares (23 % des pâturages d’altitude) avaient été vendus. Ce sont les notables qui vont profiter de cette opération, en agrandissant leurs alpages pour produire davantage de gruyère. Les six plus gros achats, réalisés par huit personnes, recouvrent à eux seuls 60 % des surfaces aliénées. La bourgeoisie rurale, et au premier rang M<hi rend="sup">es</hi> Joseph et Michel Blanc, a su tirer un parti très avantageux des affranchissements pour affermir sa maîtrise sur les alpages, en utilisant une réforme administrative d’intérêt collectif pour son profit personnel. Mais il subsiste encore d’immenses superficies en altitude à l’usage des montagnards aboutissants.</p>
         </div>
-        <div>
+        <div xml:id="r1168533">
           <head rend="uc">Chapitre II
            <lb/>La propriété particulière</head>
           <p>Pour la période médiévale, nous ne disposons pas de documents sur les alpages, puisque la propriété ecclésiastique n’existe pas dans le Beaufortain. Il faut se contenter d’hypothèses : les défrichements en zone d’altitude ne sont pas antérieurs au <num>xiii<hi rend="sup">e</hi></num> siècle, surtout dans une région peuplée tardivement. Une forme de propriété collective est alors indispensable pour survivre. La pleine exploitation des pâturages de montagne remonte au <num>xiv<hi rend="sup">e</hi></num> siècle, mais les actes d’albergement n’ont pas été conservés. Les concessions de pâturages se multiplient alors, c’est un véritable démarrage économique répondant à une demande accrue de viande, de peaux, de fromage de la part des villes, grosses consommatrices. A la différence du Chablais, où dominaient les grandes abbayes, les terrains à mettre en valeur sont le plus souvent concédés à un seul chef de famille.</p>
@@ -155,12 +153,12 @@
           <p>La condition du montagnard n’est pas toujours dorée, puisqu’il reste soumis aux aléas climatiques. Une année catastrophique (été froid, épizootie...) peut le ruiner. Mais sa position-clé dans l’économie agro-pastorale lui assure une véritable sujétion sur la masse des petits exploitants.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1168681">
         <pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#1be3643751caa5ada196efc63095bbd670a17158" n="221" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/1be3643751caa5ada196efc63095bbd670a17158/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>La vie quotidienne en alpage</head>
-        <div>
+        <div xml:id="r1168698">
           <head rend="uc">Chapitre premier
            <lb/>les infrastructures</head>
           <p>Pour agrandir les pâturages naturels qui s’étendent au-dessus de 2 000 mètres, l’homme a dû défricher des étendues recouvertes d’une végétation touffue d’arbustes vivaces, sorte de maquis alpin, et faire reculer peu à peu la limite supérieure de la forêt. C’est surtout à partir du XH<hi rend="sup">e</hi> siècle que s’amorce ce mouvement dans les Alpes du nord, en raison d’une poussée démographique puissante. Les paysans, aidés souvent par les moines, notamment en Tarentaise, commencent l’essartage des terres d’altitude. Dans le Beaufortain, l’espace pastoral atteint son extension maximale aux <num>xviii<hi rend="sup">e</hi></num> et <num>xix<hi rend="sup">e</hi></num> siècles.</p>
@@ -169,7 +167,7 @@
           <p>La situation des constructions dans la montagne est imposée par la nécessité de les protéger du vent et des avalanches. Les chalets se trouvent dispersés du bas jusqu’au sommet de l’alpage, à vingt minutes environ de marche les uns des autres. Ils ne dépassent pratiquement jamais 2 200 mètres. Du fait de la difficulté des transports, les matériaux de construction seront ceux dont on dispose sur place. Les chalets les plus élevés ou les plus éloignés d’un bois sont presque entièrement en pierre. Le plan du chalet est une réplique plus fruste de la maison d’habitation : au rez-de-chaussée, l’étable, l’écurie du mulet, le réduit des porcs, une remise à bois. A l’étage supérieur, la grange couvre les deux tiers de la surface et ne laisse que peu de place à la pièce étroite où l’on fabrique le fromage.</p>
           <p>Le bâtiment repose sur un soubassement grossier de pierres crues qui sup<pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#53894c12e14eedbbe96f04f1675f33a6dd8b9ef0" n="222" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/53894c12e14eedbbe96f04f1675f33a6dd8b9ef0/full/full/0/default.jpg"/>porte des troncs d’arbres équarris, assemblés aux extrémités par des encoches à mi-bois ; la charpente est élémentaire ; la couverture est faite de tuiles d’épicéa, les « ancelles ». Le plan et la structure du chalet beaufortain sont de conception très primitive. La destination primordiale est de permettre la fabrication du fromage et non d’assurer le confort des hommes. D’autres bâtiments sont élevés sur l’alpage : « halles » pour abriter le bétail en cas de neige, caves à fromage ou « freydiers », « bouttaz » pour tenir le lait au frais. Dans les montagnes de Saint-Maxime, le nombre élevé de chalets et leur dispersion témoignent de l’exploitation presque intensive des pâturages.</p>
         </div>
-        <div>
+        <div xml:id="r1168755">
           <head rend="uc">Chapitre II
            <lb/>Les travaux quotidiens</head>
           <p>L’inalpage, relativement court, dure environ quatre-vingts jours, de la S<hi rend="sup">t</hi>-Jean-Baptiste aux « Veilles » de Notre-Dame de septembre. La montée en alpage s’effectue sans rituel précis, mais elle est vécue comme un jour de fête par tous les habitants.</p>
@@ -177,11 +175,11 @@
           <p>Le muletier complète le personnel d’une grande montagne. Il descend quotidiennement les fromages à la cave, assure les transports de matériel lors des « remues ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1168778">
         <head rend="uc">
           <hi rend="i">Quatrième partie</hi>
           <lb/>Les produits de l’élevage</head>
-        <div>
+        <div xml:id="r1168790">
           <pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#aaeb2fccec91bedc7d643392a62a4b5a7e0e7652" n="223" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/aaeb2fccec91bedc7d643392a62a4b5a7e0e7652/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les troupeaux</head>
@@ -190,14 +188,14 @@
           <p>Outre les vaches laitières, l’alpage reçoit aussi des bêtes sans lait, destinées à la boucherie, des élèves, des chèvres, des moutons et des porcs. Une montagne de cent vaches peut nourrir trente génisses, vingt veaux, vingt porcs, deux mulets, deux taureaux, vingt chèvres.</p>
           <p>Les bêtes de somme sont essentiellement des mulets ou des mules, mieux adaptés à la montagne que les chevaux. Même dans la vallée, la pente et l’absence, de routes carrossables rendent le mulet indispensable pour tous les transports et travaux agricoles. Son entretien coûte très cher ; la possession d’une ou plusieurs bêtes est réservée au montagnard.</p>
         </div>
-        <div>
+        <div xml:id="r1168828">
           <head rend="uc">Chapitre II
            <lb/>La fabrication du fromage</head>
           <p>Les documents d’archives livrent très peu d’indications sur la fabrication du fromage et des produits laitiers. Une chose est certaine : les techniques traditionnelles du Beaufortain ont été modifiées à partir du <num>xvii<hi rend="sup">e</hi></num> siècle par les fruitiers du pays de Gruyère. Le gruyère est fabriqué deux fois par jour lorsque la production laitière est suffisante, sinon on réunit le lait de deux traites. Le lait entier, porté à la température de 30 à 35° C, est additionné de présure, préparée avec des caillettes de veau macérées dans du petit-lait aigri. Cette méthode a été importée par les fruitiers suisses ; auparavant on utilisait des plantes pour faire cailler le lait. Le caillé est découpé, et réduit en particules de la taille d’un grain de blé. Cette masse est brassée et chauffée jusqu’à 45 puis 50° C. Le petit-lait se sépare du fromage, que le fruitier et la séracière soulèvent à l’aide d’une toile et déposent dans un cercle au diamètre réglable. Le fromage est pressé suivant un dispositif rudimentaire. Au bout de vingt-quatre heures, il est démoulé et mis en saumure. La période minimum d’affinage est de six mois.</p>
           <p>Les gruyères sont de qualité inégale ; la compétence du fruitier n’est pas <pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#5a3283a929d573426c86052363a9d2c7c810e85a" n="224" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/5a3283a929d573426c86052363a9d2c7c810e85a/full/full/0/default.jpg"/>toujours en cause, car de nombreux facteurs extérieurs peuvent intervenir. Le poids moyen des meules est de 15 à 25 kg au <num>xviii<hi rend="sup">e</hi></num> siècle (il est actuellement de 60 kg). Les impératifs commerciaux, le goût de la clientèle déterminèrent certains montagnards à exiger de leurs fruitiers un certain type de pâte et à fabriquer un gruyère sans trous.</p>
           <p>Le reste de l’année, les montagnards et les paysans qui ont quelques vaches font de la tomme, réservée à la consommation familiale. Le lait est utilisé au maximum : après le soutirage du fromage, on tire encore du petit-lait le « beurre de fleurettes » et le « sérac ». <hi rend="i">Le</hi> résidu, ou « sérum », sert à la nourriture des porcs. On fabrique également d’autres fromages que le gruyère : « vacherins », « brezegous », « boudanes ».</p>
         </div>
-        <div>
+        <div xml:id="r1168867">
           <head rend="uc">Chapitre III
            <lb/>La commercialisation</head>
           <p>Le fromage fait avec du lait entier, riche en matières grasses, échappe à la consommation familiale et locale. Il est destiné dans sa quasi-totalité à être vendu en dehors de la vallée. Pourtant, le mauvais état des voies de communication, aggravé par la rigueur du climat, entrave le développement de cette activité fructueuse. Transportés à dos de mulet, les fromages gagnent le Piémont et l’Italie, débouchés essentiels du gruyère beaufortain. Des relations existent aussi avec Lyon et la vallée du Rhône. Les montagnards vendent leur production de l’été, ou « fruitière », à des marchands de Saint-Maxime, qui la cèdent à leur tour aux grossistes de Haute Maurienne. Ceux-ci se chargent du transport des fromages depuis le Beaufortain jusqu’aux grandes foires piémontaises de Suse et de Turin.</p>
@@ -206,7 +204,7 @@
           <p>Le trafic des maquignons reste lié à l’exploitation foncière dont il ne constitue qu’un prolongement. Gros propriétaires, aubergistes, notaires font le commerce de leur propre bétail ou s’instituent intermédiaires. Dès le <num>xvi<hi rend="sup">e</hi></num> siècle, de nombreux négociants du duché et des Etats voisins se rendent aux foires de Saint-Maxime, dont la plus importante se tient à la Saint-Michel. Jusqu’à la fin de l’Ancien Régime, la destination du bétail reste la même : d’une part l’Italie (foires de Suse), et d’autre part le Dauphiné (foires d’Embrun). Le tra<pb source="https://nakala.fr/10.34847/nkl.ee53ctp6#3003b5411b31375f3b716f2392ee9b7ad6a1362e" n="225" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee53ctp6/3003b5411b31375f3b716f2392ee9b7ad6a1362e/full/full/0/default.jpg"/>fie à longue distance porte sur les élèves (taureaux et génisses) et sur les ovins. Les bêtes de réforme engraissées dans le Beaufortain sont vendues en Savoie. Le commerce des bovins et des ovins n’est pas un trait distinctif de l’économie du Beaufortain, alors que l’élevage mulassier offre un exemple de spécialisation dès le <num>xviii<hi rend="sup">e</hi></num> siècle. Les jeunes bêtes passent deux ou trois ans dans les pâturages communaux puis sont revendus en Piémont et Dauphiné. Cette activité se poursuit avec succès tout au long du <num>xix<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1168928">
         <head rend="uc">Conclusion</head>
         <p>L’économie agro-pastorale du Beaufortain, telle qu’elle s’est constituée dans la seconde partie du <num>xvii<hi rend="sup">e</hi></num> siècle, repose sur un système individualiste et inégalitaire : 10 % environ des familles détiennent les biens de production, alpages et troupeaux, ou en profitent directement. La finalité de cet équilibre entre agriculture et élevage est la production et le commerce du gruyère, unique activité de la vallée jusqu’à la seconde guerre mondiale.</p>
         <p>Malgré la documentation qui permet de suivre les mécanismes et l’évolution de la vie pastorale à Saint-Maxime, plusieurs points restent néanmoins dans l’ombre : les premières concessions de pâturages d’altitude, les conditions exactes de l’introduction du gruyère, la destination finale du fromage après sa vente en Piémont.</p>

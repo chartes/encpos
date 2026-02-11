@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,15 +56,15 @@
         <forename>Maïté</forename>
         <surname>Etchechoury</surname>
       </byline>
-      <div>
+      <div xml:id="r1129042">
         <head rend="uc">Introduction</head>
         <p>Dans les nouvelles perspectives ouvertes à l’histoire « administrative » il a paru nécessaire de lier ici l’étude d’une institution proprement dite, les maîtres des requêtes de l’Hôtel du roi, et celle des officiers qui en ont composé le corps pendant la seconde moitié du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1129058">
         <head rend="uc">Sources</head>
         <p>Les archives des Requêtes de l’Hôtel (Archives nationales, V<hi rend="sup">4</hi> 1 à 10) ne commençant qu’en 1574 et ne comprenant que des minutes de sentences, il a été nécessaire de recourir à d’autres fonds, en particulier celui du parlement de Paris (série du Conseil) et celui du Grand Conseil. La Bibliothèque de l’Assemblée nationale a fourni une copie d’extraits des registres de la juridiction (ms. 1013), et la Bibliothèque nationale de nombreux compléments, tant originaux que copies, ainsi que la série des Pièces originales du Cabinet des titres. La série des insinuations du Châtelet (Archives nationales, série Y) a procuré des renseignements de type biographique et permis d’aborder partiellement les fonds du Minutier central des notaires parisiens.</p>
       </div>
-      <div>
+      <div xml:id="r1129072">
         <pb source="https://nakala.fr/10.34847/nkl.1f3bn685#7c36364adef822b982004a1a2def586af3645a73" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f3bn685/7c36364adef822b982004a1a2def586af3645a73/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre préliminaire
          <lb/>les maîtres des requêtes avant 1553</head>
@@ -74,21 +72,21 @@
         <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle, la compétence en matière d’offices est attribuée par concurrence et prévention au Grand Conseil et aux Requêtes de l’Hôtel (1529), puis à ces dernières privativement (1539). Une compétence extraordinaire leur est reconnue sur les affaires que le roi leur renvoie par lettres patentes et où leur jugement a le plus souvent un caractère souverain. Il s’agit très souvent d’affaires de faux commis en Chancellerie.</p>
         <p>En 1553, au moment où l’édit de Compiègne va porter leur nombre de seize à vingt, les maîtres des requêtes, pour la plupart anciens conseillers au Parlement ou officiers des bailliages et sénéchaussées, constituent un petit corps d’officiers proches du roi ; leurs attributions, théoriquement limitées, couvrent en réalité un champ très vaste, en raison des nombreuses délégations de l’autorité royale qui leur sont faites, dans les domaines judiciaire et administratif.</p>
       </div>
-      <div>
+      <div xml:id="r1129121">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Comment devenir maître des requêtes ?</head>
-        <div>
+        <div xml:id="r1129133">
           <head rend="uc">Chapitre premier
            <lb/>l’accession a l’office</head>
           <p>On ne constate, pour les cent cinquante maîtres des requêtes nommés entre 1553 et 1589 qu’une vingtaine de cas où l’office se transmet au sein d’une même famille ; la pratique des résignations à survivance entraîne généralement un partage de l’exercice de l’office. La grande majorité a acquis sa charge en l’achetant au roi quand elle est vacante ou nouvellement créée (sous la fiction d’un « prêt » ou en laissant l’ancien office), ou à un particulier. Dans ce dernier cas, <pb source="https://nakala.fr/10.34847/nkl.1f3bn685#cce81c589e361bb8a47f1a5564f5b6a33f4fd8d8" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f3bn685/cce81c589e361bb8a47f1a5564f5b6a33f4fd8d8/full/full/0/default.jpg"/>la transaction s’effectue par devant notaires, l’office faisant partie des biens de son possesseur. Cette vénalité entre particuliers se masque sous la fiction d’un prêt fait au roi, ou entraîne l’abandon de l’ancienne charge, cédée au résignant pour le dédommager. La protection de grands personnages explique l’accession à cette charge de personnages relativement obscurs.</p>
         </div>
-        <div>
+        <div xml:id="r1129150">
           <head rend="uc">Chapitre II
            <lb/>Le prix des charges</head>
           <p>La valeur moyenne d’un office de maître des requêtes s’élève, pendant la plus grande partie de la seconde moitié du <num>xvi<hi rend="sup">e</hi></num> siècle, à 18 000 livres environ. Il semble qu’elle ait augmenté dans les aimées 1580. On constate un fréquent recours aux compensations en nature, comme la « permutation » des charges, ou la promesse de faire pourvoir de la charge délaissée le fils ou le neveu de son résignant. Le cas le plus fréquent est l’abandon par le nouvel officier du ou des offices qu’il exerçait avant sa nomination. Au prix payé par l’officier pour l’obtention de sa charge peut s’ajouter le paiement de sommes parfois importantes, pour acheter le maintien de l’office menacé de suppression, ou à titre d’emprunt forcé, sous forme de constitution de rentes.</p>
         </div>
-        <div>
+        <div xml:id="r1129168">
           <head rend="uc">Chapitre III
            <lb/>L’augmentation du nombre des offices :
            <lb/>les édits de création (1553-1589)</head>
@@ -97,7 +95,7 @@
           <p>Le dernier édit de notre période, en octobre 1585, porte le nombre des offices à cinquante et un, pour un nombre effectif d’officiers peut-être légèrement inférieur.</p>
           <p>Des personnages peuvent porter le titre de maître des requêtes de l’Hôtel du roi sans appartenir à ce corps. Il s’agit là d’un titre honorifique, gratifiant souvent des ambassadeurs.</p>
         </div>
-        <div>
+        <div xml:id="r1129191">
           <head rend="uc">Chapitre IV
            <lb/>La réception par le chancelier. La réception au grand conseil</head>
           <p>Pour pouvoir exercer sa charge et percevoir ses revenus, un maître des requêtes doit s’acquitter de la formalité de la réception, qui est triple.</p>
@@ -106,37 +104,37 @@
           <p>Une cérémonie similaire a lieu au Grand Conseil, après la plus importante qui a lieu au Parlement.</p>
           <p>Il n’y a pas encore de réception aux Requêtes de l’Hôtel.</p>
         </div>
-        <div>
+        <div xml:id="r1129217">
           <head rend="uc">Chapitre V
            <lb/>La réception au parlement</head>
           <p>La formalité la plus importante est la réception au Parlement. L’âge exigé est fixé à vingt-cinq ans en 1553, mais on peut obtenir des lettres de dispense ; l’officier doit cependant attendre d’avoir atteint l’âge requis pour exercer réellement sa charge. Un conseiller de la cour est chargé d’enquêter sur les « vie, mœurs et conversation catholique », l’aspect religieux prenant une grande importance à partir de 1570. Trois candidats protestants sont repoussés par le Parlement malgré l’insistance du roi. L’examen de capacité qui précède la réception est le plus souvent de pure forme ; parfois cependant, un candidat doit se représenter. Le Parlement en dispense certains personnages, évêques et anciens conseillers surtout.</p>
           <p>La date de cette réception permet d’établir le rang d’ancienneté de l’officier.</p>
         </div>
-        <div>
+        <div xml:id="r1129232">
           <head rend="uc">Chapitre VI
            <lb/>Gages et pensions</head>
           <p>Les maîtres des requêtes touchent des gages fixés à 1 200 livres et 100 livres de droit de robe en 1554, dont le montant ne varie pas au cours de la période. Ils devaient également percevoir une bourse sur les émolùments du sceau, mais cette pratique ne semble pas avoir été bien observée. Le jugement des instances à l’Auditoire des Requêtes leur permettait de recevoir des épices dont le montant était très important. Ils étaient rétribués à part quand ils effectuaient des commissions.</p>
           <p>Leurs revenus étaient grossis, pour certains d’entre eux, par le cumul de plusieurs offices et par des pensions sur le Trésor royal.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1129248">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Que font les maîtres des requêtes ?</head>
-        <div>
+        <div xml:id="r1129260">
           <pb source="https://nakala.fr/10.34847/nkl.1f3bn685#3fc95c30d11e4b68c41d64874a227fb791b767aa" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f3bn685/3fc95c30d11e4b68c41d64874a227fb791b767aa/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les sources législatives</head>
           <p>Il existe très peu de textes émanés du pouvoir royal qui soient consacrés en totalité aux maîtres des requêtes : l’édit d’Amboise de 1493, les édits de création d’août 1553 et octobre 1556, qui sont également des règlements, l’édit de mars 1582 sur leur compétence ordinaire.</p>
           <p>Quelques dispositions des grandes ordonnances judiciaires, d’Orléans (1561), de Moulins (1566), de Blois surtout (1579), les concernent. Ces textes ne donnent qu’une idée très imprécise de ce qu’étaient les activités des maîtres des requêtes.</p>
         </div>
-        <div>
+        <div xml:id="r1129280">
           <head rend="uc">Chapitre II
            <lb/>L’organisation des activités : règlements et quartiers</head>
           <p>En 1544, les maîtres des requêtes avaient été répartis en « quartiers de service » et devaient assurer trois mois de service à la Cour et autant au Palais, à Paris. Les « règlements », que l’on trouve dans deux édits de création (1553 et 1556), proposent des répartitions des activités qui s’insèrent très mal dans le cadre des quartiers, dont neuf listes, de 1554 à 1586, sont connues pour cette période, regroupant les officiers par ordre d’ancienneté.</p>
           <p>De nombreux facteurs (cumul d’offices, envoi en commission, tendance des maîtres des requêtes plus anciens en réception à monopoliser les tâches honorifiques comme l’assistance au Parlement) empêchaient en partie cette organisation en quartiers de fonctionner. Les observations faites en comparant l’assistance au Parlement et au Conseil privé le confirment.</p>
         </div>
-        <div>
+        <div xml:id="r1129295">
           <head rend="uc">Chapitre III
            <lb/>Les attrirutions permanentes des maîtres des requêtes</head>
           <p>La plupart des attributions dévolues ordinairement aux maîtres des requêtes découlent de l’exercice de la justice, dont ils se veulent les plus anciens dépositaires avec le chancelier.</p>
@@ -151,7 +149,7 @@
           <p>Ils sont de toutes les séances du Conseil des Parties ou Conseil privé où ils siègent et sont pratiquement les seuls rapporteurs, en particulier pour les requêtes en évocation. Ce rapport est un travail collectif élaboré à l’Audience des Requêtes par six à huit officiers qui émettent un avis, presque toujours entériné par le Conseil.</p>
           <p>Un article de l’ordonnance de Blois qui renvoyait toutes les instances du Conseil privé au Grand Conseil et aux juges ordinaires atteignit durement les maîtres des requêtes auxquels on ôta par arrêt du Conseil du 25 janvier 1585 le rapport des requêtes en évocation.</p>
         </div>
-        <div>
+        <div xml:id="r1129354">
           <head rend="uc">Chapitre IV
            <lb/>L’auditoire des requêtes de l’hôtel</head>
           <p><hi rend="i">Le personnel.</hi> – La juridiction extraordinaire des maîtres des requêtes avait <pb source="https://nakala.fr/10.34847/nkl.1f3bn685#100eec6f4a1437d7d91110766acbab4334369556" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f3bn685/100eec6f4a1437d7d91110766acbab4334369556/full/full/0/default.jpg"/>son siège au Palais, dans l’île de la Cité. Le personnel comprend les maîtres, au nombre de quatre à une douzaine, effectif parfois complété de conseillers au Parlement ; le plus ancien en réception préside l’assemblée.</p>
@@ -161,7 +159,7 @@
           <p><hi rend="i">Le fonctionnement de la juridiction.</hi> – La compétence à l’ordinaire de l’Auditoire des Requêtes recouvre la connaissance des procès en matière d’offices et de ceux des détenteurs du privilège de <hi rend="i">committimus.</hi> L’appel de leurs décisions se fait en Parlement. Un édit de mars 1582 confirme que la connaissance privative des procès d’offices leur revient. Il s’agit seulement des litiges concernant le « titre » de l’office, c’est-à-dire sa possession, et non des conflits de juridiction par exemple. Une compétence extraordinaire leur est reconnue pour les procès pour lesquels le roi les commet en leur donnant le pouvoir de juger en dernier ressort ; c’est le cas entre autres des procès pour faux de chancellerie. Un article de l’ordonnance de Blois interdisant aux maîtres des requêtes de juger souverainement resta lettre morte.</p>
           <p>L’étude des minutes conservées complète l’apport des textes. Après 1585, la disparition des affaires examinées pour avis permet de mieux apprécier les diverses catégories de procès. Au souverain, les procès pour faux sont en petit nombre alors qu’apparaît le jugement d’appels intentés contre des taxes et des exécutoires de dépens faits au Conseil privé. En première instance, les affaires pour offices s’effacent devant l’importance des procès intentés par des détenteurs de <hi rend="i">committimus,</hi> surtout des officiers royaux ; il s’agit surtout de non-paiement de rentes ou de dettes, pour lequel la saisie des biens du défendeur est requise.</p>
         </div>
-        <div>
+        <div xml:id="r1129406">
           <head rend="uc">Chapitre V
            <lb/>Les fonctions temporaires ou révocarles</head>
           <p><hi rend="i">Les chevauchées.</hi> – Faire des tournées d’inspection en province, des chevauchées, était devenu au <num>xv<hi rend="sup">e</hi></num> siècle une attribution des maîtres des requêtes. Malgré les nombreux rappels, notamment dans l’édit de Compiègne, les allusions que l’on trouve à ce sujet jusque vers 1570 et l’existence de listes nominatives, les témoignages existants ne permettent pas d’affirmer qu’il y en ait eu après <pb source="https://nakala.fr/10.34847/nkl.1f3bn685#501f4a6565bc059cca0506298f6f28d7c0e8e7a5" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f3bn685/501f4a6565bc059cca0506298f6f28d7c0e8e7a5/full/full/0/default.jpg"/>1560, alors que les officiers et le pouvoir royal en conservent le souvenir jusqu’à la promulgation du Code Michaud en 1629.</p>
@@ -172,7 +170,7 @@
           <p>Jusqu’à la fin du règne de Henri III, ces officiers continuent d’être envoyés en commission en province, avec le même type de fonctions, puis comme enquêteurs (en 1582) ou négociateurs (Camus de Pontcarré en 1585-1587 dans le Sud-Ouest). En mai 1588, certains sont chargés de tournées de propagande dans le royaume pour rallier les partisans du roi.</p>
           <p>Quelques maîtres des requêtes ont été plus particulièrement ambassadeurs, comme Jacques Faye ou Harlay de Sancy en Suisse en 1579.</p>
         </div>
-        <div>
+        <div xml:id="r1129453">
           <head rend="uc">Chapitre VI
            <lb/>. Nous faisons ung mestier de la justice... »</head>
           <p>L’évolution des fonctions des maîtres des requêtes les a transformés en une institution où l’on fait l’apprentissage de la justice à un haut niveau et aussi de la vie politique et administrative du royaume.</p>
@@ -180,11 +178,11 @@
           <p>Ils ont une très haute idée de leur fonction, ce qui explique l’importance que revêtent pour eux les questions de préséance. Eux-mêmes, en revanche, se décrivent comme des « artisans » de la justice. Leur tendance à s’auto-célébrer s’oppose au désaveu général qui atteint alors les officiers de justice.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1129472">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>Qui sont les maîtres des requêtes ?</head>
-        <div>
+        <div xml:id="r1129484">
           <pb source="https://nakala.fr/10.34847/nkl.1f3bn685#44df13963d1653aa9d44806a1e7850903eb3be4e" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f3bn685/44df13963d1653aa9d44806a1e7850903eb3be4e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>un corps homogène ?</head>
@@ -196,22 +194,22 @@
           <p>Près de la moitié d’entre eux, semble-t-il, meurt en charge ou après avoir obtenu le statut de maître des requêtes honoraire.</p>
           <p>En définitive, le corps des maîtres des requêtes apparaît comme un corps relativement homogène. Cette fonction ne conduit pas massivement à de plus hautes charges et constitue encore pour beaucoup l’aboutissement d’une carrière.</p>
         </div>
-        <div>
+        <div xml:id="r1129528">
           <head rend="uc">Chapitre II
            <lb/>Les individus</head>
           <p>Essai de dictionnaire biographique (cent cinquante notices), concernant les officiers nommés entre 1553 et 1589.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1129541">
         <pb source="https://nakala.fr/10.34847/nkl.1f3bn685#19bf5ec7a18aad6f7bd67101de2108a72cd21eb8" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f3bn685/19bf5ec7a18aad6f7bd67101de2108a72cd21eb8/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>A la fin du règne d’Henri III, les maîtres des requêtes constituent un corps puissant, dont les fonctions débordent largement leurs attributions judiciaires traditionnelles et commencent à s’étendre à la haute administration.</p>
       </div>
-      <div>
+      <div xml:id="r1129556">
         <head rend="uc">Pièces justificatives</head>
         <p>Lettres de provision d’office. – Étapes de la réception en Parlement. – Listes de quartiers. – Règlement du 1<hi rend="sup">er</hi> mars 1574. – Situation des maîtres des requêtes le 6 octobre 1568.</p>
       </div>
-      <div>
+      <div xml:id="r1129570">
         <head rend="uc">Annexes</head>
         <p>Plan de Paris : demeures des maîtres des requêtes. – Le privilège de Chalo-Saint-Mard. – Liste des officiers par date de réception.</p>
       </div>

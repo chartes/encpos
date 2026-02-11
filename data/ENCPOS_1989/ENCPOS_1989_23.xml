@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_23" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_23" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -55,17 +53,17 @@
         <surname>Simon</surname>
         <roleName>agrégé de l’Université, ancien, élève de l’École normale supérieure</roleName>
       </byline>
-      <div>
+      <div xml:id="r1181810">
         <head rend="uc">Introduction</head>
         <p>Contrairement aux grands philologues du domaine classique, dont les conjectures sont toujours citées dans les apparats critiques, les vues et les hypothèses des numismates des <num>xvi<hi rend="sup">e</hi></num> et <num>xvii<hi rend="sup">e</hi></num> siècles sont tombées dans l’oubli, alors même que beaucoup de leurs interprétations sont arrivées, de manuel en manuel, jusqu’à nous. La présente thèse vise à retracer l’histoire intellectuelle d’une branche de la numismatique antique : la période républicaine a été choisie pour la variété et la difficulté de son monnayage qui pose encore aujourd’hui de nombreux problèmes. Conformément à la division intellectuelle de l’époque qui a séparé l’aspect iconographique de la médaille de l’aspect économique de la monnaie, seul a été étudié le livre de médailles. Les limites chronologiques (1500-1700) sont justifiées par le fait que tout au long de cette période la production numismatique emprunte presque exclusivement le canal du livre, tandis qu’au <num>xviii<hi rend="sup">e</hi></num> siècle, avec entre autres le <hi rend="i">Journal de Trévoux,</hi> l’article s’impose comme support de l’innovation scientifique.</p>
       </div>
-      <div>
+      <div xml:id="r1181842">
         <head rend="uc">Sources</head>
         <p>Les sources sont avant tout imprimées ; il s’agit des livres de médailles conservés en général dans la série J au département des imprimés de la Bibliothèque nationale ou à la réserve du Cabinet des médailles. La liste de ces livres a été donnée sous forme de catalogue en annexe.</p>
         <pb source="https://nakala.fr/10.34847/nkl.2a7ejhdp#93ec5c9d77051ab370f30d391e0da3e7991ad143" n="196" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a7ejhdp/93ec5c9d77051ab370f30d391e0da3e7991ad143/full/full/0/default.jpg"/>
         <p>Les principaux manuscrits utilisés sont les suivants : Bibliothèque nationale, Cabinet des manuscrits, Baluze 299 et 305 (inventaire des médailles consulaires de la collection royale) et français 9534 (inventaires de collections particulières) ; Cabinet des médailles, Γ 13 (inventaire des médailles consulaires du cabinet du roi en 1685, rédigé par Rainssant et revu par son successeur Oudinet vers 1690) ; Bibliothèque de l’Arsenal, ms. n° 1019 (dessins de Jacopo Strada, Rome, 1564).</p>
       </div>
-      <div>
+      <div xml:id="r1181860">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Le livre de médailles</head>
@@ -77,7 +75,7 @@
         <p><hi rend="i">Typologie.</hi> – Nous avons distingué dans la production de l’époque différents types de livre numismatique dont nous décrivons les principaux représentants afin d’établir les filiations : – le livre de portraits tirés du monnayage antique, livre d’images à faible valeur scientifique (Andrea Fulvio en 1517, Jean Huttich, Guillaume Rouillé, Jacopo Strada, Hubert Goltzius, Diethelm Relier, pour ne citer que les plus anciens auteurs d’un genre florissant). – les manuels qui traitent de la médaille antique d’une manière générale et s’adressent souvent aux débutants, en langue vernaculaire et dans un petit format : Énea Vico (1555), Sébastien Erizzo (1559), Antoine Le Pois (1579), Claude Chiflet sont les plus anciens. – les pièces choisies : sélection de pièces dans une collection (le choix se fait le plus souvent au <num>xvi<hi rend="sup">e</hi></num> siècle sur le critère de l’intérêt historique du commentaire ; au <num>xvii<hi rend="sup">e</hi></num>, le critère de la rareté et de l’inédit devient prépondérant). – les <hi rend="i">corpus</hi> qui recensent toutes les monnaies connues répondant à certains critères géographiques et chronologiques. La grande caractéristique des <hi rend="i">corpus</hi> du monnayage gentilice (appelé à l’époque médailles des familles) est d’être entièrement illustré ; au contraire les tentatives pour graver le monnayage impérial au <num>xvi<hi rend="sup">e</hi></num> siècle se soldèrent toutes par des échecs : Vico ne dépassa pas Domitien, Lazius et Goltzius n’allèrent pas au-delà de Tibère. Le médecin Adolphe Occo réussit le premier à couvrir l’ensemble de la période impériale de Pompée à Heraclius dans ses <hi rend="i">Impp. Romanorum numismata</hi> (Anvers, 1579) mais le livre ne donne que des descriptions sommaires (qu’on appelait parfois index à l’époque) sans aucune gravure. Les <hi rend="i">corpus</hi> des monnaies impériales et des monnaies républicaines se recoupent partiellement : Pompée, César, les triumvirs et une partie du monnayage d’Auguste font traditionnellement partie des deux types de livres. Les deux manuels de référence réédités et continués au <num>xvii<hi rend="sup">e</hi></num> siècle parurent d’ailleurs à deux années d’intervalle : au livre d’Occo sur le monnayage impérial fait pendant celui d’Orsini sur le monnayage gentilice : <hi rend="i">Familiae Romanae quae reperiuntur in antiquis numismatibus</hi> (Rome, 1577). – l’histoire par les médailles est un genre qui fait son apparition au <num>xvii<hi rend="sup">e</hi></num> siècle : elle suit l’ordre chronologique et repose sur le postulat que les médailles, qui sont d’époque, sont des sources plus fiables que les textes. Pour la période romaine le premier à tenter l’expérience est Tristan de Saint-Amant (<hi rend="i">Commentaires historiques,</hi> Paris, 1635). – la contribution savante courte, ancêtre de l’article, ne fait véritablement son apparition qu’au <num>xvii<hi rend="sup">e</hi></num> siècle et ne devient courante qu’à partir de 1660 avec l’<hi rend="i">Epistola super dubiis quibusdam ad numos familiarum Romanarum Fulvii Ursini spectantibus</hi> de Pierre Seguin (Paris, 1660). Auparavant, les plaquettes <pb source="https://nakala.fr/10.34847/nkl.2a7ejhdp#0910b364d79488865658f1b0dbf73207bf6c14fc" n="198" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a7ejhdp/0910b364d79488865658f1b0dbf73207bf6c14fc/full/full/0/default.jpg"/>servaient de support à des polémiques parfois acerbes autour de la parution et de la valeur de tel ou tel livre : il s’agissait de véritables pamphlets, comme ceux qu’échangèrent Tristan de Saint-Amant et le Père Sirmond. A partir de 1660, sous forme de lettres d’érudit à érudit qui ne dépassent le plus souvent pas une trentaine de pages et peuvent être annexées à des livres plus importants sont traités tel ou tel problème particulier.</p>
         <p>N’a pas fait l’objet d’étude dans ce chapitre le traité d’antiquaire où les médailles sont utilisées pour éclairer tel ou tel sujet thématique : religion (Du Choul), rites funéraires (Guichard), architecture triomphale (Bellori), vêtement antique, etc.</p>
       </div>
-      <div>
+      <div xml:id="r1182005">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>La science des médailles</head>
@@ -92,7 +90,7 @@
         <p><hi rend="i">Les faux et l’esprit critique.</hi> – Beaucoup des faux de Goltzius, reproduits de livre en livre, étaient certainement des faux de gravure. Mais, parallèllement, l’industrie de la médaille pseudo-antique était florissante ; Vico se laissa tromper plusieurs fois, notamment par des padouanes ; Goltzius évidemment aussi. Notamment certaines forgeries complaisantes offraient aux amateurs les portraits de Scipion l’Africain, de Marius, de Sertorius, de Spartacus, de Labienus, de Virgile et de Mécène, de Cicéron, de Brutus et de Cassius, etc. : Du Choul s’est laissé prendre une fois et les érudits non spécialistes commirent des bévues (jusqu’aux <num>xix<hi rend="sup">e</hi></num> et <num>xx<hi rend="sup">e</hi></num> siècles des pièces reconnues comme des forgeries au <num>xvii<hi rend="sup">e</hi></num> ont été « retrouvées » et leur authenticité discutée). De bons savants du <num>xvii<hi rend="sup">e</hi></num> siècle n’hésitaient pas à les insérer sciemment dans leur collection (cf. l’inventaire de la collection Rascas de Bagarris qui est entrée au Cabinet des médailles) ou leurs livres (Van Goorle dans son <hi rend="i">Thésaurus numismatum</hi>). Dans les gravures de cette époque, les forgeries numismatiques pullulent : l’esprit critique connaît toutefois un premier sommet avec Fulvio Orsini et Antonio Agustin, puis Louis Savot, Pierre Séguin, Ezechiel Spanheim et dans une moindre mesure Charles Patin.</p>
         <p><hi rend="i">La publication par la gravure.</hi> – Les meilleurs érudits avaient d’ailleurs conscience des limites de la gravure : on constate, illustrations à l’appui, quels avatars livresques put connaître la reproduction de certaines monnaies. A défaut de posséder l’original, on n’hésitait pas à recopier les gravures des prédécesseurs. C’est pourquoi André Morell se félicite des progrès que les livres de numismatique pourront tirer d’un nouveau matériau pour les moulages, l’ichtyocolle. Certaines exigences de fidélité à l’original dans la gravure s’imposent alors : on réclame des reproductions à l’échelle et non plus dans des cercles d’égal diamètre (Vico avait déjà appliqué ce principe mais il fut suivi très épisodiquement).</p>
       </div>
-      <div>
+      <div xml:id="r1182209">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>Médailles et histoire</head>
@@ -105,11 +103,11 @@
         <p><hi rend="i">La pratique.</hi> – Les premiers commentateurs (Lazius, Landi, Vico, Du Choul, Le Pois) expliquèrent les pièces une à une : s’ils réussirent souvent brillamment à illustrer tel ou tel aspect de la vie, de la religion ou des institutions antiques, ils achoppèrent souvent dans la quête du sens historique sur le problème de la datation, particulièrement ardu pour ce monnayage. L’utilisation des <hi rend="i">Hieroglyphica</hi> de Valeriano pour décrypter les symboles aboutit parfois aussi à des erreurs complètes : d’autant que c’est du sens ainsi décrypté de la pièce qu’ils se servaient pour proposer une datation. Le nouveau classement adopté par Orsini, s’il renonça aux prétentions à la chronologie, permit de replacer chaque monnaie dans un contexte éclairant, celui des traditions gentilices (cultes particuliers, origines de la famille, gloires familiales, etc.). Les savants qui marchèrent sur ses traces au <num>xvii<hi rend="sup">e</hi></num> siècle (Séguin, Patin, Spanheim, Perizonius, Morell, etc.) purent ainsi atteindre dans l’exégèse de l’iconographie monétaire un niveau de connaissance assez voisin du nôtre : leur problème restait celui de la datation qui seule permettrait de nouveaux progrès.</p>
         <p>Concurremment persistaient des méthodes exégétiques dépourvues de sens historique qui utilisaient massivement les textes astrologiques de la basse Antiquité ou les forgeries du pseudo-Bérose (Janus étant Noé, le bateau figuré au revers des as de la République devenait l’arche).</p>
       </div>
-      <div>
+      <div xml:id="r1182268">
         <head rend="uc">Pièces justificatives</head>
         <p>Sont éditées et annotées à titre de pièces justificatives les premières pages des inventaires de médailles consulaires du cabinet du roi (Baluze n° 299, avec les prix des monnaies) et Γ 13 du Cabinet des médailles ; quelques extraits du <hi rend="i">Discours et roole des medailles</hi> d’Antoine Agard (Paris, 1611) ; enfin l’inventaire de la bibliothèque numismatique du cabinet de M. Sibon (ms fr. 9534, fol. 41).</p>
       </div>
-      <div>
+      <div xml:id="r1182282">
         <head rend="uc">Annexes</head>
         <p>Catalogue des livres de médailles utilisés. – Tableau des monnaies recensées dans les livres des <num>xvi<hi rend="sup">e</hi></num> et <num>xvii<hi rend="sup">e</hi></num> siècles et concordance avec le manuel de référence sur les monnaies républicaines d’Ernest Babelon. – Courtes notices biographiques des principaux numismates cités et étudiés dans la thèse.</p>
         <pb source="https://nakala.fr/10.34847/nkl.2a7ejhdp#9b43e835a31cd366c380360ce082219b25865d06" n="202" facs="https://api.nakala.fr/iiif/10.34847/nkl.2a7ejhdp/9b43e835a31cd366c380360ce082219b25865d06/full/full/0/default.jpg"/>

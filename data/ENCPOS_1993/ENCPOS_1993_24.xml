@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_24" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_24" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,25 +56,25 @@
         <surname>Weiss</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1237140">
         <head rend="uc">Sources</head>
         <p>Les sources principales sont conservées aux Archives nationales dans les séries L et S. Les sources iconographiques proviennent de la série N des Archives nationales, de la collection Gaignières et de la série topographique du Département des estampes de la Bibliothèque nationale. Les inventaires et les sources imprimées, en particulier celles éditées par Joseph Depoin, ont constitué un appoint très important.</p>
       </div>
-      <div>
+      <div xml:id="r1237150">
         <head rend="uc">Introduction</head>
         <p>L’étude porte principalement sur les censiers et les registres d’ensaisinement émanant du fonds du prieuré de Saint-Martin-des-Champs : la présentation de ces sources montre qu’il faut tenir compte des bévues des copistes (oublis, erreurs, désordre), du caractère très vivant des registres (feuillets coupés ou insérés, ajouts, <pb source="https://nakala.fr/10.34847/nkl.dc5c4x01#d86a023d973204d27d100cb3a3fb27dbcde121e5" n="202" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc5c4x01/d86a023d973204d27d100cb3a3fb27dbcde121e5/full/full/0/default.jpg"/>mentions marginales) et des problèmes de langage (non-dits, ambiguïté dans la désignation des maisons et dans la nature des perceptions) dans le cadre d’une étude topographique.</p>
       </div>
-      <div>
+      <div xml:id="r1237165">
         <head rend="uc">Première partie
          <lb/>Le prieuré de Saint-Martin-des-Champs et le site</head>
-        <div>
+        <div xml:id="r1237173">
           <head rend="uc">Chapitre premier
            <lb/>histoire de Saint-Martin-des-Champs</head>
           <p>Henri I" reconstruit en 1050 le monastère de Saint-Martin-des-Champs et le dote des territoires adjacents. Philippe I<hi rend="sup">er</hi> en fait un prieuré clunisien en 1079. Au <num>xii<hi rend="sup">e</hi></num> siècle, outre trois prébendes et les églises de Saint-Denis-de-la-Chartre, de Saint-Jacques et de Saint-Laurent, le prieuré consolide le bloc de sa censive en acquérant quelques terres attenantes, par don ou par échange. Au <num>xiii<hi rend="sup">e</hi></num> siècle, la censive originelle ne subit guère de modifications. En revanche, le prieuré acquiert deux fiefs sur la rive droite : le fief de la Rapée en 1223, le fief de Marymont à la faveur de dons ou d’achats de 1225 à 1246. Des îlots disséminés sur la rive droite apparaissent également, ainsi que des maisons situées dans l’île de la Cité. Les cessions concernent des terres éloignées comme le moulin de Croulebarbe sur la rive gauche.</p>
           <p>La justice du prieuré date, elle aussi, d’Henri I<hi rend="sup">er</hi> : les territoires donnés par ce roi sont dotés d’une immunité. Dès 1128, les hommes du prieuré sont sous la justice de ce dernier ; les contestations étant portées devant la cour de Saint-Martin, le prieuré réclame la connaissance des cas réservés au roi.</p>
           <p>L’administration est assez complexe. Le prieur, le chambrier et les baillis disposent de revenus propres. Le vicaire surveille l’administration de ce temporel. Le chambrier et le maire ont l’exercice de la juridiction en première instance ; les assises sont réunies en cas d’appel. Cures et chapelles constituent également une importante source de revenus.</p>
         </div>
-        <div>
+        <div xml:id="r1237211">
           <pb source="https://nakala.fr/10.34847/nkl.dc5c4x01#cc4cdb4ec76705f54d86acd56f56f13feb30cc15" n="203" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc5c4x01/cc4cdb4ec76705f54d86acd56f56f13feb30cc15/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Censive, justice et paroisse</head>
@@ -87,7 +85,7 @@
           <p>La paroisse de Saint-Nicolas-des-Champs correspond également à la seigneurie foncière originelle (rues Saint-Denis, Aux Ours, Quincampoix). Le reste de la censive est réparti sur dix-sept autres paroisses, le fief de Marymont et les alentours de la rue de la Vieille-Monnoye relevant de la paroisse Saint-Jacques-de-la-Boucherie.</p>
           <p>La comparaison de la censive avec les justices et les paroisses fait donc nettement ressortir l’adéquation de la censive originelle avec la justice de Saint-Martin-des-Champs et la paroisse Saint-Nicolas-des-Champs, à la différence du reste de la censive qui est le fait d’acquisitions ou de donations postérieures.</p>
         </div>
-        <div>
+        <div xml:id="r1237255">
           <pb source="https://nakala.fr/10.34847/nkl.dc5c4x01#24ef2dff7c4cb4e55e337a227dc002f665b6863a" n="204" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc5c4x01/24ef2dff7c4cb4e55e337a227dc002f665b6863a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’espace</head>
@@ -96,61 +94,61 @@
           <p>Le pôle d’attraction que constitue le monastère ainsi que la politique de peuplement menée par ce dernier favorisent la naissance de bourgs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1237285">
         <head rend="uc">Deuxième partie
          <lb/>Le bâti</head>
-        <div>
+        <div xml:id="r1237293">
           <head rend="uc">Chapitre premier
            <lb/>aspect archéologique</head>
           <p>Malgré les transformations apportées au quartier au <num>xix<hi rend="sup">e</hi></num> siècle par la percée des grands axes et par l’élargissement de la rue Beaubourg, et en dépit de celles qu’il a subies au sud lors de la création du Centre Pompidou et des nouvelles Halles, le prieuré de Saint-Martin-des-Champs, actuel Conservatoire national des arts et métiers, l’église de Saint-Nicolas-des-Champs, pour sa partie occidentale, les vestiges des enceintes et la maison de Nicolas Flamel, rue de Montmorency, constituent d’importants témoignages de ce qu’étaient l’architecture et l’habitat au Moyen Age, et certaines rues ont conservé un aspect proche de leur physionomie originelle.</p>
         </div>
-        <div>
+        <div xml:id="r1237311">
           <pb source="https://nakala.fr/10.34847/nkl.dc5c4x01#d81ac325e7fdd288e8b7db03bfc3ebf982e0ebba" n="205" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc5c4x01/d81ac325e7fdd288e8b7db03bfc3ebf982e0ebba/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La maison et ses appartenances</head>
           <p>Le bâti et le vocabulaire qui le désigne sont extrêmement variés. Le bâti témoigne du caractère rural, encore fortement prononcé au début du <num>xv<hi rend="sup">e</hi></num> siècle, de la censive située aux alentours du prieuré. Au <num>xiv<hi rend="sup">e</hi></num> siècle, on peut y voir quelques hôtels importants, parmi lesquels ceux de Châlons, de la reine de Bohême ou du seigneur de Montmorency. Divers lieux particuliers, tels que le presbytère, la boucherie Saint-Martin et les étuves, ont été étudiés.</p>
         </div>
-        <div>
+        <div xml:id="r1237340">
           <head rend="uc">Chapitre III
            <lb/>Le patrimoine</head>
           <p>Les quelque six mille actes des registres d’ensaisinement, joints aux informations des censiers, permettent d’étudier perceptions, transactions et transmission du patrimoine sur une période relativement longue.</p>
           <p>A la fin du XIII’ siècle, période de prospérité, la construction se poursuit. Les difficultés de la guerre de Cent Ans amènent une crise du logement que traduisent la législation royale, le cumul des charges et les mentions <hi rend="i">« ou jadis ot maison » </hi>(entre les années 1360 et 1390) que l’on peut probablement lier à celles de « place vide » et de « masure ». Les criées semblent être relativement nombreuses entre 1370 et 1390.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1237360">
         <head rend="uc">Troisième partie
          <lb/>Les habitants</head>
-        <div>
+        <div xml:id="r1237368">
           <head rend="uc">Chapitre premier
            <lb/>apparition des habitants dans les actes</head>
           <p>Après confrontation des censiers et des rôles de la taille, les censitaires qui habitent leur maison semblent, contre toute attente, presque aussi nombreux à l’extérieur qu’à l’intérieur des murs de Philippe Auguste.</p>
           <p>D’autre part, les noms de provenance des censitaires cités dans les censiers du <num>xiii<hi rend="sup">e</hi></num> siècle coïncident avec les mentions de personnes demeurant hors de Paris au <pb source="https://nakala.fr/10.34847/nkl.dc5c4x01#d111f5455e972cb6fb7320fe28125b3f812cc78c" n="206" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc5c4x01/d111f5455e972cb6fb7320fe28125b3f812cc78c/full/full/0/default.jpg"/> <num>xiv<hi rend="sup">e</hi></num> siècle : on note dans les deux cas l’importance des lieux relevant du temporel de Saint-Martin-des-Champs.</p>
           <p>Malgré leur aspect condensé, les actes des registres d’ensaisinement permettent d’étudier divers aspects de la famille sur des points précis : sur la femme séparée, sur l’enfant, sur les tuteurs et curateurs et sur l’émancipation.</p>
         </div>
-        <div>
+        <div xml:id="r1237403">
           <head rend="uc">Chapitre II
            <lb/>Les catégories sociales et professionnelles</head>
           <p>Les étrangers sont surtout Lombards et Anglais. On note cependant la présence de quelques Allemands au XIV’ siècle et de personnes de provenances diverses telles que Bretons, Lorrains ou Picards.</p>
           <p>Les ecclésiastiques sont relativement nombreux et assez souvent propriétaires. Le nombre des gens au service du roi et des princes semble augmenter dans la seconde moitié du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
           <p>L’étude des métiers par rue et par secteur présente toutes les catégories professionnelles, sans négliger les métiers peu communs. La présence de certaines professions explique l’appellation de certaines rues : ainsi les « pelletiers » pour la rue « des Gravilliers dite des Pelletiers » au début du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1237433">
           <head rend="uc">Chapitre III
            <lb/>La vie quotidienne</head>
           <p>Le registre criminel de Saint-Martin-des-Champs offre un bon aperçu de ce qu’était la criminalité dans la censive du prieuré au <num>xiv<hi rend="sup">e</hi></num> siècle. On constate la prédominance des bagarres et menus larcins, et surtout l’inadéquation entre la nature du délit et la peine.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1237452">
         <head rend="uc">Conclusion</head>
         <p>L’étude des censiers et des registres d’ensaisinement de Saint-Martin-des-Champs montre la richesse des informations que l’on peut y puiser, informations qui sont tout à fait intéressantes par leur quantité et leur variété, malgré certaines lacunes et l’aspect condensé que présentent les actes.</p>
         <pb source="https://nakala.fr/10.34847/nkl.dc5c4x01#0b2d66ed705d63d252dafca393043cc45f07766d" n="207" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc5c4x01/0b2d66ed705d63d252dafca393043cc45f07766d/full/full/0/default.jpg"/>
         <p>Il serait intéressant de poursuivre l’étude au <num>xv<hi rend="sup">e</hi></num> siècle en étudiant le censier de 1457 de façon détaillée et en axant la recherche sur les habitants à propos desquels il reste encore beaucoup à dire.</p>
       </div>
-      <div>
+      <div xml:id="r1237476">
         <head rend="uc">Pièces justificatives</head>
         <p>Édition de censiers du prieuré de Saint-Martin-des-Champs avec présentation et index (Arch. nat., LL 1378 : années 1263, 1274, 1293, 1300 ; Bibl. nat., ms lat. 10978 : année 1300 ; Arch. nat., LL 1380 : année 1392).</p>
       </div>
-      <div>
+      <div xml:id="r1237486">
         <head rend="uc">Illustrations</head>
         <p>Cent vingt planches environ : photographies des censiers et de registres d’ensaisinement ; photographies de plans de censive, avec diverses planches du Terrier du roi ; vues diverses du prieuré de Saint-Martin-des-Champs, de l’église Saint-Nicolas-des-Champs, de la maison de Nicolas Flamel ; plans de restitution de la censive à différentes époques, des justices et des paroisses.</p>
         <pb source="https://nakala.fr/10.34847/nkl.dc5c4x01#f03953cf1aecc330a75b689b5df1f42619a62af7" n="208" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc5c4x01/f03953cf1aecc330a75b689b5df1f42619a62af7/full/full/0/default.jpg"/>

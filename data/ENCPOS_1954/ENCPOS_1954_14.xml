@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1954_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1954_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,10 +59,10 @@
          <lb/>La musique du roi</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r758816">
         <head rend="uc">Introduction</head>
         <p>Panorama musical de la cour et de la ville pendant la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
-        <div>
+        <div xml:id="r758831">
           <head rend="uc">Chapitre premier
            <lb/>l’évolution des charges.</head>
           <p>La musique royale à la mort d’Henri III.</p>
@@ -74,14 +72,14 @@
           <p><hi rend="i">Le temps de Mazarin.</hi> – La musique d’Anne d’Autriche. L’italianisme à la cour. Apparition de tendances jusqu’alors ignorées : le recrutement au concours des musiciens (Thomas Gobert, Claude Munier de Saint-Elme). Les chanteuses finissent par recevoir des brevets d’« ordinaires de la musique ». Les charges nouvelles : le compositeur de la musique instrumentale (Lully succède à Lazzarin en 1653). Les violons du roi : les « petits violons » se détachent de la « grande bande ». La <hi rend="i">Musique du cabinet</hi> où figurent Français et Italiens. Charges secondaires. Indications plus fournies sur les « Pages de la musique ».</p>
           <p>La condition matérielle des musiciens : fixité des gages au cours de la période envisagée. Difficulté d’établir une équivalence avec l’époque moderne.</p>
         </div>
-        <div>
+        <div xml:id="r758873">
           <head rend="uc">Chapitre II
            <lb/>Les musiciens du roi.</head>
           <p>Les grands musiciens de la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle : Picot, Gobert, Veillot, Guédron, Boësset. Les Chabanceau de La Barre. J. Champion de Chambonnières. Louis de Mollier.</p>
           <p>Le personnel de la chambre : identité avec celui de la chapelle, d’ailleurs mal connu. Instrumentistes et chanteurs. Antoine Outrebon et Antoine Moulinier.</p>
           <p>Aspect social du personnel de la musique : les relations des musiciens entre eux. La chambre et la chapelle constituent une véritable aristocratie qui se dégage de la corporation des joueurs d’instruments. L’origine parisienne ou provinciale des « ordinaires » autorise-t-elle à formuler une loi géographique du recrutement ?</p>
         </div>
-        <div>
+        <div xml:id="r758897">
           <head rend="uc">Chapitre III
            <lb/>Les activités de la musique royale.</head>
           <p>Pauvreté des sources d’information.</p>
@@ -89,28 +87,28 @@
           <p><hi rend="i">La chambre.</hi> – Les « Ballets de cour ». Exemples du « Triomphe de Minerve » (1615), de la « Délivrance de Renaud » (1617). La participation orchestrale à ces fêtes. Une réception à la cour de France en 1647. Le service de la musique de la chambre aux dîners, soupers du roi, et aux bals. Les « Récréations particulières » du roi.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r758922">
         <pb source="https://nakala.fr/10.34847/nkl.cdcdj1r5#44f9e6bd0defdb87c878e1b4389e85667444603d" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.cdcdj1r5/44f9e6bd0defdb87c878e1b4389e85667444603d/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Recherches sur plusieurs grands officiers
          <lb/>de la musique royale</head>
-        <div>
+        <div xml:id="r758937">
           <head rend="uc">Chapitre premier
            <lb/>Henri de Bailly.</head>
           <p>Débuts d’Henri de Bailly sous le règne d’Henri IV. Familiarité avec le jeune Louis XIII. Son alliance avec la famille Balifre. Activité de chanteur et de compositeur dans les ballets royaux. Accession à la surintendance vers 1622. Il cède la survivance de sa charge à Paul Auget pour 15.000 livres en 1625. Sa richesse immobilière à Paris et en Brie. Il meurt en octobre 1637.</p>
         </div>
-        <div>
+        <div xml:id="r758949">
           <head rend="uc">Chapitre II
            <lb/>Nicolas formé.</head>
           <p>Les origines de Formé. Né en 1567, il entre à la Sainte-Chapelle comme chantre en 1587. Sa carrière à la chapelle de musique : en 1609, il succède à Eustache du Caurroy comme sous-maître et compositeur de la musique de la chapelle. Travers du personnage et légendes s’y rapportant. Richesse et notoriété de Formé. Il meurt en 1638.</p>
         </div>
-        <div>
+        <div xml:id="r758961">
           <head rend="uc">Chapitre III
            <lb/>Paul Auget.</head>
           <p>Paul Auget déclare être né à Pontoise vers 1592. Ses débuts à la cour au temps des Concini (1615-1617). Activité dans les ballets royaux. Achat de la surintendance à Henri de Bailly (1625). Son cumul des charges. Mariage avec M. Le Camus (1629). Exécuteur testamentaire de Formé, il recueille la majeure partie de sa succession. Fin de la carrière d’Auget : la Fronde, le sacre de Louis XIV (1654). Il meurt en mars 1660. Son gendre Cambefort le remplace pour un an. Il meurt en 1661.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r758974">
         <head rend="uc">Pièces justificatives</head>
         <p>Règlement de la chapelle de musique (1587).</p>
         <p>Déclaration du roi en faveur des chantres de sa musique (1606).</p>
@@ -126,7 +124,7 @@
         <p>Inventaire après décès de N. Formé (extraits).</p>
         <p>Contrat de mariage entre P. Auget et M. Le Camus (1629).</p>
       </div>
-      <div>
+      <div xml:id="r759030">
         <head rend="uc">Appendice</head>
         <p>Tableau récapitulatif des ordinaires de la musique de la chambre (1600-1660).</p>
       </div>

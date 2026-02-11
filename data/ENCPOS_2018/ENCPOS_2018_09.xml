@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2018_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2018_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -54,20 +52,20 @@
         <surname>Huszti</surname>
         <roleName>diplomée de master</roleName>
       </byline>
-      <div>
+      <div xml:id="r1598516">
         <head>Introduction</head>
         <p>« <hi rend="i">A sagittis Hungarorum, libera nos Domine ! »</hi> Cette prière des habitants de Modène en proie à la frayeur des raids hongrois, au début du <num>x<hi rend="sup">e</hi></num> siècle, est devenue proverbiale. Il est d’autant plus remarquable de constater la formidable intégration de la Hongrie à l’Europe chrétienne au cours des siècles suivants, celle-ci devenant même, au <num>xv<hi rend="sup">e</hi></num> siècle, l’un de ses royaumes les plus puissants. À la fin du Moyen Âge, la place importante accordée à la Hongrie dans la littérature illustre l’intégration hongroise aux horizons culturels et politiques français et témoigne de contacts entre deux pays pourtant géographiquement fort éloignés. Quelle est la perception de la Hongrie en France ? Pourquoi cette image revêt-elle des aspects si divers ? Peut-on en déceler les canaux de diffusion ? Deux angles d’approche ont été adoptés, permettant d’appréhender la diversité des problématiques posées par le sujet : le premier se concentre sur la présence de la Hongrie à la cour d’Anjou-Provence, le deuxième élargit le spectre afin de mettre en exergue les traits les plus marquants relatifs à la Hongrie dans l’imaginaire français du <num>xv<hi rend="sup">e</hi></num> siècle. Cette étude des relations culturelles entre France et Hongrie, champ historiographique qui a été bien plus investi par les historiens hongrois que français, se concentre sur le <num>xv<hi rend="sup">e</hi></num> siècle et se donne donc d’abord pour centre de gravité le milieu de la cour de René d’Anjou et de son épouse, Jeanne de Laval. La mort de cette dernière en 1498 en donne le terminus <hi rend="i">ad quem</hi>. René d’Anjou, membre de la seconde maison d’Anjou, est l’héritier d’une dynastie dont l’une des branches régna sur la Hongrie entre 1301 et 1382, en la personne du roi Charles-Robert, puis de son fils, Louis I<hi rend="sup">er</hi>. Ce travail a pour objectif de démontrer, tant par la recherche des présences hongroises que par l’analyse de la production et de la circulation d’œuvres en lien avec la Hongrie, l’importance de la dimension hongroise dans l’identité dynastique de René d’Anjou – même si ce dernier ne fut jamais roi de Hongrie, bien qu’il en portât les armes. La mise en relation des composantes de l’emblématique, de la pratique bibliophilique ou de la piété des souverains illustre une tendance à vouloir réactiver la mémoire d’une période faste, celle de la branche angevine qui régna sur la Hongrie au <num>xiv<hi rend="sup">e</hi></num> siècle, ainsi que des liens dynastiques révolus. Ce faisant, alors que l’assise territoriale de l’Anjou s’amenuise, la cour du roi René enracine son pouvoir dans un temps long et l’inscrit dans un cadre spatial pour ainsi dire universel.</p>
         <p>Les ressorts du développement d’un tel imaginaire posent question. C’est l’objet de la seconde partie, qui vise à mettre en lumière les motifs de la littérature médiévale associés de manière récurrente à la Hongrie, motifs issus aussi bien du répertoire folklorique que de l’actualité politique. L’objectif est de mettre en regard l’image de la Hongrie dans les représentations textuelles et visuelles avec les éléments concrets auxquels les contemporains pouvaient avoir accès sur ce pays.</p>
-        <div>
+        <div xml:id="r1598569">
           <head>Sources</head>
           <p>Les sources sont de nature très diverse et la constitution du corpus n’a pas été une tâche aisée. Pour la première partie, qui nécessitait de rechercher les indices d’une présence hongroise à la cour d’Anjou-Provence, les manuscrits ayant appartenu à René d’Anjou et Jeanne de Laval sont les témoins les plus évidents. Deux manuscrits ayant un lien avec la Hongrie subsistent : le <hi rend="i">Liber seu vita sancti Albani</hi> conservé dans le recueil de la Bodleian Library Canon. Pat. Lat. 17, qui raconte la vie d’un saint hongrois fictif et fut offert à René en 1461, et le roman des <hi rend="i">Aventures de Baudouin de Gavre</hi> (manuscrit enluminé NAF 1821 de la Bibliothèque nationale de France, qui fait l’objet d’une édition en annexe), dont le personnage principal fait le lien entre la Hongrie et la famille de Gavre, liée à Jeanne de Laval. Des textes comme les différentes vies (en latin et en provençal) de saint Honorat de Lérins, à qui on prête alors des origines hongroises, ainsi que le panégyrique de René rédigé par le poète hongrois Janus Pannonius, sont intégrés au corpus bien que les manuscrits de ces textes qui firent jadis partie des bibliothèques de Jeanne et de René soient aujourd’hui perdus. L’emblématique du prince constitue un pan important avec les armoiries, les sceaux, les monnaies. Les comptes des souverains, tels ceux de la série B conservés aux Archives départementales des Bouches-du-Rhône, de la série P aux Archives nationales, ou encore ceux du receveur de Jeanne de Laval, Jean Legay, conservés à la Bibliothèque municipale d’Angers, contiennent quelques mentions de présences hongroises à la cour.</p>
           <p>Dans la seconde partie ont été mis à profit de nombreux textes littéraires comprenant des références à la Hongrie, avec cette difficulté que beaucoup de textes du <num>xv<hi rend="sup">e</hi></num> siècle sont des réécritures ou des remaniements d’œuvres des <num>xii<hi rend="sup">e</hi></num>-<num>xiv<hi rend="sup">e</hi></num> siècles, dont il a fallu contextualiser et prendre en compte les versions antérieures afin de vérifier l’apport propre au <num>xv<hi rend="sup">e</hi></num> siècle dans son lien à la Hongrie : la <hi rend="i">Manekine</hi>, les mises en prose d’œuvres d’Adenet le Roi comme <hi rend="i">Berthe aux grands pieds</hi> et <hi rend="i">Cléomadès</hi>… Des dossiers de canonisation comme ceux des saintes Élisabeth et Marguerite de Hongrie ont aussi été mis à contribution. La vision de chroniqueurs telle que celle de Froissart, dans ses <hi rend="i">Chroniques</hi> de France, ou de Commynes, dans ses <hi rend="i">Mémoires</hi>, pour n’en citer que deux, vient apporter un éclairage ponctuel et est mise en perspective avec l’image héritée des sources littéraires. L’iconographie en lien avec les textes étudiés a été recherchée et, quand elle était exploitable, intégrée aux annexes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1598634">
         <head>Première partie
           <lb/>La Hongrie à la cour d’Anjou-Provence (1434-1498)</head>
-        <div>
+        <div xml:id="r1598641">
           <head>Première section
             <lb/>René d’Anjou et la Hongrie : un héritage symbolique ?</head>
           <div>
@@ -91,7 +89,7 @@
             <p><hi rend="i">L’influence de la papauté</hi>. — Le bourbier italien a considérablement obscurci les horizons politiques de René d’Anjou, l’empêchant de se projeter dans des entreprises plus ambitieuses, notamment de se tourner vers Jérusalem et la Hongrie. Le pragmatisme des papes comme Pie II, en appuyant les revendications du prince le plus à même de les défendre, les pousse à favoriser Alphonse face à René.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1598750">
           <head>Deuxième section
             <lb/>La Hongrie à travers les bibliothèques de René d’Anjou et de Jeanne de Laval</head>
           <p>Les bibliothèques de René d’Anjou et de Jeanne de Laval sont un espace privilégié pour appréhender la place de la Hongrie dans leur imaginaire. Cette partie est l’occasion de mettre en valeur la figure de Jeanne de Laval, épouse de René, et son rôle déterminant dans la promotion d’ouvrages ayant trait à la Hongrie à la cour d’Anjou-Provence.</p>
@@ -115,10 +113,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1598880">
         <head>Deuxième partie
           <lb/>La Hongrie dans l’imaginaire français du <num>xv<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r1598893">
           <head>Première section
             <lb/>Recension et analyse des motifs</head>
           <p>Il s’agit d’analyser les modalités de la présence hongroise dans les sources littéraires françaises du <num>xv<hi rend="sup">e</hi></num> siècle, sans prétention à l’exhaustivité, et de questionner l’existence d’une « matière de Hongrie ».</p>
@@ -140,7 +138,7 @@
             <p><hi rend="i">La Hongrie, fragile rempart de la Chrétienté au xve siècle</hi>. — La littérature présente souvent le roi hongrois au regard de sa capacité à rassembler au nom de la foi chrétienne. Les autres souverains – notamment le pape – lui assignent d’ailleurs un rôle prédominant dans la défense de la Chrétienté. Ces échos littéraires sont une illustration des préoccupations d’une Europe qui, au <num>xv<hi rend="sup">e</hi></num> siècle, se sent de plus en plus menacée par les Ottomans et se retranche dans une position défensive, tout en persistant à rêver d’une croisade qui rétablirait l’ordre et la sécurité du monde.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1599042">
           <head>Deuxième section
             <lb/>Hongrie rêvée, Hongrie réelle</head>
           <div>
@@ -159,12 +157,12 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1599122">
         <head>Conclusion</head>
         <p>En 1502, Anne de Foix, cousine d’Anne de Bretagne, épouse le roi de Hongrie et de Bohême Vladislas IV. Cette union rapproche la maison de France et celle des Jagellon tout en contribuant à inscrire la Hongrie dans un horizon familier. La relation de voyage du héraut breton Pierre Choque, qui accompagne la princesse jusqu’en Hongrie, livre nombre de détails passionnants sur ce qui étonne et impressionne le Français et qu’il juge digne de relater à sa souveraine, Anne de Bretagne.</p>
         <p>La France et la Hongrie, qu’on aurait pu penser trop éloignées pour partager des liens politiques, religieux ou littéraires, entretiennent en réalité des contacts nombreux et précoces, et ce bien avant le <num>xv<hi rend="sup">e</hi></num> siècle. La multiplicité des motifs et des personnages liés à la Hongrie dans les œuvres littéraires françaises fait écho au rôle important qu’occupe désormais ce royaume dans l’Europe chrétienne. Le règne de René d’Anjou est par ailleurs bien, en France, un moment de réactualisation dynastique et de mobilisation politique et littéraire de cet imaginaire vivant et pluriel lié à la Hongrie.</p>
         <p>Une allusion dans un manuscrit du début du <num>xvi<hi rend="sup">e</hi></num> siècle montre comme René d’Anjou est une figure propre à nourrir l’imaginaire chevaleresque. Ce petit traité resté inachevé, intitulé <hi rend="i">Les noms, armes et blasons des chevaliers de la Table ronde</hi>, promet à son lecteur de l’instruire « ainsi que plus a plain est devisé ou livre que en a fait treshault et puissant prince le Roy de Cecille, de Jherusalem et d’Ongrie » (BnF, ms. Français 1438, fol. 69v). Souverain malchanceux, roi à la titulature définitivement plus vaste que ne le fut l’emprise de son sceptre, il est finalement très significatif que la postérité de René en roi de Hongrie soit mobilisée en référence à son <hi rend="i">Traité de la forme et devis comme on peut faire les tournois</hi> : héraldique, prétentions et matière littéraire se rejoignent et se fondent, plaçant la balance délibérément plus du côté de l’imaginaire que de la réalité.</p>
-        <div>
+        <div xml:id="r1599156">
           <head>Annexes</head>
           <p>Tableaux généalogiques. — Chronologie comparée des histoires hongroises et françaises au <num>xv<hi rend="sup">e</hi></num> siècle. — Édition intégrale du manuscrit des <hi rend="i">Aventures de Baudouin de Gavre</hi>, BnF NAF 1821. — Corpus des enluminures du manuscrit BnF NAF 1821. — Corpus de photographies de folios du manuscrit Bodleian Canon. Pat. Lat. 17. — Édition de la <hi rend="i">Vita Sancti Albini</hi> dans le manuscrit Bodleian Canon. Pat. Lat. 17 et résumé détaillé en français. — Pièces justificatives et édition d’extraits d’œuvres contenant des personnages hongrois. — Corpus d’illustrations (sceaux, monnaies, enluminures diverses).</p>
         </div>

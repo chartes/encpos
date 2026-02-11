@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1900_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1900_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,38 +56,38 @@
         <forename>Paul</forename>
         <surname>Vilnet</surname>
       </byline>
-      <div>
+      <div xml:id="r253252">
         <head rend="uc">Introduction</head>
         <p>Examen des travaux antérieurs. Les archives de l’Hôtel-Dieu, aperçu historique ; leur classement. – Bibliographie.</p>
       </div>
-      <div>
+      <div xml:id="r253262">
         <head rend="uc">Première partie
          <lb/>Histoire de l’Hôtel-Dieu du
          <lb/><num>xii<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r253283">
           <head rend="uc">Chapitre premier
            <lb/>origine de l’Hôtel-Dieu</head>
           <p>Le litre de fondation n’existe [dus : il fut détruit dans un incendie de 1188. L’acte le plus ancien que possèdent les archives de l’hôpital est de 1189. Jusqu’à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, les historiens locaux considéraient comme fondateur Henri I<hi rend="sup">er</hi> le Libéral, comte de Champagne (1152-1181). Mais, en 1783, Courtalon-Delaistre proposa de reporter la date de fondation au-delà de l’année 1149. Cette erreur fut corrigée par M.H. d’Arbois de Jubainville. <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#e948c8318a700981f1649924529321a439915dd2" n="162" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/e948c8318a700981f1649924529321a439915dd2/full/full/0/default.jpg"/> Conclusion : Henri I<hi rend="sup">er</hi> le Libéral est le fondateur de l’Hôtel-Dieu-le-Comte et les malades devaient y être soignés dès l’année 1157.</p>
         </div>
-        <div>
+        <div xml:id="r253314">
           <head rend="uc">Chapitre II
            <lb/>Privilèges de l’Hôtel-Dieu</head>
           <p>Les comtes de Champagne lui accordent des privilèges et des exemptions : chartes de Thibaut IV (1226), de Thibaut V (1267). – Les papes Célestin III (1197), Honorius III (1217) et Urbain IV (1263) prennent l’hôpital sous leur protection. – Après la réunion du comté de Champagne à la couronne, les rois de France lui concèdent des sauvegardes ou confirment ses possessions : Lettres de Philippe V (1319), de Charles IV (1323) et de Philippe VI (1329).</p>
           <p>Droits seigneuriaux de l’hôpital ; il est un lieu d’immunité et de franchise ; étendue de sa juridiction à Troyes. – La « mairie » de la Chapelle-Saint-Luc.</p>
         </div>
-        <div>
+        <div xml:id="r253329">
           <head rend="uc">Chapitre III
            <lb/>La fortune de l’Hôtel-Dieu au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
           <p>Elle a pour source la charité privée : l’assistance publique officielle au moyen âge est complètement inconnue. Donations diverses et achats. Les principales granges ou fermes de l’Hôtel-Dieu : la Chapelle-Saint-Luc, Verdumel, Poivres et Donnement ; terres, prés, vignes, moulins, jardins ; propriétés immobilières à Troyes. Autres recettes ordinaires : depuis l’année 1270, l’hôpital perçoit 200 livres sur le domaine du roi.</p>
           <p>Recettes extraordinaires : legs testamentaires, fondations d’anniversaires, quêtes dans les églises paroissiales de la ville et à la campagne par les religieuses.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r253351">
         <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#fa309be7054b47c11117258b5317e0274f1eeda0" n="163" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/fa309be7054b47c11117258b5317e0274f1eeda0/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Administration de l’Hôtel-Dieu
          <lb/>du <num>xii<hi rend="sup">e</hi></num> au XVI siècle</head>
-        <div>
+        <div xml:id="r253372">
           <head rend="uc">Chapitre premier
            <lb/>l’administration jusqu’en 1263</head>
           <p>1. <hi rend="i">Considérations générales.</hi> – L’Hôtel-Dieu est soumis à une double autorité : celle du Comte de Champagne et celle de l’Évêque ; le comte en est le maître ; l’évêque y a droit de visite et de correction. Mais, dès la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, l’aumônier du roi, considérant la maison comme de « fondation royale », cherche à se substituer à l’évêque ; extension rapide des pouvoirs du grand aumônier.</p>
@@ -98,7 +96,7 @@
           <p>Mouvement général qui se manifeste au <num>xiii<hi rend="sup">e</hi></num> siècle en faveur des Hôtels-Dieu.</p>
           <p>Les statuts hospitaliers ; ceux de l’Hôtel-Dieu-le-Comte, <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#66a39876757690382dcc4eb3656626af5fc4f039" n="164" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/66a39876757690382dcc4eb3656626af5fc4f039/full/full/0/default.jpg"/>dûs à l’aumônier du comte de Champagne, ne datent que de 1263.</p>
         </div>
-        <div>
+        <div xml:id="r253431">
           <head rend="uc">Chapitre II
            <lb/>L’administration après 1263 : le personnel religieux</head>
           <p>Le personnel religieux se compose de frères et de sœurs qui suivent la règle de Saint-Augustin. On compte à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle huit frères clercs, dix frères lais et dix sœurs, mais ce nombre diminue insensiblement jusqu’à se trouver réduit à trois religieux prêtres et quatre religieuses au début du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
@@ -106,7 +104,7 @@
           <p>Conditions d’admission : célibat, constitution physique en rapport avec les difficultés du service, qualités morales ; la règle ne fixe pas de limite d’âge, mais on trouve de fréquentes mentions de religieuses entrées à l’Hôtel-Dieu dès l’âge de douze à seize ans comme servantes, ou « chambrières ».</p>
           <p>Le temps de probation est ordinairement d’un an ; les vœux, la prise d’habit ; ce que l’on appelle « estât de religion » à l’Hôtel-Dieu-le-Comte.</p>
         </div>
-        <div>
+        <div xml:id="r253464">
           <head rend="uc">Chapitre III
            <lb/>L’administration après 1263 : le maître et la Prieuse</head>
           <p>1. <hi rend="i">Le Maître.</hi> – Jusqu’à la réunion du comté de Champagne à la couronne, il continue d’être nommé par l’aumônier du comte et institué par l’évêque. Dès le début du <num>xiv<hi rend="sup">e</hi></num> siècle, l’aumônier du roi nomme le maître après élection faite par les religieux, mais l’évêque garde le droit de confirmation.</p>
@@ -115,36 +113,36 @@
           <p>Privilèges du maître ; ses fonctions : d’une manière générale, il dirige tous les services. Il a un vicaire et un clerc receveur.</p>
           <p>2. <hi rend="i">La Prieuse.</hi> – Elle a la surveillance des sœurs, règle le service des salles, et peut être chargée de toute l’administration intérieure.</p>
         </div>
-        <div>
+        <div xml:id="r253510">
           <head rend="uc">Chapitre IV
            <lb/>L’administration après 1263 : le chapitre</head>
           <p>Il ratifie le choix du postulant fait par le maître, surveille l’administration de ce dernier, intervient dans toutes les affaires importantes, et dicte la plupart des mesures disciplinaires. Le code pénal de l’Hôtel-Dieu.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r253523">
         <head rend="uc">Troisième partie
          <lb/>La réforme de l’Hôtel-Dieu</head>
-        <div>
+        <div xml:id="r253531">
           <head rend="uc">Chapitre premier
            <lb/>les origines de la réforme</head>
           <p>Causes générales de la réforme des hôpitaux au <num>xvi<hi rend="sup">e</hi></num> siècle : règlements, édits.</p>
           <p>La municipalité troyenne s’immisce dans l’administration des quatre hôpitaux de la ville (Hôtel-Dieu-le-Comte, <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#d2bcb77aac06154c5e4e820cf247e535d0225c24" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/d2bcb77aac06154c5e4e820cf247e535d0225c24/full/full/0/default.jpg"/>hôpitaux Saint-Nicolas, Saint-Bernard et Saint-Esprit), à l’occasion du refus fait par eux de recevoir les pestiférés ; organisation par les échevins du service de l’assistance ; arrêt du Parlement du 5 août 1518 qui condamne les quatre hôpitaux à contribuer à l’entretien des pestiférés du tiers de leurs revenus ; nombreuses difficultés relatives à l’acquittement de cette cote ; un accord est conclu avec les échevins le 27 mai 1523, par lequel les maîtres des hôpitaux s’engagent à fournir aux contagieux les secours nécessaires, mais il n’a pas de durée.</p>
           <p>L’incendie de 1524 (24 mai) à Troyes ; l’Hôtel-Dieu-le-Comte a plusieurs de ses propriétés détruites, et fait de nouvelles difficultés pour payer sa « cote des pestiférés ».</p>
         </div>
-        <div>
+        <div xml:id="r253560">
           <head rend="uc">Chapitre II
            <lb/>La réforme</head>
           <p>La question de la réforme de l’Hôtel-Dieu-le-Comte est nettement posée en 1526 ; les échevins adressent, le 3 mai de cette année, une requête au Parlement tendant à donner à l’Hôtel-Dieu-le-Comte une administration semblable à celle de l’Hôtel-Dieu de Paris ; mais l’opposition du gouverneur de Champagne, Claude de Guise, empêche les échevins de poursuivre leur projet (août 1526).</p>
           <p>Nouvelle apparition de la peste en 1529 ; mesures prises par la ville pour faire face au danger ; longue procédure contre les maîtres des hôpitaux ; le 17 avril 1531, une sentence du bailli de Troyes ordonne que, désormais, deux bourgeois de la ville administreront chacun des Hôtels-Dieu avec le maître ecclésiastique, et rendront compte de leur gestion au lieutenant-général assisté du procureur du roi, de deux notables bourgeois et du chapitre de la cathédrale.</p>
         </div>
-        <div>
+        <div xml:id="r253575">
           <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#727c35e1309016c2c1790e89f9823d4dcb884f67" n="167" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/727c35e1309016c2c1790e89f9823d4dcb884f67/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>L’arrêt des Grands-Jours de 1535</head>
           <p>Graves désordres dans les hôpitaux ; les échevins portent à nouveau leurs plaintes au Parlement ; les maîtres, de leur côté, soutenus par le grand aumônier s’adressent au Grand Conseil : conflit. – L’enquête de 1532 sur le régime intérieur des établissements hospitaliers. – Arrêt de la cour du Grand Conseil du 4 janvier 1533 (n. st.). – Lettres patentes de François I<hi rend="sup">er</hi> confiant l’administration des hôpitaux de la ville à quatre bourgeois élus par l’assemblée générale des habitants (13 juin 1534).</p>
           <p>Un arrêt de la Cour des Grands-Jours de Troyes (28 septembre 1535) confirme ces lettres. Exposé de l’arrêt.</p>
         </div>
-        <div>
+        <div xml:id="r253599">
           <head rend="uc">Chapitre IV
            <lb/>Les nouveaux statuts de l’Hôtel-Dieu et l’administration
            <lb/>du <num>xvi<hi rend="sup">e</hi></num> au <num>xvii<hi rend="sup">e</hi></num> siècle</head>
@@ -156,10 +154,10 @@
           <p>A partir de cette date, les administrateurs peuvent exercer leurs fonctions en paix, et leur administration, difficile au début, a été en somme heureuse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r253643">
         <head rend="uc">Quatrième partie
          <lb/>Les malades à l’Hôtel-Dieu</head>
-        <div>
+        <div xml:id="r253651">
           <head rend="uc">Chapitre premier
            <lb/>le personnel assisté</head>
           <p>La plupart des Hôtels-Dieu du moyen âge sont ouverts à toutes les maladies et à toutes les misères. L’Hôtel-Dieu-le-Comte fait exception.</p>
@@ -169,7 +167,7 @@
           <p>Les enfants trouvés ne seront admis qu’après la réforme du <num>xvi<hi rend="sup">e</hi></num> siècle, mais tous les autres y sont entretenus, au moins dès le <num>xiii<hi rend="sup">e</hi></num> siècle ; divers motifs expliquant leur présence ; la nourrice des petits enfants ; ses <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#d5cfc7345e3a966b9dab96cca675a0fcd016dad4" n="169" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/d5cfc7345e3a966b9dab96cca675a0fcd016dad4/full/full/0/default.jpg"/>gages. Les couches des enfants : petits coffres de bois remplis de paille.</p>
           <p>Les orphelins sont élevés à l’hôpital jusqu’à l’âge de dix ans ; leur dot, leur trousseau.</p>
         </div>
-        <div>
+        <div xml:id="r253695">
           <head rend="uc">Chapitre II
            <lb/>Réception des malades</head>
           <p>L’entrée réservée au malade ; le portier ou la sœur portière, la première consultation.</p>
@@ -180,7 +178,7 @@
           <p>Dispositions intérieures des salles :	1° Salle des hommes malades appelée 1’« ospital » ou la « salle » ; dimensions. – 2° L’« enfermerie » pour les « grés » malades. – 3° La salle des accouchées.</p>
           <p>Conformément à une disposition presque générale dans les hôpitaux du moyen âge, la grande salle communique avec l’église de l’Hôtel-Dieu ; en outre, un autel est placé, sinon dans toutes les salles, du moins dans 1’« ospital ».</p>
         </div>
-        <div>
+        <div xml:id="r253729">
           <head rend="uc">Chapitre III
            <lb/>Le traitement des malades</head>
           <p>Les malades font deux repas par jour : la distribution <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#3a4e756cf1bb16948731e4b306277e0f6f812390" n="170" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/3a4e756cf1bb16948731e4b306277e0f6f812390/full/full/0/default.jpg"/>des parts ; les religieux et les religieuses ne prennent leurs repas qu’après eux ; si les ressources de la maison le permettent, on procure aux malades tout ce qu’ils désirent.</p>
@@ -191,14 +189,14 @@
           <p>Distributions accessoires : les unes ont lieu à certains anniversaires, les autres aux « beaux jours » de l’année. Les fêtes de Saint-Barthélemy et de Sainte-Marguerite, patron et patronne de l’hôpital.</p>
           <p>Fondations faites par plusieurs confréries. • – Curieux usage : la procession du jour de Pâques-Fleuries.</p>
         </div>
-        <div>
+        <div xml:id="r253764">
           <head rend="uc">Chapitre IV
            <lb/>Les enfants trouvés</head>
           <p>Après la réforme du <num>xvi<hi rend="sup">e</hi></num> siècle, les orphelins sont élevés à l’hôpital Saint-Bernard de Troyes, les femmes malades sont soignées à l’hôpital Saint-Nicolas.</p>
           <p>Procès entre l’Hôtel-Dieu-le-Comte et l’hôpital Saint-Bernard, au sujet des enfants trouvés. A partir de l’année 1547, ils sont définitivement entretenus aux frais de l’Hôtel-Dieu-le-Comte.</p>
           <p>L’« augelot » ou coffre de bois destiné aux enfants trouvés ; il est placé à la porte de la chapelle Sainte-Marguerite. Les premiers soins leur sont donnés dans la salle des femmes gisantes : absence d’une chambre spé<pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#6e02fe7e88f71937d1d8f7cd7d96212ba9a8b81a" n="171" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/6e02fe7e88f71937d1d8f7cd7d96212ba9a8b81a/full/full/0/default.jpg"/>ciale affectée à leur réception. On les met de bonne heure en nourrice.</p>
         </div>
-        <div>
+        <div xml:id="r253793">
           <head rend="uc">Chapitre V
            <lb/>Organisation du service médical</head>
           <p>La plupart des archives hospitalières antérieures au <num>xvi<hi rend="sup">e</hi></num> siècle ne fournissent que des indications très rares et peu précises sur l’organisation du service médical dans les hôpitaux.</p>
@@ -211,17 +209,17 @@
           <p>Mort du malade ; le service funèbre dans la chapelle basse de l’église.</p>
           <p>L’Hôtel-Dieu a deux cimetières : l’un fait partie du grand cimetière de Notre-Dame-aux-Nonnains, l’autre tient à l’église de l’Hôtel-Dieu ; procès entre les religieux et l’échevinage, pour savoir si les habitants de la ville auront droit <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#25048509abcf06619d27e710b7ab8d96533cedf6" n="172" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/25048509abcf06619d27e710b7ab8d96533cedf6/full/full/0/default.jpg"/> de passage dans le petit cimetière Sainte-Marguerite (1359, 1524).</p>
         </div>
-        <div>
+        <div xml:id="r253864">
           <head rend="uc">Chapitre VI
            <lb/>Les pensionnaires de l’Hôtel-Dieu</head>
           <p>Ce que l’on entend par les « donnés » ou rendus dans les hôpitaux ; les prescriptions du concile de Paris de 1212, relatives à ces pensionnaires ; nombre très restreint de rendus à l’Hôtel-Dieu-le-Comte.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r253877">
         <head rend="uc">Cinquième partie
          <lb/>Essai de restitution des anciens batiments
          <lb/>de l’Hôtel-Dieu</head>
-        <div>
+        <div xml:id="r253887">
           <head rend="uc">Chapitre premier
            <lb/>l’hôpital</head>
           <p>L’Hôtel-Dieu faisait primitivement partie des dépendances du palais des comtes de Champagne : il se trouvait situé « en face » de la collégiale Saint-Étienne, fondée en 1157 par Henri I<hi rend="sup">er</hi> le Libéral. Ce premier local affecté à la réception des passants et des malades devint bientôt insuffisant. Grâce à la générosité de Renaud de Bar-le-Duc, l’hôpital occupe, à partir de l’année 1270. tout un ensemble de bâtiments désignés communément sous le nom de « Maison-le-Comte », compris entre la rue de la Cité qui les borne au nord et la rue du Palais au sud ; la limite orientale, assez flottante, touche aux propriétés des chapitres de Saint-Etienne et de Saint-Urbain de Troyes ; l’aile occidentale des bâtiments est longée par une des dérivations de la Seine, le rû Cordé ; l’hôpital présente ainsi une disposition analogue à celle de la plupart des Maisons-Dieu du moyen âge : il est à proximité d’une <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#4228cdf0450874d9eec7d880970e8e64e61e4b45" n="173" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/4228cdf0450874d9eec7d880970e8e64e61e4b45/full/full/0/default.jpg"/>rivière dont l’eau peut servir aux usages les plus divers. – La chapelle Notre-Dame sur le pont de la Girouarde.</p>
@@ -230,7 +228,7 @@
           <p>Visite de l’hôpital au <num>xvi<hi rend="sup">e</hi></num> siècle. – Les bâtiments s’étendent le long de la rue de la Cité, depuis le rû Cordé jusqu’à l’hôtel de la Coupe-d’Argent ou de la Grande-Coupe, qu’occupe une partie de l’aile orientale de l’Hôtel-Dieu actuel : le « gué aux chevaulx », les petits ouvroirs, la grosse tour, la porte d’entrée, les « maisons neuves ». Vers l’église Saint-Etienne, et à côté des maisons canoniales, se succèdent, de l’est à l’ouest, la seconde porte d’entrée de l’hôpital, le petit cimetière Sainte-Marguerite, l’église de l’Hôtel-Dieu, enfin l’immeuble voisin du Pont de la Salle.</p>
           <p>Description de l’intérieur de l’enclos : emplacement de <pb source="https://nakala.fr/10.34847/nkl.b8c05ux9#4be4d3aa003f3dba2c9b30dbf63dd9fbaf2e522e" n="174" facs="https://api.nakala.fr/iiif/10.34847/nkl.b8c05ux9/4be4d3aa003f3dba2c9b30dbf63dd9fbaf2e522e/full/full/0/default.jpg"/>la grande salle des malades ; l’infirmerie, la maison des femmes grosses ; les logements du maître et des religieux, la maison des religieuses, le convent ; les dépendances et communs.</p>
         </div>
-        <div>
+        <div xml:id="r253949">
           <head rend="uc">Chapitre II
            <lb/>L’église</head>
           <p>La plus ancienne mention de l’existence certaine d’une chapelle à l’Hôtel-Dieu figure dans un texte de 1205 (août). Emplacement.</p>
@@ -238,7 +236,7 @@
           <p>Importants travaux de reconstruction sous la direction de Nicolas Forjot. – Décoration des deux chapelles (verriers et orfèvres).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r253968">
         <head rend="uc">Appendice</head>
         <p>Liste des prieurs et maîtres de l’Hôtel-Dieu-le-Comte</p>
       </div>

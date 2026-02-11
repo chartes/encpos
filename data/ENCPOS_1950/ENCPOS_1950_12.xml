@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1950_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1950_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,7 +54,7 @@
         <forename>Lucie</forename>
         <surname>Fossier-Dupont</surname>
       </byline>
-      <div>
+      <div xml:id="r715049">
         <head rend="uc">Introduction</head>
         <p>L’économie rurale de la Flandre wallonne (châtellenies de Lille, Douai, Orchies) a-t-elle subi l’influence de l’occupation française (1297-1369) ?</p>
       </div>
@@ -64,17 +62,17 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r715068">
         <head rend="uc">Première partie
          <lb/>Le cadre</head>
-        <div>
+        <div xml:id="r715076">
           <head rend="uc">Chapitre premier
            <lb/>les facteurs géographiques.</head>
           <p><hi rend="i">Le sol.</hi> – Manque d’unité géologique de la région : sable et argile flamands, craie artésienne. Climat. Régime des eaux.</p>
           <p><hi rend="i">Exigences du sol.</hi> – Médiocre fertilité et difficultés d’exploitation.</p>
           <p><hi rend="i">Mise en valeur.</hi> – Essartage, asséchement, engrais.</p>
         </div>
-        <div>
+        <div xml:id="r715103">
           <head rend="uc">Chapitre II
            <lb/>Le cadre historique.</head>
           <p><hi rend="i">Avant l’intervention du roi.</hi> – Inimitié profonde entre Lille et Douai. Comte allié au commun et sans grande autorité sur les nobles francophiles. Politique d’approche de Philippe le Bel. Guerre 1296-1305. Ses résultats.</p>
@@ -84,16 +82,16 @@
           <p><hi rend="i">Les ducs.</hi> – Louis de Male et les dernières crises. Philippe le Bon et la renaissance du pays. Abaissement des villes et des grands propriétaires au profit du pouvoir central et des paysans.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r715142">
         <head rend="uc">Deuxième partie
          <lb/>L’exploitation</head>
-        <div>
+        <div xml:id="r715150">
           <head rend="uc">Chapitre premier
            <lb/>conditions des personnes et des terres.</head>
           <p><hi rend="i">Les exploitants.</hi> – Les ecclésiastiques et le développement des abbayes. Les laïcs et les débuts de la petite propriété.</p>
           <p><hi rend="i">La terre.</hi> – Le fief. Les droits seigneuriaux et leur affaiblissement. La disparition du servage. Remplacement des convers par des ouvriers mercenaires. La censive et ses différentes formes : terrages, sauvetés, hostises.</p>
         </div>
-        <div>
+        <div xml:id="r715171">
           <head rend="uc">Chapitre II
            <lb/>Aspects de la campagne wallonne.</head>
           <p><hi rend="i">L’habitation.</hi> – L’outillage ; les moyens de transport.</p>
@@ -103,7 +101,7 @@
           <p><hi rend="i">Les bois.</hi> – Exploitation en tailles ; entretien vigilant ; usages : paisson, chasse, industrie du bois.</p>
           <p><hi rend="i">La pêche.</hi> – Les viviers : étendue, aménagement, entretien. Réglementation. Accensements des droits de pêche.</p>
         </div>
-        <div>
+        <div xml:id="r715228">
           <head rend="uc">Chapitre III
            <lb/>Transformations de l’économie rurale au <num>xiv<hi rend="sup">e</hi></num> siècle.</head>
           <p><hi rend="i">Victoire de la petite propriété.</hi> – Lutte contre les grands propriétaires : chute des donations ; raréfaction de la main-d’œuvre malgré la hausse des salaires. Prix de la terre. Modifications de la condition des terres : émancipation des censitaires ; taux des cens.</p>
@@ -111,10 +109,10 @@
           <p><hi rend="i">La crise du <num>xiv<hi rend="sup">e</hi></num> siècle.</hi> – Aspect financier : cours de la rente ; variation des loyers. Aspect foncier : le rendement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r715267">
         <head rend="uc">Troisième partie
          <lb/>L’utilisation</head>
-        <div>
+        <div xml:id="r715275">
           <head rend="uc">Chapitre premier
            <lb/>l’industrie rurale.</head>
           <p><hi rend="i">Industrie d’extraction.</hi> – Tourbières et sablonnières.</p>
@@ -123,7 +121,7 @@
           <p><hi rend="i">Industries textiles.</hi> – Lin et chanvre ; la laine et le développement des centres de la vallée de la Lys. La wedde.</p>
           <p><hi rend="i">Industrie du cuir.</hi></p>
         </div>
-        <div>
+        <div xml:id="r715313">
           <head rend="uc">Chapitre II
            <lb/>Le commerce.</head>
           <p><hi rend="i">Exportations et importations.</hi> – Blés, poissons, vins, épices.</p>
@@ -132,7 +130,7 @@
           <p><hi rend="i">Commerce de l’argent.</hi> – Introduction des Lombards au <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">Poids et mesures.</hi></p>
         </div>
-        <div>
+        <div xml:id="r715357">
           <head rend="uc">Chapitre III
            <lb/>Évolution agricole, industrielle et commerciale.</head>
           <p><hi rend="i">Les monnaies.</hi></p>
@@ -140,7 +138,7 @@
           <p><hi rend="i">Évolution de la richesse rurale.</hi> – Abaissement des nobles et des abbayes ; triomphe des paysans.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r715384">
         <head rend="uc">Conclusion</head>
         <p>Tableau de l’évolution générale des caractères économiques de la période envisagée. Défense de Philippe le Bel : essor de l’économie rurale en Flandre wallonne au sortir d’une crise plus courte et moins grave que ne le fut la crise française.</p>
         <pb source="https://nakala.fr/10.34847/nkl.befb95rx#4b1b2727ae75d9d93a4cc3e3f1555d35b95bdfc2" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.befb95rx/4b1b2727ae75d9d93a4cc3e3f1555d35b95bdfc2/full/full/0/default.jpg"/>

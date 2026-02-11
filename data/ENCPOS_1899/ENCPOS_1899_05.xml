@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,24 +56,24 @@
         <surname>Lanore</surname>
         <roleName>Licencié ès Lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r237634">
         <head rend="uc">Première partie
          <lb/>Histoire archéologique de la cathédrale
          <lb/>jusqu’a 1194</head>
-        <div>
+        <div xml:id="r237644">
           <head rend="uc">Chapitre premier
            <lb/>la cathédrale avant Fulbert (? – 1020)</head>
           <p><hi rend="i">Historique.</hi> – Origines de l’église de Chartres ; légendes primitives, la question des saints Forts ; destruction de la cathédrale en 743, 858 et 962, restauration des évêques Gislebert et Vulfald ; incendie de la cathédrale de Vulfald en 1020.</p>
           <p><hi rend="i">Dispositions de la cathédrale carolingienne.</hi> – Étude du <hi rend="i">martyrium</hi> actuel ; sa construction et ses remaniements : murs de Gislebert, piliers de Vulfald, exhaussement du sol, renforcement du chevet et déplacement de l’entrée par Fulbert ; restes du clocher carolingien ; hypothèse sur le plan de la cathédrale carolingienne.</p>
         </div>
-        <div>
+        <div xml:id="r237669">
           <head rend="uc">Chapitre II
            <lb/>La cathédrale au <num>xi<hi rend="sup">e</hi></num> siècle (1020-1134)</head>
           <p>Reconstruction par Fulbert, presque achevée à sa mort <pb source="https://nakala.fr/10.34847/nkl.71fa1slr#54985be65d167a1444d6e290b60021d3199aa978" n="46" facs="https://api.nakala.fr/iiif/10.34847/nkl.71fa1slr/54985be65d167a1444d6e290b60021d3199aa978/full/full/0/default.jpg"/>(1028) ; incendie de 1030, restauration des parties hautes par l’évêque Thierri, adjonction d’un porche de façade et d’un transept ; construction de porches latéraux et de clochers, dont une <hi rend="i">turris</hi> sur la façade du côté nord, dans la deuxième moitié du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
           <p>Étude de la grande crypte, seul reste de la construction de Fulbert ; nécessité de son attribution à Fulbert ; étendue de la crypte de Fulbert, plan.</p>
           <p>Reconstruction de l’église supérieure de Fulbert d’après la miniature du manuscrit de Saint-Étienne et le plan de la crypte ; les clochers sous Fulbert et à la fin du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r237714">
           <head rend="uc">Chapitre III
            <lb/>La cathédrale au <num>xii<hi rend="sup">e</hi></num> siècle (1134-1194)</head>
           <p>Incendie de 1134 ; les clochers seuls sont atteints, la façade de Fulbert subsiste.</p>
@@ -83,23 +81,23 @@
           <p>Chronologie de la reconstruction après 1134, d’après cette théorie : construction du Clocher Neuf seulement de 1134 à 1145 ; ferveur religieuse vers 1145, le chapitre en profite pour développer l’église édifiée par Fulbert ; de 1145 à 1150, démolition de la façade de Fulbert, agrandissement de l’église et de la crypte d’une travée ; construction des étages inférieurs du Clocher Vieux et d’une façade nouvelle au ras des clochers (cette façade nouvelle est la façade actuelle) ; de 1150 à 1194, achèvement du <pb source="https://nakala.fr/10.34847/nkl.71fa1slr#fb87ac0c9432d2a20fa60989794bac93378bc0c5" n="47" facs="https://api.nakala.fr/iiif/10.34847/nkl.71fa1slr/fb87ac0c9432d2a20fa60989794bac93378bc0c5/full/full/0/default.jpg"/>Clocher Vieux, percement de la porte sud de la crypte et élargissement de ses fenêtres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r237744">
         <head rend="uc">Deuxième partie
          <lb/>Description archéologique</head>
-        <div>
+        <div xml:id="r237752">
           <head rend="uc">Chapitre premier
            <lb/>matériaux de construction et plan</head>
           <p>Appareil : petit et moyen appareil, emploi de la brique pour la construction et la décoration.</p>
           <p>Plan à abside circulaire de Vulfald ; plan à trois nefs et chœur à pourtour, avec trois absidioles rayonnantes, de l’église de Fulbert ; modifications au <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r237773">
           <head rend="uc">Chapitre II
            <lb/>Ordonnance intérieure</head>
           <p>Voûtes : de la crypte ; des clochers, voûtes sur croisée d’ogives, étude de la coupole sur encorbellement du Clocher Neuf.</p>
           <p>Supports, les fûts.</p>
           <p>Elévation d’une travée.</p>
         </div>
-        <div>
+        <div xml:id="r237791">
           <head rend="uc">Chapitre III
            <lb/>Ordonnance extérieure</head>
           <p>1. Façades. Façade principale : la façade de 1145, étranglement entre les deux clochers des éléments de la façade normale, restitution du pignon, porche ; façades latérales d’après la miniature du manuscrit de Saint-Étienne.</p>
@@ -108,36 +106,36 @@
           <p>3.	Clochers. Clochers de Fulbert ; clochers du XII<hi rend="sup">e </hi>siècle : étude de leur partie commune (trois premiers étages), étages supérieurs du Clocher Vieux.</p>
           <p>4. Détails de l’ordonnance extérieure : contreforts, portes, fenêtres, arcatures décoratives.</p>
         </div>
-        <div>
+        <div xml:id="r237821">
           <head rend="uc">Chapitre IV
            <lb/>Profils</head>
           <p>Bases et socles ; tailloirs ; nervures ; corniches ; profil des arcs : plein cintre, arc brisé, arc brisé outrepassé.</p>
         </div>
-        <div>
+        <div xml:id="r237833">
           <head rend="uc">Chapitre V
            <lb/>Ornementation</head>
           <p>Sculpture. Motifs géométriques ; motifs végétaux : chapiteaux à feuillages ; figure : modillons, chapiteaux historiés, statuaire des portails.</p>
           <p>Peinture, vitraux.</p>
         </div>
-        <div>
+        <div xml:id="r237848">
           <head rend="uc">Chapitre VI
            <lb/>Iconographie</head>
           <p>Sujets religieux ; hypothèses diverses au sujet du tympan de gauche : l’Ascension.</p>
           <p>Sujets profanes ; chapiteaux inspirés d’œuvres orientales, étude d’un chapiteau inspiré de l’arc grec.</p>
         </div>
-        <div>
+        <div xml:id="r237863">
           <head rend="uc">Chapitre VII
            <lb/>Mobilier</head>
           <p>Armoire ; fonts baptismaux du milieu du <num>xii<hi rend="sup">e</hi></num> siècle, avec remploi de fûts plus anciens, probablement antiques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r237882">
         <pb source="https://nakala.fr/10.34847/nkl.71fa1slr#0ba03819904e0303bf71f96ccbd9e8c97e857c5c" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.71fa1slr/0ba03819904e0303bf71f96ccbd9e8c97e857c5c/full/full/0/default.jpg"/>
         <head rend="uc">Appendices</head>
         <p>I. – Chronologie de la cathédrale jusqu’à 1194.</p>
         <p>II. – Tradition de la donation par Charles le Chauve au trésor de Chartres de la chemise de la Vierge en 876.</p>
       </div>
-      <div>
+      <div xml:id="r237900">
         <head rend="uc">Pièces justificatives</head>
         <p>Photographies, plans, croquis.</p>
         <pb source="https://nakala.fr/10.34847/nkl.71fa1slr#d1357781092bad21f6ad7cd539eb5de8ca6289ac" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.71fa1slr/d1357781092bad21f6ad7cd539eb5de8ca6289ac/full/full/0/default.jpg"/>

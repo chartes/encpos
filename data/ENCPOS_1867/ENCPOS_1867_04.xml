@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1867_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1867_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -57,7 +55,7 @@
         <surname>Chauffier</surname>
         <roleName rend="uc">Licencié en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r60993">
         <head rend="uc">I
          <lb/>protection intérieure</head>
         <p>Avant l’invasion des Normands, la Bretagne était déjà un centre important de commerce, mais pendant le dixième siècle tout fut détruit.</p>
@@ -72,7 +70,7 @@
         <p>Nombreux traités de commerce. – La concurrence de la Rochelle et de Bordeaux force le duc à diminuer les impôts.</p>
         <p>L’invasion des Français en Bretagne ruine les manufactures et le commerce de la province.</p>
       </div>
-      <div>
+      <div xml:id="r61048">
         <head rend="uc">II
          <lb/>répression de la piraterie</head>
         <p>Tentatives de répression de la piraterie par Pierre Mauclerc et ses successeurs ; par le roi de France.</p>

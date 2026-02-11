@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -69,84 +67,84 @@
         <head rend="uc">Sources imprimées</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r568612">
         <head rend="uc">Avant-propos
          <lb/>les Origines de Gaston du Lyon : un béarnais.</head>
         <p>Il existait au <num>xv<hi rend="sup">e</hi></num> siècle plusieurs familles du Lyon : Gaston du Lyon appartenait à la famille béarnaise de ce nom (<hi rend="i">du Leu</hi>). Il dut naître vers 1431.</p>
       </div>
-      <div>
+      <div xml:id="r568634">
         <head rend="uc">Première partie
          <lb/>Au service du dauphin</head>
         <p>Le Béarnais arriva tout jeune auprès du Dauphin et était attaché à son service bien avant que celui-ci fût roi.</p>
-        <div>
+        <div xml:id="r568645">
           <pb source="https://nakala.fr/10.34847/nkl.61c5y0sk#b901e2528358afc06b5076eafc5c6e767e4ebc4d" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.61c5y0sk/b901e2528358afc06b5076eafc5c6e767e4ebc4d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>Gaston du Lyon en Dauphiné.</head>
           <p>Gentilhomme de la garde du Dauphin, simple écuyer de son écurie, il fut distingué par lui dès 1456, année où, chargé de missions à Berne, puis à Rome, il vit se dessiner sa fortune.</p>
         </div>
-        <div>
+        <div xml:id="r568662">
           <head rend="uc">Chapitre II
            <lb/>Gaston du Lyon
            <lb/>sur les terres du duc de Bourgogne.</head>
           <p>Il devient premier écuyer tranchant et le Dauphin lui donne un éclatant témoignage de confiance et d’estime en l’envoyant comme ambassadeur à Milan.</p>
         </div>
-        <div>
+        <div xml:id="r568676">
           <head rend="uc">Chapitre III
            <lb/>Les voyages d’Italie.</head>
           <p>Gaston du Lyon, négociateur du traité d’alliance entre Louis et Sforza, débuta brillamment dans la carrière diplomatique. Gagné à l’amitié milanaise, il s’en était fait le champion quand survint l’avènement de Louis XI.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r568689">
         <head rend="uc">Deuxième partie
          <lb/>Au service du roi Louis</head>
         <p>Le règne de Louis XI récompensa le fidèle serviteur du Dauphin.</p>
-        <div>
+        <div xml:id="r568700">
           <pb source="https://nakala.fr/10.34847/nkl.61c5y0sk#fd9acdfcd39864d2caebabb28fcfda12538355ad" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.61c5y0sk/fd9acdfcd39864d2caebabb28fcfda12538355ad/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>Gaston du Lyon, senechal de Saintonge
            <lb/>(12 août 1461-1468).</head>
           <p>Pourvu de la sénéchaussée de Saintonge, de terres, de capitaineries et d’une compagnie de cinquante lances, il se révéla un valeureux capitaine à la guerre de Catalogne (1462), qui lui valut les vicomtés d’Ille et de Canet, en Roussillon. Il avait également fait œuvre de diplomate en Castille et en Navarre. Pendant la guerre du Rien public (1465) et dans la deuxième ligue (1466-1467), Louis XI, qui l’avait fait son conseiller et chambellan, l’employa pour guerroyer contre les rebelles. Il le fit aussi, de nouveau, son ambassadeur à Milan, à la mort de François Sforza (mars 1466), car Gaston n’avait pas cessé de garder de bons rapports avec la cour milanaise. En 1467, ambassadeur en Savoie, puis médiateur entre Galéas Sforza et la maison de Savoie, il ne put, malgré ses efforts, triompher des intrigues engagées. Louis XI ne semble pas lui en avoir tenu rigueur, car, le 27 avril 1468, il lui donnait un office plus important que la sénéchaussée de Saintonge. Celle-ci n’avait été pour lui qu’une étape et il n’y résida guère.</p>
         </div>
-        <div>
+        <div xml:id="r568719">
           <head rend="uc">Chapitre II
            <lb/>Gaston du Lyon, sénéchal de Guyenne,
            <lb/>des lannes et de bazadois
            <lb/>(27 avril 1468-1469).</head>
           <p>Gaston du Lyon ne fit que passer dans la sénéchaussée de Guyenne. Après l’avoir mise en état de <pb source="https://nakala.fr/10.34847/nkl.61c5y0sk#4985cec79c69acfd77dd11bbe16fa28ea7de4f5d" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.61c5y0sk/4985cec79c69acfd77dd11bbe16fa28ea7de4f5d/full/full/0/default.jpg"/>défense contre une menace anglaise, il se vit dépossédé par la constitution de l’apanage de Charles de France (avril 1469). Mécontent, il prêta attention aux menées de Balue : pourtant, les compensations qu’il reçut de Louis XI, en échange de ce qu’il avait perdu, montrent suffisamment que sa faveur auprès du roi n’en fut pas amoindrie. Il fut même chargé de mettre le duc Charles en possession de son apanage.</p>
         </div>
-        <div>
+        <div xml:id="r568740">
           <head rend="uc">Chapitre III
            <lb/>Gaston du Lyon, sénéchal de Toulouse
            <lb/>(13 novembre 1469-30 janvier 1483).</head>
           <p>Quelques mois après lui avoir enlevé la sénéchaussée de Guyenne, Louis XI accorda à Gaston du Lyon celle de Toulouse avec plusieurs capitaineries. Le sénéchal de Toulouse fit de fréquents séjours auprès du roi, siégea aux États de Tours (1470), fut envoyé en ambassade vers les États de Béarn (1472). Mais la plupart du temps il guerroya : en Roussillon (hiver 1469, 1473, 1474), en Champagne, en Picardie (1471), en Armagnac (campagnes de 1472, 1473), en Lorraine (1475-1476), en Bourgogne (1476, 1477-1479). Jusqu’à la dernière année du règne, il garda sa sénéchaussée, ses lances, ses seigneuries et sa pension ; en janvier 1483, Louis XI le destitua de son office et lui retira tous les bienfaits qu’il lui avait accordés.</p>
         </div>
-        <div>
+        <div xml:id="r568754">
           <head rend="uc">Chapitre IV
            <lb/>Gaston du Lyon et la faveur royale.
            <lb/>Sa disgrâce.</head>
           <p>En examinant ce qu’avait valu jusqu’alors à Gas<pb source="https://nakala.fr/10.34847/nkl.61c5y0sk#ec469e7121a83cacce1225778c653eb2a9a2e34d" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.61c5y0sk/ec469e7121a83cacce1225778c653eb2a9a2e34d/full/full/0/default.jpg"/>ton du Lyon la faveur de Louis XI, on s’aperçoit que les réticences des gens de finance, les frais occasionnés par le service du roi mirent parfois dans une situation pécuniaire critique le Béarnais, auquel le roi avait, en 1478, accordé des lettres de naturalité. Sa disgrâce, dans les derniers mois du règne, n’est pas un exemple isolé, mais les circonstances en demeurent confuses.</p>
         </div>
-        <div>
+        <div xml:id="r568773">
           <head rend="uc">Chapitre V
            <lb/>L’héritage d’Isabelle d’Armagnac.</head>
           <p>En 1473, Gaston du Lyon avait obtenu de la sœur de Jean V le don de ses seigneuries des Quatre-Vallées et de ses droits à la succession de ses parents. Bien que Louis XI eût ratifié ce don, l’héritier d’Isabelle se heurta à de sérieuses difficultés : l’hostilité des gens du pays, appuyés bientôt par le roi, l’avait engagé dans un procès, quand sa disgrâce entraîna la confiscation de ses biens. L’avènement de Charles VIII le remit en possession de son héritage, malgré les revendications du comte d’Armagnac ; mais il ne cessa pas d’être en butte aux tracasseries de la procédure, et, à sa mort, le procès dans lequel il était engagé contre la maison d’Armagnac durait toujours.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r568786">
         <head rend="uc">Troisième partie
          <lb/>Au service de Charles VIII</head>
         <p>Un mois après la mort de Louis XI, les Beaujeu <pb source="https://nakala.fr/10.34847/nkl.61c5y0sk#6d6061d8998bf974d07e7a53bf8bbfcc2d48f5d9" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.61c5y0sk/6d6061d8998bf974d07e7a53bf8bbfcc2d48f5d9/full/full/0/default.jpg"/>avaient rétabli Gaston du Lyon dans ses charges et dignités. Il servit fidèlement la cause royale contre les rebelles et connut sous ce règne une faveur nouvelle. La part qu’il prit à la guerre de Bretagne le signala à Charles VIII. Ce furent ses dernières armes : en 1490, il s’était retiré dans sa sénéchaussée de Toulouse. Le roi couronna sa carrière en lui envoyant le collier de l’ordre de Saint-Michel et en lui accordant des lettres de survivance pour son gendre, le bâtard Charles de Bourbon.</p>
       </div>
-      <div>
+      <div xml:id="r568803">
         <head rend="uc">Quatrième partie</head>
-        <div>
+        <div xml:id="r568809">
           <head rend="uc">Chapitre premier
            <lb/>Gaston du Lyon
            <lb/>dans la sénéchaussée de Toulouse
            <lb/>(1469-1491).</head>
           <p>Le capitaine de Louis XI et de Charles VIII ayant été plus de vingt ans sénéchal de Toulouse, il était bon de rechercher son rôle dans sa sénéchaussée. En réalité, l’administration de celle-ci était aux mains du juge mage, Guillaume Lebrun ; mais Gaston du Lyon ne se désintéressait pas de son office qui était, pour lui, l’essentiel de sa situation.</p>
         </div>
-        <div>
+        <div xml:id="r568825">
           <head rend="uc">Chapitre II
            <lb/>L’homme privé.</head>
           <p>Il fallait donner une idée exacte de ce qu’avait été <pb source="https://nakala.fr/10.34847/nkl.61c5y0sk#afc00c0894ff954b314eea5208631e9a99ff4a4a" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.61c5y0sk/afc00c0894ff954b314eea5208631e9a99ff4a4a/full/full/0/default.jpg"/>la situation de Gaston du Lyon ; l’ayant replacé dans le cadre de sa famille, nous avons montré comment il contribua à la fortune des siens, rehaussa son prestige de leur réussite et augmenta son ambition de celle de la famille dans laquelle il était entré par son mariage. Nous avons ainsi tenté de faire revivre la figure du Béarnais, qui fut pendant plus de quarante ans au service des rois de France et mourut en 1491.</p>

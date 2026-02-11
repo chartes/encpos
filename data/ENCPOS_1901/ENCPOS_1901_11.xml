@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1901_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1901_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,10 +60,10 @@
         <head rend="uc">Préface – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r260305">
         <head rend="uc">Première partie
          <lb/>Origines du monastère</head>
-        <div>
+        <div xml:id="r260313">
           <head rend="uc">Chapitre premier
            <lb/>saint Martin et ses disciples</head>
           <p>Le témoignage de Sulpice Sévère. Fondation par saint Martin, évêque de Tours, tout auprès de sa cité épiscopale, d’un monastère, l’un des premiers qu’on ait vus en Gaule. Vie des moines. En quoi consista ce groupement sous un chef commun.</p>
@@ -76,63 +74,63 @@
           <p>3° La vie monastique paraît avoir été considérée par saint Martin comme une préparation à d’autres fonctions, bien plutôt que comme une fin en elle-même.</p>
           <p>Incertitude sur les premiers disciples du monastère ; la plupart des textes qui nous les font connaître sont dépourvus de toute valeur.</p>
         </div>
-        <div>
+        <div xml:id="r260345">
           <head rend="uc">Chapitre II
            <lb/>Le moine <hi rend="i">bricto</hi> et l’évêque de Tours saint-brice</head>
           <p>Nous croyons que ce sont là deux personnages différents ; on ne saurait voir dans les lettres du pape Zosyme (417), faisant allusion à d’obscures circonstances du concile de Turin, la moindre confirmation à l’identité supposée. Le témoignage de Grégoire de Tours est ici opposé à celui de Sulpice Sévère, de Paulin de Périgueux et de Fortunat ; il est donc nécessaire d’admettre, non pas que ce passage de Grégoire est interpolé, mais que l’auteur a été mal informé.</p>
         </div>
-        <div>
+        <div xml:id="r260361">
           <head rend="uc">Chapitre III
            <lb/>Le monastère de Marmoutier jusqu’au <num>ix<hi rend="sup">e</hi></num> siècle</head>
           <p>Le monastère devient un lieu de pèlerinages : dès le temps de l’évêque Perpetuus, la foule des fidèles s’y presse à certaines fêtes. La dévotion populaire lui donne le nom de Grand monastère : Marmoutier.</p>
           <p>L’habitation de saint Martin, que Sulpice Sévère nous dépeint comme une simple cabane de bois, disparaît de bonne heure ; l’imagination des pèlerins lui substitue l’une des grottes où vivaient sans doute ses disciples : c’est le « repos de saint Martin ».</p>
           <p>Obscurité de toute cette période. Au <num>xii<hi rend="sup">e</hi></num> siècle, légendes répandues par le <hi rend="i">De Commendatione :</hi> prétendu séjour de saint Gatien et des premiers chrétiens de <pb source="https://nakala.fr/10.34847/nkl.7f59uy29#90d51e7e0a09fd9f9b7c5fb3554dc146ad232c44" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f59uy29/90d51e7e0a09fd9f9b7c5fb3554dc146ad232c44/full/full/0/default.jpg"/>Tours, à Marmoutier. La liste des abbés du monastère jusqu’au <num>ix<hi rend="sup">e</hi></num> siècle est un faux grossier.</p>
         </div>
-        <div>
+        <div xml:id="r260406">
           <head rend="uc">Chapitre IV
            <lb/><hi rend="i">La</hi> légende des <hi rend="i">sept dormants de Marmoutier</hi></head>
           <p>Ce texte, attribué à tort à Grégoire de Tours, est un faux, sans doute de la seconde moitié du <num>xi<hi rend="sup">e</hi></num> siècle ; le culte auquel elle donna lieu n’est qu’une application, à d’imaginaires disciples de saint Martin, de la vénération qui s’attachait, dès le <num>ix<hi rend="sup">e</hi></num> siècle, au tombeau prétendu de certains des premiers moines du monastère.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r260437">
         <head rend="uc">Deuxième partie
          <lb/>Les abbés carolingiens jusqu’à l’invasion
          <lb/>normande</head>
-        <div>
+        <div xml:id="r260447">
           <head rend="uc">Chapitre premier
            <lb/>état de l’abbaye dans la première moitié
            <lb/>du <num>ix<hi rend="sup">e</hi></num> siècle</head>
           <p>Puissance territoriale de Marmoutier à cette époque. L’immunité, source d’avantages et aussi de grands dangers pour les églises, lui est accordée par Charlemagne.</p>
         </div>
-        <div>
+        <div xml:id="r260467">
           <head rend="uc">Chapitre II
            <lb/>Les abbés de 814 à 845</head>
           <p>L’abbé Jérémie est le premier qui nous soit connu avec quelque certitude (3 déc. 814) ; est-il le même que le chancelier du même nom ? Le chancelier Théoton, abbé en 832, mort en 834. L’abbé Renaud, frère du comte Vivien, depuis le 29 décembre 843 ; reconstruction de l’église du monastère ; belles productions calligraphiques : le Sacramentaire d’Autun.</p>
         </div>
-        <div>
+        <div xml:id="r260479">
           <pb source="https://nakala.fr/10.34847/nkl.7f59uy29#5c4231e28a042be47a583cc259b089bf13be1cb8" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f59uy29/5c4231e28a042be47a583cc259b089bf13be1cb8/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La translation de Saint Gorgon</head>
           <p>Le texte de la « Translation de saint Gorgon de Rome à Tours » opérée par les soins de l’abbé Renaud, est en grande partie authentique, et contient des renseignements intéressants sur l’abbaye à cette époque ; mais il fut interpolé, sans doute à la fin du <num>xii<hi rend="sup">e</hi></num> siècle, pour remettre en honneur une dévotion oubliée, de deux passages destinés, l’un à fixer la date de la fête de la Translation, l’autre à persuader que les évêques de Nantes et de Tours avaient présidé à la cérémonie, au milieu du <num>ix<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r260508">
           <head rend="uc">Chapitre IV
            <lb/>L’abbé Vivien</head>
           <p>Le comte de Tours, Vivien, abbé de Saint-Martin de Tours, le devient aussi de Marmoutier, entre le 30 août 845 et le 1<hi rend="sup">er</hi> janvier 846. – L’abbaye est ainsi concédée par le roi, en bénéfice, non seulement à des clercs séculiers, mais encore à des laïques. – Le <hi rend="i">Rector.</hi> – Une mense spéciale est dès lors créée pour l’abbé ; des menses particulières sont attachées à certains offices ; peu à peu, avec le relâchement, s’introduit, pour les moines, la licence de posséder, et ils se transforment en chanoines. L’union des deux monastères sous un abbé, cette sorte de communauté de biens établie entre eux, semble prouver qu’avant le milieu du <num>ix<hi rend="sup">e</hi></num> siècle ce changement était accompli ; il l’était assurément, non pas, comme on le dit, après la première invasion normande, mais dès avant le 3 avril 852.</p>
           <p>Vivien meurt le 22 août 851 ; le monastère passe, à cette date, à Robert le Fort, déjà duc de Touraine.</p>
         </div>
-        <div>
+        <div xml:id="r260537">
           <pb source="https://nakala.fr/10.34847/nkl.7f59uy29#d8658aaae11919efb5349731e94914651135d65a" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f59uy29/d8658aaae11919efb5349731e94914651135d65a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Le prétendu abbé Bacdulus</head>
           <p>L’abbé de Marmoutier <hi rend="i">Bacdulus</hi> ou <hi rend="i">Baidilus</hi> n’a jamais existé ; son nom ne se lit que dans les actes de la <hi rend="i">Translation de Saint-Savin,</hi> œuvre d’un faussaire du <num>xii<hi rend="sup">e</hi></num> siècle sans doute, qui appliqua, avec certaines transformations, à l’abbaye de Saint-Savin-sur-Gartempe, les récits relatifs à l’histoire du monastère de Saint-Martin d’Autun, qui précèdent la <hi rend="i">Vita Sancti Hugonis monachi Æduensis.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r260576">
         <head rend="uc">Troisième partie
          <lb/>Les invasions normandes et l’histoire de
          <lb/>Marmoutier jusqu’à la fin du <num>x<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r260592">
           <head rend="uc">Chapitre premier
            <lb/>l’abbaye dans la deuxième moitié du <num>ix<hi rend="sup">e</hi></num> siècle</head>
           <p>Invasions de 855 et de 856 ; notre ignorance sur cette période. Peut-être les chanoines de Marmoutier gagnèrent-ils alors le Morvan.</p>
@@ -142,20 +140,20 @@
           <p>Le comte Robert, frère d’Eudes, est ensuite abbé.</p>
           <p>Le siège de Tours par les Normands, en 903, semble avoir eu pour Marmoutier de terribles effets ; les chanoines se réfugient dans la cité ; le monastère est ravagé, ses possessions en Touraine pillées.</p>
         </div>
-        <div>
+        <div xml:id="r260634">
           <head rend="uc">Chapitre II
            <lb/>L’invasion d’après la légende</head>
           <p>Erreurs du <hi rend="i">De Reversione corporis beati Martini a Burgundia</hi> et de la quatrième partie du <hi rend="i">De Commendatione Turonicae provinciae</hi> qui placent à l’année 856 la ruine de Marmoutier ; nous n’avons d’ailleurs aucune preuve que les fabuleux événements que racontent ces textes aient eu lieu en 853, comme le prétend Mabille.</p>
           <p>Histoire inadmissible de l’abbé Hebernus qui serait devenu ensuite l’archevêque de Tours du même nom, successeur d’Adalard.</p>
         </div>
-        <div>
+        <div xml:id="r260657">
           <head rend="uc">Chapitre III
            <lb/>L’abbaye au <num>x<hi rend="sup">e</hi></num> siècle</head>
           <p>État de la mense des Frères après l’invasion de 903. Notices judiciaires. L’union des deux monastères de Saint-Martin se poursuit ; on peut être chanoine de l’un et de l’autre. Après 908, il n’est plus question de rien de tel.</p>
           <p>Au comte Robert succède Hugues le Grand, puis Hugues Capet. L’abbaye devient comme une propriété de famille, aux mains des Robertiens.</p>
           <p>Liste des dignitaires de l’abbaye au <num>x<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r260687">
           <pb source="https://nakala.fr/10.34847/nkl.7f59uy29#48cd93d299056e0328b62a22a252042c6e4968e5" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f59uy29/48cd93d299056e0328b62a22a252042c6e4968e5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Restauration de la vie monastique à Marmoutier</head>
@@ -166,12 +164,12 @@
           <p>Marmoutier passe, le 25 février 1001 au plus tard, sous Jobert, abbé de Bourgueil, Maillezais et Saint-Pierre du Mans.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r260733">
         <pb source="https://nakala.fr/10.34847/nkl.7f59uy29#5d0dab4e7c7847ba5807dd497cfdafd7e90e9ccd" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f59uy29/5d0dab4e7c7847ba5807dd497cfdafd7e90e9ccd/full/full/0/default.jpg"/>
         <head rend="uc">Quatrième partie
          <lb/>Étude sud divers textes relatifs
          <lb/>à l’abbaye de Marmoutier</head>
-        <div>
+        <div xml:id="r260748">
           <head rend="uc">Chapitre premier
            <lb/>actes faux ou interpolés</head>
           <p>Les plus anciens rapports entre Marmoutier et les archevêques de Tours qu’il nous soit possible de déterminer, sont relatifs aux prétentions de l’évêque de Tours, Actardus, sur le temporel du monastère ; démarches du pape Adrien II à ce propos, auprès de Charles le Chauve.</p>
@@ -179,19 +177,19 @@
           <p>Le but du faussaire, qui est de prouver que Marmoutier, comme Saint-Martin de Tours, ne doit être soumis qu’au roi, apparaît encore mieux marqué dans un long passage interpolé du Diplôme du roi Raoul, de 931, qui décide que les deux monastères ne seront soumis qu’à un même abbé.</p>
           <p>C’est pour justifier cette interpolation que fut forgé l’acte faux du comte Eudes, de 887.</p>
         </div>
-        <div>
+        <div xml:id="r260779">
           <head rend="uc">Chapitre II
            <lb/>Le <hi rend="i">de Commendatione Turonicae provinciae</hi></head>
           <p>Salmon le date à tort de 1208-9, et l’attribue sans preuves au chroniqueur Jean de Marmoutier. Il faut y <pb source="https://nakala.fr/10.34847/nkl.7f59uy29#9e775b082c93a56a1494c848aceee066cf0cbf75" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.7f59uy29/9e775b082c93a56a1494c848aceee066cf0cbf75/full/full/0/default.jpg"/>distinguer deux auteurs : celui qui rédigea la quatrième partie, qui traite de l’histoire de Marmoutier, est antérieur à la composition du <hi rend="i">De restructione Majoris Monasterii per comitem Odonem</hi> ; et il vivait dans le deuxième quart du <num>xii<hi rend="sup">e</hi></num> siècle (1136-1154) ; les trois premières parties datent du début du siècle suivant.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r260810">
         <head rend="uc">Cinquième partie
          <lb/>Catalogue des actes les plus anciens
          <lb/>provenant du chartrier de l’abbaye (814-1015)</head>
         <p>(Les actes inédits sont rapportés <hi rend="i">in extenso.</hi>)</p>
       </div>
-      <div>
+      <div xml:id="r260828">
         <head rend="uc">Sixième partie
          <lb/>Le cartulaire de Touraine</head>
         <p>1° Etudes sur les propriétés de Marmoutier en Touraine aux <num>ix<hi rend="sup">e</hi></num>, <num>x<hi rend="sup">e</hi></num> et <num>xi<hi rend="sup">e</hi></num> siècles.</p>

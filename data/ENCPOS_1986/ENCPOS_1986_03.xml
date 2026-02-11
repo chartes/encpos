@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -55,13 +53,13 @@
         <surname>de Chancel</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1128016">
         <head rend="uc">Introduction</head>
         <p>La <hi rend="i">Bouquechardière</hi> est une compilation d’histoire antique écrite, selon les indications données par les manuscrits, entre 1416 et 1422 par Jean de Courcy, seigneur de Bourg-Achard (Eure). L’œuvre a reçu son titre de <hi rend="i">Bouquechardière </hi>(déformation de Bourg-Achard) lors de sa diffusion manuscrite dans le troisième quart du <num>xv<hi rend="sup">e</hi></num> siècle. Comme l’attestent les catalogues de bibliothèque et les titres au dos des reliures, elle fut le plus souvent citée sous le nom de « compilations » ou de « chronique de Jean de Courcy » jusqu’au <num>xix<hi rend="sup">e</hi></num> siècle.</p>
         <p>Les sources alléguées par Jean de Courcy sont de trois sortes : des livres bibliques, il a tiré quatre cent quarante-deux citations ; les auteurs antiques lui ont fourni deux cent quatre-vingt-neuf citations, et les auteurs chrétiens sont représentés par quatre cent vingt-deux citations. On peut sans doute ajouter aux sources réellement utilisées par Jean de Courcy, et indiquées par Paul Meyer et Lucien Lécureux, la traduction de la <hi rend="i">Cité de Dieu</hi> de saint Augustin, faite par Raoul de Presles.</p>
         <p>La <hi rend="i">Bouquechardière</hi> est divisée en six livres, répartis en « histoires », elles-mêmes subdivisées en chapitres, qui sont au nombre de quatre cent treize. Dans chaque chapitre, la première partie est un récit, qui conduit le lecteur depuis le Déluge, au livre I, jusqu’à la naissance du Christ, au dernier chapitre du livre VI ; la deuxième partie comporte une histoire, mise en parallèle avec le récit, et une morale appuyée de citations. Ainsi, la <hi rend="i">Bouquechardière</hi> répond doublement aux goûts des lecteurs d’histoire du <num>xv<hi rend="sup">e</hi></num> siècle, qui appréciaient les longs récits et la brièveté d’anecdotes moralisatrices « à la Valère-Maxime » ; c’est là sans doute la raison du succès de l’œuvre, marqué par plus de trente copies aujourd’hui connues.</p>
       </div>
-      <div>
+      <div xml:id="r1128070">
         <pb source="https://nakala.fr/10.34847/nkl.3d25bfkq#e10d0cba9c320877d2f90c4ffc61a8bf6c46f048" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.3d25bfkq/e10d0cba9c320877d2f90c4ffc61a8bf6c46f048/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre premier
          <lb/>les manuscrits de la « Bouquechardière »</head>
@@ -72,7 +70,7 @@
         <p>Plusieurs manuscrits furent exécutés dans la partie méridionale de la France ; l’un est conservé en deux volumes dont le premier tome se trouve à la Bibliothèque nationale de Paris, sous la cote français 698 (P698), l’autre à la Bibliothèque royale Albert I<hi rend="sup">er</hi> de Bruxelles où il porte le numéro 9503-9504 (Br). La Bibliothèque publique et universitaire de Genève possède une autre copie, le manuscrit français 70 (G), exécutée dans le même atelier, sans doute lyonnais, que le manuscrit P698-Br. Trois exemplaires de la <hi rend="i">Bouquechardière <pb source="https://nakala.fr/10.34847/nkl.3d25bfkq#6df38411adbb3b7476a7a8f63c8d924f0b5c8a4c" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.3d25bfkq/6df38411adbb3b7476a7a8f63c8d924f0b5c8a4c/full/full/0/default.jpg"/></hi>ont été copiés dans le Massif Central ; il ne reste plus du premier qu’un feuillet de parchemin, provenant du livre V, le fol. 43 du recueil Nouvelles acquisitions françaises 11198 de la Bibliothèque nationale de Paris (NAF), où sont aussi conservés les deux autres. L’un, le manuscrit français 699 (P699), copié sur papier, dont les filigranes indiquent une provenance auvergnate, ne contient que les livres I et II ; l’autre, le manuscrit français 700 (P700), où sont copiés les livres IV à VI, est aussi écrit sur papier ; il porte une mention d’appartenance à un certain Jehan Bouquet, de la même main que celle qui a copié le texte ; il est tentant d’identifier ce Jehan Bouquet avec un <hi rend="i">Johannes Bosqueti </hi>qui copia en 1457 un bréviaire à l’usage de Rodez, conservé à la Bibliothèque municipale de Toulouse sous la cote 75, car tous deux emploient le même système de cryptogramme pour indiquer leur nom.</p>
         <p>Il resté à mentionner le manuscrit 433 du fonds Thott, à la Bibliothèque royale de Copenhague, une copie sur papier de la <hi rend="i">Bouquechardière</hi> (Co), et deux enluminures, provenant des livres IV et V, et conservées à Berlin au Kupferstichkabinet de la Staatsbibliothek, carton IX, fragments 632 et 633 (Be).</p>
       </div>
-      <div>
+      <div xml:id="r1128134">
         <head rend="uc">Chapitre II
          <lb/>Étude de la tradition du texte</head>
         <p><hi rend="i">Classement préalable à l’étude des variantes.</hi> – Grâce à la connaissance des origines géographiques des manuscrits, de la façon dont la table des matières y est présentée, soit en tête du volume, après le prologue, soit fragmentée, chaque livre ayant sa table des matières, et de la manière dont sont numérotés les chapitres, en partant tantôt du prologue, tantôt du chapitre qui le suit immédiatement, un premier classement s’opère. Il est confirmé par l’examen des incipit et des explicit du prologue et des six livres, et par l’examen codicologique des manuscrits de Rouen copiés sur parchemin. Six exemplaires rouennais, écrits sur deux colonnes à 54 lignes se répartissent, d’après les dimensions de la justification, en deux groupes, l’un comportant les manuscrits Lo. NY, SL, auxquels on peut probablement adjoindre Lé, l’autre comptant seulement LH, P20214 et W. Deux autres manuscrits rouennais Chant et P6183-15459 présentent aussi des justifications de dimensions identiques, mais ont 55 lignes par colonne.</p>
@@ -88,21 +86,21 @@
         <p>Le caractère « antique » de la compilation se marque à peine dans les illustrations par quelques détails orientalisants qui marquent l’éloignement, tels que les turbans et les tours coiffées d’une sorte de coupole.</p>
         <p>Dans le cas de SL et de LH, la copie, les lettres peintes et les bordures furent faites à Rouen, et les manuscrits n’ont été enluminés que plus tard, SL par un artiste inconnu, et LH par un enlumineur au service de Jacques d’Armagnac. Ainsi tradition du texte et « tradition de l’image » ne coïncident pas toujours.</p>
       </div>
-      <div>
+      <div xml:id="r1128211">
         <head rend="uc">Chapitre III
          <lb/>Édition partielle</head>
         <p>Les chapitres 21 (ou 20), 65 (ou 64), 66 (ou 65) du livre I, 21 (ou 20), 39 (ou 38), 53 (ou 52) du livre II, 2 (ou 1), 3 (ou 2), 51 (ou 50) du livre III, 7 (ou 6), 25 (ou 24), 26 (ou 25), 35 (ou 34) du livre IV, 12 (ou 11), 13 (ou 12), 35 (ou 34), 42 (ou 41) du livre V, 2 (ou 1), 8 (ou 7), 24 (ou 23), 25 (ou 24) du livre VI font l’objet de la présente édition. Pour l’établissement du texte, nous avons suivi le manuscrit français 62-63 (P62-63) de la Bibliothèque nationale, en faisant appel aux autres manuscrits dans les cas où P62-63 est défaillant ou donne une leçon transformée par le copiste.</p>
       </div>
-      <div>
+      <div xml:id="r1128223">
         <head rend="uc">Chapitre IV
          <lb/>Analyse de la « Bouquechardière »</head>
         <p>Les chapitres non édités ont été analysés d’après le manuscrit français 20124 (P20124) de la Bibliothèque nationale de Paris.</p>
       </div>
-      <div>
+      <div xml:id="r1128235">
         <head rend="uc">Annexe</head>
         <p>Index des noms de personne et de lieu cités dans la <hi rend="i">Bouquechardière.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1128248">
         <head rend="uc">Planches</head>
         <p>Illustrations tirées de douze manuscrits. – Fac-similé de la mention d’appartenance à Jean Rouquet du manuscrit français 700 de la Bibliothèque nationale de Paris.</p>
         <pb source="https://nakala.fr/10.34847/nkl.3d25bfkq#017eb87a0fb8cf2faa71823b3daca23c24218959" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.3d25bfkq/017eb87a0fb8cf2faa71823b3daca23c24218959/full/full/0/default.jpg"/>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>Brigitte</forename>
         <surname>Blanc</surname>
       </byline>
-      <div>
+      <div xml:id="r1055921">
         <head rend="uc">Introduction
          <lb/>la congrégation de l’oratoire
          <lb/>son esprit : apostolat sacerdotal et vie commune</head>
@@ -65,15 +63,15 @@
         <p>L’Oratorien, bien que voué aux activités pastorales, mène un genre de vie proche de celui des religieux. Bérulle veut pour ses disciples un régime plus austère que celui de la Vallicelle. L’accent doit être mis sur la séparation d’avec le monde, la contemplation et la prière, la « pauvreté en usage ».</p>
         <p>En 1629, à la mort de Bérulle, l’Oratoire n’a toujours pas de constitutions. Son fondateur n’a laissé sur la vie commune que des indications sommaires, enregistrées au Parlement le 10 juillet 1630 sous le nom de <hi rend="i">Règlements domestiques ou statuts.</hi> Les premières constitutions datent de 1634. Très incomplètes, elles connaissent une seconde rédaction en 1641. Les actes des assemblées règlent dans le détail les points que les constitutions ne font qu’aborder.</p>
       </div>
-      <div>
+      <div xml:id="r1055949">
         <head rend="uc">Sources</head>
         <p>L’essentiel de notre documentation est constitué par les séries M et MM des Archives nationales, complétées par quelques cartons des Archives de l’Oratoire. Pour les fonds conservés en province, nous avons limité notre enquête à quelques sondages aux Archives départementales du Calvados, de la Somme, du Vaucluse, du Rhône, de Meurthe-et-Moselle (série H), d’Indre-et-Loire (séries H et D) et des Deux-Sèvres (séries D et F), ainsi qu’aux bibliothèques municipales de Niort et de La Rochelle. Les documents les plus intéressants pour notre étude sont les registres de visite des maisons de l’Oratoire.</p>
       </div>
-      <div>
+      <div xml:id="r1055959">
         <pb source="https://nakala.fr/10.34847/nkl.f989p67r#59c370bab7053d4743bac80df7d77bdf43f0db0f" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.f989p67r/59c370bab7053d4743bac80df7d77bdf43f0db0f/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La vie commune : les exercices de piété</head>
-        <div>
+        <div xml:id="r1055972">
           <head rend="uc">Chapitre premier
            <lb/>1611-1660</head>
           <p>S’acquitter ensemble des exercices de piété institués par Bérulle constitue la première obligation de la vie commune. L’exercice fondamental est celui de l’oraison du matin qui dure une heure et se fait en commun : « l’esprit d’oraison est le propre esprit de l’Oratoire et c’est ce qui nous en donne le nom ».</p>
@@ -82,13 +80,13 @@
           <p>Outre ces observances journalières existent deux obligations hebdomadaires : les conférences (qui n’ont trouvé qu’assez tard leur forme définitive) et les humiliations – ou exercices de pénitence. Enfin divers temps de retraite sont ménagés par les règlements : retraite annuelle et journée de récollection mensuelle.</p>
           <p>Il est difficile d’apprécier la façon dont les premiers Oratoriens s’acquittaient de ces prescriptions religieuses. Les rapports de visite sont rares avant 1660, et plus riches en détails sur les activités pastorales que sur l’observance des règlements : quelques cas d’infraction caractérisée ne peuvent donner une image exacte d’une période qui fut par ailleurs « l’âge d’or » de la congrégation.</p>
         </div>
-        <div>
+        <div xml:id="r1055996">
           <head rend="uc">Chapitre II
            <lb/>1660-1700</head>
           <p>Dès 1660 des défaillances se manifestent. Le P. Senault, quatrième supérieur général, dénonce dans sa lettre-circulaire de 1663 un certain nombre de fautes relatives aux exercices de piété, que confirment les rapports de visite de 1661 ; mais des mentions élogieuses apparaissent çà et là. Dans la décennie suivante, les avis officiels (lettre circulaire de 1668, acte de la douzième assemblée sanctionnant le manque d’assiduité à l’oraison) relèvent une aggravation de la situation. On remarque en effet que dans les visites s’échelonnant entre <pb source="https://nakala.fr/10.34847/nkl.f989p67r#526dd998fefd59b92d0aaa3320a8031ec33f0552" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.f989p67r/526dd998fefd59b92d0aaa3320a8031ec33f0552/full/full/0/default.jpg"/>1665 et 1673, tous les points du règlement font l’objet d’un rappel ; en 1673 toutefois, la visite des maisons de Provence (troisième département) donne une impression optimiste qui contraste avec ce que l’on observe dans les autres départements. Vingt ans plus tard, les communautés méridionales sont atteintes à leur tour.</p>
           <p>Cependant il semble que, dans bien des cas, ce soient les obligations du ministère, plus qu’un esprit d’indiscipline, qui expliquent les entorses à la règle communautaire : les Oratoriens ont du mal à maintenir l’équilibre entre les aspirations opposées qui caractérisent leur institut.</p>
         </div>
-        <div>
+        <div xml:id="r1056016">
           <head rend="uc">Chapitre III
            <lb/>1700-1792</head>
           <p>Dans les collèges, dès le début du <num>xviii<hi rend="sup">e</hi></num> siècle (1705) se décèle un climat de tiédeur spirituelle qui frappe par son ampleur : dans cinq établissements sur six, le visiteur du premier département constate que les régents ne consacrent pas à la prière tout le temps dû ; ils se dispensent trop facilement de l’oraison et de la fréquentation des sacrements. Plusieurs mesures prises par le Conseil pour renforcer la surveillance sur la conduite des confrères témoignent d’une inquiétude nouvelle : on peut y voir les premiers symptômes d’une évolution qui se précipite dans la deuxième moitié du siècle. Comme toutes les compagnies de prêtres, l’Oratoire connaît alors une grave crise de recrutement qui l’oblige à remplacer dans les collèges des pères de moins en moins nombreux par des confrères qui ne se destinent plus majoritairement au sacerdoce. Les lettres-circulaires de cette époque frappent par leur insistance à exposer les intentions du fondateur de l’Oratoire, à rappeler ce qu’est le sacerdoce.</p>
@@ -97,25 +95,25 @@
           <p>2.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1056044">
         <pb source="https://nakala.fr/10.34847/nkl.f989p67r#ba3862fb87b22b209931ddf75e09b998884d4e66" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.f989p67r/ba3862fb87b22b209931ddf75e09b998884d4e66/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les attraits du siècle</head>
-        <div>
+        <div xml:id="r1056057">
           <head rend="uc">Chapitre premier
            <lb/>sorties et visites</head>
           <p>Les règlements proscrivent le « commerce du monde ». Hors le temps consacré au ministère pastoral, les Oratoriens mènent dans leur communauté une étroite vie de retraite ; ils ne peuvent sortir en ville sans la permission du supérieur et sans être accompagnés ; ils doivent s’abstenir de manger en ville sans nécessité ; les voyages sont rares et dûment motivés.</p>
           <p>Les premiers rapports de visite (1661) ne signalent guère de sorties abusives ; mais en 1673, elles sont déjà nombreuses dans le troisième département et la quinzième assemblée (1675) les dénonce comme trop ordinaires ; celle de 1696 statue sur l’abus des voyages, pendant les vacances et au cours de l’année. Des cas de repas en ville sont mentionnés dans le dernier quart du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Dans la première moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, ces infractions se multiplient, et la réitération des interdictions prouve leur inefficacité. Au fil des procès-verbaux de visite, des assemblées générales (1736, 1751, 1761), sont dénoncées des visites devenues trop fréquentes, des promenades trop communes, dans ce « temps d’inaction » où les troubles du jansénisme ont abouti à restreindre, voire à supprimer les activités pastorales des communautés. Pour enrayer ce mal, les assemblées envisagent même de procurer aux particuliers des collèges des « divertissements honnêtes » les jours de congé : c’est la preuve, avec la désaffection pour les exercices de piété, d’une laïcisation insidieuse du genre de vie.</p>
         </div>
-        <div>
+        <div xml:id="r1056087">
           <head rend="uc">Chapitre II
            <lb/>Chasteté</head>
           <p>L’entrée des femmes dans les maisons de l’Oratoire est sévèrement interdite ; les visiteurs insistent souvent à ce sujet dans leurs avis. Les confrères et les jeunes prêtres se voient même interdire toutes visites aux religieuses ; même insistance à les mettre en garde contre les liaisons particulières. Dans les collèges, l’interdiction d’introduire les écoliers dans les chambres est formelle ; il faut éviter une trop grande familiarité avec eux.</p>
           <p>Le personnel féminin est proscrit ; les bénéficiers ne doivent pas loger chez les gens mariés, ni, s’ils tiennent maison, employer des femmes à leur service.</p>
           <p>Les renseignements n’abondent pas à ce sujet et manquent de précision. Ces interdictions sont portées au <num>xviii<hi rend="sup">e</hi></num> siècle avec autant de rigueur qu’au <num>xvii<hi rend="sup">e</hi></num> siècle (43<hi rend="sup">e</hi> assemblée en 1758, par exemple). Sous réserve d’une discrétion volontaire, les scandales paraissent tout à fait exceptionnels.</p>
         </div>
-        <div>
+        <div xml:id="r1056121">
           <pb source="https://nakala.fr/10.34847/nkl.f989p67r#2ac7efd456328f3e17051043ed4290c88cb57bf5" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.f989p67r/2ac7efd456328f3e17051043ed4290c88cb57bf5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Vie commune et pauvreté</head>
@@ -126,7 +124,7 @@
           <p>Des lettres-circulaires et des actes d’assemblées dénoncent au <num>xvii<hi rend="sup">e</hi></num> siècle la « cupidité » de prédicateurs ou de curés s’appropriant leurs honoraires. Cette accusation disparaît au <num>xviii<hi rend="sup">e</hi></num> siècle dans les documents dont nous disposons.</p>
           <p>Les statistiques complètes font défaut quant au nombre des bénéficiers. Les registres du Conseil mentionnent quinze bénéfices refusés entre 1653 et 1698, vingt-quatre bénéfices accordés entre 1652 et 1699 et sept entre 1707 et 1723.</p>
         </div>
-        <div>
+        <div xml:id="r1056191">
           <pb source="https://nakala.fr/10.34847/nkl.f989p67r#c3b6b8b4c176edbc41060d37465e8bfc2fcf4415" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.f989p67r/c3b6b8b4c176edbc41060d37465e8bfc2fcf4415/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les fautes et leur correction</head>
@@ -134,13 +132,13 @@
           <p>Des fautes sont signalées dans les registres de délibération du Conseil, mais rarement décrites ; la plupart du temps, on se contente de la mention : « mauvaise conduite ». Les sanctions infligées révèlent un esprit d’indulgence ; les coupables sont condamnés à faire amende honorable devant la communauté ; quand l’affaire est plus grave, une retraite leur est imposée, le plus souvent dans une maison d’Institution ; ceci est fréquent en particulier au <num>xviii<hi rend="sup">e</hi></num> siècle, pour leur faire « reprendre l’esprit de leur état ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1056218">
         <head rend="uc">Conclusion</head>
         <p>Un relâchement sur bien des points du règlement apparaît de bonne heure ; les Oratoriens ne se sont pas maintenus longtemps dans la régularité. Le genre de vie pratiqué à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle est éloigné de l’austérité primitive.</p>
         <p>Le règlement, de la fondation de l’Oratoire à la Révolution, est demeuré inchangé. Les prescriptions laissées par Bérulle constituent toujours le fondement de la vie commune ; les assemblées générales ne leur apportent que des retouches tendant à renforcer la discipline ; le relâchement se manifeste dans la pratique, mais non dans la règle.</p>
         <p>D’autre part, un changement profond affecte « l’état » des sujets : l’accessoire est devenu le principal ; prêtre voué aux activités pastorales au <num>xvii<hi rend="sup">e</hi></num> siècle, l’Oratorien est avant tout, au <num>xviii<hi rend="sup">e</hi></num> siècle, un enseignant laïque.</p>
       </div>
-      <div>
+      <div xml:id="r1056252">
         <head rend="uc">Pièces justificatives</head>
         <p>Constitutions de 1641. – Règlements de l’Institution de l’Oratoire sous le généralat du P. de La Valette (1733-1772). – Coutumier de l’Institution de Paris (1784). – Lettre-circulaire adressée aux maisons de La Rochelle et de Niort (1632). – Textes d’ordre réglementaire (1735-1787). – Inventaires après décès du P. Durandy (1753) et du P. Bastide (1756).</p>
       </div>

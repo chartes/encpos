@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,7 +58,7 @@
         <surname>Delatouche</surname>
         <roleName>Licencié ès lettres, Diplômé d’études supérieures de droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r538314">
         <head rend="uc">Introduction</head>
         <p>L’étude des actes concernant les grandes familles féodales n’offre pas seulement l’intérêt de toute étude d’histoire du droit fondée sur l’utilisation des actes de la pratique. Il nous met en présence de problèmes nouveaux qui naissent de la difficulté qu’ont ces familles à se plier aux exigences du droit coutumier : obligées par leurs alliances et par la situation de leurs biens à vivre sous le régime de coutumes très variées, elles ressentent plus que les autres les inconvénients de cette diversité ; dominées par le désir de maintenir leur puissance et leur fortune à travers les générations, elles se heurtent aux tendances égalitaires du droit coutumier.</p>
         <p>Nous limitons notre étude à la période qui s’étend du <pb source="https://nakala.fr/10.34847/nkl.c870424i#ae9b01a1cb55231f34677b88aa377bf410e0e960" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.c870424i/ae9b01a1cb55231f34677b88aa377bf410e0e960/full/full/0/default.jpg"/> <num>xiii<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle et aux maisons de Laval, de Craon, de Retz et de la Trémoïlle.</p>
@@ -73,11 +71,11 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r538362">
         <head rend="uc">Première partie
          <lb/>Le treizième siècle</head>
         <p>Les actes de cette période sont caractérisés, d’un côté, par leur soumission absolue à la coutume ; de l’autre, par leur simplicité et leur concision qui résultent du premier caractère et aussi de l’état encore rudimentaire de la technique juridique.</p>
-        <div>
+        <div xml:id="r538373">
           <head rend="uc">Chapitre premier
            <lb/>les fiançailles.</head>
           <p>L’intérêt supérieur de la famille, bien plus que les goûts personnels des enfants, préside au mariage ou à l’entrée en religion de ceux-ci.</p>
@@ -87,7 +85,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.c870424i#6b97842ab660dafa4956c59889de66ae75383803" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.c870424i/6b97842ab660dafa4956c59889de66ae75383803/full/full/0/default.jpg"/>
           <p>5. Le roi intervient dans ces fiançailles soit pour des raisons politiques, soit en sa qualité de suzerain, soit seulement parce que les parties sollicitent son intervention pour avoir la garantie de lettres patentes.</p>
         </div>
-        <div>
+        <div xml:id="r538402">
           <head rend="uc">Chapitre II
            <lb/>Le mariage et le régime des biens de la famille.</head>
           <p>Le contrat de mariage n’a pas encore l’importance et la solennité qu’il acquerra au siècle suivant. Le plus souvent, il se réduit à la constitution de la dot de la femme.</p>
@@ -97,14 +95,14 @@
           <p>4. Beaucoup de questions subsidiaires sont réglées <pb source="https://nakala.fr/10.34847/nkl.c870424i#158c86102deeb15347605d1e5a37c248406323f2" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.c870424i/158c86102deeb15347605d1e5a37c248406323f2/full/full/0/default.jpg"/>à l’occasion des mariages : administration des biens de la femme, bail éventuel des enfants, résidence des futurs époux, accords pour terminer des différends.</p>
           <p>5. L’institution contractuelle est pratiquée sous forme de déclaration d’aîné et principal héritier.</p>
         </div>
-        <div>
+        <div xml:id="r538438">
           <head rend="uc">Chapitre III
            <lb/>Les successions et les testaments.</head>
           <p>1. Le droit d’aînesse est d’une application très rigoureuse, même quand le <hi rend="i">de cujus</hi> ne laisse que des filles. Ce droit n’est pas fondé uniquement sur les nécessités du régime féodal ; l’idée de conservation des biens de la famille se fait aussi jour.</p>
           <p>2. Le testament, qui ne comporte pas de dérogation à l’ordre successoral normal, se borne à opérer parfois un partage pour éviter les contestations. Mais il contient surtout des legs pieux, à l’exécution desquels doivent veiller les exécuteurs testamentaires. Ceux-ci, au début du <num>xiii<hi rend="sup">e</hi></num> siècle, semblent avoir encore la saisine au détriment de l’héritier.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r538464">
         <head rend="uc">Deuxième partie
          <lb/>Du <num>xiv<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
         <p>Cette période est caractérisée par une indépendance plus grande vis-à-vis de la coutume et par un développement du droit d’origine contractuel. L’accentuation de ces caractères correspond à l’augmentation de la puissance, à l’élargissement des relations et à l’accroissement du rôle politique des maisons que nous avons étudiées.</p>
@@ -115,7 +113,7 @@
            <lb/>aux coutumes territoriales et au droit canonique.</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r538505">
           <head rend="uc">Chapitre premier
            <lb/>dérogations au droit coutumier.</head>
           <p>1. Au début du <num>xiv<hi rend="sup">e</hi></num> siècle, les dérogations que l’on rencontre sont autorisées par le roi ; on en connaissait déjà plusieurs exemples (cas des Lévis, du contrat de mariage de Guillaume du Breuil). Nos archives en font voir de nouveaux (contrat de mariage de Robert Bertran et de Marie de Sully).</p>
@@ -129,7 +127,7 @@
             <p>La netteté du droit canonique et les sanctions dont il est muni s’opposent à ce qu’on témoigne, vis-à-vis de lui, de l’indépendance dont on fait preuve à l’égard du droit coutumier. Cependant on semble avoir escompté largement les dispenses, annulations et absolutions.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r538579">
           <head rend="uc">Chapitre II
            <lb/>Le mariage, traité entre les familles
            <lb/>et instrument de la politique familiale.</head>
@@ -140,7 +138,7 @@
           <p>4. On rencontre même des contrats de mariage où les futurs ne sont pas individualisés, ou bien sont susceptibles de remplacements ou de substitutions.</p>
           <p>5. Le roi et le duc de Bretagne interviennent et veillent à la conservation de ces grandes familles qu’ils considèrent comme leur soutien dans le pays.</p>
         </div>
-        <div>
+        <div xml:id="r538608">
           <pb source="https://nakala.fr/10.34847/nkl.c870424i#a500cc23517e501180a7c2122128946653d0586d" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.c870424i/a500cc23517e501180a7c2122128946653d0586d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le contrat de mariage
@@ -168,7 +166,7 @@
             <p>La garde éventuelle des enfants mineurs, considérée surtout comme une source de profits pécuniaires, est parfois envisagée dans le contrat.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r538692">
           <head rend="uc">Chapitre IV
            <lb/>Les successions.</head>
           <div>
@@ -184,11 +182,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r538731">
         <head rend="uc">Troisième partie
          <lb/>Le statut familial particulier</head>
         <p>Certaines familles trouvent insuffisant de s’en remettre du soin de leur conservation à l’ingéniosité de chaque génération. Elles ambitionnent de s’affranchir des vicissitudes de la vie et cherchent à se donner un statut familial particulier.</p>
-        <div>
+        <div xml:id="r538742">
           <head rend="uc">Chapitre premier</head>
           <div>
             <head rend="uc">Section I
@@ -205,7 +203,7 @@
             <p>Dans d’autres régions de la France, la maison dauphinoise des Aleman et la maison de Lévis-Mirepoix fournissent des exemples de statuts différant du précédent par l’origine et les procédés juridiques employés.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r538798">
           <head rend="uc">Chapitre II
            <lb/>Attitude de la doctrine et de la jurisprudence
            <lb/>devant les statuts familiaux particuliers

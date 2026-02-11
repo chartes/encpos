@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,11 +56,11 @@
         <forename>Jean</forename>
         <surname>Rott</surname>
       </byline>
-      <div>
+      <div xml:id="r533749">
         <head rend="uc">Introduction</head>
         <p>Titre plus précis : « Histoire du Chapitre cathédral de Strasbourg et de ses relations avec l’évêque, le pape, l’empereur et la ville, de la lin du <num>xiii<hi rend="sup">e</hi></num> au milieu du <num>xv<hi rend="sup">e</hi></num> siècle ». Justification des dates extrêmes et du plan.</p>
       </div>
-      <div>
+      <div xml:id="r533771">
         <head rend="uc">Sources</head>
         <p>Les anciennes archives du Chapitre ont été dispersées à la Révolution ; dépôts où se trouve actuellement ce qui en reste.</p>
       </div>
@@ -70,7 +68,7 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r533790">
         <pb source="https://nakala.fr/10.34847/nkl.aeb762u1#b791753e9786dd1b2643a7bf06dc281b11b6bc7d" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.aeb762u1/b791753e9786dd1b2643a7bf06dc281b11b6bc7d/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre premier
          <lb/>organisation du chapitre.</head>
@@ -90,7 +88,7 @@
         <p><hi rend="i">Finances du Chapitre.</hi> – Développées seulement depuis le <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         <p>La force du Chapitre réside dans sa haute noblesse et son alliance avec les dynasties régionales ; les factions sont sa faiblesse.</p>
       </div>
-      <div>
+      <div xml:id="r533917">
         <head rend="uc">Chapitre II
          <lb/>État des relations extérieures a la fin
          <lb/>du <num>xiii<hi rend="sup">e</hi></num> siècle.</head>
@@ -100,14 +98,14 @@
         <p>Relations au contraire de plus en plus fréquentes avec le <hi rend="i">pape :</hi> provisions, résistance du Chapitre ; opposition croissante contre la fiscalité pontificale.</p>
         <p>Attitude d’abord bienveillante envers la <hi rend="i">ville</hi> de Strasbourg, puis nettement hostile après que la commune a rejeté, en 1263, la domination de l’évêque.</p>
       </div>
-      <div>
+      <div xml:id="r533972">
         <head rend="uc">Chapitre III
          <lb/>Relations avec l’évêque.</head>
-        <div>
+        <div xml:id="r533980">
           <head rend="uc">A. Action de l’évêque sur le chapitre.</head>
           <p>Bulles du pape donnant à l’évêque la nomination à deux canonicats : opposition victorieuse du Chapitre.</p>
         </div>
-        <div>
+        <div xml:id="r533990">
           <head rend="uc">B. Action du chapitre sur l’évêque.</head>
           <div>
             <head rend="uc">I. <hi rend="i">Sede vacante.</hi></head>
@@ -140,7 +138,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r534184">
         <head rend="uc">Chapitre IV
          <lb/>Relations avec le pape.</head>
         <p><hi rend="i">Provisions aux prébendes et dignités capitulaires ; expectatives.</hi> – Nombre de ces provisions ; leurs conséquences politiques et sociales : le Chapitre parvient à faire respecter sa qualité de haute noblesse.</p>
@@ -150,13 +148,13 @@
         <p>Les chanoines se montrent adhérents fidèles du concile de Bâle presque jusqu’à la fin (1448), tandis que l’évêque Robert passe, dès 1447, dans le camp de Nicolas V.</p>
         <p>On ne sait quand le Concordat de Vienne, si favorable à la papauté, fut accepté par le Chapitre ; mais pratiquement, <pb source="https://nakala.fr/10.34847/nkl.aeb762u1#f35cb27dd8ce88a6e8e86d55c48a10a1b310ff61" n="157" facs="https://api.nakala.fr/iiif/10.34847/nkl.aeb762u1/f35cb27dd8ce88a6e8e86d55c48a10a1b310ff61/full/full/0/default.jpg"/> il ne tarda pas à être appliqué, au détriment des privilèges capitulaires.</p>
       </div>
-      <div>
+      <div xml:id="r534225">
         <head rend="uc">Chapitre V
          <lb/>Relations avec l’empereur.</head>
         <p>Sympathie pour les Habsbourg, dès l’élection de Rodolphe I<hi rend="sup">er</hi> (1273) jusqu’à la mort de Frédéric le Beau (1330). Jusqu’en 1339, le Chapitre soutient son évêque dans la lutte contre Louis de Bavière qui est combattu par le pape. A cette date, la révolte de Conrad de Kirkel oblique l’évêque à se soumettre à l’empereur ; le Chapitre suit son exemple. En 1347, le doyen Jean de Lichtenberg gagne le Chapitre au parti de Charles IV.</p>
         <p>D’ailleurs, les rapports sont peu fréquents entre les chanoines et l’empereur, sauf au <num>xv<hi rend="sup">e</hi></num> siècle où ce dernier tente de s’attribuer la collation de la prébende du roi du Chœur.</p>
       </div>
-      <div>
+      <div xml:id="r534250">
         <head rend="uc">Chapitre VI
          <lb/>Relations avec la ville.</head>
         <p><hi rend="i">Attaques de la ville contre les immunités ecclésiastiques.</hi> – Restriction du droit d’asile, violation du privilège du for, atteintes à l’exemption financière du clergé.</p>
@@ -164,7 +162,7 @@
         <p><hi rend="i">Attitude du Chapitre dans le conflit entre la ville et l’évêque.</hi> – Ce conflit a d’abord pour objet les offices épiscopaux urbains : l’évêque et le Chapitre <pb source="https://nakala.fr/10.34847/nkl.aeb762u1#8bacf3ab9eec849cb8a5b0246af652ce35fd4cc6" n="158" facs="https://api.nakala.fr/iiif/10.34847/nkl.aeb762u1/8bacf3ab9eec849cb8a5b0246af652ce35fd4cc6/full/full/0/default.jpg"/>édictent en vain pour ces fonctions des statuts de non-engagement ; à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, la ville les a absorbées.</p>
         <p>Au <num>xv<hi rend="sup">e</hi></num> siècle, la lutte tourne autour de l’officialité et de la douane épiscopales installées à Strasbourg et trop grevées de rentes au profit des bourgeois à la fin du siècle précédent. Le Chapitre, alors dans sa période d’effacement, joue le rôle ingrat et toujours infructueux de conciliateur.</p>
       </div>
-      <div>
+      <div xml:id="r534294">
         <head rend="uc">Conclusion</head>
         <p>Depuis la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, le Chapitre a donc réussi à accroître encore ses privilèges et son influence sur l’évêque, bien qu’il ait presque perdu le droit de l’élire : confirmation du droit d’administrer l’évêché <hi rend="i">sede vacante,</hi> de promulguer sans le consentement de l’évêque des statuts fixant les règles du gouvernement épiscopal tant au spirituel qu’au temporel ; le Chapitre s’est exempté de la fiscalité épiscopale, dont il dirige l’application en même temps qu’il surveille les finances de l’évêché ; enfin, par la Grande Confraternité et ses statuts de 1415, il a forcé l’évêque à partager avec lui son pouvoir sur le clergé et l’administration du diocèse.</p>
       </div>

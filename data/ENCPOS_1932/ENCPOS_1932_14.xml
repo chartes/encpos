@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,7 +59,7 @@
         <head rend="uc">Avant-propos</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r519802">
         <head rend="uc">Sources</head>
         <p>Courte notice sur le manuscrit 220 de la Bibliothèque de Provins qui n’est autre que le « Livre pelu » de Saint-Quiriace de Provins (<hi rend="i">Liber pilosus Sancti Quiriaci</hi>) que l’on disait perdu depuis le <num>xviii<hi rend="sup">e</hi></num> siècle. Il contient une chronique de la collégiale Saint-Quiriace, écrite au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
       </div>
@@ -69,12 +67,12 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r519837">
         <head rend="uc">Introduction
          <lb/>le comté de Brie</head>
         <p>Limites. Géographie. Géologie ; nature de la pierre et carrières. Histoire politique, religieuse et économique.</p>
       </div>
-      <div>
+      <div xml:id="r519849">
         <pb source="https://nakala.fr/10.34847/nkl.e15ac5vd#0746ed2da9f32310743f025f60509be5beecdfff" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.e15ac5vd/0746ed2da9f32310743f025f60509be5beecdfff/full/full/0/default.jpg"/>
         <head rend="uc">Premiere partie
          <lb/>Etude de quelques Edifices</head>
@@ -96,22 +94,22 @@
         <p><hi rend="i">Lagny.</hi> Chœur de l’église, construit non vers 1370 comme le disent les historiens, mais vers 1250, et inachevé en élévation. Dans le transept, se trouvent des restes de l’église précédente qui indiquent qu’elle était voûtée d’ogives vers 1130 ou 1140.</p>
         <p><hi rend="i">Rampillon.</hi> Construite à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle. Le portail est de la même époque. L’église, par son architecture, manifeste quelques influences normandes.</p>
       </div>
-      <div>
+      <div xml:id="r520092">
         <head rend="uc">Seconde partie
          <lb/>L’architecture religieuse dans
          <lb/>le comté de Brie</head>
-        <div>
+        <div xml:id="r520102">
           <head rend="uc">Chapitre premier</head>
           <p>Comme en Ile-de-France et en Champagne, presque toutes les églises romanes ont été rebâties à l’époque gothique et l’on ne peut citer aucun édifice qui soit tout entier de style roman. La majorité des églises de la région remonte à la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle. Matériaux : la pierre est un calcaire d’excellente qualité, léger et résistant. Emploi du grès dans quelques cas, en particulier dans les clochers du <num>xvi<hi rend="sup">e</hi></num> siècle. Appareil. Orientation et brisures d’axe.</p>
         </div>
-        <div>
+        <div xml:id="r520124">
           <pb source="https://nakala.fr/10.34847/nkl.e15ac5vd#eddb3a74cd770984a224aedf0a6a3dfcff5d5516" n="133" facs="https://api.nakala.fr/iiif/10.34847/nkl.e15ac5vd/eddb3a74cd770984a224aedf0a6a3dfcff5d5516/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Plan</head>
           <p>Reconstructions partielles conservant une partie de l’édifice antérieur, généralement le clocher. De nombreux exemples de clochers ainsi conservés et placés sur la dernière ou avant-dernière travée du bas-côté sud, semblent indiquer que c’était leur emplacement le plus fréquent au <num>xii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Les églises à nef unique sont extrêmement nombreuses à l’époque gothique et terminées par des chevets plats. Les déambulatoires sont une rare exception, ainsi que les transepts : l’absence de transept est de règle à l’époque gothique, même dans les édifices importants.</p>
         </div>
-        <div>
+        <div xml:id="r520150">
           <head rend="uc">Chapitre III
            <lb/>Voûtes et équilibre</head>
           <p>Les quelques édifices romans ne sont pas voûtés, sauf Saint-Loup de Naud qui réunit tous les modes de voûtement du Moyen-Age, et doit être mis à part : la coupole et le berceau ne se trouvent pas ailleurs.</p>
@@ -121,27 +119,27 @@
           <p>La Brie est une des régions où la voûte sexpartite a eu le plus de faveur. Elle est couramment employée jusqu’au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Les plus anciens arcs-boutants sont ceux de Voulton. Ce mode de contrebutement reste l’exception dans les édifices de dimensions modestes.</p>
         </div>
-        <div>
+        <div xml:id="r520191">
           <head rend="uc">Chapitre IV
            <lb/>Supports</head>
           <p>Le type du <num>xi<hi rend="sup">e</hi></num> siècle est un simple massif restangulaire qui correspond à des églises non voûtées. A l’époque gothique, la colonne est parfois employée dans toute la longueur du vaisseau, sans doute par influence de Notre-Dame de Paris.</p>
           <p>L’alternance est très fréquente et se rencontre même dans des édifices couverts de voûtes simples (Saint-Loup de Naud, Voulton).</p>
         </div>
-        <div>
+        <div xml:id="r520212">
           <head rend="uc">Chapitre V
            <lb/>Élévation intérieure et extérieure</head>
           <p>Le triforium est rare dans les églises de campagne. Certains édifices importants en sont dépourvus (Sainte-Croix de Provins, Voulton).</p>
           <p>Les nefs obscures se rencontrent couramment a l’époque romane et persistent à l’époque suivante dans plusieurs exemples. Quelques églises remplacent les fenêtres hautes par des <hi rend="i">oculi,</hi> par influence de Notre-Dame de Paris. Les triplets sont extrêmement nombreux.</p>
           <p>L’extérieur se distingue surtout par la beauté des clochers, d’un style assez particulier. Ce sont souvent <pb source="https://nakala.fr/10.34847/nkl.e15ac5vd#9dfd5e0c6ba265691c8cf49619fb7936e631a2fc" n="135" facs="https://api.nakala.fr/iiif/10.34847/nkl.e15ac5vd/9dfd5e0c6ba265691c8cf49619fb7936e631a2fc/full/full/0/default.jpg"/>des clochers-porches ; ils sont rarement placés sur le vaisseau central, souvent sur les bas-côtés. Ceux du <num>xvi<hi rend="sup">e</hi></num> siècle sont de remarquables constructions. Le couronnement à quatre pignons est fréquent, mais les flèches ne se trouvent presque jamais.</p>
         </div>
-        <div>
+        <div xml:id="r520245">
           <head rend="uc">Chapitre VI
            <lb/>Mouluration, décoration, sculpture</head>
           <p>Le type de base du <num>xii<hi rend="sup">e</hi></num> siècle (une gorge entre deux tores inégaux) persiste au début du <num>xiii<hi rend="sup">e</hi></num>. Pour les ogives, les profils les plus fréquents sont ceux d’une gorge ou d’une arête entre deux tores et celui du tore aminci. Le profil des tailloirs est légèrement en retard sur celui des grandes cathédrales voisines. Les chapiteaux n’offrent rien de remarquable. Ceux de la nef de Montévrain remontent au moins au <num>xi<hi rend="sup">e</hi></num> siècle. Les seuls chapiteaux historiés sont ceux de la travée sous le clocher de Montévrain, vers 1130 ou 1140.</p>
           <p>Les portails du type de Chartres étaient nombreux en Brie. Il en existait à Lagny, à Saint-Thibaut de Provins, à Nesle-la-Reposte. Celui de Saint-Ayoul de Provins peut avoir subi une influence directe du Portail Royal. Il n’en est pas de même de celui de Saint-Loup de Naud qui semble être l’œuvre d’un sculpteur bourguignon.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r520279">
         <head rend="uc">Conclusions</head>
         <p>Ecoles et influences. Il n’est pas possible d’isoler l’architecture briarde pour en faire une famille indépendante ni de la rattacher à l’une des écoles voisines.</p>
         <pb source="https://nakala.fr/10.34847/nkl.e15ac5vd#94cdc454c0b6e97c8ac2ff99f025629bf18723b6" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.e15ac5vd/94cdc454c0b6e97c8ac2ff99f025629bf18723b6/full/full/0/default.jpg"/>

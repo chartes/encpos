@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Hue</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1002612">
         <head rend="uc">Introduction</head>
         <p>Les lapidaires anonymes en prose française se présentent comme des ouvrages de grande vulgarisation, d’un abord plus facile et d’une synthèse plus élaborée que leurs sources principales, les lapidaires en vers et les lapidaires en prose anglo-normande, ces derniers étant eux-mêmes, déjà, des adaptations de poèmes. Ils répondent à l’évolution du goût dans les trois derniers siècles du Moyen Âge, où un public de nobles et de bourgeois instruits souhaite des informations d’un aspect plus technique, sans perdre pour cela le sens du merveilleux.</p>
         <p>Mais ces lapidaires ne sauraient donner l’état des connaissances médiévales dans les domaines de la minéralogie et de la médecine. En dépit d’un effort de documentation assez sensible dans certains textes du <num>xv<hi rend="sup">e</hi></num> siècle, ils restent des œuvres de pure imagination et se contentent de faire appel à l’expérience des auteurs « anciens » qu’ils ne connaissent, le plus souvent, qu’à travers de grandes compilations d’histoire naturelle .</p>
@@ -66,10 +64,10 @@
         <p>La description de ces articles consiste en des notations de couleurs, parfois très précises, des indications sur leur dureté, sur leurs propriétés physiques (phénomènes électro-magnétiques), plus rarement sur leur poids, <pb source="https://nakala.fr/10.34847/nkl.94783417#f36f5f4755555db4c6d56647bc735013e8b8e4f6" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.94783417/f36f5f4755555db4c6d56647bc735013e8b8e4f6/full/full/0/default.jpg"/>enfin sur leur provenance supposée. Suit l’énoncé de leurs « vertus » comme amulettes ou sous forme de collyres, de potions, d’onguents : cet ensemble de superstitions et de recettes magiques perpétue la doctrine médicale des « signatures ».</p>
         <p>Des sept textes qui font l’objet de cette étude, seul le premier et vraisemblablement le plus ancien, le <hi rend="i">Lapidaire du roi Philippe,</hi> conserve le souvenir de la symbolique chrétienne des « pierres précieuses ». Les six autres, chacun transmis par un manuscrit unique qui lui donne son nom, sont exclusivement « minéralogiques » et « médicaux ».</p>
       </div>
-      <div>
+      <div xml:id="r1002649">
         <head rend="uc">Première partie
          <lb/>Le lapidaire du roi Philippe</head>
-        <div>
+        <div xml:id="r1002657">
           <head rend="uc">Chapitre premier
            <lb/>tradition manuscrite</head>
           <p>Dix manuscrits nous ont transmis le texte français du <hi rend="i">Lapidaire du roi Philippe ;</hi> ce sont :</p>
@@ -86,7 +84,7 @@
           <p><hi rend="i">Y : Paris, Bibliothèque de T Arsenal, 2805</hi> (seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle) qui compte soixante et un articles correspondant à cinquante-neuf pierres, et possède au fol. 17 une miniature représentant l’offrande du lapidaire au roi Philippe.</p>
           <p>Des deux autres manuscrits autrefois signalés, l’un a disparu : c’est le n° 1501 du <hi rend="i">Catalogue de la bibliothèque du duc de La Vallière...,</hi> Paris, 1783, t. I, p. 446, vendu le 12 janvier 1784 au libraire Bontoux. L’autre a été détruit : il est cité sous le n° 50 par Joseph-Léon Techener, <hi rend="i">Catalogue des livres rares et curieux, manuscrits et estampes, brûlés à Londres dans la maison Leigh Sotheby, J. Wilkinson et Hodge..., appartenant à J.-Joseph Techener père, 29 juin 1865...,</hi> Paris, 1865, p. 9.</p>
         </div>
-        <div>
+        <div xml:id="r1002821">
           <head rend="uc">Chapitre II
            <lb/>Origine, composition, sources</head>
           <p><hi rend="i">Origine.</hi> – Malgré la formule de dédicace que rapportent la plupart des manuscrits : « Pour l’amor le roi Phelippe de France, [...] c’est li livre des pierres », aucun détail dans le texte, ni, à ma connaissance, dans les chroniques et documents contemporains, ne permet d’identifier ce roi. Celui-ci n’est pas, comme on l’a cru longtemps, Philippe de Valois : la date du manuscrit <hi rend="i">L</hi> l’interdit ; il ne peut s’agir que de Philippe le Bel ou même de Philippe le Hardi.</p>
@@ -102,7 +100,7 @@
           <p>Il n’existe qu’une seule édition ancienne du <hi rend="i">Lapidaire du roi Philippe, </hi>celle de Guillaume le Roy à Lyon, à la fin du <num>xv<hi rend="sup">e</hi></num> siècle. Ses trente-quatre chapitres sont assez voisins de la famille <hi rend="i">L M N,</hi> mais leur langue est plus moderne et quelques passages sont récrits.</p>
           <p>Le succès du <hi rend="i">Lapidaire du roi Philippe</hi> n’a donc pas dépassé la fin du Moyen Âge. Seuls quelques articles pris parmi les dix-sept pierres originelles survivent, rajeunis et presque « trahis » dans les premières éditions imprimées du lapidaire attribué à Mandeville.</p>
         </div>
-        <div>
+        <div xml:id="r1003023">
           <head rend="uc">Chapitre III
            <lb/>Classement des manuscrits
            <lb/>et principes d’édition</head>
@@ -129,10 +127,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1003162">
         <head rend="uc">Deuxième partie
          <lb/>Lapidaires « isolés »</head>
-        <div>
+        <div xml:id="r1003170">
           <head rend="uc">Chapitre premier
            <lb/>le lapidaire de Florence</head>
           <p>Le manuscrit Pluteus LXXVI, 79 de la Biblioteca Medicea-Laurenziana (Florence), copié au <num>xiv<hi rend="sup">e</hi></num> siècle dans la région lombarde, contient un lapidaire de quatorze articles : les neuf premières pierres sont celles du Rational (il manque donc, sans que le manuscrit présente de lacune à cet endroit, les trois dernières pierres du Rational), que suivent les quatre pierres particulières à l’<hi rend="i">Apocalypse </hi>et le diamant. Huit de ces articles s’apparentent à ceux qui terminent le manuscrit <hi rend="i">A</hi> du <hi rend="i">Lapidaire du roi Philippe,</hi> et l’ensemble des quatorze pierres se retrouve dans le <hi rend="i">Lapidaire de Troyes.</hi></p>
@@ -142,7 +140,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r1003223">
           <head rend="uc">Chapitre II
            <lb/>Le lapidaire de Troyes</head>
           <p>Transcrit au <num>xv<hi rend="sup">e</hi></num> siècle sur les feuillets restés blancs d’un manuscrit du <num>xiv<hi rend="sup">e</hi></num> siècle, le n° 1943 de la Bibliothèque municipale de Troyes, le <hi rend="i">Lapidaire de Troyes</hi> compte vingt-huit articles,</p>
@@ -154,7 +152,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r1003298">
           <head rend="uc">Chapitre III
            <lb/>Le lapidaire de Berne</head>
           <p>Le <hi rend="i">Lapidaire de Berne,</hi> conservé dans le manuscrit n° 113 de la Burgerbibliothek (Berne) copié à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, décrit vingt-trois pierres dont les douze premières sont celles du Rational. Son origine est inconnue : sa coloration dialectale picarde, assez marquée, est celle de l’ensemble du manuscrit. Des notations rapides et précises, l’emploi fréquent des impératifs « saciés », « pendés », « metés », le rapprochent du genre de la recette médicale.</p>
@@ -164,7 +162,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r1003354">
           <head rend="uc">Chapitre IV
            <lb/>Le lapidaire de l’arsenal</head>
           <p>Le <hi rend="i">Lapidaire de l’Arsenal</hi> compte vingt-trois articles provenant de la <hi rend="i">Première version française</hi> « Evax fut un mult riches reis » du poème attribué à Marbode, par l’intermédiaire de la <hi rend="i">Première version en prose anglo-normande. </hi>Des variantes originales, des descriptions simplifiées lui donnent, en dépit de sa grande fidélité envers son modèle en prose, un caractère d’unité plus poussé que celui de ce dernier.</p>
@@ -174,7 +172,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r1003396">
           <pb source="https://nakala.fr/10.34847/nkl.94783417#631296d8fdcb517c59b743ef880f1982bc09d287" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.94783417/631296d8fdcb517c59b743ef880f1982bc09d287/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Le lapidaire de la Mazarine</head>
@@ -184,7 +182,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r1003432">
           <head rend="uc">Chapitre VI
            <lb/>Compilation du <num>xv<hi rend="sup">e</hi></num> siècle</head>
           <p>La <hi rend="i">Compilation du <num>xv<hi rend="sup">e</hi></num> siècle</hi> est conservée dans le manuscrit fr. 14830 de la Bibliothèque nationale (Paris). Comme elle décrit plusieurs fois les mêmes pierres en des termes différents, sans aller, cependant, jusqu’à se contredire, le nom de lapidaire lui conviendrait mal, de là son titre.</p>
@@ -195,11 +193,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1003491">
         <head rend="uc">Annexes</head>
         <p>Glossaire. – Table des noms de personne et de lieu. – Table des auteurs et des œuvres cités. – Table analytique des matières.</p>
       </div>
-      <div>
+      <div xml:id="r1003501">
         <pb source="https://nakala.fr/10.34847/nkl.94783417#4ad435aaf2dafaf193f8c27eb83e0a3111a35ecc" n="121" facs="https://api.nakala.fr/iiif/10.34847/nkl.94783417/4ad435aaf2dafaf193f8c27eb83e0a3111a35ecc/full/full/0/default.jpg"/>
         <head rend="uc">Appendices</head>
         <p>Édition de la traduction latine du <hi rend="i">Lapidaire du roi Philippe.</hi> – Apparat complet des variantes de l’article « Saphir » (<hi rend="i">Lapidaire du roi Philippe</hi>). – Édition du <hi rend="i">Traité sur le Baume</hi> (d’après le manuscrit fr. 14830, avec les variantes du manuscrit fr. 2043 de la Bibliothèque nationale de Paris).</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1887_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1887_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,12 +54,12 @@
         <forename>Ern.</forename>
         <surname>Coyecque</surname>
       </byline>
-      <div>
+      <div xml:id="r152294">
         <head rend="uc">Introduction.</head>
         <p>BIBLIOGRAPHIE. – Dans son <hi rend="i">Essai historique</hi> (1787) Rondonneau de la Motte a résumé tout ce que les historiens généraux de Paris avaient écrit sur l’Hôtel-Dieu. La notice insérée dans l’<hi rend="i">Etude sur les Hôpitaux</hi> de A. Husson (1862) est la première dont les éléments proviennent des archives de l’établissement.</p>
         <p>SOURCES MANUSCRITES. – Archives de l’Assistance publique ; Archives Nationales. – Mode de publication d’une collection de comptes ; – de délibérations, d’arrêts.</p>
       </div>
-      <div>
+      <div xml:id="r152315">
         <head rend="uc">Première partie.
          <lb/>Origine de l’Hotel-Dieu</head>
         <p>Deux classes d’Hôtels-Dieu ou hôpitaux au moyen-âge : 1° ceux dont on sait la date de fondation et le nom du fondateur ; les plus anciens ne remontent guère au-delà <pb source="https://nakala.fr/10.34847/nkl.c8bcr5as#b2074f15b23d3b4e5f233ddb764adf4a852b95d8" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.c8bcr5as/b2074f15b23d3b4e5f233ddb764adf4a852b95d8/full/full/0/default.jpg"/> du <num>xiii<hi rend="sup">e</hi></num> siècle ; – 2° les Hôtels-Dieu <hi rend="i">épiscopaux ou métropolitains :</hi> ils s’élèvent aux portes de la cathédrale, dont ils dépendent ; leur origine, inconnue, est légendaire ; celui de Paris entre dans cette classe – à laquelle on peut rattacher les Hôtels-Dieu qu’on rencontre dans les villes de moindre importance, à la même place, dans les mêmes rapports de dépendance, et dont l’origine est semblable à celle des Hôtels-Dieu métropolitains.</p>
@@ -72,10 +70,10 @@
         <pb source="https://nakala.fr/10.34847/nkl.c8bcr5as#8141fbd66a709f0cf0643f25adfc722eec3b2564" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.c8bcr5as/8141fbd66a709f0cf0643f25adfc722eec3b2564/full/full/0/default.jpg"/>
         <p>Jusqu’au <num>xiii<hi rend="sup">e</hi></num> siècle, on désigne l’Hôtel-Dieu sous des appellations diverses ; quant au nom primitif, <hi rend="i">Hôpital St-Christophe,</hi> on l’abandonne de parti pris en 1164, fait aussi important qu’obscur ; vers 1230, la dénomination est fixée comme l’institution qu’elle désigne.</p>
       </div>
-      <div>
+      <div xml:id="r152378">
         <head rend="uc">Deuxième partie
          <lb/>L’Hotel-Dieu du <num>xiii<hi rend="sup">e</hi></num> siècle à l’année 1505</head>
-        <div>
+        <div xml:id="r152392">
           <head rend="uc">Chapitre premier
            <lb/>chapitre de Notre-Dame ; maitre et prieuse ; frères
            <lb/>et sœursS;;familiers..</head>
@@ -97,7 +95,7 @@
           <p>Il n’y a pas lieu de distinguer les religieux de 1223 et ceux de 1322.</p>
           <p><hi rend="i">Les familiers.</hi></p>
         </div>
-        <div>
+        <div xml:id="r152503">
           <head rend="uc">Chapitre II.
            <lb/>Les malades à l’Hôtel-Dieu.</head>
           <p>Il n’y eut au moyen-âge d’autres hôpitaux spéciaux que les léproseries : les Hôtels-Dieu reçoivent tout le monde, sauf les lépreux.</p>
@@ -133,7 +131,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.c8bcr5as#a0c89d9d64d760665029f713edc9209bf84695b6" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.c8bcr5as/a0c89d9d64d760665029f713edc9209bf84695b6/full/full/0/default.jpg"/>
           <p>Mortalité : années ordinaires, 1.50 par jour ; dans les autres, elle varie entre 5, 6, 7, 10 décès, s’élevant rarement à 15, 16, 20, limite qu’elle n’a jamais dépassée.</p>
         </div>
-        <div>
+        <div xml:id="r152646">
           <head rend="uc">Chapitre III.
            <lb/>Les ressources financières de l’Hotel-Dieu</head>
           <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle un malade coûte environ 20 s. t. par jour ; l’hospitalité d’ailleurs est gratuite.</p>
@@ -150,7 +148,7 @@
           <p><hi rend="i">Le domaine</hi> de l’Hôtel-Dieu constitue la source la plus importante de son revenu ; maisonniers, conseillers pensionnaires.</p>
           <p>Etat du domaine au 2 mai 1505. – Domaine parisien : note sur chaque maison ; sur l’ancien emplacement de la Faculté de Médecine ; église des Carmes construite vers 1353 ; élévation, vers 1500, d’un petit portail à St-Séverin ; note sur Philippe de Moulins, évêque d’Evreux, puis de Noyon, propriétaire de l’hôtel la Trémoille et d’une partie des fiefs d’Autonne et de Poissy ; dans ce dernier était compris l’hôtel Cocatrix, où fut installée, vers 1300, la Monnaie royale.</p>
         </div>
-        <div>
+        <div xml:id="r152731">
           <head rend="uc">Chapitre IV.
            <lb/>Les batiments de l’Hôtel-Dieu</head>
           <p>Emplacement primitif ; vers 1205, l’ancien Hôtel-Dieu est abandonné pour le nouveau (1190 env.-1260). Aucun agrandissement notable durant le moyen-âge.</p>
@@ -168,7 +166,7 @@
           <p>IV. <hi rend="i">Bâtiments divers.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r152813">
         <head rend="uc">Troisième partie
          <lb/>Réforme de l’Hotel-Dieu
          <lb/>(1460-1540 env.)</head>
@@ -184,7 +182,7 @@
         <p>Introduction de huit chanoines réformés de St-Augustin ; de 1536 à 1540 le chapitre est dépouillé de la plupart de ses droits sur l’Hôtel-Dieu dont le personnel prend bientôt le costume blanc de St-Victor.</p>
         <p>Le Roi obtient du Pape que l’Hôtel-Dieu soit désormais sous la dépendance absolue de St-Victor (18 juillet 1539) : le chapitre proteste et fait casser la bulle (20 mai 1540) ; le 18 août suivant, le Parlement homologue l’accord intervenu entre le chapitre et St-Victor : la réforme était achevée, l’Hôtel-Dieu du moyen-âge avait définitivement vécu.</p>
       </div>
-      <div>
+      <div xml:id="r152883">
         <head rend="uc">Appendices</head>
         <p>I. Notice sur le collège des Dix-Huit (1180-1529).</p>
         <p>II. Comptes du maître, années 1458, 1466 ; compte de 1495-1505.</p>

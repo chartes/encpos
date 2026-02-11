@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,22 +62,22 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r501539">
         <head rend="uc">Premiere partie
          <lb/>Histoire</head>
-        <div>
+        <div xml:id="r501547">
           <head rend="uc">Chapitre premier
            <lb/>les origines</head>
           <p>Depuis le <num>xvii<hi rend="sup">e</hi></num> siècle, les historiens de Paris discutent sur la date à laquelle fut fondée l’abbaye sans pouvoir la fixer avec précision. La plupart, se basant sur les récits qu’en font les chroniqueurs contemporains, la placent en 1198, d’autres la font remonter jusqu’en 1181, aucun n’apporte, pour soutenir son opinion, d’arguments décisifs. – La question ainsi posée est insoluble. Un point est acquis : la communauté, désignée sous le nom de Saint-Antoine, fut érigée en abbaye par Eudes de Sully en 1204 ; mais elle existait depuis fort longtemps, certainement en 1191, peut-être depuis 1181 ; et certaines présomptions, à défaut de preuves, nous permettent de penser que cette communauté s’était groupée autour d’un ora<pb source="https://nakala.fr/10.34847/nkl.13b65z33#875469ce0f4f92ffdea1e3caca065eae7bf71560" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.13b65z33/875469ce0f4f92ffdea1e3caca065eae7bf71560/full/full/0/default.jpg"/>toire très ancien tel qu’on en rencontrait sur les grandes voies qui menaient à Paris.</p>
         </div>
-        <div>
+        <div xml:id="r501570">
           <head rend="uc">Chapitre II
            <lb/>Du <num>xiii<hi rend="sup">e</hi></num> siècle à la Révolution</head>
           <p>1. <hi rend="i"><num>xiii<hi rend="sup">e</hi></num> siècle.</hi> – L’abbaye mit à profit la paix qui régnait sur la région parisienne au <num>xiii<hi rend="sup">e</hi></num> siècle pour se constituer un temporel important.</p>
           <p>2. <hi rend="i">Guerre de Cent ans.</hi> – Ce fut pour Saint-Antoine une période désastreuse. Le monastère se trouvait situé sur la route qui conduisait les ennemis à Paris. A plusieurs reprises, ils s’en emparèrent et contraignirent les religieuses à s’enfuir.</p>
           <p>3. <hi rend="i">Du</hi> <num>xv<hi rend="sup">e</hi></num><hi rend="i">siècle à</hi> 1789. – Les guerres de religion causèrent à l’abbaye de graves dommages. Lors du siège de Paris, en 1590 les troupes royales s’étaient retranchées dans le monastère ; au cours d’une sortie, les ligueurs les en délogèrent et, profitant de leur victoire, ils pillèrent Saint-Antoine.</p>
         </div>
-        <div>
+        <div xml:id="r501626">
           <head rend="uc">Chapitre III
            <lb/>Rapports avec les puissances spirituelles</head>
           <p>1. <hi rend="i">Avec les évêques.</hi> – Depuis l’acte d’Eude de Sully, évêque de Paris, qui exemptait le couvent de la juridiction de l’ordinaire (1204), celui-ci eut peu de rapports avec l’évêque diocésain dont Innocent IV précisa les droits sur la communauté en 1245.</p>
@@ -87,61 +85,61 @@
           <p>3. <hi rend="i">Avec la papauté.</hi> – Les religieuses furent particulièrement favorisées par les papes qui leur accordèrent de nombreuses bulles, soit de confirmation générale, soit sur des points plus particuliers, et les protégèrent contre les curés.</p>
           <p>4. <hi rend="i">Avec les autres abbayes.</hi> – Au <num>xiii<hi rend="sup">e</hi></num> siècle, la communauté était assez prospère pour envoyer quelques-uns de ses membres peupler d’autres monastères, mais elle ne garda aucune autorité sur ceux-ci.</p>
         </div>
-        <div>
+        <div xml:id="r501680">
           <head rend="uc">Chapitre IV
            <lb/>Rapports avec les puissances laïques</head>
           <p>1. <hi rend="i">Avec le pouvoir central.</hi> – C’est la royauté qui avait donné aux religieuses le territoire qui environnait le couvent ; elle leur concéda en outre des exemptions de péages, tonlieux, etc... C’est pour cela que celui-ci prit le titre d’abbaye royale.</p>
           <p>2. <hi rend="i">Avec les seigneurs.</hi> – Les conflits qui s’élevaient entre ceux-ci et Saint-Antoine avaient surtout pour objet la possession en mainmorte de biens situés dans leur seigneurie. Ce furent les seigneurs ecclésiastiques qui lui suscitèrent le plus de difficultés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r501704">
         <pb source="https://nakala.fr/10.34847/nkl.13b65z33#7a4503d875a7f68ae5c56011cc32333c256af9e2" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.13b65z33/7a4503d875a7f68ae5c56011cc32333c256af9e2/full/full/0/default.jpg"/>
         <head rend="uc">Deuxieme partie
          <lb/>Vie intérieure</head>
-        <div>
+        <div xml:id="r501717">
           <head rend="uc">Chapitre premier
            <lb/>la communauté</head>
           <p>Au <num>xiii<hi rend="sup">e</hi></num> siècle, les religieuses appartenaient à la noblesse de l’Ile de France, plus tard elles étaient uniquement recrutées dans la bourgeoisie parisienne.</p>
           <p>L’abbesse de Saint-Antoine a des pouvoirs très réduits : toute initiative lui est retirée, et elle n’a que l’administration du couvent. La plupart des abbesses furent très capables ; deux seules se révélèrent dépensières, et leur abbatiat fut néfaste pour le monastère.</p>
           <p>Les autres offices ne sont pas indépendants et occupent une place minime dans la vie de la communauté.</p>
         </div>
-        <div>
+        <div xml:id="r501741">
           <head rend="uc">Chapitre II
            <lb/>Vie religieuse</head>
           <p>Saint-Antoine fut réformé à deux reprises dans le cours de son existence : une première fois sur l’initiative de Charles VII, semble-t-il (1440) ; la seconde réformation fut provoquée par le Parlement de Paris en 1547. Excepté dans les premiers temps, la communauté ne manifesta jamais une grande ferveur religieuse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r501754">
         <pb source="https://nakala.fr/10.34847/nkl.13b65z33#7158fa0a365e2c561f6a12d65173ec5e1d0d3ae0" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.13b65z33/7158fa0a365e2c561f6a12d65173ec5e1d0d3ae0/full/full/0/default.jpg"/>
         <head rend="uc">Troisieme partie
          <lb/>Le temporel</head>
-        <div>
+        <div xml:id="r501767">
           <head rend="uc">Chapitre premier
            <lb/>formation et organisation</head>
           <p>Le temporel de l’abbaye fut constitué au XIII<hi rend="sup">e </hi>siècle au moyen de donations et surtout d’achats : il comprenait des terres, des droits seigneuriaux et des rentes.</p>
           <p>Les agents des religieuses étaient les frères qui vivaient au monastère. – Description du temporel.</p>
         </div>
-        <div>
+        <div xml:id="r501786">
           <head rend="uc">Chapitre II
            <lb/>Le domaine utile et son évolution</head>
           <p>Jusqu’à la guerre de Cent ans, les religieuses exploitaient directement leurs domaines, mais depuis la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, elles furent obligées, par suite de circonstances économiques nouvelles, d’abandonner cette méthode et de les faire exploiter par d’autres.</p>
           <p>De là deux sortes de baux : les baux à ferme qui permettaient à Saint-Antoine de reprendre ses possessions affermées et les baux à rente perpétuelle par lesquels elles étaient aliénées pour toujours.</p>
           <p>Les rentes constituées tant sur des maisons de Paris que sur des seigneuries au dehors, forment une partie importante des revenus de Saint-Antoine.</p>
         </div>
-        <div>
+        <div xml:id="r501810">
           <head rend="uc">Chapitre III
            <lb/>Domaine éminent</head>
           <p>La seigneurie des religieuses comprenait la haute justice sur quelques lieux, mais peu de droits féodaux <pb source="https://nakala.fr/10.34847/nkl.13b65z33#dac6da4e66edf7d0b1cffa853858f7969ef96894" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.13b65z33/dac6da4e66edf7d0b1cffa853858f7969ef96894/full/full/0/default.jpg"/> ; elles les aliénèrent d’ailleurs, à la fin de l’Ancien Régime, lorsqu’ils ne furent plus d’aucun rapport.</p>
           <p>Le domaine éminent, qui groupait à peine quelques censives au <num>xiii<hi rend="sup">e</hi></num> siècle acquit beaucoup d’importance dans la suite, et à la fin du <num>xvi<hi rend="sup">e</hi></num> siècle, on put distinguer toute une hiérarchie de fiefs : fiefs à foi et hommage, fiefs à hommage et à rente, fiefs tenus à rente sans démission de foi.</p>
           <p>Les censives s’étaient beaucoup augmentées pour les mêmes raisons. A la fin de l’Ancien Régime, on constate qu’elles étaient extrêmement morcelées.</p>
         </div>
-        <div>
+        <div xml:id="r501845">
           <head rend="uc">Chapitre IV
            <lb/>Finances de l’abbaye</head>
           <p>L’abbaye, dans les premiers siècles de son existence, était fort pauvre, ce n’est que dans la fin du <num>xiii<hi rend="sup">e</hi></num> siècle que ses revenus s’accrurent de façon considérable. La guerre de Cent ans la ruina complètement et pendant le <num>xvi<hi rend="sup">e</hi></num> siècle, elle végéta par suite des circonstances économiques. Aux <num>xvii<hi rend="sup">e</hi></num> et XVIII<hi rend="sup">e </hi>siècles, par contre sa situation fut très prospère. La nature des revenus a beaucoup varié depuis le XIII<hi rend="sup">e </hi>siècle. Au début, la communauté jouissait des produits de ses exploitations agricoles, puis sa fortune devint mobilière dans le courant des <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles.</p>
           <p>Le mort-gage et les formes détournées du prêt à intérêt : bail à cheptel de fer, achat de rentes nouvelles, sont des opérations financières que l’abbaye pratique peu ; avec ses capitaux disponibles, elle achète des biens fonciers.</p>
         </div>
-        <div>
+        <div xml:id="r501898">
           <pb source="https://nakala.fr/10.34847/nkl.13b65z33#2ce27dad1ac4ed2a4a9cf753f3f96f7ba4b8ec57" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.13b65z33/2ce27dad1ac4ed2a4a9cf753f3f96f7ba4b8ec57/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Conséquences économiques et sociales</head>
@@ -149,7 +147,7 @@
           <p>Celui-ci est dû sans doute à la volonté royale, mais les religieuses collaborèrent activement à l’œuvre de la royauté en défendant les privilèges qui assuraient le peuplement de leur territoire, en baillant des terrains à construire, en organisant l’approvisionnement du quartier.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r501925">
         <head rend="uc">Conclusion</head>
         <p>Saint-Antoine apporte une nouvelle confirmation d’un fait déjà constaté : le rôle capital que les monastères parisiens ont tenu dans l’extension de Paris, et cela jusqu’à la Révolution.</p>
       </div>

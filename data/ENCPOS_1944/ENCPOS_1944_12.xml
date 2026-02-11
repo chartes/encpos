@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1944_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1944_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,33 +62,33 @@
         <head rend="uc">Sources – Ouvrages consultés</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r652312">
         <head rend="uc">Première partie
          <lb/>Les origines du système héraldique
          <lb/>notions d’ensemble sur le droit
          <lb/>aux armoiries
          <lb/>et sur les juridictions compétentes</head>
-        <div>
+        <div xml:id="r652326">
           <head rend="uc">Chapitre premier
            <lb/>l’origine des armoiries et les débuts
            <lb/>du système héraldique médiéval.</head>
           <p>Jusque vers 1160, les armoiries n’eurent aucune fixité et paraissent avoir été réservées aux seuls seigneurs capables de lever des contingents féodaux ; les nobles de moindre importance se contentaient généralement de faire peindre sur leurs écus les armes de leur seigneur immédiat ou de leur suzerain. Cet usage explique en partie les similitudes souvent 7 <pb source="https://nakala.fr/10.34847/nkl.2d3b164x#45f7a01b064f547375dd1e3859811985bb6da163" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.2d3b164x/45f7a01b064f547375dd1e3859811985bb6da163/full/full/0/default.jpg"/>constatées entre les armoiries de familles différentes qui possédaient des fiefs dépendant d’un même seigneur. Dans la seconde moitié du <num>xii<hi rend="sup">e</hi></num> siècle, les armoiries sont des emblèmes essentiellement familiaux dont l’usage s’étend à la presque totalité de la classe noble.</p>
         </div>
-        <div>
+        <div xml:id="r652351">
           <head rend="uc">Chapitre II
            <lb/>L’expansion de l’usage du blason
            <lb/>dans la société médiévale.</head>
           <p>Dès la seconde moitié du <num>xii<hi rend="sup">e</hi></num> siècle, les femmes nobles purent faire usage à la fois des armes de leur père et de celles de leur mari. Les plus anciens blasons ecclésiastiques connus étaient attachés à des sièges épiscopaux. A partir de 1225 environ, les prélats commencèrent à porter leurs armes paternelles et, dès lors, de nombreux membres du clergé régulier ou séculier utilisèrent des armoiries. Les abbayes, prieurés et autres communautés religieuses n’eurent leurs blasons qu’à une époque assez tardive qui ne semble guère antérieure au début du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
           <p>L’usage des armoiries s’étendit à la classe des roturiers dès la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle et, au <num>xiv<hi rend="sup">e</hi></num> siècle, des personnages de très basse condition, même de simples paysans, pouvaient utiliser un blason. Les villes, depuis la fin du <num>xii<hi rend="sup">e</hi></num> siècle, et, un peu plus tardivement, les corps de métiers adoptèrent également des armoiries. A l’origine, les armoiries des villes étaient presque toujours celles de leurs seigneurs, qu’elles conservèrent souvent ou qu’elles abandonnèrent parfois pour forger des emblèmes nouveaux.</p>
         </div>
-        <div>
+        <div xml:id="r652398">
           <head rend="uc">Chapitre III
            <lb/>La capacité héraldique.</head>
           <p>Le droit aux armoiries ou <hi rend="i">capacité héraldique</hi> n’était pas en France exclusivement, réservé à la noblesse. 11 est en effet impossible de refuser le nom d’armoiries aux nombreux emblêmes <pb source="https://nakala.fr/10.34847/nkl.2d3b164x#634756971ea6422287b010f1c7e40b1ed2b49486" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.2d3b164x/634756971ea6422287b010f1c7e40b1ed2b49486/full/full/0/default.jpg"/> portés sur des écus par des roturiers, du <num>xiii<hi rend="sup">e</hi></num> au <num>xvii<hi rend="sup">e</hi></num> siècle ; le droit public n’a d’ailleurs jamais interdit aux non-nobles l’usage du blason. Seul le port des armoiries timbrées fut soumis, à partir du <num>xvi<hi rend="sup">e</hi></num> siècle, à certaines conditions, mais un simple écu, sans aucun ornement extérieur et sans timbre, suffisait pour constituer des armoiries.</p>
           <p>Pendant toute la durée du Moyen Age, aucun auteur traitant de droit héraldique ne refusa aux roturiers le droit de porter des armoiries. Ce fut seulement vers la fin du <num>xv<hi rend="sup">e</hi></num> siècle et surtout au <num>xvi<hi rend="sup">e</hi></num> que certains juristes, désireux de soutenir les prétentions de la noblesse, affirmèrent que seuls les nobles étaient capables de porter un blason. Or, les souverains eux-mêmes considéraient comme de véritables armoiries les emblèmes librement choisis par un individu ou une communauté quelconque.</p>
           <p>Nées dans la classe noble, les armoiries furent, pendant un certain temps, portées seulement par des personnes appartenant à cette classe. Ce fut uniquement sur cet état de fait, de courte durée, que s’appuyèrent, au <num>xvi<hi rend="sup">e</hi></num> siècle, les auteurs favorables aux prétentions de la noblesse. Mais un usage beaucoup plus long toléra, pendant des siècles, le port des armoiries dans la classe des roturiers, et cet usage se transforma en une véritable « coutume ».</p>
         </div>
-        <div>
+        <div xml:id="r652461">
           <head rend="uc">Chapitre IV
            <lb/>Les juridictions compétentes en matière
            <lb/>de droit héraldique.</head>
@@ -113,11 +111,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r652583">
         <head rend="uc">Deuxième partie
          <lb/>Les droits portant
          <lb/>sur des armoiries déterminées</head>
-        <div>
+        <div xml:id="r652593">
           <head rend="uc">Chapitre premier
            <lb/>la transmission des armoiries familiales
            <lb/>et le droit aux armes pleines.</head>
@@ -127,7 +125,7 @@
           <p>Les changements de brisures étaient généralement permis, sauf dans les grandes branches de la maison de France. Par exception, la fils aîné du chef des armes portait les pleines armes du vivant de son père quand il parvenait à la dignité à laquelle elles étaient attachées. De même, le possesseur de la terre principale de la famille et les membres de la famille établis dans un pays étranger pouvaient, exceptionnellement, user des armes pleines.</p>
           <p>En général, le chef des armes ne pouvait disposer librement des armes pleines, mais, dans certains cas particuliers et sous certaines conditions, il pouvait les céder, soit à son successeur naturel (changement d’armoiries), soit à un allié ou à un étranger (relèvement d’armoiries).</p>
         </div>
-        <div>
+        <div xml:id="r652638">
           <head rend="uc">Chapitre II
            <lb/>Les armoiries des bâtards, des femmes
            <lb/>et des ecclésiastiques.</head>
@@ -135,7 +133,7 @@
           <p><hi rend="i">Les armoiries des femmes.</hi> – Les femmes portaient, sans y ajouter de brisure, leurs armes paternelles et, le cas échéant, celles de leur mari, sans pouvoir les transmettre à leurs descendants. Veuves ou remariées, elles conservaient leurs droits aux armes de leur époux décédé. La femme noble mariée à un roturier ne perdait pas l’exercice de sa capacité héraldique. Dans les pays de noblesse utérine, les femmes avaient des droits équivalents à ceux des mâles en ce qui concerne les armoiries.</p>
           <p><hi rend="i">Les armoiries des ecclésiastiques.</hi> – Les clercs avaient droit aux armes de leur père ; ils ne devaient pas y ajouter de brisure, sauf s’ils avaient eu des enfants légitimes avant d’entrer en religion ou s’ils étaient susceptibles d’en avoir, n’ayant reçu que les ordres mineurs. Ils portaient en même temps des <hi rend="i">armoiries de dignité.</hi></p>
         </div>
-        <div>
+        <div xml:id="r652679">
           <head rend="uc">Chapitre III
            <lb/>Le droit aux armoiries d’autrui.</head>
           <p><hi rend="i">L’usurpation des armoiries d’autrui.</hi> – Le premier possesseur d’un blason pouvait toujours interdire le port de celui-ci par une personne étrangère à sa famille, quand cette personne ne pouvait pas faire la preuve d’une possession immémoriale. Il n’y avait lieu à poursuites ni dans un cas fortuit de ressemblance entre deux blasons, ni lorsque ceux-ci présentaient entre eux la moindre différence (procès relatifs à des usurpations d’armoiries). A partir de la fin du <num>xv<hi rend="sup">e</hi></num> siècle, le port des fleurs de lis, meubles des armes de Francs, fut en principe interdit à toute personne n’ayant pas bénéficié d’une concession du souverain.</p>
@@ -147,13 +145,13 @@
           <p><hi rend="i">L’aliénation des armoiries.</hi> – Une personne pouvait, au moins au Moyen Age, aliéner ses armes familiales, avec le consentement du chef des armes et de ses proches parents (procès relatif à la vente des armoiries de Jean de Châtillon, <pb source="https://nakala.fr/10.34847/nkl.2d3b164x#c6208d104a0789bc8b84f5d50224123958a1f2d9" n="105" facs="https://api.nakala.fr/iiif/10.34847/nkl.2d3b164x/c6208d104a0789bc8b84f5d50224123958a1f2d9/full/full/0/default.jpg"/>en 1-407). Les armoiries concédées en fief et celles qui étaient attachées à la possession d’une terre pouvaient être aliénées plus facilement encore, ceci jusqu’au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">La prescription des armoiries.</hi> – Le droit de porter les armes d’autrui pouvait résulter d’une prescription acquisitive fondée sur une possession au moins centenaire.</p>
         </div>
-        <div>
+        <div xml:id="r652764">
           <head rend="uc">Chapitre IV
            <lb/>Les concessions et les augmentations d’armoiries.</head>
           <p>Le roi et, jusqu’au <num>xv<hi rend="sup">e</hi></num> siècle, les grands feudataires pouvaient concéder des armoiries à des particuliers ou à des communautés civiles ou religieuses ; ils pouvaient aussi octroyer seulement des pièces héraldiques ou des partitions, souvent extraites de leurs propres armes. Les plus anciennes <hi rend="i">lettres d’armoiries</hi> accordées par un souverain français ne semblent pas antérieures au <num>xiv<hi rend="sup">e</hi></num> siècle (concession de Louis X à l’hospice des aveugles de Bayeux, en mai 1315) ; auparavant, il est possible que les concessions d’armoiries n’aient pas été constatées par des actes écrits.</p>
           <p>Les bénéficiaires habituels des lettres d’armoiries étaient des officiers ou des fonctionnaires royaux, des ambassadeurs ou des princes étrangers, des villes, des corporations et des communautés religieuses. Très souvent, les rois de France concédèrent des fleurs de lis d’or sur champ d’azur, soit en écartelure, soit sur une pièce quelconque. Les concessions de timbres et de devises furent assez rares en France. Les lettres d’armoiries étaient expédiées sous forme de chartes, sur lesquelles étaient peintes les armes concédées ou augmentées.</p>
         </div>
-        <div>
+        <div xml:id="r652795">
           <head rend="uc">Chapitre V
            <lb/>Le libre choix d’un blason
            <lb/>et les changements d’armoiries.</head>
@@ -161,13 +159,13 @@
           <p>Les modifications et les changements complets d’armoiries furent très nombreux au Moyen Age, surtout jusque vers la lin du <num>xiv<hi rend="sup">e</hi></num> siècle ; ils étaient motivés par une simple fantaisie, par l’acquisition d’un fief, par un relèvement d’armes, par le refus de briser ou par la perte de la matrice d’un sceau armorial. Les villes changèrent fréquemment d’armoiries (armes de Salon, de Pernes, de Nîmes). Au <num>xvi<hi rend="sup">e</hi></num> siècle, tout changement d’armoiries devait être soumis à l’approbation du souverain pour être pleinement valable.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r652836">
         <head rend="uc">Troisième partie
          <lb/>Les droits touchant les ornements
          <lb/>extérieurs
          <lb/>et l’utilisation des armoiries
          <lb/>la perte des armoiries</head>
-        <div>
+        <div xml:id="r652850">
           <head rend="uc">Chapitre premier
            <lb/>les droits touchant les ornements extérieurs
            <lb/>des armoiries. ’</head>
@@ -175,7 +173,7 @@
           <p><hi rend="i">Les ornements extérieurs de Vécu. Le timbre.</hi> – A partir de <pb source="https://nakala.fr/10.34847/nkl.2d3b164x#be5452a199ef411152386a0efe4d420ea68306ef" n="107" facs="https://api.nakala.fr/iiif/10.34847/nkl.2d3b164x/be5452a199ef411152386a0efe4d420ea68306ef/full/full/0/default.jpg"/> la seconde moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, mais surtout depuis le <num>xiv<hi rend="sup">e</hi></num>, de nombreux nobles et certains roturiers prirent l’habitude de surmonter leur écu d’un timbre, c’est-à-dire d’un heaume avec cimier. Pendant tout le <num>xiv<hi rend="sup">e</hi></num> siècle, l’usage du timbre ne fut pas réglementé par le droit héraldique ; il est inexact que Charles V ait accordé aux bourgeois de Paris, en 1371, le droit de timbrer leurs armoiries. Au <num>xvi<hi rend="sup">e</hi></num> siècle s’établit la règle qui réserva les armoiries timbrées à la noblesse (ordonnances de janvier 1561 et de mai 1579). Les bâtards d’une famille ne devaient pas porter les mêmes cimiers que les légitimes. Les femmes et les clercs ne timbraient que très rarement leur écu d’un heaume.</p>
           <p><hi rend="i">Les ornements extérieurs autres que le timbre.</hi> – Les insignes des dignités ecclésiastiques et civiles étaient réservés aux titulaires de ces dignités.</p>
         </div>
-        <div>
+        <div xml:id="r652914">
           <head rend="uc">Chapitre II
            <lb/>L’utilisation des armoiries.</head>
           <p><hi rend="i">L’apposition des armoiries sur les meubles.</hi> – Tout possesseur d’armoiries avait le droit de faire figurer celles-ci sur les objets mobiliers qui lui appartenaient. Règles spéciales touchant l’apposition des armoiries sur les poids et mesures et sur les navires.</p>
@@ -184,7 +182,7 @@
           <p><hi rend="i">L’apposition des armoiries sur les édifices religieux.</hi> – Le droit de litre (bande de peinture noire tracée sur les murs d’une église et portant les armes d’un seigneur décédé) appartenait en général soit au patron d’une église, soit au seigneur justicier du lieu. 11 pouvait être exercé simultanément par plusieurs seigneurs. Les seigneurs protestants ne pouvaient pas en jouir. Il passait à l’acquéreur de la seigneurie, sauf si l’aliénateur désirait se le réserver. L’apposition des armoiries sur les tombes, les vitraux, les clefs de voûte et les cloches d’une église était soumise à des règles moins strictes.</p>
           <p><hi rend="i">Les arrachements d’armoiries.</hi> – – Un particulier ne devait pas, d’autorité privée, enlever des armoiries apposées, même indûment, sur un lieu quelconque, sauf quand ces armoiries se trouvaient sur un lieu qu’il possédait en pleine propriété. Celui dont les armoiries étaient ainsi arrachées bénéficiait de l’<hi rend="i">action d’injures.</hi> Quiconque arrachait les armes du roi se rendait coupable de lèse-majesté.</p>
         </div>
-        <div>
+        <div xml:id="r652962">
           <head rend="uc">Chapitre III
            <lb/>La perte des armoiries et de la capacité héraldique.
            <lb/>L’extinction des armes.</head>
@@ -193,7 +191,7 @@
           <p><hi rend="i">L’extinction des armes.</hi> – Les armes d’une famille s’éteignaient et étaient enterrées avec le dernier agnat mâle, à moins qu’elles ne fussent relevées par une famille alliée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r653007">
         <head rend="uc">Conclusion</head>
         <p>Le droit héraldique français demeura presque entièrement à l’état de coutume non rédigée jusqu’à La fin de l’ancien régime.</p>
       </div>

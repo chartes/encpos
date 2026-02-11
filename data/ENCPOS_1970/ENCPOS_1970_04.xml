@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,16 +54,16 @@
         <forename>Christine</forename>
         <surname>Bischoff</surname>
       </byline>
-      <div>
+      <div xml:id="r916834">
         <head rend="uc">Introduction</head>
         <p>Anéanti lors du bombardement de la Bibliothèque de Strasbourg, dans la nuit du 24 au 25 août 1870, l’<hi rend="i">Hortus deliciarum,</hi> vaste encyclopédie de la fin du <num>xii<hi rend="sup">e</hi></num> siècle, n’est plus accessible aux chercheurs qu’à travers des copies et des calques qui, dus à quelques érudits du <num>xix<hi rend="sup">e</hi></num> siècle, transmettent une partie de ses miniatures et de son texte.</p>
         <p>Seuls les calques ont été publiés dans leur totalité. Constituant un véritable répertoire iconographique, ils ont servi de base à de nombreuses études.</p>
         <p>En revanche, on ne dispose que d’éditions très partielles et souvent médiocres du texte : sa publication, il est vrai, fut toujours différée en raison de l’aspect fragmentaire et quelque peu incohérent que présentent les copies. L’existence même de ces fragments justifie cependant une telle entreprise, dont il convient de ne point oublier les limites.</p>
       </div>
-      <div>
+      <div xml:id="r916866">
         <head rend="uc">Première partie
          <lb/>Le manuscrit</head>
-        <div>
+        <div xml:id="r916874">
           <head rend="uc">Chapitre premier
            <lb/>l’abbaye de Hohenbourg à l’époque d’Herrade</head>
           <p>Fondée à la fin du <num>vii<hi rend="sup">e</hi></num> ou au début du <num>viii<hi rend="sup">e</hi></num> siècle par le duc d’Alsace Adalric, père de sainte Odile, l’abbaye de Hohenbourg en Alsace était en pleine décadence lorsque, vers 1150, Frédéric Barberousse en confia la direction à <pb source="https://nakala.fr/10.34847/nkl.ee66ih8b#f2d181db38fae7361da136a2ccb728b813da2257" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee66ih8b/f2d181db38fae7361da136a2ccb728b813da2257/full/full/0/default.jpg"/>l’abbesse Relinde qui, y introduisant la règle de saint Augustin, s’attacha à rétablir l’ordre et la discipline.</p>
@@ -73,7 +71,7 @@
           <p>La nouvelle abbesse fit preuve, dans de nombreux domaines, d’une activité considérable. Sur le plan matériel, elle s’efforça de consolider le patrimoine de son abbaye. Sur le plan spirituel, elle fut à l’origine de deux fondations : afin d’assurer la célébration régulière des offices à Hohenbourg, elle s’adressa aux prémontrés d’Etival qui, en 1178, établirent un prieuré à Saint-Gorgon, puis, vers 1183, aux chanoines augustins de Marbach en Haute-Alsace, qui envoyèrent douze des leurs à Truttenhausen.</p>
           <p>A l’époque de Relinde et d’Herrade la communauté de Hohenbourg, pour qui fut composé l’<hi rend="i">Hortus,</hi> ne comptait pas moins de quarante-six chanoinesses et treize converses, issues, pour la plupart, de la noblesse alsacienne et souabe.</p>
         </div>
-        <div>
+        <div xml:id="r916920">
           <head rend="uc">Chapitre II
            <lb/>Histoire du manuscrit</head>
           <p>Rien ne permet de savoir ce que fut le destin de l’<hi rend="i">Hortus deliciarum</hi> au moyen âge. Au début du <num>xvi<hi rend="sup">e</hi></num> siècle, le manuscrit d’Herrade était encore à Hohenbourg, où l’humaniste Jérôme Guebwiler eut l’occasion de le feuilleter. Après l’incendie qui, en 1546, ravagea les bâtiments de l’abbaye, marquant ainsi la dispersion définitive des religieuses, il parvint entre les mains de l’évêque de Strasbourg, qui le conserva dès lors dans son château de Saverne. C’est là qu’il se trouvait lorsque le P. Jean Busée en prit connaissance vers 1600, pour son édition des œuvres de Pierre de Blois.</p>
@@ -82,7 +80,7 @@
           <p>Déposé en 1803, avec le fonds dont il faisait partie, dans le chœur du Temple Neuf, l’<hi rend="i">Hortus</hi> était considéré à juste titre comme la richesse la plus représen<pb source="https://nakala.fr/10.34847/nkl.ee66ih8b#295fc30b64c2f153c84b2d2919a0f79da742ddb7" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee66ih8b/295fc30b64c2f153c84b2d2919a0f79da742ddb7/full/full/0/default.jpg"/>tative de la Bibliothèque de Strasbourg. Très souvent consulté, il fit l’objet de plusieurs études. A côté de la monographie que lui consacra Chr. M. Engelhardt, il convient de mentionner les travaux d’A. Le Noble et de Ferdinand Piper. Sous le règne de Louis-Philippe, le comte Auguste de Bastard d’Estang en obtint communication à Paris et le garda pendant plus de dix ans à son domicile. Après un séjour de trois mois à Berlin, en 1848, le précieux manuscrit réintégra enfin la Bibliothèque de Strasbourg dont il partagea le sort en 1870.</p>
           <p>Dès lors, son histoire n’est plus que celle des tentatives de reconstitution dont il fit l’objet. On retiendra, en l’occurrence, les noms des chanoines Straub et Keller, puis, plus tard, du chanoine Joseph Walter qui, portant l’essentiel de leurs efforts sur les miniatures, consacrèrent de longues années à cette tâche.</p>
         </div>
-        <div>
+        <div xml:id="r916979">
           <head rend="uc">Chapitre III
            <lb/>Description du manuscrit</head>
           <p>Des éléments de descriptions sont fournis par la monographie de Chr. M. Engelhardt. Pour certains points de détails, il est utile de se référer aux travaux qui se fondent sur une étude directe du manuscrit.</p>
@@ -91,7 +89,7 @@
           <p>L’identification de deux œuvres utilisées par Herrade pour sa compilation confirme ces données : l’<hi rend="i">Historia scholastica</hi> de Pierre Comestor a été diffusée à partir de 1173 environ et les poèmes de Gautier de Châtillon sont à dater de la même époque.</p>
           <p><hi rend="i">Aspect matériel.</hi> – Les dimensions considérables et la richesse des miniatures qui en occupaient plus d’un tiers faisaient de l’<hi rend="i">Hortus deliciarum</hi> un manuscrit de luxe. Il comptait trois cent vingt-quatre feuillets avant sa destruction. Une inscription du <num>xiv<hi rend="sup">e</hi></num> siècle en dénombrait cependant trois cent quarante-deux. Il est donc possible que certaines feuilles aient survécu au désastre de 1870.</p>
         </div>
-        <div>
+        <div xml:id="r917031">
           <pb source="https://nakala.fr/10.34847/nkl.ee66ih8b#f1a907dddb362bfb92fa835db074b47064305b12" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee66ih8b/f1a907dddb362bfb92fa835db074b47064305b12/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>État du texte</head>
@@ -100,9 +98,9 @@
           <p>Six cent dix des mille deux cents textes assemblés par Herrade nous sont parvenus, transcrits intégralement ou par fragments. Les autres ne sont pas irrémédiablement perdus : lorsqu’ils ont des titres assez précis, il est possible, sans toutefois pouvoir leur assigner des limites précises, de les retrouver dans l’œuvre de laquelle ils ont été extraits.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r917063">
         <head rend="uc">Deuxième partie</head>
-        <div>
+        <div xml:id="r917069">
           <head rend="uc">Chapitre premier
            <lb/>le contenu de l’<hi rend="i">Hortus deliciarum</hi></head>
           <p>Le titre de l’<hi rend="i">Hortus deliciarum</hi> renseigne non seulement sur l’inspiration de l’œuvre qu’il désigne, mais encore sur la nature de cette œuvre. Les ouvrages, au demeurant assez nombreux, que l’on connaît sous ce nom sont toujours des anthologies de textes spirituels.</p>
@@ -113,7 +111,7 @@
           <p>A quelques considérations sur les premières communautés chrétiennes, fait suite un tableau de l’Église, corps mystique du Christ, dont le double aspect spirituel et visible fait l’objet de longs développements où l’allégorie domine.</p>
           <p>L’œuvre s’achève par une description détaillée de la fin du monde, du jugement dernier et de la béatitude des élus dans la Jérusalem céleste.</p>
         </div>
-        <div>
+        <div xml:id="r917112">
           <head rend="uc">Chapitre II
            <lb/>Le plan</head>
           <p>Le plan de l’<hi rend="i">Hortus deliciarum</hi> est essentiellement déterminé par le déroulement de l’histoire du Salut.</p>
@@ -121,7 +119,7 @@
           <p>Si un souci de composition indéniable préside aux deux premières parties, les thèmes qu’évoque la troisième ne s’enchaînent pas en fonction d’un schéma rigoureux et les redites sont multipliées dans la dernière.</p>
           <p>Ce plan, qui, dans ses grandes lignes, est celui du Symbole des apôtres, n’est pas sans présenter des analogies avec celui des sommes théologiques du <num>xii<hi rend="sup">e</hi></num> siècle comme l’<hi rend="i">Elucidarium</hi> d’Honorius Augustodunensis, le <hi rend="i">De sacramentis </hi>d’Hugues de Saint-Victor et les <hi rend="i">Sentences</hi> de Pierre Lombard. L’œuvre d’Herrade diffère cependant de ces ouvrages par l’importance accordée à la littérature exégétique et par la place faite aux considérations scientifiques. Par certains aspects, elle peut aussi être rapprochée du <hi rend="i">Liber floridus.</hi> Mais son intention de se limiter au domaine sacré oppose Herrade à Lambert de Saint-Omer.</p>
         </div>
-        <div>
+        <div xml:id="r917159">
           <head rend="uc">Chapitre III
            <lb/>Les caractères de la composition</head>
           <p>L’<hi rend="i">Hortus deliciarum</hi> groupe environ douze cents textes de provenance variée. Les titres qui précèdent ces extraits constituent les seules divisions du manuscrit. Les sources sont indiquées avec une précision plus ou moins rigoureuse, fixée par la nature des recensions utilisées.</p>
@@ -129,7 +127,7 @@
           <p>Pour définir les objets qu’elle se propose d’étudier, Herrade use simultanément de plusieurs procédés. L’accumulation et l’association n’en sont que les plus visibles. Ni les redites ni les digressions ne sont cependant évitées.</p>
           <p>La manière dont Herrade traite les textes qu’elle cite, obéit à des lois imposées par un souci d’unité. Les extraits choisis doivent, en effet, apparaître comme autant d’éléments constitutifs d’un ensemble organisé. C’est à ce principe qu’il faut attribuer des retouches et des adaptations qui aboutissent, dans certains cas, à une véritable normalisation.</p>
         </div>
-        <div>
+        <div xml:id="r917186">
           <head rend="uc">Chapitre IV
            <lb/>Les sources de l’<hi rend="i">Hortus deliciarum</hi></head>
           <p>Herrade n’a pas cherché à faire œuvre originale, mais, de son propre aveu, s’est bornée à rassembler tous les éléments qu’elle a pu recueillir <hi rend="i">ex diversis sacre et philosophice scripture floribus.</hi></p>
@@ -179,7 +177,7 @@
           <p>Rupert de Deutz jouit, lui aussi, d’une faveur particulière : des livres entiers du <hi rend="i">Liber de divinis officiis</hi> ont été transcrits par Herrade et l’on trouve trace, également, de son commentaire sur le Cantique des cantiques.</p>
           <p>L’<hi rend="i">Hortus</hi> contient en outre de nombreux fragments isolés. Certains, très souvent attestés, appartiennent en quelque sorte au patrimoine commun de la littérature latine du moyen âge. D’autres constituent des témoins uniques. C’est ainsi qu’un texte de Raymond de Marseille n’a pu être identifié dans aucun des deux traités récemment découverts de cet auteur mal connu du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r917451">
           <head rend="uc">Chapitre V
            <lb/>Les poésies</head>
           <p>L’<hi rend="i">Hortus deliciarum</hi> contenait quarante-cinq pièces poétiques, qui ont presque toutes été copiées. D’inspiration religieuse ou morale, elles se trouvaient insérées dans le manuscrit à la place que commandaient leurs sujets. Souvent accompagnées de notes musicales, disposées suivant le système de Guy d’Arezzo, elles étaient pourvues de gloses abondantes destinées à en faciliter l’intelligence.</p>
@@ -188,11 +186,11 @@
           <p>Certaines poésies doivent être rendues à Hildebert de Lavardin, Pierre le Peintre et Gautier de Châtillon. Les deux pièces de circonstance qui, à la fin du manuscrit, célèbrent le Hohenbourg, livrent en acrostiche le nom de leurs auteurs, qui étaient probablement des familiers de l’abbaye : <hi rend="i">Hugo sacerdos </hi>et (<hi rend="i">Hohenburgensibus) Coradus.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r917486">
         <head rend="uc">Conclusion</head>
         <p>L’étude des sources de l’<hi rend="i">Hortus deliciarum</hi> permet de jeter quelque lumière sur la place exacte qu’il convient d’attribuer à Herrade. Si l’état actuel des recherches interdit de tirer des conclusions définitives sur l’origine des manuscrits qui les transmettent, les textes rassemblés par l’abbesse de Hohenbourg, puisés à la double source de la théologie monastique traditionnelle et de la scholastique naissante, constituent, pour les historiens des idées et de la spiritualité, un témoignage irremplaçable. Aussi ne doit-on regretter que plus vivement la disparition d’un manuscrit exceptionnel à tous les égards.</p>
       </div>
-      <div>
+      <div xml:id="r917500">
         <head rend="uc">Édition</head>
         <p>Table des auteurs et des œuvres utilisés par Herrade.</p>
         <p>Index des citations scripturaires.</p>

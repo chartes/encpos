@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1973_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1973_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,14 +54,14 @@
         <surname>Desvaux</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r968480">
         <head rend="uc">Introduction</head>
         <p>Les manoirs du Perche, extrêmement nombreux et modestes tout à la fois, représentent un habitat propre à une époque et à une catégorie sociale déterminée : ils traduisent par leur architecture fonctionnelle l’existence de la petite noblesse rurale du <num>xvi<hi rend="sup">e</hi></num> siècle. C’est donc par le biais de l’archéologie que nous avons cherché à appréhender une évolution économique et sociale.</p>
       </div>
-      <div>
+      <div xml:id="r968496">
         <head rend="uc">Première partie</head>
         <p>Avant d’étudier les manoirs du Perche proprement dits, une triple démarche s’imposait : définir plus précisément l’ensemble architectonique généralement placé sous le terme de <hi rend="i">manoir</hi> afin de permettre une comparaison – et ceci par l’étude de textes littéraires, – délimiter le cadre géographique et historique de nos recherches, recenser les sources à notre disposition.</p>
-        <div>
+        <div xml:id="r968509">
           <head rend="uc">Chapitre premier
            <lb/>les manoirs dans la littérature</head>
           <p>Le langage, tout d’abord, éclaire la destination du manoir ; <hi rend="i">manoir,</hi> infinitif substantivé de l’ancien verbe <hi rend="i">manoir,</hi> du latin <hi rend="i">manere,</hi> signifie avant tout demeure. Nous nous trouvons donc en présence d’une résidence champêtre telle que la définit Lalanne dans le <hi rend="i">Dictionnaire historique de la France :</hi> « Principale maison d’un fief, celle qui était réservée à la prestation de l’hommage des vassaux ».</p>
@@ -79,7 +77,7 @@
           <p>Les textes littéraires nous permettent encore d’imaginer l’existence du gentilhomme campagnard, marquée surtout par le caractère communautaire et familial de la mise en valeur des terres.</p>
           <p>En tant que seigneur, il garde cependant une certaine autorité sur les hommes du domaine considérés plus en compagnons qu’en vassaux, comme le montre le journal manuscrit de Gilles de Gouberville.</p>
         </div>
-        <div>
+        <div xml:id="r968588">
           <head rend="uc">Chapitre II
            <lb/>Le Perche</head>
           <p>Nous avons placé notre étude dans un cadre correspondant à une réalité géographique et historique : le Perche.</p>
@@ -92,7 +90,7 @@
           <p>L’occupation du sol s’est faite de façon précoce, avec les défrichements des grandes abbayes. Les luttes intestines entre les deux principautés territoriales de Bellême et de Nogent ont débouché sur une fusion cimentée, au <num>xiii<hi rend="sup">e</hi></num> siècle, par la fixation de la « coutume du païs et comté du Perche ». Les institutions ont fixé cet ensemble par la création d’un bailliage du Perche auquel correspond le territoire étudié, soit le Perche ornais actuel plus Nogent-le-Rotrou et son ressort.</p>
           <p>Nos recherches commencent donc avec l’ère de reconstructions consécutive à la guerre de Cent Ans et qui semble s’éteindre avec les troubles des guerres de religion.</p>
         </div>
-        <div>
+        <div xml:id="r968632">
           <head rend="uc">Chapitre III
            <lb/>Les sources</head>
           <p>Cette étude archéologique, essentiellement réalisée sur le terrain, requérait un recensement préalable que nous avons effectué à partir de listes diverses du <num>xvi<hi rend="sup">e</hi></num> siècle, du procès-verbal de la <hi rend="i">Coutume du Perche</hi> rédigée en 1558 et d’arrière-bans et rôles des nobles. L’étude du plus ancien cadastre (datant seulement de 1813) et la toponymie ont complété cet ensemble ; l’expérience montre en effet l’association fréquente des manoirs et de certaines catégories de toponymes : noms d’arbres (tels que <hi rend="i">l’Aunay, le Boulay, le Frêne, le Châtaignier, le Pin</hi>), noms liés à des systèmes de clôture (<hi rend="i">le Plessis, l’Épine, la Ronce, les Rosiers</hi>), vocables propres à la chevalerie (<hi rend="i">la Chevalerie, la Guerrière, l’Écu, le Heaume</hi>), à la définition même du manoir, petit château marqué par un système défensif (<hi rend="i">le Châtel, la Ferté, la Motte, la Tour, le Fossé, le Manoir, la Cour, le Colombier, la Garenne</hi>), ou aux voies de communication auxquels ils sont fréquemment associés (<hi rend="i">le Gué, le Pont, les Planches</hi>).</p>
@@ -103,12 +101,12 @@
           <p>Un certain nombre de fonds privés nous ont permis de trouver les inventaires et les baux qui éclairent l’histoire sociale de la période étudiée ; nous en publions des exemples avec les pièces annexes de la présente thèse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r968692">
         <head rend="uc">Deuxième partie
          <lb/>Description archéologique
          <lb/>et incidences socio-économiques</head>
         <p>L’enquête archéologique réalisée sur les manoirs a certainement souffert de l’importance de l’inventaire entrepris (quatre cent trente maisons seigneuriales recensées, dont cent trois conservées, soit une proportion de 23,93 %) ; il nous semblait cependant capital de connaître des séries, afin de pouvoir établir des comparaisons ou des statistiques.</p>
-        <div>
+        <div xml:id="r968705">
           <head rend="uc">Chapitre premier
            <lb/>description archéologique</head>
           <p>L’une des conclusions majeures de notre étude concerne l’implantation des manoirs. Une lecture de la carte des manoirs du Perche permet de constater certains regroupements concentriques ou linéaires. La superposition de cette carte avec les cartes géologiques, hydrographiques ou routières de cette région, a permis de faire les constatations suivantes.</p>
@@ -131,7 +129,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.8787o93s#f14b40228a867864f1856de6b2b2506b5b544c1a" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.8787o93s/f14b40228a867864f1856de6b2b2506b5b544c1a/full/full/0/default.jpg"/>
           <p>Parti de défense et décor se confondent progressivement, les attributs anciens d’une autorité militaire (tours, créneaux, mâchicoulis) devenant éléments de prestige, liés, comme la motte, à une tradition guerrière.</p>
         </div>
-        <div>
+        <div xml:id="r968794">
           <head rend="uc">Chapitre II
            <lb/>Vie et mort du manoir</head>
           <p>Il est possible de parler de vie et de mort du manoir : en effet, ce type de construction, après 1625, soit disparaît complètement, soit évolue vers deux pôles opposés : le château ou la ferme.</p>
@@ -145,11 +143,11 @@
          <lb/>par cantons et communes</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r968832">
         <head rend="uc">Conclusion</head>
         <p>Le manoir apparaît comme la phase ultime du nivellement des seigneuries, multipliées et réduites à l’extrême.</p>
       </div>
-      <div>
+      <div xml:id="r968842">
         <pb source="https://nakala.fr/10.34847/nkl.8787o93s#d9101c4dd239f29dd92f3e8f804e017cf8f0526b" n="67" facs="https://api.nakala.fr/iiif/10.34847/nkl.8787o93s/d9101c4dd239f29dd92f3e8f804e017cf8f0526b/full/full/0/default.jpg"/>
         <head rend="uc">Pièces annexes</head>
         <p>Étude toponymique. – Inventaire de la Joussetyère (1554). – Inventaire de la Bretèche (1781). – Bail de la ferme de Neufville dépendant du manoir de la Motte (1613). – Bail de Chanceaux (1781).</p>

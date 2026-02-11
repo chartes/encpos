@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1985_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,60 +55,60 @@
         <surname>Tenenbaum</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1124694">
         <head rend="uc">Introduction</head>
         <p>Le Conservatoire de musique de Paris, établissement d’enseignement centralisé, se substitue, sous la Révolution, à l’enseignement dispensé dans les maîtrises sous l’Ancien Régime. Il a cependant des antécédents : l’école de l’Opéra qui a une existence épisodique à partir de 1672, et l’École royale de chant, instituée en 1784. Mais c’est l’école de musique de la Garde nationale, transformée bientôt en Institut national de musique, qui, grâce à la persévérance de son directeur Bernard Sarrette, est élevée par la Convention nationale, le 16 thermidor an III (3 août 1795) au rang d’école nationale sous le nom de Conservatoire de musique ; l’École royale de chant vient s’y fondre.</p>
       </div>
-      <div>
+      <div xml:id="r1124704">
         <head rend="uc">Sources</head>
         <p>Les sources manuscrites se trouvent, pour l’essentiel, aux Archives nationales dans quatre sous-séries : AJ<hi rend="sup">37</hi> qui rassemble les archives de l’administration du Conservatoire ; 0<hi rend="sup">3</hi>, Maison du roi, puisque l’école dépend du ministère de la Maison du roi de 1816 à 1830 ; F<hi rend="sup">17</hi>, Instruction publique, et F<hi rend="sup">21</hi>, Beaux-Arts. Les séries et sous-séries F<hi rend="sup">4</hi>, F<hi rend="sup">13</hi>, N, AF IV, 0<hi rend="sup">2</hi> et AJ<hi rend="sup">13 </hi>apportent quelques renseignements supplémentaires, de même que des notes conservées à la Bibliothèque nationale, aux départements des manuscrits et de la musique. Enfin cette documentation est utilement complétée par les périodiques, source fort précieuse, et également par des mémoires et souvenirs contemporains.</p>
       </div>
-      <div>
+      <div xml:id="r1124746">
         <pb source="https://nakala.fr/10.34847/nkl.dd453j0b#61a8ff0cbf265f9fd930190acda399879d886319" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd453j0b/61a8ff0cbf265f9fd930190acda399879d886319/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Le cadre</head>
-        <div>
+        <div xml:id="r1124759">
           <head rend="uc">Chapitre premier
            <lb/>tutelle administrative</head>
           <p>Dépendant successivement du comité d’Instruction publique, puis du ministre de l’Intérieur, par l’intermédiaire du bureau des Beaux-arts, ou du conseiller d’État chargé de l’Instruction publique entre 1802 et 1809, le Conservatoire, placé sur le même rang que les « écoles spéciales », est considéré comme un établissement d’enseignement public. Sous la Restauration, sous prétexte que ses locaux sont compris dans la dotation de la Couronne, le Conservatoire est cédé, après quelques flottements, au ministre de la Maison du roi et renaît sous le titre d’Ecole royale de musique. Cette École voisine désormais avec les théâtres royaux, qu’elle doit alimenter en sujets. Elle relève de l’intendant des Menus Plaisirs, le baron de la Ferté, qui rêve de restaurer l’ancienne Ecole royale de chant. En 1824, nouveau changement : c’est le vicomte Sosthène de la Rochefoucauld, chargé du département des Beaux-arts au ministère de la Maison du roi, qui est chargé de son contrôle.</p>
         </div>
-        <div>
+        <div xml:id="r1124771">
           <head rend="uc">Chapitre II
            <lb/>Administration interne</head>
           <p>Jusqu’en 1815, le Conservatoire s’administre avec une assez grande liberté, sous la direction des inspecteurs de l’enseignement et de Sarrette, d’abord « commissaire pour l’organisation du Conservatoire », puis directeur à partir de l’an VIII (1800) ; trois règlements successifs (an IV, an VIII et 1808) fixent l’organisation intérieure. Sous la Restauration, l’Ecole royale n’a plus à sa tête qu’un inspecteur général des classes, Perne, aux pouvoirs très limités ; c’est en fait l’intendant La Ferté qui décide de tout ; de plus, aucun texte d’ensemble ne réglemente l’organisation. A partir de 1822, s’il n’est toujours adopté aucun règlement, Cherubini, nommé directeur, y supplée par sa rigueur et son autorité.</p>
         </div>
-        <div>
+        <div xml:id="r1124783">
           <head rend="uc">Chapitre III
            <lb/>Le budget</head>
           <p>Pourvu généreusement lors de sa création, le Conservatoire subit d’importantes restrictions en l’an IX et en l’an XI ; puis les crédits crois<pb source="https://nakala.fr/10.34847/nkl.dd453j0b#a5478a019351be85d95b585b07ef03d682cc05dd" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd453j0b/a5478a019351be85d95b585b07ef03d682cc05dd/full/full/0/default.jpg"/>sent sous l’Empire, pour baisser légèrement à partir de 1812. En 1816, le budget est réduit à la portion congrue ; peu à peu, cependant, il va rejoindre les taux de la fin de l’Empire. On constate d’autre part à cette période, une amélioration de la technique de la comptabilité.</p>
         </div>
-        <div>
+        <div xml:id="r1124800">
           <head rend="uc">Chapitre IV
            <lb/>Les bâtiments</head>
           <p>Le Conservatoire s’installe, après de longues tractations pour en obtenir la libération, dans l’hôtel des Menus Plaisirs, rue Bergère, et dans le local occupé par l’ancienne École royale de chant, à l’angle de la rue Bergère et de la rue du Faubourg-Poissonnière. Outre des travaux d’aménagement (classes, pensionnat...), l’architecte Delannoy élève une bibliothèque dont la construction traîne plusieurs années, et une prestigieuse salle de concert. En mars 1816, le Conservatoire doit évacuer l’hôtel des Menus, compris dans les biens de dotation de la Couronne, et se replier sur le reste des locaux. Désormais, l’intendant des Menus règne en maître sur les bâtiments et chacun lutte pour défendre ses droits.</p>
         </div>
-        <div>
+        <div xml:id="r1124812">
           <head rend="uc">Chapitre V
            <lb/>La bibliothèque</head>
           <p>Une bibliothèque publique de musique est prévue dans la loi de fondation du 16 thermidor an III. Une commission de musiciens est autorisée à choisir des partitions et des ouvrages dans les dépôts nationaux (les émigrés les revendiqueront un moment sous la Restauration), et les confiscations napoléoniennes en Italie et en Allemagne complètent ce premier fonds, que le bibliothécaire Roze s’emploie à classer. La bibliothèque s’enrichit par des dons et des acquisitions, faites au hasard des occasions pour les achats exceptionnels, et chez un fournisseur attitré pour le reste ; ni Roze ni Cherubini n’obtiennent, malgré leurs réclamations, un exemplaire du dépôt légal. L’honnêteté de Fétis, bibliothécaire de 1826 à 1830, ne semble pas sans reproche.</p>
         </div>
-        <div>
+        <div xml:id="r1124824">
           <head rend="uc">Chapitre VI
            <lb/>Les instruments</head>
           <p>C’est également grâce aux confiscations révolutionnaires que le Conservatoire est pourvu d’un premier stock d’instruments, triés parmi ceux réunis au dépôt de la rue Bergère par la commission temporaire des Arts. Peu d’achats sont effectués sous l’Empire, hormis sur les bénéfices des exercices publics, mais l’état critique des instruments oblige par la suite à trouver des procédés pour remédier à l’absence d’un crédit d’acqui<pb source="https://nakala.fr/10.34847/nkl.dd453j0b#f05ad6f2589d4523c615388d8446c7198974f1fa" n="152" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd453j0b/f05ad6f2589d4523c615388d8446c7198974f1fa/full/full/0/default.jpg"/>sition au budget. Les pianos, majeure partie de ces acquisitions, sont achetés d’occasion, ou choisis chez Roller et Blanchet ou chez Érard, de façon à durer le plus longtemps possible ; un piano jugé inutilisable pour les classes de piano poursuit sa carrière dans les classes de chant et de solfège.</p>
           <p>Tout à fait exceptionnelle est la commande faite à Grenié, en 1812, d’un <hi rend="i">orgue expressif</hi> qu’il vient d’inventer ; cet orgue n’est achevé qu’en 1818, par suite d’hésitations et de mesures d’économie malheureuses.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1124849">
         <head rend="uc">Deuxième partie
          <lb/>Les membres</head>
-        <div>
+        <div xml:id="r1124857">
           <head rend="uc">Première section
            <lb/>les directeurs</head>
           <p>La personnalité de Sarrette, modeste employé du dépôt des Gardes françaises à l’origine, promu directeur d’un établissement prestigieux, suscite bien des controverses : infatigable et génial administrateur pour les uns, ambitieux, intéressé et sans aucune connaissance musicale, pour les autres. Lesueur prend la tète de ses adversaires en 1801-1802, et une violente campagne se déchaîne contre le Conservatoire, le menaçant dans son existence même. Les articles de journaux se répondent, les libelles pleuvent ; l’école même est partagée en deux camps ; les restrictions de personnel de l’an XI permettent, bien à propos, d’éliminer les fauteurs de troubles.</p>
           <p>Perne, qui succède à Sarrette, paraît bien terne et sans autorité, mais Cherubini, à partir de 1822, redresse la situation, par sa ponctualité, sa conscience professionnelle et son souci d’ordre, de discipline et d’équité.</p>
         </div>
-        <div>
+        <div xml:id="r1124872">
           <head rend="uc">Deuxième section
            <lb/>les professeurs</head>
           <div>
@@ -130,7 +128,7 @@
             <p>Au départ, la mission des membres du Conservatoire est double : assurer le service des fêtes nationales et du Corps législatif ; former les élèves, mais le premier aspect disparaît sous le Consulat. Les professeurs doivent donner un cours de deux heures et demie, un jour sur deux, puis de deux heures seulement à partir de 1822 ; il faut ajouter jusqu’en 1816, le temps consacré aux exercices publics et à leurs répétitions d’une part, et à la publication des méthodes d’autre part. Ils semblent s’acquitter consciencieusement de leurs devoirs, et faire dans le mois suivant les cours qu’ils n’ont pu faire dans le mois précédent, bien que des bruits malveillants circulent à ce sujet. De 1816 à 1822 cependant, les professeurs, surtout de chant, abusent manifestement du manque d’autorité de Perne, qui ne s’en plaint que timidement à l’intendant La Ferté.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1124925">
           <pb source="https://nakala.fr/10.34847/nkl.dd453j0b#f68446f527479b83fb7428aae71fd17dc49630d6" n="154" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd453j0b/f68446f527479b83fb7428aae71fd17dc49630d6/full/full/0/default.jpg"/>
           <head rend="uc">Troisième section
            <lb/>les élèves</head>
@@ -152,10 +150,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1124984">
         <head rend="uc">Troisième partie
          <lb/>Les activités musicales</head>
-        <div>
+        <div xml:id="r1124992">
           <head rend="uc">Première section
            <lb/>l’enseignement</head>
           <div>
@@ -179,7 +177,7 @@
             <p>Les critiques faites sur l’enseignement du chant dans l’établissement sont révélatrices d’options prises dans des débats plus généraux ; faut-il privilégier l’opéra français ou le bel canto ? Certains accusent l’école de <pb source="https://nakala.fr/10.34847/nkl.dd453j0b#f4f67025d5f068ce516dd132bddf8e74a18271c3" n="157" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd453j0b/f4f67025d5f068ce516dd132bddf8e74a18271c3/full/full/0/default.jpg"/>négliger la musique religieuse. Le seul point sur lequel tout le monde s’accorde est la médiocrité des résultats, due surtout au manque d’élèves dans cette branche, à leurs débuts trop précoces sur scène (pour pourvoir à leur subsistance) et au manque d’unité dans l’enseignement.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1125088">
           <head rend="uc">Deuxième section
            <lb/>le Conservatoire et l’école royale dans le monde musical</head>
           <div>
@@ -206,18 +204,18 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1125177">
         <head rend="uc">Conclusion
          <lb/>influence du Conservatoire et de l’école royale de musique</head>
         <p>L’influence de l’école est multiforme et la tentation est parfois grande de prétendre décider de tout, d’autant plus que les liens avec la section de musique de l’institut, seule autre autorité musicale, sont très étroits. On note également chez les professeurs une tendance à accorder une confiance excessive en leur savoir, ce qui tourne facilement à l’académisme ; et ils ne se montrent pas toujours ouverts aux nouveautés.</p>
         <pb source="https://nakala.fr/10.34847/nkl.dd453j0b#2de3046708a3fc631290adda5486fd385332623f" n="159" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd453j0b/2de3046708a3fc631290adda5486fd385332623f/full/full/0/default.jpg"/>
         <p>Le bilan est cependant positif ; l’établissement forme, même si on peut lui reprocher quelques insuffisances, de véritables professionnels, qui vont répandre dans toute la France les bénéfices de leur instruction.</p>
       </div>
-      <div>
+      <div xml:id="r1125197">
         <head rend="uc">Pièces justificatives</head>
         <p>Loi et décret du 16 thermidor an III. – Règlement du 14 octobre 1808. – Description de la salle de concert par A. Donnet en 1821. – Critiques (de Lesueur ?) à l’encontre du Conservatoire, envoyées au préfet du Palais en pluviôse an XI (février 1803). – Liste des méthodes du Conservatoire et de leurs traductions.</p>
       </div>
-      <div>
+      <div xml:id="r1125207">
         <head rend="uc">Planches</head>
         <p>Plans et coupes des bâtiments, de la bibliothèque et de la salle de concert du Conservatoire.</p>
         <pb source="https://nakala.fr/10.34847/nkl.dd453j0b#0be9faa2ddc626a1c4a6d0d1ddce3a58f88f76e2" n="160" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd453j0b/0be9faa2ddc626a1c4a6d0d1ddce3a58f88f76e2/full/full/0/default.jpg"/>

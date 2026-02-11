@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_24" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_24" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,16 +63,16 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r644021">
         <head rend="uc">Introduction</head>
         <p>Unité ecclésiastique des deux archidiaconés du Vexin français et du Vexin normand qui dépendaient du diocèse de Rouen ; séparés par l’Epte, ils ont partout, sauf au nord, des limites naturelles : Oise, Seine, Andelle, mais pas d’unité géographique : le Vexin français est un plateau de calcaire grossier, le Vexin normand a un sous-sol crayeux couvert de limons profonds et possède de nombreuses forêts (de Lyons, de Bleu, des Andelys, de Vernon).</p>
         <p>Pendant la guerre de Cent ans, le Vexin est très éprouvé par l’occupation anglaise qu’il subit de 1419 à 1449 : nombreuses églises détruites, d’où nécessité de reconstruire.</p>
         <p>Les églises flamboyantes, très nombreuses en Vexin, sont surtout des églises de campagne. Les ressources du sous-sol ont déterminé leur construction : en Vexin français, le calcaire permet de const ruire les églises et de les voûter en pierre, on Vexin normand, où la pierre manque, les constructeurs <pb source="https://nakala.fr/10.34847/nkl.fa19s7sr#3d6364c976b28762e56209a25782e5788819e7a0" n="210" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa19s7sr/3d6364c976b28762e56209a25782e5788819e7a0/full/full/0/default.jpg"/>ont employé le bois pour couvrir les églises de charpentes apparentes, au lieu de les voûter : d’où la distinction entre églises voûtées et églises lambrissées, très différentes par les données de leur construction.</p>
       </div>
-      <div>
+      <div xml:id="r644042">
         <head rend="uc">Première partie
          <lb/>Églises voûtées</head>
-        <div>
+        <div xml:id="r644050">
           <head rend="uc">I
            <lb/>caractères généraux</head>
           <div>
@@ -127,15 +125,15 @@
             <p>La décoration change d’objet par la suppression des chapiteaux qui subsistent très rarement, réduits à des frises. Importance des culots sculptés, décorés de feuillage, d’anges ou de personnages. Clefs de voûte très variées, assez simples, ornées de courbes et contre-courbes et surtout d’écus armoriés ; clefs pendantes plus rares et de bonne heure influencées par la Renaissance (Valmondois). A l’extérieur, des balustrades couronnent les murs goutterots des églises importantes, des pinacles surmontent les contreforts, des crochets garnissent les pinacles et les rampants, même ceux des petites églises. Les feuillages, très réalistes, sont l’essentiel de la décoration.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r644230">
           <head rend="uc">II Monographies</head>
           <p>Amfreville-sous-les-Monts, Notre-Dame du Grand-Andely, Bennecourt, Chaumont-en-Vexin, Cléry-en-Vexin, Guiry, Lierville, Montjavoult, Oinville, Parnes, Serans, Tourny.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r644241">
         <head rend="uc">Deuxième partie
          <lb/>Églises lambrissées</head>
-        <div>
+        <div xml:id="r644249">
           <pb source="https://nakala.fr/10.34847/nkl.fa19s7sr#6ab76c773205a776e1c50e85619a0ff2fdf0bfaa" n="214" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa19s7sr/6ab76c773205a776e1c50e85619a0ff2fdf0bfaa/full/full/0/default.jpg"/>
           <head rend="uc">I
            <lb/>caractères généraux</head>
@@ -167,13 +165,13 @@
             <p>Les porches de bois sont construits comme les charpentes lambrissées et très sobrement décorés.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r644334">
           <head rend="uc">II
            <lb/>monographies</head>
           <p>Doudeauville, Heudicourt, La Neuve-Grange, Nojeon-le-Sec, Puchay, Vatteville.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r644347">
         <head rend="uc">Conclusion</head>
         <p>Toutes les églises flamboyantes du Vexin sont de date tardive, <pb source="https://nakala.fr/10.34847/nkl.fa19s7sr#1b639742e71b13f8a1f8990ba59aa7756e32a73c" n="216" facs="https://api.nakala.fr/iiif/10.34847/nkl.fa19s7sr/1b639742e71b13f8a1f8990ba59aa7756e32a73c/full/full/0/default.jpg"/> le plus souvent du début du <num>xvi<hi rend="sup">e</hi></num> siècle ; aussi toutes présentent-elles l’évolution des formes gothiques à leur dernier stade. Cet essor tardif du style flamboyant s’explique par les ruines profondes de la guerre de Cent ans. Par contre, ce style persiste jusqu’au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         <p>Influence très importante de l’église de Gisors (commencée en 1.497) et de Robert Grappin : elle s’exerce vers l’est à cause de la similitude des matériaux et non vers l’ouest ; elle contribue à maintenir longtemps en faveur le style flamboyant. Aucune influence en Vexin de Notre-Dame des Andelys qui se rattache aux églises de la Haute-Normandie, dont la rapproche sa situation dans la vallée de la Seine.</p>

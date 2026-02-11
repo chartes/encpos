@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1954_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1954_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,19 +58,19 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r762165">
         <head rend="uc">Introduction</head>
         <p>Les limites de la région sont au Nord et au Sud celles de l’apanage d’Alphonse de Poitiers, qui correspondent à celles du département actuel de la Vendée. De plus, la « marche commune » entre Poitou et Bretagne, qui s’étend jusqu’à la Loire, dépend en partie du Poitou.</p>
       </div>
-      <div>
+      <div xml:id="r762175">
         <head rend="uc">Première partie
          <lb/>Conditions de la vie maritime</head>
-        <div>
+        <div xml:id="r762183">
           <head rend="uc">Chapitre premier
            <lb/>conditions géographiques.</head>
           <p>Les roches anciennes du massif de Vendée au Nord et les calcaires du Bassin aquitain au Sud ne sont déjà plus, au <num>x<hi rend="sup">e</hi></num> siècle, que partiellement en contact avec la mer, à cause de l’envasement, qui va tendre, au cours du Moyen Age, à combler les baies naturelles : baie de Bourgneuf, havre du pays de Monts, baie d’Olonne, baie de l’Aiguillon. La carte de Dulcert (1339) indique cette succession de baies.</p>
         </div>
-        <div>
+        <div xml:id="r762201">
           <head rend="uc">Chapitre II
            <lb/>Conditions techniques.</head>
           <p><hi rend="i">Cartes et routiers.</hi> – Ouvrages peu scientifiques, avant tout pratiques, destinés aux marins. Le tracé des cartes est très grossier, les erreurs four<pb source="https://nakala.fr/10.34847/nkl.14f64y6n#3f7598e9dc53cfbb4ced8e7a7123bbd291f32297" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.14f64y6n/3f7598e9dc53cfbb4ced8e7a7123bbd291f32297/full/full/0/default.jpg"/>millent, mais les principaux ports, les îles, les écueils, y figurent. Garcie Ferrande, originaire de la région, indique dans son « Routier » (1483), sorte de manuel de navigation, les écueils, les bas-fonds, les repères et la façon de « routtoyer », connaissances qu’il a acquises par l’expérience.</p>
@@ -80,10 +78,10 @@
           <p><hi rend="i">Les bateaux.</hi> – Deux grands types : les bateaux ronds, vaisseaux de transport, dont le type est la nef ; les bateaux longs, vaisseaux de guerre, dont le type est la galère. Aucune trace de véritables chantiers de construction navale avant la fin du <num>xv<hi rend="sup">e</hi></num> siècle ; pourtant des bateaux sont construits dans la région.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r762240">
         <head rend="uc">Deuxième partie
          <lb/>Exploitation de la haute mer</head>
-        <div>
+        <div xml:id="r762248">
           <head rend="uc">Chapitre premier
            <lb/>le commerce.</head>
           <p><hi rend="i">La législation.</hi> – Un texte important, fondement de la législation maritime de toute l’Europe occidentale au Moyen Age, a pris naissance sur la côte Atlantique : c’est le recueil des Rôles ou jugements d’Oléron. Rédigé pendant la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, il règle avec sagesse et précision les rapports entre patrons, marins et marchands. Les vingt derniers articles, très postérieurs (fin <num>xv<hi rend="sup">e</hi></num> siècle), traitent des épaves et naufrages, mais ne peuvent être considérés comme la législation en vigueur en ces matières.</p>
@@ -91,32 +89,32 @@
           <p><hi rend="i">Les obstacles au commerce.</hi> – De nombreuses charges pèsent sur les marins et les marchands : planchage, ancrage, rivage, droits de brefs, taxe d’un tiers sur les épaves. Les seigneurs en bénéficient. Piraterie et guerre de course menacent tous les bateaux, le seul remède efficace est la navigation en flottes sous la protection de navires armés.</p>
           <p><hi rend="i">Les débouchés vers l’intérieur.</hi> – Le trafic s’opère principalement par voie d’eau sur les deux rivières-limite, la Loire et la Sèvre. Le sel et le vin de la région d’une part, les produits importés de l’autre, l’alimentent.</p>
         </div>
-        <div>
+        <div xml:id="r762316">
           <head rend="uc">Chapitre II
            <lb/>La pêche en mer.</head>
           <p>La région d’Olonne et de Saint-Gilles est le centre de la pêche. Les techniques : pêche aux cordes et aux filets. On pêche alors principalement le merlu, le hareng, les seiches et le « poisson à lard » (marsouin, baleine, etc...), dont la chair est appréciée et l’utilisation variée. Après déchargement du poisson et paiement des coutumes au seigneur du lieu, les marchands de marée transportent en toute hâte le poisson dans les villes où a lieu la vente ; des règlements pour Poitiers en précisent les conditions.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r762329">
         <head rend="uc">Troisième partie
          <lb/>Exploitation de la côte</head>
-        <div>
+        <div xml:id="r762337">
           <head rend="uc">Chapitre premier
            <lb/>le dessèchement des marais.</head>
           <p>Entrepris dès le <num>xi<hi rend="sup">e</hi></num> siècle dans la baie de l’Aiguillon, mené à bien au cours des <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, suivant un vaste plan d’ensemble élaboré par l’association des grandes abbayes de la région, le dessèchement est remis en question par les troubles de la guerre de Cent ans, qui arrêtent les travaux d’entretien. La conquête des marais de Monts et de Bourgneuf, opérée par petites parcelles et un peu au hasard, permet la mise en valeur de vastes terrains.</p>
         </div>
-        <div>
+        <div xml:id="r762367">
           <head rend="uc">Chapitre II
            <lb/>Les marais salants.</head>
           <p>Principaux centres d’exploitation : l’île de Bouin et la Baie de Bourg<pb source="https://nakala.fr/10.34847/nkl.14f64y6n#7adfb4deb33a92e5ed8818cb3e8a079e10b385b9" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.14f64y6n/7adfb4deb33a92e5ed8818cb3e8a079e10b385b9/full/full/0/default.jpg"/>neuf, Noirmoutier, le pays d’Olonne. Des propriétaires ecclésiastiques et laïques concèdent une partie de leurs marais moyennant un cens annuel en argent ou en nature. L’aménagement et l’exploitation des salines n’ont pas connu depuis le Moyen Age de changements techniques notables. La vente du sel est soumise à des charges fiscales importantes : la dîme, due aux seigneurs ecclésiastiques et laïques ; le quart de sel, de 5 sous par livre, dû au roi. Des tentatives de réforme pour établir la gabelle royale échouèrent. Les débouchés sont nombreux, vers l’étranger et vers l’intérieur par la Loire et les chemins de sauniers.</p>
         </div>
-        <div>
+        <div xml:id="r762384">
           <head rend="uc">Chapitre III
            <lb/>La pêche côtière.</head>
           <p>On se borne au Moyen Age à ramasser les coquillages et particulièrement huîtres et moules sur les bancs naturels ; on capture le poisson venu à la côte avec le flux, et on élève dans les marais anguilles et meuils pour les besoins de la consommation.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r762397">
         <head rend="uc">Conclusion</head>
         <p>Une bonne exploitation côtière due à l’activité des abbayes développe les productions qui assurent au Bas-Poitou une clientèle assidue. Le relèvement rapide qui suit la guerre de Cent ans est la preuve de la vitalité de la région.</p>
       </div>

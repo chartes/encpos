@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1903_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1903_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,10 +61,10 @@
          <lb/>limites et divisions du sujet</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r274648">
         <head rend="uc">Première partie
          <lb/>Les premières années – L’homme et le milieu</head>
-        <div>
+        <div xml:id="r274656">
           <head rend="uc">Chapitre premier
            <lb/>les premières années</head>
           <p>Naissance du dernier des fils de Henri II et de Catherine de Médicis le 18 mars 1554. Il reçoit d’abord le nom et le titre d’Hercule, duc d’Anjou, changés le 13 janvier 1566 en ceux de François, duc d’Alençon. Ses parrains. Son premier apanage. Pendant la première guerre de religion, il reste à Amboise avec sa sœur Marguerite. En 1564, lors du grand voyage de la cour, il va jusqu’en Roussillon. Ses précepteurs : La Bourdaizière et Saint-Sulpice. – Ses premiers compagnons. Henri de la Tour d’Auvergne, vicomte de Turenne.</p>
@@ -74,29 +72,29 @@
           <p>Il va attendre à Sedan Elisabeth d’Autriche, fiancée de Charles IX. Fêtes du mariage. Comment il est représenté sur les arcs de triomphe. – Le 12 mars 1571, il est associé aux affaires en même temps que son frère Henri d’Anjou. – Suppléments d’apanage.</p>
           <p>Après la paix de Saint-Germain (8 août 1570), les Montmorency arrivent au pouvoir. – Amitié du plus jeune, Thoré, pour François de Valois qu’il met en relation avec Coligny. – Influence de l’amiral sur le duc ; il favorise son projet de mariage auprès d’Elisabeth d’Angleterre, et l’entretient de ses projets sur les Pays-Bas. – Regrets du duc d’Alençon à la mort de l’amiral dont il essaiera de reprendre, à son profit, la politique en France et à l’étranger.</p>
         </div>
-        <div>
+        <div xml:id="r274682">
           <head rend="uc">Chapitre II
            <lb/>L’homme et le milieu</head>
           <p>Portrait physique du duc d’Alençon. – Son goût pour les exercices violents. Son caractère. Violence et manque de volonté. Imagination et système nerveux mal équilibrés. Raffinements érotiques. Avec cela, qualités du cœur et de l’esprit : bonté et générosité ; goûts artistiques ; facilité de parole.</p>
           <p>Négligé par sa mère. Manque d’instruction. Au lieu de développer sa volonté, on lui a ménagé les fréquentations les plus funestes. – Influence de sa sœur Marguerite et des dames de la cour. – Ses favoris : La Molle, Bussy d’Amboise. La Fin. – Il fut un malade : tares héréditaires : scrofule, petite vérole et tuberculose.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r274698">
         <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#5ad26c3f16a65b8138def61db7abb96b241bfeaa" n="69" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/5ad26c3f16a65b8138def61db7abb96b241bfeaa/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Le duc d’Alençon et les Malcontents</head>
-        <div>
+        <div xml:id="r274711">
           <head rend="uc">Chapitre premier</head>
           <p>Distinction entre les Malcontents et les Politiques. – Théorie de M. de Crue : les Montmorency ont été de véritables politiques et les fondateurs du libéralisme politique et religieux.</p>
           <p>Fausseté de cette théorie : par leur naissance, leur éducation et leur situation, les Montmorency ont été de grands seigneurs féodaux, qui ne se sont unis aux protestants que pour défendre leur crédit contre les Guise, et qui les ont abandonnés lorsque leur intérêt a été de se rapprocher des catholiques. – Caractère et politique d’Anne de Montmorency et de ses fils, qui ont été des Malcontents.</p>
         </div>
-        <div>
+        <div xml:id="r274724">
           <head rend="uc">Chapitre II
            <lb/>Conséquences de la Saint-Barthélemy</head>
           <p>Conséquences de la Saint-Barthélemy à l’étranger : Formation de la ligue protestante entre l’Allemagne, les Pays-Ras, la France et l’Angleterre. – Plan de Michel de la Huguerie : lutte dans les Pays-Ras contre l’Espagne, et invasion de la France. Propositions du duc d’Alençon à Ludovic de Nassau et aux protestants d’Allemagne.</p>
           <p>Conséquences de la Saint-Barthélemy en France. Théories anti-absolutistes : Hotmail, Bèze, Duplessis-Mornay. Conception d’une monarchie féodale, anti-démocratique. Les Malcontents essaieront de la mettre en pratique, à leur profit. – Nouveau classement des partis : aux protestants s’unissent les Malcontents dont le chef naturel est François d’Alençon.</p>
         </div>
-        <div>
+        <div xml:id="r274739">
           <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#503427e000ffafcd661a04ac0c20ae8e950f3686" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/503427e000ffafcd661a04ac0c20ae8e950f3686/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Formation du parti – Premières intrigues du
@@ -107,7 +105,7 @@
           <p>Double négociation de Blamont (novembre 1573). Pendant que Catherine de Médicis achète pour Henri de Pologne l’appui des princes allemands, le duc d’Alençon obtient celui de Ludovic de Nassau : double but, en cas d’évasion des princes, ils trouveront une armée étrangère à leur disposition ; en échange, appui du duc d’Alençon promis aux révoltés des Pays-Bas, première base de l’intervention du prince français.</p>
           <p>Soupçons qui pèsent sur François d’Alençon et Henri de Navarre. – Leur tentative de fuite entre Soissons et Compiègne découverte par Marguerite de Valois. Etroite surveillance exercée sur eux. La cour va à Chantilly et à Saint-Germain.</p>
         </div>
-        <div>
+        <div xml:id="r274769">
           <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#d0af2f610a58cbd8f78c2ad0a3a145e8787c526b" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/d0af2f610a58cbd8f78c2ad0a3a145e8787c526b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les complots (février-avril 1574)</head>
@@ -120,7 +118,7 @@
           <p>Procès criminel (11-30 avril 1574) dirigé par le premier président Christophe de Thou. – On met hors de cause le duc d’Alençon et le roi de Navarre. – Résolution de faire mourir La Molle et Coconnat. – Haine du roi et de la reine-mère contre eux. – Interrogatoires des accusés. La Molle nie tout, mais Coconnat avoue, espérant sauver sa tête. – Leur mise à la question. – Déposition du duc d’Alençon, qui ne cache pas son amitié pour Coligny, et qui ne charge que les absents. – Ses efforts pour sauver La Molle, dont l’exécution est hâtée. – Sort des coupables.</p>
           <p>Le procès est dirigé surtout contre les Montmorency ; arrestation des maréchaux (3 mai). – Les historiens protestants ont cru à un long complot tramé contre le duc <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#120915ef85eac87781d7f98dccec3385b1508cf6" n="73" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/120915ef85eac87781d7f98dccec3385b1508cf6/full/full/0/default.jpg"/>d’Alençon et les Montmorency ; Catherine a seulement voulu s’assurer une régence tranquille.</p>
         </div>
-        <div>
+        <div xml:id="r274817">
           <head rend="uc">Chapitre V
            <lb/>Captivité du duc d’Alençon (mai 1574-septembre 1575)</head>
           <p>Situation du duc d’Alençon à la cour. Mort de Charles IX. Intrigues de l’Angleterre pour faire évader les princes et pour empêcher le retour d’Henri de Pologne. – Echec de ces intrigues.</p>
@@ -129,7 +127,7 @@
           <p>Entrevue de Henri III et des députés de Damville et de Coudé (avril 1575). Leurs requêtes : rentrée en faveur et délivrance des princes et grands seigneurs prisonniers, convocation des Etats-Généraux, concession de villes de sûreté. On n’aboutit à aucun résultat.</p>
           <p>Condé, Méru et Thoré préparent à Strasbourg l’invasion allemande. – Levées d’hommes en Allemagne et en Suisse. – Elisabeth d’Angleterre et l’Électeur palatin fournissent l’argent nécessaire. – Traités du 1<hi rend="sup">er</hi> juin 1574 et du 27 septembre 1575 avec Jean-Casimir.</p>
         </div>
-        <div>
+        <div xml:id="r274845">
           <head rend="uc">Chapitre VI
            <lb/>Évasion du duc d’Alençon. – Invasion allemande. –
            <lb/>Paix de Monsieur (15 septembre 1575-6 mai 1576)</head>
@@ -143,19 +141,19 @@
           <p>Monsieur reconduit à la frontière les reîtres qui réclament l’argent promis. Mission et arrestation de Bellièvre.</p>
           <p>Monsieur prend possession de son apanage. Entrée solennelle à Bourges et à Tours (juillet-août 1576). Sa maison, ses finances. C’est lui qui a surtout profité de la paix. – Les conditions accordées aux Réformés n’ont pas été accordées ou ont été violées.</p>
         </div>
-        <div>
+        <div xml:id="r274893">
           <head rend="uc">Chapitre VII
            <lb/>Monsieur et la ligue (1576-1577)</head>
           <p>Changement poli tique de Monsieur. – Il se rapproche du roi pour résister à la Ligue ; puis, afin de profiter de cette puissance, il se fait proclamer son chef. – Sa correspondance avec Damville. – Son altitude aux Etats de Blois. – Il pousse à la guerre contre les protestants.</p>
           <p>Campagne de 1577. – Monsieur chef de l’armée catholique. – Sièges de la Charité et d’Issoire. – Paix de Bergerac. Banquets de Plessis et de Chenonceaux. – Conclusion.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r274909">
         <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#ef334389a4c991bbdf169f821126e6d3b63dc296" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/ef334389a4c991bbdf169f821126e6d3b63dc296/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Le duc d’Alençon et les Pays-Bas</head>
         <p>La politique du duc d’Alençon dans les Pays-Bas a été la mise en pratique du plan de Coligny. – Les Pays-Bas et l’intervention de la France.</p>
-        <div>
+        <div xml:id="r274925">
           <head rend="uc">Chapitre premier</head>
           <p>Le traité du 6 mai 1576, rédigé sous l’influence de Guillaume d’Orange, est retardé par suite de l’hostilité de l’Angleterre à l’intervention de la France. – Le duc d’Alençon se rapproche de l’Espagne. Mission de Claude du Bourg à Madrid pour demander la main d’une infante, avec les Pays-Bas comme dot. – Coup d’état de Guillaume d’Orange (4 septembre 1576). – Arrivée au pouvoir du parti favorable à l’alliance avec le duc d’Alençon. – Intrigues des agents de celui-ci, Mondoucet, Bonnivet, Génissac.</p>
           <p>Lettre des États du 9 novembre acceptant les secours offerts par le duc, puis hésitations par crainte de se compromettre avec l’Espagne. – Les Etats prétextent la reprise des négociations avec don Juan. – Le duc passe outre à ces hésitations. – Mission de Bonnivet. – Les lettres interceptées de Philippe II et de don Juan amènent l’envoi du baron d’Aubigny en France pour demander le secours du duc d’Alençon (novembre-décembre 1576). Lutte des partisans de la paix et de la guerre dans les Pays-Bas, querelle du baron de Rasseghem et de Bonnivet. – Une nouvelle intervention d’Élisabeth fait rompre <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#f85e51f7aa0fcda5e31ca3fd51f89016b73374d2" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/f85e51f7aa0fcda5e31ca3fd51f89016b73374d2/full/full/0/default.jpg"/>les pourparlers avec le duc d’Alençon. Don Juan signe avec les États généraux l’Édit perpétuel de Marche (12 février 1577). – Monsieur feint de se montrer satisfait de la paix.</p>
@@ -163,7 +161,7 @@
           <p>Conséquences du rapprochement de Monsieur et de la Ligue. – Conférences de Gertruydenberg entre don Juan et Guillaume d’Orange (mai-juillet 1577). Les menées de don Juan en faveur de Marie Stuart contribuent à rapprocher Élisabeth du Taciturne. – Don Juan sort de Bruxelles et se retire à Malines (juin 1577). – Le duc d’Alençon, sur les conseils de Mondoucet, profite de ce mouvement anti-espagnol pour envoyer sa sœur Marguerite dans les Pays-Bas. Elle décide l’un des chefs de la noblesse catholique du Hainaut, le comte de Lalaing, à traiter avec le duc d’Alençon.</p>
           <p>Celui-ci reçoit à la Fère les députés des États qui lui apportent des tapisseries et cent mille livres d’argent, et qui lui demandent moins son intervention armée que d’empêcher que les Espagnols reçoivent des secours de France (octobre-décembre 1577). – Contre-ambassade du seigneur de Vaulx envoyé pardon Juan pour s’assurer les sympathies de Henri III. – Echec des deux ambassades. – L’intervention d’Elisabeth fait rompre de nouveau les négociations avec Monsieur. – Traité d’alliance offensive et défensive des Etats avec l’Angleterre, par lequel ils s’interdisent d’appeler un prince étranger (7 janvier 1578). – Défaite de l’armée des Etats à Gembloux où La Noue est fait prisonnier (31 janvier). – Monsieur s’enfuit de la Cour où il est tenu prisonnier, avec l’aide de sa sœur (14 février).</p>
         </div>
-        <div>
+        <div xml:id="r274952">
           <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#5f46e5b508c1322410abdc8531b2d1a640f7b888" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/5f46e5b508c1322410abdc8531b2d1a640f7b888/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Nouvelles négociations et campagne de Monsieur
@@ -176,13 +174,13 @@
           <p>Mission de Bellièvre envoyé par Henri III pour offrir sa médiation entre l’Espagne et les Pays-Bas. Il se heurte à l’obstination de Monsieur et des Etats (juillet et août).</p>
           <p>Traité du 11 août entre le duc d’Alençon et les Etats. – Guerre en Hainaut. Wallons et Flamands. – Le duc d’Alençon veut se mettre à la tête des Wallons catholiques. Prise de Binche (septembre). – Mort de don Juan (1<hi rend="sup">er </hi>octobre). – Situation du duc dans les Pays-Bas. Hostilité contre les Français. – Départ de Monsieur (11 janvier 1579). – Conférences de Cologne entre les États et l’Espagne ménagées par l’Empereur (avril 1579).</p>
         </div>
-        <div>
+        <div xml:id="r274998">
           <head rend="uc">Chapitre III
            <lb/>Reprise des négociations avec Monsieur (avril 1579)</head>
           <p>En vue d’un échec probable des conférences de la paix, les Etats se tournent vers le duc d’Alençon (avril 1579) sous l’influence du prince d’Orange. – Chute de la faction ultra-calviniste hostile à la France. – Le 22 juin, les Etats promettent à Monsieur de lui donner aussi prompte satisfaction que possible. – Lenteurs causées par le voyage de Monsieur en Angleterre <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#2b7e404e6f74db110ea09fa915ee600814732fd3" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/2b7e404e6f74db110ea09fa915ee600814732fd3/full/full/0/default.jpg"/>et l’hostilité des États de Hollande. – Mémoire de Jean de Nassau sur les <hi rend="i">commoda</hi> et les <hi rend="i">incommoda</hi> de l’alliance française. Opposition des ministres. – Guerre de pamphlets.</p>
           <p>Convention de Cambrai (25 octobre). – La ville accepte l’offre du duc d’Alençon de l’assister en cas de besoin. Cette convention coïncide avec la rupture des conférences de Cologne qui décide les Etats à conclure avec Monsieur un traité définitif (décembre 1579).</p>
         </div>
-        <div>
+        <div xml:id="r275026">
           <head rend="uc">Chapitre IV
            <lb/>Préliminaires du traité du Plessis-lez-Tours
            <lb/>(janvier 1580-janvier 1581)</head>
@@ -194,13 +192,13 @@
           <p>Rédaction du projet de traité. Efforts du prince d’Orange pour réduire les dernières résistances. – Les Etats envoient Marnix au duc d’Alençon (août 1580). – Conférences du Plessis-lez-Tours (7-19 septembre). Discussions surtout au sujet de l’appui d’Henri III. Traité du Plessis : le duc choisi comme souverain par les Pays-Bas.</p>
           <p>Henri III feint de céder aux instances de son frère. – Promesse qu’il lui fait de l’aider de tout son pouvoir (26 novembre 1580). – Menaces de l’Espagne. – Intervention vain e de Catherine de Médicis. – Déclaration de Bordeaux qui confirme le traité du Plessis (23 janvier 1581).</p>
         </div>
-        <div>
+        <div xml:id="r275060">
           <head rend="uc">Chapitre V
            <lb/>Campagne du Cambrésis (août-octobre 1581)</head>
           <p>Négociations du duc d’Alençon avec les protestants de France. – Les armements. – Les Etats proclament la déchéance de Philippe II (août 1581). – Manifestes du duc d’Alençon. – Mesures ordonnées par Henri III contre les troupes de son frère. – Ravitaillement de Cambrai (18 août 1581) et retraite du prince de Parme. Campagne du Cambrésis. Monsieur marche vers Douai, mais, devant l’inaction de l’armée des Etats, il se retire au Catelet.</p>
           <p>Le duc d’Alençon, abandonné à la fois par Henri III, qui dépense l’argent promis à son frère aux noces de Joyeuse (septembre 1581), et par les Etats, se décide à passer en Angleterre (24 octobre). Réception magnifique que lui fait Élisabeth. Traité d’alliance offensive et défensive (novembre).</p>
         </div>
-        <div>
+        <div xml:id="r275075">
           <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#19d8faf5531a323f2d13f504f23ce5d605fe5550" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/19d8faf5531a323f2d13f504f23ce5d605fe5550/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Gouvernement de Monsieur aux Pays-Bas
@@ -211,7 +209,7 @@
           <p>Retraite du duc d’Alençon à Vilvorde et à Termonde. Henri III envoie Bellièvre à son frère pour le réconcilier avec les États. Le Taciturne fait reprendre les négociations avec Monsieur. Accord provisoire de Termonde (18 mars).</p>
           <p>Le duc d’Alençon à Dunkerque. Les négociations avec l’Espagne. Il attend des secours de France et d’Angleterre qui n’arrivent pas. Au moment d’être assiégé par les Espagnols, il revient en France (juin 1583).</p>
         </div>
-        <div>
+        <div xml:id="r275106">
           <pb source="https://nakala.fr/10.34847/nkl.77a72r0f#0a2211748154cc7a069b0ca3607ab8ada33206ca" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.77a72r0f/0a2211748154cc7a069b0ca3607ab8ada33206ca/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Traité de réconciliation avec les états. – Mort de

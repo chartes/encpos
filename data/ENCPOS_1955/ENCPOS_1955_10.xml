@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1955_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1955_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>Colette</forename>
         <surname>Jabraud</surname>
       </byline>
-      <div>
+      <div xml:id="r767531">
         <head rend="uc">Introduction</head>
         <p>Le « Pour monstrer et aprandre » est un style de procédure du Châtelet de Paris. Son auteur est inconnu. L’importance du Châtelet – prévôté ordinaire en droit, mais exceptionnelle de fait – ■ justifie l’étude d’un style de cette juridiction. Choppin, Laurière, Klimrath ont utilisé ou signalé celui-ci. Mais c’est M.A. Giffard qui a montré son véritable intérêt : ses rapports avec le Grand Coutumier de Jacques d’Ableiges.</p>
       </div>
@@ -65,10 +63,10 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r767550">
         <head rend="uc">Première partie
          <lb/>Étude externe</head>
-        <div>
+        <div xml:id="r767558">
           <head rend="uc">Chapitre premier
            <lb/>tradition.</head>
           <p>On possède trois manuscrits du « Pour monstrer » : le ms. 2794 du fonds Ottoboni de la Bibl. Vaticane, le ms. 18419 du fonds français de la Bibl. nationale de Paris et le ms. 14669 du fonds latin de cette même Bibliothèque. Un quatrième manuscrit, signalé par Salmon et M.A. Giffard, n’a pu être retrouvé. Le manuscrit du Vatican, qui est le plus complet et dans lequel la disposition des paragraphes est la plus satisfaisante, a été choisi comme manuscrit de base.</p>
@@ -79,17 +77,17 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r767582">
         <pb source="https://nakala.fr/10.34847/nkl.f4db93k7#2b5cae557ce51f07c961cdf2df9188c9729c3717" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.f4db93k7/2b5cae557ce51f07c961cdf2df9188c9729c3717/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Étude interne</head>
-        <div>
+        <div xml:id="r767595">
           <head rend="uc">Chapitre premier
            <lb/>les rapports
            <lb/>du « pour monstrer » et du grand coutumier. Sa date.</head>
           <p>Le « Pour monstrer » est antérieur à 1367. Les rapports avec le Grand Coutumier sont nombreux et importants. Ils ne suffisent peut-être pas à démontrer absolument que d’Ableiges l’a utilisé.</p>
         </div>
-        <div>
+        <div xml:id="r767609">
           <head rend="uc">Chapitre II
            <lb/>La procédure.</head>
           <p><hi rend="i">Introduction.</hi> – – L’organisation judiciaire du Châtelet.</p>
@@ -100,7 +98,7 @@
           <p><hi rend="i">Section V. Les exoines et les défauts.</hi> – Le texte mentionne encore les contremands. Les exoines : leur nature ; comment il convient de procéder pour se faire exoiner. Les défauts : d’une façon générale, le défaut du demandeur lui fait perdre sa demande et celui du défendeur fait triompher <hi rend="i">ipso facto</hi> son adversaire. La question de l’amende due par la partie défaillante n’est pas agitée. L’utilité du défaut doit être réclamée dans l’an et jour.</p>
           <p><hi rend="i">Section VI. La procédure criminelle.</hi> – Le « Pour monstrer » n’y fait que quelques allusions.</p>
         </div>
-        <div>
+        <div xml:id="r767668">
           <pb source="https://nakala.fr/10.34847/nkl.f4db93k7#b8c7ae817dfa0ff93301e2c5ad5c5bc17235894b" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.f4db93k7/b8c7ae817dfa0ff93301e2c5ad5c5bc17235894b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le droit privé.</head>

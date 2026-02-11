@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1938_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1938_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -70,17 +68,17 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r590510">
         <head rend="uc">Première partie
          <lb/>L’Hôtel-Dieu de la Madeleine</head>
-        <div>
+        <div xml:id="r590518">
           <head rend="uc">Chapitre premier
            <lb/>histoire de l’Hôtel-Dieu
            <lb/>jusqu’a la fin du <num>xv<hi rend="sup">e</hi></num> siècle.</head>
           <p>I. <hi rend="i">Les origines, établissement et développement.</hi> – Probabilité de l’existence d’un hôpital à Rouen avant le <pb source="https://nakala.fr/10.34847/nkl.bdb91772#930a93c4255c2ce9cdc25dda4ae699c354b22a7c" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.bdb91772/930a93c4255c2ce9cdc25dda4ae699c354b22a7c/full/full/0/default.jpg"/> <num>xii<hi rend="sup">e</hi></num> siècle. Protégé et enrichi par Henri II Plantagenêt, il se développe avec l’appui de l’archevêque, du chapitre et des rois de France.</p>
           <p>II. <hi rend="i">L’Hôtel-Dieu pendant les guerres et la domination anglaises.</hi> – Les ravages de la guerre de Cent ans appauvrissent l’Hôtel-Dieu en diminuant ses revenus et accroissant le nombre des pauvres à secourir. Il est ménagé et même favorisé par les nouveaux maîtres.</p>
         </div>
-        <div>
+        <div xml:id="r590560">
           <head rend="uc">Chapitre II
            <lb/>La vie intérieure de l’Hôtel-Dieu.</head>
           <p>I. <hi rend="i">La communauté.</hi> – Elle suit dès le début du <num>xiii<hi rend="sup">e</hi></num> siècle la règle de saint Augustin.</p>
@@ -88,7 +86,7 @@
           <p>III. <hi rend="i">Les religieux.</hi> – Recrutement, leurs attributions, le chapitre. Ils s’occupent surtout du service divin.</p>
           <p>IV. <hi rend="i">Les religieuses.</hi> – Le soin des malades leur est réservé. Les malades, les « rendus », les confréries.</p>
         </div>
-        <div>
+        <div xml:id="r590603">
           <head rend="uc">Chapitre III
            <lb/>Le temporel.</head>
           <p>I. <hi rend="i">Le patrimoine, sa formation.</hi> – L’Hôtel-Dieu reçoit surtout des patronages d’églises paroissiales en faveur desquelles sont consenties de nombreuses donations. La plupart sont à charge de fondations pieuses. L’Hôtel-Dieu est dispensé souvent des droits d’amortissement.</p>
@@ -97,7 +95,7 @@
           <p>II. <hi rend="i">Les exemptions de décimes et impôts.</hi> – Les droits sur les forêts, les droits de justice.</p>
           <p>III. <hi rend="i">Les quêtes, denier à Dieu, indulgences.</hi> – Les « charités casuelles » forment une part importante du revenu de l’Hôtel-Dieu. Le denier à Dieu, perçu d’abord dans la seule ville de Rouen, l’est après 1429 dans tout le diocèse. A la même époque, les quêtes sont facilitées par les indulgences. Les papes accordent à l’Hôtel-Dieu des indulgences de plus en plus importantes. Mode de publication des indulgences. Les procès ainsi occasionnés.</p>
         </div>
-        <div>
+        <div xml:id="r590641">
           <head rend="uc">Chapitre IV
            <lb/>La réforme de l’Hôtel-Dieu au <num>xvi<hi rend="sup">e</hi></num> siècle.</head>
           <p>I. <hi rend="i">Les premiers rapports de l’Hôtel-Dieu avec la ville de Rouen et le Parlement.</hi> – Les fréquentes épidémies de peste obligent le Conseil de la ville, l’Échiquier, puis le Parlement à prendre des mesures pour les prévenir et, en conséquence, à s’occuper de l’Hôtel-Dieu. Pour remédier aux abus qu’ils y constatent, plusieurs arrêts du Parlement introduisent un bourgeois dans l’administration du temporel.</p>
@@ -107,23 +105,23 @@
           <p>IV. <hi rend="i">U administration de l’Hôtel-Dieu au <num>xvi<hi rend="sup">e</hi></num> siècle.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r590695">
         <head rend="uc">Deuxième partie
          <lb/>La police des pauvres jusqu’à 1562</head>
-        <div>
+        <div xml:id="r590703">
           <head rend="uc">Chapitre premier
            <lb/>les premières mesures d’assistance
            <lb/>au début du <num>xvi<hi rend="sup">e</hi></num> siècle.</head>
           <p>En 1522, on voit pour la première fois le Parlement s’occuper des pauvres valides. L’ordonnance de cette date ainsi que les suivantes n’auront qu’un effet provisoire. Ce n’est qu’en 1552 que la police des pauvres est définitivement constituée, mais les mesures alors prises s’inspirent des décisions antérieures.</p>
         </div>
-        <div>
+        <div xml:id="r590723">
           <head rend="uc">Chapitre II
            <lb/>Les institutions et leur fonctionnement.</head>
           <p>I. <hi rend="i">La Chambre et le Bureau des pauvres.</hi> – La Chambre des pauvres est une chambre spéciale du Parlement qui rend les ordonnances générales relatives aux pauvres et juge les procès les concernant. Le Bureau des pauvres, réuni chaque semaine, expédie les affaires coulantes touchant les pauvres. Composition et fonctionnement de ces deux organismes.</p>
           <p>II. <hi rend="i">Le trésorier des pauvres.</hi> – Principal agent d’exécution, il s’occupe de toutes les affaires financières de la police des pauvres. Cette lourde charge <pb source="https://nakala.fr/10.34847/nkl.bdb91772#beb9fc270f22fda1cb56f2b6b5b71dc8a3038d9b" n="105" facs="https://api.nakala.fr/iiif/10.34847/nkl.bdb91772/beb9fc270f22fda1cb56f2b6b5b71dc8a3038d9b/full/full/0/default.jpg"/>est réservée aux bourgeois, ecclésiastiques et parlementaires s’en étant fait exempter. Le commis ou receveur du Bureau le décharge d’une partie de ses attributions en 1556.</p>
           <p>III. <hi rend="i">Les autres agents de la police des pauvres.</hi></p>
         </div>
-        <div>
+        <div xml:id="r590757">
           <head rend="uc">Chapitre III
            <lb/>Les ressources de la police des pauvres.</head>
           <p>I. <hi rend="i">La « cotisation » des ecclésiastiques.</hi> – Le Parlement demande aux ecclésiastiques ayant des maisons à Rouen en raison de leurs bénéfices, de participer aux frais de l’entretien de la police des pauvres. L’archevêque et le chapitre sont aussi « cotisés ».</p>
@@ -131,7 +129,7 @@
           <p>III. <hi rend="i">Autres ressources.</hi> – Part sur le revenu des bénéfices séquestrés, amendes de justice, quêtes, dons et legs.</p>
           <p>IV. <hi rend="i">Les rentes du Bureau des pauvres.</hi> – Commencée en 1545, la constitution de rentes au profit des pauvres est généralisée après 1552 et forme une part importante du revenu de la police des pauvres. Tableau des rentes jusqu’à 1562 d’après les cartulaires de l’Hospice général.</p>
         </div>
-        <div>
+        <div xml:id="r590794">
           <head rend="uc">Chapitre IV
            <lb/>L’œuvre de la police des pauvres.</head>
           <p>I. <hi rend="i">Mesures de police et de répression.</hi> – Les listes de <pb source="https://nakala.fr/10.34847/nkl.bdb91772#6758232c5e23ca71a949cdea670299e6180e301f" n="106" facs="https://api.nakala.fr/iiif/10.34847/nkl.bdb91772/6758232c5e23ca71a949cdea670299e6180e301f/full/full/0/default.jpg"/>pauvres ; leur formation. Nul ne peut être secouru sans y être inscrit ; l’inscription entraîne l’obligation de porter une marque et l’interdiction de mendier.</p>

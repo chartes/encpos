@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1905_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1905_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -65,7 +63,7 @@
         <head rend="uc">Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r290883">
         <head rend="uc">Première partie
          <lb/>Le fondateur et la fondation
          <lb/>(1394-1414)</head>
@@ -77,7 +75,7 @@
         <p>VI. – Achat, le 29 avril 1397, de l’hôtel du sire de Listenois, rue des Sept-Voies, où la communauté se transporte. Ce nouveau bâtiment du collège occupait la moitié de l’emplacement qu’occupe aujourd’hui dans la rue Valette la maison n° 21. Le n° 19 ne faisait certainement pas et n’a jamais fait partie du collège de Fortet. La partie méridionale du n° 21 est la « Corne de Cerf », annexée entre 1413 et 1417. Les bâtiments qui entourent la cour de l’immeuble n’existaient pas en 1397. A gauche de l’entrée s’élevait, sans doute, une construction légère, dont en 1397 on fit la chapelle (reproduction du plan de 1764).</p>
         <p>VII. – De 1397 à 1412. J. Chanteprime, doyen du Chapitre en 1403, gère seul et avec talent les biens du collège. – Il fait reconstruire l’hôtel de Listenois et lui ajoute son aile septentrionale. M<hi rend="sup">e</hi> J. François maintient la discipline et se montre bon maître, malgré de trop fréquentes absences. J. Chanteprime rend ses comptes le 11 août 1412. Il dirige l’établissement comme « Proviseur » jusqu’à sa mort (23 février 1414). Il a été le vrai créateur du collège.</p>
       </div>
-      <div>
+      <div xml:id="r290939">
         <pb source="https://nakala.fr/10.34847/nkl.9dbaj119#bc7a5817f3a74e64a79ab618e4faf71c08251217" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.9dbaj119/bc7a5817f3a74e64a79ab618e4faf71c08251217/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Ruine et relèvement
@@ -85,7 +83,7 @@
         <p>I. – J. Chanteprime étant mort, le Chapitre organise l’exercice de ses droits de supériorité. – On applique les statuts de 1396. Différends entre le maître elle Chapitre. M<hi rend="sup">e</hi> J. François est emprisonné à la demande des chanoines, puis relâché (3 novembre 1414). Bourguignon et dévoué à Jean sans Peur, il quitte Paris aux mains des Armagnacs (1416). Suppléance puis magistère de Jean de Rouvray (1416-1420). Mais J. François, revenu à la suite de Jean sans Peur, rentre en possession de son office en octobre 1421. M<hi rend="sup">e</hi> J. François, ambitieux et actif, joue un rôle important dans les affaires de l’Université. – En mars 1415, le collège acquiert de Charles de la Rivière, premier chambellan du duc de Guyenne, une rente de 200 11. tournois. – Depuis 1415, l’état du collège est lamentable. L’établissement est désert. Sa dotation s’anéantit. M<hi rend="sup">e</hi> J. François, longtemps distrait par des occupations extérieures, entreprend vers 1444 de la reconstituer.</p>
         <p>II. – Cette œuvre de relèvement matériel est menée à bien par M<hi rend="sup">e</hi> Jean de Haillies (1451-1483). Le Chapitre accomplit en même temps une réforme disciplinaire, quoique le caractère faible et plus austère de M<hi rend="sup">e</hi> J. de Haillies en fasse, à cet égard, un mauvais auxiliaire des proviseurs. Une scène de pugilat entre le maître et les boursiers. Procès contre les héritiers de Charles de la Rivière.</p>
       </div>
-      <div>
+      <div xml:id="r290981">
         <pb source="https://nakala.fr/10.34847/nkl.9dbaj119#f8ae57c88996e00c31b4ad822c26c83a00794e72" n="41" facs="https://api.nakala.fr/iiif/10.34847/nkl.9dbaj119/f8ae57c88996e00c31b4ad822c26c83a00794e72/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Le grand siècle du collège de Fortet
@@ -96,7 +94,7 @@
         <p>IV. – A sa mort, une cabale se forme pour installer à Fortet M<hi rend="sup">e</hi> Jean de Cinqarbres, professeur au collège royal, qui se fait élire par la communauté. Le Chapitre <pb source="https://nakala.fr/10.34847/nkl.9dbaj119#fa4961e588af58736e21c6dc237ad3742d5d99d5" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.9dbaj119/fa4961e588af58736e21c6dc237ad3742d5d99d5/full/full/0/default.jpg"/>attribue la principalité à l’un de ses membres, Jean de Goussancourt. Jean de Cinqarbres appelle comme d’abus. L’arrêt du 4 septembre 1376 le maintient dans la possession de son office. La guerre continue entre le Chapitre et le principal. Celui-ci essaie de méconnaître la supériorité de la Compagnie. L’arrêt du 3 juillet 1378 confirme, non sans remontrances, les droits du Chapitre. Les statuts de 1578. La paix n’est conclue qu’en février 1581. En 1579, achat de l’Image Saint-Pierre, rue des Sept-Voies.</p>
         <p>V. – Le Chapitre, à la mort de Cinqarbres, installe la ligue au collège de Fortet, avec Jean Boucher, curé de Saint-Benoît (1586-94). Les Mémoires – Journaux de l’Estoile – où nous relevons quelques erreurs de détail, nous renseignent sur les conspirations dont le collège fut alors le théâtre. Il devient, après la mort d’Henri III, le siège d’une sorte de gouvernement révolutionnaire, puis la popularité de Boucher décroît. La misère de Paris, sensible au collège, lasse les ligueurs. Henri IV entre dans la capitale. Boucher en sort avec la garnison espagnole.</p>
       </div>
-      <div>
+      <div xml:id="r291033">
         <head rend="uc">Quatrième partie
          <lb/>Médiocrité du collège au <num>xvii<hi rend="sup">e</hi></num> siècle
          <lb/>(1594-1704)</head>
@@ -105,7 +103,7 @@
         <p>II. – Le chanoine Ithier Chastelain (1620-1660) s’emploie à sauver la dotation compromise. Il fait reconstruire les maisons menacées d’effondrement, mais doit contracter des emprunts onéreux. – Le Chapitre qui, au début du siècle, se désintéressait du collège, s’en occupe de nouveau, mais pour le confisquer. Après le règlement u 14 novembre 1637, le collège devient le séminaire de la maîtrise de Notre-Dame. Les boursiers n’y prennent plus leurs degrés. Après la Fronde, la bonne administration de M<hi rend="sup">e</hi> Chastelain répare dans une certaine mesure les désastres de la première moitié du siècle. L’arrêt de 1629.</p>
         <p>III. – Le siècle se termine sans éclat et sans bruit pour Fortet, sous des principaux dociles. Les chanoines Jacques Séguier de la Verrière (1660-1662), qui quitte le principalat de Fortet pour le siège épiscopal de Lombez, et Turpin (1662-1664). Jean de la Morlière (1665-1686), les chanoines Antoine de Vrévin (1684-1694), principal peu zélé, et Honoré-Irénée-Chrysostome Perlan (1694-1704), honnête homme, naïf et sans énergie. La situation financière s’améliore peu.</p>
       </div>
-      <div>
+      <div xml:id="r291072">
         <head rend="uc">Cinquième partie
          <lb/>Les grandes querelles intestines
          <lb/>du <num>xviii<hi rend="sup">e</hi></num> siècle

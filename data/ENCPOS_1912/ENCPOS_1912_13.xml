@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1912_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1912_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,15 +60,15 @@
         <head rend="uc">Introduction. Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r363605">
         <head rend="uc">Première partie
          <lb/>Histoire de l’église</head>
-        <div>
+        <div xml:id="r363613">
           <head rend="uc">Chapitre premier
            <lb/>les origines</head>
           <p>On peut considérer comme certain que l’église doit son vocable au pieux solitaire qui vivait à Paris au milieu du <num>vi<hi rend="sup">e</hi></num> siècle. L’emplacement où s’élève l’édifice actuel a été occupé par une nécropole mérovingienne. Preuves de son existence. Il ne nous reste rien de l’église qui a dû être élevée aux environs de ce cimetière, non plus que de celle qui fut sans doute construite au milieu du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r363637">
           <head rend="uc">Chapitre II
            <lb/>Saint-Séverin du <num>xiii<hi rend="sup">e</hi></num> siècle au milieu du <num>xvi<hi rend="sup">e</hi></num></head>
           <p>Aucun document ne nous permet de fixer la date <pb source="https://nakala.fr/10.34847/nkl.f1f37tk4#885a3e95b36fada1e6506c98d48b4e6fd97ca1fe" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.f1f37tk4/885a3e95b36fada1e6506c98d48b4e6fd97ca1fe/full/full/0/default.jpg"/>exacte de la reconstruction, qui a dû être commencée au début du <num>xiii<hi rend="sup">e</hi></num> siècle. A cette époque l’église et la paroisse sont parmi les plus importantes de la rive gauche de la Seine ; le curé a le titre d’archiprêtre. Il nous reste de cette construction les trois premières travées de la nef, celles correspondantes du premier bas-côté sud et la tour.</p>
@@ -80,12 +78,12 @@
           <p>En 1498, Micheaul le Gros commence les chapelles du sud et aussi, sans doute, celles du nord. Elles sont achevées vers 1520. En 1540, la sacristie est reconstruite.</p>
           <p>A cette époque l’église est achevée.</p>
         </div>
-        <div>
+        <div xml:id="r363704">
           <head rend="uc">Chapitre III
            <lb/>Saint-Séverin du milieu du <num>xvi<hi rend="sup">e</hi></num> siècle à la Révolution</head>
           <p>Il n’y a pas de grandes modifications pendant cette période. En 1608, on termine les charniers à l’ouest. Le jubé est détruit en 1651. J.-H. Mansart élève, en 1673, la chapelle du Saint-Sacrement, au sud de l’église. En 1682-1683, Lebrun dessine un maître autel et une décoration du sanctuaire, qu’exécute Baptiste Tuby. Le buffet d’orgues est fait en 1745.</p>
         </div>
-        <div>
+        <div xml:id="r363722">
           <pb source="https://nakala.fr/10.34847/nkl.f1f37tk4#0005affb582b97d422afde1e97d3dbc40e2fd15e" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.f1f37tk4/0005affb582b97d422afde1e97d3dbc40e2fd15e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Saint-Séverin de la Révolution à nos jours</head>
@@ -94,80 +92,80 @@
           <p>Depuis, on n’a plus fait que les réparations indispensables à la conservation de l’édifice.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r363746">
         <head rend="uc">Deuxième partie
          <lb/>Description archéologique</head>
-        <div>
+        <div xml:id="r363754">
           <head rend="uc">Chapitre premier
            <lb/>l’église du <num>xiii<hi rend="sup">e</hi></num> siècle</head>
           <p>Elle ne comprenait qu’une nef accompagnée de collatéraux simples ; la tour était hors œuvre, ne tenant à la construction que par sa face méridionale. Preuves de ce fait. La nef et les bas-côtés avaient sans doute huit travées et se terminaient par un chevet plat. Indices qui permettent de supposer à Saint-Séverin cette forme, si fréquente dans la région parisienne au <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r363778">
           <head rend="uc">Chapitre II
            <lb/>Le plan</head>
           <p>Grande largeur du plan par rapport à sa longueur. Le terrain ne permettait pas à l’église de s’étendre à l’est. C’est le souci d’utiliser toute la place disponible <pb source="https://nakala.fr/10.34847/nkl.f1f37tk4#79bddcd23aa4efe2806f6b0bd2f7dbfdfac906ea" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.f1f37tk4/79bddcd23aa4efe2806f6b0bd2f7dbfdfac906ea/full/full/0/default.jpg"/>qui a causé les irrégularités du plan au nord. Influence du déambulatoire et du chevet de Notre-Dame de Paris sur ceux de Saint-Sévérin.</p>
         </div>
-        <div>
+        <div xml:id="r363795">
           <head rend="uc">Chapitre III
            <lb/>La nef</head>
           <p>Les trois premières travées sont de la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle ; les parties hautes n’ont dû être achevées qu’une vingtaine d’années après les parties basses. Les cinq travées suivantes, établies sur le même plan, sont de la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle. La galerie vitrée au-dessus des grandes arcades a été jadis un véritable triforium. Preuves de ce fait.</p>
         </div>
-        <div>
+        <div xml:id="r363819">
           <head rend="uc">Chapitre IV
            <lb/>Bas-cotés et chapelles sud</head>
           <p>Le premier bas-côté est. comme la nef, du <num>xiii<hi rend="sup">e</hi></num> et du <num>xv<hi rend="sup">e</hi></num> siècles. Élargissement de l’église au <num>xiv<hi rend="sup">e</hi></num> siècle par l’adjonction d’un second bas-côté non accompagné de chapelles. Date de ce bas-côté établie par l’étude des profils et des moulures.</p>
           <p>Reprise des retombées des voûtes du premier bas-côté au <num>xv<hi rend="sup">e</hi></num> siècle. Elude de ces retombées.</p>
           <p>Construction des chapelles entre les anciens contreforts an début du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r363867">
           <head rend="uc">Chapitre V
            <lb/>Bas-cotés et chapelles nord</head>
           <p>Les deux bas-côtés sont homogènes et de la même époque que les cinq dernières travées de la nef. Étude des petits personnages qui forment chapiteaux à la retombée. Les chapelles sont aussi ajoutées après coup au début du <num>xvi<hi rend="sup">e</hi></num> siècle. Les causes de leurs irrégularités.</p>
         </div>
-        <div>
+        <div xml:id="r363885">
           <pb source="https://nakala.fr/10.34847/nkl.f1f37tk4#53d1d09f6586566fcb2a4d42b29ee6653aa742ee" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.f1f37tk4/53d1d09f6586566fcb2a4d42b29ee6653aa742ee/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>L’abside et le déambulatoire</head>
           <p>Changement de l’ordonnance des travées. La forme des baies du triforium fait pressentir celles de l’architecture de la Renaissance. Etude du voûtement du double déambulatoire.</p>
         </div>
-        <div>
+        <div xml:id="r363902">
           <head rend="uc">Chapitre VII
            <lb/>La façade ouest et la tour</head>
           <p>Simplicité de cette façade. Elle n’est pas symétrique. Cela tient aux élargissements successifs de l’église. Elle n’est pas homogène. Description du portail de Saint-Pierre-aux-Bœufs. Il date du milieu du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>L’étage inférieur de la tour est occupé par le porche. Les deux étages supérieurs sont du <num>xiii<hi rend="sup">e</hi></num> siècle, comme le bas. La partie haute et la flèche en charpente sont de la fin du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r363935">
           <head rend="uc">Chapitre VIII
            <lb/>Façades latérales</head>
           <p>Aspect flamboyant de l’église au nord et au sud. Description des pignons qui surmontent les fenêtres des chapelles. Les arcs-boutants, les grandes fenêtres, la corniche.</p>
         </div>
-        <div>
+        <div xml:id="r363947">
           <head rend="uc">Chapitre IX
            <lb/>Le chevet</head>
           <p>Les pignons des chapelles sont plus simples que ceux des chapelles des bas-côtés ; ils leur sont antérieurs. <pb source="https://nakala.fr/10.34847/nkl.f1f37tk4#7626e59b6d5d5be0451f3a770ee6b001301a2162" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.f1f37tk4/7626e59b6d5d5be0451f3a770ee6b001301a2162/full/full/0/default.jpg"/>Heureuse disposition des arcs-boutants, qui leur permet d’assurer le contrebutement malgré leur sveltesse.</p>
         </div>
-        <div>
+        <div xml:id="r363964">
           <head rend="uc">Chapitre X
            <lb/>La construction</head>
           <p>Qualité des pierres dont est bâtie l’église. Elévation croissante des voûtes des bas-côtés et des chapelles pour assurer un meilleur éclairage. Étude du système de contrebutement des voûtes de la nef et de l’abside. Raisons de l’épaisseur anormale des piliers des bas-côtés.</p>
         </div>
-        <div>
+        <div xml:id="r363976">
           <head rend="uc">Chapitre XI
            <lb/>Dépendances</head>
           <p>Les sacristies. – La chapelle du Saint-Sacrement. – Les charniers ; intérêt de ces galeries qui ont rarement subsisté ailleurs ; leur destination. Forme irrégulière de leur plan ; leur ressemblance avec les galeries d’un cloître.</p>
         </div>
-        <div>
+        <div xml:id="r363988">
           <head rend="uc">Chapitre XII
            <lb/>Accessoires</head>
           <p>Autels. – Statues. – Peintures. – Vitraux des fenêtres hautes de la nef ; leur description détaillée. – Orgues. – Cloches. – Tombes et inscriptions funéraires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r364001">
         <head rend="uc">Appendices</head>
         <p>I. Noms successifs des chapelles.</p>
         <p>H. Essai d’une iconographie de l’église Saint-Séverin.</p>
       </div>
-      <div>
+      <div xml:id="r364014">
         <pb source="https://nakala.fr/10.34847/nkl.f1f37tk4#b7744a313f643cc4a85b1ebac82b966f3ee8c75d" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.f1f37tk4/b7744a313f643cc4a85b1ebac82b966f3ee8c75d/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Documents.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,25 +56,25 @@
         <surname>Guerreau-Jalabert</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1000981">
         <head rend="uc">Introduction</head>
         <p>Les travaux menés par les sociologues, depuis E. Durkheim jusqu’aux recherches les plus récentes, ont suffisamment démontré l’importance dans une société du ou des systèmes d’éducation qu’elle connaît pour qu’il ne soit plus nécessaire de justifier l’intérêt de telles études pour l’histoire de la période médiévale.</p>
         <p>Mais le Moyen Âge et surtout le haut Moyen Âge opposent à une telle recherche des problèmes spécifiques qui tiennent au manque d’unité de la société, au caractère encore lacunaire de la connaissance que nous en avons, au fait que nos sources sur le haut Moyen Âge sont presque exclusivement d’origine ecclésiastique. C’est donc le modèle clérical qui, parmi les divers types d’éducation que connaît cette période, nous apparaît le plus clairement. Si l’étude en est plus facile, elle peut aussi offrir l’intérêt de nous éclairer davantage sur la personnalité de ces clercs qui restent encore nos principaux informateurs sur ces temps reculés.</p>
         <p>Ce modèle lui-même offre au moins deux aspects complémentaires certes, mais différents : un aspect chrétien d’une part, un aspect plus proprement profane de l’autre, qui, avec la renaissance carolingienne, prend une place accrue et dont l’apprentissage de la <hi rend="i">grammatica</hi> semble être la pierre angulaire.</p>
         <p>C’est ce trait de l’éducation cléricale qui est ici étudié. Deux autres choix sont faits : celui d’un point d’observation, l’abbaye de Fleury-sur-Loire ; celui d’un moment, la seconde moitié du <num>x<hi rend="sup">e</hi></num> siècle et les toutes premières années du <num>xi<hi rend="sup">e</hi></num>. Cette recherche a pour pôle principal un personnage, Abbon de Fleury, écolâtre puis abbé de ce centre intellectuel florissant, choisi comme représentant d’un certain type de clercs, lettrés et enseignants à la fois ; et elle se noue autour de l’étude d’un des textes témoins de l’activité d’écolâtre d’Abbon : les <hi rend="i">Quaestiones grammaticales.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1001019">
         <pb source="https://nakala.fr/10.34847/nkl.fee5s6np#f42bc01203904a4a6d3d85d4a6bfae3e737150f6" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.fee5s6np/f42bc01203904a4a6d3d85d4a6bfae3e737150f6/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Fleury au temps d’Abbon</head>
-        <div>
+        <div xml:id="r1001032">
           <head rend="uc">Chapitre premier
            <lb/>la scola monastique au haut moyen âge</head>
           <p>L’existence d’une organisation scolaire dans les centres ecclésiastiques, épiscopaux et surtout monastiques, fait encore aujourd’hui l’objet de discussions. Il semble que l’ébauche d’une telle organisation n’apparaisse qu’avec la « renaissance » anglo-saxonne du <num>viii<hi rend="sup">e</hi></num> siècle.</p>
           <p>En revanche, pour la période carolingienne, textes réglementaires et manuscrits issus des <hi rend="i">scriptoria</hi> révèlent que l’on a cherché et réussi à développer ce système scolaire ; il fait une place importante à la science profane représentée essentiellement par la <hi rend="i">grammatica</hi> qui sert de fondement aussi à l’enseignement élémentaire de la lecture et du chant.</p>
           <p>Au <num>x<hi rend="sup">e</hi></num> siècle, l’Église, comme l’Empire, connaît une période de troubles ; les sources d’origine réglementaire s’effacent ; c’est aux documents d’origine scolaire qu’il faut demander ce qu’il est advenu, après deux siècles, du projet carolingien.</p>
         </div>
-        <div>
+        <div xml:id="r1001070">
           <head rend="uc">Chapitre II
            <lb/>L’école de Fleury et le personnage d’Abbon</head>
           <p>Bien que l’abbaye de Fleury ait été fondée, semble-t-il, au <num>vii<hi rend="sup">e</hi></num> siècle, la première mention de la <hi rend="i">scola</hi> de ce monastère n’apparaît qu’au début du <num>ix<hi rend="sup">e</hi></num> siècle, au moment où Théodulfe en est abbé.</p>
@@ -87,10 +85,10 @@
           <p>Ces œuvres sont visiblement liées à son activité d’écolâtre ; c’est le cas en particulier des <hi rend="i">Quaestiones grammaticales</hi> à travers lesquelles on peut essayer de mieux saisir la nature de l’enseignement grammatical en cette période.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1001146">
         <head rend="uc">Deuxième partie
          <lb/>Étude des « Quaestiones grammaticales »</head>
-        <div>
+        <div xml:id="r1001154">
           <head rend="uc">Chapitre premier
            <lb/>étude linguistique</head>
           <p>L’étude du texte des <hi rend="i">Quaestiones grammaticales</hi> permet tout d’abord de relever les traits caractéristiques du latin écrit par un spécialiste de <hi rend="i">grammatica.</hi></p>
@@ -102,7 +100,7 @@
           <p>L’influence tardive se fait de même sentir de façon nette dans le choix des mots outils et des modes d’expression qui ne sont plus ceux de l’époque classique.</p>
           <p>La langue d’Abbon respecte donc sur certains points le canon classique, mais se rattache aussi par d’autres aspects à la tradition tardive et chrétienne.</p>
         </div>
-        <div>
+        <div xml:id="r1001251">
           <head rend="uc">Chapitre II
            <lb/>Le contenu théorique</head>
           <p>Les <hi rend="i">Quaestiones grammaticales</hi> ne sont pas un traité complet de grammaire, mais un choix de questions qui, présenté sous une forme épistolaire, nous semble plus proche de l’enseignement que bien des traités de l’époque carolingienne.</p>
@@ -111,7 +109,7 @@
           <p>La « syntaxe », enfin, s’attache à quelques points précis : complément du comparatif, participe futur, zeugma, usage de la négation et de la privation ; elle montre, de même que la prosodie, l’extension de la <hi rend="i">grammatica</hi> aux dépens de la rhétorique et de la dialectique dans le système médiéval du <hi rend="i">trivium.</hi></p>
           <p>De plus ce contenu théorique des <hi rend="i">Quaestiones</hi> nous apparaît étroitement lié à la pratique de la langue latine étudiée au chapitre précédent et nous semble expliquer en grande partie les caractères de la « latinité » d’Abbon.</p>
         </div>
-        <div>
+        <div xml:id="r1001298">
           <head rend="uc">Chapitre III
            <lb/>La culture latine</head>
           <p>Les <hi rend="i">Quaestiones grammaticales</hi> permettent enfin d’étudier plus largement les caractères de cette culture grammaticale et latine.</p>
@@ -121,10 +119,10 @@
           <p>De plus, en même temps qu’il transmet ce savoir, le maître inculque aussi à ses disciples un certain rapport à ce savoir : le respect dû à un héritage prestigieux, celui de l’Antiquité classique, que l’on croit avoir retrouvé.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1001347">
         <head rend="uc">Troisième partie
          <lb/>La bibliothèque de Fleury</head>
-        <div>
+        <div xml:id="r1001355">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits profanes à la fin du <num>x<hi rend="sup">e</hi></num> siècle</head>
           <p>Il a semblé nécessaire de confronter les observations faites sur le texte des <hi rend="i">Quaestiones</hi> avec le contenu de la bibliothèque fleurisienne. Le premier <pb source="https://nakala.fr/10.34847/nkl.fee5s6np#659b0b3d3ae55452d2d0751610a356a432bc6ab0" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.fee5s6np/659b0b3d3ae55452d2d0751610a356a432bc6ab0/full/full/0/default.jpg"/>témoin qui nous reste de l’intérêt manifesté à Fleury pour la culture profane est sans doute le ms. Berne 207 qui date de la fin du <num>viii<hi rend="sup">e</hi></num> siècle ou du début du <num>ix<hi rend="sup">e</hi></num> et qui a sans doute été écrit au <hi rend="i">scriptorium</hi> de l’abbaye. Notre <hi rend="i">terminus ad quem</hi> dans cette recherche est fixé aux toutes premières années du <num>xi<hi rend="sup">e</hi></num> siècle puisqu’il nous intéressait de savoir quels manuscrits Abbon avait pu avoir à sa disposition.</p>
@@ -132,17 +130,17 @@
           <p>L’étude de ces manuscrits qui apparaissent le plus souvent sous forme de recueils de textes divers destinés à l’enseignement de telle ou telle discipline confirme les conclusions que nous avions cru pouvoir tirer de l’analyse du texte d’Abbon : prépondérance de la <hi rend="i">grammatica</hi> sur les deux autres arts du <hi rend="i">trivium,</hi> bien que la dialectique semble commencer à se développer un peu à l’époque d’Abbon ; existence de deux couches d’autorités à la source de cet enseignement, les œuvres de l’Antiquité tardive d’une part, celles de l’époque carolingienne de l’autre. De plus il apparaît nettement que les œuvres de l’Antiquité classique n’occupent pas une place réelle dans la culture grammaticale et dans son enseignement ; le rôle qu’ils jouaient dans l’école antique est tenu à l’époque médiévale par les œuvres des poètes chrétiens Prudence, Arator et Sedulius.</p>
           <p>Il semble enfin que les livres n’aient tenu dans la transmission du savoir qu’une place secondaire par rapport à celle de l’oral.</p>
         </div>
-        <div>
+        <div xml:id="r1001425">
           <head rend="uc">Chapitre II
            <lb/>Notices des manuscrits</head>
           <p>Nous avons rassemblé dans ce chapitre les notices détaillées des quarante manuscrits que nous avons étudiés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1001438">
         <head rend="uc">Conclusion</head>
         <p>Au terme de cette étude, la <hi rend="i">grammatica</hi> semble bien être, à la fin du <num>x<hi rend="sup">e</hi></num> siècle encore, l’élément principal de la culture profane du <hi rend="i">trivium ;</hi> les traits que son enseignement revêt expliquent certaines caractéristiques de la langue <pb source="https://nakala.fr/10.34847/nkl.fee5s6np#538efccb35a1addcce20744c39c835b3b1527fb4" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.fee5s6np/538efccb35a1addcce20744c39c835b3b1527fb4/full/full/0/default.jpg"/>latine du haut Moyen Âge ; ils montrent aussi que cette période a renoué avec la culture latine tardive, et non classique, et que l’on ne peut sans doute vraiment parler d’humanisme pour cette époque au sens où l’on entend ce mot pour la Renaissance du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1001473">
         <head rend="uc">Édition</head>
         <p>Texte des <hi rend="i">Quaestiones grammaticales,</hi> établi d’après les mss. Vatican, Reg. lat. 596, et Londres, British Museum, Add. 10972.</p>
         <pb source="https://nakala.fr/10.34847/nkl.fee5s6np#54c9bd152554300930632994c8194563a71c719b" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.fee5s6np/54c9bd152554300930632994c8194563a71c719b/full/full/0/default.jpg"/>

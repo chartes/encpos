@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,17 +56,17 @@
         <surname>Dubois</surname>
         <roleName>Licencié en droit, Licencié ès lettres, Diplômé d’études supérieures des langues classiques</roleName>
       </byline>
-      <div>
+      <div xml:id="r564834">
         <head rend="uc">Introduction
          <lb/>exposé de diplomatique byzantine</head>
-        <div>
+        <div xml:id="r564842">
           <head rend="uc">Chapitre premier
            <lb/>transmission des actes byzantins.</head>
           <p>Les actes byzantins sont connus soit par de simples copies, plus ou moins anciennes, soit par des copies authentiquées par l’autorité ecclésiastique ou par la chancellerie impériale, soit enfin par les originaux eux-mêmes.</p>
           <p>Des copies trompeuses ou des faux se rencontrent à côté des diplômes originaux.</p>
           <p>Aucun registre de chancellerie n’a subsisté.</p>
         </div>
-        <div>
+        <div xml:id="r564860">
           <pb source="https://nakala.fr/10.34847/nkl.983aa5k7#e1523d11643c92071ec5b532d58768dbb007db97" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.983aa5k7/e1523d11643c92071ec5b532d58768dbb007db97/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Archives ou sont conservés
@@ -76,31 +74,31 @@
           <p>La plupart des actes byzantins subsistant sont conservés avec un soin jaloux dans les monastères de l’ancien Empire byzantin, spécialement dans ceux de l’Athos, dans le couvent de Lavra en particulier.</p>
           <p>Le plus ancien chrysobulle original date de 1052.</p>
         </div>
-        <div>
+        <div xml:id="r564882">
           <head rend="uc">Chapitre III
            <lb/>Diverses sortes d’actes byzantins.</head>
           <p>Actes privés ; actes provenant des chancelleries ecclésiastiques ; actes émanés d’un fonctionnaire ; actes impériaux.</p>
         </div>
-        <div>
+        <div xml:id="r564894">
           <head rend="uc">Chapitre IV
            <lb/>La chancellerie impériale byzantine</head>
           <p>Le chef de la chancellerie est d’abord le questeur ; au <num>xi<hi rend="sup">e</hi></num> siècle, le protasecretis devient le directeur des bureaux. Depuis le <num>viii<hi rend="sup">e</hi></num> siècle, le logothète du drome est chargé des actes pour des destinataires étrangers. L’έπὶ τοῦ ϰανιϰλείου ou « préposé à l’encrier » s’occupe, à partir du <num>ix<hi rend="sup">e</hi></num> siècle, des mentions en rouge à mettre sur les chartes. Le μυστιϰός rédigeait la correspondance privée de l’Empereur. Après 1204, le Grand Logothète succède à la fois au protasecretis et au logothète du drome, et il n’existe plus de chancellerie organisée.</p>
         </div>
-        <div>
+        <div xml:id="r564924">
           <pb source="https://nakala.fr/10.34847/nkl.983aa5k7#62888c9aa91fbde8f33610fa32dc63c6a491e598" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.983aa5k7/62888c9aa91fbde8f33610fa32dc63c6a491e598/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Les actes impériaux
            <lb/>du groupe des <hi rend="i">prostagmata</hi>.</head>
           <p>Les actes impériaux les moins solennels s’appellent <hi rend="i">prostagmata ;</hi> ils sont écrits sur papier, de petite dimension ; ce sont des ordres administratifs validés par le ménologe inscrit en grandes lettres rouges par l’Empereur.</p>
         </div>
-        <div>
+        <div xml:id="r564951">
           <head rend="uc">Chapitre VI
            <lb/>Les actes impériaux intermédiaires
            <lb/>entre les <hi rend="i">prostagmata</hi>.
            <lb/>Et les actes très solennels.</head>
           <p>Ce groupe comprend les édits ; les « lettres pour l’étranger » qui peuvent être écrites en lettres d’or sur vélin pourpre et en plusieurs langues ; le <hi rend="i">kodikellos,</hi> diplôme de luxe nommant à une dignité ; le <hi rend="i">sigillion,</hi> forme d’apparat des décisions impériales.</p>
         </div>
-        <div>
+        <div xml:id="r564979">
           <head rend="uc">Chapitre VII</head>
           <p>LES ACTES TRÈS SOLENNELS : χρυσόβουλλον σιγίλλιον ou χρυσόβουλλος λόγος.</p>
           <p>Les chrysohulles apparaissent au début du <num>ix<hi rend="sup">e</hi></num> siècle ; ils sont désignés d’abord le plus souvent du nom de χρυσόβουλλον σεγίλλιον ; puis la qualification de χρυσόβουλλος λόγος est préférée à la fin du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
@@ -111,34 +109,34 @@
           <p>Un <hi rend="i">Legimus</hi> à l’encre rouge a fait place, au <num>vii<hi rend="sup">e</hi></num> siècle, au terme de récognition <hi rend="i">Legi.</hi> Du <num>xi<hi rend="sup">e</hi></num> au <num>xiii<hi rend="sup">e</hi></num> siècle, le <hi rend="i">Legimus</hi> précède sur les originaux et remplace dans les copies de la chancellerie impériale la souscription nominale de l’Empereur, qui écrit son nom et sa titulature à l’encre rouge à la fin du chrysobulle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r565069">
         <head rend="uc">Première partie
          <lb/>Préliminaires généraux</head>
-        <div>
+        <div xml:id="r565077">
           <pb source="https://nakala.fr/10.34847/nkl.983aa5k7#02952b0d71f9e78403c6b2c56a1819febf5c968f" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.983aa5k7/02952b0d71f9e78403c6b2c56a1819febf5c968f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>nature et durée du préambule
            <lb/>du diplôme byzantin.</head>
           <p>Le diplôme byzantin est le privilège chrysobulle accordé par l’Empereur. Le préambule du diplôme byzantin est un <hi rend="i">communis locus,</hi> motivation générale de l’acte et ornement du discours diplomatique. Le préambule peut se trouver dans le diplôme byzantin jusqu’à la fin de l’Empire d’Orient.</p>
         </div>
-        <div>
+        <div xml:id="r565100">
           <head rend="uc">Chapitre II
            <lb/>L’absence du préambule
            <lb/>dans les diplômes byzantins.</head>
           <p>De 873 à 1282, sur cent diplômes actuellement connus, quarante-six sont dépourvus de préambule. On peut ordinairement donner une raison à l’absence de préambule dans ces actes impériaux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r565115">
         <head rend="uc">Deuxième partie
          <lb/>Le contenu et la forme
          <lb/>des préamrules</head>
-        <div>
+        <div xml:id="r565125">
           <head rend="uc">Chapitre premier
            <lb/>l’adaptation du préambule au dispositif
            <lb/>du diplôme.</head>
           <p>L’adaptation du préambule au dispositif du di<pb source="https://nakala.fr/10.34847/nkl.983aa5k7#ad8e1f957c3173d1b0b9d16e6e41a174872478b6" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.983aa5k7/ad8e1f957c3173d1b0b9d16e6e41a174872478b6/full/full/0/default.jpg"/>plôme est en général convenable, mais elle peut aussi rester assez vague ; le préambule forme même quelquefois un développement absolument indépendant.</p>
         </div>
-        <div>
+        <div xml:id="r565144">
           <head rend="uc">Chapitre II
            <lb/>Les différents thèmes des préambules.</head>
           <p>Les préambules à thème religieux, les plus nombreux, expriment habituellement la pensée qu’il est convenable pour un empereur de faire du bien aux hommes pieux, afin que ceux-ci prient pour le souverain et le public. Parfois le préambule religieux est un exposé dogmatique ou une sorte de petit sermon.</p>
@@ -146,52 +144,52 @@
           <p>Les préambules de thème moral peuvent être faits de maximes, telles qu’en écrirait un moraliste.</p>
           <p>Le préambule philosophique est très rare.</p>
         </div>
-        <div>
+        <div xml:id="r565165">
           <head rend="uc">Chapitre III
            <lb/>Les modes de développement des thèmes.</head>
           <p>Des comparaisons présentent l’Empereur comme un soleil éclatant. Des métaphores font d’or ce qui appartient au souverain. De larges symboles montrent dans l’Empire un édifice ou un vaisseau endommagé, ou font entrer le lecteur dans un jardin mystique.</p>
           <p>Quelques développements sont fournis par des citations, rarement textuelles, de l’Écriture. L’An<pb source="https://nakala.fr/10.34847/nkl.983aa5k7#445e2acfa64a542ab7776881e259ade2ec8783c8" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.983aa5k7/445e2acfa64a542ab7776881e259ade2ec8783c8/full/full/0/default.jpg"/>cien Testament est au moins aussi souvent utilisé que le Nouveau.</p>
         </div>
-        <div>
+        <div xml:id="r565185">
           <head rend="uc">Chapitre IV
            <lb/>Les sources des préambules.</head>
           <p>Les préambules actuellement connus paraissent être originaux dans la proportion de un sur cinq. Des préambules en imitent, semble-t-il, d’autres, mais jamais un préambule ne reproduit exactement, même en partie, un préambule. La variété est un des traits les plus caractéristiques du préambule des diplômes byzantins.</p>
         </div>
-        <div>
+        <div xml:id="r565197">
           <head rend="uc">Chapitre V
            <lb/>Les procédés de composition des préambules.</head>
           <p>Dans les préambules, trouvent place : l’interrogation, la symétrie, l’opposition, la gradation, procédés de rhétorique ; la déduction, la démonstration, l’argumentation dialectique, procédés logiques ; l’apologue, la narration, procédés psychologiques ; les maximes, les transitions légères, procédés littéraires.</p>
         </div>
-        <div>
+        <div xml:id="r565209">
           <head rend="uc">Chapitre VI
            <lb/>(la langue et le style des préambules.</head>
           <p>La langue des préambules est noble et ordinairement claire. Le style est souvent redondant, mais toujours varié.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r565222">
         <pb source="https://nakala.fr/10.34847/nkl.983aa5k7#2d8429533d4791cb3c616b9c2c6a174f82cdb8b0" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.983aa5k7/2d8429533d4791cb3c616b9c2c6a174f82cdb8b0/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>L’Évolution historique du préamrule</head>
-        <div>
+        <div xml:id="r565235">
           <head rend="uc">Chapitre premier
            <lb/>les préambules,
            <lb/>des Origines au milieu du <num>xi<hi rend="sup">e</hi></num> siècle.</head>
           <p>La littérature des préambules a déjà une vie propre et elle produit des pièces originales.</p>
         </div>
-        <div>
+        <div xml:id="r565255">
           <head rend="uc">Chapitre II
            <lb/>Les préambules,
            <lb/>du milieu du <num>xi<hi rend="sup">e</hi></num> siècle
            <lb/>a l’avènement des comnènes.</head>
           <p>Les préambules deviennent plus fréquents et moins pieux. Ils peuvent contenir plusieurs images courtes ou une seule longue comparaison.</p>
         </div>
-        <div>
+        <div xml:id="r565277">
           <head rend="uc">Chapitre III
            <lb/>Les préambules
            <lb/>pendant le règne d’Alexis I<hi rend="sup">er</hi> Comnène.</head>
           <p>Les préambules sont moins nombreux, moins imagés et plus courts. D’une expression abstraite et redondante, ils tendent vers le genre de la maxime morale. La noblesse de leur style évolue vers le formalisme.</p>
         </div>
-        <div>
+        <div xml:id="r565295">
           <pb source="https://nakala.fr/10.34847/nkl.983aa5k7#f7e1ea3ce1bbdf6ddecae0f6d934e7edfdf15c68" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.983aa5k7/f7e1ea3ce1bbdf6ddecae0f6d934e7edfdf15c68/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les préambules
@@ -199,7 +197,7 @@
            <lb/>(1118-1204).</head>
           <p>Les préambules sont plus rares encore. La rhétorique disparaît bientôt complètement. A la maxime morale est préférée la dissertation psychologique ou le large tableau vivant.</p>
         </div>
-        <div>
+        <div xml:id="r565316">
           <head rend="uc">Chapitre V
            <lb/>Les préambules, de la conquête latine
            <lb/>a la fin du règne de Michel VIII paléologue
@@ -207,7 +205,7 @@
           <p>Le nombre des préambules redevient moyen. Dans cette période apparaissent deux nouveaux genres de préambules : le préambule lyrico-mystique, inspiré par les Psaumes, et le préambule philosophique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r565333">
         <head rend="uc">Conclusion</head>
         <p>Tandis que le préambule des diplômes occidentaux évolue peu, le préambule des diplômes byzantins est toujours varié et souvent original et il constitue jusqu’à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle un genre littéraire vivant.</p>
         <pb source="https://nakala.fr/10.34847/nkl.983aa5k7#edbfda1f182478a47fe21d4749930d3314c6d1cb" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.983aa5k7/edbfda1f182478a47fe21d4749930d3314c6d1cb/full/full/0/default.jpg"/>

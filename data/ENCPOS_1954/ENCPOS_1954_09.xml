@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1954_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1954_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,24 +62,24 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r756567">
         <head rend="uc">Première partie
          <lb/>Les représentations de la « musique »</head>
-        <div>
+        <div xml:id="r756575">
           <head rend="uc">Chapitre premier
            <lb/>la musique et les arts libéraux.</head>
           <p>La musique théorique, la seule à mériter au Moyen Age le nom de <hi rend="i">musica,</hi> a sa place parmi les Arts libéraux. Ceux-ci sont représentés dans les cathédrales du <num>xiii<hi rend="sup">e</hi></num> siècle par de majestueuses jeunes femmes portant des attributs, personnifications empruntées à l’ouvrage de Martianus Capella, les « Noces de Mercure et de Philologie » (<num>v<hi rend="sup">e</hi></num> siècle), mais retouchées par les artistes médiévaux. La figuration la plus changée est 1’« Harmonie » antique, qui abandonne son cortège et sa cithare d’or pour frapper avec des marteaux un jeu de clochettes qu’elle doit à Pythagore. Elle est presque ignorée des manuscrits qui la figurent avec ou sans instrument (harpe, orgue, psaltérion) et donnent son carillon à des musiciens anonymes chargés de la représenter, ainsi qu’à Jubal et David.</p>
         </div>
-        <div>
+        <div xml:id="r756603">
           <head rend="uc">Chapitre II
            <lb/>La musique et l’allégorie.</head>
           <p>Quelques musiciens célèbres de la fable antique, Apollon, les Muses, Orphée, etc., survivent dans les manuscrits médiévaux. Excepté dans les <pb source="https://nakala.fr/10.34847/nkl.dc631n2i#8a3e1024af42392e62a09918b300f27d391b5a02" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc631n2i/8a3e1024af42392e62a09918b300f27d391b5a02/full/full/0/default.jpg"/>« Métamorphoses » d’Ovide allégorisées, où leur description est si précise qu’elle appelle l’illustration, ils sont rares et apparaissent dans des manuscrits inattendus. Tantôt engagés dans l’action, tantôt immobilisés avec leurs attributs, ils sont toujours accompagnés d’un instrument de musique. Ces instruments se trouvent aussi entre les mains de quelques allégories médiévales dont le rapport avec la musique est plus ou moins lointain (Art, Renommée, Orgueil, Latrie, etc.).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r756621">
         <head rend="uc">Deuxième partie
          <lb/>Les thèmes bibliques</head>
-        <div>
+        <div xml:id="r756629">
           <head rend="uc">Section I. Ancien testament</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -94,7 +92,7 @@
             <p>Les thèmes iconographiques de l’Ancien Testament, si l’on met à part David et quelques personnages mineurs (Jubal, Josué, Gédéon et Jephté), ne comportent pas de participation musicale fixe. Les musiciens qui peuplent les Bibles moralisées apparaissent de façon épisodique dans les circonstances les plus variées de la vie d’Israël.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r756660">
           <pb source="https://nakala.fr/10.34847/nkl.dc631n2i#a3ae66dca687457de2dd83d3303fd95f4d1178ef" n="57" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc631n2i/a3ae66dca687457de2dd83d3303fd95f4d1178ef/full/full/0/default.jpg"/>
           <head rend="uc">Section II. Nouveau testament</head>
           <div>
@@ -124,20 +122,20 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r756738">
         <head rend="uc">Troisième partie
          <lb/>Les thèmes profanes</head>
-        <div>
+        <div xml:id="r756746">
           <head rend="uc">Chapitre premier
            <lb/>les jongleurs.</head>
           <p>Les musiciens professionnels représentés dans les manuscrits vont de la plèbe des jongleurs à la classe plus élevée des ménestrels et même des compositeurs, mais seuls les premiers y foisonnent, avec leurs instruments, leurs animaux et leurs danses. Leur place est le plus souvent dans les marges, mais ils s’introduisent dans les miniatures pour accompagner les scènes de la vie quotidienne. La cathédrale ne fait une petite place qu’aux instrumentistes solitaires.</p>
         </div>
-        <div>
+        <div xml:id="r756758">
           <head rend="uc">Chapitre II
            <lb/>La vie quotidienne.</head>
           <p>La musique égaie différents épisodes de la vie quotidienne : mariage (fête et charivari), repas, danses (parfois allégoriques) et divertissements variés. D’autres activités, qui se déroulent au son des hauts instruments (chasse, tournoi, guerre, voyage), mettent moins l’accent sur le facteur musical, mais dénotent cependant un goût très vif pour tout ce qui résonne, goût dont l’influence se fait sentir jusque dans le costume et dans le mobilier.</p>
         </div>
-        <div>
+        <div xml:id="r756770">
           <head rend="uc">Chapitre III
            <lb/>Animaux et grotesques musiciens.</head>
           <p>La musique trouve des interprètes inattendus en la personne des animaux et des grotesques. Simple fantaisie d’artiste ou satire des musiciens professionnels, ils animent les marges de leurs silhouettes et pénètrent <pb source="https://nakala.fr/10.34847/nkl.dc631n2i#66e74307a21ab7c5097a2cf3b7f39dab76d48c8d" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.dc631n2i/66e74307a21ab7c5097a2cf3b7f39dab76d48c8d/full/full/0/default.jpg"/>rarement (et les animaux seuls) dans les miniatures où ils illustrent alors des textes précis (Bestiaire et « Roman de Renart »).</p>

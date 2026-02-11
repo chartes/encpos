@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,33 +56,33 @@
         <forename>Anne-Marie</forename>
         <surname>Enaux-Moret</surname>
       </byline>
-      <div>
+      <div xml:id="r891134">
         <head rend="uc">Sources</head>
         <p>Les séries de la Correspondance politique, fonds Allemagne, et des Mémoires et documents, fonds France, aux Archives des Affaires étrangères, constituent la source principale de cette étude. Les collections Baluze, Dupuy et les Cinq-cents de Colbert, conservées à la Bibliothèque nationale, ainsi que les séries E et 0<hi rend="sup">1</hi> des Archives nationales, ont également été utilisées.</p>
       </div>
-      <div>
+      <div xml:id="r891148">
         <head rend="uc">Introduction</head>
         <p>Richelieu et Mazarin disposèrent pendant leurs ministères d’un corps de collaborateurs efficaces, issus d’une même catégorie sociale, et formés dans les étapes successives de carrières analogues.</p>
         <p>L’étude de l’activité professionnelle de l’un de ces fidèles dans ses diverses fonctions permet d’aborder l’institution sous son aspect mouvant et humain. Au delà des limites d’une simple biographie, elle aide à saisir la mentalité d’un groupe d’hommes qui jouèrent un rôle déterminant dans la politique française de la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r891167">
         <pb source="https://nakala.fr/10.34847/nkl.348c1ad8#235ce9602c05392d2d2bea5c97be9164af9e5d37" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.348c1ad8/235ce9602c05392d2d2bea5c97be9164af9e5d37/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Premières charges pendant le ministère de Richelieu</head>
-        <div>
+        <div xml:id="r891180">
           <head rend="uc">Chapitre premier
            <lb/>les débuts de la carrière de Servien (1593-1629)</head>
           <p>Abel Servien naquit, en 1593, d’une longue lignée de conseillers et procureurs au Parlement de Grenoble. Il appartient de ce fait à un groupe social en plein essort, celui de la noblesse de robe.</p>
           <p>Procureur général au Parlement de Grenoble de 1616 à 1624, ses mérites lui valurent très tôt un brevet de conseiller du roi (1617). Sa nomination de maître des requêtes en 1624 le fit entrer dans ce corps de commis privilégiés appelés à de plus hautes responsabilités. Il fit preuve d’une habileté suffisante, lors d’une première mission en Guyenne, pour y être délégué de façon permanente : pourvu d’une commission d’intendant, il acheva de rompre avec ses origines parlementaires et représenta dans cette province le pouvoir royal face à l’insubordination des cours souveraines.</p>
         </div>
-        <div>
+        <div xml:id="r891195">
           <head rend="uc">Chapitre II
            <lb/>Abel Servien en Italie (1629-1630)</head>
           <p>La lutte contre les Habsbourg dominait toujours la politique étrangère de la France et l’Italie allait en être le théâtre. A la question de la Valteline, s’ajoutait la succession litigieuse des duchés de Mantoue et de Montferrat échue à un prince français. Une expédition militaire conduite par Richelieu apporta une solution temporaire à cette affaire, dont le règlement permit à Servien une première expérience diplomatique à Turin ; ce fut l’occasion d’une première rencontre avec Mazarin.</p>
           <p>Une seconde expédition militaire se révéla nécessaire et Servien accompagna cette fois Richelieu en qualité d’intendant de l’armée d’Italie (1630). Ses fonctions administratives et judiciaires lui valurent une participation à la conclusion de la trève de Rivalta, avant sa désignation pour la négociation d’un traité définitif.</p>
           <p>En janvier 1631, il fut l’un des deux ambassadeurs extraordinaires envoyés à Cherasco, où il rencontra les princes de Savoie, le médiateur pontifical Mazarin, et Gallas, le représentant de l’Empire. De longues et délicates conférences aboutirent à la conclusion des traités de Cherasco (30 mars-6 avril-19 juin 1631), dont le mérite revenait en grande partie à Servien.</p>
         </div>
-        <div>
+        <div xml:id="r891213">
           <pb source="https://nakala.fr/10.34847/nkl.348c1ad8#67e440b97c356a9d32e45f84a11791d74feb1d3d" n="57" facs="https://api.nakala.fr/iiif/10.34847/nkl.348c1ad8/67e440b97c356a9d32e45f84a11791d74feb1d3d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le secrétaire d’état à la guerre (1630-1636)</head>
@@ -93,16 +91,16 @@
           <p>Après avoir négocié l’indemnisation de sa charge, il partit pour l’Anjou en 1636, sans avoir perdu l’estime de Richelieu. Son mariage dans cette province avec la veuve d’un seigneur de Cheverny et les nombreuses relations littéraires qu’il y entretint adoucirent les rigueurs d’un éloignement forcé (1636-1643).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r891237">
         <head rend="uc">Deuxième partie
          <lb/>Abel Servien au service de Mazarin.
          <lb/>Négociations des traités de westphalie</head>
-        <div>
+        <div xml:id="r891247">
           <head rend="uc">Chapitre premier
            <lb/>le retour en grâce</head>
           <p>Après la mort de Richelieu et celle de Louis XIII, l’entrée de Mazarin au Conseil et la protection du nouveau ministre furent pour Servien le départ d’une seconde et plus brillante carrière. Un congrès de la paix allait s’ouvrir à Münster, dont on attendait la fin de la guerre de Trente ans et la pacification générale. Le souvenir laissé par la négociation de Cherasco intervint dans le choix des plénipotentiaires et Abel Servien reçut, avec Claude de Mesme, comte d’Avaux, pleins pouvoirs d’ambassadeurs extraordinaires, sous la direction du duc de Longueville (septembre 1643).</p>
         </div>
-        <div>
+        <div xml:id="r891259">
           <pb source="https://nakala.fr/10.34847/nkl.348c1ad8#f63a40c94ad07645e65b492e9ef8e916d71c155f" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.348c1ad8/f63a40c94ad07645e65b492e9ef8e916d71c155f/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La négociation des traités</head>
@@ -111,13 +109,13 @@
           <p>La réception et l’élaboration des « dépêches de la paix » à Paris justifièrent la mise en place et le fonctionnement d’un dispositif particulier, mais le travail essentiel passait par les mains d’Hugues de Lionne, secrétaire de Mazarin, qui rapportait directement au cardinal lui-même, sans passer par les services du secrétaire d’État aux Affaires étrangères, Loménie de Brienne, réduit à un rôle secondaire.</p>
           <p>La vie et l’organisation de l’ambassade française à Münster nécessitaient des dépenses importantes pour lesquelles les négociateurs s’adressaient au correspondant d’un banquier parisien, dépositaire des deniers du roi.</p>
         </div>
-        <div>
+        <div xml:id="r891285">
           <head rend="uc">Chapitre III
            <lb/>Les conflits entre les deux plénipotentiaires</head>
           <p>La collaboration des deux représentants du roi de France s’avéra immédiatement difficile. Une profonde incompatibilité de caractère, d’idées et de méthodes amena bientôt une rupture ouverte. Servien se trouva en butte à l’hostilité de toute une cabale, groupant, autour du clan de Mesme, Chavigny et les ennemis de Mazarin. Il disposa en revanche du fidèle soutien de son neveu Hugues de Lionne, influent auprès du cardinal. Ce dernier accorda sa protection à Servien qu’il avait choisi comme son agent particulier, et ne manqua pas d’utiliser l’antagonisme de ses deux ambassadeurs.</p>
           <p>Servien obtint ainsi gain de cause dans cette querelle, et resta seul plénipotentiaire pour achever les négociations après le rappel du comte d’Avaux en janvier 1648. Sa conduite dans toute l’affaire et la protection déclarée du cardinal déjà impopulaire rendirent ses contemporains fort sévères à son égard.</p>
         </div>
-        <div>
+        <div xml:id="r891300">
           <pb source="https://nakala.fr/10.34847/nkl.348c1ad8#f0a34b87f724bcfae10ddd469499206969bf777e" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.348c1ad8/f0a34b87f724bcfae10ddd469499206969bf777e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le diplomate dans l’exercice de ses fonctions</head>
@@ -125,16 +123,16 @@
           <p>La gloire d’avoir signé le 24 octobre 1648 une paix plus honorable pour la France ne suffit pas à le disculper. Le royaume d’ailleurs était trop agité par les premiers mouvements de la Fronde pour accueillir comme un succès ces traités, qui, sans inclure l’Espagne, marquaient toutefois un progrès certain dans la recherche d’un équilibre européen.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r891321">
         <head rend="uc">Troisième partie
          <lb/>Le ministre d’état et la Fronde (1649-1653)</head>
-        <div>
+        <div xml:id="r891329">
           <head rend="uc">Chapitre premier
            <lb/>le retour en France</head>
           <p>La ratification des traités à Münster retint encore quelque temps Servien qui, de retour seulement en avril 1649, rejoignit la cour à Saint-Germain où les troubles de la capitale l’avaient contrainte à s’éloigner.</p>
           <p>La correspondance de son neveu et les avis de son confident parisien Gaudin lui avaient cependant permis de suivre l’évolution des événements et la dégradation de l’autorité royale. Les longues aimées de sa carrière consacrées au service du roi et le souci de son avenir personnel lui dictèrent sa position : il allait demeurer le serviteur fidèle du souverain et de l’homme qui avait fait sa fortune.</p>
         </div>
-        <div>
+        <div xml:id="r891344">
           <pb source="https://nakala.fr/10.34847/nkl.348c1ad8#07ec5ba0f8241460c57b8aaac97183a7211bf3e1" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.348c1ad8/07ec5ba0f8241460c57b8aaac97183a7211bf3e1/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Activité d’un ministre d’état durant la Fronde</head>
@@ -143,7 +141,7 @@
           <p>Le dévouement des trois « sous-ministres » à la cause du cardinal exilé faisaient d’eux, après l’union des Frondes, les principaux ennemis des nouveaux maîtres du gouvernement, et Condé libéré exigea leur renvoi du Conseil, en juillet 1651.</p>
           <p>Après un second exil en Anjou qui n’arrêta pas son activité officieuse dans la lutte contre les frondeurs, Servien rejoignit la cour à Poitiers en mars 1652, et s’attacha de nouveau, avec une ardeur accrue, à la poursuite d’une même politique dont l’objectif premier restait le retour des souverains à Paris et celui de Mazarin au ministère. Ces deux conditions allaient se réaliser et, en février 1653, le pays acceptait par lassitude le rétablissement de la situation antérieure.</p>
         </div>
-        <div>
+        <div xml:id="r891370">
           <head rend="uc">Chapitre III
            <lb/>Politique de Servien envers les frondeurs</head>
           <p>Le manque de coordination et de solidarité entre les diverses factions, cause principale de l’échec de la Fronde, avait été exploité par Servien pour mettre fin aux désordres.</p>
@@ -152,18 +150,18 @@
           <p>C’est toutefois le cardinal de Retz qui restait, à ses yeux, l’ennemi le plus dangereux de la souveraineté royale et le principal responsable de la récente anarchie. Il ne demeura pas étranger à son arrestation en décembre 1652, et mena par la suite une lutte acharnée pour éviter, après son évasion, la reconnaissance du cardinal comme archevêque de Paris. Malgré ses inclinations gallicanes, il préféra même l’intervention pontificale dans le règlement de l’affaire à la menace d’un retour des troubles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r891397">
         <head rend="uc">Quatrième partie
          <lb/>L’apogée d’une carrière : la surintendance
          <lb/>des finances</head>
-        <div>
+        <div xml:id="r891407">
           <head rend="uc">Chapitre premier
            <lb/>la succession de la Vieuville</head>
           <p>La vacance de la surintendance des finances, après la mort de La Vieuville, offrait à Mazarin, dès son retour à la cour, la possibilité d’en pourvoir une de ses « créatures ».</p>
           <p>Aucune formation spéciale n’était requise pour l’exercice de la charge, comme en témoigne la diversité des candidats. Plusieurs systèmes pouvaient également être envisagés, mais, à un conseil des finances ou à une direction tripartite, Mazarin préféra la nomination conjointe de deux surintendants. Cette solution, par le contrôle réciproque qu’elle supposait, offrait une sécurité plus grande que le choix d’un seul titulaire.</p>
           <p>C’est ainsi qu’une lettre de commission nomma le 8 février 1659 Abel Servien et Nicolas Foucquet à cette charge enviée. Mazarin récompensait par ce moyen la longue fidélité de Servien, tout en satisfaisant l’opinion publique généralement déclarée en sa faveur. Sa probité rigoureuse et son tempérament laborieux devaient tempérer la hardiesse de son jeune collègue qui, de son côté, laissait espérer le soutien des traitants.</p>
         </div>
-        <div>
+        <div xml:id="r891425">
           <pb source="https://nakala.fr/10.34847/nkl.348c1ad8#5bc85137770c24f4869a4a5959b33db6de6c15b0" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.348c1ad8/5bc85137770c24f4869a4a5959b33db6de6c15b0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Organisation et état des finances du royaume en 1653</head>
@@ -173,14 +171,14 @@
           <p>Dans l’exercice quotidien de leurs fonctions, les surintendants disposaient de collaborateurs spécialisés. Les intendants des finances, d’abord au nombre de huit porté ensuite à douze, des traitants pour la plupart à l’exemple de Barthélémy Hervart ou de Guillaume de Bordeaux, étaient les rapporteurs ordinaires au Conseil des finances. Les trois directeurs et deux contrôleurs généraux, après division de la charge en 1655, constituaient avec eux le personnel principal de l’administration centrale des finances.</p>
           <p>Tous ces hommes formaient l’élément professionnel des conseils au cours desquels toutes les affaires financières étaient préparées ou arrêtées. Le Conseil des finances restait l’organe supérieur, mais c’est dans des assemblées plus étroites, les conseils de direction et surtout les petites directions que s’effectuait le travail essentiel. Tous ces conseils firent l’objet de réglements particuliers, destinés à fixer le rythme de leurs séances, le nombre et la qualité des membres admis à y entrer. Malgré de nombreuses dispositions institutionnelles, la pratique financière n’en demeurait pas moins fort désordonnée et soumise à un contrôle fictif.</p>
         </div>
-        <div>
+        <div xml:id="r891454">
           <head rend="uc">Chapitre III
            <lb/>Abel Servien et Nicolas Foucquet surintendants des finances</head>
           <p>En l’absence d’un réglement précis, Abel Servien, usant de son privilège d’ancienneté, prit tout d’abord le pas sur son collègue et exerça une direction effective. La politique financière des deux premières années allait être ainsi marquée par de timides essais réformateurs, en vue de la réduction des dépenses et de la recherche d’une augmentation des recettes. Les principales mesures s’attaquaient aux gaspillages consécutifs à l’indiscipline des armées. La dimi<pb source="https://nakala.fr/10.34847/nkl.348c1ad8#a1915e52b2b43bafbe83772eb09a8f4705ff883d" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.348c1ad8/a1915e52b2b43bafbe83772eb09a8f4705ff883d/full/full/0/default.jpg"/>nution générale des monnaies en 1653-1654 se révéla une impopulaire, mais très fructueuse opération. Ces efforts furent néanmoins insuffisants, et la séparation des pouvoirs en décembre 1654 reconnut l’échec de cette première tentative.</p>
           <p>L’abandon à Nicolas Foucquet du soin de pourvoir au recouvrement des fonds marquait le retour à une politique empirique et à tous les expédients habituels. Servien, considéré comme un obstacle trop gênant aux manœuvres financières de Mazarin, ne jouait plus désormais qu’un rôle secondaire, et bien souvent Foucquet décidait même de l’ordonnancement des sommes au lieu de les lui transmettre. Le cardinal, qui gardait l’autorité suprême sur leur gestion, encourageait ces méthodes, et ses interventions ou celles de son intendant Colbert rendaient irréalisable toute velléité d’application d’un budget.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r891475">
         <head rend="uc">Conclusion</head>
         <p>La carrière d’Abel Servien, sa mentalité, son comportement le placent au sein de ce groupe social des serviteurs du roi, partageant avec lui l’exercice de la fonction publique.</p>
         <p>Partisan des théories absolutistes, il était hostile à tous les pouvoirs dangereux pour l’autorité royale. Comme ses semblables, il aspirait à se rapprocher du roi et à s’identifier à la noblesse d’épée. Une alliance illustre avec la famille Sully et l’utilisation de sa fortune pour acquérir des fiefs ou des charges honorifiques, notamment dans l’ordre du Saint-Esprit, témoignent de ces efforts.</p>

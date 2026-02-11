@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,11 +55,11 @@
         <forename>Annie</forename>
         <surname>Monzat</surname>
       </byline>
-      <div>
+      <div xml:id="r926472">
         <head rend="uc">Sources</head>
         <p>Les sources sont constituées principalement par les Archives communales de Gourdon, en particulier les séries BB (administration communale), CC (impôts et comptabilité) et FF (justice, procédure, police).</p>
       </div>
-      <div>
+      <div xml:id="r926482">
         <head rend="uc">Introduction</head>
         <p>Gourdon est une petite ville située à la limite du Quercy et du Périgord, un peu à l’écart des grandes voies de communication. Elle est le pôle attractif d’un terroir très nettement individualisé par sa constitution géologique et son paysage, la Bourianne.</p>
         <p>L’origine de la ville est le château féodal construit sur une butte isolée qui constituait un site défensif remarquable ; les premiers documents attestant son existence ne sont pas antérieurs au <num>x<hi rend="sup">e</hi></num> siècle.</p>
@@ -69,19 +67,19 @@
         <p>Ils ont participé à la défense du Quercy dans les premières luttes entre Capétiens et Plantagenets, à la Croisade albigeoise, aux associations de paix organisées à l’échelle diocésaine pour la défense contre les routiers.</p>
         <p>La deuxième moitié du <num>xiii<hi rend="sup">e</hi></num> siècle a vu la décadence du pouvoir féodal et la naissance d’une administration municipale autonome, le consulat.</p>
       </div>
-      <div>
+      <div xml:id="r926516">
         <pb source="https://nakala.fr/10.34847/nkl.87595517#0f30f0aac740c7a654bbd7f3df5f5feea3629e8c" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.87595517/0f30f0aac740c7a654bbd7f3df5f5feea3629e8c/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La charte de coutumes
          <lb/>et les débuts de l’émancipation urbaine</head>
-        <div>
+        <div xml:id="r926531">
           <head rend="uc">Chapitre premier
            <lb/>la charte de coutumes</head>
           <p>Le premier texte qui fait apparaître la communauté d’habitants et la manière dont elle était gouvernée est la charte de coutumes octroyée aux Gourdonnais en 1244 par les coseigneurs, Fortanier, Aymeric et Guillaume.</p>
           <p>Les trente-neuf articles de ce texte en langue d’oc énumèrent des dispositions de droit privé, pénal et public, dont les plus originales concernent le châtiment de l’homicide, condamné à être enterré vif sous le mort, et une particularité du mode d’aliénation des biens : le retrait lignager prime le retrait féodal. L’administration de la ville était assurée par un gouvernement collégial, constitué par quatre prud’hommes représentant la communauté, assistés de deux sergents nommés par les seigneurs.</p>
           <p>On ne peut pas dire que la charte consacre l’existence d’un consulat, car le terme de consuls n’apparaît pas ; elle consacre seulement la présence, au sein d’un gouvernement collégial qui n’est pas encore détaché des institutions féodales, de quatre prud’hommes dont les devoirs et les droits constituent un démembrement de l’autorité seigneuriale.</p>
         </div>
-        <div>
+        <div xml:id="r926549">
           <head rend="uc">Chapitre II
            <lb/>Les coseigneurs de Gourdon
            <lb/>à la fin du <num>xiii<hi rend="sup">e</hi></num> et au début du xiv<hi rend="sup">e</hi> siècle</head>
@@ -91,7 +89,7 @@
           <p>Les seigneurs de la branche directe, qui résidaient à Gourdon et possédaient ia part la plus importante de la seigneurie, ont été contraints d’aliéner leurs domaines à la suite de difficultés financières inextricables. Leur ruine est consommée au début du <num>xiv<hi rend="sup">e</hi></num> siècle, lorsque les seigneurs Bertrand et Fortanier vendent au comte Bernard de l’Isle-Jourdain leurs droits sur le château et la baronnie de Gourdon.</p>
           <p>L’utilisation du pouvoir dans le seul dessein de restaurer les finances familiales a caractérisé l’activité des seigneurs et leurs rapports avec la ville à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r926605">
           <head rend="uc">Chapitre III
            <lb/>Les tentatives centralisatrices des consuls sur le droit de justice
            <lb/>et les autres droits seigneuriaux</head>
@@ -100,17 +98,17 @@
           <p>Parallèlement ils rachetaient d’autres droits seigneuriaux qui étaient morcelés, comme le droit de justice, et possédés par plusieurs propriétaires. Ces droits consistaient en taxes indirectes perçues dans l’étendue de la seigneurie de Gourdon, droits de <hi rend="i">leude</hi> sur les transactions commerciales, péages, et en un droit particulier, le <hi rend="i">sirventage,</hi> ou droit d’envoyer un sergent aux assises tenues par les viguiers.</p>
           <p>Le partage des pouvoirs et des droits entre viguiers et consuls, en fonction des parts que chacun possédait, a été défini par deux transactions en 1286. La première réglait le partage du droit de justice, la seconde la perception de taxes indirectes dont les viguiers prétendaient avoir une part.</p>
         </div>
-        <div>
+        <div xml:id="r926648">
           <head rend="uc">Appendices</head>
           <p>Tableau des transactions concernant les droits sur la viguerie, la leude, le sirventage. Division de la viguerie au milieu du xiv<hi rend="sup">e</hi> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r926663">
         <pb source="https://nakala.fr/10.34847/nkl.87595517#f7eca8d40d99f0d74f2fc6ead2f4efe267aef57d" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.87595517/f7eca8d40d99f0d74f2fc6ead2f4efe267aef57d/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Progrès de l’autonomie urbaine
          <lb/>de la fin du <num>xiii<hi rend="sup">e</hi></num> siècle à la fin du xiv<hi rend="sup">e</hi> siècle</head>
-        <div>
+        <div xml:id="r926688">
           <head rend="uc">Chapitre premier
            <lb/>le consulat et la défense des droits acquis
            <lb/>l’exercice de la justice et les conflits de juridiction
@@ -124,7 +122,7 @@
           <p>L’aspect matériel des procès qui se sont déroulés devant la justice du sénéchal et au Parlement de Paris, apparaît dans les délibérations et les comptes consulaires, qui révèlent les multiples déplacements effectués par les consuls, entre autres leur voyage à Paris, les frais de procédure, la rétribution des gens de justice et la pratique des épices. Pour défendre leurs droits, les consuls ont eu recours à des juristes célèbres, parmi lesquels Pierre de Caseton, Jean de Réveillon, correcteur à la chancellerie apostolique, et Pons de Lherm, l’un des maîtres de l’Université de Cahors.</p>
           <p>En défendant ainsi leurs droits, les consuls ont acquis un haut degré d’émancipation vis-à-vis du pouvoir seigneurial. Leur droit de juridiction est à la fois le signe de l’autorité réelle qu’ils exercent sur la ville et le signe de la substitution du pouvoir consulaire au pouvoir féodal, dans le cadre géographique de l’ancienne <hi rend="i">dex</hi> du château.</p>
         </div>
-        <div>
+        <div xml:id="r926742">
           <head rend="uc">Chapitre II
            <lb/>Les consuls et la communauté d’habitants</head>
           <p>Le principe de l’institution consulaire et la manière dont les consuls ont administré la ville n’ont jamais fait l’objet d’attaques de la part du pouvoir féodal.</p>
@@ -140,7 +138,7 @@
           <p>Pour publier et faire appliquer leurs décisions les consuls avaient un personnel subalterne de sergents, de crieurs publics et de commissionnaires. Le greffier du consulat avait une certaine compétence juridique.</p>
           <p>Le nombre des consuls, le fait qu’ils levaient eux-mêmes la taille et tenaient leurs comptes sans trésorier municipal font penser que Gourdon n’a jamais été une grande ville. Mais elle a joué un rôle important dans la défense du Quercy pendant la guerre de Cent ans, grâce à la valeur stratégique de son emplacement et au rôle militaire du consulat, essentiellement dans la deuxième moitié du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r926847">
           <pb source="https://nakala.fr/10.34847/nkl.87595517#eb2c528e3b1591466e4ef571654d83a8a3796dd9" n="147" facs="https://api.nakala.fr/iiif/10.34847/nkl.87595517/eb2c528e3b1591466e4ef571654d83a8a3796dd9/full/full/0/default.jpg"/>
           <head rend="uc">Appendices</head>
           <p>Répartition des consuls en fonction de leurs origines familiales. Représentation graphique.</p>
@@ -149,10 +147,10 @@
           <p>Résultats de l’étude d’un registre de juridiction civile.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r926872">
         <head rend="uc">Troisième partie
          <lb/>Aspects économiques et sociaux de la ville</head>
-        <div>
+        <div xml:id="r926880">
           <head rend="uc">Chapitre premier
            <lb/>la ville et la population</head>
           <p>L’aspect général de la ville au <num>xiv<hi rend="sup">e</hi></num> siècle, ses rues, ses constructions sont révélés par les documents étudiés, en particulier dans les documents judiciaires.</p>
@@ -170,7 +168,7 @@
           <p>Les étrangers qui voulaient venir s’installer à Gourdon bénéficiaient d’une exemption de taille.</p>
           <p>La maison dans Gourdon et l’exploitation rurale, ou <hi rend="i">fazenda,</hi> dans la juridiction étaient les composantes classiques de la fortune des bourgeois gourdonnais. La propriété rurale était extrêmement morcelée. La culture de la vigne et des céréales, le grand nombre de jardins et l’importance de l’élevage sont les traits essentiels de l’agriculture dans la région gourdonnaise.</p>
         </div>
-        <div>
+        <div xml:id="r926973">
           <head rend="uc">Chapitre II
            <lb/>Les activités économiques de la ville</head>
           <p>Gourdon a été, au <num>xiii<hi rend="sup">e</hi></num> siècle, une place commerçante qui a eu des relations avec Montpellier, Bordeaux et l’Angleterre. Un artisanat du cuir et de la laine s’y est développé.</p>
@@ -184,7 +182,7 @@
           <p>L’entrée et le commerce du vin dans la ville étaient réglementés. Seuls, les habitants producteurs de vin pouvaient en faire rentrer dans la ville. Ils le vendaient en faisant taverne, chez eux, à tour de rôle.</p>
           <p>L’organisation de foires franches en 1330-1331 marque le plus haut degré d’émancipation des consuls vis-à-vis du pouvoir seigneurial en matière économique. Le rayon d’attraction des foires de Gourdon s’étendait au Quercy, à l’Agenais, au Rouergue, au Périgord et au Limousin. Les merciers avaient une place de choix parmi les marchands qui venaient aux foires. Ils étaient logés et nourris par les consuls. H y avait une foire d’automne et une foire de printemps.</p>
         </div>
-        <div>
+        <div xml:id="r927040">
           <head rend="uc">Chapitre III
            <lb/>La justice et l’état social au xiv<hi rend="sup">e</hi> siècle</head>
           <p>Le nombre et la nature des crimes et délits, ainsi que la manière dont ils étaient réprimés, révèlent un état social dominé par la violence.</p>
@@ -197,7 +195,7 @@
           <p>Il y a eu sept procès de sorcellerie entre 1317 et 1327 ; ils sont révélateurs de l’importance accordée aux dires des sorcières, consultées fréquemment par des gens importants, mais aussi condamnées avec beaucoup d’empressement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r927087">
         <head rend="uc">Appendice</head>
         <p>Les enquêtes criminelles de 1311 à 1327. Nombre et nature des affaires jugées.</p>
       </div>

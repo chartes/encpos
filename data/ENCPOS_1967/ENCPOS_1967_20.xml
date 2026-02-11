@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_20" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_20" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,41 +57,41 @@
         <forename>Jean</forename>
         <surname>Taccetti</surname>
       </byline>
-      <div>
+      <div xml:id="r885209">
         <head rend="uc">Chapitre premier
          <lb/>les arithméticiens cisterciens</head>
         <p>Tout un aspect de la littérature théologique du moyen-âge est encore mal connu : il s’agit des nombreux traités consacrés à la mystique des nombres. De cette littérature se dégage un groupe de traités dû à la collaboration de plusieurs cisterciens vivant au <num>xii<hi rend="sup">e</hi></num> siècle, Odon de Morimond, Guillaume d’Aube rive, Geoffroy d’Auxerre, ainsi que d’un certain Thibaut de Langres.</p>
-        <div>
+        <div xml:id="r885226">
           <head rend="uc">Chapitre II
            <lb/>Guillaume d’Auberive. Sa vie, son œuvre</head>
           <p>On ne connaît guère de la vie de Guillaume d’Auberive que les dates de son abbatiat (1165-1180).</p>
           <p>Pendant longtemps, on lui a attribué la paternité d’un véritable <hi rend="i">corpus</hi> de traités de mystique des nombres. L’étude plus attentive des manuscrits a permis d’isoler ce qui, dans cet ensemble, lui revenait en propre, c’est-à-dire essentiellement le traité <hi rend="i">De sacramentis numerorum a ternario usque ad duodenarium </hi>pour lequel on peut assigner un <hi rend="i">terminus ad quem,</hi> puisqu’il fut complété entre 1165 et 1170 par Geoffroy, abbé de Hautecombe. On peut encore attribuer à <pb source="https://nakala.fr/10.34847/nkl.15e9o877#d2f2989e0721e9ccf487682b678554833f4b56cf" n="152" facs="https://api.nakala.fr/iiif/10.34847/nkl.15e9o877/d2f2989e0721e9ccf487682b678554833f4b56cf/full/full/0/default.jpg"/>Guillaume d’Auberive, entre autres opuscules authentiques, quatre lettres à un certain abbé Noël et une lettre adressée à Henri de Clairvaux.</p>
         </div>
-        <div>
+        <div xml:id="r885258">
           <head rend="uc">Chapitre III
            <lb/>La tradition du texte et le classement des manuscrits</head>
           <p>Le <hi rend="i">De sacramentis numerorum a ternario usque ad duodenarium</hi> de Guillaume d’Auberive est conservé par cinq manuscrits, dont deux sont à la Bibliothèque nationale de Paris (manuscrits lat. 2583 et 3011, désignés respectivement par les lettres <hi rend="i">P</hi> et <hi rend="i">C</hi>), un à la Bibliothèque nationale de Luxembourg (ms. 60, désigné par la lettre <hi rend="i">L</hi>), un à la Bibliothèque municipale de Troyes (ms. 969, désigné par la lettre <hi rend="i">T</hi>), le dernier à la Bibliothèque municipale de Bruges (ms. 527, désigné par la lettre <hi rend="i">B</hi>). Fait remarquable, sur ces cinq manuscrits, quatre proviennent de bibliothèques d’anciennes abbayes cirsterciennes, <hi rend="i">T</hi> ayant appartenu à l’abbaye de Clairvaux, <hi rend="i">L</hi> à l’abbaye d’Orval, <hi rend="i">B</hi> à l’abbaye des Dunes et <hi rend="i">C</hi> à l’abbaye de Larivour. Il ne nous est pas possible de déterminer la provenance de <hi rend="i">P</hi> qui, tout comme <hi rend="i">C</hi>, a appartenu à la bibliothèque de Colbert avant d’entrer dans celle du roi.</p>
           <p>Un premier classement de ces cinq manuscrits permet de rapprocher <hi rend="i">T </hi>et <hi rend="i">B,</hi> d’une part, et <hi rend="i">P</hi> et <hi rend="i">L,</hi> d’autre part. Le manuscrit <hi rend="i">C</hi> appartient à la famille de <hi rend="i">B</hi> et <hi rend="i">T,</hi> mais il comporte de nombreuses corrections établies d’après le texte conservé par les manuscrits <hi rend="i">P</hi> et <hi rend="i">L.</hi></p>
           <p>Le texte qu’offrent les manuscrits <hi rend="i">P, L et C</hi> est incomparablement supérieur à celui de <hi rend="i">B</hi> et <hi rend="i">T.</hi> Pour établir l’édition, nous avons suivi le texte de <hi rend="i">P,</hi> de préférence à celui de <hi rend="i">L</hi> : tous deux paraissent remonter à un archétype commun dont <hi rend="i">P</hi>, bien que postérieur à <hi rend="i">L,</hi> nous transmet plus fidèlement le texte.</p>
         </div>
-        <div>
+        <div xml:id="r885387">
           <head rend="uc">Chapitre IV
            <lb/>La composition du traité</head>
           <p>Le traité est divisé en deux parties bien distinctes ; une première partie composée de douze chapitres, est consacrée aux nombres de 3 à 11. Le nombre 12 se voit consacrer une seconde partie, divisée en vingt-quatre chapitres.</p>
           <p>A partir d’une arithmologie (il serait peut-être préférable d’utiliser le terme d’« arithmo-géométrie »), d’inspiration néo-pythagoricienne, Guillaume d’Auberive étudie les mystères que renferme chacun des nombres en fonction de ses propriétés mathématiques et des données de l’Écriture sainte. Un long développement est consacré aux nombres parfaits, dans la première partie du traité, alors que la seconde est centrée sur la notion de nombre pentagone.</p>
         </div>
-        <div>
+        <div xml:id="r885402">
           <pb source="https://nakala.fr/10.34847/nkl.15e9o877#e412e51370a86c6094d995c4a38b5b2d614fbb07" n="153" facs="https://api.nakala.fr/iiif/10.34847/nkl.15e9o877/e412e51370a86c6094d995c4a38b5b2d614fbb07/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Les sources du traité</head>
           <p>Guillaume d’Auberive était profondément imprégné de l’arithmétique spéculative que Boèce avait transmise au moyen âge. H semble avoir une connaissance assez étendue des œuvres de saint Augustin. Cependant, sa principale source d’inspiration demeure l’Écriture sainte, dont il cite constamment des versets entiers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r885420">
         <head rend="uc">Conclusion</head>
         <p>Guillaume d’Auberive, dans une certaine mesure, fait œuvre originale. Ce qu’il faut relever chez lui, c’est sa solide formation arithmétique, qui le distingue de certains de ses prédécesseurs dans l’étude de la mystique des nombres ; par cet aspect de sa pensée, il présente un témoignage intéressant sur l’état de la science au cours du xn<hi rend="sup">e</hi> siècle. Son propos n’est cependant pas d’instruire son lecteur, mais de l’édifier. Ses considérations théologiques et mystiques présentent un intérêt certain pour l’étude du développement de la pensée chrétienne au moyen âge, pensée qu’informe une double tradition, celle de la culture classique et celle de la révélation divine.</p>
       </div>
-      <div>
+      <div xml:id="r885434">
         <head rend="uc">Édition critique</head>
         <p>L’édition suit le texte de <hi rend="i">P,</hi> avec indication des variantes des quatre autres manuscrits. Lorsque <hi rend="i">P</hi> est manifestement fautif, la leçon qui a paru la meilleure a été retenue.</p>
         <pb source="https://nakala.fr/10.34847/nkl.15e9o877#0cb1a21bd8fd45f00af107c85d68afc4742c67e4" n="154" facs="https://api.nakala.fr/iiif/10.34847/nkl.15e9o877/0cb1a21bd8fd45f00af107c85d68afc4742c67e4/full/full/0/default.jpg"/>

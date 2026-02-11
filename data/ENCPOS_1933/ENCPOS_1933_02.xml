@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -70,7 +68,7 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r524101">
         <head rend="uc">Chapitre premier
          <lb/>délimitation et historique.</head>
         <p>La situation particulière du Vexin Français, au point de vue religieux, est due au fait que les limites du diocèse de Rouen ne concordaient pas avec celles de la province de Normandie.</p>
@@ -78,33 +76,33 @@
         <p>Des troubles survinrent pendant la Ligue et préparèrent les grands procès du <num>xvii<hi rend="sup">e</hi></num> siècle qui avaient pour but de rendre le vicaire inamovible et indépendant de l’archevêque. Un arrêt du Parlement du 13 juin 1693 affermit l’autorité de l’archevêque sur le Vexin Français.</p>
         <p>La Révolution mit fin à cette institution en conformant les circonscriptions ecclésiastiques aux circonscriptions civiles.</p>
       </div>
-      <div>
+      <div xml:id="r524143">
         <head rend="uc">Chapitre II
          <lb/>La cour ecclésiastique.</head>
         <p>La cour foraine de Pontoise avait la même composition que les cours ecclésiastiques principales, son personnel étant toutefois un peu plus restreint.</p>
         <p>L’official est toujours appelé vicaire de Pontoise et du Vexin Français ; à partir du <num>xv<hi rend="sup">e</hi></num> siècle, il joignit à ses attributions d’official un certain nombre de fonctions habituellement réservées aux vicaires généraux et relevant de la juridiction gracieuse. Au <num>xvii<hi rend="sup">e</hi></num> siècle, il est vicaire général <hi rend="i">in temporalibus et spiritualibus</hi> dans le Vexin Français.</p>
         <p>Le vicaire habitait dans l’hôtel de l’archevêque de Rouen à Pontoise et y tenait ses audiences.</p>
       </div>
-      <div>
+      <div xml:id="r524177">
         <pb source="https://nakala.fr/10.34847/nkl.fc1937og#267a51004815b5de1813571b7009acec5996f47a" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc1937og/267a51004815b5de1813571b7009acec5996f47a/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre III
          <lb/>Fonctions administratives et juridiction gracieuse.</head>
         <p>Une faible partie de la juridiction gracieuse dans le Vexin Français revenait à l’archidiacre du Vexin Français, qui avait pour ressort les trois doyennés de Meulan, Magny et Chaumont ; l’ancien archidiaconé de Pontoise resta toujours hors de sa compétence.</p>
-        <div>
+        <div xml:id="r524193">
           <head rend="uc">I. <hi rend="i">Fonctions administratives du vicaire.</hi></head>
           <p>Il visitait les paroisses du seul doyenné de Pantoise et les monastères de tout le Vexin Français.</p>
           <p>Il tenait les synodes en l’absence de l’archevêque ; les synodes étaient tenus régulièrement dans le Vexin Français, au <num>xv<hi rend="sup">e</hi></num> et au <num>xvi<hi rend="sup">e</hi></num> siècle, une fois par an ; au <num>xvii<hi rend="sup">e</hi></num> siècle, il y avait un synode d’été et un synode d’hiver. Les prêtres du doyenné de Pontoise n’étaient pas tenus d’y assister.</p>
           <p>Le vicaire était chargé de l’adjudication des déports du Vexin Français auxquels les cures du doyenné de Pontoise n’étaient pas soumises.</p>
           <p>Au <num>xv<hi rend="sup">e</hi></num> et au <num>xvi<hi rend="sup">e</hi></num> siècle, le vicaire percevait les droits seigneuriaux auxquels l’archevêque avait droit dans le Vexin Français. A partir du <num>xvii<hi rend="sup">e</hi></num> siècle seulement, il fut administrateur de tout le temporel du Vexin Français.</p>
         </div>
-        <div>
+        <div xml:id="r524251">
           <head rend="uc">II. <hi rend="i">Juridiction gracieuse.</hi></head>
           <p>Depuis le <num>xv<hi rend="sup">e</hi></num> siècle, le vicaire de Pontoise exerçait une part de la juridiction de l’archevêque dans le Vexin Français ; il donnait les dimissoires, approuvait les titres patrimoniaux, accordait les dispenses de résidence et les permissions de desservir les églises, d’administrer les sacrements et de prêcher ; <pb source="https://nakala.fr/10.34847/nkl.fc1937og#5d1200eeb8af9b363a1185e9116fb0e1c8697bd4" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc1937og/5d1200eeb8af9b363a1185e9116fb0e1c8697bd4/full/full/0/default.jpg"/>il donnait des lettres de quêtes et de sépulture. A l’égard des laïcs, il donnait des dispenses de bans, relevait des serments, approuvait les testaments, absolvait des censures ecclésiastiques.</p>
           <p>A partir du <num>xvii<hi rend="sup">e</hi></num> siècle, en outre, la collation des bénéfices lui appartiendra.</p>
           <p>Comme official, jusqu’au <num>xv<hi rend="sup">e</hi></num> siècle, il reçut les actes des habitants du Vexin Français.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r524294">
         <head rend="uc">Chapitre IV
          <lb/>Juridiction contentieuse.</head>
         <p>I. <hi rend="i">Au civil.</hi> – Le vicaire de Pontoise connaissait des causes concernant les dîmes, mais non point de celles qui pouvaient naître du droit de patronage et des bénéfices.</p>
@@ -116,21 +114,21 @@
         <p>Les crimes de faux et d’hérésie, qu’Eude Rigaud avait réservés à son official principal, étaient de sa compétence à partir du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         <p>Les sacrilèges, la simonie, l’usure lui appartiennent dès le début. Au <num>xv<hi rend="sup">e</hi></num> siècle, il semble qu’il ait perdu la connaissance des causes d’usure.</p>
       </div>
-      <div>
+      <div xml:id="r524357">
         <head rend="uc">Chapitre V
          <lb/>Juridiction répressive. Pénalités.</head>
         <p>Les poursuites répressives intentées par le vicaire contre les clercs ont pour but de sauvegarder la discipline ecclésiastique et de faire respecter les statuts synodaux. Contre les laïcs, en dehors des causes matrimoniales, le vicaire se bornait à assurer l’accomplissement des devoirs religieux et à faire respecter les personnes et les choses saintes.</p>
         <p>Les pénalités portées par le vicaire de Pontoise étaient destinées à promouvoir le coupable à la pénitence et à réparer le dommage fait à la société. En dehors des censures ecclésiastiques, les peines dont il disposait étaient la privation de la liberté, les amendes, les pénitences corporelles, les prières expiatrices, l’amende honorable.</p>
       </div>
-      <div>
+      <div xml:id="r524372">
         <head rend="uc">Chapitre VI
          <lb/>Appels. Conflits de juridiction.</head>
-        <div>
+        <div xml:id="r524380">
           <head rend="uc">I. <hi rend="i">Appels.</hi></head>
           <p>1. <hi rend="i">Appels de Pontoise.</hi> – Les appels de Pontoise étaient portés à Rouen, pendant la période ancienne, conformément à la règle <hi rend="i">a delegato appellatur ad delegantem.</hi> Au <num>xvii<hi rend="sup">e</hi></num> siècle, le droit gallican voulant que l’on en appelât des officiaux forains au juge supérieur de l’évêque, les appels de Pontoise étaient <pb source="https://nakala.fr/10.34847/nkl.fc1937og#7706c4c9bfd9b327d9162f238ec8c4489548581b" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc1937og/7706c4c9bfd9b327d9162f238ec8c4489548581b/full/full/0/default.jpg"/>portés directement à Rome, puisque Rouen était métropole.</p>
           <p>2. <hi rend="i">Pontoise, juridiction d’appel.</hi> – Au <num>xvii<hi rend="sup">e</hi></num> siècle, l’official forain de Pontoise recevait les appels de la cour foraine de l’évêque de Sées à Mortagne, qui dépendait du Parlement de Paris, prenant le titre de « juge métropolitain et d’appel dans le ressort du Parlement de Paris ». Après 1700, on ne trouve plus trace de cette juridiction.</p>
         </div>
-        <div>
+        <div xml:id="r524425">
           <head rend="uc">II. <hi rend="i">Conflits de juridiction.</hi></head>
           <p>Des conflits de juridiction s’élevèrent fréquemment entre le vicaire de Pontoise et les juges séculiers du Vexin Français. Au cours de ces luttes, le vicaire finit par perdre toute compétence en dehors des causes purement spirituelles.</p>
           <p>On lui contesta d’abord la connaissance des causes des clercs mariés, puis les causes criminelles de tous les clercs, qui finirent par être toutes considérées comme des cas privilégiés.</p>
@@ -138,7 +136,7 @@
           <p>Avec la juridiction ecclésiastique de Saint-Pierre-de-Chaumont, prieuré exempt de Saint-Denis, qui se trouvait dans les limites du Vexin Français, le vicaire n’entra que rarement en contestation.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r524448">
         <head rend="uc">Conclusion</head>
         <p>Official et vicaire général, le vicaire de Pontoise finit par être, au <num>xvii<hi rend="sup">e</hi></num> siècle, l’unique représentant de l’archevêque de Rouen dans le Vexin Français.</p>
       </div>

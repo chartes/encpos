@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,18 +65,18 @@
         <head rend="uc">Avant-propos</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r472428">
         <head rend="uc">Premiere partie</head>
-        <div>
+        <div xml:id="r472434">
           <head rend="uc">La fondation de l’abbaye d’Ambronay</head>
           <p>Ambronay a été fondé au <num>ix<hi rend="sup">e</hi></num> siècle par saint Barnard, surtout connu comme archevêque dé Vienne et fondateur de l’abbaye de Romans. Il réédifia sur un emplacement qui appartenait à l’abbaye de Luxeuil, une « cella » détruite par les païens. Quels étaient ces païens ? La tradition rapporte que ce furent les Sarrasins. Improbabilité du passage des Sarrasins dans la région.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r472451">
         <pb source="https://nakala.fr/10.34847/nkl.82f3m1o8#e78b165c12d7d5575dcc87488ce362ded58ddc19" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.82f3m1o8/e78b165c12d7d5575dcc87488ce362ded58ddc19/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>La vie exterieure de l’abbaye</head>
-        <div>
+        <div xml:id="r472464">
           <head rend="uc">Chapitre premier
            <lb/>l’abbaye, puissance religieuse</head>
           <p>I. <hi rend="i">L’abbaye et le pape.</hi> – L’abbaye relève directement du Saint-Siège. Le privilège accordé par le pape Serge (Serge III ou Serge IV) est confirmé en 1051 par le pape Léon IX. Privilèges divers.</p>
@@ -90,7 +88,7 @@
           <p>Charges et revenus des curés. L’abbaye est généralement en mauvais termes avec ses bénéfices-cures.</p>
           <p>4. <hi rend="i">L’abbaye et le clergé de Bresse et de Bugey.</hi> – Exemption de toutes impositions sous la domination savoyarde. Dons gratuits aux comtes de Savoie. Confirmation de ce privilège sous la domination française. Le don gratuit devient une redevance annuelle et fixe de 3.000 livres. Difficultés avec le clergé de France. Assemblées générales tenues à Bourg pour la répartition des cotes. L’abbé François IV de Livron paye difficilement les siennes.</p>
         </div>
-        <div>
+        <div xml:id="r472527">
           <head rend="uc">Chapitre II
            <lb/>L’abbaye, puissance temporelle</head>
           <p>1. <hi rend="i">L’abbaye et les grands feudataires.</hi> – Une infinité de petites seigneuries entourent la terre allodiale d’Ambronay aux mains des Thoire et Villards, des La Palud, des d’Oncieu, des Coligny. Ces derniers furent probablement co-seigneurs de l’abbé d’Ambronay. Puissance croissante des maisons de Savoie et de la Tour du Pin en Dauphiné. Les La Tour du Pin devenus dauphins de Viennois disputeront aux comtes de Savoie la possession d’Ambronay, dont le château, avec celui de Saint-Germain-d’Ambérieu commande les portes de la Savoie.</p>
@@ -119,27 +117,27 @@
           <p>Dès le milieu du <num>xvii<hi rend="sup">e</hi></num> siècle les rapports sont très tendus et iront s’envenimant jusqu’à la Révolution.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r472682">
         <pb source="https://nakala.fr/10.34847/nkl.82f3m1o8#08f1ae21738ff11171172812ad3e36aaeba4ac27" n="98" facs="https://api.nakala.fr/iiif/10.34847/nkl.82f3m1o8/08f1ae21738ff11171172812ad3e36aaeba4ac27/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>La vie intérieure de l’abbaye</head>
-        <div>
+        <div xml:id="r472695">
           <head rend="uc">Chapitre premier
            <lb/>l’abbé</head>
           <p>Election, charges, revenus.</p>
         </div>
-        <div>
+        <div xml:id="r472707">
           <head rend="uc">Chapitre II
            <lb/>Les officiers claustraux</head>
           <p>Ils étaient au nombre de neuf : le prieur, le chambrier, le cellérier, le sacristain, l’infirmier, l’aumônier, le courrier, le réfectorier et le chantre. Provision des offices, mise en possession, transmission des offices et droit de tester. Charges, revenus et prérogatives des officiers claustraux.</p>
         </div>
-        <div>
+        <div xml:id="r472719">
           <head rend="uc">Chapitre III
            <lb/>Les simples religieux</head>
           <p>1° Réception ; 2° Discipline et liturgie ; 3° Pitance ; 1° Habitation.</p>
           <p>Les coutumes suivies à Ambronay étaient celles de Cluny avec l’adjonction de coutumes particulières. Mais dès la lin du <num>xvi<hi rend="sup">e</hi></num> siècle, les religieux d’Ambronay ne suivent plus aucune règle. Officiers claustraux et simples religieux vivent chacun chez soi dans des maisons entourées de jardins et suivant leurs revenus mènent le train de petits rentiers ou de grands seigneurs.</p>
         </div>
-        <div>
+        <div xml:id="r472740">
           <pb source="https://nakala.fr/10.34847/nkl.82f3m1o8#5ee57764f5ba705916b7c65c624a4906c2b0d291" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.82f3m1o8/5ee57764f5ba705916b7c65c624a4906c2b0d291/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>L’abbé et les religieux</head>

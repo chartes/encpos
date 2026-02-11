@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_26" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_26" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,19 +55,19 @@
         <surname>Gheno</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1350931">
         <head rend="uc">Introduction</head>
         <p>S’il existe des inventaires généraux de marques typographiques récents et très complets pour la Belgique et l’Italie, la France ne possède aucun recueil de ce type. Par ailleurs, si beaucoup d’auteurs ont travaillé sur des bases théoriques cohérentes, celles-ci sont restées implicites et fondées plutôt sur une connaissance empirique que sur une réflexion systématique.</p>
       </div>
-      <div>
+      <div xml:id="r1350941">
         <head rend="uc">Première partie
          <lb/>Présentation générale</head>
-        <div>
+        <div xml:id="r1350949">
           <head rend="uc">Chapitre premier
            <lb/>définition de la marque</head>
           <p>La marque typographique est une gravure représentant un signe graphique distinctif, apposée sur un livre par une ou plusieurs des personnes responsables de la fabrication et de la publication de celui-ci (imprimeurs, libraires ou éditeurs), afin d’être reconnues comme telles. L’usage d’un tel signe distinctif n’apparaît dans les livres qu’avec la naissance de l’imprimerie au <num>xv<hi rend="sup">e</hi></num> siècle : il faut tout d’abord y voir la conséquence d’une plus grande personnalisation du rôle des acteurs de la fabrication du livre. En outre, les nettes améliorations des techniques de gravure obtenues dans les pays germaniques au cours du <num>xv<hi rend="sup">e</hi></num> siècle rendaient possible la reproduction de vignettes en série. Par ailleurs, il faut se rappeler qu’avec l’imprimerie, la fabrication du livre s’était ouverte au milieu artisanal et commerçant, lequel avait déjà en usage ses propres systèmes graphiques représentatifs (marques de fabrique et de maison), et avait même commencé à adopter l’usage des armoiries à partir des <num>xiii<hi rend="sup">e</hi></num> et XIV siècles.</p>
         </div>
-        <div>
+        <div xml:id="r1350979">
           <pb source="https://nakala.fr/10.34847/nkl.3d40g4sz#53cba04ff48b6b52969f5fcfc9f914c841ca9f84" n="226" facs="https://api.nakala.fr/iiif/10.34847/nkl.3d40g4sz/53cba04ff48b6b52969f5fcfc9f914c841ca9f84/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Historique</head>
@@ -77,7 +75,7 @@
           <p>Le droit vint appuyer l’usage des marques typographiques, mais il ne réussit jamais à l’imposer. Le premier texte juridique traitant des métiers de l’imprimerie (édit de Blois du 9 avril 1513) n’en disait mot ; il faut attendre l’édit de Fontainebleau du 28 décembre 1541 pour que soit fixée la législation dans ce domaine, qui sera appliquée jusqu’au début du règne de Louis XIII. Le pouvoir royal souhaitait par là remédier aux problèmes réitérés de contrefaçon mais aussi lutter contre les progrès de la Réforme. Les nouveaux statuts des métiers de la librairie et de l’imprimerie (lettres patentes datées de juin 1618 à Paris) furent encore plus stricts mais non pas plus efficaces.</p>
           <p>Dans le même temps que l’usage de la marque était rendu censément obligatoire, fut développé un dispositif de contrôle plus contraignant et plus efficace, celui des permissions et privilèges. Le problème des contrefaçons ou de l’impression de textes prohibés se déplaça rapidement à l’étranger, et devint celui de l’importation. La sclérose progressive des métiers du livre, qui amena une diminution très importante du nombre d’imprimeurs et de libraires en France ainsi que la suprématie de Paris, acheva de mettre un terme à l’usage des marques.</p>
         </div>
-        <div>
+        <div xml:id="r1351008">
           <head rend="uc">Chapitre III
            <lb/>Usages</head>
           <p><hi rend="i">Propriété, utilisation et transmission.</hi> – Les imprimeurs et libraires pouvaient utiliser autant de marques différentes qu’ils le voulaient : 64,1 % d’entre eux en firent graver une seule chacun ; 4 %, dix ou plus (soit environ seize marques en moyenne pour cette catégorie) ; les 31,9 % restants, entre trois et quatre en moyenne.</p>
@@ -88,24 +86,24 @@
           <p><hi rend="i">Organisation spatiale de la gravure.</hi> – Une marque comprend généralement une combinaison d’éléments significatifs, c’est-à-dire un élément principal entouré d’éléments secondaires, l’ensemble accompagné d’éléments décoratifs non signifiants. Cette hiérarchie s’exprime principalement par le rapport des dimensions ou par l’emplacement : du plus visible au moins visible et, souvent, de haut en bas. Toutes les libertés offertes par la gravure sont mises en œuvre : les marques peuvent montrer une scène, une figure ou un groupe de figures, un ou plusieurs objets, une <pb source="https://nakala.fr/10.34847/nkl.3d40g4sz#33ed62b4ac1f98711e705748bcdbb1fa16810dc8" n="228" facs="https://api.nakala.fr/iiif/10.34847/nkl.3d40g4sz/33ed62b4ac1f98711e705748bcdbb1fa16810dc8/full/full/0/default.jpg"/>scène animalière, un ou plusieurs animaux, un ou plusieurs végétaux, de même que des armoiries ou des monogrammes, et tout cela de manière isolée ou en combinaisons variées. Un peu moins de 60 % des marques du corpus sont placées dans un encadrement ; les autres, laissées libres, sont utilisées surtout dans la seconde partie du <num>xvi<hi rend="sup">e</hi></num> siècle. La prédominance de la disposition verticale (89 % des cas) est liée à des raisons d’équilibre esthétique dans des pages elles-mêmes de format vertical.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1351061">
         <head rend="uc">Seconde partie
          <lb/>Système sémiologique des marques</head>
-        <div>
+        <div xml:id="r1351069">
           <head rend="uc">Chapitre premier
            <lb/>système a référés multiples</head>
           <p><hi rend="i">Possesseur de la marque.</hi> – Le possesseur d’une marque constitue statistiquement le référé le plus souvent présent sur les marques : 49,2 % du nombre total de marques comportent au moins un élément renvoyant au possesseur, ainsi que 84,9 % du nombre de marques à références (si l’on désigne par « marque à références » toute marque dont au moins un élément constitue un renvoi au propriétaire de la marque, à une enseigne ou à une autre personne physique ou morale).</p>
           <p><hi rend="i">Enseigne.</hi> – 24 % des marques comportent un renvoi à une enseigne, soit 33 % des marques à références, appartenant à 32,8 % des imprimeurs. Si le thème de certaines marques fut choisi d’après une enseigne, à l’inverse, le thème de certaines enseignes fut parfois choisi d’après une marque.</p>
           <p><hi rend="i">Référés de déférence.</hi> – 6,5 % des marques comportent au moins un renvoi à une autorité, soit 11 % des marques à références, appartenant à 13,5 % des imprimeurs et libraires.</p>
         </div>
-        <div>
+        <div xml:id="r1351096">
           <head rend="uc">Chapitre II
            <lb/>Vocabulaire de la technique référentielle</head>
           <p><hi rend="i">L’apparence physique.</hi> – Le moyen le plus direct pour faire référence à un imprimeur ou libraire consistait à montrer son portrait. Il ne représente néanmoins qu’une partie infime du corpus.</p>
           <p><hi rend="i">La parole.</hi> – On pouvait autrement employer les ressources de l’art graphique pour suggérer son nom en images. Les marques parlantes, au sens large, représentent 19,7 % des marques, soit 37 % des marques à références. Trois procédés furent utilisés : d’abord le procédé parlant simple, qui constitue la quasi-totalité des cas de marques parlantes et permet de signifier, en un seul élément simple, le nom de l’imprimeur ou du libraire. Ensuite, l’allusion, bien moins fréquente : les marques allusives montrent un élément qui fait référence au nom de l’imprimeur ou du libraire par une lecture soit approximative (donnant une partie seulement du nom), soit au second degré (permettant d’identifier le nom à partir d’un élément concret qui n’en est pas la figuration directe mais y fait allusion). Enfin, l’écriture : 67,8 % <pb source="https://nakala.fr/10.34847/nkl.3d40g4sz#e3059d5b384b6b6ed50658bb39500e0a734eecfd" n="229" facs="https://api.nakala.fr/iiif/10.34847/nkl.3d40g4sz/e3059d5b384b6b6ed50658bb39500e0a734eecfd/full/full/0/default.jpg"/>des marques montrent un élément à base de signes tracés, nom, initiales ou monogramme (le monogramme désignant une construction graphique composite réalisée par imbrication, liaison ou circonscription).</p>
           <p>43,4 % des marques présentent un monogramme. Son utilisation dans les marques typographiques se rattache à deux traditions : la première est religieuse, tandis que la seconde se rattache à l’usage des marques de fabrique et de maison. La structure du monogramme, dans la quasi-totalité des cas, s’organise autour d’un axe vertical et sur une assise formée d’éléments graphiques qui peuvent également venir se greffer autour de la hampe. Ces éléments sont de trois sortes : symboles religieux (croix, symboles christiques et mariaux, symbole du monde), lettres de l’alphabet, signes conventionnels. Une étude systématique montre, d’une part, que chacun de ces symboles a pu subir des modifications ou des déstructurations plus ou moins importantes, sans doute sous l’influence de copies plus ou moins bien comprises, au point d’aboutir à des formes tronquées ou hybrides, et, d’autre part, que les évolutions observées ne peuvent être reconstituées que selon des liens logiques et non chronologiques.</p>
         </div>
-        <div>
+        <div xml:id="r1351125">
           <head rend="uc">Chapitre III
            <lb/>Grammaire de la technique référentielle</head>
           <p><hi rend="i">La surdétermination.</hi> – Un même élément d’une marque peut renvoyer à plusieurs référés, ce qui est plutôt rare.</p>
@@ -113,7 +111,7 @@
           <p><hi rend="i">La juxtaposition.</hi> – Plusieurs éléments juxtaposés peuvent renvoyer chacun à des référés différents, ce qui est le plus courant.</p>
           <p><hi rend="i">Les références implicites.</hi> – 20 % des marques ne présentent pas d’élément référent explicite, et 31 % des imprimeurs ou libraires ne possèdent aucune marque à références (noms, initiales et monogrammes inclus). Malgré tout, le référé implicite d’une marque reste en définitive la personne ou le groupe de personnes faisant figurer celle-ci sur un livre.</p>
         </div>
-        <div>
+        <div xml:id="r1351158">
           <head rend="uc">Chapitre IV
            <lb/>Marques typographiques, héraldique et emblématique</head>
           <p><hi rend="i">Marques typographiques et héraldique.</hi> – Il est fait usage du vocabulaire héraldique dans 40,9 % des marques, appartenant à 70,3 % des imprimeurs et libraires.</p>
@@ -126,18 +124,18 @@
           <p>Beaucoup de marques typographiques sont conçues comme des images investies d’un rôle emblématique : leur élaboration obéit alors généralement aux règles des emblèmes, qui se résument dans l’idée d’« obscurité relative », organisée dans un rapport étudié entre image et texte. Néanmoins, certaines marques peuvent se rapprocher d’un emblème par la simple évocation de la dimension symbolique d’un élément représenté, qu’il soit déjà ou non un référent, c’est-à-dire en rapport avec le fonds commun d’inspiration de l’emblématique ou grâce à une évocation plus personnelle. Par ailleurs, la fonction générale de la marque gomme la différence entre emblème et devise, un emblème de portée générale pouvant être adopté comme devise personnelle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1351209">
         <pb source="https://nakala.fr/10.34847/nkl.3d40g4sz#bfe0d73cfde75c5f66e51cdf4106281b02319e22" n="231" facs="https://api.nakala.fr/iiif/10.34847/nkl.3d40g4sz/bfe0d73cfde75c5f66e51cdf4106281b02319e22/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>L’usage des marques typographiques eut une utilité pratique et décorative, et jouit d’une liberté presque absolue. Son développement intervint dans le contexte particulier de l’invention de l’imprimerie mais sous l’influence, au moins analogique, de systèmes sémiologiques préexistants (marques de fabrique et de maison, héraldique, devises, enseignes) ou au développement concomitant (emblèmes humanistes) : d’où l’essor d’un système original qui cultiva constamment des ambiguïtés, liées à l’absence de codification, et ce, malgré le caractère univoque de son utilité pratique. Ainsi, on peut dire d’une marque typographique qu’elle est un champ graphique à fonction représentative pouvant admettre en son sein l’utilisation d’autres systèmes sémiologiques, parfois en combinaison les uns avec les autres.</p>
       </div>
-      <div>
+      <div xml:id="r1351224">
         <head rend="uc">Corpus</head>
         <p><hi rend="i">Établissement et rédaction du corpus.</hi> – Concordance entre les différents recueils exploités (Silvestre, Baudrier, Renouard, Heitz, Polain) ; notes bio-bibliographiques sur les imprimeurs et libraires ; description iconographique élaborée autour de trois critères d’analyse : hiérarchie de la lecture, organisation systématique des termes descripteurs, « grammaire » de la rédaction.</p>
         <p><hi rend="i">Thésaurus.</hi> – Agriculture, chasse, pêche ; animal ; architecture ; armement et art militaire ; artisanat ; arts ; géographique ou politique (entité) ; héraldique ; imaginaire (être) ; intellectuelle et scientifique (vie) ; mythologie ; nature ; ornement ; période historique ; personnage historique ou littéraire ; religion ; représentation (caractères généraux de la) ; transport ; végétal ; vie économique et sociale ; vie matérielle, corps ; vie politique et administrative.</p>
         <p><hi rend="i">Index des descripteurs.</hi> – Matières ; noms propres.</p>
       </div>
-      <div>
+      <div xml:id="r1351249">
         <head rend="uc">Annexes</head>
         <p>Illustration tirée de Vitruve, <hi rend="i">L’Architecture ou art de bien bastir,</hi> Paris, Jacques Gazeau, 1547, fol. 143v : marque de fabrique de meunier tracée sur des sacs de farine. – Tableaux de dérivation graphique des monogrammes, à partir du chrisme, du monogramme « MA », du symbole du monde. – Généalogies, historiques des maisons et officines.</p>
         <pb source="https://nakala.fr/10.34847/nkl.3d40g4sz#9445436425fd31a09d0dc1d24ef824ba84662f65" n="232" facs="https://api.nakala.fr/iiif/10.34847/nkl.3d40g4sz/9445436425fd31a09d0dc1d24ef824ba84662f65/full/full/0/default.jpg"/>

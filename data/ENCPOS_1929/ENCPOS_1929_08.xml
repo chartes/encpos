@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,9 +57,9 @@
         <forename>Arlette</forename>
         <surname>Ducrot née GRANDERYE</surname>
       </byline>
-      <div>
+      <div xml:id="r478531">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r478537">
           <head rend="uc">I
            <lb/>étude des manuscrits</head>
           <p>Nous avons trouvé un grand nombre de manuscrits (72) ; aussi les avons-nous divisés en trois groupes, et nous avons placé :</p>
@@ -69,23 +67,23 @@
           <p>Dans le second groupe, les mss., au nombre de 16, qui donnent la majeure partie des poèmes de notre auteur ;</p>
           <p>Dans le troisième groupe, 35 mss., qui renferment, avec d’autres œuvres, quelques-uns des poèmes de Gautier.</p>
         </div>
-        <div>
+        <div xml:id="r478558">
           <pb source="https://nakala.fr/10.34847/nkl.0a8ftf86#62fed775cd0deef34bfdadaccba4cd908e5ce9f1" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a8ftf86/62fed775cd0deef34bfdadaccba4cd908e5ce9f1/full/full/0/default.jpg"/>
           <head rend="uc">II
            <lb/>groupement général des manuscrits</head>
           <p>Par l’étude des particularités externes (c’est-à-dire extérieures au texte, passages remaniés, interpolations, omissions), et par celle des variantes des deux miracles dont nous donnons plus loin l’édition, nous déterminons des groupements de manuscrits, et nous montrons que le ms. 2163 du fonds français de la Bibliothèque nationale, est celui qui a le plus de points communs avec tous les autres ; qu’il est donc le plus proche de l’original. Nous le prendrons, en conséquence, comme ms. de base.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r478576">
         <head rend="uc">Deuxieme partie</head>
-        <div>
+        <div xml:id="r478582">
           <head rend="uc">I
            <lb/>vie de Gautier de Coinci</head>
           <p>Gautier de Coinci, né en 1177 dans le bourg de Coincy, près de Fère-en-Tardenois, entra à 15 ou 16 ans au monastère de Saint-Médard de Soissons, et devint en 1211 prieur de Vic-sur-Aisne. En 1233, il rentre à Soissons, comme grand prieur de Saint-Médard, où il meurt en 1236, à l’âge de 59 ans.</p>
           <p>Gautier eut donc une vie calme et tranquille, qu’il consacra à écrire les louanges de Marie. Dans son âme simple, il fait place à des sentiments extrêmes : amour de la Vierge, haine du diable et des juifs.</p>
           <p>En écrivant, Gautier poursuit l’édification de ses contemporains et c’est ainsi qu’il est un censeur violent des mœurs de son temps.</p>
         </div>
-        <div>
+        <div xml:id="r478600">
           <pb source="https://nakala.fr/10.34847/nkl.0a8ftf86#4d7e073cc01f1536ca2ead4fa53c68d84550f42d" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a8ftf86/4d7e073cc01f1536ca2ead4fa53c68d84550f42d/full/full/0/default.jpg"/>
           <head rend="uc">II
            <lb/>œuvre de Gautier de Coinci, et genèse du livre
@@ -95,15 +93,15 @@
           <p>2° Vers 1222, il écrit quelques chansons qui viennent augmenter son livre premier, ajoute un long développement au miracle de Saint Hyldefons, et rédige un poème et des chansons en l’honneur de sainte Léocade.</p>
           <p>3° De 1223 à 1227 il écrit son second livre et apporte quelques remaniements dans la présentation de son ouvrage.</p>
         </div>
-        <div>
+        <div xml:id="r478628">
           <head rend="uc">III
            <lb/>style</head>
           <p>Le style est plein de vie, le vocabulaire abondant, mais Gautier se laisse trop souvent entraîner par son goût prononcé pour la préciosité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r478641">
         <head rend="uc">Troisième partie</head>
-        <div>
+        <div xml:id="r478647">
           <head rend="uc">I
            <lb/>étude préliminaire sur deux miracles</head>
           <p>1°) <hi rend="i">De milite cui post mortem voluntas pro facto reputatur.</hi> – Un chevalier impie et malfaisant, qui pourtant vénérait Nostre-Dame, se repent et meurt <pb source="https://nakala.fr/10.34847/nkl.0a8ftf86#4b314c7701cfef8634fd54ab07fcf3b4ec6ac3f2" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a8ftf86/4b314c7701cfef8634fd54ab07fcf3b4ec6ac3f2/full/full/0/default.jpg"/>avant d’avoir pu mettre à exécution sa décision de bâtir un couvent où il veut se retirer. Après sa mort, les anges et les diables qui se disputent son âme s’en rapportent finalement au jugement de Dieu ; sur l’intervention de Marie reconnaissante, l’âme du chevalier est admise au paradis.</p>
@@ -115,13 +113,13 @@
            <lb/>édition critique de ces deux miracles</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r478689">
           <head rend="uc">III</head>
           <p>1. Glossaires complets.</p>
           <p>2. Table des noms propres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r478703">
         <head rend="uc">Appendices</head>
         <p>I. Tables de concordance des miracles dans les trois groupes de manuscrits.</p>
         <p>II. Fac-similés de mss. étrangers.</p>

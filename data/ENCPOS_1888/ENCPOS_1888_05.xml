@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1888_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1888_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Dupont-Ferrier</surname>
         <roleName rend="uc">Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r161294">
         <head rend="uc">Chapitre I.
          <lb/>Les premières années de Jean d’Angoulême.</head>
         <p>Sa famille – Sa naissance : raisons pour la placer entre le 1<hi rend="sup">er</hi> mai 1399 et 1<hi rend="sup">er</hi> mai 1400.</p>
@@ -70,7 +68,7 @@
         <p>Négociateurs choisis pour éloigner cette armée : Guillaume de Tignonville, Guillaume de Braquemont, Raoul de de Gaucourt, Jean Chomery. – Exigences des Anglais : traité de Buzançais.</p>
         <p>Jean d’Angoulême et six gentilshommes livrés en otages pour la garantie de 150,000 écus, 14 novembre 1412.</p>
       </div>
-      <div>
+      <div xml:id="r161340">
         <head rend="uc">Chapitre II.
          <lb/>La captivité de Jean d’Angoulême. – Thomas duc de Clarence.</head>
         <p>La captivité du comte et les otages qui la partagent : Macé le Borgne, Jehan de Saveuzes, Guillaume le Bouteiller, Archambaut de Villars, Hector de Pontbriant, Jehan Davy. – La garde du comte de Clarence.</p>
@@ -80,7 +78,7 @@
         <p>Epuisement fiscal : cessation des paiements à Clarence. – Frais de la vie quotidienne du comte et de Charles son frère. – Les importations de France. – Entourage de Jean d’Angoulême : messagers, otages, serviteurs. – Colinet Goulon, Oudart du Fouilloy. – Fin de l’éducation <pb source="https://nakala.fr/10.34847/nkl.aa83gf50#d0360f77bae00395b6e68e24c35428f2282f44b9" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa83gf50/d0360f77bae00395b6e68e24c35428f2282f44b9/full/full/0/default.jpg"/>de Jean. – Occupations littéraires de sa captivité. Caton moralisé, Chaucer, Boèce.</p>
         <p>Mort du comte de Vertus. – Mort de Clarence à Baugé : 22 mars 1421.</p>
       </div>
-      <div>
+      <div xml:id="r161372">
         <head rend="uc">Chapitre III.
          <lb/>La captivité de Jean d’Angoulême. – Marguerite
          <lb/>duchesse de Clarence.</head>
@@ -91,7 +89,7 @@
         <p>Expédients : le prisonnier anglais de l’évêque de Saintes. – Thomas Beaufort et sa rançon à Tanguy du Châtel. – Projets de mariage : les filles de Nicolas de Ferrare ; Jeanne de Rohan ; Marguerite de Savoie, Jeanne de Rohan, une seconde fois.</p>
         <p>Jean d’Angoulême et le concile de Bâle. Mort de Marguerite de Clarence, 30 décembre 1439.</p>
       </div>
-      <div>
+      <div xml:id="r161401">
         <pb source="https://nakala.fr/10.34847/nkl.aa83gf50#49572accb4dc731e4080374d92e13d08f60ecdea" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa83gf50/49572accb4dc731e4080374d92e13d08f60ecdea/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre IV.
          <lb/>La délivrance de Jean d’Angoulême et ses suites</head>
@@ -105,7 +103,7 @@
         <p>Les derniers paiements de la rançon. – Réclamations de Marguerite de Somerset pour les autres.</p>
         <p>Mariage de Jean avec Marguerite de Rohan.</p>
       </div>
-      <div>
+      <div xml:id="r161442">
         <head rend="uc">Chapitre V.
          <lb/>La vie publique de Jean d’Angoulême</head>
         <p>Le comte avant la première campagne de Guyenne ; achat d’Aubeterre aux Anglais. Jean de Bretagne. – <pb source="https://nakala.fr/10.34847/nkl.aa83gf50#d5ddc54cb790071113826a35f95517aa7cbca0c8" n="37" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa83gf50/d5ddc54cb790071113826a35f95517aa7cbca0c8/full/full/0/default.jpg"/>Mise en défense, par le comte, de l’Angoumois et des pays voisins.</p>
@@ -114,7 +112,7 @@
         <p>Noces de Madeleine de France et de Ladislas VI : Jean à Tours. – Procès du duc d’Alençon : Jean à Vendôme. – Funérailles de Charles VII : Jean à Paris. – Sacre de Louis XI : Jean à Reims. – Fêtes à Paris, après le sacre.</p>
         <p>Le comte à l’assemblée de Tours. – Peudant la guerre du « bien public », Jean, lieutenant pour le roi en Saintonge et frontière de Guyenne. – Appréciation de la vie publique de Jean.</p>
       </div>
-      <div>
+      <div xml:id="r161471">
         <head rend="uc">Chapitre VI.
          <lb/>Les seigneurs et les officiers d’Angoumois pendant la captivité
          <lb/>du comte.</head>
@@ -125,7 +123,7 @@
         <p>4° <hi rend="i">Châtellenie d’Angoulême.</hi></p>
         <p>Conclusions.</p>
       </div>
-      <div>
+      <div xml:id="r161520">
         <head rend="uc">Chapitre VII.
          <lb/>Rapports de Jean d’Angoulême avec. Ses sujets.</head>
         <p>1° <hi rend="i">Avec le peuple des villes et des campagnes.</hi> Le comte et son peuple victimes des excès précédents. – Leur alliance. – Les enquêtes. – Résidence du comte en Angoumois. – Saisine générale des terres : vérifications. – Renaissance dans le comté.</p>
@@ -135,7 +133,7 @@
         <p>3° <hi rend="i">Avec les Seigneurs.</hi> Aveux de dénombrements. – Limites en Angoumois. – Relèvement général de toutes prescriptions obtenu par le comte. – Tactique des seigneurs, tactique du comte.</p>
         <p>Conflits avec Joachim et François Bouchart à propos <pb source="https://nakala.fr/10.34847/nkl.aa83gf50#308973f7232e2b4d6a7586abf34d539dc6a39cf7" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa83gf50/308973f7232e2b4d6a7586abf34d539dc6a39cf7/full/full/0/default.jpg"/>des assises d’Aubeterre : journée du 5 juin 1452. – Conflits avec Guy de Mareuil au sujet d’Angeac, Saint-Amand, Graves, Villebois.</p>
       </div>
-      <div>
+      <div xml:id="r161568">
         <head rend="uc">Chapitre VIII.
          <lb/>Rapports de Jean d’Angoulême avec Regnaud Chabot
          <lb/>seigneur de Jarnac.</head>
@@ -143,17 +141,17 @@
         <p><hi rend="i">Captivité de Jean d’Angoulême.</hi> – Destruction du château, fortification de la ville, malgré l’opposition des officiers du comte ; droits dus au château transportés à la ville ; vente à Chabot par Charles d’Orléans de la cinquième partie de Jarnac, 6 déc. 1441.</p>
         <p><hi rend="i">Retour de Jean d’Angoulême.</hi> – 1° Attaques du comte contre la vente du 6 décembre 1441. Rachat, le 4 mai 1456, de la cinquième partie de Jarnac et du château. – 2° Cession au comte, le 12 janvier 1456, par l’abbé de Saint-Cybard, de l’hommage des quatre parties de Jarnac. Vains efforts de Regnaud Chabod pour rendre hommage au comte des quatre parties de Jarnac et du château, dont il veut garder les droits. Opposition et confiscation du comte. – Intervention : 1° du roi qui confirme la confiscation ; du Parlement, qui, le 23 juin 1464, donne gain de cause au comte, contre Regnaud Chabot. – 3° Déclaration de « nouvelle œuvre » par le comte, à l’encontre de Regnaud Chabot qui a fortifié sans en avoir le droit son « hôtel » de Jarnac, afin de le changer en « château » et de garder ainsi tous les droits de l’ancien château de Jarnac qu’il a usurpés. Mort du comte et de Regnaud Chabot.</p>
       </div>
-      <div>
+      <div xml:id="r161597">
         <pb source="https://nakala.fr/10.34847/nkl.aa83gf50#f092f7e811deab529c4c5df416ecd34896e4f5d6" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa83gf50/f092f7e811deab529c4c5df416ecd34896e4f5d6/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre IX.
          <lb/>Acquisitions et revenus de Jean d’Angoulême.</head>
-        <div>
+        <div xml:id="r161610">
           <head rend="uc">I. – Acquisitions.</head>
           <p>1° De domaines aliénés par Charles d’Orléans : le Périgord vendu en 1437 à Jean de Bretagne. Procès jusqu’en 1497 ; mais hommage au roi, 1461. – Le quint de Jarnac.</p>
           <p>2° De domaines nouveaux : Villedieu, acquis de Guillaume le Bouteiller. – Cholet, acquis de Monte-Jean (Antoinette de Villequier). – Rentes achetées du sire de Monte-Jean.</p>
           <p>Les quatre quints de Châteauneuf, acquis de Jean de la Rochefoucauld. – Marcillac. – Fourras, acquis de Jean de Brosse. – Bourg – Charente, acquis de Pierre Bragier. – Autres menus acquêts.</p>
         </div>
-        <div>
+        <div xml:id="r161626">
           <head rend="uc">II. – Revenus.</head>
           <p>1° Pensions du roi : chiffre variable. – De Charles d’Orléans : le tiers des recettes du duc en Normandie.</p>
           <p>2° Revenus tirés par le comte de ses sujets. La taille annuelle ; faible élévation de son chiffre. – Les hommages : minime importance de leur produit. – Les droits féodaux : aliénation de la plupart d’entre eux par les précédents comtes d’Angoulême.</p>
@@ -163,7 +161,7 @@
           <p>Le comte d’Angoulême : les trois châtellenies de Bouteville, Angoulême, Cognac-Merpins, seules exploitées par le comte. – Chiffres du produit. Baux à rente, baux à ferme. – Épernay : Ses forêts. – Romorantin. Millançay, Villebrosse, leurs étangs. – Greniers à sel : Épernay, Romorantin, Cognac.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r161654">
         <head rend="uc">Chapitre X.
          <lb/>Le port saunier de Cognac.</head>
         <p>Privilèges de Cognac pour le commerce du sel ; rivalité de Taillebourg et de Saint-Jean-d’Angély.</p>
@@ -174,7 +172,7 @@
         <p>2° Par les seigneurs de Taillebourg : Henri de Pluscallet, Pregent et Olivier de Coëtivy : les treize deniers oboles.</p>
         <p>Contrebande du sel : les « faulx saulniers. »</p>
       </div>
-      <div>
+      <div xml:id="r161684">
         <pb source="https://nakala.fr/10.34847/nkl.aa83gf50#85a02bae3d10d6806ff07d1d047f2a3a559d8d92" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa83gf50/85a02bae3d10d6806ff07d1d047f2a3a559d8d92/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre XI.
          <lb/>Gouts littéraires de Jean d’Angoulême.</head>
@@ -183,7 +181,7 @@
         <p>Livres de théologie : Bibles, psautiers. – Saint Augustin, saint Anselme, etc. – Livres de philosophie et de morale : Aristote, Alain de Lille, Christine de Pisan, Jacques le Grand, etc. – Jean de Salisbury. – Ouvrages d’histoire contemporaine, ancienne, ecclésiastique : chroniques compilées par le comte. – Ouvrages de géographie. – Poésie : Jean de Meung, Boccace, Pétrarque, etc. – Traités de rhétorique. – Pièces de vers attribuées au comte : leur manière.</p>
         <p>Goûts littéraires du comte appréciés par les contemporains.</p>
       </div>
-      <div>
+      <div xml:id="r161710">
         <head rend="uc">Chapitre XII.
          <lb/>Vie privée et mort de Jean d’Angoulême.</head>
         <p>Portrait du comte. – Emploi de ses journées. – Sa piété, ses aumônes. – Ses repas. – Ses jeûnes. – Sa bonté pour les petites gens. – Comment il voyage dans ses terres, en dehors. – Son caractère. – Affection que lui portent ses sujets. – Entourage du comte. – Ses <pb source="https://nakala.fr/10.34847/nkl.aa83gf50#e7922e619933afd27b32decb95a8b18fc67461c0" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa83gf50/e7922e619933afd27b32decb95a8b18fc67461c0/full/full/0/default.jpg"/>prêtres. – Ses officiers. – Ses prédications. – Menus de l’hôtel du comte.</p>

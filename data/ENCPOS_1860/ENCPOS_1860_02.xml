@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1860_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1860_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>H. P.</forename>
         <surname> Faugeron</surname>
       </byline>
-      <div>
+      <div xml:id="r35093">
         <head rend="uc">I.
           <lb/>La Fraternité ou confédération des fils
           <lb/>de Louis le pieux (842-870).</head>
@@ -75,7 +73,7 @@
         <p>Cette surveillance collective de l’empire de Charlemagne donne naissance à une nouvelle hiérarchie politique, hiérarchie où l’on ne retrouve plus l’Empereur, qui a été battu par ses frères à Fontenaille. Il est remplacé par les <hi rend="i">trois rois pairs,</hi> délibérant en commun, dans une assemblée nationale, avec leurs évêques, leurs seigneurs laïques et leurs fidèles.</p>
         <p>Ainsi voulut-on organiser le gouvernement de l’Empire après Fontenaille. De 842 à 870 on voit de constants efforts de la part des princes carlovingiens pour établir, consolider et perpétuer cette bizarre confédération.</p>
         <p>En réalité, la Fraternité n’eut jamais qu’une existence précaire et fort irrégulière. Elle exista cependant, et méritait l’attention des historiens.</p>
-        <div>
+        <div xml:id="r35203">
           <head rend="uc">II.
             <lb/>Les bénéfices et le séniorat au temps
             <lb/>de Charles-le-Chauve.</head>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1858_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1858_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,14 +57,14 @@
         <forename>A.</forename>
         <surname>Desplanque</surname>
       </byline>
-      <div>
+      <div xml:id="r26089">
         <head rend="uc">Préambule.</head>
         <p>Qu’était-ce que nos <hi rend="i">états ?</hi></p>
         <p>Comment fonctionnaient-ils ?</p>
         <p>A quelle date précise peut-on rapporter leur origine ?</p>
         <p>Quelles modifications subirent-ils dans leur tenue et leurs attributions sur une durée d’environ quatre siècles ?</p>
         <p>Autant de points qui correspondent aux divisions de cet <hi rend="i">Essai.</hi></p>
-        <div>
+        <div xml:id="r26116">
           <head rend="uc">I. <hi rend="i">Auteurs qui ont parlé des états de la Flandre</hi>
            <lb/><hi rend="i">walonne :</hi></head>
           <p>Ce qu’en ont dit M.V. Derode (<hi rend="i">Histoire de Lille et de la Flandre walonne</hi>) ;</p>
@@ -80,7 +78,7 @@
           <p>Tous ces écrivains, à l’exception du dernier, ont suivi le <hi rend="i">Mémoire sur l’intendance de Flandre,</hi> dressé en 1693, par ordre du s<hi rend="sup">r</hi> Du Gué de Bagnols, communément attribué à Denis Godefroy, B.I. (Fonds Mortemart, n° 103).</p>
           <p>Parti à tirer des nombreux <hi rend="i">factums</hi> et <hi rend="i">mémoires </hi>relatifs au <hi rend="i">procès des trois ordres</hi> dans le courant du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r26235">
           <head rend="uc">II. <hi rend="i">Sources inédites de ce travail :</hi></head>
           <p>1° A la Bibliothèque impériale (B.I.) :</p>
           <p>Les <hi rend="i">180 Enans</hi> et les <hi rend="i">182 Colbert.</hi></p>
@@ -101,15 +99,15 @@
           <p>Les <hi rend="i">37 liasses</hi> comprenant les <hi rend="i">papiers d’état du contrôleur général des finances</hi> (H 673 à 710).</p>
           <p>Le <hi rend="i">carton K 1165,</hi> contenant des documents relatifs à l’Histoire provinciale de la Flandre française.</p>
         </div>
-        <div>
+        <div xml:id="r26363">
           <head rend="uc">III. <hi rend="i">Actes émanés des souverains :</hi></head>
           <p>La collection des édits et placards de Flandre : (<hi rend="i">Ordonnantien statuten edicten ende Placcasten Van Vlaederen Gend,</hi> 10 vol. in-fol.) La collection d’<hi rend="i">édits et arrêts du conseil de Vernymen et celle de Plouvain.</hi> Et la précieuse série des <hi rend="i">registres aux édits et arrêts</hi> de la bibliothèque des archives du Nord, à Lille, de 1640 à 1789.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r26389">
         <head rend="uc">Chapitre premier.
          <lb/>Nature et composition des états.</head>
-        <div>
+        <div xml:id="r26397">
           <head rend="uc">§ I.
            <lb/><hi rend="i">Assemblée générale annuelle.</hi></head>
           <p><hi rend="i">L’Assemblée générale annuelle des états</hi> siégeant au <pb source="https://nakala.fr/10.34847/nkl.763f1lyy#f7145b795c34a3dfa1ab23d2bad7bc236d17fec4" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/f7145b795c34a3dfa1ab23d2bad7bc236d17fec4/full/full/0/default.jpg"/><hi rend="i">conclave échevinal de Lille</hi> se divise en <hi rend="i">quatre membres </hi>ou <hi rend="i">administrations.</hi></p>
@@ -126,7 +124,7 @@
           <p>Le troisième le prince de Soubise.</p>
           <p>Le quatrième le comte d’Egmont-Pignatelli.</p>
         </div>
-        <div>
+        <div xml:id="r26558">
           <head rend="uc">§ II.
            <lb/><hi rend="i">Assemblée particulière.</hi></head>
           <p>L’<hi rend="i">Assemblée particulière</hi> des <hi rend="i">états,</hi> qui en est le <hi rend="i">bureau permanent,</hi> se tient <hi rend="i">trois jours de chaque semaine,</hi> dans une <hi rend="i">chambre séparée du conclave,</hi> sise également au <hi rend="i">palais de Rihour</hi> (ancien hôtel-de-ville).</p>
@@ -134,10 +132,10 @@
           <p>Les grands baillis ont, en outre, leurs <hi rend="i">assemblées privées</hi> dans une <hi rend="i">autre chambre</hi> du même local ; ils s’y enferment avec leurs deux <hi rend="i">conseillers-pensionnaires,</hi> leurs <hi rend="i">deux receveurs</hi> et leur <hi rend="i">greffier.</hi> Ce dernier a le privilège de <hi rend="i">tenir la plume</hi> aux <hi rend="i">assemblées générales annuelles,</hi> à l’exclusion de tous autres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r26643">
         <head rend="uc">Chapitre II.
          <lb/>Fonctionnement des états.</head>
-        <div>
+        <div xml:id="r26651">
           <head rend="uc">§ I.
            <lb/><hi rend="i">Leur ressort territorial.</hi></head>
           <p>La Flandre walonne, circonscrite entre les provinces <pb source="https://nakala.fr/10.34847/nkl.763f1lyy#70a1904b2fa7c5ba80ffb17c4b92008b4d7e54d1" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/70a1904b2fa7c5ba80ffb17c4b92008b4d7e54d1/full/full/0/default.jpg"/>autrichiennes, l’Artois, l’Ostrevant, le Rainant et la Flandre maritime, n’a de limite naturelle qu’au N.-O., du côté de la <hi rend="i">Lys ;</hi> elle est arrosée à l’intérieur par la <hi rend="i">Scarpe, </hi>la <hi rend="i">Haute</hi> et <hi rend="i">Basse-Deûle,</hi> et par la <hi rend="i">Marque ;</hi> elle comprend <hi rend="i">trois villes</hi> principales et <hi rend="i">deux châtellenies.</hi></p>
@@ -149,7 +147,7 @@
           <p>La Flandre walonne se divise <hi rend="i">judiciairement</hi> en deux <hi rend="i">gouvernances</hi> ou <hi rend="i">souverains-bailliages</hi> et en <hi rend="i">trois subdélé<pb source="https://nakala.fr/10.34847/nkl.763f1lyy#e6eb7c381c1fbce54ea84f525cce6c4f72065b85" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/e6eb7c381c1fbce54ea84f525cce6c4f72065b85/full/full/0/default.jpg"/>gâtions.</hi> Au spirituel, elle est distribuée entre les deux <hi rend="i">diocèses d’Arras</hi> et de <hi rend="i">Tournay.</hi> Elle fait partie intégrante de l’<hi rend="i">intendance de Flandres et Artois</hi> et du <hi rend="i">gouvernement général de Flandres,</hi> dont <hi rend="i">Lille</hi> est le <hi rend="i">siége.</hi></p>
           <p>Etendue territoriale et productions du pays, système de canalisation conçu et exécuté en partie sous le règne de Louis XIV.</p>
         </div>
-        <div>
+        <div xml:id="r26841">
           <head rend="uc">§ II.
            <lb/><hi rend="i">Prérogatives des états.</hi></head>
           <p>Les <hi rend="i">prérogatives</hi> des <hi rend="i">états</hi> sont <hi rend="i">communes</hi> aux quatre membres, ou <hi rend="i">particulières</hi> à chacun d’eux.</p>
@@ -161,7 +159,7 @@
           <p>5<hi rend="sup">e</hi> Prérogative : Les états administrent la province, ils décrètent les <hi rend="i">charges locales,</hi> ils y subviennent au moyen d’<hi rend="i">impositions,</hi> manient les finances, promulguent dos <hi rend="i">ordonnances</hi> et <hi rend="i">règlements</hi> exécutoires dans toute l’étendue de leur <hi rend="i">juridiction.</hi></p>
           <p>Ici commencent les <hi rend="i">attributions judiciaires</hi> des quatre membres, qui connaissent de toutes les causes relatives à <hi rend="i">l’assiette</hi> et à la <hi rend="i">perception</hi> de l’impôt, étant réservés certains droits des <hi rend="i">gouvernances</hi> et du <hi rend="i">bureau des finances.</hi></p>
         </div>
-        <div>
+        <div xml:id="r27043">
           <head rend="uc">§ III.
            <lb/><hi rend="i">Charges des états.</hi></head>
           <p>Les <hi rend="i">charges</hi> des états sont de deux sortes, <hi rend="i">générales </hi>ou <hi rend="i">particulières : générales</hi> en tant qu’elles concourent <hi rend="i">directement</hi> ou <hi rend="i">indirectement</hi> à subvenir aux besoins du <hi rend="i">trésor ; particulières</hi> en tant qu’elles ont pour but de satisfaire à des nécessités <hi rend="i">locales.</hi></p>
@@ -169,7 +167,7 @@
           <p>Les <hi rend="i">charges</hi> qui <hi rend="i">concourent indirectement</hi> à subvenir aux <hi rend="i">besoins généraux du trésor</hi> sont : les <hi rend="i">étrennes et gratifications dues au gouverneur-général, à l’état-major,</hi> etc. – Les <hi rend="i">gages de la maréchaussée, des maîtres de poste. </hi>– L’<hi rend="i">entretien et l’habillement des milices.</hi> – Les <hi rend="i">travaux de fortifications.</hi> – La <hi rend="i">construction et ameublement des casernes, quartiers et pavillons.</hi> – La <hi rend="i">fourniture de fourrage à la cavalerie, de chariots, de chevaux de trait et de selle aux convois militaires.</hi></p>
           <p>CHARGES PARTICULIÈRES. <hi rend="i">Percement et entretien des routes et canaux.</hi> – <hi rend="i">Conservation et ameublement du local des séances.</hi> – <hi rend="i">Honoraires et vacations des membres.</hi> – <hi rend="i">Gages du personnel des états.</hi> – <hi rend="i">Expédition des mandements et ordonnances.</hi> – <hi rend="i">Frais de formation et audition des comptes.</hi> – <hi rend="i">Frais de procédure.</hi> – <hi rend="i">Frais de la chambre de commerce.</hi> – <hi rend="i">Frais d’achat, de nourriture et entretien des étalons de la province.</hi> – <hi rend="i">École vétérinaire.</hi> – – <hi rend="i">Gages des médecins, sages-femmes et maîtres d’école. </hi>– <hi rend="i">Enfants trouvés.</hi> – <hi rend="i">Hôpitaux et maisons des pauvres. </hi>– <hi rend="i">Achat de blé et de riz</hi> dans les temps de famine.</p>
         </div>
-        <div>
+        <div xml:id="r27243">
           <head rend="uc">§ IV.
            <lb/><hi rend="i">Ressources des états.</hi></head>
           <p>Le chapitre des <hi rend="i">ressources</hi> correspond exactement à celui des <hi rend="i">charges.</hi> Les <hi rend="i">deux aides,</hi> ainsi que le <hi rend="i">supplément. </hi>s’acquittent au moyen de XX<hi rend="sup">es</hi> qu’on <hi rend="i">assied</hi> sur les <hi rend="i">biens fonds.</hi> Les <hi rend="i">ecclésiastiques</hi> et les <hi rend="i">nobles</hi> sont admis à <hi rend="i">consentir</hi> cet impôt sur les <hi rend="i">seuls biens</hi> qu’ils <hi rend="i">occupent par eux-mêmes <pb source="https://nakala.fr/10.34847/nkl.763f1lyy#a13049cc8da08d9c3f0aa74b2940e843e3ea9fa3" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/a13049cc8da08d9c3f0aa74b2940e843e3ea9fa3/full/full/0/default.jpg"/> :</hi> le reste de leurs propriétés demeure soumis aux <hi rend="i">charges communes</hi> des états. Il s’en faut, d’ailleurs, que les XX<hi rend="sup">es</hi> soient <hi rend="i">réels,</hi> le <hi rend="i">transport</hi> ou <hi rend="i">cahier</hi> de 1601 ayant beaucoup vieilli.</p>
@@ -179,7 +177,7 @@
           <p>Les magistrats frappent d’impositions une quantité d’objets : <hi rend="i">bêtes à pieds fourchus, grains et farines, charbon de bois et de houille, poisson frais et salé, cuirs,</hi> etc. Ils perçoivent, en outre, des droits de <hi rend="i">vente,</hi> de <hi rend="i">péage,</hi> de <hi rend="i">petit scel.</hi></p>
           <p>Indépendamment des octrois que les grands baillis lèvent sur la campagne, plusieurs communautés ont le privilége de s’imposer additionnellement.</p>
         </div>
-        <div>
+        <div xml:id="r27421">
           <head rend="uc">§ V.
            <lb/><hi rend="i">Tenue des états.</hi></head>
           <p>L’<hi rend="i">Assemblée générale</hi> des <hi rend="i">états</hi> se tient d’ordinaire en <hi rend="i">novembre</hi> ou <hi rend="i">décembre ;</hi> elle est remise quelquefois aux premiers mois de l’année qui fait suite.</p>
@@ -193,7 +191,7 @@
           <p>Les <hi rend="i">séances ordinaires</hi> ont moins de solennité, mais elles fonctionnent activement, tandis que la <hi rend="i">réunion générale</hi> offre le spectacle d’un vain cérémonial. Les <hi rend="i">pré<pb source="https://nakala.fr/10.34847/nkl.763f1lyy#4e95715c4f6bc157791d3d7e8dcdd70920e46a83" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/4e95715c4f6bc157791d3d7e8dcdd70920e46a83/full/full/0/default.jpg"/>séances</hi> sont minutieusement déterminées dans l’une et l’autre assemblée.</p>
           <p>Il en est de même pour <hi rend="i">l’audition</hi> et <hi rend="i">perception</hi> des <hi rend="i">comptes.</hi></p>
         </div>
-        <div>
+        <div xml:id="r27554">
           <head rend="uc">§ VI.
            <lb/><hi rend="i">Relations administratives des états.</hi></head>
           <p>Les états correspondent du <hi rend="i">côté de la cour</hi> avec le <hi rend="i">ministre secrétaire d’État de la province</hi> et le <hi rend="i">contrôleur général des finances,</hi> avec ou sans l’entremise des <hi rend="i">commissaires du roi.</hi></p>
@@ -202,7 +200,7 @@
           <p>De nombreux <hi rend="i">conflits de juridiction</hi> mettent continuellement aux prises les <hi rend="i">quatre membres</hi> avee les <hi rend="i">gouvernances.</hi> – Relations des baillis avec le <hi rend="i">bureau des finances </hi>et les <hi rend="i">gens de loi des paroisses.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r27651">
         <pb source="https://nakala.fr/10.34847/nkl.763f1lyy#eed5ee9acda2c1da225560f1fb07060baf1e95f5" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/eed5ee9acda2c1da225560f1fb07060baf1e95f5/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre III.
          <lb/>Origine des états.</head>
@@ -225,10 +223,10 @@
         <p>Les S.H.J. se montrent seulement <hi rend="i">au commencement du <num>xiv<hi rend="sup">e</hi></num> siècle (sous le duc Jean</hi>), comme les <hi rend="i">protecteurs </hi>et <hi rend="i">défenseurs</hi> du <hi rend="i">plat pays.</hi> Ils apparaissent en 1405, 1407, 1410 et 1413 ; leur droit est enfin reconnu par <hi rend="i">lettres de Jean-sans-Peur</hi> du <hi rend="i">1</hi><hi rend="sup">er</hi><hi rend="i">oct. 1414,</hi> qui forment <hi rend="i">le plus ancien titre</hi> desdits <hi rend="i">seigneurs.</hi></p>
         <p>Comment arrivèrent-ils à cet insigne privilège ? comme seuls S.H.J.? comme chefs militaires du ban et de l’arrière ban, ou enfin comme principaux officiers de la couronne ? La dernière hypothèse semble la plus acceptable, étant basée sur des faits.</p>
       </div>
-      <div>
+      <div xml:id="r28003">
         <head rend="uc">Chapitre IV.
          <lb/>Variations dans la tenue et les attributions des états.</head>
-        <div>
+        <div xml:id="r28011">
           <head rend="uc">§ I.
            <lb/><hi rend="i">Variations dans la tenue.</hi></head>
           <p><num>xv<hi rend="sup">e</hi></num> siècle. Accords de 1416, 1417, 1419, 1420, 1421, 1425, 1429, 1434, 1436, 1438, 1440, 1444, 1447, <pb source="https://nakala.fr/10.34847/nkl.763f1lyy#98f9994f5e44d586c67c4cc270799526e67e38ff" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/98f9994f5e44d586c67c4cc270799526e67e38ff/full/full/0/default.jpg"/>1450, 1451, 1468, 1460, 1467, 1409, 1471, 1475, 1485, 1490, 1491, 1497.</p>
@@ -246,7 +244,7 @@
           <p><num>xvii<hi rend="sup">e</hi></num> siècle. Les choses se maintinrent sur le même pied jusqu’à la conquête française. Lorsqu’en 1667 Louis XIV eut mis Lille en demeure de se rendre, les baillis et magistrats se présentèrent seuls pour traiter avec le vainqueur ; ils obtinrent d’être maintenus par un <pb source="https://nakala.fr/10.34847/nkl.763f1lyy#906ff5ca8b416d8cbfeecc9e6c46f1dd6e5e57ca" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/906ff5ca8b416d8cbfeecc9e6c46f1dd6e5e57ca/full/full/0/default.jpg"/>article de la capitation dans leur droit traditionnel de consentir l’impôt. Les ecclésiastiques et les nobles n’ayant plus à députer aux <hi rend="i">états généraux</hi> de <hi rend="i">Bruxelles,</hi> après l’assujétissement de la province, perdirent toute leur importance politique et ils se trouvèrent réduits à une simple classe privilégiée ; ils s’indignèrent de la situation qui leur était faite et prétendirent entrer aux états ; alors commença (en 1694) le long procès <hi rend="i">des trois ordres.</hi></p>
           <p><num>xviii<hi rend="sup">e</hi></num> siècle. Le procès suspendu par <hi rend="i">arrêt provisoire </hi>du <hi rend="i">1</hi><hi rend="sup">er</hi><hi rend="i">août 1707</hi> fut repris avec une ardeur nouvelle, en 1735, à la suite de l’affaire <hi rend="i">des bêtes</hi> à <hi rend="i">pied fourchu,</hi> et terminée par <hi rend="i">arrêt définitif du 17 janvier 1767.</hi> Les <hi rend="i">deux ordres,</hi> déboutés de leurs <hi rend="i">prétentions,</hi> essayèrent de renouveler le conflit : ils s’attirent un nouveau désaveu par arrêt du 3 mars 1780. Désormais leur stratégie consista à incriminer les vrais états, ne pouvant s’y introduire, et à solliciter de Louis XVI l’établissement d’une administration provinciale analogue à ce dont il dotait une partie de l’ancienne France. Des déchirements se produisirent à la même époque, au sein des états, entre les deux premiers membres (1762) ; la révolution trouva chez nous les esprits disposés au renversement de tout l’ordre établi.</p>
         </div>
-        <div>
+        <div xml:id="r28329">
           <head rend="uc">§ II.
            <lb/><hi rend="i">Variations dans les attributions des états.</hi></head>
           <p>Si, comme on croit l’avoir démontré, la tenue des états a peu ou point varié, si leur composition fut au premier jour exactement ce qu’on la vit sous Louis XV, leurs attributions, en revanche, se sont ajoutées les unes aux au<pb source="https://nakala.fr/10.34847/nkl.763f1lyy#f4978e69fbba44e88383472e7c915b8404a5ccdf" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.763f1lyy/f4978e69fbba44e88383472e7c915b8404a5ccdf/full/full/0/default.jpg"/>très à des époques fort distinctes. La seule qui leur art constamment appartenu, la seule aussi qui ait été diminuée par la force majeure des choses, ce fut le droit à consentir l’<hi rend="i">aidé.</hi></p>

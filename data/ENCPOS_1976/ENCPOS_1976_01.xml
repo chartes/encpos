@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1976_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1976_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,15 +56,15 @@
         <surname>Barbier</surname>
         <roleName>maître en histoire</roleName>
       </byline>
-      <div>
+      <div xml:id="r1011501">
         <head rend="uc">Introduction</head>
         <p>A partir des sources documentaires qui sont à notre disposition, on s’efforce de déterminer le cadre chronologique du sujet de la thèse ; l’histoire d’une imprimerie au cours de la période 1676-1830, dans un cadre géographique très particulier, l’Alsace. Une typologie rapide des sources permet de les regrouper en deux ensembles, correspondant chacun à l’une de nos deux périodes d’étude : les dépôts publics (Archives municipales de Strasbourg notamment) fournissent l’essentiel de la documentation pour le <num>xviii<hi rend="sup">e</hi></num> siècle d’Ancien Régime, le fonds privé Berger-Levrault constituant notre principale source à partir de 1789.</p>
       </div>
-      <div>
+      <div xml:id="r1011517">
         <head rend="uc">Première partie
           <lb/>L’imprimerie au <num>xviii<hi rend="sup">e</hi></num> siècle :
           <lb/>Schmuck, christmann, Levrault (1676-1785)</head>
-        <div>
+        <div xml:id="r1011533">
           <head rend="uc">A. <hi rend="i">Les conditions générales : l’espace et le temps</hi></head>
           <div>
             <head rend="uc">Chapitre premier
@@ -79,7 +77,7 @@
             <p>L’Alsace se distingue par la précocité de l’apparition de l’imprimerie – dès le milieu du <num>xv<hi rend="sup">e</hi></num> siècle. Après des débuts très prometteurs, la typographie strasbourgeoise est au <num>xvii<hi rend="sup">e</hi></num> siècle sur le déclin : la tradition germanique soigneusement entretenue est en opposition avec l’influence politique et économique croissante de la France. Tout au long du <num>xviii<hi rend="sup">e</hi></num> siècle, l’imprimerie de Strasbourg est ainsi réduite à une influence locale ou, au plus, régionale. A partir des années 1760-1770, lorsque l’intégration au royaume est plus poussée, un progrès commence à se faire sentir, qui s’accélère à la veille de la Révolution.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1011602">
           <head rend="uc">B. <hi rend="i">L’officine Levrault</hi></head>
           <div>
             <head rend="uc">Chapitre premier
@@ -99,10 +97,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1011693">
         <head rend="uc">Deuxième partie
           <lb/>Les débuts du <num>xix<hi rend="sup">e</hi></num> siècle industriel (1785-1830)</head>
-        <div>
+        <div xml:id="r1011707">
           <head rend="uc">A. <hi rend="i">Les aspects économiques</hi></head>
           <div>
             <head rend="uc">Chapitre premier
@@ -115,7 +113,7 @@
             <p>La transformation des structures économiques de l’entreprise n’a été suivie d’aucune modification de son assise financière : c’est là ce qui explique l’échec momentané de l’extension de l’affaire à la capitale, car, pour s’imposer sur le marché français, il fallait concurrencer victorieusement l’imprimerie parisienne et soutenir ainsi une politique économique particulièrement onéreuse. Son poids excédant les capacités d’une entreprise provinciale, si riche soit-elle, elle conduit à de très sérieuses difficultés financières, en 1803-1805. Les Levrault sont contraints d’emprunter de fortes sommes, dont le remboursement bloque ensuite toute possibilité d’expansion. La libération de l’entreprise se fait, à partir de 1812, par l’adoption d’une politique de spécialisation commerciale qui seule permet de s’imposer, dans des secteurs très particuliers, aux libraires parisiens : édition de livres de sciences (<hi rend="i">Dictionnaire des sciences naturelles) </hi>et d’art militaire (l’ <hi rend="i">Annuaire militaire</hi>), spécialisation dans le commerce du livre français en Allemagne. Sur ces bases nouvelles, le remboursement des emprunts peut s’effectuer, et une certaine expansion de l’affaire reprendra à partir des années 1820-1825.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r1011754">
           <head rend="uc">B. <hi rend="i">La librairie, de 1785 a 1830</hi></head>
           <div>
             <head rend="uc">Chapitre premier
@@ -129,11 +127,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r1011802">
         <head rend="uc">Conclusion</head>
         <p>Sur tous ces points, la date de 1830 ne peut être retenue que comme un terme très provisoire. Les modifications dans l’économie de l’entreprise n’en ont pas encore touché les structures, et l’importance nouvelle de son chiffre d’affaires ne doit pas faire illusion : il s’agit encore, dans la décennie 1820-1830, d’une entreprise traditionnelle, dont l’histoire est caractéristique de ces préludes de l’âge industriel. Son étude permet de préciser, à l’échelle microéconomique qui est la nôtre, la chronologie des étapes préparant le décollage industriel, et, surtout, de distribuer et d’apprécier le rôle de chacun dans la période décisive qui s’ouvre alors, celle du machinisme et du grand capitalisme.</p>
       </div>
-      <div>
+      <div xml:id="r1011812">
         <pb source="https://nakala.fr/10.34847/nkl.3ee13uv2#640b194a547ed190f2ef317278e8f31816b2d018" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.3ee13uv2/640b194a547ed190f2ef317278e8f31816b2d018/full/full/0/default.jpg"/>
         <head rend="uc">Appendices statistiques</head>
         <p>Les imprimeurs français du <num>xviii<hi rend="sup">e</hi></num> siècle. – Concentration de l’imprimerie française au <num>xviii<hi rend="sup">e</hi></num> siècle. – La production imprimée des Levrault de 1676 à 1785. – Le chiffre d’affaires de la maison Levrault pendant la Révolution. – La production imprimée des Levrault de 1786 à 1830. – La librairie française au début du <num>xix<hi rend="sup">e</hi></num> siècle. – La librairie allemande entre 1816 et 1826.</p>

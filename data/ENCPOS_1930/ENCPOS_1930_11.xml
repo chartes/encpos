@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,15 +60,15 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r495612">
         <head rend="uc">Premiere partie
          <lb/>Le peuplement et la mise en valeur</head>
-        <div>
+        <div xml:id="r495620">
           <head rend="uc">Chapitre premier
            <lb/>l’île.</head>
           <p>La Martinique dut à sa situation géographique, à la fertilité de ses terres et à l’excellence de ses mouillages de devenir en peu de temps la plus riche et la plus peuplée de toutes les colonies françaises.</p>
         </div>
-        <div>
+        <div xml:id="r495632">
           <head rend="uc">Chapitre II
            <lb/>Le peuplement.</head>
           <div>
@@ -92,12 +90,12 @@
             <p>Cent cinquante hommes descendent à Saint-Pierre avec Esnambuc en 1635. On compte 1.000 colons en 1640 et 1645, 1500 en 1657, 3000 environ en 1660. En 1670, la population blanche s’élève à près de 4.000 personnes, 5.000 en 1690, 6.500 en 1700, 9.000 en 1720 et atteint un minimum de 16.000 en 1741 pour retomber à 12.000 en 1753.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r495725">
           <head rend="uc">Chapitre III
            <lb/>L’occupation du sol.</head>
           <p>Les colons s’établissent sur la côte de la Basse-Terre, à l’embouchure des rivières. Puis ils en remontent le cours et se fixent là où ils trouvent des terres ponceuses, particulièrement fertiles. En 1658, ils expulsent les Caraïbes de la Cabesterre, partie orientale de l’île, qui leur avait été abandonnée. Ils s’y répandent lentement, de la Trinité vers le Marin. Cette région n’offrait que des terres grasses et diffi<pb source="https://nakala.fr/10.34847/nkl.e8e3wt27#3e1a765a9ac3d3959f5856980921afe5a3c58acf" n="106" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8e3wt27/3e1a765a9ac3d3959f5856980921afe5a3c58acf/full/full/0/default.jpg"/>cilement accessibles. En 1720, elle est entièrement occupée. La Martinique est conquise.</p>
         </div>
-        <div>
+        <div xml:id="r495742">
           <head rend="uc">Chapitre IV
            <lb/>Le régime de la propriété.</head>
           <p>En 1635, les Directeurs de la Compagnie des Iles organisent la distribution des terres. Les concessions ne dépassaient pas, semble-t-il, 200 pas sur 1.000 qui furent réduits dans la suite à 500. Mais la culture de la canne exigeant de vastes espaces, les concessions atteignirent à la fin du siècle 700 et 850 pas sur 1.000 et 1.500.</p>
@@ -105,14 +103,14 @@
           <p>En 1637, 1659 et 1679 des ordonnances furent rendues ou des travaux entrepris en vue d’établir un livre ou papier terrier, sans qu’on aboutît à aucun résultat. De 1705 à 1721, l’intendant réussit à faire lever les plans de chaque quartier.</p>
           <p>La concession ne fut le plus souvent, en réalité, qu’une formalité, qui n’influença guère les modes d’occupation du sol et de son département.</p>
         </div>
-        <div>
+        <div xml:id="r495763">
           <head rend="uc">Chapitre V
            <lb/>Les Subsistances.</head>
           <p>L’interdiction de cultiver le blé et la vigne, que produisait la Métropole, fut respectée. Le manioc remplaça le froment. Il fallut cependant en 1703 et en <pb source="https://nakala.fr/10.34847/nkl.e8e3wt27#18dae5ef8d3f2bb7e3d326595bc84ca8cf9189d4" n="107" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8e3wt27/18dae5ef8d3f2bb7e3d326595bc84ca8cf9189d4/full/full/0/default.jpg"/> 1723 en imposer la culture, ainsi que celle des bananiers et des patates.</p>
           <p>Le gouverneur de Baas fut le champion de l’acclimatation des arbres fruitiers de France.</p>
           <p>Il établit également une « ménagerie ». Il s’efforça d’accroître le troupeau de l’île, qui n’était pas négligeable. Il ne semble pas que ce soit le défaut de bêtes de somme qui ait rendu nécessaire l’importation des nègres.</p>
         </div>
-        <div>
+        <div xml:id="r495786">
           <head rend="uc">Chapitre VI
            <lb/>Les cultures industrielles.</head>
           <p><hi rend="i">Le tabac.</hi> – L’alternance de sa culture avec celle du coton fut imposée par la Compagnie des Iles, mais jamais respectée. En 1640, les prix s’effondrèrent. Dans la suite, les colons français ne purent soutenir la concurrence des planteurs des colonies anglaises. En 1680, le tabac avait à peu près disparu de l’Ile.</p>
@@ -125,20 +123,20 @@
           <p>Le tabac, le coton, puis la canne avaient attiré les émigrants à la Basse terre ; le cacao puis le café permirent la conquête de la Cabesterre et sa mise en valeur.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r495846">
         <head rend="uc">Deuxieme partie
          <lb/>Le commerce</head>
-        <div>
+        <div xml:id="r495854">
           <head rend="uc">Chapitre premier
            <lb/>la conquête économique des Antilles.</head>
           <p>Colbert créa la Compagnie des Indes occidentales en 1664 dans la seule vue d’expulser des Iles, les <pb source="https://nakala.fr/10.34847/nkl.e8e3wt27#c402b43469ed1b7895461e61e38c939bfd49a140" n="109" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8e3wt27/c402b43469ed1b7895461e61e38c939bfd49a140/full/full/0/default.jpg"/>Hollandais qui s’étaient rendus maîtres du commerce des sucres. En 1670, nos armateurs les concurrençaient dangereusement ; en 1674 ils les avaient vaincus. La Compagnie pouvait sans inconvénient être dissoute.</p>
         </div>
-        <div>
+        <div xml:id="r495871">
           <head rend="uc">Chapitre II
            <lb/>La politique commerciale.</head>
           <p>C’est en 1756 que le premier coup fut porté aux principes du pacte colonial par le gouvernement lui-même à l’instigation des députés du commerce. Les mémoires de 1763 consacraient les permissions accordées en 1759.</p>
         </div>
-        <div>
+        <div xml:id="r495883">
           <head rend="uc">Chapitre III
            <lb/>Le commerce de la Martinique.</head>
           <p>A) <hi rend="i">Avec la France</hi>. – Exportations. C’est avant tout le commerce du tabac jusqu’en 1650, puis celui du sucre. Il fait la fortune des armateurs et des raffineurs de France. Circonvenus par eux les ministres en 1682 et 1688, le Conseil de Marine en 1717 rendent des arrêts ou donnent des instructions directement contraires aux intérêts des habitants. En 1753, la Martinique n’en exporte pas moins 30 millions de marchandises environ.</p>
@@ -150,7 +148,7 @@
           <p>L’Espagne. Elle consomma jusqu’au <num>xviii<hi rend="sup">e</hi></num> siècle la totalité des cacaos de l’Ile auxquels Bayonne servait d’entrepôt. En 1727 le transport direct dans ses ports des sucres blanchis est autorisé : nos raffineurs ne <pb source="https://nakala.fr/10.34847/nkl.e8e3wt27#0385b4aaf3c63d1b42516a37a4061e0f9205ce63" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8e3wt27/0385b4aaf3c63d1b42516a37a4061e0f9205ce63/full/full/0/default.jpg"/> sont pas lésés et nous y gagnons de l’or et de l’argent.</p>
           <p>D) <hi rend="i">Avec les colonies anglaises.</hi> – En 1681, 1685 et 1728, les Intendants demandent au ministre de permettre le commerce avec la Nouvelle-Angleterre. Il refuse.</p>
         </div>
-        <div>
+        <div xml:id="r495954">
           <head rend="uc">Chapitre IV
            <lb/>La réglementation du commerce et de l’industrie.</head>
           <p><hi rend="i">La réglementation de la production.</hi> – La nécessité s’était bientôt fait sentir d’assurer la qualité des marchandises par le contrôle des « visiteurs ». Le gouverneur et le conseil souverain font des règlements concernant la culture des tabacs ou la fabrication des sucres. Colbert en 1680, désireux d’instaurer la liberté dans le commerce, les abolit tous.</p>
@@ -158,7 +156,7 @@
           <p>Les prix. Peu à peu le système de la taxe s’introduit. Il est établi en 1642. Mais en 1640, Colbert pour encourager nos armateurs, en leur permettant les plus gros bénéfices, le supprime contre le vœu des habitants.</p>
           <p><hi rend="i">La réglementation de la consommation.</hi> – Pour assurer une équitable répartition des marchandises entre les habitants, la Compagnie en 1685 tenta <pb source="https://nakala.fr/10.34847/nkl.e8e3wt27#47093590abf8912c889cfa379ae612887e466e7e" n="112" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8e3wt27/47093590abf8912c889cfa379ae612887e466e7e/full/full/0/default.jpg"/>d’empêcher les accaparements, mais vainement. Quand St-Pierre fut devenu le centre commercial de toute l’île, l’égoïsme de ses négociants et de ses commissionnaires, jeta souvent la Cabesterre dans la famine. C’est la disette, qui causa la révolte de 1717.</p>
         </div>
-        <div>
+        <div xml:id="r495989">
           <head rend="uc">Chapitre V
            <lb/>Les moyens d’échange.</head>
           <p><hi rend="i">La monnaie.</hi> – Jusqu’en 1670, les colons n’ont qu’une monnaie de compte, la livre de tabac, puis de sucre. De 1670 à 1730, des envois de pièces de cuivre, d’argent et d’or leur sont faits de la Métropole, mais en faible quantité. C’est le commerce avec les colonies espagnoles qui, dans l’esprit de Colbert, doit alimenter la Martinique en monnaie métallique. Dès 1687, les piastres et les réaux y sont reçus. Au cours du <num>xviii<hi rend="sup">e</hi></num> siècle la valeur de la monnaie est fréquemment modifiée. En 1759, Le Mercier de la Rivière tente pour les besoins de la défense d’émettre des billets.</p>
@@ -168,25 +166,25 @@
           <p><hi rend="i">Les routes</hi>. – Les nécessités de la défense incitent Baas et Blénac à créer un réseau de routes. De 1678 à 1690 les principales voies sont tracées. Les colons les remontent et les habitations s’échelonnent sur leur parcours.</p>
           <p>La route devança le peuplement. Conçue pour la défense du sol, elle permit sa conquête.</p>
         </div>
-        <div>
+        <div xml:id="r496051">
           <head rend="uc">Chapitre VI
            <lb/>La transformation des échanges.</head>
           <p>A l’origine tout le commerce se réduit à des échanges entre les colons d’une part et la métropole de l’autre. A partir de 1660, les sucriers se distinguent des planteurs de tabac et des vivriers ; en 1680, ils s’opposent à eux. Une division du travail s’était opérée, les petits habitants vivriers nourrissent les gros habitants sucriers.</p>
           <p>Après la division du travail, son organisation. En 1720, des commissionnaires s’immiscent dans les transactions entre les habitants et la métropole. Ils concentrent rapidement entre leurs mains tout le commerce de l’île et bientôt de l’Archipel. Grâce à eux, Saint-Pierre devient l’entrepôt des Antilles, une ville puissante. Par leur faute, le planteur se détache de la France, qui se fait de plus en plus lointaine.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r496067">
         <pb source="https://nakala.fr/10.34847/nkl.e8e3wt27#24d6cad78ca3f4e7b4231e1c205f77a5bbaec2c4" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8e3wt27/24d6cad78ca3f4e7b4231e1c205f77a5bbaec2c4/full/full/0/default.jpg"/>
         <head rend="uc">Troisieme partie
          <lb/>Le domaine et la ville</head>
-        <div>
+        <div xml:id="r496080">
           <head rend="uc">Chapitre premier
            <lb/>le domaine.</head>
           <p>Au temps de la culture du tabac, la Martinique connaît le régime du petit domaine. Chacun subsiste sur sa terre. Une main-d’œuvre réduite suffit à tout.</p>
           <p>L’introduction de la canne entraîne une révolution dans les modes de culture et dans l’organisation du domaine. Il faut de vastes espaces, une main-d’œuvre considérable et des artisans spécialisés. Tous les métiers sont représentés sur l’habitation. Le colon ne recourt plus à l’ouvrier libre, mais au « petit blanc » vivrier.</p>
           <p>Le petit domaine a été le domaine indépendant.</p>
         </div>
-        <div>
+        <div xml:id="r496098">
           <head rend="uc">Chapitre II
            <lb/>La ville.</head>
           <div>
@@ -202,22 +200,22 @@
             <p>Toutes les villes de la Martinique, sauf trois, sont nées spontanément. La plupart ont été l’œuvre des marchands. Quelques-unes se sont formées autour d’un clocher.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r496150">
           <head rend="uc">Chapitre III
            <lb/>L’organisation économique des bourgs.</head>
           <p>Colbert avait aboli les règlements en 1670. Ils ressuscitèrent au cours du <num>xviii<hi rend="sup">e</hi></num> siècle, au fur et à mesure que l’accroissement de la population des bourgs posait avec plus de gravité le problème de leur ravitaillement. Les mesures que les municipalités de nos villes avaient prises au Moyen Age revirent le jour à la Martinique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r496169">
         <pb source="https://nakala.fr/10.34847/nkl.e8e3wt27#e059630dfee8f2764a54f17b840eb95c697883b8" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8e3wt27/e059630dfee8f2764a54f17b840eb95c697883b8/full/full/0/default.jpg"/>
         <head rend="uc">Quatrieme partie</head>
-        <div>
+        <div xml:id="r496180">
           <head rend="uc">Chapitre premier
            <lb/>les transformations du droit.</head>
           <p>La coutume de Paris fut transposée à la Martinique en 1645. Elle ne put être respectée surtout après l’introduction de la canne. L’organisation du domaine et les intérêts de la Métropole s’y opposaient. Il ne fallait pas que la fabrication des sucres fût entravée : la saisie réelle fut déclarée impossible. D’ailleurs, les formalités prescrites par la coutume étaient inexécutables.</p>
           <p>Insaisissable, la sucrerie fut bientôt considérée comme indivisible, elle ne pouvait être morcelée sans que la ruine des familles s’ensuivît. Les nègres de la plantation, immeubles par destination, ne purent sous aucun prétexte être séparés du fonds. D’autre part, l’usage s’établit de laisser à un seul héritier, la sucrerie avec ses nègres à charge de retours en argent. La loi en 1726 consacra l’usage qui assurait la permanence du bien familial.</p>
         </div>
-        <div>
+        <div xml:id="r496195">
           <head rend="uc">Chapitre II
            <lb/>La formation de l’esprit public et la conquête
            <lb/>des libertés politiques.</head>
@@ -225,14 +223,14 @@
           <pb source="https://nakala.fr/10.34847/nkl.e8e3wt27#5e61f9688df3744229fdd20e0f33191e5079825d" n="117" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8e3wt27/5e61f9688df3744229fdd20e0f33191e5079825d/full/full/0/default.jpg"/>
           <p>Une société nouvelle s’est constituée, où tous les ordres sont confondus. La Cour en 1759 se décide à créer une Chambre mi-partie de commerce et d’agriculture, avec un délégué à Paris. Cette assemblée s’empare du rôle que le Conseil Souverain avait rêvé de jouer : celui de défenseur des libertés publiques. En fait, elle n’est composée que de planteurs. En 1763, la Chambre mi-partie devient la Chambre d’Agriculture ; le ministre consacre l’exclusion des négociants. Le député de l’île, Dubuc, devenu premier commis au Bureau des colonies, dirige toute notre administration.</p>
         </div>
-        <div>
+        <div xml:id="r496217">
           <head rend="uc">Chapitre III
            <lb/>La Martinique et l’histoire européenne.</head>
           <p>De 1674 à 1763, la Hollande et l’Angleterre nous disputent la possession de la Martinique.</p>
           <p>En 1763, le désir de ressaisir la plus importante de nos îles à sucre contribue à nous faire abandonner le Canada aux Anglais.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r496233">
         <head rend="uc">Conclusion generale</head>
         <p>Marché et entrepôt, escale et embarcadère, la Martinique était devenue en moins d’un siècle, la Capitale des Antilles.</p>
       </div>

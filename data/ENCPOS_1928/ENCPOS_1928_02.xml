@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,10 +57,10 @@
         <forename>Jacqueline</forename>
         <surname>Chaumié</surname>
       </byline>
-      <div>
+      <div xml:id="r466363">
         <head rend="uc">Chapitre premier
          <lb/>histoire des commanderies</head>
-        <div>
+        <div xml:id="r466371">
           <head rend="uc">I. Des origines à la suppression de l’ordre du Temple</head>
           <p>L’origine des établissements qui font l’objet de cette étude est très obscure, les documents les plus anciens étant de 1235. Dès le milieu du <num>xiii<hi rend="sup">e</hi></num> siècle, les Templiers avaient des commanderies au Temple de Breuil et au Temple d’Agen ; les Hospitaliers, à Sauvagnas (commanderie-chef) et à Saint-Jean-de-Lerm, Saint-Jean-de-Villedieu, Saint-Jean-de-Mugero, Sainte-Foy-de Jérusalem, Saint-Sulpice-de-Rivalède, Dominipech (commanderies-membres). Il est très probable que, comme les commanderies du Quercy, du Brulhois et de l’Albret, au sujet desquelles nous avons des précisions, ces établissements doivent leur origine à des donations ou . des fondations pieuses de familles féodales ayant participé à la croisade, les Montpezat pour le Temple de Breuil, les Durfort et les Boville pour Sauvagnas et Saint-Sulpice-de-Rivalède.</p>
           <p>Templiers et Hospitaliers entretiennent de bons rapports avec les souverains et les grands feudataires, en particulier avec Alphonse de Poitiers.</p>
@@ -72,7 +70,7 @@
           <p>Hospitaliers et Templiers jouissent, pendant la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, de la protection des souverains anglais.</p>
           <p>Nous n’avons pu recueillir aucun document sur le procès des Templiers et la dévolution de leurs biens. Nous constatons simplement l’envoi en possession des Hospitaliers sans pouvoir préciser les modalités et les conditions.</p>
         </div>
-        <div>
+        <div xml:id="r466420">
           <head rend="uc">II. De la suppression de l’ordre du Temple
            <lb/>à la fin de la guerre de cent ans</head>
           <p>En 1320, le roi d’Angleterre conclut un traité de pariage pour la construction d’une bastide avec le commandeur du Temple de Breuil. Cette bastide était une riposte directe à celle que le roi de France venait d’élever à Saint-Sardos. Sa construction semble avoir définitivement contribué à faire passer le baron de Montpezat dans le parti anglais.</p>
@@ -81,7 +79,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.5228j7s5#daa4db7927efe57e30d090befbca96ba3e6a2e94" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.5228j7s5/daa4db7927efe57e30d090befbca96ba3e6a2e94/full/full/0/default.jpg"/>
           <p>D’une façon générale, l’Ordre des Hospitaliers semble rester neutre dans la guerre et ne dispose d’ailleurs d’aucune force armée.</p>
         </div>
-        <div>
+        <div xml:id="r466452">
           <head rend="uc">III. De la fin de la guerre de cent ans
            <lb/>aux guerres de religion</head>
           <p>Après la guerre de Cent Ans, une grande œuvre s’impose aux commandeurs, celle de faire valoir leurs droits tombés en désuétude, de reconstituer les cultures, de reconstruire les immeubles et les villes, de repeupler le pays en grande partie désert. Ce sera l’œuvre de deux commandeurs remarquables, Bernard de Bellac et Bernard Gros.</p>
@@ -93,7 +91,7 @@
           <p>A l’exception de quelques procès sans grande importance, les établissements des Hospitaliers jouirent pendant la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle d’une grande tranquillité. A partir de cette époque les commandeurs ne résident plus et l’histoire des commanderies ne présente bientôt plus d’intérêt.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r466494">
         <head rend="uc">Chapitre II
          <lb/>La vicairie perpétuelle et les dîmes</head>
         <p>I. – <hi rend="i">Droit de patronage.</hi> – Les commandeurs avaient le droit de patronage dans les paroisses de Sauvagnas, du Temple de Breuil, de Saint-Sulpice-de-Rivalède, de Saint-Jean-de-Lerm, de Saint-Caprais-de-Montflanquin, de Sainte-Foy-de-Jérusalem, de Saint-Jean-de-Villedieu et de Dominipech. Ils présentaient à l’évêque d’Agen leur candidat, prêtre de l’Ordre de Saint-Jean de Jérusalem, auquel l’évêque donnait l’institution. Le chapitre provincial de Toulouse confirmait ensuite la nomination. La pension du vicaire était à la charge du commandeur.</p>
@@ -101,19 +99,19 @@
         <pb source="https://nakala.fr/10.34847/nkl.5228j7s5#0c4f7965dd6d70159aacc4765ad368e799e4b65f" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.5228j7s5/0c4f7965dd6d70159aacc4765ad368e799e4b65f/full/full/0/default.jpg"/>
         <p>III. – <hi rend="i">Prémice.</hi> – La prémice est la compagne inséparable de la dîme, aux <num>xiii<hi rend="sup">e</hi></num> et <num>xiv<hi rend="sup">e</hi></num> siècles, A la faveur des troubles de la guerre de Cent Ans, l’usage de la percevoir se perdit pendant la première moitié du XV siècle. Les commandeurs tentèrent de la rétablir, malgré la violente résistance des paroissiens. Elle disparaît presque au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r466551">
         <head rend="uc">Chapitre III
          <lb/>Droits de juridiction</head>
         <p>Les commandeurs étaient seigneurs justiciers à Sauvagnas et au Temple de Breuil où ils avaient la haute, la moyenne et la basse justice, à Dominipech et à Saint-Sulpice-de-Rivalède où ils ne possédaient que la basse et moyenne justice.</p>
         <p>En 1264, le commandeur avait à Sauvagnas une Cour organisée et la connaissance des crimes capitaux.</p>
         <p>La justice du Temple de Breuil fut usurpée sur le domaine royal entre 1271 et 1279. On ne trouve pas trace des droits de juridiction des commandeurs à Saint-Sulpice avant 1483 et à Dominipech avant 1550. Le commandeur rendait la justice par l’intermédiaire de son bayle. L’apparence du pouvoir appartenait au bayle, mais la réalité de la justice revenait aux représentants de la communauté auxquels incombait la décision de la peine à infliger.</p>
       </div>
-      <div>
+      <div xml:id="r466569">
         <head rend="uc">Chapitre IV
          <lb/>Administration communale</head>
         <p>Seules parmi les possessions des commandeurs les villes de Sauvagnas et du Temple de Breuil possédaient une organisation municipale. Le gouvernement <pb source="https://nakala.fr/10.34847/nkl.5228j7s5#ee90e7d03ac1e9d5a82aea9aee2859e0963d8cd5" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.5228j7s5/ee90e7d03ac1e9d5a82aea9aee2859e0963d8cd5/full/full/0/default.jpg"/>(le ces petites villes était partagé entre le bayle, représentant du commandeur et les prud’hommes jurats et consuls représentants de la communauté. Les deux consuls étaient choisis tous les ans par le commandeur sur une liste de quatre candidats présentés par la jurade.</p>
       </div>
-      <div>
+      <div xml:id="r466586">
         <head rend="uc">Chapitre V
          <lb/>Seigneurie foncière</head>
         <p>I. – <hi rend="i">Exploitation du Domaine indirect.</hi> – Sauf un seul exemple de terre tenue sous service noble, les commandeurs n’ont dans leur mouvance que des terres à charges roturières. Comme dans le reste du midi de la France, nous trouvons dans nos textes la confusion entre le fief et la censive. Sauf un seul exemple de contrat de complant de 1310, tous les baux passés entre les commandeurs et leurs tenanciers sont des baux emphytéotiques.</p>
@@ -127,7 +125,7 @@
         <p>Droits de maiade ou vente exclusive du vin, de Pâques à la Pentecôte.</p>
         <p>Le ban seigneurial s’étendait sur les boucheries, les forges et les moulins. Le commandeur se réservait aussi la pêche de certains ruisseaux et les droits de chasse dans les garennes de Sauvagnas et du Temple de Breuil.</p>
       </div>
-      <div>
+      <div xml:id="r466666">
         <pb source="https://nakala.fr/10.34847/nkl.5228j7s5#c0920dadbc8fb63986d0717aa3fa0ae166dfd395" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.5228j7s5/c0920dadbc8fb63986d0717aa3fa0ae166dfd395/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre VI
          <lb/>Histoire de l’exploitation des terres</head>
@@ -136,7 +134,7 @@
         <p>III. – <hi rend="i">Fin du</hi> <num>xv<hi rend="sup">e</hi></num><hi rend="i">siècle.</hi> – L’œuvre de la reconstitution du sol pendant la deuxième moitié du <num>xv<hi rend="sup">e</hi></num> siècle fut entreprise par deux commandeurs intelligents et énergiques, Bernard de Bellac et Bernard Gros. La main-d’œuvre fut recrutée dans la partie méridionale du Massif Central et attirée par des conditions économiques avantageuses. Les terres sont baillées à emphytéose moyennant un droit d’entrée et un modique cens en argent auquel est ajoutée une rente le plus souvent en nature. Ce contrat stipule, pour le preneur, l’obligation de remettre les terres en culture, de reconstruire les maisons et les moulins dans un délai déterminé. Ainsi furent rebâtis la bastide du Temple de Breuil, l’hôpital et l’église de Saint-Jean-de-Ferrand.</p>
         <p>IV. – <hi rend="i">Début du</hi> <num>xvi<hi rend="sup">e</hi></num><hi rend="i">siècle.</hi> – Les possessions des Hospitaliers considérablement accrues au milieu du <pb source="https://nakala.fr/10.34847/nkl.5228j7s5#973574cf4742dd98c67de27d8b4e9c5c85abbbe7" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.5228j7s5/973574cf4742dd98c67de27d8b4e9c5c85abbbe7/full/full/0/default.jpg"/><num>xv<hi rend="sup">e</hi></num> siècle, probablement par l’occupation des terrains abandonnés ne s’agrandirent pas au début du <num>xvi<hi rend="sup">e</hi></num>. Pendant la première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle, les tenanciers du commandeur jouirent d’une très grande prospérité agricole. Le domaine réservé s’agrandit au détriment des censives, par l’usage du droit de prélation.</p>
       </div>
-      <div>
+      <div xml:id="r466778">
         <head rend="uc">Chapitre VII
          <lb/>Conditions économiques</head>
         <p>L’Agenais est, au Moyen Age, un pays exclusivement agricole où la moyenne et la petite propriété dominent. – Régime de polyculture. Peu de bois et de pâturages, peu d’élevage, point d’industrie de la laine, du cuir et du suif.</p>

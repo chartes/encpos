@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <forename>Agnès</forename>
         <surname>Callu</surname>
       </byline>
-      <div>
+      <div xml:id="r1226179">
         <head rend="uc">Introduction</head>
         <p>Conçue depuis peu, l’histoire administrative contemporaine, dans ses essais pour comprendre comment l’État gère, de près ou de loin, tel ou tel secteur par une armature de textes et par des moyens en personnel et matériel, s’interroge encore sur le comportement des responsables, les buts escomptés, les étapes accomplies. Dans le domaine des Beaux-Arts, à un palier intermédiaire entre les activités du ministère et les pratiques conduites par les conservateurs, la Réunion des musées nationaux (R.M.N.), vivant aujourd’hui sur les transformations postérieures à 1941/1945, avait au préalable, depuis 1895, développé des fonctions dont les origines et la nature propre sont souvent méconnues. Or, maîtresse, en tant que caisse, des décisions financières, elle a pendant quarante-cinq ans promu avant tout les acquisitions des musées classés nationaux, son pouvoir de contrôle et d’aval relevant d’un conseil dit des Musées nationaux, indépendant et accessible aux amateurs. Pris dans leur continuité, les procès-verbaux de cet organisme révèlent par conséquent les grandes lignes suivies durant les quatre présidences de Delaborde, Bonnat, Koechlin et David-Weill, lesquelles, dans l’évolution générale, correspondent à des articulations significatives.</p>
       </div>
-      <div>
+      <div xml:id="r1226189">
         <pb source="https://nakala.fr/10.34847/nkl.bac951le#287b7112eb620df52d55caa3c2003f2e4cc6c166" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.bac951le/287b7112eb620df52d55caa3c2003f2e4cc6c166/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>La documentation principale, regroupant pièces administratives, budgétaires et comptables, est conservée au Louvre dans les archives des Musées nationaux. Deux séries sont à exploiter : d’abord, en 3-BB, la suite des comptes rendus de séance, de 1896 à 1940, indiquant clairement de quoi s’est entretenu le Conseil des musées nationaux ; ensuite, et c’est le fonds propre de la R.M.N., l’ensemble homogène de la série CC, recueillant tous les témoignages, directs et indirects, sur les causes et effets de ces délibérations mensuelles : lois, décrets et règlements constitutifs ou de réforme, rapports d’activités, recettes et dépenses, service commercial. Une troisième série P<hi rend="sup">11</hi>x et X informe sur les expositions.</p>
         <p>Aux Archives nationales, la sous-série F<hi rend="sup">21</hi> (Beaux-Arts), notamment 4419-4493, a complété les sources précédentes, par exemple pour les notes et études préliminaires à la loi de 1895, pour la comptabilité globale et celles des ateliers (gravures, moulages) et catalogues, pour des dossiers plus particuliers sur le rôle artistique de la Réunion, pour les musées peu à peu intégrés à la R.M.N. Ont été aussi dépouillées la série C : projets parlementaires de 1871 à 1894 ; la sous-série 0<hi rend="sup">5</hi>/ O*<hi rend="sup">5</hi> : aliénation des diamants de la Couronne ; enfin, en <hi rend="i">addenda,</hi> les séries F<hi rend="sup">17 </hi>et AB XIX (sur T. Homolle et H. Roujon).</p>
         <p>Diverses indications proviennent des Archives de la Marine et surtout de celles de la Société des amis du Louvre. Ont aussi été effectuées des démarches auprès des familles Bardoux, Koechlin et David-Weill.</p>
       </div>
-      <div>
+      <div xml:id="r1226234">
         <head rend="uc">Première partie
          <lb/>La genèse de la réunion des musées nationaux (1870-1895)</head>
-        <div>
+        <div xml:id="r1226242">
           <head rend="uc">Chapitre premier
            <lb/>les problèmes posés</head>
           <p><hi rend="i">La formation des collections des Musées nationaux.</hi> – Née à Fontainebleau sous François I<hi rend="sup">er</hi>, accrue grâce à Mazarin et à Colbert, la collection royale suscite de 1746 à 1775 des projets d’expositions au public : propositions de La Font de Saint-Yenne, de Tournehem, d’Angiviller. Néanmoins le Muséum du Louvre n’est fondé que le 27 juillet 1793, subissant ensuite les avatars du Premier Empire. La Restauration s’intéresse au Luxembourg, un musée des contemporains, et la monarchie de Juillet, à Versailles, un musée historique. La reprise date de Napoléon III et de son surintendant Nieuwerkerke : la générosité impériale, qui va aussi à <pb source="https://nakala.fr/10.34847/nkl.bac951le#db49a864ffd80de5f4c20b3890e172163e428624" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.bac951le/db49a864ffd80de5f4c20b3890e172163e428624/full/full/0/default.jpg"/>Saint-Germain-en-Laye, complète des crédits stables et fait entrer 43 949 pièces. Après 1870, les données chiffrées manquent jusqu’au rapport d’E. Turquet (en 1881) et à l’inventaire limité d’É. Molinier (en 1886) : elles montrent une diversification au profit des secteurs autres que la peinture et les antiquités, mais, et A. Bardoux y insiste en 1884, l’école italienne comporte des lacunes, les allemande, espagnole et anglaise sont trop mal représentées.</p>
@@ -79,7 +77,7 @@
           <p><hi rend="i">Les finances des Musées nationaux.</hi> – Troisième insuffisance, les enrichissements des collections sont bloqués par un budget immuable qui oblige à de difficiles arbitrages et au vote, le cas échéant, de crédits exceptionnels par le Parlement. En outre, l’impossibilité de reporter un excédent d’une année sur l’autre empêche la constitution de réserves et profite, au contraire, à des achats de second plan effectués dans le désordre.</p>
           <p><hi rend="i">Les exemples de l’étranger.</hi> – A la recherche de modèles de réforme, des émissaires partent à l’étranger. En Grande-Bretagne, ils visitent le British Muséum, la National Gallery, la National Portrait Gallery, le South-Kensington Muséum ; en Allemagne, les musées de Berlin. Ils reviennent de Londres avec des réponses variées, les exemples allant de <hi rend="i">trustées</hi> tout-puissants sur leurs agents d’exécution, à une coresponsabilité avec un directeur, voire à une gestion directe engageant aussi le personnel de l’établissement. De Prusse, ils rapportent l’idée d’une commission d’experts choisis à l’extérieur. Dans toutes les occurrences, ces « éclaireurs » constatent l’ampleur des financements et l’attention accordée par les pouvoirs publics.</p>
         </div>
-        <div>
+        <div xml:id="r1226288">
           <head rend="uc">Chapitre II
            <lb/>Les projets de réponse</head>
           <p><hi rend="i">De 1872 à 1878 : opinions et brochures.</hi> – Les hommes politiques, l’administration, la presse commencent à animer conjointement un débat qui va durer quelque vingt-cinq ans. Pendant cette première phase, les initiatives, toutes individuelles, après s’être axées sur la pure majoration par l’État des crédits d’acquisition alloués aux quatre musées nationaux (75 000 F), envisagent sous les plumes de C. Clément et de F. Reiset de ne pas restituer au Trésor, en fin d’exercice, les <pb source="https://nakala.fr/10.34847/nkl.bac951le#29065428e82567c8ba857cdb92afde099400fb22" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.bac951le/29065428e82567c8ba857cdb92afde099400fb22/full/full/0/default.jpg"/>sommes non dépensées et même de les capitaliser à la Caisse des dépôts et consignations en vue de grandes occasions d’achat. Restait à couvrir, de façon régulière, un complément éventuel de la subvention budgétaire.</p>
@@ -90,16 +88,16 @@
           <p>Il n’y avait plus qu’à conclure : ce fut, le 16 avril 1895, l’œuvre, après tant d’amendements et d’écrits de presse, de R. Poincaré et G. Leygues. Le Louvre, le Luxembourg, Versailles et Saint-Germain réunis étaient investis de la personnalité civile, mais, au cours des interventions, la porte fut ouverte à de futurs élargissements ; les rentes issues de la liquidation des diamants étaient réparties à égalité entre la « Réunion » et les « Retraites Vieillesses », la taxe d’entrée ayant été supprimée en dernière lecture. La nouvelle institution était dirigée par un conseil de quatorze membres : quatre hauts fonctionnaires, quatre parlementaires, six personnalités extérieures à l’administration. Le Comité consultatif des conservateurs qui subsistait était donc coiffé par une superstructure vouée à s’exprimer sur les acquisitions « d’objets ayant une valeur artistique, archéologique ou historique ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1226332">
         <head rend="uc">Deuxième partie
          <lb/>La mise en route de la réunion des musées nationaux
          <lb/>(1895-1922)</head>
-        <div>
+        <div xml:id="r1226342">
           <head rend="uc">Chapitre premier
            <lb/>les réglementations (1895-1899/1900)</head>
           <p>Agé de soixante-quatorze ans, Henri Delaborde, secrétaire perpétuel de l’Académie des Beaux-Arts, disparut dès mai 1899. Cette courte présidence, en fait une période d’installation, est encadrée par les deux règlements de 1896 et 1900. Le premier, portant sur l’administration de la R.M.N., après avoir confirmé que le Conseil vote le budget, accepte et place les libéralités, autorise les acquisitions retenues « exceptionnelles », conclut, et cela prête à une large interprétation, « qu’il donne son avis sur toutes les questions qui lui sont soumises par le ministre ». Le second, puisque la Caisse des dépôts et consignations s’est désengagée, statue sur les missions de l’agent-comptable de la Réunion, sur ses responsabilités personnelles et sur ses relations avec le président du Conseil et le directeur des Musées. Entre les promulgations de ces deux textes, le Conseil, au complet et dans ses meubles, travaille : 80 % des achats passaient par lui, au profit principalement du département de la peinture (tableaux français et italiens au critère des plus gros prix), même si, en 1896, 200 000 F étaient dépensés pour la bientôt fameuse tiare du <pb source="https://nakala.fr/10.34847/nkl.bac951le#5311b35c076f604d56c7d4e45231e8f929a3ed68" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.bac951le/5311b35c076f604d56c7d4e45231e8f929a3ed68/full/full/0/default.jpg"/>roi Saïtapharnès. A ce programme collaborait la Société des amis du Louvre, fondée en 1897 : s’y retrouvent les parrains de la R.M.N. et ses grands donateurs, souvent membres présents ou à venir du Conseil des musées nationaux. Des problèmes cependant apparaissaient : il y avait à réagir contre une mauvaise humeur latente des conservateurs, contre les prétentions déraisonnables de certains légataires, contre l’inertie des services de reproduction et de vente, contre enfin le ministère des Colonies qui occupa le pavillon de Flore jusqu’en 1909. Néanmoins, bien que le refus des entrées payantes ne facilite pas des remboursements encore courants, avec un budget prévisionnel de 400 à 500 000 F, la Réunion voit ses efforts reconnus par une partie de la presse.</p>
         </div>
-        <div>
+        <div xml:id="r1226359">
           <head rend="uc">Chapitre II
            <lb/>Le « règne • de Léon Bonnat (1900-1922)</head>
           <p><hi rend="i">L’avant-guerre (1900-1913</hi>). – Le peintre L. Bonnat, un collectionneur attentif à l’éducation, marque de sa forte personnalité les vingt-deux années qu’il fut président. Quatre réussites lui reviennent : les Trianons (en 1906), Cluny (en 1907), Maisons-Laffitte (en 1911) rallient la R.M.N., étant rattachés immédiatement ou après coup aux départements existants ; les réexamens budgétaires initiés en 1903, à la suite de délicates tractations et par jeu d’écriture, aboutissaient en 1912 à l’inscription par les Beaux-Arts d’une ligne de 20 000 F de matériel destinés à la chalcographie et aux moulages ; les dépenses réelles tendent à s’ajuster sur les dépenses votées, les décalages s’expliquant par un surplus de l’actif dû à d’énormes legs ; moins rigide dans les acquisitions, le Conseil qui accepte de s’informer <hi rend="i">de visu</hi> se montre plus favorable aux écoles anglaise et espagnole, ses ratifications servent les antiquités égyptiennes, les sculptures et, depuis le début du siècle, la section des objets d’art commence à s’orientaliser. En regard de ces succès qu’accompagnent, de 1900 à 1913, de très fastueuses donations, des faiblesses de jugement assombrissaient toutefois le bilan : l’affaire de la tiare d’Olbia ridiculise le Louvre en 1903, le refus d’un Lautrec, en 1905, relance les accusations d’incompétence, la <hi rend="i">Salomé</hi> d’H. Regnault échappe, en 1912, à un Conseil trop parcimonieux. Effectivement, le financier primait toujours sur l’artistique et, à la veille de la Grande Guerre, du côté des photographies, des catalogues et de leurs conditions d’exploitation, on cherchait, mais sans y parvenir, à se procurer de nouvelles ressources.</p>
@@ -109,10 +107,10 @@
           <p>Réalimentée dans ses grandes masses, la « caisse », qui use du report, échelonne ses paiements et dispose plus souvent de crédits supplémentaires, est en excédent en 1922. Elle a remis de l’ordre dans ses rubriques budgétaires, stimulé ses agents et services, rechargé son portefeuille. Avant tout, en additionnant aux reliquats des beaux legs d’avant-guerre ce qui maintenant se dénomme les « acquisitions du Conseil des musées », elle n’affiche qu’un tassement limité dans ses achats sur le marché. En peinture, sa prédilection pour le <num>xix<hi rend="sup">e</hi></num> siècle post-classique s’accentue, mais soucieuse de ne pas crever ses seuils de disponibilités, elle laisse échapper, par exemple, un Reynolds, un Vermeer ou, heureusement à titre provisoire, une tête du Parthénon. La presse qui s’en émeut a pourtant l’équité de rendre un verdict positif quand disparaît L. Bonnat, le 20 juin 1922.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1226409">
         <head rend="uc">Troisième partie
          <lb/>L’extension de la réunion des musées nationaux (1922-1940)</head>
-        <div>
+        <div xml:id="r1226417">
           <head rend="uc">Chapitre premier
            <lb/>l’outil commercial (1922-1931)</head>
           <p><hi rend="i">L’après-Bonnat.</hi> – R. Koechlin, fin connaisseur de japonaiseries, prend la relève dans un Conseil où, pour la première fois, sont admis deux conservateurs à la retraite. Il préside une Réunion qui par trois vagues étend son ressort. Sont agrégés : en 1926, les quatre palais de Compiègne, Fontainebleau, Malmaison, Pau <pb source="https://nakala.fr/10.34847/nkl.bac951le#21696502f0521669c97b697282d79e2e131d650e" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.bac951le/21696502f0521669c97b697282d79e2e131d650e/full/full/0/default.jpg"/>(celui-ci rattaché l’année suivante au département des objets d’art), ainsi que le musée Guimet ; en 1927, des annexes de Versailles (salle du Jeu de Paume), de Malmaison (Bois-Préau et Maison Bonaparte d’Ajaccio), de Compiègne (musée de la Voiture) et, plus importantes pour notre propos, deux dépendances du Luxembourg (salles des Nymphéas à l’Orangerie et, vis-à-vis, le musée du Jeu de Paume réservé aux peintres étrangers contemporains) ; en 1932, le musée de la coopération franco-américaine de Blérancourt. La R.M.N. devenait donc un peu moins identifiable avec le Louvre.</p>
@@ -121,7 +119,7 @@
           <p><hi rend="i">L’ouverture vers l’extérieur.</hi> – Les mandats reçus par la France en Syrie et au Liban incitent à des campagnes archéologiques auxquelles la R.M.N. concourt, y voyant la facilité de hausser, à moindres coûts qu’auprès des marchands, ses collections d’antiquités. Ces envois, effectués à partir d’une quinzaine de chantiers de fouilles, contrastent avec le ralentissement des donations. Par des expositions, la Réunion commence cependant à ramener sur elle l’attention des milieux cultivés. Le processus, très expérimental, avait débuté avec la présentation, à l’intérieur des départements, des fonds permanents ou l’accueil au Jeu de Paume d’œuvres déjà <pb source="https://nakala.fr/10.34847/nkl.bac951le#039af137e8c7cc48bf6b11bf8dded7f20b2096ae" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.bac951le/039af137e8c7cc48bf6b11bf8dded7f20b2096ae/full/full/0/default.jpg"/>toutes rassemblées à l’étranger. Le pas fut franchi quand, après 1930, les quatre salles de l’Orangerie, affectées en 1927 à la direction des Musées nationaux, prêtèrent leurs cimaises à des rétrospectives avalisées par le Conseil, assurées et installées sur son budget.</p>
           <p><hi rend="i">L’envers de la médaille.</hi> – Occasion parfois de fausses identifications ou d’arguties juridiques, les acquisitions souffrirent, de 1923 à 1929, de la taxe de luxe de 12 % levée sur les ventes. L’ensemble de la Réunion, pour sa part, fut ébranlée par des indélicatesses dans la gestion du directeur et de l’agent-comptable. Le deuxième responsable, E. Ramond, en vint, en 1929, à une escroquerie qui alerta l’opinion. R. Koechlin pratiqua les réformes nécessaires et à son décès, en novembre 1931, étaient oubliées de compréhensibles hésitations devant cette mutation de la R.M.N. en une entreprise commerciale. <hi rend="i">A posteriori,</hi> on évoquera même la présidence Koechlin comme l’apogée de l’institution.</p>
         </div>
-        <div>
+        <div xml:id="r1226474">
           <head rend="uc">Chapitre II
            <lb/>Les prémices de la crise (1932-1940)</head>
           <p><hi rend="i">Les acteurs et l’environnement.</hi> – Banquier mais passionné par l’objet, une statuette précolombienne ou des chenets de Thomas Germain, D. David-Weill est, avec son humanité et son ascendant, le plus attachant des quatre présidents. Entouré par un Conseil, maintenant de trente-deux membres (dont trois Américains et un Mexicain), il mène dans l’efficacité une Réunion qui absorbe en 1934 la manufacture de Sèvres, en 1937 les deux musées du Trocadéro : la Sculpture comparée et les Arts et traditions populaires. De quatre en 1895, les Musées nationaux sont désormais vingt et un à la veille de la seconde guerre mondiale.</p>
@@ -129,16 +127,16 @@
           <p><hi rend="i">Les espérances culturelles.</hi> – Motifs à des renoncements d’achats, à des conflits entre Comité et Conseil (en 1937, Picasso fait litige), les pesanteurs budgétaires sont allégées par le retour de magnifiques donations, par exemple celle du baron Edmond de Rothschild. Bien que les inflexions amorcées entre 1930 et 1931 se perpétuent, la vogue est aux arts asiatiques et dans tout l’Orient, le Proche, le Moyen, l’Extrême, la R.M.N. augmente son appui aux archéologues. Également sur la lancée de la décennie antérieure, elle s’investit dans un vaste programme d’expositions. Les initiatives du Jeu de Paume bénéficient de son soutien sélectif : c’est une nouveauté qu’éclipsent toutefois les trente-quatre thèmes à l’affiche de l’Orangerie de 1932 à 1939 ; les mieux perçus d’entre eux valorisent la peinture française de Corot à Renoir. Pour une bonne partie, ces manifestations réussissent aussi bien grâce à certains conseillers qui, avec d’autres, patronnent et prêtent, que grâce au Conseil qui, en tant que tel, négocie les contrats d’assurances et règle l’infrastructure publicitaire. Rançon de ce succès, l’État voudrait voir en la Réunion le bailleur de fonds de toute manifestation artistique. N’était-ce pas convenir que la R.M.N. et, en son sein, la fonction présidentielle étaient parvenues au point le plus abouti de leur développement naturel ?</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1226507">
         <head rend="uc">Conclusion</head>
         <p>Suspendu dès août 1940, le Conseil se disloque lors de la grande césure qui, un an après, est à l’origine, au moins indirecte, des configurations actuelles : son président disparut devant la toute-puissance du directeur des Musées ; ses attributions furent alors démembrées entre deux organismes dont le second, à vocation artistique, intégrait des conservateurs. La souplesse, le pragmatisme d’une autorité moins dépendante avaient pourtant montré de 1895 à 1940, et cela dans une conjoncture aggravée, ses talents à gérer, puis à faire fructifier son patrimoine : la R.M.N., non satisfaite d’acquérir, en était venue à éditer, enfin à exposer. Ce faisant, elle n’avait pas, au total et malgré l’oubli des musées de provinces, sacrifié les intérêts de l’art, proposant, au contraire, un modèle original d’établissement public.</p>
       </div>
-      <div>
+      <div xml:id="r1226517">
         <pb source="https://nakala.fr/10.34847/nkl.bac951le#16418f5e7b37b3fd0eb8961ac97e34e6d7398e7f" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.bac951le/16418f5e7b37b3fd0eb8961ac97e34e6d7398e7f/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Textes constitutifs : décrets de 1874, 1879, 1930 ; lois de 1895, 1926 ; règlements de 1896, 1900 ; projet de la sous-commission du Conseil supérieur des beaux-arts (1891) ; statuts de la Société des amis du Louvre (1897). – Exemples de pièces comptables (1900) ; contrat d’assurances (1936). – Correspondances et notes : choix de lettres de T. Homolle à R. Poincaré (1904-1909) ; lettres de R. Poincaré à H. Roujon (1893-1898), d’A. Rodin à R. Koechlin (1905), de D. David-Weill à Mme R. Poincaré (1934) ; note de D. David-Weill sur L. Barthou (1934).</p>
       </div>
-      <div>
+      <div xml:id="r1226532">
         <head rend="uc">Illustrations</head>
         <p>Planches : les diamants de la Couronne (dix) ; effigies des quatre présidents ; la tiare de Saïtapharnès ; caricature sur les vagabonds au Louvre (1902) ; le salon de R. Koechlin. – Coupures de presse : l’inauguration à l’Orangerie des <hi rend="i">Trésors de Reims</hi> et de <hi rend="i">Bonaparte en Égypte</hi> (1938).</p>
         <pb source="https://nakala.fr/10.34847/nkl.bac951le#42f5e77f41d1c7684139bda07ddec20669a7144a" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.bac951le/42f5e77f41d1c7684139bda07ddec20669a7144a/full/full/0/default.jpg"/>

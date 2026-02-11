@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,27 +55,27 @@
         <surname>Nardin</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r833541">
         <head rend="uc">Sources</head>
         <p>La plupart des documents utilisés se trouvent dans les fonds <hi rend="i">Grenada </hi>et <hi rend="i">Tobago</hi> du Colonial Office, au Public Record Office, à Londres, et dans la sous-série Colonies C<hi rend="sup">10</hi> E (Tabago) des Archives nationales. Les Archives du territoire de la Trinité et Tabago, à Port of Spain et à Scarborough, ont été aussi mises à profit.</p>
       </div>
-      <div>
+      <div xml:id="r833563">
         <head rend="uc">Introduction</head>
         <p><hi rend="i">Tabago de 1748 au début de la guerre de Sept Ans.</hi> – Le traité d’Aix-la-Chapelle ne régla pas le sort des petites Antilles, jadis déclarées neutres ou dont la possession était l’objet de contestations entre la France et l’Angleterre. Le marquis de Caylus, gouverneur de la Martinique, s’autorisant de cette omission, prit sur lui de protéger l’établissement à Tabago de quelques colons et pêcheurs français. La cour de Versailles, d’autre part, envisageait de donner satisfaction au maréchal de Saxe, qui demandait la concession de Tabago, en récompense des services qu’il avait rendus pendant la dernière guerre. Mais la fermeté du cabinet britannique fit échouer ces tentatives ; l’île fut évacuée, et des négociations furent ouvertes pour déterminer les droits des deux puissances sur ces anciennes îles neutres. Lorsqu’éclata la guerre de Sept Ans, Tabago, que fréquentaient des groupes de pêcheurs français et anglais, n’était peuplé que de quelques tribus de Caraïbes.</p>
         <p><hi rend="i">Aperçu géographique.</hi> – Situé à proximité de la Trinité, non loin de la côte vénézuélienne, Tabago est une petite île de forme allongée, au relief varié, abondamment arrosée, au sol le plus souvent profond et fertile, au climat modéré pour une latitude de onze degrés ; ses côtes présentent de nombreuses baies, mais les courants côtiers sont parfois un obstacle à la navigation.</p>
       </div>
-      <div>
+      <div xml:id="r833582">
         <pb source="https://nakala.fr/10.34847/nkl.fccb5yu0#76b42e408bd7b5149cb407b7cc14ad224eeecbf0" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.fccb5yu0/76b42e408bd7b5149cb407b7cc14ad224eeecbf0/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les anglais a Tabago
          <lb/>ou la création d’une colonie (1763-1781)</head>
-        <div>
+        <div xml:id="r833597">
           <head rend="uc">Chapitre premier
            <lb/>la prise de possession</head>
           <p>Le gouverneur de la Barbade prit possession de l’île dès la première année de la guerre de Sept Ans, mais l’occupation effective fut remise à plus tard. Le traité de Paris (1763) répartit entre les deux puissances rivales les anciennes îles neutres des Antilles : Sainte-Lucie devint française et la possession de la Dominique, de Saint-Vincent et de Tabago fut reconnue à l’Angleterre.</p>
           <p>Le gouvernement anglais constitua avec ces trois îles et celle de la Grenade, que la France cédait par le même traité, une nouvelle colonie, la province des lies cédées ou des Caraïbes méridionales. A la fin de l’année 1763, une garnison débarqua dans l’île, mais l’acclimatation des premiers habitants se révéla difficile.</p>
         </div>
-        <div>
+        <div xml:id="r833612">
           <head rend="uc">Chapitre II
            <lb/>L’occupation du sol</head>
           <p><hi rend="i">L’appropriation des terres.</hi> – La mise en valeur immédiate des nouvelles acquisitions, et surtout de Tabago, dont le sol était presque vierge, fut décidée. Les conditions de cession furent rapidement élaborées : la plupart des terres devaient être vendues aux enchères, le payement étant échelonné sur six ans ; la constitution de grandes propriétés était interdite ; les acquéreurs s’obligeaient à défricher et à mettre en culture leurs terres dans de brefs délais ; quelques parcelles seraient attribuées gratuitement à des colons pauvres ; des réserves d’intérêt public, des emplacements pour des villes étaient prévus.</p>
@@ -89,7 +87,7 @@
           <p>Les habitants blancs venaient de la Barbade et de quelques autres colonies anciennes des Antilles, mais surtout du Royaume-Uni et principalement d’Écosse. La provenance exacte des noirs est plus difficile à établir.</p>
           <p>La population blanche, qui était de 240 habitants environ, en 1770, atteignit dès 1773, un plafond de 430 habitants environ ; ce chiffre ne sera que de peu dépassé au moment de la cession à la France (moins de 500 habitants). La croissance de la population noire fut plus ample et plus constante, passant entre 1770 et 1780 de 3 000 à 10 000 âmes. La disproportion entre les races était à Tabago exceptionnellement accusée.</p>
         </div>
-        <div>
+        <div xml:id="r833653">
           <head rend="uc">Chapitre III
            <lb/>L’appareil administratif</head>
           <p><hi rend="i">Les institutions supérieures.</hi> – Le roi et son conseil, dans une large mesure, le Parlement moins souvent, concourent à l’administration des colonies britanniques. L’étude des affaires courantes est confiée au Board of Trade, qui, à partir de 1768, est placé au service d’un secrétaire d’État chargé spécialement des colonies.</p>
@@ -101,7 +99,7 @@
           <p>Au nombre des objets de dépenses supportées par les habitants figuraient le salaire des fonctionnaires locaux qui n’étaient pas rémunérés par la couronne, la construction et l’entretien de routes et d’édifices publics, le remboursement aux propriétaires de la valeur des esclaves exécutés par sentence judiciaire, la participation à la défense de l’île, l’octroi d’une gratification annuelle au gouverneur général ; les révoltes d’esclaves entraînaient des dépenses supplémentaires. Ces dépenses étaient couvertes principalement par des contributions foncières, levées à des intervalles irréguliers. Les habitants s’étaient aussi considérablement endettés, à l’égard de marchands et banquiers anglais et hollandais, pour pouvoir payer le prix d’achat de leurs terres aux échéances fixées et commencer à les mettre en valeur.</p>
           <p>La garnison de troupes réglées reste toujours très peu nombreuse. C’est surtout sur eux-mêmes que les habitants devaient compter pour leur sécurité intérieure et extérieure. Ils constituèrent une milice très active dès l’armée 1771, milice qui permit de mater les révoltes d’esclaves ultérieures. Mais l’île était difficile à fortifier, et, mal protégée par la marine britannique, elle eut à souffrir d’incursions de pirates espagnols, puis de rebelles américains, lors de la guerre d’indépendance.</p>
         </div>
-        <div>
+        <div xml:id="r833697">
           <head rend="uc">Chapitre IV
            <lb/>Le développement de l’activité économique</head>
           <p><hi rend="i">Les cultures et leurs produits.</hi> – L’île fut d’abord vouée à la culture de la canne à sucre. La première cargaison de sucre brut produit dans l’île arriva en Angleterre en 1770. La production du sucre et d’un rhum de très bonne qualité augmenta très rapidement de 1770 à 1775. Mais des invasions de fourmis-manioc abaissèrent considérablement la production sucrière, sans pourtant la ruiner complètement.</p>
@@ -109,7 +107,7 @@
           <p>Mises à part les cultures vivrières, les autres cultures, indigo, cacao, café, gingembre, curcuma, étaient tout à fait secondaires. L’exploitation des forêts, la pêche, l’élevage étaient peu actifs.</p>
           <p><hi rend="i">Le commerce.</hi> – Le commerce de Tabago était entre les mains de quelques maisons de Londres qui possédaient le plus souvent les créances des habitants. La réglementation commerciale sévère n’empêchait pas un mouvement de contrebande avec les pays espagnols, qu’il n’est pas aisé d’évaluer. Tabago souffrit comme les autres Antilles anglaises des entraves apportées au commerce avec l’Amérique du nord, lors de la rébellion des treize colonies.</p>
         </div>
-        <div>
+        <div xml:id="r833724">
           <pb source="https://nakala.fr/10.34847/nkl.fccb5yu0#29ac71eededa8d308a2b2c20e888a1e2e913c14b" n="83" facs="https://api.nakala.fr/iiif/10.34847/nkl.fccb5yu0/29ac71eededa8d308a2b2c20e888a1e2e913c14b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>L’état social</head>
@@ -117,16 +115,16 @@
           <p><hi rend="i">Les noirs.</hi> – Le nombre des gens de couleur libres resta infime. Les noirs étaient presque tous nouvellement venus d’Afrique : il y avait très peu de créoles. Mal acclimatés, ils étaient astreints au dur travail du déboisement, soumis à des lois rigoureuses et à l’arbitraire des économes ; par quatre fois en cinq ans, des révoltes furent ébauchées, mais la masse, terrorisée, ne suivit pas, et la répression fut rapide et féroce.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r833751">
         <head rend="uc">Deuxième partie
          <lb/>Tabago, antille française (1781-1793)</head>
-        <div>
+        <div xml:id="r833759">
           <head rend="uc">Chapitre premier
            <lb/>l’acquisition d’une colonie</head>
           <p>Tabago fut la dernière des îles de l’ancien gouvernement de la Grenade à tomber aux mains des Français, qui, prenant leur revanche de la guerre de Sept Ans, avaient reconquis successivement la Dominique, Saint-Vincent et la Grenade. Après une belle résistance, et faute d’être secouru par la flotte anglaise qui protégeait avant tout la Barbade, Tabago se rendit en juin 1781 au comte de Grasse et au marquis de Boitillé.</p>
           <p>Le traité de Versailles (1783) céda la seule île de Tabago à la France, qui pensait, semble-t-il, en faire un bastion fortifié protégeant la Trinité et l’Amérique espagnole des entreprises anglaises : disposition déraisonnable, inspirée par des vues illusoires, et qui ne tenait aucun compte de la nationalité des habitants des Antilles que les deux puissances rivales s’échangeaient.</p>
         </div>
-        <div>
+        <div xml:id="r833774">
           <head rend="uc">Chapitre II
            <lb/>Problèmes administratifs</head>
           <p><hi rend="i">Le gouvernement et l’administration générale.</hi> – La capitulation et le traité avaient stipulé le maintien des lois anglaises. L’attitude du gouvernement français à l’égard de la nouvelle colonie semble caractérisée, les premières années <pb source="https://nakala.fr/10.34847/nkl.fccb5yu0#d647fe604f015fd702bef0f364fa53525b61f0a0" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.fccb5yu0/d647fe604f015fd702bef0f364fa53525b61f0a0/full/full/0/default.jpg"/>par l’absence d’une politique claire et cohérente. Les corps législatifs sont conservés ; le gouverneur français succède aux pouvoirs du gouverneur général anglais, la subordination à l’égard de la Martinique étant assez lâche. Mais un ordonnateur est introduit, ce qui modifie l’équilibre des pouvoirs.</p>
@@ -134,13 +132,13 @@
           <p><hi rend="i">La justice.</hi> – La hiérarchie judiciaire anglaise est conservée, mais le recrutement d’hommes de loi anglais étant tari, le prestige des tribunaux s’amenuise et les habitants sont amenés à demander eux-mêmes, en 1787, l’application des lois françaises à Tabago. Des divergences de vues entre les administrateurs et les experts consultés, puis l’annonce des états généraux, qui laisse prévoir une modification de la constitution, retardent la satisfaction de cette requête ; les lois anglaises seront conservées jusqu’à la fin de la période française.</p>
           <p><hi rend="i">La défense.</hi> – La garnison, relativement plus nombreuse que sous le régime anglais, n’est pas en état de repousser une invasion. De longues hésitations sur le choix de l’emplacement le plus propice à l’édification de fortifications amène du retard dans le commencement des travaux qui ne pourront être poussés assez loin.</p>
         </div>
-        <div>
+        <div xml:id="r833809">
           <head rend="uc">Chapitre III
            <lb/>Les difficultés économiques</head>
           <p>Le gouvernement français se montre d’abord le plus inflexible dans le domaine où la tolérance aurait été le plus souhaitable et le plus bénéfique : en matière commerciale. La prohibition du commerce étranger est l’une des principales causes de la stagnation économique dont souffre l’île ; puis des adoucissements sont apportés à ce régime rigoureux avec la création d’un port franc et diverses tolérances. Les nouveaux courants commerciaux avec la France se révèlent difficiles à instaurer.</p>
           <p>La grande idée du gouvernement français, et qui aurait pu faire beaucoup pour la francisation de l’île, était la réduction des créances anglaises, qui, par la pratique d’intérêts élevés et composés, absorbaient le produit net de l’île, quand elles n’amenaient pas, par le jeu du mort-gage, le transport de la propriété des terres de Tabago entre les mains de sujets étrangers. Sur la suggestion de l’ordonnateur Roume de Saint-Laurent, une commission judiciaire extraordinaire fut créée pour vérifier les créances et réduire celles qui étaient entachées d’usure ; cette commission accomplit un travail considérable. Mais le changement de ministre, les manœuvres des créanciers anglais auprès du gouvernement métropolitain empêchèrent que les sentences rendues, parfois quelque peu arbitrairement, soient exécutées intégralement. La question resta pendante durant les dernières années du régime français. Les assemblées révolutionnaires, saisies par les créanciers d’une demande de révocation de la commission et d’annulation de ses décisions, n’eurent jamais le loisir de donner une conclusion à cette affaire.</p>
         </div>
-        <div>
+        <div xml:id="r833824">
           <pb source="https://nakala.fr/10.34847/nkl.fccb5yu0#8f2bd0b6dad86895ffc55348a5baa0838baa50da" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.fccb5yu0/8f2bd0b6dad86895ffc55348a5baa0838baa50da/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les transformations de la société</head>
@@ -148,7 +146,7 @@
           <p>L’administration de Dillon et de Roume de Saint-Laurent accomplit une œuvre importante en matière d’urbanisme, de voirie, d’assainissement.</p>
           <p>Les administrateurs français s’efforcèrent d’apporter des améliorations à la condition des esclaves ; l’absence de toute révolte servile sous le régime français n’est peut-être pas un fait fortuit.</p>
         </div>
-        <div>
+        <div xml:id="r833847">
           <head rend="uc">Chapitre V
            <lb/>La révolution à Tabago (1789-1793)</head>
           <p>Avant même qu’éclatent les premiers troubles, le départ de la colonie du gouverneur Dillon, qui allait devenir député de la Martinique, marque la fin d’une période sinon heureuse, du moins pleine de promesses dans l’histoire de l’île. La mésintelligence s’établit entre son substitut et Roume de Saint-Laurent ; l’administration devient la proie des factions.</p>
@@ -156,11 +154,11 @@
           <p>La situation politique reste confuse les deux années suivantes, et le marasme économique s’accentue. L’Angleterre juge le moment propice pour venir au secours de ses anciens sujets ; en avril 1793, le général Cuyler et le vice-amiral Laforey s’emparent de l’île sans difficulté.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r833866">
         <head rend="uc">Conclusion</head>
         <p>L’étude de l’histoire de Tabago pendant la deuxième moitié du <num>xviii<hi rend="sup">e</hi></num> siècle a une valeur d’exemple ; elle éclaire le sort de ces petites Antilles que la France et l’Angleterre se passèrent de mains en mains pendant plus d’un siècle. Elle constitue aussi un cas limite, montrant à son paroxysme l’absurdité économique du système commercial traditionnel, système dont l’ancien régime entreprit <pb source="https://nakala.fr/10.34847/nkl.fccb5yu0#c0a3ae7650f38d74860f274aa9ba39bb95183a2b" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.fccb5yu0/c0a3ae7650f38d74860f274aa9ba39bb95183a2b/full/full/0/default.jpg"/>trop tard et trop timidement la réforme ; montrant encore les curieuses conséquences que pouvait amener la discordance entre la condition politique d’une île et l’origine nationale de ses habitants.</p>
       </div>
-      <div>
+      <div xml:id="r833887">
         <head rend="uc">Pièces justificatives</head>
         <p>La première concession de terre (1766). – Loi sur le gouvernement des esclaves (1768). – La procédure civile en usage à Tabago. – Une incursion de rebelles américains (1779). – Un témoignage sur la condition des esclaves. – Récit de la première révolte des esclaves (1770). – Arrêt du Conseil d’État du roi établissant une commission pour vérifier les créances anglaises (1786). – Considérations sur le remplacement des lois anglaises (1787). – Pièces diverses.</p>
         <p>Cartes de Tabago (1765, 1776, 1784). – Carte des ventes de terres (1765-1771). – Plans de Georgetown (1765), des environs de Scarborough (1784, 1785, 1787). – Vue de Port-Louis, anciennement Scarborough (1787). – Plans des forts (1784). – Gravures satiriques (1781-1782). – Sceau de la colonie (1793).</p>

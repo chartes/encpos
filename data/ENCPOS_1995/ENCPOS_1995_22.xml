@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1995_22" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1995_22" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,30 +56,30 @@
         <forename>Juliette</forename>
         <surname>Jestaz</surname>
       </byline>
-      <div>
+      <div xml:id="r1264467">
         <head rend="uc">Introduction</head>
         <p><hi rend="i">L’Antiquité expliquée et représentée en figures</hi> de dom Bernard de Montfaucon parut en 1719 : c’est un gros ouvrage de cinq tomes en dix volumes in-folio, complété en 1724 par un <hi rend="i">Supplément</hi> de cinq volumes. Ce livre compte parmi les grandes réalisations de librairie du <num>xviii<hi rend="sup">e</hi></num> siècle. Sorti des presses d’une compagnie de sept libraires parisiens, il comprend, outre le double texte français et latin, plus d’une centaine de planches gravées par tome, représentant des objets antiques d’une grande diversité : des statues, des pierres gravées et des médailles, mais aussi du mobilier et de la vaisselle. Il était destiné à aider à la compréhension des textes antiques par la représentation figurée du mode de vie des Anciens.</p>
         <p>L’auteur, dom Bernard de Montfaucon, est une des plus grandes figures de la congrégation de Saint-Maur, dont les publications scientifiques établirent la gloire de l’érudition française au <num>xviii<hi rend="sup">e</hi></num> siècle et posèrent les fondements des travaux des siècles ultérieurs. Son nom est associé à celui de dom Mabillon, dont il fut le disciple le plus brillant. Il passa comme celui-ci sa vie à l’abbaye de Saint-Germain-des-Prés.</p>
         <p>La publication, depuis quelques années, de nombreux travaux sur la congrégation de Saint-Maur, d’une part, et sur l’histoire des collections et de l’archéologie, d’autre part, imposait de reconsidérer <hi rend="i">L’Antiquité expliquée</hi> de Montfaucon.</p>
       </div>
-      <div>
+      <div xml:id="r1264506">
         <head rend="uc">Sources</head>
         <p>Les sources utilisées en dehors du livre lui-même consistent essentiellement dans la correspondance des bénédictins conservée au département des manuscrits de la Bibliothèque nationale de France, et des lettres écrites ou reçues par Montfaucon, conservées dans différents dépôts de France et d’Europe (Avignon, <pb source="https://nakala.fr/10.34847/nkl.1ada0keu#8e70f395f3dda737966c987824da495ee49a82d0" n="170" facs="https://api.nakala.fr/iiif/10.34847/nkl.1ada0keu/8e70f395f3dda737966c987824da495ee49a82d0/full/full/0/default.jpg"/>Londres, Venise). Enfin, plusieurs recueils contenant les papiers de travail de Montfaucon fournissent les données touchant la fabrication et le financement de l’ouvrage.</p>
       </div>
-      <div>
+      <div xml:id="r1264521">
         <head rend="uc">Première partie
          <lb/>Le projet et sa réalisation matérielle</head>
-        <div>
+        <div xml:id="r1264529">
           <head rend="uc">Chapitre premier
            <lb/>Bernard de Montfaucon</head>
           <p>Après avoir retracé la vie de Montfaucon et sa formation, on peut donner une vue d’ensemble de sa production érudite, qui se répartit en trois domaines : l’édition patristique, les instruments de travail méthodologiques ou bibliographiques et les travaux <hi rend="i">antiquaires.</hi> Son voyage et son séjour en Italie de 1698 à 1701 donnèrent lieu à la publication du <hi rend="i">Diarium italicum</hi> en 1702, qui fut son premier ouvrage d’antiquaire et dans lequel apparaissent quelques-uns des principes adoptés par la suite. Par ailleurs le <hi rend="i">Diarium italicum</hi> semble être à l’origine du projet de <hi rend="i">L’Antiquité expliquée.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1264556">
           <head rend="uc">Chapitre II
            <lb/>Montfaucon et la congrégation</head>
           <p>Le sujet profane de <hi rend="i">L’Antiquité expliquée</hi> pouvait faire passer le projet pour incongru par rapport aux travaux antérieurs de l’auteur et de ceux des mauristes en général. Sa conception par Montfaucon puis son acceptation par la hiérarchie de la congrégation marquent une des étapes significatives de l’évolution alors amorcée par les mauristes vers une science et un mode de vie de plus en plus laïques, dont le départ avait été vingt ans auparavant la querelle entre Mabillon et Rancé sur le bien-fondé des études profanes chez les religieux.</p>
         </div>
-        <div>
+        <div xml:id="r1264572">
           <head rend="uc">Chapitre III
            <lb/>Le financement de l’ouvrage</head>
           <p>Le principe de financement du projet est bien connu, puisque <hi rend="i">L’Antiquité expliquée</hi> est célèbre pour être le premier livre publié en France par souscription. La situation financière de l’abbaye de Saint-Germain-des-Prés et de la congrégation ainsi que le coût élevé de l’entreprise imposèrent de recourir à ce procédé, bien que la congrégation fût sollicitée pour fournir le capital de départ.</p>
@@ -91,18 +89,18 @@
           <p>La correspondance de Montfaucon permet de suivre en détail la fabrication de l’ouvrage, la marche de l’entreprise, ainsi que le nombre d’ouvriers utilisés. La réalisation du millier de planches gravées nécessaires s’étala sur près de trois ans, de septembre 1716 à juin 1719.</p>
           <p>Le processus s’acheva par la livraison de l’ouvrage. Il fallut recouvrer alors la deuxième moitié du montant de la souscription et faire parvenir le livre à ses destinataires, ce qui n’alla pas sans quelques difficultés liées aux inconvénients du transport sous l’Ancien Régime. De plus, étant donné la masse que représentaient les dix volumes, des problèmes de récolement se posèrent. Les demandes adressées par certains des souscripteurs laissent apercevoir, précocément, des soucis de bibliophilie.</p>
         </div>
-        <div>
+        <div xml:id="r1264605">
           <head rend="uc">Chapitre IV
            <lb/>Description raisonnée des souscripteurs</head>
           <p>Le livret des souscripteurs que tint Montfaucon, conservé dans ses papiers au département des manuscrits, permet d’étudier le public de l’ouvrage et de dresser une carte du goût antiquaire en Europe, compte tenu du fait que la liste comprend inévitablement une certaine proportion de souscripteurs obligés, qui ne furent pas forcément des lecteurs effectifs.</p>
           <p>Si l’on répartit les souscripteurs selon leur origine géographique, on constate que la France fournit l’écrasante majorité du public (68,5 %), mais que les différents pays d’Europe sont également concernés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1264621">
         <head rend="uc">Deuxième partie
          <lb/>Le matériau de <hi rend="i">l’antiquité expliquée</hi> et son exploitation</head>
         <p>Montfaucon avait élaboré <hi rend="i">L’Antiquité expliquée</hi> à partir de deux types de matériaux : livres et collections d’antiquités. On peut se demander si dans l’exploitation qu’il en fit, il établit une différence entre les deux et s’il sut les aborder avec recul.</p>
-        <div>
+        <div xml:id="r1264640">
           <head rend="uc">Chapitre premier
            <lb/>la littérature antiquaire</head>
           <p>Montfaucon utilisa en premier lieu la littérature antique, grecque et romaine, entendue au sens large car les Pères de l’Église firent partie des auteurs auxquels <pb source="https://nakala.fr/10.34847/nkl.1ada0keu#e4bb1a4ea69bc78b8024f76af79871b66e7706f0" n="172" facs="https://api.nakala.fr/iiif/10.34847/nkl.1ada0keu/e4bb1a4ea69bc78b8024f76af79871b66e7706f0/full/full/0/default.jpg"/>il eut recours. L’examen fait apparaître qu’il se servit de tous les genres littéraires, avec une tendance à privilégier les auteurs chrétiens sur les autres en cas de divergence. Les textes antiques cités par Montfaucon étaient censés expliquer l’usage des objets et leurs dénominations. En fait, leur utilisation ne fut pas toujours documentaire. Le texte antique fut parfois présenté comme un <hi rend="i">spectacle </hi>équivalent à celui que fournissait par ailleurs l’image. Ce procédé dénote la fascination exercée sur Montfaucon par l’Antiquité et son désir de la mettre en valeur. Son enthousiasme ne se manifeste ni par des louanges ni par un ton hyperbolique, mais par le recours à des textes narratifs destinés à provoquer chez le lecteur une vision subjective au lieu de 1 objectivité avec laquelle celui-ci aborde normalement un ouvrage scientifique.</p>
@@ -110,14 +108,14 @@
           <p>Enfin il eut aussi abondamment recours à des publications non scientifiques telles que les albums gravés qui diffusaient alors l’image des <hi rend="i">mirabilia</hi> romains.</p>
           <p>Au total <hi rend="i">L’Antiquité expliquée,</hi> malgré l’ambition affichée au départ par Montfaucon, publia beaucoup plus de figures déjà éditées que d’objets inconnus (86,8 %).</p>
         </div>
-        <div>
+        <div xml:id="r1264694">
           <head rend="uc">Chapitre II
            <lb/>Les collections des contributeurs de <hi rend="i">l’antiquité expliquée</hi></head>
           <p>Le deuxième type de matériau dont se servit Montfaucon pour illustrer <hi rend="i">L’Antiquité expliquée,</hi> ce furent les objets antiques eux-mêmes, et non plus leurs représentations dans les ouvrages imprimés. Ces antiquités, il les trouva dans les collections existantes. Le prospectus avait fait appel aux amateurs en leur demandant de communiquer les pièces qu’ils jugeraient intéressantes. En fait, il apparaît que la plupart de ces contributeurs étaient déjà connus de Montfaucon, ce qui prouve une fois de plus l’importance du rôle joué par le réseau bénédictin dans la réalisation de l’ouvrage.</p>
           <p>Les dix-huit contributeurs parisiens forment le groupe le plus nombreux et le nombre de pièces qu’ils communiquèrent est de loin le plus important. C’est le cabinet d’antiquités de Saint-Germain-des-Prés qui fut le plus largement reproduit. Parmi les Parisiens figurent neuf membres de l’Académie des inscriptions, ce qui illustre les liens entre la science des antiquaires et la constitution de cabinets d’antiquités : l’abbé Bignon, Philibert-Bernard Moreau de Mautour, Charles-César <pb source="https://nakala.fr/10.34847/nkl.1ada0keu#86a6c9b9c927fbe5ab008618a2eb71389fabe1e5" n="173" facs="https://api.nakala.fr/iiif/10.34847/nkl.1ada0keu/86a6c9b9c927fbe5ab008618a2eb71389fabe1e5/full/full/0/default.jpg"/>Baudelot de Dairval, Nicolas Mahudel, l’abbé de Fontenu et Claude Gros de Boze, le futur garde des antiques du Cabinet du roi, fournirent des contributions variées en nombre et en qualité. Les deux académiciens qui communiquèrent le plus grand nombre de pièces étaient en fait des amateurs plutôt que des antiquaires proprement dits : l’intendant Foucault et le maréchal d’Estrées, dédicataire de l’ouvrage. Enfin l’abbé Fauvel et le P. Albert, du couvent des Augustins déchaussés, furent également très généreux. On trouve enfin quelques personnes n’ayant contribué que pour une pièce ou deux : la princesse Palatine, le duc du Maine, le comte de Clermont, le président Lambert de Thorigny et le financier Crozat. L’examen montre que les motifs de Montfaucon pour reproduire une pièce ne furent pas toujours scientifiques, mais qu’il put se trouver contraint d’en accueillir certaines. Par ailleurs, il apparaît qu’il ne se montra pas toujours très rigoureux sur leur choix, négligeant de se renseigner auprès du possesseur sur leur origine ou se laissant influencer par leur étrangeté, ce qui l’entraîna à commettre de nombreuses erreurs, dont la publication d’œuvres de la Renaissance est la plus commune.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1264722">
         <head rend="uc">Conclusion</head>
         <p>En définitive, Montfaucon ne sut pas toujours dominer la documentation qu’il utilisa, quelle que fût sa nature, livres ou objets. Il ne semble pas avoir établi entre ces deux catégories de différence essentielle. Son attitude tient au fait qu’il considérait l’image représentée sans prendre garde à son origine. Cette inattention constitue le défaut essentiel de l’ouvrage malgré la nouveauté que représentait le recours extensif à l’image comme moyen didactique. C’est pourquoi son livre, de ce point de vue, fut un échec : il ne réussit pas à appliquer aux objets la méthode critique des mauristes. En revanche, <hi rend="i">L’Antiquité expliquée</hi> demeure un éclatant succès dans le domaine de la réalisation éditoriale : ouvrage vulgarisateur de haute volée, ce monument fut longtemps considéré comme un manuel fondamental, en même temps qu’un objet de bibliophilie.</p>
         <pb source="https://nakala.fr/10.34847/nkl.1ada0keu#963db2699ac819d3c341a39479f95d13e42589aa" n="174" facs="https://api.nakala.fr/iiif/10.34847/nkl.1ada0keu/963db2699ac819d3c341a39479f95d13e42589aa/full/full/0/default.jpg"/>

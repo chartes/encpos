@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,10 +55,10 @@
         <forename>Mathieu</forename>
         <surname>Lescuyer</surname>
       </byline>
-      <div>
+      <div xml:id="r1230831">
         <head rend="uc">Première partie
          <lb/>Étude du <hi rend="i">Defensorium</hi></head>
-        <div>
+        <div xml:id="r1230842">
           <head rend="uc">Chapitre premier
            <lb/>Richard FitzRalph, John Wyclif et William Woodford</head>
           <p>Le <hi rend="i">Defensorium mendicitatis contra Armachanum</hi> de Woodford, qui consiste en une réfutation point par point du huitième livre du <hi rend="i">De pauperie Salvatoris</hi> de FitzRalph, s’inscrit dans la longue histoire des polémiques autour des Mendiants et notamment des Franciscains. Les péripéties les plus marquantes en ont été animées par Guillaume de Saint-Amour, qui contestait l’existence des Mendiants et leur type de ministère d’un point de vue ecclésiologique, et par les Spirituels, adeptes d’une pauvreté radicale.</p>
@@ -68,7 +66,7 @@
           <p><hi rend="i">John Wyclif.</hi> – Wyclif (mort en 1384) reprend la théorie de FitzRalph sur le <hi rend="i">dominium</hi> par la grâce et la développe mais, là encore, il s’agit d’un exercice intellectuel universitaire ; quoique ses conséquences pratiques, révolutionnaires, en soient étudiées par Wyclif, leur excès même, voire leur caractère irréel, n’incline pas à leur accorder tellement d’importance. L’essentiel chez Wyclif est la critique des biens temporels de l’Église qui ne profitent pas aux pauvres, de la non-résidence, du cumul... Quant aux Mendiants, ils ne constituent qu’une secte et ne suivent pas la pure loi du Christ. Ce n’est pas tant la critique des Mendiants faite par Wyclif que celle des Lollards qui incite Woodford à écrire son <hi rend="i">Defensorium. </hi>Les Lollards, disciples de Wyclif, font l’éloge d’une Église pauvre et usent du même type d’action pastorale que les Franciscains : itinérance, prêches nombreux, pauvreté (relative), subsistance assurée par les dons des fidèles. Du fait de cette rivalité viscérale, c’est contre eux que s’élève explicitement Woodford dans son <hi rend="i">Defensorium.</hi></p>
           <p><hi rend="i">William Woodford (vers 1330-vers 1400</hi>). – Maître en théologie, confesseur de la comtesse de Norfolk et franciscain du couvent de Londres, Woodford a fait l’objet des recherches du franciscain anglais contemporain Eric Doyle. Huit de ses œuvres sont parvenues jusqu’à nous, dont une a connu plusieurs éditions anciennes. Toutes tournent autour de la réfutation des thèses de Wyclif dont Woodford fut le contemporain et condisciple à Oxford ; Wyclif a consacré deux chapitres de son <hi rend="i">De civili dominio</hi> à répondre à ses arguments.</p>
         </div>
-        <div>
+        <div xml:id="r1230908">
           <head rend="uc">Chapitre II
            <lb/>Le <hi rend="i">Defensorium</hi>, les autres œuvres réfutant FitzRalph et Wyclif
            <lb/>et la culture de Woodford</head>
@@ -78,7 +76,7 @@
           <p><hi rend="i">Les autres ouvrages réfutant FitzRalph et ses disciples.</hi> – Plusieurs petits traités ont été écrits contre FitzRalph ou des Lollards (ils ont fait l’objet d’une édition critique ou d’une étude). Barthélemy de Bolsenheim, provincial dominicain de Teutonie, réfute FitzRalph en consistoire ; il est fort peu convaincant, très porté sur le syllogisme et ennuyeux. L’augustin Geoffrey Hardeby répond d’un point de vue plus théorique que Woodford à FitzRalph. Le franciscain Roger Conway s’en tient strictement aux arguments canoniques. Mais le meilleur est l’augustin Richard Maidstone, confesseur de Jean de Gand, qui défend la mendicité en soi, contrairement à Woodford qui distingue entre mendiant volontaire, c’est-à-dire religieux mendiant, digne de recevoir un don, et involontaire, qui n’en mérite pas autant.</p>
           <p>En fait, face à des adversaires qui reprochent aux Mendiants de ne pas être fidèles à leur profession de pauvreté, les traités ne défendent pas bien les frères : leurs arguments n’ont aucun génie propre, ils sont souvent (voire seulement) répétitifs. Seul Maidstone fait preuve d’un style assez alerte, et seul il défend la mendicité pour elle-même : ne pas la défendre aboutit finalement à donner raison à ses adversaires, comme les critiques du <num>xvi<hi rend="sup">e</hi></num> siècle (qui reprochent aux religieux mendiants de ne pas travailler ou de fainéanter en demandant l’aumône) le <pb source="https://nakala.fr/10.34847/nkl.557a4266#8e2772b6e4c1e4db1afcaefd9e288a4851df2bea" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.557a4266/8e2772b6e4c1e4db1afcaefd9e288a4851df2bea/full/full/0/default.jpg"/>prouvent. Car on voit mal la raison d’être de la mendicité, si, comme Woodford l’affirme, elle n’a pour but que de détourner des soucis matériels : cette raison semble peu rationnelle ; puisque la pauvreté n’est plus recherchée, pourquoi s’en tenir à une mendicité (presque) anachronique, et pourquoi ne pas vivre d’une sorte de rente, modique assurément ?</p>
         </div>
-        <div>
+        <div xml:id="r1230999">
           <head rend="uc">Conclusions</head>
           <p>Les Frères mineurs anglais de la fin du XIV’ siècle peuvent-ils être définis comme des « franciscains de château » ? comme des ascètes proches des pauvres et populaires ? ou bien encore comme des membres d’un ordre parmi tant d’autres ? La question est sans doute la plus importante de celles que soulève le <hi rend="i">Defensorium, </hi>une fois que l’on s’est interrogé sur les raisons des critiques et attaques en règle dont ils sont victimes.</p>
           <p>Pourquoi tant d’hostilité à l’égard des frères, parallèlement à leur popularité ? Le problème du <hi rend="i">dominium,</hi> de la propriété, des richesses temporelles, de l’Église ou des laïcs, que pose précisément FitzRalph, y est manifestement lié. Les velléités réformatrices de l’époque tournent toujours autour de la nécessité pour l’Église de se détacher des questions temporelles, de revenir à une plus grande pauvreté et à une plus juste répartition des biens ecclésiastiques. FitzRalph s’intéresse à titre théorique à la question du <hi rend="i">dominium,</hi> mais on constate chez lui une interférence avec la critique des Mendiants, interférence qui a priori aurait pu être fortuite, n’eût été le fait que la pauvreté dont les Mendiants faisaient leur emblème les exposait en première ligne dès qu’on touchait à ces questions. Il revenait à Wyclif et à ses disciples lollards d’utiliser la théorie de FitzRalph dans leur critique de l’Église perdue selon eux par ses biens temporels. Ils pouvaient ainsi espérer le soutien d’un nombre important de fidèles que l’exaspération contre la dîme et le mauvais usage des richesses ecclésiastiques rendaient susceptibles d’agréer leurs idées (et on a vu que Netter les rendait responsables de la révolte paysanne de 1381, tournée en bonne partie contre le temporel ecclésiastique).</p>
@@ -90,7 +88,7 @@
           <p>Se pose ici la question de la situation matérielle et du degré de pauvreté réel des Franciscains, car c’est elle qui leur vaut (entre autres raisons) d’être brocardés notamment par les poètes comme Langland, Gower et le plus célèbre des poètes anglais du Moyen Age, Geoffrey Chaucer, auxquels Rutebeuf fait pendant en France. Quand FitzRalph accuse les frères qui vivent dans les cours seigneuriales au milieu du luxe et de la bonne chère et que Woodford répond que l’essentiel est de ne pas s’y laisser piéger, alors qu’ailleurs il parle d’<hi rend="i">usus penuriosus,</hi> on éprouve quelques doutes quant à l’austérité réelle des Franciscains. Et ceux-ci sont d’autant plus fréquemment tournés vers les grands qu’ils sont plus savants et plus habiles à la direction spirituelle, d’où le redoublement des critiques à leur égard. Sans être forcément infidèles à leur profession, il est évident qu’ils ne sont pas, qu’ils ne sont plus à la hauteur de leur réputation. On constate effectivement une certaine « routinisation du charisme », quoique les frères restent de brillants prédicateurs et confesseurs. Aussi est-il normal qu’ils ne canalisent plus et ne contiennent plus les aspirations les plus radicales ni les critiques des fidèles, rôle qu’ils tenaient aux débuts de l’ordre. Woodford est presque aux antipodes des Spirituels du début du siècle dans sa perception de la pauvreté, et il est caractéristique de voir qu’il ne parle jamais de la pauvreté matérielle, ni des pauvres. L’Église n’est plus aussi proche des pauvres qu’auparavant, la suspicion qui entoure les béguines et béguins en est un autre exemple, ce qui laisse une place à la contestation, des pauvres d’une part, mais surtout de réformateurs plus ou moins orthodoxes qui jouent de cette insatisfaction réelle. Dans ces conditions on conçoit tout à fait que Wyclif ait pu avoir un succès certain. Seul un plus grand souci des pauvres, plus radical, constituerait une défense efficace ; au lieu de cela, les Franciscains s’en tiennent à une certaine austérité, supérieure à celle des autres religieux vraisemblablement, mais qui n’en fait pas pour autant de vrais pauvres et ne les en rapproche pas vraiment, un peu mais pas assez. En fait, l’essentiel tient à ce que les abus dont souffre l’Église (mauvais emplois des biens ecclésiastiques, non résidence, cumul) rendent secondaire la question de la mendicité, alors qu’une pauvreté plus radicale aurait constitué un début de réponse et un pôle d’espoir pour les réformateurs. La querelle des Mendiants se perd et se mêle au désir de réforme qui commence à s’imposer avec une force croissante dans l’Église, comme en témoignent les péripéties du Grand Schisme, même si tous, entre autres Woodford, ne le ressentent pas.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1231098">
         <pb source="https://nakala.fr/10.34847/nkl.557a4266#1c25fe3ac088ef32af2a39a59dbb542d02ad8c65" n="103" facs="https://api.nakala.fr/iiif/10.34847/nkl.557a4266/1c25fe3ac088ef32af2a39a59dbb542d02ad8c65/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Édition du <hi rend="i">Defensorium</hi></head>

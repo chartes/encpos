@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1850_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1850_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <surname>Tranchant</surname>
         <roleName rend="uc">Licencié en droit, Auditeur au Conseil d’État, Ancien élève de l’École nationale d’Administration</roleName>
       </byline>
-      <div>
+      <div xml:id="r8942">
         <head rend="uc">I.</head>
         <p><hi rend="i">Du pouvoir royal mérovingien considéré dans son origine juridique et son. essence.</hi></p>
         <p>Quatre origines juridiques, et par conséquent quatre caractères différents ont été attribués en France au pouvoir royal pendant la longue durée de son existence :</p>
@@ -79,10 +77,10 @@
         <p>L’action de l’aristocratie mérovingienne s’exerce par une intervention active dans la transmission de la royauté et surtout par une immixtion perpétuelle, et de plus en plus énergique, des grands dans l’exercice du pouvoir.</p>
         <p>L’action de l’aristocratie mérovingienne sous Dagobert en Neustrie, un peu plus tôt en Ostrasie où elle est plus forte, commence à se concentrer assez régulièrement entre les mains du premier des grands officiers du palais, du maire, nommé d’abord par le roi, ensuite élu par les grands. Le maire se substitue rapidement au roi, dans l’exercice du pouvoir qui lui est resté, et il finit par le remplacer complètement.</p>
       </div>
-      <div>
+      <div xml:id="r9007">
         <pb source="https://nakala.fr/10.34847/nkl.0e09d5mp#befbe8ead630a605afc415c1e126afa473066437" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.0e09d5mp/befbe8ead630a605afc415c1e126afa473066437/full/full/0/default.jpg"/>
         <head rend="uc">II.</head>
-        <div>
+        <div xml:id="r9018">
           <head rend="uc">
             <hi rend="i">Du pouvoir royal mérovingien considéré dans ses attributions.</hi>
           </head>
@@ -97,7 +95,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r9054">
           <head rend="uc">
             <hi rend="i">Attributions politiques.</hi>
           </head>
@@ -108,7 +106,7 @@
           <p>L’un des officiers palatins, le maire du palais, finit par commander l’armée de sa propre autorité et sans délégation du roi. <hi rend="i">d. Relations extérieures.</hi> – Le roi mérovingien nomme, tant qu’il exerce le pouvoir, les députés chargés de missions auprès des autres rois de la Gaule ou de peuples étrangers. – Ces missions n’ont jamais un caractère permanent sous la première race.</p>
           <p>Le roi mérovingien reçoit les ambassadeurs étrangers, et leur répond. Ils se présentent devant lui, alors même qu’il n’est plus que le prête-nom du maire.</p>
         </div>
-        <div>
+        <div xml:id="r9111">
           <head rend="uc">
             <hi rend="i">Attributions administratives.</hi>
           </head>
@@ -119,7 +117,7 @@
           <p>L’administration mérovingienne tend, dès son principe, à une ruine complète : les immunités, l’indépendance toujours croissante des magistrats royaux des provinces, les aliénations partielles du droit d’impôt réduisent de plus en plus son action.</p>
           <p>Le peu de pouvoir administratif qui reste au roi, les grands qui l’entourent finissent par l’exercer pour lui. Dès le règne de Dagobert, il tend à passer, et bientôt après il passe, aux mains du maire du palais.</p>
         </div>
-        <div>
+        <div xml:id="r9145">
           <head rend="uc">
             <hi rend="i">Attributions judiciaires.</hi>
           </head>
@@ -129,7 +127,7 @@
           <p>La juridiction volontaire s’exerce, sous les Mérovingiens, par les tribunaux organes de la juridiction contentieuse ; elle s’exerce par les curies romaines, dans les villes qui les auriont conservées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r9169">
         <pb source="https://nakala.fr/10.34847/nkl.0e09d5mp#cf7d38fe79e72b72bc20fa8c5b6a845180b426e1" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.0e09d5mp/cf7d38fe79e72b72bc20fa8c5b6a845180b426e1/full/full/0/default.jpg"/>
         <head rend="uc">III.
          <lb/><hi rend="i">De la transmission du pouvoir royal en France sous la première</hi>

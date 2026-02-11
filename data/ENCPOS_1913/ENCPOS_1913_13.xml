@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1913_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1913_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <forename>Stanislas</forename>
         <surname>Reizler</surname>
       </byline>
-      <div>
+      <div xml:id="r370122">
         <head rend="uc">Avertissement</head>
         <p>Objet précis de cette étude : il n’y est question : 1° que de l’examen ou approbation des livres avant leur impression ; 2° que de l’approbation des livres proprement dits, les pièces de théâtre, les feuilles volantes et brochures de quelques pages, étant soumises à d’autres censeurs.</p>
         <p>Absence de travaux antérieurs. Justification du plan.</p>
@@ -67,7 +65,7 @@
         <head rend="uc">Sources et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r370144">
         <head rend="uc">Introduction
          <lb/>la censure des livres avant la création des censeurs
          <lb/>royaux</head>
@@ -76,23 +74,23 @@
         <p>Henri II organise et perfectionne la censure (1551). Sous Charles IX, la censure des livres était entre les mains des docteurs de l’Université. Mais la royauté commence à leur disputer ce monopole. L’édit de 1563 est un premier pas fait dans cette voie.</p>
         <p>On s’achemine, à travers tout le <num>xvi<hi rend="sup">e</hi></num> siècle, vers le système de la censure royale, qui date de 1624.</p>
       </div>
-      <div>
+      <div xml:id="r370182">
         <head rend="uc">Première partie
          <lb/>Les censeurs royaux
          <lb/>de 1623 aux dernières années du <num>xvii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r370198">
           <head rend="uc">Chapitre premier
            <lb/>les quatre premiers censeurs royaux (1623-1626)</head>
           <p>1. <hi rend="i">Création des censeurs royaux</hi>. – Le motif : difficultés qu’éprouvent les docteurs divisés en gallicans et ultramontains, en Duvalistes et Richéristes, à se mettre d’accord pour approuver les livres présentés à leur censure ; projet de Filsac. Duval obtient pour lui et trois confrères un brevet de censeur : brevet du 22 mars 1623, lettres patentes d’août 1624. Les effets : les examinateurs des livres deviennent des fonctionnaires royaux ; le Roi devient maître de la doctrine en son royaume.</p>
           <p>2. <hi rend="i">Opposition des docteurs et disparition des premiers censeurs.</hi> – Le syndic Besse défend les droits des docteurs avec énergie. La Faculté de théologie fait des remontrances au chancelier, et présente un projet de réorganisation de la censure. Les quatre censeurs, fatigués de lutter, <pb source="https://nakala.fr/10.34847/nkl.aea193eg#59e0b48984517d75b9651f87b4917b0906152808" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.aea193eg/59e0b48984517d75b9651f87b4917b0906152808/full/full/0/default.jpg"/> démissionnent le 1<hi rend="sup">er</hi> décembre 1626, sans que la Faculté ait le droit de croire à une victoire complète, puisque le Roi, en 1627, proclame plus fort que jamais son droit d’examiner tous les manuscrits destinés à l’impression. Il est erroné d’attribuer aux maîtres des Requêtes un rôle officiel dans l’approbation des livres de droit et d’histoire ; s’ils approuvèrent quelquefois, ce ne fut qu’à titre privé et comme jouissant de la confiance personnelle du chancelier.</p>
         </div>
-        <div>
+        <div xml:id="r370230">
           <head rend="uc">Chapitre II
            <lb/>Les seconds censeurs royaux (1629-1648)</head>
           <p>L’ordonnance de 1629 établit de nouveaux censeurs pour les livres de doctrine. Ils n’ont plus de charge permanente, mais sont nommés par le chancelier pour chaque manuscrit. Une guerre sourde, mais sans trêve, est conduite contre les censeurs royaux par la Faculté de théologie, qui continue d’approuver et de légiférer, et par les évêques, qui approuvent certains manuscrits dans leurs assemblées générales. L’autorité royale protège ses fonctionnaires.</p>
           <p>L’approbation des autres livres se confond toujours avec le privilège, dans lequel elle est implicitement contenue.</p>
         </div>
-        <div>
+        <div xml:id="r370245">
           <head rend="uc">Chapitre III
            <lb/>Les censeurs royaux de 1648 aux dernières années du
            <lb/><num>xvii<hi rend="sup">e</hi></num> siècle</head>
@@ -103,12 +101,12 @@
           <p>3. <hi rend="i">La situation des censeurs royaux à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle.</hi> – Ils sont devenus peu à peu plus nombreux, insensiblement, selon les exigences de la librairie, déjà divisés en classes distinctes, selon la matière, peut-être sept ou huit pour la seule théologie. Leur approbation est imprimée et signée sur les livres de théologie, et elle commence à figurer aussi sur les livres d’autre nature. Si les auteurs réclament quelquefois encore des approbations aux docteurs de la Faculté, c’est par un reste d’habitude, par mesure de condescendance, et comme en guise de préface élogieuse, l’approbation des censeurs royaux étant la seule qui compte aux yeux de l’administration.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r370300">
         <pb source="https://nakala.fr/10.34847/nkl.aea193eg#a6bd3b1692e876099f7a87b7f01d52f8bcf3c735" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.aea193eg/a6bd3b1692e876099f7a87b7f01d52f8bcf3c735/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les censeurs royaux au <num>xviii<hi rend="sup">e</hi></num> siècle jusqu’à
          <lb/>leur suppression</head>
-        <div>
+        <div xml:id="r370321">
           <head rend="uc">Chapitre premier
            <lb/>l’historique de la censure au <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>Plus de changement radical dans l’organisation de la censure, mais des progrès et des complications dans son fonctionnement.</p>
@@ -116,7 +114,7 @@
           <p>La date de 1741, malgré l’opinion courante, ne marque, dans l’histoire des censeurs, aucun progrès notable. Une liste de censeurs pour 1727-1734, trouvée à la Bibliothèque Mazarine, prouve surabondamment que, longtemps avant 1741, les censeurs royaux sont nombreux et bien divisés en classes distinctes.</p>
           <p>La Faculté de théologie n’approuve plus, mais elle saisit avec empressement les occasions de condamner les livres approuvés par les censeurs.</p>
         </div>
-        <div>
+        <div xml:id="r370348">
           <head rend="uc">Chapitre II
            <lb/>Fonctionnement et organisation de la censure</head>
           <p>1. <hi rend="i">Recrutement des censeurs.</hi> – Le chancelier choisit qui il lui plaît. Les candidats affluent. Recommandations, honorabilité, compétence, connaissances littéraires, renonciation à tout traitement, tels sont les titres qu’ils mettent en avant.</p>
@@ -133,7 +131,7 @@
           <p>9. <hi rend="i">Les censeurs pris en défaut.</hi> – Le chancelier veut seul être juge de son censeur, qu’il couvre quand des tiers l’attaquent. Affaires des censeurs Tercier, Lebas, Missa, Raulin, Louvel, Béranger.</p>
           <p>La mentalité des censeurs à la fin de l’Ancien Régime.</p>
         </div>
-        <div>
+        <div xml:id="r370443">
           <head rend="uc">Chapitre III
            <lb/>La suppression de la censure et des censeurs royaux</head>
           <p>1. <hi rend="i">Difficultés inhérentes à la censure. Les attaques</hi>. – Les censeurs, manquant de principes fixes, sont livrés à eux-mêmes. Ceux qui attaquent les censeurs : Bayle, Buffon, Diderot, Condorcet, Mercier, Brissot, A. Chénier.</p>

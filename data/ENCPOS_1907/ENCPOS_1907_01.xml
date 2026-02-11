@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,23 +59,23 @@
         <head rend="uc">Introduction – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r306219">
         <head rend="uc">Première partie
          <lb/>Histoire monumentale</head>
-        <div>
+        <div xml:id="r306227">
           <head rend="uc">Chapitre I
            <lb/>Les origines</head>
           <p>Saint Rieul, apôtre de Senlis, fonde au <num>iii<hi rend="sup">e</hi></num> siècle deux églises, dont l’une, dédiée à la Vierge, était bâtie sur l’emplacement actuel de Notre-Dame. L’autre église est la cathédrale jusqu’au <num>vii<hi rend="sup">e</hi></num> ou <num>viii<hi rend="sup">e</hi></num> siècle ; c’est Notre-Dame qui devient ensuite la cathédrale.</p>
           <p>Dans le troisième quart du <num>x<hi rend="sup">e</hi></num> siècle, l’évêque Constance décore l’intérieur de l’église Notre-Dame. A la fin du même siècle, l’évêque Eudes I<hi rend="sup">er</hi> élève une nouvelle église Notre-Dame. On avait dû abattre une église Saint-Gervais-et-Saint-Protais pour l’agrandissement de la cathédrale et de ses dépendances ; en 1094, on acquiert les bâtiments du prieuré de Saint-Michel pour le même objet.</p>
         </div>
-        <div>
+        <div xml:id="r306270">
           <pb source="https://nakala.fr/10.34847/nkl.7dbemptn#737c6a4da61d73d9f34ac60dd64c46e2532964c0" n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dbemptn/737c6a4da61d73d9f34ac60dd64c46e2532964c0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’église du <num>xii<hi rend="sup">e</hi></num> siècle</head>
           <p>L’évêque Thibaut en 1153 commence l’église actuelle, à la place de l’ancienne qui tombait en ruines. Le roi accorde aux chanoines des lettres où il recommande les quêteurs pour l’œuvre de la cathédrale. Mort de Thibaut, retour des quêteurs ; défaut de ressources : les travaux, commencés du côté du chœur et finis par la façade, n’avancent que lentement.</p>
           <p>En 1167-68, le chœur est très avancé ; l’autel est en place. En 1184, le culte est établi dans la plus grande partie de l’église. En 1190, fondations d’autels. Le 16 juin 1191, dédicace solennelle. La cathédrale n’est pas achevée ; état de la construction ; départ de nouveaux quêteurs.</p>
         </div>
-        <div>
+        <div xml:id="r306296">
           <head rend="uc">Chapitre III
            <lb/>La cathédrale de 1191 à 1504</head>
           <p><num>xiii<hi rend="sup">e</hi></num> siècle. – Nombreuses donations faites à la cathédrale ; rôle du chancelier Guérin devenu évêque de Senlis. – Décoration intérieure de la cathédrale en 1238. – Construction du transept ; date des travaux ; étude des colonnes et voûtes subsistant du <num>xiii<hi rend="sup">e</hi></num> siècle ; le transept dut être achevé en 1240-1245. – Construction de la flèche du clocher sud (1230-1250).</p>
@@ -85,7 +83,7 @@
           <p><num>xiv<hi rend="sup">e</hi></num> siècle. – Travaux d’entretien. A la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, Pierre l’Orfèvre fait élever la salle capitulaire et la bibliothèque.</p>
           <p><num>xv<hi rend="sup">e</hi></num> siècle. – Des ouragans et incendies dévastent les combles <pb source="https://nakala.fr/10.34847/nkl.7dbemptn#c915efd54d209d95994efde289ecc661c58ca47d" n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dbemptn/c915efd54d209d95994efde289ecc661c58ca47d/full/full/0/default.jpg"/> (1412-13). Le trésor au <num>xv<hi rend="sup">e</hi></num> siècle. – Fonte de cloches (fin du <num>xv<hi rend="sup">e</hi></num> siècle). – Réfection des layettes (1497). La chapelle du Bailli au sud du chœur construite vers 1465.</p>
         </div>
-        <div>
+        <div xml:id="r306379">
           <head rend="uc">Chapitre IV
            <lb/>La cathédrale de 1504 à la Révolution</head>
           <p>Incendie de juin 1504 : clocher ébranlé, grandes voûtes effondrées, croisillons détruits. Expertises terminées le 10 juillet 1504.</p>
@@ -95,7 +93,7 @@
           <p><num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles. – Le trésor s’enrichit de bijoux et d’œuvres d’art. Entretien de la construction. En 1671, on élève la grande chapelle au nord du chœur. En 1751, <pb source="https://nakala.fr/10.34847/nkl.7dbemptn#0ffcca21e912bc0e97f8375a51084d0338cb29ed" n="4" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dbemptn/0ffcca21e912bc0e97f8375a51084d0338cb29ed/full/full/0/default.jpg"/>on abat le porche. – 1767, nouveau classement des archives. On démolit le jubé. – Dans le troisième quart du <num>xviii<hi rend="sup">e</hi></num> siècle, l’architecte est Brossart.</p>
           <p>En 1777, on blanchit la cathédrale à la chaux. – En 1783-89, on restaure et décore entièrement le chœur.</p>
         </div>
-        <div>
+        <div xml:id="r306428">
           <head rend="uc">Chapitre V
            <lb/>Notre-Dame de la Révolution à nos jours</head>
           <p>En 1791, Notre-Dame est l’unique église de Senlis conservée au culte ; on l’orne des débris pris aux autres églises. En 1793-95, elle devient une salle de réunion, puis un magasin à fourrages. Mutilation des portails.</p>
@@ -103,9 +101,9 @@
           <p><num>xix<hi rend="sup">e</hi></num> siècle. – Travaux de restauration sous la direction d’architectes comme MM. Ramée, Verdier, Duthoit, Poldevin. La cathédrale est classée en 1838 comme monument historique. – En 1846, le sculpteur Robinet restaure les statues du portail ouest. – En 1847, Ramée élève la chapelle de la Vierge. – En 1866-67, on reconstruit la sacristie polygonale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r306452">
         <head rend="uc">Deuxième partie</head>
-        <div>
+        <div xml:id="r306458">
           <head rend="uc">Chapitre premier
            <lb/>plans</head>
           <p>Ordre adopté pour la description : intérieur, extérieur.</p>
@@ -113,7 +111,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.7dbemptn#8ef133b57d1b6d7aa6b6c5923591da75237703f5" n="5" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dbemptn/8ef133b57d1b6d7aa6b6c5923591da75237703f5/full/full/0/default.jpg"/>
           <p>Plan an <num>xii<hi rend="sup">e</hi></num> siècle ; les modifications qu’on lui a fait subir pour arriver au plan actuel : on ajoute un transept au <num>xiii<hi rend="sup">e</hi></num> siècle, des chapelles latérales aux <num>xiv<hi rend="sup">e</hi></num> et XV<hi rend="sup">e </hi>siècles, une salle capitulaire à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, la chapelle au sud du chœur vers 1465, et celle au nord (167 ’1). – Incendie et travaux de restauration au <num>xvi<hi rend="sup">e</hi></num> siècle. – Au <num>xix<hi rend="sup">e</hi></num> siècle, construction de la chapelle de la Vierge.</p>
         </div>
-        <div>
+        <div xml:id="r306521">
           <head rend="uc">Chapitre II
            <lb/>La nef</head>
           <p>Description de la nef et des bas-côtés.</p>
@@ -121,13 +119,13 @@
           <p>Les bas-côtés du <num>xii<hi rend="sup">e</hi></num> siècle sont couverts de tribunes de même date ; ils sont doublés de trois travées du <num>xvi<hi rend="sup">e</hi></num> siècle. – Il reste des témoins d’une porte latérale du <num>xii<hi rend="sup">e</hi></num> siècle dans le bas-côté sud.</p>
           <p>La salle capitulaire (fin du <num>xiv<hi rend="sup">e</hi></num> siècle) au nord de la nef communiquait avec la cathédrale par une porte à l’est, et non au sud comme aujourd’hui. – La bibliothèque.</p>
         </div>
-        <div>
+        <div xml:id="r306578">
           <head rend="uc">Chapitre III
            <lb/>Le transept</head>
           <p>Description du carré du transept et des croisillons. – Il date du <num>xiii<hi rend="sup">e</hi></num> siècle, mais a été reconstruit au <num>xvi<hi rend="sup">e</hi></num>. Des témoins du <num>xiii<hi rend="sup">e</hi></num> siècle, dans les chapelles à l’est des croisillons, montrent qu’à cette époque, le transept s’avançait aussi loin qu’aujourd’hui. – Les croisillons du <num>xiii<hi rend="sup">e</hi></num> siècle n’étaient pas doublés à l’ouest.</p>
           <p>Pourquoi il ne devait pas y avoir d’arcs-boutants, au <num>xii<hi rend="sup">e</hi></num> siècle, à la cathédrale de Senlis.</p>
         </div>
-        <div>
+        <div xml:id="r306623">
           <pb source="https://nakala.fr/10.34847/nkl.7dbemptn#7b0e869fe103103cfbd573b957286395898d7975" n="6" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dbemptn/7b0e869fe103103cfbd573b957286395898d7975/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le choeur</head>
@@ -143,7 +141,7 @@
           <p>La porte d’escalier de la tourelle nord-est se trouvait au <num>xii<hi rend="sup">e</hi></num> siècle dans le rudiment de transept nord. Celui-ci était inachevé lors de la dédicace (1191) ; il a été bouché au <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Des tribunes couvrent tout le collatéral du chœur ; on avait projeté au <num>xii<hi rend="sup">e</hi></num> siècle d’en mettre sur les rudiments de croisillons, mais elles ne furent jamais exécutées. – Deux portes donnent dans le vide au-dessus des chapelles du Sacré-Cœur et de Saint-Simon.</p>
         </div>
-        <div>
+        <div xml:id="r306736">
           <pb source="https://nakala.fr/10.34847/nkl.7dbemptn#604ad0a96d94df51cc3d9a68d4ce557d4f0dc127" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dbemptn/604ad0a96d94df51cc3d9a68d4ce557d4f0dc127/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Façade ouest</head>
@@ -156,7 +154,7 @@
           <p>La tour du nord est plus ancienne que celle du sud. – Ingénieuse décoration des portes latérales. – Dans la salle voûtée au-dessus de la voûte du <num>xii<hi rend="sup">e</hi></num> siècle de la nef, sur laquelle s’ouvre la rose, est un exemple de pénétration de moulures de la fin du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Le clocher sud comprend deux campagnes de construction : la tour est du <num>xii<hi rend="sup">e</hi></num> siècle, la flèche et le tambour octogonal qui la précède sont du deuxième quart du <num>xiii<hi rend="sup">e</hi></num> siècle. – Beauté de la flèche ; étude de quelques types dont elle dérive : cathédrale de Chartres (clocher sud), d’Auxerre, collégiale de Saint-Denis, etc.</p>
         </div>
-        <div>
+        <div xml:id="r306804">
           <pb source="https://nakala.fr/10.34847/nkl.7dbemptn#81003f58bdc4b8f64ab000ba39592dda5b5347fa" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.7dbemptn/81003f58bdc4b8f64ab000ba39592dda5b5347fa/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Façades latérales</head>
@@ -166,7 +164,7 @@
           <p>Le portail du croisillon sud, richement sculpté, était orné de nombreuses statues, aujourd’hui disparues.</p>
           <p>A la croisée du transept s’élevait une lanterne hexagonale.</p>
         </div>
-        <div>
+        <div xml:id="r306851">
           <head rend="uc">Chapitre VII
            <lb/>Accessoires</head>
           <p>Autels. – Restes d’une pierre d’autel et d’une piscine du <num>xiii<hi rend="sup">e</hi></num> siècle dans les tribunes du collatéral du chœur. – Reliques : liste donnée par Afforty.</p>

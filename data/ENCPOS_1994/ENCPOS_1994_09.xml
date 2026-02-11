@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,37 +56,37 @@
         <forename>Judith</forename>
         <surname>Ducourtieux</surname>
       </byline>
-      <div>
+      <div xml:id="r1241691">
         <head rend="uc">Introduction</head>
         <p>L’édition des chartes en langue française conservées aux Archives départementales du Doubs s’inscrit dans la publication par J. Monfrin des <hi rend="i">Documents linguistiques de la France, série française,</hi> et prend la suite de l’édition réalisée par M. Lefèvre des chartes antérieures à 1260 conservées dans ce même dépôt.</p>
       </div>
-      <div>
+      <div xml:id="r1241705">
         <head rend="uc">Sources</head>
         <p>Les textes proviennent essentiellement de la série B, et plus particulièrement du Trésor des chartes des comtes de Bourgogne. Les séries E (titres de famille), G (clergé séculier) et H (clergé régulier) ont fourni quelques documents. Des vidimus, réalisés en 1306 par la prévôté de Paris, au moment de la cession du comté de Bourgogne au roi de France, permettent de compléter les textes en mauvais état. Les cent quarante-deux chartes en langue française ainsi réunies sont pour la plupart inédites, mises à part certaines d’entres elles publiées avec le cartulaire où elles étaient transcrites (<hi rend="i">Cartulaire des comtes de Bourgogne, Cartulaire d’Hugues de Chalon</hi>).</p>
-        <div>
+        <div xml:id="r1241718">
           <pb source="https://nakala.fr/10.34847/nkl.e8edl84z#9b5f1c7114322870fc879015f7550425fce2b381" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8edl84z/9b5f1c7114322870fc879015f7550425fce2b381/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>les auteurs des actes</head>
           <p>Les auteurs des chartes, essentiellement des laïques, sont très variés, seigneurs du comté de Bourgogne ou des régions voisines, comme Hugues IV, duc de Bourgogne, Thibaud IV, comte palatin de Champagne et de Brie, Ferry, duc de Lorraine. Jean de Chalon « l’Antique », comte de Bourgogne et seigneur de Salins, et les comtes palatins de Bourgogne, Hugues et Alix, apparaissent plus souvent comme destinataires des actes que comme auteurs. Ces actes sont fréquemment passés sous les sceaux des archevêques de Besançon, Guillaume de la Tour-Saint-Quentin puis Eudes de Rougemont, ou des abbés comtois, abbés de Cherlieu, Rosières, Saint-Vincent et Saint-Paul de Besançon, la Charité, Goailles, Lieucroissant ou Bellevaux.</p>
         </div>
-        <div>
+        <div xml:id="r1241735">
           <head rend="uc">Chapitre II
            <lb/>La nature des actes</head>
           <p>Les actes sont en majorité des reprises en fief au bénéfice des comtes palatins de Bourgogne, reprises en fief de terres mais aussi d’eau salée, la <hi rend="i">muire,</hi> provenant des puits de Salins, de Lons-le-Saunier ou de Grozon. L’activité des salines apparaît comme très importante pour la vie économique de la région. Les actes de vente sont nombreux, tout comme les mises en gage de terre par les seigneurs impécunieux (Hugues de Neublans, Simon de Joinville) auprès des prêteurs sur gage du comté, juifs ou lombards, mises en gage souvent garanties par les comtes de Bourgogne. Un groupe important de textes concerne le règlement de la succession de Jean de Chalon « l’Antique » et les problèmes de succession du comté de Bourgogne, ainsi que les relations entre le comté de Bourgogne et les régions voisines (Champagne, duché de Bourgogne, Lorraine).</p>
         </div>
-        <div>
+        <div xml:id="r1241751">
           <head rend="uc">Chapitre III
            <lb/>L’usage du français</head>
           <p>Le français est utilisé par les chancelleries du comte de Bourgogne et des comtes palatins depuis le milieu du XIII’ siècle. Après une progression rapide, dans la décennie 1250-1260, le nombre de textes rédigés en français reste constant dans la décennie suivante, au témoignage des cartulaires rédigés dans le comté de Bourgogne et d’après le nombre d’originaux conservés. En 1260, en effet, le français a gagné la plupart des actes qui étaient susceptibles de l’être, et son usage ne progresse plus.</p>
         </div>
-        <div>
+        <div xml:id="r1241763">
           <pb source="https://nakala.fr/10.34847/nkl.e8edl84z#b696da85b14ebc2f0d0c606e069bb5da5bfaf929" n="67" facs="https://api.nakala.fr/iiif/10.34847/nkl.e8edl84z/b696da85b14ebc2f0d0c606e069bb5da5bfaf929/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>La langue des chartes</head>
           <p>La langue des actes apparaît comme assez composite, marquée par les traits dialectaux de l’est, mais sans que ce soit une règle générale. L’influence du franco-provençal est perceptible dans de nombreux textes, mais l’origine géographique exacte de leurs auteurs reste difficile à déterminer. Il n’est qu’un seul texte où le franco-provençal semble prédominer sur la langue d’oïl. Ainsi, alors qu’aujourd’hui le sud de la Franche-Comté appartient au domaine du franco-provençal, l’usage de cette langue au <num>xiii<hi rend="sup">e</hi></num> siècle apparaît plus restreint, au moins chez les auteurs des actes écrits conservés aux Archives départementales du Doubs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1241787">
         <head rend="uc">Édition</head>
         <p>L’édition des cent quarante-deux chartes en langue française repose sur les principes qui sont en vigueur dans la collection des <hi rend="i">Documents linguistiques de la France.</hi></p>
         <p>Elle est accompagnée d’un glossaire.</p>

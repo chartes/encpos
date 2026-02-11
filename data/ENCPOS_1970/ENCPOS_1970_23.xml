@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_23" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_23" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,32 +55,32 @@
         <forename>Jacques</forename>
         <surname>Perot</surname>
       </byline>
-      <div>
+      <div xml:id="r929347">
         <head rend="uc">Avant-propos</head>
         <p>Situé à une douzaine de kilomètres de Metz, le village d’Ogy se trouve, dans ces régions du plateau lorrain qui depuis longtemps ont été consacrées à la culture des céréales. Il n’est donc pas étonnant d’y trouver des exploitations importantes, qui profitaient de la proximité de Metz pour l’écoulement de leur production. Deux fermes ont été plus particulièrement étudiées, l’une appartenant à l’hôpital Saint-Nicolas de Metz, l’autre à la famille Baudouin, de la bourgeoisie protestante messine.</p>
         <p>Les limites chronologiques de cette étude recouvrent une période longue de trois siècles, afin de pouvoir observer l’évolution de ces exploitations. Elles ont, en outre, l’avantage d’inclure la guerre de Trente ans et de permettre ainsi de mesurer ses conséquences pour un petit village du pays messin.</p>
       </div>
-      <div>
+      <div xml:id="r929360">
         <head rend="uc">Sources</head>
         <p>Les archives de l’hôpital Saint-Nicolas de Metz, qui se trouvent dans la série H supplément des Archives départementales de la Moselle, ont formé la source principale de ces recherches, la seconde source importante étant le fonds Jacquinot de Vaudreville. Ce fonds d’archives privées rassemble un grand nombre de documents relatifs à la ferme possédée par la famille Baudouin, puis par la famille Jacquinot de Vaudreville, à Ogy.</p>
       </div>
-      <div>
+      <div xml:id="r929370">
         <pb source="https://nakala.fr/10.34847/nkl.f0f3knzd#0bd9f3a903dfb0d6e0893fcd053c14ec0521a9a6" n="180" facs="https://api.nakala.fr/iiif/10.34847/nkl.f0f3knzd/0bd9f3a903dfb0d6e0893fcd053c14ec0521a9a6/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les terres</head>
-        <div>
+        <div xml:id="r929383">
           <head rend="uc">Chapitre premier
            <lb/>le cadre géographique et administratif</head>
           <p>Le plateau lorrain est un ensemble de hautes terres qui s’appuie au nord et à l’est sur les massifs anciens de l’Ardenne et des Vosges. Il domine à l’ouest et au sud la plaine de Champagne et le bassin de la Saône. Ogy se trouve dans la partie orientale du plateau lorrain, à l’est de la vallée de la Moselle. Les formations calcaréo-marneuses qui y prédominent sont favorables à la culture des céréales, qui remplaça de bonne heure la forêt. Le climat y est assez rude, l’amplitude thermique annuelle étant d’environ vingt-sept degrés centigrades.</p>
           <p>Dans le pays messin, Ogy se trouvait à la limite du Haut Chemin et du Saulnois. Il fit ensuite partie du bailliage de Metz, après l’occupation française. Ses habitants profitaient de la proximité de l’importante route de Metz à Saint-Avold.</p>
         </div>
-        <div>
+        <div xml:id="r929398">
           <head rend="uc">Chapitre II
            <lb/>Seigneuries et redevances</head>
           <p>Le cadre seigneurial des fermes était assez varié, puisqu’il n’était pas rare qu’une exploitation comprît des terres sur une dizaine de bans différents. La seigneurie d’Ogy appartenait à trois coseigneurs qui s’en partageaient les revenus. Ceux-ci étaient le seigneur de Puche (actuellement annexe de la commune d’Ogy), l’hôpital Saint-Nicolas de Metz et le seigneur d’Aubigny. Jusqu’en 1577, le fief de Puche appartint à l’abbaye de Neufmoutiers (Sarre). Il fut ensuite attribué à l’ordre de Malte qui y possédait aussi une ferme importante.</p>
           <p>Les droits seigneuriaux ne semblaient pas peser très lourdement sur les laboureurs, beaucoup étant d’un montant devenu symbolique. La dîme, qui se prélevait à la onzième partie, était, en revanche, une charge plus importante. Une grande place était tenue, enfin, par les impôts royaux qui grevaient très lourdement les revenus des laboureurs.</p>
         </div>
-        <div>
+        <div xml:id="r929413">
           <pb source="https://nakala.fr/10.34847/nkl.f0f3knzd#29318c870911d300f6c9890cc7497961fbdc4a02" n="181" facs="https://api.nakala.fr/iiif/10.34847/nkl.f0f3knzd/29318c870911d300f6c9890cc7497961fbdc4a02/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La structure matérielle des fermes</head>
@@ -90,13 +88,13 @@
           <p>Toutes les parcelles, qui prenaient la forme de champs ouverts et allongés, se trouvaient à moins de deux kilomètres des maisons de ferme. Seuls les prés, qui représentaient 12 % à 15 % de la surface totale, pouvaient en être éloignés de plus de quatre kilomètres, les meilleurs se trouvant dans la vallée de la Nied française.</p>
           <p>A partir du <num>xviii<hi rend="sup">e</hi></num> siècle on remarque un certain nombre de tentatives de remembrement sous la forme d’échanges entre propriétaires. Les laboureurs pratiquaient aussi des échanges par accord tacite, sans que ceux-ci donnent lieu à des transferts de propriété.</p>
         </div>
-        <div>
+        <div xml:id="r929442">
           <head rend="uc">Chapitre IV
            <lb/>Bâtiments et jardins</head>
           <p>Construits dans le village même, les bâtiments agricoles prenaient la forme habituelle des maisons lorraines et messines. Le corps de logis formait un rectangle dont la façade principale était le petit côté. Outre les chambres, il comprenait les différents abris pour les animaux, tels que bergeries et marcairies (étables). Les vastes écuries étaient construites sous la même forme. Les fermes comptaient aussi une ou deux granges.</p>
           <p>On trouvait derrière chaque ferme un jardin, un verger ou « pré à bois » et une chènevière. Parmi les cultures pratiquées, on remarque les pois et les lentilles. A la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, un espace était réservé à celle des pommes de terre. Parfois les fermiers cultivaient aussi quelques lignes de vignes.</p>
         </div>
-        <div>
+        <div xml:id="r929463">
           <head rend="uc">Chapitre V
            <lb/>L’exploitation des terres</head>
           <p>L’assolement triennal était pratiqué à Ogy dès début du <num>xv<hi rend="sup">e</hi></num> siècle. Son utilisation était obligatoire et les baux rappelaient tous l’interdiction de désaisonner. La première sole était consacrée aux blés dits d’hiver, que l’on semait à l’automne (froment et méteil). On trouvait sur la seconde les blés de printemps ou « marsages » (avoine, orge, fèves, navettes, lentilles, vesses). La troisième était laissée en jachère pendant une année. A la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, la production de blé se situait autour de douze quintaux à l’hectare.</p>
@@ -105,16 +103,16 @@
           <p>Le problème du fourrage a toujours tenu une grande place, car on ne pouvait trop étendre les prés sans réduire les emblavures. Si, à partir de la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, on vit apparaître quelques prairies artificielles, celles-ci ne prirent cependant pas une grande importance avant le <num>xix<hi rend="sup">e</hi></num> siècle. Les laboureurs devaient se contenter du foin provenant des deux fauches effectuées chaque année.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r929517">
         <head rend="uc">Deuxième partie
          <lb/>Conjoncture</head>
-        <div>
+        <div xml:id="r929525">
           <head rend="uc">Chapitre premier
            <lb/>les baux</head>
           <p>Le métayage disparut de la région d’Ogy au <num>xv<hi rend="sup">e</hi></num> siècle. Il fut remplacé par les baux à loyer, dont la durée varia de trois à douze ans. Elle fut en général de douze années pendant la période stable du <num>xvi<hi rend="sup">e</hi></num> siècle, tandis que pendant la guerre de Trente ans elle tomba à trois ans seulement. Après la période de reconstruction qui s’ensuivit, elle se fixa à neuf années.</p>
           <p>Les baux étaient pour la plupart en nature. Ce n’est qu’au cours du <num>xviii<hi rend="sup">e</hi></num> siècle qu’apparurent pour certaines fermes des baux mixtes. C’est dans les baux que l’on trouve le plus grand nombre de renseignements capables d’éclairer la vie agricole. Très précis dans leurs nombreuses clauses, ils ont constitué l’une des sources les plus riches de cette étude.</p>
         </div>
-        <div>
+        <div xml:id="r929558">
           <head rend="uc">Chapitre II
            <lb/>La conjoncture</head>
           <p>La série de baux de la ferme de l’hôpital Saint-Nicolas ayant été reconstituée, tous les fermages ont été convertis en quintaux de froment, ce qui est encore actuellement la base d’évaluation des fermages. Leur évolution a ainsi pu être observée. Pour le <num>xviii<hi rend="sup">e</hi></num> siècle, on a pu la comparer avec le mouvement des fermages de la ferme de la famille Baudouin.</p>
@@ -122,7 +120,7 @@
           <p>Pendant le <num>xvi<hi rend="sup">e</hi></num> siècle, ce mouvement fut nettement ascendant. On peut cependant observer deux baisses notables, l’une après le passage de Henri II en pays messin en 1552, l’autre à la fin du siècle. Les fermages avaient repris leur mouvement ascendant lorsque survint la guerre de Trente ans, dont les conséquences se firent rapidement sentir. Au milieu du <num>xvii<hi rend="sup">e</hi></num> siècle, ils atteignaient le niveau le plus bas des trois siècles étudiés. L’exploitation des terres ne cessa, cependant, jamais complètement. La hausse reprit après la période de reconstruction et, malgré une interruption vers 1680, elle se prolongea pendant le <num>xviii<hi rend="sup">e</hi></num> siècle, en s’accentuant particulièrement. A la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, les fermages se situaient autour d’un quintal à l’hectare.</p>
           <p>Les différentes phases du mouvement des fermages qui ont été constatées s’accordent, en général, avec ce que l’on sait du mouvement général des revenus dans l’ensemble de la France.</p>
         </div>
-        <div>
+        <div xml:id="r929611">
           <head rend="uc">Chapitre III
            <lb/>Les fermiers laboureurs</head>
           <p>On remarque une profonde uniformité dans les origines des fermiers laboureurs d’Ogy. La plupart d’entre eux étaient originaires du pays messin, rares étant ceux qui venaient de régions germaniques. Ils appartenaient tous, également, au milieu agricole dans lequel ils contractaient mariage. Malgré la proximité de Metz, ils ne se mêlaient guère à sa population. Ogy étant très proche du centre protestant de Courcelles-Chaussy, qui fonctionna jusqu’à la révocation de l’Édit de Nantes, il n’est pas étonnant de relever quelques familles professant la religion réformée. Elles étaient cependant beaucoup moins nombreuses que les familles catholiques.</p>
@@ -130,7 +128,7 @@
           <p>Beaucoup de laboureurs durent quitter leurs fermes dans l’indigence totale, car ils avaient été ruinés par des gens de guerre ou des catastrophes naturelles dont les propriétaires ne tenaient pas assez compte lors du payement des fermages. Il semble que l’on assiste, dans le courant du <num>xviii<hi rend="sup">e</hi></num> siècle, à un certain appauvrissement des fermiers, parallèlement à la hausse presque constante des fermages. Ainsi, le métier de laboureur, s’il pouvait procurer une certaine puissance, impliquait de nombreux risques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r929640">
         <head rend="uc">Conclusion</head>
         <p>Cette étude a été, en définitive, plus un constat des conditions de la vie agricole qu’une histoire de leur évolution. A la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, en effet, à l’heure de la physiocratie et des nouvelles théories sur l’agriculture, les fer<pb source="https://nakala.fr/10.34847/nkl.f0f3knzd#0bfd0d481e060cdfaa26a4ec6b35a0d7897187d8" n="184" facs="https://api.nakala.fr/iiif/10.34847/nkl.f0f3knzd/0bfd0d481e060cdfaa26a4ec6b35a0d7897187d8/full/full/0/default.jpg"/>miers laboureurs ne sont pas encore des chefs d’exploitations entreprenants et modernes, mais continuent à utiliser les méthodes qui ont parfois fait la fortune de leurs prédécesseurs.</p>
         <p>Les limites chronologiques fixées ne permettent pas d’assister à la modernisation des exploitations. A la fin de l’Ancien Régime, certains indices, tels que l’introduction des prairies artificielles, annoncent cependant les transformation qui se réaliseront au cours du <num>xix<hi rend="sup">e</hi></num> siècle.</p>

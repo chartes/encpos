@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2022_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2022_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,19 +54,19 @@
         <surname>Boudier</surname>
         <roleName>diplômé de master</roleName>
       </byline>
-      <div>
+      <div xml:id="r1638974">
         <head>Introduction</head>
         <p>L’<hi rend="i">Expositio in librum Sapientiae</hi> (<hi rend="i">Commentaire sur le livre de la Sagesse</hi>) de Raban Maur, écrite entre 835 et 837, est le premier commentaire connu de la Sagesse. Bien qu’elle fasse suite à d’autres tentatives de donner une interprétation complète de ce livre, toutes celles qui l’ont précédée sont perdues, au moins depuis l’époque de Raban, comme l’atteste le prologue rédigé par celui-ci.</p>
         <p>Cette singularité a fait du commentaire de Raban la source unique pour la Sagesse de la <hi rend="i">Glose ordinaire</hi> des Livres saints qui s’élabore au <hi rend="sc">xii</hi><hi rend="sup">e</hi> siècle. L’influence de Raban sur l’exégèse de ce livre est donc primordiale durant toute la deuxième partie du Moyen Âge, même si elle reste indirecte. Son texte n’a cependant jamais fait l’objet d’une édition critique, pas plus que la majeure partie de son œuvre exégétique, alors qu’elle a marqué toute la production postérieure jusqu’à la Renaissance, voire au-delà.</p>
-        <div>
+        <div xml:id="r1639004">
           <head>Sources</head>
           <p>On compte douze manuscrits complets du <hi rend="i">Commentaire</hi>, conservés dans dix bibliothèques différentes en France, en Allemagne, en République tchèque, en Angleterre et au Vatican. Un fragment des sommaires et du début du premier livre est également conservé à Bâle, et un recueil d’<hi rend="i">excerpta</hi> patristiques de Leipzig en conserve trois passages. Tous ces témoins sont recensés dans le catalogue des œuvres de Raban établi par Raymund Kottje. Le <hi rend="i">Commentaire</hi> a été édité une première fois à Cologne en 1626-1627 et une seconde dans la <hi rend="i">Patrologie latine </hi>en 1852 d’après le texte de la première édition. Les sources indirectes sont plus nombreuses, puisque la <hi rend="i">Glose ordinaire</hi> de la Sagesse nous est connue par cent trente-neuf manuscrits et plusieurs éditions, tandis que le <hi rend="i">Repertorium biblicum </hi>de Friedrich Stegmüller dresse la liste de plusieurs dizaines de commentaires médiévaux des livres sapientiaux ou de la Sagesse seule, dont une partie utilisent la <hi rend="i">Glose</hi> comme l’une de leurs sources principales.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1639042">
         <head>Première partie
           <lb/>Raban Maur : l’auteur et son œuvre</head>
-        <div>
+        <div xml:id="r1639049">
           <head>Chapitre premier
             <lb/>Raban en son temps</head>
           <p>Raban naît dans la décennie 780 à Mayence d’une famille de la noblesse germanique. Ses parents lui donnent le nom de *<hi rend="i">Hraban</hi> (lat. <hi rend="i">Hrabanus</hi>), c’est-à-dire « corbeau », auquel son maître Alcuin ajoutera le surnom de Maur, qui était celui du disciple préféré de saint Benoît, pour marquer sa propre préférence, mais sans doute aussi par jeu de mot, l’animal de compagnie du saint étant le corbeau. Dès son plus jeune âge, en 788, il est confié par ses parents au monastère de Fulda.</p>
@@ -76,7 +74,7 @@
           <p>Son abbatiat s’accompagne de réformes urgentes, comme celle des annales nécrologiques nécessaires à la prière pour les morts, dont la crise de l’abbatiat de Ratgar avait différé la mise à jour. Raban fait aussi réaliser les premières listes complètes des moines de l’abbaye, qui montrent que sous sa férule, celle-ci en comptait déjà près de sept cents, un record pour l’époque. Il donne également une plus grande place à la liturgie dans la vie du monastère et enrichit la bibliothèque de ce dernier, dont il fait l’une des cinq plus riches de l’empire, avec celles de Saint-Gall, Reichenau, Fleury et Corbie. Enfin, il assure définitivement le rayonnement international de Fulda, qui était déjà un centre de pèlerinage en Germanie depuis 819 grâce aux reliques de saint Boniface, en faisant venir de Rome celles de quarante martyrs des premiers siècles, qu’il fait installer dans une église construite spécialement à cet effet sur l’Ugesberg et consacrée en 836.</p>
           <p>Cependant, à la faveur des troubles politiques qui suivent la mort de Louis le Pieux en 840, et de la guerre intestine opposant ses trois fils au sujet de sa succession, Fulda se divise elle aussi entre les moines, partisans de Louis le Germanique, et Raban, loyaliste et fidèle conseiller de l’aîné, Lothaire. Il finit par être mis à l’écart dans sa propre abbaye et s’exile dans une de ses dépendances, avant d’en être chassé en 841 par Louis, qui a obtenu le contrôle de Fulda après la bataille de Fontenoy-en-Puisaye la même année. Il ne retrouve de charge ecclésiastique qu’avec la mort d’Otgaire, archevêque de Mayence, en 847 : il succède à ce dernier avec l’accord de Louis, avec qui il s’est réconcilié en 845. Au contraire de son abbatiat, sa charge épiscopale lui laisse peut-être moins de temps pour écrire : il se consacre désormais presque entièrement au gouvernement de son diocèse et au soulagement des plus pauvres, comme par exemple lors de la terrible famine de 850, durant laquelle les <hi rend="i">Annales de Fulda </hi>rapportent qu’il nourrissait jusqu’à trois cents personnes par jour. Il meurt six ans plus tard, le 4 février 856, à Oestrich-Winkel, à une vingtaine de kilomètres de Mayence. Sa réputation de sainteté amena bientôt les Mayençais à lui rendre un culte et il est aujourd’hui commémoré dans le <hi rend="i">Martyrologe romain</hi> en date du 4 février, avec le titre de saint.</p>
         </div>
-        <div>
+        <div xml:id="r1639096">
           <head>Chapitre II
             <lb/>L’exégèse rabanienne</head>
           <p>Au début du Moyen Âge, aucune édition d’ensemble de la Bible latine n’existe encore et les versions qui circulent sont souvent des mélanges des premières traductions, les <hi rend="i">Vieilles latines</hi>, ou <hi rend="i">Veteres latinae</hi>, et de la Vulgate de saint Jérôme, qui n’est pas parvenue à s’imposer malgré sa plus grande qualité. Le pouvoir carolingien, ressentant la nécessité de fonder sa légitimité sur des textes dignes de confiance, conçut donc le projet de publier une édition révisée de la Vulgate, s’appuyant pour cela sur des manuscrits romains jugés meilleurs que les autres. Ce projet fut confié à Alcuin, qui réussit à obtenir un texte acceptable, quoique encore marqué par diverses contaminations. Cependant, la difficulté de certains passages rendait aussi nécessaire d’avoir à sa disposition un corpus interprétatif pour chaque livre, ce qui n’était pas encore le cas à l’époque.</p>
@@ -85,10 +83,10 @@
           <p>L’importance de Raban dans l’exégèse de son époque est soulignée peu de temps après sa mort par Notker le Bègue, qui affirme de manière péremptoire qu’il a commenté toute la Bible. En réalité, la liste de ses traités exégétiques montre qu’il entendait plutôt combler un vide et donner un commentaire aux livres qui n’en avaient pas reçu de la part d’Alcuin et du maître de ce dernier, Bède le Vénérable (672 ou 673-735), comme par exemple le livre de la Sagesse. Il met en particulier au point une nouvelle méthode pour indiquer les citations des Pères de manière rigoureuse dans ses commentaires, même si son usage n’est pas attesté dans son <hi rend="i">Commentaire sur la Sagesse</hi>, mais seulement dans quelques œuvres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1639169">
         <head>Deuxième partie
           <lb/>Sources et réception de l’œuvre</head>
-        <div>
+        <div xml:id="r1639176">
           <head>Chapitre premier
             <lb/>Les sources du <hi rend="i">Commentaire</hi></head>
           <p>Pour disposer du texte de la Sagesse, Raban s’est certainement servi du manuscrit conservé à la Bayerische Staatsbibliothek de Munich sous la cote Clm 19105 et dont le sigle est <hi rend="i">D</hi> dans l’édition de référence de la <hi rend="i">Vetus latina</hi>. S’il contient aujourd’hui un texte du <hi rend="sc">x</hi><hi rend="sup">e</hi> siècle, ce palimpseste était à l’origine une copie des livres sapientiaux (Proverbes, Cantique, Ecclésiaste, Sagesse, Ecclésiastique), peut-être réalisée au <hi rend="sc">vii</hi><hi rend="sup">e</hi> siècle, dont ne sont plus lisibles que le livre des Proverbes et un fragment de la table des chapitres de l’Ecclésiastique. Ce fragment permettant de le rattacher à la famille de sommaires appelée « <hi rend="i">Series</hi> A, <hi rend="i">forma</hi> b » dans l’<hi rend="i">editio maior</hi> de la Vulgate, il en allait donc sans doute de même pour les chapitres de la Sagesse. Or, c’est précisément cette famille qui a fourni ses tables de chapitres à Raban pour ses commentaires sur la Sagesse et l’Ecclésiastique. Si les descendants de <hi rend="i">D</hi> sont tous italiens et trop récents pour que Raban les ait connus, <hi rend="i">D</hi> lui-même est d’origine allemande ; il est donc vraisemblable que ce soit lui qui ait servi de modèle à Raban non seulement pour les sommaires, mais aussi pour le texte, puisque le <hi rend="i">Commentaire sur la Sagesse </hi>donne de ce dernier livre une version inconnue par ailleurs, mais proche de la Vulgate et de Γ, la famille de manuscrits descendant de <hi rend="i">D</hi>.</p>
@@ -97,7 +95,7 @@
           <p>Parmi les Pères de l’Église que cite ce dernier, le plus important semble être saint Augustin, tant par le nombre de citations que par le fait qu’il est le seul à être mentionné dans le premier livre et l’un des seuls à l’être dans le prologue, aux côtés de saint Ambroise et saint Jérôme, sans compter Philon. C’est aussi l’un des rares dont il imite sans doute inconsciemment le style, utilisant çà et là certaines tournures qui lui sont propres. Il semble en particulier faire sien l’art épistolaire d’Augustin dans son prologue, reprenant quelques-unes de ses formules de courtoisie. Si certaines œuvres augustiniennes sont citées directement, d’autres le sont peut-être au travers de la compilation réalisée par Eugippe, très populaire au Moyen Âge et dont un manuscrit était conservé à Fulda.</p>
           <p>Outre saint Augustin, Raban cite et utilise saint Jérôme et Cassiodore, en particulier pour les questions relatives à la canonicité de la Sagesse, mais aussi dans le corps de son commentaire. Il en va de même d’Isidore de Séville. Enfin, Bède et saint Grégoire y occupent aussi une place honorable, mais seulement dans le texte du commentaire. En dehors de ces quelques auteurs, les autres ne sont cités qu’une ou deux fois, pour répondre à un besoin ponctuel.</p>
         </div>
-        <div>
+        <div xml:id="r1639279">
           <head>Chapitre II
             <lb/>La réception de l’œuvre</head>
           <p>Le premier texte à utiliser le commentaire de Raban est la <hi rend="i">Glose ordinaire</hi>. Réalisée à la fin du <hi rend="sc">xii</hi><hi rend="sup">e</hi> siècle, elle s’impose rapidement au début du <hi rend="sc">xiii</hi><hi rend="sup">e</hi> siècle, à l’occasion de l’essor des universités, comme une référence incontournable dans le domaine de l’exégèse. Elle est pourtant bien peu originale et son texte est presque intégralement un condensé de l’exégèse antérieure, parfois réduite à un ou deux commentaires importants. Cependant, pour la Sagesse, le choix se résumait à celui de Raban, seul existant à l’époque.</p>
@@ -107,10 +105,10 @@
           <p>Cette postérité, quoique indirecte, a fait accéder le <hi rend="i">Commentaire sur la Sagesse</hi> au plus haut rang des <hi rend="i">auctoritates</hi>, puisqu’il est souvent commenté juste après le texte biblique lui-même, notamment dans l’œuvre pseudo-bonaventurienne. Cependant, ce succès ne dura pas, puisque la fin du Moyen Âge vit émerger une exégèse plus philosophique des sapientiaux, citant moins les Pères que Platon ou Aristote. C’est par exemple le cas de Maître Eckhart, qui fait moins d’une demi-douzaine d’allusions à la <hi rend="i">Glose</hi> dans son propre <hi rend="i">Commentaire</hi>.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1639369">
         <head>Troisième partie
           <lb/>Présentation et étude des témoins du <hi rend="i">Commentaire</hi></head>
-        <div>
+        <div xml:id="r1639379">
           <head>Chapitre premier
             <lb/>Présentation des témoins</head>
           <p>Contrairement à d’autres œuvres de Raban, le <hi rend="i">Commentaire sur la Sagesse</hi> n’a connu que très peu d’éditions anciennes. La première est celle de George Colveneer dans son édition des œuvres complètes de Raban, publiée à Cologne en 1626-1627 sous le titre : <hi rend="i">Magnentii Hrabani Mauri, ex abbate Fuldensi, archiepiscopi sexti Moguntini, Opera, quae reperiri potuerunt, omnia, in sex tomos distincta</hi>. Le <hi rend="i">Commentaire sur la Sagesse</hi> occupe les pages 362 à 393 du tome III, daté de 1626. Cette édition avait été préparée par l’évêque de Saint-Omer, Jacques de Pamele, plus connu sous le nom de Pamelius, que sa mort avait empêché de terminer. Son sigle est <hi rend="i">Col</hi>.</p>
@@ -120,7 +118,7 @@
           <p>Les douze manuscrits complets du <hi rend="i">Commentaire</hi> connus à ce jour sont : les manuscrits Bibl. 75 (B V 22) et Bibl. 27 (B V 21) de la Staatsbibliothek de Bamberg, le premier datant du deuxième quart du <hi rend="sc">ix</hi><hi rend="sup">e</hi> siècle et en provenance de l’abbaye Saint-Emmeran de Ratisbonne, le second du <hi rend="sc">x</hi><hi rend="sup">e</hi> siècle et acheté par l’abbaye du Michaelsberg à Bamberg à celle d’Ebrach en Franconie, respectivement siglés <hi rend="i">B</hi> et <hi rend="i">Ba</hi> ; le manuscrit 52 (34) de la bibliothèque municipale de Dijon, siglé <hi rend="i">D</hi>, datant du <hi rend="sc">x</hi><hi rend="sup">e</hi> ou du <hi rend="sc">xi</hi><hi rend="sup">e</hi> siècle et venant de l’abbaye Saint-Bénigne ; le manuscrit 235 de la bibliothèque municipale de Grenoble, siglé <hi rend="i">G</hi>, du <hi rend="sc">xii</hi><hi rend="sup">e</hi> siècle, provenant de la chartreuse de Portes dans l’Ain ; les manuscrits de la Bayerische Staatsbibliothek cotés Clm 13048 et Clm 14556, tous deux issus de la région de Ratisbonne, datés respectivement du <hi rend="sc">xii</hi><hi rend="sup">e</hi> siècle et de 1474, et siglés <hi rend="i">M</hi> et <hi rend="i">Mo</hi> ; le manuscrit Laud. Misc. 390 de la Bodleian Library à Oxford, siglé <hi rend="i">O</hi>, du <hi rend="sc">xi</hi><hi rend="sup">e</hi> siècle, en provenance de la chartreuse de Mayence ; le manuscrit 1274 (VII D 8) de la Národní knihovna České republiky à Prague, siglé <hi rend="i">P</hi>, datant du <hi rend="sc">xiv</hi><hi rend="sup">e</hi> siècle et provenant de Český Krumlov en Bohême – y manquent le prologue et la table des chapitres – ; le manuscrit coté HB VII 45 de la Württembergische Landesbibliothek à Stuttgart, siglé <hi rend="i">S</hi>, remontant au <hi rend="sc">ix</hi><hi rend="sup">e</hi> siècle et venant peut-être de l’abbaye de Reichenau ; le manuscrit 42 de la bibliothèque municipale de Troyes, siglé <hi rend="i">T</hi>, de la seconde moitié du <hi rend="sc">xii</hi><hi rend="sup">e</hi> siècle, provenant de l’abbaye de Clairvaux ; le manuscrit Pal. lat. 294 de la Biblioteca apostolica vaticana, siglé <hi rend="i">V</hi>, datant du <hi rend="sc">ix</hi><hi rend="sup">e</hi> ou du <hi rend="sc">x</hi><hi rend="sup">e</hi> siècle et en provenance de l’abbaye de Lorsch ; et le manuscrit de l’Universitätsbibliothek de Wurtzbourg, coté Hs. M. p. th. f. 128, siglé <hi rend="i">Z</hi>, datant du <hi rend="sc">xii</hi><hi rend="sup">e</hi> siècle, provenant du couvent dominicain de Wurtzbourg et dépourvu de tables des chapitres.</p>
           <p>À cela, il convient d’ajouter un fragment des deux dernières tables des chapitres et du livre I, chapitre I, 1, datant du <hi rend="sc">ix</hi><hi rend="sup">e</hi> ou du <hi rend="sc">x</hi><hi rend="sup">e</hi> siècle, conservé à l’Universitätsbibliothek de Bâle sous la cote B VIII 2, Fragment 1, et siglé <hi rend="i">b</hi> ; ainsi qu’un recueil d’homélies patristiques et grégoriennes de la fin du <hi rend="sc">xiv</hi><hi rend="sup">e</hi> ou du début du <hi rend="sc">xv</hi><hi rend="sup">e</hi> siècle, conservé à l’Universitätsbibliothek de Leipzig sous la cote Cod. 324 et siglé <hi rend="i">L</hi>, qui donne en guise de sermons 90, 91 et 92, aux folios 154v à 155, trois extraits du <hi rend="i">Commentaire</hi>, tirés respectivement du livre I, chapitre III, paragraphe 1, du livre II, X, 7 et du livre I, V, 16.</p>
         </div>
-        <div>
+        <div xml:id="r1639655">
           <head>Chapitre II
             <lb/>Tradition du texte</head>
           <p>La tradition du texte, tant manuscrite qu’imprimée, remonte à un manuscrit ω sans doute produit à Fulda même et aujourd’hui perdu, sur lequel ont été copiés deux autres archétypes, α et β, qui sont à l’origine des deux familles qui partagent les témoins du texte.</p>
@@ -134,17 +132,17 @@
           <p>La localisation ancienne ou actuelle des manuscrits permet de dégager trois grandes zones de circulation, correspondant sans doute à la politique de diffusion de Raban. La plus à l’ouest, celle de δ, représente la version occidentale de β, connue à Mayence et dans l’Est de la France, ce qui permet de supposer qu’elle est issue de la copie envoyée par Raban à Otgaire, β. Mais auparavant, il avait dû la confier aux moines de Ratisbonne pour qu’ils en fassent copie, ce qui a donné lieu à la version orientale de la famille, γ. Enfin, α ne semble avoir connu de diffusion qu’au sud de Fulda.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1639845">
         <head>Quatrième partie
           <lb/>Texte et traduction</head>
         <p>Les manuscrits les plus anciens sont <hi rend="i">B</hi>, pour la famille issue de β, et <hi rend="i">S</hi> et <hi rend="i">V</hi>, pour celle issue de α. Malgré la différence notable entre leurs deux familles, ils s’accordent quelquefois entre eux contre le reste de la tradition. C’est donc sur leur accord qu’est fondée l’édition du texte. Lorsque les trois ne donnent pas la même leçon, un accord <hi rend="i">BS</hi> ou <hi rend="i">BV</hi> suffit, mais lorsqu’il s’agit d’un désaccord entre α et β, il a été traité au cas par cas. Cependant, β a été en général privilégié, son texte biblique étant plus proche de la Vulgate et ses leçons souvent meilleures que celles de α. En outre, c’est son texte qui est le mieux représenté et il est probable qu’il s’agisse de la version adressée à Otgaire. Toutefois, il paraît préférable à quelques endroits de privilégier α, par exemple lorsqu’il donne une version d’une citation plus proche de l’original ou lorsque sa leçon reflète mieux le style de Raban que celle de β.</p>
         <p>L’apparat critique donne, outre les variantes textuelles, certaines <hi rend="i">orthographica</hi> rares ou mal représentées dans la tradition et les leçons de deux homélies de Raban où il a repris des passages de son <hi rend="i">Commentaire</hi>. Il est accompagné de deux <hi rend="i">apparatus fontium</hi>, le premier des sources bibliques, le second des sources patristiques et profanes. Une traduction en français est donnée en regard du texte latin.</p>
       </div>
-      <div>
+      <div xml:id="r1639891">
         <head>Pièces justificatives</head>
         <p>Sermon 91 du manuscrit <hi rend="i">L</hi>. — Sommaire de la première partie du manuscrit <hi rend="i">L</hi>. — Édition paléographique de <hi rend="i">Ba<hi rend="sup">2</hi></hi>. — Version de l’<hi rend="i">Expositio in librum Iudith</hi> dans le manuscrit <hi rend="i">Mo</hi>.</p>
       </div>
-      <div>
+      <div xml:id="r1639923">
         <head>Annexes</head>
         <p>Comparaison des titres de chapitres du <hi rend="i">Commentaire sur la Sagesse</hi> et de ceux de la « <hi rend="i">Series</hi> A, <hi rend="i">forma</hi> b ». — Liste des variantes du texte de la Sagesse dans le <hi rend="i">Commentaire</hi> par rapport à la <hi rend="i">Vetus latina</hi> et à la Vulgate. — <hi rend="i">Stemmata</hi> de la sous-famille π.</p>
       </div>

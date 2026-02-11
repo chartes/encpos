@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1976_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1976_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,23 +56,23 @@
         <surname>Botlan</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1012657">
         <head rend="uc">Introduction</head>
         <p>Les domestiques parisiens du <num>xviii<hi rend="sup">e</hi></num> siècle forment un groupe mal connu. Leur grand nombre (entre 40 000 et 50 000 personnes à la fin du siècle), le caractère transitoire de leur condition, l’ambiguïté du terme même de « domestique » sont des obstacles importants à leur connaissance.</p>
         <p>S’appuyant néanmoins sur l’étude d’un statut juridique particulier, sur des pratiques salariales cohérentes et un corps de doctrine élaborés sur la base de la définition sans cesse plus précise du personnage, on peut étudier les domestiques parisiens dans leurs différents aspects (origines géographiques et sociales, mobilité dans la ville et dans le travail), et apprécier leurs possibilités d’ascension sociale et d’enracinement dans la société urbaine. Le cadre géographique et chronologique de Paris et de la crise économique de la fin de l’Ancien Régime permet de saisir plus facilement les effets multiples du gonflement des dépenses somptuaires, dont les domestiques sont un des éléments.</p>
       </div>
-      <div>
+      <div xml:id="r1012676">
         <head rend="uc">Sources</head>
         <p>Le fonds privilégié pour l’étude de domestiques est celui du Châtelet de Paris. Les procès criminels (Y 10316 à 10501) couplés avec ceux du Parlement (X<hi rend="sup">2a</hi> 882-897 et X<hi rend="sup">2b</hi> 1075-1088), les minutes d’un commissaire du quartier Saint-Germain (Y 14568 à 14584), les procès-verbaux d’apposition de scellés après décès (Y 10719 à 16022) complétés par les inventaires après décès corres<pb source="https://nakala.fr/10.34847/nkl.c5a5lhot#89b3d7aecec9a76aa30e917a796e93ebc9f3d511" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5a5lhot/89b3d7aecec9a76aa30e917a796e93ebc9f3d511/full/full/0/default.jpg"/>pondants conservés dans les archives des notaires, ont constitué l’essentiel de la documentation. Des éléments statistiques ont pu en outre être tirés de l’inventaire 450 des Archives nationales (inventaire alphabétique des accusés au Parlement) et de la sous-série DC<hi rend="sup">6</hi> des Archives de Paris (testaments insinués utiles pour les mentions des gages : DC<hi rend="sup">6</hi> 252-265).</p>
         <p>A la Bibliothèque nationale, la collection Joly de Fleury a été de quelque utilité (mss. 21800 et 21801 [Police des domestiques, Bureaux de confiance], 2489 et 2490 [Compte de la maison du président Orner Joly de Fleury, 1768-1774]).</p>
         <p>La réserve des imprimés, de même que la Bibliothèque historique de la Ville de Paris, ont fourni un certain nombre d’ouvrages de moralisation et de pamphlets.</p>
         <p>Enfin, le parti constant a été pris de comparer les apports, pour telles ou telles questions soulevées, des sources d’archives et des sources littéraires, populaires et savantes, au confluent desquelles se trouvent effectivement les domestiques.</p>
       </div>
-      <div>
+      <div xml:id="r1012716">
         <head rend="uc">Première partie
          <lb/>Les conditions du service domestique à Paris
          <lb/>à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r1012732">
           <head rend="uc">Chapitre premier
            <lb/>le statut juridique</head>
           <p><hi rend="i">A la recherche d’un statut juridique original.</hi> – La police et la justice se disputent la tâche de fixer les limites du service domestique, entre la servitude d’un côté et l’esclavage de l’autre. Les idées philanthropiques nouvelles servent de justification à la définition d’une subordination modérée, à la base de laquelle sont des valeurs telles que raison, nature, confiance mutuelle. Ces valeurs sont essentiellement conservatoires de l’ordre juridique et social existant et du rapport de dépendance du domestique à l’égard de son maître.</p>
@@ -85,7 +83,7 @@
           <p>Au plan civil, la conception romaine et matérialiste du louage d’ouvrage l’emporte. C’est un indice de la salarisation des travailleurs domestiques dès les années 1750-1760. Désormais, les gages sont à la base du rapport entre maître et serviteur. En contrepartie, les privilèges du domestique sont faibles : créance privilégiée d’un an de gages, responsabilité civile (limitée) du maître en cas de conflit, insaisissabilité (contestée) des gages.</p>
           <p><hi rend="i">L’application des lois et ses problèmes.</hi> – La justice appliquée aux domestiques se montre à la fin du siècle de plus en plus expéditive. La proportion de procès portés au Parlement se raréfie si bien que le nombre de procès jugés souverainement au Châtelet l’emporte constamment dans les années 1780. Néanmoins, les sentences de Plus Ample Informé occupent dans l’ensemble plus de 40 % du total. La justice dans ses fondements est urbaine : le bannissement est prononcé dans le tiers des cas, pour atteindre les deux cinquièmes à la fin de l’Ancien Régime. Sa sévérité s’accroît en proportion, tant pour la durée des bannissements que pour la baisse des mises hors de cour et des Plus Ample Informé. La peine de mort, quant à elle, est prononcée dans 12 à 22 % des cas, avec pourtant une chute dans les années précédant immédiatement la Révolution. Le Parlement confirme ce genre de sentences dans une <pb source="https://nakala.fr/10.34847/nkl.c5a5lhot#cf1ecad68ac140b64a6d98790f88caa257a733c2" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5a5lhot/cf1ecad68ac140b64a6d98790f88caa257a733c2/full/full/0/default.jpg"/>proportion qui varie de trois quarts à la quasi-totalité. La peine de mort frappe les jeunes relativement plus que les autres. Les jugements sur cette particulière dureté, s’appuyant sur une conception statique des rapports sociaux, témoignent de la volonté de maintenir une rigueur particulière.</p>
         </div>
-        <div>
+        <div xml:id="r1012793">
           <head rend="uc">Chapitre II
            <lb/>Le salaire domestique</head>
           <p><hi rend="i">Les gages.</hi> – Ils deviennent de plus en plus nettement l’essentiel de la transaction entre le maître et son futur serviteur. Les profits annexes sont battus en brèche. Ils sont pour le domestique un relatif avantage, assurant la subsistance minimum, mais se révèlent totalement insuffisants en temps de chômage, bien plus encore si l’on tient compte des besoins créés au contact d’un monde souvent plus qu’aisé.</p>
@@ -96,7 +94,7 @@
           <p>Les sources d’archives permettent les mêmes conclusions. Elles font apparaître en outre une très nette ségrégation par sexes à l’intérieur de l’hôtel.</p>
           <p><hi rend="i">L’alimentation.</hi> – La nourriture fait incontestablement partie du salaire. A ce titre, elle ne sert qu’à l’entretien de la force de travail. L’idée prédomine que le corps du domestique ne peut que rejeter, par défaut de constitution physique, la nourriture réservée à son maître. Pain, vin et basse viande sont l’essentiel de son régime alimentaire.</p>
         </div>
-        <div>
+        <div xml:id="r1012838">
           <pb source="https://nakala.fr/10.34847/nkl.c5a5lhot#afbd62556bc0172e8990039051a39d9516998fd7" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5a5lhot/afbd62556bc0172e8990039051a39d9516998fd7/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les idées sur la domesticité</head>
@@ -106,10 +104,10 @@
           <p>La domesticité du <num>xix<hi rend="sup">e</hi></num> siècle, féminine et limitée par familles, se dessine déjà nettement à l’intérieur de projets inappliqués.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1012877">
         <head rend="uc">Deuxième partie
          <lb/>Les domestiques à Paris (1770-1790)</head>
-        <div>
+        <div xml:id="r1012885">
           <head rend="uc">Chapitre premier
            <lb/>les origines géographiques et sociales</head>
           <p><hi rend="i">Les origines géographiques.</hi> – Mise à part la région parisienne, entendue au sens large, les domestiques hommes et femmes en service à Paris sont issus d’un véritable bassin d’émigration : le tiers des domestiques accusés au Châ<pb source="https://nakala.fr/10.34847/nkl.c5a5lhot#96b41c3a5747abc2cc14e732412fc17e7c42edfe" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5a5lhot/96b41c3a5747abc2cc14e732412fc17e7c42edfe/full/full/0/default.jpg"/>telet de Paris sont issus d’une zone englobant Normandie, Picardie, Artois et Champagne. Près de la moitié des domestiques décédés à Paris en viennent. Ces proportions sont bien supérieures aux proportions habituelles pour Paris à cette époque. La part des villes dans leurs origines est de 16 %, soit le taux de population urbaine à la veille de la Révolution. La part des migrations interurbaines croît avec la distance. Cette dernière influe aussi sur la proportion de femmes venant à Paris. Celles-ci viennent à 74 % (67 % minimum) de la zone d’émigration privilégiée augmentée de la région parisienne et de la Bourgogne, contre 57 % à 60 % pour les hommes. Il est vraisemblable qu’il existe de véritables filières, géographiques et culturelles, conduisant au service domestique à Paris.</p>
@@ -117,7 +115,7 @@
           <p><hi rend="i">La qualité des migrations.</hi> – Les sources littéraires témoignent de la diversité des attitudes. L’optimisme ne peut se concevoir que dans le cas des hommes, à la condition que l’état du père soit suffisamment relevé. Passivité et fatalisme sont les attitudes les plus courantes.</p>
           <p>Les relais urbains, tous situés au plus près des lieux de départ, et les âges à l’arrivée à Paris (l’âge moyen se situe entre 26 et 27 ans) montrent qu’il ne peut s’agir, dans la grande majorité des cas, que d’une immigration de défaite.</p>
         </div>
-        <div>
+        <div xml:id="r1012920">
           <head rend="uc">Chapitre II
            <lb/>La mobilité intra-urbaine et professionnelle</head>
           <p><hi rend="i">Les domestiques et la topographie parisienne.</hi> – On peut, en ce qui concerne la répartition des domestiques dans Paris, distinguer deux sortes de quartiers tout à fait opposables. Le faubourg Saint-Germain, les quartiers du Palais royal, du Luxembourg, du Louvre, de Saint-Eustache, du Marais et de la place Royale abritent chacun plus de 2 000 domestiques. Ce sont les mêmes quartiers où la proportion d’hommes est toujours supérieure à la moitié. Le nombre de femmes en service varie peu d’un quartier à l’autre. Ces mêmes quartiers de tête sont ceux où la proportion de familles employant des domestiques est la plus forte : toujours plus du tiers des familles.</p>
@@ -126,7 +124,7 @@
           <p><hi rend="i">Le temps de service et le nombre de maisons.</hi> – Services longs et courts alternent sans régularité pour un même sujet. La crise aggrave cette irrégularité de l’emploi inhérente au service domestique. Le choix des conditions est totalement aléatoire. A 25 ans, un domestique a « fait » au moins cinq maisons. Il a en gros changé de maître tous les ans. Les causes de cette mobilité sont inhérentes au service domestique lui-même, comme le laissent apparaître la grande majorité des causes de renvoi : maladie, mort ou départ du maître, maladie du domestique. Il n’y a pas de lien direct entre la cause du renvoi et la comparution devant les juges du Châtelet, et il apparaît difficile de soutenir qu’il y ait une grande part de la domesticité plus mobile que l’autre. Les conditions sont à peu de choses près les mêmes pour tous.</p>
           <p><hi rend="i">Le chômage.</hi> – Plus de 60 % des domestiques comparaissant devant le tribunal criminel sont chômeurs. Leur proportion est rigoureusement liée à la conjoncture économique : les périodes les plus noires sont les années 1771-1774 (75,5 % de chômeurs), et 1785-1789 (67,4 %). Le chômage touche aussi bien ceux qui ont déjà servi à Paris que les nouveaux arrivants : un quart seulement. On peut difficilement croire qu’il y ait une dynamique du service domestique. En temps de crise, les maîtres licencient plus facilement et réembauchent à des prix moindres, souvent même sans gages. Le chômage des domestiques est chronique et s’amplifie.</p>
         </div>
-        <div>
+        <div xml:id="r1012961">
           <head rend="uc">Chapitre III
            <lb/>Les indices d’un enracinement dans la société parisienne</head>
           <p><hi rend="i">Le mariage.</hi> – Les choix des maîtres déterminent évidemment la proportion de domestiques mariés. On ne peut déceler de véritables changements dans leur attitude restrictive à ce sujet. La quasi-totalité des femmes accusées au Châtelet sont célibataires ; après 35 ans, elles restent aux deux tiers célibataires. Parmi celles qui meurent à Paris, la même proportion des deux tiers marque que si mariage il y a, il est très tardif. Les hommes se marient moins rarement : deux sur cinq meurent mariés. La fréquence du mariage augmente régulièrement au fur et à mesure qu’on s’élève dans la hiérarchie. Mais entre le moment du crime et le moment du décès, les femmes disparaissent de la scène parisienne. Pour cinq domestiques décédés à Paris, un seul est une femme.</p>
@@ -137,14 +135,14 @@
           <p><hi rend="i">La criminalité.</hi> – La proportion de procès de domestiques, tant au Châtelet qu’au Parlement, varie autour de 10 %, année commune. La part des femmes est considérable : entre le quart et le tiers des accusés domestiques. Elles sont plus nombreuses vers les classes d’âge supérieures : cinq femmes pour huit hommes au-dessus de 60 ans. Les crimes contre les personnes sont d’une fréquence exceptionnelle pour Paris : autour de 13 % des crimes poursuivis. Les caractères de cette criminalité de violences sont doubles : maintien de traits spécifiquement ruraux et reproduction de la violence subie dans le travail. Pour les vols, crimes de loin le plus fréquemment poursuivis en valeur absolue, une dualité comparable met en relief les décalages entre les moyens réels et les besoins suscités par la fréquentation, aussi lointaine qu’elle soit, d’un monde où le clinquant domine. La criminalité des domestiques, essentiellement solitaire (on note une infime minorité de procès où les domestiques sont accusés en même temps que des complices), est pour une bonne part une criminalité de reproduction caricaturale des comportements légaux de la classe employeuse de main-d’œuvre de services. Loin d’être des marginaux, les domestiques font preuve de conformisme. Ils sont au carrefour des traditions rurales de criminalité et des influences de la ville et du luxe.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1013003">
         <pb source="https://nakala.fr/10.34847/nkl.c5a5lhot#6c28230e695a921540827829aea00e96f4acfba4" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5a5lhot/6c28230e695a921540827829aea00e96f4acfba4/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>A la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, l’idée s’est complètement précisée d’une domesticité masculine et urbaine. Celle-ci forme un groupe homogène, tant du point de vue des origines géographiques, de la composition des fortunes, que du mariage ou de la criminalité. Ce qui détermine au plus haut point cette unité, c’est l’attitude d’ensemble définie et codifiée à l’égard de la domesticité tout entière.</p>
         <p>S’il fallait absolument tracer une ligne de partage, on le ferait entre hommes et femmes, dont les comportements divergent sur des points fondamentaux. Pour ces dernières, le service domestique représente bien plus nettement que pour les hommes une simple étape : restées à Paris trop longtemps, elles sont la proie de l’indigence et des tribunaux.</p>
         <p>Paradoxalement, c’est à un moment où les conditions du service domestique s’aggravent que se définit une nouvelle domesticité. La salarisation massive aura préparé la féminisation massive du <num>xix<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1013036">
         <head rend="uc">Annexes</head>
         <p>Sept cartes illustrant les origines géographiques et la mobilité intra-urbaine des domestiques. – Vingt-quatre graphiques.</p>
         <pb source="https://nakala.fr/10.34847/nkl.c5a5lhot#de91345bab9911e3c8ff5753bbbf5f0e5398b8d9" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.c5a5lhot/de91345bab9911e3c8ff5753bbbf5f0e5398b8d9/full/full/0/default.jpg"/>

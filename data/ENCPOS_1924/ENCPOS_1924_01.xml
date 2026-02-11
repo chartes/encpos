@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1924_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1924_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,17 +61,17 @@
         <head rend="uc">Introduction. – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r426049">
         <head rend="uc">Première partie
          <lb/>Le domaine comtal en Périgord</head>
-        <div>
+        <div xml:id="r426057">
           <head rend="uc">Chapitre premier
            <lb/>aperçu historique sur les comtes de Périgord
            <lb/>au <num>xiv<hi rend="sup">e</hi></num> siècle</head>
           <p>Le comté de Périgord, au moment de sa plus grande extension, occupe une superficie qui n’équivaudrait pas à celle de trois arrondissements du département actuel de la Dordogne. Les comtes de la dynastie de Talleyrand n’y exercent qu’une autorité précaire ; l’état de guerre, presque permanent dans la région, durant le <num>xiv<hi rend="sup">e</hi></num> siècle, accroît encore la confusion générale.</p>
           <p>Les comtes de Périgord au <num>xiv<hi rend="sup">e</hi></num> siècle ; rectifications chronologiques concernant principalement la date de leur mort. Hélie VII est mort avant le 25 juin 1311 ; son fils Archambaud IV, avant le 21 septembre 1334 ; Archambaud V avait succédé à son père Roger-Bernard <pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#373975b3aac255bbeb120d4ed11e228401c50bf7" n="6" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/373975b3aac255bbeb120d4ed11e228401c50bf7/full/full/0/default.jpg"/>le 14 octobre 1361 ; la fin lamentable de la dynastie de Talleyrand. Tous ces comtes sont des hommes médiocres ; entêtement dont ils font preuve dans leurs démêlés avec la ville de Périgueux. Triste célébrité acquise par Archambaud V et Archambaud VI. La maison de Périgord s’unit par des mariages à la maison d’Armagnac et à celle de Durazzo. Qualités déployées par Brunissende de Foix, veuve d’Hélie VII, dans son rôle de tutrice du jeune Archambaud IV ; le cardinal de Périgord, frère du comte Roger-Bernard, figure de premier plan. Talleyrand de Périgord, frère d’Archambaud IV ; ses qualités militaires.</p>
         </div>
-        <div>
+        <div xml:id="r426097">
           <head rend="uc">Chapitre II
            <lb/>Histoire territoriale du comté de Périgord
            <lb/>au <num>xiv<hi rend="sup">e</hi></num> siècle</head>
@@ -94,14 +92,14 @@
           <p>III. – ACCROISSEMENT TERRITORIAL sous LE RÈGNE DE JEAN LE BON ET MODIFICATIONS SURVENUES DANS LES DERNIÈRES ANNÉES DU <num>xiv<hi rend="sup">e</hi></num> SIÈCLE. – Faveur particulière, due à l’influence du cardinal de Périgord, dans laquelle le roi Jean tient Roger-Bernard. Le comte de Périgord pourvu des terres de Jean de Galard, seigneur de Limeuil et chargé de la garde du château de Montravel, enlevé à l’archevêque de Bordeaux. Les libéralités de 1356 sont tout à fait hors de proportions avec les moyens dont dispose le comte de Périgord pour faire respecter son autorité. Extension de sa suzeraineté sur les domaines de l’archevêque de Bordeaux au sud de la Dordogne, sur les terres des évêques de Périgueux et Sarlat, de plusieurs abbés de ces diocèses et d’un grand nombre de seigneurs laïcs, comme ceux de Comarque, Hautefort, La Tour Blanche. Mauvaise volonté des nouveaux vassaux du comte à s’acquitter de leur devoir ; après le traité de Brétigny, le Prince de Galles les fait inviter à le remplir ; les seigneurs d’Hautefort, les abbés de Saint-Amand et de Tourtoirac s’acquittent fidèlement de l’hommage jusqu’à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
           <p>Devenu vassal du roi d’Angleterre, Archambaud V obtient de lui confirmation de la possession de ses domaines ; son droit sur quelques-uns est sujet à contestation, enquêtes prescrites par le Prince de Galles. Le <pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#8c4fdfc435439880c3cd2cc192dc9947ee913580" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/8c4fdfc435439880c3cd2cc192dc9947ee913580/full/full/0/default.jpg"/>comte de Périgord rentre dans l’obéissance de Charles V avec autant de facilité qu’il avait accepté la suzeraineté d’Edouard III. Représailles anglaises. Au moment de sa confiscation en 1399, le comté de Périgord se compose des châtellenies de Périgueux, Auberoche, Bourdeilles, Monlignac, Vergt, Roussille, Montpont, des villes de Bénévent et Montignac-le-Petit et du Puy-de-Châlus.</p>
         </div>
-        <div>
+        <div xml:id="r426193">
           <head rend="uc">Chapitre III
            <lb/>L’entourage des comtes de Périgord, les familiers,
            <lb/>les grands officiers</head>
           <p>Le conseil des comtes de Périgord se compose de chevaliers et d’hommes de loi ; le comte siège au milieu d’eux dans les grandes circonstances, comme lors de la confirmation des coutumes de Bergerac en 1334 ; mais les familiers des comtes ont acquis surtout leur réputation par leur participation à des attaques à main armée dont la bagarre nocturne du 28 novembre 1324 à Périgueux est la plus connue et par l’aide qu’ils ont fournie à Archambaud V pour l’organisation systématique aux environs de Périgueux des pillages et des violences de la fin du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
           <p>Les attributions du chambrier, du connétable, du chambellan, sont peu connues ; le sénéchal est vraiment le lieutenant du comte, souvent chargé de missions délicates, délégué pour la réception des hommages ; sa charge ne comporte pas d’attributions d’ordre judiciaire ou financier. Parmi ces sénéchaux, Pierre de La Lande est surtout connu par le rôle qu’il a joué dans la saisie de Mussidan au profit d’Archambaud IV en 1320 ; Hugues du Cluzel reçoit à Vergt, en 1332, au nom du même comte, le bailli royal de Périgueux et le procureur de la municipalité de cette ville, venus pour notifier au comte certaines décisions provoquées par un de <pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#b399e05147a49ea54ade8be41d1d1328eb0c374c" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/b399e05147a49ea54ade8be41d1d1328eb0c374c/full/full/0/default.jpg"/>ses abus de pouvoir en matière judiciaire ; son attitude presque arrogante à l’égard d’un fonctionnaire royal fait ressortir la mauvaise volonté apportée par les comtes dans le règlement de leurs affaires avec la ville de Périgueux. Bertrand de la Roche est présent à Bergerac dans les premiers temps de l’occupation de la ville par les gens du comte de Périgord. Après 1339, il n’est plus question de lui ni des autres titulaires de la charge de sénéchal.</p>
         </div>
-        <div>
+        <div xml:id="r426221">
           <head rend="uc">Chapitre IV
            <lb/>L’administration locale</head>
           <p>Le comte de Périgord est représenté à Périgueux par un prévôt dont les attributions sont d’ordre judiciaire et financier ; le comte a des agents dans les principales localités du comté, un baïle à Montpont, Saint-Astier, un prévôt à Vergt, Roussille. Indications fournies à ce sujet par le testament du comte Hélie VII. Peu de noms d’officiers locaux nous sont parvenus : Hélie Adémar, Pierre de Cazemajou, balles de Montpont ; Raymond de Saint-Guy, Seguin de Bret, balles de Saint-Astier. Attributions de police, judiciaires et financières de ces fonctionnaires. Bien que les coutumes de Vergt mentionnent à plusieurs reprises l’existence d’un balle dans cette localité et qu’on sache positivement d’autre part que le comte y avait un prévôt, il semble qu’il doive s’agir là d’une seule et même fonction, le titulaire étant appelé indifféremment balle ou prévôt. Pierre Roque prévôt de Vergt et sa carrière dans l’administration comtale. Il est possible que le comte de Périgord ait été représenté à Bénévent par un baïle ; ce fonctionnaire n’est connu que par les mentions qui en sont faites dans les coutumes de la ville.</p>
@@ -110,7 +108,7 @@
           <p>La surveillance des forêts comtales est assurée par des sergents dits forestiers.</p>
           <p>Le comte de Périgord nomme lui-même les notaires chargés d’instrumenter à l’intérieur de son comté.</p>
         </div>
-        <div>
+        <div xml:id="r426250">
           <head rend="uc">Chapitre V
            <lb/>L’organisation militaire</head>
           <p>Elle est mal connue. Les comtes de Périgord n’ont aucun droit de requérir un service militaire des habitants de Périgueux. Ils entretiennent des garnisons dans leurs principaux châteaux ; des capitaines ou châtelains les commandent.</p>
@@ -125,7 +123,7 @@
           <p>Les principaux châteaux du comte de Périgord sont détruits par ordre du roi en 1393.</p>
           <p>Les services de guet et de garde dans ces châteaux, principalement à la Rolphie.</p>
         </div>
-        <div>
+        <div xml:id="r426300">
           <head rend="uc">Chapitre VI
            <lb/>L’exercice de la justice comtale à Périgueux
            <lb/>et dans sa banlieue</head>
@@ -136,7 +134,7 @@
           <p>III. – LA JURIDICTION DU CELLÉRIER. – Après l’échange de Bergerac (1340), le comte Roger-Bernard est mis en possession de la part royale dans la justice capitulaire dite du cellérier : il n’en jouit tranquillement qu’à l’avènement du roi Jean. La promesse faite en 1353 d’aliéner à la municipalité cette part de juridiction moyennant une rente de cinquante livres, reste lettre morte. La cour du cellérier demeure commune au comte et au chapitre jusqu’à l’adjudication des biens du comte Archambaud VI en 1398. Le personnel de cette cour ; compétence du juge, tarifs, titulaires de la fonction de juge, abus de pouvoir commis ; ce tribunal du cellérier est en réalité surveillé de très près par la municipalité.</p>
           <p>IV. – LA COUR DU PARIAGE ENTRE LES COMTES DE PÉRIGORD ET LE CHAPITRE DE SAINT-FRONT SUR LES PAROISSES DE LA BANLIEUE DE PÉRIGUEUX. – La banlieue immédiate de Périgueux, jusqu’aux limites à nouveau définies par la transaction de 1287, est du ressort de la juridiction consulaire. Les comtes ont de fréquents désaccords avec le chapitre de Saint-Front au sujet de leurs droits de justice respectifs sur les habitants d’un certain nombre de paroisses situées au sud et au sud-est de Périgueux ; <pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#70c82a9e945d37b481f3d8b3be92782911dc1c07" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/70c82a9e945d37b481f3d8b3be92782911dc1c07/full/full/0/default.jpg"/>la conclusion de l’acte de pariage de 1317 est destinée à y mettre fin et fortifie en même temps la situation du comte et du chapitre vis-à-vis de la municipalité. Principales dispositions contenues dans l’acte de pariage ; sa confirmation par l’autorité royale. Les assises de la cour du pariage se tiennent régulièrement dans la banlieue de Périgueux ; abus de pouvoir commis par les gens du comte et du chapitre, difficultés avec la municipalité et le procureur du roi. Après 1340, personnel commun à la cour du cellérier à Périgueux et à celle du .pariage dans sa banlieue.</p>
         </div>
-        <div>
+        <div xml:id="r426345">
           <head rend="uc">Chapitre VII
            <lb/>La justice comtale hors de Périgueux
            <lb/>et de la terre du pariage</head>
@@ -152,7 +150,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#eb7c21000baea577f0ee92ab432a045cf3488204" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/eb7c21000baea577f0ee92ab432a045cf3488204/full/full/0/default.jpg"/>
           <p>Ressort restreint de la juridiction comtale au <num>xiv<hi rend="sup">e</hi></num> siècle ; il y a loin des prétentions des comtes de Périgord à la réalité.</p>
         </div>
-        <div>
+        <div xml:id="r426414">
           <head rend="uc">Chapitre VIII
            <lb/>Conflits entre la justice comtale et les
            <lb/>justices épiscopale et seigneuriales</head>
@@ -166,7 +164,7 @@
           <p>VI. – RAPPORTS DES COMTES DE PÉRIGORD AVEC LA FAMILLE DITE DE PÉRIGUEUX. – Importants domaines possédés par les membres de cette famille dans le comté de Périgord ; ils ont la faculté d’y exercer toute justice ; les comtes veillent à ce que leurs agents ne mettent pas d’entraves aux droits de la famille de Périgueux.</p>
           <p>VII. – RAPPORTS DES COMTES DE PÉRIGORD AVEC LES SEIGNEURS DE CASTELNAU. – Depuis 1273, les seigneurs de Castelnau sont vassaux des comtes de Périgord. L’hommage est prêté régulièrement jusqu’en 1308 ; cependant la supériorité des comtes sur Castelnau est parfois contestée ensuite ; saisie de Castelnau par les gens du comte en 1330, difficultés avec l’autorité royale, Archambaud IV obtient gain de cause. Mauvaise volonté des seigneurs de Castelnau à l’égard de leur suzerain après 1360.</p>
         </div>
-        <div>
+        <div xml:id="r426473">
           <pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#a5e5c3f284f61179458210aeda2fff04462a2cbe" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/a5e5c3f284f61179458210aeda2fff04462a2cbe/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IX
            <lb/>Les revenus des comtes de Périgord
@@ -186,7 +184,7 @@
           <p>Depuis le <num>xiii<hi rend="sup">e</hi></num> siècle, les membres de la famille de Périgueux perçoivent dans la ville des droits qui leur ont été gratuitement aliénés par les comtes, notamment un droit de péage sur certaines marchandises.</p>
           <p>Dons en nature faits occasionnellement par la municipalité aux comtes et à leur famille.</p>
         </div>
-        <div>
+        <div xml:id="r426539">
           <head rend="uc">Chapitre X
            <lb/>Revenus tirés du domaine et ressources
            <lb/>extraordinaires</head>
@@ -209,7 +207,7 @@
           <p>XI. – RESSOURCES EXTRAORDINAIRES. – Les comtes de Périgord sont rétribués par les rois de France pour la garde de leurs forteresses aux confins des possessions anglaises ; service particulièrement rémunérateur sous Roger-Bernard, douze mille livres pour les mois d’hiver 1345-1346. En 1356, une somme mensuelle de mille livres est allouée au comte par le roi Jean ; elle est prise sur le monnayage de la monnaie de Saint-Pourçain.</p>
           <p>Le comte Archambaud V fait monnayer son adhésion au roi de France au moment de la rupture du traité de Brétigny. Charles V lui fait une pension annuelle de quarante mille francs d’or se prélevant sur les imposi<pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#eeaca167470b02c3d4df966f71f50e3a6813b6f2" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/eeaca167470b02c3d4df966f71f50e3a6813b6f2/full/full/0/default.jpg"/>tions levées dans les sénéchaussées de Toulouse, Carcassonne et Beaucaire. Part de Talleyrand, frère du comte, sur ce revenu.</p>
         </div>
-        <div>
+        <div xml:id="r426630">
           <head rend="uc">Chapitre XI
            <lb/>Notes sur certains droits exercés par les
            <lb/>comtes de Périgord : le droit de battre monnaie, le
@@ -221,18 +219,18 @@
           <p>Les droits des comtes de Périgord comme patrons laïcs sur douze chapellenies de l’église Saint-Front de Périgueux fondées par le cardinal de Périgord ; ils ont également le droit de patronage de vingt-quatre étudiants du Collège de Périgord à Toulouse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r426658">
         <head rend="uc">Deuxième partie
          <lb/>Possessions des comtes de Périgord
          <lb/>en Quercy, Toulousain, Agenais, Saintonge</head>
-        <div>
+        <div xml:id="r426668">
           <head rend="uc">Chapitre premier
            <lb/>la constitution du domaine de Quercy</head>
           <p>Elle est provoquée par les conséquences inattendues <pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#4f68ecf145fe0cb82d892764a6a43fbc5b783fed" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/4f68ecf145fe0cb82d892764a6a43fbc5b783fed/full/full/0/default.jpg"/>de l’échange de 1301 ; dépossédé deux ans plus tard des domaines que lui avait cédés Philippe le Bel en compensation de la cession des vicomtés de Lomagne et d’Auvillars, le comte de Périgord a droit à des compensations territoriales qui lui sont assignées en Quercy et en Toulousain.</p>
           <p>C’est d’abord l’assignation de Caussade, Montalzat, Molières et La Française (1304), puis de Sainte-Livrade près Moissac, Angeville et Verlhac (1305). Le comte de Périgord a la faculté d’exercer dans ces localités et leurs dépendances tous les droits qui y étaient jusque là la propriété du roi.</p>
           <p>En outre, pour parfaire l’assignation due au comte Hélie VII, il reste à employer une somme de quatre cent vingt-cinq livres de revenu ; elle lui est assise en rentes et droits divers dans les sénéchaussées de Toulouse et d’Albi, notamment aux environs des villes de Toulouse et de Cordes ; le comte de Périgord revend presque immédiatement ces rentes à des particuliers et ne conserve que quelques droits à Cordes. Cette attitude lui occasionne des difficultés de la part des officiers royaux qui ne veulent pas investir les acheteurs ; ni le comte de Périgord ni le roi de France ne sont d’ailleurs satisfaits des conséquences de l’échange de 1301 ; ils invoquent réciproquement l’inégalité de valeur des terres échangées ; enquête prescrite par Philippe le Long ; en 1317, on discute encore la question des compensations.</p>
         </div>
-        <div>
+        <div xml:id="r426691">
           <head rend="uc">Chapitre II
            <lb/>Histoire des possessions des comtes
            <lb/>de Périgord en Quercy au cours du <num>xiv<hi rend="sup">e</hi></num> siècle</head>
@@ -247,13 +245,13 @@
           <p>Exactions commises par les gens du comte de Périgord dans la perception des droits de péage à Sainte-Livrade ; enquête prescrite en 1318 à la demande des consuls de Montauban, elle fournit les plus intéressants détails sur les tarifs perçus pour le transport des marchandises par eau.</p>
           <p>IV. – VERLHAC ET ANGEVILLE. – Coutumes données en 1306 par Hélie VII aux habitants de Verlhac ; assignation de rentes faite à Boson, oncle d’Archambaud IV, sur Verlhac et Angeville en 1315.</p>
         </div>
-        <div>
+        <div xml:id="r426748">
           <head rend="uc">Chapitre III
            <lb/>Possessions des comtes de Périgord
            <lb/>en agenais</head>
           <p>Jeanne de Périgord, fille d’Archambaud III et de Marie, sa deuxième femme, reçoit en dot les terres de Lavardac, Feugarolles et Cauderoue dont sa mère avait hérité de Jeanne de Toulouse. Jeanne de Périgord est surtout connue sous le nom de dame de Lavardac. Ses domaines, livrés par elle aux ennemis du roi de France, sont reconquis et donnés en 1345 au cardinal de Périgord par le duc de Normandie. Après la mort du cardinal, Archambaud V en revendique la possession. Elle lui est attribuée sur l’ordre du duc d’Anjou (1369).</p>
         </div>
-        <div>
+        <div xml:id="r426762">
           <pb source="https://nakala.fr/10.34847/nkl.f69ajnxd#ae28eb677932153c6605e1ae7b058ef7f56e68ba" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.f69ajnxd/ae28eb677932153c6605e1ae7b058ef7f56e68ba/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Possessions du comte Archambaud V

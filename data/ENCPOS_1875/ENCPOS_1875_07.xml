@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1875_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1875_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,7 +62,7 @@
         <head rend="uc">Préface. – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r85183">
         <head rend="uc">Introduction
          <lb/>résumé de l’histoire de l’ordre.</head>
         <p>I.S. Norbert, fondateur de l’Ordre.</p>
@@ -72,11 +70,11 @@
         <p>III. Date de la canonisation de S. Norbert. – Iconographie de S. Norbert. – Enumération des premières abbayes de l’Ordre ; dates de leurs fondations.</p>
         <p>IV. Des réformes générales de l’Ordre,</p>
       </div>
-      <div>
+      <div xml:id="r85204">
         <pb source="https://nakala.fr/10.34847/nkl.ff063x1t#a4f78d6f6f3227233bff6684437e50b6acb55367" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff063x1t/a4f78d6f6f3227233bff6684437e50b6acb55367/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>De la vie claustrale des chanoines Prémontrés.</head>
-        <div>
+        <div xml:id="r85217">
           <head rend="uc">Livre I
            <lb/>de l’admission dans l’ordre</head>
           <p>I. De la prise d’habit. – Examen du novice par l’abbé. La limite d’âge de 15 ans d’abord fut reculée à 20 ans avant de revenir à 18. La connaissance du latin est exigée. Cérémonial de la prise d’habit.</p>
@@ -84,7 +82,7 @@
           <p>III. De la profession. – L’abbé confère la tonsure au profès. Cérémonial. Charte de profession ; profession des convers.</p>
           <p>IV. Des ordinations dans l’Ordre. – Erreur de Le Paige sur l’âge requis pour le diaconat et la prêtrise. Les diacres ont 25, les prêtres 30 ans au moins.</p>
         </div>
-        <div>
+        <div xml:id="r85238">
           <head rend="uc">Livre II
            <lb/>des obligations essentielles de la vie régulière</head>
           <p>1. Chasteté. – L’accès des monastères est interdit aux femmes : elles ne peuvent travailler dans les cours extérieures.</p>
@@ -92,7 +90,7 @@
           <p>III. Obéissance.</p>
           <p>IV. Silence. – Comment les chanoines en voyage peuvent le rompre, à leurs repas.</p>
         </div>
-        <div>
+        <div xml:id="r85259">
           <head rend="uc">Livre III
            <lb/>du culte et des offices</head>
           <p>I. Matines. – Introduction des Heures de la Vierge dans la liturgie de Prémontré.</p>
@@ -102,20 +100,20 @@
           <p>IV. Chapitre quotidien. – Réception des supérieurs ecclésiastiques au chapitre.</p>
           <p>V. Lecture spirituelle et Complies. – Les Prémontrés ne lisent pas dans une salle. Nouvelles prières après Complies, décrétées en 1327.</p>
         </div>
-        <div>
+        <div xml:id="r85288">
           <head rend="uc">Livre IV
            <lb/>des études et du travail des mains</head>
           <p>I. Etudes. – Les Prémontrés ont dû, dès l’origine, avoir des cours réglés d’études. – Ecrivains de l’Ordre du <num>xii<hi rend="sup">e</hi></num> au XIV<hi rend="sup">e </hi>siècle. Liste de leurs ouvrages conservés ou perdus, dates de leur mort. Fondation du collège de Paris (1252). Sa situation, ses règlements.</p>
           <p>II. Travail des mains. – Heures du travail. Les chanoines, au travail, récitent les offices en dehors du monastère.</p>
         </div>
-        <div>
+        <div xml:id="r85313">
           <head rend="uc">Livre V
            <lb/>costume et Coucher</head>
           <p>I. Costume. – Costume de chœur, pour l’été et l’hiver. – Les chanoines ne se rasent que 17 fois par an ; dates. – Costume des convers.</p>
           <p>II. Diverses modifications introduites dans le costume. – Polémique de Hugues Farsit, Métel, Adam, Chaponel. – Le costume en Espagne, en Lorraine, en Saxe.</p>
           <p>III. Coucher.</p>
         </div>
-        <div>
+        <div xml:id="r85331">
           <head rend="uc">Livre VI
            <lb/>de la nourriture et de l’Infirmerie</head>
           <p>I. Réfectoire. – Disposition du repas, heures variant selon les saisons, service.</p>
@@ -125,7 +123,7 @@
           <p>IV. Infirmerie et Minutions. – Dates des minutions ; adoucissement de la règle pendant les trois jours qui suivent.</p>
           <p>V. Bains. – Lavement des pieds en Carême.</p>
         </div>
-        <div>
+        <div xml:id="r85366">
           <head rend="uc">Livre VII
            <lb/>des abbayes Prémontrées en général et de l’abbaye
            <lb/>de Prémontré en particulier. – Ses rapports avec les
@@ -135,10 +133,10 @@
           <p>III. Rapports spirituels de l’abbaye de Prémontré avec les autres ordres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r85389">
         <head rend="uc">Deuxième partie
          <lb/>De l’administration intérieure dans l’ordre et l’abbaye.</head>
-        <div>
+        <div xml:id="r85397">
           <head rend="uc">Livre I
            <lb/>du gouvernement général des monastères</head>
           <p>4</p>
@@ -148,7 +146,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.ff063x1t#723aff2484c8b215c078d493715e3913f65d8983" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.ff063x1t/723aff2484c8b215c078d493715e3913f65d8983/full/full/0/default.jpg"/>
           <p>IV. Chronologie des premiers abbés généraux (1129-1328). Rectification des dates d’avénement et de mort de plusieurs généraux, d’après le cartulaire et les manuscrits.</p>
         </div>
-        <div>
+        <div xml:id="r85426">
           <head rend="uc">Livre II
            <lb/>du gouvernement local. Dignitaires</head>
           <p>I. Abbés. – Rôle des Pères-abbés dans leur élection : transaction de Jean VIII avec les chanoines de Vinberg (1442). – Les abbés démissionnaires ont 40 jours pour se choisir une résidence.</p>
@@ -171,7 +169,7 @@
           <p>XVII. Gardiens du sceau. – Apposition du sceau aux actes de présentation aux églises paroissiales.</p>
           <p>XVIII. Convers. – Prières qui constituent pour eux les offices.</p>
         </div>
-        <div>
+        <div xml:id="r85500">
           <head rend="uc">Livre III
            <lb/>prieurés, couvents de chanoinesses, Tiers-Ordre</head>
           <p>I. Prieurs-curés. – Bénéfices doubles dépendant de l’Ordre. Evêques Prémontrés. – Formule de présentation des chanoines aux paroisses ; le chapitre, en la vacance de l’évêché, leur peut conférer les bénéfices. – Serment du prieur-curé entre les mains de l’évêque. – Administration des revenus de la paroisse. – Le prieur-curé ne peut contracter une dette dépassant 40 sous tournois, sans l’assentiment de son abbé. – Résidence perpétuelle (décret de 1375.) Dans les cures, les chanoines sont astreints à la vie du cloître. Révocation et permutation des prieurs-curés.</p>
@@ -179,7 +177,7 @@
           <p>III. Histoire générale des couvents de chanoinesses. – La séparation des abbayes d’hommes et de femmes date de 1137 et non de 1141. – Règle particulière de Bonneuil.</p>
           <p>IV. Tiers-Ordre. – Ses premiers membres. Cérémonial de l’admission. Prières qu’ils récitent pour remplacer les heures canoniques. – Au <num>xiv<hi rend="sup">e</hi></num> siècle, ils quittent le scapulaire pour porter des médailles de plomb.</p>
         </div>
-        <div>
+        <div xml:id="r85527">
           <head rend="uc">Livre IV
            <lb/>des peines disciplinaires infligées dans l’ordre</head>
           <p>I. Fautes légères.</p>
@@ -190,7 +188,7 @@
           <p>V. Faute très-grave. – Enumération de tous les délits classés dans cet ordre et des peines encourues pour chacun d’eux. – Détails sur la peine <hi rend="i">gravioris culpæ.</hi></p>
           <p>VI. Des excommunications. – Les abbés doivent consigner par écrit le nom du coupable et la cause de la sentence.</p>
         </div>
-        <div>
+        <div xml:id="r85566">
           <head rend="uc">Livre V
            <lb/>des appels et de l’intervention des ordinaires dans les
            <lb/>affaires de l’ordre</head>

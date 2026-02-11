@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1997_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1997_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,24 +58,24 @@
         <surname>Bailly</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1294847">
         <head rend="uc">Introduction</head>
         <p>La plupart des historiens datent la naissance de l’anglomanie de 1748-1750, avant la fin de la guerre de Succession d’Autriche et la publication de <hi rend="i">L’Esprit des lois.</hi> Pourtant, si c’est bien dans la seconde moitié du siècle que ce phénomène a pris l’ampleur qu’on lui connaît, il est apparu bien avant : l’étude des périodiques de l’époque, de 1717 à 1747, permet d évaluer la pénétration progressive de la culture et de l’esprit anglais dans la société française.</p>
         <p>Ce phénomène est d’autant plus surprenant que les relations franco-anglaises sont alors marquées par de nombreuses tensions. Certes, la Régence a établi une alliance avec la Grande-Bretagne, qui dure jusqu’en 1731. Mais les mésententes sont fréquentes sut les plans tant politique qu’économique, et elles aboutissent à une guerre ouverte à propos de la succession d’Autriche.</p>
         <p>Pourtant les liens entre les « sçavans » sont toujours étroits, dans le cadre de la République des lettres. Dans la première moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, se développent divers courants de pensée marqués par les Anglais : le déisme, les théories newtoniennes, l’empirisme... L’époque est en effet au cosmopolitisme et. si Paris reste la capitale de la République des lettres, l’Angleterre devient un centre d’intérêt pour les hommes de lettres. Eu témoignent les voyages de quelques-uns des plus célèbres, comme Voltaire, Montesquieu ou l’abbé Prévost.</p>
         <p>L’étude de vingt-trois journaux savants, littéraires ou mondains, parus entre 1717 et 1747, permet de dresser un tableau de ce que le public français connaît de l’Angleterre. C’est la place de l’Angleterre dans ces périodiques qui a été <pb source="https://nakala.fr/10.34847/nkl.e311n478#979084c392a9d5a025fd0a6c1531c2e288884df5" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.e311n478/979084c392a9d5a025fd0a6c1531c2e288884df5/full/full/0/default.jpg"/>analysée, en insistant tout particulièrement sur celle de la littérature anglaise. Il a également été tenté d’en étudier les journalistes, souvent des protestants réfugiés en Angleterre ou en Hollande.</p>
       </div>
-      <div>
+      <div xml:id="r1294881">
         <head rend="uc">Première partie
          <lb/>Les journaux</head>
-        <div>
+        <div xml:id="r1294889">
           <head rend="uc">Chapitre premier
            <lb/>les journaux spécialisés sur l’Angleterre</head>
           <p>Trois périodiques sont consacrés exclusivement à l’Angleterre : ce sont la <hi rend="i">Bibliothèque anglaise</hi> (1717-1728) de Michel de La Roche et Armand de La Chapelle ; les <hi rend="i">Mémoires littéraires de la Grande-Bretagne</hi> (1720-1724) ; et la <hi rend="i">Bibliothèque britannique</hi> (1733-1747).</p>
           <p>Les deux premiers journaux ont pour ambition de présenter un panorama complet des livres anglais dans tous les domaines, mais ils sont en grande partie consacrés à la théologie et à l’histoire. Les articles relatifs au déisme, aux polémiques sur les dogmes ou sur la Trinité et à l’exégèse, sont nombreux (Toland, Whiston, Clarke ou Hoadley). C’est l’histoire moderne ou les voyages qui sont le mieux représentés parmi les articles d’histoire. La part de la littérature est, elle, presque inexistante.</p>
           <p>La <hi rend="i">Bibliothèque britannique</hi> est une entreprise collective ; mais le rôle de Pierre Des Maizeaux, protestant réfugié en Angleterre, est essentiel. Les principaux centres d’intérêt de ce journal sont l’histoire, ecclésiastique et surtout moderne, avec les travaux importants de Rapin-Thoiras ou les <hi rend="i">Mémoires</hi> de Burnet. Cette partie témoigne de la volonté de faire connaître l’Angleterre aux lecteurs français. Les articles sur des livres anglais de théologie et de philosophie portent surtout sur la métaphysique, le dogme de la Trinité ou l’exégèse. La littérature anglaise est présente, malgré un mépris affiché pour les œuvres d’imagination, en particulier les romans ; la <hi rend="i">Paméla</hi> de Richardson est pourtant mentionnée dès sa traduction française. Le principal poète cité est Alexander Pope, dont l’<hi rend="i">Essai sur l’homme</hi> et <hi rend="i">\ Essai sur la critique</hi> ne sont cependant mentionnés qu’après 1742. Enfin, on y trouve plusieurs articles sur Swift, sur quelques pièces de théâtre de Congreve, d’Otway et surtout d’Addison (<hi rend="i">Caton</hi>).</p>
         </div>
-        <div>
+        <div xml:id="r1294943">
           <head rend="uc">Chapitre II
            <lb/>Les journaux savants a vocation européenne</head>
           <p>Trois périodiques affichent dans leur titre leur ambition de rendre compte des livres de tous les savants de l’Europe : <hi rend="i">L’Europe savante</hi> (1718-1719) ; l’<hi rend="i">Histoire littéraire de l’Europe</hi> (1726-1727) ; la <hi rend="i">Bibliothèque raisonnée des ouvrages des savants de l’Europe</hi> (1728-1753).</p>
@@ -86,7 +84,7 @@
           <p><hi rend="i">Histoire littéraire de l’Europe</hi> est l’œuvre du protestant Justus van Eflen. Malgré l’importance accordée aux belles-lettres, la part de la littérature anglaise est restreinte, avec seulement un article sur le <hi rend="i">Mentor</hi> d’Addison et Steele, et les <hi rend="i">Lettres</hi> de Béat de Murait évoquant la littérature anglaise ; ce sont surtout des ouvrages anglais de théologie et de sciences qui sont cités.</p>
           <p>La <hi rend="i">Bibliothèque raisonnée</hi> lit appel à de nombreux rédacteurs, dont le juriste Jean Barbeyrac, Louis de Jaucourt, Pierre Massuet, Charles de La Motte, Pierre Des Maizeaux, Thémiseul de Saint-Hyacinthe et Armand de La Chapelle. C’est le seul des trois périodiques à réaliser en partie sa vocation européenne. L’Angleterre y est largement évoquée, en premier lieu par ses controverses théologiques et ses grandes entreprises historiques. Les quelques articles qui évoquent la littérature anglaise sont consacrés principalement à Pope, ainsi qu’à Milton, à Shakespeare et à quelques œuvres contemporaines, comme les <hi rend="i">Nouvelles lettres persanes</hi> de George Littleton.</p>
         </div>
-        <div>
+        <div xml:id="r1295007">
           <head rend="uc">Chapitre III
            <lb/>Les journaux protestants hollandais</head>
           <p>Cinq périodiques sont l’œuvre de journalistes protestants : l’<hi rend="i">Histoire critique de la République des lettres</hi> (1712-1718) ; le <hi rend="i">Journal littéraire</hi> de La Haye (1713-1737) ; la <hi rend="i">Bibliothèque ancienne et moderne</hi> (1714-1727) ; les <hi rend="i">Nouvelles littéraires </hi>(1715-1720) ; la <hi rend="i">Nouvelle bibliothèque ou Histoire littéraire</hi> (1738-1744).</p>
@@ -97,30 +95,30 @@
           <p>Les <hi rend="i">Nouvelles de la République des lettres</hi> sont le grand journal de Pierre Bayle ; mais elles forment pour les années 1716-1718 une série à part, parue après une longue interruption. Les articles sur l’Angleterre sont très peu nombreux, et concernent principalement la philosophie et la théologie ; en littérature, Pope seul est évoqué.</p>
           <p>La <hi rend="i">Nouvelle bibliothèque</hi> est l’œuvre du marquis d’Argens, qui eut l’ambition de concurrencer la <hi rend="i">Bibliothèque raisonnée.</hi> La part de l’Angleterre y est importante, 21 % du total des articles, surtout centrée sur la théologie, avec des œuvres de Stackhouse, Burnet ou Warburton. l’histoire et les sciences, en particulier les <hi rend="i">Transactions philosophiques</hi> de la Société royale de Londres. En littérature, les auteurs évoqués sont ceux que préfère le marquis d’Argens, Pope surtout, et Henry Fielding, avec la seule mention dans les journaux de l’époque de son roman <hi rend="i">Joseph Andrews.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1295113">
           <head rend="uc">Chapitre IV
            <lb/>Les journaux français</head>
           <p>Parmi les journaux français, deux sont particulièrement importants : les <hi rend="i">Mémoires de Trévoux</hi> et le <hi rend="i">Journal des savants</hi> (qui a déjà été étudié dans la perspective de ses intérêts anglais). Le journal des Jésuites donne un aperçu de la production de toute l’Europe, et l’Angleterre n’est pas oubliée. Tous les domaines sont abordés : théologie, avec des ouvrages de Bentley, Gibson, Chubb, Clarke, etc. . histoire, principalement celle de l’Angleterre moderne, et récits de voyage ; philosophie, de More et Bacon à Mandeville ; les sciences, et surtout la médecine. La littérature anglaise est largement évoquée : les <hi rend="i">Mémoires de Trévoux</hi> mentionnent presque tous les auteurs connus, Pope et Gay, Milton, Shakespeare, à partir de la parution du <hi rend="i">Théâtre anglais</hi> de La Place, Ben Jonson, Otway, Steele et Swift.</p>
           <p>Trois autres journaux français sont à noter : les <hi rend="i">Nouvelles littéraires</hi> de 1723 et celles de 1723-1724, qui ne comportent presque aucune indication sur l’Angleterre, et les <hi rend="i">Réflexions sur les ouvrages de littérature</hi> (1736-1740). Ce journal évoque largement la poésie anglaise, avec Pope et Glover, et le théâtre d’Addison.</p>
         </div>
-        <div>
+        <div xml:id="r1295152">
           <head rend="uc">Chapitre V
            <lb/>Les journaux mondains</head>
           <p>Les journaux mondains sont nombreux et variés. On peut distinguer tout d’abord <hi rend="i">Le Spectateur ou le Socrate moderne</hi> (1711-1712) d’Addison et Steele, traduit en 1714, et ses imitateurs. <hi rend="i">Le Spectateur</hi> mentionne un certain nombre d’auteurs anglais, dont les lecteurs français prennent connaissance à travers lui : <pb source="https://nakala.fr/10.34847/nkl.e311n478#df059334c3cb3db3fc55d24fd8f36b7a3b2521d2" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.e311n478/df059334c3cb3db3fc55d24fd8f36b7a3b2521d2/full/full/0/default.jpg"/>Shakespeare, Milton, Dryden, Spencer et Chaucer. les « classiques » anglais. Le premier imitateur du <hi rend="i">Spectateur</hi> est Marivaux, avec <hi rend="i">Le Spectateur français</hi> (1721-1724), mais celui-ci ne fait aucune place à la littérature anglaise. Le plus important est <hi rend="i">Le Pour et le Contre</hi> (1733-1740) de l’abbé Prévost, qui rédigea en partie son journal pendant son exil en Angleterre. Ce périodique est très nettement centré sur la littérature, et c’est tout naturellement que la littérature anglaise y a sa place. Prévost évoque longuement Pope, avec plusieurs passages sur l’<hi rend="i">Essai sur l’homme. </hi>et l’<hi rend="i">Essai sur la critique,</hi> Swift, Glover, et beaucoup de théâtre : outre des pièces récentes, il cite et traduit des passages de Dryden, Lillo et Shakespeare.</p>
           <p>Les autres journaux mondains, de courte durée, sont moins importants : ce sont les <hi rend="i">Amusements littéraires</hi> (1738) de La Barre de Beaumarchais, le <hi rend="i">Mercure et Minerve</hi> (1737-1738) de Formey, <hi rend="i">Le Spectateur littéraire</hi> (1746) de Quinsonas et <hi rend="i">L’Observateur littéraire</hi> de Marmontel (1746).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1295217">
         <head rend="uc">Deuxième partie
          <lb/>Analyse</head>
-        <div>
+        <div xml:id="r1295225">
           <head rend="uc">Chapitre premier
            <lb/>traductions d’ouvrages anglais</head>
           <p>C’est presque exclusivement par le biais de traductions que les lecteurs français ont eu connaissance des œuvres littéraires anglaises. Les traducteurs sont en partie des journalistes : on peut citer parmi les plus connus Desfontaines (traducteur des <hi rend="i">Voyages de Gulliver</hi> de Swift et de <hi rend="i">Joseph Andrews</hi> de Fielding), Justus van Effen (<hi rend="i">Robinson Crusoë</hi> de Daniel Defoe, le <hi rend="i">Conte du tonneau</hi> de Swift), Élie de Joncourt (<hi rend="i">Le Spectateur</hi> d’Addison), Marmontel (<hi rend="i">La Boucle de cheveux enlevée</hi> de Pope), l’abbé Prévost (<hi rend="i">Paméla</hi> de Richardson), Du Resnel (<hi rend="i">Essai sur la critique</hi> et <hi rend="i">Essai sur l’homme</hi> et <hi rend="i">La Boucle de cheveux enlevée</hi> de Pope), La Place (Shakespeare, Otway et Dryden, dans son <hi rend="i">Théâtre anglais</hi>). Mais d’autres traducteurs sont des hommes d’Etat ou des magistrats : Silhouette (traducteur des deux essais de Pope), Serré des Rieux (<hi rend="i">Essai sur l’homme</hi>), Lefranc de Pompignan (<hi rend="i">La Prière universelle </hi>de Pope)...</p>
           <p>Deux théories de la traduction s’opposent. Lune d’elles prône le respect du texte original et sa restitution fidèle dans une autre langue ; c’est celle que tente d’appliquer Silhouette, par exemple, mais elle est peu répandue et peu comprise. Les traducteurs ne donnent le plus souvent au public que des imitations lointaines, parfois volontairement erronées, de l’original ; les exemples les plus extrêmes en sont les traductions des <hi rend="i">Voyages de Gulliver</hi> par Desfontaines, ou du <hi rend="i">Paradis perdu </hi>de Milton par Dupré-Sainl-Maur : il faut, selon eux. adapter la littérature anglaise au goût français.</p>
           <p>C’est alors que se pose la question des langues : puisque aucun enseignement de l’anglais n’est organisé en France, les hommes de lettres l’apprennent grâce à des dictionnaires et des grammaires, dont le nombre augmente progressivement, La question de l’apprentissage des langues étrangères devient l une des préoccupations des Encyclopédistes.</p>
         </div>
-        <div>
+        <div xml:id="r1295303">
           <pb source="https://nakala.fr/10.34847/nkl.e311n478#2ba1aab095d30b25397b5e5bcceaebf21226384e" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.e311n478/2ba1aab095d30b25397b5e5bcceaebf21226384e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Analyse des auteurs anglais</head>
@@ -128,7 +126,7 @@
           <p>Pope et Addison sont bien accueillis par le public français, en raison de leur style et de leur inspiration très classiques et influencés par le goût français. En revanche, Shakespeare est considéré comme trop singulier, trop violent et trop éloigné des règles, celle de la bienséance comme celle des trois unités, pour être apprécié. Quant à Milton, c’est le sujet même de son poème qui choque, car il mêle sacré et profane.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1295324">
         <head rend="uc">Annexes</head>
         <p>Tables des articles anglais des différents journaux. – Index des journalistes et des traducteurs. – Index des auteurs anglais. – Préface de la <hi rend="i">Bibliothèque britannique.</hi> – Extraits des <hi rend="i">Mémoires de Trévoux.</hi></p>
       </div>

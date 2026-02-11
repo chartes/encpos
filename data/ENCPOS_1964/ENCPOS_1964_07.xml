@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1964_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1964_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,52 +55,52 @@
         <forename>Marie-Thérèse</forename>
         <surname>Combet</surname>
       </byline>
-      <div>
+      <div xml:id="r852936">
         <head rend="uc">Sources</head>
         <p>Les Archives du Ministère des Affaires étrangères (Correspondance politique Autriche, Mémoires et documents Autriche, Personnel et finances) constituent la principale source de cette étude ; certains documents de la série B<hi rend="sup">1</hi> (fonds des consulats), déposée aux Archives, nationales ont été utilisés, ainsi que le fonds <hi rend="i">Litorale Kommerz</hi> de l’Hofkammer-archiv, à Vienne, et la correspondance politique des ambassadeurs impériaux à Paris, conservée au département des manuscrits de la Bibliothèque nationale.</p>
       </div>
-      <div>
+      <div xml:id="r852954">
         <head rend="uc">Première partie
          <lb/>La naissance et les débuts
          <lb/>de l’alliance franco-autrichienne
          <lb/>(1714-1763)</head>
-        <div>
+        <div xml:id="r852966">
           <head rend="uc">Chapitre premier
            <lb/>les prodromes de l’alliance
            <lb/>(1714-1748)</head>
           <p>Si le début de la guerre franco-anglaise en 1755 et les négociations angloprussiennes sont la cause directe du renversement des alliances de 1756, il faut en rechercher l’origine plus loin dans le temps.</p>
           <p>Pendant la première moitié du siècle, des tentatives, les unes de la France, les autres de l’Autriche, ont été faites en vue d’un rapprochement auquel rien ne devait plus s’opposer, l’inimitié franco-autrichienne étant révolue : approches françaises, d’abord, en 1714 (mission du comte du Luc), puis approches autri<pb source="https://nakala.fr/10.34847/nkl.8acaq475#cf2d08979232f9998753bbba718d0b8abd17aaff" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.8acaq475/cf2d08979232f9998753bbba718d0b8abd17aaff/full/full/0/default.jpg"/>chiennes en 1728 (missions de Penterriedter et de Sinzendorff). Mais Louis XV et le cardinal Fleury, malgré leur sincère désir d’entente (mission de Mirepoix en 1738), doivent suivre le courant austrophobe et belliciste et, en 1733, puis en 1740, la France prend position contre l’Autriche. Celle-ci fait, en 1748, au congrès d’Aix-la-Chapelle, une nouvelle tentative, tout aussi infructueuse, pour se réconcilier avec la France.</p>
         </div>
-        <div>
+        <div xml:id="r852988">
           <head rend="uc">Chapitre II
            <lb/>La conclusion de l’alliance
            <lb/>(1748-1756)</head>
           <p>La mission de Kaunitz à Paris en 1750, puis celle de Starhemberg à partir de 1753 n’ont d’autre but que de faire entrevoir à la France la nécessité d’une réconciliation et d’une coopération : pour l’Autriche, le désir de secouer le joug de l’alliance anglaise, de chercher un allié contre le nouveau et dangereux rival prussien ; pour la France, la nécessité d’assurer ses frontières et ses arrières en détachant l’Autriche de l’Angleterre, afin de se consacrer à la lutte contre cette dernière, l’ennemi véritable de ses intérêts. L’ascension de la Prusse et l’expansion coloniale de l’Angleterre sont les deux facteurs du rapprochement franco-autrichien. L’austrophobie profondément enracinée dans le ministère français obligera cependant l’Autriche à prendre des précautions et les négociations entre Louis XV et Marie-Thérèse seront tenues secrètes jusqu’à la conclusion du traité de Versailles du 1<hi rend="sup">er</hi> mai 1756 dont l’annonce, en mettant l’opinion devant le fait accompli, fera l’effet d’une bombe diplomatique.</p>
         </div>
-        <div>
+        <div xml:id="r853006">
           <head rend="uc">Chapitre III
            <lb/>L’alliance pendant la guerre de sept ans
            <lb/>(1756-1763)</head>
           <p>L’ouverture des hostilités sur le continent dès septembre 1756 a mis la France dans l’obligation de remplir ses engagements envers sa nouvelle alliée. Si, malgré la divergence des intérêts français et autrichiens, le traité de Versailles de 1756, purement défensif, peut se légitimer, moins justifiable est le traité offensif du 1<hi rend="sup">er</hi> mai 1757, vers la conclusion duquel la diplomatie autrichienne a tendu tous ses efforts et auquel a consenti inconsidérément le cabinet de Versailles. Les fautes commises par celui-ci vont cependant être réparées, en partie, par Choiseul qui, par le traité des 30-31 décembre 1758, tente de corriger les deux précédents traités conclus par Bernis, en distinguant notamment la guerre sur terre et la guerre sur mer. Malgré la hâte du gouvernement français de mettre un terme aux opérations militaires sur le continent, l’Autriche s’obstine à poursuivre la guerre. Mais l’urgence pour la France de conclure au plus tôt sa paix avec l’Angleterre la conduit à signer les préliminaires de Fontainebleau : devant la perspective prochaine de la paix franco-anglaise, menacée de se voir abandonnés par leurs alliés respectifs, l’Autriche et la Prusse doivent à leur tour se résigner à conclure la paix continentale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r853025">
         <pb source="https://nakala.fr/10.34847/nkl.8acaq475#dbad867e60fa8169e1c92acc863031886b7368b6" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.8acaq475/dbad867e60fa8169e1c92acc863031886b7368b6/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les principes de l’alliance franco-autrichienne</head>
-        <div>
+        <div xml:id="r853038">
           <head rend="uc">Chapitre premier
            <lb/>les intérêts de l’alliance</head>
           <p><hi rend="i">Bilan, de l’alliance en 1763.</hi> – Malgré la défaite respective de la France et de l’Autriche, l’alliance se maintiendra après 1763. Les mobiles qui avaient poussé les cours de Versailles et de Vienne à se réunir en 1756 n’avaient pas changé, puisque la Prusse et l’Angleterre demeuraient victorieuses. Les deux alliés pouvaient en outre se féliciter de leur fidélité réciproque pendant la guerre, garantie pour l’avenir ; en dépit des revers militaires, elles avaient obtenu un résultat d’importance : l’Autriche s’était libérée du joug anglais, la France avait définitivement séparé l’Autriche de l’Angleterre.</p>
           <p><hi rend="i">L’alliance, gage de sécurité et de paix.</hi> – En 1763, l’alliance perd son caractère offensif. Elle devient désormais une alliance de paix, destinée à assurer sur le continent une tranquillité dont les deux alliés ont besoin pour réparer leurs ruines.</p>
           <p><hi rend="i">Les intérêts généraux de politique internationale.</hi> – L’alliance franco-autrichienne est fondée sur des intérêts purement négatifs : elle laisse à chacun des deux alliés les mains libres pour pratiquer sa politique personnelle. Les intérêts de la France deviennent de plus en plus maritimes, ceux de l’Autriche ne peuvent être que continentaux ; cette divergence s’accentue d’année en année, facilitée d’ailleurs par le jeu des circonstances extérieures : conflit anglo-espagnol, succession polonaise, intervention de la Prusse et de la Russie, puis entrée en guerre de la Turquie. Les relations franco-autrichiennes se borneront donc à une succession de protestations d’amitié réciproque et parfois à de bons offices, sans qu’il n’en résulte jamais rien de positif.</p>
         </div>
-        <div>
+        <div xml:id="r853065">
           <head rend="uc">Chapitre II
            <lb/>Les souverains et l’alliance</head>
           <p>Le roi et l’impératrice considéreront toujours l’alliance comme « leur ouvrage » et les deux souverains, après les épreuves traversées en commun, seront résolus en 1763 à demeurer alliés envers et contre tous. Quant à l’empereur François I<hi rend="sup">er</hi>, dont le rôle politique fut assez effacé, il saura oublier ses rancunes pourtant assez justifiées contre la France et ne sera jamais l’ennemi de l’alliance comme on l’a souvent prétendu. Son fils Joseph II ne sera pas non plus un adversaire du système et les bruits qui courront en France à son sujet ne sont nullement fondés. S’il fut souvent en désaccord avec sa mère dont la politique pacifiste, après 1763, ne se conciliait guère avec ses idées de conquêtes, il demeurera cependant fidèle aux engagements souscrits par l’impératrice.</p>
         </div>
-        <div>
+        <div xml:id="r853081">
           <pb source="https://nakala.fr/10.34847/nkl.8acaq475#508c05dc77c6ebe87eafafe1a0d4856c6b9453cf" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.8acaq475/508c05dc77c6ebe87eafafe1a0d4856c6b9453cf/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les ministres et l’alliance</head>
@@ -110,11 +108,11 @@
           <p><hi rend="i">Choiseul et l’alliance.</hi> – Autant Choiseul juge de bonne politique une réconciliation avec les Habsbourg et une alliance défensive avec l’Autriche, autant il désapprouve le traité offensif de 1757 et les concessions accordées par Bernis. L’alliance autrichienne est, certes, la plus avantageuse sur le continent ; mais l’Espagne est, selon lui, la véritable alliée d’intérêts de la France, et c’est l’alliance espagnole, destinée à faciliter la revanche contre l’Angleterre, qui est l’alliance fondamentale ; il y subordonne l’alliance autrichienne qui, pour être viable, doit s’exercer avec une égale réciprocité d’intérêts. L’objet constant de la politique de Choiseul à l’égard de l’Autriche est donc de maintenir l’alliance dans des bornes raisonnables : la hantise de Choiseul, comme celle de Kaunitz d’ailleurs, est de se laisser duper et elle l’incitera souvent à une méfiance exagérée. Cependant, en adoptant un juste milieu dans l’application de l’alliance, création du chancelier autrichien, et en essayant d’en faire un instrument à l’avantage de la France, Choiseul a marqué de son empreinte les relations franco-autrichiennes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r853108">
         <head rend="uc">Troisième partie
          <lb/>L’ambassade de France a Vienne
          <lb/>1756-1770</head>
-        <div>
+        <div xml:id="r853118">
           <head rend="uc">Chapitre premier
            <lb/>les agents diplomatiques français à Vienne</head>
           <p><hi rend="i">La représentation française à Vienne avant 1756.</hi> – Jusqu’en 1756, il n’y eut pas de relations diplomatiques suivies entre les cours ennemies de Versailles et de Vienne. Dans les périodes de trève, Louis XIV délégua à la cour <pb source="https://nakala.fr/10.34847/nkl.8acaq475#19fb72f0dc85306aca54dc7eb9e8ca3e81e0f7da" n="53" facs="https://api.nakala.fr/iiif/10.34847/nkl.8acaq475/19fb72f0dc85306aca54dc7eb9e8ca3e81e0f7da/full/full/0/default.jpg"/>impériale des « envoyés ». Le premier ambassadeur accrédité fut le comte du Luc en 1715, dont la mission fut toutefois de courte durée. Ce n’est qu’au lendemain de la paix d’Aix-la-Chapelle que des liaisons s’établiront entre la France et l’Autriche ; malgré la présence d’un représentant du roi à Vienne, c’est cependant à Versailles que sera négocié le traité de 1756.</p>
@@ -124,7 +122,7 @@
           <p>Les appointements des ambassadeurs et des secrétaires n’ont guère varié pour cette période. Les ambassadeurs recevaient habituellement des gratifications pour leur frais d’établissement ainsi qu’une pension à leur retour de Vienne.</p>
           <p>Il n’y a pas encore un hôtel réservé à l’ambassade de France dont l’emplacement a varié généralement avec chaque représentant.</p>
         </div>
-        <div>
+        <div xml:id="r853159">
           <head rend="uc">Chapitre II
            <lb/>Le rôle des ambassadeurs</head>
           <p><hi rend="i">Moyens d’information.</hi> – Avant même la paix de 1763, le comte du Châtelet s’est appliqué à s’informer de l’administration, des finances, du commerce, des armées, et à collectionner des recueils d’ordonnances et établir des mémoires. Il sera aidé par son secrétaire Gérard qui réussira à se lier avec des membres de la chancellerie d’État, en particulier avec le référendaire Binder qui lui fournira de nombreux renseignements. Les successeurs de du Châtelet, Durfort et Durand suivront cette voie.</p>
@@ -135,7 +133,7 @@
           <p><hi rend="i">Les attributions consulaires de l’ambassadeur.</hi> – Parmi ses attributions, l’ambassadeur devait faciliter à ses nationaux leur séjour ou leur résidence à l’étranger. Nombre de Français résidaient à Vienne ; aussi, lorsqu’ils venaient à mourir, l’application du droit d’aubaine, encore en vigueur dans les États-Héréditaires et exercé de façon très stricte, provoquait-elle de fréquentes contestations ; pour y mettre un terme, le comte du Châtelet fut chargé de négocier avec le gouvernement autrichien l’abolition réciproque du droit d’aubaine entre la France et l’Autriche qui fit l’objet d’une convention signée le 24 juin 1766.</p>
           <p><hi rend="i">Les courriers.</hi> – C’est le plus généralement à des courriers que sera confiée la correspondance entre l’ambassadeur de France à Vienne et le cabinet de Versailles, les dépêches remises à la poste risquant d’être interceptées et déchiffrées par le cabinet noir autrichien. Parfois, la correspondance était remise à des particuliers ou à des courriers d’ambassades étrangères et amies. Les courriers portaient une plaque aux armes de France et étaient munis d’un ordre du grand-maître des postes pour traverser les territoires d’Empire. Il fallait dix jours aux courriers pour se rendre de Versailles à Vienne, via Strasbourg, Munich, Passau. C’est par Vienne que passeront les courriers pour Constantinople ; la quarantaine imposée par le gouvernement autrichien aux courriers venant de Turquie et qui avait lieu à Semlin, à la frontière de Hongrie, occasionnera souvent des démêlés entre les cabinets de Versailles et de Vienne.</p>
         </div>
-        <div>
+        <div xml:id="r853203">
           <head rend="uc">Chapitre III
            <lb/>Les agents secrets à Vienne</head>
           <p>La tension internationale qui se manifeste à partir de 1766, l’avènement de Joseph II, les remaniements effectués dans le ministère autrichien sont autant de sujets d’inquiétude pour Choiseul quant à la durée de l’alliance. Aussi, afin de découvrir les pensées et intentions cachées du cabinet de Vienne, le <pb source="https://nakala.fr/10.34847/nkl.8acaq475#e2d150a2e0746067131ca11ca05c2cdaf4c97159" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.8acaq475/e2d150a2e0746067131ca11ca05c2cdaf4c97159/full/full/0/default.jpg"/>ministre confie-t-il à Conrad-Alexandre Gérard, devenu premier commis en 1766, le soin d’entretenir une correspondance secrète avec des agents affidés qui auront pour tâche essentielle de s’immiscer dans les bureaux autrichiens, afin d’en percer les secrets.</p>
@@ -143,15 +141,15 @@
           <p><hi rend="i">Les missions de Barth à Vienne de 1766 à 1770.</hi> – François-Charles Barth, également d’origine alsacienne, avait déjà rempli deux missions à Vienne, une première fois alors que Gérard y était encore, une seconde fois en même temps que Geiger, en 1767. En 1768, Barth eut la chance d’avoir à son service un agent autrichien fort vénal, interprète à la chancellerie d’État, le futur ministre d’État Thugut. Par lui, Barth obtiendra de précieux renseignements qu’il adressera à Gérard, ainsi que de nombreux extraits des dépêches de la correspondance autrichienne. En juillet 1769, le départ de Thugut pour Constantinople tarira la source d’informations de Barth. Pourtant, une nouvelle mission lui sera confiée à la fin de cette même année 1769, sous le ministère d’Aiguillon.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r853233">
         <head rend="uc">Quatrième partie
          <lb/>Les intérêts politiques de l’alliance</head>
-        <div>
+        <div xml:id="r853241">
           <head rend="uc">Chapitre premier
            <lb/>l’alliance et les affaires d’empire</head>
           <p>L’alliance franco-autrichienne de 1756 a porté un coup fatal à l’influence française dans l’empire. L’arbitrage de la France, devenue alliée des Habsbourg, est désormais taxé de partialité par les princes allemands et perd toute sa valeur. Pourtant, si l’Autriche considère que l’alliance doit engager la France, celle-ci n’a pas renoncé totalement à son ancienne politique, et l’antique rivalité franco-impériale demeurée latente sous François I<hi rend="sup">er</hi> se réveille en 1765 avec Joseph II, dont les prétentions et les visées impérialistes en Italie inquiètent le cabinet de Versailles. L’affaire de San Remo, à l’origine simple affaire judicière, met aux prises, en 1756, la France et l’empereur dans un différend qui, aucun des deux partenaires ne voulant renoncer à ce qu’il estime être ses droits, s’envenimera et qui, sans l’intervention habile de Kaunitz et de Mercy-Argenteau, aurait risqué de compromettre l’alliance.</p>
         </div>
-        <div>
+        <div xml:id="r853257">
           <pb source="https://nakala.fr/10.34847/nkl.8acaq475#43247f7147747f8ed40a2969287d2f15f0923c99" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.8acaq475/43247f7147747f8ed40a2969287d2f15f0923c99/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’Autriche et le pacte de famille</head>
@@ -161,17 +159,17 @@
           <p><hi rend="i">L’Autriche et l’affaire des îles Malouines en 1770.</hi> – L’incident anglo-espagnol survenu aux îles Falkland en juin 1770 et qui vient à propos seconder les projets belliqueux de Choiseul inquiète l’Autriche. L’action de Fuentès, tout dévoué à l’Autriche, ainsi que les mesures radicales prises par Louis XV qui, résolument pacifique, refuse un secours immédiat à l’Espagne et disgracie Choiseul, donnent à l’Autriche un triomphe facile ; le danger tant redouté pour elle est écarté, le Pacte de famille n’étant plus présidé par Choiseul ; en outre, la paix est sauvegardée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r853296">
         <head rend="uc">Cinquième partie
          <lb/>Les intérêts économiques et commerciaux
          <lb/>de la France et de l’Autriche
          <lb/>1756-1770</head>
-        <div>
+        <div xml:id="r853308">
           <head rend="uc">Chapitre premier
            <lb/>le commerce intérieur de l’Autriche</head>
           <p>Si les matières premières abondaient dans les États-Héréditaires, l’industrie y était encore à peu près inexistante vers 1756. Pour rattraper ce retard immense et encourager une nation fort peu portée aux affaires, le gouvernement autrichien <pb source="https://nakala.fr/10.34847/nkl.8acaq475#f6e1cd8a503081f20e3d8d0b2a5545ab98788793" n="57" facs="https://api.nakala.fr/iiif/10.34847/nkl.8acaq475/f6e1cd8a503081f20e3d8d0b2a5545ab98788793/full/full/0/default.jpg"/>fait appel à des manufacturiers étrangers, en particulier français, qui lui serviront de modèles. Afin de favoriser l’essor de l’industrie, le cabinet de Vienne s’enferme dans une autarcie au détriment des fournisseurs étrangers, les Lyonnais en particulier.</p>
         </div>
-        <div>
+        <div xml:id="r853325">
           <head rend="uc">Chapitre II
            <lb/>Projet d’un traité de commerce franco-autrichien</head>
           <p><hi rend="i">Le commerce extérieur autrichien.</hi> – La création du port de Trieste par Charles VI et l’aménagement progressif du littoral austriaque donnent de nouveaux débouchés au commerce extérieur autrichien qui commence à devenir plus actif. En 1756, Trieste est déjà une place très fréquentée.</p>

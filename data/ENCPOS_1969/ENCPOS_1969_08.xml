@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,13 +59,13 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r905209">
         <head rend="uc">Chapitre premier
          <lb/>généralités</head>
         <p>La chronique des évêques d’Auxerre a fait l’objet de plusieurs publications souvent fragmentaires et de médiocre valeur.</p>
         <p>En 1657, Labbe (<hi rend="i">Bibl. nova manuscriptorum,</hi> t. I, p. 411-526), a donné la seule édition qui reproduise l’intégralité du texte. La publication la plus récente, qui n’est pas complète, date de 1850 (Duru, <hi rend="i">Bibl. hist. de l’Yonne,</hi> t. I, p. 309-509). Aucune de ces éditions ne reposait sur un examen critique sérieux des manuscrits et n’était accompagnée d’un commentaire historique. Il fallait chercher ces indications dans les <hi rend="i">Mémoires concernant l’histoire civile et ecclésiastique d’Auxerre</hi> de l’abbé Lebeuf, dont la première édition date de 1743, ouvrage essentiel, mais parfois bien vieilli.</p>
       </div>
-      <div>
+      <div xml:id="r905236">
         <head rend="uc">Chapitre II
          <lb/>Les manuscrits</head>
         <p>Le texte des <hi rend="i">Gesta pontificum Autissiodorensium</hi> nous est parvenu par deux manuscrits anciens : le manuscrit 142 de la Bibliothèque municipale d’Auxerre et le manuscrit 1283 A du fonds de la Reine Christine au Vatican.</p>
@@ -77,18 +75,18 @@
         <p>Outre ces deux manuscrits, qui seuls peuvent servir de base à une édition, il existe six copies du <num>xvii<hi rend="sup">e</hi></num> siècle, plus ou moins complètes, qui en dérivent directement.</p>
         <p>Les évêques d’Auxerre entre Pierre Aymon et François I<hi rend="sup">er</hi> de Dinteville et entre François II de Dinteville et Jacques Amyot n’ont pas eu de biographe.</p>
       </div>
-      <div>
+      <div xml:id="r905305">
         <head rend="uc">Première partie
          <lb/>La composition et les sources</head>
         <p>Il est possible de déterminer avec précision les rédactions successives des <hi rend="i">Gesta.</hi> Il est plus délicat de dater ces différentes tranches de composition, mais on peut toutefois espérer, en ce domaine, une relative sûreté. Il s’avère malheureusement impossible de percer l’anonymat des auteurs de ces biographies épiscopales, tous chanoines de la cathédrale. Tout au plus peut-on avancer quelques précisions dérisoires.</p>
-        <div>
+        <div xml:id="r905320">
           <head rend="uc">Chapitre premier
            <lb/>la première compilation</head>
           <p>Le noyau primitif des <hi rend="i">Gesta,</hi> comprenant les trente-huit premières biographies depuis saint Pèlerin jusqu’à Christianus (♰ 872), a été rédigé sous l’épiscopat de Wala (872-879), entre 873 et 876 ou 877, par les deux chanoines Rainogala et Alagus ; nous ne savons rien de ces personnages. Il faut tenir la collaboration de Heiric d’Auxerre à cette compilation pour une fable sans fondement.</p>
           <pb source="https://nakala.fr/10.34847/nkl.e961r606#48a123bb2fc89023a3e2ab7a2ffce9e7a8098e3c" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.e961r606/48a123bb2fc89023a3e2ab7a2ffce9e7a8098e3c/full/full/0/default.jpg"/>
           <p>Il est probable que l’idée d’écrire un recueil de ce genre revient à l’évêque Wala, prélat instruit et bibliophile. Il aura voulu ainsi doter son église d’une œuvre semblable à celle qu’avait composée Grégoire de Tours pour les évêques ses prédécesseurs, sur le modèle du <hi rend="i">Liber pontificalis</hi> de Rome. Cela est d’autant plus plausible que l’<hi rend="i">Historia Francorum</hi> et le <hi rend="i">Liber pontificalis</hi> étaient connus à Auxerre à cette époque et qu’en outre l’église d’Auxerre possédait déjà les vies de quatre de ses évêques.</p>
         </div>
-        <div>
+        <div xml:id="r905356">
           <head rend="uc">Chapitre II
            <lb/>Les continuations</head>
           <p>A ce premier recueil ont été ajoutées, par la suite, et à des intervalles assez irréguliers, treize continuations pour le moyen âge :</p>
@@ -107,7 +105,7 @@
           <p>13° les seize biographies épiscopales suivantes, depuis Guillaume de Grez jusqu’à Pierre Aymon (♰ 1372), ont été rédigées probablement entre 1374 et 1375 par un chanoine inconnu.</p>
           <p>Pour la partie moderne des <hi rend="i">Gesta</hi> on dénombre encore quatre rédactions.</p>
         </div>
-        <div>
+        <div xml:id="r905423">
           <head rend="uc">Chapitre III
            <lb/>Les sources</head>
           <p>Rainogala et Alagus ont utilisé dans leur compilation divers textes hagiographiques et en particulier quatre vies d’évêques d’Auxerre (<hi rend="i">Passio sancti Peregrini ; Vita sancti Amatoris</hi> d’Etienne l’Africain ; <hi rend="i">Vita sancti Germani, </hi>non le texte de Constance, mais la vie interpolée ; <hi rend="i">Vita sancti Aunarii</hi>.). Ils se sont servi aussi de l’<hi rend="i">Historia Francorum</hi> de Grégoire de Tours, du <hi rend="i">Liber historiae Francorum,</hi> du <hi rend="i">Liber pontificalis</hi> de Rome, des actes de plusieurs conciles francs de l’époque mérovingienne, de deux lettres du pape Pélage II à l’évêque Aunaire (♰ 605 ?), de plusieurs exemplaires du martyrologue hiéronymien, des <hi rend="i">Miracula sancti Germani</hi> de Heiric d’Auxerre.</p>
@@ -116,23 +114,23 @@
           <p>Pour les autres parties des <hi rend="i">Gesta,</hi> toute la documentation repose sur des pièces d’archives, des souvenirs personnels ou rapportés par des témoins. Les nécrologes de l’église et les brèves mentions annalistiques inscrites en marge de tables pascales ont pu fournir parfois quelques renseignements. On ne peut citer que la troisième compilation qui fasse un emprunt à une chronique, celle de Raoul Glaber, moine de Saint-Germain d’Auxerre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r905483">
         <pb source="https://nakala.fr/10.34847/nkl.e961r606#94ba7ed3b0815d4872cbd1d09230c35e4f22f110" n="73" facs="https://api.nakala.fr/iiif/10.34847/nkl.e961r606/94ba7ed3b0815d4872cbd1d09230c35e4f22f110/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>L’intérêt du texte</head>
-        <div>
+        <div xml:id="r905496">
           <head rend="uc">Chapitre premier
            <lb/>l’intérêt historique</head>
           <p>Les <hi rend="i">Gesta pontificum Autissiodorensium</hi> présentent un grand intérêt à plusieurs égards. Ils donnent des renseignements inappréciables sur l’histoire bourguignonne au haut moyen âge. Ils constituent pour l’histoire de l’église d’Auxerre et de son diocèse une source continue à travers presque toute la période médiévale et, indirectement, nous font connaître, de première main, beaucoup d’évènements en rapport avec l’histoire générale. Ils ont conservé le souvenir de beaucoup de documents aujourd’hui perdus et leur documentation, lorsqu’elle est contrôlable, s’avère rarement défectueuse. Les domaines auxquels elle s’étend sont multiples : les <hi rend="i">Gesta</hi> sont une source précieuse pour l’archéologue, le toponymiste, l’historien.</p>
         </div>
-        <div>
+        <div xml:id="r905516">
           <head rend="uc">Chapitre II
            <lb/>L’intérêt littéraire</head>
           <p>Du point de vue littéraire, les <hi rend="i">gesta</hi> ne sont souvent que des notices assez sèches et impersonnelles, selon la loi du genre. Par <hi rend="i">Gesta</hi> – c’est ce qui ressort de toutes les rédactions et c’est la conception implicite des auteurs qui ont participé à la confection du recueil – il faut entendre surtout les bienfaits spirituels et matériels, souvent confondus, des évêques vis-à-vis de leur église et du chapitre. Les portraits des prélats (comme d’ailleurs le plan des biographies, coulées dans le même moule, celui du <hi rend="i">Liber pontificalis</hi>) présentent peu d’originalité.</p>
           <p>Même certains passages plus personnels comme les récits de la mort des évêques et quelques anecdotes prises sur le vif répondent surtout à une intention édifiante. Quelques biographies se détachent, cependant, un peu du style conventionnel. La langue des <hi rend="i">Gesta</hi> est difficile à apprécier car elle reflète la culture d’époques fort diverses ; elle est, en général, simple et ne procède pas d’un souci littéraire réfléchi, sa correction varie suivant les époques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r905548">
         <pb source="https://nakala.fr/10.34847/nkl.e961r606#d9c6bbb76c6c3c96a09efa14c9fcf0efd8db4e3e" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.e961r606/d9c6bbb76c6c3c96a09efa14c9fcf0efd8db4e3e/full/full/0/default.jpg"/>
         <head rend="uc">Édition</head>
         <p>Édition critique des quatre-vingts premières vies, depuis saint Pèlerin jusqu’à Pierre Aymon, suivie d’un commentaire des trente-huit premières notices.</p>

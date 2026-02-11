@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,16 +61,16 @@
         <head rend="uc">Introduction – Bibliographie – Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r319311">
         <head rend="uc">Première partie
          <lb/>L’assemblée provinciale</head>
-        <div>
+        <div xml:id="r319319">
           <head rend="uc">Chapitre préliminaire
            <lb/>les assemblées provinciales</head>
           <p>L’édit de juin 1787 étend à tous les pays d’élection l’administration provinciale créée par Necker, en 1778 et 1779, dans les généralités de Bourges et de Montauban, en y ajoutant des assemblées d’élection et des assemblées municipales.</p>
           <p>Les assemblées, organisées en 1787 sont toutes différentes de celles que préconisait Turgot : la distinction des trois ordres existe encore ; le principe électif n’est <pb source="https://nakala.fr/10.34847/nkl.b857z06c#5b9c1342ff710dd4f3fd21f4824db8c6fca62139" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.b857z06c/5b9c1342ff710dd4f3fd21f4824db8c6fca62139/full/full/0/default.jpg"/>appliqué que dans les assemblées municipales, il n’y a point d’assemblée générale pour tout le royaume.</p>
         </div>
-        <div>
+        <div xml:id="r319339">
           <head rend="uc">Chapitre premier
            <lb/>l’assemblée provinciale et la commission
            <lb/>intermédiaire</head>
@@ -81,7 +79,7 @@
           <p>L’intendant, de Blossac, préside à l’ouverture des séances, et communique les ordres du roi : il n’assiste pas aux délibérations. L’assemblée nomme les dix-huit membres qui doivent la compléter, les deux procureurs syndics provinciaux et les quatre membres de la commission intermédiaire provinciale. Elle choisit ensuite les membres des assemblées d’élection qui constitueront avec le président nommé par le roi la première moitié de ces assemblées. Elle se sépare le 16 août. La commission intermédiaire surveille l’organisation des assemblées d’élection, contrôle les élections municipales, s’initie aux différentes parties de l’administration, et prépare les travaux de l’assemblée provinciale. L’assemblée provinciale complète se réunit le 17 novembre. Elle reçoit les compliments des corps constitués de la ville de Soissons : abstention du bureau des finances. – Les travaux de l’assemblée sont répartis entre ses quatre bureaux : bureaux de l’impôt, de l’agriculture, des travaux publics, de comptabilité. L’assemblée discute les rapports de ses bureaux et vote généralement leurs propositions. Elle critique les abus et les injustices <pb source="https://nakala.fr/10.34847/nkl.b857z06c#59eea3b782ce955c580adf24928f0640ca47e4f4" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.b857z06c/59eea3b782ce955c580adf24928f0640ca47e4f4/full/full/0/default.jpg"/>dans la répartition des impositions, mais elle se déclare incapable de changer le mode de répartition. Elle demande l’abolition de la gabelle, la diminution des aides : elle voudrait améliorer la condition des populations rurales. Elle s’occupe activement de l’entretien et de la création des routes. Elle fixe le traitement des procureurs syndics et des membres des commissions et bureaux intermédiaires.</p>
           <p>Elle termine ses séances le 17 décembre. L’Assemblée des Notables l’empêche de se réunir en 1788 et les Etats Généraux en 1789.</p>
         </div>
-        <div>
+        <div xml:id="r319367">
           <head rend="uc">Chapitre II
            <lb/>Les assemblées d’élection et les bureaux
            <lb/>intermédiaires</head>
@@ -92,7 +90,7 @@
           <p>Les assemblées d’élection tiennent une deuxième et dernière session en octobre 1788.</p>
           <p>Les vrais administrateurs de l’élection sont les membres du bureau intermédiaire et les procureurs syndics. Intermédiaires entre la commission provinciale et les municipalités, ils s’efforcent d’établir une correspondance rapide avec les syndics, corrigent les municipalités irrégulières et surveillent particulièrement la gestion des affaires municipales. Mais leur action est étroitement subordonnée à celle de la Commission provinciale : celle-ci use toujours de modération et s’efforce de maintenir de bons rapports avec ses « coopérateurs ».</p>
         </div>
-        <div>
+        <div xml:id="r319401">
           <head rend="uc">Chapitre III
            <lb/>Les assemblées municipales</head>
           <p><hi rend="i">Organisation.</hi> – Avant 1789, les villes et les bourgs ont presque toujours des municipalités, complètes ou non. Dans les campagnes, les paroisses les plus riches ont généralement, avec un syndic, un maire et des échevins ; les paroisses sans revenus ni biens communaux sont administrées par un seul syndic.</p>
@@ -106,7 +104,7 @@
           <p>La commission provinciale et les bureaux intermédiaires contre les municipalités : le roi finit par limiter leurs attributions à celles des anciennes communautés paroissiales.</p>
           <p>L’assemblée paroissiale continue à délibérer sur les affaires générales de la paroisse.</p>
         </div>
-        <div>
+        <div xml:id="r319452">
           <head rend="uc">Chapitre IV
            <lb/>Les impositions</head>
           <p>1. <hi rend="i">La taille et les impositions taillables.</hi> – Avant 1789, les impositions taillables (taille, impositions accès<pb source="https://nakala.fr/10.34847/nkl.b857z06c#50a28a729b8d886c7737346de86b85522e846855" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.b857z06c/50a28a729b8d886c7737346de86b85522e846855/full/full/0/default.jpg"/>soires et capitation roturière) sont réparties par le Conseil entre les élections d’après les indications fournies par l’intendant ; et le bureau des finances adresse à l’intendant les « commissions de chaque département », avec ses ordonnances d’attache.</p>
@@ -136,13 +134,13 @@
           <p>6. <hi rend="i">Les impositions de 1790.</hi> – Tous les contribuables, sans distinction de personne, sont soumis aux mêmes impositions en proportion de leurs biens et facultés.</p>
           <p>La dénomination de taille est supprimée, et remplacée par celle d’impositions principales ; on ne distingue plus la capitation noble et la capitation roturière. – Les « commissions de département » sont remises aux bureaux intermédiaires avec les ordonnances d’attache des bureaux de finances. – Les officiers d’élection font leurs chevauchées : ceux de Laon s’abstiennent. Le « département » de 1790 est fait par les bureaux intermédiaires et les élus en présence d’un trésorier de France. La répartition est faite dans les paroisses par toute l’assemblée municipale, dans les villes par les officiers municipaux assistés d’un curé, et d’un certain nombre d’ad joints dont la moitié est prise parmi les ci-devant privilégiés et l’autre parmi les anciens contribuables ordinaires. Mais les nouvelles municipalités créées par l’Assemblée Constituante étaient organisées alors que beaucoup de rôles n’étaient pas faits ; les officiers municipaux des paroisses et des villes furent seuls chargés de les établir. Ces rôles étaient rendus exécutoires par les officiers de l’élection.</p>
         </div>
-        <div>
+        <div xml:id="r319584">
           <pb source="https://nakala.fr/10.34847/nkl.b857z06c#c14e8ebb4ff289539eb5a3e803f7228677f2431a" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.b857z06c/c14e8ebb4ff289539eb5a3e803f7228677f2431a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Histoire économique du Soissonnais de 1787 à 1790</head>
           <p>La généralité de Soissons, essentiellement agricole, est dévastée en grande partie par la grêle du 13 juillet 1788 : la misère dans les campagnes. Bien que l’exportation soit suspendue, le blé ne cesse d’augmenter. Causes de cette augmentation : manque de blé vieux et accaparements. La spéculation empêche l’approvisionnement des marchés : l’arrêt du 23 novembre 1788, qui défend de faire des achats de grains ailleurs que sur les marchés, est inefficace. Le long et rigoureux hiver de 1788-1789 augmente les difficultés : après quelques secours du pouvoir central en nature et en argent, la généralité est réduite à ses propres ressources (avril 1789). – La sortie des blés de la généralité est interdite, sauf pour Paris et Versailles, et dans les limites compatibles avec les besoins de la province. Le gouvernement est mécontent de cette mesure. – Une enquête ouverte par la commission provinciale pour connaître la quantité de grains disponible dans la généralité ne peut aboutir par suite du mauvais vouloir des municipalités ou de l’hostilité des campagnes. – L’intendant se refuse à employer la force. – La commission prend en main l’administration des subsistances : le 7 juin, elle fait signer aux marchands de blé de Soissons une soumission par laquelle ils s’engagent à fournir 1.400 muids de blé à 290 livres le muid. Cette mesure a pour effet de maintenir le blé à un prix relativement modéré. 600 muids sont affectés à la subsistance de la ville ; le reste est destiné aux élections de la généralité, aux villes voisines et à Paris. Le blé ne sort des greniers des marchands que sur les mandats de la commission. La commission résiste à la pression <pb source="https://nakala.fr/10.34847/nkl.b857z06c#c8ab575d89d0864d3af2b9abd87b0b71f50220bb" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.b857z06c/c8ab575d89d0864d3af2b9abd87b0b71f50220bb/full/full/0/default.jpg"/>ministérielle ; elle proteste contre les autorisations délivrées à son insu aux fournisseurs de Paris qui viennent s’approvisionner aux dépens de la généralité. Le blé ne cessant d’augmenter, elle consent aux marchands une augmentation sur le prix accepté au 7 juin. On l’accuse d’accaparement et de concussion : ces accusations ne sont pas fondées. Après la récolte de 1789, la commission provinciale cesse de surveiller plus particulièrement les subsistances. Elle s’élève contre l’exportation des blés de la Thiérache et les crimes de la spéculation. Elle s’efforce d’assurer la liberté de circulation des grains ; elle est parfois impuissante à combattre l’insubordination générale.</p>
         </div>
-        <div>
+        <div xml:id="r319606">
           <head rend="uc">Chapitre VI
            <lb/>L’intendant</head>
           <p>L’intendant sert d’intermédiaire entre l’assemblée provinciale et le gouvernement ; il joint son avis aux demandes et observations présentées au contrôleur général par la commission provinciale.</p>
@@ -152,37 +150,37 @@
           <p>Les pouvoirs de l’intendant sont en fait presque annulés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r319631">
         <pb source="https://nakala.fr/10.34847/nkl.b857z06c#9658edbb48102b3ef448d92b12366984b1e57034" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.b857z06c/9658edbb48102b3ef448d92b12366984b1e57034/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>L’organisation départementale</head>
-        <div>
+        <div xml:id="r319644">
           <head rend="uc">Chapitre préliminaire
            <lb/>la division en départements</head>
           <p>La complexité et l’enchevêtrement des anciennes divisions rendent nécessaire une nouvelle division du royaume.</p>
           <p>Ce n’est pas tant pour détruire l’esprit provincial que pour avoir une base plus juste de la représentation, que les Constituants décident la division en départements.</p>
         </div>
-        <div>
+        <div xml:id="r319659">
           <head rend="uc">Chapitre premier
            <lb/>démarcation et division du département
            <lb/>de l’aisne</head>
           <p>Le Comité de Constitution, ne voulant pas créer de divisions purement arbitraires, consulte les députés des bailliages. Ceux-ci n’arrivent pas à s’entendre sur la division des généralités de Paris et de Soissons ; la majorité d’entre eux finit par se rallier à un plan que leur soumet le Comité (10 décembre 1789), et les députés des départements voisins procèdent à la démarcation définitive.</p>
           <p>La division du département de Soissons en six districts, et la division des districts en cantons, sont l’œuvre de commissaires choisis par les députés du département. Les procès-verbaux de démarcation et de division sont <pb source="https://nakala.fr/10.34847/nkl.b857z06c#2edc29e2fb265766b843e5635fea2d39f85de8b0" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.b857z06c/2edc29e2fb265766b843e5635fea2d39f85de8b0/full/full/0/default.jpg"/>signés les 17 et 18 février 1790. Les limites de l’ancienne généralité ont été suivies autant que possible dans la nouvelle division.</p>
         </div>
-        <div>
+        <div xml:id="r319681">
           <head rend="uc">Chapitre II
            <lb/>Le chef-lieu du département</head>
           <p>L’Assemblée Constituante consulte les électeurs eux-mêmes sur la fixation du chef-lieu de département. Ces électeurs sont choisis dans des assemblées primaires où se réunissent les citoyens actifs de chaque canton. Trois commissaires, nommés par le roi, surveillent ces assemblées primaires qui se tiennent le 3 mai 1790.</p>
           <p>Les électeurs du département se réunissent à Chauny le 17 mai. Laon et Soissons se disputent leurs suffrages. La grande majorité se prononce pour Laon ; conformément à ce vœu, l’Assemblée Constituante décrète le 2 juin que Laon sera le chef-lieu.</p>
         </div>
-        <div>
+        <div xml:id="r319696">
           <head rend="uc">Chapitre III
            <lb/>Les chefs-lieux de district</head>
           <p>Il n’y a pas de contestation pour les chefs-lieux des districts de Saint-Quentin, Laon, Soissons et Château-Thierry.</p>
           <p>Des villes concurrentes se disputent l’administration des deux autres districts ; l’Assemblée nationale consulte les électeurs intéressés. Ceux du district provisoire de Chauny, réunis dans cette ville le 26 mai, ne jugent pas utile de délibérer encore à ce sujet. Le 23 août suivant, l’Assemblée décrète que Chauny sera chef-lieu.</p>
           <p>Les électeurs du district provisoire de Guise se réunissent à Guise le 4 juin ; le 7, on vote sur la question du <pb source="https://nakala.fr/10.34847/nkl.b857z06c#4389089510deb6f04ba3898e6b42670dfed06120" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.b857z06c/4389089510deb6f04ba3898e6b42670dfed06120/full/full/0/default.jpg"/>chef-lieu. La ville concurrente, Vervins, ayant obtenu la majorité, le peuple de Guise menace les électeurs, dont une partie s’enfuit. Le décret du 16 juin confirme le premier vote des électeurs du district.</p>
         </div>
-        <div>
+        <div xml:id="r319719">
           <head rend="uc">Chapitre IV
            <lb/>Les municipalités de 1790
            <lb/>l’administration du district et celle du département</head>
@@ -200,7 +198,7 @@
           <p>Pour ce qui concerne plus spécialement les affaires du département, l’administration départementale n’est soumise qu’à l’inspection du Corps législatif.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r319777">
         <head rend="uc">Conclusion</head>
         <p>Il n’y a pas à proprement parler de révolution administrative en 1790 : l’organisation départementale de la Constituante est la résultante presque nécessaire de l’administration provinciale créée par l’édit de juin 1787.</p>
       </div>

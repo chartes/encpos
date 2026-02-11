@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1883_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1883_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -55,12 +53,12 @@
         <surname>Farges</surname>
         <roleName>Attaché au Ministère des Affaires étrangères</roleName>
       </byline>
-      <div>
+      <div xml:id="r120428">
         <head rend="uc">I
          <lb/>introduction.</head>
         <p>Objet et divisions de l’étude.</p>
       </div>
-      <div>
+      <div xml:id="r120440">
         <head rend="uc">II</head>
         <p>1° Près de quatre-vingts villes en Auvergne ont possédé des institutions municipales plus ou moins étendues.</p>
         <p>Liste de ces villes.</p>
@@ -76,7 +74,7 @@
          <lb/>conclusions.</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r120491">
         <head rend="uc">Pièces justificatives.</head>
         <p>Chaque élève publiera les positions de sa thèse sous sa responsabilité personnelle.</p>
         <p>(<hi rend="i">Règlement du 2 février</hi> 1866, art. 9.)</p>

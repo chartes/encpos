@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1942_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -69,10 +67,10 @@
         <head rend="uc">Liste des ouvrages consultés</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r628072">
         <head rend="uc">Première partie
          <lb/>Étude littéraire</head>
-        <div>
+        <div xml:id="r628080">
           <head rend="uc">Chapitre premier
            <lb/>les sources latines
            <lb/>de la vie de saint François d’assise.</head>
@@ -82,7 +80,7 @@
           <p>4. – Saint Bonaventure, appartenant à la tendance modérée et qui fut placé en 1257 à la tête de l’Ordre, y ramena le calme. Pour couper court à toute polémique, il composa en 1263 une nouvelle vie de saint François, la <hi rend="i">Legenda Major,</hi> qui, après 1266, fut seule admise dans l’Ordre. Deux additions y furent faites d’après la décision du ministre général Jérôme d’Ascoli (1274-1279).</p>
           <p>5. – Une compilation postérieure, les <hi rend="i">Actus beati Francisci,</hi> constitue l’original des <hi rend="i">Fioretti</hi> et a été utilisée par quelques traducteurs français.</p>
         </div>
-        <div>
+        <div xml:id="r628146">
           <pb source="https://nakala.fr/10.34847/nkl.dd9a15y6#70184853d4b14bdf314a64d7907e4e4d86af0dfa" n="115" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd9a15y6/70184853d4b14bdf314a64d7907e4e4d86af0dfa/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les légendes françaises en vers,
@@ -93,7 +91,7 @@
           <p>4. – La version B a ajouté à A le récit de la translation solennelle des reliques de saint François, sans doute d’après la <hi rend="i">Vita Secunda,</hi> ce qui nous aide à reconstituer le texte incertain de celle-ci.</p>
           <p>5. – Une troisième version (A<hi rend="sup">1</hi>), du <num>xiv<hi rend="sup">e</hi></num> siècle, se trouve dans le ms. Bibl. nat., fr. 2093. Elle reprend le texte de A, en y faisant quelques modifications : une addition, en particulier, est empruntée aux <hi rend="i">Actus</hi> ou à un texte analogue.</p>
         </div>
-        <div>
+        <div xml:id="r628223">
           <head rend="uc">Chapitre III
            <lb/>Les légendes françaises en vers
            <lb/>tirées de saint Bonaventure.</head>
@@ -105,7 +103,7 @@
           <p>5. – Un fragment anglo-normand d’une version <hi rend="i">D</hi> (ms. British Museum, Additional 43688 W) prouve que cette dernière, dont nous n’avons plus d’autre trace, a connu et utilisé <hi rend="i">C,</hi> mais que sa composition répondait à d’autres intentions.</p>
           <p>6. – La version en prose française (ms. Bibl. nat., fr. 9762) du <num>xiv<hi rend="sup">e</hi></num> siècle (version <hi rend="i">E</hi>) représente un dérimage d’une légende en vers antérieure. Elle ajoute un miracle à la <hi rend="i">Legenda Major</hi> traditionnelle. La version primitive en vers était peut-être légèrement antérieure à <hi rend="i">C.</hi></p>
         </div>
-        <div>
+        <div xml:id="r628297">
           <head rend="uc">Chapitre IV
            <lb/>Les légendes en prose.</head>
           <p>1. – Une première version isolée en prose française de la <hi rend="i">Legenda Major</hi> nous est transmise par les mss. Bibl. nat., fr. 430 et 9760. Elle a été composée en Italie, d’où proviennent les deux manuscrits. Indications sur la valeur respective de leurs leçons.</p>
@@ -114,7 +112,7 @@
           <p>3. – Les légendiers qui contiennent des vies de saint François sont peu nombreux et ont déjà été étudiés. Un premier type est celui des manuscrits Épinal, 9 ; Sainte-Geneviève, 587 ; Lille, 451 ; Bibl. nat., fr. 988. Leur récit est emprunté à la <hi rend="i">Vita Prima</hi> de Thomas de Celano, considérablement abrégée. Un deuxième type est représenté par le manuscrit d’Oxford, Queen’s College 305, qui utilise Julien de Spire. Il faut encore signaler les légendiers des manuscrits de Lille, 452, 453 et 454, qui contiennent des vies de saint François, ainsi que les diverses traductions de la <hi rend="i">Legenda Aurea</hi> de Jacques de Varazze.</p>
           <p>4. – Au <num>xvi<hi rend="sup">e</hi></num> siècle, quelques compilations françaises ont encore traduit tout ou partie des <hi rend="i">Actus,</hi> du <hi rend="i">Spéculum Perfectionis</hi>, de la <hi rend="i">Legenda Trium Sociorum</hi> et de la <hi rend="i">Chronique des XXIV généraux :</hi> ce sont les manuscrits Verdun, 76 ; Bibliothèque royale de Belgique, n° 3350 (4629-30) ; Bruges, 423.</p>
         </div>
-        <div>
+        <div xml:id="r628365">
           <head rend="uc">Conclusion</head>
           <p>Les légendes françaises de saint François d’Assise reflètent les vicissitudes de leurs originaux latins et nous permettent d’apercevoir la répercussion des querelles internes de l’Ordre franciscain. Elles avaient sans doute le but de favoriser son développement et constituaient pour lui, au même titre que les sermons, un moyen d’apostolat.</p>
         </div>

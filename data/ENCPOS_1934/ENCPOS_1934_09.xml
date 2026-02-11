@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -70,12 +68,12 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r540465">
         <head rend="uc">Chapitre préliminaire
          <lb/>historique de l’abbaye de Saint-Germain-des-Prés.</head>
         <p>L’abbaye de Sainte-Croix et Saint-Vincent fut fondée, vers 543, par le roi Childebert, à la demande de l’évêque de Paris, saint Germain. A partir du VII<hi rend="sup">e </hi>siècle, les religieux suivent la règle bénédictine. L’abbaye est en pleine décadence au <num>xiv<hi rend="sup">e</hi></num> siècle. Elle adopte la réforme de Chezal-Benoît au <num>xvi<hi rend="sup">e</hi></num>, et celle de Saint-Maur au <num>xvii<hi rend="sup">e</hi></num>. Elle est supprimée en 1792.</p>
       </div>
-      <div>
+      <div xml:id="r540499">
         <pb source="https://nakala.fr/10.34847/nkl.f45868ai#31e920798a19a4162077cb53da74912c80b678e3" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/31e920798a19a4162077cb53da74912c80b678e3/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Les origines du bourg Saint-Germain
@@ -83,14 +81,14 @@
          <lb/>Diverses théories sur les origines urbaines.</head>
         <p>Les théories « royaliste », « romaniste » et « ecclésiastique », adoptées tour à tour par les historiens français du <num>xix<hi rend="sup">e</hi></num> siècle, sont le résultat d’une généralisation trop hâtive, et ne correspondent pas à la réalité historique.</p>
         <p>Des historiens étrangers ont émis d’autres opinions. Pour certains (Arnold), c’est le droit public, le <hi rend="i">Staatsrecht,</hi> qui est à la base du droit de bourgeoisie. Pour d’autres (Nitzsch et Eichhorn), c’est le droit domanial, le <hi rend="i">Hofrecht.</hi> Wilda et Gierke attribuent une influence primordiale aux ghildes marchandes. Sohm et Huvelin voient dans l’application du droit de marché, le <hi rend="i">Marktrecht,</hi> aux bourgeois l’origine de la plupart des villes. Pirenne dit que la formation des villes est l’œuvre des marchands, et il fait de la renaissance urbaine la conséquence directe de la renaissance économique du <num>xi<hi rend="sup">e</hi></num> siècle. Il nie l’influence domaniale et monastique dans la création des villes du Moyen âge.</p>
-        <div>
+        <div xml:id="r540550">
           <head rend="uc">Chapitre premier
            <lb/>la formation d’un grand domaine.</head>
           <p>1. LA DONATION DE CHILDEBERT. – L’acte de fondation de la basilique par Childebert est un faux, daté du 6 décembre 558, et fabriqué au début du <num>xi<hi rend="sup">e</hi></num> siècle. Childebert donne à la basilique le lieu dit <hi rend="i">Locotitius, </hi>qui était contigu au jardin du palais des Thermes, mais ne faisait pas partie alors du fisc d’Issy. Il lui <pb source="https://nakala.fr/10.34847/nkl.f45868ai#1c0eec73b9faff05b0be2bb077545aa09805b9f9" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/1c0eec73b9faff05b0be2bb077545aa09805b9f9/full/full/0/default.jpg"/>concède les pêcheries de la Seine et il l’exempte des droits perçus sur le chemin de halage, le long du fleuve. Les moulins dont il est question dans le diplôme de Childebert n’ont été donnés à l’abbaye que sous le règne de Charles le Chauve, au <num>ix<hi rend="sup">e</hi></num> siècle.</p>
           <p>2. L’IMMUNITÉ ROYALE. ‘ – L’immunité dont jouit le monastère date du temps de Childebert. Elle est confirmée, en 772, par Charlemagne. L’abbaye est exempte de toute charge financière vis-à-vis du fisc et des fonctionnaires royaux, et elle perçoit les impôts à son profit.</p>
           <p>3. LE PRIVILÈGE DE SAINT GERMAIN, ÉVÊQUE DE PARIS. Le 21 août 566, saint Germain accorde au monastère un privilège qui l’émancipe de la tutelle de l’évêque de Paris. Liberté des élections abbatiales, libre gestion des biens de l’abbaye, exemption de toute charge financière, tels sont les principaux privilèges concédés. Nous ne considérons pas ce privilège comme une exemption, car il n’y est pas question de soustraire le monastère à la juridiction de l’Ordinaire, ni de le rattacher au Saint-Siège.</p>
         </div>
-        <div>
+        <div xml:id="r540589">
           <head rend="uc">Chapitre II
            <lb/>L’organisation du domaine
            <lb/>jusqu’aux invasions normandes.</head>
@@ -98,7 +96,7 @@
           <p>2. LE COMMERCE. LES PRIVILÈGES COMMERCIAUX. – L’activité commerciale du monastère était assez développée au <num>viii<hi rend="sup">e</hi></num> siècle et pendant la première partie du <num>ix<hi rend="sup">e</hi></num> siècle. Pépin le Bref, entre 752 et 768, avait accordé <pb source="https://nakala.fr/10.34847/nkl.f45868ai#cb0cb10c5cd8b9bcf55696e16b7649be36e6349f" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/cb0cb10c5cd8b9bcf55696e16b7649be36e6349f/full/full/0/default.jpg"/> à Saint-Germain une <hi rend="i">tractoria</hi> perdue aujourd’hui. Ce privilège est confirmé, en 779, par Charlemagne, qui concède en outre à l’abbaye le tonlieu de Villeneuve. Nous considérons ce privilège comme une exemption générale de tonlieux. Enfin, le 7 août 846, l’abbaye obtient de Charles le Chauve un <hi rend="i">praeceptum de navibus,</hi> applicable seulement aux transports par eau.</p>
           <p>Au <num>viii<hi rend="sup">e</hi></num> siècle, les commerçants du monastère fréquentent les grands ports de la Manche et de la mer du Nord. A partir du milieu du <num>ix<hi rend="sup">e</hi></num> siècle, le grand commerce est ruiné par les invasions normandes, et le rayon d’action du monastère se réduit à la région de la Seine et de ses affluents. Nous ne savons rien de précis sur l’organisation des transports effectués par l’abbaye.</p>
         </div>
-        <div>
+        <div xml:id="r540650">
           <head rend="uc">Chapitre III
            <lb/>Des invasions normandes au milieu du <num>xii<hi rend="sup">e</hi></num> siècle.</head>
           <p>1. RUINES MATÉRIELLES ET MORALES : LES INVASIONS NORMANDES (<num>ix<hi rend="sup">e</hi></num> SIÈCLE), LES ABBÉS LAÏQUES (<num>x<hi rend="sup">e</hi></num> SIÈCLE). Trois invasions successives, en 845-846, 856-862 et 885-886, contraignent les moines et leur <hi rend="i">familia</hi> à abandonner le monastère. Celui-ci est pillé par les Normands ; le pays est dépeuplé. De 897 à 979, trois abbés laïques, Robert, duc de France, Hugues le Grand et Hugues Capet gouvernent l’abbaye, à la tête de laquelle ils placent un gardien.</p>
@@ -106,7 +104,7 @@
           <p>A. <hi rend="i">Exemption interne.</hi> – Le privilège de Pascal II <pb source="https://nakala.fr/10.34847/nkl.f45868ai#dc21a509b81a61131ea0f7c66f911cb065102160" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/dc21a509b81a61131ea0f7c66f911cb065102160/full/full/0/default.jpg"/>(1107) marque une date importante dans l’histoire de l’exemption de Saint-Germain-des-Prés. Le pape soustrait le monastère à la juridiction de l’évêque de Paris, mais il ne le rattache pas encore au Saint-Siège. C’est au cours du <num>xii<hi rend="sup">e</hi></num> siècle que ce rattachement s’effectue. Dès 1144, le pape déclare que l’abbaye est propriété du Saint-Siège et ne relève que de la juridiction pontificale. La formule <hi rend="i">nullo mediante</hi> apparaît dans un privilège solennel de 1176.</p>
           <p>B. <hi rend="i">Exemption externe.</hi> – L’abbaye avait le droit de présentation aux cures situées sur son territoire. En 1159, ou 1176 au plus tard, les églises du bourg Saint-Germain sont soustraites à la juridiction de l’Ordinaire.</p>
         </div>
-        <div>
+        <div xml:id="r540728">
           <head rend="uc">Chapitre IV
            <lb/>La naissance du bourg.</head>
           <p>1. LE BOURG. – Le terme « bourg Saint-Germain » apparaît pour la première fois dans un privilège pontifical, en 1159. Vers 1180, les bourgeois de Saint-Germain sont au nombre de 118 environ ; ils ont un maire, une paroisse et tiennent à cens des maisons de l’abbaye. Il semble que le bourg n’était pas fortifié.</p>
@@ -114,28 +112,28 @@
           <p>A. Des <hi rend="i">hommes libres :</hi> a) <hi rend="i">vilains ;</hi> b) <hi rend="i">hôtes,</hi> qui sont probablement des libres puisqu’on les oppose aux serfs ; c) <hi rend="i">nobles,</hi> qui sont hommes liges de l’abbaye.</p>
           <p>B. Des <hi rend="i">serfs,</hi> qui sont la grande majorité. Ce sont des serfs de servitude personnelle. Ils sont soumis au <hi rend="i">formariage,</hi> mais on leur accorde fréquemment l’autorisation <pb source="https://nakala.fr/10.34847/nkl.f45868ai#54eec3e42f2078fb46088d3127a24affdc5f987b" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/54eec3e42f2078fb46088d3127a24affdc5f987b/full/full/0/default.jpg"/> de se formarier. Ils sont <hi rend="i">mainmortables.</hi> Dès la première moitié du <num>xii<hi rend="sup">e</hi></num> siècle, la tenure servile passe aux parents du serf mort, moyennant le versement d’un droit <hi rend="i">d’excidium.</hi> Ils ne peuvent entrer dans la cléricature sans autorisation. En 1058, Henri I<hi rend="sup">er</hi> accorde aux serfs de Saint-Germain le droit de <hi rend="i">témoigner en justice</hi> contre les hommes libres, et peut-être celui de prendre part aux duels judiciaires. Les serfs ne payaient pas de <hi rend="i">chevage.</hi> Ils étaient astreints à la <hi rend="i">taille à plaisir,</hi> aux <hi rend="i">corvées,</hi> à l’assistance périodique aux <hi rend="i">plaids généraux,</hi> au <hi rend="i">droit de prise,</hi> aux <hi rend="i">banalités</hi> de four et de pressoir et à de menues <hi rend="i">redevances.</hi> Ils prêtent <hi rend="i">serment de fidélité </hi>entre les mains de l’abbé. Beaucoup de ces serfs se font concéder divers offices par l’abbaye.</p>
         </div>
-        <div>
+        <div xml:id="r540838">
           <head rend="uc">Conclusion de la premiere partie</head>
           <p>L’origine du bourg Saint-Germain est à la fois domaniale et monastique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r540849">
         <head rend="uc">Seconde partie
          <lb/>Les chartes de franchise</head>
-        <div>
+        <div xml:id="r540857">
           <head rend="uc">Chapitre premier
            <lb/>étude des chartes de franchise.</head>
           <p>1. NATURE DE CES CHARTES. – L’affranchissement des hommes du bourg se fait en deux étapes. En 1174-1175, l’abbé Hugues accorde aux serfs une charte de franchise, et non une charte d’affranchissement. En 1250, l’abbé Thomas de Mauléon les affranchit de toute servitude.</p>
           <p>2. LA CHARTE DE 1174-1175. – Elle exempte les <pb source="https://nakala.fr/10.34847/nkl.f45868ai#981bc841ba96cff052c379adb1f7c67f96753676" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/981bc841ba96cff052c379adb1f7c67f96753676/full/full/0/default.jpg"/>serfs de la taille à plaisir, des corvées, de l’assistance aux plaids généraux, et de quelques redevances arbitraires. En échange, les serfs paieront un cens annuel de trois sous par feu. Cette charte est un abonnement.</p>
           <p>3. LA CHARTE DE 1250. – L’abbé l’accorde parce qu’il est à court d’argent, et qu’il veut peupler le domaine. Elle affranchit les serfs de la main-morte, du formariage et de toute servitude personnelle. Elle précise les droits que se réserve l’abbaye : <hi rend="i">justifia, dominium, coustumae.</hi></p>
         </div>
-        <div>
+        <div xml:id="r540883">
           <head rend="uc">Chapitre II
            <lb/>Les droits réservés à l’abbaye : la justice.</head>
           <p>1. LA PRÉVÔTÉ. – L’abbaye a toute justice au bourg Saint-Germain. Elle y a un pilori depuis 1275. A l’origine, l’abbé juge lui-même, assisté de <hi rend="i">jurisperiti.</hi> A partir du <num>xiii<hi rend="sup">e</hi></num> siècle au moins, il délègue la justice temporelle à un prévôt qui juge en premier ressort. La création du bailli de Saint-Germain est très obscure ; elle ne remonte peut-être pas au-delà des dernières années du <num>xiv<hi rend="sup">e</hi></num> siècle. Les assises jugent les affaires très importantes, et reçoivent les appels du prévôt. Elles sont tenues au moins à l’époque de la Chandeleur, et durent une quinzaine de jours. De l’abbaye, on fait appel au Châtelet, puis au Parlement. Depuis la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, Saint-Germain ressort nûment au Parlement. Les conflits sont fréquents entre le prévôt de Paris et celui de Saint-Germain. Le duel judiciaire est usité, au moins jusqu’au <num>xiv<hi rend="sup">e</hi></num> siècle. Dès le <num>xiii<hi rend="sup">e</hi></num> siècle, la preuve par enquête tend à s’y substituer. Les peines infligées sont très sévères.</p>
           <p>2. L’OFFICIALITÉ. – L’abbaye, étant exempte de l’Ordinaire, exerçait la juridiction spirituelle dans tout <pb source="https://nakala.fr/10.34847/nkl.f45868ai#4fee3a5ed88b3aedbea5a84638258e84d24b6db5" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/4fee3a5ed88b3aedbea5a84638258e84d24b6db5/full/full/0/default.jpg"/> le bourg Saint-Germain. L’abbé, au <num>xiii<hi rend="sup">e</hi></num> siècle, délègue ses pouvoirs à un official. Le premier official connu est mentionné en 1267. L’official est assisté du conseil de l’église, d’avocats, de procureurs et de notaires. Un promoteur apparaît au cours du <num>xiv<hi rend="sup">e</hi></num> siècle. On fait appel de l’officialité directement à la cour de Rome. L’official administre tous les intérêts religieux des paroissiens de Saint-Sulpice.</p>
         </div>
-        <div>
+        <div xml:id="r540949">
           <head rend="uc">Chapitre III
            <lb/>Autres droits réservés à l’abbaye.</head>
           <p>La <hi rend="i">juridiction gracieuse</hi> est exercée par les principaux officiers du monastère.</p>
@@ -145,22 +143,22 @@
           <p>Les bourgeois sont astreints aux <hi rend="i">banalités</hi> de four et de pressoir. Le four banal est situé rue du Four, et le pressoir, près de la porte Gibard. Ils sont affermés. La banalité de boucherie appartient également à l’abbaye.</p>
           <p><hi rend="i">Les bourgeois sont soumis à certaines redevances : </hi>cens de trois sous par feu ; offrandes dues à l’occasion des mariages et des relevailles ; droit de pâturage de deux deniers par tête de bétail ; droit de six de<pb source="https://nakala.fr/10.34847/nkl.f45868ai#ba5f5abb2ddc4a626971de19601270539417f4fc" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/ba5f5abb2ddc4a626971de19601270539417f4fc/full/full/0/default.jpg"/>niers pour les petits des animaux ; participation à la taille royale.</p>
         </div>
-        <div>
+        <div xml:id="r541008">
           <head rend="uc">Conclusion de la seconde partie</head>
           <p>Les bourgeois sont libres de leur personne, mais ne jouissent d’aucun droit politique. Le gouvernement est entre les mains de l’abbé et de ses officiers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r541019">
         <head rend="uc">Troisième partie
          <lb/>La vie du bourg du <num>xii<hi rend="sup">e</hi></num> au <num>xv<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r541039">
           <head rend="uc">Chapitre premier
            <lb/>étude topographique.</head>
           <p>1. INDÉPENDANCE DU BOURG. SES LIMITES. – Le bourg est une ville indépendante. En 1296, un arrêt du Parlement déclare qu’il ne fait pas partie des faubourgs de Paris. Limites du bourg : la Seine, au nord ; l’enceinte de Paris, à l’est ; le chemin d’Issy (rue de Vaugirard), au sud ; la rue Neuve Saint-Père et le chemin de Cassel, à l’ouest. Le bourg est une ville ouverte. Des fossés ont été creusés du côté de l’ouest, mais il n’y a pas trace de murailles.</p>
           <p>2. L’ABBAYE, LES RUES ET LES MAISONS. – L’abbaye est fortifiée. En 1368, l’enceinte est reconstruite, les fossés qui entourent le monastère sont élargis. Les rues principales mènent de l’abbaye à la porte de Bussy, à la porte Saint-Germain et au carrefour de la Croix-Rouge.</p>
           <p>3. LE PRÉ-AUX-CLERCS. – Il est très disputé entre l’abbaye et l’Université. Il sert de but de promenade aux habitants de Paris. Il est le théâtre de nombreux duels et de manifestations politiques et religieuses.</p>
         </div>
-        <div>
+        <div xml:id="r541057">
           <pb source="https://nakala.fr/10.34847/nkl.f45868ai#86e57160d285ec6b6d5ee90ab54107c05b7c8a89" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/86e57160d285ec6b6d5ee90ab54107c05b7c8a89/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les personnes et les biens.</head>
@@ -171,7 +169,7 @@
           <p><hi rend="i">D.</hi> Les <hi rend="i">Lombards.</hi> Des marchands de Sienne s’installent à Saint-Germain en 1251. L’abbé renonce à exercer sur eux le droit d’aubaine et le droit de représailles. Il en fait ses « bourgeois spéciaux » et les exempte de toute contribution arbitraire. Il perçoit sur eux un cens annuel de 70 livres parisis.</p>
           <p>2. LES BIENS. – La plupart des biens sont concédés en censive. Le cens est dû en argent. Le « chef cens » est payable à la Saint-Remi, et le « croix de cens », en quatre termes. Le non paiement du cens entraîne la saisie de la censive. L’abbaye exerce le <hi rend="i">retrait censuel.</hi> Baux à rente et constitution de rente. Pour effectuer ces deux opérations et pour vendre sa censive, le tenancier doit avoir l’autorisation du seigneur. A Saint-Germain, il est possible que cette autorisation ait été encore nécessaire au <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r541127">
           <head rend="uc">Chapitre III
            <lb/>La vie économique.</head>
           <p>1. L’EXPLOITATION DU SOL. – La culture dominante est celle de la <hi rend="i">vigne.</hi> L’<hi rend="i">élevage</hi> est assez développé. Plusieurs <hi rend="i">tuileries</hi> sont installées dans le bourg. La <hi rend="i">pêche</hi> est productive ; elle est une ressource de première importance et suscite de nombreux conflits.</p>
@@ -179,7 +177,7 @@
           <p>La <hi rend="i">corporation des bouchers</hi> est la première de la ville. En 1274, l’abbé crée seize étaux, situés le long de la rue des Boucheries. Il les concède à des habitants du bourg, moyennant un cens annuel de 20 livres tournois. En 1374, le cens est porté à 20 livres parisis. Bouchers, savetiers, chandeliers et pelletiers habitent le même quartier. Les cordonniers de Saint-Germain ont le privilège de travailler le cuir de basane. Les métiers sont distincts de ceux de Paris. Des jurés, élus par les membres de chaque corporation, et placés sous l’autorité du prévôt, sont chargés de surveiller la fabrication et la vente des marchandises.</p>
           <p>3. LA FOIRE SAINT-GERMAIN. – La date de sa fondation est inconnue. En 1176-1177, l’abbé concède à Louis VII la moitié des revenus de la foire. Elle commençait quinze jours après Pâques, et durait dix-huit jours. Elle se tenait sur la place du pilori et sur le Pré-aux-clercs. Elle était affermée tous les six ans. L’abbaye y exerçait la juridiction. En 1285, le roi rachète la seconde moitié des revenus de la foire, en échange de 40 livres parisis que l’abbaye devait annuellement à l’Université, et qui seront désormais payées par le roi. La foire Saint-Germain fut transportée aux Halles avant 1325.</p>
         </div>
-        <div>
+        <div xml:id="r541173">
           <pb source="https://nakala.fr/10.34847/nkl.f45868ai#866167425cfa2133ee848890196d602fcc90bafa" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/866167425cfa2133ee848890196d602fcc90bafa/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>La vie religieuse.</head>
@@ -191,7 +189,7 @@
           <p><hi rend="i">La chapelle Saint-Père</hi> est la première paroisse du bourg. Le curé de Saint-Sulpice y officie à certains jours de l’année. Un cimetière situé près de cette chapelle est réservé à la sépulture des étrangers.</p>
           <p>3. LA MALADERIE SAINT-THOMAS. – Une léproserie avait été fondée, à la sortie du bourg, sur la voie de Sèvres. L’abbaye en nommait l’administrateur et y exerçait toute juridiction. Les ressources de la maladerie étaient très insuffisantes, ce qui détermina le <pb source="https://nakala.fr/10.34847/nkl.f45868ai#5157f2ffb9b333cb3edcae1fb06f803462d5d2fd" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/5157f2ffb9b333cb3edcae1fb06f803462d5d2fd/full/full/0/default.jpg"/>Parlement, en 1548, à faire démolir les bâtiments et transférer les lépreux ailleurs.</p>
         </div>
-        <div>
+        <div xml:id="r541239">
           <head rend="uc">Chapitre V
            <lb/>Les rapports du bourg avec l’université,
            <lb/>l’évêque de Paris et le roi de France.</head>
@@ -209,11 +207,11 @@
           <p>Les habitants de Saint-Germain sont exempts du service de guet.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r541289">
         <head rend="uc">Conclusion de la troisième partie</head>
         <p>Le bourg Saint-Germain est une ville distincte de Paris, tant au point de vue topographique qu’au point de vue économique et religieux.</p>
       </div>
-      <div>
+      <div xml:id="r541299">
         <head rend="uc">Conclusions générales</head>
         <p>1. L’heureux équilibre réalisé entre l’autorité du monastère et la liberté des bourgeois répond à l’idéal social qui était celui de l’Eglise au Moyen âge.</p>
         <p>2. C’est grâce à cet équilibre que le bourg a survécu à la faillite des communes.</p>
@@ -223,7 +221,7 @@
         <head rend="uc">Pièces justificatives</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r541324">
         <pb source="https://nakala.fr/10.34847/nkl.f45868ai#65424caec27271caf5fb0922f9f3a0aca84da6ee" n="97" facs="https://api.nakala.fr/iiif/10.34847/nkl.f45868ai/65424caec27271caf5fb0922f9f3a0aca84da6ee/full/full/0/default.jpg"/>
         <head rend="uc">Appendices</head>
         <p>I. LISTE DE QUELQUES OFFICIERS.</p>

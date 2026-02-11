@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_17" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_17" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -56,12 +54,12 @@
         <forename>Pierre</forename>
         <surname>Le Gentilhomme</surname>
       </byline>
-      <div>
+      <div xml:id="r507416">
         <head rend="uc">Introduction</head>
         <p>I. <hi rend="i">Limites.</hi> – – Les dates de 1343 et de 1541 ont été retenues comme étant celles entre lesquelles l’existence du <hi rend="i">Serment d’Empire</hi> est légalement reconnue et tolérée en France.</p>
         <p>II. <hi rend="i">Sources.</hi> – La partie essentielle de notre documentation est constituée par le « registre vieux » des Parlements généraux, manuscrit latin 9070 de la Bibliothèque nationale, et le registre manuscrit 328 de la Bibliothèque de Genève, retrouvés par nous après avoir été considérés comme perdus. Elle a été ensuite enrichie par toute une série de chartes, de manuscrits, de registres, de minutes de notaires ou autres actes se trouvant dans les archives et biblio thèques de la Suisse, du Dauphiné, de la Provence en dehors de celles de Paris.</p>
       </div>
-      <div>
+      <div xml:id="r507441">
         <pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#5f0380ce1db4b5cfd15e31a2220ec9e0faf3ed58" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/5f0380ce1db4b5cfd15e31a2220ec9e0faf3ed58/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre premier
          <lb/>généralités et définitions.</head>
@@ -69,7 +67,7 @@
         <p>II. <hi rend="i">Les Communautés d’Ateliers.</hi> – Sont formées des compagnons de chaque Monnaie et de leurs prévôts élus.</p>
         <p>III. <hi rend="i">Les Serments.</hi> – La formation de <hi rend="i">Serments</hi> à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle et au début du <num>xiv<hi rend="sup">e</hi></num> siècle, associations groupant plusieurs communautés d’ateliers, est propre à la France et aux pays soumis à son influence (Flandre, Brabant et royaume d’Arles). On ne trouve aucune trace de <hi rend="i">Serments</hi> antérieurement à cette époque. A noter toutefois qu’à l’époque carolingienne, les monnoyers sont déjà soumis à l’obligation du serment et que leurs fonctions semblent héréditaires.</p>
       </div>
-      <div>
+      <div xml:id="r507504">
         <head rend="uc">Chapitre II
          <lb/>Formation du serment d’Empire.</head>
         <p>I. C’est dans le cadre du royaume d’Arles et de Vienne, sur la rive gauche du Rhône, au côté d’Em<pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#a496b6489e327fbb43b2211d5500e457019051bf" n="143" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/a496b6489e327fbb43b2211d5500e457019051bf/full/full/0/default.jpg"/>pire, que, parallèlement au Serment de France, se développe, dans la première moitié du <num>xiv<hi rend="sup">e</hi></num> siècle, une vaste association qui, dans ses Parlements généraux, finit par grouper, en un seul Serment, le <hi rend="i">Serment d’Empire</hi> et les monnoyers des différents Serments qui s’y font représenter : le Serment du Pape, pour le Comtat ; du roi Robert, pour la Provence ; du Comte de Savoie ; de l’Archevêque de Lyon, Pierre III de Savoie ; de l’évêque de Valence, Guillaume Il de Roussillon ; du Comte de Valentinois, Aimard IV ; de l’Archevêque d’Arles ; du Prince d’Orange ; du dauphin de Viennois et de l’Archevêque de Vienne dont les armes figurent au Grand Sceau du Parlement général.</p>
@@ -78,7 +76,7 @@
         <p>IV. La plupart des auteurs ont vieilli exagérément les origines du Serment d’Empire à la suite de A. de <pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#06399c531574c2f952d1e36ff3aa5898bad917a2" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/06399c531574c2f952d1e36ff3aa5898bad917a2/full/full/0/default.jpg"/>Barthélemy, dont l’opinion doit être rejetée, rien ne pouvant faire présumer l’existence du Serment d’Empire avant le <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         <p>V. <hi rend="i">Les monnoyers du Serment d’Empire</hi> sont d’abord les monnoyers de la <hi rend="i">Terre d’Empire,</hi> par opposition à ceux de France. Ils se définissent ensuite par rapport à l’Empire lui-même et revendiquent le titre d’officiers publics d’institution impériale ou pontificale : bref, le Serment de la Terre d’Empire devient le <hi rend="i">Serment du Saint-Empire,</hi> affectant ainsi un caractère universel cher aux conceptions des théologiens, des philosophes et des juristes du Moyen-âge.</p>
       </div>
-      <div>
+      <div xml:id="r507584">
         <head rend="uc">Chapitre III
          <lb/>Concession des privilèges.</head>
         <p>1. <hi rend="i">Causes de leur octroi.</hi> – Au <num>xiii<hi rend="sup">e</hi></num> siècle, les monnoyers, qui, jusque là, formaient une sorte de ministérialité domestique ou aulique, s’affranchissent mais risquent alors de perdre les avantages et la protection dont ils jouissaient à titre de commensaux du seigneur de la monnaie : des privilèges leur sont donc conférés en récompense des exigences du service personnel qu’ils s’engagent, par serment, à remplir en la Monnaie. Pour obtenir le respect et la confirmation de ces privilèges, les Monnoyers se groupent en <hi rend="i">Communautés</hi> et <hi rend="i">en Serments,</hi> font reconnaître par le seigneur l’existence légale de leurs associations et obtiennent des chartes de privilèges au début du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
@@ -93,7 +91,7 @@
         <p>IV. <hi rend="i">Restrictions.</hi> – Dès le <num>xiv<hi rend="sup">e</hi></num> siècle, les dérogations aux privilèges sont déjà fréquentes : en ce qui concerne le privilège de juridiction spéciale, les monnoyers se voient, d’abord, en matière civile, dans les actions réelles, puis dans les actions réelles et personnelles, soumis à la juridiction ordinaire ; quant aux immunités fiscales, ils sont obligés de contribuer aux tailles et impositions réelles mises par les communes. Enfin, bien que ces privilèges soient accordés aux monnoyers « ouvrants » et « non ouvrants », la jouissance n’en appartient qu’aux compagnons exerçant effectivement leur métier. Si les monnoyers continuent à obtenir des confirmations solennelles de leurs privilèges, ils ne parviennent plus à les faire observer malgré leurs réclamations incessantes.</p>
         <p>V. <hi rend="i">Médailles et laissez-passer.</hi> – Les monnoyers d’Empire en font usage, au <num>xvi<hi rend="sup">e</hi></num> siècle, pour se faire reconnaître des gabelliers, péagiers et pontonniers. Une <pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#d59c0382d2a722fc1a038c79d51dd5f97488213a" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/d59c0382d2a722fc1a038c79d51dd5f97488213a/full/full/0/default.jpg"/> des médailles les plus curieuses des <hi rend="i">monnoyers du Saint Empire</hi> porte l’écusson des de Coucils, prévots généraux de la Monnaie d’Avignon de 1531 à 1572.</p>
       </div>
-      <div>
+      <div xml:id="r507733">
         <head rend="uc">Chapitre IV
          <lb/>Le droit au métier.</head>
         <p>I. <hi rend="i">Monnoyers de nature ou de lignée.</hi> (<hi rend="i">Jure succes</hi><hi rend="i">sionis naturalis</hi>).</p>
@@ -106,7 +104,7 @@
         <p>b) <hi rend="i">à l’occasion d’une « croissance</hi> ». Parfois s’imposait une création en masse, la croissance (<hi rend="i">cres cencia</hi>), décrétée par le seigneur de la monnaie pour « complir » ses ateliers dégarnis et effectuée par les soins des compagnons du Serment pourvus d’une commission émanant des procureurs des communautés constitués en Parlement général.</p>
         <p>c) <hi rend="i">par grâce de Parlement.</hi> – Ces agrégations au Serment d’Empire avaient lieu <hi rend="i">par grâce et puissance de Parlement général.</hi></p>
       </div>
-      <div>
+      <div xml:id="r507816">
         <pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#94f4b17f5173e4d4d106d792f373376d803bc18d" n="148" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/94f4b17f5173e4d4d106d792f373376d803bc18d/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre V
          <lb/>Les communautés d’atelier.</head>
@@ -125,7 +123,7 @@
         <p>IX. <hi rend="i">Devoirs des compagnons.</hi> Dans l’atelier, les compagnons sont tenus à des devoirs généraux de bienséance et de politesse. La présence des femmes et des filles de compagnon à la Monnaie provoque des règlements encore plus stricts. Hors de l’atelier, leur vie devait être exemplaire, ils se devaient assis<pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#1892e0f7767984e877fc7084f08b227999efeaa5" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/1892e0f7767984e877fc7084f08b227999efeaa5/full/full/0/default.jpg"/>tance mutuelle et formaient des confréries en l’honneur de la Sainte Croix, grande fête des Monnoyers qui marquaient au signe de la croix les monnaies de la république chrétienne.</p>
         <p>X. <hi rend="i">Rang occupé par les compagnons dans la société de l’époque.</hi> – L’élite des monnoyers appartenait à la noblesse urbaine du midi qui ne méprisait pas les profits de la banque et de la ferme des monnaies, ou encore aux notaires, dont la formation juridique n’a pas été sans influence sur le développement du Serment d’Empire, mais la grande masse faisait généralement partie de la classe des artisans exerçant les métiers les plus divers.</p>
       </div>
-      <div>
+      <div xml:id="r508048">
         <head rend="uc">Chapitre VI
          <lb/>Les Parlements généraux.</head>
         <p>I. <hi rend="i">Histoire.</hi> – Depuis le second quart du <num>xiv<hi rend="sup">e</hi></num> siècle, tous les deux, trois ou quatre ans se réunissait à Vienne, à Valence, à Romans ou en Avignon, le jour de la fête Sainte-Croix, en mai, en Assemblée Générale des procureurs des communautés de monnoyers du royaume d’Arles et de Vienne. Cette assemblée, présidée par un <hi rend="i">prévôt général</hi> élu par les procureurs, portait le nom de <hi rend="i">Parlement général.</hi> Dans la seconde moitié du <num>xiv<hi rend="sup">e</hi></num> siècle, cette institution, originale et forte, atteint son apogée : le Serment d’Empire dépasse alors largement le cadre du royaume d’Arles et de Vienne et ses filiales françaises se font représenter aux Parlements généraux d’Empire. Au <num>xv<hi rend="sup">e</hi></num> siècle, les Parlements généraux ne réunissent plus que les procureurs des royaumes d’Arles et de Vienne et à la fin du même siècle, trouvant des entraves à leur réunion dans le Dauphiné <pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#f5ede23c239ff50033be41b8138e8628ab971f80" n="152" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/f5ede23c239ff50033be41b8138e8628ab971f80/full/full/0/default.jpg"/>puis dans la Provence française le foyer de leur activité se déplace vers la Suisse, la Savoie et le Piémont. Les derniers Parlements se tiennent au XVI<hi rend="sup">e </hi>siècle à Turin, à Chambéry, à Bourg-en-Bresse, à Genève, à Lausanne et enfin en Avignon où, de plus en plus désertés par les Procureurs du Serment d’Empire, ils cessent de se tenir après 1532.</p>
@@ -135,7 +133,7 @@
         <p>V. <hi rend="i">Chancellerie.</hi> – Un notaire ou secrétaire, dont la charge était viagère, administrait cette chancellerie dont un <hi rend="i">tarif</hi> nous a été conservé pour l’année 1469. En dehors de l’expédition des actes et autres écritures des Parlements généraux, les secrétaires rédigeaient des <hi rend="i">Livres</hi> ou <hi rend="i">Registres des Parlements généraux.</hi> Deux d’entre eux nous sont parvenus. Le premier ou <hi rend="i">Livre vieux,</hi> Bibliothèque Nationale, ms. lat. 9070, entrepris en 1392 par Adam de la Saulx, notaire de Romans et monnoyer de l’atelier de cette ville, comprend la copie d’un acte de 1342 et celle d’un registre primitif qui s’étendait des années 1350 à 1392 ; il se poursuit par le registre des actes des Parlements généraux tenus de 1392 à 1446. Le second, <hi rend="i">manuscrit</hi> 328 de la Bibliothèque de Genève, commencé en 1469 par M<hi rend="sup">e</hi> Colin, notaire de Bourg, comprend les actes des Parlements généraux ayant siégé à partir de cette date jusqu’en 1523. Un troisième livre avait été entrepris. Il est sans doute perdu.</p>
         <p><hi rend="i">Le Grand Sceau des Parlements généraux,</hi> mentionné dès 1345, a été gravé au plus tard en 1331. Deux chartes des Parlements de 1489 et 1563, conservées aux archives de Genève, sont encore munies de ce seau. Dans les mêmes archives, se trouve la charte du Parlement de 1518, mais le sceau du chapitre de Notre-Dame de Lausanne y a été rattaché à une époque très postérieure.</p>
       </div>
-      <div>
+      <div xml:id="r508173">
         <pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#2a5bd3afe7ec30353c13f05cf34152f74ae19d34" n="154" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/2a5bd3afe7ec30353c13f05cf34152f74ae19d34/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre VII
          <lb/>Les filiales du serment d’Empire
@@ -146,7 +144,7 @@
         <p>IV. Des monnoyers d’Empire se trouvent encore, jusqu’au <num>xvi<hi rend="sup">e</hi></num> siècle, à Bourges, dans les ateliers voisins de la Terre d’Empire, tels que Lyon, Villeneuve-lès-Avignon et Montpellier, enfin jusqu’à Bayonne.</p>
         <p>V. Dans la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle, la situation des compagnons d’Empire « ouvrant » dans le royaume de France périclite d’abord, en raison de la jalousie de métier montrée à leur égard par les compagnons du Serment de France, mais, surtout, par suite de l’hostilité croissante manifestée contre ces « Impériaux » par l’administration royale : il ne leur restait donc plus qu’à disparaître ou à obtenir du pouvoir leur assimilation et leur fusion avec les compagnons du Serment de France.</p>
       </div>
-      <div>
+      <div xml:id="r508226">
         <pb source="https://nakala.fr/10.34847/nkl.bd9cx7q3#04aa1f90de6311cc383cd4fbc73645e4b1ee1dda" n="155" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd9cx7q3/04aa1f90de6311cc383cd4fbc73645e4b1ee1dda/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre VIII
          <lb/>La décadence et la fin du serment d’Empire.</head>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,31 +60,31 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r355586">
         <head rend="uc">Première partie
          <lb/>Histoire monumentale</head>
-        <div>
+        <div xml:id="r355594">
           <head rend="uc">Chapitre premier
            <lb/>les origines</head>
           <p>Des débris romains trouvés dans des fouilles exécutées aux abords de la cathédrale prouvent que celle-ci s’élève à la place d’un monument gallo-romain, qui était peut-être le temple de Belenus mentionné par Ausone.</p>
           <p>A la fin du <num>iii<hi rend="sup">e</hi></num> siècle, saint Exupère fonde la première cathédrale, simple chapelle, qu’il remplace peu après par une basilique.</p>
           <p>D’après la tradition, Rollon rebâtit à la fin du <num>ix<hi rend="sup">e</hi></num> siècle la cathédrale incendiée par les Normands.</p>
         </div>
-        <div>
+        <div xml:id="r355624">
           <pb source="https://nakala.fr/10.34847/nkl.2f23zfi4#8c97f70e94beec891e2f1ed5003d00b79e803d13" n="138" facs="https://api.nakala.fr/iiif/10.34847/nkl.2f23zfi4/8c97f70e94beec891e2f1ed5003d00b79e803d13/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La cathédrale du <num>xi<hi rend="sup">e</hi></num> siècle</head>
           <p>A la suite d’un incendie, survenu vers 1044, l’évêque Hugues jette les fondements d’une nouvelle cathédrale, dédiée en 1077 sous l’épiscopat d’Eudes de Conteville (1050-1097), frère utérin de Guillaume le Conquérant.</p>
           <p>La cathédrale est achevée avant 1097. Essai de restitution de cette cathédrale ; ressemblance de son plan et de son élévation avec les abbatiales contemporaines de Saint-Étienne de Caen et de Jumièges. Comme cette dernière, elle possédait des tribunes occupant entièrement les croisillons, et un narthex. Preuves de l’existence de ce dernier.</p>
         </div>
-        <div>
+        <div xml:id="r355650">
           <head rend="uc">Chapitre III
            <lb/>Transformations de la cathédrale au <num>xii<hi rend="sup">e</hi></num> siècle</head>
           <p>En 1105, siège et prise de Bayeux par Henri I<hi rend="sup">er</hi> roi d’Angleterre. La cathédrale, dans laquelle se réfugient les habitants, est incendiée. Récit contemporain de Serlon, chanoine de Bayeux. Restaurations, et non reconstruction, à la suite de cet incendie.</p>
           <p>C’est encore la cathédrale d’Eudes de Conteville que Raoul le Tourtier admire vers 1110. Intéressante description laissée par ce moine.</p>
           <p>Un nouvel incendie provoque, en 1160, une restauration importante de la part de l’évêque Philippe de Harcourt (1142-1163). De son épiscopat doivent dater la décoration romane de la nef et les restes d’une arcature de la tour centrale.</p>
         </div>
-        <div>
+        <div xml:id="r355678">
           <pb source="https://nakala.fr/10.34847/nkl.2f23zfi4#2ba4dce5084bc621bd9c31739817198d99e7e1ba" n="139" facs="https://api.nakala.fr/iiif/10.34847/nkl.2f23zfi4/2ba4dce5084bc621bd9c31739817198d99e7e1ba/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Remplacement presque complet de la cathédrale
@@ -100,23 +98,23 @@
           <p>Construction des croisillons : la décoration de celui du sud est postérieure.</p>
           <p>Fin des grands travaux.</p>
         </div>
-        <div>
+        <div xml:id="r355747">
           <head rend="uc">Chapitre V
            <lb/>La cathédrale au <num>xiv<hi rend="sup">e</hi></num> siècle</head>
           <p>Les fondations des chapelles des collatéraux s’échelonnent de la fin du <num>xiii<hi rend="sup">e</hi></num> siècle jusqu’au milieu du <num>xiv<hi rend="sup">e</hi></num>. <pb source="https://nakala.fr/10.34847/nkl.2f23zfi4#9f00436439fb8080a41dc58fc3e5a86511e4ca4c" n="140" facs="https://api.nakala.fr/iiif/10.34847/nkl.2f23zfi4/9f00436439fb8080a41dc58fc3e5a86511e4ca4c/full/full/0/default.jpg"/>Elles sont toutes construites avant 1350. Surhaussement des voûtes de la salle capitulaire. On élève un tambour carré sur la croisée. La cathédrale est transformée en forteresse pendant la guerre de Cent ans, elle est fortifiée en 1355. Guillaume de Buret et Raoul de Reneval « capitaines de l’églize Notre-Dame de Bayex ».</p>
         </div>
-        <div>
+        <div xml:id="r355782">
           <head rend="uc">Chapitre VI
            <lb/>Construction de la tour centrale au <num>xv<hi rend="sup">e</hi></num> siècle</head>
           <p>On travaille à la restauration du tambour carré foudroyé en 1425, mais les travaux traînent en longueur, car tous les subsides sont réservés pour la restauration, beaucoup plus urgente, du reste de la cathédrale qui avait dû être fort éprouvée durant les récentes guerres. Bulle d’indulgences du pape Eugène IV en 1442, concernant ces travaux de restauration.</p>
           <p>Les travaux, toujours languissants de la tour centrale, sont activement poussés, de 1477 à 1479, par l’évêque Louis de Harcourt, qui voûte le tambour carré et le surmonte d’un étage octogonal. En 1486, le dôme de plomb peint et doré couronnant la tour est achevé.</p>
         </div>
-        <div>
+        <div xml:id="r355803">
           <head rend="uc">Chapitre VII
            <lb/>La cathédrale de 1562 à la Révolution</head>
           <p>Pillage de la cathédrale par les protestants en 1562 et 1563. Restaurations consécutives. Aménagements nouveaux au <num>xviii<hi rend="sup">e</hi></num> siècle. En 1700, l’évêque François de Nesmond élève un nouveau jubé en remplacement d’un autre qui datait du <num>xvi<hi rend="sup">e</hi></num> siècle. En 1713 et 1714, l’architecte Moussard couronne la tour centrale d’un dôme de pierre d’architecture classique, en remplacement du dôme de plomb détruit par un incendie en 1676. En 1778, mutilation du grand portail de la façade.</p>
         </div>
-        <div>
+        <div xml:id="r355827">
           <pb source="https://nakala.fr/10.34847/nkl.2f23zfi4#1ae658616998519c0c82d02a197c04f1993cbd26" n="141" facs="https://api.nakala.fr/iiif/10.34847/nkl.2f23zfi4/1ae658616998519c0c82d02a197c04f1993cbd26/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VIII
            <lb/>La cathédrale de la Révolution à nos jours</head>
@@ -129,15 +127,15 @@
           <p>Éphémérides de la construction de la cathédrale.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r355869">
         <head rend="uc">Deuxième partie
          <lb/>Description archéologique</head>
-        <div>
+        <div xml:id="r355877">
           <head rend="uc">Chapitre premier
            <lb/>le plan</head>
           <p>Plan roman ; plan au <num>xiii<hi rend="sup">e</hi></num> siècle ; plan actuel ; remarques sur les irrégularités de ce plan. Leur cause.</p>
         </div>
-        <div>
+        <div xml:id="r355895">
           <pb source="https://nakala.fr/10.34847/nkl.2f23zfi4#091b6a7de5c8d0c68c76dd873f0d07a752933806" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.2f23zfi4/091b6a7de5c8d0c68c76dd873f0d07a752933806/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Intérieur. La nef</head>
@@ -147,54 +145,54 @@
           <p>Étude de l’étage supérieur, postérieur d’une trentaine d’années environ aux collatéraux et au travail de renforcement des piliers inférieurs.</p>
           <p>Description de la décoration romane : sculptures des écoinçons et du parement. Collatéraux et chapelles ; leur description détaillée ; inscription de Bartole d’Anjou, chanoine de Bayeux au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r355948">
           <head rend="uc">Chapitre III
            <lb/>Le transept</head>
           <p>Le carré : ses piles d’angle sont modernes, mais sa voûte d’ogives renforcée par quatre liernes est ancienne. Ressemblance des profils avec ceux de la nef et des croisillons.</p>
           <p>Le croisillon nord : preuves de l’antériorité de la chapelle Saint-Pierre sur ce croisillon.</p>
           <p>Le croisillon sud : date comme l’autre de la seconde moitié <pb source="https://nakala.fr/10.34847/nkl.2f23zfi4#a06953bc39fe52e51a0a947e137743b898b7309d" n="143" facs="https://api.nakala.fr/iiif/10.34847/nkl.2f23zfi4/a06953bc39fe52e51a0a947e137743b898b7309d/full/full/0/default.jpg"/> du <num>xiii<hi rend="sup">e</hi></num> siècle ; mais il fut décoré après coup, intérieurement et extérieurement. Preuves du collage à la porte de fond du croisillon.</p>
         </div>
-        <div>
+        <div xml:id="r355977">
           <head rend="uc">Chapitre IV
            <lb/>Le chœur</head>
           <p>Description du chœur, du déambulatoire, des chapelles rayonnantes. Raisons pour lesquelles on peut dater cette partie de l’édifice de 1230 environ. Filiation de ce chœur. Il dérive de celui de Lisieux qui lui-même est inspiré de celui de Saint-Étienne de Caen. Pourquoi le chœur de Bayeux est antérieur de très peu d’années seulement à celui de Lisieux.</p>
         </div>
-        <div>
+        <div xml:id="r355989">
           <head rend="uc">Chapitre V
            <lb/>La crypte</head>
           <p>En creusant le tombeau de l’évêque Jean de Boissey (♰ 1412), on retrouve la crypte. Sa ressemblance avec celle de la Trinité de Caen ; comme cette dernière, elle remonte au <num>xi<hi rend="sup">e</hi></num> siècle. Statue tombale du chanoine Gervais de Larchamps (<num>xv<hi rend="sup">e</hi></num> siècle). Peintures murales.</p>
         </div>
-        <div>
+        <div xml:id="r356013">
           <head rend="uc">Chapitre VI
            <lb/>Extérieur. Façade</head>
           <p>C’est un type de la façade gothique normande. Portails latéraux, simplement plaqués contre les tours. Iconographie des tympans ; scènes relatives à la Passion et au Jugement dernier.</p>
         </div>
-        <div>
+        <div xml:id="r356025">
           <pb source="https://nakala.fr/10.34847/nkl.2f23zfi4#0e8777b1b94b6ae5cca0163ec37963fc40d0420e" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.2f23zfi4/0e8777b1b94b6ae5cca0163ec37963fc40d0420e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Les tours</head>
           <p>Quoique très remaniées, elles datent encore en partie du <num>xi<hi rend="sup">e</hi></num> siècle ; à cette époque appartiennent les salles des trois premiers étages. Les étages supérieurs ont été renforcés postérieurement à deux reprises différentes. 1° Au <num>xii<hi rend="sup">e</hi></num> siècle, sans doute après l’incendie de 1105, les deux derniers étages furent renforcés à l’extérieur, comme l’indiquent la mouluration des baies et divers autres détails qui forment autant de différences avec les étages inférieurs ; à l’intérieur, le dernier étage fut entièrement doublé à la tour du nord, en partie seulement à la tour du sud, où on distingue encore des traces de la maçonnerie primitive qui constitue, jusqu’à la naissance de la flèche, le noyau de cette tour : au-dessus des baies actuelles, départ des claveaux des anciennes baies. 2° A l’époque gothique, nouveau renforcement plus important, nécessité à l’intérieur et à l’extérieur par la construction des flèches. Les contreforts sont montés jusqu’à l’avant-dernier étage.</p>
         </div>
-        <div>
+        <div xml:id="r356054">
           <head rend="uc">Chapitre VIII
            <lb/>Extérieur de la nef</head>
           <p>Description de l’élévation latérale sud.</p>
           <p>Le croisillon sud. Iconographie du portail : les démêlés de saint Thomas de Cantorbéry avec Henri II ; son martyre. La première scène, faussement identifiée jusqu’à présent, représente l’expulsion du primat d’Angleterre par ordre de Henri H. Raisons pour lesquelles la décoration extérieure de ce croisillon semble postérieure à sa construction.</p>
           <p>L’abside. Sa ressemblance avec les absides de Coulances et de Saint-Etienne de Caen.</p>
         </div>
-        <div>
+        <div xml:id="r356072">
           <pb source="https://nakala.fr/10.34847/nkl.2f23zfi4#fafcdd9635ced52367979b6ac323b5a748bef444" n="145" facs="https://api.nakala.fr/iiif/10.34847/nkl.2f23zfi4/fafcdd9635ced52367979b6ac323b5a748bef444/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IX
            <lb/>La tour centrale</head>
           <p>Sa souche est romane. Le tambour carré du <num>xiv<hi rend="sup">e</hi></num> siècle fut voûté et surmonté d’un étage octogonal aux frais de l’évêque Louis de Harcourt (1477-1479). La corniche qui souligne la balustrade de la plate-forme indique le niveau où commence la construction du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r356102">
         <head rend="uc">Appendice</head>
         <p>Dépendances de la cathédrale.</p>
         <p>Trésor. Salle capitulaire. Musée lapidaire. Peintures et mobilier.</p>
       </div>
-      <div>
+      <div xml:id="r356115">
         <head rend="uc">Pièces justificatives</head>
         <p>Documents.</p>
         <p>Photographies ; dessins et profils (1-128).</p>

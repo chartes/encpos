@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1932_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -66,11 +64,11 @@
         <head rend="uc">Avant-propos</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r519086">
         <head rend="uc">Premiere partie
          <lb/>Organisation générale
          <lb/>et administration</head>
-        <div>
+        <div xml:id="r519096">
           <head rend="uc">Chapitre premier
            <lb/>transformation apportées dans la constitution
            <lb/>et le mode de combat des Dragons.</head>
@@ -83,14 +81,14 @@
           <p>En 1761, on avait déjà projeté de réformer tout le système qui régissait la Cavalerie, mais on dut attendre la fin des hostilités pour le faire. En février 1762, on adjoint aux Dragons le régiment des volontaires de Schomberg ; dans l’été de la même année, on réunit plusieurs conseils pour étudier le nouveau programme des réformes. Le projet présenté par le marquis de Poyanne est adopté dans presque toutes ses dispositions par l’ordonnance de décembre 1762.</p>
           <p>On avait proposé de réformer un ou deux régiments de Dragons, mais ils sont tous maintenus cependant et l’on ne fait que doubler les compagnies de chaque régiment pour en avoir deux seulement par escadron. L’opération de la réforme s’effectue le 5 avril 1763. Un certain nombre de Dragons par compagnie sont démontés, mais cela par mesure d’économie et pour le temps de paix seulement.</p>
         </div>
-        <div>
+        <div xml:id="r519154">
           <head rend="uc">Chapitre II
            <lb/>L’école d’équitation de Cambrai.</head>
           <p>Il ne reste que fort peu de documents sur cette école que l’on institua pour le perfectionnement des Dragons dans l’équitation. Le chef en est M. de la Porterie.</p>
           <p>Liste des officiers de chaque régiment qui y sont allés en détachement.</p>
           <p>Cette école très prospère fit des progrès rapides ; en 1768, le roi de Danemarck vint la visiter et on la supprima en 1770 par économie.</p>
         </div>
-        <div>
+        <div xml:id="r519172">
           <pb source="https://nakala.fr/10.34847/nkl.18b93ry8#53bfe7ceec1c75e79d9fb1c05f5d7c9c1a4d2956" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.18b93ry8/53bfe7ceec1c75e79d9fb1c05f5d7c9c1a4d2956/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Caractère et fonctions des Dragons, bas-officiers
@@ -111,7 +109,7 @@
           <p>La réforme s’opéra avec ordre dans le corps des Dragons, les capitaines les plus jeunes de commission furent réformés et replacés aux places vacantes à mesure qu’ils s’acquittaient de leurs dettes contractées vis-à-vis du Roi pendant la guerre de Sept ans.</p>
           <p>Mais la victime de ces changements fut le capitaine auquel on supprima, en lui retirant l’entretien de sa compagnie, tous les petits moyens de s’enrichir aux dépens du Roi. Aussi vit-on bien des capitaines bouder la réforme et parvenir souvent à dégoûter leurs hommes du service. Néanmoins le duc de Choiseul tint bon et il fut bien inspiré, car il chercha à faciliter par tous les moyens l’accession des gens de mérite aux grades supérieurs et à supprimer tout ce qui opposait l’intérêt du Roi aux intérêts particuliers.</p>
         </div>
-        <div>
+        <div xml:id="r519309">
           <pb source="https://nakala.fr/10.34847/nkl.18b93ry8#7ae412d591d2c8a8957e1b83175c448d244941fa" n="123" facs="https://api.nakala.fr/iiif/10.34847/nkl.18b93ry8/7ae412d591d2c8a8957e1b83175c448d244941fa/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Chevaux et remontes.</head>
@@ -131,12 +129,12 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r519398">
         <pb source="https://nakala.fr/10.34847/nkl.18b93ry8#dbe428fda1a8db2d5388c85169d3d39f8e7c873c" n="125" facs="https://api.nakala.fr/iiif/10.34847/nkl.18b93ry8/dbe428fda1a8db2d5388c85169d3d39f8e7c873c/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Tenue des régiments de Dragons
          <lb/>de 1762 a 1773</head>
-        <div>
+        <div xml:id="r519413">
           <head rend="uc">Chapitre premier
            <lb/>Aperçu général
            <lb/>sur l’histoire de la tenue.</head>
@@ -159,7 +157,7 @@
             <p>C’est en mai 1764 que les régiments reçurent la nouvelle tenue ; au début de 1765, un certain nombre de détachements partirent pour l’école de Cambrai où M. de la Porterie les vit et étudia en détail les qualités et les inconvénients de la nouvelle tenue. Le rapport qu’il envoya à la Cour constitue pour nous un document de premier ordre qui fut suivi, sur tous les points, pour l’établissement de l’ordonnance d’avril 1767 fixant définitivement et en détail l’habillement, l’armement et l’équipement des Dragons.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r519532">
           <head rend="uc">Chapitre II
            <lb/>Armement. Équipement. Harnachement.
            <lb/>Étude et description technique.</head>

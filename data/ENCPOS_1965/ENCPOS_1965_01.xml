@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1965_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1965_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,15 +56,15 @@
         <forename>Henri</forename>
         <surname>Brincard</surname>
       </byline>
-      <div>
+      <div xml:id="r858894">
         <head rend="uc">Sources</head>
         <p>Les principales sources consultées sont, d’une part, la correspondance politique (Angleterre) conservée aux Archives du ministère des Affaires étrangères et, d’autre part, leur équivalent anglais, le fonds <hi rend="i">State Papers</hi> (<hi rend="i">France</hi>) au <hi rend="i">Public Record Office.</hi> Ont été également utilisés les <hi rend="i">Additional Manuscripts </hi>du British Museum et les archives anciennes de la Marine et des Colonies conservées aux Archives nationales.</p>
       </div>
-      <div>
+      <div xml:id="r858920">
         <head rend="uc">Introduction</head>
         <p>Les grandes étapes de la carrière de Choiseul avant son entrée au ministère en 1758 ne l’ont guère familiarisé avec les questions anglaises : une brillante carrière militaire s’achève quand il est nommé, en 1754, ambassadeur auprès du pape, puis à Vienne. Quand il recueillit la succession du cardinal de Bernis, le 13 décembre 1758, comme ministre des Affaires étrangères, le succès de la guerre engagée avec l’Angleterre était déjà fort compromis à la suite des défaites continentales et des revers coloniaux. Choiseul tenta de rétablir la situation, mais en vain, car la poursuite des hostilités n’apporta qu’un surcroît de malheurs. Aussi ne lui resta-t-il plus qu’à négocier la paix la moins défavorable possible.</p>
       </div>
-      <div>
+      <div xml:id="r858930">
         <pb source="https://nakala.fr/10.34847/nkl.e1d2m4jq#2dc53a2e1f3b1b13d9402038330958abf6f219a4" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1d2m4jq/2dc53a2e1f3b1b13d9402038330958abf6f219a4/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La France et l’Angleterre
@@ -79,37 +77,37 @@
         <p><hi rend="i">La pêche à Terre-Neuve.</hi> – En refusant le privilège de l’exclusivité que Choiseul réclamait pour les pêcheurs français sur les côtes de Terre-Neuve, le Cabinet fit la preuve de la mauvaise volonté qui l’animait. Les rivalités entre les pêcheurs des deux nations provoquèrent de nombreux incidents que Choiseul s’efforça de régler à l’avantage de la France, mais ses efforts rencontrèrent si <pb source="https://nakala.fr/10.34847/nkl.e1d2m4jq#2b22b3f34867c7edd08b3d83386d390e6a5567a4" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1d2m4jq/2b22b3f34867c7edd08b3d83386d390e6a5567a4/full/full/0/default.jpg"/>peu de succès qu’en 1770, la situation de nos pêcheurs était plus précaire que jamais.</p>
         <p>Dans l’application du traité, si Choiseul avait réussi à fléchir l’intransigeance du Cabinet sur les questions financières moins importantes, l’Angleterre n’avait cependant jamais accepté de concessions, dès lors que ses intérêts commerciaux étaient directement en jeu.</p>
       </div>
-      <div>
+      <div xml:id="r858984">
         <head rend="uc">Deuxième partie
          <lb/>La revanche contre l’Angleterre</head>
         <p>La revanche contre l’Angleterre a-t-elle été la préoccupation dominante de Choiseul après le traité de paix ?</p>
-        <div>
+        <div xml:id="r858995">
           <head rend="uc">Chapitre premier
            <lb/>les principes directeurs de la revanche</head>
           <p>L’attitude de Choiseul reflète d’abord des sentiments d’anglophobie traditionnels à l’époque. Mais le souvenir de la guerre de Sept ans leur donne un caractère plus aigu, car les ambitions anglaises, visant à une hégémonie coloniale et maritime, se révèlent dans toute leur étendue. C’est donc dans une perspective surtout défensive, où la crainte l’emportait sur l’animosité, que Choiseul envisageait l’éventualité d’un conflit avec l’Angleterre. Mais cette guerre, défensive dans son principe, devrait devenir offensive dans son déroulement, car Choiseul se souvenait des funestes erreurs de la guerre passée. Aussi se mit-il en devoir de procurer au roi les moyens nécessaires à la guerre qu’il prévoyait.</p>
         </div>
-        <div>
+        <div xml:id="r859007">
           <head rend="uc">Chapitre II
            <lb/>Les moyens militaires</head>
           <p>Choiseul inspira des réformes heureuses qui dotèrent l’armée et la marine des officiers dont elles avaient besoin. Il se préoccupa également d’accélérer la construction navale et de moderniser l’artillerie.</p>
         </div>
-        <div>
+        <div xml:id="r859019">
           <head rend="uc">Chapitre III
            <lb/>La défense des colonies</head>
           <p>Un programme de fortifications fut arrêté pour mettre les Antilles et les îles de France et de Bourbon à l’abri d’une attaque ennemie, mais il ne reçut, faute de moyens financiers, qu’un commencement d’exécution.</p>
         </div>
-        <div>
+        <div xml:id="r859031">
           <pb source="https://nakala.fr/10.34847/nkl.e1d2m4jq#00d21384106db561192f6026770f2ca42a0c7e5c" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1d2m4jq/00d21384106db561192f6026770f2ca42a0c7e5c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le rôle des alliances</head>
           <p>La paix revenue, il convenait de refondre un système d’alliances qui avait engagé la France dans une guerre où elle n’avait pu combattre efficacement les ambitions anglaises. En cas de conflit avec l’Angleterre, le soutien de deux puissances nous était, à un degré différent, indispensable : celui de l’Autriche et celui de l’Espagne. De cette dernière, Choiseul attendait surtout une aide économique et militaire, particulièrement sur mer, mais il ne demandait à l’Autriche que d’empêcher l’Angleterre de nous nuire sur le continent. Les espoirs de Choiseul furent vite déçus, car aucune de ces deux puissances n’entra dans ses vues : l’Autriche songeait avant tout à sa rivalité avec la Prusse, et l’Espagne ne désirait pas voir accrus les privilèges commerciaux de la France.</p>
         </div>
-        <div>
+        <div xml:id="r859048">
           <head rend="uc">Chapitre V
            <lb/>Les projets franco-espagnols de guerre contre l’Angleterre</head>
           <p>Le ministre espagnol des Affaires étrangères, Grimaldi, irrité par les mauvais rapports de son pays avec l’Angleterre, proposa en 1766 à Choiseul un projet d’offensive générale, mais celui-ci, désireux de voir d’abord l’Espagne restaurer sa marine et ses armées, refusa de donner suite à des propositions qui dépassaient les moyens du Pacte de famille. Sans abandonner l’idée d’une guerre où l’Espagne jouerait un rôle, Choiseul ne se préoccupa en fait que de défendre l’alliance franco-espagnole contre un conflit immédiat, car une longue paix était nécessaire avant que la France et l’Espagne fussent en mesure de combattre avec succès l’Angleterre.</p>
         </div>
-        <div>
+        <div xml:id="r859060">
           <head rend="uc">Chapitre VI
            <lb/>Une offensive générale mêlée de diversion</head>
           <p>On a imputé à Choiseul de vastes desseins aux Indes et en Amérique, et même un projet de débarquement en Angleterre. Il n’est guère possible de trouver une unité entre ces différents projets, et l’élaboration de chacun d’entre eux en parut incertaine.</p>
@@ -118,27 +116,27 @@
           <p><hi rend="i">Choiseul et les projets de descente en Angleterre.</hi> – Le « Secret », dont les activités, dirigées par le comte de Broglie, se déroulaient à l’insu des ministres, élabora méthodiquement, après le traité de paix, un projet d’invasion de l’Angleterre. Mais la préparation et l’exécution d’un tel projet impliquaient la collaboration de Choiseul. Broglie trouva le moyen de faire endosser au ministre la responsabilité d’initiatives qu’il avait le premier favorisées. Choiseul se laissa d’autant plus facilement convaincre d’envoyer un officier, ami du comte de Broglie, Béville, en Angleterre pour reconnaître les possibilités d’une invasion, qu’il avait lui-même chargé d’une enquête semblable, en 1767, un officier écossais, Grant de Blairfindy. Le voyage de Béville en 1768 fournissait un prétexte pour soumettre à Choiseul des projets depuis longtemps formés. Mais Béville ne joua pas le rôle prévu. Le plan qu’il rédigea fut en quelque sorte un compromis entre les vues de Choiseul qui penchait pour une attaque limitée des deux ports anglais de Portsmouth et de Plymouth et les visées ambitieuses de Broglie qui méditait une invasion générale de l’Angleterre. Il semble que Choiseul, enfin mêlé directement à la préparation d’un projet dont la conception revenait au comte de Broglie, ne s’y soit intéressé que dans la mesure où il espérait pénétrer ainsi dans les arcanes d’une diplomatie dont on l’avait exclu jusqu’alors.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r859096">
         <head rend="uc">Troisième partie
          <lb/>Les conflits diplomatiques</head>
-        <div>
+        <div xml:id="r859104">
           <head rend="uc">Chapitre premier
            <lb/>le malaise de la paix</head>
           <p>La France et l’Angleterre, se soupçonnant l’une envers l’autre de projets hostiles, donnèrent à leurs relations un caractère méfiant. L’incident des îles Turques, au cours duquel des établissements anglais furent détruits par une expédition française, provoqua en Angleterre, en 1764, de vives réactions ; Choiseul, effrayé par leur ampleur, offrit aussitôt réparation. Si cette affaire n’eut pas de suite, c’est que toutes les attentions s’étaient portées sur un événement plus important : une diète extraordinaire se réunissait en Suède au début de 1765 à l’occasion de laquelle Choiseul espérait renforcer le « parti des chapeaux » traditionnellement attaché aux intérêts français. Mais l’Angleterre contrecarra ses vues et le parti qu’elle soutenait l’emporta.</p>
         </div>
-        <div>
+        <div xml:id="r859116">
           <pb source="https://nakala.fr/10.34847/nkl.e1d2m4jq#b531017ec27f64cd52a934eaead0859cb6573b90" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1d2m4jq/b531017ec27f64cd52a934eaead0859cb6573b90/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La rançon de Manille
            <lb/>et la première crise des Malouines</head>
           <p>En 1762, Manille avait échappé au pillage des Anglais en promettant une rançon de quatre millions de pesos que l’Espagne ne voulut pas acquitter par la suite ; des discussions se poursuivirent jusqu’en 1766, date où l’Angleterre exigea le payement de la rançon sans retard. Si l’Espagne songea à faire la guerre, Choiseul, qu’effrayait une telle perspective, proposa sa médiation. N’ayant trouvé aucun accommodement qui satisfît les deux parties, il parvint néanmoins à retarder la crise en faisant preuve d’habileté. Mais une nouvelle et plus grave contestation éclata à propos d’établissements que les Anglais avaient fondés en 1764 aux Malouines. L’Espagne en exigea l’évacuation au nom de l’article 8 du traité d’Utrecht. L’Angleterre n’accepta que si satisfaction lui était accordée sur la rançon de Manille ; mais l’Espagne ayant refusé cette transaction (octobre 1766), Choiseul intervint dans la querelle pour éviter qu’elle ne dégénérât en conflit. Il ne put faire accepter sa médiation, mais usa d’un subterfuge pour calmer les inquiétudes espagnoles.</p>
         </div>
-        <div>
+        <div xml:id="r859135">
           <head rend="uc">Chapitre III
            <lb/>La conquête de la Corse</head>
           <p>Choiseul avait signé avec Gênes, le 15 mai 1768, un traité aux termes duquel la France était chargée de la pacification de la Corse qu’elle recevrait en nantissement au cas où Gênes ne pourrait subvenir aux dépenses de l’opération. Rochford, l’ambassadeur anglais à Paris, avait éventé le secret des négociations francogénoises, mais n’avait pu s’informer du contenu exact du traité. N’en connaissant pas les clauses, Shelburne, le secrétaire d’État anglais, fut réduit à protester d’une manière générale contre l’intrusion française dans les affaires corses et chercha à dissimuler son embarras en laissant planer un doute sur les mesures que prendrait l’Angleterre si la France envoyait des troupes. Cette menace n’effraya guère Choiseul qui, sûr de son droit, se contenta de prodiguer des apaisements, alors qu’il faisait rapidement débarquer des forces militaires dans l’île. Le Cabinet contre-attaqua (29 mai 1768), en annonçant l’envoi d’un mémoire au ministre français sans en préciser les termes. Choiseul craignit un <hi rend="i">ultimatum </hi>de l’Angleterre, mais s’aperçut bientôt qu’il s’agissait plus de protestations générales que d’une exigence immédiate. Lorsque le Cabinet obtint communication du traité, il était trop tard pour intervenir et il ne put dissimuler son irritation d’avoir été à ce point dupé. L’annexion de la Corse, conçue habilement et réalisée avec audace, constitua pour Choiseul un des rares succès de sa politique.</p>
         </div>
-        <div>
+        <div xml:id="r859151">
           <pb source="https://nakala.fr/10.34847/nkl.e1d2m4jq#b6f0bea3432ec5307a4a43b54a120b5f916aad70" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.e1d2m4jq/b6f0bea3432ec5307a4a43b54a120b5f916aad70/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>La montée des périls</head>
@@ -147,7 +145,7 @@
           <p>Les intrigues françaises dans le nord ne firent donc que renforcer l’hostilité du Cabinet à l’égard d’un ministre qu’il accusa bientôt de chercher délibérément la guerre. Pourtant, au début de 1770, une telle perspective semblait encore redoutable à Choiseul.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r859175">
         <head rend="uc">Quatrième partie
          <lb/>La seconde crise des Malouines
          <lb/>et la chute du ministère</head>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,20 +56,20 @@
         <surname>Guénoun</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1086307">
         <head rend="uc">Introduction</head>
         <p>L’université de médecine de Montpellier a connu, dans la première moitié du <num>xiv<hi rend="sup">e</hi></num> siècle, la période la plus brillante de son histoire. Elle formait alors plus du tiers des médecins de la Chrétienté.</p>
         <p>L’oeuvre de Gérard de Solo qui fut, après la disparition d’Arnaud de Villeneuve et de Bernard de Gordon, la principale personnalité de cette université, permet de mieux comprendre cette période importante et de saisir les raisons du rayonnement montpelliérain.</p>
       </div>
-      <div>
+      <div xml:id="r1086326">
         <head rend="uc">Sources</head>
         <p>L’étude de l’oeuvre de Gérard de Solo repose essentiellement sur les textes suivants : <hi rend="i">Lectura super IX° Almansoris ; Introductorium juvenum ; Libellus de febribus</hi> (édition de Venise, Bonetus Locatellus, 1505) <hi rend="i">; Recepte super 1<hi rend="sup">am</hi> fen 4<hi rend="sup">i</hi> Canonis</hi> (Munich, Bayerische Staatsbibliothek, ms.lat. 251) ; <hi rend="i">Determinationes de situ spiritus et amore hereos</hi> (Erfurt, Wissenschaftliche Bibliothek, ms. Ampl F 270) ; <hi rend="i">Reportationes super Dietas universales Ysaci </hi>(Rome, Biblioteca apostolica vaticana, ms. Pal. lat. 1261).</p>
       </div>
-      <div>
+      <div xml:id="r1086360">
         <pb source="https://nakala.fr/10.34847/nkl.a7791ihm#bb413228f3364efa32a34e599cc10570f0d4fb9a" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.a7791ihm/bb413228f3364efa32a34e599cc10570f0d4fb9a/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>L’homme et ses écrits</head>
-        <div>
+        <div xml:id="r1086373">
           <head rend="uc">Chapitre premier
            <lb/>les données de la biographie</head>
           <p>Le nom français de Gérard de Solo est <hi rend="i">Guiraud de Solo alias Vierne.</hi> On le trouve dans les manuscrits sous la forme latine de <hi rend="i">Giraldus</hi> ou <hi rend="i">Geraldus de Solo alias Bierne, Vierne</hi> ou <hi rend="i">Wierna.</hi></p>
@@ -85,7 +83,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.a7791ihm#ee74c734a2850ccf34228965bf2aa3ee8b01c74d" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.a7791ihm/ee74c734a2850ccf34228965bf2aa3ee8b01c74d/full/full/0/default.jpg"/>
           <p>On ignore la date à laquelle il disparut, mais on peut supposer qu’il acheva sa carrière avant 1350. Aucun témoignage ne permet d’affirmer qu’il fut chancelier.</p>
         </div>
-        <div>
+        <div xml:id="r1086457">
           <head rend="uc">Chapitre II
            <lb/>Les traités composés par Gérard de Solo</head>
           <p>Gérard de Solo fut l’auteur de plusieurs commentaires scolastiques. Seuls ceux qui intéressaient directement la pratique médicale furent retenus par la postérité.</p>
@@ -98,10 +96,10 @@
           <p>D’autres traités ont parfois été attribués à Gérard de Solo, mais à tort, semble-t-il. Le <hi rend="i">Commentaire sur le Viatique de Constantin</hi> fut composé au <num>xiii<hi rend="sup">e</hi></num> siècle par un certain Geraldus Bituricensis. La <hi rend="i">Summa de modo medendi,</hi> elle aussi du <num>xiii<hi rend="sup">e</hi></num> siècle, doit peut-être être attribuée à Gérard de Crémone. Le <hi rend="i">Commentaire des aphorismes d’Hippocrate</hi> de la Bibliothèque de Metz, que lui attribuait E. Wickersheimer, est de maître Cardinalis. En revanche, un <hi rend="i">Commentaire sur la Tegni de Galien,</hi> conservé aux archives de la cathédrale d’Erfurt (Ms. med. 4), a peut-être été composé par Gérard de Solo.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1086580">
         <head rend="uc">Deuxième partie
          <lb/>L’oeuvre médicale</head>
-        <div>
+        <div xml:id="r1086588">
           <head rend="uc">Chapitre premier
            <lb/>les sources</head>
           <p>Les sources de l’œuvre de Gérard de Solo correspondent au programme universitaire institué au début du <num>xiv<hi rend="sup">e</hi></num> siècle par le pape Clément V. Les traités d’Hippocrate et de Galien servent de fondement à la théorie médicale ; les <hi rend="i">Aphorismes,</hi> la <hi rend="i">Tegni,</hi> les <hi rend="i">Pronostics,</hi> le <hi rend="i">De ingenio sanitatis</hi> et le <hi rend="i">De morbo et accidenti</hi> sont les principales œuvres utilisées. L’œuvre d’Aristote est très fréquemment citée dans les <hi rend="i">questiones</hi> et dans les passages emphatiques. Il semble que la formation des étudiants en arts ait été réformée au début du siècle.</p>
@@ -109,7 +107,7 @@
           <p>Gérard de Solo utilise les manuels salernitains du <num>xii<hi rend="sup">e</hi></num> siècle, <hi rend="i">Circa Instans</hi> de Platearius et <hi rend="i">Antidotaire</hi> de Nicolas. L’ouvrage de chirurgie qui lui <pb source="https://nakala.fr/10.34847/nkl.a7791ihm#f151e1cf97e1a0a046f6cda8156073d7d02bc3be" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.a7791ihm/f151e1cf97e1a0a046f6cda8156073d7d02bc3be/full/full/0/default.jpg"/> sert de référence est la <hi rend="i">Chirurgie</hi> de Lanfranc de Milan.</p>
           <p>Parmi les modernes, il cite Gérard (<hi rend="i">Bituricensis</hi>), auteur d’un <hi rend="i">Commentaire sur le Viatique,</hi> Jean de Saint-Amand, Simon de Gênes. Il cite Arnaud de Villeneuve et Bernard de Gordon, ses prédécesseurs montpelliérains, pour leurs <hi rend="i">expérimenta</hi> ou recettes personnelles. Il utilise les notes de ses contemporains sur les questions débattues et reprend sous une forme abrégée le contenu du <hi rend="i">De adinventione graduum</hi> de Jourdain de Turre pour répondre à la controverse sur la graduation des médicaments. Il complète ses sources par l’observation directe des pratiques des paysans et des guérisseuses.</p>
         </div>
-        <div>
+        <div xml:id="r1086698">
           <head rend="uc">Chapitre II
            <lb/>Gérard de Solo, représentant
            <lb/>de la médecine scolastique de son temps</head>
@@ -120,7 +118,7 @@
           <p>Sa <hi rend="i">Détermination sur l’amour héroïque</hi> peut être comparée au <hi rend="i">Commentaire de la chanson de Cavalcanti</hi> que compose, à la même époque, le médecin italien Dino del Garbo.</p>
           <p>Bien que très différente dans ses buts, son œuvre ouvrit ainsi la voie aux synthèses montpelliéraines de la fin du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1086741">
           <head rend="uc">Chapitre III
            <lb/>L’oeuvre thérapeutique de Gérard de Solo</head>
           <p>L’œuvre de Gérard de Solo fut composée dans la lignée de la littérature d’<hi rend="i">expérimenta</hi> qui fleurissait à Montpellier à cette époque. On désignait alors du terme d’<hi rend="i">experimentum</hi> un remède dont les vertus avaient été découvertes par l’expérience. Il est ainsi possible de vérifier la nature des progrès médicaux accomplis à cette époque.</p>
@@ -133,10 +131,10 @@
           <p>Gérard de Solo rejette les théories pharmacologiques sophistiquées élaborées au début du <num>xiv<hi rend="sup">e</hi></num> siècle par Arnaud de Villeneuve dans ses <hi rend="i">Aphorismi de gradibus.</hi> Il tente de construire une théorie plus proche de son expérience concrète, en se fondant sur le <hi rend="i">Canon</hi> d’Avicenne. Il donne dans son <hi rend="i">Introductorium juvenum</hi> un exposé des règles pratiques qu’il convient d’observer pour la composition des médicaments : graduation, dosage, moyens de connaître les qualités des médicaments, usage des médicaments simples et composés, règles de confection, tables des médicaments altératifs et évacuatifs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1086826">
         <head rend="uc">Troisième partie
          <lb/>Diffusion et rayonnement de l’oeuvre de Gérard de Solo</head>
-        <div>
+        <div xml:id="r1086834">
           <pb source="https://nakala.fr/10.34847/nkl.a7791ihm#b3ead290b813e5e6d89676216c7fe88c7a057f62" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.a7791ihm/b3ead290b813e5e6d89676216c7fe88c7a057f62/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la tradition manuscrite et imprimée</head>
@@ -145,7 +143,7 @@
           <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle, on assiste à l’apparition de la tradition imprimée. Deux éditions latines de l’œuvre de Gérard de Solo furent imprimées respectivement à Lyon, en 1504, par François Fradin et à Venise, en 1505, par Bonetus Locatellus pour la maison d’Octavianus Scottus. L’édition vénitienne reproduisait le texte de l’édition lyonnaise.</p>
           <p>Dans les premières années du <num>xvi<hi rend="sup">e</hi></num> siècle, fut édité sous le titre de <hi rend="i">Trésor des Poures</hi> d’Arnaud de Villeneuve, un recueil rédigé en français comprenant également des pratiques médicales des médecins montpelliérains du <num>xiv<hi rend="sup">e</hi></num> siècle. Une traduction du <hi rend="i">Commentaire du livre IX d’Almansor </hi>par Jean Piscis y figure sous le titre de <hi rend="i">Traictié des médecines.</hi> Jean Piscis y donne une version abrégée, mais fidèle, du texte latin. On recense neuf éditions au moins de ce texte. Celles-ci furent imprimées entre 1500 et 1567 à Paris, Lyon et Rouen. Elles assurèrent, sous une forme nouvelle, la survie de l’œuvre latine d’un médecin du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r1086934">
           <head rend="uc">Chapitre II
            <lb/>Le rayonnement de l’oeuvre de Gérard de Solo</head>
           <p>L’œuvre de Gérard de Solo fut utilisée et imitée par ses successeurs.</p>
@@ -155,11 +153,11 @@
           <p>Elle fut vantée au <num>xvi<hi rend="sup">e</hi></num> siècle par Symphorien Champier et Jacques Dubois.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1087018">
         <head rend="uc">Conclusion</head>
         <p>L’œuvre de Gérard de Solo constitue l’aboutissement des recherches menées à Montpellier au début du <num>xiv<hi rend="sup">e</hi></num> siècle dans le domaine pharmaceutique. Elle fut surpassée au <num>xv<hi rend="sup">e</hi></num> siècle par des compilations plus ambitieuses et plus savantes. Néanmoins la valeur des remèdes rassemblés et la commodité de sa présentation en assurèrent le succès jusqu’à la fin du XVI<hi rend="sup">e </hi>siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1087044">
         <head rend="uc">Édition de textes de Gérard de Solo</head>
         <p><hi rend="i">Recepte super primam fen quarti Canonis Avicenne.</hi> – <hi rend="i">Due determinationes magistri Geraldi de Solo.</hi> – <hi rend="i">Reportationes super Dietas universales Ysac</hi> (extraits). – <hi rend="i">Commentum in Ysagogen Johannitii</hi> (extrait). – <hi rend="i">Regimen per Dietam Geraldi de Solo.</hi> – <hi rend="i">Experimenta.</hi></p>
       </div>

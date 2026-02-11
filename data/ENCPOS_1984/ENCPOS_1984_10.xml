@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1984_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1984_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,22 +55,22 @@
         <forename>Guy-Michel</forename>
         <surname>Leproux</surname>
       </byline>
-      <div>
+      <div xml:id="r1110007">
         <head rend="uc">Introduction</head>
         <p>Dans le passé, les historiens ont insuffisamment tenu compte des conditions spécifiques qui président à l’évolution du vitrail au XVI<hi rend="sup">e </hi>siècle et ils ont eu trop souvent tendance à appliquer à la peinture sur verre des critères empruntés à d’autres domaines artistiques. D’où un certain nombre de décalages, notamment en matière de datation, entre leurs conclusions et celles auxquelles conduit l’étude, menée à travers les documents d’archives, des mécanismes qui aboutissent à la mise en place d’une verrière, depuis la décision prise par le commanditaire jusqu’à son exécution par le peintre-verrier.</p>
         <p>Les années 1540, où se manifestèrent les premières influences de l’École de Fontainebleau, et la décennie 1580, qui vit beaucoup d’ateliers cesser toute activité de peinture sur verre, représentent deux périodes charnières. Mais la seconde ouvre des perspectives trop suggestives pour qu’il soit question de les négliger : celles d’un métier en pleine mutation, dominé par un petit groupe d’artistes, autour des Pinaigrier. Ce sont donc les dernières grandes réalisations parisiennes, dans les années 1620, qui ont été choisies comme terme.</p>
       </div>
-      <div>
+      <div xml:id="r1110024">
         <head rend="uc">Sources</head>
         <p>Les dépouillements effectués au Minutier central des notaires de Paris ont porté sur une cinquantaine d’études. Ils ont été menés dans deux directions : recherche systématique, pour toute la période considérée, dans le fonds des études qui avoisinaient soit un bâtiment religieux, soit le domicile d’un peintre-verrier connu ; élargissement des sondages autour de la date ’de grands chantiers.</p>
         <pb source="https://nakala.fr/10.34847/nkl.e13as6e8#cdbee74ad7e3745da41d9b2aa49aa1d77919c208" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.e13as6e8/cdbee74ad7e3745da41d9b2aa49aa1d77919c208/full/full/0/default.jpg"/>
         <p>Aux Archives nationales, les séries H<hi rend="sup">5</hi>, L et LL ont fourni, entre autres documents, des pièces comptables et des délibérations d’assemblées paroissiales. La série Y (Châtelet de Paris) s’est révélée particulièrement riche pour l’étude de la vie corporative, de même que, pour celle du faubourg Saint-Germain-des-Prés, la sous-série Z<hi rend="sup">2</hi>. D’autres série (K et S, par exemple) ont été consultées avec moins de profit.</p>
         <p>Au Cabinet des manuscrits de la Bibliothèque nationale, le fonds français contient des recueils de pièces concernant les métiers (collection Delamare). Les manuscrits du baron de Guilhermy, le fichier Laborde et les <hi rend="i">Documents sur les artistes</hi> de G. Bapst ont été utilisés (nouv. acq. fr.).</p>
       </div>
-      <div>
+      <div xml:id="r1110057">
         <head rend="uc">Première partie
          <lb/>1540-1580</head>
-        <div>
+        <div xml:id="r1110065">
           <head rend="uc">Chapitre premier
            <lb/>le peintre-verrier dans son milieu</head>
           <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle, les conditions d’exercice des métiers tendaient à s’unifier d’un bout à l’autre de l’agglomération parisienne. Les peintres-verriers des faubourgs n’étaient pas assez nombreux pour former une corporation distincte de celle de Paris, dont les jurés avaient droit de visite sur leurs ateliers. A date fixe, la confrérie Saint-Marc réunissait donc, au prieuré Sainte-Croix-de-la-Bretonnerie, la totalité des maîtres de Paris et de banlieue que ne séparait aucun cloisonnement nettement marqué. L’édit de 1585-1597 atténua encore les barrières juridiques. Les ateliers se dispersaient sur toute l’étendue de la ville et de ses faubourgs au fur et à mesure de leur développement, réserve faite toutefois de nécessités spécifiques (conditions de superficie, d’éclairage et de distribution interne) qui incitaient plutôt les maîtres à reprendre des locaux déjà existants.</p>
@@ -82,7 +80,7 @@
           <p>Malgré la modestie des revenus qui était la règle la plus générale, les épouses des peintres-verriers n’avaient qu’exceptionnellement besoin d’exercer elles-mêmes une activité autre que domestique. Devenues veuves, elles n’étaient pas autorisées à reprendre l’atelier, même assistées de compagnons. Aussi se remariaient-elles assez fréquemment avec d’anciens confrères de leur premier mari. Cependant l’endogamie demeurait plutôt limitée, conséquence de l’ouverture de la profession. Sauf exception, les conjoints provenaient du même milieu social, celui des métiers.</p>
           <p>Le niveau d’instruction semble assez homogène, et, somme toute, assez peu élevé : la plupart des peintres-verriers savaient signer, mais rares étaient ceux qui possédaient des livres, sinon les volumes illustrés qui leur servaient de modèle ; la décoration de leur intérieur se limitait à quelques images pieuses qui constituaient aussi l’unique support concret de leurs sentiments religieux.</p>
         </div>
-        <div>
+        <div xml:id="r1110106">
           <head rend="uc">Chapitre II
            <lb/>La part du commanditaire</head>
           <p>Faute d’éléments de comparaison, les sources médiévales étant sur ce point difficiles à interpréter, il est malaisé d’apprécier les progrès du verre à vitre au cours du <num>xvi<hi rend="sup">e</hi></num> siècle. Jusque dans les années 1540-1550, il était rare qu’une maison, même cossue, eût toutes ses fenêtres garnies de losanges. Les marchés qui ne concernaient, encore au milieu du siècle, que les pièces principales des habitations se raréfient, alors que se multiplient ceux qui, au contraire, prescrivaient au peintre-verrier de compléter le vitrage, jusqu’alors partiel, d’un édifice.</p>
@@ -92,7 +90,7 @@
           <p>Grâce à la diffusion considérable qu’elle connut au <num>xvi<hi rend="sup">e</hi></num> siècle, l’estampe exerça une double influence sur l’art du vitrail : elle joua tout d’abord un rôle pédagogique en facilitant aux peintres-verriers la connaissance des grands maîtres français ou étrangers ; mais elle put aussi servir plus directement de modèle et être copiée, en tout ou en partie, dans une verrière. Si le commanditaire l’avait lui-même choisie, elle était alors jointe en annexe au marché et reproduite textuellement. Mais lorsqu’elle n’était qu’une source d’inspiration ou de documentation pour le peintre-verrier, les emprunts opérés par celui-ci se faisaient beaucoup plus sélectifs, au point d’être difficilement décelables quand le style du modèle était parfaitement assimilé par son utilisateur ; ce fut souvent le cas pour les gravures de l’École de Fontainebleau. Mis à part <pb source="https://nakala.fr/10.34847/nkl.e13as6e8#37d3145cdf03bad0e19d4bac32e8763382efe948" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.e13as6e8/37d3145cdf03bad0e19d4bac32e8763382efe948/full/full/0/default.jpg"/>quelques bibles illustrées, la plupart des recueils gravés inventoriés dans les ateliers étaient, à en juger d’après les thèmes iconographiques, destinés à la confection de vitraux civils, qui, à la différence des vitraux monumentaux, faisaient rarement l’objet de compositions originales.</p>
           <p>D’autres disciplines artistiques pouvaient également influer, à l’occasion, sur la peinture sur verre : les commanditaires s’adressaient parfois à des peintres pour fournir une esquisse ; dans ce cas, toutefois, il ne s’agissait que de dessins « au petit pied » et en aucun cas de cartons dont la réalisation nécessitait la prise en compte de trop d’éléments techniques (notamment l’épaisseur des réseaux de plomb) pour que le peintre-verrier pût s’en décharger sur autrui.</p>
         </div>
-        <div>
+        <div xml:id="r1110155">
           <head rend="uc">Chapitre III
            <lb/>La production</head>
           <p>L’outillage du peintre-verrier de la Renaissance ne différait de celui de ses prédécesseurs que par deux nouveautés : le tire-plomb, sorte de laminoir miniature, permettait la fabrication de plombs plus réguliers et plus minces, et partant moins résistants ; le diamant facilita grandement l’opération de découpe des pièces de verre, mais révéla surtout son efficacité pour les ouvrages de vitrerie : dans le vitrail monumental, en effet, les coupes savantes se firent plus rares, tandis que le travail au pinceau (grisaille, jaune d’argent ou sanguine) prenait davantage d’importance. Cet intérêt nouveau pour l’aspect pictural est sans doute à rapprocher de la très nette tendance à l’éclaircissement des verrières qui apparaît dans les années 1540.</p>
@@ -102,17 +100,17 @@
           <p>La personnalité de Nicolas Beaurain est plus difficile à cerner : on doit lui attribuer la <hi rend="i">Légende de saint Etienne</hi> dans le chœur de Saint-Étienne-du-Mont, qui lui fut commandée en 1541, quoique le style en soit assez archaïsant et ne cadre pas bien avec ce que l’on pensait savoir de l’auteur des verrières de la Sainte-Chapelle de Vincennes. C’est que, dans l’un et l’autre cas, il eut à se conformer très précisément à un modèle fourni par ses commanditaires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1110210">
         <head rend="uc">Deuxième partie
          <lb/>1580-1620</head>
-        <div>
+        <div xml:id="r1110218">
           <head rend="uc">Chapitre premier
            <lb/>les conditions nouvelles</head>
           <p>Après une période de ralentissement très net lié aux troubles civils, on assiste à une reprise importante de l’activité sous le règne de Henri IV. L’accroissement de la demande en vitres blanches compensa la baisse des <pb source="https://nakala.fr/10.34847/nkl.e13as6e8#ef05f55a08df9d6d2f502fad62ee1e173f7eac32" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.e13as6e8/ef05f55a08df9d6d2f502fad62ee1e173f7eac32/full/full/0/default.jpg"/>commandes religieuses, due en partie aux difficultés économiques, mais aussi à un progressif retournement du goût en faveur d’édifices bien éclairés. Toutefois, les charniers échappèrent à cette dernière tendance : au début du <num>xvii<hi rend="sup">e</hi></num> siècle, beaucoup furent garnis de vitres peintes. Le clergé, d’autre part, s’il encourageait souvent la pose de vitres blanches, ne se désintéressa pas pour autant du vitrail, imposant même de plus en plus fréquemment des modèles aux peintres-verriers.</p>
           <p>Quoique les premiers émaux formellement datés soient ceux de deux verrières de Montfort-l’Amaury, réalisées en 1543 et 1545, tous ceux que l’on peut relever sur des vitraux parisiens datables des décennies 1540-1550 semblent plutôt le fait de restaurations ultérieures ; le premier repère certain est présenté par la <hi rend="i">Parabole des conviés</hi> de Saint-Étienne-duMont, qui porte le chronogramme de 1568. Ce n’est qu’au cours des dernières décennies du siècle que l’emploi de peinture vitrifiable devint courant dans le vitrail monumental ; le procédé y fut toujours utilisé avec discrétion, et par les meilleurs peintres-verriers seulement : en effet, les techniques de fabrication et d’application des émaux étaient encore considérées comme un « secret » que tous les artistes étaient loin de posséder et dont l’apprentissage se faisait à prix d’or.</p>
           <p>En revanche, l’invention de la peinture vitrifiable révolutionna le vitrail civil, cantonné jusque-là à la grisaille et au jaune d’argent. L’iconographie surtout en fut transformée, faisant désormais une large place aux paysages, animaux et autres sujets prétextes à une floraison de couleurs.</p>
         </div>
-        <div>
+        <div xml:id="r1110251">
           <head rend="uc">Chapitre II
            <lb/>Vitriers et peintres sur verre</head>
           <p>Le déséquilibre croissant entre les commandes civiles et religieuses poussa certains maîtres, comme Jean Johannet ou André Riou, à abandonner totalement la peinture sur verre. Progressivement, une grande partie de la profession opéra cette reconversion ; la plupart des inventaires des dernières années du siècle ne recensent plus, dans les ateliers, que des marchandises destinées aux travaux de vitrerie. Certains peintres-verriers essayèrent néanmoins d’échapper à cette évolution, et, pour que la clientèle les distinguât de leurs confrères, ils accolèrent le titre de « peintre sur verre » au qualificatif corporatif de « maître vitrier ». Très peu, pourtant, parvinrent à s’affranchir de tout travail de vitrerie ; Nicolas Pinaigrier, qui céda à son gendre la moitié de son atelier et tout l’outillage servant à ce type d’ouvrages, fut de ceux-là, de même que, quelques décennies plus tard, Nicolas Charnus. Mais, en règle générale, la vogue des rondels, qui ne se démentait pas et gagnait même les édifices religieux, empêcha la plupart des peintres sur verre de délaisser le travail du verre blanc.</p>
@@ -120,7 +118,7 @@
           <p>La vie corporative ne fut en rien affectée par ces reclassements : il n’y eut de scission ni au sein du métier ni en celui de la confrérie.</p>
           <p>Socialement, tout se passe comme si l’ensemble de la corporation avait été tiré vers le haut par son élite de peintres sur verre. La pratique de l’apprentissage payant, d’abord liée à l’apparition des émaux, se généralisa. En conséquence, les apprentis se recrutaient désormais dans des familles plus aisées. L’endogamie progressait, sans que la différenciation des activités ne constituât un obstacle. Certaines alliances familiales purent même avoir des prolongements professionnels, les deux types de travaux se trouvant souvent complémentaires, surtout lorsque, au XVII<hi rend="sup">e </hi>siècle, les églises se dotèrent de vitreries blanches ornées de bordures émaillées. Certains peintres sur verre contractèrent toutefois des alliances plus flatteuses, dans le monde de la marchandise ou des petits offices, sans que cette ascension reposât sur un accroissement sensible de la richesse. Les fortunes supérieures à mille livres demeuraient l’exception. Mais, en abandonnant à d’autres une grande part du travail « mécanique », les peintres sur verre gagnèrent en considération sociale ; ils n’hésitaient plus à apposer leur monogramme ou leur signature au bas de leurs œuvres, et certains d’entre eux commencèrent à nouer des relations amicales ou familiales avec le monde de la peinture.</p>
         </div>
-        <div>
+        <div xml:id="r1110278">
           <head rend="uc">Chapitre III
            <lb/>Autour des Pinaigrier</head>
           <p>Il convient de revenir sur l’« inflationnisme généalogique » dont certains historiens ont fait preuve à l’égard de la famille Pinaigrier. Non seulement le mythique Robert Pinaigrier, parisien ou chartrain selon les auteurs, ne vit le jour que dans l’imagination de Félibien et Sauvai, mais le pseudo-Robert II ne vécut pas davantage. La famille est donc bien originaire de Beauvais, où Thibault Pinaigrier est connu en 1534 et 1562. Trois de ses fils, Jacques, Pierre et Nicolas, s’installèrent à Paris au milieu du siècle. L’un d’entre eux surtout, Nicolas Pinaigrier, acquit une réelle célébrité après y avoir exercé son art durant quarante années, de 1566 à 1606. Là encore, quoique l’on ait cru jusqu’ici à l’existence de deux personnages distincts, l’oncle et le neveu, les archives notariales prouvent qu’il s’agit bien d’un seul et même homme à qui l’on connaît deux adresses et quatre épouses. C’est sans doute lui qui a donné heu, à l’origine, à la légende du « bon » Pinaigrier, hypothèse que l’étude de son œuvre ne peut que renforcer.</p>
@@ -129,11 +127,11 @@
           <p>Ce sont là les seuls peintres-verriers de la fin du <num>xvi<hi rend="sup">e</hi></num> siècle dont on puisse encore mesurer, avec plus ou moins de bien-fondé, les talents. D’autres artistes pratiquaient toujours l’art du vitrail, mais ils étaient assez peu nombreux, les mêmes noms revenant assez régulièrement dans les marchés. Dans les premières décennies du <num>xvii<hi rend="sup">e</hi></num> siècle, le groupe des peintres-verriers semble s’être encore restreint. Les figures les plus en vue en étaient les cousins Louis et Jean Pinaigrier, les frères Porcher, <pb source="https://nakala.fr/10.34847/nkl.e13as6e8#7caa2f4ab4d09f684e924fd2ffc9058b53c06529" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.e13as6e8/7caa2f4ab4d09f684e924fd2ffc9058b53c06529/full/full/0/default.jpg"/>François et Claude, ainsi qu’un maître venu de Saint-Germain-des-Prés, à la faveur de l’édit de 1597, Nicolas Charnus.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1110378">
         <head rend="uc">Conclusion</head>
         <p>L’activité des peintres-verriers ne cessa pas avec les années 1620. En 1631, Antoine Sollignac signait les verrières du chœur de Saint-Eustache, qui tentaient, par un abandon presque total de la couleur, d’adapter le vitrail historié aux nouvelles exigences du goût. Mais ce fut un échec ; six années plus tard, le transept et la nef furent garnis, comme le seront par la suite l’ensemble des édifices, de vitreries blanches ornées de bordures émaillées. Les commandes de vitraux civils se maintinrent quelques années, avant de s’effondrer lorsqu’apparut la fenêtre moderne à deux battants garnie de carreaux. On avait pu croire au cours du <num>xvi<hi rend="sup">e</hi></num> siècle, que le vitrail serait capable de s’affranchir des formes architecturales. Cette attente se révéla illusoire. Un petit groupe de maîtres tenta de prolonger une tradition de peinture sur verre. Si l’on peut considérer <hi rend="i">a posteriori</hi> les vitres émaillées dont ils ornèrent plusieurs charniers comme le manifeste de leur résistance, leurs efforts demeurèrent sans lendemain. Les peintres-verriers durent se soumettre aux lois nouvelles édictées par les architectes, qui les contraignirent à devenir peu à peu des « vitriers ».</p>
       </div>
-      <div>
+      <div xml:id="r1110398">
         <head rend="uc">Pièces justificatives</head>
         <p>Comptes rendus des élections des jurés de la corporation (1552-1616). – Tableau des réceptions à la maîtrise (mêmes années). – Contrats d’apprentissage se rapportant à la famille Pinaigrier. – Marché pour des cartons de tapisserie passé par Guillaume Rondel, peintre-verrier. – Quatorze marchés pour des vitraux d’église (dont cinq sont toujours en place). – Cinq marchés de vitrerie ou de vitraux civils. – Inventaire de l’atelier de Nicolas Pinaigrier.</p>
       </div>

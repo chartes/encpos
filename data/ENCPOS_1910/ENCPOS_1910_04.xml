@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>H.</forename>
         <surname>Chobaut</surname>
       </byline>
-      <div>
+      <div xml:id="r337861">
         <head rend="uc">Introduction</head>
         <p>Sources ; renseignements sur les archives communales du département de Vaucluse ; travaux parus sur la question.</p>
       </div>
@@ -65,36 +63,36 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r337880">
         <head rend="uc">Premiere partie
          <lb/>Les consulats</head>
-        <div>
+        <div xml:id="r337888">
           <head rend="uc">Chapitre premier
            <lb/>la société au <num>xii<hi rend="sup">e</hi></num> siècle et l’origine des consulats</head>
           <p>Les Consulats, dans le Comtat comme dans la Provence, ont une origine purement féodale : leur apparition est le dernier terme de l’évolution décentralisatrice qui avait partagé le pouvoir unique des comtes entre les vicomtes, puis les viguiers et les châtelains.</p>
           <p>Tandis que le mouvement communal a commencé vers <pb source="https://nakala.fr/10.34847/nkl.9d36fe4d#42042206a5b82303e36166c6c0dafb7f9f41003f" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.9d36fe4d/42042206a5b82303e36166c6c0dafb7f9f41003f/full/full/0/default.jpg"/>1130, dans les grandes villes du Midi, les quelques consulats, que nous rencontrons dans les bourgs comtadins, ne sont probablement guère antérieurs au <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r337920">
           <head rend="uc">Chapitre II
            <lb/>Les institutions consulaires</head>
           <p>Nous n’avons, sur ces institutions, que bien peu de renseignements. Les consulats n’appartiennent pas aux mêmes classes dans toutes les localités : le consulat peut être un régime coseigneurial (l’Isle, Ménerbes) ; ailleurs, chevaliers ou prud’hommes le possèdent.</p>
           <p>Ces communes avaient, à peu près, les mêmes institutions qu’Avignon, dont l’influence sur elles a été très grande (consuls, juges, notaires, bulles, juridiction gracieuse, podestats, etc.).</p>
         </div>
-        <div>
+        <div xml:id="r337935">
           <head rend="uc">Chapitre III
            <lb/>Disparition des consulats</head>
           <p>Les consulats comtadins disparaissent vers le milieu du <num>xiii<hi rend="sup">e</hi></num> siècle, après une courte existence. Si les circonstances de cette chute varient, la cause primordiale est toujours la même : le commencement d’une évolution nouvelle vers la centralisation.</p>
         </div>
-        <div>
+        <div xml:id="r337953">
           <head rend="uc">Chapitre IV
            <lb/>Le « consulatus banni »</head>
           <p>Contrairement à ce qui se passe dans le reste du pays, les habitants des villages de la région Est du Comtat ont le produit des amendes de police rurale (<hi rend="i">bannum</hi>) ; ils <pb source="https://nakala.fr/10.34847/nkl.9d36fe4d#2316d58345998f1917c49c485b11fd09cca9502d" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.9d36fe4d/2316d58345998f1917c49c485b11fd09cca9502d/full/full/0/default.jpg"/>nomment des consuls pour percevoir ces amendes ; c’est le « consulatus banni », qui se confond avec le syndicat dans ces localités. Plusieurs d’entr’elles conservent leurs droits sur le « bannum » jusqu’à 1790.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r337975">
         <head rend="uc">Deuxième partie
          <lb/>Les syndicats</head>
-        <div>
+        <div xml:id="r337983">
           <head rend="uc">Première section
            <lb/>les institutions municipales</head>
           <div>
@@ -125,7 +123,7 @@
             <p>A partir de l’époque où ils acquièrent des pouvoirs administratifs, les syndics sont secondés par de nombreux officiers.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r338078">
           <pb source="https://nakala.fr/10.34847/nkl.9d36fe4d#862236560cb9b28991c4d1753f83477f4b70544f" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.9d36fe4d/862236560cb9b28991c4d1753f83477f4b70544f/full/full/0/default.jpg"/>
           <head rend="uc">Seconde section
            <lb/>la vie municipale</head>
@@ -172,7 +170,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r338223">
         <head rend="uc">Conclusion</head>
         <p>L’histoire du régime municipal présente donc, dans le Comté Venaissin, deux périodes distinctes : celle des consulats, du reste peu répandus, qui dure à peu près un demi-siècle, et celle des syndicats, depuis 1250 environ. De la simple procuration juridique originelle, par une lente et pacifique évolution, les communautés rurales du Comtat en sont arrivées à obtenir, tout comme les grandes villes, un vrai régime municipal. Au <num>xviii<hi rend="sup">e</hi></num> siècle, leur situation semble meilleure qu’en France, les charges financières et militaires étant moins lourdes, et le rachat des offices n’existant pas. Jamais, du reste, ces communautés n’ont eu de sceau, ou de juridiction : elles n’ont pu arriver à se dégager complètement du pouvoir seigneurial.</p>
       </div>
@@ -180,7 +178,7 @@
         <head rend="uc">Pièces justificatives</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r338248">
         <head rend="uc">Appendices</head>
         <p>N° I. – Fastes consulaires.</p>
         <p>N” II. – Statistique des syndics du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>

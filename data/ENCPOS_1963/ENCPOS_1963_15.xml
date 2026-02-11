@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1963_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,33 +55,33 @@
         <forename>Pierrette</forename>
         <surname>Limacher</surname>
       </byline>
-      <div>
+      <div xml:id="r845329">
         <head rend="uc">Catalogue des cartes</head>
         <p><hi rend="i">Carte géométrique du Haut-Dauphiné et de la frontière ultérieure, du comté de Nice et de la vallée de Barcelonnette,</hi> au 1/86.400<hi rend="sup">e</hi>, gravée ; minutes au 1/14.400<hi rend="sup">e</hi> ; réductions au 1/28.800<hi rend="sup">e</hi>, et au 1/86.400<hi rend="sup">e</hi>.</p>
         <p><hi rend="i">Carte géométrique de la délimitation de la France, de la Savoie et du Piémont,</hi> au 1/28.800<hi rend="sup">e</hi>, gravée ; minutes au 1/14.400<hi rend="sup">e</hi> ; réductions au 1/28.800<hi rend="sup">e </hi>(Institut géographique national).</p>
       </div>
-      <div>
+      <div xml:id="r845376">
         <head rend="uc">Sources</head>
         <p>Mémoires militaires conservés à l’Inspection du génie, aux Archives du Service historique de l’Armée, à l’Arsenal (coll. du marquis de Paulmy). Sur les ingénieurs, archives de l’Inspection du génie et de l’I.G.N., Archives de l’Isère, Archivio di Stato de Turin.</p>
       </div>
-      <div>
+      <div xml:id="r845386">
         <head rend="uc">Première partie
          <lb/>Le général Bourcet</head>
-        <div>
+        <div xml:id="r845394">
           <head rend="uc">Chapitre premier
            <lb/>l’homme</head>
           <p>Pierre Bourcet naquit le 1<hi rend="sup">er</hi> mars 1700 dans la vallée de Pragelas, qui devait être cédée à la Sardaigne en 1713. Il sortait d’une famille de soldats qui connaissaient bien les Alpes. Son père, dont la vie est une préfiguration de la sienne, fut son initiateur en la matière. Dès 1708 il servait dans les Alpes sous ses ordres. Il entra dans Lorraine-Infanterie en 1719 ; il reçut une lieutenance et devint élève de l’École d’artillerie de Grenoble. Mais il revint à l’infanterie pour être admis dans le corps du génie le 11 février 1729. Il fut envoyé à Briançon où il construisit le pont d’Asfeld. Pendant la guerre de la Succession de Pologne, au cours des campagnes d’Italie, il se distingua par son zèle et son habileté. La paix revenue, il eut la charge des places de Valence, Montélimar et Crest ; <pb source="https://nakala.fr/10.34847/nkl.ef57eqpo#c8fd6041b5e858fb07ede7ef4dc83548aa6e10b2" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef57eqpo/c8fd6041b5e858fb07ede7ef4dc83548aa6e10b2/full/full/0/default.jpg"/>en 1741, il devint ingénieur en chef de Montdauphin. En 1742, première année de la guerre de la Succession d’Autriche, il reçut la mission de diriger la marche de l’armée espagnole vers les états du roi de Sardaigne ; il devait dès lors ne plus cesser d’exercer des fonctions de maréchal des logis, notamment sur les théâtres d’opérations des Alpes : en 1744 auprès du prince de Conti, en 1745 du maréchal de Maillebois, en 1717 de Belle-Isle. En 1744, il était devenu capitaine, en 1745 lieutenant-colonel, en 1747 colonel. De 1748 à 1754 il dirige les levés de la carte des Alpes. En 1752, il se fit apprécier comme guide du marquis de Paulmy inspectant les Alpes. En 1759, en Allemagne, il est maréchal de camp. En décembre, il quitta son commandement pour une importante mission : la rectification de la frontière des Alpes avec la cour de Turin. Ce travail prouva l’estime qu’il inspirait au roi de Sardaigne et lui valut les louanges de Choiseul. En 1761, il reprit son rôle de conseiller auprès du prince de Soubise et du marquis de Castries, en Allemagne. En 1762, il eut charge de la correspondance des armées d’Espagne et d’Allemagne dont il dirigea, de Versailles, les opérations. Le 25 juillet 1762, il devenait lieutenant général. La guerre finie, il reprit ses fonctions d’ingénieur. Il s’occupait toujours de la délimitation. De 1765 à 1771 il dirigea une sorte d’école d’état-major. Sa dernière campagne fut celle de Corse ; il établit le système défensif de l’île. En 1775 il travailla encore à l’<hi rend="i">Atlas des places fortes.</hi> Il fut mis à la retraite en 1777. Le 10 mars 1778, il reçut le commandement en second du Dauphiné. Il mourut le 14 octobre 1780. Depuis 1770 il était grand-croix de Saint-Louis. Tous estimaient ses talents de stratège et ses connaissances des Alpes autant que sa personne.</p>
         </div>
-        <div>
+        <div xml:id="r845419">
           <head rend="uc">Chapitre II
            <lb/>Ses écrits</head>
           <p>Le général Bourcet a laissé de nombreux mémoires topographiques manuscrits concernant les Alpes. Ses <hi rend="i">Principes de la guerre de montagnes,</hi> édités, énoncent un système stratégique et tactique dont s’inspira Napoléon.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r845436">
         <head rend="uc">Deuxième partie
          <lb/>Les cartes</head>
-        <div>
+        <div xml:id="r845444">
           <head rend="uc">I. La carte géométrique du Haut-Dauphiné,
            <lb/>de la vallée de Barcelonnette
            <lb/>et du comté de Nice (1748-1754)</head>
@@ -121,7 +119,7 @@
             <p>Il n’y a qu’une carte qui soit directement dérivée de la précédente : la <hi rend="i">Carte des Alpes françaises réduite d’après celle du général Bourcet</hi> au 1/207.360<hi rend="sup">e</hi>. La <hi rend="i">Carte générale du Dauphiné</hi> de Capitaine (1787) s’en inspire également. En 1775, les levés de la frontière du sud-est furent poursuivis par le major du génie Darçon, mais ils furent interrompus en 1778.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r845589">
           <head rend="uc">II. Carte géométrique de la délimitation de la France,
            <lb/>de la Savoie et du Piémont (1760)</head>
           <p>Cette carte fut signée comme annexe du traité de Turin du 24 mars 1760. Les travaux furent exécutés de concert par les ingénieurs sardes et français <pb source="https://nakala.fr/10.34847/nkl.ef57eqpo#af381351b5f7023d89b413502114225754e5a655" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef57eqpo/af381351b5f7023d89b413502114225754e5a655/full/full/0/default.jpg"/>sous la direction de Bourcet et de Foncet de Montailleur, commissaire pour le Piémont.</p>
@@ -129,34 +127,34 @@
           <p>Les signes sont variés et la nomenclature riche.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r845613">
         <head rend="uc">Troisième partie
          <lb/>Les Alpes en 1748-1760
          <lb/>d’après les cartes et les mémoires</head>
-        <div>
+        <div xml:id="r845623">
           <head rend="uc">Chapitre premier
            <lb/>utilisation des cartes et des mémoires</head>
           <p>Au premier abord, la <hi rend="i">Carte géométrique du Haut-Dauphiné</hi> rebute l’homme moderne. Il faut l’utiliser avec les mémoires qui l’accompagnent. Ces guides détaillés destinés au militaire intéressent l’historien, l’économiste, l’archéologue. Il convient de les utiliser avec la <hi rend="i">Carte géométrique</hi> comme fond et de transformer le tout en cartes modernes. Cette méthode a beaucoup d’avantages ; elle fait embrasser d’un regard toutes les Alpes.</p>
         </div>
-        <div>
+        <div xml:id="r845643">
           <head rend="uc">Chapitre II
            <lb/>Routes et sentiers</head>
           <p>Les cartes militaires sont, en fait de routes, d’une incomparable richesse. Les mémoires sont souvent des itinéraires. La carte donne le réseau, les mémoires la valeurs des routes : « pour le canon », « pour les voitures », « pour les bêtes de charge », « pour les chevaux », « pour les piétons ». Nous avons tracé la carte des routes des Alpes d’après Montannel et la carte de Bourcet ; on voit que c’est <pb source="https://nakala.fr/10.34847/nkl.ef57eqpo#106ff78b175fe66547037f6e8e3caa2eb0ca67a3" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef57eqpo/106ff78b175fe66547037f6e8e3caa2eb0ca67a3/full/full/0/default.jpg"/>ici le relief et le climat qui commandent : seules trois routes sont relativement bonnes ; une multitude d’autres sont convenables pour les chevaux ; mais le réseau alpin est mauvais et à l’écart du réseau royal. En comparant avec la carte actuelle on voit que les trois premières catégories sont devenues des routes à grande circulation. Sur la feuille de Gap, nous avons porté les sentiers ; certains, dans les régions élevées, ont disparu.</p>
         </div>
-        <div>
+        <div xml:id="r845660">
           <head rend="uc">Chapitre III
            <lb/>La défense militaire</head>
           <p>Nous avons tracé la carte des fortifications par rapport aux routes : ce sont ces dernières qui ont commandé leur emplacement. Sauf les fortifications de Briançon, toutes sont en très mauvais état. Il n’y a pas de plan général de défense.</p>
           <p>En 1760, Bourcet fut chargé de rectifier la frontière. Le premier but est d’éliminer les enclaves et de tracer les lignes les moins équivoques, fixées par les cours d’eau et la ligne de crête des montagnes. Nous retiendrons surtout le souci stratégique : Bourcet s’efforçait de nous conserver les hauteurs et les communications qui nous donneraient l’avantage sur un ennemi éventuel.</p>
         </div>
-        <div>
+        <div xml:id="r845675">
           <head rend="uc">Chapitre IV
            <lb/>Autres possibilités d’étude</head>
           <p>La comparaison de la <hi rend="i">Carte du Haut-Dauphiné</hi> avec les cartes modernes montre une grosse augmentation de la surface boisée en Grande Chartreuse, en Grésivaudan, sur le rebord occidental du massif de Belledonne, en Valbonnais, Valsenestre...</p>
           <p>L’examen des cartes de Bourcet permet également des conclusions intéressantes pour l’étude de l’agriculture et de l’élevage, de l’hydrographie, de la population, de la toponymie, de l’implantation des chapelles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r845695">
         <head rend="uc">Annexes</head>
         <p>Tableau généalogique de la famille Bourcet. Carrières des ingénieurs, etc.</p>
         <p>Tableaux d’assemblage des cartes de Bourcet. – Les routes, les bacs, les gués, l’enneigement d’après Montannel et la <hi rend="i">Carte du Haut-Dauphiné.</hi> – Les fortifications d’après les mémoires et la <hi rend="i">Carte.</hi> – Les chapelles du comté de Nice d’après les mémoires et la <hi rend="i">Carte.</hi> – Tableau des signes des cartes. – Surfaces recouvertes par les mémoires. – Production d’huile dans le comté de Nice en 1749 d’après Bourcet. – Cartes de Bourcet mises en parallèle avec les cartes actuelles pour étudier l’hydrographie, les chemins, l’habitat, les forêts, les vignes, l’expression du refief.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1888_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1888_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Finot</surname>
         <roleName rend="uc">Licencié ès-lettres et en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r162596">
         <head rend="uc">Première partie
          <lb/>Le domaine de la couronne.</head>
         <p><hi rend="i">Flandre et Artois.</hi> – Traités avec les ducs de Bourgogne, touchant les villes de Lille, Douai et Orchies. – Don des châtellenies de Mortagne, Cambrai, Crévecœur et Arleux.</p>
@@ -77,10 +75,10 @@
         <p><hi rend="i">Dauphiné.</hi> – Acquisition des comtés de Valentinois et de Diois.</p>
         <p><hi rend="i">Italie.</hi> – Droits du roi sur Gènes, Pise, Lucques.</p>
       </div>
-      <div>
+      <div xml:id="r162700">
         <pb source="https://nakala.fr/10.34847/nkl.b3bb6ds7#87d93d790a8bdd6af93c94c3f103a9d7fa6e7cdf" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.b3bb6ds7/87d93d790a8bdd6af93c94c3f103a9d7fa6e7cdf/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie</head>
-        <div>
+        <div xml:id="r162711">
           <head rend="uc">Revenus ordinaires du roi.</head>
           <p>CHAPITRE I<hi rend="sup">er</hi>. – <hi rend="i">Cens, champarts, rentes, tailles.</hi></p>
           <p>CHAPITRE II. – <hi rend="i">Droits de mutation.</hi> Mesures prises pour assurer le paiement de ces droits.</p>
@@ -103,7 +101,7 @@
           <p>CHAPITRE XVI. – <hi rend="i">Modes d’accroissement du domaine : </hi>ventes, donations, retraits féodaux, pariages, confiscations.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r162845">
         <head rend="uc">Troisième partie
          <lb/>Revenus extraordinaires.</head>
         <p>CHAPITRE I<hi rend="sup">er</hi>. – <hi rend="i">Histoire des aides sous Charles VI.</hi> – 1° Dénominations des aides. – 2° Des aides au début du règne de Charles VI et de l’abolition des louages par Charles V. – 3° Des aides depuis leur abolition jusqu’à leur rétablissement (1380-1383). – Aide octroyé par les Etats-Généraux de mars 1381. – Impôts levés en Languedoc. – Impositions des blancs, des boissons et des draps en Normandie. – Emeute de la Harelle à Rouen (25 février 1382). – Assemblées de Compiègne et de Pontoise. – Rétablissement des aides (21 janvier 1383). – 4° Des aides depuis leur rétablissement jusqu’à la fin du règne. – Tuchins. – Projet d’un nouvel impôt en 1405. – Jean de Bourgogne abolit les aides (1<hi rend="sup">er</hi> octobre 1417). Aide sur les vins dans le diocèse de Paris (1418). Les Etats de décembre 1420 rétablissent les aides.</p>
@@ -115,7 +113,7 @@
         <p>CHAPITRE VII. – <hi rend="i">Des emprunts.</hi> – Emprunts forcés sur les officiers royaux, sur les églises. – Emprunts sur gage.</p>
         <p>CHAPITRE VIII. – <hi rend="i">Aides payées par</hi> le <hi rend="i">clergé.</hi> – Contribution du clergé aux aides ordinaires, autorisée par le pape ou par l’assemblée du clergé, influence de cette question dans l’affaire de la soustraction d’obédience. – Décimes octroyés au roi pour les affaires de l’église ou pour la défense du royaume.</p>
       </div>
-      <div>
+      <div xml:id="r162923">
         <head rend="uc">Quatrième partie
          <lb/>Administration financière.</head>
         <p>CHAPITRE I<hi rend="sup">er</hi>. – <hi rend="i">Chambre des comptes.</hi> – 1° Organisation et composition : Président clerc et président lai. – Maîtres clercs et lais, ordinaires, extraordinaires, subrogés. Subrogations et pensions de retraite. – Clercs d’en bas ou d’aval. – Garde des Chartes. – Greffier. – Procureur du roi. – Huissier.</p>

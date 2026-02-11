@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1988_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1988_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,11 +55,11 @@
         <forename>Anne</forename>
         <surname>Dubrulle</surname>
       </byline>
-      <div>
+      <div xml:id="r1158845">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Commentaire</head>
-        <div>
+        <div xml:id="r1158857">
           <head rend="uc">Chapitre premier
            <lb/>présentation</head>
           <p><hi rend="i">Structure du texte.</hi> – Le <hi rend="i">Spéculum Dominarum</hi> est un manuel dont le contenu était destiné à alimenter la piété et l’instruction morale et religieuse des femmes. Tout son enseignement est réparti en trois livres subdivisés en parties, distinctions et chapitres. Le premier livre s’intitule : <hi rend="i">De Condicionibus mulierum.</hi> Il comporte trois parties, dont la première (<hi rend="i">Quid sit mulier ex condicione nature</hi>) dresse un tableau des misères propres à la condition humaine. La deuxième partie (<hi rend="i">Quanta sit mulier ex addicione fortune</hi>) traite des devoirs liés à la qualité de reine. La troisième partie, intitulée : <hi rend="i">Qualis debeat esse regina ex infusione gracie,</hi> constitue l’essentiel de l’œuvre. Elle est formée de quatre distinctions portant successivement sur la grâce, les mœurs, les passions et les vertus. Le deuxième livre a pour titre : <hi rend="i">De Sapiencia mulierum.</hi> Il expose les avantages de la sagesse que toute femme doit chercher à acquérir. Le troisième livre, <hi rend="i">De Domo multiplici quam edificare debet regina vel quelibet alla domina, </hi>reprend la symbolique de la maison quadripartite que doit se préparer le chrétien : la maison extérieure (la demeure matérielle), la maison intérieure (la conscience), la maison inférieure (l’enfer) et la maison supérieure (le paradis). Le fond <pb source="https://nakala.fr/10.34847/nkl.dceai17e#255bc8025c73c16f721121bcd2f7cb35804e1b24" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.dceai17e/255bc8025c73c16f721121bcd2f7cb35804e1b24/full/full/0/default.jpg"/> de l’exposé est doctrinal et théologique. Aussi n’y cherchera-t-on pas l’originalité, mais bien plutôt la persistance d’une tradition.</p>
@@ -71,7 +69,7 @@
           <p>En 1376, le carme Blasius Andernarius a retraduit le texte français en latin, se prétendant l’auteur de ce <hi rend="i">Spéculum.</hi></p>
           <p><hi rend="i">Comparaison entre les traductions françaises.</hi> – Une comparaison entre le manuscrit français 610 contenant la traduction du début du <num>xiv<hi rend="sup">e</hi></num> siècle et le manuscrit français 1189, unique représentant de l’œuvre d’Ysamberd de Saint-Léger, fait ressortir des différences considérables. Si le franciscain qui a travaillé pour Jeanne de Navarre s’est montré très respectueux du texte latin, Ysamberd, quant à lui, a surchargé son <hi rend="i">Miroir</hi> de longues digressions morales. Un tableau synoptique permet de connaître les modifications que l’une et l’autre traductions ont apportées au texte latin. Des similitudes dans nombre de ces modifications conduisent à penser que le manuscrit que nous éditons est une copie imparfaite du texte du <hi rend="i">Spéculum Dominarum</hi> dont se sont servis les traducteurs.</p>
         </div>
-        <div>
+        <div xml:id="r1158989">
           <head rend="uc">Chapitre II
            <lb/>Le manuscrit : étude codicologique et formelle</head>
           <p><hi rend="i">Présentation du manuscrit.</hi> – Le texte du <hi rend="i">Spéculum Dominarum</hi> est conservé dans une unique copie de 1459 faite pour l’évêque de Nevers, contenue dans le manuscrit latin 6784 de la Bibliothèque nationale. Il y est précédé et suivi d’annotations diverses où l’on reconnaît, entre autres, la main de Jean d’Orléans, comte d’Angoulême, qui reçut le manuscrit en 1460.</p>
@@ -83,7 +81,7 @@
           <p><hi rend="i">Les erreurs de copie.</hi> – On rencontre des erreurs de copie à la fréquence moyenne de deux toutes les trois pages : Gardi est un copiste honnête. Les causes de ces erreurs sont diverses : mauvaise lecture, omission, interprétation fautive d’abréviations, erreurs de dictée intérieure, <hi rend="i">lapsus calami...</hi></p>
           <p><hi rend="i">La langue.</hi> – La langue du <hi rend="i">Spéculum Dominarum</hi> est influencée par l’usage vulgaire tant pour l’orthographe que pour la syntaxe. Le vocabulaire quant à lui reste classique. Le style de Durand de Champagne est fortement influencé par l’art de la prédication : à la composition méthodique du <hi rend="i">Spéculum Dominarum</hi> ont été sacrifiées la beauté et la pureté de l’expression.</p>
         </div>
-        <div>
+        <div xml:id="r1159060">
           <head rend="uc">Chapitre III
            <lb/>Les sources</head>
           <p><hi rend="i">Le « Spéculum morale ».</hi> – Durand de Champagne a usé abondamment de l’argument d’autorité. Dans le but d’identifier les nombreuses citations illustrant son œuvre, le <hi rend="i">Spéculum morale,</hi> encyclopédie morale de la fin du XIII<hi rend="sup">e </hi>siècle attribuée abusivement à Vincent de Beauvais, a été intégralement dépouillé, ce qui a permis d’y retrouver des passages entiers du <hi rend="i">Spéculum Dominarum. </hi>Ainsi vingt-quatre des cent trente chapitres du premier traité, vingt-cinq des trente et un chapitres du second traité, et dix-neuf pages des cinquante-neuf pages du troisième traité (ce qui équivaut à plus d’un tiers du texte) sont en fait la copie scrupuleusement fidèle de longs extraits du <hi rend="i">Spéculum morale.</hi> La manière dont Durand de Champagne a puisé ses emprunts dans cette encyclopédie est déroutante et plusieurs indices poussent à croire qu’il a eu accès à ce texte par l’intermédiaire d’une autre œuvre, vraisemblablement un miroir des princes.</p>
@@ -93,13 +91,13 @@
           <p><hi rend="i">Utilisation des sources.</hi> – Les citations étant rarement textuelles et leurs attributions étant souvent approximatives ou erronées, il apparaît que beaucoup de sources ont été citées de mémoire. Mais l’usage d’instruments de travail (concordances, répertoires de distinctions ou florilèges) est rendu incontestable par le nombre des citations entraîné par l’emploi de certains « mots-clés ».</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1159129">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Édition</head>
         <p>L’édition est établie d’après l’unique manuscrit conservé : le manuscrit 6784 du fonds latin de la Bibliothèque nationale.</p>
       </div>
-      <div>
+      <div xml:id="r1159145">
         <head rend="uc">Pièces annexes</head>
         <p>Édition des traductions françaises du chapitre 19 de la seconde distinction de la troisième partie du premier traité. – Index des sources scripturaires. – Index des sources littéraires. – Table des citations littéraires rectifiées.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1937_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1937_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,11 +56,11 @@
         <forename>Madeleine</forename>
         <surname>Durantet</surname>
       </byline>
-      <div>
+      <div xml:id="r576954">
         <head rend="uc">Avant-propos</head>
         <p>Il y a en France, au <num>xvi<hi rend="sup">e</hi></num> siècle, deux sortes de chancelleries : la grande chancellerie ; les petites chancelleries démembrées de la grande et établies auprès des Parlements. Le présent travail porte sur la grande, qui est itinérante à la suite du roi et du chancelier.</p>
       </div>
-      <div>
+      <div xml:id="r576970">
         <head rend="uc">Introduction</head>
         <p>On rend des actes intitulés au nom de François I<hi rend="sup">er </hi>en grande et en petite chancellerie, à Milan, pendant la première partie du règne. – Les petites chancelleries ayant une double origine, les unes royale, les autres féodale, ne sont pas soumises à un régime uniforme, en dépit des efforts de la royauté.</p>
         <pb source="https://nakala.fr/10.34847/nkl.da503r2p#782746ce82658308255b18c0bc239aa0f9716a75" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.da503r2p/782746ce82658308255b18c0bc239aa0f9716a75/full/full/0/default.jpg"/>
@@ -76,22 +74,22 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r577010">
         <head rend="uc">Première partie
          <lb/>Les actes de chancellerie</head>
-        <div>
+        <div xml:id="r577018">
           <head rend="uc">Chapitre premier
            <lb/>formulaire. – Exécution matérielle des actes.</head>
           <p>Au point de vue diplomatique, les actes de chancellerie se répartissent en trois catégories : chartes, actes sur double queue, actes sur simple queue. Aucune n’est inconnue auprès des cours souveraines. On ne respecte pas au sens strict la division en lettres de grâce et lettres de justice, ces dernières seules étant du domaine des petites chancelleries. La cire verte n’y est utilisée que pour les lettres de grâce de simple justice.</p>
         </div>
-        <div>
+        <div xml:id="r577030">
           <head rend="uc">Chapitre II
            <lb/>Parties communes aux actes.</head>
           <p><hi rend="i">Suscription.</hi> – Modifications apportées par la politique italienne du roi de 1515 à 1530. Bretagne. Comté de Blois.</p>
           <pb source="https://nakala.fr/10.34847/nkl.da503r2p#f89608ddb0136417da3f8952f4d600f23d1c2e8c" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.da503r2p/f89608ddb0136417da3f8952f4d600f23d1c2e8c/full/full/0/default.jpg"/>
           <p><hi rend="i">Clauses finales.</hi> – On appelle <hi rend="i">adresse</hi> la formule <hi rend="i">si donnons en mandement à...</hi> qui introduit ces clauses dans les actes de l’autorité royale.</p>
         </div>
-        <div>
+        <div xml:id="r577064">
           <head rend="uc">Chapitre III
            <lb/>Élaboration des actes. – Ordre de rédaction.</head>
           <p>Le sens des mentions de service s’est affaibli en vieillissant :</p>
@@ -101,14 +99,14 @@
           <p>Les rôles signés de la main du roi, les registres de secrétaires.</p>
           <p>Très souvent la date n’est pas celle du commandement : une règle unique et constante ne paraît pas être appliquée.</p>
         </div>
-        <div>
+        <div xml:id="r577100">
           <head rend="uc">Chapitre IV
            <lb/>Contrôle des lettrés.</head>
           <p>1. <hi rend="i">Signature du notaire.</hi> – Par suite d’une certaine spécialisation, l’expédition des actes directement émanés du souverain tend à se concentrer aux mains des secrétaires <pb source="https://nakala.fr/10.34847/nkl.da503r2p#7c6d4f954839e78152dbee44c256391761af84fd" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.da503r2p/7c6d4f954839e78152dbee44c256391761af84fd/full/full/0/default.jpg"/> des finances, au détriment des simples secrétaires du roi.</p>
           <p>2. <hi rend="i">Signature en queue du rapporteur.</hi> – – Maître des requêtes, général des finances, pour les « lettres de rapport » (catégorie d’ailleurs mal définie). Les référendaires, pourvus par commission érigée en titre d’office par François I<hi rend="sup">er</hi>, ne sont que des officiers de petite chancellerie et ils y jouent, pour le rapport des lettres, auprès du garde du sceau, un rôle analogue à celui des maîtres des requêtes auprès du chancelier. Un conflit incessant les oppose aux notaires et secrétaires du roi dont ils accaparent une partie des fonctions primitives.</p>
           <p>3. <hi rend="i">Contrôle du chancelier.</hi></p>
         </div>
-        <div>
+        <div xml:id="r577138">
           <head rend="uc">Chapitre V
            <lb/>Validation.</head>
           <p><hi rend="i">Le sceau.</hi> – Sceau de majesté (sceau du Dauphiné ; du Milanais ; sceau d’or appendu au traité du 18 août 1527). 11 est le seul exécutoire par tout le royaume, le seul dont on puisse se servir pour sceller toutes les lettres patentes.</p>
@@ -116,7 +114,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.da503r2p#3737abb2e982d96161723fae97b4aa1ff7528f1f" n="73" facs="https://api.nakala.fr/iiif/10.34847/nkl.da503r2p/3737abb2e982d96161723fae97b4aa1ff7528f1f/full/full/0/default.jpg"/>
           <p><hi rend="i">Signature du roi.</hi> – Apposée sur tous les actes émanés directement du roi, auxquels le souverain veut donner une garantie spéciale. Signe de validation indispensable aux actes de finances.</p>
         </div>
-        <div>
+        <div xml:id="r577171">
           <head rend="uc">Chapitre VI
            <lb/>Régences de Louise de Savoie.</head>
           <p>Pendant les deux régences (juin 1515-janvier 1516 ; octobre 1524-mars 1526), la chancellerie est dédoublée :</p>
@@ -129,29 +127,29 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r577205">
         <pb source="https://nakala.fr/10.34847/nkl.da503r2p#f2598d7311a2f95d89c5893301d6bae844ca1dcf" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.da503r2p/f2598d7311a2f95d89c5893301d6bae844ca1dcf/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Le personnel de la chancellerie</head>
-        <div>
+        <div xml:id="r577218">
           <head rend="uc">Chapitre premier
            <lb/>le chancelier.</head>
           <p>Grand officier de la couronne, chef de la chancellerie et de la justice, conseiller du roi : tels sont et demeureront les titres du chancelier. Sous François I<hi rend="sup">er</hi>, les titulaires jouissent, en outre, de pouvoirs étendus en matière de finances, dont ils possèdent même à certaines époques la superintendance. Au temps de Duprat, le chancelier est un véritable premier ministre ; mais le procès et la condamnation de Poyet (1542-</p>
           <p>1545) restreignent sa puissance ; au même moment l’élévation de ses rivaux futurs, les secrétaires d’Etat, un peu plus tard la division de son office (1551) – \ contre-partie de l’inamovibilité désormais attachée au titre, mais non aux fonctions – l’apparition du surintendant, puis du contrôleur des finances, vont diminuer son rôle, tant à la chancellerie que dans le gouvernement général du royaume.</p>
         </div>
-        <div>
+        <div xml:id="r577237">
           <head rend="uc">Chapitre II
            <lb/>Les officiers de chancellerie.</head>
           <p>Audiencier, contrôleur, chauffe-cire, valet de chaufferie exercent en cour à peu près les mêmes fonctions qu’aux <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles ; en petite chancellerie, ils <pb source="https://nakala.fr/10.34847/nkl.da503r2p#e22c0f2fed7e2fa84a8a4544b909784b0496e278" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.da503r2p/e22c0f2fed7e2fa84a8a4544b909784b0496e278/full/full/0/default.jpg"/>nomment des commis. Dès le règne d’Henri II, l’érection de ces commissions en titre d’office formé, la division même de ceux d’audiencier et de contrôleur fourniront, grâce à la vénalité qui s’est installée à la chancellerie comme dans les autres administrations du royaume, des ressources financières à la royauté et rendront de plus en plus théorique la surveillance de la grande chancellerie sur ses démembrements.</p>
           <p>Le grand correcteur et rapporteur des lettres de chancellerie n’apparaît pas sous le règne de François I<hi rend="sup">er</hi>, il n’est que l’ancien visiteur des lettres ; mais, à partir de cette date, l’office est toujours joint à une charge de conseiller au Grand Conseil, où le titulaire accomplit un service effectif.</p>
           <p>Huissier ; procureur.</p>
         </div>
-        <div>
+        <div xml:id="r577276">
           <head rend="uc">Chapitre III
            <lb/>Les notaires et secrétaires du roi.</head>
           <p>La condition de ces officiers, groupés dans le « Collège des clercs, notaires et secrétaires du roi, maison et couronne de France », et l’organisation de cette compagnie demeurent telles que les ont définies le « Grand Privilège » de 1482, les actes de 1485 (octroi de noblesse) et de 1496 (hiérarchie des membres boursiers du collège). Beaucoup ne voient dans la charge qu’un moyen de jouir de nombreux privilèges. Le monopole qui leur réserve la rédaction des actes royaux est en partie méconnu dans la pratique : nombreuses dispenses accordées par le roi aux greffiers des cours souveraines, existence des secrétaires de petite chancellerie.</p>
         </div>
-        <div>
+        <div xml:id="r577288">
           <pb source="https://nakala.fr/10.34847/nkl.da503r2p#7b7df0f079e706c3ba122de4a6bec8307bc55fb7" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.da503r2p/7b7df0f079e706c3ba122de4a6bec8307bc55fb7/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les secrétaires des finances.</head>
@@ -161,11 +159,11 @@
           <p>La charge de secrétaire de la guerre est jointe à celle de contrôleur général des guerres.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r577324">
         <head rend="uc">Conclusion</head>
         <p>Le développement du cabinet du roi, avec celui de la puissance des secrétaires d’État, l’affaiblissement prochain de celle du chancelier vont diminuer l’importance réelle de la grande chancellerie ; cela au moment même où les besoins financiers de la monarchie provoqueront, dès la mort de François I<hi rend="sup">er</hi>, une brusque multiplication des offices de chancellerie, des accroissements successifs du collège des notaires et secrétaires et, par suite, des augmentations renouvelées de la taxe des sceaux. Désormais, on verra grandir <pb source="https://nakala.fr/10.34847/nkl.da503r2p#cf29a941fac4c603b3af9efc3a45876b9ea98453" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.da503r2p/cf29a941fac4c603b3af9efc3a45876b9ea98453/full/full/0/default.jpg"/>l’indépendance des petites chancelleries qui conduiront le roi à imposer ses sujets afin de subvenir à l’entretien de nombreux officiers.</p>
       </div>
-      <div>
+      <div xml:id="r577343">
         <head rend="uc">Appendices</head>
         <div>
           <head rend="uc">I. Liste des chanceliers et des gardes des

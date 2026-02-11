@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1938_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1938_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,33 +55,33 @@
         <surname>Oursel</surname>
         <roleName>Licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r589785">
         <head rend="uc">Première partie
          <lb/>Les origines</head>
-        <div>
+        <div xml:id="r589793">
           <head rend="uc">Chapitre premier
            <lb/>naissance de l’agglomération dijonnaise.</head>
           <p>Le site de Dijon, au croisement de deux routes, explique la naissance de cette ville et son rôle historique.</p>
         </div>
-        <div>
+        <div xml:id="r589805">
           <head rend="uc">Chapitre II
            <lb/>Construction du « castrum ».</head>
           <p>Les invasions des Barbares obligent les habitants à se réfugier dans un <hi rend="i">castrum.</hi> Des découvertes successives attestent l’exactitude de la description très précise qu’en a donné Grégoire de Tours. Le nom d’Aurélien, qu’on cite pour dater cette construction, ne repose que sur une tradition orale.</p>
         </div>
-        <div>
+        <div xml:id="r589821">
           <pb source="https://nakala.fr/10.34847/nkl.e119294e#38bbb5302c4bac10c3f748f3704da734b7ab9ba5" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.e119294e/38bbb5302c4bac10c3f748f3704da734b7ab9ba5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Origines chrétiennes.</head>
           <p>L’évangélisation de Dijon est attribuée à saint Bénigne, martyrisé au <num>iii<hi rend="sup">e</hi></num> siècle. Grégoire de Tours raconte les circonstances qui décidèrent l’évêque Grégoire de Langres à reconnaître officiellement le culte de ce saint. Les Actes de saint Bénigne furent écrits vraisemblablement au <num>vi<hi rend="sup">e</hi></num> siècle, et se rattachent à un ensemble de récits hagiographiques qu’on désigne sous le nom de « cycle bénignien ». Dijon paraît devenir un important centre religieux ; les évêques de Langres, délaissant leur ville épiscopale, y résident fréquemment.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r589851">
         <head rend="uc">Deuxième partie
          <lb/>Dijon du <num>vi<hi rend="sup">e</hi></num> au <num>xii<hi rend="sup">e</hi></num> siècle
          <lb/>histoire interne
          <lb/>abrégé chronologique.</head>
         <p>Le <hi rend="i">castrum,</hi> possédé alternativement par le roi et par l’évêque de Langres, est, au <num>x<hi rend="sup">e</hi></num> siècle, disputé entre les maîtres successifs de la Bourgogne. Robert le Pieux parvient, en 1016, à s’en emparer, et Dijon devient la capitale du duché que son successeur, Henri, doit, en 1031, créer au bénéfice de son frère Robert.</p>
-        <div>
+        <div xml:id="r589888">
           <pb source="https://nakala.fr/10.34847/nkl.e119294e#6a55d6abb6f252d0e73c78d380f0bed32ee28205" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.e119294e/6a55d6abb6f252d0e73c78d380f0bed32ee28205/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>formation topographique.</head>
@@ -101,7 +99,7 @@
             <p>De l’incendie de 1137 naît l’unité topographique de Dijon. Pour réparer les ruines causées par le désastre, on entreprend aussitôt la construction d’une nouvelle enceinte, beaucoup plus vaste, qui englobe le <hi rend="i">castrum,</hi> le bourg et les autres quartiers nés en dehors des murailles primitives : au sud, le faubourg Saint-Pierre ; à l’est et au nord, les faubourgs de Saint-Michel, de Saint-Nicolas et de Notre-Dame, constitués sur l’emplacement du marché de Saint-Étienne.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r589984">
           <head rend="uc">Chapitre II
            <lb/>Institutions juridiques.</head>
           <div>
@@ -124,7 +122,7 @@
             <p><hi rend="i">Non-libres.</hi> – Les non-libres (<hi rend="i">servi, famuli, homines, clientes, servientes</hi>) se composent de trois éléments : les hommes du duc, les hommes des églises, les hommes du vicomte. Ils sont astreints à de nombreuses redevances, coutumes, corvées, banalités, etc... ; tous doivent payer une taille. Les familiers des églises acquittent un chef-cens souvent très faible. Le manque d’homogénéité de la population persiste encore à la fin du <num>xii<hi rend="sup">e</hi></num> siècle. Cependant le droit d’attrait que possède le duc lui permet d’accroître le nombre de ses hommes, dont la condition juridique s’améliore progressivement, par l’acquisition de quelques libertés.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r590155">
           <head rend="uc">Chapitre III
            <lb/>Vie économique.</head>
           <div>
@@ -139,17 +137,17 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r590227">
         <pb source="https://nakala.fr/10.34847/nkl.e119294e#e93353d4fe3bd60c964726f7de9af2f03b6342dc" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.e119294e/e93353d4fe3bd60c964726f7de9af2f03b6342dc/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Conclusion
          <lb/>la formation de la ville
          <lb/>et de la commune</head>
-        <div>
+        <div xml:id="r590244">
           <head rend="uc">1. Formation de la ville.</head>
           <p>Dijon ne constitue pas à l’origine une véritable ville ; elle n’a pas d’activité économique propre, pas de population bourgeoise ; les deux éléments qui composent l’agglomération : <hi rend="i">castrum</hi> et bourg, gardent longtemps leur individualité. Mais sa forteresse puissante, située en un point stratégique, assure à qui la possède la suprématie en Bourgogne. Le duc en fait sa capitale et sa présence contribue largement à l’expansion de Dijon, à son développement économique, à son évolution dans le sens urbain. Un progrès social se fait en même temps sentir ; il commence à se former une classe de bourgeois, jouissant de privilèges propres.</p>
         </div>
-        <div>
+        <div xml:id="r590258">
           <head rend="uc">2. Formation de la commune.</head>
           <p>L’établissement de la commune fait de ces bourgeois isolés une « personne morale » et crée entre eux un lien juridique. L’absence de documentation empêche de saisir les rapports probables du droit urbain avec une « coutume marchande ». Les marchés dijonnais, plus que les marchands immigrés, paraissent exercer une réelle influence sur la formation de la commune. La paix de la ville a pu naître de la franchise des cimetières, qui abritaient les marchés. <pb source="https://nakala.fr/10.34847/nkl.e119294e#055214cfa8da6307039557697e6051de68949e69" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.e119294e/055214cfa8da6307039557697e6051de68949e69/full/full/0/default.jpg"/>L’existence d’un droit et d’une paix propres à la ville nécessite la création d’une justice destinée à les sauvegarder ; la charte de commune en précise certains éléments.</p>
           <p>Les circonstances politiques et l’intervention personnelle du duc ont, enfin, joué un rôle important dans la naissance de la commune. Les embarras d’argent de Hugues III le décident à concéder à ses hommes une charte imitée de celle de Soissons. Les chartes de 1183 et 1187 constituent définitivement la commune. Elles n’en détaillent pas l’organisation intérieure, mais consacrent l’établissement d’un droit nouveau et d’un lien juridique entre les bourgeois, qui transforme la ville en une véritable « seigneurie collective ».</p>

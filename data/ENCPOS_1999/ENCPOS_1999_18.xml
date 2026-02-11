@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,18 +56,18 @@
         <surname>Claerr</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1346162">
         <head rend="uc">Introduction</head>
         <p>Le comté de Dammartin-en-Goële offre un exemple à même d’illustrer et de rendre intelligible dans sa diversité le « monde seigneurial », celui des seigneurs laïques et ecclésiastiques, à la fin du Moyen Age. Les dates extrêmes retenues sont de simples repères : celle de 1320 correspond au début d’une mutation locale du monde seigneurial, avec l’acquisition de la seigneurie de Thieux par la famille des Essarts, « notables » parvenus par la finance. En 1520, la reconstruction du comté, à la suite de la guerre de Cent Ans, est achevée : il est possible de dresser alors un bilan du renouvellement du monde seigneurial.</p>
         <p>Dans cette optique, le choix d’un espace bien délimité s’imposait, en l’occurrence une trentaine de villages ; le comté de Dammartin-en-Goële est un lieu d’observation bien situé, à proximité de Paris, au sein des riches plaines céréalières du nord-est de la région parisienne, aux frontières de la Champagne. Le comté est également l’un de ces espaces intermédiaires à la définition incertaine, dont la longue survie offre matière à réflexion.</p>
         <p>A la fin du Moyen Age, la question qui se pose aux historiens est celle de la conquête du sol, de l’invasion des campagnes et des seigneuries, par la bourgeoisie parisienne. Après les travaux d’Yvonne Bezard, d’Anne Terroine et de Guy Fourquin sur les relations entre les lignages nobles et les familles bourgeoises, il semble opportun de reprendre la question à la lumière d’études plus récentes, par exemple celles de Françoise Autrand et de George Huppert, afin d’analyser l’évolution des groupes sociaux, nobles, notables parisiens, « notables seconds », et celle de leur relation à la terre.</p>
       </div>
-      <div>
+      <div xml:id="r1346178">
         <pb source="https://nakala.fr/10.34847/nkl.24b430ly#f635009ac6fa88c7baec9bcb752a3ba84e1e81de" n="158" facs="https://api.nakala.fr/iiif/10.34847/nkl.24b430ly/f635009ac6fa88c7baec9bcb752a3ba84e1e81de/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Le comté de Dammartin-en-Goële bénéficie, pour la fin du Moyen Age, d’un fonds archivistique très riche, la série CA du Cabinet des titres du musée Condé à Chantilly : cette documentation abondante et variée est constituée d’archives domaniales (documents de gestion, baux à ferme, registres de tabellionage), seigneuriales (censiers, terriers) et féodales (cartulaires des fiefs, aveux et dénombrements).</p>
         <p>Pour aller plus loin dans la connaissance du monde seigneurial, en particulier de celle des temporels ecclésiastiques ayant des possessions dans le comté de Dammartin, il a été recouru à des informations plus disparates et partielles, recueillies aux Archives nationales et aux archives départementales de Seine-et-Marne et de l’Oise : seule cette confrontation permet d’obtenir des résultats relativement satisfaisants.</p>
-        <div>
+        <div xml:id="r1346195">
           <head rend="uc">Chapitre préliminaire
            <lb/>les lieux, les hommes et les temps</head>
           <p>La Goële est dotée d’un terroir riche et fertile. Elle bénéficie, d’après l’état des paroisses et des feux de 1328, de la densité d’habitants la plus élevée de la région parisienne, avec la châtellenie de Montmorency.</p>
@@ -77,11 +75,11 @@
           <p>Dès le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle, les comtes de Dammartin occupèrent une place de choix dans la faveur royale, mais certains en furent aussi les victimes : de 1400 à 1467, le comté changea huit fois de maître dans des conditions souvent dramatiques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1346220">
         <head rend="uc">Première partie
          <lb/>Anatomie d’un réseau féodal au <num>xiv<hi rend="sup">e</hi></num> siècle
          <lb/>(V. 1320-v. 1380)</head>
-        <div>
+        <div xml:id="r1346236">
           <head rend="uc">Chapitre premier
            <lb/>la seigneurie comtale. Définition et attributions</head>
           <p><hi rend="i">La seigneurie comtale : un domaine et des droits.</hi> – Le comté de Dammartin était, à la fin du Moyen Age, une circonscription mal définie, au statut ambigu. Bien rares étaient les limites précises et les territoires incontestés. Dès le <num>xiv<hi rend="sup">e</hi></num> siècle, le comté tend à être assimilé à une châtellenie parmi d’autres, dans la prévôté et vicomté de Paris.</p>
@@ -93,7 +91,7 @@
           <p>Des solidarités royales et parisiennes se renforçaient autour du « groupe du nord de l’Ile-de-France », dominé par des parvenus au service du roi et spécialement de ses finances, comme les des Essarts, seigneurs de Thieux, et Robert de Lorris, seigneur d’Ermenonville. Attentifs à servir, en même temps que l’Etat, leur propre ascension sociale, ils perturbèrent le monde seigneurial du comté. Loin d’affaiblir ce puissant groupe, la « révolution de 1358 », menée par le prévôt des marchands Etienne Marcel, ne fit qu’assurer l’emprise de ces parvenus anoblis sur le nord de l’Ile-de-France.</p>
           <p>A la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, le comte de Dammartin ne disposait plus, en dehors de ses privilèges honorifiques, que de pouvoirs judiciaires strictement limités et de quelques droits.</p>
         </div>
-        <div>
+        <div xml:id="r1346319">
           <head rend="uc">Chapitre II
            <lb/>Les temporels des établissements ecclésiastiques
            <lb/>au sein du comté</head>
@@ -103,7 +101,7 @@
           <p><hi rend="i">L’exercice des prérogatives seigneuriales et féodales.</hi> – Alors que certains établissements, comme les commanderies hospitalières ou l’abbaye de Saint-Denis, étaient au cœur du système féodal et exerçaient pleinement leurs prérogatives, d’autres, comme la grange de Stains, dépendant de l’abbaye de Chaalis, étaient empêtrés dans des contestations avec le comte et les seigneurs voisins. Ces litiges incitaient les établissements plus récemment implantés au sein du comté à moins s’impliquer dans la vie locale et dans l’exercice de prérogatives litigieuses.</p>
           <p><hi rend="i">Le statut contesté des temporels ecclésiastiques.</hi> – Les établissements se trouvaient gênés dans leurs acquisitions par les contraintes de l’amortissement et, dès la seconde moitié du <num>xiv<hi rend="sup">e</hi></num> siècle, par l’annonce de temps plus difficiles.</p>
         </div>
-        <div>
+        <div xml:id="r1346374">
           <head rend="uc">Chapitre III
            <lb/>Fiefs et seigneuries laïques : les mutations du <num>xiv<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Les facteurs de l’évolution.</hi> – De profondes transformations affectèrent le droit et les pratiques féodales au <num>xiv<hi rend="sup">e</hi></num> siècle : patrimonialité, morcellement et enchevêtrement des fiefs caractérisaient la structure féodale du comté. Face aux nombreuses acquisitions de terres par des non-nobles, la monarchie intervint en établissant dès 1291 le droit de franc-fief, qui parvint à freiner, pour un temps, la conquête bourgeoise du sol. Cependant, dès les années 1370-1390, cet obstacle fut atténué par les nombreuses exemptions dont bénéficiaient les bourgeois de Paris. La taxe du franc-fief ne conserva plus qu’un intérêt financier, au profit du Trésor royal.</p>
@@ -111,11 +109,11 @@
           <p><hi rend="i">Le début du renouvellement du monde seigneurial au</hi> <num>xiv<hi rend="sup">e</hi></num><hi rend="i">siècle.</hi> – Un nouveau groupe, les « notables seconds », en relation étroite avec Paris, tentait de s’imposer dans le comté. La solidarité entre la capitale et le plat pays était renforcée par les gens du cru installés à Paris depuis le <num>xiii<hi rend="sup">e</hi></num> siècle, comme les familles de Dammartin et de Mauregard. Face aux mutations économiques et sociales, les patrimoines nobles ont connu des sorts variables : certains étaient repris en main, préservés par le retrait lignager, à l’image de celui de la famille de Nantouillet ; <pb source="https://nakala.fr/10.34847/nkl.24b430ly#f215f011f09004bf7e2ad04a9290ef41fbd8bb65" n="161" facs="https://api.nakala.fr/iiif/10.34847/nkl.24b430ly/f215f011f09004bf7e2ad04a9290ef41fbd8bb65/full/full/0/default.jpg"/>d’autres sombraient, comme dans le cas de la famille de Juilly. Dans ce climat de transformations, la situation au sein du terroir devint tendue à partir du milieu du siècle. Le malaise culmina dans l’épisode de la Jacquerie, sans pour autant ralentir la constitution de nouveaux patrimoines par les notables, à l’exemple de Nicolas Braque, maître d’hôtel du roi, qui devint, par une succession d’acquisitions, de 1370 à 1379, seigneur en partie de Saint-Mard.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1346453">
         <head rend="uc">Deuxième partie
          <lb/>Le renouvellement du monde seigneurial (V. 1380-v. 1450) :
          <lb/>des anciens aux nouveaux seigneurs</head>
-        <div>
+        <div xml:id="r1346463">
           <head rend="uc">Chapitre premier
            <lb/>les nouveaux seigneurs</head>
           <p>Des <hi rend="i">nobles dynamiques.</hi> – Renouvelés par leurs alliances, des nobles dynamiques adoptaient un autre mode de vie et parvenaient à conserver une assise foncière enviable, comme les Nantouillet. On retrouve ces « nouveaux nobles » dans la « Cour amoureuse », mêlés aux anoblis et aux financiers. Cultivés, ils constituaient une noblesse de cour, étroitement dépendante du roi, à la guerre et dans l’administration. Grâce au patronage royal et princier, ils maintenaient, voire augmentaient leurs fortunes, mais à leurs risques et périls, tant était exigeant le service du roi.</p>
@@ -125,7 +123,7 @@
           <p><hi rend="i">Les notables seconds, possesseurs fonciers.</hi> – Au sein de la société dammartinoise, les notables seconds formaient un monde privilégié, composé des bourgeois les plus riches et les plus influents. En relations avec Paris, ils dominaient la société locale. Dans les villages, c’étaient les laboureurs qui commençaient à s’imposer, les seigneurs devant à présent composer avec eux.</p>
           <p>A la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, les notables seconds détenaient déjà de beaux patrimoines et des fiefs, à l’exemple des familles La Conche et Orlant. Ils profitèrent des <pb source="https://nakala.fr/10.34847/nkl.24b430ly#0f85333f4b6ddcd19f3f29b9a26463ac11bab047" n="162" facs="https://api.nakala.fr/iiif/10.34847/nkl.24b430ly/0f85333f4b6ddcd19f3f29b9a26463ac11bab047/full/full/0/default.jpg"/>troubles de la guerre de Cent Ans pour s’approprier de nouvelles terres à moindres frais, auprès de nobles ruinés et de paysans appauvris.</p>
         </div>
-        <div>
+        <div xml:id="r1346523">
           <head rend="uc">Chapitre II
            <lb/>Les facteurs de changement</head>
           <p><hi rend="i">Les difficultés rencontrées par la noblesse.</hi> – Une tradition d’endettement, de partages successoraux et de legs aux églises avait gravement amputé l’héritage des nobles. Ce phénomène fut accentué, durant les troubles, par la crise des revenus seigneuriaux, les dévastations de la guerre et les constitutions de rentes. La noblesse traditionnelle fut battue, rançonnée et contestée : les prérogatives seigneuriales furent mises à mal et certains lignages, ruinés ou sans héritier direct, disparurent, comme la famille de Versailles. Des patrimoines furent démembrés ou vendus et des lignages anciens, en particulier, durent abandonner leur héritage, non sans résistance, comme Laurent de Mory qui, ruiné, se rebella et prit le parti des princes révoltés durant la guerre du Bien public ; il fut emprisonné et condamné à être écartelé, pour crime de lèse-majesté.</p>
@@ -133,7 +131,7 @@
           <p><hi rend="i">Acquisition et gestion des nouveaux domaines par les notables parisiens.</hi> – Qu’ils fussent ou non originaires du terroir, les notables parisiens surent user de techniques efficaces pour s’emparer de la terre : par personnes interposées, par rentes constituées, par pressions ou par arrangements de clientèle. La plupart des patrimoines ainsi obtenus étaient constitués de biens accumulés, dispersés et hétéroclites qui reflétaient le long regroupement des parcelles nobles et paysannes.</p>
           <p>Rares étaient les notables parisiens qui détenaient des seigneuries. Les familles alliées de Fleury et de Reilhac y parvinrent, en devenant seigneurs de Villeneuve-sous-Dammartin au début du <num>xv<hi rend="sup">e</hi></num> siècle. Elles s’appliquèrent alors à concentrer leurs acquisitions au sein du terroir, pour exercer une influence prépondérante dans la région. Très procéduriers et soucieux de la bonne marche de leurs domaines, les seigneurs successifs, Jean de Fleury, son fils Gilles de Fleury et le gendre de ce dernier, Jacques de Reilhac, séjournaient à Paris, déléguant la gestion de leur seigneurie à une équipe de notables seconds, tout en affirmant leurs prérogatives seigneuriales.</p>
         </div>
-        <div>
+        <div xml:id="r1346559">
           <head rend="uc">Chapitre III
            <lb/>Le renouvellement du monde seigneurial :
            <lb/>approche quantitative</head>
@@ -142,12 +140,12 @@
           <p><hi rend="i">Les successions de seigneurs à la fin du Moyen Age.</hi> – Pour mieux cerner le phénomène de renouvellement du monde seigneurial, il faut reconstituer les généalogies, rassembler toutes les données et recourir aux méthodes lignagères et prosopographiques. La cartographie et la représentation statistique des données permettent de distinguer trois étapes, qu’on peut caractériser ainsi : la bonne tenue du monde seigneurial traditionnel (1320-1380) ; l’époque de la « nouvelle noblesse » et des notables parisiens (1380-1440) ; un nouveau monde seigneurial (1460-1520). La conquête des fiefs et des seigneuries par les notables parisiens s’est faite par à-coups, mais de manière tenace et irréversible, s’accentuant fortement à la fin du <num>xv<hi rend="sup">e</hi></num> et au début du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1346615">
         <head rend="uc">Troisième partie
          <lb/>La reconstruction après la guerre de cent ans :
          <lb/>une nouvelle donne sociale, économique et politique
          <lb/>(V. 1450-v. 1520)</head>
-        <div>
+        <div xml:id="r1346627">
           <head rend="uc">Chapitre premier
            <lb/>la reconstruction du comté et la restauration
            <lb/>de l’autorité comtale (1454-1503)</head>
@@ -158,7 +156,7 @@
           <p><hi rend="i">Les limites de la politique comtale.</hi> – Les interventions du roi et de son administration concurrençaient tous les pouvoirs politiques que les comtes exerçaient comme seigneurs. D’un autre côté, les comtes gagnaient plus qu’ils n’y perdaient, en pensions, en gages et en privilèges fiscaux obtenus pour leurs sujets.</p>
           <p>Les pressions parisiennes étaient plus menaçantes. Les nouveaux seigneurs, à l’exemple de Dreux Budé et de son fils Jean à Bois-le-Vicomte, se voulaient indépendants face aux exigences de l’administration comtale. Par leur autorité, ils surent faire évoluer le droit ; leurs efforts furent couronnés par la rédaction de la coutume en 1511 : le « droit des notables » réduisait d’autant le contrôle du comte sur ses vassaux.</p>
         </div>
-        <div>
+        <div xml:id="r1346682">
           <head rend="uc">Chapitre II
            <lb/>Les seigneuries ecclésiastiques et laïques
            <lb/>et la reconstruction</head>
@@ -169,7 +167,7 @@
           <p><hi rend="i">Reconstruction et restauration des seigneuries laïques.</hi> – A l’issue de la guerre de Cent Ans, les seigneurs laïques se trouvèrent confrontés à des patrimoines dévastés et de nul profit, nécessitant d’importants moyens financiers pour être remis en culture.</p>
           <p>Cette reconstruction fondée sur la restauration des profits traditionnels (forêts, banalités, rentes) s’accompagna d’un affermage massif, mais aussi, dans les années 1480-1520, d’une restauration, sinon d’une réaction seigneuriale, à l’exemple de l’action menée par Jean Le Bouteiller, gentilhomme campagnard et seigneur de Moussy.</p>
         </div>
-        <div>
+        <div xml:id="r1346761">
           <head rend="uc">Chapitre III
            <lb/>Les élites rurales et la reconstruction</head>
           <p><hi rend="i">Un groupe social en devenir à l’aube du <num>xvi<hi rend="sup">e</hi></num> siècle.</hi> – En liens étroits avec Paris, de nombreux notables seconds concentraient entre leurs mains fortune, instruction, offices seigneuriaux, terres et influence locale. Privilégiés au sein du terroir, ils formaient, en quelque sorte, <hi rend="i">une gentry</hi> à la française. Dans les villages, des laboureurs-fermiers avaient tendance à composer un groupe social enrichi et puissant, par ses moyens, sa cohérence, ses alliances et surtout grâce à la nouvelle donne économique et sociale de la reconstruction, dans la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
@@ -178,17 +176,17 @@
           <p>Etroitement solidaires entre eux, les notables seconds structuraient les communautés d’habitants pour défendre les intérêts économiques communs : jouant de leur hégémonie, ils se posaient en intermédiaires privilégiés entre le seigneur et le reste des villageois. A l’aube de la Renaissance, ils formaient un groupe social plein d’avenir : ils surent profiter de la faiblesse de Jean de Chabannes pour mieux asseoir leur autorité dans le comté.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1346808">
         <pb source="https://nakala.fr/10.34847/nkl.24b430ly#8e477341501d758161305313237048b09afb270d" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.24b430ly/8e477341501d758161305313237048b09afb270d/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>L’étude des structures féodales et seigneuriales englobe toute l’organisation sociale du monde seigneurial jusqu’aux nouvelles élites rurales et, au-delà des relations entre les seigneurs, débouche sur l’articulation entre les divers groupes sociaux : alliances, mariages, parentés, relations socioprofessionnelles et mobilité sociale.</p>
         <p>Dans le comté de Dammartin à la fin du Moyen Age, il faut distinguer, à l’intérieur de la noblesse, d’une part, les anciens lignages chevaleresques, issus du terroir à la fin du <num>xiii<hi rend="sup">e</hi></num> et au début du <num>xiv<hi rend="sup">e</hi></num> siècle, qui résistèrent mal aux malheurs du temps et disparurent progressivement, et, d’autre part, de nouveaux nobles dynamiques, tirant parti des successions, des héritages et surtout de la faveur royale, qui s’imposèrent au sein du monde seigneurial dans la première moitié du <num>xv<hi rend="sup">e</hi></num> siècle. Ces derniers éprouvèrent, cependant, de la peine à se maintenir dans la seconde moitié du <num>xv<hi rend="sup">e</hi></num> siècle et au début du <num>xvi<hi rend="sup">e</hi></num>, face à la pression accrue des notables parisiens et des grandes familles de la bourgeoisie commerçante qui, au terme de la période, semblent avoir particulièrement bien réussi à arracher pouvoir et terres à la vieille noblesse.</p>
       </div>
-      <div>
+      <div xml:id="r1346856">
         <head rend="uc">Pièces justificatives</head>
         <p>Convocation des représentants du comté de Dammartin aux états généraux (1308). – Jugement du bailli de Dammartin relatif au droit de justice de Juilly (1317). – Bail de la mairie de Mitry (1322). – Don de la haute justice à Philippe des Essarts, seigneur de Thieux (1333). – Aveu et dénombrement rendu au même (1338). – Lettre de rémission accordée aux habitants de Thieux (1359). – Deux montres des gens d’armes de la compagnie de Charles de Trie, comte de Dammartin (1364 et 1388). – Renonciation de Marie des Essarts à la succession de son père Philippe (1415). – Contrat de mariage d’Antoine de Chabannes et de Marguerite de Nanteuil, comtesse de Dammartin (1439). – Mémoire relatif à l’aveu et dénombrement de Bois-le-Vicomte rendu par Jean Budé (1476). – Partage entre la veuve de Hugues Bureau, receveur de Paris, et ses enfants (1493).</p>
       </div>
-      <div>
+      <div xml:id="r1346866">
         <head rend="uc">Annexes</head>
         <p>Tableaux. – Prosopographie du monde seigneurial. – Arbres généalogiques. – Cartes. – Illustrations. – Index des noms de personne et des noms de lieu.</p>
       </div>

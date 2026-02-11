@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1939_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1939_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -70,10 +68,10 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r599058">
         <head rend="uc">Première partie
          <lb/>Caractères généraux</head>
-        <div>
+        <div xml:id="r599066">
           <head rend="uc">Chapitre premier
            <lb/>matériaux et appareil.</head>
           <p>Le sous-sol étant à peu près identique dans toute l’étendue des archidiaconés du Grand et du Petit-Caux, les matériaux employés sont partout les mêmes : <pb source="https://nakala.fr/10.34847/nkl.a272xyc3#5cee25b668a8b4598c48a36724c82579faa335f9" n="122" facs="https://api.nakala.fr/iiif/10.34847/nkl.a272xyc3/5cee25b668a8b4598c48a36724c82579faa335f9/full/full/0/default.jpg"/>le calcaire, le tuf et le silex. Les nombreuses petites carrières de calcaire du pays ont été supplantées, pour les édifices importants, par les grandes carrières de la Seine, surtout celles de Gaumont et de Vernon. La pierre de Caen n’a pas été employée.</p>
@@ -81,7 +79,7 @@
           <p>Dès le <num>xi<hi rend="sup">e</hi></num> siècle, l’appareil est moyen et régulier. Le calcaire est layé. Les joints, d’abord épais, s’amincissent au <num>xii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Le silex, employé à bain de mortier, avec harpes de pierre aux angles, n’est utilisé que pour les constructions pauvres.</p>
         </div>
-        <div>
+        <div xml:id="r599104">
           <head rend="uc">Chapitre II
            <lb/>Orientation et plan.</head>
           <p>L’orientation est régulière. Le plan se développe autour d’un noyau central : la travée carrée placée entre chœur et nef, formant ou non croisée de transept, qui supporte la tour-lanterne ou le clocher. Le plan-type des petites églises comprend une large nef unique, la travée du clocher forcément rétrécie, suivie d’une travée de chœur et d’une abside. On trouve parfois un transept, sur les croisillons duquel ouvrent des absidioles orientées. Les chevets plats sont rares.</p>
@@ -90,7 +88,7 @@
           <p>On ne trouve le plan à déambulatoires et chapelles rayonnantes qu’à Fécamp.</p>
           <p>Les porches se rencontrent seulement dans les églises d’abbayes ou de prieurés, pris entre les deux tours de façade.</p>
         </div>
-        <div>
+        <div xml:id="r599130">
           <head rend="uc">Chapitre III
            <lb/>Voûtes et couvertures.</head>
           <p>Les nefs ne sont jamais voûtées, mais elles sont couvertes de charpente sans arcs diaphragmes. On trouve aussi des charpentes sur le chœur et les croisillons, des appentis sur les collatéraux, des planchers sous les beffrois.</p>
@@ -98,7 +96,7 @@
           <p>Dès le premier quart du <num>xii<hi rend="sup">e</hi></num> siècle, on trouve des voûtes sur croisée d’ogives, de blocage ou d’appareil, établies en général sur les travées du chœur ou du clocher. Les ogives sont larges, en plein cintre, de profil lourd. Les clefs sont très simples.</p>
           <p>Les toits, autrefois de petites tuiles, sont en bâtière pour la nef, le chœur, les croisillons, en appentis pour les bas-côtés, en pavillon pour les clochers.</p>
         </div>
-        <div>
+        <div xml:id="r599157">
           <head rend="uc">Chapitre IV
            <lb/>Élévation et supports.</head>
           <p>1° <hi rend="i">Élévation, intérieure.</hi> – Lorsque la nef est unique, <pb source="https://nakala.fr/10.34847/nkl.a272xyc3#660517a0bf1063076ed55e399ece3c36afec6dfb" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.a272xyc3/660517a0bf1063076ed55e399ece3c36afec6dfb/full/full/0/default.jpg"/>ses murs sont simplement percés de baies haut placées. Les nefs à bas-côtés ont toujours des fenêtres ouvertes au-dessus des grandes arcades en plein cintre. Nous n’avons aucun exemple d’élévation à trois étages, la nef romane de Fécamp étant détruite : l’élévation des bas-côtés et des travées de clocher ne présente aucune particularité. Le carré du transept est limité par des arcs en plein cintre, parfois brisés, au <num>xii<hi rend="sup">e</hi></num> siècle. A Montivilliers seulement, il est décoré à sa partie supérieure de plusieurs étages d’arcatures desservis par une coursière. Les croisillons, les travées de chœur et les absides sont, en général, de la plus grande simplicité ; il arrive cependant, dès le <num>xi<hi rend="sup">e</hi></num> siècle, qu’ils soient décorés d’un ou même de deux rangs d’arcatures, dans lesquels peuvent être ouvertes les baies. Le chœur de Fécamp seul avait un étage de tribunes entre les arcades et les fenêtres hautes.</p>
@@ -109,19 +107,19 @@
           <p>Les façades sont de la plus grande sobriété, limitées par des contreforts qui marquent aussi parfois la largeur de la nef dans les églises à collatéraux. Les façades des abbatiales sont resserrées entre deux tours.</p>
           <p>On trouve quelques exemples de croisillons ou de travées de chœur décorés d’arcatures. Le fait est plus fréquent pour les absides. Elles sont assez souvent raidies par des contreforts-colonnes au <num>xi<hi rend="sup">e</hi></num> et au début du <num>xii<hi rend="sup">e</hi></num> siècle. Les chevets plats sont nus.</p>
         </div>
-        <div>
+        <div xml:id="r599257">
           <head rend="uc">Chapitre V
            <lb/>Les percements.</head>
           <p>1° <hi rend="i">Les portails.</hi> – Ils sont le plus souvent percés à l’ouest, parfois, cependant, dans les plus anciennes églises, au bas de la nef du côté sud. Dans quelques édifices, on trouve des traces de la porte aux hommes et de la porte aux femmes. Toutes les portes latérales du <num>xi<hi rend="sup">e</hi></num> siècle sont simples, couronnées par un linteau monolithe. Avant la fin de ce siècle apparaît le portail à voussures portées par des colonnettes. Ils sont en plein cintre, le plus souvent sans tympan, moulurés de tores et de gorges, ou décorés de billettes au <num>xi<hi rend="sup">e</hi></num> siècle. Au <num>xii<hi rend="sup">e</hi></num>, le décor est uniquement géométrique et il est traité claveau par claveau.</p>
           <p>2° <hi rend="i">Les fenêtres.</hi> – Les fenêtres restent en plein cintre <pb source="https://nakala.fr/10.34847/nkl.a272xyc3#f36e4a0709517eeb2e278c7f59735574516be74f" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.a272xyc3/f36e4a0709517eeb2e278c7f59735574516be74f/full/full/0/default.jpg"/> jusqu’au milieu du <num>xii<hi rend="sup">e</hi></num> siècle. L’ébrasement intérieur est toujours très prononcé, tandis que l’ébrasement extérieur est encore à peine indiqué en plein <num>xii<hi rend="sup">e</hi></num> siècle. Au <num>xi<hi rend="sup">e</hi></num> siècle, on trouve des baies étroites comme des meurtrières, dont le cintre est découpé dans une dalle. Dès cette époque aussi, les fenêtres sont encadrées de colonnettes et leur archivolte est moulurée.</p>
         </div>
-        <div>
+        <div xml:id="r599321">
           <head rend="uc">Chapitre VI
            <lb/>Tours-lanternes et clochers.</head>
           <p>Placés entre chœur et nef, à l’époque romane, les clochers sont tous sur plan carré. Les souches sont peu intéressantes, percées de baies étroites. Au <num>xi<hi rend="sup">e</hi></num> siècle, les clochers à un seul étage sont décorés, à leur partie supérieure, d’arcades ouvertes et aveugles. Lorsqu’il y a plusieurs étages, l’étage le plus élevé est aussi le plus décoré. Les tours du <num>xi<hi rend="sup">e</hi></num> siècle sont belles et trapues. Leurs angles sont vifs ou amortis par des colonnettes. Au début du <num>xii<hi rend="sup">e</hi></num>, les clochers ont leur unique étage percé sur chaque face d’une fenêtre recoupée ou non. Ce n’est que dans le second quart de ce siècle que l’on retrouve de beaux clochers : le thème des baies jumelées du <num>xi<hi rend="sup">e</hi></num> siècle a été repris et il est traité avec beaucoup de finesse et d’élégance.</p>
           <p>Les flèches de pierre ne semblent pas avoir existé. Les tours devaient être couvertes de charpente et d’un toit en pavillon.</p>
         </div>
-        <div>
+        <div xml:id="r599360">
           <pb source="https://nakala.fr/10.34847/nkl.a272xyc3#5cebf21790a843dcc31ebbb7e0116eeee90eb3e6" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.a272xyc3/5cebf21790a843dcc31ebbb7e0116eeee90eb3e6/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Mouluration et sculpture.</head>
@@ -136,7 +134,7 @@
           <p>Au <num>xii<hi rend="sup">e</hi></num> siècle, les genres sont tout différents : les consoles ont disparu. On trouve beaucoup de chapiteaux à godrons, à entrelacs et surtout à feuilles plates enroulées en volutes aux angles. Les rares chapiteaux à rinceaux n’ont plus le caractère de ceux du <num>xi<hi rend="sup">e</hi></num> siècle, mais ils sont aussi très remarquables.</p>
           <p>6° <hi rend="i">Les modillons.</hi> – Ils sont extrêmement variés. Les groupes principaux sont ceux des modillons à copeaux, très employés au <num>xi<hi rend="sup">e</hi></num> siècle, des modillons à figures géométriques et des modillons à masques. Ils sont, en général, taillés avec vigueur et réalisme, mais sans beauté.</p>
         </div>
-        <div>
+        <div xml:id="r599508">
           <head rend="uc">Conclusion</head>
           <p>Les grandes abbayes n’ont pas exercé d’influence sur l’architecture des petites églises environnantes. Les mêmes procédés de construction et de décoration ont été employés dans toute l’étendue de nos archidiaconés, mais le pays de Caux n’a pas eu un art propre : les églises romanes du Grand et du Petit-Caux restent bien dans la tradition de l’école romane de Normandie.</p>
           <pb source="https://nakala.fr/10.34847/nkl.a272xyc3#279a8c41d19115162d7b7b3e7df8946b7b85975f" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.a272xyc3/279a8c41d19115162d7b7b3e7df8946b7b85975f/full/full/0/default.jpg"/>

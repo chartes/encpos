@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <surname>Dobelmann</surname>
         <roleName>Licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r490303">
         <head rend="uc">Avant-propos</head>
         <p>Nous nous proposons d’étudier, d’après les chartes originales, la langue parlée à Cahors au moyen âge.</p>
       </div>
@@ -67,9 +65,9 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r490322">
         <head rend="uc">Premiere partie</head>
-        <div>
+        <div xml:id="r490328">
           <head rend="uc">Sources</head>
           <p>Il n’y a pas de documents pour Cahors au XII<hi rend="sup">e </hi>siècle. A partir du milieu du <num>xiii<hi rend="sup">e</hi></num> siècle les sources sont abondantes. Le provençal n’est plus guère employé dans les chartes après le premier quart du <num>xiv<hi rend="sup">e</hi></num> siècle. Mais il reste la langue dominante des registres municipaux <hi rend="i">Te igitur</hi> et <hi rend="i">Livre Tanné.</hi></p>
           <p>Les fonds principaux sont les archives municipales de Cahors et la série H (fonds de l’Hôpital général). <pb source="https://nakala.fr/10.34847/nkl.6aa1ozr8#240791b6052b06824015aeb254d9823d8b65e9a3" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.6aa1ozr8/240791b6052b06824015aeb254d9823d8b65e9a3/full/full/0/default.jpg"/>Les deux tiers des chartes originaires de Cahors sont seules publiés.</p>
@@ -89,10 +87,10 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r490404">
         <head rend="uc">Deuxieme partie
          <lb/>Phonetique</head>
-        <div>
+        <div xml:id="r490412">
           <head rend="uc">Chapitre premier
            <lb/>graphie</head>
           <p><hi rend="i">Graphie des voyelles.</hi> – La graphie <hi rend="i">ou</hi> pour [o] fermé apparaît dès le début du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
@@ -106,7 +104,7 @@
           <p>[L] et [n] <hi rend="i">mouillés</hi> sont notés <hi rend="i">lh</hi> et <hi rend="i">nh</hi> dès le milieu du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>La graphie est assez satisfaisante, sauf pour [j] qui est noté <hi rend="i">i</hi> ou <hi rend="i">g.</hi></p>
         </div>
-        <div>
+        <div xml:id="r490576">
           <head rend="uc">Chapitre II
            <lb/>Voyelles</head>
           <p><hi rend="i">Voyelles atones.</hi> – [a] post-tonique s’affaiblit en [o] au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
@@ -119,7 +117,7 @@
           <p>[u] long latin a passé à [ü] dès le <num>xiii<hi rend="sup">e</hi></num> siècle comme l’indiquent les graphies <hi rend="i">lh</hi> devant <hi rend="i">u</hi> et la répugnance à employer <hi rend="i">u</hi> dans la diphtongue <hi rend="i">iu</hi> depuis la fin du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">Diphtongues.</hi> – [iu] devient [ieu] à la fin du XIII<hi rend="sup">e </hi>siècle. Les diphtongues [ieu] et [iou] permutent fré<pb source="https://nakala.fr/10.34847/nkl.6aa1ozr8#d254496c82a42de6376255f2e453fa8d7114bebf" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.6aa1ozr8/d254496c82a42de6376255f2e453fa8d7114bebf/full/full/0/default.jpg"/>quemment. Il est à croire que ce passage se fait sans l’intermédiaire de [iau], jamais attesté par les textes.</p>
         </div>
-        <div>
+        <div xml:id="r490730">
           <head rend="uc">Chapitre III
            <lb/>Consonnes</head>
           <p><hi rend="i">Consonnes initiales.</hi> – Les consonnes initiales se maintiennent en général.</p>
@@ -131,22 +129,22 @@
           <p>Le groupe roman <hi rend="i">zi</hi> peut se réduire à <hi rend="i">yod</hi> dans <hi rend="i">faia</hi>, <hi rend="i">envaidor</hi>.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r490851">
         <head rend="uc">Troisieme partie
          <lb/>Morphologie</head>
-        <div>
+        <div xml:id="r490859">
           <head rend="uc">Chapitre premier
            <lb/>substantif</head>
           <p>La déclinaison à deux cas des noms parisyllabiques est bien observée jusque vers 1320.</p>
         </div>
-        <div>
+        <div xml:id="r490871">
           <pb source="https://nakala.fr/10.34847/nkl.6aa1ozr8#0efd94dfa9f6072778d71e5c5a7cf4a5f3bf89e8" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.6aa1ozr8/0efd94dfa9f6072778d71e5c5a7cf4a5f3bf89e8/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Article</head>
           <p><hi rend="i">Masculin.</hi> – Au singulier, <hi rend="i">lo</hi> pour les deux cas. Au pluriel <hi rend="i">li</hi>, <hi rend="i">lhi</hi> au cas sujet, et <hi rend="i">los</hi> à l’accusatif. A la fin du <num>xiv<hi rend="sup">e</hi></num> siècle <hi rend="i">los</hi> pour les deux cas.</p>
           <p><hi rend="i">Féminin.</hi> – Au singulier <hi rend="i">la,</hi> au pluriel <hi rend="i">las,</hi> pour les deux cas.</p>
         </div>
-        <div>
+        <div xml:id="r490931">
           <head rend="uc">Chapitre III
            <lb/>Pronom personnel</head>
           <p><hi rend="i">Pronom sujet.</hi> – A la première personne, dès le <num>xiii<hi rend="sup">e</hi></num> siècle, <hi rend="i">ieu</hi> peut passer à <hi rend="i">io</hi> – [iu].</p>
@@ -154,7 +152,7 @@
           <p>On rencontre les formes <hi rend="i">nonh</hi> et <hi rend="i">vonh</hi> pour <hi rend="i">no ne </hi>et <hi rend="i">vo ne.</hi></p>
           <p>Le pronom personnel pluriel de la troisième personne est <hi rend="i">lor.</hi></p>
         </div>
-        <div>
+        <div xml:id="r491005">
           <head rend="uc">Chapitre IV
            <lb/>Verbe</head>
           <p><hi rend="i">Désinences générales.</hi> – Troisième personne du pluriel (futur excepté) : au <num>xii<hi rend="sup">e</hi></num> siècle les terminaisons sont en -o, -<hi rend="i">io</hi> pour l’imparfait de l’indicatif et le conditionnel, <hi rend="i">-io</hi> peut passer à -<hi rend="i">iou</hi>, -<hi rend="i">iu</hi> dès la fin du <num>xiii<hi rend="sup">e</hi></num> siècle. Au <num>xiv<hi rend="sup">e</hi></num> siècle les terminaisons savantes en -<hi rend="i">ian</hi> remplacent les désinences en <hi rend="i">-io</hi>.</p>
@@ -166,10 +164,10 @@
           <p>Parfaits <hi rend="i">forts.</hi> – Dès le <num>xiii<hi rend="sup">e</hi></num> siècle les désinences faibles envahissent la conjugaison forte : on trouve <hi rend="i">foret</hi> pour <hi rend="i">fo</hi>.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r491179">
         <head rend="uc">Quatrieme partie
          <lb/>Syntaxe</head>
-        <div>
+        <div xml:id="r491187">
           <head rend="uc">Chapitre premier
            <lb/>mots a flexion</head>
           <p>1) <hi rend="i">Pronom personnel.</hi> – Distinction entre formes conjointes atones et formes disjointes accentuées.</p>
@@ -177,7 +175,7 @@
           <p>3) <hi rend="i">Pronom démonstratif.</hi> – Neutre : <hi rend="i">aiso</hi> est le pronom démonstratif par excellence ; au <num>xiii<hi rend="sup">e</hi></num> siècle <hi rend="i">aquo</hi> est surtout employé dans les expressions <hi rend="i">aquo que ;</hi> plus tard <hi rend="i">so</hi> le remplace dans cette fonction.</p>
           <p>4) <hi rend="i">Pronom relatif.</hi> – <hi rend="i">Que</hi> est employé concurremment à <hi rend="i">loqual</hi>. <hi rend="i">Qui</hi> est encore employé au début du <num>xiii<hi rend="sup">e</hi></num> siècle comme pronom sujet.</p>
         </div>
-        <div>
+        <div xml:id="r491272">
           <pb source="https://nakala.fr/10.34847/nkl.6aa1ozr8#1b65b1b5bf0e050db8deec262ba9675f3aef5516" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.6aa1ozr8/1b65b1b5bf0e050db8deec262ba9675f3aef5516/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Groupes nominaux</head>
@@ -186,7 +184,7 @@
           <p>L’article indéfini ne commence à être employé qu’à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Le <hi rend="i">complément déterminatif</hi> est réuni au déterminé par <hi rend="i">de ;</hi> anciennement <hi rend="i">de</hi> pouvait être omis devant les noms propres.</p>
         </div>
-        <div>
+        <div xml:id="r491322">
           <head rend="uc">Chapitre III
            <lb/>La proposition</head>
           <p>Le <hi rend="i">sujet pronominal</hi> inutile à l’expression est fréquent jusqu’au <num>xv<hi rend="sup">e</hi></num> siècle.</p>
@@ -194,7 +192,7 @@
           <p><hi rend="i">Régime.</hi> – L’ordre des pronoms régimes est accusatif, datif.</p>
           <p><hi rend="i">Attribut.</hi> – L’accord de l’attribut se fait très régulièrement en cas.</p>
         </div>
-        <div>
+        <div xml:id="r491363">
           <head rend="uc">Chapitre IV
            <lb/>Subordination et coordination</head>
           <p>1) Le présent du subjonctif peut être employé pour le futur, l’imparfait du subjonctif pour le conditionnel.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1949_23" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1949_23" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,7 +60,7 @@
         <head rend="uc">Avant-propos – Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r707446">
         <head rend="uc">Introduction historique</head>
         <p>La ville de Saint-Denis a été formée par la réunion de deux bourgs : le bourg abbatial, d’une part, et le bourg Saint-Marcel, de l’autre, acquis, en 1294, par l’abbé de Saint-Denis.</p>
         <p>Le bourg proprement dit s’était développé autour de l’abbaye. Les foires ont aidé au développement de la ville, mais celui-ci fut commandé essentiellement par l’essor d’une industrie active, la teinturerie, grâce à la présence de petites rivières au nord de l’abbaye.</p>
@@ -71,18 +69,18 @@
         <p>A partir de 1672, la ville fut placée sous l’autorité de l’abbé seul, après que les religieux et l’abbé commendataire eurent procédé à un partage des menses de l’abbaye. L’abbé gardait tous les droits seigneuriaux dans la ville, sauf les droits de censive réservés aux religieux.</p>
         <p>En 1686, la ville tomba sous l’autorité des Dames de Saint-Cyr, auxquelles la mense abbatiale fut donnée par le roi pour subvenir aux besoins de leur maison.</p>
       </div>
-      <div>
+      <div xml:id="r707495">
         <pb source="https://nakala.fr/10.34847/nkl.4605m2yz#f8fa41755a14d84377bc73d628165329926d04e9" n="142" facs="https://api.nakala.fr/iiif/10.34847/nkl.4605m2yz/f8fa41755a14d84377bc73d628165329926d04e9/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La ville et le territoire</head>
-        <div>
+        <div xml:id="r707508">
           <head rend="uc">Chapitre premier
            <lb/>topographie du territoire.</head>
           <p><hi rend="i">Limites.</hi> – Les limites furent fixées par un arrêt du Conseil de 1707 et ne furent plus modifiées par la suite.</p>
           <p><hi rend="i">Description.</hi> – Le territoire ne comprend pas d’autres écarts que les deux ports de la Maison de Seine et de la Briche, et quelques moulins. Il est occupé par des prairies et des champs.</p>
           <p><hi rend="i">Routes.</hi> – Les chemins de traverse étaient en mauvais état : un effort tenté pour restaurer le chemin menant de Saint-Denis à la Maison de Seine n’aboutit jamais. Le territoire était traversé par deux grandes routes reliant Paris à la Normandie et au nord de la France. Leur tracé fut modifié au cours du siècle par les services des ponts et chaussées.</p>
         </div>
-        <div>
+        <div xml:id="r707535">
           <head rend="uc">Chapitre II
            <lb/>Topographie de la ville.</head>
           <p><hi rend="i">L’enceinte.</hi> – – Au <num>xviii<hi rend="sup">e</hi></num> siècle, la ville était encore bornée par une enceinte dont les fortifications n’étaient plus entretenues ; elle n’en a pas débordé avant l’extrême fin du siècle. L’enceinte était percée de quatre portes ; une cinquième fut ouverte en 1740 pour le passage de la nouvelle route royale de Paris à Pierrefitte. En 1723, la ville fut close par un mur pour éviter les fraudes de l’octroi.</p>
@@ -91,7 +89,7 @@
           <p><hi rend="i">Aspect général.</hi> – Les rues anciennes étaient étroites et irrégulières ; le voyer s’efforçait de les remettre au droit alignement. La rue d’Enghien fut ouverte droite et large. Les rues étaient pour la plupart pavées. Elles n’étaient pas sombres.</p>
           <p><hi rend="i">Les maisons.</hi> – La ville comprenait environ 400 maisons. Elles étaient peu élevées ; tassées le long des rues, elles présentaient leur petit côté à la rue, ayant en arrière cour et jardin. On bâtissait peu, beaucoup de maisons menaçaient ruine ; les églises étaient croulantes, ce qui entraîna la suppression de plusieurs paroisses.</p>
         </div>
-        <div>
+        <div xml:id="r707591">
           <head rend="uc">Chapitre III
            <lb/>Propriété du sol.</head>
           <p>Tout terrain, bâti ou non, de la ville de Saint-Denis relevait en censive des religieux de l’abbaye, sauf les immeubles dépendant de deux seigneuries enclavées dans celle de l’abbaye ou de quelques fiefs.</p>
@@ -100,16 +98,16 @@
           <p><hi rend="i">Censives et fiefs du territoire.</hi> – Le sol du territoire était également situé dans la censive des religieux, sauf quelques terres relevant d’autres seigneuries. Les chanoines de Saint-Paul avaient une censive importante, à laquelle ils avaient ajouté une terre relevant du prieuré de Saint-Denis-de-l’Estrée. Le fief des Moulins-Jumeaux ou Porcherons et le fief du Moulin-Basset relevaient des Dames de Saint-Cyr, qui affermaient le second. Un arrière-fief du Moulin-Basset relevait de la seigneurie de Stains. D’autres terres faisaient partie des fiefs de Buhors et de la chapelle du Viviers, relevant des religieux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r707628">
         <pb source="https://nakala.fr/10.34847/nkl.4605m2yz#4abf326c434ab45d06637a2a935479e4bf5236bc" n="144" facs="https://api.nakala.fr/iiif/10.34847/nkl.4605m2yz/4abf326c434ab45d06637a2a935479e4bf5236bc/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>La vie économique</head>
-        <div>
+        <div xml:id="r707641">
           <head rend="uc">Chapitre premier
            <lb/>chiffre de la population.</head>
           <p>La ville était beaucoup moins peuplée au <num>xviii<hi rend="sup">e</hi></num> siècle qu’elle ne l’avait été au Moyen Age. Le fait est attesté par l’histoire des paroisses. La population était évaluée au milieu du <num>xviii<hi rend="sup">e</hi></num> siècle à 3,812 habitants. Ce chiffre est confirmé par des dénombrements de population effectués sous la Révolution et sous l’Empire, qui permettent d’estimer le nombre des habitants de Saint-Denis à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle à environ 4,000. La densité de la population était donc extrêmement basse : 50 habitants à l’hectare environ. Les chiffres donnés par les dénombrements de feux et les dires des contemporains nous autorisent à penser que le nombre des habitants fut plus faible aux environs de 1700 et augmenta pendant la première moitié du siècle.</p>
         </div>
-        <div>
+        <div xml:id="r707671">
           <head rend="uc">Chapitre II
            <lb/>Activités des habitants.</head>
           <p>A la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, la vie économique était très ralentie. Dans tous les corps de métier, le nombre des membres avait diminué et ceux qui restaient se plaignaient de ne pouvoir vivre. Cependant, au <num>xviii<hi rend="sup">e</hi></num> siècle, la ville allait connaître une légère reprise d’activité. La plupart des habitants vivaient de commerce et d’artisanat. Beaucoup de ces métiers ne pouvaient être exercés librement et étaient soumis au régime des corporations.</p>
@@ -118,7 +116,7 @@
           <p><hi rend="i">Industrie.</hi> – La teinturerie et la tannerie, industries prospères au Moyen Age à Saint-Denis, devaient connaître au cours du siècle une renaissance. Des manufactures de teinture s’y établissaient, et certaines employaient de nombreux ouvriers. Une manufacture de cuir importante fut également créée en 1700, mais fit bientôt faillite. D’autres, moins importantes, s’établirent par la suite, mais cette branche d’industrie ne connut pas une renaissance aussi marquée que la teinturerie.</p>
           <p><hi rend="i">Activités agricoles.</hi> – Une partie relativement importante de la population de Saint-Denis était formée d’agriculteurs. Ils vivaient tous dans la ville, où ils avaient leurs bâtiments d’exploitation. Les laboureurs exploitaient le sol du territoire, les jardiniers et maraîchers avaient souvent leurs terrains de culture à l’intérieur même de la ville. Ils vendaient à Paris leurs produits. Les laboureurs étaient de riches notables, ainsi que quelques jardiniers. De nombreux moulins fonctionnaient dans la ville et le territoire, grâce à l’existence des cours d’eau. Les meuniers, qui étaient les plus riches habitants de la ville, travaillaient non seulement pour Saint-Denis, mais pour toute la région et pour Paris. A raison de l’importance de cette activité, la suppression du marché à blé en 1752 souleva les protestations des habitants.</p>
         </div>
-        <div>
+        <div xml:id="r707724">
           <head rend="uc">Chapitre III
            <lb/>Les charges supportées par les habitants.</head>
           <div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1928_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,15 +63,15 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r467083">
         <head rend="uc">Première partie
          <lb/>La facture de l’orgue</head>
-        <div>
+        <div xml:id="r467091">
           <head rend="uc">Chapitre premier
            <lb/>qu’est-ce que l’orgue ?</head>
           <p>L’orgue est un instrument à vent et à claviers, se composant de tuyaux, d’un sommier, d’un abrégé, de registres et de soufflets. Le <hi rend="i">sommier</hi> est l’organe essentiel de l’orgue. C’est une caisse de bois, formée de différentes pièces superposées. A l’intérieur de cette caisse est comprimé l’air qui vient des soufflets. Les tuyaux, directement placés sur le sommier reçoivent cet air par leur pied, lorsqu’une soupape, reliée à la touche du clavier, s’abaisse et permet au vent de s’échapper dans le tuyau. L’ensemble des vergettes reliant les touches aux soupapes porte le nom d’<hi rend="i">abrégé. </hi>Les soufflets d’orgues, qui sont restés cunéiformes jusqu’au début du <num>xix<hi rend="sup">e</hi></num> siècle, se rapprochent des soufflets de forge actuels.</p>
         </div>
-        <div>
+        <div xml:id="r467117">
           <pb source="https://nakala.fr/10.34847/nkl.59dck7mm#a8087884fba2544556a97ef9323a811717884bae" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.59dck7mm/a8087884fba2544556a97ef9323a811717884bae/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’orgue en France depuis le <num>xi<hi rend="sup">e</hi></num> siècle
@@ -81,7 +79,7 @@
           <p>Quelques psautiers, tels ceux d’Utrecht, de Stuttgart, d’Eadwine, ne donnent que de mauvaises reproductions d’orgues hydrauliques (<num>x<hi rend="sup">e</hi></num> et <num>xii<hi rend="sup">e</hi></num> siècles). L’orgue hydraulique disparaît à cette époque. Quelques renseignements sur l’orgue sont donnés par le moine Théophile et Baudry de Bourgueil. Au <num>xiii<hi rend="sup">e</hi></num> siècle, l’orgue sera décrié par Guibert de Tournai et Aelred de Rivant ; il est apprécié par Guillaume Durand.</p>
           <p>L’orgue est encore peu répandu au <num>xiii<hi rend="sup">e</hi></num> siècle. Si un certain nombre d’auteurs ont cru qu’il était très employé dès celte époque, c’est qu’ils ont mal interprété les différents sens du mot <hi rend="i">organum.</hi> Ce terme a désigné d’abord tout instrument en général, puis l’orgue en particulier. Aux <num>xii<hi rend="sup">e</hi></num>, <num>xiii<hi rend="sup">e</hi></num> et <num>xiv<hi rend="sup">e</hi></num> siècles, l’<hi rend="i">organum</hi> était aussi un chant à deux ou trois parties ; enfin, <hi rend="i">organa </hi>désignaient souvent les offices liturgiques (<hi rend="i">organa cessantur</hi>). Le mot<hi rend="i">organum</hi> que l’on rencontre dans les textes de ce temps était employé bien plus fréquemment dans ces deux derniers sens que dans les deux premiers.</p>
         </div>
-        <div>
+        <div xml:id="r467213">
           <head rend="uc">Chapitre : III
            <lb/>les progrès de l’orgue en France du <num>xiv<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
           <div>
@@ -90,7 +88,7 @@
             <p>L’<hi rend="i">orgue positif</hi> possède un buffet plus important que l’orgue portatif. Il est <hi rend="i">posé</hi> à terre et celui qui en joue doit s’asseoir devant son instrument. Les plus gros tuyaux sont souvent disposés de chaque côté et encadrent les autres. Ce dernier type, quoique moins répandu, donna naissance au buffet du grand orgue du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r467296">
           <head rend="uc">Chapitre IV
            <lb/>Les progrès de l’orgue en France du <num>xiv<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
           <div>
@@ -103,7 +101,7 @@
             <p>Le manuscrit d’Henri Arnault de Zwolle, médecin et astrologue des ducs de Bourgogne (1465), ne décrit que des orgues de l’extrême fin du <num>xiv<hi rend="sup">e</hi></num> ou du début du <num>xv<hi rend="sup">e</hi></num> siècle. On y apprend que l’<hi rend="i">octave grave</hi> a été connue dès cette époque, ainsi que le principe du 16 pieds.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r467404">
           <head rend="uc">Chapitre V
            <lb/>Les progrès de l’orgue en France du <num>xiv<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
           <div>
@@ -114,7 +112,7 @@
             <p>Dans le même temps – notamment après l’impulsion que donnèrent à la facture d’orgues les guerres de religion après lesquelles de nombreux instruments durent être reconstruits – l’orgue moderne est créé. Celui de Gisors, construit en 1578, possède deux claviers de 48 notes, 21 jeux, deux 16 pieds, et un pédalier de 28 notes et de 3 jeux. C’est en Normandie que la facture d’orgues paraît avoir fait le plus de progrès au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r467497">
           <head rend="uc">Chapitre VI
            <lb/>La formule classique : l’orgue en France
            <lb/>dans la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle</head>
@@ -125,16 +123,16 @@
           <p>Les orgues sont désormais construites d’après certaines règles, certaines lois, que l’on trouve formulées dans des <hi rend="i">Traités de Facture d’orgues,</hi> dont les principaux sont ceux d’Antegnati, de Salomon de Caus, de Pierre Trichet et de Mersenne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r467555">
         <head rend="uc">Deuxième partie
          <lb/>Le buffet de l’orgue</head>
-        <div>
+        <div xml:id="r467563">
           <head rend="uc">Chapitre premier
            <lb/>le buffet d’orgue flamboyant</head>
           <p>Le buffet d’orgue du <num>xv<hi rend="sup">e</hi></num> siècle est né du buffet des orgues positives. C’est un grand rectangle massif orné de panneaux de bois à sa partie inférieure, et dans lequel les tuyaux de façade sont disposés en forme de mître ou de V, leur bouche étant à la même hauteur. L’entablement, souvent très simple, est formé par une corniche qui court tout le long du buffet. Quelquefois les plus gros tuyaux sont placés dans des tourelles qui sont rondes, en tiers-point, à six pans. Ces tourelles sont surmontées de clochetons. Les plus beaux buffets de style flamboyant encore existants sont ceux des cathédrales d’Amiens (1426), d’Embrun (1463), de Strasbourg (1489), de Perpignan (1501), des églises de Solliès-ville (Var) (1499), de Sacy (Marne), de Levroux (1502).</p>
           <p>Les tribunes de même style sont plus nombreuses. Elles sont généralement de bois, et formées d’un certain nombre de panneaux sculptés, au milieu desquels se trouve la <hi rend="i">chaière</hi> sur laquelle se plaçait l’organiste pour jouer. Il existe de ces chaières à Notre-Dame de Lamballe, à Saint-Samson de Clermont (Oise). <pb source="https://nakala.fr/10.34847/nkl.59dck7mm#64c9c30d36928dc47dc586d0bf6f58862dbafad4" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.59dck7mm/64c9c30d36928dc47dc586d0bf6f58862dbafad4/full/full/0/default.jpg"/> Quelques-unes des plus belles tribunes flamboyantes sont celles de Lamballe, de Pont-Croix (Finistère), de Moret. Il existe aussi des instruments accrochés dans la nef, en « nid d’hirondelles » : leur tribune forme cul de lampe ou pendentif (Embrun, Perpignan. La Ferté-Bernard).</p>
         </div>
-        <div>
+        <div xml:id="r467593">
           <head rend="uc">Chapitre II
            <lb/>Le buffet d’orgue à la renaissance</head>
           <p>Alors qu’au <num>xv<hi rend="sup">e</hi></num> siècle le buffet était construit pour soutenir, entourer et garantir les tuyaux de façade de l’orgue qui, par leur disposition en forme de mitre, étaient la seule décoration de l’instrument, au <num>xvi<hi rend="sup">e</hi></num> siècle ce sera tout le buffet qui formera cette décoration les tuyaux décorés, peints, n’en étant plus qu’un des détails.</p>
@@ -142,7 +140,7 @@
           <p>Le buffet comprend essentiellement une partie inférieure formé de panneaux de bois, des tuyaux disposés en tourelles et en plates faces, et un entablement surmonté de lanternes. Sur les panneaux de bois ornant la partie inférieure de l’instrument, sont sculptés des prophètes, des joueurs ou joueuses d’instruments, ou simplement des rinceaux entremêlés de têtes d’animaux. Les tourelles, généralement au nombre de trois, sont à six pans, rondes, ou en tiers-point. Elles portent cinq tuyaux. Dans les plates faces, les tuyaux sont tous de la même hauteur : ce sont leurs bouches qui forment un V ou dessinent une mitre. Les <pb source="https://nakala.fr/10.34847/nkl.59dck7mm#b9839cf33368ba94d8c3860f2382f113a6dd4a50" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.59dck7mm/b9839cf33368ba94d8c3860f2382f113a6dd4a50/full/full/0/default.jpg"/>plates faces sont séparées des tourelles par des montants de bois sculptés ou des cariatides canéphores. Les tourelles sont surmontées de lanternes carrées ou rondes, à un ou deux étages.</p>
           <p>A côté de ces différentes parties, que l’on trouve décorées dans tous les buffets du <num>xvi<hi rend="sup">e</hi></num> siècle, il existe un nombre infini de sujets d’ornementation, tels que rinceaux, claires-voies, corniches, panneaux, têtes sculptées en relief ou en demi-relief, inscrites dans un cercle, feuillages, animaux, guirlandes de fruits, étoiles, soleils tournants, anges jouant de la trompette. Les têtes articulées, tirant la langue, ou claquant des dents, ont été très goûtées au <num>xvi<hi rend="sup">e</hi></num> siècle. Il en existait à l’orgue de la cathédrale de Strasbourg, à ceux de Notre-Dame d’Avénières (le <hi rend="i">Papotier</hi>), de Metz (le <hi rend="i">Gueulard</hi>). On peut encore en voir au buffet d’orgue de Saint-Savin (Hautes-Pyrénées).</p>
         </div>
-        <div>
+        <div xml:id="r467657">
           <head rend="uc">Chapitre III
            <lb/>Le buffet d’orgue de style Louis XIII</head>
           <p>Le buffet d’orgue, de style Louis XIII, n’est plus ce massif rectangulaire et plat que l’on a construit jusqu’au début du <num>xvii<hi rend="sup">e</hi></num> siècle. De silhouette plus élancée, il possède trois ou cinq tourelles portées à des hauteurs différentes par de grandes cariatides ailées. La décoration a presque totalement disparu. Les caractéristiques du buffet de style Louis XIII sont les tourelles rondes, les grandes cariatides, les panneaux à moulures, les dômes à imbrications, les denticules, les têtes d’anges, les plumets.</p>
@@ -160,7 +158,7 @@
          <lb/>d’orgues, jusqu’en 1660.</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r467705">
         <head rend="uc">Appendice</head>
         <p>Table des facteurs d’orgues non cités dans le <hi rend="i">Dictionnaire des Facteurs d’orgues,</hi> de P. de Fleury (1660-1789).</p>
       </div>

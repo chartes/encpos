@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_20" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_20" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,27 +54,27 @@
         <forename>Faralalao</forename>
         <surname>Rakotoniaina-Razafindrakotohasina</surname>
       </byline>
-      <div>
+      <div xml:id="r898393">
         <head rend="uc">Sources</head>
         <p>Les principales sources consultées sont, d’une part, la correspondance générale (Cap de Bonne-Espérance, série C 5B) conservée aux Archives d’Outre-mer et, d’autre part, la série B (ordres du roi) du fonds des colonies conservé aux Archives nationales. Ont été aussi utilisées les séries C 2 et C 4 des Archives des colonies, ainsi que les mémoires et documents (Asie) des Archives du Ministère des Affaires étrangères.</p>
       </div>
-      <div>
+      <div xml:id="r898403">
         <head rend="uc">Introduction</head>
         <p>Situé à mi-chemin entre l’Europe et l’Inde, le cap de Bonne-Espérance était pour les vaisseaux du <num>xviii<hi rend="sup">e</hi></num> siècle un port d’escale nécessaire sur la route des épices. Découvert par Barthélémi Dias qui n’osa y mettre pied, ce pays ne fut véritablement exploité qu’au <num>xvii<hi rend="sup">e</hi></num> siècle lorsque la Compagnie hollandaise des Indes orientales y délégua Jean Van Riebeek pour jeter les bases d’un établissement de commerce. Fondée pour subvenir aux besoins de la Compagnie hollandaise, l’escale du Cap accueillait aussi les étrangers et garda toute son importance pendant deux siècles, jusqu’au percement de l’isthme de Suez.</p>
       </div>
-      <div>
+      <div xml:id="r898425">
         <pb source="https://nakala.fr/10.34847/nkl.865a8y84#001243231a56ad040e818f1d85b4caeec5ceeef2" n="158" facs="https://api.nakala.fr/iiif/10.34847/nkl.865a8y84/001243231a56ad040e818f1d85b4caeec5ceeef2/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Politique française au cap de Bonne-Espérance
          <lb/>(<num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles)</head>
-        <div>
+        <div xml:id="r898452">
           <head rend="uc">Chapitre premier
            <lb/>le cap et les puissances maritimes</head>
           <p>Les hostilités représentaient aux yeux des nations rivales de la République hollandaise un prétexte pour tenter de s’emparer du Cap, cette étape idéale dans un périple indien.</p>
           <p>Dès 1669, Colbert eut l’idée de ne laisser à Fort-Dauphin (Madagascar) qu’un entrepôt de « convenance », car, disait-il, « l’entrepôt nécessaire doit être établi avec le temps au cap de Bonne-Espérance ». Ses arrières-pensées hostiles à l’égard des Hollandais et de leur établissement au Cap étaient toutes plus ou moins ouvertement exprimées dans les diverses instructions qu’il confiait à des chefs d’escadre devant relâcher au Cap même ou dans les environs de la baie de la Table. Mais, au milieu des embarras suscités par la guerre et la coalition européenne, Colbert ne put se résoudre à une entreprise militaire contre le Cap. Cependant, jusqu’à la fin du règne de Louis XIV et malgré la politique de Louvois qui voulait dissuader le roi des entreprises coloniales, l’idée de la conquête du Cap par les armes fut développée maintes fois dans différents mémoires.</p>
           <p>Poursuivant une politique dominatrice, l’Angleterre voulait s’arroger une sorte de souveraineté sur tous les autres pavillons. Elle voulait aussi se réserver le soin de régler le commerce des neutres selon ses vues et à son profit. Lorsque la Russie, le Danemark et la Suède se groupèrent en une « ligne des neutres », la Hollande voulut adhérer elle aussi à cette ligue, ce qui précipita la rupture entre l’Angleterre et elle. Aussitôt après la déclaration de la guerre, les généraux anglais de terre et de mer reçurent l’ordre d’attaquer tous les bâtiments et établissements hollandais, ce qui plongea les États-généraux de Hollande dans un profond désarroi car la Compagnie des Indes avait toujours négligé de mettre ses comptoirs en état de défense.</p>
         </div>
-        <div>
+        <div xml:id="r898470">
           <head rend="uc">Chapitre II
            <lb/>L’alliance franco-hollandaise</head>
           <p>Soucieuse de faire triompher le principe de la liberté des mers, et surtout d’empêcher l’Angleterre de se rendre maîtresse incontestée dans la mer des Indes en s’appropriant les riches possessions hollandaises, la France accepta le projet d’alliance présenté par les États-généraux des Provinces-Unies.</p>
@@ -84,7 +82,7 @@
           <p>La conservation de l’escale du Cap était très importante et même absolument nécessaire à des nations ayant des établissements à défendre dans les Indes orientales, et l’évidence même d’un projet anglais contre le Cap ne pouvait échapper à quiconque. Français et Hollandais avaient d’ailleurs à résoudre un problème identique car, sans le cap de Bonne-Espérance, les îles de France et de Bourbon et les Moluques, incapables de se suffire à elles-mêmes en temps de guerre, risquaient fort de tomber sous la domination anglaise.</p>
           <p>Le 27 mai 1781, un traité fut passé entre Chevreau, intendant des îles de France et de Bourbon, et le baron de Plettemberg, gouverneur du Cap. Ce traité prévoyait l’installation au Cap de troupes françaises, chargées de défendre cet établissement, et la prise en charge de leur entretien par le gouvernement hollandais.</p>
         </div>
-        <div>
+        <div xml:id="r898493">
           <head rend="uc">Chapitre III
            <lb/>La situation militaire du cap</head>
           <p>Les quelque trois cents à quatre cents hommes de toutes nations formant la garnison du Cap avaient pour la plupart des préoccupations plus commerciales que militaires, et ne pouvaient éventuellement défendre l’établissement. Le fort de la ville, seul point relativement fortifié de la colonie, était lui aussi dans un état lamentable, car la question militaire n’avait jamais fait partie des soucis essentiels de la Compagnie hollandaise. Aussi, l’un des premiers objectifs des Français en arrivant au Cap fut-il le réaménagement de ce fort et la construction de quelques redoutes, pour avoir une défense efficace des points où l’ennemi pouvait débarquer.</p>
@@ -93,7 +91,7 @@
           <p>Les colons du Cap, lassés de la politique intransigeante de la Compagnie hollandaise, n’étaient animés d’aucune étincelle de patriotisme. Ils se sentaient presque tous étrangers à la Hollande, et, à leur arrivée dans la colonie, les Français ne pouvaient ignorer que la majeure partie des commerçants était prête à capituler pour conserver ses biens.</p>
           <p>Les Danois mis à part, les neutres essayaient de servir sans distinction l’une ou l’autre nation belligérante. Les Danois, quant à eux, manifestaient un sentiment pro-anglais qu’ils ne prenaient aucunement la peine de cacher tant en paroles qu’en gestes.</p>
         </div>
-        <div>
+        <div xml:id="r898517">
           <pb source="https://nakala.fr/10.34847/nkl.865a8y84#a1945d2dcdb702df5c796385e36a47e071b80091" n="160" facs="https://api.nakala.fr/iiif/10.34847/nkl.865a8y84/a1945d2dcdb702df5c796385e36a47e071b80091/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le cap et les hostilités franco-anglaises
@@ -105,17 +103,17 @@
           <p>Les autorités des îles de France et de Bourbon et du cap de Bonne-Espérance n’avaient que de faibles échos des opérations qui se succédaient aux Indes. Alors que les Anglais dans l’Inde entretenaient avec leur gouvernement une correspondance très active et très suivie, les Français du Cap n’avaient des informations que lorsque les Danois ou des Anglais de passage dans la colonie voulaient bien leur en donner, ou bien encore d’après des papiers anglais confisqués.</p>
           <p>En 1783, les nouvelles de la paix imminente arrivèrent au Cap, et tous les travaux de défense furent suspendus. C’est à cette époque seulement qu’arrivèrent quatre vaisseaux de guerre hollandais prévus pour aller aux Indes. Cette sortie tardive suscita de la part des Français des réflexions ironiques.</p>
         </div>
-        <div>
+        <div xml:id="r898551">
           <head rend="uc">Chapitre V
            <lb/>Le cap à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle</head>
           <p>Après cette brève incursion française dans les affaires du cap de Bonne-Espérance, cette colonie ne connut plus une paix durable. Les Anglais, qui la convoitaient toujours, profitèrent des bonnes dispositions qu’avait à leur égard le stathouder revenu au pouvoir et s’emparèrent du Cap en 1795. La paix d’Amiens le leur enleva, mais, en 1815, ils devinrent définitivement maîtres du pays, réalisant ainsi le rêve caressé depuis longtemps par leur rivale de longue date, la France.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r898570">
         <pb source="https://nakala.fr/10.34847/nkl.865a8y84#2311be10f483a12095361c57a8cd67bbdd371727" n="161" facs="https://api.nakala.fr/iiif/10.34847/nkl.865a8y84/2311be10f483a12095361c57a8cd67bbdd371727/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>L’agence de la marine française au cap</head>
-        <div>
+        <div xml:id="r898583">
           <head rend="uc">Chapitre premier
            <lb/>nécessité d’avoir un correspondant au cap</head>
           <p>Les avantages que pouvaient trouver les bâtiments à relâcher dans la colonie hollandaise étaient souvent diminués par les désagréments nés de la concurrence intensive des nations qui s’y retrouvaient, et du prix exhorbitant qu’exigeaient les commerçants des denrées et objets de première nécessité.</p>
@@ -127,14 +125,14 @@
           <pb source="https://nakala.fr/10.34847/nkl.865a8y84#2b64d148a7becc557fda549c26b2b1ce30dc5808" n="162" facs="https://api.nakala.fr/iiif/10.34847/nkl.865a8y84/2b64d148a7becc557fda549c26b2b1ce30dc5808/full/full/0/default.jpg"/>
           <p>Enfin, en temps de guerre, l’établissement d’un agent dans la colonie hollandaise laissait espérer au gouvernement français des renseignements sur les forces ennemies dans la mer des Indes, sur le mouvement des vaisseaux des nations alliées ou neutres, sur les nouvelles des Indes qui lui parvenaient d’une façon ou d’une autre. L’agent pourrait en outre approvisionner les escadres françaises et leur donner tous les secours voulus ; il pourrait enfin préparer toutes les fournitures dont les deux îles auraient besoin.</p>
         </div>
-        <div>
+        <div xml:id="r898618">
           <head rend="uc">Chapitre II
            <lb/>Les débuts de l’agence</head>
           <p>Sous la régie de la Compagnie française des Indes, les agents envoyés au Cap n’y résidaient pas encore de façon permanente, mais ils y faisaient des séjours assez longs et assez nombreux pour être parfaitement au courant des coutumes, des prix et des transactions dans ce pays. Ils étaient cependant encore considérés comme de simples particuliers et s’en trouvaient gênés dans leurs relations commerciales avec les habitants de la colonie. Les débuts de l’agence de la marine furent, eux aussi, très timides car les agents n’étaient pas acceptés officiellement par le gouvernement du Cap, et, à l’exemple des employés de la Compagnie, devaient agir comme des particuliers.</p>
           <p>Les instructions données aux premiers agents de la marine envoyés au cap de Bonne-Espérance ordonnaient à ceux-ci de se conformer en tout à ce que leur prescriraient les administrateurs de l’île de France (gouverneur et intendant), de leur rendre compte de leur gestion et d’informer le ministre de la marine de toutes leurs opérations. Parmi ces agents, citons les sieurs Amat, de Montigny et Monneron.</p>
           <p>Divers mémoires furent envoyés au ministre de la marine tendant à donner une base stable et solide à l’agence en formation. Il était nécessaire d’obtenir des État-généraux et des directeurs de la Compagnie hollandaise leur agrément pour l’envoi au Cap d’un agent du roi. Cet agent devait être pourvu d’un brevet de commissaire de la marine, avoir des magasins, des fours, une main-d’œuvre nombreuse et capable, et surtout assez d’argent pour pouvoir profiter des occasions et ne pas être pris de court devant les besoins imprévus de vaisseaux en relâche ou des îles de France et de Bourbon ; il fallait par conséquent qu’il ait la liberté de tirer directement sur le trésor des colonies, mais ses lettres de change seraient mieux accueillies si elles étaient payées à Amsterdam en florins de Hollande.</p>
         </div>
-        <div>
+        <div xml:id="r898636">
           <head rend="uc">Chapitre III
            <lb/>Louis-Adrien Percheron</head>
           <p>La défense du Cap par les troupes françaises et le passage fréquent des escadres royales dans les rades de cette colonie hollandaise furent un bon prétexte pour l’administration de la marine d’y faire admettre officiellement son agent. <pb source="https://nakala.fr/10.34847/nkl.865a8y84#08431a93e8e44e9d90d4ff8b3bd3cdf050863211" n="163" facs="https://api.nakala.fr/iiif/10.34847/nkl.865a8y84/08431a93e8e44e9d90d4ff8b3bd3cdf050863211/full/full/0/default.jpg"/> C’est ainsi qu’y fut envoyé en qualité de « commissaire des colonies résident au Cap » le sieur Louis-Adrien Percheron.</p>
@@ -143,7 +141,7 @@
           <p>Après un congé en France, il revint au Cap avec le titre de commissaire des colonies et des appointements de six mille livres par an, plus deux mille livres supplémentaires pour le logement et « autres facilités ».</p>
           <p>Il dépendait directement de l’intendant des îles et devait assurer la direction de différents « détails » administratifs : les revues, les magasins généraux (sauf ceux de l’artillerie), les approvisionnements, les hôpitaux, le service des classes, le service des prises, les invalides de la marine.</p>
         </div>
-        <div>
+        <div xml:id="r898665">
           <head rend="uc">Chapitre IV
            <lb/>Fonctionnement de l’agence</head>
           <p><hi rend="i">Employés, magasins, main-d’œuvre.</hi> – A son arrivée au Cap, Percheron eut droit à l’aide de deux employés déjà en place, l’un, Billy, depuis douze ans, et l’autre, Trublet, depuis deux ans.</p>
@@ -163,7 +161,7 @@
           <p>Les difficultés de Percheron en cette matière furent multiples, car, alors qu’il tirait ses lettres de change à six mois de vue, les agents étrangers payaient au comptant ou bien tiraient à trente jours au maximum. Une autre difficulté sérieuse était le prix de la piastre qui valait cinq livres cinq sous aux îles de France et de Bourbon, mais qui lui coûtait six livres cinq sous au Cap.</p>
           <p><hi rend="i">Autres opérations.</hi> – Percheron remplissait aussi les fonctions d’un consul français dans la colonie du Cap : il se portait garant des traités que faisaient dans le pays des marchands particuliers, il prenait en charge l’entretien des naufragés arrivés au Cap, ou des galériens laissés malades par leurs vaisseaux ; il tranchait toute espèce de litige qui pouvait nuire au crédit de la nation française. Il envoyait à Versailles tout ce qui pouvait servir à rehausser l’éclat de la cour royale : vin de Constance pour « la bouche du Roy », animaux rares pour la « ménagerie ».</p>
         </div>
-        <div>
+        <div xml:id="r898753">
           <head rend="uc">Chapitre V
            <lb/>Percheron et les autorités du cap</head>
           <p>Les membres du Conseil avec lesquels Percheron avait le plus de relations étaient le gouverneur Plettemberg et le « fiscal » Boers.</p>
@@ -173,7 +171,7 @@
           <p>Percheron devait en outre enrayer l’activité des « particuliers pacotilleurs » qui pullulaient sur les flottes en escale au Cap.</p>
           <p>Percheron se heurtait néanmoins à l’animosité de ses compatriotes, au point qu’il demanda plusieurs fois son rappel, les Français le jugeant trop économe et trop près de « la bourse du roy ».</p>
         </div>
-        <div>
+        <div xml:id="r898780">
           <pb source="https://nakala.fr/10.34847/nkl.865a8y84#3300235cace160de7f5678cb29b979cfc721bfbb" n="166" facs="https://api.nakala.fr/iiif/10.34847/nkl.865a8y84/3300235cace160de7f5678cb29b979cfc721bfbb/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>La fin de l’agence</head>
@@ -186,7 +184,7 @@
           <p>Trublet fut en définitive chassé du pays par le Conseil : il dut s’embarquer, en 1789, pour l’île de France par le premier vaisseau en partance, et laissa au Cap, comme chargé des affaires royales, le sieur Guy, le seul fournisseur resté fidèle à la nation française.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r898816">
         <head rend="uc">Conclusion</head>
         <p>L’agence française établie au cap de Bonne-Espérance ne joua un rôle vraiment important que tant que Percheron resta en place, de 1781 à 1787 ; en effet, seuls, sa personnalité et le crédit qu’il avait dans la colonie hollandaise lui permettaient de jouir de tous les avantages nécessaires à la bonne marche des affaires royales.</p>
       </div>

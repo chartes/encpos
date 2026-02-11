@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1900_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1900_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,14 +55,14 @@
         <forename>Henri</forename>
         <surname>Escoffier</surname>
       </byline>
-      <div>
+      <div xml:id="r247863">
         <head rend="uc">Introduction</head>
         <p>Une erreur commune, fondée sur une tradition accréditée, prétend que l’art gothique s’arrête brusquement au début du <num>xvi<hi rend="sup">e</hi></num> siècle et n’a pas donné d’œuvres au-delà de l’époque de l’architecture flamboyante. Il y a au contraire une transition véritable, et c’est encore à l’architecture gothique qu’appartiennent les églises du diocèse de Paris pendant le <num>xvi<hi rend="sup">e</hi></num> siècle, plus exactement depuis Charles VIII jusqu’à Henri IV.</p>
         <p>La structure des églises est restée en effet conforme à la tradition ancienne, et tout leur système repose sur la voûte qui est établie sur croisée d’ogives.</p>
       </div>
-      <div>
+      <div xml:id="r247888">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r247894">
           <head rend="uc">Chapitre premier
            <lb/>l’époque</head>
           <p>1. <hi rend="i">Détermination générale de l’époque étudiée.</hi> – Notre période s’étend de la pacification, après Louis XI, de la ré<pb source="https://nakala.fr/10.34847/nkl.cb7c6qq2#9027126f315d4e4f6706be0de8076cfcc33f405e" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb7c6qq2/9027126f315d4e4f6706be0de8076cfcc33f405e/full/full/0/default.jpg"/>gion parisienne jusqu’à la Ligue. – Les guerres du <num>xvi<hi rend="sup">e</hi></num> siècle n’ont point arrêté le mouvement artistique : au contraire, les expéditions en Italie y ont aidé, en établissant des relations suivies avec ce pays.</p>
@@ -73,7 +71,7 @@
           <p>2. <hi rend="i">Les phases de la construction des églises.</hi> – De nombreuses dates de consécration sont acquises par les travaux de l’abbé Lebœuf et du baron de Guilhermy. – Elles ne nous renseignent pas exactement sur les dates de construction, mais suffisent à nous apprendre que les travaux furent en général faits d’abord dans la ville de Paris pendant la période gothique du XVI’ siècle. Les églises de la banlieue sud furent rebâties les premières. Celles de la banlieue nord ne furent reconstruites qu’en dernier lieu.</p>
           <p>Au point de vue chronologique, ces travaux de reconstruction concordent avec les périodes de calme et de paix.</p>
         </div>
-        <div>
+        <div xml:id="r247937">
           <head rend="uc">Chapitre II
            <lb/>Le milieu</head>
           <p>1. Il faut tenir compte du prestige qu’exerce dès longtemps la ville de Paris ; ce prestige n’est pas diminué parles malheurs qu’a subis la capitale pendant les guerres anglaises. Mais on doit reconnaître que. dans le mouvement d’art du XVI’ siècle, Paris n’a joué qu’un rôle passif : il a reçu une impression de toutes les nouveautés. 11 n’a pas été le point de départ d’aucun progrès.</p>
@@ -86,16 +84,16 @@
           <p>L’influence italienne s’exercait en France depuis longtemps lorsque les guerres des Français dans la Péninsule en ont activé le mouvement : celles-ci sont loin de l’avoir provoqué. Cette mode italienne trouva chez les artistes français une certaine répugnance ; elle ne s’imposa que lentement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r247973">
         <pb source="https://nakala.fr/10.34847/nkl.cb7c6qq2#e8c6a7f5103ee7cad194e88497f76494d3fd0717" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.cb7c6qq2/e8c6a7f5103ee7cad194e88497f76494d3fd0717/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Étude archéologique</head>
-        <div>
+        <div xml:id="r247986">
           <head rend="uc">Introduction</head>
           <p>1. L’étude de la transition de l’architecture religieuse au XVI" siècle n’a point été faite, quoiqu’il ait été beaucoup écrit sur l’histoire de la Renaissance.</p>
           <p>2. Nos constructeurs sont des Français, simples artisans locaux bien souvent. Ce sont des praticiens désireux avant tout de construire solidement, tout à fait maîtres de leur technique, grâce à l’excellente préparation qu’ils ont reçue à l’époque flamboyante. Ils ne se soucient point de faire des théories artistiques, ils adoptent les idées de leurs contemporains, en suivent les modes, mais ne les dirigent point. Ils comprennent du reste encore très bien les œuvres de leurs devanciers et savent les respecter : les actes de vandalisme sont rares à cette époque (V. égl. de Deuil).</p>
         </div>
-        <div>
+        <div xml:id="r247999">
           <head rend="uc">Première section
            <lb/>les données immuables dans la
            <lb/>construction des églises</head>
@@ -108,7 +106,7 @@
           <p>3. Les grands édifices sont construits d’après le même principe. Il y a en outre des arcs-boutants parce que la hauteur est plus grande ; le plan est accru de doubles collatéraux, de caroles, de chapelles à l’abside et à la nef. Les églises sont coupées par un transept dans la forme ordinaire. Le chœur se termine parfois, à l’imitation de la cathédrale de Paris, en demi-cercle et non en polygone.</p>
           <p>4. La conception traditionnelle se retrouve donc dans les plans, dans leur orientation, dans l’usage qui demeure de couvrir de voûtes les églises ; elle se reconnaît aussi dans le luxe apporté au chœur et dans ces détails qui, à défaut du transept, en rappellent le souvenir.</p>
         </div>
-        <div>
+        <div xml:id="r248036">
           <head rend="uc">Section II
            <lb/>la structure</head>
           <div>
@@ -148,7 +146,7 @@
             <p>Toute cette structure apparaît comme basée sur des traditions gothiques ; sa technique reste identique à celle des siècles antérieurs : elle est parfaitement ordonnée et homogène.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r248166">
           <head rend="uc">Section III
            <lb/>la décoration</head>
           <div>
@@ -221,7 +219,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r248409">
         <head rend="uc">Table alphabétique</head>
         <p>Liste des édifices ou parties d’édifices du <num>xvi<hi rend="sup">e</hi></num> siècle dans le diocèse de Paris, avec l’histoire des travaux et les indications bibliographiques.</p>
       </div>

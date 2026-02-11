@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,29 +55,29 @@
         <forename>Nicole</forename>
         <surname>Gotteri-Grambert</surname>
       </byline>
-      <div>
+      <div xml:id="r891680">
         <head rend="uc">Introduction</head>
         <p>Le Morvan fut longtemps un pays pauvre, où l’organisation seigneuriale et l’exploitation domaniale furent étroitement liées et aboutirent à la formation d’une grande propriété qui demeura parfois intacte au <num>xix<hi rend="sup">e</hi></num> siècle. Cela se produisit pour Chassy et ses dépendances. L’étude entreprise a porté, d’une part, sur l’action des seigneurs et l’exercice des droits seigneuriaux anciens en vue d’un regroupement des terres ; de l’autre, sur la structure et la mise en valeur du domaine constitué.</p>
       </div>
-      <div>
+      <div xml:id="r891696">
         <head rend="uc">Sources</head>
         <p>Le fonds d’archives provenant du château de Chassy, donné en 1887 par le prince de Béarn aux Archives départementales de la Nièvre, où ses divers éléments sont groupés sous l’appellation de fonds Choiseul, a été le point de départ de la recherche. Celle-ci fut complétée par le recours à d’autres sources, notariales en particulier, et par l’utilisation du cadastre de 1829.</p>
       </div>
-      <div>
+      <div xml:id="r891706">
         <pb source="https://nakala.fr/10.34847/nkl.a26d2tk6#17a9bb93bbe3a0d5ce303af640168ab7bd02487a" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.a26d2tk6/17a9bb93bbe3a0d5ce303af640168ab7bd02487a/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
           <lb/>La seigneurie de Chassy</head>
-        <div>
+        <div xml:id="r891719">
           <head rend="uc">Chapitre premier
             <lb/>le milieu physique</head>
           <p>Chassy et ses dépendances sont répartis entre les cantons de Château-Chinon et de Corbigny, dans le département de la Nièvre, au point de vue administratif ; entre le Haut-Morvan et le Bazois, du point de vue géographique. Climat rude, réseau hydrographique dense, étendues boisées caractérisent ces deux régions ; mais la première a des sols granitiques, la seconde des sols calcaires.</p>
         </div>
-        <div>
+        <div xml:id="r891731">
           <head rend="uc">Chapitre II
             <lb/>Les conditions historiques</head>
           <p>Le Morvan n’a été et ne reste qu’une région naturelle. Sous l’ancien régime, le Haut-Morvan dépendait de la seigneurie de Château-Chinon qui y possédait cent quatre-vingt-quinze fiefs rattachés à cinq bailliages, et du comté puis duché de Nevers dont l’autorité s’exerçait dans le cadre administratif et judiciaire de la châtellenie. La justice royale était rendue au présidial de Saint-Pierre-le-Moûtier. Par la suite, l’élection de Vézelay, au nord de l’Yonne, dépendit de la généralité de Paris, tandis qu’au sud, les élections de Nevers et de Château-Chinon dépendirent de la généralité de Moulins.</p>
         </div>
-        <div>
+        <div xml:id="r891743">
           <head rend="uc">Chapitre III
             <lb/>La seigneurie de Chassy</head>
           <p>En l’absence d’un registre-terrier, ont été utilisés tous les éléments susceptibles de renseigner sur l’action des seigneurs, la condition des terres et l’exercice des droits. Trois périodes seront considérées.</p>
@@ -95,11 +93,11 @@
           <p>L’examen de la condition des personnes vivant dans les limites de ce détroit nous a permis d’établir que, en dehors du bordelage dont la nature mixte affectait à la fois les terres et les individus, trente communautés serves vivaient au <num>xvii<hi rend="sup">e</hi></num> siècle, sous l’autorité du seigneur de Chassy et lui payaient la taille servile.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r891840">
         <head rend="uc">Deuxième partie
           <lb/>Le domaine et son exploitation</head>
         <p>Le domaine de Chassy, constitué à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, fut mis en valeur selon les idées et les moyens du temps ; sa situation n’est pas exceptionnelle dans sa région naturelle, à laquelle il reste lié à tous les points de vue : climatologique, social ou économique. La correspondance des intendants, les ouvrages de Vauban, les écrits des particuliers nous renseignent à ce sujet.</p>
-        <div>
+        <div xml:id="r891857">
           <head rend="uc">Chapitre premier
             <lb/>description du domaine</head>
           <p>Le domaine des seigneurs de Chassy se composait d’une réserve autour du château et de plusieurs fermes appelées indistinctement métairies ; celles-ci, constituées par des bâtiments groupés autour d’une cour, se trouvaient établies soit dans un village, à l’écart des habitations, soit à la place d’un ancien « huis », ancienne résidence d’une communauté, soit à l’emplacement d’un ancien fief. Dans tous les cas, les terres apparaissent fortement groupées autour du centre de l’exploitation et les parcelles sont presque toujours jointives. L’étendue <pb source="https://nakala.fr/10.34847/nkl.a26d2tk6#f78cbb427a2b92c3807b79d9892b3da9baf5797a" n="69" facs="https://api.nakala.fr/iiif/10.34847/nkl.a26d2tk6/f78cbb427a2b92c3807b79d9892b3da9baf5797a/full/full/0/default.jpg"/>de cet ensemble était importante ; la réserve et les neuf fermes couvraient les superficies suivantes, exprimées en hectares :</p>
@@ -166,7 +164,7 @@
           </table>
           <p>Il convient d’y ajouter un moulin banal, des étangs, des vignes et des bois.</p>
         </div>
-        <div>
+        <div xml:id="r892025">
           <head rend="uc">Chapitre II
             <lb/>Les métairies</head>
           <p>Le livre-journal du régisseur (1754-1770), le livre de ses dépenses (1738-1786) et soixante-et-un baux (1573-1785) permettent d’étudier les modes et les moyens d’exploitation des métairies.</p>
@@ -178,7 +176,7 @@
           <p>Faute de relevés réguliers, la connaissance des rendements reste imparfaite ; à la veille de la Révolution, divers mémoires les calculaient sur la base de trois pour un, graines déduites ; mais les variations furent toujours considérables.</p>
           <p><hi rend="i">Les baux.</hi> – Bail à moitié et accense sont les deux formes principales des baux ; la ferme, moyennant le payement d’une somme fixe, reste l’exception. Toute l’activité des métayers est réglée par ces contrats : dates d’entrée et de sortie, entretien des haies et des couvertures, superficies à ensemencer, quantités de grains à laisser, suffrages, payement des impositions et de la main-d’œuvre engagée, obligations, réserves et défenses.</p>
         </div>
-        <div>
+        <div xml:id="r892080">
           <head rend="uc">Chapitre III
             <lb/>L’élevage</head>
           <p>Les conditions dans lesquelles l’élevage était pratiqué sont bien connues grâce aux baux à cheptel et aux comptes du livre-journal.</p>
@@ -187,7 +185,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.a26d2tk6#a2bd49491437ca075a7da643cd5893058a875536" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.a26d2tk6/a2bd49491437ca075a7da643cd5893058a875536/full/full/0/default.jpg"/>
           <p>Pourtant les épizooties étaient fréquentes, souvent cruelles, comme celle de 1746 ; les moyens de lutter contre elles, révélés par les recettes des livres de comptes, restaient très insuffisants. Mais, plus que les cultures, l’élevage demeura une activité liée à la réalisation possible d’un gain.</p>
         </div>
-        <div>
+        <div xml:id="r892106">
           <head rend="uc">Chapitre IV
             <lb/>Activités annexes</head>
           <p><hi rend="i">Le moulin de Chassy.</hi> – Le moulin banal avec ses dépendances fut toujours confié à des meuniers-charpentiers aux termes d’un « bail à ferme » fixant les diverses conditions, charges et services. La rente annuelle consistait à payer au bailleur une somme d’argent et à lui fournir des quantités de grains « bien vannés et étappés », provenant de la perception du droit de mouture ; les capacités de froment exigées diminuèrent au cours du <num>xviii<hi rend="sup">e</hi></num> siècle. Les meuniers s’acquittaient très mal de leurs obligations et leurs dettes étaient constantes.</p>
@@ -198,7 +196,7 @@
           <p><hi rend="i">La culture de la vigne.</hi> – La vigne était cultivée dans les domaines du Bazois ; le seigneur de Chassy en possédait un peu plus de cinq hectares. Le vin obtenu se nommait « clairette », « vin tendre » ou « rape ».</p>
           <p>L’entretien des vignes était un travail spécialisé et délicat, que le seigneur confiait directement à un vigneron, moyennant le payement d’un salaire annuel. La coutume, de façon générale, et les « marchés de vignes », en particulier, déterminaient la succession et l’importance des divers travaux : provignage, façons ordinaires et extraordinaires, vendanges. La production moyenne, de quarante et un hectolitres par an, était surtout destinée à satisfaire les besoins domestiques.</p>
         </div>
-        <div>
+        <div xml:id="r892154">
           <pb source="https://nakala.fr/10.34847/nkl.a26d2tk6#2b8c874bb02004a67eb3d10823d5aefddda1ff70" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.a26d2tk6/2b8c874bb02004a67eb3d10823d5aefddda1ff70/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
             <lb/>Les bois</head>
@@ -208,10 +206,10 @@
           <p>Malgré les dépenses engagées pour les grands travaux des champs, l’entretien des terres, des haies, des étangs et des bâtiments, malgré les impositions royales, dixième et vingtième, le seigneur de Chassy put tirer de ses domaines, en moyenne, onze mille livres par an environ.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r892187">
         <head rend="uc">Troisième partie
           <lb/>Les personnes</head>
-        <div>
+        <div xml:id="r892195">
           <head rend="uc">Chapitre premier
             <lb/>les habitants du château</head>
           <p>Comme maître d’un domaine étendu, le seigneur a longtemps occupé la première place, dans le château où il résida ordinairement, jusqu’au début du <num>xviii<hi rend="sup">e</hi></num> siècle. Dès 1650, il fut secondé par un « agent d’affaires », appelé plus tard intendant. De 1720 à 1785, les Charleuf dirigèrent l’ensemble des exploitations. Cette famille, affranchie en 1480, était originaire de Montigny-sur-Canne, dans le canton de Châtillon-en-Bazois ; Claude-Charles et Claude-François, qui furent au service des seigneurs de Chassy, avaient le titre de « bourgeois de Montreuillon ». Grâce à leurs activités, ils purent acquérir des biens importants dans leur « pays » d’origine.</p>
@@ -220,7 +218,7 @@
           <p>Le régisseur remplaçait le seigneur et le maître, à qui il rendait des comptes régulièrement. Il voyageait très souvent pour inspecter les domaines, régler les affaires de son maître, fréquenter les foires. Sa femme dirigeait la domesticité du château, et remplaçait son mari dans ses fonctions quand il était absent.</p>
           <p>Frais de nourriture, entretien, soins et gages étaient minutieusement notés chaque année.</p>
         </div>
-        <div>
+        <div xml:id="r892227">
           <head rend="uc">Chapitre II
             <lb/>Les exploitants</head>
           <p>Le métayer et sa famille résidaient dans une maison séparée de la grange et des écuries ou située dans leur prolongement ; mais les communs sont couverts de paille, le logis d’essiaunes ou tuiles de bois ; le sol de la maison, où la « chambre à feu » est la pièce principale, est dallé.</p>
@@ -231,19 +229,19 @@
           <p>Toutes les familles de métayers vivaient en communauté libre où le nombre des têtes oscillait entre six et huit ; les membres étaient parents ou alliés ; à la suite d’un mariage, d’un décès ou d’une dissolution, des règlements intervenaient. L’entente n’était pas toujours parfaite, mais les avantages offerts par de telles associations pour la mise en valeur des terres étaient très grands.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r892255">
         <head rend="uc">Conclusion</head>
         <p>En 1785, la ferme générale de tous les revenus de Chassy ne comprit ni la seigneurie et les droits utiles, ni les bois. Au <num>xviii<hi rend="sup">e</hi></num> siècle, les reversions bordelières et les retraits pouvaient être exercés, les lods et les redevances exigés ; <pb source="https://nakala.fr/10.34847/nkl.a26d2tk6#eae27ae8067c5e313626621d0e3212491da5086b" n="74" facs="https://api.nakala.fr/iiif/10.34847/nkl.a26d2tk6/eae27ae8067c5e313626621d0e3212491da5086b/full/full/0/default.jpg"/>le plus important restait, cependant, l’exploitation des terres et des bois, dans un domaine qui, dans une certaine mesure, reflétait les caractères de l’agriculture et de l’élevage pratiqués dans les deux régions naturelles sur lesquelles il s’étendait : le Haut-Morvan et le Bazois.</p>
       </div>
-      <div>
+      <div xml:id="r892276">
         <head rend="uc">Pièces annexes</head>
         <p>Dégâts commis aux moulins de Chassy par le passage d’un flot de bois, de décembre 1660 à février 1661. – Tableau des foires locales. – La taille au <num>xviii<hi rend="sup">e</hi></num> siècle dans les paroisses dont dépendaient les domaines de Chassy.</p>
       </div>
-      <div>
+      <div xml:id="r892292">
         <head rend="uc">Pièces justificatives</head>
         <p>Donation de la terre de Chassy. – Reconnaissance de servitude. – Affranchissement. – Accense. – Adjudication de Chassy par le Parlement de Dijon. – Marché de vignes. – Retrait seigneurial. – Marché pour l’exploitation d’une réserve. – Dissolution d’une communauté de métayers. – Baux à cheptel. – Bail à moitié-fruits. – Comptes pour une année avec un métayer. – Accense du moulin.</p>
       </div>
-      <div>
+      <div xml:id="r892302">
         <head rend="uc">Cartes</head>
         <p>Les possessions des seigneurs de Chassy. – Plans à l’échelle cadastrale des différentes métairies.</p>
       </div>

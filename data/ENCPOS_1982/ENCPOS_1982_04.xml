@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1982_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <surname>Bonnot</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1083849">
         <head rend="uc">Introduction</head>
         <p>Henry Arnauld est surtout connu pour sa participation active aux querelles jansénistes, et pour les polémiques qui se déclenchèrent autour de son nom au <num>xix<hi rend="sup">e</hi></num> siècle. L’action qu’il conduit, de 1650 à 1692, dans le cadre du diocèse d’Angers, illustre le rôle des évêques dans la réforme entreprise par l’Église catholique au <num>xvii<hi rend="sup">e</hi></num> siècle. Il tente, en effet, d’appliquer dans son diocèse les principes du concile de Trente, et les exemples donnés par Port-Royal. Son idéal l’y engage, les moyens mis en œuvre en sont les premiers signes.</p>
         <p>Son action se manifeste tout d’abord par la réforme des communautés religieuses et la défense de l’autorité épiscopale. Son souci de la formation du clergé séculier se situe dans une perspective identique, ainsi que son œuvre en faveur des fidèles, dans le domaine de la foi catholique, de l’éducation chrétienne, de la morale, de la pratique sacramentelle et des œuvres charitables.</p>
       </div>
-      <div>
+      <div xml:id="r1083874">
         <head rend="uc">Sources</head>
         <p>L’essentiel des sources provient des Archives départementales de Maine-et-Loire (séries G et H), des Archives municipales d’Angers et de Saumur, des Archives hospitalières, et de la Bibliothèque municipale d’Angers. Le fonds de Port-Royal à Utrecht, les Archives du Vatican, n’ont fourni qu’une documentation annexe. L’absence de certains fonds, archives de l’officialité d’Angers par exemple, a été compensée par la richesse des sources imprimées, en particulier les textes d’Henry Arnauld (mandements et statuts synodaux) ainsi que les mémoires des contemporains. Les <pb source="https://nakala.fr/10.34847/nkl.ee73792f#1a23311ee1772e415b9f7986a40961dfe1488e68" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee73792f/1a23311ee1772e415b9f7986a40961dfe1488e68/full/full/0/default.jpg"/><hi rend="i">Inventaires sommaires</hi> des registres paroissiaux nous ont également beaucoup servi.</p>
         <p>Les séries de la Correspondance politique, Rome, et des Mémoires et documents, France, des Archives du ministère des Relations extérieures sont précieuses pour l’histoire religieuse du diocèse d’Angers. A la Bibliothèque de l’Arsenal, parmi les papiers de la famille Arnauld, les brouillons de sermons et d’exhortations rédigés par Henry Arnauld forment un ensemble remarquable. Les Archives nationales, la Bibliothèque nationale et les Archives de l’Assistance publique (legs Arnauld de Pomponne) nous ont apporté une contribution mineure.</p>
         <p>Parmi les sources iconographiques et archéologiques, un certain nombre de tableaux et de reliquaires proviennent de collections angevines.</p>
       </div>
-      <div>
+      <div xml:id="r1083898">
         <head rend="uc">Première partie
          <lb/>Un évêque dans son diocèse</head>
-        <div>
+        <div xml:id="r1083906">
           <head rend="uc">Première section
            <lb/>Henry Arnauld, évêque d’Angers</head>
           <p><hi rend="i">Du monde à l’épiscopat (1597-1649</hi>). – Né en 1597, Henry Arnauld suivit les traces de son père, Antoine Arnauld, en faisant des études de droit, puis, grâce à son frère, Robert Arnauld d’Andilly, devint, en 1621, secrétaire du cardinal Bentivoglio à Rome. A son retour, nommé abbé commendataire de Saint-Nicolas d’Angers (1623) et consacré prêtre (1624), il n’en continua pas moins à vivre à Paris et dans le monde. Élu évêque de Toul par le chapitre cathédral en 1637, nommé par le roi, il ne put recevoir ses bulles, la nomination à ce siège étant encore soumise aux règles du concordat de Bologne et le pape s’y refusant.</p>
@@ -81,14 +79,14 @@
           <p><hi rend="i">Le diocèse d’Angers en 1650.</hi> – Le diocèse d’Angers est d’importance moyenne (462 paroisses). Son homogénéité apparente cache une diversité régionale propre à la province d’Anjou et une diversité religieuse que manifeste la présence de protestants à Angers, Sorges, Baugé et Saumur. La capitale du diocèse représente un intense foyer spirituel.</p>
           <p>Le droit de présentation aux cures de paroisse, que l’évêque ne maîtrise pas totalement, limite ses droits d’intervention ; c’est, par exemple, le cas pour six paroisses soumises à l’exercice de la loi diocésaine par le chapitre de la cathédrale sur le territoire exempt de Saint-Florent-le-Vieil. Enfin, l’œuvre stimulante menée par son prédécesseur reste inachevée. Henry Arnauld se situe dans cette lignée.</p>
         </div>
-        <div>
+        <div xml:id="r1083944">
           <head rend="uc">Deuxième section
            <lb/>un évêque dans la tradition du concile de trente</head>
           <p><hi rend="i">L’homme et ses qualités.</hi> – Bon et sensible, mais impulsif et passionné, Arnauld imprime à ses actes la diversité de son caractère. Son éloquence baroque, qui puise aux sources de la rhétorique, en fait un homme de son temps, au style toutefois personnel et séduisant par la richesse des images employées (le feu, l’eau) et la vigueur du ton (thèmes de la pénitence, de la Grâce). Sa culture, plus religieuse que profane, emprunte aux textes des pasteurs de l’Église plus qu’aux théologiens : saint Paul est le plus souvent cité dans ses exhortations synodales comme dans ses entretiens aux religieuses.</p>
           <p><hi rend="i">L’’idéal épiscopal.</hi> – L’évêque d’Angers voit dans le concile de Trente une entreprise propre à faire revivre l’ordre et la discipline de l’Église primitive. Saint Charles Borromée en est pour lui l’expression pastorale la plus fidèle, le <hi rend="i">Stimulus pastorum</hi> de Barthélemy des Martyrs, le guide le plus exact. Représentant Jésus-Christ sur terre, l’évêque, fortifié grâce à l’Esprit-Saint par Fonction du sacre, doit avant tout assurer le salut des âmes. Cette mission, à laquelle collaborent les curés de paroisse, l’attache irrémédiablement à son diocèse « comme un père à ses enfants » et lui impose des devoirs.</p>
           <p><hi rend="i">La vie d’un évêque.</hi> – Arnauld réside dans son diocèse jusqu’à sa mort et y donne l’exemple d’une vie austère dont le train s’accomode des médiocres ressources du temporel. Son emploi du temps est consacré à Dieu (cérémonies liturgiques) et à ses diocésains (visites et déplacements).</p>
         </div>
-        <div>
+        <div xml:id="r1083975">
           <head rend="uc">Troisième section
            <lb/>moyens d’action</head>
           <p><hi rend="i">L’entourage d’Henry Arnauld.</hi> – L’abbé Antoine Arnauld, neveu de l’évêque, mal vu des jansénistes qui accusent son oncle de népotisme, <pb source="https://nakala.fr/10.34847/nkl.ee73792f#30efa5bdc2648d119498508740a8d9fa0d71f4a5" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee73792f/30efa5bdc2648d119498508740a8d9fa0d71f4a5/full/full/0/default.jpg"/>lui sert à la fois d’intendant à Angers et d’homme d’affaires à Paris. Balthazard Musard, jouant un rôle qui dépasse celui de simple secrétaire, est également fort critiqué. Certains aumôniers (Pierre Ripoche en particulier) sont aussi accusés de jansénisme ou d’intrigues par les ennemis de l’évêque. Tous n’en demeurent pas moins des serviteurs fidèles et utiles à Henry Arnauld qu’ils déchargent des soucis matériels.</p>
@@ -103,10 +101,10 @@
           <p>Même si trois ordonnances synodales postérieures au recueil nous sont connues par leur publication en 1687, 1690 et 1691, la période d’activité réglementaire la plus intense d’Arnauld se situe dans les dix premières années de son épiscopat. Elle concerne essentiellement la pratique pastorale : les problèmes dogmatiques n’y sont pas évoqués, les questions spirituelles ne le sont que dans la mesure où elles touchent à la morale ou à la discipline.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1084035">
         <head rend="uc">Deuxième partie
          <lb/>L’action pastorale d’Henry Arnauld</head>
-        <div>
+        <div xml:id="r1084043">
           <head rend="uc">Première section
            <lb/>la réforme de l’église : communautés religieuses
            <lb/>et clergé séculier</head>
@@ -123,7 +121,7 @@
           <p>La refonte d’ouvrages liturgiques (<hi rend="i">Rituale, Processionale</hi>) s’inscrit dans cette perspective, mais l’évêque d’Angers n’y fait preuve d’aucun extrémisme néo-gallican. Pourtant, des résistances freinent son action. Elles viennent surtout des communautés, telles que les chapitres, imbus de leurs privilèges et peu enclins à l’esprit d’une réforme : le chapitre de la cathédrale, ceux de Saint-Martin et Saint-Laud, le clergé de Saint-Pierre de Saumur retardent, par leurs querelles, l’application de la réforme.</p>
           <p>En revanche, ceux de Craon et Saint-Pierre-Montlimart paraissent accepter les règlements d’Arnauld, donnant ainsi l’image d’un clergé divers et complexe.</p>
         </div>
-        <div>
+        <div xml:id="r1084126">
           <head rend="uc">Deuxième section
            <lb/>la réforme de l’église : les fidèles</head>
           <p><hi rend="i">La réforme morale.</hi> – La pénitence fonde la réforme morale des fidèles. Elle s’exprime particulièrement pendant le Carême dans le repentir et l’oraison, le jeûne, les mortifications et les bonnes œuvres.</p>
@@ -140,7 +138,7 @@
           <p><hi rend="i">La lutte contre l’hérésie : les protestants.</hi> – La politique d’Arnauld à l’égard des protestants s’inscrit dans le mouvement général de réduction de la R.P.R. dans le royaume. De 1650 à 1684, les conversions et abjurations se multiplient, l’évêque d’Angers les favorise et donne à certaines une publicité retentissante : ainsi pour Henri-Charles de la Trémoille, prince de Tarente, en 1670, ou pour David Gilly et David Courdil, respectivement ministres de Baugé et de Château-du-Loir, en 1683. Ces conversions, la mission du Père Honoré de Cannes à Saumur (juillet-août 1684) préparent la ruine du protestantisme en Anjou. Sur intervention d’Arnauld, l’Académie de Saumur est supprimée par arrêt du Conseil d’État (8 janvier 1685), et le temple démoli (15 janvier 1685). De même, une sentence du lieutenant criminel de la sénéchaussée confirmée en Parlement (12 juillet 1685) aboutit à la destruction du temple de Sorges.</p>
           <p>Après la Révocation, Arnauld mène une politique de séduction et de de charité envers les Nouveaux Convertis. La pratique des discours et des pensions n’exclut pas toutefois l’assentiment aux dragonnades.</p>
         </div>
-        <div>
+        <div xml:id="r1084232">
           <head rend="uc">Troisième section
            <lb/>l’action pastorale caritative</head>
           <p><hi rend="i">Les pauvres.</hi> – Idéal spirituel d’amour et de pardon que doivent mettre en pratique les curés, la charité, aux yeux d’Arnauld, s’adresse d’abord aux pauvres qui sont les membres de Jésus-Christ. L’évêque montre lui-même l’exemple par ses aumônes habituelles et ses interventions lors des cataclysmes : inondations de 1651, disettes de 1661-1662 et 1683-1684. En contribuant au développement des Dames de la Charité, il fournit aux pauvres le soutien de petits groupes actifs et dévoués appliquant les maximes de l’Évangile.</p>
@@ -153,20 +151,20 @@
           <p>De faible santé, Arnauld s’épuise à la tâche. Jusqu’en 1688 toutefois, il poursuit sans relâche son action. Puis la cécité et la maladie ralentissent ses activités. Il meurt le 8 juin de la même année, âgé de 92 ans. Ses funérailles, suivies par une grande foule (14 juin), sont l’occasion de scènes de « dévotion » où les Angevins s’arrachent ses reliques. De telles manifestations contribuent à édifier les témoignages de sainteté que les fidèles d’Arnauld portent sur lui.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1084280">
         <pb source="https://nakala.fr/10.34847/nkl.ee73792f#5bc6cad1ad14255ad5f24ec215e8a46964dce9ed" n="49" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee73792f/5bc6cad1ad14255ad5f24ec215e8a46964dce9ed/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>L’action pastorale d’Henry Arnauld présente plusieurs caractères indéniables : outre la ténacité même de l’évêque, le temps est d’abord un facteur qui joue en sa faveur. L’universalité marque en second point son action ; enfin, Arnauld s’inspire constamment des principes évangéliques. A ces trois caractères, s’ajoute la référence permanente au concile de Trente qui fait à la fois le caractère conservateur et la nouveauté d’une action essentiellement morale et spirituelle : Arnauld cherche avant tout la conversion individuelle et le salut des âmes. Sa sensibilité janséniste l’incite toutefois plus à une pratique pastorale qu’à une réflexion théologique : cette action aboutit à restaurer chez les chrétiens le sens du péché et le respect du sacré. Elle leur fournit aussi les moyens de se perfectionner (comme le catéchisme), ou de se réformer (ainsi les Pénitentes). Elle place Arnauld parmi les grands évêques réformateurs du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1084301">
         <head rend="uc">Pièces justificatives</head>
         <p>Huit textes d’Henry Arnauld.</p>
       </div>
-      <div>
+      <div xml:id="r1084311">
         <head rend="uc">Annexes</head>
         <p>Tableau généaloqique de la famille Arnauld. – Tableau des aumônes faites par l’abbé Antoine Arnauld. – Tableau récapitulatif des déplacements de l’évêque.</p>
       </div>
-      <div>
+      <div xml:id="r1084321">
         <head rend="uc">Illustrations</head>
         <p>Quinze reproductions de cartes, gravures, tableaux et objets.</p>
         <pb source="https://nakala.fr/10.34847/nkl.ee73792f#ac2b1d55fabce3334694187525c5cd31975d3622" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee73792f/ac2b1d55fabce3334694187525c5cd31975d3622/full/full/0/default.jpg"/>

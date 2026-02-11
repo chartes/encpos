@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Cassaigne</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r995449">
         <head rend="uc">Sources</head>
         <p>La Bibliothèque et les Archives de l’Assistance publique conservent les documents qui ont constitué la base de notre travail : il s’agit du fonds classé par Fosseyeux, principalement des minutes des séances de délibération du Conseil général des hospices.</p>
         <p>Aux Archives nationales, la série F a été la plus utilisée : les sous-séries F<hi rend="sup">1b</hi>, F<hi rend="sup">6</hi> (F<hi rend="sup">5</hi> II Seine), F<hi rend="sup">6</hi> (F<hi rend="sup">6</hi> II Seine) et essentiellement la sous-série F<hi rend="sup">15</hi> qui renferme les papiers provenant du ministère de l’Intérieur. Nous avons également eu recours aux sous-séries AF<hi rend="sup">IV</hi> (Secrétairerie d’État impériale), BB<hi rend="sup">10</hi> (dossiers de nomination de notaires) et à la sous-série AD<hi rend="sup">XIV</hi> (archives imprimées).</p>
@@ -67,7 +65,7 @@
         <p>Nous devons mentionner aussi les travaux de membres de notre institution, les rapports de Camus (1803), de Pastoret (1816) et enfin le <hi rend="i">Code administratif des hôpitaux et hospices civils de Paris</hi> (publié en 1824-1826).</p>
         <p>Enfin, à la Fondation nationale des Sciences politiques, où est conservé le « fonds Pastoret », nous avons consulté dans cette collection les ouvrages qui concernent les hôpitaux et les questions d’assistance.</p>
       </div>
-      <div>
+      <div xml:id="r995534">
         <pb source="https://nakala.fr/10.34847/nkl.e6ffn1v3#ba7844f1f7410f51685122fa066ee9ef40d1899d" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.e6ffn1v3/ba7844f1f7410f51685122fa066ee9ef40d1899d/full/full/0/default.jpg"/>
         <head rend="uc">Introduction</head>
         <p>La Révolution détruit les institutions anciennes d’assistance en leur enlevant leurs moyens financiers (suppression de l’octroi le 2 mars 1791) et en mettant les secours publics à la charge de la nation (1793). La loi du 23 messidor an II, qui réunit au domaine national les biens hospitaliers, laisse les hôpitaux dans la détresse. Le Directoire marque un retour aux anciennes pratiques ; la loi du 16 vendémiaire an V rétablit « l’octroi de bienfaisance ». A Paris, l’échec de la commission administrative des hospices, créée le 16 vendémiaire an V et composée de cinq membres, nécessite une réorganisation. En l’an IX, le Conseil général des hospices est créé.</p>
@@ -82,7 +80,7 @@
           </head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r995576">
           <head rend="uc">Première partie
            <lb/>L’institution</head>
           <div>
@@ -107,7 +105,7 @@
             <p>– le Bureau central d’admission, créé le 6 frimaire an X, composé de quatre membres à l’origine (deux médecins et deux chirurgiens) ; il en comprend douze à partir du 11 février 1818 (six médecins et six chirurgiens).</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r995641">
           <head rend="uc">Deuxième partie
            <lb/>Les hommes et leurs idées</head>
           <div>
@@ -124,7 +122,7 @@
             <p>On procure du travail aux indigents valides. Sous la Restauration, une coordination s’effectue entre charité publique et charité privée.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r995694">
           <head rend="uc">Troisième partie
            <lb/>Les finances du conseil général des hospices</head>
           <div>
@@ -152,7 +150,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r995763">
         <pb source="https://nakala.fr/10.34847/nkl.e6ffn1v3#6998d29fb7e8e19d623730a76c30f3a0744dd042" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.e6ffn1v3/6998d29fb7e8e19d623730a76c30f3a0744dd042/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Titre II</hi>
@@ -161,7 +159,7 @@
           <lb/>
           <hi rend="i">et ses réalisations</hi>
         </head>
-        <div>
+        <div xml:id="r995790">
           <head rend="uc">Première partie
            <lb/>Les hôpitaux</head>
           <div>
@@ -210,7 +208,7 @@
             <p>Le Conseil général des hospices administre des établissements de service général, dont la Pharmacie centrale et la Boulangerie générale.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r995927">
           <head rend="uc">Deuxième partie
            <lb/>Les hospices</head>
           <div>
@@ -247,7 +245,7 @@
             <p>Les malades présumés curables sont traités à titre payant dans l’établissement de Charenton. Les hospices de Bicêtre et de la Salpêtrière ont des quartiers réservés aux aliénés, spécialement aménagés. La transformation du traitement des malades, commencée par Philippe Pinel en 1799, est poursuivie par ses disciples Esquirol et Hébréard.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r996021">
           <head rend="uc">Troisième partie
            <lb/>L’assistance aux enfants</head>
           <div>
@@ -277,7 +275,7 @@
             <p>Les enfants trouvés et les orphelins sont admis dans des hospices à Paris. Leur mode d’éducation est identique ; les enfants sont placés chez les artisans, chez les manufacturiers ou chez des particuliers à la campagne.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r996095">
           <head rend="uc">Quatrième partie
            <lb/>Les secours à domicile</head>
           <div>
@@ -304,7 +302,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r996160">
         <head rend="uc">Conclusion</head>
         <p>Malgré la situation défavorable au moment de son installation, le Conseil put faire œuvre de redressement. La stabilité de ses membres permit la continuité dans ses vues et dans son activité. Manquant de moyens financiers (aliénations de biens imposées, créances non recouvrées ou irrécouvrables et crises économiques), ses réalisations ne purent être que limitées.</p>
       </div>

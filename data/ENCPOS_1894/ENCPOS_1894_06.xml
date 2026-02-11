@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1894_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1894_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,41 +60,41 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r202404">
         <head rend="uc">Introduction</head>
         <p>Le long règne de Jean IV, duc de Bretagne, de 1364 à 1399, est pour la plus grande partie rempli par les luttes qu’il eut à soutenir contre ses sujets. Or ces luttes auxquelles l’intervention de la France et de l’Angleterre donne un intérêt particulier, trouvent leurs origines et leur explication d’une part dans l’éducation tout anglaise de ce prince, de l’autre dans les souvenirs pénibles que vingt ans d’occupation anglaise avaient laissés en Bretagne. Montrer dans ces deux ordres de faits la préparation des événements qui suivent, telle est la pensée qui a inspiré ce travail. 11 comprend par suite deux parties : la jeunesse de Jean IV ; l’administration anglaise en Bretagne pendant la guerre de succession.</p>
         <p>Bien que la guerre de succession ne prenne fin qu’en 1364 avec la bataille d’Auray, et que le règne du duc Jean IV ne commence en réalité qu’à partir du traité de Guérande, nous avons cependant cru devoir arrêter cette étude en 1362, car c’est en cette année et vers la même date que Jean IV quitte <pb source="https://nakala.fr/10.34847/nkl.5d4d0w89#ed298fa7c28eeba03792f4e3f3eed7b6b4b62869" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.5d4d0w89/ed298fa7c28eeba03792f4e3f3eed7b6b4b62869/full/full/0/default.jpg"/>l’Angleterre et qu’Édouard III fait remise entre ses mains du duché de Bretagne.</p>
         <p>Sur ces deux questions, les Chroniques ne donnent que des renseignements peu nombreux et souvent inexacts. Les véritables sources se trouvent dans les archives anglaises, notamment pour les actes de la chancellerie d’Édouard III dans les <hi rend="i">French Rolls</hi> et les <hi rend="i">Privy Seals,</hi> et pour les comptes de l’Échiquier dans les fonds désignés au <hi rend="i">Record Office</hi> sous les noms suivants : <hi rend="i">Issue Rolls, The Realm of France, Army, Navy, Nuncii, Wardrobe and Household.</hi></p>
       </div>
-      <div>
+      <div xml:id="r202440">
         <head rend="uc">Première partie
          <lb/>La jeunesse de Jean IV</head>
-        <div>
+        <div xml:id="r202448">
           <head rend="uc">Chapitre premier
            <lb/>naissance de Jean IV, Jeanne de Montfort et l’alliance
            <lb/>anglaise (1338-1343)</head>
           <p>Naissance de Jean IV à la fin de 1338. Le duc Jean III veut assurer sa succession à sa nièce, Jeanne de Penthièvre, épouse de Charles de Blois. A la mort du duc, le 30 avril 1341, Charles de Blois et le comte de Montfort demandent à être admis à prêter hommage au roi de France pour le duché de Bretagne. Dès le mois de juillet 1341, le comte de Montfort traite avec le roi d’Angleterre, mais sans consentir à lui faire hommage pour la Bretagne. L’arrêt de Conflans, du 7 septembre 1341, reconnaît Charles de Blois comme duc de Bretagne. Le comte de Montfort est assiégé et fait prisonnier dans Nantes (fin 1341).</p>
           <p>Jeanne de Flandre, comtesse de Montfort, fait nommer Amauri de Clisson, tuteur de son fils, envoie de nouveaux ambassadeurs en Angleterre, déjoue les projets du roi de France pour s’emparer de la Bretagne. Elle reconnaît <pb source="https://nakala.fr/10.34847/nkl.5d4d0w89#124c57153fb69acd5744e76948152423972dcc1f" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.5d4d0w89/124c57153fb69acd5744e76948152423972dcc1f/full/full/0/default.jpg"/>Édouard III comme suzerain du duché, qu’elle remet entre ses mains et s’engage à lui prêter hommage. Les secours envoyés d’Angleterre raffermissent le parti de Montfort et aboutissent à la trêve de Malestroit (19 janvier 1343).</p>
         </div>
-        <div>
+        <div xml:id="r202470">
           <head rend="uc">Chapitre II
            <lb/>Jeanne de Montfort et ses enfants en Angleterre
            <lb/>de 1343 à 1356</head>
           <p>Jeanne de Montfort passe en Angleterre avec ses enfants dès le commencement de l’année 1343, vit à Londres jusqu’au mois de décembre de cette même année, et probablement devenue folle est alors reléguée au château de Tikhull, sous la garde de divers chevaliers qui se succèdent comme connétables du château. En 1347, elle est enlevée par un chevalier. Plusieurs mentions des comptes de l’Échiquier permettent d’affirmer qu’elle vivait encore en 1374. Donc à partir de 1343, elle ne joue plus aucun rôle politique, elle n’a plus aucun rapport avec ses enfants.</p>
           <p>Le futur Jean IV et sa sœur Jeanne, séparés de leur mère dès le mois d’août 1343, sont d’abord confiés à un des gardiens de la chambre du roi, Guillaume de Wakefield, et à partir de 1346, à la reine Philippe, et dès lors vivent au milieu de la famille royale. En 1355 ou 1356, le jeune Montfort est fiancé à une des filles d’Édouard III.</p>
         </div>
-        <div>
+        <div xml:id="r202487">
           <head rend="uc">Chapitre III
            <lb/>Éducation politique et militaire de Jean IV (1356-1362)</head>
           <p>Édouard III, loin de le tenir à l’écart, s’attache à développer en lui les qualités militaires et politiques qui lui seront nécessaires. En 1356, il l’envoie en Normandie et en Bre<pb source="https://nakala.fr/10.34847/nkl.5d4d0w89#36c93fb51cc88f2ecb51b7fbce31a8954ea17cf6" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.5d4d0w89/36c93fb51cc88f2ecb51b7fbce31a8954ea17cf6/full/full/0/default.jpg"/>tagne avec le duc de Lancastre ; en 1359, il le prend avec lui lors de son expédition en France.</p>
           <p>En même temps il le fait souvent appeler à son conseil. Le traité de Brétigny ayant statué que des conférences se tiendraient à Calais et à Saint-Omer pour résoudre la question pendante entre les deux maisons de Blois et de Montfort, le jeune Montfort s’y présente en personne ; son compétiteur ne comparaît pas. A la fin de 1361, il épouse Marie, fille d’Édouard III. Cette union dure à peine quelques mois. Le <hi rend="i">24</hi> juin 1362, le roi d’Angleterre fait remise entre ses mains du duché de Bretagne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r202512">
         <head rend="uc">Deuxième partie
          <lb/>L’administration anglaise en Bretagne
          <lb/>pendant la guerre de succession (1342-1362)</head>
-        <div>
+        <div xml:id="r202522">
           <head rend="uc">Chapitre premier
            <lb/>origines et caractères généraux de l’occupation
            <lb/>anglaise</head>
@@ -107,14 +105,14 @@
           <p>De 1347 à 1358, le lieutenant général a en main tous les revenus du duché et se trouve chargé de toutes les mesures propres à en assurer la défense, mais il se heurte aux prétentions à l’indépendance des capitaines de places et des chefs de bandes, auxquels Édouard III, en dépit des endentures passées avec son lieutenant, accorde des terres, des exemptions de taxes, des châteaux en récompense des services rendus.</p>
           <p>De 1358 à 1362, Édouard III reprend en sa main la régie du duché, baillant à ferme une partie des places, faisant administrer les autres par le lieutenant général. Ce régime est caractérisé d’une part par l’indépendance de plus en plus grande des chefs de bande, de l’autre par le développement des mesures fiscales.</p>
         </div>
-        <div>
+        <div xml:id="r202553">
           <head rend="uc">Chapitre II
            <lb/>Les organes supérieurs de l’administration. – Le lieutenant général ou gardien de Bretagne et ses
            <lb/>auxiliaires immédiats</head>
           <p>Durée variable des fonctions du lieutenant général. Territoire également variable sur lequel s’étendent ses attributions : le comte de Northampton est en même temps que lieutenant en Bretagne, lieutenant d’Édouard III en France ; plusieurs de ses successeurs exercent en même temps et en vertu des mêmes commissions, les lieutenances de Bretagne et de Poitou. Il est le chef suprême de l’armée anglaise en <pb source="https://nakala.fr/10.34847/nkl.5d4d0w89#3ededc5ff5ee461cf1258b1e07f26fc07b8d969d" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.5d4d0w89/3ededc5ff5ee461cf1258b1e07f26fc07b8d969d/full/full/0/default.jpg"/>Bretagne, a la direction des expéditions, la surveillance des places, les droits de justice, peut prononcer des confiscations et nommer aux divers offices.</p>
           <p>Il est assisté d’un conseil formé des principaux capitaines, et d’un clerc des deniers chargé de la solde des hommes d’armes. Il peut se choisir un lieutenant spécialement destiné à le suppléer dans ses attributions militaires.</p>
         </div>
-        <div>
+        <div xml:id="r202575">
           <head rend="uc">Chapitre III
            <lb/>Organisation judiciaire, militaire et financière</head>
           <p>§ 1. – <hi rend="i">Organisation judiciaire.</hi> Édouard III à la fois comme suzerain et comme tuteur du jeune comte de Montfort est le chef suprême de la justice en Bretagne et délègue ses pouvoirs au lieutenant général.</p>

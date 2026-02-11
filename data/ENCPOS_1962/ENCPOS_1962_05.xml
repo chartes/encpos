@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,14 +56,14 @@
         <forename>Françoise</forename>
         <surname>Bichelonne</surname>
       </byline>
-      <div>
+      <div xml:id="r829907">
         <head rend="uc">Sources</head>
         <p>Archives départementales de la Meuse, série B (registres de comptes). – Archives départementales de Meurthe-et-Moselle, série B. – Bibliothèque nationale, collection de Lorraine. – Archives du musée Condé à Chantilly, fonds du Clermontois.</p>
       </div>
-      <div>
+      <div xml:id="r829917">
         <head rend="uc">Première partie
          <lb/>Le redressement politique</head>
-        <div>
+        <div xml:id="r829925">
           <head rend="uc">Relations avec la France</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -108,7 +106,7 @@
             <p>Sous l’influence des projets de croisade agités à la cour de France, Édouard I<hi rend="sup">er</hi> de Bar part pour Athènes et meurt à Famagouste, en Chypre, le 11 novembre 1336. Dans ses relations avec la France, il avait su s’accommoder de la suzeraineté française et prendre place, à la suite de la Bourgogne, dans la vie du royaume.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r830061">
           <head rend="uc">Relations avec l’empire</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -137,34 +135,34 @@
             <p>Quant à la ville de Metz, après avoir vainement lutté contre elle en 1324-1326 avec les autres seigneurs endettés envers les financiers messins, Édouard de Bar prit le parti de conclure avec elle une alliance, d’autant plus profitable qu’elle se doublait d’un accord analogue conclu avec l’évêque de Metz.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r830157">
           <head rend="uc">Conclusion de la première partie</head>
           <p>Malgré des erreurs politiques et des échecs, le comte Édouard I<hi rend="sup">er</hi> sut orienter son comté dans la voie de la vassalité française, la seule possible car, de tous côtés, il se heurtait au roi de France.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r830172">
         <head rend="uc">Deuxième partie
          <lb/>Le redressement intérieur</head>
-        <div>
+        <div xml:id="r830180">
           <head rend="uc">Chapitre premier
            <lb/>Édouard I<hi rend="sup">er</hi> et la mouvance du comté de Bar</head>
           <p>A la majorité du comte Édouard I<hi rend="sup">er</hi>, trois cent quatre-vingt six vassaux firent reprise de leur fief. Le comte accrut sa mouvance par des achats d’hommages portant sur des alleux ou des rachats de rentes assignées, dont le montant devait être placé sur des terres acquises ou allodiales à reprendre en fief. Ce souci du comte pour sa mouvance s’exprima également par un recensement des fiefs par prévôté qui nous a donné un grand nombre d’actes d’aveu et dénombrement datés des années 1332 à 1336.</p>
         </div>
-        <div>
+        <div xml:id="r830200">
           <head rend="uc">Chapitre II
            <lb/>Édouard I<hi rend="sup">er</hi> et le domaine</head>
           <p>En dépit de ses difficultés financières, le comte Édouard I<hi rend="sup">er</hi> accrut son domaine par de nombreux achats, qui se situent principalement dans l’Argonne, le nord du comté, le Bassigny et sur la Meuse. A l’égard des villes, le comte ne multiplia pas les chartes de franchise, mais décida vers 1320 que les villes du comté affranchies à la loi de Beaumont iraient désormais prendre droit à Stenay et non plus à Beaumont, sauf en cas de contestation entre la ville et lui-même.</p>
           <pb source="https://nakala.fr/10.34847/nkl.a494dokm#85666cdcaceaddcb7c69a45c03484f138a2ff332" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.a494dokm/85666cdcaceaddcb7c69a45c03484f138a2ff332/full/full/0/default.jpg"/>
           <p>Le comte se préoccupa d’améliorer son domaine en installant une forge hydraulique à Moyeuvre, une adduction d’eau à l’hôpital de Bar, et de le défendre en fortifiant Souilly, Lachaussée et Sancy et en modernisant l’armement.</p>
         </div>
-        <div>
+        <div xml:id="r830228">
           <head rend="uc">Chapitre III
            <lb/>Les ressources du comte Édouard I<hi rend="sup">er</hi> de Bar</head>
           <p>Les vingt prévôtés du comté de Bar ont en moyenne une recette annuelle d’environ 500 livres chacune. L’ensemble des bois et les forges de Briey ne donne également qu’un revenu annuel de quelques centaines de livres. Aussi le comte de Bar doit-il recourir aux services des Lombards qui sont très nombreux dans le Barrois : les Scaramp d’Asti en particulier sont installés à Saint-Mihiel et Pont-à-Mousson. Les juifs du comté furent frappés d’expulsion en 1322, et leurs biens furent confisqués ; mais ils se réinstallèrent ensuite.</p>
           <p>En dehors des recettes variables que procurait au comte par exemple le droit de quinze deniers par marc d’argent monnayé qu’il percevait sur les ateliers de frappe, les levées d’argent, nombreuses et d’importance variable, mais pesant sur toutes les catégories d’habitants, en particulier les clercs, constituaient un précieux appoint.</p>
           <p>Cependant, le comte Édouard I<hi rend="sup">er</hi> dut emprunter sans cesse, soit aux foires de Champagne, soit à Metz. Ces emprunts se font au taux de 20 % environ, ou bien sont gagés sur des terres. Le financier messin Jean de La Cour obtint ainsi l’administration de la région de Briey.</p>
         </div>
-        <div>
+        <div xml:id="r830254">
           <head rend="uc">Chapitre IV
            <lb/>L’entourage et le personnel du comte Édouard I<hi rend="sup">er</hi></head>
           <p>La cour du comte Édouard I<hi rend="sup">er</hi>, où la famille tient peu de place, comprend un nombreux personnel qui mène la même vie errante que le comte et son conseil.</p>
@@ -172,11 +170,11 @@
           <p>Si l’on rencontre dans le conseil les mêmes noms de chevaliers : Anseau de Joinville, les frères de Narcy, Habrand de Breux, Jacques de Bouvigny, ou de clercs : Jean de Dieulouard, etc., seuls les « compteurs » ont des attributions fixes. Ils procèdent à une vérification stricte des comptes, d’abord à Saint-Mihiel, puis à Bar après 1330. Ces comptes, présentés en registres de parchemin ou de papier, sont une nouvelle preuve du soin qu’Édouard I<hi rend="sup">er</hi> de Bar apporta dans la gestion de son comté, en raison de ses grandes difficultés financières.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r830284">
         <head rend="uc">Conclusion</head>
         <p>Le règne d’Édouard I<hi rend="sup">er</hi> de Bar fut un règne difficile, d’adaptation à une période et à une situation nouvelles. En dépit de la défaite de son père, de celle que <pb source="https://nakala.fr/10.34847/nkl.a494dokm#54b8806f412943b26f0f9412cfe7ffeb7518fff2" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.a494dokm/54b8806f412943b26f0f9412cfe7ffeb7518fff2/full/full/0/default.jpg"/> lui-même subit devant le duc de Lorraine, Édouard I<hi rend="sup">er</hi> réussit à maintenir son comté, sans parvenir pourtant à l’unir à un voisin plus puissant, dont la force aurait pu compenser le manque d’unité géographique du comté de Bar.</p>
       </div>
-      <div>
+      <div xml:id="r830307">
         <head rend="uc">Appendice</head>
         <p>Liste des documents rassemblés concernant Édouard I<hi rend="sup">er</hi>, comte de Bar (1302-1336).</p>
         <pb source="https://nakala.fr/10.34847/nkl.a494dokm#81dac51b59409020763531185face0bcec0ea765" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.a494dokm/81dac51b59409020763531185face0bcec0ea765/full/full/0/default.jpg"/>

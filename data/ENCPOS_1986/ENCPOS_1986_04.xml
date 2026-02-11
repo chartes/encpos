@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,44 +54,44 @@
         <forename>Michel</forename>
         <surname>Estienne</surname>
       </byline>
-      <div>
+      <div xml:id="r1128413">
         <head rend="uc">Introduction</head>
         <p>Il s’agit de mettre en évidence l’évolution de l’équilibre entre le pouvoir royal et les détenteurs locaux de l’autorité de l’Etat, de la renaissance de la notion de couronne à la crise du milieu du <num>xiv<hi rend="sup">e</hi></num> siècle, dans une région à l’abri des grands bouleversements politiques et militaires, la basse Auvergne.</p>
       </div>
-      <div>
+      <div xml:id="r1128429">
         <head rend="uc">Sources</head>
         <p>Cette étude se base sur le dépouillement de plusieurs fonds parallèles et complémentaires, à l’état de conservation très variable. Les archives royales sont assez pauvres en ce qui concerne l’Auvergne, les documents domaniaux et financiers ayant presque tous disparu lors de l’incendie de la Chambre des Comptes. Mais, aux Archives nationales, les registres du Trésor des Chartes et ceux du Parlement ont conservé bon nombre d’actes ayant trait à l’Auvergne. Les archives de l’évêque de Clermont ont, en revanche, été conservées dans leur presque totalité, à la seule exception des documents strictement administratifs (Archives départementales du Puy-de-Dôme). Les fonds des comtes d’Auvergne et des sires de Latour sont conservés presque intacts dans les trésors des chartes de Mercurol et de Bouillon (Archives nationales) et les documents perdus sont connus par des analyses du <num>xviii<hi rend="sup">e</hi></num> siècle. Si les archives des dauphins d’Auvergne et des sires de Mercœur ont aujourd’hui totalement disparu, un inventaire du <num>xv<hi rend="sup">e</hi></num> siècle contient l’analyse de la majorité d’entre eux. Les fonds des grands établissements ecclésiastiques d’Auvergne et ceux des grands feudataires voisins de l’Auvergne (sires de Bourbon...) ont également fourni une quantité d’actes non négligeable. Tout ceci représente une documentation de plusieurs milliers d’actes, et l’abondance de certains fonds pallie les inconvénients dus à la disparition de certains autres.</p>
       </div>
-      <div>
+      <div xml:id="r1128451">
         <pb source="https://nakala.fr/10.34847/nkl.e16cmq65#f83426d5963569a1ad7dd0b4a13a353aae64f309" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/f83426d5963569a1ad7dd0b4a13a353aae64f309/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre préliminaire
          <lb/>présentation géographique</head>
         <p>L’axe fondamental de l’Auvergne est constitué par la vallée de l’Allier, autour de laquelle s’ordonne la province : d’une part la Limagne, et, l’encadrant à l’Est et à l’Ouest, deux zones de montagne aux sols beaucoup moins riches et ne convenant guère qu’à l’élevage et aux céréales pauvres. La Limagne fut peuplée très tôt et fut dès l’origine le siège du pouvoir politique qui y resta solidement implanté jusqu’en plein cœur du Moyen Age. Les zones de montagne furent, en revanche, peuplées beaucoup plus tardivement, et c’est en leur sein que se développèrent, parallèlement à la population, de grandes seigneuries.</p>
       </div>
-      <div>
+      <div xml:id="r1128468">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>La conquête militaire</head>
-        <div>
+        <div xml:id="r1128480">
           <head rend="uc">Chapitre premier
            <lb/>la situation au début du <num>xii<hi rend="sup">e</hi></num> siècle</head>
           <p>L’Auvergne, pièce maîtresse des possessions de Bernard Plantevelue, resta, durant toute la fin du haut Moyen Age, au cœur des conflits autour de la possession du titre de duc d’Aquitaine, sa possession étant censée conférer le titre ducal. Aussi les divers prétendants à ce titre tentèrent-ils de s’y maintenir solidement, y conservant de vastes domaines et ne conférant aux vicomtes que des pouvoirs limités. Ce ne fut qu’à l’extrême fin du <num>x<hi rend="sup">e</hi></num> siècle que se mit en place une dynastie comtale qui usurpa non seulement le titre comtal, mais aussi les domaines auvergnats des ducs d’Aquitaine, fort vastes puisque couvrant l’ensemble de la Limagne ; elle sut néanmoins éviter les guerres que cette usurpation aurait pu déclencher, d’une part en ne cherchant en aucun cas à s’emparer du titre ducal, d’autre part en entretenant d’excellentes relations avec le roi de France et donc avec ses alliés, les comtes d’Anjou.</p>
           <p>Guidés par le désir de renforcer leur pouvoir, et en particulier de reprendre pied à Clermont, les comtes d’Auvergne entrèrent en conflit avec les évêques de Clermont, qui sollicitèrent et obtinrent à deux reprises l’aide de Louis VI. Le comte d’Auvergne se retrouvait sans allié. Le duc d’Aquitaine en profita pour réaffirmer ses droits sur l’Auvergne. En 1126, Louis VI, ayant besoin de l’appui du duc d’Aquitaine face à la coalition naissante des Angevins et des Normands, reconnut à ce dernier des droits éminents sur l’Auvergne ; en contrepartie, le duc acceptait de reconnaître les droits de la dynastie comtale. De cet abandon de l’Auvergne à l’Aquitaine par la royauté résulta un rapprochement entre le duc et le roi, qui déboucha, dix ans plus tard, sur le mariage de Louis VII et d’Aliénor d’Aquitaine.</p>
         </div>
-        <div>
+        <div xml:id="r1128507">
           <pb source="https://nakala.fr/10.34847/nkl.e16cmq65#2b5c89eb5555d7e0fa1f3ccb2f0b8d55edb755dd" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/2b5c89eb5555d7e0fa1f3ccb2f0b8d55edb755dd/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La conquête de la province : les faits</head>
           <p>Le divorce de Louis VII et d’Aliénor effaça les conséquences favorables de la concession royale de 1126. Dès lors, le roi de France s’efforça de revenir sur cette concession et de faire rentrer l’Auvergne dans sa mouvance immédiate, en exploitant toutes les occasions possibles. L’action royale prit d’abord la forme d’un soutien réaffirmé aux églises d’Auvergne. En 1163, Louis VII essaya même d’évincer totalement la dynastie comtale, en conférant à l’évêque les mêmes droits que ceux accordés deux ans plus tôt à l’évêque de Mende. Mais l’évêque n’avait pas les moyens de s’imposer. Louis VII favorisa alors la partition de l’Auvergne entre le comte et le dauphin qui, seul, resta dans le camp du roi d’Angleterre mais fut chassé de la vallée de l’Allier par Louis VII qui s’empara de Nonette et d’Issoire.</p>
           <p>Philippe Auguste tenta de concrétiser les avantages obtenus. Il conserva tous les acquis de son père, en particulier Nonette. En 1189, il obtint cession de tous les droits des ducs d’Aquitaine sur l’Auvergne et les mit rapidement en œuvre : en 1194, à l’occasion d’une succession difficile, le roi mit l’Auvergne en sa main. Surtout, il exploita les rivalités entre le comte Guy II, qui avait rejoint le camp du roi d’Angleterre, et son frère Robert, évêque de Clermont, qui, par le biais de l’introduction en Auvergne du système féodo-vassalique, tentait de se créer une puissante seigneurie. Quand, vers 1211, le comte pilla l’abbaye royale de Mozac, qui soutenait l’évêque Robert, Philippe Auguste vit dans ce méfait un prétexte pour prononcer la saisie du comté. La plus grande partie des terres du comte, sauf la Comté, fut occupée par les alliés du roi, le sire de Bourbon, les évêques de Clermont et du Puy et le sire de Latour, qui se partagèrent en quelque sorte la province. Louis VIII laissa l’Auvergne sous la garde du sire de Bourbon et se contenta d’acquérir des droits sur Montferrand, resté en possession du dauphin. Les dernières tentatives des comtes et des dauphins pour reprendre par la force leurs droits perdus furent brisées par Blanche de Castille.</p>
         </div>
-        <div>
+        <div xml:id="r1128527">
           <head rend="uc">Chapitre III
            <lb/>Les mobiles de la conquête</head>
           <p>Les sources narratives dont nous disposons pour retracer l’histoire de l’Auvergne sont toutes favorables au roi de France. Elles ne donnent donc que la version royale, justifiant chacune des expéditions en Auvergne au nom de la protection des églises opprimées par les comtes d’Auvergne. Il ne s’agissait naturellement que d’un prétexte. En fait, le roi de France, s’il voulait espérer survivre politiquement face au roi d’Angleterre, devait pouvoir maintenir des relations avec son seul allié potentiel, le comte de Toulouse. Pour ce, les tentatives de Frédéric Barberousse pour donner une réalité politique à la couronne d’Arles risquant d’interdire au roi de France tout passage par la vallée du Rhône, la nécessité s’imposait à la monarchie de contrôler la voie de Paris à la Méditerranée par le Massif Central, ou voie Regordane, qui passait par Brioude et Nîmes ; c’était la seule route à ne pas sortir des limites de Verdun et à ne pas <pb source="https://nakala.fr/10.34847/nkl.e16cmq65#063913401b0a73521fac55f3c9d346cb8fade306" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/063913401b0a73521fac55f3c9d346cb8fade306/full/full/0/default.jpg"/>traverser des terres contrôlées par le roi d’Angleterre. Pour maintenir son contrôle sur cet axe, le roi de France utilisa, comme prétexte à ses interventions, la prise sous la protection royale des grands établissements ecclésiastiques qui, en tant que puissances temporelles, se trouvaient en conflit permanent avec leurs voisins laïques.</p>
           <p>Mais alors que le roi de France parvenait à ses fins grâce à l’abandon par les rois anglais de tous leurs droits sur l’Auvergne, les mobiles de sa politique disparurent : le passage du comte de Toulouse à l’hérésie, puis la défaite de Jean sans Terre rendaient les relations avec Toulouse inutiles pour la politique royale. Les bons rapports entre Philippe Auguste et Frédéric II laissaient d’ailleurs au roi de France l’usage de la vallée du Rhône. La conquête militaire de l’Auvergne ne représenta que la liquidation d’une politique qui n’avait plus de raison d’être ; c’était une mesure préventive face aux ambitions toujours croissantes des comtes d’Auvergne qui cherchaient à construire un ensemble politique regroupant tout le Massif Central.</p>
         </div>
-        <div>
+        <div xml:id="r1128547">
           <head rend="uc">Chapitre IV
            <lb/>Alphonse de Poitiers</head>
           <p>Le testament de Louis VIII, qui laissait l’Auvergne à l’un de ses fils, créa une nouvelle situation politique. Blanche de Castille n’entendit pas renoncer à cette terre, qu’elle reprit progressivement à ceux à qui Philippe Auguste en avait confié la garde ; la récupération fut menée lentement, afin de ne pas déboucher sur une crise avec le sire de Bourbon qui ne renonça définitivement à tous ses droits sur l’Auvergne qu’après 1250. L’imprécision du testament de Louis VIII imposa deux choix. Le premier fut effectué par Blanche de Castille : elle décida que l’Auvergne et le Poitou seraient le lot non de Charles, mais d’Alphonse ; ce dernier devait, de plus, épouser l’héritière de la maison de Lusignan, ce qui lui assurait un groupe de terres homogène. Cette solution ne fut pas remise en cause après la rupture du projet de mariage et l’union d’Alphonse de Poitiers et de Jeanne de Toulouse. Le deuxième arbitrage fut l’œuvre de Louis IX. Il portait sur la définition de la « Terre d’Auvergne » que Louis VIII avait laissée à son fils. Le jugement royal fut nuancé : l’ensemble de l’Auvergne, dans les limites de l’ancien comté, devait revenir à Alphonse de Poitiers, à l’exception toutefois des terres des grands établissements ecclésiastiques sous la garde du roi.</p>
@@ -101,17 +99,17 @@
           <p>A la mort d’Alphonse de Poitiers, l’Auvergne fit alors retour à la couronne sans difficulté et pour près d’un siècle. Il ne s’éleva localement aucune protestation contre cette réunion. Les seules revendications avancées, celles de Charles d’Anjou, ne furent pas retenues par le Parlement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1128566">
         <pb source="https://nakala.fr/10.34847/nkl.e16cmq65#2558ebeaad2127db20d974c40931d1101162573a" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/2558ebeaad2127db20d974c40931d1101162573a/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>La terre d’Auvergne</head>
-        <div>
+        <div xml:id="r1128583">
           <head rend="uc">Chapitre premier
            <lb/>l’héritage d’Alphonse de Poitiers</head>
           <p>Dans leur majorité, les domaines auvergnats d’Alphonse de Poitiers étaient issus directement de la conquête militaire. Ainsi n’avaient-ils fait que changer de maîtres : les domaines d’Alphonse de Poitiers étaient ceux des anciens comtes d’Auvergne. Par suite, ils se trouvaient concentrés dans la vallée de l’Allier et en Limagne. Leur importance était très variable suivant les régions. Le groupe sud, formé des prévôtés de Langeac, Brivadois, Auzon et Nonette, était le moins riche. Les redevances y étaient maigres. Les seuls profits importants y provenaient des péages du Breuil, au croisement des routes Clermont-Nîmes et Bordeaux-Lyon. En revanche, les six prévôtés de la grande Limagne, Monton, Pont-du-Château, Ennezat, Cébazat, Riom et Châtelguyon, donnaient au comte de Poitiers, outre des revenus importants, un réel poids politique dans toute la zone concernée, qu’il contrôlait étroitement. Elles correspondaient sans doute à l’ancien domaine comtal, à l’est d’un axe Clermont-Riom et autour du vieux palais carolingien d’Ennezat. A l’ouest de cette zone, la colonisation de la partie montagneuse avait été menée directement par les comtes d’Auvergne ; cette région n’avait pas vu s’implanter de seigneuries puissantes. Les comtes d’Auvergne avaient conservé une forte proportion des droits utiles, ce qui explique que leurs revenus dans les prévôtés de Tournoël, Châteauneuf et Rochedagoux étaient fort importants. La gestion de ces terres s’effectuait sous la forme originale d’une répartition en baylies de très faible importance qui concentraient les revenus comtaux. Enfin, les prévôtés du nord de l’Auvergne, Ris, Cusset et Palluel, avaient fait l’objet d’une mise en valeur poussée sous la domination des sires de Bourbon qui espérèrent longtemps conserver ces terres et y multiplièrent les fondations de villes neuves. En fait, l’ensemble des domaines des comtes d’Auvergne, avec tous leurs vassaux, particulièrement nombreux y compris dans les régions de peuplement récent, tomba entre les mains d’Alphonse de Poitiers qui n’en modifia pas sensiblement les structures.</p>
         </div>
-        <div>
+        <div xml:id="r1128595">
           <head rend="uc">Chapitre II
            <lb/>L’évolution de la terre d’Auvergne</head>
           <p>Les limites de l’Auvergne ne furent parfaitement définies que sous Philippe le Long. Mais ces limites ne furent pas les seules à varier au cours de la période. Après un apogée atteint sous Alphonse de Poitiers, la Terre d’Auvergne ne cessa de subir des aliénations destinées à financer la politique royale.</p>
@@ -121,24 +119,24 @@
           <p>L’ensemble de ces aliénations représentait un total considérable, d’où un retrait du domaine royal sur la grande Limagne. Les revenus royaux baissèrent de près du tiers. La naissance de l’impôt royal, nécessitée par les besoins d’argent croissants de la couronne face à un domaine en repli et liée à cette régression, entraîna un redécoupage de la carte des prévôtés, désormais conçue non plus comme des entités domaniales, mais comme des cadres de perception, leurs centres restant cependant dans l’ensemble fixés en Limagne, en un réseau parallèle à celui des bonnes villes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1128625">
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>Les grands feudataires</head>
-        <div>
+        <div xml:id="r1128637">
           <head rend="uc">Chapitre premier
            <lb/>la seigneurie épiscopale</head>
           <p>La seigneurie épiscopale de Clermont est la seule d’Auvergne à s’être développée aux dépens des terres domaniales de la Limagne. Déjà, lors du haut Moyen Age, les évêques de Clermont détenaient des biens importants. Très probablement, leur possession de la ville épiscopale remontait au moins au <num>xi<hi rend="sup">e</hi></num> siècle ; les comtes ne purent jamais reprendre pied dans la cité. L’année 1163 vit échouer une tentative destinée à évincer les comtes de l’ensemble de l’Auvergne. A partir de 1198, l’évêque Robert d’Auvergne introduisit dans la province le système vassalique, et, profitant des désordres accompagnant la conquête de l’Auvergne par les troupes royales, arriva à faire reconnaître sa suzeraineté sur l’ensemble du Livradois et une bonne partie des terres au sud de Clermont. En le faisant nommer archevêque de Lyon, Blanche de Castille brisa cette œuvre inachevée. Les neveux et successeurs de Robert ne purent étendre leur influence que dans les montagnes de Haute Auvergne.</p>
           <p>Cette politique de grande envergure avait détourné les évêques de tâches plus profitables, et en particulier de l’acquisition de droits utiles. Les biens fon<pb source="https://nakala.fr/10.34847/nkl.e16cmq65#dd00f865cedc8ec3fa0178a716adbd133483b8ff" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/dd00f865cedc8ec3fa0178a716adbd133483b8ff/full/full/0/default.jpg"/>ciers des évêques, concentrés entre Billom et Clermont, restèrent modestes, alors que le prélat perdait peu à peu une bonne part des revenus tirés de la monnaie et de la juridiction gracieuse. D’autre part, les évêques de Clermont ne disposaient que d’un nombre restreint de bénéfices ecclésiastiques, et leurs droits sur ces derniers tombèrent peu à peu entre les mains de la Papauté. Les évêques de Clermont ne pouvaient plus contrôler les grandes familles d’Auvergne en assurant à leurs cadets de confortables carrières ecclésiastiques. A la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, la situation financière des évêques, devenue désastreuse, engendra parmi eux un mécontentement que traduisit l’appui prêté par Pierre de Cros à Boniface VIII contre Philippe le Bel. Les pouvoirs des évêques furent rognés par la couronne avec la complicité de Jean XXII : en 1317, l’évêché fut démembré ; en 1328, le chapitre perdit son droit de nomination de l’évêque. La grande seigneurie rêvée par Robert d’Auvergne ne vit jamais le jour.</p>
         </div>
-        <div>
+        <div xml:id="r1128669">
           <head rend="uc">Chapitre II
            <lb/>Le comté d’Auvergne</head>
           <p>A l’issue de la conquête de l’Auvergne, les comtes ne conservèrent qu’une faible partie de leurs anciennes possessions, la Comté, hérissée de forteresses au pied desquelles vint se briser l’avancée des troupes royales venant du Bourbonnais, de Clermont, de Nonette et du Puy. Cette partie de l’Auvergne demeura en possession des comtes. Elle servit de point de départ à la reconstitution d’une puissante seigneurie, opération dont le principal agent fut une fidélité sans faille à l’égard de la couronne, qui, si elle ne déboucha sur aucune restitution et fut à cet égard décevante, facilita la conclusion de mariages préparant des héritages considérables.</p>
           <p>Deux événements permirent aux comtes d’Auvergne de retrouver leur rang parmi les grands barons du royaume. Le premier fut la restitution de la dot de la femme du comte déchu Guy II, la Combraille, par le sire de Bourbon ; le second, l’acquisition de la couronne comtale de Boulogne, probablement avec l’aide du roi. Redevenus de puissants barons, les comtes purent épouser successivement les héritières des seigneuries de Livradois et de Montgâcon, terres qui furent complétées par la donation de ses biens du Livradois effectuée par Pierre Maurice. Le mariage de Robert VII avec Blanche de Clermont, en récompense du rôle joué par son père lors des batailles de Furnes et de Mons, lui permit d’entrer dans la famille royale et de récupérer la partie de la Combraille qu’avaient conservée les sires de Bourbon. A cette date, les conséquences de la conquête ont été totalement effacées.</p>
           <p>Le remariage de Robert VII avec Marie de Flandre fut la cause d’un relatif déclin puisque Guillaume XII dut dédommager sa belle-mère de sa dot, investie dans le comté de Boulogne, en lui cédant la plus grande partie de la Combraille et la seigneurie de Montgâcon. Le comte d’Auvergne restait cependant un puissant feudataire. Sa fille, Jeanne de Boulogne, fut jugée assez riche pour épouser successivement Philippe Monsieur et Jean le Bon.</p>
         </div>
-        <div>
+        <div xml:id="r1128687">
           <pb source="https://nakala.fr/10.34847/nkl.e16cmq65#855ecbcd313a4e40a2d70d0b5ebcd94b403d7786" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/855ecbcd313a4e40a2d70d0b5ebcd94b403d7786/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le Dauphiné d’Auvergne et ses marges</head>
@@ -146,7 +144,7 @@
           <p>En revanche, les sires de Mercœur surent se constituer en Brivadois et sur le flanc oriental du Cantal une puissante seigneurie qui fit d’eux des barons à l’alliance recherchée. Jaloux en permanence de leur indépendance, ils tenaient leurs principaux châteaux en alleu et parvinrent à participer au partage des terres d’alpage, contrôlant en particulier l’ensemble du massif de la Margeride. Le dernier d’entre eux, Béraud VIH, fut un prince turbulent, assez proche de Philippe le Bel ; il ajouta aux terres de la maison de Mercœur de vastes domaines en Franche-Comté, en Champagne et en Forez.</p>
           <p>Après la mort de Béraud, survenue en 1321, son héritage passa à Charles d’Alençon, cousin du roi, époux de Jeanne de Joigny. La mort sans héritiers de cette dernière entraîna des luttes entre les deux prétendants à la succession, le dauphin d’Auvergne, désigné par le testament de Béraud VIII, et la maison de Polignac qui dut s’incliner, laissant les dauphins redevenir de grands barons.</p>
         </div>
-        <div>
+        <div xml:id="r1128710">
           <head rend="uc">Chapitre IV
            <lb/>La seigneurie de latour-d’auvergne</head>
           <p>La seigneurie de Latour se constitua entièrement aux dépens des terres fiscales du versant ouest des Monts Dore. Dès le début du <num>xiii<hi rend="sup">e</hi></num> siècle, ses possesseurs furent parmi les plus fidèles alliés de Philippe Auguste. Leur participation à la conquête leur permit de conserver des terres arrachées aux dauphins au sud de Clermont. L’orientation générale de leur politique tendit toujours vers le même but, le contrôle de la plus grande partie possible des terres de haute montagne. S’ils parvinrent à s’emparer de la seigneurie de Murat-le-Quaire et, par suite, d’une partie des Dore, ils échouèrent dans le massif du Cantal, où la maison d’Apchon avait déjà réussi à s’emparer de la majeure partie des hautes terres. Des tentatives effectuées à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle en vue d’obtenir l’héritage du Carladès se soldèrent, une fois encore, par un échec. La famille de Latour se contenta de ses terres dans les monts Dore, dépendances de la seigneurie de Besse.</p>
@@ -154,17 +152,17 @@
           <p>Une vue d’ensemble des principautés permet de tirer des conclusions en deux directions. Elle souligne, en premier lieu, la richesse foncière des anciens comtes d’Auvergne qui, outre les terres du roi, possédaient la Comté, le Dauphiné et la seigneurie de Montgâcon, ce qui permet de mieux mesurer l’ampleur de l’usurpation réalisée par les vicomtes de Clermont. D’autre part, elle met en évidence l’importance de la zone de moyenne montagne dans la création de l’ensemble des seigneuries périphériques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1128746">
         <head rend="uc">
           <hi rend="i">Quatrième partie</hi>
           <lb/>Les progrès du pouvoir royal</head>
-        <div>
+        <div xml:id="r1128758">
           <head rend="uc">Chapitre premier
            <lb/>les agents du roi</head>
           <p>Très tôt, puisque avant même la conquête de la province, le roi de France disposa d’agents en Auvergne, en la personne d’un connétable, qui une fois l’Auvergne récupérée par Blanche de Castille sur le sire de Bourbon, revint dans la dépendance directe du roi, puis d’Alphonse de Poitiers, et qui, détenteur des pouvoirs d’un bailli, exerçait donc des attributions très étendues. Le pouvoir local resta entre les mains des prévôts, dans un cadre hérité directement des anciens comtes. La bonne connaissance des revenus du comte, liée à la confection du terrier auvergnat d’Alphonse de Poitiers, permit un affermage précoce des prévôtés.</p>
           <p>La surveillance de cette administration, et par suite son bon fonctionnement, était assurée par les enquêteurs-réformateurs envoyés par Alphonse de Poitiers, qui devaient remédier aux injustices subies par les populations et jouissaient à cet effet de pouvoirs très étendus. L’efficacité de l’institution résidait dans la régularité de tournées d’enquêteurs, dont les décisions avaient ainsi toutes chances d’être appliquées. Sous Philippe le Hardi, le système se dérégla très vite en raison de la suppression des enquêtes, qui transforma baillis et prévôts en tyrans potentiels. Des abus ne tardèrent pas à apparaître. Le principal tenait à la prolifération des petits officiers royaux et, en particulier, des sergents dont le nombre ne cessa d’augmenter et qui, sans salaire fixe, devaient pour vivre dresser le plus d’actes possible, et donc entrer en conflit avec les barons sur les terres desquels ils instrumentaient, violant ainsi leurs privilèges judiciaires. En dépit des ordonnances de réformation successives et de réelles améliorations apportées notamment à la ferme des prévôtés (qui suivait de si près les revenus <pb source="https://nakala.fr/10.34847/nkl.e16cmq65#24baf1be3e192a14309a2a42312acefc9b7d8f3a" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/24baf1be3e192a14309a2a42312acefc9b7d8f3a/full/full/0/default.jpg"/>réels que l’on peut presque parler de régie directe), la royauté ne put jamais réduire le nombre de ses agents et, par suite le mécontentement croissant qu’ils suscitaient ; elle alla jusqu’à conserver des châtelains en nombre relativement important, malgré un siècle de paix civile. En l’absence de réformateurs, envoyés seulement à titre de concession lors des crises, le bailli restait le maître absolu de la province.</p>
         </div>
-        <div>
+        <div xml:id="r1128778">
           <head rend="uc">Chapitre II
            <lb/>La reconquête des droits régaliens</head>
           <p>La reconquête des droits régaliens fut exercée extrêmement rapidement par la couronne. A la mort de Philippe le Hardi, les barons avaient perdu la majorité de leurs privilèges. Philippe le Bel termina l’œuvre paternelle en instaurant l’impôt royal.</p>
@@ -173,7 +171,7 @@
           <p>L’Auvergne fut une région pionnière en matière de sceaux aux contrats. Si l’évêque créa tardivement un scel official, il créa dès 1228 un sceau décentralisé pour sa cour temporelle. De même, les prévôts d’Alphonse de Poitiers, s’ils délivraient les actes sous leur propre sceau, adoptèrent un sceau au type d’Alphonse, sorte de sceau ès-qualité dont seule la légende différait de celui d’une cour. En 1268, Alphonse de Poitiers établit le sceau rigoureux de Riom, décentralisé sous Philippe le Bel et dont le succès fut foudroyant : le nombre d’actes passés en Auvergne sous les sceaux royaux est analogue à celui de la Champagne.</p>
           <p>Enfin, l’impôt royal fut accepté sans résistances notables. Il tomba dans un premier temps entre les mains des grandes compagnies financières, qui obtenaient ainsi les capitaux nécessaires au financement de leurs trafics sur les grains et les métaux précieux. Le système ne fut repris en main par la monarchie que sous les premiers rois Valois.</p>
         </div>
-        <div>
+        <div xml:id="r1128814">
           <pb source="https://nakala.fr/10.34847/nkl.e16cmq65#a357e2001b4777406e3ec5a44d5a10ec4bab5e77" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/a357e2001b4777406e3ec5a44d5a10ec4bab5e77/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le service armé</head>
@@ -181,22 +179,22 @@
           <p>Lors de l’ost de 1303, les difficultés issues du manque d’effectifs entraînèrent, au conseil de Château-Thierry, une modification totale des modalités de la levée des troupes, qui fut appliquée aussitôt en Auvergne. Plutôt que de réclamer beaucoup en espérant recevoir un peu, on se mit à réclamer à chaque groupe territorial un nombre d’hommes précis, contingent sur lequel on savait pouvoir compter ; le système de la convocation générale ne restait utilisé que dans le dessein de canaliser d’éventuelle bonnes volontés, mais sans en attendre de grands résultats. Les intérêts du comte d’Auvergne, dans la mesure où ils étaient liés à la possession du comté de Boulogne, amenèrent les Auvergnats à jouer, lors des événements qui conduisirent à la victoire de Mons et, en général, dans tous les osts flamands, un rôle un peu supérieur à leur importance à l’échelle du royaume.</p>
           <p>Afin d’obtenir ce qu’il demande et d’assurer l’exécution de ses ordres, le roi prend toujours soin de se présenter en souverain victorieux, qu’il serait dangereux de chercher à contrecarrer. Les difficultés rencontrées ne sont jamais avouées ; en revanche, les victoires sont toujours exploitées politiquement, en particulier celle de Mons. Le roi est incapable de résister à une mauvaise humeur généralisée de ses sujets ; puisqu’il ne peut exiger, avec une poignée de sergents, les services dont il a besoin, il cherche donc à les obtenir de bonne grâce.</p>
         </div>
-        <div>
+        <div xml:id="r1128837">
           <head rend="uc">Chapitre IV
            <lb/>Les résistances et le mouvement des ligues</head>
           <p>Les progrès constants et considérables du pouvoir royal ne pouvaient aller sans déclencher de profonds mécontentements. Au premier rang des insatisfaits se trouvait tout naturellement l’évêque de Clermont : il avait vu le roi briser ses espoirs de fonder une puissante seigneurie et, en même temps, lui arracher les profits liés au seigneuriage et à la juridiction gracieuse. L’ensemble des barons était également touché par les progrès du pouvoir royal. Si certains, comme le comte d’Auvergne, s’adaptèrent facilement aux conditions nouvelles et en exploitèrent les avantages, d’autres, comme Béraud de Mercœur, ne tolérèrent pas de voir leurs privilèges rognés. Il fallait calmer leur mécontentement, avant qu’il ne se généralisât.</p>
           <p>En 1302 et 1304, deux chartes concédées à l’évêque de Clermont confirmèrent de la façon la plus complète possible les privilèges du clergé. Lors de <pb source="https://nakala.fr/10.34847/nkl.e16cmq65#e2145d69f0ca64d635af18cba305d8cc6e8f8b50" n="40" facs="https://api.nakala.fr/iiif/10.34847/nkl.e16cmq65/e2145d69f0ca64d635af18cba305d8cc6e8f8b50/full/full/0/default.jpg"/>la préparation de la campagne de Mons, pour apaiser la noblesse auvergnate, Philippe le Bel lui concéda dès 1304 la première Charte aux Auvergnats, prototype des chartes provinciales, qui eut pour effet d’empêcher les Auvergnats de rejoindre en 1314-1315 le mouvement des ligues. Ce fut de son plein gré que Louis X, pour sa part, élargit à l’Auvergne les privilèges accordés aux autres provinces. Mais ces chartes ne furent guère appliquées. En 1318, tandis que Béraud de Mercœur se soulevait, la noblesse d’Auvergne présenta au roi un cahier de doléances. La démarche aboutit à la concession d’une troisième charte. Charles le Bel confirma encore toutes les libéralités de ses prédécesseurs, mais sans que ses décisions aient reçu, comme celles de son père et de ses frères, une application autre que momentanée. Résignée, la noblesse d’Auvergne finit, après la mort de Béraud de Mercœur, par accepter le fait accompli. Luttant contre les sergents royaux, elle avait négligé, semble-t-il, un danger autrement plus grave, celui que représentaient les achats massifs de terres effectués par une nouvelle noblesse issue d’Avignon, symbolisée par la famille Roger.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1128858">
         <head rend="uc">Conclusion</head>
         <p>Lors de la constitution de l’apanage de Jean de Berry, l’Auvergne sortait d’une période de mutations qui ne purent aller jusqu’à leur terme. Philippe Auguste et l’évêque Robert d’Auvergne, pour saper l’autorité du comte, avaient introduit en Auvergne le système vassalique. Ce système se retourna contre le roi devenu le maître de la province et le contraignit à un certain partage du pouvoir qui lui imposait de conserver des vassaux à la place des sujets souhaités.</p>
       </div>
-      <div>
+      <div xml:id="r1128868">
         <head rend="uc">Pièces justificatives</head>
         <p>Deux actes relatifs aux progrès de l’influence royale sous Philippe Auguste (1194-1208). – Procédures de l’évêque contre les bourgeois de Clermont (1290). – Deux cahiers de doléances de la noblesse auvergnate lors des ligues (v.1318-1323).</p>
       </div>
-      <div>
+      <div xml:id="r1128878">
         <head rend="uc">Annexes</head>
         <p>Etat de la population de la prévôté de Montferrand en 1357. – Trente-quatre cartes. – Vingt-neuf tableaux (généalogies, revenus fonciers...).</p>
       </div>

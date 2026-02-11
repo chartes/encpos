@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1920_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <forename>Jean</forename>
         <surname>Denizet</surname>
       </byline>
-      <div>
+      <div xml:id="r390707">
         <head rend="uc">Introduction</head>
         <p>Etude des ouvrages antérieurs consacrés à ce sujet (Coriolis, <hi rend="i">Dissertation...,</hi> etc.). – Sources : registres et liasses des Archives départementales des Bouches-du-Rhône (principalement le registre <hi rend="i">Potentia</hi>) et des Archives municipales d’un grand nombre de villes de Provence. – Justification du plan. Intérêt du sujet.</p>
       </div>
@@ -66,17 +64,17 @@
         <head rend="uc">Index bibliographique</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r390734">
         <head rend="uc">Première partie
          <lb/>Histoire et organisation des états</head>
-        <div>
+        <div xml:id="r390742">
           <head rend="uc">Chapitre premier
            <lb/>origine des états</head>
           <p>1. <hi rend="i">Critique de la théorie de leur ancienneté.</hi> – Les États de Provence ne sont pas aussi anciens que le prétendent Coriolis, la <hi rend="i">Notice historique...,</hi> Papon, <pb source="https://nakala.fr/10.34847/nkl.abe6y338#1c5b354cbf5ac9f121ba82b6da0cbd7e0b82109d" n="6" facs="https://api.nakala.fr/iiif/10.34847/nkl.abe6y338/1c5b354cbf5ac9f121ba82b6da0cbd7e0b82109d/full/full/0/default.jpg"/>H. Bouche. Les assemblées des Sept Provinces rétablies en 418, les conciles de Mantaille (879), de Valence (890), etc..., ne peuvent être considérés comme des assemblées des Trois Ordres.</p>
           <p>2. <hi rend="i">Les cours plénières.</hi> – Elles se rattachent aux cours féodales composées de tous les vassaux du comte. L’assemblée tenue par Guillaume II, dernier comte de Forcalquier, en 1168 ou 1169, est une cour plénière : à côté des prélats et des nobles, siègent des bourgeois et des paysans, appelés par le libre choix du comte.</p>
           <p>3. <hi rend="i">Les origines des États.</hi> – Exposé des diverses théories sur la matière (Callery, A. Thomas, L. Cadier, A. Coville). – Les Etats sont sortis des cours plénières. Ils paraissent d’ailleurs conserver le souvenir de leur origine féodale. – Causes du développement de cette institution : besoins financiers considérables des comtes hantés par la conquête du royaume de Naples ; mouvement d’émancipation communale, triomphant au <num>xii<hi rend="sup">e</hi></num> siècle et qui confère aux citadins une grande importance politique et sociale. – Les Etats sont définitivement constitués le jour où l’élément roturier siège en qualité de <hi rend="i">représentant</hi> des Communautés du Pays.</p>
         </div>
-        <div>
+        <div xml:id="r390791">
           <head rend="uc">Chapitre II
            <lb/>Le gouvernement de la Provence aux <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles</head>
           <p>1. <hi rend="i">Le Pays et le gouvernement local.</hi> – Les comtés de Provence et de Forcalquier placés sous l’autorité du même comte, renferment des territoires de deux sortes : <hi rend="i">le Pays</hi> et les <hi rend="i">Terres Adjacentes</hi> (républiques de Marseille et d’Arles, etc...). – Le Pays est divisé en circonscriptions à la fois administratives, judiciaires et financières : les vigueries et les bailies. Trois officiers résident à leur chef-lieu : le viguier ou le baile, le juge, le <pb source="https://nakala.fr/10.34847/nkl.abe6y338#f3803b63e99b996d14c3055ad847d0a7eac9f40a" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.abe6y338/f3803b63e99b996d14c3055ad847d0a7eac9f40a/full/full/0/default.jpg"/> clavaire, parfois un capitaine. – Ces vigueries et bailies possèdent leurs Assemblées des Trois États.</p>
@@ -84,7 +82,7 @@
           <p>3. <hi rend="i">Les Finances.</hi> – Le trésorier général de Provence a la gestion des finances comtales. – Les procureur et avocat du fisc veillent au respect des droits du domaine comtal. – La Chambre des Comptes joue un rôle financier, judiciaire et même administratif.</p>
           <p>4. <hi rend="i">Le Sénéchal et le Grand Conseil.</hi> – Le sénéchal est le véritable lieutenant du comte ; il est le chef de la Justice, des Finances et de l’Administration. Les charges de lieutenant du roi et de vicaire royal, sont confiées par le comte à de grands personnages, en certaines circonstances. – Le Conseil royal (Grand Conseil, Conseil Éminent) joue un rôle politique important ; en outre, il est le tribunal du sénéchal. – L’Assemblée générale des Communautés existe déjà au <num>xiv<hi rend="sup">e</hi></num> siècle, comme en témoignent des textes d’ailleurs fort rares.</p>
         </div>
-        <div>
+        <div xml:id="r390862">
           <head rend="uc">Chapitre III
            <lb/>Les états de Provence
            <lb/>de 1286 à 1382</head>
@@ -92,7 +90,7 @@
           <p>2. <hi rend="i">Les États de 1349 à 1368.</hi> – L’Assemblée de 1349 contraint la reine Jeanne à révoquer le sénéchal Jean Barilli, d’origine napolitaine. Celle de 1354 prend des mesures pour résister à la révolte suscitée en Provence par Charles de Duras, adversaire de la reine. Celle de 1356 nous est connue avec plus de détails : pour la première fois, nous sommes en présence des actes résultant des délibérations des Trois Ordres. Les États travaillent à la défense du Pays lors des brigandages de l’Archiprêtre (1358) et des Tard-Venus (1362 et 1363).</p>
           <p>3. <hi rend="i">La succession de la reine Jeanne</hi> (1368-1382). – Les Etats résistent avec succès aux attaques de Du Guesclin, entré en Provence à l’instigation de Louis d’Anjou, gouverneur de Languedoc (1368). En 1373, la reine leur demande des subsides pour tenter de recouvrer le Piémont. La même année, ils prennent des mesures pour s’opposer, le cas échéant, aux ravages des troupes du duc de Lancastre qui descendent de Calais. En 1381, ils mettent tout en œuvre pour délivrer la reine assiégée, puis retenue prisonnière par Charles de Duras. Elle est assassinée au moment où son fils Louis d’Anjou passe les Alpes pour lui porter secours,</p>
         </div>
-        <div>
+        <div xml:id="r390907">
           <head rend="uc">Chapitre IV
            <lb/>Les états sous les règnes de Louis i<hi rend="sup">er</hi> et de Louis II
            <lb/>(1382-1417)</head>
@@ -100,7 +98,7 @@
           <p>2. <hi rend="i">La lutte contre Raymond de Turenne</hi> (1388-1398). – – Causes de cette guerre qui désole la Provence : ressentiments de Raymond Roger, vicomte de Turenne et comte de Beaufort, contre Marie de Blois et le pape Clément VU. Déjà en 1388, les États ordonnent une levée de troupes pour s’opposer aux ravages de ses partisans. Leur rôle politique, financier et militaire, de 1391 à 1397, est considérable ; en tout cas, les textes nous le font connaître avec plus de précision et d’abondance : assemblés presque tous les ans, ils travaillent résolument à assurer l’ordre dans le Pays et à mener la guerre à bonne fin. Après des alternatives diverses, le sénéchal Georges de Marie s’empare de Pertuis (7 août 1397) : la cause de Raymond est définitivement perdue. La paix est négociée avec lui en 1398.</p>
           <p>3. <hi rend="i">La restitution d’obédience à Benoit XIII, et les débuts du <num>xv<hi rend="sup">e</hi></num> siècle (1398-1417</hi>). – Marie de Blois a retiré son obédience à Benoît XIII en novembre 1398, cinq mois après la cour de France. Les Etals d’avril 1401, se faisant l’interprète des sentiments populaires, demandent au roi de la lui restituer. Succès de celte démarche (avril 1402). En 1406, 1410 et 1415, ils accordent des subsides au roi pour de nouvelles expéditions en Italie.</p>
         </div>
-        <div>
+        <div xml:id="r390958">
           <head rend="uc">Chapitre V
            <lb/>Les états depuis l’avènement de Louis III jusqu’à
            <lb/>la réunion de la Provence à la France
@@ -111,7 +109,7 @@
           <p>3. <hi rend="i">Fin du règne de René (1469-1480</hi>). – Après un intervalle de seize années pendant lesquelles ils ne sont plus réunis, René les convoque en 1469 ; il leur réclame des secours financiers pour venir en aide à son fils le duc de Calabre qui combat en Catalogne : don gratuit de 70.000 florins. Nouveau don de 50.000 florins accordé en 1472. Importance de ces deux sessions au point de vue législatif.</p>
           <p>4. <hi rend="i">Les derniers jours de l indépendance provençale (1480-1481</hi>). – Charles du Maine succède à son oncle René (10 juillet 1480). Les compétiteurs : René II de Lorraine, Ferdinand d’Aragon, Louis XI. Habile politique du roi de France en Provence. – Sentiments d’anxiété des provençaux, les Etats, réunis par Charles III en novembre 1480, ne les expriment point. – Mort <pb source="https://nakala.fr/10.34847/nkl.abe6y338#bc35df8a4f269173148ddc41519a9c14fadc97ec" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.abe6y338/bc35df8a4f269173148ddc41519a9c14fadc97ec/full/full/0/default.jpg"/>de Charles III (11 décembre 1481). – Rôle joué par les États jusqu’à la consécration définitive de la réunion (1487).</p>
         </div>
-        <div>
+        <div xml:id="r391012">
           <head rend="uc">Chapitre VI
            <lb/>Organisation des états</head>
           <p>1. <hi rend="i">Composition des Etats.</hi> – Le <hi rend="i">Conselh general del tres Stats</hi> est constitué par des membres de droit et des membres élus. – Les prélats : archevêques, évêques, certains chapitres et collégiales, certaines abbayes et prieurés, certaines commanderies. – Les nobles : possédants-fief ou non. – Universités ; deux sortes de représentants : députés des communautés chefs-lieux de viguerie ; députés du corps des vigueries. – Emploi fréquent de la procuration. – Mode d’élection des députés.</p>
@@ -119,11 +117,11 @@
           <p>3. <hi rend="i">Officiers et commissions des Etats.</hi> – Les notaires ; en général deux ; leur rôle. – Le trésorier général ; son rôle ; assisté généralement de conseillers. – Les Procureurs du Pays ne sont créés qu’en 1480. – Commissions politiques ; commissions financières : <hi rend="i">ausidors</hi> de comptes. – Ambassades.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r391059">
         <head rend="uc">Deuxième partie
          <lb/>L’œuvre des états</head>
         <p>Les <hi rend="i">capitols,</hi> présentés au <hi rend="i">placet</hi> du roi, sont des mesures d’ordre administratif ou des vœux destinés à <pb source="https://nakala.fr/10.34847/nkl.abe6y338#29f472519af78c5dfba00dd6495b97e2c73c6522" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.abe6y338/29f472519af78c5dfba00dd6495b97e2c73c6522/full/full/0/default.jpg"/>sauvegarder ou à modifier la Constitution provençale. – Le <hi rend="i">placet</hi> royal leur donne force de loi. Les Etats et le roi s’appuient sur cette Constitution.</p>
-        <div>
+        <div xml:id="r391087">
           <head rend="uc">Première section
            <lb/>l’œuvre administrative des états</head>
           <div>
@@ -147,7 +145,7 @@
             <p>4. <hi rend="i">Vérification des comptes.</hi> – Des <hi rend="i">ausidors</hi> sont généralement nommés par l’assemblée pour vérifier les comptes des trésoriers. – Lamentable situation financière pendant la lutte contre Raymond de Turenne.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r391241">
           <head rend="uc">Deuxième section
            <lb/>l’œuvre législative des états</head>
           <div>
@@ -177,11 +175,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r391423">
         <head rend="uc">Conclusion</head>
         <p>Les Etats ne jouent un rôle politique vraiment important qu’en certaines circonstances graves. Ils sont les véritables représentants de la nation provençale.</p>
       </div>
-      <div>
+      <div xml:id="r391433">
         <head rend="uc">Appendice</head>
         <p>Catalogue des États de Provence de 1286 à 1481.</p>
       </div>

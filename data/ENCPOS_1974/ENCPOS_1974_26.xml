@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_26" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_26" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,15 +57,15 @@
         <surname>Sallmann</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r991274">
         <head rend="uc">Introduction</head>
         <p>Si l’étude des biens communaux en Artois permet d’apprécier ce que pouvait représenter ce secteur de l’économie rurale en pays d’<hi rend="i">openfield,</hi> elle offre surtout l’occasion d’approfondir notre connaissance de la communauté villageoise dans l’atmosphère de réaction seigneuriale et de crise agraire qui marque la fin du <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         <p>Une série presque complète de rôles de vingtième, un dossier exhaustif concernant le partage de 1779, des enquêtes de la Révolution et du début du <num>xix<hi rend="sup">e</hi></num> siècle, de nombreuses pétitions aux différents comités révolutionnaires, telles sont les sources utilisées.</p>
       </div>
-      <div>
+      <div xml:id="r991303">
         <head rend="uc">Première partie
          <lb/>Les biens communaux en Artois</head>
-        <div>
+        <div xml:id="r991311">
           <head rend="uc">Chapitre premier
            <lb/>le cadre</head>
           <p><hi rend="i">Le pays.</hi> – Partie intégrante de l’ensemble picard, cette grande plaine ouverte ne voit la monotonie de son relief rompue que de temps à autre par les rivières (Canche, Authie, Scarpe, Sensée, Deûle, Aa, Lys). Lorsque la couche <pb source="https://nakala.fr/10.34847/nkl.7c74m531#24e8a1840aac4a6e27cf101030b15f36d0524600" n="212" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c74m531/24e8a1840aac4a6e27cf101030b15f36d0524600/full/full/0/default.jpg"/>de limon s’amincit, la craie apparaît à nu (Haut-Pays) ou est dégradée en argile à silex (Ternois) pour donner un paysage plus varié de bois et de prairies.</p>
@@ -76,7 +74,7 @@
           <p><hi rend="i">Le cadre administratif.</hi> – Bien que l’étude de la période révolutionnaire ait été abordée, le choix même de la province d’Ancien Régime impliquait l’utilisation des cadres administratifs d’alors, la subdélégation et la communauté, cellule fiscale de base. En 1789, 788 communautés rurales se répartissaient en 8 subdélégations.</p>
           <p><hi rend="i">La définition du bien communal.</hi> – La définition juridique, établissant une distinction entre biens patrimoniaux et biens communaux proprement dits, ne parut jamais correspondre à la réalité. Ont donc été considérés comme biens communaux tous les biens-fonds (terres à labour, bois, terres vaines, marais) dont les communautés avaient la propriété ou la jouissance et ayant une superficie minimale de un hectare en un seul corps.</p>
         </div>
-        <div>
+        <div xml:id="r991367">
           <head rend="uc">Chapitre II
            <lb/>Présentation quantitative</head>
           <p><hi rend="i">L’appareil quantitatif : les enquêtes.</hi> – Si elles sont abondantes (vingtième de 1760, enquêtes de 1790, de l’an II, de l’an XI-an XII, de 1807, de 1836), les données chiffrées ne se signalent pas par leur précision : estimations vagues, souvent contradictoires à cause de la méconnaissance de la superficie réelle du communal ou par peur d’un accroissement fiscal. Une sévère critique était donc nécessaire.</p>
@@ -87,17 +85,17 @@
           <p><hi rend="i">Le rôle économique des biens communaux.</hi> – Ils servent essentiellement de terrains de pacage au bétail de la communauté. La tourbe des marais offre un succédané avantageux au bois de chauffage trop cher. Carrières, sablières, marnières complètent l’éventail des ressources que vient accroître l’habitude, à partir du milieu du siècle et sous l’impulsion de l’intendant, de défricher et de louer les marais au profit des caisses des communautés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r991406">
         <head rend="uc">Deuxième partie
          <lb/>La communauté et la défense du communal</head>
-        <div>
+        <div xml:id="r991414">
           <head rend="uc">Chapitre premier
            <lb/>les conflits entre communautés</head>
           <p><hi rend="i">La diversité des droits.</hi> – La complexité et l’interpénétration de droits mal définis et relevant de la tradition orale donnent naissance à une foule de conflits qu’aiguise la rareté des pâturages.</p>
           <p><hi rend="i">Les conflits.</hi> – Très fréquents, ils sont une source d’endettement pour les communautés.</p>
           <p><hi rend="i">L’intervention de l’administration.</hi> – L’intendant puis les états d’Artois ont tenté de limiter le nombre des conflits en multipliant les cantonnements entre les communautés de leurs biens indivis.</p>
         </div>
-        <div>
+        <div xml:id="r991441">
           <head rend="uc">Chapitre II
            <lb/>L’expropriation des communautés : la « réaction seigneuriale »</head>
           <p><hi rend="i">La concession primitive.</hi> – L’extension de la maxime « Nulle terre sans seigneur » est à l’origine de l’idée de la concession par les seigneurs des communaux, que cette concession soit gratuite ou onéreuse. L’ordonnance des Eaux et Forêts de 1669 a repris à son compte cette règle de droit.</p>
@@ -108,16 +106,16 @@
           <p><hi rend="i">La réaction des communautés.</hi> – Souvent passive, elle se caractérise cependant par une recrudescence des procès, et par quelques exemples d’opposition violente (Saudemont en 1751, Annay en 1778, Courrières et Hénin-Liétard en 1781-1785). La rancœur des communautés croît en proportion de l’alourdissement du régime féodal.</p>
           <p><hi rend="i">Les caractères de la « réaction seigneuriale ».</hi> – S’appuyant sur la législation royale (lettres patentes de 1779 pour le triage) et l’interprétation très large de la jurisprudence (plantis), la réaction seigneuriale prend un aspect légaliste. Elle se circonscrit dans les trois décennies précédant la Révolution. Loin d’être « réactionnaire », elle marque plutôt l’entrée de la seigneurie dans l’entreprise capitaliste et l’économie de marché (conjonction avec la hausse des prix des grains et du bois).</p>
         </div>
-        <div>
+        <div xml:id="r991503">
           <head rend="uc">Chapitre III
            <lb/>Desséchements et défrichements</head>
           <p>L’hostilité des états d’Artois à des dessèchements de grande envergure alimentés par des capitaux privés fait échouer quelques tentatives, qui ont cependant suscité une vive émotion dans les communautés concernées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r991516">
         <head rend="uc">Troisième partie
          <lb/>Le partage des biens communaux</head>
-        <div>
+        <div xml:id="r991524">
           <head rend="uc">Chapitre premier
            <lb/>les antécédents du partage</head>
           <p><hi rend="i">L’opposition entre les états d’Artois et l’intendant.</hi> – De 1753 à 1764, l’intendant d’Amiens puis de Flandre (à partir de 1754), confisque la gestion des biens communaux d’Artois aux états, qui ne la retrouvent qu’en 1764.</p>
@@ -126,7 +124,7 @@
           <p>A partir des années 1770, les états d’Artois se prononcent en faveur du partage. Cette attitude, conforme aux idées du jour, traduit également les préoccupations de l’administration à l’égard de la crise agraire et le souci qu’ont les privilégiés de tirer profit d’une extension éventuelle du droit de triage</p>
           <p>Après un premier échec en 1773, le partage est ordonné en 1779, partage de jouissance en portions ménagères.</p>
         </div>
-        <div>
+        <div xml:id="r991556">
           <head rend="uc">Chapitre II
            <lb/>Une tentative de réforme agraire</head>
           <p><hi rend="i">La terre.</hi> – Quatre sondages (à Biache-Saint-Vaast, Fouquières-lez-Lens, Isbergues, Maresquel-Ricquebourg-Ecquemicourt) effectués grâce aux rôles de vingtième de 1761 et de centième de 1780, permettent de mettre en valeur l’ampleur de la crise agraire de la fin du <num>xviii<hi rend="sup">e</hi></num> siècle : maintien des grandes exploitations des gros fermiers de seigneurie, mais processus accéléré de paupérisation de la micro-exploitation et laminage de la moyenne exploitation, exception faite du cas d’Isbergues.</p>
@@ -135,14 +133,14 @@
           <p>En définitive, il semble que, dans la majeure partie de la province, le bétail appartienne presque exclusivement aux gros fermiers et aux laboureurs, alors que dans la vallée de la Canche (mais également dans celle de la Lys) il est réparti plus équitablement entre les groupes sociaux.</p>
           <p><hi rend="i">Conclusion : la crise agraire.</hi> – Dans la deuxième moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, on assiste à une paupérisation accélérée des classes paysannes. Seule la bourgeoisie des gros fermiers maintient ses positions. La paupérisation semble cependant moins marquée dans la vallée de la Lys au nord et dans celle de la Canche où la possession d’une ou deux têtes de bétail pallie dans une certaine mesure chez le manouvrier le manque de terre.</p>
         </div>
-        <div>
+        <div xml:id="r991601">
           <pb source="https://nakala.fr/10.34847/nkl.7c74m531#9f538c182f8e68be52f3a10b0f47f24e9a71b71e" n="216" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c74m531/9f538c182f8e68be52f3a10b0f47f24e9a71b71e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le partage des biens communaux (1770-1789)</head>
           <p><hi rend="i">L’ampleur du partage.</hi> – Le partage s’effectua dans 36 communautés pour la plupart situées entre Béthune, Arras et Douai, là où la crise était la plus aiguë. 2 234 hectares furent partagés, les parts variant de 10 ares à 1, 27 hectares (moyenne : 55 ares). Plus de 4 000 familles en profitèrent. Les lettres patentes de 1779 semblent avoir plutôt marqué un coup d’arrêt.</p>
           <p><hi rend="i">L’opposition au partage.</hi> – La responsabilité en incombe aux états d’Artois eux-mêmes qui, par leur attitude autoritaire, ont dressé contre eux le Conseil d’Artois et les communautés. Devant cette vigoureuse opposition, le Conseil du roi abrogea les lettres patentes en 1787</p>
         </div>
-        <div>
+        <div xml:id="r991627">
           <head rend="uc">Chapitre IV
            <lb/>Les réactions de la communauté
            <lb/>étude des structures sociales</head>
@@ -155,11 +153,11 @@
           <p>L’opposition au partage est finalement de la part de la paysannerie une vigoureuse attitude antiseigneuriale qui avive, quelques années avant la Révolution, les luttes des classes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r991668">
         <head rend="uc">Quatrième partie
          <lb/>Les biens communaux pendant la période révolutionnaire</head>
         <p>Lorsque les masses paysannes s’engagèrent dans la Révolution, ce fut à l’effet de libérer les campagnes du régime « féodal », et de régler le problème agraire. Cette revendication à double face est une constante dans la question des biens communaux.</p>
-        <div>
+        <div xml:id="r991679">
           <head rend="uc">Chapitre premier
            <lb/>les biens communaux jusqu’à la loi du 10 juin 1793</head>
           <p><hi rend="i">Les biens communaux à travers les cahiers de doléances.</hi> – Les doléances de la province leur réservent une large place : 73 cahiers de communautés en font mention sur 137 publiés. Triages, plantis, usurpations, sont âprement dénoncés, ainsi que les dîmes novales prélevées sur les marais défrichés.</p>
@@ -169,25 +167,25 @@
           <p>La réintégration fut quasi-complète en Artois. Mais les communautés n’ont pas toujours respecté les formes légales, ce qui vaudra à certaines d’entre elles quelques déconvenues lors du retour offensif des anciens propriétaires sous l’Empire et la Restauration.</p>
           <p><hi rend="i">La question du partage jusqu’à la loi du 10 juin 1793.</hi> – Le prolétariat rural et la petite paysannerie, tenus à l’écart de la vente des biens nationaux, se tournèrent vers les biens communaux mais l’Assemblée refusa de débattre du partage jusqu’en 1792. Le caractère de lutte des classes entre la bourgeoisie rurale et la paysannerie sans terre fut accentué du fait que l’hypothèque « féodale » avait été levée. Six partages illégaux par portions ménagères furent opérés jusqu’en 1792, tous situés dans la vallée de la Deûle.</p>
         </div>
-        <div>
+        <div xml:id="r991717">
           <head rend="uc">Chapitre II
            <lb/>Le partage de 1793</head>
           <p><hi rend="i">La loi du 10 juin 1793.</hi> – Le partage par individu était facultatif. Les lots étaient reçus en pleine propriété, les Jacobins y voyant le moyen d’élargir la base sociale du nouveau régime.</p>
           <p><hi rend="i">L’application de la loi.</hi> – Sur 309 communautés recensées, 120 partagèrent leurs communaux (22 partages d’ancien régime furent refaits par individu) et 13 maintinrent l’ancien partage par feux. Ce sont surtout les communautés des vallées de la Scarpe, de la Deûle et de la Sensée qui appliquèrent la loi, alors que les régions de Hesdin et de Saint-Omer s’en tinrent à l’écart.</p>
           <p>Les partages furent particulièrement nombreux en l’an II, essentiellement au moment de la Grande Terreur, témoignant ainsi que le partage des biens communaux fut indissolublement lié au gouvernement révolutionnaire.</p>
         </div>
-        <div>
+        <div xml:id="r991741">
           <head rend="uc">Chapitre III
            <lb/>Les conséquences du partage</head>
           <p><hi rend="i">Le bénéfice du partage.</hi> – Il est difficilement appréciable, mais les lots furent la plupart du temps exigus. Seuls en tirèrent profit les chefs de famille nombreuse. Dans l’ensemble, pourtant, le petit paysan n’y trouva pas son compte.</p>
           <p><hi rend="i">La suppression des partages.</hi> – La bourgeoisie rurale, revenue au pouvoir après Thermidor, surmonta sa peur de la « loi agraire » et s’activa à revenir sur les partages. A partir de l’an XII, les partages sans titre furent supprimés, ainsi que ceux des marais tourbeux. Sur 120 partages révolutionnaires, 46 <pb source="https://nakala.fr/10.34847/nkl.7c74m531#7adca241c7c986419363b3dc1ec4b62cf1d00191" n="219" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c74m531/7adca241c7c986419363b3dc1ec4b62cf1d00191/full/full/0/default.jpg"/>furent supprimés et 71 maintenus (aucun renseignement pour 3 d’entre eux). La paysannerie a bien résisté par endroit mais, découragée, elle a fini par se laisser dépouiller d’une de ses conquêtes révolutionnaires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r991768">
         <head rend="uc">Conclusion</head>
         <p>Le partage des biens communaux consista en un jeu de dupes pour le prolétaire rural dont la faim de terre fut détournée de la « loi agraire » et canalisée vers ces terres que la bourgeoisie rurale, après quelques réticences, lui abandonna. Si, du point de vue social, ses effets furent presque nuls, il favorisa néanmoins, à cause de la perte des pâturages, l’extension des prairies artificielles, et les petites parts de marais, cultivées comme des jardins, devinrent un lieu d’expériences pour l’introduction des méthodes culturales flamandes en ce pays d’assolement triennal.</p>
       </div>
-      <div>
+      <div xml:id="r991778">
         <head rend="uc">Pièces justificatives</head>
         <p>Tableaux de données brutes, lettres et requêtes.</p>
         <pb source="https://nakala.fr/10.34847/nkl.7c74m531#a361593221ac5437d3f5c9f559008d92fd3a0a73" n="220" facs="https://api.nakala.fr/iiif/10.34847/nkl.7c74m531/a361593221ac5437d3f5c9f559008d92fd3a0a73/full/full/0/default.jpg"/>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1984_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1984_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,10 +56,10 @@
         <forename>Mireille</forename>
         <surname>Lamarque</surname>
       </byline>
-      <div>
+      <div xml:id="r1109591">
         <head rend="uc">Première partie
          <lb/>Commentaire</head>
-        <div>
+        <div xml:id="r1109599">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits et l’édition de 1503</head>
           <p><hi rend="i">Ung enseignement moult piteux</hi> est conservé dans deux manuscrits.</p>
@@ -70,13 +68,13 @@
           <p>L’édition plagiaire d’Antoine Vérard (Bibliothèque nationale, Réserve Yh.7) reproduit intégralement, bien qu’elle modernise le vocabulaire, le poème de Jean de Remin tel qu’il se présente dans le manuscrit français 1578, y compris les citations latines ; elle donne le nom de l’auteur et porte la date falsifiée de 1502 (1503 n. st.). Clôturant l’ouvrage, le poème est imprimé à la suite de dix autres textes dont le premier donne son titre au volume : <hi rend="i">Les regnars traversant les perilleuses voyes des folles fiances du monde,</hi> de Jean Bouchet (publié par Antoine Vérard sous le nom de Sébastien Brand) et qui traitent tous de la vanité de la vie mondaine et des peines de l’enfer (<hi rend="i">La complaincte d’ung damné,</hi> la <hi rend="i">Ballade de pertinacité,</hi> d’après un ouvrage de Jean Bouchet, un traité sur la vanité des arts libéraux et des arts mécaniques, <hi rend="i">Des vices et des vertus, Des estatz du monde,</hi> sans doute de Jean Bouchet, précédé de deux ballades, <hi rend="i">La complaincte douloureuse de l’ame damnee,</hi> un petit dialogue entre Dieu et le diable, et la <hi rend="i">Ballade des abuz du monde</hi>).</p>
           <p><hi rend="i">Ung enseignement moult piteux</hi> vient à sa place, pour apporter une morale finale conduisant au salut.</p>
         </div>
-        <div>
+        <div xml:id="r1109682">
           <head rend="uc">Chapitre II
            <lb/>L’auteur, sa langue et sa versification</head>
           <p>L’auteur, Jean de Remin, n’est connu par aucun autre ouvrage. La langue qu’il utilise est parsemée de traits dialectaux du Nord-Est de la France ; or son patronyme semblerait indiquer une parenté avec Philippe de Beaumanoir (Philippe de Remi), dont le frère possédait depuis 1294 des terres en Champagne (à cette date, une charte le mentionne à l’occasion d’un partage dans cette région). Jean de Remin n’a laissé aucune trace dans les pouillés et obituaires de la région ; il ne figure pas davantage parmi le personnel administratif du royaume, ni parmi les officiers royaux.</p>
           <p>Les vers sont des octosyllabes à rime plate. L’auteur recherche la rime riche.</p>
         </div>
-        <div>
+        <div xml:id="r1109697">
           <head rend="uc">Chapitre III
            <lb/>Analyse de l’œuvre</head>
           <p><hi rend="i">Ung enseignement moult piteux</hi> met en scène un mourant et un prêtre venu lui porter les derniers sacrements. L’auteur assiste au dialogue ; il le rapporte dans l’intention d’instruire ses lecteurs et de délivrer à ceux qui souffrent un enseignement qui leur permette de prendre leur mal en patience, afin d’obtenir ici-bas la rémission de leurs péchés (1-46).</p>
@@ -88,23 +86,23 @@
           <p>Reconnaissant ses torts, le mourant s’inquiète cependant de calomnies qu’un voisin fait courir sur son compte ; pour le rassurer, le prêtre cite l’exemple du Christ. Les victimes de la médisance peuvent être assimilées à des martyrs « en conscience » si elles savent supporter leur mal avec patience (5359-5544).</p>
           <p>Sa mission remplie, le prêtre absout le malade et lui administre l’extrême-onction. De retour chez lui, l’auteur consigne par écrit les propos qu’il a recueillis, pour l’édification de ses futurs lecteurs (5545-5582).</p>
         </div>
-        <div>
+        <div xml:id="r1109735">
           <head rend="uc">Chapitre IV
            <lb/>Les sources</head>
           <p><hi rend="i">Ung enseignement moult piteux</hi> appartient au courant des arts de mourir qui accordent une large place à la nécessité du repentir, à la <pb source="https://nakala.fr/10.34847/nkl.77d85s84#07c13075e3011c09a562796b6701a86525cd06b1" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.77d85s84/07c13075e3011c09a562796b6701a86525cd06b1/full/full/0/default.jpg"/>rédemption par la souffrance acceptée avec sérénité. Cependant, l’œuvre ne se présente pas comme un manuel théorique destiné aux prêtres. Tout en recourant aux mêmes thèmes que Gerson dans la <hi rend="i">Medecine de l’ame</hi> ou que l’<hi rend="i">Ars moriendi</hi> traduit par Jean Miélot, notamment à ceux de la nécessité de la patience et de la préparation à la mort, le poème s’adresse à des laïcs : il met en scène des personnages auxquels les lecteurs peuvent s’identifier ; vers la fin du texte, le dialogue qui s’engage entre le prêtre et le malade sur les malheurs de la vie est sans doute inspiré par une expérience directe de la guerre. Les motifs de la misère humaine, de l’inéluctabilité de la mort sont empruntés au <hi rend="i">De miseria </hi>d’Innocent III. Fondamental dans la religion de l’époque, l’exemple du Christ et de sa Passion est invoqué à plusieurs reprises. Diverses notions telles que la punition par les cinq sens, l’opposition des vertus et des vices ou les phases de la confession, courantes déjà au <num>xiii<hi rend="sup">e</hi></num> siècle, appartiennent au répertoire des manuels de confession (<hi rend="i">Formula confessionis</hi> de Jean Rigaud, <hi rend="i">Summa de poenitentia</hi> de Jean d’Erfürt, <hi rend="i">Summa collectionum</hi> de Durand de Champagne). Des sujets communs se retrouvent dans le poème de Jean de Remin et dans le <hi rend="i">Miroir de l’ame</hi> que traduit Jean Miélot un siècle plus tard : la pénitence, la vanité du monde, la misère humaine, le sort de l’âme après la mort.</p>
           <p>Le purgatoire tient une place importante dans le poème, témoignant du succès du <hi rend="i">Purgatoire de saint Patrice.</hi> Il en est de même pour l’idée des vicissitudes de la fortune, héritée de Boèce. En outre, dans le passage assez long consacré aux femmes, l’influence du <hi rend="i">Roman de la Rose</hi> est sensible ; on peut rapprocher ces passages du <hi rend="i">Miroir de mariage</hi> d’Eustache Deschamps et des <hi rend="i">Lamentations de Matheolus</hi> traduites par Jean Le Fèvre, ainsi que du <hi rend="i">Livre de Leesce</hi> du même Jean Le Fèvre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1109813">
         <head rend="uc">Conclusion</head>
         <p>Longue exhortation utilisant tous les thèmes religieux dominants de l’époque, le poème de Jean de Remin se présente comme un sermon à bâtons rompus, construit sans plan bien défini, pour revenir avec insistance sur les thèmes de la pénitence et de la souffrance salvatrice. Son originalité réside surtout dans sa date de 1366, précoce pour un art de mourir en français.</p>
       </div>
-      <div>
+      <div xml:id="r1109823">
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
         <p>Le manuscrit français 1578 a servi de manuscrit de base. Les variantes du manuscrit de La Haye ne portent que sur les neuf cents premiers <pb source="https://nakala.fr/10.34847/nkl.77d85s84#3818072e1fcd013aeab804210dfa4e178478956a" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.77d85s84/3818072e1fcd013aeab804210dfa4e178478956a/full/full/0/default.jpg"/>vers. L’édition d’Antoine Vérard apporte quelques compléments pour les vers qui manquent dans le manuscrit français 1578.</p>
       </div>
-      <div>
+      <div xml:id="r1109840">
         <head rend="uc">Annexes</head>
         <p>Citations latines marginales. – Glossaire.</p>
         <pb source="https://nakala.fr/10.34847/nkl.77d85s84#2d1b5595723fce321acc4ab280237e7f8f910e80" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.77d85s84/2d1b5595723fce321acc4ab280237e7f8f910e80/full/full/0/default.jpg"/>

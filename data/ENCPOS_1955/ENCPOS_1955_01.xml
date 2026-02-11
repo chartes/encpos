@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1955_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1955_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,7 +63,7 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r763694">
         <head rend="uc">Introduction
          <lb/>portrait et carrière de Vauréal</head>
         <p><hi rend="i">Les origines et la formation.</hi> – Né à Béton-Bazoches en 1688, Louis-Gui Guérapin de Vauréal était de famille champenoise. Il fut destiné comme cadet à l’état ecclésiastique ; ses qualités intellectuelles et sa puissance de séduction devaient lui faciliter une brillante carrière.</p>
@@ -74,41 +72,41 @@
         <p><hi rend="i">L’ambassade d’Espagne.</hi> – Ses ambitions politiques (il brigua le secrétariat des Affaires étrangères en 1738), sa faveur à la Cour lui valurent d’être nommé ambassadeur à Madrid en 1741 ; il sut y déployer ses talents de diplomate courtisan qu’exigeait la susceptibilité de Philippe V, d’Élisabeth Farnèse et de leurs ministres. Ses dépêches, par leurs qualités de style et d’information, le firent apprécier à Versailles. Désireux d’obtenir le chapeau, il courtisa, tant en France qu’en Espagne, les gens bien en Cour (affaire de l’infante et affaire du chapeau).</p>
         <p><hi rend="i">Retour en France.</hi> – Revenu de Madrid en 1749, il fut élu la même année à l’Académie, mais il échoua dans une nouvelle tentative, en 1750, <pb source="https://nakala.fr/10.34847/nkl.d240t4k3#7aed1e01edd87146466da50cf7cebbb4e8fc7555" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.d240t4k3/7aed1e01edd87146466da50cf7cebbb4e8fc7555/full/full/0/default.jpg"/>pour obtenir le secrétariat des Affaires étrangères ; il présida encore les États de Bretagne ; en 1758, il se démit de son siège épiscopal et mourut près de Nevers, en 1760, au retour d’une cure à Vichy.</p>
       </div>
-      <div>
+      <div xml:id="r763738">
         <head rend="uc">Première partie
          <lb/>La situation du commerce français en Espagne
          <lb/>a l’arrivée de Vauréal</head>
-        <div>
+        <div xml:id="r763748">
           <head rend="uc">Chapitre premier
            <lb/>les bases doctrinales : le mercantilisme.</head>
           <p>Dans la première moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, le commerce apparaît comme la condition même de la puissance politique, ce qui explique le soin particulier que les gouvernements apportent à son développement. La doctrine alors en faveur prône l’enrichissement des nations par l’accumulation des métaux précieux : c’est la théorie mercantiliste. Mais, de ses différentes formes du siècle précédent – bullionisme espagnol, industrialisme français, mercantilisme commercial anglo-hollandais – la dernière tend à prévaloir, surtout en France. Le commerce extérieur y prend une place capitale et commande en grande partie la politique intérieure et étrangère du royaume. L’Espagne, et surtout ses possessions d’Amérique, constituent à ce point de vue un marché des plus recherchés que se disputent les nations commerçantes, parmi lesquelles la France s’efforce de conserver la position privilégiée qu’elle occupe depuis l’avènement des Bourbons sur le trône des Rois catholiques.</p>
         </div>
-        <div>
+        <div xml:id="r763766">
           <head rend="uc">Chapitre II
            <lb/>Les intérêts commerciaux français en Espagne.</head>
           <p><hi rend="i">Conditions des échanges.</hi> – La position géographique des deux pays, leur situation économique respective (essor commercial français, dépression espagnole), leur parenté dynastique étaient autant de facteurs favorables au développement du commerce français dans la péninsule et dans les Indes. Mais l’activité de la contrebande anglaise en Amérique espagnole constitue une concurrence redoutable. Les tentatives de l’Espagne pour y mettre fin provoquent une guerre entre les deux pays, nouvel obstacle aux efforts d’expansion commerciale française. L’entrée en guerre de la France contre l’Angleterre (1744) porte un nouveau coup à notre commerce avec l’Espagne et les Indes, toutes les communications maritimes étant pratiquement contrôlées par la marine anglaise.</p>
           <p><hi rend="i">Nature des échanges.</hi> – La France exporte vers l’Espagne et les Indes des produits manufacturés (toiles, étoffes de laine, soieries, velours, <pb source="https://nakala.fr/10.34847/nkl.d240t4k3#443ae3e523b161e456254063ae28466813147df1" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.d240t4k3/443ae3e523b161e456254063ae28466813147df1/full/full/0/default.jpg"/>étoffes d’or et d’argent, dentelles, mercerie, quincaillerie), des denrées alimentaires (blé, poisson), des produits coloniaux (sucre, cacao, café) et des marchandises étrangères. Pour une valeur trois fois moindre, l’Espagne fournit à la France des matières premières (laine, soie), des denrées alimentaires (huiles, vins, eaux-de-vie, raisins secs, figues) et coloniales (cochenille, bois de campêche, cuirs, laine de vigogne, vanille). Le déficit de la balance commerciale de l’Espagne est comblé par l’exportation de métaux précieux, exportation qui représente également le bénéfice des opérations commerciales françaises aux Indes.</p>
         </div>
-        <div>
+        <div xml:id="r763792">
           <head rend="uc">Chapitre III
            <lb/>Les conditions du commerce des Indes.</head>
           <p><hi rend="i">La réglementation du commerce des Indes.</hi> – De tout temps, la législation des Indes avait réservé aux seuls Espagnols le droit de commercer avec les possessions d’Amérique. Le monopole de ce commerce, attribué d’abord à Séville, était passé à Cadix en 1717. Les opérations commerciales se déroulaient sous la direction et le contrôle de la Casa de Contratation, chambre et tribunal de commerce, et du Consulado, organismes eux-mêmes subordonnés au Conseil des Indes et au secrétaire d’État chargé de ce département. Marchandises et métaux précieux étaient chargés sur des flottes et des galions et, en cas de nécessité (surtout en temps de guerre), sur des « vaisseaux de registre ». Les cargaisons étaient soigneusement enregistrées et soumises au paiement de droits élevés (induit, alcabala, almojarifazgo...), qui venaient s’ajouter aux charges déjà très lourdes qui pesaient sur le commerce (commissions, frets, assurances...).</p>
           <p><hi rend="i">La fraude.</hi> – Les sévères prescriptions des lois espagnoles sont d’une application souvent fort difficile. Faute de capitaux et de marchandises, les nationaux espagnols ne peuvent assurer avec les Indes les échanges dont ils ont, en principe, le monopole. Pratiquement, ce sont les étrangers qui, sous le couvert de prête-noms espagnols, font le commerce des Indes. Parmi ces étrangers, la plupart sont français et leur colonie est organisée en « nation », ayant à sa tête le consul et deux députés élus. Les négociants étrangers jouissent d’importants privilèges (statut juridique particulier, exemptions de visites, etc...), surtout les Anglais et les Hollandais et, par le jeu de la clause de la nation la plus favorisée, les Français. A l’abri de ces privilèges, et grâce à la complaisance intéressée de nombreux fonctionnaires espagnols, le commerce français se livre à une contrebande particulièrement active (trafic de marchandises et de métaux précieux non registres, exportation des espèces d’or et d’argent, importation de produits prohibés). Cette activité illicite provoque des réactions des autorités espagnoles, qui n’hésitent pas, le cas échéant, à faire bon marché des privilèges étrangers. Ce sont autant d’occasions où les commerçants français ont recours à la protection de leur ambassadeur.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r763814">
         <pb source="https://nakala.fr/10.34847/nkl.d240t4k3#530c6474afb57b8857f7c50c9cdf7774496a8fa2" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.d240t4k3/530c6474afb57b8857f7c50c9cdf7774496a8fa2/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Vauréal et la protection des intérêts français
          <lb/>en Espagne</head>
-        <div>
+        <div xml:id="r763829">
           <head rend="uc">Chapitre premier
            <lb/>les instructions de Vauréal et ses moyens d’action
            <lb/>a la cour d’Espagne.</head>
           <p>Vauréal arrivait à la cour de Madrid le 20 mai 1741, muni d’instructions détaillées. Les matières commerciales n’y avaient pas été oubliées : il devait veiller tout spécialement à la sauvegarde des privilèges français en Espagne et favoriser le développement de notre commerce dans la péninsule et aux Indes. Dans cet ordre d’idées, l’ambassadeur – secondé par un « chargé des affaires du commerce » – avait à entretenir une double série de correspondances : l’une avec la cour de France (secrétariat d’État des Affaires étrangères, contrôleur général et surtout secrétaire d’État à la Marine, alors chargé des consulats et du commerce) ; l’autre avec nos consuls à Gijon, La Corogne, Barcelone, Majorque, Alicante, Carthagène, Malaga, Ténériffe, Oran et surtout Cadix. Ces fonctionnaires transmettaient de nombreuses plaintes et prétentions de nos nationaux, que l’ambassadeur se gardait de toujours soutenir (fréquents conflits à ce sujet avec le consul de Cadix).</p>
           <p>La faveur dont jouissait Vauréal auprès de Philippe V et d’Élisabeth Farnèse ne lui était pas d’une grande utilité sur le terrain commercial ; les souverains se montrant assez indifférents à ces questions dont ils laissaient le soin à leurs ministres des Finances et des Indes. L’un d’eux, Campillo, homme intègre et intelligent, se montra assez accessible aux démarches de Vauréal, et, tout en restant intraitable sur les droits essentiels de l’Espagne, n’hésita pas à accorder au commerce français les facilités compatibles avec les intérêts respectifs des deux pays. Après sa mort (1743), son successeur, La Ensenada, se montra beaucoup moins ouvert. A plusieurs reprises, Vauréal dut en appeler au secrétaire d’État des Affaires étrangères, Villarias, qui se contentait, en général, de renvoyer les affaires des Français aux tribunaux (juntes), dont les décisions étaient inspirées par la gallophobie la plus notoire.</p>
         </div>
-        <div>
+        <div xml:id="r763846">
           <head rend="uc">Chapitre II
            <lb/>Le rôle de l’ambassadeur dans la protection
            <lb/>des intérêts français.</head>

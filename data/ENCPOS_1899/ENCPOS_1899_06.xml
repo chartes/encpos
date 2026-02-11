@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1899_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,20 +54,20 @@
         <forename>Charles</forename>
         <surname>de Lasteyrie</surname>
       </byline>
-      <div>
+      <div xml:id="r238065">
         <head rend="uc">Introduction</head>
         <p>Examen des travaux antérieurs. Sources. Bibliographie.</p>
       </div>
-      <div>
+      <div xml:id="r238075">
         <head rend="uc">Première partie
          <lb/>Histoire de l’abbaye</head>
-        <div>
+        <div xml:id="r238083">
           <head rend="uc">Chapitre premier
            <lb/>saint Martial, premier évêque de Limoges</head>
           <p>Discussion sur l’époque à laquelle il vécut. Il n’est venu dans le Limousin qu’au <num>iii<hi rend="sup">e</hi></num> siècle.</p>
           <p>Grégoire de Tours est le plus ancien auteur qui ait parlé de lui. Valeur de son témoignage. La plus ancienne Vie de saint Martial date probablement des environs de l’an 800 : c’est une amplification de Grégoire de Tours sans valeur aucune. La Vie la plus moderne, faussement attribuée à l’évêque Aurélien, est un tissu de fables ; elle a dû être écrite vers l’an 1000. Conclusion : comme l’a montré M. l’abbé Duchesne, en dehors de Grégoire de Tours, nous n’avons aucun renseignement digne de foi sur saint Martial.</p>
         </div>
-        <div>
+        <div xml:id="r238104">
           <pb source="https://nakala.fr/10.34847/nkl.87411u9m#7ce5f052317c1528f38e5674ef85b00b715df8c5" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.87411u9m/7ce5f052317c1528f38e5674ef85b00b715df8c5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le pèlerinage de saint Martial jusqu’à la fondation de
@@ -79,7 +77,7 @@
           <p>D’autres auteurs ont attribué à Louis le Débonnaire la fondation de la basilique du Sauveur, c’est-à-dire de l’église abbatiale de Saint-Martial. Leur assertion est erronée ; elle repose sur un diplôme apocryphe de ce prince, dont la confection date probablement de la fin du <num>x<hi rend="sup">e</hi></num> siècle seulement.</p>
           <p>Invasion des Normands en 845. Le corps de saint Martial est transporté hors de Limoges et des seigneurs du voisinage essayent de le retenir à Solignac.</p>
         </div>
-        <div>
+        <div xml:id="r238144">
           <head rend="uc">Chapitre III
            <lb/>L’abbaye jusqu’à la réforme clunisienne en 1063</head>
           <p>Fondation de l’abbaye en 848 : les chanoines, qui veillaient sur le tombeau de saint Martial, prennent l’habit monacal, probablement sous l’inspiration des moines de Saint-Savin.</p>
@@ -90,7 +88,7 @@
           <p>En 1028, consécration du chœur de la basilique.</p>
           <p>En 1031, triomphe définitif au concile de Limoges de la doctrine de l’apostolat de saint Martial.</p>
         </div>
-        <div>
+        <div xml:id="r238191">
           <head rend="uc">Chapitre IV
            <lb/>L’abbaye depuis la réforme clunisienne jusqu’au règne
            <lb/>de l’abbé Isembert (1174) et aux guerres des fils
@@ -99,7 +97,7 @@
           <p>En 1095, dédicace de la basilique du Sauveur par le pape Urbain II.</p>
           <p>En 1152, réception par l’abbé Albert de Henri, duc de Normandie, venu à Limoges pour mettre au doigt l’anneau de sainte Valérie et recevoir ainsi l’investiture mystique du duché d’Aquitaine. La légende voulait, en effet, que sainte Valérie eût hérité du duché par son père, le prétendu duc Léocadius.</p>
         </div>
-        <div>
+        <div xml:id="r238213">
           <head rend="uc">Chapitre V
            <lb/>L’abbaye pendant les guerres anglaises
            <lb/>du <num>xii<hi rend="sup">e</hi></num> au <num>xiv<hi rend="sup">e</hi></num> siècle</head>
@@ -113,14 +111,14 @@
           <pb source="https://nakala.fr/10.34847/nkl.87411u9m#39e5f84a68e3ce39e304cbd8fda859988c52b39c" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.87411u9m/39e5f84a68e3ce39e304cbd8fda859988c52b39c/full/full/0/default.jpg"/>
           <p>L’abbaye dorénavant ne joue plus aucun rôle politique et ses finances sont épuisées à la suite de toutes ces guerres.</p>
         </div>
-        <div>
+        <div xml:id="r238282">
           <head rend="uc">Chapitre VI
            <lb/>Décadence de l’abbaye depuis la fin du <num>xiv<hi rend="sup">e</hi></num> siècle
            <lb/>jusqu’à sa sécularisation (1535)</head>
           <p>Graves désordres dans le monastère au temps de l’abbé Aumoin (1393-1409).</p>
           <p>Au <num>xv<hi rend="sup">e</hi></num> siècle, l’abbaye, entre les mains de la puissante famille des Jouviond, est dans une décadence profonde.</p>
         </div>
-        <div>
+        <div xml:id="r238311">
           <head rend="uc">Chapitre VII
            <lb/>Sécularisation de l’abbaye. Son histoire jusqu’à
            <lb/>sa suppression en 1791</head>
@@ -130,17 +128,17 @@
           <p>En 1786, le chapitre de la cathédrale de Limoges essaye de faire supprimer la collégiale. L’assemblée du clergé s’y refuse, mais la collégiale disparaît en 1791 par suite des décrets de la Constituante. Digne attitude de l’abbé et des chanoines en cette occurrence. La municipalité révolutionnaire fait transporter en grande pompe les reliques de saint Martial à l’église Saint-Michel des Lions.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r238335">
         <pb source="https://nakala.fr/10.34847/nkl.87411u9m#005a08941fead0f18cb7173e9ec714c5403c75c4" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.87411u9m/005a08941fead0f18cb7173e9ec714c5403c75c4/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Organisation intérieure de l’abbaye
          <lb/>et de la collégiale</head>
-        <div>
+        <div xml:id="r238350">
           <head rend="uc">Chapitre premier
            <lb/>l’abbé</head>
           <p>Mode de nomination. Généralement élu jusqu’au XV<hi rend="sup">e </hi>siècle. Nommé par le roi depuis le Concordat, mais toujours confirmé par l’évêque. Privilèges de l’abbé. Ses revenus.</p>
         </div>
-        <div>
+        <div xml:id="r238366">
           <head rend="uc">Chapitre II
            <lb/>Les différents offices du monastère
            <lb/>l’aumônier</head>
@@ -167,7 +165,7 @@
             <p>Institués par l’abbé Isembert au commencement du <num>xiii<hi rend="sup">e</hi></num> siècle. Ils concourent avec les moines à la célébration des offices, desservent des vicairies, servent de chapelains aux confréries de la basilique.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r238462">
           <head rend="uc">Chapitre III
            <lb/>Organisation de la collégiale</head>
           <p>La bulle de Paul III institue un abbé, un chantre, un prévôt, 18 chanoines, 12 vicaires, etc. Le gouvernement réel de la collégiale appartient non à l’abbé, mais au chapitre.</p>
@@ -177,7 +175,7 @@
             <p>D’après les chiffres officiels du <num>xviii<hi rend="sup">e</hi></num> siècle, le revenu de chaque chanoine n’est guère que de 150 livres par an ; en réalité, il en atteint près de 1,000. Mode de répartition des revenus de la collégiale entre les chanoines : 1° distribution hebdomadaire au chapitre ; 2° rentes fixes ou « gros ».</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r238493">
           <pb source="https://nakala.fr/10.34847/nkl.87411u9m#22e09f465b5cd1c4e08a407125ee62c468bc40c1" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.87411u9m/22e09f465b5cd1c4e08a407125ee62c468bc40c1/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Anniversaires et confréries</head>
@@ -185,10 +183,10 @@
           <p>Les confréries établies à la basilique de Saint-Martial remontent au <num>xii<hi rend="sup">e</hi></num> siècle et plusieurs ont subsisté jusqu’à la Révolution.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r238520">
         <head rend="uc">Troisième partie
          <lb/>Le temporel de l’abbaye</head>
-        <div>
+        <div xml:id="r238528">
           <head rend="uc">Chapitre premier
            <lb/>formation du patrimoine de l’abbaye. Sa gestion
            <lb/>au <num>xiii<hi rend="sup">e</hi></num> siècle</head>
@@ -197,14 +195,14 @@
           <p>Chaque prieuré, quasi indépendant, a une personnalité morale propre et paye à l’abbaye des redevances fixes ; pensions en argent, messages ou redevances en nature, servant à la pitance des moines.</p>
           <p>Répartition des revenus de l’abbaye entre les différents offices. Ceux-ci, à partir du <num>xiii<hi rend="sup">e</hi></num> siècle, ont une dotation propre et une personnalité morale. Ils deviennent indépendants les uns des autres et même de l’abbé.</p>
         </div>
-        <div>
+        <div xml:id="r238563">
           <pb source="https://nakala.fr/10.34847/nkl.87411u9m#957a8300e593973f3b578b097e4e5390b1461f88" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.87411u9m/957a8300e593973f3b578b097e4e5390b1461f88/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Causes de la dépréciation du patrimoine de l’abbaye</head>
           <p>Le patrimoine loin de s’accroître diminue beaucoup au <num>xiii<hi rend="sup">e</hi></num> siècle et surtout au <num>xiv<hi rend="sup">e</hi></num>. Les guerres anglaises dévastent le pays ; les censitaires ruinés payent difficilement leurs rentes, et l’esprit religieux s’affaiblissant, les églises reçoivent moins de donations.</p>
           <p>La fortune de l’abbaye est donc moins considérable au <num>xv<hi rend="sup">e</hi></num> siècle qu’au <num>xiii<hi rend="sup">e</hi></num>. De plus, l’affaiblissement de la valeur de la livre tournois et la diminution du pouvoir de l’argent réduisent de plus en plus tous les revenus payables en numéraire.</p>
         </div>
-        <div>
+        <div xml:id="r238607">
           <head rend="uc">Chapitre III
            <lb/>Comment l’abbaye put subsister jusqu’a la révolution
            <lb/>malgré la dépréciation du numéraire</head>
@@ -213,11 +211,11 @@
           <p>L’abbaye, néanmoins, est presque ruinée au XVIII<hi rend="sup">e </hi>siècle. Elle a sans cesse recours à des emprunts et en arrive à contracter des dettes nouvelles <pb source="https://nakala.fr/10.34847/nkl.87411u9m#6722e2931b29291abaeeb973e6117afa9e8109f6" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.87411u9m/6722e2931b29291abaeeb973e6117afa9e8109f6/full/full/0/default.jpg"/>pour payer les anciennes. En 1791, elle était tellement appauvrie, qu’elle n’aurait pas tardé à faire faillite, si elle n’avait été supprimée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r238655">
         <head rend="uc">Quatrième partie
          <lb/>Étude archéologique sur la basilique
          <lb/>et le monastère</head>
-        <div>
+        <div xml:id="r238665">
           <head rend="uc">Chapitre premier
            <lb/>histoire de la basilique du Sauveur</head>
           <p>La basilique du <num>ix<hi rend="sup">e</hi></num> siècle n’a pas subsisté, comme on l’a cru, jusqu’au <num>xviii<hi rend="sup">e</hi></num> siècle. Elle a été démolie au <num>xi<hi rend="sup">e</hi></num>. Dédicace d’une nouvelle basilique en 1028. Plusieurs incendies l’endommagent. L’abbé Adémar la restaure et la termine. Dédicace par Urbain II en 1096. Incendie de la nef en 1167. Grande restauration en 1479. Délabrement de la basilique au <num>xviii<hi rend="sup">e</hi></num> siècle. Grandes réparations en 1753 et 1769. Sa démolition lors de la Révolution.</p>
@@ -227,44 +225,44 @@
            <lb/>Plans, vues anciennes de la basilique, ses dimensions</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r238712">
           <head rend="uc">Chapitre III
            <lb/>Description de la basilique</head>
           <p>Plan cruciforme ; larges bas-côtés, bordant même les bras du transept. Cinq absidioles autour du chevet.</p>
           <p>Élévation de la basilique. Tribunes au-dessus des collatéraux ; voûte en berceau de la nef contrebutée par les voûtes en quart de cercle des bas-côtés. Au <num>xv<hi rend="sup">e</hi></num> siècle (?), on démolit la voûte romane pour percer des fenêtres, et on bâtit une voûte gothique.</p>
         </div>
-        <div>
+        <div xml:id="r238733">
           <pb source="https://nakala.fr/10.34847/nkl.87411u9m#5f76aee88a0d68fa7e5afaae48b0fa622e35e178" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.87411u9m/5f76aee88a0d68fa7e5afaae48b0fa622e35e178/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le clocher</head>
           <p>Etages inférieurs du <num>xi<hi rend="sup">e</hi></num> siècle, étages supérieurs reconstruits probablement après l’incendie de 1167. Couronnement refait en 1752 ; plan carré à la base ; octogone à partir du 3‘ étage. Des frontons triangulaires forment transition. Ils ont fait école en Périgord et dans le centre de la France.</p>
         </div>
-        <div>
+        <div xml:id="r238756">
           <head rend="uc">Chapitre V
            <lb/>À quelle école se rattache la basilique</head>
           <p>La basilique est un monument de style auvergnat qui dérive de Notre-Dame-du-Port. Quelques traces de l’influence poitevine apportée probablement par des moines de Saint-Savin.</p>
           <p>Le plan et les principes de construction de la basilique de Saint-Martial se retrouvent à Sainte-Foy de Conques et à Saint-Sernin de Toulouse.</p>
         </div>
-        <div>
+        <div xml:id="r238771">
           <head rend="uc">Chapitre VI
            <lb/>Diverses œuvres d’art ornant la basilique</head>
           <p>Tombeau du cardinal de Chanac, bâti à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle, démoli en 1753, rebâti en 1768. Chiche, etc.</p>
         </div>
-        <div>
+        <div xml:id="r238789">
           <head rend="uc">Chapitre VII
            <lb/>Crypte, Saint-Pierre du sépulcre, chapelle saint-benoit</head>
           <p>Une crypte renfermait le tombeau de saint Martial dès le temps de Grégoire de Tours et une chapelle était bâtie <pb source="https://nakala.fr/10.34847/nkl.87411u9m#91c243f1a61d7e2c62482aa50e796520613aee03" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.87411u9m/91c243f1a61d7e2c62482aa50e796520613aee03/full/full/0/default.jpg"/>au-dessus. Cette disposition est celle de toutes les confessions mérovingiennes. Deux autres cryptes existaient avant le <num>ix<hi rend="sup">e</hi></num> siècle à côté de celle où reposait saint Martial. L’une servait de chapelle, l’autre renfermait le tombeau de « Tève le Duc ».</p>
           <p>L’église Saint-Pierre du Sépulcre.</p>
           <p>La chapelle Saint-Benoît date du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r238824">
           <head rend="uc">Chapitre VII
            <lb/>Le monastère</head>
           <p>Le monastère a occupé deux emplacements différents : le plus ancien au sud de la basilique ; le plus moderne au nord. Les moines, au <num>xiii<hi rend="sup">e</hi></num> siècle probablement, abandonnent leur ancien monastère devenu trop étroit. L’ancien cloître est désaffecté et sert de marché aux grains. Le nouveau cloître commencé en 1240, fini vers 1299. L’aumônerie était séparée du monastère par une rue, au-dessus de laquelle était un pont faisant communiquer l’aumônerie et le monastère, d’où le nom actuel de la rue <hi rend="i">Pont-Hérisson.</hi></p>
           <p>Après la sécularisation, les bâtiments claustraux tombent en ruine faute d’entretien. En 1745, une partie d’entre eux sont démolis.</p>
           <p><hi rend="i">Cimetières de l’abbaye.</hi> – Le plus ancien situé au sud sur l’emplacement d’un cimetière gallo-romain et mérovingien ; le plus moderne au nord sur une partie de la place actuelle de la République.</p>
         </div>
-        <div>
+        <div xml:id="r238854">
           <head rend="uc">Chapitre IX
            <lb/>La bibliothèque</head>
           <p>Importance de la bibliothèque de l’abbaye, dont 200 manuscrits sont aujourd’hui conservés à la Bibliothèque Nationale.</p>

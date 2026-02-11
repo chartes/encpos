@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1998_35" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1998_35" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,22 +55,22 @@
         <surname>Veyssière</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1334797">
         <head rend="uc">Introduction</head>
         <p>L’emprise cistercienne, et surtout claravallienne, sur la chrétienté au <num>xii<hi rend="sup">e</hi></num> siècle est écrasante. Clairvaux a donné au inonde plusieurs dizaines d’abbayes de sa descendance, des milliers de moines blancs, des évêques et des cardinaux, un pape, Eugène III, et surtout un saint à la fois généreux et intransigeant : Bernard de Fontaine. Le nom de Clairvaux peut en effet difficilement être séparé de celui de Bernard.</p>
         <p>Cependant, si l’abbaye est déjà florissante lorsque le premier abbé disparaît, en 1153, son apogée économique, politique et littéraire se situe aux environs de 1200. Le corpus de textes présenté ici en est un des reflets. L’édition des chartes de Clairvaux entreprise en 1950 par Jean Waquet et poursuivie par Jean-Marc Roger en 1982, travail sagement limité au seul <num>xii<hi rend="sup">e</hi></num> siècle, est ici poursuivie et achevée. Les résultats présentés ainsi que les index concernent donc les cent cinquante-deux premiers actes, publiés par Waquet et Roger, et deux cent quatre-vingt-onze nouveaux actes édités en supplément.</p>
       </div>
-      <div>
+      <div xml:id="r1334822">
         <head rend="uc">Première partie
          <lb/>Les chartes de l’abbaye de Clairvaux</head>
-        <div>
+        <div xml:id="r1334830">
           <head rend="uc">Chapitre premier
            <lb/>histoire des archives de l’abbaye de Clairvaux</head>
           <p><hi rend="i">L’époque médiévale.</hi> – Durant le XII’ siècle, le bibliothécaire de Clairvaux s’appliqua à conserver les chartes obtenues par l’abbaye sans qu’un classement soit dressé. <pb source="https://nakala.fr/10.34847/nkl.c3e6l0oo#b89849fbc8dd3b97a8670152150cc70e249e5a7b" n="296" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3e6l0oo/b89849fbc8dd3b97a8670152150cc70e249e5a7b/full/full/0/default.jpg"/> Le premier classement des archives de l’abbaye remonte au <num>xiii<hi rend="sup">e</hi></num> siècle. Ce sont les deux cartulaires, conservés aux archives départementales de l’Aube sous les cotes 3 H 9 et 10, qui nous révèlent le cadre de classement. La rédaction de ces ouvrages s’est faite en plusieurs jets du début du <num>xiii<hi rend="sup">e</hi></num> siècle jusqu’à peu après 1260, les dernières dates mentionnées étant 1261 pour le premier volume et 1263 pour le second. On y a transcrit la très grande majorité des actes, répartis en vingt-sept subdivisions, correspondant à des centres d’exploitation (granges, celliers), à des natures de biens, à des biens affectés à une destination spéciale et à des princes donateurs. Il existe une copie plus tardive du second volume (Bibliothèque nationale de France, ms. lat. 10947), qui fut réalisée par un seul scribe au <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
           <p><hi rend="i">Du <num>xv<hi rend="sup">e</hi></num> au <num>xviii<hi rend="sup">e</hi></num> siècle.</hi> – A partir du <num>xvi<hi rend="sup">e</hi></num> siècle, le bibliothécaire de l’abbaye tenta de dresser un nouveau classement du fonds ancien, augmenté des actes des trois cents dernières années. La première trace de ce nouveau classement, topographique, date de 1544 et il fut enrichi au cours des deux siècles suivants. Malheureusement, la répartition par localités fut souvent hasardeuse, le plus important étant alors de faire entrer tous les actes dans un chapitre. Pour les bulles, un index fut rédigé vers 1519 par les frères Pierre d’Évreux et Pierre de Bar (bibliothèque municipale de Troyes, ms. 2617). Les bulles y sont rangées par ordre alphabétique des papes et sont, soit analysées, soit, si elles étaient considérées comme en trop mauvais état, recopiées intégralement. Les tentatives de classement du chartrier à partir de la fin du <num>xvii<hi rend="sup">e</hi></num> siècle sont nombreuses et toujours topographiques. Elles sont l’œuvre de Dom Mathurin Hénault, de Dom Jean Perron, de Dom Toussaint Perret et de Dom André Le Boullenger. A partir des mentions dorsales de cette époque portées sur les actes originaux du <num>xii<hi rend="sup">e</hi></num> siècle, on peut reconstituer le classement du <num>xviii<hi rend="sup">e</hi></num> siècle pour ces seuls actes.</p>
           <p><hi rend="i">De la Révolution à nos jours.</hi> – La Révolution entraîna un profond bouleversement du fonds. Après de nombreux déménagements et scissions, il fut réparti entre les archives départementales de l’Aube (sous-série 3 H), de la Côte-d’Or (sous-série 13 H), de la Haute-Marne (sous-série 13 H) ainsi que, pour plusieurs manuscrits, la Bibliothèque nationale de France et la bibliothèque municipale de Troyes.</p>
         </div>
-        <div>
+        <div xml:id="r1334916">
           <head rend="uc">Chapitre II
            <lb/>Examen statistique des chartes</head>
           <p><hi rend="i">Modes de tradition des actes.</hi> – Le recueil complet contient quatre cent quarante-trois actes. Parmi ceux-ci, trois cent neuf sont conservés actuellement en original (dont six doubles), soit 68,5 %. Pour le reste, le mode de tradition est divers : cartulaires médiévaux, manuscrits de la bibliothèque de Troyes, copies collationnées, etc. Ce nombre d’actes ne correspond pas au nombre réel de transactions passées, du fait de l’existence de pancartes regroupant plusieurs actes, dont certains n’ont pas fait par ailleurs l’objet d’une rédaction particulière. Après dénombrement des actes contenus dans les pancartes et élimination des doubles, le chiffre total (confirmations comprises) s’élève à mille trois cent cinquante-sept.</p>
@@ -82,13 +80,13 @@
           <p><hi rend="i">Répartition chronologique des actes.</hi> – La répartition chronologique des actes montre une évolution constante sur tout le <num>xii<hi rend="sup">e</hi></num> siècle. Mais seule une étude portant sur les <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles permettrait des conclusions significatives.</p>
           <p><hi rend="i">Les auteurs des actes.</hi> – La part des auteurs ecclésiastiques est écrasante : 77 % (deux cent dix-huit actes pour les seuls évêques de Langres, soit 49 %). Le reste se répartit entre les rois, les princes et les seigneurs régionaux.</p>
         </div>
-        <div>
+        <div xml:id="r1334982">
           <head rend="uc">Chapitre III
            <lb/>Observations diplomatiques</head>
           <p><hi rend="i">Éléments du discours diplomatique.</hi> – Sur les quatre cent trente-huit actes édités (les cinq faux étant mis à part), trente-six (8 %) commencent par une invocation verbale, surtout sous la forme trinitaire, dont six accompagnés d’une croix comme invocation symbolique. Les vingt-quatre préambules du recueil s’étalent sur l’ensemble du <num>xii<hi rend="sup">e</hi></num> siècle, ne montrant donc pas d évolution de cette pratique, et les auteurs des actes sont aussi nombreux chez les ecclésiastiques que chez les laïcs. On a souvent souligné l’aspect dépouillé des chartes cisterciennes, réduites à l’essentiel. Cependant, elles n’échappent pas à l’un des caractères les plus frappants des documents du <num>xii<hi rend="sup">e</hi></num> siècle : le grand nombre de personnes indiquées. Au contraire, même, il semble que les Cisterciens aient attaché une très grande importance à la présence de cette multitude de protagonistes : donateur, <hi rend="i">laudatores,</hi> témoins, etc.</p>
           <p><hi rend="i">La formulation de la date et le style chronologique.</hi> – Si l’on excepte les bulles pontificales, cent soixante et onze actes ne sont pas datés. Ce chiffre important tient au fait que les évêques de Langres, et principalement Godefroi et Gautier, ne semblent pas avoir toujours attaché beaucoup d’importance à la présence de la date au bas de leurs actes. Les actes datés le sont presque tous de l’année. Peuvent s’y ajouter d’autres indications. La référence au règne est la plus répandue mais aussi la plus générale (vingt-trois actes). Huit actes précisent le mois après la date et trois autres uniquement le jour de la semaine. Huit comportent le quantième, d’après le calendrier romain (calendes, nones et ides). Deux sont datés d’après des fêtes liturgiques. Enfin, plusieurs comportent l’indiction (trois), le concurrent et l’épacte (un seul) ou encore l’âge de la lune (un seul). Le style chronologique n’a pu être déterminé précisément même si, à la suite du R.P. Anselme Dimier, on peut supposer que Clairvaux utilisait probablement celui de la Circoncision (1<hi rend="sup">er</hi> janvier) ou de Noël (25 décembre). C’est pourquoi les actes sont édités en conservant, sauf exception, les dates en vieux style.</p>
         </div>
-        <div>
+        <div xml:id="r1335023">
           <pb source="https://nakala.fr/10.34847/nkl.c3e6l0oo#c3cee98011e09182dbd337c4e5b9f98deaba5ba6" n="298" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3e6l0oo/c3cee98011e09182dbd337c4e5b9f98deaba5ba6/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les pancartes cisterciennes : l’exemple claravallien</head>
@@ -98,11 +96,11 @@
           <p><hi rend="i">La filiation de Clairvaux.</hi>  – La diffusion de la pancarte claravallienne semble être double. D’une part, plusieurs abbayes champenoises ont utilisé cette technique durant le <num>xii<hi rend="sup">e</hi></num> siècle, conseillées (dans le cas des abbayes filles) ou influencées par Clairvaux. D’autre part, il apparaît qu’une seconde diffusion eut lieu par le biais de la filiation claravallienne, en dehors des limites de la Champagne. Une enquête serait nécessaire dans les fonds d’archives de ces abbayes afin de confirmer ces premières remarques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1335072">
         <pb source="https://nakala.fr/10.34847/nkl.c3e6l0oo#075c7825790d104d801695ffd4d23076c5942469" n="299" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3e6l0oo/075c7825790d104d801695ffd4d23076c5942469/full/full/0/default.jpg"/>
         <head rend="uc">Seconde partie
          <lb/>L’abbaye de Clairvaux au <num>xii<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r1335091">
           <head rend="uc">Chapitre premier
            <lb/>de Molesmes a Clairvaux</head>
           <p><hi rend="i">Les sources de l’histoire cistercienne.</hi> – Les textes cisterciens, traditionnellement nommés <hi rend="i">Monumenta,</hi> proposent des relations différentes de l’histoire cistercienne en fonction de l’époque et des lieux de rédaction. En premier lieu, les exordes (<hi rend="i">Exordium parvum, Exordium Cistercii, Exordium magnum</hi>) présentent le récit des origines. Puis, la <hi rend="i">Charte de charité</hi> propose l’idéal cistercien qui est d’assurer l’unité tant spirituelle que matérielle de l’ordre.</p>
@@ -110,7 +108,7 @@
           <p><hi rend="i">La réforme cistercienne.</hi> – En 1098 est fondé le monastère de Cîteaux, sous l’impulsion des trois réformateurs Robert de Molesmes, Aubry et Étienne Harding. Étienne, élu abbé en 1109, asseoit le Nouveau Monastère sur un domaine foncier nécessaire à son développement, grâce au concours du lignage féodal des Vergy. D’autre part, il fonde des abbayes filles de Cîteaux dès mai 1113. C’est lui qui accueille Bernard et ses compagnons au noviciat.</p>
           <p><hi rend="i">L’idéal cistercien.</hi> – Décrit et longuement développé dans la <hi rend="i">Charte de charité, </hi>1 idéal cistercien se veut fidèle à la règle bénédictine, en rupture avec les us clunisiens. L’abbé Étienne institue en outre un nouveau mode d’organisation. L’autonomie des monastères est sauvegardée malgré l’existence d’un pouvoir central. L’ordre se dote également d’un organe de direction, législateur et répressif, le Chapitre général. On trouve donc deux centres de pouvoir : à l’échelle locale l’abbé du monastère et à l’échelle universelle le Chapitre général, le tout étant coiffé par l’abbé des abbés, celui de Cîteaux. Cette constitution fédérale s’oppose à la monarchie clunisienne. La différence se poursuit dans le domaine financier : aucune redevance ne sera perçue ; au contraire, l’abbaye en difficulté, quelle que soit sa filiation dans 1 arbre cistercien, recevra une aide de la part des autres monastères de l’ordre.</p>
         </div>
-        <div>
+        <div xml:id="r1335146">
           <head rend="uc">Chapitre II
            <lb/>Histoire et temporel de l’abbaye</head>
           <p><hi rend="i">La fondation de Clairvaux.</hi> – La fondation de Clairvaux est liée à un lignage, comme le développement de Cîteaux l’était à celui des Vergy. Le caractère unique de cette fondation tient, d’une part, à cette empreinte familiale très marquée et, d’autre part, à la manière dont Étienne paraît en avoir abandonné la réalisation à Bernard et à ses compagnons, dont faisaient partie ses quatre frères, son oncle Gaudry de Touillon et son cousin Godefroi de La Roche-Vanneau. Confiant dans <pb source="https://nakala.fr/10.34847/nkl.c3e6l0oo#e58ebc0629ebc426a6bfd05e5d9e2fef5df9ab42" n="300" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3e6l0oo/e58ebc0629ebc426a6bfd05e5d9e2fef5df9ab42/full/full/0/default.jpg"/>la réussite de la fondation grâce aux attaches du groupe, il le laissa s’installer seul, non sans avoir auparavant, sans doute, donné des consignes à Bernard. Celui-ci les appliqua d’autant plus strictement qu’il était porté lui-même à une ascèse d’une rigueur sans précédent chez les Cisterciens. Le site avait été cédé par un autre parent, Josbert de Laferté. L’absence de vraie charte de fondation ne facilite pas la lecture des événements, mais, si Josbert n’a jamais fait preuve d’une grande piété envers Clairvaux, il est bien à l’origine de l’installation du monastère, pour des raisons essentiellement politiques : Clairvaux constitue un avant-poste des comtes de Champagne, face aux plateaux bourguignons.</p>
@@ -119,7 +117,7 @@
           <p>Les granges et les celliers deviennent la forme habituelle des exploitations cisterciennes, agricoles et industrielles, puisqu’elles modèlent aussi la gestion des forges et <pb source="https://nakala.fr/10.34847/nkl.c3e6l0oo#1b97aa06293117586c7c62951b3d1c1e8515e155" n="301" facs="https://api.nakala.fr/iiif/10.34847/nkl.c3e6l0oo/1b97aa06293117586c7c62951b3d1c1e8515e155/full/full/0/default.jpg"/> des salines. Les chartes permettent l’étude des origines de chaque grange, remettant en question l’historique du domaine foncier de Clairvaux.</p>
           <p><hi rend="i">Historiographie de Clairvaux au <num>xii<hi rend="sup">e</hi></num> siècle.</hi> – L’histoire de l’abbaye de Clairvaux depuis 1118 est bien connue. Une importante historiographie en a rendu compte depuis près d’un siècle, même si saint Bernard a souvent plus intéressé les chercheurs que le monastère. Il est vrai que les archives de Clairvaux paraissent inépuisables.</p>
         </div>
-        <div>
+        <div xml:id="r1335209">
           <head rend="uc">Chapitre III
            <lb/>Le personnel de l’abbaye de Clairvaux</head>
           <p><hi rend="i">Les abbés.</hi> – Les dix premiers abbés de Clairvaux sont Bernard de Fontaine, Robert de Bruges, Fastrède de Cambron, Geoffroi d’Auxerre, Ponce de Polignac, Gérard I<hi rend="sup">er</hi> de Fossanova, Henri de Marcy, Pierre le Borgne, Garnier de Rochefort et Guy.</p>
@@ -129,7 +127,7 @@
           <p><hi rend="i">Catalogue biographique.</hi> – Le catalogue biographique (partiel) de deux cent quatre-vingt-dix-sept moines et trente-deux convers de Clairvaux a été réalisé grâce aux chartes, aux <hi rend="i">epistole</hi> de saint Bernard, à ses <hi rend="i">vite</hi> et à la bibliographie. Il doit être soumis à une critique vigilante, certains noms n’étant cités que dans des récits hagiographiques. D’autre part, seuls les anonymes pour lesquels on conserve au moins un indice tangible sont présentés (ainsi, il faut ajouter pour le seul <hi rend="i">Exordium magnum</hi> trente-deux moines et treize convers anonymes acteurs dans des anecdotes, au moins deux moines dans la <hi rend="i">Vita prima,</hi> un chez Césaire de Heisterbach).</p>
           <p>D’autre part, il semble que l’abbaye de Clairvaux ait eu recours à des ministériaux mais les exemples sont fort rares, seuls trois ayant été repérés. Pour d’autres religieux (vingt-sept), les renseignements sont trop lacunaires pour assurer s’ils étaient moines ou convers ; c’est le cas notamment de la plupart des hommes qui entrent à Clairvaux en faisant des donations foncières. Les mentions du type « X <hi rend="i">frater</hi> » n’ont pas non plus été retenues.</p>
         </div>
-        <div>
+        <div xml:id="r1335312">
           <head rend="uc">Chapitre IV
            <lb/>Apports historiques</head>
           <p><hi rend="i">Godefroi de La Roche-Vanneau et Garnier de Rochefort, moines de Clairvaux et évêques de Langres.</hi> – Au-delà des principaux faits de la vie de Godefroi de La Roche-Vanneau et de Garnier de Rochefort, les chartes permettent d’en approfondir certains aspects. De 1128 à 1138, Godefroi dirigea effectivement Clairvaux pendant les absences de Bernard, imposant ses conceptions de gouvernement intérieur et, entre autres, le déménagement de l’abbaye. A cette date, il est élu évêque de Langres à la suite d’une intervention remarquée de Bernard. Il développe alors une politique, surtout matérielle, avantageuse pour Clairvaux. A un poste clef, et apparaissant comme le principal héritier de Bernard, Godefroi possède une aura puissante dans l’ordre cistercien et même au-delà, malgré des orientations bien différentes de celles de Bernard. Quittant sa fonction d’évêque, Godefroi revient à Clairvaux vers 1162-1163 pour y exercer un pouvoir vigoureux, imprimant à l’abbaye ses conceptions économiques modernistes.</p>
@@ -141,11 +139,11 @@
           <p>Cette privation de liberté est uniquement juridique et non économique. Elle est difficilement exprimable à partir des sources claravalliennes, car les statuts cisterciens ne prévoient pas l’emploi de séculiers ni <hi rend="i">a fortiori</hi> de non-libres, le convers remplaçant avantageusement le domestique des Bénédictins. Quelques rares exemples peuvent être relevés, mais sans qu’aucune conclusion soit possible.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1335421">
         <head rend="uc">Édition</head>
         <p>Édition critique de deux cent quatre-vingt-onze actes.</p>
       </div>
-      <div>
+      <div xml:id="r1335431">
         <head rend="uc">Annexes</head>
         <p>Compléments aux éditions de J. Waquet et J.-M. Roger. – Actes conservés à Clairvaux contenant des privilèges généraux accordés à l’ordre cistercien. – Actes conservés dans d’autres fonds concernant Clairvaux et ses abbayes filles. – La grange du Breuil. – Catalogue des sceaux. – Pièces justificatives. – Index.</p>
       </div>

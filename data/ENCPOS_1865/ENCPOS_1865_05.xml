@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1865_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1865_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,9 +62,9 @@
       <p>Il faut examiner successivement :</p>
       <p>I. Quelle en est, sous les Capétiens directs, l’origine et la composition.</p>
       <p>II. Quel en est le mode d’organisation et d’administration.</p>
-      <div>
+      <div xml:id="r52993">
         <head rend="uc">Première partie.</head>
-        <div>
+        <div xml:id="r52999">
           <head rend="uc">Origine et composition.</head>
           <p>1° On peut, en se mettant à un point de vue général, trouver des <hi rend="i">finances publiques</hi> dans chacun des domaines où le seigneur <pb source="https://nakala.fr/10.34847/nkl.ce9f29yh#63e49b0f84e6948c530b4809f69a054854f41b5e" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.ce9f29yh/63e49b0f84e6948c530b4809f69a054854f41b5e/full/full/0/default.jpg"/> exerçait, au moyen âge, une partie des droits régaliens.</p>
           <p>2° Les habitants des seigneuries ont dû successivement aux seigneurs :</p>
@@ -80,9 +78,9 @@
           <p>7° Le droit de tailler, qu’on peut faire synonyme du droit de lever un impôt, était un droit régalien et n’appartenait qu’au seigneur haut-justicier.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r53054">
         <head rend="uc">Deuxième partie.</head>
-        <div>
+        <div xml:id="r53060">
           <head rend="uc">Organisation et administration
            <lb/>dans les domaines royaux surtout.</head>
           <p>1° Les officiers royaux, chargés de réclamer les services et de percevoir les redevances, tant en nature qu’en argent, étaient à l’origine les baillis ou sénéchaux.</p>

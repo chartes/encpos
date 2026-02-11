@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,22 +56,22 @@
         <surname>Dubois</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1027200">
         <head rend="uc">Sources</head>
         <p>Les sources principales sont dispersées dans le fonds ancien des Archives nationales, en particulier dans la série S et dans les séries et sous-séries H<hi rend="sup">3</hi>, H<hi rend="sup">5</hi>, J, JJ, K, KK, L, LL, M, MM, 0<hi rend="sup">1</hi>, X, Y et Z<hi rend="sup">1h</hi>. Les Archives de l’Assistance publique à Paris ont fourni de nombreux renseignements. Quelques documents conservés aux Archives de la Ville de Paris, à la Bibliothèque nationale et à la Bibliothèque historique de la Ville de Paris complètent ces fonds.</p>
         <p>Ces sources concernent les biens (titres de propriété, censiers, registres de compte et de saisine, pièces du contentieux), ainsi que les habitants eux-mêmes (procès, lettres de rémission).</p>
         <p>L’essentiel de la documentation iconographique est postérieur au <num>xv<hi rend="sup">e</hi></num> siècle. Les plans utilisés proviennent en partie de la série N des Archives nationales. Les plans parcellaires les plus intéressants sont celui de Verniquet et celui que Berty a fait graver en annexe à la <hi rend="i">Topographie historique du Vieux-Paris.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1027241">
         <head rend="uc">Introduction</head>
         <p>L’île de la Cité n’a pas encore atteint à la fin du Moyen Âge sa superficie actuelle : les bras d’eau qui la séparent de l’archipel situé à l’emplacement de la place Dauphine ne sont pas comblés et la proue du vaisseau n’est encore qu’une langue de terre instable. L’île, à fleur d’eau, est exposée périodiquement aux crues de la Seine. Elle est reliée aux deux rives, « Ville » et « Université », par des ponts dont le nombre passe de trois à cinq au cours du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         <pb source="https://nakala.fr/10.34847/nkl.2ecf0cow#fa73d5c7ed96c19fb407ba2d91a4b0d2e754961c" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.2ecf0cow/fa73d5c7ed96c19fb407ba2d91a4b0d2e754961c/full/full/0/default.jpg"/>
         <p>La « Cité » est divisée en trois zones symbolisant chacune un des aspects de la capitale : à l’ouest, le Palais, siège de l’administration royale ; à l’est, l’ensemble ecclésiastique et hospitalier autour de Notre-Dame ; au centre enfin, un quartier d’habitation, dans un périmètre de onze hectares et demi. Laissant de côté les deux premiers ensembles connus par des études antérieures, la thèse porte sur le centre urbain, dont l’histoire, aux <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles, n’avait pas encore été abordée. Elle commence avec les travaux entrepris au Palais par Philippe IV le Bel et s’achève sur l’abandon de Paris à la mort de Charles VI.</p>
       </div>
-      <div>
+      <div xml:id="r1027277">
         <head rend="uc">Première partie
          <lb/>Les structures</head>
-        <div>
+        <div xml:id="r1027285">
           <head rend="uc">Chapitre premier
            <lb/>le cadre administratif</head>
           <p>Le centre urbain est morcelé en trente-cinq censives tant ecclésiastiques que laïques, toutes formées antérieurement au <num>xiii<hi rend="sup">e</hi></num> siècle. Elles relèvent de communautés ou de familles qui ont possédé primitivement un établissement dans l’île. Par la superficie qu’elles occupent, les censives ecclésiastiques l’emportent sur les censives laïques ou « fiefs » bourgeois. Le dernier alleu, représenté par une parcelle unique, disparaît au début du <num>xiv<hi rend="sup">e</hi></num> siècle. Vingt-cinq censives comptent moins de dix parcelles. Seules les censives de Saint-Éloi, de Sainte-Geneviève-du-Mont, du roi, de Notre-Dame et des Haudriettes comportent plus de vingt parcelles ; celle de Saint-Éloi couvre le tiers de l’île. Aucune n’est d’un seul tenant. Elles forment une mosaïque et ne cessent d’empiéter les unes sur les autres, mais sans modification notable au <num>xiv<hi rend="sup">e</hi></num> siècle, si ce n’est l’absorption de la censive laïque de Paloisel par celle de Notre-Dame.</p>
@@ -84,7 +82,7 @@
           <p>Le « quartier » est la structure la plus récente. Sa fonction défensive le met en valeur dès le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle à Paris, mais les îliens, bien à l’abri au centre de la ville, dédaignent encore cette organisation au début du <num>xv<hi rend="sup">e</hi></num> siècle. La Cité dans son ensemble forme à elle seule un quartier divisé en quatre cinquantaines et en dizaines. D’après les quelques renseignements topographiques recueillis, les dizaines ne coïncident avec aucune des divisions administratives antérieures et sont réparties de telle sorte que chaque cinquantaine a un accès à la Seine.</p>
           <p>Ces divisions foncières, judiciaires, ecclésiastiques et militaires existent dans tout Paris, mais leur enchevêtrement fait de la Cité un quartier unique dans la capitale.</p>
         </div>
-        <div>
+        <div xml:id="r1027353">
           <head rend="uc">Chapitre II
            <lb/>Le cadre topographique</head>
           <p>A la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, le centre de l’île est entièrement bâti. Les voies de communication représentent un cinquième de la surface occupée. Le réseau s’ordonne autour d’un axe nord-sud (la Juiverie) coupé par quatre axes est-ouest. Sur ces axes se greffe tout un lacis de rues s’élargissant parfois en « places », de ruelles, et de « ruelles sans chief » (impasses), publiques, et d’« allées », privées. Seule la rue Neuve-Notre-Dame, percée un siècle auparavant, tranche sur ce fond par son aspect rectiligne. L’influence de l’enceinte gallo-romaine est prépondérante : les voies est-ouest les plus proches de la rive correspondent aux chemins de ronde de l’ancien rempart, et les deux « carrefours » de la Cité, celui de Marché-Palu et celui de la Lanterne, aux deux portes ; l’appellation « rue » est limitée aux voies situées dans le périmètre intérieur, et les accès aux ponts ou à la Seine sont appelés « ponts » ou « ruelles ». Deux ports au nord-est de l’île, séparés au sud par un pâté de maisons mais se confondant sur la berge, complètent les éléments du réseau de communication. Seules quelques modifications de détail interviennent au cours du <num>xiv<hi rend="sup">e</hi></num> siècle : léger report à l’est de l’axe de la Barillerie et fermeture de quelques ruelles, consécutifs à l’agrandissement du Palais ; percement d’une ancienne impasse et de quelques allées.</p>
@@ -95,10 +93,10 @@
           <p>En dépit de ces gains sur les terrains ecclésiastiques, l’aire de construction reste de sept hectares et demi et le nombre des parcelles est même passé de 448 vers 1300 à 429 au début du <num>xv<hi rend="sup">e</hi></num> siècle. En effet, l’agrandissement du Palais interdit toute avancée de l’espace bâti à l’ouest de l’île ; l’Hôtel-Dieu gagne du terrain et les tentatives de progression se heurtent, à l’est, au cloître Notre-Dame. Les maisons couvrent en moyenne une superficie de 150 mètres carrés. Le nombre des places inhabitées représente entre 5 et 10 % du nombre des parcelles. En 1360, ce phénomène touche 25 % de l’île. La régression de l’espace bâti s’accentue encore au début du <num>xv<hi rend="sup">e</hi></num> siècle. En 1421, les terrains vagues représentent plus du tiers de l’île. Les structures administratives et topographiques survécurent cependant à cette secousse temporaire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1027419">
         <head rend="uc">Deuxième partie
          <lb/>L’habitat</head>
-        <div>
+        <div xml:id="r1027427">
           <head rend="uc">Chapitre premier
            <lb/>l’aspect résidentiel</head>
           <p>Les bâtiments sont désignés sous les noms de « maisons » et d’« hôtels ». Ce deuxième terme apparaît vers 1320 et devient dans l’île synonyme de maison. L’expression « maisons entretenantes » s’applique à plusieurs bâtiments réunis et reliés entre eux par un même propriétaire, ou à une seule maison divisée en deux parties. Une fraction du bâtiment peut être indépendante du logis principal (« étage » = appartement ; « chambre » = pièce) et louée (« louages »). Les maisons vides et en ruine sont appelées « masures » ou « places vides » selon leur <pb source="https://nakala.fr/10.34847/nkl.2ecf0cow#128c2ea63b9625451d943680f4f3554985c0f958" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.2ecf0cow/128c2ea63b9625451d943680f4f3554985c0f958/full/full/0/default.jpg"/>degré de délabrement. Les maisons de l’île ne présentent pas de caractères originaux par rapport aux maisons parisiennes de la même époque. Quelques hôtels de pierre neufs et vastes, entourés d’une enceinte (hôtel de l’Image Sainte-Catherine) se détachent sur l’ensemble des maisons courantes, de dimension et de hauteur variées. On retrouve les mêmes constructions mi-pierre, mi-bois, s’élevant en général sur deux niveaux sous un comble ; la même disposition en profondeur ; le même plan simple, d’une ou deux pièces à destination interchangeable au-dessus d’une cave ou d’un cellier ; les mêmes courettes, seuls espaces vides au début du <num>xiv<hi rend="sup">e</hi></num> siècle mais où se multiplient peu à peu les annexes.</p>
@@ -106,7 +104,7 @@
           <p>La multiplication des lieux d’aisance dès le début du <num>xiv<hi rend="sup">e</hi></num> siècle dénote un certain souci d’hygiène, mais l’adduction d’eau est inexistante. L’inertie face à l’accumulation des immondices est la règle ; humains et animaux se côtoient dans un espace de plus en plus restreint. Les problèmes de mitoyenneté et de servitudes inhérents à cette promiscuité gagnent en acuité au cours du siècle et aucune clause préalable ne peut empêcher l’augmentation du nombre des procès dont la durée met les maisons en danger.</p>
           <p>Les quelques mesures préventives sont prises au niveau de la prévôté de Paris ; il n’existe pas de solutions propres à la Cité.</p>
         </div>
-        <div>
+        <div xml:id="r1027465">
           <head rend="uc">Chapitre II
            <lb/>L’exploitation immobilière</head>
           <p>L’occupation de l’île étant très ancienne, les tenures à cens se font rares dès la fin du <num>xiii<hi rend="sup">e</hi></num> siècle et les propriétaires se dégagent peu à peu de l’influence des censiers. Ceux-ci se bornent à percevoir un cens récognitif annuel et des taxes de mutation lors des changements de main à titre onéreux. Si l’échelle des cens varie avec le censier, il reste très modique, de l’ordre du sou dans 90 % des cas. Les « ventes » sont officiellement fixées à 1/12 du prix de vente ; certains censiers consentent des rabais, de plus en plus nombreux et importants à partir de 1360. Ces remises ne sont jamais régulières : les « ventes » oscillent entre 1/15 et moins de 1/30 du prix de vente. Le seigneur conserve également le droit de consentir ou de refuser l’amortissement d’un bien acquis par une personne morale, mais l’amortissement, demandé dans les règles, devient une simple formalité onéreuse ; il est accordé contre une rente par les communautés ecclésiastiques, contre une somme d’argent par le roi. Les redevances seigneuriales ne grèvent jamais la propriété au point d’entraver la jouissance du censitaire.</p>
@@ -118,11 +116,11 @@
           <p>Le temps d’occupation de chaque maison par une même personne ou une même famille est relativement réduit : les occupants se succèdent à raison d’un tous les onze ans en moyenne. La transmission par héritage ne représente que 30 % des cas de cession et il est exceptionnel qu’un bien reste plus de deux générations aux mains d’une même famille. Le renouvellement de la population est donc rapide, d’autant que la plupart des vendeurs ne se contentent pas de déménager dans une autre maison de l’île mais disparaissent complètement de la Cité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1027519">
         <pb source="https://nakala.fr/10.34847/nkl.2ecf0cow#0aeeb801f80ac3ef79cba9d5c80931d22eaf9d9e" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.2ecf0cow/0aeeb801f80ac3ef79cba9d5c80931d22eaf9d9e/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Conditions et métiers</head>
-        <div>
+        <div xml:id="r1027532">
           <head rend="uc">Chapitre premier
            <lb/>topographie de la résidence</head>
           <p>La proportion des ecclésiastiques dans la Cité ne dépasse pas 20 % de la population. Séculiers et réguliers provinciaux ne dédaignent pas d’acquérir une résidence dans la Cité et séjournent souvent à Paris à partir de 1360 quand le roi et son entourage viennent s’y fixer. Sans compter les desservants des paroisses qui forment un noyau stable, les deux tiers des ecclésiastiques îliens sont des chanoines de Notre-Dame et des prêtres-bénéficiers en cette église qui n’ont pu obtenir une maison canoniale, ou des clercs exerçant une fonction au Parlement. Ils louent des propriétés du chapitre ou possèdent une maison à titre individuel. Le collège des Dix-huit, deux écoles élémentaires (Notre-Dame puis Saint-Christophe) et quelques écoliers constituent les seuls liens de l’île avec la rive gauche universitaire. Les curés logent dans des presbytères proches des églises paroissiales et l’obligation de faire amortir leurs hôtels restreint les possibilités d’acquisition des communautés ; en revanche, la majorité des ecclésiastiques sont regroupés dans le tiers oriental de l’île à proximité du cloître.</p>
@@ -130,7 +128,7 @@
           <p>Le Palais attire une part notable des nobles et des ecclésiastiques mais officiers et hommes de loi représentent tout au plus un cinquième de la population îlienne, et ceci seulement au début du <num>xv<hi rend="sup">e</hi></num> siècle. Les gens du Palais ont été les premiers à s’installer dès 1340 ; si les gens de finances et de l’Hôtel sont à peu près absents, on trouve des officiers de tous les niveaux, du président de la Grand-Chambre à l’huissier. Tous marquent une certaine préférence pour le nord-est de la Cité. Parmi les gens de la Prévôté et de la Ville, seuls les notaires, les avocats et les procureurs au Châtelet semblent avoir affectionné l’île, où ils côtoient leurs homologues du Parlement à partir des années 1370. Tout aussi nombreux, les hommes de loi attachés à l’Official sont concentrés au sud-est près de l’évêché. Les sergents, instruments de ces différentes juridictions, habitent la Cité tout au long du siècle ; les sergents du Châtelet supplantent dès les années 1300 les sergents de l’évêque et du chapitre. Ils peuvent exercer un métier annexe et sont disséminés dans l’île tout entière.</p>
           <p>L’attraction du cloître joue pour beaucoup dans le choix de la résidence. Ecclésiastiques et hommes de loi se groupent pour former un îlot « intellectuel » au nord-est de l’île.</p>
         </div>
-        <div>
+        <div xml:id="r1027559">
           <pb source="https://nakala.fr/10.34847/nkl.2ecf0cow#39dc341c093a046eafb4f0188386282a334a9779" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.2ecf0cow/39dc341c093a046eafb4f0188386282a334a9779/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Topographie des activités</head>
@@ -143,11 +141,11 @@
           <p>Les quelques échevins îliens sont des drapiers, des familles Saint-Benoit ou Marcel. Les marguilliers sont choisis parmi toutes les catégories socioprofessionnelles des paroisses.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1027618">
         <head rend="uc">Conclusion</head>
         <p>Avec ses 3 à 5 000 habitants, le centre de l’île de la Cité est un des quartiers de la capitale où la population est la plus dense. Son rôle de carrefour, l’ancienneté de son occupation et la proximité des deux pôles d’attraction que sont le Palais et le Cloître en font un quartier original, tourné vers la satisfaction de deux clientèles, l’une sédentaire, l’autre administrative et de passage.</p>
       </div>
-      <div>
+      <div xml:id="r1027628">
         <head rend="uc">Annexes
          <lb/>plan de restitution et notices</head>
         <p>Cette étude a été menée à partir de l’ensemble des données replacées dans leur contexte topographique : tous les renseignements recueillis ont été recoupés pour reconstituer l’histoire et la géographie des parcelles. A chacune de celles-ci correspond une notice de la « matrice cadastrale » comportant l’adresse, le nom des propriétaires et des habitants successifs, l’analyse rapide des sources utilisées.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1922_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <forename>Martial</forename>
         <surname>Griveaud</surname>
       </byline>
-      <div>
+      <div xml:id="r414163">
         <head rend="uc">Introduction</head>
         <p>Le collège de Saint-Martin-du-Mont, dit vulgairement le Plessis, et à partir de 1646, le Plessis-Sorbonne, à cause de son union à cette maison, méritait d’être étudié.</p>
         <p>Il fut en effet, au <num>xvii<hi rend="sup">e</hi></num> et au <num>xviii<hi rend="sup">e</hi></num> siècles, l’un des dix collèges de Paris, où l’enseignement de la grammaire, des humanités et de la philosophie, se donnait à l’intérieur même de ces maisons, sans que l’on fût obligé de conduire les élèves suivre les classes d’autres collèges, et que l’on appelait pour cela collèges de plein exercice.</p>
@@ -69,16 +67,16 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r414220">
         <head rend="uc">Première période
          <lb/>(1318-1646)</head>
-        <div>
+        <div xml:id="r414228">
           <head rend="uc">Chapitre premier
            <lb/>le fondateur et la fondation</head>
           <p>Les origines de Geoffroy du Plessis, fondateur du collège, sont obscures. Il n’est pas prouvé qu’il descende de la famille bretonne des Plessis Balisson, des environs de Dinan ; les textes le désignent simplement sous le nom de Geoffroy du Plessis, sans plus. Il était, en tout cas, certainement du diocèse de Saint-Malo. Il dut venir à Paris, dans sa jeunesse, pour y étudier le droit canon et eut comme protecteur le cardinal Cholet, qui l’introduisit sans doute dans les affaires. En 1295, il paraît dans les textes, « comme notaire public par autorité apostolique » à la cour de France. A la fin de 1303 ou au commencement de 1304, au titre de chancelier de l’Église de Paris, il ajoute celui de « protonotaire apostolique » et de « protonotaire de France ». Personne agréable au pape et au roi, protégé spécialement par Philippe le Bel, il fut l’un des agents qui, à cette époque, firent constamment la navette entre la cour de France et la cour pontificale. Il assista au concile de Pérouse, qui aboutit à l’élection de Clément V, fut employé aux négociations engagées par le roi à l’occasion du procès contre la mémoire de Boniface VIII. Son nom paraît au procès des Templiers. Il fut l’un des commissaires désignés peur examiner la validité du mariage de Charles IV avec Blanche de Bourgogne et fut comblé de faveurs par Jean XXII.</p>
           <p>Dès 1312, Geoffroy du Plessis se proposait d’établir de pauvres maîtres et écoliers dans sa maison de la rue Saint-Jacques. Il est possible que la fondation ait été faite avant <pb source="https://nakala.fr/10.34847/nkl.f80e6i4h#dc110fe343d5375b4573560a991941e78dc95a15" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.f80e6i4h/dc110fe343d5375b4573560a991941e78dc95a15/full/full/0/default.jpg"/>1317 ; en tout cas, il obtint seulement en 1318, des chanoines de Sainte-Geneviève, avec l’amortissement, le droit de transférer à ses écoliers cette maison, qui se trouvait dans la censive de l’abbaye. L’existence du collège, en février et en mai 1319, ne fait aucun doute. Mais l’acte officiel de donation est seulement du 2 janvier 1322 et fut confirmé par le pape Jean XXII, le 30 juillet 1326. Le 30 mars, Geoffroy était moine de Marmoutier. Il devait mourir entre le 14 août 1332 et le 11 décembre 1335.</p>
         </div>
-        <div>
+        <div xml:id="r414248">
           <head rend="uc">Chapitre II
            <lb/>Le personnel</head>
           <p>Geoffroy du Plessis avait, en 1322, confié le soin de diriger sa maison à plusieurs supérieurs majeurs : aux évêques d’Évreux et de Saint-Malo, à l’abbé de Marmoutier, au chancelier de l’Église de Paris et à leurs successeurs. Dans son testament de 1332, il confia ce soin uniquement à l’abbé de Marmoutier et laissait seulement aux évêques le droit de nomination à certaines bourses. L’abbé de Marmoutier édictait des statuts pour le collège, visitait et réformait celui-ci, veillait sur la haute discipline, faisait la collation des bourses et désignait le grand maître.</p>
@@ -87,7 +85,7 @@
           <p>Dès 1455, à côté des boursiers, pauvres écoliers logés et. instruits gratuitement au collège, les statuts avaient permis que des hôtes vinssent y loger, moyennant le paiement d’une pension, et pourvu qu’ils se soumissent aux statuts.</p>
           <p>En 1556, un véritable pensionnat était établi au Plessis. Le <pb source="https://nakala.fr/10.34847/nkl.f80e6i4h#eca324111aa1091d53eecc9b06c7fbf9c53ae5e3" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.f80e6i4h/eca324111aa1091d53eecc9b06c7fbf9c53ae5e3/full/full/0/default.jpg"/> collège, pourvu au <num>xvi<hi rend="sup">e</hi></num> siècle, des régents les plus fameux de l’Université, périclita, à partir de 1617 jusqu’en 1646, par le fait de principaux sans scrupule, qui ne les payaient plus ou les payaient mal. En 1644, les régents étaient réduits à 5, les pensionnaires se raréfiaient ; il n’y avait plus que six boursiers.</p>
         </div>
-        <div>
+        <div xml:id="r414283">
           <head rend="uc">Chapitre III
            <lb/>La vie matérielle</head>
           <p>Geoffroy du Plessis avait fait des pauvres maîtres et écoliers ses héritiers universels. Ses biens meubles servirent surtout à acquitter ses dettes. Ses biens immeubles consistaient en maisons et dépendances, sises à Paris, entre la rue Froidmanteau, la rue Chartière, et la rue Saint-Jacques dont il devait céder, en 1328, une partie au collège régulier de Marmoutier, qu’il instituait à côté du premier ; en domaines et terres à Sainneville (bailliage de Caux), au Plessis (bailliage de Coutances), au Mont-Gif et à Vanves (diocèse de Paris), et à Évry-en-Brie ; en droits à percevoir sur le péage de Melun.</p>
@@ -95,7 +93,7 @@
           <p>Les boursiers, logés et instruits gratuitement, recevaient pour chaque semaine des bourses de, 2, 4, 6 et 8 sous parisis, portées en 1528 à 26 livres par an et qui devaient servir en principe à leur nourriture et à leur vêtement. Les revenus qui s’élevaient à environ 500 livres tournois, en 1332, se trouvaient réduits, en 1455, à 150 livres à peine. Le collège, dans, un état voisin de la misère, dut réduire le nombre des boursiers, et admettre au collège des écoliers payant pension. Le testament de Noël Mesleau vint, au début du <num>xvii<hi rend="sup">e</hi></num> siècle, remonter un peu l’état de la maison.</p>
           <p>En 1556, une communauté de pensionnaires s’étant établie au collège, les boursiers cédèrent par bail à un principal les revenus des loyers des chambres et des locaux du collège, pour l’entretien des régents et des enfants. Dans la première moitié du <num>xvii<hi rend="sup">e</hi></num> siècle, les revenus étaient fort mal administrés par le principal et les locaux du collège tombaient en ruine.</p>
         </div>
-        <div>
+        <div xml:id="r414316">
           <pb source="https://nakala.fr/10.34847/nkl.f80e6i4h#a207d100a5534623b4bc8abb4b5ca6693b15bcbd" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.f80e6i4h/a207d100a5534623b4bc8abb4b5ca6693b15bcbd/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>La vie intellectuelle</head>
@@ -106,7 +104,7 @@
           <p>En 1556, nous voyons établie au Plessis, une pédagogie composée d’élèves, distribués en huit classes et étudiant l’ancien programme de la Faculté des Arts, renouvelé par la Renaissance.</p>
           <p>A partir des premières années du <num>xvii<hi rend="sup">e</hi></num> siècle, l’exercice des bonnes lettres, sans cesser tout à fait, s’y donna d’une façon moins régulière et souvent incompléte.</p>
         </div>
-        <div>
+        <div xml:id="r414354">
           <pb source="https://nakala.fr/10.34847/nkl.f80e6i4h#bf7fa134189f95412946657dd78679dc6ad25f02" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.f80e6i4h/bf7fa134189f95412946657dd78679dc6ad25f02/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>La vie religieuse et morale</head>
@@ -118,18 +116,18 @@
           <p>Au début du <num>xvii<hi rend="sup">e</hi></num> siècle, le principal laisse, par sa négligence, s’émousser la discipline.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r414405">
         <pb source="https://nakala.fr/10.34847/nkl.f80e6i4h#146c66a677a2040dc12552fa3962d6ea42211b05" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.f80e6i4h/146c66a677a2040dc12552fa3962d6ea42211b05/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième période
          <lb/>(1646-Révolution)</head>
-        <div>
+        <div xml:id="r414418">
           <head rend="uc">Chapitre premier
            <lb/>union du collège avec la Sorbonne</head>
           <p>Au commencement du <num>xvii<hi rend="sup">e</hi></num> siècle, le collège du Plessis se trouvait dans un état misérable, tant au point de vue intellectuel et moral qu’au point de vue matériel. Il était endetté. Les bâtiments, fort vieux, tombaient en ruines. La situation semblait insoluble, quand une circonstance heureuse arrangea tout. Le cardinal de Richelieu avait chargé ses héritiers de reconstruire le collège de Calvy, qu’il avait fait abattre pour élever l’église de la Sorbonne. Les héritiers, pour diminuer leurs frais, préférèrent relever le collège du Plessis et firent une transaction à ce sujet avec la Sorbonne.</p>
           <p>L’abbé de Marmoutier, neveu du cardinal, consentit le 3 juin 1646, à l’union du collège du Plessis avec la Sorbonne, à condition que celle-ci en relevât les bâtiments et y fît refleurir l’exercice des bonnes lettres. Le roi approuva le projet par lettres patentes d’octobre 1646.</p>
           <p>Sous l’habile direction de la Sorbonne, le Plessis devait non seulement se relever, mais atteindre, au <num>xvii<hi rend="sup">e</hi></num> et au XVIII<hi rend="sup">e </hi>siècles, une prospérité qu’il n’avait pas encore connue.</p>
         </div>
-        <div>
+        <div xml:id="r414452">
           <head rend="uc">Chapitre II
            <lb/>Le personnel</head>
           <p>La Sorbonne avait la haute direction du collège, par le moyen de quatre docteurs, pris dans son sein, qu’elle députait pour le visiter et pour entendre les comptes Le principal et le procureur, docteurs de Sorbonne, étaient élus par elle et veillaient pour elle au bon ordre et à la discipline.</p>
@@ -141,7 +139,7 @@
           <p>Les familles les plus haut placées de Paris et de la province envoyaient au Plessis leurs enfants.</p>
           <p>Rollin, Lebeau, Antoine Thomas y furent élèves. Rollin y professa.</p>
         </div>
-        <div>
+        <div xml:id="r414493">
           <head rend="uc">Chapitre III
            <lb/>La vie matérielle</head>
           <p>Le collège qui tombait en ruines, fut reconstruit, de 1650 à 1674, sur les plans de Le Mercier. Sa belle ordonnance frappait les contemporains.</p>
@@ -150,7 +148,7 @@
           <p>Le principal contractait avec la Sorbonne des baux, de 4.300 à 5.710 livres ; moyennant quoi, il pouvait percevoir les pensions des précepteurs et des pensionnaires, à charge de loger les régents, précepteurs et pensionnaires, de donner un traitement convenable aux régents et de nourrir les écoliers. Le prix de la pension, en 1787, était de 650 livres par an ; les parents devaient fournir le lit et entretenir le linge.</p>
           <p>Les pensionnaires, logés en chambres particulières, s’ils étaient fortunés, ou en chambres communes, soumis à un règlement assez sévère, quant au lever et au coucher, trou<pb source="https://nakala.fr/10.34847/nkl.f80e6i4h#306ad916f3f910c6c8b5024b430934d0f5ed7dca" n="67" facs="https://api.nakala.fr/iiif/10.34847/nkl.f80e6i4h/306ad916f3f910c6c8b5024b430934d0f5ed7dca/full/full/0/default.jpg"/>valent dans la maison, aux pièces vastes et aérées, des conditions favorables au développement de leur santé grâce aux repas, aux congés, aux promenades, aux vacances sagement organisés.</p>
         </div>
-        <div>
+        <div xml:id="r414522">
           <head rend="uc">Chapitre IV
            <lb/>La vie intellectuelle</head>
           <p>Les classes partaient de la 7<hi rend="sup">e</hi> pour aboutir aux deux classes de philosophie : la logique et la physique. Jusqu’à la philosophie exclusivement, l’étude des langues anciennes y était prépondérante, le latin en particulier.</p>
@@ -164,7 +162,7 @@
           <p>Des exercices publics, des compositions et des concours divers, en excitant l’émulation des élèves, doublaient leur effort.</p>
           <p>Les études jetèrent, au Plessis, aux <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles, un vif éclat ; de 1765 à 1792, il eut sans conteste le premier rang, au concours général, établi entre les grands collèges de Paris.</p>
         </div>
-        <div>
+        <div xml:id="r414593">
           <head rend="uc">Chapitre V
            <lb/>La vie religieuse et morale</head>
           <p>L’éducation morale était en fonction de l’éducation religieuse. L’enseignement religieux était donné par des catéchismes, obligatoires pour tous, par des instructions et des sermons, par des exercices de mémoire pris parmi des textes de l’Écriture Sainte.</p>
@@ -173,14 +171,14 @@
           <p>L’éducation morale était complétée par l’éducation politique et même par l’éducation mondaine, que les pièces de théâtre offraient aux maîtres l’occasion de donner à leurs élèves.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r414615">
         <pb source="https://nakala.fr/10.34847/nkl.f80e6i4h#daf80e7bebe17b94190c8e8e05c1e0acc9c97b4e" n="69" facs="https://api.nakala.fr/iiif/10.34847/nkl.f80e6i4h/daf80e7bebe17b94190c8e8e05c1e0acc9c97b4e/full/full/0/default.jpg"/>
         <head rend="uc">Troisième période
          <lb/>Révolution</head>
         <p>La Révolution n’apporta pas grand changement dans l’organisation du collège, jusqu’à la suppression de la Sorbonne le 5 avril 1792.</p>
         <p>Le collège subsista, grâce aux lois des 8 mars, 23 mai et 4 septembre 1793, qui déclarèrent l’enseignement provisoirement maintenu. Le département de Paris dut pourvoir aux besoins de ses collèges.</p>
         <p>D’octobre 1793 à 1796, la partie du collège, donnant sur la rue Fromentel, fut occupée par la Prison Égalité, réservée primitivement aux prévenus de contre-révolution. Élèves et maîtres réfugiés dans la partie antérieure, sur la rue Saint-Jacques, continuèrent à y étudier, suivant la division traditionnelle en classes. Mais l’étude des Droits de l’Homme s’ajouta aux études grecque et latine. Le collège du Plessis fut uni au Prytanée le 25 messidor an V (13 juillet 1797).</p>
-        <div>
+        <div xml:id="r414637">
           <head rend="uc">Appendice
            <lb/>sort des bâtiments</head>
           <p>En 1797, le Prytanée français, puis l’École Centrale des Quatre-Nations et le Collège de France se partagèrent les locaux de l’ancien collège.</p>

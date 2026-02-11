@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <forename>Philip</forename>
         <surname>Moore</surname>
       </byline>
-      <div>
+      <div xml:id="r530631">
         <head rend="uc">Notice biographique</head>
         <p>Notre auteur naquit très probablement à Poitiers ou dans le Poitou ; en tout cas, il y vécut avant de se rendre à Paris, car on le trouve toujours désigné sous le nom de <hi rend="i">Petrus Pictaviensis</hi> ou <hi rend="i">Petrus Pictavinus.</hi> Nous ne savons presque rien de ses premières années. Sa vie de professeur se passa vraisemblablement tout entière à Paris, de 1167 jusqu’à sa mort, en 1205. Vers 1180, il fut l’objet, avec Abélard, Gilbert de la Porrée et Pierre Lombard, d’une attaque violente de la part de Gautier de Saint-Victor dans le <hi rend="i">Contra quatuor labyrinthos Franciae. </hi>Pierre de Poitiers y fut pris à partie principalement à cause de sa méthode dialectique qui cherchait à donner à la raison un plus grand rôle dans l’étude de la théologie. En introduisant la raison dans ce domaine, il se ménage justement une place importante dans l’histoire de la théologie.</p>
         <p>Les actes de la chancellerie de Notre-Dame montrent incontestablement que Pierre de Poitiers fut <pb source="https://nakala.fr/10.34847/nkl.1efc1vr6#eefec0e662b842c3920c206f9ba8eb8ec6e95b74" n="102" facs="https://api.nakala.fr/iiif/10.34847/nkl.1efc1vr6/eefec0e662b842c3920c206f9ba8eb8ec6e95b74/full/full/0/default.jpg"/>chancelier de 1193 à 1204. Une lettre d’innocent III témoigne qu’il exerçait encore cet office le 1<hi rend="sup">er</hi> avril 1205, et sans doute y resta-t-il jusqu’à sa mort qui survint très probablement le 3 septembre 1205. Il fut nommé juge-délégué à plusieurs reprises par le Saint-Siège.</p>
@@ -70,7 +68,7 @@
         <head rend="uc">Les œuvres</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r530680">
         <head rend="uc">Chapitre premier
          <lb/><hi rend="i">sententiarum libri quinque.</hi>
          <lb/>Étude générale de l’œuvre.</head>
@@ -80,21 +78,21 @@
         <p>En principe, l’auteur ne choisit les questions que dans la mesure où elles sont propres à la <hi rend="i">disputatio, </hi>c’est-à-dire aux exercices de l’Ecole. Il traite des <hi rend="i">disputabilia,</hi> des <hi rend="i">dubitabilia</hi> et des choses <hi rend="i">disputationi accommodata.</hi></p>
         <p>Le livre est réfléchi et coordonné ; c’est l’œuvre personnelle de l’auteur, et non pas une <hi rend="i">reportatio </hi>d’un de ses élèves.</p>
       </div>
-      <div>
+      <div xml:id="r530749">
         <head rend="uc">Chapitre II
          <lb/><hi rend="i">Sententiarum libri quinque.</hi>
          <lb/>Influence de pierre Lombard sur pierre de Poitiers.</head>
         <p>Les <hi rend="i">Sentences</hi> de Pierre de Poitiers ne sont pas un commentaires sur les <hi rend="i">Sentences</hi> de Pierre Lombard. Néanmoins l’influence du maître se marque fortement dans l’œuvre de l’élève. Nous le voyons dans la disposition générale des matières, dans des questions communes à l’un et à l’autre, dans une certaine parenté de texte et dans un grand nombre de doctrines identiques.</p>
         <p>Pierre de Poitiers montre, d’autre part, son indépendance à l’égard de Pierre Lombard. Il introduit des divergences dans la disposition des matières, surtout en plaçant le traité des vertus avant celui de l’Incarnation. La partie morale de la théologie est, <pb source="https://nakala.fr/10.34847/nkl.1efc1vr6#ddef0d768ea11d68ae572f171f3995267d2c90e6" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.1efc1vr6/ddef0d768ea11d68ae572f171f3995267d2c90e6/full/full/0/default.jpg"/>par conséquent, plus en évidence chez Pierre de Poitiers. Celui-ci insère dans son œuvre un certain nombre de questions qui ne se trouvent pas chez Pierre Lombard. Sa présentation reste bien personnelle, même lorsqu’il emprunte des questions à son maître. Il montre enfin une certaine indépendance doctrinale.</p>
       </div>
-      <div>
+      <div xml:id="r530782">
         <head rend="uc">Chapitre III
          <lb/><hi rend="i">Sententiarum libri quinque.</hi>
          <lb/>Influence de pierre de Poitiers sur Simon de Tournai,
          <lb/>Prévostin de Crémone et maître Martin.</head>
         <p>L’influence de Pierre de Poitiers ne se manifeste pas au même degré chez ces trois maîtres. Prévostin de Crémone et Simon de Tournai en sont beaucoup plus indépendants que Maître Martin. Cependant aucun de ces maîtres n’échappe tout à fait à l’influence de notre auteur. Le traité des vertus se trouve avant celui de l’Incarnation dans les œuvres de tous ces théologiens. Des questions communes révèlent une influence évidente sur Maître Martin et une action probable sur Prévostin et sur Simon. La dépendance textuelle est fort étendue chez Maître Martin, rare chez Prévostin, et manque presque complètement chez Simon de Tournai. Quant à la doctrine, Prévostin et Simon échappent bien à l’influence de Pierre de Poitiers, ou plutôt de Pierre Lombard, tandis que Maître Martin dépend sans conteste de Pierre de Poitiers et de Simon de Tournai.</p>
       </div>
-      <div>
+      <div xml:id="r530801">
         <pb source="https://nakala.fr/10.34847/nkl.1efc1vr6#b47f874fee55c95c67cab526e16f91b8a69134df" n="105" facs="https://api.nakala.fr/iiif/10.34847/nkl.1efc1vr6/b47f874fee55c95c67cab526e16f91b8a69134df/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre IV
          <lb/><hi rend="i">Allegoriae super exodum, leviticum et numeros</hi></head>
@@ -103,7 +101,7 @@
         <p>On a distingué, au Moyen Age, quatre sens dans le texte de l’Ecriture Sainte : les sens historique, allégorique, tropologique, et anagogique. On trouve dans cette œuvre les définitions de ces sens et des règles qui gouvernent l’interprétation spirituelle du texte. Pierre de Poitiers insiste sur le sens historique, base indispensable de cette interprétation. Il semble affirmer que le sens spirituel peut faire partie, avec le sens historique, du sens littéral complet du texte.</p>
         <p>Enfin, pour notre auteur, le but principal de l’étude <pb source="https://nakala.fr/10.34847/nkl.1efc1vr6#e4dbb804720a88ea65d253f7e99a5466721ebf54" n="106" facs="https://api.nakala.fr/iiif/10.34847/nkl.1efc1vr6/e4dbb804720a88ea65d253f7e99a5466721ebf54/full/full/0/default.jpg"/>de l’Ecriture Sainte est de rechercher et de révéler le sens spirituel et non pas de connaître simplement le sens historique du texte.</p>
       </div>
-      <div>
+      <div xml:id="r530842">
         <head rend="uc">Chapitre V
          <lb/><hi rend="i">Distinctiones super Psalterium.</hi></head>
         <p>Ces <hi rend="i">Distinctiones,</hi> avec la <hi rend="i">Summa Abel</hi> de Pierre le Chantre et la <hi rend="i">Summa super Psalterium</hi> de Prévostin de Crémone, marquent une nouvelle manière de commenter le Psautier. La <hi rend="i">distinctio,</hi> ou l’interprétation du texte sacré d’après les quatre sens de l’Ecriture Sainte, y remplace la citation patristique qui caractérise les commentaires antérieurs.</p>
@@ -115,10 +113,10 @@
         <p>Nous avons continué l’étude de Mgr. G. Lacombe sur les rapports des distinctions dans les œuvres de Pierre de Poitiers, Prévostin de Crémone et Pierre le Chantre. Il y a des rapports étroits entre notre maître et le Chantre : quatre cents distinctions environ leur sont communes. Cependant nous n’avons pas pu décider si l’un a copié l’autre ou si les deux ont suivi une même tradition. Prévostin semble bien indépendant, mais nous n’avons plus toutes ses œuvres.</p>
         <p>Quant à l’ordre chronologique de ces œuvres, celle du Chantre est probablement la première ; celle de Pierre de Poitiers est certainement antérieure à celle de Prévostin, puisqu’elle est contemporaine de Maurice de Sully, mort le 11 sept. 1196 ; Eudes de Sully avait déjà remplacé Maurice comme évêque de Paris au moment où Prévostin a écrit son œuvre.</p>
       </div>
-      <div>
+      <div xml:id="r530899">
         <head rend="uc">Chapitre VI
          <lb/>Les œuvres historiques de pierre de Poitiers.</head>
-        <div>
+        <div xml:id="r530907">
           <head rend="uc">A. <hi rend="i">Compendium Historiae in genealogia Christi.</hi></head>
           <p>Cette œuvre est un abrégé de l’histoire sainte, conçu en général sous la forme d’une généalogie du Christ.</p>
           <p>Elle existe en deux états. D’abord, sous la forme d’un opuscule à part. Dans cet état, l’abrégé se retrouve dans cinquante-cinq manuscrits au moins, datant du <num>xii<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
@@ -128,21 +126,21 @@
           <p>Dans son deuxième état, cette œuvre fait partie de quatre chroniques universelles au moins, dont trois anonymes, datant du <num>xiii<hi rend="sup">e</hi></num> siècle, sont renfermées dans les mss. 984 de Grenoble, 1314 de l’Université de Leipzig, et 96 d’Eton College. La quatrième est de Roger de Saint-Albans (mort en 1450). Ces chroniques sont toutes indépendantes les unes des autres, et chacune modifie notre abrégé d’une façon considérable.</p>
           <p>Pierre d’Icham (mort vers 1290), dans le prologue de sa <hi rend="i">Chronica de Regibus Angliae successive regnantibus a tempore Bruti ad 1301,</hi> indique, parmi ses sources, une chronique de Pierre de Poitiers, chancelier de Paris. Il cite en effet cet auteur pour le <pb source="https://nakala.fr/10.34847/nkl.1efc1vr6#fd3294d470136161836ddbe325637e81414a5871" n="109" facs="https://api.nakala.fr/iiif/10.34847/nkl.1efc1vr6/fd3294d470136161836ddbe325637e81414a5871/full/full/0/default.jpg"/>règne de dix-sept rois et une reine d’Edmund I (mort en 945) à Etienne I de Blois (mort en 1154). Mais cette chronique attribuée à Pierre de Poitiers n’est que la chronique universelle anonyme du ms. 96 d’Eton College. Pierre d’Icham fut sans doute trompé par l’inscription mise en tête de ce manuscrit : « Incipit compendium Veteris Testamenti editum a magistro Petro Pictavensi et cancellario Parisiensi. »</p>
         </div>
-        <div>
+        <div xml:id="r530982">
           <head rend="uc">B. <hi rend="i">Continuatio Historiae scholasticae.</hi>
            <lb/><hi rend="i">Historia actuum Apostolorum.</hi></head>
           <p>Dans cette œuvre, il s’agit de la dernière partie de l’<hi rend="i">Historia scholastica</hi> que l’on a jusqu’à présent attribuée tout entière à Pierre le Mangeur. Mais, dans la lettre de dédicace placée en tête des <hi rend="i">Historiae, </hi>l’auteur dit expressément qu’il n’a conduit son récit que jusqu’à l’Ascension du Christ, le dernier événement dans l’histoire des Evangiles. Deux gloses sur l’<hi rend="i">Historia scholastica,</hi> l’une écrite probablement avant 1187, et l’autre certainement en 1193, s’arrêtent à la fin de l’histoire des Evangiles. En outre, quelques-uns des plus anciens manuscrits des <hi rend="i">Historiae</hi> ne contiennent pas l’histoire des Actes. Enfin plusieurs manuscrits, tout en renfermant l’histoire des Actes, donnent quelques indications montrant qu’elle n’appartenait pas, à l’origine, à cette œuvre. Tous ces témoignages prouvent d’une manière incontestable que cette partie de l’<hi rend="i">Historia scholastica</hi> n’est pas de Pierre de Mangeur.</p>
           <p>D’autre part, le ms. Stowe 5 du Musée Britannique donne comme rubrique : « Incipit Commentarium magistri Petri Pictavensis super Actus Apostolorum » (fol. 166 <hi rend="i">c</hi>). Puis, dans le ms. 313 du Corpus Christi College, à Cambridge, se trouve un extrait de l’histoire des Actes sous le titre : « Petrus Pictavensis super <pb source="https://nakala.fr/10.34847/nkl.1efc1vr6#cf810a88a6cb1f75cf2d3e93e15b0a180692a098" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.1efc1vr6/cf810a88a6cb1f75cf2d3e93e15b0a180692a098/full/full/0/default.jpg"/> Actus Apostolorum. » (fol. 61 <hi rend="i">d</hi>). On peut donc conclure que cette partie de l’<hi rend="i">Historia scholastica </hi>appartient à un Pierre de Poitiers. Ce n’est pas le moine de Cluny, décédé avant la composition de l’<hi rend="i">Historia scholastica.</hi> Le caractère de l’œuvre n’implique pas, d’autre part, que le chanoine de Saint-Victor en soit l’auteur. Le titre de maître que porte le ms. Stowe 5 convient plutôt au chancelier qu’au chanoine.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r531045">
         <head rend="uc">Chapitre VII
          <lb/><hi rend="i">Sermones.</hi></head>
         <p>Nous connaissons cinquante-neuf sermons de Pierre de Poitiers qui sont renfermés dans le ms. lat. 14593 de la Bibl. Nat. de Paris. Cinquante-sept se trouvent aux fol. 289 <hi rend="i">a</hi>-351 <hi rend="i">c</hi> sous la rubrique : « Incipiunt sermones magistri Petri P. ». Ce maître est bien Pierre de Poitiers, parce que vingt-huit de ces sermons sont reproduits sous son nom aux fol. 118<hi rend="i">a</hi>-168<hi rend="i">d</hi>. En outre, avec ces vingt-huit sermons, on en trouve deux autres que nous avons également revendiqués pour notre auteur.</p>
         <p>Plusieurs de ces sermons sont dispersés dans trois autres manuscrits au moins, mais ils y sont anonymes, sauf deux dans le ms. lat. 12293 de la Bibl. Nat. Ce manuscrit ne date que du <num>xvii<hi rend="sup">e</hi></num> ou du XVIII<hi rend="sup">e </hi>siècle.</p>
         <p>Ces sermons représentent plusieurs années de prédication, mais nous n’avons trouvé aucun renseignement précis sur leur date. Ils furent très probablement prêchés vers la fin de sa carrière.</p>
       </div>
-      <div>
+      <div xml:id="r531091">
         <pb source="https://nakala.fr/10.34847/nkl.1efc1vr6#aa616950ae42091b44bb4e1f51fe3fa05c001ce4" n="111" facs="https://api.nakala.fr/iiif/10.34847/nkl.1efc1vr6/aa616950ae42091b44bb4e1f51fe3fa05c001ce4/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre VIII
          <lb/>Œuvres d’attribution fausse ou suspecte.</head>

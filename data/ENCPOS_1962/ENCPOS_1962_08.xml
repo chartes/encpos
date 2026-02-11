@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,23 +54,23 @@
         <forename>Hubert</forename>
         <surname>Collin</surname>
       </byline>
-      <div>
+      <div xml:id="r831388">
         <head rend="uc">Introduction</head>
         <p>Les châteaux médiévaux de la Lorraine n’ont rien de commun avec ceux de France, ni par leur nombre, ni par leur puissance, ni par leur configuration.</p>
         <p>Au moyen âge, la Lorraine, terre d’Empire, était divisée entre le duché de Lorraine, le comté de Bar, les évêchés de Metz, Toul et Verdun et la république urbaine de Metz, dont mouvaient nombre de seigneuries vassales, dont certaines, comme le comté de Vaudémont, le comté de Blâmont ou le comté de Bitche, jouèrent un rôle politique important.</p>
         <p>L’extrême morcellement des seigneuries explique les deux caractéristiques des châteaux lorrains, par lesquelles ils s’apparentent à leurs voisins de Belgique, de Luxembourg et d’Allemagne palatine et rhénane : leur grand nombre et leur diversité.</p>
         <p>Notre étude revêt un caractère historique et archéologique. L’étude archéologique a été faite principalement à l’aide de l’observation directe de vestiges et des plans cadastraux. Géographiquement, elle porte à peu près sur l’étendue de la juridiction du bailliage de Nancy et du comté de Vaudémont.</p>
       </div>
-      <div>
+      <div xml:id="r831407">
         <head rend="uc">Sources, bibliographie</head>
         <p>Les sources principales sont des documents tirés du Trésor des chartes de Lorraine, des comptes des prévôtés (fonds de la Chambre des comptes de Lorraine) et les principaux cartulaires lorrains conservés aux Archives départementales de Meurthe-et-Moselle à Nancy (séries B, G et H), ainsi que la collection de Lorraine et les autres cartulaires lorrains conservés au département des manuscrits de la Bibliothèque nationale à Paris. Ont été aussi utilisés très utilement les gravures, dessins, aquarelles et photographies conservés à la bibliothèque et aux archives du Musée historique lorrain de Nancy et de nombreux plans de châteaux tirés des minutes de l’ancien cadastre de Meurthe-et-Moselle à Nancy.</p>
       </div>
-      <div>
+      <div xml:id="r831417">
         <pb source="https://nakala.fr/10.34847/nkl.7d7cbgn8#3539327252400f78577d4472d79cc9ff09904526" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.7d7cbgn8/3539327252400f78577d4472d79cc9ff09904526/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Le château, son apparition, son développement,
          <lb/>ses institutions, ses particularités</head>
-        <div>
+        <div xml:id="r831432">
           <head rend="uc">Chapitre premier
            <lb/>le nombre des châteaux et leur date d’apparition</head>
           <p><hi rend="i">Nombre des châteaux.</hi> – Nous avons dit que les châteaux furent très nombreux. Le <hi rend="i">Dénombrement de la Lorraine</hi> de Thierry Alix (1594) en compte soixante dix-huit sur le territoire qui ressortissait à cette date de la juridiction du bailliage de Nancy et du comté de Vaudémont. Ils étaient en réalité sensiblement plus nombreux, car certains étaient déjà détruits à cette époque, et d’autres, enclavés dans les terres du bailliage, appartenaient aux Trois Évêchés qui étaient occupés par la France depuis 1552 et qui furent réunis à la couronne en 1648. Parmi les châteaux dénombrés, certains dépendaient directement de l’administration ducale, d’autres de l’Église, d’autres enfin étaient des fiefs.</p>
@@ -80,7 +78,7 @@
           <p>Les grands châteaux de Prény, Mousson et Vaudémont furent construits au <num>x<hi rend="sup">e</hi></num> siècle.</p>
           <p>Les dernières forteresses importantes furent élevées au <num>xiv<hi rend="sup">e</hi></num> siècle, exception faite des fortifications des villes qu’on continua d’édifier dans le style du moyen âge jusqu’au <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r831499">
           <head rend="uc">Chapitre II
            <lb/>Le château, son droit, ses institutions</head>
           <p><hi rend="i">Le château en droit féodal et coutumier.</hi> – La Lorraine n’a pas eu de législation spéciale sur les châteaux comme la France. Tout seigneur avait le droit de construire un château sur son fief s’il avait obtenu au préalable l’autorisation de son seigneur supérieur et prudemment sollicité l’accord de ses voisins. Un faux privilège d’Arnulf, roi de Germanie (896-899), en faveur de l’église de Toul, interdit à quiconque de construire un château à moins de quatre lieues des murailles de cette cité. Le duc de Lorraine Mathieu I<hi rend="sup">er</hi> ne se conforma pas aux prescriptions de ce prétendu privilège, fit construire un château à Gondreville en 1147-1154 et fut excommunié.</p>
@@ -91,26 +89,26 @@
           <p><hi rend="i">La garde des châteaux.</hi> – La garde incombait aux vassaux du seigneur et aux habitants des villages dépendant de la prévôté ou de la châtellenie, qu’ils aient reçu une charte de franchise ou non. Les vassaux devaient au château du seigneur un temps de garde, en principe proportionnel à l’importance de leur fief, et variant de un jour à un an. Ils devaient se rendre à la garde chaque fois qu’ils en étaient requis par le seigneur, et les paysans, quand ils en étaient « semons ».</p>
           <p><hi rend="i">La châtellenie.</hi> – Une prévôté porte le nom de châtellenie lorsqu’elle a reçu une organisation défensive particulière et qu’un château existe au siège de la prévôté. Le prévôt, qui peut être assisté d’un receveur des finances et d’un clerc-juré, se voit alors adjoindre un châtelain ou capitaine qui a la garde du château et la responsabilité des opérations militaires. Nous avons étudié à titre d’exemple la châtellenie de Condé-sur-Moselle au <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r831550">
           <head rend="uc">Chapitre III
            <lb/>La situation des châteaux et leur emplacement topographique</head>
           <p>En Lorraine comme ailleurs, les châteaux s’établirent à proximité des voies de communication (anciennes voies romaines, routes médiévales), des ponts et des gués et à des emplacements ayant un intérêt politique, comme les seigneuries formant enclave en territoire étranger.</p>
           <p>Du point de vue topographique, les constructeurs de châteaux choisirent des emplacements très divers, mais les lieux de prédilection, en Lorraine, furent les éperons barrés dont certains furent occupés dès l’époque préhistorique.</p>
           <p>Les maisons fortes firent toujours partie de l’habitat rural.</p>
         </div>
-        <div>
+        <div xml:id="r831568">
           <head rend="uc">Chapitre IV
            <lb/>Les éléments de défense</head>
           <p>Le caractère dominant des éléments de défense est leur simplicité ; si l’on observe un certain archaïsme dans leur conception, il n’est que le résultat d’une volontaire économie de moyens. Tous les châteaux de quelque importance ont possédé un donjon, mais ces donjons, à l’exception de celui de Prény, furent tous détruits à l’époque moderne. La Lorraine a fait un large usage des fortifications de terre et de bois (palissades). Les bretèches et mâchicoulis de pierre ne se rencontrent <pb source="https://nakala.fr/10.34847/nkl.7d7cbgn8#8a731c3240be8b0d605948298cd406af92221283" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.7d7cbgn8/8a731c3240be8b0d605948298cd406af92221283/full/full/0/default.jpg"/> pas avant la fin du <num>xiii<hi rend="sup">e</hi></num> siècle. A partir de la fin du <num>xii<hi rend="sup">e</hi></num> siècle, les châteaux lorrains ont connu une grande variété d’archères.</p>
           <p>L’artillerie fut adoptée rapidement ; au début du <num>xv<hi rend="sup">e</hi></num> siècle, on construisit des canonnières dans tous les châteaux.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r831607">
         <head rend="uc">Deuxième partie
          <lb/>Monographies</head>
         <p>AMANCE, au duc de Lorraine, existe en 1076. – AUTREY, à des vassaux du comté de Vaudémont, <num>xiv<hi rend="sup">e</hi></num> s. – AVANT-GARDE, au comte de Bar, existe au début du <num>xii<hi rend="sup">e</hi></num> s. – BAINVILLE-AUX-MIROIRS, au comte de Vaudémont, construit vers 1263. – BLÉNOD-LES-TOUL, à l’évèque de Toul, reconstruit au <num>xv<hi rend="sup">e</hi></num> s. – CONDÉ (Custines), à l’évêque de Metz, puis au comte de Bar au <num>xiv<hi rend="sup">e</hi></num> s., reconstruit au milieu du <num>xiii<hi rend="sup">e</hi></num> s. – DIEULOUARD, à l’évêque de Verdun, construit entre 988 et 1024. – DOMBASLE, famille seigneuriale, <num>xi<hi rend="sup">e</hi></num>-<num>xii<hi rend="sup">e</hi></num> s. – FÉCOCOURT, seigneurie du comté de Vaudémont, début du xv<hi rend="sup">e</hi> s. – FROUARD, au duc de Lorraine, <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> s. – GONDREVILLE, au duc de Lorraine, construit vers 1150. – HAROUÉ, à des vassaux du duché de Lorraine, <num>xii<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> s. – LIVERDUN, à l’évêque de Toul, construit vers 1178. – MANDRES-AUX-QUATRE-TOURS, alleu, puis fief d’Apremont, puis de Bar, existe fin <num>xii<hi rend="sup">e</hi></num> s. – MANONVILLE, fief relevant du duc de Lorraine et du comte de Bar, <num>xii<hi rend="sup">e</hi></num>-<num>xiii<hi rend="sup">e</hi></num> s. – MESSEIN, au duc de Lorraine, milieu <num>xiii<hi rend="sup">e</hi></num> s. – MOUSSON, au comte de Bar, existe au <num>x<hi rend="sup">e</hi></num> s. – NANCY, au duc de Lorraine, <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> s. – NOMENY, à l’évêque de Metz, reconstruit entre 1366 et 1388. – ORMES, à la maison de Lorraine, puis aux comtes de Linange, construit à la fin du <num>xii<hi rend="sup">e</hi></num> s. – PIERREFORT, à la maison de Bar, reconstruit vers 1306. – PRÉNY, au duc de Lorraine, existe au <num>x<hi rend="sup">e</hi></num> s. – ROSIÈRES-AUX-SALINES, seigneurie du duché de Lorraine, de la fin du <num>xii<hi rend="sup">e</hi></num> s., début du <num>xiii<hi rend="sup">e</hi></num> s. – TANTONVILLE, famille de Ligniville, <num>xiv<hi rend="sup">e</hi></num> s. – THÉLOD, THEY, fiefs de Vaudémont, xv<hi rend="sup">e</hi> s. – TOULON, famille de Toulon, <num>xiii<hi rend="sup">e</hi></num> s. – VAUDÉMONT, aux comtes de Vaudémont, construit au <num>x<hi rend="sup">e</hi></num> s.</p>
       </div>
-      <div>
+      <div xml:id="r831777">
         <head rend="uc">Pièces annexes</head>
         <p>Devis estimatif des réparations à effectuer au château de Mandres-aux-Quatre-Tours (1590). – Extraits des comptes de la prévôté de l’Avantgarde (<num>xvi<hi rend="sup">e</hi></num> s.). – Chartes (<num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> s.). – 50 plans et 175 photographies des châteaux étudiés ainsi que de ceux d’Aulnois, Mailly, Létricourt, Craincourt, Morey, Boucq, Bernécourt, Ajoncourt, Damelevières, Lunéville et Vézelise. – Le bailliage de Nancy en 1594. – Les voies de communication et l’emplacement des châteaux.</p>
       </div>

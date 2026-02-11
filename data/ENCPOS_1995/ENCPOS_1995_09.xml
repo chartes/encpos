@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1995_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1995_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,40 +55,40 @@
         <surname>Désiré Dit Gosset</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1257083">
         <head rend="uc">Introduction</head>
         <p>L’étude du chapitre de la cathédrale Notre-Dame de Coutances aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles se situe dans le cadre du renouveau des études canoniales, illustré notamment par les <hi rend="i">Fasti Ecclesiae gallicanae,</hi> programme de recherche du C.N.R.S. sur les dignitaires des diocèses de France entre 1200 et 1500. La carrière des chanoines et des dignitaires de la cathédrale de Coutances a fait l’objet d’une base de données, regroupant les deux cent quatre-vingt-quatre membres du chapitre (ou assimilés) recensés pour la période. Pour des raisons liées aux sources, cette base concerne surtout le siècle de relative tranquillité que connaît le chapitre entre 1449, date de la reconquête de la Normandie, et 1562-1563, époque où la cité de Coutances subit les premières atteintes des guerres de Religion.</p>
       </div>
-      <div>
+      <div xml:id="r1257109">
         <head rend="uc">Sources</head>
         <p>Les sources proviennent essentiellement du fonds du chapitre, conservé presque exclusivement aux Archives diocésaines de Coutances, où il a pu échapper à toutes les destructions, y compris celles occasionnées par les bombardements américains (qui détruisirent les Archives départementales à Saint-Lô, le 6 juin 1944). Les Archives diocésaines, sans doute un des plus riches dépôts de ce type en France, n’ont jamais été inventoriées précisément, ce qui a nécessité la rédaction d’un inventaire détaillé des documents consultés. Citons aussi les copies de documents et les fichiers aimablement prêtés par M. Michel Le Pesant, conservateur honoraire aux Archives nationales.</p>
         <p>Parmi les catégories de sources exploitées, on distingue d’abord les pouillés du diocèse et les cartulaires du chapitre, qui sont souvent confondus. Les trois pouillés médiévaux sont édités et ont fait l’objet d’une bibliographie relativement importante. En revanche, les trois cartulaires du chapitre, qui ne subsistent <pb source="https://nakala.fr/10.34847/nkl.ef41n05f#f0506e1a3118c2533c9b794bb87edc3918567735" n="76" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef41n05f/f0506e1a3118c2533c9b794bb87edc3918567735/full/full/0/default.jpg"/>actuellement que sous forme de copies, n’ont jamais été publiés. Les actes qu’ils renferment vont du <num>xi<hi rend="sup">e</hi></num> siècle à 1514, mais concernent essentiellement les <num>xii<hi rend="sup">e</hi></num>, XIII<hi rend="sup">e </hi>et <num>xiv<hi rend="sup">e</hi></num> siècles.</p>
         <p>Les délibérations capitulaires, source primordiale, forment une série à peu près continue depuis 1464. Rédigés au fil des réunions capitulaires, ces registres permettent une appréhension relalivement complète du personnel de la cathédrale, mais apportent aussi des éléments non négligeables sur la vie quotidienne à la cathédrale, le système de gestion du temporel, les causes disciplinaires et plus généralement sur certains événements marquants de la cité épiscopale (épidémies de peste, guerre...).</p>
         <p>Les comptes de la commune et de la grande prévôté, enfin, série remarquablement conservée, remontent à 1435. La « commune » désigne à la fois les finances du chapitre et la commission annuelle, débutant au 1<hi rend="sup">er</hi> août, chargée de les gérer. Le chapitre a divisé son temporel en un certain nombre de prévôtés affermées pour une ou plusieurs années. Les petites prévôtés assises sur une paroisse se rattachent à six plus grandes. Parmi ces dernières se détache la grande prévôté, qui correspond aux biens du chapitre situés dans la région de Coutances ; elle est parfois unie à l’exercice de la commune, mais on en conserve aussi des comptes particuliers. L’étude détaillée du registre de 1551-1552 donne un aperçu des recettes et des dépenses du chapitre.</p>
       </div>
-      <div>
+      <div xml:id="r1257159">
         <head rend="uc">Première partie
          <lb/>Présentation institutionnelle du chapitre</head>
-        <div>
+        <div xml:id="r1257167">
           <head rend="uc">Chapitre premier
            <lb/>le nombre des chanoines</head>
           <p>Depuis le <num>xiv<hi rend="sup">e</hi></num> siècle, le chapitre de Coutances comporte huit dignitaires et vingt-six chanoines, chiffres qui ne varient plus jusqu’à la fin de l’Ancien Régime. Il a fallu plusieurs siècles pour arriver à cette situation. Les origines certaines du chapitre ne remontent guère au-delà du principat de Richard I<hi rend="sup">er</hi>, duc de Normandie (943-996). Après un siècle et demi d’exil à Rouen, l’évêque ne revient à Coutances que vers 1048. Geoffroy de Montbray (1048-1093) reconstruit la cathédrale et rétablit le temporel du chapitre qui compte alors quatorze chanoines. Leur nombre va croissant au cours des <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, sans qu’on en connaisse toutes les étapes. Toujours est-il qu’il est établi définitivement lors de la distribution de la récitation du psautier en 1336. Dès le <num>xii<hi rend="sup">e</hi></num> siècle, les canonicats sont unis à des prébendes territoriales.</p>
           <p>Le chapitre de Coutances a un effectif beaucoup plus restreint que ceux de Rouen, de Bayeux ou même de Lisieux. En revanche, il soutient facilement la comparaison avec les chapitres d’Évreux, d’Alençon et de Sées ; mais c’est encore avec les petits évêchés de la Bretagne voisine qu’il présente le plus de similitudes.</p>
         </div>
-        <div>
+        <div xml:id="r1257210">
           <pb source="https://nakala.fr/10.34847/nkl.ef41n05f#3189887e1c822b1152762729b1f786bf14e8680d" n="77" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef41n05f/3189887e1c822b1152762729b1f786bf14e8680d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les dignitaires de la cathédrale</head>
           <p>Parmi les dignitaires, seuls trois sont membres de droit du chapitre : le chantre, le trésorier et le pénitencier. Coutances a pour particularité d’avoir un chantre à sa tête, et non un doyen ou un prévôt comme c’est souvent le cas. La prébende de Blainville est annexée à la chantrerie depuis 1207. Les fonctions du chantre sont multiples, au-delà de la seule direction du chœur. Un « vice-gérant » le remplace en son absence. Le trésorier, deuxième dignitaire du chapitre, est chargé de veiller sur la sacristie et les biens mobiliers de la cathédrale. La prébende dite de Cherbourg est annexée à la trésorerie dans le second quart du <num>xiii<hi rend="sup">e</hi></num> siècle. La pénitencerie, dont la création est confirmée par Grégoire IX en 1240, découle directement des prescriptions du concile de Latran IV relatives à la confession auriculaire. Le pénitencier est prébendé de Saint-Louet-sur-Sienne, dont il est seigneur, patron et curé primitif.</p>
           <p>Les cinq autres dignitaires ne sont pas membres de droit du chapitre et doivent être reçus à un canonicat pour jouir des droits qui y sont attachés. Dans la pratique, cependant, ces dignitaires sont souvent chanoines ; dans ce cas, ils prennent rang après le chantre et avant le trésorier et le pénitencier. Il s’agit, d’une part, des quatre archidiacres (Coutances, Val-de-Vire, Bauptois et Cotentin), qui sont à l’origine des auxiliaires de l’évêque ; d’autre part, du scolastique, chargé de fonctions liturgiques importantes à la cathédrale.</p>
         </div>
-        <div>
+        <div xml:id="r1257236">
           <head rend="uc">Chapitre III
            <lb/>Les chanoines</head>
           <p>En sus des trois prébendes liées aux trois premières dignités du chapitre, le chapitre en compte vingt-trois unies à de simples canonicats. Ces prébendes sont territoriales, c’est-à-dire que leur gros est assis sur des biens-fonds possédés par le chapitre, dans quinze paroisses du diocèse. Celles-ci sont situées pour la plupart dans l’archidiaconé de Coutances, mais sept prébendes se trouvent dans le doyenné de Saint-Lô (archidiaconé du Val-de-Vire). Quatre, enfin, sont plus excentrées ; leur apparition semble plus tardive. Il existe de grandes disparités de revenus entre ces prébendes, ce qui explique les fréquents changements au cours d’une carrière canoniale.</p>
           <p>Le chapitre est un corps très hiérarchisé où chacun figure au rang qu’exige sa dignité, ou encore son ancienneté comme chanoine. De même, dans le chœur, chaque stalle est attribuée en fonction de critères spécifiques liés notamment au statut ecclésiastique, le simple clerc n’ayant pas le droit de siéger aux stalles supérieures. De plus, lors de sa réception, chaque nouveau chanoine est installé dans une stalle qui lui est attribuée à droite ou à gauche du chœur, suivant la prébende unie à son canonicat.</p>
         </div>
-        <div>
+        <div xml:id="r1257251">
           <pb source="https://nakala.fr/10.34847/nkl.ef41n05f#71ad461ef12495e624e7b2e3b7e9e96fad648007" n="78" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef41n05f/71ad461ef12495e624e7b2e3b7e9e96fad648007/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Un cas particulier : les abbés réguliers chanoines</head>
@@ -98,17 +96,17 @@
           <p>Cette institution des abbés réguliers-chanoines, qui tombera en désuétude au XVIir siècle, est encore bien vivante aux <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles. Nombreux sont les prieurs et abbés de ces monastères reçus personnellement comme chanoines de Coutances, voire siégeant au chapitre, allant même, pour certains, jusqu’à résider régulièrement ; tel est le cas, par exemple, de l’abbé de Lessay.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1257290">
         <head rend="uc">Deuxième partie
          <lb/>Qui sont les chanoines de Coutances ?</head>
-        <div>
+        <div xml:id="r1257298">
           <head rend="uc">Chapitre premier
            <lb/>les origines géographiques et sociales</head>
           <p>Pour près d’un tiers des deux cent quatre-vingt-quatre chanoines recensés, l’origine géographique est connue avec certitude ; elle fait l’objet de fortes présomptions pour un autre tiers. Dans les limites de ces données, plus des deux tiers (68,5 %) sont d’origine normande, 39 % étant probablement issus du diocèse même. Cependant il faut compter avec un certain nombre de familles d’implantation récente. Pour ce qui est des chanoines étrangers à la Normandie, ils sont exclusivement, sauf rares exceptions, originaires du nord du royaume et, pour la plupart, plus particulièrement de la région parisienne. Le népotisme est très fort au chapitre, notamment sous le pontificat de Geoffroy Herbert.</p>
           <p>Le chapitre n’a compté que neuf étrangers, dont un Écossais qui n’est autre que l’humaniste Georges Buchanan ; celui-ci ne parut d’ailleurs jamais à Coutances. Tous les autres étrangers sont italiens ; ils disparaissent à partir des années 1480. La plupart d’entre eux appartiennent à la famille Castiglione, arrivée en Normandie à la faveur de l’invasion anglaise ; ils cumulent, eux et leur clientèle, pendant plus d’un demi-siècle, évêchés, dignités et autres canonicats.</p>
           <p>Quant aux origines sociales, 36 % au moins des chanoines appartiennent à la noblesse. Mais à l’intérieur même de cet ordre existent des disparités sociales très importantes, entre les lignages aristocratiques anciens et illustres et de tout récents anoblis, ou des écuyers dont la noblesse n’a pas plus de quelques générations. Le recrutement local touche aussi le milieu des robins et des officiers royaux.</p>
         </div>
-        <div>
+        <div xml:id="r1257316">
           <pb source="https://nakala.fr/10.34847/nkl.ef41n05f#bf653edad843e295a09dc310dc5dc175eaadf91a" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef41n05f/bf653edad843e295a09dc310dc5dc175eaadf91a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La formation intellectuelle et le statut ecclésiastique</head>
@@ -117,7 +115,7 @@
           <p>Si le chapitre entretient des rapports indéniables avec l’université de Caen, beaucoup de chanoines ont suivi leurs études à Paris, où le diocèse de Coutances garde des relations étroites avec le collège d’Harcourt.</p>
           <p>Le chapitre, répondant à différentes prescriptions conciliaires, favorise statutairement et protocolairement les chanoines promus aux ordres majeurs. Ses membres sont prêtres à 66 %. Cependant on ignore dans quelle mesure les chanoines qui n’ont pas dépassé l’ordre du sous-diaconat ont voix au chapitre et jouissent des mêmes droits que les autres.</p>
         </div>
-        <div>
+        <div xml:id="r1257342">
           <head rend="uc">Chapitre III
            <lb/>La carrière en dehors du chapitre</head>
           <p>A l’’inverse des grands chapitres de la France du Nord, celui de Coutances semble peu attiré par le service du roi, sous quelque forme qu’on l’envisage. On compte peu de parlementaires dans ses rangs, que ce soit à Rouen ou à Paris : sept en tout ; à qui on peut ajouter deux maîtres des requêtes de l’Hôtel. La plupart de ces chanoines ne sont d’ailleurs pas résidents.</p>
@@ -125,19 +123,19 @@
           <p>A l’intérieur même du diocèse, les chanoines participent le plus souvent activement à la vie paroissiale, mais détiennent aussi de plus hautes responsabilités, notamment comme évêques <hi rend="i">in partibus</hi> ou suffragants, vicaires généraux, secrétaires de l’évêché ou officiaux. L’administration diocésaine est véritablement « infiltrée » par le chapitre, à moins que ce ne soit l’inverse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1257365">
         <pb source="https://nakala.fr/10.34847/nkl.ef41n05f#4dcee8d6a6482da2eb25a438d8aad743d4fb0ae6" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef41n05f/4dcee8d6a6482da2eb25a438d8aad743d4fb0ae6/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Aspects de la vie du chanoine a Coutances :
          <lb/>réception et résidence</head>
-        <div>
+        <div xml:id="r1257380">
           <head rend="uc">Chapitre premier
            <lb/>la réception</head>
           <p>Deux cent soixante-seize actes de réception retrouvés concernent près de 60 % des chanoines connus. Le cérémonial lui-même, dans ses différentes phases, ne diffère guère, semble-t-il, de celui des autres chapitres : présentation des lettres des collation, délibération, réception et installation solennelle au chœur par le chantre. Bien des chanoines sont reçus par procuration, mais il n’est pas rare en ce cas qu’une réception en personne suive tôt ou tard.</p>
           <p>Le paiement d’un droit de chape, fixé à dix livres, bien que formellement condamné par l’Église comme pratique simoniaque, est exigé à l’entrée au chapitre. S’y ajoutent un certain nombre d’autres droits d’entrée.</p>
           <p>Pour jouir de l’intégralité de ses gains et franchises, le chanoine doit accomplir une période probatoire de six mois de rigueur, durant laquelle il assiste à tous les offices et services célébrés au chœur.</p>
         </div>
-        <div>
+        <div xml:id="r1257398">
           <head rend="uc">Chapitre II
            <lb/>La collation</head>
           <p>L’ensemble des canonicats et des dignités du chapitre relève théoriquement de la collation de l’ordinaire, c’est-à-dire de l’évêque. On ne saurait donc s’étonner si 60 % des collations émanent de l’autorité épiscopale, le reste étant partagé entre la chancellerie pontificale (18,5 %) et le pouvoir royal (21,5 %).</p>
@@ -145,7 +143,7 @@
           <p>Le roi, quant à lui, possède sur le diocèse de Coutances le droit de régale spirituelle et temporelle. La seconde est parfois confiée à des personnages qu’il veut récompenser. La régale spirituelle permet en revanche au roi de nommer des chanoines pendant les périodes de vacance du siège épiscopal, jusqu’à la prestation de serment du nouveau prélat. Or les vacances sont nombreuses et parfois assez longues. On peut aussi attribuer à l’influence royale le règlement par le Parlement des litiges au sujet des prébendes.</p>
           <p>Les chanoines peuvent de leur côté désigner leurs successeurs par la résignation <hi rend="i">in favorem</hi> ou la permutation de prébendes. C’est ce qui explique la perpétuation de certaines familles pendant plusieurs générations à une même prébende.</p>
         </div>
-        <div>
+        <div xml:id="r1257427">
           <pb source="https://nakala.fr/10.34847/nkl.ef41n05f#6db872b7d36128ef5a30b0bebcefd1ead4333b5e" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef41n05f/6db872b7d36128ef5a30b0bebcefd1ead4333b5e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les réceptions litigieuses</head>
@@ -154,7 +152,7 @@
           <p>En 1520, s’ouvre une période de vacance du siège épiscopal qui dure cinq ans, pendant lesquels le roi jouit de la régale ; le chapitre s’oppose, au nom de son prétendu privilège d’élection de l’évêque, à une nomination par le roi en vertu du concordat de Bologne. Aussi, lorsque François I<hi rend="sup">er</hi> est fait prisonnier à Pavie, l’occasion est belle pour le chapitre de refuser les candidats proposés en régale par la régente, Louise de Savoie. Il faut attendre le retour du roi (mars 1526) pour qu’il rentre dans le rang, alors que le diocèse a déjà reçu le pasteur désigné.</p>
           <p>Les litiges pour la possession de prébendes sont nombreux. L’étude de l’affaire Guérin, la plus importante de toutes, illustre bien les rouages de ce type de conflit. Elle s’ouvre peu après Noël 1466, à la mort de Jacques Deshayes, archidiacre de Val-de-Vire et prébendé d’Yvetot, et dure plusieurs années pendant lesquelles quatre candidats s’affrontent et sont reçus tour à tour en vertu de collations différentes. Finalement Guillaume Guérin l’emporte, mais ses compétiteurs obtiennent tous place au chapitre ; celui-ci trouve son compte à ces affaires, puisqu’il empoche l’argent de chaque réception et suspend à son profit la distribution des fruits des prébendes en litige.</p>
         </div>
-        <div>
+        <div xml:id="r1257457">
           <head rend="uc">Chapitre IV
            <lb/>Jalons pour une étude de la résidence</head>
           <p>En l’absence des pointeaux de présence à l’office, les sources sont en général, difficilement exploitables pour une étude de la résidence. Toutefois, les comptes du chapitre fournissent des listes de gains pour l’assistance aux chapitres et aux offices dits des « obits en somme », listes dont on peut tirer parti.</p>
@@ -162,11 +160,11 @@
           <p>Les listes des présences aux chapitres, consignées dans les registres de délibérations capitulaires, sont plus précieuses encore. Elles permettent de dresser des tableaux de présence pour les années 1464-1480, à partir desquels il est <pb source="https://nakala.fr/10.34847/nkl.ef41n05f#3b4cb6acbd37af64db57401feaa3ee05be33bcab" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.ef41n05f/3b4cb6acbd37af64db57401feaa3ee05be33bcab/full/full/0/default.jpg"/>possible d’étudier la résidence. Celle-ci est le fait d’une petite dizaine de chanoines presque toujours présents ; quelques autres gardent des relations plus épisodiques avec le chapitre ; d’autres enfin ne paraissent jamais. Les accidents épidémiques peuvent expliquer en partie les deux années de creux que représentent 1473 et 1479.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1257487">
         <head rend="uc">Pièces justificatives</head>
         <p>Statuts de 1330 à 1377. – Six testaments de chanoines. – Inventaire des meubles d’une maison canoniale (1503).</p>
       </div>
-      <div>
+      <div xml:id="r1257497">
         <head rend="uc">Annexes</head>
         <p>Notices biographiques des deux cent quatre-vingt-quatre chanoines et dignitaires de la cathédrale. – Tableaux de présence aux réunions capitulaires (1464-1480). – Cartes.</p>
       </div>

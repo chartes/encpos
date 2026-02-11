@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1910_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,15 +60,15 @@
         <head rend="uc">Introduction et sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r343518">
         <head rend="uc">Premiere partie</head>
-        <div>
+        <div xml:id="r343524">
           <head rend="uc">Chapitre premier
            <lb/>les origines de la juridiction municipale</head>
           <p>Les magistrats municipaux Gallo-romains n’ont pas subsisté après la chute de l’Empire. – Les justices mérovingienne et carolingienne ont été adoptées dans toute la Gaule, dans le Midi comme dans le Nord. Les « boni homines » de l’époque féodale sont les descendants directs des rachimbourgs.</p>
           <p>Les premiers privilèges concédés aux Toulousains par le comte Alphonse Jourdain sont d’ordre économique. – Les premiers statuts faits par le comte et le « commun conseil » de la Ville et du Bourg sont aussi d’ordre économique. Les infractions aux statuts de 1152 seront jugées par <pb source="https://nakala.fr/10.34847/nkl.0f56x25f#ca99d17f16c247e1e2500ea89f3913ba18f90ce3" n="126" facs="https://api.nakala.fr/iiif/10.34847/nkl.0f56x25f/ca99d17f16c247e1e2500ea89f3913ba18f90ce3/full/full/0/default.jpg"/>des prud’hommes sauf les cas réservés au comte. – Les « capitulaires », qu’on voit apparaître dans les règlements de 1152, sont à la fois assesseurs de la cour du comte et représentants de la communauté. Ce sont les anciens « boni homines », choisis par le seigneur parmi les notables de la Cité et du Bourg. – Les « capitulaires », déjà représentants de la communauté, ne tardent pas à en devenir les juges. La juridiction des prud’hommes est absorbée par la juridiction « capitulaire ». – Les « capitulaires » se dégagent peu à peu de la cour du viguier, représentant direct du comte auprès de la communauté. – Cette évolution est définitive en 1189.</p>
         </div>
-        <div>
+        <div xml:id="r343544">
           <head rend="uc">Chapitre II
            <lb/>Limitation de la juridiction municipale</head>
           <p>I. <hi rend="i">Le comte.</hi> – Il est le suzerain direct de la communauté qui se comporte à son égard comme un simple vassal ; il collabore aux règlements d’administration, à côté des magistrats municipaux. – Droits juridictionnels. – Droits domaniaux. – Droits fiscaux.</p>
@@ -82,7 +80,7 @@
           <p>VI. <hi rend="i">Juridictions diverses.</hi> – Ordres religieux, leur nombre. – L’ordre de Saint-Jean de Jérusalem. Hôpitaux. Léproseries.</p>
           <p>VII. <hi rend="i">L’abbaye de Saint-Sernin</hi>. – La situation dans le Bourg. Immunité du cloître. Dépendances immédiates. Etendue de ses domaines. Le prévôt. Juridiction de l’abbé.</p>
         </div>
-        <div>
+        <div xml:id="r343615">
           <head rend="uc">Chapitre III
            <lb/>Les magistrats municipaux</head>
           <p>I. Origines du mot « consul ». – Nommés d’abord par le seigneur, ils furent ensuite choisis par la communauté elle-même. Alphonse de Poitiers conteste aux Toulousains le droit de nomination directe. L’ordonnance de 1283 et le choix des magistrats municipaux.</p>
@@ -90,7 +88,7 @@
           <p>HL <hi rend="i">Etendue de la juridiction consulaire.</hi> – La Cité, le Bourg, la banlieue. Origine de la banlieue ; son développement progressif à la fin du <num>xii<hi rend="sup">e</hi></num> siècle et en 1226. Condition des habitants de la banlieue.</p>
           <p>IV. <hi rend="i">Du tribunal consulaire.</hi> – Il siège à la maison commune, dès la fin du <num>xii<hi rend="sup">e</hi></num> siècle. Les jugements ont lieu d’abord en présence de prud’hommes, qui approuvent la sentence ; à partir du <num>xiii<hi rend="sup">e</hi></num> siècle, les magistrats municipaux jugent seuls. – Notaires, avocats, sergents, « tubicinator ». Leur rôle.</p>
         </div>
-        <div>
+        <div xml:id="r343666">
           <pb source="https://nakala.fr/10.34847/nkl.0f56x25f#e4fdeb3f4b42ed86a16080a71e70ebd8757f31c1" n="128" facs="https://api.nakala.fr/iiif/10.34847/nkl.0f56x25f/e4fdeb3f4b42ed86a16080a71e70ebd8757f31c1/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les justiciables</head>
@@ -99,9 +97,9 @@
           <p>III. <hi rend="i">Les Juifs.</hi> – Leur condition, avant l’avènement d’Alphonse. Incertitudes et conflits des juridictions rivales à leur égard.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r343714">
         <head rend="uc">Deuxième partie</head>
-        <div>
+        <div xml:id="r343720">
           <head rend="uc">Chapitre premier
            <lb/>la juridiction civile</head>
           <p>1. Elle n’est exercée que par les plus grandes cités du Midi. Ses origines sont celles de la juridiction consulaire, à Toulouse. La juridiction civile des consuls jusqu’au début du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
@@ -112,7 +110,7 @@
           <p>VI. <hi rend="i">Les tribunaux d’arbitrage</hi>. – Leur persistance, au <num>xiii<hi rend="sup">e</hi></num> siècle, à côté des tribunaux ordinaires. Leur fonctionnement et leur compétence. La juridiction consulaire tend à devenir juridiction d’appel des sentences arbitrales.</p>
           <p>VI. <hi rend="i">Juridiction de simple police.</hi> – La cour mineure ou cour « pauque ».</p>
         </div>
-        <div>
+        <div xml:id="r343812">
           <head rend="uc">Chapitre II
            <lb/>La juridiction criminelle</head>
           <p>I. <hi rend="i">Ses origines.</hi> – Les consuls d’abord juges de la cour du comte en matière criminelle. – La juridiction criminelle apparaît en 1189. Les progrès de la compétence criminelle des consuls dans ses rapports avec la guerre des Albigeois. Elle est définitivement acquise en 1226 par les magistrats municipaux, qui jugent seuls à l’exclusion du viguier. Alphonse de Poitiers donne au viguier la connaissance des crimes. Démêlés fréquents entre la com<pb source="https://nakala.fr/10.34847/nkl.0f56x25f#8e4191a7a0ef84d95124f753a385029460e43a1d" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.0f56x25f/8e4191a7a0ef84d95124f753a385029460e43a1d/full/full/0/default.jpg"/>mune de Toulouse et le viguier, au sujet de leur compétence respective en matière criminelle. – L’ordonnance de 1283 crée un tribunal unique, composé des consuls et présidé par le viguier.</p>
@@ -120,7 +118,7 @@
           <p>III. <hi rend="i">Preuves.</hi> – Aveu ; preuve par enquête ; preuve par témoins. Le témoignage des femmes est admis, en matière criminelle, à défaut du témoignage par hommes. – -Peines : bannissement, confiscation de biens, pilori, amendes. – Les prisons : la prison des consuls, dans la maison commune, ne paraît applicable qu’aux flagrants délits et aux débiteurs. – La prison comtale du Château Narbonnais est, de plus, applicable à tous les condamnés. Régime des prisonniers. Voie d’exécution des jugements.</p>
           <p>IV. <hi rend="i">Appel des sentences consulaires, introduit à Toulouse par l’ordonnance d’Alphonse de Poitiers de</hi> 1254. – Réglementation de l’appel. Les juges d’appeaux, distincts des juges ordinaires, apparaissent dans le Midi vers 1268. – Rôle du parlement, sous Philippe le Hardi, comme tribunal d’appel. Protestations des consuls contre l’appel.</p>
         </div>
-        <div>
+        <div xml:id="r343854">
           <head rend="uc">Chapitre III
            <lb/>La juridiction gracieuse</head>
           <p>I. <hi rend="i">Ses origines.</hi> – Les consuls de Toulouse témoins légaux. Influence du droit romain sur le développement de cette juridiction pendant le <num>xiii<hi rend="sup">e</hi></num> siècle.</p>

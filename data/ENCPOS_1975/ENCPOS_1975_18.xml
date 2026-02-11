@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_18" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_18" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -56,17 +54,17 @@
         <surname>Lefèvre</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1004993">
         <head rend="uc">Introduction</head>
         <p>Conçu, ainsi que plusieurs autres thèses de l’École des chartes, comme une contribution à la collection des <hi rend="i">Documents linguistiques de la France, </hi>dont deux volumes ont déjà été publiés, le présent travail réunit 165 chartes françaises s’échelonnant de septembre 1233, date du premier original en langue vulgaire, au début de l’année 1261.</p>
       </div>
-      <div>
+      <div xml:id="r1005007">
         <head rend="uc">Sources</head>
         <p>Les documents étudiés sont conservés principalement aux Archives départementales du Doubs. La série B, en particulier, a fourni 126 originaux ainsi que de nombreux vidimus établis en 1306 par la prévôté de Paris. Les séries E, G et H, avec respectivement 9, 2 et 27 actes, ont apporté un complément important.</p>
         <p>Les Archives hospitalières de Besançon ne renferment qu’un seul acte français antérieur à 1261.</p>
         <p>Enfin, les Archives communales de Besançon ont fourni deux actes.</p>
       </div>
-      <div>
+      <div xml:id="r1005023">
         <pb source="https://nakala.fr/10.34847/nkl.7653383t#4338c6b2fa4cdf33aab3df9f5e6fc28649598e2c" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.7653383t/4338c6b2fa4cdf33aab3df9f5e6fc28649598e2c/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre premier
          <lb/>l’élaboration des actes</head>
@@ -75,7 +73,7 @@
         <p>Les scribes avaient l’habitude d’établir la minute d’un acte avant d’en rédiger l’expédition, comme le montrent des lambeaux de minute, portant un texte abrégé et parfois plus dialectal, qui ont subsisté car on les a utilisées comme doubles queues pour suspendre le sceau.</p>
         <p>Plusieurs doubles expéditions ont été retrouvées, dont l’une est établie en latin et en français.</p>
       </div>
-      <div>
+      <div xml:id="r1005049">
         <head rend="uc">Chapitre II
          <lb/>L’apparition du français</head>
         <p>La progression du français dans les actes peut être étudiée sur un nombre relativement élevé de documents grâce à quatre cartulaires comtois, le <hi rend="i">Cartulaire des salines,</hi> le <hi rend="i">Cartulaire de Hugues de Chalon,</hi> le <hi rend="i">Cartulaire de Montfaucon</hi> et le <hi rend="i">Cartulaire des comtes de Bourgogne.</hi> Après des débuts timides entre 1231 et 1240, le français gagne soudainement plus de 70 % des actes entre 1241 et 1250, sauf dans le <hi rend="i">Cartulaire des salines.</hi> Ce dernier rattrape son retard entre 1251 et 1260, période au cours de laquelle la progression de la langue vulgaire continue à un rythme plus modéré, passant de 70 % à plus de 80 % d’actes français. La langue vulgaire poursuit son extension dans la décennie suivante où 80 à 89 % des chartes sont rédigées en français.</p>
@@ -89,22 +87,22 @@
         <p>Le français apparaît d’abord dans des actes concernant la région de Salins. Après 1250, l’aire géographique du français s’étend vers le nord, le long de la Saône et de l’Ognon, puis, après 1255, vers l’est.</p>
         <p>Plusieurs causes peuvent expliquer une extension aussi rapide de la langue vulgaire. L’importance prise par un public ne sachant pas le latin – le public noble en particulier – a sans doute représenté un facteur important. Il est possible que Jean, comte de Bourgogne et seigneur de Salins, ait favorisé l’emploi de la langue vulgaire dans sa chancellerie.</p>
       </div>
-      <div>
+      <div xml:id="r1005110">
         <head rend="uc">Tableaux morphologiques</head>
         <p>La flexion des substantifs se maintient dans la plupart des actes. Les manquements à la flexion affectent le plus souvent les noms propres et les appositions à ces noms propres.</p>
         <p>Les graphies témoignent d’une influence importante du français central. Par exemple, sur les six scribes de la chancellerie des comtes de Bourgogne, cinq emploient pour l’article la forme de cas-régime singulier <hi rend="i">le,</hi> un seul utilise la forme locale <hi rend="i">lo.</hi></p>
         <p>En ce qui concerne la morphologie verbale, la désinence dialectale <hi rend="i">-oi, </hi>– <hi rend="i">ois</hi> de la première personne de l’indicatif présent apparaît dans plusieurs actes ainsi que des formes franco-provençales en <hi rend="i">-o.</hi> On note, à la troisième personne du pluriel de l’indicatif et du subjonctif présent quelques formes en <hi rend="i">-ant, </hi>– <hi rend="i">ont</hi> qui sont accentuées sur la terminaison. Les formes de subjonctif présent en <hi rend="i">-oie</hi> sont assez bien représentées.</p>
       </div>
-      <div>
+      <div xml:id="r1005157">
         <head rend="uc">Conclusion</head>
         <p>L’influence des graphies communes est importante, en particulier à la chancellerie des comtes de Bourgogne. Cette influence se fait également sentir dans les textes du sud du département, où l’on s’attendrait à trouver un plus grand nombre de graphies franco-provençales.</p>
       </div>
-      <div>
+      <div xml:id="r1005167">
         <pb source="https://nakala.fr/10.34847/nkl.7653383t#357c11603ba2a013c9490170f1e06c925e76a98f" n="148" facs="https://api.nakala.fr/iiif/10.34847/nkl.7653383t/357c11603ba2a013c9490170f1e06c925e76a98f/full/full/0/default.jpg"/>
         <head rend="uc">Édition</head>
         <p>Édition de 161 originaux et de 4 actes non datés qui ont été regroupés en appendice.</p>
       </div>
-      <div>
+      <div xml:id="r1005182">
         <head rend="uc">Index</head>
         <p>Table des noms de personne et de lieu avec référence à une carte de la Franche-Comté au 1/500 000.</p>
       </div>

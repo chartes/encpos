@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,11 +55,11 @@
         <forename>Françoise</forename>
         <surname>Granges</surname>
       </byline>
-      <div>
+      <div xml:id="r984720">
         <head rend="uc">Sources</head>
         <p>Ont été utilisés pour cette étude des documents de diverse nature conservés soit aux Archives nationales (essentiellement dans les sous-séries 0<hi rend="sup">1</hi> et F<hi rend="sup">10</hi>), aux Archives départementales de la Corrèze, de la Creuse et de la Haute-Vienne (surtout dans la série M), au haras national de Pompadour et dans les archives privées du haras de Nexon et du château de Combas, établissements situés tous deux en Haute-Vienne.</p>
       </div>
-      <div>
+      <div xml:id="r984738">
         <head rend="uc">Introduction</head>
         <p>La race chevaline du Limousin, bien qu’elle ait joui depuis des temps très anciens d’une grande renommée à travers toute l’Europe, n’a jamais été étudiée en profondeur à partir des documents originaux, car hippologues ou érudits locaux se contentaient de retranscrire, fidèle ou embellie, la légende que les siècles précédents avaient forgée à son propos.</p>
         <pb source="https://nakala.fr/10.34847/nkl.5337cv1f#1a85cce1b31a7ccf2f807423bb46ead02fbb134b" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.5337cv1f/1a85cce1b31a7ccf2f807423bb46ead02fbb134b/full/full/0/default.jpg"/>
@@ -69,16 +67,16 @@
         <p>Dès l’époque préhistorique, comme en témoignent les figurations rupestres de Lascaux notamment, cette contrée connut la présence du cheval, précocement modifié par les alliances répétées avec des reproducteurs étrangers : si ce cheval indigène bénéficia surtout de l’influence des fines races orientales, pour lesquelles il montra constamment une particulière affinité, il fut souvent croisé, à défaut, avec l’espagnol, ou encore, sans grand succès, avec des représentants des espèces massives, communes et lymphatiques du Nord de l’Europe.</p>
         <p>Façonné par ces divers éléments, c’était un animal de petite taille (1,40 m à 1,55 m), fortement charpenté, élégant et énergique, qui présentait des variantes locales : plus distingué en Haute-Vienne, plus rustique en Creuse, il apparaissait de moindre mérite en Corrèze. Ses traditionnelles qualités d’adresse et d’endurance en firent un précieux compagnon de manège, de chasse, de guerre ou des simples travaux domestiques, avant de le promouvoir également au rang de coursier d’hippodrome.</p>
       </div>
-      <div>
+      <div xml:id="r984762">
         <head rend="uc">Première partie
          <lb/>L’ancien régime (jusqu’à 1791)</head>
-        <div>
+        <div xml:id="r984770">
           <head rend="uc">Chapitre premier
            <lb/>de l’Antiquité à l’âge classique (jusqu’à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle)</head>
           <p>Dès l’époque gauloise étaient à l’honneur en pays limousin la production et le commerce des chevaux, activités qui ne cessèrent de se développer à partir du Moyen Age, où nobles, ecclésiastiques et bourgeois se piquaient de posséder leurs haras particuliers, dans lesquels les pensionnaires étaient en général placés chez des métayers fréquemment fort négligents et peu soigneux.</p>
           <p>Les élèves issus de ces établissements étaient sur place d’un usage restreint, car les travaux agricoles y étaient effectués de préférence par les bœufs ou les mulets. A part les montures conservées pour le transport, l’agrément ou la bataille, la majorité des poulains (de 1690 à 1732 furent saillies chaque année <pb source="https://nakala.fr/10.34847/nkl.5337cv1f#0a7cf43b244f9c4c637881a37219383fcd61dc26" n="109" facs="https://api.nakala.fr/iiif/10.34847/nkl.5337cv1f/0a7cf43b244f9c4c637881a37219383fcd61dc26/full/full/0/default.jpg"/>environ 1 500 juments recensées) quittaient la province dès leur jeune âge, vendus directement aux amateurs, voire troqués, ou conduits aux foires de la région, dont les mieux achalandées se tenaient, au printemps et à l’automne, à Châlus et à Limoges, et qui permettaient à de nombreux seigneurs du Centre ou du Midi, principalement aquitains et espagnols, de se fournir en jeunes produits qu’ils finiraient d’élever avantageusement sur des sols plus riches.</p>
         </div>
-        <div>
+        <div xml:id="r984796">
           <head rend="uc">Chapitre II
            <lb/>L’intervention de l’état dans l’industrie chevaline du limousin
            <lb/>et la fondation du haras de Pompadour
@@ -87,7 +85,7 @@
           <p>Colbert, le premier, s’attacha à résoudre la crise, grâce à la promulgation, en 1665, d’un « Règlement » légèrement remanié en 1717, qui instituait le système des « gardes-étalons », particuliers agréés auxquels le roi fournissait des reproducteurs (200 étalons royaux environ furent ainsi placés en Limousin de 1690 à 1754) dont l’entretien était à la charge du bénéficiaire, moyennant l’octroi de divers privilèges et de la perception du prix du saut. D’autres mesures étaient en outre destinées à encourager les possesseurs de belles juments à les garder comme poulinières.</p>
           <p>Malheureusement, le manque d’argent et l’incompétence des responsables provinciaux entravèrent la réalisation de ce programme, auquel fut bientôt substituée l’implantation, dans les principales régions d’élevage, de dépôts centraux d’étalons tenus par des agents royaux capables : parmi les premiers établissements ainsi créés figure le haras de Pompadour, en Corrèze, ancienne possession seigneuriale des marquis du lieu, vendu en 1745 par le dernier héritier, le prince de Conti, à la favorite du roi Louis XV, Jeanne-Antoinette Poisson, qui y installa en 1751 un éphémère élevage, avant de s’en défaire à son tour, en 1760. Après être passées entre plusieurs mains, les terres de Pompadour échurent enfin au roi, par voie d’échange, le 25 mars 1761.</p>
         </div>
-        <div>
+        <div xml:id="r984830">
           <pb source="https://nakala.fr/10.34847/nkl.5337cv1f#9459855da686dbe0578368b589a157bc0bfacb5b" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.5337cv1f/9459855da686dbe0578368b589a157bc0bfacb5b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Grandeur et décadence du haras royal de Pompadour
@@ -97,10 +95,10 @@
           <p>Les dirigeants de l’établissement commirent l’erreur d’orienter délibérément leur politique de redressement vers la production de montures d’élite, dont l’entretien délicat et onéreux n’était accessible qu’à une petite coterie de propriétaires fortunés, tandis que la masse des éleveurs modestes, qui livraient la plupart de leurs poulains aux officiers de remonte de l’armée, s’estimaient lésés par ce favoritisme : aussi, malgré l’incontestable progrès numérique réalisé, les habitants consignèrent-ils dans leurs Cahiers de doléances de sévères griefs à l’encontre du haras royal, qui, conformément à leurs vœux, fut supprimé en mai 1791.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r984856">
         <head rend="uc">Deuxième partie
          <lb/>Le <num>xix<hi rend="sup">e</hi></num> et le début du <num>xx<hi rend="sup">e</hi></num> siècle (1791-1914)</head>
-        <div>
+        <div xml:id="r984876">
           <head rend="uc">Chapitre premier
            <lb/>les tentatives de reconstruction post-révolutionnaires
            <lb/>(1791-1833)</head>
@@ -108,14 +106,14 @@
           <p>Résultats tangibles des considérables efforts financiers et hippologiques entrepris alors, on constata dès les années suivantes une nette augmentation dans le nombre des juments menées chaque printemps à la saillie des étalons de l’État, un afflux croissant de poulains et de clients aux foires de la région, ainsi qu’une sensible bonification dans le type des produits indigènes.</p>
           <p>Mais ce progrès fut interrompu par la brutale suppression, en 1825, de la jumenterie de Pompadour, à un moment où le modèle que l’on y prônait, celui du métis indigène fortement teinté de sang oriental, succombait devant le pur-sang anglais, prodige de vitesse dont la mise en vedette se légitimait par l’importation, grâce aux émigrés, des goûts britanniques, ainsi que par l’amélioration générale des conditions de transport. Néanmoins, l’établissement corrézien retrouva son titre de haras en 1833.</p>
         </div>
-        <div>
+        <div xml:id="r984901">
           <head rend="uc">Chapitre II
            <lb/>Le relèvement du haras de Pompadour
            <lb/>et la création de la race anglo-arabe (1833-1861)</head>
           <p>La renaissance du haras de Pompadour eut pour artisan Antoine de Lespinats, nommé directeur en 1834, qui se préoccupa d’aménager rationnellement les pacages, de surveiller l’alimentation et l’hygiène des pensionnaires, de leur offrir un exercice approprié. L’entreprise une fois lancée, son successeur Eugène Gayot (1843-1846) put se consacrer à mettre en pratique le projet longuement mûri de créer un « pur-sang français », l’anglo-arabe, héritier à la fois de la rapidité de l’anglais et de la résistance de l’arabe ; il ne négligea cependant pas de favoriser l’élevage du cheval indigène, en collaboration avec la Société d’encouragement de Pompadour, fondée en 1843, organisatrice de l’exportation des poulains limousins dans des provinces plus riches et donatrice de primes ainsi que de prix de course.</p>
           <p>Cette œuvre fut de nouveau mise en péril par la suppression, en 1861, de la jumenterie de Pompadour, à cause de l’ascension d’une nouvelle vedette : le demi-sang normand, carrossier le plus apte à tirer d’importants véhicules à allures vives, en rapport avec les exigences des communications du temps.</p>
         </div>
-        <div>
+        <div xml:id="r984918">
           <head rend="uc">Chapitre III
            <lb/>Heurs et malheurs du limousin hippique :
            <lb/>l’anglo-normand et le demi-sang limousin (1861-1914)</head>
@@ -125,27 +123,27 @@
           <p>Ainsi, au début du <num>xx<hi rend="sup">e</hi></num> siècle, les éleveurs limousins, soutenus par les libéralités gouvernementales (distribution de primes aux chevaux de selle et de service, fourniture par l’armée de juments réformées aptes à devenir poulinières) et par l’action d’organismes locaux (syndicats hippiques, écoles de dressage), étaient enfin parvenus à faire naître un animal utile et rentable, aussi satisfaisant pour les producteurs que pour les acheteurs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r984953">
         <head rend="uc">Troisième partie
          <lb/>Une institution en marge : les courses
          <lb/>(1808-1914)</head>
-        <div>
+        <div xml:id="r984963">
           <head rend="uc">Chapitre premier
            <lb/>les courses de Tulle (1808-1814)</head>
           <p>Instituées en application du décret impérial du 13 fructidor an XIII, les premières courses officielles disputées en Limousin furent établies en Corrèze. Dans ce département où sévissait, à la suite de la tourmente révolutionnaire, un grave marasme de l’industrie chevaline, les débuts, en 1808, des <pb source="https://nakala.fr/10.34847/nkl.5337cv1f#5e4f8110113548bb9b73319a581e48381a84dab3" n="113" facs="https://api.nakala.fr/iiif/10.34847/nkl.5337cv1f/5e4f8110113548bb9b73319a581e48381a84dab3/full/full/0/default.jpg"/>luttes de vitesse sur l’hippodrome rudimentaire des Champs de Bras, près de Tulle, furent évidemment laborieux et décevants, mais, au fil des années, l’institution prit un certain essor. Elle souffrit toutefois, à partir de 1820, de la concurrence des courses récemment inaugurées à Limoges, dont le succès consacra sa perte, après 1824.</p>
           <p>A cette initiative éphémère et imparfaite revient en tout cas le mérite d’avoir démontré l’utilité de l’instauration des courses en Limousin, source d’un appréciable secours financier pour les éleveurs, en même temps que banc d’essai loyal et support publicitaire pour les futurs reproducteurs.</p>
         </div>
-        <div>
+        <div xml:id="r984983">
           <head rend="uc">Chapitre II
            <lb/>Les courses de Limoges (1820-1914)</head>
           <p>Autorisées par décret du 27 mars 1820, les courses de Limoges bénéficièrent d’emblée d’avantages refusés à leurs devancières, dans leurs statuts comme dans leurs dates. Après des débuts hésitants, le choix du terrain se fixa définitivement sur le lieudit de Texonniéras, aux abords de la cité, et les épreuves ne tardèrent pas à attirer un vaste public, à mesure que le nombre des concurrents s’accroissait, que le montant des allocations augmentait et que le sport gagnait en âpreté avec l’entrée en scène des pur-sang anglais, détrônant les coursiers indigènes. La générosité de divers donateurs permit d’élargir considérablement l’éventail des prix proposés aux participants, dominés par le sommet de la saison, le prix Impérial, rebaptisé National en 1872.</p>
         </div>
-        <div>
+        <div xml:id="r984995">
           <head rend="uc">Chapitre III
            <lb/>Les courses de Pompadour (1837-1914)</head>
           <p>Leur fondation tire son origine d’une initiative d’Antoine de Lespinats, alors directeur du haras de Pompadour, désireux de soumettre ses pensionnaires à l’épreuve publique, afin de parfaire leur éducation. La vaste prairie située en contrebas du château fut donc aménagée en hippodrome, où en 1837 eurent lieu les premières joutes, qui faisaient alterner des « courses d’essai » (supprimées en 1846) réservées aux élèves du haras, et des épreuves ouvertes aux concurrents de la région. Grâce à la collaboration d’associations provinciales dévouées à la cause hippique, les organisateurs purent améliorer progressivement la configuration du terrain et créer de nombreuses épreuves attrayantes et richement dotées, dont la plus importante fut le Grand Prix du Midi (1850-1863).</p>
         </div>
-        <div>
+        <div xml:id="r985007">
           <pb source="https://nakala.fr/10.34847/nkl.5337cv1f#35f88ca703f0df939d1870a973e3cdd2b3a4ce4d" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.5337cv1f/35f88ca703f0df939d1870a973e3cdd2b3a4ce4d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Les hippodromes secondaires : le dorat et Guéret
@@ -153,12 +151,12 @@
           <p>L’établissement des champs de course secondaires du Limousin, parmi lesquels se distinguent Le Dorât, en Haute-Vienne, créé en 1864, et son cadet Guéret, dans la Creuse, ouvert en 1882, avait pour but principal de combler une lacune importante : le manque d’épreuves de sélection, dans le programme des grands hippodromes, pour les chevaux étrangers aux races pures, en vue de faciliter l’adaptation du produit indigène aux exigences nouvelles du commerce et des remontes militaires. Aussi les réunions étaient-elles essentiellement composées de courses de trot ou d’obstacles, qui permettaient de faire connaître les élèves des petits naisseurs locaux, incapables de lutter à armes égales avec les ténors de la spécialité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r985027">
         <head rend="uc">Conclusion</head>
         <p>Souvent honni, comme tous les autres haras de l’État, par les tribuns de l’administration et par les éleveurs de la circonscription, ligués pour lui reprocher son gaspillage, sa politique idéaliste et son inefficacité, le haras de Pompadour a cependant prouvé sa légitimité, puisque ses éclipses ont toujours été éphémères. Même dans les moments les plus critiques, il a su jouer son double rôle de conservateur et d’améliorateur de la race chevaline du Limousin.</p>
         <p>A la veille de la Première Guerre mondiale, il se consacre à produire un cheval à la fois élégant, souple et robuste, dont les qualités lui permettront, au retour de la paix, de quitter aisément le métier des armes où il est devenu inutile, pour devenir un athlète universellement apprécié dans toutes les disciplines du sport équestre.</p>
       </div>
-      <div>
+      <div xml:id="r985040">
         <head rend="uc">Documents</head>
         <p>Les pièces justificatives (cartes, plans, graphiques et illustrations) sont réparties dans les chapitres auxquels elles se rapportent ; à la fin du volume sont joints en annexe : un résumé chronologique, des notices sur les principaux haras particuliers du Limousin, et un livre d’or, accompagné de lithographies et de photographies, des chevaux du haras de Pompadour (lignées maternelles et étalons).</p>
       </div>

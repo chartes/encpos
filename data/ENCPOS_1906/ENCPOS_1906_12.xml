@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1906_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1906_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,10 +65,10 @@
         <head rend="uc">Introduction historique et géographique</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r301613">
         <head rend="uc">Première partie
          <lb/>Le gouvernement de Vienne</head>
-        <div>
+        <div xml:id="r301621">
           <head rend="uc">Chapitre premier
            <lb/>l’archevêque de Vienne</head>
           <p>L’Église de Vienne disputa la primatie des Gaules à celle d’Arles. Le pape Calixte II donna aux archevêques de Vienne le titre de primat (1119 et 1120). Il fixa les limites de la province de Vienne. Étendue du diocèse. L’official, juge <pb source="https://nakala.fr/10.34847/nkl.1bcdsb13#48d8bc72c8632a46d614f85c15378c57471265c7" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.1bcdsb13/48d8bc72c8632a46d614f85c15378c57471265c7/full/full/0/default.jpg"/>du for ecclésiastique, prétend recevoir l’appel des tribunaux temporels.</p>
@@ -79,20 +77,20 @@
           <p>L’archevêque possède à Vienne la juridiction temporelle. Cette juridiction fut d’abord exercée par le mistral, assisté d’un juge et d’un courrier ; puis, après la suppression du mistral par le pape Jean XXII (1320), par une cour appelée cour temporelle ou cour séculière.</p>
           <p>L’archevêque perçoit des redevances sur les cultivateurs et les ouvriers de la ville ; il a le droit de banvin ; il bat monnaie jusque vers le milieu du quatorzième siècle.</p>
         </div>
-        <div>
+        <div xml:id="r301650">
           <head rend="uc">Chapitre II
            <lb/>Le chapitre de l’église Saint-Maurice de Vienne</head>
           <p>Le chapitre formait à l’origine un corps d’environ trois cents personnes. Il était riche : la mense capitulaire fut séparée de la mense archiépiscopale en 1285. 11 avait des domaines propres : Communay, Saint-Clair, une partie de Reventin. Il était indépendant de la juridiction de l’archevêque.</p>
           <p>Le chapitre était en décadence au quatorzième siècle ; l’archevêque Bertrand de la Chapelle entreprit de le réformer (1328).</p>
         </div>
-        <div>
+        <div xml:id="r301665">
           <head rend="uc">Chapitre III
            <lb/>Les comtes de Vienne</head>
           <p>Leur origine est très obscure. Ce titre, porté au douzième siècle par les comtes de Mâcon, appartient au quatorzième <pb source="https://nakala.fr/10.34847/nkl.1bcdsb13#d1a5f490e2e5894f74169eb6dbca0102785450be" n="85" facs="https://api.nakala.fr/iiif/10.34847/nkl.1bcdsb13/d1a5f490e2e5894f74169eb6dbca0102785450be/full/full/0/default.jpg"/>à l’archevêque de Vienne (par suite de l’achat fait, on 1263, à Hugues de Pagny) et au comte d’Albon, dauphin de Viennois.</p>
           <p>Les comtes de Vienne ont juridiction sur une partie de la ville de Vienne. Cette juridiction, exercée d’abord par un mistral, qui était toujours de la famille de Beauvoir, le fut ensuite par la cour commune des comtes. Attributions judiciaires de cette cour. Elle perçoit un droit de leide sur les marchandises vendues – ce droit est doublé pendant les foires des comtes, du 11 au 26 novembre – et des redevances sur divers métiers.</p>
           <p>L’existence de deux juridictions temporelles, celle de l’archevêque et celle des comtes, est une cause de conflits continuels.</p>
         </div>
-        <div>
+        <div xml:id="r301688">
           <head rend="uc">Chapitre IV
            <lb/>Administration municipale de Vienne</head>
           <p>Huit consuls sont élus chaque année. L’élection, faite à une date et dans un lieu variables, à la fin du quatorzième et au début du quinzième siècle, a toujours lieu, après 1425, le 1<hi rend="sup">er</hi> janvier, dans la chapelle Saint-Sauveur, au monastère de Saint-André-le-Bas. Sont électeurs les consuls de l’année écoulée, les bannerets, les pennonniers, des bourgeois en nombre variable. Quatre consuls sont choisis dans la paroisse de Saint-Pierre-entre-Juifs, appelée aussi paroisse de l’Orme ou grande paroisse ; les paroisses de Saint-Martin, Saint-Sévère, Saint-André-le-Haut, Saint-Georges ou Fuissin élisent chacune un consul. Les consuls étaient rééligibles plusieurs fois. Avant d’entrer en charge, ils prêtaient un serment de fidélité à l’archevêque et aux comtes de Vienne. Les consuls devaient s’assembler chaque vendredi dans la chapelle de Saint-Sauveur ; les absents payaient une amende. Ils délibéraient avec les bannerets, les pennonniers et un certain nombre de bourgeois. Malgré les règlements, il n’y a pas eu de lieu fixe pour les réunions.</p>
@@ -102,10 +100,10 @@
           <p>Les bannerets et les pennonniers sont les commandants de la milice locale. Le procureur est chargé de représenter la ville en justice. Les conseillers assistent les consuls dans leurs délibérations. Le trésorier perçoit le montant des tailles. Le notaire tient registre des décisions consulaires. Il y a enfin un crieur public, un mandeur, des sergents.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r301719">
         <head rend="uc">Deuxième partie
          <lb/>La conquête de Vienne par les rois de France</head>
-        <div>
+        <div xml:id="r301727">
           <head rend="uc">Chapitre premier
            <lb/>Bertrand de la chapelle (1328-1352)</head>
           <p>La première affaire importante qui l’occupe est l’annexion de Sainte-Colombe, faubourg de Vienne, sur la rive droite du Rhône. Philippe VI de Valois propose à l’archevêque de Vienne un traité de pariage (juin 1333). L’archevêque <pb source="https://nakala.fr/10.34847/nkl.1bcdsb13#ef7472e73c5edd45558b255f6ec24ba091d22989" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.1bcdsb13/ef7472e73c5edd45558b255f6ec24ba091d22989/full/full/0/default.jpg"/>hésite à l’accepter ; le dauphin Humbert II et le chapitre de Saint-Maurice protestent. Le roi incorpore Sainte-Colombe au royaume (18 mars 1335) ; il offre une compensation à l’archevêque et achète le consentement de Humbert II (17 juillet 1335). Le chapitre croit que l’archevêque a cédé volontairement Sainte-Colombe. La discorde commence entre eux.</p>
@@ -113,13 +111,13 @@
           <p>Humbert II cherche une revanche : il s’empare de la ville de Romans, propriété de l’Église romaine et de l’archevêque de Vienne (février 1342). Frappé d’excommunication, il demande à être absous et restitue la ville (28 mars 1342). Le 31 juillet 1344, le Pape Clément VI lui donne en fief ce qu’il possédait à Romans.</p>
           <p>La ville de Vienne n’est pas comprise dans la cession du Dauphiné à la France. Bertrand de la Chapelle reçoit l’hommage de Humbert H (1<hi rend="sup">er</hi> septembre 1345) et de Charles, petit-fils de Philippe VI (2 août 1349).</p>
         </div>
-        <div>
+        <div xml:id="r301757">
           <head rend="uc">Chapitre II
            <lb/>De la mort de Bertrand de la chapelle à l’élection
            <lb/>de Humbert de Montchal (1352-1377)</head>
           <p>Pierre Bertrand, abbé de Saint-Serge d’Angers, est nommé archevêque de Vienne par Clément VI (3 octobre 1352). Menacé par l’ambition du roi de France, il obtient de l’em<pb source="https://nakala.fr/10.34847/nkl.1bcdsb13#bc19d4bb3381f8ee4aebd7f7f2e2a2f711cdda8f" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.1bcdsb13/bc19d4bb3381f8ee4aebd7f7f2e2a2f711cdda8f/full/full/0/default.jpg"/>pereur Charles IV la confirmation des privilèges de l’Église de Vienne (5 avril 1355). Suspendu par le pape Innocent VI en 1356 et 1360, Pierre Bertrand résigna sa dignité d’archevêque en mars 1362. Son successeur, Pierre Ameil, abbé de Saint-Bénigne de Dijon, ne fit que passer sur le siège de Vienne. Celte Église fut alors administrée pendant quinze ans (1362-1377) par Louis de Villars, évêque de Valence et de Die. Ce ne fut pas une période paisible pour l’Église et la ville de Vienne.</p>
         </div>
-        <div>
+        <div xml:id="r301776">
           <head rend="uc">Chapitre III
            <lb/>Le vicariat impérial à Vienne</head>
           <p>Humbert de Montchal, official du Puy, est élu archevêque de Vienne à la demande des clercs et des laïques.</p>
@@ -128,7 +126,7 @@
           <p>Lors de son voyage en Languedoc, Charles VI passe à Vienne (21 octobre 1389 et 4 février 1390). Il confirme les privilèges de la ville (mai 1391).</p>
           <p>Depuis 1389 on travaille aux fortifications, on met la ville en état de défense ; mais elle n’est pas attaquée et vit relativement heureuse, grâce au traité de pariage entre l’archevêque et le dauphin.</p>
         </div>
-        <div>
+        <div xml:id="r301800">
           <pb source="https://nakala.fr/10.34847/nkl.1bcdsb13#501ac2b33124071277a879a1589dfdbdcee0d9f4" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.1bcdsb13/501ac2b33124071277a879a1589dfdbdcee0d9f4/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Thibaud de Rougemont</head>
@@ -139,7 +137,7 @@
           <p>La guerre continue en Dauphiné. Boucicaut expulse les compagnies qui le ravagent (octobre 1403).</p>
           <p>Les conflits de juridiction recommencent à Vienne après le départ des commissaires. Le roi confisque le temporel de l’archevêque (4 septembre 1404). Boucicaut vient à Vienne et fait exécuter ces lettres (20 octobre). L’archevêque l’excommunie (22 octobre). Le 18 décembre 1404, le roi condamne l’archevêque à diverses amendes. – Thibaut de Rougemont quitte Vienne et passe à Besançon (20 février 1405).</p>
         </div>
-        <div>
+        <div xml:id="r301849">
           <head rend="uc">Chapitre V
            <lb/>Jean de Nant (1405-1423)</head>
           <p>Jean de Nant absout de l’excommunication le gouverneur et les officiers delphinaux. Il recouvre son temporel (2 octobre 1405). – Le roi règle les droits respectifs de la cour temporelle de l’archevêque et de la cour des comtes (11 août 1406).</p>
@@ -149,7 +147,7 @@
           <p>Le dauphin Charles passe à Vienne ; le chapitre lui confie pour quatre ans la garde du château de Pipet (9 février 1420).</p>
           <p>Jean de Nant est nommé évêque de Paris le 25 juin 1423.</p>
         </div>
-        <div>
+        <div xml:id="r301878">
           <head rend="uc">Chapitre VI
            <lb/>Jean de Norry et Geoffroy vassal (1423-1446)</head>
           <p>Jean de Norry, conseiller du dauphin, archevêque élu de Sens, arrive à Vienne le 10 octobre 1423.</p>
@@ -160,7 +158,7 @@
           <p>Jean de Norry, nommé archevêque de Besançon, meurt le 15 octobre 1438. – Son successeur, Geoffroy Vassal, entre à Vienne le 16 octobre 1440 et confirme les privilèges de la ville. – Les conflits continuent entre ses officiers et ceux du dauphin. Les officiers delphinaux interviennent, pour faire respecter la Pragmatique Sanction, dans une querelle entre des ecclésiastiques de Vienne : c’est une occasion pour <pb source="https://nakala.fr/10.34847/nkl.1bcdsb13#d0b0306ac44ccda44fde3c49d243a21bb6deac1e" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.1bcdsb13/d0b0306ac44ccda44fde3c49d243a21bb6deac1e/full/full/0/default.jpg"/>l’archevêque et le chapitre de proclamer leur indépendance (1442).</p>
           <p>Nommé archevêque de Lyon en 1444, Geoffroy Vassal meurt en 1446. Le chapitre élit Louis de Poitiers, neveu de Jean de Poitiers, évêque de Valence et de Die.</p>
         </div>
-        <div>
+        <div xml:id="r301913">
           <head rend="uc">Chapitre VII
            <lb/>Le dauphin Louis et Vienne</head>
           <p>Le dauphin Louis passe à Vienne le 23 janvier 1447. Il décide Louis de Poitiers, archevêque élu de Vienne, à permuter avec son oncle Jean de Poitiers. Le 22 août 1448, il nomme des commissaires pour défendre ses droits à Vienne, interdit à l’official de s’occuper de la justice temporelle, demande l’hommage des Viennois. Le 31 octobre 1448, à Chabeuil, deux consuls, au nom des habitants de Vienne, font hommage au dauphin, qui confirme les libertés de la ville.</p>
@@ -170,7 +168,7 @@
           <p>Jean de Poitiers résigne l’archevêché de Vienne. Charles VII et son fils présentent chacun un candidat à sa succession. Celui du dauphin l’emporte : c’est Antoine de Poisieu, abbé de Saint-Pierre de Vienne (22 janvier 1453). En compensation de la suzeraineté de Vienne, il reçoit les châteaux de Revel en Viennois et d’Azieu en Velin (28 mars 1454).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r301940">
         <head rend="uc">Appendices</head>
         <p>I. Les suscriptions des archevêques de Vienne.</p>
         <p>II. Note sur les monnaies employées à Vienne.</p>

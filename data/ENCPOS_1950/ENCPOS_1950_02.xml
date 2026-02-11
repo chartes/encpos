@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1950_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1950_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,7 +59,7 @@
         <head rend="uc">Avant-propos</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r711109">
         <head rend="uc">Introduction
          <lb/>le château en 1643.</head>
         <p>Louis XIV reçoit de son père un château datant essentiellement de la Renaissance et d’Henri IV, et remis à neuf de 1639 à 1642.</p>
@@ -70,97 +68,97 @@
         <p>L’appartement des reines mères s’étend, entre la Cour du Cheval blanc et celle des Fontaines, dans un corps d’hôtel, puis dans le Pavillon des <pb source="https://nakala.fr/10.34847/nkl.864584q0#5d9674207102c1ba6fed01bb4bf5bed89a32b9aa" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.864584q0/5d9674207102c1ba6fed01bb4bf5bed89a32b9aa/full/full/0/default.jpg"/>Poètes, au premier étage. Il comprend une Salle des gardes, une antichambre, une autre salle dans le corps d’hôtel, la chambre d’Henri II, une autre salle dans le Pavillon, et, en avant de celui-ci, le cabinet d’Henri H, ou Cabinet doré, et une terrasse, qui dominent l’étang.</p>
         <p>La Galerie de François I<hi rend="sup">er</hi> ne fut doublée qu’en 1786, celle d’Ulysse détruite en 1737. C’est sous Louis XIV, en 1697, qu’on détruisit sous la première l’appartement des Bains. Le Jardin de Diane est entouré par les Galeries de Diane et des Cerfs, la Volière et la Galerie des chevreuils ; ces deux derniers bâtiments ont disparu sous Louis-Philippe. Napoléon a démoli l’aile occidentale de la Cour du Cheval blanc. Il faut donc rétablir par la pensée ces bâtiments dans leur existence ou leur état antérieur.</p>
       </div>
-      <div>
+      <div xml:id="r711142">
         <head rend="uc">Première partie
          <lb/>Les préparatifs d’un séjour</head>
-        <div>
+        <div xml:id="r711150">
           <head rend="uc">Chapitre premier
            <lb/>entretien et travaux au château.</head>
           <p>Des familles d’officiers occupent les conciergeries et certains offices depuis des générations. Les architectes font de menus travaux d’installation. Les grandes dates topographiques sont : 1654, salle de billard, sur la terrasse entre le Cabinet doré et la galerie d’Ulysse ; 1688, escalier dit de François I<hi rend="sup">er</hi>, entre la Galerie de ce nom et la Chapelle de la Trinité ; 1697, destruction des Étuves ; 1700, aile neuve sur la cour de la Conciergerie ou aile des Princes et, pour la cour, nouveau nom : cour des Princes ; 1713-1714, les changements de l’appartement du roi.</p>
         </div>
-        <div>
+        <div xml:id="r711166">
           <head rend="uc">Chapitre II
            <lb/>L’aménagement du mobilier.</head>
           <p>Le transport, par portefaix, bateau ou voiture, est assuré par le Garde-Meuble ou des voituriers. De plus en plus, après 1677, un certain mobilier attitré figure à Fontainebleau ; il ne faut ni exagérer ni sous-estimer son importance.</p>
         </div>
-        <div>
+        <div xml:id="r711178">
           <head rend="uc">Chapitre III
            <lb/>Voyages de la cour.</head>
           <p>Les voyages ont lieu en carrosses ou en bateau, pour les malades et les princesses enceintes. Service régulier de Paris à Valvins, certainement depuis 1679. Voyage annuel ou presque, sauf de 1666 à 1677.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r711191">
         <pb source="https://nakala.fr/10.34847/nkl.864584q0#e0d59a2951c5581b03f08d99bccada480a89036e" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.864584q0/e0d59a2951c5581b03f08d99bccada480a89036e/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Le cadre d’un séjour, topographie,
          <lb/>décoration et mobilier</head>
-        <div>
+        <div xml:id="r711206">
           <head rend="uc">Chapitre premier
            <lb/>l’appartement du roi.</head>
           <p>De 1643 à 1713, les problèmes sont de confusion de noms de salles ou de localisation de meubles. Y avait-il un grand et un petit appartement ? une chambre de parade ? Il y avait en tout cas une petite garde-robe près de la fenêtre de l’Antichambre de saint Louis sur le jardin. La gravure de Bosse (contrat de mariage de Marie de Gonzague) n’est pas très exacte en sa représentation de la chambre du roi ; Le Brun, en 1671, l’est davantage, mais ne montre sans doute pas dans la tapisserie de l’audience du Légat le cadre de l’audience fameuse, donnée sept ans auparavant. Le meuble n° 96<note><p>Les numéros des meubles sont ceux de J. Guiffrey, <hi rend="i">Inventaire général du mobilier de la Cour sous Louis XIV,</hi> t. II (Paris, 1886). Après le n° 2054, l’Inventaire original est perdu : il faut recourir au Journal du Garde-Meuble.</p></note>, en taffetas blanc, fut, au moins, le plus employé dans la chambre du roi, surtout après 1685. En 1713-1714, l’Antichambre de saint Louis perd sa fenêtre sur le jardin, mais gagne un vestibule. L’escalier du jardin et l’oratoire de 1643, un coin libre entre ces petites pièces et la Galerie de François I<hi rend="sup">er</hi>, fournissent l’espace de ce vestibule ; la petite chambre s’agrandit et devient Premier cabinet ; la chambre s’étend au détriment du Cabinet des empereurs. Parallèlement, le mobilier est renouvelé : le n° 2118 (meuble d’étoffes de Perse), la commode de Boulle n° 818 serviront après Louis XIV à Louis XV dans cette même chambre du roi.</p>
         </div>
-        <div>
+        <div xml:id="r711230">
           <head rend="uc">Chapitre II
            <lb/>L’appartement de la reine.</head>
           <p>L’appartement est habité jusqu’en 1660 par Anne d’Autriche (meubles n<hi rend="sup">os</hi> 106, 109, 110), par Marie-Thérèse jusqu’en 1683, par la duchesse de Bourgogne depuis 1697 au plus tôt (meuble n° 1779).</p>
         </div>
-        <div>
+        <div xml:id="r711246">
           <head rend="uc">Chapitre III
            <lb/>L’appartement des reines mères.</head>
           <p>L’appartement sert à Anne d’Autriche jusqu’en 1664 (lit de drap d’or), au Grand dauphin (petit « appartement », meuble n° 105), à la dauphine Bavière (n° 61), à Monseigneur seul et, exceptionnellement, à Mademoi-<pb source="https://nakala.fr/10.34847/nkl.864584q0#37e15239a7da1f5184be906d6b300162f02be401" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.864584q0/37e15239a7da1f5184be906d6b300162f02be401/full/full/0/default.jpg"/>seille pour son mariage en 1679, à la duchesse de Bourgogne en 1696 lors de sa venue à la cour. De 1690 à 1700, quelques jours chaque année, Jacques II et Marie d’Este (n° 44) y sont logés, avant que Jacques III et sa mère n’aillent dans l’aile neuve, près de la Conciergerie.</p>
         </div>
-        <div>
+        <div xml:id="r711263">
           <head rend="uc">Chapitre IV
            <lb/>L’appartement de monsieur.</head>
           <p>Au premier étage du pavillon actuel des Chasses. Meubles n<hi rend="sup">os</hi> 569, 570, 577, 578.</p>
         </div>
-        <div>
+        <div xml:id="r711279">
           <head rend="uc">Chapitre V
            <lb/>L’appartement de maintenon.</head>
           <p>Depuis 1686, au premier étage du pavillon de la Porte dorée. Boiseries de Lalande. N<hi rend="sup">os</hi> 567 et 1216.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r711296">
         <head rend="uc">Troisième partie
          <lb/>Le déroulement d’un séjour
          <lb/>l’évolution de la vie de cour</head>
-        <div>
+        <div xml:id="r711306">
           <head rend="uc">Chapitre premier
            <lb/>1643-1660.</head>
           <p>Période marquée par le contrat de mariage de Marie de Gonzague (1645) et la venue de Christine de Suède, avec l’assassinat de Monaldeschi (1656-1658).</p>
         </div>
-        <div>
+        <div xml:id="r711318">
           <head rend="uc">Chapitre II
            <lb/>Le séjour de 1661.</head>
           <p>Naissance du Dauphin. Disgrâce de Fouquet. Ballet des Saisons.</p>
         </div>
-        <div>
+        <div xml:id="r711330">
           <head rend="uc">Chapitre III
            <lb/>Le séjour de 1664.</head>
           <p>Visite incognito du légat le 3 juillet, venue officielle du 28 juillet au 6 août, avec la « satisfaction » le 29.</p>
         </div>
-        <div>
+        <div xml:id="r711342">
           <head rend="uc">Chapitre IV
            <lb/>De 1664 à 1679.</head>
           <p>Séjours principaux : 1666, 1671, 1677, 1678.</p>
         </div>
-        <div>
+        <div xml:id="r711354">
           <pb source="https://nakala.fr/10.34847/nkl.864584q0#95690a63ccc7c8bc3019c2ca23e5f947164039b3" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.864584q0/95690a63ccc7c8bc3019c2ca23e5f947164039b3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Le mariage de mademoiselle avec Charles II d’Espagne.</head>
           <p>Contrat dans le Grand cabinet ovale le 30 août, messe et mariage par procuration dans la Chapelle de la Trinité le lendemain.</p>
         </div>
-        <div>
+        <div xml:id="r711371">
           <head rend="uc">Chapitre VI
            <lb/>La vie quotidienne après 1679.</head>
           <p>Un peu plus de liberté qu’à Versailles. L’« appartement ». Le théâtre, la promenade du canal, surtout la splendeur et la fréquence de la chasse.</p>
         </div>
-        <div>
+        <div xml:id="r711383">
           <head rend="uc">Chapitre VII
            <lb/>Saint-Germain à Fontainebleau.</head>
           <p>La venue des Stuarts (1690-1700 ; 1701-1707 ; Jacques II et sa femme ; Jacques III et sa mère).</p>
         </div>
-        <div>
+        <div xml:id="r711395">
           <head rend="uc">Chapitre VIII
            <lb/>Les grandes heures après 1679.</head>
           <p>Révocation de l’Édit de Nantes (1685). Paix de Ryswick (1697). Acceptation du testament de Charles II (1700). Trêve avec l’Angleterre (1712).</p>

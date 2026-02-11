@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_42" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_42" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,12 +57,12 @@
         <surname>Rouet</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1359151">
         <head rend="uc">Introduction</head>
         <p>L’existence de l’abbaye Saint-Pierre de Préaux, située dans l’ancien diocèse de Lisieux, est attestée dès l’époque carolingienne mais, détruit par les pillards normands, le monastère ne renaît qu’en 1034, lorsque Onfroi de Vieilles, puissant seigneur de la région de Pont-Audemer, et l’abbé Gradulfe de Fontenelle décident d’y réinstaller des moines bénédictins venus de Saint-Wandrille. Avec la communauté jumelle de Saint-Léger de Préaux, fondée une dizaine d’années plus tard par Onfroi pour accueillir des moniales, Saint-Pierre de Préaux resta attaché au lignage de Beaumont dont est issue, à la fin du <num>xi<hi rend="sup">e</hi></num> siècle, la seconde dynastie des comtes de Meulan.</p>
         <p>A la tête d’un patrimoine important dès sa fondation, Saint-Pierre de Préaux attira les libéralités de la famille de Beaumont-Meulan, de ses vassaux et des grandes familles normandes, confirmées par les ducs-rois. Nécropole familiale des comtes de Meulan, Préaux fut aussi un centre religieux et artistique particulièrement brillant, notamment sous l’abbatiat de Richard I<hi rend="sup">er</hi> de Bayeux (1101-1125), et connut son apogée au milieu du <num>xii<hi rend="sup">e</hi></num> siècle. L’extinction de la famille de Meulan en 1204, les difficultés croissantes rencontrées par la communauté à la fin du <num>xiii<hi rend="sup">e</hi></num> et au <num>xiv<hi rend="sup">e</hi></num> siècle pour se maintenir en Angleterre et enfin la guerre de Cent Ans sonnèrent le déclin de l’abbaye, qui connut toutefois une seconde prospérité, à partir de 1650, grâce aux Bénédictins de Saint-Maur qui entreprirent la reconstruction des bâtiments conventuels. La Révolution fit totalement disparaître Saint-Pierre de Préaux, dont les pierres servirent à construire les routes de la région ; les restes du chartrier, qui avait déjà beaucoup souffert, fut transféré à Évreux, aux archives départementales de l’Eure.</p>
       </div>
-      <div>
+      <div xml:id="r1359192">
         <pb source="https://nakala.fr/10.34847/nkl.dff886qf#82cb6e4b528548b25189b37ff3837450b85651ae" n="342" facs="https://api.nakala.fr/iiif/10.34847/nkl.dff886qf/82cb6e4b528548b25189b37ff3837450b85651ae/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Dès le <num>xiii<hi rend="sup">e</hi></num> siècle, le chartrier de l’abbaye Saint-Pierre de Préaux eut à subir de grosses pertes, et son histoire est celle d’un désastre archivistique : en 1283, une tempête, suivie d’un déluge qui occasionna une inondation, endommagea gravement l’abbaye et le chartrier fut en grande partie anéanti. Quelque soixante-dix années après, la guerre de Cent Ans, avec son lot de ravages pour la région, lui porta un nouveau coup : l’abbaye fut durement touchée en 1358 ; à cette occasion, le chartrier, la bibliothèque et les bâtiments conventuels brûlèrent. Le chartrier, ou plutôt ce qu’il en restait, fut alors mis à l’abri, dispersé dans les différentes dépendances de l’abbaye, notamment à Rouen. Les guerres de Religion achevèrent ce travail de ruine et d’émiettement des titres de l’abbaye. Si, grâce aux efforts de réorganisation de l’abbaye par les Mauristes, le chartrier fut reclassé à partir de 1650, à la Révolution, une partie en fut détournée et servit à confectionner des reliures.</p>
@@ -72,11 +70,11 @@
         <p>D’autres sources concernant l’histoire de l’abbaye Saint-Pierre de Préaux, notamment des fragments d’une chronique du monastère, des correspondances adressées à François de Blois par un moine de l’abbaye et des copies d’actes exécutées aux <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles sont conservées à la Bibliothèque nationale de France, dans plusieurs volumes de la collection du Vexin.</p>
         <p>Le cartulaire, vendu deux cents francs à la Révolution, fut découvert chez un libraire parisien par le marquis de Blosseville, qui l’acquit pour sa bibliothèque, et le légua ensuite aux archives de l’Eure (1857). Il fut utilisé par plusieurs érudits et historiens, comme L. Delisle, qui en prit une copie partielle, elle aussi conservée à la Bibliothèque nationale de France (nouv. acq. lat. 1025) ; plusieurs actes furent également copiés par A. Le Prévost dans ses <hi rend="i">Mémoires et notes,</hi> publiés après sa mort par L. Passy. Cependant, le premier cartulaire de Saint-Pierre de Préaux n’a encore jamais fait l’objet d’une étude d’ensemble ni d’une édition cohérente.</p>
       </div>
-      <div>
+      <div xml:id="r1359256">
         <pb source="https://nakala.fr/10.34847/nkl.dff886qf#fe95d5dc8f8bba8d45604c332bd185db53c3db5d" n="343" facs="https://api.nakala.fr/iiif/10.34847/nkl.dff886qf/fe95d5dc8f8bba8d45604c332bd185db53c3db5d/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Étude</head>
-        <div>
+        <div xml:id="r1359269">
           <head rend="uc">Chapitre premier
            <lb/>l’abbaye Saint-Pierre de Préaux et son patrimoine
            <lb/>des origines au début du <num>xiii<hi rend="sup">e</hi></num> siècle</head>
@@ -84,7 +82,7 @@
           <p>C’est au début du <num>xii<hi rend="sup">e</hi></num> siècle, en 1106, que Préaux obtient de la part de Robert III de Meulan l’octroi de libertés judiciaires, les premières explicitement citées par les sources ; suivent avant 1135 l’immunité et vers 1150, l’exemption, accordée par le pape Adrien IV. Préaux connaît alors, notamment sous l’abbatiat de Richard de Bayeux, un rayonnement spirituel, artistique et économique : le scriptorium produit ses plus beaux manuscrits. Les moines créent aussi le prieuré de Sainte-Radegonde de Neufchâtel, dans le diocèse de Rouen, celui de Saint-Ouen de Brotonne et celui de Saint-Bérenger de La Roque, puis s’implantent le long de la Seine, à Gaillon, où ils développent leurs vignobles avec la bénédiction des comtes de Meulan Galeran II et Robert IV. En Angleterre, les moines de Préaux sont présents dans le Norfolk, avec le prieuré de Toft Monk’s, dans l’Oxfordshire, <pb source="https://nakala.fr/10.34847/nkl.dff886qf#c6e1ea546ddb36dc51a9c4aeecfd51c9a897c9bc" n="344" facs="https://api.nakala.fr/iiif/10.34847/nkl.dff886qf/c6e1ea546ddb36dc51a9c4aeecfd51c9a897c9bc/full/full/0/default.jpg"/>autour de Watlington, dans le Warwickshire à Warmington, dans le Dorset à Spettisbury et dans le Berkshire, autour de Newbury.</p>
           <p>En 1204, l’abbaye perd son protecteur privilégié et la Normandie retourne au domaine du roi de France : ce nouveau contexte détermine une transformation de l’abbaye. La nature des acquisitions faites par les moines change : les dons laissent de plus en plus la place à des achats, tandis que les biens meubles et les rentes remplacent les acquisitions de larges domaines fonciers. L’organisation même du monastère se trouve modifiée par l’individualisation plus marquée des offices claustraux, si l’on en croit les actes du cartulaire, qui mettent en évidence des budgets indépendants. Tel est l’état de l’abbaye lorsque l’abbé Bernard décide de faire rédiger le cartulaire.</p>
         </div>
-        <div>
+        <div xml:id="r1359324">
           <head rend="uc">Chapitre II
            <lb/>Le cartulaire : histoire,
            <lb/>étude codicologique et contenu</head>
@@ -96,7 +94,7 @@
           <p>L’organisation interne du contenu du cartulaire de 1227 s’articule en deux parties : la première est consacrée à des chartes datant pour la plupart de la seconde moitié du <num>xii<hi rend="sup">e</hi></num> siècle et du début du <num>xiii<hi rend="sup">e</hi></num>, jusqu’en 1227, en tout deux cent deux actes. Le classement des chartes y est thématique, globalement rigoureux, mais souffre quelques exceptions : viennent en tête les bulles pontificales, les actes des évêques de Lisieux et des archevêques de Rouen, entrecoupés par des règlements d’affaires obtenus devant des juges délégués pontificaux. Après les actes d’autorités ecclésiastiques, sont transcrites les chartes royales de Henri II et de ses fils, enfin les actes des comtes de Meulan : ceux de Galeran II et de son fils Robert IV ; suivent enfin les chartes de bienfaiteurs laïcs divers.</p>
           <p>La seconde partie, commençant au feuillet 97, constitue la part la plus originale du cartulaire de Préaux : on y compte deux cents actes, des notices pour la majorité d’entre eux, retraçant les acquisitions faites par les moines depuis la fondation de l’abbaye en 1034 jusqu’à l’abbatiat de Michel du Bec (1152-1167). Ces notices suivent un classement globalement géographique, qui met en évidence plusieurs séries concernant chacune un même lieu, à l’intérieur desquelles le classement est chronologique ; nombreuses cependant sont les exceptions, les notices inclassables, ou copiées plusieurs fois, ce qui trahit un remaniement.</p>
         </div>
-        <div>
+        <div xml:id="r1359420">
           <head rend="uc">Chapitre III
            <lb/>Observations diplomatiques</head>
           <p>La seconde partie du cartulaire de 1227 présente la particularité de constituer une unité diplomatique ; la conception archivistique qui a présidé à sa constitution est radicalement différente de celle qui caractérise la première partie du manuscrit. Le moine Guillaume, à qui l’on doit la copie et le classement des chartes de la première partie de cartulaire, n’est à l’évidence pas l’auteur de la seconde. Tout porte à croire que l’on est ici en présence d’un recueil plus ancien repris tel quel dans l’actuel cartulaire. Les notices et résumés d’actes qui le constituent possèdent pour la plupart des parentés stylistiques et diplomatiques ; ainsi on décèle plusieurs groupes de notices que réunit un même mode de datation. En tête de cette partie est copiée la pancarte de fondation de l’abbaye ; la suite de ce recueil de notices se présente en apparence comme le prolongement de cette grande charte fondatrice. Les notices ont dû être écrites progressivement puis reclassées pour constituer ce recueil copié dans le cartulaire en 1227.</p>
@@ -105,18 +103,18 @@
           <p>Enfin, les chartes les plus récentes contenues dans le manuscrit offrent un panorama des différents types d’actes existant aux <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles en Normandie et permettent d’appréhender les changements diplomatiques : au lieu d’actes souvent non datés, terminés par des listes de témoins parfois abondantes au <num>xii<hi rend="sup">e</hi></num> siècle, on voit apparaître au début du <num>xiii<hi rend="sup">e</hi></num> siècle, sous l’influence de la chancellerie royale française, des actes plus stéréotypés, datés, selon le style de Pâques, et où l’usage du sceau a remplacé les listes de témoins. Le cartulaire fournit plusieurs exemples d’actes données <hi rend="i">coram parrochia</hi> et de chirographes. Les faux que l’on peut déceler dans le cartulaire sont postérieurs à 1227, à part une bulle du pape Alexandre III interpolée à la fin du <num>xii<hi rend="sup">e</hi></num> siècle. Forgés à la fin du <num>xiii<hi rend="sup">e</hi></num> ou au début du <num>xiv<hi rend="sup">e</hi></num> siècle, ils ne visent pas à soutenir des revendications fabriquées de toutes pièces, mais viennent plutôt renforcer des prétentions légitimes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1359503">
         <head rend="uc">Seconde partie
          <lb/>Édition</head>
         <p><hi rend="i">Notices anciennes.</hi> – Édition du cartulaire de Préaux (Arch. dép. Eure, H 711), tel qu’il a été copié en 1227 : seuls les actes copiés durant la première campagne de rédaction sont pris en compte. Cependant les actes originaux, lorsqu’ils existent, sont utilisés dans l’établissement du texte, et les variantes proposées par la copie, datant du <num>xv<hi rend="sup">e</hi></num> siècle, du cartulaire (Bibl. nat. de Fr., nouv. acq. lat. 1929) sont signalées dans l’apparat critique. Les deux cents notices et résumés d’actes composant la seconde partie du cartulaire de 1227 sont éditées suivant leur ordre dans le manuscrit. Suit une liste chronologique des actes.</p>
         <p><hi rend="i">Actes de la première partie du cartulaire (v. 1150-1227</hi>). – Edition chronologique de deux cent trois chartes, constituant la première partie du cartulaire de 1227, suivie d’une liste des actes selon leur ordre dans le cartulaire.</p>
       </div>
-      <div>
+      <div xml:id="r1359530">
         <head rend="uc">Conclusion</head>
         <p>Source essentielle pour l’histoire de l’abbaye de Saint-Pierre de Préaux, le cartulaire constitue, avec les restes épars de la bibliothèque, le dernier témoin de ce monastère important de la région de Pont-Audemer, puisque ses bâtiments ont <pb source="https://nakala.fr/10.34847/nkl.dff886qf#c2f099382b5fe866123ef57f5556c0bb409f776e" n="347" facs="https://api.nakala.fr/iiif/10.34847/nkl.dff886qf/c2f099382b5fe866123ef57f5556c0bb409f776e/full/full/0/default.jpg"/>disparu. Les sources de l’histoire de Préaux éclairent aussi celle du duché et de ses institutions : les actes anciens du cartulaire laissent transparaître l’émergence de notions juridiques nouvelles dans la région à forte implantation normande qu’est la vallée de la Risle. Ainsi le parage et l’indivisibilité du fief noble, les coutumes vicomtales, la tenure en bourgage ou encore le développement de la procédure d’enquête dans les affaires judiciaires sont autant d’aspects du droit normand dont on trouve des traces, parmi les plus anciennes, dans le cartulaire de Préaux.</p>
         <p>En outre, les questions diplomatiques qu’il soulève et le souvenir du cartulaire-rouleau permettent de mieux comprendre la manière dont les moines de Préaux géraient leur chartrier au <num>xii<hi rend="sup">e</hi></num> siècle. Il fournit aussi des exemples précoces d’actes passés <hi rend="i">coram parrochia ;</hi> il permet de saisir l’abandon des habitudes diplomatiques normandes, notamment la disparition des listes de témoins et d’entrevoir le développement de l’usage des sceaux en Normandie. Au-delà de son simple caractère de cartulaire d’abbaye, ce document constitue donc une source majeure de l’histoire de la Normandie médiévale.</p>
       </div>
-      <div>
+      <div xml:id="r1359558">
         <head rend="uc">Annexes</head>
         <p><hi rend="i">Annexes de l’étude.</hi> – Sur la mort d’Onfroi de Vieilles. – Tableau codicologique du manuscrit. – Liste de manuscrits de la bibliothèque de Préaux, ou ayant été copiés à Préaux. – Les reliques de l’abbaye.</p>
         <p><hi rend="i">Annexes de l’édition.</hi> – Edition des actes originaux, copies, faux, actes perdus du chartrier de Préaux ne figurant pas dans le cartulaire de 1227 mais appartenant à la période couverte par celui-ci. – Liste chronologique et prosopographique des abbés de Préaux. – Généalogies des lignages de bienfaiteurs. – Graphiques : répartition chronologique des actes du cartulaire ; répartition par auteurs d’actes. – Cartes : répartition géographique et qualitative du temporel normand et anglais. – Index des matières. – Index des noms de lieu et des noms de personne.</p>

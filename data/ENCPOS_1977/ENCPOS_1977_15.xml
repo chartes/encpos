@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,29 +55,29 @@
         <forename>Michèle</forename>
         <surname>Sacquin-Moulin</surname>
       </byline>
-      <div>
+      <div xml:id="r1031733">
         <head rend="uc">Introduction</head>
         <p>Ce travail ne se propose pas d’étudier tous les voyageurs anglais ou français, mais seulement ceux qui ont laissé un récit de leur voyage. Il n’a pas non plus pour but d’étudier ce qu’étaient objectivement l’Angleterre et la France dans la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle en s’appuyant sur le témoignage des récits de voyage contemporains, mais au contraire de définir, par le biais de ces récits, quelle pouvait être pour chacune de ces deux nations l’image de marque de sa rivale.</p>
       </div>
-      <div>
+      <div xml:id="r1031749">
         <head rend="uc">Sources</head>
         <p>Cette étude porte sur environ deux cents récits de voyage, soit environ soixante-cinq récits français et cent trente-cinq récits anglais. Une quarantaine d’entre eux sont manuscrits. Ces manuscrits sont dispersés aux Archives nationales (série K), aux Archives du ministère des Affaires étrangères (série Mémoires et documents, fonds divers), à la Bibliothèque nationale, à la Bibliothèque Mazarine et surtout dans les bibliothèques de province (Grenoble et Nantes). On trouve encore des récits français manuscrits à la National Library d’Edimbourg, à la Mitchell Library de Glasgow et à la Bodleian Library d’Oxford. Les manuscrits anglais se trouvent surtout à la British Library, à la Bodleian Library ainsi que dans quelques autres bibliothèques de province (Preston, Manchester, Bury-Saint-Edmunds).</p>
       </div>
-      <div>
+      <div xml:id="r1031759">
         <pb source="https://nakala.fr/10.34847/nkl.5e993533#a88f2ba58661616dcd0fb3883ca8ae0d402dd4ed" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.5e993533/a88f2ba58661616dcd0fb3883ca8ae0d402dd4ed/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Le voyageur</head>
-        <div>
+        <div xml:id="r1031772">
           <head rend="uc">Chapitre premier
            <lb/>étude chronologique des récits de voyage</head>
           <p>On constate que si la guerre de Sept ans a interrompu à peu près totalement les voyages, du moins jusqu’en 1762, pendant la guerre d’Amérique au contraire les échanges entre la France et l’Angleterre ont été seulement ralentis, surtout pendant les deux premières années du conflit.</p>
         </div>
-        <div>
+        <div xml:id="r1031784">
           <head rend="uc">Chapitre II
            <lb/>L’origine sociale des voyageurs</head>
           <p>L’éventail social est beaucoup plus ouvert du côté anglais : le <hi rend="i">grand tour </hi>est devenu une véritable institution qui pénètre jusqu’à la <hi rend="i">gentry</hi> et à la bourgeoisie aisée. En France, au contraire, seul un petit nombre de privilégiés peuvent se permettre de voyager pour leur plaisir en Grande-Bretagne. D’autre part, les voyageurs anglais publient plus facilement le récit de leur voyage, et cela quelle que soit leur position sociale, ainsi par exemple un duc et pair comme Bedford.</p>
         </div>
-        <div>
+        <div xml:id="r1031804">
           <head rend="uc">Chapitre III
            <lb/>Les milieux d’accueil</head>
           <p>En parcourant les récits de voyage anglais et français, on prend conscience de l’existence de véritables ensembles sociaux pour qui les frontières ne sont pas un obstacle.</p>
@@ -89,17 +87,17 @@
           <p>Le milieu négociant est moins bien connu, mais là aussi les échanges ne sont sans doute pas négligeables : les négociants français envoient fréquemment leurs fils chez leurs correspondants anglais, ainsi qu’en témoigne le journal manuscrit du jeune Desridelières-Leroux, fils d’un important négociant nantais (Nantes, mss. 873 et 874).</p>
           <p>Enfin, le milieu trouble et mal défini des pamphlétaires et des réfugiés compose à Londres un dernier ensemble qui recoupe parfois les trois premiers par le biais d’hommes comme Mirabeau ou Montlosier ou surtout par celui des descendants des réfugiés huguenots, puissants dans la Cité comme dans les sociétés savantes.</p>
         </div>
-        <div>
+        <div xml:id="r1031833">
           <head rend="uc">Chapitre IV
            <lb/>Les motivations des voyageurs</head>
           <p>Sterne a défini avec humour dans son <hi rend="i">Voyage sentimental</hi> les différentes catégories de voyageurs anglais : le jeune lord accompagné de son tuteur écossais ou suisse est devenu, grâce à Samuel Foote, un personnage de théâtre ; le voyageur « valétudinaire » a été magnifiquement incarné par Tobias Smollett, il a fait la fortune des villes d’eaux de l’Europe ; enfin il faut citer les voyageurs « félons ou délinquants » qui fuyaient la police, des créanciers ou le scandale, et les voyageurs ruinés qui espéraient vivre plus économiquement en France.</p>
           <p>Les motivations des voyageurs français sont moins nettes : le <hi rend="i">grand tour </hi>n’existe pratiquement pas dans l’aristocratie française sinon chez ceux qui imitent l’aristocratie anglaise, et l’Angleterre n’est certainement pas un pays de villes d’eaux pour voyageurs désireux de rétablir leur santé. En revanche, c’est traditionnellement un lieu de refuge pour ceux qui fuient la police. Mais la majorité des Français n’ont pas de raison matérielle pour visiter la Grande-Bretagne ; ils sont seulement poussés par la curiosité et l’admiration pour une nation qui est devenue un modèle pour tous les « fats philosophiques » dont parle Lauraguais.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1031857">
         <head rend="uc">Deuxième partie
          <lb/>Le voyage</head>
-        <div>
+        <div xml:id="r1031865">
           <head rend="uc">Chapitre premier
            <lb/>les voyageurs anglais en France</head>
           <p><hi rend="i">Les itinéraires.</hi> – Pour beaucoup d’Anglais, la France n’est qu’une étape vers les villes d’eaux belges ou allemandes, vers l’Espagne ou surtout vers la Suisse ou l’Italie.</p>
@@ -115,7 +113,7 @@
           <p><hi rend="i">Les centres d’intérêt touristique.</hi> – Les Anglais visitaient très consciencieusement Paris et ses environs, se limitant aux monuments mais s’intéressant en outre aux hôpitaux et aux manufactures. Ils étaient généralement soucieux d’établir la supériorité de leur capitale sur celle de la France.</p>
           <p>Les antiquités de la Provence (Nîmes et le pont du Gard) offraient traditionnellement un avant-goût de celles de l’Italie. Mais un intérêt nouveau se manifestait pour les Alpes jusqu’alors négligées ou considérées avec horreur. A partir de 1783, les voyageurs sont nombreux à faire une excursion aux glaciers de Chamonix : la curiosité scientifique, le goût du sport, l’influence de <hi rend="i">la Nouvelle Héloïse</hi> sont à l’origine de cet engouement. D’un « romantisme » plus appuyé, plus « gothique », est l’intérêt porté à la Grande Chartreuse et à la vie monastique en général. Enfin, le goût pour les jardins « naturels » se manifeste à Chantilly et à Ermenonville, qui devient après 1783 un véritable lieu de pèlerinage.</p>
         </div>
-        <div>
+        <div xml:id="r1031936">
           <pb source="https://nakala.fr/10.34847/nkl.5e993533#d83ba95440059507708554bb15cb80732ce6082c" n="139" facs="https://api.nakala.fr/iiif/10.34847/nkl.5e993533/d83ba95440059507708554bb15cb80732ce6082c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les voyageurs français en Grande-Bretagne</head>
@@ -126,10 +124,10 @@
           <p>Les campagnes anglaises vertes et fertiles sont traditionnellement considérées comme exemplaires. L’agronomie et le goût pour les jardins « naturels » sont alors très proches. Un intérêt nouveau pour les paysages sauvages et « romantiques » des Highlands d’Écosse se manifeste à la fin du siècle. Il est lié à la traduction en français de nombreux guides anglais et à la mode des poésies ossianiques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1031975">
         <head rend="uc">Troisième partie
          <lb/>Le récit de voyage</head>
-        <div>
+        <div xml:id="r1031983">
           <head rend="uc">Chapitre premier
            <lb/>l’Angleterre vue par les voyageurs français</head>
           <p>Dans la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, l’anglomanie triomphe grâce en particulier à Voltaire et à ses émules. Aussi le voyageur, qu’il considère l’Angleterre comme un modèle ou comme un exemple dangereux, n’est jamais indifférent.</p>
@@ -141,7 +139,7 @@
           <p>L’Anglais des anglophobes est xénophobe, c’est-à-dire surtout gallophobe, cupide et hypocrite. Les Anglaises sont fades et ennuyeuses. Leur mise à l’écart systématique explique en partie l’ennui qui domine la vie sociale anglaise. Sous leur apparente vertu, les Anglais dissimulent une débauche crapuleuse qui n’est pas atténuée, comme en France, par le vernis d’une politesse raffinée.</p>
           <p>La prospérité anglaise est, elle aussi, remise en question par les anglophobes qui en font, en général, une critique physiocratique. La politique colonialiste de l’Angleterre l’entraîne à des dépenses énormes qui ne font qu’accroître la dette nationale. Le développement industriel vide les campagnes. Enfin, <pb source="https://nakala.fr/10.34847/nkl.5e993533#651b58cf7a0c6380e6836a6129c61c5c348691ab" n="141" facs="https://api.nakala.fr/iiif/10.34847/nkl.5e993533/651b58cf7a0c6380e6836a6129c61c5c348691ab/full/full/0/default.jpg"/>le luxe apporté en Angleterre par les colonies tend à faire diminuer la production et augmenter la consommation, d’où le déficit de la balance extérieure du commerce. Certains anglophobes n’hésitent pas, à la fin de la guerre d’Amérique, à prédire la ruine prochaine de l’Angleterre. Ils n’en jugent pas moins son exemple dangereux et dénoncent les excès de l’anglomanie, soulignant la gallophobie des Anglais.</p>
         </div>
-        <div>
+        <div xml:id="r1032035">
           <head rend="uc">Chapitre II
            <lb/>La France vue par les voyageurs anglais</head>
           <p><hi rend="i">La France des gallophobes.</hi> – Les Anglais sont par tradition gallophobes. Pour bon nombre d’entre eux, la France est le pays du despotisme et du papisme et ses habitants une nation d’esclaves. Dans beaucoup de récits de voyage, tout comme au théâtre et dans les romans, le Français est un être frivole, lâche, hypocrite et immoral. La Française, coquette et infidèle, est jugée dangereuse, par son exemple, pour la vertu des Anglaises.</p>
@@ -149,7 +147,7 @@
           <p><hi rend="i">La France des gallophiles.</hi> – Si la gallomanie d’un Chesterfield, aristocrate et cosmopolite, est jugée sévèrement, la gallophilie de Sterne, bourgeois et indubitablement britannique, est considérée avec plus d’indulgence. Grâce au « voyageur sentimental » et à ses émules, le caractère français est quelque peu réhabilité.</p>
           <p>Cependant, cette gallophilie a ses limites. Le voyageur anglais le plus séduit par la France éprouve toujours le besoin de rappeler qu’il reste un bon britannique conscient de la supériorité morale et politique de sa nation.</p>
         </div>
-        <div>
+        <div xml:id="r1032062">
           <head rend="uc">Chapitre III
            <lb/>Les influences littéraires et les mouvements d’idées</head>
           <p>Dans la seconde moitié du <num>xviii<hi rend="sup">e</hi></num> siècle, l’influence française, encore prépondérante dans les milieux aristocratiques, recule très nettement. Les Français assimilent, plus ou moins bien, Shakespeare, malgré Voltaire qui sort finalement vaincu de la querelle Shakespearienne.</p>
@@ -164,7 +162,7 @@
          <lb/>et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r1032118">
         <head rend="uc">Appendices</head>
         <p>Les relations du colonel de Saint-Paul à Paris (1757-1777). – Liste d’adresses de Lalande à Londres (1763). – Lettre de John Walsh à Benjamin Franklin (1772). – Les itinéraires parisiens recommandés par les guides anglais. – Les ressortissants anglais à Nice durant l’hiver 1784-1785. – Critique des <hi rend="i">Travels through France and Italy</hi> de Smollett dans la <hi rend="i">Gazette littéraire</hi> par Chastellux. – Journal de voyage d’un membre de la famille Cullum de Hardwick, Suffolk (vers 1782).</p>
       </div>

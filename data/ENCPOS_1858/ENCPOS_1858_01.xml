@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1858_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1858_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -55,19 +53,19 @@
         <surname>Brièle</surname>
         <roleName>Archiviste du Haut-Rhin</roleName>
       </byline>
-      <div>
+      <div xml:id="r25712">
         <head rend="uc">Chapitre I<hi rend="sup">er</hi>.</head>
         <p>Idée générale du caractère de la poésie dans la seconde moitié du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r25732">
         <head rend="uc">Chapitre II.</head>
         <p>Incertitude sur les principales circonstances de la vie de Conrad. Il appartient à l’école de Gottfried de Strasbourg.</p>
       </div>
-      <div>
+      <div xml:id="r25742">
         <head rend="uc">Chapitre III.</head>
         <p>Qualités et défauts de Conrad ; les différentes phases par lesquelles passe son talent. Sa poésie, d’abord descriptive, devient bientôt légendaire, puis mystique.</p>
       </div>
-      <div>
+      <div xml:id="r25752">
         <head rend="uc">Chapitre IV.</head>
         <p>Analyse et appréciation de son Engelhardt ; du Sylvestre, de la Forge d’or, et du Weltlohn.</p>
         <pb source="https://nakala.fr/10.34847/nkl.e6cbn0t7#5b968c101994a01aa56913e3dfb4abdd572d43cc" n="4" facs="https://api.nakala.fr/iiif/10.34847/nkl.e6cbn0t7/5b968c101994a01aa56913e3dfb4abdd572d43cc/full/full/0/default.jpg"/>

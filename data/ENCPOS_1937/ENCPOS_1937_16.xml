@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1937_16" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1937_16" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -68,17 +66,17 @@
         <head rend="uc">Sources bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r581975">
         <head rend="uc">Première partie
          <lb/>Le comte de Clermont</head>
-        <div>
+        <div xml:id="r581983">
           <head rend="uc">Chapitre premier
            <lb/>la jeunesse
            <lb/>(1426-1447).</head>
           <p>Né le 30 août 1426, petit-fils d’un vaincu d’Azincourt et neveu de Philippe le Bon, Jean grandit à <pb source="https://nakala.fr/10.34847/nkl.4064h3id#e360b9fcce38ff76a3eb30d1d1889fb9f624bb40" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.4064h3id/e360b9fcce38ff76a3eb30d1d1889fb9f624bb40/full/full/0/default.jpg"/>l’époque du rapprochement franco-bourguignon. Il s’initie, soit à l’armée, soit au Conseil du roi, aux questions militaires et se distingue parmi les amateurs de tournois.</p>
           <p>En 1446, après la Praguerie et la réconciliation du duc Charles de Bourbon, son chef, avec le roi, Charles VII accepte de promettre en mariage sa fille Jeanne au comte de Clermont.</p>
         </div>
-        <div>
+        <div xml:id="r582005">
           <head rend="uc">Chapitre II
            <lb/>Les campagnes du comte de Clermont
            <lb/>(1449-1455).</head>
@@ -87,7 +85,7 @@
           <p><hi rend="i">Châtiment du comte d’Armagnac.</hi> – Demeuré lieutenant du roi en Guyenne, Jean ne peut imposer pacifiquement au comte la volonté royale. Charles VII le <pb source="https://nakala.fr/10.34847/nkl.4064h3id#960a92a76c3512f35a04c11a7b361910be3c0a02" n="147" facs="https://api.nakala.fr/iiif/10.34847/nkl.4064h3id/960a92a76c3512f35a04c11a7b361910be3c0a02/full/full/0/default.jpg"/>charge alors de mener contre le rebelle une armée qui conquiert au roi les pays du comte.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r582040">
         <head rend="uc">Deuxième partie
          <lb/>L’avènement au duché
          <lb/>et les premières années du duc Jean
@@ -97,10 +95,10 @@
         <pb source="https://nakala.fr/10.34847/nkl.4064h3id#d3fbf9f5902054106a905953645f07f5c4cb6587" n="148" facs="https://api.nakala.fr/iiif/10.34847/nkl.4064h3id/d3fbf9f5902054106a905953645f07f5c4cb6587/full/full/0/default.jpg"/>
         <p>On a peu de traces de l’activité personnelle de Jean dans les dernières années du règne de Charles VII ; il continue de fréquenter la cour, où il recueille quelques témoignages substantiels de la bienveillance de son beau-père : office de chambrier de France (12 mars 1457), part des profits d’une réformation des droits de francs-fiefs et nouveaux acquêts, comté de l’Isle-Jourdain confisqué sur Jean V d’Armagnac (1461). Il a gardé pourtant assez d’indépendance pour s’opposer, en 1460, au projet de Charles VII de prendre l’offensive contre le duc de Bourgogne.</p>
       </div>
-      <div>
+      <div xml:id="r582071">
         <head rend="uc">Troisième partie
          <lb/>Jean II sous Louis XI</head>
-        <div>
+        <div xml:id="r582079">
           <head rend="uc">Chapitre premier
            <lb/>espoirs et déceptions
            <lb/>(1461-1464).</head>
@@ -108,7 +106,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.4064h3id#9add7e3de666ac70f4b34d7194148695461ed55e" n="149" facs="https://api.nakala.fr/iiif/10.34847/nkl.4064h3id/9add7e3de666ac70f4b34d7194148695461ed55e/full/full/0/default.jpg"/>
           <p>Dans les années suivantes, cependant, Louis XI trouve chez le duc Jean les apparences d’une fidélité provisoire, à condition de la payer de quelques avantages appréciables : pension, droit levé sur les marchands du royaume, arbitrage dans le conflit avec la Savoie, qui reste d’ailleurs sans résultat définitif.</p>
         </div>
-        <div>
+        <div xml:id="r582101">
           <head rend="uc">Chapitre II
            <lb/>La crise du bien public
            <lb/>(1464-1466).</head>
@@ -118,7 +116,7 @@
           <p>C’est son entrée dans Rouen qui force Louis XI à traiter (octobre), mais les ligueurs négligent les intérêts de leur allié : Jean revient en hâte de Normandie, et le roi, exploitant son mécontentement contre ses complices, le regagne par une série de faveurs exceptionnelles. En décembre 1465, Jean repart pour la Normandie ; mais c’est pour arracher au duc Charles et rendre au roi le pays qu’il avait, deux mois auparavant, enlevé à Louis XI pour le donner à son frère.</p>
           <p>L’année 1466 marque l’apogée de sa fortune ; nommé gouverneur de Languedoc, il fait expédier des lettres de rémission pour ses sujets et veille à faire respecter les principaux privilèges obtenus pour eux l’année précédente.</p>
         </div>
-        <div>
+        <div xml:id="r582132">
           <head rend="uc">Chapitre III
            <lb/>Les charges et les profits du service du roi
            <lb/>(1467-1472).</head>
@@ -127,7 +125,7 @@
           <p>Dès la fin de 1468, les signes de défiance se multiplient entre le roi et le duc. Louis XI redouble d’attentions pour son beau-frère, et Jean, néanmoins, le trahit sans vergogne en avertissant Charles le Téméraire des préparatifs entrepris contre la Bourgogne (1470) ; après quoi, il entre pourtant en campagne aux côtés du roi (1471) et se fait même attribuer les biens de ses sujets coupables de favoriser les Bourguignons.</p>
           <p>Réputé officiellement en 1471 loyal serviteur du roi, Jean est dénoncé en 1472 comme suspect d’amitié secrète avec Nemours. A la fin de l’année, il quitte brusquement la cour.</p>
         </div>
-        <div>
+        <div xml:id="r582160">
           <head rend="uc">Chapitre IV
            <lb/>Les hésitations du duc et les exigences du roi
            <lb/>(1473-1479).</head>
@@ -136,7 +134,7 @@
           <p>Pour lui forcer la main, le roi fait hardiment de Jean son lieutenant général pour résister aux Bourguignons et à tous les rebelles (13 mai 1475). En juin, ayant reçu de nouvelles offres du Téméraire et de Saint-Pol, Jean II révèle enfin au roi leurs projets, mais ne se hâte pas, cependant, de le rejoindre, comme il en est prié. Sur le front bourbonnais, c’est son lieutenant, le sire de Combronde, qui mène la guerre contre les Bourguignons (20 juin 1475, victoire de Montreuillon, dite à tort de Gy ou de Guipy, où le comte de Roucy, maréchal de Bourgogne, est fait prisonnier). Quand, enfin, Jean regagne la cour, c’est pour assister aux négociations de la paix anglaise (Picquigny, 29 août 1475).</p>
           <p>En 1476, Louis XI ayant exigé pour Pierre de Beaujeu un accroissement d’apanage, Jean II proteste, mais s’exécute. Les révélations du duc de Nemours, arrêté la même année, achèvent de compromettre le duc de Bourbon. Dénoncé en 1477 aux officiers du roi par l’un de ses sujets, Antoine de la Roche, seigneur de Tournoël, Jean fait condamner l’imprudent en 1478, mais tente vainement, semble-t-il, de convaincre Louis XI de l’intégrité de son loyalisme.</p>
         </div>
-        <div>
+        <div xml:id="r582188">
           <pb source="https://nakala.fr/10.34847/nkl.4064h3id#b03d2abf64711a9dbeb845181b2e33bdf6e58e30" n="153" facs="https://api.nakala.fr/iiif/10.34847/nkl.4064h3id/b03d2abf64711a9dbeb845181b2e33bdf6e58e30/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>Le Parlement de Paris au service du roi
@@ -147,7 +145,7 @@
           <p>Le 20 juillet 1480, un arrêt interdit au principal accusé, Jean de Saint-Haon, chancelier de Bourbonnais, d’exercer désormais aucun des droits contestés. Jean II n’est pas résigné à plier, ni la cour à cesser ses poursuites : le procès durera au delà du règne de Louis XI, marqué par des rappels périodiques des défenses du 20 juillet. Jean II attend la mort du roi comme l’heure de sa vengeance.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r582216">
         <pb source="https://nakala.fr/10.34847/nkl.4064h3id#b4c59e6e3e355971636807af29540476e755df58" n="154" facs="https://api.nakala.fr/iiif/10.34847/nkl.4064h3id/b4c59e6e3e355971636807af29540476e755df58/full/full/0/default.jpg"/>
         <head rend="uc">Quatrième partie
          <lb/>Le connétable de Charles VIII
@@ -156,7 +154,7 @@
         <p>En 1484, il hésite entre le roi et le duc d’Orléans avant d’opter finalement, à la suite de Balue, lui-même d’abord agent des princes, pour le maintien de sa fidélité. Dans la Guerre Folle, il est tour à tour l’adversaire et l’allié du duc d’Orléans ; après l’échauffourée, sa cour de Moulins devient le rendez-vous des mécontents, dont le plus actif est Commynes. En 1486 seulement, mais non sans une dernière manifestation de colère, Jean se met définitivement au service du roi. Vengé de Doyat dès 1485, il recouvre en 1486 tous les droits contestés depuis 1480.</p>
         <p>Vieillissant, il n’en épouse pas moins, en 1484, Catherine d’Armagnac, puis, en 1487, à peu de semaines d’un deuxième veuvage, Jeanne de Bourbon-Vendôme. Il rejoint le roi pour la campagne de 1487 contre les princes, mais sans pouvoir y jouer un rôle très actif. Les derniers mois sont assombris par une cabale de courtisans contre ses conseillers intimes, qui aboutit à l’assassinat de son secrétaire, Jean Berry. Jean II meurt à Moulins le 1<hi rend="sup">er</hi> avril 1488.</p>
       </div>
-      <div>
+      <div xml:id="r582245">
         <pb source="https://nakala.fr/10.34847/nkl.4064h3id#e93aabad7cdabd2834ce0fe5a8d651b70ee4bad7" n="155" facs="https://api.nakala.fr/iiif/10.34847/nkl.4064h3id/e93aabad7cdabd2834ce0fe5a8d651b70ee4bad7/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Vanté, avec assez de justice, comme héritier de la chevalerie médiévale et comme précurseur des mécènes de la Renaissance, Jean fut, en politique, hésitant et malhabile ; ni dans l’opposition, ni dans la fidélité au roi, il ne trouva finalement de profit réel pour sa maison ; il contribua parfois à mettre obstacle à l’action de la monarchie, mais sans pouvoir, à lui seul, l’entraver durablement.</p>

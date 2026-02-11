@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1873_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1873_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,13 +58,13 @@
         <surname>Dufour</surname>
         <roleName>Avocat</roleName>
       </byline>
-      <div>
+      <div xml:id="r77675">
         <head rend="uc">Introduction</head>
         <p>§ 1<hi rend="sup">er</hi>. Les sources historiques proprement dites, chroniques et annales, n’offrent sur le second royaume de Bourgogne que des informations extrêmement rares. – De là, pour l’étude de cette période, l’utilité toute spéciale des documents diplomatiques, chartes privées et actes royaux. – C’est à ces derniers, de beaucoup les plus importants, que le présent travail est consacré : quelques renseignements seront néanmoins empruntés aux actes intervenus entre des particuliers.</p>
         <p>§ 2. Sources diplomatiques. – Originaux. – Cartulaires. – Autres copies. – Caractères paléographiques des originaux.</p>
         <p>§ 3. Division des actes royaux en deux classes : les <hi rend="i">actes solennels</hi> ou <hi rend="i">diplômes</hi> (comprenant les <hi rend="i">préceptes</hi> et les <hi rend="i">jugements</hi>), et les <hi rend="i">actes non solennels.</hi> – On ne retrouve pas d’actes correspondant au pouvoir législatif du roi.</p>
       </div>
-      <div>
+      <div xml:id="r77715">
         <pb source="https://nakala.fr/10.34847/nkl.caceo439#25d7bda7dfe8d8caadd4261228a0c930d39f9508" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.caceo439/25d7bda7dfe8d8caadd4261228a0c930d39f9508/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre I<hi rend="sup">er</hi>
          <lb/>préceptes</head>
@@ -88,19 +86,19 @@
         <p>§ 11. <hi rend="i">Sceau.</hi> – Sa place, – son mode d’application, – sa forme, – ses dimensions, – sa matière, – sa couleur ; – figures et légendes. – Description et dessins des quatre sceaux rodolphiens : deux sont inédits. – Le sceau de Conrad, figuré dans le cartulaire de Saint-André-le-Bas, étant <hi rend="i">de majesté</hi> ne peut appartenir à ce prince. – Prétendus sceaux de la reine Berthe plaqués sur les deux copies de la charte de fondation du monastère de Payerne (962) : ils sont postérieurs de plus de deux siècles.</p>
         <p>§ 12. Résumé et conclusions. – Langue et style des préceptes. – Acte faux : concession en faveur de Guillaume de Caritat. – Actes suspects. – Grands officiers de la maison du roi mentionnés dans les diplômes. – Le comte du palais.</p>
       </div>
-      <div>
+      <div xml:id="r77954">
         <pb source="https://nakala.fr/10.34847/nkl.caceo439#8a70ab816a4aeef0ba4fad02e07d32da442b13bb" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.caceo439/8a70ab816a4aeef0ba4fad02e07d32da442b13bb/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre II
          <lb/>Jugements</head>
         <p>Leur importance au point de vue de l’histoire et du développement des institutions juridiques. – Leur rareté. – Leur forme : elle n’a pas la même fixité que celle des préceptes ; si elle tient quelquefois du diplôme, elle peut aussi se rapprocher de la <hi rend="i">notice.</hi></p>
       </div>
-      <div>
+      <div xml:id="r77974">
         <head rend="uc">Chapitre III</head>
-        <div>
+        <div xml:id="r77980">
           <head rend="uc">Actes non solennels</head>
           <p>Ce qu’il faut entendre sous ce nom. – Origine et nature du pouvoir des Rodolphiens sur l’abbaye d’Agaune. – Leur titre de <hi rend="i">rector :</hi> actes qu’ils ont rendus en cette qualité, avec l’assentiment exprès du prévôt, et plus tard de l’abbé. – Dénominations de ces actes, dont la plupart sont de Rodolphe III. – Ils procèdent du diplôme, mais leur forme s’est successivement simplifiée, soit par la suppression, soit par le changement d’une ou plusieurs parties du discours diplomatique. – Le préambule, par exemple, manque constamment. – Souscriptions de témoins. – Par une nouvelle altération, il arrive souvent que l’acte n’est plus même rendu au nom du roi : on se borne à y mentionner son consentement. – Actes analogues relatifs aux possessions de l’abbaye de Saint-André-le-Bas, dont Conrad et Rodolphe III ont eu aussi le gouvernement.</p>
         </div>
-        <div>
+        <div xml:id="r77994">
           <head rend="uc">Régeste des actes rodolphiens</head>
           <p>Avant-propos. – Travaux de Bréquigny, – Bœhmer, – Forel, – Hidber. – Plan de ce nouvel essai : il comporte une analyse détaillée des actes avec indication de la source qui a servi à chaque éditeur, original, cartulaire, copie ou publication antérieure. – Établissement du meilleur texte, variantes. – Notes à propos de chaque acte. – Bibliographie.</p>
           <p>RÉGESTE comprenant 154 numéros.</p>

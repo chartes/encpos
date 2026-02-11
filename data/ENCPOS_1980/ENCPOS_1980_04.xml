@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1980_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,22 +55,22 @@
         <forename>Sylvie</forename>
         <surname>Clair</surname>
       </byline>
-      <div>
+      <div xml:id="r1056903">
         <head rend="uc">Introduction</head>
         <p>L’histoire du parlement de Toulouse reste encore à écrire. Nous avons essayé d’y apporter notre contribution, en étudiant la vie et l’œuvre de Joseph-Gaspard de Maniban, qui en fut l’un des principaux acteurs pendant la durée de sa première présidence.</p>
         <p>C’est également un personnage qui a suscité une grande admiration, tant chez ses contemporains que chez les auteurs du <num>xix<hi rend="sup">e</hi></num> siècle, qui l’ont évoqué. Il importe de voir dans quelle mesure ces écrits correspondent à la réalité.</p>
         <p>Pour cela, il faut définir la place de Maniban à l’intérieur de la société toulousaine du <num>xviii<hi rend="sup">e</hi></num> siècle (correspond-il réellement à l’image d’un « lion social » ?) avant d’aborder l’étude de son rôle dans les affaires parlementaires.</p>
       </div>
-      <div>
+      <div xml:id="r1056931">
         <head rend="uc">Sources</head>
         <p>Nous avons utilisé principalement le fonds Maniban (conservé aux Archives départementales de la Haute-Garonne sous la cote 2 J), qui comporte de nombreux documents relatifs à Joseph-Gaspard, notamment des comptes et des correspondances ayant trait à ses propriétés.</p>
         <p>Le chartrier de Tocqueville, microfilmé aux Archives nationales, contient la correspondance de Maniban avec son beau-frère le chancelier Lamoignon. Elle est de première importance en ce qui concerne son œuvre politique.</p>
       </div>
-      <div>
+      <div xml:id="r1056944">
         <pb source="https://nakala.fr/10.34847/nkl.d882eg0k#a9b4cc73502e6789411b96ad5037994208f34bb8" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.d882eg0k/a9b4cc73502e6789411b96ad5037994208f34bb8/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Le personnage</head>
-        <div>
+        <div xml:id="r1056957">
           <head rend="uc">Chapitre premier
            <lb/>ses origines</head>
           <p>Joseph-Gaspard de Maniban, né à Toulouse le 2 juillet 1686, appartient au milieu de la noblesse de robe toulousaine ; sa famille, bien que de peu d’ancienneté, est solidement installée dans cette ville.</p>
@@ -80,7 +78,7 @@
           <p>Joseph-Gaspard, fils unique de Jean-Gui, apparaît à l’apogée d’une ascension sociale continue. Son alliance avec la robe parisienne (il épouse, le 20 février 1707, Jeanne-Christine de Lamoignon, la sœur du futur chancelier), et celles qu’il contracte pour ses filles dans le milieu de la noblesse de cour (l’une épouse le marquis de Bourbon-Malause, l’autre le marquis de Livry) apportent une consécration à sa situation financière.</p>
           <p>Devenu premier président, il se comporte en chef de famille et soutient ses parents, aussi bien financièrement que dans leurs affaires et procès (ainsi son cousin François-Honoré de Maniban, archevêque de Bordeaux, ou sa cousine Marie de Maniban, qui épouse le poète Jean-Galbert de Campistron).</p>
         </div>
-        <div>
+        <div xml:id="r1056984">
           <head rend="uc">Chapitre II
            <lb/>Une fortune considérable</head>
           <p>Sa fortune apparaît comme exceptionnelle, puisqu’elle dépasse un million de livres. Elle est pourtant de nature traditionnelle. Les émoluments de sa charge, qu’il cumule avec une pension du roi, lui fournissent un revenu substantiel, mais, somme toute, insuffisant pour lui permettre de tenir son rang.</p>
@@ -91,7 +89,7 @@
           <p>Les productions en vins, bois et tuiles sont presque exclusivement réservées à la consommation locale. Seuls, l’eau-de-vie et les coupes de bois font l’objet d’un commerce, mais peu cohérent.</p>
           <p>Bien que Joseph-Gaspard ne cherche aucunement à améliorer le revenu de ses terres, celui-ci s’élève à une somme importante puisque, au total, Joseph-Gaspard perçoit à peu près 60 000 livres de rente annuelle.</p>
         </div>
-        <div>
+        <div xml:id="r1057016">
           <head rend="uc">Chapitre III
            <lb/>Dépenses et mode de vie</head>
           <p>Ce revenu est à peine suffisant pour soutenir le train de vie d’un premier président. Mais il existe une différence importante entre la vie de représentation qu’il est contraint de mener, à cause de la fonction sociale qu’il exerce, et le souci d’économie dont il fait preuve dans son existence quotidienne.</p>
@@ -102,18 +100,18 @@
           <p>Au total, il parvient à faire face à ses dépenses sans trop de problèmes, mais sa maladie s’aggravant le force à augmenter ses frais. Il meurt dans la nuit du 31 août au 1<hi rend="sup">er</hi> septembre 1762. Ses funérailles sont grandioses, malgré ses dernières volontés de simplicité. Son testament, qui assure de nombreux legs, révèle sa richesse et sa générosité.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1057048">
         <pb source="https://nakala.fr/10.34847/nkl.d882eg0k#36533a0dbf6a56a1a0a73dc9fea57eea1d1af868" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.d882eg0k/36533a0dbf6a56a1a0a73dc9fea57eea1d1af868/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Maniban chef du parlement de Toulouse</head>
-        <div>
+        <div xml:id="r1057061">
           <head rend="uc">Chapitre premier
            <lb/>l’institution</head>
           <p>Considéré comme le deuxième de France, par son ancienneté et son importance, après celui de Paris, le parlement de Toulouse est composé d’environ cent cinquante membres, répartis entre six chambres.</p>
           <p>Le premier président dirige l’ensemble du parlement et plus particulièrement la Grand-Chambre. Sa tâche est lourde, étant donné notamment l’étendue du ressort de la cour de Toulouse.</p>
           <p>Bien que les différents parlements se sentent de plus en plus proches les uns des autres, il existe entre eux une hiérarchie. De plus, le parlement de Toulouse a ses usages propres et n’admet pas qu’il y soit porté atteinte.</p>
         </div>
-        <div>
+        <div xml:id="r1057079">
           <head rend="uc">Chapitre II
            <lb/>La formation, la nomination et les idées de Maniban</head>
           <p>Le rôle du premier président est donc délicat et pourtant Maniban n’a pas été choisi pour son savoir juridique. En effet, sa formation est plus pragmatique que théorique. Les raisons de sa nomination à la première présidence sont plutôt d’ordre politique et liées à son appartenance au clan des Lamoignon, alors en plein essor.</p>
@@ -121,7 +119,7 @@
           <p>Il réagit dès qu’on porte atteinte aux privilèges du corps qu’il dirige ou aux siens propres. Il est toujours prêt à aider ceux qui le sollicitent, mais exige des magistrats une obéissance totale à ses ordres.</p>
           <p>Après 1750, sa tâche lui paraît de plus en plus difficile à supporter et il requiert alors l’expectative d’une charge de conseiller d’État, qu’il n’obtiendra pas. A partir de 1759, trop malade pour assister aux séances du parlement, il continue cependant à se tenir au courant de tout ce qui s’y passe. Il tente d’assumer son rôle jusqu’à sa mort.</p>
         </div>
-        <div>
+        <div xml:id="r1057100">
           <pb source="https://nakala.fr/10.34847/nkl.d882eg0k#0eda35bf470cd46820ac77b3ddc6f0bcc29f32fe" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.d882eg0k/0eda35bf470cd46820ac77b3ddc6f0bcc29f32fe/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Les affaires locales</head>
@@ -136,11 +134,11 @@
           <p>Tout en obéissant au roi, Maniban fait preuve de fermeté lorsqu’il s’agit de faire respecter les prérogatives de la compagnie qu’il dirige.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1057142">
         <pb source="https://nakala.fr/10.34847/nkl.d882eg0k#46024f92afe3852abe752863dad66f0dfb1eb81e" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.d882eg0k/46024f92afe3852abe752863dad66f0dfb1eb81e/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Maniban agent du roi</head>
-        <div>
+        <div xml:id="r1057155">
           <head rend="uc">Chapitre premier
            <lb/>ses rapports avec la cour</head>
           <p>En tant que premier président, Maniban se trouve en contact fréquent avec la Cour. Nous possédons peu de renseignements en ce qui concerne ses relations avec le chancelier Daguesseau, mais elles semblent avoir été bonnes.</p>
@@ -148,7 +146,7 @@
           <p>En revanche, il s’inquiète du pouvoir de plus en plus grand attribué aux commis de Saint-Florentin, le secrétaire d’État qui s’occupe de la province de Languedoc. Il se méfie également du Conseil d’État et lutte contre l’ingérence du Grand Conseil dans les affaires du parlement (notamment en 1755).</p>
           <p>Mais il reste un fidèle serviteur du roi et est vivement ému par l’attentat de Damiens, en 1757.</p>
         </div>
-        <div>
+        <div xml:id="r1057176">
           <head rend="uc">Chapitre II
            <lb/>Les questions financières</head>
           <p>Maniban doit dès 1725 faire face à des difficultés : la création du cinquantième provoque des remous dans le parlement. Mais c’est surtout à partir de 1749, avec la création du vingtième, que le parlement de Toulouse réagit. Tout d’abord, Maniban le contient sans trop de mal, mais le conflit rebondit à l’occasion de la levée du second vingtième, en 1756. Maniban tente d’empêcher la chambre des enquêtes de participer aux délibérations à ce sujet. Il soutient l’attitude de la Grand-Chambre qui condamne l’accroissement incessant de la fiscalité.</p>
@@ -157,7 +155,7 @@
           <p>Maniban pense que tout s’arrangerait au mieux pour la compagnie qu’il dirige si le roi pouvait lui-même se rendre compte de la situation. Cependant, ses relations avec l’intendant ne se détériorent guère.</p>
           <p>A ces questions financières viennent s’ajouter des problèmes religieux qui achèvent d’accabler Maniban.</p>
         </div>
-        <div>
+        <div xml:id="r1057202">
           <head rend="uc">Chapitre III
            <lb/>Les affaires religieuses</head>
           <p>Maniban ne se préoccupe guère des protestants lors de sa première présidence. Mais, à partir de 1730, le problème du jansénisme et du gallicanisme ressurgit et Maniban, qui jusqu’alors se désintéresse de ces questions, est obligé de les prendre en compte.</p>
@@ -166,7 +164,7 @@
           <p>Sur le fond, il est d’accord avec l’action du parlement et trouve que ce dernier est traité trop durement par le gouvernement. Il se pose en protecteur des lois du royaume, aussi bien à ce sujet que lorsqu’il s’agit de défendre l’indépendance de la Couronne vis-à-vis du pape, attaquée par les écrits de certains évêques du Languedoc.</p>
           <p>Enfin, c’est à la fin de sa vie qu’éclate la lutte contre les Jésuites, menée par toutes les cours de parlement. Maniban n’en voit que le début, mais son hostilité envers la Compagnie de Jésus est réelle.</p>
         </div>
-        <div>
+        <div xml:id="r1057226">
           <head rend="uc">Chapitre IV
            <lb/>Maniban et « l’union des classes »</head>
           <p>Dans ces affaires, la cour de Toulouse affirme de plus en plus son entente avec les autres parlements de France. Pour Maniban, il existe une corrélation évidente entre l’attitude de la cour qu’il dirige et celle des autres. Très souvent, le parlement de Toulouse suit celui de Paris.</p>
@@ -175,17 +173,17 @@
           <p>Il approuve cependant la cour de Toulouse lorsque, se sentant menacée, elle s’associe aux autres pour lutter contre l’ingérence du pouvoir royal. Mais il ne veut pas qu’elle imite les usages des autres parlements. Ici encore, il cherche avant tout à maintenir la paix et à empêcher toute innovation, quelle que soit son origine.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1057250">
         <head rend="uc">Conclusion</head>
         <p>Dans les années qui suivent la mort de Joseph-Gaspard de Maniban, on assiste à l’effondrement de sa fortune aussi bien que de son œuvre politique.</p>
         <p>Ses biens, en majorité hérités de son grand-père, ont été substitués par celui-ci et la succession passe à une branche cadette de la famille. Jean-Gui de Campistron à qui elle échoit, la dilapide entièrement. La fille de Joseph-Gaspard, Marie-Christine de Livry, vend les derniers biens qui lui restent en Armagnac et mène une existence exclusivement parisienne.</p>
         <p>Le successeur de Maniban à la première présidence, François de Bastard, n’a pas les dimensions de son prédécesseur et ne parvient pas à contenir le parlement. Essayant d’être un parfait agent du roi, il est rapidement débordé par la compagnie qu’il dirige (notamment à l’occasion de l’affaire Fitz-James) et finalement rejeté par elle.</p>
       </div>
-      <div>
+      <div xml:id="r1057266">
         <head rend="uc">Annexes</head>
         <p>Lettres et testament de Joseph-Gaspard de Maniban.</p>
       </div>
-      <div>
+      <div xml:id="r1057276">
         <head rend="uc">Album</head>
         <p>Généalogie de la famille Maniban. – Portrait de Maniban. – Ses châteaux. – Répartition de ses terres en Armagnac.</p>
       </div>

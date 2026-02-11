@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_20" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_20" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,32 +56,32 @@
         <surname>Eyroi</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1347556">
         <head rend="uc">Introduction</head>
         <p>Le dernier ouvrage abordant l’iconographie de saint Joseph de façon globale remonte à la fin du <num>xix<hi rend="sup">e</hi></num> siècle. Le renouvellement des connaissances, par la suite, s’est effectué de manière dispersée ou ponctuelle ; il paraît par conséquent nécessaire de regrouper et d’actualiser les données sur la question, en vérifiant, en nuançant et en corrigeant, le cas échéant, un certain nombre d’idées établies. Les ouvrages anciens mettent en effet l’accent sur la dérision de saint Joseph dans les images et présentent le concile de Trente comme une date charnière, un moment de rupture suivi d’une réhabilitation. L’observation des images dévoile en réalité les premiers signes de cette évolution dès le <num>xv<hi rend="sup">e</hi></num> siècle ; en outre, l’iconographie de l’époux de Marie se révèle bien plus riche et complexe qu’on ne le suppose de prime abord.</p>
       </div>
-      <div>
+      <div xml:id="r1347578">
         <head rend="uc">Sources</head>
         <p>L’étude est essentiellement axée sur l’observation et l’interprétation des images, et les sources textuelles (Evangiles canoniques et apocryphes, théâtre liturgique, littérature mystique, traités théologiques) n’ont pas été étudiées de façon systématique et exhaustive, mais seulement citées à titre de référence et de comparaison. Les représentations de saint Joseph se rencontrant à foison dans l’art religieux de la période envisagée, la difficulté consiste à proposer un corpus iconographique représentatif et cohérent, constitué d’un nombre d’images suffisamment important, mais assez limité pour permettre une étude précise et méthodique. Le corpus, en cet âge d’or des livres d’heures et des retables, accorde la première place à la peinture de manuscrit et à la peinture sur panneau, à côté d’une proportion plus restreinte d’exemples issus de la tapisserie, du vitrail et de la gravure. On ne décèle pas, de toute façon, de divergences majeures, du point de vue de l’iconogra<pb source="https://nakala.fr/10.34847/nkl.cabb81nk#bfc50d43250c02881410691979479ef39fac4609" n="176" facs="https://api.nakala.fr/iiif/10.34847/nkl.cabb81nk/bfc50d43250c02881410691979479ef39fac4609/full/full/0/default.jpg"/>phie, entre les différents supports et les différentes techniques. Les limites géographiques englobent les aires française (représentée surtout, en raison du faible nombre de panneaux peints parvenus jusqu’à nous, par l’enluminure), flamande (domaine ibérique compris) et germanique.</p>
       </div>
-      <div>
+      <div xml:id="r1347593">
         <head rend="uc">Première partie
          <lb/>Contexte historique et religieux :
          <lb/>culte et dévotion voués a saint Joseph</head>
         <p>La période qui s’étend de la fin du <num>xiv<hi rend="sup">e</hi></num> siècle au concile de Trente (1545-1563) est considérée comme une étape charnière en ce qui concerne le culte et l’iconographie de saint Joseph. L’étude du contexte historique et religieux constitue un préliminaire indispensable à l’observation et à la compréhension des images. L’interprétation de celles-ci n’est possible qu’à la lumière des sensibilités et des pratiques religieuses, et dépend également du contenu théologique et de la portée dogmatique attribués au personnage de saint Joseph.</p>
-        <div>
+        <div xml:id="r1347612">
           <head rend="uc">Chapitre premier
            <lb/>le culte de saint Joseph
            <lb/>des origines a la fin du <num>xiv<hi rend="sup">e</hi></num> siècle</head>
           <p>Apparu d’abord en Orient, le culte de saint Joseph se répand assez tardivement en Occident. Ses premières manifestations significatives se rencontrent seulement à partir du <num>xii<hi rend="sup">e</hi></num> siècle. Au <num>xiii<hi rend="sup">e</hi></num> et au <num>xiv<hi rend="sup">e</hi></num> siècle, l’évolution de la spiritualité et des pratiques religieuses, accordant une plus grande importance aux laïcs et à la piété individuelle, notamment sous l’influence des ordres mendiants, suscite un début d’intérêt pour le personnage de saint Joseph. La dévotion à celui-ci, cependant, constitue encore un phénomène tout à fait marginal, limité à des individus particuliers (on en trouve des traces dans les écrits de saint Bernard) ou à certaines localités (les exemples se rencontrent surtout en Italie).</p>
         </div>
-        <div>
+        <div xml:id="r1347650">
           <head rend="uc">Chapitre II
            <lb/>Le personnage de saint Joseph a travers les sources écrites :
            <lb/>édification du dogme (des origines au <num>xiv<hi rend="sup">e</hi></num> siècle)</head>
           <p>Les Evangiles canoniques fournissent fort peu de renseignements sur le personnage de saint Joseph, uniquement mentionné en référence au Christ ou à la Vierge. Les Pères de l’Église et les théologiens, jusqu’au <num>xiv<hi rend="sup">e</hi></num> siècle, ne s’intéressent pas davantage à Joseph pour lui-même. Il ne fait l’objet de discussions qu’à l’occasion des controverses sur la définition de sa paternité ou sur la nature de son union avec Marie. Les Evangiles apocryphes, et à leur suite le théâtre religieux, les légendes populaires ou la littérature mystique, viennent combler les silences et les lacunes du texte biblique, en brossant un portrait plus consistant et parfois assez pittoresque du personnage.</p>
         </div>
-        <div>
+        <div xml:id="r1347676">
           <pb source="https://nakala.fr/10.34847/nkl.cabb81nk#0c5a8a4a12a8adeafe8556608cfaeac04b64889e" n="177" facs="https://api.nakala.fr/iiif/10.34847/nkl.cabb81nk/0c5a8a4a12a8adeafe8556608cfaeac04b64889e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Évolutions décisives : saint Joseph réhabilité
@@ -93,23 +91,23 @@
           <p><hi rend="i">Zélateurs et promoteurs de saint Joseph.</hi> – De plus, un certain nombre de personnalités ou d’entités militent en faveur de la dévotion à saint Joseph et de la reconnaissance officielle de son culte. Ils réclament en particulier l’instauration d’une fête propre. Les ordres mendiants, notamment les Franciscains, ainsi que de nombreux prédicateurs, sont particulièrement actifs dans ce sens. On trouve aussi d’ardents zélateurs de saint Joseph parmi les théologiens et les lettrés : Jean Gerson, Pierre d’Ailly et les membres de leur entourage (à qui on doit la promotion du culte de saint Joseph dans la région parisienne et dans les provinces du nord-est de la France), en fournissent les exemples les plus accomplis.</p>
           <p><hi rend="i">La diffusion du culte et ses manifestations.</hi> – Tout au long du <num>xv<hi rend="sup">e</hi></num> et du <num>xvi<hi rend="sup">e</hi></num> siècle, on assiste à la diffusion du culte de saint Joseph dans l’ensemble de l’Europe. La fête de saint Joseph est adoptée localement dans de nombreuses villes d’Italie, de France, d’Allemagne ou de Flandre, et par de nombreux ordres religieux. La papauté garde une attitude passive sur ce point, en approuvant, sans les reprendre à son compte, les efforts des promoteurs de saint Joseph. Ce n’est qu’au moment de la Réforme catholique que la hiérarchie pontificale, sur la défensive face aux menaces du protestantisme et de l’islam, prendra réellement le relais en officialisant la célébration du culte et de la fête de saint Joseph.</p>
         </div>
-        <div>
+        <div xml:id="r1347743">
           <head rend="uc">Chapitre IV
            <lb/>Bilan et perspectives au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle :
            <lb/>saint Joseph et l’iconographie dans le catholicisme tridentin</head>
           <p>A la veille du concile de Trente, la réhabilitation de saint Joseph et la diffusion de son culte, malgré l’absence de reconnaissance officielle par la papauté, se trou<pb source="https://nakala.fr/10.34847/nkl.cabb81nk#fb50f8d1d68f46e450c921a9eac78cf0923e2130" n="178" facs="https://api.nakala.fr/iiif/10.34847/nkl.cabb81nk/fb50f8d1d68f46e450c921a9eac78cf0923e2130/full/full/0/default.jpg"/>vent désormais assurées. Les décisions du concile de Trente et les prises de position dogmatiques de la Contre-Réforme viennent entériner définitivement cet état de fait. Le catholicisme post-tridentin promeut, en outre, une nouvelle conception de la sainteté, dont bénéficie particulièrement saint Joseph. De nouveaux zélateurs, en tête desquels se trouvent des congrégations récentes comme les Jésuites ou les Carmélites, assurent la diffusion de son culte ; le <num>xvii<hi rend="sup">e</hi></num> siècle en est l’âge d’or. L’image de saint Joseph qui est exaltée alors n’a cependant plus guère de rapports avec la conception médiévale du personnage. De plus, l’art de la Contre-Réforme développe une conception de l’iconographie totalement nouvelle, en rupture avec les siècles précédents. Pour toutes ces raisons, il paraît opportun de choisir le moment du concile de Trente comme limite chronologique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1347775">
         <head rend="uc">Deuxième partie
          <lb/>Typologie par scènes :
          <lb/>épisodes de la vie de saint Joseph en textes et en images</head>
-        <div>
+        <div xml:id="r1347785">
           <head rend="uc">Chapitre premier
            <lb/>scènes de la vie de saint Joseph</head>
           <p>Saint Joseph n’est jamais représenté seul ou pour lui-même. Sa présence au sein d’une image se conçoit uniquement dans le cadre de scènes de la vie du Christ ou de la Vierge, et son iconographie dépend avant tout de la relation exprimée entre lui et les deux autres membres de la sainte Famille. Une étude typologique, par scènes, s’impose donc avant toute synthèse de l’iconographie de saint Joseph, d’autant plus que les caractéristiques mises en évidence chez ce dernier varient selon l’épisode représenté, en fonction du contenu dogmatique qu’il illustre. La présence de Joseph dans les cycles figuratifs consacrés à l’enfance du Christ ou à la vie de la Vierge s’impose comme la règle générale, sans pour autant être systématique et uniformément appliquée : il existe des scènes où on ne le rencontre guère ou jamais, d’autres où il est tantôt présent, tantôt absent, d’autres enfin où on le voit toujours, dans un rôle plus ou moins actif. Les scènes concernées étant en nombre limité, et possédant, en ce qui concerne la représentation de Joseph, leurs caractéristiques iconographiques propres, on peut les étudier par types, une à une, dans l’ordre du récit : Mariage de Joseph et Marie, Visitation, Doute de Joseph et reproches de Joseph à Marie, Joseph rassuré par l’ange, Voyage et installation à Bethléem, Nativité, Adoration des Mages, Circoncision, Présentation au Temple, Recouvrement du Christ au Temple. Les spécificités et les interprétations de chaque épisode doivent être mis en lumière et rapprochées des textes correspondants : Evangiles apocryphes, théâtre liturgique (c’est l’âge d’or des mystères) et littérature mystique. Cette analyse comparée révèle la complexité des rapports entre textes et images, en dévoilant à la fois des correspondances et une grande indépendance, allant parfois jusqu’à de nettes divergences. Elle prouve qu’il est vain de rechercher à tout prix, et de façon exclusive, la signification des images dans les textes, puisque l’image possède son langage propre, mêlant souvent plusieurs niveaux d’interprétation, et constitue un domaine d’expression autonome, fonctionnant <pb source="https://nakala.fr/10.34847/nkl.cabb81nk#b06d617cb156f5c893442a221c30936ab3b87424" n="179" facs="https://api.nakala.fr/iiif/10.34847/nkl.cabb81nk/b06d617cb156f5c893442a221c30936ab3b87424/full/full/0/default.jpg"/>suivant une syntaxe et des procédés spécifiques, et possédant une richesse d’expression irréductible à l’écrit.</p>
         </div>
-        <div>
+        <div xml:id="r1347802">
           <head rend="uc">Chapitre II
            <lb/>Scènes non narratives : visages de la sainte famille,
            <lb/>Joseph artisan, Joseph époux et père</head>
@@ -119,19 +117,19 @@
           <p>On assiste néanmoins, au <num>xv<hi rend="sup">e</hi></num> et au <num>xvi<hi rend="sup">e</hi></num> siècle, à un changement de tendance et à un renouvellement des sensibilités religieuses qui se concrétisent, notamment dans le domaine iconographique, par une revalorisation du rôle de Joseph au sein de la sainte Famille et par un intérêt accru pour lui en tant qu’époux et père et en tant qu’artisan. Mais un certain nombre de scènes assez fréquentes dans l’art des siècles postérieurs, telles que la mort de saint Joseph, ou Joseph seul en compagnie de Jésus, demeurent encore pratiquement inconnues.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1347838">
         <pb source="https://nakala.fr/10.34847/nkl.cabb81nk#250cb3fc5f0963421e6bd407d13f0133f891d5db" n="180" facs="https://api.nakala.fr/iiif/10.34847/nkl.cabb81nk/250cb3fc5f0963421e6bd407d13f0133f891d5db/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Iconographie de saint Joseph :
          <lb/>observations générales et approche thématique</head>
         <p>L’identification de saint Joseph dans une image fait rarement problème. En général, l’évidence, le sujet même, la proximité avec Jésus et Marie, les usages iconographiques permettent de lever tout doute éventuel. On peut néanmoins s’interroger sur l’existence d’attributs spécifiques, propres à saint Joseph. Un certain nombre d’objets lui sont en effet régulièrement associés, mais toujours dans le cadre d’un type de scène particulier (on peut citer, par exemple, la chandelle dans les représentations de la Nativité, ou encore le bâton fleuri au moment du Mariage de la Vierge), et perdent leur fonction identificatrice en dehors de ce contexte limité. On ne peut donc parler d’attributs au sens strict. Il existe néanmoins quelques cas exceptionnels où un glissement du sens de ces objets, utilisés à dessein en dehors de leur contexte initial de signification, en fait alors de véritables attributs. Mais cet usage ne se systématise pas avant le <num>xvii<hi rend="sup">e</hi></num> siècle. 11 faut donc recourir à d’autres moyens pour identifier, dans les cas d’incertitude, saint Joseph.</p>
-        <div>
+        <div xml:id="r1347862">
           <head rend="uc">Chapitre premier
            <lb/>caractères iconographiques généraux</head>
           <p><hi rend="i">Age et aspect physique de saint Joseph.</hi> – L’observation des images révèle, quant à l’âge et à l’aspect de Joseph, la plus grande diversité. Si, le plus souvent, il apparaît comme un homme d’âge mûr, barbu, il n’existe apparemment aucune règle stricte, aucun usage établi dans ce domaine, champ de prédilection de l’imagination et de la fantaisie. L’aspect physique de Joseph varie considérablement d’une image à l’autre : malingre ou carré d’épaules, beau ou laid, ridicule ou respectable, il connaît à peu près tous les âges de la vie (tout en restant toujours plus âgé que Marie). En ce qui concerne son costume, la diversité semble être tout autant de règle. Néanmoins, en dépit de cette apparente fantaisie, l’âge et l’aspect extérieur de saint Joseph se conçoivent et s’interprètent invariablement en relation, et le plus souvent en contraste, avec ceux de la Vierge et des autres personnages de l’image. En outre, dans tous les cas, l’époux de Marie se propose comme l’incarnation de l’homme ordinaire, comme le représentant du commun des mortels, en comparaison avec la Vierge et le Christ, figures du monde céleste. La variété des aspects prêtés à saint Joseph révèle en outre l’existence de multiples visages du personnage, possédant chacun une interprétation différente (figuré avec les caractéristiques iconographiques du Juif, il se pose en représentant de l’Ancienne Loi, mais également en individu suspect d’avarice ; sous les traits d’un vieillard d’âge canonique, il devient le type du vieux barbon épousant une jouvencelle parodié par les fabliaux...).</p>
           <p><hi rend="i">Place de saint Joseph dans l’image.</hi> – La place accordée à saint Joseph dans la composition même de l’image (représentation de dos, de face ou de profil, position centrale ou périphérique, au premier ou à l’arrière-plan, surface occupée, exclusion spatiale ou intégration au cœur de l’action...) n’est jamais fortuite. Au contraire, elle constitue, dans le langage iconographique, un des éléments les plus porteurs de sens, à condition d’être mise en relation avec la structure d’ensemble <pb source="https://nakala.fr/10.34847/nkl.cabb81nk#94e2d152cb66e4f6bbd41f26a0a7d08fc4dc969d" n="181" facs="https://api.nakala.fr/iiif/10.34847/nkl.cabb81nk/94e2d152cb66e4f6bbd41f26a0a7d08fc4dc969d/full/full/0/default.jpg"/>et les caractéristiques iconographiques des autres personnages. L’étude de la place de saint Joseph, en raison de sa diversité, se révèle particulièrement riche d’enseignements sur le fonctionnement syntaxique de l’image en général, notamment en ce qui concerne les rapports d’analogie, de correspondance et d’opposition entre les différents acteurs de la scène, et illustre parfaitement l’abondance et la superposition des niveaux d’interprétation.</p>
         </div>
-        <div>
+        <div xml:id="r1347888">
           <head rend="uc">Chapitre II
            <lb/>Approches thématiques.
            <lb/>Synthèse de l’image de saint Joseph a travers les images :
@@ -142,11 +140,11 @@
           <p><hi rend="i">L’humanité de Joseph : un intercesseur accessible.</hi> – Dans la plupart des images, l’accent porte sur l’appartenance de Joseph à l’humanité ordinaire. Ce caractère profondément humain a pour but de mettre en relief, en comparaison, la perfection et la divinité de la Vierge, élevée à un rang supérieur, inaccessible, et dotée d’une jeunesse et d’une beauté inaltérables et intemporelles. Joseph, contrairement à Marie, ne fait l’objet d’aucune idéalisation et semble soumis, comme tout mortel, aux souffrances et aux aléas de la vie terrestre, ainsi qu’à l’ouvrage du temps qui passe. Il constitue par conséquent, aux yeux du fidèle, un saint plus proche, plus susceptible de comprendre ses angoisses et ses interrogations. Le rapport fréquemment établi, dans les images, entre Joseph et les aspects les plus ordinaires de la vie quotidienne (travaux domestiques, activité artisanale), de même qu’un certain nombre de traits humains de sa personnalité et de son apparence extérieure (costume, vices supposés comme le doute ou la boisson, ressemblance avec les bergers dans certaines représentations de l’Adoration de l’Enfant...) vient conforter cette interprétation. Ainsi, saint Joseph se présente comme un intermédiaire avec la divinité magnifiée (il se charge souvent, à ce titre, de l’accueil des mages et des bergers), et comme un modèle de vertu et de foi plus facilement accessible que l’idéal intransigeant incarné par Marie. Pour le fidèle, et notamment pour les laïcs menant une activité professionnelle dans les villes, il devient un intercesseur privilégié et un exemple auquel s’identifier. La composition de l’image, dans bien des cas, invite à cette identification en plaçant le personnage de Joseph en position de substitut visuel et sémantique pour le chrétien regardant le tableau, l’enluminure, la gravure ou le vitrail en question. Ce procédé prend une importance fondamentale dans le contexte particulier de la fin du Moyen Age, époque de développement de la piété individuelle et d’une pratique de l’oraison privée utilisant l’image pour support.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1347931">
         <head rend="uc">Conclusion</head>
         <p>La période s’étendant de la fin du <num>xiv<hi rend="sup">e</hi></num> siècle à la veille du concile de Trente apparaît, en ce qui concerne le culte et l’iconographie de saint Joseph, comme une période de transition. Les images s’inscrivent dans le mouvement général de revalorisation du rôle et du statut de l’époux de Marie et, tout en donnant libre cours à la dérision de ce dernier, laissent présager un renversement de tendance. Saint Joseph bénéficie du renouvellement des mentalités, de la spiritualité et des valeurs sociales et religieuses, et s’impose progressivement comme un modèle moderne de saint et d’intercesseur, susceptible de répondre aux attentes et aux interrogations des chrétiens en cette période de troubles, d’incertitudes politiques et religieuses. Figure de l’artisan et de l’homme ordinaire engagé dans une vie de labeur, il incarne en particulier pour les laïcs menant une vie active dans les villes (catégorie <pb source="https://nakala.fr/10.34847/nkl.cabb81nk#331585a7a0efa4904e45f682ddb11fc20f41e7a1" n="183" facs="https://api.nakala.fr/iiif/10.34847/nkl.cabb81nk/331585a7a0efa4904e45f682ddb11fc20f41e7a1/full/full/0/default.jpg"/>alors en plein essor, à l’importance sociale et économique croissante), dont la sensibilité religieuse et les valeurs souffrent d’un décalage avec les modèles proposés par le christianisme médiéval, un recours et un médiateur providentiel. Dans ce contexte, de nouveaux aspects de la personnalité de l’époux de Marie sont mis en valeur. On voit cependant coexister, voire s’affronter, tout au long de la période envisagée, les conceptions modernes et anciennes. La diversité et la richesse d’interprétation qui en résultent expliquent la complexité et les aspects parfois contradictoires de l’iconographie de saint Joseph à cette époque. La variété et les contradictions caractérisant l’image, ou plutôt les images de ce dernier illustrent parfaitement le renouvellement progressif de la sensibilité religieuse, de l’art et du langage iconographique, les transformations sociales, culturelles et économiques, les interrogations, les espoirs et les angoisses d’une période riche et mouvementée.</p>
       </div>
-      <div>
+      <div xml:id="r1347952">
         <head rend="uc">Dossier iconographique</head>
         <p>Deux cent trois reproductions en noir et blanc classées par types de scènes, avec notices abrégées. – Trois croquis.</p>
         <pb source="https://nakala.fr/10.34847/nkl.cabb81nk#9e419723a190c22805c85c9b6e45707068a33a61" n="184" facs="https://api.nakala.fr/iiif/10.34847/nkl.cabb81nk/9e419723a190c22805c85c9b6e45707068a33a61/full/full/0/default.jpg"/>

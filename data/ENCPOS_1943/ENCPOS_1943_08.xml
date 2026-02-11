@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,15 +62,15 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r633828">
         <head rend="uc">Introduction</head>
         <p>Parmi les nombreux établissements monastiques qui prospérèrent en Lorraine dès le moyen âge, quatre abbayes de femmes furent particulièrement remarquables par le fait que, abandonnant la règle de saint Benoît, elles se sécularisèrent à des époques encore assez mal déterminées et se transformèrent peu à peu en chapitres de dames nobles.</p>
         <p>Il nous a paru intéressant d’étudier l’histoire, la vie, les mœurs, la richesse de l’un de ces chapitres de chanoinesses, l’église collégiale Saint-Goéry d’Épinal, bien qu’il n’ait pas eu l’importance, la renommée et l’ancienneté de l’abbaye de Remiremont.</p>
       </div>
-      <div>
+      <div xml:id="r633841">
         <head rend="uc">Première partie
          <lb/>Histoire des origines à la Révolution</head>
-        <div>
+        <div xml:id="r633849">
           <pb source="https://nakala.fr/10.34847/nkl.90a3yc80#7992a7968b344a010f8a1c4762b8c961be2c4030" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.90a3yc80/7992a7968b344a010f8a1c4762b8c961be2c4030/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>le monastère.</head>
@@ -80,7 +78,7 @@
           <p><hi rend="i">b) Le <num>xi<hi rend="sup">e</hi></num> siècle : prospérité et relâchement.</hi> – Ce monastère de Bénédictines fut prospère dès l’origine, grâce à la renommée des miracles de saint Goéry et au soin que prit Adalbéron II de le doter et de le mettre sous la sauvegarde de l’empereur. Aussi, vers 1050, son église, devenue insuffisante, fut-elle reconstruite et consacrée par l’évêque de Toul Brunon, déjà élevé au pontificat sous le nom de Léon IX. En 1094, Poppon, évêque de Metz, dut entreprendre de rétablir l’observance de la règle dont le monastère s’était départi.</p>
           <p><hi rend="i">c) Le <num>xii<hi rend="sup">e</hi></num> siècle : la sécularisation.</hi> – Les évêques de Metz et de Toul, Hillin, archevêque de Trèves, les papes Alexandre III et Lucius III confirment tour à tour les biens, statuts et privilèges du monastères et arbitrent les différends élevés entre l’Église et les puissances laïques. On ne connaît pas la date exacte de la sécularisation de ce couvent de Bénédictines ; cependant, dans un procès qu’il eut à ce sujet en 1286 avec l’évêque de Toul Conrad, le monastère se prétendit <pb source="https://nakala.fr/10.34847/nkl.90a3yc80#7b20cffd6923fcbe9dfe385f06aed482d6d9f54c" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.90a3yc80/7b20cffd6923fcbe9dfe385f06aed482d6d9f54c/full/full/0/default.jpg"/>séculier de temps immémorial. D’autre part, de l’étude des faits, il ressort que le monastère était certainement séculier dès le début du <num>xiii<hi rend="sup">e</hi></num> siècle (1215), et vraisemblablement à la fin du <num>xii<hi rend="sup">e</hi></num>, lors de la création de quatre chanoines (1140-1185). L’étude des textes, qui ne nous donne pas de précisions sur cette question, ne permet pas de déterminer avec plus de certitude la date de la sécularisation.</p>
         </div>
-        <div>
+        <div xml:id="r633910">
           <head rend="uc">Chapitre II
            <lb/>Le chapitre : dépendance du temporel de Metz
            <lb/>(<num>xiii<hi rend="sup">e</hi></num> siecle-1444).</head>
@@ -90,7 +88,7 @@
           <p><hi rend="i">b) Le <num>xiv<hi rend="sup">e</hi></num> siècle : lutte contre les évêques de Toul.</hi> – Le monastère traverse encore une période difficile. Amédée de Genève, évêque de Toul en 1323, entreprend de le réformer. Plus tard, différends avec les évêques de Toul, Thomas de Bourlémont (1331) et Bertrand de la Tour d’Auvergne (1335), qui motivèrent même l’intervention papale (Be<pb source="https://nakala.fr/10.34847/nkl.90a3yc80#5238a1c87af4c4d6ce8d4479e00551bbc8ad1f3c" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.90a3yc80/5238a1c87af4c4d6ce8d4479e00551bbc8ad1f3c/full/full/0/default.jpg"/>noît XII en 1337). Cependant, le chapitre a recours aux évêques de Toul dans ses démêlés intérieurs (1326-1331-1361), pour le choix de ses chanoines (1365) et dans des questions de provisions (1394), le Saint-Siège étant divisé par le Grand Schisme. D’autre part, le chapitre traite avec le chevalier de Ville (1399).</p>
           <p><hi rend="i">c) Le <num>xv<hi rend="sup">e</hi></num> siècle jusqu’en 1444.</hi> – La Lorraine est dévastée par la guerre. Le chapitre est en rapports étroits avec l’abbaye de Remiremont. A cause du schisme, démêlés de Catherine de Blamont, abbesse d’Épinal, élue abbesse de Remiremont (1404-1412). En 144’1, Isabelle de Lorraine confirme au chapitre les droits accordés par Mathieu II en 1229. Les relations du chapitre et de son suzerain, l’évêque de Metz, se sont relâchées depuis un siècle. La ville est en guerre avec Conrad Bayer de Boppart (1443). En 1444, Charles VII prend Épinal et confirme les privilèges du chapitre. Le chapitre suit désormais les vicissitudes de la ville.</p>
         </div>
-        <div>
+        <div xml:id="r633982">
           <head rend="uc">Chapitre III
            <lb/>Le chapitre : union a la Lorraine (1466-1766)
            <lb/>et à la France (1766-1791).</head>
@@ -101,17 +99,17 @@
           <p><hi rend="i">c) Le <num>xviii<hi rend="sup">e</hi></num> siècle : la Lorraine française. La fin du chapitre.</hi> – La Lorraine est rendue à ses ducs. Les ducs de Lorraine, puis le roi Stanislas et enfin le roi de France exercent leur droit de joyeux avènement (Léopold en 1699 ; François III en 1729 ; Stanislas en 1737 ; Louis XV en 1766 ; Louis XVI en 1775). Le chapitre est en contestations perpétuelles avec les évêques de Toul qui tentent d’empiéter sur ses droits : le duc Léopold doit intervenir sur la demande du chapitre en 1726. Démêlés intérieurs du chapitre (1703-1734), qui est aussi en procès avec d’autres monastères (1700-1748-1755), avec la ville (1708-1738-1753), et fait de nombreux appels en cour de Rome. Le chapitre, en 1789, participe à l’élection du représentant du clergé aux Etats-Généraux et ne cesse de protester contre la confiscation de ses biens et l’abolition de ses droits jusqu’à son expulsion, le 15 avril 1791.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r634049">
         <pb source="https://nakala.fr/10.34847/nkl.90a3yc80#c5d33fe9f182e94e8cba34bbb1ca1ba6ae854454" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.90a3yc80/c5d33fe9f182e94e8cba34bbb1ca1ba6ae854454/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Organisation et vie intérieure
          <lb/>du chapitre</head>
-        <div>
+        <div xml:id="r634064">
           <head rend="uc">Chapitre premier
            <lb/>conditions d’admission.</head>
           <p>Les conditions essentielles étaient d’abord la nécessité d’une vacance de prébende, ce qui est rappelé dès 1215 et fut toujours observé ; ensuite, la noblesse de la naissance : les premiers noms qui nous sont parvenus sont ceux de vieilles familles lorraines. D’autre part, dès le <num>xiv<hi rend="sup">e</hi></num> siècle, est spécifié qu’il faut nommer des filles « bien nées ». Au <num>xviii<hi rend="sup">e</hi></num> siècle, on examine les arbres de ligne et on exige les huit quartiers de noblesse nécessaires. Quant à l’âge, s’il fut en principe de six ans au minimum, d’après le règlement de 1645, il fut, en réalité, beaucoup plus bas encore.</p>
         </div>
-        <div>
+        <div xml:id="r634088">
           <head rend="uc">Chapitre II
            <lb/>Composition.</head>
           <p>Le chapitre comprend : l’abbesse, le chapitre proprement dit et les officiers.</p>
@@ -120,34 +118,34 @@
           <p>2) <hi rend="i">Le chapitre.</hi> – Le chapitre comprend des dignitaires, des chanoinesses et des chanoines : <hi rend="i">a</hi>) Les dignitaires sont la doyenne, nommée par le chapitre parmi les dames ayant l’ait stage et ayant vingt-sept ans ; elle remplace l’abbesse en son absence et est chef du chapitre pour le temporel ; la secrète, choisie par l’abbesse et le chapitre : ses fonctions sont celles d’une sacristine ; – <hi rend="i">b</hi>) Les chanoinesses sont présentées par la dame en tour d’appréhender (dame tante) ou par le droit de joyeux avènement (ducs et souverains), appréhendées solennellement à l’église devant l’abbesse à qui elles prêtent serment ; elles effectuent un stage de six mois et, par la suite, ont des fonctions de dames du Deus et de dames chantres, en même temps qu’elles participent aux réunions du chapitre quand elles sont dames capitulantes ; elles ont le droit de se démettre de leur prébende, de s’absenter et de tester avec la permission abbatiale ; – <hi rend="i">c</hi>) Les chanoines : les quatre prêtres hebdomadaires créés au <num>xii<hi rend="sup">e</hi></num> siècle sont nommés par l’abbesse et le chapitre dans les mois non réservés ; ce sont des prêtres qui exercent les fonctions sacerdotales par semaine, à tour de rôle ; ils participent aux assemblées du chapitre qui traitent de l’administration du temporel seulement ; ils jouissent d’une prébende comme les chanoinesses.</p>
           <p>3) <hi rend="i">Les officiers du chapitre.</hi> – <hi rend="i">a) Séculiers :</hi> ce sont le vicaire administrateur nommé par le chapitre, curé primitif de l’église paroissiale d’Épinal, qui dessert la paroisse et jouit du casuel et d’une part des dîmes ; le prêtre marlier, qui sert de prêtre en second, nommé par l’abbesse et dont. l’office fut supprimé en 1647 ; le prêtre chancelier ou sacristain, qui a soin des ornements et vases sacrés, nommé par le chapitre et sous les ordres de la secrète ; le prêtre sous-diacre, nommé et révoqué par le chapitre ; le croisier, clerc ou prêtre, turiféraire aux messes hautes, nommé et révoqué par le chapitre ; enfin, des officiers secondaires comme les marguilliers, les régents d’école, l’organiste, le bâtonnier, le bedeau, les choristes et les acolytes ; – <hi rend="i">b) Laïques</hi> : ce sont le receveur de la Crosse qui administre la mense abbatiale ; le prévôt qui gère <pb source="https://nakala.fr/10.34847/nkl.90a3yc80#91150db9405f095ae362940272e5e064c629c78d" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.90a3yc80/91150db9405f095ae362940272e5e064c629c78d/full/full/0/default.jpg"/>le temporel du chapitre ; le procureur qui gère les fondations ; le receveur des ponctuations qui règle ce qui revient aux dames pour leur présence aux offices ; le grènetier qui recevait les grains et les entreposait pour le chapitre.</p>
         </div>
-        <div>
+        <div xml:id="r634157">
           <head rend="uc">Chapitre III
            <lb/>Exemptions et privilèges.</head>
           <p>L’exemption de l’Ordinaire : dès le <num>xiii<hi rend="sup">e</hi></num> siècle, le chapitre a recours au Saint-Siège et est en démêlés à ce sujet avec les évêques de Toul. D’autre part, le chapitre était exempté des prémices dues au Saint-Siège dès le <num>xv<hi rend="sup">e</hi></num> siècle. De plus, il avait le droit de se choisir des confesseurs ayant le pouvoir d’absoudre tous les cas réservés (1560), était exempt du logement des gens de guerre (1633-1734), du droit de passage pour ses vins de Malzéville (1534-1539) et participait aux Etats-Généraux de Lorraine (<num>xvi<hi rend="sup">e</hi></num> siècle).</p>
         </div>
-        <div>
+        <div xml:id="r634187">
           <head rend="uc">Chapitre IV
            <lb/>Vie intérieure.</head>
           <p><hi rend="i">a) Les offices.</hi> – La messe journale, matines, laudes, prime, tierce, sexte, none, la messe du chapitre, les vêpres. De plus, à certaines fêtes, des rites particuliers : offrande, procession, aux fêtes de saint Sébastien, saint Benoît, de la Dédicace, à la semaine sainte, aux fêtes de saint Goéry, saint Maurice, saint Auger.</p>
           <p><hi rend="i">b) Le mode de vie.</hi> – Liberté du genre de vie, puisqu’on pouvait démissionner, s’absenter, ce qui amena des abus. D’autre part, ce ne sont que différends perpétuels qui opposent abbesse et chapitre, chapitre et chanoines, chapitre et administrateur, chapitre et abbayes voisines, le chapitre et la ville. Cependant, les dames d’Épinal n’étaient pas inaccessibles à la charité : nous avons beaucoup d’exemples de fondations pieuses pour la paroisse et le chapitre, d’institu<pb source="https://nakala.fr/10.34847/nkl.90a3yc80#f5cb30b29493aeaff00abb8ef712143c2ee6775e" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.90a3yc80/f5cb30b29493aeaff00abb8ef712143c2ee6775e/full/full/0/default.jpg"/>tions charitables (hôpital Saint-Goéry, couvent des Minimes, bouillon des pauvres et écoles, apanages du chapitre) ; de plus, elles se montraient généreuses dans leurs aumônes et indulgentes dans l’application de leurs droits.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r634214">
         <head rend="uc">Troisième partie
          <lb/>Le temporel du chapitre</head>
-        <div>
+        <div xml:id="r634222">
           <head rend="uc">Chapitre premier
            <lb/>formation.</head>
           <p>Le temporel de l’église d’Épinal fut constitué essentiellement par des donations : celles des fondateurs, confirmées plus tard par leurs successeurs, les métropolitains et les papes ; celles des princes, seigneurs, évêques et particuliers ; ensuite, par les fondations pieuses, ou legs par testaments ; enfin, par acquisitions, ce qui fut plus exceptionnel.</p>
         </div>
-        <div>
+        <div xml:id="r634234">
           <head rend="uc">Chapitre II
            <lb/>Description.</head>
           <p>1. <hi rend="i">Les menses.</hi> – A l’origine, l’abbesse aurait eu l’administration des biens de l’église, mais, dès 1325, nous connaissons des partages de biens entre l’abbesse et le chapitre. Composition de la mense abbatiale (en 1334, 1458, 1681) et de la mense capitulaire (en 1334, 1458, 1681).</p>
           <p>2. <hi rend="i">Les revenus.</hi> – <hi rend="i">a) Répartition</hi> : fluctuations des revenus de l’église d’Épinal à travers les siècles, périodes d’appauvrissement et de ruine (1206, 1323, 1640). Ces revenus, comme les menses, étaient répartis entre l’abbesse et le chapitre et, pour le chapitre, divisés en vingt-quatre prébendes. Revenus de l’abbaye au <num>xviii<hi rend="sup">e</hi></num> siècle ; revenus du chapitre au <num>xvii<hi rend="sup">e</hi></num> siècle et en 1789 ; – <hi rend="i">b) Sources :</hi> les revenus étaient <pb source="https://nakala.fr/10.34847/nkl.90a3yc80#d53c2cbc57b096b9997e6baea01cf01acd9dfb09" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.90a3yc80/d53c2cbc57b096b9997e6baea01cf01acd9dfb09/full/full/0/default.jpg"/>par leur origine soit ecclésiastiques, soit seigneuriaux. Les revenus ecclésiastiques étaient constitués par les dîmes et novales, les louables coutumes (offrandes et casuel) ; les revenus seigneuriaux comprenaient les droits d’usage dans les bois : affouages, bois mort, mort-bois, droit de carrière, de glandée ; droit d’épave, de confiscation, droit de pêche, droit de sphuse, droit de vente et, enfin, des accensements et des rentes.</p>
           <p>3. <hi rend="i">Les dépenses.</hi> – Les dépenses étaient constituées par les charges ordinaires du chapitre découlant, soit de leur état même de chanoinesses (dons aux apprébendements des dames, des abbesses, des chanoines ; dépenses courantes ; entretien des officiers du chapitre), soit de leur condition d’établissement religieux (contre-partie des dîmes : réparations d’églises, portion congrue des vicaires ; décimes et don gratuit) et aussi des charges exceptionnelles, quoique fréquentes : procès et tous les frais qu’ils entraînaient.</p>
         </div>
-        <div>
+        <div xml:id="r634289">
           <head rend="uc">Chapitre III
            <lb/>Administration.</head>
           <p>Le temporel de l’église d’Épinal était administré par des officiers qui étaient, pour l’abbesse, le receveur de la crosse et, pour le chapitre, le prévôt ; ces officiers, aidés par des agents subalternes, se chargeaient de la perception des droits ecclésiastiques et seigneuriaux.</p>
@@ -155,7 +153,7 @@
           <p><hi rend="i">b) Perception des droits seigneuriaux.</hi> – Dans chaque seigneurie où le chapitre était propriétaire foncier et haut justicier se trouvaient des officiers qui administraient le domaine <pb source="https://nakala.fr/10.34847/nkl.90a3yc80#2d9c2cda033f3e2a85a632b71fe9d3d1116681fc" n="73" facs="https://api.nakala.fr/iiif/10.34847/nkl.90a3yc80/2d9c2cda033f3e2a85a632b71fe9d3d1116681fc/full/full/0/default.jpg"/>et y faisaient observer les droits de « Madame et de Mesdames ». C’étaient le maire, le doyen, l’échevin, le marlier, les forestiers. Ces agents faisaient la recette des cens et rentes du chapitre, reprenaient les maraudeurs et tenaient, au moins deux fois l’an, les plaids banaux, y percevant les amendes, confiscations et autres redevances dues au chapitre. Ils étaient rétribués soit par une part des amendes, soit par des exemptions et privilèges. Ils rendaient compte de leur gestion au prévôt.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r634319">
         <head rend="uc">Conclusion</head>
         <p>Nous avons vu que, si de fréquentes périodes de crises vinrent troubler la vie monastique primitive au point d’amener la sécularisation, puis la vie collégiale de cette église, la vie religieuse se maintint malgré tout très vivante et triompha toujours des désordres intérieurs amenés par une trop grande liberté et des abus inhérents aux ordres privilégiés sous l’Ancien Régime. La Révolution seule dispersa les chanoinesses attachées à leur collégiale, au point que la plupart, après la dissolution de leur communauté, continuèrent à résider autour de leur église, poursuivant par leur piété et leur charité l’œuvre bienfaisante du chapitre Saint-Goéry d’Épinal.</p>
       </div>

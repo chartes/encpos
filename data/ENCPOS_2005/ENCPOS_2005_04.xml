@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2005_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2005_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -54,13 +52,13 @@
         <forename>Sara</forename>
         <surname>Centili</surname>
       </byline>
-      <div>
+      <div xml:id="r1435172">
         <head>Introduction</head>
         <p>Le <num>xiii<hi rend="sup">e</hi></num> siècle a été défini par Jacques Le Goff comme le « siècle de l’encyclopédisme ». Il fut en effet une période d’incroyable essor pour les encyclopédies latines, mais vit aussi en même temps la naissance de l’encyclopédisme vulgaire. La fondation du nouveau genre, destiné à se diffuser pendant la seconde moitié du siècle, est liée à la parution de l’<hi rend="i">Image du monde</hi>, texte qui connut une immense fortune au Moyen Age et qui circula en plusieurs rédactions. L’intention première de l’auteur de l’<hi rend="i">Image du monde</hi> visait à élaborer un programme d’instruction qui puisse adapter le savoir traditionnel clérical à un nouveau public, laïc et non scolarisé. Pour comprendre le texte, il est donc fondamental de comprendre le rapport qu’il entretint avec ses lecteurs.</p>
       </div>
-      <div>
+      <div xml:id="r1435195">
         <head>Première partie <lb/>La genèse de l’<hi rend="i">Image du monde</hi></head>
-        <div>
+        <div xml:id="r1435205">
           <head>Chapitre premier <lb/>L’état de la question : <lb/>l’<hi rend="i">Image du monde</hi> et ses rédactions</head>
           <p>L’<hi rend="i">Image du monde</hi> est un livre de clergie en langue française. Composé originellement en couplets d’octosyllabes – mais il en existe aussi une version en prose –, sa structure s’articule en parties, chapitres et sous-chapitres, scandés par rubriques et accompagnés de figures explicatives. Les sujets abordés peuvent être repartis en trois noyaux principaux : l’histoire des clercs et les vies de doctes du passé ; la description du monde sublunaire (géographie et météorologie) ; l’astronomie. La critique a distingué quatre rédactions principales, trois en vers et une en prose.</p>
           <p><hi rend="i">La Réd. A, ou première rédaction en vers</hi>. – La rédaction originale comprend une table des matières en prose et 6 600 octosyllabes repartis en trois livres, à leur tour divisés en cinquante-quatre chapitres. L’astronomie et l’histoire de la science sont traitées dans le premier et le troisième livre, tandis que le deuxième livre est entièrement consacré à la description du monde sublunaire.</p>
@@ -68,7 +66,7 @@
           <p><hi rend="i">La Réd. H, ou</hi> <hi rend="i">troisième rédaction en vers</hi>. – Un manuscrit conservé à Londres (British Library, Harley 4333) témoigne d’une version de l’<hi rend="i">Image du monde</hi> très proche de la Réd. B quant à la structure et au contenu, mais pourvue d’un long prologue général qui se clôt avec une double dédicace au comte Robert d’Artois, mort en 1250, et à l’évêque Jacques de Metz, mort en 1260. Le manuscrit harléien semble reproduire un exemplaire défectueux ou, plus probablement, encore partiellement à l’état de brouillon.</p>
           <p><hi rend="i">La Réd. P, ou rédaction en prose</hi>. – Le texte original fut enfin objet d’un dérimage particulièrement fidèle : la rédaction en prose reproduit ainsi exactement la structure et le contenu de la Réd. A.</p>
         </div>
-        <div>
+        <div xml:id="r1435258">
           <head>Chapitre II <lb/>Les procédés de remaniement dans les rédactions en vers</head>
           <p>Les rédactions remaniées (Réd. B et H) modifient en profondeur la Réd. A en intervenant à trois niveaux du texte : sur la structure, sur la disposition des matières et sur le contenu. La comparaison des rédactions en vers montre que la Réd. H n’est qu’un état primitif de la deuxième rédaction.</p>
           <p/>
@@ -78,7 +76,7 @@
           <p/>
           <p><hi rend="i">Les différences dans le contenu.</hi>– Les versions remaniées accroissent sensiblement la matière traitée, mais elles suppriment aussi des passages de la rédaction originale ; les suppressions n’intéressent pourtant qu’un nombre limité de vers, tandis que les additions sont nombreuses et parfois très longues. Les ajouts les plus fréquents sont avant tout des développements à caractère moral et narratif, concentrés dans le premier livre, tandis que les augmentations à contenu scientifique du second livre sont plus rares et généralement d’ampleur réduite. Les interpolations propres à la Réd. B, donc absentes de la Réd. H, semblent liées à un voyage en Terre sainte que l’auteur aurait pu effectuer à côté de Robert d’Artois.</p>
         </div>
-        <div>
+        <div xml:id="r1435293">
           <head>Chapitre III <lb/>Datation et paternité des différentes rédactions</head>
           <p>La critique s’est beaucoup interrogée sur la possibilité d’attribuer les rédactions en vers à un seul et même auteur. Il est difficile de trancher la question, mais la proximité géographique et chronologique des rédactions en vers, comme leur consonance de ton et de style, montrent que, si l’auteur des versions remaniées était un personnage différent de l’auteur de la rédaction originale, il devait toutefois en être intellectuellement très proche.</p>
           <p/>
@@ -88,7 +86,7 @@
           <p/>
           <p><hi rend="i">Les auteurs livrés par la tradition manuscrite</hi>. – La plupart des témoins de l’<hi rend="i">Image</hi> <hi rend="i">du monde</hi> sont anonymes, mais six manuscrits présentent deux attributions différentes qui se partagent la faveur des critiques : Gossuin ou Gautier de Metz. Gossuin est mentionné dans quatre manuscrits de la Réd. P et dans un manuscrit de la Réd. A (Firenze, Bibl. Medicea-Laurenziana, Ashb. 114, peut-être issu du même atelier marchand qui exécuta le plus ancien manuscrit attribué à la Réd. P, le ms. Paris, BNF, fr. 574) ; Gautier de Metz apparaît dans un manuscrit de la Réd. B qui présente un texte contaminé avec la Réd. A (Amsterdam, Bibl. Hermetica, 108). La fiabilité de ces attributions, minoritaires et situées dans la tradition manuscrite à des points de contact entre des rédactions différentes, est difficile à apprécier.</p>
         </div>
-        <div>
+        <div xml:id="r1435336">
           <head>Chapitre IV <lb/>L’<hi rend="i">Image du monde</hi> et son public</head>
           <p>Le remaniement de l’<hi rend="i">Image du monde</hi> fut entrepris à quelques années à peine de distance de l’achèvement de la rédaction originale, dans la même région. L’analyse des textes montre que si les intentions de l’auteur et la classe sociale visée comme public semblent être les mêmes dans toutes les rédactions, la méthode didactique change sensiblement dans les rédactions remaniées, qui se proposent de mettre l’enseignement de la clergie à la portée d’un public moins culturellement préparé.</p>
           <p/>
@@ -99,13 +97,13 @@
           <p><hi rend="i">La méthode didactique</hi>. – Tandis que la Réd. A mène en parallèle discours scientifique d’instruction et discours moral d’édification, les rédactions remaniées séparent nettement les deux parcours : l’histoire des clercs devient ainsi une introduction à la science. La volonté est de proposer un enseignement de difficulté croissante mais graduelle, compréhensible – avec un peu d’étude et d’effort – par un autodidacte. Quelques détails pourraient au contraire suggérer que la rédaction originale ait été conçue pour un usage de type scolaire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1435392">
         <head>Deuxième partie <lb/>La tradition manuscrite de l’<hi rend="i">Image du monde</hi></head>
         <p>Les quatre-vingt-dix-huit témoins des rédactions en vers de l’<hi rend="i">Image du monde</hi> sont présentés à travers des fiches descriptives schématiques articulées en sept points : datation et localisation du manuscrit, description codicologique, mise en page et décoration, particularités du texte de l’<hi rend="i">Image du monde</hi>, histoire du manuscrit, pièces contenues dans les recueils, bibliographie. Sont d’abord envisagés les soixante-treize témoins de la Réd. A, regroupés par siècle d’origine et par typologie codicologique, puis sont décrits, en suivant les mêmes critères, les vingt-quatre témoins de la Réd. B et le témoin unique de la Réd. H. Enfin, une liste des pièces françaises copiées dans les recueils du corpus offre une brève description, avec indications bibliographiques de base, des ouvrages qui ont circulé et ont été lus à côté de l’<hi rend="i">Image du monde</hi>.</p>
       </div>
-      <div>
+      <div xml:id="r1435418">
         <head>Troisième partie <lb/>Fortune et diffusion de l’<hi rend="i">Image du monde</hi></head>
-        <div>
+        <div xml:id="r1435428">
           <head>Chapitre premier <lb/>La tradition manuscrite : <lb/>un aperçu général</head>
           <p>La fortune de l’<hi rend="i">Image du monde</hi> fut immédiate et durable, même si elle fut relativement limitée dans l’espace. Il est intéressant de remarquer que si les rédactions en vers présentent quelques traits distinctifs du point de vue des caractéristiques codicologiques, les régions et les milieux de production qui connurent l’activité de copie la plus importante semblent avoir été les mêmes pour les deux rédactions.</p>
           <p/>
@@ -115,7 +113,7 @@
           <p/>
           <p><hi rend="i">Qualité de facture et ateliers de production</hi>. – Du point de vue qualitatif, la tradition peut être classée en trois catégories. La mieux représentée est celle du « livre romanesque moyen », écrit sur deux colonnes, avec lettrines coloriées et parfois décorées. Relativement nombreuses aussi sont néanmoins les copies très modestes, de petit format, à la décoration réduite ou même complètement absente, selon une typologie qu’on a appelée du « livre d’usage » ; ces manuscrits semblent souvent issus de petits ateliers de production de niveau professionnel médiocre. Plus fréquents sont tout de même les manuscrits décorés et même enluminés avec un certain soin, issus sûrement d’ateliers marchands de bon niveau ; leur nombre montre que le rôle joué par l’industrie de la copie dans la diffusion de l’<hi rend="i">Image du monde</hi> fut considérable.</p>
         </div>
-        <div>
+        <div xml:id="r1435501">
           <head>Chapitre II <lb/>La position intellectuelle <lb/>de l’<hi rend="i">Image du monde</hi></head>
           <p/>
           <p>L’analyse des recueils qui contiennent l’<hi rend="i">Image du monde</hi> permet de déterminer le contexte intellectuel à l’intérieur duquel notre encyclopédie était lue et copiée. La diversité des contextes – spécialement évidente pour les témoins de la Réd. A – invite à voir dans la pluralité des lectures possibles une des clés du succès de l’encyclopédie.</p>
@@ -127,7 +125,7 @@
           <p><hi rend="i">Les grands recueils</hi>. – La typologie des grands recueils, qui peuvent renfermer plus de cinquante textes, est tellement variable qu’on a l’impression que l’<hi rend="i">Image du monde</hi>était perçue comme ouvrage de base, une sorte de « grand classique », digne de figurer dans tout recueil d’une certaine ampleur. Là où les grands recueils sont organisés en sections ordonnées, l’<hi rend="i">Image du monde</hi> figure souvent parmi les textes moraux ou scientifiques, mais aussi, parfois, à l’intérieur des sections religieuses.</p>
           <p/>
         </div>
-        <div>
+        <div xml:id="r1435581">
           <head>Chapitre III <lb/>Lecteurs et lecture de l’<hi rend="i">Image du monde</hi></head>
           <p/>
           <p>La diffusion effective de l’<hi rend="i">Image du monde</hi> semble avoir dépassé les attentes de son auteur : non seulement elle fut lue parmi les milieux chevaleresques auxquels elle était destinée, mais aussi dans les établissements religieux et par les femmes. Les modalités de lecture et les milieux de circulation des deux rédactions en vers semblent d’ailleurs avoir été largement les mêmes.</p>
@@ -140,7 +138,7 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r1435636">
         <head>Conclusion</head>
         <p/>
         <p>La richesse de la tradition manuscrite de l’<hi rend="i">Image du monde</hi> en fait l’un des textes les plus répandus au Moyen Age. Sa diffusion rapide et capillaire indique que le besoin de culture scientifique en français était, dans la seconde moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, particulièrement vivace ; les potentialités commerciales de ce livre de clergie en langue romane semblent d’ailleurs avoir été bientôt comprises par les ateliers de copie, dont l’activité, dense, contribua sans doute à la fortune de l’encyclopédie. Les rédactions en vers, bien que différentes dans le contenu et dans les intentions, circulèrent surtout en parallèle, apparemment en synergie plutôt qu’en concurrence, dans la propagation d’un programme d’instruction et d’édification destiné aux laïcs.</p>

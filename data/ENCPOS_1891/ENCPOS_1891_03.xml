@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1891_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1891_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,28 +58,28 @@
         <forename>Henri</forename>
         <surname>Duchemin</surname>
       </byline>
-      <div>
+      <div xml:id="r184787">
         <head rend="uc">Introduction</head>
         <p>La biographie de Christine de Pisan a été plusieurs fois écrite ; les documents nous font défaut pour la compléter, mais il importe d’en rappeler les points principaux pour pouvoir établir dans quelles circonstances et au milieu de quel entourage ce livre a été composé.</p>
         <p>Faute d’avoir examiné ces circonstances et cet entourage, on s’est jusqu’ici mépris sur la portée du <hi rend="i">Livre des Fais et bonnes Meurs.</hi> Les sources de cet ouvrage sont de deux sortes : <hi rend="i">historiques,</hi> c’est-à-dire ayant trait aux chroniques contemporaines ; <hi rend="i">littéraires</hi>, c’est-à-dire se rapportant à diverses compilations morales et philosophiques.</p>
       </div>
-      <div>
+      <div xml:id="r184812">
         <pb source="https://nakala.fr/10.34847/nkl.67fdh7n4#447cfdb91bf292910ca6c828f7fa38b9c206e8d2" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.67fdh7n4/447cfdb91bf292910ca6c828f7fa38b9c206e8d2/full/full/0/default.jpg"/>
         <head rend="uc">Livre premier
          <lb/>sources historiques</head>
-        <div>
+        <div xml:id="r184825">
           <head rend="uc">I. – Sources historiques écrites.</head>
           <p>1. <hi rend="i">Chroniques de Saint-Denis.</hi> – Elles sont partiellement reproduites, pour ce qui concerne les guerres de Charles V, dans la seconde partie de l’œuvre de Christine de Pisan, et très fidèlement copiées sur le texte du ms. Bibl. nat. fr. 4957, pour ce qui traite du séjour de l’empereur Charles IV en France, dans la troisième. Il paraît établi, d’après nos comparaisons, que le ms. fr. 4957 est bien celui-là même sur lequel a travaillé Christine.</p>
           <p>2. Une <hi rend="i">Chronique anonyme</hi> contenue dans le ms. fr. 4957. – Un certain nombre d’extraits de cette chronique entrent dans la composition de la seconde partie, comme le fait voir un tableau comparatif que nous en avons dressé.</p>
           <p>3. <hi rend="i">Relation latine de la mort de Charles V.</hi> – Christine l’a traduite dans le dernier chapitre de la troisième partie, en en retranchant seulement ce qui était de nature à froisser certaines personnalités, comme l’a démontré déjà M. Hauréau.</p>
         </div>
-        <div>
+        <div xml:id="r184853">
           <head rend="uc">II. – Sources historiques orales</head>
           <p>1. Ce sont des relations et communications qui furent faites à Christine par d’anciens serviteurs du roi ; Thomas de Pisan son père est le seul qu’elle nomme, mais il faut compter vraisemblablement parmi eux Gilles Malet, Jean de Montaigu et des membres de la famille de La Rivière.</p>
           <p>2. La vérité des faits provenant de ces récits est établie par d’autres témoignages, par exemple celui de l’auteur du <hi rend="i">Songe du Vergier.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r184870">
         <pb source="https://nakala.fr/10.34847/nkl.67fdh7n4#6571572dd582dffad706a33134e11e137abd4473" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.67fdh7n4/6571572dd582dffad706a33134e11e137abd4473/full/full/0/default.jpg"/>
         <head rend="uc">Livre deuxième
          <lb/>sources littéraires</head>
@@ -89,7 +87,7 @@
         <p>2. <hi rend="i">Spéculum historiale</hi> de Vincent de Beauvais. – Christine l’a connu par la traduction anonyme abrégée que donne le ms. fr. 4957 et dont des extraits sont épars dans toutes les parties de son livre.</p>
         <p>3. <hi rend="i">Commentaire sur la Métaphysique d’Aristote</hi>. – Ce commentaire, qu’il nous a été impossible de retrouver, est reproduit par fragments dans les premiers et les derniers chapitres de la troisième partie.</p>
       </div>
-      <div>
+      <div xml:id="r184905">
         <head rend="uc">Conclusion</head>
         <p>Les pages originales sont donc rares dans le <hi rend="i">Livre des Fais et bonnes Meurs ;</hi> mais qui voudra se faire une juste idée du portrait moral de Charles V devra toujours y recourir parce qu’elles sont fondées sur les souvenirs de Christine ou de témoins qu’elle a connus.</p>
         <p>Comme œuvre littéraire le livre de Christine ne mérite guère d’être cité sinon comme un monument intéressant pour l’histoire de l’érudition au Moyen-Age, ou plutôt comme un exemple frappant de la liberté avec laquelle les auteurs en usaient alors avec les œuvres des écrivains antérieurs.</p>

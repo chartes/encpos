@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1907_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,11 +61,11 @@
         <head rend="uc">Sources et bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r307130">
         <head rend="uc">Première partie
          <lb/>Les intendants en Bretagne
          <lb/>(1590-1649)</head>
-        <div>
+        <div xml:id="r307140">
           <head rend="uc">Livre premier
            <lb/>les intendants d’armée et commissaires
            <lb/>pour les finances (1590-1603)</head>
@@ -93,7 +91,7 @@
             <p>Son action à partir de 1600 se fait sentir de plus en plus rarement ; après 1603, il n’en est plus question. Donc, pas plus de Maupeou que de Turquant, ne part la série des intendants de Bretagne : les raisons sont identiques pour l’un et pour l’autre.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r307222">
           <pb source="https://nakala.fr/10.34847/nkl.0dc84dq2#71e597ce9abafb08f095fd03342e5b91984c2375" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.0dc84dq2/71e597ce9abafb08f095fd03342e5b91984c2375/full/full/0/default.jpg"/>
           <head rend="uc">Livre II
            <lb/>les intendants de justice, police et finances
@@ -124,15 +122,15 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r307321">
         <head rend="uc">Deuxième partie
          <lb/>Les commissaires extraordinaires
          <lb/>en Bretagne</head>
-        <div>
+        <div xml:id="r307331">
           <head rend="uc">Introduction</head>
           <p>Remarques sur le caractère fragmentaire de cette étude. Les officiers ordinaires n’ont-ils donc été dessaisis de leurs fonctions qu’à des intervalles aussi éloignés les uns des autres ? Non, des commissaires extraordinaires députés par le roi viennent résoudre la plupart des difficultés qui intéressent la cause du pouvoir central. Ces commissaires sont de tous les temps et de tous les pays : la France ne fait pas exception. – Considérations historiques sur ce sujet. Au <num>xvi<hi rend="sup">e</hi></num> siècle, ce sont les maîtres <pb source="https://nakala.fr/10.34847/nkl.0dc84dq2#424281d278d66ec3cd7451450a01ffdecd055e45" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.0dc84dq2/424281d278d66ec3cd7451450a01ffdecd055e45/full/full/0/default.jpg"/>des requêtes qui viennent à tout instant dessaisir les pouvoirs locaux : les intendants ne sont qu’une catégorie de ces commissaires. En fait, ce sont ces commissaires qui habituent la province à voir un grand nombre d’affaires échapper aux officiers ordinaires ; la création de l’intendance en 1689 sera la conséquence presque nécessaire des circonstances. – On distinguera deux sortes de commissaires : 1° les commissaires députés en diverses parties ; 2° les commissaires députés spécialement aux sessions des Etats provinciaux.</p>
         </div>
-        <div>
+        <div xml:id="r307352">
           <head rend="uc">Livre I
            <lb/>les commissaires extraordinaires députés par le roi
            <lb/>en diverses parties</head>
@@ -159,7 +157,7 @@
             <p>Béchameil de Nointel. – Point de départ modeste : l’arrêt du Conseil du 6 février 1679 le charge d’aller réorganiser les Archives de la Chambre des Comptes et du Château de Nantes, de dresser procès-verbal des titres manquants ou lacérés et de procéder aux poursuites qui s’y rat<pb source="https://nakala.fr/10.34847/nkl.0dc84dq2#0f6c2b445b9e69452cb98055500856adebc72a05" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.0dc84dq2/0f6c2b445b9e69452cb98055500856adebc72a05/full/full/0/default.jpg"/>tachent. – Importance des falsifications relevées. Nointel instruit et juge le procès du faussaire la Mothe-Mettrie, qui est condamné aux galères perpétuelles. – Inquiétude des Etats de 1679. – Il s’occupe d’affaires de faux monnayage. Il cherche à accroître ses pouvoirs. Il est chargé de faire rétablir l’enseignement du droit civil et canonique à l’université de Nantes. – En mars 1680, il achève d’examiner la majeure partie des aveux de la Chambre des Comptes. Il est chargé d’instruire diverses affaires de contentieux domanial, notamment l’affaire Rosambo, l’affaire Assérac concernant les marais de Saint-Coulban, les prétentions des communautés à être exemptes des droits de lods et ventes. – Ses relations avec M<hi rend="sup">me</hi> de Sévigné, qui voit en lui une sorte d’intendant. – Il examine les registres de la Réformation de la noblesse et les livres des manants. – Il reçoit le pouvoir de procéder aux poursuites qui se rattachent à son procès-verbal des titres falsifiés. – Il est nommé intendant de Touraine. Sens réel de celte nomination et échec du duc de Chaulnes, qui avait essayé de se débarrasser du commissaire. Celui-ci, en effet, revient à Nantes en décembre 1680. Colbert le charge de presser les commis de la Réformation du domaine. – Nointel prépare un règlement pour éviter que les Archives de la Chambre des Comptes ne retombent dans le désordre. – Comme suite à son procès-verbal des titres manquants ou falsifiés, il reçoit l’autorisation de poursuivre les gardes des livres qui sont officiers de la Chambre. – On le commet, en 1681, pour faire exécuter deux édits, l’un prohibant la traite des blés, l’autre diminuant les droits sur les vins et eaux-de-vie qui descendaient la Loire. – Il est chargé de dresser un procès-verbal « pour la réformation des pancartes des droits de ports et hâvres ». – Opposition des Etats aux commissions de Nointel. Il continue, malgré tout, à les <pb source="https://nakala.fr/10.34847/nkl.0dc84dq2#d347655e19099f7b998f624b369d5b9283c653ea" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.0dc84dq2/d347655e19099f7b998f624b369d5b9283c653ea/full/full/0/default.jpg"/>exécuter. – Ses séjours en Bretagne deviennent plus rares. – Certaines affaires qui restent pendantes sont reprises en 1689 par l’intendant Pomereu.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r307455">
           <head rend="uc">Livre II
            <lb/>les commissaires extraordinaires du roi aux états
            <lb/>de Bretagne
@@ -190,11 +188,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r307561">
         <head rend="uc">Conclusion</head>
         <p>Etat de la Bretagne en 1689. – Depuis de longues années, elle a pu s’accoutumer à voir des commissaires extraordinaires venir suspendre ou dessaisir de plus en plus fréquemment les officiers ordinaires. Tout ce qui, dans la province, jouissait d’une certaine autorité a été neutralisé ou amoindri : gouverneur, Etats, Parle<pb source="https://nakala.fr/10.34847/nkl.0dc84dq2#c89da100db280e6dff8f6c48aa4670c9e8ebf5f6" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.0dc84dq2/c89da100db280e6dff8f6c48aa4670c9e8ebf5f6/full/full/0/default.jpg"/>ment. – Le moment est venu de créer un représentant direct et permanent du pouvoir central en Bretagne : Pomereu est nommé commissaire départi en Bretagne (janvier 1689). – La création du Commandant en chef achève de ruiner l’autorité du gouverneur. – Etats de 1689. – Le titre de Premier Commissaire du conseil est porté par Pomereu qui en remplit les fonctions. Le rôle qu’il joue dans la province, au point de vue administratif, est une extension de celui que venaient jouer autrefois les Commissaires extraordinaires députés en diverses parties.</p>
       </div>
-      <div>
+      <div xml:id="r307576">
         <head rend="uc">Appendice</head>
         <p>Auguste-Robert de Pomereu, intendant de justice, police et finances en l’armée royale, prenant ses quartiers d’hiver en Bretagne (1675-1676).</p>
       </div>

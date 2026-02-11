@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2001_24" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2001_24" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -53,19 +51,19 @@
         <forename>Marie-Astrid</forename>
         <surname rend="uc">Zang</surname>
       </byline>
-      <div>
+      <div xml:id="r1392153">
         <head>Introduction</head>
         <p>Au début du <num>xii<hi rend="sup">e</hi></num> siècle, les rois Capétiens occupent deux types de résidences fortifiées: les unes sont issues du fisc carolingien ou font partie du domaine royal depuis longtemps, les autres ont été construites il y a peu pour affirmer la domination royale sur des terres récemment conquises. L’ensemble de ces châteaux sont confiés à la garde de châtelains, par ailleurs chargés de l’administration des droits royaux dans les ressorts correspondants. A partir du <num>xiii<hi rend="sup">e</hi></num> siècle, une distinction s’opère entre le châtelain, appelé «capitaine» unsiècle plus tard, qui conserve ses attributions militaires, et le prévôt qui reçoit l’administration de la châtellenie. Sous les règnes de Louis VI et de Louis VII, apparaît par ailleurs un nouveau type de résidences, peu ou pas fortifiées, dont le but premier est l’agrément du roi et qui, en l’absence de fonctions militaires, sont confiées à une catégorie d’agents jusque là inconnue: les concierges.</p>
         <p>S’appuyant sur le cas de Vincennes, qui est au nombre de ces créations, l’étude vise, tout d’abord, à préciser les fonctions du concierge et à en saisir l’évolution, au gré des modifications de l’administration royale. En effet, la guerre de Cent Ans entraîne un changement de statut de la résidence de Vincennes: à son retour de captivité en 1361, Jean II décide d’y construire une forteresse qui pourra lui servir de refuge en cas d’invasion anglaise ou de révolte à Paris; les travaux sont achevés par son fils Charles V. Cette transformation implique une redistribution des fonctions au sein des agents royaux, en faisant désormais intervenir un capitaine, dont il convient d’examiner les missions et de saisir la position par rapport au concierge. Cette étude institutionnelle s’accompagnera d’une enquête prosopographique sur les concierges et les capitaines en poste à Vincennes. L’évolution observée à Vincennes sera confrontée avec la situation des autres résidences royales.</p>
       </div>
-      <div>
+      <div xml:id="r1392177">
         <head>Sources</head>
         <p>Les sources utilisées sont conservées aux Archives nationales et à la Bibliothèque nationale de France, mais demeurent dispersées en une multitude de fonds. Aux Archives nationales ont été consultées les grandes séries conservant les documents produits par l’administration royale: Trésor des chartes, Monuments historiques, registres du parlement civil de Paris et surtout les archives de la Chambre des comptes, si importantes pour connaître la gestion du domaine royal grâce aux aveux et dénombrements et grâce aux mémoriaux qui ont pu être reconstitués. Cette documentation a été complétée par le recours à quelques pièces conservées dans les sériesS (biens des établissements religieux supprimés) et AB XIX(papiers d’érudits).</p>
         <p>Les fonds manuscrits de la Bibliothèque nationale de France ont notamment permis de parfaire la reconstitution des archives de la Chambre des comptes, grâce notamment aux documents originaux, aux copies et aux notes d’érudits modernes réunis dans le Cabinet des titres. Là aussi on a eu recours à titre complémentaire à diverses pièces originales (comptes, quittances, montres d’hommes d’armes…), dispersées dans la collection Clairambault, dans le fonds français et dans celui des nouvelles acquisitions françaises.</p>
       </div>
-      <div>
+      <div xml:id="r1392189">
         <head>Première partie <lb/>Les concierges et les capitaines du château de Vincennes entre 1258 et 1418</head>
-        <div>
+        <div xml:id="r1392196">
           <head>Chapitre premier <lb/>Les concierges</head>
           <p><hi rend="i">Les concierges de Vincennes </hi>— Les rois de France ne s’intéressent au bois de Vincennes qu’à partir de la fin du XIIesiècle, lorsqu’ils résident de plus en plus souvent à Paris. Philippe Auguste acquiert divers droits d’usage afin de devenir le seul propriétaire du bois, qu’il enceint d’un mur et peuple d’animaux. A cette époque, le bois de Vincennes n’a pas d’administrateur propre: il est confié avec d’autres forêts à un nommé Godard.</p>
           <p>La plus ancienne attestation d’un concierge en charge de Vincennes remonte à 1258. Un grand nombre de concierges sont dès lors connus, malgré de longues périodes de silence documentaire et des incertitudes sur leurs dates d’entrée et de sortie de charge. La lutte entre Armagnacs et Bourguignons entraîne, à partir de 1410 notamment, de nombreux changements de titulaires, au gré des victoires et des défaites des deux partis, montrant par là l’importance que les princes accordent au château de Vincennes.</p>
@@ -77,7 +75,7 @@
           <p>Les gages du concierge de Vincennes semblent ne pas avoir changé de la fin du XIIIesiècle au début du XVesiècle: le concierge reçoit trois sous par jour et cent sous par an <hi rend="i">pro roba.</hi> A ces gages s’ajoutent des exemptions de taxes et peut-être d’autres revenus qui demeurent inconnus.</p>
           <p><hi rend="i">Le personnel subalterne </hi>— Le concierge de Vincennes est suppléé par un lieutenant et dirige les sergents du bois et de la garenne, les portiers du bois, les garenniers et, à partir de la fin de la décennie 1360, un garde de l’horloge. Certains agents n’apparaissent qu’une ou deux fois dans la documentation: garde des maisons, garde des clefs des vieilles maisons, garde du parc, garde de la conciergerie, garde de l’étang, garde des ruisseaux, oiseleur.</p>
         </div>
-        <div>
+        <div xml:id="r1392244">
           <head>Chapitre II <lb/>Les capitaines</head>
           <p><hi rend="i">L’apparition d’un capitaine à Vincennes </hi>— La création de l’office de capitaine à Vincennes à la fin des années 1360 participe à l’effort de mise en défense du royaume après la défaite de Poitiers (1356) et le traité de Brétigny-Calais (1360). Les forteresses royales sont inspectées: celles qui sont en mauvais état sont soit réparées, soit détruites; des ordonnances royales enjoignent aux seigneurs de remettre en état leurs châteaux et d’offrir un refuge aux habitants des villages voisins, en échange du service de guet; les villes reçoivent une aide du roi pour reconstruire leurs murailles; les communautés paysannes fortifient un bâtiment, souvent l’église, pour entreposer leurs biens et se réfugier en cas d’attaque. En même temps Charles V procède à une profonde réforme de l’armée.</p>
           <p>Cette préoccupation se retrouve bien sûr à la cour. En 1369, Charles V crée une garde permanente de vingt hommes d’armes commandée par Hue de Boulay et chargée d’assurer sa sécurité; quelques années plus tard, cette troupe est étoffée de vingt-quatre arbalétriers placés sous le commandement de Jean de Ruie. A son retour de captivité, Jean II décide d’aménager une résidence royale fortifiée. Pour des raisons stratégiques et matérielles, la résidence de Vincennes est préférée au Louvre: elle allie la proximité de Paris, qui en fait un refuge idéal, et la présence d’une forêt où le roi pourra chasser. Ce choix a aussi une portée symbolique importante, dans la mesure où Vincennes est l’une des résidences privilégiées des rois de France depuis Philippe Auguste. La construction de la forteresse est relativement rapide: le donjon est commencé en 1361 et achevé vers 1372. L’année suivante, Charles V, qui veut faire de Vincennes un véritable centre de gouvernement, lance la construction de la grande enceinte, qui est achevée sous Charles VI.</p>
@@ -88,15 +86,15 @@
           <p><hi rend="i">Le personnel subalterne </hi>— Le capitaine dirige la garnison, dont l’importance varie en fonction des circonstanceset qui comprend notamment un garde de l’artillerie assisté d’un artilleur, des canonniers, des guetteurs et des portiers. Il touche les gages de ses hommes en même temps que les siens et délivre parfois quittance à leur place. Il peut commander aussi les troupes extérieures qui sont présentes à Vincennes lorsque le roi y réside.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1392286">
         <head>Deuxième partie <lb/>Etude prosopographique</head>
-        <div>
+        <div xml:id="r1392293">
           <head>Chapitre premier <lb/>Leurs origines sociale et géographique</head>
           <p><hi rend="i">Le milieu social </hi>— A l’exception de Jean le Goix, tous les concierges et les capitaines de Vincennes dont nous connaissons l’extraction sont nobles, pour certains de fraîche date(André Le Clerc est anobli et Nicolas Braque est fils d’anobli). La plupart des concierges sont chevaliers; seuls quatre d’entre eux, dont trois avant 1367, sont écuyers. Le niveau social des capitaines est moindre: à l’exception de Nicolas Braque, devenu chevalier en 1351, tous sont écuyers. Cette différence confirme que la charge de concierge n’a pas perdu de son prestige après l’installation d’un capitaine.</p>
           <p>Les concierges et les capitaines sont presque tous issus de familles au service du roi depuis une ou plusieurs générations. Certains de leurs ancêtres ont parfois occupé des fonctions importantes.</p>
           <p><hi rend="i">L’origine géographique </hi>— Les biens acquis par les concierges et par les capitaines sont plus faciles à établir que leurs possessions patrimoniales. Lorsque ces dernières sont connues, les nouvelles acquisitions sont toujours situées à proximité. Ce voisinage permet de déduire la région d’origine des concierges et des capitaines : aucun ne semble venir du midi de la France.</p>
         </div>
-        <div>
+        <div xml:id="r1392316">
           <head>Chapitre II <lb/>Leur place dans l’entourage royal et leur rôle politique</head>
           <p><hi rend="i">Leur place dans l’entourage royal </hi>— La plupart des concierges et des capitaines du château de Vincennes sont membres de l’Hôtel du roi; seul Jean le Goix n’en a jamais apparemment fait partie. Les charges occupées à l’Hôtel sont d’importance diverse: les titulaires les plus importants sont maîtres d’hôtel ou chambellans; les autres peuvent être échansons, valets d’écurie, écuyers de cuisine, valets de chambre, valets tranchant ou huissiers d’armes. Cependant, même titulaire d’une petite charge, un concierge ou un capitaine peut accéder facilement au roi et espérer en obtenir des faveurs, pour lui-même ou pour l’un de ses proches. Certains de ses subordonnés ont également fait partie de l’Hôtel du roi.</p>
           <p>Le roi multiplie les dons en faveur des concierges et des capitaines, tant en argent qu’en nature (maison, vaisselle, vêtement, cheval, selle…). Dans la plupart des cas, il s’agit de récompenser de bons et loyaux services, mais le roi peut aussi aider un fidèle en difficulté: participation à une rançon, aux frais occasionnés par une maladie ou un pèlerinage…</p>
@@ -104,15 +102,15 @@
           <p><hi rend="i">Leur rôle politique </hi>— Quelques concierges et capitaines portent le titre de conseiller du roi. Leur rôle exact est toutefois difficile à préciser: en effet, à l’exception de Nicolas Braque, de Guillaume de Tancarville et de Bureau de la Rivière, ces attestations sont rares et, en tout état de cause, absentes des mentions hors-teneur.</p>
           <p>Certains d’entre eux ont pu recevoir des missions diplomatiques (négociation de paix avec les Anglais et d’alliances avec d’autres pays) au cours de la guerre de Cent Ans. Certains ont pu être des pourvoyeurs de fonds et prêter de l’argent au roi, en vue notamment d’une campagne militaire. Autant que l’on puisse en juger, ces prêts sont fréquemment remboursés.</p>
         </div>
-        <div>
+        <div xml:id="r1392351">
           <head>Chapitre III <lb/>Leurs autres fonctions</head>
           <p><hi rend="i">Les fonctions militaires </hi>— Au-delà de la garde de Vincennes, les concierges et les capitaines peuvent exercer d’autres fonctions militaires: au moins deux concierges, tous deux nommés Guillaume de Comtes, sont explicitement attestés au cours de campagnes menées au début du <num>xiv<hi rend="sup">e</hi></num> siècle; la plupart des concierges et des capitaines en fonction au moment de la guerre de Cent Ans y ont pris part. Ils peuvent faire partie de troupes chargées d’assurer la sécurité du roi, comme passer en revue des hommes d’armes retenus par le roi. En outre, à partir de la seconde moitié du <num>xiv<hi rend="sup">e</hi></num> siècle, ils ont pu être nommés à la tête d’autres forteresses royales; il s’agit là avant d’une charge honorifique, dans la mesure où un tel cumul rend impossible toute exercice effectif de ces fonctions.</p>
           <p><hi rend="i">Les fonctions administratives </hi>— Certains concierges et capitaines du château de Vincennes ont occupé des fonctions dans l’administration royale. Trois d’entre eux ont fait partie de la Chambre des comptes en qualité de greffier, de maître et de président lai. Au début du <num>xv<hi rend="sup">e</hi></num> siècle, plusieurs exercent par ailleurs les fonctions de garde des coffres ou de garde de l’épargne, voire cumulent les deux: ceci s’explique par le fait que le roi place ses réserves d’argent dans des forteresses, et notamment à Vincennes. Deux concierges ont été maîtres des eaux et forêts et un troisième, souverain maître et général réformateur des eaux et forêts. Plusieurs enfin ont fait partie de l’administration locale en qualité de vicomte en Normandie, de bailli, de maire d’une ville, de garde dans une forêt ou de sergent.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1392390">
         <head>Troisième partie <lb/>La place de Vincennes dans l’administration royale</head>
-        <div>
+        <div xml:id="r1392397">
           <head>Chapitre premier <lb/>D’autres résidences royales ont-elles connu la même évolution</head>
           <p><hi rend="i">Les résidences dépourvues de capitaines </hi>— Certaines résidences administrées par un concierge n’ont pas connu la même évolution que Vincennes. Une résidence urbaine comme le Palais de la Cité n’a jamais été confiée à un capitaine pour deux raisons: les travaux réalisés au <num>xiii<hi rend="sup">e</hi></num> et au <num>xiv<hi rend="sup">e</hi></num> siècle lui font perdre sa destination militaire première; surtout, Paris est déjà doté d’une forteresse commandée par un capitaine, le Louvre. C’est un peu pour la même raison que la résidence de Paucourt a toujours été confiée à un concierge, attesté au moins depuis 1239, et n’a jamais été fortifiée : un châtelain, puis un capitaine siège en effet à proximité de Paucourt, à la forteresse de Montargis.</p>
           <p><hi rend="i">Les résidences où est apparu un capitaine </hi>— Du fait des lacunes documentaires, il est parfois difficile de d’apprécier les circonstances, notamment militaires, qui ont présidé à l’apparition d’un capitaine dans une résidence royale. C’est notamment le cas pour Pont-Sainte-Maxence ou Poissy, où un capitaine est bien attesté au cours du <num>xiv<hi rend="sup">e</hi></num> siècle, mais sans que l’on connaisse la date de création de la charge.</p>
@@ -122,7 +120,7 @@
           <p><hi rend="i">Les conséquences de la création de l’office de capitaine sur la fonction du concierge </hi>— Comme on l’a vu, la création de l’office de capitaine n’a pas entraîné, à Vincennes, une diminution de prestige de la fonction de concierge. Il n’en va pas toujours de même dans les autres résidences royales où est apparu un capitaine. L’absence de mention de concierge à Corbeil après 1285 amène à envisager une disparition de la fonction, ou au moins un amoindrissement important. A Laon où concierges et capitaines sont apparus à peu près en même temps, les fonctions du concierge et du capitaine demeurent bien distinctes. En effet, le concierge de Laon n’est pas un officier nommé par le roi, mais le détenteur d’un fief: il n’entre donc pas en compétition avec le capitaine.</p>
           <p>Le cas de Saint-Germain-en-Laye est rendu plus complexe par l’apparition, à la fin du XIIIesiècle, d’un gruyer ou garde de la forêt de Laye. La diminution sensible des gages du concierge de Saint-Germain-en-Laye étant concomitante avec cette création, on peut penser que le concierge a dû être privé alors de la partie de ses attributions relatives à la forêt, à la différence de Vincennes, avant que sa charge même ne soit supprimée.</p>
         </div>
-        <div>
+        <div xml:id="r1392453">
           <head>Chapitre II <lb/>Place des officiers de Vincennes dans l’administration royale</head>
           <p><hi rend="i">Les hommes </hi>— Comme leurs homologues en poste à Vincennes, les concierges et les capitaines des autres forteresses royales sont tous issus du même milieu social: mis à part quelques exceptions pendant les périodes de domination bourguignonne, ils sont chevaliers ou écuyers. Ils exercent les mêmes fonctions militaires et administratives et appartiennent aux mêmes réseaux de clientèle que les concierges et les capitaines de Vincennes.</p>
           <p><hi rend="i">L’influence du contexte politique </hi>— A partir de 1409, les concierges et les capitaines de ces forteresses changent, comme à Vincennes, au gré des victoires et des défaites des partis bourguignon et armagnac. Il n’y a là rien de particulier: tous les offices royaux sont touchés par la rivalité entre le duc d’Orléans et le duc de Bourgogne, dès 1404 pour les offices de l’administration centrale et pour le conseil, à partir de 1407 voire de 1409 pour les fonctions administratives locales.</p>
@@ -130,17 +128,17 @@
           <p>L’historien est moins bien renseigné en ce qui concerne les gages des capitaines. On sait qu’en 1372, le roi consacre 840 francs au château de Vincennes, ce qui le place en première position des forteresses du Bassin parisien. Une quinzaine d’années plus tard, en 1388, le capitaine de Vincennes voit ses gages ramenés de 500 à 300 francs. Il n’est pas le seul à subir une telle baisse et demeure même moins touché que les autres capitaines, dont les gages sont quelquefois divisés par deux, voire par quatre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1392495">
         <head>Conclusion</head>
         <p>Au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle au plus tard, la résidence de Vincennes est confiée à un concierge qui s’occupe de l’entretien et de l’approvisionnement du manoir et veille sur le domaine forestier, avec l’aide d’un personnel assez nombreux. La construction du donjon, puis de la grande enceinte, par Jean II et Charles V entraîne un changement de statut de la résidence, qui est désormais administrée par un personnel militaire sous les ordres du capitaine. La création de ce nouvel office aurait pu avoir comme conséquence sinon la disparition de la fonction de concierge, du moins une perte de prestige de celle-ci. Ce n’est cependant pas le cas: même après l’apparition du capitaine, les concierges nommés à Vincennes restent des personnages importants.</p>
         <p>Comme ailleurs, le roi nomme à Vincennes des hommes qui lui sont fidèles, qui font partie de son administration, parfois de son hôtel même, et qui, pour certains, sont ses conseillers. A partir de 1410, comme tous les officiers royaux, les concierges et les capitaines de Vincennes subissent les conséquences de la lutte entre Armagnacs et Bourguignons.</p>
         <p>Le château de Vincennes occupe une place particulière parmi les résidences royales: la fonction de concierge y a gardé tout son prestige après la création de l’office de capitaine et à aucun moment les deux fonctions n’y ont été confondues.</p>
       </div>
-      <div>
+      <div xml:id="r1392516">
         <head>Pièces justificatives</head>
         <p>Ordonnances royales, mandements royaux et non-royaux, quittances, attestations.</p>
       </div>
-      <div>
+      <div xml:id="r1392525">
         <head>Annexes</head>
         <p>Index des noms de lieu et de personne.</p>
       </div>

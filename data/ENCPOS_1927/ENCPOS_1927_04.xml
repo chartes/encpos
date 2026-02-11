@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,7 +58,7 @@
         <forename>Jeanne</forename>
         <surname>Daguillon</surname>
       </byline>
-      <div>
+      <div xml:id="r458816">
         <head rend="uc">Avant-propos</head>
         <p>Les recherches méthodiques faites dans les bibliothèques de tous les pays de l’Europe font découvrir des œuvres de première importance pour l’histoire de la pensée médiévale.</p>
         <p>Par bien des côtés celte pensée demeure encore mystérieuse et elle reste difficile à atteindre parce que les textes qui pourraient nous la faire connaître sont encore en grande partie inédits. Parmi ces textes inédits nous nous sommes arrêté à la Somme d’Ulrich de Strasbourg (1277), dominicain de la province de Teutonie. L’importance de cette Somme vient d’abord de son auteur. Ulrich fut en effet le disciple d’Albert le Grand, le condisciple de Saint Thomas, d’Henri de Gand, d’Antonin de Sienne. De plus, cette Somme est une des manifestations les plus importantes du courant néoplatoniciens médiéval ; peut-être même forme-t-elle le trait d’union entre la doctrine albertinienne et celle des grands mystiques rhénans du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
@@ -74,15 +72,15 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r458858">
         <head rend="uc">Première partie
          <lb/>Biographie d’Ulrich</head>
-        <div>
+        <div xml:id="r458866">
           <head rend="uc">Chapitre I
            <lb/>Ulrich avant son entrée dans l’ordre</head>
           <p>Nous avons recherché dans ce chapitre ce qui pouvait nous éclairer sur le nom même d’Ulrich Engelbert ; nous avons voulu aussi préciser dans la mesure du possible ce que l’on peut savoir sur le lieu de naissance et la famille d’Ulrich.</p>
         </div>
-        <div>
+        <div xml:id="r458878">
           <head rend="uc">Chapitre II
            <lb/>Les premières années d’Ulrich chez les Prêcheurs</head>
           <p>1. – <hi rend="i">Entrée d’Ulrich chez les Prêcheurs.</hi> – Ulrich né à Strasbourg, connut évidemment de bonne heure les dominicains de cette ville mais on ne peut déterminer avec certitude la date précise de son entrée dans l’Ordre.</p>
@@ -90,7 +88,7 @@
           <p>Qu’Ulrich ait connu Albert le Grand, nous en avons des preuves multiples. Plus tard, à peine élu provincial, Ulrich écrit immédiatement à Maître Albert pour lui faire part de son élection, et à ce propos il lui rappelle leur amitié de date ancienne. Cette amitié <pb source="https://nakala.fr/10.34847/nkl.abeepx28#c22333d62f070cdb88db52b9f7642247b6f5ffe1" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.abeepx28/c22333d62f070cdb88db52b9f7642247b6f5ffe1/full/full/0/default.jpg"/>date sans doute de Cologne. C’est dans cette dernière ville qu’Ulrich entendit les leçons d’Albert le Grand, en particulier ses commentaires, sur le célèbre Pseudo-Denys l’Aréopagite. Cette influence d’Albert le Grand est manifeste dans la <hi rend="i">Summa de Bono.</hi> Le plan même de cette Somme et les matériaux qui la composent témoignent de cette influence.</p>
           <p>3. – <hi rend="i">Ulrich lecteur.</hi> – Un lecteur est un rouage de première importance dans un couvent dominicain du <num>xiii<hi rend="sup">e</hi></num> siècle. C’est lui qui est chargé de former les jeunes frères étudiants à leur future mission d’enseignement et de direction. Humbert de Romans nous a laissé dans son <hi rend="i">De vita regulari,</hi> la charte spirituelle, si l’on peut s’exprimer ainsi, du lecteur dominicain. Ulrich remplit cette charge au couvent de Strasbourg.</p>
         </div>
-        <div>
+        <div xml:id="r458934">
           <head rend="uc">Chapitre III
            <lb/>Ulrich provincial et bachelier en théologie</head>
           <p>1. – <hi rend="i">Ulrich provincial.</hi> – C’est en 1272, au chapitre provincial de Bâle, qu’Ulrich fut, malgré ses protestations, élu provincial de la province de Teutonie. Nous sommes suffisamment renseigné sur cette période de la vie d’Ulrich par un certain nombre de lettres que contient le manuscrit de Berlin, <hi rend="i">Theol. Lat.</hi> 189. Finke avait publié ces lettres, mais d’une façon très incomplète et très fautive. Nous en donnons une édition nouvelle.</p>
@@ -98,17 +96,17 @@
           <p>Nous avons cherché à préciser ce que pouvait être la vie d’un bachelier à l’Université de Paris, par <pb source="https://nakala.fr/10.34847/nkl.abeepx28#a0091cff6d0a72f483214773e9cd088621ff1c49" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.abeepx28/a0091cff6d0a72f483214773e9cd088621ff1c49/full/full/0/default.jpg"/>l’étude précise des Statuts de 1333 et 1389, en tenant compte cependant de l’évolution des Statuts entre le <num>xiii<hi rend="sup">e</hi></num> et le <num>xiv<hi rend="sup">e</hi></num> siècle. C’est à Paris, très vraisemblablement au début de son enseignement, qu’Ulrich mourut.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r458982">
         <head rend="uc">Deuxième partie
          <lb/>Les oeuvres d’Ulrich</head>
-        <div>
+        <div xml:id="r458990">
           <head rend="uc">Chapitre I
            <lb/>Oeuvres en général</head>
           <p>D’après les témoignages des chroniqueurs et des biographes, Ulrich aurait composé des Commentaires sur Aristote : sur les <hi rend="i">Météores,</hi> le <hi rend="i">De anima, </hi>en particulier. Ces ouvrages sont perdus. De plus, il serait l’auteur d’écrits juridiques. Malgré nos recherches nous n’en avons trouvé aucune trace.</p>
           <p>On lui attribue aussi un <hi rend="i">Commentaire sur les Sentences,</hi> mais il y a très vraisemblablement erreur d’attribution. Ce Commentaire des Sentences, contenu dans un manuscrit de Bâle, est bien d’un Ulrich de Strasbourg, mais cet Ulrich est postérieur à l’auteur de la <hi rend="i">Summa de Bono ;</hi> il est contemporain de maître Eckhart ; il a pris part au célèbre procès intenté contre ce dernier maître. Nous avons consacré quelques pages à Ulrich prédicateur. Le manuscrit theol. 2.205 de Hambourg contient un de ses sermons en allemand que nous publions.</p>
           <p>De plus, on a jusqu’ici attribué à Ulrich la construction des orgues de la cathédrale de Strasbourg. Nous avons examiné ce problème. Cette légende remonte très vraisemblablement à Daniel Specklin.</p>
         </div>
-        <div>
+        <div xml:id="r459024">
           <pb source="https://nakala.fr/10.34847/nkl.abeepx28#bd6ac61f585b5d017401b30ff9259ccdc5ab0000" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.abeepx28/bd6ac61f585b5d017401b30ff9259ccdc5ab0000/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La Summa de bono</head>
@@ -116,7 +114,7 @@
           <p>Ce qui caractérise dans les grandes lignes la <hi rend="i">Summa de Bono,</hi> c’est l’influence dionysienne et l’influence albertinienne. Nous avons précisé les rapports entre la <hi rend="i">Summa de Bono</hi> et Denys. Ulrich a suivi Albert le Grand dans le choix de la version de Sarrazit.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r459061">
         <head rend="uc">Édition</head>
         <p>Publication des deux premiers livres inédits de la <hi rend="i">Summa de Bono</hi> d’après huit manuscrits : Louvain, (sans cote) ; Munich (Clm. 6496) ; Rome (Val. Lat. 1311) ; Saint-Omer (120) ; Dole (79) ; Vienne (Autriche) (3924) ; Erlangen (619) ; Paris, Bibliothèque Nationale (ms. lat. 15900).</p>
         <p>Sujet de ces deux livres :</p>
@@ -127,7 +125,7 @@
         <p>Publication de la Table des Matières des 6 livres actuellement connus de la Somme.</p>
         <p>Essai de contribution sous forme de lexique, à l’étude des abréviations spécialement usitées dans les manuscrits de théologie du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r459116">
         <head rend="uc">Appendices</head>
         <p>Nous avons terminé par trois groupes d’appendices.</p>
         <p>1. Le premier se rapporte directement à Ulrich de Strasbourg. C’est une correspondance datant de l’époque où Ulrich était provincial. Cette correspondance contenue dans le manuscrit de Berlin <hi rend="i">Théol. Lat. oct.</hi> 109, a été édité par Finke, partiellement et d’une façon très défectueuse. Nous en donnons une édition intégrale et plus critique. Nous publions aussi une bulle inédite de Grégoire X, du 19 nov. 1273, adressée à Ulrich au sujet de la Croisade.</p>

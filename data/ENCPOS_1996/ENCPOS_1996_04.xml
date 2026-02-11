@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,14 +56,14 @@
         <surname>Bœuf</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1274452">
         <head rend="uc">Introduction</head>
         <p>S’appuyant sur les origines impériales de leur cité, rattachant leur cathédrale aux apôtres par l’apostolat de Trophime, les archevêques d’Arles, du <num>x<hi rend="sup">e</hi></num> au <num>xii<hi rend="sup">e</hi></num> siècle, continuent d’affirmer hautement, sinon leurs prétentions à la primatie, du moins le prestige de leur siège. Sur ce plan, l’épiscopat de Raimbaud de Reillanne (1030-1069) a sans doute marqué un apogée, avant que la restauration du pouvoir des archevêques d’Aix et d’Embrun réduise quelque peu Faire d’influence directe de l’Église d’Arles. Mais derrière l’image prestigieuse de la cathédrale arlésienne, qui a son heure de gloire au milieu du <num>xii<hi rend="sup">e</hi></num> siècle avec le transfert solennel des reliques de Trophime et le couronnement de Frédéric I<hi rend="sup">er</hi> Barberousse, force est de nuancer la réalité du pouvoir de l’archevêque, qui doit compter avec les grands (Baux et vicomtes de Marseille), les chevaliers urbains comme les Porcelet, la montée du consulat à partir de 1131, et enfin l’affirmation du pouvoir comtal de la dynastie catalane.</p>
       </div>
-      <div>
+      <div xml:id="r1274484">
         <head rend="uc">Première partie
          <lb/>Présentation des sources</head>
-        <div>
+        <div xml:id="r1274492">
           <head rend="uc">Chapitre premier
            <lb/>le chartrier</head>
           <p><hi rend="i">Présentation du fonds.</hi> – Les archives de l’archevêché d’Arles constituent la sous-série 3 G des Archives départementales des Bouches-du-Rhône. Elles ont conservé <pb source="https://nakala.fr/10.34847/nkl.c6e0899l#9aef6b4c079b82a83768faf07e7a3bbca04ee72d" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6e0899l/9aef6b4c079b82a83768faf07e7a3bbca04ee72d/full/full/0/default.jpg"/> l’ordre adopté lors du reclassement de 1713-1714. Les trois chartriers,<hi rend="i">Liber aureus</hi> (3 G 1 à 5), chartrier de Salon (3 G 6 à 10) et chartrier de Mondragon (3 G 11 à 15), ne renferment que 47 originaux pour la période étudiée ; le plus ancien original conservé est un diplôme de Louis l’Aveugle de 911. Mais on peut tenter de reconstituer le contenu du chartrier au début du <num>xiii<hi rend="sup">e</hi></num> siècle grâce aux cartulaires du même fonds : Livre noir (3 G 16), Autographe B (3 G 17), Livre rouge (3 G 19) et Livre vert (3 G 20). Il faut cependant préciser que la filiation de ces manuscrits montre de multiples recoupements et relègue nombre de textes au rang de copies inutiles. Enfin, les recueils factices consultés n’ont livré que des copies inutiles, en général faites d’après le Livre rouge, et les inventaires ne donnent que peu de traces d’actes disparus (celui du <num>xv<hi rend="sup">e</hi></num> siècle est d’ailleurs peu fiable pour les dates et ne couvre pas tout le chartrier). Ces premières observations conduisent donc à relativiser un peu la réputation de richesse de ce fonds ; on arrive toutefois à un total de 236 actes jusqu’en 1202. Les copies des érudits Bonnemant et Anibert, conservées à la Bibliothèque municipale d’Arles, confirment l’impression que le fonds (du moins pour la partie étudiée) a peu changé depuis le <num>xvii<hi rend="sup">e</hi></num> siècle au moins. Certes, quelques pièces ont été envoyées à la Bibliothèque du roi (aujourd’hui dans la collection Baluze), mais le fonds semble avoir peu souffert de destructions lors de la Révolution.</p>
@@ -73,7 +71,7 @@
           <p><hi rend="i">Rapport avec les archives du chapitre.</hi> – Le chartrier du chapitre, sous-série 4 G des Archives départementales des Bouches-du-Rhône, ne conserve qu’un seul original antérieur à 1202, d’ailleurs copié dans le cartulaire Authentique du chapitre, manuscrit 1242 de la Bibliothèque municipale d’Arles. Ce cartulaire, composé en réalité de deux manuscrits différents, ne contient que 18 actes également présents dans le chartrier de l’archevêque. La répartition chronologique est extrêmement différente, avec un nombre assez important d’actes des <num>x<hi rend="sup">e</hi></num> et <num>xi<hi rend="sup">e</hi></num> siècles, avant, semble-t-il, un effondrement fin <num>xi<hi rend="sup">e</hi></num>-début <num>xii<hi rend="sup">e</hi></num> siècle, au moment où s’arrête le premier copiste. La suite du cartulaire ne concerne pratiquement plus que le chapitre, mais la première partie contient des actes touchant à la fois l’archevêque et les chanoines, voire uniquement l’archevêque ; il est donc possible qu’il reflète une époque où les archives étaient communes à l’archevêque et au chapitre.</p>
           <p><hi rend="i">Répartition par auteurs.</hi> – 23 % des actes émanent des papes (essentiellement pour la seconde moitié du <num>xii<hi rend="sup">e</hi></num> siècle et avec des actes très répétitifs), contre seulement près de 4 % émanant des empereurs. Les comtes, que ce soient ceux de Provence ou de Toulouse, ne sont présents que dans 6 % des actes. Tous les actes du comte de Toulouse concernent l’Argence, pour laquelle il doit l’hommage à l’archevêque. L’archevêque est l’auteur de 18 % des actes, mais 26 % si l’on prend en compte ceux où il intervient avec un autre auteur. Le reste des auteurs sont surtout des laïcs, pour 28 % des actes. Les Baux et les Marseille interviennent surtout pour des serments de fidélité. Les ecclésiastiques ne représentent que 9 %, essentiellement des évêques, pour des promesses d’obédience, et des abbés ou prieurs.</p>
         </div>
-        <div>
+        <div xml:id="r1274606">
           <pb source="https://nakala.fr/10.34847/nkl.c6e0899l#876c8dd03386f2da8191ae261323fa535f2354f2" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.c6e0899l/876c8dd03386f2da8191ae261323fa535f2354f2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les cartulaires</head>
@@ -91,11 +89,11 @@
           <p><hi rend="i">Une tradition originale : d’une collection canonique à un cartulaire.</hi> – L’Autographe B, repris dans les trois autres cartulaires, s’ouvre sur quatre textes issus de la collection de décrétales d’Arles dite <hi rend="i">Liber auctoritatum.</hi> Ces textes restaient peut-être connus à Arles, ou bien ont été redécouverts lors de la renaissance de la culture juridique au <num>xii<hi rend="sup">e</hi></num> siècle, date de leur insertion dans le cartulaire. Mais la cause immédiate de leur présence ici est une bulle d’Anastase IV, reprenant la phrase d’une lettre de Zosime, cité nommément.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1274704">
         <head rend="uc">Deuxième partie
          <lb/>L’archevêché d’Arles, de l’épiscopat de Manassès
          <lb/>a celui d’Imbert d’Eyguières (920-1202)</head>
-        <div>
+        <div xml:id="r1274714">
           <head rend="uc">Chapitre premier
            <lb/>l’archevêché d’Arles au <num>x<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Le diocèse et la province.</hi> – Incluant l’Argence sur la rive droite du Rhône, au nord-ouest, le diocèse s’étend entre le Petit-Rhône à l’ouest, la Méditerranée au sud et les Alpilles au nord, il comprend l’étang de Berre et ses pourtours à l’est. Seule modification notable, le territoire d’Istres sera donné à l’archevêque d’Aix dans les années 1050. Enfin, les enclaves de Vernègues, dans le diocèse d’Aix, et de Mollégès, dans celui d’Avignon, appartiennent à l’archevêché d’Arles. La province d’Arles avait déjà perdu l’évêché de Viviers, elle perdra encore celui de Die au profit de Vienne, en 1037.</p>
@@ -103,7 +101,7 @@
           <p><hi rend="i">Élection de l’archevêque.</hi> – Les sources restent muettes sur l’élection de l’archevêque, mais il est vraisemblable que l’archevêché soit passé sous le contrôle du comte après la mort de Louis l’Aveugle, puis celle de Hugues d’Arles.</p>
           <p><hi rend="i">Le temporel.</hi> – Une notice donne une première image du temporel de l’archevêché sous l’épiscopat de Manassès (920-vers 961), prélat plus guerrier que religieux et parent de Louis l’Aveugle. A la fin du siècle, l’archevêque Annon (vers 981-994) fonde l’abbaye Saint-Gervais de Fos.</p>
         </div>
-        <div>
+        <div xml:id="r1274752">
           <head rend="uc">Chapitre II
            <lb/>La réforme grégorienne dans le diocèse d’Arles</head>
           <p><hi rend="i">Les prélats.</hi> – A Pons de Marignane (vers 1005-1029), entré à la fin de sa vie à Saint-Victor, et au grand réformateur Raimbaud de Reillanne (1030-1069), élevé dans la même abbaye, succède un cadet des vicomtes de Marseille, Aicard, condamné en 1080 pour simonie. La résistance des Arlésiens à Gibelin (1080-1112), élu pour remplacer le prélat excommunié, dénote une certaine fragilité de la réforme grégorienne dans le diocèse.</p>
@@ -111,7 +109,7 @@
           <p><hi rend="i">La réforme et la dotation du chapitre.</hi> – Les archevêques Pons et Raimbaud se sont préoccupés de réformer leur chapitre en restaurant la vie commune. La dotation du chapitre doit assurer aux chanoines les moyens matériels de garder leur existence commune, elle a aussi pour effet d’esquisser une séparation des menses.</p>
           <p><hi rend="i">Un rayonnement exceptionnel.</hi> – Les mêmes Pons et Raimbaud ont pu recevoir la promesse d’obédience d’évêques provençaux étrangers à leur province et même celle de l’archevêque d’Aix, mais cette situation ne dure pas.</p>
         </div>
-        <div>
+        <div xml:id="r1274785">
           <head rend="uc">Chapitre III
            <lb/>Le XII* siècle</head>
           <p><hi rend="i">Le temporel.</hi> – Utilisant achats, mises en gage et échanges, l’archevêque consolide ses possessions à Salon, à Saint-Chamas, ou à Mésens en Camargue. En 1167, Raimon II de Bollène (1163-1182) cède ses droits à Fos et le quart d’Albaron contre Grans et Aurons que lui donne Alphonse I<hi rend="sup">er</hi> d’Aragon ; en 1168, il échange avec Saint-Victor Saint-Gabriel contre Vacquières, dans la Crau. D’origine languedocienne, Raimon I<hi rend="sup">er</hi> de Montredon (1142-1160) trouve un accord pour l’Argence avec le comte de Toulouse. Par ailleurs, dans la seconde moitié du <num>xii<hi rend="sup">e</hi></num> siècle, l’archevêque se montre particulièrement attentif à se faire rendre serments de fidélité et hommages.</p>
@@ -121,12 +119,12 @@
           <p><hi rend="i">Rapports avec l’Empire et la papauté.</hi> – Malgré ses efforts, Frédéric I<hi rend="sup">er </hi>Barberousse ne parvient pas à s’imposer de manière durable dans le royaume d’Arles. Dans les années 1180, l’influence de la papauté semble devenir primordiale à Arles.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1274842">
         <head rend="uc">Troisième partie
          <lb/>Édition</head>
         <p>Le chartrier, tel que les cartulaires peuvent aider à le reconstituer, est édité intégralement. Quelques actes entrés dans le chartrier postérieurement à la rédaction des cartulaires sont édités à part. Enfin les copies d’actes impériaux en faveur des comtes de Provence et de Forcalquier ne sont qu’analysées.</p>
       </div>
-      <div>
+      <div xml:id="r1274854">
         <head rend="uc">Annexes</head>
         <p>Inventaires (tableaux présentés dans l’ordre des cartulaires). – Cartes. – Illustrations. – Liste des archevêques et des dignitaires ecclésiastiques. – Index des noms de personne et des noms de lieu.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,7 +63,7 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r552089">
         <head rend="uc">Chapitre premier
          <lb/>les centres d’exploitation saunière.	!
          <lb/>Leurs déplacements consécutifs aux variations
@@ -78,32 +76,32 @@
         <p>III. SAINTONGE. – L’ancien littoral, Golfe de Brouage et « îles ». Apparition des salines sur les premières laisses de la mer. On possède, sur les marais de Saintonge, un texte du <num>vii<hi rend="sup">e</hi></num> siècle, mais l’activité saunière est surtout manifeste à partir du <num>xi<hi rend="sup">e</hi></num> . Salines de Saint-Aignant, de Marennes et des rives de la Seudre. Du <num>xii<hi rend="sup">e</hi></num> au <num>xiv<hi rend="sup">e</hi></num> siècle, les marais les plus éloignés de la mer s’envasent et sont abandonnés progressivement ; création de nouvelles salines sur les terres peu à peu gagnées sur l’océan (développement des marais salants d’Hiers et de Brouage). Après le <num>xvi<hi rend="sup">e</hi></num> siècle (envasement du port et du grand chenal de Brouage), déclin de l’industrie saunière dans cette région. L’exploitation est aussi progressivement abandonnée sur les rives de la Seudre, où elle fera place à l’ostréiculture (<num>xvii<hi rend="sup">e</hi></num>-<num>xviii<hi rend="sup">e</hi></num> siècles).</p>
         <p>IV. ILE D’OLÉRON. – Etablissement de marais le long de <pb source="https://nakala.fr/10.34847/nkl.b626yf73#9be5e8d88412dd06abaffe8c8f81f4cb4955602b" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.b626yf73/9be5e8d88412dd06abaffe8c8f81f4cb4955602b/full/full/0/default.jpg"/> la côte occidentale, à partir du <num>xi<hi rend="sup">e</hi></num> siècle et du <num>xii<hi rend="sup">e</hi></num> siècle (Saint-Pierre, Dolus, Saint-Trojan, Le Château). Persistance d’un grand nombre de marais jusqu’à l’époque actuelle.</p>
       </div>
-      <div>
+      <div xml:id="r552223">
         <head rend="uc">Chapitre II
          <lb/>Aménagement et exploitation des marais salants.</head>
         <p>Aucun changement notable, des premiers siècles à nos jours, dans la technique de l’exploitation.</p>
         <p>Le terrain des salines et sa préparation. Description des diverses opérations de la saunaison. Pièces du marais. Outils des sauniers. Transport et « charge » du sel. Mesures. Rendement. Valeur du sel.</p>
       </div>
-      <div>
+      <div xml:id="r552238">
         <head rend="uc">Chapitre III
          <lb/>Les propriétaires sauniers.</head>
-        <div>
+        <div xml:id="r552246">
           <head rend="uc">I. Propriété ecclésiastique.</head>
           <p>Origine : donation, précaire.</p>
           <p>Etat de la propriété écclésiastique en Aunis et en Saintonge. Nombreux monastères ou prieurés propriétaires de marais salants (Nouaillé, Saint-Maixent, Saint-Cyprien, Saint-Jean d’Angély, Notre-Dame de Saintes, les prieurés de Saint-Aignant, Montierneuf et Saint-Georges d’Oléron, dépendant de la Trinité de Vendôme, le prieuré de Sainte-Gemme, l’abbaye de la Tenaille).</p>
         </div>
-        <div>
+        <div xml:id="r552259">
           <head rend="uc">II. Propriété laïque.</head>
           <p>Importants domaines sauniers aux mains de la noblesse locale (sires de Pons, seigneurs de Soubise, de Mornac, de Broue et Chessoux).</p>
           <pb source="https://nakala.fr/10.34847/nkl.b626yf73#ff2476330e7f8742e7f3bd42d6d36e80f70f70c7" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.b626yf73/ff2476330e7f8742e7f3bd42d6d36e80f70f70c7/full/full/0/default.jpg"/>
           <p>Gestion des intérêts communs de propriétaires. Prévôté de Seudre. Associations de propriétaires. Valeur de la propriété saunière.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r552278">
         <head rend="uc">Chapitre IV
          <lb/>Condition juridique des marais salants.</head>
         <p>Faire-valoir direct et contrats d’exploitation : contrats particuliers pour la construction de salines ; analogies avec le contrat de comptant pour les plantations de vignes.</p>
-        <div>
+        <div xml:id="r552289">
           <head rend="uc">I. Tenures.</head>
           <div>
             <head rend="uc">1° <hi rend="i">tenures roturières.</hi></head>
@@ -122,11 +120,11 @@
             <p>En usage depuis le <num>xv<hi rend="sup">e</hi></num> siècle. La coutume attribuait au saunier soit la moitié soit un tiers de la récolte, suivant qu’il se chargeait ou non de l’entretien et des réparations du marais. Le bail du « saunier à moitié » était généralement perpétuel (droit de salange ou de saunage perpétuel).</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r552393">
           <head rend="uc">II. Servitudes et droits d’usage.</head>
           <p>Droits de charge et de prise d’eau. Droit de pacage. Autorisation de cueillir les joncs pour la couverture des tas de sel.</p>
         </div>
-        <div>
+        <div xml:id="r552403">
           <head rend="uc">III. Juridiction.</head>
           <div>
             <head rend="uc">1° <hi rend="i">juridiction seigneuriale et ecclésiastique.</hi></head>
@@ -138,10 +136,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r552437">
         <head rend="uc">Chapitre V
          <lb/>Charges fiscales de la production saunière.</head>
-        <div>
+        <div xml:id="r552445">
           <head rend="uc">I. Fiscalité royale.</head>
           <div>
             <head rend="uc">1° <hi rend="i">droit de quart du sel.</hi></head>
@@ -160,7 +158,7 @@
             <p>Conséquences néfastes des <hi rend="i">droits de Brouage</hi> et de <hi rend="i">Traite de Charente,</hi> pour le trafic saunier et l’industrie des salines. C’est dans l’établissement de ces charges, plutôt que dans celui de la gabelle, qu’il convient, semble-t-il, de rechercher, du point de vue fiscal, l’une des principales causes du déclin de l’industrie saunière d’Aunis et de Saintonge.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r552534">
           <head rend="uc">II. Impôt ecclésiastique : dîme.</head>
           <p>Le taux, très variable, était souvent inférieur à la 10<hi rend="sup">e</hi> partie de la récolte. Abonnement de la dîme.</p>
           <pb source="https://nakala.fr/10.34847/nkl.b626yf73#686f33f2150527f6a2c57df93b1afcebcc6eee36" n="75" facs="https://api.nakala.fr/iiif/10.34847/nkl.b626yf73/686f33f2150527f6a2c57df93b1afcebcc6eee36/full/full/0/default.jpg"/>
@@ -169,15 +167,15 @@
           <p>Principaux décimateurs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r552563">
         <head rend="uc">Chapitre VI
          <lb/>Conditions de vente et prix du sel.
          <lb/>Débouchés.</head>
-        <div>
+        <div xml:id="r552573">
           <head rend="uc">I. Conditions de vente et prix du sel.</head>
           <p>Restrictions apportées, dans les premiers siècles du Moyen-Age, à la libre disposition du produit des salines par les propriétaires. « Coutumes injustes » sur les ventes de sel. Prix de vente du sel : variations considérables suivant les années et les diverses époques d’une même année.</p>
         </div>
-        <div>
+        <div xml:id="r552583">
           <head rend="uc">II. Débouchés.</head>
           <div>
             <head rend="uc">1° <hi rend="i">approvisionnement du royaume.</hi></head>

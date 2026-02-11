@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -63,10 +61,10 @@
          <lb/>analyse du poème</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r526921">
         <head rend="uc">Premiere partie
          <lb/>La tradition des textes</head>
-        <div>
+        <div xml:id="r526929">
           <head rend="uc">Chapitre premier
            <lb/>la rédaction en vers.</head>
           <div>
@@ -93,7 +91,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r527231">
           <head rend="uc">Chapitre II
            <lb/>Le roman en prose française et les versions
            <lb/>étrangères.</head>
@@ -107,11 +105,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r527286">
         <head rend="uc">Deuxième partie
          <lb/>La langue et la versification</head>
         <p>Cette étude est fondée sur le manuscrit <hi rend="i">D,</hi> qui a été très probablement dicté et non copié. Les <hi rend="i">Enfances Guillaume</hi> y ont été écrites par deux scribes ; la langue du premier est mieux caractérisée que celle du second.</p>
-        <div>
+        <div xml:id="r527305">
           <pb source="https://nakala.fr/10.34847/nkl.cac6525z#3fec4cedfd6408298a265812c1ee13990319e780" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.cac6525z/3fec4cedfd6408298a265812c1ee13990319e780/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>phonétique.</head>
@@ -126,7 +124,7 @@
             <p>Question de l’<hi rend="i">i</hi> parasite. L’<hi rend="i">i</hi> lorrain peut être considéré comme un cas de graphie inverse de la réduction des diphtongues à leur premier élément, les mêmes faits se produisant aussi avec <hi rend="i">u</hi>.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r527546">
           <pb source="https://nakala.fr/10.34847/nkl.cac6525z#463b337367309fe447615f481628e11993a427f9" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.cac6525z/463b337367309fe447615f481628e11993a427f9/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Morphologie.</head>
@@ -145,13 +143,13 @@
             <p>Terminaison. Les désinences en <hi rend="i">a</hi> du francien sont souvent en <hi rend="i">ait ;</hi> celles en <hi rend="i">és,</hi> en <hi rend="i">eis.</hi> – Participes présents parfois dépourvus de <hi rend="i">t</hi> final. A la sixième personne la terminaison <hi rend="i">ent</hi> peut manquer ; inversement <hi rend="i">ent</hi> peut être ajouté aux trois personnes du singulier et même à des noms.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r527722">
           <head rend="uc">
             <hi rend="i">Conclusion des deux chapitres précédents.</hi>
           </head>
           <p>Le manuscrit <hi rend="i">D</hi> a été écrit en Lorraine sans qu’il soit possible de parvenir à plus de précision.</p>
         </div>
-        <div>
+        <div xml:id="r527740">
           <pb source="https://nakala.fr/10.34847/nkl.cac6525z#b5160199e71dad3ed63fa4a03501efaa163940bc" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.cac6525z/b5160199e71dad3ed63fa4a03501efaa163940bc/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Versification.</head>
@@ -171,22 +169,22 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r527819">
         <head rend="uc">Troisième partie
          <lb/>Les <hi rend="i">Enfances</hi> et le cycle epique</head>
-        <div>
+        <div xml:id="r527831">
           <head rend="uc">Chapitre premier
            <lb/>patrie et date du poème.</head>
           <p>L’étude des assonances montre que les <hi rend="i">Enfances Guillaume</hi> ont été composées dans l’Est de la France, en Lorraine. Les <hi rend="i">Enfances Guillaume</hi> contiennent des allusions à la <hi rend="i">Chanson de Roland,</hi> au <hi rend="i">Couronnement de Louis,</hi> à <hi rend="i">Aymeri de Narbonne</hi> et peut-être à d’autres chansons. La composition du poème se place dans la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r527869">
           <pb source="https://nakala.fr/10.34847/nkl.cac6525z#d9d4bb164039a4bc00abc96b6584d8e161a27eea" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.cac6525z/d9d4bb164039a4bc00abc96b6584d8e161a27eea/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Existence d’une rédaction antérieure.</head>
           <p>L’existence d’une rédaction antérieure est rendue •certaine par deux allusions du <hi rend="i">Couronnement de Louis</hi> et de la <hi rend="i">Chanson de Guillaume.</hi></p>
           <p>Toutefois cette rédaction ne réunissait pas les données de la <hi rend="i">Prise d’Orange</hi> et des <hi rend="i">Enfances</hi> actuelles, comme le pensaient Jonckbloet et Léon Gautier. Elle était, en réalité, la source commune des <hi rend="i">Enfances</hi> conservées et des <hi rend="i">Narbonnais.</hi> Le double renouvellement a sans doute eu lieu au moment où s’établit l’habitude de reproduire dans des manuscrits distincts les chansons du groupe d’Aymeri et celles qui se rapportaient plus particulièrement à Guillaume.</p>
         </div>
-        <div>
+        <div xml:id="r527912">
           <head rend="uc">Chapitre III
            <lb/>Valeur littéraire.</head>
           <p>Les <hi rend="i">Enfances Guillaume</hi> ne reposent sur aucun fondement historique. C’est une œuvre d’imagination. A part la fin du poème, qui est très faible et certainement postérieure, l’ensemble présente des scènes bien contées et quelques traits heureux. « C’est une de nos meilleures chansons de geste de deuxième ordre ».</p>

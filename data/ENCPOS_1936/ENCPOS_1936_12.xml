@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1936_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,7 +63,7 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r569694">
         <head rend="uc">Première partie
          <lb/>L’histoire de la cour des aides
          <lb/>de Normandie</head>
@@ -73,19 +71,19 @@
           <head rend="uc">Introduction</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r569713">
           <head rend="uc">Chapitre premier
            <lb/>la création et le développement
            <lb/>de la cour des aides de Normandie jusqu’en 1552.</head>
           <p>De 1439 à 1449, les Anglais ont établi une Cour des <pb source="https://nakala.fr/10.34847/nkl.ca7ce504#d26af0159e33139f776bd0495167c38d13e1c504" n="108" facs="https://api.nakala.fr/iiif/10.34847/nkl.ca7ce504/d26af0159e33139f776bd0495167c38d13e1c504/full/full/0/default.jpg"/>aides à Rouen ; elle devait être en rapports étroits avec la Chambre des comptes ; nous en connaissons un général, Guy de la Villette, et un huissier, Jean Le Soudoier. En 1450, avec la victoire de Charles VII, elle disparut ; aussitôt-, les États de Normandie protestent : après 1453 et sans doute en fin d’année 1455, le roi la rétablit. Elle comprenait deux généraux et n’était pas souveraine ; après la mort de Charles VII, elle fut supprimée par Louis XI, qui la restaura dès le 19 novembre 1462 et en toute souveraineté. En 1475, apparut le président ; dès cette époque, les conseillers furent officiers royaux. En 1498, création de l’avocat du roi. La Cour s’augmenta en mai 1519 de deux généraux ; en 1543, d’un second président, d’un général et d’un conseiller ; enfin, en mai 1552, tous les conseillers furent changés en généraux, auxquels vinrent s’en ajouter quatre de nouvelle création.</p>
         </div>
-        <div>
+        <div xml:id="r569732">
           <head rend="uc">Chapitre II
            <lb/>Comment s’est formée l’expressxon moderne :
            <lb/>cour des aides.</head>
           <p>A Rouen, utilisation exclusive du mot : <hi rend="i">Cour ;</hi> valeur bien définie des termes <hi rend="i">: auditoire, juridiction, chambre ;</hi> leur emploi dans le sens de Cour est propre aux actes ou textes non normands. L’expression <hi rend="i">Cour des généraux sur le fait de la justice des aides</hi> conduit, dans le langage courant, à <hi rend="i">Cour des généraux</hi> ou <hi rend="i">les généraux ;</hi> dans le langage administratif, à <hi rend="i">Cour de la justice des aides,</hi> puis <hi rend="i">Cour des aides.</hi> En mai 1552, un édit royal fixe ce nom sous la forme <hi rend="i">Cour des aides et finances.</hi></p>
         </div>
-        <div>
+        <div xml:id="r569777">
           <pb source="https://nakala.fr/10.34847/nkl.ca7ce504#d5e121df984c0de724d25c0f55e17b64d567b447" n="109" facs="https://api.nakala.fr/iiif/10.34847/nkl.ca7ce504/d5e121df984c0de724d25c0f55e17b64d567b447/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le siège et le ressort de la cour des aides
@@ -93,7 +91,7 @@
           <p>Son siège est établi à Rouen ; jusqu’en 1510 environ, elle s’abrite dans une maison louée. Depuis, elle possède un hôtel sis en face de la cathédrale, construction terminée vers 1549. Dispositions intérieures : le prétoire, le greffe, la salle commune, la chapelle, le bureau des gens du roi, la buvette et les communs.</p>
           <p>Son ressort est celui de la généralité de Normandie et s’étend ainsi sur le Vexin français et le Perche ; nombreux litiges à propos de ces deux régions, surtout dans le cas de Pontoise. En 1552, dix-huit élections et vingt-quatre greniers.</p>
         </div>
-        <div>
+        <div xml:id="r569799">
           <head rend="uc">Chapitre IV
            <lb/>Le personnel de la cour des aides :
            <lb/>I. Les présidents, les généraux, les conseillers,
@@ -103,7 +101,7 @@
           <p>III. LES CONSEILLERS. – Choisis par la Cour jusqu’en 1475, ils sont ensuite officiers royaux et leur nombre est fixé à trois ; un quatrième office est créé en 1543. Ils sont supprimés en 1552. Même recrutement que les généraux. Gages fixés à 100 livres en 1475 et portés à 200 livres en 1519. Pas de cumul, assiduité, stabilité, promotion fréquente à l’office de général.</p>
           <p>IV. LES ADJOINTS. – Très nombreux, ils assistent jusqu’en 1519 aux procès criminels ; depuis, ils viennent au jugement des propositions d’erreur. On les désigne sous le nom d’<hi rend="i">assesseurs.</hi> D’abord choisis parmi les avocats en cour laie ou d’église, ils sont à peu près exclusivement pris parmi les conseillers de l’Échiquier-Parlement de Rouen après son érection en 1499.</p>
         </div>
-        <div>
+        <div xml:id="r569851">
           <head rend="uc">Chapitre V
            <lb/>Le personnel de la cour des aides :
            <lb/>II. Les gens du roi, les greffiers, les huissiers,
@@ -115,14 +113,14 @@
           <p>IV. LES RECEVEURS. – Ils sont, en titre d’office : <hi rend="i">receveurs des amendes et exploits de la Cour</hi> et, par commission <pb source="https://nakala.fr/10.34847/nkl.ca7ce504#276c90148f2f6258438dd668160c8a63d728de81" n="112" facs="https://api.nakala.fr/iiif/10.34847/nkl.ca7ce504/276c90148f2f6258438dd668160c8a63d728de81/full/full/0/default.jpg"/> : <hi rend="i">payeurs des gages des officiers de la Cour. </hi>Nommés par le roi, ils sortent d’un milieu assez modeste mais assez riche pour fournir une caution de 2,000 livres tournois. Stabilité, mais le roi peut suspendre le titulaire en cas de non-payement de la caution. En 1475, les gages des receveurs sont de 50 livres. Pas de cumul, stabilité.</p>
           <p>V. LES HUISSIERS. – D’abord un huissier ; puis, en 1506, un second huissier. Choisis par le roi dans un milieu modeste. Leurs gages sont inconnus, mais ils touchent les revenus des exploits. Stabilité très grande.</p>
         </div>
-        <div>
+        <div xml:id="r569951">
           <head rend="uc">Chapitre VI
            <lb/>La vie de la cour des aides de Normandie.</head>
           <p>Les fêtes chômées sont nombreuses, auxquelles s’ajoutent les vacances de la <hi rend="i">mession.</hi> Les jours ouvrables, les séances du Conseil se tiennent de sept à dix heures du matin ; séances extraordinaires, l’après-midi. Le Conseil est secret : discussion des procès, élaboration des arrêts, vie privée de la Cour. Le lundi et le jeudi, et plus tard le mardi et le jeudi, audience publique, de sept à dix heures du matin, même les jeudis de la <hi rend="i">mession.</hi> Publication des lettres patentes et des arrêts ; les plaidoiries. La vie du greffe et de la salle commune.</p>
           <p>Les <hi rend="i">avocats communs</hi> plaident ; ils doivent être licenciés en lois et sont soumis au règlement de la Cour. Les <hi rend="i">procureurs communs,</hi> dont le nombre est fixé à douze, sont désignés et reçus par la Cour. Ils doivent obéissance au président.</p>
           <p>Vie calme et ordonnée de la Cour des aides.</p>
         </div>
-        <div>
+        <div xml:id="r569985">
           <pb source="https://nakala.fr/10.34847/nkl.ca7ce504#24925e52a8c0f3649ef391ccbe7b49443299b7c1" n="113" facs="https://api.nakala.fr/iiif/10.34847/nkl.ca7ce504/24925e52a8c0f3649ef391ccbe7b49443299b7c1/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Les attributions de la cour des aides
@@ -132,7 +130,7 @@
           <p>III. ATTRIBUTIONS JUDICIAIRES. – A) <hi rend="i">Compétence</hi> : finances extraordinaires. Autorité souveraine. Droit de justice sur tous, au civil et au criminel. En première instance, elle juge les officiers de finances ; en appel, les causes interjetées des élus et des grènetiers. Le droit d’évocation est réservé au roi.</p>
           <p>B) <hi rend="i">Procédure</hi> : courante, avec tous ses défauts et ses lenteurs. Dans le détail, elle suit la Coutume de Normandie.</p>
         </div>
-        <div>
+        <div xml:id="r570021">
           <head rend="uc">Chapitre VIII
            <lb/>Les relations de la cour des aides
            <lb/>de Normandie
@@ -141,7 +139,7 @@
           <p>Après la création de l’Échiquier-Parlement de Rouen en 1499, des conflits éclatent immédiatement. Sous l’égide du cardinal d’Amboise, un <hi rend="i">concordat</hi> est signé en septembre 1500 : il crée une commission mixte de généraux et de conseillers du Parlement pour juger les litiges entre les deux Cours. Dès lors, la paix est assurée.</p>
           <p>Jalousie des bailliages à l’égard de la Cour des aides, surtout de la part de celui de Rouen.</p>
         </div>
-        <div>
+        <div xml:id="r570052">
           <head rend="uc">Chapitre IX
            <lb/>L’organisation du travail
            <lb/>a la cour des aides de Normandie.</head>
@@ -157,7 +155,7 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r570099">
         <head rend="uc">Deuxième partie
          <lb/>Le personnel de la cour des aides
          <lb/>de Normandie</head>

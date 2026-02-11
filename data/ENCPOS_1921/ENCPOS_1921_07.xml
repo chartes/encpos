@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,23 +60,23 @@
         <surname>Jouon Des Longrais</surname>
         <roleName>Avocat à la Cour d’Appel de Paris, Licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r402285">
         <head rend="uc">Introduction</head>
         <p><hi rend="i">La notion de possession.</hi> –. L’idée franque considère la jouissance comme l’essence même de la propriété.</p>
         <p>L’idée romaine sépare le droit de propriété lui-même, de l’exercice en fait de ce droit, la possession.</p>
         <p><hi rend="i">La notion de dévolution.</hi> – Sous l’influence de l’idée franque la dévolution de la jouissance et celle de la propriété se confondent tout d’abord dans notre droit.</p>
         <p>Sous l’influence de la renaissance du droit romain, le droit coutumier distingue : la dévolution héréditaire de la propriété, la dévolution possessoire de la jouissance.</p>
       </div>
-      <div>
+      <div xml:id="r402310">
         <pb source="https://nakala.fr/10.34847/nkl.9ab3lu4r#8f9b3013fc8665af14532a89453ede33ea1dff3a" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab3lu4r/8f9b3013fc8665af14532a89453ede33ea1dff3a/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Origine de la dévolution possessoire
          <lb/>en Bretagne</head>
-        <div>
+        <div xml:id="r402325">
           <head rend="uc">Chapitre premier</head>
           <p>La Bretagne à l’époque celte ainsi qu’aux premiers siècles de la féodalité ne dégage pas l’idée de possession de l’idée de propriété. – Elle conçoit la dévolution comme donnant globalement propriété et jouissance.</p>
         </div>
-        <div>
+        <div xml:id="r402335">
           <head rend="uc">Chapitre II</head>
           <p>Dans la Bretagne du <num>xiii<hi rend="sup">e</hi></num> siècle, la notion de dévolution possessoire se dégage peu à peu par une analyse profonde du droit, par un emploi plus précis des termes juridiques. – Premières manifestations de la saisine héréditaire (1<hi rend="sup">re</hi> moitié du <num>xiii<hi rend="sup">e</hi></num> s.). – Influence du droit anglo-normand. – La très ancienne Coutume de Bretagne (1312-1325) dépeint un régime de dévolution possessoire appliqué depuis longtemps déjà. Ce régime sera celui de la Bretagne jusqu’à la Révolution. Voici ses bases :</p>
           <div>
@@ -94,29 +92,29 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r402390">
         <head rend="uc">Deuxième partie
          <lb/>La saisine héréditaire</head>
-        <div>
+        <div xml:id="r402398">
           <head rend="uc">Chapitre premier
            <lb/>définitions et explications</head>
           <p>L’héritier en ligne directe est, par le bénéfice d’un transfert qu’opère la Coutume, saisi de la totalité des biens possédés <pb source="https://nakala.fr/10.34847/nkl.9ab3lu4r#016c375b3ba89e4329e15f04cb6b2a25cb518e88" n="53" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab3lu4r/016c375b3ba89e4329e15f04cb6b2a25cb518e88/full/full/0/default.jpg"/>par le défunt au moment de sa mort, et cela à l’égard de tous : tant des tiers que des cohéritiers ou du seigneur de fief.</p>
           <p>Il y a là un transport légal de possession, qui dispense pendant an et jour l’héritier d’appréhender réellement la succession et qui lui ouvre de suite le droit aux actions possessoires.</p>
         </div>
-        <div>
+        <div xml:id="r402418">
           <head rend="uc">Chapitre II
            <lb/>Nature de la saisine héréditaire</head>
           <p>Sous l’influence des idées romaines l’on distingue : <hi rend="i">a</hi>) La possession naturelle ou saisine de fait, la détention matérielle ; <hi rend="i">b</hi>) la possession civile ou saisine de droit, le droit de posséder fondé sur un juste titre, ou sur une durée d’an et jour et protégé par les actions possessoires.</p>
           <p>La Coutume donne par la saisine héréditaire la possession de droit, bien plus elle donne par une fiction étrange la possession de fait : l’héritier, même absent, est censé occuper matériellement le bien. Les Romanistes démontrent l’impossibilité de concevoir juridiquement un fait inexistant. La tradition coutumière maintient malgré eux la fiction d’une possession de fait. D’Argentré, dont le système très pratique modifie la pensée coutumière, empêche pendant l’an et jour l’héritier d’être troublé dans la jouissance de la succession, mais après ce délai, il défend les droits acquis aux dépens de l’héritier par un tiers.</p>
         </div>
-        <div>
+        <div xml:id="r402441">
           <head rend="uc">Chapitre III
            <lb/>Conditions et effets de la saisine héréditaire</head>
           <p>Application de l’adage : « L’héritier apuré ne plaide point dessaisi si son auteur était en possession. » Les droits du défunt servent de cadre à la saisine de l’héritier.</p>
           <p><hi rend="i">a</hi>) Vis-à-vis des tiers : L’héritier est saisi de ce que le défunt possédait, même s’il était dessaisi de fait (mais non toutefois de droit), même s’il ne tenait qu’à titre viager (l’héritier par exemple est saisi d’un usufruit du défunt jusqu’au moment où il est fait droit à la réclamation du nu-propriétaire).</p>
           <p><hi rend="i">b</hi>) Vis-à-vis des parents, la saisine héréditaire a lieu même en cas de contestations entre héritiers.</p>
         </div>
-        <div>
+        <div xml:id="r402465">
           <pb source="https://nakala.fr/10.34847/nkl.9ab3lu4r#b855ca5ee57a1aa96d01f670018cdd590defdcac" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab3lu4r/b855ca5ee57a1aa96d01f670018cdd590defdcac/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Qui à droit à la saisine héréditaire ?</head>
@@ -138,12 +136,12 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r402557">
         <pb source="https://nakala.fr/10.34847/nkl.9ab3lu4r#c7431ab511e190fbc75dd3736384743e56d84a08" n="55" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab3lu4r/c7431ab511e190fbc75dd3736384743e56d84a08/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>La mainmise et la mainlevée</head>
         <p>En Bretagne, la possession est transmise indirectement à la ligne collatérale. L’institution de la mainmise et de la mainlevée remplace en ce cas pour les héritiers collatéraux la saisine héréditaire. La possession héréditaire du défunt passe en main de justice : C’est la mainmise. Les héritiers devront réclamer à la justice la possession afin de pouvoir exercer leur droit : c’est la mainlevée.</p>
-        <div>
+        <div xml:id="r402573">
           <head rend="uc">Section I
            <lb/>mainmise</head>
           <div>
@@ -189,7 +187,7 @@
             <p>2° Une attitude active en tant que juridiction. Il saisit les immeubles ou les meubles de la succession (règles spéciales). Il perçoit les fruits. La justice du seigneur accomplit elle-même toutes les formalités de mainmise (scellés, inventaire, bannies, etc.).</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r402757">
           <pb source="https://nakala.fr/10.34847/nkl.9ab3lu4r#3468f1dfd8b892307ca8a24008530b1a00b78788" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.9ab3lu4r/3468f1dfd8b892307ca8a24008530b1a00b78788/full/full/0/default.jpg"/>
           <head rend="uc">Section II
            <lb/>mainlevée</head>
@@ -209,7 +207,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r402830">
         <head rend="uc">Conclusion</head>
         <p>Après avoir été un examen sérieux des droits de l’héritier collatéral, la mainlevée finit par n’être qu’une formalité vide de sens, que l’on éluda le plus possible. La mainlevée perdit de ce fait la seule utilité justifiant le maintien de cette ancienne prérogative seigneuriale.</p>
       </div>

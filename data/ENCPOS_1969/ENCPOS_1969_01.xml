@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1969_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,21 +57,21 @@
         <surname>Cattin</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r901201">
         <head rend="uc">Introduction</head>
         <p>Le nom de <hi rend="i">Philippus Elephantis</hi> figurait dans les catalogues de manuscrits, mais ce fut M. Beaujouan qui, le premier, eut l’idée de rapprocher ses diverses mentions. Après avoir montré qu’il s’agissait d’un même auteur, il l’identifia à <hi rend="i">Mestre Philip Elefan,</hi> l’une des personnalités toulousaines auxquelles Guilhem Molinier jugea bon de soumettre ses <hi rend="i">Leys d’amors</hi> avant de les publier, en 1356. Enfin il reconnut cet auteur dans le <hi rend="i">Felipe Elefante </hi>que cite à plusieurs reprises l’écrivain espagnol Enrique de Villena (t 1434).</p>
         <p>Les œuvres de Philippe Éléphant, jusqu’alors éparses, s’avérèrent, une fois confrontées, comme autant de parties d’un vaste et remarquable ensemble où l’on peut voir la dernière encyclopédie médiévale.</p>
       </div>
-      <div>
+      <div xml:id="r901230">
         <pb source="https://nakala.fr/10.34847/nkl.0db0abhs#2d75de774925dd13dae659da3c643b89c474c4e4" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.0db0abhs/2d75de774925dd13dae659da3c643b89c474c4e4/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
           <lb/>La vie et l’œuvre de Philippe Éléphant</head>
-        <div>
+        <div xml:id="r901243">
           <head rend="uc">Chapitre premier
             <lb/>la vie</head>
           <p>A défaut de documents d’archives, Philippe Éléphant n’est connu que par son œuvre et les brèves citations de Guilhem Molinier et d’Enrique de Villena. Le qualificatif <hi rend="i">Anglicus,</hi> figurant dans les manuscrits, indique qu’il était d’origine anglaise mais vivait en dehors de son pays. Sa connaissance de la langue d’oc, impliquée par la mission que lui confia Molinier, laisse supposer qu’il vint très tôt en France, sinon qu’il y naquit. D’autre part, le titre de <hi rend="i">Mestre veray en l’art de medicina,</hi> qui lui est attribué dans les <hi rend="i">Leys,</hi> fait de lui un membre d’une université, de toute évidence celle de Toulouse. Enfin la date des <hi rend="i">Leys</hi> (1356) constitue le seul repère chronologique assuré, mais il est d’importance : appelé dans cet ouvrage <hi rend="i">subtil e philosophe gran,</hi> maître Philippe Éléphant semblait alors au faîte de sa célébrité.</p>
         </div>
-        <div>
+        <div xml:id="r901275">
           <head rend="uc">Chapitre II
             <lb/>Les œuvres</head>
           <p>Trois œuvres ont été retrouvées portant expressément le nom de Philippe Éléphant. Il s’agit d’une <hi rend="i">Mathematica</hi> (Salamanque, Bibl. univ., 2085), d’une <hi rend="i">Alkimia</hi> (Cambrai, Bibl. mun., 919), enfin d’une <hi rend="i">Ethica</hi> (Barcelone, Bibl. univ., 591).</p>
@@ -81,11 +79,11 @@
           <p>Enfin dans le manuscrit British Muséum Sloane 3124 figure un recueil de recettes médicales dont l’auteur est un certain <hi rend="i">Philippus Alanfancius englicus, magister in artibus et medicina.</hi> La légère différence de nom laisse subsister un doute sur l’identification de cet auteur, cependant toutes les apparences plaident en sa faveur.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r901321">
         <pb source="https://nakala.fr/10.34847/nkl.0db0abhs#f2519d1ed2be87441c37f54f6cd133297a953a45" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.0db0abhs/f2519d1ed2be87441c37f54f6cd133297a953a45/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
           <lb/>L’encyclopédie de Philippe Éléphant</head>
-        <div>
+        <div xml:id="r901334">
           <head rend="uc">Chapitre premier
             <lb/>l’existence et la nature de <hi rend="i">l</hi><hi rend="i">’encyclopédie</hi></head>
           <p>La similitude rigoureuse du plan de chacun des trois traités conservés (c’est d’ailleurs cet élément qui a permis de rapprocher ces trois œuvres), la critique interne de l’<hi rend="i">Ethica</hi> et enfin le court paragraphe que Guilhem Molinier consacre aux théories de Philippe Éléphant sur la division de la philosophie, prouvent surabondamment trois choses : d’une part la <hi rend="i">Mathematica,</hi> l’<hi rend="i">Alkimia</hi> et l’<hi rend="i">Ethica</hi> sont respectivement les deuxième, sixième et neuvième parties d’une <hi rend="i">Philosophia</hi> qui en comportait neuf, selon une disposition reproduite dans les <hi rend="i">Leys</hi> sous la forme suivante :</p>
@@ -125,7 +123,7 @@
           <p>D’autre part, l’<hi rend="i">Ars naturalis</hi> et <hi rend="i">VAstronomia</hi> citées par Enrique de Villena appartenaient à cet ensemble. Enfin il est presque sûr que cette encyclopédie a été terminée par son auteur.</p>
           <p>Une telle œuvre, vraiment encyclopédique, présente trois caractéristiques : son architecture et son inspiration philosophiques, son aspect en quelque sorte universitaire, en raison de la personnalité de l’auteur et des sujets traités (tous, sauf l’alchimie, faisaient l’objet d’un enseignement), enfin, la volonté délibérée de Philippe Éléphant de la poser comme une refonte du système des arts libéraux. Ce triple aspect est absolument unique dans la littérature encyclopédique médiévale et confère à l’œuvre une originalité toute particulière.</p>
         </div>
-        <div>
+        <div xml:id="r901487">
           <pb source="https://nakala.fr/10.34847/nkl.0db0abhs#afb443af7afdd48503fa6b9834401b4cfcc9b5ed" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.0db0abhs/afb443af7afdd48503fa6b9834401b4cfcc9b5ed/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
             <lb/>Le plan</head>
@@ -134,11 +132,11 @@
           <p>Tout ceci n’est, somme toute, qu’une nouvelle manière de classer les sciences. Mais l’originalité propre de Philippe Éléphant est d’avoir exposé chacune d’elles en utilisant pour toutes un plan strictement semblable, une sorte de cadre immuable en quatre parties appelées « considérations », se subdivisant elles-mêmes, la première en trois, sept et quatre parties, la seconde en quatre, quatre et une partie, la troisième de la même manière, enfin la quatrième en sept parties. A son tour chacune de ces subdivisions se divise en un nombre propre d’éléments. L’explication d’une telle attitude doit évidemment faire appel au symbolisme des nombres. Mais alors que le plus souvent au moyen âge ce symbolisme avait une valeur esthétique, il est exploité par Philippe Éléphant à des fins méthodologiques. Il pense, en effet, grâce à cette savante architecture numérique, avoir trouvé le moyen à la fois d’être complet et de ne rien traiter qui soit hors du sujet de chacune des sciences. Ce qui apparaît donc aujourd’hui comme un tour de force gratuit était pour l’auteur la démarche méthodique la plus sûre. Il reste cependant que cette entreprise demandait une adresse peu commune et ce seul fait confère au déroulement du texte un intérêt pour ainsi dire dramatique, le lecteur se demandant sans cesse par quelle subtilité l’auteur réalisera son plan.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r901515">
         <head rend="uc">Troisième partie
           <lb/>Analyses commentées des traités</head>
         <p>Menées différemment suivant les traités, les analyses obéissent cependant au souci commun de faire apparaître le degré d’exhaustivité de l’œuvre, le choix et l’utilisation des sources, enfin la valeur scientifique de l’ensemble ainsi constitué.</p>
-        <div>
+        <div xml:id="r901526">
           <pb source="https://nakala.fr/10.34847/nkl.0db0abhs#883aacf9b044d366452de9aef89c89ad06b3d4e8" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.0db0abhs/883aacf9b044d366452de9aef89c89ad06b3d4e8/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
             <lb/>l’exhaustivité des traités</head>
@@ -146,7 +144,7 @@
           <p>D’autre part, dans chaque traité, l’<hi rend="i">ars</hi> proprement dite entre seule dans le moule du plan type et n’expose que les éléments de la science envisagée : ainsi, pour les mathématiques, ce sont les figures géométriques, les nombres, les instruments de la pratique, les sons, les rayons lumineux, etc. De même l’<hi rend="i">Ars alkimie</hi> présente les fours, les substances, les opérations ou les examens. Enfin l’<hi rend="i">Ethica</hi> traite des appétits, des vertus intellectuelles et morales, des arts et des composantes de la société. Mais une part importante des ouvrages est constituée par des développements annexes. Ceux-ci, dans la mathématique par exemple, concernent l’arithmétique et la géométrie et constituent les trois-quarts de l’ensemble. Ils forment presque le quart de l’alchimie.</p>
           <p>Ainsi l’encyclopédie atteint une exhaustivité que ne laissait pas supposer la simple division en neuf arts.</p>
         </div>
-        <div>
+        <div xml:id="r901561">
           <head rend="uc">Chapitre II
             <lb/>Les sources et leur utilisation</head>
           <p>Philippe Éléphant avait pour principe absolu de ne jamais indiquer ses sources : leur identification s’imposait donc impérieusement.</p>
@@ -157,11 +155,11 @@
           <p>Cette puissance d’assimilation et cette clarté d’esprit apparaissent d’une manière tout aussi frappante dans sa façon d’utiliser la <hi rend="i">Summa perfectionis. </hi>Cette œuvre offre, dans le domaine de l’alchimie, une synthèse d’une grande valeur scientifique en raison de ses solides assises expérimentales, mais elle est entièrement articulée autour de la transmutation. Philippe Éléphant lui emprunte sa division claire des métaux, des opérations et des examens, mais il les dépouille de leur finalité proprement alchimique pour ne regrouper sous ces rubriques que les éléments positifs et techniques, souvent diffus dans la théorie de son modèle. Comme pour les mathématiques, il complète sa source principale et le fait non seulement par des expériences empruntées aux métiers artisanaux (orfèvrerie, teinturerie...), mais aussi par des observations personnelles. Certaines d’entre elles, qu’il signale expressément au lecteur, permettent de mieux appréhender la personnalité de cet homme dont la curiosité n’était pas seulement livresque. Le caractère essentiellement descriptif de ce traité, où la théorie n’est cependant pas absente, mais comme rejetée en appendice, le situe, dans toute la littérature alchimique de son époque, comme l’un des ouvrages les plus admissibles pour un esprit moderne. La clarté de l’exposé se prête en outre à une critique scientifique qui donne parfois des résultats positifs, bien qu’elle soit souvent rendue malaisée par le trop petit nombre d’ouvrages sérieux consacrés à cet aspect de la science médiévale. Elle permet néanmoins de montrer que les recettes et les observations sont exactes. Par exemple, quand l’auteur signale que l’encre noire placée dans un encrier d’étain <pb source="https://nakala.fr/10.34847/nkl.0db0abhs#9cd097e7798e6109b874506ebb5c0d2382b22777" n="15" facs="https://api.nakala.fr/iiif/10.34847/nkl.0db0abhs/9cd097e7798e6109b874506ebb5c0d2382b22777/full/full/0/default.jpg"/>devient blanche, il rapporte un fait réel car, lorsqu’on sait que toutes les encres de cette époque contenaient des sulfates, on peut aisément expliquer ce phénomène par le déplacement du métal de ce sel par le métal de l’encrier et la formation d’un nouveau sulfate de couleur blanche.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r901665">
         <head rend="uc">Conclusion</head>
         <p>Si l’ensemble contient peu de découvertes originales, sa valeur scientifique apparaît d’elle-même. L’absence de tout élément moralisateur en est le corollaire le plus frappant. Le traité d’éthique aurait pu donner lieu à des développements moralisants, or même là ils sont absents car il s’agit d’une morale descriptive et non prescriptive. Mais ce n’est pas là ce qui distingue le plus cette encyclopédie de ses devancières, car le <hi rend="i">Compendium philosophie,</hi> qui lui est antérieur de près d’un siècle, marquait déjà une étape dans ce sens. L’originalité de la <hi rend="i">Philosophia</hi> de Philippe Éléphant réside surtout dans le choix des sources, d’où découle la valeur scientifique, et dans le renoncement au plan traditionnel et faussement logique qui part de Dieu pour arriver on ne sait où et que toutes les autres encyclopédies avaient adopté. Celui de la <hi rend="i">Philosophia</hi> est d’une conception beaucoup plus évoluée et d’une allure plus moderne.</p>
       </div>
-      <div>
+      <div xml:id="r901687">
         <head rend="uc">Édition intégrale des trois traités</head>
         <p>MATHÉMATIQUE :</p>
         <p>Inc. : <hi rend="i">Mathematica est ars mensurandi. Mensuratio autem est duplex...</hi></p>

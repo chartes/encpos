@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1959_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1959_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,7 +60,7 @@
         <head rend="uc">Introduction – Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r802371">
         <head rend="uc">Chapitre premier
          <lb/>étude critique.</head>
         <p>1. Les plus anciens livrets de prières connus ont été composés en Angleterre, à partir du milieu du <num>viii<hi rend="sup">e</hi></num> siècle.</p>
@@ -70,7 +68,7 @@
         <p>8. Alcuin n’est responsable ni des <hi rend="i">Officia per ferias</hi> ni du <hi rend="i">De psalmorum usu,</hi> mais d’un <hi rend="i">De ratione orationis</hi> aujourd’hui perdu. Il a probablement ordonné, en revanche, deux des recueils que nous avons conservés, connus sous les noms de <hi rend="i">Libellus Trecensis</hi> et <hi rend="i">Libellus Coloniensis.</hi></p>
         <p><hi rend="i">4.</hi> Il y a trois classes de livrets : les livrets de prières proprement dits, les psautiers suivis de collections de prières et les collections psalmiques, dont les prétendus <hi rend="i">Officia per ferias</hi> donnent un modèle, primitivement destinées à être des « bréviaires du laïc ». Ces compositions sont toutes d’origine monastique.</p>
       </div>
-      <div>
+      <div xml:id="r802424">
         <head rend="uc">Chapitre II
          <lb/>Étude théologique et psychologique.</head>
         <p>1. L’humilité est considérée, dans les livrets du <num>ix<hi rend="sup">e</hi></num> siècle, comme la condition essentielle de la prière.</p>
@@ -81,7 +79,7 @@
         <p>5. Le sens du péché est un élément très important de la spiritualité à l’époque carolingienne. Il repose sur le sentiment de la faiblesse humaine et sur la conscience des fautes commises, que des aide-mémoire du pénitent distribuent par catégories.</p>
         <p>6. Les prières de demande sont principalement ordonnées à des fins purement spirituelles. Il existe également des prières d’adoration pure.</p>
       </div>
-      <div>
+      <div xml:id="r802466">
         <head rend="uc">Appendices</head>
         <p>1. <hi rend="i">Membra disjecta</hi> : Bibl. nat., ms. lat. 1153 et ms. lat. 5338, fol. 143-146 v°.</p>
         <p>2. Bibl. Mazarine, ms. 512 (805) : <num>ix<hi rend="sup">e</hi></num> siècle (vers 850) ; vient de Noyon.</p>
@@ -91,7 +89,7 @@
            <lb/>des bibliothèques publiques de France</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r802514">
           <head rend="uc">Édition du « Libellus bavaricus »</head>
           <p>Orléans, Bibl. mun., ms. 184 (161), p. 240-255.</p>
         </div>

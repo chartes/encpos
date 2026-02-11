@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1938_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1938_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,29 +55,29 @@
         <forename>Anne</forename>
         <surname>Morel</surname>
       </byline>
-      <div>
+      <div xml:id="r587624">
         <head rend="uc">Avant-propos</head>
         <div>
           <head rend="uc">Sources manuscrites.</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r587639">
           <head rend="uc">Sources imprimées. Bibliographie.</head>
           <p>La course n’est-elle, comme beaucoup le croient, qu’une succession d’actions d’éclat ou, comme d’autres le disent, une simple opération commerciale ? Est-elle susceptible, à elle seule, d’apporter la richesse à une ville et de soutenir, à un moment critique, la puissance d’un royaume ?</p>
           <p>En étudiant, pour la seconde moitié du règne de Louis XIV, l’activité maritime et commerciale d’une ville qui mérita le nom de « cité corsaire », nous allons tenter de répondre à ces questions.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r587653">
         <head rend="uc">Introduction
          <lb/>historique sommaire et description de la ville.
          <lb/>La population.</head>
         <p>Au moment où se place cette étude, Saint-Malo est <pb source="https://nakala.fr/10.34847/nkl.bb053itt#1b3669d8bef3fdcd007ddec4b4144a1194f704a9" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.bb053itt/1b3669d8bef3fdcd007ddec4b4144a1194f704a9/full/full/0/default.jpg"/>une petite ville fortifiée, défendue du côté de la terre par un château, vers la mer par des forts. Elle respire l’aisance et la prospérité. Elle est libre vis-à-vis du roi comme vis-à-vis du duc, puisqu’elle est ville épiscopale. Pendant toute la durée de son histoire, elle fera montre de particularisme et d’indépendance.</p>
         <p>A leur situation d’insulaires, les Malouins doivent le courage, l’esprit d’initiative, le goût du risque, mais aussi la prudence. L’alliance heureuse de ces qualités est la raison de leur réussite.</p>
       </div>
-      <div>
+      <div xml:id="r587675">
         <head rend="uc">Première partie
          <lb/>Les occupations du temps de paix</head>
-        <div>
+        <div xml:id="r587683">
           <head rend="uc">Chapitre premier
            <lb/>la pêche.</head>
           <p>Sur leurs côtes, les Malouins se livrent à la pêche du maquereau.</p>
@@ -88,7 +86,7 @@
           <p>Cette pêche est la source la plus sûre et la plus régulière de leur prospérité.</p>
           <p>Séduits par les gros profits que les Hollandais reti<pb source="https://nakala.fr/10.34847/nkl.bb053itt#8df3a427a726a747cfd376b7f792d0d09c599121" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.bb053itt/8df3a427a726a747cfd376b7f792d0d09c599121/full/full/0/default.jpg"/>raient de la pêche à la baleine, les Malouins tentèrent de les imiter. Le premier armement qu’ils firent dans ce but ne réussit pas aussi bien qu’ils l’eussent désiré ; la guerre, qui survint, empêcha le renouvellement de cette tentative.</p>
         </div>
-        <div>
+        <div xml:id="r587718">
           <head rend="uc">Chapitre II
            <lb/>Le commerce.</head>
           <p>Le commerce de Saint-Malo s’est de bonne heure dirigé vers l’Angleterre. On en importe des serges, des draps et des lainages, des harengs, des laines. Saint-Malo exporte des vins et eaux-de-vie et, surtout, des toiles de la province.</p>
@@ -100,11 +98,11 @@
           <p>Enfin, au Maroc, en Guinée, à Moka, dans les Indes, nous rencontrons les Malouins, et partout le succès couronne leurs entreprises.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r587757">
         <head rend="uc">Deuxième partie
          <lb/>Les occupations du temps de guerre
          <lb/>la course</head>
-        <div>
+        <div xml:id="r587767">
           <head rend="uc">Chapitre premier
            <lb/>réglementation générale.</head>
           <p>Représailles. Armements particuliers. Nécessité d’une réglementation. L’ordonnance de la Marine de 1681 résume les mesures antérieures et définit les institutions qui président au bon fonctionnement de la course : amiral, Conseil des prises, amirautés.</p>
@@ -114,7 +112,7 @@
           <p>Ce Conseil statue sur les procédures des prises instruites par les amirautés.</p>
           <p><hi rend="i">Les amirautés.</hi> – Les amirautés ne furent établies définitivement en Bretagne qu’en 1691. En ce qui concerne la course, leur rôle principal est d’instruire les procédures des prises faites en mer et de les transmettre au Conseil des prises.</p>
         </div>
-        <div>
+        <div xml:id="r587808">
           <head rend="uc">Chapitre II
            <lb/>Opérations maritimes et financières.</head>
           <p><hi rend="i">L’armement.</hi> – Il est dirigé par l’armateur, généralement un négociant de la ville. Les qualités nécessaires à l’armateur sont, en effet, celles que l’on peut attendre de négociants habitués aux transactions commerciales, à la tenue des écritures : ceux-ci sont tout indiqués pour faire fructifier le capital qu’est pour l’armateur un navire armé en course.</p>
@@ -135,7 +133,7 @@
           <p>La répartition se fait d’après le produit net ; il y a deux tiers pour l’armateur et les intéressés et un tiers pour l’équipage.</p>
           <p>Liquidations générales. Elles concernent toutes les prises faites par un corsaire pendant la durée d’un même armement. Elles sont très rares ; nous n’en avons pas trouvé à Saint-Malo.</p>
         </div>
-        <div>
+        <div xml:id="r587881">
           <pb source="https://nakala.fr/10.34847/nkl.bb053itt#07fb3cedcc4175c1bdc691793cb0e401df0921f8" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.bb053itt/07fb3cedcc4175c1bdc691793cb0e401df0921f8/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Armements d’un caractère particulier.</head>
@@ -143,7 +141,7 @@
           <p><hi rend="i">Vaisseaux du roi armés par des particuliers.</hi> – La défaite de la Hougue accroît le prestige de la guerre de course au détriment de la guerre d’escadre. Désormais, Louis XIV se désintéresse de la marine ; moyennant certaines conditions, il prêtera ses vaisseaux aux particuliers, qui se chargeront de l’armement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r587908">
         <head rend="uc">Troisième partie
          <lb/>Armements malouins
          <lb/>et résultats donnés par la course</head>
@@ -159,7 +157,7 @@
         <head rend="uc">Conclusion</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r587954">
         <pb source="https://nakala.fr/10.34847/nkl.bb053itt#caa10468162793931f255d5568b49a53a7b2b162" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.bb053itt/caa10468162793931f255d5568b49a53a7b2b162/full/full/0/default.jpg"/>
         <head rend="uc">Appendices</head>
         <div>

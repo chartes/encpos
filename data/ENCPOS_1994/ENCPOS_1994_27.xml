@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_27" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_27" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,24 +57,24 @@
         <surname>Vatican</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1251221">
         <head rend="uc">Introduction</head>
         <p>La conversion, au sens de passage d’une religion à une autre, se situe au cœur du siècle de la Contre-Réforme ; après l’adhésion au protestantisme d’une grande partie de l’Europe, l’effort de l’Église catholique, après le Concile de Trente, a été de « ré-unir » en son sein ceux qu’elle considérait comme hérétiques. L’Espagne, championne de la Contre-Réforme, participe à ce mouvement. Après l’élimination des foyers de protestantisme de Valladolid et de Tolède, c’est vers les étrangers, nombreux dans la péninsule ibérique, que se dirige l’effort de l’Inquisition. La chasse aux « luthériens » étrangers est particulièrement vive, mais on constate, à partir des années 1560, qu’un certain nombre de protestants étrangers viennent se présenter « spontanément » afin de se convertir, mouvement qui prend toute son ampleur au <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r1251237">
         <pb source="https://nakala.fr/10.34847/nkl.4623ankp#46bdfa5c038ef14a9adad0060336d76dcd244798" n="216" facs="https://api.nakala.fr/iiif/10.34847/nkl.4623ankp/46bdfa5c038ef14a9adad0060336d76dcd244798/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>Les dépouillements de procès et de relations de causes conservés à l’Archivo histórico nacional de Madrid ont porté sur les tribunaux situés au nord d’une ligne Llerena-Valence et, plus particulièrement, sur ceux qui présentent le plus grand nombre de cas, c’est-à-dire Barcelone, Saragosse, Logroño, Valence, Saint-Jacques-de-Compostelle, Tolède et la Cour. Par ailleurs, les instructions de l’Inquisition espagnole et les <hi rend="i">cartas acordadas</hi> envoyées aux tribunaux ont permis de suivre l’évolution juridique de ce type de procès.</p>
       </div>
-      <div>
+      <div xml:id="r1251256">
         <head rend="uc">Première partie
          <lb/>Le cadre institutionnel</head>
-        <div>
+        <div xml:id="r1251264">
           <head rend="uc">Première section
            <lb/>l’Inquisition</head>
           <p>Si l’action de l’Inquisition espagnole reste attachée à la répression de toutes les formes d’hérésie, le <hi rend="i">Manuel des inquisiteurs</hi> d’Eymerich puis les <hi rend="i">Instructions </hi>propres à l’Inquisition espagnole prévoyaient la possibilité de se présenter « spontanément » devant le tribunal et de bénéficier d’un certain allègement de sa peine, en particulier pendant le temps de grâce, en même temps qu’ils réservaient aux seuls inquisiteurs les cas de conversion. Après le traité Alba-Cobham de 1576, qui donne aux marchands anglais certaines garanties, les <hi rend="i">cartas acordadas</hi> de 1597 et 1605 procurent un cadre juridique spécial pour ces conversions d’étrangers, qui leur garantit définitivement une procédure secrète et l’absence de toute peine, à l’exception des pénitences spirituelles.</p>
         </div>
-        <div>
+        <div xml:id="r1251288">
           <head rend="uc">Deuxième section
            <lb/>le déroulement du procès</head>
           <p>Tous les procès se déroulent sous une forme « allégée » ; l’<hi rend="i">espontáneo</hi> se présente seul à l’audience ; parfois, il s’annonce par une lettre d’introduction que lui rédige un religieux. Souvent, il est même accompagné par un religieux qui le conduit jusqu’au tribunal et lui sert éventuellement d’interprète. Les audiences ont <pb source="https://nakala.fr/10.34847/nkl.4623ankp#f923dd0493790f1bc3bdef342ddb7b73fd8d365e" n="217" facs="https://api.nakala.fr/iiif/10.34847/nkl.4623ankp/f923dd0493790f1bc3bdef342ddb7b73fd8d365e/full/full/0/default.jpg"/>lieu dans la salle du tribunal et les dépositions suivent une grille d’interrogatoire précise ; les questions concernent l’état civil, le baptême, la formation religieuse et les pratiques, le <hi rend="i">discurso de la vida,</hi> la décision de se convertir et ses motifs ; tous ces points doivent être abordés, mais les tribunaux peuvent privilégier certains aspects, la tendance générale allant vers une certaine uniformisation.</p>
@@ -87,10 +85,10 @@
           <p>Enfin le souci des inquisiteurs se porte sur la question du baptême. En principe, le baptême administré par les protestants était reconnu par les catholiques depuis le concile de Trente. Cependant les hésitations de certains <hi rend="i">espontáneos</hi> au sujet de leur propre baptême entraînent souvent la réitération du baptême <hi rend="i">sub conditione.</hi> Cette réitération a ses partisans, y compris dans les cas où la validité <pb source="https://nakala.fr/10.34847/nkl.4623ankp#0917fcea83033f666240d9584b393dfca3990928" n="218" facs="https://api.nakala.fr/iiif/10.34847/nkl.4623ankp/0917fcea83033f666240d9584b393dfca3990928/full/full/0/default.jpg"/>du premier baptême ne peut être remise en cause. La persistance de ce courant tout au long du <num>xvii<hi rend="sup">e</hi></num> siècle, y compris chez des ministres du Saint-Office, est particulièrement visible dans ces procès de conversion.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1251380">
         <head rend="uc">Deuxième partie
          <lb/>Les convertis</head>
-        <div>
+        <div xml:id="r1251388">
           <head rend="uc">Première section
            <lb/>étude quantitative</head>
           <p>Le dépouillement des fonds conservés pour les tribunaux de Barcelone, Saragosse, Logroño, Saint-Jacques-de-Compostelle, Valence, Madrid et Tolède permet de rassembler quelque 1 073 cas pour la période comprise entre 1563 et 1700.</p>
@@ -100,13 +98,13 @@
           <p>Du point de vue de l’origine géographique des convertis, on constate une évolution très nette vers une représentation élargie à l’Europe entière. La fin de la guerre de Trente Ans fait affluer vers l’Espagne non seulement des mercenaires en quête d’un nouvel emploi, mais aussi tous ceux qui fuient des régions dévastées par la guerre et tentent de venir faire fortune en Espagne. Ce phénomène explique que les Français et les Anglais, qui étaient proportionnellement plus nombreux parmi les convertis avant 1640, voient leur importance relative diminuer, même si le nombre de leurs conversions se maintient dans l’absolu.</p>
           <p>Malgré le poids que fait peser la conjoncture militaire sur le type socioprofessionnel des convertis, des comparaisons limitées à certaines catégories montrent que, si les conversions retrouvées ne sont que rarement le fait de <pb source="https://nakala.fr/10.34847/nkl.4623ankp#4f111db5c9d2f1bd1265a00ba0d1a5da7740a718" n="219" facs="https://api.nakala.fr/iiif/10.34847/nkl.4623ankp/4f111db5c9d2f1bd1265a00ba0d1a5da7740a718/full/full/0/default.jpg"/>personnes appartenant aux couches supérieures de la société, on ne voit pas non plus se présenter devant les tribunaux des flots de mendiants. Qu’il s’agisse de soldats, de marins, de domestiques ou d’artisans, tous ont en commun la mobilité et l’instabilité dans lesquelles s’insère la démarche de la conversion.</p>
         </div>
-        <div>
+        <div xml:id="r1251426">
           <head rend="uc">Deuxième section
            <lb/>le discours religieux</head>
           <p>La description de la religion dans laquelle avait été élevé le candidat à la conversion constituait une des parties les plus importantes de l’audience, à la fois parce qu’elle permettait aux inquisiteurs de souligner les différences entre protestantisme et catholicisme et parce qu’ils obtenaient ainsi des informations concernant, par exemple, l’état des communautés protestantes ou la vigueur de certaines missions catholiques.</p>
           <p>La qualité des exposés sur la religion d’origine est extrêmement variable mais ne repose que très rarement sur une véritable réflexion théologique. Le discours communique une impression d’uniformité, quelle que soit la confession réformée. Il se présente d’abord comme un témoignage du vécu fourni par des gens pour qui la religion est avant tout une pratique ; on peut en tirer ensuite un certain nombre de points de repère. Il constitue l’un des éléments principaux qui peuvent expliquer la fragilisation de l’attachement des convertis à leur foi première.</p>
         </div>
-        <div>
+        <div xml:id="r1251441">
           <head rend="uc">Troisième section
            <lb/>les causes de la conversion et le problème de la sincérité</head>
           <p>Contrairement à ce qu’on pourrait penser, l’intérêt premier des inquisiteurs n’était pas de connaître les motifs de la conversion mais plutôt de savoir à quel moment elle avait été décidée, afin de déterminer le type de sentence à rendre.</p>
@@ -116,15 +114,15 @@
           <p>Reste à savoir quelle était la sincérité de ceux qui se convertissaient. Ce point est particulièrement délicat dans la mesure où les témoignages produits dans les procès ne sont pas les plus fiables, chacun cherchant à apparaître comme le plus convaincu possible, et où il est presque impossible de savoir ce que deviennent les convertis. Dans bien des cas, une recherche en amont pourrait être un élément permettant d’affiner les analyses pour des cas particuliers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1251472">
         <head rend="uc">Conclusion</head>
         <p>Même si les procès de conversion occupent une place marginale dans les fonds inquisitoriaux, le phénomène ne se résume pas à quelques cas particuliers et la richesse de ces sources donne un éclairage particulièrement intéressant sur un aspect souvent ignoré de la Contre-Réforme. Il apparaît que la mise en place par l’Inquisition espagnole de mesures spéciales pour recevoir ceux qui veulent revenir au sein de l’Èglise catholique est avant tout destinée à continuer la lutte contre l’hérésie, sous une forme plus humanisée, sans nuire aux intérêts économiques et politiques de la Couronne.</p>
       </div>
-      <div>
+      <div xml:id="r1251482">
         <head rend="uc">Pièces justificatives</head>
         <p><hi rend="i">Cartas acordadas</hi> contenant les principales dispositions concernant les <hi rend="i">espontáneos</hi> étrangers. – Procès et relations des causes de conversions.</p>
       </div>
-      <div>
+      <div xml:id="r1251499">
         <head rend="uc">Annexes</head>
         <p>Cartes des origines géographiques des convertis français. – Graphiques concernant les religieux intervenant dans les procès.</p>
       </div>

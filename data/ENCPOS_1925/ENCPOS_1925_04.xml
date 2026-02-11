@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,19 +56,19 @@
         <surname>Brouard</surname>
         <roleName>Licencié en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r439224">
         <head rend="uc">Avant-propos</head>
         <p>Le présent travail a pour objet l’étude des hôtes au moyen âge dans la période antérieure au <num>x<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r439240">
         <head rend="uc">Première partie
          <lb/>Époque mérovingienne</head>
-        <div>
+        <div xml:id="r439248">
           <head rend="uc">Chapitre premier
            <lb/>les hôtes dans la loi wisigothique</head>
           <p>Il est fait mention d’hôtes dans la loi wisigothique, mais le mol n’a pas de sens spécial.</p>
         </div>
-        <div>
+        <div xml:id="r439260">
           <head rend="uc">Chapitre II
            <lb/>L’hospitalité burgonde</head>
           <p>C’est le régime de l’installation des Burgondes en Lyonnaise.</p>
@@ -121,7 +119,7 @@
           <p>Indices d’une hospitalité nouvelle d’intérêt économique .</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r439499">
         <head rend="uc">Deuxième partie
          <lb/>Époque carolingienne</head>
         <p>Les Polyptyques montrent que :</p>

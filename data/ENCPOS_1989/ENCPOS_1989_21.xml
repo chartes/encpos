@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1989_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,23 +56,23 @@
         <surname>Riquier</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1180584">
         <head rend="uc">Introduction</head>
         <p>Une étude sur le tourisme au <num>xix<hi rend="sup">e</hi></num> et au <num>xx<hi rend="sup">e</hi></num> siècle pourrait <hi rend="i">a priori</hi> laisser attendre une étude « sociale », ethnologie de comportements et d’attitudes mentales d’un monde bourgeois en vacances. En fait, le milieu, géographique aussi bien qu’humain, de la côte de haute Normandie, contrairement à d’autres espaces balnéaires où le tourisme s’impose pleinement et remodèle à son image et à son usage le paysage et l’espace social de la côte où il s’implante, reste ici fondamental, par l’ensemble des difficultés qu’il détermine : difficultés d’ordre physique en premier lieu, à cause de la perméabilité toute relative qu’offre ce paysage de falaises, mais aussi difficultés humaines et financières. L’espace balnéaire, dès l’abord restreint, empêche toute création nouvelle, d’autant plus que l’on se heurte à un espace déjà occupé. Ces diverses contraintes renvoient donc en priorité à l’importance vécue du tourisme pour un milieu humain qui, dans le cas de nombreuses communes, y cherche plus ou moins des ressources nouvelles pour faire face à une crise de ses structures traditionnelles.</p>
         <p>Les limites géographiques de l’étude sont représentées, à l’ouest, par le cap d’Antifer et, à l’est, par les limites séparant les deux départements de la Seine-Maritime et de la Somme. Elles comprennent les stations suivantes, citées d’ouest en est : Étretat, Yport, Fécamp, les Grandes-Dalles et les Petites-Dalles, Veulettes, Saint-Valéry-en-Caux, Veules-les-Roses, Saint-Aubin-sur-Mer, Quiberville, Pourville, Dieppe, Puys, Berneval, Criel, Le Tréport.</p>
       </div>
-      <div>
+      <div xml:id="r1180613">
         <pb source="https://nakala.fr/10.34847/nkl.ee97741l#3234a47b73f60be79fa8d48fa28c7a8fcb361360" n="174" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee97741l/3234a47b73f60be79fa8d48fa28c7a8fcb361360/full/full/0/default.jpg"/>
         <head rend="uc">Sources</head>
         <p>La problématique, plus axée sur le milieu d’accueil qu’immédiatement centrée autour du touriste lui-même, s’est trouvée dictée par l’état de la documentation. En effet, tant les lacunes archivistiques que l’intérêt tardif de l’administration pour le phénomène touristique interdisent d’avoir une vision quantifiée précise du flux touristique, sinon de façon exceptionnelle et en tout cas tardive.</p>
         <p>L’étude se fonde en premier lieu sur l’exploitation des listes nominatives de dénombrement de la population (sous-série 6M des Archives départementales de Seine-Maritime), pour déterminer l’évolution des structures d’activité des différentes communes et évaluer la part qu’a pu prendre le tourisme dans leur évolution. Il s’agissait ensuite de mesurer l’importance du tourisme balnéaire dans les finances des communes et d’apprécier ainsi le degré d’implication municipale dans la gestion de ce phénomène, à travers les séries d’archives communales (sous-série 20P : travaux communaux, délibérations des conseils municipaux et surtout comptabilité municipale). Les archives des Ponts et Chaussées (sous-série 4SP) complètent cette perspective, en permettant de mesurer l’engagement des communes en matière d’ouvrages de défense des plages.</p>
         <p>Les sources dont on dispose enfin pour juger de l’importance du phénomène touristique proprement dit, enquêtes officielles, données diverses sur le parc immobilier, rapports sur les jeux, rapports des commissions d’hygiène (sous-séries 4M, 5M, 1Z des archives départementales), guides, restent fragmentaires et même, dans certains cas, sont sinon douteuses, du moins à utiliser avec précaution.</p>
       </div>
-      <div>
+      <div xml:id="r1180634">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Le milieu</head>
-        <div>
+        <div xml:id="r1180646">
           <head rend="uc">Chapitre premier
            <lb/>une évolution démographique diversifiée</head>
           <p>Si une vision d’ensemble peut donner l’impression d’une dynamique démographique à la hausse entre 1841 et 1936, avec une progression de 30,16 %, certes moins importante que celle de la Côte Fleurie (+ 216,8 %), mais nettement supérieure à la moyenne nationale, elle ne saurait occulter la diversité profonde de l’évolution démographique des différentes stations balnéaires.</p>
@@ -85,7 +83,7 @@
           <p>En outre, loin d’être modifiée, la hiérarchie démographique des communes se trouve encore renforcée, si l’on considère que le dépeuplement systématique des unités de moins de 1 000 habitants et l’accroissement de Dieppe font passer l’indice d’écart entre la plus peuplée, Dieppe, et la moins peuplée des communes de 57,49 en 1841 à 108,05 en 1936.</p>
           <p>L’éclosion du phénomène touristique n’apparaît donc pas comme le ferment d’un renouvellement démographique pour certaines communes ni comme un facteur de création de nouveaux équilibres et de différenciation des hiérarchies.</p>
         </div>
-        <div>
+        <div xml:id="r1180684">
           <head rend="uc">Chapitre II
            <lb/>L’évolution des activités traditionnelles</head>
           <p>L’évolution des activités humaines rend compte plus précisément de cette absence globale de modifications importantes à mettre au compte du phénomène touristique. La tendance générale de l’évolution des activités des communes se structure autour de trois axes essentiels.</p>
@@ -95,11 +93,11 @@
           <p>En règle générale, cependant, le tourisme ne modifie pas la structure d’acti<pb source="https://nakala.fr/10.34847/nkl.ee97741l#a006c303f50185d7fee3efac6b4dc7cc499b3d3f" n="176" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee97741l/a006c303f50185d7fee3efac6b4dc7cc499b3d3f/full/full/0/default.jpg"/>vité des communes où il s’implante et, particulièrement pour les communes du centre, ne permet pas un renouvellement profond de leurs activités.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1180714">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Municipalités et tourisme :<lb/>perspective financière</head>
-        <div>
+        <div xml:id="r1180728">
           <head rend="uc">Chapitre premier
            <lb/>les prémices du fait balnéaire : tentative de datation</head>
           <p>La naissance des différentes stations balnéaires s’effectue à partir des grands centres urbains ou des agglomérations les plus peuplées, selon un processus de tache d’huile, à la fois géographique et chronologique. Aussi le tissu balnéaire garde-t-il un aspect assez centralisé, dessinant quatre micro-régions balnéaires, autour de centres qui impriment leur marque à leurs stations périphériques. Ces quatre micro-régions sont celles du Tréport, de Dieppe, de Saint-Valéry et, pour la zone occidentale, de Fécamp-Étretat.</p>
@@ -108,7 +106,7 @@
           <p>Une seconde génération de stations balnéaires naît entre 1855 et 1870 ; ce sont les stations « périphériques » qui se développent autour des centres apparus dans la décennie 1840. Il s’agit notamment de Quiberville, Puys et Pourville, autour de Dieppe, d’Yport, près d’Étretat, de Criel, près du Tréport, des Petites-Dalles, de Veules-les-Roses et Veulettes, autour de Saint-Valéry-en-Caux.</p>
           <p>A une génération plus tardive, que l’on peut dater de la décennie 1880, appartiennent Saint-Aubin-sur-Mer et les Grandes-Dalles.</p>
         </div>
-        <div>
+        <div xml:id="r1180758">
           <head rend="uc">Chapitre II
            <lb/>Les ouvrages de défense et les travaux d’aménagement des plages</head>
           <p>Le tourisme balnéaire, à travers les appréciations portées sur lui par les ingénieurs des Ponts et Chaussées (dans leurs rapports sur les campagnes de constructions d’ouvrages de défense des plages) ou par les responsables muni<pb source="https://nakala.fr/10.34847/nkl.ee97741l#b8296e722f9c81ed417e8b46cd199cc84c228807" n="177" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee97741l/b8296e722f9c81ed417e8b46cd199cc84c228807/full/full/0/default.jpg"/>cipaux, apparaît souvent comme un pôle majeur de ressources pour la commune. Les dépenses entreprises pour la préservation des plages et l’aménagement du littoral, et les ressources tirées des entreprises plus immédiatement touristiques que sont les établissements de bains et les casinos, ainsi que les dépenses correspondantes, permettent de mesurer la part effective du tourisme dans la vie d’une commune et de déterminer l’ampleur de l’implication de la municipalité en la matière.</p>
@@ -118,7 +116,7 @@
           <p>Les petites communes s’impliquent beaucoup moins que les autres dans l’aménagement des plages. Ce sont souvent les associations de propriétaires qui, conjointement avec la municipalité ou indépendamment d’elle, font effectuer les travaux indispensables.</p>
           <p>D’autre part, alors que les communes plus importantes ont le souci de devenir propriétaires de la plage, ou tout au moins de s’assurer l’exclusivité de sa location auprès de l’Etat, les mêmes dossiers de location de lais de mer, dans le cas des petites communes, mettent directement en relation administration des Domaines et concessionnaires privés ; on n’y rencontre jamais ou presque les municipalités.</p>
         </div>
-        <div>
+        <div xml:id="r1180794">
           <head rend="uc">Chapitre III
            <lb/>Tourisme et communes : mesures d’un engagement municipal</head>
           <p>Les mêmes lignes directrices restent valables pour évaluer l’implication des <pb source="https://nakala.fr/10.34847/nkl.ee97741l#74683005e7faae70f7e02707ee98addfd541d439" n="178" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee97741l/74683005e7faae70f7e02707ee98addfd541d439/full/full/0/default.jpg"/>communes dans la gestion du phénomène touristique. Une discrimination s’établit entre les communes où le tourisme prend l’aspect d’une colonie de propriétaires qui s’organise pour sa vie balnéaire, et celles où, plus ambitieusement, on veut faire du tourisme un pôle de la vie municipale et une source de revenus notable.</p>
@@ -129,12 +127,12 @@
           <p>Avec la période d’après-guerre, les communes moyennes et petites doivent affronter des problèmes d’hygiène et d’aménagement général des communes, adduction d’eau par exemple, qui ne sont parfois résolus, comme à Veules-les-Roses, que fort tard.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1180827">
         <pb source="https://nakala.fr/10.34847/nkl.ee97741l#89ee3a85fb82801bf1d4c78245be7124b149dfd0" n="179" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee97741l/89ee3a85fb82801bf1d4c78245be7124b149dfd0/full/full/0/default.jpg"/>
         <head rend="uc">
           <hi rend="i">Troisième partie</hi>
           <lb/>Les touristes : fréquentation et accueil</head>
-        <div>
+        <div xml:id="r1180844">
           <head rend="uc">Chapitre premier
            <lb/>la fréquentation</head>
           <p>Si le « tourisme municipal » reste assez facilement perceptible, grâce aux documents qu’il a laissés mais aussi grâce à ses silences, il est plus difficile de cerner tant le flux touristique, à cause de l’intérêt tardif de l’administration, que les infrastructures d’accueil, à cause des lacunes de la documentation.</p>
@@ -143,14 +141,14 @@
           <p>Les données que l’on possède pour la fin des années 1930 montrent un essor de la fréquentation, à Dieppe et particulièrement au Tréport, qui devient alors la plage la plus fréquentée du département. Cette augmentation est en partie antérieure aux congés payés qui n’exercent de réelle influence qu’en 1937 et surtout en 1938.</p>
           <p>La provenance sociale et l’origine géographique des clientèles révèlent des différences profondes entre la zone orientale qui attire essentiellement les classes moyennes parisiennes, la zone dieppoise dont la population touristique est également parisienne mais plus fortunée, et la zone centrale, où l’on retrouve un public de classes moyennes venant soit de Paris soit de la région ; la cohérence de la zone occidentale est moins grande, entre Étretat, plus mondain, et Yport, qui accueille une clientèle plus modeste. L’évolution de la composition sociologique de la masse touristique va au demeurant vers un renforcement, au cours des années 1920 et, plus encore, des années 1930, de la part des clas<pb source="https://nakala.fr/10.34847/nkl.ee97741l#ae20bbdac2d82ffaa91b3c99356c16b190e71bf5" n="180" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee97741l/ae20bbdac2d82ffaa91b3c99356c16b190e71bf5/full/full/0/default.jpg"/>ses moyennes. La proportion des congés payés est importante après 1937, tout particulièrement au Tréport.</p>
         </div>
-        <div>
+        <div xml:id="r1180873">
           <head rend="uc">Chapitre II
            <lb/>Évolution du parc immobilier et du parc hôtelier</head>
           <p>L’évolution du parc immobilier confirme l’image d’une fréquentation plutôt restreinte. La plus-value apportée aux immeubles des stations balnéaires est en général assez nette, notamment à Veulettes ou à Étretat où, en 1890, la valeur locative moyenne des immeubles est très largement supérieure à ce qu’elle est dans des communes voisines de taille comparable mais non balnéaires.</p>
           <p>Toutefois, ce parc immobilier reste d’une importance limitée. On ne note aucune augmentation fulgurante. Des stations balnéaires réputées, comme peuvent l’être Veules ou Veulettes, voient même leur parc immobilier diminuer sensiblement ; celui d’Étretat, supérieur de moitié en 1936 à sa consistance au milieu du <num>xix<hi rend="sup">e</hi></num> siècle, s’inscrit néanmoins dans une évolution à la baisse par rapport à 1890.</p>
           <p>Par ailleurs, l’observation du parc hôtelier montre que, mis à part la progression du nombre d’hôtels dans certaines communes après la guerre, il s’est fixé dans son état, pour l’essentiel, entre 1880 et 1914.</p>
         </div>
-        <div>
+        <div xml:id="r1180897">
           <head rend="uc">Chapitre III
            <lb/>Un pôle de la vie balnéaire : les casinos</head>
           <p>Les données sur les casinos sont rares jusqu’à la promulgation de la loi sur les jeux en 1907. Après cette date, les jeux ne sont autorisés qu’à Dieppe, Étretat, Fécamp, Pourville, Saint-Valéry-en-Caux, Le Tréport, Veules, Veulettes et Yport.</p>
@@ -158,7 +156,7 @@
           <p>La crise affecte tout particulièrement les casinos de Dieppe et d’Étretat, plus que ceux de Saint-Valéry-en-Caux et du Tréport, dont la part relative dans le produit de l’ensemble des casinos ne cesse de croître.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1180916">
         <head rend="uc">Conclusion</head>
         <p>La zone balnéaire qui se développe sur la côte de Seine-Inférieure est une zone secondaire. Si le tourisme peut apparaître comme un facteur d’augmenta<pb source="https://nakala.fr/10.34847/nkl.ee97741l#6f8b9496c6945148572a1f1fff514c9c92430813" n="181" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee97741l/6f8b9496c6945148572a1f1fff514c9c92430813/full/full/0/default.jpg"/>tion des ressources de certaines communes avant la guerre, il ne modifie pas véritablement les équilibres de la côte et s’apparente plutôt à une greffe qui ne prend pas systématiquement. La cohérence géographique et démographique qui caractérise ce tissu balnéaire recoupe en effet les hiérarchies préexistantes, sauf sans doute dans le cas d’Étretat.</p>
         <p>L’occupation ancienne et la configuration de la frange littorale, l’exiguïté des sites rendaient impossible la création de centres nouveaux de quelque ampleur. Et la proximité parisienne, facteur initialement essentiel dans le développement touristique, cesse vite d’être un argument suffisant, face à la concurrence des stations du nord de la Somme ou du Calvados, au milieu physique plus favorable.</p>

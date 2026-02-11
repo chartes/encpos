@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1994_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,29 +55,29 @@
         <surname>Mouren</surname>
         <roleName>maître ès lettres, diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1246934">
         <head rend="uc">Introduction</head>
         <p>Lorsqu’en 1557 sortit des presses d’Henri Estienne la quatrième édition des tragédies d’Eschyle, le monde humaniste eut pour la première fois à sa disposition le texte presque complet des sept tragédies subsistantes. Ce progrès était dû aux travaux de l’humaniste italien Piero Vettori, philologue connu et respecté, célèbre éditeur d’Aristote et Cicéron. Cette édition fut en quelque sorte une seconde <hi rend="i">editio princeps :</hi> son intérêt tient à l’importante restitution d’une partie de <hi rend="i">Y Agamemnon, </hi>dont il avait retrouvé plus de mille vers. La tragédie fut alors définitivement distinguée de la suivante. Il décrivit dans sa préface les trois manuscrits importants de la tradition d’Eschyle qu’il avait uilisés. Ces manuscrits furent considérés pendant longtemps comme les meilleurs témoins du texte : le <hi rend="i">Mediceus</hi> (Florence, <hi rend="i">Laurentianus</hi> 32,9 = M), manuscrit du <num>x<hi rend="sup">e</hi></num> siècle environ, le plus ancien, où manque une grande partie de l’<hi rend="i">Agamemnon,</hi> mais qui transmet <hi rend="i">Les Choéphores </hi>et <hi rend="i">Les Suppliantes ;</hi> le <hi rend="i">Florentinus</hi> (Florence, <hi rend="i">Laurentianus</hi> 31,8 = F), du <num>xiv<hi rend="sup">e</hi></num> siècle, où il découvrit le texte entier de l’<hi rend="i">Agamemnon ;</hi> le <hi rend="i">Farnesianus (Naples,</hi> Biblioteca nazionale centrale Vittorio Emanuele III, <hi rend="i">Neapolitanus</hi> II F 31 = T), manuscrit copié au <num>xiv<hi rend="sup">e</hi></num> siècle par l’érudit byzantin Demetrius Triclinius, qui contient aussi l’<hi rend="i">Agamemnon.</hi> Piero Vettori accompagna le texte d’un choix des scholies conservées dans les manuscrits.</p>
         <p>L’autre particularité de cette édition est que Piero Vettori, pour la seule fois de sa carrière d’éditeur, fit imprimer son livre par le Français Henri Estienne. Or celui-ci, comme à son habitude, ne s’est pas contenté de reproduire le texte qui lui avait été confié, mais a laissé la marque de son intervention, d’autant plus qu’il avait vu lui-même plusieurs manuscrits en Italie.</p>
         <pb source="https://nakala.fr/10.34847/nkl.ee7f2ko3#5070f0c09b7e9932850216530477d095af9b7d17" n="146" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee7f2ko3/5070f0c09b7e9932850216530477d095af9b7d17/full/full/0/default.jpg"/>
         <p>Piero Vettori a également utilisé les éditions qui ont précédé la sienne, et dont l’histoire et les sources sont assez bien connues ; les étapes de son propre travail ont pu être reconstituées grâce aux indications contenues dans sa préface et dans sa correspondance. L’étude des réflexions de Piero Vettori et Henri Estienne sur la tradition du texte d’Eschyle, suivie de l’apparat critique commenté de certains passages significatifs des tragédies, apporte sur les principes d’édition suivis par les deux hommes des renseignements sûrs.</p>
       </div>
-      <div>
+      <div xml:id="r1247025">
         <head rend="uc">Sources</head>
         <p>On a disposé avant tout des éditions de Piero Vettori et de ses prédécesseurs, ainsi que des trois manuscrits utilisés par lui ; ces manuscrits ont été vus, pour deux d’entre eux, à Florence et à Naples ; le <hi rend="i">Mediceus</hi> conservé aussi à Florence n’est pas consultable.</p>
         <p>Des documents fournis à Piero Vettori par ses amis et ses collaborateurs ont été retrouvés et étudiés à Munich (Bayerische Staatsbibliothek) et à Rome (Biblioteca nazionale centrale Vittorio Emanuele II).</p>
         <p>Des lettres, souvent inédites, ont fourni de nombreux renseignements. La correspondance passive de Piero Vettori, conservée à la British Library de Londres, forme dix-huit volumes, qui ont été dépouillés. Les lettres adressées à ses amis, dispersées dans plusieurs bibliothèques européennes, ne sont sans doute pas toutes localisées à ce jour. Les principaux recueils de correspondance dépouillés sont ceux de la Biblioteca apostolica vaticana (lettres aux cardinaux Sirleto et Cervini, et à Fulvio Orsini), et à la Biblioteca riccardiana de Florence.</p>
         <p>Les préfaces ou remarques de Piero Vettori et Henri Estienne dans d’autres de leurs ouvrages ont apporté d’utiles compléments.</p>
       </div>
-      <div>
+      <div xml:id="r1247048">
         <head rend="uc">Première partie
           <lb/>L’élaboration d’une édition de texte au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r1247062">
           <head rend="uc">Chapitre premier
             <lb/>Piero Vettori, un grand philologue</head>
           <p>Une rapide biographie de Piero Vettori, issu d’une noble et influente famille florentine, et une présentation de son activité philologique permettent de replacer l’édition dans le cours de sa vie.</p>
         </div>
-        <div>
+        <div xml:id="r1247074">
           <pb source="https://nakala.fr/10.34847/nkl.ee7f2ko3#91466263a23d63c575fb6dc1a18150c1e99a2f84" n="147" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee7f2ko3/91466263a23d63c575fb6dc1a18150c1e99a2f84/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
             <lb/>Eschyle : l’état du texte avant Piero Vettori
@@ -91,7 +89,7 @@
           <p>La première édition des scholies en 1552 fut l’œuvre de Francesco Robortello, quelques mois avant qu’il n’éditât le texte des tragédies ; sa source principale était, pour certains, un apographe du <hi rend="i">Parisinus gr.</hi> 2070 (Mi) ; pour d’autres, c’est le <hi rend="i">Vaticanus gr.</hi> 1464 (Ml). Son autre source fut le San Marco 222. L’hypothèse d’une utilisation de F, défendue par O.L. Smith, est peu convaincante. Il a peut-être utilisé aussi le manuscrit V, Venise <hi rend="i">Marcianus gr.</hi> 468.</p>
           <p>Il reste difficile de savoir exactement de quels manuscrits ont disposé ces éditeurs, d’autant plus que l’histoire des manuscrits est encore mal connue.</p>
         </div>
-        <div>
+        <div xml:id="r1247160">
           <head rend="uc">Chapitre III
             <lb/>Histoire de l’édition</head>
           <p><hi rend="i">Piero Vettori et Eschyle.</hi> – Piero Vettori avait eu l’occasion de consulter des manuscrits en 1526, lorsqu’un de ses amis lui demanda si l’on disposait du texte d’Eschyle à Florence. Piero Vettori avait alors trouvé, semble-t-il, deux manuscrits, dont l’un contenait la triade byzantine, et l’autre, « les trois autres tragédies ».</p>
@@ -109,34 +107,34 @@
           <p>Henri Estienne a ajouté au texte quarante et une pages d’annotations et de variantes. Il y expliqua qu’il avait parfois changé le texte de Vettori, renvoyant à la fin du livre les leçons de son manuscrit pour les remplacer par d’autres. Un tel comportement provoqua bien sûr la colère de Piero Vettori, qui se plaignit de son éditeur comme bien d’autres après lui, qui eurent les mêmes problèmes avec H. Estienne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1247284">
         <head rend="uc">Deuxième partie
           <lb/>Piero Vettori, Henri Estienne et le texte d’Eschyle</head>
-        <div>
+        <div xml:id="r1247292">
           <head rend="uc">Chapitre premier
             <lb/>histoire de la tradition et critique du texte : les méthodes</head>
           <p><hi rend="i">Piero Vettori.</hi> – Piero Vettori a exprimé quelques idées sur l’histoire des textes. Il tenait pour préférable le manuscrit le plus ancien, le <hi rend="i">Mediceus.</hi> Il a aussi noté les corrections faites sur le texte par Demetrius Triclinius. Sa seule hypothèse sur la tradition du texte d’Eschyle manque de rigueur. Vettori était un éditeur expérimenté, sa préface montre sa préférence pour la <hi rend="i">recensio.</hi> S’il usa parfois de la conjecture, <hi rend="i">V emendatio,</hi> ce fut toujours en s’appuyant sur des manuscrits, de préférence anciens. Il n’omit pas de signaler qu’éditer des textes est un dur labeur.</p>
           <p><hi rend="i">Henri Estienne.</hi> – Le Français fit peu de remarques sur l’histoire du texte d’Eschyle, relevant simplement que les manuscrits portaient beaucoup de fautes ; il lui semblait impossible que leur seule aide, non plus que la conjecture, pût permettre de corriger les tragédies. Il s’intéressa à la tradition indirecte et chercha à démontrer que certains extraits, trouvés chez Galien, appartenaient au <hi rend="i">Prométhée délivré,</hi> et non au <hi rend="i">Prométhée enchaîné.</hi> Considérant cette édition comme la sienne, il exposa ses préférences dans ce domaine : la <hi rend="i">recensio</hi> était préférable, mais il a porté plusieurs conjectures sur le texte. Il crut devoir s’en expliquer, et même, ne les édita pas toutes. Il inséra certaines des variantes qu’il avait trouvées au milieu des scholies, ouvrant la voie aux apparats modernes mis en regard du texte. Il expliqua longuement les étapes d’une édition, et les difficultés ajoutées, pour les scholies, par l’abondance de manuscrits.</p>
         </div>
-        <div>
+        <div xml:id="r1247337">
           <pb source="https://nakala.fr/10.34847/nkl.ee7f2ko3#55a332ddb66a4dd73a1c9bc4fb1b5694d7cca300" n="150" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee7f2ko3/55a332ddb66a4dd73a1c9bc4fb1b5694d7cca300/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
             <lb/>Le texte de l’édition et les variantes d’Henri Estienne</head>
           <p>Un apparat critique de certains passages de <hi rend="i">V Agamemnon,</hi> des <hi rend="i">Choéphores </hi>et des <hi rend="i">Sept contre Thèbes</hi> et de scholies à ces trois tragédies, suivi d’un commentaire, permet de déterminer certaines préférences de Piero Vettori. Lorsqu’il ne disposait pas du <hi rend="i">Mediceus,</hi> il corrigea beaucoup plus le texte ou suivit des corrections antérieures. Pour le reste, il ne se rangea pas systématiquement aux leçons de ce manuscrit. Il édita en revanche presque toutes ses scholies, mais n’hésita pas à utiliser plusieurs scholies, trouvées dans ses trois manuscrits, pour reconstruire un nouveau commentaire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1247371">
         <head rend="uc">Conclusion</head>
         <p>Cette édition, très attendue avant sa sortie, fut offerte par P. Vettori à ses amis, en particulier ceux qui l’avaient aidé. Elle resta longtemps l’édition de référence, et certaines de ses scholies recréées se retrouvent dans des éditions du <num>xix<hi rend="sup">e</hi></num> siècle, comme celle de Dindorf. Piero Vettori a disposé de documents exceptionnels, découverts par hasard.</p>
         <p>Vettori et Estienne se sont peu exprimés sur le texte d’Eschyle en lui-même, leur perception de sa valeur et de ses particularités. En particulier, le Tragique apparaît très peu dans les commentaires de Vettori à la <hi rend="i">Poétique</hi> d’Aristote, publiés en 1560. Ses <hi rend="i">Variarum lectionum libri,</hi> destinés à expliquer les auteurs latins par les grecs, contiennent quelques remarques et comparaisons sur le vocabulaire d’Eschyle.</p>
         <p>Si l’approche historique a été ici privilégiée aux dépens du commentaire philologique, c’est que l’abondance des sources permet de reconstituer avec précision l’histoire de cette édition (par ailleurs déjà étudiée à plusieurs reprises). Cet Eschyle fut l’œuvre d’un éditeur dont la technique était perfectionnée, démontrant que dans ce domaine, le <num>xvi<hi rend="sup">e</hi></num> siècle italien était loin de la décadence. Piero Vettori fit preuve en particulier d’une méthode rigoureuse et, s’il reçut plus d’aide que ne le croyait son premier biographe, Lionardo Salviati, le résultat des efforts conjugués de Vettori et Estienne fut un beau livre matériellement très réussi. Il est impossible de déterminer la part exacte de chacun dans l’établissement du texte, et c’est avec raison qu’on appelle parfois cet ouvrage l’édition « Vettori-Estienne ». Mais de nombreux amis y participèrent, et cet Eschyle fut, pour reprendre l’ex-libris que Piero Vettori apposait sur ses livres, IIsTpOU ’OUIXTOpiou ϰαὶ Ttùv cpiXcov.</p>
       </div>
-      <div>
+      <div xml:id="r1247407">
         <pb source="https://nakala.fr/10.34847/nkl.ee7f2ko3#7ee18b18bf6856a9dc5a7c88ae1d82d9256e49a8" n="151" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee7f2ko3/7ee18b18bf6856a9dc5a7c88ae1d82d9256e49a8/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Divers extraits d’éditions de Vettori et Estienne, et en particulier de longs passages de leurs lettres au lecteur. – Édition de plusieurs lettres inédites.</p>
       </div>
-      <div>
+      <div xml:id="r1247422">
         <head rend="uc">Annexes</head>
         <p>Liste des éditions de Piero Vettori. – Catalogue des exemplaires consultés de l’édition d’Eschyle, ou d’éditions annotées connues par ailleurs.</p>
         <pb source="https://nakala.fr/10.34847/nkl.ee7f2ko3#9651e6bb35f8f28660e69174972fa30e55f55e33" n="152" facs="https://api.nakala.fr/iiif/10.34847/nkl.ee7f2ko3/9651e6bb35f8f28660e69174972fa30e55f55e33/full/full/0/default.jpg"/>

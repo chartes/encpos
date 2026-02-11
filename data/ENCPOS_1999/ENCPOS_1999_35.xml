@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_35" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_35" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Marguin</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1355335">
         <head rend="uc">Introduction
          <lb/>la vie et l’œuvre de Jean de Garlande</head>
         <p>Divers ouvrages, depuis la fin du <num>xv<hi rend="sup">e</hi></num> siècle, ont cherché à mieux faire connaître la vie et l’œuvre de Jean de Garlande. Les controverses qui portèrent essentiellement, depuis le <num>xvi<hi rend="sup">e</hi></num> siècle, sur le heu de naissance du poète – chacun, Anglais ou Français, le revendiquant tour à tour, et de façon polémique, pour sa nation – n’ont réellement cessé qu’au <num>xix<hi rend="sup">e</hi></num> siècle. A cette date en effet, V. Le Clerc puis B. Hauréau, guidés par les écrits de Tanner au siècle précédent, ont fait la lumière sur l’époque à laquelle il vécut, et ont, par la lecture attentive des poèmes attribués à Jean de Garlande et comportant des éléments d’autobiographie, tenté de reconstituer le cours de son existence et de sa carrière. Hauréau, le premier, adopte une démarche critique dans ses <hi rend="i">Notices</hi> consacrées à l’œuvre de Jean, tentant de faire la part entre les attributions <hi rend="i">de facto</hi> et ce qui se révèle, au vu d’éléments internes aux textes, avoir été écrit sans doute possible par l’auteur de l’Ars <hi rend="i">lectoria.</hi> Il est vrai que l’œuvre contient seule les éléments bibliographiques et biographiques nécessaires à la description de la carrière de l’auteur.</p>
@@ -67,33 +65,33 @@
         <pb source="https://nakala.fr/10.34847/nkl.25a50xi7#e0b20d706ce7868a7bbbc73edd32cd99b87ef1e6" n="286" facs="https://api.nakala.fr/iiif/10.34847/nkl.25a50xi7/e0b20d706ce7868a7bbbc73edd32cd99b87ef1e6/full/full/0/default.jpg"/>
         <p>L’<hi rend="i">Ars lectoria Ecclesie,</hi> traité d’accentuation et de prosodie latine de mille cinq cent cinquante-neuf hexamètres, rédigé en 1234, constitue en ce sens le volet final d’une réflexion sur l’avenir de la langue. C’est aussi le traité de grammaire le plus ambitieux que l’auteur ait conçu, le plus technique en tout cas, et, de fait, celui dont la tradition manuscrite manifeste, par rapport aux autres, le plus grand succès.</p>
       </div>
-      <div>
+      <div xml:id="r1355411">
         <head rend="uc">Sources</head>
         <p>L’<hi rend="i">Ars lectoria Ecclesie</hi> est connue par les manuscrits suivants : British Library, Add. 15832 (A) ; Bruges, Bibl. mun., ms. 546 (B) ; Cambridge, Gonville and Caius College, ms. 385/605 ; Lincoln, Bibl. du chapitre cathédral, ms. 132 (L) ; British Library, Add. 41476 (M) ; Oxford, Bibl. Bodléienne, Rawlinson C 196 (O) ; British Library, Royal A. 15. XXXI (R).</p>
       </div>
-      <div>
+      <div xml:id="r1355425">
         <head rend="uc">Première partie
          <lb/>Étude</head>
-        <div>
+        <div xml:id="r1355433">
           <head rend="uc">Chapitre premier
            <lb/>modes de composition</head>
           <p>L’ambition de l’auteur se manifeste dans le tour particulier qu’il donne à son traité. Il s’agit, comme il l’annonce en introduction, de traiter de la lecture du latin, à l’Eglise, sous le triple rapport de l’accentuation, de l’orthographe et de la construction. Certes, il n’est pas toujours aisé de retrouver, tout au long des vers, le fil de cet exposé, et l’auteur se livre à des digressions qui viennent sans cesse en interrompre le cours. Cependant, il importe de noter le souci d’exhaustivité qui sous-tend l’œuvre, ne serait-ce qu’en signalant les longues listes d’homonymes dont il est émaillé, et pour lesquelles l’adoption de l’hexamètre a l’avantage de mettre en lumière les différences de scansion dans un même vers. Si ces procédés ne sont pas, à proprement parler, nouveaux (l’Ars <hi rend="i">lectoria</hi> d’Aymeric montre à quel point ils étaient courants en milieu scolaire depuis la fin du <num>xi<hi rend="sup">e</hi></num> siècle au moins), le genre « prosodique » atteint, avec l’Ars <hi rend="i">lectoria Ecclesie,</hi> une ampleur considérable. De même, si le travail de compilation répond aux exigences scolaires et à la répartition traditionnelle des sources littéraires et normatives (Priscien et Isidore demeurant les références obligées en matière de construction et de lexique, tandis que l’on puise volontiers les exemples dans le fonds littéraire classique, chez Virgile, Horace, Ovide, Lucain, Juvénal ou Perse), il est aussi le fruit d’une réflexion linguistique approfondie ; surtout si l’on prend en compte, en sus du texte, les références qui se trouvent dans l’abondante glose du manuscrit 546 de Bruges, le témoin le plus ancien de l’Ars <hi rend="i">lectoria Ecclesie.</hi> A ces caractéristiques structurelles s’ajoutent celles du style propre à l’auteur : dans l’introduction comme dans l’épilogue de l’Ars <hi rend="i">lectoria,</hi> Jean confère à l’hexamètre traditionnel des intonations au caractère <pb source="https://nakala.fr/10.34847/nkl.25a50xi7#3c0c8fbff1fde0d620bda310c450824fcc4ad13d" n="287" facs="https://api.nakala.fr/iiif/10.34847/nkl.25a50xi7/3c0c8fbff1fde0d620bda310c450824fcc4ad13d/full/full/0/default.jpg"/>presque épique, au service de l’autoproclamation du poète providentiel qu’il se veut et se croit être, volant au secours d’une langue latine menacée d’abâtardissement par de nouvelles écoles peu soucieuses du respect des formes littéraires classiques.</p>
           <p>L’originalité du texte, qui dépasse donc le cadre strict du manuel de prosodie, tant par son contenu que par sa forme, permet peut-être d’expliquer que sa lecture ait découragé plus d’un pédagogue dans les derniers siècles du Moyen Age. L’étude des manuscrits subsistants, au nombre de huit seulement, montre en effet son succès malgré tout très relatif.</p>
         </div>
-        <div>
+        <div xml:id="r1355475">
           <head rend="uc">Chapitre II
            <lb/>Étude des manuscrits</head>
           <p>Parmi les manuscrits, la plupart sont datables de la seconde moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, et deux ou trois seulement du début du <num>xiv<hi rend="sup">e</hi></num> siècle. D’autre part, des huit témoins conservés, six se trouvent en Angleterre, et ils semblent pour la plupart avoir été copiés sur place. Enfin, l’étude des leçons et des variantes contenues dans les différents manuscrits amène à supposer l’existence de trois familles issues de l’original : la première n’est constituée, quant aux manuscrits encore existants, que du manuscrit B, le plus ancien, et la seconde, du manuscrit C (ces deux manuscrits provenant de l’original en ligne directe) ; la troisième se rattache à un manuscrit disparu copié sur l’original, dont seraient issus A et R en ligne directe, ainsi que deux manuscrits disparus sur lesquels auraient été copiés respectivement M L et E 0. Si l’on admettait de même, conformément à certaines études menées sur le manuscrit d’Oxford, que celui-ci est d’origine néerlandaise, on pourrait supposer que E et 0 sont issus d’un manuscrit ayant circulé en Europe du Nord, et jusqu’en Saxe si l’on part du présupposé que le manuscrit d’Erfurt a été produit sur place.</p>
           <p>En marge, si l’on ose dire, de l’étude de la tradition, apparaît un élément décisif qui permet de faire la lumière sur le mode de circulation du manuel : les gloses, interlinéaires et marginales, dont les permanences et les évolutions au fil des manuscrits amènent à s’interroger sur leur attribution.</p>
         </div>
-        <div>
+        <div xml:id="r1355502">
           <head rend="uc">Chapitre III
            <lb/>Les gloses</head>
           <p>Si la glose scolaire appartient à un genre assez codifié, dont on peut établir une typologie, il faut aussi garder en vue, en étudiant l’Ars <hi rend="i">lectoria,</hi> les exemples de gloses qui se sont révélées être de Jean de Garlande lui-même, soit essentiellement ses gloses au <hi rend="i">Doctrinale</hi> et au <hi rend="i">Graecismus,</hi> ainsi que l’appareil de notes qu’il produisit pour compléter son propre <hi rend="i">Dictionarius.</hi> En effet, outre des éléments internes aux gloses présentes dans le témoin le plus ancien, et le plus glosé, de l’Ars <hi rend="i">lectoria</hi> (le manuscrit de Bruges), qui amènent à supposer une intervention directe de l’auteur en marge du manuscrit d’origine, des éléments de comparaison se sont fait jour entre les gloses de type lexicographique présentes dans le manuscrit B de l’Ars <hi rend="i">lectoria</hi> et celles des manuscrits que l’on dira « garlandiens » du <hi rend="i">Doctrinale, </hi>du <hi rend="i">Graecismus</hi> et du <hi rend="i">Dictionarius</hi> ; il faut donc reconnaître qu’elles sont issues d’un fonds commun, et qui n’est pas, en l’occurrence, à mettre en rapport avec le maté<pb source="https://nakala.fr/10.34847/nkl.25a50xi7#e9e9e71333768a4a921146c1b558ee8527f51cb8" n="288" facs="https://api.nakala.fr/iiif/10.34847/nkl.25a50xi7/e9e9e71333768a4a921146c1b558ee8527f51cb8/full/full/0/default.jpg"/>riel lexicographique préexistant. De plus, en aval, les travaux de T. Hunt, qui ont révélé un corpus de manuels très prisés dans les milieux scolaires anglais du <num>xiii<hi rend="sup">e</hi></num> siècle, ont fourni de nouveaux exemples de ce type de définitions, précisément dans le cas de traités attribués autrefois, et sous réserves, à Jean de Garlande. Il resterait à établir systématiquement, en faisant l’inventaire des manuscrits scolaires du <num>xiii<hi rend="sup">e</hi></num> siècle, un corpus de définitions garlandiennes, qu’elles se trouvent en marge des manuscrits ou dans les textes eux-mêmes. Enfin, et c’est, semble-t-il, le dernier indice permettant de trancher en faveur de l’attribution des gloses de B et d’une partie de celles de C à Jean de Garlande, on remarque dans la glose « énarrative » des deux manuscrits, c’est-à-dire la glose qui développe en marge des idées évoquées dans le texte, des similitudes nombreuses.</p>
           <p>Dans C, dont on admet qu’il est plus récent que B, certains passages sont cependant plus développés que dans B, tout en procédant manifestement d’une même source : la cohérence de ces développements amène à se demander s’il ne s’agit pas d’une nouvelle couche de gloses due également, et dans une seconde phase, à l’auteur. Les variations chronologiques qui semblent ainsi affecter l’histoire des gloses garlandiennes de l’Ars <hi rend="i">lectoria Ecclesie</hi> confinent au paradoxe lorsqu’on trouve cités, dans B, des textes datés par l’auteur lui-même d’après 1240. Dans ces conditions, il faut supposer que, de même que pour le <hi rend="i">Dictionarius</hi>, dont une glose nous apprend que l’auteur a écrit son texte à Paris mais l’a glosé plus tard à Toulouse, donc entre 1229 et 1232, de même Jean de Garlande n’a ajouté ces annotations à l’Ars <hi rend="i">lectoria Ecclesie</hi> après 1240 ; ou bien que les textes qu’il y cite et qu’il date par ailleurs de 1246, comme le <hi rend="i">De mysteriis Ecclesie,</hi> étaient en réalité déjà en partie écrits lors de la rédaction de la glose de l’Ars <hi rend="i">lectoria.</hi> Cette pratique, qui rend presque vaine toute tentative pour fixer la chronologie de l’œuvre, illustre ce qu’l. Rosier nomme, dans le cas de Raoul le Breton, le « recyclage intensif » de ses propres œuvres par un auteur.</p>
           <p>Si l’on considère que Jean avait déjà produit sa glose au <hi rend="i">Dictionarius</hi> lorsqu’il était à Toulouse, et donc dans une situation où il devait faire face à des réalités géolinguistiques complexes, ne parlant pas la même langue que ses étudiants, on pourrait penser, de même, que c’est à l’occasion d’un voyage en Angleterre (indiqué dans la chronologie avancée par Hunt) que fut rédigée cette glose ; d’autant plus qu’elle contient un certain nombre de mentions trilingues, précisément dans un manuscrit (B) qui n’a vraisemblablement pas circulé en Angleterre. La présence de Jean outre-Manche, au début des années 1240, et l’enseignement qu’il y prodigua sans doute ont dû exercer sur les milieux scolaires anglais, probablement plus réceptifs à ses méthodes que les écoles parisiennes, une influence qui expliquerait à la fois 1’« unité de ton », proche de ses préoccupations, que l’on trouve dans le corpus de textes édité par Hunt, et l’influence durable de l’Ars <hi rend="i">lectoria Ecclesie, </hi>encore citée chez Richard de Hambury au début du <num>xv<hi rend="sup">e</hi></num> siècle. La tradition manuscrite ne peut donc rendre seule un compte exact de l’importance de ce traité. Elle ne doit pas plus masquer l’intérêt proprement normatif du texte en ce qui concerne les théories accentuelles.</p>
         </div>
-        <div>
+        <div xml:id="r1355607">
           <pb source="https://nakala.fr/10.34847/nkl.25a50xi7#329b47c0dd8c3613aa884a8c1ff2dd28cb3a07fd" n="289" facs="https://api.nakala.fr/iiif/10.34847/nkl.25a50xi7/329b47c0dd8c3613aa884a8c1ff2dd28cb3a07fd/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/><hi rend="i">Accentus</hi> : terminologie et fondements théoriques
@@ -102,16 +100,16 @@
           <p>Le traité marque en ce sens une étape décisive dans la réflexion sur l’accent. Il semble en effet que ce point de grammaire ait été au cœur des préoccupations des <pb source="https://nakala.fr/10.34847/nkl.25a50xi7#e02df1316169b9588fa9cb05a240da500dddc00b" n="290" facs="https://api.nakala.fr/iiif/10.34847/nkl.25a50xi7/e02df1316169b9588fa9cb05a240da500dddc00b/full/full/0/default.jpg"/>maîtres anglais à la fin du Moyen Age, tout particulièrement en ce qui concerne la formulation d’un accent de hauteur par opposition à l’accent d’intensité. La conscience musicale qui caractérise aujourd’hui encore la langue anglaise, alors que le français ne connaît plus qu’un accent final de type intensif ou « moratoire », a peut-être influencé la conception de Jean de Garlande.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1355692">
         <head rend="uc">Seconde partie
          <lb/>Édition</head>
         <p>L’édition met en relation le texte en hexamètres avec ses gloses (celles de B), en rendant compte de la mise en page du manuscrit, puisqu’il est indispensable que le lecteur moderne puisse lire la page autant que possible dans les mêmes conditions que le lecteur médiéval : les notes interlinéaires, la plupart du temps utiles, voire indispensables, à la compréhension du traité, sont placées à droite du texte, dans une colonne jouxtant celle des vers ; des signes diacritiques ajoutés aux notes indiquent si elles sont à insérer dans le vers pour le comprendre, et si tel ajout interlinéaire, par son mode d’énoncé ou son rapport au texte, doit être attribué avec certitude à l’auteur lui-même ou, au contraire, à une intervention postérieure. Sur la page de gauche figurent les gloses marginales, qu’il s’agisse de notes explicatives et lexicographiques ou de gloses « énarratives ».</p>
       </div>
-      <div>
+      <div xml:id="r1355704">
         <head rend="uc">Conclusion</head>
         <p>La carrière et la production de Jean de Garlande, dans leur dimension exemplaire, l’importance de son œuvre normative, invitent maintenant à faire le point sur l’ensemble de ses théories grammaticales et sur son rôle dans les milieux scolaires de son époque. Outre le texte des manuels, en effet, la glose qui les accompagne constitue, pour le <num>xiii<hi rend="sup">e</hi></num> siècle à tout le moins, comme l’a montré T. Hunt, un témoignage précieux sur les méthodes d’enseignement du latin et de sa grammaire.</p>
       </div>
-      <div>
+      <div xml:id="r1355720">
         <head rend="uc">Annexes</head>
         <p>Traduction de l’Ars <hi rend="i">lectoria Ecclesie,</hi> avec notes d’identification des sources. – Index.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1944_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1944_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,16 +63,16 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r649724">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r649730">
           <head rend="uc">Chapitre premier
            <lb/>Barthélemy l’anglais
            <lb/>et son « de Proprietatibus rerum))</head>
           <p>De l’auteur, <hi rend="i">Barlholomeus Anglicus,</hi> nous savons seulement qu’il fut franciscain et professeur de théologie à Paris, puis en Saxe. Il est certain qu’il écrivit aux environs de 1230. L’œuvre est une des plus anciennes encyclopédies d’histoire naturelle que nous possédions. Elle est divisée en dix-neuf livres, à l’intérieur desquels les articles sont classés par chapitres. Un Prologue explique ce que désire Barthélemy : donner aux frères mineurs un recueil dans lequel ils puiseront des exemples matériels qui les aideront à faire comprendre à leurs auditeurs les vérités spirituelles.</p>
           <p>L’ouvrage connaît tout de suite un grand succès, attesté <pb source="https://nakala.fr/10.34847/nkl.fc7e039j#c085f20c8c4dcf295cbc7633596a72477274359e" n="60" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc7e039j/c085f20c8c4dcf295cbc7633596a72477274359e/full/full/0/default.jpg"/>par le nombre des manuscrits et des éditions, ainsi que par les traductions qui en furent faites. Liste des manuscrits conservés en France. Principales éditions.</p>
         </div>
-        <div>
+        <div xml:id="r649756">
           <head rend="uc">Chapitre II
            <lb/>Les traductions du « de Proprietatibus rerum ».</head>
           <p>Des traductions de l’ouvrage de Barthélemy ont été exécutées dans toute l’Europe occidentale, sauf en Allemagne, où l’on préfère le <hi rend="i">De natura rerum</hi> de Thomas de Cantimpré.</p>
@@ -85,35 +83,35 @@
           <p>Citons encore la traduction espagnole de Vincent de Burgos et deux autres anonymes, l’une en flamand, l’autre en anglo-normand.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r649791">
         <head rend="uc">Deuxième partie</head>
-        <div>
+        <div xml:id="r649797">
           <head rend="uc">Chapitre premier
            <lb/>Jean Corbechon.</head>
           <p>Les seuls documents que nous ayons sur la vie de Jean Corbechon sont un acte pontifical de 1369, la quittance du paiement de sa traduction, en 1372, et les quelques rensei<pb source="https://nakala.fr/10.34847/nkl.fc7e039j#6abe99678d942edb5098cd42135a5da39b54f90c" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc7e039j/6abe99678d942edb5098cd42135a5da39b54f90c/full/full/0/default.jpg"/>gnements que nous livre son ouvrage. Tout ce que l’on en peut déduire est qu’il était Français de la région du Nord, appartenait aux Ermites de Saint-Augustin et résida probablement au couvent des Grands-Augustins de Paris, qu’il fut lecteur à la Faculté de théologie de Paris de 1359 à 1369, qu’il devint maître en théologie et chapelain du roi entre 1369 et 1372, et qu’à cette date il acheva la traduction du <hi rend="i">De Proprietatibus.</hi> Nous ignorons ce qu’il devint par la suite. Il n’est plus chapelain du roi sous Charles VI.</p>
         </div>
-        <div>
+        <div xml:id="r649818">
           <head rend="uc">Chapitre II
            <lb/>Manuscrits du « livre des propriétés des choses ».</head>
           <p>On trouve des manuscrits du <hi rend="i">Livre des propriétés des choses </hi>dans toutes les librairies des grands seigneurs du <num>xv<hi rend="sup">e</hi></num> siècle : ducs de Bourgogne, ducs de Berry, d’Orléans, comte d’Angoulême, etc. Il en existait deux dans celle de Charles V, en 1380. Beaucoup d’entre eux sont parvenus jusqu’à nous. Ils sont pour la plupart fort beaux et richement illustrés et décorés.</p>
           <p>La liste indique que c’est surtout en France, dans les Pays-Bas et en Angleterre qu’ils se répandirent. En effet, l’Italie et l’Espagne, ayant des traductions exécutées dans leur propre langue, n’avaient plus recours au texte français. La traduction que Jean de Trévise avait faite en anglais du <hi rend="i">De Proprietatibus</hi> n’entrava point la diffusion, outre-Manche, de la traduction en français qu’avait exécutée Corbechon.</p>
         </div>
-        <div>
+        <div xml:id="r649847">
           <head rend="uc">Chapitre III
            <lb/>Éditions du « livre des propriétés des choses ».</head>
           <p>La première édition datée paraît chez Matthieu Hutz en 1482. Peut-être y en a-t-il d’antérieures parmi celles qui ne portent pas de date. Elles vont se succéder rapidement à Lyon jusqu’à 1500, se recopiant les unes les autres. Leurs illustrations, inspirées par les miniatures des manuscrits, sont en général peu soignées et se rapprochent de l’imagerie <pb source="https://nakala.fr/10.34847/nkl.fc7e039j#9bca89715656f71c9324f6f38b966564cf7941f1" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc7e039j/9bca89715656f71c9324f6f38b966564cf7941f1/full/full/0/default.jpg"/>populaire. Elles renferment toutes la traduction de Jean Corbechon, revisée par le moine augustin Pierre Farget. Le livre s’intitule maintenant : <hi rend="i">Propriétaire des choses.</hi></p>
           <p>A partir de 1500, c’est à Paris et à Rouen que l’on va éditer ce <hi rend="i">Propriétaire.</hi> La décoration en est beaucoup plus délicate. Ces éditions contiennent, outre le texte revu par P. Farget, une série de petits traités de chimie et de médecine sans lesquels nous ne rencontrerons plus l’ouvrage, ce qui affirme encore le caractère de livre de guérison que prend l’encyclopédie. La dernière édition paraît à Paris en 1556.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r649875">
         <head rend="uc">Troisième partie</head>
-        <div>
+        <div xml:id="r649881">
           <head rend="uc">Chapitre premier
            <lb/>le prologue de Jean Corbechon.</head>
           <p>Jean Corbechon place en tête de son ouvrage un prologue. Celui-ci ne nous apprend rien sur l’auteur lui-même, mais nous indique pourquoi il a entrepris sa traduction : dans ce résumé des connaissances humaines, Charles V puisera le savoir qui est nécessaire à un roi pour diriger son royaume. En fait, Corbechon <hi rend="i">a</hi> exécuté son travail pour les laïcs moins savants que les clercs et ignorant le latin. Désireux de s’instruire, ils trouveront là les quelques notions élémentaires de science qui sont d’un usage quotidien.</p>
           <p>Édition du Prologue.</p>
         </div>
-        <div>
+        <div xml:id="r649900">
           <head rend="uc">Chapitre II
            <lb/>Caractères généraux
            <lb/>du « livre des propriétés des choses ».</head>
@@ -124,22 +122,22 @@
           <p>L’ensemble est traduit sans contresens, dans un style sec, mais clair ; il y a relativement peu de latinismes et le texte se lit avec facilité.</p>
           <p>Ce qui étonne, c’est le manque d’originalité et de curiosité de notre traducteur qui, ayant à sa portée toutes les grandes « Sommes » de la fin du <num>xiii<hi rend="sup">e</hi></num> siècle et du <num>xiv<hi rend="sup">e</hi></num>, n’ajoute pas un nom à la bibliographie donnée par l’Anglais.</p>
         </div>
-        <div>
+        <div xml:id="r649956">
           <head rend="uc">Chapitre III
            <lb/>Étude de la traduction de Jean Corbechon.</head>
           <p>L’étude livre par livre de la traduction de Jean Corbechon, nous donnant un compte précis des modifications, des <pb source="https://nakala.fr/10.34847/nkl.fc7e039j#5750840562de153698d989edfa7c4ec0de85c6b4" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc7e039j/5750840562de153698d989edfa7c4ec0de85c6b4/full/full/0/default.jpg"/>additions et des suppressions qu’il a apportées au texte de Barthélemy, est indispensable pour bien comprendre ce qu’il a voulu faire et quelles méthodes il a employées. Tableau synoptique des livres et des chapitres du texte latin et du texte français.</p>
           <p>Cette étude montre que Corbechon s’est lancé dans sa traduction sans système préétabli. Il s’est efforcé de rendre son texte aussi clair que possible, mais sans rien ajouter de lui-même. Il n’a pas eu l’intention de faire œuvre originale.</p>
         </div>
-        <div>
+        <div xml:id="r649976">
           <head rend="uc">Chapitre IV
            <lb/>Vocabulaire.</head>
           <p>Nous n’avons relevé aucune particularité dialectale, mais seulement la preuve que l’auteur est de la France septentrionale.</p>
           <p>Jean Corbechon a beaucoup lu. Nous trouvons, en effet, sous sa plume de nombreuses expressions qui apparaissent pour la première fois dans des œuvres précédant de peu la sienne, comme celles de Nicole Oresme. 11 utilise volontiers le mot rare, encore peu employé, ce qui donne une allure assez moderne à sa prose. La pauvreté de notre langue du <num>xiv<hi rend="sup">e</hi></num> siècle l’amena aussi, comme les autres traducteurs, à forger des mots français exprimant l’idée précise contenue dans le texte latin. Il le fait avec bonheur. Si certains latinismes ne se rencontrent que dans le <hi rend="i">Livre des propriétés, </hi>un grand nombre d’expressions, encore courantes de nos jours, se trouvent pour la première fois dans son ouvrage. Tous, certes, n’ont pas été inventés par lui ; pourtant, l’étude de son vocabulaire permet de reculer jusqu’à 1372 la date d’apparition de certains mots de la langue française, que l’on croyait plus jeunes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r650002">
         <head rend="uc">Quatrième partie</head>
-        <div>
+        <div xml:id="r650008">
           <pb source="https://nakala.fr/10.34847/nkl.fc7e039j#51596314aedf1aace7389c14b84497c2ec32ec09" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc7e039j/51596314aedf1aace7389c14b84497c2ec32ec09/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>revision du « livre des propriétés des choses »
@@ -148,14 +146,14 @@
           <p>Cette copie est due à Jean de Bihays, maître ès arts, probablement originaire d’Amiens, qui copia pour ce même Nicolas de Blanchecourt <hi rend="i">VInventerium Guidonis.</hi> Il ne s’est pas contenté de reproduire le texte de Corbechon, il a fait quelques additions, presque toutes d’ailleurs au livre XV et au livre XVIII (des bêtes). Au livre XV, Jean de Bihays s’intéresse aux coutumes locales, aux vêtements des différentes provinces de France, au commerce, même à l’industrie (laine des Flandres, rivalité avec la Normandie’). Mais c’est surtout le point de vue juridique qui l’intéresse, et il ne manque pas d’indiquer les particularités de chaque région à cet égard. Au livre XVIII, ce sont des additions d’un caractère pittoresque et vivant, d’ailleurs assez utiles, mais sans valeur scientifique.</p>
           <p>Jean de Bihays est un esprit plus original que Corbechon, qui aurait sans doute, s’il avait retraduit le texte latin, fait une œuvre plus personnelle que le moine augustin.</p>
         </div>
-        <div>
+        <div xml:id="r650037">
           <head rend="uc">Chapitre II
            <lb/>Revision du « livre des propriétés des choses »
            <lb/>par Pierre Farget.</head>
           <p>Pierre Farget, augustin de Lyon, revit, lui aussi, la traduction de Jean Corbechon. De lui non plus nous ne savons rien, si ce n’est que son érudition, ainsi que celle de Julien Machaut, autre augustin, fut célèbre à Lyon à la fin du <num>xv<hi rend="sup">e</hi></num> siècle. On lui doit, entre autres, la traduction du <hi rend="i">Bélial, <pb source="https://nakala.fr/10.34847/nkl.fc7e039j#8189d32b366115dc8e27da085f270291d041099f" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc7e039j/8189d32b366115dc8e27da085f270291d041099f/full/full/0/default.jpg"/></hi>qui parut en 1481 chez M. Hutz, et la révision du <hi rend="i">Livre des propriétés des choses,</hi> imprimé chez le même, en 1482. Son apport est insignifiant. Il a seulement rajeuni le vocabulaire en remplaçant les expressions démodées par celles de la fin du <num>xv<hi rend="sup">e</hi></num> siècle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r650076">
         <head rend="uc">Cinquième partie
          <lb/>Étude de quelques manuscrits à miniatures
          <lb/>de l’œuvre de Jean Corbechon.</head>
@@ -166,7 +164,7 @@
         <p>Bibl. Sainte-Geneviève, 1029. – C’est la traduction provençale du <hi rend="i">Livre des propriétés des choses.</hi> Les illustrations sont d’un caractère nettement catalan et sans aucun rapport avec celles des autres manuscrits. Elles attestent la vigoureuse survivance, dans le Midi, au <num>xiv<hi rend="sup">e</hi></num> siècle, des très anciennes conceptions décoratives locales, telles qu’elles s’étaient établies au temps du Sacramentaire de Gellone. L’enlumineur orne les marges avec la plus grande fantaisie et ne se préoccupe pas du texte, sauf quelques exceptions. Il n’a jamais pris garde qu’il illustrait une encyclopédie.</p>
         <p>Bibl. nat., fr. 1028. – Manuscrit de la fin du <num>xv<hi rend="sup">e</hi></num> siècle renfermant le texte de Corbechon révisé par Pierre Farget. Nous retrouvons là un grand souci du caractère encyclopédique de l’ouvrage.</p>
       </div>
-      <div>
+      <div xml:id="r650142">
         <head rend="uc">Conclusion</head>
         <p>Jean Corbechon a vraiment atteint son but qui était de vulgariser l’œuvre du franciscain, mais c’est en la simplifiant et en supprimant la plupart des passages dans lesquels résidait tout son intérêt. Il demeure une question sur laquelle l’utilité de son intervention n’est pas discutable : celle du vocabulaire.</p>
       </div>

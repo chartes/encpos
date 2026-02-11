@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_27" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1996_27" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,38 +56,38 @@
         <surname>Marchal</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1287216">
         <head rend="uc">Introduction</head>
         <p>Les affaires du dedans du royaume sont confiées au conseil du même nom et au secrétariat d’État de la Maison du roi pendant la première partie de la Régence. Quand le conseil des Affaires du dedans du royaume est constitué, c’est la première fois que la tutelle de l’administration et de la justice des pays d’élections est centralisée dans un conseil. L’étude des affaires rapportées au conseil du Dedans montre qu’un travail considérable a été effectué. Quatre mille six cent deux rapports en constituent les registres de délibérations. Cependant les conflits de compétence avec les conseils des Finances et de Conscience gênent son travail. L’œuvre administrative du conseil du Dedans concerne surtout le gouvernement des provinces et des villes. Il entretient une correspondance suivie avec les intendants et reçoit des requêtes de particuliers comme de cours souveraines, provenant de la France entière. Mais c’est le travail réglementaire réalisé par la direction des ponts et chaussées et celle des haras, dépendantes du conseil, qui doit surtout être souligné.</p>
       </div>
-      <div>
+      <div xml:id="r1287226">
         <head rend="uc">Sources</head>
         <p>Les registres originaux des procès-verbaux et délibérations du conseil des Affaires du dedans du royaume (1715-1718) sont conservés à la Bibliothèque nationale de France (nouv. acq. fr. 23921-23928). Leur étude doit être complétée par celle de la correspondance du conseil, divisée en deux volumes (nouv. acq. fr. 24039 et Archives nationales, MM 1005), et par les mémoires du duc d’Antin (nouv. acq. fr. 23929-23937). La correspondance administrative tenue par l’administration centrale des haras est aussi particulièrement abondante (Archives nationales, F<hi rend="sup">10</hi> 36-39).</p>
       </div>
-      <div>
+      <div xml:id="r1287240">
         <pb source="https://nakala.fr/10.34847/nkl.edf1ql30#098d16ab5fd21092ac5f8d297a13d720c4a33c05" n="226" facs="https://api.nakala.fr/iiif/10.34847/nkl.edf1ql30/098d16ab5fd21092ac5f8d297a13d720c4a33c05/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>La création du conseil</head>
-        <div>
+        <div xml:id="r1287253">
           <head rend="uc">Chapitre premier
            <lb/>l’instauration de la Polysynodie</head>
           <p><hi rend="i">Les théoriciens de la Polysynodie.</hi> – La contestation se répand dans les rangs de la noblesse à la fin du règne de Louis XIV. Le « petit troupeau des saints » autour du duc de Bourgogne prépare le règne de celui qui devrait être le futur souverain. Ils esquissent une monarchie tempérée par une représentation seigneuriale ou corporative de la nation. Ils préconisent plus de morale, plus de place pour l’aristocratie, moins de luxe, moins de courtisanerie, moins de centralisation. En 1711, dans les <hi rend="i">Tables de Chaulnes,</hi> Fénelon invente un système de gouvernement par assemblées, qui préfigure celui par conseils. Saint-Simon défend lui aussi le rôle politique que doit jouer l’aristocratie.</p>
           <p><hi rend="i">L’installation de la Polysynodie.</hi> – Saint-Simon insiste sur le manque de réflexion et de préparation du Régent. Cependant, si on se réfère à la chronologie serrée de la chute des anciens ministres, cette hypothèse paraît inexacte. La Polysynodie est instituée en un mois. Le 2 septembre 1715, lendemain de la mort de Louis XIV, le Régent dans son discours attribue la paternité des conseils au duc de Bourgogne, toujours populaire. Il doit rassembler un parti autour de lui : le Parlement retrouve son droit de remontrances, les bâtards et la vieille cour obtiennent quelques places dans le nouveau gouvernement, l’aristocratie est à l’honneur.</p>
         </div>
-        <div>
+        <div xml:id="r1287278">
           <head rend="uc">Chapitre II
            <lb/>La réflexion de l’abbé de Saint-Pierre sur la Polysynodie</head>
           <p><hi rend="i">La souveraineté de l’État.</hi> – L’abbé de Saint-Pierre apparaît comme un réformateur plus qu’un révolutionnaire. Il écrit une sorte de dissertation sur l’origine de la souveraineté dans un opuscule sur le « ministère général ». Il se montre hostile à la séparation des pouvoirs et propose des conseils pour aider le roi dans sa tâche et le remplacer éventuellement.</p>
           <p><hi rend="i">Le discours sur la Polysynodie.</hi> – En mai 1718, le discours de l’abbé de Saint-Pierre paraît, quelques mois avant la disparition des conseils. Il répond à l’hostilité générale : selon lui, si le système est déplorable, le retour à l’ancienne organisation serait pire. Il soutient un troisième parti : garder les conseils, mais en y apportant toutes les modifications nécessaires pour enrayer les abus. Il propose ainsi d’ajouter deux autres conseils, de Justice et du Commerce en France. Il veut instituer un Conseil général ou Conseil suprême, qui serait le soutien des autres conseils. Mais cette réflexion est tardive. Le Régent, après trois ans d’exercice de la Polysynodie, a réussi à désamorcer les oppositions et fait la démonstration de l’incapacité de l’aristocratie à gouverner. Il peut alors se consacrer à ses projets diplomatiques et financiers, avec Dubois et Law.</p>
         </div>
-        <div>
+        <div xml:id="r1287299">
           <pb source="https://nakala.fr/10.34847/nkl.edf1ql30#b4ee6f9628b988e639dba6c656cb7f503b1f4952" n="227" facs="https://api.nakala.fr/iiif/10.34847/nkl.edf1ql30/b4ee6f9628b988e639dba6c656cb7f503b1f4952/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Le secrétariat d’état de la maison du roi avant 1715</head>
           <p>Avant 1715, le marquis de La Vrillière était chargé des affaires intérieures de quelques provinces et des affaires générales de la religion prétendue réformée. Les contemporains considèrent son département comme réduit à néant depuis 1685, puisque tous les protestants sont censés être devenus de nouveaux convertis. Le secrétariat d’État est supprimé de septembre 1715 à 1718. Mais La Vrillière devient le greffier du conseil de Régence et signe les arrêts en commandement. Il n’intervient pas dans les pays d’états, dont les placets sont étudiés par le conseil du Dedans.</p>
           <p>Les dépêches du secrétariat d’Etat, interrompues de 1707 à 1717, le montrent moins comme le chef des services de la Maison du roi que comme celui qui enregistrait et transmettait les volontés royales, une sorte de ministre de l’Intérieur ou de la Police générale. Ses attributions variées consistaient surtout en des tâches de tutelle, de surveillance et de contrôle des provinces et des administrations. Toutes ces compétences sont attribuées en 1715 au conseil du Dedans.</p>
         </div>
-        <div>
+        <div xml:id="r1287319">
           <head rend="uc">Chapitre IV
            <lb/>L’organisation du conseil du dedans du royaume</head>
           <p>Le conseil du Dedans se réunit deux fois par semaine, les mercredi et samedi, puis les lundi et samedi, au palais du Louvre. Le duc d’Antin, président du conseil, fait son rapport une fois par semaine, le mardi, au conseil de Régence. Le conseil est en fait une assemblée préparatoire au conseil de Régence : les affaires sont d’abord réparties entre les conseillers, qui délibèrent ensuite à la pluralité des voix. Leurs avis sont rapportés au conseil de Régence, puis ils transmettent les décisions finales aux administrations concernées comme aux particuliers.</p>
@@ -97,11 +95,11 @@
           <p>Deux services sont rattachés au conseil : les haras, à l’exception de ceux du roi, et les ponts et chaussées. De 1715 à 1718, un véritable corps des ponts et chaussées est créé. Le marquis de Brancas, nommé directeur des haras, se charge de codifier les règlements antérieurs, regroupés dans le règlement du 22 février 1717. L’organisation qu’il met en place dure jusqu’à la fin de l’Ancien Régime.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1287338">
         <pb source="https://nakala.fr/10.34847/nkl.edf1ql30#d7e697c30db6a27714648e43010c8207818d8f75" n="228" facs="https://api.nakala.fr/iiif/10.34847/nkl.edf1ql30/d7e697c30db6a27714648e43010c8207818d8f75/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Le personnel des affaires du dedans</head>
-        <div>
+        <div xml:id="r1287351">
           <head rend="uc">Chapitre premier
            <lb/>les membres du conseil du dedans du royaume</head>
           <p>Furent membres du conseil : Louis-Antoine de Pardaillan de Gondrin, duc d’Antin ; Jacques-Louis, marquis de Beringhen ; Louis, marquis de Brancas-Céreste ; Jacques-Joseph Vipart, marquis de Silly ; Ambroise Ferrand ; Paul de Fieubet, seigneur de Réveillon : Anne-Charles Goislard ; Guillaume Menguy ; Nicolas-Étienne Roujault ; Daniel de Larroque, secrétaire.</p>
@@ -109,25 +107,25 @@
           <p>Aucun des conseillers appelés en 1715 n’avoue sa roture, la plupart se disent nobles depuis des siècles. Quatre conseillers du conseil du Dedans sont issus de la cour de Louis XIV. Quatre autres appartiennent à la noblesse parlementaire ; ils illustrent l’ascension, lente mais sûre, de familles bourgeoises.</p>
           <p>L’origine de la richesse des familles de la robe est difficile à établir : elle peut reposer sur une charge de finance ou sur les efforts d’économie et les alliances matrimoniales de générations bourgeoises. Parenté et alliance aident à l’élévation ; tous les représentants de la noblesse de robe sont parents entre eux. Cependant le choix du roi reste déterminant dans le choix de ses conseillers. Mais peu importe la façon dont on accède à l’une des hautes charges, ces familles s’intègrent à la haute société nobiliaire.</p>
         </div>
-        <div>
+        <div xml:id="r1287372">
           <head rend="uc">Chapitre II
            <lb/>Le secrétaire d’état de la maison du roi,
            <lb/>Louis IV Phélypeaux, marquis de la Vrillière</head>
           <p>Louis IV Phélypeaux, marquis de La Vrillière, est pourvu de la charge vacante de son père, le marquis de Châteauneuf, le 10 mai 1700, ainsi que de celle de commandeur et secrétaire des ordres du roi, le 18 mai 1700. La Polysynodie, qui veut pourtant abolir l’ancien système, est l’occasion pour lui non seulement de garder ses fonctions, mais aussi de les accroître. En 1715, il conserve son titre de secrétaire d’État et remplace de fait le comte de Maurepas, alors mineur, à la Marine. 11 fait office de greffier au conseil de Régence ; puis, en janvier 1716, il y obtient voix délibérative. Le « détail des états » de la France lui est confié. Après 1718, il est même chargé de la feuille des bénéfices.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1287387">
         <pb source="https://nakala.fr/10.34847/nkl.edf1ql30#8a4fd1b68b595cd69cb20c3ac4d3e18fd783be06" n="229" facs="https://api.nakala.fr/iiif/10.34847/nkl.edf1ql30/8a4fd1b68b595cd69cb20c3ac4d3e18fd783be06/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>L’œuvre administrative du conseil</head>
-        <div>
+        <div xml:id="r1287400">
           <head rend="uc">Chapitre premier
            <lb/>les affaires courantes</head>
           <p><hi rend="i">Écoles, collèges et séminaires.</hi> – Le conseil du Dedans a la haute main sur les écoles, collèges et séminaires : il peut accorder des lettres patentes et autoriser des fondations. Il doit veiller à la discipline et au recrutement des professeurs des collèges et des universités.</p>
           <p><hi rend="i">Anoblissements.</hi> – Le conseil est chargé de la vérification des anoblissements et des cas douteux. C’est le conseiller Roujault qui doit étudier ces requêtes. La majorité des demandes survient à la suite de l’édit d’août 1715, qui supprime les anoblissements par finance. Ces demandes sont renvoyées au bureau des anoblissements, qui pourtant ne doit s’occuper que de la recherche des faux nobles. Elles sont généralement refusées. L’édit d’août 1715 est donc strictement appliqué ; les demandes de prolongation d’anoblissement par finance sont toutes refusées.</p>
           <p><hi rend="i">Lettres de cachet.</hi> – Le conseil doit juger du bien-fondé de l’expédition ou de la révocation des lettres de cachet. Ses réponses laissent paraître son souci de l’ordre et du bien public. Les procédures sont toutefois assez longues. Le conseil exige à chaque fois de nombreux avis avant de décider. Pourtant, dans la moitié des cas, les placets sont envoyés devant le conseil de Régence sans avis du conseil du Dedans.</p>
         </div>
-        <div>
+        <div xml:id="r1287427">
           <head rend="uc">Chapitre II
            <lb/>L’administration des provinces</head>
           <p><hi rend="i">La justice administrative.</hi> – Sous l’Ancien Régime, la spécificité du contentieux administratif se reconnaît dans la nature des questions soulevées, mais en fait aucun organe, aucune procédure n’est indépendante. Les mêmes institutions administrent et jugent les litiges provoqués par cette action. La juridiction administrative est exercée par les intendants au degré inférieur, par le roi en son Conseil au degré supérieur. Le conseil du Dedans du royaume reçoit par exemple des plaintes contre les intendants, alors que ceux-ci sont ses principaux représentants dans les provinces.</p>
@@ -135,7 +133,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.edf1ql30#e3309cea68a76d968a44f814cdfaf6c4e59f5cd0" n="230" facs="https://api.nakala.fr/iiif/10.34847/nkl.edf1ql30/e3309cea68a76d968a44f814cdfaf6c4e59f5cd0/full/full/0/default.jpg"/>
           <p><hi rend="i">L’action du conseil du Dedans du royaume.</hi> – Les compétences du conseil du Dedans sont très variées : maintien de l’ordre public, confirmation des privilèges, surveillance de la conduite des officiers et des magistrats, réception des récriminations contre les impôts.</p>
         </div>
-        <div>
+        <div xml:id="r1287465">
           <head rend="uc">Chapitre III
            <lb/>Les ponts et chaussées</head>
           <p>En 1715, les travaux longtemps suspendus reprennent rapidement. Le service des ponts et chaussées, pour suivre le mouvement, doit s’organiser, améliorer le recrutement de son personnel et définir ses pouvoirs. Des règlements sont pris pour classer les anciennes voies, établir un programme de travail pour les ingénieurs, codifier la police du roulage, régulariser la comptabilité. Administrateurs et techniciens doivent travailler de concert.</p>
@@ -148,7 +146,7 @@
           <p>L’intendant est en fait le chef du service des ponts et chaussées dans sa généralité. Ses pouvoirs et devoirs sont très étendus. 11 correspond directement avec l’intendant des finances chargé des ponts et chaussées. Il lui envoie des rapports sur le personnel et peut lui demander des mutations et des révocations. Il réglemente le service des ingénieurs. Il formule les demandes de crédits et dispose de leur emploi. Il peut grâce à des arrêts du conseil répartir les impositions locales. Il a l’initiative de la proposition des travaux et dirige leur exécution. Il procède aux adjudications. Il réglemente et dirige les corvées. Le rôle des trésoriers des bureaux des finances des provinces devient presque inexistant. Un ingénieur est à présent nommé par le roi, commissionné pour le service des ponts et chaussées et chaque généralité en entier. Il appartient alors à un corps hiérarchique sous les ordres d’un directeur général.</p>
           <p>Le directeur général a donc une influence et une position déclinantes. Malgré le titre de direction générale, le service des ponts et chaussées est dépendant de l’administration financière. Cette direction n’est qu’un rouage qui fait double emploi, facile à supprimer. Quand le conseil du Dedans disparaît, le marquis de Beringhen reste avec le titre de « directeur général des ponts et chaussées, turcies et levées, barrage et pavé de Paris ».</p>
         </div>
-        <div>
+        <div xml:id="r1287529">
           <head rend="uc">Chapitre IV
            <lb/>Les haras</head>
           <p><hi rend="i">Les antécédents.</hi> – Au XVII’ siècle, l’élevage des chevaux est faible, les bêtes sont souvent achetées à l’étranger pour les besoins du commerce et la remonte de la cavalerie. En 1663, Colbert rétablit les haras pour éviter la fuite de capitaux vers 1 étranger, avec un succès médiocre. Ils sont abandonnés à cause des difficultés de trésorerie de la monarchie. A partir de 1700, la caisse des haras est vide, elle est en déficit après 1715. Les dernières guerres du règne de Louis XIV ont achevé la ruine de l’élevage en France : cent millions de pertes sont officiellement avoués.</p>
@@ -168,10 +166,10 @@
           <p><hi rend="i">L’application du règlement de 1717.</hi> – Conséquence de la pénurie réelle ou supposée de chevaux, le règlement des haras du royaume intéresse, au premier chef, les militaires. L’ambition du directeur des haras est de leur fournir la totalité <pb source="https://nakala.fr/10.34847/nkl.edf1ql30#6dcb99cf7d1794de4a8ff9d1a41e169893615f3e" n="234" facs="https://api.nakala.fr/iiif/10.34847/nkl.edf1ql30/6dcb99cf7d1794de4a8ff9d1a41e169893615f3e/full/full/0/default.jpg"/>des chevaux nécessaires, en temps de paix comme en temps de guerre, afin de ne pas être à la merci de l’étranger. Cependant, jusqu’à la fin du gouvernement du marquis de Brancas sur les haras en 1732, la résistance des populations, contre le garde-étalon notamment, semble importante. La manière de penser du marquis de Brancas est partagée par beaucoup d’intendants. Ils ont eux aussi une certaine idée du beau cheval et ignorent souvent les problèmes posés par l’élevage. Ils risquent en conséquence de se heurter aux éleveurs, soucieux de 1 amélioration du cheval du pays, et aux commissaires inspecteurs des haras, qui sont souvent également du pays et restent longtemps en place, qui connaissent donc parfaitement les qualités et défauts des chevaux de leur circonscription, les dangers de la réglementation et des expériences de croisement, et qui refusent de voir baisser la race du pays. L’application du règlement de 1717 a pour conséquence de dresser contre l’administration des haras non seulement la plupart des éleveurs, mais aussi les administrateurs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1287614">
         <head rend="uc">Quatrième partie
          <lb/>Les affaires religieuses</head>
-        <div>
+        <div xml:id="r1287622">
           <head rend="uc">Chapitre premier
            <lb/>les affaires ecclésiastiques</head>
           <p>Le conseil du Dedans du royaume s’occupe d’affaires qui devraient revenir au conseil de Conscience. Il est ainsi chargé d’examiner les candidats aux bénéfices, de régler des questions de discipline, de s’informer sur les demandes de confirmation de privilèges ou de fondation de nouvelles communautés. Il intervient aussi dans les affaires intérieures des établissements religieux et règle même la discipline ecclésiastique.</p>
@@ -181,7 +179,7 @@
           <p><hi rend="i">L’’entretien matériel.</hi> – Le conseil reçoit de nombreux avis signalant des églises ou des couvents en ruine ou en proie à des difficultés financières. 11 doit remédier au manque de ressources des curés et habitants, aux réticences des décimateurs laïcs. Mais toute une partie des placets est renvoyée au conseil des Finances, notamment les demandes de subsides. Cette dernière limitation affaiblit encore une fois le poids des décisions du conseil du Dedans.</p>
           <p>Le conseil utilise donc son réseau d’intendants pour être informé et intervient visiblement dans toutes ces affaires au nom de l’ordre public, et aux dépens du conseil de Conscience. Son souci d’impartialité, certes louable, l’entraîne à prolonger les procédures.</p>
         </div>
-        <div>
+        <div xml:id="r1287666">
           <head rend="uc">Chapitre II
            <lb/>Religionnaires et nouveaux convertis</head>
           <p><hi rend="i">La situation de 1715.</hi> – La déclaration royale du 8 mars 1715 affirme la fin du protestantisme en France ; toute personne surprise à en faire profession est condamnée comme relapse. Les protestants espèrent plus d’indulgence du Régent, mais la mort de Louis XIV ne change rien à cette décision. La déclaration royale du 22 décembre 1715 interdit, dans ses articles 9 et 19. l’exercice de la religion prétendue réformée ; les récalcitrants risquent d’être poursuivis comme hérétiques. Tous les anciens religionnaires sont censés s’être convertis et sont appelés « nouveaux convertis ». Ils ont droit à la protection du roi pour recevoir une instruction religieuse et contre les pressions de ceux qui sont restés fidèles à leur foi.</p>
@@ -190,7 +188,7 @@
           <p><hi rend="i">Surveillance des nouveaux convertis.</hi> – Depuis la révocation de l’édit de Nantes, les protestants restés fidèles à leur foi sont privés de la plupart de leurs droits civils : il leur faut une autorisation pour acquérir ou vendre des biens, pour tester ou changer de résidence. L’administration se montre très réservée pour en accorder. La même suspicion frappe les convertis de fraîche date.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1287697">
         <pb source="https://nakala.fr/10.34847/nkl.edf1ql30#fee4c8e53cd652ddaa7e6e447c70b43d9edbeab9" n="236" facs="https://api.nakala.fr/iiif/10.34847/nkl.edf1ql30/fee4c8e53cd652ddaa7e6e447c70b43d9edbeab9/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>Le manque d’harmonie et de souplesse a sonné le glas de la Polysynodie. Les conseils sont à la fois livrés à eux-mêmes et bridés par le Régent. Le conseil du Dedans est par exemple étroitement contrôlé par celui des Finances. Par ailleurs, il s’empare d’affaires réservées au conseil de Conscience. Le système n’est en fait qu’un compromis avec les anciennes institutions. Le meilleur exemple est la place importante, plus importante que sous le règne précédent, laissée au secrétaire d’État de La Vrillière. Cependant quelques idées reçues sur les conseils polysynodiques doivent être revues. Le conseil du Dedans a travaillé consciencieusement et traité un nombre considérable d’affaires. Il n’a pas été composé de néophytes, mais pour moitié de spécialistes du droit et de l’administration. Par ailleurs, les règlements promulgués pendant cette période sur les ponts et chaussées et les haras ont permis le développement de ces deux administrations pendant le XVIII’ siècle.</p>

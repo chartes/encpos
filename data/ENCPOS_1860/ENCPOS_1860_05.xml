@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1860_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1860_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,61 +56,61 @@
         <forename>Paul</forename>
         <surname>Meyer</surname>
       </byline>
-      <div>
+      <div xml:id="r36099">
         <head rend="uc">Introduction.</head>
-        <div>
+        <div xml:id="r36105">
           <head rend="uc">§ I<hi rend="sup">er</hi>.</head>
           <p>Les différences qui séparent les langues néo-latines du latin sont telles, qu’on ne peut admettre qu’elles en soient dérivées directement ; d’un autre côté, la similitude presque absolue de leur grammaire et de leur vocabulaire suppose une langue commune dont elles ont été les dialectes avant de devenir des idiomes indépendants les uns des autres ; cette langue commune, c’est le latin vulgaire.</p>
         </div>
-        <div>
+        <div xml:id="r36119">
           <head rend="uc">§ II.</head>
           <p>Le caractère tout artistique de la littérature romaine est cause que, dès l’apparition de celle-ci, il a dû se constituer un idiome littéraire. Cependant, la langue parlée, continuant sa marche, est arrivée à différer notablement de ce qu’elle était lorsqu’elle fut fixée plusieurs siècles auparavant ; mais c’est seulement à partir du <pb source="https://nakala.fr/10.34847/nkl.2e477632#b9fffa22f5a915bfcc122d89cf89b37ef14c1185" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.2e477632/b9fffa22f5a915bfcc122d89cf89b37ef14c1185/full/full/0/default.jpg"/><num>v<hi rend="sup">e</hi></num> siècle qu’elle commence à apparaître dans les documents, et qu’on peut par conséquent l’étudier avec quelque certitude.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r36140">
         <head rend="uc">Première partie.
          <lb/>Histoire extérieure.</head>
-        <div>
+        <div xml:id="r36148">
           <head rend="uc">Chapitre I<hi rend="sup">er</hi>.
            <lb/>Témoignages contemporains sur la langue vulgaire
            <lb/>aux temps barbares.</head>
           <p>Les dénominations appliquées à la langue vulgaire sont : <hi rend="i">Lingua vulgaris, simplex, rustica, ruralis, plebeia, usualis, quotidiana,</hi> – <hi rend="i">rustica romana, romana, gallica. </hi>Les premières sont usitées dès le temps de l’Empire, les dernières sont propres au moyen âge. – Transformations successives de l’idée exprimée par l’épithète <hi rend="i">romana. </hi>– <hi rend="i">Lingua gallica</hi> employé pour la première fois au sens de langue vulgaire par Sidoine Apollinaire.</p>
         </div>
-        <div>
+        <div xml:id="r36182">
           <head rend="uc">Chapitre II.
            <lb/>Sources d’une étude sur la langue parlée en Gaule
            <lb/>aux temps barbares.</head>
           <p>La langue vulgaire n’a pu être écrite tant que l’idiome littéraire est resté intelligible à ceux qui savaient lire. – La qualification de <hi rend="i">rustique</hi> que donnent certains auteurs à leurs ouvrages ne doit point être prise à la lettre. Le texte de Grégoire de Tours n’a point été remanié. Ce qu’on peut admettre, c’est que certains ouvrages étaient écrits dans un style simple et par <pb source="https://nakala.fr/10.34847/nkl.2e477632#b65c0cf323fbafb6367d8d47ba53ed615d70c0a0" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.2e477632/b65c0cf323fbafb6367d8d47ba53ed615d70c0a0/full/full/0/default.jpg"/>cela seul à la portée des gens illettrés, les deux idiomes ayant des expressions communes pour la plupart des idées ; d’ailleurs, jusqu’au <num>ix<hi rend="sup">e</hi></num> siècle au moins, le peuple a entendu, et sans doute compris, des sermons en latin. – En dehors des œuvres littéraires, il y a des textes où la langue vulgaire usurpe de temps en temps la place de la langue littéraire : les inscriptions, les chartes et quelques recueils de formules. – L’irruption de la langue vulgaire dans ces documents coïncide naturellement avec l’affaiblissement des études et leur abolition presque absolue à partir du <num>v<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r36217">
           <head rend="uc">Chapitre III.
            <lb/>Usage de ces sources.</head>
           <p>Dans ces documents, le latin vulgaire est mêlé au latin littéraire. Démonstration de cette opinion déjà avancée, mais sans preuve suffisante, par Muratori. 1° La fréquence de ces apparitions varie dans des textes du même temps et du même pays ; preuve qu’elle est proportionnelle à l’ignorance du scribe. 2° Certains rapports sont exprimés dans des cas semblables de deux manières différentes, l’une grammaticale, l’autre non (<hi rend="i">de propinquis meis, de res meas</hi>) ; la première appartient à l’idiome littéraire, l’autre à l’idiome vulgaire. – Pour dégager ce dernier des textes où il est contenu, il faut faire abstraction de tout ce qui est grammatical, le reste appartient à l’idiome vulgaire. – Preuve de l’opération : comparer les formes ainsi obtenues avec celles que nous ont conservées les plus anciens textes en langue vulgaire.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r36234">
         <pb source="https://nakala.fr/10.34847/nkl.2e477632#3142a1f972dcb0879402f5589f4e06b5017ebcec" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.2e477632/3142a1f972dcb0879402f5589f4e06b5017ebcec/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie.
          <lb/>Histoire intérieure.</head>
-        <div>
+        <div xml:id="r36247">
           <head rend="uc">Chapitre I<hi rend="sup">er</hi>.
            <lb/>Des influences étrangères sur la langue vulgaire
            <lb/>des romains.</head>
           <p>Trois systèmes : 1° <hi rend="i">Influence germanique</hi> (Aldete, Muratori, Max-Müller, etc.) : le latin a éprouvé de graves modifications dans sa prononciation, son vocabulaire et sa grammaire, pour avoir été parlé au <num>v<hi rend="sup">e</hi></num> siècle par les Germains établis dans l’Empire, et, ainsi modifié, a donné naissance aux langues néolatines. – 2° <hi rend="i">Influence des langues indigènes</hi> (Fauriel) : substitution de cette influence à celle des langues germaniques. – 3° <hi rend="i">Négation de ces deux influences</hi> (Maffei, Fuchs) : les langues néo-latines sont le développement naturel de la langue vulgaire des Romains. – Le premier système repose sur des données historiques fausses ; le second rend inexplicable la similitude presque absolue, pour la grammaire et le vocabulaire, des dialectes de la France, de l’Espagne et de l’Italie. – Causes de la suppression par le latin des idiomes indigènes. – Leur influence s’est bornée à la prononciation.</p>
         </div>
-        <div>
+        <div xml:id="r36283">
           <head rend="uc">Chapitre II.
            <lb/>Vocabulaire.</head>
           <p>§ 1<hi rend="sup">er</hi>. Élément étranger. Les mots étrangers qui existent dans la langue vulgaire y sont entrés à deux époques : 1° <pb source="https://nakala.fr/10.34847/nkl.2e477632#9dc107ac75fa591b981fc87607ff8c36adda95d2" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.2e477632/9dc107ac75fa591b981fc87607ff8c36adda95d2/full/full/0/default.jpg"/> Du temps de l’Empire, par suite du contact des Romains avec les autres peuples ; 2° au <num>v<hi rend="sup">e</hi></num> siècle, par suite de l’établissement des Germains. – Les mots appartenant à la première classe (grecs, celtes, ibériques, etc.) se retrouvent dans toutes les langues néo-latines.</p>
           <p>§ 2. Élément latin. Certaines idées ont une expression différente dans l’idiome vulgaire et dans l’idiome littéraire. – L’idiome vulgaire fait un usage plus fréquent des formes dérivées qu’il emploie au sens du simple.</p>
         </div>
-        <div>
+        <div xml:id="r36313">
           <head rend="uc">Chapitre III.
            <lb/>Grammaire.</head>
           <p>Le neutre tend à disparaître. – Neutres singuliers devenus masculins, neutres pluriels devenus féminins singuliers. – Déclinaison. Pour les quatre dernières, deux cas se sont conservés, le nominatif et l’accusatif, ce dernier servant pour tous les cas obliques. Pour la première déclinaison, l’accusatif seul s’est conservé. – Différence à cet égard entre la langue vulgaire de la Gaule et les autres langues néo-latines.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r36326">
         <head rend="uc">Conclusion.</head>
         <p>Les différences qui distinguent, dans le vocabulaire et dans la grammaire, les langues néo-latines du latin existent dès le <num>v<hi rend="sup">e</hi></num> siècle, sinon plus tôt, entre l’idiome littéraire et l’idiome vulgaire ; l’emploi des formes ana<pb source="https://nakala.fr/10.34847/nkl.2e477632#161f237bf7f5c14d7af81ebc13120cd3b4e91d92" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.2e477632/161f237bf7f5c14d7af81ebc13120cd3b4e91d92/full/full/0/default.jpg"/>lytiques, fréquent au temps des Romains, va toujours se généralisant. Les langues néo-latines sont le développement individuel du latin vulgaire séparé en plusieurs branches à la chûte de l’Empire. Leur avénement à l’écriture a pour cause l’ignorance générale du latin grammatical. Cette cause n’existant pas en Orient pour le grec ancien, le grec vulgaire n’est pas arrivé à constituer une langue littéraire.</p>
       </div>

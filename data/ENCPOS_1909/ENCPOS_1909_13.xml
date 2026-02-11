@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1909_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1909_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,10 +63,10 @@
          <lb/>cette étude. – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r334339">
         <head rend="uc">Première partie
          <lb/>L’homme</head>
-        <div>
+        <div xml:id="r334347">
           <head rend="uc">Première section
            <lb/>sa vie</head>
           <div>
@@ -112,17 +110,17 @@
             <p>Après douze ans de pontificat, Eudes mourut à Paris, le 13 juillet 1208, et fut enterré à Notre-Dame.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r334465">
           <pb source="https://nakala.fr/10.34847/nkl.9b58r116#81033aafe8cc165939fca01fd07aa3fb5b2e9d0f" n="110" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b58r116/81033aafe8cc165939fca01fd07aa3fb5b2e9d0f/full/full/0/default.jpg"/>
           <head rend="uc">Section II
            <lb/>son caractère</head>
           <p>Eudes se fit remarquer par la pureté de ses mœurs, sa piété, sa grande charité et son amour de l’ordre et de la discipline. Jugement et douceur sont les traits principaux de son caractère.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r334483">
         <head rend="uc">Seconde partie
          <lb/>L’évêque</head>
-        <div>
+        <div xml:id="r334491">
           <head rend="uc">Première section
            <lb/>l’évêque dans son diocèse</head>
           <div>
@@ -152,7 +150,7 @@
             <p>Eudes de Sully ne semble pas avoir beaucoup contribué à la construction de Notre-Dame de Paris, mais il s’efforça de doter cette église de linge d’autel et d’ornements sacerdotaux.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r334576">
           <head rend="uc">Section II
            <lb/>l’évêque hors de son diocèse</head>
           <div>

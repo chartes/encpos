@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1881_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1881_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,10 +58,10 @@
         <surname>Digard</surname>
         <roleName>Licencié ès lettres et en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r108362">
         <head rend="uc">I<hi rend="sup">re</hi> période
          <lb/>les codes barbares</head>
-        <div>
+        <div xml:id="r108374">
           <head rend="uc">I. Gallo-romains.</head>
           <p>I. <hi rend="i">Pouvoirs sur la personne.</hi></p>
           <p>1° Droit d’éducation et de correction.</p>
@@ -74,7 +72,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.09d86mv7#d12f9dc2ba57506bb8d462a07a42674533a1fc53" n="10" facs="https://api.nakala.fr/iiif/10.34847/nkl.09d86mv7/d12f9dc2ba57506bb8d462a07a42674533a1fc53/full/full/0/default.jpg"/>
           <p>Elle ne cesse que par la mort du père ou l’émancipation du fils.</p>
         </div>
-        <div>
+        <div xml:id="r108428">
           <head rend="uc">II. Germaniques.</head>
           <p>I. <hi rend="i">Pouvoirs sur la personne.</hi></p>
           <p>1° Droit d’éducation et de correction. – Pouvoir spécial de juridiction sur certains délits des filles.</p>
@@ -88,17 +86,17 @@
           <p>Causes d’extinction. – 1° Dissolution du mariage des parents ; différences entre le <hi rend="i">mundium</hi> du père et celui d’un tuteur ordinaire. – 2° <hi rend="i">Commendatio.</hi> – 3<hi rend="sup">e</hi> Majorité du fils. – <hi rend="i">Capillatoria.</hi> – Mariage. – Habitation séparée.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r108495">
         <head rend="uc"><num>ii<hi rend="sup">e</hi></num> et <num>iii<hi rend="sup">e</hi></num> périodes
          <lb/>les capitulaires
          <lb/>la période diplomatique</head>
         <p>Les Capitulaires. – Oblation des enfants à la vie religieuse. – Législations carolingienne et canonique. – Les chartes d’oblation à la vie religieuse ne doivent pas être confondues avec les actes de vente ou de donation ; elles <pb source="https://nakala.fr/10.34847/nkl.09d86mv7#3237ee100fc347a1639dcf41a3a434b478f6b3ee" n="11" facs="https://api.nakala.fr/iiif/10.34847/nkl.09d86mv7/3237ee100fc347a1639dcf41a3a434b478f6b3ee/full/full/0/default.jpg"/> ne se rattachent pas à la <hi rend="i">patria potestas</hi> romaine. – Le droit des parents sur le mariage.</p>
         <p>La féodalité. – Donations en servage. – Influence des institutions féodales sur les droits de famille.</p>
       </div>
-      <div>
+      <div xml:id="r108532">
         <head rend="uc"><num>iv<hi rend="sup">e</hi></num> période
          <lb/>le droit coutumier</head>
-        <div>
+        <div xml:id="r108545">
           <head rend="uc">I. Pays de droit coutumier.</head>
           <p>I. <hi rend="i">Pouvoirs sur la personne.</hi></p>
           <p>1° Droit d’éducation. – Dette alimentaire. – Droit respectif du père et de la mère à l’éducation de leurs enfants pendant le mariage, après la séparation de corps, à la dissolution du mariage.</p>
@@ -115,7 +113,7 @@
           <p>Causes d’extinction. – 1° La dissolution du mariage des parents. – Le pouvoir sur la personne subsiste en principe, celui sur les biens change de nature. – Différences entre la garde du père ou de la mère et les autres tutelles.</p>
           <p>2° La majorité du fils. – Lettres d’émancipation. – L’arrivée du terme de la majorité. – Le mariage. – L’habitation séparée. – L’avancement d’hoirie.</p>
         </div>
-        <div>
+        <div xml:id="r108621">
           <head rend="uc">II. Pays de droit écrit.</head>
           <p>I. <hi rend="i">Pouvoirs sur la personne.</hi></p>
           <p>1° Droit d’éducation. – La tutelle de la mère.</p>

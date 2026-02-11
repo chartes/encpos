@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_24" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1975_24" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Richard</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1007782">
         <head rend="uc">Introduction</head>
         <p><hi rend="i">Le genre littéraire des « miracula ».</hi> – Les hagiographes, pour exalter la puissance et la bienveillance qu’ils attribuaient aux saints après leur mort, sont parvenus très tôt à définir le genre littéraire des <hi rend="i">miracula,</hi> bien distinct de celui des <hi rend="i">vitae,</hi> comme de celui des inventions et translations. On attachait tant d’importance aux miracles <hi rend="i">post mortem</hi> que, dès l’apparition de la procédure de canonisation par enquête et procès, vers 1200, les <hi rend="i">miracula</hi> y furent intégrés – et en furent modifiés.</p>
         <p>Parmi tous les textes étudiés, seuls ceux d’Étienne de Fougères, traitant de personnages récents, font apparaître le souci d’en démontrer la sainteté, alors que celle-ci paraît acquise dans tous les autres cas. Mais, même si la puissance d’un saint peut quelquefois, aux yeux de l’hagiographe, avoir besoin d’être confirmée contre certains doutes, il s’agit surtout de montrer la prédilection de ce saint pour tel sanctuaire, avec ou sans l’intermédiaire d’une relique, dont il faudra alors montrer la validité. Ces <hi rend="i">miracula</hi> sont composés à la gloire du sanctuaire plutôt qu’à la gloire du saint : l’une ne se confond pas toujours avec l’autre, et Jean de Coutances insiste bien pour montrer que Notre-Dame réussit mieux dans sa cathédrale que dans celle de Bayeux.</p>
@@ -71,10 +69,10 @@
         <p>C’est à l’occasion de la réunion en 1047 par Guillaume le Bâtard d’un concile de paix à Caen, où sont apportés des corps saints de haute Normandie, que commence une production, ininterrompue pendant un siècle et demi, de récits miraculeux.</p>
         <p>Il faut renoncer à savoir si tel récit est véridique ou non, mais considérer ces textes comme une source privilégiée pour une catégorie d’informations difficilement accessibles en général. D’une part, en effet, nous atteignons le bas de la hiérarchie sociale, jusqu’à la mendicité, d’autre part et surtout nous voyons vivre les gens dans des situations ou des actes dont on ne parle habituellement pas. L’important est qu’un fait relaté ait paru vraisemblable à l’auteur et qu’il ait eu le sentiment, en perpétuant ce qu’il avait reçu d’une tradition, de lui trouver un écho chez ceux qui liraient ou entendraient son récit.</p>
       </div>
-      <div>
+      <div xml:id="r1007879">
         <pb source="https://nakala.fr/10.34847/nkl.d1f1xmwm#75206d2bfaa4c1e6dc5b1617f9d67b1434c4cc1a" n="185" facs="https://api.nakala.fr/iiif/10.34847/nkl.d1f1xmwm/75206d2bfaa4c1e6dc5b1617f9d67b1434c4cc1a/full/full/0/default.jpg"/>
         <head rend="uc">Édition des textes<note><p>Ne sont indiqués ici que les manuscrits les meilleurs ou les plus complets utilisés pour l’édition des différents recueils.</p></note></head>
-        <div>
+        <div xml:id="r1007893">
           <head rend="uc">I. – Du concile de 1047 à la fin du <num>xi<hi rend="sup">e</hi></num> siècle</head>
           <p><hi rend="i">Abbaye Saint-Ouen de Rouen : « miracula » de saint Ouen et de saint Romain.</hi> – On conserve deux recueils de <hi rend="i">miracula</hi> de saint Ouen composés dans son abbaye de Rouen (<hi rend="i">Bibliotheca hagiographica latina</hi> 760-761). Le premier date de 1047 ou peu après, ayant été rédigé à l’occasion du concile de paix réuni à Caen par le duc Guillaume ; il rapporte seize miracles du <num>xi<hi rend="sup">e</hi></num> siècle ; les huit derniers ont eu lieu pendant le voyage du corps saint à Caen et à Rots. L’auteur fait souvent apparaître ses préoccupations sur le thème de la paix.</p>
           <p>Le second recueil fut composé entre 1075 et 1087 ; il contient seize miracles, dont plusieurs sont antérieurs à 1047 ; trois ont eu lieu au prieuré de Condé-sur-Aisne. Les huit derniers se sont produits en Angleterre lors d’un autre voyage du corps saint (en particulier à Colchester et Lincoln) : l’auteur n’y était pas ; il est possible que le même moine ait écrit les deux recueils. La personnalité de l’abbé Nicolas (désigné en 1036 ou 1037, mort en 1092), fils de Richard III, domine ces textes. [Édition d’après Rouen Y 41 et U 64.]</p>
@@ -91,7 +89,7 @@
           <p>Ces miracles n’étaient attribués à aucune relique, mais à une protection spéciale de la Trinité elle-même. Au début du <num>xii<hi rend="sup">e</hi></num> siècle apparaît le Précieux Sang dans trois <hi rend="i">miracula</hi> qui lui sont attribués (<hi rend="i">B.H.L.</hi> 4156 <hi rend="i">c</hi>) et qui ont été composés sous l’abbatiat de Roger (1107-1139). [Édition des quatre recueils d’après Paris, Bibl. nat., lat. 10051.]</p>
           <p><hi rend="i">Abbaye du Mont-Saint-Michel : les « miracula » de saint Michel et de saint Aubert composés au <num>xi<hi rend="sup">e</hi></num> siècle.</hi> – Peu de temps après la conquête de 1066 et vers le début de l’abbatiat de Renouf (1057-1085), on rédigea au Mont un important ensemble historique et hagiographique qui se compose d’un récit sur l’installation des moines en 965-966, de deux inventions et de <hi rend="i">miracula (B.H.L.</hi> 859-860 et 5952) : deux de ceux-ci remontent au temps des chanoines et sept sont de la fin du <num>x<hi rend="sup">e</hi></num> et du courant du <num>xi<hi rend="sup">e</hi></num> siècle, soit en tout neuf miracles de saint Michel répartis en trois recueils, mais parmi lesquels se trouve intercalé un recueil relatif à saint Aubert : l’invention de son chef suivie de deux miracles. [Édition d’après Avranches 211 et 213.]</p>
         </div>
-        <div>
+        <div xml:id="r1008110">
           <pb source="https://nakala.fr/10.34847/nkl.d1f1xmwm#6f638f450a22e8fe6f309f7fae8d1634e60b6d8b" n="187" facs="https://api.nakala.fr/iiif/10.34847/nkl.d1f1xmwm/6f638f450a22e8fe6f309f7fae8d1634e60b6d8b/full/full/0/default.jpg"/>
           <head rend="uc">II. – De Henri I<hi rend="sup">er</hi> à Henri II plantagenet
            <lb/>(1106-1189)</head>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_20" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_20" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -70,23 +68,23 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r486388">
         <head rend="uc">Première partie
          <lb/>Les comtes de Provence de la maison
          <lb/>de Barcelone</head>
-        <div>
+        <div xml:id="r486398">
           <head rend="uc">Chapitre premier
            <lb/>l’industrie et le commerce du sel en Provence
            <lb/>avant la création du monopole</head>
           <p>Le sel est une des richesses de la Provence. Ses premiers habitants, Celtes, Ligures et Massaliotes en tiraient <pb source="https://nakala.fr/10.34847/nkl.95aek394#5705a59fdc46273ad6a3e4f512d35ed36adf7e64" n="204" facs="https://api.nakala.fr/iiif/10.34847/nkl.95aek394/5705a59fdc46273ad6a3e4f512d35ed36adf7e64/full/full/0/default.jpg"/> parti. Au <num>xi<hi rend="sup">e</hi></num> siècle, à la veille de la création du monopole, le commerce saunier provençal, vieux de quinze siècles, présentait une image fidèle de ce qu’il avait été avant l’avènement de la féodalité. Les salines, de, Fos, Berre et Hyères étaient activement exploitées par les « fachiers » des seigneurs ou par de petits alleutiers. Aucune trace d’industrie saunière en Camargue. Le sel de Fos était transporté dans la vallée du Rhône par le fleuve (<hi rend="i">montatio salis) </hi>ou, à travers les Alpilles et le Venaissin, par de vieux chemins sauniers antérieurs aux voies romaines. Les péages permettent de jalonner l’itinéraire du sel de Berre dans le pays d’Aix et les vallées des Alpes. Aucun renseignement sur les débouchés du sel d’Hyères dont le nom signifie marais salants.</p>
         </div>
-        <div>
+        <div xml:id="r486427">
           <head rend="uc">Chapitre second
            <lb/>la saunerie du Rhône</head>
           <p>Au milieu du <num>xii<hi rend="sup">e</hi></num> siècle, les comtes de Provence, cadets de la maison de Barcelone, avaient comme beaucoup de seigneurs du Midi leur monopole du sel : c’était la « salnaria » de Tarascon. Analogue aux « salins » de ces seigneurs, la <hi rend="i">salnaria</hi> était à la fois un grenier à l’usage des sujets du comte et une taxe qui frappait le sel d’exportation (<hi rend="i">consuetudo salnarie</hi>). L’Eglise, les seigneurs et les communes lui étant hostiles, les comtes de Provence se firent concéder par Frédéric Barberousse (1262) les droits régaliens sur les salines.</p>
           <p>Alfonse I créa une autre <hi rend="i">salnaria</hi> à Arles (1194). Pendant la minorité de Raymond Bérenger V, les communes d’Arles et de Tarascon s’approprièrent les sauneries comtales. Raymond Bérenger reprit celle de Tarascon (1221), la transféra aux Saintes-Maries <pb source="https://nakala.fr/10.34847/nkl.95aek394#ccc1b9c2c8be2766f2f8a9ca962f1f21b7a13316" n="205" facs="https://api.nakala.fr/iiif/10.34847/nkl.95aek394/ccc1b9c2c8be2766f2f8a9ca962f1f21b7a13316/full/full/0/default.jpg"/>de la Mer et s’empara de la saunerie d’Arles avec la ville (1239).</p>
         </div>
-        <div>
+        <div xml:id="r486465">
           <head rend="uc">Chapitre troisième
            <lb/>les salins des Alpes et les gabelles du littoral</head>
           <p>Les comtes créèrent un salin à Digne (1177) et un autre à Valensolle (avant 1246) sur le modèle de la <hi rend="i">salnaria.</hi></p>
@@ -94,7 +92,7 @@
           <p>Raymond Bérenger V créa ou acquit toutes les gabelles du sel provençales Fréjus, Grasse, Antibes, Nice, etc.</p>
           <p>En 1239, la saunerie d’Arles fut appelée « gabella salis » et dès lors les mots de gabelle du sel désigneront indistinctement le monopole comme la douane du sel</p>
         </div>
-        <div>
+        <div xml:id="r486495">
           <head rend="uc">Chapitre quatrieme
            <lb/>les gabelles d’Albaron et d’Hyères.
            <lb/>Conclusion sur le monopole du sel au temps des
@@ -103,12 +101,12 @@
           <p>Impôt de consommation sur une denrée de première nécessité et affranchi des liens de la coutume, l’impôt du sel était de tous le plus productif et le plus maniable. Les comtes catalans avouèrent par deux fois qu’ils ne pouvaient se passer des revenus de leur <hi rend="i">salnaria.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r486523">
         <head rend="uc">Deuxieme partie
          <lb/>Charles d’Anjou
          <lb/>et ses deux successeurs immediats
          <lb/>Charles II et Robert</head>
-        <div>
+        <div xml:id="r486535">
           <head rend="uc">Chapitre premier
            <lb/>conflits avec les rois de France au sujet
            <lb/>de la gabelle du Rhône. Société de 1301</head>
@@ -116,26 +114,26 @@
           <pb source="https://nakala.fr/10.34847/nkl.95aek394#31f8d6e9cf8dcc21673dbd344b476301199dff15" n="207" facs="https://api.nakala.fr/iiif/10.34847/nkl.95aek394/31f8d6e9cf8dcc21673dbd344b476301199dff15/full/full/0/default.jpg"/>
           <p>Mais Philippe le Bel ayant acquis la saline de Peccais près d’Aigues-Mortes (1291) put proposer à Charles II d’Anjou qui accepta (1301) de conclure à eux deux une société pour le transport à parts égales du sel de Peccais et du sel de Camargue par le Rhône vers les « hauts pays » (la vallée du Rhône d’Avignon à Lyon). L’antique saunerie du Rhône avait vécu.</p>
         </div>
-        <div>
+        <div xml:id="r486557">
           <head rend="uc">Chapitre second
            <lb/>les contrats de 1259</head>
           <p>Le 23 juillet et le 11 août 1259, Charles d’Anjou, par trois contrats, avec Guillaume de Berre et ses hommes, avec les saliniers de Toulon, avec les saliniers d’Hyères, s’assura tous les ans le monopole du sel dans les salines de Berre, Istres, Vitrolles, Hyères et Toulon. Appelé lui aussi gabelle du sel, ce monopole par droit d’achat s’unit aux salins et sauneries d’origine seigneuriale pour former ce qu’on peut appeler après 1259 la gabelle du sel des comtes de Provence.</p>
           <p>Charles I<hi rend="sup">er</hi> réglementa l’exportation du sel de l’église d’Arles à Fos, il acquit la source salée de Castellane. En 1262, toutes les salines de Provence dépendaient de lui. Le troubadour Bertrand de Lamanon dépouillé de ses droits, s’en plaignit dans un sirvente.</p>
         </div>
-        <div>
+        <div xml:id="r486576">
           <head rend="uc">Chapitre troisième
            <lb/>l’organisation des gabelles, la traite du sel</head>
           <p>Comme les Catalans, Charles d’Anjou distingua le trafic intérieur du trafic extérieur. Le premier, à la <pb source="https://nakala.fr/10.34847/nkl.95aek394#05d0a17b8a1dc454fa63baa83e646513d9c976b4" n="208" facs="https://api.nakala.fr/iiif/10.34847/nkl.95aek394/05d0a17b8a1dc454fa63baa83e646513d9c976b4/full/full/0/default.jpg"/>charge de l’Etat, se fit par les gabelles. Des gabelles principales, Berre, Hyères-Toulon, postées près des salines, dépendaient des gabelles secondaires, d’une part, Aix, Digne et Valensolle, de l’autre, Fréjus, Grasse et Nice.</p>
           <p>La gabelle de Nice alimentait le Piémont et une partie de la Lombardie. La revente du sel à l’habitant se faisait par des détaillants, colporteurs, marins, pêcheurs et commerçants. Il leur était défendu de vendre du sel en gros ou de vendre du sel de contrebande.</p>
           <p>Comme les gabelles du Rhône, la gabelle d’Hyères-Toulon se livrait aussi au trafic d’exportation. Le comte s’y contentant d’une quantité de sel donnée, nécessaire à la fourniture des gabelles, le surplus pouvait être vendu à l’étranger, en particulier aux Gênois par les saliniers ou le gabelier. Si la vente avait lieu dans les salines, l’acheteur étranger payait divers droits de « gabellage ».</p>
         </div>
-        <div>
+        <div xml:id="r486599">
           <head rend="uc">Chapitre quatrième
            <lb/>l’administration des gabelles</head>
           <p>Dans le but de tirer du sel provençal le maximum des revenus qu’il pouvait donner, Charles d’Anjou remplaça les fermages de Raymond Bérenger V par une régie des gabelles. Cette régie fut surveillée de très près par Raymond Scriptor et Alain de Luzarches qui, de 1265 à 1277, exercèrent en Provence les pouvoirs financiers des « maîtres rationaux » de l’administration sicilienne.</p>
           <p>A partir de 1300, les rationaux et maîtres rationaux de la Chambre des Comptes d’Aix, créés par Charles II, rétablirent le régime des fermages tant pour <pb source="https://nakala.fr/10.34847/nkl.95aek394#3af807e528f2ebfc26f2a29efb9f6980ce0615d5" n="209" facs="https://api.nakala.fr/iiif/10.34847/nkl.95aek394/3af807e528f2ebfc26f2a29efb9f6980ce0615d5/full/full/0/default.jpg"/> les gabelles que pour beaucoup d’autres revenus royaux. Les maîtres rationaux furent au XIV<hi rend="sup">e </hi>siècle les administrateurs des gabelles : ils vérifiaient et jugeaient les comptes des fermiers, tendaient à attirer à eux toutes les causes des gabelles et se tenaient au courant de toutes les affaires du sel par des enquêtes habilement dirigées.</p>
         </div>
-        <div>
+        <div xml:id="r486623">
           <head rend="uc">Chapitre cinquième
            <lb/>les revenus des gabelles</head>
           <p>Les revenus de la régie des gabelles de Charles d’Anjou se chiffrèrent dans l’année 1263-1264 à plus de dix mille livres, presque autant que tous les autres revenus du comté réunis, bien qu’on eût assigné cette année-là, sur la caisse des gabelles, les frais de l’armement de plusieurs « galées » destinées au siège de Marseille. Les gabelles principales qui revendaient le sel moins cher que les secondaires et ne supportaient pas de frais de transport donnèrent les plus grosses recettes.</p>
@@ -143,7 +141,7 @@
           <p>Charles II et Robert accablés par le faix de leurs guerres continuelles contre les Aragonais et les Gi<pb source="https://nakala.fr/10.34847/nkl.95aek394#d3015700c332860e72997a65e8dbae1dad0b712b" n="210" facs="https://api.nakala.fr/iiif/10.34847/nkl.95aek394/d3015700c332860e72997a65e8dbae1dad0b712b/full/full/0/default.jpg"/>belins multiplièrent à tel point les assignations sur les revenus des fermes des gabelles que ces revenus furent la plupart du temps totalement dépensés à l’avance.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r486647">
         <head rend="uc">Conclusion
          <lb/>les origines de la gabelle des rois de France</head>
         <p>Héritiers des seigneurs languedociens, les rois saint Louis et Philippe le Bel avaient continué à faire exploiter leurs salins en particulier celui de Carcassonne. Mais c’est sur la vue de l’œuvre des comtes de Provence que Philippe de Valois dut se décider à créer la gabelle du sel des rois de France en étendant à tout son royaume un monopole du sel que connaissaient seuls ses états de Languedoc. La gabelle française fut calquée en Languedoc sur l’organisation des gabelles provençales. Les greniers situés près des salines qui servaient de magasin de vente pour les habitants des environs et de bureau d’octroi pour les marchands qui transportaient le sel des salines dans les greniers de l’intérieur correspondaient aux gabelles principales du système provençal.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1971_19" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1971_19" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,32 +54,32 @@
         <forename>Anne</forename>
         <surname>Mouradian-Ségaud</surname>
       </byline>
-      <div>
+      <div xml:id="r944246">
         <head rend="uc">Sources</head>
         <p>Les sources utilisées proviennent essentiellement du fonds des colonies conservé aux Archives nationales. Les séries C<hi rend="sup">2</hi> et D<hi rend="sup">2A</hi> se sont révélées les plus riches. Des renseignements utiles ont également été tirés des registres paroissiaux conservés aux Archives du Ministère de la France d’Outre-mer. En outre, comme une grande partie des archives de l’Inde française conservées à Pondichéry ont été publiées, il a été tiré largement parti de ces publications dans cette étude.</p>
       </div>
-      <div>
+      <div xml:id="r944264">
         <head rend="uc">Introduction</head>
         <p>Lorsque Colbert envoya, en 1670, l’escadre de La Haye croiser dans les mers de l’Inde, il songeait à fonder des établissements à Ceylan et dans l’Insulinde. Le hasard en décida autrement. Le refus du roi de Golconde de ravitailler sa flotte entraîna La Haye à s’emparer de San-Thomé, sur la côte de Coromandel. Les négociations entreprises par Bellanger de Lespinay auprès du gouverneur de la province de Carnate afin d’obtenir des vivres pour San-Thomé, où les Français étaient assiégés par les Mores, aboutirent à la cession du petit village de Pondichéry. Lespinay s’y installa le 4 février 1673.</p>
         <p>L’Inde française fut gérée jusqu’en 1773 par les deux premières Compagnies des Indes. Les caractères particuliers de la colonisation à Pondichéry pendant cette période font l’objet de ce travail.</p>
       </div>
-      <div>
+      <div xml:id="r944277">
         <pb source="https://nakala.fr/10.34847/nkl.9a55t21c#7a03d3918c0d1b8f0a1116db87bfc8053eaf6daf" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.9a55t21c/7a03d3918c0d1b8f0a1116db87bfc8053eaf6daf/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Pondichéry, ville coloniale sur la côte
          <lb/>de Coromandel</head>
-        <div>
+        <div xml:id="r944292">
           <head rend="uc">Chapitre premier
            <lb/>le cadre naturel</head>
           <p>Pondichéry est situé à l’extrémité maritime de la pénéplaine du Carnate, sur un sol à la fois sablonneux et marécageux. Il n’y avait pas de port et les navires mouillaient à une demi-lieue de la terre. L’arrière-pays était cultivé grâce à une irrigation déjà savante. Des défrichements eurent lieu à la fin du <num>xvii<hi rend="sup">e</hi></num> siècle, pendant le règne du Mahrate Sivagi, mais des forêts naturelles subsistaient encore, qui n’existent plus aujourd’hui. La production de riz était insuffisante à la consommation de Pondichéry, surtout lors des années de sécheresse. Ces dernières ne furent pas rares au <num>xviii<hi rend="sup">e</hi></num> siècle ; il en avait en moyenne une tous les quatre ans.</p>
         </div>
-        <div>
+        <div xml:id="r944316">
           <head rend="uc">Chapitre II
            <lb/>La population : nombre et stabilité</head>
           <p>Il n’existe malheureusement pas de recensement de l’ensemble de la population de Pondichéry avant 1777. Les informations recueillies dans les mémoires des contemporains ou dans les lettres du Conseil supérieur à la Compagnie donnent une idée sommaire de l’accroissement de cette population, qui quadrupla entre 1706 et 1750. Elle dépassa probablement 100.000 habitants sous Dupleix.</p>
           <p>Presqu’uniquement composée d’indigènes, elle apparaît comme extrêmement mobile et sujette à des mouvements de grande envergure ; guerres locales et disettes provoquaient des flux et des reflux importants.</p>
         </div>
-        <div>
+        <div xml:id="r944331">
           <head rend="uc">Chapitre III
            <lb/>Les indigènes</head>
           <p>Le marché du travail créé par l’activité commerciale de la Compagnie et l’installation d’une petite colonie européenne, attira, dès la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, plusieurs milliers d’indigènes.</p>
@@ -91,7 +89,7 @@
           <p>Les marchands qui traitaient avec la Compagnie étaient groupés en une seule société. Le Conseil chercha toujours à attirer les capitaux indigènes à Pondichéry, mais sans succès, car Madras les drainait tous.</p>
           <p>Les indigènes eurent indirectement leur part des richesses immenses que la politique de Dupleix procura à Pondichéry.</p>
         </div>
-        <div>
+        <div xml:id="r944369">
           <head rend="uc">Chapitre IV
            <lb/>Les esclaves</head>
           <p>Quand les Français arrivèrent dans l’Inde, l’esclavage était une institution largement répandue, tant chez les indigènes que chez les Européens.</p>
@@ -99,23 +97,23 @@
           <p>L’obligation faite aux chrétiens de faire baptiser leurs esclaves était mal respectée. Les mauvais traitements n’étaient pas rares et le Conseil dut les interdire sous peine de confiscation.</p>
           <p>Le Conseil envoyait chaque année un contingent d’esclaves aux Mascareignes. En 1741, le commerce des îles fut déclaré libre et des particuliers s’enrichirent grâce à la traite.</p>
         </div>
-        <div>
+        <div xml:id="r944390">
           <head rend="uc">Chapitre V
            <lb/>Les étrangers et les métis</head>
           <p>Les métis portugais ou « Topas » étaient deux fois plus nombreux que les Français à Pondichéry. C’était des descendants des premiers Portugais venus dans l’Inde au <hi rend="i"><num>xvi<hi rend="sup">e</hi></num></hi> siècle qui avaient épousé des femmes du pays. Ils constituaient un groupe ethnique eurasien, de religion catholique, vivant en marge <pb source="https://nakala.fr/10.34847/nkl.9a55t21c#29f1755858baaf92a24f5eafe9367bf99c2ecc08" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.9a55t21c/29f1755858baaf92a24f5eafe9367bf99c2ecc08/full/full/0/default.jpg"/>du système des castes. Ils s’assimilèrent à la société française par le biais des mariages, mais restèrent dans une situation économique inférieure. La plupart étaient soldats dans la garnison, où ils ne pouvaient dépasser le grade de caporal. Ils étaient exclus des emplois de plume, bien qu’en théorie ils pussent accéder au grade de commis.</p>
           <p>Les étrangers étaient pour la plupart des soldats. Les marchands étaient peu nombreux ; c’étaient surtout des Portugais et des Arméniens.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r944419">
         <head rend="uc">Deuxième partie
          <lb/>La colonisation française</head>
-        <div>
+        <div xml:id="r944427">
           <head rend="uc">Chapitre premier
            <lb/>les français : nombre et qualité</head>
           <p>Le monopole de la Compagnie, en limitant et en réglementant les initiatives personnelles, freina considérablement le développement de la colonisation. Jusqu’en 1773, les employés de la Compagnie, civils ou militaires, constituèrent l’essentiel de la population française. Les soldats en composaient la majeure partie. Le nombre des Français, de quatre cents qu’il était en 1715 passa à douze cents en 1741. Il atteignit peut être trois mille personnes entre 1757 et 1760, mais l’arrivée en masse des troupes du roi était seule responsable de cette inflation ; ils n’étaient plus que huit cent quatre-vingts vers 1770.</p>
           <p>Cependant en 1722, les particuliers ayant reçu l’autorisation de passer à frêt des matières d’argent et de faire du commerce d’Inde en Inde, quelques négociants français vinrent s’installer à Pondichéry. Ils furent suivis, entre 1730 et 1750, par des artisans et commerçants qui travaillèrent pour leurs compatriotes en vendant ou en fabricant des objets de luxe. Vers 1750, ils formaient, avec les anciens soldats et employés de la Compagnie établis à leur compte, un petit groupe de Français financièrement indépendants de la Compagnie. Mais la chute de Pondichéry en 1761 interrompit brutalement ce début de colonisation.</p>
         </div>
-        <div>
+        <div xml:id="r944442">
           <head rend="uc">Chapitre II
            <lb/>Les employés de commerce</head>
           <p>Les employés de commerce étaient répartis en quatre catégories. On distinguait les marchands, les sous-marchands, les commis et les sous-commis. Les marchands étaient conseillers au Conseil supérieur et recevaient à ce titre des lettres de provision du roi.</p>
@@ -123,33 +121,33 @@
           <p>Le nombre des employés de commerce augmenta considérablement tout au long de la période étudiée. Ils étaient cinquante-huit à Pondichéry en 1755, alors qu’ils n’étaient que neuf en 1709. Ils restèrent aussi nombreux après 1765 et on en comptait soixante-treize en 1770.</p>
           <p>Quelques-uns restaient dans l’Inde, mais beaucoup rentraient en Europe avant d’avoir terminé leur carrière.</p>
         </div>
-        <div>
+        <div xml:id="r944468">
           <head rend="uc">Chapitre III
            <lb/>Nombre et composition des troupes passées dans l’Inde</head>
           <p>La déclaration royale d’août 1664 qui fondait la Compagnie des Indes accordait à celle-ci le droit de lever des soldats pour entretenir les garnisons de ses concessions. Cet entretien constituait une lourde charge pour la Compagnie. En dehors même du recrutement de la garnison de Pondichéry, pour lequel elle envoyait chaque année entre vingt et trente hommes, les guerres soutenues dans l’Inde, et surtout celles entreprises par Dupleix, l’obligèrent à d’énormes levées ; elle passa à plus de cinq mille hommes à Pondichéry entre 1748 et 1754.</p>
         </div>
-        <div>
+        <div xml:id="r944480">
           <head rend="uc">Chapitre IV
            <lb/>Le recrutement des troupes</head>
           <p>La Compagnie ne recrutait pas directement pour ses établissements, mais pour une compagnie d’infanterie établie en 1721 à Lorient pour la garde de l’arsenal ; c’est de là qu’elle tirait les détachements envoyés dans les garnisons des ses colonies.</p>
           <p>L’examen des registres d’engagement de cette compagnie montre l’importance du recrutement breton et parisien, alors que le Midi et le Sud-Ouest ne fournissent pratiquement pas de recrues. Les recrues bretonnes, parmi lesquelles on compte de nombreux tisserands, étaient le plus souvent analphabètes et provenaient des couches sociales les moins aisées.</p>
           <p>En période de guerre dans l’Inde, le recrutement pouvait prendre des aspects particuliers : en 1753, la Compagnie envoya à Pondichéry des troupes d’élite allemandes levées par Ficher. Mais, afin d’augmenter le nombre des troupes, elle pouvait aussi recruter dans les maisons de force, et en particulier à Bicêtre.</p>
         </div>
-        <div>
+        <div xml:id="r944498">
           <pb source="https://nakala.fr/10.34847/nkl.9a55t21c#8b738bfafb59109a94626ec0303607a4a5789a57" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.9a55t21c/8b738bfafb59109a94626ec0303607a4a5789a57/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>La vie militaire et les retours à la vie civile</head>
           <p>Désertion, débauche et alcoolisme étaient les principales plaies dont souffrait la garnison. On vit cependant certains soldats se marier et chercher à améliorer leurs conditions de vie et leur situation sociale en s’installant comme artisans après avoir obtenu leur congé. Aux termes de la déclaration de 1664, ils devenaient automatiquement maîtres dans leur art au bout de huit ans d’exercice. D’autres, plus instruits, obtenaient des emplois dans les services commerciaux. En 1757, ils étaint une soixantaine à être retournés ainsi à la vie civile.</p>
           <p>Les invalides finissaient par devenir très nombreux. En 1731, le Conseil décida de les retirer du service. On forma plus tard une compagnie d’invalides, qui fut transférée à l’île de France en 1772.</p>
         </div>
-        <div>
+        <div xml:id="r944518">
           <head rend="uc">Chapitre VI
            <lb/>Les religieux</head>
           <p>Capucins, Jésuites et Pères des Missions étrangères cohabitaient à Pondichéry. La cure des Français, Créoles et Topas était confiée aux Capucins, celle des indigènes chrétiens aux Jésuites. Les Capucins étaient très peu nombreux : il y en avait trois en 1740. Ils étaient appointés par la Compagnie. Les Jésuites, plus fortunés, acquirent des terrains aux environs de Pondichéry, où ils fondèrent des églises ou des chapelles. Les relations entre les deux ordres furent parfois tendues.</p>
           <p>Le prosélytisme envahissant des Jésuites fut d’abord préjudiciable à la Compagnie mais, à partir de 1720, ils se consacrèrent à l’évangélisation dans les terres et surtout dans le village d’Ariancoupon, où ils avaient une maison et une église.</p>
           <p>En septembre 1738, arrivèrent six Ursulines de Vannes qui venaient fonder une maison d’éducation pour les jeunes filles, selon le vœu des habitants de Pondichéry. Leur installation fut un échec et elles repartirent en 1741.</p>
         </div>
-        <div>
+        <div xml:id="r944536">
           <head rend="uc">Chapitre VII
            <lb/>Mariages, naissances et décès</head>
           <p>Peu nombreuses furent les jeunes filles françaises qui vinrent à Pondichéry rejoindre un fiancé. On en compte moins d’une par an en moyenne entre 1699 et 1760.</p>
@@ -158,7 +156,7 @@
           <p>L’augmentation des naissances est parallèle à celle des mariages. Le sous-enregistrement de la mortalité infantile et juvénile empêche d’en déterminer le taux, qui était probablement élevé.</p>
           <p>La mortalité était très forte, mais une grande partie des décédés étaient des matelots débarqués malades des vaisseaux, qui mouraient sur place.</p>
         </div>
-        <div>
+        <div xml:id="r944565">
           <head rend="uc">Chapitre VIII
            <lb/>Les conditions de vie</head>
           <p>La plupart des garçons nés à Pondichéry étaient envoyés en France pour achever leur éducation et apprendre un métier. L’analphabétisme était très grand chez les filles, qui restaient dans l’Inde en attendant de se marier. Certains fils de soldats obtenaient des emplois de plume à la Compagnie, mais on les cantonait sévèrement dans des emplois subalternes. La promotion sociale était plus facile pour les filles ; un tiers des filles de soldats ou de sous-officiers mariées entre 1740 et 1750 épousèrent des employés de commerce ou des officiers.</p>
@@ -166,11 +164,11 @@
           <p>La politique de Dupleix attira à Pondichéry des richesses dont tous profitèrent. Employés, officiers, soldats et habitants s’enrichirent rapidement, mais ce ne fut pas pour longtemps. En effet, le siège de Pondichéry et le séjour forcé des Français dans les comptoirs danois et hollandais les ruinèrent complètement.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r944584">
         <head rend="uc">Conclusion</head>
         <p>On ne peut pas véritablement parler de colonisation française à Pondichéry pendant la régie des deux premières Compagnies des Indes. La presque totalité des habitants français n’est composée que des familles des employés de la Compagnie et des soldats de la garnison. La population française ne se maintient et n’augmente que grâce à l’accroissement du nombre des employés <pb source="https://nakala.fr/10.34847/nkl.9a55t21c#ef3835f879c91f5ff75205441c1c0af6974a9829" n="136" facs="https://api.nakala.fr/iiif/10.34847/nkl.9a55t21c/ef3835f879c91f5ff75205441c1c0af6974a9829/full/full/0/default.jpg"/>et des troupes. L’embryon de colonisation qui s’ébauche entre 1750 et 1760, grâce à la formation d’un groupe d’artisans et de négociants établis à titre particulier, est brusquement stoppé dans son développement par la perte provisoire de Pondichéry en 1761.</p>
       </div>
-      <div>
+      <div xml:id="r944599">
         <head rend="uc">Pièce justificative</head>
         <p>État des employés de la Compagnie en 1750 (Colonie, C<hi rend="sup">2</hi> 284).</p>
       </div>

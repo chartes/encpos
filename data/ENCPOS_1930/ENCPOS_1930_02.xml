@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1930_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,22 +55,22 @@
         <forename>André</forename>
         <surname>Berthier</surname>
       </byline>
-      <div>
+      <div xml:id="r489238">
         <head rend="uc">Premiere partie
          <lb/>Raymond Martin et son milieu</head>
-        <div>
+        <div xml:id="r489246">
           <head rend="uc">Chapitre premier
            <lb/>introduction à la biographie de Raymond Martin</head>
           <p>Une documentation très fragmentaire ne permet pas de donner beaucoup de détails sur la vie de Raymond Martin. Il est cependant possible de noter les principales étapes de sa carrière. Entré dans l’Ordre de St Dominique vers 1235, il fut successivement élève, puis professeur dans les écoles de langues orientales d’Espagne et il s’occupa activement d’apostolat parmi les Sarrazins et surtout les Juifs.</p>
         </div>
-        <div>
+        <div xml:id="r489258">
           <head rend="uc">Chapitre II
            <lb/>Raymond Martin et les écoles de langues orientales.</head>
           <p>L’activité littéraire de Raymond Martin tire son originalité de sa science des langues orientales.</p>
           <pb source="https://nakala.fr/10.34847/nkl.60bf2c1q#a3de6db02f82fb15c4de551754020306ce9b602d" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.60bf2c1q/a3de6db02f82fb15c4de551754020306ce9b602d/full/full/0/default.jpg"/>
           <p>Les Dominicains avaient de bonne heure organisé des centres d’étude et d’enseignement des langues orientales. Mais nulle part, au <num>xiii<hi rend="sup">e</hi></num> siècle, les <hi rend="i">studia arabica</hi> et <hi rend="i">hebraica</hi> ne fonctionnèrent avec plus de succès qu’en Espagne, sous l’intelligente et énergique impulsion de saint Raymond de Peñafort. Il y eut des écoles fondées à Tunis, Murcie, Valence, Barcelone, Jativa. C’est là que Raymond Martin s’instruisit. Il fut d’abord élève au <hi rend="i">studium arabicum</hi> de Tunis, puis il fut nommé en 1281, professeur au <hi rend="i">studium he</hi><hi rend="i">braicum</hi> de Barcelone. Il est la gloire de ces <hi rend="i">studia. </hi>On peut reconstituer avec une certaine probabilité, ce que fut son enseignement à Barcelone. L’étude de ses œuvres fournit d’ailleurs les meilleures indications permettant d’éclairer les méthodes et les travaux de ces écoles de langues orientales.</p>
         </div>
-        <div>
+        <div xml:id="r489307">
           <head rend="uc">Chapitre III
            <lb/>Raymond Martin et les controverses publiques
            <lb/>avec les juifs.</head>
@@ -82,22 +80,22 @@
           <p>Le document qui peint le mieux ces controverses publiques est le procès-verbal de la rencontre du rabbin Mosse avec frère Pablo Cristiani. L’argumentation du frère Pablo fait pressentir celle que Raymond Martin développera plus tard dans le <hi rend="i">Capistrum Judæorum.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r489340">
         <head rend="uc">Deuxieme partie
          <lb/>Le « Capistrum Judæorum »</head>
-        <div>
+        <div xml:id="r489348">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits.</head>
           <p>Le <hi rend="i">Capistrum Judæorum</hi> était considéré comme perdu. Or, il en existe deux manuscrits, l’un appartenant à la Bibliothèque Nationale, l’autre à la Bibliothèque Universitaire de Bologne. Un troisième manuscrit, intitulé <hi rend="i">Capistrum Judæorum,</hi> se trouve à la Bibliothèque Mazarine. Mais, en dépit de la similitude du titre, son plan, nettement différent de celui des deux manuscrits précédents, en fait un ouvrage à part.</p>
         </div>
-        <div>
+        <div xml:id="r489368">
           <head rend="uc">Chapitre II
            <lb/>Authenticité du texte et date.</head>
           <p>Les deux manuscrits de Bologne et de Paris sont sans nom d’auteur. C’est pourtant bien l’œuvre de Raymond Martin. En effet, le <hi rend="i">Pugio Fidei</hi> cite en plusieurs passages le <hi rend="i">Capistrum Judæorum</hi> et y renvoie. Ces citations correspondent bien au texte des manuscrits de Paris et et de Bologne.</p>
           <pb source="https://nakala.fr/10.34847/nkl.60bf2c1q#2535f0a51c949b8ec26483e5fc8d29f5ac6519f0" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.60bf2c1q/2535f0a51c949b8ec26483e5fc8d29f5ac6519f0/full/full/0/default.jpg"/>
           <p>La date de composition (1267) du <hi rend="i">Capistrum Judæo</hi><hi rend="i">rum</hi> se trouve explicitement indiquée dans un passage de cette œuvre : « Notandum autem quod Judei computant ab initio mundi usque nunc et est hodie ab Incarnatione Domini annus MCCLXVII, annos VMXXVII ».</p>
         </div>
-        <div>
+        <div xml:id="r489403">
           <head rend="uc">Chapitre III
            <lb/>Objet, méthode et plan.</head>
           <p>Raymond Martin se propose de réunir les textes de l’Ancien Testament susceptibles de prouver la venue du Messie.</p>
@@ -106,7 +104,7 @@
           <p>L’œuvre est divisée en sept arguments prouvant que le Messie est déjà venu et en sept objections des Juifs assurant que le Messie n’est pas encore venu.</p>
           <p>Science de l’hébreu, expérience de la mentalité juive, clarté et vigueur dans l’argumentation, voilà <pb source="https://nakala.fr/10.34847/nkl.60bf2c1q#0f72ce27192182b65769d1c8e80194058e6f6af9" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.60bf2c1q/0f72ce27192182b65769d1c8e80194058e6f6af9/full/full/0/default.jpg"/>les qualités qui donnent leur relief aux discussions du <hi rend="i">Capistrum Judæorum.</hi></p>
         </div>
-        <div>
+        <div xml:id="r489447">
           <head rend="uc">Chapitre IV
            <lb/>Rapports du « Capistrum Judæorum » avec
            <lb/>l’« Explanatio symboli Apostolorum » et le
@@ -123,7 +121,7 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r489527">
         <head rend="uc">Pièce justificative</head>
         <p>Transcription d’une partie du <hi rend="i">Capistrum Judæo</hi><hi rend="i">rum</hi> d’après le manuscrit 3643 du fonds latin de la Bibliothèque Nationale.</p>
       </div>

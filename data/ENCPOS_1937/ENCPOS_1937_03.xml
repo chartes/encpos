@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1937_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1937_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -68,16 +66,16 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r574343">
         <head rend="uc">Première partie
          <lb/>Étude de topographie historique</head>
-        <div>
+        <div xml:id="r574351">
           <head rend="uc">Chapitre premier
            <lb/>les Origines.</head>
           <p>Le bourg Saint-Marcel est né sous une double influence, celle de la route et celle du sanctuaire. La route est l’ancienne voie romaine de Paris à Lyon qui, après avoir quitté Paris à la hauteur de l’abbaye de Sainte-Geneviève, suivait la rue Descartes, la rue Mouffetard, franchissait la Bièvre en face de la rue du Fer-à-Moulin, puis longeait l’avenue des Gobelins, <pb source="https://nakala.fr/10.34847/nkl.d83a3813#809772c6b918a310f18170e0c4bb24839128d0df" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.d83a3813/809772c6b918a310f18170e0c4bb24839128d0df/full/full/0/default.jpg"/>l’avenue de Choisy, pour gagner, de là, Melun, Autun et Lyon.</p>
           <p>En bordure de cette route, dans les carrières de pierre exploitées dès l’époque romaine, au voisinage de la Bièvre, les premiers chrétiens de la capitale trouvèrent des refuges pour célébrer leur culte. Un oratoire – l’<hi rend="i">ecclesia senior</hi> dont parle Grégoire de Tours – y fut élevé, pour les besoins de cette première communauté de fidèles. Peut-être est-ce dans cet oratoire, dédié à saint Clément, que saint Marcel, évêque de Paris, fut enterré vers 436. Le bourg Saint-Marcel, devenu, de ce fait, centre de pèlerinage, va s’accroître rapidement et constituera, dès le <num>vi<hi rend="sup">e</hi></num> siècle, une agglomération importante.</p>
         </div>
-        <div>
+        <div xml:id="r574381">
           <head rend="uc">Chapitre II
            <lb/>Le bourg Saint-Marcel
            <lb/>séjour d’été pour les nobles
@@ -87,17 +85,17 @@
           <p>Au delà de l’enceinte, un vaste faubourg s’étendait jusqu’à la Seine et jusqu’aux villages voisins : Ivry, Vitry, Villejuif et Gentilly.</p>
           <p>Saint-Marcel formait une ville distincte de la capitale. Son indépendance fut officiellement reconnue en 1296.</p>
         </div>
-        <div>
+        <div xml:id="r574459">
           <head rend="uc">Chapitre III
            <lb/>Le bourg Saint-Marcel
            <lb/>et la guerre de cent ans.</head>
           <p>L’extension du bourg au <num>xiv<hi rend="sup">e</hi></num> siècle fut brusquement arrêtée par la guerre de Cent ans. Incendié en 1360 par ordre du régent, il fut ensuite sans cesse occupé ou ravagé soit par les Anglais, soit par les Bourguignons ou les Armagnacs, au moment de la guerre civile. Les ruines causées par la lutte furent nombreuses. Dès avant la fin de la guerre, les chanoines de Saint-Marcel, d’une part, la royauté, de l’autre, entreprirent une œuvre de relèvement qui <pb source="https://nakala.fr/10.34847/nkl.d83a3813#cf30b738900caea2c9770271655051e8b92fd3bf" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.d83a3813/cf30b738900caea2c9770271655051e8b92fd3bf/full/full/0/default.jpg"/>n’obtint son plein effet qu’après le rétablissement de la paix.</p>
         </div>
-        <div>
+        <div xml:id="r574484">
           <head rend="uc">Conclusion de la première partie</head>
           <p>Rien que le sanctuaire dédié plus tard en l’honneur de saint Marcel ait été à l’origine du bourg, il n’a exercé aucune influence sur la constitution du plan de ce dernier. Deux éléments ont agi : la route romaine de Paris à Lyon et la Bièvre.</p>
         </div>
-        <div>
+        <div xml:id="r574494">
           <head rend="uc">Appendice I
            <lb/>la Bièvre.</head>
           <p>La Bièvre prend naissance à quatre kilomètres au sud-ouest de Versailles et se jette dans la Seine non loin du pont d’Austerlitz. Cette embouchure a, du reste, subi plusieurs modifications au Moyen Age.</p>
@@ -107,7 +105,7 @@
           <p>Servant d’égout aux riverains, elle dut subir des curages à plusieurs reprises.</p>
           <p>Presque toujours à sec, elle grossissait considérablement au moment de la fonte des neiges : les inondations prirent, parfois, un caractère tragique.</p>
         </div>
-        <div>
+        <div xml:id="r574527">
           <pb source="https://nakala.fr/10.34847/nkl.d83a3813#1fa1ed87b6080a1675230b6232fb2486afd42c52" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.d83a3813/1fa1ed87b6080a1675230b6232fb2486afd42c52/full/full/0/default.jpg"/>
           <head rend="uc">Appendice II
            <lb/>deux hôtels princiers du bourg Saint-Marcel :
@@ -117,12 +115,12 @@
           <p>L’hôtel d’Orléans, ou « petit séjour d’Orléans », appartint successivement à Miles de Dormans, évêque de Beauvais, à Jean, duc de Berry, qui en fit don à la reine Isabeau de Bavière en 1388. Celle-ci l’échangea, deux ans plus tard, pour le Val de la Reine, propriété du duc Louis d’Orléans. Après l’assassinat de ce dernier, l’hôtel passa dans la maison d’Anjou-Sicile. Au <num>xvii<hi rend="sup">e</hi></num> siècle, il fut transformé en hôpital.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r574564">
         <head rend="uc">Deuxième partie
          <lb/>Histoire économique et sociale
          <lb/>du bourg Saint-Marcel
          <lb/>antérieurement au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r574582">
           <head rend="uc">Chapitre premier
            <lb/>les droits des seigneurs du bourg.</head>
           <p>Les chanoines de Saint-Marcel et les religieux de <pb source="https://nakala.fr/10.34847/nkl.d83a3813#a8832284038d9c1712d067d26dcde163eb4141ac" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.d83a3813/a8832284038d9c1712d067d26dcde163eb4141ac/full/full/0/default.jpg"/>Sainte-Geneviève, seigneurs haut justiciers chacun dans une portion du bourg Saint-Marcel, jouissaient d’un certain nombre de droits :</p>
@@ -134,7 +132,7 @@
           <p><hi rend="i">f</hi>) Un droit dit de barrage consistant en une taxe levée sur les voyageurs, marchands et marchandises traversant le bourg. Ce droit servait à la réfection des chemins.</p>
           <p><hi rend="i">g</hi>) Les droits de forage, rouage et autres menus droits.</p>
         </div>
-        <div>
+        <div xml:id="r574650">
           <head rend="uc">Chapitre II
            <lb/>La justice.</head>
           <p>Le fonctionnement n’en est bien connu que pour le <num>xv<hi rend="sup">e</hi></num> siècle. Rendue d’abord par la communauté des chanoines, elle fut ensuite confiée à un bailli. La création de cet office se place entre les années 1284 et <pb source="https://nakala.fr/10.34847/nkl.d83a3813#5890712847bf4bbff029b449368ad586b62b13ed" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.d83a3813/5890712847bf4bbff029b449368ad586b62b13ed/full/full/0/default.jpg"/>1296. Le rôle de bailli fut, au début, rempli par les membres du chapitre, puis, à partir du <num>xv<hi rend="sup">e</hi></num> siècle, par un légiste professionnel.</p>
@@ -146,7 +144,7 @@
           <p>La compétence du tribunal est très vaste. [1 juge non seulement les procès, mais reçoit aussi les contrats.</p>
           <p>La juridiction gracieuse est aux mains d’un greffier-tabellion.</p>
         </div>
-        <div>
+        <div xml:id="r574718">
           <head rend="uc">Chapitre III
            <lb/>Conditions des personnes et des biens.</head>
           <div>
@@ -164,7 +162,7 @@
             <p>Les constitutions de rente apparaissent dans les toutes premières années de ce même siècle.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r574776">
           <head rend="uc">Chapitre IV
            <lb/>La vie économique.</head>
           <p>Saint-Marcel fut, jusqu’au <num>xiii<hi rend="sup">e</hi></num> siècle, un bourg essentiellement agricole. La principale culture est celle de la vigne, qui réussissait surtout le long de la Bièvre. Les vins de Saint-Marcel semblent avoir eu une certaine renommée. On trouvait également au bourg des oseraies, qui fournissaient un osier rond et <pb source="https://nakala.fr/10.34847/nkl.d83a3813#2032a16a74934903b2020514fb0d3a490665b5ba" n="33" facs="https://api.nakala.fr/iiif/10.34847/nkl.d83a3813/2032a16a74934903b2020514fb0d3a490665b5ba/full/full/0/default.jpg"/> rouge de première qualité, et de nombreuses carrières.</p>
@@ -178,7 +176,7 @@
           <p>La seconde boucherie existait en 1468 ; la troisième fut créée le 31 mars 1488 (n. st.) : c’est la boucherie « jurée ». Ces deux dernières étaient soumises à l’autorité du chapitre de Saint-Marcel.</p>
           <p>Les industries textiles s’étaient installées au bord de la Bièvre, au voisinage de l’église Saint-Hippolyte. La préparation des étoffes comportait différentes phases ; la teinturerie a rendu célèbre deux familles de Saint-Marcel : les Gobelin et les Canaye.</p>
         </div>
-        <div>
+        <div xml:id="r574852">
           <head rend="uc">Chapitre V
            <lb/>La vie religieuse.</head>
           <div>
@@ -202,17 +200,17 @@
             <p>Au <num>xv<hi rend="sup">e</hi></num> siècle, l’un et l’autre paraissent être en complète décadence.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r574951">
           <head rend="uc">Conclusion de la deuxième partie</head>
           <p>Les chanoines de Saint-Marcel et les religieux de Sainte-Geneviève exercent au bourg Saint-Marcel tous les droits des seigneurs haut justiciers.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r574962">
         <pb source="https://nakala.fr/10.34847/nkl.d83a3813#9210f366819c2e864503c462ea2afba08c2949b1" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.d83a3813/9210f366819c2e864503c462ea2afba08c2949b1/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion générale</head>
         <p>L’indépendance du bourg s’affirme dans tous les domaines.</p>
       </div>
-      <div>
+      <div xml:id="r574977">
         <head rend="uc">Appendice I
          <lb/>les Gobelin et les Canaye
          <lb/>teinturiers en « escarlate »

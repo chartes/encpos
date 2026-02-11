@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1864_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1864_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <forename>Henry</forename>
         <surname>Lemonnier</surname>
       </byline>
-      <div>
+      <div xml:id="r49653">
         <head rend="uc">Introduction.</head>
         <p>Ce travail sera divisé en deux parties : dans la première, j’étudierai la loi elle-même, et j’examinerai les diverses controverses auxquelles elle a donné lieu ; dans la seconde, je verrai quels renseignements elle peut fournir sur l’état des Gallo-Romains au sixième siècle, et l’organisation judiciaire et administrative au sud de la Gaule.</p>
         <p>Pour mieux comprendre le caractère de la loi et de la domination des Visigoths, il n’est pas inutile d’exposer, en peu de mots, l’histoire de leur établissement en Gaule et de leurs rapports avec les Romains pendant tout le cinquième siècle.</p>
@@ -72,7 +70,7 @@
         <p>La tendance générale de l’époque, et surtout des Barbares, à diviser et à multiplier les juridictions ;</p>
         <p>Enfin, les lois romaines donnaient au souverain un pouvoir que les Visigoths n’auraient jamais reconnu, et il comprit que promulguer la loi romaine, en son nom, c’était prendre de droit possession du pays qu’il n’avait jusqu’alors possédé que de fait.</p>
       </div>
-      <div>
+      <div xml:id="r49698">
         <head rend="uc">Première partie.</head>
         <p>Caractère général de la loi romaine des Visigoths. Examen de quelques points controversés. Par qui et comment a-t-elle été composée ? Le recueil que nous possédons est-il complet ? Les arguments qui tendent à prouver le contraire sont plus spécieux que sérieux.</p>
         <p>Méthode particulière adoptée par les rédacteurs pour l’exposition de l’ouvrage de Gains : quelle en est la raison ? On est réduit sur ce point à des conjectures, mais la comparaison de l’ouvrage de Gains avec celui de Paul et l’examen de ce dernier permettent d’affirmer que le texte des sentences de Paul a dû être respecté par les interprètes.</p>
@@ -80,11 +78,11 @@
         <p>La <hi rend="i">Lex romana Visigothorum</hi> est une loi toute romaine, et qui n’a pas subi l’influence du droit des Visigoths. Il n’est pas un passage qui puisse venir à l’appui de l’opinion contraire.</p>
         <p>Résumé : Malgré quelques imperfections, ce code est un document d’une haute importance, et les notions qu’il fournit, surtout sur le droit public, méritent d’être étudiées sérieusement.</p>
       </div>
-      <div>
+      <div xml:id="r49724">
         <pb source="https://nakala.fr/10.34847/nkl.85909081#a5ab0ad2ad71d8c7ede37853577966a330d467a9" n="45" facs="https://api.nakala.fr/iiif/10.34847/nkl.85909081/a5ab0ad2ad71d8c7ede37853577966a330d467a9/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie.
          <lb/><hi rend="i">Organisation administrative et judiciaire des romains.</hi></head>
-        <div>
+        <div xml:id="r49739">
           <head rend="uc">Chapitre I<hi rend="sup">er</hi>.</head>
           <p>Au sixième siècle, comme sous l’Empire, l’unité administrative et judiciaire, c’est la province, et son organisation présente encore de nombreuses traces de l’ancienne organisation romaine.</p>
           <p>La <hi rend="i">Lex romana</hi> place à la tète de la province un magistrat qu’elle nomme <hi rend="i">judex ou rector provinciæ.</hi> Ce <hi rend="i">judex</hi> n’est-il autre qu’un comte goth, ou existait-il concurremment avec lui ? Ce qui semble au moins résulter d’un grand nombre de passages de la loi, c’est qu’il était assujetti pour l’administration à toutes les prescriptions de la loi romaine.</p>
@@ -93,7 +91,7 @@
           <p>Fonctions administratives du <hi rend="i">rector provinciæ.</hi></p>
           <p>La Province se subdivise en <hi rend="i">civitates</hi> : la capitale est la <hi rend="i">civitas metropolitana ;</hi> au-dessous des <hi rend="i">civitates</hi> sont les <hi rend="i">loca,</hi> réunissant, sous une seule dénomination, plusieurs espèces de localités.</p>
         </div>
-        <div>
+        <div xml:id="r49815">
           <head rend="uc">Chapitre II.</head>
           <p>Quel est dans la loi romaine la signification du mot <hi rend="i">civilas ? </hi>Il semble désigner non pas seulement la ville proprement dite, mais le chef-lieu d’une circonscription territoriale administrative.</p>
           <p>L’organisation municipale subsiste entièrement, et l’élection apparaît fréquemment pour toutes les charges et dignités de la cité.</p>
@@ -112,7 +110,7 @@
           <p>Juridiction spéciale du commandant militaire ; il en est peu question dans la loi romaine.</p>
           <p>Juridiction spéciale des évêques établie à côté de la juridiction civile et attirant à elle les procès des clercs, quelquefois même des laïques.</p>
         </div>
-        <div>
+        <div xml:id="r49907">
           <head rend="uc">Chapitre III.
            <lb/><hi rend="i">État des personnes.</hi></head>
           <p>Ingénus ; nobles, soldats, clercs, etc.</p>

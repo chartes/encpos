@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1997_40" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1997_40" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,33 +56,33 @@
         <surname>Tédaldi-Da Lage</surname>
         <roleName>diplômée d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1314010">
         <head rend="uc">Introduction</head>
         <p><hi rend="i">Géographie.</hi> – L’étude de la géographie de la vallée de la Somme permet de comprendre le rôle stratégique qu’elle a pu jouer au cours des siècles et les possibilités économiques qu’elle offrait à ses riverains. Deux zones très différentes mais complémentaires forment la basse Somme : le cours du fleuve entre Amiens et Abbeville et l’embouchure autour de Saint-Valery-sur-Somme, débouché commercial essentiel.</p>
         <p><hi rend="i">Origines.</hi> – Ce sont les occupations successives (préhistoriques, celte, romaine) qui ont déterminé la place qu’occupe la vallée de la Somme tant du point de vue politique que du point de vue économique aux siècles suivants : des premiers siècles de son histoire datent en effet son peuplement dense et l’intégration de la vallée dans deux ensembles politiques différents.</p>
       </div>
-      <div>
+      <div xml:id="r1314029">
         <head rend="uc">Sources</head>
         <p>Même si les documents concernant la vallée de la Somme peuvent apparaître dispersés dans de nombreux fonds (essentiellement aux archives départementales de la Somme, aux Archives nationales et à la Bibliothèque nationale de France), quatre sources principales fournissent en réalité la plupart de la matière documentaire : il s’agit des actes émanant des comtes de Ponthieu, du cartulaire, exceptionnel, de la seigneurie de Picquigny, ainsi que des fonds des abbayes Saint-Jean d’Amiens et du Gard, installées sur les rives du fleuve. L’étude du commerce de la vallée requiert par ailleurs, pour une part, le recours à des sources anglaises.</p>
       </div>
-      <div>
+      <div xml:id="r1314039">
         <pb source="https://nakala.fr/10.34847/nkl.fc2412kb#fcba1bb48c8e678b55236cee574f4cd362adf83f" n="300" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc2412kb/fcba1bb48c8e678b55236cee574f4cd362adf83f/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>L’installation des hommes le long de la vallée</head>
-        <div>
+        <div xml:id="r1314052">
           <head rend="uc">Chapitre premier
            <lb/>l’autorité publique en Picardie du <num>xi<hi rend="sup">e</hi></num> au XIII’ siècle</head>
           <p><hi rend="i">Ponthieu et Amiénois : deux destinées différentes.</hi> – Les troubles du <num>viii<hi rend="sup">e</hi></num> au <num>x<hi rend="sup">e</hi></num> siècle accentuent encore le clivage entre la partie occidentale de la vallée, tournée vers la mer, et sa partie orientale centrée sur Amiens. Deux ensembles politiques sont alors identifiables : le comté de Ponthieu, à l’ouest, caractérisé par une autorité comtale affirmée jusqu’au XIII’ siècle, et l’Amiénois à l’est, déchiré dès le <num>ix<hi rend="sup">e</hi></num> siècle entre des puissances rivales el très tôt soumis à un morcellement de l’autorité publique qui a provoqué l’apparition de nombreuses seigneuries, plus affirmées qu’en Ponthieu.</p>
           <p><hi rend="i">Le morcellement de l’autorité publique : les seigneuries du bord de la Somme.</hi> – La seigneurie de Picquigny est la plus puissante et la plus représentative de ce phénomène de dévolution de l’autorité. S’appuyant sur le titre de vidante qu’ils portent depuis le <num>xi<hi rend="sup">e</hi></num> siècle, les seigneurs de Picquigny, installés sur un promontoire dominant la Somme, ont en effet étendu leurs possessions le long du fleuve et de ses affluents tout au long des XII’ et XIII’ siècles, sans pour autant négliger les richesses offertes par les terres des plateaux. A la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, ils étendent leur domination sur une soixantaine de vassaux, dont un grand nombre sont installés sur les bords du fleuve.</p>
           <p>En Ponthieu, l’autorité des comtes ne permet pas le développement de seigneuries aussi affirmées que dans l’Amiénois et la reconstitution des lignages s’y montre beaucoup plus difficile.</p>
         </div>
-        <div>
+        <div xml:id="r1314112">
           <head rend="uc">Chapitre II
            <lb/>Le mouvement communal en Picardie
            <lb/>et la naissance des communautés d’habitants</head>
           <p>La Picardie est une des premières régions à avoir été touchées par le mouvement communal, particularité qui se retrouve dans la vallée de la Somme où de nombreuses communes, essentiellement rurales, naissent au <num>xii<hi rend="sup">e</hi></num> siècle. Elles ont pour l’essentiel adopté comme modèle la charte d’Abbeville (1184), elle-même inspirée de celle d’Amiens (1117). L’existence d’un modèle quasi unique ne permet cependant pas de constater une éventuelle spécificité de l’organisation ou de l’activité des localités des bords de Somme. Les communautés d’habitants installées sur les rives du fleuve ne sont, quant à elles, guère actives.</p>
         </div>
-        <div>
+        <div xml:id="r1314132">
           <pb source="https://nakala.fr/10.34847/nkl.fc2412kb#0c03b54e7386c87d14af34a3ac4df028fdbb49ed" n="301" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc2412kb/0c03b54e7386c87d14af34a3ac4df028fdbb49ed/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>La place de l’église</head>
@@ -94,43 +92,43 @@
           <p>Au total, la densité de peuplement de la vallée de la Somme, la présence de grandes abbayes et l’existence de multiples seigneuries en font une zone d’activité économique d’une relative importance.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1314174">
         <head rend="uc">Deuxième partie
          <lb/>L’exploitation des ressources du fleuve</head>
-        <div>
+        <div xml:id="r1314182">
           <head rend="uc">Chapitre premier
            <lb/>l’’aménagement du fleuve</head>
           <p>Le premier souci des habitants, visible dès le <num>xi<hi rend="sup">e</hi></num> siècle, est de faire de la Somme un fleuve à la fois traversable et navigable. Des travaux de drainage et de canalisation sont donc entrepris, essentiellement par les seigneurs et les communautés religieuses propriétaires des rives. Ils sont le préalable indispensable à l’aménagement, dès le <num>xii<hi rend="sup">e</hi></num> siècle, d’un fossé de navigation permettant aux navires marchands de relier les deux principales villes de la basse Somme, Amiens et Abbeville.</p>
           <p>Parallèlement, la construction de digues et d’écluses et surtout l’entretien d’un assez dense réseau de ponts, dont les plus anciens sont attestés au <num>ix<hi rend="sup">e</hi></num> siècle, permettent une traversée plus aisée du fleuve. Dans l’embouchure, la géographie particulière des lieux n’autorise que l’utilisation de bacs ou de gués.</p>
         </div>
-        <div>
+        <div xml:id="r1314215">
           <pb source="https://nakala.fr/10.34847/nkl.fc2412kb#baa23f2b6b528e2a5dfba4cf2368abf45cb06ab3" n="302" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc2412kb/baa23f2b6b528e2a5dfba4cf2368abf45cb06ab3/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’exploitation des ressources naturelles du fleuve</head>
           <p>Une fois domestiqué, le fleuve offre à ses riverains de nombreuses richesses. La plus élémentaire de ces ressources est la pêche à l’anguille, attestée depuis l’Antiquité et encore pratiquée avec intensité dans les marais du XI’ au <num>xiii<hi rend="sup">e</hi></num> siècle, quoique avec des techniques rudimentaires. La pêche en mer est également pratiquée mais dans de moindres proportions. Le long du fleuve, la chasse au gibier d’eau, la récolte d’herbes diverses (notamment d’osier), l’extraction de la tourbe et la coupe du bois ont constitué quelques sources occasionnelles de revenus pour les habitants de la vallée, qui n’hésitaient cependant pas à tirer profit des riches terres céréalières des plateaux.</p>
         </div>
-        <div>
+        <div xml:id="r1314238">
           <head rend="uc">Chapitre III
            <lb/>Le développement d’’équipements sur le fleuve</head>
           <p>La morphologie de la vallée, large et plate, a permis aux hommes d’y développer de multiples activités, spécifiques aux cours d’eau. Le long du fleuve, sous l’impulsion des seigneurs, se sont ainsi multipliés les moulins, peut-être présents depuis (Antiquité. Les travaux de drainage ont, quant à eux, permis l’aménagement de prés, concentrant au fond de la vallée une partie de l’élevage de la région, ainsi que de jardins et de vergers, procurant aux riverains du fleuve des revenus complémentaires de ceux que pouvait leur apporter la céréaliculture. L’acclimatation de la vigne a de surcroît permis d’alimenter un commerce de vin. L’aménagement des pourtours de la baie est moins connu, l’établissement de salines étant plutôt le propre du Marquenterre, entre Maye et Authie, que de la Somme.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1314251">
         <head rend="uc">Troisième partie
          <lb/>Le commerce dans la vallée de la somme</head>
-        <div>
+        <div xml:id="r1314259">
           <head rend="uc">Chapitre premier
            <lb/>les voies de communication</head>
           <p>Outre l’axe navigable de la Somme, prolongé en partie par quelques affluents, la région de la basse vallée était sillonnée de voies de communication, la plupart issues du réseau romain. Longeant le fleuve ou le franchissant, elles mettaient les localités de la vallée en communication les unes avec les autres, mais également avec les régions des plateaux voisins. Ce réseau s’étendait d’ailleurs aux affluents de la Somme. L’existence de nombreux points de péage sur ces voies, dont les plus anciens datent du début du <num>xii<hi rend="sup">e</hi></num> siècle, atteste la circulation des marchandises. Deux ports, dans l’embouchure du fleuve, Saint-Valery et Le Crotoy, assuraient la liaison avec les îles Britanniques.</p>
         </div>
-        <div>
+        <div xml:id="r1314277">
           <pb source="https://nakala.fr/10.34847/nkl.fc2412kb#da0277e3b047fcc008d68fe27b508f98a29fe3b9" n="303" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc2412kb/da0277e3b047fcc008d68fe27b508f98a29fe3b9/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les produits du commerce et le trafic local</head>
           <p>Les tarifs des travers de la vallée de Somme et des plateaux voisins mettent en évidence la circulation de denrées directement issues des productions de la vallée : bétail, bois, fruits et légumes, vin. poissons, ou des proches plateaux en ce qui concerne les céréales. C’est également grâce à ces tarifs (que l’on a connaissance du dynamisme de la principale industrie de la vallée, la production de draps, spécialité d’Amiens et Abbeville.</p>
           <p>Ces diverses productions alimentaient un commerce local incluant les villes du fond de la vallée et des plateaux, relayé par quelques marchés locaux. Les marchandises, très diverses, donnent une idée du degré d’aisance auquel avaient pu parvenir les riverains du fleuve.</p>
         </div>
-        <div>
+        <div xml:id="r1314297">
           <head rend="uc">Chapitre III
            <lb/>Le commerce lointain</head>
           <p>Tous les produits de la vallée de la Somme ne servaient pas à une consommation exclusivement locale : une partie alimentait des circuits commerciaux plus larges. C’est ainsi qu’au cours du XIII’ siècle des relations se nouent entre les bourgeois d’Amiens et Abbeville, d’une part, et des villes marchandes anglaises et écossaises, d’autre part. Le commerce avec les îles Britanniques, fondé principalement sur l’échange de produits tinctoriaux élaborés en Picardie (la guède) et de laines anglaises, prend toute son ampleur à partir de 1240, perturbé toutefois à partir de 1290 par les prémices du conflit franco-anglais.</p>
@@ -138,17 +136,17 @@
           <p>Lue part de la production viticole et des produits de la pêche, enfin, suivait probablement des itinéraires commerciaux qui nous demeurent mal connus.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1314316">
         <head rend="uc">Conclusion</head>
         <p>Voie de communication importante, contrôlée et entretenue par la noblesse locale et les établissements religieux installés sur ses rives, produisant des denrées qu’elle écoule sur les marchés proches ou lointains, la vallée de la Somme apparaît bien, à cet égard, comme une « unité économique ». Toutefois elle ne se suffit pas entièrement à elle-même : ses riverains sont contraints d’aller chercher sur les plateaux les indispensables revenus que procure la culture de la terre.</p>
         <p>Quant au roi, il demeure étranger à ce petit monde : c’est à peine si l’on sent en Ponthieu. à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, le passage à la domination anglaise.</p>
       </div>
-      <div>
+      <div xml:id="r1314335">
         <pb source="https://nakala.fr/10.34847/nkl.fc2412kb#9ba479eaa321cd869f1ff80bb8572857f8e06b4b" n="304" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc2412kb/9ba479eaa321cd869f1ff80bb8572857f8e06b4b/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Chartes du fonds de l’abbaye du Gard et du cartulaire de la seigneurie de Picquigny.</p>
       </div>
-      <div>
+      <div xml:id="r1314350">
         <head rend="uc">Annexes</head>
         <p>Tableaux. – Cartes. – Photographies.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1967_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,48 +55,48 @@
         <forename>Claude</forename>
         <surname>Devitry</surname>
       </byline>
-      <div>
+      <div xml:id="r875307">
         <head rend="uc">Introduction</head>
         <p>Cette étude est le résultat d’un sondage entrepris dans une région jusqu’à présent peu étudiée malgré son unité fondée sur des données géologiques et climatiques homogènes, malgré sa situation géographique privilégiée entre Marne et Oise à proximité de Paris, malgré son importance économique décisive.</p>
         <p>Les biens ruraux de l’hôpital des Quinze-Vingts constituent la première partie de cette étude et le cadre topographique s’est trouvé défini en raison de la localisation précise de ces biens. Tout naturellement, l’assiette du sondage a été ensuite élargie par l’étude d’autres fermes situées dans les mêmes paroisses. Le cadre chronologique retenu est une période longue de trois siècles (XVI<hi rend="sup">e </hi>siècle-1789) afin que puisse être perçue l’évolution de ces exploitations. La plaine de France présentait un attrait particulier comme région de grande culture céréalière située aux portes mêmes de Paris, que faisait valoir une classe de fermiers laboureurs généralement riches ou aisés, possédant leur cheptel mort et leur cheptel vif.</p>
       </div>
-      <div>
+      <div xml:id="r875324">
         <head rend="uc">Sources</head>
         <p>Deux séries de documents furent exploitées, correspondant aux deux axes selon lesquels fut orienté le dépouillement. La première série est constituée par les fonds domaniaux et seigneuriaux ; elle comprend des baux, des arpentages, des comptes : ce sont les archives de l’hôpital des Quinze-Vingts à Paris, la série S aux Archives nationales, le fonds Lallemant-Nautouillet dans la série E des Archives départementales de Seine-et-Oise et, enfin, les archives du musée Condé à Chantilly.</p>
         <p>Les fonds notariaux ont servi de fondement pour l’étude de la fortune des fermiers qui étaient les exploitants des grandes fermes : contrats de mariage, <pb source="https://nakala.fr/10.34847/nkl.07e3zp4u#edc9bdc4fd939e423bd6429645c30d14ac511bcc" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.07e3zp4u/edc9bdc4fd939e423bd6429645c30d14ac511bcc/full/full/0/default.jpg"/>inventaires après décès, partages relevés au minutier central des Archives nationales et chez M<hi rend="sup">e</hi> Neel, notaire à Dammartin-en-Goële.</p>
         <p>L’étude des documents cartographiques a apporté d’utiles compléments que les autres pièces n’avaient pas fournis.</p>
       </div>
-      <div>
+      <div xml:id="r875349">
         <head rend="uc">Première partie
          <lb/>Les terres</head>
-        <div>
+        <div xml:id="r875357">
           <head rend="uc">Chapitre premier
            <lb/>le cadre géographique et administratif</head>
           <p>Le pays de France est limité par l’Oise, la Seine et, au sud, par la Marne ; au nord et à l’est, en revanche, c’est une ligne de collines boisées et de forêts qui interrompt les champs plats où est pratiquée presque exclusivement la culture des céréales. La plaine de France ne forme qu’une partie de cette ancienne France et c’est dans cette région comprise, au nord de Paris, entre Saint-Denis, Luzarches et Dammartin que sont situées les quelques fermes étudiées.</p>
           <p>La plaine de France est un plateau érodé, caractérisé par son assise perméable ; mais, lorsque le limon est épais, comme c’est le cas presque partout, il retient suffisamment d’eau pour que les plantes ne meurent pas de sécheresse. Les fermes étudiées ne sont pas dispersées dans ce terroir, mais elles sont, au contraire, groupées, les unes autour de Gonesse sur le plateau de Louvres, les autres autour de Dammartin, à Vinantes et Montgé.</p>
           <p>Les échanges entre ces paroisses rurales et la capitale sont constants et nombreux, ils sont grandement facilités par un réseau de communications fort dense.</p>
         </div>
-        <div>
+        <div xml:id="r875375">
           <head rend="uc">Chapitre II
            <lb/>Les seigneuries</head>
           <p>Le régime seigneurial imprègne encore fortement, aux <num>xvi<hi rend="sup">e</hi></num>, <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles, la vie des campagnes.</p>
           <p>Les différentes fermes sont constituées soit de fiefs soit, le plus souvent, de censives. Les redevances recognitives de seigneurie dues par les terres, généralement inscrites sur les arpentages, alourdissent les charges du fermier. Les droits seigneuriaux sont nombreux ; ils sont intéressants à étudier du point de vue des revenus qu’ils procurent au seigneur, mais aussi du point de vue des <pb source="https://nakala.fr/10.34847/nkl.07e3zp4u#e7ad90abad33fe3403874edb636735eb7d78ed5d" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.07e3zp4u/e7ad90abad33fe3403874edb636735eb7d78ed5d/full/full/0/default.jpg"/>personnes qui sont attachées à leur perception. Parmi tous les officiers seigneuriaux, ceux qui ont la charge de percevoir des droits d’une seigneurie reçoivent non seulement des revenus non négligeables, mais surtout une sorte de promotion dans la hiérarchie des classes rurales. Or, ce sont les fermiers laboureurs étudiés qui le plus souvent possèdent ces charges et acquièrent ainsi une place tout à fait originale au sein des classes rurales.</p>
         </div>
-        <div>
+        <div xml:id="r875413">
           <head rend="uc">Chapitre III
            <lb/>La structure matérielle des fermes</head>
           <p>Presque toutes les fermes sont situées dans le village même ; elles sont composées du logis du fermier et des bâtiments d’exploitation. Cette structure de « fermes de village » diffère profondément de celle des fermes isolées entourées immédiatement de leurs terres.</p>
           <p>Les terres sont dispersées sur le terroir de la paroisse comme sur celui des paroisses voisines. Par la comparaison des descriptions et des arpentages avec les plans figurés de la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, on peut constater que les surfaces des grandes fermes étudiées n’ont varié que dans des proportions infimes. Les terres labourables se répartissent en champs allongés le plus souvent, mais les parcelles peuvent avoir pris des formes géométriques plus complexes que le simple rectangle ; elles sont de surface médiocre (la surface moyenne des parcelles est 1 arpent 70 perches, soit 70 ares). Le regroupement des parcelles dans un même lieudit, les échanges entre propriétaires ou entre fermiers tentent de corriger cet extrême morcellement.</p>
           <p>L’étendue des terres cultivées par un fermier laboureur est difficile à connaître exactement, car presque toujours un fermier cumule l’exploitation de deux fermes ou d’une ferme et de terres appartenant à des propriétaires différents. L’exploitation atteint ainsi des limites très supérieures à celles qui peuvent être trouvées dans le cadre d’une propriété définie.</p>
         </div>
-        <div>
+        <div xml:id="r875437">
           <head rend="uc">Chapitre IV
            <lb/>L’organisation des fermes.
            <lb/>Bâtiments et terres</head>
           <p>Dans la plaine de France, la ferme est constituée par le logis du fermier et les bâtiments d’exploitation contigus, ordonnés autour d’une cour carrée close. Les corps de ferme ont été agrandis au cours de ces trois siècles, aux frais du preneur ou du bailleur selon les clauses des baux ; certaines fermes ont été entièrement reconstruites au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
           <p>L’assolement triennal est le mode normal de répartition des cultures sur les terres labourables. La superficie de la première sole, ou sole d’automne, est la plus vaste, dans cette plaine vouée à la culture des céréales et notamment <pb source="https://nakala.fr/10.34847/nkl.07e3zp4u#a6b5b56e84731e4f07710bf35e3d485d3182b58b" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.07e3zp4u/a6b5b56e84731e4f07710bf35e3d485d3182b58b/full/full/0/default.jpg"/>au blé-froment. La seconde sole, celle des blés de printemps, complétée par les quelques plantes fourragères que connaissaient les fermiers, est de surface plus réduite : toutes ces plantes sont destinées à la nourriture du cheval qui est l’animal de trait par excellence. La troisième sole reste en jachère, elle est parcourue par les grands troupeaux de moutons que possèdent les fermiers. Sa surface est égale, et très souvent supérieure, à celle de la sole des blés de printemps. Les fermes sont constituées, en plus des terres labourables, de quelques arpents de clos, de prés, d’osier, parfois de vignes et de bois-taillis. L’exiguïté des prés pose le problème de la fumure des terres qu’un élevage plus abondant peut seul résoudre. Une autre solution s’ébauche, peu à peu, par l’introduction, lente mais irréversible, des prairies artificielles. Dans la plaine de France, dès le <num>xvi<hi rend="sup">e</hi></num> siècle, on ensemençait quelques arpents en sainfoin ou en quelqu’autre plante fourragère, mais ce n’est qu’à l’extrême fin du <num>xviii<hi rend="sup">e</hi></num> siècle que ces plantes ont été semées sur de grandes surfaces.</p>
         </div>
-        <div>
+        <div xml:id="r875477">
           <head rend="uc">Chapitre V
            <lb/>L’exploitation des terres.
            <lb/>Méthodes et moyens d’exploitation</head>
@@ -108,11 +106,11 @@
           <p>Rares sont les données suffisamment complètes permettant de calculer la quantité de grains semée et le rendement. On sème, en général, presqu’un hectolitre à l’arpent soit trois hectolitres à l’hectare, et on récolte environ vingt-deux hectolitres à l’hectare.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r875501">
         <pb source="https://nakala.fr/10.34847/nkl.07e3zp4u#1a57062993ed7729b4d509d06277036beb59b56e" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.07e3zp4u/1a57062993ed7729b4d509d06277036beb59b56e/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Conjoncture</head>
-        <div>
+        <div xml:id="r875514">
           <head rend="uc">Chapitre premier
            <lb/>les baux des fermes</head>
           <p>La plaine de France est une région de fermage au sens moderne de ce mot ; les fermes retenues pour cette étude sont de même nature et d’importance à peu près égale ; elles sont toutes gérées selon un bail à loyer, c’est-à-dire un bail conclu à temps limité moyennant une redevance fixe.</p>
@@ -120,7 +118,7 @@
           <p>Le mode le plus courant de passation de bail est la mise aux enchères, mais le mode de location des terres n’est pas toujours perceptible dans l’acte notarié. Il existe cependant quelques exceptions de reconduction ou de renouvellement de bail, à la demande ou à la supplication du fermier.</p>
           <p>Les baux sont extrêmement précis et détaillés. Même si leur forme n’a guère varié au cours des <num>xvi<hi rend="sup">e</hi></num>, <num>xvii<hi rend="sup">e</hi></num> et même <num>xviii<hi rend="sup">e</hi></num> siècles, ils sont riches d’enseignement et donnent de multiples directions de recherches : ils ont constitué la trame de cette étude.</p>
         </div>
-        <div>
+        <div xml:id="r875571">
           <head rend="uc">Chapitre II
            <lb/>Le mouvement des fermages. Représentation graphique</head>
           <p>Les séries de baux ont été reconstituées. Afin de pouvoir comparer les loyers, tous les fermages ont été convertis en livres-tournois ; cette évaluation a été calculée d’après les moyennes annuelles du prix en livres-tournois pour le setier de froment. Dans un deuxième temps, les prix nominaux ont été convertis et corrigés en les multipliant par le poids d’argent fin de la livre-tournois.</p>
@@ -129,18 +127,18 @@
           <p>Les phases de mévente des grains, et vraisemblablement de la laine, sont sans doute à l’origine de difficultés qui n’atteignent durement la classe des fermiers laboureurs que rarement. Les crises violentes de hausses catastrophiques des prix des céréales, qui par ailleurs ont eu des conséquences tragiques pour la masse de la paysannerie, ne lèsent pas non plus les fermiers laboureurs qui, vendeurs d’excédents de récoltes même en ces temps difficiles, semblent plutôt avoir consolidé leurs positions.</p>
           <p>Ces différents aspects étudiés chronologiquement apparaissent très nettement sur des diagrammes représentant graphiquement le mouvement des fermages : courbe des prix nominaux des loyers, valeur en argent de ces mêmes loyers.</p>
         </div>
-        <div>
+        <div xml:id="r875624">
           <head rend="uc">Chapitre III
            <lb/>La rentrée des fermages</head>
           <p>Si les propriétaires n’interviennent guère dans l’exploitation de leurs fermes, la rentrée des fermages en revanche les préoccupait constamment.</p>
           <p>Lorsque le loyer était conclu en nature, les fermiers échelonnaient leurs apports de grains tout au long de l’année, mais surtout pendant les mois de l’hiver alors qu’ils avaient moins de travaux à faire dans les champs. Les loyers en argent sont de la même façon versés en plusieurs fois, en un nombre supérieur aux deux ou trois termes prévus par le bail. Si les fermiers, en raison d’un accident personnel ou de disette, n’apportaient pas ce qu’ils devaient, le plus souvent le propriétaire dépêchait un envoyé ; si cette première démarche ne suffisait pas, la procédure habituelle de saisie et de vente aux enchères était utilisée. Quelques documents conservés aux Quinze-Vingts éclairent les rapports établis entre le fermier et le propriétaire : ce sont des comptes présentés par le fermier et arrêtés au chapitre.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r875640">
         <pb source="https://nakala.fr/10.34847/nkl.07e3zp4u#d56007c42ef6e2cb33bfb7e48c25eb57b900a6ba" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.07e3zp4u/d56007c42ef6e2cb33bfb7e48c25eb57b900a6ba/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie
          <lb/>Les chefs d’exploitation</head>
-        <div>
+        <div xml:id="r875653">
           <head rend="uc">Chapitre premier
            <lb/>les fermiers laboureurs</head>
           <p>Un fermier laboureur, au moins à l’origine, se définit comme celui qui, à l’aide de son propre train de culture, exploite des terres louées. Le fermier laboureur se présente comme un locataire des grosses fermes, auxquelles le plus souvent il adjoint une superficie plus ou moins importante de terres prises à bail auprès d’autres propriétaires. Parfois le fermier cumule l’exploitation de deux fermes. Lorsqu’il prend une ferme à bail, il apporte les moyens nécessaires à sa mise en valeur : le cheptel vif et le cheptel mort lui appartiennent toujours.</p>
@@ -149,7 +147,7 @@
           <p>A l’échelle de la paroisse, ils sont des notables, souvent receveurs de droits seigneuriaux, marguilliers, procureurs fiscaux. Au demeurant, leur instruction les constitue véritablement comme une sorte d’élite.</p>
           <p>Il n’y a alors rien d’étonnant à ce que certains soient apparentés à des bourgeois, notamment dans les professions libérales et ecclésiastiques. Il n’en est que plus remarquable qu’ils n’aient presque jamais abandonné leur profession traditionnelle.</p>
         </div>
-        <div>
+        <div xml:id="r875683">
           <pb source="https://nakala.fr/10.34847/nkl.07e3zp4u#b48c2292737fe0a9052c8b454a5e36da78cadb23" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.07e3zp4u/b48c2292737fe0a9052c8b454a5e36da78cadb23/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Une famille de laboureurs : les plailly-boucher
@@ -159,7 +157,7 @@
           <p>Mais il est frappant de constater que, plus que d’autres, tous les membres de cette famille restent attachés à la culture de la terre : rares sont ceux qui, accédant à la bourgeoisie, s’installent à Paris ; ils demeurent les notables de leur paroisse.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r875715">
         <head rend="uc">Conclusion</head>
         <p>Par les traits fondamentaux de sa géographie, la plaine de France se prêtait à une culture relativement fructueuse de céréales pouvant donner aux principales exploitations l’occasion de gains substantiels. D’autre part, l’élevage des ovins dont les troupeaux étaient nombreux dans les grandes fermes étudiées offrait également, comme dans toutes les grandes plaines agricoles, une possibilité de profits assez considérables. L’existence de grosses fermes rendait possible l’établissement d’une classe dont les membres sont à la fois laboureurs, fermiers et marchands ; l’association de ces trois termes signale déjà leurs caractères originaux les plus importants.</p>
         <p>La stucture de ces exploitations agricoles est précise et définie ; les bâtiments, l’assiette des terres, les outillages en cheptel mort et cheptel vif présentent des éléments qui n’ont pas foncièrement évolué de la fin du <num>xv<hi rend="sup">e</hi></num> siècle à la fin du <num>xviii<hi rend="sup">e</hi></num> sièle.</p>

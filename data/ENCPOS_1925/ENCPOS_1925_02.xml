@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1925_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,16 +65,16 @@
         <head rend="uc">Avant-propos. – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r437928">
         <head rend="uc">Introduction
          <lb/>les cadres historiques et géographiques</head>
         <p>I. Très éprouvé par les invasions normandes, l’Angoumois est, aux X° et <num>xi<hi rend="sup">e</hi></num> siècles, dans une désorganisation, qui trouble profondément le régime économique et social. Sous l’effet d’institutions, nées du besoin d’ordre ressenti à cette époque, le calme revient peu à peu et se traduit dans le domaine juridique par l’étude du droit et de la coutume et, dans le domaine politique, par une hiérarchisation des seigneuries. Cette hiérarchisation conduit à assurer la prédominance dans la province au comte et à l’évêque d’Angoulême ; mais leur pouvoir <pb source="https://nakala.fr/10.34847/nkl.ab23j458#178ab8a0a0d8a1482eb8519f0bf70b7809a23450" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.ab23j458/178ab8a0a0d8a1482eb8519f0bf70b7809a23450/full/full/0/default.jpg"/> ne tarde pas à s’effacer devant l’autorité souveraine du roi de France.</p>
         <p>II. La province d’Angoumois, formée dans sa plus grande partie du <hi rend="i">pagus Encolismensium,</hi> est divisée en châtellenies. Nées autour des châteaux au <num>xi<hi rend="sup">e</hi></num> siècle, ces circonscriptions constituent la division politique du pays par excellence. Elles sont elles-mêmes divisées en paroisses, dont l’origine remonte toujours à une exploitation agricole et dont l’aspect n’a pas dû se modifier beaucoup depuis le <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r437970">
         <head rend="uc">Première partie
          <lb/>Le régime foncier</head>
-        <div>
+        <div xml:id="r437978">
           <head rend="uc">Titre premier
            <lb/>le capital d’exploitation</head>
           <p>Les seules richesses, qui subsistent, sont les richesses naturelles. Toute l’activité des hommes du moyen âge va tendre à rechercher leur meilleure utilisation.</p>
@@ -99,7 +97,7 @@
             <p>Les rivières sont méthodiquement divisées en pêcheries, exploitées au profit du seigneur par des hommes à gage. Les étangs sont soigneusement entretenus et périodiquement vidés.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r438040">
           <head rend="uc">Titre II
            <lb/>Les formes de l’exploitation</head>
           <p>Issus des méthodes franques, les moyens d’exploitatation se dégagent de leur origine et constituent au <pb source="https://nakala.fr/10.34847/nkl.ab23j458#72cc0d1c9c1cfe940ef77ea602590f9f556ee302" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.ab23j458/72cc0d1c9c1cfe940ef77ea602590f9f556ee302/full/full/0/default.jpg"/>moyen âge des types particuliers de propriété, dont les modalités sont déterminées par les conditions économiques de l’époque où ils se sont formés.</p>
@@ -151,7 +149,7 @@
             <p>II. Depuis la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, le seigneur cherche à centraliser l’administration des domaines et il s’occupe activement de leur gestion. Il a des agents à gage ou il afferme ses revenus.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r438291">
           <pb source="https://nakala.fr/10.34847/nkl.ab23j458#a9fea8f9cd60fe3c4b2649c8e8c3eee4d84f40a0" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.ab23j458/a9fea8f9cd60fe3c4b2649c8e8c3eee4d84f40a0/full/full/0/default.jpg"/>
           <head rend="uc">Titre III
            <lb/>Les conditions de l’exploitation</head>
@@ -168,18 +166,18 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r438333">
         <head rend="uc">Deuxième partie
          <lb/>Le régime seigneurial</head>
         <p>Nécessaires à la vie de la société les droits de souveraineté, conservés ou rétablis selon les cas, sont exercés par les seigneurs.</p>
-        <div>
+        <div xml:id="r438344">
           <pb source="https://nakala.fr/10.34847/nkl.ab23j458#88d12394cbec7136eb55e4c1df7800e697e00a6d" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.ab23j458/88d12394cbec7136eb55e4c1df7800e697e00a6d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la justice</head>
           <p>La distinction entre la haute et la basse justice, qui repose sur une distinction des cas, apparaît au <num>xii<hi rend="sup">e</hi></num> siècle dans les vigueries.</p>
           <p>Le justicier connaît, dans les limites de la seigneurie, toutes les causes ressortissant à sa juridiction. Il juge lui-même ou confie ce soin à des agents. Il se réserve parfois le droit de casser les sentences portées par ses agents ou par ses vassaux.</p>
         </div>
-        <div>
+        <div xml:id="r438370">
           <head rend="uc">Chapitre II
            <lb/>Le régime fiscal</head>
           <p>I. Les impôts publics sont presque tous exigés par les seigneurs.</p>
@@ -195,7 +193,7 @@
           <p>Les corvées établies pour assurer le fonctionnement de services publics sont rares ; plus souvent elles sont dues au seigneur pour des travaux de culture ou de charrois. Elles pèsent sur les hommes qui ont des bœufs.</p>
           <p>Les banalités nous sont mal connues, à l’exception du banvin, <hi rend="i">stagnum,</hi> qui est fixe ou arbitraire.</p>
         </div>
-        <div>
+        <div xml:id="r438433">
           <head rend="uc">Chapitre III
            <lb/>L’armée</head>
           <p>Fin cas de péril grave tous les habitants d’une châtellenie doivent contribuer à la défense du pays. Ils fournissent également des corvées pour l’entretien des fortifications des villes et des châteaux.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,9 +65,9 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r405723">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r405729">
           <head rend="uc">Chapitre premier</head>
           <div>
             <head rend="uc">§ I<hi rend="sup">er</hi>. – <hi rend="i">Liste des manuscrits.</hi></head>
@@ -85,7 +83,7 @@
             <p>Tableau de concordance des manuscrits et des sigles employés pour l’édition.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r405802">
           <pb source="https://nakala.fr/10.34847/nkl.36e3t4rg#2729fa02d7e990207b979e0dec3ac19f5f20f140" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.36e3t4rg/2729fa02d7e990207b979e0dec3ac19f5f20f140/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Essai sur l’origine de l’ouvrage</head>

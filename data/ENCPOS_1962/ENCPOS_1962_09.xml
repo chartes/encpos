@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1962_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,17 +55,17 @@
         <forename>Francis</forename>
         <surname>Denel</surname>
       </byline>
-      <div>
+      <div xml:id="r831957">
         <head rend="uc">Première partie
          <lb/>Le serviteur du duc de Mayenne jusqu’en 1596
          <lb/>sa formation sous Henri IV</head>
-        <div>
+        <div xml:id="r831967">
           <head rend="uc">Chapitre premier
            <lb/>de la naissance à 1587</head>
           <p>Fils d’un tanneur, commerçant aisé d’Autun, Pierre Jeannin naquit au plus tôt en 1535. Il suivit l’enseignement de Cujas, à l’université de Bourges, et entra au Parlement de Dijon. Anobli par les offices, il s’intégra très vite à cette classe hétérogène des gentilshommes bourguignons, grâce à d’importantes acquisitions foncières.</p>
           <p>Déjà très influent dans sa province, il adopta le parti de Mayenne. Pendant les neuf années qui suivent la reprise en main par Mayenne de son gouvernement de Bourgogne, en 1587, Jeannin acquit sa formation politique dans tous les domaines : affaires extérieures, administration. Beaucoup plus que ligueur, il fut avant tout le conseiller du duc. Après l’abjuration, quoique toujours fidèle à Mayenne, il réussit avec une rare habileté à se faire considérer comme neutre et à jouer le rôle d’arbitre entre les deux partis extrêmes ; son passage au service du roi, consécutif au traité de Folembray, se fit donc sans heurt véritable.</p>
         </div>
-        <div>
+        <div xml:id="r831982">
           <head rend="uc">Chapitre II
            <lb/>Le serviteur du roi Henri IV</head>
           <p>Jeannin joua un rôle important dans la rédaction et l’application de l’édit de Nantes, dans le rétablissement des jésuites dans le royaume, toutes mesures d’accommodement qui convenaient parfaitement au catholique convaincu mais <pb source="https://nakala.fr/10.34847/nkl.dd1e1frq#a15c8bf6818596104fe7a7e061980512aef95b2d" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd1e1frq/a15c8bf6818596104fe7a7e061980512aef95b2d/full/full/0/default.jpg"/>tolérant qu’il était ; elles apportaient, en outre, ce qu’il souhaitait le plus, l’ordre intérieur, car c’est avant tout sur ce but qu’est fondée toute sa conception de la monarchie absolue.</p>
@@ -75,10 +73,10 @@
           <p>Dès 1596, Jeannin avait eu l’occasion, comme agent préféré du secrétaire d’Etat Villeroy, de participer à la politique extérieure. Il fut le véritable artisan de la trêve de douze ans qui marqua la naissance de la République indépendante des Provinces-Unies (juin 1609). Cette réussite lui attira, avec la considération royale, un accroissement de sa fortune personnelle.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r832006">
         <head rend="uc">Deuxième partie
          <lb/>Le « barbon » de 1610 à 1623</head>
-        <div>
+        <div xml:id="r832014">
           <head rend="uc">Chapitre premier
            <lb/>activité politique</head>
           <p>L’unité qui aurait lié les vieux ministres de Henri IV, pendant la régence de Marie de Médicis, fut moins réelle qu’on ne l’a dit : si une grande amitié unissait Jeannin à Villeroy, lui-même franchement hostile à Sillery, une véritable incompatibilité d’humeur, en revanche, opposait Jeannin à Sully qu’il remplaça à la tête des finances, en février 1611.</p>
@@ -88,7 +86,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.dd1e1frq#cd58adca4063ba4cf667fa7cd07dbbce08cef529" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.dd1e1frq/cd58adca4063ba4cf667fa7cd07dbbce08cef529/full/full/0/default.jpg"/>
           <p>Si Jeannin approuva l’alliance espagnole préconisée par Villeroy, il avait toujours jugé préférable une entente avec l’Angleterre : un tel accord isolerait les Habsbourgs, empêcherait l’Espagne de conquérir les Provinces-Unies pour reconstituer l’ancien duché de Bourgogne, et, de plus, faciliterait grandement la solution du problème huguenot en France.</p>
         </div>
-        <div>
+        <div xml:id="r832043">
           <head rend="uc">Chapitre II
            <lb/>L’homme privé</head>
           <p>A partir de 1610, Jeannin vécut presque uniquement à Paris. Bénéficiant d’importants revenus, il y fit construire de nombreux hôtels, place Royale et dans les alentours du Louvre. Il possédait à Chaillot, depuis 1589, une maison de campagne.</p>
@@ -97,11 +95,11 @@
           <p>Pierre Jeannin mourut le <hi rend="i">22</hi> mars 1623, certainement au village de Chaillot.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r832069">
         <head rend="uc">Conclusion</head>
         <p>Diplomate consciencieux, bénéficiant d’une grande expérience des hommes, financier intègre mais sans originalité, courtisan sans ambition, il ne fut toute sa vie qu’un serviteur modèle, amené souvent malgré lui à jouer des rôles pour lesquels il n’était pas fait.</p>
       </div>
-      <div>
+      <div xml:id="r832079">
         <head rend="uc">Appendice et pièces justificatives</head>
         <p>Catalogue de la bibliothèque du président Jeannin.</p>
         <p>Contrat de mariage de Charlotte Jeannin avec Pierre de Castille, 11 février 1603.</p>

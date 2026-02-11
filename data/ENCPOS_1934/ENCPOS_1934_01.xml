@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,14 +58,14 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r535543">
         <head rend="uc">Introduction</head>
         <p>Origines de Cherbourg. Résumé de son histoire jusqu’en 1354. La situation politique en Cotentin au début de la guerre de Cent ans.</p>
       </div>
-      <div>
+      <div xml:id="r535553">
         <head rend="uc">Premiere partie
          <lb/>Histoire</head>
-        <div>
+        <div xml:id="r535561">
           <head rend="uc">Chapitre premier
            <lb/>domination navarraise (1354-1378).</head>
           <p>Le 22 février 1354, par le traité de Mantes, Cherbourg est cédé à Charles H, roi de Navarre, et va subir le contre-coup des intrigues politiques de ce prince. Charles le Mauvais y débarque au mois d’août 1355 et y reçoit les ambassadeurs du roi de <pb source="https://nakala.fr/10.34847/nkl.f2cc873b#e73c91b91e0c74a091f56d081b590d5745cbc822" n="6" facs="https://api.nakala.fr/iiif/10.34847/nkl.f2cc873b/e73c91b91e0c74a091f56d081b590d5745cbc822/full/full/0/default.jpg"/>France. Les négociations aboutissent au traité de Valognes (10 septembre 1355) ; l’une des clauses oblige Cherbourg à recevoir une garnison française.</p>
@@ -77,7 +75,7 @@
           <p>Au moment de la reprise des hostilités entre la France et l’Angleterre, la possession de Cherbourg a mis Charles le Mauvais dans une situation très avantageuse. Il vient s’y installer le 13 juillet 1369 et y demeure jusqu’en juillet 1371 ; de là, il entretient des négociations suivies avec Edouard III et Charles V qui lui envoient ambassades sur ambassades. Au mois d’août 1370, il se décide à passer en Angleterre et, pendant son voyage, les comtes de Warwick et de Suffolk viennent demeurer en otages à Cherbourg.</p>
           <p>Pendant les séjours du roi de Navarre, Cherbourg fait figure de capitale. En son absence, son conseiller Guillaume de Tresmons, abbé de Cherbourg, dont <pb source="https://nakala.fr/10.34847/nkl.f2cc873b#a753a85ffbecedb693861cf533d728b219277d92" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.f2cc873b/a753a85ffbecedb693861cf533d728b219277d92/full/full/0/default.jpg"/>le rôle politique est considérable, veille à l’administration du Cotentin. Depuis 1371, Robert Porte, évêque d’Avranches, et Ferrando d’Ayenz sont gouverneurs des terres du roi de Navarre en Normandie.</p>
         </div>
-        <div>
+        <div xml:id="r535598">
           <head rend="uc">Chapitre II
            <lb/>Le siège de 1378.</head>
           <p>Au mois de mars 1378, la découverte des menées de Charles II détermine le roi de France à s’emparer des places fortes navarraises en Normandie, qui se rendent successivement et dont les garnisons se réfugient à Cherbourg. Impuissant à se défendre, Charles le Mauvais cède Cherbourg pour trois ans au roi d’Angleterre, en échange de 25.000 francs d’or et d’un secours militaire. La cession de la ville se fait le 27 juin 1378.</p>
@@ -85,13 +83,13 @@
           <p>Olivier Duguesclin est fait prisonnier au début des opérations. La flotte de Jean d’Arundel a réussi, au début de novembre, à ravitailler la place qui résiste à toutes les attaques. Charles de Navarre, fils aîné de Charles II, et Jean le Mercier viennent rejoindre le connétable. Mais les Français sont obligés de lever le siège et Charles V établit une « frontière de gens d’armes » sur le clos du Cotentin.</p>
           <p>En février 1379, John Harliston, nommé capitaine <pb source="https://nakala.fr/10.34847/nkl.f2cc873b#4c7136800c3420a9fc9894df7c29ba658c475aec" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.f2cc873b/4c7136800c3420a9fc9894df7c29ba658c475aec/full/full/0/default.jpg"/>de Cherbourg, y amène de nouvelles troupes. De son côté, Guillaume des Bordes, capitaine de Montebourg, renforce sa situation. Une rencontre a lieu entre les deux garnisons. Le 4 juillet 1379, Guillaume des Bordes est fait prisonnier et le désastre des Français les oblige à abandonner Montebourg.</p>
         </div>
-        <div>
+        <div xml:id="r535624">
           <head rend="uc">Chapitre III
            <lb/>La première occupation anglaise (1378-1394).</head>
           <p>Charles V fait offrir au roi d’Angleterre le comté d’Angoulême en échange de Cherbourg, mais ces négociations n’aboutissent pas. Charles prend des mesures de rigueur contre les habitants demeurés à Cherbourg sous la domination anglaise. Les tentatives du roi de Navarre pour se faire rendre la ville, au bout des trois ans convenus, n’ont pas plus de succès. Les sorties de la garnison de Cherbourg contre les Français qui tiennent frontière à Carentan ruinent le Cotentin.</p>
           <p>La trêve est proclamée à Cherbourg le 8 juillet 1388. Les négociations relatives à la restitution de cette place reprennent alors entre Richard II, roi d’Angleterre, et les héritiers de Charles le Mauvais. Le 26 juin 1393, Richard s’engage à rendre la ville au roi de Navarre à la Saint-Michel suivante, moyennant 25.000 francs d’or. Une aide de 30.000 francs d’or est levée en Normandie au mois de décembre pour payer les frais de la délivrance de Cherbourg que les Anglais abandonnent en janvier 1394.</p>
         </div>
-        <div>
+        <div xml:id="r535639">
           <head rend="uc">Chapitre IV
            <lb/>Les évènements de 1394 à 1418.</head>
           <p>Les courses des Anglais sur la côte de Cherbourg <pb source="https://nakala.fr/10.34847/nkl.f2cc873b#af5a096ef0667a2401dbcb72753fd75a75e9b24f" n="9" facs="https://api.nakala.fr/iiif/10.34847/nkl.f2cc873b/af5a096ef0667a2401dbcb72753fd75a75e9b24f/full/full/0/default.jpg"/>font comprendre au roi de France l’intérêt qu’il y a pour lui à occuper la ville. Des négociations sont entreprises à ce sujet avec Charles III de Navarre qui, le 9 juin 1404, consent à vendre Cherbourg au roi de France, pour 200.000 livres.</p>
@@ -99,7 +97,7 @@
           <p>En 1413, la ville est revenue aux mains du roi de France qui y nomme de nouveau le sire de Torcy comme capitaine.</p>
           <p>La guerre avec l’Angleterre reprend en 1415 ; en 1417, le roi d’Angleterre entreprend la conquête de la Normandie. Cherbourg, assiégé au début d’avril 1418 par le duc de Gloucester, vaillamment défendu par Jean Piquet, capitule le 22 août et ouvre ses portes le 29 septembre. Conditions de la capitulation.</p>
         </div>
-        <div>
+        <div xml:id="r535665">
           <head rend="uc">Chapitre V
            <lb/>La domination anglaise (1418-1450).</head>
           <p>Le gouvernement anglais prend des mesures d’ordre à Cherbourg. La garnison de la ville participe à différentes expéditions. En 1427, la flotte malouine assiège Cherbourg. En 1429, un nommé Philippot Lecat tente de livrer la ville aux Français.</p>
@@ -110,10 +108,10 @@
           <p>Les dernières places de Normandie capitulent devant l’armée française et leurs garnisons se réfugient à Cherbourg. Le connétable de Richemond entreprend le siège de la ville au début de juillet. Jacques Cœur offre 20.000 écus d’or au capitaine Thomas Gower, pour la reddition de la place. Ses conditions sont acceptées et Cherbourg capitule le 12 août.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r535695">
         <head rend="uc">Seconde partie
          <lb/>Organisation</head>
-        <div>
+        <div xml:id="r535703">
           <head rend="uc">Chapitre premier
            <lb/>administration. Justice.</head>
           <p>Les guerres des <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles amènent la complète décadence de Cherbourg, dont le commerce est ruiné et les faubourgs détruits. Cependant la ville souffre moins que la campagne et un certain nombre de faits prouvent que ses habitants ont accepté assez facilement les changements de domination.</p>
@@ -125,7 +123,7 @@
           <p>Les habitants de Cherbourg sont jugés aux assises tenues à Valognes par le lieutenant du bailli. Dans les cas exceptionnels, c’est celui-ci qui se rend à Cherbourg avec ses assesseurs. Les procès de moindre importance sont jugés aux plaids de sergenterie tenus à Cherbourg.</p>
           <p>L’abbaye du Vœu, dont la seigneurie s’étend sur Cherbourg et 77 autres paroisses du Cotentin, possède également sur la ville un droit de haute justice. Elle y a son bailli, son vicomte, ses sergents d’épée, ses assises et ses plaids. Elle jouit d’un certain nombre de privilèges dans la forêt de Brix. L’exercice de ces droits amène des conflits perpétuels entre les officiers royaux et les religieux de l’abbaye.</p>
         </div>
-        <div>
+        <div xml:id="r535756">
           <pb source="https://nakala.fr/10.34847/nkl.f2cc873b#a4b4fff4f8d59feaea9a8897fd01819d8d4927eb" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.f2cc873b/a4b4fff4f8d59feaea9a8897fd01819d8d4927eb/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Impôts et revenus du domaine.</head>
@@ -136,7 +134,7 @@
           <p>Le domaine royal à Cherbourg comporte les fermes de la prévôté et du tabellionnage, un moulin fieffé aux religieux du Vœu, des maisons tenues à rente, d’autres payant un cens ou <hi rend="i">gablage.</hi> Les droits d’épaves et les amendes constituent des profits casuels.</p>
           <p>L’abbaye du Vœu perçoit à Cherbourg un droit de fouage. Les revenus de son domaine y sont beaucoup plus importants que ceux du roi, mais la perception en est continuellement entravée par les officiers royaux.</p>
         </div>
-        <div>
+        <div xml:id="r535802">
           <pb source="https://nakala.fr/10.34847/nkl.f2cc873b#35540501633d3791c2acc061dd9c5cba798cb276" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.f2cc873b/35540501633d3791c2acc061dd9c5cba798cb276/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Organisation militaire.</head>

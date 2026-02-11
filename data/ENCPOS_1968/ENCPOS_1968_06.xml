@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,7 +56,7 @@
         <surname>Delmas</surname>
         <roleName>licentié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r890410">
         <head rend="uc">Introduction</head>
         <p>Le mot, du fait de la relation étroite qu’il a avec les objets ou les faits, est pour l’archéologue un instrument efficace : il peut être daté et localisé. La présente étude se propose de retrouver les techniques par les mots en reliant les témoignages qui ont pu être donnés au cours des temps.</p>
         <p>Le choix du parler albigeois fournit le cadre géographique et linguistique de cette recherche. Cette limitation offre un autre avantage : comme parler secondaire à l’égard du français, l’albigeois se révèle plus conservateur et son héritage plus vivace. Il s’imposait donc de l’étudier dans sa continuité.</p>
@@ -66,18 +64,18 @@
         <p>En effet, les archives des <num>xvii<hi rend="sup">e</hi></num> et <num>xviii<hi rend="sup">e</hi></num> siècles, exclues des études linguistiques régionales, conservent cependant un vocabulaire technique en langue d’oc. Dans l’esprit d’une étude sur la continuité de la langue, elles justifient donc <hi rend="i">a posteriori</hi> les deux principes énoncés par les ouvrages précédents. En outre, au <num>xviii<hi rend="sup">e</hi></num> siècle, ces mots techniques nous sont livrés dans un contexte descriptif et analytique conforme à l’esprit du siècle de l’<hi rend="i">Encyclopédie.</hi></p>
         <p>Au <num>xx<hi rend="sup">e</hi></num> siècle, la disparition des témoins des techniques anciennes souligne l’urgence qu’il y a de recueillir les mots : après la guerre de 1914-1918, l’héritage se perd.</p>
       </div>
-      <div>
+      <div xml:id="r890471">
         <pb source="https://nakala.fr/10.34847/nkl.aa530um7#959b58a1ab5ef8eaa277afc532881a1617789ac6" n="50" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa530um7/959b58a1ab5ef8eaa277afc532881a1617789ac6/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
           <lb/>La recherche et l’utilisation des mots</head>
-        <div>
+        <div xml:id="r890484">
           <head rend="uc">Chapitre premier
             <lb/>les sources et leur utilisation</head>
           <p>La recherche a été faite dans les archives du <num>xiv<hi rend="sup">e</hi></num> au <num>xviii<hi rend="sup">e</hi></num> siècle : la totalité des comptes consulaires de Castelnau de Montmiral (<num>xiv<hi rend="sup">e</hi></num>-<num>xv<hi rend="sup">e</hi></num> siècle), ceux d’Albi pour le début du <num>xv<hi rend="sup">e</hi></num> siècle, les archives municipales de Castres et de Gaillac, divers registres de notaires (<num>xvi<hi rend="sup">e</hi></num> et <num>xvii<hi rend="sup">e</hi></num> siècles), des rapports d’expertise (<num>xviii<hi rend="sup">e</hi></num> siècle). La langue du <num>xix<hi rend="sup">e</hi></num> siècle est étudiée principalement d’après les dictionnaires de Gary et de Couzinié (Castres, 1845 et 1850).</p>
           <p>Des enquêtes enregistrées, faites auprès de maçons, de charpentiers et d’artisans, ont permis de pousser l’examen de l’évolution des mots jusqu’à nos jours : elles ont été menées principalement dans le Ségala, le pays castrais, le Vaurais et la Montagne Noire, à Montmiral et à Anglés.</p>
           <p>Ces matériaux ont été classés dans l’ordre alphabétique et dans l’ordre méthodique ; ce dernier regroupe les synonymes et permet de les situer les uns par rapport aux autres dans le temps et l’espace. L’étude se déroule en plusieurs étapes : la datation, la localisation, la définition, la synthèse autour de sujets complexes.</p>
         </div>
-        <div>
+        <div xml:id="r890556">
           <head rend="uc">Chapitre II
             <lb/>Présentation de l’albigeois</head>
           <p>Le cadre géographique et historique, justifié par l’identité entre le territoire des <hi rend="i">Ruteni provinciales</hi> et le département du Tarn, formé des trois diocèses d’Albi, Castres et Lavaur, présente paradoxalement moins d’uniformité que les cadres linguistiques et techniques.</p>
@@ -86,7 +84,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.aa530um7#caa279355317ae4fae416513214e3bff7634d0f3" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa530um7/caa279355317ae4fae416513214e3bff7634d0f3/full/full/0/default.jpg"/>
           <p>Ainsi, la diversité du vocabulaire technique apparaît étroitement liée aux ressources du sol et du sous-sol.</p>
         </div>
-        <div>
+        <div xml:id="r890610">
           <head rend="uc">Chapitre III
             <lb/>Les mots au service de l’histoire des techniques</head>
           <p>Les mots ne rendront compte de cette diversité que s’ils sont définis en fonction de leur utilisation précise. Ainsi <hi rend="i">secadou</hi> et <hi rend="i">sechouer</hi> correspondent à des usages différents, parus à des époques différentes (séchoir à châtaignes et séchoir d’industrie). Les aires linguistiques de <hi rend="i">truel</hi> ou de <hi rend="i">trel</hi> semblent correspondre aux régions où sont usités soit des pressoirs à huile, soit des pressoirs de vendange. Par ailleurs, <hi rend="i">menar</hi> (1421), rapproché de <hi rend="i">menadou</hi> (1637), signifie précisément « actionner » (le branloire d’un soufflet de forge).</p>
@@ -94,7 +92,7 @@
           <p>Le mot <hi rend="i">escandel</hi> (1967), pièce d’une scie hydraulique permettant de régler l’épaisseur des planches, attesté isolément en 1594, permet de supposer l’existence d’un procédé semblable à cette époque.</p>
           <p>Le mot <hi rend="i">cadalbre</hi> (arbre à cames), attesté de 1592 jusqu’à nos jours, a été considéré comme le terme propre par les hommes du <num>xviii<hi rend="sup">e</hi></num> siècle et n’a pas été traduit. <hi rend="i">Cap</hi> est ici non pas simplement la tête, mais la partie active de l’arbre moteur, celle qui transmet le mouvement.</p>
         </div>
-        <div>
+        <div xml:id="r890695">
           <head rend="uc">Chapitre IV
             <lb/>Les migrations techniques et la langue</head>
           <p>Les textes nous renseignent parfois sur l’origine des matériaux ou des hommes de l’art : <hi rend="i">fer de Foys, peyra de Plasensa, pierre d’Alet.</hi> Les patronymes peuvent confirmer ces influences : <hi rend="i">Raimon, de Rocilho</hi> est forgeron. Le terme technique peut être un mot d’origine géographique : <hi rend="i">aoubergnas</hi> (scieur de long), <hi rend="i">picardo</hi> (galetas surélevé).</p>
@@ -102,7 +100,7 @@
           <p>Le terme <hi rend="i">coulanos</hi> (1966), désignant les montants d’une scie hydraulique, est un autre exemple caractéristique. Son origine gasconne suggère une telle influence sur le plan technique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r890746">
         <pb source="https://nakala.fr/10.34847/nkl.aa530um7#6815d678973e3b5c5c19b4393e3903755bf9497b" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa530um7/6815d678973e3b5c5c19b4393e3903755bf9497b/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
           <lb/>Regroupement méthodique des termes techniques</head>
@@ -114,7 +112,7 @@
         <pb source="https://nakala.fr/10.34847/nkl.aa530um7#ed18c0a6e3f1c2dce98c38d5bb2536585022b35d" n="53" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa530um7/ed18c0a6e3f1c2dce98c38d5bb2536585022b35d/full/full/0/default.jpg"/>
         <p><hi rend="i">L’architecture et les techniques industrielles.</hi> – Le fer est extrait à Ambialet en 1274 ; la mine se compose de galeries probablement boisées. Une fonderie et une forge sont attestées à Escoussens en 1284. Le cuivre est acheminé de Rieupeyroux (Aveyron) à Monestiés (début <num>xv<hi rend="sup">e</hi></num> siècle). L’étain provient de la récupération de pichets ou de vases ; la résine, <hi rend="i">peroyna,</hi> est employée pour le souder. La fonte des cloches est un événement : semblable au phénix, la cloche brisée, coulée dans son moule parmi les tombes, à l’intérieur de l’église, est déterrée (<hi rend="i">dessencrossar,</hi> 1423) et baptisée. On bat toujours le cuivre à Durfort, à l’aide d’un martinet mu par un <hi rend="i">cadalbre.</hi> Dans les tuileries, on laisse au temps le soin d’émietter la terre à brique : un cheval, faisant tourner deux roues dans la <hi rend="i">bardiera</hi> (fosse), lui donne la consistance convenable. Les verriers viennent du Nivernais. Les grandes meulières qui approvisionnent le département se trouvent à Salles (Tarn) et à Saint-Julien-en-Minervois (Hérault). La pelle qui, sous la trémie d’un moulin reçoit le grain, s’orne de la tête d’un cheval, celui dont le galop anime le moulin. On lit l’âge de la crapaudine de bronze au nombre de ses trous et elle sert plusieurs générations de meuniers.</p>
       </div>
-      <div>
+      <div xml:id="r890862">
         <head rend="uc">Troisième partie
           <lb/>Glossaire des termes techniques de la construction</head>
         <p>Le glossaire comprend des termes de langue d’oc, des mots patois, c’est-à-dire issus du français, et les <hi rend="i">escaisses</hi> ou argot de métier.</p>
@@ -123,7 +121,7 @@
         <p>Le glossaire comprend plus de dix mille formes, classées dans l’ordre alphabétique des graphies.</p>
         <p>Chaque article rassemble des exemples datés. On a tenté dans certains cas de définir le mot en fonction de l’usage que rapportait le texte <hi rend="i">: lia,</hi> tige de fer reliant la cloche au mouton, ou encore anneau de fer enserrant l’extrémité d’une poutre. Quelques articles comportent un exposé de caractère technique : ainsi, l’article <hi rend="i">arbre</hi> (arbre moteur) renvoie aux dictionnaires encyclopédiques du <num>xviii<hi rend="sup">e</hi></num> siècle, et celui de <hi rend="i">burc</hi> (bruyère) à une enquête sur la couverture des maisons. D’autres articles discutent les définitions données par les dictionnaires de référence : ceux d’Alibert (<hi rend="i">Dictionnaire occitan-français</hi>) ou de Cayla (<hi rend="i">Dictionnaire des institutions, des coutumes et de la langue dans quelques pays de Languedoc, de 1535 à 1648</hi>).</p>
       </div>
-      <div>
+      <div xml:id="r890963">
         <pb source="https://nakala.fr/10.34847/nkl.aa530um7#f25d9c54e2466bd73e6325ce2c79f8c789a43642" n="54" facs="https://api.nakala.fr/iiif/10.34847/nkl.aa530um7/f25d9c54e2466bd73e6325ce2c79f8c789a43642/full/full/0/default.jpg"/>
         <head rend="uc">Quatrième partie
           <lb/>Recueil d’illustrations</head>

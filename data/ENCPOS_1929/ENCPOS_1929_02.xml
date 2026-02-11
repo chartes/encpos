@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1929_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,7 +63,7 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r474620">
         <head rend="uc">Chapitre preliminaire
          <lb/>la Navarre a l’avènement du premier roi champenois
          <lb/>Thibaut I<hi rend="sup">er</hi></head>
@@ -75,24 +73,24 @@
         <p>II. – <hi rend="i">Condition des personnes : a</hi>) clergé ; <hi rend="i">b</hi>) noblesse : infanzons, cavalleros, ricombres ; <hi rend="i">c</hi>) élément populaire : ruanos, francos, labradores et collazos.</p>
         <p>La Navarre était gouvernée selon des fors généraux et particuliers que les rois, à leur avènement prêtaient serment de respecter.</p>
       </div>
-      <div>
+      <div xml:id="r474677">
         <head rend="uc">Première partie
          <lb/>La Navarre sous les rois champenois
          <lb/>1234-1274</head>
-        <div>
+        <div xml:id="r474687">
           <head rend="uc">Chapitre premier
            <lb/>les difficultés avec la noblesse navarraise</head>
           <p>Ligues formées par les nobles contre l’absolutisme royal : la <hi rend="i">junta d’Obanos,</hi> ses causes. Thibaut I<hi rend="sup">er</hi>, soutenu par le Pape et grâce à quelques concessions parvient à maîtriser la noblesse du royaume.</p>
           <p>Réaction des nobles au début de la minorité de Thibaut II (1253-1255) : serments qui sont imposés au roi. Sa mère Marguerite, privée de la régence, <pb source="https://nakala.fr/10.34847/nkl.39dbvr91#3856cbb032ea5310907d684aa5ffed78ff4c263f" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.39dbvr91/3856cbb032ea5310907d684aa5ffed78ff4c263f/full/full/0/default.jpg"/>quitte la Navarre que gouvernent alors la noblesse et le roi d’Aragon. A sa majorité, en 1257, Thibaut II triomphe. Il est délié de ses serments par le pape. Le roi Henri succède sans difficulté en 1270 à son frère. Mais la tranquillité des nobles n’est qu’apparente.</p>
         </div>
-        <div>
+        <div xml:id="r474715">
           <head rend="uc">Chapitre II
            <lb/>Le conflit avec les évêques de Pampelune</head>
           <p><hi rend="i">Ses, causes :</hi> Empiètements des rois sur les nombreux privilèges dont jouissaient le Chapitre de la cathédrale et les évêques de Pampelune. Grégoire IX défend les intérêts de Thibaut I<hi rend="sup">er</hi> pendant que le roi de Navarre est à la croisade.</p>
           <p>I. – Le conflit, très violent, éclate en 1246 ; le roi est excommunié, le royaume mis en interdit. Appel de Thibaut I<hi rend="sup">er</hi> à Innocent IV. Procès en cour de Rome. L’évêque, réfugié à Navardun en Aragon, dirige de là son diocèse et la lutte contre Thibaut. Soumission apparente du roi en 1250 ; il ne remplit pas ses engagements. Le royaume est remis en interdit le 3 janvier 1253. La régente Marguerite continue la résistance. Au début de 1255, Alexandre IV confirme les décisions d’innocent IV ; la situation paraît sans issue.</p>
           <p>II. – Accord du 6 décembre 1255 entre l’évêque et Thibaut II : partage de la juridiction et des droits sur Pampelune. Mais le Chapitre s’y oppose et fait appel au pape. Annulation de l’accord de 1255 par Alexandre IV en 1259. A la mort d’Henri en 1274 tout est encore en suspens.</p>
         </div>
-        <div>
+        <div xml:id="r474744">
           <pb source="https://nakala.fr/10.34847/nkl.39dbvr91#72457c55a1540a85d2d53d307642b12149a9dd4e" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.39dbvr91/72457c55a1540a85d2d53d307642b12149a9dd4e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Rapports des rois champenois
@@ -101,7 +99,7 @@
           <p>II. – Sentences arbitrales de juillet 1254 au sujet des atteintes faites aux fors par Thibaut I<hi rend="sup">er</hi> ; Thibaut II s’y soumet sans contestation.</p>
           <p>III. – Les rois confirment les fors, accordent de nombreux privilèges aux laboureurs et luttent contre les excès de leurs propres officiers locaux. Chartes de peuplement.</p>
         </div>
-        <div>
+        <div xml:id="r474773">
           <head rend="uc">Chapitre IV
            <lb/>Politique extérieure des rois champenois</head>
           <p><hi rend="i">Thibaut I :</hi> Traité d’alliance en septembre 1234 avec la Castille, cimenté par une promesse de mariage entre Blanche, fille de Thibaut I<hi rend="sup">er</hi>, et Alphonse, fils aîné de Ferdinand III. Conditions et but de cette alliance.</p>
@@ -113,11 +111,11 @@
           <p>C’est ainsi que par d’habiles promesses de mariage jamais réalisées, les rois champenois ne cessèrent de faire entrevoir tantôt à l’un, tantôt à l’autre, de leurs puissants voisins la succession possible de Navarre et parvinrent à éviter de leur vivant la guerre étrangère.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r474830">
         <head rend="uc">Deuxieme partie
          <lb/>La guerre de Navarre
          <lb/>1274-1276</head>
-        <div>
+        <div xml:id="r474840">
           <head rend="uc">Chapitre premier
            <lb/>causes de la crise</head>
           <p>I. – A la mort d’Henri en 1274, la Navarre se trouve aux mains d’une régente étrangère, Blanche <pb source="https://nakala.fr/10.34847/nkl.39dbvr91#3cf1ad373421ff668926f1bcc30750ef18d92eb9" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.39dbvr91/3cf1ad373421ff668926f1bcc30750ef18d92eb9/full/full/0/default.jpg"/>d’Arlois, exerçant le pouvoir au nom de sa fille, la reine Jeanne, âgée de deux ans.</p>
@@ -125,7 +123,7 @@
           <p>III. – Mécontentement et ambition des nobles du royaume et du clergé de Pampelune.</p>
           <p>IV. – La ville de Pampelune est formée de quatre villes distinctes : la cité ou Navarrerie, la poblacion St-Nicolas, le bourg St-Sernin et le bourg St-Michel, ayant chacune leurs fors, leur administration autonome, leurs murailles, sans liens entre elles, n’obéissant pas à un pouvoir supérieur unique. Rivalités très anciennes entre ces villes. Sanche et les rois champenois sont parvenus à grand peine à les maintenir en paix.</p>
         </div>
-        <div>
+        <div xml:id="r474866">
           <head rend="uc">Chapitre II
            <lb/>La Navarre en péril</head>
           <p><hi rend="i">Mesures prises contre le danger :</hi> 1. L’assemblée du 27 août 1274 choisit, comme gouverneur, Pedro Sanchiz. 2. Ligue des villes de Navarre. 3. Pour ne pas mécontenter la noblesse navarraise et pour s’assurer un allié contre la Castille, Blanche promet sa fille à l’infant d’Aragon. Mais ce genre de promesses ne suffisait plus.</p>
@@ -135,20 +133,20 @@
           <p>L’infant de Castille pénètre en Navarre et occupe Mendavia.</p>
           <p><hi rend="i">A l’intérieur :</hi> 1. La guerre civile éclate dans Pampelune entre le bourg St-Sernin et la poblacion St-Nicolas d’une part, la Navarrerie poussée par le Chapitre cathédral de l’autre ; 2. Rivalités entre le gouverneur Pedro Sanchiz, tenant de l’Aragon et des bourgs, et Garcia Almoravid, tenant de la Castille et de la cité. L’alferiz, Gonzalvo Ibanez, attise les querelles ; 3. Trois partis dans le reste du royaume : pour la légitimité et la France, pour l’Aragon, pour la Castille. Les villes continuent leurs conjurations, les campagnes sont dévastées.</p>
         </div>
-        <div>
+        <div xml:id="r474905">
           <head rend="uc">Chapitre III
            <lb/>Appel à la France – Eustache de Beaumarchais</head>
           <p>Les Navarrais demandent à Philippe le Hardi, tuteur de leur reine, un gouverneur et du secours contre la Castille. Traité d’Orléans (1275), approbation par les Navarrais du mariage de Jeanne avec un des fils du roi de France, à la condition que leurs fors seront respectés.</p>
           <p>Arrivée d’Eustache de Beaumarchais en Navarre. II est reconnu comme gouverneur par tout le royaume à l’assemblée d’Estella. Il se concilie les différents partis, reçoit les serments de fidélité, fait la revue des troupes, paie les soldes. Mais en voulant interposer sa médiation entre les « villes » de Pampelune, il déclenche de nouveaux troubles.</p>
         </div>
-        <div>
+        <div xml:id="r474920">
           <head rend="uc">Chapitre IV
            <lb/>Révolte contre Eustache de Beaumarchais</head>
           <p>Ses causes. La Navarre est à nouveau divisée. <pb source="https://nakala.fr/10.34847/nkl.39dbvr91#eea13fc2d7ebfad1c38ecd22a6cb09a97bf6eb9f" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.39dbvr91/eea13fc2d7ebfad1c38ecd22a6cb09a97bf6eb9f/full/full/0/default.jpg"/>Deux camps : d’une part, Pedro Sanchiz, Garcia Almoravid, réconciliés tous deux par Gonzolvo Ibanez, là majeure partie de la noblesse, la Navarrerie, et l’église cathédrale de Pampelune, de l’autre, Eustache, les nobles partisans de la légitimité, les bourgs de Pampelune et la plupart des villes de Navarre.</p>
           <p>Complots contre Eustache.</p>
           <p>La guerre éclate dans Pampelune, les chefs des deux partis étant enfermés, les uns dans la Navarrerie, les autres dans les bourgs. Gaston de Béarn et les autres enquêteurs, envoyés par Philippe le Hardi obtiennent une trêve de quinze jours. Pedro Sanchiz, qui voulait se soumettre à Eustache est assassiné par Garcia Almoravid. Gaston de Béarn, épouvanté, revient précipitamment en France. La guerre sans merci recommence.</p>
         </div>
-        <div>
+        <div xml:id="r474943">
           <head rend="uc">Chapitre V
            <lb/>Répression de la révolte ; rétablissement de l’ordre
            <lb/>en Navarre par les français</head>
@@ -160,11 +158,11 @@
           <p>Au mois d’août 1277, Eustache de Beaumarchais quitte la Navarre qui ne donne plus aucun sujet d’in<pb source="https://nakala.fr/10.34847/nkl.39dbvr91#13ffcf9148c14a2c030ef651c1cb60385fc1472e" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.39dbvr91/13ffcf9148c14a2c030ef651c1cb60385fc1472e/full/full/0/default.jpg"/>quiétude. Le régime de l’administration française va achever le relèvement économique du pays.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r474978">
         <head rend="uc">Troisième partie
          <lb/>Les rois de France rois de Navarre
          <lb/>1271-1328</head>
-        <div>
+        <div xml:id="r474988">
           <head rend="uc">Chapitre premier
            <lb/>droit des rois de France au trône de Navarre
            <lb/>attitude des navarrais a leur égard</head>
@@ -174,7 +172,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.39dbvr91#2a19f0abd5556e741a117b9bab392008c40754c5" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.39dbvr91/2a19f0abd5556e741a117b9bab392008c40754c5/full/full/0/default.jpg"/>
           <p>IV. – Seuls les députés des villes envoient leur soumission à Charles le Bel. A sa mort, les Navarrais disposent librement de leur couronne en faveur de Jeanne d’Evreux, fille de Louis le Hutin.</p>
         </div>
-        <div>
+        <div xml:id="r475016">
           <head rend="uc">Chapitre II
            <lb/>Rapports des rois de France avec les évêques
            <lb/>de Pampelune</head>
@@ -182,7 +180,7 @@
           <p>II. – Sa politique prépare l’accord de 1291 entre Philippe le Bel et Jeanne, d’une part, l’évêque et le Chapitre de l’autre, accord qui renouvelle la tentative de 1255 en évitant les fautes commises alors. En 1298, confirmation par Boniface VIII. Opposition des habitants de Pampelune, qui font appel au Saint-Siège. Le procès traîne longtemps, Louis le Hutin confirme en vain l’accord de 1291, sans jamais pouvoir en obtenir l’exécution.</p>
           <p>III. – En 1319, accord définitif entre Philippe le Long et l’église cathédrale, qui abandonne au roi tous ses droits temporels. Le différend élevé en 1234 est enfin résolu.</p>
         </div>
-        <div>
+        <div xml:id="r475036">
           <head rend="uc">Chapitre III
            <lb/>Politique extérieure des rois de France</head>
           <p><hi rend="i">Sous Philippe le Hardi :</hi> Les intérêts de la Navarre se confondent avec les intérêts généraux de la France. Les Navarrais secondent Philippe le Hardi, défenseur de la cause des infants de la Cerda en Castille et de Charles de Valois en Aragon.</p>
@@ -194,7 +192,7 @@
           <p>III. – Philippe IV ayant tourné ses efforts contre l’Angleterre, des troubles éclatent sur les frontières de Navarre et de Guyenne. Mesures prises en 1308 pour éviter de nouveaux conflits entre Navarrais et habitants de la Guyenne.</p>
           <p><hi rend="i">Sous les successeurs de Philippe le Bel,</hi> la Navarre faisant corps avec la France n’est pas inquiétée par les Etats voisins. Seuls deux incidents éclatent aux frontières à l’insu des souverains.</p>
         </div>
-        <div>
+        <div xml:id="r475080">
           <head rend="uc">Chapitre IV
            <lb/>L’œuvre de restauration des rois de France
            <lb/>en Navarre</head>
@@ -202,7 +200,7 @@
           <p>Grande indulgence à l’égard des vaincus et en <pb source="https://nakala.fr/10.34847/nkl.39dbvr91#386fbdc269f8e79233d81c2eb4a084dc9c33e9bb" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.39dbvr91/386fbdc269f8e79233d81c2eb4a084dc9c33e9bb/full/full/0/default.jpg"/>particulier des chanoines de Pampelune. Les dommages causés par la guerre sont réparés, tous sujets de querelle dans l’administration évités. Reconstruction de la Navarrerie seulement après l’accord de 1319 entre le roi et l’évêque. En 1328, toutes les rues de la cité étaient peuplées.</p>
           <p>II. – Exécution du testament de Thibaut II. Dispense accordée à tout le royaume de payer « l’homicide par accident ». Excès des officiers locaux réprimés. Mesures de police pour maintenir l’ordre. Privilèges accordés par les rois de France à leurs sujets navarrais. Chartes de peuplement, en particulier sur les frontières.</p>
         </div>
-        <div>
+        <div xml:id="r475105">
           <head rend="uc">Chapitre V
            <lb/>Le personnel administratif et l’organisation
            <lb/>financière en Navarre

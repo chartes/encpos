@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1886_06" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1886_06" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,15 +59,15 @@
         <surname>Couderc</surname>
         <roleName rend="uc">Élève de l’École des Hautes-Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r145930">
         <head rend="uc">Première partie</head>
-        <div>
+        <div xml:id="r145936">
           <head rend="uc">Introduction. – Sources</head>
           <p>Objet et plan de la thèse. – Divers travaux ont été faits sur le règne de Charles IV, mais il n’y a pas d’étude d’ensemble.</p>
           <p>Chroniques qui peuvent, avec une valeur inégale, servir à l’histoire des événements. Autres écrits qui les complètent.</p>
           <p>Les documents diplomatiques ont une bien plus grande importance pour l’histoire des institutions. Quelques-uns sont publiés dans le Recueil des ordonnances, et dans les histoires provinciales, beaucoup sont inédits et se trouvent dans les diverses collections des Archives et de la Bibliothèque nationale.</p>
         </div>
-        <div>
+        <div xml:id="r145952">
           <pb source="https://nakala.fr/10.34847/nkl.c97c7tf9#48efd92c6e95ff04330d6c01d13cccca396d1260" n="56" facs="https://api.nakala.fr/iiif/10.34847/nkl.c97c7tf9/48efd92c6e95ff04330d6c01d13cccca396d1260/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre I
            <lb/>Charles IV. – Sa cour. – Ses conseillers.</head>
@@ -79,7 +77,7 @@
           <p>Quelle idée peut-on se faire du caractère et de la valeur de Charles IV ?</p>
           <p>Son principal conseiller fut Charles de Valois, son oncle, qui mourut le 16 décembre 1325. Après lui, aucun des personnages de l’entourage du roi ne paraît avoir eu une influence prépondérante. On peut citer parmi les autres conseillers Henri de Sully, Mile de Noyers, André de Florence et Pierre de Cugnières.</p>
         </div>
-        <div>
+        <div xml:id="r145981">
           <pb source="https://nakala.fr/10.34847/nkl.c97c7tf9#64d10712d7716b4a2d9d88ac8478eaf1cb336c1a" n="57" facs="https://api.nakala.fr/iiif/10.34847/nkl.c97c7tf9/64d10712d7716b4a2d9d88ac8478eaf1cb336c1a/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Relations avec le clergé.</head>
@@ -88,7 +86,7 @@
           <p>Il intervient en opposition avec le pape dans la nomination de l’archevêque de Tours (1323). Affaire de la chantrerie de Chartres.</p>
           <p>La royauté profite de la concession de lettres de sauvegarde faite plus particulièrement aux chapitres, couvents ou églises, pour étendre son influence. Charles IV en a confirmé ou accordé un grand nombre.</p>
         </div>
-        <div>
+        <div xml:id="r146007">
           <head rend="uc">Chapitre III
            <lb/>Relations avec la noblesse.</head>
           <p>Pendant les règnes de Philippe IV et de Philippe V, la noblesse avait déjà perdu ses plus chères prérogatives ; Charles le Bel ne se montra pas agressif, mais défendit avec fermeté les droits de la couronne.</p>
@@ -98,7 +96,7 @@
           <p>Charles IV anoblit plusieurs personnes de son entourage, ses deux trésoriers Guillaume de Dicy et P. Remy, <pb source="https://nakala.fr/10.34847/nkl.c97c7tf9#3bb90a6f9a3afd5027441f25781c5d4cc383143c" n="58" facs="https://api.nakala.fr/iiif/10.34847/nkl.c97c7tf9/3bb90a6f9a3afd5027441f25781c5d4cc383143c/full/full/0/default.jpg"/>l’avocat P. de Maucreux, etc. ; mais sous cette générosité apparente se cache un but fiscal. Le Journal du Trésor en fournit la preuve.</p>
           <p>Il érige en duché-pairie la baronnie d’Étampes (sept. 1327) et la baronnie de Bourbon (déc. 1327). Les ducs de Bretagneet de Bourgogne restent pendant ce règne complètement à l’écart.</p>
         </div>
-        <div>
+        <div xml:id="r146039">
           <head rend="uc">Chapitre IV
            <lb/>Relations avec le tiers état.</head>
           <p>Les communes étaient au <num>xiv<hi rend="sup">e</hi></num> siècle en pleine décadence ; leur situation financière était mauvaise.</p>
@@ -108,7 +106,7 @@
           <p>Diverses assemblées eurent lieu pendant le règne, dans les bailliages en 1323, dans les jugeries du Languedoc en 1325, et à Meaux en 1326, mais aucune d’elles ne fut générale et ne comprit des députés des trois ordres.</p>
           <p>Le roi accorde des affranchissements individuels ou col<pb source="https://nakala.fr/10.34847/nkl.c97c7tf9#e326f3cf98dc5eae5c9f999d1510c2cf5e7914e1" n="59" facs="https://api.nakala.fr/iiif/10.34847/nkl.c97c7tf9/e326f3cf98dc5eae5c9f999d1510c2cf5e7914e1/full/full/0/default.jpg"/>lectifs (habitants de Mesnil) et confirme ceux qui sont faits par les seigneurs.</p>
         </div>
-        <div>
+        <div xml:id="r146077">
           <head rend="uc">Chapitre V
            <lb/>Le parlement.</head>
           <p>Le Parlement comprend la grand’chambre, la chambre des enquêtes et la chambre des requêtes. Composition et attributions de chacune d’elles.</p>
@@ -119,7 +117,7 @@
           <p>Plusieurs d’entre eux vont deux fois tous les ans à Rouen tenir l’Échiquier.</p>
           <p>L’organisation du Parlement n’est pas encore complète, les pouvoirs des diverses chambres ne sont pas définis et réglés.</p>
         </div>
-        <div>
+        <div xml:id="r146107">
           <head rend="uc">Chapitre VI
            <lb/>Chambre des comptes. – Trésor.</head>
           <p>I. <hi rend="i">Chambre des Comptes.</hi> – Sa composition, sous Philippe le Bel et ses trois fils, est très variable et ne peut être établie d’une manière sûre.</p>
@@ -134,7 +132,7 @@
           <p>Fonctions des trésoriers. Leurs attributions administratives sont très restreintes. C’est la Chambre des comptes qui a la haute main dans l’administration financière.</p>
           <p>Les trésoriers, Pierre Remy en particulier, ont prêté au roi des sommes considérables. C’est dans la situation que leur faisait cet état de choses qu’il faut en grande partie chercher le secret de leur influence.</p>
         </div>
-        <div>
+        <div xml:id="r146163">
           <pb source="https://nakala.fr/10.34847/nkl.c97c7tf9#8f65a5ff12271b4b48e926f9f23642bf6b3e59b9" n="61" facs="https://api.nakala.fr/iiif/10.34847/nkl.c97c7tf9/8f65a5ff12271b4b48e926f9f23642bf6b3e59b9/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VII
            <lb/>Hôtel du roi</head>
@@ -146,7 +144,7 @@
           <p>Le maître de l’écurie va toucher au Trésor l’argent qui lui est nécessaire. Dépenses faites pour le haras du roi à <hi rend="i">la Fouillie.</hi></p>
           <p>Les ordonnances de 1317 et 1322 ne disent rien de l’argenterie. Ordonnance de 1323 et nomination de Pierre Toussac comme argentier du roi.</p>
         </div>
-        <div>
+        <div xml:id="r146205">
           <head rend="uc">Chapitre VIII
            <lb/>Administration locale</head>
           <p>Pouvoirs des baillis et des senéchaux ; leurs gages. Amaury de Craon vend au roi sa charge de senéchal héréditaire de Touraine (18 avril 1323).</p>
@@ -161,7 +159,7 @@
           <head rend="uc">Conclusion.</head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r146246">
           <head rend="uc">Appendices.</head>
           <p>I. Note sur le baptême de Charles IV et la dissolution de son mariage avec Blanche de Bourgogne.</p>
           <p>II. Note sur le Journal du Trésor. – Extraits du Journal du Trésor.</p>
@@ -172,7 +170,7 @@
           <p/>
         </div>
       </div>
-      <div>
+      <div xml:id="r146272">
         <pb source="https://nakala.fr/10.34847/nkl.c97c7tf9#aa8932135f1e1a751d062173ffcb01e526ef513f" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.c97c7tf9/aa8932135f1e1a751d062173ffcb01e526ef513f/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie</head>
         <p>I. Remarques sur la diplomatique de Charles IV. Les actes de ce roi peuvent être divisés en trois catégories principales, les lettres patentes, les mandements et les lettres closes. Etude plus particulière des caractères qui servent à distinguer les mandements. – Le journal du Trésor nous donne les noms de ceux qui, à deux reprises, gravèrent le sceau du roi, Pierre et Jean de Montpellier d’abord et Jean de Tournay ensuite.</p>

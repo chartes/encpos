@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_15" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1943_15" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,14 +58,14 @@
         <head rend="uc">Sources – Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r638322">
         <head rend="uc">Introduction</head>
         <p>Avant la Révolution, assistance publique et assistance privée se confondent. L’assistance privée existe d’abord seule, puis l’assistance publique se substitue peu à peu à elle, pour ne la supplanter qu’à la Révolution.</p>
       </div>
-      <div>
+      <div xml:id="r638332">
         <head rend="uc">Première partie
          <lb/>L’Hôtel-Dieu de Blois</head>
-        <div>
+        <div xml:id="r638340">
           <head rend="uc">Chapitre premier
            <lb/>l’Hôtel-Dieu du <num>xii<hi rend="sup">e</hi></num> au <num>xvi<hi rend="sup">e</hi></num> siècle.</head>
           <p>1. <hi rend="i">Origine et développement.</hi> – L’Hôtel-Dieu de Blois existait probablement en 1121. D’abord prieuré dépendant de l’abbaye voisine de Bourgmoyen, il s’affranchit de cette tutelle à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle. Les comtes de Blois, imités par les seigneurs blésois et les bourgeois de la ville, lui font d’importantes donations. Son domaine s’accroît rapidement.</p>
@@ -77,12 +75,12 @@
           <p>4. <hi rend="i">Les bâtiments.</hi> – Trop étroits pour le nombre de personnes vivant à l’Hôtel-Dieu, les bâtiments sont composés de quatre corps de bâtiments construits autour d’une vaste cour.</p>
           <p>5. <hi rend="i">Les revenus et le domaine.</hi> – Le domaine est déjà considérable. Les biens fonciers sont la principale source de revenus. Les charges sont lourdes et les comptes présentent le plus souvent un excédent de dépenses.</p>
         </div>
-        <div>
+        <div xml:id="r638413">
           <head rend="uc">Chapitre II
            <lb/>La réforme de l’Hôtel-Dieu.</head>
           <p>La réunion du temporel et du spirituel entre les mains des religieux avait amené des abus. La municipalité de Blois intervient dans la gestion de l’Hôtel-Dieu à l’occasion d’un procès avec le prieur.</p>
         </div>
-        <div>
+        <div xml:id="r638425">
           <head rend="uc">Chapitre III
            <lb/>L’administration de l’Hôtel-Dieu de 1531 à 1793.</head>
           <p>1. <hi rend="i">Les administrateurs.</hi> – D’abord au nombre de trois, puis <pb source="https://nakala.fr/10.34847/nkl.a715t9p0#8216a7ca7464fc830eb3caade6ad730e45f774a5" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.a715t9p0/8216a7ca7464fc830eb3caade6ad730e45f774a5/full/full/0/default.jpg"/>de six, de 1638 à 1685, puis de deux, les administrateurs sont assistés d’un receveur nommé suivant le même mode. Ils gèrent le patrimoine des pauvres et surveillent les serviteurs. Ils doivent rendre compte à un commissaire désigné par le Parlement de Paris et, après 1695, à l’évêque de Blois. Ils sont contrôlés par un bureau ou une assemblée, bureau élargi.</p>
@@ -90,7 +88,7 @@
           <p>3. <hi rend="i">Les religieuses.</hi> – Trois religieuses en 1531, puis une seule de 1600 à 1631. En 1635, on installe huit religieuses qui sont mises à la tête de différents services de l’Hôtel-Dieu. Elles sont sous les ordres d’une supérieure, assistée d’une sœur économe.</p>
           <p>4. <hi rend="i">Le personnel libre.</hi> – Trois catégories d’<hi rend="i">officiers</hi> : les chirurgiens et le médecin, les serviteurs qui reçoivent des gages, les serviteurs non salariés. On peut y ajouter les externes, serviteurs non logés à l’Hôtel-Dieu. Parfois, l’Hôtel-Dieu a un avocat, un procureur et un notaire attitrés.</p>
         </div>
-        <div>
+        <div xml:id="r638471">
           <head rend="uc">Chapitre IV
            <lb/>Les malades.</head>
           <p>1. <hi rend="i">Les malades.</hi> – L’Hôtel-Dieu reçoit tous les malades, sauf les contagieux et les incurables, et les blessés. Au <num>xviii<hi rend="sup">e</hi></num> siècle, il recevra aussi les soldats malades de la garnison de Blois.</p>
@@ -98,22 +96,22 @@
           <p>3. <hi rend="i">Les pauvres.</hi> – L’Hôtel-Dieu admet toujours les pauvres, mais le nombre de ceux-ci tend à diminuer. Il s’agit. <pb source="https://nakala.fr/10.34847/nkl.a715t9p0#8fea71263fe27f5001cde4ea06fed3bb109d131a" n="130" facs="https://api.nakala.fr/iiif/10.34847/nkl.a715t9p0/8fea71263fe27f5001cde4ea06fed3bb109d131a/full/full/0/default.jpg"/>en général, de pauvres âgés ou infirmes. Il arrivait aussi que l’Hôtel-Dieu hébergeât, pour une nuit ou deux, des passants pauvres.</p>
           <p>4. <hi rend="i">L’Hôtel-Dieu de Saint-Dyé.</hi> – L’Hôtel-Dieu de Saint-Dyé ne reçoit plus de malades après 1576 et, en 1589, l’Hôtel-Dieu de Blois cesse d’y mettre un gardien.</p>
         </div>
-        <div>
+        <div xml:id="r638525">
           <head rend="uc">Chapitre V
            <lb/>Les bâtiments.</head>
           <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle, les administrateurs font d’abord séparer les logis des religieux des locaux occupés par les malades ; puis on élève plusieurs bâtiments nouveaux destinés à recevoir les pauvres et les petits enfants. Au <num>xvii<hi rend="sup">e</hi></num> siècle, il faut réparer une partie des bâtiments pour y loger les religieuses, puis on construit un bâtiment destiné aux femmes et aux enfants. Au <num>xviii<hi rend="sup">e</hi></num> siècle, l’Hôtel-Dieu acquiert des maisons voisines pour s’agrandir. Malgré ces travaux, à la Révolution, l’Hôtel-Dieu est encore trop étroit.</p>
         </div>
-        <div>
+        <div xml:id="r638555">
           <head rend="uc">Chapitre VI
            <lb/>Les revenus.</head>
           <p>Les biens fonciers sont la principale source des revenus de l’Hôtel-Dieu. 11 s’y ajoute les aumônes, les dons et les legs et, au <num>xviii<hi rend="sup">e</hi></num> siècle, les indemnités pour les jours de maladie des soldats. Les charges restent très lourdes. Le budget de l’Hôtel-Dieu s’équilibre difficilement. Pourtant, dans les années qui précèdent la Révolution, la situation semble s’améliorer.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r638574">
         <head rend="uc">Deuxième partie
          <lb/>Les épidémies et les secours
          <lb/>aux pauvres</head>
-        <div>
+        <div xml:id="r638584">
           <pb source="https://nakala.fr/10.34847/nkl.a715t9p0#e25b11bf22522b3d18200785e085a80cd5b61a24" n="131" facs="https://api.nakala.fr/iiif/10.34847/nkl.a715t9p0/e25b11bf22522b3d18200785e085a80cd5b61a24/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>la maladrerie saint-lazare.</head>
@@ -123,7 +121,7 @@
           <p>4. <hi rend="i">Les bâtiments.</hi> – L’église avait brûlé à la fin du <num>xii<hi rend="sup">e</hi></num> siècle et fut reconstruite au <num>xiii<hi rend="sup">e</hi></num> siècle. Les autres bâtiments furent entièrement reconstruits au cours des <num>xvii<hi rend="sup">e</hi></num>-<num>xviii<hi rend="sup">e</hi></num> siècles.</p>
           <p>5. <hi rend="i">Les revenus.</hi> – Le domaine fut partagé entre les religieux et le prieur ; la part du prieur est évaluée à 1,700 livres tournois en 1672. Cette part fut attribuée à l’Hôpital général en 1695.</p>
         </div>
-        <div>
+        <div xml:id="r638669">
           <head rend="uc">Chapitre II
            <lb/>Les épidémies.</head>
           <p>1. <hi rend="i">Les principales épidémies.</hi> – Les principales épidémies <pb source="https://nakala.fr/10.34847/nkl.a715t9p0#6fa745cfa3c576f851e24c4980cc72778baad6de" n="132" facs="https://api.nakala.fr/iiif/10.34847/nkl.a715t9p0/6fa745cfa3c576f851e24c4980cc72778baad6de/full/full/0/default.jpg"/>eurent lieu en 1511, 1530, 1545, 1581, 1603, 1626, 1631. La maladie contagieuse est toujours appelée peste.</p>
@@ -131,7 +129,7 @@
           <p>3. <hi rend="i">Les malades.</hi> – – La plupart des malades étaient transportés au <hi rend="i">Sanitas.</hi> Ceux qui se faisaient soigner chez eux étaient consignés et leurs maisons <hi rend="i">obstaclées.</hi> La ville faisait choix d’un lieu de retraite pour les convalescents ; en 1626, elle achète pour eux la maison dite Tillière. Les malades décédés étaient inhumés de nuit dans des cimetières situés hors de la ville.</p>
           <p>4. <hi rend="i">Mesures de sécurité municipale.</hi> – Mesures pour protéger la ville : décri de la foire, garde aux portes ; mesures pour arrêter l’épidémie : feu dans les rues, isolement des malades, nomination d’un prévôt de santé ; mesures pour prévenir une reprise de l’épidémie : désinfection. Vœu do la ville en 1631. Difficultés financières qui résultent, pour la ville, de ces épidémies.</p>
         </div>
-        <div>
+        <div xml:id="r638737">
           <head rend="uc">Chapitre III
            <lb/>Les secours aux pauvres.</head>
           <p>1. <hi rend="i">Aumôneries.</hi> – Les abbayes seules, d’abord, ont un service organisé pour secourir les pauvres, mais, au <num>xvi<hi rend="sup">e</hi></num> siècle, la ville se substitue à elles.</p>
@@ -139,7 +137,7 @@
           <p>3. <hi rend="i">Assistance municipale.</hi> – Les pauvres étrangers sont en général expulsés, les pauvres originaires de la ville sont <pb source="https://nakala.fr/10.34847/nkl.a715t9p0#8619b5fa8a514b7e84574299f19b2a916e7bc0a7" n="133" facs="https://api.nakala.fr/iiif/10.34847/nkl.a715t9p0/8619b5fa8a514b7e84574299f19b2a916e7bc0a7/full/full/0/default.jpg"/>secourus ; en 1652, ils sont recueillis par l’Hôpital général. – Les famines. Mesures prises pour y remédier : arrêt de bateaux chargés de grain, limitation de la vente du blé, achat de blé, taxe du prix du pain, distribution de blé. – Mesures financières : contribution volontaire des habitants, taxes, emprunts.</p>
           <p>4. <hi rend="i">Les confréries de charité.</hi> – La première confrérie de charité fut créée en 1658 dans la paroisse Saint-Honoré. Des sœurs viennent seconder les <hi rend="i">dames</hi> de charité. Autres établissements charitables d’ordre privé : Nouvelles-Catholiques, fondé en 1620 ; Maison de la Providence, fondée en 1680 ; Refuge pour les jeunes ouvrières pauvres, fondé en 1726.</p>
         </div>
-        <div>
+        <div xml:id="r638789">
           <head rend="uc">Chapitre IV
            <lb/>L’hôpital général.</head>
           <p>1. <hi rend="i">Fondation et développement.</hi> – L’Hôpital général est fondé en 1657, par la Municipalité de Blois, pour recevoir les pauvres originaires de la ville, des faubourgs et de la banlieue. Installé en Vienne, il reçoit des dons importants du roi, du duc d’Orléans et des habitants de Blois.</p>
@@ -149,7 +147,7 @@
           <p>5. <hi rend="i">Les revenus.</hi> – Les revenus sont d’abord constitués par les aumônes et les quêtes seules. Formation d’un important domaine foncier. Léger excédent des recettes sur les dépenses.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r638839">
         <head rend="uc">Conclusion</head>
         <p>L’œuvre d’assistance de la ville de Blois est incomplète : pas d’asile pour les aliénés, ni pour les incurables. Les hôpitaux évoluent vers une spécialisation de leur activité.</p>
       </div>

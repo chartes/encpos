@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1900_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1900_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,22 +58,22 @@
         <forename>Félix</forename>
         <surname>de Coussemaker</surname>
       </byline>
-      <div>
+      <div xml:id="r246089">
         <head rend="uc">Introduction</head>
         <p>Le duc de Bourgogne, à la fin du <num>xiv<hi rend="sup">e</hi></num> siècle et au <num>xv<hi rend="sup">e</hi></num>, possède à son service de nombreux officiers qu’il charge souvent de missions importantes. Il y aurait intérêt à étudier plusieurs d’entre eux.</p>
         <p>Choix de Thierry Gherbode. – Division du sujet.</p>
         <p>Indication des sources manuscrites et bibliographie.</p>
       </div>
-      <div>
+      <div xml:id="r246117">
         <head rend="uc">Première partie
          <lb/>Thierry Gherbode et sa famille</head>
-        <div>
+        <div xml:id="r246125">
           <head rend="uc">Chapitre premier
            <lb/>origines de la famille Gherbode</head>
           <p>On a dit que Thierry Gherbode était issu d’une famille d’avoués de l’abbaye de Saint-Bertin à Saint-Omer ; on <pb source="https://nakala.fr/10.34847/nkl.def8p4d3#84ccdbd264f55ab2798afca42a46e05fa0a96daa" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.def8p4d3/84ccdbd264f55ab2798afca42a46e05fa0a96daa/full/full/0/default.jpg"/>trouve en effet, à des dates diverses, des personnages du nom de <hi rend="i">Gerbodo</hi> avoués de cette abbaye, mais on en rencontre également dans d’autres parties de la Flandre, et il nous parait impossible d’affirmer que Thierry Gherbode descende des avoués de Saint-Berlin.</p>
           <p>La première mention d’un Gherbode, dans la forme actuelle du nom, est de 1254, et, aux <num>xiii<hi rend="sup">e</hi></num> et <num>xiv<hi rend="sup">e</hi></num> siècles, nous rencontrons à Ypres de nombreux personnages portant ce nom. – L’un d’eux, Éloy Gherbode, joue dans la cité un rôle important, mais on ne peut affirmer qu’il était le grand-père de Thierry Gherbode.</p>
         </div>
-        <div>
+        <div xml:id="r246161">
           <head rend="uc">Chapitre II
            <lb/>Thierry gherrode. – Sa vie privée</head>
           <p>Les auteurs de biographies consacrées à Thierry Gherbode sont sobres de détails. – On ignore le lieu et la date de sa naissance, et on lui donne comme aïeul Éloy Gherbode, ce qui le ferait naître vers le milieu du <num>xiv<hi rend="sup">e</hi></num> siècle. Son père était Jean Gherbode.</p>
@@ -86,7 +84,7 @@
           <p>Il fut, successivement, secrétaire du duc, garde des Chartes de Flandre en 1399, maître des comptes en 1407, et mourut en 1421. En ces qualités, il obtint de nombreuses gratifications et se fit concéder divers fiefs.</p>
           <p>Son épitaphe actuelle place sa mort en 1419 ; elle est <pb source="https://nakala.fr/10.34847/nkl.def8p4d3#c049fa179da7330eb78936084068cbaba27bb06c" n="27" facs="https://api.nakala.fr/iiif/10.34847/nkl.def8p4d3/c049fa179da7330eb78936084068cbaba27bb06c/full/full/0/default.jpg"/>(le 1421. – Sa sépulture et son épitaphe en l’église de Wervicq.</p>
         </div>
-        <div>
+        <div xml:id="r246202">
           <head rend="uc">Chapitre III
            <lb/>Membres de la famille Gherbode, contemporains
            <lb/>de Thierry et postérieurs</head>
@@ -110,7 +108,7 @@
          <lb/>de Flandre et secrétaire du duc</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r246291">
         <head rend="uc">Chapitre premier
          <lb/>Thierry Gherbode, premier garde des chartes
          <lb/>de Flandre</head>
@@ -122,17 +120,17 @@
         <p>Sa commission est renouvelée en 1405 et 1419, et il con<pb source="https://nakala.fr/10.34847/nkl.def8p4d3#b42eed4394837997edc7715231753527117c5c26" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.def8p4d3/b42eed4394837997edc7715231753527117c5c26/full/full/0/default.jpg"/>serve ces fondions jusqu’à sa mort. Son successeur fut Jean de la Keythulle, et il y eut en Flandre des gardes des Chartes jusqu’en 1550. Le poste fut alors supprimé et la surveillance des archives confiée à des membres de la Chambre des Comptes de Lille.</p>
         <p>Organisation semblable, à la même époque, des archives du duché et de la comté de Bourgogne.</p>
       </div>
-      <div>
+      <div xml:id="r246334">
         <head rend="uc">Chapitre II
          <lb/>Thierry Gherbode, secrétaire du duc de Bourgogne</head>
         <p>Thierry Gherbode exerce déjà sous Louis de Male les fonctions de secrétaire, et Philippe le Hardi lui conserve sa charge. – Il reçoit des indemnités pour ses déplacements, de nombreuses gratifications du duc et des villes de Flandre et le payement de ses frais de bureau (cire, encre, parchemin et autres accessoires).</p>
         <p>Le premier acte contresigné par lui, que nous avons rencontré, est le traité conclu à Tournai le 18 décembre 1385, qui termine la révolte des Gantois. Depuis cette époque jusqu’en 1404, nous trouvons souvent sa signature. – 11 garda ses fonctions de secrétaire même après sa nomination au poste de garde des Chartes de Flandre et ne les quitta probablement qu’en 1404 ou 1405.</p>
       </div>
-      <div>
+      <div xml:id="r246349">
         <head rend="uc">Troisième partie
          <lb/>Thierry Gherbode. Chargé de négociations
          <lb/>pour le duc de Bourgogne</head>
-        <div>
+        <div xml:id="r246359">
           <head rend="uc">Chapitre premier
            <lb/>Thierry Gherbode, chargé par le duc de diverses
            <lb/>négociations</head>
@@ -150,7 +148,7 @@
           <p>En 1413, il a mission de ramener de Beauvais en Flandre Catherine, fille du duc, répudiée par son fiancé, le fils du roi de Sicile. En 1414 et 1415, il est au nombre des députés flamands envoyés à Paris pour terminer les négociations commencées devant Arras, entre le roi de France et le duc de Bourgogne.</p>
           <p>Pendant les années 1416 et 1417, il est préposé à l’audition des comptes du Franc de Bruges, et, en 1420, on le voit encore prendre en main les intérêts de la ville d’Oudenbourg.</p>
         </div>
-        <div>
+        <div xml:id="r246413">
           <head rend="uc">Chapitre II
            <lb/>Thierry Gherbode, négociateur des Trèves commerciales
            <lb/>conclues avec l’Angleterre</head>

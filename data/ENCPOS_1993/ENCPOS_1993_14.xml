@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,15 +56,15 @@
         <surname>Pompignoli</surname>
         <roleName>maître ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1231798">
         <head rend="uc">Introduction</head>
         <p>Le manuscrit français 358 de la Bibliothèque nationale (<hi rend="i">358</hi>) fait partie d’une vaste compilation, dite de Jehan Vaillant de Poitiers, qui comprend les manuscrits fr. 358 à 363. Il développe une version particulière de <hi rend="i">Guiron le Courtois,</hi> reprise, pour la plus grande part, dans le manuscrit de Genève, Bibliothèque Bodmer, 96-1, fol. 1-53c et 63a-107b (G), lui-même appartenant à un ensemble de deux manuscrits, Bodmer 96-1 et 96-2, qui représentent la version courte de cette compilation.</p>
       </div>
-      <div>
+      <div xml:id="r1231816">
         <pb source="https://nakala.fr/10.34847/nkl.efbfh80z#219a6ede18807528c9a9bd087e0980eac1d38ca5" n="114" facs="https://api.nakala.fr/iiif/10.34847/nkl.efbfh80z/219a6ede18807528c9a9bd087e0980eac1d38ca5/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Commentaire</head>
-        <div>
+        <div xml:id="r1231829">
           <head rend="uc">Chapitre premier
            <lb/>la genèse de l’œuvre</head>
           <p><hi rend="i">L’auteur.</hi> – L’auteur se nomme dans le second prologue. Jehan Vaillant de Poitiers semble être un clerc, peut-être un moine de l’ordre des Carmes.</p>
@@ -91,7 +89,7 @@
           <p>Première partie : Les origines de Guiron, ses premières aventures ; Guiron et Gallehault. Les aventures de Segurant. Les aventures de Guiron ; la première fête de l’Ombre. Les aventures de Guiron : Guiron et Danain ; la deuxième fête de l’Ombre. Les aventures de Guiron. Les aventures de Gallehault. Les aventures de Segurant. Le combat du Bon Chevalier Sans Paour et de Lamorast de Listenois contre Helyanor et Escanor. Les aventures de Segurant. Les aventures de Guiron et Gallehault.</p>
           <p>Deuxième partie : Les débuts de la guerre entre le roi d’Écosse et le roi Armant d’Oultre les Marches. Retour en arrière : l’histoire d’amour de Guiron et de Reis. La guerre du roi d’Écosse et du roi Armant. Les aventures de Guiron et Danain sur le chemin de l’Isle Desvee. Guiron et la dame de Malehault. Les lendemains de la guerre du roi d’Écosse et du roi Armant. Les aventures du Bon Chevalier Sans Paour. Les aventures de Blioberis. Les aventures de Meliadus.</p>
         </div>
-        <div>
+        <div xml:id="r1231950">
           <pb source="https://nakala.fr/10.34847/nkl.efbfh80z#8be3439d6c6a82226eb8ab1ac7d4695aa558cc15" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.efbfh80z/8be3439d6c6a82226eb8ab1ac7d4695aa558cc15/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Le chevalier et son cadre</head>
@@ -110,7 +108,7 @@
           <p>Mais les buts de la chevalerie sont parfois détournés : bien souvent, garder l’incognito n’est plus une preuve de modestie, mais un prétexte pour accroître sa gloire. Le chevalier fait preuve de démesure et d’orgueil (particulièrement Leodagan de Carmelide), ou utilise sa force à mauvais escient.</p>
           <p>Le chevalier errant part « adventure querant » : cette quête, qui se réduit à la recherche de la gloire personnelle, y compris lorsqu’il protège les faibles, paraît au lecteur moderne désespérément vide, parce qu’elle ne contient aucun élément de recherche spirituelle : ce ne sont plus des chevaliers du Graal.</p>
         </div>
-        <div>
+        <div xml:id="r1232034">
           <head rend="uc">Chapitre III
            <lb/>Comparaison formelle des deux manuscrits</head>
           <p><hi rend="i">Analyse grammaticale.</hi> – Transcrits au début du XV’ siècle, selon toute vraisemblance d’après un manuscrit du XIV’ siècle, les deux manuscrits présentent un texte en ancien français, différent du moyen français qui est la langue alors parlée et utilisée pour la rédaction des traités moraux ou scientifiques.</p>
@@ -121,7 +119,7 @@
           <p>Quant au contenu, <hi rend="i">G</hi> présente divers épisodes que <hi rend="i">358</hi> ne donne pas. Mais ces aventures proviennent d’autres versions, et si elles ne sont pas intercalées dans <hi rend="i">358,</hi> la suite de la compilation (<hi rend="i">359-363</hi>) les donne, ainsi que d’autres manuscrits : moins spécifiques, et faisant intervenir au premier plan d’autres personnages que Guiron (notamment Meliadus et le Bon Chevalier Sans Paour), elles m’ont semblé ne pas avoir leur place ici. <hi rend="i">358</hi> possède des titres rubriqués, et ses fins de paragraphe sont souvent plus développées ; de plus, <hi rend="i">G</hi> abrège la bataille de la guerre d’Armant d’Oultre les Marches de façon assez incohérente. Les deux manuscrits présentent une même lacune : le lai de Guiron.</p>
           <p>L’ensemble (langue et fond) paraît plus homogène dans <hi rend="i">358,</hi> c’est donc, au terme de la confrontation des deux manuscrits, ce dernier qui a été choisi comme base de l’édition.</p>
         </div>
-        <div>
+        <div xml:id="r1232158">
           <head rend="uc">Chapitre IV
            <lb/>Notices des manuscrits</head>
           <p>Paris, Bibliothèque nationale, ms français 358 : <hi rend="i">Guiron le Courtois.</hi> – <hi rend="i">358</hi> a appartenu à Louis de Bruges, seigneur de la Gruthuyse. L’illustration est dans le style du Maître d’Édouard IV (W. Van Hoecke).</p>
@@ -129,14 +127,14 @@
           <p>Les miniatures, abondantes dans les deux manuscrits, ont été chacune sommairement décrites.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1232189">
         <pb source="https://nakala.fr/10.34847/nkl.efbfh80z#b3b6edde9b4f758ebedf86e24a273b98255345cf" n="119" facs="https://api.nakala.fr/iiif/10.34847/nkl.efbfh80z/b3b6edde9b4f758ebedf86e24a273b98255345cf/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
         <p>L’édition a été réalisée d’après <hi rend="i">358.</hi> Seuls les épisodes de <hi rend="i">G</hi> correspondant à cette version ont été retenus.</p>
         <p>Le découpage en chapitres et en paragraphes suit celui de <hi rend="i">358.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1232220">
         <head rend="uc">Annexes</head>
         <p>Variantes : les variantes orthographiques n’ont pas été relevées, à l’exception de celles qui touchent les noms propres ; les variantes lexicales, même minimes, ont été indiquées. – Leçons rejetées : en nombre régligeable, elles sont dues principalement à l’inattention du copiste. – Table des proverbes. – Index des noms de personne et de lieu. – Glossaire.</p>
         <pb source="https://nakala.fr/10.34847/nkl.efbfh80z#aa95d46e9fb8f8b9bb5cde3450c1b447190e0979" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.efbfh80z/aa95d46e9fb8f8b9bb5cde3450c1b447190e0979/full/full/0/default.jpg"/>

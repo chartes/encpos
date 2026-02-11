@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1987_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,13 +56,13 @@
         <forename>Thierry</forename>
         <surname>Crépin-Leblond</surname>
       </byline>
-      <div>
+      <div xml:id="r1144760">
         <head rend="uc">Introduction</head>
         <p>Le palais épiscopal est, au Moyen Age, une résidence urbaine, centre du pouvoir religieux et temporel de l’évêque. Son étude met en jeu plusieurs éléments : l’histoire et la topographie, depuis l’époque romaine, de la ville où il s’élève ; la personnalité et le rôle des prélats ; les relations architecturales avec la cathédrale qu’il avoisine. Elle s’appuie sur des exemples qu’il convient de choisir en fonction de la conservation de témoignages monumentaux, assez proches dans l’espace les uns par rapport aux autres pour se prêter à l’examen et aux comparaisons.</p>
         <p>Les palais épiscopaux situés dans le ressort des archevêques de Reims et de Sens répondent à ces critères. Par ailleurs, aux <num>xii<hi rend="sup">e</hi></num> et <num>xiii<hi rend="sup">e</hi></num> siècles, ces deux provinces ecclésiastiques apparaissent largement ouvertes aux influences extérieures ; elles sont le théâtre d’importantes innovations architecturales ; les évêques, à l’apogée de leur pouvoir, gravitent tous autour du pouvoir royal.</p>
         <p>On ne saurait limiter l’analyse aux deux siècles qui viennent d’être mentionnés. Dans la plupart des cas, il est indispensable de suivre jusqu’à nos jours l’évolution et les transformations des édifices.</p>
       </div>
-      <div>
+      <div xml:id="r1144788">
         <head rend="uc">Sources</head>
         <p>L’essentiel des sources médiévales est conservé dans les fonds ecclésiastiques des Archives départementales concernées (Aisne, Marne, Oise, Seine-et-Marne, Yonne) où les archives capitulaires sont souvent les plus riches en documents importants.</p>
         <pb source="https://nakala.fr/10.34847/nkl.6c9dhqv5#8866b029a204be5eb57f688d6c0406d5f0c8fc0f" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c9dhqv5/8866b029a204be5eb57f688d6c0406d5f0c8fc0f/full/full/0/default.jpg"/>
@@ -73,16 +71,16 @@
         <p>Les procès-verbaux de saisie de l’époque révolutionnaire et les comptes et devis des travaux effectués au <num>xix<hi rend="sup">e</hi></num> siècle, avec leurs équivalents dans les fonds des ministères parisiens aux Archives nationales et aux Archives des Monuments historiques, fournissent une information de premier ordre.</p>
         <p>Les documents iconographiques sont peu nombreux et souvent décevants. En revanche, l’étude de la topographie urbaine à travers les anciens plans s’est toujours révélée fructueuse.</p>
       </div>
-      <div>
+      <div xml:id="r1144821">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Caractères généraux des palais épiscopaux</head>
-        <div>
+        <div xml:id="r1144833">
           <head rend="uc">Chapitre premier
            <lb/>l’emplacement dans la cité</head>
           <p>Le palais épiscopal s’élève, en règle générale, sur des substructions de l’époque romaine et, fréquemment, à proximité de l’enceinte, sans que l’on puisse en conclure à la réutilisation d’un monument public antérieur et à une influence sur la localisation de la cathédrale. Il est toujours voisin de cette dernière, à laquelle le relie souvent une porte ou une galerie, mais sans jamais <hi rend="i">y être</hi> accolé directement. Malgré la présence d’éléments qui relèvent de l’architecture militaire, il ne joue aucun rôle en ce domaine, même lorsque l’évêque est seigneur de la ville. Souvent accompagnée de jardins, et toujours d’une grande cour spacieuse, la demeure de l’évêque tient à la fois sa place dans un quartier resserré, voué à la vie religieuse (cathédrale, bâtiments canoniaux, hôtel-Dieu...), et dans la ville, où elle se situe parfois à proximité des centres économiques et où elle devient l’un des centres de la vie judiciaire. Les liaisons avec le pays environnant, où l’évêque est largement possessionné, ont également leur importance.</p>
         </div>
-        <div>
+        <div xml:id="r1144849">
           <pb source="https://nakala.fr/10.34847/nkl.6c9dhqv5#2c66de053f18d3686f3098a284ad919912d3403e" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c9dhqv5/2c66de053f18d3686f3098a284ad919912d3403e/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Rôle et fonction du palais épiscopal</head>
@@ -94,7 +92,7 @@
           <p><hi rend="i">Le centre du pouvoir épiscopal.</hi> – Seigneur temporel et pasteur spirituel, l’évêque utilise sa demeure à la fois pour l’exercice et la mise en scène de son pouvoir. Au <num>xii<hi rend="sup">e</hi></num> siècle, d’imposantes cérémonies se déroulent dans la grande salle ou dans la chapelle haute, en présence de nombreux témoins, pour conférer une solennité particulière à l’établissement d’actes divers, donations, accords, contrats, serments..., passés à cette occasion. Répondant à la double fonction de l’évêque, rituel religieux et rituel féodal se juxtaposent au sein de sa demeure.</p>
           <p>La <hi rend="i">camera</hi> épiscopale apparaît au <num>xiii<hi rend="sup">e</hi></num> siècle. L’évêque <hi rend="i">y siège,</hi> entouré de ses familiers. A la même époque, ses officiers laïcs et ecclésiastiques commencent à disposer d’un auditoire et d’un personnel spécialisés. La présence de prisons dans l’enceinte du palais montre, de surcroît, que ce dernier tend de plus en plus à devenir le centre du pouvoir administratif de l’évêque, tel qu’il s’exerce à l’égard du chapitre cathédral ou des autorités urbaines.</p>
         </div>
-        <div>
+        <div xml:id="r1144939">
           <head rend="uc">Chapitre III
            <lb/>L’évolution architecturale du palais épiscopal</head>
           <p>Après les reconstructions du <num>xii<hi rend="sup">e</hi></num> siècle, le palais épiscopal comporte néces<pb source="https://nakala.fr/10.34847/nkl.6c9dhqv5#82b2f3f657dbf69ced23065bfad53d7de2ff0016" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c9dhqv5/82b2f3f657dbf69ced23065bfad53d7de2ff0016/full/full/0/default.jpg"/>sairement une grande salle à deux niveaux (le niveau inférieur voûté sert fréquemment de cellier) et une chapelle. Une tour peut venir s’y ajouter, abritant prisons ou appartements.</p>
@@ -102,12 +100,12 @@
           <p>La chapelle tient une place très importante ; elle est très souvent formée de deux étages superposés, où sont fondées des chapellenies. Il arrive qu’elle soit contemporaine de la cathédrale et qu’elle ait été élevée par les mêmes maîtres d’œuvre, mais lorsque la construction du palais va de pair avec celle de la cathédrale, ce n’est que pour des raisons purement conjoncturelles.</p>
           <p>Au <num>xiii<hi rend="sup">e</hi></num> siècle, l’aménagement d’appartements et de jardins, répond au souci de magnifier la fonction et l’autorité de l’occupant.</p>
         </div>
-        <div>
+        <div xml:id="r1144977">
           <head rend="uc">Conclusion</head>
           <p>L’originalité du palais épiscopal consiste dans sa qualité de résidence urbaine, pourvue d’une grande salle et d’une chapelle, et située au voisinage de la cathédrale. Plus peut-être que les palais royaux et princiers, l’édifice est conçu comme une structure fonctionnelle et imposante, dont la construction prend en compte les innovations architecturales de l’époque. Lorsqu’il perd sa fonction de demeure, c’est pour prendre en quelque sorte un caractère symbolique, matérialisant le concept de pouvoir épiscopal, en même temps qu’il devient, surtout dans la France du Nord, l’un des pôles administratifs et judiciaires de la vie urbaine. Il retrouve son rôle de résidence de l’évêque à la fin du <num>xv<hi rend="sup">e</hi></num> siècle ; il est alors réaménagé dans un but plus proprement domestique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1144994">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Monographies</head>
@@ -125,20 +123,20 @@
         <p>La cour fut réduite et les dépendances qui la fermaient reconstruites plus à l’est lorsqu’on édifia, vers 1530, le bras sud du transept, tandis que l’évêché s’étendait à l’est, au-delà de la muraille.</p>
         <p><hi rend="i">Soissons.</hi> – L’emplacement primitif de l’évêché de Soissons, déplacé au <num>xv<hi rend="sup">e</hi></num> siècle, était immédiatement au sud de la cathédrale, avec une grande cour où la commune et le roi tenaient des assemblées au <num>xii<hi rend="sup">e</hi></num> siècle. Il subsiste, sur l’ancien rempart romain, les restes d’une tour du <num>xiii<hi rend="sup">e</hi></num> siècle. Une gravure restitue l’élevation de la chapelle double de l’évêché, parallèle à la cathédrale ; le bâtiment voisin, utilisé par les chanoines chargés du service de la chapelle, est peut-être l’ancienne grande salle du palais épiscopal médiéval.</p>
       </div>
-      <div>
+      <div xml:id="r1145148">
         <pb source="https://nakala.fr/10.34847/nkl.6c9dhqv5#aacca389bcae3133343a46575da84d2cd9a8e3f9" n="69" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c9dhqv5/aacca389bcae3133343a46575da84d2cd9a8e3f9/full/full/0/default.jpg"/>
         <head rend="uc">Pièces justificatives</head>
         <p>Extrait du devis des réparations à exécuter au palais épiscopal d’Auxerre en 1762. – Lettres de Louis XII touchant les réparations du palais épiscopal de Beauvais et extraits des réclamations des maires et pairs de Beauvais contre la décision royale. – Inventaire des biens de Renaud de Nanteuil, évêque de Beauvais, en 1283. – Documents relatifs à la chapelle du palais épiscopal de Laon (1173 et 1212). – Conventions entre Manassès II, évêque de Meaux, et Anseau du Donjon (1154). – Extraits du compte du temporel de l’archevêché de Reims pour l’exercice 1483-1484.</p>
       </div>
-      <div>
+      <div xml:id="r1145163">
         <head rend="uc">Annexes</head>
         <p>Passages des <hi rend="i">Gesta pontificum Autissiodorensium</hi> concernant le palais épiscopal d’Auxerre. – Actes de l’évêque et de la commune de Beauvais relatifs à la sédition de 1305. – Chartes de renonciation au droit de dépouille sur les évêchés d’Auxerre, Laon, Meaux, Paris et Senlis.</p>
       </div>
-      <div>
+      <div xml:id="r1145177">
         <head rend="uc">Plans</head>
         <p>Plans des anciens palais épiscopaux d’Auxerre, Laon, Meaux et Senlis (état actuel). – Plan et coupe des parties romanes de l’ancien palais épiscopal de Beauvais.</p>
       </div>
-      <div>
+      <div xml:id="r1145187">
         <head rend="uc">Album de planches</head>
         <p>Croquis de restitution. – Plans anciens et gravures. – Photographies des bâtiments.</p>
         <pb source="https://nakala.fr/10.34847/nkl.6c9dhqv5#a4526e6a4f18c6268dab3796fad9f674d995bbfe" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.6c9dhqv5/a4526e6a4f18c6268dab3796fad9f674d995bbfe/full/full/0/default.jpg"/>

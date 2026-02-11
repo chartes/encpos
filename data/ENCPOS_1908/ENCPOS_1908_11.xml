@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,12 +57,12 @@
         <surname>Lavergne</surname>
         <roleName>Élève de l’École des Hautes Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r322084">
         <head rend="uc">But et plan</head>
         <p>Entreprise pour préciser et compléter les pages consacrées à l’idiome du Bourbonnais par M.E. Goerlich, dans son <hi rend="i">Burgundische Dialekt</hi> (Heilbronn, 1889), la présente étude emprunte ses éléments à divers documents d’archives inédits, rédigés dans le pays, entre 1265 et 1325. – Les plus importants sont les <hi rend="i">aveux</hi> et <hi rend="i">dénombrements</hi> originaux, rendus, pour les années 1300-1302, à Robert de Clermont, seigneur de Bourbon, actuellement aux Archives Nationales, série <hi rend="i">P</hi> (registres 454 à 469). Ils sont la plus sincère image de la langue hybride, mais déjà fortement francisée, du Bourbonnais au début du <num>xiv<hi rend="sup">e</hi></num> siècle.</p>
         <p>Dans une première partie, on étudie les graphies employées en Bourbonnais au moyen âge, pour établir dans quelle mesure elles correspondent aux sons du parler local.</p>
         <p>Dans une seconde partie, on indique, par rapport à celle <pb source="https://nakala.fr/10.34847/nkl.cdac139a#dc7d9e18c6d94663e9ba9b62528ded8340db3c62" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.cdac139a/dc7d9e18c6d94663e9ba9b62528ded8340db3c62/full/full/0/default.jpg"/> du français commun de la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, les caractères généraux et particuliers de la phonétique bourbonnaise.</p>
-        <div>
+        <div xml:id="r322132">
           <head rend="uc">I
            <lb/>graphies</head>
           <p>1. VOYELLES. On observe, dans les documents du Bourbonnais, l’équivalence complète de a et de <hi rend="i">e,</hi> de <hi rend="i">o</hi> et de <hi rend="i">u</hi> devant les nasales ; – celle de <hi rend="i">ai, ae, ei, e ;</hi> – celle de <hi rend="i">oi</hi> et de <hi rend="i">oe (oie</hi> dès 1265, <hi rend="i">oe</hi> et <hi rend="i">oue</hi> à Saint-Amand, 1300). – Provenances diverses de <hi rend="i">eu,</hi> et de <hi rend="i">ou</hi> (à côté des anciennes graphies <hi rend="i">o</hi> et <hi rend="i">u</hi>). – Les diphtongues nasales : <hi rend="i">ain, aen, ein, en</hi> et <hi rend="i">in ; oin, oen.</hi></p>
@@ -72,10 +70,10 @@
           <p>On remarquera le redoublement calligraphique de F, L, P, T, s, initiaux après un monosyllabe : <hi rend="i">enffié, alla, asson ; cc</hi> pour <hi rend="i">ss ; ig</hi> pour ñ finale ; <hi rend="i">th</hi> et <hi rend="i">ph.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r322273">
         <head rend="uc">II
          <lb/>phonétique</head>
-        <div>
+        <div xml:id="r322281">
           <head rend="uc">
             <hi rend="i">1° Voyelles</hi>
           </head>
@@ -94,7 +92,7 @@
           <p>Résistance générale de <hi rend="i">ó</hi> tonique libre à devenir <hi rend="i">eu</hi> (<hi rend="i">seignour, priour, oreour, terrour</hi>). – <hi rend="i">ó</hi> ton. + mouillure devient <hi rend="i">wae</hi> (<hi rend="i">oi, oe, oue</hi>) ou reste <hi rend="i">ó</hi> (<hi rend="i">ou</hi>) <hi rend="i">: bois, bos.</hi></p>
           <p><hi rend="i">Au.</hi> Conservation de l’ancienne graphie <hi rend="i">au</hi> à Rochefort et Gannat. Devenu <hi rend="i">ó</hi>, <hi rend="i">au</hi> passe dialectalement à <hi rend="i">ó</hi> (<hi rend="i">ou</hi>) <hi rend="i">: chouse, pou</hi> – Analogie des sons au et <hi rend="i">ou.</hi></p>
         </div>
-        <div>
+        <div xml:id="r322622">
           <head rend="uc">2° <hi rend="i">nasalisation.</hi></head>
           <p>1. <hi rend="i">An (en</hi>). – Importance de la confusion d’<hi rend="i">a</hi> et d e devant les nasales : modifications apportées de ce fait au son des atones initiales et intertoniques. – Conservation sporadique du son <hi rend="i">en {in) : dedins, diminche,</hi> à Verneuil.</p>
           <p>2. <hi rend="i">Aen (ain, aen, ein, en, in</hi>) passent parfois à an : <hi rend="i">sant ;</hi> – <hi rend="i">iaen</hi> devient <hi rend="i">ian ; dian</hi> à Verneuil. – La nasalisation et les verbes.</p>
@@ -102,14 +100,14 @@
           <p>4. <hi rend="i">Waen (oin, oen,</hi> malgré Goerlich), et la disparition du son de ou. – La graphie <hi rend="i">ain.</hi></p>
           <p>Cas de nasalisation progressive : <hi rend="i">monte, monton.</hi></p>
         </div>
-        <div>
+        <div xml:id="r322689">
           <head rend="uc">3° <hi rend="i">Vocalisation.</hi></head>
           <p>1. <hi rend="i">Al.</hi> Passage général à au ; exception pour quelques noms propres <hi rend="i">: Chalvin,</hi> à Lapalisse. – Formes de <hi rend="i">quel.</hi></p>
           <p>2. <hi rend="i">El</hi> passe à <hi rend="i">eau, iau.</hi> – Le groupe eau est souvent réduit à <hi rend="i">ea</hi> : <hi rend="i">chatea.</hi></p>
           <p>Influence de l’analogie sur <hi rend="i">cels (ceaus), els (eaux</hi>) et <hi rend="i">avec (aveaus</hi>).</p>
           <p>3. <hi rend="i">I</hi> + <hi rend="i">l</hi> dans <hi rend="i">fieus.</hi></p>
         </div>
-        <div>
+        <div xml:id="r322756">
           <head rend="uc">4° <hi rend="i">passage de e à à devant</hi> 1 <hi rend="i">et</hi> r.</head>
           <p><hi rend="i">Issarpant</hi> (Isserpent, n. de l.) ; <hi rend="i">ale</hi> (elle).</p>
         </div>
@@ -118,7 +116,7 @@
           <head rend="uc">5° <hi rend="i">réduction progressive des hiatus.</hi></head>
           <p/>
         </div>
-        <div>
+        <div xml:id="r322798">
           <head rend="uc">6° <hi rend="i">consonnes.</hi></head>
           <p>Conservation de <hi rend="i">b</hi> et <hi rend="i">d</hi> médiaux ; <hi rend="i">Genebriera, rende, </hi>sporadiquement. Chute de <hi rend="i">f,</hi> de <hi rend="i">t,</hi> de <hi rend="i">s,</hi> et de / à la finale ; amuissement d’<hi rend="i">r</hi> finale. – Chute de <hi rend="i">s</hi> devant consonne et de <hi rend="i">n</hi> devant <hi rend="i">l : Moluçon.</hi> – <hi rend="i">N</hi> instable à Lapalisse ; cas douteux.</p>
           <p>Modifications de sons ; <hi rend="i">ch</hi> en <hi rend="i">g : dimenge ; g</hi> en <hi rend="i">ch : grandie ; s</hi> en <hi rend="i">ch : Hérichon.</hi> – <hi rend="i">l</hi> et <hi rend="i">n</hi> pour <hi rend="i">l</hi> et <hi rend="i">n </hi>mouillées.</p>
@@ -127,7 +125,7 @@
           <p><hi rend="i">C</hi> + <hi rend="i">a</hi> atone libre passe à <hi rend="i">cha</hi> dans le sud, généralement à <hi rend="i">che,</hi> et sporadiquement à <hi rend="i">chi : chivaler.</hi></p>
         </div>
       </div>
-      <div>
+      <div xml:id="r322942">
         <head rend="uc">Appendice</head>
         <p>Les aveux au point de vue diplomatique : aveux en forme personnelle et impersonnelle : notice minutée et rôle des juridictions (archiprêtres).</p>
       </div>

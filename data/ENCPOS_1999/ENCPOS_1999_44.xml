@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_44" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1999_44" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,31 +55,31 @@
         <surname>Vaisse</surname>
         <roleName>diplômé d’études approfondies</roleName>
       </byline>
-      <div>
+      <div xml:id="r1360274">
         <head rend="uc">Introduction</head>
         <p>La communauté urbaine de Toul à la fin du Moyen Age a fait l’objet de peu de recherches, sans doute parce qu’elle atteignit un degré d’autonomie modeste, loin derrière le cas spectaculaire de Metz. L’étude d’une ville où les ecclésiastiques étaient suffisamment forts pour contenir, non sans conflits, l’émancipation urbaine apporte cependant, <hi rend="i">a contrario,</hi> un éclairage intéressant à l’histoire des libertés urbaines. Elle permet d’illustrer les luttes des bourgeois contre l’évêque et le chapitre cathédral, le fonctionnement des institutions municipales et les rapports de la communauté urbaine avec les princes voisins, dans une région de marche tributaire de l’évolution politique.</p>
       </div>
-      <div>
+      <div xml:id="r1360288">
         <head rend="uc">Sources</head>
         <p>Les archives de la ville de Toul, conservées aux archives départementales de Meurthe-et-Moselle, sont très pauvres en documents du Moyen Age. La communauté urbaine est surtout connue par le biais des archives des communautés religieuses, des villes et des princes qui furent en rapport avec elle. De cette documentation très dispersée, il faut retenir en particulier le riche fonds du chapitre cathédral de Toul (archives départementales de Meurthe-et-Moselle), le Trésor des chartes de Lorraine (archives départementales de Meurthe-et-Moselle et collection de Lorraine à la Bibliothèque nationale de France) et les très nombreux recueils de copies formés par la France aux <num>xvi<hi rend="sup">e</hi></num> et <num>xvii<hi rend="sup">e</hi></num> siècles pour appuyer les prétentions du roi sur la ville et ses faubourgs (Archives nationales et Bibliothèque nationale de France).</p>
       </div>
-      <div>
+      <div xml:id="r1360310">
         <pb source="https://nakala.fr/10.34847/nkl.0a6dh33x#0cd1dd262b9db7f19a155c24d44818ab28d78f46" n="360" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a6dh33x/0cd1dd262b9db7f19a155c24d44818ab28d78f46/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Toul au milieu du <num>xiv<hi rend="sup">e</hi></num> siècle</head>
-        <div>
+        <div xml:id="r1360329">
           <head rend="uc">Chapitre premier
            <lb/>le milieu</head>
           <p><hi rend="i">La place de Tout en Lorraine.</hi> – Située sur une boucle de la Moselle, encadrée à l’ouest par les côtes de Meuse, plantées de vignes, et à l’est par la forêt de Haye, la cité de Toul disposait de liaisons fluviales et terrestres satisfaisantes mais restait à l’écart des grands circuits commerciaux. Elle jouait en Lorraine le rôle d’un important marché local, surtout tourné vers le commerce du vin, d’une place financière modeste et d’un centre religieux.</p>
           <p><hi rend="i">Topographie de Toul.</hi> – L’habitat s’était développé dans les deux bourgs situés sous les murs de l’enceinte gallo-romaine et autour des deux abbayes bénédictines encadrant la ville, Saint-Èvre et Saint-Mansuy. Au milieu du <num>xiii<hi rend="sup">e</hi></num> siècle, une nouvelle enceinte réunit les deux bourgs à la cité. Le noyau primitif de la cité resta le domaine de l’évêque et du chapitre cathédral, tandis que la vie économique et municipale se développait dans les bourgs. Non loin des murs de la cité se trouvaient, outre Saint-Èvre et Saint-Mansuy, l’abbaye Saint-Léon, fortifiée, deux léproseries et une commanderie.</p>
         </div>
-        <div>
+        <div xml:id="r1360356">
           <head rend="uc">Chapitre II
            <lb/>La communauté urbaine</head>
           <p><hi rend="i">L’émergence de la communauté urbaine.</hi> – Vraisemblablement issue d’officiers épiscopaux enrichis par le commerce, <hi rend="i">l’universitas civium Tullensium</hi> s’organisa pour la sauvegarde d’intérêts économiques communs et scella entre 1192 et 1195 le premier acte qui nous soit parvenu d’elle. Son rôle dans la construction de la nouvelle enceinte lui donna l’occasion d’étendre ses pouvoirs. Le maître échevin apparaît dans les actes en 1240, le collège des justiciers en 1254 et celui des enquéreurs en 1285. Des conflits fréquents et violents opposèrent les bourgeois à l’évêque et au chapitre cathédral, qui défendait ses exemptions fiscales et judiciaires.</p>
           <p><hi rend="i">Les institutions municipales au milieu du <num>xiv<hi rend="sup">e</hi></num> siècle.</hi> – L’évêque, seigneur de la cité, était la source des institutions urbaines : il octroyait aux bourgeois des statuts qui, en vertu du principe d’inaliénabilité rappelé par les conciles, n’avaient qu’une validité limitée à la durée de son épiscopat. Le corps de ville était composé, d’une part, de magistrats annuels, maître échevin, justiciers, enquéreurs et receveur, désignés par l’évêque sur une liste présentée par les magistrats sortant de charge, et, d’autre part, de deux magistrats permanents, le procureur et le secrétaire, dont la nomination échappait à l’évêque. Ses ressources provenaient essentiellement des impôts, qui ne pouvaient être levés qu’avec l’accord de l’évêque. Sa préoccupation principale était la défense de la ville. La justice criminelle et la police étaient du ressort des justiciers et des enquéreurs, ces derniers étant plus précisément chargés des enquêtes. La justice civile incombait au maître échevin et au collège scabinal. Toul connaissait cette particularité, qui témoigne de l’emprise des clercs sur la ville, de suivre de façon générale le droit écrit sauf sur quelques points <pb source="https://nakala.fr/10.34847/nkl.0a6dh33x#00c8d607f8c654a9786215ba4741c2941afeb236" n="361" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a6dh33x/00c8d607f8c654a9786215ba4741c2941afeb236/full/full/0/default.jpg"/>réglés par la coutume. Le corps de ville ne réussit pas à imposer sa juridiction gracieuse ni à contrôler les mécanismes économiques essentiels de la cité. Contrairement à Metz et à Verdun où les magistratures étaient réservées aux membres des paraiges et des lignages, Toul ne connaissait pas de divisions juridiques entre les bourgeois, et les magistratures restaient ouvertes à tous. Il n’y eut pratiquement pas à Toul de luttes semblables à celles qui divisaient la population laïque de Metz et de Verdun pour le contrôle du gouvernement de la cité.</p>
         </div>
-        <div>
+        <div xml:id="r1360392">
           <head rend="uc">Chapitre III
            <lb/>Le poids des institutions religieuses</head>
           <p><hi rend="i">L’évêque.</hi> – L’évêque avait diminué son patrimoine par des inféodations et des dotations aux communautés religieuses, mais il conservait des droits importants dans la cité. Le maire épiscopal garda une partie de ses attributions malgré la création des nouvelles magistratures urbaines. L’évêque détenait le contrôle des métiers et percevait des droits sur le change ; de la communauté urbaine, il touchait une pension annuelle correspondant à l’entretien de son hôtel pendant un mois, et un dédommagement pour les années où il acceptait de renoncer à son droit de banvin.</p>
@@ -89,38 +87,38 @@
           <p><hi rend="i">Les autres institutions religieuses.</hi> – Les bourgeois entretenaient peu de rapports avec les abbayes suburbaines. En revanche ils étaient très proches des Dominicains et des Franciscains, qui les soutinrent à plusieurs reprises dans leurs luttes. En sus de la maison-Dieu, contrôlée par le chapitre, la ville comptait un hôpital, fondé par des bourgeois. L’une des deux léproseries, celle de Valcourt, resta sous administration municipale jusqu’à 1293.</p>
           <p>Les communautés religieuses, et en premier lieu le chapitre cathédral, avaient à Toul un poids considérable ; une partie du sol urbain, des champs et des vignes autour de la cité leur appartenait.</p>
         </div>
-        <div>
+        <div xml:id="r1360422">
           <head rend="uc">Chapitre IV
            <lb/>Toul et ses voisins</head>
           <p><hi rend="i">Toul entre le duché de Lorraine et le comté de Bar.</hi> – Encadrée par deux prévôtés, l’une lorraine, l’autre barroise, dont le ressort s’étendait jusqu’à ses portes, la <pb source="https://nakala.fr/10.34847/nkl.0a6dh33x#47a64a55bd6c71e4e2d6bbf2b18656ad0c54d492" n="362" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a6dh33x/47a64a55bd6c71e4e2d6bbf2b18656ad0c54d492/full/full/0/default.jpg"/>cité était convoitée par le duc de Lorraine et par le comte de Bar. Ceux-ci se disputaient la garde des communautés religieuses et de la communauté urbaine de Toul. Le duc de Lorraine entendait en outre faire reconnaître le droit de gouvernement ou d’avouerie sur la cité, qu’il recevait en fief de l’empereur. Le morcellement politique de la Lorraine engendrait des guerres incessantes dont la communauté urbaine, même quand elle n’y prenait pas part, avait à souffrir.</p>
           <p><hi rend="i">Toul entre la France et l’Empire.</hi> – Toul était une ville d’Empire, mais les empereurs se préoccupaient assez peu d’y affirmer leurs droits. Philippe le Bel conclut des traités de garde avec la communauté urbaine, le chapitre cathédral et l’abbaye Saint-Mansuy. Depuis Philippe VI, la royauté disposait de points stratégiques sur la Meuse à proximité de Toul, Vaucouleurs et Commercy.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1360449">
         <head rend="uc">Deuxième partie
          <lb/>La communauté urbaine de 1354 a 1407</head>
-        <div>
+        <div xml:id="r1360457">
           <head rend="uc">Chapitre premier
            <lb/>évolution générale</head>
           <p><hi rend="i">Le temps des crises.</hi> – La cité fut plusieurs fois touchée par la peste, à partir de 1349. Les guerres, les disettes et même des tremblements de terre s’ajoutèrent à la pandémie, qui provoqua une chute démographique considérable, désorganisa l’économie et modifia les comportements religieux. La fondation de deux confréries à Toul dans la seconde moitié du XIV siècle traduit bien l’évolution du sentiment religieux sous le choc des grandes mortalités.</p>
           <p><hi rend="i">Toul, ville impériale.</hi> – La communauté urbaine reçut en 1367 de l’empereur Charles IV de Luxembourg un diplôme scellé d’une bulle d’or qui légitimait son existence et lui accordait des privilèges importants, au détriment de l’évêque et du chapitre. La ville fut peu à peu considérée comme une ville impériale, autrement dit comme une ville dépendant immédiatement de l’Empire. Elle avait désormais le droit d’assister au couronnement de l’empereur et de siéger aux diètes, et le devoir d’apporter aide et conseil à l’empereur.</p>
           <p><hi rend="i">Evolution des institutions urbaines.</hi> – La communauté urbaine reçut de l’évêque en 1405 des statuts à valeur perpétuelle, qui fixaient précisément ses droits mais en même temps les figeaient pour l’avenir. Ses tentatives pour légiférer en matière économique et pour contrôler les métiers restèrent sans résultat. Elle réussit en revanche à faire passer sous son contrôle la table nummulaire, un établissement de prêt sur gages auparavant tenu par des Lombards.</p>
         </div>
-        <div>
+        <div xml:id="r1360484">
           <head rend="uc">Chapitre II
            <lb/>Toul et les ambitions impériales (1354-1378)</head>
           <p><hi rend="i">Evolution de la situation en Lorraine.</hi> – Charles IV se montra soucieux de ressaisir les droits de l’Empire en Lorraine. L’insécurité en Lorraine était encore <pb source="https://nakala.fr/10.34847/nkl.0a6dh33x#a3af3d1f24f186ec987d81a52dc2a7d842318db1" n="363" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a6dh33x/a3af3d1f24f186ec987d81a52dc2a7d842318db1/full/full/0/default.jpg"/>plus grave qu’auparavant, les ravages des grandes compagnies s’étant ajoutés aux guerres locales.</p>
           <p><hi rend="i">Tout et ses voisins.</hi> – L’influence dominante à Toul était celle de Robert, comte puis duc de Bar, qui avait sous sa garde des biens appartenant à chacune des communautés religieuses de la ville. Deux guerres opposèrent le duc de Lorraine au duc de Bar pour la garde de la communauté urbaine ; le duc de Lorraine fut victorieux.</p>
           <p><hi rend="i">Conflits internes.</hi> – Ce fut en vain que les bourgeois cherchèrent à faire reconnaître par le chapitre et par l’évêque les droits qui leur avaient été accordés par Charles IV. Ils durent capituler sur tous les points dans les traités qu’ils conclurent en 1371 avec le chapitre et en 1373 avec l’évêque.</p>
         </div>
-        <div>
+        <div xml:id="r1360516">
           <head rend="uc">Chapitre III
            <lb/>Les débuts du grand schisme (1378-1400)</head>
           <p><hi rend="i">Les répercussions du Grand Schisme à Tout.</hi> – Le Grand Schisme ajouta de nouveaux motifs de division à ceux qui dressaient la communauté urbaine contre l’évêque et le chapitre. L’évêque Jean de Neufchâtel était parent et ami de Clément VII ; les chanoines de la cathédrale se déclarèrent également pour lui. La communauté urbaine, qui recevait de l’Empire les privilèges que les évêques ne voulaient pas lui accorder, suivit le roi des Romains Wenceslas dans son soutien à Urbain VI.</p>
           <p><hi rend="i">L’influence des princes à Toul.</hi> – Le duc de Bar succéda en 1391 au duc de Lorraine comme gardien de la communauté urbaine. Wenceslas investit en 1398 le duc de Lorraine Charles II de l’avouerie de la ville de Toul, mais déclara que cette fonction ne devait en rien porter atteinte aux bourgeois de Toul.</p>
           <p><hi rend="i">Les conflits entre les bourgeois et Jean de Neufchâtel.</hi> – Dans leurs luttes contre Jean de Neufchâtel, les bourgeois reçurent l’appui de Wenceslas, qui confirma en 1396 la bulle d’or, octroya de nouveaux privilèges à la ville et ordonna aux partisans du pape de Rome d’empêcher l’exécution des sentences prononcées contre les bourgeois par les tenants du pape d’Avignon. Le conflit s’apaisa par la fréquente absence puis par la mort de Jean de Neufchâtel.</p>
         </div>
-        <div>
+        <div xml:id="r1360543">
           <head rend="uc">Chapitre IV
            <lb/>La guerre pour Toul (1400-1407)</head>
           <p><hi rend="i">Complication de la situation politique.</hi> – Au schisme pontifical s’ajouta un schisme impérial quand, en 1400, les électeurs déposèrent Wenceslas et proclamèrent Robert de Bavière roi des Romains. La communauté urbaine de Toul resta fidèle à Wenceslas, tandis que le duc de Lorraine Charles II soutenait Robert de Bavière, son beau-père. La Lorraine se trouva de plus entraînée dans les luttes opposant le duc d’Orléans au duc de Bourgogne. Louis d’Orléans s’implantait en effet dans l’Est, pour couper les communications entre les Etats de Philippe le Hardi.</p>
@@ -128,16 +126,16 @@
           <p><hi rend="i">Soulèvement et trahison à Toul (1406-1407</hi>). – Un soulèvement dressa une partie des bourgeois contre les autres. Les chefs de l’émeute étaient d’anciens magistrats municipaux, dont les motivations restent mal connues. L’évêque s’entremit et fit promettre en 1406 à tous les habitants de se pardonner les injures et les dommages causés de part et d’autre. Le soulèvement permit au duc de Bar de gagner à lui quelques mécontents ; il tenta avec leur complicité de prendre la ville par surprise en 1407 mais son entreprise échoua.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1360576">
         <head rend="uc">Troisième partie
          <lb/>La communauté urbaine de 1407 a 1498</head>
-        <div>
+        <div xml:id="r1360584">
           <head rend="uc">Chapitre premier
            <lb/>évolution générale</head>
           <p><hi rend="i">Des temps difficiles.</hi> – La région de Toul connaissait des guerres incessantes et des récurrences de la peste. La reprise ne s’amorça qu’au retour de la paix, en 1477.</p>
           <p><hi rend="i">Les institutions municipales.</hi> – La documentation du <num>xv<hi rend="sup">e</hi></num> siècle permet de mieux connaître le mode de désignation et le rôle des magistrats municipaux. C’est à cette époque qu’apparaît dans les sources le conseil de la cité, qui prit peu à peu une grande importance dans le gouvernement. Les ressources de la communauté urbaine, qui provenaient essentiellement de l’impôt direct, appelé le « prêt », et des taxes, étaient en grande partie absorbées par le versement des pensions dues aux gardiens de la ville et par le paiement des rentes émises par l’hôtel de ville. En dehors de son rôle dans la défense de la cité, les préoccupations et les compétences de la communauté urbaine restaient limitées.</p>
         </div>
-        <div>
+        <div xml:id="r1360611">
           <head rend="uc">Chapitre II
            <lb/>Toul au temps de Sigismond
            <lb/>et de l’effacement de la France (1407-1435)</head>
@@ -146,7 +144,7 @@
           <p><hi rend="i">Les Toulois et leurs voisins.</hi> – La communauté urbaine subit encore une guerre du duc de Lorraine Charles II, au sujet des bâtards fils de prêtres demeurant dans la cité, que le duc réclamait. Le traité qui y mit fin en 1420 obligea la communauté urbaine à verser perpétuellement au duc de Lorraine une pension qui, ajoutée à celle qui lui avait été attribuée en 1406, grevait tous les ans de mille francs ses finances. Les bourgeois vécurent en paix avec René d’Anjou, mais durent faire face aux routiers qui ravageaient le pays.</p>
           <p><hi rend="i">Les conflits internes.</hi> – La communauté urbaine ne réussit à faire reconnaître aucun des privilèges que lui avait octroyés Sigismond ; le chapitre les fit d’ailleurs annuler par Martin V en 1427. Les chanoines ne cédèrent pas quand les bourgeois voulurent faire participer aux taxes municipales les ministériaux du chapitre pratiquant le commerce. Les bourgeois réussirent en revanche à s’emparer par la force d’une partie d’un bois appartenant au chapitre.</p>
         </div>
-        <div>
+        <div xml:id="r1360651">
           <head rend="uc">Chapitre III
            <lb/>Reprise de l’action de la France
            <lb/>et violence des conflits internes (1435-1460)</head>
@@ -155,14 +153,14 @@
           <p><hi rend="i">Rapports de Toul avec la Lorraine et la Bourgogne.</hi> – Le duc de Lorraine Jean d’Anjou avait le projet de rattacher Toul à ses Etats, mais il ne le mit pas à exécution. Les Bourguignons s’implantaient dans la cité ; Philippe le Bon parvint en effet à placer sur le siège épiscopal son conseiller Guillaume Fillastre.</p>
           <p><hi rend="i">Les conflits internes.</hi> – Les conflits avec l’évêque et le chapitre connurent leur paroxysme. Le procureur de l’évêque fut assassiné, le chapitre fut contraint de <pb source="https://nakala.fr/10.34847/nkl.0a6dh33x#0067672fb039a7c2a655ae043ec40bd11aeac5b8" n="366" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a6dh33x/0067672fb039a7c2a655ae043ec40bd11aeac5b8/full/full/0/default.jpg"/>quitter la ville et de longs procès s’engagèrent. Frédéric III régla les rapports des bourgeois avec l’évêque en confirmant en 1455 les statuts de 1405. Quant au chapitre, il semble avoir consenti que ses ministériaux pratiquant le commerce payassent les taxes municipales ; d’autres sujets de conflit restaient en suspens.</p>
         </div>
-        <div>
+        <div xml:id="r1360691">
           <head rend="uc">Chapitre IV
            <lb/>Toul et la question bourguignonne (1460-1477)</head>
           <p><hi rend="i">L’implantation de la famille de Neufchâtel à Toul.</hi> – La guerre couvait depuis longtemps entre le duc de Lorraine et la famille de Neufchâtel, solidement implantée dans la vallée de la Moselle et dévouée au duc de Bourgogne. En 1460, Philippe le Bon parvint à placer sur le siège de Toul Antoine de Neufchâtel, fils de son maréchal. Dans la guerre qui s’engagea en 1467, la communauté urbaine de Toul s’efforça de rester neutre.</p>
           <p><hi rend="i">Toul dans la guerre entre la Lorraine et la Bourgogne (1473-1477</hi>). – La communauté urbaine ne parvint pas à faire respecter sa neutralité dans la guerre qui opposa le duc de Lorraine René II à Charles le Téméraire. Elle dut louvoyer pour ne pas s’attirer de représailles. Elle se plaça sous la protection du Téméraire et le reçut avec honneur, puis apporta son soutien à René II quand le vent tourna.</p>
           <p><hi rend="i">Les rapports des bourgeois avec les chanoines et avec le roi de France.</hi> – Devant les menaces qui pesaient sur la cité, bourgeois et chanoines s’entraidèrent, mais leurs rapports restaient tendus. Louis XI renouvela la garde que son père avait conclue avec la communauté urbaine ; il en abandonna un temps les revenus au duc de Lorraine Jean d’Anjou puis les ressaisit.</p>
         </div>
-        <div>
+        <div xml:id="r1360718">
           <head rend="uc">Chapitre V
            <lb/>Une nouvelle époque (1477-1498)</head>
           <p><hi rend="i">Derniers conflits internes.</hi> – Au lendemain des guerres, la communauté urbaine était dans une grande détresse financière. Elle obtint des communautés religieuses de la ville, non sans conflit, un secours pour l’aider à diminuer son endettement. En 1483, un compromis fut trouvé entre les bourgeois et le chapitre au sujet du « poignet ». Il ne parut pas satisfaisant aux gens de métier, qui se soulevèrent en 1485, déchirèrent les lettres de compromis et contraignirent le corps de ville à les associer au gouvernement. La révolution échoua quelques mois plus tard. Le corps de ville rétabli conclut un traité avec le chapitre : il s’engagea à contrôler étroitement les métiers et reçut du chapitre la moitié du « poignet » et la moitié du bois qu’il lui disputait. Cet accord permit le retour durable de la paix dans la cité.</p>
@@ -171,11 +169,11 @@
           <p><hi rend="i">L’influence de René II à Toul.</hi> – René II s’attira la faveur du clergé de Toul et réussit à placer sur le siège épiscopal son parent Olry de Blâmont. Il acquit une grande influence dans la cité, qu’il projetait sans doute de réunir à ses Etats, mais sans lui faire la guerre comme ses prédécesseurs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1360751">
         <head rend="uc">Conclusion</head>
         <p>A la fin du <num>xv<hi rend="sup">e</hi></num> siècle, la communauté urbaine de Toul était loin d’être complètement affranchie. Les droits conservés sur la ville par l’évêque et par le chapitre et ceux qu’avaient acquis les princes voisins bornaient de façon étroite son indépendance. Elle réussit cependant, en jouant des rivalités des princes, en composant avec les plus forts et en ménageant les autres, à ne tomber sous la domination d’aucun d’entre eux. Malgré les nombreuses luttes qu’elle mena contre l’évêque et le chapitre, elle ne parvint que très partiellement à leur faire reconnaître les privilèges politiques, économiques et juridiques que lui avait concédés les empereurs. Le faible développement économique de Toul, encore entravé par les multiples guerres qui secouaient la région, ainsi que le poids économique des communautés religieuses dans la cité contribuèrent à maintenir le mouvement urbain dans un état modeste de développement et d’indépendance et laissèrent la ville sous l’emprise des clercs.</p>
       </div>
-      <div>
+      <div xml:id="r1360767">
         <head rend="uc">Annexes</head>
         <p>Catalogue des actes de la communauté urbaine de Toul. – Edition de ses actes constitutifs. – Catalogue de ses sceaux. – Catalogue de ses monnaies supposées. – Liste des magistrats municipaux. – Plan de Toul aux <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles. – Carte des environs de Toul. – Index.</p>
         <pb source="https://nakala.fr/10.34847/nkl.0a6dh33x#a73f929fbf72165f815c03efebf1acb1de8cf477" n="368" facs="https://api.nakala.fr/iiif/10.34847/nkl.0a6dh33x/a73f929fbf72165f815c03efebf1acb1de8cf477/full/full/0/default.jpg"/>

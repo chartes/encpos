@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2022_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2022_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,21 +53,21 @@
         <surname>Dangre</surname>
         <roleName>licenciée ès arts</roleName>
       </byline>
-      <div>
+      <div xml:id="r1642483">
         <head>Introduction</head>
         <p>Dans son numéro du 18 avril 1926, <hi rend="i">Le Figaro</hi> relate la première vente de la bibliothèque personnelle de Pierre Louÿs (1870-1925). Parmi les ouvrages vendus se trouvent des œuvres majeures de Paul Valéry : l’édition originale dédicacée de <hi rend="i">L’Introduction à la méthode de Léonard de Vinci</hi>, celle du <hi rend="i">Cimetière marin</hi> accompagnée d’une poésie autographe de dix-huit quatrains, et celle de <hi rend="i">La Jeune Parque</hi>, une œuvre qui n’aurait peut-être pas vu le jour sans le soutien indéfectible et les encouragements constants de Pierre Louÿs. Cette vente, Valéry ne la voit pas d’un très bon œil, mais il ne s’y oppose pas foncièrement. En revanche, celle du 1<hi rend="sup">er</hi> juin l’ébranle au plus profond de lui-même : en plus de huit feuillets manuscrits de <hi rend="i">La</hi> <hi rend="i">Jeune Parque</hi>, c’est cette fois une partie de la correspondance personnelle de Louÿs qui est vendue. Voir ainsi son intimité étalée sur la place publique le bouleverse, d’autant qu’il avait pris des précautions, du vivant de Pierre Louÿs, pour que les lettres qu’il lui avait écrites soient reconnues comme sa propriété.</p>
         <p>Cet attachement viscéral à séparer la vie publique de la vie intime est à l’origine de l’image que Valéry a bien voulu transmettre à travers ses œuvres et à laquelle André Breton l’identifiait déjà avant la première guerre mondiale : celle d’un Monsieur Teste détaché de l’humanité, en dehors des affaires du monde et négligeant les faiblesses de son corps pour donner libre cours à la toute-puissance de son esprit. Pourtant, cette image d’un écrivain rationaliste et froid ne reste que ce qu’elle est : une image. Les lettres que Paul Valéry a échangées avec certains correspondants privilégiés révèlent un homme sensible, fragile, inquiet et tourmenté par des liaisons amoureuses parfois déchirantes. Pierre Louÿs était l’un de ces interlocuteurs, tout comme André Gide ou Martine de Béhague. Ils ont été les témoins de l’expression intime d’un homme, désormais bien mise en lumière par l’historiographie.</p>
         <p>Valéry aurait-il été également choqué de voir la correspondance qu’il a entretenue avec son frère entrer à la Bibliothèque nationale de France et être éditée aujourd’hui ? C’est peu probable. La famille au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle a beau être le principal théâtre de la vie privée, elle constitue surtout un espace totalitaire où chaque membre a un rôle bien précis. Les correspondances familiales n’ont donc pas pour objet de permettre à un individu de se singulariser ou de partager sa sensibilité, mais de structurer un groupe grâce à une pratique épistolaire réglée par des représentations et des codes sociaux et culturels. Il n’est donc pas surprenant que la correspondance entre les frères Valéry reste globalement conventionnelle, mais on peut aussi y voir la marque subtile et discrète d’un écrivain qui joue de son statut pour travestir les codes et y apporter jeu et créativité, ce qui explique tout l’intérêt de ces lettres pour l’historiographie valéryenne et l’étude des correspondances familiales en général.</p>
-        <div>
+        <div xml:id="r1642532">
           <head>Sources</head>
           <p>L’ensemble de la correspondance connue des frères Valéry est conservé à la Bibliothèque nationale de France sous la cote Nouvelles Acquisitions françaises 28620 (57-58). C’est essentiellement la correspondance active de Paul, dans la mesure où seules neuf lettres sont de la main de Jules. Les documents ont été collectés chez Jean Valéry, le fils unique de ce dernier, puis cédés plus tard à la Bibliothèque nationale par les descendants de Paul Valéry.</p>
           <p>Cet ensemble est éclairé par la confrontation avec d’autres correspondances de Paul Valéry déjà éditées, ainsi qu’avec des lettres conservées avec celles des deux frères à la Bibliothèque nationale de France sous la cote Nouvelles Acquisitions françaises 28620, mais émanant d’autres correspondants.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1642545">
         <head>Première partie
           <lb/>La correspondance d’un écrivain en famille</head>
-        <div>
+        <div xml:id="r1642552">
           <head>Chapitre premier
             <lb/>Paul Valéry fils, mari et père</head>
           <p>Fils cadet de Barthélémy (1825-1887) et de Fanny Valéry, née Grassi (1831-1927), Ambroise Paul Toussaint Jules naît à Sète en 1871. Son frère aîné, Jules Toussaint Louis Solon (1863-1938), a alors huit ans. Ce prénom d’Ambroise lui vient de son grand-père paternel, Ambroise Valerj (1800-1833), mais Paul devient tout de suite le prénom usuel du nouveau-né en famille.</p>
@@ -80,7 +78,7 @@
           <p>Paul Valéry endosse alors un rôle nouveau : celui d’époux, père et chef de famille. Il remplit parfaitement cette fonction dans les quinze premières années de son mariage, s’efforçant de subvenir aux besoins de sa famille, prenant soin de son épouse lors de ses douloureuses crises rénales et s’émerveillant des bons mots de ses enfants qu’il transmet volontiers à Jules dans des lettres qui mettent en scène une famille traditionnelle, harmonieuse et unie.</p>
           <p>Toutefois, ce rôle s’émousse à partir des années 1920. Après l’achèvement de <hi rend="i">La Jeune Parque</hi> en 1917, Paul Valéry est désormais un poète et écrivain reconnu. Il est alors régulièrement invité aux quatre coins de l’Europe pour donner des conférences tandis que son investissement dans les affaires culturelles de la Société des nations fait de lui l’orateur quasi-officiel de la Troisième République. Ces voyages récurrents et ces charges nouvelles l’éloignent de ses obligations familiales, qu’il délègue parfois à des amis proches de la famille, pendant que de nouvelles relations entrent dans sa vie intime et amoureuse. Pour autant, Paul Valéry a su garder en famille son caractère conciliant et joueur comme en témoigne la relation complice qu’il entretient par la suite avec sa petite-fille Martine Rouart, fille d’Agathe et de Paul Rouart, née en 1934.</p>
         </div>
-        <div>
+        <div xml:id="r1642589">
           <head>Chapitre II
             <lb/>La relation entre les frères</head>
           <p>La correspondance entre Paul et Jules Valéry laisse transparaître quatre phases dans leur relation.</p>
@@ -89,7 +87,7 @@
           <p>Le mariage de Paul avec Jeannie en 1900 ouvre une nouvelle phase de la relation : les deux frères sont désormais les chefs de leurs familles respectives. Il faut constater que seules les considérations pratiques du mariage semblent avoir été réellement communiquées à Jules. Lorsqu’il cherche une oreille plus intime, Paul se tourne vers sa belle-sœur Germaine : c’est à elle qu’il annonce que son choix s’est finalement porté sur la cadette des sœurs Gobillard, en recommandant de détruire la lettre une fois qu’elle aura servi. À Jules, en revanche, il adresse les nouvelles d’une famille plutôt heureuse malgré les douloureuses crises rénales de Jeannie. Ces crises sont notamment à l’origine de lettres déchirantes d’inquiétude et de nervosité. En effet, si la santé est un thème fréquent des correspondances familiales, Paul en parle ici avec une intensité rare, révélatrice de sa grande sensibilité aux maladies et troubles corporels, au point qu’un de ses médecins a dit de lui qu’il était un « hystérique mâle ». Ces lettres constituent en tout cas les seuls moments notables où Paul Valéry partage ses tourments intérieurs avec son frère. Leur relation tend rapidement à prendre une allure de plus en plus conventionnelle.</p>
           <p>Dans la dernière phase de la relation, entre 1920 et 1938, date de la mort de Jules, la notoriété littéraire croissante de Paul semble justifier une apparente prise de distance. En effet, maintenant qu’il est devenu un écrivain reconnu, Paul est de plus en plus absorbé par ses déplacements et ses fonctions publiques : ses lettres s’espacent de plus en plus tout en étant de plus en plus brèves, parfois réduites à un simple résumé factuel des événements. Les excuses pour les retards et délais de réponse sont aussi plus fréquentes et la surcharge de travail est souvent invoquée pour justifier cet état de fait. Les visites de Paul à Montpellier constituent quelques discrètes échappatoires au bruit incessant du monde et Jules en devient alors le confident. Toutefois, Paul ne dit rien des soucis bien plus intimes que lui occasionne sa liaison tumultueuse avec Catherine Pozzi, évoquée seulement quatre fois au total, et toujours sous un prétexte autre que celui des sentiments.</p>
         </div>
-        <div>
+        <div xml:id="r1642620">
           <head>Chapitre III
             <lb/>Correspondance, arts et vie familiale</head>
           <p>On ne saurait dire que Paul Valéry ait été réellement intime avec son frère. Ni révélation ni secret sur la vie privée du poète ne transparaissent dans cet échange. La relation est avant tout placée sous le signe du respect et de la convenance. En cela, l’auteur de <hi rend="i">La Jeune Parque</hi> met en œuvre des pratiques épistolaires qui restent conformes à celles de son temps : il se plie à une obligation implicite d’écriture – en témoignent ses justifications et ses excuses lorsque ses lettres ne sont pas assez régulières au goût de son frère –, il s’insère dans le groupe familial en demandant et en transmettant des nouvelles, il se construit une image de bon frère et de bon père de famille en occultant les moments difficiles de sa vie pour ne garder qu’une image de façade correcte, rapportant ses succès littéraires de manière humble et impersonnelle, se préoccupant avec tendresse de la santé de son épouse et relatant le quotidien de la famille avec légèreté et humour.</p>
@@ -99,7 +97,7 @@
           <p>C’est également avec un œil critique qu’il convient d’observer la distance croissante qui sépare les deux frères dans les dernières décennies de leur correspondance. Seule une soixantaine de lettres est répertoriée pour la période allant de 1920 à 1938. Pour autant, il serait réducteur d’expliquer ce faible nombre par la seule surcharge de travail de Paul, sans prendre en compte l’évolution des structures familiales dans la société. En effet, après la première guerre mondiale, la famille perd progressivement son caractère institutionnel fort. L’individu se voit de plus en plus doté du droit d’avoir une vie privée personnelle, qui ne regarde nul autre que lui-même et ceux qu’il décide d’inclure dans ce nouvel espace. Les deux frères ayant échoué à nouer une relation réellement intime, leurs échanges se distendent naturellement. L’évolution des moyens de communication entre peut-être aussi en ligne de compte : le téléphone et le télégramme deviennent les moyens privilégiés pour l’annonce des nouvelles importantes. Ainsi la mort de Fanny, qu’on appelle alors affectueusement Nonna, est-elle annoncée à Paul par Jules via un télégramme qui n’a pas été conservé. Les échanges épistolaires revêtent alors une fonction plus solennelle et institutionnelle, qui perd peut-être progressivement de son sens.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1642652">
         <head>Deuxième partie
           <lb/>Édition de la correspondance entre Paul et Jules Valéry</head>
         <p>L’édition de la correspondance entre Paul et Jules Valéry comprend exactement trois cents lettres organisées en trois périodes chronologiques : la première couvre les années 1884 à 1899 et compte cent soixante-dix lettres, la deuxième va de 1900 à 1919, pour un total de soixante-seize lettres, et enfin la troisième s’étend de 1920 à 1938 et comprend cinquante-quatre lettres.</p>
@@ -109,15 +107,15 @@
         <p>Les lettres sont accompagnées de plusieurs ensembles de notes. Le premier de ceux-ci fait état de la matérialité des documents. Quelques notes descriptives donnent des informations ponctuelles sur les caractères externes des lettres, signalant par exemple les ratures significatives ou les interruptions dans les lettres. Paul Valéry écrit parfois dans d’autres langues, principalement l’anglais et l’italien, parfois le latin. Une traduction de ces lettres, souvent assez brèves, figure en note. Le reste de l’annotation éclaire les références à la vie politique et culturelle de l’époque, ainsi que la biographie de Paul Valéry ou celles des membres de sa famille. Certains passages sont également éclairés par leur confrontation avec des lettres écrites par Paul Valéry à d’autres correspondants, soit au même moment, soit pour relater les mêmes événements. Cette comparaison permet de saisir combien la correspondance familiale est aussi un lieu de non-dits et de tabous. Enfin, les personnes citées sont dans la mesure du possible identifiées en note. Les lieux mentionnés et les termes techniques employés, empruntés notamment au vocabulaire médical, militaire ou maritime, sont également éclairés.</p>
         <p>Plusieurs lettres écrites entre 1895 et 1898 sont accompagnées de dessins. Si ces illustrations ont pour vocation d’amuser l’auteur et le destinataire de la lettre, elles possèdent parfois un aspect pratique : plan d’appartement, schéma anatomique d’un crâne souffrant d’une rage de dents, etc. Ces dessins sont intégrés à l’édition en respectant au mieux leur disposition d’origine.</p>
       </div>
-      <div>
+      <div xml:id="r1642685">
         <head>Conclusion</head>
         <p>La correspondance de Paul Valéry à son frère reflète une pratique épistolaire assez désinvolte, joueuse et taquine, qui donne à voir une nouvelle facette de l’auteur : celle d’un homme facétieux, qui réarrange les usages de la correspondance pour créer une relation originale, complice, en accord avec un certain plaisir des mots, des langues et du dessin. Y transparaît également une représentation de la famille certes traditionnelle, dans le respect des codes de la bourgeoisie, mais aussi structurée par une valeur fondamentale, l’art, et où les femmes occupent un rôle essentiel.</p>
         <p>Toutefois, la nature même de cette correspondance implique le respect d’un cadre social et d’une certaine convenance, qui empêche les deux hommes d’accéder réellement à une forme d’intimité l’un avec l’autre.</p>
-        <div>
+        <div xml:id="r1642696">
           <head>Pièce justificative</head>
           <p>Lettre de Jules Valéry à un destinataire inconnu sur les débuts d’écrivain de son frère (12 décembre 1926).</p>
         </div>
-        <div>
+        <div xml:id="r1642705">
           <head>Planches</head>
           <p>Lettres illustrées de Paul Valéry à son frère. — Lettres de Paul Valéry écrites sur des supports inhabituels.</p>
         </div>

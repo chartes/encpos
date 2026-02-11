@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1894_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1894_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,15 +55,15 @@
         <forename>E.</forename>
         <surname>Laurain</surname>
       </byline>
-      <div>
+      <div xml:id="r201948">
         <head rend="uc">Introduction</head>
         <p>Aucune étude d’ensemble n’a été faite sur les Présidiaux.</p>
         <p>La création de ces tribunaux eut pour résultats la décentralisation de l’appel, une diminution de la puissance des Parlements et des baillis au profit des justiciables.</p>
       </div>
-      <div>
+      <div xml:id="r201961">
         <head rend="uc">Première partie
          <lb/>Histoire</head>
-        <div>
+        <div xml:id="r201969">
           <head rend="uc">Chapitre premier
            <lb/>origine des Présidiaux. – Les baillis</head>
           <p>L’institution des Présidiaux est le développement naturel de l’institution des grands baillis.</p>
@@ -73,7 +71,7 @@
           <p>A la même époque, l’idée qui fit établir les Présidiaux, c’est-à-dire limiter les appels d’après le taux des affaires, est appliquée.</p>
           <p>Dès la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, le siège principal d’un bailliage s’appelle Cour présidiale, du moins dans le Midi.</p>
         </div>
-        <div>
+        <div xml:id="r202002">
           <pb source="https://nakala.fr/10.34847/nkl.fcach9t8#3287a03956f1bf622926952e277f24e6d9fe0190" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.fcach9t8/3287a03956f1bf622926952e277f24e6d9fe0190/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Création des Présidiaux</head>
@@ -81,14 +79,14 @@
           <p>L’instigateur de cette réforme fut probablement le cardinal de Lorraine.</p>
           <p>Soixante Présidiaux furent établis cette année-là. Le présidial ne formait pas un siège indépendant du bailliage : dès l’origine, la présidialité fut attribuée aux officiers du siège principal du bailliage.</p>
         </div>
-        <div>
+        <div xml:id="r202025">
           <head rend="uc">Chapitre III
            <lb/>Les Présidiaux et les Parlements</head>
           <p>Le tiers état se montra toujours zélé partisan des Présidiaux.</p>
           <p>Les Parlements en furent toujours les adversaires ; ils repoussaient tous les édits qui les concernaient, retardaient l’établissement de nouveaux sièges, recevaient même l’appel des sentences rendues en dernier ressort.</p>
           <p>Le grand Conseil fut déclaré le protecteur des Présidiaux contre les Parlements (décembre 1574) ; la lutte dura jusqu’à la suppression de ces diverses juridictions.</p>
         </div>
-        <div>
+        <div xml:id="r202043">
           <head rend="uc">Chapitre IV
            <lb/>La décadence des Présidiaux</head>
           <p>Leur nombre fut augmenté, surtout entre 1629 et 1645, et vers la fin du <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
@@ -96,14 +94,14 @@
           <p>Vers 1690, ils étaient déjà en pleine décadence. Accablés de dettes, recevant des épices et des gages à peu près nuis, ruinés par les augmentations de gages et les privilèges qu’il leur fallait acheter, les officiers délaissaient les charges présidiales.</p>
           <p>Quelques réformes introduites dans l’administration de la justice furent impuissantes à combattre le mal.</p>
         </div>
-        <div>
+        <div xml:id="r202072">
           <head rend="uc">Chapitre V
            <lb/>Le mouvement de 1763. – Ampliation des pouvoirs
            <lb/>des Présidiaux</head>
           <p>Diverses tentatives faites en 1740, 1753, 1757 pour restaurer les Présidiaux n’aboutirent pas. En 1763, les Présidiaux députèrent Jousse auprès du Bureau de Législation pour solliciter la noblesse en faveur des officiers et l’ampliation de leurs pouvoirs. Cette démarche fut inutile.</p>
           <p>Enfin, un édit de 1774 élève le taux de leur compétence jusqu’à 2,000 livres au premier chef. Sur les réclamations du Parlement, un édit d’août 1777 y apporte de graves restrictions que tempère une déclaration d’août 1778.</p>
         </div>
-        <div>
+        <div xml:id="r202089">
           <head rend="uc">Chapitre VI
            <lb/>Suppression des Présidiaux</head>
           <p>La situation des Présidiaux devient plus mauvaise ; certains sièges ne peuvent plus juger présidialement, faute d’officiers et d’avocats.</p>
@@ -113,10 +111,10 @@
           <p>Les Présidiaux sont supprimés ; les tribunaux de district les remplacent.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r202116">
         <head rend="uc">Deuxième partie
          <lb/>Juridiction civile des Présidiaux</head>
-        <div>
+        <div xml:id="r202124">
           <head rend="uc">Chapitre premier
            <lb/>les Présidiaux considérés comme juges de première
            <lb/>instance</head>
@@ -125,21 +123,21 @@
           <p>Ils ne connaissent que des matières civiles qui reçoivent une estimation ; cette estimation ne peut être supérieure aux sommes portées par l’édit.</p>
           <p>Plusieurs exceptions sont introduites par le Parlement.</p>
         </div>
-        <div>
+        <div xml:id="r202147">
           <head rend="uc">Chapitre II
            <lb/>Comment se règle la compétence présidiale en première
            <lb/>instance</head>
           <p>Quand la valeur de l’objet de la demande ou de l’objet contesté n’est pas supérieure aux sommes portées par l’édit, les causes sont de la compétence du présidial.</p>
           <p>Les moyens de connaître cette valeur sont les instruments authentiques, l’estimation par experts, la restriction définitive des parties avant le jugement au fond.</p>
         </div>
-        <div>
+        <div xml:id="r202164">
           <pb source="https://nakala.fr/10.34847/nkl.fcach9t8#b60e62f87e9b0bd7d96a87e938afe6415a89c415" n="35" facs="https://api.nakala.fr/iiif/10.34847/nkl.fcach9t8/b60e62f87e9b0bd7d96a87e938afe6415a89c415/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>Des Présidiaux considérés comme juges d’appel</head>
           <p>Juges d’appel, ils forment un tribunal permanent. Il n’est plus besoin d’attendre jusqu’aux assises trimestrielles pour appeler des sentences des juges inférieurs. Les assises ne sont plus dès lors qu’un moyen, pour les baillis, de surveiller leurs lieutenants et les prévôts.</p>
           <p>Les Présidiaux connaissent de l’appel des sentences rendues par les juges de leur ressort, dans les cas de l’édit ; ils connaissent de l’appel des sentences rendues par le lieutenant général aux petites audiences, par les conservateurs des privilèges royaux de l’Université, par les sièges de police en certains cas, et aussi par les juges des Pairies qui n’ont pas obtenu le privilège de ressortir directement au Parlement.</p>
         </div>
-        <div>
+        <div xml:id="r202184">
           <head rend="uc">Chapitre IV
            <lb/>Manière de rendre les jugements. – Qualités
            <lb/>des sentences présidiales</head>
@@ -147,7 +145,7 @@
           <p>Sept magistrats sont nécessaires pour juger présidialement ; leur jugement se forme à la pluralité d’une voix.</p>
           <p>Les sentences sont intitulées : les gens tenant le siège présidial. Il faut y mentionner si les juges prononcent par jugement dernier ou par provision. En appel, les juges ne peuvent prononcer que par bien ou mal jugé.</p>
         </div>
-        <div>
+        <div xml:id="r202204">
           <pb source="https://nakala.fr/10.34847/nkl.fcach9t8#ec073f042d2f494e4c6feef9b1c4a424da62b1c5" n="36" facs="https://api.nakala.fr/iiif/10.34847/nkl.fcach9t8/ec073f042d2f494e4c6feef9b1c4a424da62b1c5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre V
            <lb/>De l’exécution des sentences présidiales. –

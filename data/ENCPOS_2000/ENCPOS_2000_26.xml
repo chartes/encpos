@@ -1,5 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2000_26" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_2000_26" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -53,13 +52,13 @@
         <forename>Hugues</forename>
         <surname rend="uc">Lépolard</surname>
       </byline>
-      <div>
+      <div xml:id="r1376317">
         <head>Introduction</head>
         <p>Au contraire de nombre de ses pareils de la France d’Ancien Régime, fût-ce même de la seule province ecclésiastique de Reims, le chapitre cathédral de Soissons n’a jamais fait l’objet d’une étude particulière, en dépit de son importance tant à l’échelle du diocèse, où son patrimoine et son implantation lui assuraient une prééminence indéniable, qu’à celle de la province ecclésiastique. Une telle entreprise nécessite d’une part le recensement préalable des pièces d’archives composant le chartrier du chapitre, aujourd’hui disséminées, et d’autre part, pour la période la plus ancienne de son histoire, la constitution d’un corpus de chartes, ici menée des origines (1089) à 1243, ultime année possible du long épiscopat de Jacques de Bazoches.</p>
       </div>
-      <div>
+      <div xml:id="r1376326">
         <head>Première partie <lb/>Etude</head>
-        <div>
+        <div xml:id="r1376333">
           <head>Chapitre premier <lb/>Etat des sources</head>
           <p>L’édition et l’étude des actes connus (originaux, copies ou mentions) ayant composé le chartrier du chapitre cathédral de Soissons pour la période 1089-1243 ne peuvent prétendre livrer une reconstitution fidèle ni même un état idéal de celui- ni à une quelconque époque. Le caractère toujours incomplet des quatre ensembles de sources (originaux, cartulaire, copies de dom Muley, inventaire de 1782) l’interdit. Le corpus des chartes montre de plus la prédominance des deperdita ou unica, croissant plus qu’en proportion avec une inflation documentaire particulièrement importante après la décennie 1210-1219.</p>
           <p>Le croisement de ces divers éléments permet cependant d’espérer que peu des chartes qui subsistaient à la fin du <num>xviii<hi rend="sup">e</hi></num>  siècle pour la période choisie ont échappé à la recherche.</p>
@@ -84,7 +83,7 @@
           <p><hi rend="i">Après la suppression du chapitre </hi> — Conformément aux décrets de l’Assemblée nationale relatifs aux biens des institutions religieuses supprimées et à leurs archives, celles du chapitre furent dans un premier temps mises sous scellés le 1 <hi rend="sup">er</hi> octobre 1790, puis, les 22, 30 et 31 du même mois, déposées dans celles du district. Elles ne reparaissent distinctement qu’à l’occasion de la suppression du district et du déménagement de ses archives au chef-lieu du département, prévu par la loi du 5 brumaire an V. Deux « lettres de voiture » facturent alors le transfert à Laon des archives du chapitre, pesées en livres pour chaque type de documents sommairement désignés : « registres de compte » (425, 420, 348, 446), « obiterie et partie des chapelains » (271, 225), « comptes du chapitre » (125, 244, 146, 209, 298), « titres du chapitre » (146). Cette masse considérable (3949 livres au total), sans rapport aucun avec les documents aujourd’hui conservés, montre que, malgré des soustractions à Soissons même, l’essentiel des destructions se fit plus tard, au moment du tri de ces papiers.</p>
           <p>Encore non triées, comme le reste de l’immense dépôt d’archives de la préfecture, à la date de septembre 1815, où le préfet sollicita l’autorisation de demander à Daunou l’envoi d’un archiviste, les chartes étaient toujours en grand désordre en 1820, où elles n’étaient que grossièrement classées par établissement d’origine. Elles furent ensuite vraisemblablement acheminées à la bibliothèque Mazarine, puis, en 1834, aux actuelles Archives nationales ainsi qu’à la Bibliothèque nationale de France.</p>
         </div>
-        <div>
+        <div xml:id="r1376583">
           <head>Chapitre II <lb/>Histoire du chapitre cathédral de Soissons</head>
           <p><hi rend="i">Les origines du chapitre cathédral (<num>ix<hi rend="sup">e</hi></num>  siècle-1089) </hi> — Etablir l’histoire du chapitre cathédral est difficile avant la fin du <num>xi<hi rend="sup">e</hi></num>  siècle, date à laquelle commencent généralement les séries documentaires conservées.</p>
           <p>Fondé vraisemblablement peu après le concile d’Aix-la-Chapelle (816) organisant la réforme des églises cathédrales de l’Empire et contemporain de la reconstruction de la cathédrale (815), très certainement établi lors du passage de Rothade I<hi rend="sup">er</hi> , évêque, et de Rothfride, comte de Soissons, les deux <hi rend="i">missi dominici</hi> chargés en 822 d’inspecter les églises de la province ecclésiastique, le chapitre cathédral ou plutôt ses chanoines apparaissent pour la première fois en 831, dans le testament d’Anségise de Wandrille ; ils ne sont ensuite mentionnés que de manière plus laconique en quatre circonstances : déposition et restauration de l’évêque Rothade II par l’archevêque de Reims Hincmar et le pape Nicolas Ier (863-866) (dans la correspondance échangée par les protagonistes) ; passage à Brescia du même évêque, allant à Rome avec une suite de clercs et de chanoines soissonnais en appeler au pape (864) (dans le nécrologe de S. Salvatore et Giulia de Brescia) ; statuts diocésains de l’évêque Riculfe (889) ; incendie du « cloître des chanoines » avec le reste du quartier de la cathédrale, lors du siège de la ville par les troupes d’Hugues le Grand en 948 (dans l’<hi rend="i">Historia Remensis ecclesie</hi> de Flodoard).</p>
@@ -104,11 +103,11 @@
           <p>Le chapitre eut tout particulièrement des conflits violents et répétés avec la commune, portant principalement sur la revendication de droits sur des personnes ou des biens. Plusieurs arbitrages solennels, rendus par le roi (1136, 1183, 1211, 1225), par son chancelier (décembre 1224), son chambrier (novembre 1210) ou par l’archevêque de Reims (1182, janvier 1231 [n.st.]), et un accord particulier (1204) furent impuissants à prévenir de nouveaux conflits, qui, joints à ceux qui suivirent et l’opposèrent au chapitre comme à d’autres établissements, participèrent à la ruine puis à la suppression de la commune, remplacée en 1326 par un prévôt royal.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1376697">
         <head>Deuxième partie <lb/>Édition</head>
         <p>Edition critique des 410 actes ou mentions connus pour la période 1089-1243.</p>
       </div>
-      <div>
+      <div xml:id="r1376708">
         <head>Annexes</head>
         <p>Documents anciens de nature archivistique conservés dans le chartrier du chapitre. ­ Carte du domaine du chapitre. ­ Index.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_11" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1911_11" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -60,7 +58,7 @@
         <surname>Luzu</surname>
         <roleName>Licencié en droit</roleName>
       </byline>
-      <div>
+      <div xml:id="r352765">
         <head rend="uc">Sources et bibliographie</head>
         <p>1. <hi rend="i">Les archives du Parlement de Paris.</hi> – Grand rôle joué par le Parlement au <num>xvi<hi rend="sup">e</hi></num> siècle. Son hostilité à l’égard des hérétiques : les juges délégués. Intervention du roi et création d’une chambre spéciale pour juger les hérétiques en 1535. Rareté des arrêts rendus par elle.</p>
         <p>Extension de la compétence du Parlement (ordonnance de Fontainebleau, 1<hi rend="sup">er</hi> juin 1540) : le Parlement juge du crime d’hérésie en premier et dernier ressort. Distinction entre le « délit commun » et le « cas privilégié ». La première Chambre ardente.</p>
@@ -75,37 +73,37 @@
         <p>6. <hi rend="i">Les enquêtes et informations faites après le départ des Huguenots.</hi> – D’abord l’enquête du conseiller Michel Legras du 5 août 1562 ; puis celle de Pierre Prousteau, sergent royal, et de Pierre Moriceau, notaire royal, dirigée la même année plus spécialement contre les auteurs du pillage du couvent des Jacobins ; enfin l’information de Mathurin Leboindre faite en 1574 contre les auteurs du pillage de Saint-Julien. Critique de ces documents.</p>
         <p>7. <hi rend="i">Le Procès-verbal de la ruine de l’Église du Mans <pb source="https://nakala.fr/10.34847/nkl.ce05h69l#3b8f5840e8b53614da2bda2ac51289c38e32f9b3" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.ce05h69l/3b8f5840e8b53614da2bda2ac51289c38e32f9b3/full/full/0/default.jpg"/>du 30 juillet 1563, et les rapports des gens de métier sur le pillage de cette église.</hi> – Le procès-verbal doit être complété par les plaintes et doléances adressées en 1563 par le chapitre du Mans à François Briçonnet et Jean de Lavau, conseillers au Parlement. Utilité de ces deux sources pour la reconstitution des richesses artistiques de Saint-Julien.</p>
       </div>
-      <div>
+      <div xml:id="r352861">
         <head rend="uc">Première partie
          <lb/>Les débuts de la réforme</head>
-        <div>
+        <div xml:id="r352869">
           <head rend="uc">Chapitre premier
            <lb/>la province du Maine au <num>xvi<hi rend="sup">e</hi></num> siècle</head>
           <p>Le Maine au <num>xvi<hi rend="sup">e</hi></num> siècle : la sénéchaussée, le marquisat de Mayenne, le duché de Vendôme, le duché de Beaumont, le comté de Laval. Les juges présidiaux : le sénéchal, le lieutenant particulier, le lieutenant général, le lieutenant criminel. Les autres magistrats du roi. Les juges ecclésiastiques : l’official, les inquisiteurs de la foi. Mathieu Orry, inquisiteur général. L’inquisition de 1557.</p>
         </div>
-        <div>
+        <div xml:id="r352893">
           <head rend="uc">Chapitre II
            <lb/>Les origines de la réforme</head>
           <p>Première manifestation hérétique à Laval en 1526 (?). Influence de la ville d’Alençon sur la propagation des nouvelles doctrines : Marguerite de Navarre. Procès de Jean Le Coq (1<hi rend="sup">er</hi> décembre 1535). Poursuites dirigées contre un chanoine (1536).</p>
           <p>Propagation rapide de la réforme à partir de 1540. Voyage de la reine de Navarre au Mans (1545). Les hérétiques font « des conventicules et dogmatisations ». Mission du conseiller Jean Corbin à Laval. Les remèdes <pb source="https://nakala.fr/10.34847/nkl.ce05h69l#d70562b82236515dd98f7a90b0e31798285bb1ad" n="88" facs="https://api.nakala.fr/iiif/10.34847/nkl.ce05h69l/d70562b82236515dd98f7a90b0e31798285bb1ad/full/full/0/default.jpg"/>proposés par le Parlement restent sans effet. Mesures prises contre les livres de Luther. Intervention de la Faculté de théologie.</p>
         </div>
-        <div>
+        <div xml:id="r352917">
           <head rend="uc">Chapitre III
            <lb/>Les protestants sous Henri II</head>
           <p>Violente persécution sous Henri H. La Chambre ardente : condamnations et acquittements prononcés par elle. Édit de Compiègne (juillet 1557).</p>
           <p>Émigration des protestants. La Ferrière, gentilhomme du Maine, quitte son pays et fonde l’Église de Paris.</p>
           <p>Les protestants trouvent asile à Alençon, au duché de Beaumont et à Laval : la comtesse Guyonne de Laval et François d’Andelot. Nouvelle mission du conseiller Jean Corbin.</p>
         </div>
-        <div>
+        <div xml:id="r352935">
           <head rend="uc">Chapitre IV
            <lb/>Triomphe de l’hérésie sous François II</head>
           <p>Sévérité, puis modération de François II à l’égard des hérétiques. La conspiration d’Amboise ; sa répercussion dans le Maine. L’hérésie gagne les magistrats du roi et ceux de la ville : Jean de Vignolles, lieutenant particulier du sénéchal, et Simon Legendre, avocat du roi. Craintes des chanoines pour les richesses de Saint-Julien.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r352948">
         <head rend="uc">Deuxième partie
          <lb/>La première église du Mans</head>
-        <div>
+        <div xml:id="r352956">
           <head rend="uc">Chapitre I
            <lb/>Organisation de l’église</head>
           <p>Division de la ville et des faubourgs en cinq cantons. Les surveillants : leurs attributions. Les ministres : leur <pb source="https://nakala.fr/10.34847/nkl.ce05h69l#75bd580063c17b5b4b96cad7444682d302320e34" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.ce05h69l/75bd580063c17b5b4b96cad7444682d302320e34/full/full/0/default.jpg"/>rôle, leur mode de nomination. Les diacres, le scribe et le serviteur. Les receveurs des deniers des fidèles.</p>
@@ -113,13 +111,13 @@
           <p>Culte non public. Les assemblées ou « exhortations » des fidèles se font dans des maisons privées. Conditions pour y être admis. Facilités accordées aux gentilshommes qui viennent nombreux.</p>
           <p>Prohibitions édictées par l’Église. Interdiction de la plupart des jeux, surtout des cartes. Défense aux artisans de faire aucun ouvrage « ayant rapport à l’idolâtrie ». Grand nombre d’orfèvres. Leur propension à embrasser l’hérésie.</p>
         </div>
-        <div>
+        <div xml:id="r352982">
           <head rend="uc">Chapitre II
            <lb/>Déclin et fin de l’église</head>
           <p>Déclin rapide de l’Église du Mans, malgré l’édit de janvier 1561. Troubles produits par les assemblées. Intervention du duc de Montpensier, gouverneur, empêchée par Le Barbier de Francourt et André Guillart, sieur du Mortier.</p>
           <p>Emeute du 25 mars : rixe entre catholiques et protestants. Mission du président Lagebaston, de Chavigny et de Du Mortier. Intervention de l’évêque du Mans et interdiction des assemblées. Fin de l’Église protestante.</p>
         </div>
-        <div>
+        <div xml:id="r352997">
           <head rend="uc">Chapitre III
            <lb/>Pierre Merlin, ministre de l’église du Mans</head>
           <p>Les assemblées recommencent au mois de mai 1561, malgré le départ des ministres. Edit de juillet 1561.</p>
@@ -129,11 +127,11 @@
           <p>Accueil fait à l’édit de janvier 1562. Association contre les Guise entre les gentilshommes de la province.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r353024">
         <head rend="uc">Troisième partie
          <lb/>Le protestantisme dans le Maine, de 1562
          <lb/>à la mort de Charles IX</head>
-        <div>
+        <div xml:id="r353034">
           <head rend="uc">Chapitre premier
            <lb/>l’occupation du Mans par les protestants en 1562</head>
           <p>Entrée du duc de Guise à Paris. Retraite du prince de Condé sur Orléans. Ses lettres aux églises de France. Prise de plusieurs villes par les protestants.</p>
@@ -144,7 +142,7 @@
           <p>Étude sommaire sur les personnages qui prirent part à l’occupation. Liste des rebelles.</p>
           <p>Hostilité des Huguenots à l’égard des œuvres d’art : ce qu’il faut en penser.</p>
         </div>
-        <div>
+        <div xml:id="r353069">
           <head rend="uc">Chapitre II
            <lb/>Le Maine depuis le départ des huguenots jusqu’à
            <lb/>l’édit d’Amboise</head>
@@ -153,7 +151,7 @@
           <p>Interdiction absolue aux protestants d’entrer au Mans. Les délateurs.</p>
           <p>Intervention de l’Église. Les monitoires lancés par elle restent sans effet.</p>
         </div>
-        <div>
+        <div xml:id="r353092">
           <head rend="uc">Chapitre III
            <lb/>L’édit d’Amboise. Les protestants jusqu’à la mort
            <lb/>de Charles IX</head>
@@ -165,18 +163,18 @@
           <p>Calme relatif au Mans jusqu’à la mort de Charles IX.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r353127">
         <pb source="https://nakala.fr/10.34847/nkl.ce05h69l#63f9f214c666b5f1b23b2367666244c1758f29e2" n="93" facs="https://api.nakala.fr/iiif/10.34847/nkl.ce05h69l/63f9f214c666b5f1b23b2367666244c1758f29e2/full/full/0/default.jpg"/>
         <head rend="uc">Quatrième partie
          <lb/>La ligue dans le Maine</head>
-        <div>
+        <div xml:id="r353140">
           <head rend="uc">Chapitre premier
            <lb/>le Mans de la mort de Charles IX à 1585.</head>
           <p>Fuite du duc d’Alençon, suivie bientôt de la fuite du roi de Navarre. Craintes inspirées aux habitants par le départ de ces princes. Mesures de sûreté prises au Mans par Nicolas d’Angennes. Conflit entre les échevins et le capitaine du château.</p>
           <p>Incursions des compagnies dans les faubourgs du Mans en 1576 et en 1577. Bussy d’Amboise.</p>
           <p>Philippe d’Angennes gouverneur du Mans (1582).</p>
         </div>
-        <div>
+        <div xml:id="r353158">
           <head rend="uc">Chapitre II
            <lb/>La ligue de 1585 à 1589</head>
           <p>Projets du duc de Guise contre Henri III. La ligue parisienne. Le Mans reste fidèle à Henri III. Tentative de Boisdauphin sur le Mans (19 juillet 1588). Elle échoue grâce au gouverneur, Louis de Maintenon. Capitulation du Mans (11 février 1589). Gouvernement de Boisdauphin. Le roi de Navarre, revenant de Paris, assiège le Mans, qui capitule le 2 décembre 1589.</p>

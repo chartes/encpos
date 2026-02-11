@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1862_05" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1862_05" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,11 +55,11 @@
         <forename>Joseph</forename>
         <surname>de Laborde</surname>
       </byline>
-      <div>
+      <div xml:id="r41944">
         <head rend="uc">Introduction.</head>
         <p>But de ce travail. – On ne sait rien de précis sur l’organisation de l’hôtel du roi avant le règne de saint Louis. Ce n’est qu’à dater de ce prince que les textes nous permettent d’étudier la question d’une manière sûre. – Intérêt que présentent les comptes de l’hôtel ; leur importance au point de vue historique. – Divisions de ce travail.</p>
       </div>
-      <div>
+      <div xml:id="r41954">
         <head rend="uc">Première partie.
          <lb/>Organisation de l’hôtel.</head>
         <p>Le premier texte que nous rencontrons est une ordonnance de l’hôtel faite par saint Louis au mois d’août 1261. Ducange, dans son édition de Joinville, a cité <pb source="https://nakala.fr/10.34847/nkl.6d548tp1#70bc1f589413d3e621bf5e375c48c0d124eac473" n="28" facs="https://api.nakala.fr/iiif/10.34847/nkl.6d548tp1/70bc1f589413d3e621bf5e375c48c0d124eac473/full/full/0/default.jpg"/>un extrait de ce document. – Différences entre le texte latin donné par Ducange et le texte français, qui se trouve dans un registre du trésor des chartes (cot. 57). Cette ordonnance permet de se faire une idée de l’organisation antérieure de l’hôtel. On y voit saint Louis convertir en gages fixes les libéralités qu’il faisait autrefois aux officiers de l’hôtel sous le nom de <hi rend="i">livraisons</hi> et de <hi rend="i">poignées.</hi></p>
@@ -74,15 +72,15 @@
         <p>Ordonnance pour le gouvernement de l’hôtel du roi et le bien du royaume (Bourges, 16 novembre 1318).</p>
         <p>Lettres de Charles VI, du 25 juillet 1383 et du 17 mars 1390 (Paris).</p>
       </div>
-      <div>
+      <div xml:id="r42002">
         <pb source="https://nakala.fr/10.34847/nkl.6d548tp1#268204b25c3b0e7f53549f3f4a40938ad38df024" n="29" facs="https://api.nakala.fr/iiif/10.34847/nkl.6d548tp1/268204b25c3b0e7f53549f3f4a40938ad38df024/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie.
          <lb/>Comptes de l’hôtel.</head>
-        <div>
+        <div xml:id="r42015">
           <head rend="uc">I. – <hi rend="i">Comptes de Jehan Sarrazin.</hi></head>
           <p>Les registres des comptes de l’hôtel antérieurs à l’an 1380 ne nous ont pas été conservés. – Quelques comptes particuliers permettent cependant d’apprécier les recettes et les dépenses de certains règnes. – Tablettes de cire de Jehan Sarrazin ; parmi les comptes qui s’y trouvent inscrits, ceux du Temple résument les dépenses de l’hôtel du roi pendant les années 1256-1237. – Importante dissertation sur ce sujet par M. Natalis de Wailly, dans les <hi rend="i">Rerum gallicarum et francicarum scriptores.</hi></p>
         </div>
-        <div>
+        <div xml:id="r42031">
           <head rend="uc">II. – <hi rend="i">Premier compte de l’hôtel.</hi></head>
           <p>Nous n’insisterons pas sur les Tablettes de cire ; nous étant proposé dans ce travail de fonder uniquement nos assertions sur l’examen attentif des registres des comptes de l’hôtel, nous abordons cette étude par le plus ancien compte, qui est intitulé : « Le Compte des despenz de « l’ostel le roy Charles du premier jour d’octobre l’an « MCCC iiij<hi rend="sup">xx</hi> que il commança à tenir son hostel corne « roy	 jusques au premier jour de juillet ensuivant « MCCC iiij<hi rend="sup">xx</hi> et vij. » – Examen de ce compte. – Recettes et dépenses.</p>
           <pb source="https://nakala.fr/10.34847/nkl.6d548tp1#5b21432e5900e9414e77cceb4c23fd80013a904d" n="30" facs="https://api.nakala.fr/iiif/10.34847/nkl.6d548tp1/5b21432e5900e9414e77cceb4c23fd80013a904d/full/full/0/default.jpg"/>
@@ -96,7 +94,7 @@
           <p>Intérêt relatif de chacune de ces divisions.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r42125">
         <pb source="https://nakala.fr/10.34847/nkl.6d548tp1#6bac5feb99cd94d8fdbdf36ab18ca3020067b297" n="31" facs="https://api.nakala.fr/iiif/10.34847/nkl.6d548tp1/6bac5feb99cd94d8fdbdf36ab18ca3020067b297/full/full/0/default.jpg"/>
         <head rend="uc">Troisième partie.
          <lb/>Les métiers de l’hôtel.</head>

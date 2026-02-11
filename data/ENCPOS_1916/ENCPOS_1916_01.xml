@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1916_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1916_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>Pierre</forename>
         <surname>d’Espezel</surname>
       </byline>
-      <div>
+      <div xml:id="r378837">
         <head rend="uc">Introduction</head>
         <p>Raisons qui ont fait choisir la période 1500-1560 : importance des réformes accomplies sous Louis XII, François I<hi rend="sup">er</hi> et Henri II ; décadence de l’armée pendant les guerres de religion.</p>
       </div>
@@ -69,7 +67,7 @@
         <head rend="uc">Table des ordonnances utilisées</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r378869">
         <head rend="uc">Première partie
          <lb/>La direction de l’armée</head>
         <p>I. <hi rend="i">Le Commandement suprême.</hi> 1. Le Roi.</p>
@@ -86,11 +84,11 @@
         <p>Connétable, maréchaux, gouverneurs peuvent jouer encore un rôle important : ils ne le peuvent que s’ils sont en faveur. Montmorency, véritable chef de l’armée avant d’être connétable, y jouit de peu d’influence, quand il est disgracié, quoique connétable.</p>
         <p>Un organe stable demeure, le Conseil privé, simple instrument de la volonté royale : ses attributions croissantes en matière militaire, d’après les ordonnances et le registre d’Henri II. L’autorité directe du Roi sur l’armée grandit de plus en plus.</p>
       </div>
-      <div>
+      <div xml:id="r378926">
         <pb source="https://nakala.fr/10.34847/nkl.568529th#5e0af371d2739369331f9592b6df966e99668937" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.568529th/5e0af371d2739369331f9592b6df966e99668937/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les troupes</head>
-        <div>
+        <div xml:id="r378939">
           <head rend="uc">Section première
            <lb/>la maison du roi</head>
           <p>I. <hi rend="i">Garde du corps.</hi> 1. Archers écossais : origine ; recrutement d’abord exclusivement écossais, puis français ; capitaines ; répartition : les 24 archers du corps, les 77 archers de la garde ; service à la cour, en guerre ; costume ; privilèges ; solde.</p>
@@ -100,7 +98,7 @@
           <p>IV. <hi rend="i">Cornette du Roi ou cornette blanche.</hi> C’est un corps formé de gentilshommes volontaires et d’officiers de la Cour, qui n’existe qu’en temps de guerre et sert sous les ordres directs du Roi. – Il peut y avoir une « cornette du Dauphin », une « cornette des princes ».</p>
           <p>La Maison du Roi a une certaine unité : les mobilisations générales de ce corps.</p>
         </div>
-        <div>
+        <div xml:id="r378986">
           <pb source="https://nakala.fr/10.34847/nkl.568529th#aafd756313fa740baf97b6f90e7a1406016601f0" n="8" facs="https://api.nakala.fr/iiif/10.34847/nkl.568529th/aafd756313fa740baf97b6f90e7a1406016601f0/full/full/0/default.jpg"/>
           <head rend="uc">Section II
            <lb/>la cavalerie</head>
@@ -139,7 +137,7 @@
             <p>V. <hi rend="i">Argoulets</hi>. D’origine italienne, introduits après les estradiots. Armement.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r379194">
           <head rend="uc">Section III
            <lb/>l’infanterie</head>
           <div>
@@ -189,7 +187,7 @@
             <p>III. <hi rend="i">Italiens et Corses.</hi> Même organisation que les bandes françaises. Y eut-il réellement un colonel général des Italiens en titre d’office (1558) ? En tout cas, le colonel général des Corses ne date que de 1569.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r379411">
           <head rend="uc">Section IV
            <lb/>l’artillerie</head>
           <p>I. <hi rend="i">Personnel ordinaire.</hi> Il est couché sur l’Etat annuel signé du Roi et permanent.</p>
@@ -214,7 +212,7 @@
           <p>Finances extraordinaires : tout le reste est de leur ressort sous la direction d’un Trésorier. – Division en « deça » et « dela les monts » (1558). Réunion à l’Ordinaire en 1561. – Ordonnancements. – Totaux des frais.</p>
           <p>L’organisation de l’artillerie jouit d’une telle autonomie qu’il a paru indispensable de traiter immédiatement la justice et les finances.</p>
         </div>
-        <div>
+        <div xml:id="r379513">
           <head rend="uc">Section V
            <lb/>les forteresses</head>
           <p>I. <hi rend="i">Les forteresses.</hi> Leur importance dans les opérations à celte époque.</p>
@@ -230,10 +228,10 @@
           <p>Garnisons extraordinaires. En cas de menace de l’ennemi, on renforce extraordinairement les garnisons qui comptent alors de gros effectifs.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r379581">
         <head rend="uc">Troisième partie
          <lb/>Les services généraux</head>
-        <div>
+        <div xml:id="r379589">
           <head rend="uc">Section première
            <lb/>les « montres »</head>
           <p>Les montres ou revues sont un moyen de contrôle à la fois financier et militaire ; d’où leur importance.</p>
@@ -247,7 +245,7 @@
           <p>Modalités particulières : étude détaillée des montres de la gendarmerie (trimestrielles ; mécanisme assez compliqué), des gens de pied, des chevau-légers et des troupes étrangères (mensuelles ; depuis 1557 leur organisation est centralisée par les contrôleurs provinciaux), des mortes paies (trimestrielles ; commissaires et contrôleurs spéciaux), des légions (semestrielles).</p>
           <p>Chaque montre est constatée par la confection de <pb source="https://nakala.fr/10.34847/nkl.568529th#9ffce53ba90d9439aad5c9cf8a8948356f791ccc" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.568529th/9ffce53ba90d9439aad5c9cf8a8948356f791ccc/full/full/0/default.jpg"/>« rôles » en plusieurs exemplaires destinés aux autorités • militaires, connétable, chefs de corps, en même temps qu’aux trésoriers des guerres et au secrétaire général qui centralise les écritures et contrôle l’emploi des fonds.</p>
         </div>
-        <div>
+        <div xml:id="r379643">
           <head rend="uc">Section II
            <lb/>l’intendance</head>
           <p>I. <hi rend="i">Vivres.</hi> 1. Personnel : il n’est ni régulier ni stable ; on trouve des « commissaires des vivres » chargés de l’achat et de la répartition des vivres pour une armée ou pour les places d’une région.</p>
@@ -259,7 +257,7 @@
           <p>Invalides. Trois moyens d’assurer leur sort sont concurremment employés : les pensions ; les places de mortes-paies ; les places de religieux lais dans les monastères de fondation royale.</p>
           <p>IV. <hi rend="i">Aumôniers militaires.</hi> Prévus dans les légions d’Henri II et les régiments suisses.</p>
         </div>
-        <div>
+        <div xml:id="r379697">
           <head rend="uc">Section III
            <lb/>les finances</head>
           <p>Les frais de la guerre sont la principale charge du Trésor. Nombre des moyens financiers spécialement destinés à procurer les ressources nécessaires : « crues » de tailles, contributions imposées aux villes, emprunts, aliénations du domaine, etc.</p>
@@ -275,7 +273,7 @@
           <p>8. Garde. Chaque corps a ses payeurs spéciaux.</p>
           <p>Le Ban et les Prévôts « subsidiaires » ont une organisation financière purement locale.</p>
         </div>
-        <div>
+        <div xml:id="r379747">
           <head rend="uc">Section IV
            <lb/>la justice</head>
           <p>I. <hi rend="i">Juridiction d’exception</hi>.</p>
@@ -293,7 +291,7 @@
           <p>Cette juridiction sommaire et sans appel était, malgré ses abus, rendue nécessaire par l’état des mœurs et de la législation militaires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r379825">
         <head rend="uc">Conclusion</head>
         <p>Diverses tendances se manifestent dans l’armée de François I<hi rend="sup">er</hi> et d’Henri II : décadence des troupes qui ne sont pas de « métier », des « milices » (ban, francs archers, légions) ; perfectionnement des troupes composées de soldats de carrière ; importance croissante de l’infanterie et des armes à feu, de l’artillerie ; prépondérance du pouvoir royal direct.</p>
         <p>En somme, les institutions militaires, sous l’impulsion royale, évoluent vers la formation d’une armée exclusivement de métier, où l’artillerie et surtout l’infanterie se placent de plus en plus au premier rang et qui, de plus en plus aussi, se trouve sous la direction et le contrôle immédiats du pouvoir royal, « dans la main » du Roi.</p>

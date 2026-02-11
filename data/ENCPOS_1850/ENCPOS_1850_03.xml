@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1850_03" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1850_03" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -57,23 +55,23 @@
         <forename>Édouard</forename>
         <surname>Garnier</surname>
       </byline>
-      <div>
+      <div xml:id="r8004">
         <head rend="uc">I.</head>
         <p>Les ordonnances de l’Hôtel sont des règlements que les rois faisaient pour l’organisation intérieure, la police et l’approvisionnement de leur maison.</p>
       </div>
-      <div>
+      <div xml:id="r8014">
         <head rend="uc">II.</head>
         <p>Elles commencent à saint Louis ; la plus ancienne est l’ordonnance en langue latine du mois d’août 1261. C’est sous le règne de Philippe le Long qu’elles sont le plus nombreuses.</p>
       </div>
-      <div>
+      <div xml:id="r8024">
         <head rend="uc">III.</head>
         <p>Les principaux officiers de l’Hôtel étaient le Chambellan, le Grand-Maître de l’Hôtel, le Chancelier, les Notaires, le Trésorier, le Confesseur, le Chapelain, l’Aumônier, le Panetier, l’Échanson et les Médecins.</p>
       </div>
-      <div>
+      <div xml:id="r8034">
         <head rend="uc">IV.</head>
         <p>Il y avait dans l’Hôtel six offices ou métiers, savoir : la Paneterie, l’Échansonnerie, la Cuisine, la Fruiterie, l’Écurie et la Fourrière.</p>
       </div>
-      <div>
+      <div xml:id="r8044">
         <pb source="https://nakala.fr/10.34847/nkl.4ddcv376#2daec8587356f2f80a46778ae93ee7f47b57c4cc" n="7" facs="https://api.nakala.fr/iiif/10.34847/nkl.4ddcv376/2daec8587356f2f80a46778ae93ee7f47b57c4cc/full/full/0/default.jpg"/>
         <head rend="uc">V.</head>
         <p>En tête des ordonnances de l’Hôtel et avant les six métiers, mais sans se confondre avec eux, paraît la Chambre ou Hôtel du roi, avec un personnel nombreux de gens attachés à son service, tels que Chambellans, Valets de chambre, Sommeliers, Huissiers, Portiers et Roi des Ribauds.</p>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1940_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1940_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -68,10 +66,10 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r608951">
         <head rend="uc">Première partie
          <lb/>Isaac de Stella. Sa vie. Son œuvre</head>
-        <div>
+        <div xml:id="r608959">
           <head rend="uc">Chapitre premier
            <lb/>la vie d’Isaac de Stella.</head>
           <p><hi rend="i">Origine et date de naissance.</hi> – Isaac de Stella est né en Angleterre au début du <num>xii<hi rend="sup">e</hi></num> siècle.</p>
@@ -81,7 +79,7 @@
           <p><hi rend="i">La fondation de l’abbaye Notre-Dame des Châteliers.</hi> – Pendant qu’il était abbé de Stella, Isaac entreprit avec Jean, abbé de Trizay, de fonder un monastère dans l’île de Ré. Ils obtinrent d’Êble de Mauléon la terre dite Brueil Chasteliers. Cette donation fut ensuite transférée à Guichard, abbé de Pontigny, qui donna l’autorisation de construire une abbaye dans l’île de Ré : ce fut Sainte-Marie de Ré ou Notre-Dame des Châteliers.</p>
           <p><hi rend="i">Séjour d’Isaac dans l’île de Ré.</hi> – • Isaac n’était à Notre-Dame dès Châteliers qu’un simple moine. Il participait à la vie, au travail de cette communauté isolée dans un coin aride de l’île. Pour remédier au manque de livres, il fit aux moines des sermons, destinés à remplacer la lecture. Venu sans doute à l’automne 1155 dans l’île de Ré, il retourna à l’abbaye de l’Étoile en 1156.</p>
         </div>
-        <div>
+        <div xml:id="r609015">
           <pb source="https://nakala.fr/10.34847/nkl.c12fri19#8ecca1e06946b08703613d8e77d6d523062d0fd2" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.c12fri19/8ecca1e06946b08703613d8e77d6d523062d0fd2/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’œuvre d’Isaac de Stella.</head>
@@ -89,17 +87,17 @@
           <p>II. <hi rend="i">Caractères de l’œuvre.</hi> – Philosophe, par goût et par formation, Isaac est un écrivain original dans le groupe mystique de Cîteaux. Chez lui, mystique et théologie s’appuient sur de fortes connaissances philosophiques. Il connaît Platon, Aristote, Jean Scot et la plupart des philosophes contemporains. Pour lui, toutes les connaissances humaines sont utiles pour atteindre Dieu, aussi sont-elles bonnes tant qu’elles ne deviennent pas une fin en soi. Il s’exprime dans une langue claire, précise, élégante même et a une culture littéraire assez approfondie. Peut-être même a-t-il quelques notions scientifiques.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r609060">
         <head rend="uc">Deuxième partie
          <lb/>La psychologie d’Isaac de Stella
          <lb/>d’après l’« Epistola de anima »</head>
-        <div>
+        <div xml:id="r609070">
           <head rend="uc">Chapitre premier
            <lb/>l’« Epistola de anima ».</head>
           <p>L’<hi rend="i">Epistola de anima</hi> a été écrite en 1162 à la de<pb source="https://nakala.fr/10.34847/nkl.c12fri19#8333388ef842ea3fced4242e263e2e41e0da14ee" n="96" facs="https://api.nakala.fr/iiif/10.34847/nkl.c12fri19/8333388ef842ea3fced4242e263e2e41e0da14ee/full/full/0/default.jpg"/>mande d’Alcher de Clairvaux. Elle veut être un exposé uniquement psychologique, mais la théorie de la connaissance d’Isaac est liée à une conception métaphysique du monde.</p>
           <p>Le plan de l’<hi rend="i">Epistola</hi> est net dans l’ensemble, bien que certains développements soient rattachés un peu artificiellement. Isaac traite successivement de la connaissance que l’âme a d’elle-même, des facultés de l’âme, de l’union de l’âme et du corps, de l’immortalité de l’âme, des degrés de la connaissance qui permettent à l’âme d’atteindre la sagesse.</p>
         </div>
-        <div>
+        <div xml:id="r609098">
           <head rend="uc">Chapitre II
            <lb/>La psychologie de l’« Epistola de anima ».</head>
           <p>I. <hi rend="i">La connaissance de l’âme.</hi> – L’âme invisible est visible dans le corps. Les images des sens empêchent l’âme de se saisir elle-même dans son essence, c’est-à-dire de connaître l’image de Dieu en elle.</p>
@@ -117,25 +115,25 @@
           <p>4° L’<hi rend="i">intellectus</hi> est la faculté que l’âme a en com<pb source="https://nakala.fr/10.34847/nkl.c12fri19#43dd445c23ee713384680c7590093b642bebc020" n="99" facs="https://api.nakala.fr/iiif/10.34847/nkl.c12fri19/43dd445c23ee713384680c7590093b642bebc020/full/full/0/default.jpg"/>mun avec les anges. Il perçoit les formes incorporelles des choses vraiment incorporelles. L’objet propre de l’intellect ne constitue pas une discipline spéciale, mais relève en partie des sciences naturelles, en partie de la théologie.</p>
           <p>5° L’<hi rend="i">intelligentia</hi> est la faculté que l’âme a en commun avec Dieu. Elle perçoit ce qui est purement incorporel. Mais elle a été complètement aveuglée par le péché originel et, d’elle-même, est incapable de rien voir. Ce n’est que par la grâce qu’elle peut saisir, non Dieu lui-même, mais des apparitions de la Divinité dans l’âme : les théophanies. La Divinité descend ainsi en nous du Père par le Fils et dans le Saint-Esprit.</p>
         </div>
-        <div>
+        <div xml:id="r609281">
           <head rend="uc">Chapitre III
            <lb/>Les sources de l’« Epistola de anima ».</head>
           <p>Sur de nombreux points, Isaac a adopté les doctrines traditionnelles. Souvent il s’inspire directement de saint Augustin. Pour résoudre le problème de l’union de l’âme et du corps, il adopte la solution de Hugues de Saint-Victor. La distinction de cinq degrés de la connaissance correspondant aux différents états de l’univers vient d’une interprétation de la <hi rend="i">processio</hi> de Jean Scot. De Jean Scot vient aussi la théorie de l’illumination de l’âme par les théophanies.</p>
         </div>
-        <div>
+        <div xml:id="r609297">
           <head rend="uc">Chapitre IV
            <lb/>L’influence de l’« Epistola de anima ».</head>
           <p>L’<hi rend="i">Epistola</hi> a été plus connue que nous pourrions le <pb source="https://nakala.fr/10.34847/nkl.c12fri19#c9051b8535608339befa2d135e96fc6853f11fc7" n="100" facs="https://api.nakala.fr/iiif/10.34847/nkl.c12fri19/c9051b8535608339befa2d135e96fc6853f11fc7/full/full/0/default.jpg"/>penser actuellement, mais son influence s’est surtout exercée indirectement par le <hi rend="i">De spiritu et anima,</hi> sans doute écrit par Alcher de Clairvaux, mais attribué généralement à saint Augustin pendant tout le moyen âge. C’est par ce traité que s’est répandue la distinction de cinq degrés de la connaissance.</p>
         </div>
-        <div>
+        <div xml:id="r609322">
           <head rend="uc">Conclusion</head>
           <p>L’<hi rend="i">Epistola de anima</hi> présente sous une forme personnelle une synthèse des connaissances de l’époque.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r609337">
         <head rend="uc">Troisième partie
          <lb/>Le texte de l’« Epistola de anima »</head>
-        <div>
+        <div xml:id="r609345">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits. Établissement du texte.</head>
           <p>Quatre manuscrits et l’édition de Dom Tissier (<hi rend="i">PL</hi>), reproduisant le texte d’un manuscrit perdu, m’ont servi à établir le texte de l’<hi rend="i">Epistola de anima. </hi>Ces quatre manuscrits sont : le manuscrit 45 de la bibliothèque Sainte-Geneviève (<num>xiii<hi rend="sup">e</hi></num> s.), <hi rend="i">G ;</hi> le manuscrit latin 1252 de la Bibliothèque nationale (<num>xiii<hi rend="sup">e</hi></num> s.), TV ; le manuscrit 119 de la bibliothèque de Saint-Omer (<num>xiii<hi rend="sup">e</hi></num> s.), <hi rend="i">O ;</hi> le manuscrit 412 de la bibliothèque de Laon (<num>xiv<hi rend="sup">e</hi></num> s.), <hi rend="i">L.</hi> – <hi rend="i">G, N, O, PL</hi> donnent le texte intégral de l’<hi rend="i">Epistola. L,</hi> un texte volontairement abrégé. G et TV forment un groupe, dont <pb source="https://nakala.fr/10.34847/nkl.c12fri19#6ed4dd101716a69a144125661c8c891f12b2b411" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.c12fri19/6ed4dd101716a69a144125661c8c891f12b2b411/full/full/0/default.jpg"/><hi rend="i">O</hi> peut être rapproché. <hi rend="i">G</hi> m’a servi de manuscrit de base.</p>

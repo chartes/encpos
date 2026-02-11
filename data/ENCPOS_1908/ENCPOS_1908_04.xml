@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1908_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,7 +57,7 @@
         <surname>Brunel</surname>
         <roleName>Licencié ès lettres, Élève de l’École des Hautes Études</roleName>
       </byline>
-      <div>
+      <div xml:id="r318231">
         <head rend="uc">Préface</head>
         <p>Situation du comté de Ponthieu. Tableau généalogique de ses comtes. Résumé de leur histoire : ce sont les descendants des avoués de l’abbaye de Saint-Riquier ; ils n’ont pas existé avant le <num>xi<hi rend="sup">e</hi></num> siècle, ils s’éteignent en 1279 par réunion du Ponthieu à la couronne d’Angleterre.</p>
         <p>Plan du catalogue des actes, son but : fournir tous les renseignements nécessaires à la critique diplomatique. Table des ouvrages cités.</p>
@@ -69,11 +67,11 @@
          <lb/>diplomatique des comtes de Ponthieu</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r318261">
         <head rend="uc">1 . Mode de transmission des actes</head>
         <p>Peu d’originaux, copies très nombreuses. Étude des principaux fonds d’archives par ordre alphabétique : <pb source="https://nakala.fr/10.34847/nkl.ddach13v#c7d7b431be6b7c10e7e3e085424409cb27b2509d" n="32" facs="https://api.nakala.fr/iiif/10.34847/nkl.ddach13v/c7d7b431be6b7c10e7e3e085424409cb27b2509d/full/full/0/default.jpg"/>Abbeville, commune, hôpital, Amiens (bureau des finances) (critique du cartulaire de Ponthieu : c’est l’assemblage de fragments de quatre cartulaires différents), chapitre, hôpital, Aumale, Bertaucourt, Cercamp, Corbie, Dommartin, Doullens, Maintenay, Quend, Saint-Acheul, (étude du cartulaire), Saint-Josse-sur-Mer, Saint-Riquier (hôpital, abbaye), Saint-Sauve, Saint-Vulfran, Valloires.</p>
       </div>
-      <div>
+      <div xml:id="r318276">
         <head rend="uc">2. Description et Analyse des actes</head>
         <p>Les dimensions des chartes sont plus grandes au XII<hi rend="sup">e </hi>qu’au <num>xiii<hi rend="sup">e</hi></num> siècle. Replis simples et doubles. Exemple de sceau plaqué à gauche. Attaches de cuir, parchemin, lin ou soie. De la forme des nœuds. Indifférence de la couleur de la soie et de la cire.</p>
         <p><hi rend="i">Les sceaux.</hi> La matrice du sceau de Gui I<hi rend="sup">er</hi> (♰ 1100), entourée de cercles portant des légendes appropriées, a servi jusqu’en 1220. Description des sceaux.</p>
@@ -92,27 +90,27 @@
         <p><hi rend="i">Seing manuel du comte.</hi> Quelques exemples au <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         <p><hi rend="i">Les sceaux.</hi></p>
       </div>
-      <div>
+      <div xml:id="r318454">
         <head rend="uc">3. Genèse des actes</head>
         <p>Aperçu des travaux sur cette question peu étudiée en France. Classification juridique des actes : la notice, l’acte probatoire, l’acte dispositif.</p>
         <p><hi rend="i">Genèse de l’acte probatoire.</hi> Acte juridique et expédition. L’acte juridique : il est constitué par une cérémonie symbolique. Actes juridiques multiples. La <hi rend="i">traditio super altare</hi> est un contrat avec le saint patron de l’abbaye.</p>
         <p>Expédition. Expéditions tardives, absence primitive de la preuve écrite. Rédaction de la minute. Sa récognition par l’auteur. La récognition est constituée par la lecture à haute voix devant témoins. Modifications apportées à l’acte lors de la recognition. Recognition possible <pb source="https://nakala.fr/10.34847/nkl.ddach13v#816bdedf0614bc78795032ec243091bdd6012456" n="34" facs="https://api.nakala.fr/iiif/10.34847/nkl.ddach13v/816bdedf0614bc78795032ec243091bdd6012456/full/full/0/default.jpg"/> de la grosse. Mise en grosse. Du sens de la formule <hi rend="i">Datum per manum</hi> : elle est mise par le scribe de la grosse pour dégager sa responsabilité ; elle indique par qui la minute a été remise, ce n’est pas une formule de dessaisissement. Scellement. Les émoluments du sceau étaient affieffés.</p>
         <p>Table des dateurs.</p>
       </div>
-      <div>
+      <div xml:id="r318489">
         <head rend="uc">4. Actes faux</head>
         <p>Faux acte pour Saint-Josse-sur-Mer (1100), faux contrat de Guillaume I<hi rend="sup">er</hi> (1116), deux chartes de croisade de la collection Courtois (1191).</p>
       </div>
-      <div>
+      <div xml:id="r318503">
         <head rend="uc">Catalogue des actes</head>
         <p>N<hi rend="sup">os</hi> 1 à 449.</p>
       </div>
-      <div>
+      <div xml:id="r318517">
         <head rend="uc">Appendice
          <lb/>les faux de l’abbaye de Saint-Valery</head>
         <p>Sources de l’histoire de cette abbaye. La vie du saint patron est un apocryphe du <num>xi<hi rend="sup">e</hi></num> siècle.</p>
         <p>L’abbaye de Saint-Valery a eu la réputation d’être un atelier de faussaires. Ses procès en faux.</p>
-        <div>
+        <div xml:id="r318537">
           <head rend="uc">1. Faux laïcs</head>
           <p>Faux acte de Dagobert inédit (636) forgé à la fin du <num>x<hi rend="sup">e</hi></num> siècle.</p>
           <p>Faux acte de Charlemagne (809) forgé au <num>xiii<hi rend="sup">e</hi></num> siècle ; c’est un amalgame de l’acte de Dagobert avec un acte authentique de Charles le Simple (922).</p>
@@ -122,7 +120,7 @@
           <p>Faux acte du comte Ansbert forgé au <num>xiv<hi rend="sup">e</hi></num> siècle ; utilise une charte authentique de Bouchart (998).</p>
           <p>Faux acte de Jean, comte de Ponthieu (1196) forgé à la fin du <num>xv<hi rend="sup">e</hi></num> siècle ; utilise une donation authentique de Guillaume, comte de Ponthieu (1216).</p>
         </div>
-        <div>
+        <div xml:id="r318591">
           <head rend="uc">2. Le privilège d’exemption</head>
           <p>Contradiction entre la vie de saint Geoffroi et les bulles de l’abbaye. Récit du débat entre Geoffroi, évêque d’Amiens, et les moines de Saint-Valery ; ceux-ci, pour soutenir leur exemption, auraient fabriqué de faux titres découverts par l’évêque à un concile de Reims et auraient été soumis à leur ordinaire par Pascal II. Série des bulles de l’abbaye conférant l’exemption ; la plus ancienne est de 981.</p>
           <p>Histoire des contestations entre les moines de Saint-Valery et l’évêque d’Amiens au <num>xvii<hi rend="sup">e</hi></num> siècle ; les travaux auxquels elles ont donné lieu.</p>

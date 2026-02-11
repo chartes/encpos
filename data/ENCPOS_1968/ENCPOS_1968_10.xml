@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_10" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_10" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,24 +55,24 @@
         <forename>Henri</forename>
         <surname>Guy</surname>
       </byline>
-      <div>
+      <div xml:id="r893000">
         <head rend="uc">Sources</head>
         <p>Les principaux débris des archives des cordelières sont conservés à la Bibliothèque de Provins (mss. 85, 134, 241, 242, 246, 247 notamment). D’autre part, les Archives départementales de l’Yonne conservent, dans le fonds de l’archevêché de Sens, les dossiers relatifs au scandale dont l’abbaye fut le théâtre au <num>xvii<hi rend="sup">e</hi></num> siècle (G 193). D’autres documents importants ont été consultés aux Archives nationales, dans les fonds du Trésor des Chartes (série J), de la Chambre des comptes (série P, Mémoriaux) et du Parlement (sous-série X<hi rend="sup">1A</hi>), et à la Bibliothèque nationale (copies d’actes de la Collection Champagne, vol. XXV). Enfin quelques pièces et copies d’actes concernant les cordelières de Provins se trouvent dispersées aux Archives vaticanes, aux Archives départementales de Seine-et-Marne, à la Bibliothèque de l’Institut de France, à la Bibliothèque de l’Assemblée nationale, à la Bibliothèque de Reims et à celle de Troyes.</p>
       </div>
-      <div>
+      <div xml:id="r893020">
         <head rend="uc">Introduction</head>
         <p>Le cartulaire des cordelières du Mont-Sainte-Catherine est un recueil de dimensions réduites comprenant deux cents actes relatifs aux diverses possessions des sœurs. Le fonds des archives de l’abbaye ayant été anéanti lors de l’incendie de l’Hôtel-de-Ville de Provins au <num>xix<hi rend="sup">e</hi></num> siècle, il constitue la source essentielle de l’histoire des origines du couvent.</p>
       </div>
-      <div>
+      <div xml:id="r893036">
         <pb source="https://nakala.fr/10.34847/nkl.06de906k#271fa8d13e20b659ea856bc49ebbf0e6068b266d" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.06de906k/271fa8d13e20b659ea856bc49ebbf0e6068b266d/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Notice historique</head>
-        <div>
+        <div xml:id="r893049">
           <head rend="uc">Chapitre premier
            <lb/>la règle des cordelières de Provins</head>
           <p>Les papes ont donné cinq règles aux clarisses, qui se sont ajoutées à la <hi rend="i">formula vitae</hi> donnée par saint François d’Assise et au <hi rend="i">privilegium paupertatis </hi>accordé par Innocent III. Dans les toutes premières années de leur existence, les cordelières de Provins observèrent sans aucun doute la première règle, celle qui fut composée par le cardinal Hugolin, protecteur de leur ordre, en 1217. Bientôt le pape Innocent IV y apporta des corrections et, le 23 août 1247, promulgua la bulle <hi rend="i">Quoties a nobis petitur</hi> par laquelle il demandait à toutes les sœurs de Saint-Damien d’adopter cette règle dans sa nouvelle version (deuxième règle). La présence de cette bulle dans le cartulaire incite à penser que les cordelières de Provins l’observèrent également (la troisième règle fut composée exclusivement pour le monastère de Saint-Damien à Assise). Mais, par la suite, Urbain IV leur adressa deux bulles : l’une pour leur recommander la règle rédigée spécialement pour le monastère de Longchamp et l’autre pour les laisser libres de choisir entre cette dernière et la nouvelle règle qu’il avait donnée pour l’ensemble de l’ordre. Divers documents prouvent que, dès 1264, les cordelières de Provins avaient choisi la règle de Longchamp et qu’elles y restèrent fidèles jusqu’à l’extinction de l’abbaye. Eugène IV, en 1341, et Jules II, en 1507, apportèrent des modifications de détails touchant principalement le jeûne et l’abstinence.</p>
         </div>
-        <div>
+        <div xml:id="r893073">
           <head rend="uc">Chapitre II
            <lb/>Histoire de l’abbaye</head>
           <p>D’après la légende, sainte Catherine serait apparue à Thibaut IV, comte de Champagne, pour lui manifester son désir d’être honorée dans un sanctuaire qui serait construit sur la hauteur, au nord de Provins. Et la tradition rapporte que les premières sœurs, ayant quitté le couvent de Saint-Damien où sainte Claire vivait encore, seraient arrivées en 1237 à Provins. Installées par Thibaut IV dans son palais de Provins, elles y demeurèrent jusqu’au moment où la construction du monastère, à l’extérieur de Provins, fut assez avancée pour les recevoir,</p>
@@ -84,7 +82,7 @@
           <p>Des procès longs et nombreux jalonnent l’histoire de l’abbaye au <num>xiv<hi rend="sup">e</hi></num> siècle. Les bâtiments sont la proie, en 1366, d’un incendie allumé par les gens d’armes. Peu de temps après, Adam de Dammartin, provincial de France des frères mineurs, est contraint de casser les élections, jugées irrégulières, de trois abbesses du Mont-Sainte-Catherine. Le pape même doit intervenir.</p>
           <p>Jusqu’au début du <num>xvii<hi rend="sup">e</hi></num> siècle, les malheurs se succèdent : incendies, pillages, ruine des bâtiments et surtout de l’église, procès, etc. Mais toujours les rois ont dédommagé les religieuses des pertes qu’elles avaient subies, les accueillant au palais (une fois au <num>xiv<hi rend="sup">e</hi></num> siècle, une fois au <num>xv<hi rend="sup">e</hi></num>, trois fois au <num>xvi<hi rend="sup">e</hi></num> siècle, et elles y retourneront encore lors des troubles de la Fronde) et leur réservant de nouvelles faveurs : exemption de péage et privilège de <hi rend="i">committimus</hi> entre autres.</p>
         </div>
-        <div>
+        <div xml:id="r893142">
           <head rend="uc">Chapitre III
            <lb/>Les suites de l’affaire du monastère de Sainte-Catherine au <num>xvii<hi rend="sup">e</hi></num> siècle.
            <lb/>L’extinction de l’abbaye</head>
@@ -93,27 +91,27 @@
           <p>Tous ces troubles portèrent un coup mortel à la réputation de l’abbaye. Le nombre des novices diminua régulièrement. En 1704, l’abbesse Françoise Paillot démissionna et on fit retour au régime triennal. En 1735, il reste encore onze sœurs qui votent pour l’élection de l’abbesse Marguerite Dumont. Celle-ci meurt trois ans plus tard ; les autres sœurs s’étaient dispersées dans d’autres monastères. Une seule religieuse continua de vivre au Mont-Sainte-Catherine, solitaire pendant neuf ans, et s’éteignit en 1758. La municipalité de Provins avait réussi à supprimer la communauté des cordelières. On établit à leur place un hôpital général.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r893196">
         <head rend="uc">Deuxième partie
          <lb/>Le temporel</head>
         <p>L’ordre de sainte Claire est un ordre mendiant et la pauvreté y est à l’honneur. Aussi le temporel fut-il constitué d’aumônes pour une bonne part et ne réunit-il pas de richesses importantes. Néanmoins, les comtes de Champagne se montrèrent généreux envers l’abbaye. Celle-ci, d’autre part, était habitée par une communauté de femmes adonnées avant tout à la contemplation, qui recherchèrent surtout des revenus dont la perception ne les détournerait pas de leur mission.</p>
-        <div>
+        <div xml:id="r893207">
           <head rend="uc">Chapitre premier
            <lb/>les modes d’acquisition</head>
           <p>Les ressources les plus importantes des sœurs ont pour origine les riches donations des comtes de Champagne auxquelles vinrent s’ajouter celles de nombreux particuliers : donations simples, aumônes pieuses, donations en vue de <pb source="https://nakala.fr/10.34847/nkl.06de906k#82c6f0e6a52486dad9612f19dbccaee8dbbd01a6" n="89" facs="https://api.nakala.fr/iiif/10.34847/nkl.06de906k/82c6f0e6a52486dad9612f19dbccaee8dbbd01a6/full/full/0/default.jpg"/>fonder un anniversaire, etc. En outre, les sœurs achetèrent beaucoup de terres. Elles firent aussi quelques échanges avec d’autres établissements ecclésiastiques de Provins. Le temporel s’accrut encore par des legs, par les revenus tirés de la pratique des indulgences et des quêtes.</p>
           <p>Les sœurs furent, en général, exemptées de péages, vinages et autres taxes ; elles bénéficièrent de divers amortissements. Le temporel ne fut donc pas grevé de charges qui n’auraient pas manqué de nuire à son développement.</p>
         </div>
-        <div>
+        <div xml:id="r893227">
           <head rend="uc">Chapitre II
            <lb/>Nature économique des biens</head>
           <p>Le temporel comprenait de grands espaces boisés, des terres arables avec quelques fermes, des prés, des vignes, des immeubles (dans Provins et aux environs), maisons, fouleries, « tiroirs », chambres, jardins, terrains à bâtir, un pressoir, etc. Il faut mentionner aussi divers droits, coutumes, grueries, etc., mais surtout des cens et des rentes (rarement en nature, le plus souvent en espèces) que les sœurs achetèrent en très grand nombre.</p>
         </div>
-        <div>
+        <div xml:id="r893239">
           <head rend="uc">Chapitre III
            <lb/>Répartition géographique des biens</head>
           <p>Les religieuses s’étaient assurées un ensemble de terres autour de l’abbaye. Mais la plupart des biens fonciers reçus par elles étaient situés au nord de Provins, notamment dans la région de Bannost et entre cette localité et la ville, et dans le sud-est, principalement dans la forêt de Sourdun ; les sœurs possédaient aussi des bois dans la forêt de Jouy. Mais, un peu partout, elles détenaient des terres, prés, vignes, de surfaces réduites. Elles sont propriétaires d’immeubles à Provins, particulièrement nombreux dans les rues de la Bretonnière et de Jouy. Les rentes qu’elles perçoivent sont assises sur divers biens et revenus situés dans la ville et aux environs. Notons aussi une maison à Moret ainsi que deux rentes sur des maisons à Paris qu’elles ne purent conserver.</p>
         </div>
-        <div>
+        <div xml:id="r893251">
           <head rend="uc">Chapitre IV
            <lb/>Exploitation du temporel</head>
           <p>Le cartulaire n’apporte presqu’aucune lumière sur la façon dont les biens des sœurs étaient exploités. Ceux-ci se répartissaient entre un domaine et des tenures baillées à cens et à rente perpétuelle. On trouve néanmoins un acte où <pb source="https://nakala.fr/10.34847/nkl.06de906k#46b119f0dcbfa7296335d779cfde3ab1c79f307f" n="90" facs="https://api.nakala.fr/iiif/10.34847/nkl.06de906k/46b119f0dcbfa7296335d779cfde3ab1c79f307f/full/full/0/default.jpg"/> la concession est accompagnée de la clause <hi rend="i">ad emendationem</hi> qui oblige à l’amélioration de l’immeuble dans un délai de trois ans.</p>
@@ -121,10 +119,10 @@
           <p>A la fin du <num>xiii<hi rend="sup">e</hi></num> siècle, le Mont Sainte-Catherine prenait rang parmi les plus riches établissements ecclésiastiques de Provins. La générosité des comtes de Champagne y avait contribué.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r893285">
         <head rend="uc">Troisième partie
          <lb/>Le cartulaire</head>
-        <div>
+        <div xml:id="r893293">
           <head rend="uc">Chapitre premier
            <lb/>notice descriptive</head>
           <p>Les archives des cordelières ont été anéanties dans l’incendie de l’Hôtel-de-Ville de Provins au <num>xix<hi rend="sup">e</hi></num> siècle. Mais le cartulaire fut préservé du feu parce qu’il avait été auparavant séparé des archives de la maison.</p>
@@ -135,7 +133,7 @@
           <p>Après la suppression de l’abbaye, le cartulaire fut possédé par l’abbé Ythier, doyen de Saint-Quiriace, dont il porte l’<hi rend="i">ex-libris.</hi> Il appartint ensuite à l’imprimeur Michelin, de Provins. Celui-ci légua ses livres à la Bibliothèque municipale de Provins où le manuscrit se trouve encore.</p>
           <p>Deux feuillets retrouvés à la Bibliothèque de Provins apportent la preuve qu’il exista un deuxième cartulaire aujourd’hui disparu.</p>
         </div>
-        <div>
+        <div xml:id="r893337">
           <pb source="https://nakala.fr/10.34847/nkl.06de906k#8f3430e365765c0da9451cbbf86a94a040f98bf5" n="91" facs="https://api.nakala.fr/iiif/10.34847/nkl.06de906k/8f3430e365765c0da9451cbbf86a94a040f98bf5/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Notice critique</head>
@@ -152,7 +150,7 @@
         <head rend="uc">Supplément au cartulaire</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r893379">
         <head rend="uc">Appendices</head>
         <p>Liste chronologique des abbesses du Mont-Sainte-Catherine. – Table chronologique des actes du cartulaire et du supplément.</p>
         <pb source="https://nakala.fr/10.34847/nkl.06de906k#bb211afe7ede41c3f755a9ff11dfb15d3e33b3f1" n="92" facs="https://api.nakala.fr/iiif/10.34847/nkl.06de906k/bb211afe7ede41c3f755a9ff11dfb15d3e33b3f1/full/full/0/default.jpg"/>

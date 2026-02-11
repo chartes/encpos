@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_12" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1933_12" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -64,9 +62,9 @@
         <head rend="uc">Introduction</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r531466">
         <head rend="uc">Sources de l’histoire de l’abbaye.</head>
-        <div>
+        <div xml:id="r531472">
           <head rend="uc">I. Sources diplomatiques.</head>
           <div>
             <head rend="uc">A. <hi rend="i">Archives de Solignac.</hi></head>
@@ -77,20 +75,20 @@
             <p>Intéressantes surtout pour les <num>xiv<hi rend="sup">e</hi></num> et <num>xv<hi rend="sup">e</hi></num> siècles, quand la collation des abbés appartint au pape.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r531517">
           <head rend="uc">II. Sources annalistiques.</head>
           <p>A mentionner particulièrement la <hi rend="i">Chronique du monastère de Saint Pierre de Solemnac,</hi> rédigée vers <pb source="https://nakala.fr/10.34847/nkl.0379p5qc#14574ac8cf139d63a3f3b0cf7f21e05109be2103" n="116" facs="https://api.nakala.fr/iiif/10.34847/nkl.0379p5qc/14574ac8cf139d63a3f3b0cf7f21e05109be2103/full/full/0/default.jpg"/>1660 par dom Laurent Dumas, religieux de Solignac, et éditée dans le <hi rend="i">Bulletin de la Société historique et archéologique du Limousin,</hi> t. XLIII et XLV.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r531541">
         <head rend="uc">Chapitre preliminaire
          <lb/>l’abbaye du <num>vii<hi rend="sup">e</hi></num> au <num>xi<hi rend="sup">e</hi></num> siècle.</head>
         <p>Fondée par saint Eloi peu avant 632 sur une terre du fisc royal concédée par Dagobert, sécularisée à l’époque carolingienne, elle fut ramenée à la règle bénédictine par Pépin I<hi rend="sup">er</hi>, roi d’Aquitaine. Vers 860-864, elle fut en partie détruite par les Normands et les religieux durent se réfugier au Puy-d’Arnac, en Bas-Limousin.</p>
       </div>
-      <div>
+      <div xml:id="r531569">
         <head rend="uc">Premiere partie
          <lb/>Histoire de l’abbaye</head>
-        <div>
+        <div xml:id="r531577">
           <head rend="uc">Chapitre premier
            <lb/>l’abbaye aux <num>xi<hi rend="sup">e</hi></num> et <num>xii<hi rend="sup">e</hi></num> siècles.</head>
           <div>
@@ -110,7 +108,7 @@
             <p>Au <num>xii<hi rend="sup">e</hi></num> siècle, l’abbaye fut fréquemment en lutte avec les desservants des paroisses dont elle était curé primitif ; ces desservants, en effet, cherchent à usurper le bénéfice ecclésiastique attaché à leur cure et à en assurer le maintien dans leur famille. Leurs prétentions sont parfois favorisées par l’évêque de Limoges, hostile au droit qu’a l’abbé de nommer à certaines cures. L’église d’Ayen, de 1146 à 1149, donna lieu à de longues procédures, au cours desquelles le desservant fut soutenu par Gerald du Cher qui intervint d’abord en tant qu’évêque de Limoges, puis comme tuteur du jeune vicomte de Limoges, Adémar IV. L’abbé de Solignac obtint gain de cause grâce à l’appui de l’archevêque de Bourges et à celui du pape.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r531672">
           <head rend="uc">Chapitre II
            <lb/>L’abbaye aux <num>xiii<hi rend="sup">e</hi></num> et <num>xiv<hi rend="sup">e</hi></num> siècles.</head>
           <div>
@@ -146,7 +144,7 @@
             <p>Durant la première moitié du <num>xiii<hi rend="sup">e</hi></num> siècle, les habitants de Solignac firent une tentative d’émancipation communale. Il faut en voir l’origine dans le développement commercial important que prit la ville au début du <num>xiii<hi rend="sup">e</hi></num> siècle ; à côté du château, ou enceinte fortifiée, se créa le bourgneuf, peuplé de commerçants et dépourvu de remparts. Le motif principal de la révolte semble avoir été le <pb source="https://nakala.fr/10.34847/nkl.0379p5qc#11ad6343e69d8a0be258ed4b7b8c390b8f119d51" n="120" facs="https://api.nakala.fr/iiif/10.34847/nkl.0379p5qc/11ad6343e69d8a0be258ed4b7b8c390b8f119d51/full/full/0/default.jpg"/>désir des habitants d’entourer leur agglomération de murailles. Après diverses péripéties, parfois violentes, les habitants obtinrent seulement que la surveillance et l’entretien des remparts, ainsi que la perception d’une taille à chaque avènement d’abbé, fussent confiés à quatre des leurs nommés par l’abbé.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r531857">
           <head rend="uc">Chapitre III
            <lb/>L’abbaye pendant la guerre de cent ans.</head>
           <div>
@@ -162,15 +160,15 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r531906">
         <head rend="uc">Deuxième partie
          <lb/>Organisation de l’abbaye de Solignac</head>
-        <div>
+        <div xml:id="r531914">
           <head rend="uc">Chapitre premier
            <lb/>organisation intérieure.</head>
           <p>L’organisation intérieure de l’abbaye de Solignac ne présente pas de différences importantes avec ce que l’on connaît de l’organisation intérieure des <pb source="https://nakala.fr/10.34847/nkl.0379p5qc#5312456e1ca995338b4c8f72c635831b69a82d91" n="122" facs="https://api.nakala.fr/iiif/10.34847/nkl.0379p5qc/5312456e1ca995338b4c8f72c635831b69a82d91/full/full/0/default.jpg"/>autres abbayes. Remarquons seulement le soin avec lequel est contrôlée l’administration. A la fin du XIII<hi rend="sup">e </hi>siècle, tous les dignitaires doivent des comptes au moins une fois par an, certains même tous les quinze jours ; les dignitaires ne peuvent accomplir aucun acte important, et notamment aucune aliénation, sans la ratification de l’abbé, et celui-ci sans celle du chapitre.</p>
         </div>
-        <div>
+        <div xml:id="r531935">
           <head rend="uc">Chapitre II
            <lb/>Administration locale du temporel.</head>
           <p>Elle est assurée par differents officiers laïcs qui dépendent plus ou moins des dignitaires de l’abbaye :</p>
@@ -179,17 +177,17 @@
           <p>Bailes et viguiers tiennent leurs fonctions en fief. Durant le <num>xiii<hi rend="sup">e</hi></num> siècle, les abbés d’une part, les tenanciers de l’autre, rachètent un grand nombre de ces fiefs de bailes et de viguiers, de sorte que, presque partout au <num>xiv<hi rend="sup">e</hi></num> siècle, ces intermédiaires entre l’abbé et les tenanciers sont supprimés.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r531993">
         <pb source="https://nakala.fr/10.34847/nkl.0379p5qc#ffe66e61a9b48f2ffe10066107fd0c15baf07e2c" n="123" facs="https://api.nakala.fr/iiif/10.34847/nkl.0379p5qc/ffe66e61a9b48f2ffe10066107fd0c15baf07e2c/full/full/0/default.jpg"/>
         <head rend="uc">Appendice I</head>
         <p>Liste critique des abbés de Solignac depuis l’an 1000 jusqu’en 1503.</p>
         <p>Liste des dignitaires.</p>
       </div>
-      <div>
+      <div xml:id="r532011">
         <head rend="uc">Appendice II</head>
         <p>Pièces justificatives.</p>
       </div>
-      <div>
+      <div xml:id="r532021">
         <head rend="uc">Appendice III</head>
         <p>Edition du polyptique-cartulaire de Solignac.</p>
         <pb source="https://nakala.fr/10.34847/nkl.0379p5qc#783a56198b6ce4529d88d267aea3914ad734bee5" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.0379p5qc/783a56198b6ce4529d88d267aea3914ad734bee5/full/full/0/default.jpg"/>

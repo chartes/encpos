@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_13" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1934_13" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -67,12 +65,12 @@
          <lb/>et la critique moderne.</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r543383">
         <head rend="uc">Première partie
          <lb/>Jacques de Revigny
          <lb/>et
          <lb/>l’école de droit d’Orléans</head>
-        <div>
+        <div xml:id="r543395">
           <head rend="uc">Chapitre premier
            <lb/>vie de Jacques de Revigny.</head>
           <p>On ne sait rien sur sa famille ni sur sa jeunesse. Sa biographie ne peut commencer qu’à l’époque où il fut étudiant.</p>
@@ -90,7 +88,7 @@
             <p>En 1289, Revigny fut désigné par le pape Nicolas IV pour occuper le siège épiscopal de Verdun, vacant depuis trois ans par la mort d’Henri de Granson. Après quelques années paisibles, de graves difficultés d’ordre politique surgirent. Directement attaqué par le parti barisien qui lui reprochait ses sympathies pour la cause française, il se trouva, quand ce parti eut pris l’avantage à Verdun, dans une situation intolérable ; il dut quitter la ville. Puis il se décida à aller chercher auprès du pape l’appui moral qui lui manquait. Le 15 mai 1296, il eut son audience et obtint gain de cause. Mais, au retour, <pb source="https://nakala.fr/10.34847/nkl.fea18848#3025cf52bb815d428fa83a4306350af7788df458" n="131" facs="https://api.nakala.fr/iiif/10.34847/nkl.fea18848/3025cf52bb815d428fa83a4306350af7788df458/full/full/0/default.jpg"/>il mourut à Ferentino ; on ne connaît pas la date exacte de sa mort.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r543447">
           <head rend="uc">Chapitre II
            <lb/>L’école de droit d’Orléans
            <lb/>pendant le <num>xiii<hi rend="sup">e</hi></num> siècle.</head>
@@ -110,10 +108,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r543613">
         <head rend="uc">Deuxième partie
          <lb/>L’œuvre de Jacques de Revigny</head>
-        <div>
+        <div xml:id="r543621">
           <head rend="uc">Chapitre premier
            <lb/>bibliographie des œuvres de Jacques de Revigny.</head>
           <div>
@@ -143,7 +141,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div xml:id="r543698">
           <pb source="https://nakala.fr/10.34847/nkl.fea18848#91a417df2e9de9a30f0f7f9e01fe0f6d305c7873" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.fea18848/91a417df2e9de9a30f0f7f9e01fe0f6d305c7873/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Revigny entre la Glose et bartole.</head>

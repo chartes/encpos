@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_04" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1935_04" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -66,27 +64,27 @@
         <head rend="uc">Sources bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r549784">
         <head rend="uc">Première partie
          <lb/>Histoire</head>
-        <div>
+        <div xml:id="r549792">
           <head rend="uc">Chapitre premier
            <lb/>la fondation de Savigny.
            <lb/>Les quatre premiers abbés (1105-1147).</head>
           <p>La fondation de Savigny est liée à un mouvement général de renaissance religieuse. A la fin du XI<hi rend="sup">e </hi>siècle, Vital, chanoine de Saint-Evroul de Mortain, quitte la cour du comte Robert pour vivre dans la solitude. Dès 1105, il est établi dans la forèt de Sa<pb source="https://nakala.fr/10.34847/nkl.deac98q9#06fc0ad2389468ecacffc8095abb1d06ce67277f" n="38" facs="https://api.nakala.fr/iiif/10.34847/nkl.deac98q9/06fc0ad2389468ecacffc8095abb1d06ce67277f/full/full/0/default.jpg"/>vigny, mais ce n’est qu’en 1112, le 25 janvier, qu’il obtient du seigneur de Fougères une partie de cette forêt pour y construire une abbaye. Dès l’origine, Vital impose à ses compagnons une règle presque semblable à celle de Citeaux. Parmi ses successeurs : Geoffroy (1122-1139) fut un véritable organisateur qui institua notamment le Chapitre général de l’Ordre et la visite des abbayes-filles par l’abbé-père ; Ewan l’Anglais (1139-1140) ne fit que passer. Sous l’abbatiat de Serlon (1140-1153), se réalisa le grand évènement de l’histoire de Savigny au XII<hi rend="sup">e </hi>siècle : la réunion à Citeaux.</p>
         </div>
-        <div>
+        <div xml:id="r549819">
           <head rend="uc">Chapitre II
            <lb/>La filiation de Savigny. La réunion a Citeaux.</head>
           <p>Les premiers temps de l’histoire de Savigny marquent une hésitation dans la coutume suivie pour la création de nouveaux monastères. Vital et Geoffroy semblent tout d’abord adopter la formule clunisienne du prieuré et fondent Dompierre et Virey. Mais ils délaissent vite cette coutume pour suivre celle de Citeaux et, comme elle, essaimer. Le nombre d’abbayes fondées par Savigny entre les années 1112 et 1147 est considérable. Sa trop grande expansion fut la conséquence même de sa décadence. En 1147, Serlon, incapable de maintenir dans son obédience les abbayes de la filiation de Savigny, tant en France qu’en Angleterre, demande et obtient de saint Bernard la réunion à Citeaux. Cette réunion s’opère au Chapitre général de 1147. L’abbé de Savigny vient immédiatement après les quatre abbés-pères et obtient la faveur d’être un des définiteurs au Chapitre général.</p>
         </div>
-        <div>
+        <div xml:id="r549831">
           <pb source="https://nakala.fr/10.34847/nkl.deac98q9#e3e233c6f0d591557103d7b2f1dd39e2f1632b94" n="39" facs="https://api.nakala.fr/iiif/10.34847/nkl.deac98q9/e3e233c6f0d591557103d7b2f1dd39e2f1632b94/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre III
            <lb/>De la réunion a Citeaux a la fin du <num>xii<hi rend="sup">e</hi></num> siècle.</head>
           <p>L’histoire intérieure de l’abbaye de Savigny n’est plus que celle des changements d’abbés, et de l’administration du temporel. La liste de ces abbés de la seconde moitié du <num>xii<hi rend="sup">e</hi></num> siècle s’établit aisément. Les relations avec l’extérieur sont, par contre, plus actives, que pendant la première période. Le résultat atteint semble être à l’opposé du but que se proposait Serlon.</p>
         </div>
-        <div>
+        <div xml:id="r549860">
           <head rend="uc">Chapitre IV
            <lb/>La vie intérieure.</head>
           <div>
@@ -108,10 +106,10 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r549934">
         <head rend="uc">Deuxième partie
          <lb/>Histoire economique</head>
-        <div>
+        <div xml:id="r549942">
           <head rend="uc">Chapitre premier
            <lb/>les droits des seigneurs ecclésiastiques.</head>
           <div>
@@ -130,7 +128,7 @@
             <p>c) Les dîmes inféodées, les seules dont la possession soit, en principe, interdite aux abbayes cisterciennes. En fait, dès le <num>xii<hi rend="sup">e</hi></num> siècle, les transgressions à cette règle sont nombreuses et, pour Savigny, toujours un peu en marge des institutions cisterciennes, la question de la légalité de ces sortes de biens ne se pose même pas.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r550015">
           <pb source="https://nakala.fr/10.34847/nkl.deac98q9#75637096edeaaaa2e7aa44adaa35d9cc8ca113f0" n="42" facs="https://api.nakala.fr/iiif/10.34847/nkl.deac98q9/75637096edeaaaa2e7aa44adaa35d9cc8ca113f0/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les droits des seigneurs laïcs.</head>
@@ -140,7 +138,7 @@
           <p>b) <hi rend="i">La haute et basse justice.</hi> – A côté d’un assez grand nombre d’actes interpolés dont il faut se méfier, un acte parfaitement authentique de Geoffroy IV de Mayenne accorde à Savigny la haute et basse justice.</p>
           <p>Rien ne caractérise Savigny dans l’exercice des autres droits seigneuriaux : ost, aide, taille, corvée, tonlieu, passage. Elle est presque toujours astreinte à payer le <hi rend="i">mangerium.</hi></p>
         </div>
-        <div>
+        <div xml:id="r550060">
           <head rend="uc">Chapitre III
            <lb/>Le temporel : formation et description.</head>
           <p>La formation du temporel d’une abbaye suit toujours le même rythme quel que soit l’Ordre auquel elle appartient. Ce sont d’abord des donations en pure et franche aumône, puis à charge de service divin. Peu à peu, le généreux donateur exige une récompense <pb source="https://nakala.fr/10.34847/nkl.deac98q9#4131239fd6e74a095abf0cee273076a9c2067478" n="43" facs="https://api.nakala.fr/iiif/10.34847/nkl.deac98q9/4131239fd6e74a095abf0cee273076a9c2067478/full/full/0/default.jpg"/> plus tangible et reçoit un cadeau <hi rend="i">ex caritate ecclesie.</hi> A la fin du <num>xii<hi rend="sup">e</hi></num> et au début du XIII<hi rend="sup">e </hi>siècle, on a presque toujours des ventes.</p>
@@ -150,7 +148,7 @@
           <p>c) <hi rend="i">Les eaux</hi> et les droits qui s’y rattachent : <hi rend="i">prisa aque, ductus aque, calceia, attacheia, exclusagium ; </hi>les étangs, les moulins, les pêcheries, les salines, les marais.</p>
           <p><hi rend="i">d</hi>) <hi rend="i">Les forêts,</hi> avec les droits d’usages ou <hi rend="i">communia :</hi> pasnage, pâture, herbage, fanage, <hi rend="i">cochagium, septimagium.</hi></p>
         </div>
-        <div>
+        <div xml:id="r550138">
           <head rend="uc">Chapitre IV
            <lb/>Exploitation et gestion financière.</head>
           <div>
@@ -164,7 +162,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r550181">
         <head rend="uc">Conclusion</head>
         <p>L’étude de l’histoire de Savigny pendant le <num>xii<hi rend="sup">e</hi></num> siècle n’est intéressante qu’autant qu’elle nous montre des coutumes différentes des coutumes cisterciennes. En fait, les différences sont peu nombreuses ; elles résident surtout dans les rapports de Savigny avec les puissances ecclésiastiques. A la fin du <num>xii<hi rend="sup">e</hi></num> siècle, elles ont presque disparu, mais Savigny garde encore un certain esprit d’indépendance, reste des temps héroïques de son histoire.</p>
       </div>

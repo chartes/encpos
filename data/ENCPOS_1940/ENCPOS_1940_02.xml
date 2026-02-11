@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1940_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1940_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -65,12 +63,12 @@
         <head rend="uc">Bibliographie – Sources</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r604394">
         <head rend="uc">Chapitre préliminaire</head>
         <p>Les origines intellectuelles de la polysynodie ; l’établissement de la polysynodie ; intérêt d’une étude du gouvernement intérieur de la France pendant cette période.</p>
         <p>Organisation intérieure du conseil. Les conseillers. Le duc d’Antin, chef du conseil ; son esprit d’entreprise.</p>
       </div>
-      <div>
+      <div xml:id="r604407">
         <pb source="https://nakala.fr/10.34847/nkl.1f10m798#6b93f1f4a86573a0253dd2a2c88e351ad7df933c" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f10m798/6b93f1f4a86573a0253dd2a2c88e351ad7df933c/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Justice administrative</head>
@@ -79,10 +77,10 @@
         <p>Émanation du Conseil du Roi, il dispose de la « justice retenue ». Il possède donc le droit d’évocation dont il use très souvent, mais plutôt sur requêtes des particuliers que <hi rend="i">proprio motu.</hi></p>
         <p>Il lui arrive dans certains cas assez rares de prendre connaissance de causes réservées en principe au Conseil des parties : demandes en évocation d’une cause d’un tribunal à un autre pour contrariété d’arrêts, parenté, crédit ou alliance, pourvois en cassation de jugements rendus par les premiers juges ou les cours souveraines pour injustice évidente ou contravention aux lois ; règlements de juges et conflits de juridiction, demandes en révision d’arrêts ; il juge même quelquefois « au fond de la question ». Intérêt pour le Roi de cette justice administrative. Intérêt pour les particuliers jugés sans frais et impartialement.</p>
       </div>
-      <div>
+      <div xml:id="r604436">
         <head rend="uc">Deuxième partie
          <lb/>Administration générale</head>
-        <div>
+        <div xml:id="r604444">
           <pb source="https://nakala.fr/10.34847/nkl.1f10m798#54b0ea06adf464fed44fe658e7819d4a83521d2d" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f10m798/54b0ea06adf464fed44fe658e7819d4a83521d2d/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>administration courante.</head>
@@ -95,33 +93,33 @@
           <p><hi rend="i">Lettres de cachet.</hi> – Le conseil, successeur du Secrétaire d’Etat ayant la généralité de Paris dans son département, juge du bien-fondé de l’expédition de lettres de cachet pour affaires de famille ou pour le maintien de la discipline religieuse.</p>
           <p><hi rend="i">Universités et Écoles. Assistance publique.</hi> – Questions relatives à la discipline et à l’administration intérieures. <pb source="https://nakala.fr/10.34847/nkl.1f10m798#52e3abecccbe5a03dfcf5ebf68c5968cf9a1d19d" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f10m798/52e3abecccbe5a03dfcf5ebf68c5968cf9a1d19d/full/full/0/default.jpg"/> Lettres patentes de fondation d’un certain nombre d’établissements.</p>
         </div>
-        <div>
+        <div xml:id="r604508">
           <head rend="uc">Chapitre II
            <lb/>Police.</head>
           <p>Direction de la maréchaussée. – Surveillance de la justice prévôtale. Maintien de l’ordre public et de la sûreté générale. – Insécurité des campagnes. Réglementation du port d’armes.</p>
         </div>
-        <div>
+        <div xml:id="r604520">
           <head rend="uc">Chapitre III
            <lb/>Le gouvernement des provinces et des villes.</head>
           <p>Rapports constants avec les intendants. L’intendant est pour le conseil la source presque unique de renseignements.</p>
           <p>Rapports plus espacés avec les pays d’Etat. Requêtes de la noblesse de Provence.</p>
           <p>Tutelle administrative sur les communautés d’habitants. Elections des officiers de ville laissées en principe aux municipalités. Le conseil doit intervenir pour réprimer les brigues et les désordres engendrés par ces élections : par arrêt du 28 août 1717, elles sont mises sous la surveillance des intendants.</p>
         </div>
-        <div>
+        <div xml:id="r604538">
           <head rend="uc">Chapitre IV
            <lb/>Travaux publics.</head>
           <p>Mauvais état des ponts et chaussées en 1715. Réorganisation du personnel et création d’un véritable corps des ponts et chaussées. L’œuvre accom<pb source="https://nakala.fr/10.34847/nkl.1f10m798#b41d66ae7b487150c2cda473a5902066f7582157" n="23" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f10m798/b41d66ae7b487150c2cda473a5902066f7582157/full/full/0/default.jpg"/>plie en trois ans par Béringhen : les ponts (l’entreprise la plus considérable est la reconstruction du pont de Blois), les turcies et levées ; les routes ; les cours d’eau et les canaux (amélioration générale de la navigabilité) ; urbanisme ; travaux divers : assèchements de marais, construction de digues et d’aqueducs, protection des forêts, police du roulage et de la navigation ; contentieux : examen des requêtes des particuliers et des communautés au sujet des travaux publics ; expropriations.</p>
         </div>
-        <div>
+        <div xml:id="r604555">
           <head rend="uc">Chapitre V
            <lb/>Les haras.</head>
           <p>État des haras en 1715 : les chevaux et les fonds manquent à la fois. L’œuvre de Brancas : codification des règlements antérieurs pour former une organisation qui dure jusqu’à la fin de l’ancien régime (règlement du 22 février 1717) ; les fonctionnaires : commissaires-inspecteurs, gardes-étalons, gardes-haras.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r604568">
         <head rend="uc">Troisième partie
          <lb/>Les affaires religieuses</head>
-        <div>
+        <div xml:id="r604576">
           <head rend="uc">Chapitre premier
            <lb/>rapports du conseil avec le clergé.</head>
           <p><hi rend="i">Gestion du temporel ecclésiastique.</hi> – Le conseil <pb source="https://nakala.fr/10.34847/nkl.1f10m798#eeab33483b129420ad66e445b608ae33636b505a" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f10m798/eeab33483b129420ad66e445b608ae33636b505a/full/full/0/default.jpg"/>maintient l’inaliénabilité des biens ecclésiastiques, mais limite leur accroissement ; il reçoit les demandes de secours pour les réparations d’églises quand les ressources ou la bonne volonté des habitants ou des décimateurs laïcs sont insuffisantes.</p>
@@ -130,7 +128,7 @@
           <p><hi rend="i">Justice ecclésiastique.</hi> – Contentieux des revenus ecclésiastiques : difficultés des paroisses avec les instituts chargés de les desservir et les décimateurs laïcs ; contentieux de la décime ; contestations soulevées par la tutelle des administrateurs laïcs sur les établissements de bienfaisance ; conflits entre le clergé et les fonctionnaires locaux ; différends au sein même du clergé ; véritable évocation de causes ecclésiastiques.</p>
           <p>Discipline du clergé ; répression des scandales ; intervention des lettres de cachet ; souci d’impartialité du conseil.</p>
         </div>
-        <div>
+        <div xml:id="r604617">
           <pb source="https://nakala.fr/10.34847/nkl.1f10m798#ebebc58b2d153b163b3a753c59cfa222830feaed" n="25" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f10m798/ebebc58b2d153b163b3a753c59cfa222830feaed/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Les protestants.</head>
@@ -141,7 +139,7 @@
           <p>En général, le conseil applique les ordonnances de Louis XIV contre les protestants.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r604653">
         <head rend="uc">Conclusion</head>
         <p>L’orientation complètement nouvelle de la politique extérieure française, l’alliance avec l’Angleterre contre l’Espagne amènent le Régent à rechercher à l’intérieur une autorité plus grande par le <pb source="https://nakala.fr/10.34847/nkl.1f10m798#2d882d755e1a7067e08aa6d5cd76caff445cb648" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.1f10m798/2d882d755e1a7067e08aa6d5cd76caff445cb648/full/full/0/default.jpg"/>retour à l’ancienne forme de gouvernement. Suppression des conseils, sauf les conseils des finances, du commerce et de la marine qui subsistent encore quelque temps.</p>
         <p>La réforme a été superficielle ; le conseil du dedans a joué pendant ces trois ans le rôle traditionnellement dévolu au conseil du Roi ; deux de ses membres, Béringhen et Brancas, ont fait œuvre durable.</p>

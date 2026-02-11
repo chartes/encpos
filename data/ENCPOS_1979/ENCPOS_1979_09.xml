@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1979_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1979_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,21 +55,21 @@
         <forename>Ghislaine</forename>
         <surname>l’Huillier – de Guibert</surname>
       </byline>
-      <div>
+      <div xml:id="r1051140">
         <head rend="uc">Première partie
          <lb/>Commentaire</head>
         <p>Le <hi rend="i">Quadripartitum numerorum</hi> est le nom sous lequel nous est connu le traité d’arithmétique et d’algèbre de Jean de Murs. En réalité, il semble bien que l’auteur l’ait aussi intitulé <hi rend="i">Liber de fructibus numerorum.</hi> Il s’agit d’un gros manuel d’enseignement composé par un savant qui, même s’il a également laissé une géométrie, fut plus un théoricien de la musique et un astronome qu’un mathématicien. Achevé en 1343, cet ouvrage offre une coupe à travers l’enseignement des mathématiques au <num>xiv<hi rend="sup">e</hi></num> siècle. Il présente d’une part le reflet de l’enseignement des époques antérieures. D’autre part, il en élargit le champ et l’ouvre aux résultats des recherches scientifiques qui occupaient les esprits occidentaux à la même époque.</p>
-        <div>
+        <div xml:id="r1051165">
           <head rend="uc">Chapitre premier
            <lb/>Jean de murs</head>
           <p>La biographie de Jean de Murs est relativement bien fournie : les nombreuses œuvres qui nous sont parvenues donnent déjà quelques informations sur sa vie ; mais ce sont surtout les très abondantes notes autographes du ms. Escorial 0 II 10, découvertes par M. Beaujouan en 1962, qui ont permis de <pb source="https://nakala.fr/10.34847/nkl.ab0d3l0u#f9e2088f2366e27f0274f1c3a3f0670fc42f1ce5" n="84" facs="https://api.nakala.fr/iiif/10.34847/nkl.ab0d3l0u/f9e2088f2366e27f0274f1c3a3f0670fc42f1ce5/full/full/0/default.jpg"/>préciser jusque dans le détail ses activités. Une autre source nous permet d’ajouter encore un élément inattendu à cette biographie. Originaire du diocèse de Lisieux, il semble cependant que Jean de Murs ait passé sa jeunesse à Meaux. Il y fut en effet l’un des principaux auteurs de l’assassinat, le 7 septembre 1310, d’un chanoine du chapitre, en compagnie de son père Henri de Murs, de son futur compagnon de travail en astronomie, Jean de Lignères, et de quelques autres galopins nobles du voisinage, comme le montre le <hi rend="i">vidimus</hi> par Philippe le Bel d’un jugement de Gaucher de Châtillon que l’on trouve dans les papiers du chapitre de Meaux. Cet exploit lui valut une condamnation à l’exil à Chypre, dont on ne sait si elle a réellement été effectuée. La date de 1310 semble devoir faire reculer à 1290 ou 1295 la naissance de Jean de Murs, que l’on plaçait vers 1300. L’installation de sa famille à Meaux est confirmée par une cession de terrains faite par Henri de Murs à Gaucher de Châtillon et par une lettre d’absolution à l’article de la mort, datée du 3 décembre 1341, envoyée par le pape Benoît XII à Henri de Murs, laïc de Meaux.</p>
         </div>
-        <div>
+        <div xml:id="r1051186">
           <head rend="uc">Chapitre II
            <lb/>Analyse du texte</head>
           <p>Le <hi rend="i">Quadripartitum numerorum</hi> est composé de trois livres : arithmétique théorique, arithmétique pratique, algèbre (livre complété par des Questions) ; d’un <hi rend="i">Semiliber</hi> de contenu assez disparate, fait d’extraits du <hi rend="i">Liber Abaci</hi> de Léonard de Pise ; d’un quatrième livre, composé de quatre traités dont les titres sont : <hi rend="i">de moventibus et motis, de ponderibus, de arte consolandi, de arte delendi. </hi>Ces quatre traités sont censés appliquer tout ce qui a été enseigné auparavant. En fait, il n’en est rien : excepté le second, ils sont plus ou moins inspirés de l’arithmétique commerciale de Léonard de Pise. Un cinquième traité sur la musique a disparu sans laisser de traces. A ces cinq livres, il faut ajouter une épître en vers dédiée à Philippe de Vitry, fondateur de l’<hi rend="i">Ars nova ;</hi> cette épître répond au contenu des Livres II et III et du <hi rend="i">Semiliber.</hi></p>
         </div>
-        <div>
+        <div xml:id="r1051221">
           <head rend="uc">Chapitre III
            <lb/>Les sources</head>
           <p>Les fondements du texte de Jean de Murs sont extrêmement traditionnels. La partie arithmétique est divisée en arithmétique théorique, appelée « arithmétique », et en arithmétique pratique, appelée « algorisme ».</p>
@@ -82,7 +80,7 @@
           <p>L’algèbre de Jean de Murs utilise les méthodes et les exemples de l’algèbre d’al-Ḫwārizmī. H s’agit donc d’une algèbre du second degré, entièrement rhétorique et n’usant d’aucun symbolisme. La résolution des problèmes repose sur six équations canoniques et le seul travail consiste à le réduire à un de ces six modèles ; la solution est alors obtenue automatiquement. L’algèbre n’est pas limitée aux emprunts faits au seul ouvrage d’al-Hwārizmī : Jean de Murs utilise aussi le dernier chapitre du <hi rend="i">Liber Abaci</hi> de Léonard de Pise (1202-1228). Cet ouvrage ne semble pas avoir été très répandu au <num>xiv<hi rend="sup">e</hi></num> siècle ; c’est un traité d’arithmétique commerciale ; le dernier chapitre contient un grand nombre d’équations souvent issues de l’algèbre d’Abū-Kāmil. Jean de Murs n’y trouve pas que des exercices d’algèbre résolus selon les méthodes d’al-Ḫwārizmī. Il y copie aussi un long passage sur la composition des monnaies, et s’en sert pour l’étude des opérations sur les expressions irrationnelles, qui finit par devenir une sorte d’algorisme.</p>
           <p>Les sources que Jean de Murs utilise sont donc de deux sortes : les manuels de l’enseignement universitaire et des collèges (Boèce, l’algorisme) et un cer<pb source="https://nakala.fr/10.34847/nkl.ab0d3l0u#e12498c24c4654c786dd22e20b110f695daa5030" n="86" facs="https://api.nakala.fr/iiif/10.34847/nkl.ab0d3l0u/e12498c24c4654c786dd22e20b110f695daa5030/full/full/0/default.jpg"/>tain nombre d’ouvrages peu connus des étudiants, tels que ceux de Léonard de Pise, ou le texte du ms. lat. 15461.</p>
         </div>
-        <div>
+        <div xml:id="r1051301">
           <head rend="uc">Chapitre IV
            <lb/>L’enseignement de Jean de murs</head>
           <p>Jean de Murs n’étudie pas dans son <hi rend="i">Quadripartitum numerorum</hi> de matières réellement originales. Elles sont toutes reprises des sources répertoriées précédemment. La manière dont il les aborde en est très dépendante. Cependant elles ne lui servent souvent que comme un tremplin sur lequel appuyer son intelligence. Par exemple, le calcul des nombres parfaits l’intéresse : il le reprend de l’arithmétique de Boèce en en approfondissant les bases scientifiques à l’aide des livres arithmétiques des <hi rend="i">Éléments</hi> d’Euclide.</p>
@@ -91,11 +89,11 @@
           <p>Jean de Murs applique aussi son esprit inventif à l’algèbre. Il met en ordre l’ensemble informe des équations qui lui sont fourmes par ses sources pour en faire un corpus composé selon le mode de résolution utilisé. Il ne se sert évidemment pas de symbolisme algébrique, mais il émet l’idée d’user d’une barre de fraction pour exprimer une division de deux expressions algébriques. Moins heureuse est son idée d’établir un algorisme des expressions algébriques : l’addition, la soustraction et la multiplication sont satisfaisantes, mais la division et l’extraction des racines mêlent les différentes parties de l’expression algébrique, et rendent ainsi manifeste l’obscurité qui entoure alors la notion d’inconnue.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1051357">
         <pb source="https://nakala.fr/10.34847/nkl.ab0d3l0u#e2ffb984c6c350bf9d59e50b2cdaff2a3265855f" n="87" facs="https://api.nakala.fr/iiif/10.34847/nkl.ab0d3l0u/e2ffb984c6c350bf9d59e50b2cdaff2a3265855f/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les manuscrits et l’édition</head>
-        <div>
+        <div xml:id="r1051370">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits</head>
           <p>Il existe cinq manuscrits du <hi rend="i">Quadripartitum numerorum :</hi></p>
@@ -107,7 +105,7 @@
           <p>Les deux premiers manuscrits sont d’origine française, les trois autres d’origine allemande. <hi rend="i">N</hi> contient en marge des notes autographes de Regiomontanus, qui avait l’intention d’éditer le <hi rend="i">Quadripartitum</hi> ; certaines de ces notes forment un commentaire, parfois même une critique du texte de Jean de Murs. Outre ces manuscrits, il existait un court extrait du texte dans le ms. Dresde, Sächsische Landesbibliothek C 80, aujourd’hui en partie détruit, et qui se rattache au même groupe.</p>
           <p>Le ms. Florence, Conv. Soppr. J IX 26 contient un résumé des premier et deuxième traités du Livre IV.</p>
         </div>
-        <div>
+        <div xml:id="r1051459">
           <head rend="uc">Chapitre II
            <lb/>Principes d’édition</head>
           <p>Le texte est celui de <hi rend="i">P,</hi> complété pour les lacunes importantes par <hi rend="i">C.</hi> Le Livre I et les premiers vers de l’épître ne figurant pas dans ces deux manuscrits, le texte édité est alors celui de <hi rend="i">V.</hi></p>
@@ -119,7 +117,7 @@
         <head rend="uc">Édition</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r1051511">
         <head rend="uc">Appendices</head>
         <p>Édition du <hi rend="i">vidimus</hi> par Philippe le Bel du jugement de Gaucher de Châtillon et du <hi rend="i">vidimus</hi> par Philippe le Bel du don fait par Gaucher de Châtillon des terres que lui avait cédées Henri de Murs. – Édition du résumé contenu dans le manuscrit Florence, Conv. Soppr. J IX 26, fol. 59-66. – Notices codicologiques des manuscrits. – Analyse du contenu du texte du <hi rend="i">Quadripartitum.</hi> – Glossaire.</p>
       </div>

@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1950_22" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1950_22" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -61,21 +59,21 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r719290">
         <head rend="uc">Introduction</head>
         <p>L’ancien coutumier de Champagne est une œuvre privée, rédigée par un praticien entre 1295 et 1300, dans le bailliage de Troyes ou celui de Chaumont. C’est une compilation en soixante-six articles, composée de notables de droit souvent illustrés de sentences judiciaires qui nous ont transmis le nom des parties et des juges, nous permettant ainsi de connaître l’évolution de la justice à la fin du <num>xiii<hi rend="sup">e</hi></num> siècle.</p>
       </div>
-      <div>
+      <div xml:id="r719306">
         <head rend="uc">Première partie
          <lb/>Le droit de l’ancien coutumier</head>
-        <div>
+        <div xml:id="r719314">
           <head rend="uc">Chapitre premier
            <lb/>l’état des personnes.</head>
           <p>L’ancien coutumier contient un certain nombre de règles sans lien entre elles, mais suffisantes pour nous permettre de nous faire une idée des institutions.</p>
           <p><hi rend="i">Les nobles.</hi> – La noblesse en Champagne se transmet aussi bien par la mère que par le père.</p>
           <p><hi rend="i">Les serfs.</hi> – Le servage est resté très rigoureux, la majeure partie de la population champenoise était serve. Les serfs étaient soumis à des redevances : chevage, corvées, taille, et à des incapacités caractéristiques de leur état, dont les principales étaient le formariage et la mainmorte.</p>
         </div>
-        <div>
+        <div xml:id="r719338">
           <pb source="https://nakala.fr/10.34847/nkl.bd340882#6f89e3fe6ad789047d52f73488feb250a82e4a9b" n="94" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd340882/6f89e3fe6ad789047d52f73488feb250a82e4a9b/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>La condition des terres.</head>
@@ -84,7 +82,7 @@
           <p><hi rend="i">Les tenures serviles.</hi> – Les tenures serviles sont réservées aux serfs et ne peuvent être acquises par des hommes libres. Celui qui en reçoit une par succession doit s’en défaire sous peine de confiscation.</p>
           <p><hi rend="i">Les alleux.</hi> – Nombreux en Champagne, les alleux sont des terres pratiquement libres, soumises seulement à la justice du seigneur dans le ressort duquel elles se trouvent.</p>
         </div>
-        <div>
+        <div xml:id="r719373">
           <head rend="uc">Chapitre III
            <lb/>Le droit de la famille.</head>
           <p><hi rend="i">Les mineurs.</hi> – La garde des mineurs est confiée au survivant des père et mère, ou au frère aîné majeur. Le gardien administre les biens du mineur sous le contrôle de la justice et de l’assemblée des parents. L’âge de la majorité est fixé à quatorze ans pour les garçons et onze ans pour les filles.</p>
@@ -92,13 +90,13 @@
           <p><hi rend="i">Les donations.</hi> – Les donations sont soumises à la règle « donner et retenir ne vaut », qui est un principe général du droit commun coutumier.</p>
           <p><hi rend="i">Les successions.</hi> – Les biens roturiers se partagent également entre les successibles du même degré, sans représentation. L’ascendant donateur exerce le droit de retour.</p>
         </div>
-        <div>
+        <div xml:id="r719406">
           <head rend="uc">Chapitre IV
            <lb/>Le droit pénal.</head>
           <p><hi rend="i">Le bris d’asseurement.</hi> – Le bris d’asseurement est un crime assimilé <pb source="https://nakala.fr/10.34847/nkl.bd340882#2c861a83439f11029755241cf3767c75f882b45c" n="95" facs="https://api.nakala.fr/iiif/10.34847/nkl.bd340882/2c861a83439f11029755241cf3767c75f882b45c/full/full/0/default.jpg"/>au meurtre. Le coupable est à l’entière discrétion du seigneur, corps et biens.</p>
           <p><hi rend="i">Les délits légers.</hi> – Les délits contre la personne : coups et blessures, injures, de même que les délits contre les biens : déplacement de bornes, abus de droit d’usage dans les bois, délits de chasse et de pêche, sont punis d’amende.</p>
         </div>
-        <div>
+        <div xml:id="r719432">
           <head rend="uc">Chapitre V
            <lb/>La procédure.</head>
           <p><hi rend="i">Compétence.</hi> – En matière civile, le tribunal compétent est celui du domicile du défendeur, sauf pour les causes féodales et immobilières. En matière criminelle, c’est le tribunal du domicile du coupable, sauf en cas de flagrant délit où le justicier du lieu de l’arrestation est compétent.</p>
@@ -106,7 +104,7 @@
           <p><hi rend="i">Voies de recours.</hi> – Les anciennes voies de recours : défaute de droit et appel de faux jugement, font place à l’appellation, germe de l’appel moderne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r719460">
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
         <p>L’ancien coutumier de Champagne nous a été conservé par huit manuscrits qui sont : Bibliothèque nationale, ms. fr. 25546 ; Bibliothèque municipale de Provins, ms. 29 ; Bibliothèque nationale, ms. fr. 5256, fol. 1-6 et fol. 168-182 ; Bibliothèque nationale, ms. fr. 19832 ; Bibliothèque nationale, ms. fr. 5317 ; Bibliothèque royale de Stockholm, ms. XXIX ; Bibliothèque nationale, ms. fr. 5257 ; Bibliothèque nationale, collection Dupuy, ms. 426. Le texte n’a été publié que par Pierre Pithou dans son ouvrage intitulé : <hi rend="i">Les coustumes du bailliage de Troyes en Champagne</hi> (1607).</p>

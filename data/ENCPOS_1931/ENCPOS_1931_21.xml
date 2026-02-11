@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_21" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1931_21" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -62,17 +60,17 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r510024">
         <head rend="uc">Introduction</head>
         <p>Le Dauphiné est un pays sans unité géographique ou ethnique, formé par la politique des comtes d’Albon, plus tard dauphins de Viennois.</p>
         <p>Il a semblé intéressant d’étudier la chancellerie et la diplomatique de ces seigneurs, car elles peuvent donner une idée de l’étendue et du caractère de leur pouvoir.</p>
         <p>Le mode de rédaction des actes dépend des événements historiques. Généalogies des comtes d’Albon et dauphins de Viennois des maisons d’Albon, de Bourgogne et de la Tour du Pin.</p>
       </div>
-      <div>
+      <div xml:id="r510040">
         <head rend="uc">Premiere partie
          <lb/>La maison d’Albon</head>
         <p>Les comtes d’Albon arrivent au pouvoir à une époque d’anarchie où seuls les évêques et quelques ab<pb source="https://nakala.fr/10.34847/nkl.54fejo83#37f274caac53366bef48c50a3e6ea30837b6e355" n="176" facs="https://api.nakala.fr/iiif/10.34847/nkl.54fejo83/37f274caac53366bef48c50a3e6ea30837b6e355/full/full/0/default.jpg"/>bayes se sont constitué une chancellerie. Leurs ancêtres n’ont sans doute fait faire leurs actes que par les établissements bénéficiaires ou par des clercs d’occasion.</p>
-        <div>
+        <div xml:id="r510056">
           <head rend="uc">Chapitre premier
            <lb/>de Guigues le vieux à Taillefer (1030-1163).</head>
           <p><hi rend="i">Guignes le Vieux.</hi> – Quatre actes, pas d’originaux ni de nom de scribes. Probablement émanés des églises destinataires. – Etude des formules. Le titre de comte, pris par Guigues, leur donne un autre caractère que celui des actes privés.</p>
@@ -82,7 +80,7 @@
           <p><hi rend="i">Guignes</hi> V <hi rend="i">Dauphin, Marguerite de Bourgogne.</hi> – Aucun acte ne nous est conservé, sinon quelques notices ou analyses.</p>
           <p>Les premiers comtes d’Albon, bien que possédant un commencement d’administration, n’avaient ni chancellerie ni moyen de corroborer leurs actes.</p>
         </div>
-        <div>
+        <div xml:id="r510118">
           <pb source="https://nakala.fr/10.34847/nkl.54fejo83#f549d5a2512f24d5a2fb0c2a1c009152b075db42" n="177" facs="https://api.nakala.fr/iiif/10.34847/nkl.54fejo83/f549d5a2512f24d5a2fb0c2a1c009152b075db42/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Taillefer et Hugues de Bourgogne (1163-1192).</head>
@@ -107,11 +105,11 @@
           <p>Signes de validation. Souscription ducale. Elle ne se trouve pas sur les actes originaux, mais elle est reproduite dans le cartulaire d’Oulx du <num>xiii<hi rend="sup">e</hi></num> siècle (Archivio di Stato de Turin). Le sceau représente au revers la ville de Vienne.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r510233">
         <pb source="https://nakala.fr/10.34847/nkl.54fejo83#1a9d996d9dfd106f0ab94e14056951a5b90e3c04" n="179" facs="https://api.nakala.fr/iiif/10.34847/nkl.54fejo83/1a9d996d9dfd106f0ab94e14056951a5b90e3c04/full/full/0/default.jpg"/>
         <head rend="uc">Deuxieme partie
          <lb/>La maison de Bourgogne</head>
-        <div>
+        <div xml:id="r510246">
           <head rend="uc">Chapitre premier
            <lb/>André dauphin (1192-1237).</head>
           <p><hi rend="i">La chancellerie.</hi> – Organisée dès 1202 avec le chapelain à sa tête.</p>
@@ -125,7 +123,7 @@
           <p>Invocation fréquente. Suscription de Béatrix de Bourgogne, et d’André Dauphin. Sous ce règne s’établit la coutume de prendre, dans d’autres chancelleries que la chancellerie delphinale, le nom de Dauphin pour un titre. A la fin du règne, les formules des notaires commencent à s’introduire dans les actes de chancellerie des dauphins. Mention du pape et de l’empereur dans la date.</p>
           <p>Sceaux : de Béatrix, équestre : d’André, équestre aussi, avec au revers la ville de Vienne. Attaches de chanvre ou de parchemin.</p>
         </div>
-        <div>
+        <div xml:id="r510309">
           <head rend="uc">Chapitre II
            <lb/>Guigues VI (1237-1269).</head>
           <p><hi rend="i">La chancellerie.</hi> – Gaucelme Thomas, notaire d’André expédie quelques actes jusqu’en 1238. – <hi rend="i">Notaires :</hi> Pierre Guillaume <hi rend="i">notarius sacre aule</hi> (1241-1255), peut-être prêtre en Graisivaudan en 1228. Guillaume d’Oulx, notaire <hi rend="i">imperialis aule</hi> (1259-1269), chanoine de St-André, chargé de la garde des archives delphinales, maintenu dans ses fonctions par le testament de Guigues VI. – <hi rend="i">Scriptor :</hi> Etienne, nommé dans le testament du dauphin (1264). – <hi rend="i">Chancelier,</hi> le chambrier ou le chambellan qui le supplante : Guillaume Roux (1243), Bertrand d’Engelas 1246-1255) ; la charge est supprimée à cette époque.</p>
@@ -138,7 +136,7 @@
           <p>Mention <hi rend="i">reddite litteras</hi>.</p>
           <p>Sceaux. Béatrix de Montferrat, sceau équestre. Guigues VI, sceau équestre avec l’écu au dauphin, dont l’emblème apparaît pour la première fois en 1237. En 1259, sceau secret armorial. Attaches de chanvre, soie, parchemin ; leur emploi n’est pas déterminé.</p>
         </div>
-        <div>
+        <div xml:id="r510391">
           <head rend="uc">Chapitre III
            <lb/>Béatrix de Faucigny et Jean i<hi rend="sup">er</hi> (1269-1282).</head>
           <p><hi rend="i">La chancellerie.</hi> – Guillaume d’Oulx, maintenu dans sa charge, n’écrit cependant que quelques actes notariés. Le nombre de ceux-ci va en augmentant. La chancellerie se désorganise, et la dauphine s’adresse seulement à des notaires de préférence à d’autres.</p>
@@ -146,11 +144,11 @@
           <p><hi rend="i">Caractères internes.</hi> – Actes notariés, lettres, chartes et mandements. – Formules. Sceaux. Pas de sceau de Jean. Le sceau de Béatrix est de type armorial ; son sceau secret, une intaille antique.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r510423">
         <pb source="https://nakala.fr/10.34847/nkl.54fejo83#70f3594da37fc9e4c4243afeb1a6fd8930df53ce" n="182" facs="https://api.nakala.fr/iiif/10.34847/nkl.54fejo83/70f3594da37fc9e4c4243afeb1a6fd8930df53ce/full/full/0/default.jpg"/>
         <head rend="uc">Troisieme partie
          <lb/>La maison de la tour du Pin</head>
-        <div>
+        <div xml:id="r510436">
           <head rend="uc">Chapitre premier
            <lb/>Humbert i<hi rend="sup">er</hi> (1282-1308)</head>
           <p>Habitudes diplomatiques des barons de la Tour avant de devenir comtes d’Albon. Armoiries de leurs sceaux ; une tour accostée d’une muraille ; type secondaire, armoiries avec ou sans écu suspendues au cou d’un animal.</p>
@@ -162,7 +160,7 @@
           <p>Sceaux : grand sceau d’Humbert, équestre ; petit <pb source="https://nakala.fr/10.34847/nkl.54fejo83#da745233539d3354c87c1b80512577aaa745b730" n="183" facs="https://api.nakala.fr/iiif/10.34847/nkl.54fejo83/da745233539d3354c87c1b80512577aaa745b730/full/full/0/default.jpg"/>sceau ou sceau secret, armorial ; sceau du Dauphiné et de la baronnie de la Tour, changé lorsque le dauphin perdit la baronnie de Coligny. Sceau du secret avec le portrait du dauphin.</p>
           <p>Anne, type armorial, armes du Dauphiné et de la Tour avec des étoiles. Avait son grand et petit sceau. Jean de Gapençais, type de l’écu porté par un animal (griffon), et sceau secret : armes du Dauphiné brisées d’un lambel. Couleur verte de préférence, très rarement rouge. Attachés parfois sur simple queue.</p>
         </div>
-        <div>
+        <div xml:id="r510505">
           <head rend="uc">Chapitre II
            <lb/>Jean II et Guigues VII (1308-1333).</head>
           <p>Règnes courts. Les règles de la diplomatique sont à peu près les mêmes pour ces deux dauphins.</p>
@@ -176,7 +174,7 @@
           <p>Sceaux : grand sceau équestre de Jean II, petit sceau armorial, sceau du secret : buste du dauphin de face. – Sceau spécial d’Henri Dauphin pour sa régence du Dauphiné, bordure engrêlée de l’écu.</p>
           <p>Grand et petit sceau de Guigues VII ; ne se distingue que par le fond réticulé. Sceau du secret : un heaume sur un écu penché. Peut-être signet avec un portrait du dauphin casqué (vidimus de 1331 d’une lettre sur papier scellée au dos). Couleur rouge adoptée sous Guigues VII. – Attaches, surtout sur simple queue (la chancellerie n’expédie plus guère que des mandements).</p>
         </div>
-        <div>
+        <div xml:id="r510577">
           <head rend="uc">Chapitre III
            <lb/>Humbert II (1333-1319).</head>
           <p>Tente une organisation nouvelle de la chancellerie, sur des traditions prises au royaume de Naples.</p>

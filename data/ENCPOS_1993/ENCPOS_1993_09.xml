@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_09" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1993_09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,7 +55,7 @@
         <forename>Frédérique</forename>
         <surname>Hamm</surname>
       </byline>
-      <div>
+      <div xml:id="r1229582">
         <head rend="uc">Introduction</head>
         <p>On sait depuis les travaux de Léopold Delisle que Charles V fit traduire par Jean Daudin le <hi rend="i">De eruditione filiorum nobilium</hi> de Vincent de Beauvais, mais les motifs de cette commande ne se laissent pas aisément discerner.</p>
         <p>Le contexte du <num>xiv<hi rend="sup">e</hi></num> siècle s’y prêtait bien. A l’heure des grands tourments de la guerre de Cent Ans, les moralistes, soucieux de réformer les mœurs, accordaient une attention particulière à l’éducation des princes. Un prince convenablement formé ne peut se révéler qu’un sage gouvernant et un modèle à suivre par toutes les classes de la société. Aussi les Miroirs des princes du <num>xiii<hi rend="sup">e</hi></num> siècle, inspirés par la doctrine politique d’Aristote, font-ils encore largement recette, notamment celui de Gilles de Rome, sans cesse pillé et adapté. L’œuvre de Vincent de Beauvais n’est pas à proprement parler un Miroir. Elle devait s’inscrire dans le cadre d’un <hi rend="i">opus universale,</hi> traitant de tous les devoirs et vertus du prince, gigantesque projet que la mort empêcha Vincent de Beauvais de mener à bonne fin. Destiné à la seule éducation intellectuelle et morale des enfants du roi, le <hi rend="i">De eruditione</hi> ne s’attache donc pas aux vertus politiques du prince, au rebours du second et dernier volet composé de l’<hi rend="i">opus,</hi> le <hi rend="i">De morali principis institutione.</hi></p>
@@ -66,39 +64,39 @@
         <p>L’un des premiers devoirs du bon prince est de diffuser le savoir, et notamment les préceptes des traités pédagogiques. Encore faut-il que les ouvrages soient accessibles à leurs destinataires. Or ceux-ci, princes, conseillers du roi ou simples laïcs, ne comprenaient plus, ou mal du moins, le latin. C’est pourquoi Charles V entreprit de faire traduire les ouvrages les plus utiles en français, constituant ainsi une « librairie » de manuscrits précieux mais aussi d’étude, notamment d’ouvrages sur le gouvernement.</p>
         <p>Il semblerait donc que le traité de Vincent de Beauvais fût tout désigné pour prendre place dans cette bibliothèque, d’autant plus que l’autorité de l’auteur restait importante au <num>xiv<hi rend="sup">e</hi></num> siècle, bien que concurrencée par Gilles de Rome pour les questions politiques et par le <hi rend="i">De proprietatibus rerum</hi> de Barthélémy l’Anglais pour les sciences. Mais à en juger par l’origine des manuscrits conservés, il apparaît que le <hi rend="i">De eruditione,</hi> sous sa forme latine, était boudé en France, alors qu’on le recopiait encore en Angleterre et dans les pays germaniques. C’est d’ailleurs à Bâle qu’il sera imprimé pour la première fois en 1477. Le contexte favorable n’explique donc pas à lui seul l’entreprise de traduction. Il faut y ajouter le dessein de Charles V d’imiter son illustre ancêtre saint Louis. Vincent de Beauvais composa en effet le traité à l’intention des enfants de ce dernier entre 1247 et 1250. On pourrait reporter la remise du traité après 1254, lorsque le couple royal revint de la croisade. La même volonté de s’inscrire dans la droite lignée des Capétiens avait déjà conduit Jeanne de Bourgogne à faire traduire le <hi rend="i">Spéculum historiale</hi> par Jean de Vignay. Se pose un problème majeur : pourquoi les Valois ont-ils négligé le <hi rend="i">De morali ?</hi> Le traité répond pourtant bien mieux à la définition du Miroir et a été composé dans les mêmes circonstances que le <hi rend="i">De eruditione</hi> ou l’<hi rend="i">Epistola consolatoria.</hi> Peut-être le Miroir de Gilles de Rome le distançait-il ou n’y avait-il pas de manuscrit latin disponible à Paris. Reste que la traduction de <hi rend="i">De eruditione </hi>n’a connu aucun succès. L’œuvre était-elle trop théorique, austère et peu pratique ? proposait-elle une éducation qui n’était plus adaptée aux principes pédagogiques du XIV’ siècle ? Les nobles, auxquels ce traité était destiné, ne se préoccupèrent pas davantage de la traduction que de l’original. Même présentée dans une langue plus accessible, l’œuvre ne sortit pas d’un milieu étroitement curial et intellectuel, au contraire du <hi rend="i">Miroir historial.</hi></p>
       </div>
-      <div>
+      <div xml:id="r1229688">
         <pb source="https://nakala.fr/10.34847/nkl.fb9cz22m#84e04275cf8a8e9f59eaf60f2adde5eedc20924e" n="79" facs="https://api.nakala.fr/iiif/10.34847/nkl.fb9cz22m/84e04275cf8a8e9f59eaf60f2adde5eedc20924e/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Étude</head>
-        <div>
+        <div xml:id="r1229701">
           <head rend="uc">Chapitre premier
            <lb/>le traducteur</head>
           <p>Jean Daudin n’a intéressé que Léopold Delisle et Maxwell Walkley ; et peu de documents d’archives viennent compléter leurs travaux. Ayant atteint le grade de bachelier en théologie, Jean Daudin reçoit un bénéfice de chanoine de la Sainte-Chapelle vers 1360-1363, sûrement par faveur royale. Mais il n’est pas certain que la date de la traduction soit liée en quelque manière à celle de l’obtention de cette dignité. On connaît peu de choses sur sa vie, sinon quelques mentions accidentelles au procès de Denis Foulechat contre la Sorbonne et dans le testament du trésorier de la Sainte-Chapelle Pierre de Houdan (15 juillet 1363), ainsi qu’une épitaphe. On peut ajouter le legs pour son obit d’une rente annuelle de trente-deux sous parisis à prendre sur l’hôtel de la Marjolaine sis rue Saint-Jacques. Il jouit de son canonicat jusqu’à sa mort en 1382, puisqu’il fut enterré dans la chapelle collatérale Saint-Michel, située dans la Chapelle basse. Son nom survit grâce aux traductions qu’il accomplit sur ordre de Charles V. Deux d’entre elles sont assurément ses œuvres : celle du <hi rend="i">De remediis</hi> de Pétrarque avant le 14 avril 1378, celle du <hi rend="i">De eruditione,</hi> dont le prologue est manquant, à une date indéterminée mais liée à celle du manuscrit de dédicace. Celle de l’<hi rend="i">Epistola consolatoria,</hi> en 1374, lui est contestée, mais il n’y a aucune preuve formelle qui puisse infirmer ou confirmer l’attribution. Il faut toutefois remarquer que le prologue est très proche de celui du <hi rend="i">De remediis</hi> par sa connotation nettement stoïcienne.</p>
         </div>
-        <div>
+        <div xml:id="r1229729">
           <head rend="uc">Chapitre II
            <lb/>La tradition manuscrite</head>
           <p>La mention n° 529 du catalogue de Gilles Malet, réalisé le 2 avril 1373, assure que Jean Daudin est bien le traducteur du traité. Mais il ne précise pas la date de traduction. Car le manuscrit de dédicace a bien pu être enregistré après 1373, à la suite du catalogue original, puisque l’on ne possède de celui-ci qu’une copie de 1380. Si rien ne s’oppose à dater la traduction du règne de Jean le Bon, on ne saurait être péremptoire. Il serait plus prudent d’élargir les termes à 1360-1380. Le manuscrit de dédicace disparut lorsque Charles VI négligea de le faire rendre après l’avoir emprunté le 30 avril 1381.</p>
           <p>Il n’en subsiste aujourd’hui qu’une copie de qualité moyenne, sans décoration particulière, un instrument de travail donc. Elle a été réalisée vers le milieu du <pb source="https://nakala.fr/10.34847/nkl.fb9cz22m#6077d9a9768c5c4b7ac1bf07263d86ab2235e49b" n="80" facs="https://api.nakala.fr/iiif/10.34847/nkl.fb9cz22m/6077d9a9768c5c4b7ac1bf07263d86ab2235e49b/full/full/0/default.jpg"/>XV’ siècle, mais le commanditaire en est ignoré. On s’aperçoit que l’indication des folios dans la table des chapitres ne correspond pas à la foliotation réelle du manuscrit, ce qui laisse à penser qu’elle recopie purement et simplement la table du modèle. Au XVII’ siècle, le manuscrit a appartenu à André Du Saussay, évêque de Toul et bibliophile réputé. Il le légua en 1680 au couvent des Jacobins de la rue Saint-Honoré de Paris, par l’intermédiaire du père Antoine Chesnois, prieur à Toul, qui avait fait sa profession dans le couvent parisien. Durant la Révolution, le manuscrit passa à la Bibliothèque nationale où il se trouve actuellement sous la cote français 9683.</p>
         </div>
-        <div>
+        <div xml:id="r1229749">
           <head rend="uc">Chapitre III
            <lb/>La traduction</head>
           <p>Jean Daudin fournit, dans ses prologues, quelques indications sur la façon dont il concevait la traduction. Contrairement aux autres traducteurs, il s’attarde peu sur les procédés, mais se montre très respectueux du style de l’œuvre et de l’intégrité du texte. Dans le même temps, il désire assurer au lecteur peu cultivé un accès aisé à l’œuvre. C’est pourquoi il ajoute en annexe le glossaire et l’explication des histoires évoquées par l’auteur. Le manuscrit ayant servi à la traduction n’a pas été retrouvé. Il subsiste actuellement vingt et un manuscrits du texte latin. Les procédés utilisés, rapidement examinés, ne semblent pas très originaux. Toutefois une étude plus systématique permettrait, d’une part de vérifier l’attribution de <hi rend="i">Y Epistola,</hi> d’autre part de les comparer à ceux des autres traducteurs pour y déceler des constantes, des traits communs.</p>
         </div>
-        <div>
+        <div xml:id="r1229765">
           <head rend="uc">Chapitre IV
            <lb/>La langue</head>
           <p>Le texte mêle, tant dans l’orthographe que dans la grammaire, les traits picards et de moyen français, sans que l’on puisse les attribuer au traducteur ou au copiste.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1229778">
         <pb source="https://nakala.fr/10.34847/nkl.fb9cz22m#77162d2b4b74ba8feab5380a49bb1ef483c92d36" n="81" facs="https://api.nakala.fr/iiif/10.34847/nkl.fb9cz22m/77162d2b4b74ba8feab5380a49bb1ef483c92d36/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
         <p>L’édition est établie d’après l’unique manuscrit conservé : le manuscrit 9683 du fonds français de la Bibliothèque nationale. Le recours au texte latin (édition A. Steiner, 1938) permet souvent de contrôler les leçons du manuscrit et de justifier les corrections.</p>
       </div>
-      <div>
+      <div xml:id="r1229795">
         <head rend="uc">Annexes</head>
         <p>Glossaire. – Index des auteurs cités. – Index des personnages, des <hi rend="i">exempla </hi>et des images.</p>
         <pb source="https://nakala.fr/10.34847/nkl.fb9cz22m#ceb2d4fa6ebd62d90f3508c9a362fac8682707d9" n="82" facs="https://api.nakala.fr/iiif/10.34847/nkl.fb9cz22m/ceb2d4fa6ebd62d90f3508c9a362fac8682707d9/full/full/0/default.jpg"/>

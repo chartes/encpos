@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -56,17 +54,17 @@
         <forename>Laure</forename>
         <surname>Beaumont-Maillet</surname>
       </byline>
-      <div>
+      <div xml:id="r915567">
         <head rend="uc">Sources</head>
         <p>La documentation concernant le Grand Couvent des Cordeliers de Paris est d’une extrême pauvreté pour les trois premiers siècles de son existence. Les plus anciennes sources franciscaines, surabondantes en ce qui concerne les problèmes de doctrine ou le personnage du fondateur, ne nous instruisent qu’incidemment sur la vie des établissements religieux. D’autre part, ce couvent n’a pas eu d’historien. Il n’a pas été pourvu, non plus, de cartulaire.</p>
         <p>Les sources sont plus riches pour la période moderne. Ce sont essentiellement les délibérations du <hi rend="i">discrétoire,</hi> conservées, pour la majeure partie, dans la série L des Archives nationales. Elles se poursuivent sans interruption de 1551 à 1790, mais ne retracent pas de façon satisfaisante la vie de la communauté. Dans la sous-série H<hi rend="sup">5</hi> est conservée une suite ininterrompue de comptes, qui se présentent comme des bilans dressés tous les trois ans à la sortie de charge du supérieur, documents dont l’intérêt est vif, mais qui ne couvrent qu’une trop brève période, de 1681 à 1764. Deux cartons de la série S renferment des pièces relatives à la vie temporelle de la communauté.</p>
         <p>Les sources sont également lacunaires en ce qui concerne la topographie de l’enclos des Cordeliers ou leurs bâtiments. La nature de l’ordre, son incapacité, moins réelle que supposée, à posséder des biens est cause de l’absence de titres et, d’autre part, les bâtiments conventuels ayant, dans leur pauvreté, peu suscité l’admiration, les seules représentations, ou à peu près, qui aient été conservées sont les gravures du frère René Rocheran (seconde moitié du <num>xvii<hi rend="sup">e</hi></num> siècle).</p>
       </div>
-      <div>
+      <div xml:id="r915597">
         <pb source="https://nakala.fr/10.34847/nkl.27a27y5k#bfc8655d70c1576db642dc216a3e4813c7444147" n="16" facs="https://api.nakala.fr/iiif/10.34847/nkl.27a27y5k/bfc8655d70c1576db642dc216a3e4813c7444147/full/full/0/default.jpg"/>
         <head rend="uc">Première partie
          <lb/>Étude historique</head>
-        <div>
+        <div xml:id="r915610">
           <head rend="uc">I. – Des origines à 1502
            <lb/>introduction</head>
           <p>François Bernardone, s’étant voué au service de Dieu (1206), groupa autour de lui quelques disciples, dont les humbles occupations, qui consistaient surtout dans le travail manuel et la mendicité, ne nécessitaient pas d’études, et qui n’avaient d’autre règle que la volonté commune d’imiter le Christ. Rien n’était plus loin de sa pensée que la fondation d’un ordre universel et hiérarchisé. Mais sa communauté, dont l’existence légale fut reconnue dès 1209, s’étendit considérablement. L’année 1216 fut marquée par deux faits très importants : l’organisation des premières missions et la division de l’ordre en provinces soumises à des ministres provinciaux.</p>
@@ -101,7 +99,7 @@
             <p>L’institut franciscain subissait une grave crise depuis les premiers temps. Au <num>xv<hi rend="sup">e</hi></num> siècle, l’ordre était scindé en deux rameaux : celui des conventuels, partisans des privilèges et de l’adoucissement de la règle, auxquels se rattachait le couvent de Paris, et ceux qui se souvenaient de l’idéal du fondateur, divisés eux-mêmes en observantins, complètement autonomes, et en colétans, restés sous la juridiction des conventuels. Au couvent de Paris, le déclin avait été plus rapide que partout ailleurs, par suite de l’affluence d’éléments disparates et du fait qu’on n’avait pas toujours été assez scrupuleux sur le choix des sujets à y envoyer. Les Cordeliers crurent repousser une réforme inévitable en empêchant les observantins de s’établir à Paris, mais ce fut en vain.</p>
           </div>
         </div>
-        <div>
+        <div xml:id="r915721">
           <head rend="uc">II. – De 1502 a la révolution</head>
           <div>
             <head rend="uc">Chapitre premier
@@ -144,11 +142,11 @@
           </div>
         </div>
       </div>
-      <div>
+      <div xml:id="r915896">
         <head rend="uc">Deuxième partie
          <lb/>Étude archéologique</head>
         <p>Il est à remarquer que les Franciscains, portant à l’extrême, comme tous les Mendiants, l’esprit de pauvreté, n’avaient pas de doctrine esthétique. Les bâtiments des Cordeliers de Paris étaient avant tout fonctionnels, et le seul impératif qui eût présidé à leur construction était le souci de loger dans un espace restreint le plus grand nombre de frères.</p>
-        <div>
+        <div xml:id="r915907">
           <pb source="https://nakala.fr/10.34847/nkl.27a27y5k#4236b79df6c41e48dbbf74c543350161e242ad08" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.27a27y5k/4236b79df6c41e48dbbf74c543350161e242ad08/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre premier
            <lb/>formation de l’enclos des Cordeliers</head>
@@ -156,7 +154,7 @@
           <p>La fortification de Paris par Étienne Marcel, en 1358, porta gravement préjudice au couvent. Tous les bâtiments élevés près de la muraille, tant dans la ville qu’au dehors, furent rasés et la brèche ouverte dans le mur fut bouchée ; néanmoins, les Cordeliers conservèrent jusqu’à 1513 une pièce de terre au-delà des fossés. Dès 1366, pour les dédommager, Charles V leur avait concédé deux maisons acquises de l’abbé de Molesmes, leur dormant aussi un débouché sur la rue de la Harpe (actuel boulevard Saint-Michel).</p>
           <p>Au <num>xvii<hi rend="sup">e</hi></num> siècle, ils tentèrent de retrouver leurs anciennes possessions lorsqu’on abattit les remparts, mais s’opposèrent en cela au prince de Condé, dont l’hôtel faisait face à leur couvent. Après d’interminables procès, le prince leur vendit la parcelle de terre comprise entre la muraille et la rue des Fossés. L’enclos des Cordeliers ne subit plus, dès lors, de grandes modifications. Les limites approximatives étaient les actuelles rues de l’École-de-Médecine, Antoine-Dubois et Monsieur-le-Prince, ainsi que la fraction correspondante de l’actuel boulevard Saint-Michel, dont ils étaient toutefois presque entièrement séparés par les possessions du collège d’Harcourt et de l’église Saint-Côme-et-Saint-Damien.</p>
         </div>
-        <div>
+        <div xml:id="r915936">
           <head rend="uc">Chapitre II
            <lb/>L’église et la sacristie</head>
           <p>L’église fut construite grâce aux libéralités de saint Louis. Commencée entre 1240 et 1250, elle fut consacrée le 6 juin 1262 sous le vocable de Sainte-Madeleine. Son attribution à Eudes de Montreuil semble peu vraisemblable.</p>
@@ -167,7 +165,7 @@
           <p>De très bonne heure, des chapelles avaient été aménagées aux dépens des collatéraux, à la demande de quelques grandes familles désireuses d’y faire leurs dévotions et d’y recevoir une sépulture, comme les Briçonnet, les Longueil et la famille de Bullion-Lamoignon. En 1672, fut entreprise la construction d’une chapelle du Tiers-ordre, au bas de l’église, du côté sud, aux frais de la confrérie et notamment de sa supérieure, la reine Marie-Thérèse.</p>
           <p>La sacristie, également bâtie au <num>xiii<hi rend="sup">e</hi></num> siècle, était une sorte de chapelle annexe, séparée par un passage de l’église, dont elle semblait être une réduction. C’était un édifice voûté, à deux étages. Les dispositions générales reproduisaient ainsi de façon frappante le plan de la Sainte-Chapelle du Palais construite à la même époque.</p>
         </div>
-        <div>
+        <div xml:id="r915980">
           <head rend="uc">Chapitre III
            <lb/>Les autres bâtiments conventuels</head>
           <p>Selon toute vraisemblance, les Cordeliers n’auraient pas construit de cloître dans les premières années, mais affecté à cet usage la vaste cour située à l’est du chevet. En 1269, lorsque saint Louis les eut gratifiés de la parcelle de terre comprise entre leur église et le mur de la ville, ils purent édifier un cloître de fortune sur le flanc de leur sanctuaire, et le conservèrent jusqu’au <num>xvii<hi rend="sup">e</hi></num> siècle.</p>
@@ -175,7 +173,7 @@
           <p>Perpendiculairement à la sacristie, à laquelle elle se rattachait, s’élevait une construction datant comme elle du <num>xiii<hi rend="sup">e</hi></num> siècle. Elle abritait la salle du <pb source="https://nakala.fr/10.34847/nkl.27a27y5k#f6c1346d615c455861481cba51a8437621c1c292" n="24" facs="https://api.nakala.fr/iiif/10.34847/nkl.27a27y5k/f6c1346d615c455861481cba51a8437621c1c292/full/full/0/default.jpg"/>chapitre, qui s’ouvrait sur le cloître par cinq arcades gothiques, et l’ancienne école de théologie, où se tinrent les assemblées du Club des Cordeliers. Ce bâtiment demeura intact même lors de la reconstruction du cloître appuyé contre lui.</p>
           <p>Quant aux autres bâtiments conventuels, dortoirs, écoles et même la double infirmerie avec sa chapelle construite en 1341 par Jeanne d’Évreux, veuve de Charles IV, ils semblent avoir été, à juste titre, ignorés des historiens. Uniquement utilitaires, ils étaient de la plus grande simplicité et dénués de tout intérêt artistique.</p>
         </div>
-        <div>
+        <div xml:id="r916022">
           <head rend="uc">Chapitre IV
            <lb/>L’utilisation postérieure des bâtiments et leur disparition</head>
           <p>Le couvent des Cordeliers devenu bien national, une loi du 14 frimaire an III affecta ses bâtiments à l’École de Médecine située de l’autre côté de la rue des Cordeliers et depuis toujours trop à l’étroit. Certains bâtiments purent être convertis à un nouvel usage, les autres disparurent.</p>
@@ -183,7 +181,7 @@
           <p>On conserva le cloître, devenu hôpital de l’Observance. De 1834 à 1836, Alphonse de Gisors, architecte de la Faculté de Médecine, y effectua d’importants travaux, qui permirent de le conserver jusqu’à 1877. Mais, à cette date, sa vétusté le condamna et il disparut dans les travaux d’agrandissement de la faculté.</p>
           <p>La sacristie, ainsi que le bâtiment du chapitre, n’existaient plus dès 1834, comme tous les bâtiments conventuels, inesthétiques et peu commodes, que l’on avait détruits progressivement, mais complètement.</p>
         </div>
-        <div>
+        <div xml:id="r916043">
           <head rend="uc">Chapitre V
            <lb/>Le réfectoire</head>
           <p>Le réfectoire des Cordeliers est aujourd’hui le seul souvenir matériel du Grand Couvent.</p>
@@ -193,11 +191,11 @@
           <p>Après avoir abrité des laboratoires, le musée Dupuytren et la Société de biologie, l’ancien réfectoire est aujourd’hui dans un état pitoyable et sans destination.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r916097">
         <head rend="uc">Pièces justificatives</head>
         <p>Documents inédits conservés aux Archives nationales.</p>
       </div>
-      <div>
+      <div xml:id="r916107">
         <head rend="uc">Pièces annexes</head>
         <p>Liste des personnes inhumées aux Cordeliers. Album de photographies.</p>
         <pb source="https://nakala.fr/10.34847/nkl.27a27y5k#3b02bb2a51e13a33185c93e337d121cbea4788c2" n="26" facs="https://api.nakala.fr/iiif/10.34847/nkl.27a27y5k/3b02bb2a51e13a33185c93e337d121cbea4788c2/full/full/0/default.jpg"/>

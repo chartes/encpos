@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1921_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,86 +56,86 @@
         <surname>de La Monneraye</surname>
         <roleName>Licencié en droit, Licencié ès lettres, Diplômé d’Études Supérieures d’histoire</roleName>
       </byline>
-      <div>
+      <div xml:id="r403020">
         <head rend="uc">Sources et Bibliographie</head>
         <p>Documents manuscrits et imprimés.</p>
       </div>
-      <div>
+      <div xml:id="r403030">
         <head rend="uc">Introduction géographique</head>
         <p>La province du Maine n’a pas d’unité physique. Elle est partagée en deux grandes régions naturelles, le Haut-Maine, pays relativement fertile, à l’Est, et le Bas-Maine, aux cultures pauvres, à l’Ouest. Le régime seigneurial, essentiellement rural, se trouve influencé et diversifié par l’état de l’agriculture. La Coutume, dans le cadre provincial, et l’action immédiate du pouvoir central sont les éléments d’unification du régime.</p>
       </div>
-      <div>
+      <div xml:id="r403040">
         <head rend="uc">Première partie
          <lb/>Les bases de l’exploitation seigneuriale</head>
-        <div>
+        <div xml:id="r403048">
           <head rend="uc">Chapitre premier
            <lb/>la propriété foncière et le régime seigneurial</head>
           <p>La féodalité n’est plus au <num>xviii<hi rend="sup">e</hi></num> siècle dans le Maine qu’un fait économique et le régime seigneurial, l’exploitation d’un domaine foncier, d’où l’importance spéciale du fief avec son <pb source="https://nakala.fr/10.34847/nkl.ecediki4#3291f85b4ba868d1a8d220b5265e47ba9190639b" n="62" facs="https://api.nakala.fr/iiif/10.34847/nkl.ecediki4/3291f85b4ba868d1a8d220b5265e47ba9190639b/full/full/0/default.jpg"/>domaine (métairies et moulins affermés ; bois, landes, étangs directement exploités) et sa mouvance (composée de fiefs, de terres hommagées, de censives, rarement de francs-alleux) sur laquelle sont perçus l’ensemble des droits féodaux. Mouvance et domaine ont une étendue et une composition essentiellement variables. Les revenus du domaine l’emportent de plus en plus sur ceux de la mouvance. Il existe au Maine un certain nombre de seigneuries importantes et la grande propriété semble prédominer. Nobles, ecclésiastiques et, depuis quelque temps, bourgeois, autour des villes commerçantes du Mans et de Laval se partagent la majorité des terres. La noblesse mancelle, peu nombreuse, jouit d’une situation pécuniaire relativement bonne.</p>
         </div>
-        <div>
+        <div xml:id="r403071">
           <head rend="uc">Chapitre II
            <lb/>Les justices et l’administration seigneuriales</head>
           <p><hi rend="i">Justice.</hi> – Union du fief et de la justice dans le Maine. La compétence, variable d’ailleurs, des tribunaux seigneuriaux diminue de plus en plus par suite des empiétements des justices royales. Malgré leur décadence profonde, les justices seigneuriales se maintiennent encore nombreuses. Elles fonctionnent d’une manière très défectueuse : mauvais recrutement des officiers de justice, multiplicité des degrés de juridiction, enchevêtrement des ressorts, nombreux abus.</p>
           <p><hi rend="i">Administration</hi>. – L’administration et la justice se pénètrent. Le même personnel tient les <hi rend="i">assises</hi> du fief et gère le domaine du seigneur. Les nobles, en effet, résident peu, mettent en régie ou afferment leurs terres. Leurs agents usent de procédés parfois arbitraires.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r403097">
         <head rend="uc">Deuxième partie
          <lb/>Les droits et les redevances</head>
-        <div>
+        <div xml:id="r403105">
           <head rend="uc">Chapitre premier
            <lb/>les reconnaissances féodales</head>
           <p>La procédure de la foi et hommage est un peu moins solennelle qu’autrefois. Importance particulière, pour le maintien <pb source="https://nakala.fr/10.34847/nkl.ecediki4#625959e37087ef0fedac9ce42332d52a4e2e5fb5" n="63" facs="https://api.nakala.fr/iiif/10.34847/nkl.ecediki4/625959e37087ef0fedac9ce42332d52a4e2e5fb5/full/full/0/default.jpg"/>du régime, de l’aveu et dénombrement dû par les terres nobles et de la déclaration à la charge des censives une fois dans la vie du propriétaire. Les frais de ces divers actes, normalement exigés, ne paraissent pas grever beaucoup le budget des paysans.</p>
         </div>
-        <div>
+        <div xml:id="r403122">
           <head rend="uc">Chapitre II
            <lb/>Les rentes seigneuriales</head>
           <p>Les terres nobles doivent des services la plupart du temps très légers. Les cens, que paient la majorité des tenures roturières, sont fréquemment « récognitifs ». Les rentes en nature, très communes, pèsent lourdement sur les propriétés paysannes, principalement dans le Bas-Maine. On rencontre des champarts, mais à l’état sporadique. Les dîmes inféodées paraissent peu nombreuses.</p>
         </div>
-        <div>
+        <div xml:id="r403134">
           <head rend="uc">Chapitre III
            <lb/>Perception des rentes</head>
           <p>Cens rendable et amendable sauf exception, solidaire avec une subdivision en <hi rend="i">frèches,</hi> qui dans la plupart des mouvances constituent les unités de perception. Il en résulte maints inconvénients. Les agents seigneuriaux laissent arrérager les rentes, fraudent sur les mesures, d’où l’augmentation souvent considérable du poids des rentes, qui, d’autre part, ne semblent pas avoir subi de variation depuis des siècles.</p>
         </div>
-        <div>
+        <div xml:id="r403150">
           <head rend="uc">Chapitre IV
            <lb/>Autres devoirs et redevances</head>
           <p>Ni la taille ou aide féodale, ni le droit de garde, n’ont au <num>xviii<hi rend="sup">e</hi></num> siècle de réalité sauf dans les textes. A part quelques cantons, les corvées ne paraissent pas bien lourdes. Toute trace de servitude personnelle a disparu.</p>
         </div>
-        <div>
+        <div xml:id="r403168">
           <head rend="uc">Chapitre V
            <lb/>Les droits de mutation</head>
           <p>On perçoit les lods et ventes à l’occasion de très nombreux <pb source="https://nakala.fr/10.34847/nkl.ecediki4#69c6361ccfa99a55b415c24a530a8a491042f7be" n="64" facs="https://api.nakala.fr/iiif/10.34847/nkl.ecediki4/69c6361ccfa99a55b415c24a530a8a491042f7be/full/full/0/default.jpg"/>contrats. Le taux en est du douzième d’après la Coutume, mais dans l’usage il est du dix-huitième, ou même moins, par suite de- remises. Le droit de ventes et issues confisque en principe le sixième, en fait le neuvième du bien aliéné dans d’assez nombreuses seigneuries. Le rachat, beaucoup moins souvent réclamé, n’affecte que les terres nobles. Le seigneur tire un sérieux revenu des droits de mutation surtout des lods et ventes. Le retrait féodal, doublé du droit de cession encore en usage, provoque quelques plaintes.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r403186">
         <head rend="uc">Troisième partie
          <lb/>Les Monopoles</head>
-        <div>
+        <div xml:id="r403194">
           <head rend="uc">Chapitre premier
            <lb/>les banalités</head>
           <p>Elles sont nombreuses. La plus générale, comme la plus lourde, demeure la banalité du moulin. Tout bas justicier peut avoir son moulin. Le seigneur afferme celui-ci assez cher et ses sujets sont obligés de s’en servir en abandonnant au meunier pour paiement un seizième du grain moulu. Les moulins rapportent peu. Les meuniers abusent de leur monopole et leurs fraudes et exactions ne se comptent plus. Dans le Bas-Maine, une corvée spéciale, dite traînage de meules, vient encore aggraver la charge des sujets. Moulins à drap, fours, pressoirs banaux existent aussi, quoique plus rares. Le droit de banvin tend à disparaître. L’opinion mancelle se plaint unanimement des banalités.</p>
         </div>
-        <div>
+        <div xml:id="r403206">
           <head rend="uc">Chapitre II
            <lb/>Les péages</head>
           <p>Les édits réglementent minutieusement ces droits que possèdent seules quelques seigneuries importantes. On les afferme et ils sont perçus suivant un tarif qui n’a pas varié depuis des siècles. Leur revenu, plutôt faible sauf pour les péages par eau, n’augmente pas. Les frais élevés de perception, ceux <pb source="https://nakala.fr/10.34847/nkl.ecediki4#cb65052f02d59fd53cace5b5e3a213de4ad42b64" n="65" facs="https://api.nakala.fr/iiif/10.34847/nkl.ecediki4/cb65052f02d59fd53cace5b5e3a213de4ad42b64/full/full/0/default.jpg"/>d’entretien des voies de communication, obligent de nombreux seigneurs à l’abandon de leurs péages. De son côté, le pouvoir central en a supprimé beaucoup pendant tout le <num>xviii<hi rend="sup">e</hi></num> siècle. Il reste à peine dix-huit péages et autant de bacs seigneuriaux dans le Maine sous Louis XVI.</p>
         </div>
-        <div>
+        <div xml:id="r403229">
           <head rend="uc">Chapitre III
            <lb/>Les droits de foires et de marchés</head>
           <p>Les seigneurs font la police, entretiennent les installations des marchés et procurent aux marchands les mesures, qui varient à l’infini. En échange de ces services, ils perçoivent des droits divers, dont le plus important est le droit de minage sur la vente du blé. Les droits de foires et de marchés entraînent beaucoup d’abus.</p>
         </div>
-        <div>
+        <div xml:id="r403241">
           <head rend="uc">Chapitre IV
            <lb/>Chasse, pêche et colombier</head>
           <p>La chasse reste rigoureusement interdite aux roturiers. Ce qui n’empêche pas d’ailleurs le braconnage, sévèrement réprimé. Ce monopole gêne assez gravement l’agriculture. De même celui de colombier ou de fuie.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r403254">
         <head rend="uc">Quatrième partie
          <lb/>La portée du régime seigneurial</head>
-        <div>
+        <div xml:id="r403262">
           <head rend="uc">Chapitre premier
            <lb/>poids du régime seigneurial. S’est-il aggravé à la fin
            <lb/>de l’ancien régime ?</head>
@@ -145,7 +143,7 @@
           <pb source="https://nakala.fr/10.34847/nkl.ecediki4#c0ccc1115fd261babac98fef4fb5b4481775eea3" n="66" facs="https://api.nakala.fr/iiif/10.34847/nkl.ecediki4/c0ccc1115fd261babac98fef4fb5b4481775eea3/full/full/0/default.jpg"/>
           <p>II. La réaction seigneuriale a été marquée dans le Haut-Maine à la fin de l’Ancien Régime par la rénovation générale des terriers, laquelle a remis en usage des pratiques désuètes et rétabli d’anciens droits. Sauf sur ce point, on ne constate pas de recrudescence du régime féodal, qui par endroits s’atténuerait même à cette époque.</p>
         </div>
-        <div>
+        <div xml:id="r403284">
           <head rend="uc">Chapitre II
            <lb/>Les paysans et les seigneurs</head>
           <p>La rude noblesse mancelle s’est policée et les petits tyrans sont fort rares au <num>xviii<hi rend="sup">e</hi></num> siècle. La bonhommie et la bonté marquent bien souvent les rapports du noble et du paysan.</p>

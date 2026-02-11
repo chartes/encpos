@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_01" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1974_01" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,19 +55,19 @@
         <forename>Christine</forename>
         <surname>Bébon</surname>
       </byline>
-      <div>
+      <div xml:id="r978718">
         <head rend="uc">Sources</head>
         <p>Les Archives départementales de la Manche, détruites en 1944, ne nous ont offert que les registres du tabellionage de Torigni : nous y avons fait trois sondages de dix ans, répartis entre 1715 et 1789. Nous avons, en outre, consulté les pièces du Cabinet des titres de la Bibliothèque nationale concernant les différentes familles nobles de la sergenterie. Des dépouillements effectués aux Archives du palais princier de Monaco (série J), aux Archives départementales du Calvados (série C) et aux Archives nationales (séries M et T) ont complété notre documentation.</p>
       </div>
-      <div>
+      <div xml:id="r978728">
         <head rend="uc">Première partie
          <lb/>Le cadre général</head>
-        <div>
+        <div xml:id="r978736">
           <head rend="uc">Chapitre premier
            <lb/>la sergenterie de Torigni</head>
           <p>La sergenterie de Torigni s’étend sur cinquante-deux paroisses formant l’extrémité septentrionale du Bocage normand. C’est une région accidentée, jouissant d’un climat peu clément, qui reste isolée après l’abandon des projets <pb source="https://nakala.fr/10.34847/nkl.9b505495#ec2fd908771178e16aeb641ca7794d8d3f313b92" n="12" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b505495/ec2fd908771178e16aeb641ca7794d8d3f313b92/full/full/0/default.jpg"/>d’aménagement de la Vire et d’amélioration du réseau routier. Le pays est avant tout agricole en dépit des conditions naturelles défavorables : il ne produit que des céréales pauvres, en quantité insuffisante, du lin, du chanvre, des bestiaux gras, des volailles, des beurres et du cidre d’assez mauvaise qualité. Les activités artisanales sont peu importantes et le commerce local se réduit aux marchés de Torigni, Caumont et Cormolain.</p>
         </div>
-        <div>
+        <div xml:id="r978753">
           <head rend="uc">Chapitre II
            <lb/>La ville de Torigni</head>
           <p>Construit sur un affluent de droite de la Vire, à douze kilomètres au sud-est de Saint-Lô, Torigni a connu une relative prospérité au Moyen Age et un certain renouveau sous Colbert. Au <num>xviii<hi rend="sup">e</hi></num> siècle, c’est un bourg de 1 500 habitants, dépourvu de toute institution municipale, qui n’a pu se relever des ravages causés par les deux incendies de 1704 et 1710.</p>
@@ -78,14 +76,14 @@
           <p>On y trouve également une abbaye de Bernardins, un prieuré de Bernardines, un hôpital fondé par Jacques de Matignon, des petites écoles pour l’instruction des filles et des garçons qui en font un centre culturel, religieux et charitable.</p>
           <p>Toutefois Torigni subsiste surtout grâce à son rôle administratif et judiciaire et à la présence de la « cour » des Matignon-Grimaldi.</p>
         </div>
-        <div>
+        <div xml:id="r978783">
           <head rend="uc">Chapitre III
            <lb/>Le cadre institutionnel</head>
           <p>La sergenterie chevauche les deux élections de Saint-Lô et de Bayeux.</p>
           <p>Le bourg de Torigni, compris dans l’élection de Saint-Lô, est le siège d’un bailliage secondaire, d’une vicomté (jusqu’en 1749) d’une sergenterie royale fieffée et de deux hautes justices attachées au comté. Toutes ces juridictions entraînent la présence de nombreux officiers et de tout un personnel subalterne (huissiers, notaires, sergents, greffiers, etc.).</p>
           <p>La juxtaposition des deux justices, royale et seigneuriale, donne lieu à de multiples querelles de compétence et de préséance.</p>
         </div>
-        <div>
+        <div xml:id="r978801">
           <pb source="https://nakala.fr/10.34847/nkl.9b505495#0802b35f65750e809507367c9c21b0bec6bf335c" n="13" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b505495/0802b35f65750e809507367c9c21b0bec6bf335c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>La cour des Matignon-Grimaldi</head>
@@ -102,11 +100,11 @@
           <p>La révolution provoque la disparition de la cour des Matignon-Grimaldi et le déclin de Torigni.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r978859">
         <pb source="https://nakala.fr/10.34847/nkl.9b505495#4fcf02d6b19b7c563368aaaecd91f801d6b54941" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b505495/4fcf02d6b19b7c563368aaaecd91f801d6b54941/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>La noblesse de la sergenterie</head>
-        <div>
+        <div xml:id="r978872">
           <head rend="uc">Chapitre premier
            <lb/>la population noble de la sergenterie</head>
           <p>La sergenterie de Torigni compte une abondante population noble qui vit sur les nombreux fiefs du comté ou gravite autour de la cour des Matignon et des juridictions du lieu.</p>
@@ -115,7 +113,7 @@
           <p>L’anoblissement par charge, trop onéreux, reste inconnu dans la sergenterie de Torigni, mais des petits officiers de justice ont acheté les lettres d’anoblissement mises en vente par Louis XIV.</p>
           <p>Les usurpateurs condamnés par Chamillart figurent encore parmi la noblesse, qu’ils aient persisté dans leur usurpation, obtenu révision du jugement ou acquis une lettre de noblesse. Après la mort de Louis XIV, la vente des lettres d’anoblissement tend à disparaître : l’usurpation devient, pour les officiers de bailliage, le seul moyen de s’agréger au second ordre. Toutefois, si aucun contrôle n’est plus effectué par les autorités royales, les nobles eux-mêmes, jaloux de leurs privilèges, exercent une certaine surveillance.</p>
         </div>
-        <div>
+        <div xml:id="r978908">
           <head rend="uc">Chapitre II
            <lb/>Les activités des nobles</head>
           <p><hi rend="i">Les nobles et la vie militaire.</hi> – Le service militaire est à la fois un privilège et un devoir pour la noblesse.</p>
@@ -131,7 +129,7 @@
           <p>Au retour de l’armée, ils retrouvent souvent leurs terres à l’abandon et appliquent toute leur ardeur à les mettre en culture. Faute de capitaux, ils recourent aux divers régimes d’exploitation (le bail en fieffe perpétuelle, le bail à ferme temporaire, le métayage) et pratiquent même le faire-valoir direct.</p>
           <p>S’ils veillent à faire respecter leurs droits de propriétaire, ils se soucient peu de progrès agronomiques.</p>
         </div>
-        <div>
+        <div xml:id="r978982">
           <head rend="uc">Chapitre III
            <lb/>Les nobles et la vie familiale</head>
           <p><hi rend="i">Les mariages.</hi> – Les unions entre nobles sont les plus fréquentes. Les familles nobles de la sergenterie sont toutes apparentées, tant les alliances conclues entre elles sont courantes. Les plus riches épousent des nobles originaires des élections du Cotentin ou de la généralité de Caen.</p>
@@ -145,7 +143,7 @@
           <p>Les fils sont les véritables héritiers et l’aîné d’entre eux jouit d’une prérogative certaine : il a la saisine de tous les biens de son père jusqu’au partage et dispose d’un droit de préciput.</p>
           <p>Les successions donnent souvent lieu à de nombreuses contestations, mais on essaie de s’entendre à l’amiable pour éviter des frais supplémentaires.</p>
         </div>
-        <div>
+        <div xml:id="r979029">
           <head rend="uc">Chapitre IV
            <lb/>La fortune des nobles</head>
           <p>Un état des gentilshommes de l’élection de Bayeux dressé en 1639-1640 révèle que la quasi-totalité des nobles de la sergenterie de Torigni était pauvre. Au <num>xviii<hi rend="sup">e</hi></num> siècle, leur état de fortune reste aussi misérable, comme l’attestent le montant des dots, les cotes de capitation et de vingtièmes ainsi que les demandes de diminution d’impôts ou de secours divers qu’ils adressent aux intendants.</p>
@@ -155,7 +153,7 @@
           <p>Les rentes de différentes natures tiennent également une place dans la fortune des gentilshommes. En raison de la pénurie de numéraire, chacun recourt aux emprunts et aux rentes pour se procurer les capitaux nécessaires à ses diverses transactions. La majorité des actes passés devant notaire par les gentilshommes concerne la création, vente ou extinction d’une rente. Les nobles perçoivent des rentes foncières et constituées, mais ils sont aussi débiteurs d’un certain nombre de rentes qu’ils ont dû constituer pour acquitter des dots ou légitimes, acheter un immeuble. Ils éprouvent de grandes difficultés à en effectuer le remboursement, et dans les dernières années de l’Ancien Régime, une nouvelle forme de rente apparaît : les rentes viagères qui s’éteignent d’elles-mêmes à la mort du bénéficiaire.</p>
           <p>Les offices et la propriété urbaine n’apportent que des revenus négligeables.</p>
         </div>
-        <div>
+        <div xml:id="r979070">
           <head rend="uc">Chapitre V
            <lb/>Les nobles et la vie domestique</head>
           <p>Les nobles de la sergenterie sont des gentilshommes terriens qui résident dans des « châteaux » ou manoirs à la campagne. Comme ils doivent pouvoir vivre en autarcie sur leurs terres, leurs demeures comprennent la maison d’habitation proprement dite et des bâtiments annexes dispersés dans une cour et entourés de jardins potager et fruitier. Les plus aisés occupent des gentilhommières conçues sur le même modèle : leurs dimensions sont plus importantes, leurs jardins prennent l’allure de véritables parcs.</p>
@@ -166,7 +164,7 @@
           <p>Le linge de maison se limite au strict nécessaire.</p>
           <p>La domesticité est réduite. Maîtres et serviteurs entretiennent de bons rapports.</p>
         </div>
-        <div>
+        <div xml:id="r979100">
           <pb source="https://nakala.fr/10.34847/nkl.9b505495#241f381dd1af2ab9611dfc931ea1dfa522926d21" n="18" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b505495/241f381dd1af2ab9611dfc931ea1dfa522926d21/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre VI
            <lb/>Les préoccupations quotidiennes des nobles</head>
@@ -180,12 +178,12 @@
           <p><hi rend="i">L’affirmation du statut nobiliaire.</hi> – Depuis la création de la capitation et des vingtièmes, les privilèges de la noblesse sont principalement honorifiques (droit aux qualifications nobiliaires, aux registres de capitation séparés ; droit de chasse, de garenne). Même au prix de démarches et de procès ruineux, les gentilshommes de la sergenterie entendent faire respecter scrupuleusement ces prérogatives ainsi que celles qui sont liées à la seigneurie (droit de colombier, de patronage).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r979154">
         <pb source="https://nakala.fr/10.34847/nkl.9b505495#1aed7ec85e882fafcd38d4dcd57c382fc8722422" n="19" facs="https://api.nakala.fr/iiif/10.34847/nkl.9b505495/1aed7ec85e882fafcd38d4dcd57c382fc8722422/full/full/0/default.jpg"/>
         <head rend="uc">Conclusion</head>
         <p>La noblesse de la région de Torigni-sur-Vire reste très traditionaliste : son attitude pendant la Révolution le montre bien.</p>
       </div>
-      <div>
+      <div xml:id="r979169">
         <head rend="uc">Appendice</head>
         <p>Notices sur les principales familles de la sergenterie au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
       </div>

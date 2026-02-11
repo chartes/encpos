@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_08" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1927_08" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -69,12 +67,12 @@
         <head rend="uc">Bibliographie</head>
         <p/>
       </div>
-      <div>
+      <div xml:id="r461475">
         <head rend="uc">Première partie
          <lb/>Histoire chronologique de l’abbaye
          <lb/>de Saint-Cybard
          <lb/>(vi<hi rend="sup">e</hi> siècle-1162)</head>
-        <div>
+        <div xml:id="r461491">
           <head rend="uc">Chapitre premier
            <lb/>l’abbaye de Saint-Cybard avant la réforme de 942</head>
           <p>Une controverse entre A. Esmein et M. de La Martinière a précisé ce que l’on sait sur Saint-Cybard : reclus à Angoulême en 537 ; il-affranchit le 31 mars 558 cent <pb source="https://nakala.fr/10.34847/nkl.d014ybs7#e05edcb898c6622f1885763ccd61dd06cf931d52" n="68" facs="https://api.nakala.fr/iiif/10.34847/nkl.d014ybs7/e05edcb898c6622f1885763ccd61dd06cf931d52/full/full/0/default.jpg"/> soixante-quinze esclaves ; meurt le I<hi rend="sup">er</hi> juillet (?) 581.</p>
@@ -84,7 +82,7 @@
           <p>3) 828 (?)-847. Les moines réapparaissent : les abbés Hilbod (825) et Arnoul (839) : destruction de l’abbaye par les Normands (29 mars 847) ;</p>
           <p>4) A la suite des invasions normandes, les chanoines rentrent au monastère. Deux évêques d’Angoulême abbés de Saint-Cybard : Launus, fait confirmer en 852 par Charles le Chauve les possessions du monastère ; Gombaud (897-941) dirige simultanément les chanoines du chapitre cathédral Saint-Pierre et ceux de Saint-Cybard. Islon, peut-être son délégué (918). – Les abbés Martin et Hélie, avant 942.</p>
         </div>
-        <div>
+        <div xml:id="r461531">
           <head rend="uc">Chapitre II
            <lb/>Les bénédictins a Saint-Cybard de 942 à la fin
            <lb/>du <num>xi<hi rend="sup">e</hi></num> siècle</head>
@@ -94,18 +92,18 @@
           <p>L’abbé Richard : sa mort en Terre Sainte (1027, 5 janvier). Amalfred, son successeur désigné, consacré en 1027. L’abbé Geoffroy (1041).</p>
           <p>Donations des comtes d’Angoulême. Seguin I, en 1059 et non pas en 1159, ainsi que l’a cru Papire Masson ; assiste en 1077 à la fondation de l’abbaye de Saint-Etienne de Vaux.</p>
         </div>
-        <div>
+        <div xml:id="r461568">
           <head rend="uc">Chapitre III
            <lb/>Rapports des abbayes de Saint-Cybard
            <lb/>et de Saint-Jean-d’Angély, à la fin du <num>xi<hi rend="sup">e</hi></num> siècle</head>
           <p>La nécessité d’une restauration de Saint-Cybard amène l’évêque Adémar et le comte Foulques à la donation de l’abbaye à l’abbaye de Saint-Jean-d’Angély, entre 1077 et 1087. Résistance des moines de Saint-Cybard excommuniés en 1095 par Urbain II. Soumission à Ansculfus, abbé de Saint-Jean-d’Angély. Hugues nommé abbé de Saint-Cybard vers 1098.</p>
         </div>
-        <div>
+        <div xml:id="r461588">
           <head rend="uc">Chapitre IV
            <lb/>L’abbé Hugues (1098-1128)</head>
           <p>Hugues reconstitue l’abbaye ; forme le projet d’ac<pb source="https://nakala.fr/10.34847/nkl.d014ybs7#c937803b5e711c51dae1bfc157aeb677cc967b3e" n="70" facs="https://api.nakala.fr/iiif/10.34847/nkl.d014ybs7/c937803b5e711c51dae1bfc157aeb677cc967b3e/full/full/0/default.jpg"/>cord avec Girard II, évêque d’Angoulême et légat d’Aquitaine, de désintéresser Saint-Jean-d’Angély par le don de l’église d’Haimps. Bons rapports avec les comtes d’Angoulême, les évêques de Saintes et de Périgueux. Comment Hugues obtient d’eux donations et confirmations : il utilise un passage des <hi rend="i">Virtutes sancti Eparchii ;</hi> compose ou remanie un chapitre apocryphe de la <hi rend="i">Vita sancti Eparchii,</hi> inséré depuis dans le cartulaire de l’abbaye ; remanie le diplôme de Charles le Chauve de 852. Dernière mention de Hugues en 1128 et non pas en 1151, comme le croit dom Estiennot.</p>
         </div>
-        <div>
+        <div xml:id="r461613">
           <head rend="uc">Chapitre V
            <lb/>Les successeurs de l’abbé Hugues et la séparation
            <lb/>d’avec Saint-Jean-d’Angély (1128-1162)</head>
@@ -113,25 +111,25 @@
           <p>Geoffroi (1153-avant 1159) est-il le moine Geoffroi de Saint-André ? Seguin H, différent de Seguin I, reçoit en 1159 une bulle du pape Adrien IV, confirmant les possessions de l’abbaye. Géraud (après 1159-1171) préside à la séparation de Saint-Cybard d’avec Saint-Jean d’Angély, moyennant cession à cette abbaye de l’église d’Haimps. Accord constant de la politique des évêques d’Angoulême et des abbés de Saint-Cybard dans l’affaire de Saint-Jean d’Angély. Géraud entreprend la rédaction du cartulaire de l’abbaye, peut-être achevée sous son successeur Ramnoul (1171-1218).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r461631">
         <pb source="https://nakala.fr/10.34847/nkl.d014ybs7#4394932661360783fec4692da82f9339d2c93101" n="71" facs="https://api.nakala.fr/iiif/10.34847/nkl.d014ybs7/4394932661360783fec4692da82f9339d2c93101/full/full/0/default.jpg"/>
         <head rend="uc">Deuxième partie
          <lb/>Les archives anciennes et le cartulaire
          <lb/>de Saint-Cybard</head>
-        <div>
+        <div xml:id="r461646">
           <head rend="uc">Chapitre premier
            <lb/>les archives anciennes</head>
           <p>L’abbaye n’a pas de chartrier propre avant la fin du <num>x<hi rend="sup">e</hi></num> siècle. Jusque là, ses chartes sont conservées dans le trésor de la cathédrale d’Angoulême. Les deux actes les plus précieux sont transcrits au cartulaire de l’Église d’Angoulême. – Travail d’Adémar de Chabannes aux archives de Saint-Cybard : analyses consciencieuses, malgré des erreurs chronologiques pour l’histoire générale. Aucun des originaux copiés par lui ne nous est parvenu. Un petit nombre sont transcrits dans lé cartulaire. Emprunts faits par Adémar pour sa chronique aux archivés de Saint-Cybard. Emprunts faits à la chronique d’Adémar par le rédacteur du cartulaire.</p>
           <p>Adémar est sûrement l’auteur du testament de saint Cybard donné par le cartulaire comme tiré de la <hi rend="i">Vita Sancti Eparchii.</hi></p>
           <p>Examen critique du diplôme de Charles le Chauve pour Saint-Cybard (6 septembre 852).</p>
         </div>
-        <div>
+        <div xml:id="r461673">
           <head rend="uc">Chapitre II
            <lb/>Le cartulaire de Saint-Cybard</head>
           <p>Les chartes du cartulaire se succèdent dans un ordre hiérarchique, puis géographique, les plus anciennes <pb source="https://nakala.fr/10.34847/nkl.d014ybs7#38d8ed1dd640dd08f9e3359616ddc229899ddfdb" n="72" facs="https://api.nakala.fr/iiif/10.34847/nkl.d014ybs7/38d8ed1dd640dd08f9e3359616ddc229899ddfdb/full/full/0/default.jpg"/> chartes étant rejetées à la fin.</p>
           <p>Ecriture ; foliotation au <num>xvi<hi rend="sup">e</hi></num> et au <num>xviii<hi rend="sup">e</hi></num> siècle ; numérotation des pièces au <num>xviii<hi rend="sup">e</hi></num> siècle.</p>
         </div>
-        <div>
+        <div xml:id="r461711">
           <head rend="uc">Chapitre III
            <lb/>Conservation des archives anciennes
            <lb/>jusqu’a l’époque moderne</head>
@@ -139,7 +137,7 @@
           <p>L’inventaire de Berthé en 4 vol. in-fol. (1784-87) n’est pas un travail historique. – Expéditions authentiques délivrées par Berthé. – Inventaire Faunié-Duplessis. – Répertoire numérique actuel.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r461765">
         <head rend="uc">Appendice</head>
         <p>Les chartes du cartulaire : première rédaction.</p>
         <p>Table alphabétique des noms de personnes et de lieux contenus dans l’appendice.</p>

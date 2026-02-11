@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1970_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -55,7 +53,7 @@
         <forename>Anne-Claire</forename>
         <surname>Jolliot-Brenon</surname>
       </byline>
-      <div>
+      <div xml:id="r922644">
         <head rend="uc">Introduction
          <lb/>les vaudois du Piémont</head>
         <p>Le mouvement vaudois, qui avait connu une large expansion en Europe au <num>xiii<hi rend="sup">e</hi></num> siècle, ne subsistait plus, au <num>xv<hi rend="sup">e</hi></num> siècle, que dans quelques foyers isolés dont le plus important sans doute et le plus durable fut celui des Alpes cottiennes. C’est de cette communauté établie à la limite du Dauphiné et du Piémont que proviennent les Livres des Vaudois qui font l’objet de cette étude ; ils contiennent toute la littérature vaudoise qui soit parvenue jusqu’à nous : une littérature simple, essentiellement religieuse, écrite dans leur langue pour les habitants des villages vaudois.</p>
@@ -67,17 +65,17 @@
         <p>Malgré la série de falsifications que les deux historiographes furent amenés à commettre pour appuyer leur thèse, ces deux ouvrages restent essentiels, car ils sont les premiers à être fondés sur les Livres des Vaudois.</p>
         <p><hi rend="i">But de cette étude.</hi> – Nous nous proposons de tenter une étude d’ensemble de tous les manuscrits vaudois, travail qui n’a jamais été effectué depuis Perrin et Léger. Nous nous efforcerons ensuite de mettre un peu de clarté dans l’énorme et compacte masse des textes que ces livres contiennent.</p>
       </div>
-      <div>
+      <div xml:id="r922775">
         <head rend="uc">Première partie
          <lb/>Les manuscrits vaudois</head>
-        <div>
+        <div xml:id="r922783">
           <head rend="uc">Chapitre premier
            <lb/>généralités</head>
           <p>Les Vaudois du Piémont nous ont laissé une trentaine de manuscrits, dont vingt-quatre se présentent comme des recueils de textes littéraires. Nous n’étudierons pas les recueils de documents, pièces et chartes diverses, rédigés en latin.</p>
           <p>La première description des manuscrits vaudois a été réalisée par Perrin, dans la première partie de son ouvrage ; elle fut reprise et complétée par Léger. Parmi les manuscrits ainsi décrits, nous pouvons reconnaître un grand nombre de ceux qui feront l’objet de notre étude. Plusieurs des manuscrits décrits par Léger ont été perdus ; en revanche, il ignorait certains de ceux dont nous disposons aujourd’hui.</p>
           <p>Les vingt-quatre livres vaudois se répartissent entre sept bibliothèques européennes ; ils n’en forment pas moins un tout, par leur communauté d’origine et l’identité de leur forme.</p>
         </div>
-        <div>
+        <div xml:id="r922801">
           <pb source="https://nakala.fr/10.34847/nkl.05cdz2r9#b30fbf13dd84ea272f547170274ea66a6707b01c" n="101" facs="https://api.nakala.fr/iiif/10.34847/nkl.05cdz2r9/b30fbf13dd84ea272f547170274ea66a6707b01c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Description des manuscrits</head>
@@ -95,7 +93,7 @@
           <p><hi rend="i">Manuscrit de Grenoble.</hi> – Le manuscrit 43 de la Bibliothèque municipale de Grenoble est une Bible vaudoise remontant à la fin du xiv<hi rend="sup">e</hi> ou au début du <num>xv<hi rend="sup">e</hi></num> siècle. Ce manuscrit fut donné en 1771 à la bibliothèque.</p>
           <p><hi rend="i">Manuscrit de Zurich.</hi> – Le manuscrit C 169 de la Bibliothèque centrale de Zurich est une Bible vaudoise du milieu du xvi<hi rend="sup">e</hi> siècle, provenant du Val de Pragela et donnée en 1692 à l’Université de Zurich par le pasteur G. Malanot.</p>
         </div>
-        <div>
+        <div xml:id="r923124">
           <head rend="uc">Chapitre III
            <lb/>Caractères d’ensemble des manuscrits vaudois</head>
           <p><hi rend="i">Caractères externes.</hi> – Les manuscrits vaudois se répartissent en deux groupes selon leur matière subjective.</p>
@@ -108,10 +106,10 @@
           <p><hi rend="i">Conclusion.</hi> – Les manuscrits vaudois peuvent se répartir en trois catégories : les Bibles vaudoises, les recueils de lettres et documents et enfin les recueils de traités et sermons, qui contiennent la littérature vaudoise proprement dite.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r923200">
         <head rend="uc">Deuxième partie
          <lb/>La littérature vaudoise</head>
-        <div>
+        <div xml:id="r923208">
           <head rend="uc">Chapitre premier
            <lb/>les textes</head>
           <p>La littérature vaudoise, d’inspiration assez uniforme, est en elle-même un genre ; il est possible cependant d’y reconnaître trois sortes de textes : les Bibles et les sermons liturgiques ; les traités moraux ou théologiques, en prose et en vers, et enfin les textes non vaudois.</p>
@@ -120,7 +118,7 @@
           <p><hi rend="i">Table des textes bibliques et des sermons liturgiques.</hi> – Les cinq Bibles vaudoises ne contiennent que le Nouveau Testament, avec quelques fragments des livres sapienciaux. Nous avons conservé également trois lectionnaires vaudois, plus ou moins développés. Les sermons commentant des passages de la Bible et les sermons « liturgiques » correspondant à l’épître et à l’évangile de chaque dimanche dépassent le nombre de deux cents.</p>
           <p><hi rend="i">Table des textes non vaudois.</hi> – Une dizaine de pièces sont rédigées en français et en latin, parmi lesquelles certaines sont la traduction de textes vaudois, mais d’autres des poèmes et opuscules très variés.</p>
         </div>
-        <div>
+        <div xml:id="r923241">
           <head rend="uc">Chapitre II
            <lb/>Thèmes et sources</head>
           <p>Les textes littéraires vaudois portent l’empreinte de deux phases successives, dont la seconde est, dogmatiquement, beaucoup plus hétérodoxe que la première. Il est incontestable qu’à son origine le mouvement vaudois ne s’éloignait <pb source="https://nakala.fr/10.34847/nkl.05cdz2r9#85ab7ed487d198656fc1473a49abf91fe0218670" n="104" facs="https://api.nakala.fr/iiif/10.34847/nkl.05cdz2r9/85ab7ed487d198656fc1473a49abf91fe0218670/full/full/0/default.jpg"/>guère des doctrines catholiques. C’est avant tout parce qu’ils s’arrogeaient le droit de prêcher que l’Église rejeta les Vaudois de son sein. La littérature vaudoise porte les traces de cette période, dans bon nombre de traités inspirés, imités ou même traduits d’ouvrages catholiques.</p>
@@ -148,7 +146,7 @@
           <p><hi rend="i">Bible et liturgie vaudoises.</hi> – Les Bibles vaudoises qui, il faut le souligner, ne contiennent que le Nouveau Testament, sont au nombre de cinq, réparties en deux familles : les Bibles de Carpentras et de Dublin d’une part, celles de Cambridge et de Grenoble, de l’autre. La Bible de Zurich, plus tardive, a été copiée sur un original retouché d’après la Bible d’Erasme (1516). Les Bibles vaudoises semblent avoir une origine commune avec les Bibles provençales.</p>
           <p>Trois lectionnaires sont parvenus jusqu’à nous. L’un d’eux reproduit un lectionnaire hussite de Prague ; les deux autres sont dans la tradition des lectionnaires catholiques des <num>xv<hi rend="sup">e</hi></num> et <num>xvi<hi rend="sup">e</hi></num> siècles.</p>
         </div>
-        <div>
+        <div xml:id="r923445">
           <head rend="uc">Chapitre III
            <lb/>Choix de textes vaudois</head>
           <p>Nous avons choisi trois textes de thème eschatologique : les traités <hi rend="i">de li Perilh</hi> et <hi rend="i">de las Tribulations,</hi> et l’ensemble de sermons <hi rend="i">Judici.</hi></p>

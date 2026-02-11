@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_22" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1968_22" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -58,22 +56,22 @@
         <surname>Santoni</surname>
         <roleName>licencié ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r899644">
         <head rend="uc">Première partie
          <lb/>La carrière de Gérard Machet</head>
-        <div>
+        <div xml:id="r899652">
           <head rend="uc">Introduction</head>
           <p>La personnalité de Gérard Machet a été tirée de l’ombre au <num>xvii<hi rend="sup">e</hi></num> siècle, grâce aux travaux de Du Peyrat, des frères de Sainte-Marthe, de Launoy et de Bernier. Au <num>xix<hi rend="sup">e</hi></num> siècle Vallet de Viriville l’a située dans l’histoire de son temps. La connaissance de Machet a profité ensuite des recherches de Denifle et Châtelain dans les archives vaticanes et universitaires. De nos jours, Machet a intéressé les historiens du préhumanisme (Coville, Liebermann, Simone, Cechetti), en raison de ses relations avec Gerson et Clamanges.</p>
           <p>Les registres capitulaires de Notre-Dame de Paris (Archives nationales, LL 110 à 116) et de Saint-Paul de Lyon (Archives du Rhône, 13 G 6) contiennent de nombreux renseignements inédits sur Machet, ainsi que le fonds des suppliques aux Archives du Vatican.</p>
         </div>
-        <div>
+        <div xml:id="r899677">
           <head rend="uc">Chapitre premier
            <lb/>l’origine champenoise</head>
           <p>Gérard Machet naquit peu avant 1380. Son lieu d’origine est encore imprécis : il se situe dans le diocèse de Reims, aux environs de Rethel ou de Signy-l’Abbaye, non loin du village natal du chancelier Gerson.</p>
           <pb source="https://nakala.fr/10.34847/nkl.5b5atmle#0ca4be5e5d9fce191858eca99df987d26236bc97" n="176" facs="https://api.nakala.fr/iiif/10.34847/nkl.5b5atmle/0ca4be5e5d9fce191858eca99df987d26236bc97/full/full/0/default.jpg"/>
           <p>La famille de Machet n’est connue que par ses lettres, très imparfaitement. L’un de ses neveux, Hugues Machet, fut notaire et secrétaire du roi ; un autre s’appelait peut-être Jean de Chapellaines. Machet était en outre apparenté à Jean Gouvion, maître général des monnaies de Languedoc, à Raoul Foucard et à Jean de Maubert, franciscain.</p>
         </div>
-        <div>
+        <div xml:id="r899697">
           <head rend="uc">Chapitre II
            <lb/>La carrière parisienne
            <lb/>(1391-1418)</head>
@@ -85,7 +83,7 @@
           <p>En mai 1416, Machet reçut du duc d’Orléans une somme de cent livres, qui devait être employée au concile de Constance, où se poursuivait le débat <pb source="https://nakala.fr/10.34847/nkl.5b5atmle#2ceea9a2033fc7970016b1bb5a78bbcf00be9834" n="177" facs="https://api.nakala.fr/iiif/10.34847/nkl.5b5atmle/2ceea9a2033fc7970016b1bb5a78bbcf00be9834/full/full/0/default.jpg"/>sur le tyrannicide. Le 7 août, au nom de l’Université, il prononça au Parlement un discours dans lequel il demanda à la cour de condamner la <hi rend="i">Justification du duc de Bourgogne</hi> en dépit d’une sentence contraire rendue à Constance.</p>
           <p>A la fin de 1417, Machet reçut d’importantes responsabilités du gouvernement armagnac. Il fut, en décembre, l’un des quatre commissaires désignés par ordonnance royale pour examiner les requêtes des bannis et déterminer s’ils devaient ou non bénéficier de l’amnistie. Le mois suivant, il fit partie d’une commission chargée de discuter les conditions de la paix avec le duc de Bourgogne. Au mois de février 1418, il intervint auprès du dauphin Charles en faveur d’une délégation de l’Université qui avait été emprisonnée. Enfin, en avril et mai, il fut l’un des membres de l’ambassade royale envoyée aux conférences de la Tombe pour négocier avec des envoyés du duc de Bourgogne. Un traité fut conclu le 26 mai, mais, le 29, les Bourguignons s’emparaient de Paris. Compromis avec les Armagnacs, Machet s’enfuit sans doute rapidement de la capitale.</p>
         </div>
-        <div>
+        <div xml:id="r899755">
           <head rend="uc">Chapitre III
            <lb/>L’exil à Lyon
            <lb/>(1418-1420)</head>
@@ -94,7 +92,7 @@
           <p>Machet restait en relations avec Jean Caille et correspondait avec Pierre d’Ailly. A la fin de 1419, convoqué par le dauphin, il quitta Lyon pendant deux mois et participa alors à une assemblée chargée de préparer une ambassade au pape Martin V. Lorsqu’il revint à Lyon, Gerson s’y était installé ; c’est alors que ce dernier dut composer pour lui plusieurs poèmes destinés à le consoler de la perte de ses amis victimes des massacres de Paris. En janvier 1420, le dauphin, passant à Lyon, accorda à Gerson et à Machet une gratification.</p>
           <p>Pendant près d’un an, Machet vécut en intimité avec Gerson, qui lui adressait d’autres poèmes et devait résider <hi rend="i">à</hi> Saint-Paul. Après le 16 septembre 1420, Machet fut absent du chapitre. Un peu plus tard, on apprenait qu’il était devenu confesseur du dauphin. En 1423 il résigna son canonicat de Saint-Paul en faveur de Gerson ; celui-ci ne l’accepta pas, mais le fit conférer à son secrétaire, Jacques de Cerizy.</p>
         </div>
-        <div>
+        <div xml:id="r899782">
           <pb source="https://nakala.fr/10.34847/nkl.5b5atmle#1ce966b98987c78246d3138c4bb2d4b1f1fec453" n="178" facs="https://api.nakala.fr/iiif/10.34847/nkl.5b5atmle/1ce966b98987c78246d3138c4bb2d4b1f1fec453/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre IV
            <lb/>Le confesseur du roi</head>
@@ -111,7 +109,7 @@
           <p>Les correspondants de Machet étaient dans leur très grande majorité des ecclésiastiques. A Jacques de Cerizy, il donnait des instructions pour ses aumônes personnelles à Lyon. Avec Adam de Cambrai, Jean Cadart, et parfois Jean d’Etampes, Machet trouvait plutôt dans l’activité épistolaire une évasion des difficultés de la cour. Ses amis étaient surtout des gens de son âge, mais il en avait de plus jeunes, tels Antoine Caille et Jean Mortis, conseillers au Parlement et chanoines de la Sainte-Chapelle, dont il favorisait la carrière. Machet n’avait aucun correspondant en Normandie et en Bretagne, ni en Bourgogne ; ceux-ci se rencontrent surtout à Paris, à Lyon et en Dauphiné, à Tours et à Reims. Dans le midi, la presque totalité de sa correspondance était destinée à son évêché de Castres.</p>
           <p>Ces lettres nous permettent de suivre Machet pas à pas de 1440 à 1448. Il exprime sa consternation à l’occasion de la Praguerie, son plaisir de séjourner à Paris en 1441, la tristesse profonde que lui imposa un séjour trop long en Lorraine en 1444-1445. Ses dernières lettres sont écrites très peu de temps avant sa mort, alors qu’il était gravement malade d’un œil. Mais il resta en fonction jusqu’à son dernier jour. Il mourut le 17 juillet 1448 et fut enterré à Saint-Martin de Tours.</p>
         </div>
-        <div>
+        <div xml:id="r899850">
           <head rend="uc">Chapitre V
            <lb/>Le champion du gallicanisme</head>
           <p>Gérard Machet déploya de bonne heure la plus grande activité dans la politique ecclésiastique, puisque nous trouvons dès 1423 une lettre que lui adressait Martin V. Il avait une haute idée des conciles dont il attendait la réforme de l’Église, alors qu’il était très sévère à l’égard de la cour de Rome. Cependant le schisme lui faisait horreur et il désapprouva avec vigueur les solutions extrêmes qu’adopta le concile de Bâle.</p>
@@ -122,7 +120,7 @@
           <p>Noël Valois a attribué à Machet un projet de discours où il est fait mention de la fausse Pragmatique, dite de saint Louis. Cette attribution a été critiquée, elle est cependant extrêmement vraisemblable. Le morceau doit se rapporter aux négociations de Nancy, mais nous ne saurions préciser le rôle de Machet dans l’apparition de cette fausse Pragmatique.</p>
           <p>Machet se rendait compte que la Pragmatique Sanction n’avait pas que des partisans en France. Il rencontrait des résistances jusque dans son diocèse de Castres. Il accorda généralement son appui aux évêques élus canoniquement, Jean Michel à Angers, Guillaume Chartier à Paris. Mais il n’était pas assez détaché du point de vue de la cour, et ne percevait pas l’incohérence profonde de la politique royale en la matière. Lors de l’affaire de l’évêché de Clermont, en 1445, égaré par son amitié pour le candidat royal, il oublia proprement son zèle pour la Pragmatique Sanction.</p>
         </div>
-        <div>
+        <div xml:id="r899885">
           <head rend="uc">Chapitre VI
            <lb/>L’évêque de Castres</head>
           <p>En 1432, Eugène IV pourvut Gérard Machet de l’évêché de Castres. Bien qu’on lui ait proposé l’archevêché de Tours en 1440, Machet conserva son siège jusqu’à sa mort. Une translation à Béziers en 1444 resta sans effet.</p>
@@ -131,7 +129,7 @@
           <p>Le chapitre de Castres vivait sous la règle de saint Benoît, mais l’observance s’y était relâchée. En 1436, Machet demanda au concile de Bâle des pouvoirs spéciaux pour y accomplir une réforme ; en même temps il adressait aux chanoines des lettres sévères. Plus tard, il les félicita de leurs progrès. En 1448, il obtint de Nicolas V des bulles pour la réorganisation du chapitre, mais nous ne savons pas si celle-ci put être menée à bien.</p>
           <p>Aux autres religieux de Castres (dominicains, franciscains, chartreux, clarisses), ainsi qu’à la collégiale voisine de Burlats, Machet adressa souvent de longues exhortations inspirées de saint Paul. Il avait grande confiance dans le prieur des dominicains, Guillaume Boisson, et surtout dans le prieur de la chartreuse, Pierre Mazelier.</p>
         </div>
-        <div>
+        <div xml:id="r899914">
           <head rend="uc">Chapitre VII
            <lb/>Le protecteur de l’université</head>
           <p>Aussitôt après la reprise de Paris par Charles VII, en 1436, nous trouvons une requête de l’Université à Machet. Celui-ci s’efforça constamment de la favoriser, en particulier dans la personne des ambassadeurs qu’elle envoyait souvent auprès du roi. Cela n’empêcha pas l’Université de tomber en 1446 sous la juridiction du Parlement.</p>
@@ -140,7 +138,7 @@
           <p>La sollicitude de Machet se manifestait surtout en faveur des théologiens dont il souhaitait multiplier le nombre, pour faire retrouver à l’Université son ancien prestige et son audience dans toute l’église. Il faisait fréquemment parvenir des subsides aux bacheliers qu’il exhortait à lire les <hi rend="i">Sentences.</hi></p>
           <p>Sa fonction de confesseur du roi faisait de Machet l’administrateur du collège de Navarre ; c’était à lui qu’il revenait de distribuer les bourses. En 1439, il institua proviseur Étienne de Clamanges, puis, en 1443, il établit principal Pierre <pb source="https://nakala.fr/10.34847/nkl.5b5atmle#3a008bcf5cadf3b95ee9bdb74f4094ab0ec2f3ae" n="182" facs="https://api.nakala.fr/iiif/10.34847/nkl.5b5atmle/3a008bcf5cadf3b95ee9bdb74f4094ab0ec2f3ae/full/full/0/default.jpg"/> du Vaucel, en remplacement de Guillaume Evrard, en dépit des nombreuses recommandations qui lui avaient été adressées pour Jean de l’Olive.</p>
         </div>
-        <div>
+        <div xml:id="r899946">
           <head rend="uc">Chapitre VIII
            <lb/>Les lettres de Gérard Machet</head>
           <p>Le manuscrit de la Bibliothèque nationale lat. 8577 est constitué presque entièrement par le recueil de trois cent quatre-vingt-douze lettres de Machet. Il dut être composé pour Machet lui-même, en 1445 et 1446, et continué jusqu’à sa mort. Bien que les sujets abordés fussent souvent prosaïques, ce n’était pas un registre d’affaires, et Machet lui attribuait certainement quelque valeur littéraire.</p>
@@ -150,7 +148,7 @@
           <p>Ce n’est qu’avec des amis de sa génération, tel Adam de Cambrai, que Machet manifeste un goût véritable pour la littérature classique. Mais les préoccupations littéraires sont absentes de ses relations avec l’Université, où il favorisait la théologie traditionnelle. H n’a en rien annoncé, ni provoqué l’essor de l’humanisme que l’Université connaîtra quelque temps après sa mort.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r899979">
         <head rend="uc">Deuxième partie
          <lb/>Édition</head>
         <p>Édition des trois cent quatre-vingt-douze lettres conservées de Gérard Machet.</p>

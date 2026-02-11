@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1951_07" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1951_07" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -57,34 +55,34 @@
         <forename>Jacques</forename>
         <surname>Charpy</surname>
       </byline>
-      <div>
+      <div xml:id="r725835">
         <head rend="uc">Introduction
          <lb/>les chevaux bretons du <num>v<hi rend="sup">e</hi></num> au <num>xvii<hi rend="sup">e</hi></num> siècle</head>
         <p>Dès l’époque carolingienne, le cheval breton était réputé pour sa dextérité et son endurance. Au Moyen-Age, l’élevage se pratiquait surtout dans les monastères, puis les seigneuries, et, plus que de nos jours, dans la partie méridionale de la Bretagne. Quelques importations d’étalons étrangers, de sang oriental et flamand, n’ont pu marquer profondément la race.</p>
       </div>
-      <div>
+      <div xml:id="r725859">
         <head rend="uc">Première partie
          <lb/>L’administration des haras</head>
-        <div>
+        <div xml:id="r725867">
           <head rend="uc">Chapitre premier
            <lb/>la création des haras, 1663-1690.</head>
           <p>Afin de remplacer les haras seigneuriaux tombés en décadence et pour empêcher l’étranger de s’enrichir à nos dépens en fournissant les chevaux nécessaires à la remonte de notre cavalerie, Colbert, aidé de Fr.-G. de Garsault et, pour la Bretagne, de Calloët-Querbrat, créa l’administration des Haras (27 octobre 1665 ; Bretagne, 18 janvier 1666), fondée sur le monopole de l’État en matière de reproduction chevaline : nul étalon ne pouvait, en principe, faire la monte s’il n’avait été distribué ou approuvé par les inspecteurs des Haras. En Bretagne, dans les trois évêchés de Léon, Tréguier et Nantes, l’accueil fut d’abord peu enthousiaste.</p>
         </div>
-        <div>
+        <div xml:id="r725879">
           <pb source="https://nakala.fr/10.34847/nkl.6dd0vp58#6297e3480cb24e1e32a00fb4ae10fbd24fa89852" n="48" facs="https://api.nakala.fr/iiif/10.34847/nkl.6dd0vp58/6297e3480cb24e1e32a00fb4ae10fbd24fa89852/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>L’administration des haras sous M. De Pontchartrain, 1691-1715.</head>
           <p><hi rend="i">L’administration centrale et provinciale.</hi> – L’autorité du comte Jérôme de Pontchartrain, aidé de M. de Sainte-Colombe, était en principe entière ; mais on ne peut s’empêcher de prévoir une prochaine lutte d’influence entre direction générale, inspecteurs et intendant, et même la suprématie de ce dernier. Ordre et précision permirent de mener à bien l’œuvre d’organisation administrative.</p>
           <p><hi rend="i">Les achats d’étalons et leurs influences.</hi> – Les difficultés financières et la guerre réduisirent l’importation d’étalons. Une politique incohérente en cette matière amena la révolte des États.</p>
         </div>
-        <div>
+        <div xml:id="r725905">
           <head rend="uc">Chapitre III
            <lb/>Les règlements de 1717 et de 1727.</head>
           <p><hi rend="i">Le marquis de Brancas et le règlement de</hi> 1717. – Pour parachever l’œuvre de ses devanciers et unifier l’administration, le directeur général Brancas mit au point le très important règlement du 22 février 1717.</p>
           <p><hi rend="i">La révolte des États et la suppression des Haras en Bretagne.</hi> – La mort de Louis XIV délivra les États de Bretagne d’une contrainte assujettissante. L’Assemblée établit une administration autonome. Le caractère autoritaire de Brancas, l’intransigeance des États et la fierté des inspecteurs menèrent à la suppression des Haras en Bretagne (fin 1723).</p>
           <p><hi rend="i">Le rétablissement des Haras et le règlement de</hi> 1727. – Sur l’initiative de M. Becdelièvre du Bouexie, les États, par l’arrêt du 14 octobre 1727, obtinrent la quasi-autonomie de l’administration des Haras de Bretagne et ne laissèrent à la direction générale qu’un droit d’approbation des étalons achetés par leurs soins et un droit de surveillance sur les opérations du trésorier des États.</p>
         </div>
-        <div>
+        <div xml:id="r725932">
           <head rend="uc">Chapitre IV
            <lb/>L’administration des haras de Bretagne au <num>xviii<hi rend="sup">e</hi></num> siècle.</head>
           <p><hi rend="i">La direction générale des Haras du Royaume.</hi> – La direction perdit, au temps de Bertin et sous l’influence de Bourgelat, ses derniers pouvoirs en Bretagne.</p>
@@ -94,7 +92,7 @@
           <p><hi rend="i">L’achat des étalons et les acheteurs.</hi> – Le point de départ des achats étaient les demandes des inspecteurs. Le plus souvent, jusqu’en 1759, le responsable des achats fut le procureur syndic à la cour qui passait un traité avec un marchand. Après 1762, l’Assemblée nomma elle-même les acheteurs ; les étalons, livrés désormais à Rennes, échappèrent depuis 1771 à l’approbation du pouvoir central. Ces acheteurs, par leur personnalité, influèrent sur l’administration des Haras, surtout A. de Montléon, M. Hélie, pendant cinquante ans, et Duchesne, écuyer de l’Académie d’équitation de Rennes. En général un grand soin fut apporté dans l’achat des étalons.</p>
           <p><hi rend="i">Les garde-étalons et les particuliers.</hi> – L’inobservation des règlements. L’opposition des paysans, soumis à une réglementation qui les obligeait à mener leurs juments à l’étalon marqué sur le rôle, se traduisit par l’hostilité qu’ils témoignèrent au garde-étalon privilégié. La cause de ce mécontentement provint en partie des mauvais soins donnés aux étalons. Le système des garde-étalons se révéla mauvais et dut être réformé.</p>
         </div>
-        <div>
+        <div xml:id="r725988">
           <head rend="uc">Chapitre V
            <lb/>Les réformes de l’administration des haras de Bretagne.</head>
           <p><hi rend="i">L’importation de juments étrangères.</hi> – L’importation, pratiquée en 1755 sur les conseils de M. Hélie, ne donna que de médiocres résultats.</p>
@@ -102,20 +100,20 @@
           <p><hi rend="i">Les dépôts d’étalons.</hi> – Les dépôts de 1783-1785 furent formés aux lieux suivants : Lamballe, Le Boisriou (près Dinan), Pontrieux, transféré à Troguindy (près Lannion), Plounérin, Saint-Poul, Lannilis, Le Conquet, Le Hilguy (près Quimper), Ker-Saint-Éloy (près Carhaix), dissous en 1785, et Kersalaun (près Leuhan), créé sans autorisation. L’effectif réglementaire variait entre huit et douze étalons (vingt-deux étalons à Lamballe, par suite de son importance particulière). Malgré les frais considérables entraînés par ce changement, la nouvelle organisation laissait espérer d’excellents résultats.</p>
           <p><hi rend="i">Les vétérinaires de l’École d’Alfort.</hi> – Avant 1785, deux vétérinaires vinrent s’établir en Bretagne. Avec la création des services vétérinaires, en 1785, cinq nouveaux élèves d’Alfort, aux ordres des inspecteurs des dépôts, firent profiter les étalons et autres animaux ruraux des bienfaits de leur science.</p>
         </div>
-        <div>
+        <div xml:id="r726026">
           <head rend="uc">Chapitre VI
            <lb/>L’abolition des habas, 1790.</head>
           <p>Répondant plus à une nécessité fiscale qu’aux doléances des paysans et au vœu des physiocrates, l’Assemblée constituante décréta, le 29 janvier 1790, l’abolition des Haras. En Bretagne, la suppression des Haras s’effectua sans désordres. Les gentilshommes-inspecteurs renoncèrent en grand nombre à leurs fonctions et ils remirent les dépôts en bon état à leurs successeurs, les commissaires diocésains. La commission de liquidation, héritière des États, dut ordonner, le 20 septembre 1790, la vente des étalons de la Province ; l’achat des chevaux et du matériel (août 1790-janvier 1791) par des vétérinaires et des éleveurs laisse espérer que furent ainsi prolongés les services que pouvait rendre, malgré sa suppression, l’ancienne administration.</p>
         </div>
-        <div>
+        <div xml:id="r726038">
           <head rend="uc">Conclusion</head>
           <p>L’originalité de l’administration des Haras de Bretagne provient de son détachement progressif, mais complet, de la direction générale des Haras du Royaume ; deux crises conduisent à ce résultat : en 1716-1727 sous Brancas, en 1768-1775 sous Bertin. Alors que l’histoire des Haras de la France sous l’Ancien Régime est celle d’une centralisation continue, l’administration des Haras de Bretagne, conformément à l’évolution historique de la Province, est l’objet d’une décentralisation qui, au moment de sa suppression, allait devenir excessive. Un trait dominant de l’admi<pb source="https://nakala.fr/10.34847/nkl.6dd0vp58#8cf2d09ef7aa0914da12533fbd90053f37ba811c" n="51" facs="https://api.nakala.fr/iiif/10.34847/nkl.6dd0vp58/8cf2d09ef7aa0914da12533fbd90053f37ba811c/full/full/0/default.jpg"/>nistration des Haras de Bretagne est le caractère aristocratique de ses dirigeants. L’abolition des Haras ne fut que la conséquence de l’évolution des doctrines économiques et de la faillite du système administratif que les réformes tardives de 1785 ne purent sauver. On peut finalement constater le soin jaloux que prirent les États, la noblesse bretonne et M. Hélie des Haras de la Province et l’heureux développement qu’ils leur donnèrent.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r726054">
         <head rend="uc">Deuxième partie
          <lb/>L’élevage et le commerce</head>
-        <div>
+        <div xml:id="r726062">
           <head rend="uc">Chapitre premier
            <lb/>production et consommation.</head>
           <p><hi rend="i">La population chevaline.</hi> – Au début du <num>xviii<hi rend="sup">e</hi></num> siècle, la population en chevaux représentait la moitié de l’effectif actuel (1733 : 164.058 ; 1945 : 367.169). Depuis cette époque son accroissement fut continu (1754 : 201.868 ; 1850 : 342.753) et l’évolution joua en faveur de la localisation des régions spécialisées de production.</p>
@@ -123,7 +121,7 @@
           <p><hi rend="i">Le commerce.</hi> – Les courants d’échanges, à peu près immuables, permettaient d’associer dans l’élevage des régions différentes. Le plus souvent, la vente des poulains à l’étranger ne se faisait pas après l’âge de trois ans. Le commerce extérieur dépassait en importance le commerce intérieur : en 125 ans, l’exportation des chevaux bretons a doublé (de 13 à 25.000 environ). Le principal acheteur était le Normand, qui achetait soit dans les foires (La Martyre), soit sur la campagne. Les chevaux bretons « normannisés » étaient revendus avec profit dans tout l’ouest du royaume.</p>
           <p><hi rend="i">Les emplois du cheval.</hi> – Plus important qu’on ne le croit, le labourage par le cheval s’étendait dans le Léon et le pays de Dol à Saint-Méen. A la fin du siècle, il gagna le nord des évêchés de Tréguier et de Saint-Brieuc. L’amélioration des voies de communication transformant les modes de transport, le cheval de selle perdit la clientèle dont profita le cheval de trait et de carrosse. L’armée restait le principal acheteur.</p>
         </div>
-        <div>
+        <div xml:id="r726109">
           <pb source="https://nakala.fr/10.34847/nkl.6dd0vp58#42d09469135f0d24c6fdec208752d729324e0b2c" n="52" facs="https://api.nakala.fr/iiif/10.34847/nkl.6dd0vp58/42d09469135f0d24c6fdec208752d729324e0b2c/full/full/0/default.jpg"/>
           <head rend="uc">Chapitre II
            <lb/>Pratique de l’élevage.</head>
@@ -131,7 +129,7 @@
           <p><hi rend="i">Le pansage et la monte.</hi> – Le manque d’hygiène des paysans nuisit au développement de l’élevage : écuries inexistantes ou mal tenues (Léon) ; soins donnés aux étalons si mauvais que la durée de leur service ne dépassait guère la moitié de la durée actuelle.</p>
           <p><hi rend="i">La médecine vétérinaire.</hi> – Jusqu’à la création de l’École d’Alfort, la médecine vétérinaire était à base de procédés empiriques, et souvent les maladies épidémiques qui sévissaient continuellement en Bretagne ne pouvaient être enrayées. Avant 1785, les encouragements de l’armée, les recherches sur la morve entreprises par M. Hélie, soutenu par l’administration, l’armée, les messageries et les Haras contre l’École d’Alfort (Bourgelat, Flandrin et Chabert), permirent de sauver à plusieurs reprises les chevaux d’une épidémie généralisée. L’action d’Alfort, trop exclusive, se fit sentir avec succès après 1785.</p>
         </div>
-        <div>
+        <div xml:id="r726141">
           <head rend="uc">Chapitre III
            <lb/>L’évolution du cheval breton.</head>
           <p><hi rend="i">La doctrine des Haras : le croisement des races.</hi> – Parce que, pensait-elle, la race bretonne était mauvaise, l’administration estimait qu’il fallait croiser les races. Les étalons importés furent danois et holsteins, barbes et espagnols, puis, après la guerre de Sept ans, anglais et normands.</p>
@@ -139,13 +137,13 @@
           <p><hi rend="i">L’intérêt du paysan : le maintien de l’espèce.</hi> – Les efforts des Haras pour changer la race des chevaux bretons se heurtèrent à la résistance des populations agricoles. Le paysan, dont l’intérêt immédiat était en jeu et dont les buts étaient différents de ceux des Haras, estimait leur action mauvaise et resta attaché au cheval breton.</p>
           <p><hi rend="i">Bidets et chevaux de course.</hi> – Sous la direction des Haras, le cheval breton <pb source="https://nakala.fr/10.34847/nkl.6dd0vp58#b183e7ea54a6c5a5fcc35c2ec2f643eb1c4e8ddf" n="53" facs="https://api.nakala.fr/iiif/10.34847/nkl.6dd0vp58/b183e7ea54a6c5a5fcc35c2ec2f643eb1c4e8ddf/full/full/0/default.jpg"/> a évolué : sa taille s’est élevée. Le double-bidet est ruiné (Ouessant) ou en voie de disparition (Briec) ; le bidet tend à perdre ses caractères originaux. Le cheval de selle de Corlay n’apparaît que sous la Restauration ; il n’existait au <num>xviii<hi rend="sup">e</hi></num> siècle aucune race spéciale dans cette région ; le terroir plus que les croisements arabes du Moyen Age ont contribué à façonner la race du bidet breton. C’est ce bidet que, en même temps que se développaient en Bretagne les courses de chevaux, sous leur influence et à l’instigation de la nouvelle administration des Haras, l’éleveur du premier tiers du <num>xix<hi rend="sup">e</hi></num> siècle transforma dans la région de Corlay (de Rostrenen à Loudéac) pour en faire un cheval de course.</p>
         </div>
-        <div>
+        <div xml:id="r726191">
           <head rend="uc">Chapitre IV
            <lb/>Mulets, ânes et baudets.</head>
           <p>Seul le Comté-Nantais, dans les régions du Croisic, de Guérande et Paimbœuf, utilisait des mulets pour les salines et le colportage. On élevait des ânes dans le pays de Nantes et de Saint-Malo. Seul l’évêché de Nantes produisait des baudets ou en importait du Poitou ; la tentative faite par les États en 1755 pour étendre l’élevage des baudets à d’autres régions de la province aboutit à un échec.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r726204">
         <head rend="uc">Conclusion</head>
         <p>1666-1790 : cent vingt-cinq années durant lesquelles l’administration des Haras posséda le monopole de la reproduction chevaline en Bretagne. Si elle ne parvint pas à changer les vices de l’éducation et à remédier au manque d’hygiène, elle est responsable, cependant, des transformations que subit l’élevage, de l’extension du commerce et, indirectement, des progrès réalisés dans la lutte contre les épidémies. L’évolution du cheval breton, contraire à l’intérêt immédiat du paysan et à son esprit de routine, est dictée par les besoins militaires. L’activité que l’administration des Haras d’Ancien Régime exerça sur l’élevage du cheval en Bretagne, bien que sévèrement jugée par certains, ne fut pas un insuccès.</p>
       </div>

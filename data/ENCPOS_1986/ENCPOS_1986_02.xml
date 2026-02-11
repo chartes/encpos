@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_02" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1986_02" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,9 +27,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text() or div]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div[p/text() or div]" use="position()">
+          <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
           </citeStructure>
         </citeStructure>
@@ -59,17 +57,17 @@
         <surname>Bages</surname>
         <roleName>licenciée ès lettres</roleName>
       </byline>
-      <div>
+      <div xml:id="r1127086">
         <head rend="uc">Introduction</head>
         <p>Bien que des chercheurs tels que Pierre Duhem ou Edmond Faral aient fait remarquer l’importance et l’intérêt des <hi rend="i">Questiones super tres libros Metheororum Aristotelis</hi> de Jean Buridan, ce texte n’a jamais été édité, à l’exception de quelques passages cités dans diverses études consacrées à Buridan ; encore ces citations ne prenaient-elles en compte qu’un ou deux manuscrits.</p>
         <p>La météorologie au Moyen Age recouvre un domaine beaucoup plus vaste que la science contemporaine qui porte ce nom. Buridan définit le terme dans la première question : la météorologie « considère les qualités secondes, les passions, les mouvements (changements) et les opérations que subissent les corps par suite de l’altération de leurs qualités premières... » (I, 1, § 14) ; il en donne également le sens étymologique : étude des phénomènes qui se produisent en haut, pour ajouter aussitôt qu’il faut dépasser cette signification restrictive, car la météorologie concerne également ce qui se passe sous terre (séismes, génération des sources), ainsi que les transformations que subissent plantes et animaux, minéraux et métaux. Elle s’étend, en fait, à des domaines qui, de nos jours, relèveraient de sciences aussi diverses que la géologie, l’orographie, l’hydrographie (y compris l’océanographie), l’optique, ou même la chimie.</p>
         <p>La coupure qui arrête à la fin du premier livre la présente édition des <hi rend="i">Questions sur les météores</hi> peut paraître artificielle : en effet, l’étude de la mer, commencée dans les deux dernières questions du livre I, et qui se poursuit au livre II, se trouve ainsi brusquement interrompue. Elle correspond, toutefois, à la division traditionnelle du texte d’Aristote, que Buridan a respectée non sans la critiquer au début de son troisième livre. Par ailleurs, les questions 20 et 21 ne <pb source="https://nakala.fr/10.34847/nkl.d594dz03#304b9c6763bfaf320aac4f8f83953a84db867bc2" n="14" facs="https://api.nakala.fr/iiif/10.34847/nkl.d594dz03/304b9c6763bfaf320aac4f8f83953a84db867bc2/full/full/0/default.jpg"/>traitent pas à proprement parler de la mer, mais des changements géologiques que subit le globe terrestre.</p>
       </div>
-      <div>
+      <div xml:id="r1127115">
         <head rend="uc">
           <hi rend="i">Première partie</hi>
           <lb/>Étude</head>
-        <div>
+        <div xml:id="r1127127">
           <head rend="uc">Chapitre premier
            <lb/>Jean Buridan. L’auteur a travers son œuvre</head>
           <p>L’article qu’Edmond Faral a consacré à Jean Buridan (<hi rend="i">Histoire littéraire de la France,</hi> t. 28, 1949) a fait date : l’auteur y exploitait l’ensemble des sources susceptibles de fournir quelque renseignement sur le maître parisien. Les <hi rend="i">Questions sur les Météores</hi> n’ont pas échappé à sa vigilance, d’autant que cet ouvrage est sans doute, de tous les écrits de Buridan, le plus riche en indications sur la vie de l’auteur, son enseignement, certains aspects de son caractère, ses lectures... Un bon nombre de points, cependant, restent à préciser, grâce à l’apport, et à la diversité, de onze manuscrits qui viennent singulièrement élargir la base du travail d’E. Faral, limitée en son temps aux deux manuscrits Bibliothèque nationale, lat. 14723 (<hi rend="i">B</hi>) et Sorbonne 597 (<hi rend="i">F</hi>).</p>
@@ -85,7 +83,7 @@
           <p>Par souci d’honnêteté intellectuelle, Buridan se garde, en cas de doute, de toute affirmation péremptoire (I, 3, § 37). Non seulement le doute en matière <pb source="https://nakala.fr/10.34847/nkl.d594dz03#dad2363209d586199a5e7bfce3c3be7ac58bcf95" n="17" facs="https://api.nakala.fr/iiif/10.34847/nkl.d594dz03/dad2363209d586199a5e7bfce3c3be7ac58bcf95/full/full/0/default.jpg"/>scientifique ne l’effraie pas, il lui est, au contraire, source de satisfaction (I, 19, § 33).</p>
           <p>Buridan fait mention d’expériences scientifiques : observation de la dilatation de l’air dans une fiole plongée dans de l’eau (I, 19, § 7) ; utilisation, au moins théorique, d’un pluviomètre de fortune (I, 19, §§ 47-48), alors que la première expérience de ce genre connue en Occident est traditionnellement attribuée à Benedetto Castelli vers 1639. Il use également, à diverses reprises, des raisonnements et des calculs mathématiques : afin d’établir les rapports des éléments entre eux, il reproduit les calculs de Ptolémée (I, 3, §§ 31 et 41). Ailleurs, il s’efforce de déterminer l’altitude du mont Ventoux (I, 20, §§ 10 et 11). La précision le laisse néanmoins indifférent, et il est le premier à le reconnaître. Les chiffres sont très approximatifs (<hi rend="i">fere 33, quasi 1089...</hi>) Il préfère laisser le soin de l’exactitude « à ceux qui veulent bien calculer ». Lorsqu’il doit se livrer à un calcul d’altitude, il invoque ses faibles capacités en fait de mesures, imprécision qui lui fait donner au mont Ventoux le double de la hauteur de l’Himalaya.</p>
         </div>
-        <div>
+        <div xml:id="r1127415">
           <head rend="uc">Chapitre II
            <lb/>Les sources</head>
           <p><hi rend="i">Les prédécesseurs d’Aristote.</hi> – Parmi les nombreux philosophes pré-socratiques dont Aristote réfute les théories, Buridan ne cite qu’un nom, celui d’Anaxagore, et qu’un groupe, les Pythagoriciens ; il évoque, mais sans les désigner, les théories de Démocrite et d’Hippocrate de Chio. Ces citations portent essentiellement sur les comètes (I, 12, §§ 3, 5, 6), la galaxie (I, 14, §§ 9, 10, 13, 15) et la mer (livre II). Mais il est certain que Buridan ne connaît leurs théories qu’à travers Aristote. En revanche, à propos de l’<hi rend="i">antiperistasis,</hi> il fait référence directement à Hippocrate (I, 7, § 2).</p>
@@ -99,7 +97,7 @@
           <p>Se fier au seul énoncé des questions ne peut conduire qu’à l’erreur, car tous ces maîtres reprennent les mêmes sujets classiques de discussion, tirés du texte d’Aristote. Le problème se complique encore du fait qu’il y a eu contamination des manuscrits entre eux par la faute des copistes. Ceux-ci ont pu compléter tel manuscrit lacunaire avec les questions équivalentes prises chez tel autre auteur. C’est sans doute ce qui explique, comme il l’a été démontré, que l’auteur des questions 18-19 et 21-35 du livre III des <hi rend="i">Questions</hi> attribuées à Oresme soit Thémon (A. Birkenmaier, 1972). Quant au manuscrit <hi rend="i">L</hi> (Munich Clm 17226), il réunit la totalité des questions de Buridan et une partie des questions d’Oresme dans les deux premiers livres, tandis que le livre III est de Thémon et le livre IV d’Oresme.</p>
           <p>Une chronologie relative de ces textes a été proposée : Buridan, puis Oresme suivi par Jean Scot et Albert, enfin Thémon écrivant après 1370 ; l’année 1355 serait le terme ante <hi rend="i">quem</hi> des <hi rend="i">Questions</hi> de Jean Scot et d’Albert, tandis que Nicole Oresme aurait composé son ouvrage encore plus tôt, vers 1350 (A. Birkenmaier). Or, la rédaction des <hi rend="i">Questions</hi> de Buridan a été sans doute fort tardive, datant peut-être des années 1357-1358. Mais cette datation étant fondée sur les exemples, elle ne contredit pas l’antériorité éventuelle de la doctrine de Buridan qui a très bien pu influencer ses élèves ou ses collègues d’une manière orale, dans des cours ou des discussions qu’il aurait mis par écrit seulement à la fin de sa vie.</p>
         </div>
-        <div>
+        <div xml:id="r1127592">
           <head rend="uc">Chapitre III
            <lb/>La météorologie au <num>xiv<hi rend="sup">e</hi></num> siècle : principes généraux</head>
           <p>Les trois premières questions du livre I définissent la météorologie (question 1), les influences du ciel sur la terre (question 2), les différents rapports des éléments entre eux (question 3). Les questions 4 à 7 traitent des températures et définissent le phénomène d’<hi rend="i">antiperistasis</hi> ou renforcement par les contraires. Par sa chaleur, le soleil corrompt les éléments terrestres et humides et en élève des évaporations sèches (exhalaisons) qui sont à l’origine des phénomènes liés au feu (étoiles filantes, comètes : questions 8-14) et les vapeurs humides à l’origine des phénomènes aqueux : rosée, pluie, neige, brouillard, grêle (questions 15 à 18), sources et rivières, nées sous terre de la condensation de l’air (question 19), mer (questions 20 à 6 du livre II). La question 21 présente la théorie géologique de Buridan : la partie émergée de la terre étant plus légère et sans cesse allégée par l’érosion qui accroît le fond des mers, la masse totale de la terre doit s’élever d’un mouvement lent mais continuel vers la surface découverte par les eaux et s’enfoncer du côté de l’Océan afin que le centre de pesanteur de la terre coïncide toujours avec le centre du monde.</p>
@@ -107,11 +105,11 @@
           <p>Exhalaisons et vapeurs, interposées entre l’observateur et les astres, sont <pb source="https://nakala.fr/10.34847/nkl.d594dz03#fc2da3657605a9196c33afd0dabd3d0b93504d06" n="20" facs="https://api.nakala.fr/iiif/10.34847/nkl.d594dz03/fc2da3657605a9196c33afd0dabd3d0b93504d06/full/full/0/default.jpg"/>à l’origine de toutes sortes de phénomènes tels que halos et parhélies (III, questions 6-9, 20). L’étude des rayons visuels, réflexions et réfractions, occupe les questions 3 et 4. La question 5 traite de miroirs et d’illusions d’optique, la question 10, des troubles de la vue. L’arc-en-ciel occupe une place de choix : les questions 11 à 19 lui sont réservées.</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1127626">
         <head rend="uc">
           <hi rend="i">Deuxième partie</hi>
           <lb/>Édition du livre I des <hi rend="i">Questiones super libros</hi><lb/><hi rend="i">Metheororum Aristotelis</hi><lb/>de Jean Buridan</head>
-        <div>
+        <div xml:id="r1127647">
           <head rend="uc">Chapitre premier
            <lb/>les manuscrits</head>
           <p>Il existe, à ma connaissance, treize manuscrits des <hi rend="i">Questions</hi> de Buridan.</p>
@@ -130,13 +128,13 @@
           <pb source="https://nakala.fr/10.34847/nkl.d594dz03#c90e6559f9000d3edbbb75af0eec579f746424d8" n="21" facs="https://api.nakala.fr/iiif/10.34847/nkl.d594dz03/c90e6559f9000d3edbbb75af0eec579f746424d8/full/full/0/default.jpg"/>
           <p><hi rend="i">L</hi> : Munich, Nationalbibliothek, Clm 17 226, daté 1413, 140 folios. (Le <hi rend="i">Prooemium</hi> et les questions 1-3, 10-15, 18-20, 24-30, 38 et 39 du livre I, les questions 1-15 et 20-23 du livre II sont de Buridan. Les autres questions des livres I et II ainsi que le livre IV sont d’Oresme, le livre III est de Thémon.)</p>
         </div>
-        <div>
+        <div xml:id="r1127826">
           <head rend="uc">Chapitre II
            <lb/>L’édition</head>
           <p>Le texte de l’édition a été établi d’après les manuscrits <hi rend="i">H</hi> et <hi rend="i">A,</hi> les meilleurs représentants de leur famille respective, avec consultation systématique des manuscrits E et <hi rend="i">I</hi> et recours éventuel aux manuscrits restants en cas de difficulté (divergences importantes entre les manuscrits de base, lacunes, problèmes de lecture, noms propres ou rares...).</p>
         </div>
       </div>
-      <div>
+      <div xml:id="r1127851">
         <head rend="uc">Pièces annexes</head>
         <p>Liste des questions de Buridan, de Nicole Oresme et de Thémon Juif. – Index rerum. – Index personarum et locorum.</p>
         <pb source="https://nakala.fr/10.34847/nkl.d594dz03#980d0bd2f8a53524584bb88fca68ed5d27f68e71" n="22" facs="https://api.nakala.fr/iiif/10.34847/nkl.d594dz03/980d0bd2f8a53524584bb88fca68ed5d27f68e71/full/full/0/default.jpg"/>

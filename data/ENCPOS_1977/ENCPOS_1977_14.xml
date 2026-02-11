@@ -1,6 +1,4 @@
-<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_14" xml:lang="fre">
+<?xml-model href="../encpos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../hteiml/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENCPOS_1977_14" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI/text/body/div[p/text()]" use="position()">
+        <citeStructure match="/TEI/text/body/div[p/text()]" use="@xml:id">
           <citeData use="head" property="dc:title"/>
         </citeStructure>
       </refsDecl>
@@ -53,16 +51,16 @@
         <forename>Alain</forename>
         <surname>Roquelet</surname>
       </byline>
-      <div>
+      <div xml:id="r1031148">
         <head rend="uc">Avant-propos</head>
         <p>Il suffit de regarder quelques instants une carte de la Franche-Comté pour se rendre compte de trois faits : d’immenses étendues boisées couvrent une très grande partie de la province ; les toponymes rappelant l’extraction du minerai de fer, tels que La Ferrière-sous-Jougne, Vy-le-Ferroux, bois de la Mineraie, Étang de la Forge, Le Martinet sont nombreux ; enfin, des cours d’eau traversent la province. Combustible, minerai, force motrice : les trois éléments indispensables à l’implantation d’une industrie sidérurgique sont réunis.</p>
         <p>Nous n’aurions pas entrepris une étude sur la métallurgie comtoise sur laquelle ont déjà été publiés maints travaux, si nous ne nous étions aperçu de deux choses : une crise touche le commerce comtois tout entier en 1783-1787, mais surtout les maîtres de forges de la province ; évoquée maintes fois, mais jamais étudiée, cette crise a fortement frappé les esprits de l’époque. Cette impression d’extrême gravité est confirmée par les archives de la Justice consulaire de Besançon : le nombre de bilans déposés en 1783, l’importance des dossiers relatifs à un bon nombre des faillis de cette époque ne pouvaient que nous inciter à étudier cette question.</p>
       </div>
-      <div>
+      <div xml:id="r1031161">
         <head rend="uc">Sources</head>
         <p>La série 4 B des Archives départementales du Doubs (Justice consulaire de Besançon) constitue notre source essentielle. On y trouve en particulier les dossiers des « jugements particuliers » : ces dossiers personnels renferment les pièces relatives aux faillites (bilan, redressements, factums, etc.), ainsi que, dans la plupart des cas, la comptabilité des entreprises du failli. Aux Archives nationales, la sous-série F<hi rend="sup">12</hi> nous a livré les rapports de l’intendant de Franche-Comté et ses mémoires relatifs à la crise étudiée. Enfin, les Archives de la Marine nous ont permis, dans une certaine mesure, de cerner les rapports entre la Marine et l’industrie sidérurgique comtoise dont elle est l’un des principaux clients.</p>
       </div>
-      <div>
+      <div xml:id="r1031175">
         <pb source="https://nakala.fr/10.34847/nkl.74876vn2#5eb7d8d19fca7a109147bbf995e030b05ea57cbe" n="124" facs="https://api.nakala.fr/iiif/10.34847/nkl.74876vn2/5eb7d8d19fca7a109147bbf995e030b05ea57cbe/full/full/0/default.jpg"/>
         <head rend="uc">Chapitre premier
          <lb/>la forge comtoise</head>
@@ -73,7 +71,7 @@
         <p><hi rend="i">Propriétaires et maîtres de forges.</hi> – Il ne faut pas confondre le propriétaire d’une usine et l’exploitant de celle-ci, le maître de forges : ce dernier prend, la plupart du temps, une ou plusieurs usines à ferme, le bail étant signé entre lui et le propriétaire qui peut être une abbaye ou un chapitre, un noble (de sang ou de robe) – c’est le cas le plus fréquent – ou encore à un homme du tiers. Mais, dans ce dernier cas, le propriétaire est le plus souvent son propre maître de forges. Qu’il achète ou prenne à bail les forges qu’il exploite, le maître de forges apparaît, la plupart du temps, comme un homme venu à cette branche du « commerce » pour faire fructifier un capital assez important, et, par là même, tenter de faire fortune. Point n’est besoin de connaissances en sidérurgie : le maître de forges exploite, ses directeurs et commis s’occupent de la direction effective du roulement des forges. Mais, en même temps que l’usine, le maître de forges prend un ou plusieurs domaines à bail : la forge comtoise, exigeant de gros investissements, demeure cependant essentiellement rurale et domaniale. Elle vit quasiment de ses propres ressources, presque en circuit fermé.</p>
         <p>Telle est la sidérurgie comtoise, tels sont ceux qui en vivent et espèrent en tirer des profits substantiels, telle est l’unité de base, la forge ; c’est elle qui, en 1783, est en crise.</p>
       </div>
-      <div>
+      <div xml:id="r1031240">
         <head rend="uc">Chapitre II
          <lb/>Le 6 octobre 1783 et ses conséquences</head>
         <p><hi rend="i">Bilan et justice consulaire.</hi> – Au <num>xviii<hi rend="sup">e</hi></num> siècle, le droit commercial est toujours dit d’après le Code Marchand de 1673 et des déclarations royales qui le complètent, dont celle de 1715 qui oblige tous les marchands, négociants et banquiers qui font faillite à déposer un compte exact de tout leur avoir et de leurs dettes (passif), ainsi que leurs livres et autres registres au greffe de la juridiction consulaire la plus proche de l’endroit où ils exercent leur commerce. Essai de normalisation du bilan, qui devrait comporter au passif tous les créanciers, les endossements et, à l’actif, les biens (mobilier, immeubles), fonds de roulement, stocks, créances actives. Dans la pratique, ce bilan est assez informe.</p>
@@ -85,7 +83,7 @@
         <p>La crise est encore aggravée par la mort (suicide ? accident ?) d’un grand banquier bisontin, Fleur, dont le crédit eût peut-être permis d’enrayer quelque peu le déroulement de cette révolution, pour reprendre une expression qui qualifie bien le sentiment de tous en 1783. La crise, par ailleurs, a des prolongements en Bourgogne, en Champagne, où les maîtres de forges sont également les plus gravement touchés.</p>
         <p>Pourquoi une telle révolution dans le commerce comtois ? Pourquoi surtout cet enchaînement de faillites ?</p>
       </div>
-      <div>
+      <div xml:id="r1031290">
         <head rend="uc">Chapitre III
          <lb/>Un problème crucial : le manque de numéraire</head>
         <p><hi rend="i">La « banque » dans les années 1780.</hi> – Les définitions de banque et de banquier apparaissent assez difficilement cernables : en effet, si la frontière entre financiers et banquiers est indistincte et floue, il en est de même à l’échelon inférieur, pour la distinction entre banque et négoce. Mis à part les grands <pb source="https://nakala.fr/10.34847/nkl.74876vn2#0a1d8ddb3ac397d9d21539b63c000757b65fa657" n="127" facs="https://api.nakala.fr/iiif/10.34847/nkl.74876vn2/0a1d8ddb3ac397d9d21539b63c000757b65fa657/full/full/0/default.jpg"/>banquiers parisiens qui ont plus ou moins de rapports avec les financiers, existe une foule de maisons qui, tant à Paris qu’à Lyon ou à Besançon, ou dans n’importe quelle autre province ou ville, « font la banque », comme une activité annexe à leur négoce. Faire la banque, c’est servir d’intermédiaire dans les paiements : papiers de commerce et monnaie métallique sont la marchandise du banquier ou du marchand-banquier. Et si ces mots évoquent le commerce international, il ne faut pas oublier que les opérations de banque sont tout aussi courantes entre villes du royaume, entre Paris et les provinces, et surtout la Franche-Comté.</p>
@@ -102,7 +100,7 @@
         <p><hi rend="i">Aux origines de la crise : le manque de numéraire.</hi> – Le manque d’espèces, bien que général à tout le royaume, se fait particulièrement sentir en Comté : il semble à peu près certain que des banquiers avisés, tel Fleur, font passer le numéraire en Suisse et, de là, aux ennemis du moment : les Anglais. A cette pénurie d’argent vient s’ajouter en mai 1783 et dans les mois suivants la crise que traverse la Caisse d’Escompte qui, comme tous les manieurs d’argent, souffre du manque de numéraire, et, de plus, de sa collusion avec le Trésor royal. <pb source="https://nakala.fr/10.34847/nkl.74876vn2#c94ae7bc93b14ab60f7a600b650e3a7457cd6bb0" n="129" facs="https://api.nakala.fr/iiif/10.34847/nkl.74876vn2/c94ae7bc93b14ab60f7a600b650e3a7457cd6bb0/full/full/0/default.jpg"/>Les banquiers parisiens, face au refus de la Caisse de réescompter, inquiets de la conjoncture, font retour à protêt des effets envoyés de Franche-Comté. Le répit arrive trop tard : une transfusion de piastres d’Espagne en France en octobre 1783 n’est en rien une aide pour la Comté, à laquelle on refuse par ailleurs un emprunt d’un million au canton de Berne, après avoir refusé de lui venir en aide directement.</p>
         <p>Mais une telle conjoncture ne saurait expliquer à elle seule la crise que traverse la métallurgie comtoise.</p>
       </div>
-      <div>
+      <div xml:id="r1031365">
         <head rend="uc">Chapitre IV
          <lb/>Des débouchés difficiles</head>
         <p><hi rend="i">La paix, facteur de crise.</hi> – En 1783, cela fait huit ans que la France aide les « Insurgents » d’Amérique dans leur guerre d’indépendance contre l’Angleterre : en janvier 1783, sont signés les préliminaires de paix. Conséquence immédiate : les services de la Marine cessent toute commande. Or, le port de Toulon est un très gros consommateur de munitions (boulets) et de fers en tous genres. A preuve : en 1782, les commandes de ce port à ses fournisseurs s’élèvent à plus de 2,5 millions de livres de fers en provenance de Franche-Comté. En 1783, aucune commande ; en 1784 : 947 000 livres de fers commandées. Les boulets subissent le même sort : plus aucune commande en 1783. Un débouché aussi important pour les forges comtoises fait brusquement défaut, du fait de la paix.</p>
@@ -114,7 +112,7 @@
         <p>Les prix des produits sidérurgiques dépendent étroitement de tout ce qui précède. La crise devrait les faire baisser, ou à tout le moins stagner. Or, si, au début, il en est bien ainsi, du fait notamment que les marchands de fer lyonnais, principaux clients des maîtres de forges comtois, jouent à la baisse pour essayer de concurrencer les fers suédois et payer moins cher le fer provenant de Franche-Comté, les maîtres de forges réagissent rapidement, et, en septembre 1784, signent entre eux une convention pour maintenir les prix. Les augmentations des prix de voiture aidant, l’on voit les fers augmenter de 15 à 20 % en un an, hausse qui se poursuit jusqu’en 1787, pour faire place à un légère stagnation, et ensuite à une chute en 1789.</p>
         <p>A toutes ces difficultés dues au manque de numéraire et aux difficultés rencontrées par les maîtres de forges comtois à trouver des débouchés qui leur permettent d’écouler le surplus de production dû à la paix et à ses conséquences, viennent encore s’en ajouter d’autres provenant d’une augmentation des coûts de production, et plus particulièrement du prix des bois.</p>
       </div>
-      <div>
+      <div xml:id="r1031418">
         <head rend="uc">Chapitre V
          <lb/>De l’arbre à la Barre de fer
          <lb/>ou les coûts de production</head>
@@ -128,7 +126,7 @@
         <p>Des frais divers et extraordinaires entrent également dans le prix de revient d’un millier de fonte et de fer : variant d’un mois à l’autre, variant avec la forge, ils n’atteignent jamais que quelques centaines de livres.</p>
         <p>Le bénéfice reste possible pour le maître de forges comtois, malgré ces hausses des coûts de production, et malgré le temps qui lui a manqué pour amortir le prix d’achat ou de location de l’usine ou des usines qu’il exploite. Si l’on calcule le prix de revient d’un millier de fonte et d’un millier de fer en barres, on s’aperçoit que le bénéfice peut atteindre 15 à 20 %. Le premier maître de forges à avoir déposé son bilan, déclenchant ainsi la « révolution » de 1783, Lambert, avoue pouvoir faire un bénéfice annuel de 25 000 livres en faisant rouler ses deux forges.</p>
       </div>
-      <div>
+      <div xml:id="r1031487">
         <head rend="uc">Chapitre VI
          <lb/>1786-1787 ou la rechute</head>
         <p><hi rend="i">1784 : rétablissement des faillis.</hi> – En avril 1784, les faillis sont remis à la tête de leurs affaires grâce au traité d’atermoiement que chacun d’eux obtient de ses créanciers. Les conditions en sont extrêmement favorables : remise d’au moins 50 % de leurs dettes, paiement de celles-ci dans un délai allant de dix à plus de vingt ans.</p>
@@ -140,16 +138,16 @@
         <p><hi rend="i">Une seconde faillite généralisée.</hi> – Dans de telles conditions, un second dépôt de bilan est inévitable : c’est ce qui se passe en 1786-1787. Certains des faillis rétablis ont réussi tant bien que mal à faire face au premier paiement, parfois partiel, de leurs créances, d’autres même à un second. Les uns après les autres, les maîtres de forges rétablis en 1784, au lieu de la somme de leur paiement, remettent à leurs créanciers leur « état de situation ». Et, aussitôt, ces maîtres de forges essaient de faire la remise de toutes leurs affaires, de se retirer en vendant, qui ses usines, qui le bail des usines qu’il exploite, avec leurs stocks et approvisionnements, dont le produit ira à leurs créanciers.</p>
         <p>Banqueroute ? Faillite frauduleuse ? Le problème ne sera jamais résolu. Dès la remise du second bilan, les faillis sont traînés en justice : ainsi débute un procès au criminel qui dure plus de cinq ans. Les accusations de dilapidation de l’avoir, d’opérations frauduleuses entre les deux faillites et d’autres encore comme collusions entre syndics des masses et faillis, ne semblent pas sans fondement. Les preuves ne seront jamais réunies.</p>
       </div>
-      <div>
+      <div xml:id="r1031534">
         <head rend="uc">Conclusion</head>
         <p>La crise que traverse la sidérurgie comtoise entre 1783 et 1787, d’une exceptionnelle ampleur et d’une extrême gravité, n’annonce en rien la décadence des forges comtoises à partir de la moitié du <num>xix<hi rend="sup">e</hi></num> siècle. En revanche, elle semble véritablement annoncer, par ses origines, les crises industrielles de ce <num>xix<hi rend="sup">e</hi></num> siècle où le capitalisme bancaire prend son essor et où le crédit prend une importance qui ne cesse de grandir.</p>
       </div>
-      <div>
+      <div xml:id="r1031556">
         <pb source="https://nakala.fr/10.34847/nkl.74876vn2#971c012950a5c4a96d200edf8eb3bb61d94ea93e" n="134" facs="https://api.nakala.fr/iiif/10.34847/nkl.74876vn2/971c012950a5c4a96d200edf8eb3bb61d94ea93e/full/full/0/default.jpg"/>
         <head rend="uc">Annexes</head>
         <p>(Tableaux relatifs aux chapitres I, III, IV et V.</p>
       </div>
-      <div>
+      <div xml:id="r1031571">
         <head rend="uc">Pièces justificatives</head>
         <p>Mémoires de l’intendant sur les faillites de 1783. – Bilans de 1783. – Répartition du premier paiement de Lebeuffe, maître de forges à Conflandey et Passavant.</p>
       </div>
