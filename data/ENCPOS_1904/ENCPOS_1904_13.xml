@@ -31,7 +31,7 @@
           <citeData use="head" property="dc:title"/>
           <citeStructure match="div[p/text() or div]" use="@xml:id">
             <citeData use="head" property="dc:title"/>
-          </citeStructure>
+          <citeStructure match="div[p/text() or div]" use="@xml:id"><citeData use="head" property="dc:title"/></citeStructure></citeStructure>
         </citeStructure>
       </refsDecl>
     </encodingDesc>
@@ -123,7 +123,7 @@
           <head rend="uc">Chapitre VIII
            <lb/>La carrière ecclésiastique</head>
           <p>Les bénéfices de Ronsard. Modicité de ses revenus. Il ne fut pas prêtre.</p>
-          <div>
+          <div xml:id="r290307">
             <head rend="uc">Aperçu sur la vie politique de Ronsard</head>
             <p/>
           </div>
